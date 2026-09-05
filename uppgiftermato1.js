@@ -1,11 +1,8 @@
 /* uppgiftermato1.js — Matematik – fortsättning nivå 1b och 1c.
 
-   Adaptiv metadata – strikt dubbelkontroll:
-   - samtliga uppgifter har svarstyp, rättSvar, tolerans och självrättning
-   - öppna/resonerande/flera-möjliga-svar-uppgifter självrättas konservativt
-   - numeriska rättSvar är normaliserade till rena värden där självrättning används
-   - flerdelade uppgifter kräver strukturerad svarlista
-   - lösningskedjor och förklaringar har rensats bort ur självrättande rättSvar
+   Adaptiv metadata + förmågemetadata, dubbelgranskad 2026-09-05.
+   Förmågor: procedur, begrepp, modellering, resonemang.
+   Kommunikation taggas inte.
 */
 
 window.BANKMATO1 = [
@@ -27,7 +24,11 @@ window.BANKMATO1 = [
     "svarstyp": "val",
     "rättSvar": "A och D",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.02",
@@ -47,7 +48,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.03",
@@ -67,7 +73,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.04",
@@ -87,7 +98,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.05",
@@ -106,7 +122,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-1\\text{ eller }x=4",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.06",
@@ -126,7 +145,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "6x(x-2)(x+2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.07",
@@ -146,7 +168,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=\\frac12(x+2)(x-1)(x-3)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.08",
@@ -166,7 +192,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{x-3}{x+2}, där x\\neq-3,-2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.09",
@@ -186,7 +215,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.10",
@@ -205,7 +239,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.11",
@@ -225,7 +263,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.12",
@@ -249,7 +290,11 @@ window.BANKMATO1 = [
       "f(2)=3"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.13",
@@ -269,7 +314,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=0\\text{ eller }x=3",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.14",
@@ -289,7 +337,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.15",
@@ -308,7 +361,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.16",
@@ -328,7 +384,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "2x^2+4x-4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.17",
@@ -352,7 +411,11 @@ window.BANKMATO1 = [
       "f(2)=0"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.18",
@@ -372,7 +435,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{x-1}{x+1}}\\), där \\(\\boxed{x\\neq-2,-1,1,2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.19",
@@ -392,7 +459,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.20",
@@ -411,7 +483,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-2\\ \\text{eller}\\ x=8",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.21",
@@ -431,7 +506,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "(x-2)(x-1)(x+1)(x+2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.22",
@@ -455,7 +533,11 @@ window.BANKMATO1 = [
       "f(3)=5"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.23",
@@ -475,7 +557,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x + 3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.24",
@@ -495,7 +581,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=2,\\;b=-3}\\) och funktionen blir kontinuerlig vid \\(x=1\\) om man definierar \\(\\boxed{f(1)=\\frac12",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.25",
@@ -514,7 +605,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-5\\ \\text{eller}\\ x=9",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.26",
@@ -534,7 +628,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.27",
@@ -554,7 +652,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.28",
@@ -574,7 +676,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x - 4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.29",
@@ -594,7 +700,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.30",
@@ -613,7 +723,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=3\\ \\text{eller}\\ x=5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.31",
@@ -633,7 +746,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.32",
@@ -653,7 +770,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.33",
@@ -673,7 +794,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x - 3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.34",
@@ -693,7 +818,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.35",
@@ -712,7 +841,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "-1<x<5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.36",
@@ -732,7 +864,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.37",
@@ -752,7 +887,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=- \\left(x - 1\\right) \\left(x + 2\\right)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.38",
@@ -772,7 +911,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x - 1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.39",
@@ -792,7 +935,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.40",
@@ -811,7 +958,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "-5\\le x\\le3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.41",
@@ -831,7 +981,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.42",
@@ -851,7 +1004,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=\\left(x - 3\\right) \\left(x + 1\\right)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.43",
@@ -871,7 +1028,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{x+2}{x+4}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.44",
@@ -891,7 +1051,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.45",
@@ -910,7 +1074,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x<1\\) eller \\(x>5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.46",
@@ -930,7 +1097,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.47",
@@ -950,7 +1120,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=\\frac{5 \\left(x - 4\\right) \\left(x - 1\\right)}{4}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.48",
@@ -970,7 +1144,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x+2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.49",
@@ -990,7 +1167,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.50",
@@ -1009,7 +1190,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.51",
@@ -1029,7 +1213,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.52",
@@ -1049,7 +1236,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.53",
@@ -1069,7 +1260,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{x+1}{2x-6}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.54",
@@ -1089,7 +1283,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.55",
@@ -1108,7 +1306,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.56",
@@ -1128,7 +1329,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-3,\\ 3,\\ 4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.57",
@@ -1148,7 +1352,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "symmetrilinje x=1, minimipunkt (1,-3)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.58",
@@ -1168,7 +1376,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=1-\\sqrt2\\text{ eller }x=1+\\sqrt2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.59",
@@ -1188,7 +1399,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "c=4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.60",
@@ -1207,7 +1423,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=|x-1|-2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.61",
@@ -1227,7 +1447,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-2,\\ 2,\\ 5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.62",
@@ -1247,7 +1470,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "symmetrilinje x=2, maximipunkt (2,4)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.63",
@@ -1267,7 +1494,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=8",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.64",
@@ -1287,7 +1517,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "c=-2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.65",
@@ -1306,7 +1541,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=|x+2|+1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.66",
@@ -1326,7 +1565,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-3,\\ -2,\\ 3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.67",
@@ -1346,7 +1588,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "symmetrilinje x=-2, minimipunkt (-2,1)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.68",
@@ -1366,7 +1612,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.69",
@@ -1386,7 +1635,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.70",
@@ -1405,7 +1658,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.71",
@@ -1425,7 +1681,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-1,\\ 1,\\ 6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.72",
@@ -1445,7 +1704,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=3(x-2)^2+1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.73",
@@ -1465,7 +1728,13 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "1.74",
@@ -1485,7 +1754,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.75",
@@ -1504,7 +1777,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-4\\ \\text{eller}\\ x=-\\frac23",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.76",
@@ -1524,7 +1800,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=\\left(x - 3\\right) \\left(x - 1\\right) \\left(x + 2\\right)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.77",
@@ -1544,7 +1824,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=(x+2)(x-3)^2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.78",
@@ -1564,7 +1848,13 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "1.79",
@@ -1584,7 +1874,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.80",
@@ -1603,7 +1898,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.81",
@@ -1623,7 +1922,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=- \\left(x - 4\\right) \\left(x - 2\\right) \\left(x + 1\\right)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.82",
@@ -1643,7 +1946,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.83",
@@ -1663,7 +1970,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.84",
@@ -1683,7 +1994,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.85",
@@ -1702,7 +2017,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.86",
@@ -1722,7 +2041,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=2 \\left(x - 2\\right) \\left(x - 1\\right) \\left(x + 3\\right)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.87",
@@ -1742,7 +2065,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.88",
@@ -1762,7 +2090,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.89",
@@ -1782,7 +2114,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=4,\\ b=-5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.90",
@@ -1801,7 +2138,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-4\\quad\\text{eller}\\quad x=-2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.91",
@@ -1821,7 +2161,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "[1,5;\\,2]",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.92",
@@ -1841,7 +2185,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.93",
@@ -1861,7 +2209,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.94",
@@ -1881,7 +2232,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.95",
@@ -1900,7 +2255,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-4\\quad\\text{eller}\\quad x=0",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.96",
@@ -1920,7 +2278,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "[1;\\,1,5]",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.97",
@@ -1940,7 +2302,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.98",
@@ -1960,7 +2327,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.99",
@@ -1980,7 +2350,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(2)=4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.100",
@@ -1999,7 +2374,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-4\\quad\\text{eller}\\quad x=2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.101",
@@ -2019,7 +2397,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "4 x^{2} + 5 x + 1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.102",
@@ -2039,7 +2420,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x+4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.103",
@@ -2059,7 +2443,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.104",
@@ -2079,7 +2467,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x^{2} - 7 x + 7",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.105",
@@ -2099,7 +2490,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x+3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.106",
@@ -2119,7 +2513,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.107",
@@ -2139,7 +2537,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x^{2} - x - 12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.108",
@@ -2159,7 +2560,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac3x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.109",
@@ -2179,7 +2583,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.110",
@@ -2199,7 +2607,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "2 x^{2} - 9 x - 5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.111",
@@ -2219,7 +2630,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{x-1}{x}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.112",
@@ -2239,7 +2653,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "8",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.113",
@@ -2259,7 +2677,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x^{2} - 9",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.114",
@@ -2279,7 +2700,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{2x}{5}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.115",
@@ -2299,7 +2723,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.116",
@@ -2319,7 +2747,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "3 x \\left(x - 4\\right)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.117",
@@ -2339,7 +2770,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x+2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.118",
@@ -2359,7 +2793,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "1.119",
@@ -2379,7 +2816,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=0\\) eller \\(x=7",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.120",
@@ -2399,7 +2839,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.121",
@@ -2419,7 +2862,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.122",
@@ -2439,7 +2886,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-2\\) eller \\(x=5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.123",
@@ -2459,7 +2909,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=7",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.124",
@@ -2479,7 +2932,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\lim_{x\\to a}f(x)=f(a)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "1.125",
@@ -2499,7 +2955,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.126",
@@ -2519,7 +2979,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.127",
@@ -2539,7 +3002,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.128",
@@ -2559,7 +3026,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-3,3,4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.129",
@@ -2579,7 +3049,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.130",
@@ -2599,7 +3072,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.131",
@@ -2619,7 +3096,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-3,-2,2,3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.132",
@@ -2639,7 +3119,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=2\\pm\\sqrt3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.133",
@@ -2659,7 +3142,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.134",
@@ -2679,7 +3166,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "k=0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.135",
@@ -2699,7 +3190,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x\\neq-2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.136",
@@ -2719,7 +3214,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.137",
@@ -2739,7 +3238,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.138",
@@ -2759,7 +3261,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=16/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.139",
@@ -2779,7 +3284,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.140",
@@ -2799,7 +3308,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "p(x)=2(x+1)(x-2)(x-4)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.141",
@@ -2819,7 +3332,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "1.142",
@@ -2839,7 +3356,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.143",
@@ -2859,7 +3380,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-2,-1,1,2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.144",
@@ -2879,7 +3403,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.145",
@@ -2899,7 +3426,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "1.146",
@@ -2919,7 +3449,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "0<a<25/4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.147",
@@ -2939,7 +3472,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.148",
@@ -2959,7 +3496,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.149",
@@ -2979,7 +3521,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-10",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.150",
@@ -2999,7 +3545,10 @@ window.BANKMATO1 = [
     "svarstyp": "val",
     "rättSvar": "ingen lösning",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.151",
@@ -3019,7 +3568,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.152",
@@ -3039,7 +3592,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=-2,b=-5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.153",
@@ -3059,7 +3615,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": "Det finns inget reellt värde på \\(a\\) som ger exakt en tillåten reell lösning",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.154",
@@ -3079,7 +3639,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.155",
@@ -3099,7 +3663,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.156",
@@ -3119,7 +3688,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=3,\\ b=-10,\\ f(2)=7",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.157",
@@ -3139,7 +3712,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.158",
@@ -3159,7 +3736,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.159",
@@ -3179,7 +3761,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.160",
@@ -3199,7 +3784,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.161",
@@ -3223,7 +3812,11 @@ window.BANKMATO1 = [
       "Det minsta tabellerade funktionsvärdet är 1"
     ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.162",
@@ -3242,7 +3835,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=2-6=-4\\quad\\text{eller}\\quad x=2+6=8",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.163",
@@ -3262,7 +3858,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.164",
@@ -3281,7 +3881,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-3-4=-7\\quad\\text{eller}\\quad x=-3+4=1",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.165",
@@ -3305,7 +3908,11 @@ window.BANKMATO1 = [
       "f(2)=18"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.166",
@@ -3324,7 +3931,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=0-5=-5\\quad\\text{eller}\\quad x=0+5=5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.167",
@@ -3348,7 +3958,11 @@ window.BANKMATO1 = [
       "f(3)=0"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.168",
@@ -3367,7 +3981,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=4-2=2\\quad\\text{eller}\\quad x=4+2=6",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.169",
@@ -3391,7 +4008,11 @@ window.BANKMATO1 = [
       "f(2)=0"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.170",
@@ -3410,7 +4031,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "1\\le x\\le7",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.171",
@@ -3430,7 +4054,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.172",
@@ -3449,7 +4077,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "-3<x<2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.173",
@@ -3469,7 +4100,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.174",
@@ -3488,7 +4124,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "|L-25,00|\\le0,12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "1.175",
@@ -3508,7 +4148,13 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "1.176",
@@ -3527,7 +4173,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.177",
@@ -3547,7 +4198,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.178",
@@ -3566,7 +4221,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.179",
@@ -3586,7 +4246,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.180",
@@ -3605,7 +4269,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "|x-(-2)|=|x+2|",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.181",
@@ -3625,7 +4292,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=\\frac85(x-1)(x-5)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.182",
@@ -3644,7 +4315,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=7\\text{ eller }x=-\\frac13",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.183",
@@ -3664,7 +4338,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.184",
@@ -3683,7 +4362,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=\\begin{cases}1-2x,&x<-1\\\\3,&-1\\le x<2\\\\2x-1,&x\\ge2.\\end{cases}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.185",
@@ -3703,7 +4385,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.186",
@@ -3722,7 +4408,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a>1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.187",
@@ -3742,7 +4432,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.188",
@@ -3761,7 +4456,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "48\\le x\\le52",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.189",
@@ -3781,7 +4479,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.190",
@@ -3800,7 +4503,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.191",
@@ -3820,7 +4527,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.192",
@@ -3839,7 +4550,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.193",
@@ -3859,7 +4573,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=x^2-2x+3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.194",
@@ -3878,7 +4596,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.195",
@@ -3898,7 +4620,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.196",
@@ -3917,7 +4644,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a>4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.197",
@@ -3937,7 +4668,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.198",
@@ -3956,7 +4692,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "minsta värdet är \\(\\boxed{2|a|}\\), antaget för alla \\(\\boxed{x\\in[-|a|,|a|]}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.199",
@@ -3976,7 +4715,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=2x^2+1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.200",
@@ -3995,7 +4738,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.01",
@@ -4015,7 +4762,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1,2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.02",
@@ -4035,7 +4786,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=8x^3-9x^2+5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.03",
@@ -4058,7 +4812,11 @@ window.BANKMATO1 = [
       "1"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.04",
@@ -4082,7 +4840,12 @@ window.BANKMATO1 = [
       "N(t)=150e^{0,1133t}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "2.05",
@@ -4102,7 +4865,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.06",
@@ -4122,7 +4890,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=6x-12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.07",
@@ -4142,7 +4913,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=4x-4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.08",
@@ -4162,7 +4937,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=e^{0,4}\\approx 1,49",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.09",
@@ -4185,7 +4963,12 @@ window.BANKMATO1 = [
       "5\\text{ m/s}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "2.10",
@@ -4205,7 +4988,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "g^{\\prime}(x)=15x^2-\\frac{1}{\\sqrt{x}}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.11",
@@ -4225,7 +5011,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=2 x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.12",
@@ -4245,7 +5034,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x\\approx 2,70",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.13",
@@ -4265,7 +5057,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.14",
@@ -4289,7 +5086,10 @@ window.BANKMATO1 = [
       "f_3^{\\prime}(x)=- 10 x^{4}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.15",
@@ -4309,7 +5109,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=- 2 x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.16",
@@ -4329,7 +5132,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x_1=e^{\\frac{1+\\sqrt{21}}{2}},\\qquad x_2=e^{\\frac{1-\\sqrt{21}}{2}}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.17",
@@ -4349,7 +5155,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "f^{\\prime}(2)\\approx 4",
     "tolerans": 0.01,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.18",
@@ -4373,7 +5183,10 @@ window.BANKMATO1 = [
       "f_3^{\\prime}(x)=14 x - 5"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.19",
@@ -4393,7 +5206,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=5 x - 4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.20",
@@ -4413,7 +5229,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=1,5e^{0,5x}}\\) och tangenten är \\(\\boxed{y=1,5x+3",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.21",
@@ -4433,7 +5252,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "Tangenten är horisontell i punkterna \\(\\boxed{(1,5)}\\) och \\(\\boxed{(3,1)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.22",
@@ -4457,7 +5280,10 @@ window.BANKMATO1 = [
       "f_3^{\\prime}(x)=-1 - \\frac{10}{x^{3}}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.23",
@@ -4477,7 +5303,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=3 - 3 x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.24",
@@ -4497,7 +5326,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10.45",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "2.25",
@@ -4517,7 +5350,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.26",
@@ -4537,7 +5374,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.27",
@@ -4557,7 +5397,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3,-2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.28",
@@ -4577,7 +5421,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=3e^{0,693x}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.29",
@@ -4597,7 +5444,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(2)=4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.30",
@@ -4617,7 +5468,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "19",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.31",
@@ -4637,7 +5491,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "- \\sqrt{3},0, \\sqrt{3},0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.32",
@@ -4657,7 +5515,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=3e^{1,609x}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.33",
@@ -4677,7 +5538,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=-\\frac{1}{x^2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.34",
@@ -4697,7 +5563,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.35",
@@ -4717,7 +5586,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1,3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.36",
@@ -4737,7 +5610,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=3e^{0,077x}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.37",
@@ -4757,7 +5633,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.38",
@@ -4777,7 +5657,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "22",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.39",
@@ -4797,7 +5680,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.40",
@@ -4817,7 +5704,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=3e^{-0,073x}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.41",
@@ -4837,7 +5727,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.42",
@@ -4857,7 +5751,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-1, x=3",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.43",
@@ -4877,7 +5774,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.44",
@@ -4897,7 +5798,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x\\approx 3,13",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.45",
@@ -4917,7 +5821,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "17",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.46",
@@ -4937,7 +5845,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-2, x=0, x=2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.47",
@@ -4957,7 +5868,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=6x-4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.48",
@@ -4977,7 +5892,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x\\approx 4,38",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.49",
@@ -4997,7 +5915,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.50",
@@ -5017,7 +5939,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.51",
@@ -5037,7 +5963,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=4x-4}\\) och \\(\\boxed{y=-4x-4",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.52",
@@ -5057,7 +5987,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x\\approx 3,79",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.53",
@@ -5077,7 +6010,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-2",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.54",
@@ -5097,7 +6034,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "k=3,\\ n=3",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.55",
@@ -5117,7 +6058,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=1 - 2 x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.56",
@@ -5142,7 +6086,10 @@ window.BANKMATO1 = [
       "3\\cdot2^x\\ln2"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.57",
@@ -5162,7 +6109,12 @@ window.BANKMATO1 = [
     "svarstyp": "val",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.58",
@@ -5182,7 +6134,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=2,\\ b=2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.59",
@@ -5202,7 +6158,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=x + 2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.60",
@@ -5222,7 +6181,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y\\approx 2x+4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.61",
@@ -5242,7 +6204,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.62",
@@ -5262,7 +6228,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f' (x)=8 x^{3} - 3 x^{2} + 4 x - 5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.63",
@@ -5282,7 +6251,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=4 x + 1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.64",
@@ -5302,7 +6274,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y\\approx -0,33x+1,76",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.65",
@@ -5322,7 +6297,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "7",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.66",
@@ -5342,7 +6321,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f' (x)=12 x^{3} - 6 x^{2} + 4 x - 5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.67",
@@ -5362,7 +6344,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=4 x - 2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.68",
@@ -5382,7 +6367,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "2.69",
@@ -5402,7 +6392,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.70",
@@ -5422,7 +6416,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f' (x)=16 x^{3} - 9 x^{2} + 4 x - 5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.71",
@@ -5442,7 +6439,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=1 - x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.72",
@@ -5462,7 +6462,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "2.73",
@@ -5482,7 +6487,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.74",
@@ -5502,7 +6511,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f' (x)=20 x^{3} - 3 x^{2} + 4 x - 5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.75",
@@ -5522,7 +6534,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=2 x + 2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.76",
@@ -5542,7 +6557,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5,55",
     "tolerans": 0.005,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "2.77",
@@ -5562,7 +6581,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.78",
@@ -5582,7 +6605,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f' (x)=8 x^{3} - 6 x^{2} + 4 x - 5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.79",
@@ -5602,7 +6628,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=2 x + 1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.80",
@@ -5622,7 +6651,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.81",
@@ -5642,7 +6674,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.82",
@@ -5665,7 +6701,10 @@ window.BANKMATO1 = [
       "g^{\\prime}(x)=10 x^{4} + 3 x^{2} - 4"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.83",
@@ -5685,7 +6724,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=4 x - 4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.84",
@@ -5705,7 +6747,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "3\\cdot2^x\\ln2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.85",
@@ -5725,7 +6770,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.86",
@@ -5745,7 +6794,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.87",
@@ -5768,7 +6821,10 @@ window.BANKMATO1 = [
       "g^{\\prime}(x)=21 x^{2} - 4 x + 1"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.88",
@@ -5788,7 +6844,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=-x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.89",
@@ -5808,7 +6867,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "2\\cdot3^x\\ln3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.90",
@@ -5828,7 +6890,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.91",
@@ -5848,7 +6914,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.92",
@@ -5871,7 +6941,10 @@ window.BANKMATO1 = [
       "g^{\\prime}(x)=5 x^{4} - 10"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.93",
@@ -5891,7 +6964,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=3 x - 2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.94",
@@ -5911,7 +6987,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "4\\cdot5^x\\ln5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.95",
@@ -5931,7 +7010,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.96",
@@ -5951,7 +7034,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.97",
@@ -5974,7 +7061,10 @@ window.BANKMATO1 = [
       "g^{\\prime}(x)=18 x - 4"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.98",
@@ -5994,7 +7084,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=- 3 x - 2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.99",
@@ -6014,7 +7107,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "2\\cdot10^x\\ln10",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.100",
@@ -6034,7 +7130,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.101",
@@ -6054,7 +7154,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.102",
@@ -6077,7 +7181,10 @@ window.BANKMATO1 = [
       "g^{\\prime}(x)=30 x^{4} + 4 x"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.103",
@@ -6097,7 +7204,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=9 x - 16",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.104",
@@ -6117,7 +7227,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=5 e^{x}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.105",
@@ -6137,7 +7250,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.106",
@@ -6157,7 +7275,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.107",
@@ -6180,7 +7302,10 @@ window.BANKMATO1 = [
       "g^{\\prime}(x)=- 12 x^{5} + 20 x^{3} - 14 x"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.108",
@@ -6200,7 +7325,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=-1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.109",
@@ -6220,7 +7348,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "4^x\\ln4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.110",
@@ -6240,7 +7371,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.111",
@@ -6260,7 +7396,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "7",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.112",
@@ -6283,7 +7423,10 @@ window.BANKMATO1 = [
       "g^{\\prime}(x)=\\frac{1}{2 \\sqrt{x}}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.113",
@@ -6303,7 +7446,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=x + 1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.114",
@@ -6323,7 +7469,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.115",
@@ -6343,7 +7492,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.116",
@@ -6363,7 +7517,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.117",
@@ -6386,7 +7544,10 @@ window.BANKMATO1 = [
       "g^{\\prime}(x)=\\frac{5 x^{2} - 2}{2 \\sqrt{x}}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.118",
@@ -6406,7 +7567,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=2\\ln2(x-1)+2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.119",
@@ -6426,7 +7590,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.120",
@@ -6446,7 +7613,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.121",
@@ -6466,7 +7638,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.122",
@@ -6489,7 +7665,10 @@ window.BANKMATO1 = [
       "g^{\\prime}(x)=- 4 x - \\frac{12}{x^{4}}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.123",
@@ -6509,7 +7688,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=3 x - 4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.124",
@@ -6529,7 +7711,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=\\frac{\\ln12}{\\ln5}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.125",
@@ -6549,7 +7734,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.126",
@@ -6569,7 +7759,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.127",
@@ -6589,7 +7783,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.128",
@@ -6609,7 +7806,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=1 - \\frac{x}{4}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.129",
@@ -6629,7 +7829,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=\\ln7",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.130",
@@ -6649,7 +7852,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.131",
@@ -6669,7 +7877,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "9",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "2.132",
@@ -6689,7 +7901,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "34",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.133",
@@ -6709,7 +7924,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.134",
@@ -6729,7 +7949,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=\\frac{\\ln10}{\\ln2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.135",
@@ -6749,7 +7972,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.136",
@@ -6769,7 +7997,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.137",
@@ -6789,7 +8021,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.138",
@@ -6809,7 +8044,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.139",
@@ -6829,7 +8069,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.140",
@@ -6849,7 +8092,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.141",
@@ -6869,7 +8117,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.142",
@@ -6889,7 +8141,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "11",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.143",
@@ -6909,7 +8164,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.144",
@@ -6929,7 +8189,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "2.145",
@@ -6949,7 +8213,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.146",
@@ -6969,7 +8238,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=-\\frac{A}{x^2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.147",
@@ -6989,7 +8262,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "37",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.148",
@@ -7009,7 +8285,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.149",
@@ -7029,7 +8310,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "2.150",
@@ -7049,7 +8334,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.151",
@@ -7069,7 +8359,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.152",
@@ -7089,7 +8384,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.153",
@@ -7109,7 +8407,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.154",
@@ -7129,7 +8432,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.155",
@@ -7149,7 +8455,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.156",
@@ -7169,7 +8480,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "2.157",
@@ -7189,7 +8503,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{1}{4}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.158",
@@ -7209,7 +8526,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.159",
@@ -7229,7 +8549,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.160",
@@ -7249,7 +8573,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.161",
@@ -7269,7 +8598,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "2.162",
@@ -7289,7 +8621,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.163",
@@ -7309,7 +8644,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.164",
@@ -7329,7 +8668,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "2.165",
@@ -7349,7 +8692,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.166",
@@ -7369,7 +8716,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.167",
@@ -7389,7 +8740,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "- \\frac{1}{4}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.168",
@@ -7409,7 +8763,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.169",
@@ -7429,7 +8786,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.170",
@@ -7449,7 +8811,11 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.171",
@@ -7469,7 +8835,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.172",
@@ -7489,7 +8860,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.173",
@@ -7509,7 +8883,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.174",
@@ -7529,7 +8906,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.175",
@@ -7549,7 +8930,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.176",
@@ -7569,7 +8954,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.177",
@@ -7589,7 +8978,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "60",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.178",
@@ -7609,7 +9001,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.179",
@@ -7629,7 +9025,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.180",
@@ -7649,7 +9048,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.181",
@@ -7669,7 +9072,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.182",
@@ -7689,7 +9095,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=1\\) och \\(x=3",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.183",
@@ -7709,7 +9118,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.184",
@@ -7729,7 +9141,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.185",
@@ -7749,7 +9164,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.186",
@@ -7769,7 +9187,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.187",
@@ -7789,7 +9211,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.188",
@@ -7809,7 +9235,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.189",
@@ -7829,7 +9258,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.190",
@@ -7849,7 +9281,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.191",
@@ -7869,7 +9304,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.192",
@@ -7889,7 +9328,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-7",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.193",
@@ -7909,7 +9351,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a>0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.194",
@@ -7929,7 +9374,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.195",
@@ -7949,7 +9397,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.196",
@@ -7969,7 +9422,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.197",
@@ -7989,7 +9447,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.198",
@@ -8009,7 +9470,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.199",
@@ -8029,7 +9495,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.200",
@@ -8049,7 +9519,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.201",
@@ -8069,7 +9542,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.202",
@@ -8093,7 +9571,10 @@ window.BANKMATO1 = [
       "h^{\\prime}(x)=-\\frac{10}{x^3}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.203",
@@ -8113,7 +9594,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=-2x+4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.204",
@@ -8133,7 +9618,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.205",
@@ -8156,7 +9644,11 @@ window.BANKMATO1 = [
       "\\(s^{\\prime}(5)\\) är fordonets hastighet efter 5 s"
     ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.206",
@@ -8176,7 +9668,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(2)=\\boxed7",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.207",
@@ -8200,7 +9696,10 @@ window.BANKMATO1 = [
       "y^{\\prime}=-4x^{-3}+9x^{-4}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.208",
@@ -8220,7 +9719,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=6x-10",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.209",
@@ -8240,7 +9743,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=(\\ln3)x+1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.210",
@@ -8264,7 +9770,10 @@ window.BANKMATO1 = [
       "-4"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.211",
@@ -8284,7 +9793,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.212",
@@ -8304,7 +9818,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{3\\sqrt{x}}2-\\frac6{x^2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.213",
@@ -8324,7 +9841,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "(-1,2)\\text{ och }(1,-2)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.214",
@@ -8344,7 +9866,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=\\frac{\\ln(10/\\ln2)}{\\ln2}\\approx3,85",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.215",
@@ -8364,7 +9889,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=5x-7",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.216",
@@ -8384,7 +9912,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.217",
@@ -8404,7 +9936,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "4+\\frac{12}{x^3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.218",
@@ -8424,7 +9959,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "(0,5;\\,-4)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.219",
@@ -8444,7 +9982,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(2)=48\\ln4\\approx66,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.220",
@@ -8467,7 +10008,10 @@ window.BANKMATO1 = [
       "f^{\\prime}(0)=\\ln5"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.221",
@@ -8487,7 +10031,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "-9\\le g(7)\\le6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.222",
@@ -8507,7 +10055,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.223",
@@ -8527,7 +10078,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=3x^2+9x+6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.224",
@@ -8547,7 +10101,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=e^{1,4}\\approx4,06",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.225",
@@ -8567,7 +10124,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.226",
@@ -8587,7 +10148,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.227",
@@ -8607,7 +10173,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime\\prime}(x)=24x^2-10",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.228",
@@ -8627,7 +10196,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "(-2,0)\\text{ och }(2,4)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.229",
@@ -8647,7 +10219,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.230",
@@ -8667,7 +10244,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=4x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.231",
@@ -8687,7 +10267,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.232",
@@ -8707,7 +10291,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime\\prime}(4)=\\frac14",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.233",
@@ -8727,7 +10314,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.234",
@@ -8747,7 +10337,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "2.235",
@@ -8767,7 +10361,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.236",
@@ -8787,7 +10384,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f_C^{\\prime}(a)=3a^2+2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.237",
@@ -8807,7 +10409,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.238",
@@ -8827,7 +10433,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "(-2,4)\\text{ och }(2,4)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.239",
@@ -8847,7 +10458,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=e^{0,4}\\approx1,492",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.240",
@@ -8867,7 +10481,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.01",
@@ -8887,7 +10505,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.02",
@@ -8907,7 +10530,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.03",
@@ -8927,7 +10553,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.04",
@@ -8951,7 +10582,10 @@ window.BANKMATO1 = [
       "F(x)=5 x+C"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.05",
@@ -8971,7 +10605,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "8",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.06",
@@ -8991,7 +10628,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "65",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.07",
@@ -9011,7 +10652,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.08",
@@ -9031,7 +10677,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.09",
@@ -9051,7 +10700,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.10",
@@ -9075,7 +10729,10 @@ window.BANKMATO1 = [
       "F(x)=e^{x}+C"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.11",
@@ -9095,7 +10752,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "18",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.12",
@@ -9115,7 +10775,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "320",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.13",
@@ -9135,7 +10800,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.14",
@@ -9155,7 +10825,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.15",
@@ -9175,7 +10848,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.16",
@@ -9199,7 +10877,10 @@ window.BANKMATO1 = [
       "F(x)=\\frac{14 x^{\\frac{3}{2}}}{3}+C"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.17",
@@ -9219,7 +10900,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.18",
@@ -9239,7 +10923,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.19",
@@ -9259,7 +10948,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.20",
@@ -9279,7 +10973,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "100",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.21",
@@ -9299,7 +10997,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=4,\\ b=0",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.22",
@@ -9319,7 +11022,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^{3} - 4 x + 5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.23",
@@ -9339,7 +11045,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-4 + 4 e",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.24",
@@ -9359,7 +11068,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "50 - \\frac{50}{e} ml",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.25",
@@ -9379,7 +11093,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.26",
@@ -9399,7 +11118,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "169",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.27",
@@ -9419,7 +11142,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=1,\\ b=1",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.28",
@@ -9439,7 +11167,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^{2} + 3 x - 4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.29",
@@ -9459,7 +11190,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{16}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.30",
@@ -9479,7 +11213,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "175",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.31",
@@ -9499,7 +11237,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.32",
@@ -9519,7 +11262,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=4\\text{ cm}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.33",
@@ -9539,7 +11286,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=2,\\ b=2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.34",
@@ -9559,7 +11311,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=2 e^{2 x} + 5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.35",
@@ -9579,7 +11334,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.36",
@@ -9599,7 +11357,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "14,59",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.37",
@@ -9619,7 +11381,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.38",
@@ -9639,7 +11406,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=5\\text{ cm}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.39",
@@ -9659,7 +11430,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.40",
@@ -9679,7 +11455,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.41",
@@ -9699,7 +11479,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.42",
@@ -9719,7 +11502,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,583",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.43",
@@ -9739,7 +11526,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.44",
@@ -9759,7 +11551,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(r\\approx 5,42\\) cm och \\(h\\approx 5,42\\) cm",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.45",
@@ -9779,7 +11575,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.46",
@@ -9799,7 +11600,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.47",
@@ -9819,7 +11624,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.48",
@@ -9839,7 +11647,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{17\\sqrt{17}}6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.49",
@@ -9859,7 +11672,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.50",
@@ -9879,7 +11697,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\left(\\pm\\sqrt{\\frac52},\\frac52\\right)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.51",
@@ -9899,7 +11720,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.52",
@@ -9919,7 +11745,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.53",
@@ -9939,7 +11769,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "integralen är \\(3/2\\), den geometriska arean är \\(5/2\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.54",
@@ -9959,7 +11793,13 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.55",
@@ -9979,7 +11819,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.56",
@@ -9999,7 +11843,10 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "3.57",
@@ -10019,7 +11866,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.58",
@@ -10039,7 +11891,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "3.59",
@@ -10059,7 +11915,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.60",
@@ -10079,7 +11940,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "16,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.61",
@@ -10099,7 +11964,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.62",
@@ -10119,7 +11989,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.63",
@@ -10139,7 +12013,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.64",
@@ -10159,7 +12038,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.65",
@@ -10179,7 +12063,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.66",
@@ -10199,7 +12088,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "36",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.67",
@@ -10219,7 +12112,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.68",
@@ -10239,7 +12137,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.69",
@@ -10259,7 +12161,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.70",
@@ -10279,7 +12186,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "två funktioner, med respektive konstant \\(-11/3\\) och \\(109/3\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.71",
@@ -10299,7 +12211,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "A=\\frac43a^{3/2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.72",
@@ -10319,7 +12236,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "67,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.73",
@@ -10339,7 +12260,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.74",
@@ -10359,7 +12285,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x\\approx 3,92\\text{ cm}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.75",
@@ -10379,7 +12309,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "k=4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.76",
@@ -10399,7 +12333,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.77",
@@ -10419,7 +12356,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{1}{2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.78",
@@ -10439,7 +12379,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5400",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.79",
@@ -10459,7 +12404,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.80",
@@ -10479,7 +12429,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "30\\text{ m}\\times15\\text{ m}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.81",
@@ -10499,7 +12453,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=2, b=0",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.82",
@@ -10519,7 +12477,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.83",
@@ -10539,7 +12500,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{8}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.84",
@@ -10559,7 +12523,13 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.85",
@@ -10579,7 +12549,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.86",
@@ -10599,7 +12574,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "12\\sqrt3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.87",
@@ -10619,7 +12598,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=4, b=0",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.88",
@@ -10639,7 +12622,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.89",
@@ -10659,7 +12645,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{81}{4}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.90",
@@ -10679,7 +12668,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "14",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.91",
@@ -10699,7 +12692,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.92",
@@ -10719,7 +12717,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "20\\text{ cm}\\times30\\text{ cm}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.93",
@@ -10739,7 +12741,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=6, b=0",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.94",
@@ -10759,7 +12765,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.95",
@@ -10779,7 +12788,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{1024}{5}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.96",
@@ -10799,7 +12811,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.97",
@@ -10819,7 +12835,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.98",
@@ -10839,7 +12860,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "120\\text{ enheter}}\\) och största vinsten är \\(\\boxed{18\\,800\\text{ kr}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.99",
@@ -10859,7 +12884,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=4,\\ b=-3",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.100",
@@ -10879,7 +12908,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{5 x^{4}}{4} - \\frac{3 x^{2}}{2} + 2 x+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.101",
@@ -10899,7 +12931,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.102",
@@ -10919,7 +12954,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "570",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ]
   },
   {
     "id": "3.103",
@@ -10939,7 +12977,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.104",
@@ -10959,7 +13002,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4,3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.105",
@@ -10979,7 +13025,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=0,\\ b=3",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.106",
@@ -10999,7 +13049,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{3 x^{4}}{2} + \\frac{x^{3}}{3} - 4 x+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.107",
@@ -11019,7 +13072,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{26}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.108",
@@ -11039,7 +13095,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "24",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.109",
@@ -11059,7 +13119,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.110",
@@ -11079,7 +13144,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "12\\text{ m}\\times 12\\text{ m}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.111",
@@ -11099,7 +13168,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=-6,\\ b=-5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.112",
@@ -11119,7 +13192,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{7 x^{5}}{5} - x^{2} + x+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.113",
@@ -11139,7 +13215,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.114",
@@ -11159,7 +13238,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5,15",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.115",
@@ -11179,7 +13262,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.116",
@@ -11199,7 +13287,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "13\\text{ m}\\times 13\\text{ m}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.117",
@@ -11219,7 +13311,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=24,\\ b=-35",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.118",
@@ -11239,7 +13335,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{8 x^{3}}{3} + \\frac{3 x^{2}}{2} - 5 x+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.119",
@@ -11259,7 +13358,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.120",
@@ -11279,7 +13381,13 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.121",
@@ -11299,7 +13407,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.122",
@@ -11319,7 +13430,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x \\left(x^{2} - 2 x + 2\\right)+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.123",
@@ -11339,7 +13453,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.124",
@@ -11359,7 +13476,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "45",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.125",
@@ -11379,7 +13500,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.126",
@@ -11399,7 +13523,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^{4} + x^{2}+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.127",
@@ -11419,7 +13546,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "8",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.128",
@@ -11439,7 +13569,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "50",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.129",
@@ -11459,7 +13593,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.130",
@@ -11479,7 +13617,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{x^{5}}{10} - x^{3}+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.131",
@@ -11499,7 +13640,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{3}{4}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.132",
@@ -11519,7 +13663,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.133",
@@ -11539,7 +13687,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.134",
@@ -11559,7 +13711,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{2 x^{\\frac{3}{2}}}{3}+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.135",
@@ -11579,7 +13734,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{16}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.136",
@@ -11599,7 +13757,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "960",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ]
   },
   {
     "id": "3.137",
@@ -11619,7 +13780,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.138",
@@ -11639,7 +13804,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{2 x^{\\frac{5}{2}}}{5}+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.139",
@@ -11659,7 +13827,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{62}{5}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.140",
@@ -11679,7 +13850,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10,10",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.141",
@@ -11699,7 +13874,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.142",
@@ -11719,7 +13897,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=- \\frac{1}{x}+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.143",
@@ -11739,7 +13920,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.144",
@@ -11759,7 +13943,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3+1,5t",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.145",
@@ -11779,7 +13967,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.146",
@@ -11799,7 +13991,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{3 x^{2}}{2} + 2 e^{x}+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.147",
@@ -11819,7 +14014,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "3/\\ln2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.148",
@@ -11839,7 +14037,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "modellering"
+    ]
   },
   {
     "id": "3.149",
@@ -11859,7 +14060,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.150",
@@ -11879,7 +14083,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{3\\cdot2^x}{\\ln2}+\\frac{x^3}{3}+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.151",
@@ -11899,7 +14106,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.152",
@@ -11919,7 +14129,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.153",
@@ -11939,7 +14154,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.154",
@@ -11959,7 +14178,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^{2} + 3 x + 1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.155",
@@ -11979,7 +14201,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6,5",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.156",
@@ -11999,7 +14225,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\int_0^D(0,4+0,2\\cdot2^{-x})dx",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.157",
@@ -12019,7 +14249,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.158",
@@ -12039,7 +14272,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^{3} - x + 4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.159",
@@ -12059,7 +14295,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.160",
@@ -12079,7 +14318,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.161",
@@ -12099,7 +14343,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.162",
@@ -12119,7 +14368,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{x^{4}}{4} + 3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.163",
@@ -12139,7 +14391,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.164",
@@ -12159,7 +14414,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.165",
@@ -12179,7 +14438,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.166",
@@ -12199,7 +14462,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=2 e^{x} + 3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.167",
@@ -12219,7 +14485,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "4/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.168",
@@ -12239,7 +14508,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1278",
     "tolerans": 1.0,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ]
   },
   {
     "id": "3.169",
@@ -12259,7 +14531,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.170",
@@ -12279,7 +14555,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{2^x-1}{\\ln2}+3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.171",
@@ -12299,7 +14578,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.172",
@@ -12319,7 +14601,13 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.173",
@@ -12339,7 +14627,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.174",
@@ -12359,7 +14651,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{2 x^{\\frac{3}{2}}}{3} + \\frac{14}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.175",
@@ -12379,7 +14674,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.176",
@@ -12399,7 +14697,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,64",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.177",
@@ -12419,7 +14721,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.178",
@@ -12439,7 +14745,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "3.179",
@@ -12459,7 +14769,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(7)-F(2)=-4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.180",
@@ -12479,7 +14793,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.181",
@@ -12499,7 +14817,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.182",
@@ -12519,7 +14841,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.183",
@@ -12539,7 +14865,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "3.184",
@@ -12559,7 +14889,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.185",
@@ -12579,7 +14913,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.186",
@@ -12599,7 +14937,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(3)=11",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.187",
@@ -12619,7 +14961,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.188",
@@ -12639,7 +14986,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.189",
@@ -12659,7 +15010,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.190",
@@ -12679,7 +15035,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.191",
@@ -12699,7 +15060,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.192",
@@ -12719,7 +15083,13 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.193",
@@ -12739,7 +15109,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.194",
@@ -12759,7 +15133,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=9",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.195",
@@ -12779,7 +15157,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.196",
@@ -12799,7 +15181,13 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.197",
@@ -12819,7 +15207,13 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.198",
@@ -12839,7 +15233,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.199",
@@ -12859,7 +15257,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.200",
@@ -12879,7 +15281,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.201",
@@ -12899,7 +15305,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.202",
@@ -12919,7 +15330,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.203",
@@ -12939,7 +15355,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.204",
@@ -12959,7 +15380,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.205",
@@ -12979,7 +15405,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.206",
@@ -12999,7 +15430,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.207",
@@ -13019,7 +15455,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.208",
@@ -13039,7 +15480,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.209",
@@ -13059,7 +15505,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.210",
@@ -13079,7 +15530,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=1,b=-1",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.211",
@@ -13099,7 +15555,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "m=0,n=-1",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.212",
@@ -13119,7 +15580,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(2)=1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.213",
@@ -13139,7 +15605,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.214",
@@ -13159,7 +15629,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.215",
@@ -13179,7 +15653,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.216",
@@ -13199,7 +15678,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=-3x+11",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.217",
@@ -13219,7 +15703,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=5,b=4",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.218",
@@ -13239,7 +15728,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.219",
@@ -13259,7 +15753,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.220",
@@ -13279,7 +15778,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.221",
@@ -13299,7 +15802,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "3.222",
@@ -13319,7 +15825,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=\\frac{25-5\\sqrt7}{3}\\approx3,92\\text{ cm}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.223",
@@ -13339,7 +15849,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.224",
@@ -13359,7 +15874,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^3+x^2-4x+7",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.225",
@@ -13379,7 +15897,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.226",
@@ -13399,7 +15921,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "97,0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.227",
@@ -13419,7 +15945,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.228",
@@ -13439,7 +15970,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.229",
@@ -13459,7 +15994,11 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.230",
@@ -13479,7 +16018,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "288\\pi\\text{ cm}^3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.231",
@@ -13499,7 +16042,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.232",
@@ -13519,7 +16067,12 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.233",
@@ -13539,7 +16092,11 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.234",
@@ -13559,7 +16116,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{A}{R}=\\frac23",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.235",
@@ -13579,7 +16141,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": "det finns inga reella \\(a,b\\) som gör funktionen deriverbar. Kontinuitet och lika lutning kan inte uppfyllas samtidigt",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.236",
@@ -13599,7 +16166,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=-\\frac4x+2x^{3/2}+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.237",
@@ -13619,7 +16190,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.238",
@@ -13639,7 +16214,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "120\\text{ m}\\times60\\text{ m}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.239",
@@ -13659,7 +16238,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.240",
@@ -13679,7 +16262,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.241",
@@ -13699,7 +16287,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.242",
@@ -13719,7 +16311,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "24\\text{ cm}\\times36\\text{ cm}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.243",
@@ -13739,7 +16335,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=4,\\ b=-4",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.244",
@@ -13759,7 +16360,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^3-6x^2+9x-4}\\) eller \\(\\boxed{F(x)=x^3-6x^2+9x",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.245",
@@ -13779,7 +16383,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "två minimipunkter och en maximipunkt, i ordningen min–max–min",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.246",
@@ -13799,7 +16408,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.247",
@@ -13819,7 +16431,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "16",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.248",
@@ -13839,7 +16455,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "30",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.249",
@@ -13859,7 +16479,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.250",
@@ -13879,7 +16503,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "16/3\\text{ m}^2\\approx5,33\\text{ m}^2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.251",
@@ -13902,7 +16530,10 @@ window.BANKMATO1 = [
       "2,5"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.252",
@@ -13922,7 +16553,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "64",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.253",
@@ -13942,7 +16577,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.254",
@@ -13962,7 +16602,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "A_{\\max}=25\\sqrt3\\text{ cm}^2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.255",
@@ -13982,7 +16625,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{10}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.256",
@@ -14002,7 +16648,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "Q(6)=25",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.257",
@@ -14022,7 +16673,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.258",
@@ -14042,7 +16697,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=\\frac{16}{4+\\pi}\\text{ m}\\approx2,24\\text{ m}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.259",
@@ -14062,7 +16721,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.260",
@@ -14082,7 +16746,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.261",
@@ -14102,7 +16770,12 @@ window.BANKMATO1 = [
     "svarstyp": "val",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.262",
@@ -14122,7 +16795,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=\\frac{40}{3}\\text{ cm}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.263",
@@ -14142,7 +16819,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{46}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.264",
@@ -14162,7 +16842,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "29",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.265",
@@ -14182,7 +16866,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.266",
@@ -14202,7 +16891,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "störst efter cirka \\(\\boxed{0,85\\text{ h}}\\), då avståndet är cirka \\(\\boxed{3,08\\text{ km}}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.267",
@@ -14222,7 +16915,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.268",
@@ -14242,7 +16938,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.269",
@@ -14262,7 +16962,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.270",
@@ -14282,7 +16987,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{10}{3}\\approx3,33",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.01",
@@ -14306,7 +17015,11 @@ window.BANKMATO1 = [
       "-\\sqrt2/2"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.02",
@@ -14325,7 +17038,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6,76",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.03",
@@ -14344,7 +17060,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.04",
@@ -14363,7 +17083,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.05",
@@ -14382,7 +17106,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "189",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.06",
@@ -14404,7 +17131,11 @@ window.BANKMATO1 = [
       "\\frac{\\sqrt{3}}{2}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.07",
@@ -14423,7 +17154,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "7,52",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.08",
@@ -14442,7 +17176,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.09",
@@ -14461,7 +17198,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.10",
@@ -14480,7 +17222,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "9,688",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.11",
@@ -14502,7 +17247,11 @@ window.BANKMATO1 = [
       "- \\frac{1}{2}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.12",
@@ -14521,7 +17270,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "8,61",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.13",
@@ -14540,7 +17292,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.14",
@@ -14559,7 +17315,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "modellen ger maximum vid \\(\\boxed{x=10,y=20}\\), med vinst \\(\\boxed{2200\\text{ kr}}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "4.15",
@@ -14578,7 +17339,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1105,707",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.16",
@@ -14600,7 +17364,11 @@ window.BANKMATO1 = [
       "- \\frac{\\sqrt{3}}{2}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.17",
@@ -14619,7 +17387,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "29,44",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.18",
@@ -14638,7 +17409,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.19",
@@ -14657,7 +17432,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.20",
@@ -14676,7 +17455,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1,312",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.21",
@@ -14698,7 +17480,11 @@ window.BANKMATO1 = [
       "\\frac{\\sqrt{2}}{2}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.22",
@@ -14717,7 +17503,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "28,88",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.23",
@@ -14736,7 +17525,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "37,4",
     "tolerans": 0.1,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.24",
@@ -14755,7 +17547,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.25",
@@ -14774,7 +17570,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4372",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.26",
@@ -14796,7 +17595,11 @@ window.BANKMATO1 = [
       "- \\frac{\\sqrt{3}}{2}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.27",
@@ -14815,7 +17618,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "21,36",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.28",
@@ -14834,7 +17640,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.29",
@@ -14853,7 +17663,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "maximum är \\(17\\) vid \\((5, 1)\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.30",
@@ -14872,7 +17685,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5309,14",
     "tolerans": 0.005,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.31",
@@ -14891,7 +17708,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "30^\\circ, 150^\\circ",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.32",
@@ -14910,7 +17731,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.33",
@@ -14929,7 +17753,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.34",
@@ -14948,7 +17776,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.35",
@@ -14967,7 +17800,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "190982,18",
     "tolerans": 0.005,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.36",
@@ -14986,7 +17823,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "120^\\circ, 240^\\circ",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.37",
@@ -15005,7 +17846,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.38",
@@ -15024,7 +17868,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.39",
@@ -15043,7 +17891,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.40",
@@ -15062,7 +17915,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "S_n=\\frac{a(k^n-1)}{k-1}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.41",
@@ -15081,7 +17938,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "45^\\circ, 135^\\circ",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.42",
@@ -15100,7 +17961,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.43",
@@ -15119,7 +17983,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.44",
@@ -15138,7 +18006,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.45",
@@ -15157,7 +18028,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "7",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.46",
@@ -15176,7 +18050,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "90^\\circ, 270^\\circ",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.47",
@@ -15195,7 +18073,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.48",
@@ -15214,7 +18096,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.49",
@@ -15233,7 +18119,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.50",
@@ -15252,7 +18141,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.51",
@@ -15271,7 +18164,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.52",
@@ -15290,7 +18187,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.53",
@@ -15309,7 +18210,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.54",
@@ -15328,7 +18233,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.55",
@@ -15347,7 +18255,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "30",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.56",
@@ -15366,7 +18277,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.57",
@@ -15385,7 +18300,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.58",
@@ -15404,7 +18322,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4,57",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.59",
@@ -15423,7 +18345,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "800",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.60",
@@ -15442,7 +18368,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "363",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.61",
@@ -15461,7 +18390,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.62",
@@ -15480,7 +18413,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.63",
@@ -15499,7 +18436,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "36,8",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ]
   },
   {
     "id": "4.64",
@@ -15518,7 +18458,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "40",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.65",
@@ -15537,7 +18480,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "7,875",
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.66",
@@ -15556,7 +18502,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "v=120^\\circ",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.67",
@@ -15575,7 +18526,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10,8",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.68",
@@ -15594,7 +18548,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6,26",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.69",
@@ -15613,7 +18571,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=3,\\ y=4",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.70",
@@ -15632,7 +18593,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.71",
@@ -15651,7 +18616,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=30^\\circ+360^\\circ n\\quad\\text{eller}\\quad x=150^\\circ+360^\\circ n",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.72",
@@ -15670,7 +18639,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "8,8",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.73",
@@ -15689,7 +18661,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "65,9",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.74",
@@ -15708,7 +18684,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "36",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.75",
@@ -15727,7 +18706,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3,88",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.76",
@@ -15746,7 +18729,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.77",
@@ -15765,7 +18752,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "11,6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.78",
@@ -15784,7 +18774,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "13,36",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.79",
@@ -15803,7 +18796,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.80",
@@ -15822,7 +18820,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6558",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.81",
@@ -15841,7 +18842,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\cos30^\\circ=\\frac{\\sqrt3}{2},\\ \\sin30^\\circ=\\frac12",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.82",
@@ -15860,7 +18865,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.83",
@@ -15879,7 +18887,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1140",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.84",
@@ -15898,7 +18910,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "p=3\\text{ eller }p=6",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.85",
@@ -15917,7 +18933,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2800",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.86",
@@ -15936,7 +18956,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\cos v=-4/5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.87",
@@ -15955,7 +18979,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "9,9",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.88",
@@ -15974,7 +19001,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "50,3^\\circ\\text{ eller }129,7^\\circ",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.89",
@@ -15993,7 +19024,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.90",
@@ -16012,7 +19048,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "(a,k)=(2,2)\\text{ eller }(-6,-2)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.91",
@@ -16031,7 +19070,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3/5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.92",
@@ -16050,7 +19094,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6,0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.93",
@@ -16069,7 +19116,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.94",
@@ -16088,7 +19139,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.95",
@@ -16107,7 +19162,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "84\\,800",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.96",
@@ -16126,7 +19185,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "P=(-3/5;\\,4/5)}\\), \\(\\boxed{\\cos v=-3/5}\\), \\(\\boxed{\\sin v=4/5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.97",
@@ -16145,7 +19209,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "13,0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.98",
@@ -16164,7 +19231,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.99",
@@ -16183,7 +19255,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4,2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.100",
@@ -16202,7 +19277,13 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.101",
@@ -16221,7 +19302,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10,1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.102",
@@ -16240,7 +19324,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.103",
@@ -16259,7 +19347,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "7,52",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.104",
@@ -16278,7 +19369,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.105",
@@ -16297,7 +19392,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "11,8",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.106",
@@ -16316,7 +19414,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.107",
@@ -16335,7 +19437,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "11,66",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.108",
@@ -16354,7 +19459,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.109",
@@ -16373,7 +19481,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "8,2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.110",
@@ -16392,7 +19503,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1137",
     "tolerans": 2.0,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.111",
@@ -16411,7 +19525,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "7,57",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.112",
@@ -16430,7 +19547,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.113",
@@ -16449,7 +19570,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10,0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.114",
@@ -16468,7 +19592,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.115",
@@ -16487,7 +19615,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "9,79",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.116",
@@ -16506,7 +19637,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.117",
@@ -16525,7 +19660,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.118",
@@ -16544,7 +19682,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.119",
@@ -16563,7 +19705,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.120",
@@ -16582,7 +19727,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.121",
@@ -16601,7 +19750,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.122",
@@ -16620,7 +19773,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.123",
@@ -16639,7 +19796,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.124",
@@ -16658,7 +19818,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.125",
@@ -16677,7 +19841,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac12\\cdot8\\cdot11\\sin42^\\circ\\approx29,44\\text{ cm}^2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.126",
@@ -16696,7 +19863,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.127",
@@ -16715,7 +19885,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.128",
@@ -16734,7 +19908,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "4.129",
@@ -16753,7 +19930,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.130",
@@ -16772,7 +19953,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "4.131",
@@ -16791,7 +19975,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.132",
@@ -16810,7 +19998,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.133",
@@ -16829,7 +20022,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.134",
@@ -16848,7 +20045,10 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "4.135",
@@ -16867,7 +20067,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.136",
@@ -16886,7 +20090,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.137",
@@ -16905,7 +20112,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.138",
@@ -16924,7 +20135,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.139",
@@ -16943,7 +20159,11 @@ window.BANKMATO1 = [
     "svarstyp": "val",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.140",
@@ -16962,7 +20182,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.141",
@@ -16981,7 +20205,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\cos150^\\circ=-\\frac{\\sqrt3}{2},\\ \\sin150^\\circ=\\frac12",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.142",
@@ -17000,7 +20228,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.143",
@@ -17019,7 +20251,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "381",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.144",
@@ -17038,7 +20273,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\cos225^\\circ=-\\frac{\\sqrt2}{2},\\ \\sin225^\\circ=-\\frac{\\sqrt2}{2}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.145",
@@ -17057,7 +20296,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.146",
@@ -17076,7 +20319,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{315}{32}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.147",
@@ -17095,7 +20341,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\cos315^\\circ=\\frac{\\sqrt2}{2},\\ \\sin315^\\circ=-\\frac{\\sqrt2}{2}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.148",
@@ -17114,7 +20364,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.149",
@@ -17133,7 +20387,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "488,408",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.150",
@@ -17152,7 +20409,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\cos330^\\circ=\\frac{\\sqrt3}{2},\\ \\sin330^\\circ=-\\frac12",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.151",
@@ -17171,7 +20432,10 @@ window.BANKMATO1 = [
     "svarstyp": "val",
     "rättSvar": "(2,3)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.152",
@@ -17190,7 +20454,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "44",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.153",
@@ -17209,7 +20476,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.154",
@@ -17228,7 +20499,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "maximum är \\(\\boxed{40}\\) i \\(\\boxed{(0,8)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.155",
@@ -17247,7 +20522,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "442,7136",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.156",
@@ -17266,7 +20544,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "4.157",
@@ -17285,7 +20566,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "Z=30x+45y",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.158",
@@ -17307,7 +20592,11 @@ window.BANKMATO1 = [
       "486"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.159",
@@ -17326,7 +20615,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=210^\\circ\\text{ eller }330^\\circ",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.160",
@@ -17345,7 +20638,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.161",
@@ -17364,7 +20661,11 @@ window.BANKMATO1 = [
     "svarstyp": "val",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.162",
@@ -17383,7 +20684,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=45^\\circ\\text{ eller }315^\\circ",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.163",
@@ -17402,7 +20707,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.164",
@@ -17421,7 +20730,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "20;\\ 22;\\ 24,2;\\ 26,62",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.165",
@@ -17440,7 +20752,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.166",
@@ -17459,7 +20775,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "modellen ger maximum \\(\\boxed{1160\\text{ kr}}\\) vid \\(\\boxed{(16,12)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.167",
@@ -17478,7 +20798,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.168",
@@ -17497,7 +20820,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.169",
@@ -17516,7 +20843,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "maximum är \\(\\boxed{51,6}\\) vid \\(\\boxed{(8,4;\\,2,4)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.170",
@@ -17535,7 +20866,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "13\\,266\\text{ kr}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.171",
@@ -17554,7 +20889,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\cos v=-12/13",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.172",
@@ -17573,7 +20912,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.173",
@@ -17592,7 +20935,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "32\\,536",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.174",
@@ -17611,7 +20958,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\sin v=-4/5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.175",
@@ -17630,7 +20981,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.176",
@@ -17649,7 +21005,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "n=10",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.177",
@@ -17668,7 +21027,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=150^\\circ+360^\\circ n\\text{ eller }x=210^\\circ+360^\\circ n",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.178",
@@ -17687,7 +21050,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.179",
@@ -17706,7 +21074,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10,83",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.180",
@@ -17725,7 +21097,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-3/5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.181",
@@ -17744,7 +21120,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "(5,6;\\,7,2)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.182",
@@ -17763,7 +21143,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.183",
@@ -17782,7 +21165,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "24/25",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.184",
@@ -17801,7 +21188,13 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.185",
@@ -17820,7 +21213,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "k=2,\\ S_6=315",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.186",
@@ -17839,7 +21236,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.187",
@@ -17858,7 +21259,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.188",
@@ -17877,7 +21283,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.189",
@@ -17896,7 +21307,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "v=45^\\circ\\text{ eller }225^\\circ",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.190",
@@ -17915,7 +21331,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "p=2\\text{ eller }p=4",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.191",
@@ -17934,7 +21353,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=3,k=2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.192",
@@ -17953,7 +21375,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "P=(-\\frac{\\sqrt5}{5},\\frac{2\\sqrt5}{5})",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.193",
@@ -17972,7 +21398,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.194",
@@ -17991,7 +21422,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "4.195",
@@ -18010,7 +21446,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.196",
@@ -18029,7 +21469,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.197",
@@ -18048,7 +21492,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.198",
@@ -18067,7 +21515,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "1<a\\le\\sqrt2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "4.199",
@@ -18086,7 +21537,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac12\\le p\\le2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.200",
@@ -18105,7 +21560,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "1.201",
@@ -18125,7 +21585,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.202",
@@ -18145,7 +21609,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.203",
@@ -18165,7 +21634,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x^2+x+1}\\), där \\(\\boxed{x\\neq0,-1",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.204",
@@ -18185,7 +21658,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.205",
@@ -18205,7 +21682,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "-5,-3,-2,1",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.206",
@@ -18225,7 +21705,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-1\\pm3\\sqrt2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.207",
@@ -18245,7 +21728,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=-2\\text{ eller }a=-\\frac94",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.208",
@@ -18265,7 +21752,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.209",
@@ -18285,7 +21776,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{x+4}{x+1}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.210",
@@ -18305,7 +21799,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=0,-2,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.211",
@@ -18325,7 +21822,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{5x+1}{(x-1)(x+2)}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.212",
@@ -18345,7 +21845,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.213",
@@ -18368,7 +21872,10 @@ window.BANKMATO1 = [
       "0<x<18"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.214",
@@ -18388,7 +21895,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.215",
@@ -18408,7 +21919,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "(x-3)(x-1)(x+1)(x+3)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.216",
@@ -18428,7 +21942,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "p(a)=a^2+4a+10",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.217",
@@ -18448,7 +21965,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "n=-10",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.218",
@@ -18468,7 +21990,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.219",
@@ -18488,7 +22015,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=4}\\) och \\(\\boxed{p(x)=(x+2)(x-1)(x-4)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.220",
@@ -18508,7 +22039,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a<0\\text{ eller }a=5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.221",
@@ -18528,7 +22063,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "31",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.222",
@@ -18548,7 +22087,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.223",
@@ -18568,7 +22112,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=2(x-3)^2-1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.224",
@@ -18588,7 +22136,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=x^2+3x+1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.225",
@@ -18608,7 +22160,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac64=\\frac32",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.226",
@@ -18628,7 +22184,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.227",
@@ -18648,7 +22208,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac83",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.228",
@@ -18668,7 +22232,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.241",
@@ -18688,7 +22257,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.242",
@@ -18711,7 +22284,11 @@ window.BANKMATO1 = [
       "f^{\\prime}(1)=2"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.243",
@@ -18731,7 +22308,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "-9\\le g(7)\\le6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.244",
@@ -18751,7 +22332,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f_C^{\\prime}(a)=3a^2+\\frac32",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.245",
@@ -18771,7 +22357,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.246",
@@ -18791,7 +22381,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.247",
@@ -18811,7 +22405,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.248",
@@ -18835,7 +22434,10 @@ window.BANKMATO1 = [
       "h^{\\prime}(x)=-\\frac6{x^3}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.249",
@@ -18855,7 +22457,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime\\prime}(x)=60x^2-12x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.250",
@@ -18875,7 +22480,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=\\frac{3\\sqrt{x}}2+\\frac7{x^2}-\\frac1{2x\\sqrt{x}}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.251",
@@ -18895,7 +22503,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac34",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.252",
@@ -18915,7 +22526,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime\\prime}(x)=15\\sqrt{x}+\\frac{72}{x^5}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.253",
@@ -18935,7 +22549,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "2x^{a+1}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.254",
@@ -18958,7 +22576,10 @@ window.BANKMATO1 = [
       "f^{\\prime}(x)=\\ln(5)\\,5^x"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.255",
@@ -18978,7 +22599,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=\\ln(4)x+1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.256",
@@ -18998,7 +22622,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "C=3,k=2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.257",
@@ -19018,7 +22645,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=Ce^x,\\ C\\neq0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.258",
@@ -19038,7 +22669,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "11.48",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "2.259",
@@ -19058,7 +22693,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=1\\text{ och }x=3",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.260",
@@ -19078,7 +22716,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "(0,5;\\,-4)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.261",
@@ -19098,7 +22739,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=12x-19",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.262",
@@ -19118,7 +22762,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=3x^2+9x+6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.263",
@@ -19138,7 +22785,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=4x-3\\text{ och }y=-4x-3",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.264",
@@ -19158,7 +22808,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=-9x+8}\\) och \\(\\boxed{y=-9x+4",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.265",
@@ -19178,7 +22831,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.266",
@@ -19198,7 +22856,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.267",
@@ -19218,7 +22881,11 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.268",
@@ -19242,7 +22909,11 @@ window.BANKMATO1 = [
       "3"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.269",
@@ -19262,7 +22933,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.270",
@@ -19282,7 +22958,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.271",
@@ -19302,7 +22982,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.272",
@@ -19322,7 +23006,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.271",
@@ -19342,7 +23031,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "06,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.272",
@@ -19362,7 +23055,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x\\approx6,43\\text{ cm}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.273",
@@ -19382,7 +23079,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "r\\approx4,92\\text{ cm},\\ h\\approx9,85\\text{ cm}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.274",
@@ -19402,7 +23103,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5\\times5\\times10\\text{ cm}}\\), minsta kostnad \\(\\boxed{120\\text{ kr}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.275",
@@ -19422,7 +23127,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "288\\pi\\text{ cm}^3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.276",
@@ -19442,7 +23151,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2,11\\text{ och }7,89",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.277",
@@ -19462,7 +23174,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "12,5\\text{ m}\\times25\\text{ m}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.278",
@@ -19482,7 +23198,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "24\\text{ cm}\\times36\\text{ cm}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.279",
@@ -19502,7 +23222,12 @@ window.BANKMATO1 = [
     "svarstyp": "val",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.280",
@@ -19522,7 +23247,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=2,b=-1",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.281",
@@ -19542,7 +23272,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^3+x^2-3x+5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.282",
@@ -19562,7 +23295,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.283",
@@ -19582,7 +23319,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=4x^4+x^2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.284",
@@ -19602,7 +23343,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=2x^{5/2}+\\frac1{x^2}+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.285",
@@ -19622,7 +23366,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{32}{3}\\text{ a.e.}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.286",
@@ -19642,7 +23389,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "18",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.287",
@@ -19662,7 +23412,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "1,47",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.288",
@@ -19682,7 +23436,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=2\\text{ eller }a=6",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "3.289",
@@ -19702,7 +23460,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac1{12}\\text{ a.e.}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.290",
@@ -19722,7 +23483,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5\\,627\\text{ individer}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.291",
@@ -19742,7 +23507,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=5\\sqrt{17}\\approx20,6\\text{ dygn}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.292",
@@ -19762,7 +23531,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.293",
@@ -19785,7 +23559,11 @@ window.BANKMATO1 = [
       "Total volym:"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.294",
@@ -19805,7 +23583,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2,11\\text{ km efter ca }47\\text{ min}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.201",
@@ -19824,7 +23606,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.202",
@@ -19843,7 +23629,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=150^\\circ\\text{ eller }210^\\circ",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.203",
@@ -19862,7 +23652,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\sin v=-\\frac45,\\ \\tan v=\\frac43",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.204",
@@ -19881,7 +23675,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "12,6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.205",
@@ -19900,7 +23697,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "40,5^\\circ,49,7^\\circ,89,8^\\circ",
     "tolerans": 0.01,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.206",
@@ -19919,7 +23719,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.207",
@@ -19938,7 +23741,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{a^2}{2}\\frac{\\sin B\\sin C}{\\sin A}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "4.208",
@@ -19957,7 +23763,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "A\\approx125,3^\\circ,\\ B\\approx35,3^\\circ,\\ C\\approx19,4^\\circ",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.209",
@@ -19979,7 +23788,11 @@ window.BANKMATO1 = [
       "\\cos 220^\\circ\\approx -0,77"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.210",
@@ -20001,7 +23814,11 @@ window.BANKMATO1 = [
       "\\sin 230^\\circ\\approx -0,77"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.211",
@@ -20023,7 +23840,11 @@ window.BANKMATO1 = [
       "\\cos 215^\\circ\\approx -0,82"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.212",
@@ -20045,7 +23866,11 @@ window.BANKMATO1 = [
       "\\sin 295^\\circ\\approx -0,91"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.213",
@@ -20067,7 +23892,11 @@ window.BANKMATO1 = [
       "\\cos 335^\\circ\\approx 0,91"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.214",
@@ -20089,7 +23918,11 @@ window.BANKMATO1 = [
       "\\cos 250^\\circ\\approx -0,34"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.215",
@@ -20111,7 +23944,11 @@ window.BANKMATO1 = [
       "\\cos 140^\\circ\\approx -0,77"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.216",
@@ -20130,7 +23967,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.229",
@@ -20150,7 +23991,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.230",
@@ -20170,7 +24015,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.231",
@@ -20190,7 +24039,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.232",
@@ -20210,7 +24063,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.233",
@@ -20230,7 +24087,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.234",
@@ -20250,7 +24111,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.235",
@@ -20270,7 +24135,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.236",
@@ -20289,7 +24158,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-2\\text{ eller }x=4",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.237",
@@ -20308,7 +24180,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-6\\text{ eller }x=2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.238",
@@ -20327,7 +24202,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-5\\text{ eller }x=5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.239",
@@ -20346,7 +24224,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=1\\text{ eller }x=5",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.240",
@@ -20365,7 +24246,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "-2<x<6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.241",
@@ -20384,7 +24268,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "-4\\le x\\le2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.242",
@@ -20403,7 +24290,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-1\\text{ eller }x=9",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.243",
@@ -20422,7 +24312,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.273",
@@ -20442,7 +24336,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.274",
@@ -20462,7 +24361,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.275",
@@ -20482,7 +24386,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.276",
@@ -20502,7 +24411,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.277",
@@ -20522,7 +24436,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.278",
@@ -20542,7 +24461,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.279",
@@ -20562,7 +24486,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.280",
@@ -20582,7 +24511,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.281",
@@ -20602,7 +24536,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.282",
@@ -20622,7 +24561,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.283",
@@ -20642,7 +24586,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.284",
@@ -20662,7 +24611,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.295",
@@ -20682,7 +24636,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.296",
@@ -20702,7 +24660,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.297",
@@ -20722,7 +24684,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.298",
@@ -20742,7 +24708,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.299",
@@ -20762,7 +24732,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.300",
@@ -20782,7 +24756,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.301",
@@ -20802,7 +24780,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.302",
@@ -20822,7 +24804,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.303",
@@ -20842,7 +24828,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.304",
@@ -20862,7 +24852,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.305",
@@ -20882,7 +24876,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.306",
@@ -20902,7 +24899,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.307",
@@ -20922,7 +24922,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.308",
@@ -20942,7 +24945,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.309",
@@ -20962,7 +24968,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.310",
@@ -20982,7 +24991,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=3 x^{2} - 2 x + 4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.311",
@@ -21002,7 +25014,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^{3} + 4 x + 7",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.312",
@@ -21022,7 +25037,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{x^{4}}{2} - 3 x^{2} + 3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.313",
@@ -21042,7 +25060,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^3-3x^2+3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.314",
@@ -21062,7 +25084,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=2x^2-x-1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.315",
@@ -21082,7 +25109,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "20",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.316",
@@ -21102,7 +25132,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{26}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.317",
@@ -21122,7 +25155,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.318",
@@ -21142,7 +25178,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-9",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.319",
@@ -21162,7 +25201,11 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{21}{2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.320",
@@ -21182,7 +25225,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "8",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.321",
@@ -21202,7 +25249,11 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{8}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.322",
@@ -21222,7 +25273,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=\\frac{-1+\\sqrt{61}}{2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.323",
@@ -21242,7 +25296,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{9}{2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.324",
@@ -21262,7 +25319,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "k=\\frac{11}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.325",
@@ -21282,7 +25342,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "19",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.326",
@@ -21302,7 +25366,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "23",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.327",
@@ -21322,7 +25390,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "22",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.328",
@@ -21342,7 +25414,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "11",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.329",
@@ -21362,7 +25438,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "60",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.330",
@@ -21382,7 +25462,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "88",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.331",
@@ -21402,7 +25486,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "60",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ]
   },
   {
     "id": "3.332",
@@ -21422,7 +25509,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "9",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.217",
@@ -21441,7 +25532,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "Z=28",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.218",
@@ -21460,7 +25555,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "Z=27",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.219",
@@ -21479,7 +25578,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "Z=30",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.220",
@@ -21498,7 +25601,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "130",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.221",
@@ -21517,7 +25624,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "k=4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.222",
@@ -21536,7 +25647,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "320",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.223",
@@ -21555,7 +25670,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.224",
@@ -21574,7 +25692,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.225",
@@ -21593,7 +25714,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.226",
@@ -21612,7 +25736,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "n=6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.227",
@@ -21631,7 +25758,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "k=2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.228",
@@ -21650,7 +25781,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5416,32",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.229",
@@ -21669,7 +25804,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "12,26",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "2.285",
@@ -21689,7 +25828,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.286",
@@ -21709,7 +25851,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.287",
@@ -21729,7 +25874,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.288",
@@ -21749,7 +25897,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.289",
@@ -21769,7 +25920,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.290",
@@ -21789,7 +25943,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.291",
@@ -21809,7 +25966,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.292",
@@ -21829,7 +25989,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.293",
@@ -21849,7 +26012,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.294",
@@ -21869,7 +26035,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.295",
@@ -21889,7 +26058,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.296",
@@ -21909,7 +26081,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.297",
@@ -21929,7 +26104,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.298",
@@ -21949,7 +26127,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.299",
@@ -21969,7 +26150,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.300",
@@ -21989,7 +26173,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.301",
@@ -22013,7 +26200,10 @@ window.BANKMATO1 = [
       "f^{\\prime}(x)=- \\frac{2}{x^{2}}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.302",
@@ -22037,7 +26227,10 @@ window.BANKMATO1 = [
       "f^{\\prime}(x)=2 - \\frac{2}{x^{3}}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.303",
@@ -22061,7 +26254,10 @@ window.BANKMATO1 = [
       "f^{\\prime}(x)=\\frac{3 \\sqrt{x}}{2}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.304",
@@ -22085,7 +26281,10 @@ window.BANKMATO1 = [
       "f^{\\prime}(x)=2 x - \\frac{9}{x^{4}}"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.305",
@@ -22105,7 +26304,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.306",
@@ -22125,7 +26327,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=4x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.307",
@@ -22145,7 +26350,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.308",
@@ -22165,7 +26373,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime\\prime}(x)=40x^3-18x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.333",
@@ -22185,7 +26396,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "det största värdet är \\(\\boxed{10}\\) och extrempunkten är \\(\\boxed{(3; 10)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.334",
@@ -22205,7 +26419,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "det minsta värdet är \\(\\boxed{-13}\\) och extrempunkten är \\(\\boxed{(4; -13)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.335",
@@ -22225,7 +26442,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "det största värdet är \\(\\boxed{13}\\) och extrempunkten är \\(\\boxed{(3; 13)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.336",
@@ -22245,7 +26465,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "det minsta värdet är \\(\\boxed{-5}\\) och extrempunkten är \\(\\boxed{(2; -5)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.337",
@@ -22265,7 +26488,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "det största värdet är \\(\\boxed{16}\\) och extrempunkten är \\(\\boxed{(5; 16)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.338",
@@ -22285,7 +26511,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "det minsta värdet är \\(\\boxed{-8}\\) och extrempunkten är \\(\\boxed{(1; -8)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.339",
@@ -22305,7 +26534,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "det största värdet är \\(\\boxed{29}\\) och extrempunkten är \\(\\boxed{(3; 29)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.340",
@@ -22325,7 +26557,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "det minsta värdet är \\(\\boxed{-5}\\) och extrempunkten är \\(\\boxed{(-3; -5)}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.341",
@@ -22345,7 +26580,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "49",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.342",
@@ -22365,7 +26604,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "64",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.343",
@@ -22385,7 +26628,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "100",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.344",
@@ -22405,7 +26652,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "144",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.345",
@@ -22425,7 +26676,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "112,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.346",
@@ -22445,7 +26700,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "162",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.347",
@@ -22465,7 +26724,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "312,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.348",
@@ -22485,7 +26748,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(x=10\\), vilket motsvarar en prishöjning med 100 kr",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.349",
@@ -22505,7 +26772,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "bollen är som högst efter \\(\\boxed{6\\text{ s}}\\), och den största höjden är \\(\\boxed{122\\text{ m}}\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.350",
@@ -22525,7 +26796,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "180\\,000\\text{ kr}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.351",
@@ -22545,7 +26820,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.352",
@@ -22565,7 +26845,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.353",
@@ -22585,7 +26870,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^{2} + 3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.354",
@@ -22605,7 +26894,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^{3} + 1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.355",
@@ -22625,7 +26918,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=2 x^{2} - 2 x + 1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.356",
@@ -22645,7 +26942,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=\\frac{x^{4}}{2} + \\frac{5}{2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.357",
@@ -22665,7 +26966,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^{5} - x^{2} + 3 x+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.358",
@@ -22685,7 +26989,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=2 x^{\\frac{3}{2}} + \\frac{2 x^{3}}{3}+C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.230",
@@ -22704,7 +27011,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5416",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.231",
@@ -22723,7 +27034,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "8,13",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.232",
@@ -22742,7 +27057,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "255",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.233",
@@ -22761,7 +27079,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10618",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.234",
@@ -22780,7 +27102,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5441,53",
     "tolerans": 0.02,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.235",
@@ -22799,7 +27125,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.236",
@@ -22818,7 +27147,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "31069,07",
     "tolerans": 0.02,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.237",
@@ -22837,7 +27170,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.359",
@@ -22857,7 +27193,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.360",
@@ -22877,7 +27218,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.361",
@@ -22897,7 +27243,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.362",
@@ -22917,7 +27268,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.363",
@@ -22937,7 +27293,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.364",
@@ -22957,7 +27318,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.365",
@@ -22977,7 +27343,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.366",
@@ -22997,7 +27368,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.367",
@@ -23017,7 +27393,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.368",
@@ -23037,7 +27418,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.369",
@@ -23057,7 +27443,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.370",
@@ -23077,7 +27468,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.371",
@@ -23097,7 +27493,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "47",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.372",
@@ -23117,7 +27517,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "107",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.373",
@@ -23137,7 +27541,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "140",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.374",
@@ -23157,7 +27565,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "32,4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.375",
@@ -23177,7 +27589,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "225",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.376",
@@ -23197,7 +27613,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "31",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.377",
@@ -23217,7 +27636,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.378",
@@ -23237,7 +27660,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "36",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.379",
@@ -23257,7 +27684,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "14",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.380",
@@ -23277,7 +27708,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "26",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.381",
@@ -23297,7 +27732,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "11",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.382",
@@ -23317,7 +27756,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "83",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.383",
@@ -23337,7 +27780,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.384",
@@ -23357,7 +27805,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "minsta värdet är \\(\\boxed{90}\\) och fås vid \\(x=0\\) och \\(x=6\\). Största värdet är \\(\\boxed{122}\\) och fås vid \\(x=2\\) och \\(x=8\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.385",
@@ -23377,7 +27829,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "450",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.386",
@@ -23397,7 +27853,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "882",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.387",
@@ -23417,7 +27877,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "768",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.388",
@@ -23437,7 +27901,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.389",
@@ -23457,7 +27925,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.390",
@@ -23477,7 +27949,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4,42",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.391",
@@ -23497,7 +27973,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.392",
@@ -23517,7 +27997,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.393",
@@ -23537,7 +28021,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "288\\pi\\text{ cm}^3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.394",
@@ -23557,7 +28045,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "modellering"
+    ]
   },
   {
     "id": "3.395",
@@ -23577,7 +28068,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.396",
@@ -23597,7 +28092,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "14,14",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.397",
@@ -23617,7 +28116,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "12\\text{ och }12",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.398",
@@ -23637,7 +28139,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "25\\text{ och }25",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.399",
@@ -23657,7 +28162,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "160",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.400",
@@ -23677,7 +28186,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "95",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.401",
@@ -23697,7 +28210,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "32",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.402",
@@ -23717,7 +28234,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "(\\pm\\sqrt{5/2};\\,5/2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.403",
@@ -23737,7 +28257,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.404",
@@ -23757,7 +28280,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.405",
@@ -23777,7 +28304,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "900",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.406",
@@ -23797,7 +28328,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "18\\text{ cm}\\times18\\text{ cm}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.407",
@@ -23817,7 +28352,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.408",
@@ -23837,7 +28376,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2500/3\\text{ m}^2\\approx833,33\\text{ m}^2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.409",
@@ -23857,7 +28400,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "130",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.410",
@@ -23877,7 +28424,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "1.244",
@@ -23897,7 +28449,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x\\approx -1,861, -0,254, 2,115",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.245",
@@ -23917,7 +28472,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x\\approx -2,189, -0,457, 0,457, 2,189",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.246",
@@ -23937,7 +28495,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.247",
@@ -23957,7 +28519,10 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.248",
@@ -23977,7 +28542,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.249",
@@ -23997,7 +28566,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.250",
@@ -24017,7 +28591,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.251",
@@ -24037,7 +28616,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.252",
@@ -24057,7 +28641,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f(x)=x^2-2x+3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.253",
@@ -24077,7 +28665,11 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.254",
@@ -24096,7 +28688,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.255",
@@ -24115,7 +28711,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.256",
@@ -24134,7 +28734,12 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.257",
@@ -24153,7 +28758,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.258",
@@ -24172,7 +28782,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.259",
@@ -24192,7 +28805,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.260",
@@ -24212,7 +28830,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.261",
@@ -24232,7 +28854,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.262",
@@ -24252,7 +28879,12 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.263",
@@ -24272,7 +28904,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.264",
@@ -24291,7 +28927,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "- \\frac{2}{3},\\;10",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.265",
@@ -24310,7 +28949,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "- \\frac{5}{2},\\;\\frac{3}{2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.266",
@@ -24329,7 +28971,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "-1,\\;2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.267",
@@ -24348,7 +28993,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.268",
@@ -24367,7 +29017,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.309",
@@ -24387,7 +29041,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "9",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.310",
@@ -24407,7 +29064,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.311",
@@ -24427,7 +29089,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.312",
@@ -24447,7 +29112,10 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.313",
@@ -24467,7 +29135,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.314",
@@ -24487,7 +29159,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=x-1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.315",
@@ -24507,7 +29182,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.316",
@@ -24527,7 +29205,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "(0,-7)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.317",
@@ -24547,7 +29228,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.318",
@@ -24567,7 +29252,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=1,386x+0,614",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.319",
@@ -24587,7 +29275,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "8",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.320",
@@ -24607,7 +29298,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10,7",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "2.321",
@@ -24627,7 +29322,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "2.322",
@@ -24647,7 +29346,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10,8",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.323",
@@ -24667,7 +29369,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.324",
@@ -24687,7 +29393,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.325",
@@ -24707,7 +29417,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.326",
@@ -24727,7 +29441,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.327",
@@ -24747,7 +29465,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.328",
@@ -24767,7 +29489,10 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "3.411",
@@ -24787,7 +29512,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "37\\,822,5\\text{ kr}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.412",
@@ -24807,7 +29536,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1800",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.413",
@@ -24827,7 +29560,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1152",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.414",
@@ -24847,7 +29584,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "900",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.415",
@@ -24867,7 +29608,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "16",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.416",
@@ -24887,7 +29632,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.417",
@@ -24907,7 +29657,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.418",
@@ -24927,7 +29682,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.419",
@@ -24947,7 +29707,12 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.420",
@@ -24967,7 +29732,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=4,\\;b=-3",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.421",
@@ -24987,7 +29756,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.422",
@@ -25007,7 +29781,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "3.423",
@@ -25027,7 +29805,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "F(x)=x^3-3x^2+2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.424",
@@ -25047,7 +29828,11 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.425",
@@ -25067,7 +29852,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "3.426",
@@ -25087,7 +29876,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3,241",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.427",
@@ -25107,7 +29899,12 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.428",
@@ -25127,7 +29924,10 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.429",
@@ -25147,7 +29947,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "786",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.430",
@@ -25167,7 +29970,10 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.431",
@@ -25187,7 +29993,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "40,34",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.432",
@@ -25207,7 +30018,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "140,0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.433",
@@ -25227,7 +30043,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "595,73",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.434",
@@ -25247,7 +30067,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "14,25",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.435",
@@ -25267,7 +30091,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "46,74",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.238",
@@ -25286,7 +30114,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.239",
@@ -25305,7 +30137,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.240",
@@ -25324,7 +30160,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.241",
@@ -25343,7 +30183,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.242",
@@ -25362,7 +30207,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.243",
@@ -25381,7 +30231,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "4.244",
@@ -25400,7 +30254,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.245",
@@ -25419,7 +30276,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "8,48",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.246",
@@ -25438,7 +30298,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.247",
@@ -25457,7 +30320,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.248",
@@ -25476,7 +30344,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "21,9",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.249",
@@ -25495,7 +30367,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "40,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.250",
@@ -25514,7 +30389,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "56,0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.251",
@@ -25533,7 +30412,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.252",
@@ -25552,7 +30434,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "4.253",
@@ -25571,7 +30458,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.254",
@@ -25590,7 +30481,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.255",
@@ -25609,7 +30504,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "I=16200",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.256",
@@ -25628,7 +30526,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "k=3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.257",
@@ -25647,7 +30548,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "35,4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.329",
@@ -25667,7 +30571,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.330",
@@ -25687,7 +30594,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.331",
@@ -25707,7 +30617,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.332",
@@ -25727,7 +30640,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.333",
@@ -25747,7 +30663,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.334",
@@ -25767,7 +30686,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.335",
@@ -25787,7 +30711,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.336",
@@ -25807,7 +30736,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.337",
@@ -25827,7 +30761,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.338",
@@ -25847,7 +30786,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.339",
@@ -25867,7 +30811,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.340",
@@ -25887,7 +30834,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.341",
@@ -25907,7 +30857,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.342",
@@ -25927,7 +30880,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.343",
@@ -25947,7 +30903,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.344",
@@ -25967,7 +30926,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.345",
@@ -25987,7 +30949,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.346",
@@ -26007,7 +30972,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.347",
@@ -26027,7 +30995,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.348",
@@ -26047,7 +31019,10 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "2.349",
@@ -26067,7 +31042,10 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.350",
@@ -26087,7 +31065,12 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.351",
@@ -26107,7 +31090,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.436",
@@ -26127,7 +31115,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.437",
@@ -26147,7 +31139,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.438",
@@ -26167,7 +31163,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.439",
@@ -26187,7 +31187,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.440",
@@ -26207,7 +31211,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.441",
@@ -26227,7 +31235,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.442",
@@ -26247,7 +31259,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.443",
@@ -26267,7 +31283,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.444",
@@ -26287,7 +31307,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.445",
@@ -26307,7 +31331,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.446",
@@ -26327,7 +31355,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.447",
@@ -26347,7 +31379,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.448",
@@ -26367,7 +31403,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1825,3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.449",
@@ -26387,7 +31427,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.450",
@@ -26407,7 +31451,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.451",
@@ -26427,7 +31475,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.452",
@@ -26447,7 +31499,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.453",
@@ -26467,7 +31523,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.454",
@@ -26487,7 +31547,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.455",
@@ -26507,7 +31571,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.456",
@@ -26527,7 +31595,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.457",
@@ -26547,7 +31619,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "619,96",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.458",
@@ -26567,7 +31643,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "810",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.459",
@@ -26587,7 +31667,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.460",
@@ -26607,7 +31691,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "minsta temperatur är \\(20\\) och största ungefär \\(57,93\\)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.461",
@@ -26627,7 +31715,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.462",
@@ -26647,7 +31738,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.463",
@@ -26667,7 +31761,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.464",
@@ -26687,7 +31784,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.465",
@@ -26707,7 +31807,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.466",
@@ -26727,7 +31830,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.467",
@@ -26747,7 +31853,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.468",
@@ -26767,7 +31876,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.469",
@@ -26787,7 +31899,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.470",
@@ -26807,7 +31922,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.471",
@@ -26827,7 +31945,10 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.472",
@@ -26847,7 +31968,10 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.473",
@@ -26867,7 +31991,10 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.474",
@@ -26887,7 +32014,10 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.475",
@@ -26907,7 +32037,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.476",
@@ -26927,7 +32060,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.477",
@@ -26947,7 +32083,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.478",
@@ -26967,7 +32106,12 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.479",
@@ -26987,7 +32131,11 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.480",
@@ -27007,7 +32155,12 @@ window.BANKMATO1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.481",
@@ -27027,7 +32180,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.482",
@@ -27047,7 +32205,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "175",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.483",
@@ -27067,7 +32229,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1330",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.484",
@@ -27087,7 +32253,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "24",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.485",
@@ -27107,7 +32277,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6,25",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.486",
@@ -27127,7 +32301,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "270,75",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.487",
@@ -27147,7 +32325,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.488",
@@ -27167,7 +32349,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "42",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.489",
@@ -27187,7 +32373,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "3.490",
@@ -27207,7 +32398,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "84",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.491",
@@ -27227,7 +32422,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "21,6",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.492",
@@ -27247,7 +32446,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3836",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.493",
@@ -27267,7 +32470,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "21,80",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.494",
@@ -27287,7 +32494,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.495",
@@ -27307,7 +32518,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "726",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.496",
@@ -27327,7 +32542,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "17,29",
     "tolerans": 0.02,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.497",
@@ -27347,7 +32566,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.498",
@@ -27367,7 +32590,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "172,5",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.499",
@@ -27387,7 +32614,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10,5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.500",
@@ -27407,7 +32638,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "58,67",
     "tolerans": 0.02,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.501",
@@ -27427,7 +32662,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.502",
@@ -27447,7 +32686,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.503",
@@ -27467,7 +32710,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.504",
@@ -27487,7 +32734,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.505",
@@ -27507,7 +32758,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.506",
@@ -27527,7 +32782,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "1.269",
@@ -27547,7 +32806,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "1.270",
@@ -27567,7 +32831,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "1.271",
@@ -27587,7 +32856,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.272",
@@ -27607,7 +32880,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.273",
@@ -27627,7 +32904,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "1.274",
@@ -27647,7 +32929,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "id": "1.275",
@@ -27667,7 +32954,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.276",
@@ -27687,7 +32979,10 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "1.277",
@@ -27707,7 +33002,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.278",
@@ -27727,7 +33026,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.279",
@@ -27747,7 +33050,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.280",
@@ -27767,7 +33074,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.352",
@@ -27787,7 +33098,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "2.353",
@@ -27807,7 +33122,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.354",
@@ -27827,7 +33145,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.355",
@@ -27847,7 +33168,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.356",
@@ -27867,7 +33192,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.357",
@@ -27887,7 +33215,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.358",
@@ -27907,7 +33238,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.359",
@@ -27927,7 +33261,10 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "3.507",
@@ -27947,7 +33284,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.508",
@@ -27967,7 +33308,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.509",
@@ -27987,7 +33332,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.510",
@@ -28007,7 +33356,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.511",
@@ -28027,7 +33380,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.512",
@@ -28047,7 +33405,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.513",
@@ -28067,7 +33430,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.514",
@@ -28087,7 +33455,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.515",
@@ -28107,7 +33480,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.516",
@@ -28127,7 +33504,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.517",
@@ -28147,7 +33528,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1825",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.518",
@@ -28167,7 +33552,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "760",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.519",
@@ -28187,7 +33576,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.520",
@@ -28207,7 +33600,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.521",
@@ -28227,7 +33624,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "294,04",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.522",
@@ -28247,7 +33648,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.523",
@@ -28267,7 +33672,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.524",
@@ -28287,7 +33696,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.525",
@@ -28307,7 +33720,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "71,25\\text{ cm}\\times106,87\\text{ cm}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.526",
@@ -28327,7 +33744,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.527",
@@ -28347,7 +33768,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "106\\,788\\text{ kr}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.528",
@@ -28367,7 +33792,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.529",
@@ -28387,7 +33816,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.530",
@@ -28407,7 +33840,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.531",
@@ -28427,7 +33864,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,882",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.532",
@@ -28447,7 +33887,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,774",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.533",
@@ -28467,7 +33911,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1,106",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.534",
@@ -28487,7 +33935,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3,241",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.535",
@@ -28507,7 +33959,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,399",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.536",
@@ -28527,7 +33983,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,478",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.537",
@@ -28547,7 +34006,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{32}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.538",
@@ -28567,7 +34029,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4,655",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.539",
@@ -28587,7 +34052,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "97,548",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.540",
@@ -28607,7 +34075,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,322",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.541",
@@ -28627,7 +34098,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "30",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.542",
@@ -28647,7 +34123,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "22",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.543",
@@ -28667,7 +34148,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.544",
@@ -28687,7 +34173,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.545",
@@ -28707,7 +34198,12 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.546",
@@ -28727,7 +34223,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "92,2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.547",
@@ -28747,7 +34247,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "300",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.548",
@@ -28767,7 +34271,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "108",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.549",
@@ -28787,7 +34295,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1419,4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.550",
@@ -28807,7 +34319,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2920",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.258",
@@ -28826,7 +34342,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.259",
@@ -28845,7 +34365,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "111",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.260",
@@ -28864,7 +34388,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "204",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.261",
@@ -28883,7 +34411,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.360",
@@ -28903,7 +34435,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.361",
@@ -28923,7 +34458,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.362",
@@ -28943,7 +34481,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.363",
@@ -28963,7 +34504,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.364",
@@ -28983,7 +34527,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.365",
@@ -29003,7 +34550,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.366",
@@ -29023,7 +34573,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.367",
@@ -29043,7 +34596,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.368",
@@ -29063,7 +34619,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.369",
@@ -29083,7 +34644,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.370",
@@ -29103,7 +34669,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.371",
@@ -29123,7 +34694,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.372",
@@ -29143,7 +34719,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.373",
@@ -29163,7 +34744,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.374",
@@ -29183,7 +34769,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.375",
@@ -29203,7 +34794,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.376",
@@ -29223,7 +34819,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.377",
@@ -29243,7 +34844,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.378",
@@ -29263,7 +34869,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.379",
@@ -29283,7 +34894,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.380",
@@ -29303,7 +34919,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.381",
@@ -29323,7 +34944,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.382",
@@ -29343,7 +34969,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.383",
@@ -29363,7 +34994,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.551",
@@ -29383,7 +35019,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.552",
@@ -29403,7 +35044,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.553",
@@ -29423,7 +35069,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.554",
@@ -29443,7 +35094,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.555",
@@ -29463,7 +35119,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.556",
@@ -29483,7 +35144,12 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.557",
@@ -29503,7 +35169,12 @@ window.BANKMATO1 = [
     "svarstyp": "val",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.558",
@@ -29523,7 +35194,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "3.559",
@@ -29543,7 +35219,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.560",
@@ -29563,7 +35243,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.561",
@@ -29583,7 +35267,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.562",
@@ -29603,7 +35291,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.563",
@@ -29623,7 +35315,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.564",
@@ -29643,7 +35339,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.565",
@@ -29663,7 +35363,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.566",
@@ -29683,7 +35387,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.567",
@@ -29703,7 +35411,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.568",
@@ -29723,7 +35435,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.569",
@@ -29743,7 +35459,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.570",
@@ -29763,7 +35483,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.571",
@@ -29783,7 +35507,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.572",
@@ -29803,7 +35531,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.573",
@@ -29823,7 +35555,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.574",
@@ -29843,7 +35579,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.575",
@@ -29863,7 +35603,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.576",
@@ -29883,7 +35627,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.577",
@@ -29903,7 +35651,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.578",
@@ -29923,7 +35675,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.579",
@@ -29943,7 +35699,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.580",
@@ -29963,7 +35722,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,882",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.581",
@@ -29983,7 +35745,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5,653",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.582",
@@ -30003,7 +35768,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1,107",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.583",
@@ -30023,7 +35791,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,461",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.584",
@@ -30043,7 +35814,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2,545",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.585",
@@ -30063,7 +35837,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,918",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.586",
@@ -30083,7 +35860,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6,283",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.587",
@@ -30103,7 +35883,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.588",
@@ -30123,7 +35906,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.589",
@@ -30143,7 +35929,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.590",
@@ -30163,7 +35952,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.591",
@@ -30183,7 +35975,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.592",
@@ -30203,7 +35998,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.593",
@@ -30223,7 +36021,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "80,0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.594",
@@ -30243,7 +36045,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "32,4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.595",
@@ -30263,7 +36069,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "150",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.596",
@@ -30283,7 +36093,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "200",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.597",
@@ -30303,7 +36117,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "150,0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.598",
@@ -30323,7 +36141,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "36",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.599",
@@ -30343,7 +36165,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "15,0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.600",
@@ -30363,7 +36189,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "33",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.601",
@@ -30383,7 +36213,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{125}{3}+\\frac{25}{2}+20\\approx74,17",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.602",
@@ -30403,7 +36237,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.603",
@@ -30423,7 +36261,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.604",
@@ -30443,7 +36285,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "250",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.605",
@@ -30463,7 +36309,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.606",
@@ -30483,7 +36333,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.607",
@@ -30503,7 +36357,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.608",
@@ -30523,7 +36381,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1962",
     "tolerans": 2.0,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.609",
@@ -30543,7 +36405,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "3.610",
@@ -30563,7 +36429,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.262",
@@ -30582,7 +36452,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "17",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.263",
@@ -30601,7 +36475,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "24",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.264",
@@ -30620,7 +36498,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "25",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.265",
@@ -30639,7 +36521,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "35",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.266",
@@ -30658,7 +36544,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1800",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.267",
@@ -30677,7 +36567,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "11100",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.268",
@@ -30696,7 +36590,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "108",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.269",
@@ -30715,7 +36613,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1800",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.270",
@@ -30734,7 +36636,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.271",
@@ -30753,7 +36658,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.272",
@@ -30772,7 +36680,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.273",
@@ -30791,7 +36702,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.274",
@@ -30810,7 +36724,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   },
   {
     "id": "4.275",
@@ -30829,7 +36747,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.281",
@@ -30849,7 +36770,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x^2-x-12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.282",
@@ -30869,7 +36793,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "6x(x-2)(x+2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.283",
@@ -30889,7 +36816,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-3,\\ 0,\\ 3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.284",
@@ -30909,7 +36839,10 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.285",
@@ -30929,7 +36862,12 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "a=1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.286",
@@ -30949,7 +36887,11 @@ window.BANKMATO1 = [
     "svarstyp": "val",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "1.287",
@@ -30969,7 +36911,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x+4, där x\\ne4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.288",
@@ -30989,7 +36934,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{x}{2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.289",
@@ -31009,7 +36957,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{x}{2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.290",
@@ -31029,7 +36980,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac5x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.291",
@@ -31049,7 +37003,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{x+2}{2x}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.292",
@@ -31069,7 +37026,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=8",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.293",
@@ -31089,7 +37049,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=-5\\text{ och }x=2",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.294",
@@ -31109,7 +37073,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{x+3}{x+2}",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.384",
@@ -31129,7 +37096,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.385",
@@ -31149,7 +37120,12 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "18",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "2.386",
@@ -31169,7 +37145,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "2.387",
@@ -31189,7 +37168,11 @@ window.BANKMATO1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.388",
@@ -31209,7 +37192,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(2)=4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.389",
@@ -31229,7 +37216,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "2.390",
@@ -31249,7 +37239,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=12 x^{3} - 10 x",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.391",
@@ -31269,7 +37262,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=21 x^{2} - 2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.392",
@@ -31289,7 +37285,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=x \\left(5 x^{3} + 8\\right)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.393",
@@ -31309,7 +37308,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=\\frac{5}{2 \\sqrt{x}}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.394",
@@ -31329,7 +37331,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=4 x - \\frac{4}{x^{2}}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.395",
@@ -31349,7 +37354,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=-5 - \\frac{6}{x^{3}}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.396",
@@ -31369,7 +37377,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=12 x^{5} - 3 x^{2} + 1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.397",
@@ -31389,7 +37400,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=12 x \\left(1 - x\\right)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.398",
@@ -31409,7 +37423,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=6 x^{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.399",
@@ -31429,7 +37446,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.400",
@@ -31449,7 +37469,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.401",
@@ -31469,7 +37492,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.402",
@@ -31489,7 +37515,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.403",
@@ -31509,7 +37538,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.404",
@@ -31529,7 +37561,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.405",
@@ -31549,7 +37584,11 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "(3;-4)",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.406",
@@ -31569,7 +37608,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.407",
@@ -31589,7 +37631,11 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.408",
@@ -31609,7 +37655,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "f^{\\prime}(x)=4^x\\ln4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.409",
@@ -31629,7 +37678,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.410",
@@ -31649,7 +37701,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "10e^{2x}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.411",
@@ -31669,7 +37724,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "6e^{-2x}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.412",
@@ -31689,7 +37747,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "e^{x\\ln7}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.413",
@@ -31709,7 +37770,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=\\ln12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.414",
@@ -31729,7 +37793,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "x=e^3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.415",
@@ -31749,7 +37816,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "y=x+1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.416",
@@ -31769,7 +37839,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.417",
@@ -31789,7 +37863,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.611",
@@ -31809,7 +37887,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.612",
@@ -31829,7 +37911,11 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.418",
@@ -31849,7 +37935,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.419",
@@ -31869,7 +37959,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.613",
@@ -31889,7 +37983,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.614",
@@ -31909,7 +38007,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.615",
@@ -31929,7 +38031,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.616",
@@ -31949,7 +38054,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.617",
@@ -31969,7 +38077,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.618",
@@ -31989,7 +38100,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.619",
@@ -32009,7 +38123,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.620",
@@ -32029,7 +38146,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.621",
@@ -32049,7 +38169,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.622",
@@ -32069,7 +38192,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.623",
@@ -32089,7 +38215,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "28",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.624",
@@ -32109,7 +38238,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.625",
@@ -32129,7 +38261,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.626",
@@ -32149,7 +38284,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.627",
@@ -32169,7 +38307,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.628",
@@ -32189,7 +38330,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "- \\frac{1}{2} + \\frac{e^{4}}{2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.629",
@@ -32209,7 +38353,10 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\frac{7}{\\ln{\\left(2 \\right)}}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.630",
@@ -32229,7 +38376,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{1}{2}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.631",
@@ -32249,7 +38399,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "25",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.632",
@@ -32269,7 +38422,10 @@ window.BANKMATO1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{16}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.276",
@@ -32288,7 +38444,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.277",
@@ -32307,7 +38467,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.278",
@@ -32326,7 +38490,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.279",
@@ -32345,7 +38513,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.280",
@@ -32364,7 +38536,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.281",
@@ -32383,7 +38559,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.282",
@@ -32402,7 +38582,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.283",
@@ -32421,7 +38605,11 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "4.284",
@@ -32440,7 +38628,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.285",
@@ -32459,7 +38650,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.286",
@@ -32478,7 +38672,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.287",
@@ -32497,7 +38694,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.288",
@@ -32516,7 +38716,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.289",
@@ -32535,7 +38738,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.290",
@@ -32554,7 +38760,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.291",
@@ -32573,7 +38782,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.292",
@@ -32592,7 +38804,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.293",
@@ -32611,7 +38826,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.294",
@@ -32630,7 +38848,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "93",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.295",
@@ -32649,7 +38870,10 @@ window.BANKMATO1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.296",
@@ -32671,7 +38895,10 @@ window.BANKMATO1 = [
       "32 rutor"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.297",
@@ -32690,7 +38917,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "252",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.298",
@@ -32709,7 +38939,10 @@ window.BANKMATO1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "4.299",
@@ -32731,6 +38964,10 @@ window.BANKMATO1 = [
       "7,5 cm"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ]
   }
 ];

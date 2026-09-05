@@ -1,14 +1,14 @@
 /* uppgiftermatf1.js — Matematik – fördjupning nivå 1.
-   Adaptiv metadata:
-   - familj
-   - svarstyp
-   - rättSvar
-   - tolerans
-   - självrättning
+   Förmågemetadata:
+     formaga: ["procedur", "begrepp", "modellering", "resonemang"]
 
-   Klassificeringen är konservativ:
-   öppna resonemang, figuruppgifter och avancerade symboliska svar
-   med flera ekvivalenta skrivsätt självrättas inte.
+   En uppgift kan träna flera förmågor.
+   Kommunikation är medvetet utelämnad.
+   Taggningen är gjord efter uppgiftens faktiska matematiska krav och facit,
+   inte efter E/C/A-nivå.
+
+   Modellering används restriktivt: rena geometriska förändringshastigheter
+   utan verklighetskontext är inte automatiskt taggade som modellering.
 */
 
 window.BANKMATF1 = [
@@ -27,7 +27,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(A=\\{x\\in\\mathbb R\\mid x<100\\}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -44,7 +47,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(A=\\{-3,-2,-1,0,1,2,3\\}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -65,7 +71,10 @@ window.BANKMATF1 = [
       "\\(\\{1,2,3\\}\\)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -85,7 +94,10 @@ window.BANKMATF1 = [
       "\\(A\\cup B=\\{1,3,4,5,6,7,8,9\\}\\)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -102,7 +114,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -124,7 +139,10 @@ window.BANKMATF1 = [
       "\\(B\\cap A=B\\)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -141,7 +159,10 @@ window.BANKMATF1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -163,7 +184,10 @@ window.BANKMATF1 = [
       "\\(\\{3,7,11,14\\}\\)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -180,7 +204,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -197,7 +224,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -214,7 +245,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(P=\\{2n\\mid n\\in\\mathbb Z,\\ 1\\le n\\le5\\}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -231,7 +266,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(A=\\{2n\\mid n\\in\\mathbb{Z},\\ 1\\le n\\le 10\\}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -248,7 +286,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(B=\\{-3,-2,-1,0,1,2,3\\}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -265,7 +306,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(\\{x\\mid x\\in\\mathbb Z,\\ -2\\le x\\le5\\}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -282,7 +326,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -299,7 +346,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -316,7 +366,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -333,7 +386,10 @@ window.BANKMATF1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -350,7 +406,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -367,7 +427,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(68\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -384,7 +449,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -401,7 +469,10 @@ window.BANKMATF1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -418,7 +489,10 @@ window.BANKMATF1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -435,7 +509,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -455,7 +532,10 @@ window.BANKMATF1 = [
       "Sant"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -472,7 +552,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -489,7 +572,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -506,7 +592,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -523,7 +612,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -540,7 +633,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(118\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -557,7 +654,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -574,7 +676,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(128\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -591,7 +698,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "64",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -608,7 +720,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "36",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -625,7 +742,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(26\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -642,7 +763,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -659,7 +784,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -676,7 +806,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -693,7 +827,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -710,7 +847,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "33\\,649",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -727,7 +867,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(5\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -744,7 +888,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "169",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -761,7 +909,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10\\,000",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -778,7 +930,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2100",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -795,7 +951,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "622\\,080",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -812,7 +972,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2\\,598\\,960",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -829,7 +992,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -846,7 +1013,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(2380\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -863,7 +1033,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(16x^4+16x^3y+6x^2y^2+xy^3+\\frac{1}{16}y^4\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -880,7 +1054,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(=81x^4+216x^3+216x^2+96x+16\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -897,7 +1075,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -914,7 +1096,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(187\\,460\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -934,7 +1119,11 @@ window.BANKMATF1 = [
       "\\(32x^5-80x^4y+80x^3y^2-40x^2y^3+10xy^4-y^5\\)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -951,7 +1140,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -971,7 +1164,11 @@ window.BANKMATF1 = [
       "\\(\\binom94 2^5=4032\\)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -988,7 +1185,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "27\\,984\\,100",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1005,7 +1206,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(24\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1022,7 +1227,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1039,7 +1248,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1056,7 +1269,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "17",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1073,7 +1290,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1090,7 +1311,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1107,7 +1332,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1124,7 +1353,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1141,7 +1374,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1158,7 +1395,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1175,7 +1416,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1192,7 +1437,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1209,7 +1458,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1226,7 +1479,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1243,7 +1500,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1260,7 +1521,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "8 personer",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1277,7 +1542,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1294,7 +1563,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(300\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1311,7 +1584,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(8\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1328,7 +1605,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1345,7 +1626,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "608\\,400",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1362,7 +1647,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "55\\,200",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1379,7 +1668,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "360",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1396,7 +1689,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(66\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1413,7 +1710,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "320",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1430,7 +1731,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(72\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1447,7 +1752,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(676\\,000\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1464,7 +1773,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(12\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1481,7 +1794,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(180\\,000\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1498,7 +1815,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(48\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1515,7 +1836,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(125\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1532,7 +1857,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(30\\,240\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1549,7 +1878,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "45\\,360",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1566,7 +1899,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "336",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1583,7 +1919,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5040",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1600,7 +1939,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "20\\,160",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1617,7 +1959,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "80\\,640",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1634,7 +1979,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "15\\,120",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1651,7 +2000,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2\\,903\\,040",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1668,7 +2021,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "240",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1685,7 +2041,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "14\\,400",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1702,7 +2061,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "120",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1719,7 +2081,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "27\\,216",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1736,7 +2101,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(120\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1753,7 +2121,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1770,7 +2142,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(399\\,168\\,000\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1787,7 +2163,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(720\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1804,7 +2183,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(60\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -1821,7 +2204,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(10\\,080\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1838,7 +2224,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(120\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1855,7 +2244,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(8640\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1872,7 +2265,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "371",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1889,7 +2285,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "27\\,720",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1906,7 +2305,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1923,7 +2325,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(945\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1940,7 +2345,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "495",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1957,7 +2365,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "84",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -1974,7 +2386,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4410",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -1991,7 +2406,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1485",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2008,7 +2426,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1940",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -2025,7 +2447,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "540",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2042,7 +2467,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "182",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2059,7 +2487,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "805",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2076,7 +2507,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "36",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2093,7 +2527,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "336",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2110,7 +2547,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "196",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2127,7 +2567,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6720",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2144,7 +2587,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(2000\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -2161,7 +2608,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "420",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2178,7 +2628,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "56",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2195,7 +2648,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "20",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2212,7 +2668,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(165\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2229,7 +2688,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2246,7 +2708,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(715\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2263,7 +2728,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(84\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2280,7 +2748,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1470\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2297,7 +2768,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(381\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2314,7 +2788,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(2\\,598\\,960\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2331,7 +2808,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(91\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2348,7 +2828,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(672\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2365,7 +2848,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(495\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2382,7 +2868,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(720\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2399,7 +2888,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(182\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2416,7 +2908,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(56\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2433,7 +2928,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(3024\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2450,7 +2948,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(362\\,880\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2467,7 +2968,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1176\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2484,7 +2988,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(576\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2501,7 +3008,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(3600\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -2518,7 +3029,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(14\\,400\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2535,7 +3049,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(2\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -2552,7 +3071,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "-48\\,384",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2569,7 +3092,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "80",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2586,7 +3113,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1215",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2603,7 +3134,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "280",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2620,7 +3155,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(-2\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -2637,7 +3177,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "672",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -2654,7 +3199,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -2671,7 +3221,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(10\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2688,7 +3242,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(40\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2705,7 +3263,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(60\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2722,7 +3284,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\((x+3)^4=x^4+12x^3+54x^2+108x+81\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2739,7 +3305,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(-560x^4\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2756,7 +3326,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(60\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2773,7 +3347,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(3\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -2790,7 +3369,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(16x^4+96x^3+216x^2+216x+81\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2807,7 +3390,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(-160\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2824,7 +3411,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1215\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2841,7 +3432,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(1+8x+28x^2+56x^3+\\cdots\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2858,7 +3453,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(70a^4b^4\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2875,7 +3474,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(40\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2892,7 +3495,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(60\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -2909,7 +3516,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(-3\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -2926,7 +3538,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,319",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -2943,7 +3560,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,327",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -2960,7 +3582,10 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{2}{15}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2977,7 +3602,10 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{28}{55}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -2994,7 +3622,10 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{105}{286}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3011,7 +3642,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,274",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3028,7 +3662,12 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{35}{88}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3045,7 +3684,12 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{973}{1001}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3062,7 +3706,10 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac14",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3079,7 +3726,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,00697",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3096,7 +3746,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,407",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3113,7 +3768,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(5/14\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3130,7 +3788,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3147,7 +3808,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\(\\frac12\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -3164,7 +3829,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,281\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3181,7 +3851,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -3198,7 +3872,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3215,7 +3893,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3232,7 +3915,11 @@ window.BANKMATF1 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3249,7 +3936,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "140",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3266,7 +3958,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3283,7 +3980,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(67\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -3300,7 +4001,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(37\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3317,7 +4023,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(21\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3334,7 +4045,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(92\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -3351,7 +4066,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(28\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3368,7 +4088,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(78\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -3385,7 +4109,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(35\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 1,
@@ -3402,7 +4130,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3419,7 +4152,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0,341",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3436,7 +4174,10 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3453,7 +4194,10 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3470,7 +4214,10 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3487,7 +4234,10 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3504,7 +4254,10 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3521,7 +4274,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(28,4\\%\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 1,
@@ -3538,7 +4296,10 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 1,
@@ -3555,7 +4316,12 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -3572,7 +4338,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3589,7 +4358,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3606,7 +4379,10 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "1, 2 och 3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3623,7 +4399,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3640,7 +4420,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3657,7 +4441,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 2,
@@ -3674,7 +4462,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3691,7 +4483,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(a_1=2a_n\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3711,7 +4507,10 @@ window.BANKMATF1 = [
       "C och D"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3728,7 +4527,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -3745,7 +4549,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3762,7 +4570,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3779,7 +4590,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -3796,7 +4612,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(a_n=n^2+2n\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -3813,7 +4634,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(a_n=3n+1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3830,7 +4655,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3847,7 +4676,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1,494",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3864,7 +4697,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -3881,7 +4718,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2620",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3898,7 +4738,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(62\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3915,7 +4759,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "375",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3932,7 +4780,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(157\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3949,7 +4801,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(348\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -3966,7 +4821,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "14",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -3983,7 +4843,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(2\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4000,7 +4865,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(2\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4017,7 +4887,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(59\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4034,7 +4909,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(a_1=a_n+n+1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4051,7 +4931,13 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(10\\,909\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4068,7 +4954,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(a_n=2^{n+1}-1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4085,7 +4975,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(17\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4102,7 +4996,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(33\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4119,7 +5017,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(a_1=a_n+4\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4136,7 +5038,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 2,
@@ -4153,7 +5060,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(13\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4170,7 +5081,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4187,7 +5103,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(\\frac{n(5n+1)}2\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4204,7 +5125,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4221,7 +5146,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(\\displaystyle \\sum_{k=1}^{5}4k\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4238,7 +5167,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4255,7 +5188,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(k=1,\\ldots,5\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4272,7 +5209,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(780\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4289,7 +5230,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(25\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4306,7 +5252,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(21,64\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4323,7 +5273,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 2,
@@ -4340,7 +5294,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(208,6\\text{ mg}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 2,
@@ -4357,7 +5315,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(384\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4374,7 +5336,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "728",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4391,7 +5357,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1,25\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4408,7 +5378,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(155\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4425,7 +5399,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 2,
@@ -4442,7 +5421,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(3\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4459,7 +5442,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(16\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4476,7 +5463,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(2\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4493,7 +5484,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(83\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4510,7 +5505,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1455\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4527,7 +5526,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(384\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4544,7 +5547,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\(\\frac{255}{128}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4561,7 +5568,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4578,7 +5588,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1050\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4595,7 +5608,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(68\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4612,7 +5628,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "9",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4629,7 +5650,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4646,7 +5671,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4663,7 +5692,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4680,7 +5713,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4697,7 +5734,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4714,7 +5755,11 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "måndag",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4731,7 +5776,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4748,7 +5796,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4765,7 +5817,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4782,7 +5838,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4799,7 +5858,10 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4816,7 +5878,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(-4,2,8\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4833,7 +5898,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4850,7 +5919,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4867,7 +5940,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(n=1,5,7,35\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4884,7 +5962,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4901,7 +5983,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(7^2\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4918,7 +6004,11 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "lördag",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4935,7 +6025,12 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "fredag",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4952,7 +6047,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(675\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -4969,7 +6069,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -4986,7 +6090,11 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "fredag",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5003,7 +6111,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5020,7 +6132,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(7\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5037,7 +6153,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(32\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5054,7 +6174,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(6\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5071,7 +6196,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5088,7 +6217,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5105,7 +6238,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5122,7 +6259,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(4\\pmod7\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5139,7 +6280,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(7^3\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5156,7 +6302,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5173,7 +6323,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "0",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5190,7 +6344,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5207,7 +6365,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "11",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5224,7 +6386,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5241,7 +6407,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5258,7 +6428,11 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "torsdag",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5275,7 +6449,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(k\\in\\mathbb Z\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5292,7 +6470,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "01",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5309,7 +6492,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5326,7 +6514,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(91_{10}=1123_4\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5343,7 +6535,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5360,7 +6556,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5377,7 +6577,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5394,7 +6598,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5411,7 +6619,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5428,7 +6640,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5445,7 +6661,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 2,
@@ -5462,7 +6681,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5479,7 +6702,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(3\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5496,7 +6724,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5513,7 +6745,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(7\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5530,7 +6766,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(42\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5547,7 +6787,11 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5564,7 +6808,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5581,7 +6829,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(84\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5598,7 +6850,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(72\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5615,7 +6871,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(3\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5632,7 +6892,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -5649,7 +6913,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5666,7 +6935,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5683,7 +6957,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5700,7 +6977,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5717,7 +6997,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5734,7 +7017,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5751,7 +7037,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5768,7 +7057,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5785,7 +7077,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5802,7 +7097,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5819,7 +7117,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5836,7 +7137,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5853,7 +7157,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5870,7 +7177,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5887,7 +7197,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5904,7 +7217,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5921,7 +7237,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5938,7 +7257,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5955,7 +7277,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5972,7 +7298,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -5989,7 +7318,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6006,7 +7338,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6023,7 +7358,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6040,7 +7378,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6057,7 +7398,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6074,7 +7419,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6091,7 +7440,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6108,7 +7461,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6125,7 +7482,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6142,7 +7503,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6159,7 +7524,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6176,7 +7545,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.141",
@@ -6193,7 +7566,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "2.142",
@@ -6210,7 +7586,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "2.143",
@@ -6227,7 +7606,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "2.144",
@@ -6244,7 +7626,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.145",
@@ -6261,7 +7647,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.146",
@@ -6278,7 +7668,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "2.147",
@@ -6295,7 +7688,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "id": "2.148",
@@ -6312,7 +7708,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.149",
@@ -6329,7 +7729,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.150",
@@ -6346,7 +7750,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6363,7 +7770,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6380,7 +7791,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(120\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6397,7 +7813,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6414,7 +7834,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6431,7 +7855,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6448,7 +7876,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6465,7 +7897,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6482,7 +7918,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 2,
@@ -6499,7 +7938,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6516,7 +7960,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(6\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6533,7 +7982,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6550,7 +8003,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 2,
@@ -6567,7 +8023,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6584,7 +8045,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "140",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6601,7 +8066,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(50\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6618,7 +8087,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(\\sum_{k=1}^{10}(3k+1)\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6635,7 +8108,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(2,11,26,47,\\ldots\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6652,7 +8129,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6669,7 +8151,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6686,7 +8171,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(210\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6703,7 +8192,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6720,7 +8214,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6737,7 +8235,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(84\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6754,7 +8256,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(252\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6771,7 +8277,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6788,7 +8298,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(7\\text{ blå}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6805,7 +8319,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(14\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6822,7 +8341,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(126\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6839,7 +8362,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(30\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6856,7 +8383,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(315\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6873,7 +8404,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6890,7 +8425,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6907,7 +8447,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(-9\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6924,7 +8468,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(4,\\ 16,\\ 64,\\ 256,\\ 1024\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6941,7 +8489,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(a_1=12,\\qquad a_{n+1}=a_n-3\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6958,7 +8510,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(a_1=2,\\qquad a_{n+1}=3a_n\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -6975,7 +8531,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(70\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -6992,7 +8553,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 2,
@@ -7009,7 +8575,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(T_n=20+60\\cdot0,75^n\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -7026,7 +8597,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(a_n=2+3^n\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -7043,7 +8619,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(72,9\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -7060,7 +8640,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(22\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 2,
@@ -7077,7 +8661,13 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(M_n=50(1-0,8^n)\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "kap": 2,
@@ -7094,7 +8684,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7111,7 +8706,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7128,7 +8727,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7145,7 +8747,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7162,7 +8767,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7179,7 +8787,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7196,7 +8807,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7213,7 +8827,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7230,7 +8847,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7247,7 +8867,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7264,7 +8887,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7281,7 +8907,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7298,7 +8927,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7315,7 +8947,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7332,7 +8967,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(\\frac{e^2+1}{4}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7349,7 +8987,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7366,7 +9007,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(-2\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7383,7 +9027,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(p>1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7400,7 +9049,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac13",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7417,7 +9070,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(a\\gt -1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7434,7 +9092,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7451,7 +9113,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(0\\lt p\\lt 1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7468,7 +9135,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7485,7 +9157,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\(\\frac12\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7502,7 +9178,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\(\\frac12\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7519,7 +9199,12 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "divergerar",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7536,7 +9221,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7553,7 +9243,12 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "p=1,4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7570,7 +9265,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\(\\frac13\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7587,7 +9286,12 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "divergerar",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7604,7 +9308,12 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "divergerar",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7621,7 +9330,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(0\\lt p\\lt1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7638,7 +9352,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\(\\frac13\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7655,7 +9373,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\(\\frac12\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7672,7 +9394,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\(\\frac13\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7689,7 +9415,12 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "divergerar",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7706,7 +9437,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7723,7 +9459,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": "\\(a>-1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7740,7 +9481,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\(\\frac1{18}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7757,7 +9502,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7774,7 +9523,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7791,7 +9545,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7808,7 +9567,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3,0333",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7825,7 +9588,12 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -7842,7 +9610,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7859,7 +9631,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7876,7 +9652,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7893,7 +9673,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7910,7 +9694,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7927,7 +9715,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -7944,7 +9735,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7961,7 +9756,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7978,7 +9777,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,08\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -7995,7 +9798,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8012,7 +9819,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(90\\ \\text{km/h}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 3,
@@ -8029,7 +9841,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(5,3\\ \\text{m/s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 3,
@@ -8046,7 +9863,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1,59\\ \\text{cm/min}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 3,
@@ -8063,7 +9885,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,60\\ \\text{m/s}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 3,
@@ -8080,7 +9907,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(15,1\\ \\text{cm}^2/\\text{s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8097,7 +9928,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,40\\ \\text{cm/min}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 3,
@@ -8114,7 +9950,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(6,0\\ \\text{cm}^2/\\text{s}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8131,7 +9971,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(15,1\\ \\text{cm}^2/\\text{s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8148,7 +9991,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(62,8\\ \\text{cm}^3/\\text{s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8165,7 +10011,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(10,8\\ \\text{cm}^3/\\text{s}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8182,7 +10031,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,375\\ \\text{m/s}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 3,
@@ -8199,7 +10053,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,159\\ \\text{dm/s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8216,7 +10073,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(18\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8233,7 +10093,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(3,6\\pi\\text{ dm}^3/\\text{min}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8250,7 +10113,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,64\\ \\text{m/s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 3,
@@ -8267,7 +10135,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,106\\ \\text{cm/s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8284,7 +10155,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,754\\ \\text{m/s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8301,7 +10175,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(12,6\\ \\text{cm}^2/\\text{s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8318,7 +10196,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8335,7 +10217,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,75\\ \\text{m/s}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 3,
@@ -8352,7 +10239,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,597\\ \\text{cm/s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8369,7 +10260,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8386,7 +10282,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac43",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8403,7 +10303,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(4\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8420,7 +10324,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\frac{32}{3}",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8437,7 +10345,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(3\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8454,7 +10365,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\(\\frac92\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8471,7 +10386,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(12\\sqrt3\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8488,7 +10408,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(9\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8505,7 +10428,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(16\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8522,7 +10449,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8539,7 +10471,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8556,7 +10492,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8573,7 +10513,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8590,7 +10535,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8607,7 +10557,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8624,7 +10579,12 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8641,7 +10601,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8658,7 +10622,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8675,7 +10643,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8692,7 +10664,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8709,7 +10685,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8726,7 +10705,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8743,7 +10725,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8760,7 +10745,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8777,7 +10765,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(e^2+1\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8794,7 +10785,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8811,7 +10806,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8828,7 +10826,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8845,7 +10846,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(e-2\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8862,7 +10866,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8879,7 +10888,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8896,7 +10908,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(4\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 3,
@@ -8913,7 +10928,11 @@ window.BANKMATF1 = [
     "svarstyp": "bråk",
     "rättSvar": "\\(\\frac16\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 3,
@@ -8930,7 +10949,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "kap": 3,
@@ -8947,7 +10970,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(12\\sqrt3\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -8964,7 +10992,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -8981,7 +11013,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -8998,7 +11033,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9015,7 +11053,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9032,7 +11073,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9049,7 +11093,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9066,7 +11113,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9083,7 +11133,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,0811\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -9100,7 +11155,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,368\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9117,7 +11176,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(19,8\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -9134,7 +11198,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "10",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9151,7 +11218,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9168,7 +11239,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9185,7 +11260,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9202,7 +11281,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9219,7 +11302,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9236,7 +11322,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9253,7 +11342,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9270,7 +11362,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9287,7 +11382,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9304,7 +11402,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9321,7 +11422,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9338,7 +11442,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9355,7 +11463,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9372,7 +11483,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9389,7 +11503,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9406,7 +11523,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -9423,7 +11543,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9440,7 +11564,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -9460,7 +11589,11 @@ window.BANKMATF1 = [
       "\\(y=e^{-2x}(A\\cos3x+B\\sin3x)\\)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9477,7 +11610,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9494,7 +11631,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9511,7 +11651,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9528,7 +11671,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9545,7 +11691,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9562,7 +11711,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9579,7 +11731,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9596,7 +11751,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -9613,7 +11773,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9630,7 +11793,10 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9647,7 +11813,11 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "därför inhomogen",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -9664,7 +11834,10 @@ window.BANKMATF1 = [
     "svarstyp": "val",
     "rättSvar": "\\(T\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9681,7 +11854,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -9698,7 +11875,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -9715,7 +11896,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9732,7 +11916,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9749,7 +11937,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -9766,7 +11959,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -9783,7 +11980,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9800,7 +12001,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "44,8\\,^{\\circ}C",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -9817,7 +12023,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -9834,7 +12045,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9851,7 +12066,12 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -9868,7 +12088,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9885,7 +12109,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1,75\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9902,7 +12130,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1,728\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9919,7 +12151,12 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -9936,7 +12173,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -9953,7 +12195,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9970,7 +12215,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -9987,7 +12236,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(3\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10004,7 +12256,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -10021,7 +12277,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10038,7 +12297,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -10055,7 +12318,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10072,7 +12338,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10089,7 +12358,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -10106,7 +12380,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10123,7 +12400,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10140,7 +12420,12 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -10157,7 +12442,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10174,7 +12463,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10191,7 +12484,12 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -10208,7 +12506,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10225,7 +12526,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10242,7 +12546,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10259,7 +12566,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10276,7 +12587,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10293,7 +12608,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10310,7 +12628,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10327,7 +12648,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -10344,7 +12670,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10361,7 +12691,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -10378,7 +12713,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10395,7 +12734,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10412,7 +12755,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -10429,7 +12777,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10446,7 +12798,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10463,7 +12819,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10480,7 +12840,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10497,7 +12861,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10514,7 +12882,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10531,7 +12903,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10548,7 +12923,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10565,7 +12943,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10582,7 +12964,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10599,7 +12985,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10616,7 +13006,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10633,7 +13027,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10650,7 +13048,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10667,7 +13069,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10684,7 +13090,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10701,7 +13111,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10718,7 +13131,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10735,7 +13151,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10752,7 +13171,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10769,7 +13192,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10786,7 +13213,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(\\frac85\\cos2x\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10803,7 +13234,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -10820,7 +13254,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(\\frac12x^2e^{2x}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10837,7 +13275,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10854,7 +13296,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10871,7 +13317,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10888,7 +13338,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10905,7 +13359,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10922,7 +13380,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10939,7 +13401,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10956,7 +13422,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10973,7 +13443,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -10990,7 +13464,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11007,7 +13486,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11024,7 +13508,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11041,7 +13530,13 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -11058,7 +13553,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(3,22\\ \\text{kg}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11075,7 +13575,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11092,7 +13596,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11109,7 +13617,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11126,7 +13639,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11143,7 +13660,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "60",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11160,7 +13682,13 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -11177,7 +13705,13 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -11194,7 +13728,13 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -11211,7 +13751,12 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11228,7 +13773,13 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -11245,7 +13796,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11262,7 +13817,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11279,7 +13839,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11296,7 +13860,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11313,7 +13881,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(80\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11330,7 +13903,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,0693\\text{ per år}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11347,7 +13925,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,1022\\text{ min}^{-1}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11364,7 +13947,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11381,7 +13969,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1292,9\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11398,7 +13991,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11415,7 +14013,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11432,7 +14035,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -11449,7 +14055,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -11466,7 +14075,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -11483,7 +14095,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -11500,7 +14115,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11517,7 +14136,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11534,7 +14157,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -11551,7 +14177,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -11568,7 +14197,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11585,7 +14218,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11602,7 +14239,10 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "kap": 4,
@@ -11619,7 +14259,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11636,7 +14280,12 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -11653,7 +14302,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11670,7 +14323,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11687,7 +14344,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11704,7 +14365,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11721,7 +14386,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -11738,7 +14408,11 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -11755,7 +14429,10 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11772,7 +14449,12 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "kap": 4,
@@ -11789,7 +14471,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11806,7 +14492,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11823,7 +14513,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -11840,7 +14535,13 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -11857,7 +14558,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11874,7 +14579,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11891,7 +14599,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11908,7 +14620,12 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "resonemang"
+    ]
   },
   {
     "kap": 4,
@@ -11925,7 +14642,11 @@ window.BANKMATF1 = [
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "kap": 4,
@@ -11942,7 +14663,10 @@ window.BANKMATF1 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "1.208",
@@ -11959,7 +14683,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(84\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.209",
@@ -11976,7 +14703,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(28\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.210",
@@ -11993,7 +14724,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(120\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.211",
@@ -12010,7 +14744,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(81\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.212",
@@ -12027,7 +14764,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(495\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.213",
@@ -12044,7 +14784,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(166\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.214",
@@ -12061,7 +14805,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(56\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.215",
@@ -12078,7 +14826,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(74\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.216",
@@ -12095,7 +14847,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(945\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.217",
@@ -12112,7 +14867,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(592\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.218",
@@ -12129,7 +14888,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(2160\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.219",
@@ -12146,7 +14908,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1440\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.220",
@@ -12163,7 +14929,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(840\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.221",
@@ -12180,7 +14949,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(20\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.222",
@@ -12197,7 +14970,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(1\\,512\\,000\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.223",
@@ -12214,7 +14990,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(5\\,486\\,400\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.224",
@@ -12231,7 +15010,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(810\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.225",
@@ -12248,7 +15031,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(300\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "1.226",
@@ -12265,7 +15052,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(210\\,420\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.227",
@@ -12282,7 +15074,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,1002\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.228",
@@ -12299,7 +15096,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(66\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.229",
@@ -12316,7 +15116,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(540\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "1.230",
@@ -12333,7 +15138,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(31\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "1.231",
@@ -12350,7 +15158,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(105\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ]
   },
   {
     "id": "3.110",
@@ -12367,7 +15179,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(8,0\\ \\text{cm}^2/\\text{s}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.111",
@@ -12384,7 +15200,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,127\\ \\text{dm/min}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "3.112",
@@ -12401,7 +15220,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(121\\ \\text{km/h}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.113",
@@ -12418,7 +15242,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,0597\\ \\text{dm/s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.114",
@@ -12435,7 +15263,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(0,213\\ \\text{rad/s}\\)",
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.115",
@@ -12452,7 +15285,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(187,5\\ \\text{km/h}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering"
+    ]
   },
   {
     "id": "3.116",
@@ -12469,7 +15307,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "3.117",
@@ -12486,7 +15328,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(2\\pi\\ \\text{cm/s}\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
   },
   {
     "id": "2.209",
@@ -12503,7 +15348,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.210",
@@ -12520,7 +15369,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(168\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.211",
@@ -12537,7 +15390,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(360\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.212",
@@ -12554,7 +15411,11 @@ window.BANKMATF1 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.213",
@@ -12571,7 +15432,12 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(28\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ]
   },
   {
     "id": "2.214",
@@ -12588,7 +15454,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(9\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.215",
@@ -12605,7 +15475,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(24\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.216",
@@ -12622,7 +15496,11 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(27\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.217",
@@ -12639,7 +15517,11 @@ window.BANKMATF1 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   },
   {
     "id": "2.218",
@@ -12656,6 +15538,10 @@ window.BANKMATF1 = [
     "svarstyp": "numeriskt",
     "rättSvar": "\\(12\\)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
   }
 ];

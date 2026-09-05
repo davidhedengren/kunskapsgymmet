@@ -415,6 +415,21 @@ h1,h2,h3{letter-spacing:-.04em;margin:0}
 .tag.lv-C{background:var(--accSoft);color:var(--accInk);border-color:transparent}
 .tag.lv-A{background:var(--goldSoft);color:var(--gold);border-color:transparent}
 .tid{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--ink3)}
+.verktygsikoner{display:inline-flex;align-items:center;gap:5px;flex:none}
+.verktygsikon{
+  width:22px;height:22px;border-radius:7px;display:inline-grid;place-items:center;
+  border:1px solid var(--hair);background:var(--surface);color:var(--ink2);
+}
+.verktygsikon svg{width:13px;height:13px;display:block}
+.verktygsikon.raknare{background:#F5F1EA;color:#725B38;border-color:#E7DDCD}
+.verktygsikon.geogebra{background:#EDF2F9;color:#315F99;border-color:#DCE5F2}
+/* Räknaren med snedstreck tonas neutralt så att den inte förväxlas med
+   den bruna "tillåten"-ikonen i en snabb blick. */
+.verktygsikon.utan-raknare{background:#F1F0F2;color:#5C575E;border-color:#DEDCE0}
+.verktygsikon.utan-raknare .urtag{stroke:#F1F0F2}
+html[data-theme="dark"] .verktygsikon.raknare{background:#332a1c;color:#dcc094;border-color:#4b3c27}
+html[data-theme="dark"] .verktygsikon.utan-raknare{background:#2a2b31;color:#bcb8c1;border-color:#3d3e46}
+html[data-theme="dark"] .verktygsikon.utan-raknare .urtag{stroke:#2a2b31}
 .tbody{
   padding:clamp(24px,4.5vw,42px);font-family:var(--read);font-size:18px;line-height:1.68;color:var(--ink);
   overflow-wrap:anywhere;letter-spacing:0;
@@ -541,7 +556,9 @@ const COURSES = {
     name:"Matematik nivå 1", code:"Ma1", subject:"Matematik",
     files:["strukturma1.js","uppgifterma1.js"],
     globals:{bank:"BANKMA1",kap:"KAPNAMNMA1",omr:"OMRMA1"},
-    tracks:["1a","1b","1c"], defaultTrack:"1c", tint:"#3f92db"
+    tracks:["1a","1b","1c"], defaultTrack:"1c", tint:"#3f92db",
+    // Områden som inte ska tränas här. Matchas mot områdets namn eller nyckel.
+    utanOmraden:["digitala verktyg, problemlösning och modeller"]
   },
   ma2:{
     name:"Matematik nivå 2", code:"Ma2", subject:"Matematik",
@@ -910,9 +927,26 @@ async function selectCourse(id){
    DATA
    ========================================================== */
 
+/* Områden som kursen har valt bort finns kvar i banken men visas
+   och tränas aldrig i Kunskapsgymmet. */
+function normOmr(x){
+  return String(x??"").toLowerCase().replaceAll("_"," ").replace(/\s+/g," ").replace(/[.\s]+$/,"").trim();
+}
+function isExcludedArea(key){
+  const lista=COURSES[state.course]?.utanOmraden;
+  if(!lista||!lista.length||!key) return false;
+  const namn=normOmr(areaName(key)), nyckel=normOmr(key);
+  return lista.some(x=>{
+    const v=normOmr(x);
+    return namn===v || nyckel===v || namn.includes(v) || nyckel.includes(v);
+  });
+}
+
 function availableTasks(){
   if(!state.data) return [];
   let tasks=state.data.bank;
+  const kurs=COURSES[state.course];
+  if(kurs?.utanOmraden?.length) tasks=tasks.filter(t=>!isExcludedArea(t.omr||"ovrigt"));
   if(state.track){
     tasks=tasks.filter(t=>{
       if(!t.kurs) return true;
@@ -1448,6 +1482,23 @@ function inferAnswerCount(t){
   return unique.length || 1;
 }
 
+/* Verktygsikoner, samma märkning som i Uppgiftslabbet.
+   Att fältet saknas är inte samma sak som att hjälpmedlet är otillåtet,
+   därför får otaggade uppgifter ingen ikon alls. */
+function toolIcons(t){
+  const har=k=>Object.prototype.hasOwnProperty.call(t||{},k);
+  const delar=[];
+  if(har("miniräknare")){
+    delar.push(t["miniräknare"]
+      ? `<span class="verktygsikon raknare" title="Miniräknare tillåten" aria-label="Miniräknare tillåten"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="2.5"/><path d="M8 6.5h8v3H8zM8.5 13h.01M12 13h.01M15.5 13h.01M8.5 16.5h.01M12 16.5h.01M15.5 16.5h.01"/></svg></span>`
+      : `<span class="verktygsikon utan-raknare" title="Miniräknare inte tillåten" aria-label="Miniräknare inte tillåten"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="2.5"/><path d="M8 6.5h8v3H8zM8.5 13h.01M12 13h.01M15.5 13h.01M8.5 16.5h.01M12 16.5h.01M15.5 16.5h.01"/><path d="M2.6 21.4 21.4 2.6" class="urtag" stroke-width="4.4"/><path d="M2.6 21.4 21.4 2.6" stroke-width="2.4"/></svg></span>`);
+  }
+  if(t?.geogebra){
+    delar.push(`<span class="verktygsikon geogebra" title="GeoGebra tillåtet" aria-label="GeoGebra tillåtet"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="12" rx="7.2" ry="5.9" transform="rotate(-18 12 12)" fill="none" stroke="#9096A8" stroke-width="1.7"/><circle cx="12.1" cy="5.6" r="2.1" fill="#6F73D8" stroke="#ECECF7" stroke-width="1.1"/><circle cx="18.1" cy="8.6" r="2.1" fill="#6F73D8" stroke="#ECECF7" stroke-width="1.1"/><circle cx="18.4" cy="15.7" r="2.1" fill="#6F73D8" stroke="#ECECF7" stroke-width="1.1"/><circle cx="8.8" cy="18.1" r="2.1" fill="#6F73D8" stroke="#ECECF7" stroke-width="1.1"/><circle cx="5.3" cy="10.9" r="2.1" fill="#6F73D8" stroke="#ECECF7" stroke-width="1.1"/></svg></span>`);
+  }
+  return delar.length?`<span class="verktygsikoner">${delar.join("")}</span>`:"";
+}
+
 function renderTraining(){
   state.view="training";
   const t=state.currentTask;
@@ -1773,10 +1824,8 @@ function renderTraining(){
   const inputCount=answers.length || inferredParts || 1;
 
   // Nivå, område och familj visas inte för eleven under passet.
-  const meta=[
-    t.miniräknare?`<span class="tag">Miniräknare</span>`:"",
-    t.geogebra?`<span class="tag">GeoGebra</span>`:""
-  ].join("");
+  // Hjälpmedlen visas däremot, som ikoner före uppgiften.
+  const meta=toolIcons(t);
 
   const isLongAnswer=["resonemang","text"].includes(String(t.svarstyp||"").toLowerCase());
   const fieldHtml=Array.from({length:inputCount},(_,i)=>`

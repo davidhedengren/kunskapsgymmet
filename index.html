@@ -15,6 +15,9 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js"></script>
 
+<!-- Symbolisk algebra för ekvivalenskontroll av elevsvar -->
+<script defer src="https://cdn.jsdelivr.net/npm/nerdamer@1.1.13/all.min.js"></script>
+
 <style>
 :root{
   color-scheme:light;
@@ -250,10 +253,11 @@ html[data-theme="dark"] .task-body svg{
 .answer-inputs{display:grid;gap:9px}
 .answer-line{display:flex;align-items:center;gap:9px}
 .answer-line label{width:24px;color:var(--muted);font-family:var(--mono);font-size:11px}
-.answer-line input{
+.answer-line input,.answer-line textarea{
   flex:1;min-width:0;border:1px solid var(--line2);background:var(--surface);border-radius:13px;
   padding:12px 13px;font-family:var(--read);font-size:16px;
 }
+.answer-line textarea{min-height:92px;resize:vertical;line-height:1.45}
 .answer-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:13px}
 .resultbox{
   margin-top:14px;padding:14px 16px;border-radius:15px;border:1px solid var(--line);
@@ -757,13 +761,176 @@ function nextTask(){
   renderTraining();
 }
 
+
+/* ==========================================================
+   SÄKER FACITFALLBACK
+   Många äldre uppgifter har ett tydligt slutligt svar i facit men
+   rättSvar:null. För rutinuppgifter kan Kunskapsgymmet då plocka ut
+   det slutliga svaret med strikta regler.
+
+   Viktigt:
+   - figur/resonemang/text öppnas aldrig för automatisk rättning här
+   - för flerdelsuppgifter måste ALLA delars slutsvar kunna hittas
+   - ett tydligt <strong>...</strong> i respektive slutrad prioriteras
+   - annars accepteras sista matematikuttrycket i en ren a)/b)/c)-rad
+   ========================================================== */
+
+function cleanDerivedAnswer(raw){
+  let x=String(raw??"").trim();
+  if(!x) return null;
+
+  // Om innehållet är HTML, behåll text/LaTeX men ta bort taggar.
+  x=x.replace(/<br\s*\/?>/gi," ");
+  x=x.replace(/<[^>]+>/g,"");
+  x=x.replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&");
+  x=x.trim();
+
+  // Ta bort "Svar:" men inte själva svaret.
+  x=x.replace(/^svar\s*:\s*/i,"").trim();
+
+  // Väldigt långa textstycken är inte ett säkert maskinsvar.
+  if(x.length>120) return null;
+  return x || null;
+}
+
+function mathChunksFromHTML(html){
+  const s=String(html??"");
+  const out=[];
+  // \( ... \)
+  for(const m of s.matchAll(/\\\(([\s\S]*?)\\\)/g)) out.push("\\("+m[1].trim()+"\\)");
+  // \[ ... \]
+  for(const m of s.matchAll(/\\\[([\s\S]*?)\\\]/g)) out.push("\\("+m[1].trim()+"\\)");
+  return out;
+}
+
+function answerCandidateFromElement(el){
+  if(!el) return null;
+
+  // Prioritera sista <strong> som faktiskt ser ut som ett svar.
+  const strongs=[...el.querySelectorAll("strong")];
+  for(let i=strongs.length-1;i>=0;i--){
+    const raw=strongs[i].innerHTML.trim();
+    const plain=strongs[i].textContent.trim();
+    if(!raw) continue;
+    if(/^(metod|mellanled|tänk så här|svar)\s*:?\s*$/i.test(plain)) continue;
+    const cleaned=cleanDerivedAnswer(raw);
+    if(cleaned && (mathChunksFromHTML(raw).length || /[-+−]?\d|[a-zA-Z]/.test(cleaned))){
+      return cleaned;
+    }
+  }
+
+  // Om raden i sig är en ren deluppgiftsrad kan sista matematikuttrycket
+  // vara slutsvaret, t.ex. <div>a) \(-14\)</div>.
+  const chunks=mathChunksFromHTML(el.innerHTML);
+  if(chunks.length){
+    return cleanDerivedAnswer(chunks[chunks.length-1]);
+  }
+
+  return null;
+}
+
+function derivedAnswersFromSolution(t){
+  const blocked=new Set(["figur","resonemang","text"]);
+  const type=String(t.svarstyp||"").toLowerCase();
+  if(blocked.has(type)) return null;
+  if(!t.s) return null;
+
+  const parser=new DOMParser();
+  const doc=parser.parseFromString(`<div id="kg-facit-root">${t.s}</div>`,"text/html");
+  const root=doc.getElementById("kg-facit-root");
+  if(!root) return null;
+
+  const partCount=inferAnswerCount(t);
+
+  if(partCount>1 || type==="flera_delar"){
+    const answers=new Array(partCount).fill(null);
+    const elements=[...root.querySelectorAll("p, .deluppgifter > div, li")];
+
+    for(const el of elements){
+      const text=(el.textContent||"").trim();
+      const m=text.match(/^([a-j])\)\s*/i);
+      if(!m) continue;
+      const idx=m[1].toLowerCase().charCodeAt(0)-97;
+      if(idx<0 || idx>=partCount) continue;
+
+      const candidate=answerCandidateFromElement(el);
+      if(candidate) answers[idx]=candidate; // senare/final rad får ersätta mellanled
+    }
+
+    // Samtliga deluppgifter måste ha ett säkert hittat svar.
+    if(answers.every(Boolean)) return answers;
+    return null;
+  }
+
+  // Enkelsvar: använd bara tydliga svarsrader.
+  const elements=[...root.querySelectorAll("p, li, .svar, .answer")];
+
+  // 1) Prioritera en rad som uttryckligen innehåller "Svar:".
+  for(let i=elements.length-1;i>=0;i--){
+    const txt=(elements[i].textContent||"").trim();
+    if(/\bsvar\s*:/i.test(txt)){
+      const cand=answerCandidateFromElement(elements[i]);
+      if(cand) return [cand];
+      const chunks=mathChunksFromHTML(elements[i].innerHTML);
+      if(chunks.length) return [cleanDerivedAnswer(chunks[chunks.length-1])];
+    }
+  }
+
+  // 2) Om exakt ett svarsliknande <strong> finns i hela facit.
+  const candidates=[];
+  for(const el of root.querySelectorAll("strong")){
+    const plain=(el.textContent||"").trim();
+    if(/^(metod|mellanled|tänk så här|svar)\s*:?\s*$/i.test(plain)) continue;
+    const cleaned=cleanDerivedAnswer(el.innerHTML);
+    if(cleaned && (mathChunksFromHTML(el.innerHTML).length || /^[-+−]?\d+(?:[,.]\d+)?(?:\s*[a-zA-Z°%]+)?$/.test(cleaned))){
+      candidates.push(cleaned);
+    }
+  }
+  if(candidates.length===1) return [candidates[0]];
+
+  return null;
+}
+
+function expectedAnswersForTask(t){
+  if(t.rättSvar!==null && t.rättSvar!==undefined){
+    return {
+      answers:Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar],
+      source:"metadata",
+      auto:!!t.självrättning
+    };
+  }
+
+  const derived=derivedAnswersFromSolution(t);
+  if(derived && derived.length){
+    return {answers:derived,source:"facit",auto:true};
+  }
+
+  return {answers:[],source:"none",auto:false};
+}
+
+function inferAnswerCount(t){
+  if(t.rättSvar!==null && t.rättSvar!==undefined){
+    return Array.isArray(t.rättSvar) ? Math.max(1,t.rättSvar.length) : 1;
+  }
+  const plain=String(t.t||"")
+    .replace(/<br\s*\/?>/gi,"\n")
+    .replace(/<\/p>/gi,"\n")
+    .replace(/<[^>]+>/g," ");
+  const matches=[...plain.matchAll(/(?:^|[\s\n])([a-j])\)\s*/gi)].map(m=>m[1].toLowerCase());
+  const unique=[...new Set(matches)];
+  return unique.length || 1;
+}
+
 function renderTraining(){
   state.view="training";
   const t=state.currentTask;
   if(!t) return renderDashboard();
   const family=Array.isArray(t.familj)?t.familj.join(" · "):t.familj;
-  const canAuto=!!t.självrättning && t.rättSvar!==null && t.rättSvar!==undefined;
-  const answers=Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar];
+  const expectedInfo=expectedAnswersForTask(t);
+  const canAuto=expectedInfo.auto;
+  const answers=expectedInfo.answers;
+  const inferredParts=inferAnswerCount(t);
+  const inputCount=answers.length || inferredParts || 1;
   const meta=[
     `<span class="badge level-${esc(t.niva||"E")}">${esc(t.niva||"E")}-nivå</span>`,
     `<span class="badge">${esc(areaName(t.omr))}</span>`,
@@ -773,22 +940,32 @@ function renderTraining(){
     t.geogebra?`<span class="badge">GeoGebra</span>`:""
   ].join("");
 
-  const answerUI=canAuto?`
-    <h3>Skriv ditt svar</h3>
-    <div class="answer-inputs">
-      ${answers.map((_,i)=>`<div class="answer-line"><label>${answers.length>1?String.fromCharCode(97+i)+")":""}</label>
-        <input id="ans-${i}" autocomplete="off" inputmode="text" placeholder="${answers.length>1?'Svar '+String.fromCharCode(97+i):'Ditt svar'}" onkeydown="if(event.key==='Enter')checkAnswer()">
-      </div>`).join("")}
-    </div>
+  const isLongAnswer=["resonemang","text"].includes(String(t.svarstyp||"").toLowerCase());
+  const fieldHtml=Array.from({length:inputCount},(_,i)=>`
+    <div class="answer-line">
+      <label>${inputCount>1?String.fromCharCode(97+i)+")":""}</label>
+      ${isLongAnswer
+        ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"></textarea>`
+        : `<input id="ans-${i}" autocomplete="off" inputmode="text" placeholder="${inputCount>1?'Svar '+String.fromCharCode(97+i):'Ditt svar'}" onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">`
+      }
+    </div>`).join("");
+
+  const answerUI=`
+    <h3>Skriv ditt svar${canAuto?"":" innan du visar facit"}</h3>
+    <div class="answer-inputs">${fieldHtml}</div>
     <div class="answer-actions">
-      <button class="primary" onclick="checkAnswer()">Kontrollera</button>
-      <button class="ghost" onclick="showSolution()">Visa lösning</button>
+      ${canAuto
+        ? `<button class="primary" onclick="checkAnswer()">Kontrollera</button>
+           <button class="ghost" onclick="showSolution()">Visa lösning</button>`
+        : `<button class="primary" onclick="showSolution()">Visa facit och jämför</button>`
+      }
     </div>
-  `:`
-    <h3>Redovisa din lösning på papper eller i ditt digitala verktyg.</h3>
-    <div class="answer-actions">
-      <button class="primary" onclick="showSolution()">Visa facit</button>
-    </div>`;
+    ${canAuto?`<div class="muted" style="margin-top:9px;font-size:12px">
+      Likvärdiga algebraiska uttryck godkänns. Du kan använda både decimalcomma och decimalpunkt.
+      ${expectedInfo.source==="facit"?" Slutsvaret har identifierats säkert från uppgiftens facit.":""}
+    </div>`:`<div class="muted" style="margin-top:9px;font-size:12px">
+      Den här uppgiften saknar ett tillräckligt säkert maskinrättningssvar. Efter facit får du markera om du hade rätt.
+    </div>`}`;
 
   app.innerHTML=`
     <div class="training-shell">
@@ -808,43 +985,261 @@ function renderTraining(){
   setTimeout(()=>document.getElementById("ans-0")?.focus(),60);
 }
 
+/* ==========================================================
+   SVARSKONTROLL
+   - Punkt och decimalcomma behandlas lika: 1,5 = 1.5
+   - Unicode-minus, multiplikationstecken, pi, roten ur m.m. normaliseras
+   - Numeriska svar använder tolerans
+   - Algebraiska uttryck jämförs symboliskt med Nerdamer
+   - Ekvationer kan skrivas med omkastade led och skalade led
+     t.ex. x=2, 2=x och 2x=4 betraktas som ekvivalenta
+   ========================================================== */
+
 function latexToPlain(s){
   let x=String(s??"");
-  x=x.replace(/<[^>]+>/g,"");
-  x=x.replace(/\\\(|\\\)|\\\[|\\\]/g,"");
-  x=x.replace(/\\frac\s*\{([^{}]+)\}\s*\{([^{}]+)\}/g,"($1)/($2)");
-  x=x.replace(/\\sqrt\s*\{([^{}]+)\}/g,"sqrt($1)");
-  x=x.replace(/\\cdot/g,"*").replace(/\\,/g,"");
-  x=x.replace(/[−–—]/g,"-").replace(/\u00a0/g," ");
+
+  // Ta bort HTML men behåll själva texten.
+  x=x.replace(/<br\s*\/?>/gi," ");
+  x=x.replace(/<[^>]+>/g," ");
+
+  // Ta bort vanliga matematik-delimiters.
+  x=x.replace(/\\\(|\\\)|\\\[|\\\]|\$\$/g,"");
+
+  // Några vanliga LaTeX-kommandon från banken/svar.
+  // Kör flera varv så även enkla nästlade bråk hinner lösas.
+  for(let i=0;i<4;i++){
+    x=x.replace(/\\frac\s*\{([^{}]+)\}\s*\{([^{}]+)\}/g,"(($1)/($2))");
+    x=x.replace(/\\dfrac\s*\{([^{}]+)\}\s*\{([^{}]+)\}/g,"(($1)/($2))");
+    x=x.replace(/\\sqrt\s*\{([^{}]+)\}/g,"sqrt($1)");
+  }
+  x=x.replace(/\\left|\\right/g,"");
+  x=x.replace(/\\cdot|\\times/g,"*");
+  x=x.replace(/\\pi/g,"pi");
+  x=x.replace(/\\,/g,"");
+  x=x.replace(/\\text\s*\{([^{}]*)\}/g," $1 ");
+
+  // Typografiska tecken till maskinläsbara.
+  x=x.replace(/[−–—]/g,"-");
+  x=x.replace(/[×·⋅]/g,"*");
+  x=x.replace(/÷/g,"/");
+  x=x.replace(/π/g,"pi");
+  x=x.replace(/\u00a0/g," ");
+
+  // Unicode-potenser.
+  x=x.replace(/²/g,"^2").replace(/³/g,"^3").replace(/⁴/g,"^4")
+     .replace(/⁵/g,"^5").replace(/⁶/g,"^6").replace(/⁷/g,"^7")
+     .replace(/⁸/g,"^8").replace(/⁹/g,"^9");
+
   return x.trim();
 }
-function normalizeAnswer(s){
-  return latexToPlain(s).toLowerCase()
-    .replace(/^svar:\s*/,"")
-    .replace(/\s+/g,"")
-    .replace(/,/g,".")
-    .replace(/[.;]$/,"");
+
+function normalizeDecimalComma(x){
+  // Svensk decimalcomma: 1,25 -> 1.25.
+  // Kommatecken som inte ligger mellan siffror lämnas orörda.
+  let prev;
+  do{
+    prev=x;
+    x=x.replace(/(\d),(\d)/g,"$1.$2");
+  }while(x!==prev);
+  return x;
 }
+
+function normalizeMathInput(s){
+  let x=latexToPlain(s).toLowerCase();
+
+  x=x.replace(/^svar\s*:\s*/,"");
+  x=normalizeDecimalComma(x);
+
+  // Acceptera svensk divisionsnotation "6:3".
+  x=x.replace(/(\d|\))\s*:\s*(\d|\()/g,"$1/$2");
+
+  // Enkel roten-ur-notation: √9, √x, √(x+1)
+  x=x.replace(/√\s*\(([^()]+)\)/g,"sqrt($1)");
+  x=x.replace(/√\s*([a-z]\w*|\d+(?:\.\d+)?)/g,"sqrt($1)");
+
+  // Procenttal: 12% -> (12/100)
+  x=x.replace(/(\d+(?:\.\d+)?)\s*%/g,"($1/100)");
+
+  // Ta bort tusentalsmellanrum mellan siffror, därefter övriga blanksteg.
+  x=x.replace(/(\d)\s+(?=\d{3}(?:\D|$))/g,"$1");
+  x=x.replace(/\s+/g,"");
+
+  // Avslutande skiljetecken är inte en del av svaret.
+  x=x.replace(/[.;]$/,"");
+
+  return x;
+}
+
+function normalizeAnswer(s){
+  return normalizeMathInput(s);
+}
+
 function firstNumber(s){
-  const x=latexToPlain(s).replace(/\s(?=\d{3}\b)/g,"").replace(/,/g,".");
-  const m=x.match(/[-+]?\d+(?:\.\d+)?/);
+  const x=normalizeMathInput(s);
+  const m=x.match(/[-+]?(?:\d+(?:\.\d+)?|\.\d+)/);
   return m?Number(m[0]):NaN;
 }
+
+function isPureNumberExpression(s){
+  // Tillåt siffror, pi/e, parenteser och elementära operatorer/funktioner,
+  // men inga fria variabler.
+  const x=normalizeMathInput(s);
+  if(!x) return false;
+  const scrub=x
+    .replace(/\b(?:sqrt|sin|cos|tan|asin|acos|atan|ln|log|abs|exp|pi|e)\b/g,"")
+    .replace(/[0-9.+\-*/^(),]/g,"");
+  return scrub==="";
+}
+
+function nerd(expr){
+  if(typeof window.nerdamer!=="function") return null;
+  try{return window.nerdamer(expr);}catch(_){return null;}
+}
+
+function symbolicZero(expr){
+  if(typeof window.nerdamer!=="function") return false;
+  try{
+    const r=window.nerdamer(`simplify(${expr})`).toString();
+    return r==="0";
+  }catch(_){
+    try{
+      const r=window.nerdamer(expr).expand().toString();
+      return r==="0";
+    }catch(__){return false;}
+  }
+}
+
+function numericValue(expr){
+  if(typeof window.nerdamer!=="function") return NaN;
+  try{
+    const v=window.nerdamer(expr).evaluate().text("decimals");
+    const n=Number(v);
+    return Number.isFinite(n)?n:NaN;
+  }catch(_){return NaN;}
+}
+
+function splitEquation(expr){
+  const parts=String(expr).split("=");
+  return parts.length===2 && parts[0] && parts[1] ? parts : null;
+}
+
+function equationResidual(expr){
+  const p=splitEquation(expr);
+  return p ? `((${p[0]})-(${p[1]}))` : null;
+}
+
+function expressionVariables(expr){
+  const e=nerd(expr);
+  if(!e) return [];
+  try{
+    const vars=e.variables();
+    return Array.isArray(vars)?vars.map(String):[];
+  }catch(_){return [];}
+}
+
+function equationsEquivalent(user,expected){
+  const ur=equationResidual(user);
+  const er=equationResidual(expected);
+  if(!ur || !er) return false;
+
+  // Samma residual eller motsatt residual.
+  if(symbolicZero(`(${ur})-(${er})`)) return true;
+  if(symbolicZero(`(${ur})+(${er})`)) return true;
+
+  // Samma ekvation multiplicerad med en icke-noll konstant:
+  // x=2 och 2x=4.
+  try{
+    const ratio=window.nerdamer(`simplify((${ur})/(${er}))`);
+    const vars=ratio.variables();
+    if(Array.isArray(vars) && vars.length===0){
+      const n=Number(ratio.evaluate().text("decimals"));
+      if(Number.isFinite(n) && Math.abs(n)>1e-12) return true;
+    }
+  }catch(_){}
+
+  return false;
+}
+
+function algebraicallyEquivalent(user,expected){
+  const u=normalizeMathInput(user);
+  const e=normalizeMathInput(expected);
+  if(!u || !e) return false;
+  if(u===e) return true;
+  if(typeof window.nerdamer!=="function") return false;
+
+  const ue=splitEquation(u);
+  const ee=splitEquation(e);
+
+  // Två ekvationer.
+  if(ue && ee) return equationsEquivalent(u,e);
+
+  // Om facit är ett rent tal accepteras även t.ex. "x=2".
+  if(ue && !ee && isPureNumberExpression(e)){
+    const left=ue[0],right=ue[1];
+    if(/^[a-z]\w*$/.test(left) && algebraicallyEquivalent(right,e)) return true;
+    if(/^[a-z]\w*$/.test(right) && algebraicallyEquivalent(left,e)) return true;
+  }
+  if(!ue && ee && isPureNumberExpression(u)){
+    const left=ee[0],right=ee[1];
+    if(/^[a-z]\w*$/.test(left) && algebraicallyEquivalent(u,right)) return true;
+    if(/^[a-z]\w*$/.test(right) && algebraicallyEquivalent(u,left)) return true;
+  }
+
+  // Ett uttryck ska normalt inte jämföras direkt med en ospecificerad ekvation.
+  if(ue || ee) return false;
+
+  // Symbolisk förenkling är huvudkontrollen.
+  if(symbolicZero(`((${u})-(${e}))`)) return true;
+
+  // Extra kontroll efter expansion, användbart för parenteser/polynom.
+  try{
+    const diff=window.nerdamer(`(${u})-(${e})`).expand().toString();
+    if(symbolicZero(`(${diff})`)) return true;
+  }catch(_){}
+
+  return false;
+}
+
 function oneAnswerCorrect(user,expected,t){
   const u=normalizeAnswer(user), e=normalizeAnswer(expected);
   if(!u) return false;
+
+  // 1. Exakt efter normalisering.
   if(u===e) return true;
-  const un=firstNumber(user), en=firstNumber(expected);
+
+  // 2. Algebraisk/symbolisk ekvivalens.
+  //    Exempel: 11y+3 = 3+11y, (x+1)^2 = x^2+2x+1.
+  if(algebraicallyEquivalent(user,expected)) return true;
+
+  // 3. Numerisk jämförelse med tolerans.
+  //    Både punkt och komma fungerar genom normalizeMathInput().
+  let un=NaN,en=NaN;
+  if(isPureNumberExpression(user)) un=numericValue(normalizeMathInput(user));
+  if(isPureNumberExpression(expected)) en=numericValue(normalizeMathInput(expected));
+
+  // Fallback om Nerdamer inte hunnit laddas eller uttrycket är enkelt.
+  if(!Number.isFinite(un)) un=firstNumber(user);
+  if(!Number.isFinite(en)) en=firstNumber(expected);
+
   if(Number.isFinite(un)&&Number.isFinite(en)){
-    const tol=typeof t.tolerans==="number" ? t.tolerans : Math.max(1e-9,Math.abs(en)*1e-4);
+    const tol=typeof t.tolerans==="number"
+      ? t.tolerans
+      : Math.max(1e-9,Math.abs(en)*1e-4);
     if(Math.abs(un-en)<=tol) return true;
   }
+
   return false;
 }
+
 function checkAnswer(){
   if(state.answered) return;
   const t=state.currentTask;
-  const expected=Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar];
+  const info=expectedAnswersForTask(t);
+  const expected=info.answers;
+  if(!info.auto || !expected.length){
+    toast("Den här uppgiften behöver självbedömas.");
+    return;
+  }
   const users=expected.map((_,i)=>document.getElementById("ans-"+i)?.value||"");
   if(users.some(x=>!x.trim())){toast("Fyll i alla svar först.");return;}
   const flags=expected.map((e,i)=>oneAnswerCorrect(users[i],e,t));
@@ -943,6 +1338,45 @@ window.addEventListener("load",async()=>{
   const id=location.hash.replace("#","");
   if(COURSES[id]) await selectCourse(id);
 });
+
+// Enkel diagnostik i webbläsarens konsol.
+// Returnerar true om den algebraiska kontrollen fungerar som avsett.
+
+window.KG_TEST_FACITFALLBACK=function(){
+  const sample={
+    svarstyp:"flera_delar",
+    rättSvar:null,
+    självrättning:false,
+    t:"<p>Förenkla.</p><p>a) \\(9y-4+2y+7\\)<br>b) \\(3y+8-7y-2\\)<br>c) \\(5y-y+2y-6+6\\)</p>",
+    s:"<p><strong>Metod:</strong> Samla termer.</p><p><strong>Mellanled:</strong><br>a) \\(9y-4+2y+7=11y+3\\).<br>b) \\(3y+8-7y-2=6-4y\\).<br>c) \\(5y-y+2y-6+6=6y\\).</p><p>a) \\(9y+2y=11y\\), alltså <strong>\\(11y+3\\)</strong></p><p>b) \\(3y-7y=-4y\\), alltså <strong>\\(-4y+6\\)</strong></p><p>c) \\(5y-y+2y=6y\\), alltså <strong>\\(6y\\)</strong></p>"
+  };
+  const got=expectedAnswersForTask(sample);
+  console.log("KG facitfallback:",got);
+  return got.auto===true && got.answers.length===3 &&
+    got.answers[0].includes("11y+3") &&
+    got.answers[1].includes("-4y+6") &&
+    got.answers[2].includes("6y");
+};
+
+window.KG_TEST_ANSWER_CHECKER=function(){
+  const cases=[
+    ["11y+3","3+11y",true],
+    ["5y-y+2y","6y",true],
+    ["(x+1)^2","x^2+2x+1",true],
+    ["2(x+3)","2x+6",true],
+    ["1,5","1.5",true],
+    ["3/4","0,75",true],
+    ["x=2","2=x",true],
+    ["2x=4","x=2",true],
+    ["x+1","x+2",false]
+  ];
+  const result=cases.map(([u,e,want])=>{
+    const got=algebraicallyEquivalent(u,e) || oneAnswerCorrect(u,e,{});
+    return {elevsvar:u,facit:e,förväntat:want,resultat:got,ok:got===want};
+  });
+  console.table(result);
+  return result.every(x=>x.ok);
+};
 </script>
 </body>
 </html>

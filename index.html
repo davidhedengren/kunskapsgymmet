@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#eaf6fd">
+<meta name="theme-color" content="#f2f5f9">
 <title>Kunskapsgymmet</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700;800&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 
 <!-- KaTeX: snygg matematisk rendering av \( ... \) och \[ ... \] -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
@@ -19,305 +19,458 @@
 <script defer src="https://cdn.jsdelivr.net/npm/nerdamer@1.1.13/all.min.js"></script>
 
 <style>
+/* ==========================================================
+   DESIGNSYSTEM
+   ========================================================== */
 :root{
   color-scheme:light;
-  --bg:#f3f9fd;
-  --bg2:#eaf6fd;
+  --bg:#f1f5f9;
+  --glow1:rgba(88,158,224,.20);
+  --glow2:rgba(150,190,235,.16);
   --surface:#ffffff;
-  --surface2:#f8fcff;
-  --surface3:#edf7fd;
-  --text:#20313e;
-  --text2:#526674;
-  --muted:#7d929f;
-  --line:#d9e9f2;
-  --line2:#c9dfeb;
-  --blue:#64afe0;
-  --blue2:#2d89c6;
-  --blue3:#176caa;
-  --blueSoft:#e0f2fc;
-  --green:#1b8a67;
-  --greenSoft:#e6f6f0;
-  --amber:#a66a12;
-  --amberSoft:#fff5df;
-  --red:#b65454;
-  --redSoft:#fdecec;
-  --purple:#7151a2;
-  --purpleSoft:#f1ebfa;
-  --shadow:0 10px 32px rgba(48,100,134,.08),0 2px 8px rgba(48,100,134,.035);
-  --shadow2:0 18px 55px rgba(48,100,134,.13),0 4px 12px rgba(48,100,134,.05);
-  --r:22px;
+  --surface2:#f7fafc;
+  --surface3:#eef4fa;
+  --glass:rgba(247,250,253,.78);
+  --ink:#0d1a24;
+  --ink2:#4b5f6e;
+  --ink3:#8698a5;
+  --hair:rgba(13,45,72,.09);
+  --hair2:rgba(13,45,72,.17);
+  --acc:#1b7fd0;
+  --acc2:#0f5f9f;
+  --accInk:#0f5f9f;
+  --accSoft:rgba(27,127,208,.10);
+  --gold:#96701c;
+  --gold2:#d3a544;
+  --goldSoft:rgba(190,145,50,.13);
+  --good:#0f7a59;
+  --goodSoft:rgba(15,122,89,.10);
+  --warn:#9a6a12;
+  --warnSoft:rgba(180,125,25,.12);
+  --bad:#b04a4d;
+  --badSoft:rgba(176,74,77,.10);
+  --e1:0 1px 2px rgba(11,33,51,.05),0 10px 26px -12px rgba(11,33,51,.20);
+  --e2:0 2px 5px rgba(11,33,51,.06),0 30px 70px -24px rgba(11,33,51,.30);
   --ui:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --read:"Atkinson Hyperlegible",system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,monospace;
+  --ease:cubic-bezier(.2,.8,.2,1);
 }
 html[data-theme="dark"]{
   color-scheme:dark;
-  --bg:#0f1820;
-  --bg2:#14232e;
-  --surface:#17242e;
-  --surface2:#1b2a35;
-  --surface3:#203744;
-  --text:#ecf5fa;
-  --text2:#bed0da;
-  --muted:#8ea4b1;
-  --line:#29404d;
-  --line2:#365363;
-  --blue:#6fb9e8;
-  --blue2:#76c3f1;
-  --blue3:#a1d7f7;
-  --blueSoft:#1e3b4c;
-  --green:#65cba7;
-  --greenSoft:#183b32;
-  --amber:#e1b666;
-  --amberSoft:#3b301d;
-  --red:#e08b8b;
-  --redSoft:#42272a;
-  --purple:#bba1e0;
-  --purpleSoft:#352b46;
-  --shadow:0 12px 34px rgba(0,0,0,.22);
-  --shadow2:0 20px 60px rgba(0,0,0,.30);
+  --bg:#0a1119;
+  --glow1:rgba(52,120,180,.20);
+  --glow2:rgba(40,90,140,.16);
+  --surface:#131e28;
+  --surface2:#17242f;
+  --surface3:#1d2e3b;
+  --glass:rgba(15,24,33,.76);
+  --ink:#e8f1f8;
+  --ink2:#a9bdca;
+  --ink3:#7c93a2;
+  --hair:rgba(160,205,235,.13);
+  --hair2:rgba(160,205,235,.24);
+  --acc:#4aa3e8;
+  --acc2:#7cc2f5;
+  --accInk:#9ad3fa;
+  --accSoft:rgba(74,163,232,.14);
+  --gold:#e2bb72;
+  --gold2:#f0d296;
+  --goldSoft:rgba(226,187,114,.14);
+  --good:#5cc39d;
+  --goodSoft:rgba(92,195,157,.13);
+  --warn:#dcb268;
+  --warnSoft:rgba(220,178,104,.13);
+  --bad:#e0898c;
+  --badSoft:rgba(224,137,140,.13);
+  --e1:0 1px 2px rgba(0,0,0,.30),0 12px 30px -14px rgba(0,0,0,.55);
+  --e2:0 2px 6px rgba(0,0,0,.35),0 34px 80px -28px rgba(0,0,0,.75);
 }
 *{box-sizing:border-box}
 html{min-height:100%;background:var(--bg)}
 body{
-  margin:0;min-height:100vh;color:var(--text);font-family:var(--ui);
-  background:
-    radial-gradient(900px 520px at 8% -10%,rgba(91,177,229,.14),transparent 65%),
-    radial-gradient(700px 460px at 95% 105%,rgba(74,157,208,.09),transparent 66%),
-    var(--bg);
-  -webkit-font-smoothing:antialiased;
+  margin:0;min-height:100vh;color:var(--ink);font-family:var(--ui);
+  background:var(--bg);-webkit-font-smoothing:antialiased;
+  letter-spacing:-.011em;
 }
-button,input,select{font:inherit;color:inherit}
-button{cursor:pointer}
+body:before{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(1100px 640px at 8% -14%,var(--glow1),transparent 62%),
+    radial-gradient(900px 560px at 102% 4%,var(--glow2),transparent 60%);
+}
+button,input,select,textarea{font:inherit;color:inherit;letter-spacing:inherit}
+button{cursor:pointer;border:0;background:none;padding:0}
 a{color:inherit}
 [hidden]{display:none!important}
-::selection{background:rgba(100,175,224,.25)}
-.app{min-height:100vh}
-.shell{width:min(1180px,calc(100% - 36px));margin:0 auto}
+::selection{background:var(--accSoft)}
+.shell{width:min(1160px,calc(100% - 40px));margin:0 auto}
+.stack{display:grid}
+
+/* ---------- rörelse ---------- */
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{opacity:0;transform:scale(.92)}60%{transform:scale(1.02)}100%{opacity:1;transform:scale(1)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes shimmer{to{background-position:200% 0}}
+.view{animation:rise .5s var(--ease) both}
+.stagger>*{animation:rise .55s var(--ease) both}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+
+/* ---------- toppfält ---------- */
 .topbar{
-  height:78px;display:flex;align-items:center;gap:14px;
+  position:sticky;top:0;z-index:40;
+  backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
+  background:var(--glass);border-bottom:1px solid transparent;transition:border-color .3s ease;
 }
-.brand{
-  display:flex;align-items:center;gap:12px;border:0;background:transparent;padding:0;color:var(--text);
-  font-weight:800;letter-spacing:-.025em;font-size:20px;
-}
+.topbar.scrolled{border-bottom-color:var(--hair)}
+.topbar .inner{height:66px;display:flex;align-items:center;gap:10px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:700;font-size:16.5px;letter-spacing:-.03em;color:var(--ink)}
 .brandmark{
-  width:42px;height:42px;border-radius:14px;display:grid;place-items:center;color:#fff;
-  background:linear-gradient(145deg,#7bc4ee,#2f8cc9);box-shadow:0 8px 22px rgba(47,140,201,.24);
-  font-weight:800;
+  width:32px;height:32px;border-radius:10px;display:grid;place-items:center;color:#fff;
+  background:linear-gradient(160deg,#6fb8ea,#1b7fd0 55%,#12578f);
+  box-shadow:0 4px 14px -4px rgba(27,127,208,.75),inset 0 1px 0 rgba(255,255,255,.35);
+  font-size:15px;font-weight:700;
 }
 .spacer{flex:1}
-.iconbtn,.ghost,.primary,.softbtn,.chip,.answer-action{
-  border:1px solid var(--line);border-radius:14px;background:var(--surface);transition:.16s ease;
+
+/* ---------- knappar ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  border:1px solid var(--hair);border-radius:13px;background:var(--surface);
+  padding:10px 16px;font-weight:600;font-size:14.5px;color:var(--ink);
+  transition:transform .2s var(--ease),background .2s ease,border-color .2s ease,box-shadow .2s ease,color .2s ease;
+  box-shadow:0 1px 2px rgba(11,33,51,.04);
 }
+.btn:hover{border-color:var(--hair2);background:var(--surface2)}
+.btn:active{transform:scale(.97)}
+.btn:focus-visible,input:focus-visible,textarea:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
+.btn.primary{
+  background:linear-gradient(180deg,var(--acc),var(--acc2));border-color:transparent;color:#fff;
+  box-shadow:0 8px 20px -8px rgba(21,110,180,.85),inset 0 1px 0 rgba(255,255,255,.28);
+}
+.btn.primary:hover{filter:brightness(1.05)}
+.btn.soft{background:var(--accSoft);border-color:transparent;color:var(--accInk)}
+.btn.soft:hover{background:var(--accSoft);filter:brightness(.97)}
+.btn.gold{background:var(--goldSoft);border-color:transparent;color:var(--gold)}
+.btn.quiet{background:transparent;border-color:transparent;color:var(--ink2)}
+.btn.quiet:hover{background:var(--surface3);color:var(--ink)}
+.btn.wide{width:100%}
+.btn.sm{padding:7px 12px;font-size:13px;border-radius:11px}
 .iconbtn{
-  width:43px;height:43px;display:grid;place-items:center;font-size:18px;
+  width:38px;height:38px;border-radius:12px;display:grid;place-items:center;font-size:15px;
+  border:1px solid var(--hair);background:var(--surface);color:var(--ink2);
+  transition:.2s var(--ease);
 }
-.iconbtn:hover,.ghost:hover,.softbtn:hover,.chip:hover{border-color:var(--line2);background:var(--surface3)}
-.iconbtn:focus-visible,.ghost:focus-visible,.primary:focus-visible,.softbtn:focus-visible,.chip:focus-visible,
-input:focus-visible{outline:3px solid rgba(100,175,224,.28);outline-offset:2px}
-.hero{
-  position:relative;overflow:hidden;padding:clamp(28px,5vw,52px);
-  background:linear-gradient(135deg,var(--surface),var(--surface3));
-  border:1px solid var(--line);border-radius:30px;box-shadow:var(--shadow);
+.iconbtn:hover{background:var(--surface3);color:var(--ink)}
+.iconbtn:active{transform:scale(.94)}
+
+.pill{
+  display:inline-flex;align-items:center;gap:7px;padding:6px 12px 6px 8px;border-radius:99px;
+  border:1px solid var(--hair);background:var(--surface);font-size:12.5px;font-weight:600;
+  transition:.2s var(--ease);
 }
-.hero:after{
-  content:"";position:absolute;width:300px;height:300px;border-radius:50%;right:-110px;top:-150px;
-  background:radial-gradient(circle,rgba(100,175,224,.19),rgba(100,175,224,0) 70%);
+.pill:hover{border-color:var(--hair2)}
+.pill .rankdot{
+  width:20px;height:20px;border-radius:7px;display:grid;place-items:center;font-size:9px;font-weight:700;
+  color:#3b2c07;background:linear-gradient(160deg,#f0d296,#c79a3c);font-family:var(--mono);
 }
+.flame{color:var(--gold);font-weight:700}
+
+/* ---------- typografi ---------- */
 .eyebrow{
-  display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:10px;font-weight:600;
-  letter-spacing:.1em;text-transform:uppercase;color:var(--blue3);margin-bottom:16px;
+  display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:10px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);
 }
-.eyebrow:before{content:"";width:26px;height:2px;background:var(--blue);border-radius:99px}
-.hero h1{margin:0;font-size:clamp(38px,5.5vw,68px);line-height:.98;letter-spacing:-.055em;max-width:820px}
-.hero p{margin:20px 0 0;max-width:720px;color:var(--text2);font-family:var(--read);font-size:clamp(17px,1.8vw,20px);line-height:1.55}
-.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin:30px 2px 14px}
-.section-head h2{margin:0;font-size:22px;letter-spacing:-.025em}
-.section-head span{color:var(--muted);font-size:13px}
-.course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;padding-bottom:42px}
+.eyebrow:before{content:"";width:18px;height:1.5px;background:var(--acc);border-radius:9px;opacity:.75}
+h1,h2,h3{letter-spacing:-.04em;margin:0}
+.sec{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:0 0 14px}
+.sec h2{font-size:15px;font-weight:600;letter-spacing:-.02em;color:var(--ink2)}
+.card{background:var(--surface);border:1px solid var(--hair);border-radius:22px;box-shadow:var(--e1)}
+.pad{padding:22px}
+
+/* ---------- hem ---------- */
+.hero{padding:56px 4px 34px;max-width:760px}
+.hero h1{font-size:clamp(34px,5.4vw,58px);line-height:1.02;letter-spacing:-.05em;margin:18px 0 0}
+.hero h1 em{font-style:normal;color:var(--ink3)}
+.hero p{margin:16px 0 0;color:var(--ink2);font-family:var(--read);font-size:16.5px;line-height:1.55;max-width:520px;letter-spacing:0}
+.course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding-bottom:60px}
 .course-card{
-  min-height:184px;text-align:left;padding:20px;border:1px solid var(--line);border-radius:22px;
-  background:var(--surface);box-shadow:var(--shadow);position:relative;overflow:hidden;
-  display:flex;flex-direction:column;
+  position:relative;overflow:hidden;text-align:left;padding:20px;min-height:150px;
+  border:1px solid var(--hair);border-radius:22px;background:var(--surface);box-shadow:var(--e1);
+  display:flex;flex-direction:column;gap:14px;
+  transition:transform .28s var(--ease),box-shadow .28s var(--ease),border-color .28s ease;
 }
-.course-card:hover{transform:translateY(-2px);border-color:#a9d2e9;box-shadow:var(--shadow2)}
-.course-card.loading{pointer-events:none;opacity:.72}
-.course-card .course-code{font-family:var(--mono);font-size:10px;color:var(--blue3);letter-spacing:.08em;text-transform:uppercase}
-.course-card h3{font-size:20px;line-height:1.12;letter-spacing:-.035em;margin:24px 0 8px}
-.course-card p{font-family:var(--read);color:var(--muted);margin:0;font-size:14px;line-height:1.4}
-.course-card .arrow{margin-top:auto;align-self:flex-end;width:34px;height:34px;border-radius:50%;background:var(--blueSoft);display:grid;place-items:center;color:var(--blue3);font-weight:800}
-.course-card.loading .arrow{animation:spin .8s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
+.course-card:before{
+  content:"";position:absolute;inset:0;opacity:0;transition:opacity .35s ease;
+  background:radial-gradient(420px 190px at 12% -30%,var(--tint),transparent 70%);
+}
+.course-card:hover{transform:translateY(-3px);box-shadow:var(--e2);border-color:var(--hair2)}
+.course-card:hover:before{opacity:.9}
+.course-card:active{transform:translateY(-1px) scale(.995)}
+.course-card>*{position:relative}
+.mono-tile{
+  width:40px;height:40px;border-radius:13px;display:grid;place-items:center;color:#fff;
+  font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.02em;
+  box-shadow:0 6px 16px -8px var(--tintStrong),inset 0 1px 0 rgba(255,255,255,.3);
+}
+.course-card h3{font-size:18.5px;line-height:1.15;letter-spacing:-.035em}
+.course-card .sub{margin-top:5px;font-size:12.5px;color:var(--ink3);font-weight:500}
+.course-card .go{
+  margin-top:auto;display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--ink3);
+  transition:color .25s ease,gap .25s var(--ease);
+}
+.course-card:hover .go{color:var(--accInk);gap:10px}
+.course-card.loading{pointer-events:none}
+.course-card.loading .go:after{content:"";width:13px;height:13px;border-radius:50%;border:2px solid var(--hair2);border-top-color:var(--acc);animation:spin .7s linear infinite}
 
-.course-head{
-  padding:24px 0 8px;display:flex;align-items:flex-start;gap:18px;flex-wrap:wrap;
+/* ---------- kurshuvud ---------- */
+.chead{padding:26px 2px 22px;display:flex;flex-wrap:wrap;align-items:flex-end;gap:18px}
+.chead .t{flex:1;min-width:250px}
+.chead h1{font-size:clamp(28px,4vw,40px);letter-spacing:-.05em;margin:10px 0 0}
+.chead p{margin:8px 0 0;color:var(--ink3);font-size:14.5px}
+.crumb{display:inline-flex;align-items:center;gap:7px;color:var(--ink3);font-size:13px;font-weight:500;padding:6px 0;transition:color .2s}
+.crumb:hover{color:var(--accInk)}
+.tracks{display:flex;gap:6px;flex-wrap:wrap}
+.track{
+  padding:8px 14px;border-radius:11px;border:1px solid var(--hair);background:var(--surface);
+  font-size:13px;font-weight:600;font-family:var(--mono);color:var(--ink2);transition:.2s var(--ease);
 }
-.breadcrumb{border:0;background:transparent;color:var(--muted);padding:8px 0;font-size:13px}
-.breadcrumb:hover{color:var(--blue3)}
-.course-title{flex:1;min-width:260px}
-.course-title .mini{font-family:var(--mono);font-size:10px;letter-spacing:.09em;color:var(--blue3);text-transform:uppercase}
-.course-title h1{margin:5px 0 2px;font-size:clamp(30px,4vw,46px);letter-spacing:-.05em}
-.course-title p{margin:0;color:var(--muted);font-family:var(--read)}
-.trackbar{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}
-.chip{padding:8px 11px;font-size:12px;font-weight:700}
-.chip.active{background:var(--blue2);border-color:var(--blue2);color:#fff}
+.track:hover{border-color:var(--hair2)}
+.track.on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
 
-.dashboard{
-  display:grid;grid-template-columns:minmax(0,1.65fr) minmax(270px,.75fr);gap:16px;padding:14px 0 42px;
+/* ---------- dashboard ---------- */
+.dash{display:grid;grid-template-columns:minmax(0,1fr) 306px;gap:20px;align-items:start;padding-bottom:24px}
+.side{position:sticky;top:82px;display:grid;gap:12px}
+.chapter{margin-bottom:22px}
+.chapter-label{
+  font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);
+  margin:0 0 10px 2px;display:flex;align-items:center;gap:10px;
 }
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
-.panel-pad{padding:22px}
-.training-start{
-  padding:28px;background:linear-gradient(135deg,var(--surface),var(--surface3));
-  display:flex;align-items:center;gap:20px;min-height:190px;
+.chapter-label:after{content:"";flex:1;height:1px;background:var(--hair)}
+.area-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(216px,1fr));gap:10px}
+.area{
+  position:relative;overflow:hidden;text-align:left;padding:15px 16px 14px;border-radius:17px;
+  border:1px solid var(--hair);background:var(--surface);box-shadow:0 1px 2px rgba(11,33,51,.04);
+  transition:transform .22s var(--ease),box-shadow .22s var(--ease),border-color .2s ease;
+  display:flex;flex-direction:column;gap:11px;min-height:96px;
 }
-.training-start h2{margin:0 0 7px;font-size:27px;letter-spacing:-.04em}
-.training-start p{margin:0;color:var(--text2);font-family:var(--read);max-width:620px}
-.training-start .actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}
-.primary,.ghost,.softbtn{padding:11px 15px;font-weight:700}
-.primary{background:var(--blue2);border-color:var(--blue2);color:#fff;box-shadow:0 7px 18px rgba(45,137,198,.18)}
-.primary:hover{background:var(--blue3);border-color:var(--blue3);transform:translateY(-1px)}
-.ghost{background:var(--surface)}
-.softbtn{background:var(--blueSoft);color:var(--blue3);border-color:transparent}
-.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.stat{padding:16px;border-radius:17px;background:var(--surface2);border:1px solid var(--line)}
-.stat span{display:block;color:var(--muted);font-size:11px}
-.stat strong{display:block;margin-top:5px;font-size:22px;letter-spacing:-.035em}
-.progress{height:8px;border-radius:99px;background:var(--line);overflow:hidden;margin-top:11px}
-.progress > i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--blue),var(--blue2))}
-.feedback-mini h3,.areas h3{margin:0 0 14px;font-size:16px}
-.mini-list{display:grid;gap:8px}
-.mini-row{
-  display:flex;align-items:center;gap:10px;padding:10px 11px;border-radius:13px;border:1px solid var(--line);
-  background:var(--surface2);font-size:13px;text-align:left;width:100%;
-}
-.mini-row:hover{border-color:var(--line2)}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--blue)}
-.dot.weak{background:var(--amber)}
-.mini-row span:nth-child(2){flex:1}
-.score{font-family:var(--mono);font-size:10px;color:var(--muted)}
+.area:hover{transform:translateY(-2px);border-color:var(--hair2);box-shadow:var(--e1)}
+.area:active{transform:translateY(0) scale(.99)}
+.area strong{font-size:14.5px;font-weight:600;line-height:1.25;letter-spacing:-.02em}
+.area .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.area .state{font-size:11px;font-weight:600;letter-spacing:.01em;color:var(--ink3)}
+.area .state.s-good{color:var(--good)}
+.area .state.s-mid{color:var(--accInk)}
+.area .state.s-low{color:var(--warn)}
+.meter{height:4px;border-radius:99px;background:var(--hair);overflow:hidden;flex:1;max-width:74px}
+.meter i{display:block;height:100%;border-radius:99px;width:0;transition:width 1.1s var(--ease);background:linear-gradient(90deg,var(--acc),var(--acc2))}
+.meter.m-good i{background:linear-gradient(90deg,var(--good),var(--good))}
+.meter.m-low i{background:linear-gradient(90deg,var(--warn),var(--gold2))}
+.meter.m-new{background:repeating-linear-gradient(90deg,var(--hair) 0 4px,transparent 4px 8px)}
 
-.area-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.area-card{
-  padding:15px;text-align:left;border:1px solid var(--line);border-radius:17px;background:var(--surface2);
+/* ---------- rang / gamification ---------- */
+.rankcard{position:relative;overflow:hidden;padding:20px}
+.rankcard:before{
+  content:"";position:absolute;inset:-40% -20% auto auto;width:220px;height:220px;border-radius:50%;
+  background:radial-gradient(circle,var(--goldSoft),transparent 70%);
 }
-.area-card:hover{background:var(--surface3);border-color:var(--line2)}
-.area-card strong{display:block;font-size:14px}
-.area-card small{display:block;margin-top:5px;color:var(--muted)}
-.area-card .area-meter{height:5px;background:var(--line);border-radius:99px;margin-top:12px;overflow:hidden}
-.area-card .area-meter i{display:block;height:100%;background:var(--blue);border-radius:99px}
+.rankrow{display:flex;align-items:center;gap:15px;position:relative}
+.ringwrap{position:relative;width:74px;height:74px;flex:none}
+.ringwrap .num{
+  position:absolute;inset:0;display:grid;place-items:center;text-align:center;
+  font-size:20px;font-weight:700;letter-spacing:-.05em;
+}
+.ringwrap .num small{display:block;font-family:var(--mono);font-size:8px;font-weight:600;letter-spacing:.12em;color:var(--ink3);text-transform:uppercase;margin-top:1px}
+.ring circle{transition:stroke-dashoffset 1.2s var(--ease)}
+.rankname{font-size:17px;font-weight:700;letter-spacing:-.035em}
+.rankmeta{margin-top:3px;font-size:12px;color:var(--ink3);font-family:var(--mono)}
+.rankbar{margin-top:14px;height:5px;border-radius:99px;background:var(--hair);overflow:hidden;position:relative}
+.rankbar i{display:block;height:100%;width:0;border-radius:99px;transition:width 1.2s var(--ease);
+  background:linear-gradient(90deg,#c79a3c,var(--gold2));}
+.rankfoot{margin-top:9px;display:flex;justify-content:space-between;font-size:11.5px;color:var(--ink3);font-family:var(--mono)}
 
-.picker{padding:8px 0 42px}
-.chapter{margin-bottom:16px}
-.chapter-title{margin:0 0 9px;color:var(--muted);font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.08em}
-.family-row{display:flex;gap:7px;flex-wrap:wrap;margin-top:9px}
-.family-chip{padding:7px 10px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-size:11px}
-.family-chip:hover{background:var(--blueSoft);border-color:#b7dced;color:var(--blue3)}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+.tile{padding:12px;border-radius:14px;background:var(--surface2);border:1px solid var(--hair)}
+.tile span{display:block;font-size:10.5px;font-family:var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.tile strong{display:block;margin-top:5px;font-size:19px;letter-spacing:-.04em}
 
-.training-shell{width:min(920px,calc(100% - 32px));margin:0 auto;padding-bottom:42px}
-.training-top{display:flex;align-items:center;gap:12px;padding:16px 0 14px}
-.training-top .grow{flex:1}
-.session-progress{font-family:var(--mono);font-size:10px;color:var(--muted)}
-.task-card{
-  border:1px solid var(--line);border-radius:28px;background:var(--surface);box-shadow:var(--shadow2);overflow:hidden;
+.badgestrip{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.medal{
+  position:relative;aspect-ratio:1;border-radius:15px;display:grid;place-items:center;font-size:17px;
+  border:1px solid var(--hair);background:var(--surface2);color:var(--ink3);
+  transition:.25s var(--ease);
 }
-.task-meta{
-  display:flex;gap:7px;flex-wrap:wrap;align-items:center;padding:18px 22px;border-bottom:1px solid var(--line);
-  background:var(--surface2);
+.medal:hover{transform:translateY(-2px);border-color:var(--hair2)}
+.medal.on{
+  border-color:transparent;color:#402f08;
+  background:linear-gradient(160deg,#f3d99f,#c99b3b);
+  box-shadow:0 8px 18px -10px rgba(180,140,50,.9),inset 0 1px 0 rgba(255,255,255,.5);
 }
-.badge{
-  display:inline-flex;align-items:center;min-height:26px;padding:4px 9px;border-radius:999px;
-  font-size:10px;font-weight:700;border:1px solid var(--line);background:var(--surface);
+.medal .frac{position:absolute;bottom:5px;font-family:var(--mono);font-size:8px;color:var(--ink3)}
+.medal.on .frac{display:none}
+
+.badgegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(212px,1fr));gap:10px}
+.badge-row{
+  display:flex;align-items:center;gap:13px;padding:13px;border-radius:16px;
+  border:1px solid var(--hair);background:var(--surface2);
 }
-.badge.level-E{background:var(--greenSoft);color:var(--green);border-color:transparent}
-.badge.level-C{background:var(--blueSoft);color:var(--blue3);border-color:transparent}
-.badge.level-A{background:var(--purpleSoft);color:var(--purple);border-color:transparent}
-.task-id{margin-left:auto;color:var(--muted);font-family:var(--mono);font-size:10px}
-.task-body{
-  padding:clamp(24px,4.5vw,46px);font-family:var(--read);font-size:18px;line-height:1.65;color:var(--text);
-  overflow-wrap:anywhere;
+.badge-row .medal{width:44px;aspect-ratio:1;border-radius:13px;font-size:16px}
+.badge-row b{display:block;font-size:13.5px;font-weight:600}
+.badge-row small{display:block;color:var(--ink3);font-size:11.5px;margin-top:2px}
+.badge-row .prog{margin-top:7px;height:3px;border-radius:99px;background:var(--hair);overflow:hidden}
+.badge-row .prog i{display:block;height:100%;background:var(--gold2);width:0;border-radius:99px;transition:width 1.1s var(--ease)}
+.badge-row .txt{flex:1;min-width:0}
+
+/* ---------- lista ---------- */
+.rowlist{display:grid;gap:6px}
+.row{
+  display:flex;align-items:center;gap:11px;padding:11px 12px;border-radius:13px;
+  border:1px solid transparent;background:var(--surface2);text-align:left;width:100%;font-size:13.5px;
+  transition:.2s var(--ease);
 }
-.task-body p{margin:0 0 18px}
-.task-body p:last-child{margin-bottom:0}
-.task-body svg{display:block;max-width:100%;height:auto;margin:22px auto}
-html[data-theme="dark"] .task-body svg{
-  background:#fff;border-radius:14px;padding:8px;
+.row:hover{border-color:var(--hair2);background:var(--surface3)}
+.row .dot{width:7px;height:7px;border-radius:50%;background:var(--acc);flex:none}
+.row .dot.warn{background:var(--gold2)}
+.row .dot.good{background:var(--good)}
+.row .name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500}
+.row .val{font-family:var(--mono);font-size:11px;color:var(--ink3)}
+.empty{padding:16px;border:1px dashed var(--hair2);border-radius:14px;color:var(--ink3);font-size:13px;font-family:var(--read)}
+
+/* ---------- PT / coach ---------- */
+.coach{
+  position:relative;overflow:hidden;display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+  padding:18px 20px;border-radius:20px;border:1px solid var(--hair);
+  background:linear-gradient(120deg,var(--surface),var(--surface3));box-shadow:var(--e1);margin-bottom:50px;
 }
-.task-body table{max-width:100%;border-collapse:collapse}
-.task-body td,.task-body th{border:1px solid var(--line);padding:7px 10px}
-.katex{font-size:1.08em}
+.coach:before{
+  content:"";position:absolute;left:-60px;top:-70px;width:220px;height:220px;border-radius:50%;
+  background:radial-gradient(circle,var(--accSoft),transparent 70%);
+}
+.coach .avatar{
+  position:relative;width:46px;height:46px;border-radius:15px;flex:none;display:grid;place-items:center;
+  background:linear-gradient(160deg,#7cc2f5,#1b7fd0);color:#fff;font-size:19px;
+  box-shadow:0 8px 18px -8px rgba(27,127,208,.8),inset 0 1px 0 rgba(255,255,255,.35);
+}
+.coach .body{flex:1;min-width:220px;position:relative}
+.coach .lbl{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.coach .msg{margin-top:5px;font-size:15px;line-height:1.45;font-family:var(--read);letter-spacing:0}
+.coach .msg b{font-weight:700;color:var(--ink)}
+.coach .act{position:relative;display:flex;gap:8px;flex-wrap:wrap}
+
+/* ---------- träning ---------- */
+.tshell{width:min(880px,calc(100% - 32px));margin:0 auto;padding-bottom:60px}
+.ttop{display:flex;align-items:center;gap:12px;padding:16px 0 18px}
+.dots{display:flex;gap:5px;align-items:center}
+.dots i{width:7px;height:7px;border-radius:50%;background:var(--hair2);transition:.35s var(--ease)}
+.dots i.done{background:var(--acc);transform:scale(1.1)}
+.dots i.now{background:var(--acc);box-shadow:0 0 0 4px var(--accSoft)}
+.task{border:1px solid var(--hair);border-radius:26px;background:var(--surface);box-shadow:var(--e2);overflow:hidden}
+.tmeta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:15px 20px;border-bottom:1px solid var(--hair);background:var(--surface2)}
+.tag{
+  display:inline-flex;align-items:center;height:24px;padding:0 10px;border-radius:99px;
+  font-size:11px;font-weight:600;border:1px solid var(--hair);background:var(--surface);color:var(--ink2);
+}
+.tag.lv-E{background:var(--goodSoft);color:var(--good);border-color:transparent}
+.tag.lv-C{background:var(--accSoft);color:var(--accInk);border-color:transparent}
+.tag.lv-A{background:var(--goldSoft);color:var(--gold);border-color:transparent}
+.tid{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--ink3)}
+.tbody{
+  padding:clamp(24px,4.5vw,42px);font-family:var(--read);font-size:18px;line-height:1.68;color:var(--ink);
+  overflow-wrap:anywhere;letter-spacing:0;
+}
+.tbody p{margin:0 0 18px}
+.tbody p:last-child{margin-bottom:0}
+.tbody svg{display:block;max-width:100%;height:auto;margin:22px auto}
+html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#fff;border-radius:14px;padding:10px}
+.tbody table{max-width:100%;border-collapse:collapse}
+.tbody td,.tbody th{border:1px solid var(--hair2);padding:7px 10px}
+.katex{font-size:1.07em}
 .katex-display{overflow-x:auto;overflow-y:hidden;padding:4px 2px;margin:1em 0}
-.answer-zone{padding:20px 22px 22px;border-top:1px solid var(--line);background:var(--surface2)}
-.answer-zone h3{font-size:13px;margin:0 0 10px}
-.answer-inputs{display:grid;gap:9px}
-.answer-line{display:flex;align-items:center;gap:9px}
-.answer-line label{width:24px;color:var(--muted);font-family:var(--mono);font-size:11px}
-.answer-line input,.answer-line textarea{
-  flex:1;min-width:0;border:1px solid var(--line2);background:var(--surface);border-radius:13px;
-  padding:12px 13px;font-family:var(--read);font-size:16px;
+.azone{padding:20px;border-top:1px solid var(--hair);background:var(--surface2)}
+.azone h3{font-size:12px;font-family:var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);margin-bottom:12px;font-weight:600}
+.ainputs{display:grid;gap:8px}
+.aline{display:flex;align-items:center;gap:10px}
+.aline label{width:20px;color:var(--ink3);font-family:var(--mono);font-size:12px}
+.aline input,.aline textarea{
+  flex:1;min-width:0;border:1px solid var(--hair2);background:var(--surface);border-radius:13px;
+  padding:13px 14px;font-family:var(--read);font-size:16.5px;letter-spacing:0;
+  transition:border-color .2s ease,box-shadow .2s ease;
 }
-.answer-line textarea{min-height:92px;resize:vertical;line-height:1.45}
-.answer-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:13px}
-.resultbox{
-  margin-top:14px;padding:14px 16px;border-radius:15px;border:1px solid var(--line);
-  font-family:var(--read);
+.aline input:focus,.aline textarea:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 4px var(--accSoft)}
+.aline textarea{min-height:96px;resize:vertical;line-height:1.5}
+.aacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.hint{margin-top:10px;font-size:12px;color:var(--ink3);line-height:1.5}
+.result{
+  margin-top:14px;padding:15px 16px;border-radius:16px;font-family:var(--read);letter-spacing:0;
+  display:flex;align-items:center;gap:12px;animation:pop .4s var(--ease) both;
 }
-.resultbox.good{background:var(--greenSoft);border-color:transparent;color:var(--green)}
-.resultbox.bad{background:var(--redSoft);border-color:transparent;color:var(--red)}
-.solution{
-  margin-top:12px;padding:18px;border:1px solid var(--line);border-radius:16px;background:var(--surface);
-  font-family:var(--read);font-size:16px;line-height:1.6;color:var(--text);
+.result.good{background:var(--goodSoft);color:var(--good)}
+.result.bad{background:var(--badSoft);color:var(--bad)}
+.result .txt{flex:1}
+.result strong{display:block;font-size:15px}
+.result small{display:block;margin-top:2px;opacity:.85;font-size:13px}
+.xpchip{
+  font-family:var(--mono);font-size:12px;font-weight:600;padding:6px 11px;border-radius:99px;
+  background:linear-gradient(160deg,#f3d99f,#c99b3b);color:#402f08;white-space:nowrap;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.5);
 }
-.solution svg{display:block;max-width:100%;height:auto;margin:18px auto}
-html[data-theme="dark"] .solution svg{background:#fff;border-radius:12px;padding:8px}
+.sol{
+  margin-top:12px;padding:20px;border:1px solid var(--hair);border-radius:18px;background:var(--surface);
+  font-family:var(--read);font-size:16px;line-height:1.62;letter-spacing:0;animation:rise .35s var(--ease) both;
+}
+.sol .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);font-weight:600}
+.sol svg{display:block;max-width:100%;height:auto;margin:18px auto}
 
-.feedback-page{padding:8px 0 42px}
-.feedback-hero{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.feedback-box{padding:22px}
-.feedback-box h2{margin:0 0 5px;font-size:19px}
-.feedback-box p{margin:0 0 15px;color:var(--muted);font-family:var(--read)}
-.feedback-item{
-  width:100%;display:flex;align-items:center;gap:11px;text-align:left;padding:12px;
-  border:1px solid var(--line);background:var(--surface2);border-radius:14px;margin-top:7px;
-}
-.feedback-item:hover{border-color:var(--line2);background:var(--surface3)}
-.feedback-item strong{flex:1;font-size:13px}
-.feedback-item small{color:var(--muted)}
-.empty{padding:20px;border:1px dashed var(--line2);border-radius:16px;color:var(--muted);font-family:var(--read)}
+/* ---------- passrapport ---------- */
+.summary{width:min(620px,calc(100% - 32px));margin:0 auto;padding:40px 0 60px;text-align:center}
+.summary .ringwrap{width:132px;height:132px;margin:0 auto}
+.summary .ringwrap .num{font-size:32px}
+.summary h1{font-size:30px;margin-top:22px;letter-spacing:-.045em}
+.summary p{color:var(--ink2);margin:10px 0 0;font-family:var(--read);letter-spacing:0}
+.sumtiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:26px 0 24px}
 
+/* ---------- toast / hyllning ---------- */
 .toast{
-  position:fixed;left:50%;bottom:22px;transform:translate(-50%,20px);opacity:0;pointer-events:none;
-  padding:11px 15px;border-radius:13px;background:var(--text);color:var(--surface);box-shadow:var(--shadow2);
-  transition:.2s ease;z-index:50;font-size:13px;
+  position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);opacity:0;pointer-events:none;
+  padding:11px 16px;border-radius:13px;background:var(--ink);color:var(--bg);box-shadow:var(--e2);
+  transition:.25s var(--ease);z-index:60;font-size:13.5px;font-weight:500;
 }
 .toast.show{opacity:1;transform:translate(-50%,0)}
-
-@media(max-width:900px){
-  .course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .dashboard{grid-template-columns:1fr}
-  .feedback-hero{grid-template-columns:1fr}
+.cheer{
+  position:fixed;left:50%;top:80px;transform:translate(-50%,-14px) scale(.94);opacity:0;pointer-events:none;
+  z-index:70;display:flex;align-items:center;gap:14px;padding:14px 20px 14px 14px;border-radius:20px;
+  background:var(--surface);border:1px solid var(--hair);box-shadow:var(--e2);transition:.4s var(--ease);
 }
-@media(max-width:620px){
-  .shell{width:min(100% - 22px,1180px)}
-  .topbar{height:68px}
-  .brand{font-size:18px}.brandmark{width:38px;height:38px}
-  .hero{padding:26px;border-radius:24px}
+.cheer.show{opacity:1;transform:translate(-50%,0) scale(1)}
+.cheer .medal{width:44px;aspect-ratio:1;font-size:19px}
+.cheer b{display:block;font-size:14.5px;letter-spacing:-.02em}
+.cheer small{display:block;color:var(--ink3);font-size:12px;margin-top:2px}
+
+@media(max-width:960px){
+  .dash{grid-template-columns:1fr}
+  .side{position:static;grid-template-columns:1fr 1fr;display:grid}
+  .course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:640px){
+  .shell{width:calc(100% - 26px)}
   .course-grid{grid-template-columns:1fr}
-  .area-grid{grid-template-columns:1fr}
-  .course-head{padding-top:14px}
-  .training-start{padding:22px}
-  .training-shell{width:calc(100% - 18px)}
-  .task-card{border-radius:22px}
-  .task-body{font-size:17px;padding:24px 20px}
-  .task-meta,.answer-zone{padding-left:16px;padding-right:16px}
+  .side{grid-template-columns:1fr}
+  .area-grid{grid-template-columns:1fr 1fr}
+  .hero{padding:34px 2px 26px}
+  .tbody{font-size:17px;padding:22px 18px}
+  .tmeta,.azone{padding-left:16px;padding-right:16px}
+  .sumtiles{grid-template-columns:1fr}
+  .badgestrip{grid-template-columns:repeat(4,1fr)}
 }
 </style>
 </head>
 
 <body>
-<div id="app" class="app"></div>
+<div id="app"></div>
 <div id="toast" class="toast"></div>
+<div id="cheer" class="cheer"></div>
 
 <script>
 /* ==========================================================
@@ -328,46 +481,46 @@ html[data-theme="dark"] .solution svg{background:#fff;border-radius:12px;padding
 
 const COURSES = {
   fy1:{
-    name:"Fysik nivå 1", code:"Fy1",
+    name:"Fysik nivå 1", code:"Fy1", subject:"Fysik",
     files:["struktur.js","uppgifter.js"],
     globals:{bank:"BANK",kap:"KAPNAMN",omr:"OMR"},
-    tracks:[]
+    tracks:[], tint:"#2f9a86"
   },
   fy2:{
-    name:"Fysik nivå 2", code:"Fy2",
+    name:"Fysik nivå 2", code:"Fy2", subject:"Fysik",
     files:["struktur2.js","uppgifter2.js"],
     globals:{bank:"BANK2",kap:"KAPNAMN2",omr:"OMR2"},
-    tracks:[]
+    tracks:[], tint:"#2b8496"
   },
   ma1:{
-    name:"Matematik nivå 1", code:"Ma1",
+    name:"Matematik nivå 1", code:"Ma1", subject:"Matematik",
     files:["strukturma1.js","uppgifterma1.js"],
     globals:{bank:"BANKMA1",kap:"KAPNAMNMA1",omr:"OMRMA1"},
-    tracks:["1a","1b","1c"], defaultTrack:"1c"
+    tracks:["1a","1b","1c"], defaultTrack:"1c", tint:"#3f92db"
   },
   ma2:{
-    name:"Matematik nivå 2", code:"Ma2",
+    name:"Matematik nivå 2", code:"Ma2", subject:"Matematik",
     files:["strukturma2.js","uppgifterma2.js"],
     globals:{bank:"BANKMA2",kap:"KAPNAMNMA2",omr:"OMRMA2"},
-    tracks:["2a","2b","2c"], defaultTrack:"2c"
+    tracks:["2a","2b","2c"], defaultTrack:"2c", tint:"#2f7fc9"
   },
   mato1:{
-    name:"Matematik – fortsättning nivå 1", code:"Ma forts 1",
+    name:"Matematik – fortsättning nivå 1", code:"Ma forts 1", subject:"Matematik",
     files:["strukturmato1.js","uppgiftermato1.js"],
     globals:{bank:"BANKMATO1",kap:"KAPNAMNMATO1",omr:"OMRMATO1"},
-    tracks:["1b","1c"], defaultTrack:"1c"
+    tracks:["1b","1c"], defaultTrack:"1c", tint:"#4f9ad0"
   },
   mato2:{
-    name:"Matematik – fortsättning nivå 2", code:"Ma forts 2",
+    name:"Matematik – fortsättning nivå 2", code:"Ma forts 2", subject:"Matematik",
     files:["strukturmato2.js","uppgiftermato2.js"],
     globals:{bank:"BANKMATO2",kap:"KAPNAMNMATO2",omr:"OMRMATO2"},
-    tracks:["2c"], defaultTrack:"2c"
+    tracks:["2c"], defaultTrack:"2c", tint:"#4288bd"
   },
   matf1:{
-    name:"Matematik – fördjupning nivå 1", code:"Ma fördj 1",
+    name:"Matematik – fördjupning nivå 1", code:"Ma fördj 1", subject:"Matematik",
     files:["strukturmatf1.js","uppgiftermatf1.js"],
     globals:{bank:"BANKMATF1",kap:"KAPNAMNMATF1",omr:"OMRMATF1"},
-    tracks:[]
+    tracks:[], tint:"#6f6ac9"
   }
 };
 
@@ -377,8 +530,8 @@ const app=document.getElementById("app");
 const state={
   course:null, track:null, data:null, view:"home",
   focusArea:null, focusFamily:null,
-  currentTask:null, sessionDone:0, lastIds:[],
-  solutionShown:false, answered:false
+  currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0,
+  lastIds:[], solutionShown:false, answered:false
 };
 
 const loadedScripts=new Set();
@@ -386,11 +539,16 @@ const PROFILE_KEY="kunskapsgymmet-profile-v1";
 let profile=loadProfile();
 
 function loadProfile(){
-  try{
-    return JSON.parse(localStorage.getItem(PROFILE_KEY)) || {xp:0,attempts:0,correct:0,streak:0,lastDay:null,courses:{}};
-  }catch(_){ return {xp:0,attempts:0,correct:0,streak:0,lastDay:null,courses:{}}; }
+  let p;
+  try{ p=JSON.parse(localStorage.getItem(PROFILE_KEY)); }catch(_){ p=null; }
+  p = p || {};
+  p.xp||=0; p.attempts||=0; p.correct||=0; p.streak||=0; p.bestStreak||=0;
+  p.run||=0; p.bestRun||=0; p.aCorrect||=0; p.today||=0; p.goal||=8;
+  p.lastDay ??= null;
+  p.courses ||= {}; p.badges ||= {};
+  return p;
 }
-function saveProfile(){ localStorage.setItem(PROFILE_KEY,JSON.stringify(profile)); }
+function saveProfile(){ try{ localStorage.setItem(PROFILE_KEY,JSON.stringify(profile)); }catch(_){} }
 function ensureCourseProfile(){
   const c=state.course || "none";
   profile.courses[c] ||= {areas:{},families:{},history:[]};
@@ -406,14 +564,107 @@ function updateMastery(map,key,correct){
   s = correct ? s + .10*(1-s) : s - .16*s;
   map[key]=Math.max(.08,Math.min(.96,s));
 }
-function levelFromXP(xp){ return Math.max(1,Math.floor(Math.sqrt(xp/110))+1); }
-function xpToNext(level){ return Math.round(level*level*110); }
+
+/* ==========================================================
+   RANGER, MILSTOLPAR OCH DAGSSTRECK
+   ========================================================== */
+
+const RANKS=[
+  {lvl:1,  name:"Nykomling", sym:"I"},
+  {lvl:3,  name:"Motionär",  sym:"II"},
+  {lvl:6,  name:"Atlet",     sym:"III"},
+  {lvl:10, name:"Elitatlet", sym:"IV"},
+  {lvl:15, name:"Mästare",   sym:"V"},
+  {lvl:22, name:"Legend",    sym:"VI"}
+];
+function totalXpForLevel(L){ return 30*(L-1)+12*(L-1)*(L-1); }
+function levelFromXP(xp){
+  let L=1;
+  while(L<99 && totalXpForLevel(L+1)<=xp) L++;
+  return L;
+}
+function rankFor(level){
+  let r=RANKS[0];
+  for(const x of RANKS) if(level>=x.lvl) r=x;
+  return r;
+}
+function nextRank(level){ return RANKS.find(x=>x.lvl>level) || null; }
+function levelProgress(){
+  const L=levelFromXP(profile.xp);
+  const base=totalXpForLevel(L), top=totalXpForLevel(L+1);
+  return {level:L, into:profile.xp-base, need:top-base, pct:(profile.xp-base)/Math.max(1,top-base)};
+}
+
+function todayKey(){
+  const d=new Date();
+  return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+}
+function yesterdayKey(){
+  const d=new Date(Date.now()-864e5);
+  return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+}
+function todayCount(){ return profile.lastDay===todayKey() ? (profile.today||0) : 0; }
+function currentStreak(){
+  if(profile.lastDay===todayKey() || profile.lastDay===yesterdayKey()) return profile.streak||0;
+  return 0;
+}
+function touchDay(){
+  const t=todayKey();
+  if(profile.lastDay===t) return;
+  profile.streak = (profile.lastDay===yesterdayKey()) ? (profile.streak||0)+1 : 1;
+  profile.bestStreak=Math.max(profile.bestStreak||0,profile.streak);
+  profile.lastDay=t;
+  profile.today=0;
+}
+
+function allAreaMasteries(){
+  return Object.values(profile.courses||{}).flatMap(c=>Object.values(c.areas||{}));
+}
+function bestAreaMastery(){
+  const v=allAreaMasteries();
+  return v.length?Math.max(...v):0;
+}
+function touchedAreas(){ return allAreaMasteries().length; }
+
+const BADGES=[
+  {id:"start", icon:"◆", name:"Första steget",   desc:"Träna din första uppgift",    max:1,   cur:()=>profile.attempts},
+  {id:"warm",  icon:"▲", name:"Uppvärmd",        desc:"10 tränade uppgifter",        max:10,  cur:()=>profile.attempts},
+  {id:"form",  icon:"●", name:"Formstark",       desc:"100 tränade uppgifter",       max:100, cur:()=>profile.attempts},
+  {id:"serie", icon:"✦", name:"Perfekt serie",   desc:"10 rätt i rad",               max:10,  cur:()=>profile.bestRun},
+  {id:"vecka", icon:"◈", name:"Sju raka dagar",  desc:"Träna 7 dagar i följd",       max:7,   cur:()=>profile.bestStreak},
+  {id:"omr",   icon:"★", name:"Områdesmästare",  desc:"Nå 85 % i ett område",        max:85,  cur:()=>Math.round(bestAreaMastery()*100)},
+  {id:"bredd", icon:"⬢", name:"Allsidig",        desc:"Träna i 8 olika områden",     max:8,   cur:()=>touchedAreas()},
+  {id:"topp",  icon:"▲", name:"Höjdhoppare",     desc:"25 rätt på A-nivå",           max:25,  cur:()=>profile.aCorrect}
+];
+function badgeState(b){
+  const cur=Math.max(0,Math.min(b.max,b.cur()||0));
+  return {cur,pct:cur/b.max,on:!!profile.badges[b.id]||cur>=b.max};
+}
+function nextBadge(){
+  const locked=BADGES.filter(b=>!badgeState(b).on).map(b=>({b,s:badgeState(b)}));
+  if(!locked.length) return null;
+  locked.sort((x,y)=>y.s.pct-x.s.pct);
+  return locked[0];
+}
+function checkBadges(){
+  const gained=[];
+  for(const b of BADGES){
+    if(profile.badges[b.id]) continue;
+    if((b.cur()||0)>=b.max){ profile.badges[b.id]=Date.now(); gained.push(b); }
+  }
+  gained.forEach(b=>cheer(b.icon,"Bragd upplåst",b.name));
+  return gained;
+}
+
+/* ==========================================================
+   TEMA, HJÄLPARE, ANIMATION
+   ========================================================== */
 
 function setTheme(next){
   document.documentElement.dataset.theme=next;
   localStorage.setItem("kunskapsgymmet-theme",next);
   const meta=document.querySelector('meta[name="theme-color"]');
-  if(meta) meta.content=next==="dark" ? "#0f1820" : "#eaf6fd";
+  if(meta) meta.content=next==="dark" ? "#0a1119" : "#f2f5f9";
 }
 (function initTheme(){
   const saved=localStorage.getItem("kunskapsgymmet-theme");
@@ -421,18 +672,52 @@ function setTheme(next){
   const dark=window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
   setTheme(dark?"dark":"light");
 })();
-
 function toggleTheme(){
   setTheme(document.documentElement.dataset.theme==="dark"?"light":"dark");
   render();
 }
 function themeIcon(){ return document.documentElement.dataset.theme==="dark" ? "☀" : "☾"; }
 
+function esc(s){
+  return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+}
+function toast(msg){
+  const el=document.getElementById("toast");
+  el.textContent=msg;el.classList.add("show");
+  clearTimeout(toast._t);
+  toast._t=setTimeout(()=>el.classList.remove("show"),1800);
+}
+const cheerQueue=[];
+function cheer(icon,label,title){
+  cheerQueue.push({icon,label,title});
+  if(cheerQueue.length===1) pumpCheer();
+}
+function pumpCheer(){
+  const el=document.getElementById("cheer");
+  const c=cheerQueue[0];
+  if(!c){ return; }
+  el.innerHTML=`<div class="medal on">${c.icon}</div><div><b>${esc(c.title)}</b><small>${esc(c.label)}</small></div>`;
+  el.classList.add("show");
+  setTimeout(()=>{
+    el.classList.remove("show");
+    cheerQueue.shift();
+    if(cheerQueue.length) setTimeout(pumpCheer,420);
+  },2600);
+}
+
+function ring(pct,size,stroke,color){
+  const r=(size-stroke)/2, c=2*Math.PI*r;
+  const off=c*(1-Math.max(0,Math.min(1,pct||0)));
+  return `<svg class="ring" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" aria-hidden="true">
+    <circle cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke="var(--hair)" stroke-width="${stroke}"/>
+    <circle cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke="${color}" stroke-width="${stroke}"
+      stroke-linecap="round" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${c.toFixed(1)}"
+      data-off="${off.toFixed(1)}" transform="rotate(-90 ${size/2} ${size/2})"/>
+  </svg>`;
+}
+
 function renderMath(root=app){
-  if(typeof renderMathInElement!=="function"){
-    setTimeout(()=>renderMath(root),120);
-    return;
-  }
+  if(typeof renderMathInElement!=="function"){ setTimeout(()=>renderMath(root),120); return; }
   try{
     renderMathInElement(root,{
       delimiters:[
@@ -440,58 +725,76 @@ function renderMath(root=app){
         {left:"\\[",right:"\\]",display:true},
         {left:"\\(",right:"\\)",display:false}
       ],
-      throwOnError:false,
-      strict:false,
-      trust:false
+      throwOnError:false, strict:false, trust:false
     });
   }catch(err){ console.warn("KaTeX:",err); }
 }
 
-function toast(msg){
-  const el=document.getElementById("toast");
-  el.textContent=msg;el.classList.add("show");
-  clearTimeout(toast._t);
-  toast._t=setTimeout(()=>el.classList.remove("show"),1700);
+function afterRender(){
+  renderMath(app);
+  requestAnimationFrame(()=>{
+    app.querySelectorAll("[data-off]").forEach(el=>{ el.style.strokeDashoffset=el.dataset.off; });
+    app.querySelectorAll("[data-w]").forEach(el=>{ el.style.width=el.dataset.w; });
+    app.querySelectorAll(".stagger").forEach(g=>{
+      [...g.children].forEach((el,i)=>{ el.style.animationDelay=Math.min(i*35,420)+"ms"; });
+    });
+  });
 }
+window.addEventListener("scroll",()=>{
+  const t=document.querySelector(".topbar");
+  if(t) t.classList.toggle("scrolled",window.scrollY>6);
+},{passive:true});
 
-function esc(s){
-  return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
-}
+/* ==========================================================
+   TOPPFÄLT
+   ========================================================== */
 
-function topbar(back=false){
-  return `<div class="shell"><div class="topbar">
-    <button class="brand" onclick="${back?'goHome()':'goHome()'}" aria-label="Till startsidan">
+function topbar(){
+  const lp=levelProgress(), r=rankFor(lp.level), st=currentStreak();
+  const badge=profile.attempts?`<button class="pill" onclick="showProgress()" title="Din utveckling">
+      <span class="rankdot">${r.sym}</span><span>${esc(r.name)}</span>
+      ${st?`<span class="flame">${st}\u2009d</span>`:""}
+    </button>`:"";
+  return `<header class="topbar"><div class="shell inner">
+    <button class="brand" onclick="goHome()" aria-label="Till startsidan">
       <span class="brandmark">K</span><span>Kunskapsgymmet</span>
     </button>
     <div class="spacer"></div>
-    ${state.course?`<button class="ghost" onclick="showFeedback()">Min feedback</button>`:""}
+    ${badge}
     <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge" aria-label="Byt färgläge">${themeIcon()}</button>
-  </div></div>`;
+  </div></header>`;
 }
+
+/* ==========================================================
+   START
+   ========================================================== */
 
 function renderHome(){
   document.title="Kunskapsgymmet";
   state.view="home";
   app.innerHTML=topbar()+`
-  <main class="shell">
+  <main class="shell view">
     <section class="hero">
-      <div class="eyebrow">Adaptiv träning i matematik och fysik</div>
-      <h1>Träna på rätt saker.<br>På rätt nivå.</h1>
-      <p>Välj kurs. Kunskapsgymmet lär sig vad du kan, blandar repetition med utmaningar och visar exakt vad du behöver träna mer på.</p>
+      <div class="eyebrow">Matematik &amp; fysik</div>
+      <h1>Träna på rätt saker.<br><em>På rätt nivå.</em></h1>
+      <p>Välj kurs, välj område och börja. Nivån ställer in sig efter hur det går för dig.</p>
     </section>
-    <div class="section-head"><h2>Välj kurs</h2><span>7 kurser</span></div>
-    <section class="course-grid">
+    <section class="course-grid stagger">
       ${COURSE_ORDER.map(id=>{
         const c=COURSES[id];
-        return `<button class="course-card" id="course-${id}" onclick="selectCourse('${id}')">
-          <span class="course-code">${esc(c.code)}</span>
-          <h3>${esc(c.name)}</h3>
-          <p>Öppna kursen och börja träna.</p>
-          <span class="arrow">→</span>
+        return `<button class="course-card" id="course-${id}" onclick="selectCourse('${id}')"
+            style="--tint:${c.tint}22;--tintStrong:${c.tint}">
+          <span class="mono-tile" style="background:linear-gradient(160deg,${c.tint},${c.tint}bb)">${esc(c.code)}</span>
+          <span>
+            <h3>${esc(c.name)}</h3>
+            <span class="sub">${esc(c.subject)}</span>
+          </span>
+          <span class="go">Öppna <span aria-hidden="true">→</span></span>
         </button>`;
       }).join("")}
     </section>
   </main>`;
+  afterRender();
 }
 
 async function loadScript(src){
@@ -529,6 +832,10 @@ async function selectCourse(id){
     alert("Kunde inte öppna kursen.\n\n"+err.message+"\n\nKontrollera att filerna ligger i samma mapp som index.html.");
   }
 }
+
+/* ==========================================================
+   DATA
+   ========================================================== */
 
 function availableTasks(){
   if(!state.data) return [];
@@ -577,30 +884,30 @@ function getAreas(){
   }
   return Object.values(by).sort((a,b)=>(+a.kap||99)-(+b.kap||99)||a.name.localeCompare(b.name,"sv"));
 }
-
+function areaStatus(key){
+  const cp=ensureCourseProfile();
+  const seen=typeof cp.areas[key]==="number";
+  const m=seen?cp.areas[key]:0;
+  if(!seen) return {seen:false,m:0,label:"Ny",cls:"",mcls:"m-new"};
+  if(m>=.78) return {seen:true,m,label:"Stark",cls:"s-good",mcls:"m-good"};
+  if(m>=.55) return {seen:true,m,label:"På gång",cls:"s-mid",mcls:""};
+  return {seen:true,m,label:"Behöver träning",cls:"s-low",mcls:"m-low"};
+}
 function setTrack(track){
   state.track=track; state.focusArea=null; state.focusFamily=null; state.currentTask=null;
   renderDashboard();
 }
-function courseStats(){
-  const cp=ensureCourseProfile();
-  const level=levelFromXP(profile.xp);
-  return {
-    level,xp:profile.xp,attempts:profile.attempts,correct:profile.correct,
-    accuracy:profile.attempts?Math.round(profile.correct/profile.attempts*100):0,
-    next:xpToNext(level),cp
-  };
-}
-
 function weakAreas(limit=4){
   const cp=ensureCourseProfile();
-  return getAreas().map(a=>({...a,m:mastery(cp.areas,a.key)})).sort((a,b)=>a.m-b.m).slice(0,limit);
+  return getAreas().filter(a=>typeof cp.areas[a.key]==="number")
+    .map(a=>({...a,m:cp.areas[a.key]})).sort((a,b)=>a.m-b.m).slice(0,limit);
 }
 function strongAreas(limit=4){
   const cp=ensureCourseProfile();
-  return getAreas().map(a=>({...a,m:mastery(cp.areas,a.key)})).sort((a,b)=>b.m-a.m).slice(0,limit);
+  return getAreas().filter(a=>typeof cp.areas[a.key]==="number")
+    .map(a=>({...a,m:cp.areas[a.key]})).sort((a,b)=>b.m-a.m).slice(0,limit);
 }
-function weakFamilies(limit=6){
+function weakFamilies(limit=8){
   const cp=ensureCourseProfile();
   const seen=new Map();
   availableTasks().forEach(t=>{
@@ -612,104 +919,199 @@ function weakFamilies(limit=6){
     .sort((a,b)=>a.m-b.m).slice(0,limit);
 }
 
+/* ==========================================================
+   TRÄNAREN
+   ========================================================== */
+
+function coachAdvice(){
+  const done=todayCount(), goal=profile.goal||8, st=currentStreak();
+  const weak=weakAreas(1)[0];
+  const areas=getAreas();
+
+  if(!profile.attempts){
+    return {msg:"Vi börjar brett. Ett kort pass så lär jag känna din nivå — sedan blir förslagen träffsäkra.",
+            btn:"Starta första passet", act:"startAdaptive()"};
+  }
+  if(done>=goal){
+    return {msg:`Dagens mål är avklarat. <b>${done} uppgifter</b> idag${st>1?` och ${st} dagar i rad`:""}. Vill du fortsätta väljer jag lite svårare uppgifter.`,
+            btn:"Ett pass till", act:"startAdaptive()"};
+  }
+  if(weak && weak.m<.62){
+    return {msg:`Idag föreslår jag <b>${esc(weak.name)}</b>. Där sitter det inte riktigt än, och det är där du växer snabbast.`,
+            btn:"Träna området", act:`startArea('${esc(weak.key)}')`};
+  }
+  if(weak && areas.length && strongAreas(99).length<Math.min(6,areas.length)){
+    return {msg:`Du är stabil i det du tränat. Prova ett område du inte rört än — bredd ger bättre resultat på provet.`,
+            btn:"Låt mig välja", act:"startAdaptive()"};
+  }
+  return {msg:`Formen är god. Jag blandar repetition med tuffare uppgifter så att det fortsätter kännas lagom svårt.`,
+          btn:"Starta dagens pass", act:"startAdaptive()"};
+}
+
+/* ==========================================================
+   KURSVY
+   ========================================================== */
+
 function renderDashboard(){
   document.title=COURSES[state.course].name+" · Kunskapsgymmet";
   state.view="dashboard";
-  const c=COURSES[state.course], stats=courseStats(), areas=getAreas(), weak=weakAreas(3);
-  const trackHtml=c.tracks.length>1?`<div class="trackbar">${c.tracks.map(t=>`<button class="chip ${state.track===t?'active':''}" onclick="setTrack('${t}')">${t}</button>`).join("")}</div>`:"";
-  app.innerHTML=topbar(true)+`
-  <main class="shell">
-    <div class="course-head">
-      <div class="course-title">
-        <div class="mini">${esc(c.code)} · ${availableTasks().length} uppgifter tillgängliga</div>
-        <h1>${esc(c.name)}</h1>
-        <p>Välj ett område eller låt Kunskapsgymmet välja träningen åt dig.</p>
-        ${trackHtml}
+  const c=COURSES[state.course];
+  const areas=getAreas(), cp=ensureCourseProfile();
+  const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
+  const done=todayCount(), goal=profile.goal||8, st=currentStreak();
+  const weak=weakAreas(3), advice=coachAdvice();
+
+  const grouped={};
+  areas.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
+  const chapters=Object.keys(grouped).sort((a,b)=>(+a||99)-(+b||99));
+  const manyChapters=chapters.length>1;
+
+  const areaHTML=chapters.map(kap=>`
+    <section class="chapter">
+      ${manyChapters?`<div class="chapter-label">${esc(chapterName(kap))}</div>`:""}
+      <div class="area-grid stagger">
+        ${grouped[kap].map(a=>{
+          const s=areaStatus(a.key);
+          return `<button class="area" onclick="startArea('${esc(a.key)}')">
+            <strong>${esc(a.name)}</strong>
+            <span class="foot">
+              <span class="meter ${s.mcls}"><i data-w="${Math.round(s.m*100)}%"></i></span>
+              <span class="state ${s.cls}">${s.label}</span>
+            </span>
+          </button>`;
+        }).join("")}
       </div>
+    </section>`).join("");
+
+  const trackHTML=c.tracks.length>1
+    ? `<div class="tracks">${c.tracks.map(t=>`<button class="track ${state.track===t?'on':''}" onclick="setTrack('${t}')">${t}</button>`).join("")}</div>`
+    : "";
+
+  app.innerHTML=topbar()+`
+  <main class="shell view">
+    <div class="chead">
+      <div class="t">
+        <button class="crumb" onclick="goHome()"><span aria-hidden="true">←</span> Alla kurser</button>
+        <h1>${esc(c.name)}</h1>
+        <p>Välj ett område att träna på.</p>
+      </div>
+      ${trackHTML}
     </div>
 
-    <section class="dashboard">
-      <div>
-        <div class="panel training-start">
-          <div>
-            <div class="eyebrow">Dagens pass</div>
-            <h2>Vad ska vi träna?</h2>
-            <p>Det adaptiva läget väger ihop svårighetsnivå, område, familj, tidigare resultat och variation.</p>
-            <div class="actions">
-              <button class="primary" onclick="startAdaptive()">Träna åt mig</button>
-              <button class="ghost" onclick="showAreaPicker()">Välj område</button>
+    <div class="dash">
+      <div>${areaHTML || `<div class="empty">Inga uppgifter för den här kursvarianten.</div>`}</div>
+
+      <aside class="side">
+        <div class="card rankcard">
+          <div class="rankrow">
+            <div class="ringwrap">
+              ${ring(lp.pct,74,6,"url(#goldgrad)")}
+              <svg width="0" height="0"><defs><linearGradient id="goldgrad" x1="0" y1="1" x2="1" y2="0">
+                <stop offset="0%" stop-color="#c79a3c"/><stop offset="100%" stop-color="#f0d296"/>
+              </linearGradient></defs></svg>
+              <div class="num">${lp.level}<small>nivå</small></div>
+            </div>
+            <div>
+              <div class="rankname">${esc(rank.name)}</div>
+              <div class="rankmeta">${profile.xp} XP</div>
             </div>
           </div>
+          <div class="rankbar"><i data-w="${Math.round(lp.pct*100)}%"></i></div>
+          <div class="rankfoot">
+            <span>${lp.into} / ${lp.need} XP</span>
+            <span>${nxt?esc(nxt.name):"Högsta rang"}</span>
+          </div>
+          <div class="tiles">
+            <div class="tile"><span>Idag</span><strong>${done} / ${goal}</strong></div>
+            <div class="tile"><span>Dagar i rad</span><strong>${st}</strong></div>
+          </div>
         </div>
 
-        <div class="section-head"><h2>Områden</h2><span>${areas.length} områden</span></div>
-        <div class="panel panel-pad areas">
-          <div class="area-grid">
-          ${areas.slice(0,12).map(a=>{
-            const m=mastery(stats.cp.areas,a.key);
-            return `<button class="area-card" onclick="startArea('${esc(a.key)}')">
-              <strong>${esc(a.name)}</strong>
-              <small>${a.count} uppgifter · ${a.families.size||0} familjer</small>
-              <div class="area-meter"><i style="width:${Math.round(m*100)}%"></i></div>
-            </button>`;
-          }).join("")}
+        <div class="card pad">
+          <div class="sec"><h2>Bragder</h2><button class="btn quiet sm" onclick="showProgress()">Alla</button></div>
+          <div class="badgestrip">
+            ${BADGES.slice(0,8).map(b=>{
+              const s=badgeState(b);
+              return `<div class="medal ${s.on?'on':''}" title="${esc(b.name)} — ${esc(b.desc)}">
+                ${b.icon}${s.on?"":`<span class="frac">${s.cur}/${b.max}</span>`}
+              </div>`;
+            }).join("")}
           </div>
-          ${areas.length>12?`<div style="margin-top:12px"><button class="ghost" onclick="showAreaPicker()">Visa alla områden</button></div>`:""}
-        </div>
-      </div>
-
-      <aside>
-        <div class="panel panel-pad">
-          <div class="stats">
-            <div class="stat"><span>Träningsnivå</span><strong>${stats.level}</strong></div>
-            <div class="stat"><span>XP</span><strong>${stats.xp}</strong></div>
-            <div class="stat"><span>Uppgifter</span><strong>${stats.attempts}</strong></div>
-            <div class="stat"><span>Rätt</span><strong>${stats.accuracy}%</strong></div>
-          </div>
-          <div class="progress"><i style="width:${Math.min(100,Math.round(stats.xp/stats.next*100))}%"></i></div>
         </div>
 
-        <div class="panel panel-pad feedback-mini" style="margin-top:14px">
-          <h3>Träna mer på</h3>
-          <div class="mini-list">
-          ${weak.map(x=>`<button class="mini-row" onclick="startArea('${esc(x.key)}')">
-            <span class="dot weak"></span><span>${esc(x.name)}</span><span class="score">${Math.round(x.m*100)}%</span>
-          </button>`).join("") || `<div class="empty">Ingen träningsdata ännu.</div>`}
+        <div class="card pad">
+          <div class="sec"><h2>Träna mer på</h2></div>
+          <div class="rowlist">
+            ${weak.length?weak.map(x=>`<button class="row" onclick="startArea('${esc(x.key)}')">
+              <span class="dot warn"></span><span class="name">${esc(x.name)}</span><span class="val">${Math.round(x.m*100)}%</span>
+            </button>`).join(""):`<div class="empty">Träna några uppgifter så bygger jag din profil.</div>`}
           </div>
-          <button class="softbtn" style="margin-top:12px;width:100%" onclick="showFeedback()">Öppna min feedback</button>
+          <button class="btn soft wide sm" style="margin-top:10px" onclick="showProgress()">Min utveckling</button>
         </div>
       </aside>
-    </section>
+    </div>
+
+    <div class="coach">
+      <div class="avatar" aria-hidden="true">◎</div>
+      <div class="body">
+        <div class="lbl">Din tränare</div>
+        <div class="msg">${advice.msg}</div>
+      </div>
+      <div class="act">
+        <button class="btn primary" onclick="${advice.act}">${advice.btn} <span aria-hidden="true">→</span></button>
+        <button class="btn" onclick="showAreaPicker()">Punktträna</button>
+      </div>
+    </div>
   </main>`;
+  afterRender();
 }
+
+/* ==========================================================
+   OMRÅDESVÄLJARE (punktträning på familjenivå)
+   ========================================================== */
 
 function showAreaPicker(){
   state.view="picker";
   const areas=getAreas();
   const grouped={};
   areas.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
-  app.innerHTML=topbar(true)+`<main class="shell picker">
-    <div class="course-head">
-      <button class="breadcrumb" onclick="renderDashboard()">← Tillbaka</button>
-      <div class="course-title"><div class="mini">Fokusträning</div><h1>Vad vill du träna?</h1>
-      <p>Välj område. Om uppgifterna har familjetaggar kan du punktträna ännu mer specifikt.</p></div>
+  app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
+    <div class="chead">
+      <div class="t">
+        <button class="crumb" onclick="renderDashboard()"><span aria-hidden="true">←</span> Tillbaka</button>
+        <h1>Punktträna</h1>
+        <p>Välj område, eller en enskild uppgiftstyp för smalare träning.</p>
+      </div>
     </div>
     ${Object.keys(grouped).sort((a,b)=>(+a||99)-(+b||99)).map(kap=>`
       <section class="chapter">
-        <div class="chapter-title">${esc(chapterName(kap))}</div>
-        <div class="panel panel-pad">
-          <div class="area-grid">
-            ${grouped[kap].map(a=>`<div class="area-card" style="cursor:default">
+        <div class="chapter-label">${esc(chapterName(kap))}</div>
+        <div class="area-grid stagger" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">
+          ${grouped[kap].map(a=>{
+            const s=areaStatus(a.key);
+            return `<div class="area" style="cursor:default">
               <button style="all:unset;cursor:pointer;display:block;width:100%" onclick="startArea('${esc(a.key)}')">
-                <strong>${esc(a.name)}</strong><small>${a.count} uppgifter</small>
+                <strong>${esc(a.name)}</strong>
               </button>
-              ${a.families.size?`<div class="family-row">${[...a.families].slice(0,12).map(f=>`<button class="family-chip" onclick="startFamily('${esc(a.key)}','${esc(f)}')">${esc(familyName(f))}</button>`).join("")}</div>`:""}
-            </div>`).join("")}
-          </div>
+              ${a.families.size?`<div style="display:flex;gap:5px;flex-wrap:wrap">
+                ${[...a.families].slice(0,14).map(f=>`<button class="tag" style="cursor:pointer"
+                  onclick="startFamily('${esc(a.key)}','${esc(f)}')">${esc(familyName(f))}</button>`).join("")}
+              </div>`:""}
+              <span class="foot">
+                <span class="meter ${s.mcls}"><i data-w="${Math.round(s.m*100)}%"></i></span>
+                <span class="state ${s.cls}">${s.label}</span>
+              </span>
+            </div>`;
+          }).join("")}
         </div>
       </section>`).join("")}
   </main>`;
+  afterRender();
 }
+
+/* ==========================================================
+   URVAL OCH PASS
+   ========================================================== */
 
 function difficulty(t){
   const n=String(t.niva||"E").toUpperCase();
@@ -740,18 +1142,20 @@ function chooseTask(){
   return top[Math.floor(Math.random()*top.length)].t;
 }
 
+function beginSession(){
+  state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
+  state.sessionTarget=profile.goal||8;
+}
 function startAdaptive(){
-  state.focusArea=null;state.focusFamily=null;state.sessionDone=0;state.lastIds=[];
-  nextTask();
+  state.focusArea=null;state.focusFamily=null;beginSession();nextTask();
 }
 function startArea(area){
-  state.focusArea=area;state.focusFamily=null;state.sessionDone=0;state.lastIds=[];
-  nextTask();
+  state.focusArea=area;state.focusFamily=null;beginSession();nextTask();
 }
 function startFamily(area,family){
-  state.focusArea=area;state.focusFamily=family;state.sessionDone=0;state.lastIds=[];
-  nextTask();
+  state.focusArea=area;state.focusFamily=family;beginSession();nextTask();
 }
+function continueSession(){ beginSession(); nextTask(); }
 function nextTask(){
   const t=chooseTask();
   if(!t){toast("Inga uppgifter hittades.");return;}
@@ -760,7 +1164,11 @@ function nextTask(){
   if(state.lastIds.length>12) state.lastIds.shift();
   renderTraining();
 }
-
+function sessionLabel(){
+  if(state.focusFamily) return familyName(state.focusFamily);
+  if(state.focusArea) return areaName(state.focusArea);
+  return "Adaptivt pass";
+}
 
 /* ==========================================================
    SÄKER FACITFALLBACK
@@ -1231,6 +1639,80 @@ function oneAnswerCorrect(user,expected,t){
   return false;
 }
 
+/* ==========================================================
+   TRÄNINGSVY
+   ========================================================== */
+
+function renderTraining(){
+  state.view="training";
+  const t=state.currentTask;
+  if(!t) return renderDashboard();
+  const family=Array.isArray(t.familj)?t.familj.join(" · "):t.familj;
+  const expectedInfo=expectedAnswersForTask(t);
+  const canAuto=expectedInfo.auto;
+  const answers=expectedInfo.answers;
+  const inferredParts=inferAnswerCount(t);
+  const inputCount=answers.length || inferredParts || 1;
+
+  const meta=[
+    `<span class="tag lv-${esc(t.niva||"E")}">${esc(t.niva||"E")}-nivå</span>`,
+    `<span class="tag">${esc(areaName(t.omr))}</span>`,
+    family?`<span class="tag">${esc(familyName(family))}</span>`:"",
+    t.formaga?`<span class="tag">${esc(abilityText(t.formaga))}</span>`:"",
+    t.miniräknare?`<span class="tag">Miniräknare</span>`:"",
+    t.geogebra?`<span class="tag">GeoGebra</span>`:""
+  ].join("");
+
+  const isLongAnswer=["resonemang","text"].includes(String(t.svarstyp||"").toLowerCase());
+  const fieldHtml=Array.from({length:inputCount},(_,i)=>`
+    <div class="aline">
+      <label>${inputCount>1?String.fromCharCode(97+i)+")":""}</label>
+      ${isLongAnswer
+        ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"></textarea>`
+        : `<input id="ans-${i}" autocomplete="off" inputmode="text" placeholder="${inputCount>1?'Svar '+String.fromCharCode(97+i):'Ditt svar'}" onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">`
+      }
+    </div>`).join("");
+
+  const dots=Array.from({length:state.sessionTarget},(_,i)=>
+    `<i class="${i<state.sessionDone?'done':(i===state.sessionDone?'now':'')}"></i>`).join("");
+
+  app.innerHTML=`
+    <div class="tshell view">
+      <div class="ttop">
+        <button class="crumb" onclick="renderDashboard()"><span aria-hidden="true">←</span> Avsluta</button>
+        <div class="spacer"></div>
+        <span class="tag" style="background:transparent;border-color:var(--hair)">${esc(sessionLabel())}</span>
+        <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
+        <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
+      </div>
+      <article class="task">
+        <div class="tmeta">${meta}<span class="tid">#${esc(t.id)}</span></div>
+        <div class="tbody">${t.t||""}</div>
+        <div class="azone" id="answer-zone">
+          <h3>Ditt svar</h3>
+          <div class="ainputs">${fieldHtml}</div>
+          <div class="aacts">
+            ${canAuto
+              ? `<button class="btn primary" onclick="checkAnswer()">Kontrollera</button>
+                 <button class="btn" onclick="showSolution()">Visa lösning</button>`
+              : `<button class="btn primary" onclick="showSolution()">Visa facit och jämför</button>`}
+          </div>
+          <div class="hint">${canAuto
+            ? `Likvärdiga uttryck godkänns. Både decimalkomma och decimalpunkt fungerar.${expectedInfo.source==="facit"?" Slutsvaret är hämtat ur uppgiftens facit.":""}`
+            : `Den här uppgiften bedömer du själv efter att du sett facit.`}</div>
+          <div id="answer-result"></div>
+          <div id="solution-holder"></div>
+        </div>
+      </article>
+    </div>`;
+  afterRender();
+  setTimeout(()=>document.getElementById("ans-0")?.focus(),60);
+}
+
+/* ==========================================================
+   RÄTTNING OCH BELÖNING
+   ========================================================== */
+
 function checkAnswer(){
   if(state.answered) return;
   const t=state.currentTask;
@@ -1245,78 +1727,249 @@ function checkAnswer(){
   const flags=expected.map((e,i)=>oneAnswerCorrect(users[i],e,t));
   finishAttempt(flags.every(Boolean));
 }
+
+function xpFor(niva,correct,run){
+  if(!correct) return 2;
+  const n=String(niva||"E").toUpperCase();
+  let xp = n==="A"?28:n==="C"?18:10;
+  if(run>=3) xp+=4;   // seriebonus
+  if(run>=6) xp+=4;
+  return xp;
+}
+
 function finishAttempt(correct){
   if(state.answered) return;
-  state.answered=true;state.sessionDone++;
-  profile.attempts++; if(correct) profile.correct++;
-  const xp=correct ? (String(state.currentTask.niva).toUpperCase()==="A"?28:String(state.currentTask.niva).toUpperCase()==="C"?18:10) : 2;
-  profile.xp += xp;
+  const t=state.currentTask;
+  state.answered=true; state.sessionDone++;
+
+  const levelBefore=levelFromXP(profile.xp);
+  const goal=profile.goal||8;
+  const beforeToday=todayCount();
+
+  touchDay();
+  profile.attempts++;
+  if(correct){
+    profile.correct++;
+    profile.run=(profile.run||0)+1;
+    profile.bestRun=Math.max(profile.bestRun||0,profile.run);
+    if(String(t.niva||"").toUpperCase()==="A") profile.aCorrect=(profile.aCorrect||0)+1;
+  }else{
+    profile.run=0;
+  }
+  const xp=xpFor(t.niva,correct,profile.run);
+  profile.xp+=xp;
+  profile.today=(profile.today||0)+1;
+  state.sessionXp+=xp;
+  if(correct) state.sessionCorrect++;
+
   const cp=ensureCourseProfile();
-  updateMastery(cp.areas,state.currentTask.omr,correct);
-  const fs=Array.isArray(state.currentTask.familj)?state.currentTask.familj:[state.currentTask.familj].filter(Boolean);
+  updateMastery(cp.areas,t.omr,correct);
+  const fs=Array.isArray(t.familj)?t.familj:[t.familj].filter(Boolean);
   fs.forEach(f=>updateMastery(cp.families,f,correct));
-  cp.history.push({id:state.currentTask.id,ok:correct,at:Date.now(),area:state.currentTask.omr,family:state.currentTask.familj});
+  cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj});
   cp.history=cp.history.slice(-300);
+
+  const levelAfter=levelFromXP(profile.xp);
+  const rankBefore=rankFor(levelBefore), rankAfter=rankFor(levelAfter);
   saveProfile();
 
+  if(levelAfter>levelBefore){
+    if(rankAfter.name!==rankBefore.name) cheer(rankAfter.sym,"Ny rang",rankAfter.name);
+    else cheer("▲","Ny nivå","Nivå "+levelAfter);
+  }
+  if(beforeToday<goal && todayCount()>=goal) cheer("◈","Dagens mål","Klart för idag");
+  checkBadges();
+  saveProfile();
+
+  const last=state.sessionDone>=state.sessionTarget;
+  const runTxt = correct && profile.run>=3 ? `<span class="tag" style="margin-left:6px">${profile.run} i rad</span>` : "";
   const box=document.getElementById("answer-result");
-  if(box) box.innerHTML=`<div class="resultbox ${correct?'good':'bad'}">
-    <strong>${correct?'Rätt!':'Inte riktigt.'}</strong> ${correct?`+${xp} XP`:"Titta på lösningen och försök förstå vilket steg som blev fel."}
-  </div><div class="answer-actions">
-    ${!correct?`<button class="ghost" onclick="showSolution()">Visa lösning</button>`:""}
-    <button class="primary" onclick="nextTask()">Nästa uppgift →</button>
-  </div>`;
+  if(box){
+    box.innerHTML=`
+      <div class="result ${correct?'good':'bad'}">
+        <div class="txt">
+          <strong>${correct?"Rätt!":"Inte riktigt."}${runTxt}</strong>
+          <small>${correct?"Bra jobbat — nästa uppgift anpassas efter det här.":"Titta på lösningen och hitta steget som gick fel."}</small>
+        </div>
+        <span class="xpchip">+${xp} XP</span>
+      </div>
+      <div class="aacts">
+        ${!correct?`<button class="btn" onclick="showSolution()">Visa lösning</button>`:""}
+        <button class="btn primary" id="nextbtn" onclick="${last?'renderSessionDone()':'nextTask()'}">
+          ${last?"Se passrapport":"Nästa uppgift"} <span aria-hidden="true">→</span>
+        </button>
+      </div>`;
+    setTimeout(()=>document.getElementById("nextbtn")?.focus(),80);
+  }
 }
+
 function showSolution(){
   const t=state.currentTask;
   state.solutionShown=true;
   const holder=document.getElementById("solution-holder");
   if(holder){
-    holder.innerHTML=`<div class="solution"><strong>Lösning</strong><div style="margin-top:10px">${t.s||"Facit saknas."}</div></div>
-      ${!state.answered?`<div class="answer-actions">
-        <button class="softbtn" onclick="selfGrade(true)">Jag hade rätt</button>
-        <button class="ghost" onclick="selfGrade(false)">Jag behöver träna mer</button>
+    holder.innerHTML=`<div class="sol"><div class="lbl">Lösning</div><div style="margin-top:10px">${t.s||"Facit saknas."}</div></div>
+      ${!state.answered?`<div class="aacts">
+        <button class="btn soft" onclick="selfGrade(true)">Jag hade rätt</button>
+        <button class="btn" onclick="selfGrade(false)">Jag behöver träna mer</button>
       </div>`:""}`;
     renderMath(holder);
   }
 }
 function selfGrade(ok){ if(!state.answered) finishAttempt(ok); }
 
-function showFeedback(){
-  if(!state.course){return renderHome();}
-  state.view="feedback";
-  const strong=strongAreas(5),weak=weakAreas(5),families=weakFamilies(8),stats=courseStats();
-  app.innerHTML=topbar(true)+`<main class="shell feedback-page">
-    <div class="course-head">
-      <button class="breadcrumb" onclick="renderDashboard()">← Till kursen</button>
-      <div class="course-title"><div class="mini">${esc(COURSES[state.course].code)}</div><h1>Min feedback</h1>
-      <p>Profilen uppdateras efter varje tränad uppgift. Klicka på ett område eller en familj för att punktträna.</p></div>
+/* ==========================================================
+   PASSRAPPORT
+   ========================================================== */
+
+function renderSessionDone(){
+  state.view="summary";
+  const total=state.sessionDone||1;
+  const acc=Math.round(state.sessionCorrect/total*100);
+  const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
+  const st=currentStreak(), done=todayCount(), goal=profile.goal||8;
+  const toNext=Math.max(0,totalXpForLevel(lp.level+1)-profile.xp);
+
+  app.innerHTML=topbar()+`<main class="summary view">
+    <div class="ringwrap">
+      ${ring(state.sessionCorrect/total,132,9,"var(--acc)")}
+      <div class="num">${acc}<small>% rätt</small></div>
+    </div>
+    <h1>Passet är klart</h1>
+    <p>${acc>=80?"Starkt genomfört. Den nivån bär hela vägen till provet."
+        :acc>=50?"Bra jobbat. Just den här blandningen av rätt och fel är där inlärningen sitter."
+        :"Tuffa uppgifter idag — och det är precis så framsteg känns. Nästa pass blir bättre anpassat."}</p>
+
+    <div class="sumtiles">
+      <div class="card tile" style="background:var(--surface)"><span>Uppgifter</span><strong>${state.sessionCorrect} / ${total}</strong></div>
+      <div class="card tile" style="background:var(--surface)"><span>Intjänat</span><strong>+${state.sessionXp} XP</strong></div>
+      <div class="card tile" style="background:var(--surface)"><span>Idag</span><strong>${done} / ${goal}</strong></div>
     </div>
 
-    <div class="feedback-hero">
-      <section class="panel feedback-box">
-        <h2>Starkt just nu</h2><p>Områden där resultaten är stabilast.</p>
-        ${profile.attempts?strong.map(x=>`<button class="feedback-item" onclick="startArea('${esc(x.key)}')">
-          <span class="dot"></span><strong>${esc(x.name)}</strong><small>${Math.round(x.m*100)}%</small>
-        </button>`).join(""):`<div class="empty">Träna några uppgifter först så bygger Kunskapsgymmet din profil.</div>`}
-      </section>
-      <section class="panel feedback-box">
-        <h2>Träna mer på</h2><p>Områden som systemet prioriterar i kommande pass.</p>
-        ${weak.map(x=>`<button class="feedback-item" onclick="startArea('${esc(x.key)}')">
-          <span class="dot weak"></span><strong>${esc(x.name)}</strong><small>${Math.round(x.m*100)}%</small>
-        </button>`).join("")}
-      </section>
+    <div class="card pad" style="text-align:left">
+      <div class="rankrow">
+        <div class="ringwrap" style="width:58px;height:58px">
+          ${ring(lp.pct,58,5,"#c79a3c")}
+          <div class="num" style="font-size:16px">${lp.level}</div>
+        </div>
+        <div style="flex:1">
+          <div class="rankname">${esc(rank.name)}</div>
+          <div class="rankmeta">${nxt?`${toNext} XP till nivå ${lp.level+1} · ${esc(nxt.name)} vid nivå ${nxt.lvl}`:`${toNext} XP till nivå ${lp.level+1}`}</div>
+        </div>
+        ${st?`<span class="pill"><span class="flame">${st}</span> dagar i rad</span>`:""}
+      </div>
+      <div class="rankbar"><i data-w="${Math.round(lp.pct*100)}%"></i></div>
     </div>
 
-    <div class="section-head"><h2>Familjer att punktträna</h2><span>Mer specifik feedback</span></div>
-    <section class="panel feedback-box">
-      ${families.length?families.map(x=>`<button class="feedback-item" onclick="startFamily('${esc(x.area)}','${esc(x.family)}')">
-        <span class="dot weak"></span><strong>${esc(familyName(x.family))}</strong>
-        <small>${esc(areaName(x.area))} · ${Math.round(x.m*100)}%</small>
-      </button>`).join(""):`<div class="empty">Den här banken saknar familjetaggar eller så finns ännu ingen data.</div>`}
-    </section>
+    ${(()=>{const nb=nextBadge(); if(!nb) return "";
+      return `<div class="badge-row" style="margin-top:10px;background:var(--surface);border-color:var(--hair)">
+        <div class="medal">${nb.b.icon}</div>
+        <div class="txt">
+          <b>Nästa bragd: ${esc(nb.b.name)}</b>
+          <small>${esc(nb.b.desc)} · ${nb.s.cur} av ${nb.b.max}</small>
+          <div class="prog"><i data-w="${Math.round(nb.s.pct*100)}%"></i></div>
+        </div>
+      </div>`;})()}
+
+    <div class="aacts" style="justify-content:center;margin-top:22px">
+      <button class="btn primary" onclick="continueSession()">Fortsätt träna <span aria-hidden="true">→</span></button>
+      <button class="btn" onclick="renderDashboard()">Till kursen</button>
+      <button class="btn quiet" onclick="showProgress()">Min utveckling</button>
+    </div>
   </main>`;
+  afterRender();
 }
+
+/* ==========================================================
+   MIN UTVECKLING
+   ========================================================== */
+
+function showProgress(){
+  if(!state.course) return renderHome();
+  state.view="progress";
+  const strong=strongAreas(5), weak=weakAreas(5), families=weakFamilies(8);
+  const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
+  const acc=profile.attempts?Math.round(profile.correct/profile.attempts*100):0;
+  const st=currentStreak();
+
+  app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
+    <div class="chead">
+      <div class="t">
+        <button class="crumb" onclick="renderDashboard()"><span aria-hidden="true">←</span> Till kursen</button>
+        <h1>Min utveckling</h1>
+        <p>Profilen uppdateras efter varje tränad uppgift.</p>
+      </div>
+    </div>
+
+    <div class="card rankcard" style="margin-bottom:20px">
+      <div class="rankrow">
+        <div class="ringwrap">
+          ${ring(lp.pct,74,6,"#c79a3c")}
+          <div class="num">${lp.level}<small>nivå</small></div>
+        </div>
+        <div style="flex:1;min-width:180px">
+          <div class="rankname">${esc(rank.name)}</div>
+          <div class="rankmeta">${profile.xp} XP${nxt?` · nästa rang ${esc(nxt.name)} vid nivå ${nxt.lvl}`:""}</div>
+          <div class="rankbar"><i data-w="${Math.round(lp.pct*100)}%"></i></div>
+        </div>
+      </div>
+      <div class="tiles" style="grid-template-columns:repeat(4,1fr)">
+        <div class="tile"><span>Uppgifter</span><strong>${profile.attempts}</strong></div>
+        <div class="tile"><span>Rätt</span><strong>${acc}%</strong></div>
+        <div class="tile"><span>Dagar i rad</span><strong>${st}</strong></div>
+        <div class="tile"><span>Bästa serie</span><strong>${profile.bestRun||0}</strong></div>
+      </div>
+    </div>
+
+    <div class="sec"><h2>Bragder</h2><span class="rankmeta">${BADGES.filter(b=>badgeState(b).on).length} av ${BADGES.length}</span></div>
+    <div class="badgegrid stagger" style="margin-bottom:26px">
+      ${BADGES.map(b=>{
+        const s=badgeState(b);
+        return `<div class="badge-row">
+          <div class="medal ${s.on?'on':''}">${b.icon}</div>
+          <div class="txt">
+            <b>${esc(b.name)}</b>
+            <small>${esc(b.desc)}</small>
+            ${s.on?"":`<div class="prog"><i data-w="${Math.round(s.pct*100)}%"></i></div>`}
+          </div>
+        </div>`;
+      }).join("")}
+    </div>
+
+    <div class="dash" style="grid-template-columns:1fr 1fr">
+      <div class="card pad">
+        <div class="sec"><h2>Starkt just nu</h2></div>
+        <div class="rowlist">
+          ${strong.length?strong.map(x=>`<button class="row" onclick="startArea('${esc(x.key)}')">
+            <span class="dot good"></span><span class="name">${esc(x.name)}</span><span class="val">${Math.round(x.m*100)}%</span>
+          </button>`).join(""):`<div class="empty">Träna några uppgifter först.</div>`}
+        </div>
+      </div>
+      <div class="card pad">
+        <div class="sec"><h2>Prioriteras framåt</h2></div>
+        <div class="rowlist">
+          ${weak.length?weak.map(x=>`<button class="row" onclick="startArea('${esc(x.key)}')">
+            <span class="dot warn"></span><span class="name">${esc(x.name)}</span><span class="val">${Math.round(x.m*100)}%</span>
+          </button>`).join(""):`<div class="empty">Ingen data ännu.</div>`}
+        </div>
+      </div>
+    </div>
+
+    <div class="sec" style="margin-top:22px"><h2>Uppgiftstyper att punktträna</h2></div>
+    <div class="card pad">
+      <div class="rowlist">
+        ${families.length?families.map(x=>`<button class="row" onclick="startFamily('${esc(x.area)}','${esc(x.family)}')">
+          <span class="dot warn"></span><span class="name">${esc(familyName(x.family))}</span>
+          <span class="val">${esc(areaName(x.area))} · ${Math.round(x.m*100)}%</span>
+        </button>`).join(""):`<div class="empty">Den här banken saknar familjetaggar, eller så finns ingen data ännu.</div>`}
+      </div>
+    </div>
+  </main>`;
+  afterRender();
+}
+
+/* Bakåtkompatibelt namn. */
+function showFeedback(){ showProgress(); }
 
 function goHome(){
   state.course=null;state.data=null;state.track=null;state.currentTask=null;
@@ -1328,7 +1981,8 @@ function render(){
   if(state.view==="dashboard"&&state.course) renderDashboard();
   else if(state.view==="picker"&&state.course) showAreaPicker();
   else if(state.view==="training"&&state.currentTask) renderTraining();
-  else if(state.view==="feedback"&&state.course) showFeedback();
+  else if(state.view==="progress"&&state.course) showProgress();
+  else if(state.view==="summary"&&state.course) renderSessionDone();
   else renderHome();
 }
 

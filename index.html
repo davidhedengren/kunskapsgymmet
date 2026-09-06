@@ -117,6 +117,9 @@
   --read:"Atkinson Hyperlegible",system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,monospace;
   --ease:cubic-bezier(.2,.8,.2,1);
+  /* Märkesblå för "gymmet". Ikonens ljusblå är för ljus mot vitt,
+     så ljusa läget använder en djupare ton av samma blå. */
+  --brand:#1f8ad4;
 }
 /* Bokens färg styr ljusa läget: a = rött, b = grönt, c = blått,
    Fysik 1 = turkos, Fysik 2 = blålila. */
@@ -173,6 +176,7 @@ html[data-theme="dark"]{
   --badSoft:rgba(224,137,140,.13);
   --e1:0 1px 2px rgba(0,0,0,.30),0 12px 30px -14px rgba(0,0,0,.55);
   --e2:0 2px 6px rgba(0,0,0,.35),0 34px 80px -28px rgba(0,0,0,.75);
+  --brand:#7acbfc;
 }
 *{box-sizing:border-box}
 html{min-height:100%;background:var(--bg)}
@@ -302,6 +306,7 @@ h1,h2,h3{letter-spacing:-.04em;margin:0}
   animation:pop .7s var(--ease) both;
 }
 .gate h1{font-size:clamp(30px,7vw,40px);letter-spacing:-.05em;line-height:1.05}
+.gym{color:var(--brand)}
 .gate .lead{
   margin:14px 0 0;font-family:var(--read);font-size:16px;line-height:1.55;color:var(--ink2);letter-spacing:0;
 }
@@ -1477,7 +1482,7 @@ function topbar(){
   return `<header class="topbar"><div class="shell inner">
     <button class="brand" onclick="goHome()" aria-label="Till startsidan">
       <img class="brandmark" src="favicon-64x64.png" alt="" width="32" height="32" decoding="async">
-      <span>Kunskapsgymmet</span>
+      <span>Kunskaps<span class="gym">gymmet</span></span>
     </button>
     <div class="spacer"></div>
     ${badge}
@@ -1546,7 +1551,7 @@ function renderGate(){
     </div>
     <div class="gate-card">
       <img class="gate-mark" src="favicon-192x192.png" alt="" width="88" height="88" decoding="async">
-      <h1>Kunskapsgymmet</h1>
+      <h1>Kunskaps<span class="gym">gymmet</span></h1>
       <p class="lead">Träna matematik och fysik med uppgifter som anpassar sig efter hur det går för dig.</p>
 
       <div class="gate-panel">

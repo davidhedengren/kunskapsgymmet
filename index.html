@@ -519,7 +519,26 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .katex-display{overflow-x:auto;overflow-y:hidden;padding:4px 2px;margin:1em 0}
 .azone{padding:20px;border-top:1px solid var(--hair);background:var(--surface2)}
 .azone h3{font-size:12px;font-family:var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);margin-bottom:12px;font-weight:600}
-.ainputs{display:grid;gap:8px}
+.ainputs{display:grid;gap:10px}
+.apart{display:grid;gap:5px;transition:opacity .3s ease}
+.apart.upcoming{opacity:.38}
+.apart.upcoming input,.apart.upcoming textarea{pointer-events:none;background:var(--surface2)}
+.apart .mark{width:20px;flex:none;text-align:center;font-size:16px;font-weight:700;opacity:0;transition:opacity .3s ease}
+.apart.ok .mark{opacity:1;color:var(--good)}
+.apart.no .mark{opacity:1;color:var(--bad)}
+.apart.ok input{border-color:rgba(15,122,89,.5);background:var(--goodSoft)}
+.apart.no input{border-color:rgba(176,74,77,.5);background:var(--badSoft)}
+.apart.ok input,.apart.no input{pointer-events:none}
+.corr{margin-left:30px;font-family:var(--read);font-size:13px;color:var(--ink3);letter-spacing:0}
+.corr b{color:var(--ink2);font-weight:700}
+.partline{
+  font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);
+  font-weight:600;margin-bottom:11px;display:flex;align-items:center;gap:8px;
+}
+.partline i{flex:none;width:6px;height:6px;border-radius:50%;background:var(--hair2)}
+.partline i.done{background:var(--good)}
+.partline i.miss{background:var(--bad)}
+.partline i.now{background:var(--acc);box-shadow:0 0 0 3px var(--accSoft)}
 .aline{display:flex;align-items:center;gap:10px}
 .aline label{width:20px;color:var(--ink3);font-family:var(--mono);font-size:12px}
 .aline input,.aline textarea{
@@ -574,14 +593,39 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .toast.show{opacity:1;transform:translate(-50%,0)}
 .cheer{
-  position:fixed;left:50%;top:80px;transform:translate(-50%,-14px) scale(.94);opacity:0;pointer-events:none;
-  z-index:70;display:flex;align-items:center;gap:14px;padding:14px 20px 14px 14px;border-radius:20px;
-  background:var(--surface);border:1px solid var(--hair);box-shadow:var(--e2);transition:.4s var(--ease);
+  position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:20px;
+  background:rgba(6,18,30,.46);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
+  opacity:0;pointer-events:none;transition:opacity .4s var(--ease);
 }
-.cheer.show{opacity:1;transform:translate(-50%,0) scale(1)}
-.cheer .medal{width:44px;aspect-ratio:1;font-size:19px}
-.cheer b{display:block;font-size:14.5px;letter-spacing:-.02em}
-.cheer small{display:block;color:var(--ink3);font-size:12px;margin-top:2px}
+.cheer.show{opacity:1;pointer-events:auto}
+.cheer-card{
+  width:min(370px,100%);padding:38px 30px 26px;border-radius:30px;text-align:center;
+  background:linear-gradient(180deg,var(--surface),var(--surface2));
+  border:1px solid var(--hair);box-shadow:var(--e2),0 0 90px -30px rgba(200,155,60,.8);
+  transform:scale(.88) translateY(14px);opacity:0;transition:.5s var(--ease);
+}
+.cheer.show .cheer-card{transform:none;opacity:1}
+.cheer-halo{position:relative;width:104px;height:104px;margin:0 auto 22px;display:grid;place-items:center}
+.cheer-halo:before,.cheer-halo:after{
+  content:"";position:absolute;inset:8px;border-radius:50%;border:2px solid var(--gold2);opacity:0;
+}
+.cheer.show .cheer-halo:before{animation:halo 2.6s var(--ease) .25s 2}
+.cheer.show .cheer-halo:after{animation:halo 2.6s var(--ease) .95s 2}
+@keyframes halo{0%{transform:scale(.9);opacity:.6}100%{transform:scale(2);opacity:0}}
+.cheer-medal{
+  position:relative;width:88px;height:88px;border-radius:50%;display:grid;place-items:center;font-size:36px;
+  color:#3d2c06;background:linear-gradient(155deg,#faeac4,#e2bb72 42%,#b98c2e);
+  box-shadow:0 16px 34px -14px rgba(170,125,35,.95),inset 0 2px 0 rgba(255,255,255,.75),inset 0 -3px 8px rgba(120,85,15,.35);
+}
+.cheer-medal:after{
+  content:"";position:absolute;inset:9px;border-radius:50%;border:1.5px solid rgba(255,255,255,.45);
+}
+.cheer-label{
+  font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;
+}
+.cheer-card h2{margin:9px 0 0;font-size:25px;letter-spacing:-.045em}
+.cheer-card p{margin:8px 0 0;color:var(--ink2);font-family:var(--read);font-size:14.5px;letter-spacing:0}
+.cheer-card .btn{margin-top:22px;width:100%}
 
 @media(max-width:960px){
   .dash{grid-template-columns:1fr}
@@ -605,7 +649,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 <body>
 <div id="app"></div>
 <div id="toast" class="toast"></div>
-<div id="cheer" class="cheer"></div>
+<div id="cheer" class="cheer" role="dialog" aria-live="polite"></div>
 
 <script>
 /* ==========================================================
@@ -669,7 +713,7 @@ const state={
   course:null, track:null, data:null, view:"home",
   focusArea:null, focusFamily:null,
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0,
-  openChapters:null,
+  openChapters:null, partResults:[], partIndex:0, noXp:false,
   lastIds:[], solutionShown:false, answered:false
 };
 
@@ -791,7 +835,7 @@ function checkBadges(){
     if(profile.badges[b.id]) continue;
     if((b.cur()||0)>=b.max){ profile.badges[b.id]=Date.now(); gained.push(b); }
   }
-  gained.forEach(b=>cheer(b.icon,"Bragd upplåst",b.name));
+  gained.forEach(b=>cheer(b.icon,"Ny medalj",b.name,b.desc));
   return gained;
 }
 
@@ -854,21 +898,33 @@ function toast(msg){
   toast._t=setTimeout(()=>el.classList.remove("show"),1800);
 }
 const cheerQueue=[];
-function cheer(icon,label,title){
-  cheerQueue.push({icon,label,title});
+function cheer(icon,label,title,desc){
+  cheerQueue.push({icon,label,title,desc:desc||""});
   if(cheerQueue.length===1) pumpCheer();
 }
 function pumpCheer(){
   const el=document.getElementById("cheer");
   const c=cheerQueue[0];
-  if(!c){ return; }
-  el.innerHTML=`<div class="medal on">${c.icon}</div><div><b>${esc(c.title)}</b><small>${esc(c.label)}</small></div>`;
-  el.classList.add("show");
-  setTimeout(()=>{
-    el.classList.remove("show");
-    cheerQueue.shift();
-    if(cheerQueue.length) setTimeout(pumpCheer,420);
-  },2600);
+  if(!c) return;
+  el.innerHTML=`<div class="cheer-card">
+      <div class="cheer-halo"><div class="cheer-medal">${c.icon}</div></div>
+      <div class="cheer-label">${esc(c.label)}</div>
+      <h2>${esc(c.title)}</h2>
+      ${c.desc?`<p>${esc(c.desc)}</p>`:""}
+      <button class="btn primary" onclick="dismissCheer()">Fortsätt</button>
+    </div>`;
+  el.onclick=e=>{ if(e.target===el) dismissCheer(); };
+  requestAnimationFrame(()=>el.classList.add("show"));
+  clearTimeout(pumpCheer._t);
+  pumpCheer._t=setTimeout(dismissCheer,6000);
+}
+function dismissCheer(){
+  const el=document.getElementById("cheer");
+  if(!el.classList.contains("show")) return;
+  clearTimeout(pumpCheer._t);
+  el.classList.remove("show");
+  cheerQueue.shift();
+  setTimeout(()=>{ if(cheerQueue.length) pumpCheer(); else el.innerHTML=""; },450);
 }
 
 function ring(pct,size,stroke,color){
@@ -1278,7 +1334,7 @@ function renderDashboard(){
         </div>
 
         <div class="card pad">
-          <div class="sec"><h2>Bragder</h2><button class="btn quiet sm" onclick="showProgress()">Alla</button></div>
+          <div class="sec"><h2>Medaljer</h2><button class="btn quiet sm" onclick="showProgress()">Alla</button></div>
           <div class="badgestrip">
             ${BADGES.slice(0,8).map(b=>{
               const s=badgeState(b);
@@ -1462,6 +1518,7 @@ function nextTask(){
   const t=chooseTask();
   if(!t){toast("Inga uppgifter hittades.");return;}
   state.currentTask=t;state.answered=false;state.solutionShown=false;
+  state.partResults=[];state.partIndex=0;state.noXp=false;
   state.lastIds.push(t.id);
   if(state.lastIds.length>12) state.lastIds.shift();
   renderTraining();
@@ -1977,14 +2034,25 @@ function renderTraining(){
   const meta=toolIcons(t);
 
   const isLongAnswer=["resonemang","text"].includes(String(t.svarstyp||"").toLowerCase());
+  // Med automatisk rättning besvaras deluppgifterna en i taget.
+  const stepwise=canAuto && inputCount>1;
   const fieldHtml=Array.from({length:inputCount},(_,i)=>`
-    <div class="aline">
-      <label>${inputCount>1?String.fromCharCode(97+i)+")":""}</label>
-      ${isLongAnswer
-        ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"></textarea>`
-        : `<input id="ans-${i}" autocomplete="off" inputmode="text" placeholder="${inputCount>1?'Svar '+String.fromCharCode(97+i):'Ditt svar'}" onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">`
-      }
+    <div class="apart${stepwise&&i>0?" upcoming":""}" id="part-${i}">
+      <div class="aline">
+        <label>${inputCount>1?String.fromCharCode(97+i)+")":""}</label>
+        ${isLongAnswer
+          ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"${stepwise&&i>0?" disabled":""}></textarea>`
+          : `<input id="ans-${i}" autocomplete="off" inputmode="text" placeholder="${inputCount>1?'Svar '+String.fromCharCode(97+i):'Ditt svar'}"${stepwise&&i>0?" disabled":""} onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">`
+        }
+        ${canAuto?`<span class="mark" aria-hidden="true"></span>`:""}
+      </div>
+      <div class="corr" id="corr-${i}" hidden></div>
     </div>`).join("");
+
+  const partLine=stepwise?`<div class="partline" id="partline">
+      ${Array.from({length:inputCount},(_,i)=>`<i class="${i===0?'now':''}"></i>`).join("")}
+      <span id="partlabel">Deluppgift a av ${inputCount}</span>
+    </div>`:"";
 
   const dots=Array.from({length:state.sessionTarget},(_,i)=>
     `<i class="${i<state.sessionDone?'done':(i===state.sessionDone?'now':'')}"></i>`).join("");
@@ -2004,6 +2072,7 @@ function renderTraining(){
         <div class="azone" id="answer-zone">
           <div class="notice"><b aria-hidden="true">✎</b><span>Skriv ner fullständiga lösningar med papper och penna innan du skriver in svaren här.</span></div>
           <h3>Ditt svar</h3>
+          ${partLine}
           <div class="ainputs">${fieldHtml}</div>
           <div class="aacts">
             ${canAuto
@@ -2034,10 +2103,63 @@ function checkAnswer(){
     toast("Den här uppgiften behöver självbedömas.");
     return;
   }
-  const users=expected.map((_,i)=>document.getElementById("ans-"+i)?.value||"");
-  if(users.some(x=>!x.trim())){toast("Fyll i alla svar först.");return;}
-  const flags=expected.map((e,i)=>oneAnswerCorrect(users[i],e,t));
-  finishAttempt(flags.every(Boolean));
+  const i=state.partIndex;
+  const el=document.getElementById("ans-"+i);
+  const svar=el ? el.value : "";
+  if(!svar.trim()){ toast("Skriv ett svar först."); return; }
+
+  const ok=oneAnswerCorrect(svar,expected[i],t);
+  state.partResults[i]=ok;
+  markPart(i,ok,expected[i]);
+  state.partIndex++;
+
+  if(state.partIndex>=expected.length){
+    finishAttempt(state.partResults);
+  }else{
+    openPart(state.partIndex,expected.length);
+  }
+}
+
+/* Visar utfallet för en deluppgift och låser raden. */
+function markPart(i,ok,facit){
+  const row=document.getElementById("part-"+i);
+  if(!row) return;
+  row.classList.add(ok?"ok":"no");
+  const mark=row.querySelector(".mark");
+  if(mark) mark.textContent=ok?"✓":"✕";
+  const inp=document.getElementById("ans-"+i);
+  if(inp) inp.readOnly=true;
+  const dot=document.querySelectorAll("#partline i")[i];
+  if(dot) dot.className=ok?"done":"miss";
+  if(!ok){
+    const c=document.getElementById("corr-"+i);
+    if(c){ c.hidden=false; c.innerHTML=`Rätt svar: <b>${facit||"–"}</b>`; renderMath(c); }
+  }
+}
+
+/* Öppnar nästa deluppgift och flyttar fokus dit. */
+function openPart(i,total){
+  const row=document.getElementById("part-"+i);
+  if(row) row.classList.remove("upcoming");
+  const inp=document.getElementById("ans-"+i);
+  if(inp){ inp.disabled=false; setTimeout(()=>inp.focus(),40); }
+  const line=document.getElementById("partline");
+  if(line){
+    [...line.querySelectorAll("i")].forEach((d,n)=>{
+      d.className = n<i ? (state.partResults[n]?"done":"miss") : (n===i?"now":"");
+    });
+    const lbl=document.getElementById("partlabel");
+    if(lbl) lbl.textContent=`Deluppgift ${String.fromCharCode(97+i)} av ${total}`;
+  }
+}
+
+/* Avslutar uppgiften när eleven tagit lösningen. Deluppgifter som
+   inte hunnit besvaras räknas som obesvarade. */
+function giveUp(){
+  if(state.answered) return;
+  const info=expectedAnswersForTask(state.currentTask);
+  const n=Math.max(1,info.answers.length);
+  finishAttempt(Array.from({length:n},(_,i)=>state.partResults[i]===true));
 }
 
 function xpFor(niva,correct,run){
@@ -2049,9 +2171,13 @@ function xpFor(niva,correct,run){
   return xp;
 }
 
-function finishAttempt(correct){
+function finishAttempt(resultat){
   if(state.answered) return;
   const t=state.currentTask;
+  const delar=Array.isArray(resultat)?resultat.map(Boolean):[!!resultat];
+  const ratt=delar.filter(Boolean).length;
+  const andel=ratt/delar.length;
+  const correct=ratt===delar.length;
   state.answered=true; state.sessionDone++;
 
   const levelBefore=levelFromXP(profile.xp);
@@ -2068,16 +2194,23 @@ function finishAttempt(correct){
   }else{
     profile.run=0;
   }
-  const xp=xpFor(t.niva,correct,profile.run);
+  const bas=xpFor(t.niva,true,profile.run);
+  let xp = correct ? bas : Math.max(2,Math.round(bas*andel));
+  if(state.noXp) xp=0;                       // lösningen var redan visad
   profile.xp+=xp;
   profile.today=(profile.today||0)+1;
   state.sessionXp+=xp;
   if(correct) state.sessionCorrect++;
 
+  // Varje deluppgift är ett eget kunskapsbevis. Har lösningen visats
+  // räknas uppgiften inte som behärskad, oavsett vad som skrivits in.
   const cp=ensureCourseProfile();
-  updateMastery(cp.areas,t.omr,correct);
   const fs=Array.isArray(t.familj)?t.familj:[t.familj].filter(Boolean);
-  fs.forEach(f=>updateMastery(cp.families,f,correct));
+  delar.forEach(d=>{
+    const v=state.noXp?false:d;
+    updateMastery(cp.areas,t.omr,v);
+    fs.forEach(f=>updateMastery(cp.families,f,v));
+  });
   cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj});
   cp.history=cp.history.slice(-300);
 
@@ -2086,24 +2219,33 @@ function finishAttempt(correct){
   saveProfile();
 
   if(levelAfter>levelBefore){
-    if(rankAfter.name!==rankBefore.name) cheer(rankAfter.sym,"Ny rang",rankAfter.name);
-    else cheer("▲","Ny nivå","Nivå "+levelAfter);
+    if(rankAfter.name!==rankBefore.name) cheer(rankAfter.sym,"Ny rang",rankAfter.name,"Du har klättrat ett steg på stegen.");
+    else cheer("▲","Ny nivå","Nivå "+levelAfter,"Din träning ger resultat.");
   }
-  if(beforeToday<goal && todayCount()>=goal) cheer("◈","Dagens mål","Klart för idag");
+  if(beforeToday<goal && todayCount()>=goal) cheer("◈","Dagens mål","Klart för idag",`${goal} uppgifter avklarade.`);
   checkBadges();
   saveProfile();
 
   const last=state.sessionDone>=state.sessionTarget;
   const runTxt = correct && profile.run>=3 ? `<span class="tag" style="margin-left:6px">${profile.run} i rad</span>` : "";
+  const flera=delar.length>1;
+  const rubrik = correct ? (flera?"Alla rätt!":"Rätt!")
+               : ratt ? `${ratt} av ${delar.length} rätt`
+               : "Inte riktigt.";
+  const under = state.noXp
+      ? "Lösningen var redan visad, så den här uppgiften ger ingen XP."
+      : correct ? "Bra jobbat — nästa uppgift anpassas efter det här."
+      : ratt ? "Titta på lösningen för de delar som inte stämde."
+      : "Titta på lösningen och hitta steget som gick fel.";
   const box=document.getElementById("answer-result");
   if(box){
     box.innerHTML=`
       <div class="result ${correct?'good':'bad'}">
         <div class="txt">
-          <strong>${correct?"Rätt!":"Inte riktigt."}${runTxt}</strong>
-          <small>${correct?"Bra jobbat — nästa uppgift anpassas efter det här.":"Titta på lösningen och hitta steget som gick fel."}</small>
+          <strong>${rubrik}${runTxt}</strong>
+          <small>${under}</small>
         </div>
-        <span class="xpchip">+${xp} XP</span>
+        <span class="xpchip"${state.noXp?' style="background:var(--surface3);color:var(--ink3);box-shadow:none"':""}>${state.noXp?"0 XP":"+"+xp+" XP"}</span>
       </div>
       <div class="aacts">
         ${!correct?`<button class="btn" onclick="showSolution()">Visa lösning</button>`:""}
@@ -2117,14 +2259,20 @@ function finishAttempt(correct){
 
 function showSolution(){
   const t=state.currentTask;
+  const auto=expectedAnswersForTask(t).auto;
   state.solutionShown=true;
+  // Tas lösningen innan uppgiften är avklarad utgår ingen XP.
+  if(auto && !state.answered) state.noXp=true;
   const holder=document.getElementById("solution-holder");
   if(holder){
     holder.innerHTML=`<div class="sol"><div class="lbl">Lösning</div><div style="margin-top:10px">${t.s||"Facit saknas."}</div></div>
-      ${!state.answered?`<div class="aacts">
-        <button class="btn soft" onclick="selfGrade(true)">Jag hade rätt</button>
-        <button class="btn" onclick="selfGrade(false)">Jag behöver träna mer</button>
-      </div>`:""}`;
+      ${state.answered?"":auto
+        ? `<div class="hint">Lösningen är visad, så uppgiften ger ingen XP. Du kan ändå skriva klart svaren.</div>
+           <div class="aacts"><button class="btn" onclick="giveUp()">Gå vidare</button></div>`
+        : `<div class="aacts">
+             <button class="btn soft" onclick="selfGrade(true)">Jag hade rätt</button>
+             <button class="btn" onclick="selfGrade(false)">Jag behöver träna mer</button>
+           </div>`}`;
     renderMath(holder);
   }
 }
@@ -2177,7 +2325,7 @@ function renderSessionDone(){
       return `<div class="badge-row" style="margin-top:10px;background:var(--surface);border-color:var(--hair)">
         <div class="medal">${nb.b.icon}</div>
         <div class="txt">
-          <b>Nästa bragd: ${esc(nb.b.name)}</b>
+          <b>Nästa medalj: ${esc(nb.b.name)}</b>
           <small>${esc(nb.b.desc)} · ${nb.s.cur} av ${nb.b.max}</small>
           <div class="prog"><i data-w="${Math.round(nb.s.pct*100)}%"></i></div>
         </div>
@@ -2233,7 +2381,7 @@ function showProgress(){
       </div>
     </div>
 
-    <div class="sec"><h2>Bragder</h2><span class="rankmeta">${BADGES.filter(b=>badgeState(b).on).length} av ${BADGES.length}</span></div>
+    <div class="sec"><h2>Medaljer</h2><span class="rankmeta">${BADGES.filter(b=>badgeState(b).on).length} av ${BADGES.length}</span></div>
     <div class="badgegrid stagger" style="margin-bottom:26px">
       ${BADGES.map(b=>{
         const s=badgeState(b);

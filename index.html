@@ -797,10 +797,23 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   .topbar .btn.sm{padding:7px 11px}
   .iconbtn{width:34px;height:34px;border-radius:11px}
 }
-@media(max-width:415px){
-  .brand span{
+@media(max-width:430px){
+  .brand{font-size:15px;gap:8px}
+  .brandmark{width:30px;height:30px;border-radius:9px}
+  /* Inloggningsknappen blir en ikon, så att namnet får plats. */
+  .logga-in span{
     position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;
   }
+  .logga-in{width:34px;height:34px;padding:0;border-radius:11px}
+  .logga-in svg{display:block}
+  .topbar .inner{gap:6px}
+}
+.logga-in svg{width:16px;height:16px;display:none}
+@media(max-width:430px){.logga-in svg{display:block}}
+/* Riktigt smala skärmar: rangbrickan får ge vika för namnet.
+   Rangen syns ändå på sidan Min utveckling. */
+@media(max-width:355px){
+  .topbar .pill{display:none}
 }
 
 @media(max-width:640px){
@@ -1509,7 +1522,10 @@ function topbar(){
 
 function kontoKnapp(){
   if(!MOLN_PA()) return "";
-  if(!session) return `<button class="btn sm" onclick="loggaIn()">Logga in</button>`;
+  if(!session) return `<button class="btn sm logga-in" onclick="loggaIn()" aria-label="Logga in">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><path d="M10 17l5-5-5-5"/><path d="M15 12H3"/>
+    </svg><span>Logga in</span></button>`;
   const u=session.user||{};
   const namn=u.user_metadata?.full_name || u.email || "Inloggad";
   const bild=u.user_metadata?.avatar_url;

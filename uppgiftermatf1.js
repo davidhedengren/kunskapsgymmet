@@ -502,9 +502,12 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Delmängder och potensmängd",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "Falskt",
+      "Sant"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ]
@@ -645,10 +648,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Inklusion–exklusion med tre mängder",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 128,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -711,10 +714,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Inklusion–exklusion med två mängder",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 26,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -1086,9 +1089,12 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Utveckla binom med binomialsatsen",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "32*x^5+80*x^6+80*x^7+40*x^8+10*x^9+x^10",
+      "32*x^5-80*x^4*y+80*x^3*y^2-40*x^2*y^3+10*x*y^4-y^5"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -1128,9 +1134,12 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Bestämma term eller koefficient med binomialsatsen",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      330,
+      4032
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -1484,10 +1493,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Använda lådprincipen",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
@@ -1778,10 +1787,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Multiplikationsprincipen med villkor",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -2470,10 +2479,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Kombinationer med urvalsvillkor",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -2591,10 +2600,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Räkna kortaste vägar i rutnät",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 56,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -3899,10 +3908,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Inklusion–exklusion med två mängder",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 140,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -4008,10 +4017,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Inklusion–exklusion med tre mängder",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 92,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -4342,10 +4351,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Termer och kvot i geometrisk talföljd",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "1, 2 och 3",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ]
@@ -5610,10 +5619,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Förstå restklasser och kongruensnotation",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -5631,10 +5640,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Räkna med modularitet",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -5673,10 +5682,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Räkna med modularitet",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -5694,10 +5703,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Räkna med modularitet",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -5715,10 +5724,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Klock- och veckodagsaritmetik med modulo",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "måndag",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -5777,10 +5786,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Förstå restklasser och kongruensnotation",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -5879,10 +5888,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Räkna med modularitet",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -5964,10 +5973,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Klock- och veckodagsaritmetik med modulo",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "lördag",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -5985,10 +5994,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Klock- och veckodagsaritmetik med modulo",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "fredag",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -6007,10 +6016,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Lösa kongruenser med villkor",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 675,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -6050,10 +6059,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Klock- och veckodagsaritmetik med modulo",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "fredag",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -6092,10 +6101,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Lösa kongruenser med villkor",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -6113,10 +6122,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Lösa kongruenser med villkor",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 32,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -6156,10 +6165,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Räkna med modularitet",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -6177,10 +6186,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Räkna med modularitet",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -6198,10 +6207,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Beräkna stora potenser modulo ett tal",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -6219,10 +6228,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Räkna med modularitet",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -6262,10 +6271,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Räkna med modularitet",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -6304,10 +6313,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Räkna med modularitet",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -6388,10 +6397,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Klock- och veckodagsaritmetik med modulo",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "torsdag",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -6810,10 +6819,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Minsta gemensamma multipel",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 72,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -8491,10 +8500,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Rekursioner av andra ordningen",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 70,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -9159,10 +9168,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Avgöra konvergens för generaliserade integraler",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "divergerar",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -9203,10 +9212,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Avgöra konvergens för generaliserade integraler",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "p=1.4",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -9246,10 +9255,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Generaliserade integraler med exponentialfunktioner",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "divergerar",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -9268,10 +9277,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Generaliserade integraler med singularitet i ändpunkt",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "divergerar",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -9375,10 +9384,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Avgöra konvergens för generaliserade integraler",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "divergerar",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -9779,10 +9788,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -9801,10 +9810,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.3,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -9823,10 +9832,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.59,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -9845,10 +9854,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -9867,10 +9876,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.1,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -9888,10 +9897,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -9910,10 +9919,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.0,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -9931,10 +9940,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.1,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -9951,10 +9960,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 62.8,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -9971,10 +9980,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.8,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -9991,10 +10000,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.375,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -10013,10 +10022,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.159,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -10053,10 +10062,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "3.6*pi",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -10073,10 +10082,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.64,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -10095,10 +10104,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.106,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -10115,10 +10124,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.754,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -10135,10 +10144,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.6,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -10177,10 +10186,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.75,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -10199,10 +10208,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.597,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -11770,10 +11779,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Klassificera differentialekvationer",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "inhomogen",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
@@ -11791,10 +11800,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Klassificera differentialekvationer",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "T",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ]
@@ -11958,10 +11967,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Newtons avsvalningslag i modellering",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 44.8,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -13838,10 +13847,10 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "familj": "Läkemedelsmodeller med differentialekvationer",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 80,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -15136,10 +15145,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.0,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -15157,10 +15166,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.127,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -15177,10 +15186,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 121,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -15199,10 +15208,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0597,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -15220,10 +15229,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.213,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -15242,10 +15251,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 187.5,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -15285,10 +15294,10 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "2*pi",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]

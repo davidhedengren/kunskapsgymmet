@@ -742,9 +742,14 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "(sqrt(6)+sqrt(2))/4",
+      "(sqrt(6)-sqrt(2))/4",
+      "(sqrt(6)-sqrt(2))/4",
+      "(sqrt(6)+sqrt(2))/4"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "1.30",
@@ -1032,9 +1037,14 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "(sqrt(6)-sqrt(2))/4",
+      "(sqrt(6)-sqrt(2))/4",
+      "(sqrt(6)+sqrt(2))/4",
+      "(sqrt(6)+sqrt(2))/4"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "1.40",
@@ -1533,9 +1543,13 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      3,
+      "y=2",
+      4
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "1.160",
@@ -2356,9 +2370,12 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      7.2,
+      21.6
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "1.87",
@@ -3677,9 +3694,14 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "positivt",
+      "negativt",
+      "negativt",
+      "negativt"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "1.139",
@@ -4832,9 +4854,14 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x>3",
+      "x=3",
+      2,
+      "x=4"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "2.29",
@@ -6017,9 +6044,13 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x>2",
+      "f'(x)=1/(x-2)",
+      "y=x-3"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "2.72",
@@ -6542,9 +6573,13 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "sqrt(3*x+3)",
+      "x>=-1",
+      3
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "2.92",
@@ -9177,9 +9212,14 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "e-1",
+      1,
+      1,
+      2
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "3.30",
@@ -9653,9 +9693,12 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      0.5,
+      7.5
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "3.150",
@@ -9813,9 +9856,14 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      8,
+      10,
+      "e-1",
+      1
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "3.48",
@@ -15191,10 +15239,15 @@ window.BANKMATO2 = [
       "procedur",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Ja",
+      "Ja",
+      "Ja",
+      "Ja"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "4.331",
@@ -15236,9 +15289,12 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      16,
+      -64
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "4.326",
@@ -15467,9 +15523,13 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "a=0",
+      "a=-15",
+      "a=2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "4.109",
@@ -16707,9 +16767,12 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "f'(x)=3*(x^2-4*x)^2*(2*x-4)",
+      "y=-54*x+27"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "2.173",
@@ -17586,9 +17649,12 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "a=2",
+      "x^2+4*x+3"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "4.171",
@@ -25366,9 +25432,12 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "4/3",
+      54
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "1.288",
@@ -26087,9 +26156,14 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "i",
+      "4*i",
+      1,
+      -9
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "4.291",
@@ -26502,9 +26576,14 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "negativ",
+      "negativ",
+      "negativ",
+      "positiv"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "1.309",
@@ -26548,9 +26627,13 @@ window.BANKMATO2 = [
       "modellering"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "t=14",
+      13,
+      18
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true
   },
   {
     "id": "1.340",

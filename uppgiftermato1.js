@@ -844,9 +844,9 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "-1<x<5",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -965,9 +965,9 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "-5<=x<=3",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -1917,9 +1917,13 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "a>0",
+      "a=0",
+      "a<0"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
@@ -3574,9 +3578,9 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "ingen lösning",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -4056,9 +4060,9 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "1<=x<=7",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -4102,9 +4106,9 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "-3<x<2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -4433,9 +4437,9 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "a>1",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
@@ -4669,9 +4673,9 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "a>4",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
@@ -5948,7 +5952,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -6043,7 +6047,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": -2,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -6113,9 +6117,14 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "6*e^(3*x)",
+      "-2.5*e^(-0.5*x)",
+      "7^x*ln(7)",
+      "3*2^x*ln(2)"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -6209,7 +6218,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6968,9 +6977,12 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "f'(x)=x^2*(30*x^3-12)",
+      "g'(x)=5*x^4-10"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -7326,9 +7338,12 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "f'(x)=x*(9*x-1)/2",
+      "g'(x)=-12*x^5+20*x^3-14*x"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -7444,9 +7459,12 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "f'(x)=x^2*(24*x^5+3)",
+      "g'(x)=1/(2*sqrt(x))"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -8623,7 +8641,7 @@ window.BANKMATO1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -11068,10 +11086,10 @@ window.BANKMATO1 = [
     "familj": "Beräkna bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "4*(e-1)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -14536,7 +14554,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1278,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "modellering"
@@ -15949,7 +15967,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 97,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -18056,7 +18074,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -18688,9 +18706,9 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 65.9,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
@@ -18915,7 +18933,7 @@ window.BANKMATO1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1140,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -18961,7 +18979,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2800,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -19096,10 +19114,10 @@ window.BANKMATO1 = [
     "familj": "Använda symmetri och tecken i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "3/5",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -19122,7 +19140,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -19190,7 +19208,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 84800,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -19237,7 +19255,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -19531,7 +19549,7 @@ window.BANKMATO1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1137,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -19598,7 +19616,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -20893,9 +20911,9 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 13266,
+    "tolerans": 1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
@@ -20963,7 +20981,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 32536,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -21171,7 +21189,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -21191,10 +21209,10 @@ window.BANKMATO1 = [
     "familj": "Använda symmetri och tecken i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "24/25",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
@@ -22406,7 +22424,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -24263,9 +24281,9 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "-2<x<6",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -24285,9 +24303,9 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "-4<=x<=2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -26240,9 +26258,13 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "f'(x)=2*x*(9*x-1)",
+      "f'(x)=3/(2*sqrt(x))",
+      "f'(x)=2-2/x^3"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ]
@@ -27025,7 +27047,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5416,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27093,7 +27115,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 10618,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27939,7 +27961,7 @@ window.BANKMATO1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -32466,7 +32488,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3836,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -33548,7 +33570,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1825,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -34267,7 +34289,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -34291,7 +34313,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 108,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -34339,7 +34361,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2920,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -36401,7 +36423,7 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1962,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37168,7 +37190,7 @@ window.BANKMATO1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1.0,
+    "tolerans": 1,
     "självrättning": true,
     "formaga": [
       "begrepp"

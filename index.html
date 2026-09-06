@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#f2f5f9">
+<meta name="theme-color" content="#0a1119">
 <script>
 /* Sätter färgläget före första målningen så att sidan aldrig blinkar. */
 (function(){
   var saved=null;
   try{ saved=localStorage.getItem("kunskapsgymmet-theme"); }catch(_){}
-  var sys=window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-  var t=(saved==="dark"||saved==="light") ? saved : (sys?"dark":"light");
+  // Mörkt är standard. Bara ett eget val i växlaren ändrar det.
+  var t=(saved==="light") ? "light" : "dark";
   document.documentElement.dataset.theme=t;
   var m=document.querySelector('meta[name="theme-color"]');
   if(m) m.content = t==="dark" ? "#0a1119" : "#f2f5f9";
@@ -265,6 +265,9 @@ a{color:inherit}
   transition:.2s var(--ease);white-space:nowrap;flex:none;
 }
 .pill:hover{border-color:var(--hair2)}
+.pill .lvl{font-weight:700;letter-spacing:-.01em}
+.pill .rname{color:var(--ink3);font-weight:600}
+.pill .rname:before{content:"·";margin-right:6px;opacity:.5}
 .pill .rankdot{
   width:20px;height:20px;border-radius:7px;display:grid;place-items:center;font-size:9px;font-weight:700;
   color:#3b2c07;background:linear-gradient(160deg,#f0d296,#c79a3c);font-family:var(--mono);
@@ -521,6 +524,10 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   transition:.25s var(--ease);
 }
 .medal:hover{transform:translateY(-2px);border-color:var(--hair2)}
+/* Tipset måste lägga sig över grannmedaljerna, annars göms det
+   bakom dem vid tryck på mobil. */
+.medal:hover,.medal:focus-within,.medal.show{z-index:30}
+.badgestrip{position:relative;z-index:1}
 .medal.on{
   border-color:transparent;color:#402f08;
   background:linear-gradient(160deg,#f3d99f,#c99b3b);
@@ -537,12 +544,23 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   opacity:0;transform:translateY(5px);pointer-events:none;transition:.22s var(--ease);
 }
 .medal:hover .mtip,.medal:focus-visible .mtip,.medal.show .mtip{opacity:1;transform:translateY(0)}
-.mtip b{display:block;font-size:13px;font-weight:700;letter-spacing:-.015em;color:var(--ink)}
-.mtip small{display:block;margin-top:3px;font-size:11.5px;line-height:1.4;color:var(--ink3);font-family:var(--read);letter-spacing:0}
-.mtip .bar{display:block;height:3px;border-radius:99px;background:var(--hair);margin-top:9px;overflow:hidden}
-.mtip .bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#c79a3c,var(--gold2))}
-.mtip .num{display:block;margin-top:6px;font-family:var(--mono);font-size:10px;color:var(--ink3)}
-.mtip .num.done{color:var(--gold)}
+.mtip b,.medalinfo b{display:block;font-size:13px;font-weight:700;letter-spacing:-.015em;color:var(--ink)}
+.mtip small,.medalinfo small{display:block;margin-top:3px;font-size:11.5px;line-height:1.4;color:var(--ink3);font-family:var(--read);letter-spacing:0}
+.mtip .bar,.medalinfo .bar{display:block;height:3px;border-radius:99px;background:var(--hair);margin-top:9px;overflow:hidden}
+.mtip .bar i,.medalinfo .bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#c79a3c,var(--gold2))}
+.mtip .num,.medalinfo .num{display:block;margin-top:6px;font-family:var(--mono);font-size:10px;color:var(--ink3)}
+.mtip .num.done,.medalinfo .num.done{color:var(--gold)}
+
+/* På pekskärm visas medaljens text i en ruta under remsan i stället
+   för som svävande tips, så att den aldrig hamnar bakom en grannmedalj
+   eller utanför skärmkanten. */
+.medalinfo{
+  margin-top:12px;padding:13px 14px;border-radius:15px;
+  background:var(--surface2);border:1px solid var(--hair);
+  animation:rise .25s var(--ease) both;
+}
+@media(hover:hover){ .medalinfo{display:none} }
+@media(hover:none){ .mtip{display:none} }
 /* Översta raden visar tipset nedåt, så det aldrig hamnar utanför skärmen. */
 .badgestrip>:nth-child(-n+4) .mtip{bottom:auto;top:calc(100% + 9px);transform:translateY(-5px)}
 .badgestrip>:nth-child(-n+4) .medal:hover .mtip,
@@ -740,6 +758,27 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .summary p{color:var(--ink2);margin:10px 0 0;font-family:var(--read);letter-spacing:0}
 .sumtiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:26px 0 24px}
 
+/* Rekordraden i passrapporten. */
+.rekord{
+  display:flex;align-items:center;gap:13px;text-align:left;margin:0 0 18px;
+  padding:13px 16px;border-radius:17px;
+  border:1px solid var(--hair);background:var(--surface2);
+}
+.rekord .ikon{
+  width:36px;height:36px;flex:none;border-radius:12px;display:grid;place-items:center;font-size:16px;
+  background:var(--surface3);color:var(--ink3);
+}
+.rekord b{display:block;font-size:14px;letter-spacing:-.02em}
+.rekord small{display:block;margin-top:2px;font-size:12.5px;color:var(--ink3);font-family:var(--mono)}
+.rekord.ny{
+  border-color:transparent;
+  background:linear-gradient(140deg,var(--goldSoft),var(--surface2));
+  box-shadow:0 12px 28px -18px rgba(180,140,50,.9);
+}
+.rekord.ny .ikon{background:linear-gradient(155deg,#f3d99f,#c99b3b);color:#402f08;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.55)}
+.rekord.ny b{color:var(--gold)}
+
 /* ---------- toast / hyllning ---------- */
 .toast{
   position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);opacity:0;pointer-events:none;
@@ -794,6 +833,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   .brand{font-size:15.5px;gap:9px}
   .pill{padding:5px 10px 5px 6px;font-size:12px}
   .pill .rname{display:none}
+  .pill .flame:before{content:"·";margin-right:6px;opacity:.5;color:var(--ink3);font-weight:600}
   .topbar .btn.sm{padding:7px 11px}
   .iconbtn{width:34px;height:34px;border-radius:11px}
 }
@@ -810,10 +850,16 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .logga-in svg{width:16px;height:16px;display:none}
 @media(max-width:430px){.logga-in svg{display:block}}
-/* Riktigt smala skärmar: rangbrickan får ge vika för namnet.
-   Rangen syns ändå på sidan Min utveckling. */
-@media(max-width:355px){
-  .topbar .pill{display:none}
+/* Riktigt smala skärmar: dagsstrecket får ge vika, nivån stannar.
+   Färgläget följer datorns inställning ändå. */
+@media(max-width:392px){
+  .topbar .pill .flame,.topbar .pill .rankdot{display:none}
+  .topbar .pill{padding:5px 11px}
+}
+@media(max-width:340px){
+  .topbar .iconbtn{display:none}
+  .brand{font-size:14px;gap:7px}
+  .brandmark{width:28px;height:28px}
 }
 
 @media(max-width:640px){
@@ -846,19 +892,19 @@ const COURSES = {
   fy1:{
     name:"Fysik nivå 1", code:"Fy1", subject:"Fysik",
     files:["struktur.js","uppgifter.js"],
-    globals:{bank:"BANK",kap:"KAPNAMN",omr:"OMR"},
+    globals:{bank:"BANK",kap:"KAPNAMN",omr:"OMR",grupp:"GRUPP"},
     tracks:[], tint:"#159490"
   },
   fy2:{
     name:"Fysik nivå 2", code:"Fy2", subject:"Fysik",
     files:["struktur2.js","uppgifter2.js"],
-    globals:{bank:"BANK2",kap:"KAPNAMN2",omr:"OMR2"},
+    globals:{bank:"BANK2",kap:"KAPNAMN2",omr:"OMR2",grupp:"GRUPP2"},
     tracks:[], tint:"#5b5fc7"
   },
   ma1:{
     name:"Matematik nivå 1", code:"Ma1", subject:"Matematik",
     files:["strukturma1.js","uppgifterma1.js"],
-    globals:{bank:"BANKMA1",kap:"KAPNAMNMA1",omr:"OMRMA1"},
+    globals:{bank:"BANKMA1",kap:"KAPNAMNMA1",omr:"OMRMA1",grupp:"GRUPPMA1"},
     tracks:["1a","1b","1c"], defaultTrack:"1c", tint:"#3f92db",
     // Stryks helt ur Kunskapsgymmet. Matchas mot kapitlets namn,
     // områdets namn eller områdets nyckel.
@@ -867,25 +913,25 @@ const COURSES = {
   ma2:{
     name:"Matematik nivå 2", code:"Ma2", subject:"Matematik",
     files:["strukturma2.js","uppgifterma2.js"],
-    globals:{bank:"BANKMA2",kap:"KAPNAMNMA2",omr:"OMRMA2"},
+    globals:{bank:"BANKMA2",kap:"KAPNAMNMA2",omr:"OMRMA2",grupp:"GRUPPMA2"},
     tracks:["2a","2b","2c"], defaultTrack:"2c", tint:"#2f7fc9"
   },
   mato1:{
     name:"Matematik – fortsättning nivå 1", code:"Ma forts 1", subject:"Matematik",
     files:["strukturmato1.js","uppgiftermato1.js"],
-    globals:{bank:"BANKMATO1",kap:"KAPNAMNMATO1",omr:"OMRMATO1"},
+    globals:{bank:"BANKMATO1",kap:"KAPNAMNMATO1",omr:"OMRMATO1",grupp:"GRUPPMATO1"},
     tracks:["1b","1c"], defaultTrack:"1c", tint:"#4f9ad0"
   },
   mato2:{
     name:"Matematik – fortsättning nivå 2", code:"Ma forts 2", subject:"Matematik",
     files:["strukturmato2.js","uppgiftermato2.js"],
-    globals:{bank:"BANKMATO2",kap:"KAPNAMNMATO2",omr:"OMRMATO2"},
+    globals:{bank:"BANKMATO2",kap:"KAPNAMNMATO2",omr:"OMRMATO2",grupp:"GRUPPMATO2"},
     tracks:["2c"], defaultTrack:"2c", tint:"#4288bd"
   },
   matf1:{
     name:"Matematik – fördjupning nivå 1", code:"Ma fördj 1", subject:"Matematik",
     files:["strukturmatf1.js","uppgiftermatf1.js"],
-    globals:{bank:"BANKMATF1",kap:"KAPNAMNMATF1",omr:"OMRMATF1"},
+    globals:{bank:"BANKMATF1",kap:"KAPNAMNMATF1",omr:"OMRMATF1",grupp:"GRUPPMATF1"},
     tracks:[], tint:"#4a7fc9"
   }
 };
@@ -1081,6 +1127,7 @@ const state={
   course:null, track:null, data:null, view:"home",
   focusArea:null, focusFamily:null,
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
+  focusOmr:null, focusNamn:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
   lastIds:[], solutionShown:false, answered:false
 };
@@ -1101,7 +1148,8 @@ const navStack=[];
 
 function navDesc(view){
   return {view,course:state.course,track:state.track,
-          area:state.focusArea,family:state.focusFamily};
+          area:state.focusArea,omr:state.focusOmr,namn:state.focusNamn,
+          family:state.focusFamily};
 }
 function navRecord(view,replace){
   const st=navDesc(view);
@@ -1142,6 +1190,8 @@ async function navRestore(st){
   }
   if(st.track) state.track=st.track;
   state.focusArea=st.area||null;
+  state.focusOmr=st.omr||null;
+  state.focusNamn=st.namn||null;
   state.focusFamily=st.family||null;
   applyAccent();
   switch(st.view){
@@ -1166,6 +1216,7 @@ function loadProfileFrom(p){
   p.run||=0; p.bestRun||=0; p.aCorrect||=0; p.today||=0; p.goal||=8;
   p.pass||=0; p.felfria||=0; p.utanFacit||=0; p.morgon||=0;
   p.bestKapitel||=0; p.bestKurs||=0; p.bestNiva3||=0;
+  p.bastaPass ??= null;   // {pct, ratt, total, at}
   p.lastDay ??= null;
   p.courses ||= {}; p.badges ||= {};
   return p;
@@ -1341,16 +1392,7 @@ function setTheme(next){
 }
 (function initTheme(){
   const saved=localStorage.getItem("kunskapsgymmet-theme");
-  if(saved==="dark"||saved==="light"){ setTheme(saved); return; }
-  const mq=window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)");
-  setTheme(mq && mq.matches ? "dark" : "light");
-  // Följ datorns inställning så länge eleven inte valt själv.
-  if(mq && mq.addEventListener) mq.addEventListener("change",e=>{
-    if(!localStorage.getItem("kunskapsgymmet-theme")){
-      document.documentElement.dataset.theme=e.matches?"dark":"light";
-      render();
-    }
-  });
+  setTheme(saved==="light" ? "light" : "dark");
 })();
 function toggleTheme(){
   setTheme(document.documentElement.dataset.theme==="dark"?"light":"dark");
@@ -1430,7 +1472,7 @@ function chapterHead(kap,namn,omraden){
   const open=state.openChapters.has(String(kap));
   // Prickarna sammanfattar kapitlets läge när det är hopfällt.
   const dots=omraden.slice(0,10)
-    .map(a=>`<i style="--d:${TONE_VAR[areaStatus(a.key).tone]}"></i>`).join("");
+    .map(a=>`<i style="--d:${TONE_VAR[(a.omr?cardStatus(a):areaStatus(a.key)).tone]}"></i>`).join("");
   return `<button class="chapter-head" aria-expanded="${open}" onclick="toggleChapter('${esc(String(kap))}',this)">
     ${CHEV}<span class="name">${esc(namn)}</span><span class="rule"></span>
     <span class="kdots">${dots}</span><span class="n">${omraden.length}</span>
@@ -1456,13 +1498,19 @@ function playIn(root){
 /* På pekskärm finns ingen hovring, så ett tryck visar beskrivningen. */
 function toggleTip(el,ev){
   ev.stopPropagation();
-  const open=el.classList.contains("show");
-  document.querySelectorAll(".medal.show").forEach(m=>m.classList.remove("show"));
-  if(!open) el.classList.add("show");
+  const öppen=el.classList.contains("show");
+  stängTips();
+  if(öppen) return;
+  el.classList.add("show");
+  const ruta=document.getElementById("medalinfo"), tips=el.querySelector(".mtip");
+  if(ruta && tips){ ruta.innerHTML=tips.innerHTML; ruta.hidden=false; }
 }
-document.addEventListener("click",()=>{
+function stängTips(){
   document.querySelectorAll(".medal.show").forEach(m=>m.classList.remove("show"));
-});
+  const ruta=document.getElementById("medalinfo");
+  if(ruta){ ruta.hidden=true; ruta.innerHTML=""; }
+}
+document.addEventListener("click",stängTips);
 
 function toggleChapter(kap,btn){
   const key=String(kap);
@@ -1504,8 +1552,10 @@ window.addEventListener("scroll",()=>{
 
 function topbar(){
   const lp=levelProgress(), r=rankFor(lp.level), st=currentStreak();
-  const badge=profile.attempts?`<button class="pill" onclick="showProgress()" title="Din utveckling">
-      <span class="rankdot">${r.sym}</span><span class="rname">${esc(r.name)}</span>
+  const badge=profile.attempts?`<button class="pill" onclick="showProgress()" title="Nivå ${lp.level} · ${esc(r.name)}${st?` · ${st} dagar i rad`:""} — visa min utveckling">
+      <span class="rankdot">${r.sym}</span>
+      <span class="lvl">Nivå ${lp.level}</span>
+      <span class="rname">${esc(r.name)}</span>
       ${st?`<span class="flame">${st}\u2009d</span>`:""}
     </button>`:"";
   return `<header class="topbar"><div class="shell inner">
@@ -1653,11 +1703,13 @@ async function selectCourse(id,opts){
     const bank=window[c.globals.bank];
     const kap=window[c.globals.kap] || {};
     const omr=window[c.globals.omr] || {};
+    const grupp=window[c.globals.grupp] || {};
     if(!Array.isArray(bank)) throw new Error(`Globalen window.${c.globals.bank} hittades inte eller är inte en array.`);
     state.course=id;
     state.track=c.defaultTrack || (c.tracks[0]||null);
-    state.data={bank,kap,omr};
-    state.focusArea=null;state.focusFamily=null;state.currentTask=null;
+    state.data={bank,kap,omr,grupp};
+    state.focusArea=null;state.focusOmr=null;state.focusNamn=null;
+    state.focusFamily=null;state.currentTask=null;
     state.openChapters=null;
     ensureCourseProfile();
     applyAccent();
@@ -1732,8 +1784,21 @@ function abilityText(f){
   const a=Array.isArray(f)?f:[f];
   return a.map(x=>String(x).replaceAll("_"," ")).join(" · ");
 }
+/* Strukturfilen bestämmer ordningen. Områdena listas i den följd de
+   står i OMR-objektet, alltså i bokens ordning, inte alfabetiskt. */
+function areaOrder(){
+  const omr=state.data?.omr||{};
+  const ordning={};
+  let n=0;
+  Object.entries(omr).forEach(([kap,lista])=>{
+    if(lista && typeof lista==="object")
+      Object.keys(lista).forEach(key=>{ if(!(key in ordning)) ordning[key]=n++; });
+  });
+  return ordning;
+}
 function getAreas(){
   const tasks=availableTasks();
+  const ordning=areaOrder();
   const by={};
   for(const t of tasks){
     const key=t.omr||"ovrigt";
@@ -1744,8 +1809,57 @@ function getAreas(){
       fs.forEach(f=>by[key].families.add(f));
     }
   }
-  return Object.values(by).sort((a,b)=>(+a.kap||99)-(+b.kap||99)||a.name.localeCompare(b.name,"sv"));
+  return Object.values(by).sort((a,b)=>
+    (+a.kap||99)-(+b.kap||99) ||
+    (ordning[a.key] ?? 9999)-(ordning[b.key] ?? 9999) ||
+    a.name.localeCompare(b.name,"sv"));
 }
+/* ==========================================================
+   KORT PÅ KURSSIDAN
+   Strukturfilens GRUPP-objekt slår ihop närbesläktade områden till
+   ett kort, t.ex. alla metoder för andragradsekvationer. Områden som
+   inte ingår i någon grupp blir egna kort. Ordningen följer strukturen.
+   ========================================================== */
+
+function getCards(){
+  const areas=getAreas();
+  const grupper=state.data?.grupp||{};
+  const tagna=new Set();
+  const kort=[];
+
+  areas.forEach(a=>{
+    if(tagna.has(a.key)) return;
+    const gruppLista=grupper[a.kap]||[];
+    const g=gruppLista.find(x=>Array.isArray(x.omr)&&x.omr.includes(a.key));
+    if(g){
+      // Alla gruppens områden som faktiskt har uppgifter i det här spåret.
+      const med=areas.filter(x=>x.kap===a.kap && g.omr.includes(x.key));
+      med.forEach(x=>tagna.add(x.key));
+      kort.push({key:"g:"+g.id, name:g.namn, kap:a.kap, omr:med.map(x=>x.key),
+                 delar:med, grupp:true,
+                 families:new Set(med.flatMap(x=>[...x.families]))});
+    }else{
+      tagna.add(a.key);
+      kort.push({key:a.key, name:a.name, kap:a.kap, omr:[a.key],
+                 delar:[a], grupp:false, families:a.families});
+    }
+  });
+  return kort;
+}
+
+/* Ett grupperat korts läge är medelvärdet av dess områden. Områden
+   som inte tränats räknas som noll, så kortet fylls efter hand. */
+function cardStatus(kort){
+  const cp=ensureCourseProfile();
+  const varden=kort.omr.map(k=>typeof cp.areas[k]==="number"?cp.areas[k]:null);
+  const seen=varden.some(v=>v!==null);
+  if(!seen) return {seen:false,m:0,label:"Ny",tone:"t-new",mcls:"m-new"};
+  const m=varden.reduce((a,v)=>a+(v||0),0)/varden.length;
+  if(m>=.78) return {seen:true,m,label:"Stark",tone:"t-good",mcls:""};
+  if(m>=.55) return {seen:true,m,label:"På gång",tone:"t-mid",mcls:""};
+  return {seen:true,m,label:"Behöver träning",tone:"t-low",mcls:""};
+}
+
 function areaStatus(key){
   const cp=ensureCourseProfile();
   const seen=typeof cp.areas[key]==="number";
@@ -1756,7 +1870,9 @@ function areaStatus(key){
   return {seen:true,m,label:"Behöver träning",tone:"t-low",mcls:""};
 }
 function setTrack(track){
-  state.track=track; applyAccent(); state.openChapters=null; state.focusArea=null; state.focusFamily=null; state.currentTask=null;
+  state.track=track; applyAccent(); state.openChapters=null;
+  state.focusArea=null; state.focusOmr=null; state.focusNamn=null;
+  state.focusFamily=null; state.currentTask=null;
   renderDashboard();
 }
 function weakAreas(limit=4){
@@ -1818,13 +1934,13 @@ function renderDashboard(){
   document.title=COURSES[state.course].name+" · Kunskapsgymmet";
   state.view="dashboard";
   const c=COURSES[state.course];
-  const areas=getAreas(), cp=ensureCourseProfile();
+  const areas=getAreas(), kort=getCards(), cp=ensureCourseProfile();
   const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
   const done=todayCount(), goal=profile.goal||8, st=currentStreak();
   const weak=weakAreas(3), advice=coachAdvice();
 
   const grouped={};
-  areas.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
+  kort.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
   const chapters=Object.keys(grouped).sort((a,b)=>(+a||99)-(+b||99));
   const manyChapters=chapters.length>1;
   // Första gången kursen visas står första kapitlet öppet, resten hopfällda.
@@ -1838,15 +1954,16 @@ function renderDashboard(){
       <div class="chapter-body"${manyChapters&&!open?" hidden":""}>
       <div class="area-grid stagger">
         ${grouped[kap].map(a=>{
-          const s=areaStatus(a.key);
-          return `<button class="area ${s.tone}" onclick="startArea('${esc(a.key)}')">
+          const s=cardStatus(a);
+          return `<button class="area ${s.tone}" onclick="startCard('${esc(a.key)}')"
+              title="${a.grupp?esc(a.delar.map(d=>d.name).join(" · ")):esc(a.name)}">
             <span class="area-ring">
               ${ring(s.m,46,4.5,"var(--tone)")}
               ${s.seen?"":`<span class="pip"></span>`}
             </span>
             <span class="area-txt">
               <strong>${esc(a.name)}</strong>
-              <span class="state">${s.label}</span>
+              <span class="state">${s.label}${a.grupp?` · ${a.omr.length} delar`:""}</span>
             </span>
           </button>`;
         }).join("")}
@@ -1916,6 +2033,7 @@ function renderDashboard(){
               </button>`;
             }).join("")}
           </div>
+          <div id="medalinfo" class="medalinfo" hidden></div>
         </div>
 
         <div class="card pad">
@@ -2160,7 +2278,8 @@ function chooseArea(pool){
 
 function chooseTask(){
   let pool=availableTasks();
-  if(state.focusArea) pool=pool.filter(t=>t.omr===state.focusArea);
+  if(state.focusOmr) pool=pool.filter(t=>state.focusOmr.includes(t.omr||"ovrigt"));
+  else if(state.focusArea) pool=pool.filter(t=>t.omr===state.focusArea);
   if(state.focusFamily) pool=pool.filter(t=>{
     const fs=Array.isArray(t.familj)?t.familj:[t.familj];
     return fs.includes(state.focusFamily);
@@ -2206,15 +2325,29 @@ function beginSession(){
   state.sessionTarget=profile.goal||8;
 }
 function startAdaptive(){
-  state.focusArea=null;state.focusFamily=null;beginSession();
+  state.focusArea=null;state.focusOmr=null;state.focusNamn=null;
+  state.focusFamily=null;beginSession();
   navRecord("training");nextTask();
 }
 function startArea(area){
-  state.focusArea=area;state.focusFamily=null;beginSession();
+  state.focusArea=area;state.focusOmr=[area];state.focusNamn=null;
+  state.focusFamily=null;beginSession();
+  navRecord("training");nextTask();
+}
+/* Ett grupperat kort tränar alla sina områden. Vilket område varje
+   uppgift kommer från avgörs som i det adaptiva läget, och nivån
+   räknas per område precis som annars. */
+function startCard(key){
+  const kort=getCards().find(k=>k.key===key);
+  if(!kort) return startArea(key);
+  if(!kort.grupp) return startArea(kort.omr[0]);
+  state.focusArea=null;state.focusOmr=kort.omr;state.focusNamn=kort.name;
+  state.focusFamily=null;beginSession();
   navRecord("training");nextTask();
 }
 function startFamily(area,family){
-  state.focusArea=area;state.focusFamily=family;beginSession();
+  state.focusArea=area;state.focusOmr=[area];state.focusNamn=null;
+  state.focusFamily=family;beginSession();
   navRecord("training");nextTask();
 }
 function continueSession(){ beginSession(); navRecord("training",true); nextTask(); }
@@ -2244,6 +2377,7 @@ function noteNewLevel(t){
 
 function sessionLabel(){
   if(state.focusFamily) return familyName(state.focusFamily);
+  if(state.focusNamn) return state.focusNamn;
   if(state.focusArea) return areaName(state.focusArea);
   return "Adaptivt pass";
 }
@@ -3023,13 +3157,27 @@ function selfGrade(ok){ if(!state.answered) finishAttempt(ok); }
 
 function renderSessionDone(record){
   // Passrapporten ersätter träningssteget, så bakåt leder till kursen.
+  // Rekordet avgörs en gång, när passet faktiskt avslutas.
   if(record!==false){
     navRecord("summary",true);
     profile.pass=(profile.pass||0)+1;
     if(state.sessionDone && state.sessionCorrect>=state.sessionDone)
       profile.felfria=(profile.felfria||0)+1;
+    const tot=state.sessionDone||1;
+    const pct=Math.round(state.sessionCorrect/tot*100);
+    const gammalt=profile.bastaPass;
+    // Ett rekord kräver minst fyra uppgifter, annars räcker ett kort
+    // pass med en rätt för att sätta hundra procent.
+    state.rekord=false; state.gamlaRekordet=gammalt;
+    if(tot>=4 && (!gammalt || pct>gammalt.pct ||
+       (pct===gammalt.pct && state.sessionCorrect>gammalt.ratt))){
+      state.rekord=!!gammalt;      // första passet är inget "nytt rekord"
+      profile.bastaPass={pct,ratt:state.sessionCorrect,total:tot,at:Date.now()};
+    }
     saveProfile();
     checkBadges();
+    if(state.rekord) cheer("✪","Nytt rekord",pct+" % på ett pass",
+      `Ditt bästa hittills var ${gammalt.pct} %.`);
   }
   state.view="summary";
   const total=state.sessionDone||1;
@@ -3053,6 +3201,19 @@ function renderSessionDone(record){
       <div class="card tile" style="background:var(--surface)"><span>Intjänat</span><strong>+${state.sessionXp} XP</strong></div>
       <div class="card tile" style="background:var(--surface)"><span>Idag</span><strong>${done} / ${goal}</strong></div>
     </div>
+
+    ${(()=>{
+      const b=profile.bastaPass;
+      if(!b) return "";
+      const nytt=state.rekord;
+      return `<div class="rekord${nytt?" ny":""}">
+        <span class="ikon" aria-hidden="true">${nytt?"✪":"◆"}</span>
+        <span class="txt">
+          <b>${nytt?"Nytt rekord!":"Bästa passet hittills"}</b>
+          <small>${b.pct} % · ${b.ratt} av ${b.total} rätt${nytt&&state.gamlaRekordet?` · slog ${state.gamlaRekordet.pct} %`:""}</small>
+        </span>
+      </div>`;
+    })()}
 
     <div class="card pad" style="text-align:left">
       <div class="rankrow">
@@ -3141,7 +3302,7 @@ function showProgress(record){
           ? `Kursen sitter stabilt.${nasta?` Tyngdpunkten framåt ligger i <b>${esc(nasta.name)}</b>.`:""} Vid 80 % är du provklar.`
           : pct>=25
             ? `Grunderna börjar sitta.${nasta?` Nästa steg är <b>${esc(nasta.name)}</b>.`:""}`
-            : `Träna på så fyller sig staplarna.`;
+            : "";
       return `
       <div class="sec"><h2>Kunskapsläge</h2>
         <span class="kaplegend">
@@ -3157,7 +3318,7 @@ function showProgress(record){
           <div style="flex:1;min-width:200px">
             <div class="rankname">${esc(COURSES[state.course].name)}</div>
             <div class="rankmeta">${k.txt}</div>
-            <div class="redo">${redo}</div>
+            ${redo?`<div class="redo">${redo}</div>`:""}
           </div>
         </div>
         <div class="kapkort" style="margin-top:22px">

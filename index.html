@@ -468,6 +468,29 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .medal .frac{position:absolute;bottom:5px;font-family:var(--mono);font-size:8px;color:var(--ink3)}
 .medal.on .frac{display:none}
 
+/* Medaljens beskrivning vid hovring, tangentbordsfokus eller tryck. */
+.mtip{
+  position:absolute;bottom:calc(100% + 9px);left:50%;margin-left:-98px;width:196px;z-index:25;
+  padding:12px 13px;border-radius:15px;text-align:left;
+  background:var(--surface);border:1px solid var(--hair);box-shadow:var(--e2);
+  opacity:0;transform:translateY(5px);pointer-events:none;transition:.22s var(--ease);
+}
+.medal:hover .mtip,.medal:focus-visible .mtip,.medal.show .mtip{opacity:1;transform:translateY(0)}
+.mtip b{display:block;font-size:13px;font-weight:700;letter-spacing:-.015em;color:var(--ink)}
+.mtip small{display:block;margin-top:3px;font-size:11.5px;line-height:1.4;color:var(--ink3);font-family:var(--read);letter-spacing:0}
+.mtip .bar{display:block;height:3px;border-radius:99px;background:var(--hair);margin-top:9px;overflow:hidden}
+.mtip .bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#c79a3c,var(--gold2))}
+.mtip .num{display:block;margin-top:6px;font-family:var(--mono);font-size:10px;color:var(--ink3)}
+.mtip .num.done{color:var(--gold)}
+/* Översta raden visar tipset nedåt, så det aldrig hamnar utanför skärmen. */
+.badgestrip>:nth-child(-n+4) .mtip{bottom:auto;top:calc(100% + 9px);transform:translateY(-5px)}
+.badgestrip>:nth-child(-n+4) .medal:hover .mtip,
+.badgestrip>:nth-child(-n+4) .medal.show .mtip{transform:translateY(0)}
+/* Kanterna: första och sista kolumnen skjuter inte ut ur rutan. */
+.badgestrip>:nth-child(4n+1) .mtip{left:0;margin-left:0}
+.badgestrip>:nth-child(4n) .mtip{left:auto;right:0;margin-left:0}
+@media(max-width:640px){.mtip{width:172px;margin-left:-86px}}
+
 .badgegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(212px,1fr));gap:10px}
 .badge-row{
   display:flex;align-items:center;gap:13px;padding:13px;border-radius:16px;
@@ -529,9 +552,13 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   display:inline-flex;align-items:center;height:24px;padding:0 10px;border-radius:99px;
   font-size:11px;font-weight:600;border:1px solid var(--hair);background:var(--surface);color:var(--ink2);
 }
-.tag.lv-E{background:var(--goodSoft);color:var(--good);border-color:transparent}
-.tag.lv-C{background:var(--accSoft);color:var(--accInk);border-color:transparent}
-.tag.lv-A{background:var(--goldSoft);color:var(--gold);border-color:transparent}
+.tag.lv{gap:8px;padding-left:10px;font-weight:600;border-color:transparent}
+.tag.lv .pips{display:inline-flex;gap:3px;align-items:center}
+.tag.lv .pips b{width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.24}
+.tag.lv .pips b.on{opacity:1}
+.tag.lv1{background:var(--goodSoft);color:var(--good)}
+.tag.lv2{background:var(--accSoft);color:var(--accInk)}
+.tag.lv3{background:var(--goldSoft);color:var(--gold)}
 .tid{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--ink3)}
 .verktygsikoner{display:inline-flex;align-items:center;gap:5px;flex:none}
 .verktygsikon{
@@ -764,6 +791,72 @@ const loadedScripts=new Set();
 const PROFILE_KEY="kunskapsgymmet-profile-v1";
 let profile=loadProfile();
 
+/* ==========================================================
+   NAVIGERING
+   Varje vy blir ett steg i webbläsarens historik, så att bakåt
+   på mobilen tar eleven ett steg tillbaka i stället för att
+   lämna sidan. navStack speglar historiken i minnet så att
+   knapparna i gränssnittet kan gå bakåt i stället för att lägga
+   till ännu ett steg.
+   ========================================================== */
+const navStack=[];
+
+function navDesc(view){
+  return {view,course:state.course,track:state.track,
+          area:state.focusArea,family:state.focusFamily};
+}
+function navRecord(view,replace){
+  const st=navDesc(view);
+  st.depth = replace ? (history.state?.depth||0) : (history.state?.depth??-1)+1;
+  navStack.length=st.depth;
+  navStack.push(st);
+  const url = st.course ? "#"+st.course : location.pathname+location.search;
+  try{
+    if(replace) history.replaceState(st,"",url);
+    else history.pushState(st,"",url);
+  }catch(_){}
+}
+function navPrev(){
+  const d=history.state?.depth||0;
+  return d>0 ? navStack[d-1] : null;
+}
+/* Gå tillbaka till en vy: används av knapparna i gränssnittet.
+   Ligger vyn redan bakom oss backar vi dit i stället för att
+   stapla på ett nytt steg. */
+function navBackTo(view){
+  const p=navPrev();
+  if(p && p.view===view && p.course===state.course){ history.back(); return true; }
+  return false;
+}
+function backToDashboard(){
+  if(navBackTo("dashboard")) return;
+  navRecord("dashboard"); renderDashboard();
+}
+
+async function navRestore(st){
+  if(!st || !st.course){
+    state.course=null;state.data=null;state.track=null;state.currentTask=null;
+    state.openChapters=null;applyAccent();renderHome();return;
+  }
+  if(st.course!==state.course){
+    const ok=await selectCourse(st.course,{record:false,render:false});
+    if(!ok){ renderHome(); return; }
+  }
+  if(st.track) state.track=st.track;
+  state.focusArea=st.area||null;
+  state.focusFamily=st.family||null;
+  applyAccent();
+  switch(st.view){
+    case "picker":   showAreaPicker(false); break;
+    case "progress": showProgress(false); break;
+    case "summary":  renderSessionDone(false); break;
+    // En pågående uppgift går inte att återskapa, så vi landar i kursen.
+    case "training": state.currentTask?renderTraining():renderDashboard(); break;
+    default:         renderDashboard();
+  }
+}
+window.addEventListener("popstate",e=>{ navRestore(e.state); });
+
 function loadProfile(){
   let p;
   try{ p=JSON.parse(localStorage.getItem(PROFILE_KEY)); }catch(_){ p=null; }
@@ -860,7 +953,7 @@ const BADGES=[
   {id:"vecka", icon:"◈", name:"Sju raka dagar",  desc:"Träna 7 dagar i följd",       max:7,   cur:()=>profile.bestStreak},
   {id:"omr",   icon:"★", name:"Områdesmästare",  desc:"Nå 85 % i ett område",        max:85,  cur:()=>Math.round(bestAreaMastery()*100)},
   {id:"bredd", icon:"⬢", name:"Allsidig",        desc:"Träna i 8 olika områden",     max:8,   cur:()=>touchedAreas()},
-  {id:"topp",  icon:"▲", name:"Höjdhoppare",     desc:"25 rätt på A-nivå",           max:25,  cur:()=>profile.aCorrect}
+  {id:"topp",  icon:"▲", name:"Höjdhoppare",     desc:"25 rätt på nivå 3",           max:25,  cur:()=>profile.aCorrect}
 ];
 function badgeState(b){
   const cur=Math.max(0,Math.min(b.max,b.cur()||0));
@@ -1026,6 +1119,17 @@ function playIn(root){
   });
 }
 
+/* På pekskärm finns ingen hovring, så ett tryck visar beskrivningen. */
+function toggleTip(el,ev){
+  ev.stopPropagation();
+  const open=el.classList.contains("show");
+  document.querySelectorAll(".medal.show").forEach(m=>m.classList.remove("show"));
+  if(!open) el.classList.add("show");
+}
+document.addEventListener("click",()=>{
+  document.querySelectorAll(".medal.show").forEach(m=>m.classList.remove("show"));
+});
+
 function toggleChapter(kap,btn){
   const key=String(kap);
   const sec=btn.closest(".chapter");
@@ -1123,9 +1227,10 @@ async function loadScript(src){
   });
 }
 
-async function selectCourse(id){
+async function selectCourse(id,opts){
+  const {record=true,render=true}=opts||{};
   const c=COURSES[id];
-  if(!c) return;
+  if(!c) return false;
   const card=document.getElementById("course-"+id);
   if(card) card.classList.add("loading");
   try{
@@ -1141,12 +1246,14 @@ async function selectCourse(id){
     state.openChapters=null;
     ensureCourseProfile();
     applyAccent();
-    history.replaceState(null,"","#"+id);
-    renderDashboard();
+    if(record) navRecord("dashboard");
+    if(render) renderDashboard();
+    return true;
   }catch(err){
     console.error(err);
     if(card) card.classList.remove("loading");
-    alert("Kunde inte öppna kursen.\n\n"+err.message+"\n\nKontrollera att filerna ligger i samma mapp som index.html.");
+    if(render) alert("Kunde inte öppna kursen.\n\n"+err.message+"\n\nKontrollera att filerna ligger i samma mapp som index.html.");
+    return false;
   }
 }
 
@@ -1381,9 +1488,17 @@ function renderDashboard(){
           <div class="badgestrip">
             ${BADGES.slice(0,8).map(b=>{
               const s=badgeState(b);
-              return `<div class="medal ${s.on?'on':''}" title="${esc(b.name)} — ${esc(b.desc)}">
+              return `<button class="medal ${s.on?'on':''}" onclick="toggleTip(this,event)"
+                  aria-label="${esc(b.name)}: ${esc(b.desc)}. ${s.on?"Upplåst":s.cur+" av "+b.max}">
                 ${b.icon}${s.on?"":`<span class="frac">${s.cur}/${b.max}</span>`}
-              </div>`;
+                <span class="mtip">
+                  <b>${esc(b.name)}</b>
+                  <small>${esc(b.desc)}</small>
+                  ${s.on?`<span class="num done">Upplåst</span>`
+                        :`<span class="bar"><i style="width:${Math.round(s.pct*100)}%"></i></span>
+                          <span class="num">${s.cur} av ${b.max}</span>`}
+                </span>
+              </button>`;
             }).join("")}
           </div>
         </div>
@@ -1419,7 +1534,8 @@ function renderDashboard(){
    OMRÅDESVÄLJARE (punktträning på familjenivå)
    ========================================================== */
 
-function showAreaPicker(){
+function showAreaPicker(record){
+  if(record!==false) navRecord("picker");
   state.view="picker";
   const areas=getAreas();
   const grouped={};
@@ -1429,7 +1545,7 @@ function showAreaPicker(){
   app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
     <div class="chead">
       <div class="t">
-        <button class="crumb" onclick="renderDashboard()"><span aria-hidden="true">←</span> Tillbaka</button>
+        <button class="crumb" onclick="backToDashboard()"><span aria-hidden="true">←</span> Tillbaka</button>
         <h1>Punktträna</h1>
         <p>Välj område, eller en enskild uppgiftstyp för smalare träning.</p>
       </div>
@@ -1468,9 +1584,18 @@ function showAreaPicker(){
    URVAL OCH PASS
    ========================================================== */
 
+/* Bankens E, C och A visas för eleven som nivå 1, 2 och 3. */
+const NIVA={E:1,C:2,A:3};
 function levelOf(t){
   const n=String(t.niva||"E").toUpperCase();
   return (n==="A"||n==="C") ? n : "E";
+}
+function levelNumber(t){ return NIVA[levelOf(t)]; }
+function levelChip(t){
+  const n=levelNumber(t);
+  const pips=[1,2,3].map(i=>`<b class="${i<=n?"on":""}"></b>`).join("");
+  return `<span class="tag lv lv${n}" title="Svårighetsgrad ${n} av 3">
+    <span class="pips" aria-hidden="true">${pips}</span>Nivå ${n}</span>`;
 }
 function familyMastery(t,cp){
   const fs=(Array.isArray(t.familj)?t.familj:[t.familj]).filter(Boolean);
@@ -1548,24 +1673,42 @@ function beginSession(){
   state.sessionTarget=profile.goal||8;
 }
 function startAdaptive(){
-  state.focusArea=null;state.focusFamily=null;beginSession();nextTask();
+  state.focusArea=null;state.focusFamily=null;beginSession();
+  navRecord("training");nextTask();
 }
 function startArea(area){
-  state.focusArea=area;state.focusFamily=null;beginSession();nextTask();
+  state.focusArea=area;state.focusFamily=null;beginSession();
+  navRecord("training");nextTask();
 }
 function startFamily(area,family){
-  state.focusArea=area;state.focusFamily=family;beginSession();nextTask();
+  state.focusArea=area;state.focusFamily=family;beginSession();
+  navRecord("training");nextTask();
 }
-function continueSession(){ beginSession(); nextTask(); }
+function continueSession(){ beginSession(); navRecord("training",true); nextTask(); }
 function nextTask(){
   const t=chooseTask();
   if(!t){toast("Inga uppgifter hittades.");return;}
+  noteNewLevel(t);
   state.currentTask=t;state.answered=false;state.solutionShown=false;
   state.partResults=[];state.partIndex=0;state.noXp=false;
   state.lastIds.push(t.id);
   if(state.lastIds.length>12) state.lastIds.shift();
   renderTraining();
 }
+/* Första gången en högre svårighetsgrad dyker upp i kursen firas det. */
+function noteNewLevel(t){
+  const cp=ensureCourseProfile();
+  cp.sedda ||= {};
+  const L=levelOf(t);
+  if(L==="E" || cp.sedda[L]) return;
+  cp.sedda[L]=Date.now();
+  saveProfile();
+  const n=NIVA[L];
+  cheer(String(n),"Ny svårighetsgrad","Nivå "+n+" upplåst",
+    n===2 ? "Grunderna sitter. Härifrån blandas svårare uppgifter in."
+          : "Du är redo för kursens tuffaste uppgifter.");
+}
+
 function sessionLabel(){
   if(state.focusFamily) return familyName(state.focusFamily);
   if(state.focusArea) return areaName(state.focusArea);
@@ -1746,69 +1889,6 @@ function toolIcons(t){
     delar.push(`<span class="verktygsikon geogebra" title="GeoGebra tillåtet" aria-label="GeoGebra tillåtet"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="12" rx="7.2" ry="5.9" transform="rotate(-18 12 12)" fill="none" stroke="#9096A8" stroke-width="1.7"/><circle cx="12.1" cy="5.6" r="2.1" fill="#6F73D8" stroke="#ECECF7" stroke-width="1.1"/><circle cx="18.1" cy="8.6" r="2.1" fill="#6F73D8" stroke="#ECECF7" stroke-width="1.1"/><circle cx="18.4" cy="15.7" r="2.1" fill="#6F73D8" stroke="#ECECF7" stroke-width="1.1"/><circle cx="8.8" cy="18.1" r="2.1" fill="#6F73D8" stroke="#ECECF7" stroke-width="1.1"/><circle cx="5.3" cy="10.9" r="2.1" fill="#6F73D8" stroke="#ECECF7" stroke-width="1.1"/></svg></span>`);
   }
   return delar.length?`<span class="verktygsikoner">${delar.join("")}</span>`:"";
-}
-
-function renderTraining(){
-  state.view="training";
-  const t=state.currentTask;
-  if(!t) return renderDashboard();
-  const expectedInfo=expectedAnswersForTask(t);
-  const canAuto=expectedInfo.auto;
-  const answers=expectedInfo.answers;
-  const inferredParts=inferAnswerCount(t);
-  const inputCount=answers.length || inferredParts || 1;
-  const meta=[
-    `<span class="badge level-${esc(t.niva||"E")}">${esc(t.niva||"E")}-nivå</span>`,
-    `<span class="badge">${esc(areaName(t.omr))}</span>`,
-    family?`<span class="badge">${esc(familyName(family))}</span>`:"",
-    t.formaga?`<span class="badge">${esc(abilityText(t.formaga))}</span>`:"",
-    t.miniräknare?`<span class="badge">Miniräknare</span>`:"",
-    t.geogebra?`<span class="badge">GeoGebra</span>`:""
-  ].join("");
-
-  const isLongAnswer=["resonemang","text"].includes(String(t.svarstyp||"").toLowerCase());
-  const fieldHtml=Array.from({length:inputCount},(_,i)=>`
-    <div class="answer-line">
-      <label>${inputCount>1?String.fromCharCode(97+i)+")":""}</label>
-      ${isLongAnswer
-        ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"></textarea>`
-        : `<input id="ans-${i}" autocomplete="off" inputmode="text" placeholder="${inputCount>1?'Svar '+String.fromCharCode(97+i):'Ditt svar'}" onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">`
-      }
-    </div>`).join("");
-
-  const answerUI=`
-    <h3>Skriv ditt svar${canAuto?"":" innan du visar facit"}</h3>
-    <div class="answer-inputs">${fieldHtml}</div>
-    <div class="answer-actions">
-      ${canAuto
-        ? `<button class="primary" onclick="checkAnswer()">Kontrollera</button>
-           <button class="ghost" onclick="showSolution()">Visa lösning</button>`
-        : `<button class="primary" onclick="showSolution()">Visa facit och jämför</button>`
-      }
-    </div>
-    ${canAuto?`<div class="muted" style="margin-top:9px;font-size:12px">
-      Likvärdiga algebraiska uttryck godkänns. Du kan använda både decimalcomma och decimalpunkt.
-      ${expectedInfo.source==="facit"?" Slutsvaret har identifierats säkert från uppgiftens facit.":""}
-    </div>`:`<div class="muted" style="margin-top:9px;font-size:12px">
-      Den här uppgiften saknar ett tillräckligt säkert maskinrättningssvar. Efter facit får du markera om du hade rätt.
-    </div>`}`;
-
-  app.innerHTML=`
-    <div class="training-shell">
-      <div class="training-top">
-        <button class="breadcrumb" onclick="renderDashboard()">← Avsluta passet</button>
-        <div class="grow"></div>
-        <span class="session-progress">${state.sessionDone} avklarade</span>
-        <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
-      </div>
-      <article class="task-card">
-        <div class="task-meta">${meta}<span class="task-id">#${esc(t.id)}</span></div>
-        <div class="task-body">${t.t||""}</div>
-        <div class="answer-zone" id="answer-zone">${answerUI}<div id="answer-result"></div><div id="solution-holder"></div></div>
-      </article>
-    </div>`;
-  renderMath(app);
-  setTimeout(()=>document.getElementById("ans-0")?.focus(),60);
 }
 
 /* ==========================================================
@@ -2072,9 +2152,8 @@ function renderTraining(){
   const inferredParts=inferAnswerCount(t);
   const inputCount=answers.length || inferredParts || 1;
 
-  // Nivå, område och familj visas inte för eleven under passet.
-  // Hjälpmedlen visas däremot, som ikoner före uppgiften.
-  const meta=toolIcons(t);
+  // Svårighetsgraden visas, men inte område och familj.
+  const meta=levelChip(t)+toolIcons(t);
 
   const isLongAnswer=["resonemang","text"].includes(String(t.svarstyp||"").toLowerCase());
   // Med automatisk rättning besvaras deluppgifterna en i taget.
@@ -2103,7 +2182,7 @@ function renderTraining(){
   app.innerHTML=`
     <div class="tshell view">
       <div class="ttop">
-        <button class="crumb" onclick="renderDashboard()"><span aria-hidden="true">←</span> Avsluta</button>
+        <button class="crumb" onclick="backToDashboard()"><span aria-hidden="true">←</span> Avsluta</button>
         <div class="spacer"></div>
         <span class="tag" style="background:transparent;border-color:var(--hair)">${esc(sessionLabel())}</span>
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
@@ -2325,7 +2404,9 @@ function selfGrade(ok){ if(!state.answered) finishAttempt(ok); }
    PASSRAPPORT
    ========================================================== */
 
-function renderSessionDone(){
+function renderSessionDone(record){
+  // Passrapporten ersätter träningssteget, så bakåt leder till kursen.
+  if(record!==false) navRecord("summary",true);
   state.view="summary";
   const total=state.sessionDone||1;
   const acc=Math.round(state.sessionCorrect/total*100);
@@ -2376,7 +2457,7 @@ function renderSessionDone(){
 
     <div class="aacts" style="justify-content:center;margin-top:22px">
       <button class="btn primary" onclick="continueSession()">Fortsätt träna <span aria-hidden="true">→</span></button>
-      <button class="btn" onclick="renderDashboard()">Till kursen</button>
+      <button class="btn" onclick="backToDashboard()">Till kursen</button>
       <button class="btn quiet" onclick="showProgress()">Min utveckling</button>
     </div>
   </main>`;
@@ -2387,8 +2468,9 @@ function renderSessionDone(){
    MIN UTVECKLING
    ========================================================== */
 
-function showProgress(){
+function showProgress(record){
   if(!state.course) return renderHome();
+  if(record!==false) navRecord("progress");
   state.view="progress";
   const strong=strongAreas(5), weak=weakAreas(5), families=weakFamilies(8);
   const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
@@ -2398,7 +2480,7 @@ function showProgress(){
   app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
     <div class="chead">
       <div class="t">
-        <button class="crumb" onclick="renderDashboard()"><span aria-hidden="true">←</span> Till kursen</button>
+        <button class="crumb" onclick="backToDashboard()"><span aria-hidden="true">←</span> Till kursen</button>
         <h1>Min utveckling</h1>
         <p>Profilen uppdateras efter varje tränad uppgift.</p>
       </div>
@@ -2475,9 +2557,10 @@ function showProgress(){
 function showFeedback(){ showProgress(); }
 
 function goHome(){
+  if(navBackTo("home")) return;
   state.course=null;state.data=null;state.track=null;state.currentTask=null;
-  applyAccent();
-  history.replaceState(null,"",location.pathname+location.search);
+  state.openChapters=null;applyAccent();
+  navRecord("home");
   renderHome();
 }
 
@@ -2492,8 +2575,11 @@ function render(){
 
 /* Om sidan öppnas som index.html#ma1 laddas kursen direkt. */
 window.addEventListener("load",async()=>{
-  renderHome();
+  // Adressen läses först: navRecord skriver om den och skulle annars
+  // radera hashen innan vi hunnit se vilken kurs som efterfrågas.
   const id=location.hash.replace("#","");
+  renderHome();
+  navRecord("home",true);
   if(COURSES[id]) await selectCourse(id);
 });
 

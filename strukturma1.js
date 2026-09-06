@@ -112,143 +112,18 @@ window.OMRMA1 = {
   }
 };
 
-/* Grupper: varje post blir ETT kort på kurssidan. Områdena finns kvar
-   var för sig i punktträningen och i Min utveckling, så småområden som
-   Faktorisering går fortfarande att punktträna enskilt.
-   Kapitel 6 saknar grupper eftersom det är bortvalt i index.html. */
+/* Grupper: bara riktigt uppenbara ihopslagningar, där delarna är
+   metoder för samma sak. Allt annat är egna kort. Varje område går
+   fortfarande att träna enskilt i punktträningen. */
 
 window.GRUPPMA1 = {
-  "0": [
-    {
-      "id": "tal_raknesatt",
-      "namn": "Tal och räknesätt",
-      "omr": [
-        "tal_rakneordning",
-        "negativa_tal",
-        "decimaltal_positionssystem",
-        "brakrakning"
-      ]
-    },
-    {
-      "id": "avrundning_overslag",
-      "namn": "Avrundning och överslag",
-      "omr": [
-        "avrundning",
-        "overslag_grunder"
-      ]
-    },
-    {
-      "id": "enheter_tiopotenser",
-      "namn": "Enheter och tiopotenser",
-      "omr": [
-        "enhetsbyten",
-        "tiopotenser_prefix"
-      ]
-    }
-  ],
-  "1": [
-    {
-      "id": "uttryck_formler",
-      "namn": "Uttryck och formler",
-      "omr": [
-        "algebraiska_uttryck",
-        "multiplicera_uttryck",
-        "faktorisering",
-        "formler"
-      ]
-    },
-    {
-      "id": "ekvationer_olikheter",
-      "namn": "Ekvationer och olikheter",
-      "omr": [
-        "linjara_ekvationer",
-        "intervall",
-        "linjara_olikheter"
-      ]
-    }
-  ],
-  "2": [
-    {
-      "id": "funktionsbegreppet_grupp",
-      "namn": "Funktionsbegreppet",
-      "omr": [
-        "funktionsbegreppet",
-        "representationer",
-        "definitionsmangd_vardemangd",
-        "funktionsvarden",
-        "grafisk_ekvationslosning"
-      ]
-    },
-    {
-      "id": "linjara_funktioner_grupp",
-      "namn": "Linjära funktioner",
-      "omr": [
-        "linjara_funktioner",
-        "rata_linjens_ekvation",
-        "bestamma_linjar_funktion"
-      ]
-    },
-    {
-      "id": "exponential_potens",
-      "namn": "Exponential- och potensfunktioner",
-      "omr": [
-        "exponentialfunktioner",
-        "potensfunktioner",
-        "jamfora_modeller"
-      ]
-    }
-  ],
-  "3": [
-    {
-      "id": "potenser_grupp",
-      "namn": "Potenser",
-      "omr": [
-        "potensregler",
-        "potensekvationer"
-      ]
-    },
-    {
-      "id": "procent_grupp",
-      "namn": "Procent och förändringsfaktor",
-      "omr": [
-        "procent",
-        "index",
-        "forandringsfaktor"
-      ]
-    },
-    {
-      "id": "flera_forandringar",
-      "namn": "Förändringar i flera steg",
-      "omr": [
-        "upprepade_forandringar",
-        "genomsnittlig_forandring"
-      ]
-    },
-    {
-      "id": "ranta_lan",
-      "namn": "Ränta och lån",
-      "omr": [
-        "ranta",
-        "amortering"
-      ]
-    }
-  ],
   "4": [
     {
-      "id": "pythagoras_koordinater",
-      "namn": "Pythagoras sats och koordinatsystem",
-      "omr": [
-        "pythagoras",
-        "koordinatgeometri"
-      ]
-    },
-    {
-      "id": "trigonometri_grupp",
+      "id": "trigonometri_ratvinklig",
       "namn": "Trigonometri i rätvinkliga trianglar",
       "omr": [
         "sinus_cosinus_tangens",
-        "arcusfunktioner",
-        "strackor_vinklar"
+        "arcusfunktioner"
       ]
     },
     {
@@ -259,79 +134,6 @@ window.GRUPPMA1 = {
         "vektor_addition_subtraktion",
         "vektor_absolutbelopp",
         "vektor_skalar"
-      ]
-    }
-  ],
-  "5": [
-    {
-      "id": "sannolikhet_grund",
-      "namn": "Grundläggande sannolikhet",
-      "omr": [
-        "grundlaggande_sannolikhet",
-        "komplementhandelse"
-      ]
-    },
-    {
-      "id": "sannolikhet_steg",
-      "namn": "Sannolikhet i flera steg",
-      "omr": [
-        "oberoende_handelser",
-        "beroende_handelser",
-        "sannolikhet_flera_steg"
-      ]
-    },
-    {
-      "id": "samband_signifikans",
-      "namn": "Samband och signifikans",
-      "omr": [
-        "korrelation",
-        "kausalitet",
-        "signifikans"
-      ]
-    },
-    {
-      "id": "urval_felkallor",
-      "namn": "Urval, felkällor och risk",
-      "omr": [
-        "urvalsmetoder",
-        "felkallor",
-        "risk_sakerhet"
-      ]
-    }
-  ],
-  "7": [
-    {
-      "id": "proportionalitet_skala",
-      "namn": "Proportionalitet och skala",
-      "omr": [
-        "proportionalitet_yrke",
-        "skala_likformighet"
-      ]
-    },
-    {
-      "id": "matning_felmarginal",
-      "namn": "Mätning, uppskattning och felmarginaler",
-      "omr": [
-        "matning_enheter",
-        "uppskattning_overslag",
-        "matfel_felmarginal",
-        "sakerhetsmarginaler"
-      ]
-    },
-    {
-      "id": "material_kostnad",
-      "namn": "Materialåtgång och kostnader",
-      "omr": [
-        "spill_svinnostnad",
-        "kostnadsberakningar"
-      ]
-    },
-    {
-      "id": "yrkesformler_verktyg",
-      "namn": "Formler och hjälpmedel i yrket",
-      "omr": [
-        "yrkesformler",
-        "yrkesverktyg"
       ]
     }
   ]

@@ -374,20 +374,8 @@ window.SPARMA2 = {
     ]
   }
 };
-
-/* Grupper: varje post blir ETT kort på kurssidan. Områdena finns kvar
-   var för sig i punktträningen och i Min utveckling. */
 window.GRUPPMA2 = {
   "1": [
-    {
-      "id": "rata_linjen",
-      "namn": "Räta linjen",
-      "omr": [
-        "rata_linjens_ekvation",
-        "linjara_representationer",
-        "bestamma_linjara_funktioner"
-      ]
-    },
     {
       "id": "ekvationssystem",
       "namn": "Ekvationssystem",
@@ -399,16 +387,6 @@ window.GRUPPMA2 = {
         "ekvationssystem_tre_obekanta",
         "speciella_ekvationssystem",
         "ekvationssystem_tillampningar"
-      ]
-    },
-    {
-      "id": "algebraiska_omskrivningar",
-      "namn": "Parenteser, regler och faktorisering",
-      "omr": [
-        "multiplicera_parenteser",
-        "konjugatregeln",
-        "kvadreringsreglerna",
-        "faktorisering"
       ]
     }
   ],
@@ -423,115 +401,18 @@ window.GRUPPMA2 = {
         "losningsformel_andragrad",
         "mer_om_andragradsekvationer",
         "samband_roter_koefficienter",
-        "andragradsekvationer_tillampningar",
-        "rotekvationer"
+        "andragradsekvationer_tillampningar"
       ]
     },
     {
       "id": "andragradsfunktioner",
       "namn": "Andragradsfunktioner",
       "omr": [
-        "funktionsskrivsatt_rep",
         "andragradsfunktioner",
         "andragradsfunktion_graf",
         "symmetrilinje_extrempunkt",
         "fran_graf_till_formel",
         "andragradsfunktioner_tillampningar"
-      ]
-    },
-    {
-      "id": "potenser_exponential",
-      "namn": "Potenser och exponentialfunktioner",
-      "omr": [
-        "potensregler",
-        "potensfunktioner",
-        "exponentialfunktioner",
-        "exponentialgraf"
-      ]
-    },
-    {
-      "id": "logaritmer_ekvationer",
-      "namn": "Logaritmer och exponentialekvationer",
-      "omr": [
-        "logaritmbegreppet",
-        "logaritmlagar",
-        "exponentialekvationer",
-        "potensekvationer",
-        "jamfora_exponential_potens"
-      ]
-    },
-    {
-      "id": "regression",
-      "namn": "Regression och modellval",
-      "omr": [
-        "regressionsanalys_olika_modeller",
-        "modellval_regression"
-      ]
-    }
-  ],
-  "3": [
-    {
-      "id": "bevis_logik",
-      "namn": "Satser, bevis och logik",
-      "omr": [
-        "geometriska_begrepp_definitioner",
-        "sats_bevis",
-        "implikation_ekvivalens"
-      ]
-    },
-    {
-      "id": "vinklar_satser",
-      "namn": "Vinkelsatser och cirkeln",
-      "omr": [
-        "yttervinkelsatsen",
-        "randvinkel_medelpunkt",
-        "kordasatsen_biskarningssatsen"
-      ]
-    },
-    {
-      "id": "likformighet",
-      "namn": "Likformighet och trianglar",
-      "omr": [
-        "pythagoras",
-        "likformighet",
-        "topptriangel_transversal",
-        "bevis_likformighet"
-      ]
-    },
-    {
-      "id": "koordinatgeometri",
-      "namn": "Koordinatgeometri",
-      "omr": [
-        "avstandsformeln_mittpunktsformeln",
-        "koordinatgeometri_problemlosning"
-      ]
-    }
-  ],
-  "4": [
-    {
-      "id": "lagesmatt_spridning",
-      "namn": "Lägesmått och spridning",
-      "omr": [
-        "lagesmatt",
-        "kvartiler_percentiler",
-        "ladagram",
-        "standardavvikelse"
-      ]
-    },
-    {
-      "id": "samband_regression",
-      "namn": "Samband och regression",
-      "omr": [
-        "linjar_regression",
-        "korrelation_koefficient"
-      ]
-    },
-    {
-      "id": "normalfordelning",
-      "namn": "Normalfördelning",
-      "omr": [
-        "normalfordelat_material",
-        "normalfordelning_digitala_verktyg"
       ]
     }
   ]

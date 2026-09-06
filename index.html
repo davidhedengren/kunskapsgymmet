@@ -398,10 +398,21 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .side{position:sticky;top:82px;display:grid;gap:12px}
 .chapter{margin-bottom:8px}
 .chapter.open{margin-bottom:24px}
+.chapter-row{display:flex;align-items:center;gap:8px}
 .chapter-head{
-  width:100%;display:flex;align-items:center;gap:11px;padding:11px 4px;text-align:left;color:var(--ink3);
+  flex:1;min-width:0;display:flex;align-items:center;gap:11px;padding:11px 4px;text-align:left;color:var(--ink3);
   border-radius:12px;transition:color .2s ease,background .2s ease;
 }
+.kaptrana{
+  flex:none;padding:6px 12px;border-radius:99px;font-size:12px;font-weight:600;
+  border:1px solid var(--hair);background:var(--surface);color:var(--ink2);
+  opacity:0;transform:translateX(-4px);transition:.22s var(--ease);
+}
+.chapter-row:hover .kaptrana,.chapter.open .kaptrana,.kaptrana:focus-visible{opacity:1;transform:none}
+.kaptrana:hover{border-color:transparent;background:var(--accSoft);color:var(--accInk)}
+.kaptrana:active{transform:scale(.96)}
+/* På pekskärm finns ingen hovring, så knappen står framme. */
+@media(hover:none){.kaptrana{opacity:1;transform:none}}
 .chapter-head:hover{color:var(--ink);background:var(--toneHover,transparent)}
 .chapter-head .chev{
   flex:none;width:15px;height:15px;color:var(--ink3);
@@ -737,6 +748,25 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .aline input:focus,.aline textarea:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 4px var(--accSoft)}
 .aline textarea{min-height:96px;resize:vertical;line-height:1.5}
+/* Symbolraden visas bara där den behövs: pekskärmar utan hovring.
+   Med fysiskt tangentbord är tecknen redan en knapptryckning bort. */
+.symrad{display:none}
+@media(hover:none){
+  .symrad{
+    display:flex;gap:6px;margin-top:12px;overflow-x:auto;padding-bottom:2px;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none;
+  }
+  .symrad::-webkit-scrollbar{display:none}
+}
+.symtgt{
+  flex:1 0 auto;min-width:42px;height:42px;padding:0 10px;border-radius:12px;
+  border:1px solid var(--hair);background:var(--surface);color:var(--ink);
+  font-family:var(--read);font-size:17px;line-height:1;letter-spacing:0;
+  box-shadow:0 1px 2px rgba(11,33,51,.05);
+  transition:transform .15s var(--ease),background .15s ease;
+}
+.symtgt:active{transform:scale(.93);background:var(--accSoft)}
+
 .aacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
 .hint{margin-top:10px;font-size:12px;color:var(--ink3);line-height:1.5}
 .notice{
@@ -1143,6 +1173,7 @@ const state={
   course:null, track:null, data:null, view:"home",
   focusArea:null, focusFamily:null,
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
+  aktivRuta:0,
   focusOmr:null, focusNamn:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
   lastIds:[], solutionShown:false, answered:false
@@ -1484,15 +1515,19 @@ const CHEV='<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentCol
 
 const TONE_VAR={"t-good":"var(--good)","t-mid":"var(--acc)","t-low":"var(--warn)","t-new":"var(--hair2)"};
 
-function chapterHead(kap,namn,omraden){
+function chapterHead(kap,namn,omraden,tranaKnapp){
   const open=state.openChapters.has(String(kap));
   // Prickarna sammanfattar kapitlets läge när det är hopfällt.
   const dots=omraden.slice(0,10)
     .map(a=>`<i style="--d:${TONE_VAR[(a.omr?cardStatus(a):areaStatus(a.key)).tone]}"></i>`).join("");
-  return `<button class="chapter-head" aria-expanded="${open}" onclick="toggleChapter('${esc(String(kap))}',this)">
-    ${CHEV}<span class="name">${esc(namn)}</span><span class="rule"></span>
-    <span class="kdots">${dots}</span><span class="n">${omraden.length}</span>
-  </button>`;
+  return `<div class="chapter-row">
+    <button class="chapter-head" aria-expanded="${open}" onclick="toggleChapter('${esc(String(kap))}',this)">
+      ${CHEV}<span class="name">${esc(namn)}</span><span class="rule"></span>
+      <span class="kdots">${dots}</span><span class="n">${omraden.length}</span>
+    </button>
+    ${tranaKnapp===false?"":`<button class="kaptrana" onclick="startChapter('${esc(String(kap))}')"
+        title="Träna hela kapitlet">Träna allt</button>`}
+  </div>`;
 }
 
 /* Spelar upp ringar, mätare och inglidning igen när ett kapitel öppnas. */
@@ -1530,7 +1565,7 @@ document.addEventListener("click",stängTips);
 
 function toggleChapter(kap,btn){
   const key=String(kap);
-  const sec=btn.closest(".chapter");
+  const sec=btn.closest(".chapter");   // raden ligger inuti sektionen
   const body=sec.querySelector(".chapter-body");
   const open=state.openChapters.has(key);
   if(open){
@@ -1787,6 +1822,12 @@ function areaName(key){
   if(key in omr && typeof omr[key]==="string") return omr[key];
   return key ? key.replaceAll("_"," ") : "Övrigt";
 }
+/* Kapitelnummer för sortering. Kapitel "0" finns i Ma1, så noll får
+   inte falla igenom som saknat värde. */
+function kapNr(x){
+  const n=Number(x);
+  return Number.isFinite(n) ? n : 99;
+}
 function chapterName(kap){
   const k=state.data?.kap||{};
   return k[kap] || k[String(kap)] || `Kapitel ${kap}`;
@@ -1826,7 +1867,7 @@ function getAreas(){
     }
   }
   return Object.values(by).sort((a,b)=>
-    (+a.kap||99)-(+b.kap||99) ||
+    kapNr(a.kap)-kapNr(b.kap) ||
     (ordning[a.key] ?? 9999)-(ordning[b.key] ?? 9999) ||
     a.name.localeCompare(b.name,"sv"));
 }
@@ -1957,7 +1998,7 @@ function renderDashboard(){
 
   const grouped={};
   kort.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
-  const chapters=Object.keys(grouped).sort((a,b)=>(+a||99)-(+b||99));
+  const chapters=Object.keys(grouped).sort((a,b)=>kapNr(a)-kapNr(b));
   const manyChapters=chapters.length>1;
   // Första gången kursen visas står första kapitlet öppet, resten hopfällda.
   if(!state.openChapters) state.openChapters=new Set(manyChapters?[String(chapters[0])]:chapters.map(String));
@@ -1979,7 +2020,7 @@ function renderDashboard(){
             </span>
             <span class="area-txt">
               <strong>${esc(a.name)}</strong>
-              <span class="state">${s.label}${a.grupp?` · ${a.omr.length} delar`:""}</span>
+              <span class="state">${s.label}</span>
             </span>
           </button>`;
         }).join("")}
@@ -2089,7 +2130,7 @@ function showAreaPicker(record){
   const areas=getAreas();
   const grouped={};
   areas.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
-  const kapitel=Object.keys(grouped).sort((a,b)=>(+a||99)-(+b||99));
+  const kapitel=Object.keys(grouped).sort((a,b)=>kapNr(a)-kapNr(b));
   if(!state.openChapters) state.openChapters=new Set(kapitel.length>1?[String(kapitel[0])]:kapitel.map(String));
   app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
     <div class="chead">
@@ -2103,7 +2144,7 @@ function showAreaPicker(record){
       const open=state.openChapters.has(String(kap));
       return `
       <section class="chapter${open?" open":""}">
-        ${chapterHead(kap,chapterName(kap),grouped[kap])}
+        ${chapterHead(kap,chapterName(kap),grouped[kap],false)}
         <div class="chapter-body"${open?"":" hidden"}>
         <div class="area-grid stagger" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">
           ${grouped[kap].map(a=>{
@@ -2227,7 +2268,7 @@ function meanLevels(list){
 function chapterProgress(){
   const by={};
   getAreas().forEach(a=>{(by[a.kap] ||= []).push(a)});
-  return Object.keys(by).sort((x,y)=>(+x||99)-(+y||99)).map(kap=>{
+  return Object.keys(by).sort((x,y)=>kapNr(x)-kapNr(y)).map(kap=>{
     const q=meanLevels(by[kap].map(a=>areaLevels(a.key)));
     return {kap,name:chapterName(kap),antal:by[kap].length,q,score:scoreOf(q)};
   });
@@ -2353,6 +2394,16 @@ function startArea(area){
 /* Ett grupperat kort tränar alla sina områden. Vilket område varje
    uppgift kommer från avgörs som i det adaptiva läget, och nivån
    räknas per område precis som annars. */
+/* Hela kapitlet i ett pass. Uppgifterna hämtas från kapitlets alla
+   områden, och nivån räknas per område precis som annars. */
+function startChapter(kap){
+  const omr=getAreas().filter(a=>String(a.kap)===String(kap)).map(a=>a.key);
+  if(!omr.length) return;
+  state.focusArea=null;state.focusOmr=omr;state.focusNamn=chapterName(kap);
+  state.focusFamily=null;beginSession();
+  navRecord("training");nextTask();
+}
+
 function startCard(key){
   const kort=getCards().find(k=>k.key===key);
   if(!kort) return startArea(key);
@@ -2372,7 +2423,7 @@ function nextTask(){
   if(!t){toast("Inga uppgifter hittades.");return;}
   noteNewLevel(t);
   state.currentTask=t;state.answered=false;state.solutionShown=false;
-  state.partResults=[];state.partIndex=0;state.noXp=false;
+  state.partResults=[];state.partIndex=0;state.noXp=false;state.aktivRuta=0;
   state.lastIds.push(t.id);
   if(state.lastIds.length>12) state.lastIds.shift();
   renderTraining();
@@ -2629,6 +2680,47 @@ function answerLayout(t){
     info.delAuto ? !!info.delAuto[i] : !!info.auto);
   return {info,n,ordnad,flersvar:n>1&&!ordnad,taggat,delarTaggat,delAuto,
           blandad:delAuto.some(Boolean)&&delAuto.some(x=>!x)};
+}
+
+/* Rent numeriskt facit -> telefonen öppnar sifferlayouten direkt.
+   Negativa svar undantas, eftersom flera sifferlayouter saknar minus. */
+function numerisktSvar(facit){
+  if(facit===null||facit===undefined) return false;
+  const x=String(facit).trim().replace(",",".");
+  return /^\d+(\.\d+)?$/.test(x);
+}
+
+/* ==========================================================
+   SYMBOLRAD
+   En smal rad med tecken som är omständliga att nå på pekskärm.
+   Den skriver vanlig text i fältet — ingen strukturerad matematik —
+   och tecknen är sådana som rättningsmotorn redan normaliserar.
+   ========================================================== */
+const SYMBOLER={
+  matematik:[["−","−"],["(","("],[")",")"],["/","/"],["^","^"],
+             ["√","√"],["π","π"],["x","x"],["≈","≈"]],
+  fysik:    [["−","−"],[",",","],["·10^","·10^"],["^","^"],["√","√"],
+             ["π","π"],["/","/"],["(","("],[")",")"]]
+};
+function symbolrad(){
+  const amne=COURSES[state.course]?.subject==="Fysik" ? "fysik" : "matematik";
+  return `<div class="symrad" aria-label="Matematiska tecken">
+    ${SYMBOLER[amne].map(([txt,tecken])=>
+      `<button type="button" class="symtgt" onmousedown="event.preventDefault()"
+        onclick="skrivTecken('${tecken}')">${esc(txt)}</button>`).join("")}
+  </div>`;
+}
+/* Skriver tecknet vid markören i den ruta eleven senast var i. */
+function skrivTecken(tecken){
+  const i = state.aktivRuta ?? state.partIndex ?? 0;
+  const el = document.getElementById("ans-"+i);
+  if(!el || el.readOnly || el.disabled) return;
+  const start = el.selectionStart ?? el.value.length;
+  const slut  = el.selectionEnd ?? start;
+  el.value = el.value.slice(0,start) + tecken + el.value.slice(slut);
+  const pos = start + tecken.length;
+  el.focus();
+  try{ el.setSelectionRange(pos,pos); }catch(_){}
 }
 
 /* Verktygsikoner, samma märkning som i Uppgiftslabbet.
@@ -2924,10 +3016,14 @@ function renderTraining(){
       <div class="aline">
         <label>${inputCount<2?"":layout.ordnad?String.fromCharCode(97+i)+")":(i+1)+"."}</label>
         ${isLongAnswer
-          ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"${stepwise&&i>0?" disabled":""}></textarea>`
-          : `<input id="ans-${i}" autocomplete="off" inputmode="text" placeholder="${
+          ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"${stepwise&&i>0?" disabled":""} onfocus="state.aktivRuta=${i}"></textarea>`
+          : `<input id="ans-${i}" autocomplete="off"
+              inputmode="${numerisktSvar(expectedInfo.answers[i])?"decimal":"text"}"
+              placeholder="${
                 inputCount<2?"Ditt svar":layout.ordnad?"Svar "+String.fromCharCode(97+i):"Svar "+(i+1)
-              }"${stepwise&&i>0?" disabled":""} onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">`
+              }"${stepwise&&i>0?" disabled":""}
+              onfocus="state.aktivRuta=${i}"
+              onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">`
         }
         ${canAuto?`<span class="mark" aria-hidden="true"></span>`:""}
       </div>
@@ -2964,6 +3060,7 @@ function renderTraining(){
           <h3>Ditt svar</h3>
           ${partLine}
           <div class="ainputs">${fieldHtml}</div>
+          ${isLongAnswer?"":symbolrad()}
           <div class="aacts">
             ${canAuto
               ? `<button class="btn primary" onclick="checkAnswer()">Kontrollera</button>

@@ -782,7 +782,7 @@ const app=document.getElementById("app");
 const state={
   course:null, track:null, data:null, view:"home",
   focusArea:null, focusFamily:null,
-  currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0,
+  currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
   lastIds:[], solutionShown:false, answered:false
 };
@@ -1603,30 +1603,88 @@ function familyMastery(t,cp){
   return Math.min(...fs.map(f=>mastery(cp.families,f)));
 }
 
-/* Hur mycket eleven har visat i det som tränas just nu:
-   både hur väl det går och hur mycket som är gjort. */
-function scopeStats(){
+/* ==========================================================
+   RÖRLIGA NIVÅGRÄNSER
+   Varje svårighetsgrad har ett eget resultat per område. Det gör att
+   appen kan skilja på "svarar fel på nivå 1" och "svarar fel på
+   nivå 2", och förskjuta blandningen åt rätt håll i båda fallen.
+   ========================================================== */
+
+function levelStats(area,L){
   const cp=ensureCourseProfile();
-  if(state.focusArea){
-    const m=typeof cp.areas[state.focusArea]==="number" ? cp.areas[state.focusArea] : .5;
-    const c=cp.history.filter(h=>h.area===state.focusArea).length;
-    return {m,c};
+  cp.levels ||= {};
+  if(!cp.levels[area]){
+    // Har eleven redan tränat området före uppdateringen ärvs den
+    // gamla siffran som ett resultat på nivå 1, så ingen börjar om.
+    const m = typeof cp.areas[area]==="number" ? cp.areas[area] : null;
+    const n = m===null ? 0 : Math.min(8,cp.history.filter(h=>h.area===area).length);
+    cp.levels[area]={E:{s:m===null?.5:m,n},C:{s:.5,n:0},A:{s:.5,n:0}};
   }
-  const vals=Object.values(cp.areas);
-  const m=vals.length ? vals.reduce((a,b)=>a+b,0)/vals.length : .5;
-  return {m,c:cp.history.length};
+  return cp.levels[area][L] || (cp.levels[area][L]={s:.5,n:0});
+}
+function updateLevelStat(area,L,ok){
+  if(!area) return;
+  const st=levelStats(area,L);
+  // Snabbare utslag än områdets mastery: gränserna ska röra sig
+  // inom några uppgifter, inte över ett helt kapitel.
+  st.s = ok ? st.s + .16*(1-st.s) : st.s - .22*st.s;
+  st.s = Math.max(.06,Math.min(.97,st.s));
+  st.n = (st.n||0)+1;
+}
+/* Resultatet för en nivå i ett bestämt område. Varje område har sin
+   egen resa: den som är stark i ett område börjar ändå på nivå 1 i
+   nästa, eftersom innehållet är nytt. */
+function scopeLevel(L,area){
+  const st=levelStats(area,L);
+  return {s:st.s,n:st.n||0};
 }
 
-/* Alla börjar på E. C öppnar när det börjar sitta, A först därefter.
-   Går det sämre stängs de högre nivåerna ned igen. */
-function levelWeights(){
-  const {m,c}=scopeStats();
-  const r=.55*m + .45*Math.min(1,c/16);
+/* behärskar: redo att lämna nivån bakom sig.
+   klarar:    hänger med på nivån just nu. En nivå som ännu inte är
+              prövad får förtroendet .6, så att den introduceras mjukt. */
+const behärskar = x => Math.max(0,Math.min(1,(x.s-.55)/.25)) * Math.max(0,Math.min(1,x.n/6));
+const klarar    = x => x.n<2 ? .6 : Math.max(0,Math.min(1,(x.s-.35)/.30));
+
+function levelWeights(area){
+  const e=scopeLevel("E",area), c=scopeLevel("C",area), a=scopeLevel("A",area);
+  const m1=behärskar(e), m2=behärskar(c), k2=klarar(c), k3=klarar(a);
   return {
-    E: Math.max(.22, 1 - r),
-    C: r<.38 ? 0 : Math.min(.55,(r-.34)*1.3),
-    A: r<.66 ? 0 : Math.min(.38,(r-.64)*1.2)
+    // Nivå 1 viker undan först när grunderna sitter OCH nivå 2 går bra.
+    // Kärvar det på nivå 2 kommer nivå 1 tillbaka av sig själv.
+    E: 1 - .90*m1*k2,
+    C: m1*(.25+.75*k2),
+    A: m1*m2*(.25+.75*k3)
   };
+}
+
+/* Normaliserad blandning, med golv för nivå 1. */
+const NIVA_GOLV=.10;
+function levelMix(finns,area){
+  const w=levelWeights(area);
+  const order=["E","C","A"];
+  order.forEach(L=>{ if(!finns[L]) w[L]=0; });
+  const tot=order.reduce((x,L)=>x+w[L],0);
+  if(!tot) return null;
+  const mix={};
+  order.forEach(L=>mix[L]=w[L]/tot);
+  if(finns.E && mix.E<NIVA_GOLV){
+    const kvar=1-NIVA_GOLV, ovrigt=mix.C+mix.A;
+    mix.E=NIVA_GOLV;
+    if(ovrigt>0){ mix.C=mix.C/ovrigt*kvar; mix.A=mix.A/ovrigt*kvar; }
+  }
+  return mix;
+}
+
+/* I adaptivt läge bestäms området före nivån, så att varje område
+   får sin egen nivåblandning. Svaga områden får lite förtur och det
+   senast tränade hålls tillbaka för variationens skull. */
+function chooseArea(pool){
+  const cp=ensureCourseProfile();
+  const areas=[...new Set(pool.map(t=>t.omr||"ovrigt"))];
+  if(areas.length<2) return areas[0];
+  return areas
+    .map(a=>({a,k:mastery(cp.areas,a)*.5 + (a===state.lastArea?.45:0) + Math.random()}))
+    .sort((x,y)=>x.k-y.k)[0].a;
 }
 
 function chooseTask(){
@@ -1640,23 +1698,25 @@ function chooseTask(){
 
   const cp=ensureCourseProfile();
   const recent=new Set(state.lastIds.slice(-8));
+
+  // 1. Bestäm område. Nivåblandningen gäller alltid ett område i taget.
+  const area = state.focusArea || chooseArea(pool);
+  if(!state.focusArea) pool=pool.filter(t=>(t.omr||"ovrigt")===area);
+
   const buckets={E:[],C:[],A:[]};
   pool.forEach(t=>buckets[levelOf(t)].push(t));
 
-  // 1. Slumpa fram nivå enligt vikterna, bland de nivåer som finns i urvalet.
-  const w=levelWeights();
+  // 2. Slumpa fram nivå enligt områdets rörliga blandning.
   const order=["E","C","A"];
-  const avail=order.filter(L=>buckets[L].length && w[L]>0);
+  const mix=levelMix({E:!!buckets.E.length,C:!!buckets.C.length,A:!!buckets.A.length},area);
   let level=null;
-  if(avail.length){
-    const total=avail.reduce((a,L)=>a+w[L],0);
-    let x=Math.random()*total;
-    for(const L of avail){ x-=w[L]; if(x<=0){ level=L; break; } }
-    level=level||avail[avail.length-1];
+  if(mix){
+    let x=Math.random();
+    for(const L of order){ x-=mix[L]; if(x<=0 && buckets[L].length){ level=L; break; } }
   }
   if(!level || !buckets[level].length) level=order.find(L=>buckets[L].length)||"E";
 
-  // 2. Slumpa uppgift inom nivån, med lätt förtur för svaga familjer
+  // 3. Slumpa uppgift inom nivån, med lätt förtur för svaga familjer
   //    och utan att upprepa det som nyss visats.
   let cands=buckets[level];
   const fresh=cands.filter(t=>!recent.has(t.id));
@@ -1665,7 +1725,9 @@ function chooseTask(){
     .map(t=>({t,k:familyMastery(t,cp)*.6 + Math.random()*.9}))
     .sort((a,b)=>a.k-b.k);
   const top=scored.slice(0,Math.max(1,Math.ceil(scored.length*.4)));
-  return top[Math.floor(Math.random()*top.length)].t;
+  const vald=top[Math.floor(Math.random()*top.length)].t;
+  state.lastArea=vald.omr||"ovrigt";
+  return vald;
 }
 
 function beginSession(){
@@ -2328,9 +2390,11 @@ function finishAttempt(resultat){
   // räknas uppgiften inte som behärskad, oavsett vad som skrivits in.
   const cp=ensureCourseProfile();
   const fs=Array.isArray(t.familj)?t.familj:[t.familj].filter(Boolean);
+  const niva=levelOf(t);
   delar.forEach(d=>{
     const v=state.noXp?false:d;
     updateMastery(cp.areas,t.omr,v);
+    updateLevelStat(t.omr,niva,v);
     fs.forEach(f=>updateMastery(cp.families,f,v));
   });
   cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj});

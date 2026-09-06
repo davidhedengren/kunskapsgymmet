@@ -216,11 +216,11 @@ a{color:inherit}
 .topbar .inner{height:66px;display:flex;align-items:center;gap:10px}
 .brand{display:flex;align-items:center;gap:11px;font-weight:700;font-size:16.5px;letter-spacing:-.03em;color:var(--ink)}
 .brandmark{
-  width:32px;height:32px;border-radius:10px;display:grid;place-items:center;color:#fff;
-  background:linear-gradient(160deg,var(--acc),var(--acc2));
-  box-shadow:0 4px 14px -5px rgba(11,33,51,.55),inset 0 1px 0 rgba(255,255,255,.35);
-  font-size:15px;font-weight:700;
+  width:32px;height:32px;border-radius:10px;display:block;object-fit:cover;
+  box-shadow:0 4px 14px -5px rgba(11,33,51,.5);
+  transition:transform .3s var(--ease);
 }
+.brand:hover .brandmark{transform:scale(1.06) rotate(-3deg)}
 .spacer{flex:1}
 
 /* ---------- knappar ---------- */
@@ -504,6 +504,30 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .badge-row .txt{flex:1;min-width:0}
 
 /* ---------- lista ---------- */
+/* Kapitelstaplarna: bredden på varje fält är nivåns vikt, fyllnaden
+   är hur väl nivån sitter. Hela stapeln blir alltså kunskapsläget. */
+.kapkort{display:grid;gap:15px}
+.kaprad{padding:14px 16px;border-radius:16px;border:1px solid var(--hair);background:var(--surface2)}
+.kaptop{display:flex;align-items:baseline;gap:10px}
+.kaptop b{flex:1;min-width:0;font-size:14px;font-weight:600;letter-spacing:-.015em}
+.kaptop .lbl{font-size:11.5px;font-weight:600}
+.kaptop .lbl.s-good{color:var(--good)}.kaptop .lbl.s-mid{color:var(--accInk)}
+.kaptop .lbl.s-low{color:var(--warn)}.kaptop .lbl.s-new{color:var(--ink3)}
+.kaptop .num{font-family:var(--mono);font-size:11.5px;color:var(--ink3);min-width:34px;text-align:right}
+.kapbar{display:flex;gap:4px;height:9px;margin-top:11px}
+.kapbar span{border-radius:99px;background:var(--hair);overflow:hidden;box-shadow:inset 0 1px 2px rgba(11,33,51,.10)}
+.kapbar span i{display:block;height:100%;width:0;border-radius:99px;transition:width 1.2s var(--ease)}
+.kapbar .z1{flex:45}.kapbar .z2{flex:35}.kapbar .z3{flex:20}
+.kapbar .z1 i{background:linear-gradient(90deg,var(--good),var(--good))}
+.kapbar .z2 i{background:linear-gradient(90deg,var(--acc),var(--acc2))}
+.kapbar .z3 i{background:linear-gradient(90deg,#c79a3c,var(--gold2))}
+.kaplegend{display:flex;gap:14px;font-family:var(--mono);font-size:10px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--ink3);margin-top:2px}
+.kaplegend i{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:1px}
+.kaplegend .l1 i{background:var(--good)}.kaplegend .l2 i{background:var(--acc)}.kaplegend .l3 i{background:var(--gold2)}
+.redo{margin-top:6px;font-family:var(--read);font-size:14.5px;line-height:1.5;color:var(--ink2);letter-spacing:0}
+.redo b{color:var(--ink)}
+
 .rowlist{display:grid;gap:6px}
 .row{
   display:flex;align-items:center;gap:11px;padding:11px 12px;border-radius:13px;
@@ -1176,7 +1200,8 @@ function topbar(){
     </button>`:"";
   return `<header class="topbar"><div class="shell inner">
     <button class="brand" onclick="goHome()" aria-label="Till startsidan">
-      <span class="brandmark">K</span><span>Kunskapsgymmet</span>
+      <img class="brandmark" src="favicon-64x64.png" alt="" width="32" height="32" decoding="async">
+      <span>Kunskapsgymmet</span>
     </button>
     <div class="spacer"></div>
     ${badge}
@@ -1637,6 +1662,62 @@ function updateLevelStat(area,L,ok){
 function scopeLevel(L,area){
   const st=levelStats(area,L);
   return {s:st.s,n:st.n||0};
+}
+
+/* ==========================================================
+   KUNSKAPSLÄGE PER KAPITEL OCH KURS
+   Nivåresultaten vägs ihop till ett tal 0–100. Nivå 1 svarar för
+   45, nivå 2 för 35 och nivå 3 för 20 — den som bara behärskar
+   grunderna landar alltså kring 45 och den som klarar allt på 100.
+   ========================================================== */
+
+const NIVA_VIKT={E:.45,C:.35,A:.20};
+
+/* Läser utan att skapa poster, så att en vy inte fyller profilen
+   med tomma områden. */
+function levelStatRead(area,L){
+  const cp=ensureCourseProfile();
+  const a=cp.levels && cp.levels[area];
+  if(a && a[L]) return a[L];
+  if(L==="E" && typeof cp.areas[area]==="number"){
+    return {s:cp.areas[area],n:Math.min(8,cp.history.filter(h=>h.area===area).length)};
+  }
+  return {s:.5,n:0};
+}
+/* Hur väl en nivå sitter i ett område: resultatet dämpat av hur få
+   uppgifter som ligger bakom det. Oprövat ger noll. */
+function levelQuality(area,L){
+  const st=levelStatRead(area,L);
+  return st.s*Math.min(1,(st.n||0)/5);
+}
+function areaLevels(area){
+  return {E:levelQuality(area,"E"),C:levelQuality(area,"C"),A:levelQuality(area,"A")};
+}
+function scoreOf(q){ return 100*(NIVA_VIKT.E*q.E + NIVA_VIKT.C*q.C + NIVA_VIKT.A*q.A); }
+function meanLevels(list){
+  if(!list.length) return {E:0,C:0,A:0};
+  const sum={E:0,C:0,A:0};
+  list.forEach(q=>{sum.E+=q.E;sum.C+=q.C;sum.A+=q.A;});
+  return {E:sum.E/list.length,C:sum.C/list.length,A:sum.A/list.length};
+}
+function chapterProgress(){
+  const by={};
+  getAreas().forEach(a=>{(by[a.kap] ||= []).push(a)});
+  return Object.keys(by).sort((x,y)=>(+x||99)-(+y||99)).map(kap=>{
+    const q=meanLevels(by[kap].map(a=>areaLevels(a.key)));
+    return {kap,name:chapterName(kap),antal:by[kap].length,q,score:scoreOf(q)};
+  });
+}
+function courseProgress(){
+  const q=meanLevels(getAreas().map(a=>areaLevels(a.key)));
+  return {q,score:scoreOf(q)};
+}
+function scoreLabel(v){
+  if(v<3)  return {txt:"Inte påbörjat",cls:"s-new"};
+  if(v<30) return {txt:"Påbörjat",cls:"s-low"};
+  if(v<55) return {txt:"Grunderna sitter",cls:"s-mid"};
+  if(v<80) return {txt:"Stabilt",cls:"s-mid"};
+  return {txt:"Behärskar",cls:"s-good"};
 }
 
 /* behärskar: redo att lämna nivån bakom sig.
@@ -2569,6 +2650,56 @@ function showProgress(record){
         <div class="tile"><span>Bästa serie</span><strong>${profile.bestRun||0}</strong></div>
       </div>
     </div>
+
+    ${(()=>{
+      const kurs=courseProgress(), kap=chapterProgress();
+      const k=scoreLabel(kurs.score), pct=Math.round(kurs.score);
+      const svaga=kap.filter(c=>c.score<60);
+      const nasta=svaga.sort((a,b)=>b.score-a.score)[0];
+      const redo = pct>=80
+        ? `<b>Du behärskar kursen.</b> Nivå 3 sitter i de flesta kapitel — du är redo för nationella provet.`
+        : pct>=55
+          ? `Kursen sitter stabilt.${nasta?` Tyngdpunkten framåt ligger i <b>${esc(nasta.name)}</b>.`:""} Vid 80 % är du provklar.`
+          : pct>=25
+            ? `Grunderna börjar sitta.${nasta?` Nästa steg är <b>${esc(nasta.name)}</b>.`:""}`
+            : `Träna på så fyller sig staplarna. Varje kapitel byggs uppifrån nivå 1.`;
+      return `
+      <div class="sec"><h2>Kunskapsläge</h2>
+        <span class="kaplegend">
+          <span class="l1"><i></i>Nivå 1</span><span class="l2"><i></i>Nivå 2</span><span class="l3"><i></i>Nivå 3</span>
+        </span>
+      </div>
+      <div class="card pad" style="margin-bottom:26px">
+        <div class="rankrow">
+          <div class="ringwrap">
+            ${ring(kurs.score/100,74,6,"var(--acc)")}
+            <div class="num">${pct}<small>%</small></div>
+          </div>
+          <div style="flex:1;min-width:200px">
+            <div class="rankname">${esc(COURSES[state.course].name)}</div>
+            <div class="rankmeta">${k.txt}</div>
+            <div class="redo">${redo}</div>
+          </div>
+        </div>
+        <div class="kapkort" style="margin-top:22px">
+          ${kap.map(c=>{
+            const l=scoreLabel(c.score);
+            return `<div class="kaprad">
+              <div class="kaptop">
+                <b>${esc(c.name)}</b>
+                <span class="lbl ${l.cls}">${l.txt}</span>
+                <span class="num">${Math.round(c.score)}%</span>
+              </div>
+              <div class="kapbar">
+                <span class="z1"><i data-w="${Math.round(c.q.E*100)}%"></i></span>
+                <span class="z2"><i data-w="${Math.round(c.q.C*100)}%"></i></span>
+                <span class="z3"><i data-w="${Math.round(c.q.A*100)}%"></i></span>
+              </div>
+            </div>`;
+          }).join("")}
+        </div>
+      </div>`;
+    })()}
 
     <div class="sec"><h2>Medaljer</h2><span class="rankmeta">${BADGES.filter(b=>badgeState(b).on).length} av ${BADGES.length}</span></div>
     <div class="badgegrid stagger" style="margin-bottom:26px">

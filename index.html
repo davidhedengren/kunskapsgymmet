@@ -904,7 +904,6 @@ async function loggaUt(){
     try{ await fetch(SUPABASE_URL+"/auth/v1/logout",{method:"POST",headers:sbHeaders(true)}); }catch(_){}
   }
   sparaSession(null);
-  try{ localStorage.removeItem(GAST_KEY); }catch(_){}
   state.course=null;state.data=null;state.track=null;state.currentTask=null;
   state.openChapters=null;applyAccent();
   renderGate();
@@ -1525,13 +1524,10 @@ function kontoMeny(ev){
    är inloggad eller redan valt att fortsätta utan konto.
    ========================================================== */
 
-const GAST_KEY="kunskapsgymmet-gast";
-function ärGäst(){ try{ return localStorage.getItem(GAST_KEY)==="1"; }catch(_){ return false; } }
-function fortsattUtanInlogg(){
-  try{ localStorage.setItem(GAST_KEY,"1"); }catch(_){}
-  return startaAppen();
-}
-function visaGate(){ return MOLN_PA() && !session && !ärGäst(); }
+/* Valet sparas inte: startsidan möter eleven vid varje nytt besök,
+   så länge ingen är inloggad. Inne i appen är den ur vägen. */
+function fortsattUtanInlogg(){ return startaAppen(); }
+function visaGate(){ return MOLN_PA() && !session; }
 
 /* Kursen som eventuellt begärdes i adressen öppnas efter valet. */
 let onskadKurs=null;

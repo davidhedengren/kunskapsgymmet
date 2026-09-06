@@ -265,6 +265,20 @@ a{color:inherit}
   color:#3b2c07;background:linear-gradient(160deg,#f0d296,#c79a3c);font-family:var(--mono);
 }
 .flame{color:var(--gold);font-weight:700}
+.konto{
+  width:34px;height:34px;border-radius:50%;overflow:hidden;display:grid;place-items:center;flex:none;
+  border:1px solid var(--hair);background:var(--accSoft);color:var(--accInk);
+  font-size:13px;font-weight:700;transition:.2s var(--ease);
+}
+.konto img{width:100%;height:100%;object-fit:cover;display:block}
+.konto:hover{border-color:var(--hair2);transform:translateY(-1px)}
+.kontomeny{
+  position:fixed;z-index:60;width:236px;padding:15px;border-radius:18px;
+  background:var(--surface);border:1px solid var(--hair);box-shadow:var(--e2);
+  animation:rise .25s var(--ease) both;
+}
+.kontomeny b{display:block;font-size:14px;letter-spacing:-.02em}
+.kontomeny small{display:block;margin:5px 0 13px;font-size:12px;color:var(--ink3);line-height:1.45}
 
 /* ---------- typografi ---------- */
 .eyebrow{
@@ -801,6 +815,188 @@ const COURSES = {
 };
 
 const COURSE_ORDER=["ma1","ma2","mato1","mato2","matf1","fy1","fy2"];
+
+/* ==========================================================
+   SUPABASE
+   Projektets adress och den publika nyckeln. Nyckeln är avsedd att
+   ligga öppet i frontend — skyddet ligger i radsäkerheten (RLS) i
+   databasen. Använd aldrig en secret- eller service_role-nyckel här.
+   Töms fälten försvinner inloggningen och allt körs lokalt igen.
+   ========================================================== */
+let SUPABASE_URL="https://lynobdhncyhnogjafsdb.supabase.co";
+let SUPABASE_KEY="sb_publishable_Goz662Lr8mb0-h3J6GzdKQ_v8Zq4apt";
+
+const MOLN_PA = () => !!(SUPABASE_URL && SUPABASE_KEY);
+const SESSION_KEY="kunskapsgymmet-session";
+let session=null;     // {access_token, refresh_token, expires_at, user}
+
+function sbHeaders(auth){
+  const h={apikey:SUPABASE_KEY,"Content-Type":"application/json"};
+  if(auth && session) h.Authorization="Bearer "+session.access_token;
+  return h;
+}
+function sparaSession(s){
+  session=s;
+  try{ s ? localStorage.setItem(SESSION_KEY,JSON.stringify(s))
+         : localStorage.removeItem(SESSION_KEY); }catch(_){}
+}
+function lasSession(){
+  try{ session=JSON.parse(localStorage.getItem(SESSION_KEY))||null; }catch(_){ session=null; }
+  return session;
+}
+
+/* Startar Googles inloggning. Supabase skickar tillbaka eleven hit
+   med tokens i adressens fragment. */
+function loggaIn(){
+  if(!MOLN_PA()) return;
+  const retur=location.origin+location.pathname;
+  location.href=SUPABASE_URL+"/auth/v1/authorize?provider=google"
+    +"&redirect_to="+encodeURIComponent(retur);
+}
+async function loggaUt(){
+  if(session){
+    try{ await fetch(SUPABASE_URL+"/auth/v1/logout",{method:"POST",headers:sbHeaders(true)}); }catch(_){}
+  }
+  sparaSession(null);
+  render();
+  toast("Utloggad. Träningen sparas fortfarande här på enheten.");
+}
+
+/* Plockar upp tokens efter återkomsten från Google och städar adressen. */
+function fangaInloggning(){
+  const h=location.hash||"";
+  if(!h.includes("access_token=")) return false;
+  const p=new URLSearchParams(h.replace(/^#/,""));
+  const at=p.get("access_token"), rt=p.get("refresh_token");
+  if(!at) return false;
+  sparaSession({access_token:at,refresh_token:rt,
+    expires_at:Date.now()+(+(p.get("expires_in")||3600))*1000,user:null});
+  history.replaceState(null,"",location.pathname+location.search);
+  return true;
+}
+
+async function fornyaSession(){
+  if(!session?.refresh_token) return false;
+  try{
+    const r=await fetch(SUPABASE_URL+"/auth/v1/token?grant_type=refresh_token",{
+      method:"POST",headers:sbHeaders(false),
+      body:JSON.stringify({refresh_token:session.refresh_token})});
+    if(!r.ok) throw new Error("kunde inte förnya");
+    const d=await r.json();
+    sparaSession({access_token:d.access_token,refresh_token:d.refresh_token,
+      expires_at:Date.now()+(d.expires_in||3600)*1000,user:d.user||session.user});
+    return true;
+  }catch(_){ sparaSession(null); return false; }
+}
+async function giltigSession(){
+  if(!session) return false;
+  if(Date.now() > (session.expires_at||0)-60000) return await fornyaSession();
+  return true;
+}
+async function hamtaAnvandare(){
+  if(!await giltigSession()) return null;
+  if(session.user) return session.user;
+  try{
+    const r=await fetch(SUPABASE_URL+"/auth/v1/user",{headers:sbHeaders(true)});
+    if(!r.ok) return null;
+    const u=await r.json();
+    sparaSession({...session,user:u});
+    return u;
+  }catch(_){ return null; }
+}
+
+/* ---------- Profilen i molnet ----------
+   Hela profilen ligger som ett jsonb-fält på en rad per användare. */
+async function hamtaMolnprofil(){
+  if(!await giltigSession()) return null;
+  const u=await hamtaAnvandare();
+  if(!u) return null;
+  try{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/profiler?select=data&id=eq."+u.id,
+      {headers:sbHeaders(true)});
+    if(!r.ok) return null;
+    const rader=await r.json();
+    return rader[0]?.data || null;
+  }catch(_){ return null; }
+}
+let pushTimer=null, pushKo=false;
+async function skickaMolnprofil(){
+  if(!MOLN_PA() || !await giltigSession()) return;
+  const u=await hamtaAnvandare();
+  if(!u) return;
+  try{
+    await fetch(SUPABASE_URL+"/rest/v1/profiler",{
+      method:"POST",
+      headers:{...sbHeaders(true),Prefer:"resolution=merge-duplicates,return=minimal"},
+      body:JSON.stringify({id:u.id,data:profile,uppdaterad:new Date().toISOString()})});
+  }catch(_){ pushKo=true; }   // nästa sparning försöker igen
+}
+function schemalaggPush(){
+  if(!MOLN_PA() || !session) return;
+  clearTimeout(pushTimer);
+  pushTimer=setTimeout(skickaMolnprofil,2500);
+}
+
+/* Slår ihop två profiler. Den med flest tränade uppgifter är grund,
+   räknare tar högsta värdet och medaljer behåller sitt tidigaste datum. */
+function slaIhopProfiler(a,b){
+  if(!a) return b; if(!b) return a;
+  const [bas,extra] = (a.attempts||0)>=(b.attempts||0) ? [a,b] : [b,a];
+  const p={...extra,...bas};
+  ["xp","attempts","correct","bestStreak","bestRun","aCorrect","pass","felfria",
+   "utanFacit","morgon","bestKapitel","bestKurs","bestNiva3"]
+    .forEach(k=>{ p[k]=Math.max(a[k]||0,b[k]||0); });
+
+  // Dagsstrecket följer den senaste träningsdagen.
+  const sen = (a.lastDay||"") >= (b.lastDay||"") ? a : b;
+  p.lastDay=sen.lastDay||null; p.today=sen.today||0;
+  p.streak = (a.lastDay===b.lastDay) ? Math.max(a.streak||0,b.streak||0) : (sen.streak||0);
+  p.goal = bas.goal || extra.goal || 8;
+
+  p.badges={...(extra.badges||{})};
+  Object.entries(a.badges||{}).forEach(([k,v])=>{p.badges[k]=Math.min(p.badges[k]||v,v);});
+  Object.entries(b.badges||{}).forEach(([k,v])=>{p.badges[k]=Math.min(p.badges[k]||v,v);});
+
+  p.courses={};
+  const kurser=new Set([...Object.keys(a.courses||{}),...Object.keys(b.courses||{})]);
+  kurser.forEach(k=>{
+    const x=(a.courses||{})[k]||{}, y=(b.courses||{})[k]||{};
+    const c={areas:{},families:{},levels:{},sedda:{...(x.sedda||{}),...(y.sedda||{})},history:[]};
+    ["areas","families"].forEach(f=>{
+      new Set([...Object.keys(x[f]||{}),...Object.keys(y[f]||{})]).forEach(n=>{
+        c[f][n]=Math.max((x[f]||{})[n]??0,(y[f]||{})[n]??0);
+      });
+    });
+    new Set([...Object.keys(x.levels||{}),...Object.keys(y.levels||{})]).forEach(omr=>{
+      const xa=(x.levels||{})[omr]||{}, ya=(y.levels||{})[omr]||{};
+      c.levels[omr]={};
+      ["E","C","A"].forEach(L=>{
+        const p1=xa[L], p2=ya[L];
+        // Fler besvarade uppgifter väger tyngst som underlag.
+        c.levels[omr][L] = !p1 ? p2 : !p2 ? p1 : ((p1.n||0)>=(p2.n||0)?p1:p2);
+        if(!c.levels[omr][L]) delete c.levels[omr][L];
+      });
+    });
+    const h=[...(x.history||[]),...(y.history||[])];
+    const sett=new Set();
+    c.history=h.sort((m,n)=>(m.at||0)-(n.at||0))
+      .filter(e=>{const nyckel=e.id+"|"+e.at; if(sett.has(nyckel))return false; sett.add(nyckel); return true;})
+      .slice(-300);
+    p.courses[k]=c;
+  });
+  return p;
+}
+
+/* Körs vid start och efter inloggning. */
+async function synkaProfil(){
+  if(!MOLN_PA() || !session) return;
+  const moln=await hamtaMolnprofil();
+  if(moln){
+    profile=loadProfileFrom(slaIhopProfiler(profile,moln));
+    saveProfile();
+  }
+  await skickaMolnprofil();
+}
 const app=document.getElementById("app");
 
 const state={
@@ -884,6 +1080,9 @@ window.addEventListener("popstate",e=>{ navRestore(e.state); });
 function loadProfile(){
   let p;
   try{ p=JSON.parse(localStorage.getItem(PROFILE_KEY)); }catch(_){ p=null; }
+  return loadProfileFrom(p);
+}
+function loadProfileFrom(p){
   p = p || {};
   p.xp||=0; p.attempts||=0; p.correct||=0; p.streak||=0; p.bestStreak||=0;
   p.run||=0; p.bestRun||=0; p.aCorrect||=0; p.today||=0; p.goal||=8;
@@ -893,7 +1092,10 @@ function loadProfile(){
   p.courses ||= {}; p.badges ||= {};
   return p;
 }
-function saveProfile(){ try{ localStorage.setItem(PROFILE_KEY,JSON.stringify(profile)); }catch(_){} }
+function saveProfile(){
+  try{ localStorage.setItem(PROFILE_KEY,JSON.stringify(profile)); }catch(_){}
+  schemalaggPush();
+}
 function ensureCourseProfile(){
   const c=state.course || "none";
   profile.courses[c] ||= {areas:{},families:{},history:[]};
@@ -1235,8 +1437,37 @@ function topbar(){
     </button>
     <div class="spacer"></div>
     ${badge}
+    ${kontoKnapp()}
     <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge" aria-label="Byt färgläge">${themeIcon()}</button>
   </div></header>`;
+}
+
+function kontoKnapp(){
+  if(!MOLN_PA()) return "";
+  if(!session) return `<button class="btn sm" onclick="loggaIn()">Logga in</button>`;
+  const u=session.user||{};
+  const namn=u.user_metadata?.full_name || u.email || "Inloggad";
+  const bild=u.user_metadata?.avatar_url;
+  const initial=(namn[0]||"?").toUpperCase();
+  return `<button class="konto" onclick="kontoMeny(event)" title="${esc(namn)}" aria-label="Konto">
+    ${bild?`<img src="${esc(bild)}" alt="" referrerpolicy="no-referrer">`:`<span>${esc(initial)}</span>`}
+  </button>`;
+}
+function kontoMeny(ev){
+  ev.stopPropagation();
+  const u=session?.user||{};
+  const namn=u.user_metadata?.full_name || u.email || "Inloggad";
+  const gammal=document.getElementById("kontomeny");
+  if(gammal){ gammal.remove(); return; }
+  const el=document.createElement("div");
+  el.id="kontomeny"; el.className="kontomeny";
+  el.innerHTML=`<b>${esc(namn)}</b><small>Träningen synkas mellan dina enheter.</small>
+    <button class="btn sm wide" onclick="loggaUt()">Logga ut</button>`;
+  document.body.appendChild(el);
+  const r=ev.currentTarget.getBoundingClientRect();
+  el.style.top=(r.bottom+8)+"px";
+  el.style.right=Math.max(12,window.innerWidth-r.right)+"px";
+  setTimeout(()=>document.addEventListener("click",()=>el.remove(),{once:true}),0);
 }
 
 /* ==========================================================
@@ -2889,12 +3120,28 @@ function render(){
 
 /* Om sidan öppnas som index.html#ma1 laddas kursen direkt. */
 window.addEventListener("load",async()=>{
+  // Tokens från Google plockas bort ur adressen innan något annat läser den.
+  const nyInloggning=MOLN_PA() && fangaInloggning();
+  if(MOLN_PA()) lasSession();
   // Adressen läses först: navRecord skriver om den och skulle annars
   // radera hashen innan vi hunnit se vilken kurs som efterfrågas.
   const id=location.hash.replace("#","");
   renderHome();
   navRecord("home",true);
   if(COURSES[id]) await selectCourse(id);
+
+  if(MOLN_PA() && session){
+    await hamtaAnvandare();
+    await synkaProfil();
+    render();
+    if(nyInloggning) toast("Inloggad. Din träning synkas nu mellan enheterna.");
+  }
+});
+// Sista chansen att skicka det som ligger i kö.
+window.addEventListener("visibilitychange",()=>{
+  if(document.visibilityState==="hidden" && MOLN_PA() && session){
+    clearTimeout(pushTimer); skickaMolnprofil();
+  }
 });
 
 // Enkel diagnostik i webbläsarens konsol.

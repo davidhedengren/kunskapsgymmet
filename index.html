@@ -289,10 +289,33 @@ h1,h2,h3{letter-spacing:-.04em;margin:0}
 /* ---------- dashboard ---------- */
 .dash{display:grid;grid-template-columns:minmax(0,1fr) 306px;gap:20px;align-items:start;padding-bottom:24px}
 .side{position:sticky;top:82px;display:grid;gap:12px}
-.chapter{margin-bottom:22px}
+.chapter{margin-bottom:8px}
+.chapter.open{margin-bottom:24px}
+.chapter-head{
+  width:100%;display:flex;align-items:center;gap:11px;padding:11px 4px;text-align:left;color:var(--ink3);
+  border-radius:12px;transition:color .2s ease,background .2s ease;
+}
+.chapter-head:hover{color:var(--ink);background:var(--toneHover,transparent)}
+.chapter-head .chev{
+  flex:none;width:15px;height:15px;color:var(--ink3);
+  transition:transform .32s var(--ease),color .2s ease;
+}
+.chapter-head[aria-expanded="true"] .chev{transform:rotate(90deg);color:var(--acc)}
+.chapter-head:hover .chev{color:var(--acc)}
+.chapter-head .name{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;font-weight:600;
+  transition:color .2s ease;
+}
+.chapter-head[aria-expanded="true"] .name{color:var(--ink2)}
+.chapter-head .rule{flex:1;height:1px;background:var(--hair)}
+.chapter-head .n{font-family:var(--mono);font-size:10px;opacity:.75;min-width:14px;text-align:right}
+.kdots{display:flex;gap:4px;transition:opacity .3s ease}
+.chapter.open .kdots{opacity:0}
+.kdots i{width:6px;height:6px;border-radius:50%;background:var(--d);box-shadow:0 0 0 2px var(--bg)}
+.chapter-body{padding:4px 0 2px}
 .chapter-label{
-  font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);
-  margin:0 0 10px 2px;display:flex;align-items:center;gap:10px;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);
+  margin:0 0 11px 4px;display:flex;align-items:center;gap:10px;font-weight:600;
 }
 .chapter-label:after{content:"";flex:1;height:1px;background:var(--hair)}
 .area-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:12px}
@@ -609,8 +632,9 @@ const COURSES = {
     files:["strukturma1.js","uppgifterma1.js"],
     globals:{bank:"BANKMA1",kap:"KAPNAMNMA1",omr:"OMRMA1"},
     tracks:["1a","1b","1c"], defaultTrack:"1c", tint:"#3f92db",
-    // Områden som inte ska tränas här. Matchas mot områdets namn eller nyckel.
-    utanOmraden:["digitala verktyg, problemlösning och modeller"]
+    // Stryks helt ur Kunskapsgymmet. Matchas mot kapitlets namn,
+    // områdets namn eller områdets nyckel.
+    utanOmraden:["digitala verktyg, problemlösning och modellering"]
   },
   ma2:{
     name:"Matematik nivå 2", code:"Ma2", subject:"Matematik",
@@ -645,6 +669,7 @@ const state={
   course:null, track:null, data:null, view:"home",
   focusArea:null, focusFamily:null,
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0,
+  openChapters:null,
   lastIds:[], solutionShown:false, answered:false
 };
 
@@ -871,6 +896,56 @@ function renderMath(root=app){
   }catch(err){ console.warn("KaTeX:",err); }
 }
 
+const CHEV='<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>';
+
+const TONE_VAR={"t-good":"var(--good)","t-mid":"var(--acc)","t-low":"var(--warn)","t-new":"var(--hair2)"};
+
+function chapterHead(kap,namn,omraden){
+  const open=state.openChapters.has(String(kap));
+  // Prickarna sammanfattar kapitlets läge när det är hopfällt.
+  const dots=omraden.slice(0,10)
+    .map(a=>`<i style="--d:${TONE_VAR[areaStatus(a.key).tone]}"></i>`).join("");
+  return `<button class="chapter-head" aria-expanded="${open}" onclick="toggleChapter('${esc(String(kap))}',this)">
+    ${CHEV}<span class="name">${esc(namn)}</span><span class="rule"></span>
+    <span class="kdots">${dots}</span><span class="n">${omraden.length}</span>
+  </button>`;
+}
+
+/* Spelar upp ringar, mätare och inglidning igen när ett kapitel öppnas. */
+function playIn(root){
+  root.querySelectorAll("[data-off]").forEach(el=>{ el.style.strokeDashoffset=el.getAttribute("stroke-dashoffset"); });
+  root.querySelectorAll("[data-w]").forEach(el=>{ el.style.width="0"; });
+  root.querySelectorAll(".stagger").forEach(g=>{
+    [...g.children].forEach((el,i)=>{
+      el.style.animation="none"; void el.offsetHeight;
+      el.style.animation=""; el.style.animationDelay=Math.min(i*35,420)+"ms";
+    });
+  });
+  requestAnimationFrame(()=>{
+    root.querySelectorAll("[data-off]").forEach(el=>{ el.style.strokeDashoffset=el.dataset.off; });
+    root.querySelectorAll("[data-w]").forEach(el=>{ el.style.width=el.dataset.w; });
+  });
+}
+
+function toggleChapter(kap,btn){
+  const key=String(kap);
+  const sec=btn.closest(".chapter");
+  const body=sec.querySelector(".chapter-body");
+  const open=state.openChapters.has(key);
+  if(open){
+    state.openChapters.delete(key);
+    btn.setAttribute("aria-expanded","false");
+    sec.classList.remove("open");
+    body.hidden=true;
+  }else{
+    state.openChapters.add(key);
+    btn.setAttribute("aria-expanded","true");
+    sec.classList.add("open");
+    body.hidden=false;
+    playIn(body);
+  }
+}
+
 function afterRender(){
   renderMath(app);
   requestAnimationFrame(()=>{
@@ -964,6 +1039,7 @@ async function selectCourse(id){
     state.track=c.defaultTrack || (c.tracks[0]||null);
     state.data={bank,kap,omr};
     state.focusArea=null;state.focusFamily=null;state.currentTask=null;
+    state.openChapters=null;
     ensureCourseProfile();
     applyAccent();
     history.replaceState(null,"","#"+id);
@@ -984,13 +1060,19 @@ async function selectCourse(id){
 function normOmr(x){
   return String(x??"").toLowerCase().replaceAll("_"," ").replace(/\s+/g," ").replace(/[.\s]+$/,"").trim();
 }
-function isExcludedArea(key){
+function isExcluded(t){
   const lista=COURSES[state.course]?.utanOmraden;
-  if(!lista||!lista.length||!key) return false;
-  const namn=normOmr(areaName(key)), nyckel=normOmr(key);
+  if(!lista||!lista.length) return false;
+  const key=t.omr||"ovrigt";
+  const falt=[normOmr(areaName(key)),normOmr(key),normOmr(chapterName(t.kap))];
   return lista.some(x=>{
     const v=normOmr(x);
-    return namn===v || nyckel===v || namn.includes(v) || nyckel.includes(v);
+    if(!v) return false;
+    // Prefixmatchning bägge hållen, så att "… och modeller" fångar
+    // "… och modellering" utan att korta ord råkar träffa inuti andra ord.
+    return falt.some(f=>f && (f===v ||
+      (v.length>=6 && f.startsWith(v)) ||
+      (f.length>=6 && v.startsWith(f))));
   });
 }
 
@@ -998,7 +1080,7 @@ function availableTasks(){
   if(!state.data) return [];
   let tasks=state.data.bank;
   const kurs=COURSES[state.course];
-  if(kurs?.utanOmraden?.length) tasks=tasks.filter(t=>!isExcludedArea(t.omr||"ovrigt"));
+  if(kurs?.utanOmraden?.length) tasks=tasks.filter(t=>!isExcluded(t));
   if(state.track){
     tasks=tasks.filter(t=>{
       if(!t.kurs) return true;
@@ -1053,7 +1135,7 @@ function areaStatus(key){
   return {seen:true,m,label:"Behöver träning",tone:"t-low",mcls:""};
 }
 function setTrack(track){
-  state.track=track; applyAccent(); state.focusArea=null; state.focusFamily=null; state.currentTask=null;
+  state.track=track; applyAccent(); state.openChapters=null; state.focusArea=null; state.focusFamily=null; state.currentTask=null;
   renderDashboard();
 }
 function weakAreas(limit=4){
@@ -1124,10 +1206,15 @@ function renderDashboard(){
   areas.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
   const chapters=Object.keys(grouped).sort((a,b)=>(+a||99)-(+b||99));
   const manyChapters=chapters.length>1;
+  // Första gången kursen visas står första kapitlet öppet, resten hopfällda.
+  if(!state.openChapters) state.openChapters=new Set(manyChapters?[String(chapters[0])]:chapters.map(String));
 
-  const areaHTML=chapters.map(kap=>`
-    <section class="chapter">
-      ${manyChapters?`<div class="chapter-label">${esc(chapterName(kap))}</div>`:""}
+  const areaHTML=chapters.map(kap=>{
+    const open=state.openChapters.has(String(kap));
+    return `
+    <section class="chapter${open?" open":""}">
+      ${manyChapters?chapterHead(kap,chapterName(kap),grouped[kap]):""}
+      <div class="chapter-body"${manyChapters&&!open?" hidden":""}>
       <div class="area-grid stagger">
         ${grouped[kap].map(a=>{
           const s=areaStatus(a.key);
@@ -1143,7 +1230,8 @@ function renderDashboard(){
           </button>`;
         }).join("")}
       </div>
-    </section>`).join("");
+      </div>
+    </section>`;}).join("");
 
   const trackHTML=c.tracks.length>1
     ? `<div class="tracks">${c.tracks.map(t=>`<button class="track ${state.track===t?'on':''}" onclick="setTrack('${t}')">${t}</button>`).join("")}</div>`
@@ -1237,6 +1325,8 @@ function showAreaPicker(){
   const areas=getAreas();
   const grouped={};
   areas.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
+  const kapitel=Object.keys(grouped).sort((a,b)=>(+a||99)-(+b||99));
+  if(!state.openChapters) state.openChapters=new Set(kapitel.length>1?[String(kapitel[0])]:kapitel.map(String));
   app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
     <div class="chead">
       <div class="t">
@@ -1245,9 +1335,12 @@ function showAreaPicker(){
         <p>Välj område, eller en enskild uppgiftstyp för smalare träning.</p>
       </div>
     </div>
-    ${Object.keys(grouped).sort((a,b)=>(+a||99)-(+b||99)).map(kap=>`
-      <section class="chapter">
-        <div class="chapter-label">${esc(chapterName(kap))}</div>
+    ${kapitel.map(kap=>{
+      const open=state.openChapters.has(String(kap));
+      return `
+      <section class="chapter${open?" open":""}">
+        ${chapterHead(kap,chapterName(kap),grouped[kap])}
+        <div class="chapter-body"${open?"":" hidden"}>
         <div class="area-grid stagger" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">
           ${grouped[kap].map(a=>{
             const s=areaStatus(a.key);
@@ -1266,7 +1359,8 @@ function showAreaPicker(){
             </div>`;
           }).join("")}
         </div>
-      </section>`).join("")}
+        </div>
+      </section>`;}).join("")}
   </main>`;
   afterRender();
 }

@@ -887,6 +887,8 @@ function loadProfile(){
   p = p || {};
   p.xp||=0; p.attempts||=0; p.correct||=0; p.streak||=0; p.bestStreak||=0;
   p.run||=0; p.bestRun||=0; p.aCorrect||=0; p.today||=0; p.goal||=8;
+  p.pass||=0; p.felfria||=0; p.utanFacit||=0; p.morgon||=0;
+  p.bestKapitel||=0; p.bestKurs||=0; p.bestNiva3||=0;
   p.lastDay ??= null;
   p.courses ||= {}; p.badges ||= {};
   return p;
@@ -970,19 +972,47 @@ function bestAreaMastery(){
 function touchedAreas(){ return allAreaMasteries().length; }
 
 const BADGES=[
-  {id:"start", icon:"◆", name:"Första steget",   desc:"Träna din första uppgift",    max:1,   cur:()=>profile.attempts},
-  {id:"warm",  icon:"▲", name:"Uppvärmd",        desc:"10 tränade uppgifter",        max:10,  cur:()=>profile.attempts},
-  {id:"form",  icon:"●", name:"Formstark",       desc:"100 tränade uppgifter",       max:100, cur:()=>profile.attempts},
-  {id:"serie", icon:"✦", name:"Perfekt serie",   desc:"10 rätt i rad",               max:10,  cur:()=>profile.bestRun},
-  {id:"vecka", icon:"◈", name:"Sju raka dagar",  desc:"Träna 7 dagar i följd",       max:7,   cur:()=>profile.bestStreak},
-  {id:"omr",   icon:"★", name:"Områdesmästare",  desc:"Nå 85 % i ett område",        max:85,  cur:()=>Math.round(bestAreaMastery()*100)},
-  {id:"bredd", icon:"⬢", name:"Allsidig",        desc:"Träna i 8 olika områden",     max:8,   cur:()=>touchedAreas()},
-  {id:"topp",  icon:"▲", name:"Höjdhoppare",     desc:"25 rätt på nivå 3",           max:25,  cur:()=>profile.aCorrect}
+  // Uthållighet
+  {id:"start", icon:"◆", name:"Första steget",   desc:"Träna din första uppgift",     max:1,   cur:()=>profile.attempts},
+  {id:"warm",  icon:"▲", name:"Uppvärmd",        desc:"10 tränade uppgifter",         max:10,  cur:()=>profile.attempts},
+  {id:"form",  icon:"●", name:"Formstark",       desc:"100 tränade uppgifter",        max:100, cur:()=>profile.attempts},
+  {id:"jarn",  icon:"⬢", name:"Järnvilja",       desc:"250 tränade uppgifter",        max:250, cur:()=>profile.attempts},
+  // Precision
+  {id:"serie", icon:"✦", name:"Perfekt serie",   desc:"10 rätt i rad",                max:10,  cur:()=>profile.bestRun},
+  {id:"serie20",icon:"✧",name:"Obruten",         desc:"20 rätt i rad",                max:20,  cur:()=>profile.bestRun},
+  {id:"felfri",icon:"✓", name:"Felfritt pass",   desc:"Klara ett helt pass utan fel", max:1,   cur:()=>profile.felfria},
+  {id:"sjalv", icon:"⊕", name:"Egen kraft",      desc:"25 rätt utan att ta lösningen",max:25,  cur:()=>profile.utanFacit},
+  // Vanor
+  {id:"vecka", icon:"◈", name:"Sju raka dagar",  desc:"Träna 7 dagar i följd",        max:7,   cur:()=>profile.bestStreak},
+  {id:"manad", icon:"❖", name:"Trettio dagar",   desc:"Träna 30 dagar i följd",       max:30,  cur:()=>profile.bestStreak},
+  {id:"pass10",icon:"≡", name:"Tio pass",        desc:"Avsluta 10 träningspass",      max:10,  cur:()=>profile.pass},
+  {id:"tidig", icon:"☀", name:"Tidigt uppe",     desc:"Träna före klockan sju",       max:1,   cur:()=>profile.morgon},
+  // Bredd
+  {id:"bredd", icon:"⬡", name:"Allsidig",        desc:"Träna i 8 olika områden",      max:8,   cur:()=>touchedAreas()},
+  {id:"bredd20",icon:"◇",name:"Kartläggaren",    desc:"Träna i 20 olika områden",     max:20,  cur:()=>touchedAreas()},
+  {id:"tvakurser",icon:"◫",name:"Bredaxlad",     desc:"Träna i två olika kurser",     max:2,   cur:()=>Object.keys(profile.courses||{}).length},
+  {id:"xp1000",icon:"◎", name:"Tusen",           desc:"Samla 1000 XP",                max:1000,cur:()=>profile.xp},
+  // Djup
+  {id:"omr",   icon:"★", name:"Områdesmästare",  desc:"Nå 85 % i ett område",         max:85,  cur:()=>Math.round(bestAreaMastery()*100)},
+  {id:"topp",  icon:"△", name:"Höjdhoppare",     desc:"25 rätt på nivå 3",            max:25,  cur:()=>profile.aCorrect},
+  {id:"niva3", icon:"◑", name:"Toppform",        desc:"80 % på nivå 3 i ett område",  max:80,  cur:()=>profile.bestNiva3},
+  {id:"kapitel",icon:"▣",name:"Kapitelmästare",  desc:"Ta ett helt kapitel över 80 %",max:80,  cur:()=>profile.bestKapitel},
+  {id:"provklar",icon:"✪",name:"Provklar",       desc:"Ta en hel kurs över 80 %",     max:80,  cur:()=>profile.bestKurs}
 ];
 function badgeState(b){
   const cur=Math.max(0,Math.min(b.max,b.cur()||0));
   return {cur,pct:cur/b.max,on:!!profile.badges[b.id]||cur>=b.max};
 }
+/* Åtta medaljer i sidopanelen: de senast tagna först, därefter de
+   som ligger närmast att låsas upp. Då finns alltid något att jaga. */
+function stripBadges(){
+  const tagna=BADGES.filter(b=>badgeState(b).on)
+    .sort((a,b)=>(profile.badges[b.id]||0)-(profile.badges[a.id]||0));
+  const kvar=BADGES.filter(b=>!badgeState(b).on)
+    .sort((a,b)=>badgeState(b).pct-badgeState(a).pct);
+  return [...tagna.slice(0,4),...kvar].slice(0,8);
+}
+
 function nextBadge(){
   const locked=BADGES.filter(b=>!badgeState(b).on).map(b=>({b,s:badgeState(b)}));
   if(!locked.length) return null;
@@ -1511,7 +1541,7 @@ function renderDashboard(){
         <div class="card pad">
           <div class="sec"><h2>Medaljer</h2><button class="btn quiet sm" onclick="showProgress()">Alla</button></div>
           <div class="badgestrip">
-            ${BADGES.slice(0,8).map(b=>{
+            ${stripBadges().map(b=>{
               const s=badgeState(b);
               return `<button class="medal ${s.on?'on':''}" onclick="toggleTip(this,event)"
                   aria-label="${esc(b.name)}: ${esc(b.desc)}. ${s.on?"Upplåst":s.cur+" av "+b.max}">
@@ -2017,6 +2047,50 @@ function inferAnswerCount(t){
   return unique.length || 1;
 }
 
+/* ==========================================================
+   SVARSRUTOR
+   Två olika saker kan ge flera rutor:
+   a) Deluppgifter a), b), c) — olika frågor, rättas i tur och ordning.
+   b) En fråga med flera svar, t.ex. x = 1 och x = 3 — alla rutor
+      är öppna samtidigt och ordningen spelar ingen roll.
+   Banken kan tagga fall b) med antal svar. Flera stavningar godtas
+   så att märkningen inte behöver vara exakt.
+   ========================================================== */
+
+const SVAR_ORD={en:1,ett:1,"två":2,tva:2,tre:3,fyra:4,fem:5};
+const SVAR_FALT=["antalSvar","antal_svar","svarsantal","antalsvar",
+                 "flerSvar","fleraSvar","flersvar","tvåSvar","tvasvar","svar"];
+function taggatAntalSvar(t){
+  for(const k of SVAR_FALT){
+    const v=t?.[k];
+    if(v===undefined||v===null||v==="") continue;
+    if(typeof v==="number" && v>=1) return Math.min(6,Math.round(v));
+    if(v===true) return 2;
+    const x=String(v).toLowerCase().trim();
+    if(SVAR_ORD[x]) return SVAR_ORD[x];
+    if(/^[1-6]$/.test(x)) return +x;
+  }
+  return 0;
+}
+/* Räknar deluppgiftsbokstäver i uppgiftstexten: a) b) c) */
+function subtaskLetters(t){
+  const plain=String(t.t||"")
+    .replace(/<br\s*\/?>/gi,"\n").replace(/<\/p>/gi,"\n").replace(/<[^>]+>/g," ");
+  const m=[...plain.matchAll(/(?:^|[\s\n])([a-j])\)\s*/gi)].map(x=>x[1].toLowerCase());
+  return new Set(m).size;
+}
+function answerLayout(t){
+  const info=expectedAnswersForTask(t);
+  const taggat=taggatAntalSvar(t);
+  const bokstaver=subtaskLetters(t);
+  // Vid automatisk rättning styr facit antalet rutor, annars taggen.
+  const n = info.auto ? Math.max(1,info.answers.length)
+                      : Math.max(1,taggat||bokstaver||1);
+  // Deluppgifter rättas i ordning. En taggad flersvarsuppgift gör det inte.
+  const ordnad = !taggat && bokstaver>1 && n>1;
+  return {info,n,ordnad,flersvar:n>1&&!ordnad,taggat};
+}
+
 /* Verktygsikoner, samma märkning som i Uppgiftslabbet.
    Att fältet saknas är inte samma sak som att hjälpmedlet är otillåtet,
    därför får otaggade uppgifter ingen ikon alls. */
@@ -2289,35 +2363,41 @@ function renderTraining(){
   const t=state.currentTask;
   if(!t) return renderDashboard();
   const family=Array.isArray(t.familj)?t.familj.join(" · "):t.familj;
-  const expectedInfo=expectedAnswersForTask(t);
+  const layout=answerLayout(t);
+  const expectedInfo=layout.info;
   const canAuto=expectedInfo.auto;
-  const answers=expectedInfo.answers;
-  const inferredParts=inferAnswerCount(t);
-  const inputCount=answers.length || inferredParts || 1;
+  const inputCount=layout.n;
 
   // Svårighetsgraden visas, men inte område och familj.
   const meta=levelChip(t)+toolIcons(t);
 
   const isLongAnswer=["resonemang","text"].includes(String(t.svarstyp||"").toLowerCase());
-  // Med automatisk rättning besvaras deluppgifterna en i taget.
-  const stepwise=canAuto && inputCount>1;
+  // Deluppgifter besvaras en i taget. Flera svar på samma fråga
+  // fylls i samtidigt, eftersom ordningen inte betyder något.
+  const stepwise=canAuto && inputCount>1 && layout.ordnad;
   const fieldHtml=Array.from({length:inputCount},(_,i)=>`
     <div class="apart${stepwise&&i>0?" upcoming":""}" id="part-${i}">
       <div class="aline">
-        <label>${inputCount>1?String.fromCharCode(97+i)+")":""}</label>
+        <label>${inputCount<2?"":layout.ordnad?String.fromCharCode(97+i)+")":(i+1)+"."}</label>
         ${isLongAnswer
           ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"${stepwise&&i>0?" disabled":""}></textarea>`
-          : `<input id="ans-${i}" autocomplete="off" inputmode="text" placeholder="${inputCount>1?'Svar '+String.fromCharCode(97+i):'Ditt svar'}"${stepwise&&i>0?" disabled":""} onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">`
+          : `<input id="ans-${i}" autocomplete="off" inputmode="text" placeholder="${
+                inputCount<2?"Ditt svar":layout.ordnad?"Svar "+String.fromCharCode(97+i):"Svar "+(i+1)
+              }"${stepwise&&i>0?" disabled":""} onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">`
         }
         ${canAuto?`<span class="mark" aria-hidden="true"></span>`:""}
       </div>
       <div class="corr" id="corr-${i}" hidden></div>
     </div>`).join("");
 
-  const partLine=stepwise?`<div class="partline" id="partline">
-      ${Array.from({length:inputCount},(_,i)=>`<i class="${i===0?'now':''}"></i>`).join("")}
-      <span id="partlabel">Deluppgift a av ${inputCount}</span>
-    </div>`:"";
+  const partLine = stepwise
+    ? `<div class="partline" id="partline">
+        ${Array.from({length:inputCount},(_,i)=>`<i class="${i===0?'now':''}"></i>`).join("")}
+        <span id="partlabel">Deluppgift a av ${inputCount}</span>
+      </div>`
+    : layout.flersvar
+      ? `<div class="partline"><span>${inputCount===2?"Två svar":inputCount+" svar"} · ordningen spelar ingen roll</span></div>`
+      : "";
 
   const dots=Array.from({length:state.sessionTarget},(_,i)=>
     `<i class="${i<state.sessionDone?'done':(i===state.sessionDone?'now':'')}"></i>`).join("");
@@ -2368,6 +2448,26 @@ function checkAnswer(){
     toast("Den här uppgiften behöver självbedömas.");
     return;
   }
+  const layout=answerLayout(t);
+
+  // Flera svar på samma fråga: alla rutor rättas på en gång och
+  // matchas fritt mot facit, så x=3 i första rutan räknas som rätt.
+  if(layout.flersvar){
+    const svar=expected.map((_,i)=>document.getElementById("ans-"+i)?.value||"");
+    if(svar.some(x=>!x.trim())){ toast("Fyll i alla svar först."); return; }
+    const kvar=expected.map((v,i)=>({v,i}));
+    const res=svar.map(anv=>{
+      const träff=kvar.findIndex(k=>oneAnswerCorrect(anv,k.v,t));
+      if(träff<0) return false;
+      kvar.splice(träff,1);
+      return true;
+    });
+    res.forEach((ok,i)=>markPart(i,ok,ok?null:kvar.map(k=>k.v).join(" eller ")));
+    state.partResults=res;
+    finishAttempt(res);
+    return;
+  }
+
   const i=state.partIndex;
   const el=document.getElementById("ans-"+i);
   const svar=el ? el.value : "";
@@ -2396,9 +2496,9 @@ function markPart(i,ok,facit){
   if(inp) inp.readOnly=true;
   const dot=document.querySelectorAll("#partline i")[i];
   if(dot) dot.className=ok?"done":"miss";
-  if(!ok){
+  if(!ok && facit){
     const c=document.getElementById("corr-"+i);
-    if(c){ c.hidden=false; c.innerHTML=`Rätt svar: <b>${facit||"–"}</b>`; renderMath(c); }
+    if(c){ c.hidden=false; c.innerHTML=`Rätt svar: <b>${facit}</b>`; renderMath(c); }
   }
 }
 
@@ -2481,6 +2581,18 @@ function finishAttempt(resultat){
   cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj});
   cp.history=cp.history.slice(-300);
 
+  // Underlag för medaljerna
+  if(correct && !state.noXp && !state.solutionShown) profile.utanFacit=(profile.utanFacit||0)+1;
+  if(new Date().getHours()<7) profile.morgon=1;
+  if(state.data){
+    const bkap=Math.max(0,...chapterProgress().map(c=>c.score));
+    profile.bestKapitel=Math.max(profile.bestKapitel||0,Math.round(bkap));
+    profile.bestKurs=Math.max(profile.bestKurs||0,Math.round(courseProgress().score));
+    const b3=Math.max(0,...Object.values(cp.levels||{})
+      .map(a=>a&&a.A ? a.A.s*Math.min(1,(a.A.n||0)/5) : 0));
+    profile.bestNiva3=Math.max(profile.bestNiva3||0,Math.round(b3*100));
+  }
+
   const levelAfter=levelFromXP(profile.xp);
   const rankBefore=rankFor(levelBefore), rankAfter=rankFor(levelAfter);
   saveProfile();
@@ -2551,7 +2663,14 @@ function selfGrade(ok){ if(!state.answered) finishAttempt(ok); }
 
 function renderSessionDone(record){
   // Passrapporten ersätter träningssteget, så bakåt leder till kursen.
-  if(record!==false) navRecord("summary",true);
+  if(record!==false){
+    navRecord("summary",true);
+    profile.pass=(profile.pass||0)+1;
+    if(state.sessionDone && state.sessionCorrect>=state.sessionDone)
+      profile.felfria=(profile.felfria||0)+1;
+    saveProfile();
+    checkBadges();
+  }
   state.view="summary";
   const total=state.sessionDone||1;
   const acc=Math.round(state.sessionCorrect/total*100);
@@ -2662,7 +2781,7 @@ function showProgress(record){
           ? `Kursen sitter stabilt.${nasta?` Tyngdpunkten framåt ligger i <b>${esc(nasta.name)}</b>.`:""} Vid 80 % är du provklar.`
           : pct>=25
             ? `Grunderna börjar sitta.${nasta?` Nästa steg är <b>${esc(nasta.name)}</b>.`:""}`
-            : `Träna på så fyller sig staplarna. Varje kapitel byggs uppifrån nivå 1.`;
+            : `Träna på så fyller sig staplarna.`;
       return `
       <div class="sec"><h2>Kunskapsläge</h2>
         <span class="kaplegend">

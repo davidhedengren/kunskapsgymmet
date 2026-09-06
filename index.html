@@ -703,6 +703,22 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .apart.no input{border-color:rgba(176,74,77,.5);background:var(--badSoft)}
 .apart.ok input,.apart.no input{pointer-events:none}
 .corr{margin-left:30px;font-family:var(--read);font-size:13px;color:var(--ink3);letter-spacing:0}
+/* Deluppgift som eleven bedömer själv. */
+.apart.egen .aline input,.apart.egen .aline textarea{border-style:dashed}
+.delfacit{
+  margin:8px 0 2px 30px;padding:14px 16px;border-radius:15px;
+  border:1px solid var(--hair);background:var(--surface);
+  font-family:var(--read);font-size:15px;line-height:1.55;letter-spacing:0;
+  animation:rise .3s var(--ease) both;
+}
+.delfacit .lbl{
+  font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink3);font-weight:600;
+}
+.delfacit-txt{margin-top:9px}
+.delfacit .aacts{margin-top:12px}
+.delfacit svg{display:block;max-width:100%;height:auto;margin:14px auto}
+@media(max-width:640px){.delfacit,.corr{margin-left:0}}
 .corr b{color:var(--ink2);font-weight:700}
 .partline{
   font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);
@@ -2511,21 +2527,41 @@ function derivedAnswersFromSolution(t){
   return null;
 }
 
+/* Vilka delsvar som rättas automatiskt.
+   självrättning får vara en boolean för hela uppgiften eller en lista
+   med ett värde per delsvar. Ett delsvar utan facit (null) bedöms
+   alltid av eleven själv. */
+function autoPerDel(t,antal){
+  const sr=t.självrättning;
+  const svar=Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar];
+  return Array.from({length:antal},(_,i)=>{
+    const facit=svar[i];
+    if(facit===null||facit===undefined||facit==="") return false;
+    if(Array.isArray(sr)) return !!sr[i];
+    return !!sr;
+  });
+}
+
 function expectedAnswersForTask(t){
   if(t.rättSvar!==null && t.rättSvar!==undefined){
+    const answers=Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar];
+    const auto=autoPerDel(t,answers.length);
     return {
-      answers:Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar],
+      answers,
       source:"metadata",
-      auto:!!t.självrättning
+      // Uppgiften räknas som självrättande så snart någon del kan rättas.
+      auto:auto.some(Boolean),
+      delAuto:auto
     };
   }
 
   const derived=derivedAnswersFromSolution(t);
   if(derived && derived.length){
-    return {answers:derived,source:"facit",auto:true};
+    return {answers:derived,source:"facit",auto:true,
+            delAuto:derived.map(()=>true)};
   }
 
-  return {answers:[],source:"none",auto:false};
+  return {answers:[],source:"none",auto:false,delAuto:[]};
 }
 
 function inferAnswerCount(t){
@@ -2577,12 +2613,22 @@ function answerLayout(t){
   const info=expectedAnswersForTask(t);
   const taggat=taggatAntalSvar(t);
   const bokstaver=subtaskLetters(t);
-  // Vid automatisk rättning styr facit antalet rutor, annars taggen.
-  const n = info.auto ? Math.max(1,info.answers.length)
-                      : Math.max(1,taggat||bokstaver||1);
-  // Deluppgifter rättas i ordning. En taggad flersvarsuppgift gör det inte.
-  const ordnad = !taggat && bokstaver>1 && n>1;
-  return {info,n,ordnad,flersvar:n>1&&!ordnad,taggat};
+  // svarstyp "flera_delar" markerar deluppgifter i uppgiftstexten, även
+  // när de står som <ol><li> i stället för a), b), c). Ordningen är då
+  // bindande, så att 50, 100 och 6 inte får matchas huller om buller.
+  const delarTaggat=["flera_delar","flera delar","deluppgifter"]
+    .includes(String(t.svarstyp||"").toLowerCase());
+  const harFacit = t.rättSvar!==null && t.rättSvar!==undefined;
+  const n = harFacit ? Math.max(1,(Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar]).length)
+          : info.auto ? Math.max(1,info.answers.length)
+          : Math.max(1,taggat||bokstaver||1);
+  const ordnad = delarTaggat ? n>1
+               : (!taggat && bokstaver>1 && n>1);
+  // delAuto talar om vilka rutor som rättas och vilka eleven bedömer själv.
+  const delAuto = Array.from({length:n},(_,i)=>
+    info.delAuto ? !!info.delAuto[i] : !!info.auto);
+  return {info,n,ordnad,flersvar:n>1&&!ordnad,taggat,delarTaggat,delAuto,
+          blandad:delAuto.some(Boolean)&&delAuto.some(x=>!x)};
 }
 
 /* Verktygsikoner, samma märkning som i Uppgiftslabbet.
@@ -2817,7 +2863,7 @@ function algebraicallyEquivalent(user,expected){
   return false;
 }
 
-function oneAnswerCorrect(user,expected,t){
+function oneAnswerCorrect(user,expected,t,delIndex){
   const u=normalizeAnswer(user), e=normalizeAnswer(expected);
   if(!u) return false;
 
@@ -2839,8 +2885,11 @@ function oneAnswerCorrect(user,expected,t){
   if(!Number.isFinite(en)) en=firstNumber(expected);
 
   if(Number.isFinite(un)&&Number.isFinite(en)){
-    const tol=typeof t.tolerans==="number"
-      ? t.tolerans
+    // Toleransen får vara ett tal för hela uppgiften eller en lista
+    // med en tolerans per delsvar.
+    const rå=Array.isArray(t.tolerans) ? t.tolerans[delIndex||0] : t.tolerans;
+    const tol=typeof rå==="number"
+      ? rå
       : Math.max(1e-9,Math.abs(en)*1e-4);
     if(Math.abs(un-en)<=tol) return true;
   }
@@ -2869,8 +2918,9 @@ function renderTraining(){
   // Deluppgifter besvaras en i taget. Flera svar på samma fråga
   // fylls i samtidigt, eftersom ordningen inte betyder något.
   const stepwise=canAuto && inputCount>1 && layout.ordnad;
+  const bedomsSjalv=i=>!layout.delAuto[i];
   const fieldHtml=Array.from({length:inputCount},(_,i)=>`
-    <div class="apart${stepwise&&i>0?" upcoming":""}" id="part-${i}">
+    <div class="apart${stepwise&&i>0?" upcoming":""}${bedomsSjalv(i)?" egen":""}" id="part-${i}">
       <div class="aline">
         <label>${inputCount<2?"":layout.ordnad?String.fromCharCode(97+i)+")":(i+1)+"."}</label>
         ${isLongAnswer
@@ -2882,6 +2932,7 @@ function renderTraining(){
         ${canAuto?`<span class="mark" aria-hidden="true"></span>`:""}
       </div>
       <div class="corr" id="corr-${i}" hidden></div>
+      <div class="delfacit" id="delfacit-${i}" hidden></div>
     </div>`).join("");
 
   const partLine = stepwise
@@ -2919,7 +2970,11 @@ function renderTraining(){
                  <button class="btn" onclick="showSolution()">Visa lösning</button>`
               : `<button class="btn primary" onclick="showSolution()">Visa facit och jämför</button>`}
           </div>
-          ${canAuto?"":`<div class="hint">Den här uppgiften bedömer du själv efter att du sett facit.</div>`}
+          ${canAuto
+            ? (layout.blandad
+                ? `<div class="hint">Delar utan entydigt svar bedömer du själv mot facit.</div>`
+                : "")
+            : `<div class="hint">Den här uppgiften bedömer du själv efter att du sett facit.</div>`}
           <div id="answer-result"></div>
           <div id="solution-holder"></div>
         </div>
@@ -2951,7 +3006,7 @@ function checkAnswer(){
     if(svar.some(x=>!x.trim())){ toast("Fyll i alla svar först."); return; }
     const kvar=expected.map((v,i)=>({v,i}));
     const res=svar.map(anv=>{
-      const träff=kvar.findIndex(k=>oneAnswerCorrect(anv,k.v,t));
+      const träff=kvar.findIndex(k=>oneAnswerCorrect(anv,k.v,t,k.i));
       if(träff<0) return false;
       kvar.splice(träff,1);
       return true;
@@ -2967,16 +3022,58 @@ function checkAnswer(){
   const svar=el ? el.value : "";
   if(!svar.trim()){ toast("Skriv ett svar först."); return; }
 
-  const ok=oneAnswerCorrect(svar,expected[i],t);
-  state.partResults[i]=ok;
-  markPart(i,ok,expected[i]);
-  state.partIndex++;
-
-  if(state.partIndex>=expected.length){
-    finishAttempt(state.partResults);
-  }else{
-    openPart(state.partIndex,expected.length);
+  // En del utan facit — resonemang, förklaring, figur — bedöms av eleven
+  // själv mot facit. Övriga delar i samma uppgift rättas som vanligt.
+  if(!layout.delAuto[i]){
+    visaDelfacit(i);
+    return;
   }
+
+  const ok=oneAnswerCorrect(svar,expected[i],t,i);
+  registreraDel(i,ok,expected[i]);
+}
+
+/* Sparar utfallet för en del och går vidare till nästa, eller avslutar. */
+function registreraDel(i,ok,facit){
+  state.partResults[i]=ok;
+  markPart(i,ok,facit);
+  const total=answerLayout(state.currentTask).n;
+  state.partIndex=i+1;
+  if(state.partIndex>=total) finishAttempt(state.partResults.slice(0,total));
+  else openPart(state.partIndex,total);
+}
+
+/* Visar facit för en självbedömd deluppgift och låter eleven svara
+   på om det stämde. */
+function visaDelfacit(i){
+  const t=state.currentTask;
+  const rad=document.getElementById("part-"+i);
+  if(!rad) return;
+  const inp=document.getElementById("ans-"+i);
+  if(inp) inp.readOnly=true;
+  const ruta=document.getElementById("delfacit-"+i);
+  if(ruta){
+    ruta.hidden=false;
+    ruta.innerHTML=`<div class="lbl">Facit för den här delen</div>
+      <div class="delfacit-txt">${delfacitText(t,i)}</div>
+      <div class="aacts">
+        <button class="btn soft sm" onclick="bedomDel(${i},true)">Jag hade rätt</button>
+        <button class="btn sm" onclick="bedomDel(${i},false)">Jag behöver träna mer</button>
+      </div>`;
+    renderMath(ruta);
+  }
+}
+/* Banken kan lägga facit per del i delfacit/facitDelar, annars visas
+   hela lösningen. */
+function delfacitText(t,i){
+  const d=t.delfacit||t.facitDelar||t.delsvar;
+  if(Array.isArray(d)&&d[i]) return d[i];
+  return t.s||"Facit saknas.";
+}
+function bedomDel(i,ok){
+  const ruta=document.getElementById("delfacit-"+i);
+  if(ruta){ ruta.hidden=true; ruta.innerHTML=""; }
+  registreraDel(i,ok,null);
 }
 
 /* Visar utfallet för en deluppgift och låser raden. */

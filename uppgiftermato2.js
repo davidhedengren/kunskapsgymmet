@@ -1,4 +1,8 @@
-/* LaTeX escape-fix 2026-09-07. Originaldata bevarad; endast verifierade dubbel-escape-fel korrigerade. */
+/* uppgiftermato2.js — Matematik – fortsättning nivå 2 (tidigare Ma4).
+   Grundreviderad för Kunskapsgymmet och Uppgiftslabbet 2026-09-07.
+   Säkrare självrättning, ordnade/nästlade svar, svarFormat, problemlösningstaggar,
+   selektiv spelDelning och spel:false för rit-/skissuppgifter. */
+
 window.BANKMATO2 = [
   {
     "id": "1.01",
@@ -19,9 +23,41 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      5,
+      "pi/2",
+      2,
+      [
+        7,
+        -3
+      ]
+    ],
+    "tolerans": [
+      0,
+      null,
+      0,
+      [
+        0,
+        0
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "amplitud",
+      "period",
+      "medellinje",
+      "max/min"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "1.162",
@@ -44,7 +80,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.163",
@@ -67,7 +104,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.02",
@@ -85,7 +123,8 @@ window.BANKMATO2 = [
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -164,6 +203,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -260,6 +312,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -302,9 +367,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x=\\pi/6,\\ 5\\pi/6",
+      "x=3\\pi/4,\\ 5\\pi/4",
+      "x=\\pi/4,\\ 5\\pi/4",
+      "x=3\\pi/2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.10",
@@ -346,7 +429,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -380,6 +464,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -468,7 +565,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -493,9 +591,32 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x=n\\pi",
+      "x=\\pi+2n\\pi",
+      "x=\\pi/3+n\\pi",
+      null
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      null
+    ]
   },
   {
     "id": "1.17",
@@ -524,6 +645,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -590,9 +724,37 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        "-4/5",
+        "-3/4"
+      ],
+      "3/5",
+      "-4/5"
+    ],
+    "tolerans": [
+      [
+        0,
+        0
+      ],
+      0,
+      0
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      [
+        "bråk",
+        "bråk"
+      ],
+      "bråk",
+      "bråk"
+    ]
   },
   {
     "id": "1.20",
@@ -620,6 +782,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -661,7 +836,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -686,9 +862,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x=0,\\frac\\pi2,\\pi,\\frac{3\\pi}2",
+      "x=\\frac\\pi6,\\frac{5\\pi}6,\\frac{7\\pi}6,\\frac{11\\pi}6",
+      "x=\\frac\\pi6,\\frac{5\\pi}6,\\frac{3\\pi}2",
+      "x=\\frac{3\\pi}8,\\frac{7\\pi}8,\\frac{11\\pi}8,\\frac{15\\pi}8"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.23",
@@ -730,7 +924,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -763,6 +958,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -881,6 +1089,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -924,9 +1145,41 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "pi/2",
+      0,
+      [
+        "-pi/4",
+        "pi/4"
+      ],
+      "udda"
+    ],
+    "tolerans": [
+      null,
+      0,
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "period",
+      "nollställe",
+      "asymptoter",
+      "symmetri"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      [
+        "uttryck",
+        "uttryck"
+      ],
+      "kort_text"
+    ]
   },
   {
     "id": "1.31",
@@ -967,7 +1220,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -998,6 +1252,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1038,7 +1301,20 @@ window.BANKMATO2 = [
       "cos(x)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "1.35",
@@ -1087,6 +1363,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1126,6 +1411,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1166,6 +1460,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1261,6 +1568,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1303,9 +1623,21 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      1.5,
+      "85,9^\\circ"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ]
   },
   {
     "id": "1.41",
@@ -1424,6 +1756,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1474,6 +1819,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1516,7 +1874,8 @@ window.BANKMATO2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -1587,9 +1946,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\frac{\\sqrt6+\\sqrt2}{4}",
+      "\\frac{\\sqrt2-\\sqrt6}{4}",
+      "\\frac{\\sqrt6-\\sqrt2}{4}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.50",
@@ -1640,6 +2014,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1805,6 +2192,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1854,6 +2254,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1899,6 +2310,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1943,6 +2365,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1974,7 +2405,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -1997,7 +2429,8 @@ window.BANKMATO2 = [
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -2029,7 +2462,20 @@ window.BANKMATO2 = [
       "cos(x)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "1.62",
@@ -2057,7 +2503,20 @@ window.BANKMATO2 = [
       "sqrt(2)/2"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "1.63",
@@ -2079,7 +2538,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "-3/4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "1.64",
@@ -2189,9 +2649,32 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x=90^\\circ n",
+      null,
+      "x=45^\\circ+90^\\circ n",
+      null
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      null,
+      "uttryck",
+      null
+    ]
   },
   {
     "id": "1.69",
@@ -2241,6 +2724,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -2418,7 +2914,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -2466,9 +2963,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "0,\\pi/2,\\pi,3\\pi/2",
+      "x=0,2\\pi/3,4\\pi/3",
+      "x=\\pi/4,5\\pi/4",
+      "\\pi/12,7\\pi/12,13\\pi/12,19\\pi/12"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.79",
@@ -2533,9 +3048,27 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\sqrt2\\sin(x+\\frac\\pi4)",
+      "2\\sin(x+\\frac\\pi6)",
+      "2\\sin(x-\\frac\\pi3)",
+      "5\\sin(x+\\arctan(4/3))"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.82",
@@ -2557,7 +3090,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "cos(x)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.83",
@@ -2585,6 +3119,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -2628,9 +3175,80 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        6,
+        "2*pi/3",
+        -2
+      ],
+      [
+        2,
+        "8*pi",
+        5
+      ],
+      [
+        "1/2",
+        "2*pi/5",
+        0
+      ],
+      [
+        4,
+        "pi",
+        7
+      ]
+    ],
+    "tolerans": [
+      [
+        0,
+        null,
+        0
+      ],
+      [
+        0,
+        null,
+        0
+      ],
+      [
+        0,
+        null,
+        0
+      ],
+      [
+        0,
+        null,
+        0
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "uttryck",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "1.156",
@@ -2657,6 +3275,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -2696,6 +3323,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -2731,7 +3367,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.332",
@@ -2777,7 +3414,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.85",
@@ -2802,7 +3440,16 @@ window.BANKMATO2 = [
       "(sqrt(6)-sqrt(2))/(4)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "1.86",
@@ -2828,6 +3475,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -2882,12 +3538,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 28.9,
     "tolerans": 0.1,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.89",
@@ -2905,7 +3563,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -2928,7 +3587,8 @@ window.BANKMATO2 = [
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -2954,9 +3614,24 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "y=3\\sin x+4",
+      "y=5\\sin2x-1",
+      "y=2\\sin(x/2)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.92",
@@ -2976,9 +3651,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x=210^\\circ,330^\\circ",
+      "x=45^\\circ,315^\\circ",
+      "x=60^\\circ,240^\\circ",
+      "x=120^\\circ,240^\\circ"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.93",
@@ -3019,7 +3712,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -3052,6 +3746,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -3111,7 +3816,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -3145,6 +3851,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -3232,9 +3951,28 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x=45^\\circ+180^\\circ n",
+      null,
+      "x=90^\\circ n"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": [
+      true,
+      false,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      null,
+      "uttryck"
+    ]
   },
   {
     "id": "1.102",
@@ -3301,9 +4039,27 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2\\sin(3(x-\\pi/3))",
+      "4\\cos(2(x+\\pi/4))-1",
+      "\\sin(5(x-\\pi/10))",
+      "3\\cos(4(x-\\pi/4))+2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.105",
@@ -3370,7 +4126,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "4/5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "1.108",
@@ -3435,9 +4192,37 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        "-pi/2",
+        "pi/2"
+      ],
+      "pi",
+      "n*pi"
+    ],
+    "tolerans": [
+      [
+        null,
+        null
+      ],
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "asymptoter",
+      "period",
+      "nollställen"
+    ],
+    "svarFormat": [
+      [
+        "uttryck",
+        "uttryck"
+      ],
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.111",
@@ -3489,6 +4274,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -3562,6 +4360,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -3657,6 +4468,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -3697,6 +4517,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -3793,6 +4626,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -3830,9 +4674,21 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x=2\\pi/3,4\\pi/3",
+      "x=3\\pi/2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.123",
@@ -3881,7 +4737,18 @@ window.BANKMATO2 = [
       2.5
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "1.125",
@@ -3933,6 +4800,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -3974,7 +4854,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -3997,7 +4878,8 @@ window.BANKMATO2 = [
     "familj": "Tolka och använda trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -4067,7 +4949,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -4115,9 +4998,21 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "5\\sin(x+\\arctan(4/3))",
+      "13\\sin(x-\\arctan(12/5))"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.132",
@@ -4234,6 +5129,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -4302,7 +5210,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.137",
@@ -4353,7 +5262,20 @@ window.BANKMATO2 = [
       "negativt"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "1.139",
@@ -4381,7 +5303,20 @@ window.BANKMATO2 = [
       "tan(x)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "1.140",
@@ -4410,6 +5345,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -4482,6 +5430,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -4531,7 +5492,20 @@ window.BANKMATO2 = [
       "-(24)/(25)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "1.144",
@@ -4555,7 +5529,11 @@ window.BANKMATO2 = [
       "-(56)/(65)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.145",
@@ -4597,9 +5575,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2\\sin2x",
+      "3\\cos2x",
+      "2\\cos2x",
+      "2\\sin x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.147",
@@ -4626,6 +5622,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -4710,9 +5717,37 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "2*sin(x+pi/6)",
+      2,
+      [
+        0,
+        "2*pi/3"
+      ]
+    ],
+    "tolerans": [
+      null,
+      0,
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      [
+        "uttryck",
+        "uttryck"
+      ]
+    ]
   },
   {
     "id": "1.151",
@@ -4802,9 +5837,37 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "pi/3",
+      [
+        "-pi/6",
+        "pi/6"
+      ],
+      "n*pi/3"
+    ],
+    "tolerans": [
+      null,
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "period",
+      "asymptoter",
+      "nollställen"
+    ],
+    "svarFormat": [
+      "uttryck",
+      [
+        "uttryck",
+        "uttryck"
+      ],
+      "uttryck"
+    ]
   },
   {
     "id": "1.155",
@@ -4825,9 +5888,50 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "pi/3",
+      "2*pi",
+      [
+        "-pi/2",
+        "pi/2"
+      ],
+      [
+        "-pi/4",
+        "pi/4"
+      ]
+    ],
+    "tolerans": [
+      null,
+      null,
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      [
+        "uttryck",
+        "uttryck"
+      ],
+      [
+        "uttryck",
+        "uttryck"
+      ]
+    ]
   },
   {
     "id": "2.01",
@@ -4872,9 +5976,28 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x<-2 och x>1",
+      "-2<x<1",
+      null
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "intervall",
+      "intervall",
+      null
+    ]
   },
   {
     "id": "2.03",
@@ -4925,6 +6048,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -4975,6 +6111,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5024,6 +6173,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5061,9 +6221,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "-5\\sin(5x-2)",
+      "16x(2x^2+1)^3",
+      "x^2(3\\ln x+1)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.06",
@@ -5112,6 +6287,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5179,6 +6365,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5229,6 +6428,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5268,7 +6480,8 @@ window.BANKMATO2 = [
     "s": "<p>a) Funktionen är \\(f(x)=\\ln x+x^2\\). Då</p><p>\\[f'(x)=\\frac1x+2x.\\]</p><p>Vid \\(x=1\\) är \\(f(1)=1\\) och \\(f'(1)=3\\). Tangenten blir</p><p>\\[y-1=3(x-1)\\Rightarrow \\boxed{y=3x-2}.\\]</p><p>b) Skärningen med x-axeln fås av \\(0=3x-2\\), alltså \\(x=2/3\\). Skärningen med y-axeln är \\(y=-2\\).</p><p>Triangelns bas och höjd har längderna \\(2/3\\) respektive 2. Arean är</p><p>\\[A=\\frac12\\cdot\\frac23\\cdot2=\\boxed{\\frac23}.\\]</p>",
     "familj": "Tangentproblem i tillämpningar",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -5277,6 +6490,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5307,7 +6529,8 @@ window.BANKMATO2 = [
     "familj": "Optimera rektangel med derivata",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -5340,6 +6563,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5406,9 +6642,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\cos x-x\\sin x",
+      "3x^2\\ln x+x^2=x^2(3\\ln x+1)",
+      "2e^{2x}+2(2x-1)e^{2x}=4xe^{2x}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.16",
@@ -5432,7 +6683,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "2.17",
@@ -5452,9 +6704,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "4\\cos x+3\\sin x",
+      "1/\\cos^2x",
+      "-10\\sin2x",
+      "6\\cos3x+4\\sin4x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.18",
@@ -5474,9 +6744,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "3\\cos3x",
+      "-20\\sin5x",
+      "2/\\cos^2(2x)",
+      "2\\cos x+3\\sin x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.19",
@@ -5542,7 +6830,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med grafanalys",
     "formaga": [
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -5564,12 +6853,14 @@ window.BANKMATO2 = [
     "s": "<p>Låt det övre högra hörnet ha koordinaterna \\((x,12-x^2)\\), där \\(0&lt;x&lt;\\sqrt{12}\\).</p><p>Rektangelns bredd är \\(2x\\) och höjden är \\(12-x^2\\). Alltså</p><p>\\[A(x)=2x(12-x^2)=24x-2x^3.\\]</p><p>Derivera:</p><p>\\[A'(x)=24-6x^2.\\]</p><p>Extrempunkten fås när</p><p>\\[24-6x^2=0\\Rightarrow x^2=4\\Rightarrow x=2.\\]</p><p>Eftersom arean är 0 vid intervallets ändpunkter och positiv däremellan ger denna punkt maximum.</p><p>\\[A(2)=4(12-4)=32.\\]</p><p><strong>Den största möjliga arean är \\(\\boxed{32}\\) areaenheter.</strong></p>",
     "familj": "Tillämpade derivataproblem",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 32,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.23",
@@ -5586,7 +6877,8 @@ window.BANKMATO2 = [
     "s": "<p><strong>Metod:</strong> Skriv först den storhet som ska undersökas som en funktion. Derivera sedan och använd villkoret i uppgiften.</p><p>\\[f_a'(x)=2x+\\frac ax.\\]</p><p>Parallellitet kräver \\(f_a'(1)=5\\): \\(2+a=5\\Rightarrow\\boxed{a=3}\\).</p><p>\\(f_3(1)=1\\), så tangenten genom \\((1,1)\\) med lutning 5 är</p><p><strong>\\(\\boxed{y=5x-4}\\)</strong>.</p>",
     "familj": "Tangentproblem i tillämpningar",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -5619,6 +6911,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5661,9 +6966,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "1/\\cos^2x",
+      "-4\\sin4x",
+      "\\frac12\\cos(x/2)",
+      "2\\cos x+5\\sin x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.26",
@@ -5715,6 +7038,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5788,6 +7124,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "intervall",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5832,7 +7181,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(17)/((2x+5)^2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.30",
@@ -5860,6 +7210,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5905,7 +7268,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "1/2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "2.32",
@@ -5928,7 +7292,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 6,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.33",
@@ -5945,7 +7310,8 @@ window.BANKMATO2 = [
     "s": "<p>Eftersom tangenten gäller vid \\(x=1\\) måste både funktionsvärdet och derivatan stämma där.</p><p>Tangentens värde vid \\(x=1\\) är \\(5-3=2\\). Alltså</p><p>\\[f(1)=1+b=2\\Rightarrow b=1.\\]</p><p>Derivatan är</p><p>\\[f'(x)=2x+\\frac a x.\\]</p><p>Tangentens lutning är 5, så</p><p>\\[f'(1)=2+a=5\\Rightarrow a=3.\\]</p><p><strong>\\(\\boxed{a=3,\\ b=1}\\).</strong></p>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -6001,6 +7367,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -6066,9 +7445,28 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "x>2",
+      2,
+      "e^(x-1)+2"
+    ],
+    "tolerans": [
+      null,
+      0,
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "definitionsmängd",
+      "asymptot",
+      "invers"
+    ],
+    "svarFormat": [
+      "intervall",
+      "numeriskt",
+      "uttryck"
+    ]
   },
   {
     "id": "2.37",
@@ -6088,9 +7486,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "e^x(x^2+2x)",
+      "\\ln x+1",
+      "3x^2\\sin x+x^3\\cos x",
+      "3x^2+2x-2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.38",
@@ -6110,9 +7526,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "4\\cos x",
+      "-7\\sin x",
+      "6\\cos(2x)",
+      "-20\\sin(4x-1)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.39",
@@ -6164,6 +7598,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -6254,9 +7701,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2e^{2x}(x^2+x+1)",
+      "x(2\\cos x-x\\sin x)",
+      "e^{-x}(3-2x)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.44",
@@ -6279,7 +7741,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(sqrt(11))/(2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.45",
@@ -6298,7 +7761,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -6325,7 +7789,8 @@ window.BANKMATO2 = [
     "svarstyp": "ekvation",
     "rättSvar": "y=(4)/(e^2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.47",
@@ -6375,6 +7840,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -6417,9 +7895,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "3\\sin^2x\\cos x",
+      "e^{3x}(1+3x)",
+      "\\frac{2x}{x^2+4}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.49",
@@ -6441,7 +7934,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "e^(-4x)*((1)/(x)-4*ln(2x))",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.50",
@@ -6463,7 +7957,8 @@ window.BANKMATO2 = [
     "svarstyp": "ekvation",
     "rättSvar": "y=1/2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.51",
@@ -6486,7 +7981,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "2.52",
@@ -6505,12 +8001,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.264",
@@ -6624,7 +8122,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "2.56",
@@ -6695,6 +8194,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -6788,6 +8298,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -6908,6 +8431,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -6949,7 +8485,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -6982,6 +8519,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -7024,9 +8574,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "-2\\sin x\\cos x",
+      "5(2x-3)(x^2-3x)^4",
+      "\\frac{e^x(x-1)}{x^2}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.66",
@@ -7050,7 +8615,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 1.41,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.67",
@@ -7078,6 +8644,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -7124,7 +8703,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "2.69",
@@ -7175,6 +8755,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -7215,7 +8808,8 @@ window.BANKMATO2 = [
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -7225,6 +8819,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "intervall",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -7285,9 +8890,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\sin x+x\\cos x",
+      "(x+3)e^x",
+      "2x\\ln x+x",
+      "3\\cos x-(3x-1)\\sin x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.74",
@@ -7330,9 +8953,28 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "2*x*ln(x)+x",
+      "e^(2*x)*(2*x+1)/(x+1)^2",
+      "2*x/(x^2+1)"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.76",
@@ -7349,7 +8991,8 @@ window.BANKMATO2 = [
     "s": "<p>a) \\(f'(x)=2x-4\\).</p><p>b) \\(f'(3)=2\\).</p><p>c) \\(f(3)=9-12+1=-2\\). Tangenten genom \\((3,-2)\\) med lutning 2 är \\(y+2=2(x-3)\\), alltså <strong>\\(y=2x-8\\)</strong>.</p>",
     "familj": "Tangentproblem i tillämpningar",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -7359,6 +9002,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -7445,7 +9099,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "2.79",
@@ -7464,7 +9119,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -7519,6 +9175,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -7569,6 +9238,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -7609,7 +9291,8 @@ window.BANKMATO2 = [
     "familj": "Tangentproblem i tillämpningar",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -7633,7 +9316,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -7666,6 +9350,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -7732,9 +9429,37 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      1,
+      1.693,
+      [
+        2.0,
+        5.922
+      ]
+    ],
+    "tolerans": [
+      0,
+      0.002,
+      [
+        0.002,
+        0.002
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "asymptot",
+      "minimum",
+      "skärningar"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "2.87",
@@ -7751,7 +9476,8 @@ window.BANKMATO2 = [
     "s": "<p><strong>Metod:</strong> Avgör om uttrycket kräver produktregel, kvotregel eller kedjeregel innan du deriverar.</p><p>a) Produktregeln ger</p><p>\\[f'(x)=1\\cdot\\ln x+x\\cdot\\frac1x=\\ln x+1.\\]</p>\n<p>b) \\(f(e)=e\\ln e=e\\) och \\(f'(e)=1+1=2\\). Tangenten genom \\((e,e)\\) med lutning 2 är</p><p>\\[y-e=2(x-e).\\]</p><p><strong>\\(y=2x-e\\).</strong></p>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -7760,6 +9486,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -7789,7 +9524,8 @@ window.BANKMATO2 = [
     "s": "<p>Derivatan är</p><p>\\[f'(x)=a e^{-bx}(1-bx).\\]</p><p>Eftersom \\(a e^{-bx}&gt;0\\) fås extrempunkten när</p><p>\\[1-bx=0.\\]</p><p>Maxpunkten ligger vid \\(x=4\\), alltså</p><p>\\[1-4b=0\\Rightarrow \\boxed{b=\\frac14}.\\]</p><p>Nu använder vi att \\(f(4)=12\\):</p><p>\\[4a e^{-1}=12\\Rightarrow a=3e.\\]</p><p><strong>\\(\\boxed{a=3e,\\ b=1/4}\\).</strong></p>",
     "familj": "Tillämpade derivataproblem",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -7822,6 +9558,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -7865,9 +9614,37 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "x<-3 eller x>1",
+      "-3<x<1",
+      [
+        -3,
+        1
+      ]
+    ],
+    "tolerans": [
+      null,
+      null,
+      [
+        0,
+        0
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "växande",
+      "avtagande",
+      "extrempunkter"
+    ],
+    "svarFormat": [
+      "intervall",
+      "intervall",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "2.91",
@@ -7895,6 +9672,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "intervall",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -7940,6 +9728,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -8004,9 +9805,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "4e^x(1+e^x)^3",
+      "e^{\\sin x}\\cos x",
+      "3\\sin^2x\\cos x",
+      "\\frac{5(\\ln x)^4}{x}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.94",
@@ -8056,6 +9875,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -8120,7 +9952,8 @@ window.BANKMATO2 = [
     "familj": "Tillämpade derivataproblem",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -8173,7 +10006,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "2.100",
@@ -8225,6 +10059,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -8267,9 +10114,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "-2/(x-1)^2",
+      "(x\\cos x-\\sin x)/x^2",
+      "e^{-x}(2x-x^2)",
+      "(1-\\ln x)/x^2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.103",
@@ -8292,7 +10157,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "2.104",
@@ -8365,6 +10231,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -8434,6 +10311,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -8483,6 +10373,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -8543,9 +10444,27 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      1,
+      2,
+      5,
+      0
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "2.110",
@@ -8614,7 +10533,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "2.266",
@@ -8635,9 +10555,33 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "(0.693,0.847)",
+      [
+        0,
+        1.594
+      ]
+    ],
+    "tolerans": [
+      null,
+      [
+        0.002,
+        0.002
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "minimipunkt",
+      "lösningar"
+    ],
+    "svarFormat": [
+      "punkt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "2.112",
@@ -8665,6 +10609,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -8715,6 +10672,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -8787,6 +10757,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -8832,6 +10813,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -8872,7 +10864,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "2.117",
@@ -8892,9 +10885,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2/(x+2)^2",
+      "(x^2-1)/x^2",
+      "e^x(x-1)/x^2",
+      "(x\\cos x-\\sin x)/x^2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.118",
@@ -8935,7 +10946,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -8987,7 +10999,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 3.92,
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.270",
@@ -9038,6 +11051,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -9073,7 +11095,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "2.123",
@@ -9100,6 +11123,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -9163,9 +11197,28 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "160*pi",
+      28.125
+    ],
+    "tolerans": [
+      null,
+      0.01
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "volymhastighet",
+      "tid"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "cm³/s",
+      "s"
+    ]
   },
   {
     "id": "2.126",
@@ -9208,9 +11261,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "3\\cos x",
+      "4\\sin x",
+      "2\\cos x-5\\sin x",
+      "\\sin x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.128",
@@ -9233,7 +11304,8 @@ window.BANKMATO2 = [
     "svarstyp": "ekvation",
     "rättSvar": "y=2x+3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.129",
@@ -9254,9 +11326,21 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      6,
+      "4e^{-2}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ]
   },
   {
     "id": "2.130",
@@ -9273,12 +11357,14 @@ window.BANKMATO2 = [
     "s": "<p>Funktionsvärdet är</p>\n<p>\\[\ny(1)=e^2.\n\\]</p>\n<p>Derivera med produktregeln:</p>\n<p>\\[\ny'=e^{2x}+2xe^{2x}=e^{2x}(1+2x).\n\\]</p>\n<p>Tangentens lutning vid \\(x=1\\) är</p>\n<p>\\[\ny'(1)=3e^2.\n\\]</p>\n<p>Använd tangentens lutning och punkten \\(P=(1,e^2)\\):</p>\n<p>\\[\ny-e^2=3e^2(x-1).\n\\]</p>\n<p><strong>\\[\ny=3e^2x-2e^2.\n\\]</strong></p>",
     "familj": "Tangentproblem i tillämpningar",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "ekvation",
     "rättSvar": "y=3*e^2*x-2*e^2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.131",
@@ -9297,7 +11383,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -9321,7 +11408,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -9354,6 +11442,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -9393,12 +11494,14 @@ window.BANKMATO2 = [
     "s": "<p>\\[f'(x)=\\cos x-\\sin x.\\]</p><p>Vid \\(x=\\pi/4\\) är sinus och cosinus lika stora, så</p><p>\\[f'(\\pi/4)=\\frac{\\sqrt2}{2}-\\frac{\\sqrt2}{2}=\\boxed{0}.\\]</p>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 0,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.135",
@@ -9424,6 +11527,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -9456,9 +11568,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "e^{3x}(3x^2+2x+3)",
+      "\\frac{1-2\\ln x}{x^3}",
+      "2x\\cos(x^2+1)",
+      "\\frac{e^x}{1+e^x}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.137",
@@ -9479,9 +11609,24 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "derivatan är negativ",
+      "avtagande",
+      "f'(x_P)=-0,8"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.138",
@@ -9499,7 +11644,8 @@ window.BANKMATO2 = [
     "familj": "Optimera rektangel med derivata",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -9522,7 +11668,8 @@ window.BANKMATO2 = [
     "familj": "Optimera rektangel med derivata",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -9547,9 +11694,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2x\\sin x+x^2\\cos x",
+      "e^x(1+x)",
+      "2x\\ln x+\\frac{x^2+1}{x}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.141",
@@ -9599,6 +11761,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -9649,6 +11824,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -9699,6 +11887,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -9831,9 +12032,32 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "x>0",
+      "x>3",
+      "x<5/2",
+      "x<-2 eller x>2"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "intervall",
+      "intervall",
+      "intervall",
+      "intervall"
+    ]
   },
   {
     "id": "2.148",
@@ -9851,7 +12075,8 @@ window.BANKMATO2 = [
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -9860,6 +12085,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -9892,9 +12126,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "1/\\cos^2x",
+      "4/\\cos^2(4x)",
+      "6\\cos2x+5\\sin x",
+      "-3\\sin(3x+1)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.150",
@@ -9937,9 +12189,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "4\\cos x",
+      "-7\\sin x",
+      "\\frac{3}{\\cos^2x}",
+      "2\\cos x+5\\sin x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.152",
@@ -9967,6 +12237,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -10031,9 +12314,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\frac{2}{(x+2)^2}",
+      "\\frac{x^2-1}{x^2}",
+      "\\frac{e^x(x-1)}{x^2}",
+      "\\frac{x\\cos x-\\sin x}{x^2}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.155",
@@ -10219,7 +12520,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "2*sqrt(2)-2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.02",
@@ -10246,7 +12548,16 @@ window.BANKMATO2 = [
       "1/2"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.03",
@@ -10266,9 +12577,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2x^3-2x^2+3x+C",
+      "x^5-2/x+C",
+      "2x^{3/2}+C",
+      "-2/x^2+C"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.04",
@@ -10295,6 +12624,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -10338,7 +12678,16 @@ window.BANKMATO2 = [
       "1-2^(-1/3)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.06",
@@ -10366,6 +12715,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -10410,7 +12772,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 2,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.08",
@@ -10428,12 +12791,32 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      null,
+      36,
+      "kWh"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": [
+      false,
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      "uttryck"
+    ]
   },
   {
     "id": "3.09",
@@ -10453,9 +12836,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "e^x+C",
+      "\\frac32e^{2x}+C",
+      "4\\sin x+2\\cos x+C",
+      "\\ln x+C"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.10",
@@ -10474,7 +12875,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -10568,9 +12970,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2x^4+C",
+      "5e^x-2x+C",
+      "3\\ln x+C",
+      "-4\\cos x+3\\sin x+C"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.15",
@@ -10599,6 +13019,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -10648,6 +13081,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -10683,7 +13127,8 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -10691,7 +13136,16 @@ window.BANKMATO2 = [
       151.2
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.18",
@@ -10713,7 +13167,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "4/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.19",
@@ -10736,7 +13191,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.20",
@@ -10754,12 +13210,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.21",
@@ -10776,12 +13234,14 @@ window.BANKMATO2 = [
     "s": "<p><strong>Metod:</strong> Bestäm radien eller radierna vinkelrätt mot rotationsaxeln. Skriv sedan integralen som beskriver volymen med hjälp av tvärsnittens areor.</p><p>Tvärsnittet är ringformat. Den yttre radien är 2 och den inre radien är \\(x\\):</p><p>\\[V=\\pi\\int_0^2(4-x^2)dx=\\pi[4x-x^3/3]_0^2=\\frac{16\\pi}{3}.\\]</p><p><strong>\\(16\\pi/3\\).</strong></p>",
     "familj": "Rotationsvolym med brickmetoden",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "16*pi/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.22",
@@ -10808,6 +13268,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -10847,7 +13318,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.707,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.23",
@@ -10875,6 +13347,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -10919,7 +13404,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(pi)/(2)+2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.24",
@@ -10963,7 +13449,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 2,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.26",
@@ -10981,12 +13468,14 @@ window.BANKMATO2 = [
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 60,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.27",
@@ -11003,12 +13492,14 @@ window.BANKMATO2 = [
     "s": "<p>Först bestäms hastigheten genom att integrera accelerationen:</p><p>\\[v(t)=3t^2-12t+C.\\]</p><p>Villkoret \\(v(0)=9\\) ger \\(C=9\\), alltså</p><p>\\[v(t)=3(t-1)(t-3).\\]</p><p>Riktningen ändras vid \\(t=1\\) och \\(t=3\\). En primitiv funktion till hastigheten är</p><p>\\[S(t)=t^3-6t^2+9t.\\]</p><p>Den totala sträckan blir</p><p>\\[|S(1)-S(0)|+|S(3)-S(1)|+|S(4)-S(3)|=4+4+4=\\boxed{12\\text{ m}}.\\]</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 12,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.28",
@@ -11025,12 +13516,14 @@ window.BANKMATO2 = [
     "s": "<p>Metoden med cirkelformade tvärsnitt ger</p><p>\\[V=\\pi\\int_0^2x^2dx=\\pi\\left[\\frac{x^3}{3}\\right]_0^2=\\boxed{\\frac{8\\pi}{3}}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(8*pi)/(3)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.29",
@@ -11058,6 +13551,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -11101,9 +13607,21 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "k=\\frac3{32}",
+      "\\frac{11}{16}\\approx0,688"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.254",
@@ -11124,9 +13642,21 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "k\\approx0,5783",
+      0.175
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ]
   },
   {
     "id": "3.31",
@@ -11177,7 +13707,18 @@ window.BANKMATO2 = [
       "3/4"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "3.33",
@@ -11229,6 +13770,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -11273,7 +13827,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.882,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.148",
@@ -11295,7 +13850,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "e^2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.142",
@@ -11317,7 +13873,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "pi",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.35",
@@ -11368,6 +13925,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -11456,9 +14026,21 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "k=\\frac14",
+      "m=\\sqrt5-1\\approx1,236"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.40",
@@ -11486,6 +14068,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -11530,7 +14125,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "3/2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.41",
@@ -11571,7 +14167,8 @@ window.BANKMATO2 = [
     "s": "<p>I ett tvärsnitt kan klotet beskrivas av</p>\n<p>\\[\nx^2+y^2=25.\n\\]</p>\n<p>Den avskurna delen är 2 cm tjock, så den sträcker sig från \\(x=3\\) till \\(x=5\\). Då</p>\n<p>\\[\ny^2=25-x^2.\n\\]</p>\n<p>Vid rotation kring x-axeln blir tvärsnittsarean \\(\\pi y^2=\\pi(25-x^2)\\). Alltså</p>\n<p>\\[\nV=\\pi\\int_3^5(25-x^2)\\,dx.\n\\]</p>\n<p>\\[\nV=\\pi\\left[25x-\\frac{x^3}{3}\\right]_3^5\n=\\frac{52\\pi}{3}.\n\\]</p>\n<p><strong>\\[\nV=\\frac{52\\pi}{3}\\text{ cm}^3\\approx 54,5\\text{ cm}^3.\n\\]</strong></p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -11603,6 +14200,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -11646,7 +14254,16 @@ window.BANKMATO2 = [
       7.5
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.150",
@@ -11668,7 +14285,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "1/2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.144",
@@ -11690,7 +14308,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 1,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.146",
@@ -11712,7 +14331,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "pi^2/4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.235",
@@ -11734,7 +14354,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.846,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.45",
@@ -11762,6 +14383,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -11802,7 +14436,8 @@ window.BANKMATO2 = [
     "familj": "Rotationsvolym med brickmetoden",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -11835,6 +14470,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -11897,12 +14545,14 @@ window.BANKMATO2 = [
     "s": "<p>På intervallet \\(0\\le x\\le1\\) gäller \\(\\sqrt{x}\\ge x\\). Vid rotation kring x-axeln blir därför den yttre radien \\(\\sqrt{x}\\) och den inre radien \\(x\\).</p><p>\\[V=\\pi\\int_0^1\\left((\\sqrt{x})^2-x^2\\right)dx.\\]</p><p>\\[V=\\pi\\int_0^1(x-x^2)dx=\\pi\\left[\\frac{x^2}{2}-\\frac{x^3}{3}\\right]_0^1.\\]</p><p>\\[V=\\pi\\left(\\frac12-\\frac13\\right)=\\boxed{\\frac\\pi6}.\\]</p>",
     "familj": "Rotationsvolym med brickmetoden",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(pi)/(6)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.50",
@@ -11924,7 +14574,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "13/2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.51",
@@ -11942,7 +14593,8 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -11951,7 +14603,18 @@ window.BANKMATO2 = [
       168
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "3.244",
@@ -11969,12 +14632,14 @@ window.BANKMATO2 = [
     "familj": "Tillämpade integraler med digitalt verktyg",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 40.37,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.52",
@@ -11991,12 +14656,14 @@ window.BANKMATO2 = [
     "s": "<p>Vid varje \\(x\\) är radien från rotationsaxeln \\(y=4\\) ner till parabeln</p><p>\\[R(x)=4-x^2.\\]</p>\n<p>Metoden med cirkelformade tvärsnitt ger</p><p>\\[V=\\pi\\int_{-2}^{2}(4-x^2)^2dx.\\]</p><p>Utveckla:</p><p>\\[(4-x^2)^2=16-8x^2+x^4.\\]</p>\n<p>\\[V=\\pi\\left[16x-\\frac83x^3+\\frac15x^5\\right]_{-2}^{2}=\\boxed{\\frac{512\\pi}{15}}.\\]</p>",
     "familj": "Rotationsvolym med brickmetoden",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(512*pi)/(15)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.155",
@@ -12014,12 +14681,14 @@ window.BANKMATO2 = [
     "familj": "Rotationsvolym kring y-axeln",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "sqrt(y)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.249",
@@ -12036,12 +14705,14 @@ window.BANKMATO2 = [
     "s": "<p>Vid rotation kring x-axeln gäller</p><p>\\[V=\\pi\\int_0^{1,5}y^2\\,dx=\\pi\\int_0^{1,5}e^{-2x^2}\\,dx.\\]</p><p>Numeriskt:</p><p>\\[\\boxed{V\\approx1,963}.\\]</p>",
     "familj": "Rotationsvolym med digitalt verktyg",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1.963,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.53",
@@ -12105,7 +14776,8 @@ window.BANKMATO2 = [
     "s": "<p>En lägesförändring från \\(t=0\\) kan beskrivas av</p>\n<p>\\[\ns(t)=\\int v(t)\\,dt=t^3-6t^2+9t+C.\n\\]</p>\n<p>Vi kan sätta \\(C=0\\) eftersom endast skillnader behövs.</p>\n<p>a)</p>\n<p>\\[\ns(5)-s(0)=125-150+45=20.\n\\]</p>\n<p><strong>Förflyttningen är 20 m.</strong></p>\n<p>b) Hastigheten byter tecken när</p>\n<p>\\[\n3(t-1)(t-3)=0,\n\\]</p>\n<p>alltså vid \\(t=1\\) och \\(t=3\\).</p>\n<p>\\[\ns(1)=4,\\qquad s(3)=0,\\qquad s(5)=20.\n\\]</p>\n<p>Den totala sträckan blir</p>\n<p>\\[\n|4-0|+|0-4|+|20-0|=4+4+20=28.\n\\]</p>\n<p><strong>Den totala sträckan är 28 m.</strong></p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -12113,7 +14785,16 @@ window.BANKMATO2 = [
       28
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.56",
@@ -12140,6 +14821,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -12179,7 +14871,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "4/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.58",
@@ -12196,12 +14889,14 @@ window.BANKMATO2 = [
     "s": "<p>Skärning med x-axeln sker vid \\(x=\\pm2\\). Vid rotation kring \\(y=5\\) är yttre radien \\(R=5\\) och inre radien \\(r=5-(4-x^2)=1+x^2\\).</p><p>\\[V=\\pi\\int_{-2}^2\\left(25-(1+x^2)^2\\right)dx.\\]</p><p>Uttrycket som integreras är \\(24-2x^2-x^4\\). Symmetri ger</p><p>\\[V=2\\pi\\left[24x-\\frac{2x^3}{3}-\\frac{x^5}{5}\\right]_0^2=\\boxed{\\frac{1088\\pi}{15}}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(1088*pi)/(15)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.59",
@@ -12220,7 +14915,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -12253,6 +14949,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -12293,12 +15002,14 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 256,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.62",
@@ -12316,12 +15027,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 0.695,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.240",
@@ -12343,7 +15056,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.519,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.63",
@@ -12363,9 +15077,34 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        0,
+        2
+      ],
+      null,
+      "4/3"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": [
+      true,
+      false,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      null,
+      "uttryck"
+    ]
   },
   {
     "id": "3.64",
@@ -12414,6 +15153,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -12471,12 +15221,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med bestämd integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.68",
@@ -12496,9 +15248,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "-x^{-1}+C",
+      "\\frac23x^{3/2}+C",
+      "2\\sin x+C",
+      "-5\\cos x+C"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.69",
@@ -12516,12 +15286,14 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4.58,
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.70",
@@ -12538,12 +15310,14 @@ window.BANKMATO2 = [
     "s": "<p>Förflyttningen är integralen av hastigheten:</p><p>\\[s=\\int_0^3(3t^2-6t+4)dt=[t^3-3t^2+4t]_0^3=27-27+12=\\boxed{12\\text{ m}}.\\]</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 12,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.71",
@@ -12563,9 +15337,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\frac43",
+      "\\frac{32}{3}",
+      "\\frac83"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.72",
@@ -12585,9 +15374,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "4\\sin x+C",
+      "-3\\cos x+C",
+      "e^{2x}+C",
+      "5\\ln x+C"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.73",
@@ -12605,12 +15412,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.74",
@@ -12627,12 +15436,32 @@ window.BANKMATO2 = [
     "s": "<p>a) \\(V=\\pi\\int_0^3x^2dx\\).</p><p>b) \\(V=\\pi[x^3/3]_0^3=\\)<strong>\\(9\\pi\\)</strong>.</p><p>c) Området bildar en <strong>rät cirkulär kon</strong> med radie och höjd 3.</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      null,
+      "9\\pi",
+      "rät cirkulär kon"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": [
+      false,
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.75",
@@ -12660,6 +15489,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -12704,7 +15546,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(pi)/(2)+(1)/(2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.149",
@@ -12726,7 +15569,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "-pi",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.147",
@@ -12748,7 +15592,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "1+2*ln(2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.236",
@@ -12770,7 +15615,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 1.597,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.76",
@@ -12788,7 +15634,8 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -12816,7 +15663,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.45,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.255",
@@ -12837,9 +15685,21 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\frac3{14}\\approx0,2143",
+      "m\\approx1,406"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.78",
@@ -12856,7 +15716,8 @@ window.BANKMATO2 = [
     "s": "<p>Avståndet från rotationsaxeln \\(y=4\\) till parabeln är \\(R(x)=4-x^2\\). Metoden med cirkelformade tvärsnitt ger</p><p>\\[V=\\pi\\int_{-2}^{2}(4-x^2)^2dx.\\]</p><p>Uttrycket som integreras är jämn:</p><p>\\[V=2\\pi\\int_0^2(16-8x^2+x^4)dx=2\\pi\\left[16x-\\frac83x^3+\\frac{x^5}{5}\\right]_0^2.\\]</p><p><strong>\\(\\boxed{V=512\\pi/15}\\)</strong>.</p>",
     "familj": "Rotationsvolym med brickmetoden",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -12928,7 +15789,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.847,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.81",
@@ -12946,7 +15808,8 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -12991,7 +15854,8 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -12999,7 +15863,16 @@ window.BANKMATO2 = [
       400
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.245",
@@ -13017,12 +15890,14 @@ window.BANKMATO2 = [
     "familj": "Tillämpade integraler med digitalt verktyg",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 37.09,
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.84",
@@ -13040,12 +15915,14 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4.58,
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.85",
@@ -13073,6 +15950,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -13122,6 +16012,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -13158,12 +16059,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 340,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.88",
@@ -13183,9 +16086,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x^3+C",
+      "\\frac12e^{2x}+C",
+      "\\frac13\\sin3x+C",
+      "\\ln x+C"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.89",
@@ -13202,7 +16123,8 @@ window.BANKMATO2 = [
     "s": "<p>Hastigheten faktoriseras:</p><p>\\[v(t)=(t-1)(t-3).\\]</p><p>Den byter tecken vid \\(t=1\\) och \\(t=3\\). En primitiv funktion är \\(F(t)=t^3/3-2t^2+3t\\).</p><p>Förflyttningen:</p><p>\\[F(4)-F(0)=\\boxed{4/3\\text{ m}}.\\]</p><p>För total sträcka måste varje del räknas positivt:</p><p>\\[|F(1)-F(0)|+|F(3)-F(1)|+|F(4)-F(3)|=\\frac43+\\frac43+\\frac43=\\boxed{4\\text{ m}}.\\]</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -13233,6 +16155,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -13316,7 +16247,16 @@ window.BANKMATO2 = [
       "11/16"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.94",
@@ -13333,7 +16273,8 @@ window.BANKMATO2 = [
     "s": "<p>Förflyttning ges av \\(\\int v(t)dt\\).</p><p>a) \\(\\int_0^4 3t dt=\\)<strong>24 m</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_0^3(8-2t)dt=24-9=\\)<strong>15 m</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_2^7 5dt=\\)<strong>25 m</strong>.</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -13343,6 +16284,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -13379,12 +16331,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 800,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.96",
@@ -13412,6 +16366,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -13456,7 +16421,18 @@ window.BANKMATO2 = [
       "11/16"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "3.98",
@@ -13474,12 +16450,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 9,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.99",
@@ -13506,6 +16484,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -13538,9 +16525,28 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "A=\\int_0^4f(x)dx",
+      "11,5 areaenheter",
+      null
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      null
+    ]
   },
   {
     "id": "3.101",
@@ -13557,12 +16563,14 @@ window.BANKMATO2 = [
     "s": "<p>Rotationsaxeln \\(y=-1\\) ligger under båda kurvorna. För \\(0\\le x\\le4\\) ligger \\(y=\\sqrt{x}\\) över \\(y=x/2\\).</p>\n<p>Det är därför enklast att använda metoden med tvärsnitt som har ett hål i mitten och integrera med avseende på \\(x\\).</p>\n<p>Yttre radie:</p><p>\\[R(x)=\\sqrt{x}-(-1)=\\sqrt{x}+1.\\]</p>\n<p>Inre radie:</p><p>\\[r(x)=\\frac{x}{2}-(-1)=\\frac{x}{2}+1.\\]</p>\n<p>Volymen blir</p>\n<p>\\[V=\\pi\\int_0^4\\left[(\\sqrt{x}+1)^2-\\left(\\frac{x}{2}+1\\right)^2\\right]dx.\\]</p>\n<p>Förenkla uttrycket som integreras:</p>\n<p>\\[(\\sqrt{x}+1)^2-\\left(\\frac{x}{2}+1\\right)^2\n=x+2\\sqrt{x}+1-\\left(\\frac{x^2}{4}+x+1\\right)\n=2\\sqrt{x}-\\frac{x^2}{4}.\\]</p>\n<p>Alltså</p>\n<p>\\[V=\\pi\\left[\\frac43x^{3/2}-\\frac{x^3}{12}\\right]_0^4\n=\\pi\\left(\\frac{32}{3}-\\frac{16}{3}\\right)\n=\\boxed{\\frac{16\\pi}{3}}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(16*pi)/(3)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.102",
@@ -13589,6 +16597,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -13628,6 +16645,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -13663,7 +16689,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 2.094,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.104",
@@ -13691,6 +16718,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -13732,7 +16772,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -13755,12 +16796,14 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 7.03,
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.107",
@@ -13777,7 +16820,8 @@ window.BANKMATO2 = [
     "s": "<p>Kurvorna skär varandra vid \\(x=0\\) och \\(x=1\\). För rotation kring y-axeln är det naturligt att integrera med avseende på \\(y\\).</p>\n<p>Skriv kurvorna som</p>\n<p>\\[\nx=y\n\\quad\\text{och}\\quad\nx=\\sqrt[3]{y}.\n\\]</p>\n<p>För \\(0&lt;y&lt;1\\) är den yttre radien \\(R=y^{1/3}\\) och den inre \\(r=y\\).</p>\n<p>\\[\nV=\\pi\\int_0^1(R^2-r^2)\\,dy\n=\\pi\\int_0^1\\left(y^{2/3}-y^2\\right)dy.\n\\]</p>\n<p>\\[\nV=\\pi\\left[\\frac35y^{5/3}-\\frac13y^3\\right]_0^1\n=\\pi\\left(\\frac35-\\frac13\\right)\n=\\frac{4\\pi}{15}.\n\\]</p>\n<p><strong>\\(V=\\frac{4\\pi}{15}\\) volymenheter.</strong></p>",
     "familj": "Rotationsvolym kring y-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -13799,12 +16843,14 @@ window.BANKMATO2 = [
     "s": "<p>Volymen är</p><p>\\[V=\\pi\\int_0^3\\left(\\ln(x+1)\\right)^2dx.\\]</p><p>Numerisk integration ger</p><p>\\[\\boxed{V\\approx8,158}.\\]</p>",
     "familj": "Rotationsvolym med digitalt verktyg",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 8.158,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.108",
@@ -13821,12 +16867,14 @@ window.BANKMATO2 = [
     "s": "<p>Rotationsaxeln ligger ovanför hela området. För ett givet \\(x\\) är avståndet från axeln \\(y=5\\) till parabeln</p><p>\\[R=5-x^2\\]</p><p>och avståndet till linjen \\(y=4\\) är</p><p>\\[r=1.\\]</p><p>Tvärsnittsarean blir därför</p><p>\\[\\pi(R^2-r^2)=\\pi\\left((5-x^2)^2-1\\right).\\]</p><p>Volymen är</p><p>\\[V=\\pi\\int_{-2}^{2}\\left((5-x^2)^2-1\\right)dx.\\]</p><p>Utveckla:</p><p>\\[(5-x^2)^2-1=x^4-10x^2+24.\\]</p><p>Eftersom uttrycket som integreras är jämn:</p><p>\\[V=2\\pi\\int_0^2(x^4-10x^2+24)dx\\]</p><p>\\[=2\\pi\\left[\\frac{x^5}{5}-\\frac{10x^3}{3}+24x\\right]_0^2=\\boxed{\\frac{832\\pi}{15}}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(832*pi)/(15)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.109",
@@ -13848,7 +16896,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "x^3-2x^2+2x+4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.110",
@@ -13871,7 +16920,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "sqrt(2)/2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.111",
@@ -13888,7 +16938,8 @@ window.BANKMATO2 = [
     "s": "<p>\\[V=\\pi\\int_0^4(\\sqrt{x})^2dx=\\pi\\int_0^4x\\,dx=8\\pi.\\]</p><p><strong>\\(8\\pi\\) volymenheter.</strong></p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -13921,6 +16972,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -13960,7 +17024,8 @@ window.BANKMATO2 = [
     "s": "<p>Metoden med cirkelformade tvärsnitt ger</p><p>\\[V=\\pi\\int_0^3(x^2)^2dx=\\pi\\int_0^3x^4dx.\\]</p><p>\\[V=\\pi\\left[\\frac{x^5}{5}\\right]_0^3=\\boxed{\\frac{243\\pi}{5}}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -13983,12 +17048,14 @@ window.BANKMATO2 = [
     "familj": "Rotationsvolym kring y-axeln",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "y^(2/3)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.153",
@@ -14006,12 +17073,14 @@ window.BANKMATO2 = [
     "familj": "Rotationsvolym kring y-axeln",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "y^4",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.114",
@@ -14029,7 +17098,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -14037,7 +17107,16 @@ window.BANKMATO2 = [
       "4*sqrt(3)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.115",
@@ -14057,9 +17136,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2x^3-2x^2+3x+C",
+      "\\sin x+C",
+      "5e^x+C",
+      "\\ln x+C"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.116",
@@ -14076,7 +17173,8 @@ window.BANKMATO2 = [
     "s": "<p>Använd \\(V=\\pi\\int_a^b y^2dx\\).</p><p>a) \\(V=\\pi\\int_0^2x^2dx=\\boxed{8\\pi/3}\\).</p><p>b) \\(V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}\\).</p><p>c) \\(V=\\pi\\int_0^34dx=\\boxed{12\\pi}\\).</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -14086,6 +17184,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -14121,12 +17230,14 @@ window.BANKMATO2 = [
     "familj": "Massa som integral av linjär densitet",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 12,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.246",
@@ -14145,12 +17256,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4120,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.118",
@@ -14174,7 +17287,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.5,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.119",
@@ -14201,7 +17315,18 @@ window.BANKMATO2 = [
       1
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "3.120",
@@ -14220,7 +17345,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -14244,12 +17370,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 405,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.122",
@@ -14266,12 +17394,14 @@ window.BANKMATO2 = [
     "s": "<p>För varje \\(x\\in[0,2]\\) är ytterradien \\(R=3\\) och innerradien \\(r=3-x\\).</p><p>\\[V=\\pi\\int_0^2(9-(3-x)^2)dx=\\pi\\int_0^2(6x-x^2)dx.\\]</p><p>\\[V=\\pi[3x^2-x^3/3]_0^2=\\pi(12-8/3)=\\boxed{28\\pi/3}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "28*pi/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.251",
@@ -14288,12 +17418,14 @@ window.BANKMATO2 = [
     "s": "<p>Skärningarna fås ur \\(\\sin x=0,3\\):</p><p>\\[x\\approx0,305\\quad\\text{och}\\quad x\\approx2,837.\\]</p><p>Vid rotation bildas ringformade tvärsnitt med ytterradie \\(\\sin x\\) och innerradie \\(0,3\\).</p><p>\\[V=\\pi\\int_{0,305}^{2,837}\\left(\\sin^2x-0,3^2\\right)dx\\approx\\boxed{4,161}.\\]</p>",
     "familj": "Rotationsvolym med digitalt verktyg",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4.161,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.123",
@@ -14310,7 +17442,8 @@ window.BANKMATO2 = [
     "s": "<p>En primitiv funktion till hastigheten är</p><p>\\[F(t)=t^3-6t^2+9t.\\]</p><p>a) Förflyttningen är \\(F(4)-F(0)=64-96+36=\\boxed{4}\\).</p><p>b) \\(v(t)=3(t-1)(t-3)\\), så rörelseriktningen ändras vid \\(t=1\\) och \\(t=3\\). \\(F(0)=0,F(1)=4,F(3)=0,F(4)=4\\).</p><p>Total sträcka: \\(|4-0|+|0-4|+|4-0|=\\boxed{12}\\).</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -14318,7 +17451,16 @@ window.BANKMATO2 = [
       12
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.124",
@@ -14335,7 +17477,8 @@ window.BANKMATO2 = [
     "s": "<p><strong>Metod:</strong> Bestäm radien eller radierna vinkelrätt mot rotationsaxeln. Skriv sedan integralen som beskriver volymen med hjälp av tvärsnittens areor.</p><p>a) Ytterradie \\(R=2x\\), innerradie \\(r=x\\).</p><p>b) \\[V=\\pi\\int_0^2((2x)^2-x^2)dx=\\pi\\int_0^23x^2dx.\\]</p><p>c) \\(V=\\pi[x^3]_0^2=\\boxed{8\\pi}\\).</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -14358,12 +17501,14 @@ window.BANKMATO2 = [
     "familj": "Rotationsvolym kring y-axeln",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "y",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.154",
@@ -14381,12 +17526,14 @@ window.BANKMATO2 = [
     "familj": "Rotationsvolym kring y-axeln",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "4y^2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.125",
@@ -14405,12 +17552,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 2.29,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.126",
@@ -14427,12 +17576,14 @@ window.BANKMATO2 = [
     "s": "<p>Rotation kring \\(y=3\\) ger brickor med ytterradie \\(R=3\\) och innerradie \\(r=3-\\sqrt{x}\\).</p><p>\\[V=\\pi\\int_0^4\\left(3^2-(3-\\sqrt{x})^2\\right)dx.\\]</p><p>Förenkla uttrycket som integreras: \\(9-(9-6\\sqrt{x}+x)=6\\sqrt{x}-x\\).</p><p>\\[V=\\pi\\left[4x^{3/2}-\\frac{x^2}{2}\\right]_0^4=\\pi(32-8)=\\]<strong>\\(24\\pi\\)</strong>.</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "24*pi",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.127",
@@ -14449,7 +17600,8 @@ window.BANKMATO2 = [
     "s": "<p>För ett givet \\(y\\in[-1,1]\\) är ytterradien \\(R=3+\\sqrt{1-y^2}\\) och innerradien \\(r=3-\\sqrt{1-y^2}\\).</p><p>\\[V=\\pi\\int_{-1}^{1}(R^2-r^2)dy.\\]</p><p>Skillnaden blir</p><p>\\[(3+s)^2-(3-s)^2=12s,\\qquad s=\\sqrt{1-y^2}.\\]</p><p>Alltså</p><p>\\[V=12\\pi\\int_{-1}^{1}\\sqrt{1-y^2}dy.\\]</p><p>Integralen är arean av en halvcirkel med radie 1, alltså \\(\\pi/2\\).</p><p><strong>\\(\\boxed{V=6\\pi^2}\\)</strong>.</p>",
     "familj": "Rotationsvolym kring y-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -14482,6 +17634,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -14526,7 +17689,16 @@ window.BANKMATO2 = [
       "37/64"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.130",
@@ -14549,7 +17721,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 63.2,
     "tolerans": 0.1,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.257",
@@ -14568,12 +17741,25 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      0.651,
+      "q\\approx82,25"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ]
   },
   {
     "id": "3.131",
@@ -14601,6 +17787,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -14670,6 +17867,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -14715,7 +17923,18 @@ window.BANKMATO2 = [
       "(1)/(9)"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "3.135",
@@ -14733,7 +17952,8 @@ window.BANKMATO2 = [
     "familj": "Medelvärde av en funktion med integral",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -14755,12 +17975,28 @@ window.BANKMATO2 = [
     "s": "<p><strong>Metod:</strong> Översätt först situationen till en integral. Kontrollera sedan vad integralens tecken och enhet betyder i sammanhanget.</p><p>a) \\(\\int_0^5(t^2-4t+3)dt=[t^3/3-2t^2+3t]_0^5=125/3-50+15=\\boxed{20/3}\\).</p><p>b) \\(r(t)=(t-1)(t-3)=0\\Rightarrow\\boxed{t=1,3}\\).</p><p>c) \\(20+20/3=\\boxed{80/3}\\) enheter.</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "20/3",
+      1.3,
+      "80/3"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ]
   },
   {
     "id": "3.137",
@@ -14778,12 +18014,14 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4.58,
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.138",
@@ -14800,7 +18038,8 @@ window.BANKMATO2 = [
     "s": "<p>a) \\(\\int_1^4(4t-2)dt=[2t^2-2t]_1^4=(32-8)-(2-2)=\\boxed{24\\text{ m}}\\).</p><p>b) \\(v(4)=16-2=\\boxed{14\\text{ m/s}}\\).</p><p>c) \\(s(4)=s(1)+24=\\boxed{29\\text{ m}}\\).</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -14810,6 +18049,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -14844,7 +18094,8 @@ window.BANKMATO2 = [
     "s": "<p>a) Förflyttningen fås genom att integrera hastigheten. När hastigheten är negativ bidrar den negativt:</p><p>\\[\\int_0^4(t^2-4t+3)dt=\\left[\\frac{t^3}{3}-2t^2+3t\\right]_0^4=\\boxed{\\frac43}.\\]</p><p>b) För den totala sträckan måste vi ta hänsyn till när hastigheten är negativ.</p><p>\\[v(t)=(t-1)(t-3),\\]</p><p>så \\(v&gt;0\\) på \\([0,1]\\) och \\([3,4]\\), medan \\(v&lt;0\\) på \\([1,3]\\).</p><p>Sträckan blir därför</p><p>\\[\\int_0^1v(t)dt-\\int_1^3v(t)dt+\\int_3^4v(t)dt=\\boxed{4}.\\]</p><p><strong>Förflyttning: \\(4/3\\). Total sträcka: 4.</strong></p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -14853,6 +18104,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -14883,12 +18143,25 @@ window.BANKMATO2 = [
     "familj": "Tillämpade integraler med digitalt verktyg",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "31,74 mg",
+      "T\\approx2,67 h"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.140",
@@ -14905,7 +18178,8 @@ window.BANKMATO2 = [
     "s": "<p>a) <strong>160 liter</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_0^5(10+2t)dt=50+25=\\)<strong>75 liter</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_0^{10}(30-t)dt=300-50=\\)<strong>250 liter</strong>.</p>",
     "familj": "Volym som integral av flöde",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -14937,7 +18211,20 @@ window.BANKMATO2 = [
       "10-5*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.02",
@@ -14965,6 +18252,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -15103,7 +18403,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.07",
@@ -15130,7 +18431,20 @@ window.BANKMATO2 = [
       "7/2+i/2"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.08",
@@ -15157,7 +18471,20 @@ window.BANKMATO2 = [
       "-1+9*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.09",
@@ -15247,9 +18574,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)",
+      "3(\\cos\\frac{3\\pi}{2}+i\\sin\\frac{3\\pi}{2})",
+      "2(\\cos\\frac{4\\pi}{3}+i\\sin\\frac{4\\pi}{3})"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.13",
@@ -15321,7 +18663,20 @@ window.BANKMATO2 = [
       "-6+7*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.16",
@@ -15362,7 +18717,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -15413,7 +18769,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.20",
@@ -15454,7 +18811,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -15487,6 +18845,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -15537,6 +18908,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -15599,7 +18983,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med multipla polynomrötter",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -15631,6 +19016,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -15675,7 +19071,20 @@ window.BANKMATO2 = [
       "-5+12*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.28",
@@ -15702,6 +19111,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -15743,7 +19163,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.30",
@@ -15833,7 +19254,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.33",
@@ -15905,7 +19327,18 @@ window.BANKMATO2 = [
       "2-2*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "4.36",
@@ -15926,9 +19359,37 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        -2,
+        3
+      ],
+      "-2-3*i",
+      "sqrt(13)"
+    ],
+    "tolerans": [
+      [
+        0,
+        0
+      ],
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Re/Im",
+      "konjugat",
+      "absolutbelopp"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.151",
@@ -15952,7 +19413,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.152",
@@ -15976,7 +19438,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.37",
@@ -15998,7 +19461,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "4+i",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.38",
@@ -16045,7 +19509,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.39",
@@ -16178,9 +19643,83 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        -2,
+        0,
+        2
+      ],
+      [
+        -3,
+        0,
+        2
+      ],
+      [
+        -2,
+        -1,
+        1,
+        2
+      ],
+      [
+        -2,
+        2,
+        3
+      ]
+    ],
+    "tolerans": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "4.45",
@@ -16254,7 +19793,20 @@ window.BANKMATO2 = [
       "4+5*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.48",
@@ -16274,9 +19826,32 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "sqrt(2)*(cos(pi/4)+i*sin(pi/4))",
+      "sqrt(2)*(cos(3*pi/4)+i*sin(3*pi/4))",
+      "2*(cos(7*pi/6)+i*sin(7*pi/6))",
+      "2*(cos(pi/2)+i*sin(pi/2))"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.49",
@@ -16298,7 +19873,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "x^2+4x+3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.50",
@@ -16325,6 +19901,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -16362,9 +19949,21 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "6i",
+      "\\frac32(\\cos\\frac{11\\pi}{6}+i\\sin\\frac{11\\pi}{6})"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.52",
@@ -16386,7 +19985,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.53",
@@ -16452,9 +20052,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2+2\\sqrt3i",
+      "-3\\sqrt3+3i",
+      "-3i",
+      "2-2i"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.320",
@@ -16527,6 +20145,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -16683,9 +20314,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "6(\\cos(5\\pi/12)+i\\sin(5\\pi/12))",
+      "4(\\cos(\\pi/2)+i\\sin(\\pi/2))",
+      "10(\\cos(\\pi/2)+i\\sin(\\pi/2))"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.62",
@@ -16708,7 +20354,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.63",
@@ -16731,7 +20378,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.316",
@@ -16776,9 +20424,24 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2(\\cos\\frac\\pi6+i\\sin\\frac\\pi6)",
+      "\\sqrt2(\\cos\\frac{5\\pi}4+i\\sin\\frac{5\\pi}4)",
+      "3(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.65",
@@ -16800,7 +20463,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(x-2)*(x-3)*(x+2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.66",
@@ -16847,7 +20511,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.67",
@@ -16890,9 +20555,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "8i",
+      -4,
+      "-\\frac92-\\frac{9\\sqrt3}{2}i",
+      -64
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.325",
@@ -16988,6 +20671,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -17170,6 +20866,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -17356,7 +21065,20 @@ window.BANKMATO2 = [
       "2*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.84",
@@ -17382,6 +21104,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -17482,9 +21213,24 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "1/2+(\\sqrt3/2)i",
+      -1,
+      "-2i"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ]
   },
   {
     "id": "4.89",
@@ -17525,7 +21271,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med faktorsatsen",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -17550,9 +21297,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\cos60^\\circ+i\\sin60^\\circ",
+      "4(\\cos90^\\circ+i\\sin90^\\circ)=4i",
+      "81e^{i2\\pi/3}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.92",
@@ -17594,7 +21356,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med faktorsatsen",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -17626,6 +21389,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -17671,6 +21445,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -17720,7 +21507,20 @@ window.BANKMATO2 = [
       2
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.97",
@@ -17795,7 +21595,20 @@ window.BANKMATO2 = [
       "4+3*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.100",
@@ -17814,7 +21627,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -17847,7 +21661,20 @@ window.BANKMATO2 = [
       "Ja"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.331",
@@ -17867,9 +21694,39 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        -1.968,
+        0.817,
+        1.89
+      ],
+      null
+    ],
+    "tolerans": [
+      [
+        0.002,
+        0.002,
+        0.002
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "reella nollställen",
+      "komplexa rötter"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      null
+    ]
   },
   {
     "id": "4.102",
@@ -17894,7 +21751,16 @@ window.BANKMATO2 = [
       -64
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "4.326",
@@ -18008,9 +21874,21 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "z=2e^{i2\\pi/3}",
+      8
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.321",
@@ -18100,9 +21978,28 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "16-16\\sqrt3 i",
+      null,
+      1
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": [
+      true,
+      false,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      null,
+      "numeriskt"
+    ]
   },
   {
     "id": "4.108",
@@ -18120,7 +22017,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med faktorsatsen",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -18129,7 +22027,18 @@ window.BANKMATO2 = [
       "a=2"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "4.109",
@@ -18258,7 +22167,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -18284,9 +22194,24 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)",
+      "2(\\cos\\frac{5\\pi}{6}+i\\sin\\frac{5\\pi}{6})",
+      "2(\\cos\\frac{3\\pi}{2}+i\\sin\\frac{3\\pi}{2})"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.115",
@@ -18350,9 +22275,24 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "8e^{i\\pi/2}",
+      "2e^{-i\\pi/6}",
+      "8e^{i\\pi}=-8"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.118",
@@ -18372,9 +22312,42 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        "x^2-2*x-3",
+        0
+      ],
+      [
+        "2*x^2+x-1",
+        -4
+      ]
+    ],
+    "tolerans": [
+      [
+        null,
+        0
+      ],
+      [
+        null,
+        0
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      [
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "uttryck",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "4.119",
@@ -18402,6 +22375,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -18497,7 +22483,20 @@ window.BANKMATO2 = [
       "4-3*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.123",
@@ -18524,7 +22523,20 @@ window.BANKMATO2 = [
       5
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.124",
@@ -18572,7 +22584,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.125",
@@ -18776,9 +22789,32 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "2-3*i",
+      "x^2-4*x+13",
+      null
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      null
+    ]
   },
   {
     "id": "4.132",
@@ -18822,9 +22858,27 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "(4,2)",
+      "(-3,5)",
+      "(-6,-1)",
+      "(7,0)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "punkt",
+      "punkt",
+      "punkt",
+      "punkt"
+    ]
   },
   {
     "id": "4.134",
@@ -18851,7 +22905,20 @@ window.BANKMATO2 = [
       16
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.135",
@@ -18879,6 +22946,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -18985,7 +23065,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv på formen \\(a+bi\\) med hjälp av Eulers formel.</p><p>a) \\(e^{i\\pi}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(e^{i\\pi/2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2e^{i3\\pi/4}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3e^{-i\\pi/6}\\)</p>",
     "s": "<p>Använd \\(e^{iv}=\\cos v+i\\sin v\\).</p><p>a) <strong>\\(-1\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(-\\sqrt2+\\sqrt2i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\frac{3\\sqrt3}{2}-\\frac32i\\)</strong>.</p>",
-    "familj": "Från exponentiell till rektangulär form",
+    "familj": "Omvandla mellan rektangulär och exponentiell form",
     "formaga": [
       "procedur"
     ],
@@ -19156,6 +23236,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -19294,6 +23387,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -19342,6 +23448,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -19375,9 +23490,24 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "(-\\frac12,\\frac{\\sqrt3}{2})",
+      "(-\\frac{\\sqrt3}{2},-\\frac12)",
+      "(\\frac{\\sqrt3}{2},-\\frac12)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "punkt",
+      "punkt",
+      "punkt"
+    ]
   },
   {
     "id": "1.169",
@@ -19397,7 +23527,8 @@ window.BANKMATO2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -19420,7 +23551,8 @@ window.BANKMATO2 = [
     "familj": "Bestäm trigonometrisk modell från data",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -19453,6 +23585,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -19501,6 +23646,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -19532,7 +23686,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -19554,7 +23709,8 @@ window.BANKMATO2 = [
     "s": "<p><strong>Formel från formelbladet:</strong> Vid rotation kring x-axeln gäller \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>a) \\(V=\\pi\\int_0^2x^2\\,dx=\\pi\\left[\\frac{x^3}{3}\\right]_0^2=\\boxed{\\frac{8\\pi}{3}}\\).</p><p>b) \\(V=\\pi\\int_0^1(2x)^2\\,dx=4\\pi\\left[\\frac{x^3}{3}\\right]_0^1=\\boxed{\\frac{4\\pi}{3}}\\).</p><p>c) \\(V=\\pi\\int_0^4(\\sqrt{x})^2\\,dx=\\pi\\int_0^4x\\,dx=\\pi\\left[\\frac{x^2}{2}\\right]_0^4=\\boxed{8\\pi}\\).</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -19564,6 +23720,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -19603,7 +23770,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "4/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.158",
@@ -19630,7 +23798,16 @@ window.BANKMATO2 = [
       "3/4"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "4.161",
@@ -19651,9 +23828,24 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "z=-3+4i",
+      5,
+      "\\overline z=-3-4i"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ]
   },
   {
     "id": "4.162",
@@ -19749,6 +23941,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -19797,6 +24002,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -19835,6 +24049,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -19866,7 +24089,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -19875,7 +24099,18 @@ window.BANKMATO2 = [
       8
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "1.175",
@@ -19894,7 +24129,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -19917,7 +24153,8 @@ window.BANKMATO2 = [
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -19940,7 +24177,8 @@ window.BANKMATO2 = [
     "familj": "Tolka och använda trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -19965,7 +24203,8 @@ window.BANKMATO2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -20020,6 +24259,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -20064,7 +24316,8 @@ window.BANKMATO2 = [
     "svarstyp": "ekvation",
     "rättSvar": "y=(2)/(3)x+ln(3)-(2)/(3)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.176",
@@ -20086,7 +24339,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "x*e^(3x)*(2+3x)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.177",
@@ -20108,7 +24362,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(1)/(1+cos(x))",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.178",
@@ -20151,12 +24406,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 68.2,
     "tolerans": 0.1,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.258",
@@ -20177,9 +24434,21 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "k\\approx0,4180",
+      0.715
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ]
   },
   {
     "id": "3.160",
@@ -20198,12 +24467,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 982,
     "tolerans": 1,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.161",
@@ -20222,7 +24493,8 @@ window.BANKMATO2 = [
     "formaga": [
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -20246,7 +24518,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -20273,7 +24546,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(16*sqrt(2))/(3)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.242",
@@ -20295,7 +24569,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 2.392,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.164",
@@ -20312,12 +24587,14 @@ window.BANKMATO2 = [
     "s": "<p><strong>Formel från formelbladet:</strong> Vid rotation kring y-axeln gäller \\(V=\\pi\\int_a^b x^2\\,dy\\).</p><p>Här är \\(x=y^2\\), så</p><p>\\[V=\\pi\\int_0^2(y^2)^2\\,dy=\\pi\\int_0^2y^4\\,dy.\\]</p><p>\\[V=\\pi\\left[\\frac{y^5}{5}\\right]_0^2=\\boxed{\\frac{32\\pi}{5}}.\\]</p>",
     "familj": "Rotationsvolym kring y-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(32*pi)/(5)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.252",
@@ -20334,12 +24611,14 @@ window.BANKMATO2 = [
     "s": "<p>\\[V=\\pi\\int_0^2\\left(\\sqrt{1+x^2}-1\\right)^2dx.\\]</p><p>Numeriskt fås</p><p>\\[\\boxed{V\\approx2,359}.\\]</p>",
     "familj": "Rotationsvolym med digitalt verktyg",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 2.359,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.165",
@@ -20367,6 +24646,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -20459,7 +24751,18 @@ window.BANKMATO2 = [
       "(x-2)*(2x+1)+9"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "4.169",
@@ -20500,7 +24803,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med polynomdivision",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -20508,7 +24812,16 @@ window.BANKMATO2 = [
       "x^2+4*x+3"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "4.171",
@@ -20534,6 +24847,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -20590,7 +24912,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(x-1)*(x-3)*(x+2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.174",
@@ -20617,6 +24940,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -20652,7 +24986,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med polynomdivision",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -20697,7 +25032,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med polynomdivision",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -20743,7 +25079,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med polynomdivision",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -20774,6 +25111,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -20834,6 +25180,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -20864,7 +25219,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med polynomdivision",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -20909,7 +25265,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med polynomdivision",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -20937,7 +25294,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.180",
@@ -20960,7 +25318,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.181",
@@ -20983,7 +25342,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.334",
@@ -21029,7 +25389,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.183",
@@ -21052,7 +25413,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.184",
@@ -21075,7 +25437,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.185",
@@ -21098,7 +25461,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.186",
@@ -21121,7 +25485,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.187",
@@ -21144,7 +25509,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.188",
@@ -21167,7 +25533,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.189",
@@ -21626,7 +25993,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -21935,6 +26303,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -21984,7 +26365,20 @@ window.BANKMATO2 = [
       "-3+5*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.187",
@@ -22011,7 +26405,20 @@ window.BANKMATO2 = [
       "-5-12*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.188",
@@ -22062,6 +26469,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -22111,7 +26531,20 @@ window.BANKMATO2 = [
       2
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.191",
@@ -22138,7 +26571,20 @@ window.BANKMATO2 = [
       "-3-2*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.192",
@@ -22165,7 +26611,20 @@ window.BANKMATO2 = [
       "(1)/(5)-(7)/(5)i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.193",
@@ -22192,7 +26651,20 @@ window.BANKMATO2 = [
       "2+2*sqrt(3)i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.194",
@@ -22220,6 +26692,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -22457,7 +26942,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv i exponentiell form.</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-2+2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-3i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sqrt3-i\\)</p>",
     "s": "<p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p><p>a) <strong>\\(\\sqrt2e^{i\\pi/4}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(2\\sqrt2e^{i3\\pi/4}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(3e^{-i\\pi/2}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(2e^{-i\\pi/6}\\)</strong></p>",
-    "familj": "Från rektangulär till exponentiell form",
+    "familj": "Omvandla mellan rektangulär och exponentiell form",
     "formaga": [
       "procedur"
     ],
@@ -22484,9 +26969,21 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2\\sqrt2(\\cos\\frac{7\\pi}{12}+i\\sin\\frac{7\\pi}{12})",
+      "\\cos\\frac{7\\pi}{12}+i\\sin\\frac{7\\pi}{12}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.206",
@@ -22889,7 +27386,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.221",
@@ -22983,7 +27481,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.8,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.271",
@@ -23007,7 +27506,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 36.9,
     "tolerans": 0.1,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.181",
@@ -23055,7 +27555,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.16,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.183",
@@ -23106,7 +27607,16 @@ window.BANKMATO2 = [
       0.3
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "2.185",
@@ -23152,7 +27662,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 2,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.187",
@@ -23173,9 +27684,21 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\frac{dA}{dr}=12\\pi km",
+      "4,8\\pi km^2/min"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.188",
@@ -23197,9 +27720,28 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "5/(2*pi)",
+      20
+    ],
+    "tolerans": [
+      null,
+      0
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "radiehastighet",
+      "areahastighet"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "m²/s"
+    ]
   },
   {
     "id": "1.221",
@@ -23222,7 +27764,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.222",
@@ -23245,7 +27788,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.223",
@@ -23268,7 +27812,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.224",
@@ -23291,7 +27836,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.225",
@@ -23314,7 +27860,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.226",
@@ -23337,7 +27884,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.227",
@@ -23360,7 +27908,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.228",
@@ -23383,7 +27932,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.229",
@@ -23406,7 +27956,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.335",
@@ -23452,7 +28003,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.231",
@@ -23475,7 +28027,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.232",
@@ -23498,7 +28051,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.233",
@@ -24125,7 +28679,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "pi/12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.260",
@@ -24147,7 +28702,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "5*pi/12",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.261",
@@ -24169,7 +28725,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "7*pi/6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.262",
@@ -24191,7 +28748,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "11*pi/6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.263",
@@ -24235,7 +28793,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(4*pi)/(5)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.265",
@@ -24253,12 +28812,49 @@ window.BANKMATO2 = [
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        26,
+        2
+      ],
+      40,
+      10
+    ],
+    "tolerans": [
+      [
+        0,
+        0
+      ],
+      0,
+      0
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "max/min",
+      "period",
+      "första tid"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      [
+        "m",
+        "m"
+      ],
+      "s",
+      "s"
+    ]
   },
   {
     "id": "1.266",
@@ -24277,7 +28873,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -24301,7 +28898,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -24392,7 +28990,8 @@ window.BANKMATO2 = [
     "s": "<p>Skärning kräver \\(2\\sin x+1=2\\cos x+1\\), alltså \\(\\sin x=\\cos x\\).</p><p>Där \\(\\cos x\\ne0\\) kan vi dividera och får \\(\\tan x=1\\). I intervallet blir \\(\\boxed{x=\\pi/4,\\ 5\\pi/4}\\).</p>",
     "familj": "Skärningspunkter mellan trigonometriska funktioner",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -24425,6 +29024,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -24475,6 +29087,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -24525,6 +29150,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -24567,9 +29205,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "e^x(x+1)",
+      "\\sin x+x \\cos x",
+      "2x \\ln x+x",
+      "e^x(x+2)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.193",
@@ -24589,9 +29245,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "6x(x^2+1)^2",
+      "3/(2\\sqrt{3x+1})",
+      "2/(2x+5)",
+      "2x e^{x^2}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.194",
@@ -24611,9 +29285,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "(x^2-2x-1)/(x-1)^2",
+      "3/(x+2)^2",
+      "(x \\cos x-\\sin x)/x^2",
+      "(1-\\ln x)/x^2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.282",
@@ -24656,9 +29348,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2\\sin x \\cos x",
+      "-2\\sin x \\cos x",
+      "e^{\\sin x}\\cos x",
+      "2x/(x^2+1)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.196",
@@ -24678,9 +29388,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2x \\cos x-x^2 \\sin x",
+      "e^x(x^3+3x^2)",
+      "\\ln x+(x+2)/x",
+      "\\sin(2x)+2x \\cos(2x)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.197",
@@ -24708,6 +29436,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -24750,9 +29491,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "12(2x-1)^5",
+      "12x^2(1+x^3)^3",
+      "-2x \\sin(x^2)",
+      "\\cos(\\sqrt{x})/(2\\sqrt{x})"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.199",
@@ -24887,12 +29646,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 800,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.205",
@@ -24911,12 +29672,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3.92,
     "tolerans": 0.01,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.272",
@@ -24981,12 +29744,14 @@ window.BANKMATO2 = [
     "s": "<p>\\[f'(x)=1/x+1.\\] Vid \\(x=1\\) är lutningen 2 och punkten är \\((1,1)\\). Alltså \\(y-1=2(x-1)\\), dvs \\(\\boxed{y=2x-1}\\).</p>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "ekvation",
     "rättSvar": "y=2x-1",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.278",
@@ -25026,7 +29791,8 @@ window.BANKMATO2 = [
     "s": "<p>\\[f'(x)=e^x-2.\\] Horisontell tangent kräver \\(e^x=2\\Rightarrow x=\\ln2\\).</p><p>\\(y=f(\\ln2)=2-2\\ln2\\). Punkten är \\(\\boxed{(\\ln2,2-2\\ln2)}\\).</p>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -25057,6 +29823,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -25137,7 +29912,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 1,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.213",
@@ -25160,7 +29936,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "3.165",
@@ -25180,9 +29957,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x^4/4",
+      "2x^2",
+      "x",
+      "-x^-1"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.166",
@@ -25202,9 +29997,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "-\\cos x",
+      "\\sin x",
+      "e^x",
+      "\\ln x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.237",
@@ -25226,7 +30039,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 7.341,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.167",
@@ -25246,9 +30060,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x^3+x^2",
+      "5e^x",
+      "2\\sin x",
+      "4\\ln x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.168",
@@ -25268,9 +30100,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "(2x+1)^3/6",
+      "e^{3x}/3",
+      "\\sin(2x)/2",
+      "\\ln(4x+1)/4"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.169",
@@ -25290,9 +30140,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\frac25x^5-\\frac53x^3+3x",
+      "2x^3-2x^2",
+      "-\\frac1{2x^2}",
+      "7x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.170",
@@ -25312,9 +30180,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "-2\\cos x",
+      "3\\sin x",
+      "4e^x",
+      "5\\ln x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.171",
@@ -25334,9 +30220,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\frac54x^4-3x^2",
+      "\\frac23x^3+3x",
+      "7e^x",
+      "-\\cos x+\\sin x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.172",
@@ -25356,9 +30260,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\frac{(3x-2)^3}{9}",
+      "\\frac12e^{2x}",
+      "-\\frac14\\cos(4x)",
+      "\\frac12\\ln(2x+3)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.173",
@@ -25378,9 +30300,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x^6/6",
+      "2\\sqrt{x}",
+      "x^3-2x^2+x",
+      "-2/x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.174",
@@ -25400,9 +30340,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "-\\frac12\\cos(2x)",
+      "\\frac13\\sin(3x)",
+      "-e^{-x}",
+      "\\ln(x+2)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.175",
@@ -25422,9 +30380,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x^4+\\frac12x^2",
+      "x^6-2x",
+      "2e^x+3\\sin x",
+      "4\\ln x"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.176",
@@ -25444,9 +30420,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\frac{(4x+1)^4}{16}",
+      "\\frac15e^{5x}",
+      "2\\sin(x/2)",
+      "\\frac13\\ln(3x-1)"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.238",
@@ -25492,7 +30486,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "4/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.178",
@@ -25514,7 +30509,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "16*sqrt(2)/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.179",
@@ -25532,12 +30528,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.180",
@@ -25554,12 +30552,14 @@ window.BANKMATO2 = [
     "s": "<p><strong>Formel från formelbladet:</strong> \\(V=\\pi\\int_a^b y^2dx\\).</p><p>Här är \\(y^2=x\\), så</p><p>\\[V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "8*pi",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.181",
@@ -25576,12 +30576,14 @@ window.BANKMATO2 = [
     "s": "<p>Rotationen bildar brickor med yttre radie 2 och inre radie \\(x^2\\).</p><p>\\[V=\\pi\\int_0^{\\sqrt2}(2^2-(x^2)^2)dx=\\pi\\int_0^{\\sqrt2}(4-x^4)dx.\\]</p><p>\\[V=\\pi[4x-x^5/5]_0^{\\sqrt2}=\\boxed{16\\sqrt2\\pi/5}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "16*sqrt(2)*pi/5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.182",
@@ -25599,12 +30601,14 @@ window.BANKMATO2 = [
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 66,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.183",
@@ -25622,12 +30626,14 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 150,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.184",
@@ -25644,7 +30650,8 @@ window.BANKMATO2 = [
     "s": "<p>Färdsträcka kräver integralen av \\(|v(t)|\\). Nollställena är \\(t=1\\) och \\(t=3\\). Hastigheten är positiv på \\([0,1]\\), negativ på \\([1,3]\\) och positiv på \\([3,4]\\).</p><p>En primitiv funktion är \\(F=t^3/3-2t^2+3t\\).</p><p>Sträckan är \\(F(1)-F(0)-[F(3)-F(1)]+F(4)-F(3)=\\boxed4\\) m.</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -25672,7 +30679,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "2/9",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.186",
@@ -25689,7 +30697,8 @@ window.BANKMATO2 = [
     "s": "<p>\\[V=\\pi\\int_0^3(3-x)^2dx.\\]</p><p>En primitiv funktion kan fås genom att utveckla parentesen. \\(\\int_0^3(3-x)^2dx=9\\). Därför \\(\\boxed{V=9\\pi}\\).</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -25734,12 +30743,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med bestämd integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.189",
@@ -25757,12 +30768,14 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 36,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.223",
@@ -25790,6 +30803,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -25840,6 +30866,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -25890,6 +30929,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -25940,6 +30992,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -25990,6 +31055,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26040,6 +31118,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26090,6 +31181,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26140,6 +31244,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26190,6 +31307,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26240,6 +31370,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26290,6 +31433,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26340,6 +31496,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26390,6 +31559,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26440,6 +31622,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26490,6 +31685,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26540,6 +31748,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -26584,7 +31805,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "4+i",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.240",
@@ -26606,7 +31828,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(6)/(5)+(8)/(5)*i",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.241",
@@ -26628,7 +31851,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "-1+i",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.242",
@@ -26650,7 +31874,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(9)/(5)-(7)/(5)*i",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.243",
@@ -26672,7 +31897,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "-1+3*i",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.244",
@@ -26694,7 +31920,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "2-i",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.245",
@@ -26716,7 +31943,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(-3)/(5)-(9)/(5)*i",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.246",
@@ -26738,7 +31966,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "2+i",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.247",
@@ -27213,6 +32442,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -27274,7 +32514,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(x-1)*(x-3)*(x+2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.268",
@@ -27292,7 +32533,8 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med faktorsatsen",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -27408,7 +32650,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -27476,7 +32719,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -27503,7 +32747,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "cos(x)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.274",
@@ -27572,7 +32817,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.277",
@@ -27613,7 +32859,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -27637,7 +32884,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -27664,7 +32912,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 75,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.281",
@@ -27687,7 +32936,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "-sqrt(3)/2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.282",
@@ -27729,7 +32979,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -27784,6 +33035,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -27834,6 +33098,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -27900,7 +33177,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(x^2+2x-1)/((x+1)^2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.218",
@@ -27922,7 +33200,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "2x/(1+x^2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.283",
@@ -27988,9 +33267,36 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      9.953,
+      [
+        0.451,
+        2.0,
+        2.215
+      ]
+    ],
+    "tolerans": [
+      0.002,
+      [
+        0.002,
+        0.002,
+        0.002
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "minimum",
+      "lösningar"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "2.220",
@@ -28059,7 +33365,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 1,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.223",
@@ -28099,12 +33406,14 @@ window.BANKMATO2 = [
     "s": "<p>Andra sidan är \\(100/x\\), så \\(P(x)=2x+200/x\\), \\(x&gt;0\\).</p><p>\\[P'=2-200/x^2=0\\Rightarrow x^2=100\\Rightarrow x=10.\\]</p><p>Derivatan byter från negativ till positiv. Minsta omkrets är \\(P(10)=20+20=\\boxed{40\\text{ cm}}\\).</p>",
     "familj": "Tillämpade derivataproblem",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 40,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.225",
@@ -28126,7 +33435,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": -20,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.226",
@@ -28172,7 +33482,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "2-2*ln(2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.190",
@@ -28192,9 +33503,32 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "8/3",
+      2,
+      "e-1",
+      1
+    ],
+    "tolerans": [
+      null,
+      0,
+      null,
+      0
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ]
   },
   {
     "id": "3.191",
@@ -28238,7 +33572,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.193",
@@ -28260,7 +33595,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "9/2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.194",
@@ -28277,12 +33613,14 @@ window.BANKMATO2 = [
     "s": "<p>\\[V=\\pi\\int_0^1(x^2)^2dx=\\pi[x^5/5]_0^1=\\boxed{\\pi/5}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "pi/5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.195",
@@ -28299,12 +33637,14 @@ window.BANKMATO2 = [
     "s": "<p>Arbetet är integralen av kraften över sträckan:</p><p>\\[W=\\int_0^3(4x+2)dx=[2x^2+2x]_0^3=18+6=\\boxed{24\\text{ J}}.\\]</p>",
     "familj": "Arbete som integral av kraft",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 24,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.196",
@@ -28321,7 +33661,8 @@ window.BANKMATO2 = [
     "s": "<p>Förflyttningen är \\(\\int_0^5(3-t)dt=[3t-t^2/2]_0^5=15-12,5=\\boxed{2,5\\text{ m}}\\).</p><p>För färdsträckan måste teckenbytet vid \\(t=3\\) beaktas:</p><p>\\[\\int_0^3(3-t)dt-\\int_3^5(3-t)dt=4,5+2=\\boxed{6,5\\text{ m}}.\\]</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -28343,12 +33684,14 @@ window.BANKMATO2 = [
     "s": "<p>På intervallet är \\(x\\ge x^2\\). Den yttre radien är \\(x\\) och den inre radien är \\(x^2\\). Därför</p><p>\\[V=\\pi\\int_0^1(x^2-(x^2)^2)dx=\\pi\\int_0^1(x^2-x^4)dx\\]</p><p>\\[=\\pi(1/3-1/5)=\\boxed{2\\pi/15}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "2*pi/15",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.198",
@@ -28366,12 +33709,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.199",
@@ -28393,7 +33738,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "x^3-2x^2+x+5",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.200",
@@ -28410,12 +33756,14 @@ window.BANKMATO2 = [
     "s": "<p>Förändringen under 5 år är</p><p>\\[\\int_0^5 200e^{0,1t}dt=2000[e^{0,1t}]_0^5=2000(e^{0,5}-1).\\]</p><p>Alltså \\(\\boxed{P(5)=5000+2000(e^{0,5}-1)}\\).</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "5000+2000*(e^(0.5)-1)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.248",
@@ -28433,7 +33781,8 @@ window.BANKMATO2 = [
     "familj": "Tillämpade integraler med digitalt verktyg",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -28480,12 +33829,14 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.203",
@@ -28502,12 +33853,14 @@ window.BANKMATO2 = [
     "s": "<p>\\[V=\\pi\\int_0^2(2-x)^2dx=\\pi\\cdot\\frac83=\\boxed{8\\pi/3}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "8*pi/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.253",
@@ -28524,12 +33877,14 @@ window.BANKMATO2 = [
     "s": "<p>Skärningen fås ur \\(e^{-x}=0,2x\\):</p><p>\\[x\\approx1,327.\\]</p><p>På intervallet ligger exponentialkurvan över linjen, så tvärsnittsarean är</p><p>\\[\\pi\\left(e^{-2x}-(0,2x)^2\\right).\\]</p><p>Därför</p><p>\\[V=\\pi\\int_0^{1,327}\\left(e^{-2x}-0,04x^2\\right)dx\\approx\\boxed{1,362}.\\]</p>",
     "familj": "Rotationsvolym med digitalt verktyg",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1.362,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.273",
@@ -28549,9 +33904,32 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "-i",
+      1,
+      "i",
+      -1
+    ],
+    "tolerans": [
+      null,
+      0,
+      null,
+      0
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.274",
@@ -28571,9 +33949,28 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      5,
+      "3+4*i",
+      25
+    ],
+    "tolerans": [
+      0,
+      null,
+      0
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.275",
@@ -28689,6 +34086,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -28728,7 +34136,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(x-2)*(x-4)*(x+1)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.281",
@@ -28775,7 +34184,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "4.283",
@@ -28892,7 +34302,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 23,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.285",
@@ -28921,6 +34332,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -28971,6 +34395,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -29019,6 +34456,15 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -29119,9 +34565,41 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      3,
+      "pi",
+      -1,
+      [
+        2,
+        -4
+      ]
+    ],
+    "tolerans": [
+      0,
+      null,
+      0,
+      [
+        0,
+        0
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "amplitud",
+      "period",
+      "medellinje",
+      "max/min"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "1.292",
@@ -29186,7 +34664,8 @@ window.BANKMATO2 = [
     "familj": "Tolka och använda trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -29219,6 +34698,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -29261,9 +34753,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "3x^2e^x+x^3e^x",
+      "2x\\sin x+(x^2+1)\\cos x",
+      "(x^2-1)/x^2",
+      "e^x x/(x+1)^2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.230",
@@ -29290,6 +34800,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -29331,7 +34852,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.0398,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.232",
@@ -29394,12 +34916,14 @@ window.BANKMATO2 = [
     "s": "<p>Först bestäms punkten: \\(f(1)=1-3+2=0\\).</p><p>Derivatan är \\(f'(x)=3x^2-6x\\), så \\(f'(1)=-3\\).</p><p>Tangenten genom \\((1,0)\\) med lutning \\(-3\\) är</p><p>\\[y=-3(x-1)=\\boxed{-3x+3}.\\]</p>",
     "familj": "Tangentproblem i tillämpningar",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "-3x+3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.273",
@@ -29443,9 +34967,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "14e^{2x}",
+      "5/x",
+      "3\\cos x+2\\sin x",
+      "2^x\\ln2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.236",
@@ -29492,7 +35034,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.017,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.204",
@@ -29512,9 +35055,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x^6-2x^2+C",
+      "3\\ln x+C",
+      "\\frac52e^{2x}+C",
+      "4\\sin x+2\\cos x+C"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.205",
@@ -29542,6 +35103,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -29586,7 +35160,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "32/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.243",
@@ -29608,7 +35183,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.321,
     "tolerans": 0.001,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.207",
@@ -29625,12 +35201,14 @@ window.BANKMATO2 = [
     "s": "<p><strong>Formelbladet:</strong> Vid rotation kring x-axeln gäller \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>Här är \\(y=x^2\\):</p><p>\\[V=\\pi\\int_0^2(x^2)^2\\,dx=\\pi\\int_0^2x^4\\,dx=\\pi\\left[\\frac{x^5}{5}\\right]_0^2=\\boxed{\\frac{32\\pi}{5}}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(32*pi)/(5)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.208",
@@ -29647,12 +35225,14 @@ window.BANKMATO2 = [
     "s": "<p><strong>Formelbladet:</strong> Vid rotation kring y-axeln gäller \\(V=\\pi\\int_a^b x^2\\,dy\\).</p><p>Eftersom \\(x=\\sqrt y\\) blir \\(x^2=y\\):</p><p>\\[V=\\pi\\int_0^4 y\\,dy=\\pi\\left[\\frac{y^2}{2}\\right]_0^4=\\boxed{8\\pi}.\\]</p>",
     "familj": "Rotationsvolym kring y-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "8*pi",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.209",
@@ -29670,12 +35250,32 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      338.2,
+      18
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "vattenmängd",
+      "medelflöde"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "L",
+      "L/min"
+    ]
   },
   {
     "id": "3.210",
@@ -29693,12 +35293,14 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 17.1,
     "tolerans": 0.1,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.211",
@@ -29716,12 +35318,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 9,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.287",
@@ -29748,7 +35352,20 @@ window.BANKMATO2 = [
       "2+3*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.288",
@@ -29768,9 +35385,32 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "sqrt(2)*(cos(pi/4)+i*sin(pi/4))",
+      "2*(cos(5*pi/6)+i*sin(5*pi/6))",
+      "2*sqrt(2)*(cos(5*pi/4)+i*sin(5*pi/4))",
+      "3*(cos(pi/2)+i*sin(pi/2))"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.289",
@@ -29822,6 +35462,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -29886,9 +35539,68 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        "x^2-1",
+        0
+      ],
+      [
+        "2*x^2-x+2",
+        1
+      ],
+      [
+        "x^2-1",
+        0
+      ],
+      [
+        "3*x^2-2*x-5",
+        10
+      ]
+    ],
+    "tolerans": [
+      [
+        null,
+        0
+      ],
+      [
+        null,
+        0
+      ],
+      [
+        null,
+        0
+      ],
+      [
+        null,
+        0
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      [
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "uttryck",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "4.293",
@@ -29932,9 +35644,36 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        "2",
+        "4+2*i",
+        "2*i"
+      ],
+      "sqrt(2)"
+    ],
+    "tolerans": [
+      [
+        null,
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "w-värden",
+      "längdfaktor"
+    ],
+    "svarFormat": [
+      [
+        "uttryck",
+        "uttryck",
+        "uttryck"
+      ],
+      "uttryck"
+    ]
   },
   {
     "id": "1.295",
@@ -29957,7 +35696,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.296",
@@ -29980,7 +35720,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "1.297",
@@ -30001,9 +35742,41 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      2,
+      "2*pi/3",
+      4,
+      [
+        6,
+        2
+      ]
+    ],
+    "tolerans": [
+      0,
+      null,
+      0,
+      [
+        0,
+        0
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "amplitud",
+      "period",
+      "medellinje",
+      "max/min"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "1.298",
@@ -30046,9 +35819,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x=\\pi/6,5\\pi/6",
+      "x=5\\pi/6,7\\pi/6",
+      "x=3\\pi/4,7\\pi/4",
+      "x=\\pi/3,2\\pi/3,4\\pi/3,5\\pi/3"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.300",
@@ -30120,6 +35911,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -30238,6 +36042,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -30282,7 +36099,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "5/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "1.308",
@@ -30311,6 +36129,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -30374,7 +36205,8 @@ window.BANKMATO2 = [
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -30383,7 +36215,18 @@ window.BANKMATO2 = [
       18
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "1.340",
@@ -30402,7 +36245,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -30426,12 +36270,32 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      69.3,
+      83.8
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "avstånd",
+      "förändringshastighet"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "m/s"
+    ]
   },
   {
     "id": "1.312",
@@ -30481,6 +36345,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -30525,7 +36402,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "(x*e^x*(x^2+2x+2))/((x+1)^2)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.240",
@@ -30572,7 +36450,8 @@ window.BANKMATO2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false
   },
   {
     "id": "2.242",
@@ -30622,6 +36501,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -30657,12 +36547,14 @@ window.BANKMATO2 = [
     "familj": "Optimera rektangel med derivata",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "sqrt(6)*2*sqrt(6)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.245",
@@ -30681,7 +36573,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -30708,7 +36601,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "9/2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.213",
@@ -30736,6 +36630,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -30776,12 +36683,14 @@ window.BANKMATO2 = [
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 84,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.215",
@@ -30798,12 +36707,14 @@ window.BANKMATO2 = [
     "s": "<p>Skärningspunkter: \\(\\sqrt x=x/2\\). För \\(x\\ge0\\) ger detta \\(x=0\\) eller \\(x=4\\).</p><p>Vid rotation kring x-axeln blir varje tvärsnitt ringformat. Ytterradien är \\(\\sqrt x\\) och innerradien \\(x/2\\).</p><p>\\[V=\\pi\\int_0^4\\left((\\sqrt x)^2-(x/2)^2\\right)dx=\\pi\\int_0^4\\left(x-\\frac{x^2}{4}\\right)dx.\\]</p><p>\\[V=\\pi\\left[\\frac{x^2}{2}-\\frac{x^3}{12}\\right]_0^4=\\pi(8-16/3)=\\boxed{\\frac{8\\pi}{3}}.\\]</p>",
     "familj": "Rotationsvolym med brickmetoden",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(8*pi)/(3)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.216",
@@ -30821,12 +36732,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.295",
@@ -30854,6 +36767,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -30896,9 +36822,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "6(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)",
+      "4(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)",
+      "10e^{i3\\pi/4}",
+      "3e^{i2\\pi/3}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.297",
@@ -30996,6 +36940,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -31037,12 +36994,49 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      8,
+      [
+        2.15,
+        1.45
+      ],
+      2
+    ],
+    "tolerans": [
+      0,
+      [
+        0.01,
+        0.01
+      ],
+      0
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "period",
+      "max/min",
+      "första max"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "s",
+      [
+        "m",
+        "m"
+      ],
+      "s"
+    ]
   },
   {
     "id": "1.315",
@@ -31061,7 +37055,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -31086,9 +37081,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x=7\\pi/6,11\\pi/6",
+      "x=\\pi/2,3\\pi/2",
+      "x=\\pi/3,4\\pi/3",
+      "x=5\\pi/4,7\\pi/4"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.317",
@@ -31153,9 +37166,38 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "2*pi",
+      "5*pi",
+      "15*pi/2",
+      12
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      0
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm",
+      "cm",
+      "cm"
+    ]
   },
   {
     "id": "1.320",
@@ -31251,6 +37293,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -31300,6 +37355,17 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -31365,7 +37431,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 0.622,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.250",
@@ -31407,7 +37474,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -31431,7 +37499,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -31479,7 +37548,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -31512,6 +37582,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -31554,9 +37637,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x^5+x^2+C",
+      "4e^x+C",
+      "2\\ln x+C",
+      "-3\\cos x+5\\sin x+C"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "3.218",
@@ -31578,7 +37679,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.219",
@@ -31595,12 +37697,14 @@ window.BANKMATO2 = [
     "s": "<p><strong>Formelbladet:</strong> \\(V=\\pi\\int_0^2y^2dx\\).</p><p>\\[V=\\pi\\int_0^2(2-x)^2dx=\\pi\\int_0^2(x^2-4x+4)dx.\\]</p><p>\\[V=\\pi\\left[x^3/3-2x^2+4x\\right]_0^2=\\boxed{8\\pi/3}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "8*pi/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.220",
@@ -31617,12 +37721,14 @@ window.BANKMATO2 = [
     "s": "<p>På intervallet ligger \\(y=x\\) ovanför \\(y=x^2/4\\). Vid rotation blir tvärsnittet ringformat:</p><p>\\[V=\\pi\\int_0^4\\left(x^2-(x^2/4)^2\\right)dx=\\pi\\int_0^4\\left(x^2-\\frac{x^4}{16}\\right)dx.\\]</p><p>\\[V=\\pi\\left[\\frac{x^3}{3}-\\frac{x^5}{80}\\right]_0^4=\\pi\\left(\\frac{64}{3}-\\frac{64}{5}\\right)=\\boxed{\\frac{128\\pi}{15}}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(128*pi)/(15)",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.221",
@@ -31640,12 +37746,14 @@ window.BANKMATO2 = [
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1783,
     "tolerans": 1,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.222",
@@ -31663,12 +37771,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med bestämd integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.223",
@@ -31687,12 +37797,14 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 95.4,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.224",
@@ -31714,7 +37826,8 @@ window.BANKMATO2 = [
     "svarstyp": "uttryck",
     "rättSvar": "17*sqrt(17)/6",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.225",
@@ -31734,7 +37847,8 @@ window.BANKMATO2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -31766,7 +37880,20 @@ window.BANKMATO2 = [
       "4-2*i"
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.301",
@@ -31786,9 +37913,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2\\sqrt2e^{i\\pi/4}",
+      "3e^{i3\\pi/2}",
+      "2e^{i4\\pi/3}",
+      "4e^{i0}"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "4.302",
@@ -31854,9 +37999,42 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        "x^3+x^2+3*x+3",
+        0
+      ],
+      [
+        "2*x^3-5*x^2+10*x-20",
+        45
+      ]
+    ],
+    "tolerans": [
+      [
+        null,
+        0
+      ],
+      [
+        null,
+        0
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      [
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "uttryck",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "4.305",
@@ -31933,6 +38111,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -31975,9 +38166,38 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "49*pi/12",
+      "49*pi/4",
+      "49*pi/3",
+      36.75
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      0.01
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "cm²",
+      "cm²",
+      "cm²",
+      "cm²"
+    ]
   },
   {
     "id": "1.325",
@@ -32019,9 +38239,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "x=0,\\pi",
+      0,
+      "x=0,\\pi",
+      "x=3\\pi/2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.327",
@@ -32063,12 +38301,37 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      6,
+      1,
+      1.5
+    ],
+    "tolerans": [
+      0,
+      0.01,
+      0.01
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "period",
+      "höjd",
+      "första tid"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "s",
+      "m",
+      "s"
+    ]
   },
   {
     "id": "1.329",
@@ -32087,7 +38350,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -32142,6 +38406,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -32184,9 +38461,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "2x\\cos x-x^2\\sin x",
+      "(x+2)e^x",
+      "(x^2+4x+1)/(x+2)^2",
+      "(x\\cos x-\\sin x)/x^2"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "2.258",
@@ -32232,7 +38527,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.260",
@@ -32250,12 +38546,14 @@ window.BANKMATO2 = [
     "familj": "Optimera rektangel med derivata",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 16,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.261",
@@ -32296,12 +38594,14 @@ window.BANKMATO2 = [
     "s": "<p>Punkten är \\((e,1)\\) eftersom \\(\\ln e=1\\). Derivatan är \\(y'=1/x\\), så lutningen vid \\(x=e\\) är \\(1/e\\).</p><p>Tangenten är</p><p>\\[y-1=\\frac1e(x-e)=\\frac{x}{e}-1.\\]</p><p>Alltså <strong>\\(y=x/e\\)</strong>.</p>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "ekvation",
     "rättSvar": "y=x/e",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.263",
@@ -32323,7 +38623,8 @@ window.BANKMATO2 = [
     "svarstyp": "numeriskt",
     "rättSvar": 8,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.226",
@@ -32351,6 +38652,19 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -32395,7 +38709,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "9/2",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.228",
@@ -32412,12 +38727,14 @@ window.BANKMATO2 = [
     "s": "<p><strong>Formelbladet:</strong> \\(V=\\pi\\int_0^1y^2dx\\).</p><p>\\[V=\\pi\\int_0^1(3x)^2dx=9\\pi\\left[\\frac{x^3}{3}\\right]_0^1=\\boxed{3\\pi}.\\]</p>",
     "familj": "Rotationsvolym kring x-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "3*pi",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.229",
@@ -32434,12 +38751,14 @@ window.BANKMATO2 = [
     "s": "<p><strong>Formelbladet:</strong> \\(V=\\pi\\int_0^6x^2dy\\).</p><p>Här är \\(x=y/2\\):</p><p>\\[V=\\pi\\int_0^6\\frac{y^2}{4}dy=\\frac\\pi4\\left[\\frac{y^3}{3}\\right]_0^6=\\boxed{18\\pi}.\\]</p>",
     "familj": "Rotationsvolym kring y-axeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "18*pi",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.230",
@@ -32456,12 +38775,14 @@ window.BANKMATO2 = [
     "s": "<p>Hastighetsändringen är integralen av accelerationen:</p><p>\\[\\Delta v=\\int_0^5(2-0,2t)dt=\\left[2t-0,1t^2\\right]_0^5=10-2,5=7,5.\\]</p><p>Sluthastigheten blir \\(8+7,5=\\)<strong>15,5 m/s</strong>.</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 15.5,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.231",
@@ -32479,12 +38800,35 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      564,
+      null
+    ],
+    "tolerans": [
+      0,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "vattenmängd",
+      "ökar/minskar"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "m³",
+      null
+    ]
   },
   {
     "id": "3.232",
@@ -32506,7 +38850,8 @@ window.BANKMATO2 = [
     "svarstyp": "bråk",
     "rättSvar": "8/3",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "3.233",
@@ -32524,12 +38869,14 @@ window.BANKMATO2 = [
     "familj": "Parameterproblem med bestämd integral",
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.307",
@@ -32556,7 +38903,20 @@ window.BANKMATO2 = [
       3
     ],
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ]
   },
   {
     "id": "4.308",
@@ -32577,9 +38937,27 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      -4,
+      3,
+      5,
+      "-4-3i"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ]
   },
   {
     "id": "4.309",
@@ -32599,9 +38977,27 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      2,
+      "4i",
+      -2,
+      "-6i"
+    ],
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt",
+      "uttryck"
+    ]
   },
   {
     "id": "4.310",
@@ -32665,9 +39061,42 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      [
+        "x^2-2*x-3",
+        0
+      ],
+      [
+        "2*x^2-3*x-2",
+        0
+      ]
+    ],
+    "tolerans": [
+      [
+        null,
+        0
+      ],
+      [
+        null,
+        0
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      [
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "uttryck",
+        "numeriskt"
+      ]
+    ]
   },
   {
     "id": "4.313",
@@ -32709,7 +39138,8 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ],
     "svarstyp": "text",
     "rättSvar": null,

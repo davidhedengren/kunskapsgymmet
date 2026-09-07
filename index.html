@@ -761,11 +761,61 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 
 /* ---------- träning ---------- */
 .tshell{width:min(880px,calc(100% - 32px));margin:0 auto;padding-bottom:60px}
-.ttop{display:flex;align-items:center;gap:12px;padding:16px 0 18px}
+/* Träningens toppfält följer med när sidan rullas, så att XP-mätaren
+   är synlig hela vägen genom en lång uppgift. */
+.ttop{
+  position:sticky;top:0;z-index:30;
+  display:flex;align-items:center;gap:12px;
+  margin:0 -14px;padding:12px 14px 13px;
+  background:var(--glass);
+  backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
+  border-bottom:1px solid transparent;transition:border-color .3s ease;
+}
+.ttop.stuck{border-bottom-color:var(--hair)}
 .dots{display:flex;gap:5px;align-items:center}
 .dots i{width:7px;height:7px;border-radius:50%;background:var(--hair2);transition:.35s var(--ease)}
 .dots i.done{background:var(--acc);transform:scale(1.1)}
 .dots i.now{background:var(--acc);box-shadow:0 0 0 4px var(--accSoft)}
+
+/* ---------- XP-mätaren i träningsvyn ----------
+   Mässing, som all annan belöning. Den ska röra sig synligt när ett
+   svar går igenom: det är hela kvittot på att uppgiften gav något. */
+.xpmeter{
+  position:relative;display:flex;align-items:center;gap:9px;
+  padding:4px 12px 4px 4px;border-radius:99px;
+  border:1px solid var(--hair);background:var(--surface2);
+  box-shadow:inset 0 1px 0 var(--specular);
+  transition:border-color .35s ease,box-shadow .35s var(--ease);
+}
+.xpmeter.tick{border-color:var(--gold2);box-shadow:0 0 0 4px var(--goldSoft),inset 0 1px 0 var(--specular)}
+.xpmeter .lvl{
+  width:27px;height:27px;flex:none;border-radius:50%;display:grid;place-items:center;
+  font-size:12.5px;font-weight:700;letter-spacing:-.04em;color:#402f08;
+  background:linear-gradient(160deg,#f3d99f,#c99b3b);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.55);
+  transition:transform .45s var(--ease);
+}
+.xpmeter .lvl.upp{animation:pop .6s var(--ease) both}
+.xpmeter .bar{width:104px;height:6px;flex:none;border-radius:99px;background:var(--hair);overflow:hidden}
+.xpmeter .bar i{
+  display:block;height:100%;width:0;border-radius:99px;
+  background:linear-gradient(90deg,#c79a3c,var(--gold2));
+  transition:width .9s var(--ease);
+}
+.xpmeter .num{font-size:12px;font-weight:600;color:var(--ink3);white-space:nowrap}
+.xpmeter .num .sep{margin:0 3px;opacity:.55}
+/* Siffran som lyfter ur mätaren när XP läggs på. */
+.xpmeter .gain{
+  position:absolute;right:12px;top:2px;opacity:0;pointer-events:none;
+  font-size:12.5px;font-weight:700;color:var(--gold);white-space:nowrap;
+}
+.xpmeter .gain.fly{animation:xpfly 1.6s var(--ease) both}
+@keyframes xpfly{
+  0%{opacity:0;transform:translateY(6px) scale(.9)}
+  16%{opacity:1;transform:translateY(-12px) scale(1)}
+  68%{opacity:1;transform:translateY(-18px)}
+  100%{opacity:0;transform:translateY(-30px)}
+}
 .task{border:1px solid var(--hair);border-radius:26px;background:var(--surface);
   box-shadow:var(--e2),inset 0 1px 0 var(--specular);overflow:hidden}
 .tmeta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:15px 20px;border-bottom:1px solid var(--hair);background:var(--surface2)}
@@ -1082,6 +1132,16 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   .tmeta,.azone{padding-left:16px;padding-right:16px}
   .sumtiles{grid-template-columns:1fr}
   .badgestrip{grid-template-columns:repeat(4,1fr)}
+}
+/* På smal skärm får XP-mätaren en egen rad under Avsluta och prickarna,
+   i stället för att kortas ned. Passetiketten är den enda uppgift i
+   raden som står att läsa någon annanstans, så den får vika. */
+@media(max-width:600px){
+  .ttop{flex-wrap:wrap;row-gap:10px;padding-bottom:11px}
+  .ttop .tag{display:none}
+  .ttop .xpmeter{order:9;flex:1 0 100%}
+  .ttop .xpmeter .bar{flex:1;width:auto}
+  .ttop .xpmeter .gain{right:auto;left:44px}
 }
 </style>
 </head>
@@ -1615,13 +1675,16 @@ function nextBadge(){
   locked.sort((x,y)=>y.s.pct-x.s.pct);
   return locked[0];
 }
-function checkBadges(){
+/* Medaljerna bokförs direkt, men hyllningen kan skjutas upp så att
+   XP-mätaren hinner röra sig innan rutan lägger sig över skärmen. */
+function checkBadges(fordroj=0){
   const gained=[];
   for(const b of BADGES){
     if(profile.badges[b.id]) continue;
     if((b.cur()||0)>=b.max){ profile.badges[b.id]=Date.now(); gained.push(b); }
   }
-  gained.forEach(b=>cheer(medaljIkon(b.icon),"Ny medalj",b.name,b.desc));
+  const visa=()=>gained.forEach(b=>cheer(medaljIkon(b.icon),"Ny medalj",b.name,b.desc));
+  if(gained.length){ fordroj>0 ? setTimeout(visa,fordroj) : visa(); }
   return gained;
 }
 
@@ -1824,6 +1887,8 @@ function afterRender(){
 window.addEventListener("scroll",()=>{
   const t=document.querySelector(".topbar");
   if(t) t.classList.toggle("scrolled",window.scrollY>6);
+  const tt=document.querySelector(".ttop");
+  if(tt) tt.classList.toggle("stuck",window.scrollY>6);
 },{passive:true});
 
 /* ==========================================================
@@ -3814,6 +3879,101 @@ function oneAnswerCorrect(user,expected,t,delIndex){
 }
 
 /* ==========================================================
+   XP-MÄTAREN
+   Ligger i träningens toppfält och står kvar hela passet. Den visar
+   nivån, hur långt in på nivån eleven är och hur mycket som återstår.
+   ========================================================== */
+
+function xpMeterHtml(){
+  const lp=levelProgress();
+  return `<div class="xpmeter" id="xpmeter"
+      title="Nivå ${lp.level} · ${lp.into} av ${lp.need} XP till nivå ${lp.level+1}"
+      aria-label="Nivå ${lp.level}, ${lp.into} av ${lp.need} XP till nästa nivå">
+    <span class="lvl" id="xplvl">${lp.level}</span>
+    <div class="bar"><i id="xpfill" style="width:${Math.round(lp.pct*100)}%"></i></div>
+    <span class="num" id="xpnum">${lp.into}<span class="sep">/</span>${lp.need} XP</span>
+    <span class="gain" id="xpgain" aria-hidden="true"></span>
+  </div>`;
+}
+
+/* Siffran räknas upp i takt med stapeln. Ett hopp från 140 till 158
+   läses som en omritning, en uppräkning läses som en belöning. */
+let xpTween=null;
+function xpSkrivTal(into,need){
+  const num=document.getElementById("xpnum");
+  if(num) num.innerHTML=`${into}<span class="sep">/</span>${need} XP`;
+}
+function xpRaknaUpp(fran,till,need,ms){
+  cancelAnimationFrame(xpTween);
+  const t0=performance.now();
+  const steg=nu=>{
+    const k=Math.min(1,(nu-t0)/ms);
+    const e=1-Math.pow(1-k,3);
+    xpSkrivTal(Math.round(fran+(till-fran)*e),need);
+    if(k<1) xpTween=requestAnimationFrame(steg);
+  };
+  xpTween=requestAnimationFrame(steg);
+}
+
+/* Skriver mätaren till ett bestämt XP-värde. */
+function xpStall(xp,animeraTal,fran){
+  const fill=document.getElementById("xpfill"), lvl=document.getElementById("xplvl"),
+        meter=document.getElementById("xpmeter");
+  if(!fill) return;
+  const L=levelFromXP(xp), bas=totalXpForLevel(L), topp=totalXpForLevel(L+1);
+  const into=xp-bas, need=Math.max(1,topp-bas);
+  fill.style.width=Math.round(100*into/need)+"%";
+  if(lvl) lvl.textContent=L;
+  if(meter){
+    meter.title=`Nivå ${L} · ${into} av ${need} XP till nivå ${L+1}`;
+    meter.setAttribute("aria-label",`Nivå ${L}, ${into} av ${need} XP till nästa nivå`);
+  }
+  if(animeraTal) xpRaknaUpp(fran,into,need,900); else xpSkrivTal(into,need);
+}
+
+/* Körs varje gång en uppgift ger XP. Passeras en nivågräns fylls
+   stapeln först ända fram, nollställs utan animering och börjar om
+   på den nya nivån. */
+function animeraXp(fore,efter){
+  const meter=document.getElementById("xpmeter"), fill=document.getElementById("xpfill"),
+        lvl=document.getElementById("xplvl"), gain=document.getElementById("xpgain");
+  if(!meter||!fill) return;
+  const vunnet=efter-fore;
+
+  if(gain){
+    gain.textContent=vunnet>0?"+"+vunnet+" XP":"0 XP";
+    gain.style.color=vunnet>0?"var(--gold)":"var(--ink3)";
+    gain.classList.remove("fly"); void gain.offsetWidth; gain.classList.add("fly");
+  }
+  if(vunnet>0){
+    meter.classList.remove("tick"); void meter.offsetWidth; meter.classList.add("tick");
+    setTimeout(()=>meter.classList.remove("tick"),1100);
+  }
+  if(vunnet<=0){ xpStall(efter,false); return; }
+
+  const Lfore=levelFromXP(fore), Lefter=levelFromXP(efter);
+  const intoFore=fore-totalXpForLevel(Lfore);
+  const needFore=Math.max(1,totalXpForLevel(Lfore+1)-totalXpForLevel(Lfore));
+
+  if(Lefter>Lfore){
+    fill.style.width="100%";
+    xpRaknaUpp(intoFore,needFore,needFore,600);
+    setTimeout(()=>{
+      const f=document.getElementById("xpfill");
+      if(!f) return;
+      f.style.transition="none"; f.style.width="0%";
+      if(lvl){ lvl.classList.remove("upp"); void lvl.offsetWidth; lvl.classList.add("upp"); }
+      requestAnimationFrame(()=>{
+        f.style.transition="";
+        requestAnimationFrame(()=>xpStall(efter,true,0));
+      });
+    },720);
+  }else{
+    requestAnimationFrame(()=>xpStall(efter,true,intoFore));
+  }
+}
+
+/* ==========================================================
    TRÄNINGSVY
    ========================================================== */
 
@@ -3899,6 +4059,7 @@ function renderTraining(){
       <div class="ttop">
         <button class="crumb" onclick="backToDashboard()"><span aria-hidden="true">←</span> Avsluta</button>
         <div class="spacer"></div>
+        ${xpMeterHtml()}
         <span class="tag" style="background:transparent;border-color:var(--hair)">${esc(sessionLabel())}</span>
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
@@ -4160,6 +4321,7 @@ function finishAttempt(resultat){
   const correct=ratt===delar.length;
   state.answered=true; state.sessionDone++;
 
+  const xpBefore=profile.xp;
   const levelBefore=levelFromXP(profile.xp);
   const goal=profile.goal||8;
   const beforeToday=todayCount();
@@ -4213,12 +4375,18 @@ function finishAttempt(resultat){
   const rankBefore=rankFor(levelBefore), rankAfter=rankFor(levelAfter);
   saveProfile();
 
-  if(levelAfter>levelBefore){
-    if(rankAfter.name!==rankBefore.name) cheer(rankAfter.sym,"Ny rang",rankAfter.name,"Du har klättrat ett steg på stegen.");
-    else cheer(medaljIkon("nivaupp"),"Ny nivå","Nivå "+levelAfter,"Din träning ger resultat.");
-  }
-  if(beforeToday<goal && todayCount()>=goal) cheer(medaljIkon("dagsmal"),"Dagens mål","Klart för idag",`${goal} uppgifter avklarade.`);
-  checkBadges();
+  // Mätaren först. Hyllningarna lägger sig över hela skärmen, så de får
+  // vänta tills stapeln hunnit röra sig, annars missar eleven höjningen.
+  animeraXp(xpBefore,profile.xp);
+  const HYLLNING=1500;
+  setTimeout(()=>{
+    if(levelAfter>levelBefore){
+      if(rankAfter.name!==rankBefore.name) cheer(rankAfter.sym,"Ny rang",rankAfter.name,"Du har klättrat ett steg på stegen.");
+      else cheer(medaljIkon("nivaupp"),"Ny nivå","Nivå "+levelAfter,"Din träning ger resultat.");
+    }
+    if(beforeToday<goal && todayCount()>=goal) cheer(medaljIkon("dagsmal"),"Dagens mål","Klart för idag",`${goal} uppgifter avklarade.`);
+  },HYLLNING);
+  checkBadges(HYLLNING);
   saveProfile();
 
   const last=state.sessionDone>=state.sessionTarget;

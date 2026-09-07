@@ -1,4 +1,4 @@
-/* Kvalitetssäkrad för Kunskapsgymmet + Uppgiftslabbet. Metadata är auktoritativ för självrättning. */
+/* Utbyggd för Kunskapsgymmet + Uppgiftslabbet. Metadata är auktoritativ för självrättning. */
 window.BANKMA1 = [
   {
     "id": "0.01",
@@ -6610,7 +6610,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 47,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6635,7 +6635,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 83,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6660,7 +6660,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6.7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6685,7 +6685,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6710,7 +6710,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.49,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6735,7 +6735,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.075,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6760,7 +6760,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3700,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6785,7 +6785,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6810,7 +6810,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6835,7 +6835,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6860,7 +6860,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6885,7 +6885,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 240,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6910,7 +6910,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7400,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6935,7 +6935,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.68,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6960,7 +6960,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 99000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6985,7 +6985,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.445,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7010,7 +7010,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1250,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7035,7 +7035,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 57,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7060,7 +7060,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7085,7 +7085,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7110,7 +7110,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7135,7 +7135,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7160,7 +7160,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7185,7 +7185,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7210,7 +7210,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7235,7 +7235,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7260,7 +7260,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7285,7 +7285,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 400,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7310,7 +7310,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7335,7 +7335,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7360,7 +7360,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7385,7 +7385,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7410,7 +7410,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7435,7 +7435,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7460,7 +7460,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 70000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7485,7 +7485,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7510,7 +7510,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 340,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7536,7 +7536,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7562,7 +7562,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2750,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7588,7 +7588,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6.4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7614,7 +7614,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7640,7 +7640,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.75,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7666,7 +7666,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7692,7 +7692,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7718,7 +7718,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 144,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7744,7 +7744,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7770,7 +7770,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 650,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7796,7 +7796,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.48,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7822,7 +7822,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 32,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7848,7 +7848,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7874,7 +7874,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1800,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7900,7 +7900,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.75,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7926,7 +7926,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7952,7 +7952,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7978,7 +7978,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8004,7 +8004,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 60,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8204,7 +8204,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.000084,
+    "rättSvar": 8.4e-05,
     "tolerans": 1e-12,
     "självrättning": true,
     "formaga": [
@@ -8230,7 +8230,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3200,
-    "tolerans": 0.0000032000000000000003,
+    "tolerans": 3.2000000000000003e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8282,7 +8282,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 75,
-    "tolerans": 7.500000000000001e-8,
+    "tolerans": 7.500000000000001e-08,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8333,7 +8333,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0000085,
+    "rättSvar": 8.5e-06,
     "tolerans": 1e-12,
     "självrättning": true,
     "formaga": [
@@ -8360,7 +8360,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 360,
-    "tolerans": 3.6000000000000005e-7,
+    "tolerans": 3.6000000000000005e-07,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8412,7 +8412,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7.5,
-    "tolerans": 7.500000000000001e-9,
+    "tolerans": 7.500000000000001e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8438,7 +8438,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 4.500000000000001e-9,
+    "tolerans": 4.500000000000001e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8464,7 +8464,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2800,
-    "tolerans": 0.0000028000000000000003,
+    "tolerans": 2.8000000000000003e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8490,7 +8490,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1.5000000000000002e-8,
+    "tolerans": 1.5000000000000002e-08,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -23539,6 +23539,396 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "2.350",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^{2}\\). Bestäm \\(f(3)\\).</p><p>Endast svar krävs.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Sätt in det givna x-värdet i potensfunktionen.</p><p>\\(f(3)=2\\cdot 3^{2}=18\\).</p><p><strong>Svar:</strong> \\(18\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.351",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^{2}\\). Bestäm \\(f(4)\\).</p><p>Endast svar krävs.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Sätt in det givna x-värdet i potensfunktionen.</p><p>\\(f(4)=3\\cdot 4^{2}=48\\).</p><p><strong>Svar:</strong> \\(48\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.352",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=0,5x^{2}\\). Bestäm \\(f(6)\\).</p><p>Endast svar krävs.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Sätt in det givna x-värdet i potensfunktionen.</p><p>\\(f(6)=0,5\\cdot 6^{2}=18\\).</p><p><strong>Svar:</strong> \\(18\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.0,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.353",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^{0,5}\\). Bestäm \\(f(9)\\).</p><p>Endast svar krävs.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Sätt in det givna x-värdet i potensfunktionen.</p><p>\\(f(9)=4\\cdot 9^{0.5}=12\\).</p><p><strong>Svar:</strong> \\(12\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.0,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.354",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^{-1}\\). Bestäm \\(f(8)\\).</p><p>Endast svar krävs.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Sätt in det givna x-värdet i potensfunktionen.</p><p>\\(f(8)=2\\cdot 8^{-1}=0,25\\).</p><p><strong>Svar:</strong> \\(0,25\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.25,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.355",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^{3}\\). Bestäm \\(f(2)\\).</p><p>Endast svar krävs.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Sätt in det givna x-värdet i potensfunktionen.</p><p>\\(f(2)=5\\cdot 2^{3}=40\\).</p><p><strong>Svar:</strong> \\(40\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.356",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=1,5x^{2}\\). Bestäm \\(f(4)\\).</p><p>Endast svar krävs.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Sätt in det givna x-värdet i potensfunktionen.</p><p>\\(f(4)=1,5\\cdot 4^{2}=24\\).</p><p><strong>Svar:</strong> \\(24\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24.0,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.357",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=12x^{-1}\\). Bestäm \\(f(3)\\).</p><p>Endast svar krävs.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Sätt in det givna x-värdet i potensfunktionen.</p><p>\\(f(3)=12\\cdot 3^{-1}=4\\).</p><p><strong>Svar:</strong> \\(4\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.358",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En potensfunktion har formen \\(f(x)=ax^{2}\\) och går genom punkten \\((3,40)\\). Bestäm \\(a\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Punkten betyder att \\(f(3)=40\\).</p><p>\\(40=a\\cdot 3^{2}=a\\cdot 9\\).</p><p><strong>Steg 2:</strong> Dela med \\(9\\): \\(a=4,4444\\).</p><p><strong>Svar:</strong> \\(a=4,4444\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.444444444444445,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.359",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En potensfunktion har formen \\(f(x)=ax^{3}\\) och går genom punkten \\((2,36)\\). Bestäm \\(a\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Punkten betyder att \\(f(2)=36\\).</p><p>\\(36=a\\cdot 2^{3}=a\\cdot 8\\).</p><p><strong>Steg 2:</strong> Dela med \\(8\\): \\(a=4,5\\).</p><p><strong>Svar:</strong> \\(a=4,5\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.5,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.360",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En potensfunktion har formen \\(f(x)=ax^{2}\\) och går genom punkten \\((5,75)\\). Bestäm \\(a\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Punkten betyder att \\(f(5)=75\\).</p><p>\\(75=a\\cdot 5^{2}=a\\cdot 25\\).</p><p><strong>Steg 2:</strong> Dela med \\(25\\): \\(a=3\\).</p><p><strong>Svar:</strong> \\(a=3\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.361",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En potensfunktion har formen \\(f(x)=ax^{0,5}\\) och går genom punkten \\((4,8)\\). Bestäm \\(a\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Punkten betyder att \\(f(4)=8\\).</p><p>\\(8=a\\cdot 4^{0,5}=a\\cdot 2\\).</p><p><strong>Steg 2:</strong> Dela med \\(2\\): \\(a=4\\).</p><p><strong>Svar:</strong> \\(a=4\\).</p>",
+    "familj": "Använda potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.362",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En storhet beskrivs av en potensfunktion \\(y=Cx^{2}\\). x-värdet multipliceras med 2. Med vilken faktor multipliceras y-värdet?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> I \\(y=Cx^{2}\\) påverkas y av skalfaktorn upphöjd till exponenten.</p><p>Ny faktor för y: \\(2^{2}=4\\).</p><p><strong>Svar:</strong> y multipliceras med \\(4\\).</p>",
+    "familj": "Skalning med potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.363",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En storhet beskrivs av en potensfunktion \\(y=Cx^{3}\\). x-värdet multipliceras med 2. Med vilken faktor multipliceras y-värdet?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> I \\(y=Cx^{3}\\) påverkas y av skalfaktorn upphöjd till exponenten.</p><p>Ny faktor för y: \\(2^{3}=8\\).</p><p><strong>Svar:</strong> y multipliceras med \\(8\\).</p>",
+    "familj": "Skalning med potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.364",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En storhet beskrivs av en potensfunktion \\(y=Cx^{0,5}\\). x-värdet multipliceras med 4. Med vilken faktor multipliceras y-värdet?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> I \\(y=Cx^{0,5}\\) påverkas y av skalfaktorn upphöjd till exponenten.</p><p>Ny faktor för y: \\(4^{0,5}=2\\).</p><p><strong>Svar:</strong> y multipliceras med \\(2\\).</p>",
+    "familj": "Skalning med potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.365",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En storhet beskrivs av en potensfunktion \\(y=Cx^{2}\\). x-värdet multipliceras med 1,5. Med vilken faktor multipliceras y-värdet?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> I \\(y=Cx^{2}\\) påverkas y av skalfaktorn upphöjd till exponenten.</p><p>Ny faktor för y: \\(1,5^{2}=2,25\\).</p><p><strong>Svar:</strong> y multipliceras med \\(2,25\\).</p>",
+    "familj": "Skalning med potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.25,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "2.200",
     "kap": 2,
     "omr": "jamfora_modeller",
@@ -32283,7 +32673,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.000002,
+      2e-06,
       0.01,
       1
     ],
@@ -39949,6 +40339,308 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "4.197",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har kateterna 6 cm och 8 cm. Bestäm hypotenusan.</p>",
+    "s": "<p><strong>Steg 1:</strong> Pythagoras sats ger \\(c^2=6^2+8^2=36+64=100\\).</p><p><strong>Steg 2:</strong> \\(c=\\sqrt{100}=10\\).</p><p><strong>Svar:</strong> 10 cm.</p>",
+    "familj": "Bestämma hypotenusan med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.198",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har kateterna 20 cm och 21 cm. Bestäm hypotenusan.</p>",
+    "s": "<p><strong>Steg 1:</strong> Pythagoras sats ger \\(c^2=20^2+21^2=400+441=841\\).</p><p><strong>Steg 2:</strong> \\(c=\\sqrt{841}=29\\).</p><p><strong>Svar:</strong> 29 cm.</p>",
+    "familj": "Bestämma hypotenusan med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 29,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.199",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har kateterna 8 cm och 15 cm. Bestäm hypotenusan.</p>",
+    "s": "<p><strong>Steg 1:</strong> Pythagoras sats ger \\(c^2=8^2+15^2=64+225=289\\).</p><p><strong>Steg 2:</strong> \\(c=\\sqrt{289}=17\\).</p><p><strong>Svar:</strong> 17 cm.</p>",
+    "familj": "Bestämma hypotenusan med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.200",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har kateterna 12 cm och 16 cm. Bestäm hypotenusan.</p>",
+    "s": "<p><strong>Steg 1:</strong> Pythagoras sats ger \\(c^2=12^2+16^2=144+256=400\\).</p><p><strong>Steg 2:</strong> \\(c=\\sqrt{400}=20\\).</p><p><strong>Svar:</strong> 20 cm.</p>",
+    "familj": "Bestämma hypotenusan med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.201",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har hypotenusan 13 cm och en katet 5 cm. Bestäm den andra kateten.</p>",
+    "s": "<p><strong>Steg 1:</strong> Låt den okända kateten vara \\(x\\). Då \\(x^2+5^2=13^2\\).</p><p>\\(x^2=169-25=144\\).</p><p><strong>Steg 2:</strong> \\(x=\\sqrt{144}=12\\).</p><p><strong>Svar:</strong> 12 cm.</p>",
+    "familj": "Bestämma en katet med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.202",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har hypotenusan 17 cm och en katet 8 cm. Bestäm den andra kateten.</p>",
+    "s": "<p><strong>Steg 1:</strong> Låt den okända kateten vara \\(x\\). Då \\(x^2+8^2=17^2\\).</p><p>\\(x^2=289-64=225\\).</p><p><strong>Steg 2:</strong> \\(x=\\sqrt{225}=15\\).</p><p><strong>Svar:</strong> 15 cm.</p>",
+    "familj": "Bestämma en katet med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.203",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har hypotenusan 25 cm och en katet 7 cm. Bestäm den andra kateten.</p>",
+    "s": "<p><strong>Steg 1:</strong> Låt den okända kateten vara \\(x\\). Då \\(x^2+7^2=25^2\\).</p><p>\\(x^2=625-49=576\\).</p><p><strong>Steg 2:</strong> \\(x=\\sqrt{576}=24\\).</p><p><strong>Svar:</strong> 24 cm.</p>",
+    "familj": "Bestämma en katet med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.204",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har hypotenusan 10 cm och en katet 6 cm. Bestäm den andra kateten.</p>",
+    "s": "<p><strong>Steg 1:</strong> Låt den okända kateten vara \\(x\\). Då \\(x^2+6^2=10^2\\).</p><p>\\(x^2=100-36=64\\).</p><p><strong>Steg 2:</strong> \\(x=\\sqrt{64}=8\\).</p><p><strong>Svar:</strong> 8 cm.</p>",
+    "familj": "Bestämma en katet med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.205",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rektangel är 9 cm bred och 12 cm hög. Bestäm diagonalens längd.</p>",
+    "s": "<p><strong>Steg 1:</strong> Situationen bildar en rätvinklig triangel. Använd Pythagoras sats.</p><p>\\(d^2=9^2+12^2=225\\).</p><p><strong>Steg 2:</strong> Ta kvadratroten: \\(15\\).</p><p><strong>Svar:</strong> 15 cm.</p>",
+    "familj": "Pythagoras sats i problemlösning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.206",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En stege står 2,4 m från en vägg och når 3,2 m upp. Hur lång är stegen?</p>",
+    "s": "<p><strong>Steg 1:</strong> Situationen bildar en rätvinklig triangel. Använd Pythagoras sats.</p><p>\\(d^2=2,4^2+3,2^2=16\\).</p><p><strong>Steg 2:</strong> Ta kvadratroten: \\(4\\).</p><p><strong>Svar:</strong> 4 m.</p>",
+    "familj": "Pythagoras sats i problemlösning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.207",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kvadrat har sidan 7 cm. Bestäm diagonalens längd. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Situationen bildar en rätvinklig triangel. Använd Pythagoras sats.</p><p>\\(d^2=7^2+7^2=98\\).</p><p><strong>Steg 2:</strong> Ta kvadratroten: \\(9,9\\).</p><p><strong>Svar:</strong> 9,9 cm.</p>",
+    "familj": "Pythagoras sats i problemlösning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.9,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.208",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har hypotenusan 14 cm och en katet 9 cm. Bestäm den andra kateten. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Situationen bildar en rätvinklig triangel. Använd Pythagoras sats.</p><p>\\(x^2=14^2-9^2=115\\).</p><p><strong>Steg 2:</strong> Ta kvadratroten: \\(10,7\\).</p><p><strong>Svar:</strong> 10,7 cm.</p>",
+    "familj": "Pythagoras sats i problemlösning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.7,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
     "id": "4.184",
     "kap": 4,
     "omr": "sinus_cosinus_tangens",
@@ -40015,6 +40707,384 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ]
+  },
+  {
+    "id": "4.209",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel är en spetsig vinkel 30° och hypotenusan 12 cm. Bestäm triangelns motstående katet. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\sin 30^\\circ=\\frac{x}{12}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 6\\).</p><p><strong>Svar:</strong> 6 cm.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.210",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel är en spetsig vinkel 45° och hypotenusan 10 cm. Bestäm triangelns motstående katet. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\sin 45^\\circ=\\frac{x}{10}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 7,1\\).</p><p><strong>Svar:</strong> 7,1 cm.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.1,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.211",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel är en spetsig vinkel 60° och hypotenusan 14 cm. Bestäm triangelns närliggande katet. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\cos 60^\\circ=\\frac{x}{14}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 7\\).</p><p><strong>Svar:</strong> 7 cm.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.212",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel är en spetsig vinkel 35° och hypotenusan 18 cm. Bestäm triangelns närliggande katet. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\cos 35^\\circ=\\frac{x}{18}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 14,7\\).</p><p><strong>Svar:</strong> 14,7 cm.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.7,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.213",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel är en spetsig vinkel 40° och närliggande katet 9 cm. Bestäm triangelns motstående katet. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\tan 40^\\circ=\\frac{x}{9}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 7,6\\).</p><p><strong>Svar:</strong> 7,6 cm.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.6,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.214",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel är en spetsig vinkel 25° och närliggande katet 16 cm. Bestäm triangelns motstående katet. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\tan 25^\\circ=\\frac{x}{16}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 7,5\\).</p><p><strong>Svar:</strong> 7,5 cm.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.5,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.215",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel är en spetsig vinkel 52° och motstående katet 7 cm. Bestäm triangelns hypotenusa. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\sin 52^\\circ=\\frac{7}{x}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 8,9\\).</p><p><strong>Svar:</strong> 8,9 cm.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.9,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.216",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel är en spetsig vinkel 38° och närliggande katet 11 cm. Bestäm triangelns hypotenusa. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\cos 38^\\circ=\\frac{11}{x}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 14\\).</p><p><strong>Svar:</strong> 14 cm.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.217",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel gäller: motstående katet 8 cm och närliggande katet 12 cm. Bestäm vinkeln \\(v\\). Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Skriv sambandet \\tan v=\\frac{8}{12}.</p><p><strong>Steg 2:</strong> Använd inversen: \\(v=\\arctan(0,6667)\\approx 33,7^\\circ\\).</p><p><strong>Svar:</strong> 33,7°.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 33.7,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "4.218",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel gäller: motstående katet 15 cm och närliggande katet 9 cm. Bestäm vinkeln \\(v\\). Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Skriv sambandet \\tan v=\\frac{15}{9}.</p><p><strong>Steg 2:</strong> Använd inversen: \\(v=\\arctan(1,6667)\\approx 59^\\circ\\).</p><p><strong>Svar:</strong> 59°.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 59.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "4.219",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En ramp är 12 m lång och höjdskillnaden mellan rampens ändpunkter är 7 m. Bestäm rampens vinkel mot marken. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Rita eller tänk ut den rätvinkliga triangeln och koppla den givna längden till vinkeln.</p><p>\\(\\sin v=\\frac{7}{12}\\).</p><p><strong>Steg 2:</strong> Använd invers trigonometrisk funktion: \\(v\\approx 35,7^\\circ\\).</p><p><strong>Svar:</strong> 35,7°.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 35.7,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "4.220",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En 14 m lång vajer går från marken till en fästpunkt. Det horisontella avståndet till fästpunkten är 11 m. Bestäm vajerns vinkel mot marken. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Steg 1:</strong> Rita eller tänk ut den rätvinkliga triangeln och koppla den givna längden till vinkeln.</p><p>\\(\\cos v=\\frac{11}{14}\\).</p><p><strong>Steg 2:</strong> Använd invers trigonometrisk funktion: \\(v\\approx 38,2^\\circ\\).</p><p><strong>Svar:</strong> 38,2°.</p>",
+    "familj": "Beräkna med sinus, cosinus och tangens",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 38.2,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "4.221",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du känner hypotenusan och den motstående kateten till vinkeln v. Vilket samband använder du direkt?</p><p>A) sinus &nbsp;&nbsp; B) cosinus &nbsp;&nbsp; C) tangens</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Utgå från vilka två sidor som ingår relativt vinkeln.</p><p>sinus = motstående/hypotenusa.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.222",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du känner de två kateterna och vill bestämma en spetsig vinkel. Vilket samband använder du direkt?</p><p>A) sinus &nbsp;&nbsp; B) cosinus &nbsp;&nbsp; C) tangens</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Utgå från vilka två sidor som ingår relativt vinkeln.</p><p>tangens = motstående/närliggande.</p><p><strong>Svar:</strong> C.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.223",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du känner hypotenusan och den närliggande kateten till vinkeln v. Vilket samband använder du direkt?</p><p>A) sinus &nbsp;&nbsp; B) cosinus &nbsp;&nbsp; C) tangens</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Utgå från vilka två sidor som ingår relativt vinkeln.</p><p>cosinus = närliggande/hypotenusa.</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.224",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du ska bestämma en motstående katet när vinkeln och hypotenusan är kända. Vilket samband ger x direkt?</p><p>A) x = h·sin v &nbsp;&nbsp; B) x = h·cos v &nbsp;&nbsp; C) x = h/tan v</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Utgå från vilka två sidor som ingår relativt vinkeln.</p><p>sin v = x/h.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
   },
   {
     "id": "4.187",
@@ -43628,7 +44698,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "0.443625",
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -44587,7 +45657,7 @@ window.BANKMA1 = [
     ],
     "tolerans": [
       0.0001,
-      0.000001,
+      1e-06,
       null,
       0.0001
     ],
@@ -44655,6 +45725,318 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ]
+  },
+  {
+    "id": "5.234",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En vanlig sexsidig tärning kastas. Vad är sannolikheten att få ett tal större än 4?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Vid lika sannolika utfall är \\(P=\\frac{\\text{gynnsamma utfall}}{\\text{möjliga utfall}}\\).</p><p>Här blir \\(P=\\frac{2}{6}=1/3\\).</p><p><strong>Svar:</strong> \\(1/3\\).</p>",
+    "familj": "Beräkna sannolikhet från lika sannolika utfall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.235",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En vanlig sexsidig tärning kastas. Vad är sannolikheten att få ett jämnt tal?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Vid lika sannolika utfall är \\(P=\\frac{\\text{gynnsamma utfall}}{\\text{möjliga utfall}}\\).</p><p>Här blir \\(P=\\frac{3}{6}=1/2\\).</p><p><strong>Svar:</strong> \\(1/2\\).</p>",
+    "familj": "Beräkna sannolikhet från lika sannolika utfall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/2",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.236",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett hjul har 10 lika stora fält, varav 4 är blå. Vad är sannolikheten att pilen stannar på blått?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Vid lika sannolika utfall är \\(P=\\frac{\\text{gynnsamma utfall}}{\\text{möjliga utfall}}\\).</p><p>Här blir \\(P=\\frac{4}{10}=2/5\\).</p><p><strong>Svar:</strong> \\(2/5\\).</p>",
+    "familj": "Beräkna sannolikhet från lika sannolika utfall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "2/5",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.237",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en påse finns 12 lika sannolika kulor, varav 5 är röda. Vad är sannolikheten att dra en röd kula?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Vid lika sannolika utfall är \\(P=\\frac{\\text{gynnsamma utfall}}{\\text{möjliga utfall}}\\).</p><p>Här blir \\(P=\\frac{5}{12}=5/12\\).</p><p><strong>Svar:</strong> \\(5/12\\).</p>",
+    "familj": "Beräkna sannolikhet från lika sannolika utfall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "5/12",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.238",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett lotteri har 8 lika sannolika lotter, varav 3 ger vinst. Vad är sannolikheten för vinst?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Vid lika sannolika utfall är \\(P=\\frac{\\text{gynnsamma utfall}}{\\text{möjliga utfall}}\\).</p><p>Här blir \\(P=\\frac{3}{8}=3/8\\).</p><p><strong>Svar:</strong> \\(3/8\\).</p>",
+    "familj": "Beräkna sannolikhet från lika sannolika utfall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "3/8",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.239",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Av 20 lika sannolika kort är 7 märkta A. Vad är sannolikheten att dra ett A-kort?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Vid lika sannolika utfall är \\(P=\\frac{\\text{gynnsamma utfall}}{\\text{möjliga utfall}}\\).</p><p>Här blir \\(P=\\frac{7}{20}=7/20\\).</p><p><strong>Svar:</strong> \\(7/20\\).</p>",
+    "familj": "Beräkna sannolikhet från lika sannolika utfall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "7/20",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.240",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett kort dras ur en vanlig kortlek. Vad är sannolikheten att få hjärter?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Vid lika sannolika utfall är \\(P=\\frac{\\text{gynnsamma utfall}}{\\text{möjliga utfall}}\\).</p><p>Här blir \\(P=\\frac{13}{52}=1/4\\).</p><p><strong>Svar:</strong> \\(1/4\\).</p>",
+    "familj": "Beräkna sannolikhet från lika sannolika utfall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.241",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett kort dras ur en vanlig kortlek. Vad är sannolikheten att få ett ess?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Vid lika sannolika utfall är \\(P=\\frac{\\text{gynnsamma utfall}}{\\text{möjliga utfall}}\\).</p><p>Här blir \\(P=\\frac{4}{52}=1/13\\).</p><p><strong>Svar:</strong> \\(1/13\\).</p>",
+    "familj": "Beräkna sannolikhet från lika sannolika utfall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/13",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.242",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett hjul har 5 lika stora fält och ett av dem är gult. Vad är sannolikheten för gult?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Vid lika sannolika utfall är \\(P=\\frac{\\text{gynnsamma utfall}}{\\text{möjliga utfall}}\\).</p><p>Här blir \\(P=\\frac{1}{5}=1/5\\).</p><p><strong>Svar:</strong> \\(1/5\\).</p>",
+    "familj": "Beräkna sannolikhet från lika sannolika utfall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/5",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.243",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I ett försök finns 30 lika sannolika utfall. En händelse har sannolikheten 0,40. Hur många av utfallen är gynnsamma för händelsen?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Här är sannolikheten och det totala antalet kända. Antalet gynnsamma utfall fås därför genom sannolikheten gånger totalantalet.</p><p>\\(0,40\\cdot30=12\\).</p><p><strong>Svar:</strong> 12.</p>",
+    "familj": "Bestämma antal utfall från en sannolikhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "5.244",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Det finns 24 lika sannolika utfall och sannolikheten för händelsen A är \\(3/8\\). Hur många gynnsamma utfall har A?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Här är sannolikheten och det totala antalet kända. Antalet gynnsamma utfall fås därför genom sannolikheten gånger totalantalet.</p><p>\\(\\frac{3}{8}\\cdot24=9\\).</p><p><strong>Svar:</strong> 9.</p>",
+    "familj": "Bestämma antal utfall från en sannolikhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "5.245",
+    "kap": 5,
+    "omr": "grundlaggande_sannolikhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I en påse finns 20 kulor och alla är lika sannolika att dra. Sannolikheten att dra en röd kula är 0,35. Hur många röda kulor finns i påsen?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Här är sannolikheten och det totala antalet kända. Antalet gynnsamma utfall fås därför genom sannolikheten gånger totalantalet.</p><p>\\(0,35\\cdot20=7\\).</p><p><strong>Svar:</strong> 7.</p>",
+    "familj": "Bestämma antal utfall från en sannolikhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "heltal"
   },
   {
     "id": "5.165",
@@ -44754,6 +46136,206 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "5.254",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sannolikheten för träff i ett försök är 20 %. Försöket upprepas 3 gånger oberoende. Bestäm sannolikheten för <strong>minst en träff</strong>. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> ”Minst en” är enklast att beräkna med komplementhändelsen ”ingen träff”.</p><p>\\(P(\\text{ingen})=(1-0,2)^3=0,512\\).</p><p>\\(P(\\text{minst en})=1-0,512=0,488\\).</p><p><strong>Svar:</strong> 48,8 %.</p>",
+    "familj": "Beräkna sannolikheten för minst en händelse",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48.8,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "5.255",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sannolikheten för träff i ett försök är 10 %. Försöket upprepas 4 gånger oberoende. Bestäm sannolikheten för <strong>minst en träff</strong>. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> ”Minst en” är enklast att beräkna med komplementhändelsen ”ingen träff”.</p><p>\\(P(\\text{ingen})=(1-0,1)^4=0,6561\\).</p><p>\\(P(\\text{minst en})=1-0,6561=0,3439\\).</p><p><strong>Svar:</strong> 34,4 %.</p>",
+    "familj": "Beräkna sannolikheten för minst en händelse",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 34.4,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "5.256",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sannolikheten för träff i ett försök är 25 %. Försöket upprepas 2 gånger oberoende. Bestäm sannolikheten för <strong>minst en träff</strong>. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> ”Minst en” är enklast att beräkna med komplementhändelsen ”ingen träff”.</p><p>\\(P(\\text{ingen})=(1-0,25)^2=0,5625\\).</p><p>\\(P(\\text{minst en})=1-0,5625=0,4375\\).</p><p><strong>Svar:</strong> 43,8 %.</p>",
+    "familj": "Beräkna sannolikheten för minst en händelse",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 43.8,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "5.257",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sannolikheten för träff i ett försök är 30 %. Försöket upprepas 2 gånger oberoende. Bestäm sannolikheten för <strong>minst en träff</strong>. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> ”Minst en” är enklast att beräkna med komplementhändelsen ”ingen träff”.</p><p>\\(P(\\text{ingen})=(1-0,3)^2=0,49\\).</p><p>\\(P(\\text{minst en})=1-0,49=0,51\\).</p><p><strong>Svar:</strong> 51 %.</p>",
+    "familj": "Beräkna sannolikheten för minst en händelse",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 51.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "5.258",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sannolikheten för träff i ett försök är 5 %. Försöket upprepas 5 gånger oberoende. Bestäm sannolikheten för <strong>minst en träff</strong>. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> ”Minst en” är enklast att beräkna med komplementhändelsen ”ingen träff”.</p><p>\\(P(\\text{ingen})=(1-0,05)^5=0,7738\\).</p><p>\\(P(\\text{minst en})=1-0,7738=0,2262\\).</p><p><strong>Svar:</strong> 22,6 %.</p>",
+    "familj": "Beräkna sannolikheten för minst en händelse",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 22.6,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "5.259",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sannolikheten för träff i ett försök är 40 %. Försöket upprepas 3 gånger oberoende. Bestäm sannolikheten för <strong>minst en träff</strong>. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> ”Minst en” är enklast att beräkna med komplementhändelsen ”ingen träff”.</p><p>\\(P(\\text{ingen})=(1-0,4)^3=0,216\\).</p><p>\\(P(\\text{minst en})=1-0,216=0,784\\).</p><p><strong>Svar:</strong> 78,4 %.</p>",
+    "familj": "Beräkna sannolikheten för minst en händelse",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 78.4,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "5.260",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sannolikheten för träff i ett försök är 15 %. Försöket upprepas 4 gånger oberoende. Bestäm sannolikheten för <strong>minst en träff</strong>. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> ”Minst en” är enklast att beräkna med komplementhändelsen ”ingen träff”.</p><p>\\(P(\\text{ingen})=(1-0,15)^4=0,522\\).</p><p>\\(P(\\text{minst en})=1-0,522=0,478\\).</p><p><strong>Svar:</strong> 47,8 %.</p>",
+    "familj": "Beräkna sannolikheten för minst en händelse",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 47.8,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "5.261",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sannolikheten för träff i ett försök är 35 %. Försöket upprepas 2 gånger oberoende. Bestäm sannolikheten för <strong>minst en träff</strong>. Avrunda till en decimal.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> ”Minst en” är enklast att beräkna med komplementhändelsen ”ingen träff”.</p><p>\\(P(\\text{ingen})=(1-0,35)^2=0,4225\\).</p><p>\\(P(\\text{minst en})=1-0,4225=0,5775\\).</p><p><strong>Svar:</strong> 57,7 %.</p>",
+    "familj": "Beräkna sannolikheten för minst en händelse",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 57.7,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
     "id": "5.169",
     "kap": 5,
     "omr": "sannolikhet_flera_steg",
@@ -44803,6 +46385,206 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "5.262",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Först väljs slumpmässigt en av 2 vägar. Därefter lyckas ett försök med sannolikheten 1/3. Vad är sannolikheten att både rätt väg väljs och försöket lyckas?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=1/2\\cdot 1/3=1/6\\).</p><p><strong>Svar:</strong> \\(1/6\\).</p>",
+    "familj": "Sannolikhet i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/6",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.263",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sannolikheten att ett lag vinner första matchen är 3/5 och andra matchen 2/3. Anta oberoende matcher. Vad är sannolikheten att laget vinner båda?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=3/5\\cdot 2/3=2/5\\).</p><p><strong>Svar:</strong> \\(2/5\\).</p>",
+    "familj": "Sannolikhet i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "2/5",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.264",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kula är blå med sannolikheten 4/7. Därefter ger ett oberoende hjul vinst med sannolikheten 1/2. Vad är sannolikheten för både blå kula och vinst?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=4/7\\cdot 1/2=2/7\\).</p><p><strong>Svar:</strong> \\(2/7\\).</p>",
+    "familj": "Sannolikhet i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "2/7",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.265",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En maskin godkänner en detalj med sannolikheten 2/5. Om den godkänns klarar detaljen nästa test med sannolikheten 3/4. Vad är sannolikheten att båda stegen lyckas?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=2/5\\cdot 3/4=3/10\\).</p><p><strong>Svar:</strong> \\(3/10\\).</p>",
+    "familj": "Sannolikhet i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "3/10",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.266",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två oberoende kontroller klaras med sannolikheterna 5/6 respektive 4/5. Vad är sannolikheten att båda klaras?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=5/6\\cdot 4/5=2/3\\).</p><p><strong>Svar:</strong> \\(2/3\\).</p>",
+    "familj": "Sannolikhet i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "2/3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.267",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två oberoende händelser har sannolikheterna 3/8 och 2/5. Vad är sannolikheten att båda inträffar?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=3/8\\cdot 2/5=3/20\\).</p><p><strong>Svar:</strong> \\(3/20\\).</p>",
+    "familj": "Sannolikhet i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "3/20",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.268",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En produkt klarar två oberoende tester med sannolikheterna 7/10 och 9/10. Vad är sannolikheten att den klarar båda?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=7/10\\cdot 9/10=63/100\\).</p><p><strong>Svar:</strong> \\(63/100\\).</p>",
+    "familj": "Sannolikhet i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "63/100",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.269",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En person väljer rätt alternativ med sannolikheten 1/4 och löser därefter en följdfråga med sannolikheten 2/3. Vad är sannolikheten att båda stegen blir rätt?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=1/4\\cdot 2/3=1/6\\).</p><p><strong>Svar:</strong> \\(1/6\\).</p>",
+    "familj": "Sannolikhet i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/6",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
     "id": "5.172",
     "kap": 5,
     "omr": "beroende_handelser",
@@ -44826,6 +46608,209 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ]
+  },
+  {
+    "id": "5.246",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en påse finns 5 kulor, varav 3 är röda. 2 kulor dras utan återläggning. Vad är sannolikheten att alla 2 är röda?</p>",
+    "s": "<p><strong>Steg 1:</strong> Utan återläggning minskar både antalet kulor och antalet röda efter varje röd dragning.</p><p>\\(P=\\frac{3}{5}\\cdot\\frac{2}{4}=3/10\\).</p><p><strong>Svar:</strong> \\(3/10\\).</p>",
+    "familj": "Sannolikhet utan återläggning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "3/10",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.247",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en påse finns 6 kulor, varav 2 är röda. 2 kulor dras utan återläggning. Vad är sannolikheten att alla 2 är röda?</p>",
+    "s": "<p><strong>Steg 1:</strong> Utan återläggning minskar både antalet kulor och antalet röda efter varje röd dragning.</p><p>\\(P=\\frac{2}{6}\\cdot\\frac{1}{5}=1/15\\).</p><p><strong>Svar:</strong> \\(1/15\\).</p>",
+    "familj": "Sannolikhet utan återläggning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/15",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.248",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en påse finns 8 kulor, varav 5 är röda. 2 kulor dras utan återläggning. Vad är sannolikheten att alla 2 är röda?</p>",
+    "s": "<p><strong>Steg 1:</strong> Utan återläggning minskar både antalet kulor och antalet röda efter varje röd dragning.</p><p>\\(P=\\frac{5}{8}\\cdot\\frac{4}{7}=5/14\\).</p><p><strong>Svar:</strong> \\(5/14\\).</p>",
+    "familj": "Sannolikhet utan återläggning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "5/14",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.249",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en påse finns 10 kulor, varav 4 är röda. 2 kulor dras utan återläggning. Vad är sannolikheten att alla 2 är röda?</p>",
+    "s": "<p><strong>Steg 1:</strong> Utan återläggning minskar både antalet kulor och antalet röda efter varje röd dragning.</p><p>\\(P=\\frac{4}{10}\\cdot\\frac{3}{9}=2/15\\).</p><p><strong>Svar:</strong> \\(2/15\\).</p>",
+    "familj": "Sannolikhet utan återläggning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "2/15",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.250",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en påse finns 7 kulor, varav 3 är röda. 2 kulor dras utan återläggning. Vad är sannolikheten att alla 2 är röda?</p>",
+    "s": "<p><strong>Steg 1:</strong> Utan återläggning minskar både antalet kulor och antalet röda efter varje röd dragning.</p><p>\\(P=\\frac{3}{7}\\cdot\\frac{2}{6}=1/7\\).</p><p><strong>Svar:</strong> \\(1/7\\).</p>",
+    "familj": "Sannolikhet utan återläggning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "1/7",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.251",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I en påse finns 8 kulor: 5 röda och 3 blå. Två kulor dras utan återläggning. Bestäm sannolikheten att <strong>exakt en</strong> av de två kulorna är röd.</p>",
+    "s": "<p><strong>Steg 1:</strong> Exakt en röd kan ske i två ordningar: röd–blå eller blå–röd.</p><p>\\(P(RB)=\\frac{5}{8}\\cdot\\frac{3}{7}=15/56\\).</p><p>\\(P(BR)=\\frac{3}{8}\\cdot\\frac{5}{7}=15/56\\).</p><p><strong>Steg 2:</strong> Addera de två möjliga grenarna: \\(P=15/28\\).</p><p><strong>Svar:</strong> \\(15/28\\).</p>",
+    "familj": "Sannolikhet utan återläggning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "15/28",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.252",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I en påse finns 10 kulor: 4 röda och 6 blå. Två kulor dras utan återläggning. Bestäm sannolikheten att <strong>exakt en</strong> av de två kulorna är röd.</p>",
+    "s": "<p><strong>Steg 1:</strong> Exakt en röd kan ske i två ordningar: röd–blå eller blå–röd.</p><p>\\(P(RB)=\\frac{4}{10}\\cdot\\frac{6}{9}=4/15\\).</p><p>\\(P(BR)=\\frac{6}{10}\\cdot\\frac{4}{9}=4/15\\).</p><p><strong>Steg 2:</strong> Addera de två möjliga grenarna: \\(P=8/15\\).</p><p><strong>Svar:</strong> \\(8/15\\).</p>",
+    "familj": "Sannolikhet utan återläggning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "8/15",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
+  },
+  {
+    "id": "5.253",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I en påse finns 7 kulor: 2 röda och 5 blå. Två kulor dras utan återläggning. Bestäm sannolikheten att <strong>exakt en</strong> av de två kulorna är röd.</p>",
+    "s": "<p><strong>Steg 1:</strong> Exakt en röd kan ske i två ordningar: röd–blå eller blå–röd.</p><p>\\(P(RB)=\\frac{2}{7}\\cdot\\frac{5}{6}=5/21\\).</p><p>\\(P(BR)=\\frac{5}{7}\\cdot\\frac{2}{6}=5/21\\).</p><p><strong>Steg 2:</strong> Addera de två möjliga grenarna: \\(P=10/21\\).</p><p><strong>Svar:</strong> \\(10/21\\).</p>",
+    "familj": "Sannolikhet utan återläggning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": "10/21",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "id": "5.173",
@@ -52642,6 +54627,195 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "7.222",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Det behövs 40 m material. För att täcka spill lägger man till 5 %. Materialet kostar 120 kr per meter. Bestäm totalkostnaden. Avrunda till närmaste krona.</p>",
+    "s": "<p><strong>Steg 1:</strong> Material inklusive spill: \\(40\\cdot 1,05=42\\) m.</p><p><strong>Steg 2:</strong> Kostnaden blir \\(42\\cdot 120=5040\\) kr.</p><p><strong>Svar:</strong> cirka 5040 kr.</p>",
+    "familj": "Beräkna materialåtgång, spill och kostnad",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5040,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.223",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Det behövs 60 m material. För att täcka spill lägger man till 8 %. Materialet kostar 75 kr per meter. Bestäm totalkostnaden. Avrunda till närmaste krona.</p>",
+    "s": "<p><strong>Steg 1:</strong> Material inklusive spill: \\(60\\cdot 1,08=64,8\\) m.</p><p><strong>Steg 2:</strong> Kostnaden blir \\(64,8\\cdot 75=4860\\) kr.</p><p><strong>Svar:</strong> cirka 4860 kr.</p>",
+    "familj": "Beräkna materialåtgång, spill och kostnad",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4860,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.224",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Det behövs 25 m material. För att täcka spill lägger man till 12 %. Materialet kostar 90 kr per meter. Bestäm totalkostnaden. Avrunda till närmaste krona.</p>",
+    "s": "<p><strong>Steg 1:</strong> Material inklusive spill: \\(25\\cdot 1,12=28\\) m.</p><p><strong>Steg 2:</strong> Kostnaden blir \\(28\\cdot 90=2520\\) kr.</p><p><strong>Svar:</strong> cirka 2520 kr.</p>",
+    "familj": "Beräkna materialåtgång, spill och kostnad",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2520,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.225",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Det behövs 80 m material. För att täcka spill lägger man till 4 %. Materialet kostar 55 kr per meter. Bestäm totalkostnaden. Avrunda till närmaste krona.</p>",
+    "s": "<p><strong>Steg 1:</strong> Material inklusive spill: \\(80\\cdot 1,04=83,2\\) m.</p><p><strong>Steg 2:</strong> Kostnaden blir \\(83,2\\cdot 55=4576\\) kr.</p><p><strong>Svar:</strong> cirka 4576 kr.</p>",
+    "familj": "Beräkna materialåtgång, spill och kostnad",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4576,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.226",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Det behövs 50 m material. För att täcka spill lägger man till 10 %. Materialet kostar 64 kr per meter. Bestäm totalkostnaden. Avrunda till närmaste krona.</p>",
+    "s": "<p><strong>Steg 1:</strong> Material inklusive spill: \\(50\\cdot 1,1=55\\) m.</p><p><strong>Steg 2:</strong> Kostnaden blir \\(55\\cdot 64=3520\\) kr.</p><p><strong>Svar:</strong> cirka 3520 kr.</p>",
+    "familj": "Beräkna materialåtgång, spill och kostnad",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3520,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.227",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Efter att 8 % spill har lagts till blir materialbeställningen 54 m. Hur stort var det planerade nettobehovet före spillpåslaget?</p>",
+    "s": "<p><strong>Steg 1:</strong> Översätt spillvillkoret till en förändringsfaktor och arbeta baklänges eller framåt beroende på vad som är känt.</p><p>\\(54/1,08=50\\).</p><p><strong>Svar:</strong> 50 m.</p>",
+    "familj": "Beräkna materialåtgång, spill och kostnad",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "7.228",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett material kostar 120 kr/m. Budgeten är 6600 kr och man behöver lägga på 10 % för spill. Hur många meter nettomaterial kan projektet högst kräva?</p>",
+    "s": "<p><strong>Steg 1:</strong> Översätt spillvillkoret till en förändringsfaktor och arbeta baklänges eller framåt beroende på vad som är känt.</p><p>\\(6600/120=55\\text{ m inköpt},\\quad 55/1,10=50\\).</p><p><strong>Svar:</strong> 50 m.</p>",
+    "familj": "Beräkna materialåtgång, spill och kostnad",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "7.229",
+    "kap": 7,
+    "omr": "spill_svinnostnad",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett arbete kräver 72 m användbart material. Man räknar med 5 % spill och materialet säljs i hela rullar om 10 m. Hur många rullar måste minst köpas?</p>",
+    "s": "<p><strong>Steg 1:</strong> Lägg först på spill: \\(72\\cdot1,05=75,6\\) m.</p><p><strong>Steg 2:</strong> Varje rulle innehåller 10 m, så \\(75,6/10=7,56\\) rullar. Eftersom man bara kan köpa hela rullar måste antalet avrundas uppåt.</p><p><strong>Svar:</strong> 8 rullar.</p>",
+    "familj": "Beräkna materialåtgång, spill och kostnad",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
     "id": "7.75",
     "kap": 7,
     "omr": "matfel_felmarginal",
@@ -53127,6 +55301,194 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "7.214",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En utrustning är godkänd för högst 1200 kg och belastas med 900 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
+    "s": "<p><strong>Steg 1:</strong> Ledig kapacitet är \\(1200-900=300\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{300}{1200}\\cdot100=25\\%\\).</p><p><strong>Svar:</strong> 25 %.</p>",
+    "familj": "Beräkna kapacitet och säkerhetsmarginal",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "7.215",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En utrustning är godkänd för högst 800 kg och belastas med 600 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
+    "s": "<p><strong>Steg 1:</strong> Ledig kapacitet är \\(800-600=200\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{200}{800}\\cdot100=25\\%\\).</p><p><strong>Svar:</strong> 25 %.</p>",
+    "familj": "Beräkna kapacitet och säkerhetsmarginal",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "7.216",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En utrustning är godkänd för högst 2500 kg och belastas med 2000 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
+    "s": "<p><strong>Steg 1:</strong> Ledig kapacitet är \\(2500-2000=500\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{500}{2500}\\cdot100=20\\%\\).</p><p><strong>Svar:</strong> 20 %.</p>",
+    "familj": "Beräkna kapacitet och säkerhetsmarginal",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "7.217",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En utrustning är godkänd för högst 500 kg och belastas med 425 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
+    "s": "<p><strong>Steg 1:</strong> Ledig kapacitet är \\(500-425=75\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{75}{500}\\cdot100=15\\%\\).</p><p><strong>Svar:</strong> 15 %.</p>",
+    "familj": "Beräkna kapacitet och säkerhetsmarginal",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "7.218",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En utrustning är godkänd för högst 1500 kg och belastas med 1050 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
+    "s": "<p><strong>Steg 1:</strong> Ledig kapacitet är \\(1500-1050=450\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{450}{1500}\\cdot100=30\\%\\).</p><p><strong>Svar:</strong> 30 %.</p>",
+    "familj": "Beräkna kapacitet och säkerhetsmarginal",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "7.219",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En utrustning är godkänd för högst 3200 kg och belastas med 2560 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
+    "s": "<p><strong>Steg 1:</strong> Ledig kapacitet är \\(3200-2560=640\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{640}{3200}\\cdot100=20\\%\\).</p><p><strong>Svar:</strong> 20 %.</p>",
+    "familj": "Beräkna kapacitet och säkerhetsmarginal",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.0,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "7.220",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En konstruktion belastas med 960 kg. Kravet är att minst 20 % av maxkapaciteten ska vara kvar som säkerhetsmarginal. Vilken minsta maxkapacitet måste konstruktionen vara godkänd för?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Den del av maxkapaciteten som får användas är 100 % minus säkerhetsmarginalen.</p><p>\\(960=0,80\\cdot K\\Rightarrow K=\\frac{960}{0,80}=1200\\).</p><p><strong>Svar:</strong> 1200 kg.</p>",
+    "familj": "Beräkna kapacitet och säkerhetsmarginal",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1200,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kg"
+  },
+  {
+    "id": "7.221",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En utrustning är godkänd för 1500 kg. Minst 15 % av maxkapaciteten ska lämnas som säkerhetsmarginal. Hur stor belastning får man högst använda?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Den del av maxkapaciteten som får användas är 100 % minus säkerhetsmarginalen.</p><p>\\(0,85\\cdot1500=1275\\).</p><p><strong>Svar:</strong> 1275 kg.</p>",
+    "familj": "Beräkna kapacitet och säkerhetsmarginal",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1275,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kg"
+  },
+  {
     "id": "7.90",
     "kap": 7,
     "omr": "matfel_felmarginal",
@@ -53403,6 +55765,294 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ]
+  },
+  {
+    "id": "7.202",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En ritning/karta har skalan 1:50000. En sträcka är 3,2 cm på bilden. Hur lång är sträckan i verkligheten? Svara i km.</p>",
+    "s": "<p><strong>Steg 1:</strong> Skalan 1:50000 betyder att 1 cm på bilden motsvarar 50000 cm i verkligheten.</p><p>\\(3,2\\cdot 50000=160000\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till km: 1,6 km.</p><p><strong>Svar:</strong> 1,6 km.</p>",
+    "familj": "Beräkna med skala",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.6,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "km"
+  },
+  {
+    "id": "7.203",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En ritning/karta har skalan 1:25000. En sträcka är 6 cm på bilden. Hur lång är sträckan i verkligheten? Svara i km.</p>",
+    "s": "<p><strong>Steg 1:</strong> Skalan 1:25000 betyder att 1 cm på bilden motsvarar 25000 cm i verkligheten.</p><p>\\(6\\cdot 25000=150000\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till km: 1,5 km.</p><p><strong>Svar:</strong> 1,5 km.</p>",
+    "familj": "Beräkna med skala",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "km"
+  },
+  {
+    "id": "7.204",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En ritning/karta har skalan 1:100000. En sträcka är 4,5 cm på bilden. Hur lång är sträckan i verkligheten? Svara i km.</p>",
+    "s": "<p><strong>Steg 1:</strong> Skalan 1:100000 betyder att 1 cm på bilden motsvarar 100000 cm i verkligheten.</p><p>\\(4,5\\cdot 100000=450000\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till km: 4,5 km.</p><p><strong>Svar:</strong> 4,5 km.</p>",
+    "familj": "Beräkna med skala",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.5,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "km"
+  },
+  {
+    "id": "7.205",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En ritning/karta har skalan 1:20000. En sträcka är 7,5 cm på bilden. Hur lång är sträckan i verkligheten? Svara i km.</p>",
+    "s": "<p><strong>Steg 1:</strong> Skalan 1:20000 betyder att 1 cm på bilden motsvarar 20000 cm i verkligheten.</p><p>\\(7,5\\cdot 20000=150000\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till km: 1,5 km.</p><p><strong>Svar:</strong> 1,5 km.</p>",
+    "familj": "Beräkna med skala",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "km"
+  },
+  {
+    "id": "7.206",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En ritning/karta har skalan 1:50. En sträcka är 8 cm på bilden. Hur lång är sträckan i verkligheten? Svara i m.</p>",
+    "s": "<p><strong>Steg 1:</strong> Skalan 1:50 betyder att 1 cm på bilden motsvarar 50 cm i verkligheten.</p><p>\\(8\\cdot 50=400\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till m: 4 m.</p><p><strong>Svar:</strong> 4 m.</p>",
+    "familj": "Beräkna med skala",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "7.207",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En ritning/karta har skalan 1:100. En sträcka är 12 cm på bilden. Hur lång är sträckan i verkligheten? Svara i m.</p>",
+    "s": "<p><strong>Steg 1:</strong> Skalan 1:100 betyder att 1 cm på bilden motsvarar 100 cm i verkligheten.</p><p>\\(12\\cdot 100=1200\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till m: 12 m.</p><p><strong>Svar:</strong> 12 m.</p>",
+    "familj": "Beräkna med skala",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.0,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "7.208",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En ritning/karta har skalan 1:20. En sträcka är 15 cm på bilden. Hur lång är sträckan i verkligheten? Svara i m.</p>",
+    "s": "<p><strong>Steg 1:</strong> Skalan 1:20 betyder att 1 cm på bilden motsvarar 20 cm i verkligheten.</p><p>\\(15\\cdot 20=300\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till m: 3 m.</p><p><strong>Svar:</strong> 3 m.</p>",
+    "familj": "Beräkna med skala",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "7.209",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En ritning/karta har skalan 1:25. En sträcka är 6 cm på bilden. Hur lång är sträckan i verkligheten? Svara i m.</p>",
+    "s": "<p><strong>Steg 1:</strong> Skalan 1:25 betyder att 1 cm på bilden motsvarar 25 cm i verkligheten.</p><p>\\(6\\cdot 25=150\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till m: 1,5 m.</p><p><strong>Svar:</strong> 1,5 m.</p>",
+    "familj": "Beräkna med skala",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "7.210",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två likformiga figurer har längdskalfaktorn 2 från den mindre till den större. Med vilken faktor förändras arean?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Arean förändras med kvadraten på längdskalfaktorn.</p><p>\\(2^2=4\\).</p><p><strong>Svar:</strong> arean multipliceras med 4.</p>",
+    "familj": "Area och skalfaktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.211",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två likformiga figurer har längdskalfaktorn 3 från den mindre till den större. Med vilken faktor förändras arean?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Arean förändras med kvadraten på längdskalfaktorn.</p><p>\\(3^2=9\\).</p><p><strong>Svar:</strong> arean multipliceras med 9.</p>",
+    "familj": "Area och skalfaktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.212",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två likformiga figurer har längdskalfaktorn 0,5 från den mindre till den större. Med vilken faktor förändras arean?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Arean förändras med kvadraten på längdskalfaktorn.</p><p>\\(0,5^2=0,25\\).</p><p><strong>Svar:</strong> arean multipliceras med 0,25.</p>",
+    "familj": "Area och skalfaktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.25,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.213",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två likformiga figurer har längdskalfaktorn 1,5 från den mindre till den större. Med vilken faktor förändras arean?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Arean förändras med kvadraten på längdskalfaktorn.</p><p>\\(1,5^2=2,25\\).</p><p><strong>Svar:</strong> arean multipliceras med 2,25.</p>",
+    "familj": "Area och skalfaktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.25,
+    "tolerans": 1e-06,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "7.102",
@@ -55440,7 +58090,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55463,7 +58113,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55486,7 +58136,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55509,7 +58159,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55532,7 +58182,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55555,7 +58205,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55578,7 +58228,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55601,7 +58251,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55624,7 +58274,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55647,7 +58297,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55785,7 +58435,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55808,7 +58458,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55831,7 +58481,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 255,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55854,7 +58504,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3.8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55877,7 +58527,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55992,7 +58642,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 126,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -56015,7 +58665,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -56038,7 +58688,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -56061,7 +58711,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 140,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"

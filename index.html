@@ -70,7 +70,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
 
 <!-- KaTeX: snygg matematisk rendering av \( ... \) och \[ ... \] -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
@@ -128,9 +128,14 @@
   --badSoft:rgba(176,63,66,.10);
   --e1:0 1px 2px rgba(11,33,51,.05),0 10px 26px -14px rgba(11,33,51,.22);
   --e2:0 2px 6px rgba(11,33,51,.07),0 40px 80px -30px rgba(11,33,51,.34);
+  /* Två familjer, inte tre. Instrument Sans bär gränssnittet, Atkinson
+     Hyperlegible bär uppgiftstexten där 6/9 och I/l måste gå att skilja
+     åt. IBM Plex Mono är struken: den användes dels för att få siffror
+     att stå still i kolumner, vilket font-variant-numeric löser utan en
+     extra nedladdning, dels till versala spärrade etiketter, som var
+     den enskilt största mallkänslan i gränssnittet. */
   --ui:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --read:"Atkinson Hyperlegible",system-ui,sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,monospace;
   --ease:cubic-bezier(.2,.8,.2,1);
   --brand:#1A66C2;
   --korn:.022;
@@ -354,7 +359,7 @@ a{color:inherit}
 .pill .rname:before{content:"·";margin-right:6px;opacity:.5}
 .pill .rankdot{
   width:20px;height:20px;border-radius:7px;display:grid;place-items:center;font-size:9px;font-weight:700;
-  color:#3b2c07;background:linear-gradient(160deg,#f0d296,#c79a3c);font-family:var(--mono);
+  color:#3b2c07;background:linear-gradient(160deg,#f0d296,#c79a3c);letter-spacing:0;
 }
 .flame{color:var(--gold);font-weight:700}
 .konto{
@@ -373,11 +378,6 @@ a{color:inherit}
 .kontomeny small{display:block;margin:5px 0 13px;font-size:12px;color:var(--ink3);line-height:1.45}
 
 /* ---------- typografi ---------- */
-.eyebrow{
-  display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:10px;font-weight:600;
-  letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);
-}
-.eyebrow:before{content:"";width:18px;height:1.5px;background:var(--acc);border-radius:9px;opacity:.75}
 h1,h2,h3{letter-spacing:-.04em;margin:0}
 .sec{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:0 0 14px}
 .sec h2{font-size:15px;font-weight:600;letter-spacing:-.02em;color:var(--ink2)}
@@ -419,7 +419,7 @@ h1,h2,h3{letter-spacing:-.04em;margin:0}
 html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-color:transparent}
 .gate-eller{
   display:flex;align-items:center;gap:12px;margin:16px 0;
-  font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink3);
+  font-size:12.5px;color:var(--ink3);
 }
 .gate-eller:before,.gate-eller:after{content:"";flex:1;height:1px;background:var(--hair)}
 .gate-note{
@@ -429,7 +429,7 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 
 /* ---------- hem ---------- */
 .hero{padding:56px 4px 34px;max-width:760px}
-.hero h1{font-size:clamp(34px,5.4vw,58px);line-height:1.02;letter-spacing:-.05em;margin:18px 0 0}
+.hero h1{font-size:clamp(34px,5.4vw,58px);line-height:1.02;letter-spacing:-.05em;margin:0}
 .hero h1 em{font-style:normal;color:var(--ink3)}
 .hero p{margin:16px 0 0;color:var(--ink2);font-family:var(--read);font-size:16.5px;line-height:1.55;max-width:520px;letter-spacing:0}
 .course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding-bottom:60px}
@@ -447,10 +447,10 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .course-card:hover:before{opacity:.9}
 .course-card:active{transform:translateY(-1px) scale(.995)}
 .course-card>*{position:relative}
-.mono-tile{
+.kurskod{
   align-self:flex-start;height:48px;min-width:48px;padding:0 16px;border-radius:16px;
   display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;color:#fff;
-  font-family:var(--mono);font-size:13px;font-weight:600;letter-spacing:.01em;
+  font-size:13.5px;font-weight:700;letter-spacing:-.02em;
   box-shadow:0 8px 18px -9px var(--tintStrong),inset 0 1px 0 rgba(255,255,255,.32);
 }
 .course-card h3{font-size:18.5px;line-height:1.15;letter-spacing:-.035em}
@@ -473,7 +473,7 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .tracks{display:flex;gap:6px;flex-wrap:wrap}
 .track{
   padding:8px 14px;border-radius:11px;border:1px solid var(--hair);background:var(--surface);
-  font-size:13px;font-weight:600;font-family:var(--mono);color:var(--ink2);transition:.2s var(--ease);
+  font-size:13px;font-weight:600;color:var(--ink2);transition:.2s var(--ease);
 }
 .track:hover{border-color:var(--hair2)}
 .track.on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
@@ -505,27 +505,27 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 }
 .chapter-head[aria-expanded="true"] .chev{transform:rotate(90deg);color:var(--acc)}
 .chapter-head:hover .chev{color:var(--acc)}
+/* Kapitelnamnet skrivs som ett namn och inte som en systemetikett.
+   Versala spärrade rader lästes som avdelningsskyltar och tog mer
+   uppmärksamhet än områdeskorten under sig. */
 .chapter-head .name{
-  font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;font-weight:600;
+  font-size:13.5px;font-weight:600;letter-spacing:-.02em;
   transition:color .2s ease;
 }
 .chapter-head[aria-expanded="true"] .name{color:var(--ink2)}
 .chapter-head .rule{flex:1;height:1px;background:var(--hair)}
-.chapter-head .n{font-family:var(--mono);font-size:10px;opacity:.75;min-width:14px;text-align:right}
+.chapter-head .n{font-size:11px;opacity:.7;min-width:14px;text-align:right;font-weight:600}
 .kdots{display:flex;gap:4px;transition:opacity .3s ease}
 .chapter.open .kdots{opacity:0}
 .kdots i{width:6px;height:6px;border-radius:50%;background:var(--d);box-shadow:0 0 0 2px var(--bg)}
 .chapter-body{padding:4px 0 2px}
-.chapter-label{
-  font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);
-  margin:0 0 11px 4px;display:flex;align-items:center;gap:10px;font-weight:600;
-}
-.chapter-label:after{content:"";flex:1;height:1px;background:var(--hair)}
-.area-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:12px}
+/* auto-fit i stället för auto-fill: ett kapitel med två områden ska
+   inte lämna en tom tredje spalt och tvinga korten att stå smala. */
+.area-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(238px,1fr));gap:12px}
 .area{
   --tone:#7d93a2;--toneWash:rgba(125,147,162,.10);--toneEdge:rgba(125,147,162,.26);
   --toneDisc:rgba(125,147,162,.12);--toneGlow:rgba(11,33,51,.34);
-  position:relative;overflow:hidden;text-align:left;padding:16px 18px;border-radius:20px;
+  position:relative;overflow:hidden;text-align:left;padding:16px;border-radius:20px;
   border:1px solid var(--toneEdge);
   background:
     linear-gradient(158deg,var(--toneWash) 0%,transparent 62%),
@@ -535,7 +535,7 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
     0 12px 24px -16px var(--toneGlow),
     inset 0 1px 0 var(--specular);
   transition:transform .28s var(--ease),box-shadow .28s var(--ease),border-color .22s ease;
-  display:flex;align-items:center;gap:15px;min-height:88px;
+  display:flex;align-items:center;gap:13px;min-height:88px;
 }
 .area:before{
   content:"";position:absolute;inset:0;pointer-events:none;opacity:.7;transition:opacity .35s ease;
@@ -577,7 +577,10 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .area-ring .pip{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--tone);opacity:.4}
 .area.t-new .ring circle:first-child{stroke-dasharray:0.1 6;stroke-linecap:round;stroke-width:3.4}
 .area-txt{min-width:0;display:flex;flex-direction:column;gap:4px}
-.area strong{font-size:14.5px;font-weight:600;line-height:1.25;letter-spacing:-.02em;overflow-wrap:anywhere}
+/* Långa områdesnamn avstavas i stället för att brytas mitt i ordet.
+   Sidan är lang="sv", så webbläsaren avstavar på svenska. */
+.area strong{font-size:14px;font-weight:600;line-height:1.25;letter-spacing:-.022em;
+  hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}
 .area .state{font-size:11.5px;font-weight:600;letter-spacing:.005em;color:var(--tone)}
 .area.stack{flex-direction:column;align-items:stretch;gap:11px;min-height:96px}
 .area.stack .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
@@ -600,19 +603,19 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   position:absolute;inset:0;display:grid;place-items:center;text-align:center;
   font-size:20px;font-weight:700;letter-spacing:-.05em;
 }
-.ringwrap .num small{display:block;font-family:var(--mono);font-size:8px;font-weight:600;letter-spacing:.12em;color:var(--ink3);text-transform:uppercase;margin-top:1px}
+.ringwrap .num small{display:block;font-size:10px;font-weight:600;letter-spacing:-.01em;color:var(--ink3);margin-top:2px}
 .ring circle{transition:stroke-dashoffset 1.2s var(--ease)}
 .rankname{font-size:17px;font-weight:700;letter-spacing:-.035em}
-.rankmeta{margin-top:3px;font-size:12px;color:var(--ink3);font-family:var(--mono)}
+.rankmeta{margin-top:3px;font-size:12.5px;color:var(--ink3)}
 .rankbar{margin-top:14px;height:5px;border-radius:99px;background:var(--hair);overflow:hidden;position:relative}
 .rankbar i{display:block;height:100%;width:0;border-radius:99px;transition:width 1.2s var(--ease);
   background:linear-gradient(90deg,#c79a3c,var(--gold2));}
-.rankfoot{margin-top:9px;display:flex;justify-content:space-between;font-size:11.5px;color:var(--ink3);font-family:var(--mono)}
+.rankfoot{margin-top:9px;display:flex;justify-content:space-between;font-size:12px;color:var(--ink3)}
 
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
 .tile{padding:12px;border-radius:14px;background:var(--surface2);border:1px solid var(--hair);
   box-shadow:inset 0 1px 0 var(--specular)}
-.tile span{display:block;font-size:10.5px;font-family:var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.tile span{display:block;font-size:12px;color:var(--ink3)}
 .tile strong{display:block;margin-top:5px;font-size:19px;letter-spacing:-.04em}
 
 .badgestrip{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
@@ -647,7 +650,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   border:1px solid rgba(255,255,255,.42);pointer-events:none;
 }
 .badge-row .medal.on:after{inset:3px;border-radius:10px}
-.medal .frac{position:absolute;bottom:5px;font-family:var(--mono);font-size:8px;color:var(--ink3)}
+.medal .frac{position:absolute;bottom:5px;font-size:9.5px;font-weight:600;color:var(--ink3)}
 .medal.on .frac{display:none}
 
 /* Medaljens beskrivning vid hovring, tangentbordsfokus eller tryck. */
@@ -662,7 +665,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .mtip small,.medalinfo small{display:block;margin-top:3px;font-size:11.5px;line-height:1.4;color:var(--ink3);font-family:var(--read);letter-spacing:0}
 .mtip .bar,.medalinfo .bar{display:block;height:3px;border-radius:99px;background:var(--hair);margin-top:9px;overflow:hidden}
 .mtip .bar i,.medalinfo .bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#c79a3c,var(--gold2))}
-.mtip .num,.medalinfo .num{display:block;margin-top:6px;font-family:var(--mono);font-size:10px;color:var(--ink3)}
+.mtip .num,.medalinfo .num{display:block;margin-top:6px;font-size:11.5px;font-weight:600;color:var(--ink3)}
 .mtip .num.done,.medalinfo .num.done{color:var(--gold)}
 
 /* På pekskärm visas medaljens text i en ruta under remsan i stället
@@ -707,7 +710,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .kaptop .lbl{font-size:11.5px;font-weight:600}
 .kaptop .lbl.s-good{color:var(--gold)}.kaptop .lbl.s-mid{color:var(--accInk)}
 .kaptop .lbl.s-low{color:var(--amber)}.kaptop .lbl.s-new{color:var(--ink3)}
-.kaptop .num{font-family:var(--mono);font-size:11.5px;color:var(--ink3);min-width:34px;text-align:right}
+.kaptop .num{font-size:12px;font-weight:600;color:var(--ink3);min-width:36px;text-align:right}
 .kapbar{display:flex;gap:4px;height:9px;margin-top:11px}
 .kapbar span{border-radius:99px;background:var(--hair);overflow:hidden;box-shadow:inset 0 1px 2px rgba(11,33,51,.10)}
 .kapbar span i{display:block;height:100%;width:0;border-radius:99px;transition:width 1.2s var(--ease)}
@@ -715,8 +718,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .kapbar .z1 i{background:var(--lvl1)}
 .kapbar .z2 i{background:var(--lvl2)}
 .kapbar .z3 i{background:var(--lvl3)}
-.kaplegend{display:flex;gap:14px;font-family:var(--mono);font-size:10px;letter-spacing:.09em;
-  text-transform:uppercase;color:var(--ink3);margin-top:2px}
+.kaplegend{display:flex;gap:14px;font-size:11.5px;color:var(--ink3);margin-top:2px}
 .kaplegend i{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:1px}
 .kaplegend .l1 i{background:var(--lvl1)}.kaplegend .l2 i{background:var(--lvl2)}.kaplegend .l3 i{background:var(--lvl3)}
 .redo{margin-top:6px;font-family:var(--read);font-size:14.5px;line-height:1.5;color:var(--ink2);letter-spacing:0}
@@ -733,7 +735,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .row .dot.warn{background:var(--amber)}
 .row .dot.good{background:var(--good)}
 .row .name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500}
-.row .val{font-family:var(--mono);font-size:11px;color:var(--ink3)}
+.row .val{font-size:12px;font-weight:600;color:var(--ink3)}
 .empty{padding:16px;border:1px dashed var(--hair2);border-radius:14px;color:var(--ink3);font-size:13px;font-family:var(--read)}
 
 /* ---------- PT / coach ---------- */
@@ -752,7 +754,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   box-shadow:0 8px 18px -9px rgba(11,33,51,.55),inset 0 1px 0 rgba(255,255,255,.35);
 }
 .coach .body{flex:1;min-width:220px;position:relative}
-.coach .lbl{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.coach .lbl{font-size:12px;color:var(--ink3)}
 .coach .msg{margin-top:5px;font-size:15px;line-height:1.45;font-family:var(--read);letter-spacing:0}
 .coach .msg b{font-weight:700;color:var(--ink)}
 .coach .act{position:relative;display:flex;gap:8px;flex-wrap:wrap}
@@ -784,7 +786,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .tag.lv2 .pips b{background:var(--lvl2)}
 .tag.lv3 .pips b{background:var(--lvl3)}
 .tag.lv3{color:var(--ink);font-weight:700}
-.tid{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--ink3)}
+.tid{margin-left:auto;font-size:11px;color:var(--ink3)}
 .verktygsikoner{display:inline-flex;align-items:center;gap:5px;flex:none}
 .verktygsikon{
   width:22px;height:22px;border-radius:7px;display:inline-grid;place-items:center;
@@ -813,7 +815,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .katex{font-size:1.07em}
 .katex-display{overflow-x:auto;overflow-y:hidden;padding:4px 2px;margin:1em 0}
 .azone{padding:20px;border-top:1px solid var(--hair);background:var(--surface2)}
-.azone h3{font-size:12px;font-family:var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);margin-bottom:12px;font-weight:600}
+.azone h3{font-size:13px;color:var(--ink3);margin-bottom:12px;font-weight:600;letter-spacing:-.01em}
 .ainputs{display:grid;gap:10px}
 .apart{display:grid;gap:5px;transition:opacity .3s ease}
 .apart.upcoming{opacity:.38}
@@ -833,25 +835,22 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   font-family:var(--read);font-size:15px;line-height:1.55;letter-spacing:0;
   animation:rise .3s var(--ease) both;
 }
-.delfacit .lbl{
-  font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;
-  color:var(--ink3);font-weight:600;
-}
+.delfacit .lbl{font-size:12.5px;color:var(--ink3);font-weight:600}
 .delfacit-txt{margin-top:9px}
 .delfacit .aacts{margin-top:12px}
 .delfacit svg{display:block;max-width:100%;height:auto;margin:14px auto}
 @media(max-width:640px){.delfacit,.corr{margin-left:0}}
 .corr b{color:var(--ink2);font-weight:700}
 .partline{
-  font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);
-  font-weight:600;margin-bottom:11px;display:flex;align-items:center;gap:8px;
+  font-size:12.5px;color:var(--ink3);font-weight:600;
+  margin-bottom:11px;display:flex;align-items:center;gap:8px;
 }
 .partline i{flex:none;width:6px;height:6px;border-radius:50%;background:var(--hair2)}
 .partline i.done{background:var(--good)}
 .partline i.miss{background:var(--bad)}
 .partline i.now{background:var(--acc);box-shadow:0 0 0 3px var(--accSoft)}
 .aline{display:flex;align-items:center;gap:10px}
-.aline label{width:20px;color:var(--ink3);font-family:var(--mono);font-size:12px}
+.aline label{width:20px;color:var(--ink3);font-size:12.5px;font-weight:600}
 .aline input,.aline textarea{
   flex:1;min-width:0;border:1px solid var(--hair2);background:var(--surface);border-radius:13px;
   padding:13px 14px;font-family:var(--read);font-size:16.5px;letter-spacing:0;
@@ -896,7 +895,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .result strong{display:block;font-size:15px}
 .result small{display:block;margin-top:2px;opacity:.85;font-size:13px}
 .xpchip{
-  font-family:var(--mono);font-size:12px;font-weight:600;padding:6px 11px;border-radius:99px;
+  font-size:12.5px;font-weight:700;padding:6px 11px;border-radius:99px;
   background:linear-gradient(160deg,#f3d99f,#c99b3b);color:#402f08;white-space:nowrap;
   box-shadow:inset 0 1px 0 rgba(255,255,255,.5);
 }
@@ -904,7 +903,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   margin-top:12px;padding:20px;border:1px solid var(--hair);border-radius:18px;background:var(--surface);
   font-family:var(--read);font-size:16px;line-height:1.62;letter-spacing:0;animation:rise .35s var(--ease) both;
 }
-.sol .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);font-weight:600}
+.sol .lbl{font-size:12.5px;color:var(--ink3);font-weight:600}
 .sol svg{display:block;max-width:100%;height:auto;margin:18px auto}
 
 /* ---------- passrapport ---------- */
@@ -927,7 +926,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .rekord .marke{width:19px}
 .rekord b{display:block;font-size:14px;letter-spacing:-.02em}
-.rekord small{display:block;margin-top:2px;font-size:12.5px;color:var(--ink3);font-family:var(--mono)}
+.rekord small{display:block;margin-top:2px;font-size:12.5px;color:var(--ink3)}
 .rekord.ny{
   border-color:transparent;
   background:linear-gradient(140deg,var(--goldSoft),var(--surface2));
@@ -973,9 +972,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   content:"";position:absolute;inset:9px;border-radius:50%;border:1.5px solid rgba(255,255,255,.45);
 }
 .cheer-medal .marke{width:38px;max-width:none;stroke-width:1.7}
-.cheer-label{
-  font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;
-}
+.cheer-label{font-size:12.5px;color:var(--gold);font-weight:600;letter-spacing:-.01em}
 .cheer-card h2{margin:9px 0 0;font-size:25px;letter-spacing:-.045em}
 .cheer-card p{margin:8px 0 0;color:var(--ink2);font-family:var(--read);font-size:14.5px;letter-spacing:0}
 .cheer-card .btn{margin-top:22px;width:100%}
@@ -1887,7 +1884,6 @@ function renderHome(){
   app.innerHTML=topbar()+`
   <main class="shell view">
     <section class="hero">
-      <div class="eyebrow">Matematik &amp; fysik</div>
       <h1>Träna på rätt saker.<br><em>På rätt nivå.</em></h1>
       <p>Välj kurs, välj område och börja. Nivån ställer in sig efter hur det går för dig.</p>
     </section>
@@ -1896,7 +1892,7 @@ function renderHome(){
         const c=COURSES[id];
         return `<button class="course-card" id="course-${id}" onclick="selectCourse('${id}')"
             style="--tint:${c.tint}22;--tintStrong:${c.tint}">
-          <span class="mono-tile" style="background:linear-gradient(160deg,${c.tint},${c.tint}bb)">${esc(c.code)}</span>
+          <span class="kurskod" style="background:linear-gradient(160deg,${c.tint},${c.tint}bb)">${esc(c.code)}</span>
           <span>
             <h3>${esc(c.name)}</h3>
             <span class="sub">${esc(c.subject)}</span>

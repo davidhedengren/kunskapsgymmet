@@ -1,8 +1,3 @@
-/* Kunskapsgymmet – Ma2, logaritm-QA 2026-09-07
-   Bygger på versionen med rutinuppdelning.
-   Explicit självrättning har korrigerats för logaritm- och exponentialuppgifter.
-*/
-
 window.BANKMA2 = [
   {
     "id": "1.01",
@@ -39466,5 +39461,4278 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.281",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=3x-4\\). Bestäm \\(y\\) när \\(x=5\\).</p>",
+    "s": "<p>Vi sätter in \\(x=5\\): \\(y=3\\cdot 5-4=11\\).</p><p><strong>Svar: 11</strong></p>",
+    "familj": "Tolka och använda räta linjens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.282",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=-2x+7\\). Bestäm \\(y\\) när \\(x=-3\\).</p>",
+    "s": "<p>Vi sätter in \\(x=-3\\): \\(y=-2\\cdot -3+7=13\\).</p><p><strong>Svar: 13</strong></p>",
+    "familj": "Tolka och använda räta linjens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.283",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=4x+1\\). Bestäm \\(y\\) när \\(x=-2\\).</p>",
+    "s": "<p>Vi sätter in \\(x=-2\\): \\(y=4\\cdot -2+1=-7\\).</p><p><strong>Svar: -7</strong></p>",
+    "familj": "Tolka och använda räta linjens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.284",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=0{,}5x-3\\). Bestäm \\(y\\) när \\(x=8\\).</p>",
+    "s": "<p>Vi sätter in \\(x=8\\): \\(y=0{,}5\\cdot 8-3=1\\).</p><p><strong>Svar: 1</strong></p>",
+    "familj": "Tolka och använda räta linjens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.285",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=-1{,}5x+6\\). Bestäm \\(y\\) när \\(x=4\\).</p>",
+    "s": "<p>Vi sätter in \\(x=4\\): \\(y=-1{,}5\\cdot 4+6=0\\).</p><p><strong>Svar: 0</strong></p>",
+    "familj": "Tolka och använda räta linjens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.286",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=2{,}5x-5\\). Bestäm \\(y\\) när \\(x=-1\\).</p>",
+    "s": "<p>Vi sätter in \\(x=-1\\): \\(y=2{,}5\\cdot -1-5=-7.5\\).</p><p><strong>Svar: -7.5</strong></p>",
+    "familj": "Tolka och använda räta linjens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7.5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.287",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=2x-8\\). Bestäm linjens skärning med x-axeln, alltså x-värdet.</p>",
+    "s": "<p>På x-axeln är \\(y=0\\). Lös \\(0=2x-8\\), vilket ger \\(x=4\\).</p><p><strong>Svar: 4</strong></p>",
+    "familj": "Bestämma skärningspunkter med koordinataxlar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.288",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=-3x+12\\). Bestäm linjens skärning med x-axeln, alltså x-värdet.</p>",
+    "s": "<p>På x-axeln är \\(y=0\\). Lös \\(0=-3x+12\\), vilket ger \\(x=4\\).</p><p><strong>Svar: 4</strong></p>",
+    "familj": "Bestämma skärningspunkter med koordinataxlar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.289",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=5x+15\\). Bestäm linjens skärning med x-axeln, alltså x-värdet.</p>",
+    "s": "<p>På x-axeln är \\(y=0\\). Lös \\(0=5x+15\\), vilket ger \\(x=-3\\).</p><p><strong>Svar: -3</strong></p>",
+    "familj": "Bestämma skärningspunkter med koordinataxlar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.290",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=-4x-20\\). Bestäm linjens skärning med x-axeln, alltså x-värdet.</p>",
+    "s": "<p>På x-axeln är \\(y=0\\). Lös \\(0=-4x-20\\), vilket ger \\(x=-5\\).</p><p><strong>Svar: -5</strong></p>",
+    "familj": "Bestämma skärningspunkter med koordinataxlar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.291",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=0{,}5x+6\\). Bestäm linjens skärning med x-axeln, alltså x-värdet.</p>",
+    "s": "<p>På x-axeln är \\(y=0\\). Lös \\(0=0{,}5x+6\\), vilket ger \\(x=-12\\).</p><p><strong>Svar: -12</strong></p>",
+    "familj": "Bestämma skärningspunkter med koordinataxlar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.292",
+    "kap": 1,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Linjen har ekvationen \\(y=2{,}5x-10\\). Bestäm linjens skärning med x-axeln, alltså x-värdet.</p>",
+    "s": "<p>På x-axeln är \\(y=0\\). Lös \\(0=2{,}5x-10\\), vilket ger \\(x=4\\).</p><p><strong>Svar: 4</strong></p>",
+    "familj": "Bestämma skärningspunkter med koordinataxlar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.293",
+    "kap": 1,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En linjär funktion går genom punkterna \\((0,3)\\) och \\((2,9)\\). Bestäm funktionsuttrycket.</p>",
+    "s": "<p>Riktningskoefficienten är \\(k=(9-3)/(2-0)=3\\). Därefter fås \\(m=3\\).</p><p><strong>Svar: \\(f(x)=3x+3\\)</strong></p>",
+    "familj": "Bestämma linjär funktion från två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "f(x)=3x+3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.294",
+    "kap": 1,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En linjär funktion går genom punkterna \\((1,5)\\) och \\((4,14)\\). Bestäm funktionsuttrycket.</p>",
+    "s": "<p>Riktningskoefficienten är \\(k=(14-5)/(4-1)=3\\). Därefter fås \\(m=2\\).</p><p><strong>Svar: \\(f(x)=3x+2\\)</strong></p>",
+    "familj": "Bestämma linjär funktion från två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "f(x)=3x+2",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.295",
+    "kap": 1,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En linjär funktion går genom punkterna \\((-2,7)\\) och \\((2,-1)\\). Bestäm funktionsuttrycket.</p>",
+    "s": "<p>Riktningskoefficienten är \\(k=(-1-7)/(2--2)=-2\\). Därefter fås \\(m=3\\).</p><p><strong>Svar: \\(f(x)=-2x+3\\)</strong></p>",
+    "familj": "Bestämma linjär funktion från två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "f(x)=-2x+3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.296",
+    "kap": 1,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En linjär funktion går genom punkterna \\((3,-2)\\) och \\((5,4)\\). Bestäm funktionsuttrycket.</p>",
+    "s": "<p>Riktningskoefficienten är \\(k=(4--2)/(5-3)=3\\). Därefter fås \\(m=-11\\).</p><p><strong>Svar: \\(f(x)=3x-11\\)</strong></p>",
+    "familj": "Bestämma linjär funktion från två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "f(x)=3x-11",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.297",
+    "kap": 1,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En linjär funktion går genom punkterna \\((-1,-5)\\) och \\((3,7)\\). Bestäm funktionsuttrycket.</p>",
+    "s": "<p>Riktningskoefficienten är \\(k=(7--5)/(3--1)=3\\). Därefter fås \\(m=-2\\).</p><p><strong>Svar: \\(f(x)=3x-2\\)</strong></p>",
+    "familj": "Bestämma linjär funktion från två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "f(x)=3x-2",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.298",
+    "kap": 1,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En linjär funktion har riktningskoefficienten \\(4\\) och går genom punkten \\((2,11)\\). Bestäm funktionen.</p>",
+    "s": "<p>Sätt in punkten i \\(y=kx+m\\): \\(11=4\\cdot2+m\\), så \\(m=3\\).</p><p><strong>Svar: \\(f(x)=4x+3\\)</strong></p>",
+    "familj": "Bestämma linjär funktion från villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "f(x)=4x+3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.299",
+    "kap": 1,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En linjär funktion har riktningskoefficienten \\(-2\\) och går genom punkten \\((3,1)\\). Bestäm funktionen.</p>",
+    "s": "<p>Sätt in punkten i \\(y=kx+m\\): \\(1=-2\\cdot3+m\\), så \\(m=7\\).</p><p><strong>Svar: \\(f(x)=-2x+7\\)</strong></p>",
+    "familj": "Bestämma linjär funktion från villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "f(x)=-2x+7",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.300",
+    "kap": 1,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En linjär funktion har riktningskoefficienten \\(0{,}5\\) och går genom punkten \\((6,7)\\). Bestäm funktionen.</p>",
+    "s": "<p>Sätt in punkten i \\(y=kx+m\\): \\(7=0{,}5\\cdot6+m\\), så \\(m=4\\).</p><p><strong>Svar: \\(f(x)=0{,}5x+4\\)</strong></p>",
+    "familj": "Bestämma linjär funktion från villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "f(x)=0.5x+4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.301",
+    "kap": 1,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En linjär funktion har riktningskoefficienten \\(-3\\) och går genom punkten \\((-2,10)\\). Bestäm funktionen.</p>",
+    "s": "<p>Sätt in punkten i \\(y=kx+m\\): \\(10=-3\\cdot-2+m\\), så \\(m=4\\).</p><p><strong>Svar: \\(f(x)=-3x+4\\)</strong></p>",
+    "familj": "Bestämma linjär funktion från villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "f(x)=-3x+4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.302",
+    "kap": 1,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En linjär funktion har riktningskoefficienten \\(2{,}5\\) och går genom punkten \\((4,13)\\). Bestäm funktionen.</p>",
+    "s": "<p>Sätt in punkten i \\(y=kx+m\\): \\(13=2{,}5\\cdot4+m\\), så \\(m=3\\).</p><p><strong>Svar: \\(f(x)=2{,}5x+3\\)</strong></p>",
+    "familj": "Bestämma linjär funktion från villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "f(x)=2.5x+3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.303",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationssystemet:</p><p>\\(1x+1y=8\\)<br>\\(1x-1y=2\\)</p>",
+    "s": "<p>Med substitutions- eller additionsmetoden fås \\(x=5\\) och \\(y=3\\).</p><p><strong>Svar: \\((x,y)=(5,3)\\)</strong></p>",
+    "familj": "Lösa linjära ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      3
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
+  },
+  {
+    "id": "1.304",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationssystemet:</p><p>\\(2x+1y=11\\)<br>\\(1x-1y=1\\)</p>",
+    "s": "<p>Med substitutions- eller additionsmetoden fås \\(x=4\\) och \\(y=3\\).</p><p><strong>Svar: \\((x,y)=(4,3)\\)</strong></p>",
+    "familj": "Lösa linjära ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      3
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
+  },
+  {
+    "id": "1.305",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationssystemet:</p><p>\\(3x-1y=7\\)<br>\\(1x+1y=5\\)</p>",
+    "s": "<p>Med substitutions- eller additionsmetoden fås \\(x=3\\) och \\(y=2\\).</p><p><strong>Svar: \\((x,y)=(3,2)\\)</strong></p>",
+    "familj": "Lösa linjära ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
+  },
+  {
+    "id": "1.306",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationssystemet:</p><p>\\(2x-1y=4\\)<br>\\(1x+2y=7\\)</p>",
+    "s": "<p>Med substitutions- eller additionsmetoden fås \\(x=3\\) och \\(y=2\\).</p><p><strong>Svar: \\((x,y)=(3,2)\\)</strong></p>",
+    "familj": "Lösa linjära ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
+  },
+  {
+    "id": "1.307",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationssystemet:</p><p>\\(1x+2y=10\\)<br>\\(2x-1y=5\\)</p>",
+    "s": "<p>Med substitutions- eller additionsmetoden fås \\(x=4\\) och \\(y=3\\).</p><p><strong>Svar: \\((x,y)=(4,3)\\)</strong></p>",
+    "familj": "Lösa linjära ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      3
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
+  },
+  {
+    "id": "1.308",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationssystemet:</p><p>\\(3x+2y=16\\)<br>\\(1x-1y=2\\)</p>",
+    "s": "<p>Med substitutions- eller additionsmetoden fås \\(x=4\\) och \\(y=2\\).</p><p><strong>Svar: \\((x,y)=(4,2)\\)</strong></p>",
+    "familj": "Lösa linjära ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      2
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
+  },
+  {
+    "id": "1.309",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Är \\((x,y)=(3,2)\\) en lösning till systemet \\(2x+3y=12\\), \\(1x-1y=1\\)? Svara ja eller nej.</p>",
+    "s": "<p>Insättning i båda ekvationerna visar att svaret är <strong>ja</strong>.</p>",
+    "familj": "Kontrollera lösning till ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "ja",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "1.310",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Är \\((x,y)=(3,2)\\) en lösning till systemet \\(1x+2y=7\\), \\(3x-1y=7\\)? Svara ja eller nej.</p>",
+    "s": "<p>Insättning i båda ekvationerna visar att svaret är <strong>ja</strong>.</p>",
+    "familj": "Kontrollera lösning till ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "ja",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "1.311",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Är \\((x,y)=(3,1)\\) en lösning till systemet \\(2x-1y=4\\), \\(1x+1y=5\\)? Svara ja eller nej.</p>",
+    "s": "<p>Insättning i båda ekvationerna visar att svaret är <strong>nej</strong>.</p>",
+    "familj": "Kontrollera lösning till ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "nej",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "1.312",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Är \\((x,y)=(1,3)\\) en lösning till systemet \\(-1x+2y=5\\), \\(2x+1y=4\\)? Svara ja eller nej.</p>",
+    "s": "<p>Insättning i båda ekvationerna visar att svaret är <strong>nej</strong>.</p>",
+    "familj": "Kontrollera lösning till ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "nej",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "1.313",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Är \\((x,y)=(3,1)\\) en lösning till systemet \\(3x+1y=10\\), \\(1x-2y=-1\\)? Svara ja eller nej.</p>",
+    "s": "<p>Insättning i båda ekvationerna visar att svaret är <strong>nej</strong>.</p>",
+    "familj": "Kontrollera lösning till ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "nej",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "1.314",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Är \\((x,y)=(2,3)\\) en lösning till systemet \\(2x+5y=19\\), \\(3x-1y=7\\)? Svara ja eller nej.</p>",
+    "s": "<p>Insättning i båda ekvationerna visar att svaret är <strong>nej</strong>.</p>",
+    "familj": "Kontrollera lösning till ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "nej",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "2.590",
+    "kap": 2,
+    "omr": "samband_roter_koefficienter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(2\\) och \\(5\\). Bestäm \\(p\\).</p>",
+    "s": "<p>Rötternas summa är \\(-p\\). Alltså \\(-p=7\\), så \\(p=-7\\).</p><p><strong>Svar: -7</strong></p>",
+    "familj": "Bestämma koefficienter från en andragradsekvations rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.591",
+    "kap": 2,
+    "omr": "samband_roter_koefficienter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(2\\) och \\(5\\). Bestäm \\(q\\).</p>",
+    "s": "<p>Rötternas produkt är \\(q\\). Därför \\(q=2\\cdot 5=10\\).</p><p><strong>Svar: 10</strong></p>",
+    "familj": "Bestämma koefficienter från en andragradsekvations rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.592",
+    "kap": 2,
+    "omr": "samband_roter_koefficienter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(-3\\) och \\(4\\). Bestäm \\(p\\).</p>",
+    "s": "<p>Rötternas summa är \\(-p\\). Alltså \\(-p=1\\), så \\(p=-1\\).</p><p><strong>Svar: -1</strong></p>",
+    "familj": "Bestämma koefficienter från en andragradsekvations rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.593",
+    "kap": 2,
+    "omr": "samband_roter_koefficienter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(-3\\) och \\(4\\). Bestäm \\(q\\).</p>",
+    "s": "<p>Rötternas produkt är \\(q\\). Därför \\(q=-3\\cdot 4=-12\\).</p><p><strong>Svar: -12</strong></p>",
+    "familj": "Bestämma koefficienter från en andragradsekvations rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.594",
+    "kap": 2,
+    "omr": "samband_roter_koefficienter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(-2\\) och \\(-7\\). Bestäm \\(p\\).</p>",
+    "s": "<p>Rötternas summa är \\(-p\\). Alltså \\(-p=-9\\), så \\(p=9\\).</p><p><strong>Svar: 9</strong></p>",
+    "familj": "Bestämma koefficienter från en andragradsekvations rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.595",
+    "kap": 2,
+    "omr": "samband_roter_koefficienter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(-2\\) och \\(-7\\). Bestäm \\(q\\).</p>",
+    "s": "<p>Rötternas produkt är \\(q\\). Därför \\(q=-2\\cdot -7=14\\).</p><p><strong>Svar: 14</strong></p>",
+    "familj": "Bestämma koefficienter från en andragradsekvations rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.596",
+    "kap": 2,
+    "omr": "samband_roter_koefficienter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(1\\) och \\(6\\). Bestäm \\(p\\).</p>",
+    "s": "<p>Rötternas summa är \\(-p\\). Alltså \\(-p=7\\), så \\(p=-7\\).</p><p><strong>Svar: -7</strong></p>",
+    "familj": "Bestämma koefficienter från en andragradsekvations rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.597",
+    "kap": 2,
+    "omr": "samband_roter_koefficienter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(1\\) och \\(6\\). Bestäm \\(q\\).</p>",
+    "s": "<p>Rötternas produkt är \\(q\\). Därför \\(q=1\\cdot 6=6\\).</p><p><strong>Svar: 6</strong></p>",
+    "familj": "Bestämma koefficienter från en andragradsekvations rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.598",
+    "kap": 2,
+    "omr": "samband_roter_koefficienter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(-4\\) och \\(3\\). Bestäm \\(p\\).</p>",
+    "s": "<p>Rötternas summa är \\(-p\\). Alltså \\(-p=-1\\), så \\(p=1\\).</p><p><strong>Svar: 1</strong></p>",
+    "familj": "Bestämma koefficienter från en andragradsekvations rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.599",
+    "kap": 2,
+    "omr": "samband_roter_koefficienter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(-4\\) och \\(3\\). Bestäm \\(q\\).</p>",
+    "s": "<p>Rötternas produkt är \\(q\\). Därför \\(q=-4\\cdot 3=-12\\).</p><p><strong>Svar: -12</strong></p>",
+    "familj": "Bestämma koefficienter från en andragradsekvations rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.600",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös ekvationen \\((x-3)^2=16\\).</p>",
+    "s": "<p>Ta kvadratroten: \\(x-3=\\pm4\\). Därför blir lösningarna \\(x=-1\\) och \\(x=7\\).</p>",
+    "familj": "Lösa sammansatta andragradsekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      7
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "lösningsmängd"
+  },
+  {
+    "id": "2.601",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös ekvationen \\((x--2)^2=25\\).</p>",
+    "s": "<p>Ta kvadratroten: \\(x--2=\\pm5\\). Därför blir lösningarna \\(x=-7\\) och \\(x=3\\).</p>",
+    "familj": "Lösa sammansatta andragradsekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -7,
+      3
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "lösningsmängd"
+  },
+  {
+    "id": "2.602",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös ekvationen \\((x-5)^2=9\\).</p>",
+    "s": "<p>Ta kvadratroten: \\(x-5=\\pm3\\). Därför blir lösningarna \\(x=2\\) och \\(x=8\\).</p>",
+    "familj": "Lösa sammansatta andragradsekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      8
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "lösningsmängd"
+  },
+  {
+    "id": "2.603",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös ekvationen \\((x--4)^2=36\\).</p>",
+    "s": "<p>Ta kvadratroten: \\(x--4=\\pm6\\). Därför blir lösningarna \\(x=-10\\) och \\(x=2\\).</p>",
+    "familj": "Lösa sammansatta andragradsekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -10,
+      2
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "lösningsmängd"
+  },
+  {
+    "id": "2.604",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös ekvationen \\((x-1)^2=49\\).</p>",
+    "s": "<p>Ta kvadratroten: \\(x-1=\\pm7\\). Därför blir lösningarna \\(x=-6\\) och \\(x=8\\).</p>",
+    "familj": "Lösa sammansatta andragradsekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -6,
+      8
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "lösningsmängd"
+  },
+  {
+    "id": "2.605",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många reella lösningar har ekvationen \\((x-2)^2=9\\)?</p>",
+    "s": "<p>Eftersom högerledet är 9 får ekvationen <strong>2</strong> reella lösningar.</p>",
+    "familj": "Lösa sammansatta andragradsekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "heltal",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "2.606",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många reella lösningar har ekvationen \\((x--1)^2=4\\)?</p>",
+    "s": "<p>Eftersom högerledet är 4 får ekvationen <strong>2</strong> reella lösningar.</p>",
+    "familj": "Lösa sammansatta andragradsekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "heltal",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "2.607",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många reella lösningar har ekvationen \\((x-4)^2=0\\)?</p>",
+    "s": "<p>Eftersom högerledet är 0 får ekvationen <strong>1</strong> reella lösning.</p>",
+    "familj": "Lösa sammansatta andragradsekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "heltal",
+    "rättSvar": 1,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "2.608",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många reella lösningar har ekvationen \\((x-0)^2=-1\\)?</p>",
+    "s": "<p>Eftersom högerledet är -1 får ekvationen <strong>0</strong> reella lösningar.</p>",
+    "familj": "Lösa sammansatta andragradsekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "heltal",
+    "rättSvar": 0,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "2.609",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många reella lösningar har ekvationen \\((x-3)^2=25\\)?</p>",
+    "s": "<p>Eftersom högerledet är 25 får ekvationen <strong>2</strong> reella lösningar.</p>",
+    "familj": "Lösa sammansatta andragradsekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "heltal",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "3.210",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avgör om implikationen är sann eller falsk:</p><p><em>Om ett heltal är delbart med 4, så är det jämnt.</em></p>",
+    "s": "<p>Implikationen är <strong>sant</strong>.</p>",
+    "familj": "Avgöra och använda implikation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "sant",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.211",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avgör om implikationen är sann eller falsk:</p><p><em>Om ett tal är jämnt, så är det delbart med 4.</em></p>",
+    "s": "<p>Implikationen är <strong>falskt</strong>.</p>",
+    "familj": "Avgöra och använda implikation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "falskt",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.212",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avgör om implikationen är sann eller falsk:</p><p><em>Om x=3, så är x²=9.</em></p>",
+    "s": "<p>Implikationen är <strong>sant</strong>.</p>",
+    "familj": "Avgöra och använda implikation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "sant",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.213",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avgör om implikationen är sann eller falsk:</p><p><em>Om x²=9, så är x=3.</em></p>",
+    "s": "<p>Implikationen är <strong>falskt</strong>.</p>",
+    "familj": "Avgöra och använda implikation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "falskt",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.214",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avgör om implikationen är sann eller falsk:</p><p><em>Om en triangel är liksidig, så är den likbent.</em></p>",
+    "s": "<p>Implikationen är <strong>sant</strong>.</p>",
+    "familj": "Avgöra och använda implikation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "sant",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.215",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avgör om implikationen är sann eller falsk:</p><p><em>Om två vinklar är vertikalvinklar, så är de lika stora.</em></p>",
+    "s": "<p>Implikationen är <strong>sant</strong>.</p>",
+    "familj": "Avgöra och använda implikation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "sant",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.216",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avgör om implikationen är sann eller falsk:</p><p><em>Om två tal har samma kvadrat, så är talen lika.</em></p>",
+    "s": "<p>Implikationen är <strong>falskt</strong>.</p>",
+    "familj": "Avgöra och använda implikation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "falskt",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.217",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avgör om implikationen är sann eller falsk:</p><p><em>Om x>5, så är x>2.</em></p>",
+    "s": "<p>Implikationen är <strong>sant</strong>.</p>",
+    "familj": "Avgöra och använda implikation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "sant",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.218",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avgör om implikationen är sann eller falsk:</p><p><em>Om x+y=0, så är y=-x.</em></p>",
+    "s": "<p>Implikationen är <strong>sant</strong>.</p>",
+    "familj": "Avgöra och använda implikation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "sant",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.219",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avgör om implikationen är sann eller falsk:</p><p><em>Om ab=0, så är både a=0 och b=0.</em></p>",
+    "s": "<p>Implikationen är <strong>falskt</strong>.</p>",
+    "familj": "Avgöra och använda implikation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "falskt",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.220",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>En linje som går från en cirkels medelpunkt till cirkeln.</p>",
+    "s": "<p><strong>Svar: radie</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "radie",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.221",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>En sträcka med båda ändpunkterna på en cirkel.</p>",
+    "s": "<p><strong>Svar: korda</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "korda",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.222",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>En linje som skär en cirkel i två punkter.</p>",
+    "s": "<p><strong>Svar: sekant</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "sekant",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.223",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>En linje som tangerar en cirkel i exakt en punkt.</p>",
+    "s": "<p><strong>Svar: tangent</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "tangent",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.224",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>En vinkel med spets i cirkelns medelpunkt.</p>",
+    "s": "<p><strong>Svar: medelpunktsvinkel</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "medelpunktsvinkel",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.225",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>En vinkel med spets på cirkelns rand.</p>",
+    "s": "<p><strong>Svar: randvinkel</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "randvinkel",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.226",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>Två vinklar som ligger mitt emot varandra när två linjer skär varandra.</p>",
+    "s": "<p><strong>Svar: vertikalvinklar</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "vertikalvinklar",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.227",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>Två vinklar vars summa är 180°.</p>",
+    "s": "<p><strong>Svar: sidovinklar</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "sidovinklar",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.228",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>En linje genom två sidor i en triangel, parallell med den tredje sidan.</p>",
+    "s": "<p><strong>Svar: transversal</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "transversal",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.229",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>Två figurer med samma form men inte nödvändigtvis samma storlek.</p>",
+    "s": "<p><strong>Svar: likformiga</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "likformiga",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.230",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>Den längsta sidan i en rätvinklig triangel.</p>",
+    "s": "<p><strong>Svar: hypotenusa</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "hypotenusa",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.231",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket geometriskt begrepp beskrivs?</p><p>De två sidor som bildar den räta vinkeln.</p>",
+    "s": "<p><strong>Svar: kateter</strong></p>",
+    "familj": "Identifiera geometriska begrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "kateter",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "3.232",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm mittpunkten mellan \\((1,2)\\) och \\((5,8)\\).</p>",
+    "s": "<p>Mittpunkten är \\(((1+5)/2,(2+8)/2)=(3,5)\\).</p>",
+    "familj": "Beräkna mittpunkt mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "punkt",
+    "rättSvar": [
+      3,
+      5
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "punkt"
+  },
+  {
+    "id": "3.233",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm mittpunkten mellan \\((-3,4)\\) och \\((7,-2)\\).</p>",
+    "s": "<p>Mittpunkten är \\(((-3+7)/2,(4+-2)/2)=(2,1)\\).</p>",
+    "familj": "Beräkna mittpunkt mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "punkt",
+    "rättSvar": [
+      2,
+      1
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "punkt"
+  },
+  {
+    "id": "3.234",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm mittpunkten mellan \\((0,-5)\\) och \\((8,3)\\).</p>",
+    "s": "<p>Mittpunkten är \\(((0+8)/2,(-5+3)/2)=(4,-1)\\).</p>",
+    "familj": "Beräkna mittpunkt mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "punkt",
+    "rättSvar": [
+      4,
+      -1
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "punkt"
+  },
+  {
+    "id": "3.235",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm mittpunkten mellan \\((-6,-2)\\) och \\((2,10)\\).</p>",
+    "s": "<p>Mittpunkten är \\(((-6+2)/2,(-2+10)/2)=(-2,4)\\).</p>",
+    "familj": "Beräkna mittpunkt mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "punkt",
+    "rättSvar": [
+      -2,
+      4
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "punkt"
+  },
+  {
+    "id": "3.236",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm mittpunkten mellan \\((4,1)\\) och \\((10,9)\\).</p>",
+    "s": "<p>Mittpunkten är \\(((4+10)/2,(1+9)/2)=(7,5)\\).</p>",
+    "familj": "Beräkna mittpunkt mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "punkt",
+    "rättSvar": [
+      7,
+      5
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "punkt"
+  },
+  {
+    "id": "3.237",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm mittpunkten mellan \\((-2,-8)\\) och \\((6,4)\\).</p>",
+    "s": "<p>Mittpunkten är \\(((-2+6)/2,(-8+4)/2)=(2,-2)\\).</p>",
+    "familj": "Beräkna mittpunkt mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "punkt",
+    "rättSvar": [
+      2,
+      -2
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "punkt"
+  },
+  {
+    "id": "3.238",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm avståndet mellan punkterna \\((0,0)\\) och \\((3,4)\\).</p>",
+    "s": "<p>Avståndet är \\(\\sqrt{(3)^2+(4)^2}=5\\).</p><p><strong>Svar: 5</strong></p>",
+    "familj": "Beräkna avstånd mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.239",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm avståndet mellan punkterna \\((1,2)\\) och \\((7,10)\\).</p>",
+    "s": "<p>Avståndet är \\(\\sqrt{(6)^2+(8)^2}=10\\).</p><p><strong>Svar: 10</strong></p>",
+    "familj": "Beräkna avstånd mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.240",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm avståndet mellan punkterna \\((-2,1)\\) och \\((4,9)\\).</p>",
+    "s": "<p>Avståndet är \\(\\sqrt{(6)^2+(8)^2}=10\\).</p><p><strong>Svar: 10</strong></p>",
+    "familj": "Beräkna avstånd mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.241",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm avståndet mellan punkterna \\((3,-1)\\) och \\((8,11)\\).</p>",
+    "s": "<p>Avståndet är \\(\\sqrt{(5)^2+(12)^2}=13\\).</p><p><strong>Svar: 13</strong></p>",
+    "familj": "Beräkna avstånd mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.242",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm avståndet mellan punkterna \\((-5,-2)\\) och \\((7,3)\\).</p>",
+    "s": "<p>Avståndet är \\(\\sqrt{(12)^2+(5)^2}=13\\).</p><p><strong>Svar: 13</strong></p>",
+    "familj": "Beräkna avstånd mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.243",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm avståndet mellan punkterna \\((2,5)\\) och \\((10,20)\\).</p>",
+    "s": "<p>Avståndet är \\(\\sqrt{(8)^2+(15)^2}=17\\).</p><p><strong>Svar: 17</strong></p>",
+    "familj": "Beräkna avstånd mellan två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.244",
+    "kap": 3,
+    "omr": "randvinkel_medelpunkt",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En medelpunktsvinkel är \\(60^\\circ\\). En randvinkel står på samma båge. Hur stor är randvinkeln?</p>",
+    "s": "<p>Randvinkeln är hälften av medelpunktsvinkeln: \\(60/2=30^\\circ\\).</p>",
+    "familj": "Samband mellan randvinkel och medelpunktsvinkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.245",
+    "kap": 3,
+    "omr": "randvinkel_medelpunkt",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En medelpunktsvinkel är \\(80^\\circ\\). En randvinkel står på samma båge. Hur stor är randvinkeln?</p>",
+    "s": "<p>Randvinkeln är hälften av medelpunktsvinkeln: \\(80/2=40^\\circ\\).</p>",
+    "familj": "Samband mellan randvinkel och medelpunktsvinkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.246",
+    "kap": 3,
+    "omr": "randvinkel_medelpunkt",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En medelpunktsvinkel är \\(100^\\circ\\). En randvinkel står på samma båge. Hur stor är randvinkeln?</p>",
+    "s": "<p>Randvinkeln är hälften av medelpunktsvinkeln: \\(100/2=50^\\circ\\).</p>",
+    "familj": "Samband mellan randvinkel och medelpunktsvinkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.247",
+    "kap": 3,
+    "omr": "randvinkel_medelpunkt",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En medelpunktsvinkel är \\(120^\\circ\\). En randvinkel står på samma båge. Hur stor är randvinkeln?</p>",
+    "s": "<p>Randvinkeln är hälften av medelpunktsvinkeln: \\(120/2=60^\\circ\\).</p>",
+    "familj": "Samband mellan randvinkel och medelpunktsvinkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.248",
+    "kap": 3,
+    "omr": "randvinkel_medelpunkt",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En medelpunktsvinkel är \\(150^\\circ\\). En randvinkel står på samma båge. Hur stor är randvinkeln?</p>",
+    "s": "<p>Randvinkeln är hälften av medelpunktsvinkeln: \\(150/2=75^\\circ\\).</p>",
+    "familj": "Samband mellan randvinkel och medelpunktsvinkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 75,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.249",
+    "kap": 3,
+    "omr": "randvinkel_medelpunkt",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En randvinkel är \\(25^\\circ\\). Medelpunktsvinkeln står på samma båge. Hur stor är medelpunktsvinkeln?</p>",
+    "s": "<p>Medelpunktsvinkeln är dubbelt så stor: \\(2\\cdot 25=50^\\circ\\).</p>",
+    "familj": "Samband mellan randvinkel och medelpunktsvinkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.250",
+    "kap": 3,
+    "omr": "randvinkel_medelpunkt",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En randvinkel är \\(35^\\circ\\). Medelpunktsvinkeln står på samma båge. Hur stor är medelpunktsvinkeln?</p>",
+    "s": "<p>Medelpunktsvinkeln är dubbelt så stor: \\(2\\cdot 35=70^\\circ\\).</p>",
+    "familj": "Samband mellan randvinkel och medelpunktsvinkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 70,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.251",
+    "kap": 3,
+    "omr": "randvinkel_medelpunkt",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En randvinkel är \\(45^\\circ\\). Medelpunktsvinkeln står på samma båge. Hur stor är medelpunktsvinkeln?</p>",
+    "s": "<p>Medelpunktsvinkeln är dubbelt så stor: \\(2\\cdot 45=90^\\circ\\).</p>",
+    "familj": "Samband mellan randvinkel och medelpunktsvinkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.252",
+    "kap": 3,
+    "omr": "randvinkel_medelpunkt",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En randvinkel är \\(55^\\circ\\). Medelpunktsvinkeln står på samma båge. Hur stor är medelpunktsvinkeln?</p>",
+    "s": "<p>Medelpunktsvinkeln är dubbelt så stor: \\(2\\cdot 55=110^\\circ\\).</p>",
+    "familj": "Samband mellan randvinkel och medelpunktsvinkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 110,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.253",
+    "kap": 3,
+    "omr": "randvinkel_medelpunkt",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En randvinkel är \\(70^\\circ\\). Medelpunktsvinkeln står på samma båge. Hur stor är medelpunktsvinkeln?</p>",
+    "s": "<p>Medelpunktsvinkeln är dubbelt så stor: \\(2\\cdot 70=140^\\circ\\).</p>",
+    "familj": "Samband mellan randvinkel och medelpunktsvinkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 140,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.254",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en triangel är de två motstående inre vinklarna \\(35^\\circ\\) och \\(55^\\circ\\). Hur stor är yttervinkeln vid det tredje hörnet?</p>",
+    "s": "<p>Enligt yttervinkelsatsen är yttervinkeln \\(35+55=90^\\circ\\).</p>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.255",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en triangel är de två motstående inre vinklarna \\(48^\\circ\\) och \\(67^\\circ\\). Hur stor är yttervinkeln vid det tredje hörnet?</p>",
+    "s": "<p>Enligt yttervinkelsatsen är yttervinkeln \\(48+67=115^\\circ\\).</p>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 115,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.256",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en triangel är de två motstående inre vinklarna \\(72^\\circ\\) och \\(31^\\circ\\). Hur stor är yttervinkeln vid det tredje hörnet?</p>",
+    "s": "<p>Enligt yttervinkelsatsen är yttervinkeln \\(72+31=103^\\circ\\).</p>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 103,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.257",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en triangel är de två motstående inre vinklarna \\(25^\\circ\\) och \\(88^\\circ\\). Hur stor är yttervinkeln vid det tredje hörnet?</p>",
+    "s": "<p>Enligt yttervinkelsatsen är yttervinkeln \\(25+88=113^\\circ\\).</p>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 113,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.258",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en triangel är de två motstående inre vinklarna \\(63^\\circ\\) och \\(44^\\circ\\). Hur stor är yttervinkeln vid det tredje hörnet?</p>",
+    "s": "<p>Enligt yttervinkelsatsen är yttervinkeln \\(63+44=107^\\circ\\).</p>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 107,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.259",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en triangel är de två motstående inre vinklarna \\(56^\\circ\\) och \\(79^\\circ\\). Hur stor är yttervinkeln vid det tredje hörnet?</p>",
+    "s": "<p>Enligt yttervinkelsatsen är yttervinkeln \\(56+79=135^\\circ\\).</p>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 135,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.260",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en triangel är de två motstående inre vinklarna \\(41^\\circ\\) och \\(93^\\circ\\). Hur stor är yttervinkeln vid det tredje hörnet?</p>",
+    "s": "<p>Enligt yttervinkelsatsen är yttervinkeln \\(41+93=134^\\circ\\).</p>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 134,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.261",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en triangel är de två motstående inre vinklarna \\(28^\\circ\\) och \\(74^\\circ\\). Hur stor är yttervinkeln vid det tredje hörnet?</p>",
+    "s": "<p>Enligt yttervinkelsatsen är yttervinkeln \\(28+74=102^\\circ\\).</p>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 102,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.262",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en triangel är de två motstående inre vinklarna \\(66^\\circ\\) och \\(52^\\circ\\). Hur stor är yttervinkeln vid det tredje hörnet?</p>",
+    "s": "<p>Enligt yttervinkelsatsen är yttervinkeln \\(66+52=118^\\circ\\).</p>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 118,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "3.263",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en triangel är de två motstående inre vinklarna \\(39^\\circ\\) och \\(81^\\circ\\). Hur stor är yttervinkeln vid det tredje hörnet?</p>",
+    "s": "<p>Enligt yttervinkelsatsen är yttervinkeln \\(39+81=120^\\circ\\).</p>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "grader"
+  },
+  {
+    "id": "4.191",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medelvärdet för talen 2, 4, 6, 8, 10.</p>",
+    "s": "<p>Summan är 30 och antalet värden är 5. Medelvärdet är \\(30/5=6\\).</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.192",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medianen för talen 2, 4, 6, 8, 10.</p>",
+    "s": "<p>Talen ordnas i storleksordning. Medianen blir <strong>6</strong>.</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.193",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medelvärdet för talen 3, 3, 5, 7, 12.</p>",
+    "s": "<p>Summan är 30 och antalet värden är 5. Medelvärdet är \\(30/5=6\\).</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.194",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medianen för talen 3, 3, 5, 7, 12.</p>",
+    "s": "<p>Talen ordnas i storleksordning. Medianen blir <strong>5</strong>.</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.195",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medelvärdet för talen 1, 4, 4, 9, 12.</p>",
+    "s": "<p>Summan är 30 och antalet värden är 5. Medelvärdet är \\(30/5=6\\).</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.196",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medianen för talen 1, 4, 4, 9, 12.</p>",
+    "s": "<p>Talen ordnas i storleksordning. Medianen blir <strong>4</strong>.</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.197",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medelvärdet för talen 6, 7, 8, 9, 10.</p>",
+    "s": "<p>Summan är 40 och antalet värden är 5. Medelvärdet är \\(40/5=8\\).</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.198",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medianen för talen 6, 7, 8, 9, 10.</p>",
+    "s": "<p>Talen ordnas i storleksordning. Medianen blir <strong>8</strong>.</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.199",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medelvärdet för talen 2, 5, 7, 7, 9, 12.</p>",
+    "s": "<p>Summan är 42 och antalet värden är 6. Medelvärdet är \\(42/6=7\\).</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.200",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medianen för talen 2, 5, 7, 7, 9, 12.</p>",
+    "s": "<p>Talen ordnas i storleksordning. Medianen blir <strong>7</strong>.</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.201",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medelvärdet för talen 4, 6, 6, 8, 11, 13.</p>",
+    "s": "<p>Summan är 48 och antalet värden är 6. Medelvärdet är \\(48/6=8\\).</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.202",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medianen för talen 4, 6, 6, 8, 11, 13.</p>",
+    "s": "<p>Talen ordnas i storleksordning. Medianen blir <strong>7</strong>.</p>",
+    "familj": "Beräkna lägesmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.203",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm den undre kvartilen \\(Q_1\\) för datamaterialet 1, 2, 3, 4, 5, 6, 7, 8, 9.</p>",
+    "s": "<p>Den undre halvan är 1, 2, 3, 4. Medianen av den är \\(Q_1=2{,}5\\).</p>",
+    "familj": "Bestämma median och kvartiler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.204",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm den övre kvartilen \\(Q_3\\) för datamaterialet 1, 2, 3, 4, 5, 6, 7, 8, 9.</p>",
+    "s": "<p>Den övre halvan är 6, 7, 8, 9. Medianen av den är \\(Q_3=7.5\\).</p>",
+    "familj": "Bestämma median och kvartiler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.205",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm den undre kvartilen \\(Q_1\\) för datamaterialet 2, 4, 5, 6, 8, 10, 12, 13, 15.</p>",
+    "s": "<p>Den undre halvan är 2, 4, 5, 6. Medianen av den är \\(Q_1=4.5\\).</p>",
+    "familj": "Bestämma median och kvartiler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.206",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm den övre kvartilen \\(Q_3\\) för datamaterialet 2, 4, 5, 6, 8, 10, 12, 13, 15.</p>",
+    "s": "<p>Den övre halvan är 10, 12, 13, 15. Medianen av den är \\(Q_3=12{,}5\\).</p>",
+    "familj": "Bestämma median och kvartiler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.207",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm den undre kvartilen \\(Q_1\\) för datamaterialet 3, 3, 4, 6, 7, 9, 10, 12, 14.</p>",
+    "s": "<p>Den undre halvan är 3, 3, 4, 6. Medianen av den är \\(Q_1=3.5\\).</p>",
+    "familj": "Bestämma median och kvartiler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.208",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm den övre kvartilen \\(Q_3\\) för datamaterialet 3, 3, 4, 6, 7, 9, 10, 12, 14.</p>",
+    "s": "<p>Den övre halvan är 9, 10, 12, 14. Medianen av den är \\(Q_3=11\\).</p>",
+    "familj": "Bestämma median och kvartiler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.209",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm den undre kvartilen \\(Q_1\\) för datamaterialet 1, 5, 6, 8, 9, 11, 13, 16, 18.</p>",
+    "s": "<p>Den undre halvan är 1, 5, 6, 8. Medianen av den är \\(Q_1=5.5\\).</p>",
+    "familj": "Bestämma median och kvartiler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.210",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm den övre kvartilen \\(Q_3\\) för datamaterialet 1, 5, 6, 8, 9, 11, 13, 16, 18.</p>",
+    "s": "<p>Den övre halvan är 11, 13, 16, 18. Medianen av den är \\(Q_3=14.5\\).</p>",
+    "familj": "Bestämma median och kvartiler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.211",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm den undre kvartilen \\(Q_1\\) för datamaterialet 4, 5, 7, 7, 8, 10, 12, 14, 20.</p>",
+    "s": "<p>Den undre halvan är 4, 5, 7, 7. Medianen av den är \\(Q_1=6\\).</p>",
+    "familj": "Bestämma median och kvartiler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.212",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm den övre kvartilen \\(Q_3\\) för datamaterialet 4, 5, 7, 7, 8, 10, 12, 14, 20.</p>",
+    "s": "<p>Den övre halvan är 10, 12, 14, 20. Medianen av den är \\(Q_3=13\\).</p>",
+    "familj": "Bestämma median och kvartiler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.213",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Datamaterial A är 2, 4, 6. Datamaterial B fås genom att addera 5 till varje värde i A. Hur förändras standardavvikelsen?</p>",
+    "s": "<p>När samma tal adderas till alla observationer flyttas hela materialet men spridningen ändras inte.</p><p><strong>Svar: oförändrad</strong></p>",
+    "familj": "Förstå hur standardavvikelsen förändras",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "oförändrad",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.214",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Datamaterial A är 1, 3, 5, 7. Datamaterial B fås genom att addera 10 till varje värde i A. Hur förändras standardavvikelsen?</p>",
+    "s": "<p>När samma tal adderas till alla observationer flyttas hela materialet men spridningen ändras inte.</p><p><strong>Svar: oförändrad</strong></p>",
+    "familj": "Förstå hur standardavvikelsen förändras",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "oförändrad",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.215",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Datamaterial A är 4, 5, 6. Datamaterial B fås genom att addera -3 till varje värde i A. Hur förändras standardavvikelsen?</p>",
+    "s": "<p>När samma tal adderas till alla observationer flyttas hela materialet men spridningen ändras inte.</p><p><strong>Svar: oförändrad</strong></p>",
+    "familj": "Förstå hur standardavvikelsen förändras",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "oförändrad",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.216",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Datamaterial A är 10, 20, 30. Datamaterial B fås genom att addera 100 till varje värde i A. Hur förändras standardavvikelsen?</p>",
+    "s": "<p>När samma tal adderas till alla observationer flyttas hela materialet men spridningen ändras inte.</p><p><strong>Svar: oförändrad</strong></p>",
+    "familj": "Förstå hur standardavvikelsen förändras",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "oförändrad",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.217",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Alla värden i ett datamaterial multipliceras med \\(2\\). Med vilken faktor förändras standardavvikelsen?</p>",
+    "s": "<p>Standardavvikelsen multipliceras med absolutbeloppet av samma faktor. Alltså med <strong>2</strong>.</p>",
+    "familj": "Förstå hur standardavvikelsen förändras",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.218",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Alla värden i ett datamaterial multipliceras med \\(3\\). Med vilken faktor förändras standardavvikelsen?</p>",
+    "s": "<p>Standardavvikelsen multipliceras med absolutbeloppet av samma faktor. Alltså med <strong>3</strong>.</p>",
+    "familj": "Förstå hur standardavvikelsen förändras",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.219",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Alla värden i ett datamaterial multipliceras med \\(0{,}5\\). Med vilken faktor förändras standardavvikelsen?</p>",
+    "s": "<p>Standardavvikelsen multipliceras med absolutbeloppet av samma faktor. Alltså med <strong>0{,}5</strong>.</p>",
+    "familj": "Förstå hur standardavvikelsen förändras",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.220",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Alla värden i ett datamaterial multipliceras med \\(4\\). Med vilken faktor förändras standardavvikelsen?</p>",
+    "s": "<p>Standardavvikelsen multipliceras med absolutbeloppet av samma faktor. Alltså med <strong>4</strong>.</p>",
+    "familj": "Förstå hur standardavvikelsen förändras",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.221",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En variabel är ungefär normalfördelad med medelvärde \\(50\\) och standardavvikelse \\(5\\). Ungefär hur många procent ligger mellan \\(45\\) och \\(55\\)?</p>",
+    "s": "<p>Intervallet ligger inom \\(\\pm 1\\) standardavvikelse från medelvärdet. Enligt 68–95–99,7-regeln är andelen ungefär <strong>68%</strong>.</p>",
+    "familj": "Andel inom intervall i normalfördelning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 68,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "4.222",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En variabel är ungefär normalfördelad med medelvärde \\(100\\) och standardavvikelse \\(10\\). Ungefär hur många procent ligger mellan \\(80\\) och \\(120\\)?</p>",
+    "s": "<p>Intervallet ligger inom \\(\\pm 2\\) standardavvikelse från medelvärdet. Enligt 68–95–99,7-regeln är andelen ungefär <strong>95%</strong>.</p>",
+    "familj": "Andel inom intervall i normalfördelning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 95,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "4.223",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En variabel är ungefär normalfördelad med medelvärde \\(20\\) och standardavvikelse \\(2\\). Ungefär hur många procent ligger mellan \\(14\\) och \\(26\\)?</p>",
+    "s": "<p>Intervallet ligger inom \\(\\pm 3\\) standardavvikelse från medelvärdet. Enligt 68–95–99,7-regeln är andelen ungefär <strong>99{,}7%</strong>.</p>",
+    "familj": "Andel inom intervall i normalfördelning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 99.7,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "4.224",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En variabel är ungefär normalfördelad med medelvärde \\(70\\) och standardavvikelse \\(4\\). Ungefär hur många procent ligger mellan \\(66\\) och \\(74\\)?</p>",
+    "s": "<p>Intervallet ligger inom \\(\\pm 1\\) standardavvikelse från medelvärdet. Enligt 68–95–99,7-regeln är andelen ungefär <strong>68%</strong>.</p>",
+    "familj": "Andel inom intervall i normalfördelning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 68,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "4.225",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En variabel är ungefär normalfördelad med medelvärde \\(30\\) och standardavvikelse \\(3\\). Ungefär hur många procent ligger mellan \\(24\\) och \\(36\\)?</p>",
+    "s": "<p>Intervallet ligger inom \\(\\pm 2\\) standardavvikelse från medelvärdet. Enligt 68–95–99,7-regeln är andelen ungefär <strong>95%</strong>.</p>",
+    "familj": "Andel inom intervall i normalfördelning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 95,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "4.226",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En variabel är ungefär normalfördelad med medelvärde \\(500\\) och standardavvikelse \\(20\\). Ungefär hur många procent ligger mellan \\(480\\) och \\(520\\)?</p>",
+    "s": "<p>Intervallet ligger inom \\(\\pm 1\\) standardavvikelse från medelvärdet. Enligt 68–95–99,7-regeln är andelen ungefär <strong>68%</strong>.</p>",
+    "familj": "Andel inom intervall i normalfördelning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 68,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "4.227",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En variabel är ungefär normalfördelad med medelvärde \\(12\\) och standardavvikelse \\(1{,}5\\). Ungefär hur många procent ligger mellan \\(9\\) och \\(15\\)?</p>",
+    "s": "<p>Intervallet ligger inom \\(\\pm 2\\) standardavvikelse från medelvärdet. Enligt 68–95–99,7-regeln är andelen ungefär <strong>95%</strong>.</p>",
+    "familj": "Andel inom intervall i normalfördelning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 95,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "4.228",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En variabel är ungefär normalfördelad med medelvärde \\(200\\) och standardavvikelse \\(15\\). Ungefär hur många procent ligger mellan \\(155\\) och \\(245\\)?</p>",
+    "s": "<p>Intervallet ligger inom \\(\\pm 3\\) standardavvikelse från medelvärdet. Enligt 68–95–99,7-regeln är andelen ungefär <strong>99{,}7%</strong>.</p>",
+    "familj": "Andel inom intervall i normalfördelning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 99.7,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "4.229",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En regressionslinje är \\(y=2x+5\\). Ange riktningskoefficienten.</p>",
+    "s": "<p>Riktningskoefficienten är koefficienten framför \\(x\\).</p><p><strong>Svar: 2</strong></p>",
+    "familj": "Tolka koefficienter i en regressionsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.230",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En regressionslinje är \\(y=-1,5x+18\\). Ange riktningskoefficienten.</p>",
+    "s": "<p>Riktningskoefficienten är koefficienten framför \\(x\\).</p><p><strong>Svar: -1,5</strong></p>",
+    "familj": "Tolka koefficienter i en regressionsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1.5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.231",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En regressionslinje är \\(y=0,4x+7\\). Ange riktningskoefficienten.</p>",
+    "s": "<p>Riktningskoefficienten är koefficienten framför \\(x\\).</p><p><strong>Svar: 0,4</strong></p>",
+    "familj": "Tolka koefficienter i en regressionsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.232",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En regressionslinje är \\(y=3,2x-4\\). Ange riktningskoefficienten.</p>",
+    "s": "<p>Riktningskoefficienten är koefficienten framför \\(x\\).</p><p><strong>Svar: 3,2</strong></p>",
+    "familj": "Tolka koefficienter i en regressionsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.233",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En regressionsmodell är \\(y=1,8x+4\\). Vilket värde förutsäger modellen när \\(x=10\\)?</p>",
+    "s": "<p>Sätt in \\(x=10\\): \\(y=1,8\\cdot10+4=22,0\\).</p><p><strong>Svar: 22,0</strong></p>",
+    "familj": "Bestämma linjär regressionsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 22.0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.234",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En regressionsmodell är \\(y=-2x+30\\). Vilket värde förutsäger modellen när \\(x=6\\)?</p>",
+    "s": "<p>Sätt in \\(x=6\\): \\(y=-2\\cdot6+30=18\\).</p><p><strong>Svar: 18</strong></p>",
+    "familj": "Bestämma linjär regressionsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.235",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En regressionsmodell är \\(y=0,75x+12\\). Vilket värde förutsäger modellen när \\(x=8\\)?</p>",
+    "s": "<p>Sätt in \\(x=8\\): \\(y=0,75\\cdot8+12=18,0\\).</p><p><strong>Svar: 18,0</strong></p>",
+    "familj": "Bestämma linjär regressionsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.236",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En regressionsmodell är \\(y=4,5x-5\\). Vilket värde förutsäger modellen när \\(x=3\\)?</p>",
+    "s": "<p>Sätt in \\(x=3\\): \\(y=4,5\\cdot3-5=8,5\\).</p><p><strong>Svar: 8,5</strong></p>",
+    "familj": "Bestämma linjär regressionsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.237",
+    "kap": 4,
+    "omr": "modellval_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett datamaterial har ungefär följande värden: x: 1, 2, 3, 4 och y: 5, 8, 11, 14. Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
+    "s": "<p>Skillnaden i y är konstant.</p><p><strong>Svar: linjär</strong></p>",
+    "familj": "Välja modelltyp från datamönster",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "linjär",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.238",
+    "kap": 4,
+    "omr": "modellval_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett datamaterial har ungefär följande värden: x: 0, 1, 2, 3 och y: 2, 6, 18, 54. Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
+    "s": "<p>Kvoten mellan efterföljande y-värden är konstant.</p><p><strong>Svar: exponential</strong></p>",
+    "familj": "Välja modelltyp från datamönster",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "exponential",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.239",
+    "kap": 4,
+    "omr": "modellval_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett datamaterial har ungefär följande värden: x: 1, 2, 3, 4 och y: 3, 12, 27, 48. Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
+    "s": "<p>Värdena följer sambandet y=3x².</p><p><strong>Svar: potens</strong></p>",
+    "familj": "Välja modelltyp från datamönster",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "potens",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.240",
+    "kap": 4,
+    "omr": "modellval_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett datamaterial har ungefär följande värden: x: 0, 2, 4, 6 och y: 10, 7, 4, 1. Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
+    "s": "<p>Förändringen per x-enhet är konstant.</p><p><strong>Svar: linjär</strong></p>",
+    "familj": "Välja modelltyp från datamönster",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "linjär",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.241",
+    "kap": 4,
+    "omr": "modellval_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett datamaterial har ungefär följande värden: x: 0, 1, 2, 3 och y: 80, 40, 20, 10. Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
+    "s": "<p>Varje y-värde är hälften av det föregående.</p><p><strong>Svar: exponential</strong></p>",
+    "familj": "Välja modelltyp från datamönster",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "exponential",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.242",
+    "kap": 4,
+    "omr": "modellval_regression",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett datamaterial har ungefär följande värden: x: 1, 2, 3, 4 och y: 2, 8, 18, 32. Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
+    "s": "<p>Värdena följer y=2x².</p><p><strong>Svar: potens</strong></p>",
+    "familj": "Välja modelltyp från datamönster",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "potens",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.243",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Korrelationskoefficienten är \\(r=0,92\\). Beskriv sambandet med ett av alternativen: positivt, negativt, starkt positivt, starkt negativt eller svagt.</p>",
+    "s": "<p>Eftersom \\(r=0,92\\) är sambandet <strong>starkt positivt</strong>.</p>",
+    "familj": "Tolka korrelationskoefficient",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "starkt positivt",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.244",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Korrelationskoefficienten är \\(r=-0,88\\). Beskriv sambandet med ett av alternativen: positivt, negativt, starkt positivt, starkt negativt eller svagt.</p>",
+    "s": "<p>Eftersom \\(r=-0,88\\) är sambandet <strong>starkt negativt</strong>.</p>",
+    "familj": "Tolka korrelationskoefficient",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "starkt negativt",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.245",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Korrelationskoefficienten är \\(r=0,08\\). Beskriv sambandet med ett av alternativen: positivt, negativt, starkt positivt, starkt negativt eller svagt.</p>",
+    "s": "<p>Eftersom \\(r=0,08\\) är sambandet <strong>svagt</strong>.</p>",
+    "familj": "Tolka korrelationskoefficient",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "svagt",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.246",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Korrelationskoefficienten är \\(r=0,61\\). Beskriv sambandet med ett av alternativen: positivt, negativt, starkt positivt, starkt negativt eller svagt.</p>",
+    "s": "<p>Eftersom \\(r=0,61\\) är sambandet <strong>positivt</strong>.</p>",
+    "familj": "Tolka korrelationskoefficient",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "positivt",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.247",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Korrelationskoefficienten är \\(r=-0,55\\). Beskriv sambandet med ett av alternativen: positivt, negativt, starkt positivt, starkt negativt eller svagt.</p>",
+    "s": "<p>Eftersom \\(r=-0,55\\) är sambandet <strong>negativt</strong>.</p>",
+    "familj": "Tolka korrelationskoefficient",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "negativt",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "4.248",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Korrelationskoefficienten är \\(r=0,02\\). Beskriv sambandet med ett av alternativen: positivt, negativt, starkt positivt, starkt negativt eller svagt.</p>",
+    "s": "<p>Eftersom \\(r=0,02\\) är sambandet <strong>svagt</strong>.</p>",
+    "familj": "Tolka korrelationskoefficient",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "svagt",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
   }
 ];

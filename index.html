@@ -1628,12 +1628,21 @@ async function claimaNamn(namn){
     if(!r.ok){
       profile.namn=forra;
       const txt=await r.text().catch(()=>"");
-      return {ok:false,fel:/duplicate|unique/i.test(txt)
-        ? "Namnet är upptaget. Prova ett annat."
-        : "Kunde inte spara namnet just nu."};
+      if(/duplicate|unique/i.test(txt)) return {ok:false,fel:"Namnet är upptaget. Prova ett annat."};
+      // Serverns eget besked är värt mer än en artig omskrivning: det
+      // är skillnaden mellan "policyn släpper inte igenom" och
+      // "namnet bröt mot formatet".
+      let detalj="";
+      try{
+        const j=JSON.parse(txt);
+        detalj=[j.message,j.details,j.hint].filter(Boolean).join(" · ");
+      }catch(_){ detalj=txt.slice(0,160); }
+      console.warn("Topplistan svarade",r.status,txt);
+      return {ok:false,fel:`Fel ${r.status}. ${detalj||"Inget besked från servern."}`};
     }
-  }catch(_){
+  }catch(fel){
     profile.namn=forra;
+    console.warn("Topplistan:",fel);
     return {ok:false,fel:"Ingen kontakt med servern."};
   }
   saveProfile();

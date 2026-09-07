@@ -396,6 +396,114 @@ a{color:inherit}
 .kontomeny b{display:block;font-size:14px;letter-spacing:-.02em}
 .kontomeny small{display:block;margin:5px 0 13px;font-size:12px;color:var(--ink3);line-height:1.45}
 
+/* Topplistedelen i kontomenyn hålls ihop av en egen ram, så att
+   "Logga ut" inte läses som en del av samma val. */
+.menyfalt{
+  padding:13px;margin-bottom:10px;border-radius:14px;
+  border:1px solid var(--hair);background:var(--surface2);
+}
+.menyrubrik{font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);font-weight:600}
+.menynamn{margin:7px 0 10px;font-size:14.5px;font-weight:700;letter-spacing:-.03em;color:var(--gold)}
+.menytext{margin:8px 0 10px;font-size:11.5px;line-height:1.45;color:var(--ink3);
+  font-family:var(--read);letter-spacing:0}
+.menyfalt .btn{margin-top:2px}
+
+/* Växeln. Mässing när den är på, eftersom den styr belöningssidan. */
+.vaxel{
+  display:flex;align-items:center;gap:10px;width:100%;margin-top:11px;
+  font-size:12.5px;font-weight:600;text-align:left;
+}
+.vaxel .vtext{flex:1;min-width:0}
+.vaxel .vspar{
+  width:34px;height:20px;flex:none;border-radius:99px;background:var(--hair);
+  position:relative;transition:background .25s var(--ease);
+}
+.vaxel .vspar i{
+  position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;
+  background:var(--surface);box-shadow:0 1px 3px rgba(11,33,51,.35);
+  transition:transform .25s var(--ease);
+}
+.vaxel.pa .vspar{background:linear-gradient(90deg,#c79a3c,var(--gold2))}
+.vaxel.pa .vspar i{transform:translateX(14px)}
+
+/* ---------- namnrutan ---------- */
+.namnfalt{
+  width:100%;padding:13px 15px;border-radius:14px;font-size:16px;font-weight:600;
+  border:1px solid var(--hair2);background:var(--surface2);color:var(--ink);
+  letter-spacing:-.02em;transition:border-color .2s ease;
+}
+.namnfalt:focus{outline:2.5px solid var(--acc);outline-offset:2px}
+.namnhjalp{margin-top:9px;font-size:12px;line-height:1.45;color:var(--ink3);
+  font-family:var(--read);letter-spacing:0}
+.namnhjalp.fel{color:var(--bad)}
+.namnhjalp.ok{color:var(--good)}
+
+/* ---------- topplistan ---------- */
+.toppnotis{
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  padding:15px 18px;border-radius:18px;margin-bottom:16px;
+  border:1px solid var(--hair);background:var(--surface2);
+  box-shadow:inset 0 1px 0 var(--specular);
+}
+.toppnotis.pa{border-color:var(--gold2);background:var(--goldSoft)}
+.toppnotis b{font-size:14px;letter-spacing:-.025em;flex:none}
+.toppnotis span{flex:1;min-width:180px;font-size:12.5px;color:var(--ink3);
+  font-family:var(--read);letter-spacing:0;line-height:1.45}
+.toppnotis .btn{flex:none}
+
+.flikar{display:flex;gap:7px;flex-wrap:wrap}
+.fliknapp{
+  padding:8px 15px;border-radius:99px;font-size:13px;font-weight:600;
+  border:1px solid var(--hair);background:var(--surface);color:var(--ink2);
+  transition:.2s var(--ease);
+}
+.fliknapp:hover{border-color:var(--hair2)}
+.fliknapp.pa{background:var(--accSoft);border-color:var(--acc);color:var(--accInk)}
+
+.topplista{list-style:none;margin:0;padding:0}
+.topprad{
+  display:flex;align-items:center;gap:14px;padding:12px 6px;
+  border-bottom:1px solid var(--hair);
+}
+.topprad:last-child{border-bottom:0}
+.topprad .plats{
+  width:28px;flex:none;text-align:right;font-size:14px;font-weight:700;
+  color:var(--ink3);letter-spacing:-.04em;
+}
+.topprad.pall .plats{color:var(--gold)}
+.topprad .tnamn{flex:1;min-width:0}
+.topprad .tnamn b{display:block;font-size:14.5px;letter-spacing:-.03em;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topprad .tnamn small{display:block;margin-top:2px;font-size:12px;color:var(--ink3)}
+.topprad .tmedaljer{display:flex;align-items:center;gap:4px;flex:none}
+.tmedalj{
+  width:22px;height:22px;border-radius:7px;display:grid;place-items:center;flex:none;
+  background:var(--goldSoft);color:var(--gold);
+}
+.tmedalj .marke{width:13px;stroke-width:2}
+.tfler{font-size:11px;font-weight:600;color:var(--ink3);margin-left:2px}
+.topprad .tvarde{
+  flex:none;min-width:62px;text-align:right;font-size:14px;font-weight:700;
+  letter-spacing:-.03em;color:var(--gold);
+}
+/* Den egna raden ska gå att hitta med ögat utan att skrika. */
+.topprad.jag{
+  background:var(--accSoft);border-radius:14px;border-bottom-color:transparent;
+  padding-left:12px;padding-right:12px;margin:2px -6px;
+}
+.topprad.jag .tnamn b:after{content:"du";
+  margin-left:7px;padding:2px 6px;border-radius:6px;font-size:10px;font-weight:700;
+  background:var(--acc);color:#fff;letter-spacing:0;vertical-align:2px}
+.toppladdar{padding:26px 6px;text-align:center;font-size:13.5px;color:var(--ink3)}
+.toppfot{margin:14px 0 0;font-size:12px;color:var(--ink3);
+  font-family:var(--read);letter-spacing:0}
+
+@media(max-width:520px){
+  .topprad{gap:10px;padding:11px 4px}
+  .topprad .tmedaljer{display:none}
+  .topprad .tvarde{min-width:52px;font-size:13.5px}
+}
+
 /* ---------- typografi ---------- */
 h1,h2,h3{letter-spacing:-.04em;margin:0}
 .sec{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:0 0 14px}
@@ -1349,6 +1457,8 @@ async function skickaMolnprofil(){
       headers:{...sbHeaders(true),Prefer:"resolution=merge-duplicates,return=minimal"},
       body:JSON.stringify({id:u.id,data:profile,uppdaterad:new Date().toISOString()})});
   }catch(_){ pushKo=true; }   // nästa sparning försöker igen
+  // Topplistans rad skrivs bara om eleven valt ett namn.
+  await skickaTopplista();
 }
 function schemalaggPush(){
   if(!MOLN_PA() || !session) return;
@@ -1371,6 +1481,12 @@ function slaIhopProfiler(a,b){
   p.lastDay=sen.lastDay||null; p.today=sen.today||0;
   p.streak = (a.lastDay===b.lastDay) ? Math.max(a.streak||0,b.streak||0) : (sen.streak||0);
   p.goal = bas.goal || extra.goal || 8;
+
+  // Namnet och synligheten följer den profil som tränat mest. Att
+  // gissa fel här får inte sluta med att någon syns mot sin vilja,
+  // så en profil utan uttryckligt val räknas som avstängd.
+  p.namn = bas.namn || extra.namn || null;
+  p.visaTopplista = !!(bas.namn ? bas.visaTopplista : extra.visaTopplista);
 
   p.badges={...(extra.badges||{})};
   Object.entries(a.badges||{}).forEach(([k,v])=>{p.badges[k]=Math.min(p.badges[k]||v,v);});
@@ -1427,12 +1543,142 @@ const state={
   focusOmr:null, focusNamn:null, senasteUrsprung:[],
   flervalKap:null, flervalValda:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
+  toppSort:"xp",
   lastIds:[], solutionShown:false, answered:false
 };
 
 const loadedScripts=new Set();
 const PROFILE_KEY="kunskapsgymmet-profile-v1";
 let profile=loadProfile();
+
+/* ==========================================================
+   TOPPLISTAN
+   En egen tabell, "topplista", med bara det som är tänkt att synas:
+   valt namn, nivå, XP, antal uppgifter, dagsstreck och medaljer.
+   Den fullständiga profilen ligger kvar i "profiler" och lämnar
+   aldrig kontot. Raden skrivs bara när eleven valt ett namn, och
+   den syns för andra bara när eleven slagit på det själv.
+
+   Tabellen skapas med SQL:n som ligger i README. Radsäkerheten är
+   det som håller: läsning bara av rader med visa = true, skrivning
+   bara av sin egen rad.
+   ========================================================== */
+
+const NAMN_MIN=3, NAMN_MAX=16;
+const NAMN_MONSTER=/^[A-Za-zÅÄÖåäö0-9_-]+$/;
+
+/* Returnerar ett felmeddelande, eller null om namnet duger. */
+function namnFel(namn){
+  const n=String(namn||"").trim();
+  if(n.length<NAMN_MIN) return `Minst ${NAMN_MIN} tecken.`;
+  if(n.length>NAMN_MAX) return `Högst ${NAMN_MAX} tecken.`;
+  if(!NAMN_MONSTER.test(n)) return "Bara bokstäver, siffror, bindestreck och understreck.";
+  return null;
+}
+
+/* Det, och bara det, som skickas till topplistan. */
+function topplistaRad(id){
+  const lp=levelProgress();
+  return {
+    id, namn:profile.namn,
+    visa:!!profile.visaTopplista,
+    xp:profile.xp||0,
+    niva:lp.level,
+    rang:rankFor(lp.level).name,
+    uppgifter:profile.attempts||0,
+    dagar:currentStreak(),
+    medaljer:Object.keys(profile.badges||{}),
+    uppdaterad:new Date().toISOString()
+  };
+}
+
+async function skickaTopplista(){
+  if(!MOLN_PA() || !profile.namn || !await giltigSession()) return;
+  const u=await hamtaAnvandare();
+  if(!u) return;
+  try{
+    await fetch(SUPABASE_URL+"/rest/v1/topplista?on_conflict=id",{
+      method:"POST",
+      headers:{...sbHeaders(true),Prefer:"resolution=merge-duplicates,return=minimal"},
+      body:JSON.stringify(topplistaRad(u.id))});
+  }catch(_){}
+}
+
+/* Claimar namnet. Krocken fångas av det unika indexet i databasen,
+   inte av en förhandskoll — två elever kan annars hinna ta samma
+   namn i mellanrummet. */
+async function claimaNamn(namn){
+  const fel=namnFel(namn);
+  if(fel) return {ok:false,fel};
+  if(!MOLN_PA() || !await giltigSession()) return {ok:false,fel:"Du måste vara inloggad."};
+  const u=await hamtaAnvandare();
+  if(!u) return {ok:false,fel:"Kunde inte läsa kontot."};
+
+  const forra=profile.namn;
+  profile.namn=String(namn).trim();
+  try{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/topplista?on_conflict=id",{
+      method:"POST",
+      headers:{...sbHeaders(true),Prefer:"resolution=merge-duplicates,return=minimal"},
+      body:JSON.stringify(topplistaRad(u.id))});
+    if(r.status===409 || r.status===23505){
+      profile.namn=forra;
+      return {ok:false,fel:"Namnet är upptaget. Prova ett annat."};
+    }
+    if(!r.ok){
+      profile.namn=forra;
+      const txt=await r.text().catch(()=>"");
+      return {ok:false,fel:/duplicate|unique/i.test(txt)
+        ? "Namnet är upptaget. Prova ett annat."
+        : "Kunde inte spara namnet just nu."};
+    }
+  }catch(_){
+    profile.namn=forra;
+    return {ok:false,fel:"Ingen kontakt med servern."};
+  }
+  saveProfile();
+  return {ok:true};
+}
+
+/* Slår på eller av synligheten. Av betyder att raden inte längre
+   går att läsa för någon annan. */
+async function vaxlaTopplista(pa){
+  profile.visaTopplista=!!pa;
+  saveProfile();
+  await skickaTopplista();
+}
+
+/* Hämtar listan. Sorteringen görs i databasen, så vi får rätt topp
+   även när det finns fler rader än vi hämtar hem. */
+const TOPP_SORT={xp:"xp",uppgifter:"uppgifter",dagar:"dagar"};
+async function hamtaTopplista(sortering,gräns=50){
+  const kol=TOPP_SORT[sortering]||"xp";
+  if(!MOLN_PA() || !await giltigSession()) return null;
+  try{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/topplista"
+      +"?select=namn,xp,niva,rang,uppgifter,dagar,medaljer"
+      +"&visa=eq.true&order="+kol+".desc&limit="+gräns,
+      {headers:sbHeaders(true)});
+    if(!r.ok) return null;
+    return await r.json();
+  }catch(_){ return null; }
+}
+
+/* Egen placering, även när man ligger utanför den hämtade toppen.
+   Räknar rader med högre värde och lägger på ett. */
+async function minPlacering(sortering){
+  const kol=TOPP_SORT[sortering]||"xp";
+  if(!profile.visaTopplista || !profile.namn) return null;
+  const mitt={xp:profile.xp||0,uppgifter:profile.attempts||0,dagar:currentStreak()}[kol];
+  try{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/topplista?select=id&visa=eq.true&"+kol+"=gt."+mitt,
+      {headers:{...sbHeaders(true),Prefer:"count=exact",Range:"0-0"}});
+    if(!r.ok) return null;
+    const cr=r.headers.get("content-range")||"";       // "0-0/17"
+    const n=parseInt(cr.split("/")[1],10);
+    return Number.isFinite(n) ? n+1 : null;
+  }catch(_){ return null; }
+}
 
 /* ==========================================================
    NAVIGERING
@@ -1478,6 +1724,11 @@ function backToDashboard(){
 }
 
 async function navRestore(st){
+  // Topplistan hänger inte på en kurs, så den återskapas före kurskollen.
+  if(st && st.view==="topplista"){
+    if(st.course && st.course!==state.course) await selectCourse(st.course,{record:false,render:false});
+    oppnaTopplista(state.toppSort,false); return;
+  }
   if(!st || !st.course){
     state.course=null;state.data=null;state.track=null;state.currentTask=null;
     state.openChapters=null;applyAccent();renderHome();return;
@@ -1516,6 +1767,10 @@ function loadProfileFrom(p){
   p.bestKapitel||=0; p.bestKurs||=0; p.bestNiva3||=0;
   p.bastaPass ??= null;   // {pct, ratt, total, at}
   p.lastDay ??= null;
+  // Topplistan. Namnet väljs av eleven och är inte Google-namnet.
+  // Deltagandet är avstängt tills eleven själv slår på det.
+  p.namn ??= null;
+  p.visaTopplista ??= false;
   p.courses ||= {}; p.badges ||= {};
   return p;
 }
@@ -1965,13 +2220,120 @@ function kontoMeny(ev){
   if(gammal){ gammal.remove(); return; }
   const el=document.createElement("div");
   el.id="kontomeny"; el.className="kontomeny";
-  el.innerHTML=`<b>${esc(namn)}</b><small>Träningen synkas mellan dina enheter.</small>
+  const har=!!profile.namn;
+  el.innerHTML=`<b>${esc(namn)}</b>
+    <small>Träningen synkas mellan dina enheter.</small>
+
+    <div class="menyfalt">
+      <div class="menyrubrik">Topplistan</div>
+      ${har
+        ? `<div class="menynamn">${esc(profile.namn)}</div>`
+        : `<p class="menytext">Välj ett namn för att kunna vara med.</p>`}
+      <button class="btn sm wide" onclick="oppnaNamnruta()">${har?"Byt namn":"Välj användarnamn"}</button>
+      ${har?`
+      <button class="vaxel${profile.visaTopplista?" pa":""}" role="switch"
+        aria-checked="${profile.visaTopplista?"true":"false"}" onclick="vaxlaSynlighet(this)">
+        <span class="vtext">Visa mig på listan</span>
+        <span class="vspar" aria-hidden="true"><i></i></span>
+      </button>
+      <p class="menytext" id="menysynlig">${profile.visaTopplista
+        ? "Andra ser ditt namn, din nivå och dina medaljer."
+        : "Du tränar som vanligt, men syns inte för andra."}</p>`:""}
+      <button class="btn sm wide" onclick="oppnaTopplista()">Öppna topplistan</button>
+    </div>
+
     <button class="btn sm wide" onclick="loggaUt()">Logga ut</button>`;
   document.body.appendChild(el);
   const r=ev.currentTarget.getBoundingClientRect();
   el.style.top=(r.bottom+8)+"px";
   el.style.right=Math.max(12,window.innerWidth-r.right)+"px";
+  // Menyn ska överleva klick inuti sig själv, bara klick utanför stänger.
+  el.addEventListener("click",e=>e.stopPropagation());
   setTimeout(()=>document.addEventListener("click",()=>el.remove(),{once:true}),0);
+}
+
+/* Växeln slår igenom direkt i gränssnittet, och skrivs till servern
+   i bakgrunden. Slår det fel ställs den tillbaka. */
+async function vaxlaSynlighet(btn){
+  const pa=!profile.visaTopplista;
+  btn.classList.toggle("pa",pa);
+  btn.setAttribute("aria-checked",pa?"true":"false");
+  const txt=document.getElementById("menysynlig");
+  if(txt) txt.textContent = pa
+    ? "Andra ser ditt namn, din nivå och dina medaljer."
+    : "Du tränar som vanligt, men syns inte för andra.";
+  await vaxlaTopplista(pa);
+  toast(pa?"Du syns nu på topplistan.":"Du är dold igen.");
+}
+
+/* ---------- namnrutan ---------- */
+function oppnaNamnruta(){
+  document.getElementById("kontomeny")?.remove();
+  const el=document.createElement("div");
+  el.className="modal"; el.id="namnruta";
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-label="Välj användarnamn" style="width:min(420px,100%)">
+      <div class="modal-topp">
+        <div>
+          <div class="lbl">Topplistan</div>
+          <h2>${profile.namn?"Byt användarnamn":"Välj användarnamn"}</h2>
+        </div>
+        <button class="iconbtn" onclick="stangNamnruta()" aria-label="Stäng">✕</button>
+      </div>
+      <p class="modal-text">Det här namnet är det enda andra ser. Välj något
+        du inte har något emot att visa — ditt riktiga namn behövs inte.</p>
+      <input id="namnfalt" class="namnfalt" maxlength="${NAMN_MAX}" autocomplete="off"
+        spellcheck="false" placeholder="t.ex. raketrav"
+        value="${esc(profile.namn||"")}"
+        oninput="namnSkrivet()" onkeydown="if(event.key==='Enter')sparaNamn()">
+      <div class="namnhjalp" id="namnhjalp">${NAMN_MIN}–${NAMN_MAX} tecken. Bokstäver, siffror, bindestreck och understreck.</div>
+      <div class="modal-fot">
+        <span class="spacer"></span>
+        <button class="btn" onclick="stangNamnruta()">Avbryt</button>
+        <button class="btn primary" id="namnspara" onclick="sparaNamn()">Spara</button>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangNamnruta(); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+  setTimeout(()=>document.getElementById("namnfalt")?.focus(),80);
+  namnSkrivet();
+}
+function stangNamnruta(){
+  const el=document.getElementById("namnruta");
+  if(!el) return;
+  el.classList.remove("visa");
+  setTimeout(()=>el.remove(),250);
+}
+/* Formen kontrolleras medan man skriver. Om namnet är ledigt vet vi
+   först när vi försöker spara. */
+function namnSkrivet(){
+  const f=document.getElementById("namnfalt"), h=document.getElementById("namnhjalp"),
+        k=document.getElementById("namnspara");
+  if(!f||!h||!k) return;
+  const fel=namnFel(f.value);
+  const tomt=!f.value.trim();
+  h.textContent = tomt
+    ? `${NAMN_MIN}–${NAMN_MAX} tecken. Bokstäver, siffror, bindestreck och understreck.`
+    : (fel || "Ser bra ut.");
+  h.className = "namnhjalp" + (tomt?"":(fel?" fel":" ok"));
+  k.disabled = !!fel;
+}
+async function sparaNamn(){
+  const f=document.getElementById("namnfalt"), h=document.getElementById("namnhjalp"),
+        k=document.getElementById("namnspara");
+  if(!f||k.disabled) return;
+  k.disabled=true; k.textContent="Sparar…";
+  const svar=await claimaNamn(f.value);
+  if(!svar.ok){
+    h.textContent=svar.fel; h.className="namnhjalp fel";
+    k.disabled=false; k.textContent="Spara";
+    return;
+  }
+  stangNamnruta();
+  toast("Användarnamnet är sparat.");
+  // Nyvalt namn: visa vad nästa steg är, utan att slå på det själv.
+  if(!profile.visaTopplista) setTimeout(()=>oppnaTopplista(),300);
+  else render();
 }
 
 /* ==========================================================
@@ -4586,6 +4948,111 @@ function renderSessionDone(record){
    MIN UTVECKLING
    ========================================================== */
 
+/* ==========================================================
+   TOPPLISTEVYN
+   Hämtas om varje gång den öppnas. Listan är liten och laddas snabbt,
+   och ett cachelagrat resultat vore värre än ett kort tomrum.
+   ========================================================== */
+
+function oppnaTopplista(sortering,record){
+  document.getElementById("kontomeny")?.remove();
+  state.toppSort=TOPP_SORT[sortering]?sortering:(state.toppSort||"xp");
+  if(record!==false) navRecord("topplista");
+  state.view="topplista";
+  ritaTopplista(true);
+  laddaTopplista();
+}
+
+/* Ramen ritas direkt, raderna fylls i när svaret kommit. */
+function ritaTopplista(laddar,rader,placering){
+  const s=state.toppSort||"xp";
+  const flik=(id,txt)=>`<button class="fliknapp${s===id?" pa":""}"
+    onclick="oppnaTopplista('${id}',false)">${txt}</button>`;
+  const sorterat={xp:"XP",uppgifter:"antal tränade uppgifter",
+                  dagar:"dagsstreck just nu"}[s];
+
+  const egen = !profile.namn
+    ? `<div class="toppnotis">
+         <b>Du är inte med än.</b>
+         <span>Välj ett användarnamn så kan du ställa dig på listan.</span>
+         <button class="btn sm" onclick="oppnaNamnruta()">Välj användarnamn</button>
+       </div>`
+    : !profile.visaTopplista
+      ? `<div class="toppnotis">
+           <b>Du är dold.</b>
+           <span>Du tränar som vanligt, men ingen annan ser dig här. Du kan slå på och av det när du vill.</span>
+           <button class="btn sm primary" onclick="snabbVisa(true)">Visa mig på listan</button>
+         </div>`
+      : `<div class="toppnotis pa">
+           <b>Du syns som ${esc(profile.namn)}${placering?` · plats ${placering}`:""}.</b>
+           <span>Andra ser ditt namn, din nivå, dina medaljer och hur mycket du tränat.</span>
+           <button class="btn sm" onclick="snabbVisa(false)">Dölj mig</button>
+         </div>`;
+
+  let lista;
+  if(laddar){
+    lista=`<div class="toppladdar">Hämtar listan…</div>`;
+  }else if(!rader){
+    lista=`<div class="empty">Kunde inte hämta topplistan just nu. Försök igen om en stund.</div>`;
+  }else if(!rader.length){
+    lista=`<div class="empty">Ingen har ställt sig på listan än. Du kan bli först.</div>`;
+  }else{
+    lista=`<ol class="topplista">${rader.map((rad,i)=>{
+      const jag = profile.namn && rad.namn===profile.namn;
+      const medaljer=Array.isArray(rad.medaljer)?rad.medaljer:[];
+      const visade=medaljer.slice(0,5).map(id=>{
+        const b=BADGES.find(x=>x.id===id);
+        return b?`<span class="tmedalj" title="${esc(b.name)}">${medaljIkon(b.icon)}</span>`:"";
+      }).join("");
+      const varde={xp:rad.xp+" XP",uppgifter:rad.uppgifter,dagar:rad.dagar+" d"}[s];
+      return `<li class="topprad${jag?" jag":""}${i<3?" pall":""}">
+        <span class="plats">${i+1}</span>
+        <span class="tnamn">
+          <b>${esc(rad.namn||"")}</b>
+          <small>Nivå ${rad.niva||1}${rad.rang?" · "+esc(rad.rang):""}</small>
+        </span>
+        <span class="tmedaljer">${visade}${medaljer.length>5?`<span class="tfler">+${medaljer.length-5}</span>`:""}</span>
+        <span class="tvarde">${esc(String(varde))}</span>
+      </li>`;
+    }).join("")}</ol>
+    <p class="toppfot">Sorterat på ${sorterat}. Bara de som själva valt att synas står med.</p>`;
+  }
+
+  app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
+    <div class="chead">
+      <div class="t">
+        <button class="crumb" onclick="tillbakaFranTopplista()"><span aria-hidden="true">←</span> Tillbaka</button>
+        <h1>Topplistan</h1>
+        <p>Alla som tränar på Kunskapsgymmet och valt att synas.</p>
+      </div>
+    </div>
+    ${egen}
+    <div class="flikar">${flik("xp","XP")}${flik("uppgifter","Uppgifter")}${flik("dagar","Dagar i rad")}</div>
+    <div class="card pad" style="margin-top:14px">${lista}</div>
+  </main>`;
+  afterRender();
+}
+
+async function laddaTopplista(){
+  const s=state.toppSort||"xp";
+  const [rader,plats]=await Promise.all([hamtaTopplista(s),minPlacering(s)]);
+  if(state.view!=="topplista") return;    // eleven hann gå vidare
+  ritaTopplista(false,rader,plats);
+}
+
+/* Knappen i notisen gör samma sak som växeln i kontomenyn. */
+async function snabbVisa(pa){
+  await vaxlaTopplista(pa);
+  toast(pa?"Du syns nu på topplistan.":"Du är dold igen.");
+  oppnaTopplista(state.toppSort,false);
+}
+
+function tillbakaFranTopplista(){
+  if(navBackTo("progress")) return;
+  if(state.course) return backToDashboard();
+  return goHome();
+}
+
 function showProgress(record){
   if(!state.course) return renderHome();
   if(record!==false) navRecord("progress");
@@ -4602,6 +5069,7 @@ function showProgress(record){
         <h1>Min utveckling</h1>
         <p>Profilen uppdateras efter varje tränad uppgift.</p>
       </div>
+      ${MOLN_PA()&&session?`<button class="btn" onclick="oppnaTopplista()">Topplistan</button>`:""}
     </div>
 
     <div class="card rankcard" style="margin-bottom:20px">
@@ -4739,6 +5207,7 @@ function render(){
   else if(state.view==="training"&&state.currentTask) renderTraining();
   else if(state.view==="progress"&&state.course) showProgress();
   else if(state.view==="summary"&&state.course) renderSessionDone();
+  else if(state.view==="topplista") oppnaTopplista(state.toppSort,false);
   else renderHome();
 }
 

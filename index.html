@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0a1119">
+<meta name="theme-color" content="#090F1B">
 <script>
 /* Sätter färgläget före första målningen så att sidan aldrig blinkar. */
 (function(){
@@ -13,7 +13,7 @@
   var t=(saved==="light") ? "light" : "dark";
   document.documentElement.dataset.theme=t;
   var m=document.querySelector('meta[name="theme-color"]');
-  if(m) m.content = t==="dark" ? "#0a1119" : "#f2f5f9";
+  if(m) m.content = t==="dark" ? "#090F1B" : "#E7EEF9";
 })();
 </script>
 <title>Kunskapsgymmet – adaptiv träning i matematik och fysik</title>
@@ -83,100 +83,168 @@
 <style>
 /* ==========================================================
    DESIGNSYSTEM
+
+   Fyra färgspråk med varsitt jobb. Ingen färg gör två saker.
+
+   1  KURSFÄRG   var(--acc)   – var du är. Rummets ljus, primärknappen,
+                                fokusringen. Aldrig ett tillstånd.
+   2  SVÅRIGHET  var(--lvl1..3) – hur tungt. Samma kulör i tre styrkor,
+                                plus antalet fyllda prickar i nivåbrickan.
+   3  FORM       var(--acc) i mängd, plus var(--amber) när något bleknat
+                                och var(--gold) när ett område sitter.
+   4  MÄSSING    var(--gold)  – vad du fick. XP, nivå, medalj, rekord.
+
+   Ytorna är hexvärden med några procent av kursfärgen inblandad, så att
+   korten ärver rummets ljus utan genomskinlighet. Alla värden nedan är
+   kontrollerade mot WCAG AA (minst 4,5:1 för brödtext).
    ========================================================== */
 :root{
+
   color-scheme:light;
-  --bg:#f1f5f9;
-  --glow1:rgba(88,158,224,.20);
-  --glow2:rgba(150,190,235,.16);
-  --surface:#ffffff;
-  --surface2:#f7fafc;
-  --surface3:#eef4fa;
-  --glass:rgba(247,250,253,.78);
-  --ink:#0d1a24;
-  --ink2:#4b5f6e;
-  --ink3:#8698a5;
-  --hair:rgba(13,45,72,.09);
-  --hair2:rgba(13,45,72,.17);
-  --acc:#1b7fd0;
-  --acc2:#0f5f9f;
-  --accInk:#0f5f9f;
-  --accSoft:rgba(27,127,208,.10);
-  --gold:#96701c;
-  --gold2:#d3a544;
-  --goldSoft:rgba(190,145,50,.13);
-  --good:#0f7a59;
-  --goodSoft:rgba(15,122,89,.10);
-  --warn:#9a6a12;
-  --warnSoft:rgba(180,125,25,.12);
-  --bad:#b04a4d;
-  --badSoft:rgba(176,74,77,.10);
-  --e1:0 1px 2px rgba(11,33,51,.05),0 10px 26px -12px rgba(11,33,51,.20);
-  --e2:0 2px 5px rgba(11,33,51,.06),0 30px 70px -24px rgba(11,33,51,.30);
+  /* Bläck och hårstreck. --ink3 är höjd från #8698a5 (2,7:1, underkänt
+     enligt WCAG AA) till #616e81 (4,6:1 mot bakgrunden). */
+  --ink:#0E141C;
+  --ink2:#4A5766;
+  --ink3:#616E81;
+  --hair:rgba(14,30,50,.10);
+  --hair2:rgba(14,30,50,.19);
+  /* Ljuskanten överst på varje upphöjd yta. Den gör att korten läses
+     som gjutna i stället för ritade, och den ska sitta på allt som
+     ligger ovanpå bakgrunden. */
+  --specular:rgba(255,255,255,.92);
+  /* Mässing: belöning och ingenting annat. XP, nivå, medalj, rekord. */
+  --gold:#8A6A1E;
+  --gold2:#C79A3C;
+  --goldSoft:rgba(160,120,40,.13);
+  --brass:var(--gold);--brass2:var(--gold2);--brassSoft:var(--goldSoft);
+  /* Bärnsten: det enda varningsläget. Används av områden som bleknat. */
+  --warn:#8A5E10;
+  --warnSoft:rgba(180,125,25,.13);
+  --amber:var(--warn);--amberSoft:var(--warnSoft);
+  /* Rätt och fel i rättningen. Aldrig svårighetsgrad. */
+  --good:#12704F;
+  --goodSoft:rgba(18,112,79,.10);
+  --bad:#B03F42;
+  --badSoft:rgba(176,63,66,.10);
+  --e1:0 1px 2px rgba(11,33,51,.05),0 10px 26px -14px rgba(11,33,51,.22);
+  --e2:0 2px 6px rgba(11,33,51,.07),0 40px 80px -30px rgba(11,33,51,.34);
   --ui:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --read:"Atkinson Hyperlegible",system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,monospace;
   --ease:cubic-bezier(.2,.8,.2,1);
-  /* Märkesblå för "gymmet". Ikonens ljusblå är för ljus mot vitt,
-     så ljusa läget använder en djupare ton av samma blå. */
-  --brand:#1f8ad4;
+  --brand:#1A66C2;
+  --korn:.022;
+  --glowVarm:rgba(255,168,92,.13);
+  /* Ljust läge, grundton: blå (spår 1c och 2c). */
+  --bg:#E7EEF9;
+  --surface:#FCFDFF;--surface2:#F3F7FD;--surface3:#E3EBF7;
+  --glass:rgba(242,247,253,0.78);
+  --acc:#1A66C2;--acc2:#15599F;--accInk:#15599F;--accSoft:rgba(26,102,194,0.11);
+  --glow1:rgba(26,102,194,0.3);--glow2:rgba(47,111,224,0.225);
+  --lvl1:#79A5DC;--lvl2:#1A66C2;--lvl3:#13498C;
 }
-/* Bokens färg styr ljusa läget: a = rött, b = grönt, c = blått,
+/* Bokens färg styr accenten: a = rött, b = grönt, c = blått,
    Fysik 1 = turkos, Fysik 2 = blålila. */
-html[data-theme="light"][data-accent="a"]{
-  --bg:#faf3f2;--glow1:rgba(203,108,98,.20);--glow2:rgba(219,152,142,.15);
-  --surface2:#fdf8f7;--surface3:#f7ebe9;--glass:rgba(253,247,246,.78);
-  --hair:rgba(74,26,24,.10);--hair2:rgba(74,26,24,.18);
-  --acc:#bf453f;--acc2:#98322d;--accInk:#98322d;--accSoft:rgba(191,69,63,.10);
+html[data-theme="light"][data-accent="a"]{  /* 1a och 2a */
+  --bg:#F2ECF0;
+  --surface:#FFFDFC;--surface2:#F8F6F9;--surface3:#EDE9EE;
+  --glass:rgba(249,246,247,0.78);
+  --acc:#C2453B;--acc2:#A6382F;--accInk:#A6382F;--accSoft:rgba(194,69,59,0.11);
+  --glow1:rgba(194,69,59,0.3);--glow2:rgba(224,91,82,0.225);
+  --lvl1:#DC928C;--lvl2:#C2453B;--lvl3:#8C322A;
 }
-html[data-theme="light"][data-accent="b"]{
-  --bg:#f1f8f3;--glow1:rgba(74,160,116,.18);--glow2:rgba(130,190,155,.15);
-  --surface2:#f7fcf9;--surface3:#e9f5ee;--glass:rgba(247,252,249,.78);
-  --hair:rgba(14,60,40,.10);--hair2:rgba(14,60,40,.18);
-  --acc:#2c8b61;--acc2:#1d6b49;--accInk:#1d6b49;--accSoft:rgba(44,139,97,.10);
+html[data-theme="light"][data-accent="b"]{  /* 1b och 2b */
+  --bg:#E6F2F1;
+  --surface:#FBFEFD;--surface2:#F2F9FA;--surface3:#E2EEF0;
+  --glass:rgba(241,249,248,0.78);
+  --acc:#17835A;--acc2:#116B49;--accInk:#116B49;--accSoft:rgba(23,131,90,0.11);
+  --glow1:rgba(23,131,90,0.3);--glow2:rgba(43,168,115,0.225);
+  --lvl1:#77B79E;--lvl2:#17835A;--lvl3:#115E41;
 }
-html[data-theme="light"][data-accent="fy1"]{
-  --bg:#eff8f8;--glow1:rgba(50,160,155,.18);--glow2:rgba(120,195,190,.15);
-  --surface2:#f6fcfc;--surface3:#e6f4f4;--glass:rgba(246,252,252,.78);
-  --hair:rgba(10,58,58,.10);--hair2:rgba(10,58,58,.18);
-  --acc:#159490;--acc2:#0b716e;--accInk:#0b716e;--accSoft:rgba(21,148,144,.10);
+html[data-theme="light"][data-accent="fy1"]{  /* Fysik 1 */
+  --bg:#E4F2F4;
+  --surface:#FBFEFE;--surface2:#F2F9FB;--surface3:#E0EEF3;
+  --glass:rgba(240,249,250,0.78);
+  --acc:#0C8478;--acc2:#0A6B61;--accInk:#0A6B61;--accSoft:rgba(12,132,120,0.11);
+  --glow1:rgba(12,132,120,0.3);--glow2:rgba(18,160,145,0.225);
+  --lvl1:#70B7B0;--lvl2:#0C8478;--lvl3:#095F56;
 }
-html[data-theme="light"][data-accent="fy2"]{
-  --bg:#f4f4fc;--glow1:rgba(110,110,205,.18);--glow2:rgba(155,155,220,.15);
-  --surface2:#f9f9fd;--surface3:#ececf8;--glass:rgba(249,249,253,.78);
-  --hair:rgba(34,32,80,.10);--hair2:rgba(34,32,80,.18);
-  --acc:#5b5fc7;--acc2:#43469f;--accInk:#43469f;--accSoft:rgba(91,95,199,.11);
+html[data-theme="light"][data-accent="fy2"]{  /* Fysik 2 */
+  --bg:#EBECF8;
+  --surface:#FDFCFF;--surface2:#F5F6FD;--surface3:#E7E9F6;
+  --glass:rgba(245,245,253,0.78);
+  --acc:#6B45CE;--acc2:#5C39B4;--accInk:#5C39B4;--accSoft:rgba(107,69,206,0.11);
+  --glow1:rgba(107,69,206,0.3);--glow2:rgba(123,84,232,0.225);
+  --lvl1:#A892E3;--lvl2:#6B45CE;--lvl3:#4D3294;
 }
+
+/* ---------- mörkt läge (standard) ----------
+   Basen är djupare än förut (#070a11 med några procent kursfärg) för
+   att ljuskällorna nedan ska ha något att lysa mot. Till skillnad från
+   tidigare byter även mörka läget accent med kursen. */
 html[data-theme="dark"]{
+
   color-scheme:dark;
-  --bg:#0a1119;
-  --glow1:rgba(52,120,180,.20);
-  --glow2:rgba(40,90,140,.16);
-  --surface:#131e28;
-  --surface2:#17242f;
-  --surface3:#1d2e3b;
-  --glass:rgba(15,24,33,.76);
-  --ink:#e8f1f8;
-  --ink2:#a9bdca;
-  --ink3:#7c93a2;
-  --hair:rgba(160,205,235,.13);
-  --hair2:rgba(160,205,235,.24);
-  --acc:#4aa3e8;
-  --acc2:#7cc2f5;
-  --accInk:#9ad3fa;
-  --accSoft:rgba(74,163,232,.14);
-  --gold:#e2bb72;
-  --gold2:#f0d296;
-  --goldSoft:rgba(226,187,114,.14);
-  --good:#5cc39d;
-  --goodSoft:rgba(92,195,157,.13);
-  --warn:#dcb268;
-  --warnSoft:rgba(220,178,104,.13);
-  --bad:#e0898c;
+  --ink:#EDF1F8;
+  --ink2:#A6B1C4;
+  --ink3:#7F8B9F;
+  --hair:rgba(255,255,255,.09);
+  --hair2:rgba(255,255,255,.17);
+  --specular:rgba(255,255,255,.13);
+  --gold:#E7C583;
+  --gold2:#F0D296;
+  --goldSoft:rgba(231,197,131,.14);
+  --brass:var(--gold);--brass2:var(--gold2);--brassSoft:var(--goldSoft);
+  --warn:#F2B959;
+  --warnSoft:rgba(242,185,89,.14);
+  --amber:var(--warn);--amberSoft:var(--warnSoft);
+  --good:#5CC39D;
+  --goodSoft:rgba(92,195,157,.14);
+  --bad:#E0898C;
   --badSoft:rgba(224,137,140,.13);
-  --e1:0 1px 2px rgba(0,0,0,.30),0 12px 30px -14px rgba(0,0,0,.55);
-  --e2:0 2px 6px rgba(0,0,0,.35),0 34px 80px -28px rgba(0,0,0,.75);
-  --brand:#7acbfc;
+  --e1:0 1px 1px rgba(0,0,0,.40),0 12px 28px -18px rgba(0,0,0,.9);
+  --e2:0 2px 4px rgba(0,0,0,.42),0 40px 80px -32px rgba(0,0,0,1);
+  --brand:#6EA8FF;
+  --korn:.038;
+  --glowVarm:rgba(255,170,100,.10);
+  --bg:#090F1B;
+  --surface:#151F34;--surface2:#1B263C;--surface3:#23314B;
+  --glass:rgba(13,21,36,0.74);
+  --acc:#6EA8FF;--acc2:#2F6FE0;--accInk:#6EA8FF;--accSoft:rgba(110,168,255,0.15);
+  --glow1:rgba(110,168,255,0.24);--glow2:rgba(47,111,224,0.195);
+  --lvl1:#466AA4;--lvl2:#6EA8FF;--lvl3:#A1C6FF;
+}
+html[data-theme="dark"][data-accent="a"]{  /* 1a och 2a */
+  --bg:#120E14;
+  --surface:#221E29;--surface2:#282432;--surface3:#332F3E;
+  --glass:rgba(25,19,26,0.74);
+  --acc:#FF9089;--acc2:#E05B52;--accInk:#FF9089;--accSoft:rgba(255,144,137,0.15);
+  --glow1:rgba(255,144,137,0.24);--glow2:rgba(224,91,82,0.195);
+  --lvl1:#9C5D5E;--lvl2:#FF9089;--lvl3:#FFB7B2;
+}
+html[data-theme="dark"][data-accent="b"]{  /* 1b och 2b */
+  --bg:#091216;
+  --surface:#15242C;--surface2:#1A2A34;--surface3:#233641;
+  --glass:rgba(12,25,29,0.74);
+  --acc:#5AD59D;--acc2:#2BA873;--accInk:#5AD59D;--accSoft:rgba(90,213,157,0.15);
+  --glow1:rgba(90,213,157,0.24);--glow2:rgba(43,168,115,0.195);
+  --lvl1:#3B856A;--lvl2:#5AD59D;--lvl3:#94E4BF;
+}
+html[data-theme="dark"][data-accent="fy1"]{  /* Fysik 1 */
+  --bg:#081217;
+  --surface:#13232E;--surface2:#182A36;--surface3:#213644;
+  --glass:rgba(11,24,31,0.74);
+  --acc:#3FD9C6;--acc2:#12A091;--accInk:#3FD9C6;--accSoft:rgba(63,217,198,0.15);
+  --glow1:rgba(63,217,198,0.24);--glow2:rgba(18,160,145,0.195);
+  --lvl1:#2B8782;--lvl2:#3FD9C6;--lvl3:#82E6DA;
+}
+html[data-theme="dark"][data-accent="fy2"]{  /* Fysik 2 */
+  --bg:#0D0E1C;
+  --surface:#1B1D35;--surface2:#20243D;--surface3:#2A2F4B;
+  --glass:rgba(18,19,37,0.74);
+  --acc:#A78BFA;--acc2:#7B54E8;--accInk:#A78BFA;--accSoft:rgba(167,139,250,0.15);
+  --glow1:rgba(167,139,250,0.24);--glow2:rgba(123,84,232,0.195);
+  --lvl1:#685AA1;--lvl2:#A78BFA;--lvl3:#C6B4FC;
 }
 *{box-sizing:border-box}
 html{min-height:100%;background:var(--bg)}
@@ -184,12 +252,28 @@ body{
   margin:0;min-height:100vh;color:var(--ink);font-family:var(--ui);
   background:var(--bg);-webkit-font-smoothing:antialiased;
   letter-spacing:-.011em;
+  /* Siffror i tabeller, staplar och XP ska stå stilla mellan omritningar.
+     Instrument Sans har egna sifferbredder, så monospace behövs inte. */
+  font-variant-numeric:tabular-nums;
+  transition:background .55s var(--ease);
 }
+/* Rummets ljus. Två kalla källor i kursens färg och en varm nedtill.
+   Det är den tredje, varma, som gör att ytan slutar läsas som en
+   webbsida och börjar läsas som ett rum. */
 body:before{
-  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
   background:
-    radial-gradient(1100px 640px at 8% -14%,var(--glow1),transparent 62%),
-    radial-gradient(900px 560px at 102% 4%,var(--glow2),transparent 60%);
+    radial-gradient(120vw 78vh at 10% -16%,var(--glow1),transparent 60%),
+    radial-gradient(92vw 62vh at 104% 4%,var(--glow2),transparent 58%),
+    radial-gradient(78vw 48vh at 52% 116%,var(--glowVarm,rgba(255,176,103,.07)),transparent 62%);
+  transition:background .55s var(--ease);
+}
+/* Kornet. Några procent brus över hela sidan är skillnaden mellan
+   gradienter som ser ut som plast och gradienter som ser ut som papper. */
+body:after{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  opacity:var(--korn);mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 button,input,select,textarea{font:inherit;color:inherit;letter-spacing:inherit}
 button{cursor:pointer;border:0;background:none;padding:0}
@@ -234,7 +318,7 @@ a{color:inherit}
   border:1px solid var(--hair);border-radius:13px;background:var(--surface);
   padding:10px 16px;font-weight:600;font-size:14.5px;color:var(--ink);
   transition:transform .2s var(--ease),background .2s ease,border-color .2s ease,box-shadow .2s ease,color .2s ease;
-  box-shadow:0 1px 2px rgba(11,33,51,.04);
+  box-shadow:0 1px 2px rgba(11,33,51,.05),inset 0 1px 0 var(--specular);
 }
 .btn:hover{border-color:var(--hair2);background:var(--surface2)}
 .btn:active{transform:scale(.97)}
@@ -297,7 +381,8 @@ a{color:inherit}
 h1,h2,h3{letter-spacing:-.04em;margin:0}
 .sec{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:0 0 14px}
 .sec h2{font-size:15px;font-weight:600;letter-spacing:-.02em;color:var(--ink2)}
-.card{background:var(--surface);border:1px solid var(--hair);border-radius:22px;box-shadow:var(--e1)}
+.card{background:var(--surface);border:1px solid var(--hair);border-radius:22px;
+  box-shadow:var(--e1),inset 0 1px 0 var(--specular)}
 .pad{padding:22px}
 
 /* ---------- inloggningssida ---------- */
@@ -448,7 +533,7 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
   box-shadow:
     0 1px 1.5px rgba(11,33,51,.06),
     0 12px 24px -16px var(--toneGlow),
-    inset 0 1px 0 rgba(255,255,255,.9);
+    inset 0 1px 0 var(--specular);
   transition:transform .28s var(--ease),box-shadow .28s var(--ease),border-color .22s ease;
   display:flex;align-items:center;gap:15px;min-height:88px;
 }
@@ -461,26 +546,27 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
   box-shadow:
     0 2px 3px rgba(11,33,51,.07),
     0 26px 38px -20px var(--toneGlow),
-    inset 0 1px 0 rgba(255,255,255,.95);
+    inset 0 1px 0 var(--specular);
 }
 .area:hover:before{opacity:1}
 .area:active{transform:translateY(-1px) scale(.99)}
-.area.t-good{--tone:var(--good);--toneWash:rgba(15,122,89,.13);--toneEdge:rgba(15,122,89,.28);
-  --toneDisc:rgba(15,122,89,.13);--toneGlow:rgba(15,122,89,.55)}
-.area.t-mid{--tone:var(--acc);--toneWash:var(--accSoft);--toneEdge:rgba(27,127,208,.30);
-  --toneDisc:var(--accSoft);--toneGlow:rgba(27,127,208,.55)}
-.area.t-low{--tone:var(--warn);--toneWash:rgba(176,124,25,.15);--toneEdge:rgba(176,124,25,.32);
-  --toneDisc:rgba(176,124,25,.15);--toneGlow:rgba(150,105,20,.55)}
+.area.t-good{--tone:var(--gold);--toneWash:var(--goldSoft);--toneEdge:rgba(190,145,50,.30);
+  --toneDisc:var(--goldSoft);--toneGlow:rgba(190,145,50,.55)}
+.area.t-mid{--tone:var(--accInk);--toneWash:var(--accSoft);--toneEdge:var(--hair2);
+  --toneDisc:var(--accSoft);--toneGlow:var(--accSoft)}
+.area.t-low{--tone:var(--amber);--toneWash:var(--amberSoft);--toneEdge:rgba(176,124,25,.32);
+  --toneDisc:var(--amberSoft);--toneGlow:rgba(150,105,20,.55)}
 html[data-theme="dark"] .area{
   --toneEdge:var(--hair2);
+  box-shadow:0 1px 1px rgba(0,0,0,.28),0 14px 28px -18px #000,inset 0 1px 0 var(--specular);
   background:
     linear-gradient(158deg,var(--toneWash) 0%,transparent 60%),
     linear-gradient(168deg,var(--surface2) 0%,var(--surface) 100%);
   box-shadow:0 1px 1px rgba(0,0,0,.28),0 14px 28px -18px #000,inset 0 1px 0 rgba(255,255,255,.06);
 }
-html[data-theme="dark"] .area.t-good{--toneWash:rgba(92,195,157,.15);--toneEdge:rgba(92,195,157,.28)}
-html[data-theme="dark"] .area.t-mid{--toneWash:rgba(74,163,232,.16);--toneEdge:rgba(74,163,232,.30)}
-html[data-theme="dark"] .area.t-low{--toneWash:rgba(220,178,104,.15);--toneEdge:rgba(220,178,104,.28)}
+html[data-theme="dark"] .area.t-good{--toneWash:var(--goldSoft);--toneEdge:rgba(231,197,131,.28)}
+html[data-theme="dark"] .area.t-mid{--toneWash:var(--accSoft);--toneEdge:var(--hair2)}
+html[data-theme="dark"] .area.t-low{--toneWash:var(--amberSoft);--toneEdge:rgba(242,185,89,.28)}
 html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 44px -22px #000,inset 0 1px 0 rgba(255,255,255,.08)}
 .area-ring{position:relative;width:46px;height:46px;flex:none;display:grid;place-items:center}
 .area-ring:before{
@@ -491,7 +577,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .area-ring .pip{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--tone);opacity:.4}
 .area.t-new .ring circle:first-child{stroke-dasharray:0.1 6;stroke-linecap:round;stroke-width:3.4}
 .area-txt{min-width:0;display:flex;flex-direction:column;gap:4px}
-.area strong{font-size:14.5px;font-weight:600;line-height:1.25;letter-spacing:-.02em}
+.area strong{font-size:14.5px;font-weight:600;line-height:1.25;letter-spacing:-.02em;overflow-wrap:anywhere}
 .area .state{font-size:11.5px;font-weight:600;letter-spacing:.005em;color:var(--tone)}
 .area.stack{flex-direction:column;align-items:stretch;gap:11px;min-height:96px}
 .area.stack .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
@@ -524,7 +610,8 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .rankfoot{margin-top:9px;display:flex;justify-content:space-between;font-size:11.5px;color:var(--ink3);font-family:var(--mono)}
 
 .tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
-.tile{padding:12px;border-radius:14px;background:var(--surface2);border:1px solid var(--hair)}
+.tile{padding:12px;border-radius:14px;background:var(--surface2);border:1px solid var(--hair);
+  box-shadow:inset 0 1px 0 var(--specular)}
 .tile span{display:block;font-size:10.5px;font-family:var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
 .tile strong{display:block;margin-top:5px;font-size:19px;letter-spacing:-.04em}
 
@@ -601,20 +688,20 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .kaptop{display:flex;align-items:baseline;gap:10px}
 .kaptop b{flex:1;min-width:0;font-size:14px;font-weight:600;letter-spacing:-.015em}
 .kaptop .lbl{font-size:11.5px;font-weight:600}
-.kaptop .lbl.s-good{color:var(--good)}.kaptop .lbl.s-mid{color:var(--accInk)}
-.kaptop .lbl.s-low{color:var(--warn)}.kaptop .lbl.s-new{color:var(--ink3)}
+.kaptop .lbl.s-good{color:var(--gold)}.kaptop .lbl.s-mid{color:var(--accInk)}
+.kaptop .lbl.s-low{color:var(--amber)}.kaptop .lbl.s-new{color:var(--ink3)}
 .kaptop .num{font-family:var(--mono);font-size:11.5px;color:var(--ink3);min-width:34px;text-align:right}
 .kapbar{display:flex;gap:4px;height:9px;margin-top:11px}
 .kapbar span{border-radius:99px;background:var(--hair);overflow:hidden;box-shadow:inset 0 1px 2px rgba(11,33,51,.10)}
 .kapbar span i{display:block;height:100%;width:0;border-radius:99px;transition:width 1.2s var(--ease)}
 .kapbar .z1{flex:45}.kapbar .z2{flex:35}.kapbar .z3{flex:20}
-.kapbar .z1 i{background:linear-gradient(90deg,var(--good),var(--good))}
-.kapbar .z2 i{background:linear-gradient(90deg,var(--acc),var(--acc2))}
-.kapbar .z3 i{background:linear-gradient(90deg,#c79a3c,var(--gold2))}
+.kapbar .z1 i{background:var(--lvl1)}
+.kapbar .z2 i{background:var(--lvl2)}
+.kapbar .z3 i{background:var(--lvl3)}
 .kaplegend{display:flex;gap:14px;font-family:var(--mono);font-size:10px;letter-spacing:.09em;
   text-transform:uppercase;color:var(--ink3);margin-top:2px}
 .kaplegend i{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:1px}
-.kaplegend .l1 i{background:var(--good)}.kaplegend .l2 i{background:var(--acc)}.kaplegend .l3 i{background:var(--gold2)}
+.kaplegend .l1 i{background:var(--lvl1)}.kaplegend .l2 i{background:var(--lvl2)}.kaplegend .l3 i{background:var(--lvl3)}
 .redo{margin-top:6px;font-family:var(--read);font-size:14.5px;line-height:1.5;color:var(--ink2);letter-spacing:0}
 .redo b{color:var(--ink)}
 
@@ -626,7 +713,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 }
 .row:hover{border-color:var(--hair2);background:var(--surface3)}
 .row .dot{width:7px;height:7px;border-radius:50%;background:var(--acc);flex:none}
-.row .dot.warn{background:var(--gold2)}
+.row .dot.warn{background:var(--amber)}
 .row .dot.good{background:var(--good)}
 .row .name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500}
 .row .val{font-family:var(--mono);font-size:11px;color:var(--ink3)}
@@ -660,7 +747,8 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .dots i{width:7px;height:7px;border-radius:50%;background:var(--hair2);transition:.35s var(--ease)}
 .dots i.done{background:var(--acc);transform:scale(1.1)}
 .dots i.now{background:var(--acc);box-shadow:0 0 0 4px var(--accSoft)}
-.task{border:1px solid var(--hair);border-radius:26px;background:var(--surface);box-shadow:var(--e2);overflow:hidden}
+.task{border:1px solid var(--hair);border-radius:26px;background:var(--surface);
+  box-shadow:var(--e2),inset 0 1px 0 var(--specular);overflow:hidden}
 .tmeta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:15px 20px;border-bottom:1px solid var(--hair);background:var(--surface2)}
 .tag{
   display:inline-flex;align-items:center;height:24px;padding:0 10px;border-radius:99px;
@@ -668,11 +756,17 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 }
 .tag.lv{gap:8px;padding-left:10px;font-weight:600;border-color:transparent}
 .tag.lv .pips{display:inline-flex;gap:3px;align-items:center}
-.tag.lv .pips b{width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.24}
+.tag.lv .pips b{width:5px;height:5px;border-radius:50%;background:var(--ink3);opacity:.22}
 .tag.lv .pips b.on{opacity:1}
-.tag.lv1{background:var(--goodSoft);color:var(--good)}
-.tag.lv2{background:var(--accSoft);color:var(--accInk)}
-.tag.lv3{background:var(--goldSoft);color:var(--gold)}
+/* Svårighetsgraden bärs av antalet fyllda prickar, inte av kulören.
+   Tidigare lånade nivåerna grönt, kursblått och guld, vilket gjorde att
+   samma tre färger betydde både svårighet, form och belöning. Nu är
+   brickan neutral och de tre färgspråken kan inte längre förväxlas. */
+.tag.lv{background:var(--surface3);color:var(--ink2);border-color:var(--hair)}
+.tag.lv1 .pips b{background:var(--lvl1)}
+.tag.lv2 .pips b{background:var(--lvl2)}
+.tag.lv3 .pips b{background:var(--lvl3)}
+.tag.lv3{color:var(--ink);font-weight:700}
 .tid{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--ink3)}
 .verktygsikoner{display:inline-flex;align-items:center;gap:5px;flex:none}
 .verktygsikon{
@@ -913,6 +1007,9 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   .course-grid{grid-template-columns:1fr}
   .side{grid-template-columns:1fr}
   .area-grid{grid-template-columns:1fr 1fr}
+  /* Långa områdesnamn får inte kapas. Under 430 px står korten i en
+     spalt i stället för två. */
+  @media(max-width:430px){.area-grid{grid-template-columns:1fr}}
   .hero{padding:34px 2px 26px}
   .tbody{font-size:17px;padding:22px 18px}
   .tmeta,.azone{padding-left:16px;padding-right:16px}
@@ -939,19 +1036,19 @@ const COURSES = {
     name:"Fysik nivå 1", code:"Fy1", subject:"Fysik",
     files:["struktur.js","uppgifter.js"],
     globals:{bank:"BANK",kap:"KAPNAMN",kapSpar:"KAPNAMNSPAR",omr:"OMR",grupp:"GRUPP"},
-    tracks:[], tint:"#159490"
+    tracks:[], tint:"#16A99A"
   },
   fy2:{
     name:"Fysik nivå 2", code:"Fy2", subject:"Fysik",
     files:["struktur2.js","uppgifter2.js"],
     globals:{bank:"BANK2",kap:"KAPNAMN2",kapSpar:"KAPNAMN2SPAR",omr:"OMR2",grupp:"GRUPP2"},
-    tracks:[], tint:"#5b5fc7"
+    tracks:[], tint:"#8A63EE"
   },
   ma1:{
     name:"Matematik nivå 1", code:"Ma1", subject:"Matematik",
     files:["strukturma1.js","uppgifterma1.js"],
     globals:{bank:"BANKMA1",kap:"KAPNAMNMA1",kapSpar:"KAPNAMNMA1SPAR",omr:"OMRMA1",grupp:"GRUPPMA1"},
-    tracks:["1a","1b","1c"], defaultTrack:"1c", tint:"#3f92db",
+    tracks:["1a","1b","1c"], defaultTrack:"1c", tint:"#4A86EE",
     // Stryks helt ur Kunskapsgymmet. Matchas mot kapitlets namn,
     // områdets namn eller områdets nyckel.
     utanOmraden:["digitala verktyg, problemlösning och modellering"]
@@ -960,25 +1057,25 @@ const COURSES = {
     name:"Matematik nivå 2", code:"Ma2", subject:"Matematik",
     files:["strukturma2.js","uppgifterma2.js"],
     globals:{bank:"BANKMA2",kap:"KAPNAMNMA2",kapSpar:"KAPNAMNMA2SPAR",omr:"OMRMA2",grupp:"GRUPPMA2"},
-    tracks:["2a","2b","2c"], defaultTrack:"2c", tint:"#2f7fc9"
+    tracks:["2a","2b","2c"], defaultTrack:"2c", tint:"#3A6FE2"
   },
   mato1:{
     name:"Matematik – fortsättning nivå 1", code:"Ma forts 1", subject:"Matematik",
     files:["strukturmato1.js","uppgiftermato1.js"],
     globals:{bank:"BANKMATO1",kap:"KAPNAMNMATO1",kapSpar:"KAPNAMNMATO1SPAR",omr:"OMRMATO1",grupp:"GRUPPMATO1"},
-    tracks:["1b","1c"], defaultTrack:"1c", tint:"#4f9ad0"
+    tracks:["1b","1c"], defaultTrack:"1c", tint:"#5A8FE8"
   },
   mato2:{
     name:"Matematik – fortsättning nivå 2", code:"Ma forts 2", subject:"Matematik",
     files:["strukturmato2.js","uppgiftermato2.js"],
     globals:{bank:"BANKMATO2",kap:"KAPNAMNMATO2",kapSpar:"KAPNAMNMATO2SPAR",omr:"OMRMATO2",grupp:"GRUPPMATO2"},
-    tracks:["2c"], defaultTrack:"2c", tint:"#4288bd"
+    tracks:["2c"], defaultTrack:"2c", tint:"#4478D2"
   },
   matf1:{
     name:"Matematik – fördjupning nivå 1", code:"Ma fördj 1", subject:"Matematik",
     files:["strukturmatf1.js","uppgiftermatf1.js"],
     globals:{bank:"BANKMATF1",kap:"KAPNAMNMATF1",kapSpar:"KAPNAMNMATF1SPAR",omr:"OMRMATF1",grupp:"GRUPPMATF1"},
-    tracks:[], tint:"#4a7fc9"
+    tracks:[], tint:"#6D6FE0"
   }
 };
 
@@ -1167,6 +1264,7 @@ async function synkaProfil(){
   }
   await skickaMolnprofil();
 }
+const BANK_VERSION="2026-09-07";
 const app=document.getElementById("app");
 
 const state={
@@ -1411,13 +1509,20 @@ function checkBadges(){
    TEMA, HJÄLPARE, ANIMATION
    ========================================================== */
 
-const ACCENT_BG={a:"#faf3f2",b:"#f1f8f3",c:"#f1f5f9",fy1:"#eff8f8",fy2:"#f4f4fc"};
+/* Adressfältets färg på mobil. Måste följa både läget och kursen,
+   annars syns en skarv mellan telefonens ram och sidans bakgrund. */
+const ACCENT_BG={
+  ljus:{a:"#F2ECF0",b:"#E6F2F1",c:"#E7EEF9",fy1:"#E4F2F4",fy2:"#EBECF8"},
+  mork:{a:"#120E14",b:"#091216",c:"#090F1B",fy1:"#081217",fy2:"#0D0E1C"}
+};
 function accentKey(){
-  if(!state.course) return "";
+  if(!state.course) return "c";
   if(state.course==="fy1") return "fy1";
   if(state.course==="fy2") return "fy2";
   const m=String(state.track||"").match(/[abc]$/i);
-  return m ? m[0].toLowerCase() : "";
+  // Fortsättnings- och fördjupningskurserna saknar spår men ska ändå
+  // ha ett ljus i rummet. De faller tillbaka på blått, som spår c.
+  return m ? m[0].toLowerCase() : "c";
 }
 function applyAccent(){
   const k=accentKey();
@@ -1428,9 +1533,10 @@ function applyAccent(){
 function syncThemeColor(){
   const meta=document.querySelector('meta[name="theme-color"]');
   if(!meta) return;
-  meta.content = document.documentElement.dataset.theme==="dark"
-    ? "#0a1119"
-    : (ACCENT_BG[accentKey()] || "#f1f5f9");
+  const mork = document.documentElement.dataset.theme==="dark";
+  const k = accentKey();
+  meta.content = mork ? (ACCENT_BG.mork[k] || "#090F1B")
+                      : (ACCENT_BG.ljus[k] || "#E7EEF9");
 }
 function setTheme(next){
   document.documentElement.dataset.theme=next;
@@ -1736,7 +1842,10 @@ async function loadScript(src){
   if(loadedScripts.has(src)) return;
   await new Promise((resolve,reject)=>{
     const s=document.createElement("script");
-    s.src=src+"?v="+Date.now();
+    // Versionssträngen bumpas för hand när en uppgiftsbank ändras.
+    // Date.now() här gjorde att bankerna laddades om från nätet vid
+    // varje besök, vilket märks på ett klassrum som startar samtidigt.
+    s.src=src+"?v="+BANK_VERSION;
     s.onload=()=>{loadedScripts.add(src);resolve();};
     s.onerror=()=>reject(new Error("Kunde inte ladda "+src));
     document.head.appendChild(s);
@@ -3294,7 +3403,7 @@ function renderTraining(){
                 ? `<div class="hint">Delar utan entydigt svar bedömer du själv mot facit.</div>`
                 : "")
             : `<div class="hint">Den här uppgiften bedömer du själv efter att du sett facit.</div>`}
-          <div id="answer-result"></div>
+          <div id="answer-result" role="status" aria-live="polite"></div>
           <div id="solution-holder"></div>
         </div>
       </article>

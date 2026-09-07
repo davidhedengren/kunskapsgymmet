@@ -381,6 +381,13 @@ a{color:inherit}
 .pill .gain.fly{animation:xpfly 1.6s var(--ease) both}
 .pill.tick{border-color:var(--gold2);box-shadow:0 0 0 4px var(--goldSoft)}
 .flame{color:var(--gold);font-weight:700}
+
+/* Topplistepillret. Samma form som rangen, men i gränssnittets färg
+   i stället för mässing — det är en väg någonstans, inte en belöning. */
+.topppill{gap:8px;padding:6px 14px 6px 11px;color:var(--ink2)}
+.topppill:hover{color:var(--ink);background:var(--surface2)}
+.topppill .pallmarke{width:16px;height:16px;flex:none;display:block}
+.topppill .topptext{white-space:nowrap}
 .konto{
   width:34px;height:34px;border-radius:50%;overflow:hidden;display:grid;place-items:center;flex:none;
   border:1px solid var(--hair);background:var(--accSoft);color:var(--accInk);
@@ -1216,12 +1223,28 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 @media(max-width:820px){
   .topbar .pill .xpnum{display:none}
 }
+@media(max-width:760px){
+  .topbar .pill .rname{display:none}
+}
+/* Pallen blir en ren ikon när texten inte längre får plats. */
+@media(max-width:680px){
+  .topppill .topptext{display:none}
+  .topppill{padding:7px;border-radius:11px}
+}
+/* Under 560 px räcker bredden inte till både ordmärket och de tre
+   knapparna till höger. Loggan bär varumärket ensam, och allt som
+   går att klicka på blir kvar. */
+@media(max-width:560px){
+  .topbar .brand>span{display:none}
+  .topbar .brand{gap:0}
+}
 @media(max-width:620px){
   .topbar .inner{height:60px;gap:7px}
   .brand{font-size:15.5px;gap:9px}
   .pill{padding:5px 10px 5px 6px;font-size:12px}
   .pill .rname{display:none}
   .pill .xpbar{width:52px}
+  .topbar .pill .flame{display:none}
   .pill .flame:before{content:"·";margin-right:6px;opacity:.5;color:var(--ink3);font-weight:600}
   .topbar .btn.sm{padding:7px 11px}
   .iconbtn{width:34px;height:34px;border-radius:11px}
@@ -2202,9 +2225,25 @@ function topbar(){
     </button>
     <div class="spacer"></div>
     ${badge}
+    ${toppKnapp()}
     ${kontoKnapp()}
     <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge" aria-label="Byt färgläge">${themeIcon()}</button>
   </div></header>`;
+}
+
+/* Pallen. Egen ingång bredvid rangen, eftersom topplistan är något
+   man går till, inte något man ställer in. */
+const PALL_IKON='<svg class="pallmarke" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+  +'stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+  +'<path d="M9 20V9h6v11"/><path d="M3 20v-6h6"/><path d="M15 14h6v6"/><path d="M3.5 20h17"/>'
+  +'<path d="M12 3.2l1.15 2.33 2.57.38-1.86 1.81.44 2.56L12 9.07l-2.3 1.21.44-2.56-1.86-1.81 2.57-.38z"/></svg>';
+
+function toppKnapp(){
+  if(!MOLN_PA() || !session) return "";
+  return `<button class="pill topppill" onclick="oppnaTopplista()"
+      title="Topplistan — se hur du ligger till" aria-label="Topplistan">
+    ${PALL_IKON}<span class="topptext">Topplistan</span>
+  </button>`;
 }
 
 function kontoKnapp(){
@@ -2248,7 +2287,6 @@ function kontoMeny(ev){
       <p class="menytext" id="menysynlig">${profile.visaTopplista
         ? "Andra ser ditt namn, din nivå och dina medaljer."
         : "Du tränar som vanligt, men syns inte för andra."}</p>`:""}
-      <button class="btn sm wide" onclick="oppnaTopplista()">Öppna topplistan</button>
     </div>
 
     <button class="btn sm wide" onclick="loggaUt()">Logga ut</button>`;

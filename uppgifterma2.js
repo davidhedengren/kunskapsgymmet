@@ -13156,18 +13156,18 @@ window.BANKMA2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\\\(\\\\lg 100\\\\)</div></p>",
-        "s": "<p><div class=\"spel-en-del\">\\\\(100=10^2\\\\), alltså \\\\(\\\\lg100=2\\\\).</div></p><p><strong>Svar: 2</strong></p>"
+        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\(\\lg 100\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(100=10^2\\), alltså \\(\\lg100=2\\).</div></p><p><strong>Svar: 2</strong></p>"
       },
       {
         "etikett": "b",
-        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\\\(\\\\lg 0,001\\\\)</div></p>",
-        "s": "<p><div class=\"spel-en-del\">\\\\(0,001=10^{-3}\\\\), alltså \\\\(\\\\lg0,001=-3\\\\).</div></p><p><strong>Svar: -3</strong></p>"
+        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\(\\lg 0,001\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(0,001=10^{-3}\\), alltså \\(\\lg0,001=-3\\).</div></p><p><strong>Svar: -3</strong></p>"
       },
       {
         "etikett": "c",
-        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\\\(10^{\\\\lg 7}\\\\)</div></p>",
-        "s": "<p><div class=\"spel-en-del\">\\\\(10^{\\\\lg7}=7\\\\), eftersom \\\\(10^x\\\\) och \\\\(\\\\lg x\\\\) är inversa funktioner.</div></p><p><strong>Svar: 7</strong></p>"
+        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\(10^{\\lg 7}\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(10^{\\lg7}=7\\), eftersom \\(10^x\\) och \\(\\lg x\\) är inversa funktioner.</div></p><p><strong>Svar: 7</strong></p>"
       }
     ]
   },
@@ -14022,18 +14022,18 @@ window.BANKMA2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\\\(\\\\lg 1000\\\\)</div></p>",
-        "s": "<p><div class=\"spel-en-del\">\\\\(1000=10^3\\\\), alltså \\\\(\\\\lg1000=3\\\\).</div></p><p><strong>Svar: 3</strong></p>"
+        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\(\\lg 1000\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(1000=10^3\\), alltså \\(\\lg1000=3\\).</div></p><p><strong>Svar: 3</strong></p>"
       },
       {
         "etikett": "b",
-        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\\\(\\\\lg 0,01\\\\)</div></p>",
-        "s": "<p><div class=\"spel-en-del\">\\\\(0,01=10^{-2}\\\\), alltså \\\\(\\\\lg0,01=-2\\\\).</div></p><p><strong>Svar: -2</strong></p>"
+        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\(\\lg 0,01\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(0,01=10^{-2}\\), alltså \\(\\lg0,01=-2\\).</div></p><p><strong>Svar: -2</strong></p>"
       },
       {
         "etikett": "c",
-        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\\\(10^{\\\\lg 12}\\\\)</div></p>",
-        "s": "<p><div class=\"spel-en-del\">\\\\(10^{\\\\lg12}=12\\\\), eftersom tiopotens och tiologaritm är inversa operationer.</div></p><p><strong>Svar: 12</strong></p>"
+        "t": "<p>Bestäm.</p><p><div class=\"spel-en-del\">\\(10^{\\lg 12}\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(10^{\\lg12}=12\\), eftersom tiopotens och tiologaritm är inversa operationer.</div></p><p><strong>Svar: 12</strong></p>"
       }
     ]
   },
@@ -38257,7 +38257,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Bestäm \\\\(\\\\lg\\\\left(\\\\sqrt{1000}\\\\right)\\\\) exakt.</p>",
+    "t": "<p>Bestäm \\(\\lg\\left(\\sqrt{1000}\\right)\\) exakt.</p>",
     "s": "<p>\\(\\sqrt{1000}=(10^3)^{1/2}=10^{3/2}\\). Därför är <strong>\\(3/2\\)</strong>.</p>",
     "familj": "Förstå sambandet mellan exponentialform och logaritm",
     "geogebra": false,
@@ -39002,7 +39002,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En bakteriekultur växer med 14 % per timme. Den börjar med 350 bakterier. Efter hur många hela timmar finns det första gången minst 1000 bakterier?</p>",
-    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\\\(350\\\\cdot1,14^t=1000\\\\) ger \\\\(t\\\\approx8,01\\\\).</p><p>Eftersom gränsen passeras strax efter 8 timmar är den första hela timmen då antalet är minst 1000 <strong>9 timmar</strong>.</p><p><strong>Svar: 9.</strong></p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(350\\cdot1,14^t=1000\\) ger \\(t\\approx8,01\\).</p><p>Eftersom gränsen passeras strax efter 8 timmar är den första hela timmen då antalet är minst 1000 <strong>9 timmar</strong>.</p><p><strong>Svar: 9.</strong></p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -43342,7 +43342,7 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 22.0,
+    "rättSvar": 22,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -43394,7 +43394,7 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 18.0,
+    "rättSvar": 18,
     "tolerans": null,
     "självrättning": true,
     "formaga": [

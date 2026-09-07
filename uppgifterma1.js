@@ -1,7 +1,8 @@
-/* Kunskapsgymmet-rutinuppdelning 2026-09-07
-   Extra metadata: spelDelning och spelDelar.
-   Uppgiftslabbet kan fortsätta använda originaluppgiften med alla deluppgifter.
-   Kunskapsgymmet kan expandera markerade rutinuppgifter till en träningsuppgift per del.
+/* uppgifterma1.js — Matematik nivå 1a, 1b och 1c.
+   Kunskapsgymmet/Uppgiftslabbet rutinutbyggnad 2026-09-07.
+   Ursprungliga uppgifter är bevarade. Nya uppgifter fyller framför allt områden
+   och familjer med få självrättande E/C-rutiner. Extra Kunskapsgymmet-metadata
+   (spelDelning/spelDelar) från tidigare revision är bevarad.
 */
 
 window.BANKMA1 = [
@@ -5972,6 +5973,2438 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ]
+  },
+  {
+    "id": "0.156",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(6+3\\cdot4\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(18\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.157",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(24-12\\div3\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(20\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.158",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(5\\cdot(7-3)\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(20\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.159",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((18+6)\\div4\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(6\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.160",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(36\\div6+5\\cdot2\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(16\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.161",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(7+2\\cdot(9-4)\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(17\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.162",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((15-3)\\div2+4\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(10\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.163",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(30-4\\cdot(2+3)\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(10\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.164",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(8\\cdot3-18\\div6\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(21\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.165",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(4+(16-6)\\div5\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(6\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.166",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((7+5)\\cdot3-8\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(28\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.167",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(48\\div(4+2)+7\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(15\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.168",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(5\\cdot(12-8)+3\\cdot2\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(26\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 26,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.169",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(60\\div5-2\\cdot(3+1)\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(4\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.170",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\((24-8)\\div4+3^2\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(13\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.171",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(2\\cdot(5+7)-3^2\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(15\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.172",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\((18\\div3)^2-5\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(31\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 31,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.173",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(50-2\\cdot[7+(9-4)]\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(26\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 26,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.174",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(3^2+4\\cdot(11-6)\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(29\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 29,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.175",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\((30-6)\\div3+2^3\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna: parenteser och potenser först, sedan multiplikation/division och sist addition/subtraktion.</p><p><strong>Svar:</strong> \\(16\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.176",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>47,36</strong> till heltal.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>47</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 47,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.177",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>82,51</strong> till heltal.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>83</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 83,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.178",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>6,748</strong> till en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>6,7</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.7,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.179",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>3,951</strong> till en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>4,0</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.180",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>12,486</strong> till två decimaler.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>12,49</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.49,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.181",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>0,0746</strong> till tre decimaler.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>0,075</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.075,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.182",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>3 748</strong> till närmaste hundratal.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>3 700</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3700,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.183",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>8 651</strong> till närmaste tusental.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>9 000</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.184",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>149,6</strong> till närmaste tiotal.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>150</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 150,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.185",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>0,9984</strong> till två decimaler.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>1,00</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.186",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>15,049</strong> till en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>15,0</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.187",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>239,51</strong> till närmaste heltal.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>240</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 240,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.188",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>7 449</strong> till närmaste hundratal.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>7 400</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7400,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.189",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>2,675</strong> till två decimaler.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>2,68</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.68,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.190",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>98 750</strong> till närmaste tusental.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>99 000</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 99000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.191",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>0,4449</strong> till tre decimaler.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>0,445</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.445,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.192",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>1 249</strong> till närmaste tiotal.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>1 250</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1250,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.193",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda <strong>56,995</strong> till två decimaler.</p>",
+    "s": "<p><strong>Metod:</strong> Titta på siffran direkt efter den position du ska avrunda till. Är den 5 eller större höjs föregående siffra med 1.</p><p><strong>Svar:</strong> <strong>57,00</strong></p>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 57,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.194",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(49\\cdot21\\) genom att använda <strong>50·20</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 50·20 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>1000</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.195",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(198+403\\) genom att använda <strong>200+400</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 200+400 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>600</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 600,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.196",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(612-297\\) genom att använda <strong>600-300</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 600-300 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>300</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.197",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(79\\cdot51\\) genom att använda <strong>80·50</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 80·50 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>4000</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.198",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(1 498+2 503\\) genom att använda <strong>1 500+2 500</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 1 500+2 500 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>4000</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.199",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(398\\div19\\) genom att använda <strong>400/20</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 400/20 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>20</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.200",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(6,1\\cdot19,8\\) genom att använda <strong>6·20</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 6·20 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>120</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.201",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(303\\cdot0,49\\) genom att använda <strong>300·0,5</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 300·0,5 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>150</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 150,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.202",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(2 980\\div61\\) genom att använda <strong>3 000/60</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 3 000/60 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>50</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.203",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(74+128+203\\) genom att använda <strong>70+130+200</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 70+130+200 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>400</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 400,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.204",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(19,7\\cdot4,9\\) genom att använda <strong>20·5</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 20·5 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>100</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.205",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(998-487\\) genom att använda <strong>1 000-500</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 1 000-500 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>500</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 500,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.206",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Gör ett överslag av \\(1 995\\cdot0,051\\) genom att använda <strong>2 000·0,05</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 2 000·0,05 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>100</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.207",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Gör ett överslag av \\(4 980\\div0,99\\) genom att använda <strong>5 000/1</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 5 000/1 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>5000</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.208",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Gör ett överslag av \\(247\\cdot39\\) genom att använda <strong>250·40</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 250·40 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>10000</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.209",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Gör ett överslag av \\(8,03\\cdot1,98\\) genom att använda <strong>8·2</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 8·2 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>16</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.210",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Gör ett överslag av \\(59 800+20 300-9 900\\) genom att använda <strong>60 000+20 000-10 000</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 60 000+20 000-10 000 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>70000</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 70000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.211",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Gör ett överslag av \\(3 980\\div0,202\\) genom att använda <strong>4 000/0,2</strong>. Beräkna överslaget.</p>",
+    "s": "<p><strong>Metod:</strong> Använd den angivna avrundningen 4 000/0,2 och beräkna.</p><p><strong>Svar:</strong> cirka <strong>20000</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.212",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>3,4 m</strong> till <strong>cm</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>340 cm</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 340,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "0.213",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>850 cm</strong> till <strong>m</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>8,5 m</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "0.214",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>2,75 km</strong> till <strong>m</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>2750 m</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2750,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "0.215",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>6400 m</strong> till <strong>km</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>6,4 km</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "km"
+  },
+  {
+    "id": "0.216",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>4,2 kg</strong> till <strong>g</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>4200 g</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4200,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "g"
+  },
+  {
+    "id": "0.217",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>750 g</strong> till <strong>kg</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>0,75 kg</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.75,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kg"
+  },
+  {
+    "id": "0.218",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>3,5 l</strong> till <strong>ml</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>3500 ml</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3500,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "ml"
+  },
+  {
+    "id": "0.219",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>1250 ml</strong> till <strong>l</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>1,25 l</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.25,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "l"
+  },
+  {
+    "id": "0.220",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>2,4 h</strong> till <strong>min</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>144 min</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 144,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "min"
+  },
+  {
+    "id": "0.221",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>150 min</strong> till <strong>h</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>2,5 h</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "h"
+  },
+  {
+    "id": "0.222",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>0,65 m</strong> till <strong>mm</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>650 mm</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 650,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "mm"
+  },
+  {
+    "id": "0.223",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>480 mm</strong> till <strong>m</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>0,48 m</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.48,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "0.224",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>0,032 kg</strong> till <strong>g</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>32 g</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "g"
+  },
+  {
+    "id": "0.225",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>5 600 mg</strong> till <strong>g</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>5,6 g</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "g"
+  },
+  {
+    "id": "0.226",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>1,8 m³</strong> till <strong>l</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>1800 l</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1800,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "l"
+  },
+  {
+    "id": "0.227",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>750 l</strong> till <strong>m³</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>0,75 m³</strong></p>",
+    "familj": "Omvandla mellan längd-, massa- och volymenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.75,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m³"
+  },
+  {
+    "id": "0.228",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>2,5 m²</strong> till <strong>cm²</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>25000 cm²</strong></p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "0.229",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>36 000 cm²</strong> till <strong>m²</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>3,6 m²</strong></p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "0.230",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>1,25 dygn</strong> till <strong>h</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>30 h</strong></p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "h"
+  },
+  {
+    "id": "0.231",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>3 600 s</strong> till <strong>min</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Använd sambandet mellan enheterna och flytta decimaltecknet eller multiplicera/dividera med rätt omvandlingsfaktor.</p><p><strong>Svar:</strong> <strong>60 min</strong></p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "min"
+  },
+  {
+    "id": "0.232",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv <strong>4 500</strong> i grundpotensform.</p>",
+    "s": "<p><strong>Metod:</strong> Flytta decimaltecknet så att talfaktorn blir minst 1 men mindre än 10. Antalet steg ger exponenten.</p><p><strong>Svar:</strong> \\(4,5\\cdot10^3\\)</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "4.5*10^3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "0.233",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv <strong>0,0032</strong> i grundpotensform.</p>",
+    "s": "<p><strong>Metod:</strong> Flytta decimaltecknet så att talfaktorn blir minst 1 men mindre än 10. Antalet steg ger exponenten.</p><p><strong>Svar:</strong> \\(3,2\\cdot10^{-3}\\)</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "3.2*10^-3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "0.234",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv <strong>78 000 000</strong> i grundpotensform.</p>",
+    "s": "<p><strong>Metod:</strong> Flytta decimaltecknet så att talfaktorn blir minst 1 men mindre än 10. Antalet steg ger exponenten.</p><p><strong>Svar:</strong> \\(7,8\\cdot10^7\\)</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "7.8*10^7",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "0.235",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv <strong>0,000045</strong> i grundpotensform.</p>",
+    "s": "<p><strong>Metod:</strong> Flytta decimaltecknet så att talfaktorn blir minst 1 men mindre än 10. Antalet steg ger exponenten.</p><p><strong>Svar:</strong> \\(4,5\\cdot10^{-5}\\)</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "4.5*10^-5",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "0.236",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(6,02\\cdot10^4\\) i vanlig decimalform.</p>",
+    "s": "<p><strong>Metod:</strong> Flytta decimaltecknet enligt exponenten.</p><p><strong>Svar:</strong> <strong>60 200</strong></p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 60200,
+    "tolerans": 1e-12,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.237",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(3,5\\cdot10^{-3}\\) i vanlig decimalform.</p>",
+    "s": "<p><strong>Metod:</strong> Flytta decimaltecknet enligt exponenten.</p><p><strong>Svar:</strong> <strong>0,0035</strong></p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0035,
+    "tolerans": 1e-12,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.238",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(1,2\\cdot10^6\\) i vanlig decimalform.</p>",
+    "s": "<p><strong>Metod:</strong> Flytta decimaltecknet enligt exponenten.</p><p><strong>Svar:</strong> <strong>1 200 000</strong></p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1200000,
+    "tolerans": 1e-12,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.239",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(8,4\\cdot10^{-5}\\) i vanlig decimalform.</p>",
+    "s": "<p><strong>Metod:</strong> Flytta decimaltecknet enligt exponenten.</p><p><strong>Svar:</strong> <strong>0,000084</strong></p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.4e-05,
+    "tolerans": 1e-12,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.240",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>3,2 kW</strong> till <strong>W</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>3200 W</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3200,
+    "tolerans": 3.2000000000000003e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "W"
+  },
+  {
+    "id": "0.241",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>450 mA</strong> till <strong>A</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>0,45 A</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.45,
+    "tolerans": 4.5000000000000005e-10,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "A"
+  },
+  {
+    "id": "0.242",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>0,075 MW</strong> till <strong>kW</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>75 kW</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 75,
+    "tolerans": 7.500000000000001e-08,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kW"
+  },
+  {
+    "id": "0.243",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>2,4 mm</strong> till <strong>m</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>0,0024 m</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0024,
+    "tolerans": 2.4e-12,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "0.244",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>8,5 µm</strong> till <strong>m</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>0,0000085 m</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.5e-06,
+    "tolerans": 1e-12,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "0.245",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>0,36 kV</strong> till <strong>V</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>360 V</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 360,
+    "tolerans": 3.6000000000000005e-07,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "V"
+  },
+  {
+    "id": "0.246",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>5,2 MHz</strong> till <strong>Hz</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>5200000 Hz</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5200000,
+    "tolerans": 0.005200000000000001,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "Hz"
+  },
+  {
+    "id": "0.247",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>7500 W</strong> till <strong>kW</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>7,5 kW</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.5,
+    "tolerans": 7.500000000000001e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kW"
+  },
+  {
+    "id": "0.248",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Omvandla <strong>0,0045 A</strong> till <strong>mA</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>4,5 mA</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.5,
+    "tolerans": 4.500000000000001e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "mA"
+  },
+  {
+    "id": "0.249",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Omvandla <strong>2,8 GHz</strong> till <strong>MHz</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>2800 MHz</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2800,
+    "tolerans": 2.8000000000000003e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "MHz"
+  },
+  {
+    "id": "0.250",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Omvandla <strong>0,015 m</strong> till <strong>mm</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>15 mm</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 1.5000000000000002e-08,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "mm"
+  },
+  {
+    "id": "0.251",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Omvandla <strong>640 µg</strong> till <strong>mg</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv prefixet som en tiopotens och omvandla till den efterfrågade enheten.</p><p><strong>Svar:</strong> <strong>0,64 mg</strong></p>",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.64,
+    "tolerans": 6.400000000000001e-10,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "mg"
   },
   {
     "id": "1.01",
@@ -13802,6 +16235,544 @@ window.BANKMA1 = [
         "s": "<p><strong>Svar:</strong> 2*a-7</p>"
       }
     ]
+  },
+  {
+    "id": "1.226",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv villkoret som ett intervall: <strong>x är större än 2 men högst 7</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Översätt först texten till olikheten \\(2<x<=7\\) och skriv sedan motsvarande intervall.</p><p><strong>Svar:</strong> \\(x\\in (2,7]\\)</p>",
+    "familj": "Växla mellan intervall och olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in (2,7]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.227",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv villkoret som ett intervall: <strong>x är minst −3 och mindre än 5</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Översätt först texten till olikheten \\(-3<=x<5\\) och skriv sedan motsvarande intervall.</p><p><strong>Svar:</strong> \\(x\\in [-3,5)\\)</p>",
+    "familj": "Växla mellan intervall och olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in [-3,5)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.228",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv villkoret som ett intervall: <strong>x är större än −6 och mindre än 1</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Översätt först texten till olikheten \\(-6<x<1\\) och skriv sedan motsvarande intervall.</p><p><strong>Svar:</strong> \\(x\\in (-6,1)\\)</p>",
+    "familj": "Växla mellan intervall och olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in (-6,1)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.229",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv villkoret som ett intervall: <strong>x är minst 0 och högst 12</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Översätt först texten till olikheten \\(0<=x<=12\\) och skriv sedan motsvarande intervall.</p><p><strong>Svar:</strong> \\(x\\in [0,12]\\)</p>",
+    "familj": "Växla mellan intervall och olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in [0,12]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.230",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv villkoret som ett intervall: <strong>x är större än 4</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Översätt först texten till olikheten \\(x>4\\) och skriv sedan motsvarande intervall.</p><p><strong>Svar:</strong> \\(x\\in (4,\\infty)\\)</p>",
+    "familj": "Växla mellan intervall och olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in (4,inf)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.231",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv villkoret som ett intervall: <strong>x är högst −2</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Översätt först texten till olikheten \\(x<=-2\\) och skriv sedan motsvarande intervall.</p><p><strong>Svar:</strong> \\(x\\in (-\\infty,-2]\\)</p>",
+    "familj": "Växla mellan intervall och olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in (-inf,-2]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.232",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv villkoret som ett intervall: <strong>x är minst 1,5 och mindre än 3,5</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Översätt först texten till olikheten \\(1.5<=x<3.5\\) och skriv sedan motsvarande intervall.</p><p><strong>Svar:</strong> \\(x\\in [1.5,3.5)\\)</p>",
+    "familj": "Växla mellan intervall och olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in [1.5,3.5)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.233",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett tal ska uppfylla både \\(-4\\le x<6\\) och \\(1<x\\le 9\\). Skriv det gemensamma intervallet.</p>",
+    "s": "<p><strong>Metod:</strong> Det gemensamma intervallet består av de tal som ligger i båda intervallen samtidigt.</p><p><strong>Svar:</strong> \\(x\\in (1,6)\\)</p>",
+    "familj": "Tolka och skriva intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in (1,6)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.234",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett tal ska uppfylla både \\(x\\ge -2\\) och \\(x<5\\). Skriv det gemensamma intervallet.</p>",
+    "s": "<p><strong>Metod:</strong> Det gemensamma intervallet består av de tal som ligger i båda intervallen samtidigt.</p><p><strong>Svar:</strong> \\(x\\in [-2,5)\\)</p>",
+    "familj": "Tolka och skriva intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in [-2,5)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.235",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett tal ska uppfylla både \\(-7<x\\le 3\\) och \\(-2\\le x<8\\). Skriv det gemensamma intervallet.</p>",
+    "s": "<p><strong>Metod:</strong> Det gemensamma intervallet består av de tal som ligger i båda intervallen samtidigt.</p><p><strong>Svar:</strong> \\(x\\in [-2,3]\\)</p>",
+    "familj": "Tolka och skriva intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in [-2,3]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.236",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös olikheten \\(3x+5<20\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<5\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x<5",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.237",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös olikheten \\(4x-7>=9\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x>=4\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x>=4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.238",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös olikheten \\(12-2x>4\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<4\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x<4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.239",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös olikheten \\(5x+2<=3x+14\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<=6\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x<=6",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.240",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös olikheten \\(7-3x<=16\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x>=-3\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x>=-3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.241",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös olikheten \\(2(x+4)>14\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x>3\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x>3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.242",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös olikheten \\(5-2(x-1)>=11\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<=-2\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x<=-2",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.243",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös olikheten \\(3(x-2)<2x+5\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<11\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x<11",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.244",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös olikheten \\(4(2x-1)>=3x+11\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x>=3\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x>=3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.245",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös olikheten \\(6-2(3x+1)>-8\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<2\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x<2",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.246",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös olikheten \\(5(x-2)<=2(x+7)\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<=8\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x<=8",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.247",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös olikheten \\(3-4(x-1)>=2x-11\\).</p>",
+    "s": "<p><strong>Metod:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<=3\\)</p>",
+    "familj": "Olikheter med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x<=3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "intervall_tal"
   },
   {
     "id": "2.01",
@@ -22814,6 +25785,1076 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "2.308",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(f(x)=2x+1\\) används för \\(0\\le x\\le 4\\). Skriv värdemängden som ett intervall.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna funktionsvärdet i intervallets båda ändpunkter. Eftersom funktionen är linjär ligger alla mellanliggande värden mellan dessa.</p><p><strong>Svar:</strong> <strong>[1,9]</strong></p>",
+    "familj": "Bestämma definitionsmängd och värdemängd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "[1,9]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "2.309",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(f(x)=3x-2\\) används för \\(-1\\le x\\le 3\\). Skriv värdemängden som ett intervall.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna funktionsvärdet i intervallets båda ändpunkter. Eftersom funktionen är linjär ligger alla mellanliggande värden mellan dessa.</p><p><strong>Svar:</strong> <strong>[-5,7]</strong></p>",
+    "familj": "Bestämma definitionsmängd och värdemängd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "[-5,7]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "2.310",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(f(x)=-2x+8\\) används för \\(1\\le x\\le 5\\). Skriv värdemängden som ett intervall.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna funktionsvärdet i intervallets båda ändpunkter. Eftersom funktionen är linjär ligger alla mellanliggande värden mellan dessa.</p><p><strong>Svar:</strong> <strong>[-2,6]</strong></p>",
+    "familj": "Bestämma definitionsmängd och värdemängd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "[-2,6]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "2.311",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(f(x)=5-x\\) används för \\(-2\\le x\\le 4\\). Skriv värdemängden som ett intervall.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna funktionsvärdet i intervallets båda ändpunkter. Eftersom funktionen är linjär ligger alla mellanliggande värden mellan dessa.</p><p><strong>Svar:</strong> <strong>[1,7]</strong></p>",
+    "familj": "Bestämma definitionsmängd och värdemängd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "[1,7]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "2.312",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Funktionen \\(f(x)=4x+3\\) används för \\(-2\\le x\\le 1\\). Skriv värdemängden som ett intervall.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna funktionsvärdet i intervallets båda ändpunkter. Eftersom funktionen är linjär ligger alla mellanliggande värden mellan dessa.</p><p><strong>Svar:</strong> <strong>[-5,7]</strong></p>",
+    "familj": "Bestämma definitionsmängd och värdemängd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "[-5,7]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "2.313",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Funktionen \\(f(x)=10-3x\\) används för \\(0\\le x\\le 3\\). Skriv värdemängden som ett intervall.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna funktionsvärdet i intervallets båda ändpunkter. Eftersom funktionen är linjär ligger alla mellanliggande värden mellan dessa.</p><p><strong>Svar:</strong> <strong>[1,10]</strong></p>",
+    "familj": "Bestämma definitionsmängd och värdemängd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "[1,10]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "2.314",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett samband ges av punkterna (-2,5), (0,1), (3,7). Vilket är det största värdet i värdemängden?</p>",
+    "s": "<p><strong>Metod:</strong> Värdemängden består av punktarnas y-värden. Välj det största av dem.</p><p><strong>Svar:</strong> <strong>7</strong></p>",
+    "familj": "Definitionsmängd och värdemängd för diskreta samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "2.315",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett samband ges av punkterna (1,-3), (4,2), (6,8). Vilket är det största värdet i värdemängden?</p>",
+    "s": "<p><strong>Metod:</strong> Värdemängden består av punktarnas y-värden. Välj det största av dem.</p><p><strong>Svar:</strong> <strong>8</strong></p>",
+    "familj": "Definitionsmängd och värdemängd för diskreta samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "2.316",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett samband ges av punkterna (0,10), (2,6), (5,1). Vilket är det största värdet i värdemängden?</p>",
+    "s": "<p><strong>Metod:</strong> Värdemängden består av punktarnas y-värden. Välj det största av dem.</p><p><strong>Svar:</strong> <strong>10</strong></p>",
+    "familj": "Definitionsmängd och värdemängd för diskreta samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "2.317",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En behållare innehåller 120 liter och töms med 8 liter per minut. Modellen är \\(V(t)=120-8t\\). Vilket är det största rimliga värdet på \\(t\\)?</p>",
+    "s": "<p><strong>Metod:</strong> Modellen är rimlig tills behållaren är tom. Sätt därför V(t)=0 och lös ekvationen.</p><p><strong>Svar:</strong> <strong>15 min</strong></p>",
+    "familj": "Definitionsmängd i en praktisk modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.318",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En behållare innehåller 210 liter och töms med 15 liter per minut. Modellen är \\(V(t)=210-15t\\). Vilket är det största rimliga värdet på \\(t\\)?</p>",
+    "s": "<p><strong>Metod:</strong> Modellen är rimlig tills behållaren är tom. Sätt därför V(t)=0 och lös ekvationen.</p><p><strong>Svar:</strong> <strong>14 min</strong></p>",
+    "familj": "Definitionsmängd i en praktisk modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.319",
+    "kap": 2,
+    "omr": "definitionsmangd_vardemangd",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En behållare innehåller 96 liter och töms med 6 liter per minut. Modellen är \\(V(t)=96-6t\\). Vilket är det största rimliga värdet på \\(t\\)?</p>",
+    "s": "<p><strong>Metod:</strong> Modellen är rimlig tills behållaren är tom. Sätt därför V(t)=0 och lös ekvationen.</p><p><strong>Svar:</strong> <strong>16 min</strong></p>",
+    "familj": "Definitionsmängd i en praktisk modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.320",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För den linjära funktionen \\(f(x)=4x-7\\), bestäm riktningskoefficienten k.</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med formen y=kx+m.</p><p><strong>Svar:</strong> <strong>4</strong></p>",
+    "familj": "Tolka k-värdet i en linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.321",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För den linjära funktionen \\(g(x)=-3x+5\\), bestäm m-värdet.</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med formen y=kx+m.</p><p><strong>Svar:</strong> <strong>5</strong></p>",
+    "familj": "Tolka m-värdet i en linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.322",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För den linjära funktionen \\(h(x)=0,5x+8\\), bestäm riktningskoefficienten k.</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med formen y=kx+m.</p><p><strong>Svar:</strong> <strong>0,5</strong></p>",
+    "familj": "Tolka k-värdet i en linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.323",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För den linjära funktionen \\(p(x)=-2x-6\\), bestäm m-värdet.</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med formen y=kx+m.</p><p><strong>Svar:</strong> <strong>-6</strong></p>",
+    "familj": "Tolka m-värdet i en linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.324",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För den linjära funktionen \\(y=7-4x\\), bestäm riktningskoefficienten k.</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med formen y=kx+m.</p><p><strong>Svar:</strong> <strong>-4</strong></p>",
+    "familj": "Tolka k-värdet i en linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.325",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För den linjära funktionen \\(y=3x\\), bestäm m-värdet.</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med formen y=kx+m.</p><p><strong>Svar:</strong> <strong>0</strong></p>",
+    "familj": "Tolka m-värdet i en linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.326",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För den linjära funktionen \\(f(x)=12+1,5x\\), bestäm riktningskoefficienten k.</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med formen y=kx+m.</p><p><strong>Svar:</strong> <strong>1,5</strong></p>",
+    "familj": "Tolka k-värdet i en linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.327",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För den linjära funktionen \\(g(x)=9-0,25x\\), bestäm m-värdet.</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med formen y=kx+m.</p><p><strong>Svar:</strong> <strong>9</strong></p>",
+    "familj": "Tolka m-värdet i en linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.328",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För den linjära funktionen \\(y=-x+11\\), bestäm riktningskoefficienten k.</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med formen y=kx+m.</p><p><strong>Svar:</strong> <strong>-1</strong></p>",
+    "familj": "Tolka k-värdet i en linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.329",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För den linjära funktionen \\(y=2,4x-3\\), bestäm m-värdet.</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med formen y=kx+m.</p><p><strong>Svar:</strong> <strong>-3</strong></p>",
+    "familj": "Tolka m-värdet i en linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.330",
+    "kap": 2,
+    "omr": "representationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Startvärdet är 5 och värdet ökar med 3 för varje steg. Skriv ett uttryck för \\(y\\) som funktion av \\(x\\).</p>",
+    "s": "<p><strong>Metod:</strong> Identifiera startvärdet och förändringen per x-enhet.</p><p><strong>Svar:</strong> \\(y=3x+5\\)</p>",
+    "familj": "Växla mellan text och matematiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "3*x+5",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.331",
+    "kap": 2,
+    "omr": "representationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Startvärdet är 12 och värdet minskar med 2 för varje steg. Skriv ett uttryck för \\(y\\) som funktion av \\(x\\).</p>",
+    "s": "<p><strong>Metod:</strong> Identifiera startvärdet och förändringen per x-enhet.</p><p><strong>Svar:</strong> \\(y=12-2x\\)</p>",
+    "familj": "Växla mellan text och matematiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "12-2*x",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.332",
+    "kap": 2,
+    "omr": "representationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>När x ökar med 1 ökar y med 4. När x=0 är y=-3. Skriv ett uttryck för \\(y\\) som funktion av \\(x\\).</p>",
+    "s": "<p><strong>Metod:</strong> Identifiera startvärdet och förändringen per x-enhet.</p><p><strong>Svar:</strong> \\(y=4x-3\\)</p>",
+    "familj": "Växla mellan text och matematiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "4*x-3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.333",
+    "kap": 2,
+    "omr": "representationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>När x=0 är y=7 och därefter minskar y med 0,5 per x-enhet. Skriv ett uttryck för \\(y\\) som funktion av \\(x\\).</p>",
+    "s": "<p><strong>Metod:</strong> Identifiera startvärdet och förändringen per x-enhet.</p><p><strong>Svar:</strong> \\(y=7-0,5x\\)</p>",
+    "familj": "Växla mellan text och matematiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "7-0.5*x",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.334",
+    "kap": 2,
+    "omr": "representationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Priset är 40 kr i fast avgift och 6 kr per kilometer. Skriv ett uttryck för \\(y\\) som funktion av \\(x\\).</p>",
+    "s": "<p><strong>Metod:</strong> Identifiera startvärdet och förändringen per x-enhet.</p><p><strong>Svar:</strong> \\(y=40+6x\\)</p>",
+    "familj": "Växla mellan text och matematiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "40+6*x",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.335",
+    "kap": 2,
+    "omr": "representationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tank innehåller 200 liter och töms med 15 liter per minut. Skriv ett uttryck för \\(y\\) som funktion av \\(x\\).</p>",
+    "s": "<p><strong>Metod:</strong> Identifiera startvärdet och förändringen per x-enhet.</p><p><strong>Svar:</strong> \\(y=200-15x\\)</p>",
+    "familj": "Växla mellan text och matematiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "200-15*x",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.336",
+    "kap": 2,
+    "omr": "representationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen visar ett linjärt samband.</p><table class=\"data\"><tr><th>x</th><td>0</td><td>1</td><td>2</td></tr><tr><th>y</th><td>1</td><td>3</td><td>5</td></tr></table><p>Skriv ett uttryck för \\(y\\).</p>",
+    "s": "<p><strong>Metod:</strong> Bestäm förändringen i y när x ökar med 1 och läs av värdet när x=0.</p><p><strong>Svar:</strong> \\(y=2x+1\\)</p>",
+    "familj": "Växla mellan tabell och formel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "2*x+1",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.337",
+    "kap": 2,
+    "omr": "representationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen visar ett linjärt samband.</p><table class=\"data\"><tr><th>x</th><td>0</td><td>1</td><td>2</td></tr><tr><th>y</th><td>5</td><td>4</td><td>3</td></tr></table><p>Skriv ett uttryck för \\(y\\).</p>",
+    "s": "<p><strong>Metod:</strong> Bestäm förändringen i y när x ökar med 1 och läs av värdet när x=0.</p><p><strong>Svar:</strong> \\(y=-x+5\\)</p>",
+    "familj": "Växla mellan tabell och formel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "-x+5",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.338",
+    "kap": 2,
+    "omr": "representationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen visar ett linjärt samband.</p><table class=\"data\"><tr><th>x</th><td>0</td><td>1</td><td>2</td></tr><tr><th>y</th><td>-4</td><td>-1</td><td>2</td></tr></table><p>Skriv ett uttryck för \\(y\\).</p>",
+    "s": "<p><strong>Metod:</strong> Bestäm förändringen i y när x ökar med 1 och läs av värdet när x=0.</p><p><strong>Svar:</strong> \\(y=3x-4\\)</p>",
+    "familj": "Växla mellan tabell och formel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "3*x-4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.339",
+    "kap": 2,
+    "omr": "representationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen visar ett linjärt samband.</p><table class=\"data\"><tr><th>x</th><td>0</td><td>1</td><td>2</td></tr><tr><th>y</th><td>2</td><td>2,5</td><td>3</td></tr></table><p>Skriv ett uttryck för \\(y\\).</p>",
+    "s": "<p><strong>Metod:</strong> Bestäm förändringen i y när x ökar med 1 och läs av värdet när x=0.</p><p><strong>Svar:</strong> \\(y=0,5x+2\\)</p>",
+    "familj": "Växla mellan tabell och formel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "0.5*x+2",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.340",
+    "kap": 2,
+    "omr": "jamfora_modeller",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Modell A är \\(A(x)=50+8x\\) och modell B är \\(B(x)=40\\cdot 1,15^x\\). Vilken modell ger störst värde när \\(x=4\\)?</p><p>A: Modell A<br>B: Modell B</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna båda modellernas värden vid x=4. A ger 82 och B ger cirka 69,96.</p><p><strong>Svar:</strong> <strong>A</strong></p>",
+    "familj": "Jämföra linjär och exponentiell modell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "2.341",
+    "kap": 2,
+    "omr": "jamfora_modeller",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Modell A är \\(A(x)=120-5x\\) och modell B är \\(B(x)=100\\cdot 0,96^x\\). Vilken modell ger störst värde när \\(x=5\\)?</p><p>A: Modell A<br>B: Modell B</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna båda modellernas värden vid x=5. A ger 95 och B ger cirka 81,54.</p><p><strong>Svar:</strong> <strong>A</strong></p>",
+    "familj": "Jämföra linjär och exponentiell modell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "2.342",
+    "kap": 2,
+    "omr": "jamfora_modeller",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Modell A är \\(A(x)=20+12x\\) och modell B är \\(B(x)=30\\cdot 1,2^x\\). Vilken modell ger störst värde när \\(x=3\\)?</p><p>A: Modell A<br>B: Modell B</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna båda modellernas värden vid x=3. A ger 56 och B ger cirka 51,84.</p><p><strong>Svar:</strong> <strong>A</strong></p>",
+    "familj": "Jämföra linjär och exponentiell modell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "2.343",
+    "kap": 2,
+    "omr": "jamfora_modeller",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Modell A är \\(A(x)=200-15x\\) och modell B är \\(B(x)=180\\cdot 0,9^x\\). Vilken modell ger störst värde när \\(x=4\\)?</p><p>A: Modell A<br>B: Modell B</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna båda modellernas värden vid x=4. A ger 140 och B ger cirka 118,1.</p><p><strong>Svar:</strong> <strong>A</strong></p>",
+    "familj": "Jämföra linjär och exponentiell modell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "2.344",
+    "kap": 2,
+    "omr": "jamfora_modeller",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Modell A är \\(A(x)=10+5x\\) och modell B är \\(B(x)=8\\cdot 1,4^x\\). Vilken modell ger störst värde när \\(x=5\\)?</p><p>A: Modell A<br>B: Modell B</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna båda modellernas värden vid x=5. A ger 35 och B ger cirka 43,03.</p><p><strong>Svar:</strong> <strong>B</strong></p>",
+    "familj": "Jämföra linjär och exponentiell modell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "2.345",
+    "kap": 2,
+    "omr": "jamfora_modeller",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Modell A är \\(A(x)=80+2x\\) och modell B är \\(B(x)=60\\cdot 1,08^x\\). Vilken modell ger störst värde när \\(x=6\\)?</p><p>A: Modell A<br>B: Modell B</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna båda modellernas värden vid x=6. A ger 92 och B ger cirka 95,21.</p><p><strong>Svar:</strong> <strong>B</strong></p>",
+    "familj": "Jämföra linjär och exponentiell modell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "2.346",
+    "kap": 2,
+    "omr": "jamfora_modeller",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Modell A är \\(A(x)=25+9x\\) och modell B är \\(B(x)=20\\cdot 1,25^x\\). Vilken modell ger störst värde när \\(x=4\\)?</p><p>A: Modell A<br>B: Modell B</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna båda modellernas värden vid x=4. A ger 61 och B ger cirka 48,83.</p><p><strong>Svar:</strong> <strong>A</strong></p>",
+    "familj": "Jämföra linjär och exponentiell modell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "2.347",
+    "kap": 2,
+    "omr": "jamfora_modeller",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Modell A är \\(A(x)=150-8x\\) och modell B är \\(B(x)=140\\cdot 0,94^x\\). Vilken modell ger störst värde när \\(x=8\\)?</p><p>A: Modell A<br>B: Modell B</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna båda modellernas värden vid x=8. A ger 86 och B ger cirka 85,34.</p><p><strong>Svar:</strong> <strong>A</strong></p>",
+    "familj": "Jämföra linjär och exponentiell modell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "2.348",
+    "kap": 2,
+    "omr": "jamfora_modeller",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Modell A är \\(A(x)=5+7x\\) och modell B är \\(B(x)=6\\cdot 1,3^x\\). Vilken modell ger störst värde när \\(x=6\\)?</p><p>A: Modell A<br>B: Modell B</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna båda modellernas värden vid x=6. A ger 47 och B ger cirka 28,96.</p><p><strong>Svar:</strong> <strong>A</strong></p>",
+    "familj": "Jämföra linjär och exponentiell modell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "2.349",
+    "kap": 2,
+    "omr": "jamfora_modeller",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Modell A är \\(A(x)=300-20x\\) och modell B är \\(B(x)=260\\cdot 0,92^x\\). Vilken modell ger störst värde när \\(x=5\\)?</p><p>A: Modell A<br>B: Modell B</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna båda modellernas värden vid x=5. A ger 200 och B ger cirka 171,36.</p><p><strong>Svar:</strong> <strong>A</strong></p>",
+    "familj": "Jämföra linjär och exponentiell modell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
     "id": "3.01",
     "kap": 3,
     "omr": "potensregler",
@@ -29265,6 +33306,236 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ]
+  },
+  {
+    "id": "3.225",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Basårets värde är 200 och årets värde är 230. Beräkna index när basåret har index 100.</p>",
+    "s": "<p><strong>Metod:</strong> Använd index = aktuellt värde / basvärde · 100.</p><p><strong>Svar:</strong> <strong>115</strong></p>",
+    "familj": "Beräkna index",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 115,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.226",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Basårets värde är 400 och årets värde är 360. Beräkna index när basåret har index 100.</p>",
+    "s": "<p><strong>Metod:</strong> Använd index = aktuellt värde / basvärde · 100.</p><p><strong>Svar:</strong> <strong>90</strong></p>",
+    "familj": "Beräkna index",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.227",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Basårets värde är 80 och årets värde är 100. Beräkna index när basåret har index 100.</p>",
+    "s": "<p><strong>Metod:</strong> Använd index = aktuellt värde / basvärde · 100.</p><p><strong>Svar:</strong> <strong>125</strong></p>",
+    "familj": "Beräkna index",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 125,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.228",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Basårets värde är 250 och årets värde är 275. Beräkna index när basåret har index 100.</p>",
+    "s": "<p><strong>Metod:</strong> Använd index = aktuellt värde / basvärde · 100.</p><p><strong>Svar:</strong> <strong>110</strong></p>",
+    "familj": "Beräkna index",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 110,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.229",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Basårets värde är 120 och årets värde är 102. Beräkna index när basåret har index 100.</p>",
+    "s": "<p><strong>Metod:</strong> Använd index = aktuellt värde / basvärde · 100.</p><p><strong>Svar:</strong> <strong>85</strong></p>",
+    "familj": "Beräkna index",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 85,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.230",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Basårets värde är 500 och årets värde är 575. Beräkna index när basåret har index 100.</p>",
+    "s": "<p><strong>Metod:</strong> Använd index = aktuellt värde / basvärde · 100.</p><p><strong>Svar:</strong> <strong>115</strong></p>",
+    "familj": "Beräkna index",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 115,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.231",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Basårets värde är 60 och årets värde är 72. Beräkna index när basåret har index 100.</p>",
+    "s": "<p><strong>Metod:</strong> Använd index = aktuellt värde / basvärde · 100.</p><p><strong>Svar:</strong> <strong>120</strong></p>",
+    "familj": "Beräkna index",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.232",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Basårets värde är 320 och årets värde är 304. Beräkna index när basåret har index 100.</p>",
+    "s": "<p><strong>Metod:</strong> Använd index = aktuellt värde / basvärde · 100.</p><p><strong>Svar:</strong> <strong>95</strong></p>",
+    "familj": "Beräkna index",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 95,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.233",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Basårets värde är 150 och årets värde är 180. Beräkna index när basåret har index 100.</p>",
+    "s": "<p><strong>Metod:</strong> Använd index = aktuellt värde / basvärde · 100.</p><p><strong>Svar:</strong> <strong>120</strong></p>",
+    "familj": "Beräkna index",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.234",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Basårets värde är 240 och årets värde är 204. Beräkna index när basåret har index 100.</p>",
+    "s": "<p><strong>Metod:</strong> Använd index = aktuellt värde / basvärde · 100.</p><p><strong>Svar:</strong> <strong>85</strong></p>",
+    "familj": "Beräkna index",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 85,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.01",
@@ -38989,6 +43260,1514 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "5.174",
+    "kap": 5,
+    "omr": "felkallor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En webbenkät om skolmat besvaras främst av elever som är mycket missnöjda.</p><p>A: Bortfalls-/självurvalsfel<br>B: Avrundningsfel<br>C: Enhetsfel </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>A</strong>: Bortfalls-/självurvalsfel</p>",
+    "familj": "Identifiera och minska felkällor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.175",
+    "kap": 5,
+    "omr": "felkallor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En våg visar alltid 0,4 kg för mycket.</p><p>A: Slumpmässigt mätfel<br>B: Systematiskt mätfel<br>C: Urvalsfel </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>B</strong>: Systematiskt mätfel</p>",
+    "familj": "Identifiera och minska felkällor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.176",
+    "kap": 5,
+    "omr": "felkallor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Frågan ”Visst borde skolan servera bättre mat?” används i en enkät.</p><p>A: Ledande fråga<br>B: Bortfallsfel<br>C: Mätfel </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>A</strong>: Ledande fråga</p>",
+    "familj": "Identifiera och minska felkällor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.177",
+    "kap": 5,
+    "omr": "felkallor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Endast elever i skolans idrottsklasser får svara på en enkät om träning.</p><p>A: Representativt urval<br>B: Urvalsfel<br>C: Avrundningsfel </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>B</strong>: Urvalsfel</p>",
+    "familj": "Identifiera och minska felkällor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.178",
+    "kap": 5,
+    "omr": "felkallor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Deltagare ska minnas exakt vad de åt för sex månader sedan.</p><p>A: Minnesfel<br>B: Kalibreringsfel<br>C: Enhetsfel </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>A</strong>: Minnesfel</p>",
+    "familj": "Identifiera och minska felkällor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.179",
+    "kap": 5,
+    "omr": "felkallor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En termometer avläses olika beroende på vem som läser skalan.</p><p>A: Mätosäkerhet<br>B: Urvalsfel<br>C: Kausalitet </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>A</strong>: Mätosäkerhet</p>",
+    "familj": "Identifiera och minska felkällor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.180",
+    "kap": 5,
+    "omr": "felkallor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>40 % av de utvalda personerna svarar inte på en enkät.</p><p>A: Bortfallsfel<br>B: Skalfel<br>C: Räknefel </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>A</strong>: Bortfallsfel</p>",
+    "familj": "Identifiera och minska felkällor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.181",
+    "kap": 5,
+    "omr": "felkallor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En mätsticka har markeringar endast varje centimeter men resultatet anges med fyra decimaler.</p><p>A: Orimlig precision<br>B: Korrelation<br>C: Slumpmässigt urval </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>A</strong>: Orimlig precision</p>",
+    "familj": "Identifiera och minska felkällor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.182",
+    "kap": 5,
+    "omr": "felkallor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En studie om kollektivtrafik frågar bara personer som redan sitter på bussen.</p><p>A: Urvalsfel<br>B: Potensfel<br>C: Avrundningsfel </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>A</strong>: Urvalsfel</p>",
+    "familj": "Identifiera och minska felkällor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.183",
+    "kap": 5,
+    "omr": "felkallor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två grupper får olika instruktioner innan samma test.</p><p>A: Kontrollerad jämförelse<br>B: Påverkande felkälla<br>C: Totalundersökning </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>B</strong>: Påverkande felkälla</p>",
+    "familj": "Identifiera och minska felkällor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.184",
+    "kap": 5,
+    "omr": "kausalitet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En studie visar att personer som äger löparskor springer mer. Kan man av detta ensamt säga att skorna orsakar löpningen?</p><p>A: Ja<br>B: Nej </p>",
+    "s": "<p><strong>Metod:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>B</strong>: Nej</p>",
+    "familj": "Skilja korrelation från orsakssamband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.185",
+    "kap": 5,
+    "omr": "kausalitet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Glassförsäljning och antal badolyckor ökar samtidigt på sommaren. Vilken bakomliggande faktor är rimligast?</p><p>A: Varmt väder<br>B: Glassens pris<br>C: Antal skolor </p>",
+    "s": "<p><strong>Metod:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>A</strong>: Varmt väder</p>",
+    "familj": "Identifiera bakomliggande variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.186",
+    "kap": 5,
+    "omr": "kausalitet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Områden med fler brandbilar har ofta fler bränder. Vilken bakomliggande faktor är rimlig?</p><p>A: Kommunens storlek<br>B: Färgen på brandbilarna<br>C: Veckodag </p>",
+    "s": "<p><strong>Metod:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>A</strong>: Kommunens storlek</p>",
+    "familj": "Identifiera bakomliggande variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.187",
+    "kap": 5,
+    "omr": "kausalitet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Elever som sover mer har högre provresultat. Bevisar sambandet att mer sömn ensam orsakar högre resultat?</p><p>A: Ja<br>B: Nej </p>",
+    "s": "<p><strong>Metod:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>B</strong>: Nej</p>",
+    "familj": "Skilja korrelation från orsakssamband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.188",
+    "kap": 5,
+    "omr": "kausalitet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Länder med högre BNP har ofta längre medellivslängd. Vad är säkrast att säga?</p><p>A: BNP är den enda orsaken<br>B: Det finns ett samband men fler faktorer kan påverka<br>C: Det finns ingen korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>B</strong>: Det finns ett samband men fler faktorer kan påverka</p>",
+    "familj": "Skilja korrelation från orsakssamband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.189",
+    "kap": 5,
+    "omr": "kausalitet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket upplägg ger bäst möjlighet att studera orsak av ett nytt gödningsmedel?</p><p>A: Slumpa liknande plantor till två grupper<br>B: Jämför två olika trädgårdar utan kontroll<br>C: Fråga odlare vad de tror </p>",
+    "s": "<p><strong>Metod:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>A</strong>: Slumpa liknande plantor till två grupper</p>",
+    "familj": "Skilja korrelation från orsakssamband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.190",
+    "kap": 5,
+    "omr": "kausalitet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En korrelation mellan skärmtid och sömn visar i sig att skärmtid orsakar sömnproblem.</p><p>A: Sant<br>B: Falskt </p>",
+    "s": "<p><strong>Metod:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>B</strong>: Falskt</p>",
+    "familj": "Skilja korrelation från orsakssamband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.191",
+    "kap": 5,
+    "omr": "kausalitet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Fler poliser och fler brott observeras i större städer. Vilken tredje variabel kan påverka båda?</p><p>A: Befolkningsstorlek<br>B: Månfas<br>C: Stadens postnummer </p>",
+    "s": "<p><strong>Metod:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>A</strong>: Befolkningsstorlek</p>",
+    "familj": "Identifiera bakomliggande variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.192",
+    "kap": 5,
+    "omr": "kausalitet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Vilket påstående är korrekt?</p><p>A: Korrelation bevisar alltid orsak<br>B: Orsak kan ibland undersökas bättre med kontrollerade experiment<br>C: Orsak och korrelation betyder samma sak </p>",
+    "s": "<p><strong>Metod:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>B</strong>: Orsak kan ibland undersökas bättre med kontrollerade experiment</p>",
+    "familj": "Skilja korrelation från orsakssamband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.193",
+    "kap": 5,
+    "omr": "kausalitet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En app används mer av personer som redan tränar mycket. Detta kan göra sambandet mellan appanvändning och träning svårt att tolka som orsak.</p><p>A: Ja<br>B: Nej </p>",
+    "s": "<p><strong>Metod:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>A</strong>: Ja</p>",
+    "familj": "Skilja korrelation från orsakssamband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.194",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Punkterna ligger tätt kring en stigande rät linje. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>A</strong>: Positiv korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.195",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Punkterna ligger tätt kring en fallande rät linje. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>B</strong>: Negativ korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.196",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Punkterna ligger mycket utspridda utan tydlig stigande eller fallande tendens. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>C</strong>: Ingen tydlig korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.197",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Punkterna följer ungefär en stigande trend men med ganska stor spridning. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>A</strong>: Positiv korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.198",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Punkterna följer ungefär en fallande trend men med ganska stor spridning. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>B</strong>: Negativ korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.199",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>När x ökar tenderar y också att öka. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>A</strong>: Positiv korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.200",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>När x ökar tenderar y att minska. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>B</strong>: Negativ korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.201",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Alla punkter ligger exakt på en stigande rät linje. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>A</strong>: Positiv korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.202",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Alla punkter ligger exakt på en fallande rät linje. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>B</strong>: Negativ korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.203",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett punktmoln är nästan cirkelformat utan riktning. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>C</strong>: Ingen tydlig korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.204",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En tydlig stigande trend finns, men en punkt ligger långt från resten. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>A</strong>: Positiv korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.205",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En tydlig fallande trend finns, men punkterna är inte särskilt täta. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
+    "s": "<p><strong>Metod:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>B</strong>: Negativ korrelation</p>",
+    "familj": "Tolka korrelation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.206",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två studier visar samma procentuella skillnad. Vilken ger normalt starkare statistiskt underlag?</p><p>A: Studien med 20 deltagare<br>B: Studien med 2 000 deltagare </p>",
+    "s": "<p><strong>Metod:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>B</strong>: Studien med 2 000 deltagare</p>",
+    "familj": "Tolka statistisk signifikans",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.207",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En statistiskt signifikant skillnad måste vara stor i praktiken.</p><p>A: Sant<br>B: Falskt </p>",
+    "s": "<p><strong>Metod:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>B</strong>: Falskt</p>",
+    "familj": "Tolka statistisk signifikans",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.208",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett mycket stort stickprov kan göra även en liten skillnad statistiskt signifikant.</p><p>A: Sant<br>B: Falskt </p>",
+    "s": "<p><strong>Metod:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>A</strong>: Sant</p>",
+    "familj": "Tolka statistisk signifikans",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.209",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vad minskar normalt den relativa betydelsen av slumpvariation?</p><p>A: Större stickprov<br>B: Mindre stickprov<br>C: Färre mätningar </p>",
+    "s": "<p><strong>Metod:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>A</strong>: Större stickprov</p>",
+    "familj": "Tolka statistisk signifikans",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.210",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Om två små grupper skiljer sig med 1 procentenhet är det säkert att skillnaden är verklig.</p><p>A: Ja<br>B: Nej </p>",
+    "s": "<p><strong>Metod:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>B</strong>: Nej</p>",
+    "familj": "Tolka statistisk signifikans",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.211",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Statistisk signifikans handlar främst om huruvida en observerad skillnad rimligen kan förklaras av slumpvariation.</p><p>A: Sant<br>B: Falskt </p>",
+    "s": "<p><strong>Metod:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>A</strong>: Sant</p>",
+    "familj": "Tolka statistisk signifikans",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.212",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket påstående är bäst?</p><p>A: Signifikans och praktisk betydelse är samma sak<br>B: En signifikant skillnad kan ändå vara liten i praktiken </p>",
+    "s": "<p><strong>Metod:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>B</strong>: En signifikant skillnad kan ändå vara liten i praktiken</p>",
+    "familj": "Tolka statistisk signifikans",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.213",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två lika stora grupper har mycket varierande resultat. Gör stor variation det normalt svårare att upptäcka en liten verklig skillnad?</p><p>A: Ja<br>B: Nej </p>",
+    "s": "<p><strong>Metod:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>A</strong>: Ja</p>",
+    "familj": "Tolka statistisk signifikans",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.214",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett större stickprov gör automatiskt en dåligt vald urvalsmetod representativ.</p><p>A: Sant<br>B: Falskt </p>",
+    "s": "<p><strong>Metod:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>B</strong>: Falskt</p>",
+    "familj": "Tolka statistisk signifikans",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.215",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Vilken studie ger normalt minst statistisk osäkerhet, allt annat lika?</p><p>A: n=30<br>B: n=300<br>C: n=3000 </p>",
+    "s": "<p><strong>Metod:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>C</strong>: n=3000</p>",
+    "familj": "Tolka statistisk signifikans",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.216",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En skola väljer 100 elever genom slumpning ur hela elevregistret. Vilken typ av urval är detta?</p><p>A: Slumpmässigt urval<br>B: Självurval<br>C: Totalundersökning </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera populationen, urvalet och hur deltagarna valdes ut.</p><p><strong>Svar:</strong> <strong>A</strong>: Slumpmässigt urval</p>",
+    "familj": "Slumpmässigt urval",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.217",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Alla elever på en skola får svara på en enkät. Vad kallas undersökningen om alla faktiskt svarar?</p><p>A: Stickprov<br>B: Totalundersökning<br>C: Bortfall </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera populationen, urvalet och hur deltagarna valdes ut.</p><p><strong>Svar:</strong> <strong>B</strong>: Totalundersökning</p>",
+    "familj": "Population, urval och totalundersökning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.218",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kommun vill undersöka alla invånare över 18 år. Vad kallas hela gruppen man vill uttala sig om?</p><p>A: Population<br>B: Urval<br>C: Variabel </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera populationen, urvalet och hur deltagarna valdes ut.</p><p><strong>Svar:</strong> <strong>A</strong>: Population</p>",
+    "familj": "Population, urval och totalundersökning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.219",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>200 personer väljs från populationen och intervjuas. Vad kallas de 200?</p><p>A: Populationen<br>B: Urvalet<br>C: Bortfallet </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera populationen, urvalet och hur deltagarna valdes ut.</p><p><strong>Svar:</strong> <strong>B</strong>: Urvalet</p>",
+    "familj": "Population, urval och totalundersökning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.220",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket urval är mest representativt för hela skolan?</p><p>A: De 50 första som kommer till gymmet<br>B: 50 slumpade elever från elevregistret<br>C: 50 frivilliga från skolans Instagram </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera populationen, urvalet och hur deltagarna valdes ut.</p><p><strong>Svar:</strong> <strong>B</strong>: 50 slumpade elever från elevregistret</p>",
+    "familj": "Slumpmässigt urval",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.221",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Att fråga endast personer på ett köpcentrum mitt på dagen riskerar främst vad?</p><p>A: Urvalsfel<br>B: Räknefel<br>C: Enhetsfel </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera populationen, urvalet och hur deltagarna valdes ut.</p><p><strong>Svar:</strong> <strong>A</strong>: Urvalsfel</p>",
+    "familj": "Jämföra urvalsmetoder",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.222",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken metod ger alla i populationen en känd chans att väljas?</p><p>A: Slumpmässigt urval<br>B: Bekvämlighetsurval<br>C: Självurval </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera populationen, urvalet och hur deltagarna valdes ut.</p><p><strong>Svar:</strong> <strong>A</strong>: Slumpmässigt urval</p>",
+    "familj": "Slumpmässigt urval",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.223",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En webbenkät där deltagare själva väljer att klicka in och svara är exempel på vad?</p><p>A: Självurval<br>B: Totalundersökning<br>C: Systematiskt mätfel </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera populationen, urvalet och hur deltagarna valdes ut.</p><p><strong>Svar:</strong> <strong>A</strong>: Självurval</p>",
+    "familj": "Jämföra urvalsmetoder",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.224",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Varför används ofta stickprov?</p><p>A: Det är ofta billigare och snabbare än att undersöka alla<br>B: Det eliminerar alla felkällor<br>C: Det ger alltid exakt resultat </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera populationen, urvalet och hur deltagarna valdes ut.</p><p><strong>Svar:</strong> <strong>A</strong>: Det är ofta billigare och snabbare än att undersöka alla</p>",
+    "familj": "Jämföra urvalsmetoder",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.225",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Om en population består av 8 000 personer och 400 undersöks, vad är 400?</p><p>A: Populationens storlek<br>B: Urvalets storlek<br>C: Bortfallet </p>",
+    "s": "<p><strong>Metod:</strong> Identifiera populationen, urvalet och hur deltagarna valdes ut.</p><p><strong>Svar:</strong> <strong>B</strong>: Urvalets storlek</p>",
+    "familj": "Population, urval och totalundersökning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "5.226",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Risken för en viss händelse är 2 %. Om 500 oberoende personer utsätts för samma risk, hur många händelser förväntas i genomsnitt?</p>",
+    "s": "<p><strong>Metod:</strong> Förväntat antal = antal personer · sannolikheten.</p><p><strong>Svar:</strong> <strong>10</strong></p>",
+    "familj": "Förväntat antal och risk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.227",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Risken för en viss händelse är 0,5 %. Om 2000 oberoende personer utsätts för samma risk, hur många händelser förväntas i genomsnitt?</p>",
+    "s": "<p><strong>Metod:</strong> Förväntat antal = antal personer · sannolikheten.</p><p><strong>Svar:</strong> <strong>10</strong></p>",
+    "familj": "Förväntat antal och risk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.228",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Risken för en viss händelse är 12 %. Om 250 oberoende personer utsätts för samma risk, hur många händelser förväntas i genomsnitt?</p>",
+    "s": "<p><strong>Metod:</strong> Förväntat antal = antal personer · sannolikheten.</p><p><strong>Svar:</strong> <strong>30</strong></p>",
+    "familj": "Förväntat antal och risk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.229",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Risken för en viss händelse är 8 %. Om 600 oberoende personer utsätts för samma risk, hur många händelser förväntas i genomsnitt?</p>",
+    "s": "<p><strong>Metod:</strong> Förväntat antal = antal personer · sannolikheten.</p><p><strong>Svar:</strong> <strong>48</strong></p>",
+    "familj": "Förväntat antal och risk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.230",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två oberoende risker är 10 % respektive 20 %. Beräkna sannolikheten att minst en av händelserna inträffar.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna komplementet: 1 − sannolikheten att ingen av händelserna inträffar.</p><p><strong>Svar:</strong> <strong>28 %</strong></p>",
+    "familj": "Kombinera risker för oberoende system",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "5.231",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två oberoende risker är 5 % respektive 10 %. Beräkna sannolikheten att minst en av händelserna inträffar.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna komplementet: 1 − sannolikheten att ingen av händelserna inträffar.</p><p><strong>Svar:</strong> <strong>14,5 %</strong></p>",
+    "familj": "Kombinera risker för oberoende system",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.5,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "5.232",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två oberoende risker är 2 % respektive 3 %. Beräkna sannolikheten att minst en av händelserna inträffar.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna komplementet: 1 − sannolikheten att ingen av händelserna inträffar.</p><p><strong>Svar:</strong> <strong>4,94 %</strong></p>",
+    "familj": "Kombinera risker för oberoende system",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.94,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "5.233",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två oberoende risker är 15 % respektive 25 %. Beräkna sannolikheten att minst en av händelserna inträffar.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna komplementet: 1 − sannolikheten att ingen av händelserna inträffar.</p><p><strong>Svar:</strong> <strong>36,25 %</strong></p>",
+    "familj": "Kombinera risker för oberoende system",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36.25,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "procent"
+  },
+  {
     "id": "6.01",
     "kap": 6,
     "omr": "kalkylprogram",
@@ -48042,5 +53821,649 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "7.174",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En butik köper 48 varor för 197 kr styck. Gör ett överslag av kostnaden. Använd överslaget <strong>50·200</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna med den angivna avrundningen 50·200.</p><p><strong>Svar:</strong> cirka <strong>10000</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.175",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En yrkesarbetare använder 19,6 m kabel per bostad i 31 bostäder. Gör ett överslag av total längd. Använd överslaget <strong>20·30</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna med den angivna avrundningen 20·30.</p><p><strong>Svar:</strong> cirka <strong>600</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 600,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.176",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tank rymmer 1 980 liter och fylls med cirka 49 liter per minut. Gör ett överslag av fyllnadstiden i minuter. Använd överslaget <strong>2 000/50</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna med den angivna avrundningen 2 000/50.</p><p><strong>Svar:</strong> cirka <strong>40</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.177",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett material kostar 82 kr/kg och det behövs 24,5 kg. Gör ett överslag av kostnaden. Använd överslaget <strong>80·25</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna med den angivna avrundningen 80·25.</p><p><strong>Svar:</strong> cirka <strong>2000</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.178",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En resa är 398 km och bilen drar ungefär 0,61 liter per mil. Gör ett överslag av bränsleåtgången i liter. Använd överslaget <strong>40 mil·0,6</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna med den angivna avrundningen 40 mil·0,6.</p><p><strong>Svar:</strong> cirka <strong>24</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.179",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett lager har 2 970 artiklar. 9,8 % behöver kontrolleras. Gör ett överslag av antalet artiklar. Använd överslaget <strong>3 000·0,10</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna med den angivna avrundningen 3 000·0,10.</p><p><strong>Svar:</strong> cirka <strong>300</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.180",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En yta är 7,9 m lång och 5,1 m bred. Gör ett överslag av arean. Använd överslaget <strong>8·5</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna med den angivna avrundningen 8·5.</p><p><strong>Svar:</strong> cirka <strong>40</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.181",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En leverans består av 198 lådor med 51 produkter i varje. Gör ett överslag av antalet produkter. Använd överslaget <strong>200·50</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna med den angivna avrundningen 200·50.</p><p><strong>Svar:</strong> cirka <strong>10000</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.182",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En maskin producerar 149 delar per timme i 8,1 timmar. Gör ett överslag. Använd överslaget <strong>150·8</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna med den angivna avrundningen 150·8.</p><p><strong>Svar:</strong> cirka <strong>1200</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1200,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.183",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett företag har 4 980 kunder och 2,1 % väntas säga upp tjänsten. Gör ett överslag av antalet. Använd överslaget <strong>5 000·0,02</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Beräkna med den angivna avrundningen 5 000·0,02.</p><p><strong>Svar:</strong> cirka <strong>100</strong></p>",
+    "familj": "Göra överslagsberäkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.184",
+    "kap": 7,
+    "omr": "matfel_felmarginal",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett värde mäts till 50 med en absolut felmarginal på ±1. Hur stor är den relativa felmarginalen i procent?</p>",
+    "s": "<p><strong>Metod:</strong> Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p><p><strong>Svar:</strong> <strong>2 %</strong></p>",
+    "familj": "Relativt mätfel",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "7.185",
+    "kap": 7,
+    "omr": "matfel_felmarginal",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett värde mäts till 200 med en absolut felmarginal på ±4. Hur stor är den relativa felmarginalen i procent?</p>",
+    "s": "<p><strong>Metod:</strong> Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p><p><strong>Svar:</strong> <strong>2 %</strong></p>",
+    "familj": "Relativt mätfel",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "7.186",
+    "kap": 7,
+    "omr": "matfel_felmarginal",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett värde mäts till 80 med en absolut felmarginal på ±0,8. Hur stor är den relativa felmarginalen i procent?</p>",
+    "s": "<p><strong>Metod:</strong> Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p><p><strong>Svar:</strong> <strong>1 %</strong></p>",
+    "familj": "Relativt mätfel",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "7.187",
+    "kap": 7,
+    "omr": "matfel_felmarginal",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett värde mäts till 125 med en absolut felmarginal på ±2,5. Hur stor är den relativa felmarginalen i procent?</p>",
+    "s": "<p><strong>Metod:</strong> Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p><p><strong>Svar:</strong> <strong>2 %</strong></p>",
+    "familj": "Relativt mätfel",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "7.188",
+    "kap": 7,
+    "omr": "matfel_felmarginal",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett värde mäts till 60 med en absolut felmarginal på ±0,3. Hur stor är den relativa felmarginalen i procent?</p>",
+    "s": "<p><strong>Metod:</strong> Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p><p><strong>Svar:</strong> <strong>0,5 %</strong></p>",
+    "familj": "Relativt mätfel",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "procent"
+  },
+  {
+    "id": "7.189",
+    "kap": 7,
+    "omr": "matfel_felmarginal",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett mätvärde anges som 12,4 ± 0,2. Vilket är det största möjliga värdet?</p>",
+    "s": "<p><strong>Metod:</strong> Det största möjliga värdet fås genom att addera felmarginalen.</p><p><strong>Svar:</strong> <strong>12,6</strong></p>",
+    "familj": "Intervall och felmarginal vid mätning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.190",
+    "kap": 7,
+    "omr": "matfel_felmarginal",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett mätvärde anges som 8 ± 0,5. Vilket är det största möjliga värdet?</p>",
+    "s": "<p><strong>Metod:</strong> Det största möjliga värdet fås genom att addera felmarginalen.</p><p><strong>Svar:</strong> <strong>8,5</strong></p>",
+    "familj": "Intervall och felmarginal vid mätning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.191",
+    "kap": 7,
+    "omr": "matfel_felmarginal",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett mätvärde anges som 250 ± 5. Vilket är det största möjliga värdet?</p>",
+    "s": "<p><strong>Metod:</strong> Det största möjliga värdet fås genom att addera felmarginalen.</p><p><strong>Svar:</strong> <strong>255</strong></p>",
+    "familj": "Intervall och felmarginal vid mätning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 255,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.192",
+    "kap": 7,
+    "omr": "matfel_felmarginal",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett mätvärde anges som 3,75 ± 0,05. Vilket är det största möjliga värdet?</p>",
+    "s": "<p><strong>Metod:</strong> Det största möjliga värdet fås genom att addera felmarginalen.</p><p><strong>Svar:</strong> <strong>3,8</strong></p>",
+    "familj": "Intervall och felmarginal vid mätning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.193",
+    "kap": 7,
+    "omr": "matfel_felmarginal",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett mätvärde anges som 48 ± 2. Vilket är det största möjliga värdet?</p>",
+    "s": "<p><strong>Metod:</strong> Det största möjliga värdet fås genom att addera felmarginalen.</p><p><strong>Svar:</strong> <strong>50</strong></p>",
+    "familj": "Intervall och felmarginal vid mätning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.194",
+    "kap": 7,
+    "omr": "yrkesverktyg",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du ska mäta diametern på en tunn metalltråd. Vilket verktyg är lämpligast?</p><p>A: Mikrometer<br>B: Mätband<br>C: Litermått </p>",
+    "s": "<p><strong>Metod:</strong> Välj ett instrument vars mätområde och noggrannhet passar storheten.</p><p><strong>Svar:</strong> <strong>A</strong>: Mikrometer</p>",
+    "familj": "Välja och tolka mätinstrument",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "7.195",
+    "kap": 7,
+    "omr": "yrkesverktyg",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du ska mäta längden på ett rum. Vilket verktyg är lämpligast?</p><p>A: Skjutmått<br>B: Måttband/lasermätare<br>C: Termometer </p>",
+    "s": "<p><strong>Metod:</strong> Välj ett instrument vars mätområde och noggrannhet passar storheten.</p><p><strong>Svar:</strong> <strong>B</strong>: Måttband/lasermätare</p>",
+    "familj": "Välja och tolka mätinstrument",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "7.196",
+    "kap": 7,
+    "omr": "yrkesverktyg",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du ska kontrollera en vätskas temperatur. Vilket verktyg används?</p><p>A: Termometer<br>B: Våg<br>C: Vinkelhake </p>",
+    "s": "<p><strong>Metod:</strong> Välj ett instrument vars mätområde och noggrannhet passar storheten.</p><p><strong>Svar:</strong> <strong>A</strong>: Termometer</p>",
+    "familj": "Välja och tolka mätinstrument",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "7.197",
+    "kap": 7,
+    "omr": "yrkesverktyg",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du ska mäta en liten metalldels diameter med tiondels millimeters noggrannhet. Vilket verktyg passar bäst?</p><p>A: Skjutmått<br>B: Tumstock<br>C: Stoppur </p>",
+    "s": "<p><strong>Metod:</strong> Välj ett instrument vars mätområde och noggrannhet passar storheten.</p><p><strong>Svar:</strong> <strong>A</strong>: Skjutmått</p>",
+    "familj": "Välja och tolka mätinstrument",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "kort_text"
+  },
+  {
+    "id": "7.198",
+    "kap": 7,
+    "omr": "yrkesverktyg",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tabell anger att en maskin producerar 18 enheter per timme. Hur många enheter producerar den på 7 timmar om takten är konstant?</p>",
+    "s": "<p><strong>Metod:</strong> Multiplicera produktion per timme med antal timmar.</p><p><strong>Svar:</strong> <strong>126</strong></p>",
+    "familj": "Använda tabeller i praktiska beräkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 126,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.199",
+    "kap": 7,
+    "omr": "yrkesverktyg",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tabell anger att en maskin producerar 24 enheter per timme. Hur många enheter producerar den på 5 timmar om takten är konstant?</p>",
+    "s": "<p><strong>Metod:</strong> Multiplicera produktion per timme med antal timmar.</p><p><strong>Svar:</strong> <strong>120</strong></p>",
+    "familj": "Använda tabeller i praktiska beräkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.200",
+    "kap": 7,
+    "omr": "yrkesverktyg",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tabell anger att en maskin producerar 12,5 enheter per timme. Hur många enheter producerar den på 8 timmar om takten är konstant?</p>",
+    "s": "<p><strong>Metod:</strong> Multiplicera produktion per timme med antal timmar.</p><p><strong>Svar:</strong> <strong>100</strong></p>",
+    "familj": "Använda tabeller i praktiska beräkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.201",
+    "kap": 7,
+    "omr": "yrkesverktyg",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tabell anger att en maskin producerar 35 enheter per timme. Hur många enheter producerar den på 4 timmar om takten är konstant?</p>",
+    "s": "<p><strong>Metod:</strong> Multiplicera produktion per timme med antal timmar.</p><p><strong>Svar:</strong> <strong>140</strong></p>",
+    "familj": "Använda tabeller i praktiska beräkningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 140,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
   }
 ];

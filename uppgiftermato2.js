@@ -1,9 +1,4 @@
-/* Kunskapsgymmet-rutinuppdelning 2026-09-07
-   Extra metadata: spelDelning och spelDelar.
-   Uppgiftslabbet kan fortsätta använda originaluppgiften med alla deluppgifter.
-   Kunskapsgymmet kan expandera markerade rutinuppgifter till en träningsuppgift per del.
-*/
-
+/* LaTeX escape-fix 2026-09-07. Originaldata bevarad; endast verifierade dubbel-escape-fel korrigerade. */
 window.BANKMATO2 = [
   {
     "id": "1.01",
@@ -9252,7 +9247,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm största eller minsta värde.</p><p>a) \\(f(x)=x+\\frac{9}{x}\\)<br>för \\(x&gt;0\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=x^2e^{-x}\\)<br>för \\(x&gt;0\\).</p>",
-    "s": "<p>a) \\(f'(x)=1-9/x^2=0\\Rightarrow x=3\\). Funktionen går från avtagande till växande, så minimum är \\(f(3)=3+3=\\\\boxed{6}\\).</p><p>b) \\(g'(x)=e^{-x}(2x-x^2)=xe^{-x}(2-x)\\). För \\(x&gt;0\\) byter derivatan från positiv till negativ vid \\(x=2\\), alltså maximum där. \\(g(2)=\\boxed{4e^{-2}}\\).</p>",
+    "s": "<p>a) \\(f'(x)=1-9/x^2=0\\Rightarrow x=3\\). Funktionen går från avtagande till växande, så minimum är \\(f(3)=3+3=\\boxed{6}\\).</p><p>b) \\(g'(x)=e^{-x}(2x-x^2)=xe^{-x}(2-x)\\). För \\(x&gt;0\\) byter derivatan från positiv till negativ vid \\(x=2\\), alltså maximum där. \\(g(2)=\\boxed{4e^{-2}}\\).</p>",
     "familj": "Tillämpad optimering med derivata",
     "formaga": [
       "procedur",
@@ -10866,7 +10861,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Beräkna.</p><p>a) \\(\\int_0^2(3x^2+1)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_1^3(2x-4)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_{-1}^{1}x^2\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_0^4\\sqrt{x}\\,dx\\)</p>",
-    "s": "<p>a) \\([x^3+x]_0^2=8+2=\\boxed{10}\\).</p><p>b) \\([x^2-4x]_1^3=(-3)-(-3)=\\\\boxed{0}\\).</p><p>c) \\([x^3/3]_{-1}^1=\\boxed{2/3}\\).</p><p>d) \\([\\frac23x^{3/2}]_0^4=\\frac23\\cdot8=\\boxed{16/3}\\).</p>",
+    "s": "<p>a) \\([x^3+x]_0^2=8+2=\\boxed{10}\\).</p><p>b) \\([x^2-4x]_1^3=(-3)-(-3)=\\boxed{0}\\).</p><p>c) \\([x^3/3]_{-1}^1=\\boxed{2/3}\\).</p><p>d) \\([\\frac23x^{3/2}]_0^4=\\frac23\\cdot8=\\boxed{16/3}\\).</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -10890,7 +10885,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><p><div class=\"spel-en-del\">\\(\\int_1^3(2x-4)\\,dx\\)<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "s": "<p><div class=\"spel-en-del\">\\([x^2-4x]_1^3=(-3)-(-3)=\\\\boxed{0}\\).</div></p><p></p>"
+        "s": "<p><div class=\"spel-en-del\">\\([x^2-4x]_1^3=(-3)-(-3)=\\boxed{0}\\).</div></p><p></p>"
       },
       {
         "etikett": "c",
@@ -11359,7 +11354,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Beräkna.</p><p>a) \\(\\int_0^{\\pi}\\cos(2x)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_0^{\\pi/2}2\\sin(2x)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_0^{\\pi/4}4\\cos(4x)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_0^{\\pi/6}6\\sin(3x)\\,dx\\)</p>",
-    "s": "<p>a) Primitiv \\(\\frac12\\sin2x\\): <strong>0</strong>.</p><p>b) Primitiv \\(-\\cos2x\\): \\(-\\cos\\pi)-(-\\cos0)=1-(-1)=\\\\boxed{2}\\).</p><p>c) Primitiv \\(\\sin4x\\): <strong>\\(1\\)</strong>.</p><p>d) Primitiv \\(-2\\cos3x\\): \\(-2\\cos\\frac\\pi2)-(-2\\cos0)=\\\\boxed{2}\\).</p>",
+    "s": "<p>a) Primitiv \\(\\frac12\\sin2x\\): <strong>0</strong>.</p><p>b) Primitiv \\(-\\cos2x\\): \\(-\\cos\\pi)-(-\\cos0)=1-(-1)=\\boxed{2}\\).</p><p>c) Primitiv \\(\\sin4x\\): <strong>\\(1\\)</strong>.</p><p>d) Primitiv \\(-2\\cos3x\\): \\(-2\\cos\\frac\\pi2)-(-2\\cos0)=\\boxed{2}\\).</p>",
     "familj": "Bestämda integraler med trigonometriska funktioner",
     "formaga": [
       "procedur"
@@ -11383,7 +11378,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "t": "<p>Beräkna.</p><p><div class=\"spel-en-del\">\\(\\int_0^{\\pi/2}2\\sin(2x)\\,dx\\)<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "s": "<p><div class=\"spel-en-del\">Primitiv \\(-\\cos2x\\): \\(-\\cos\\pi)-(-\\cos0)=1-(-1)=\\\\boxed{2}\\).</div></p><p></p>"
+        "s": "<p><div class=\"spel-en-del\">Primitiv \\(-\\cos2x\\): \\(-\\cos\\pi)-(-\\cos0)=1-(-1)=\\boxed{2}\\).</div></p><p></p>"
       },
       {
         "etikett": "c",
@@ -11393,7 +11388,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "t": "<p>Beräkna.</p><p><div class=\"spel-en-del\">\\(\\int_0^{\\pi/6}6\\sin(3x)\\,dx\\)</div></p>",
-        "s": "<p><div class=\"spel-en-del\">Primitiv \\(-2\\cos3x\\): \\(-2\\cos\\frac\\pi2)-(-2\\cos0)=\\\\boxed{2}\\).</div></p>"
+        "s": "<p><div class=\"spel-en-del\">Primitiv \\(-2\\cos3x\\): \\(-2\\cos\\frac\\pi2)-(-2\\cos0)=\\boxed{2}\\).</div></p>"
       }
     ]
   },
@@ -12132,7 +12127,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm arean mellan kurvorna på det angivna intervallet.</p><p>a) \\(y=2x+3\\) och \\(y=x\\)<br>för \\(0\\le x\\le2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=x^2+2\\) och \\(y=x^2-1\\)<br>för \\(-1\\le x\\le2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=4\\) och \\(y=x^2\\)<br>för \\(0\\le x\\le2\\).</p>",
-    "s": "<p>a) Skillnaden är \\(x+3\\): \\(\\int_0^2(x+3)dx=[x^2/2+3x]_0^2=\\\\boxed{8}\\).</p><p>b) Skillnaden är konstant 3 över ett intervall med längd 3: <strong>9</strong>.</p><p>c) \\(\\int_0^2(4-x^2)dx=\\boxed{16/3}\\).</p>",
+    "s": "<p>a) Skillnaden är \\(x+3\\): \\(\\int_0^2(x+3)dx=[x^2/2+3x]_0^2=\\boxed{8}\\).</p><p>b) Skillnaden är konstant 3 över ett intervall med längd 3: <strong>9</strong>.</p><p>c) \\(\\int_0^2(4-x^2)dx=\\boxed{16/3}\\).</p>",
     "familj": "Area mellan två kurvor",
     "formaga": [
       "procedur"
@@ -12150,7 +12145,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "t": "<p>Bestäm arean mellan kurvorna på det angivna intervallet.</p><p><div class=\"spel-en-del\">\\(y=2x+3\\) och \\(y=x\\)<br/>för \\(0\\le x\\le2\\).<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "s": "<p><div class=\"spel-en-del\">Skillnaden är \\(x+3\\): \\(\\int_0^2(x+3)dx=[x^2/2+3x]_0^2=\\\\boxed{8}\\).</div></p><p></p>"
+        "s": "<p><div class=\"spel-en-del\">Skillnaden är \\(x+3\\): \\(\\int_0^2(x+3)dx=[x^2/2+3x]_0^2=\\boxed{8}\\).</div></p><p></p>"
       },
       {
         "etikett": "b",
@@ -13226,7 +13221,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm medelvärdet av funktionen.</p><p>a) \\(f(x)=x^2\\) på intervallet \\([0,3]\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=2x+1\\) på intervallet \\([1,5]\\).</p>",
-    "s": "<p>Medelvärdet är \\(\\frac1{b-a}\\int_a^bf(x)dx\\).</p><p>a) \\(\\frac13[x^3/3]_0^3=\\frac13\\cdot9=\\\\boxed{3}\\).</p><p>b) \\(\\frac14[x^2+x]_1^5=\\frac14(30-2)=\\\\boxed{7}\\).</p>",
+    "s": "<p>Medelvärdet är \\(\\frac1{b-a}\\int_a^bf(x)dx\\).</p><p>a) \\(\\frac13[x^3/3]_0^3=\\frac13\\cdot9=\\boxed{3}\\).</p><p>b) \\(\\frac14[x^2+x]_1^5=\\frac14(30-2)=\\boxed{7}\\).</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -13243,12 +13238,12 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "t": "<p>Bestäm medelvärdet av funktionen.</p><p><div class=\"spel-en-del\">\\(f(x)=x^2\\) på intervallet \\([0,3]\\).<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "s": "<p>Medelvärdet är \\(\\frac1{b-a}\\int_a^bf(x)dx\\).</p><p><div class=\"spel-en-del\">\\(\\frac13[x^3/3]_0^3=\\frac13\\cdot9=\\\\boxed{3}\\).</div></p><p></p>"
+        "s": "<p>Medelvärdet är \\(\\frac1{b-a}\\int_a^bf(x)dx\\).</p><p><div class=\"spel-en-del\">\\(\\frac13[x^3/3]_0^3=\\frac13\\cdot9=\\boxed{3}\\).</div></p><p></p>"
       },
       {
         "etikett": "b",
         "t": "<p>Bestäm medelvärdet av funktionen.</p><p><div class=\"spel-en-del\">\\(g(x)=2x+1\\) på intervallet \\([1,5]\\).</div></p>",
-        "s": "<p>Medelvärdet är \\(\\frac1{b-a}\\int_a^bf(x)dx\\).</p><p><div class=\"spel-en-del\">\\(\\frac14[x^2+x]_1^5=\\frac14(30-2)=\\\\boxed{7}\\).</div></p>"
+        "s": "<p>Medelvärdet är \\(\\frac1{b-a}\\int_a^bf(x)dx\\).</p><p><div class=\"spel-en-del\">\\(\\frac14[x^2+x]_1^5=\\frac14(30-2)=\\boxed{7}\\).</div></p>"
       }
     ]
   },
@@ -14956,7 +14951,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Förenkla.</p><p>a) \\(i^{18}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(i^{27}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(i^{44}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(i^{101}\\)</p>",
-    "s": "<p>Potenser av \\(i\\) upprepas med period 4.</p><p>a) \\(18\\equiv2\\pmod4\\Rightarrow\\boxed{-1}\\).</p><p>b) \\(27\\equiv3\\Rightarrow\\boxed{-i}\\).</p><p>c) \\(44\\equiv0\\Rightarrow\\\\boxed{1}\\).</p><p>d) \\(101\\equiv1\\Rightarrow\\\\boxed{i}\\).</p>",
+    "s": "<p>Potenser av \\(i\\) upprepas med period 4.</p><p>a) \\(18\\equiv2\\pmod4\\Rightarrow\\boxed{-1}\\).</p><p>b) \\(27\\equiv3\\Rightarrow\\boxed{-i}\\).</p><p>c) \\(44\\equiv0\\Rightarrow\\boxed{1}\\).</p><p>d) \\(101\\equiv1\\Rightarrow\\boxed{i}\\).</p>",
     "familj": "Potenser med komplexa tal",
     "formaga": [
       "procedur"
@@ -14985,12 +14980,12 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "t": "<p>Förenkla.</p><p><div class=\"spel-en-del\">\\(i^{44}\\)<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "s": "<p>Potenser av \\(i\\) upprepas med period 4.</p><p><div class=\"spel-en-del\">\\(44\\equiv0\\Rightarrow\\\\boxed{1}\\).</div></p><p></p>"
+        "s": "<p>Potenser av \\(i\\) upprepas med period 4.</p><p><div class=\"spel-en-del\">\\(44\\equiv0\\Rightarrow\\boxed{1}\\).</div></p><p></p>"
       },
       {
         "etikett": "d",
         "t": "<p>Förenkla.</p><p><div class=\"spel-en-del\">\\(i^{101}\\)</div></p>",
-        "s": "<p>Potenser av \\(i\\) upprepas med period 4.</p><p><div class=\"spel-en-del\">\\(101\\equiv1\\Rightarrow\\\\boxed{i}\\).</div></p>"
+        "s": "<p>Potenser av \\(i\\) upprepas med period 4.</p><p><div class=\"spel-en-del\">\\(101\\equiv1\\Rightarrow\\boxed{i}\\).</div></p>"
       }
     ]
   },
@@ -15924,7 +15919,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Talet \\(z=-2+3i\\) är markerat i det komplexa talplanet.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Komplext talplan med punkten z lika med minus två plus tre i\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g><line x1=\"90\" y1=\"30\" x2=\"90\" y2=\"270\" stroke=\"#DFE5E8\"/><line x1=\"130\" y1=\"30\" x2=\"130\" y2=\"270\" stroke=\"#DFE5E8\"/><line x1=\"170\" y1=\"30\" x2=\"170\" y2=\"270\" stroke=\"#DFE5E8\"/><line x1=\"210\" y1=\"30\" x2=\"210\" y2=\"270\" stroke=\"#DFE5E8\"/><line x1=\"250\" y1=\"30\" x2=\"250\" y2=\"270\" stroke=\"#DFE5E8\"/><line x1=\"290\" y1=\"30\" x2=\"290\" y2=\"270\" stroke=\"#DFE5E8\"/><line x1=\"330\" y1=\"30\" x2=\"330\" y2=\"270\" stroke=\"#DFE5E8\"/><line x1=\"90\" y1=\"270\" x2=\"370\" y2=\"270\" stroke=\"#DFE5E8\"/><line x1=\"90\" y1=\"230\" x2=\"370\" y2=\"230\" stroke=\"#DFE5E8\"/><line x1=\"90\" y1=\"190\" x2=\"370\" y2=\"190\" stroke=\"#DFE5E8\"/><line x1=\"90\" y1=\"150\" x2=\"370\" y2=\"150\" stroke=\"#DFE5E8\"/><line x1=\"90\" y1=\"110\" x2=\"370\" y2=\"110\" stroke=\"#DFE5E8\"/><line x1=\"90\" y1=\"70\" x2=\"370\" y2=\"70\" stroke=\"#DFE5E8\"/><line x1=\"90\" y1=\"30\" x2=\"370\" y2=\"30\" stroke=\"#DFE5E8\"/></g><line x1=\"80\" y1=\"150\" x2=\"390\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"210\" y1=\"280\" x2=\"210\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"130\" cy=\"30\" r=\"6\" fill=\"#B43123\"/><text x=\"116\" y=\"25\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">z</text><text x=\"392\" y=\"143\" font-family=\"sans-serif\" font-size=\"11\">Re</text><text x=\"217\" y=\"23\" font-family=\"sans-serif\" font-size=\"11\">Im</text><text x=\"130\" y=\"166\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\">-2</text><text x=\"198\" y=\"34\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\">3</text></svg></span><p>a) Ange realdel och imaginärdel.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\bar z\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(|z|\\).</p>",
-    "s": "<p>a) \\(\\operatorname{Re}z=\\boxed{-2}\\), \\(\\operatorname{Im}z=\\\\boxed{3}\\).</p><p>b) <strong>\\(\\bar z=-2-3i\\)</strong>.</p><p>c) \\(|z|=\\sqrt{(-2)^2+3^2}=\\)<strong>\\(\\sqrt{13}\\)</strong>.</p>",
+    "s": "<p>a) \\(\\operatorname{Re}z=\\boxed{-2}\\), \\(\\operatorname{Im}z=\\boxed{3}\\).</p><p>b) <strong>\\(\\bar z=-2-3i\\)</strong>.</p><p>c) \\(|z|=\\sqrt{(-2)^2+3^2}=\\)<strong>\\(\\sqrt{13}\\)</strong>.</p>",
     "familj": "Cirklar i det komplexa talplanet",
     "formaga": [
       "procedur",
@@ -18870,7 +18865,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Förenkla.</p><p>a) \\(i^{23}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(i^{48}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(i^{101}+i^{102}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac1i\\)</p>",
-    "s": "<p>a) \\(23\\equiv3\\pmod4\\Rightarrow\\boxed{-i}\\).</p><p>b) \\(48\\equiv0\\pmod4\\Rightarrow\\\\boxed{1}\\).</p><p>c) \\(i^{101}=i\\), \\(i^{102}=-1\\), alltså <strong>\\(-1+i\\)</strong>.</p><p>d) Multiplicera med \\(i/i\\): \\(1/i=i/i^2=\\boxed{-i}\\).</p>",
+    "s": "<p>a) \\(23\\equiv3\\pmod4\\Rightarrow\\boxed{-i}\\).</p><p>b) \\(48\\equiv0\\pmod4\\Rightarrow\\boxed{1}\\).</p><p>c) \\(i^{101}=i\\), \\(i^{102}=-1\\), alltså <strong>\\(-1+i\\)</strong>.</p><p>d) Multiplicera med \\(i/i\\): \\(1/i=i/i^2=\\boxed{-i}\\).</p>",
     "familj": "Potenser med komplexa tal",
     "formaga": [
       "procedur"
@@ -18894,7 +18889,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "t": "<p>Förenkla.</p><p><div class=\"spel-en-del\">\\(i^{48}\\)<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "s": "<p><div class=\"spel-en-del\">\\(48\\equiv0\\pmod4\\Rightarrow\\\\boxed{1}\\).</div></p><p></p>"
+        "s": "<p><div class=\"spel-en-del\">\\(48\\equiv0\\pmod4\\Rightarrow\\boxed{1}\\).</div></p><p></p>"
       },
       {
         "etikett": "c",

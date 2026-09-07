@@ -70,6 +70,7 @@ window.OMRMA2 = {
     "kvartiler_percentiler": "Kvartiler och percentiler",
     "ladagram": "Lådagram",
     "linjar_regression": "Linjär regression",
+    "modellval_regression": "Modellval och regression",
     "korrelation_koefficient": "Korrelation och korrelationskoefficient",
     "standardavvikelse": "Standardavvikelse",
     "normalfordelat_material": "Normalfördelning och normalfördelat material",
@@ -336,6 +337,11 @@ window.SPARMA2 = {
       "2c"
     ],
     "linjar_regression": [
+      "2b",
+      "2c"
+    ],
+    "modellval_regression": [
+      "2a",
       "2b",
       "2c"
     ],

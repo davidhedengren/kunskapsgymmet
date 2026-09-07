@@ -111,30 +111,3 @@ window.OMRMA1 = {
     "yrkesverktyg": "Matematiska hjälpmedel i arbetslivet"
   }
 };
-
-/* Grupper: bara riktigt uppenbara ihopslagningar, där delarna är
-   metoder för samma sak. Allt annat är egna kort. Varje område går
-   fortfarande att träna enskilt i punktträningen. */
-
-window.GRUPPMA1 = {
-  "4": [
-    {
-      "id": "trigonometri_ratvinklig",
-      "namn": "Trigonometri i rätvinkliga trianglar",
-      "omr": [
-        "sinus_cosinus_tangens",
-        "arcusfunktioner"
-      ]
-    },
-    {
-      "id": "vektorer_grupp",
-      "namn": "Vektorer",
-      "omr": [
-        "vektorer",
-        "vektor_addition_subtraktion",
-        "vektor_absolutbelopp",
-        "vektor_skalar"
-      ]
-    }
-  ]
-};

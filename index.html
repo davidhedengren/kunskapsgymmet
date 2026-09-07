@@ -938,19 +938,19 @@ const COURSES = {
   fy1:{
     name:"Fysik nivå 1", code:"Fy1", subject:"Fysik",
     files:["struktur.js","uppgifter.js"],
-    globals:{bank:"BANK",kap:"KAPNAMN",omr:"OMR",grupp:"GRUPP"},
+    globals:{bank:"BANK",kap:"KAPNAMN",kapSpar:"KAPNAMNSPAR",omr:"OMR",grupp:"GRUPP"},
     tracks:[], tint:"#159490"
   },
   fy2:{
     name:"Fysik nivå 2", code:"Fy2", subject:"Fysik",
     files:["struktur2.js","uppgifter2.js"],
-    globals:{bank:"BANK2",kap:"KAPNAMN2",omr:"OMR2",grupp:"GRUPP2"},
+    globals:{bank:"BANK2",kap:"KAPNAMN2",kapSpar:"KAPNAMN2SPAR",omr:"OMR2",grupp:"GRUPP2"},
     tracks:[], tint:"#5b5fc7"
   },
   ma1:{
     name:"Matematik nivå 1", code:"Ma1", subject:"Matematik",
     files:["strukturma1.js","uppgifterma1.js"],
-    globals:{bank:"BANKMA1",kap:"KAPNAMNMA1",omr:"OMRMA1",grupp:"GRUPPMA1"},
+    globals:{bank:"BANKMA1",kap:"KAPNAMNMA1",kapSpar:"KAPNAMNMA1SPAR",omr:"OMRMA1",grupp:"GRUPPMA1"},
     tracks:["1a","1b","1c"], defaultTrack:"1c", tint:"#3f92db",
     // Stryks helt ur Kunskapsgymmet. Matchas mot kapitlets namn,
     // områdets namn eller områdets nyckel.
@@ -959,25 +959,25 @@ const COURSES = {
   ma2:{
     name:"Matematik nivå 2", code:"Ma2", subject:"Matematik",
     files:["strukturma2.js","uppgifterma2.js"],
-    globals:{bank:"BANKMA2",kap:"KAPNAMNMA2",omr:"OMRMA2",grupp:"GRUPPMA2"},
+    globals:{bank:"BANKMA2",kap:"KAPNAMNMA2",kapSpar:"KAPNAMNMA2SPAR",omr:"OMRMA2",grupp:"GRUPPMA2"},
     tracks:["2a","2b","2c"], defaultTrack:"2c", tint:"#2f7fc9"
   },
   mato1:{
     name:"Matematik – fortsättning nivå 1", code:"Ma forts 1", subject:"Matematik",
     files:["strukturmato1.js","uppgiftermato1.js"],
-    globals:{bank:"BANKMATO1",kap:"KAPNAMNMATO1",omr:"OMRMATO1",grupp:"GRUPPMATO1"},
+    globals:{bank:"BANKMATO1",kap:"KAPNAMNMATO1",kapSpar:"KAPNAMNMATO1SPAR",omr:"OMRMATO1",grupp:"GRUPPMATO1"},
     tracks:["1b","1c"], defaultTrack:"1c", tint:"#4f9ad0"
   },
   mato2:{
     name:"Matematik – fortsättning nivå 2", code:"Ma forts 2", subject:"Matematik",
     files:["strukturmato2.js","uppgiftermato2.js"],
-    globals:{bank:"BANKMATO2",kap:"KAPNAMNMATO2",omr:"OMRMATO2",grupp:"GRUPPMATO2"},
+    globals:{bank:"BANKMATO2",kap:"KAPNAMNMATO2",kapSpar:"KAPNAMNMATO2SPAR",omr:"OMRMATO2",grupp:"GRUPPMATO2"},
     tracks:["2c"], defaultTrack:"2c", tint:"#4288bd"
   },
   matf1:{
     name:"Matematik – fördjupning nivå 1", code:"Ma fördj 1", subject:"Matematik",
     files:["strukturmatf1.js","uppgiftermatf1.js"],
-    globals:{bank:"BANKMATF1",kap:"KAPNAMNMATF1",omr:"OMRMATF1",grupp:"GRUPPMATF1"},
+    globals:{bank:"BANKMATF1",kap:"KAPNAMNMATF1",kapSpar:"KAPNAMNMATF1SPAR",omr:"OMRMATF1",grupp:"GRUPPMATF1"},
     tracks:[], tint:"#4a7fc9"
   }
 };
@@ -1753,12 +1753,15 @@ async function selectCourse(id,opts){
     for(const f of c.files) await loadScript(f);
     const bank=window[c.globals.bank];
     const kap=window[c.globals.kap] || {};
+    // Vissa kurser har egna kapitelnamn per spår, t.ex. 1b och 1c i
+    // fortsättningskursen. Finns de används de för valt spår.
+    const kapSpar=window[c.globals.kapSpar] || null;
     const omr=window[c.globals.omr] || {};
     const grupp=window[c.globals.grupp] || {};
     if(!Array.isArray(bank)) throw new Error(`Globalen window.${c.globals.bank} hittades inte eller är inte en array.`);
     state.course=id;
     state.track=c.defaultTrack || (c.tracks[0]||null);
-    state.data={bank,kap,omr,grupp};
+    state.data={bank,kap,kapSpar,omr,grupp};
     state.focusArea=null;state.focusOmr=null;state.focusNamn=null;
     state.focusFamily=null;state.currentTask=null;
     state.openChapters=null;
@@ -1829,6 +1832,8 @@ function kapNr(x){
   return Number.isFinite(n) ? n : 99;
 }
 function chapterName(kap){
+  const spar=state.data?.kapSpar?.[state.track];
+  if(spar && (spar[kap] ?? spar[String(kap)])) return spar[kap] ?? spar[String(kap)];
   const k=state.data?.kap||{};
   return k[kap] || k[String(kap)] || `Kapitel ${kap}`;
 }
@@ -2583,6 +2588,8 @@ function derivedAnswersFromSolution(t){
    med ett värde per delsvar. Ett delsvar utan facit (null) bedöms
    alltid av eleven själv. */
 function autoPerDel(t,antal){
+  const plan=svarsPlan(t);
+  if(plan) return plan.rutor.map(r=>plan.delar[r.del].auto);
   const sr=t.självrättning;
   const svar=Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar];
   return Array.from({length:antal},(_,i)=>{
@@ -2595,7 +2602,9 @@ function autoPerDel(t,antal){
 
 function expectedAnswersForTask(t){
   if(t.rättSvar!==null && t.rättSvar!==undefined){
-    const answers=Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar];
+    const plan=svarsPlan(t);
+    const answers=plan ? plan.rutor.map(r=>plan.delar[r.del].svar[r.plats])
+                       : (Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar]);
     const auto=autoPerDel(t,answers.length);
     return {
       answers,
@@ -2660,6 +2669,59 @@ function subtaskLetters(t){
   const m=[...plain.matchAll(/(?:^|[\s\n])([a-j])\)\s*/gi)].map(x=>x[1].toLowerCase());
   return new Set(m).size;
 }
+/* ==========================================================
+   SVARSPLAN
+   Fysikbankerna kan ange nästlade fält: en deluppgift kan ha flera
+   svar, var och en med egen enhet och tolerans. Planen packar upp
+   det till en lista av delar, där varje del har sina rutor.
+   ========================================================== */
+
+function nastlat(v){ return Array.isArray(v) && v.some(x=>Array.isArray(x)); }
+/* Plockar värde nummer i ur ett fält som får vara skalär eller lista. */
+function faltVarde(falt,i,antal){
+  if(falt===undefined||falt===null) return Array(antal).fill(undefined);
+  if(!Array.isArray(falt)) return Array(antal).fill(falt);
+  const v=falt[i];
+  if(Array.isArray(v)) return Array.from({length:antal},(_,j)=>v[j]);
+  return Array(antal).fill(v);
+}
+function faltFlagga(falt,i,standard){
+  if(falt===undefined||falt===null) return standard;
+  if(Array.isArray(falt)) return falt[i]===undefined?standard:!!falt[i];
+  return !!falt;
+}
+
+function svarsPlan(t){
+  if(t.rättSvar===null||t.rättSvar===undefined) return null;
+  const rot=Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar];
+  const delar=rot.map((v,i)=>{
+    const svar=Array.isArray(v)?v:[v];
+    const enhet=faltVarde(t.svarEnhet,i,svar.length);
+    const tol=faltVarde(t.tolerans,i,svar.length);
+    const harFacit=svar.every(x=>x!==null&&x!==undefined&&x!=="");
+    return {
+      svar, enhet, tol,
+      auto: harFacit && faltFlagga(t.självrättning,i,false),
+      manuell: faltFlagga(t.manuellKomplettering,i,false)
+    };
+  });
+  // Rutlista: en ruta per svar, med koppling tillbaka till sin del.
+  const rutor=[];
+  delar.forEach((d,di)=>d.svar.forEach((_,si)=>rutor.push({del:di,plats:si})));
+  return {delar,rutor};
+}
+
+/* Rättar ett delsvar. Enhet i metadatan ger enhetsjämförelse, annars
+   används den vanliga rättningsmotorn. */
+function delSvarRatt(anv,facit,enhet,tol,t,idx){
+  if(enhet!==undefined&&enhet!==null&&enhet!==""){
+    const r=enhetsJamforelse(anv,facit,enhet,tol);
+    if(r!==null) return r;
+  }
+  const kopia = (typeof tol==="number") ? Object.assign({},t,{tolerans:tol}) : t;
+  return oneAnswerCorrect(anv,facit,kopia,idx);
+}
+
 function answerLayout(t){
   const info=expectedAnswersForTask(t);
   const taggat=taggatAntalSvar(t);
@@ -2667,19 +2729,159 @@ function answerLayout(t){
   // svarstyp "flera_delar" markerar deluppgifter i uppgiftstexten, även
   // när de står som <ol><li> i stället för a), b), c). Ordningen är då
   // bindande, så att 50, 100 och 6 inte får matchas huller om buller.
+  const plan=svarsPlan(t);
   const delarTaggat=["flera_delar","flera delar","deluppgifter"]
-    .includes(String(t.svarstyp||"").toLowerCase());
+      .includes(String(t.svarstyp||"").toLowerCase())
+    || ["deluppgifter","delar","flera_delar"]
+      .includes(String(t.svarsstruktur||"").toLowerCase())
+    || nastlat(t.rättSvar)
+    || (plan && plan.delar.some(d=>d.manuell));
   const harFacit = t.rättSvar!==null && t.rättSvar!==undefined;
-  const n = harFacit ? Math.max(1,(Array.isArray(t.rättSvar)?t.rättSvar:[t.rättSvar]).length)
+  const n = plan ? plan.rutor.length
           : info.auto ? Math.max(1,info.answers.length)
           : Math.max(1,taggat||bokstaver||1);
   const ordnad = delarTaggat ? n>1
                : (!taggat && bokstaver>1 && n>1);
   // delAuto talar om vilka rutor som rättas och vilka eleven bedömer själv.
-  const delAuto = Array.from({length:n},(_,i)=>
-    info.delAuto ? !!info.delAuto[i] : !!info.auto);
-  return {info,n,ordnad,flersvar:n>1&&!ordnad,taggat,delarTaggat,delAuto,
+  const delAuto = plan
+    ? plan.rutor.map(r=>plan.delar[r.del].auto)
+    : Array.from({length:n},(_,i)=>info.delAuto ? !!info.delAuto[i] : !!info.auto);
+  return {info,plan,n,ordnad,flersvar:n>1&&!ordnad,taggat,delarTaggat,delAuto,
           blandad:delAuto.some(Boolean)&&delAuto.some(x=>!x)};
+}
+
+/* ==========================================================
+   ENHETER
+   Rättningen ska godta 0,60 m, 60 cm och 600 mm som samma svar.
+   Varje enhet tolkas till en baseneht med en faktor, sammansatta
+   enheter som m/s^2 och kWh hanteras genom att täljare och nämnare
+   tolkas var för sig.
+   ========================================================== */
+
+const SI_PREFIX={T:1e12,G:1e9,M:1e6,k:1e3,h:1e2,da:1e1,
+                 d:1e-1,c:1e-2,m:1e-3,"µ":1e-6,"μ":1e-6,u:1e-6,n:1e-9,p:1e-12,f:1e-15};
+/* Grundenheter med sin bas och faktor. Massa räknas i gram som bas,
+   så att kg blir prefixet k gånger g. */
+const ENHETER={
+  m:{b:"m",f:1}, g:{b:"g",f:1}, s:{b:"s",f:1}, A:{b:"A",f:1}, K:{b:"K",f:1},
+  mol:{b:"mol",f:1}, cd:{b:"cd",f:1},
+  N:{b:"N",f:1}, J:{b:"J",f:1}, W:{b:"W",f:1}, V:{b:"V",f:1}, C:{b:"C",f:1},
+  Pa:{b:"Pa",f:1}, Hz:{b:"Hz",f:1}, T:{b:"T",f:1}, F:{b:"F",f:1}, H:{b:"H",f:1},
+  "Ω":{b:"Ω",f:1}, ohm:{b:"Ω",f:1}, S:{b:"S",f:1}, Wb:{b:"Wb",f:1}, Bq:{b:"Bq",f:1},
+  Sv:{b:"Sv",f:1}, Gy:{b:"Gy",f:1}, lm:{b:"lm",f:1}, lx:{b:"lx",f:1},
+  min:{b:"s",f:60}, tim:{b:"s",f:3600}, dygn:{b:"s",f:86400},
+  "år":{b:"s",f:31557600},
+  l:{b:"l",f:1}, L:{b:"l",f:1},
+  ton:{b:"g",f:1e6}, bar:{b:"Pa",f:1e5}, atm:{b:"Pa",f:101325},
+  eV:{b:"J",f:1.602176634e-19}, u:{b:"g",f:1.66053906660e-24},
+  Wh:{b:"J",f:3600}, Ah:{b:"C",f:3600}, kWh:{b:"J",f:3.6e6},
+  "°":{b:"°",f:1}, rad:{b:"rad",f:1}, "%":{b:"%",f:1}
+};
+/* h är både timme och prefixet hekto. I fysiksammanhang är timme
+   det rimliga, så den tolkningen kommer först. */
+const ENHET_ALIAS={h:"tim",timme:"tim",timmar:"tim",sek:"s",sekunder:"s",
+  grader:"°",gr:"°",procent:"%",liter:"l",gram:"g",meter:"m",newton:"N",joule:"J",watt:"W"};
+
+function tolkaEnhetsord(sym){
+  if(!sym) return null;
+  const namn=ENHETER[sym] ? sym : (ENHET_ALIAS[sym]||ENHET_ALIAS[sym.toLowerCase()]||sym);
+  if(ENHETER[namn]) return {f:ENHETER[namn].f,b:ENHETER[namn].b};
+  // Prefix + enhet, längsta prefixet först så att "da" slår "d".
+  for(const p of ["da","T","G","M","k","h","d","c","m","µ","μ","u","n","p","f"]){
+    if(namn.length>p.length && namn.startsWith(p)){
+      const rest=namn.slice(p.length);
+      const e=ENHETER[rest];
+      if(e) return {f:SI_PREFIX[p]*e.f, b:e.b};
+    }
+  }
+  return null;
+}
+
+/* "m/s^2" -> {f:1, d:{m:1,s:-2}}. Returnerar null om något inte känns igen. */
+function tolkaEnhet(str){
+  if(str===null||str===undefined) return null;
+  let x=String(str).trim()
+    .replace(/[⋅∙·×x]/g,"*").replace(/²/g,"^2").replace(/³/g,"^3")
+    .replace(/\s+/g,"");
+  if(!x) return {f:1,d:{}};
+  const delar=x.split("/");
+  const res={f:1,d:{}};
+  for(let i=0;i<delar.length;i++){
+    const tecken=i===0?1:-1;
+    if(!delar[i]) continue;
+    for(const bit of delar[i].split("*")){
+      if(!bit) continue;
+      const m=bit.match(/^([^\^\d]+)(?:\^?(-?\d+))?$/);
+      if(!m) return null;
+      const e=tolkaEnhetsord(m[1]);
+      if(!e) return null;
+      const exp=(m[2]?parseInt(m[2],10):1)*tecken;
+      res.f*=Math.pow(e.f,exp);
+      res.d[e.b]=(res.d[e.b]||0)+exp;
+    }
+  }
+  Object.keys(res.d).forEach(k=>{ if(!res.d[k]) delete res.d[k]; });
+  return res;
+}
+function sammaDimension(a,b){
+  const ka=Object.keys(a.d).sort(), kb=Object.keys(b.d).sort();
+  if(ka.length!==kb.length) return false;
+  return ka.every((k,i)=>k===kb[i] && a.d[k]===b.d[k]);
+}
+
+/* Tal ur en elevsträng: decimalkomma, tusentalsmellanrum,
+   vetenskaplig notation som 1,6·10^-19 eller 1.6e-19. */
+function taltolk(str){
+  if(typeof str==="number") return str;
+  let x=String(str).trim().toLowerCase()
+    .replace(/^svar\s*:\s*/,"")
+    .replace(/[−–—]/g,"-")
+    .replace(/[⋅∙·×]/g,"*")
+    .replace(/\s+/g,"");
+  x=x.replace(/(\d),(\d)/g,"$1.$2");
+  x=x.replace(/\*?10\^?\(?(-?\d+)\)?/g,"e$1");
+  const m=x.match(/^[-+]?\d*\.?\d+(?:e[-+]?\d+)?/);
+  if(!m) return NaN;
+  const v=Number(m[0]);
+  return Number.isFinite(v)?v:NaN;
+}
+/* Delar upp "60 cm" i tal och enhet. */
+function delaTalEnhet(str){
+  const tal=taltolk(str);
+  if(!Number.isFinite(tal)) return {tal:NaN,enhet:""};
+  // Skiftläget behålls: kN, mm och Mm är olika enheter.
+  const x=String(str).replace(/^\s*[Ss]var\s*:\s*/,"").replace(/[−–—]/g,"-").trim();
+  const m=x.match(/^[-+]?[\d\s.,]+(?:\s*(?:[⋅∙·×*]\s*10\s*\^?\s*\(?-?\d+\)?|[eE][-+]?\d+))?/);
+  const rest=m ? x.slice(m[0].length).trim() : "";
+  return {tal,enhet:rest.replace(/^[·*]\s*/,"").trim()};
+}
+
+/* Jämför ett elevsvar med facit när enhet finns i metadatan. Returnerar
+   true, false eller null när frågan inte går att avgöra numeriskt. */
+function enhetsJamforelse(anv,facit,enhet,tol){
+  const f=delaTalEnhet(facit);
+  const fTal=Number.isFinite(f.tal)?f.tal:taltolk(facit);
+  if(!Number.isFinite(fTal)) return null;
+  const a=delaTalEnhet(anv);
+  if(!Number.isFinite(a.tal)) return null;
+
+  const facitEnhet=tolkaEnhet(enhet||f.enhet||"");
+  const anvEnhet=a.enhet?tolkaEnhet(a.enhet):null;
+  if(!facitEnhet) return null;
+  if(a.enhet && !anvEnhet) return false;          // skrev en enhet vi inte känner igen
+  if(anvEnhet && !sammaDimension(facitEnhet,anvEnhet)) return false;
+
+  const fBas=fTal*facitEnhet.f;
+  const aBas=a.tal*(anvEnhet?anvEnhet.f:facitEnhet.f);
+  const tolBas=(typeof tol==="number"?tol:Math.max(1e-12,Math.abs(fTal)*1e-4))*facitEnhet.f;
+
+  if(Math.abs(aBas-fBas)<=tolBas+1e-12) return true;
+  // Procent: 0,95 och 95 % ska kunna vara samma svar.
+  const ärProcent=facitEnhet.d["%"]===1;
+  if(ärProcent && !a.enhet){
+    if(Math.abs(a.tal*100-fTal)<=(typeof tol==="number"?tol:Math.abs(fTal)*1e-4)) return true;
+  }
+  return false;
 }
 
 /* Rent numeriskt facit -> telefonen öppnar sifferlayouten direkt.
@@ -3011,17 +3213,36 @@ function renderTraining(){
   // fylls i samtidigt, eftersom ordningen inte betyder något.
   const stepwise=canAuto && inputCount>1 && layout.ordnad;
   const bedomsSjalv=i=>!layout.delAuto[i];
+  const plan=layout.plan;
+  // Etikett per ruta: deluppgiftens bokstav, och en siffra när samma
+  // deluppgift har flera svar.
+  const rutEtikett=i=>{
+    if(inputCount<2) return "";
+    if(!plan) return layout.ordnad?String.fromCharCode(97+i)+")":(i+1)+".";
+    const r=plan.rutor[i], flera=plan.delar[r.del].svar.length>1;
+    const bok=String.fromCharCode(97+r.del);
+    return layout.ordnad ? (flera?bok+(r.plats+1):bok+")") : (i+1)+".";
+  };
+  const rutEnhet=i=>plan ? (plan.delar[plan.rutor[i].del].enhet[plan.rutor[i].plats]||"") : "";
+  // Första rutan i en deluppgift öppnar hela deluppgiften.
+  const laasta=i=>{
+    if(!stepwise) return false;
+    if(!plan) return i>0;
+    return plan.rutor[i].del !== plan.rutor[0].del;
+  };
   const fieldHtml=Array.from({length:inputCount},(_,i)=>`
-    <div class="apart${stepwise&&i>0?" upcoming":""}${bedomsSjalv(i)?" egen":""}" id="part-${i}">
+    <div class="apart${laasta(i)?" upcoming":""}${bedomsSjalv(i)?" egen":""}" id="part-${i}">
       <div class="aline">
-        <label>${inputCount<2?"":layout.ordnad?String.fromCharCode(97+i)+")":(i+1)+"."}</label>
+        <label>${rutEtikett(i)}</label>
         ${isLongAnswer
-          ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"${stepwise&&i>0?" disabled":""} onfocus="state.aktivRuta=${i}"></textarea>`
+          ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"${laasta(i)?" disabled":""} onfocus="state.aktivRuta=${i}"></textarea>`
           : `<input id="ans-${i}" autocomplete="off"
               inputmode="${numerisktSvar(expectedInfo.answers[i])?"decimal":"text"}"
               placeholder="${
-                inputCount<2?"Ditt svar":layout.ordnad?"Svar "+String.fromCharCode(97+i):"Svar "+(i+1)
-              }"${stepwise&&i>0?" disabled":""}
+                rutEnhet(i) ? "Svar i "+esc(rutEnhet(i))
+                : inputCount<2 ? "Ditt svar"
+                : layout.ordnad ? "Svar "+String.fromCharCode(97+i) : "Svar "+(i+1)
+              }"${laasta(i)?" disabled":""}
               onfocus="state.aktivRuta=${i}"
               onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">`
         }
@@ -3031,10 +3252,11 @@ function renderTraining(){
       <div class="delfacit" id="delfacit-${i}" hidden></div>
     </div>`).join("");
 
+  const antalDelar = plan ? plan.delar.length : inputCount;
   const partLine = stepwise
     ? `<div class="partline" id="partline">
         ${Array.from({length:inputCount},(_,i)=>`<i class="${i===0?'now':''}"></i>`).join("")}
-        <span id="partlabel">Deluppgift a av ${inputCount}</span>
+        <span id="partlabel">Deluppgift a av ${antalDelar}</span>
       </div>`
     : layout.flersvar
       ? `<div class="partline"><span>${inputCount===2?"Två svar":inputCount+" svar"} · ordningen spelar ingen roll</span></div>`
@@ -3114,6 +3336,41 @@ function checkAnswer(){
     return;
   }
 
+  // Med svarsplan rättas en hel deluppgift i taget, eftersom en
+  // deluppgift kan ha flera svar med var sin enhet och tolerans.
+  const plan=layout.plan;
+  if(plan){
+    const del=plan.rutor[state.partIndex]?.del;
+    if(del===undefined) return;
+    const rutor=plan.rutor.map((r,idx)=>({...r,idx})).filter(r=>r.del===del);
+    const d=plan.delar[del];
+
+    if(!d.auto){ visaDelfacit(rutor[0].idx,del); return; }
+
+    const varden=rutor.map(r=>document.getElementById("ans-"+r.idx)?.value||"");
+    if(varden.some(x=>!x.trim())){ toast("Fyll i alla svar för deluppgiften."); return; }
+
+    // Flera svar inom samma deluppgift matchas fritt mot varandra.
+    const kvar=d.svar.map((v,j)=>({v,j}));
+    const utfall=varden.map(anv=>{
+      const träff=kvar.findIndex(k=>delSvarRatt(anv,k.v,d.enhet[k.j],d.tol[k.j],t,k.j));
+      if(träff<0) return false;
+      kvar.splice(träff,1);
+      return true;
+    });
+    utfall.forEach((ok,j)=>markPart(rutor[j].idx,ok,ok?null:facitText(d,kvar)));
+    rutor.forEach((r,j)=>{ state.partResults[r.idx]=utfall[j]; });
+
+    // Delen kan kräva att eleven dessutom jämför en motivering
+    // eller riktning med facit.
+    if(d.manuell && utfall.every(Boolean)){
+      visaDelfacit(rutor[rutor.length-1].idx,del,true);
+      return;
+    }
+    gaVidare(rutor[rutor.length-1].idx+1,layout.n);
+    return;
+  }
+
   const i=state.partIndex;
   const el=document.getElementById("ans-"+i);
   const svar=el ? el.value : "";
@@ -3130,19 +3387,28 @@ function checkAnswer(){
   registreraDel(i,ok,expected[i]);
 }
 
-/* Sparar utfallet för en del och går vidare till nästa, eller avslutar. */
-function registreraDel(i,ok,facit){
-  state.partResults[i]=ok;
-  markPart(i,ok,facit);
-  const total=answerLayout(state.currentTask).n;
-  state.partIndex=i+1;
+/* Skriver ut kvarvarande facit med enhet, till hjälp vid fel. */
+function facitText(d,kvar){
+  return (kvar.length?kvar:d.svar.map((v,j)=>({v,j})))
+    .map(k=>String(k.v)+(d.enhet[k.j]?" "+d.enhet[k.j]:""))
+    .join(" eller ");
+}
+function gaVidare(nasta,total){
+  state.partIndex=nasta;
   if(state.partIndex>=total) finishAttempt(state.partResults.slice(0,total));
   else openPart(state.partIndex,total);
 }
 
+/* Sparar utfallet för en del och går vidare till nästa, eller avslutar. */
+function registreraDel(i,ok,facit){
+  state.partResults[i]=ok;
+  markPart(i,ok,facit);
+  gaVidare(i+1,answerLayout(state.currentTask).n);
+}
+
 /* Visar facit för en självbedömd deluppgift och låter eleven svara
    på om det stämde. */
-function visaDelfacit(i){
+function visaDelfacit(i,delIndex,komplettering){
   const t=state.currentTask;
   const rad=document.getElementById("part-"+i);
   if(!rad) return;
@@ -3150,12 +3416,14 @@ function visaDelfacit(i){
   if(inp) inp.readOnly=true;
   const ruta=document.getElementById("delfacit-"+i);
   if(ruta){
+    const nyckel = delIndex!==undefined ? delIndex : i;
     ruta.hidden=false;
-    ruta.innerHTML=`<div class="lbl">Facit för den här delen</div>
-      <div class="delfacit-txt">${delfacitText(t,i)}</div>
+    ruta.innerHTML=`<div class="lbl">${komplettering?"Jämför med facit":"Facit för den här delen"}</div>
+      <div class="delfacit-txt">${delfacitText(t,nyckel)}</div>
+      ${komplettering?`<div class="hint" style="margin-top:8px">Uträkningen stämmer. Stämmer även din motivering?</div>`:""}
       <div class="aacts">
-        <button class="btn soft sm" onclick="bedomDel(${i},true)">Jag hade rätt</button>
-        <button class="btn sm" onclick="bedomDel(${i},false)">Jag behöver träna mer</button>
+        <button class="btn soft sm" onclick="bedomDel(${i},true,${delIndex??-1})">${komplettering?"Ja, den stämmer":"Jag hade rätt"}</button>
+        <button class="btn sm" onclick="bedomDel(${i},false,${delIndex??-1})">${komplettering?"Nej, inte riktigt":"Jag behöver träna mer"}</button>
       </div>`;
     renderMath(ruta);
   }
@@ -3167,9 +3435,23 @@ function delfacitText(t,i){
   if(Array.isArray(d)&&d[i]) return d[i];
   return t.s||"Facit saknas.";
 }
-function bedomDel(i,ok){
+function bedomDel(i,ok,delIndex){
   const ruta=document.getElementById("delfacit-"+i);
   if(ruta){ ruta.hidden=true; ruta.innerHTML=""; }
+  const layout=answerLayout(state.currentTask);
+  const plan=layout.plan;
+  if(plan && delIndex!==undefined && delIndex>=0){
+    const rutor=plan.rutor.map((r,idx)=>({...r,idx})).filter(r=>r.del===delIndex);
+    rutor.forEach(r=>{
+      // Vid komplettering är rutan redan rättad; ett nej fäller den.
+      const redan=state.partResults[r.idx];
+      const nytt = redan===undefined ? ok : (redan && ok);
+      state.partResults[r.idx]=nytt;
+      if(!ok) markPart(r.idx,nytt,null);
+    });
+    gaVidare(rutor[rutor.length-1].idx+1,layout.n);
+    return;
+  }
   registreraDel(i,ok,null);
 }
 
@@ -3192,17 +3474,26 @@ function markPart(i,ok,facit){
 
 /* Öppnar nästa deluppgift och flyttar fokus dit. */
 function openPart(i,total){
-  const row=document.getElementById("part-"+i);
-  if(row) row.classList.remove("upcoming");
-  const inp=document.getElementById("ans-"+i);
-  if(inp){ inp.disabled=false; setTimeout(()=>inp.focus(),40); }
+  const plan=answerLayout(state.currentTask).plan;
+  // Har deluppgiften flera svar öppnas alla dess rutor samtidigt.
+  const syskon = plan
+    ? plan.rutor.map((r,idx)=>({...r,idx})).filter(r=>r.del===plan.rutor[i]?.del)
+    : [{idx:i}];
+  syskon.forEach((r,n)=>{
+    const row=document.getElementById("part-"+r.idx);
+    if(row) row.classList.remove("upcoming");
+    const inp=document.getElementById("ans-"+r.idx);
+    if(inp){ inp.disabled=false; if(n===0) setTimeout(()=>inp.focus(),40); }
+  });
   const line=document.getElementById("partline");
   if(line){
     [...line.querySelectorAll("i")].forEach((d,n)=>{
       d.className = n<i ? (state.partResults[n]?"done":"miss") : (n===i?"now":"");
     });
     const lbl=document.getElementById("partlabel");
-    if(lbl) lbl.textContent=`Deluppgift ${String.fromCharCode(97+i)} av ${total}`;
+    const delNr = plan ? plan.rutor[i]?.del ?? 0 : i;
+    const antal = plan ? plan.delar.length : total;
+    if(lbl) lbl.textContent=`Deluppgift ${String.fromCharCode(97+delNr)} av ${antal}`;
   }
 }
 

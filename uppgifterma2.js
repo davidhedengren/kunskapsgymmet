@@ -1,14 +1,7 @@
-/* uppgifterma2_kunskapsgymmet.js
-   Matematik nivå 2a, 2b och 2c.
-
-   Uppdaterad för Kunskapsgymmet:
-   - pedagogiska familj-taggar för adaptiv träning och elevfeedback
-   - sanerad metadata för säker självrättning
-   - maskinläsbara rättSvar utan lösningsprosa/HTML/LaTeX-omslag
-   - konservativ hantering av öppna, visuella och enhetskritiska uppgifter
-
-   Förmågemetadata:
-   formaga: ["procedur", "begrepp", "modellering", "resonemang"]
+/* uppgifterma2.js — Matematik nivå 2a, 2b och 2c.
+   QA 2026-09-07: kompletterad förmågemetadata + 60 nya E/C-uppgifter om logaritmer.
+   Befintliga förmågetaggar har bevarats. Den tidigare saknade taggen problemlösning har lagts till
+   där metodval/icke-rutinmässig problemlösning är central.
 */
 
 window.BANKMA2 = [
@@ -58,7 +51,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -101,14 +95,30 @@ window.BANKMA2 = [
     "familj": "Parameterproblem med multiplikation av parenteser",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a",
+      "a"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.05",
@@ -150,13 +160,14 @@ window.BANKMA2 = [
     "familj": "Multiplicera parenteser och förenkla",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "b=7",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.07",
@@ -198,13 +209,14 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationer med konjugatregeln",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=6",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.09",
@@ -300,13 +312,17 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "f(x)=-2x+5",
-      "f(8)=-11"
+      -11
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -325,14 +341,15 @@ window.BANKMA2 = [
     "familj": "Växla mellan tabell, graf och formel för linjära funktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=2",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.14",
@@ -427,14 +444,15 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "1/2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "id": "1.18",
@@ -454,15 +472,20 @@ window.BANKMA2 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "k=-2",
-      "m=4",
-      "x=2"
+      -2,
+      4,
+      2
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ]
   },
   {
@@ -506,13 +529,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationer med konjugatregeln",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      -7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.21",
@@ -554,13 +592,14 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationer med konjugatregeln",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.23",
@@ -602,14 +641,30 @@ window.BANKMA2 = [
     "familj": "Parameterproblem med kvadreringsreglerna",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      36
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.25",
@@ -652,13 +707,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.27",
@@ -676,13 +746,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      -1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.28",
@@ -726,13 +811,28 @@ window.BANKMA2 = [
     "familj": "Lösa linjära ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.30",
@@ -750,14 +850,15 @@ window.BANKMA2 = [
     "familj": "Parameter och antal lösningar i ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "a=3",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.31",
@@ -799,13 +900,33 @@ window.BANKMA2 = [
     "familj": "Textproblem med tre obekanta",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60,
+      30,
+      30
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "vuxenbiljetter",
+      "ungdomsbiljetter",
+      "barnbiljetter"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.33",
@@ -821,13 +942,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      3,
+      5
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.34",
@@ -923,14 +1063,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i blandningsproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "av 20 %-lösningen",
+      "av 50 %-lösningen"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.38",
@@ -955,7 +1111,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -974,14 +1131,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      27.45,
+      22.82
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "kaffe (kr)",
+      "te (kr)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.40",
@@ -1071,13 +1244,14 @@ window.BANKMA2 = [
     "familj": "Utveckla uttryck med kvadreringsreglerna",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "a=-12",
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.44",
@@ -1119,13 +1293,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationer med konjugatregeln",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      -7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.46",
@@ -1268,13 +1457,32 @@ window.BANKMA2 = [
     "familj": "Faktorisera för att lösa ekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      0,
+      3
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.52",
@@ -1319,13 +1527,28 @@ window.BANKMA2 = [
     "familj": "Faktorisera för att lösa ekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      8
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.54",
@@ -1369,14 +1592,52 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      "y=-1.5x+6",
+      [
+        9,
+        6,
+        3,
+        0
+      ],
+      null
+    ],
+    "tolerans": [
+      null,
+      [
+        null,
+        null,
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "uttryck",
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      null
+    ],
+    "svarEtiketter": [
+      "a) funktion",
+      "b) tabellvärden",
+      "c) resonemang"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.56",
@@ -1471,13 +1732,28 @@ window.BANKMA2 = [
     "familj": "Lösa linjära ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.60",
@@ -1501,7 +1777,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -1604,7 +1881,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -1621,13 +1899,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "11/3",
+      4,
+      "13/3"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.66",
@@ -1724,7 +2021,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -1840,13 +2138,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      5,
+      6
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.75",
@@ -1862,13 +2179,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      6,
+      4
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.76",
@@ -1910,15 +2246,35 @@ window.BANKMA2 = [
     "familj": "Textproblem med tre obekanta",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15,
+      29,
+      6
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "biljetter för 60 kr",
+      "för 100 kr",
+      "för 150 kr"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.78",
@@ -1934,13 +2290,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      4,
+      5
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.79",
@@ -1958,14 +2333,15 @@ window.BANKMA2 = [
     "familj": "Parameter och antal lösningar i ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=6",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.80",
@@ -1983,14 +2359,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      33,
+      53
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "vuxenbiljetter",
+      "ungdomsbiljetter"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.81",
@@ -2009,14 +2401,37 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      "oändligt många lösningar",
+      "ingen lösning",
+      "en lösning"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "kort_text",
+      "kort_text",
+      "kort_text"
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.82",
@@ -2035,14 +2450,37 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      null,
+      1,
+      null
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      false,
+      true,
+      false
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      null
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.83",
@@ -2084,13 +2522,15 @@ window.BANKMA2 = [
     "familj": "Beräkna smart med konjugatregeln",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 999991,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt",
+    "manuellKomplettering": true
   },
   {
     "id": "1.85",
@@ -2182,14 +2622,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "smörgåsar",
+      "sallader"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.89",
@@ -2208,14 +2664,32 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      3,
+      null
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.90",
@@ -2285,13 +2759,28 @@ window.BANKMA2 = [
     "familj": "Lösa linjära ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.93",
@@ -2309,15 +2798,16 @@ window.BANKMA2 = [
     "familj": "Parameterfall i ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "a=2",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.94",
@@ -2335,14 +2825,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      26,
+      26
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "kaffe",
+      "te"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.95",
@@ -2360,13 +2866,14 @@ window.BANKMA2 = [
     "familj": "Utveckla uttryck med kvadreringsreglerna",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "a=14",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.96",
@@ -2509,15 +3016,30 @@ window.BANKMA2 = [
     "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "f(x)=(11/3)x+2/3",
+      "g(x)=(2/3)x+11/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarEtiketter": [
+      "f(x)",
+      "g(x)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.107",
@@ -2561,13 +3083,14 @@ window.BANKMA2 = [
     "familj": "Lösa linjära ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "a=2",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.109",
@@ -2585,13 +3108,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.110",
@@ -2609,13 +3147,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.112",
@@ -2633,14 +3186,15 @@ window.BANKMA2 = [
     "familj": "Växla mellan tabell, graf och formel för linjära funktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.113",
@@ -2760,15 +3314,35 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      192,
+      72,
+      36
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "vuxenbiljetter",
+      "ungdomsbiljetter",
+      "fribiljetter"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.118",
@@ -2911,13 +3485,28 @@ window.BANKMA2 = [
     "familj": "Lösa linjära ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      "1/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.128",
@@ -2935,14 +3524,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      "B"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "kort_text"
+    ],
+    "svarEtiketter": [
+      "lika vid antal filmer",
+      "billigare därefter"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.129",
@@ -3088,13 +3693,29 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      4,
+      1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.136",
@@ -3112,13 +3733,28 @@ window.BANKMA2 = [
     "familj": "Bryta ut gemensam faktor",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -10,
+      "(x-4)(x-6)"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarEtiketter": [
+      "k",
+      "faktorisering"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.138",
@@ -3163,13 +3799,29 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i textproblem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      24,
+      10
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.141",
@@ -3213,13 +3865,32 @@ window.BANKMA2 = [
     "familj": "Faktorisera för att lösa ekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      0,
+      2
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.144",
@@ -3287,13 +3958,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.147",
@@ -3311,13 +3997,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "53/19",
+      "37/19"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.148",
@@ -3335,13 +4036,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      "1/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.149",
@@ -3384,13 +4100,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "20/9",
+      "41/27"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.151",
@@ -3408,13 +4139,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.152",
@@ -3432,13 +4178,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.153",
@@ -3482,13 +4243,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.155",
@@ -3506,13 +4282,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.156",
@@ -3530,13 +4321,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      10
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.163",
@@ -3552,13 +4358,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      3,
+      2
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.164",
@@ -3574,13 +4399,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      5,
+      6
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.165",
@@ -3596,13 +4440,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40,
+      30,
+      20
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "smörgåsar",
+      "sallader",
+      "soppor"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.166",
@@ -3618,13 +4481,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      1,
+      3
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.167",
@@ -3640,13 +4522,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2,
+      4
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.168",
@@ -3662,13 +4563,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      3,
+      2
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.169",
@@ -3686,13 +4606,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      "7/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.170",
@@ -3710,13 +4645,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.171",
@@ -3734,13 +4684,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.172",
@@ -3758,13 +4723,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      0.5
+    ],
+    "tolerans": [
+      null,
+      0.01
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.173",
@@ -3782,13 +4762,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      -1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.174",
@@ -3806,13 +4801,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      "1/5"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.175",
@@ -3830,13 +4840,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.176",
@@ -3854,13 +4879,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      "7/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.177",
@@ -3878,13 +4918,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.178",
@@ -3902,13 +4957,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      21
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.179",
@@ -3926,13 +4996,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.180",
@@ -3950,13 +5035,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.181",
@@ -3974,13 +5074,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      8
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.182",
@@ -3998,13 +5113,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.183",
@@ -4022,13 +5152,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      10
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.184",
@@ -4046,13 +5191,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      6
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.193",
@@ -4070,15 +5230,16 @@ window.BANKMA2 = [
     "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "a=2",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.195",
@@ -4096,13 +5257,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.196",
@@ -4223,14 +5399,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      11
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "vuxenbiljetter",
+      "barnbiljetter"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.202",
@@ -4275,13 +5467,28 @@ window.BANKMA2 = [
     "familj": "Faktorisera för att lösa ekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-1/2",
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.206",
@@ -4349,14 +5556,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      90,
+      70
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "vuxenbiljetter",
+      "ungdomsbiljetter"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.209",
@@ -4375,14 +5598,37 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      "ingen lösning",
+      "oändligt många lösningar",
+      "exakt en lösning"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "kort_text",
+      "kort_text",
+      "kort_text"
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.212",
@@ -4400,14 +5646,30 @@ window.BANKMA2 = [
     "familj": "Parameterproblem med kvadreringsreglerna",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14,
+      -14
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "p",
+      "p"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.216",
@@ -4477,15 +5739,30 @@ window.BANKMA2 = [
     "familj": "Parameterfall i ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.221",
@@ -4551,15 +5828,35 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      10,
+      15
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "kaffe",
+      "te",
+      "juice"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.224",
@@ -4732,14 +6029,15 @@ window.BANKMA2 = [
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "-0.5<a<0.25",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "intervall"
   },
   {
     "id": "1.231",
@@ -4858,13 +6156,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "17/9",
+      "-7/9"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.236",
@@ -4882,13 +6195,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.237",
@@ -4906,13 +6234,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.238",
@@ -4930,13 +6273,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.239",
@@ -4954,14 +6312,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      25,
+      15
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "vuxenbiljetter",
+      "ungdomsbiljetter"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.240",
@@ -4979,14 +6353,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      6
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "uggar",
+      "skålar"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.241",
@@ -5076,14 +6466,16 @@ window.BANKMA2 = [
     "familj": "Parameterproblem med multiplikation av parenteser",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=5",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.245",
@@ -5245,14 +6637,16 @@ window.BANKMA2 = [
     "familj": "Parameterproblem med kvadreringsreglerna",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "a=5",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.252",
@@ -5270,13 +6664,14 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationer med kvadreringsreglerna",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=1",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.253",
@@ -5420,14 +6815,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i textproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "vuxenbiljetter",
+      "elevbiljetter"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.259",
@@ -5445,13 +6856,28 @@ window.BANKMA2 = [
     "familj": "Lösa linjära ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.260",
@@ -5469,14 +6895,15 @@ window.BANKMA2 = [
     "familj": "Parameter och antal lösningar i ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "a=4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.261",
@@ -5670,13 +7097,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      3,
+      4
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.269",
@@ -5692,14 +7138,34 @@ window.BANKMA2 = [
     "familj": "Textproblem med tre obekanta",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      35,
+      45,
+      40
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "ungdomsband",
+      "vuxenband",
+      "familjeband"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.270",
@@ -5717,15 +7183,31 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i ekonomiska problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      90,
+      90
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "vuxenbiljetter",
+      "ungdomsbiljetter"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.271",
@@ -5751,7 +7233,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -5768,13 +7251,32 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med tre obekanta",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      3,
+      8
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.273",
@@ -5792,13 +7294,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.274",
@@ -5816,13 +7333,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.275",
@@ -5840,13 +7372,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      6
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.276",
@@ -5864,13 +7411,28 @@ window.BANKMA2 = [
     "familj": "Lösa ekvationssystem med additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      -1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "1.277",
@@ -5985,13 +7547,28 @@ window.BANKMA2 = [
     "familj": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "7/2",
+      "-3/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.02",
@@ -6009,13 +7586,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/2",
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.03",
@@ -6033,13 +7625,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      "2/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.04",
@@ -6157,13 +7764,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "m<9",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "intervall"
   },
   {
     "id": "2.09",
@@ -6181,13 +7789,28 @@ window.BANKMA2 = [
     "familj": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.10",
@@ -6329,15 +7952,18 @@ window.BANKMA2 = [
     "familj": "Lösa exponentialekvationer med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "manuellKomplettering": true
   },
   {
     "id": "2.16",
@@ -6403,13 +8029,28 @@ window.BANKMA2 = [
     "familj": "Kontrollera falska rötter i rotekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.19",
@@ -6452,13 +8093,18 @@ window.BANKMA2 = [
     "rättSvar": [
       "3",
       "3",
-      "x=2"
+      2
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -6477,14 +8123,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      6
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "bas (cm)",
+      "höjd (cm)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.22",
@@ -6553,14 +8215,16 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "2<=x<=10",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "intervall"
   },
   {
     "id": "2.25",
@@ -6603,12 +8267,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "lg(x^2)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.27",
@@ -6681,7 +8346,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -6705,7 +8371,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -6731,7 +8398,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -6757,7 +8425,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -6801,14 +8470,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "kort sida (cm)",
+      "lång sida (cm)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.35",
@@ -6827,14 +8512,16 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "rättSvar": 10,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.36",
@@ -6902,13 +8589,14 @@ window.BANKMA2 = [
     "familj": "Lösa rotekvationer genom kvadrering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.39",
@@ -6952,14 +8640,29 @@ window.BANKMA2 = [
     "familj": "Bestämma andragradsfunktion från nollställen",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "f(x)=(x+3)(x-5)",
+      33
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "funktion",
+      "f(8)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.41",
@@ -7001,13 +8704,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/2",
+      "-3/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.43",
@@ -7025,13 +8743,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      -7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.44",
@@ -7047,13 +8780,14 @@ window.BANKMA2 = [
     "familj": "Skriva andragradsuttryck på kvadratkompletterad form",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=9",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.45",
@@ -7096,14 +8830,15 @@ window.BANKMA2 = [
     "familj": "Bestämma symmetrilinje och extrempunkt från nollställen",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=7",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.47",
@@ -7122,13 +8857,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "f(x)=-(x+3)^2+9",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.48",
@@ -7147,14 +8883,33 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      7,
+      16,
+      "ja"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "kort_text"
+    ],
+    "svarEtiketter": [
+      "f(0)",
+      "f(3)",
+      "punkten (7,0) på grafen?"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.49",
@@ -7172,13 +8927,28 @@ window.BANKMA2 = [
     "familj": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      -4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.50",
@@ -7222,7 +8992,7 @@ window.BANKMA2 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.1,
-    "tolerans": null,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -7349,7 +9119,8 @@ window.BANKMA2 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ]
   },
   {
@@ -7368,13 +9139,28 @@ window.BANKMA2 = [
     "familj": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.58",
@@ -7416,13 +9202,14 @@ window.BANKMA2 = [
     "familj": "Lösa rotekvationer genom kvadrering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=9",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.60",
@@ -7464,14 +9251,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "",
+      ""
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.62",
@@ -7494,7 +9297,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -7539,13 +9343,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "f(x)=2x^2-12x+10",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.65",
@@ -7571,7 +9376,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -7638,15 +9444,16 @@ window.BANKMA2 = [
     "familj": "Skilja potensfunktioner från exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.69",
@@ -7760,14 +9567,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "kort sida (cm)",
+      "lång sida (cm)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.74",
@@ -7809,15 +9632,16 @@ window.BANKMA2 = [
     "familj": "Bestämma koefficienter från en andragradsekvations rötter",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=28",
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.76",
@@ -7860,13 +9684,14 @@ window.BANKMA2 = [
     "familj": "Exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.78",
@@ -7882,14 +9707,15 @@ window.BANKMA2 = [
     "familj": "Kontrollera falska rötter i rotekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=189/25",
+    "svarstyp": "numeriskt",
+    "rättSvar": "189/25",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "id": "2.79",
@@ -7940,7 +9766,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -7959,13 +9786,28 @@ window.BANKMA2 = [
     "familj": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      -1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.82",
@@ -7983,13 +9825,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      -7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.83",
@@ -8105,13 +9962,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "f(x)=2(x-3)^2-2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.88",
@@ -8204,14 +10062,32 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      null,
+      6
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      false,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.92",
@@ -8283,7 +10159,8 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ]
   },
   {
@@ -8327,13 +10204,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      -7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.97",
@@ -8349,13 +10241,14 @@ window.BANKMA2 = [
     "familj": "Kontrollera falska rötter i rotekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=5",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.98",
@@ -8373,13 +10266,35 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      75,
+      6
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a) f(3)",
+      "b) t"
+    ],
+    "svarsstruktur": "ordnad",
+    "manuellKomplettering": [
+      true,
+      false
     ]
   },
   {
@@ -8398,13 +10313,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      "1/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.100",
@@ -8474,14 +10404,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "",
+      ""
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.103",
@@ -8498,13 +10444,28 @@ window.BANKMA2 = [
     "familj": "Lösa sammansatta andragradsekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      -8
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a",
+      "a"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.104",
@@ -8521,15 +10482,16 @@ window.BANKMA2 = [
     "familj": "Bestämma koefficienter från en andragradsekvations rötter",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=11",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.105",
@@ -8573,15 +10535,17 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 6.9,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.107",
@@ -8650,12 +10614,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "lg(x^2)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.110",
@@ -8702,7 +10667,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -8747,14 +10713,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "",
+      ""
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.114",
@@ -8771,15 +10753,16 @@ window.BANKMA2 = [
     "familj": "Bestämma koefficienter från en andragradsekvations rötter",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=24",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.115",
@@ -8848,13 +10831,14 @@ window.BANKMA2 = [
     "familj": "Exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=3",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.118",
@@ -8870,13 +10854,14 @@ window.BANKMA2 = [
     "familj": "Lösa rotekvationer genom kvadrering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=11",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.119",
@@ -8920,15 +10905,31 @@ window.BANKMA2 = [
     "familj": "Andragradsmodeller för rörelse och höjd",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "tid 1 (s)",
+      "tid 2 (s)"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.121",
@@ -8971,12 +10972,62 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      [
+        0,
+        7
+      ],
+      [
+        -3,
+        5
+      ],
+      [
+        0.5,
+        -4
+      ]
+    ],
+    "tolerans": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a) lösningar",
+      "b) lösningar",
+      "c) lösningar"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.123",
@@ -9018,13 +11069,28 @@ window.BANKMA2 = [
     "familj": "Lösa faktoriserade ekvationer med nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      9
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.125",
@@ -9042,13 +11108,28 @@ window.BANKMA2 = [
     "familj": "Lösa faktoriserade ekvationer med nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      -2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.126",
@@ -9066,13 +11147,28 @@ window.BANKMA2 = [
     "familj": "Lösa faktoriserade ekvationer med nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.127",
@@ -9114,13 +11210,28 @@ window.BANKMA2 = [
     "familj": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      -9
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.129",
@@ -9138,13 +11249,28 @@ window.BANKMA2 = [
     "familj": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      -7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.130",
@@ -9163,12 +11289,62 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      [
+        0.5,
+        2.5
+      ],
+      [
+        0.5,
+        "-2/3"
+      ],
+      [
+        4,
+        -1.5
+      ]
+    ],
+    "tolerans": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "bråk"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a) lösningar",
+      "b) lösningar",
+      "c) lösningar"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.131",
@@ -9187,12 +11363,62 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      [
+        3,
+        0.5
+      ],
+      [
+        1,
+        -1.5
+      ],
+      [
+        2,
+        "1/3"
+      ]
+    ],
+    "tolerans": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "bråk"
+      ]
+    ],
+    "svarEtiketter": [
+      "a) lösningar",
+      "b) lösningar",
+      "c) lösningar"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.132",
@@ -9210,13 +11436,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.133",
@@ -9282,13 +11523,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.136",
@@ -9307,12 +11563,62 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      [
+        "1/3",
+        -2
+      ],
+      [
+        4,
+        0.5
+      ],
+      [
+        2,
+        0.6
+      ]
+    ],
+    "tolerans": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        0.01
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      [
+        "bråk",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a) lösningar",
+      "b) lösningar",
+      "c) lösningar"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.137",
@@ -9404,14 +11710,33 @@ window.BANKMA2 = [
     "familj": "Avläsa egenskaper hos en andragradsfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      1,
+      4
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nollställe 1",
+      "nollställe 2",
+      "största värde"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.141",
@@ -9684,13 +12009,28 @@ window.BANKMA2 = [
     "familj": "Lösa faktoriserade ekvationer med nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3/2",
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.152",
@@ -9737,7 +12077,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -9762,7 +12103,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -9788,7 +12130,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -9814,7 +12157,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -9882,13 +12226,14 @@ window.BANKMA2 = [
     "familj": "Lösa sammansatta andragradsekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "a=12",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.160",
@@ -9906,13 +12251,32 @@ window.BANKMA2 = [
     "familj": "Lösa faktoriserade ekvationer med nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      0,
+      3
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.161",
@@ -9955,16 +12319,32 @@ window.BANKMA2 = [
     "familj": "Optimering med andragradsfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      150,
+      14000
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "pris (kr)",
+      "maximal vinst (kr)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.163",
@@ -10012,7 +12392,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -10058,14 +12439,16 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "rättSvar": 4,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.167",
@@ -10107,13 +12490,14 @@ window.BANKMA2 = [
     "familj": "Lösa sammansatta andragradsekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "a=9",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.169",
@@ -10131,13 +12515,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      "-1/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.170",
@@ -10155,13 +12554,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      "-1/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.171",
@@ -10371,12 +12785,39 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      10,
+      [
+        2,
+        -2
+      ]
+    ],
+    "tolerans": [
+      null,
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a) f(-2)",
+      "b) lösningar"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.180",
@@ -10418,14 +12859,15 @@ window.BANKMA2 = [
     "familj": "Bestämma logaritmvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.182",
@@ -10442,14 +12884,15 @@ window.BANKMA2 = [
     "familj": "Bestämma logaritmvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.183",
@@ -10538,14 +12981,15 @@ window.BANKMA2 = [
     "familj": "Bestämma logaritmvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=1000",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1000,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.187",
@@ -10563,13 +13007,15 @@ window.BANKMA2 = [
     "familj": "Använda potensregler i problemlösning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "a=5",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.188",
@@ -10611,13 +13057,15 @@ window.BANKMA2 = [
     "familj": "Använda potensregler i problemlösning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "n=4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.190",
@@ -10681,13 +13129,15 @@ window.BANKMA2 = [
     "familj": "Använda potensregler i problemlösning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "n=6",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.193",
@@ -10772,12 +13222,14 @@ window.BANKMA2 = [
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "rättSvar": 10,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.197",
@@ -10795,13 +13247,14 @@ window.BANKMA2 = [
     "familj": "Lösa förskjutna potensekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=1",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.198",
@@ -10994,13 +13447,40 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      -8,
+      [
+        -5,
+        1
+      ]
+    ],
+    "tolerans": [
+      null,
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a) g(-3)",
+      "b) nollställen"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.206",
@@ -11043,13 +13523,40 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      3,
+      [
+        2,
+        -0.5
+      ]
+    ],
+    "tolerans": [
+      null,
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a) f(2)",
+      "b) lösningar"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.208",
@@ -11066,14 +13573,29 @@ window.BANKMA2 = [
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      -2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "f(2)",
+      "f(2)"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.209",
@@ -11090,13 +13612,14 @@ window.BANKMA2 = [
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "g(-1)=6",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.210",
@@ -11137,14 +13660,29 @@ window.BANKMA2 = [
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      -1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.212",
@@ -11308,13 +13846,14 @@ window.BANKMA2 = [
     "familj": "Lösa logaritmekvationer med logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=10",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.219",
@@ -11332,12 +13871,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "lg(100)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.220",
@@ -11354,13 +13894,14 @@ window.BANKMA2 = [
     "familj": "Lösa logaritmekvationer med logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=9",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.221",
@@ -11405,7 +13946,8 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ]
   },
   {
@@ -11471,13 +14013,15 @@ window.BANKMA2 = [
     "familj": "Använda potensregler i problemlösning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "n=6",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.226",
@@ -11566,14 +14110,16 @@ window.BANKMA2 = [
     "familj": "Exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.5,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.230",
@@ -11616,13 +14162,14 @@ window.BANKMA2 = [
     "familj": "Lösa förskjutna potensekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=6",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.232",
@@ -11640,13 +14187,44 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      [
+        -3,
+        3
+      ],
+      4
+    ],
+    "tolerans": [
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a) lösningar",
+      "b) x"
+    ],
+    "svarsstruktur": "ordnad",
+    "manuellKomplettering": [
+      true,
+      true
     ]
   },
   {
@@ -11666,13 +14244,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "a>4",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "intervall"
   },
   {
     "id": "2.234",
@@ -11738,13 +14317,28 @@ window.BANKMA2 = [
     "familj": "Lösa potensekvationer genom att ta rot",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.237",
@@ -11781,17 +14375,18 @@ window.BANKMA2 = [
     "poang": "0/2/0",
     "t": "<p>En andragradsfunktion har symmetrilinjen \\(x=4\\). Grafen går genom punkten \\((1,10)\\), och funktionens värde i symmetrilinjen är 1.</p><p>Bestäm funktionen.</p>",
     "s": "<p>Eftersom symmetrilinjen är \\(x=4\\) och funktionens minsta värde är 1 ligger minimipunkten i \\((4,1)\\).</p><p>Funktionen kan därför skrivas</p><p>\\[f(x)=a(x-4)^2+1.\\]</p><p>Punkten \\((1,10)\\) ligger på grafen:</p><p>\\[10=a(1-4)^2+1=9a+1.\\]</p><p>Alltså \\(a=1\\).</p><p><strong>\\(f(x)=(x-4)^2+1=x^2-8x+17\\).</strong></p>",
-    "familj": "Avläsa symmetrilinje och extrempunkt ur graf",
+    "familj": "Bestämma andragradsfunktion från graf eller punkter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "f(x)=x^2-8x+17",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.239",
@@ -11810,13 +14405,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "f(x)=2(x-2)^2-5",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.240",
@@ -11860,12 +14456,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "lg(9)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.242",
@@ -11956,13 +14553,40 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      2,
+      [
+        2,
+        3
+      ]
+    ],
+    "tolerans": [
+      null,
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a) f(4)",
+      "b) nollställen"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.246",
@@ -12029,13 +14653,36 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      1,
+      8,
+      null
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEtiketter": [
+      "a) f(0)",
+      "b) f(3)",
+      "c) förändring"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.249",
@@ -12078,12 +14725,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "lg(2x^2)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.251",
@@ -12099,13 +14747,14 @@ window.BANKMA2 = [
     "familj": "Lösa rotekvationer genom kvadrering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.252",
@@ -12123,13 +14772,14 @@ window.BANKMA2 = [
     "familj": "Lösa potensekvationer genom att ta rot",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=3",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.253",
@@ -12147,15 +14797,35 @@ window.BANKMA2 = [
     "familj": "Optimering med andragradsfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      200,
+      10,
+      20
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "största area (m²)",
+      "djup (m)",
+      "längd (m)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.254",
@@ -12201,12 +14871,16 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "16",
-      "x=12"
+      12
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -12249,13 +14923,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.258",
@@ -12274,13 +14963,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "f(x)=x^2-4x-12",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.259",
@@ -12355,7 +15045,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -12373,14 +15064,15 @@ window.BANKMA2 = [
     "familj": "Bestämma logaritmvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.263",
@@ -12397,13 +15089,29 @@ window.BANKMA2 = [
     "familj": "Använda logaritmlagar i problemlösning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      100,
+      10
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.264",
@@ -12445,14 +15153,15 @@ window.BANKMA2 = [
     "familj": "Potensekvationer med två reella rötter",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.266",
@@ -12503,7 +15212,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -12520,13 +15230,14 @@ window.BANKMA2 = [
     "familj": "Lösa rotekvationer genom kvadrering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=13",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.269",
@@ -12568,13 +15279,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      -2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.271",
@@ -12590,13 +15316,14 @@ window.BANKMA2 = [
     "familj": "Bestämma extrempunkt med kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=11",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.272",
@@ -12613,15 +15340,16 @@ window.BANKMA2 = [
     "familj": "Bestämma koefficienter från en andragradsekvations rötter",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=20",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.273",
@@ -12665,13 +15393,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "f(x)=-2(x+2)^2+6",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.275",
@@ -12697,7 +15426,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -12835,12 +15565,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "lg(5)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.282",
@@ -12882,13 +15613,14 @@ window.BANKMA2 = [
     "familj": "Lösa rotekvationer genom kvadrering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=6",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.284",
@@ -12913,7 +15645,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -12938,7 +15671,8 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -12964,7 +15698,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -12989,7 +15724,8 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13014,7 +15750,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13033,14 +15770,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      11
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "",
+      ""
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.290",
@@ -13058,16 +15811,32 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      15
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "kort sida (cm)",
+      "lång sida (cm)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.291",
@@ -13085,14 +15854,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i talproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.292",
@@ -13110,14 +15895,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      11
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "bredd (cm)",
+      "längd (cm)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.293",
@@ -13136,13 +15937,15 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 1.37,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.294",
@@ -13161,14 +15964,15 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "a>4",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "intervall"
   },
   {
     "id": "2.295",
@@ -13186,14 +15990,29 @@ window.BANKMA2 = [
     "familj": "Undersöka andragradsfunktioner med parameter",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.296",
@@ -13312,13 +16131,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "alla fyra",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "kort_text"
   },
   {
     "id": "2.301",
@@ -13387,14 +16207,29 @@ window.BANKMA2 = [
     "familj": "Undersöka andragradsfunktioner med parameter",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.304",
@@ -13462,15 +16297,30 @@ window.BANKMA2 = [
     "familj": "Avläsa funktionsvärden och lösa ekvationer i en parabelgraf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.307",
@@ -13568,13 +16418,40 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      [
+        -2,
+        4
+      ],
+      1
+    ],
+    "tolerans": [
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a) nollställen",
+      "b) x-koordinat"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.311",
@@ -13669,13 +16546,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "f(x)=x^2-12x+20",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.315",
@@ -13816,13 +16694,14 @@ window.BANKMA2 = [
     "familj": "Bestämma symmetrilinje och extrempunkt från funktionsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=23",
+    "svarstyp": "numeriskt",
+    "rättSvar": 23,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.321",
@@ -13943,13 +16822,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "f(x)=2(x-3)^2-8",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.326",
@@ -13968,13 +16848,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "f(x)=x^2-4x-5",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.327",
@@ -14019,13 +16900,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "f(x)=x^2-2x-8",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.329",
@@ -14068,15 +16950,30 @@ window.BANKMA2 = [
     "familj": "Bestämma k- och m-värde från graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "f(x)=2(x-1)(x-7)",
+      -18
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "funktion",
+      "minsta värde"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.331",
@@ -14144,14 +17041,33 @@ window.BANKMA2 = [
     "familj": "Bestämma k- och m-värde från graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "f(x)=2(x-2)^2-9",
+      "2-(3sqrt(2))/2",
+      "2+(3sqrt(2))/2"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarEtiketter": [
+      "funktion",
+      "nollställe 1",
+      "nollställe 2"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.334",
@@ -14170,14 +17086,16 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 6.8,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.335",
@@ -14202,7 +17120,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -14230,7 +17149,8 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -14250,14 +17170,16 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "rättSvar": 16,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.338",
@@ -14276,14 +17198,16 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "rättSvar": 5,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.339",
@@ -14301,15 +17225,35 @@ window.BANKMA2 = [
     "familj": "Optimering med andragradsfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      800,
+      20,
+      40
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "största area (m²)",
+      "djup (m)",
+      "längd (m)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.340",
@@ -14328,13 +17272,15 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 42.25,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.341",
@@ -14359,7 +17305,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -14378,15 +17325,31 @@ window.BANKMA2 = [
     "familj": "Tolka och använda andragradsmodeller",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      8
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "",
+      ""
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.343",
@@ -14404,15 +17367,31 @@ window.BANKMA2 = [
     "familj": "Tolka och använda andragradsmodeller",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      40
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "produktionsnivå 1",
+      "produktionsnivå 2"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.344",
@@ -14476,14 +17455,29 @@ window.BANKMA2 = [
     "familj": "Tolka och använda potensfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "C",
+      "a"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.347",
@@ -14502,7 +17496,7 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "f(x)=5x^(1.5)",
-      "f(9)=135"
+      135
     ],
     "tolerans": null,
     "självrättning": true,
@@ -14510,6 +17504,10 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "resonemang"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -14528,13 +17526,14 @@ window.BANKMA2 = [
     "familj": "Lösa potensekvationer genom att ta rot",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=5",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.349",
@@ -14552,14 +17551,33 @@ window.BANKMA2 = [
     "familj": "Lösa potensekvationer genom att ta rot",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      0,
+      2
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.350",
@@ -14577,13 +17595,14 @@ window.BANKMA2 = [
     "familj": "Lösa förskjutna potensekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=7",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.351",
@@ -14622,14 +17641,15 @@ window.BANKMA2 = [
     "familj": "Tolka och använda potensfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "f(4)=48",
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.353",
@@ -14692,15 +17712,16 @@ window.BANKMA2 = [
     "familj": "Bestämma parameter i en potensfunktion",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "n=2",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.356",
@@ -15077,15 +18098,33 @@ window.BANKMA2 = [
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      10.42,
+      null
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.371",
@@ -15154,16 +18193,17 @@ window.BANKMA2 = [
     "familj": "Välja och jämföra regressionsmodeller",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "2.374",
@@ -15205,14 +18245,15 @@ window.BANKMA2 = [
     "familj": "Bestämma extrempunkt med kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.376",
@@ -15250,13 +18291,14 @@ window.BANKMA2 = [
     "familj": "Bestämma extrempunkt med kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=13",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.378",
@@ -15278,7 +18320,8 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ]
   },
   {
@@ -15371,13 +18414,28 @@ window.BANKMA2 = [
     "familj": "Lösa förskjutna potensekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.383",
@@ -15419,13 +18477,14 @@ window.BANKMA2 = [
     "familj": "Beräkna funktionsvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "f(5)=16",
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.385",
@@ -15467,14 +18526,29 @@ window.BANKMA2 = [
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.387",
@@ -15517,13 +18591,14 @@ window.BANKMA2 = [
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "g(-2)=1",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.389",
@@ -15543,12 +18618,16 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "f(x)=3x+1",
-      "x=5"
+      5
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -15567,14 +18646,32 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      14,
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.391",
@@ -15592,12 +18689,34 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      "ja",
+      "nej"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "begrepp",
       "resonemang"
+    ],
+    "svarFormat": [
+      "kort_text",
+      "kort_text"
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "manuellKomplettering": [
+      true,
+      true
     ]
   },
   {
@@ -15662,13 +18781,14 @@ window.BANKMA2 = [
     "familj": "Beräkna funktionsvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=6",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.395",
@@ -15686,14 +18806,37 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      1,
+      2,
+      null
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.396",
@@ -15737,13 +18880,18 @@ window.BANKMA2 = [
     "rättSvar": [
       3,
       3,
-      "x=3"
+      3
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -15761,14 +18909,29 @@ window.BANKMA2 = [
     "familj": "Beräkna funktionsvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -4,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.399",
@@ -15785,15 +18948,30 @@ window.BANKMA2 = [
     "familj": "Tolka funktionsnotation i graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.400",
@@ -15810,13 +18988,14 @@ window.BANKMA2 = [
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=7",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.401",
@@ -15860,13 +19039,18 @@ window.BANKMA2 = [
     "rättSvar": [
       "4",
       "0",
-      "x=-1"
+      -1
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -15958,13 +19142,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "ja",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "kort_text"
   },
   {
     "id": "2.407",
@@ -15981,14 +19166,33 @@ window.BANKMA2 = [
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2,
+      29
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "f(g(5))"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.408",
@@ -16081,13 +19285,17 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "1",
-      "x=1"
+      1
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -16204,13 +19412,36 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      4,
+      -1,
+      3
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a) f(2)",
+      "b) f(-3)",
+      "c) x"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.417",
@@ -16278,14 +19509,19 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       -3,
-      "x=2",
-      "x=4/3"
+      2,
+      "4/3"
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      "bråk"
     ]
   },
   {
@@ -16305,7 +19541,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "f(1)=1",
+      1,
       7
     ],
     "tolerans": null,
@@ -16313,6 +19549,10 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
     ]
   },
   {
@@ -16333,13 +19573,17 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "4.5",
-      "x=-1"
+      -1
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -16435,13 +19679,18 @@ window.BANKMA2 = [
     "rättSvar": [
       "2",
       "5",
-      "x=2"
+      2
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -16486,13 +19735,18 @@ window.BANKMA2 = [
     "rättSvar": [
       "4",
       "-1",
-      "x=3"
+      3
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -16513,7 +19767,7 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "-1",
-      "x=0",
+      0,
       "f(5)=6"
     ],
     "tolerans": null,
@@ -16521,6 +19775,11 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      null
     ]
   },
   {
@@ -16564,7 +19823,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "f(1)=2",
+      2,
       11
     ],
     "tolerans": null,
@@ -16572,6 +19831,10 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
     ]
   },
   {
@@ -16644,12 +19907,17 @@ window.BANKMA2 = [
     "rättSvar": [
       "11",
       "-7",
-      "x=1"
+      1
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -16671,13 +19939,18 @@ window.BANKMA2 = [
     "rättSvar": [
       "1",
       "3",
-      "x=0"
+      0
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -16696,12 +19969,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "ja",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "svarFormat": "kort_text"
   },
   {
     "id": "2.436",
@@ -16719,13 +19993,45 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      -3,
+      0,
+      [
+        -3,
+        6
+      ]
+    ],
+    "tolerans": [
+      null,
+      null,
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a) f(2)",
+      "b) x",
+      "c) punkt (x,y)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.437",
@@ -16793,13 +20099,17 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "1",
-      "x=-1"
+      -1
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -16824,7 +20134,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -16872,7 +20183,8 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ]
   },
   {
@@ -17013,14 +20325,15 @@ window.BANKMA2 = [
     "familj": "Bestämma extrempunkt med kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=11",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.449",
@@ -17059,13 +20372,28 @@ window.BANKMA2 = [
     "familj": "Lösa sammansatta andragradsekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      -10
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a",
+      "a"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.451",
@@ -17108,14 +20436,16 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "4<=x<=8",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "intervall"
   },
   {
     "id": "2.453",
@@ -17133,16 +20463,18 @@ window.BANKMA2 = [
     "familj": "Tolka och använda andragradsmodeller",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "34<=x<=106",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "intervall"
   },
   {
     "id": "2.454",
@@ -17237,15 +20569,16 @@ window.BANKMA2 = [
     "familj": "Förändringsfaktor i exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.9,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.458",
@@ -17262,14 +20595,15 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "f(-1)=9/4",
+    "svarstyp": "numeriskt",
+    "rättSvar": "9/4",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "id": "2.459",
@@ -17339,14 +20673,29 @@ window.BANKMA2 = [
     "familj": "Förändringsfaktor i exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      850,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "procent"
+    ],
+    "svarEtiketter": [
+      "startvärde",
+      "ökning per tidsenhet (%)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.462",
@@ -17433,15 +20782,30 @@ window.BANKMA2 = [
     "familj": "Tolka och använda potensfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a",
+      "n"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.466",
@@ -17457,14 +20821,15 @@ window.BANKMA2 = [
     "familj": "Tolka och använda potensfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "C=2",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.467",
@@ -17504,13 +20869,14 @@ window.BANKMA2 = [
     "familj": "Förenkla uttryck med logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.469",
@@ -17550,14 +20916,15 @@ window.BANKMA2 = [
     "familj": "Lösa logaritmekvationer med logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=sqrt(11)",
+    "svarstyp": "uttryck",
+    "rättSvar": "sqrt(11)",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.471",
@@ -17579,7 +20946,8 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ]
   },
   {
@@ -17619,13 +20987,28 @@ window.BANKMA2 = [
     "familj": "Lösa rotekvationer genom kvadrering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      -1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.474",
@@ -17641,13 +21024,14 @@ window.BANKMA2 = [
     "familj": "Lösa rotekvationer genom kvadrering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=24",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.475",
@@ -17663,14 +21047,15 @@ window.BANKMA2 = [
     "familj": "Lösa rotekvationer genom kvadrering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.476",
@@ -17686,13 +21071,28 @@ window.BANKMA2 = [
     "familj": "Kontrollera falska rötter i rotekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.477",
@@ -17814,13 +21214,28 @@ window.BANKMA2 = [
     "familj": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      -11
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.482",
@@ -17838,13 +21253,28 @@ window.BANKMA2 = [
     "familj": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "10/3",
+      "2/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.483",
@@ -17886,13 +21316,28 @@ window.BANKMA2 = [
     "familj": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "5/2",
+      "-7/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.485",
@@ -17909,13 +21354,36 @@ window.BANKMA2 = [
     "familj": "Lösa sammansatta andragradsekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      -2,
+      2,
+      3
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.486",
@@ -17932,13 +21400,14 @@ window.BANKMA2 = [
     "familj": "Lösa sammansatta andragradsekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "k=9",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.487",
@@ -17955,13 +21424,28 @@ window.BANKMA2 = [
     "familj": "Lösa sammansatta andragradsekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.488",
@@ -17978,14 +21462,29 @@ window.BANKMA2 = [
     "familj": "Lösa sammansatta andragradsekvationer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      8
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "",
+      ""
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.489",
@@ -18002,14 +21501,29 @@ window.BANKMA2 = [
     "familj": "Bestämma koefficienter från en andragradsekvations rötter",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      -15
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "p",
+      "q"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.490",
@@ -18026,14 +21540,15 @@ window.BANKMA2 = [
     "familj": "Bestämma koefficienter från en andragradsekvations rötter",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "p=-7",
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.491",
@@ -18074,15 +21589,30 @@ window.BANKMA2 = [
     "familj": "Använda rötternas summa och produkt",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -10,
+      24
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "p",
+      "q"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.493",
@@ -18202,14 +21732,15 @@ window.BANKMA2 = [
     "familj": "Bestämma logaritmvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.498",
@@ -18227,13 +21758,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "10^2.7",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.499",
@@ -18250,14 +21782,15 @@ window.BANKMA2 = [
     "familj": "Bestämma logaritmvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=-3",
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.500",
@@ -18299,14 +21832,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i talproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      13
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.502",
@@ -18324,14 +21873,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i talproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      10
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.503",
@@ -18349,14 +21914,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      9
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "",
+      ""
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.504",
@@ -18401,7 +21982,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -5.6,
-    "tolerans": null,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -18478,7 +22059,8 @@ window.BANKMA2 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ]
   },
   {
@@ -18496,13 +22078,14 @@ window.BANKMA2 = [
     "familj": "Lösa exponentialekvationer algebraiskt",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=3",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.510",
@@ -18520,15 +22103,18 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "rättSvar": 11,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "manuellKomplettering": true
   },
   {
     "id": "2.511",
@@ -18545,15 +22131,16 @@ window.BANKMA2 = [
     "familj": "Jämföra potens- och exponentialfunktioner grafiskt",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=28",
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.512",
@@ -18669,13 +22256,14 @@ window.BANKMA2 = [
     "familj": "Lösa rotekvationer genom kvadrering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=13",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.517",
@@ -18701,7 +22289,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -18743,13 +22332,28 @@ window.BANKMA2 = [
     "familj": "Lösa faktoriserade ekvationer med nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-3/2",
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.520",
@@ -18767,13 +22371,28 @@ window.BANKMA2 = [
     "familj": "Lösa faktoriserade ekvationer med nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      -4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.521",
@@ -18815,13 +22434,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      "1/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.523",
@@ -18839,13 +22473,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.524",
@@ -18863,13 +22512,28 @@ window.BANKMA2 = [
     "familj": "Lösa andragradsekvationer med lösningsformel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4/3",
+      -2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "bråk",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "2.525",
@@ -18958,14 +22622,15 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.529",
@@ -18983,12 +22648,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "lg(25xy^2)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.01",
@@ -19079,12 +22745,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "rättSvar": 7,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.05",
@@ -19123,7 +22790,7 @@ window.BANKMA2 = [
     "poang": "0/2/0",
     "t": "<p>Punkterna är \\(A=(-2,5)\\) och \\(B=(6,1)\\). Punkten \\(P\\) ligger på \\(x\\)-axeln och har lika långt till A som till B.</p><p>Bestäm koordinaterna för \\(P\\).</p>",
     "s": "<p>Sätt \\(P=(p,0)\\). Lika avstånd ger lika kvadrerade avstånd:</p><p>\\((p+2)^2+5^2=(p-6)^2+1^2\\).</p><p>Utveckla: \\(p^2+4p+29=p^2-12p+37\\).</p><p>\\(16p=8\\Rightarrow p=\\frac12\\).</p><p><strong>\\(P=(\\frac12,0)\\).</strong></p>",
-    "familj": "Bestämma punkt med lika avstånd till givna punkter",
+    "familj": "Problemlösning med avståndsformeln",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "uttryck",
@@ -19131,7 +22798,8 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ]
   },
   {
@@ -19149,14 +22817,15 @@ window.BANKMA2 = [
     "familj": "Identifiera motsvarande sidor i likformiga trianglar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.08",
@@ -19173,14 +22842,15 @@ window.BANKMA2 = [
     "familj": "Beräkna med topptriangelsatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.09",
@@ -19197,13 +22867,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.10",
@@ -19220,13 +22891,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=10",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.11",
@@ -19274,7 +22946,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -19293,13 +22966,15 @@ window.BANKMA2 = [
     "familj": "Beräkna area i koordinatsystem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.14",
@@ -19317,13 +22992,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 6.3,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.15",
@@ -19460,13 +23136,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=5",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.21",
@@ -19484,14 +23161,15 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "ja",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "kort_text"
   },
   {
     "id": "3.22",
@@ -19540,7 +23218,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -19556,7 +23235,7 @@ window.BANKMA2 = [
     "poang": "0/2/0",
     "t": "<p>Punkterna \\(A=(-3,4)\\) och \\(B=(5,-2)\\) är ändpunkter på en diameter i en cirkel.</p><p>Bestäm cirkelns medelpunkt och radie.</p>",
     "s": "<p>Cirkelns medelpunkt är mittpunkten på diametern:</p><p>\\[M=\\left(\\frac{-3+5}{2},\\frac{4+(-2)}{2}\\right)=(1,1).\\]</p><p>Diameterns längd är</p><p>\\[AB=\\sqrt{(5-(-3))^2+(-2-4)^2}=\\sqrt{8^2+(-6)^2}=10.\\]</p><p>Radien är hälften av diametern, alltså \\(r=5\\).</p><p><strong>Medelpunkt \\((1,1)\\), radie 5.</strong></p>",
-    "familj": "Bestämma cirkel från diameter i koordinatsystem",
+    "familj": "Koordinatgeometri med cirklar",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "uttryck",
@@ -19589,7 +23268,8 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "problemlösning"
     ]
   },
   {
@@ -19632,14 +23312,29 @@ window.BANKMA2 = [
     "familj": "Samband mellan randvinkel och medelpunktsvinkel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      62,
+      124
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "grader",
+      "grader"
+    ],
+    "svarEtiketter": [
+      "∠BAC",
+      "∠BMC"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.28",
@@ -19752,13 +23447,28 @@ window.BANKMA2 = [
     "familj": "Beräkna vinklar med yttervinkelsatsen",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      53,
+      75
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "grader",
+      "grader"
+    ],
+    "svarEtiketter": [
+      "vinkel 1",
+      "vinkel 2"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "3.33",
@@ -19801,12 +23511,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 16.6,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.35",
@@ -19926,7 +23637,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -20020,13 +23732,17 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "2",
-      "x=18"
+      18
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
     ]
   },
   {
@@ -20068,13 +23784,29 @@ window.BANKMA2 = [
     "familj": "Beräkna area i koordinatsystem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      "2/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.46",
@@ -20140,7 +23872,7 @@ window.BANKMA2 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 8.4,
-    "tolerans": null,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -20162,13 +23894,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.50",
@@ -20209,15 +23942,16 @@ window.BANKMA2 = [
     "familj": "Avgöra och använda ekvivalens",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.52",
@@ -20265,7 +23999,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -20357,13 +24092,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 10.5,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.58",
@@ -20381,13 +24117,15 @@ window.BANKMA2 = [
     "familj": "Beräkna area i koordinatsystem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": "sqrt(65)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.59",
@@ -20454,14 +24192,21 @@ window.BANKMA2 = [
     "familj": "Identifiera geometriska begrepp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
+    "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": null,
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.62",
@@ -20509,7 +24254,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -20583,7 +24329,8 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "problemlösning"
     ]
   },
   {
@@ -20598,17 +24345,21 @@ window.BANKMA2 = [
     "poang": "0/0/3",
     "t": "<p>I en cirkel med medelpunkt \\(M\\) ligger punkterna \\(A,B,C\\) på cirkeln. Vinkeln \\(\\angle ACB=x\\). Sträckan \\(AB\\) förlängs till \\(D\\), och \\(BD\\) är lika lång som cirkelns radie. Låt \\(y=\\angle BDM\\).</p><p>Bestäm \\(y\\) uttryckt i \\(x\\), för \\(0^\\circ&lt;x&lt;90^\\circ\\).</p>",
     "s": "<p>Randvinkeln \\(x\\) står på bågen \\(AB\\), så medelpunktsvinkeln \\(\\angle AMB=2x\\).</p><p>Triangeln \\(AMB\\) är likbent, så \\(\\angle MBA=90^\\circ-x\\).</p><p>Eftersom \\(BD\\) är en förlängning av \\(BA\\) blir \\(\\angle MBD=180^\\circ-(90^\\circ-x)=90^\\circ+x\\).</p><p>I triangeln \\(MBD\\) är \\(MB=BD\\), så basvinklarna vid \\(M\\) och \\(D\\) är lika.</p><p>\\(2y+(90^\\circ+x)=180^\\circ\\).</p><p><strong>\\(y=45^\\circ-\\frac{x}{2}\\).</strong></p>",
-    "familj": "Beräkna vinklar i cirkel",
+    "familj": "Samband mellan randvinkel och medelpunktsvinkel",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": null,
+    "rättSvar": "45-x/2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
+    ],
+    "svarFormat": "uttryck",
+    "svarEtiketter": [
+      "y"
     ]
   },
   {
@@ -20673,13 +24424,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=5",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.71",
@@ -20776,7 +24528,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -20795,13 +24548,28 @@ window.BANKMA2 = [
     "familj": "Beräkna mittpunkt mellan två punkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      -2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.76",
@@ -20844,7 +24612,7 @@ window.BANKMA2 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 10.8,
-    "tolerans": null,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -20920,7 +24688,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -20963,13 +24732,15 @@ window.BANKMA2 = [
     "familj": "Beräkna area i koordinatsystem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.83",
@@ -21060,13 +24831,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 5.4,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.87",
@@ -21105,7 +24877,7 @@ window.BANKMA2 = [
     "poang": "0/2/0",
     "t": "<p>Tre hörn i en parallellogram är A=(1,2), B=(7,2) och C=(9,6). Punkterna ligger i ordningen A-B-C-D.</p><p>Bestäm koordinaterna för D.</p>",
     "s": "<p>I en parallellogram har diagonalerna samma mittpunkt.</p><p>Mittpunkten på AC är</p><p>\\[M=\\left(\\frac{1+9}{2},\\frac{2+6}{2}\\right)=(5,4).\\]</p><p>Om \\(D=(x,y)\\) ska mittpunkten på BD också vara (5,4):</p><p>\\[\\frac{7+x}{2}=5\\Rightarrow x=3,\\qquad \\frac{2+y}{2}=4\\Rightarrow y=6.\\]</p><p><strong>\\(D=(3,6)\\).</strong></p>",
-    "familj": "Koordinatgeometri med linjer och geometriska villkor",
+    "familj": "Problemlösning med flera koordinatgeometriska metoder",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "uttryck",
@@ -21114,7 +24886,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -21132,13 +24905,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=3",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.90",
@@ -21326,14 +25100,15 @@ window.BANKMA2 = [
     "familj": "Beräkna med topptriangelsatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.98",
@@ -21350,14 +25125,15 @@ window.BANKMA2 = [
     "familj": "Beräkna med topptriangelsatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.99",
@@ -21423,14 +25199,15 @@ window.BANKMA2 = [
     "familj": "Beräkna med topptriangelsatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.102",
@@ -21447,14 +25224,15 @@ window.BANKMA2 = [
     "familj": "Beräkna med topptriangelsatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.5,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.103",
@@ -21616,14 +25394,15 @@ window.BANKMA2 = [
     "familj": "Beräkna med topptriangelsatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.111",
@@ -21665,14 +25444,30 @@ window.BANKMA2 = [
     "familj": "Beräkna area i koordinatsystem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "c",
+      "c"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "3.113",
@@ -21713,14 +25508,15 @@ window.BANKMA2 = [
     "familj": "Samband mellan randvinkel och medelpunktsvinkel",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": null
   },
   {
     "id": "3.115",
@@ -21739,7 +25535,7 @@ window.BANKMA2 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": null,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -21767,7 +25563,8 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ]
   },
   {
@@ -21786,14 +25583,15 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "kort_text"
   },
   {
     "id": "3.118",
@@ -21930,14 +25728,29 @@ window.BANKMA2 = [
     "familj": "Beräkna längder med Pythagoras sats",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.64,
+      14.64
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "kort sida (cm)",
+      "lång sida (cm)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.124",
@@ -21954,15 +25767,16 @@ window.BANKMA2 = [
     "familj": "Avgöra och använda ekvivalens",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "c=9",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.125",
@@ -22011,7 +25825,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -22124,14 +25939,15 @@ window.BANKMA2 = [
     "familj": "Beräkna med topptriangelsatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.132",
@@ -22172,13 +25988,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.134",
@@ -22226,7 +26043,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -22343,13 +26161,28 @@ window.BANKMA2 = [
     "familj": "Beräkna längder med Pythagoras sats",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "",
+      ""
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.141",
@@ -22367,14 +26200,29 @@ window.BANKMA2 = [
     "familj": "Beräkna längder med Pythagoras sats",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "katet 1 (cm)",
+      "katet 2 (cm)"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "3.142",
@@ -22416,13 +26264,28 @@ window.BANKMA2 = [
     "familj": "Beräkna längder med Pythagoras sats",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "",
+      ""
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.144",
@@ -22440,13 +26303,28 @@ window.BANKMA2 = [
     "familj": "Beräkna längder med Pythagoras sats",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15,
+      120
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "andra sidan (cm)",
+      "area (cm²)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.145",
@@ -22464,13 +26342,28 @@ window.BANKMA2 = [
     "familj": "Beräkna längder med Pythagoras sats",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      48
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "höjd (cm)",
+      "area (cm²)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.146",
@@ -22827,13 +26720,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 6.6,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.161",
@@ -22900,14 +26794,15 @@ window.BANKMA2 = [
     "familj": "Beräkna med topptriangelsatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.6,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.164",
@@ -22949,14 +26844,15 @@ window.BANKMA2 = [
     "familj": "Beräkna med topptriangelsatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.166",
@@ -22973,13 +26869,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=9",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.167",
@@ -22996,13 +26893,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=8",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.168",
@@ -23042,13 +26940,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=6",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.170",
@@ -23065,13 +26964,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=6",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.171",
@@ -23088,13 +26988,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=12",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.172",
@@ -23111,13 +27012,28 @@ window.BANKMA2 = [
     "familj": "Beräkna vinklar med yttervinkelsatsen",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      28,
+      56
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "grader",
+      "grader"
+    ],
+    "svarEtiketter": [
+      "vinkel 1",
+      "vinkel 2"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "3.173",
@@ -23232,14 +27148,32 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      null,
+      6
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      false,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.178",
@@ -23256,13 +27190,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=6",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.179",
@@ -23279,13 +27214,14 @@ window.BANKMA2 = [
     "familj": "Beräkna sträckor med kordasatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=7",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.180",
@@ -23400,13 +27336,28 @@ window.BANKMA2 = [
     "familj": "Beräkna mittpunkt mellan två punkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.185",
@@ -23423,14 +27374,15 @@ window.BANKMA2 = [
     "familj": "Beräkna med topptriangelsatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.186",
@@ -23472,13 +27424,28 @@ window.BANKMA2 = [
     "familj": "Beräkna längder med Pythagoras sats",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "",
+      ""
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.188",
@@ -23501,7 +27468,8 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ]
   },
   {
@@ -23762,12 +27730,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 6.5,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.200",
@@ -23833,14 +27802,38 @@ window.BANKMA2 = [
     "familj": "Koordinatgeometri med cirklar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      3,
+      "sqrt(10)",
+      "(x-4)^2+(y-3)^2=10"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarEtiketter": [
+      "centrum x",
+      "centrum y",
+      "radie",
+      "ekvation"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "3.203",
@@ -23864,7 +27857,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -23908,13 +27902,15 @@ window.BANKMA2 = [
     "familj": "Beräkna area i koordinatsystem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.206",
@@ -23957,13 +27953,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "ja",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "kort_text"
   },
   {
     "id": "3.208",
@@ -24005,14 +28002,15 @@ window.BANKMA2 = [
     "familj": "Identifiera motsvarande sidor i likformiga trianglar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=15",
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.01",
@@ -24079,14 +28077,33 @@ window.BANKMA2 = [
     "familj": "Avläsa och tolka lådagram",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14,
+      10,
+      18
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "median",
+      "kvartilavstånd",
+      "variationsbredd"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.04",
@@ -24156,15 +28173,16 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.9,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.07",
@@ -24182,15 +28200,30 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      2.3
+    ],
+    "tolerans": [
+      null,
+      0.1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "procent"
+    ],
+    "svarEtiketter": [
+      "standardavvikelse",
+      "andel över 76 (%)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.08",
@@ -24208,16 +28241,31 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      70,
+      130
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nedre gräns",
+      "övre gräns"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.09",
@@ -24287,14 +28335,29 @@ window.BANKMA2 = [
     "familj": "Beräkna medelvärde och median",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      9
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "medelvärde",
+      "median"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.12",
@@ -24312,15 +28375,34 @@ window.BANKMA2 = [
     "familj": "Avläsa och tolka lådagram",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15,
+      8,
+      19
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "median",
+      "kvartilavstånd",
+      "variationsbredd"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.13",
@@ -24337,16 +28419,31 @@ window.BANKMA2 = [
     "familj": "Bestämma gränsvärde i normalfördelning från sannolikhet",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50,
+      6.24
+    ],
+    "tolerans": [
+      null,
+      0.01
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "medelvärde",
+      "standardavvikelse"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.14",
@@ -24366,7 +28463,7 @@ window.BANKMA2 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5.7,
-    "tolerans": null,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -24466,14 +28563,33 @@ window.BANKMA2 = [
     "familj": "Avläsa och tolka lådagram",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      19,
+      11
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "median",
+      "variationsbredd",
+      "kvartilavstånd"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.19",
@@ -24543,15 +28659,30 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka standardavvikelse",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      29,
+      15
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nytt medelvärde",
+      "ny standardavvikelse"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.22",
@@ -24723,14 +28854,29 @@ window.BANKMA2 = [
     "familj": "Beräkna standardavvikelse med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      3.5
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "medelvärde",
+      "standardavvikelse"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.29",
@@ -24801,7 +28947,7 @@ window.BANKMA2 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 27.1,
-    "tolerans": null,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -24977,16 +29123,31 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      50
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nedre gräns",
+      "övre gräns"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.39",
@@ -25056,14 +29217,29 @@ window.BANKMA2 = [
     "familj": "Beräkna medelvärde och median",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9,
+      9
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "medelvärde",
+      "median"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.42",
@@ -25217,7 +29393,8 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.48",
@@ -25363,15 +29540,16 @@ window.BANKMA2 = [
     "familj": "Bestämma gränsvärde i normalfördelning från sannolikhet",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 62,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.54",
@@ -25417,7 +29595,7 @@ window.BANKMA2 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 21.6,
-    "tolerans": null,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -25439,15 +29617,30 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka standardavvikelse",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -90,
+      12
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nytt medelvärde",
+      "ny standardavvikelse"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.57",
@@ -25568,14 +29761,33 @@ window.BANKMA2 = [
     "familj": "Beräkna medelvärde och median",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      7,
+      6
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "medelvärde",
+      "median",
+      "typvärde"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.62",
@@ -25593,14 +29805,15 @@ window.BANKMA2 = [
     "familj": "Beräkna lägesmått",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=12",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.63",
@@ -25721,14 +29934,29 @@ window.BANKMA2 = [
     "familj": "Avläsa och tolka lådagram",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      20
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "median",
+      "variationsbredd"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.68",
@@ -25746,15 +29974,30 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka standardavvikelse",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      6
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nytt medelvärde",
+      "ny standardavvikelse"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.69",
@@ -25798,16 +30041,18 @@ window.BANKMA2 = [
     "familj": "Bestämma gränsvärde i normalfördelning från sannolikhet",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 76,
+    "tolerans": 1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt",
+    "manuellKomplettering": true
   },
   {
     "id": "4.71",
@@ -25822,17 +30067,40 @@ window.BANKMA2 = [
     "poang": "0/2/0",
     "t": "<p>De sorterade observationerna är</p><p>\\[3,\\ 4,\\ 6,\\ 7,\\ 8,\\ 11,\\ 13,\\ 15.\\]</p><p>Bestäm median, nedre kvartil, övre kvartil och kvartilavstånd.</p>",
     "s": "<p>Medianen är medelvärdet av den fjärde och femte observationen: \\((7+8)/2=7{,}5\\).</p><p>Nedre kvartil är medianen av 3,4,6,7: \\((4+6)/2=5\\).</p><p>Övre kvartil är medianen av 8,11,13,15: \\((11+13)/2=12\\).</p><p>Kvartilavståndet är \\(12-5=7\\).</p><p><strong>Median 7,5; nedre kvartil 5; övre kvartil 12; kvartilavstånd 7.</strong></p>",
-    "familj": "Beräkna kvartiler och kvartilavstånd",
+    "familj": "Bestämma median och kvartiler",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.5,
+      5,
+      12,
+      7
+    ],
+    "tolerans": [
+      0.1,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "median",
+      "nedre kvartil",
+      "övre kvartil",
+      "kvartilavstånd"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.72",
@@ -25850,16 +30118,31 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      42,
+      58
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nedre gräns",
+      "övre gräns"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.74",
@@ -25877,13 +30160,14 @@ window.BANKMA2 = [
     "familj": "Beräkna lägesmått",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=21",
+    "svarstyp": "numeriskt",
+    "rättSvar": 21,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.75",
@@ -25952,7 +30236,7 @@ window.BANKMA2 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 26.4,
-    "tolerans": null,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -26025,15 +30309,16 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 81.8,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.81",
@@ -26059,7 +30344,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.82",
@@ -26154,13 +30440,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "rättSvar": 3,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "faktor"
   },
   {
     "id": "4.87",
@@ -26205,14 +30492,29 @@ window.BANKMA2 = [
     "familj": "Avläsa och tolka lådagram",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "median",
+      "kvartilavstånd"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.89",
@@ -26230,15 +30532,16 @@ window.BANKMA2 = [
     "familj": "Beräkna normalfördelningssannolikhet över eller under en gräns",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 93.3,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.90",
@@ -26331,14 +30634,29 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka standardavvikelse",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": [
+      "faktor",
+      "faktor"
+    ],
+    "svarEtiketter": [
+      "medelvärde ×",
+      "standardavvikelse ×"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.94",
@@ -26356,15 +30674,16 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.2,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.95",
@@ -26485,15 +30804,16 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 81.8,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.100",
@@ -26537,13 +30857,14 @@ window.BANKMA2 = [
     "familj": "Beräkna lägesmått",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "x=20",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.102",
@@ -26612,14 +30933,15 @@ window.BANKMA2 = [
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 63.9,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.105",
@@ -26691,14 +31013,15 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "kort_text"
   },
   {
     "id": "4.108",
@@ -26742,15 +31065,30 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka standardavvikelse",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      47,
+      8
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nytt medelvärde",
+      "ny standardavvikelse"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.110",
@@ -26768,15 +31106,16 @@ window.BANKMA2 = [
     "familj": "Beräkna normalfördelningssannolikhet i intervall digitalt",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.3,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.111",
@@ -26919,15 +31258,30 @@ window.BANKMA2 = [
     "familj": "Bestämma gränsvärde i normalfördelning från sannolikhet",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40,
+      64
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "10:e percentilen",
+      "90:e percentilen"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.117",
@@ -26945,16 +31299,31 @@ window.BANKMA2 = [
     "familj": "Beräkna normalfördelningssannolikhet över eller under en gräns",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      59.7,
+      80.3
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nedre gräns",
+      "övre gräns"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.118",
@@ -27072,15 +31441,16 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.2,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.123",
@@ -27098,15 +31468,16 @@ window.BANKMA2 = [
     "familj": "Beräkna normalfördelningssannolikhet över eller under en gräns",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.894,
+    "tolerans": 0.001,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.124",
@@ -27124,15 +31495,16 @@ window.BANKMA2 = [
     "familj": "Beräkna normalfördelningssannolikhet över eller under en gräns",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 84.1,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.125",
@@ -27202,7 +31574,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -0.94,
-    "tolerans": null,
+    "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27351,7 +31723,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.96,
-    "tolerans": null,
+    "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27426,7 +31798,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.58,
-    "tolerans": null,
+    "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27451,7 +31823,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -0.54,
-    "tolerans": null,
+    "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27599,14 +31971,32 @@ window.BANKMA2 = [
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      null,
+      39
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      false,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.138",
@@ -27751,14 +32141,32 @@ window.BANKMA2 = [
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      null,
+      60
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      false,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.144",
@@ -27983,15 +32391,16 @@ window.BANKMA2 = [
     "familj": "Beräkna normalfördelningssannolikhet över eller under en gräns",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 84.1,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.153",
@@ -28239,15 +32648,16 @@ window.BANKMA2 = [
     "familj": "Uppskatta korrelationskoefficient från spridningsdiagram",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "r=-1",
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.163",
@@ -28542,15 +32952,30 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka standardavvikelse",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      95,
+      18
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nytt medelvärde",
+      "ny standardavvikelse"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.175",
@@ -28594,16 +33019,31 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      22,
+      38
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nedre gräns",
+      "övre gräns"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.177",
@@ -28621,15 +33061,30 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      64,
+      76
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nedre gräns",
+      "övre gräns"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.178",
@@ -28724,15 +33179,16 @@ window.BANKMA2 = [
     "familj": "Beräkna normalfördelningssannolikhet i intervall digitalt",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.2,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "4.182",
@@ -28801,15 +33257,16 @@ window.BANKMA2 = [
     "familj": "Andel inom intervall i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.9,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.01",
@@ -28831,7 +33288,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -28849,7 +33307,7 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 5.0,
+    "rättSvar": 5,
     "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
@@ -28879,7 +33337,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -28927,7 +33386,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -28944,15 +33404,30 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2000,
+      7000
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "försäljningsnivå 1",
+      "försäljningsnivå 2"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "5.07",
@@ -28976,7 +33451,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29023,7 +33499,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -29071,7 +33548,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -29088,15 +33566,16 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka sannolikheter i normalfördelning",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.3,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.13",
@@ -29119,7 +33598,8 @@ window.BANKMA2 = [
     "formaga": [
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29137,13 +33617,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "kort_text"
   },
   {
     "id": "5.15",
@@ -29167,7 +33648,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29184,15 +33666,16 @@ window.BANKMA2 = [
     "familj": "Logaritmer och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.6,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "5.17",
@@ -29215,7 +33698,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -29232,15 +33716,30 @@ window.BANKMA2 = [
     "familj": "Optimering med andragradsfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40,
+      16000
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "pris (kr)",
+      "största intäkt (kr)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.19",
@@ -29262,7 +33761,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -29310,7 +33810,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -29328,15 +33829,57 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      "V(p)=-20p^2+2000p-42500",
+      [
+        50,
+        7500
+      ],
+      [
+        45,
+        55
+      ]
+    ],
+    "tolerans": [
+      null,
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a) V(p)",
+      "b) pris och maxvinst",
+      "c) heltalsintervall, gränser"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.23",
@@ -29360,7 +33903,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29378,14 +33922,15 @@ window.BANKMA2 = [
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 14.9,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.25",
@@ -29408,7 +33953,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29433,7 +33979,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29457,7 +34004,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -29482,7 +34030,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29507,7 +34056,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29554,7 +34104,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -29572,14 +34123,32 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      50,
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a) S(4)",
+      "b) avstånd (m)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.33",
@@ -29602,7 +34171,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29619,14 +34189,29 @@ window.BANKMA2 = [
     "familj": "Optimering med andragradsfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.5,
+      7.5
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "längd (m)",
+      "bredd (m)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.35",
@@ -29650,7 +34235,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29668,14 +34254,32 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      null,
+      198
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      false,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.37",
@@ -29699,7 +34303,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29716,15 +34321,30 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka sannolikheter i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      20
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nedre gräns (min)",
+      "övre gräns (min)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.39",
@@ -29747,7 +34367,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -29764,14 +34385,29 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      6
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "standardbesök",
+      "utökade besök"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.41",
@@ -29787,15 +34423,39 @@ window.BANKMA2 = [
     "familj": "Bestämma median och kvartiler",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.5,
+      9,
+      12.5,
+      3.5
+    ],
+    "tolerans": [
+      0.1,
+      null,
+      0.1,
+      0.1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "median",
+      "nedre kvartil",
+      "övre kvartil",
+      "kvartilavstånd"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.42",
@@ -29841,7 +34501,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -29858,14 +34519,29 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      9
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "bredd (m)",
+      "längd (m)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.45",
@@ -29888,7 +34564,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29906,13 +34583,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "kort_text"
   },
   {
     "id": "5.47",
@@ -29935,7 +34613,8 @@ window.BANKMA2 = [
     "formaga": [
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -29952,15 +34631,30 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka sannolikheter i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      25,
+      35
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "nedre gräns (min)",
+      "övre gräns (min)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.49",
@@ -29976,14 +34670,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11,
+      7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "personer arbetar 8 timmar",
+      "personer arbetar 5 timmar"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.50",
@@ -30000,14 +34710,47 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      "U(x)=-x^2+15x-26",
+      [
+        7.5,
+        7.5
+      ],
+      30.25
+    ],
+    "tolerans": [
+      null,
+      [
+        0.1,
+        0.1
+      ],
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a) U(x)",
+      "b) yttermått (m)",
+      "c) största area (m²)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.51",
@@ -30029,7 +34772,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -30046,14 +34790,29 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      19,
+      15
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "personer på A",
+      "på B"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.53",
@@ -30076,7 +34835,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -30101,7 +34861,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -30124,7 +34885,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -30138,18 +34900,51 @@ window.BANKMA2 = [
     "poang": "0/0/3",
     "t": "<p>Inför en utbildningsdag delas 20 medarbetare i två team A och B. I en samarbetsövning ska varje person i A kunna bilda ett par med varje person i B. Det ger 96 möjliga par.</p><p>a) Bestäm hur många personer som finns i de två teamen.</p><p>b) Team A ska vara det större teamet. Hur många personer finns då i A?</p><p>c) Visa med en andragradsfunktion att antalet möjliga par aldrig kan bli större än 100 när totalt 20 personer delas i två team.</p>",
     "s": "<p>a) Låt A ha \\(x\\) personer. Då har B \\(20-x\\).</p><p>Antalet par blir \\(x(20-x)=96\\).</p><p>\\(-x^2+20x-96=0\\), eller \\(x^2-20x+96=0\\).</p><p>\\((x-8)(x-12)=0\\), så teamstorlekarna är 8 och 12.</p><p>b) Det större teamet A har 12 personer.</p><p>c) Funktionen \\(P(x)=-x^2+20x\\) har symmetrilinjen \\(x=10\\). Där är \\(P(10)=100\\). Eftersom parabeln är nedåtvänd är detta det största värdet.</p><p><strong>Teamstorlekarna är 12 och 8; som mest kan 100 sådana par bildas.</strong></p>",
-    "familj": "Andragradsmodeller i tillämpningar",
+    "familj": "Andragradsekvationer i talproblem",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      [
+        8,
+        12
+      ],
+      12,
+      null
+    ],
+    "tolerans": [
+      [
+        null,
+        null
+      ],
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt",
+      null
+    ],
+    "svarEtiketter": [
+      "a) teamstorlekar",
+      "b) team A",
+      "c) resonemang"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.57",
@@ -30171,7 +34966,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -30189,14 +34985,32 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      50,
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a) S(3)",
+      "b) avstånd (m)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.59",
@@ -30220,7 +35034,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -30244,7 +35059,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -30269,7 +35085,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -30287,15 +35104,48 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      2000,
+      [
+        600,
+        6000
+      ],
+      100
+    ],
+    "tolerans": [
+      null,
+      [
+        null,
+        null
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a) a",
+      "b) antal och maxvinst",
+      "c) högsta pris (kr)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.63",
@@ -30311,16 +35161,36 @@ window.BANKMA2 = [
     "familj": "Bestämma intervall där en andragradsmodell uppfyller ett villkor",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      40,
+      50
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "produktion 1",
+      "produktion 2",
+      "produktion 3"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "5.64",
@@ -30366,7 +35236,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -30391,7 +35262,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -30408,15 +35280,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      90,
+      150
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "000 kr i A",
+      "000 kr i B"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.68",
@@ -30433,13 +35320,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 8.3,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "5.69",
@@ -30461,7 +35349,8 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -30478,15 +35367,16 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka sannolikheter i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.2,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.71",
@@ -30510,7 +35400,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -30534,7 +35425,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -30551,15 +35443,30 @@ window.BANKMA2 = [
     "familj": "Potensfunktioner i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      259.2,
+      105
+    ],
+    "tolerans": [
+      0.1,
+      1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "tryckfall (Pa)",
+      "luftflöde (L/s)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.74",
@@ -30575,15 +35482,17 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka sannolikheter i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 81.8,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.75",
@@ -30630,7 +35539,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -30653,7 +35563,8 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -30678,7 +35589,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -30702,7 +35614,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -30720,14 +35633,15 @@ window.BANKMA2 = [
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 6.3,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "5.81",
@@ -30743,15 +35657,31 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      122,
+      240
+    ],
+    "tolerans": [
+      1,
+      1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "luftflöde (L/s)",
+      "tryck (Pa)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.82",
@@ -30767,14 +35697,29 @@ window.BANKMA2 = [
     "familj": "Andragradsekvationer i geometri- och areaproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6,
+      0.8
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "höjd (m)",
+      "bredd (m)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.83",
@@ -30798,7 +35743,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -30823,7 +35769,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -30841,14 +35788,15 @@ window.BANKMA2 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "rättSvar": 5,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "5.86",
@@ -30864,14 +35812,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      31.2,
+      16.8
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "gren A (L/min)",
+      "gren B (L/min)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.87",
@@ -30887,14 +35851,29 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      560,
+      400
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "större flöde (L/s)",
+      "mindre flöde (L/s)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.88",
@@ -30917,7 +35896,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -30934,14 +35914,29 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9,
+      9
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "15 cm-delar",
+      "25 cm-delar"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.90",
@@ -30964,7 +35959,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -30989,7 +35985,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31037,7 +36034,8 @@ window.BANKMA2 = [
     "formaga": [
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31054,15 +36052,30 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka standardavvikelse",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      21,
+      0.28
+    ],
+    "tolerans": [
+      0.1,
+      0.01
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "medelvärde (°C)",
+      "standardavvikelse (°C)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.95",
@@ -31086,7 +36099,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31132,7 +36146,9 @@ window.BANKMA2 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "begrepp",
+      "problemlösning"
     ]
   },
   {
@@ -31157,7 +36173,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31204,7 +36221,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -31228,7 +36246,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31245,14 +36264,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      32
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "koppar (m)",
+      "PEX (m)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.103",
@@ -31268,14 +36303,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      250,
+      250
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "yngre",
+      "äldre"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.104",
@@ -31291,14 +36342,33 @@ window.BANKMA2 = [
     "familj": "Linjära modeller i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      75.4,
+      0.6
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
+    ],
+    "svarFormat": [
+      "procent",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "V(5) (%)",
+      "ökning (procentenheter/period)"
+    ],
+    "svarsstruktur": "ordnad",
+    "manuellKomplettering": [
+      false,
+      true
     ]
   },
   {
@@ -31323,7 +36393,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31348,7 +36419,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31365,15 +36437,16 @@ window.BANKMA2 = [
     "familj": "Beräkna och tolka sannolikheter i normalfördelning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.2,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "procent"
   },
   {
     "id": "5.108",
@@ -31397,7 +36470,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31446,7 +36520,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31471,7 +36546,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31519,7 +36595,8 @@ window.BANKMA2 = [
     "formaga": [
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31536,14 +36613,16 @@ window.BANKMA2 = [
     "familj": "Problemlösning med avståndsformeln",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "5.115",
@@ -31566,7 +36645,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -31583,14 +36663,29 @@ window.BANKMA2 = [
     "familj": "Beräkna mittpunkt och avstånd",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      6
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.117",
@@ -31614,7 +36709,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31638,7 +36734,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31655,14 +36752,33 @@ window.BANKMA2 = [
     "familj": "Bestämma och tolka linjär regression",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.4,
+      31
+    ],
+    "tolerans": [
+      0.1,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "förändring per kontakt",
+      "modellvärde vid 0 kontakter"
+    ],
+    "svarsstruktur": "ordnad",
+    "manuellKomplettering": [
+      true,
+      true
     ]
   },
   {
@@ -31686,7 +36802,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -31735,7 +36852,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31785,7 +36903,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31810,7 +36929,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31859,7 +36979,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31907,7 +37028,8 @@ window.BANKMA2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -31956,7 +37078,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31981,7 +37104,8 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -31998,14 +37122,30 @@ window.BANKMA2 = [
     "familj": "Ekvationssystem i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      210,
+      210
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "under 30",
+      "30 år eller äldre"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.134",
@@ -32021,15 +37161,30 @@ window.BANKMA2 = [
     "familj": "Skärningspunkt mellan linjära modeller",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      42
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "procent"
+    ],
+    "svarEtiketter": [
+      "tid",
+      "gemensam andel (%)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.135",
@@ -32045,14 +37200,30 @@ window.BANKMA2 = [
     "familj": "Beräkna med längdskala och likformighet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.125,
+      112.5
+    ],
+    "tolerans": [
+      0.001,
+      0.1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "verklig area (km²)",
+      "area på ny karta (cm²)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "5.136",
@@ -32076,7 +37247,1478 @@ window.BANKMA2 = [
       "procedur",
       "begrepp",
       "modellering",
+      "resonemang",
+      "problemlösning"
+    ]
+  },
+  {
+    "id": "2.530",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lg 1\\).</p>",
+    "s": "<p>Eftersom \\(1=10^0\\) är <strong>\\(\\lg1=0\\)</strong>.</p>",
+    "familj": "Bestämma logaritmvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.531",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lg 0,00001\\).</p>",
+    "s": "<p>\\(0,00001=10^{-5}\\). Alltså är <strong>\\(-5\\)</strong>.</p>",
+    "familj": "Bestämma logaritmvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.532",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lg(10^{-7})\\).</p>",
+    "s": "<p>Logaritmen anger exponenten på 10. <strong>Svaret är \\(-7\\)</strong>.</p>",
+    "familj": "Bestämma logaritmvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.533",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(10^{\\lg 46}\\).</p>",
+    "s": "<p>Tiopotens och tiologaritm är inversa operationer. <strong>Svaret är 46.</strong></p>",
+    "familj": "Bestämma logaritmvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 46,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.534",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(x\\) om \\(\\lg x=4\\).</p>",
+    "s": "<p>\\(\\lg x=4\\iff x=10^4\\). <strong>Svaret är 10000.</strong></p>",
+    "familj": "Bestämma logaritmvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10000,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.535",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(x\\) om \\(\\lg x=-2\\).</p>",
+    "s": "<p>\\(x=10^{-2}=0,01\\). <strong>Svaret är 0,01.</strong></p>",
+    "familj": "Bestämma logaritmvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.01,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.536",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal är \\(10^{\\lg 0,37}\\)?</p>",
+    "s": "<p>Operationerna tar ut varandra. <strong>Svaret är 0,37.</strong></p>",
+    "familj": "Bestämma logaritmvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.37,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.537",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lg(100\\cdot1000)\\).</p>",
+    "s": "<p>\\(100\\cdot1000=10^5\\). Därför är <strong>svaret 5</strong>.</p>",
+    "familj": "Bestämma logaritmvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.538",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm.<br>a) \\(\\lg 10^3\\)<br>b) \\(\\lg 10^{-4}\\)</p>",
+    "s": "<p>a) <strong>3</strong><br>b) <strong>-4</strong></p>",
+    "familj": "Förstå sambandet mellan exponentialform och logaritm",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      -4
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.539",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm.<br>a) \\(10^{\\lg 12}\\)<br>b) \\(10^{\\lg 0,8}\\)</p>",
+    "s": "<p>a) <strong>12</strong><br>b) <strong>0,8</strong></p>",
+    "familj": "Förstå sambandet mellan exponentialform och logaritm",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      0.8
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.540",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(10^6=1\\,000\\,000\\) som ett logaritmsamband.</p>",
+    "s": "<p>Exponenten 6 är tiologaritmen av 1 000 000: <strong>\\(\\lg(1\\,000\\,000)=6\\)</strong>.</p>",
+    "familj": "Förstå sambandet mellan exponentialform och logaritm",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "lg(1000000)=6",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.541",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv sambandet \\(\\lg 0,001=-3\\) på exponentialform.</p>",
+    "s": "<p>Det motsvarande sambandet är <strong>\\(10^{-3}=0,001\\)</strong>.</p>",
+    "familj": "Förstå sambandet mellan exponentialform och logaritm",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "10^(-3)=0.001",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.542",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Bestäm \\(\\lg \\sqrt{1000}\\) exakt.</p>",
+    "s": "<p>\\(\\sqrt{1000}=(10^3)^{1/2}=10^{3/2}\\). Därför är <strong>\\(3/2\\)</strong>.</p>",
+    "familj": "Förstå sambandet mellan exponentialform och logaritm",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "3/2",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.543",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Bestäm \\(x\\) om \\(10^{2x}=1000\\).</p>",
+    "s": "<p>\\(1000=10^3\\), så \\(2x=3\\). <strong>\\(x=1,5\\)</strong>.</p>",
+    "familj": "Bestämma logaritmvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.544",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Bestäm \\(x\\) om \\(\\lg(x^2)=6\\) och \\(x&gt;0\\).</p>",
+    "s": "<p>\\(x^2=10^6\\). Eftersom \\(x&gt;0\\) fås <strong>\\(x=1000\\)</strong>.</p>",
+    "familj": "Bestämma logaritmvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1000,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.545",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla \\(\\lg 4+\\lg25\\).</p>",
+    "s": "<p>\\(\\lg(4\\cdot25)=\\lg100=\\)<strong>2</strong>.</p>",
+    "familj": "Förenkla uttryck med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.546",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla \\(\\lg 80-\\lg8\\).</p>",
+    "s": "<p>\\(\\lg(80/8)=\\lg10=\\)<strong>1</strong>.</p>",
+    "familj": "Förenkla uttryck med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.547",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla \\(2\\lg10+\\lg0,01\\).</p>",
+    "s": "<p>\\(2\\cdot1+(-2)=\\)<strong>0</strong>.</p>",
+    "familj": "Förenkla uttryck med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.548",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv som en enda logaritm: \\(\\lg3+\\lg7\\).</p>",
+    "s": "<p>Summalagen ger <strong>\\(\\lg21\\)</strong>.</p>",
+    "familj": "Sammanfoga logaritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "lg(21)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.549",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv som en enda logaritm: \\(\\lg42-\\lg6\\).</p>",
+    "s": "<p>Kvotlagen ger <strong>\\(\\lg7\\)</strong>.</p>",
+    "familj": "Sammanfoga logaritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "lg(7)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.550",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv som en enda logaritm: \\(3\\lg x\\), där \\(x&gt;0\\).</p>",
+    "s": "<p>Potenslagen ger <strong>\\(\\lg(x^3)\\)</strong>.</p>",
+    "familj": "Sammanfoga logaritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "lg(x^3)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.551",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla \\(\\lg(6x)-\\lg(2x)\\), där \\(x&gt;0\\).</p>",
+    "s": "<p>\\(\\lg((6x)/(2x))=\\)<strong>\\(\\lg3\\)</strong>.</p>",
+    "familj": "Sammanfoga logaritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "lg(3)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.552",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla \\(\\lg(5x)+\\lg(2/x)\\), där \\(x&gt;0\\).</p>",
+    "s": "<p>Produkten blir 10, så uttrycket är \\(\\lg10=\\)<strong>1</strong>.</p>",
+    "familj": "Förenkla uttryck med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.553",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla \\(2\\lg5+\\lg4\\).</p>",
+    "s": "<p>\\(2\\lg5=\\lg25\\), så summan är \\(\\lg100=\\)<strong>2</strong>.</p>",
+    "familj": "Förenkla uttryck med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.554",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla \\(\\lg72-\\lg8\\).</p>",
+    "s": "<p>Kvoten är 9. <strong>\\(\\lg9\\)</strong>.</p>",
+    "familj": "Sammanfoga logaritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "lg(9)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "2.555",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Förenkla till en enda logaritm. Anta \\(x&gt;0\\).<br>\\(2\\lg(3x)-\\lg9\\)</p>",
+    "s": "<p>\\(2\\lg(3x)=\\lg(9x^2)\\). Efter subtraktionen fås <strong>\\(\\lg(x^2)\\)</strong>.</p>",
+    "familj": "Sammanfoga logaritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "lg(x^2)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ]
+  },
+  {
+    "id": "2.556",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Förenkla till en enda logaritm. Anta \\(a&gt;0,b&gt;0\\).<br>\\(2\\lg a+\\lg b-\\lg5\\)</p>",
+    "s": "<p>Uttrycket blir <strong>\\(\\lg(a^2b/5)\\)</strong>.</p>",
+    "familj": "Sammanfoga logaritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "lg(a^2*b/5)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ]
+  },
+  {
+    "id": "2.557",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(\\lg x+\\lg4=2\\).</p>",
+    "s": "<p>\\(\\lg(4x)=2\\Rightarrow4x=100\\). <strong>\\(x=25\\)</strong>.</p>",
+    "familj": "Lösa logaritmekvationer med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ]
+  },
+  {
+    "id": "2.558",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(\\lg(2x)-\\lg5=1\\).</p>",
+    "s": "<p>\\(\\lg(2x/5)=1\\Rightarrow2x/5=10\\). <strong>\\(x=25\\)</strong>.</p>",
+    "familj": "Lösa logaritmekvationer med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ]
+  },
+  {
+    "id": "2.559",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(2\\lg x=4\\), där \\(x&gt;0\\).</p>",
+    "s": "<p>\\(\\lg(x^2)=4\\Rightarrow x^2=10000\\). Positivt \\(x\\) ger <strong>100</strong>.</p>",
+    "familj": "Lösa logaritmekvationer med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ]
+  },
+  {
+    "id": "2.560",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(\\lg x-\\lg(x-9)=1\\).</p>",
+    "s": "<p>Definitionsvillkor: \\(x&gt;9\\). Då \\(x/(x-9)=10\\), vilket ger <strong>\\(x=10\\)</strong>.</p>",
+    "familj": "Lösa logaritmekvationer med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
       "resonemang"
+    ]
+  },
+  {
+    "id": "2.561",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(\\lg x+\\lg(x-9)=1\\).</p>",
+    "s": "<p>\\(x(x-9)=10\\Rightarrow x^2-9x-10=0\\). Rötterna är 10 och -1, men definitionsvillkoret ger <strong>\\(x=10\\)</strong>.</p>",
+    "familj": "Lösa logaritmekvationer med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "2.562",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(\\lg(x+3)=2\\).</p>",
+    "s": "<p>\\(x+3=100\\). <strong>\\(x=97\\)</strong>.</p>",
+    "familj": "Lösa logaritmekvationer med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 97,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ]
+  },
+  {
+    "id": "2.563",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(\\lg(5x)+\\lg2=3\\).</p>",
+    "s": "<p>\\(\\lg(10x)=3\\Rightarrow10x=1000\\). <strong>\\(x=100\\)</strong>.</p>",
+    "familj": "Lösa logaritmekvationer med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ]
+  },
+  {
+    "id": "2.564",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(\\lg(x-2)+\\lg(x+2)=\\lg21\\).</p>",
+    "s": "<p>Definitionsvillkoret är \\(x&gt;2\\). Då \\(x^2-4=21\\), alltså \\(x^2=25\\). Endast <strong>\\(x=5\\)</strong> är tillåtet.</p>",
+    "familj": "Lösa logaritmekvationer med logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "2.565",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En bakteriekultur beskrivs av \\(N(t)=500\\cdot1,20^t\\). Efter hur många timmar är antalet 1000? Svara med en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(500\\cdot1,20^t=1000\\Rightarrow t=\\lg2/\\lg1,20\\approx3,8\\).</p><p><strong>Svar:</strong> 3,8 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.8,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.566",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Värdet på en maskin beskrivs av \\(V(t)=240000\\cdot0,85^t\\). Efter hur många år är värdet 120000 kr? Svara med en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(0,85^t=0,5\\Rightarrow t=\\lg0,5/\\lg0,85\\approx4,3\\).</p><p><strong>Svar:</strong> 4,3 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.3,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.567",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett sparkapital beskrivs av \\(K(t)=20000\\cdot1,04^t\\). När når kapitalet 30000 kr? Svara med en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(1,04^t=1,5\\Rightarrow t=\\lg1,5/\\lg1,04\\approx10,3\\).</p><p><strong>Svar:</strong> 10,3 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.3,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.568",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En mängd minskar enligt \\(M(t)=80\\cdot0,90^t\\). När är mängden 40? Svara med en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(0,90^t=0,5\\Rightarrow t=\\lg0,5/\\lg0,90\\approx6,6\\).</p><p><strong>Svar:</strong> 6,6 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.6,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.569",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En population ökar enligt \\(P(t)=1200\\cdot1,06^t\\). När passerar modellen 2000? Svara med en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(1,06^t=2000/1200\\Rightarrow t\\approx8,8\\).</p><p><strong>Svar:</strong> 8,8 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.8,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.570",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ett läkemedel minskar enligt \\(M(t)=75\\cdot0,82^t\\), där \\(t\\) är timmar. Efter hur lång tid är mängden mindre än 20 mg? Ange den första hela timmen.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>Gränsen fås ur \\(75\\cdot0,82^t=20\\), vilket ger \\(t\\approx6,66\\). Första hela timmen därefter är 7.</p><p><strong>Svar:</strong> 7.</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "2.571",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En mobiltelefon kostar 9000 kr och värdet minskar med 18 % per år. Efter hur många hela år är värdet första gången under 4000 kr?</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>Modellen är \\(9000\\cdot0,82^t\\). Gränsen nås vid \\(t\\approx4,09\\), så första hela året är 5.</p><p><strong>Svar:</strong> 5.</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.572",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En bakteriekultur växer med 14 % per timme. Den börjar med 350 bakterier. Efter hur många hela timmar finns det första gången minst 1000 bakterier?</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(350\\cdot1,14^t=1000\\) ger \\(t\\approx7,99\\). Gränstiden är cirka 8,01 timmar, så första hela timmen är 9.</p><p><strong>Svar:</strong> 9.</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.573",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ett kapital på 15000 kr växer med 3,5 % per år. Efter hur många år har det ökat med 50 %? Svara med en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(1,035^t=1,5\\Rightarrow t\\approx11,8\\).</p><p><strong>Svar:</strong> 11,8 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11.8,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.574",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Temperaturskillnaden mot omgivningen beskrivs av \\(D(t)=60\\cdot0,75^t\\), där \\(t\\) är timmar. När är temperaturskillnaden 10 grader? Svara med en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(0,75^t=1/6\\Rightarrow t\\approx6,2\\).</p><p><strong>Svar:</strong> 6,2 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.2,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.575",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Två abonnemang får antal användare enligt \\(A(t)=800\\cdot1,05^t\\) och \\(B(t)=500\\cdot1,10^t\\). När är modellerna lika stora? Svara med en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>Sätt modellerna lika: \\((1,10/1,05)^t=800/500\\). Då \\(t\\approx10,1\\).</p><p><strong>Svar:</strong> 10,1 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.1,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "2.576",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En population är 2400 år 0 och 3600 år 5. Anta exponentiell tillväxt. Bestäm den årliga förändringsfaktorn. Svara med tre decimaler.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(2400a^5=3600\\Rightarrow a=(1,5)^{1/5}\\approx1,084\\).</p><p><strong>Svar:</strong> 1,084 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.084,
+    "tolerans": 0.001,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.577",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En population är 2400 år 0 och 3600 år 5. Anta exponentiell tillväxt. Efter hur många år från start når modellen 5000? Svara med en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>Först \\(a=(1,5)^{1/5}\\). Lös sedan \\(2400a^t=5000\\), vilket ger \\(t\\approx9,1\\).</p><p><strong>Svar:</strong> 9,1 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.1,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.578",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En vara sjunker från 18000 kr till 12000 kr på 3 år. Anta samma procentuella minskning varje år. Bestäm den årliga förändringsfaktorn. Svara med tre decimaler.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(18000a^3=12000\\Rightarrow a=(2/3)^{1/3}\\approx0,874\\).</p><p><strong>Svar:</strong> 0,874 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.874,
+    "tolerans": 0.001,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.579",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En vara sjunker från 18000 kr till 12000 kr på 3 år och fortsätter med samma procentuella minskning. När går värdet under 7000 kr? Ange första hela året från start.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>Med \\(a=(2/3)^{1/3}\\) fås gränstiden \\(t\\approx6,98\\). Första hela året är 7.</p><p><strong>Svar:</strong> 7.</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "2.580",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En sjö har 9000 fiskar. Efter 4 år är antalet 10800. Anta exponentiell tillväxt. Hur stor är den årliga procentuella ökningen? Svara med en decimal procent.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(a^4=1,2\\Rightarrow a\\approx1,0466\\), alltså cirka 4,7 % per år.</p><p><strong>Svar:</strong> 4,7 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.7,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.581",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En sjö har 9000 fiskar och ökar exponentiellt. Efter 4 år är antalet 10800. När når modellen 15000 fiskar? Svara med en decimal år.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>Med \\(a=1,2^{1/4}\\) löses \\(9000a^t=15000\\), vilket ger \\(t\\approx11,2\\).</p><p><strong>Svar:</strong> 11,2 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11.2,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.582",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En medicinsk markör halveras på 6 timmar. Startvärdet är 160. Efter hur många timmar är värdet 20? </p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>Tre halveringar krävs: 160→80→40→20. Med logaritmer: \\(160\\cdot0,5^{t/6}=20\\Rightarrow t=18\\).</p><p><strong>Svar:</strong> 18.</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.583",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En medicinsk markör halveras på 6 timmar. Startvärdet är 160. När går värdet under 30? Svara med en decimal timme.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(160\\cdot0,5^{t/6}=30\\Rightarrow t=6\\lg(30/160)/\\lg0,5\\approx14,5\\).</p><p><strong>Svar:</strong> 14,5 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.5,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.584",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En investering växer från 50000 kr till 62000 kr på 4 år. Anta exponentiell tillväxt. Vilken årlig procentuell ökning motsvarar det? Svara med en decimal procent.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(a^4=62000/50000=1,24\\Rightarrow a\\approx1,0552\\), alltså 5,5 %.</p><p><strong>Svar:</strong> 5,5 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.5,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.585",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En investering växer från 50000 kr till 62000 kr på 4 år med samma årliga procentuella ökning. När når den 80000 kr? Svara med en decimal år från start.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>Med \\(a=(1,24)^{1/4}\\) löses \\(50000a^t=80000\\), vilket ger \\(t\\approx8,7\\).</p><p><strong>Svar:</strong> 8,7 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.7,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.586",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Modellen \\(H(t)=25+70\\cdot0,80^t\\) beskriver en temperatur. Efter hur många timmar är temperaturen 35 grader? Svara med en decimal.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(25+70\\cdot0,80^t=35\\Rightarrow0,80^t=1/7\\Rightarrow t\\approx8,7\\).</p><p><strong>Svar:</strong> 8,7 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.7,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.587",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En tjänst har 400 användare och växer med 9 % per månad. En annan har 650 användare och växer med 4 % per månad. När är modellerna lika stora? Svara med en decimal månad.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(400\\cdot1,09^t=650\\cdot1,04^t\\Rightarrow(1,09/1,04)^t=650/400\\), vilket ger \\(t\\approx10,3\\).</p><p><strong>Svar:</strong> 10,3 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.3,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "2.588",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En mängd minskar exponentiellt. Den är 120 vid start och 75 efter 5 timmar. När är den 30? Svara med en decimal timme.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>Först \\(a^5=75/120\\Rightarrow a\\approx0,9103\\). Sedan \\(120a^t=30\\), vilket ger \\(t\\approx14,8\\).</p><p><strong>Svar:</strong> 14,8 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.8,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
+    ]
+  },
+  {
+    "id": "2.589",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ett företag har 2000 kunder. Efter 3 år har det 2700 kunder. Anta exponentiell tillväxt. När når modellen 5000 kunder? Svara med en decimal år.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv situationen som en exponentialekvation och isolera exponenten med logaritmer.</p><p>\\(a^3=2700/2000\\). Med denna faktor ger \\(2000a^t=5000\\) att \\(t\\approx9,2\\).</p><p><strong>Svar:</strong> 9,2 (avrundat).</p>",
+    "familj": "Problemlösning med logaritmer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.2,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning",
+      "modellering"
     ]
   }
 ];

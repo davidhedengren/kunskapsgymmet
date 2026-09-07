@@ -30,10 +30,12 @@ window.FIGUR = {
   (document.head || document.documentElement).appendChild(el);
 })();
 
-window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
-   - familj: pedagogiska, elevnära namn för adaptiv träning
-   - svarstyp, rättSvar, tolerans och självrättning tillagda
-   - självrättning aktiveras konservativt endast när facit ger entydiga maskinläsbara svar
+window.BANK = /* Kunskapsgymmet-metadata 2026-09-07:
+   - pedagogiska familjer och självrättningsmetadata
+   - densitetsuppgifter med flera frågor visas som a), b), c)
+   - partiell självrättning via rättSvar/tolerans/självrättning-arrayer
+   - spel:false håller rit-/linjeanpassningsuppgifter kvar i banken men utanför spelet
+   - 20 nya självrättningsvänliga E/C-uppgifter om densitet (2.107–2.126)
 */
 [
   {
@@ -65,16 +67,34 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Guld kan hamras ut extremt tunt. Ett gram guld slås ut till en sammanhängande folie med arean 0,50 m². Guldets densitet är 19,3 g/cm³.</p>\n<ol><li>Hur tjock är folien? Svara i nanometer.</li>\n<li>En guldatom har diametern ungefär 0,29 nm. Hur många atomlager tjock är folien?</li></ol>",
+    "t": "<p>Guld kan hamras ut extremt tunt. Ett gram guld slås ut till en sammanhängande folie med arean 0,50 m². Guldets densitet är 19,3 g/cm³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Hur tjock är folien? Svara i nanometer.</div><div>b) En guldatom har diametern ungefär 0,29 nm. Hur många atomlager tjock är folien?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna först guldets volym och använd därefter \\(V=At\\).</p><div class=\"facit-matte\">\\[V=\\frac m\\rho=\\frac{1{,}0}{19{,}3}=0{,}0518\\ \\mathrm{cm^3}\\]\\[A=0{,}50\\ \\mathrm{m^2}=5000\\ \\mathrm{cm^2}\\]\\[t=\\frac VA=\\frac{0{,}0518}{5000}=1{,}04\\cdot10^{-5}\\ \\mathrm{cm}=104\\ \\mathrm{nm}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela foliens tjocklek med en atoms ungefärliga diameter.</p><div class=\"facit-matte\">\\[N=\\frac{104}{0{,}29}=3{,}6\\cdot10^2\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Folien är cirka \\(104\\ \\mathrm{nm}\\) tjock, vilket motsvarar ungefär 360 atomlager.</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      104,
+      360
+    ],
+    "tolerans": [
+      1,
+      5
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "nm",
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.45",
@@ -144,17 +164,70 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett klassrum är 8,0 m långt, 6,0 m brett och 2,7 m högt. Luftens densitet är 1,20 kg/m³.</p>\n<ol><li>Vilken massa har luften i rummet?</li><li>Jämför med en elev som väger 60 kg.</li></ol>",
+    "t": "<p>Ett klassrum är 8,0 m långt, 6,0 m brett och 2,7 m högt. Luftens densitet är 1,20 kg/m³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken massa har luften i rummet?</div><div>b) Jämför med en elev som väger 60 kg.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna rummets volym och använd \\(m=\\rho V\\).</p><div class=\"facit-matte\">\\[V=8{,}0\\cdot6{,}0\\cdot2{,}7=129{,}6\\ \\mathrm{m^3}\\]\\[m=1{,}20\\cdot129{,}6=155{,}5\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför massorna genom en kvot.</p><div class=\"facit-matte\">\\[\\frac{155{,}5}{60}=2{,}59\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Luften har massan cirka \\(156\\ \\mathrm{kg}\\), motsvarande ungefär 2,6 elever med massan 60 kg.</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      156,
+      2.6
+    ],
+    "tolerans": [
+      1,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "kg",
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.107",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En metallbit har massan 324 g och volymen 120 cm³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm metallens densitet i g/cm³.</div><div>b) Ange samma densitet i kg/m³.</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[\\rho=\\frac{324}{120}=2{,}70\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[2{,}70\\ \\mathrm{g/cm^3}=2700\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}70\\ \\mathrm{g/cm^3}=2700\\ \\mathrm{kg/m^3}\\).</p></div>",
+    "familj": "Massa, volym och densitet",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.7,
+      2700
+    ],
+    "tolerans": [
+      0.02,
+      10
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      "kg/m^3"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "2.86",
@@ -162,17 +235,54 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Ett majskorn väger 0,15 g och har volymen 0,12 cm³. När det poppas växer volymen till 2,4 cm³, men massan ändras knappt.</p>\n<ol><li>Bestäm densiteten före och efter poppningen.</li>\n<li>Hur stor andel av det poppade popcornet är luft?</li>\n<li>Skulle popcornet flyta i vatten? Motivera.</li></ol>",
+    "t": "<p>Ett majskorn väger 0,15 g och har volymen 0,12 cm³. När det poppas växer volymen till 2,4 cm³, men massan ändras knappt.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm densiteten före och efter poppningen.</div><div>b) Hur stor andel av det poppade popcornet är luft?</div><div>c) Skulle popcornet flyta i vatten? Motivera.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Densitet är massa delad med volym.</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{före}}=\\frac{0{,}15}{0{,}12}=1{,}25\\ \\mathrm{g/cm^3}\\]\\[\\rho_{\\mathrm{efter}}=\\frac{0{,}15}{2{,}4}=0{,}0625\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Anta att den fasta materiens densitet är oförändrad. Då visar densitetskvoten hur stor del av volymen som är fast materia.</p><div class=\"facit-matte\">\\[f_{\\mathrm{fast}}=\\frac{0{,}0625}{1{,}25}=0{,}050\\]\\[f_{\\mathrm{luft}}=1-0{,}050=0{,}950\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Det poppade kornets medeldensitet är mycket lägre än vattnets.</p><div class=\"facit-matte\">\\[0{,}0625&lt;1{,}00\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten ändras från \\(1{,}25\\) till \\(0{,}0625\\ \\mathrm{g/cm^3}\\). Cirka 95 % av volymen är luft, så popcornet flyter i vatten.</p></div>",
     "familj": "Densitet och flytförmåga",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        1.25,
+        0.0625
+      ],
+      95,
+      null
+    ],
+    "tolerans": [
+      [
+        0.01,
+        0.001
+      ],
+      1,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "svarEnhet": [
+      [
+        "g/cm^3",
+        "g/cm^3"
+      ],
+      "%",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.89",
@@ -180,16 +290,79 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "A",
     "poang": "(0/1/2)",
-    "t": "<p>Järn har densiteten 7870 kg/m³ och molmassan 55,85 g/mol. Ett mol innehåller 6,022·10²³ atomer.</p>\n<ol><li>Hur stor volym upptar en enskild järnatom?</li>\n<li>Uppskatta atomens diameter genom att anta att atomerna är packade som små kuber.</li>\n<li>Varför är svaret bara en uppskattning?</li></ol>",
+    "t": "<p>Järn har densiteten 7870 kg/m³ och molmassan 55,85 g/mol. Ett mol innehåller 6,022·10²³ atomer.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Hur stor volym upptar en enskild järnatom?</div><div>b) Uppskatta atomens diameter genom att anta att atomerna är packade som små kuber.</div><div>c) Varför är svaret bara en uppskattning?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett mol järn har massan \\(M\\). Dela molvolymen med antalet atomer.</p><div class=\"facit-matte\">\\[V_{\\mathrm{mol}}=\\frac M\\rho=\\frac{55{,}85\\cdot10^{-3}}{7870}=7{,}10\\cdot10^{-6}\\ \\mathrm{m^3}\\]\\[V_{\\mathrm{atom}}=\\frac{V_{\\mathrm{mol}}}{N_A}=\\frac{7{,}10\\cdot10^{-6}}{6{,}022\\cdot10^{23}}=1{,}18\\cdot10^{-29}\\ \\mathrm{m^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Om varje atom ersätts av en kub är diametern ungefär kubens sida.</p><div class=\"facit-matte\">\\[d\\approx\\sqrt[3]{V_{\\mathrm{atom}}}=\\sqrt[3]{1{,}18\\cdot10^{-29}}=2{,}28\\cdot10^{-10}\\ \\mathrm m=0{,}228\\ \\mathrm{nm}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Modellen bortser från atomernas form och kristallstrukturens mellanrum.</p><p>Därför ger den bara rätt storleksordning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En atom upptar ungefär \\(1{,}18\\cdot10^{-29}\\ \\mathrm{m^3}\\), vilket ger diametern cirka \\(0{,}23\\ \\mathrm{nm}\\).</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.18e-29,
+      0.228,
+      null
+    ],
+    "tolerans": [
+      3e-31,
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "svarEnhet": [
+      "m^3",
+      "nm",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.108",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En olja har densiteten 0,82 g/cm³. En flaska innehåller 350 cm³ olja.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm oljans massa i gram.</div><div>b) Ange massan i kilogram.</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m=\\rho V=0{,}82\\cdot350=287\\ \\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[287\\ \\mathrm g=0{,}287\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(287\\ \\mathrm g=0{,}287\\ \\mathrm{kg}\\).</p></div>",
+    "familj": "Massa, volym och densitet",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      287,
+      0.287
+    ],
+    "tolerans": [
+      1,
+      0.002
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g",
+      "kg"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.130",
@@ -331,7 +504,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
       "13.9"
     ],
     "tolerans": [
-      5100000000000.0,
+      5100000000000,
       0.051000000000000004
     ],
     "självrättning": true
@@ -1748,8 +1921,8 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       5.1000000000000004e-14,
-      510000000.0,
-      510000000.0
+      510000000,
+      510000000
     ],
     "självrättning": true
   },
@@ -1773,7 +1946,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       0.051000000000000004,
-      510000000000000.0,
+      510000000000000,
       0.051000000000000004
     ],
     "självrättning": true
@@ -1871,7 +2044,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
       "6.0"
     ],
     "tolerans": [
-      510000.0,
+      510000,
       0.051000000000000004
     ],
     "självrättning": true
@@ -1946,7 +2119,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       5.1000000000000006e-05,
-      510.0
+      510
     ],
     "självrättning": true
   },
@@ -2047,15 +2220,16 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "poang": "(0/2/0)",
     "t": "<p>Mässing är en legering av koppar (8930 kg/m³) och zink (7130 kg/m³). En viss mässing består av 60 volymprocent koppar och 40 volymprocent zink.</p>\n<p>Bestäm legeringens densitet.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj till exempel totalvolymen \\(1{,}00\\ \\mathrm{m^3}\\). Massan blir summan av de båda delarnas massor.</p><div class=\"facit-matte\">\\[m=0{,}60\\rho_{\\mathrm{Cu}}+0{,}40\\rho_{\\mathrm{Zn}}\\]\\[\\rho_{\\mathrm{mässing}}=0{,}60\\cdot8930+0{,}40\\cdot7130=8210\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Legeringens densitet är \\(8{,}21\\cdot10^3\\ \\mathrm{kg/m^3}\\).</p></div>",
-    "familj": "Sammansatt densitet",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": "8210",
-    "tolerans": 5.1,
-    "självrättning": true
+    "rättSvar": 8210,
+    "tolerans": 10,
+    "självrättning": true,
+    "svarEnhet": "kg/m^3"
   },
   {
     "id": "2.87",
@@ -2063,17 +2237,80 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Vatten har densiteten 998 kg/m³ och is 917 kg/m³.</p>\n<ol><li>Hur många procent ökar volymen när vatten fryser?</li>\n<li>En glasflaska rymmer 0,50 liter och fylls helt med vatten innan den ställs i frysen. Vad händer?</li>\n<li>Varför flyter is, till skillnad från de flesta ämnens fasta form?</li></ol>",
+    "t": "<p>Vatten har densiteten 998 kg/m³ och is 917 kg/m³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Hur många procent ökar volymen när vatten fryser?</div><div>b) En glasflaska rymmer 0,50 liter och fylls helt med vatten innan den ställs i frysen. Vad händer?</div><div>c) Varför flyter is, till skillnad från de flesta ämnens fasta form?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Massan är densamma före och efter frysningen. Volymen är därför omvänt proportionell mot densiteten.</p><div class=\"facit-matte\">\\[\\frac{V_{\\mathrm{is}}}{V_{\\mathrm{vatten}}}=\\frac{\\rho_{\\mathrm{vatten}}}{\\rho_{\\mathrm{is}}}=\\frac{998}{917}=1{,}0883\\]\\[\\Delta V=8{,}83\\,\\%\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna den volym is som samma vattenmassa behöver.</p><div class=\"facit-matte\">\\[V_{\\mathrm{is}}=0{,}50\\cdot\\frac{998}{917}=0{,}544\\ \\mathrm l\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid frysning ordnas vattenmolekylerna i ett öppet kristallgitter.</p><p>Gittret tar större plats och ger is lägre densitet än flytande vatten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen ökar med cirka \\(8{,}8\\,\\%\\). Isen behöver \\(0{,}544\\ \\mathrm l\\), så en helt fylld styv glasflaska riskerar att spricka.</p></div>",
     "familj": "Densitet och flytförmåga",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.83,
+      0.544,
+      null
+    ],
+    "tolerans": [
+      0.1,
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "svarEnhet": [
+      "%",
+      "l",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      true,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.109",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Koppar har densiteten 8,96 g/cm³. En kopparbit har massan 672 g.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm bitens volym.</div><div>b) Hur stor skulle volymen vara för en kopparbit med massan 336 g?</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[V=\\frac{672}{8{,}96}=75{,}0\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[V=\\frac{336}{8{,}96}=37{,}5\\ \\mathrm{cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(75{,}0\\ \\mathrm{cm^3}\\) och \\(37{,}5\\ \\mathrm{cm^3}\\).</p></div>",
+    "familj": "Massa, volym och densitet",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      75.0,
+      37.5
+    ],
+    "tolerans": [
+      0.2,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "cm^3",
+      "cm^3"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.24",
@@ -3192,7 +3429,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       0,
-      5.1e+18
+      5100000000000000000
     ],
     "självrättning": true
   },
@@ -3467,16 +3704,38 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En liter mjölk väger 1,03 kg.</p>\n<ol><li>Vilken densitet har mjölken i g/cm³?</li><li>Flyter eller sjunker mjölk i vatten?</li></ol>",
+    "t": "<p>En liter mjölk väger 1,03 kg.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har mjölken i g/cm³?</div><div>b) Flyter eller sjunker mjölk i vatten?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En liter är \\(1000\\ \\mathrm{cm^3}\\), och \\(1{,}03\\ \\mathrm{kg}=1030\\ \\mathrm g\\).</p><div class=\"facit-matte\">\\[\\rho=\\frac{1030}{1000}=1{,}03\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med vattnets densitet.</p><div class=\"facit-matte\">\\[1{,}03&gt;1{,}00\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Mjölkens densitet är \\(1{,}03\\ \\mathrm{g/cm^3}\\). Om vätskorna skiktas tenderar mjölken att sjunka, men den blandas samtidigt med vattnet.</p></div>",
     "familj": "Densitet och flytförmåga",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.03,
+      null
+    ],
+    "tolerans": [
+      0.01,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.78",
@@ -3484,16 +3743,73 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "E",
     "poang": "(2/1/0)",
-    "t": "<p>En ring av rent guld väger 8,4 g. Guld har densiteten 19,3 g/cm³.</p>\n<ol><li>Vilken volym har ringen?</li><li>Hur skulle du kunna mäta volymen utan att skada ringen?</li></ol>",
+    "t": "<p>En ring av rent guld väger 8,4 g. Guld har densiteten 19,3 g/cm³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken volym har ringen?</div><div>b) Hur skulle du kunna mäta volymen utan att skada ringen?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut volymen ur densitetssambandet.</p><div class=\"facit-matte\">\\[V=\\frac m\\rho=\\frac{8{,}4}{19{,}3}=0{,}435\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd undanträngningsmetoden.</p><p>Sänk ringen helt i ett graderat mätglas och avläs vattennivåns ökning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ringens volym är cirka \\(0{,}44\\ \\mathrm{cm^3}\\). Den kan mätas utan skada genom vattenundanträngning.</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.435,
+      null
+    ],
+    "tolerans": [
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "svarEnhet": [
+      "cm^3",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.110",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En behållare innehåller 0,015 m³ vatten. Vattnets densitet är 998 kg/m³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm vattnets massa.</div><div>b) Hur stor massa skulle samma volym ha om vätskans densitet i stället var 800 kg/m³?</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m=998\\cdot0{,}015=14{,}97\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m=800\\cdot0{,}015=12{,}0\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15{,}0\\ \\mathrm{kg}\\) respektive \\(12{,}0\\ \\mathrm{kg}\\).</p></div>",
+    "familj": "Massa, volym och densitet",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14.97,
+      12.0
+    ],
+    "tolerans": [
+      0.1,
+      0.1
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "2.77",
@@ -3501,25 +3817,40 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En klump ser ut att vara av massivt järn. Den väger 500 g och har volymen 90 cm³. Järn har densiteten 7,87 g/cm³.</p>\n<ol><li>Vilken volym skulle 500 g massivt järn ha?</li><li>Hur stort är hålrummet inuti klumpen?</li>\n<li>Vilken densitet mäter man upp för klumpen?</li></ol>",
+    "t": "<p>En klump ser ut att vara av massivt järn. Den väger 500 g och har volymen 90 cm³. Järn har densiteten 7,87 g/cm³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken volym skulle 500 g massivt järn ha?</div><div>b) Hur stort är hålrummet inuti klumpen?</div><div>c) Vilken densitet mäter man upp för klumpen?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna den volym som själva järnet skulle uppta.</p><div class=\"facit-matte\">\\[V_{\\mathrm{järn}}=\\frac{500}{7{,}87}=63{,}5\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Skillnaden mot yttervolymen är hålrummet.</p><div class=\"facit-matte\">\\[V_{\\mathrm{hål}}=90-63{,}5=26{,}5\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Klumpens uppmätta medeldensitet inkluderar hålrummet.</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{medel}}=\\frac{500}{90}=5{,}56\\ \\mathrm{g/cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Massivt järn skulle uppta \\(63{,}5\\ \\mathrm{cm^3}\\). Hålrummet är cirka \\(26{,}5\\ \\mathrm{cm^3}\\), och klumpens medeldensitet är \\(5{,}6\\ \\mathrm{g/cm^3}\\).</p></div>",
-    "familj": "Sammansatt densitet",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "63.5",
-      "26.5",
-      "5.6"
+      63.5,
+      26.5,
+      5.56
     ],
     "tolerans": [
-      0.051000000000000004,
-      0.051000000000000004,
-      0.051000000000000004
+      0.2,
+      0.2,
+      0.05
     ],
-    "självrättning": true
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "cm^3",
+      "cm^3",
+      "g/cm^3"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.79",
@@ -3527,16 +3858,73 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "A",
     "poang": "(0/2/1)",
-    "t": "<p>Jordens massa är 5,97·10²⁴ kg och radien 6371 km. Volymen av ett klot är 4πr³/3.</p>\n<ol><li>Beräkna jordens medeldensitet.</li>\n<li>Vanligt berg har densiteten omkring 2700 kg/m³. Vad säger jämförelsen om jordens inre?</li></ol>",
+    "t": "<p>Jordens massa är 5,97·10²⁴ kg och radien 6371 km. Volymen av ett klot är 4πr³/3.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Beräkna jordens medeldensitet.</div><div>b) Vanligt berg har densiteten omkring 2700 kg/m³. Vad säger jämförelsen om jordens inre?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla radien till meter, beräkna klotets volym och dela massan med volymen.</p><div class=\"facit-matte\">\\[r=6371\\ \\mathrm{km}=6{,}371\\cdot10^6\\ \\mathrm m\\]\\[V=\\frac{4\\pi r^3}{3}=1{,}083\\cdot10^{21}\\ \\mathrm{m^3}\\]\\[\\rho=\\frac{5{,}97\\cdot10^{24}}{1{,}083\\cdot10^{21}}=5{,}51\\cdot10^3\\ \\mathrm{kg/m^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med bergens densitet.</p><div class=\"facit-matte\">\\[\\frac{5510}{2700}\\approx2{,}0\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Jordens medeldensitet är cirka \\(5510\\ \\mathrm{kg/m^3}\\). Den höga medeldensiteten visar att jordens inre måste innehålla betydligt tätare material, framför allt järn och nickel.</p></div>",
-    "familj": "Sammansatt densitet",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
     "formaga": [
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5510,
+      null
+    ],
+    "tolerans": [
+      30,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "svarEnhet": [
+      "kg/m^3",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.111",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett prov har massan 450 g och volymen 180 cm³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm provets densitet.</div><div>b) Vilken massa har 60 cm³ av samma material?</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[\\rho=\\frac{450}{180}=2{,}50\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m=2{,}50\\cdot60=150\\ \\mathrm g\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}50\\ \\mathrm{g/cm^3}\\) och \\(150\\ \\mathrm g\\).</p></div>",
+    "familj": "Massa, volym och densitet",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.5,
+      150
+    ],
+    "tolerans": [
+      0.02,
+      1
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      "g"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "3.126",
@@ -3975,7 +4363,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "4.19",
@@ -5430,8 +5820,8 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
       "3.8e+22"
     ],
     "tolerans": [
-      5.1e+19,
-      5.1e+20
+      51000000000000000000,
+      510000000000000000000
     ],
     "självrättning": true
   },
@@ -6541,17 +6931,39 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "C",
     "typ": "bestämma blandningsandel ur uppmätt densitet, ur text, sökt andel",
     "poang": "(1/2/0)",
-    "t": "<p>En ring är gjord av en legering av guld (19,3 g/cm³) och koppar (8,93 g/cm³). Ringens densitet mäts upp till 14,8 g/cm³.</p>\n<ol><li>Ställ upp ett samband mellan legeringens densitet och guldets volymandel.</li>\n<li>Hur stor andel av ringens volym är guld?</li></ol>",
+    "t": "<p>En ring är gjord av en legering av guld (19,3 g/cm³) och koppar (8,93 g/cm³). Ringens densitet mäts upp till 14,8 g/cm³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Ställ upp ett samband mellan legeringens densitet och guldets volymandel.</div><div>b) Hur stor andel av ringens volym är guld?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Låt \\(x\\) vara guldets volymandel. Kopparns andel blir då \\(1-x\\).</p><div class=\"facit-matte\">\\[\\rho=x\\rho_{\\mathrm{Au}}+(1-x)\\rho_{\\mathrm{Cu}}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt in den uppmätta densiteten och lös ekvationen.</p><div class=\"facit-matte\">\\[14{,}8=19{,}3x+8{,}93(1-x)\\]\\[x=\\frac{14{,}8-8{,}93}{19{,}3-8{,}93}=0{,}566\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Guldets volymandel är cirka \\(0{,}57\\), alltså 57 %.</p></div>",
-    "familj": "Sammansatt densitet",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      56.6
+    ],
+    "tolerans": [
+      null,
+      0.5
+    ],
+    "självrättning": [
+      false,
+      true
+    ],
+    "svarEnhet": [
+      null,
+      "%"
+    ],
+    "manuellKomplettering": [
+      true,
+      false
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.15",
@@ -7091,17 +7503,97 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "C",
     "typ": "beräkna medeldensitet hos skiktade vätskor, ur diagram, sökt densitet",
     "poang": "(1/2/0)",
-    "t": "<p>Ett glasrör med den inre tvärsnittsarean 6,0 cm² innehåller tre vätskor som lagt sig i skikt.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 380 270\"><path d=\"M70 36 L70 240 L150 240 L150 36\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"72\" y=\"192\" width=\"76\" height=\"48\" fill=\"#D8C29E\"/><rect x=\"72\" y=\"120\" width=\"76\" height=\"72\" fill=\"#DCE6F2\"/><rect x=\"72\" y=\"60\" width=\"76\" height=\"60\" fill=\"#F4EDD8\"/><line x1=\"72\" y1=\"60\" x2=\"148\" y2=\"60\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"72\" y1=\"120\" x2=\"148\" y2=\"120\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"72\" y1=\"192\" x2=\"148\" y2=\"192\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"166\" y=\"94\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">rapsolja 0,92 g/cm³</text><text x=\"166\" y=\"160\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">vatten 1,00 g/cm³</text><text x=\"166\" y=\"220\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">sirap 1,38 g/cm³</text><line x1=\"54\" y1=\"60\" x2=\"54\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"60\" x2=\"59\" y2=\"60\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"120\" x2=\"59\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"46\" y=\"94\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><line x1=\"54\" y1=\"120\" x2=\"54\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"120\" x2=\"59\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"192\" x2=\"59\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"46\" y=\"160\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 cm</text><line x1=\"54\" y1=\"192\" x2=\"54\" y2=\"240\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"192\" x2=\"59\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"240\" x2=\"59\" y2=\"240\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"46\" y=\"220\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text></svg></span>\n<ol><li>Bestäm massan hos varje skikt.</li>\n<li>Vilken medeldensitet har innehållet i röret?</li>\n<li>En plastbit med densiteten 1,05 g/cm³ släpps ned i röret. Var stannar den?</li></ol>",
+    "t": "<p>Ett glasrör med den inre tvärsnittsarean 6,0 cm² innehåller tre vätskor som lagt sig i skikt.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 380 270\"><path d=\"M70 36 L70 240 L150 240 L150 36\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"72\" y=\"192\" width=\"76\" height=\"48\" fill=\"#D8C29E\"/><rect x=\"72\" y=\"120\" width=\"76\" height=\"72\" fill=\"#DCE6F2\"/><rect x=\"72\" y=\"60\" width=\"76\" height=\"60\" fill=\"#F4EDD8\"/><line x1=\"72\" y1=\"60\" x2=\"148\" y2=\"60\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"72\" y1=\"120\" x2=\"148\" y2=\"120\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"72\" y1=\"192\" x2=\"148\" y2=\"192\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"166\" y=\"94\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">rapsolja 0,92 g/cm³</text><text x=\"166\" y=\"160\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">vatten 1,00 g/cm³</text><text x=\"166\" y=\"220\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">sirap 1,38 g/cm³</text><line x1=\"54\" y1=\"60\" x2=\"54\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"60\" x2=\"59\" y2=\"60\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"120\" x2=\"59\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"46\" y=\"94\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><line x1=\"54\" y1=\"120\" x2=\"54\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"120\" x2=\"59\" y2=\"120\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"192\" x2=\"59\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"46\" y=\"160\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6,0 cm</text><line x1=\"54\" y1=\"192\" x2=\"54\" y2=\"240\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"192\" x2=\"59\" y2=\"192\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"49\" y1=\"240\" x2=\"59\" y2=\"240\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"46\" y=\"220\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm massan hos varje skikt.</div><div>b) Vilken medeldensitet har innehållet i röret?</div><div>c) En plastbit med densiteten 1,05 g/cm³ släpps ned i röret. Var stannar den?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Varje skikts volym är \\(V=Ah\\), och massan är \\(m=\\rho V\\).</p><div class=\"facit-matte\">\\[\\begin{aligned}V_o&=6{,}0\\cdot5{,}0=30\\ \\mathrm{cm^3},&m_o&=0{,}92\\cdot30=27{,}6\\ \\mathrm g\\\\V_v&=6{,}0\\cdot6{,}0=36\\ \\mathrm{cm^3},&m_v&=1{,}00\\cdot36=36{,}0\\ \\mathrm g\\\\V_s&=6{,}0\\cdot4{,}0=24\\ \\mathrm{cm^3},&m_s&=1{,}38\\cdot24=33{,}1\\ \\mathrm g\\end{aligned}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela den sammanlagda massan med den sammanlagda volymen.</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{medel}}=\\frac{27{,}6+36{,}0+33{,}1}{30+36+24}=1{,}07\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Plasten är tätare än olja och vatten men mindre tät än sirap.</p><div class=\"facit-matte\">\\[1{,}00&lt;1{,}05&lt;1{,}38\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Massorna är \\(27{,}6\\ \\mathrm g\\), \\(36{,}0\\ \\mathrm g\\) och \\(33{,}1\\ \\mathrm g\\). Medeldensiteten är \\(1{,}07\\ \\mathrm{g/cm^3}\\), och plastbiten stannar i gränsen mellan vatten och sirap.</p></div>",
-    "familj": "Sammansatt densitet",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        27.6,
+        36.0,
+        33.1
+      ],
+      1.07,
+      null
+    ],
+    "tolerans": [
+      [
+        0.2,
+        0.2,
+        0.2
+      ],
+      0.02,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "svarEnhet": [
+      [
+        "g",
+        "g",
+        "g"
+      ],
+      "g/cm^3",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.112",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Omvandla densiteterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) 1,35 g/cm³ till kg/m³.</div><div>b) 780 kg/m³ till g/cm³.</div><div>c) 0,92 g/cm³ till kg/m³.</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[1{,}35\\cdot1000=1350\\ \\mathrm{kg/m^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[780/1000=0{,}780\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[0{,}92\\cdot1000=920\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1350 kg/m³, 0,780 g/cm³ och 920 kg/m³.</p></div>",
+    "familj": "Omvandla densitetsenheter",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1350,
+      0.78,
+      920
+    ],
+    "tolerans": [
+      5,
+      0.002,
+      5
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "kg/m^3",
+      "g/cm^3",
+      "kg/m^3"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "3.162",
@@ -8040,7 +8532,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
       0.051000000000000004,
       0.51,
       5.1000000000000006e-05,
-      510.0
+      510
     ],
     "självrättning": true
   },
@@ -8065,8 +8557,8 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       5.1000000000000005e-11,
-      510000000.0,
-      51000.0,
+      510000000,
+      51000,
       5.1e-13
     ],
     "självrättning": true
@@ -8140,7 +8632,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Koppar har densiteten 8,96 g/cm³.</p>\n<ol><li>Bestäm volymen för en kopparbit med massan 450 g.</li>\n<li>Bestäm massan för en kopparkub med sidan 3,0 cm.</li></ol>",
+    "t": "<p>Koppar har densiteten 8,96 g/cm³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm volymen för en kopparbit med massan 450 g.</div><div>b) Bestäm massan för en kopparkub med sidan 3,0 cm.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut volymen ur \\(\\rho=m/V\\).</p><div class=\"facit-matte\">\\[V=\\frac m\\rho=\\frac{450}{8{,}96}=50{,}2\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna kubens volym och multiplicera med densiteten.</p><div class=\"facit-matte\">\\[V=3{,}0^3=27\\ \\mathrm{cm^3}\\]\\[m=\\rho V=8{,}96\\cdot27=242\\ \\mathrm g\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kopparbitens volym är cirka \\(50\\ \\mathrm{cm^3}\\), och kubens massa cirka \\(242\\ \\mathrm g\\).</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
@@ -8148,14 +8640,26 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "50",
-      "242"
+      50.2,
+      242
     ],
     "tolerans": [
-      0.51,
-      0.51
+      0.3,
+      1
     ],
-    "självrättning": true
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "cm^3",
+      "g"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.6",
@@ -8163,17 +8667,85 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "E",
     "poang": "(2/1/0)",
-    "t": "<p>Mässing har densiteten 8,4 g/cm³.</p>\n<ol><li>Hur många kg/m³ motsvarar det?</li>\n<li>Vatten har densiteten 998 kg/m³. Ange den i g/cm³.</li>\n<li>Varför är omräkningsfaktorn 1000 och inte 100?</li></ol>",
+    "t": "<p>Mässing har densiteten 8,4 g/cm³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Hur många kg/m³ motsvarar det?</div><div>b) Vatten har densiteten 998 kg/m³. Ange den i g/cm³.</div><div>c) Varför är omräkningsfaktorn 1000 och inte 100?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd \\(1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}\\).</p><div class=\"facit-matte\">\\[8{,}4\\ \\mathrm{g/cm^3}=8400\\ \\mathrm{kg/m^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela kg/m³ med 1000.</p><div class=\"facit-matte\">\\[998\\ \\mathrm{kg/m^3}=0{,}998\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Massfaktorn är \\(10^{-3}\\), medan volymfaktorn är \\(10^{-6}\\).</p><div class=\"facit-matte\">\\[\\frac{10^{-3}}{10^{-6}}=10^3=1000\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}4\\ \\mathrm{g/cm^3}=8400\\ \\mathrm{kg/m^3}\\) och \\(998\\ \\mathrm{kg/m^3}=0{,}998\\ \\mathrm{g/cm^3}\\). Omräkningsfaktorn är 1000 eftersom kubikcentimetern innehåller en kuberad längdfaktor.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Omvandla densitetsenheter",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8400,
+      0.998,
+      null
+    ],
+    "tolerans": [
+      10,
+      0.002,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "svarEnhet": [
+      "kg/m^3",
+      "g/cm^3",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.113",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett rätblock har måtten 8,0 cm × 5,0 cm × 3,0 cm och massan 420 g.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm blockets volym.</div><div>b) Bestäm materialets densitet.</div><div>c) Ange densiteten i kg/m³.</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[V=8{,}0\\cdot5{,}0\\cdot3{,}0=120\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[\\rho=\\frac{420}{120}=3{,}50\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[3{,}50\\ \\mathrm{g/cm^3}=3500\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 120 cm³, 3,50 g/cm³ och 3500 kg/m³.</p></div>",
+    "familj": "Densitet med geometrisk volym",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      120,
+      3.5,
+      3500
+    ],
+    "tolerans": [
+      1,
+      0.02,
+      10
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "cm^3",
+      "g/cm^3",
+      "kg/m^3"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "2.91",
@@ -8181,7 +8753,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Ett föremål flyter i en vätska om föremålets densitet är lägre än vätskans.</p>\n<ol><li>Bestäm den minsta volym ett föremål med massan 3,5 kg kan ha om det ska flyta i vatten (998 kg/m³).</li>\n<li>Hur stor måste volymen minst vara om föremålet istället ska flyta i etanol (789 kg/m³)?</li></ol>",
+    "t": "<p>Ett föremål flyter i en vätska om föremålets densitet är lägre än vätskans.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm den minsta volym ett föremål med massan 3,5 kg kan ha om det ska flyta i vatten (998 kg/m³).</div><div>b) Hur stor måste volymen minst vara om föremålet istället ska flyta i etanol (789 kg/m³)?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid gränsen till att flyta är föremålets medeldensitet lika med vätskans.</p><div class=\"facit-matte\">\\[V_{\\min}\\approx\\frac m{\\rho_{\\mathrm{vatten}}}=\\frac{3{,}5}{998}=3{,}51\\cdot10^{-3}\\ \\mathrm{m^3}=3{,}51\\ \\mathrm{dm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gör samma beräkning för etanol.</p><div class=\"facit-matte\">\\[V_{\\min}\\approx\\frac{3{,}5}{789}=4{,}44\\cdot10^{-3}\\ \\mathrm{m^3}=4{,}44\\ \\mathrm{dm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen måste vara minst ungefär \\(3{,}5\\ \\mathrm{dm^3}\\) i vatten och \\(4{,}4\\ \\mathrm{dm^3}\\) i etanol. För att faktiskt flyta med marginal måste densiteten vara något lägre än vätskans.</p></div>",
     "familj": "Densitet och flytförmåga",
     "formaga": [
@@ -8189,14 +8761,26 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "3.5",
-      "4.4"
+      3.51,
+      4.44
     ],
     "tolerans": [
-      0.051000000000000004,
-      0.051000000000000004
+      0.03,
+      0.03
     ],
-    "självrättning": true
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "dm^3",
+      "dm^3"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.7",
@@ -8204,17 +8788,85 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>I ett experiment mäts massan och volymen för en metallbit. Massan är 810 g och volymen 72 cm³.</p>\n<ol><li>Bestäm metallens densitet.</li>\n<li>Vilket ämne skulle metallbiten kunna bestå av?</li>\n<li>Vad skulle ett hålrum inuti biten göra med resultatet?</li></ol>",
+    "t": "<p>I ett experiment mäts massan och volymen för en metallbit. Massan är 810 g och volymen 72 cm³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm metallens densitet.</div><div>b) Vilket ämne skulle metallbiten kunna bestå av?</div><div>c) Vad skulle ett hålrum inuti biten göra med resultatet?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna densiteten direkt.</p><div class=\"facit-matte\">\\[\\rho=\\frac mV=\\frac{810}{72}=11{,}25\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med tabellvärden.</p><p>Värdet ligger nära bly, som har densiteten cirka \\(11{,}3\\ \\mathrm{g/cm^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett hålrum ökar yttervolymen utan motsvarande massa.</p><p>Den beräknade medeldensiteten blir då lägre än själva materialets densitet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är cirka \\(11{,}3\\ \\mathrm{g/cm^3}\\), så metallen kan vara bly. Ett hålrum skulle ge ett för lågt densitetsvärde.</p></div>",
     "familj": "Sammansatt densitet",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11.25,
+      null,
+      null
+    ],
+    "tolerans": [
+      0.05,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      false,
+      false
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      null,
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      true,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.114",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En cylinder har diametern 4,0 cm, höjden 10,0 cm och massan 339 g. Använd \\(V=\\pi r^2h\\).</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm cylinderns radie.</div><div>b) Bestäm cylinderns volym.</div><div>c) Bestäm materialets densitet.</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[r=2{,}0\\ \\mathrm{cm}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[V=\\pi\\cdot2{,}0^2\\cdot10{,}0=125{,}7\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[\\rho=\\frac{339}{125{,}7}=2{,}70\\ \\mathrm{g/cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 cm, 126 cm³ och 2,70 g/cm³.</p></div>",
+    "familj": "Densitet med geometrisk volym",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.0,
+      125.7,
+      2.7
+    ],
+    "tolerans": [
+      0.02,
+      0.8,
+      0.03
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm^3",
+      "g/cm^3"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "2.90",
@@ -8222,17 +8874,48 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "C",
     "poang": "(0/2/1)",
-    "t": "<p>Clara ska blanda vatten (1,00 g/cm³) och etanol (0,79 g/cm³). Blandningen ska ha massan 68 g och volymen 80 cm³.</p>\n<ol><li>Hur stor volym ska hon ta av respektive vätska?</li>\n<li>Vilket antagande gör du när du löser uppgiften?</li></ol>",
+    "t": "<p>Clara ska blanda vatten (1,00 g/cm³) och etanol (0,79 g/cm³). Blandningen ska ha massan 68 g och volymen 80 cm³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Hur stor volym ska hon ta av respektive vätska?</div><div>b) Vilket antagande gör du när du löser uppgiften?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Låt \\(V_v\\) och \\(V_e\\) vara volymerna vatten respektive etanol.</p><div class=\"facit-matte\">\\[V_v+V_e=80\\]\\[1{,}00V_v+0{,}79V_e=68\\]</div><p class=\"facit-metod\">Sätt \\(V_e=80-V_v\\) i masse­kvationen.</p><div class=\"facit-matte\">\\[V_v+0{,}79(80-V_v)=68\\]\\[0{,}21V_v=4{,}8\\Rightarrow V_v=22{,}9\\ \\mathrm{cm^3}\\]\\[V_e=80-22{,}9=57{,}1\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lösningen antar att vätskornas volymer kan adderas exakt.</p><p>I verkligheten kontraherar en vatten–etanolblandning något.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Clara ska enligt modellen ta cirka \\(23\\ \\mathrm{cm^3}\\) vatten och \\(57\\ \\mathrm{cm^3}\\) etanol.</p></div>",
-    "familj": "Sammansatt densitet",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        22.9,
+        57.1
+      ],
+      null
+    ],
+    "tolerans": [
+      [
+        0.3,
+        0.3
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "svarEnhet": [
+      [
+        "cm^3",
+        "cm^3"
+      ],
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.56",
@@ -8240,16 +8923,69 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "A",
     "poang": "(0/1/2)",
-    "t": "<p>Två klot har samma massa. Det ena består av järn (7,87 g/cm³), det andra av aluminium (2,70 g/cm³).</p>\n<ol><li>Bestäm förhållandet mellan klotens radier.</li>\n<li>Hur många procent större är det ena klotets radie?</li></ol>",
+    "t": "<p>Två klot har samma massa. Det ena består av järn (7,87 g/cm³), det andra av aluminium (2,70 g/cm³).</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm förhållandet mellan klotens radier.</div><div>b) Hur många procent större är det ena klotets radie?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Samma massa innebär \\(\\rho_jV_j=\\rho_aV_a\\). För klot är volymen proportionell mot \\(r^3\\).</p><div class=\"facit-matte\">\\[\\rho_jr_j^3=\\rho_ar_a^3\\Rightarrow\\frac{r_a}{r_j}=\\sqrt[3]{\\frac{\\rho_j}{\\rho_a}}\\]\\[\\frac{r_a}{r_j}=\\sqrt[3]{\\frac{7{,}87}{2{,}70}}=1{,}429\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla radiekvoten till procentuell ökning.</p><div class=\"facit-matte\">\\[(1{,}429-1)\\cdot100\\,\\%=42{,}9\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Aluminiumklotets radie är \\(1{,}43\\) gånger järnklotets, alltså cirka 43 % större.</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.429,
+      42.9
+    ],
+    "tolerans": [
+      0.01,
+      0.3
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      null,
+      "%"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.115",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En metallbit med massan 72,9 g sänks ned i ett mätglas. Vattennivån stiger från 45 ml till 72 ml.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm metallbitens volym.</div><div>b) Bestäm metallens densitet.</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[V=72-45=27\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[\\rho=\\frac{72{,}9}{27}=2{,}70\\ \\mathrm{g/cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 27 cm³ och 2,70 g/cm³.</p></div>",
+    "familj": "Massa, volym och densitet",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      27,
+      2.7
+    ],
+    "tolerans": [
+      0.5,
+      0.03
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "cm^3",
+      "g/cm^3"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "2.52",
@@ -8257,7 +8993,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "omr": "densitet",
     "niva": "A",
     "poang": "(0/1/2)",
-    "t": "<p>Ett klot av bly (11,3 g/cm³) ska ha massan 15 kg.</p>\n<ol><li>Bestäm klotets volym.</li><li>Bestäm klotets radie.</li>\n<li>Hur stor blir radien om massan istället är dubbelt så stor?</li></ol>",
+    "t": "<p>Ett klot av bly (11,3 g/cm³) ska ha massan 15 kg.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm klotets volym.</div><div>b) Bestäm klotets radie.</div><div>c) Hur stor blir radien om massan istället är dubbelt så stor?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla massan till gram och lös ut volymen.</p><div class=\"facit-matte\">\\[V=\\frac{15\\,000}{11{,}3}=1{,}327\\cdot10^3\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut radien ur klotvolymen.</p><div class=\"facit-matte\">\\[r=\\sqrt[3]{\\frac{3V}{4\\pi}}=\\sqrt[3]{\\frac{3\\cdot1327}{4\\pi}}=6{,}82\\ \\mathrm{cm}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dubbel massa ger dubbel volym och därmed radiefaktorn \\(\\sqrt[3]{2}\\).</p><div class=\"facit-matte\">\\[r_2=r_1\\sqrt[3]{2}=6{,}82\\cdot1{,}260=8{,}59\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är \\(1{,}33\\cdot10^3\\ \\mathrm{cm^3}\\), radien cirka \\(6{,}8\\ \\mathrm{cm}\\), och vid dubbel massa blir radien cirka \\(8{,}6\\ \\mathrm{cm}\\).</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
@@ -8265,16 +9001,31 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "1330",
-      "6.8",
-      "8.6"
+      1327,
+      6.82,
+      8.59
     ],
     "tolerans": [
-      5.1,
-      0.051000000000000004,
-      0.051000000000000004
+      5,
+      0.05,
+      0.05
     ],
-    "självrättning": true
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "cm^3",
+      "cm",
+      "cm"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.16",
@@ -8362,7 +9113,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.13",
@@ -8389,16 +9142,79 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma densitet ur massa-volym-diagram, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Diagrammet visar hur massan beror på volymen för ett material.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"224\" x2=\"486\" y2=\"224\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"228\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"180\" x2=\"486\" y2=\"180\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"184\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"92\" x2=\"486\" y2=\"92\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"48\" x2=\"486\" y2=\"48\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"52\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"97.2\" y1=\"26\" x2=\"97.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"97.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"183.6\" y1=\"26\" x2=\"183.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"183.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">25</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"356.4\" y1=\"26\" x2=\"356.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"356.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">35</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"442.8\" y1=\"26\" x2=\"442.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"442.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"26\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"97.2\" cy=\"224\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"270\" cy=\"136\" r=\"3.6\" fill=\"#B43123\"/></svg></span>\n<ol><li>Avläs två punkter på linjen och skriv ner deras koordinater.</li><li>Bestäm materialets densitet.</li><li>Hur stor massa har 35 cm³ av materialet?</li></ol>",
+    "t": "<p>Diagrammet visar hur massan beror på volymen för ett material.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"224\" x2=\"486\" y2=\"224\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"228\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"180\" x2=\"486\" y2=\"180\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"184\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"92\" x2=\"486\" y2=\"92\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"48\" x2=\"486\" y2=\"48\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"52\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"97.2\" y1=\"26\" x2=\"97.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"97.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"183.6\" y1=\"26\" x2=\"183.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"183.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">25</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"356.4\" y1=\"26\" x2=\"356.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"356.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">35</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"442.8\" y1=\"26\" x2=\"442.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"442.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"26\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"97.2\" cy=\"224\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"270\" cy=\"136\" r=\"3.6\" fill=\"#B43123\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Avläs två punkter på linjen och skriv ner deras koordinater.</div><div>b) Bestäm materialets densitet.</div><div>c) Hur stor massa har 35 cm³ av materialet?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj två tydliga punkter långt från varandra på linjen.</p><div class=\"facit-matte\">\\[(V_1,m_1)=(5\\ \\mathrm{cm^3},10\\ \\mathrm g)\\]\\[(V_2,m_2)=(25\\ \\mathrm{cm^3},50\\ \\mathrm g)\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I ett massa–volym-diagram är densiteten linjens lutning.</p><div class=\"facit-matte\">\\[\\rho=\\frac{\\Delta m}{\\Delta V}=\\frac{50-10}{25-5}=2{,}0\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd \\(m=\\rho V\\).</p><div class=\"facit-matte\">\\[m=2{,}0\\cdot35=70\\ \\mathrm g\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Exempel på punkter är \\((5,10)\\) och \\((25,50)\\). Densiteten är \\(2{,}0\\ \\mathrm{g/cm^3}\\), och \\(35\\ \\mathrm{cm^3}\\) har massan \\(70\\ \\mathrm g\\).</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      2.0,
+      70
+    ],
+    "tolerans": [
+      null,
+      0.05,
+      1
+    ],
+    "självrättning": [
+      false,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      null,
+      "g/cm^3",
+      "g"
+    ],
+    "manuellKomplettering": [
+      true,
+      false,
+      false
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.116",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett material har densiteten 7,8 g/cm³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm massan av 50 cm³ material.</div><div>b) Bestäm massan av 120 cm³ material.</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m=7{,}8\\cdot50=390\\ \\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m=7{,}8\\cdot120=936\\ \\mathrm g\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 390 g och 936 g.</p></div>",
+    "familj": "Massa, volym och densitet",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      390,
+      936
+    ],
+    "tolerans": [
+      2,
+      3
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g",
+      "g"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "2.23",
@@ -8407,16 +9223,53 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "jämföra densitet för två material ur massa-volym-diagram, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>I diagrammet visas massa och volym för två olika material, A och B.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"214.57142857142858\" x2=\"486\" y2=\"214.57142857142858\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"218.57142857142858\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"183.14285714285714\" x2=\"486\" y2=\"183.14285714285714\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"187.14285714285714\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"151.71428571428572\" x2=\"486\" y2=\"151.71428571428572\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"155.71428571428572\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"120.28571428571429\" x2=\"486\" y2=\"120.28571428571429\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"124.28571428571429\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"88.85714285714286\" x2=\"486\" y2=\"88.85714285714286\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"92.85714285714286\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"57.428571428571445\" x2=\"486\" y2=\"57.428571428571445\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"61.428571428571445\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"97.2\" y1=\"26\" x2=\"97.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"97.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"183.6\" y1=\"26\" x2=\"183.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"183.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">25</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"356.4\" y1=\"26\" x2=\"356.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"356.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">35</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"442.8\" y1=\"26\" x2=\"442.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"442.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><line x1=\"54\" y1=\"246\" x2=\"226.8\" y2=\"57.428571428571445\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"220.8\" y=\"49.428571428571445\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">A</text><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"88.85714285714286\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"480\" y=\"80.85714285714286\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">B</text><circle cx=\"140.4\" cy=\"151.71428571428572\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"226.8\" cy=\"57.428571428571445\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"226.8\" cy=\"183.14285714285714\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"399.6\" cy=\"120.28571428571429\" r=\"3.6\" fill=\"#B43123\"/></svg></span>\n<ol><li>Vilket material har störst densitet? Hur ser du det?</li><li>Bestäm densiteten för A och för B.</li><li>Ett av materialen är vatten. Vilket?</li></ol>",
+    "t": "<p>I diagrammet visas massa och volym för två olika material, A och B.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"214.57142857142858\" x2=\"486\" y2=\"214.57142857142858\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"218.57142857142858\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"183.14285714285714\" x2=\"486\" y2=\"183.14285714285714\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"187.14285714285714\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"151.71428571428572\" x2=\"486\" y2=\"151.71428571428572\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"155.71428571428572\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"120.28571428571429\" x2=\"486\" y2=\"120.28571428571429\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"124.28571428571429\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"88.85714285714286\" x2=\"486\" y2=\"88.85714285714286\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"92.85714285714286\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"57.428571428571445\" x2=\"486\" y2=\"57.428571428571445\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"61.428571428571445\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"97.2\" y1=\"26\" x2=\"97.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"97.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"183.6\" y1=\"26\" x2=\"183.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"183.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">25</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"356.4\" y1=\"26\" x2=\"356.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"356.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">35</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"442.8\" y1=\"26\" x2=\"442.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"442.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><line x1=\"54\" y1=\"246\" x2=\"226.8\" y2=\"57.428571428571445\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"220.8\" y=\"49.428571428571445\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">A</text><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"88.85714285714286\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"480\" y=\"80.85714285714286\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">B</text><circle cx=\"140.4\" cy=\"151.71428571428572\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"226.8\" cy=\"57.428571428571445\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"226.8\" cy=\"183.14285714285714\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"399.6\" cy=\"120.28571428571429\" r=\"3.6\" fill=\"#B43123\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilket material har störst densitet? Hur ser du det?</div><div>b) Bestäm densiteten för A och för B.</div><div>c) Ett av materialen är vatten. Vilket?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den brantaste linjen ger störst massaökning per volymökning och därmed störst densitet.</p><p>Linje A är brantast.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Läs av en punkt på vardera linjen. Båda går genom origo.</p><div class=\"facit-matte\">\\[\\rho_A=\\frac{60}{20}=3{,}0\\ \\mathrm{g/cm^3}\\]\\[\\rho_B=\\frac{40}{40}=1{,}0\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vatten har densiteten ungefär \\(1{,}0\\ \\mathrm{g/cm^3}\\).</p><p>Material B är vatten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> A har störst densitet. \\(\\rho_A=3{,}0\\ \\mathrm{g/cm^3}\\), \\(\\rho_B=1{,}0\\ \\mathrm{g/cm^3}\\), och B är vatten.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      [
+        3.0,
+        1.0
+      ],
+      null
+    ],
+    "tolerans": [
+      null,
+      [
+        0.05,
+        0.05
+      ],
+      null
+    ],
+    "självrättning": [
+      false,
+      true,
+      false
+    ],
+    "svarEnhet": [
+      null,
+      [
+        "g/cm^3",
+        "g/cm^3"
+      ],
+      null
+    ],
+    "manuellKomplettering": [
+      true,
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.8",
@@ -8425,16 +9278,54 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "rita massa-volym-diagram och anpassa linje, ur tabell, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Fem bitar av samma metall har vägts och deras volymer har bestämts.</p>\n<table class=\"data\"><tr><th>V (cm³)</th><th>m (g)</th></tr>\n<tr><td>4</td><td>34</td></tr><tr><td>8</td><td>70</td></tr><tr><td>12</td><td>101</td></tr><tr><td>16</td><td>138</td></tr><tr><td>20</td><td>169</td></tr></table>\n<ol><li>Rita ett diagram med volymen på x-axeln och massan på y-axeln.</li><li>Anpassa en rät linje genom origo till mätpunkterna.</li><li>Bestäm metallens densitet.</li></ol>",
+    "t": "<p>Fem bitar av samma metall har vägts och deras volymer har bestämts.</p>\n<table class=\"data\"><tr><th>V (cm³)</th><th>m (g)</th></tr>\n<tr><td>4</td><td>34</td></tr><tr><td>8</td><td>70</td></tr><tr><td>12</td><td>101</td></tr><tr><td>16</td><td>138</td></tr><tr><td>20</td><td>169</td></tr></table>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Rita ett diagram med volymen på x-axeln och massan på y-axeln.</div><div>b) Anpassa en rät linje genom origo till mätpunkterna.</div><div>c) Bestäm metallens densitet.</div></div>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Placera volymen på x-axeln och massan på y-axeln. Punkterna ligger nära en rät linje genom origo.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 390 245\" role=\"img\" aria-label=\"Massa-volym-diagram med fem mätpunkter och en anpassad rät linje genom origo.\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"48\" y1=\"205\" x2=\"370\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"48\" y1=\"205\" x2=\"48\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"2\"/><g stroke=\"#E4E3E6\" stroke-width=\"1\"><line x1=\"108\" y1=\"25\" x2=\"108\" y2=\"205\"/><line x1=\"168\" y1=\"25\" x2=\"168\" y2=\"205\"/><line x1=\"228\" y1=\"25\" x2=\"228\" y2=\"205\"/><line x1=\"288\" y1=\"25\" x2=\"288\" y2=\"205\"/><line x1=\"48\" y1=\"169\" x2=\"360\" y2=\"169\"/><line x1=\"48\" y1=\"133\" x2=\"360\" y2=\"133\"/><line x1=\"48\" y1=\"97\" x2=\"360\" y2=\"97\"/><line x1=\"48\" y1=\"61\" x2=\"360\" y2=\"61\"/></g><line x1=\"48\" y1=\"205\" x2=\"348\" y2=\"51.7\" stroke=\"#2A5D9E\" stroke-width=\"3\"/><g fill=\"#B43123\"><circle cx=\"108\" cy=\"174.4\" r=\"4\"/><circle cx=\"168\" cy=\"142\" r=\"4\"/><circle cx=\"228\" cy=\"114.1\" r=\"4\"/><circle cx=\"288\" cy=\"80.8\" r=\"4\"/><circle cx=\"348\" cy=\"52.9\" r=\"4\"/></g><g font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\"><text x=\"370\" y=\"234\" text-anchor=\"end\">V / cm³</text><text x=\"12\" y=\"20\">m / g</text><text x=\"108\" y=\"221\" text-anchor=\"middle\">4</text><text x=\"168\" y=\"221\" text-anchor=\"middle\">8</text><text x=\"228\" y=\"221\" text-anchor=\"middle\">12</text><text x=\"288\" y=\"221\" text-anchor=\"middle\">16</text><text x=\"348\" y=\"221\" text-anchor=\"middle\">20</text><text x=\"42\" y=\"173\" text-anchor=\"end\">40</text><text x=\"42\" y=\"137\" text-anchor=\"end\">80</text><text x=\"42\" y=\"101\" text-anchor=\"end\">120</text><text x=\"42\" y=\"65\" text-anchor=\"end\">160</text></g></svg></span><p class=\"facit-metod\">En linjeanpassning genom origo ger lutningen</p><div class=\"facit-matte\">\\[\\rho\\approx\\frac{170\\ \\mathrm g}{20\\ \\mathrm{cm^3}}\\approx8{,}5\\ \\mathrm{g/cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Metallens densitet är cirka \\(8{,}5\\ \\mathrm{g/cm^3}\\), vilket stämmer väl med mässing.</p><p class=\"facit-not\">En beräkning med alla fem punkter ger ungefär \\(8{,}52\\ \\mathrm{g/cm^3}\\).</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
+  },
+  {
+    "id": "2.117",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett föremål har massan 150 g och volymen 200 cm³. Vattnets densitet är 1,00 g/cm³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm föremålets densitet.</div><div>b) Hur mycket lägre är föremålets densitet än vattnets?</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[\\rho=\\frac{150}{200}=0{,}75\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[1{,}00-0{,}75=0{,}25\\ \\mathrm{g/cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,75 g/cm³ och 0,25 g/cm³ lägre än vatten.</p></div>",
+    "familj": "Densitet och flytförmåga",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.75,
+      0.25
+    ],
+    "tolerans": [
+      0.02,
+      0.02
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      "g/cm^3"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "2.25",
@@ -8443,17 +9334,45 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "C",
     "typ": "bestämma densitet ur linje som inte går genom origo, ur diagram, sökt densitet och resonemang",
     "poang": "(1/2/0)",
-    "t": "<p>En vätska hälls i en bägare som står på en våg. Diagrammet visar vågens utslag som funktion av vätskans volym.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"224\" x2=\"486\" y2=\"224\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"228\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"180\" x2=\"486\" y2=\"180\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"184\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"92\" x2=\"486\" y2=\"92\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"48\" x2=\"486\" y2=\"48\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"52\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"115.71428571428571\" y1=\"26\" x2=\"115.71428571428571\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"115.71428571428571\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"177.42857142857142\" y1=\"26\" x2=\"177.42857142857142\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"177.42857142857142\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"239.14285714285714\" y1=\"26\" x2=\"239.14285714285714\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"239.14285714285714\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"300.85714285714283\" y1=\"26\" x2=\"300.85714285714283\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"300.85714285714283\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"362.57142857142856\" y1=\"26\" x2=\"362.57142857142856\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"362.57142857142856\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"424.2857142857143\" y1=\"26\" x2=\"424.2857142857143\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"424.2857142857143\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><line x1=\"54\" y1=\"180\" x2=\"486\" y2=\"26\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"177.42857142857142\" cy=\"136\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"424.2857142857143\" cy=\"48\" r=\"3.6\" fill=\"#B43123\"/></svg></span>\n<ol><li>Bestäm vätskans densitet.</li><li>Varför går inte linjen genom origo?</li><li>Vilket fel gör man om man tar en avläst massa och dividerar med volymen?</li></ol>",
+    "t": "<p>En vätska hälls i en bägare som står på en våg. Diagrammet visar vågens utslag som funktion av vätskans volym.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"224\" x2=\"486\" y2=\"224\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"228\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"180\" x2=\"486\" y2=\"180\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"184\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"92\" x2=\"486\" y2=\"92\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"48\" x2=\"486\" y2=\"48\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"52\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"115.71428571428571\" y1=\"26\" x2=\"115.71428571428571\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"115.71428571428571\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"177.42857142857142\" y1=\"26\" x2=\"177.42857142857142\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"177.42857142857142\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"239.14285714285714\" y1=\"26\" x2=\"239.14285714285714\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"239.14285714285714\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"300.85714285714283\" y1=\"26\" x2=\"300.85714285714283\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"300.85714285714283\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"362.57142857142856\" y1=\"26\" x2=\"362.57142857142856\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"362.57142857142856\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"424.2857142857143\" y1=\"26\" x2=\"424.2857142857143\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"424.2857142857143\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><line x1=\"54\" y1=\"180\" x2=\"486\" y2=\"26\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"177.42857142857142\" cy=\"136\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"424.2857142857143\" cy=\"48\" r=\"3.6\" fill=\"#B43123\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm vätskans densitet.</div><div>b) Varför går inte linjen genom origo?</div><div>c) Vilket fel gör man om man tar en avläst massa och dividerar med volymen?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bägarens konstanta massa försvinner när två punkter subtraheras. Densiteten är därför linjens lutning.</p><div class=\"facit-matte\">\\[\\rho=\\frac{\\Delta m}{\\Delta V}=\\frac{90-50}{60-20}=1{,}0\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Skärningen med y-axeln visar massan vid noll vätskevolym.</p><div class=\"facit-matte\">\\[m(0)=30\\ \\mathrm g\\]</div><p>Detta är den tomma bägarens massa.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kvoten mellan vågens hela utslag och vätskevolymen inkluderar bägaren.</p><div class=\"facit-matte\">\\[\\frac{50}{20}=2{,}5\\ \\mathrm{g/cm^3}\\]</div><p>Det blir ett för stort värde.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vätskans densitet är \\(1{,}0\\ \\mathrm{g/cm^3}\\). Linjen går inte genom origo eftersom bägaren väger \\(30\\ \\mathrm g\\); därför måste densiteten tas från lutningen.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.0,
+      null,
+      null
+    ],
+    "tolerans": [
+      0.03,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      false,
+      false
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      null,
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      true,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.80",
@@ -8462,16 +9381,58 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "C",
     "typ": "identifiera felaktig mätpunkt och bestämma densitet, ur tabell, sökt densitet och resonemang",
     "poang": "(1/2/0)",
-    "t": "<p>En elev mäter massa och volym för fem bitar av samma metall.</p>\n<table class=\"data\"><tr><th>V (cm³)</th><th>m (g)</th></tr>\n<tr><td>5</td><td>13</td></tr><tr><td>10</td><td>27</td></tr><tr><td>15</td><td>41</td></tr><tr><td>20</td><td>74</td></tr><tr><td>25</td><td>68</td></tr></table>\n<ol><li>Rita punkterna i ett massa, volym-diagram.</li><li>En av mätningarna måste vara felaktig. Vilken, och hur syns det?</li><li>Anpassa en linje till övriga punkter och bestäm metallens densitet.</li></ol>",
+    "t": "<p>En elev mäter massa och volym för fem bitar av samma metall.</p>\n<table class=\"data\"><tr><th>V (cm³)</th><th>m (g)</th></tr>\n<tr><td>5</td><td>13</td></tr><tr><td>10</td><td>27</td></tr><tr><td>15</td><td>41</td></tr><tr><td>20</td><td>74</td></tr><tr><td>25</td><td>68</td></tr></table>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Rita punkterna i ett massa, volym-diagram.</div><div>b) En av mätningarna måste vara felaktig. Vilken, och hur syns det?</div><div>c) Anpassa en linje till övriga punkter och bestäm metallens densitet.</div></div>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Fyra punkter följer en nästan rät linje genom origo. Punkten \\((20\\ \\mathrm{cm^3},74\\ \\mathrm g)\\) ligger tydligt utanför mönstret.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 390 245\" role=\"img\" aria-label=\"Massa-volym-diagram där punkten vid 20 kubikcentimeter och 74 gram markeras som avvikare.\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"48\" y1=\"205\" x2=\"370\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"48\" y1=\"205\" x2=\"48\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"48\" y1=\"205\" x2=\"348\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"3\"/><g fill=\"#2A5D9E\"><circle cx=\"108\" cy=\"173.5\" r=\"4\"/><circle cx=\"168\" cy=\"139.5\" r=\"4\"/><circle cx=\"228\" cy=\"105.5\" r=\"4\"/><circle cx=\"348\" cy=\"40\" r=\"4\"/></g><circle cx=\"288\" cy=\"25\" r=\"6\" fill=\"#fff\" stroke=\"#B43123\" stroke-width=\"3\"/><line x1=\"298\" y1=\"31\" x2=\"330\" y2=\"52\" stroke=\"#B43123\" stroke-width=\"1.5\"/><text x=\"334\" y=\"56\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">avvikare</text><g font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\"><text x=\"370\" y=\"234\" text-anchor=\"end\">V / cm³</text><text x=\"12\" y=\"20\">m / g</text><text x=\"108\" y=\"221\" text-anchor=\"middle\">5</text><text x=\"168\" y=\"221\" text-anchor=\"middle\">10</text><text x=\"228\" y=\"221\" text-anchor=\"middle\">15</text><text x=\"288\" y=\"221\" text-anchor=\"middle\">20</text><text x=\"348\" y=\"221\" text-anchor=\"middle\">25</text></g></svg></span><p class=\"facit-metod\">Anpassa linjen till de fyra övriga punkterna. En punkt långt ut på linjen ger</p><div class=\"facit-matte\">\\[\\rho\\approx\\frac{68}{25}=2{,}72\\ \\mathrm{g/cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Mätningen \\(20\\ \\mathrm{cm^3},74\\ \\mathrm g\\) är felaktig. De övriga punkterna ger densiteten cirka \\(2{,}7\\ \\mathrm{g/cm^3}\\), vilket stämmer med aluminium.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
+  },
+  {
+    "id": "2.118",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Två lika stora metallbitar har volymen 50 cm³. Metall A har densiteten 2,70 g/cm³ och metall B 7,80 g/cm³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm massan av A.</div><div>b) Bestäm massan av B.</div><div>c) Hur mycket större massa har B än A?</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m_A=2{,}70\\cdot50=135\\ \\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m_B=7{,}80\\cdot50=390\\ \\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[390-135=255\\ \\mathrm g\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 135 g, 390 g och 255 g.</p></div>",
+    "familj": "Massa, volym och densitet",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      135,
+      390,
+      255
+    ],
+    "tolerans": [
+      1,
+      2,
+      2
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g",
+      "g",
+      "g"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "2.83",
@@ -8480,16 +9441,50 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "avläsa massa och volym samt bestämma densitet, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Diagrammet visar massan för olika volymer av en olja.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"224\" x2=\"486\" y2=\"224\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"228\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"180\" x2=\"486\" y2=\"180\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"184\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"92\" x2=\"486\" y2=\"92\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"48\" x2=\"486\" y2=\"48\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"52\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"97.2\" y1=\"26\" x2=\"97.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"97.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"183.6\" y1=\"26\" x2=\"183.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"183.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"356.4\" y1=\"26\" x2=\"356.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"356.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"442.8\" y1=\"26\" x2=\"442.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"442.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"70\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"270\" cy=\"158\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"70\" r=\"3.6\" fill=\"#B43123\"/></svg></span>\n<ol><li>Hur stor massa har 50 cm³ olja?</li><li>Hur stor volym har 80 g olja?</li><li>Bestäm oljans densitet. Flyter oljan på vatten?</li></ol>",
+    "t": "<p>Diagrammet visar massan för olika volymer av en olja.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"224\" x2=\"486\" y2=\"224\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"228\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"180\" x2=\"486\" y2=\"180\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"184\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"92\" x2=\"486\" y2=\"92\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"48\" x2=\"486\" y2=\"48\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"52\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"97.2\" y1=\"26\" x2=\"97.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"97.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"183.6\" y1=\"26\" x2=\"183.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"183.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"356.4\" y1=\"26\" x2=\"356.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"356.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"442.8\" y1=\"26\" x2=\"442.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"442.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"70\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"270\" cy=\"158\" r=\"3.6\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"70\" r=\"3.6\" fill=\"#B43123\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Hur stor massa har 50 cm³ olja?</div><div>b) Hur stor volym har 80 g olja?</div><div>c) Bestäm oljans densitet. Flyter oljan på vatten?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Avläs linjen vid \\(V=50\\ \\mathrm{cm^3}\\).</p><div class=\"facit-matte\">\\[m=40\\ \\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Avläs volymen där \\(m=80\\ \\mathrm g\\).</p><div class=\"facit-matte\">\\[V=100\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Densiteten är grafens lutning.</p><div class=\"facit-matte\">\\[\\rho=\\frac{80}{100}=0{,}80\\ \\mathrm{g/cm^3}\\]</div><p class=\"facit-metod\">Oljans densitet är lägre än vattnets.</p><div class=\"facit-matte\">\\[0{,}80&lt;1{,}00\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{cm^3}\\) väger \\(40\\ \\mathrm g\\), \\(80\\ \\mathrm g\\) upptar \\(100\\ \\mathrm{cm^3}\\), och densiteten är \\(0{,}80\\ \\mathrm{g/cm^3}\\). Oljan flyter på vatten.</p></div>",
-    "familj": "Densitet och flytförmåga",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40,
+      100,
+      0.8,
+      null
+    ],
+    "tolerans": [
+      1,
+      2,
+      0.03,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "svarEnhet": [
+      "g",
+      "cm^3",
+      "g/cm^3",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.50",
@@ -8498,17 +9493,98 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "C",
     "typ": "jämföra material utifrån punkter i massa-volym-diagram, ur diagram, sökt resonemang",
     "poang": "(1/2/0)",
-    "t": "<p>Tre stenar har vägts och deras volymer har bestämts. Resultatet visas som punkterna P, Q och R.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"218.5\" x2=\"486\" y2=\"218.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"222.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"163.5\" x2=\"486\" y2=\"163.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"108.5\" x2=\"486\" y2=\"108.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"112.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"53.5\" x2=\"486\" y2=\"53.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"57.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"108\" y1=\"26\" x2=\"108\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"108\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"216\" y1=\"26\" x2=\"216\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"216\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"324\" y1=\"26\" x2=\"324\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"324\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">25</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"432\" y1=\"26\" x2=\"432\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"432\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">35</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><circle cx=\"162\" cy=\"177.25\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"171\" y=\"169.25\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">P</text><circle cx=\"270\" cy=\"108.5\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"279\" y=\"100.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Q</text><circle cx=\"378\" cy=\"122.25\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"387\" y=\"114.25\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R</text></svg></span>\n<ol><li>Beräkna densiteten för varje sten.</li><li>Två av stenarna är av samma bergart. Vilka? Motivera med hjälp av diagrammet.</li><li>Sten R sänks ner i vatten. Sjunker den?</li></ol>",
+    "t": "<p>Tre stenar har vägts och deras volymer har bestämts. Resultatet visas som punkterna P, Q och R.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"218.5\" x2=\"486\" y2=\"218.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"222.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"163.5\" x2=\"486\" y2=\"163.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"108.5\" x2=\"486\" y2=\"108.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"112.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"53.5\" x2=\"486\" y2=\"53.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"57.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"108\" y1=\"26\" x2=\"108\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"108\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"216\" y1=\"26\" x2=\"216\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"216\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"324\" y1=\"26\" x2=\"324\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"324\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">25</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"432\" y1=\"26\" x2=\"432\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"432\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">35</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><circle cx=\"162\" cy=\"177.25\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"171\" y=\"169.25\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">P</text><circle cx=\"270\" cy=\"108.5\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"279\" y=\"100.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">Q</text><circle cx=\"378\" cy=\"122.25\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"387\" y=\"114.25\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">R</text></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Beräkna densiteten för varje sten.</div><div>b) Två av stenarna är av samma bergart. Vilka? Motivera med hjälp av diagrammet.</div><div>c) Sten R sänks ner i vatten. Sjunker den?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna massan delad med volymen för varje punkt.</p><div class=\"facit-matte\">\\[\\rho_P=\\frac{25}{10}=2{,}5\\ \\mathrm{g/cm^3}\\]\\[\\rho_Q=\\frac{50}{20}=2{,}5\\ \\mathrm{g/cm^3}\\]\\[\\rho_R=\\frac{45}{30}=1{,}5\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">P och Q har samma kvot och ligger på samma linje genom origo.</p><p>De är därför av samma bergart.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför R:s densitet med vattnets.</p><div class=\"facit-matte\">\\[1{,}5&gt;1{,}0\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\rho_P=\\rho_Q=2{,}5\\ \\mathrm{g/cm^3}\\) och \\(\\rho_R=1{,}5\\ \\mathrm{g/cm^3}\\). P och Q är samma bergart, och R sjunker i vatten.</p></div>",
-    "familj": "Densitet och flytförmåga",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        2.5,
+        2.5,
+        1.5
+      ],
+      null,
+      null
+    ],
+    "tolerans": [
+      [
+        0.05,
+        0.05,
+        0.05
+      ],
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      false,
+      false
+    ],
+    "svarEnhet": [
+      [
+        "g/cm^3",
+        "g/cm^3",
+        "g/cm^3"
+      ],
+      null,
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      true,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.119",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Ett ihåligt järnföremål har yttervolymen 100 cm³ och massan 590,25 g. Järnets densitet är 7,87 g/cm³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm föremålets medeldensitet.</div><div>b) Bestäm hur stor volym själva järnet upptar.</div><div>c) Bestäm hålrummets volym.</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[\\rho_{medel}=\\frac{590{,}25}{100}=5{,}9025\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[V_{Fe}=\\frac{590{,}25}{7{,}87}=75{,}0\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[V_{hål}=100-75=25\\ \\mathrm{cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5,90 g/cm³, 75 cm³ järn och 25 cm³ hålrum.</p></div>",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
+    "formaga": [
+      "procedur",
+      "problemlosning"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.9025,
+      75,
+      25
+    ],
+    "tolerans": [
+      0.02,
+      0.5,
+      0.5
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      "cm^3",
+      "cm^3"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "2.5",
@@ -8719,12 +9795,12 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
       "2090000"
     ],
     "tolerans": [
-      510.0,
-      51000.0,
-      51000.0,
-      5100.0,
+      510,
+      51000,
+      51000,
+      5100,
       5.1000000000000006e-05,
-      5100.0
+      5100
     ],
     "självrättning": true
   },
@@ -8752,11 +9828,11 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       0.51,
-      5100000.0,
+      5100000,
       0.00051,
       0.51,
       0.51,
-      510000000.0
+      510000000
     ],
     "självrättning": true
   },
@@ -8816,11 +9892,11 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       5.1e-06,
-      510000.0,
+      510000,
       5.1000000000000005e-11,
       0.51,
       0.0051,
-      5100000000.0
+      5100000000
     ],
     "självrättning": true
   },
@@ -8868,9 +9944,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
       0.00051,
       5.1e-07,
       0.51,
-      51000.0,
+      51000,
       0.00051,
-      5100.0
+      5100
     ],
     "självrättning": true
   },
@@ -8897,10 +9973,10 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
       "0.0024"
     ],
     "tolerans": [
-      51000000.0,
-      510000.0,
-      510.0,
-      510000.0,
+      51000000,
+      510000,
+      510,
+      510000,
       5.1e-06,
       5.1000000000000006e-05
     ],
@@ -9016,16 +10092,34 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "beräkna densitet ur massa och volym och räkna om enheten, ur text, sökt densitet",
     "poang": "(2/0/0)",
-    "t": "<p>Ett metallföremål har massan 240 g och volymen 30 cm³.</p>\n<ol><li>Vilken densitet har föremålet, i g/cm³?</li><li>Vilken densitet är det i kg/m³?</li></ol>",
+    "t": "<p>Ett metallföremål har massan 240 g och volymen 30 cm³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har föremålet, i g/cm³?</div><div>b) Vilken densitet är det i kg/m³?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd densitetssambandet.</p><div class=\"facit-matte\">\\[\\rho=\\frac mV=\\frac{240}{30}=8{,}0\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Multiplicera g/cm³ med 1000.</p><div class=\"facit-matte\">\\[8{,}0\\ \\mathrm{g/cm^3}=8{,}0\\cdot10^3\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(8{,}0\\ \\mathrm{g/cm^3}=8000\\ \\mathrm{kg/m^3}\\).</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Omvandla densitetsenheter",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.0,
+      8000
+    ],
+    "tolerans": [
+      0.05,
+      20
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      "kg/m^3"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.38",
@@ -9034,16 +10128,85 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "beräkna massa ur densitet och volym, ur text, sökt massa",
     "poang": "(2/1/0)",
-    "t": "<p>Järn har densiteten 7870 kg/m³. En järnbalk har volymen 0,25 m³.</p>\n<ol><li>Vilket samband använder du?</li><li>Hur stor massa har balken?</li><li>Hur många ton är det?</li></ol>",
+    "t": "<p>Järn har densiteten 7870 kg/m³. En järnbalk har volymen 0,25 m³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilket samband använder du?</div><div>b) Hur stor massa har balken?</div><div>c) Hur många ton är det?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut massan ur \\(\\rho=m/V\\).</p><div class=\"facit-matte\">\\[m=\\rho V\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt in densitet och volym.</p><div class=\"facit-matte\">\\[m=7870\\cdot0{,}25=1967{,}5\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett ton är 1000 kg.</p><div class=\"facit-matte\">\\[m=1{,}97\\ \\mathrm{ton}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Balkens massa är cirka \\(1970\\ \\mathrm{kg}=2{,}0\\ \\mathrm{ton}\\).</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      1967.5,
+      1.97
+    ],
+    "tolerans": [
+      null,
+      5,
+      0.02
+    ],
+    "självrättning": [
+      false,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      null,
+      "kg",
+      "ton"
+    ],
+    "manuellKomplettering": [
+      true,
+      false,
+      false
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.120",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En legering består av 30 cm³ koppar och 20 cm³ zink. Koppar har densiteten 8,96 g/cm³ och zink 7,14 g/cm³. Anta att volymerna adderas.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm kopparns massa.</div><div>b) Bestäm zinkens massa.</div><div>c) Bestäm legeringens densitet.</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m_{Cu}=8{,}96\\cdot30=268{,}8\\ \\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m_{Zn}=7{,}14\\cdot20=142{,}8\\ \\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[\\rho=\\frac{268{,}8+142{,}8}{50}=8{,}232\\ \\mathrm{g/cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 268,8 g, 142,8 g och 8,23 g/cm³.</p></div>",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
+    "formaga": [
+      "procedur",
+      "problemlosning"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      268.8,
+      142.8,
+      8.232
+    ],
+    "tolerans": [
+      1,
+      1,
+      0.03
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g",
+      "g",
+      "g/cm^3"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "2.84",
@@ -9052,16 +10215,44 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "beräkna volym ur massa och densitet, ur text, sökt volym",
     "poang": "(2/1/0)",
-    "t": "<p>Aluminium har densiteten 2,70 g/cm³. Ett aluminiumföremål har massan 500 g.</p>\n<ol><li>Vilket samband använder du?</li><li>Vilken volym har föremålet?</li><li>Hur många liter är det?</li></ol>",
+    "t": "<p>Aluminium har densiteten 2,70 g/cm³. Ett aluminiumföremål har massan 500 g.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilket samband använder du?</div><div>b) Vilken volym har föremålet?</div><div>c) Hur många liter är det?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut volymen ur densitetssambandet.</p><div class=\"facit-matte\">\\[V=\\frac m\\rho\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt in massan och densiteten.</p><div class=\"facit-matte\">\\[V=\\frac{500}{2{,}70}=185\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En liter är 1000 cm³.</p><div class=\"facit-matte\">\\[V=\\frac{185}{1000}=0{,}185\\ \\mathrm l\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är cirka \\(185\\ \\mathrm{cm^3}=0{,}185\\ \\mathrm l\\).</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      185,
+      0.185
+    ],
+    "tolerans": [
+      null,
+      1,
+      0.002
+    ],
+    "självrättning": [
+      false,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      null,
+      "cm^3",
+      "l"
+    ],
+    "manuellKomplettering": [
+      true,
+      false,
+      false
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.42",
@@ -9070,16 +10261,85 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "fylla i saknade värden för densitet massa och volym, ur tabell, sökt densitet massa och volym",
     "poang": "(2/0/0)",
-    "t": "<p>Tabellen gäller fyra föremål. Ett värde saknas på varje rad.</p><table class=\"data\"><tr><th>ρ (g/cm³)</th><th>m</th><th>V</th></tr><tr><td>?</td><td>540 g</td><td>200 cm³</td></tr><tr><td>11,3</td><td>?</td><td>50 cm³</td></tr><tr><td>0,92</td><td>460 g</td><td>?</td></tr><tr><td>?</td><td>1,5 kg</td><td>0,20 dm³</td></tr></table>\n<p>Bestäm de värden som saknas.</p>",
+    "t": "<p>Tabellen gäller fyra föremål. Ett värde saknas på varje rad.</p><table class=\"data\"><tr><th>ρ (g/cm³)</th><th>m</th><th>V</th></tr><tr><td>?</td><td>540 g</td><td>200 cm³</td></tr><tr><td>11,3</td><td>?</td><td>50 cm³</td></tr><tr><td>0,92</td><td>460 g</td><td>?</td></tr><tr><td>?</td><td>1,5 kg</td><td>0,20 dm³</td></tr></table>\n<p>Ange de saknade värdena uppifrån och ned.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Rad 1</div><div>b) Rad 2</div><div>c) Rad 3</div><div>d) Rad 4</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd \\(\\rho=m/V\\) och dess omskrivningar rad för rad.</p><div class=\"facit-matte\">\\[\\rho_1=\\frac{540}{200}=2{,}70\\ \\mathrm{g/cm^3}\\]\\[m_2=11{,}3\\cdot50=565\\ \\mathrm g\\]\\[V_3=\\frac{460}{0{,}92}=500\\ \\mathrm{cm^3}\\]\\[\\rho_4=\\frac{1500\\ \\mathrm g}{200\\ \\mathrm{cm^3}}=7{,}5\\ \\mathrm{g/cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade värdena är \\(2{,}70\\ \\mathrm{g/cm^3}\\), \\(565\\ \\mathrm g\\), \\(500\\ \\mathrm{cm^3}\\) och \\(7{,}5\\ \\mathrm{g/cm^3}\\).</p></div>",
     "familj": "Massa, volym och densitet",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.7,
+      565,
+      500,
+      7.5
+    ],
+    "tolerans": [
+      0.02,
+      2,
+      2,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      "g",
+      "cm^3",
+      "g/cm^3"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.121",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Ett massivt aluminiumklot har radien 3,0 cm. Aluminium har densiteten 2,70 g/cm³. Använd \\(V=4\\pi r^3/3\\).</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm klotets volym.</div><div>b) Bestäm klotets massa.</div><div>c) Hur stor blir massan om radien fördubblas?</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[V=\\frac{4\\pi\\cdot3^3}{3}=113{,}1\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m=2{,}70\\cdot113{,}1=305{,}4\\ \\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p>Dubbel radie ger åtta gånger volym och massa.</p><div class=\"facit-matte\">\\[m_2=8\\cdot305{,}4=2443\\ \\mathrm g\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 113 cm³, 305 g och 2,44 kg.</p></div>",
+    "familj": "Densitet med geometrisk volym",
+    "formaga": [
+      "procedur",
+      "problemlosning"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      113.1,
+      305.4,
+      2443
+    ],
+    "tolerans": [
+      0.8,
+      2,
+      10
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "cm^3",
+      "g",
+      "g"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "2.26",
@@ -9088,16 +10348,44 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "beräkna volym och densitet för en kub ur sidlängd och massa, ur diagram, sökt volym och densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Figuren visar en kub av metall. Alla sidor är 5,0 cm.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 460 300\"><polygon points=\"120,150 240,150 300,110 180,110\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"120,150 120,250 240,250 240,150\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"240,150 300,110 300,210 240,250\" fill=\"#C7DCEF\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"120\" y1=\"278\" x2=\"240\" y2=\"278\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"273\" x2=\"120\" y2=\"283\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"273\" x2=\"240\" y2=\"283\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"180\" y=\"294\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><line x1=\"340\" y1=\"110\" x2=\"340\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"110\" x2=\"345\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"210\" x2=\"345\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"164\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><text x=\"180\" y=\"205\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">m = 1,05 kg</text></svg></span>\n<ol><li>Vilken volym har kuben?</li><li>Hur många gram väger den?</li><li>Vilken densitet har metallen, i g/cm³?</li><li>Vilken densitet är det i kg/m³?</li></ol>",
+    "t": "<p>Figuren visar en kub av metall. Alla sidor är 5,0 cm.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 460 300\"><polygon points=\"120,150 240,150 300,110 180,110\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"120,150 120,250 240,250 240,150\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"240,150 300,110 300,210 240,250\" fill=\"#C7DCEF\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"120\" y1=\"278\" x2=\"240\" y2=\"278\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"273\" x2=\"120\" y2=\"283\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"273\" x2=\"240\" y2=\"283\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"180\" y=\"294\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><line x1=\"340\" y1=\"110\" x2=\"340\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"110\" x2=\"345\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"335\" y1=\"210\" x2=\"345\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"348\" y=\"164\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">5,0 cm</text><text x=\"180\" y=\"205\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">m = 1,05 kg</text></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken volym har kuben?</div><div>b) Hur många gram väger den?</div><div>c) Vilken densitet har metallen, i g/cm³?</div><div>d) Vilken densitet är det i kg/m³?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kubens volym är sidan i kubik.</p><div class=\"facit-matte\">\\[V=5{,}0^3=125\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla kilogram till gram.</p><div class=\"facit-matte\">\\[1{,}05\\ \\mathrm{kg}=1050\\ \\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela massan med volymen.</p><div class=\"facit-matte\">\\[\\rho=\\frac{1050}{125}=8{,}40\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla till kg/m³.</p><div class=\"facit-matte\">\\[\\rho=8400\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är \\(125\\ \\mathrm{cm^3}\\), massan \\(1050\\ \\mathrm g\\) och densiteten \\(8{,}4\\ \\mathrm{g/cm^3}=8400\\ \\mathrm{kg/m^3}\\), nära mässing.</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      125,
+      1050,
+      8.4,
+      8400
+    ],
+    "tolerans": [
+      1,
+      5,
+      0.05,
+      20
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "cm^3",
+      "g",
+      "g/cm^3",
+      "kg/m^3"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.39",
@@ -9106,17 +10394,87 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma densitet ur lutningen i ett massa-volym-diagram, ur diagram, sökt massa och densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Diagrammet visar massan hos olika stora bitar av samma material.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"218.5\" x2=\"486\" y2=\"218.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"222.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"163.5\" x2=\"486\" y2=\"163.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"108.5\" x2=\"486\" y2=\"108.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"112.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">250</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"54\" y1=\"53.5\" x2=\"486\" y2=\"53.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"57.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">350</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">400</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><polyline points=\"54.00,246.00 486.00,26.00\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54.00\" cy=\"246.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486.00\" cy=\"26.00\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<ol><li>Hur mycket väger en bit med volymen 20 cm³?</li><li>Bestäm materialets densitet ur den avläsningen.</li><li>Bestäm densiteten ur grafens lutning och jämför.</li><li>Vad betyder det att grafen är en rät linje genom origo?</li></ol>",
+    "t": "<p>Diagrammet visar massan hos olika stora bitar av samma material.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"218.5\" x2=\"486\" y2=\"218.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"222.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"163.5\" x2=\"486\" y2=\"163.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"108.5\" x2=\"486\" y2=\"108.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"112.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">250</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"54\" y1=\"53.5\" x2=\"486\" y2=\"53.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"57.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">350</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">400</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><polyline points=\"54.00,246.00 486.00,26.00\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54.00\" cy=\"246.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486.00\" cy=\"26.00\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Hur mycket väger en bit med volymen 20 cm³?</div><div>b) Bestäm materialets densitet ur den avläsningen.</div><div>c) Bestäm densiteten ur grafens lutning och jämför.</div><div>d) Vad betyder det att grafen är en rät linje genom origo?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Avläs grafen vid \\(20\\ \\mathrm{cm^3}\\).</p><div class=\"facit-matte\">\\[m=160\\ \\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna densiteten ur den punkten.</p><div class=\"facit-matte\">\\[\\rho=\\frac{160}{20}=8{,}0\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Grafens lutning ger samma densitet.</p><div class=\"facit-matte\">\\[k=\\frac{400-0}{50-0}=8{,}0\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En rät linje genom origo visar proportionalitet.</p><div class=\"facit-matte\">\\[m=\\rho V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Massan är \\(160\\ \\mathrm g\\), och båda metoderna ger \\(\\rho=8{,}0\\ \\mathrm{g/cm^3}\\). Linjen genom origo visar att massan är proportionell mot volymen.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      160,
+      8.0,
+      8.0,
+      null
+    ],
+    "tolerans": [
+      2,
+      0.05,
+      0.05,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "svarEnhet": [
+      "g",
+      "g/cm^3",
+      "g/cm^3",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.122",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Ett rätblock av ett material med densiteten 1,20 g/cm³ har längden 25 cm, bredden 10 cm och massan 900 g.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm blockets volym.</div><div>b) Bestäm blockets höjd.</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{900}{1{,}20}=750\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[h=\\frac{750}{25\\cdot10}=3{,}0\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 750 cm³ och 3,0 cm.</p></div>",
+    "familj": "Densitet med geometrisk volym",
+    "formaga": [
+      "procedur",
+      "problemlosning"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      750,
+      3.0
+    ],
+    "tolerans": [
+      3,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "cm^3",
+      "cm"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "2.17",
@@ -9125,16 +10483,39 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "beräkna volym och densitet för ett rätblock ur måtten och massan, ur diagram, sökt volym och densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Figuren visar ett rätblock med måtten 10 cm × 6,0 cm × 4,0 cm.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 460 290\"><polygon points=\"110,180 210,180 238,152 138,152\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110,180 110,240 210,240 210,180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"210,180 238,152 238,212 210,240\" fill=\"#C7DCEF\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"110\" y1=\"268\" x2=\"210\" y2=\"268\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"263\" x2=\"110\" y2=\"273\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"210\" y1=\"263\" x2=\"210\" y2=\"273\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"160\" y=\"284\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">10 cm</text><line x1=\"278\" y1=\"152\" x2=\"278\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"273\" y1=\"152\" x2=\"283\" y2=\"152\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"273\" y1=\"212\" x2=\"283\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"286\" y=\"186\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">6,0 cm</text><text x=\"168\" y=\"144\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><text x=\"160\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">m = 288 g</text></svg></span>\n<ol><li>Vilken volym har blocket?</li><li>Vilken densitet har materialet, i g/cm³?</li><li>Vilken densitet är det i kg/m³?</li></ol>",
+    "t": "<p>Figuren visar ett rätblock med måtten 10 cm × 6,0 cm × 4,0 cm.</p><span class=\"fig fig-densitet-kompakt\"><svg preserveAspectRatio=\"xMidYMid meet\" viewBox=\"88 130 225 165\"><polygon points=\"110,180 210,180 238,152 138,152\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110,180 110,240 210,240 210,180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"210,180 238,152 238,212 210,240\" fill=\"#C7DCEF\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"110\" y1=\"268\" x2=\"210\" y2=\"268\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"110\" y1=\"263\" x2=\"110\" y2=\"273\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"210\" y1=\"263\" x2=\"210\" y2=\"273\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"160\" y=\"284\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">10 cm</text><line x1=\"278\" y1=\"152\" x2=\"278\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"273\" y1=\"152\" x2=\"283\" y2=\"152\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"273\" y1=\"212\" x2=\"283\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"286\" y=\"186\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">6,0 cm</text><text x=\"168\" y=\"144\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">4,0 cm</text><text x=\"160\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">m = 288 g</text></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken volym har blocket?</div><div>b) Vilken densitet har materialet, i g/cm³?</div><div>c) Vilken densitet är det i kg/m³?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna rätblockets volym.</p><div class=\"facit-matte\">\\[V=10\\cdot6{,}0\\cdot4{,}0=240\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela massan med volymen.</p><div class=\"facit-matte\">\\[\\rho=\\frac{288}{240}=1{,}20\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Multiplicera med 1000 för kg/m³.</p><div class=\"facit-matte\">\\[\\rho=1200\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är \\(240\\ \\mathrm{cm^3}\\) och densiteten \\(1{,}20\\ \\mathrm{g/cm^3}=1200\\ \\mathrm{kg/m^3}\\).</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      240,
+      1.2,
+      1200
+    ],
+    "tolerans": [
+      1,
+      0.02,
+      10
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "cm^3",
+      "g/cm^3",
+      "kg/m^3"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.40",
@@ -9143,16 +10524,91 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "beräkna volym och densitet för en cylinder och identifiera materialet, ur diagram, sökt volym och densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Figuren visar en cylinder med diametern 4,0 cm och höjden 12 cm. Cylinderns volym ges av V = πr²h.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 420 275\"><ellipse cx=\"180\" cy=\"70\" rx=\"22\" ry=\"7\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 158 70 L 158 200 A 22 7 0 0 0 202 200 L 202 70\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"180\" cy=\"70\" rx=\"22\" ry=\"7\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"158\" y1=\"245\" x2=\"202\" y2=\"245\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"158\" y1=\"240\" x2=\"158\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"202\" y1=\"240\" x2=\"202\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"180\" y=\"261\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">d = 4,0 cm</text><line x1=\"250\" y1=\"70\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"70\" x2=\"255\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"200\" x2=\"255\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"258\" y=\"139\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 12 cm</text><text x=\"120\" y=\"139\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">m = 405 g</text></svg></span>\n<ol><li>Vilken radie har cylindern?</li><li>Vilken volym har den?</li><li>Vilken densitet har materialet?</li><li>Aluminium har densiteten 2,70 g/cm³ och zink 7,14 g/cm³. Vilket av dem är det troligen?</li></ol>",
+    "t": "<p>Figuren visar en cylinder med diametern 4,0 cm och höjden 12 cm. Cylinderns volym ges av V = πr²h.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 420 275\"><ellipse cx=\"180\" cy=\"70\" rx=\"22\" ry=\"7\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 158 70 L 158 200 A 22 7 0 0 0 202 200 L 202 70\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"180\" cy=\"70\" rx=\"22\" ry=\"7\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"158\" y1=\"245\" x2=\"202\" y2=\"245\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"158\" y1=\"240\" x2=\"158\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"202\" y1=\"240\" x2=\"202\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"180\" y=\"261\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">d = 4,0 cm</text><line x1=\"250\" y1=\"70\" x2=\"250\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"70\" x2=\"255\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"245\" y1=\"200\" x2=\"255\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"258\" y=\"139\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 12 cm</text><text x=\"120\" y=\"139\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">m = 405 g</text></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken radie har cylindern?</div><div>b) Vilken volym har den?</div><div>c) Vilken densitet har materialet?</div><div>d) Aluminium har densiteten 2,70 g/cm³ och zink 7,14 g/cm³. Vilket av dem är det troligen?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Radien är halva diametern.</p><div class=\"facit-matte\">\\[r=\\frac d2=2{,}0\\ \\mathrm{cm}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd cylinderns volym.</p><div class=\"facit-matte\">\\[V=\\pi r^2h=\\pi\\cdot2{,}0^2\\cdot12=150{,}8\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna densiteten.</p><div class=\"facit-matte\">\\[\\rho=\\frac{405}{150{,}8}=2{,}69\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med tabellvärdena.</p><p>Värdet ligger mycket nära aluminiumets \\(2{,}70\\ \\mathrm{g/cm^3}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Radien är \\(2{,}0\\ \\mathrm{cm}\\), volymen \\(151\\ \\mathrm{cm^3}\\) och densiteten \\(2{,}69\\ \\mathrm{g/cm^3}\\). Materialet är troligen aluminium.</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.0,
+      150.8,
+      2.69,
+      null
+    ],
+    "tolerans": [
+      0.02,
+      1,
+      0.03,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm^3",
+      "g/cm^3",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.123",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En vätska hälls i en tom burk. När vätskevolymen är 40 cm³ visar vågen 80 g. När volymen är 100 cm³ visar vågen 128 g.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm vätskans densitet.</div><div>b) Bestäm den tomma burkens massa.</div><div>c) Vad skulle vågen visa vid 70 cm³ vätska?</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p>Bägarens massa är konstant och försvinner när mätningarna subtraheras.</p><div class=\"facit-matte\">\\[\\rho=\\frac{128-80}{100-40}=0{,}80\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m_b=80-0{,}80\\cdot40=48\\ \\mathrm g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[m=48+0{,}80\\cdot70=104\\ \\mathrm g\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,80 g/cm³, 48 g och 104 g.</p></div>",
+    "familj": "Massa, volym och densitet",
+    "formaga": [
+      "procedur",
+      "problemlosning"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.8,
+      48,
+      104
+    ],
+    "tolerans": [
+      0.02,
+      1,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      "g",
+      "g"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "2.24",
@@ -9161,16 +10617,50 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma en vätskas densitet ur avläst volym och uppmätt massa, ur diagram, sökt volym och densitet",
     "poang": "(2/1/0)",
-    "t": "<p>En vätska hälls i ett mätglas enligt figuren. Vätskan väger 197 g, glaset oräknat.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 280\"><rect x=\"109\" y=\"130\" width=\"102\" height=\"97\" fill=\"#DCE6F2\"/><path d=\"M 106 40 L 106 230 L 214 230 L 214 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><line x1=\"109\" y1=\"130\" x2=\"211\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"106\" y1=\"190\" x2=\"120\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"98\" y=\"194\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"106\" y1=\"150\" x2=\"120\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"98\" y=\"154\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"106\" y1=\"110\" x2=\"120\" y2=\"110\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"98\" y=\"114\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><text x=\"160\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">volym i ml</text></svg></span>\n<ol><li>Hur många milliliter vätska finns i mätglaset?</li><li>Hur många kubikcentimeter är det?</li><li>Vilken densitet har vätskan?</li><li>Etanol har densiteten 0,789 g/cm³ och vatten 0,998 g/cm³. Vilken vätska är det troligen?</li></ol>",
+    "t": "<p>En vätska hälls i ett mätglas enligt figuren. Vätskan väger 197 g, glaset oräknat.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 280\"><rect x=\"109\" y=\"130\" width=\"102\" height=\"97\" fill=\"#DCE6F2\"/><path d=\"M 106 40 L 106 230 L 214 230 L 214 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><line x1=\"109\" y1=\"130\" x2=\"211\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"106\" y1=\"190\" x2=\"120\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"98\" y=\"194\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"106\" y1=\"150\" x2=\"120\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"98\" y=\"154\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"106\" y1=\"110\" x2=\"120\" y2=\"110\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><text x=\"98\" y=\"114\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><text x=\"160\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">volym i ml</text></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Hur många milliliter vätska finns i mätglaset?</div><div>b) Hur många kubikcentimeter är det?</div><div>c) Vilken densitet har vätskan?</div><div>d) Etanol har densiteten 0,789 g/cm³ och vatten 0,998 g/cm³. Vilken vätska är det troligen?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Läs av vätskeytan och använd \\(1\\ \\mathrm{ml}=1\\ \\mathrm{cm^3}\\).</p><div class=\"facit-matte\">\\[V=250\\ \\mathrm{ml}=250\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela vätskans massa med volymen.</p><div class=\"facit-matte\">\\[\\rho=\\frac{197}{250}=0{,}788\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med de givna densiteterna.</p><p>Värdet ligger nära etanolens \\(0{,}789\\ \\mathrm{g/cm^3}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är \\(250\\ \\mathrm{ml}=250\\ \\mathrm{cm^3}\\), densiteten \\(0{,}788\\ \\mathrm{g/cm^3}\\), och vätskan är troligen etanol.</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      250,
+      250,
+      0.788,
+      null
+    ],
+    "tolerans": [
+      2,
+      2,
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "svarEnhet": [
+      "ml",
+      "cm^3",
+      "g/cm^3",
+      null
+    ],
+    "manuellKomplettering": [
+      false,
+      false,
+      false,
+      true
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.88",
@@ -9181,7 +10671,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "poang": "(1/2/0)",
     "t": "<p>Diagrammet visar massan som funktion av volymen för två olika material, A och B.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"218.5\" x2=\"486\" y2=\"218.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"222.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"163.5\" x2=\"486\" y2=\"163.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"54\" y1=\"108.5\" x2=\"486\" y2=\"108.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"112.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">250</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"54\" y1=\"53.5\" x2=\"486\" y2=\"53.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"57.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">350</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">400</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">m (g)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">V (cm³)</text><polyline points=\"54.00,246.00 486.00,26.00\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54.00\" cy=\"246.00\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486.00\" cy=\"26.00\" r=\"3.3\" fill=\"#B43123\"/><text x=\"480\" y=\"16\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">A</text><polyline points=\"54.00,246.00 486.00,218.50\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54.00\" cy=\"246.00\" r=\"3.3\" fill=\"#2A5D9E\"/><circle cx=\"486.00\" cy=\"218.50\" r=\"3.3\" fill=\"#2A5D9E\"/><text x=\"480\" y=\"208.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">B</text></svg></span>\n<p>Bestäm densiteten för båda materialen och avgör vilka de troligen är. Järn har densiteten 7,87 g/cm³, vatten 0,998 g/cm³ och aluminium 2,70 g/cm³.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">A</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Densiteten är linjens lutning.</p><div class=\"facit-matte\">\\[\\rho_A=\\frac{400}{50}=8{,}0\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">B</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gör samma avläsning för B.</p><div class=\"facit-matte\">\\[\\rho_B=\\frac{50}{50}=1{,}0\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med tabellvärdena.</p><p>A ligger nära järn och B nära vatten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> A har densiteten \\(8{,}0\\ \\mathrm{g/cm^3}\\) och är troligen järn. B har densiteten \\(1{,}0\\ \\mathrm{g/cm^3}\\) och är troligen vatten.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
@@ -9189,6 +10679,47 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false
+  },
+  {
+    "id": "2.124",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Ett föremål har massan 1,80 kg och volymen 2,00 dm³. Vatten har densiteten 998 kg/m³ och en olja 850 kg/m³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm föremålets medeldensitet.</div><div>b) Hur mycket lägre är densiteten än vattnets?</div><div>c) Hur mycket högre är densiteten än oljans?</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p>2,00 dm³ = 0,00200 m³.</p><div class=\"facit-matte\">\\[\\rho=\\frac{1{,}80}{0{,}00200}=900\\ \\mathrm{kg/m^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[998-900=98\\ \\mathrm{kg/m^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[900-850=50\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 900 kg/m³, 98 kg/m³ under vatten och 50 kg/m³ över oljan.</p></div>",
+    "familj": "Densitet och flytförmåga",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      900,
+      98,
+      50
+    ],
+    "tolerans": [
+      5,
+      2,
+      2
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "kg/m^3",
+      "kg/m^3",
+      "kg/m^3"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "2.81",
@@ -9204,9 +10735,10 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": "2.6",
-    "tolerans": 0.051000000000000004,
-    "självrättning": true
+    "rättSvar": 2.64,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "svarEnhet": "g/cm^3"
   },
   {
     "id": "2.37",
@@ -9217,15 +10749,73 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "poang": "(1/2/0)",
     "t": "<p>En kula av järn har massan 1,2 kg och volymen 0,30 dm³. Järn har densiteten 7,87 g/cm³.</p>\n<p>Visa att kulan måste vara ihålig och bestäm hålrummets volym.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna först kulans medeldensitet.</p><div class=\"facit-matte\">\\[m=1200\\ \\mathrm g,\\qquad V=0{,}30\\ \\mathrm{dm^3}=300\\ \\mathrm{cm^3}\\]\\[\\rho_{\\mathrm{medel}}=\\frac{1200}{300}=4{,}0\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Medeldensiteten är lägre än järnets, så kulan måste innehålla tomrum. Beräkna järnets egen volym.</p><div class=\"facit-matte\">\\[V_{\\mathrm{järn}}=\\frac{1200}{7{,}87}=152{,}5\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Subtrahera från kulans yttervolym.</p><div class=\"facit-matte\">\\[V_{\\mathrm{hål}}=300-152{,}5=147{,}5\\ \\mathrm{cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kulan måste vara ihålig eftersom medeldensiteten bara är \\(4{,}0\\ \\mathrm{g/cm^3}\\). Hålrummet är cirka \\(148\\ \\mathrm{cm^3}\\).</p></div>",
-    "familj": "Sammansatt densitet",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.0,
+      147.5
+    ],
+    "tolerans": [
+      0.05,
+      1
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      "cm^3"
+    ],
+    "manuellKomplettering": [
+      true,
+      false
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.125",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Två massiva klot har samma massa. Klot A har densiteten 8,0 g/cm³ och klot B 1,0 g/cm³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Hur många gånger större volym har B än A?</div><div>b) Hur många gånger större radie har B än A?</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p>Vid samma massa är volymen omvänt proportionell mot densiteten.</p><div class=\"facit-matte\">\\[\\frac{V_B}{V_A}=\\frac{8{,}0}{1{,}0}=8\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p>För klot gäller \\(V\\propto r^3\\).</p><div class=\"facit-matte\">\\[\\frac{r_B}{r_A}=\\sqrt[3]{8}=2\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är 8 gånger större och radien 2 gånger större.</p></div>",
+    "familj": "Densitet med geometrisk volym",
+    "formaga": [
+      "begrepp",
+      "problemlosning"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      2
+    ],
+    "tolerans": [
+      0.05,
+      0.02
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "2.18",
@@ -9236,15 +10826,16 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "poang": "(1/2/0)",
     "t": "<p>Mässing tillverkas av koppar och zink. En bit mässing innehåller 200 g koppar och 100 g zink. Koppar har densiteten 8,96 g/cm³ och zink 7,14 g/cm³. Volymerna kan antas adderas.</p>\n<p>Vilken densitet har mässingen?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna de båda metallernas volymer var för sig.</p><div class=\"facit-matte\">\\[V_{\\mathrm{Cu}}=\\frac{200}{8{,}96}=22{,}32\\ \\mathrm{cm^3}\\]\\[V_{\\mathrm{Zn}}=\\frac{100}{7{,}14}=14{,}01\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Addera massor och volymer och beräkna blandningens densitet.</p><div class=\"facit-matte\">\\[m=300\\ \\mathrm g,\\qquad V=36{,}33\\ \\mathrm{cm^3}\\]\\[\\rho=\\frac{300}{36{,}33}=8{,}26\\ \\mathrm{g/cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Mässingens densitet blir cirka \\(8{,}26\\ \\mathrm{g/cm^3}\\).</p></div>",
-    "familj": "Sammansatt densitet",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.26,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "svarEnhet": "g/cm^3"
   },
   {
     "id": "2.2",
@@ -9253,16 +10844,75 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "C",
     "typ": "undersöka hur massan ändras när ett föremål skalas upp med bibehållet material, ur text, sökt densitet och massa",
     "poang": "(1/2/0)",
-    "t": "<p>En kub med sidan 2,0 cm är gjord av en metall och väger 84 g.</p>\n<ol><li>Vilken densitet har metallen?</li>\n<li>Hur mycket väger en kub av samma metall med sidan 4,0 cm?</li></ol>",
+    "t": "<p>En kub med sidan 2,0 cm är gjord av en metall och väger 84 g.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har metallen?</div><div>b) Hur mycket väger en kub av samma metall med sidan 4,0 cm?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna den lilla kubens volym och densitet.</p><div class=\"facit-matte\">\\[V_1=2{,}0^3=8{,}0\\ \\mathrm{cm^3}\\]\\[\\rho=\\frac{84}{8{,}0}=10{,}5\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den större kuben har dubbel sida och därmed åtta gånger större volym.</p><div class=\"facit-matte\">\\[V_2=4{,}0^3=64\\ \\mathrm{cm^3}\\]\\[m_2=\\rho V_2=10{,}5\\cdot64=672\\ \\mathrm g\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(10{,}5\\ \\mathrm{g/cm^3}\\), nära silver. Kuben med sidan \\(4{,}0\\ \\mathrm{cm}\\) väger \\(672\\ \\mathrm g\\).</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.5,
+      672
+    ],
+    "tolerans": [
+      0.05,
+      2
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      "g"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.126",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En ihålig mässingskropp har yttervolymen 250 cm³ och massan 1680 g. Mässingens densitet är 8,4 g/cm³.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Bestäm kroppens medeldensitet.</div><div>b) Bestäm hur stor volym mässingen upptar.</div><div>c) Bestäm hålrummets volym.</div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[\\rho_{medel}=\\frac{1680}{250}=6{,}72\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[V_{mässing}=\\frac{1680}{8{,}4}=200\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[V_{hål}=250-200=50\\ \\mathrm{cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6,72 g/cm³, 200 cm³ mässing och 50 cm³ hålrum.</p></div>",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
+    "formaga": [
+      "procedur",
+      "problemlosning"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.72,
+      200,
+      50
+    ],
+    "tolerans": [
+      0.03,
+      1,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "g/cm^3",
+      "cm^3",
+      "cm^3"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "2.85",
@@ -9271,7 +10921,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "C",
     "typ": "beräkna luftens massa i ett rum och jämföra med vatten, ur text, sökt volym och massa",
     "poang": "(1/2/0)",
-    "t": "<p>Ett rum är 4,0 m långt, 5,0 m brett och 2,5 m högt. Luft har densiteten 1,29 kg/m³ och vatten 1000 kg/m³.</p>\n<ol><li>Hur mycket väger luften i rummet?</li>\n<li>Hur mycket skulle innehållet väga om rummet i stället var fyllt med vatten?</li></ol>",
+    "t": "<p>Ett rum är 4,0 m långt, 5,0 m brett och 2,5 m högt. Luft har densiteten 1,29 kg/m³ och vatten 1000 kg/m³.</p>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Hur mycket väger luften i rummet?</div><div>b) Hur mycket skulle innehållet väga om rummet i stället var fyllt med vatten?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna först rummets volym och sedan luftens massa.</p><div class=\"facit-matte\">\\[V=4{,}0\\cdot5{,}0\\cdot2{,}5=50\\ \\mathrm{m^3}\\]\\[m_{\\mathrm{luft}}=1{,}29\\cdot50=64{,}5\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd samma volym men vattnets densitet.</p><div class=\"facit-matte\">\\[m_{\\mathrm{vatten}}=1000\\cdot50=5{,}0\\cdot10^4\\ \\mathrm{kg}=50\\ \\mathrm{ton}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Luften väger cirka \\(65\\ \\mathrm{kg}\\). Samma rum fyllt med vatten skulle innehålla \\(50\\,000\\ \\mathrm{kg}=50\\ \\mathrm{ton}\\).</p></div>",
     "familj": "Densitet med geometrisk volym",
     "formaga": [
@@ -9279,14 +10929,26 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "65",
-      "50"
+      64.5,
+      50000
     ],
     "tolerans": [
-      0.51,
-      0.51
+      1,
+      100
     ],
-    "självrättning": true
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarEnhet": [
+      "kg",
+      "kg"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.92",
@@ -9295,16 +10957,18 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma densitet ur lutningen i ett massa-volym-diagram och identifiera ämnet, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Elias har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har han fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.31\" x2=\"486\" y2=\"193.31\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"188.63\" x2=\"486\" y2=\"188.63\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"183.94\" x2=\"486\" y2=\"183.94\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"179.26\" x2=\"486\" y2=\"179.26\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"174.57\" x2=\"486\" y2=\"174.57\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"169.89\" x2=\"486\" y2=\"169.89\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"160.51\" x2=\"486\" y2=\"160.51\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"155.83\" x2=\"486\" y2=\"155.83\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"151.14\" x2=\"486\" y2=\"151.14\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"146.46\" x2=\"486\" y2=\"146.46\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"141.77\" x2=\"486\" y2=\"141.77\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"137.09\" x2=\"486\" y2=\"137.09\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"127.71\" x2=\"486\" y2=\"127.71\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"123.03\" x2=\"486\" y2=\"123.03\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"118.34\" x2=\"486\" y2=\"118.34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"113.66\" x2=\"486\" y2=\"113.66\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"108.97\" x2=\"486\" y2=\"108.97\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"104.29\" x2=\"486\" y2=\"104.29\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"94.91\" x2=\"486\" y2=\"94.91\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"90.23\" x2=\"486\" y2=\"90.23\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"85.54\" x2=\"486\" y2=\"85.54\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"80.86\" x2=\"486\" y2=\"80.86\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"76.17\" x2=\"486\" y2=\"76.17\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"71.49\" x2=\"486\" y2=\"71.49\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"62.11\" x2=\"486\" y2=\"62.11\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"57.43\" x2=\"486\" y2=\"57.43\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"52.74\" x2=\"486\" y2=\"52.74\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"48.06\" x2=\"486\" y2=\"48.06\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"43.37\" x2=\"486\" y2=\"43.37\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"38.69\" x2=\"486\" y2=\"38.69\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"174.57\" x2=\"486\" y2=\"174.57\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"151.14\" x2=\"486\" y2=\"151.14\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"127.71\" x2=\"486\" y2=\"127.71\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"104.29\" x2=\"486\" y2=\"104.29\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"80.86\" x2=\"486\" y2=\"80.86\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"57.43\" x2=\"486\" y2=\"57.43\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">12</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">16</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"178.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"155.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"131.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"108.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"84.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"61.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,169.42 149.1,174.92 143.6,180.42 138.1,174.92\" fill=\"#2B2527\"/><polygon points=\"229.2,144.24 234.7,149.74 229.2,155.24 223.7,149.74\" fill=\"#2B2527\"/><polygon points=\"314.8,110.03 320.3,115.53 314.8,121.03 309.3,115.53\" fill=\"#2B2527\"/><polygon points=\"400.4,81.45 405.9,86.95 400.4,92.45 394.9,86.95\" fill=\"#2B2527\"/><polygon points=\"486,76.29 491.5,81.79 486,87.29 480.5,81.79\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken densitet har ämnet?</li>\n<li>Vilket ämne skulle det kunna vara? Använd en densitetstabell.</li></ol>",
+    "t": "<p>Elias har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har han fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.31\" x2=\"486\" y2=\"193.31\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"188.63\" x2=\"486\" y2=\"188.63\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"183.94\" x2=\"486\" y2=\"183.94\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"179.26\" x2=\"486\" y2=\"179.26\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"174.57\" x2=\"486\" y2=\"174.57\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"169.89\" x2=\"486\" y2=\"169.89\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"160.51\" x2=\"486\" y2=\"160.51\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"155.83\" x2=\"486\" y2=\"155.83\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"151.14\" x2=\"486\" y2=\"151.14\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"146.46\" x2=\"486\" y2=\"146.46\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"141.77\" x2=\"486\" y2=\"141.77\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"137.09\" x2=\"486\" y2=\"137.09\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"127.71\" x2=\"486\" y2=\"127.71\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"123.03\" x2=\"486\" y2=\"123.03\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"118.34\" x2=\"486\" y2=\"118.34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"113.66\" x2=\"486\" y2=\"113.66\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"108.97\" x2=\"486\" y2=\"108.97\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"104.29\" x2=\"486\" y2=\"104.29\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"94.91\" x2=\"486\" y2=\"94.91\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"90.23\" x2=\"486\" y2=\"90.23\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"85.54\" x2=\"486\" y2=\"85.54\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"80.86\" x2=\"486\" y2=\"80.86\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"76.17\" x2=\"486\" y2=\"76.17\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"71.49\" x2=\"486\" y2=\"71.49\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"62.11\" x2=\"486\" y2=\"62.11\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"57.43\" x2=\"486\" y2=\"57.43\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"52.74\" x2=\"486\" y2=\"52.74\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"48.06\" x2=\"486\" y2=\"48.06\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"43.37\" x2=\"486\" y2=\"43.37\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"38.69\" x2=\"486\" y2=\"38.69\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"174.57\" x2=\"486\" y2=\"174.57\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"151.14\" x2=\"486\" y2=\"151.14\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"127.71\" x2=\"486\" y2=\"127.71\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"104.29\" x2=\"486\" y2=\"104.29\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"80.86\" x2=\"486\" y2=\"80.86\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"57.43\" x2=\"486\" y2=\"57.43\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">12</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">16</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"178.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"155.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"131.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"108.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"84.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"61.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,169.42 149.1,174.92 143.6,180.42 138.1,174.92\" fill=\"#2B2527\"/><polygon points=\"229.2,144.24 234.7,149.74 229.2,155.24 223.7,149.74\" fill=\"#2B2527\"/><polygon points=\"314.8,110.03 320.3,115.53 314.8,121.03 309.3,115.53\" fill=\"#2B2527\"/><polygon points=\"400.4,81.45 405.9,86.95 400.4,92.45 394.9,86.95\" fill=\"#2B2527\"/><polygon points=\"486,76.29 491.5,81.79 486,87.29 480.5,81.79\" fill=\"#2B2527\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har ämnet?</div><div>b) Vilket ämne skulle det kunna vara? Använd en densitetstabell.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna ligger inte exakt på en rät linje, eftersom varje vägning och volymmätning har en osäkerhet. Dra därför en rät linje genom origo som följer punkterna så bra som möjligt, och läs av en punkt långt ut på den linjen. Densiteten är linjens lutning.</p><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{54\\ \\mathrm g}{20\\ \\mathrm{cm^3}}=2{,}70\\ \\mathrm{g/cm^3}\\]</div><p>Räknar man i stället ut \\(m/V\\) för varje enskild punkt hamnar värdena mellan 2,46 och 2,96 g/cm³. Det är just därför man anpassar en linje till alla punkterna i stället för att lita på en enda mätning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför värdet med en densitetstabell. Aluminium har \\(2{,}70\\ \\mathrm{g/cm^3}\\), vilket stämmer med det uppmätta värdet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(2{,}70\\ \\mathrm{g/cm^3}\\). Ämnet kan vara aluminium.</p><p class=\"facit-not\">Marmor ligger på nästan samma värde, 2,7 g/cm³. Densiteten ensam räcker alltså inte alltid för att avgöra vilket ämne det är.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.93",
@@ -9313,16 +10977,18 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma densitet ur lutningen i ett massa-volym-diagram och identifiera ämnet, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Saga har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har hon fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.9\" x2=\"486\" y2=\"193.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"189.8\" x2=\"486\" y2=\"189.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"185.7\" x2=\"486\" y2=\"185.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"177.5\" x2=\"486\" y2=\"177.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"173.4\" x2=\"486\" y2=\"173.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"169.3\" x2=\"486\" y2=\"169.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.1\" x2=\"486\" y2=\"161.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"157\" x2=\"486\" y2=\"157\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.9\" x2=\"486\" y2=\"152.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"144.7\" x2=\"486\" y2=\"144.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"140.6\" x2=\"486\" y2=\"140.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"136.5\" x2=\"486\" y2=\"136.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"128.3\" x2=\"486\" y2=\"128.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"124.2\" x2=\"486\" y2=\"124.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"120.1\" x2=\"486\" y2=\"120.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"111.9\" x2=\"486\" y2=\"111.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"107.8\" x2=\"486\" y2=\"107.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"103.7\" x2=\"486\" y2=\"103.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"95.5\" x2=\"486\" y2=\"95.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"91.4\" x2=\"486\" y2=\"91.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"87.3\" x2=\"486\" y2=\"87.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.1\" x2=\"486\" y2=\"79.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"75\" x2=\"486\" y2=\"75\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.9\" x2=\"486\" y2=\"70.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"62.7\" x2=\"486\" y2=\"62.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"58.6\" x2=\"486\" y2=\"58.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"54.5\" x2=\"486\" y2=\"54.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"46.3\" x2=\"486\" y2=\"46.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"42.2\" x2=\"486\" y2=\"42.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"38.1\" x2=\"486\" y2=\"38.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"177.5\" x2=\"486\" y2=\"177.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"157\" x2=\"486\" y2=\"157\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"136.5\" x2=\"486\" y2=\"136.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"95.5\" x2=\"486\" y2=\"95.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"75\" x2=\"486\" y2=\"75\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"54.5\" x2=\"486\" y2=\"54.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">2</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">6</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"181.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"161\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"140.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"99.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"79\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"58.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,165.85 149.1,171.35 143.6,176.85 138.1,171.35\" fill=\"#2B2527\"/><polygon points=\"229.2,138.59 234.7,144.09 229.2,149.59 223.7,144.09\" fill=\"#2B2527\"/><polygon points=\"314.8,100.86 320.3,106.36 314.8,111.86 309.3,106.36\" fill=\"#2B2527\"/><polygon points=\"400.4,65.4 405.9,70.9 400.4,76.4 394.9,70.9\" fill=\"#2B2527\"/><polygon points=\"486,60.28 491.5,65.78 486,71.28 480.5,65.78\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken densitet har ämnet?</li>\n<li>Vilket ämne skulle det kunna vara? Använd en densitetstabell.</li></ol>",
+    "t": "<p>Saga har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har hon fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.9\" x2=\"486\" y2=\"193.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"189.8\" x2=\"486\" y2=\"189.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"185.7\" x2=\"486\" y2=\"185.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"177.5\" x2=\"486\" y2=\"177.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"173.4\" x2=\"486\" y2=\"173.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"169.3\" x2=\"486\" y2=\"169.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.1\" x2=\"486\" y2=\"161.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"157\" x2=\"486\" y2=\"157\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.9\" x2=\"486\" y2=\"152.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"144.7\" x2=\"486\" y2=\"144.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"140.6\" x2=\"486\" y2=\"140.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"136.5\" x2=\"486\" y2=\"136.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"128.3\" x2=\"486\" y2=\"128.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"124.2\" x2=\"486\" y2=\"124.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"120.1\" x2=\"486\" y2=\"120.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"111.9\" x2=\"486\" y2=\"111.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"107.8\" x2=\"486\" y2=\"107.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"103.7\" x2=\"486\" y2=\"103.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"95.5\" x2=\"486\" y2=\"95.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"91.4\" x2=\"486\" y2=\"91.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"87.3\" x2=\"486\" y2=\"87.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.1\" x2=\"486\" y2=\"79.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"75\" x2=\"486\" y2=\"75\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.9\" x2=\"486\" y2=\"70.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"62.7\" x2=\"486\" y2=\"62.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"58.6\" x2=\"486\" y2=\"58.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"54.5\" x2=\"486\" y2=\"54.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"46.3\" x2=\"486\" y2=\"46.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"42.2\" x2=\"486\" y2=\"42.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"38.1\" x2=\"486\" y2=\"38.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"177.5\" x2=\"486\" y2=\"177.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"157\" x2=\"486\" y2=\"157\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"136.5\" x2=\"486\" y2=\"136.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"95.5\" x2=\"486\" y2=\"95.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"75\" x2=\"486\" y2=\"75\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"54.5\" x2=\"486\" y2=\"54.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">2</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">6</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"181.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"161\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"140.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"99.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"79\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"58.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,165.85 149.1,171.35 143.6,176.85 138.1,171.35\" fill=\"#2B2527\"/><polygon points=\"229.2,138.59 234.7,144.09 229.2,149.59 223.7,144.09\" fill=\"#2B2527\"/><polygon points=\"314.8,100.86 320.3,106.36 314.8,111.86 309.3,106.36\" fill=\"#2B2527\"/><polygon points=\"400.4,65.4 405.9,70.9 400.4,76.4 394.9,70.9\" fill=\"#2B2527\"/><polygon points=\"486,60.28 491.5,65.78 486,71.28 480.5,65.78\" fill=\"#2B2527\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har ämnet?</div><div>b) Vilket ämne skulle det kunna vara? Använd en densitetstabell.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna ligger inte exakt på en rät linje, eftersom varje vägning och volymmätning har en osäkerhet. Dra därför en rät linje genom origo som följer punkterna så bra som möjligt, och läs av en punkt långt ut på den linjen. Densiteten är linjens lutning.</p><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{70\\ \\mathrm g}{10\\ \\mathrm{cm^3}}=7{,}00\\ \\mathrm{g/cm^3}\\]</div><p>Räknar man i stället ut \\(m/V\\) för varje enskild punkt hamnar värdena mellan 6,45 och 7,75 g/cm³. Det är just därför man anpassar en linje till alla punkterna i stället för att lita på en enda mätning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför värdet med en densitetstabell. Zink har \\(7{,}10\\ \\mathrm{g/cm^3}\\), vilket stämmer med det uppmätta värdet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(7{,}00\\ \\mathrm{g/cm^3}\\). Ämnet kan vara zink.</p><p class=\"facit-not\">Avvikelsen från tabellvärdet är drygt en procent, vilket ligger väl inom mätnoggrannheten för den här typen av mätning.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.94",
@@ -9331,16 +10997,18 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma densitet ur lutningen i ett massa-volym-diagram och identifiera ämnet, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Milo har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har han fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"75.12\" y1=\"34\" x2=\"75.12\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"92.24\" y1=\"34\" x2=\"92.24\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"109.36\" y1=\"34\" x2=\"109.36\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"126.48\" y1=\"34\" x2=\"126.48\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"160.72\" y1=\"34\" x2=\"160.72\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"177.84\" y1=\"34\" x2=\"177.84\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"194.96\" y1=\"34\" x2=\"194.96\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"212.08\" y1=\"34\" x2=\"212.08\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"246.32\" y1=\"34\" x2=\"246.32\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"263.44\" y1=\"34\" x2=\"263.44\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"280.56\" y1=\"34\" x2=\"280.56\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"297.68\" y1=\"34\" x2=\"297.68\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"331.92\" y1=\"34\" x2=\"331.92\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"349.04\" y1=\"34\" x2=\"349.04\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"366.16\" y1=\"34\" x2=\"366.16\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"383.28\" y1=\"34\" x2=\"383.28\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"417.52\" y1=\"34\" x2=\"417.52\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"434.64\" y1=\"34\" x2=\"434.64\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"451.76\" y1=\"34\" x2=\"451.76\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"468.88\" y1=\"34\" x2=\"468.88\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"191.44\" x2=\"486\" y2=\"191.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"184.88\" x2=\"486\" y2=\"184.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178.32\" x2=\"486\" y2=\"178.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"171.76\" x2=\"486\" y2=\"171.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"158.64\" x2=\"486\" y2=\"158.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.08\" x2=\"486\" y2=\"152.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"145.52\" x2=\"486\" y2=\"145.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"138.96\" x2=\"486\" y2=\"138.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"125.84\" x2=\"486\" y2=\"125.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"119.28\" x2=\"486\" y2=\"119.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"112.72\" x2=\"486\" y2=\"112.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106.16\" x2=\"486\" y2=\"106.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"93.04\" x2=\"486\" y2=\"93.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"86.48\" x2=\"486\" y2=\"86.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.92\" x2=\"486\" y2=\"79.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"73.36\" x2=\"486\" y2=\"73.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"60.24\" x2=\"486\" y2=\"60.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"53.68\" x2=\"486\" y2=\"53.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"47.12\" x2=\"486\" y2=\"47.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"40.56\" x2=\"486\" y2=\"40.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"169.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"136.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"103.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"70.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,164.36 149.1,169.86 143.6,175.36 138.1,169.86\" fill=\"#2B2527\"/><polygon points=\"229.2,135.43 234.7,140.93 229.2,146.43 223.7,140.93\" fill=\"#2B2527\"/><polygon points=\"314.8,119.68 320.3,125.18 314.8,130.68 309.3,125.18\" fill=\"#2B2527\"/><polygon points=\"400.4,96.72 405.9,102.22 400.4,107.72 394.9,102.22\" fill=\"#2B2527\"/><polygon points=\"486,52.44 491.5,57.94 486,63.44 480.5,57.94\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken densitet har ämnet?</li>\n<li>Vilket ämne skulle det kunna vara? Använd en densitetstabell.</li></ol>",
+    "t": "<p>Milo har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har han fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"75.12\" y1=\"34\" x2=\"75.12\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"92.24\" y1=\"34\" x2=\"92.24\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"109.36\" y1=\"34\" x2=\"109.36\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"126.48\" y1=\"34\" x2=\"126.48\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"160.72\" y1=\"34\" x2=\"160.72\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"177.84\" y1=\"34\" x2=\"177.84\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"194.96\" y1=\"34\" x2=\"194.96\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"212.08\" y1=\"34\" x2=\"212.08\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"246.32\" y1=\"34\" x2=\"246.32\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"263.44\" y1=\"34\" x2=\"263.44\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"280.56\" y1=\"34\" x2=\"280.56\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"297.68\" y1=\"34\" x2=\"297.68\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"331.92\" y1=\"34\" x2=\"331.92\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"349.04\" y1=\"34\" x2=\"349.04\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"366.16\" y1=\"34\" x2=\"366.16\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"383.28\" y1=\"34\" x2=\"383.28\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"417.52\" y1=\"34\" x2=\"417.52\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"434.64\" y1=\"34\" x2=\"434.64\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"451.76\" y1=\"34\" x2=\"451.76\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"468.88\" y1=\"34\" x2=\"468.88\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"191.44\" x2=\"486\" y2=\"191.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"184.88\" x2=\"486\" y2=\"184.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178.32\" x2=\"486\" y2=\"178.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"171.76\" x2=\"486\" y2=\"171.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"158.64\" x2=\"486\" y2=\"158.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.08\" x2=\"486\" y2=\"152.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"145.52\" x2=\"486\" y2=\"145.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"138.96\" x2=\"486\" y2=\"138.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"125.84\" x2=\"486\" y2=\"125.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"119.28\" x2=\"486\" y2=\"119.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"112.72\" x2=\"486\" y2=\"112.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106.16\" x2=\"486\" y2=\"106.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"93.04\" x2=\"486\" y2=\"93.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"86.48\" x2=\"486\" y2=\"86.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.92\" x2=\"486\" y2=\"79.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"73.36\" x2=\"486\" y2=\"73.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"60.24\" x2=\"486\" y2=\"60.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"53.68\" x2=\"486\" y2=\"53.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"47.12\" x2=\"486\" y2=\"47.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"40.56\" x2=\"486\" y2=\"40.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"169.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"136.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"103.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"70.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,164.36 149.1,169.86 143.6,175.36 138.1,169.86\" fill=\"#2B2527\"/><polygon points=\"229.2,135.43 234.7,140.93 229.2,146.43 223.7,140.93\" fill=\"#2B2527\"/><polygon points=\"314.8,119.68 320.3,125.18 314.8,130.68 309.3,125.18\" fill=\"#2B2527\"/><polygon points=\"400.4,96.72 405.9,102.22 400.4,107.72 394.9,102.22\" fill=\"#2B2527\"/><polygon points=\"486,52.44 491.5,57.94 486,63.44 480.5,57.94\" fill=\"#2B2527\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har ämnet?</div><div>b) Vilket ämne skulle det kunna vara? Använd en densitetstabell.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna ligger inte exakt på en rät linje, eftersom varje vägning och volymmätning har en osäkerhet. Dra därför en rät linje genom origo som följer punkterna så bra som möjligt, och läs av en punkt långt ut på den linjen. Densiteten är linjens lutning.</p><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{40\\ \\mathrm g}{50\\ \\mathrm{cm^3}}=0{,}80\\ \\mathrm{g/cm^3}\\]</div><p>Räknar man i stället ut \\(m/V\\) för varje enskild punkt hamnar värdena mellan 0,73 och 0,87 g/cm³. Det är just därför man anpassar en linje till alla punkterna i stället för att lita på en enda mätning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför värdet med en densitetstabell. Etanol har \\(0{,}79\\ \\mathrm{g/cm^3}\\), vilket stämmer med det uppmätta värdet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(0{,}80\\ \\mathrm{g/cm^3}\\). Ämnet kan vara etanol.</p><p class=\"facit-not\">Densiteten är lägre än vattnets 1,00 g/cm³, vilket stämmer med att etanol lägger sig ovanpå vatten om man häller försiktigt.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.95",
@@ -9349,16 +11017,18 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma densitet ur lutningen i ett massa-volym-diagram och identifiera ämnet, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Alva har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har hon fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"192.53\" x2=\"486\" y2=\"192.53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"187.07\" x2=\"486\" y2=\"187.07\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"176.13\" x2=\"486\" y2=\"176.13\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"170.67\" x2=\"486\" y2=\"170.67\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"159.73\" x2=\"486\" y2=\"159.73\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"154.27\" x2=\"486\" y2=\"154.27\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"137.87\" x2=\"486\" y2=\"137.87\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"126.93\" x2=\"486\" y2=\"126.93\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"121.47\" x2=\"486\" y2=\"121.47\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"110.53\" x2=\"486\" y2=\"110.53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"105.07\" x2=\"486\" y2=\"105.07\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"94.13\" x2=\"486\" y2=\"94.13\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"77.73\" x2=\"486\" y2=\"77.73\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"72.27\" x2=\"486\" y2=\"72.27\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"61.33\" x2=\"486\" y2=\"61.33\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"55.87\" x2=\"486\" y2=\"55.87\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"44.93\" x2=\"486\" y2=\"44.93\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"39.47\" x2=\"486\" y2=\"39.47\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"170.67\" x2=\"486\" y2=\"170.67\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"61.33\" x2=\"486\" y2=\"61.33\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">12</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">16</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"174.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"147.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"92.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"65.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,164.07 149.1,169.57 143.6,175.07 138.1,169.57\" fill=\"#2B2527\"/><polygon points=\"229.2,135.1 234.7,140.6 229.2,146.1 223.7,140.6\" fill=\"#2B2527\"/><polygon points=\"314.8,117.88 320.3,123.38 314.8,128.88 309.3,123.38\" fill=\"#2B2527\"/><polygon points=\"400.4,94.37 405.9,99.87 400.4,105.37 394.9,99.87\" fill=\"#2B2527\"/><polygon points=\"486,43.81 491.5,49.31 486,54.81 480.5,49.31\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken densitet har ämnet?</li>\n<li>Vilket ämne skulle det kunna vara? Använd en densitetstabell.</li></ol>",
+    "t": "<p>Alva har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har hon fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"192.53\" x2=\"486\" y2=\"192.53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"187.07\" x2=\"486\" y2=\"187.07\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"176.13\" x2=\"486\" y2=\"176.13\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"170.67\" x2=\"486\" y2=\"170.67\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"159.73\" x2=\"486\" y2=\"159.73\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"154.27\" x2=\"486\" y2=\"154.27\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"137.87\" x2=\"486\" y2=\"137.87\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"126.93\" x2=\"486\" y2=\"126.93\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"121.47\" x2=\"486\" y2=\"121.47\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"110.53\" x2=\"486\" y2=\"110.53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"105.07\" x2=\"486\" y2=\"105.07\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"94.13\" x2=\"486\" y2=\"94.13\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"77.73\" x2=\"486\" y2=\"77.73\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"72.27\" x2=\"486\" y2=\"72.27\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"61.33\" x2=\"486\" y2=\"61.33\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"55.87\" x2=\"486\" y2=\"55.87\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"44.93\" x2=\"486\" y2=\"44.93\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"39.47\" x2=\"486\" y2=\"39.47\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"170.67\" x2=\"486\" y2=\"170.67\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"61.33\" x2=\"486\" y2=\"61.33\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">12</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">16</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"174.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"147.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"92.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"65.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,164.07 149.1,169.57 143.6,175.07 138.1,169.57\" fill=\"#2B2527\"/><polygon points=\"229.2,135.1 234.7,140.6 229.2,146.1 223.7,140.6\" fill=\"#2B2527\"/><polygon points=\"314.8,117.88 320.3,123.38 314.8,128.88 309.3,123.38\" fill=\"#2B2527\"/><polygon points=\"400.4,94.37 405.9,99.87 400.4,105.37 394.9,99.87\" fill=\"#2B2527\"/><polygon points=\"486,43.81 491.5,49.31 486,54.81 480.5,49.31\" fill=\"#2B2527\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har ämnet?</div><div>b) Vilket ämne skulle det kunna vara? Använd en densitetstabell.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna ligger inte exakt på en rät linje, eftersom varje vägning och volymmätning har en osäkerhet. Dra därför en rät linje genom origo som följer punkterna så bra som möjligt, och läs av en punkt långt ut på den linjen. Densiteten är linjens lutning.</p><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{50\\ \\mathrm g}{20\\ \\mathrm{cm^3}}=2{,}50\\ \\mathrm{g/cm^3}\\]</div><p>Räknar man i stället ut \\(m/V\\) för varje enskild punkt hamnar värdena mellan 2,24 och 2,72 g/cm³. Det är just därför man anpassar en linje till alla punkterna i stället för att lita på en enda mätning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför värdet med en densitetstabell. Glas har \\(2{,}50\\ \\mathrm{g/cm^3}\\), vilket stämmer med det uppmätta värdet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(2{,}50\\ \\mathrm{g/cm^3}\\). Ämnet kan vara glas.</p><p class=\"facit-not\">Porslin ligger nära 2,4 g/cm³, så ett värde i det här området kan komma från flera olika hårda och spröda material.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.96",
@@ -9367,16 +11037,18 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma densitet ur lutningen i ett massa-volym-diagram och identifiera ämnet, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Nour har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har hon fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"194.72\" x2=\"486\" y2=\"194.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"191.44\" x2=\"486\" y2=\"191.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"188.16\" x2=\"486\" y2=\"188.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"184.88\" x2=\"486\" y2=\"184.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178.32\" x2=\"486\" y2=\"178.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"175.04\" x2=\"486\" y2=\"175.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"171.76\" x2=\"486\" y2=\"171.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"168.48\" x2=\"486\" y2=\"168.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.92\" x2=\"486\" y2=\"161.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"158.64\" x2=\"486\" y2=\"158.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"155.36\" x2=\"486\" y2=\"155.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.08\" x2=\"486\" y2=\"152.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"145.52\" x2=\"486\" y2=\"145.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"142.24\" x2=\"486\" y2=\"142.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"138.96\" x2=\"486\" y2=\"138.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"135.68\" x2=\"486\" y2=\"135.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"129.12\" x2=\"486\" y2=\"129.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"125.84\" x2=\"486\" y2=\"125.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"122.56\" x2=\"486\" y2=\"122.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"119.28\" x2=\"486\" y2=\"119.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"112.72\" x2=\"486\" y2=\"112.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"109.44\" x2=\"486\" y2=\"109.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106.16\" x2=\"486\" y2=\"106.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"102.88\" x2=\"486\" y2=\"102.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"96.32\" x2=\"486\" y2=\"96.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"93.04\" x2=\"486\" y2=\"93.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"89.76\" x2=\"486\" y2=\"89.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"86.48\" x2=\"486\" y2=\"86.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.92\" x2=\"486\" y2=\"79.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"76.64\" x2=\"486\" y2=\"76.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"73.36\" x2=\"486\" y2=\"73.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.08\" x2=\"486\" y2=\"70.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"63.52\" x2=\"486\" y2=\"63.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"60.24\" x2=\"486\" y2=\"60.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"56.96\" x2=\"486\" y2=\"56.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"53.68\" x2=\"486\" y2=\"53.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"47.12\" x2=\"486\" y2=\"47.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"43.84\" x2=\"486\" y2=\"43.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"40.56\" x2=\"486\" y2=\"40.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"37.28\" x2=\"486\" y2=\"37.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">12</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">16</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"185.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"169.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"152.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"136.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"103.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"87.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><text x=\"50\" y=\"70.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"50\" y=\"54.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">90</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,159.54 149.1,165.04 143.6,170.54 138.1,165.04\" fill=\"#2B2527\"/><polygon points=\"229.2,136.25 234.7,141.75 229.2,147.25 223.7,141.75\" fill=\"#2B2527\"/><polygon points=\"314.8,109.68 320.3,115.18 314.8,120.68 309.3,115.18\" fill=\"#2B2527\"/><polygon points=\"400.4,62.28 405.9,67.78 400.4,73.28 394.9,67.78\" fill=\"#2B2527\"/><polygon points=\"486,50.8 491.5,56.3 486,61.8 480.5,56.3\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken densitet har ämnet?</li>\n<li>Vilket ämne skulle det kunna vara? Använd en densitetstabell.</li></ol>",
+    "t": "<p>Nour har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har hon fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"194.72\" x2=\"486\" y2=\"194.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"191.44\" x2=\"486\" y2=\"191.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"188.16\" x2=\"486\" y2=\"188.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"184.88\" x2=\"486\" y2=\"184.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178.32\" x2=\"486\" y2=\"178.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"175.04\" x2=\"486\" y2=\"175.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"171.76\" x2=\"486\" y2=\"171.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"168.48\" x2=\"486\" y2=\"168.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.92\" x2=\"486\" y2=\"161.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"158.64\" x2=\"486\" y2=\"158.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"155.36\" x2=\"486\" y2=\"155.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.08\" x2=\"486\" y2=\"152.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"145.52\" x2=\"486\" y2=\"145.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"142.24\" x2=\"486\" y2=\"142.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"138.96\" x2=\"486\" y2=\"138.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"135.68\" x2=\"486\" y2=\"135.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"129.12\" x2=\"486\" y2=\"129.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"125.84\" x2=\"486\" y2=\"125.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"122.56\" x2=\"486\" y2=\"122.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"119.28\" x2=\"486\" y2=\"119.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"112.72\" x2=\"486\" y2=\"112.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"109.44\" x2=\"486\" y2=\"109.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106.16\" x2=\"486\" y2=\"106.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"102.88\" x2=\"486\" y2=\"102.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"96.32\" x2=\"486\" y2=\"96.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"93.04\" x2=\"486\" y2=\"93.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"89.76\" x2=\"486\" y2=\"89.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"86.48\" x2=\"486\" y2=\"86.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.92\" x2=\"486\" y2=\"79.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"76.64\" x2=\"486\" y2=\"76.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"73.36\" x2=\"486\" y2=\"73.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.08\" x2=\"486\" y2=\"70.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"63.52\" x2=\"486\" y2=\"63.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"60.24\" x2=\"486\" y2=\"60.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"56.96\" x2=\"486\" y2=\"56.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"53.68\" x2=\"486\" y2=\"53.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"47.12\" x2=\"486\" y2=\"47.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"43.84\" x2=\"486\" y2=\"43.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"40.56\" x2=\"486\" y2=\"40.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"37.28\" x2=\"486\" y2=\"37.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">12</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">16</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"185.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"169.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"152.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"136.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"103.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"87.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><text x=\"50\" y=\"70.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"50\" y=\"54.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">90</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,159.54 149.1,165.04 143.6,170.54 138.1,165.04\" fill=\"#2B2527\"/><polygon points=\"229.2,136.25 234.7,141.75 229.2,147.25 223.7,141.75\" fill=\"#2B2527\"/><polygon points=\"314.8,109.68 320.3,115.18 314.8,120.68 309.3,115.18\" fill=\"#2B2527\"/><polygon points=\"400.4,62.28 405.9,67.78 400.4,73.28 394.9,67.78\" fill=\"#2B2527\"/><polygon points=\"486,50.8 491.5,56.3 486,61.8 480.5,56.3\" fill=\"#2B2527\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har ämnet?</div><div>b) Vilket ämne skulle det kunna vara? Använd en densitetstabell.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna ligger inte exakt på en rät linje, eftersom varje vägning och volymmätning har en osäkerhet. Dra därför en rät linje genom origo som följer punkterna så bra som möjligt, och läs av en punkt långt ut på den linjen. Densiteten är linjens lutning.</p><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{90\\ \\mathrm g}{20\\ \\mathrm{cm^3}}=4{,}50\\ \\mathrm{g/cm^3}\\]</div><p>Räknar man i stället ut \\(m/V\\) för varje enskild punkt hamnar värdena mellan 4,21 och 5,03 g/cm³. Det är just därför man anpassar en linje till alla punkterna i stället för att lita på en enda mätning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför värdet med en densitetstabell. Titan har \\(4{,}50\\ \\mathrm{g/cm^3}\\), vilket stämmer med det uppmätta värdet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(4{,}50\\ \\mathrm{g/cm^3}\\). Ämnet kan vara titan.</p><p class=\"facit-not\">Titan är ungefär hälften så tungt som stål men nästan lika starkt, vilket är hela poängen med metallen i flygplan och proteser.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.97",
@@ -9385,16 +11057,18 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma densitet ur lutningen i ett massa-volym-diagram och identifiera ämnet, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Vidar har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har han fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"194.36\" x2=\"486\" y2=\"194.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"190.71\" x2=\"486\" y2=\"190.71\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"187.07\" x2=\"486\" y2=\"187.07\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"183.42\" x2=\"486\" y2=\"183.42\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"179.78\" x2=\"486\" y2=\"179.78\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"176.13\" x2=\"486\" y2=\"176.13\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"172.49\" x2=\"486\" y2=\"172.49\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"168.84\" x2=\"486\" y2=\"168.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.56\" x2=\"486\" y2=\"161.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"157.91\" x2=\"486\" y2=\"157.91\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"154.27\" x2=\"486\" y2=\"154.27\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"150.62\" x2=\"486\" y2=\"150.62\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"146.98\" x2=\"486\" y2=\"146.98\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"139.69\" x2=\"486\" y2=\"139.69\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"136.04\" x2=\"486\" y2=\"136.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"128.76\" x2=\"486\" y2=\"128.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"125.11\" x2=\"486\" y2=\"125.11\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"121.47\" x2=\"486\" y2=\"121.47\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"117.82\" x2=\"486\" y2=\"117.82\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"114.18\" x2=\"486\" y2=\"114.18\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"110.53\" x2=\"486\" y2=\"110.53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106.89\" x2=\"486\" y2=\"106.89\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"103.24\" x2=\"486\" y2=\"103.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"95.96\" x2=\"486\" y2=\"95.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"92.31\" x2=\"486\" y2=\"92.31\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"85.02\" x2=\"486\" y2=\"85.02\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"81.38\" x2=\"486\" y2=\"81.38\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"77.73\" x2=\"486\" y2=\"77.73\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"74.09\" x2=\"486\" y2=\"74.09\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.44\" x2=\"486\" y2=\"70.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"63.16\" x2=\"486\" y2=\"63.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"59.51\" x2=\"486\" y2=\"59.51\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"55.87\" x2=\"486\" y2=\"55.87\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"52.22\" x2=\"486\" y2=\"52.22\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"48.58\" x2=\"486\" y2=\"48.58\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"44.93\" x2=\"486\" y2=\"44.93\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"41.29\" x2=\"486\" y2=\"41.29\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"37.64\" x2=\"486\" y2=\"37.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"179.78\" x2=\"486\" y2=\"179.78\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"161.56\" x2=\"486\" y2=\"161.56\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"125.11\" x2=\"486\" y2=\"125.11\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"106.89\" x2=\"486\" y2=\"106.89\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"70.44\" x2=\"486\" y2=\"70.44\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"52.22\" x2=\"486\" y2=\"52.22\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">2</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">6</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"183.78\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"165.56\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"147.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"129.11\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"110.89\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"92.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"74.44\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><text x=\"50\" y=\"56.22\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"100.8,177.34 106.3,182.84 100.8,188.34 95.3,182.84\" fill=\"#2B2527\"/><polygon points=\"186.4,147.49 191.9,152.99 186.4,158.49 180.9,152.99\" fill=\"#2B2527\"/><polygon points=\"272,128.54 277.5,134.04 272,139.54 266.5,134.04\" fill=\"#2B2527\"/><polygon points=\"357.6,101.57 363.1,107.07 357.6,112.57 352.1,107.07\" fill=\"#2B2527\"/><polygon points=\"486,41.62 491.5,47.12 486,52.62 480.5,47.12\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken densitet har ämnet?</li>\n<li>Vilket ämne skulle det kunna vara? Använd en densitetstabell.</li></ol>",
+    "t": "<p>Vidar har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har han fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"194.36\" x2=\"486\" y2=\"194.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"190.71\" x2=\"486\" y2=\"190.71\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"187.07\" x2=\"486\" y2=\"187.07\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"183.42\" x2=\"486\" y2=\"183.42\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"179.78\" x2=\"486\" y2=\"179.78\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"176.13\" x2=\"486\" y2=\"176.13\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"172.49\" x2=\"486\" y2=\"172.49\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"168.84\" x2=\"486\" y2=\"168.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.56\" x2=\"486\" y2=\"161.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"157.91\" x2=\"486\" y2=\"157.91\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"154.27\" x2=\"486\" y2=\"154.27\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"150.62\" x2=\"486\" y2=\"150.62\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"146.98\" x2=\"486\" y2=\"146.98\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"139.69\" x2=\"486\" y2=\"139.69\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"136.04\" x2=\"486\" y2=\"136.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"128.76\" x2=\"486\" y2=\"128.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"125.11\" x2=\"486\" y2=\"125.11\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"121.47\" x2=\"486\" y2=\"121.47\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"117.82\" x2=\"486\" y2=\"117.82\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"114.18\" x2=\"486\" y2=\"114.18\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"110.53\" x2=\"486\" y2=\"110.53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106.89\" x2=\"486\" y2=\"106.89\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"103.24\" x2=\"486\" y2=\"103.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"95.96\" x2=\"486\" y2=\"95.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"92.31\" x2=\"486\" y2=\"92.31\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"85.02\" x2=\"486\" y2=\"85.02\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"81.38\" x2=\"486\" y2=\"81.38\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"77.73\" x2=\"486\" y2=\"77.73\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"74.09\" x2=\"486\" y2=\"74.09\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.44\" x2=\"486\" y2=\"70.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"63.16\" x2=\"486\" y2=\"63.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"59.51\" x2=\"486\" y2=\"59.51\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"55.87\" x2=\"486\" y2=\"55.87\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"52.22\" x2=\"486\" y2=\"52.22\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"48.58\" x2=\"486\" y2=\"48.58\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"44.93\" x2=\"486\" y2=\"44.93\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"41.29\" x2=\"486\" y2=\"41.29\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"37.64\" x2=\"486\" y2=\"37.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"179.78\" x2=\"486\" y2=\"179.78\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"161.56\" x2=\"486\" y2=\"161.56\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"125.11\" x2=\"486\" y2=\"125.11\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"106.89\" x2=\"486\" y2=\"106.89\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"70.44\" x2=\"486\" y2=\"70.44\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"52.22\" x2=\"486\" y2=\"52.22\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">2</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">6</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"183.78\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"165.56\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"147.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"129.11\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"110.89\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"92.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"74.44\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><text x=\"50\" y=\"56.22\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">90</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"100.8,177.34 106.3,182.84 100.8,188.34 95.3,182.84\" fill=\"#2B2527\"/><polygon points=\"186.4,147.49 191.9,152.99 186.4,158.49 180.9,152.99\" fill=\"#2B2527\"/><polygon points=\"272,128.54 277.5,134.04 272,139.54 266.5,134.04\" fill=\"#2B2527\"/><polygon points=\"357.6,101.57 363.1,107.07 357.6,112.57 352.1,107.07\" fill=\"#2B2527\"/><polygon points=\"486,41.62 491.5,47.12 486,52.62 480.5,47.12\" fill=\"#2B2527\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har ämnet?</div><div>b) Vilket ämne skulle det kunna vara? Använd en densitetstabell.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna ligger inte exakt på en rät linje, eftersom varje vägning och volymmätning har en osäkerhet. Dra därför en rät linje genom origo som följer punkterna så bra som möjligt, och läs av en punkt långt ut på den linjen. Densiteten är linjens lutning.</p><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{78\\ \\mathrm g}{10\\ \\mathrm{cm^3}}=7{,}80\\ \\mathrm{g/cm^3}\\]</div><p>Räknar man i stället ut \\(m/V\\) för varje enskild punkt hamnar värdena mellan 7,02 och 8,32 g/cm³. Det är just därför man anpassar en linje till alla punkterna i stället för att lita på en enda mätning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför värdet med en densitetstabell. Järn har \\(7{,}87\\ \\mathrm{g/cm^3}\\), vilket stämmer med det uppmätta värdet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(7{,}80\\ \\mathrm{g/cm^3}\\). Ämnet kan vara järn.</p><p class=\"facit-not\">Vanligt stål ligger på ungefär samma värde, eftersom stål till största delen består av just järn.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.98",
@@ -9403,16 +11077,18 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma densitet ur lutningen i ett massa-volym-diagram och identifiera ämnet, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Ines har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har hon fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"75.12\" y1=\"34\" x2=\"75.12\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"92.24\" y1=\"34\" x2=\"92.24\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"109.36\" y1=\"34\" x2=\"109.36\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"126.48\" y1=\"34\" x2=\"126.48\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"160.72\" y1=\"34\" x2=\"160.72\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"177.84\" y1=\"34\" x2=\"177.84\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"194.96\" y1=\"34\" x2=\"194.96\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"212.08\" y1=\"34\" x2=\"212.08\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"246.32\" y1=\"34\" x2=\"246.32\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"263.44\" y1=\"34\" x2=\"263.44\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"280.56\" y1=\"34\" x2=\"280.56\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"297.68\" y1=\"34\" x2=\"297.68\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"331.92\" y1=\"34\" x2=\"331.92\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"349.04\" y1=\"34\" x2=\"349.04\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"366.16\" y1=\"34\" x2=\"366.16\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"383.28\" y1=\"34\" x2=\"383.28\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"417.52\" y1=\"34\" x2=\"417.52\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"434.64\" y1=\"34\" x2=\"434.64\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"451.76\" y1=\"34\" x2=\"451.76\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"468.88\" y1=\"34\" x2=\"468.88\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.9\" x2=\"486\" y2=\"193.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"189.8\" x2=\"486\" y2=\"189.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"185.7\" x2=\"486\" y2=\"185.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"177.5\" x2=\"486\" y2=\"177.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"173.4\" x2=\"486\" y2=\"173.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"169.3\" x2=\"486\" y2=\"169.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.1\" x2=\"486\" y2=\"161.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"157\" x2=\"486\" y2=\"157\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.9\" x2=\"486\" y2=\"152.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"144.7\" x2=\"486\" y2=\"144.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"140.6\" x2=\"486\" y2=\"140.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"136.5\" x2=\"486\" y2=\"136.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"128.3\" x2=\"486\" y2=\"128.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"124.2\" x2=\"486\" y2=\"124.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"120.1\" x2=\"486\" y2=\"120.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"111.9\" x2=\"486\" y2=\"111.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"107.8\" x2=\"486\" y2=\"107.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"103.7\" x2=\"486\" y2=\"103.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"95.5\" x2=\"486\" y2=\"95.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"91.4\" x2=\"486\" y2=\"91.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"87.3\" x2=\"486\" y2=\"87.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.1\" x2=\"486\" y2=\"79.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"75\" x2=\"486\" y2=\"75\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.9\" x2=\"486\" y2=\"70.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"62.7\" x2=\"486\" y2=\"62.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"58.6\" x2=\"486\" y2=\"58.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"54.5\" x2=\"486\" y2=\"54.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"46.3\" x2=\"486\" y2=\"46.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"42.2\" x2=\"486\" y2=\"42.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"38.1\" x2=\"486\" y2=\"38.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"177.5\" x2=\"486\" y2=\"177.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"157\" x2=\"486\" y2=\"157\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"136.5\" x2=\"486\" y2=\"136.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"95.5\" x2=\"486\" y2=\"95.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"75\" x2=\"486\" y2=\"75\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"54.5\" x2=\"486\" y2=\"54.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"181.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"161\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"140.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"50\" y=\"99.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><text x=\"50\" y=\"79\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">120</text><text x=\"50\" y=\"58.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">140</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">160</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,162.06 149.1,167.56 143.6,173.06 138.1,167.56\" fill=\"#2B2527\"/><polygon points=\"229.2,130.9 234.7,136.4 229.2,141.9 223.7,136.4\" fill=\"#2B2527\"/><polygon points=\"314.8,112.65 320.3,118.15 314.8,123.65 309.3,118.15\" fill=\"#2B2527\"/><polygon points=\"400.4,86.93 405.9,92.43 400.4,97.93 394.9,92.43\" fill=\"#2B2527\"/><polygon points=\"486,39.78 491.5,45.28 486,50.78 480.5,45.28\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken densitet har ämnet?</li>\n<li>Vilket ämne skulle det kunna vara? Använd en densitetstabell.</li></ol>",
+    "t": "<p>Ines har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har hon fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"75.12\" y1=\"34\" x2=\"75.12\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"92.24\" y1=\"34\" x2=\"92.24\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"109.36\" y1=\"34\" x2=\"109.36\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"126.48\" y1=\"34\" x2=\"126.48\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"160.72\" y1=\"34\" x2=\"160.72\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"177.84\" y1=\"34\" x2=\"177.84\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"194.96\" y1=\"34\" x2=\"194.96\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"212.08\" y1=\"34\" x2=\"212.08\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"246.32\" y1=\"34\" x2=\"246.32\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"263.44\" y1=\"34\" x2=\"263.44\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"280.56\" y1=\"34\" x2=\"280.56\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"297.68\" y1=\"34\" x2=\"297.68\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"331.92\" y1=\"34\" x2=\"331.92\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"349.04\" y1=\"34\" x2=\"349.04\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"366.16\" y1=\"34\" x2=\"366.16\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"383.28\" y1=\"34\" x2=\"383.28\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"417.52\" y1=\"34\" x2=\"417.52\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"434.64\" y1=\"34\" x2=\"434.64\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"451.76\" y1=\"34\" x2=\"451.76\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"468.88\" y1=\"34\" x2=\"468.88\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.9\" x2=\"486\" y2=\"193.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"189.8\" x2=\"486\" y2=\"189.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"185.7\" x2=\"486\" y2=\"185.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"177.5\" x2=\"486\" y2=\"177.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"173.4\" x2=\"486\" y2=\"173.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"169.3\" x2=\"486\" y2=\"169.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.1\" x2=\"486\" y2=\"161.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"157\" x2=\"486\" y2=\"157\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.9\" x2=\"486\" y2=\"152.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"144.7\" x2=\"486\" y2=\"144.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"140.6\" x2=\"486\" y2=\"140.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"136.5\" x2=\"486\" y2=\"136.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"128.3\" x2=\"486\" y2=\"128.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"124.2\" x2=\"486\" y2=\"124.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"120.1\" x2=\"486\" y2=\"120.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"111.9\" x2=\"486\" y2=\"111.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"107.8\" x2=\"486\" y2=\"107.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"103.7\" x2=\"486\" y2=\"103.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"95.5\" x2=\"486\" y2=\"95.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"91.4\" x2=\"486\" y2=\"91.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"87.3\" x2=\"486\" y2=\"87.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.1\" x2=\"486\" y2=\"79.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"75\" x2=\"486\" y2=\"75\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.9\" x2=\"486\" y2=\"70.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"62.7\" x2=\"486\" y2=\"62.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"58.6\" x2=\"486\" y2=\"58.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"54.5\" x2=\"486\" y2=\"54.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"46.3\" x2=\"486\" y2=\"46.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"42.2\" x2=\"486\" y2=\"42.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"38.1\" x2=\"486\" y2=\"38.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"177.5\" x2=\"486\" y2=\"177.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"157\" x2=\"486\" y2=\"157\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"136.5\" x2=\"486\" y2=\"136.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"95.5\" x2=\"486\" y2=\"95.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"75\" x2=\"486\" y2=\"75\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"54.5\" x2=\"486\" y2=\"54.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"181.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"161\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"140.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"50\" y=\"99.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><text x=\"50\" y=\"79\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">120</text><text x=\"50\" y=\"58.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">140</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">160</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,162.06 149.1,167.56 143.6,173.06 138.1,167.56\" fill=\"#2B2527\"/><polygon points=\"229.2,130.9 234.7,136.4 229.2,141.9 223.7,136.4\" fill=\"#2B2527\"/><polygon points=\"314.8,112.65 320.3,118.15 314.8,123.65 309.3,118.15\" fill=\"#2B2527\"/><polygon points=\"400.4,86.93 405.9,92.43 400.4,97.93 394.9,92.43\" fill=\"#2B2527\"/><polygon points=\"486,39.78 491.5,45.28 486,50.78 480.5,45.28\" fill=\"#2B2527\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har ämnet?</div><div>b) Vilket ämne skulle det kunna vara? Använd en densitetstabell.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna ligger inte exakt på en rät linje, eftersom varje vägning och volymmätning har en osäkerhet. Dra därför en rät linje genom origo som följer punkterna så bra som möjligt, och läs av en punkt långt ut på den linjen. Densiteten är linjens lutning.</p><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{140\\ \\mathrm g}{100\\ \\mathrm{cm^3}}=1{,}40\\ \\mathrm{g/cm^3}\\]</div><p>Räknar man i stället ut \\(m/V\\) för varje enskild punkt hamnar värdena mellan 1,29 och 1,50 g/cm³. Det är just därför man anpassar en linje till alla punkterna i stället för att lita på en enda mätning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför värdet med en densitetstabell. PVC-plast har \\(1{,}40\\ \\mathrm{g/cm^3}\\), vilket stämmer med det uppmätta värdet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(1{,}40\\ \\mathrm{g/cm^3}\\). Ämnet kan vara PVC-plast.</p><p class=\"facit-not\">De flesta plaster ligger mellan 0,9 och 1,4 g/cm³. Att PVC hamnar högst beror på kloratomerna, som är tunga.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.99",
@@ -9421,16 +11097,18 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma densitet ur lutningen i ett massa-volym-diagram och identifiera ämnet, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Otto har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har han fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"194.72\" x2=\"486\" y2=\"194.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"191.44\" x2=\"486\" y2=\"191.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"188.16\" x2=\"486\" y2=\"188.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"184.88\" x2=\"486\" y2=\"184.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178.32\" x2=\"486\" y2=\"178.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"175.04\" x2=\"486\" y2=\"175.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"171.76\" x2=\"486\" y2=\"171.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"168.48\" x2=\"486\" y2=\"168.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.92\" x2=\"486\" y2=\"161.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"158.64\" x2=\"486\" y2=\"158.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"155.36\" x2=\"486\" y2=\"155.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.08\" x2=\"486\" y2=\"152.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"145.52\" x2=\"486\" y2=\"145.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"142.24\" x2=\"486\" y2=\"142.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"138.96\" x2=\"486\" y2=\"138.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"135.68\" x2=\"486\" y2=\"135.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"129.12\" x2=\"486\" y2=\"129.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"125.84\" x2=\"486\" y2=\"125.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"122.56\" x2=\"486\" y2=\"122.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"119.28\" x2=\"486\" y2=\"119.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"112.72\" x2=\"486\" y2=\"112.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"109.44\" x2=\"486\" y2=\"109.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106.16\" x2=\"486\" y2=\"106.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"102.88\" x2=\"486\" y2=\"102.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"96.32\" x2=\"486\" y2=\"96.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"93.04\" x2=\"486\" y2=\"93.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"89.76\" x2=\"486\" y2=\"89.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"86.48\" x2=\"486\" y2=\"86.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.92\" x2=\"486\" y2=\"79.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"76.64\" x2=\"486\" y2=\"76.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"73.36\" x2=\"486\" y2=\"73.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.08\" x2=\"486\" y2=\"70.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"63.52\" x2=\"486\" y2=\"63.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"60.24\" x2=\"486\" y2=\"60.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"56.96\" x2=\"486\" y2=\"56.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"53.68\" x2=\"486\" y2=\"53.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"47.12\" x2=\"486\" y2=\"47.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"43.84\" x2=\"486\" y2=\"43.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"40.56\" x2=\"486\" y2=\"40.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"37.28\" x2=\"486\" y2=\"37.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">2</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">6</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"185.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"169.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"152.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"136.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"103.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"87.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><text x=\"50\" y=\"70.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"50\" y=\"54.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">90</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,162.82 149.1,168.32 143.6,173.82 138.1,168.32\" fill=\"#2B2527\"/><polygon points=\"229.2,133.95 234.7,139.45 229.2,144.95 223.7,139.45\" fill=\"#2B2527\"/><polygon points=\"314.8,117.39 320.3,122.89 314.8,128.39 309.3,122.89\" fill=\"#2B2527\"/><polygon points=\"400.4,90.98 405.9,96.48 400.4,101.98 394.9,96.48\" fill=\"#2B2527\"/><polygon points=\"486,45.06 491.5,50.56 486,56.06 480.5,50.56\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken densitet har ämnet?</li>\n<li>Vilket ämne skulle det kunna vara? Använd en densitetstabell.</li></ol>",
+    "t": "<p>Otto har undersökt densiteten hos ett ämne. Genom att väga och mäta volymen på bitar av olika storlek har han fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"194.72\" x2=\"486\" y2=\"194.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"191.44\" x2=\"486\" y2=\"191.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"188.16\" x2=\"486\" y2=\"188.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"184.88\" x2=\"486\" y2=\"184.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178.32\" x2=\"486\" y2=\"178.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"175.04\" x2=\"486\" y2=\"175.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"171.76\" x2=\"486\" y2=\"171.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"168.48\" x2=\"486\" y2=\"168.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.92\" x2=\"486\" y2=\"161.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"158.64\" x2=\"486\" y2=\"158.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"155.36\" x2=\"486\" y2=\"155.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.08\" x2=\"486\" y2=\"152.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"145.52\" x2=\"486\" y2=\"145.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"142.24\" x2=\"486\" y2=\"142.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"138.96\" x2=\"486\" y2=\"138.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"135.68\" x2=\"486\" y2=\"135.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"129.12\" x2=\"486\" y2=\"129.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"125.84\" x2=\"486\" y2=\"125.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"122.56\" x2=\"486\" y2=\"122.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"119.28\" x2=\"486\" y2=\"119.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"112.72\" x2=\"486\" y2=\"112.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"109.44\" x2=\"486\" y2=\"109.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106.16\" x2=\"486\" y2=\"106.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"102.88\" x2=\"486\" y2=\"102.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"96.32\" x2=\"486\" y2=\"96.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"93.04\" x2=\"486\" y2=\"93.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"89.76\" x2=\"486\" y2=\"89.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"86.48\" x2=\"486\" y2=\"86.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.92\" x2=\"486\" y2=\"79.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"76.64\" x2=\"486\" y2=\"76.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"73.36\" x2=\"486\" y2=\"73.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.08\" x2=\"486\" y2=\"70.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"63.52\" x2=\"486\" y2=\"63.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"60.24\" x2=\"486\" y2=\"60.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"56.96\" x2=\"486\" y2=\"56.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"53.68\" x2=\"486\" y2=\"53.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"47.12\" x2=\"486\" y2=\"47.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"43.84\" x2=\"486\" y2=\"43.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"40.56\" x2=\"486\" y2=\"40.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"37.28\" x2=\"486\" y2=\"37.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">2</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">6</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"185.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"169.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"152.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"136.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"103.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"87.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><text x=\"50\" y=\"70.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"50\" y=\"54.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">90</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,162.82 149.1,168.32 143.6,173.82 138.1,168.32\" fill=\"#2B2527\"/><polygon points=\"229.2,133.95 234.7,139.45 229.2,144.95 223.7,139.45\" fill=\"#2B2527\"/><polygon points=\"314.8,117.39 320.3,122.89 314.8,128.39 309.3,122.89\" fill=\"#2B2527\"/><polygon points=\"400.4,90.98 405.9,96.48 400.4,101.98 394.9,96.48\" fill=\"#2B2527\"/><polygon points=\"486,45.06 491.5,50.56 486,56.06 480.5,50.56\" fill=\"#2B2527\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har ämnet?</div><div>b) Vilket ämne skulle det kunna vara? Använd en densitetstabell.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna ligger inte exakt på en rät linje, eftersom varje vägning och volymmätning har en osäkerhet. Dra därför en rät linje genom origo som följer punkterna så bra som möjligt, och läs av en punkt långt ut på den linjen. Densiteten är linjens lutning.</p><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{84\\ \\mathrm g}{10\\ \\mathrm{cm^3}}=8{,}40\\ \\mathrm{g/cm^3}\\]</div><p>Räknar man i stället ut \\(m/V\\) för varje enskild punkt hamnar värdena mellan 7,63 och 9,05 g/cm³. Det är just därför man anpassar en linje till alla punkterna i stället för att lita på en enda mätning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför värdet med en densitetstabell. Mässing har \\(8{,}40\\ \\mathrm{g/cm^3}\\), vilket stämmer med det uppmätta värdet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(8{,}40\\ \\mathrm{g/cm^3}\\). Ämnet kan vara mässing.</p><p class=\"facit-not\">Mässing är en legering av koppar och zink. Koppar har 8,96 och zink 7,1 g/cm³, så mässingen hamnar däremellan och det exakta värdet beror på blandningen.</p></div>",
-    "familj": "Sammansatt densitet",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.100",
@@ -9439,9 +11117,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "E",
     "typ": "bestämma densitet ur massa-volym-diagram och avgöra om ämnet kan vara is, ur diagram, sökt densitet",
     "poang": "(2/1/0)",
-    "t": "<p>Liv har undersökt densiteten hos en vätska. Genom att väga och mäta volymen på olika mängder har hon fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"72.27\" y1=\"34\" x2=\"72.27\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"86.53\" y1=\"34\" x2=\"86.53\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"115.07\" y1=\"34\" x2=\"115.07\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"129.33\" y1=\"34\" x2=\"129.33\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"157.87\" y1=\"34\" x2=\"157.87\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"172.13\" y1=\"34\" x2=\"172.13\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"200.67\" y1=\"34\" x2=\"200.67\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.93\" y1=\"34\" x2=\"214.93\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"243.47\" y1=\"34\" x2=\"243.47\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"257.73\" y1=\"34\" x2=\"257.73\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"286.27\" y1=\"34\" x2=\"286.27\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"300.53\" y1=\"34\" x2=\"300.53\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"329.07\" y1=\"34\" x2=\"329.07\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"343.33\" y1=\"34\" x2=\"343.33\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"371.87\" y1=\"34\" x2=\"371.87\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"386.13\" y1=\"34\" x2=\"386.13\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"414.67\" y1=\"34\" x2=\"414.67\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"428.93\" y1=\"34\" x2=\"428.93\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"457.47\" y1=\"34\" x2=\"457.47\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"471.73\" y1=\"34\" x2=\"471.73\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"192.53\" x2=\"486\" y2=\"192.53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"187.07\" x2=\"486\" y2=\"187.07\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"176.13\" x2=\"486\" y2=\"176.13\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"170.67\" x2=\"486\" y2=\"170.67\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"159.73\" x2=\"486\" y2=\"159.73\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"154.27\" x2=\"486\" y2=\"154.27\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"137.87\" x2=\"486\" y2=\"137.87\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"126.93\" x2=\"486\" y2=\"126.93\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"121.47\" x2=\"486\" y2=\"121.47\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"110.53\" x2=\"486\" y2=\"110.53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"105.07\" x2=\"486\" y2=\"105.07\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"94.13\" x2=\"486\" y2=\"94.13\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"77.73\" x2=\"486\" y2=\"77.73\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"72.27\" x2=\"486\" y2=\"72.27\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"61.33\" x2=\"486\" y2=\"61.33\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"55.87\" x2=\"486\" y2=\"55.87\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"44.93\" x2=\"486\" y2=\"44.93\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"39.47\" x2=\"486\" y2=\"39.47\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"129.33\" y1=\"34\" x2=\"129.33\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"200.67\" y1=\"34\" x2=\"200.67\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"343.33\" y1=\"34\" x2=\"343.33\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"414.67\" y1=\"34\" x2=\"414.67\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"170.67\" x2=\"486\" y2=\"170.67\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"61.33\" x2=\"486\" y2=\"61.33\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"129.33\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"200.67\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"272\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"343.33\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"414.67\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"174.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"147.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"92.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"65.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"129.33,163.53 134.83,169.03 129.33,174.53 123.83,169.03\" fill=\"#2B2527\"/><polygon points=\"200.67,132.37 206.17,137.87 200.67,143.37 195.17,137.87\" fill=\"#2B2527\"/><polygon points=\"272,117.06 277.5,122.56 272,128.06 266.5,122.56\" fill=\"#2B2527\"/><polygon points=\"343.33,90.55 348.83,96.05 343.33,101.55 337.83,96.05\" fill=\"#2B2527\"/><polygon points=\"414.67,48.73 420.17,54.23 414.67,59.73 409.17,54.23\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken densitet har vätskan?</li>\n<li>Vilket ämne skulle det kunna vara?</li>\n<li>Kan mätpunkterna i stället komma från is? Motivera svaret.</li></ol>",
+    "t": "<p>Liv har undersökt densiteten hos en vätska. Genom att väga och mäta volymen på olika mängder har hon fått fram följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"72.27\" y1=\"34\" x2=\"72.27\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"86.53\" y1=\"34\" x2=\"86.53\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"115.07\" y1=\"34\" x2=\"115.07\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"129.33\" y1=\"34\" x2=\"129.33\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"157.87\" y1=\"34\" x2=\"157.87\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"172.13\" y1=\"34\" x2=\"172.13\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"200.67\" y1=\"34\" x2=\"200.67\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.93\" y1=\"34\" x2=\"214.93\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"243.47\" y1=\"34\" x2=\"243.47\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"257.73\" y1=\"34\" x2=\"257.73\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"286.27\" y1=\"34\" x2=\"286.27\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"300.53\" y1=\"34\" x2=\"300.53\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"329.07\" y1=\"34\" x2=\"329.07\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"343.33\" y1=\"34\" x2=\"343.33\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"371.87\" y1=\"34\" x2=\"371.87\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"386.13\" y1=\"34\" x2=\"386.13\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"414.67\" y1=\"34\" x2=\"414.67\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"428.93\" y1=\"34\" x2=\"428.93\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"457.47\" y1=\"34\" x2=\"457.47\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"471.73\" y1=\"34\" x2=\"471.73\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"192.53\" x2=\"486\" y2=\"192.53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"187.07\" x2=\"486\" y2=\"187.07\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"176.13\" x2=\"486\" y2=\"176.13\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"170.67\" x2=\"486\" y2=\"170.67\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"159.73\" x2=\"486\" y2=\"159.73\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"154.27\" x2=\"486\" y2=\"154.27\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"137.87\" x2=\"486\" y2=\"137.87\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"126.93\" x2=\"486\" y2=\"126.93\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"121.47\" x2=\"486\" y2=\"121.47\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"110.53\" x2=\"486\" y2=\"110.53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"105.07\" x2=\"486\" y2=\"105.07\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"94.13\" x2=\"486\" y2=\"94.13\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"77.73\" x2=\"486\" y2=\"77.73\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"72.27\" x2=\"486\" y2=\"72.27\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"61.33\" x2=\"486\" y2=\"61.33\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"55.87\" x2=\"486\" y2=\"55.87\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"44.93\" x2=\"486\" y2=\"44.93\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"39.47\" x2=\"486\" y2=\"39.47\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"129.33\" y1=\"34\" x2=\"129.33\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"200.67\" y1=\"34\" x2=\"200.67\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"343.33\" y1=\"34\" x2=\"343.33\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"414.67\" y1=\"34\" x2=\"414.67\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"170.67\" x2=\"486\" y2=\"170.67\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"61.33\" x2=\"486\" y2=\"61.33\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"129.33\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"200.67\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"272\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"343.33\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"414.67\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"174.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"147.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"92.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"65.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"129.33,163.53 134.83,169.03 129.33,174.53 123.83,169.03\" fill=\"#2B2527\"/><polygon points=\"200.67,132.37 206.17,137.87 200.67,143.37 195.17,137.87\" fill=\"#2B2527\"/><polygon points=\"272,117.06 277.5,122.56 272,128.06 266.5,122.56\" fill=\"#2B2527\"/><polygon points=\"343.33,90.55 348.83,96.05 343.33,101.55 337.83,96.05\" fill=\"#2B2527\"/><polygon points=\"414.67,48.73 420.17,54.23 414.67,59.73 409.17,54.23\" fill=\"#2B2527\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har vätskan?</div><div>b) Vilket ämne skulle det kunna vara?</div><div>c) Kan mätpunkterna i stället komma från is? Motivera svaret.</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna sprider sig kring en rät linje genom origo. Dra linjen så att den följer punkterna så bra som möjligt och läs av en punkt långt ut på den.</p><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{50\\ \\mathrm g}{50\\ \\mathrm{cm^3}}=1{,}00\\ \\mathrm{g/cm^3}\\]</div><p>Enskilda punkter ger värden mellan 0,92 och 1,10 g/cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett ämne med densiteten 1,00 g/cm³ är vatten.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Is har en lägre densitet än vatten, och det är just därför is flyter. Linjen för is skulle luta något flackare.</p><div class=\"facit-matte\">\\[m_{\\mathrm{is}}=0{,}92\\cdot50=46\\ \\mathrm g\\]</div><p>Vid 50 cm³ skulle massan alltså ha varit 46 g i stället för 50 g, så mätpunkterna kan inte komma från is.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(1{,}00\\ \\mathrm{g/cm^3}\\), vilket stämmer med vatten. Is kan det inte vara, eftersom is har \\(0{,}92\\ \\mathrm{g/cm^3}\\).</p><p class=\"facit-not\">Att linjen går genom origo är ingen slump: noll volym ger noll massa, och eftersom densiteten är densamma i alla mängder blir sambandet en rät linje genom origo.</p></div>",
-    "familj": "Densitet och flytförmåga",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -9449,7 +11127,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.101",
@@ -9460,14 +11140,16 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "poang": "(1/2/0)",
     "t": "<p>Diagrammet visar mätpunkter för två olika metaller, A och B. För båda har massan och volymen mätts på bitar av olika storlek.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.31\" x2=\"486\" y2=\"193.31\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"188.63\" x2=\"486\" y2=\"188.63\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"183.94\" x2=\"486\" y2=\"183.94\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"179.26\" x2=\"486\" y2=\"179.26\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"174.57\" x2=\"486\" y2=\"174.57\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"169.89\" x2=\"486\" y2=\"169.89\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"160.51\" x2=\"486\" y2=\"160.51\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"155.83\" x2=\"486\" y2=\"155.83\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"151.14\" x2=\"486\" y2=\"151.14\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"146.46\" x2=\"486\" y2=\"146.46\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"141.77\" x2=\"486\" y2=\"141.77\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"137.09\" x2=\"486\" y2=\"137.09\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"127.71\" x2=\"486\" y2=\"127.71\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"123.03\" x2=\"486\" y2=\"123.03\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"118.34\" x2=\"486\" y2=\"118.34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"113.66\" x2=\"486\" y2=\"113.66\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"108.97\" x2=\"486\" y2=\"108.97\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"104.29\" x2=\"486\" y2=\"104.29\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"94.91\" x2=\"486\" y2=\"94.91\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"90.23\" x2=\"486\" y2=\"90.23\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"85.54\" x2=\"486\" y2=\"85.54\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"80.86\" x2=\"486\" y2=\"80.86\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"76.17\" x2=\"486\" y2=\"76.17\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"71.49\" x2=\"486\" y2=\"71.49\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"62.11\" x2=\"486\" y2=\"62.11\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"57.43\" x2=\"486\" y2=\"57.43\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"52.74\" x2=\"486\" y2=\"52.74\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"48.06\" x2=\"486\" y2=\"48.06\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"43.37\" x2=\"486\" y2=\"43.37\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"38.69\" x2=\"486\" y2=\"38.69\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"174.57\" x2=\"486\" y2=\"174.57\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"151.14\" x2=\"486\" y2=\"151.14\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"127.71\" x2=\"486\" y2=\"127.71\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"104.29\" x2=\"486\" y2=\"104.29\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"80.86\" x2=\"486\" y2=\"80.86\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"57.43\" x2=\"486\" y2=\"57.43\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">12</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">16</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"178.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"155.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"131.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"108.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"84.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"61.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,169.33 149.1,174.83 143.6,180.33 138.1,174.83\" fill=\"#2B2527\"/><polygon points=\"229.2,144 234.7,149.5 229.2,155 223.7,149.5\" fill=\"#2B2527\"/><polygon points=\"314.8,110.5 320.3,116 314.8,121.5 309.3,116\" fill=\"#2B2527\"/><polygon points=\"400.4,81.92 405.9,87.42 400.4,92.92 394.9,87.42\" fill=\"#2B2527\"/><polygon points=\"486,76.06 491.5,81.56 486,87.06 480.5,81.56\" fill=\"#2B2527\"/><polygon points=\"143.6,175.28 149.1,180.78 143.6,186.28 138.1,180.78\" fill=\"#2A5D9E\"/><polygon points=\"229.2,158.53 234.7,164.03 229.2,169.53 223.7,164.03\" fill=\"#2A5D9E\"/><polygon points=\"314.8,149.39 320.3,154.89 314.8,160.39 309.3,154.89\" fill=\"#2A5D9E\"/><polygon points=\"400.4,134.16 405.9,139.66 400.4,145.16 394.9,139.66\" fill=\"#2A5D9E\"/><polygon points=\"486,106.75 491.5,112.25 486,117.75 480.5,112.25\" fill=\"#2A5D9E\"/><text x=\"475.3\" y=\"57.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17.8\" font-weight=\"700\" fill=\"#2B2527\">A</text><text x=\"475.3\" y=\"130.06\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17.8\" font-weight=\"700\" fill=\"#2B2527\">B</text></svg></span>\n<p>Bestäm densiteten för båda metallerna, avgör vilka de kan vara, och beräkna hur många procent lättare en bit av B är än en lika stor bit av A.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Mätpunkterna sprider sig kring var sin räta linje genom origo. Dra en linje genom punkterna i varje serie och läs av linjerna vid \\(V=20\\ \\mathrm{cm^3}\\). Densiteten är linjens lutning.</p><div class=\"facit-matte\">\\[\\rho_A=\\frac{54}{20}=2{,}70\\ \\mathrm{g/cm^3}\\]\\[\\rho_B=\\frac{34}{20}=1{,}70\\ \\mathrm{g/cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med en densitetstabell. Aluminium har 2,70 g/cm³ och magnesium 1,74 g/cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid samma volym förhåller sig massorna som densiteterna.</p><div class=\"facit-matte\">\\[\\frac{m_B}{m_A}=\\frac{34}{54}=0{,}63\\]\\[1-0{,}63=0{,}37=37\\ \\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> A är aluminium med \\(2{,}70\\ \\mathrm{g/cm^3}\\) och B är magnesium med \\(1{,}70\\ \\mathrm{g/cm^3}\\). En bit av B är 37 % lättare än en lika stor bit av A.</p><p class=\"facit-not\">Magnesium är den lättaste metall som används i konstruktioner. Den finns i cykelramar, kamerahus och bildelar, men är samtidigt så reaktiv att den måste ytbehandlas.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.102",
@@ -9478,14 +11160,16 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "poang": "(1/2/0)",
     "t": "<p>Hedda har vägt fem bitar av samma ämne och mätt deras volym. Fyra av punkterna hamnar på en rät linje genom origo, men den femte, som är markerad P, gör det inte.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.31\" x2=\"486\" y2=\"193.31\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"188.63\" x2=\"486\" y2=\"188.63\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"183.94\" x2=\"486\" y2=\"183.94\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"179.26\" x2=\"486\" y2=\"179.26\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"174.57\" x2=\"486\" y2=\"174.57\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"169.89\" x2=\"486\" y2=\"169.89\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"160.51\" x2=\"486\" y2=\"160.51\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"155.83\" x2=\"486\" y2=\"155.83\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"151.14\" x2=\"486\" y2=\"151.14\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"146.46\" x2=\"486\" y2=\"146.46\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"141.77\" x2=\"486\" y2=\"141.77\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"137.09\" x2=\"486\" y2=\"137.09\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"127.71\" x2=\"486\" y2=\"127.71\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"123.03\" x2=\"486\" y2=\"123.03\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"118.34\" x2=\"486\" y2=\"118.34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"113.66\" x2=\"486\" y2=\"113.66\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"108.97\" x2=\"486\" y2=\"108.97\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"104.29\" x2=\"486\" y2=\"104.29\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"94.91\" x2=\"486\" y2=\"94.91\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"90.23\" x2=\"486\" y2=\"90.23\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"85.54\" x2=\"486\" y2=\"85.54\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"80.86\" x2=\"486\" y2=\"80.86\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"76.17\" x2=\"486\" y2=\"76.17\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"71.49\" x2=\"486\" y2=\"71.49\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"62.11\" x2=\"486\" y2=\"62.11\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"57.43\" x2=\"486\" y2=\"57.43\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"52.74\" x2=\"486\" y2=\"52.74\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"48.06\" x2=\"486\" y2=\"48.06\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"43.37\" x2=\"486\" y2=\"43.37\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"38.69\" x2=\"486\" y2=\"38.69\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"174.57\" x2=\"486\" y2=\"174.57\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"151.14\" x2=\"486\" y2=\"151.14\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"127.71\" x2=\"486\" y2=\"127.71\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"104.29\" x2=\"486\" y2=\"104.29\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"80.86\" x2=\"486\" y2=\"80.86\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"57.43\" x2=\"486\" y2=\"57.43\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">12</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">16</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"178.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"155.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"131.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"50\" y=\"108.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"84.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"61.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,165.09 149.1,170.59 143.6,176.09 138.1,170.59\" fill=\"#2B2527\"/><polygon points=\"229.2,145.88 234.7,151.38 229.2,156.88 223.7,151.38\" fill=\"#2B2527\"/><polygon points=\"400.4,100.89 405.9,106.39 400.4,111.89 394.9,106.39\" fill=\"#2B2527\"/><polygon points=\"486,57.08 491.5,62.58 486,68.08 480.5,62.58\" fill=\"#2B2527\"/><polygon points=\"314.8,89.41 320.3,94.91 314.8,100.41 309.3,94.91\" fill=\"#B43123\"/><text x=\"328.8\" y=\"98.91\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"16.3\" font-weight=\"600\" fill=\"#B43123\">P</text></svg></span>\n<p>Bestäm ämnets densitet, avgör vad punkten P borde ha varit, och ge minst två rimliga förklaringar till att just den mätningen blev fel.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fyra av punkterna sprider sig svagt kring en rät linje genom origo, medan P ligger långt utanför den spridningen. Dra linjen genom de fyra och läs av den vid \\(V=20\\ \\mathrm{cm^3}\\).</p><div class=\"facit-matte\">\\[\\rho=\\frac{54}{20}=2{,}70\\ \\mathrm{g/cm^3}\\]</div><p>Värdet stämmer med aluminium.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkten P ligger vid \\(V=12\\ \\mathrm{cm^3}\\). Räkna ut vilken massa den biten borde ha haft.</p><div class=\"facit-matte\">\\[m=\\rho V=2{,}70\\cdot12=32\\ \\mathrm g\\]\\[44-32=12\\ \\mathrm g\\ \\mathrm{för\\ mycket}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Leta efter felkällor som gör massan för stor eller volymen för liten.</p><p>Luftbubblor kan ha suttit kvar på biten i mätglaset, så att vattenytan steg mindre än den skulle och volymen blev för liten.</p><p>Biten kan ha varit blöt eller haft något fastsittande på sig vid vägningen, så att massan blev för stor.</p><p>Biten kan vara av ett annat material än de övriga, eller innehålla en inneslutning av något tyngre ämne.</p><p>Det kan också vara ett rent avläsnings- eller skrivfel.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(2{,}70\\ \\mathrm{g/cm^3}\\), alltså aluminium. Punkten P borde ha legat vid \\(32\\ \\mathrm g\\) i stället för \\(44\\ \\mathrm g\\).</p><p class=\"facit-not\">Poängen med att rita ett diagram i stället för att räkna ρ = m/V på varje enskild mätning är just den här: en avvikande punkt syns direkt med ögat.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.103",
@@ -9496,7 +11180,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "poang": "(1/2/0)",
     "t": "<p>Amir häller olika volymer av en vätska i en burk och väger burken med innehåll varje gång. Diagrammet visar den sammanlagda massan som funktion av vätskans volym.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.31\" x2=\"486\" y2=\"193.31\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"188.63\" x2=\"486\" y2=\"188.63\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"183.94\" x2=\"486\" y2=\"183.94\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"179.26\" x2=\"486\" y2=\"179.26\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"174.57\" x2=\"486\" y2=\"174.57\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"169.89\" x2=\"486\" y2=\"169.89\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"160.51\" x2=\"486\" y2=\"160.51\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"155.83\" x2=\"486\" y2=\"155.83\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"151.14\" x2=\"486\" y2=\"151.14\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"146.46\" x2=\"486\" y2=\"146.46\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"141.77\" x2=\"486\" y2=\"141.77\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"137.09\" x2=\"486\" y2=\"137.09\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"127.71\" x2=\"486\" y2=\"127.71\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"123.03\" x2=\"486\" y2=\"123.03\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"118.34\" x2=\"486\" y2=\"118.34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"113.66\" x2=\"486\" y2=\"113.66\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"108.97\" x2=\"486\" y2=\"108.97\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"104.29\" x2=\"486\" y2=\"104.29\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"94.91\" x2=\"486\" y2=\"94.91\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"90.23\" x2=\"486\" y2=\"90.23\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"85.54\" x2=\"486\" y2=\"85.54\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"80.86\" x2=\"486\" y2=\"80.86\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"76.17\" x2=\"486\" y2=\"76.17\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"71.49\" x2=\"486\" y2=\"71.49\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"62.11\" x2=\"486\" y2=\"62.11\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"57.43\" x2=\"486\" y2=\"57.43\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"52.74\" x2=\"486\" y2=\"52.74\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"48.06\" x2=\"486\" y2=\"48.06\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"43.37\" x2=\"486\" y2=\"43.37\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"38.69\" x2=\"486\" y2=\"38.69\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"174.57\" x2=\"486\" y2=\"174.57\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"151.14\" x2=\"486\" y2=\"151.14\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"127.71\" x2=\"486\" y2=\"127.71\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"104.29\" x2=\"486\" y2=\"104.29\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"80.86\" x2=\"486\" y2=\"80.86\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"57.43\" x2=\"486\" y2=\"57.43\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"165\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"272\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"379\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"178.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"155.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"131.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"108.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"50\" y=\"84.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><text x=\"50\" y=\"61.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">120</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">140</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"58,118.82 63.5,124.32 58,129.82 52.5,124.32\" fill=\"#2B2527\"/><polygon points=\"165,97.38 170.5,102.88 165,108.38 159.5,102.88\" fill=\"#2B2527\"/><polygon points=\"272,96.44 277.5,101.94 272,107.44 266.5,101.94\" fill=\"#2B2527\"/><polygon points=\"379,74.19 384.5,79.69 379,85.19 373.5,79.69\" fill=\"#2B2527\"/><polygon points=\"486,36.7 491.5,42.2 486,47.7 480.5,42.2\" fill=\"#2B2527\"/></svg></span>\n<p>Bestäm vätskans densitet och burkens massa, och förklara varför man inte får rätt densitet om man tar massan delat med volymen för en enskild punkt.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna sprider sig kring en rät linje, men linjen går inte genom origo. Dra linjen så att den följer punkterna, och läs av var den skär massaxeln. Vid volymen noll finns bara burken kvar.</p><div class=\"facit-matte\">\\[m_{\\mathrm{burk}}=60\\ \\mathrm g\\]</div><p>Att den uppmätta punkten vid noll inte hamnar exakt på 60 g beror på att även den vägningen har en osäkerhet. Läs av linjen, inte den enskilda punkten.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Densiteten är linjens lutning, alltså hur mycket massan ökar per kubikcentimeter vätska. Ta två punkter på den ritade linjen som ligger långt isär.</p><div class=\"facit-matte\">\\[\\rho=\\frac{\\Delta m}{\\Delta V}=\\frac{124-60}{80-0}=\\frac{64}{80}=0{,}80\\ \\mathrm{g/cm^3}\\]</div><p>Det stämmer med etanol, som har 0,79 g/cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Pröva vad som händer om man i stället delar rakt av i en enskild mätpunkt, till exempel den vid 60 cm³.</p><div class=\"facit-matte\">\\[\\frac{101}{60}=1{,}68\\ \\mathrm{g/cm^3}\\]</div><p>Värdet blir flera gånger för stort. Felet är att den massan inte bara är vätskans, utan även burkens 60 g. Sambandet \\(m=\\rho V\\) gäller bara för själva vätskan.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vätskans densitet är \\(0{,}80\\ \\mathrm{g/cm^3}\\) och burken väger \\(60\\ \\mathrm g\\).</p><p class=\"facit-not\">Densiteten är alltid lutningen. Det är bara när linjen går genom origo som lutningen råkar vara samma sak som m/V för en enskild punkt.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -9504,7 +11188,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.104",
@@ -9515,14 +11201,16 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "poang": "(1/2/0)",
     "t": "<p>Tuva har mätt massa och volym för olika mängder av en vätska och fått följande diagram.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"79.4\" y1=\"34\" x2=\"79.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"100.8\" y1=\"34\" x2=\"100.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"122.2\" y1=\"34\" x2=\"122.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"165\" y1=\"34\" x2=\"165\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"186.4\" y1=\"34\" x2=\"186.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"34\" x2=\"207.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"250.6\" y1=\"34\" x2=\"250.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"272\" y1=\"34\" x2=\"272\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"293.4\" y1=\"34\" x2=\"293.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"336.2\" y1=\"34\" x2=\"336.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"357.6\" y1=\"34\" x2=\"357.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"379\" y1=\"34\" x2=\"379\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"421.8\" y1=\"34\" x2=\"421.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"443.2\" y1=\"34\" x2=\"443.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"464.6\" y1=\"34\" x2=\"464.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.9\" x2=\"486\" y2=\"193.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"189.8\" x2=\"486\" y2=\"189.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"185.7\" x2=\"486\" y2=\"185.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"181.6\" x2=\"486\" y2=\"181.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"177.5\" x2=\"486\" y2=\"177.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"173.4\" x2=\"486\" y2=\"173.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"169.3\" x2=\"486\" y2=\"169.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.1\" x2=\"486\" y2=\"161.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"157\" x2=\"486\" y2=\"157\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.9\" x2=\"486\" y2=\"152.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"148.8\" x2=\"486\" y2=\"148.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"144.7\" x2=\"486\" y2=\"144.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"140.6\" x2=\"486\" y2=\"140.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"136.5\" x2=\"486\" y2=\"136.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"128.3\" x2=\"486\" y2=\"128.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"124.2\" x2=\"486\" y2=\"124.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"120.1\" x2=\"486\" y2=\"120.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"111.9\" x2=\"486\" y2=\"111.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"107.8\" x2=\"486\" y2=\"107.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"103.7\" x2=\"486\" y2=\"103.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"95.5\" x2=\"486\" y2=\"95.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"91.4\" x2=\"486\" y2=\"91.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"87.3\" x2=\"486\" y2=\"87.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"83.2\" x2=\"486\" y2=\"83.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.1\" x2=\"486\" y2=\"79.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"75\" x2=\"486\" y2=\"75\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.9\" x2=\"486\" y2=\"70.9\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"62.7\" x2=\"486\" y2=\"62.7\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"58.6\" x2=\"486\" y2=\"58.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"54.5\" x2=\"486\" y2=\"54.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"50.4\" x2=\"486\" y2=\"50.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"46.3\" x2=\"486\" y2=\"46.3\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"42.2\" x2=\"486\" y2=\"42.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"38.1\" x2=\"486\" y2=\"38.1\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"177.5\" x2=\"486\" y2=\"177.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"157\" x2=\"486\" y2=\"157\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"136.5\" x2=\"486\" y2=\"136.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"116\" x2=\"486\" y2=\"116\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"95.5\" x2=\"486\" y2=\"95.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"75\" x2=\"486\" y2=\"75\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"54.5\" x2=\"486\" y2=\"54.5\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">2</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">4</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">6</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">8</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"181.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"50\" y=\"161\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"50\" y=\"140.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">60</text><text x=\"50\" y=\"120\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">80</text><text x=\"50\" y=\"99.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><text x=\"50\" y=\"79\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">120</text><text x=\"50\" y=\"58.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">140</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">160</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,162.67 149.1,168.17 143.6,173.67 138.1,168.17\" fill=\"#2B2527\"/><polygon points=\"229.2,132.13 234.7,137.63 229.2,143.13 223.7,137.63\" fill=\"#2B2527\"/><polygon points=\"314.8,117.98 320.3,123.48 314.8,128.98 309.3,123.48\" fill=\"#2B2527\"/><polygon points=\"400.4,87.95 405.9,93.45 400.4,98.95 394.9,93.45\" fill=\"#2B2527\"/><polygon points=\"486,43.88 491.5,49.38 486,54.88 480.5,49.38\" fill=\"#2B2527\"/></svg></span>\n<p>Bestäm vätskans densitet och avgör vilken vätska det är. Beräkna sedan massan av 250 cm³ av vätskan och volymen av 1,0 kg av den.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna sprider sig kring en rät linje genom origo. Dra linjen och läs av den vid \\(V=10\\ \\mathrm{cm^3}\\).</p><div class=\"facit-matte\">\\[\\rho=\\frac{136}{10}=13{,}6\\ \\mathrm{g/cm^3}\\]</div><p>Det är kvicksilver, den enda metall som är flytande vid rumstemperatur.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Massan fås ur \\(m=\\rho V\\).</p><div class=\"facit-matte\">\\[m=13{,}6\\cdot250=3400\\ \\mathrm g=3{,}4\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Volymen fås ur samma samband löst för V.</p><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{1000}{13{,}6}=74\\ \\mathrm{cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är \\(13{,}6\\ \\mathrm{g/cm^3}\\), alltså kvicksilver. 250 cm³ väger \\(3{,}4\\ \\mathrm{kg}\\) och 1,0 kg tar upp \\(74\\ \\mathrm{cm^3}\\).</p><p class=\"facit-not\">En liter kvicksilver väger 13,6 kg. Omvänt tar ett kilo bara upp 74 cm³. Det är därför gamla kvicksilverbarometrar kunde vara så korta, medan en vattenbarometer hade behövt vara över tio meter hög.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Densitet från massa–volym-diagram",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.105",
@@ -9533,7 +11221,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "poang": "(1/2/0)",
     "t": "<p>Fem massiva bitar av samma metall har vägts och volymbestämts, och deras mätpunkter ligger på en rät linje genom origo. Ett sjätte föremål av samma metall har också mätts, men dess punkt P hamnar under linjen.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"75.12\" y1=\"34\" x2=\"75.12\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"92.24\" y1=\"34\" x2=\"92.24\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"109.36\" y1=\"34\" x2=\"109.36\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"126.48\" y1=\"34\" x2=\"126.48\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"160.72\" y1=\"34\" x2=\"160.72\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"177.84\" y1=\"34\" x2=\"177.84\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"194.96\" y1=\"34\" x2=\"194.96\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"212.08\" y1=\"34\" x2=\"212.08\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"246.32\" y1=\"34\" x2=\"246.32\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"263.44\" y1=\"34\" x2=\"263.44\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"280.56\" y1=\"34\" x2=\"280.56\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"297.68\" y1=\"34\" x2=\"297.68\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"331.92\" y1=\"34\" x2=\"331.92\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"349.04\" y1=\"34\" x2=\"349.04\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"366.16\" y1=\"34\" x2=\"366.16\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"383.28\" y1=\"34\" x2=\"383.28\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"417.52\" y1=\"34\" x2=\"417.52\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"434.64\" y1=\"34\" x2=\"434.64\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"451.76\" y1=\"34\" x2=\"451.76\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"468.88\" y1=\"34\" x2=\"468.88\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"194.36\" x2=\"486\" y2=\"194.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"190.71\" x2=\"486\" y2=\"190.71\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"187.07\" x2=\"486\" y2=\"187.07\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"183.42\" x2=\"486\" y2=\"183.42\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"179.78\" x2=\"486\" y2=\"179.78\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"176.13\" x2=\"486\" y2=\"176.13\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"172.49\" x2=\"486\" y2=\"172.49\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"168.84\" x2=\"486\" y2=\"168.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"161.56\" x2=\"486\" y2=\"161.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"157.91\" x2=\"486\" y2=\"157.91\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"154.27\" x2=\"486\" y2=\"154.27\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"150.62\" x2=\"486\" y2=\"150.62\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"146.98\" x2=\"486\" y2=\"146.98\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"139.69\" x2=\"486\" y2=\"139.69\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"136.04\" x2=\"486\" y2=\"136.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"128.76\" x2=\"486\" y2=\"128.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"125.11\" x2=\"486\" y2=\"125.11\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"121.47\" x2=\"486\" y2=\"121.47\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"117.82\" x2=\"486\" y2=\"117.82\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"114.18\" x2=\"486\" y2=\"114.18\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"110.53\" x2=\"486\" y2=\"110.53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106.89\" x2=\"486\" y2=\"106.89\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"103.24\" x2=\"486\" y2=\"103.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"95.96\" x2=\"486\" y2=\"95.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"92.31\" x2=\"486\" y2=\"92.31\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"85.02\" x2=\"486\" y2=\"85.02\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"81.38\" x2=\"486\" y2=\"81.38\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"77.73\" x2=\"486\" y2=\"77.73\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"74.09\" x2=\"486\" y2=\"74.09\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"70.44\" x2=\"486\" y2=\"70.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"63.16\" x2=\"486\" y2=\"63.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"59.51\" x2=\"486\" y2=\"59.51\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"55.87\" x2=\"486\" y2=\"55.87\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"52.22\" x2=\"486\" y2=\"52.22\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"48.58\" x2=\"486\" y2=\"48.58\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"44.93\" x2=\"486\" y2=\"44.93\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"41.29\" x2=\"486\" y2=\"41.29\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"37.64\" x2=\"486\" y2=\"37.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"179.78\" x2=\"486\" y2=\"179.78\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"161.56\" x2=\"486\" y2=\"161.56\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"143.33\" x2=\"486\" y2=\"143.33\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"125.11\" x2=\"486\" y2=\"125.11\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"106.89\" x2=\"486\" y2=\"106.89\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"88.67\" x2=\"486\" y2=\"88.67\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"70.44\" x2=\"486\" y2=\"70.44\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"52.22\" x2=\"486\" y2=\"52.22\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"183.78\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"165.56\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><text x=\"50\" y=\"147.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">150</text><text x=\"50\" y=\"129.11\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">200</text><text x=\"50\" y=\"110.89\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">250</text><text x=\"50\" y=\"92.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">300</text><text x=\"50\" y=\"74.44\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">350</text><text x=\"50\" y=\"56.22\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">400</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">450</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,165.42 149.1,170.92 143.6,176.42 138.1,170.92\" fill=\"#2B2527\"/><polygon points=\"229.2,137.83 234.7,143.33 229.2,148.83 223.7,143.33\" fill=\"#2B2527\"/><polygon points=\"314.8,97.38 320.3,102.88 314.8,108.38 309.3,102.88\" fill=\"#2B2527\"/><polygon points=\"400.4,67.13 405.9,72.63 400.4,78.13 394.9,72.63\" fill=\"#2B2527\"/><polygon points=\"486,56.2 491.5,61.7 486,67.2 480.5,61.7\" fill=\"#2B2527\"/><polygon points=\"486,90.46 491.5,95.96 486,101.46 480.5,95.96\" fill=\"#B43123\"/><text x=\"472\" y=\"99.96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"16.3\" font-weight=\"600\" fill=\"#B43123\">P</text></svg></span>\n<p>Bestäm metallens densitet, förklara varför punkten P hamnar under linjen, och beräkna hur stort hålrummet i det sjätte föremålet är.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De fem massiva bitarna sprider sig kring en rät linje genom origo. Dra linjen och läs av den vid \\(V=50\\ \\mathrm{cm^3}\\). P ligger långt under linjen, mycket längre bort än mätspridningen förklarar.</p><div class=\"facit-matte\">\\[\\rho=\\frac{400}{50}=8{,}0\\ \\mathrm{g/cm^3}\\]</div><p>Det stämmer bra med järn eller stål, som ligger runt 7,9 g/cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför P med vad ett massivt föremål med samma yttervolym skulle ha vägt.</p><div class=\"facit-matte\">\\[m_{\\mathrm{massiv}}=8{,}0\\cdot50=400\\ \\mathrm g\\]\\[400-280=120\\ \\mathrm g\\ \\mathrm{för\\ lite}\\]</div><p>Den uppmätta volymen är föremålets yttervolym, men bara en del av den innehåller metall. Resten är ett hålrum fyllt med luft, som väger försumbart lite. Därför hamnar punkten under linjen.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Räkna ut hur stor volym metallen upptar och dra bort den från yttervolymen.</p><div class=\"facit-matte\">\\[V_{\\mathrm{metall}}=\\frac{280}{8{,}0}=35\\ \\mathrm{cm^3}\\]\\[V_{\\mathrm{hål}}=50-35=15\\ \\mathrm{cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Metallens densitet är \\(8{,}0\\ \\mathrm{g/cm^3}\\) och hålrummet är \\(15\\ \\mathrm{cm^3}\\).</p><p class=\"facit-not\">En punkt under linjen betyder alltid att kroppen innehåller något lättare än materialet i linjen, oftast luft. En punkt över linjen skulle på samma sätt betyda att något tyngre finns inuti.</p></div>",
-    "familj": "Densitet med geometrisk volym",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -9541,7 +11229,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "2.106",
@@ -9550,9 +11240,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "niva": "A",
     "typ": "kombinera densitet ur diagram med hålrumsberäkning och flytvillkor för en ihålig kula, ur diagram, sökt densitet volym och resonemang",
     "poang": "(0/1/2)",
-    "t": "<p>Diagrammet visar mätpunkter för massiva bitar av en metall. En ihålig kula av samma metall har massan 420 g och yttervolymen 80 cm³.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"75.12\" y1=\"34\" x2=\"75.12\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"92.24\" y1=\"34\" x2=\"92.24\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"109.36\" y1=\"34\" x2=\"109.36\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"126.48\" y1=\"34\" x2=\"126.48\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"160.72\" y1=\"34\" x2=\"160.72\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"177.84\" y1=\"34\" x2=\"177.84\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"194.96\" y1=\"34\" x2=\"194.96\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"212.08\" y1=\"34\" x2=\"212.08\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"246.32\" y1=\"34\" x2=\"246.32\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"263.44\" y1=\"34\" x2=\"263.44\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"280.56\" y1=\"34\" x2=\"280.56\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"297.68\" y1=\"34\" x2=\"297.68\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"331.92\" y1=\"34\" x2=\"331.92\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"349.04\" y1=\"34\" x2=\"349.04\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"366.16\" y1=\"34\" x2=\"366.16\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"383.28\" y1=\"34\" x2=\"383.28\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"417.52\" y1=\"34\" x2=\"417.52\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"434.64\" y1=\"34\" x2=\"434.64\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"451.76\" y1=\"34\" x2=\"451.76\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"468.88\" y1=\"34\" x2=\"468.88\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"191.44\" x2=\"486\" y2=\"191.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"184.88\" x2=\"486\" y2=\"184.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178.32\" x2=\"486\" y2=\"178.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"171.76\" x2=\"486\" y2=\"171.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"158.64\" x2=\"486\" y2=\"158.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.08\" x2=\"486\" y2=\"152.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"145.52\" x2=\"486\" y2=\"145.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"138.96\" x2=\"486\" y2=\"138.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"125.84\" x2=\"486\" y2=\"125.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"119.28\" x2=\"486\" y2=\"119.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"112.72\" x2=\"486\" y2=\"112.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106.16\" x2=\"486\" y2=\"106.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"93.04\" x2=\"486\" y2=\"93.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"86.48\" x2=\"486\" y2=\"86.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.92\" x2=\"486\" y2=\"79.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"73.36\" x2=\"486\" y2=\"73.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"60.24\" x2=\"486\" y2=\"60.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"53.68\" x2=\"486\" y2=\"53.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"47.12\" x2=\"486\" y2=\"47.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"40.56\" x2=\"486\" y2=\"40.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"169.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><text x=\"50\" y=\"136.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">200</text><text x=\"50\" y=\"103.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">300</text><text x=\"50\" y=\"70.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">400</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">500</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,163.14 149.1,168.64 143.6,174.14 138.1,168.64\" fill=\"#2B2527\"/><polygon points=\"229.2,133.13 234.7,138.63 229.2,144.13 223.7,138.63\" fill=\"#2B2527\"/><polygon points=\"314.8,116.4 320.3,121.9 314.8,127.4 309.3,121.9\" fill=\"#2B2527\"/><polygon points=\"400.4,92.46 405.9,97.96 400.4,103.46 394.9,97.96\" fill=\"#2B2527\"/><polygon points=\"486,44.9 491.5,50.4 486,55.9 480.5,50.4\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilken densitet har metallen, och vilken metall kan det vara?</li>\n<li>Hur stort är hålrummet inuti kulan?</li>\n<li>Kulan läggs i kvicksilver, som har densiteten 13,6 g/cm³. Flyter den eller sjunker den? Hur skulle det gå i vatten?</li></ol>",
+    "t": "<p>Diagrammet visar mätpunkter för massiva bitar av en metall. En ihålig kula av samma metall har massan 420 g och yttervolymen 80 cm³.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMinYMid meet\" viewBox=\"0 0 500 252\"><rect x=\"58\" y=\"34\" width=\"428\" height=\"164\" fill=\"#fff\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"75.12\" y1=\"34\" x2=\"75.12\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"92.24\" y1=\"34\" x2=\"92.24\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"109.36\" y1=\"34\" x2=\"109.36\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"126.48\" y1=\"34\" x2=\"126.48\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"160.72\" y1=\"34\" x2=\"160.72\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"177.84\" y1=\"34\" x2=\"177.84\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"194.96\" y1=\"34\" x2=\"194.96\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"212.08\" y1=\"34\" x2=\"212.08\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"246.32\" y1=\"34\" x2=\"246.32\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"263.44\" y1=\"34\" x2=\"263.44\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"280.56\" y1=\"34\" x2=\"280.56\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"297.68\" y1=\"34\" x2=\"297.68\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"331.92\" y1=\"34\" x2=\"331.92\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"349.04\" y1=\"34\" x2=\"349.04\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"366.16\" y1=\"34\" x2=\"366.16\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"383.28\" y1=\"34\" x2=\"383.28\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"417.52\" y1=\"34\" x2=\"417.52\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"434.64\" y1=\"34\" x2=\"434.64\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"451.76\" y1=\"34\" x2=\"451.76\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"468.88\" y1=\"34\" x2=\"468.88\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"191.44\" x2=\"486\" y2=\"191.44\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"184.88\" x2=\"486\" y2=\"184.88\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"178.32\" x2=\"486\" y2=\"178.32\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"171.76\" x2=\"486\" y2=\"171.76\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"158.64\" x2=\"486\" y2=\"158.64\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"152.08\" x2=\"486\" y2=\"152.08\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"145.52\" x2=\"486\" y2=\"145.52\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"138.96\" x2=\"486\" y2=\"138.96\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"125.84\" x2=\"486\" y2=\"125.84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"119.28\" x2=\"486\" y2=\"119.28\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"112.72\" x2=\"486\" y2=\"112.72\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"106.16\" x2=\"486\" y2=\"106.16\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"93.04\" x2=\"486\" y2=\"93.04\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"86.48\" x2=\"486\" y2=\"86.48\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"79.92\" x2=\"486\" y2=\"79.92\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"73.36\" x2=\"486\" y2=\"73.36\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"60.24\" x2=\"486\" y2=\"60.24\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"53.68\" x2=\"486\" y2=\"53.68\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"47.12\" x2=\"486\" y2=\"47.12\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"40.56\" x2=\"486\" y2=\"40.56\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"143.6\" y1=\"34\" x2=\"143.6\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"229.2\" y1=\"34\" x2=\"229.2\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"314.8\" y1=\"34\" x2=\"314.8\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"400.4\" y1=\"34\" x2=\"400.4\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"486\" y1=\"34\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"165.2\" x2=\"486\" y2=\"165.2\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"132.4\" x2=\"486\" y2=\"132.4\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"99.6\" x2=\"486\" y2=\"99.6\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"66.8\" x2=\"486\" y2=\"66.8\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><line x1=\"58\" y1=\"34\" x2=\"486\" y2=\"34\" stroke=\"#C9C8CC\" stroke-width=\"1.38\"/><text x=\"58\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"143.6\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">10</text><text x=\"229.2\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">20</text><text x=\"314.8\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">30</text><text x=\"400.4\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">40</text><text x=\"486\" y=\"216\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">50</text><text x=\"50\" y=\"202\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">0</text><text x=\"50\" y=\"169.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">100</text><text x=\"50\" y=\"136.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">200</text><text x=\"50\" y=\"103.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">300</text><text x=\"50\" y=\"70.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">400</text><text x=\"50\" y=\"38\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"15.6\" font-weight=\"400\" fill=\"#5C575E\">500</text><line x1=\"58\" y1=\"34\" x2=\"58\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"58\" y1=\"198\" x2=\"486\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"14\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Massa (g)</text><text x=\"486\" y=\"238\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"17\" font-weight=\"600\" fill=\"#2B2527\">Volym (cm³)</text><polygon points=\"143.6,163.14 149.1,168.64 143.6,174.14 138.1,168.64\" fill=\"#2B2527\"/><polygon points=\"229.2,133.13 234.7,138.63 229.2,144.13 223.7,138.63\" fill=\"#2B2527\"/><polygon points=\"314.8,116.4 320.3,121.9 314.8,127.4 309.3,121.9\" fill=\"#2B2527\"/><polygon points=\"400.4,92.46 405.9,97.96 400.4,103.46 394.9,97.96\" fill=\"#2B2527\"/><polygon points=\"486,44.9 491.5,50.4 486,55.9 480.5,50.4\" fill=\"#2B2527\"/></svg></span>\n<div class=\"deluppgifter\" style=\"display:grid;gap:0.72rem;margin:0.9rem 0;\"><div>a) Vilken densitet har metallen, och vilken metall kan det vara?</div><div>b) Hur stort är hålrummet inuti kulan?</div><div>c) Kulan läggs i kvicksilver, som har densiteten 13,6 g/cm³. Flyter den eller sjunker den? Hur skulle det gå i vatten?</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkterna sprider sig kring en rät linje genom origo. Dra linjen och läs av den vid \\(V=50\\ \\mathrm{cm^3}\\).</p><div class=\"facit-matte\">\\[\\rho=\\frac{420}{50}=8{,}4\\ \\mathrm{g/cm^3}\\]</div><p>Det stämmer med mässing, en legering av koppar och zink.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Hela kulans massa är metall, eftersom luften i hålrummet väger försumbart lite. Räkna ut metallens volym och dra bort den från yttervolymen.</p><div class=\"facit-matte\">\\[V_{\\mathrm{metall}}=\\frac{420}{8{,}4}=50\\ \\mathrm{cm^3}\\]\\[V_{\\mathrm{hål}}=80-50=30\\ \\mathrm{cm^3}\\]</div><p>Nästan 40 % av kulans volym är alltså luft.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Det som avgör om en kropp flyter är dess medeldensitet, alltså hela massan delat med hela yttervolymen.</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{medel}}=\\frac{420}{80}=5{,}25\\ \\mathrm{g/cm^3}\\]\\[5{,}25<13{,}6\\quad\\text{flyter}\\]\\[5{,}25>1{,}00\\quad\\text{sjunker}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Metallen är mässing med \\(8{,}4\\ \\mathrm{g/cm^3}\\). Hålrummet är \\(30\\ \\mathrm{cm^3}\\). Kulan flyter i kvicksilver men sjunker i vatten.</p><p class=\"facit-not\">Massiv mässing flyter också i kvicksilver, eftersom 8,4 < 13,6. Det hålrummet åstadkommer är att medeldensiteten sänks från 8,4 till 5,25 g/cm³, vilket är precis principen bakom ett fartygsskrov i stål.</p></div>",
-    "familj": "Densitet och flytförmåga",
+    "familj": "Sammansatt densitet, legeringar och hålrum",
     "formaga": [
       "problemlösning",
       "modellering"
@@ -9560,7 +11250,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "3.99",
@@ -9621,7 +11313,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
       "99"
     ],
     "tolerans": [
-      51.0,
+      51,
       0.51
     ],
     "självrättning": true
@@ -10912,8 +12604,8 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       0.51,
-      51.0,
-      510000.0
+      51,
+      510000
     ],
     "självrättning": true
   },
@@ -12956,7 +14648,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       0.0051,
-      51.0
+      51
     ],
     "självrättning": true
   },
@@ -13351,7 +15043,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
       0.00051,
       0.051000000000000004,
       0.00051,
-      51.0
+      51
     ],
     "självrättning": true
   },
@@ -14143,7 +15835,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       0,
-      5.1e+17
+      510000000000000000
     ],
     "självrättning": true
   },
@@ -14289,7 +15981,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "8.1",
@@ -14581,7 +16275,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "8.2",
@@ -18274,7 +19970,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "tolerans": [
       0.051000000000000004,
       5.1e-07,
-      51.0
+      51
     ],
     "självrättning": true
   },
@@ -18882,7 +20578,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       0,
-      5.1e+17
+      510000000000000000
     ],
     "självrättning": true
   },
@@ -18928,7 +20624,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "spel": false,
+    "spelOrsak": "Kräver diagramritning eller anpassning av en rät linje och lämpar sig därför bättre utanför den adaptiva spelomgången."
   },
   {
     "id": "8.84",
@@ -20956,9 +22654,9 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
     ],
     "tolerans": [
       0.51,
-      510.0,
+      510,
       5.1000000000000006e-05,
-      510.0
+      510
     ],
     "självrättning": true
   },
@@ -21997,7 +23695,7 @@ window.BANK = /* Kunskapsgymmet-metadata 2026-09-06:
       "11.8"
     ],
     "tolerans": [
-      510.0,
+      510,
       0.051000000000000004,
       0.051000000000000004
     ],

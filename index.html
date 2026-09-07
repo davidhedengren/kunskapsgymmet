@@ -351,7 +351,7 @@ a{color:inherit}
 .pill{
   display:inline-flex;align-items:center;gap:7px;padding:6px 12px 6px 8px;border-radius:99px;
   border:1px solid var(--hair);background:var(--surface);font-size:12.5px;font-weight:600;
-  transition:.2s var(--ease);white-space:nowrap;flex:none;
+  transition:.2s var(--ease);white-space:nowrap;flex:none;position:relative;
 }
 .pill:hover{border-color:var(--hair2)}
 .pill .lvl{font-weight:700;letter-spacing:-.01em}
@@ -361,6 +361,25 @@ a{color:inherit}
   width:20px;height:20px;border-radius:7px;display:grid;place-items:center;font-size:9px;font-weight:700;
   color:#3b2c07;background:linear-gradient(160deg,#f0d296,#c79a3c);letter-spacing:0;
 }
+/* XP-stapeln i toppfältet. Samma mässing som all annan belöning, och
+   samma uppförande som mätaren i träningsvyn: den rör sig när XP läggs på. */
+.pill .xpbar{
+  width:62px;height:5px;flex:none;border-radius:99px;background:var(--hair);overflow:hidden;
+  margin-left:2px;
+}
+.pill .xpbar i{
+  display:block;height:100%;width:0;border-radius:99px;
+  background:linear-gradient(90deg,#c79a3c,var(--gold2));
+  transition:width .9s var(--ease);
+}
+.pill .xpnum{color:var(--ink3);font-weight:600;font-size:11.5px;letter-spacing:-.01em}
+.pill .xpnum .sep{margin:0 2px;opacity:.55}
+.pill .gain{
+  position:absolute;left:50%;top:0;transform:translateX(-50%);opacity:0;pointer-events:none;
+  font-size:12px;font-weight:700;color:var(--gold);white-space:nowrap;
+}
+.pill .gain.fly{animation:xpfly 1.6s var(--ease) both}
+.pill.tick{border-color:var(--gold2);box-shadow:0 0 0 4px var(--goldSoft)}
 .flame{color:var(--gold);font-weight:700}
 .konto{
   width:34px;height:34px;border-radius:50%;overflow:hidden;display:grid;place-items:center;flex:none;
@@ -1084,12 +1103,17 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   .course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 /* Toppfältet på mobil: inget får radbrytas, och rangen kortas ned
-   till sitt märke och sitt dagsstreck när bredden tryter. */
+   till sitt märke och sitt dagsstreck när bredden tryter. XP-stapeln
+   är det sista som viker, för det är den som ska synas hela tiden. */
+@media(max-width:820px){
+  .topbar .pill .xpnum{display:none}
+}
 @media(max-width:620px){
   .topbar .inner{height:60px;gap:7px}
   .brand{font-size:15.5px;gap:9px}
   .pill{padding:5px 10px 5px 6px;font-size:12px}
   .pill .rname{display:none}
+  .pill .xpbar{width:52px}
   .pill .flame:before{content:"·";margin-right:6px;opacity:.5;color:var(--ink3);font-weight:600}
   .topbar .btn.sm{padding:7px 11px}
   .iconbtn{width:34px;height:34px;border-radius:11px}
@@ -1112,6 +1136,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 @media(max-width:392px){
   .topbar .pill .flame,.topbar .pill .rankdot{display:none}
   .topbar .pill{padding:5px 11px}
+  .topbar .pill .xpbar{width:44px}
 }
 @media(max-width:340px){
   .topbar .iconbtn{display:none}
@@ -1897,11 +1922,14 @@ window.addEventListener("scroll",()=>{
 
 function topbar(){
   const lp=levelProgress(), r=rankFor(lp.level), st=currentStreak();
-  const badge=profile.attempts?`<button class="pill" onclick="showProgress()" title="Nivå ${lp.level} · ${esc(r.name)}${st?` · ${st} dagar i rad`:""} — visa min utveckling">
-      <span class="rankdot">${r.sym}</span>
-      <span class="lvl">Nivå ${lp.level}</span>
-      <span class="rname">${esc(r.name)}</span>
+  const badge=profile.attempts?`<button class="pill" onclick="showProgress()" title="Nivå ${lp.level} · ${esc(r.name)} · ${lp.into} av ${lp.need} XP till nivå ${lp.level+1}${st?` · ${st} dagar i rad`:""} — visa min utveckling">
+      <span class="rankdot" id="xprankdot">${r.sym}</span>
+      <span class="lvl">Nivå <span id="xplvl">${lp.level}</span></span>
+      <span class="rname" id="xprank">${esc(r.name)}</span>
+      <span class="xpbar"><i id="xpfill" style="width:${Math.round(lp.pct*100)}%"></i></span>
+      <span class="xpnum" id="xpnum">${lp.into}<span class="sep">/</span>${lp.need}</span>
       ${st?`<span class="flame">${st}\u2009d</span>`:""}
+      <span class="gain" id="xpgain" aria-hidden="true"></span>
     </button>`:"";
   return `<header class="topbar"><div class="shell inner">
     <button class="brand" onclick="goHome()" aria-label="Till startsidan">
@@ -3880,8 +3908,10 @@ function oneAnswerCorrect(user,expected,t,delIndex){
 
 /* ==========================================================
    XP-MÄTAREN
-   Ligger i träningens toppfält och står kvar hela passet. Den visar
-   nivån, hur långt in på nivån eleven är och hur mycket som återstår.
+   Finns i två skepnader men styrs av samma kod: som stapel i rangpillret
+   i toppfältet, och som egen mätare i träningens toppfält, där inget
+   toppfält finns. Bara en av dem ligger i DOM:en åt gången, så de kan
+   dela id.
    ========================================================== */
 
 function xpMeterHtml(){
@@ -3896,12 +3926,20 @@ function xpMeterHtml(){
   </div>`;
 }
 
+/* Vilken av de två skepnaderna som just nu står på skärmen. */
+function xpRuta(){
+  return document.getElementById("xpmeter") || document.querySelector(".topbar .pill");
+}
+
 /* Siffran räknas upp i takt med stapeln. Ett hopp från 140 till 158
    läses som en omritning, en uppräkning läses som en belöning. */
 let xpTween=null;
 function xpSkrivTal(into,need){
   const num=document.getElementById("xpnum");
-  if(num) num.innerHTML=`${into}<span class="sep">/</span>${need} XP`;
+  if(!num) return;
+  // I pillret är det trångt, så enheten står bara i träningsvyn.
+  const kort=!!num.closest(".pill");
+  num.innerHTML=`${into}<span class="sep">/</span>${need}${kort?"":" XP"}`;
 }
 function xpRaknaUpp(fran,till,need,ms){
   cancelAnimationFrame(xpTween);
@@ -3918,14 +3956,19 @@ function xpRaknaUpp(fran,till,need,ms){
 /* Skriver mätaren till ett bestämt XP-värde. */
 function xpStall(xp,animeraTal,fran){
   const fill=document.getElementById("xpfill"), lvl=document.getElementById("xplvl"),
-        meter=document.getElementById("xpmeter");
+        meter=xpRuta();
   if(!fill) return;
   const L=levelFromXP(xp), bas=totalXpForLevel(L), topp=totalXpForLevel(L+1);
   const into=xp-bas, need=Math.max(1,topp-bas);
   fill.style.width=Math.round(100*into/need)+"%";
   if(lvl) lvl.textContent=L;
+  // Rangen kan ha bytts på vägen, och den står skriven i pillret.
+  const r=rankFor(L);
+  const rk=document.getElementById("xprank"), rd=document.getElementById("xprankdot");
+  if(rk) rk.textContent=r.name;
+  if(rd) rd.innerHTML=r.sym;
   if(meter){
-    meter.title=`Nivå ${L} · ${into} av ${need} XP till nivå ${L+1}`;
+    meter.title=`Nivå ${L} · ${esc(r.name)} · ${into} av ${need} XP till nivå ${L+1}`;
     meter.setAttribute("aria-label",`Nivå ${L}, ${into} av ${need} XP till nästa nivå`);
   }
   if(animeraTal) xpRaknaUpp(fran,into,need,900); else xpSkrivTal(into,need);
@@ -3935,7 +3978,7 @@ function xpStall(xp,animeraTal,fran){
    stapeln först ända fram, nollställs utan animering och börjar om
    på den nya nivån. */
 function animeraXp(fore,efter){
-  const meter=document.getElementById("xpmeter"), fill=document.getElementById("xpfill"),
+  const meter=xpRuta(), fill=document.getElementById("xpfill"),
         lvl=document.getElementById("xplvl"), gain=document.getElementById("xpgain");
   if(!meter||!fill) return;
   const vunnet=efter-fore;

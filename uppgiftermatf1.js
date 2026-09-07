@@ -1,6 +1,7 @@
-/* uppgiftermatf1.js — Matematik – fördjupning nivå 1.
-   Kunskapsgymmet-metadata: pedagogiska familjer och konservativ självrättning.
-   Förmågemetadata och allt uppgifts-/facitinnehåll är bevarat från källfilen.
+/* Kunskapsgymmet-rutinuppdelning 2026-09-07
+   Extra metadata: spelDelning och spelDelar.
+   Uppgiftslabbet kan fortsätta använda originaluppgiften med alla deluppgifter.
+   Kunskapsgymmet kan expandera markerade rutinuppgifter till en träningsuppgift per del.
 */
 
 window.BANKMATF1 = [
@@ -510,6 +511,19 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Avgör om påståendena är sanna eller falska.</p><div class=\"spel-en-del\">\\(2\\in A\\)</div>",
+        "s": "<p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p><div class=\"spel-en-del\"><strong>Falskt.</strong> Talet 2 är inte ett element i \\(A\\).</div>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Avgör om påståendena är sanna eller falska.</p><div class=\"spel-en-del\">\\(\\{2\\}\\in A\\)</div>",
+        "s": "<p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p><div class=\"spel-en-del\"><strong>Sant.</strong> Mängden \\(\\{2\\}\\) är ett element i \\(A\\).</div>"
+      }
     ]
   },
   {
@@ -1098,6 +1112,19 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Utveckla.</p><div class=\"spel-en-del\">\\((2x+x^2)^5\\)</div>",
+        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">Faktorisera gärna \\(x\\): \\((x(2+x))^5=x^5(2+x)^5\\). Det ger <strong>\\(32x^5+80x^6+80x^7+40x^8+10x^9+x^{10}\\)</strong>.</div>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Utveckla.</p><div class=\"spel-en-del\">\\((2x-y)^5\\)</div>",
+        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\"><strong>\\(32x^5-80x^4y+80x^3y^2-40x^2y^3+10xy^4-y^5\\)</strong>.</div>"
+      }
     ]
   },
   {
@@ -1143,6 +1170,19 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Bestäm koefficienten framför</p><div class=\"spel-en-del\">\\(x^7y^4\\) i \\((x+y)^{11}\\),</div>",
+        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">Koefficienten är <strong>\\(\\binom{11}{4}=330\\)</strong>.</div>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Bestäm koefficienten framför</p><div class=\"spel-en-del\">\\(x^5y^8\\) i \\((2x+y^2)^9\\).</div>",
+        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">För \\(y^8\\) behövs fyra faktorer \\(y^2\\), alltså fem faktorer \\(2x\\). Koefficienten blir <strong>\\(\\binom94 2^5=4032\\)</strong>.</div>"
+      }
     ]
   },
   {
@@ -9920,7 +9960,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 6.0,
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -15146,7 +15186,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.0,
+    "rättSvar": 8,
     "tolerans": null,
     "självrättning": true,
     "formaga": [

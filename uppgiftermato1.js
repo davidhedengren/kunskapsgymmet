@@ -1,8 +1,7 @@
-/* uppgiftermato1_kunskapsgymmet.js — Matematik – fortsättning nivå 1b och 1c.
-
-   Uppdaterad för Kunskapsgymmet: pedagogiska familjer och säker självrättning.
-   I matematik räcker korrekt numeriskt mätvärde för självrättning även när facit anger enhet.
-   Öppna resonemang, ritning, intervall och lösningsmängder som inte kan representeras säkert lämnas för självbedömning.
+/* Kunskapsgymmet-rutinuppdelning 2026-09-07
+   Extra metadata: spelDelning och spelDelar.
+   Uppgiftslabbet kan fortsätta använda originaluppgiften med alla deluppgifter.
+   Kunskapsgymmet kan expandera markerade rutinuppgifter till en träningsuppgift per del.
 */
 
 window.BANKMATO1 = [
@@ -294,6 +293,24 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Låt \\(f(x)=2 x^{2} - 3 x + 1\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(0)\\).</div></p>",
+        "s": "<p><strong>Metod:</strong> Sätt in det angivna x-värdet i funktionsuttrycket och räkna i rätt ordning.</p><p><div class=\"spel-en-del\">\\(f(0)=1\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Låt \\(f(x)=2 x^{2} - 3 x + 1\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(1)\\).</div></p>",
+        "s": "<p><strong>Metod:</strong> Sätt in det angivna x-värdet i funktionsuttrycket och räkna i rätt ordning.</p><p><div class=\"spel-en-del\">\\(f(1)=0\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Låt \\(f(x)=2 x^{2} - 3 x + 1\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(2)\\).</div></p>",
+        "s": "<p><strong>Metod:</strong> Sätt in det angivna x-värdet i funktionsuttrycket och räkna i rätt ordning.</p><p><div class=\"spel-en-del\">\\(f(2)=3\\).</div></p>"
+      }
     ]
   },
   {
@@ -369,6 +386,29 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Beräkna.</p><p><div class=\"spel-en-del\">\\(|-7|\\)</div></p>",
+        "s": "<p>Absolutbeloppet är avståndet till 0 på tallinjen och är därför aldrig negativt.</p><p><div class=\"spel-en-del\"><strong>7</strong></div></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Beräkna.</p><p><div class=\"spel-en-del\">\\(|5-9|\\)</div></p>",
+        "s": "<p>Absolutbeloppet är avståndet till 0 på tallinjen och är därför aldrig negativt.</p><p><div class=\"spel-en-del\">\\(|-4|=\\)<strong>4</strong></div></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Beräkna.</p><p><div class=\"spel-en-del\">\\(|-3|+|4|\\)</div></p>",
+        "s": "<p>Absolutbeloppet är avståndet till 0 på tallinjen och är därför aldrig negativt.</p><p><div class=\"spel-en-del\">\\(3+4=\\)<strong>7</strong></div></p>"
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Beräkna.</p><p><div class=\"spel-en-del\">\\(|0|\\).</div></p>",
+        "s": "<p>Absolutbeloppet är avståndet till 0 på tallinjen och är därför aldrig negativt.</p><p><div class=\"spel-en-del\"><strong>0</strong></div></p>"
+      }
     ]
   },
   {
@@ -420,6 +460,24 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Låt \\(f(x)=- x^{3} + 4 x\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(-1)\\).</div></p>",
+        "s": "<p><strong>Metod:</strong> Sätt in det angivna x-värdet i funktionsuttrycket och räkna i rätt ordning.</p><p><div class=\"spel-en-del\">\\(f(-1)=-3\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Låt \\(f(x)=- x^{3} + 4 x\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(1)\\).</div></p>",
+        "s": "<p><strong>Metod:</strong> Sätt in det angivna x-värdet i funktionsuttrycket och räkna i rätt ordning.</p><p><div class=\"spel-en-del\">\\(f(1)=3\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Låt \\(f(x)=- x^{3} + 4 x\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(2)\\).</div></p>",
+        "s": "<p><strong>Metod:</strong> Sätt in det angivna x-värdet i funktionsuttrycket och räkna i rätt ordning.</p><p><div class=\"spel-en-del\">\\(f(2)=0\\).</div></p>"
+      }
     ]
   },
   {
@@ -542,6 +600,24 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Låt \\(f(x)=x^{2} - 4\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(0)\\).</div></p>",
+        "s": "<p><strong>Metod:</strong> Sätt in det angivna x-värdet i funktionsuttrycket och räkna i rätt ordning.</p><p><div class=\"spel-en-del\">\\(f(0)=-4\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Låt \\(f(x)=x^{2} - 4\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(2)\\).</div></p>",
+        "s": "<p><strong>Metod:</strong> Sätt in det angivna x-värdet i funktionsuttrycket och räkna i rätt ordning.</p><p><div class=\"spel-en-del\">\\(f(2)=0\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Låt \\(f(x)=x^{2} - 4\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(3)\\).</div></p>",
+        "s": "<p><strong>Metod:</strong> Sätt in det angivna x-värdet i funktionsuttrycket och räkna i rätt ordning.</p><p><div class=\"spel-en-del\">\\(f(3)=5\\).</div></p>"
+      }
     ]
   },
   {
@@ -876,6 +952,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">\\((2x+3)(x-1)\\)</div></p>",
+        "s": "<p><strong>Svar:</strong> 2x^2+x-3</p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">Faktorisera \\(x^{2} + 3 x - 4\\)</div></p>",
+        "s": "<p><strong>Svar:</strong> (x+4)(x-1)</p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">Faktorisera \\(2 x^{2} + x - 3\\).</div></p>",
+        "s": "<p><strong>Svar:</strong> (x-1)(2x+3)</p>"
+      }
     ]
   },
   {
@@ -997,6 +1091,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">\\((3x-2)(x+2)\\)</div></p>",
+        "s": "<p><strong>Svar:</strong> 3x^2+4x-4</p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">Faktorisera \\(x^{2} - 3 x - 10\\)</div></p>",
+        "s": "<p><strong>Svar:</strong> (x-5)(x+2)</p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">Faktorisera \\(3 x^{2} + 4 x - 4\\).</div></p>",
+        "s": "<p><strong>Svar:</strong> (x+2)(3x-2)</p>"
+      }
     ]
   },
   {
@@ -1117,6 +1229,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">\\((4x+1)(x-2)\\)</div></p>",
+        "s": "<p><strong>Svar:</strong> 4x^2-7x-2</p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">Faktorisera \\(x^{2} + x - 6\\)</div></p>",
+        "s": "<p><strong>Svar:</strong> (x+3)(x-2)</p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">Faktorisera \\(4 x^{2} - 7 x - 2\\).</div></p>",
+        "s": "<p><strong>Svar:</strong> (x-2)(4x+1)</p>"
+      }
     ]
   },
   {
@@ -1237,6 +1367,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">\\((2x-4)(x+3)\\)</div></p>",
+        "s": "<p><strong>Svar:</strong> 2x^2+2x-12</p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">Faktorisera \\(x^{2} + 4 x + 3\\)</div></p>",
+        "s": "<p><strong>Svar:</strong> (x+1)(x+3)</p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Förenkla eller faktorisera.</p><p><div class=\"spel-en-del\">Faktorisera \\(2 x^{2} + 2 x - 12\\).</div></p>",
+        "s": "<p><strong>Svar:</strong> 2(x-2)(x+3)</p>"
+      }
     ]
   },
   {
@@ -1980,6 +2128,29 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Låt \\(f(x)=x^{2} + 4 x + 3\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(-1)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(-1)=0\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Låt \\(f(x)=x^{2} + 4 x + 3\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(0)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(0)=3\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Låt \\(f(x)=x^{2} + 4 x + 3\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(2)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(2)=15\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Låt \\(f(x)=x^{2} + 4 x + 3\\).</p><p><div class=\"spel-en-del\">Bestäm funktionens symmetrilinje.</div></p>",
+        "s": "<p><div class=\"spel-en-del\">Skriv funktionen som \\(f(x)=1(x+2)^2-1\\). Symmetrilinjen är därför \\(\\boxed{x=-2}\\).</div></p>"
+      }
     ]
   },
   {
@@ -2224,6 +2395,29 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Låt \\(f(x)=3 x^{2} + 1\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(-1)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(-1)=4\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Låt \\(f(x)=3 x^{2} + 1\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(0)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(0)=1\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Låt \\(f(x)=3 x^{2} + 1\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(2)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(2)=13\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Låt \\(f(x)=3 x^{2} + 1\\).</p><p><div class=\"spel-en-del\">Bestäm funktionens symmetrilinje.</div></p>",
+        "s": "<p><div class=\"spel-en-del\">Skriv funktionen som \\(f(x)=3x^2+1\\). Symmetrilinjen är därför \\(\\boxed{x=0}\\).</div></p>"
+      }
     ]
   },
   {
@@ -3943,6 +4137,24 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Funktionen ges av \\(f(x)=2 x^{3} - x + 4\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(-1)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(-1)=3\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Funktionen ges av \\(f(x)=2 x^{3} - x + 4\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(0)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(0)=4\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Funktionen ges av \\(f(x)=2 x^{3} - x + 4\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(2)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(2)=18\\).</div></p>"
+      }
     ]
   },
   {
@@ -3993,6 +4205,24 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Funktionen ges av \\(f(x)=x^{2} - 5 x + 6\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(0)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(0)=6\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Funktionen ges av \\(f(x)=x^{2} - 5 x + 6\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(2)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(2)=0\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Funktionen ges av \\(f(x)=x^{2} - 5 x + 6\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(3)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(3)=0\\).</div></p>"
+      }
     ]
   },
   {
@@ -4043,6 +4273,24 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Funktionen ges av \\(f(x)=- x^{3} + 4 x\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(-2)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(-2)=0\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Funktionen ges av \\(f(x)=- x^{3} + 4 x\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(1)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(1)=3\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Funktionen ges av \\(f(x)=- x^{3} + 4 x\\).</p><p><div class=\"spel-en-del\">Bestäm \\(f(2)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f(2)=0\\).</div></p>"
+      }
     ]
   },
   {
@@ -4847,6 +5095,19 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Figuren visar grafen till \\(y=f(x)\\) och tangenten \\(t\\) i punkten \\(P\\).</p><span class=\"fig bred\"><svg aria-label=\"Matematisk figur\" height=\"315\" role=\"img\" viewbox=\"0 0 470 315\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"g213arr\" markerheight=\"7\" markerwidth=\"7\" orient=\"auto\" refx=\"6\" refy=\"3.5\"><path d=\"M0,0 L7,3.5 L0,7 z\" fill=\"#2B2527\"></path></marker><clippath id=\"g213clip\"><rect height=\"253\" width=\"402\" x=\"48\" y=\"20\"></rect></clippath></defs><rect fill=\"#FFFFFF\" height=\"253\" stroke=\"#E4E3E6\" width=\"402\" x=\"48\" y=\"20\"></rect><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"88.20\" x2=\"88.20\" y1=\"20\" y2=\"273\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"168.60\" x2=\"168.60\" y1=\"20\" y2=\"273\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"249.00\" x2=\"249.00\" y1=\"20\" y2=\"273\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"329.40\" x2=\"329.40\" y1=\"20\" y2=\"273\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"409.80\" x2=\"409.80\" y1=\"20\" y2=\"273\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"48\" x2=\"450\" y1=\"247.70\" y2=\"247.70\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"48\" x2=\"450\" y1=\"197.10\" y2=\"197.10\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"48\" x2=\"450\" y1=\"146.50\" y2=\"146.50\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"48\" x2=\"450\" y1=\"95.90\" y2=\"95.90\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"48\" x2=\"450\" y1=\"45.30\" y2=\"45.30\"></line><line marker-end=\"url(#g213arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"88.20\" x2=\"88.20\" y1=\"273\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1\" x1=\"84.20\" x2=\"92.20\" y1=\"247.70\" y2=\"247.70\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" text-anchor=\"end\" x=\"79.20\" y=\"251.20\">1</text><line stroke=\"#2B2527\" stroke-width=\"1\" x1=\"84.20\" x2=\"92.20\" y1=\"197.10\" y2=\"197.10\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" text-anchor=\"end\" x=\"79.20\" y=\"200.60\">2</text><line stroke=\"#2B2527\" stroke-width=\"1\" x1=\"84.20\" x2=\"92.20\" y1=\"146.50\" y2=\"146.50\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" text-anchor=\"end\" x=\"79.20\" y=\"150.00\">3</text><line stroke=\"#2B2527\" stroke-width=\"1\" x1=\"84.20\" x2=\"92.20\" y1=\"95.90\" y2=\"95.90\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" text-anchor=\"end\" x=\"79.20\" y=\"99.40\">4</text><line stroke=\"#2B2527\" stroke-width=\"1\" x1=\"84.20\" x2=\"92.20\" y1=\"45.30\" y2=\"45.30\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" text-anchor=\"end\" x=\"79.20\" y=\"48.80\">5</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" x=\"100.20\" y=\"13.00\">y</text><path clip-path=\"url(#g213clip)\" d=\"M48.00,114.88 L49.01,115.82 L50.01,116.76 L51.02,117.69 L52.02,118.61 L53.02,119.52 L54.03,120.43 L55.04,121.32 L56.04,122.21 L57.05,123.09 L58.05,123.97 L59.05,124.83 L60.06,125.69 L61.06,126.54 L62.07,127.38 L63.08,128.22 L64.08,129.04 L65.09,129.86 L66.09,130.67 L67.09,131.47 L68.10,132.27 L69.11,133.06 L70.11,133.83 L71.11,134.61 L72.12,135.37 L73.12,136.12 L74.13,136.87 L75.14,137.61 L76.14,138.34 L77.14,139.06 L78.15,139.78 L79.16,140.49 L80.16,141.19 L81.16,141.88 L82.17,142.56 L83.17,143.24 L84.18,143.91 L85.19,144.57 L86.19,145.22 L87.19,145.86 L88.20,146.50 L89.20,147.13 L90.21,147.75 L91.22,148.36 L92.22,148.97 L93.22,149.56 L94.23,150.15 L95.23,150.73 L96.24,151.31 L97.25,151.87 L98.25,152.43 L99.25,152.98 L100.26,153.52 L101.27,154.05 L102.27,154.58 L103.28,155.10 L104.28,155.61 L105.28,156.11 L106.29,156.60 L107.30,157.09 L108.30,157.57 L109.31,158.04 L110.31,158.50 L111.31,158.96 L112.32,159.40 L113.33,159.84 L114.33,160.27 L115.34,160.70 L116.34,161.11 L117.34,161.52 L118.35,161.92 L119.35,162.31 L120.36,162.69 L121.36,163.07 L122.37,163.44 L123.38,163.79 L124.38,164.15 L125.39,164.49 L126.39,164.83 L127.40,165.15 L128.40,165.47 L129.41,165.79 L130.41,166.09 L131.42,166.39 L132.42,166.68 L133.43,166.96 L134.43,167.23 L135.44,167.50 L136.44,167.75 L137.44,168.00 L138.45,168.24 L139.45,168.48 L140.46,168.70 L141.47,168.92 L142.47,169.13 L143.47,169.33 L144.48,169.52 L145.49,169.71 L146.49,169.89 L147.50,170.06 L148.50,170.22 L149.50,170.37 L150.51,170.52 L151.51,170.66 L152.52,170.79 L153.53,170.91 L154.53,171.03 L155.53,171.13 L156.54,171.23 L157.55,171.32 L158.55,171.40 L159.56,171.48 L160.56,171.55 L161.56,171.61 L162.57,171.66 L163.57,171.70 L164.58,171.74 L165.58,171.76 L166.59,171.78 L167.59,171.80 L168.60,171.80 L169.60,171.80 L170.61,171.78 L171.62,171.76 L172.62,171.74 L173.62,171.70 L174.63,171.66 L175.63,171.61 L176.64,171.55 L177.65,171.48 L178.65,171.40 L179.66,171.32 L180.66,171.23 L181.67,171.13 L182.67,171.03 L183.68,170.91 L184.68,170.79 L185.69,170.66 L186.69,170.52 L187.70,170.37 L188.70,170.22 L189.70,170.06 L190.71,169.89 L191.72,169.71 L192.72,169.52 L193.72,169.33 L194.73,169.13 L195.73,168.92 L196.74,168.70 L197.75,168.48 L198.75,168.24 L199.75,168.00 L200.76,167.75 L201.77,167.50 L202.77,167.23 L203.78,166.96 L204.78,166.68 L205.78,166.39 L206.79,166.09 L207.80,165.79 L208.80,165.47 L209.81,165.15 L210.81,164.83 L211.81,164.49 L212.82,164.15 L213.82,163.79 L214.83,163.44 L215.83,163.07 L216.84,162.69 L217.84,162.31 L218.85,161.92 L219.86,161.52 L220.86,161.11 L221.87,160.70 L222.87,160.27 L223.88,159.84 L224.88,159.40 L225.88,158.96 L226.89,158.50 L227.89,158.04 L228.90,157.57 L229.91,157.09 L230.91,156.60 L231.92,156.11 L232.92,155.61 L233.93,155.10 L234.93,154.58 L235.94,154.05 L236.94,153.52 L237.94,152.98 L238.95,152.43 L239.96,151.87 L240.96,151.31 L241.97,150.73 L242.97,150.15 L243.97,149.56 L244.98,148.97 L245.98,148.36 L246.99,147.75 L247.99,147.13 L249.00,146.50 L250.01,145.86 L251.01,145.22 L252.02,144.57 L253.02,143.91 L254.02,143.24 L255.03,142.56 L256.03,141.88 L257.04,141.19 L258.04,140.49 L259.05,139.78 L260.06,139.06 L261.06,138.34 L262.06,137.61 L263.07,136.87 L264.07,136.12 L265.08,135.37 L266.08,134.61 L267.09,133.83 L268.10,133.06 L269.10,132.27 L270.11,131.47 L271.11,130.67 L272.12,129.86 L273.12,129.04 L274.12,128.22 L275.13,127.38 L276.13,126.54 L277.14,125.69 L278.14,124.83 L279.15,123.97 L280.15,123.09 L281.16,122.21 L282.17,121.32 L283.17,120.43 L284.18,119.52 L285.18,118.61 L286.19,117.69 L287.19,116.76 L288.19,115.82 L289.20,114.88 L290.21,113.92 L291.21,112.96 L292.22,111.99 L293.22,111.02 L294.23,110.03 L295.23,109.04 L296.24,108.04 L297.24,107.03 L298.25,106.02 L299.25,104.99 L300.25,103.96 L301.26,102.92 L302.26,101.87 L303.27,100.82 L304.27,99.75 L305.28,98.68 L306.28,97.60 L307.29,96.52 L308.29,95.42 L309.30,94.32 L310.31,93.21 L311.31,92.09 L312.31,90.96 L313.32,89.83 L314.32,88.69 L315.33,87.54 L316.33,86.38 L317.34,85.21 L318.34,84.04 L319.35,82.85 L320.36,81.66 L321.36,80.47 L322.37,79.26 L323.37,78.05 L324.38,76.83 L325.38,75.60 L326.38,74.36 L327.39,73.11 L328.39,71.86 L329.40,70.60 L330.41,69.33 L331.41,68.05 L332.42,66.77 L333.42,65.48 L334.43,64.18 L335.43,62.87 L336.44,61.55 L337.44,60.23 L338.44,58.89 L339.45,57.55 L340.46,56.21 L341.46,54.85 L342.47,53.49 L343.47,52.12 L344.48,50.74 L345.48,49.35 L346.48,47.95 L347.49,46.55 L348.50,45.14 L349.50,43.72 L350.50,42.29 L351.51,40.86 L352.52,39.41 L353.52,37.96 L354.52,36.50 L355.53,35.04 L356.53,33.56 L357.54,32.08 L358.54,30.59 L359.55,29.09 L360.56,27.59 L361.56,26.07 L362.56,24.55 L363.57,23.02 L364.57,21.48 L365.58,19.94 L366.58,18.38 L367.59,16.82 L368.59,15.25 L369.60,13.68 L370.61,12.09 L371.61,10.50 L372.61,8.90 L373.62,7.29 L374.62,5.67 L375.63,4.05 L376.64,2.41 L377.64,0.77 L378.64,-0.88 L379.65,-2.53 L380.66,-4.20 L381.66,-5.87 L382.66,-7.55 L383.67,-9.24 L384.68,-10.93 L385.68,-12.64 L386.69,-14.35 L387.69,-16.07 L388.69,-17.80 L389.70,-19.53 L390.71,-21.27 L391.71,-23.03 L392.71,-24.78 L393.72,-26.55 L394.73,-28.33 L395.73,-30.11 L396.74,-31.90 L397.74,-33.70 L398.75,-35.51 L399.75,-37.32 L400.75,-39.14 L401.76,-40.97 L402.76,-42.81 L403.77,-44.66 L404.77,-46.51 L405.78,-48.37 L406.79,-50.24 L407.79,-52.12 L408.79,-54.01 L409.80,-55.90 L410.81,-57.80 L411.81,-59.71 L412.81,-61.63 L413.82,-63.55 L414.82,-65.49 L415.83,-67.43 L416.84,-69.38 L417.84,-71.33 L418.84,-73.30 L419.85,-75.27 L420.86,-77.25 L421.86,-79.24 L422.86,-81.24 L423.87,-83.24 L424.88,-85.25 L425.88,-87.27 L426.89,-89.30 L427.89,-91.34 L428.89,-93.38 L429.90,-95.43 L430.91,-97.49 L431.91,-99.56 L432.91,-101.63 L433.92,-103.72 L434.93,-105.81 L435.93,-107.91 L436.94,-110.01 L437.94,-112.13 L438.94,-114.25 L439.95,-116.38 L440.96,-118.52 L441.96,-120.67 L442.96,-122.82 L443.97,-124.98 L444.98,-127.16 L445.98,-129.33 L446.99,-131.52 L447.99,-133.71 L449.00,-135.92 L450.00,-138.12\" fill=\"none\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path><line stroke=\"#2A5D9E\" stroke-linecap=\"round\" stroke-width=\"2.2\" x1=\"48.00\" x2=\"450.00\" y1=\"273.00\" y2=\"20.00\"></line><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11.5\" font-weight=\"600\" x=\"244.0\" y=\"129.5\">t</text><circle cx=\"249.00\" cy=\"146.50\" fill=\"#B43123\" r=\"4.3\" stroke=\"#FFFFFF\" stroke-width=\"1.4\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" x=\"263.0\" y=\"147.5\">P</text><text fill=\"#2B2527\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"middle\" x=\"388.00\" y=\"36\">y = f(x)</text></svg></span><p><div class=\"spel-en-del\">Avläs \\(f(2)\\).</div></p>",
+        "s": "<p>Punkten \\(P\\) ligger vid \\(x=2\\). Av grafen avläses \\(P=(2,3)\\), alltså är</p><p>\\[f(2)=3.\\]</p><p>Tangenten \\(t\\) stiger 1 enhet när \\(x\\) ökar 1 enhet, så tangentens lutning är \\(1\\). Därför är</p><p>\\[f^{\\prime}(2)=1.\\]</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{3}\\)   </div></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Figuren visar grafen till \\(y=f(x)\\) och tangenten \\(t\\) i punkten \\(P\\).</p><span class=\"fig bred\"><svg aria-label=\"Matematisk figur\" height=\"315\" role=\"img\" viewbox=\"0 0 470 315\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"g213arr\" markerheight=\"7\" markerwidth=\"7\" orient=\"auto\" refx=\"6\" refy=\"3.5\"><path d=\"M0,0 L7,3.5 L0,7 z\" fill=\"#2B2527\"></path></marker><clippath id=\"g213clip\"><rect height=\"253\" width=\"402\" x=\"48\" y=\"20\"></rect></clippath></defs><rect fill=\"#FFFFFF\" height=\"253\" stroke=\"#E4E3E6\" width=\"402\" x=\"48\" y=\"20\"></rect><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"88.20\" x2=\"88.20\" y1=\"20\" y2=\"273\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"168.60\" x2=\"168.60\" y1=\"20\" y2=\"273\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"249.00\" x2=\"249.00\" y1=\"20\" y2=\"273\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"329.40\" x2=\"329.40\" y1=\"20\" y2=\"273\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"409.80\" x2=\"409.80\" y1=\"20\" y2=\"273\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"48\" x2=\"450\" y1=\"247.70\" y2=\"247.70\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"48\" x2=\"450\" y1=\"197.10\" y2=\"197.10\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"48\" x2=\"450\" y1=\"146.50\" y2=\"146.50\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"48\" x2=\"450\" y1=\"95.90\" y2=\"95.90\"></line><line stroke=\"#E9E8EB\" stroke-width=\"1\" x1=\"48\" x2=\"450\" y1=\"45.30\" y2=\"45.30\"></line><line marker-end=\"url(#g213arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"88.20\" x2=\"88.20\" y1=\"273\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1\" x1=\"84.20\" x2=\"92.20\" y1=\"247.70\" y2=\"247.70\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" text-anchor=\"end\" x=\"79.20\" y=\"251.20\">1</text><line stroke=\"#2B2527\" stroke-width=\"1\" x1=\"84.20\" x2=\"92.20\" y1=\"197.10\" y2=\"197.10\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" text-anchor=\"end\" x=\"79.20\" y=\"200.60\">2</text><line stroke=\"#2B2527\" stroke-width=\"1\" x1=\"84.20\" x2=\"92.20\" y1=\"146.50\" y2=\"146.50\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" text-anchor=\"end\" x=\"79.20\" y=\"150.00\">3</text><line stroke=\"#2B2527\" stroke-width=\"1\" x1=\"84.20\" x2=\"92.20\" y1=\"95.90\" y2=\"95.90\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" text-anchor=\"end\" x=\"79.20\" y=\"99.40\">4</text><line stroke=\"#2B2527\" stroke-width=\"1\" x1=\"84.20\" x2=\"92.20\" y1=\"45.30\" y2=\"45.30\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" text-anchor=\"end\" x=\"79.20\" y=\"48.80\">5</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" x=\"100.20\" y=\"13.00\">y</text><path clip-path=\"url(#g213clip)\" d=\"M48.00,114.88 L49.01,115.82 L50.01,116.76 L51.02,117.69 L52.02,118.61 L53.02,119.52 L54.03,120.43 L55.04,121.32 L56.04,122.21 L57.05,123.09 L58.05,123.97 L59.05,124.83 L60.06,125.69 L61.06,126.54 L62.07,127.38 L63.08,128.22 L64.08,129.04 L65.09,129.86 L66.09,130.67 L67.09,131.47 L68.10,132.27 L69.11,133.06 L70.11,133.83 L71.11,134.61 L72.12,135.37 L73.12,136.12 L74.13,136.87 L75.14,137.61 L76.14,138.34 L77.14,139.06 L78.15,139.78 L79.16,140.49 L80.16,141.19 L81.16,141.88 L82.17,142.56 L83.17,143.24 L84.18,143.91 L85.19,144.57 L86.19,145.22 L87.19,145.86 L88.20,146.50 L89.20,147.13 L90.21,147.75 L91.22,148.36 L92.22,148.97 L93.22,149.56 L94.23,150.15 L95.23,150.73 L96.24,151.31 L97.25,151.87 L98.25,152.43 L99.25,152.98 L100.26,153.52 L101.27,154.05 L102.27,154.58 L103.28,155.10 L104.28,155.61 L105.28,156.11 L106.29,156.60 L107.30,157.09 L108.30,157.57 L109.31,158.04 L110.31,158.50 L111.31,158.96 L112.32,159.40 L113.33,159.84 L114.33,160.27 L115.34,160.70 L116.34,161.11 L117.34,161.52 L118.35,161.92 L119.35,162.31 L120.36,162.69 L121.36,163.07 L122.37,163.44 L123.38,163.79 L124.38,164.15 L125.39,164.49 L126.39,164.83 L127.40,165.15 L128.40,165.47 L129.41,165.79 L130.41,166.09 L131.42,166.39 L132.42,166.68 L133.43,166.96 L134.43,167.23 L135.44,167.50 L136.44,167.75 L137.44,168.00 L138.45,168.24 L139.45,168.48 L140.46,168.70 L141.47,168.92 L142.47,169.13 L143.47,169.33 L144.48,169.52 L145.49,169.71 L146.49,169.89 L147.50,170.06 L148.50,170.22 L149.50,170.37 L150.51,170.52 L151.51,170.66 L152.52,170.79 L153.53,170.91 L154.53,171.03 L155.53,171.13 L156.54,171.23 L157.55,171.32 L158.55,171.40 L159.56,171.48 L160.56,171.55 L161.56,171.61 L162.57,171.66 L163.57,171.70 L164.58,171.74 L165.58,171.76 L166.59,171.78 L167.59,171.80 L168.60,171.80 L169.60,171.80 L170.61,171.78 L171.62,171.76 L172.62,171.74 L173.62,171.70 L174.63,171.66 L175.63,171.61 L176.64,171.55 L177.65,171.48 L178.65,171.40 L179.66,171.32 L180.66,171.23 L181.67,171.13 L182.67,171.03 L183.68,170.91 L184.68,170.79 L185.69,170.66 L186.69,170.52 L187.70,170.37 L188.70,170.22 L189.70,170.06 L190.71,169.89 L191.72,169.71 L192.72,169.52 L193.72,169.33 L194.73,169.13 L195.73,168.92 L196.74,168.70 L197.75,168.48 L198.75,168.24 L199.75,168.00 L200.76,167.75 L201.77,167.50 L202.77,167.23 L203.78,166.96 L204.78,166.68 L205.78,166.39 L206.79,166.09 L207.80,165.79 L208.80,165.47 L209.81,165.15 L210.81,164.83 L211.81,164.49 L212.82,164.15 L213.82,163.79 L214.83,163.44 L215.83,163.07 L216.84,162.69 L217.84,162.31 L218.85,161.92 L219.86,161.52 L220.86,161.11 L221.87,160.70 L222.87,160.27 L223.88,159.84 L224.88,159.40 L225.88,158.96 L226.89,158.50 L227.89,158.04 L228.90,157.57 L229.91,157.09 L230.91,156.60 L231.92,156.11 L232.92,155.61 L233.93,155.10 L234.93,154.58 L235.94,154.05 L236.94,153.52 L237.94,152.98 L238.95,152.43 L239.96,151.87 L240.96,151.31 L241.97,150.73 L242.97,150.15 L243.97,149.56 L244.98,148.97 L245.98,148.36 L246.99,147.75 L247.99,147.13 L249.00,146.50 L250.01,145.86 L251.01,145.22 L252.02,144.57 L253.02,143.91 L254.02,143.24 L255.03,142.56 L256.03,141.88 L257.04,141.19 L258.04,140.49 L259.05,139.78 L260.06,139.06 L261.06,138.34 L262.06,137.61 L263.07,136.87 L264.07,136.12 L265.08,135.37 L266.08,134.61 L267.09,133.83 L268.10,133.06 L269.10,132.27 L270.11,131.47 L271.11,130.67 L272.12,129.86 L273.12,129.04 L274.12,128.22 L275.13,127.38 L276.13,126.54 L277.14,125.69 L278.14,124.83 L279.15,123.97 L280.15,123.09 L281.16,122.21 L282.17,121.32 L283.17,120.43 L284.18,119.52 L285.18,118.61 L286.19,117.69 L287.19,116.76 L288.19,115.82 L289.20,114.88 L290.21,113.92 L291.21,112.96 L292.22,111.99 L293.22,111.02 L294.23,110.03 L295.23,109.04 L296.24,108.04 L297.24,107.03 L298.25,106.02 L299.25,104.99 L300.25,103.96 L301.26,102.92 L302.26,101.87 L303.27,100.82 L304.27,99.75 L305.28,98.68 L306.28,97.60 L307.29,96.52 L308.29,95.42 L309.30,94.32 L310.31,93.21 L311.31,92.09 L312.31,90.96 L313.32,89.83 L314.32,88.69 L315.33,87.54 L316.33,86.38 L317.34,85.21 L318.34,84.04 L319.35,82.85 L320.36,81.66 L321.36,80.47 L322.37,79.26 L323.37,78.05 L324.38,76.83 L325.38,75.60 L326.38,74.36 L327.39,73.11 L328.39,71.86 L329.40,70.60 L330.41,69.33 L331.41,68.05 L332.42,66.77 L333.42,65.48 L334.43,64.18 L335.43,62.87 L336.44,61.55 L337.44,60.23 L338.44,58.89 L339.45,57.55 L340.46,56.21 L341.46,54.85 L342.47,53.49 L343.47,52.12 L344.48,50.74 L345.48,49.35 L346.48,47.95 L347.49,46.55 L348.50,45.14 L349.50,43.72 L350.50,42.29 L351.51,40.86 L352.52,39.41 L353.52,37.96 L354.52,36.50 L355.53,35.04 L356.53,33.56 L357.54,32.08 L358.54,30.59 L359.55,29.09 L360.56,27.59 L361.56,26.07 L362.56,24.55 L363.57,23.02 L364.57,21.48 L365.58,19.94 L366.58,18.38 L367.59,16.82 L368.59,15.25 L369.60,13.68 L370.61,12.09 L371.61,10.50 L372.61,8.90 L373.62,7.29 L374.62,5.67 L375.63,4.05 L376.64,2.41 L377.64,0.77 L378.64,-0.88 L379.65,-2.53 L380.66,-4.20 L381.66,-5.87 L382.66,-7.55 L383.67,-9.24 L384.68,-10.93 L385.68,-12.64 L386.69,-14.35 L387.69,-16.07 L388.69,-17.80 L389.70,-19.53 L390.71,-21.27 L391.71,-23.03 L392.71,-24.78 L393.72,-26.55 L394.73,-28.33 L395.73,-30.11 L396.74,-31.90 L397.74,-33.70 L398.75,-35.51 L399.75,-37.32 L400.75,-39.14 L401.76,-40.97 L402.76,-42.81 L403.77,-44.66 L404.77,-46.51 L405.78,-48.37 L406.79,-50.24 L407.79,-52.12 L408.79,-54.01 L409.80,-55.90 L410.81,-57.80 L411.81,-59.71 L412.81,-61.63 L413.82,-63.55 L414.82,-65.49 L415.83,-67.43 L416.84,-69.38 L417.84,-71.33 L418.84,-73.30 L419.85,-75.27 L420.86,-77.25 L421.86,-79.24 L422.86,-81.24 L423.87,-83.24 L424.88,-85.25 L425.88,-87.27 L426.89,-89.30 L427.89,-91.34 L428.89,-93.38 L429.90,-95.43 L430.91,-97.49 L431.91,-99.56 L432.91,-101.63 L433.92,-103.72 L434.93,-105.81 L435.93,-107.91 L436.94,-110.01 L437.94,-112.13 L438.94,-114.25 L439.95,-116.38 L440.96,-118.52 L441.96,-120.67 L442.96,-122.82 L443.97,-124.98 L444.98,-127.16 L445.98,-129.33 L446.99,-131.52 L447.99,-133.71 L449.00,-135.92 L450.00,-138.12\" fill=\"none\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path><line stroke=\"#2A5D9E\" stroke-linecap=\"round\" stroke-width=\"2.2\" x1=\"48.00\" x2=\"450.00\" y1=\"273.00\" y2=\"20.00\"></line><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11.5\" font-weight=\"600\" x=\"244.0\" y=\"129.5\">t</text><circle cx=\"249.00\" cy=\"146.50\" fill=\"#B43123\" r=\"4.3\" stroke=\"#FFFFFF\" stroke-width=\"1.4\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" x=\"263.0\" y=\"147.5\">P</text><text fill=\"#2B2527\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"middle\" x=\"388.00\" y=\"36\">y = f(x)</text></svg></span><p><div class=\"spel-en-del\">Bestäm \\(f^{\\prime}(2)\\).</div></p>",
+        "s": "<p>Punkten \\(P\\) ligger vid \\(x=2\\). Av grafen avläses \\(P=(2,3)\\), alltså är</p><p>\\[f(2)=3.\\]</p><p>Tangenten \\(t\\) stiger 1 enhet när \\(x\\) ökar 1 enhet, så tangentens lutning är \\(1\\). Därför är</p><p>\\[f^{\\prime}(2)=1.\\]</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{1}\\).</div></p>"
+      }
     ]
   },
   {
@@ -5120,6 +5381,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=3 x^{4} - 2 x^{2} + 5 x - 7\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_1^{\\prime}(x)=12 x^{3} - 4 x + 5\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=5 x^{3} + 4 x\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_2^{\\prime}(x)=15 x^{2} + 4\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=3 - 2 x^{5}\\)<br/></div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_3^{\\prime}(x)=- 10 x^{4}\\)</div></p>"
+      }
     ]
   },
   {
@@ -5217,6 +5496,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=x^{6} - 4 x^{3} + 2 x\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_1^{\\prime}(x)=6 x^{5} - 12 x^{2} + 2\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=\\frac{x^{4}}{2} - 3 x^{2}\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_2^{\\prime}(x)=2 x^{3} - 6 x\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=7 x^{2} - 5 x + 1\\)<br/></div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_3^{\\prime}(x)=14 x - 5\\)</div></p>"
+      }
     ]
   },
   {
@@ -5314,6 +5611,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=4 x^{\\frac{3}{2}} - 2 \\sqrt{x}\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_1^{\\prime}(x)=6 \\sqrt{x} - \\frac{1}{\\sqrt{x}}\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=2 x^{2} + \\frac{3}{x}\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_2^{\\prime}(x)=4 x - \\frac{3}{x^{2}}\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=- x + \\frac{5}{x^{2}}\\)<br/></div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_3^{\\prime}(x)=-1 - \\frac{10}{x^{3}}\\)</div></p>"
+      }
     ]
   },
   {
@@ -5415,6 +5730,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_1(x)=2 x^{5} + x^{3} - 8\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_1^{\\prime}(x)=10 x^{4} + 3 x^{2}\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_2(x)=- 3 x^{4} + 6 x^{2}\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_2^{\\prime}(x)=- 12 x^{3} + 12 x\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f_3(x)=x^{\\frac{5}{2}} + 2 \\sqrt{x}\\)<br/></div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(f_3^{\\prime}(x)=\\frac{5 x^{\\frac{3}{2}}}{2} + \\frac{1}{\\sqrt{x}}\\)</div></p>"
+      }
     ]
   },
   {
@@ -6127,6 +6460,29 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(2e^{3x}\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(6e^{3x}\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(5e^{-0,5x}\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(-2,5e^{-0,5x}\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(7^x\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(7^x\\ln7\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Derivera. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(3\\cdot2^x\\).</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(3\\cdot2^x\\ln2\\)</div></p>"
+      }
     ]
   },
   {
@@ -6695,6 +7051,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>För \\(f(x)=2 e^{\\frac{x}{10}}\\):</p><p><div class=\"spel-en-del\">Bestäm \\(f'(x)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f'(x)=\\frac{e^{\\frac{x}{10}}}{5}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>För \\(f(x)=2 e^{\\frac{x}{10}}\\):</p><p><div class=\"spel-en-del\">Bestäm \\(f'(0)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">Eftersom \\(e^0=1\\) får vi \\(f'(0)=\\frac{1}{5}\\).</div></p>"
+      }
     ]
   },
   {
@@ -6745,6 +7114,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=3 x^{4} - 5 x^{2} + 7\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=12 x^{3} - 10 x\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=x \\left(2 x^{4} + x^{2} - 4\\right)\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(g^{\\prime}(x)=10 x^{4} + 3 x^{2} - 4\\)</div></p>"
+      }
     ]
   },
   {
@@ -6865,6 +7247,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{x \\left(x^{3} - 6 x + 16\\right)}{2}\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=2 x^{3} - 6 x + 8\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=7 x^{3} - 2 x^{2} + x - 9\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(g^{\\prime}(x)=21 x^{2} - 4 x + 1\\)</div></p>"
+      }
     ]
   },
   {
@@ -6985,6 +7380,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=5 x^{6} - 4 x^{3} + 2\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=x^{2} \\left(30 x^{3} - 12\\right)\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=x \\left(x^{4} - 10\\right)\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(g^{\\prime}(x)=5 x^{4} - 10\\)</div></p>"
+      }
     ]
   },
   {
@@ -7105,6 +7513,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x \\left(2 x^{3} + 3 x^{2} - 6 x + 1\\right)\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=8 x^{3} + 9 x^{2} - 12 x + 1\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=9 x^{2} - 4 x + 1\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(g^{\\prime}(x)=18 x - 4\\)</div></p>"
+      }
     ]
   },
   {
@@ -7225,6 +7646,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x \\left(4 x^{6} - x^{3} + 3\\right)\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=28 x^{6} - 4 x^{3} + 3\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=6 x^{5} + 2 x^{2} - 5\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(g^{\\prime}(x)=30 x^{4} + 4 x\\)</div></p>"
+      }
     ]
   },
   {
@@ -7346,6 +7780,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{3 x^{3}}{2} - \\frac{x^{2}}{4} + 2\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=\\frac{x \\left(9 x - 1\\right)}{2}\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=x^{2} \\left(- 2 x^{4} + 5 x^{2} - 7\\right)\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(g^{\\prime}(x)=- 12 x^{5} + 20 x^{3} - 14 x\\)</div></p>"
+      }
     ]
   },
   {
@@ -7467,6 +7914,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=3 x^{8} + x^{3} - 1\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=x^{2} \\left(24 x^{5} + 3\\right)\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=\\sqrt{x}\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(g^{\\prime}(x)=\\frac{1}{2 \\sqrt{x}}\\)</div></p>"
+      }
     ]
   },
   {
@@ -7588,6 +8048,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x^{\\frac{3}{2}}\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=\\frac{3 \\sqrt{x}}{2}\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=\\sqrt{x} \\left(x^{2} - 2\\right)\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(g^{\\prime}(x)=\\frac{5 x^{2} - 2}{2 \\sqrt{x}}\\)</div></p>"
+      }
     ]
   },
   {
@@ -7709,6 +8182,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=3 x + \\frac{1}{x^{2}}\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=3 - \\frac{2}{x^{3}}\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=\\frac{2 \\left(2 - x^{5}\\right)}{x^{3}}\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(g^{\\prime}(x)=- 4 x - \\frac{12}{x^{4}}\\)</div></p>"
+      }
     ]
   },
   {
@@ -7830,6 +8316,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{5 x^{\\frac{3}{2}} + 1}{x}\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=- \\frac{1}{x^{2}} + \\frac{5}{2 \\sqrt{x}}\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(g(x)=\\frac{2 x^{\\frac{7}{2}} - 3}{x^{2}}\\)</div></p>",
+        "s": "<p>Använd potensregeln term för term.</p><p><div class=\"spel-en-del\">\\(g^{\\prime}(x)=\\frac{3 \\left(x^{\\frac{7}{2}} + 2\\right)}{x^{3}}\\)</div></p>"
+      }
     ]
   },
   {
@@ -9618,6 +10117,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(f(x)=4x^3-7x+2\\)</div></p>",
+        "s": "<p>Skriv vid behov om med potenser.</p><p><div class=\"spel-en-del\">\\(\\boxed{f^{\\prime}(x)=12x^2-7}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(g(x)=3\\sqrt{x}\\)</div></p>",
+        "s": "<p>Skriv vid behov om med potenser.</p><p><div class=\"spel-en-del\">\\(3\\sqrt{x}=3x^{1/2}\\), alltså \\(\\boxed{g^{\\prime}(x)=\\frac{3}{2\\sqrt{x}}}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(h(x)=\\frac{5}{x^2}\\)</div></p>",
+        "s": "<p>Skriv vid behov om med potenser.</p><p><div class=\"spel-en-del\">\\(5/x^2=5x^{-2}\\), alltså \\(\\boxed{h^{\\prime}(x)=-10x^{-3}=-\\frac{10}{x^3}}\\).</div></p>"
+      }
     ]
   },
   {
@@ -9668,6 +10185,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>För \\(f(x)=7^x\\):</p><p><div class=\"spel-en-del\">Skriv funktionen med basen \\(e\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(7^x=e^{x\\ln7}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>För \\(f(x)=7^x\\):</p><p><div class=\"spel-en-del\">Bestäm \\(f^{\\prime}(x)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">För exponentialfunktionen \\(a^x\\) gäller \\((a^x)^{\\prime}=a^x\\ln a\\). Därför</div></p><p>\\[\\boxed{f^{\\prime}(x)=7^x\\ln7}.\\]</p>"
+      }
     ]
   },
   {
@@ -9743,6 +10273,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Bestäm derivatan.</p><p><div class=\"spel-en-del\">\\(y=7x^5-x-8\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(\\boxed{y^{\\prime}=35x^4-1}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Bestäm derivatan.</p><p><div class=\"spel-en-del\">\\(y=0,4x^2-1,2\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(\\boxed{y^{\\prime}=0,8x}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Bestäm derivatan.</p><p><div class=\"spel-en-del\">\\(y=2x^{-2}-3x^{-3}\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(\\boxed{y^{\\prime}=-4x^{-3}+9x^{-4}}\\).</div></p>"
+      }
     ]
   },
   {
@@ -9817,6 +10365,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Bestäm värdet.</p><p><div class=\"spel-en-del\">Om \\(f(x)=x^3+x^2-7\\), bestäm \\(f^{\\prime}(1)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=3x^2+2x\\Rightarrow \\boxed5\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Bestäm värdet.</p><p><div class=\"spel-en-del\">Om \\(g(x)=3\\sqrt{x}\\), bestäm \\(g^{\\prime}(4)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(g^{\\prime}(x)=3/(2\\sqrt{x})\\Rightarrow \\boxed{3/4}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Bestäm värdet.</p><p><div class=\"spel-en-del\">Om \\(h(x)=2/x^2\\), bestäm \\(h^{\\prime}(1)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(h^{\\prime}(x)=-4x^{-3}\\Rightarrow \\boxed{-4}\\).</div></p>"
+      }
     ]
   },
   {
@@ -10055,6 +10621,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>För \\(f(x)=5^x\\), bestäm</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(x)\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(\\boxed{f^{\\prime}(x)=5^x\\ln5}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>För \\(f(x)=5^x\\), bestäm</p><p><div class=\"spel-en-del\">\\(f^{\\prime}(0)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(\\boxed{f^{\\prime}(0)=\\ln5}\\).</div></p>"
+      }
     ]
   },
   {
@@ -10629,6 +11208,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=3 x^{2}\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(F(x)=x^{3}+C\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=4 x^{3} - 2 x\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(F(x)=x^{4} - x^{2}+C\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=5\\)<br/></div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(F(x)=5 x+C\\)</div></p>"
+      }
     ]
   },
   {
@@ -10776,6 +11373,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=x^{4} + 2 x\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(F(x)=\\frac{x^{5}}{5} + x^{2}+C\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=6 x^{2} - 3\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(F(x)=2 x^{3} - 3 x+C\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=e^{x}\\)<br/></div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(F(x)=e^{x}+C\\)</div></p>"
+      }
     ]
   },
   {
@@ -10924,6 +11539,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{2}{x^{2}}\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(F(x)=- \\frac{2}{x}+C\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=3 e^{2 x}\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(F(x)=\\frac{3 e^{2 x}}{2}+C\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=7 \\sqrt{x}\\)<br/></div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(F(x)=\\frac{14 x^{\\frac{3}{2}}}{3}+C\\)</div></p>"
+      }
     ]
   },
   {
@@ -16580,6 +17213,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Figuren visar \\(f(x)=x-1\\).</p><span class=\"fig\"><svg aria-label=\"Rät linje som skär x-axeln och ger positiv och negativ integralarea\" height=\"270\" role=\"img\" style=\"max-width:100%;height:auto\" viewbox=\"0 0 400 270\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"268\" rx=\"8\" stroke=\"#E4E3E6\" width=\"398\" x=\"1\" y=\"1\"></rect><line stroke=\"#EEEDEF\" x1=\"46.0\" x2=\"46.0\" y1=\"18\" y2=\"236\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"middle\" x=\"46.0\" y=\"252\">-1</text><line stroke=\"#EEEDEF\" x1=\"113.2\" x2=\"113.2\" y1=\"18\" y2=\"236\"></line><line stroke=\"#EEEDEF\" x1=\"180.4\" x2=\"180.4\" y1=\"18\" y2=\"236\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"middle\" x=\"180.4\" y=\"252\">1</text><line stroke=\"#EEEDEF\" x1=\"247.6\" x2=\"247.6\" y1=\"18\" y2=\"236\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"middle\" x=\"247.6\" y=\"252\">2</text><line stroke=\"#EEEDEF\" x1=\"314.8\" x2=\"314.8\" y1=\"18\" y2=\"236\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"middle\" x=\"314.8\" y=\"252\">3</text><line stroke=\"#EEEDEF\" x1=\"382.0\" x2=\"382.0\" y1=\"18\" y2=\"236\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"middle\" x=\"382.0\" y=\"252\">4</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"236.0\" y2=\"236.0\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"239.0\">-3</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"204.9\" y2=\"204.9\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"207.9\">-2</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"173.7\" y2=\"173.7\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"176.7\">-1</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"142.6\" y2=\"142.6\"></line><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"111.4\" y2=\"111.4\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"114.4\">1</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"80.3\" y2=\"80.3\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"83.3\">2</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"49.1\" y2=\"49.1\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"52.1\">3</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"18.0\" y2=\"18.0\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"21.0\">4</text><line stroke=\"#2B2527\" stroke-width=\"1.5\" x1=\"113.2\" x2=\"113.2\" y1=\"18\" y2=\"236\"></line><line stroke=\"#2B2527\" stroke-width=\"1.5\" x1=\"46\" x2=\"382\" y1=\"142.6\" y2=\"142.6\"></line><path d=\"M46.0,204.9 L46.9,204.4 L47.9,204.0 L48.8,203.6 L49.7,203.1 L50.7,202.7 L51.6,202.3 L52.5,201.8 L53.5,201.4 L54.4,201.0 L55.3,200.5 L56.3,200.1 L57.2,199.7 L58.1,199.2 L59.1,198.8 L60.0,198.4 L60.9,197.9 L61.9,197.5 L62.8,197.1 L63.7,196.6 L64.7,196.2 L65.6,195.8 L66.5,195.3 L67.5,194.9 L68.4,194.5 L69.3,194.0 L70.3,193.6 L71.2,193.2 L72.1,192.7 L73.1,192.3 L74.0,191.9 L74.9,191.4 L75.9,191.0 L76.8,190.6 L77.7,190.2 L78.7,189.7 L79.6,189.3 L80.5,188.9 L81.5,188.4 L82.4,188.0 L83.3,187.6 L84.3,187.1 L85.2,186.7 L86.1,186.3 L87.1,185.8 L88.0,185.4 L88.9,185.0 L89.9,184.5 L90.8,184.1 L91.7,183.7 L92.7,183.2 L93.6,182.8 L94.5,182.4 L95.5,181.9 L96.4,181.5 L97.3,181.1 L98.3,180.6 L99.2,180.2 L100.1,179.8 L101.1,179.3 L102.0,178.9 L102.9,178.5 L103.9,178.0 L104.8,177.6 L105.7,177.2 L106.7,176.7 L107.6,176.3 L108.5,175.9 L109.5,175.4 L110.4,175.0 L111.3,174.6 L112.3,174.1 L113.2,173.7 L114.1,173.3 L115.1,172.8 L116.0,172.4 L116.9,172.0 L117.9,171.6 L118.8,171.1 L119.7,170.7 L120.7,170.3 L121.6,169.8 L122.5,169.4 L123.5,169.0 L124.4,168.5 L125.3,168.1 L126.3,167.7 L127.2,167.2 L128.1,166.8 L129.1,166.4 L130.0,165.9 L130.9,165.5 L131.9,165.1 L132.8,164.6 L133.7,164.2 L134.7,163.8 L135.6,163.3 L136.5,162.9 L137.5,162.5 L138.4,162.0 L139.3,161.6 L140.3,161.2 L141.2,160.7 L142.1,160.3 L143.1,159.9 L144.0,159.4 L144.9,159.0 L145.9,158.6 L146.8,158.1 L147.7,157.7 L148.7,157.3 L149.6,156.8 L150.5,156.4 L151.5,156.0 L152.4,155.5 L153.3,155.1 L154.3,154.7 L155.2,154.2 L156.1,153.8 L157.1,153.4 L158.0,153.0 L158.9,152.5 L159.9,152.1 L160.8,151.7 L161.7,151.2 L162.7,150.8 L163.6,150.4 L164.5,149.9 L165.5,149.5 L166.4,149.1 L167.3,148.6 L168.3,148.2 L169.2,147.8 L170.1,147.3 L171.1,146.9 L172.0,146.5 L172.9,146.0 L173.9,145.6 L174.8,145.2 L175.7,144.7 L176.7,144.3 L177.6,143.9 L178.5,143.4 L179.5,143.0 L180.4,142.6 L181.3,142.1 L182.3,141.7 L183.2,141.3 L184.1,140.8 L185.1,140.4 L186.0,140.0 L186.9,139.5 L187.9,139.1 L188.8,138.7 L189.7,138.2 L190.7,137.8 L191.6,137.4 L192.5,136.9 L193.5,136.5 L194.4,136.1 L195.3,135.7 L196.3,135.2 L197.2,134.8 L198.1,134.4 L199.1,133.9 L200.0,133.5 L200.9,133.1 L201.9,132.6 L202.8,132.2 L203.7,131.8 L204.7,131.3 L205.6,130.9 L206.5,130.5 L207.5,130.0 L208.4,129.6 L209.3,129.2 L210.3,128.7 L211.2,128.3 L212.1,127.9 L213.1,127.4 L214.0,127.0 L214.9,126.6 L215.9,126.1 L216.8,125.7 L217.7,125.3 L218.7,124.8 L219.6,124.4 L220.5,124.0 L221.5,123.5 L222.4,123.1 L223.3,122.7 L224.3,122.2 L225.2,121.8 L226.1,121.4 L227.1,120.9 L228.0,120.5 L228.9,120.1 L229.9,119.6 L230.8,119.2 L231.7,118.8 L232.7,118.3 L233.6,117.9 L234.5,117.5 L235.5,117.1 L236.4,116.6 L237.3,116.2 L238.3,115.8 L239.2,115.3 L240.1,114.9 L241.1,114.5 L242.0,114.0 L242.9,113.6 L243.9,113.2 L244.8,112.7 L245.7,112.3 L246.7,111.9 L247.6,111.4 L248.5,111.0 L249.5,110.6 L250.4,110.1 L251.3,109.7 L252.3,109.3 L253.2,108.8 L254.1,108.4 L255.1,108.0 L256.0,107.5 L256.9,107.1 L257.9,106.7 L258.8,106.2 L259.7,105.8 L260.7,105.4 L261.6,104.9 L262.5,104.5 L263.5,104.1 L264.4,103.6 L265.3,103.2 L266.3,102.8 L267.2,102.3 L268.1,101.9 L269.1,101.5 L270.0,101.0 L270.9,100.6 L271.9,100.2 L272.8,99.8 L273.7,99.3 L274.7,98.9 L275.6,98.5 L276.5,98.0 L277.5,97.6 L278.4,97.2 L279.3,96.7 L280.3,96.3 L281.2,95.9 L282.1,95.4 L283.1,95.0 L284.0,94.6 L284.9,94.1 L285.9,93.7 L286.8,93.3 L287.7,92.8 L288.7,92.4 L289.6,92.0 L290.5,91.5 L291.5,91.1 L292.4,90.7 L293.3,90.2 L294.3,89.8 L295.2,89.4 L296.1,88.9 L297.1,88.5 L298.0,88.1 L298.9,87.6 L299.9,87.2 L300.8,86.8 L301.7,86.3 L302.7,85.9 L303.6,85.5 L304.5,85.0 L305.5,84.6 L306.4,84.2 L307.3,83.7 L308.3,83.3 L309.2,82.9 L310.1,82.4 L311.1,82.0 L312.0,81.6 L312.9,81.2 L313.9,80.7 L314.8,80.3 L315.7,79.9 L316.7,79.4 L317.6,79.0 L318.5,78.6 L319.5,78.1 L320.4,77.7 L321.3,77.3 L322.3,76.8 L323.2,76.4 L324.1,76.0 L325.1,75.5 L326.0,75.1 L326.9,74.7 L327.9,74.2 L328.8,73.8 L329.7,73.4 L330.7,72.9 L331.6,72.5 L332.5,72.1 L333.5,71.6 L334.4,71.2 L335.3,70.8 L336.3,70.3 L337.2,69.9 L338.1,69.5 L339.1,69.0 L340.0,68.6 L340.9,68.2 L341.9,67.7 L342.8,67.3 L343.7,66.9 L344.7,66.4 L345.6,66.0 L346.5,65.6 L347.5,65.1 L348.4,64.7 L349.3,64.3 L350.3,63.8 L351.2,63.4 L352.1,63.0 L353.1,62.6 L354.0,62.1 L354.9,61.7 L355.9,61.3 L356.8,60.8 L357.7,60.4 L358.7,60.0 L359.6,59.5 L360.5,59.1 L361.5,58.7 L362.4,58.2 L363.3,57.8 L364.3,57.4 L365.2,56.9 L366.1,56.5 L367.1,56.1 L368.0,55.6 L368.9,55.2 L369.9,54.8 L370.8,54.3 L371.7,53.9 L372.7,53.5 L373.6,53.0 L374.5,52.6 L375.5,52.2 L376.4,51.7 L377.3,51.3 L378.3,50.9 L379.2,50.4 L380.1,50.0 L381.1,49.6 L382.0,49.1\" fill=\"none\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path><text font-size=\"11\" text-anchor=\"end\" x=\"380\" y=\"135.6\">x</text><text font-size=\"11\" x=\"121.2\" y=\"30\">y</text></svg></span><p>Bestäm</p><p><div class=\"spel-en-del\">\\(\\int_0^3 f(x)\\,dx\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\[\\int_0^3(x-1)dx=\\left[\\frac{x^2}{2}-x\\right]_0^3=\\frac32.\\]</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Figuren visar \\(f(x)=x-1\\).</p><span class=\"fig\"><svg aria-label=\"Rät linje som skär x-axeln och ger positiv och negativ integralarea\" height=\"270\" role=\"img\" style=\"max-width:100%;height:auto\" viewbox=\"0 0 400 270\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"268\" rx=\"8\" stroke=\"#E4E3E6\" width=\"398\" x=\"1\" y=\"1\"></rect><line stroke=\"#EEEDEF\" x1=\"46.0\" x2=\"46.0\" y1=\"18\" y2=\"236\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"middle\" x=\"46.0\" y=\"252\">-1</text><line stroke=\"#EEEDEF\" x1=\"113.2\" x2=\"113.2\" y1=\"18\" y2=\"236\"></line><line stroke=\"#EEEDEF\" x1=\"180.4\" x2=\"180.4\" y1=\"18\" y2=\"236\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"middle\" x=\"180.4\" y=\"252\">1</text><line stroke=\"#EEEDEF\" x1=\"247.6\" x2=\"247.6\" y1=\"18\" y2=\"236\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"middle\" x=\"247.6\" y=\"252\">2</text><line stroke=\"#EEEDEF\" x1=\"314.8\" x2=\"314.8\" y1=\"18\" y2=\"236\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"middle\" x=\"314.8\" y=\"252\">3</text><line stroke=\"#EEEDEF\" x1=\"382.0\" x2=\"382.0\" y1=\"18\" y2=\"236\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"middle\" x=\"382.0\" y=\"252\">4</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"236.0\" y2=\"236.0\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"239.0\">-3</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"204.9\" y2=\"204.9\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"207.9\">-2</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"173.7\" y2=\"173.7\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"176.7\">-1</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"142.6\" y2=\"142.6\"></line><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"111.4\" y2=\"111.4\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"114.4\">1</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"80.3\" y2=\"80.3\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"83.3\">2</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"49.1\" y2=\"49.1\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"52.1\">3</text><line stroke=\"#EEEDEF\" x1=\"46\" x2=\"382\" y1=\"18.0\" y2=\"18.0\"></line><text fill=\"#6B6670\" font-size=\"10\" text-anchor=\"end\" x=\"39\" y=\"21.0\">4</text><line stroke=\"#2B2527\" stroke-width=\"1.5\" x1=\"113.2\" x2=\"113.2\" y1=\"18\" y2=\"236\"></line><line stroke=\"#2B2527\" stroke-width=\"1.5\" x1=\"46\" x2=\"382\" y1=\"142.6\" y2=\"142.6\"></line><path d=\"M46.0,204.9 L46.9,204.4 L47.9,204.0 L48.8,203.6 L49.7,203.1 L50.7,202.7 L51.6,202.3 L52.5,201.8 L53.5,201.4 L54.4,201.0 L55.3,200.5 L56.3,200.1 L57.2,199.7 L58.1,199.2 L59.1,198.8 L60.0,198.4 L60.9,197.9 L61.9,197.5 L62.8,197.1 L63.7,196.6 L64.7,196.2 L65.6,195.8 L66.5,195.3 L67.5,194.9 L68.4,194.5 L69.3,194.0 L70.3,193.6 L71.2,193.2 L72.1,192.7 L73.1,192.3 L74.0,191.9 L74.9,191.4 L75.9,191.0 L76.8,190.6 L77.7,190.2 L78.7,189.7 L79.6,189.3 L80.5,188.9 L81.5,188.4 L82.4,188.0 L83.3,187.6 L84.3,187.1 L85.2,186.7 L86.1,186.3 L87.1,185.8 L88.0,185.4 L88.9,185.0 L89.9,184.5 L90.8,184.1 L91.7,183.7 L92.7,183.2 L93.6,182.8 L94.5,182.4 L95.5,181.9 L96.4,181.5 L97.3,181.1 L98.3,180.6 L99.2,180.2 L100.1,179.8 L101.1,179.3 L102.0,178.9 L102.9,178.5 L103.9,178.0 L104.8,177.6 L105.7,177.2 L106.7,176.7 L107.6,176.3 L108.5,175.9 L109.5,175.4 L110.4,175.0 L111.3,174.6 L112.3,174.1 L113.2,173.7 L114.1,173.3 L115.1,172.8 L116.0,172.4 L116.9,172.0 L117.9,171.6 L118.8,171.1 L119.7,170.7 L120.7,170.3 L121.6,169.8 L122.5,169.4 L123.5,169.0 L124.4,168.5 L125.3,168.1 L126.3,167.7 L127.2,167.2 L128.1,166.8 L129.1,166.4 L130.0,165.9 L130.9,165.5 L131.9,165.1 L132.8,164.6 L133.7,164.2 L134.7,163.8 L135.6,163.3 L136.5,162.9 L137.5,162.5 L138.4,162.0 L139.3,161.6 L140.3,161.2 L141.2,160.7 L142.1,160.3 L143.1,159.9 L144.0,159.4 L144.9,159.0 L145.9,158.6 L146.8,158.1 L147.7,157.7 L148.7,157.3 L149.6,156.8 L150.5,156.4 L151.5,156.0 L152.4,155.5 L153.3,155.1 L154.3,154.7 L155.2,154.2 L156.1,153.8 L157.1,153.4 L158.0,153.0 L158.9,152.5 L159.9,152.1 L160.8,151.7 L161.7,151.2 L162.7,150.8 L163.6,150.4 L164.5,149.9 L165.5,149.5 L166.4,149.1 L167.3,148.6 L168.3,148.2 L169.2,147.8 L170.1,147.3 L171.1,146.9 L172.0,146.5 L172.9,146.0 L173.9,145.6 L174.8,145.2 L175.7,144.7 L176.7,144.3 L177.6,143.9 L178.5,143.4 L179.5,143.0 L180.4,142.6 L181.3,142.1 L182.3,141.7 L183.2,141.3 L184.1,140.8 L185.1,140.4 L186.0,140.0 L186.9,139.5 L187.9,139.1 L188.8,138.7 L189.7,138.2 L190.7,137.8 L191.6,137.4 L192.5,136.9 L193.5,136.5 L194.4,136.1 L195.3,135.7 L196.3,135.2 L197.2,134.8 L198.1,134.4 L199.1,133.9 L200.0,133.5 L200.9,133.1 L201.9,132.6 L202.8,132.2 L203.7,131.8 L204.7,131.3 L205.6,130.9 L206.5,130.5 L207.5,130.0 L208.4,129.6 L209.3,129.2 L210.3,128.7 L211.2,128.3 L212.1,127.9 L213.1,127.4 L214.0,127.0 L214.9,126.6 L215.9,126.1 L216.8,125.7 L217.7,125.3 L218.7,124.8 L219.6,124.4 L220.5,124.0 L221.5,123.5 L222.4,123.1 L223.3,122.7 L224.3,122.2 L225.2,121.8 L226.1,121.4 L227.1,120.9 L228.0,120.5 L228.9,120.1 L229.9,119.6 L230.8,119.2 L231.7,118.8 L232.7,118.3 L233.6,117.9 L234.5,117.5 L235.5,117.1 L236.4,116.6 L237.3,116.2 L238.3,115.8 L239.2,115.3 L240.1,114.9 L241.1,114.5 L242.0,114.0 L242.9,113.6 L243.9,113.2 L244.8,112.7 L245.7,112.3 L246.7,111.9 L247.6,111.4 L248.5,111.0 L249.5,110.6 L250.4,110.1 L251.3,109.7 L252.3,109.3 L253.2,108.8 L254.1,108.4 L255.1,108.0 L256.0,107.5 L256.9,107.1 L257.9,106.7 L258.8,106.2 L259.7,105.8 L260.7,105.4 L261.6,104.9 L262.5,104.5 L263.5,104.1 L264.4,103.6 L265.3,103.2 L266.3,102.8 L267.2,102.3 L268.1,101.9 L269.1,101.5 L270.0,101.0 L270.9,100.6 L271.9,100.2 L272.8,99.8 L273.7,99.3 L274.7,98.9 L275.6,98.5 L276.5,98.0 L277.5,97.6 L278.4,97.2 L279.3,96.7 L280.3,96.3 L281.2,95.9 L282.1,95.4 L283.1,95.0 L284.0,94.6 L284.9,94.1 L285.9,93.7 L286.8,93.3 L287.7,92.8 L288.7,92.4 L289.6,92.0 L290.5,91.5 L291.5,91.1 L292.4,90.7 L293.3,90.2 L294.3,89.8 L295.2,89.4 L296.1,88.9 L297.1,88.5 L298.0,88.1 L298.9,87.6 L299.9,87.2 L300.8,86.8 L301.7,86.3 L302.7,85.9 L303.6,85.5 L304.5,85.0 L305.5,84.6 L306.4,84.2 L307.3,83.7 L308.3,83.3 L309.2,82.9 L310.1,82.4 L311.1,82.0 L312.0,81.6 L312.9,81.2 L313.9,80.7 L314.8,80.3 L315.7,79.9 L316.7,79.4 L317.6,79.0 L318.5,78.6 L319.5,78.1 L320.4,77.7 L321.3,77.3 L322.3,76.8 L323.2,76.4 L324.1,76.0 L325.1,75.5 L326.0,75.1 L326.9,74.7 L327.9,74.2 L328.8,73.8 L329.7,73.4 L330.7,72.9 L331.6,72.5 L332.5,72.1 L333.5,71.6 L334.4,71.2 L335.3,70.8 L336.3,70.3 L337.2,69.9 L338.1,69.5 L339.1,69.0 L340.0,68.6 L340.9,68.2 L341.9,67.7 L342.8,67.3 L343.7,66.9 L344.7,66.4 L345.6,66.0 L346.5,65.6 L347.5,65.1 L348.4,64.7 L349.3,64.3 L350.3,63.8 L351.2,63.4 L352.1,63.0 L353.1,62.6 L354.0,62.1 L354.9,61.7 L355.9,61.3 L356.8,60.8 L357.7,60.4 L358.7,60.0 L359.6,59.5 L360.5,59.1 L361.5,58.7 L362.4,58.2 L363.3,57.8 L364.3,57.4 L365.2,56.9 L366.1,56.5 L367.1,56.1 L368.0,55.6 L368.9,55.2 L369.9,54.8 L370.8,54.3 L371.7,53.9 L372.7,53.5 L373.6,53.0 L374.5,52.6 L375.5,52.2 L376.4,51.7 L377.3,51.3 L378.3,50.9 L379.2,50.4 L380.1,50.0 L381.1,49.6 L382.0,49.1\" fill=\"none\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.5\"></path><text font-size=\"11\" text-anchor=\"end\" x=\"380\" y=\"135.6\">x</text><text font-size=\"11\" x=\"121.2\" y=\"30\">y</text></svg></span><p>Bestäm</p><p><div class=\"spel-en-del\">den geometriska arean mellan grafen och x-axeln på samma intervall.</div></p>",
+        "s": "<p><div class=\"spel-en-del\">Grafen byter tecken vid \\(x=1\\). Arean är</div></p><p>\\[\\frac{1\\cdot1}{2}+\\frac{2\\cdot2}{2}=\\frac12+2=\\frac52.\\]</p><p><strong>Svar:</strong> integralen \\(=\\boxed{1,5}\\), geometriska arean \\(=\\boxed{2,5}\\).</p>"
+      }
     ]
   },
   {
@@ -17066,6 +17712,29 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Bestäm exakt. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(\\sin30^\\circ\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(1/2\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Bestäm exakt. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(\\cos60^\\circ\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(1/2\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Bestäm exakt. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(\\sin45^\\circ\\)</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(\\sqrt2/2\\)</div></p><p></p>"
+      },
+      {
+        "etikett": "d",
+        "t": "<p>Bestäm exakt. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(\\cos135^\\circ\\).</div></p>",
+        "s": "<p><strong>Svar:</strong></p><p><div class=\"spel-en-del\">\\(-\\sqrt2/2\\)</div></p>"
+      }
     ]
   },
   {
@@ -17182,6 +17851,19 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc406arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc406arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc406arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"119\" y1=\"145\" y2=\"65.3\"></line><circle cx=\"119\" cy=\"65.3\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"109\" y=\"57.3\">P</text><path d=\"M 196 145 L 195.7 141 L 194.9 137 L 193.6 133.1 L 191.8 129.5 L 189.6 126.1 L 186.9 123.1 L 183.9 120.4 L 180.5 118.2 L 176.9 116.4 L 173 115.1 L 169 114.3 L 165 114 L 161 114.3 L 157 115.1 L 153.1 116.4 L 149.5 118.2\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"188.5\" y=\"108.3\">120°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\cos 120^\\circ\\),</div></p>",
+        "s": "<p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{- \\frac{1}{2}}\\),</div></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc406arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc406arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc406arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"119\" y1=\"145\" y2=\"65.3\"></line><circle cx=\"119\" cy=\"65.3\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"109\" y=\"57.3\">P</text><path d=\"M 196 145 L 195.7 141 L 194.9 137 L 193.6 133.1 L 191.8 129.5 L 189.6 126.1 L 186.9 123.1 L 183.9 120.4 L 180.5 118.2 L 176.9 116.4 L 173 115.1 L 169 114.3 L 165 114 L 161 114.3 L 157 115.1 L 153.1 116.4 L 149.5 118.2\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"188.5\" y=\"108.3\">120°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\sin 120^\\circ\\).</div></p>",
+        "s": "<p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{\\frac{\\sqrt{3}}{2}}\\).</div></p>"
+      }
     ]
   },
   {
@@ -17298,6 +17980,19 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc411arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc411arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc411arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"85.3\" y1=\"145\" y2=\"191\"></line><circle cx=\"85.3\" cy=\"191\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"75.3\" y=\"209\">P</text><path d=\"M 196 145 L 195.7 140.8 L 194.9 136.7 L 193.5 132.7 L 191.5 129 L 189.1 125.5 L 186.3 122.5 L 183 119.8 L 179.4 117.6 L 175.6 115.9 L 171.6 114.7 L 167.4 114.1 L 163.2 114.1 L 159 114.6 L 155 115.7 L 151.1 117.3 L 147.5 119.4 L 144.2 122 L 141.3 125.1 L 138.8 128.5 L 136.8 132.2 L 135.3 136.1 L 134.4 140.2 L 134 144.4 L 134.2 148.6 L 135 152.7 L 136.3 156.7 L 138.2 160.5\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"152.8\" y=\"103.6\">210°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\cos 210^\\circ\\),</div></p>",
+        "s": "<p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{- \\frac{\\sqrt{3}}{2}}\\),</div></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc411arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc411arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc411arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"85.3\" y1=\"145\" y2=\"191\"></line><circle cx=\"85.3\" cy=\"191\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"75.3\" y=\"209\">P</text><path d=\"M 196 145 L 195.7 140.8 L 194.9 136.7 L 193.5 132.7 L 191.5 129 L 189.1 125.5 L 186.3 122.5 L 183 119.8 L 179.4 117.6 L 175.6 115.9 L 171.6 114.7 L 167.4 114.1 L 163.2 114.1 L 159 114.6 L 155 115.7 L 151.1 117.3 L 147.5 119.4 L 144.2 122 L 141.3 125.1 L 138.8 128.5 L 136.8 132.2 L 135.3 136.1 L 134.4 140.2 L 134 144.4 L 134.2 148.6 L 135 152.7 L 136.3 156.7 L 138.2 160.5\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"152.8\" y=\"103.6\">210°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\sin 210^\\circ\\).</div></p>",
+        "s": "<p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{- \\frac{1}{2}}\\).</div></p>"
+      }
     ]
   },
   {
@@ -17415,6 +18110,19 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc416arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc416arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc416arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"211\" y1=\"145\" y2=\"224.7\"></line><circle cx=\"211\" cy=\"224.7\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" x=\"221\" y=\"242.7\">P</text><path d=\"M 196 145 L 195.7 140.7 L 194.8 136.6 L 193.4 132.5 L 191.4 128.8 L 188.9 125.3 L 186 122.2 L 182.7 119.5 L 179 117.3 L 175.1 115.7 L 170.9 114.6 L 166.7 114 L 162.4 114.1 L 158.2 114.8 L 154.1 116 L 150.2 117.7 L 146.6 120 L 143.4 122.8 L 140.5 126 L 138.2 129.5 L 136.3 133.3 L 134.9 137.4 L 134.2 141.6 L 134 145.9 L 134.4 150.1 L 135.4 154.3 L 137 158.2 L 139 162 L 141.6 165.4 L 144.6 168.4 L 148 171 L 151.8 173 L 155.7 174.6 L 159.9 175.6 L 164.1 176 L 168.4 175.8 L 172.6 175.1 L 176.7 173.7 L 180.5 171.8\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"124.3\" y=\"125.5\">300°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\cos 300^\\circ\\),</div></p>",
+        "s": "<p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{\\frac{1}{2}}\\),</div></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc416arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc416arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc416arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"211\" y1=\"145\" y2=\"224.7\"></line><circle cx=\"211\" cy=\"224.7\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" x=\"221\" y=\"242.7\">P</text><path d=\"M 196 145 L 195.7 140.7 L 194.8 136.6 L 193.4 132.5 L 191.4 128.8 L 188.9 125.3 L 186 122.2 L 182.7 119.5 L 179 117.3 L 175.1 115.7 L 170.9 114.6 L 166.7 114 L 162.4 114.1 L 158.2 114.8 L 154.1 116 L 150.2 117.7 L 146.6 120 L 143.4 122.8 L 140.5 126 L 138.2 129.5 L 136.3 133.3 L 134.9 137.4 L 134.2 141.6 L 134 145.9 L 134.4 150.1 L 135.4 154.3 L 137 158.2 L 139 162 L 141.6 165.4 L 144.6 168.4 L 148 171 L 151.8 173 L 155.7 174.6 L 159.9 175.6 L 164.1 176 L 168.4 175.8 L 172.6 175.1 L 176.7 173.7 L 180.5 171.8\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"124.3\" y=\"125.5\">300°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\sin 300^\\circ\\).</div></p>",
+        "s": "<p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{- \\frac{\\sqrt{3}}{2}}\\).</div></p>"
+      }
     ]
   },
   {
@@ -17531,6 +18239,19 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc421arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc421arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc421arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"99.9\" y1=\"145\" y2=\"79.9\"></line><circle cx=\"99.9\" cy=\"79.9\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"89.9\" y=\"71.9\">P</text><path d=\"M 196 145 L 195.7 140.7 L 194.8 136.5 L 193.4 132.5 L 191.4 128.7 L 188.8 125.2 L 185.9 122.1 L 182.5 119.4 L 178.8 117.2 L 174.9 115.6 L 170.7 114.5 L 166.4 114 L 162.1 114.1 L 157.9 114.8 L 153.8 116.1 L 149.9 117.9 L 146.3 120.3 L 143.1 123.1\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"183\" y=\"105.6\">135°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\cos 135^\\circ\\),</div></p>",
+        "s": "<p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{- \\frac{\\sqrt{2}}{2}}\\),</div></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc421arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc421arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc421arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"99.9\" y1=\"145\" y2=\"79.9\"></line><circle cx=\"99.9\" cy=\"79.9\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"89.9\" y=\"71.9\">P</text><path d=\"M 196 145 L 195.7 140.7 L 194.8 136.5 L 193.4 132.5 L 191.4 128.7 L 188.8 125.2 L 185.9 122.1 L 182.5 119.4 L 178.8 117.2 L 174.9 115.6 L 170.7 114.5 L 166.4 114 L 162.1 114.1 L 157.9 114.8 L 153.8 116.1 L 149.9 117.9 L 146.3 120.3 L 143.1 123.1\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"183\" y=\"105.6\">135°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\sin 135^\\circ\\).</div></p>",
+        "s": "<p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{\\frac{\\sqrt{2}}{2}}\\).</div></p>"
+      }
     ]
   },
   {
@@ -17646,6 +18367,19 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc426arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc426arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc426arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"119\" y1=\"145\" y2=\"224.7\"></line><circle cx=\"119\" cy=\"224.7\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"109\" y=\"242.7\">P</text><path d=\"M 196 145 L 195.7 140.8 L 194.9 136.7 L 193.5 132.8 L 191.6 129 L 189.2 125.6 L 186.4 122.5 L 183.1 119.9 L 179.6 117.6 L 175.8 115.9 L 171.8 114.7 L 167.6 114.1 L 163.4 114 L 159.3 114.5 L 155.2 115.6 L 151.3 117.2 L 147.7 119.3 L 144.4 121.8 L 141.5 124.8 L 139 128.2 L 136.9 131.8 L 135.4 135.7 L 134.4 139.8 L 134 144 L 134.2 148.1 L 134.9 152.3 L 136.1 156.3 L 137.9 160 L 140.2 163.6 L 142.9 166.7 L 146 169.5 L 149.5 171.8\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"141.5\" y=\"108.3\">240°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\cos 240^\\circ\\),</div></p>",
+        "s": "<p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{- \\frac{1}{2}}\\),</div></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Figuren visar en punkt \\(P\\) på enhetscirkeln.</p><span class=\"fig bred\"><svg aria-label=\"Enhetscirkel\" height=\"300\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"300\" width=\"360\" x=\"0\" y=\"0\"></rect><defs><marker id=\"uc426arr\" markerheight=\"8\" markerwidth=\"8\" orient=\"auto\" refx=\"6.5\" refy=\"4\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\"></path></marker></defs><circle cx=\"165\" cy=\"145\" fill=\"none\" r=\"92\" stroke=\"#2B2527\" stroke-width=\"1.9\"></circle><line marker-end=\"url(#uc426arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"38\" x2=\"309\" y1=\"145\" y2=\"145\"></line><line marker-end=\"url(#uc426arr)\" stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"165\" x2=\"165\" y1=\"266\" y2=\"24\"></line><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"314\" y=\"161\">x</text><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" x=\"151\" y=\"24\">y</text><circle cx=\"165\" cy=\"145\" fill=\"#2B2527\" r=\"3.7\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"165\" x2=\"119\" y1=\"145\" y2=\"224.7\"></line><circle cx=\"119\" cy=\"224.7\" fill=\"#2B2527\" r=\"4.3\"></circle><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"109\" y=\"242.7\">P</text><path d=\"M 196 145 L 195.7 140.8 L 194.9 136.7 L 193.5 132.8 L 191.6 129 L 189.2 125.6 L 186.4 122.5 L 183.1 119.9 L 179.6 117.6 L 175.8 115.9 L 171.8 114.7 L 167.6 114.1 L 163.4 114 L 159.3 114.5 L 155.2 115.6 L 151.3 117.2 L 147.7 119.3 L 144.4 121.8 L 141.5 124.8 L 139 128.2 L 136.9 131.8 L 135.4 135.7 L 134.4 139.8 L 134 144 L 134.2 148.1 L 134.9 152.3 L 136.1 156.3 L 137.9 160 L 140.2 163.6 L 142.9 166.7 L 146 169.5 L 149.5 171.8\" fill=\"none\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.45\"></path><text fill=\"#2B2527\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" x=\"141.5\" y=\"108.3\">240°</text></svg></span><p>Bestäm exakt<div class=\"spel-en-del\">\\(\\sin 240^\\circ\\).</div></p>",
+        "s": "<p>På enhetscirkeln är punktens x-koordinat cosinusvärdet och y-koordinaten sinusvärdet.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{- \\frac{\\sqrt{3}}{2}}\\).</div></p>"
+      }
     ]
   },
   {
@@ -20643,6 +21377,19 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p><div class=\"spel-en-del\">Bestäm kvoten.</div></p>",
+        "s": "<p><div class=\"spel-en-del\">Kvoten är \\(k=6/2=3\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p><div class=\"spel-en-del\">Skriv den sjätte termen.</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(a_6=2\\cdot3^5=486\\).</div></p>"
+      }
     ]
   },
   {
@@ -22332,6 +23079,19 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Figuren visar grafen till \\(f(x)=x^2\\) och tangenten i punkten \\(P\\), där \\(x=1\\).</p><span class=\"fig\"><svg aria-label=\"Parabel y lika med x kvadrat och tangent i punkten ett ett\" height=\"300\" role=\"img\" style=\"max-width:100%;height:auto\" viewbox=\"0 0 400 300\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"244\" stroke=\"#E4E3E6\" width=\"334\" x=\"48\" y=\"18\"></rect><line stroke=\"#E9E8EB\" x1=\"48.00\" x2=\"48.00\" y1=\"18\" y2=\"262\"></line><line stroke=\"#E9E8EB\" x1=\"131.50\" x2=\"131.50\" y1=\"18\" y2=\"262\"></line><line stroke=\"#E9E8EB\" x1=\"215.00\" x2=\"215.00\" y1=\"18\" y2=\"262\"></line><line stroke=\"#E9E8EB\" x1=\"298.50\" x2=\"298.50\" y1=\"18\" y2=\"262\"></line><line stroke=\"#E9E8EB\" x1=\"382.00\" x2=\"382.00\" y1=\"18\" y2=\"262\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"262.00\" y2=\"262.00\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"221.33\" y2=\"221.33\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"180.67\" y2=\"180.67\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"140.00\" y2=\"140.00\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"99.33\" y2=\"99.33\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"58.67\" y2=\"58.67\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"18.00\" y2=\"18.00\"></line><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"48\" x2=\"382\" y1=\"221.33\" y2=\"221.33\"></line><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"131.50\" x2=\"131.50\" y1=\"262\" y2=\"18\"></line><path d=\"M48.00,201.00 L50.09,202.00 L52.18,202.98 L54.26,203.94 L56.35,204.86 L58.44,205.77 L60.53,206.64 L62.61,207.49 L64.70,208.32 L66.79,209.12 L68.88,209.90 L70.96,210.65 L73.05,211.37 L75.14,212.07 L77.22,212.74 L79.31,213.39 L81.40,214.01 L83.49,214.61 L85.57,215.18 L87.66,215.73 L89.75,216.25 L91.84,216.75 L93.93,217.22 L96.01,217.66 L98.10,218.08 L100.19,218.47 L102.28,218.84 L104.36,219.19 L106.45,219.50 L108.54,219.80 L110.62,220.06 L112.71,220.30 L114.80,220.52 L116.89,220.71 L118.97,220.88 L121.06,221.02 L123.15,221.13 L125.24,221.22 L127.33,221.28 L129.41,221.32 L131.50,221.33 L133.59,221.32 L135.68,221.28 L137.76,221.22 L139.85,221.13 L141.94,221.02 L144.02,220.88 L146.11,220.71 L148.20,220.52 L150.29,220.30 L152.38,220.06 L154.46,219.80 L156.55,219.50 L158.64,219.19 L160.73,218.84 L162.81,218.47 L164.90,218.08 L166.99,217.66 L169.07,217.22 L171.16,216.75 L173.25,216.25 L175.34,215.73 L177.43,215.18 L179.51,214.61 L181.60,214.01 L183.69,213.39 L185.78,212.74 L187.86,212.07 L189.95,211.37 L192.04,210.65 L194.12,209.90 L196.21,209.12 L198.30,208.32 L200.39,207.49 L202.47,206.64 L204.56,205.77 L206.65,204.86 L208.74,203.94 L210.82,202.98 L212.91,202.00 L215.00,201.00 L217.09,199.97 L219.17,198.92 L221.26,197.84 L223.35,196.73 L225.44,195.60 L227.53,194.44 L229.61,193.26 L231.70,192.05 L233.79,190.82 L235.88,189.56 L237.96,188.28 L240.05,186.97 L242.14,185.64 L244.22,184.28 L246.31,182.89 L248.40,181.48 L250.49,180.04 L252.58,178.58 L254.66,177.10 L256.75,175.58 L258.84,174.05 L260.92,172.48 L263.01,170.89 L265.10,169.28 L267.19,167.64 L269.27,165.98 L271.36,164.29 L273.45,162.57 L275.54,160.83 L277.62,159.06 L279.71,157.27 L281.80,155.45 L283.89,153.61 L285.98,151.74 L288.06,149.85 L290.15,147.93 L292.24,145.99 L294.33,144.02 L296.41,142.02 L298.50,140.00 L300.59,137.95 L302.67,135.88 L304.76,133.79 L306.85,131.66 L308.94,129.52 L311.02,127.34 L313.11,125.14 L315.20,122.92 L317.29,120.67 L319.38,118.40 L321.46,116.10 L323.55,113.77 L325.64,111.42 L327.73,109.04 L329.81,106.64 L331.90,104.21 L333.99,101.76 L336.07,99.28 L338.16,96.78 L340.25,94.25 L342.34,91.70 L344.43,89.12 L346.51,86.51 L348.60,83.88 L350.69,81.22 L352.77,78.54 L354.86,75.84 L356.95,73.10 L359.04,70.35 L361.12,67.56 L363.21,64.75 L365.30,61.92 L367.39,59.06 L369.48,56.18 L371.56,53.27 L373.65,50.33 L375.74,47.37 L377.82,44.38 L379.91,41.37 L382.00,38.33\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.5\"></path><line stroke=\"#2A5D9E\" stroke-width=\"2.2\" x1=\"89.75\" x2=\"382.00\" y1=\"262.00\" y2=\"119.67\"></line><circle cx=\"215.00\" cy=\"201.00\" fill=\"#2B2527\" r=\"4.3\"></circle><text font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" x=\"223.00\" y=\"193.00\">P(1,1)</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" x=\"331.90\" y=\"99.33\">y=x²</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" x=\"298.50\" y=\"154.23\">tangent</text></svg></span><p><div class=\"spel-en-del\">Avläs tangentens lutning.</div></p>",
+        "s": "<p>Tangenten ökar 2 y-enheter när x ökar 1 enhet, så lutningen är 2. Derivatan i punkten är tangentens lutning.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(2\\),</div></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Figuren visar grafen till \\(f(x)=x^2\\) och tangenten i punkten \\(P\\), där \\(x=1\\).</p><span class=\"fig\"><svg aria-label=\"Parabel y lika med x kvadrat och tangent i punkten ett ett\" height=\"300\" role=\"img\" style=\"max-width:100%;height:auto\" viewbox=\"0 0 400 300\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"244\" stroke=\"#E4E3E6\" width=\"334\" x=\"48\" y=\"18\"></rect><line stroke=\"#E9E8EB\" x1=\"48.00\" x2=\"48.00\" y1=\"18\" y2=\"262\"></line><line stroke=\"#E9E8EB\" x1=\"131.50\" x2=\"131.50\" y1=\"18\" y2=\"262\"></line><line stroke=\"#E9E8EB\" x1=\"215.00\" x2=\"215.00\" y1=\"18\" y2=\"262\"></line><line stroke=\"#E9E8EB\" x1=\"298.50\" x2=\"298.50\" y1=\"18\" y2=\"262\"></line><line stroke=\"#E9E8EB\" x1=\"382.00\" x2=\"382.00\" y1=\"18\" y2=\"262\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"262.00\" y2=\"262.00\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"221.33\" y2=\"221.33\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"180.67\" y2=\"180.67\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"140.00\" y2=\"140.00\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"99.33\" y2=\"99.33\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"58.67\" y2=\"58.67\"></line><line stroke=\"#E9E8EB\" x1=\"48\" x2=\"382\" y1=\"18.00\" y2=\"18.00\"></line><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"48\" x2=\"382\" y1=\"221.33\" y2=\"221.33\"></line><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"131.50\" x2=\"131.50\" y1=\"262\" y2=\"18\"></line><path d=\"M48.00,201.00 L50.09,202.00 L52.18,202.98 L54.26,203.94 L56.35,204.86 L58.44,205.77 L60.53,206.64 L62.61,207.49 L64.70,208.32 L66.79,209.12 L68.88,209.90 L70.96,210.65 L73.05,211.37 L75.14,212.07 L77.22,212.74 L79.31,213.39 L81.40,214.01 L83.49,214.61 L85.57,215.18 L87.66,215.73 L89.75,216.25 L91.84,216.75 L93.93,217.22 L96.01,217.66 L98.10,218.08 L100.19,218.47 L102.28,218.84 L104.36,219.19 L106.45,219.50 L108.54,219.80 L110.62,220.06 L112.71,220.30 L114.80,220.52 L116.89,220.71 L118.97,220.88 L121.06,221.02 L123.15,221.13 L125.24,221.22 L127.33,221.28 L129.41,221.32 L131.50,221.33 L133.59,221.32 L135.68,221.28 L137.76,221.22 L139.85,221.13 L141.94,221.02 L144.02,220.88 L146.11,220.71 L148.20,220.52 L150.29,220.30 L152.38,220.06 L154.46,219.80 L156.55,219.50 L158.64,219.19 L160.73,218.84 L162.81,218.47 L164.90,218.08 L166.99,217.66 L169.07,217.22 L171.16,216.75 L173.25,216.25 L175.34,215.73 L177.43,215.18 L179.51,214.61 L181.60,214.01 L183.69,213.39 L185.78,212.74 L187.86,212.07 L189.95,211.37 L192.04,210.65 L194.12,209.90 L196.21,209.12 L198.30,208.32 L200.39,207.49 L202.47,206.64 L204.56,205.77 L206.65,204.86 L208.74,203.94 L210.82,202.98 L212.91,202.00 L215.00,201.00 L217.09,199.97 L219.17,198.92 L221.26,197.84 L223.35,196.73 L225.44,195.60 L227.53,194.44 L229.61,193.26 L231.70,192.05 L233.79,190.82 L235.88,189.56 L237.96,188.28 L240.05,186.97 L242.14,185.64 L244.22,184.28 L246.31,182.89 L248.40,181.48 L250.49,180.04 L252.58,178.58 L254.66,177.10 L256.75,175.58 L258.84,174.05 L260.92,172.48 L263.01,170.89 L265.10,169.28 L267.19,167.64 L269.27,165.98 L271.36,164.29 L273.45,162.57 L275.54,160.83 L277.62,159.06 L279.71,157.27 L281.80,155.45 L283.89,153.61 L285.98,151.74 L288.06,149.85 L290.15,147.93 L292.24,145.99 L294.33,144.02 L296.41,142.02 L298.50,140.00 L300.59,137.95 L302.67,135.88 L304.76,133.79 L306.85,131.66 L308.94,129.52 L311.02,127.34 L313.11,125.14 L315.20,122.92 L317.29,120.67 L319.38,118.40 L321.46,116.10 L323.55,113.77 L325.64,111.42 L327.73,109.04 L329.81,106.64 L331.90,104.21 L333.99,101.76 L336.07,99.28 L338.16,96.78 L340.25,94.25 L342.34,91.70 L344.43,89.12 L346.51,86.51 L348.60,83.88 L350.69,81.22 L352.77,78.54 L354.86,75.84 L356.95,73.10 L359.04,70.35 L361.12,67.56 L363.21,64.75 L365.30,61.92 L367.39,59.06 L369.48,56.18 L371.56,53.27 L373.65,50.33 L375.74,47.37 L377.82,44.38 L379.91,41.37 L382.00,38.33\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.5\"></path><line stroke=\"#2A5D9E\" stroke-width=\"2.2\" x1=\"89.75\" x2=\"382.00\" y1=\"262.00\" y2=\"119.67\"></line><circle cx=\"215.00\" cy=\"201.00\" fill=\"#2B2527\" r=\"4.3\"></circle><text font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" x=\"223.00\" y=\"193.00\">P(1,1)</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" x=\"331.90\" y=\"99.33\">y=x²</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" x=\"298.50\" y=\"154.23\">tangent</text></svg></span><p><div class=\"spel-en-del\">Ange \\(f^{\\prime}(1)\\).</div></p>",
+        "s": "<p>Tangenten ökar 2 y-enheter när x ökar 1 enhet, så lutningen är 2. Derivatan i punkten är tangentens lutning.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(\\boxed{f^{\\prime}(1)=2}\\).</div></p>"
+      }
     ]
   },
   {
@@ -22481,6 +23241,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(f(x)=x^4+x^2-7\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(\\boxed{f^{\\prime}(x)=4x^3+2x}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(g(x)=4\\sqrt{x}\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">Skriv \\(4x^{1/2}\\): \\(\\boxed{g^{\\prime}(x)=2x^{-1/2}=\\frac2{\\sqrt x}}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Derivera.</p><p><div class=\"spel-en-del\">\\(h(x)=\\frac{3}{x^2}\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">Skriv \\(3x^{-2}\\): \\(\\boxed{h^{\\prime}(x)=-6x^{-3}=-\\frac6{x^3}}\\).</div></p>"
+      }
     ]
   },
   {
@@ -22623,6 +23401,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>För \\(f(x)=5^x\\):</p><p><div class=\"spel-en-del\">Skriv funktionen med basen \\(e\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">Eftersom \\(5^x=e^{x\\ln5}\\) får vi \\(\\boxed{f(x)=e^{x\\ln5}}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>För \\(f(x)=5^x\\):</p><p><div class=\"spel-en-del\">Bestäm \\(f^{\\prime}(x)\\).</div></p>",
+        "s": "<p><div class=\"spel-en-del\">Derivatan är \\(\\boxed{f^{\\prime}(x)=\\ln(5)\\,5^x}\\).</div></p>"
+      }
     ]
   },
   {
@@ -26240,6 +27031,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=3 x^{2} - 4 x + 8\\)</div></p><p></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=6 x - 4\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x^{4} + 5 x\\)</div></p><p></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=4 x^{3} + 5\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{2}{x}\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=- \\frac{2}{x^{2}}\\).</div></p>"
+      }
     ]
   },
   {
@@ -26267,6 +27076,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=6 x^{3} - x^{2} + 1\\)</div></p><p></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=2 x \\left(9 x - 1\\right)\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=3 \\sqrt{x}\\)</div></p><p></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=\\frac{3}{2 \\sqrt{x}}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=2 x + \\frac{1}{x^{2}}\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=2 - \\frac{2}{x^{3}}\\).</div></p>"
+      }
     ]
   },
   {
@@ -26294,6 +27121,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{x^{4}}{2} + 7\\)</div></p><p></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=2 x^{3}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x + \\frac{5}{x}\\)</div></p><p></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=1 - \\frac{5}{x^{2}}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x^{\\frac{3}{2}}\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=\\frac{3 \\sqrt{x}}{2}\\).</div></p>"
+      }
     ]
   },
   {
@@ -26321,6 +27166,24 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=8 x^{5} - 2 x\\)</div></p><p></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=40 x^{4} - 2\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=4 \\sqrt{x} - 3\\)</div></p><p></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=\\frac{2}{\\sqrt{x}}\\).</div></p><p></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Derivera funktionerna.</p><p><div class=\"spel-en-del\">\\(f(x)=x^{2} + \\frac{3}{x^{3}}\\)</div></p>",
+        "s": "<p><div class=\"spel-en-del\">\\(f^{\\prime}(x)=2 x - \\frac{9}{x^{4}}\\).</div></p>"
+      }
     ]
   },
   {
@@ -36888,6 +37751,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>För polynomet \\(p(x)=2x^3-x^2+4\\), bestäm</p><p><div class=\"spel-en-del\">\\(p(-1)\\)</div></p>",
+        "s": "<p><strong>Svar:</strong> 1</p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>För polynomet \\(p(x)=2x^3-x^2+4\\), bestäm</p><p><div class=\"spel-en-del\">\\(p(2)\\).</div></p>",
+        "s": "<p><strong>Svar:</strong> 16</p>"
+      }
     ]
   },
   {
@@ -38944,6 +39820,19 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Figuren visar de fyra första stegen i ett mönster.</p><span class=\"fig\"><svg aria-label=\"Mönster med antal rutor som förändras geometriskt\" height=\"205\" role=\"img\" style=\"max-width:100%;height:auto\" viewbox=\"0 0 400 205\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"203\" rx=\"10\" stroke=\"#e4e3e6\" width=\"398\" x=\"1\" y=\"1\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"32\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"60\" y=\"35\">Steg 1</text><text font-size=\"12\" text-anchor=\"middle\" x=\"60\" y=\"180\">1 ruta</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"122\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"136\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"150\" y=\"35\">Steg 2</text><text font-size=\"12\" text-anchor=\"middle\" x=\"150\" y=\"180\">2 rutor</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"212\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"226\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"240\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"254\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"240\" y=\"35\">Steg 3</text><text font-size=\"12\" text-anchor=\"middle\" x=\"240\" y=\"180\">4 rutor</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"302\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"316\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"330\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"344\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"358\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"372\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"302\" y=\"69\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"316\" y=\"69\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"330\" y=\"35\">Steg 4</text><text font-size=\"12\" text-anchor=\"middle\" x=\"330\" y=\"180\">8 rutor</text></svg></span><p><div class=\"spel-en-del\">Ange kvoten mellan antalet rutor i två på varandra följande steg.</div></p>",
+        "s": "<p>Antalet rutor fördubblas, så kvoten är \\(k=2\\).</p><p>Steg 6 har \\(1\\cdot2^5=32\\) rutor.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(2\\),</div></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Figuren visar de fyra första stegen i ett mönster.</p><span class=\"fig\"><svg aria-label=\"Mönster med antal rutor som förändras geometriskt\" height=\"205\" role=\"img\" style=\"max-width:100%;height:auto\" viewbox=\"0 0 400 205\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"203\" rx=\"10\" stroke=\"#e4e3e6\" width=\"398\" x=\"1\" y=\"1\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"32\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"60\" y=\"35\">Steg 1</text><text font-size=\"12\" text-anchor=\"middle\" x=\"60\" y=\"180\">1 ruta</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"122\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"136\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"150\" y=\"35\">Steg 2</text><text font-size=\"12\" text-anchor=\"middle\" x=\"150\" y=\"180\">2 rutor</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"212\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"226\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"240\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"254\" y=\"55\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"240\" y=\"35\">Steg 3</text><text font-size=\"12\" text-anchor=\"middle\" x=\"240\" y=\"180\">4 rutor</text><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"302\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"316\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"330\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"344\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"358\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"372\" y=\"55\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"302\" y=\"69\"></rect><rect fill=\"#e8f0fb\" height=\"12\" stroke=\"#2D70B3\" width=\"12\" x=\"316\" y=\"69\"></rect><text font-size=\"12\" text-anchor=\"middle\" x=\"330\" y=\"35\">Steg 4</text><text font-size=\"12\" text-anchor=\"middle\" x=\"330\" y=\"180\">8 rutor</text></svg></span><p><div class=\"spel-en-del\">Hur många rutor finns i steg 6?</div></p>",
+        "s": "<p>Antalet rutor fördubblas, så kvoten är \\(k=2\\).</p><p>Steg 6 har \\(1\\cdot2^5=32\\) rutor.</p><p><strong>Svar:</strong><div class=\"spel-en-del\">\\(32\\) rutor.</div></p>"
+      }
     ]
   },
   {

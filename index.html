@@ -357,9 +357,12 @@ a{color:inherit}
 .pill .lvl{font-weight:700;letter-spacing:-.01em}
 .pill .rname{color:var(--ink3);font-weight:600}
 .pill .rname:before{content:"·";margin-right:6px;opacity:.5}
+/* Märket bär rangens ordningstal, inte nivån. Tvåsiffriga tal från
+   rang 10 och upp, därav den täta teckenavståndet. */
 .pill .rankdot{
-  width:20px;height:20px;border-radius:7px;display:grid;place-items:center;font-size:9px;font-weight:700;
-  color:#3b2c07;background:linear-gradient(160deg,#f0d296,#c79a3c);letter-spacing:0;
+  width:21px;height:21px;border-radius:7px;display:grid;place-items:center;
+  font-size:10px;font-weight:700;letter-spacing:-.04em;
+  color:#3b2c07;background:linear-gradient(160deg,#f0d296,#c79a3c);
 }
 /* XP-stapeln i toppfältet. Samma mässing som all annan belöning, och
    samma uppförande som mätaren i träningsvyn: den rör sig när XP läggs på. */
@@ -444,6 +447,27 @@ a{color:inherit}
   font-family:var(--read);letter-spacing:0}
 .namnhjalp.fel{color:var(--bad)}
 .namnhjalp.ok{color:var(--good)}
+
+/* ---------- rangstegen ---------- */
+.rangstege{list-style:none;margin:0;padding:0;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
+.rangstege li{
+  display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;
+  border:1px solid var(--hair);background:var(--surface2);
+}
+.rangstege .rsym{
+  width:24px;height:24px;flex:none;border-radius:8px;display:grid;place-items:center;
+  font-size:11px;font-weight:700;letter-spacing:-.04em;
+  background:var(--surface3);color:var(--ink3);
+}
+.rangstege .rnamn{flex:1;min-width:0;font-size:13.5px;font-weight:600;letter-spacing:-.025em;
+  color:var(--ink3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rangstege .rlvl{font-size:11px;color:var(--ink3);flex:none}
+/* Nådda rangar tänds i mässing. Den man står på får en ram. */
+.rangstege li.nadd .rsym{background:linear-gradient(160deg,#f0d296,#c79a3c);color:#3b2c07}
+.rangstege li.nadd .rnamn{color:var(--ink)}
+.rangstege li.nadd .rlvl{color:var(--gold)}
+.rangstege li.nu{border-color:var(--gold2);background:var(--goldSoft)}
 
 /* ---------- topplistan ---------- */
 .toppnotis{
@@ -1830,15 +1854,33 @@ function updateMastery(map,key,correct){
    RANGER, MILSTOLPAR OCH DAGSSTRECK
    ========================================================== */
 
+/* Rangerna. Tolv steg i stället för sex, så att det alltid finns
+   något inom räckhåll. Tätt i början, där en ny elev behöver se att
+   det rör sig, och glesare uppåt, där varje steg ska betyda något.
+   sym är siffran som står i märket, inte nivån. */
 const RANKS=[
-  {lvl:1,  name:"Nykomling", sym:"I"},
-  {lvl:3,  name:"Motionär",  sym:"II"},
-  {lvl:6,  name:"Atlet",     sym:"III"},
-  {lvl:10, name:"Elitatlet", sym:"IV"},
-  {lvl:15, name:"Mästare",   sym:"V"},
-  {lvl:22, name:"Legend",    sym:"VI"}
+  {lvl:1,  name:"Nykomling",   sym:"1"},
+  {lvl:2,  name:"Motionär",    sym:"2"},
+  {lvl:4,  name:"Stammis",     sym:"3"},
+  {lvl:6,  name:"Atlet",       sym:"4"},
+  {lvl:9,  name:"Tävlande",    sym:"5"},
+  {lvl:12, name:"Elitatlet",   sym:"6"},
+  {lvl:16, name:"Veteran",     sym:"7"},
+  {lvl:20, name:"Mästare",     sym:"8"},
+  {lvl:25, name:"Stormästare", sym:"9"},
+  {lvl:31, name:"Legend",      sym:"10"},
+  {lvl:38, name:"Ikon",        sym:"11"},
+  {lvl:46, name:"Odödlig",     sym:"12"}
 ];
-function totalXpForLevel(L){ return 30*(L-1)+12*(L-1)*(L-1); }
+/* Nivåkurvan. Kostnaden för nästa nivå växer kvadratiskt och sedan
+   kubiskt, så en ny nivå tar allt längre tid ju högre man kommer:
+   nivå 2 tar ett par uppgifter, nivå 10 en dryg vecka, nivå 30 ett
+   läsår med jämn träning. Trean i nämnaren gör kurvan mjuk nog att
+   de första tjugo nivåerna inte känns låsta. */
+function totalXpForLevel(L){
+  const n=L-1;
+  return Math.round(20*n + 10*n*n + 0.6*n*n*n);
+}
 function levelFromXP(xp){
   let L=1;
   while(L<99 && totalXpForLevel(L+1)<=xp) L++;
@@ -4755,13 +4797,27 @@ function giveUp(){
   finishAttempt(Array.from({length:n},(_,i)=>state.partResults[i]===true));
 }
 
+/* Vad en uppgift är värd. En A-uppgift ger fem gånger så mycket som
+   en E-uppgift, för den tar längre tid och kräver mer. Men E ligger
+   inte nära noll: det är där en elev som kämpar tränar, och den
+   eleven ska inte få mindre för att uppgifterna ligger på rätt nivå
+   för henne. */
+const XP_NIVA={E:8, C:20, A:40};
+
+/* Seriebonusen är procentuell. En fast bonus vore värd fyra gånger
+   mer på en E-uppgift än på en A-uppgift, och skulle alltså löna sig
+   att jaga genom att välja lätt. */
+function seriefaktor(run){
+  if(run>=10) return 1.5;
+  if(run>=6)  return 1.3;
+  if(run>=3)  return 1.15;
+  return 1;
+}
+
 function xpFor(niva,correct,run){
   if(!correct) return 2;
   const n=String(niva||"E").toUpperCase();
-  let xp = n==="A"?28:n==="C"?18:10;
-  if(run>=3) xp+=4;   // seriebonus
-  if(run>=6) xp+=4;
-  return xp;
+  return Math.round((XP_NIVA[n]||XP_NIVA.E)*seriefaktor(run));
 }
 
 function finishAttempt(resultat){
@@ -5137,6 +5193,20 @@ function showProgress(record){
         <div class="tile"><span>Dagar i rad</span><strong>${st}</strong></div>
         <div class="tile"><span>Bästa serie</span><strong>${profile.bestRun||0}</strong></div>
       </div>
+    </div>
+
+    <div class="card pad" style="margin-bottom:20px">
+      <div class="sec"><h2>Rangerna</h2></div>
+      <ol class="rangstege">
+        ${RANKS.map(r=>{
+          const nadd=lp.level>=r.lvl, nu=rank.name===r.name;
+          return `<li class="${nadd?"nadd":""}${nu?" nu":""}">
+            <span class="rsym">${esc(r.sym)}</span>
+            <span class="rnamn">${esc(r.name)}</span>
+            <span class="rlvl">${nadd?"klarad":"nivå "+r.lvl}</span>
+          </li>`;
+        }).join("")}
+      </ol>
     </div>
 
     ${(()=>{

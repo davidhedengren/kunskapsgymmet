@@ -875,6 +875,10 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   box-shadow:0 1px 2px rgba(11,33,51,.05);
   transition:transform .15s var(--ease),background .15s ease;
 }
+.symtgt.enhet{
+  background:var(--accSoft);border-color:transparent;color:var(--accInk);
+  font-family:var(--ui);font-size:14px;font-weight:600;
+}
 .symtgt:active{transform:scale(.93);background:var(--accSoft)}
 
 .aacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
@@ -943,6 +947,53 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   transition:.25s var(--ease);z-index:60;font-size:13.5px;font-weight:500;
 }
 .toast.show{opacity:1;transform:translate(-50%,0)}
+/* ---------- flervalsruta ---------- */
+.modal{
+  position:fixed;inset:0;z-index:70;display:grid;place-items:center;padding:20px;
+  background:rgba(6,14,26,.5);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
+  opacity:0;transition:opacity .25s var(--ease);
+}
+.modal.visa{opacity:1}
+.modal-kort{
+  width:min(560px,100%);max-height:86vh;overflow:auto;padding:24px;border-radius:26px;
+  background:var(--surface);border:1px solid var(--hair);box-shadow:var(--e2);
+  transform:scale(.95) translateY(10px);transition:.3s var(--ease);
+}
+.modal.visa .modal-kort{transform:none}
+.modal-topp{display:flex;align-items:flex-start;gap:14px;margin-bottom:6px}
+.modal-topp>div{flex:1;min-width:0}
+.modal-topp .lbl{
+  font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);
+}
+.modal-topp h2{margin-top:6px;font-size:22px;letter-spacing:-.04em}
+.modal-text{margin:4px 0 16px;font-family:var(--read);font-size:14px;color:var(--ink2);letter-spacing:0}
+.valgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+.valruta{
+  --tone:var(--ink3);
+  display:flex;align-items:center;gap:11px;padding:12px 13px;border-radius:15px;text-align:left;
+  border:1px solid var(--hair);background:var(--surface2);transition:.2s var(--ease);
+}
+.valruta:hover{border-color:var(--hair2)}
+.valruta .kryss{
+  width:19px;height:19px;flex:none;border-radius:6px;border:1.5px solid var(--hair2);
+  display:grid;place-items:center;transition:.2s var(--ease);
+}
+.valruta.vald{border-color:var(--acc);background:var(--accSoft)}
+.valruta.vald .kryss{background:var(--acc);border-color:var(--acc)}
+.valruta.vald .kryss:after{content:"✓";color:#fff;font-size:12px;font-weight:700;line-height:1}
+.valnamn{flex:1;min-width:0;font-size:13.5px;font-weight:600;letter-spacing:-.015em}
+.valstate{font-size:11px;font-weight:600;color:var(--tone)}
+.valruta.t-good{--tone:var(--good)}.valruta.t-mid{--tone:var(--accInk)}
+.valruta.t-low{--tone:var(--warn)}
+.modal-fot{display:flex;align-items:center;gap:8px;margin-top:20px;flex-wrap:wrap}
+.modal-fot .spacer{flex:1}
+@media(max-width:520px){
+  .modal-kort{padding:20px;border-radius:22px}
+  .valgrid{grid-template-columns:1fr}
+  .modal-fot .btn.primary{width:100%;order:-1;margin-bottom:6px}
+}
+.kaptrana.valj{background:var(--accSoft);border-color:transparent;color:var(--accInk)}
+
 .cheer{
   position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:20px;
   background:rgba(6,18,30,.46);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
@@ -1288,7 +1339,8 @@ const state={
   focusArea:null, focusFamily:null,
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
   aktivRuta:0,
-  focusOmr:null, focusNamn:null,
+  focusOmr:null, focusNamn:null, senasteUrsprung:[],
+  flervalKap:null, flervalValda:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
   lastIds:[], solutionShown:false, answered:false
 };
@@ -1699,8 +1751,11 @@ function chapterHead(kap,namn,omraden,tranaKnapp){
       ${CHEV}<span class="name">${esc(namn)}</span><span class="rule"></span>
       <span class="kdots">${dots}</span><span class="n">${omraden.length}</span>
     </button>
-    ${tranaKnapp===false?"":`<button class="kaptrana" onclick="startChapter('${esc(String(kap))}')"
-        title="Träna hela kapitlet">Träna allt</button>`}
+    ${tranaKnapp===false?"":`
+      <button class="kaptrana" onclick="startChapter('${esc(String(kap))}')"
+        title="Träna hela kapitlet">Träna allt</button>
+      <button class="kaptrana valj" onclick="oppnaFlerval('${esc(String(kap))}')"
+        title="Välj flera områden att blanda">Välj flera</button>`}
   </div>`;
 }
 
@@ -1979,11 +2034,60 @@ function isExcluded(t){
   });
 }
 
+/* ==========================================================
+   SPELPOOL
+   Kunskapsgymmet tränar moment, inte nödvändigtvis hela bankobjekt.
+   En rutinuppgift med oberoende deluppgifter kan delas till flera
+   träningsmoment, men bara när banken uttryckligen säger det med
+   spelDelning. Originalobjektet lämnas orört.
+   ========================================================== */
+
+function metadataForDel(varde,index,antal){
+  return Array.isArray(varde) && varde.length===antal ? varde[index] : varde;
+}
+function expandGameTask(t){
+  if(t?.spelDelning!=="deluppgifter" || !Array.isArray(t.spelDelar) || t.spelDelar.length<2){
+    return [t];
+  }
+  const antal=t.spelDelar.length;
+  return t.spelDelar.map((del,i)=>{
+    const etikett=String(del?.etikett || String.fromCharCode(97+i)).toLowerCase();
+    const q={...t};
+    q.ursprungsId=t.id;
+    q.deluppgift=etikett;
+    q.id=`${t.id}${etikett}`;
+    q.t=del?.t || t.t;
+    q.s=del?.s || t.s;
+    q.rättSvar=metadataForDel(t.rättSvar,i,antal);
+    q.tolerans=metadataForDel(t.tolerans,i,antal);
+    q.självrättning=metadataForDel(t.självrättning,i,antal);
+    if("svarEnhet" in t) q.svarEnhet=metadataForDel(t.svarEnhet,i,antal);
+    if("svarFormat" in t) q.svarFormat=metadataForDel(t.svarFormat,i,antal);
+    if("manuellKomplettering" in t) q.manuellKomplettering=metadataForDel(t.manuellKomplettering,i,antal);
+    // En inre lista är en lösningsmängd inom delen, inte nya deluppgifter.
+    if(Array.isArray(q.rättSvar) && q.rättSvar.length>1){
+      q.svarstyp="flera_delar";
+      q.svarsstruktur="mängd";
+      q.antalSvar=q.rättSvar.length;
+    }else{
+      delete q.svarsstruktur;
+      delete q.svarstyp;
+    }
+    delete q.spelDelning;
+    delete q.spelDelar;
+    delete q.svarEtiketter;
+    return q;
+  });
+}
+
 function availableTasks(){
   if(!state.data) return [];
   let tasks=state.data.bank;
   const kurs=COURSES[state.course];
   if(kurs?.utanOmraden?.length) tasks=tasks.filter(t=>!isExcluded(t));
+  // Uppgifter som inte passar spelet, t.ex. rita ett diagram, tas bort
+  // före delningen så att inte heller deras delar kan väljas.
+  tasks=tasks.filter(t=>t.spel!==false).flatMap(expandGameTask);
   if(state.track){
     tasks=tasks.filter(t=>{
       if(!t.kurs) return true;
@@ -2550,11 +2654,17 @@ function chooseTask(){
   const fresh=cands.filter(t=>!recent.has(t.id));
   if(fresh.length) cands=fresh;
   const scored=cands
-    .map(t=>({t,k:familyMastery(t,cp)*.6 + Math.random()*.9}))
+    .map(t=>({t,k:familyMastery(t,cp)*.6 + Math.random()*.9
+      // Delar ur samma originaluppgift hålls isär när det finns annat.
+      + (t.ursprungsId && state.senasteUrsprung.includes(t.ursprungsId) ? 1.5 : 0)}))
     .sort((a,b)=>a.k-b.k);
   const top=scored.slice(0,Math.max(1,Math.ceil(scored.length*.4)));
   const vald=top[Math.floor(Math.random()*top.length)].t;
   state.lastArea=vald.omr||"ovrigt";
+  if(vald.ursprungsId){
+    state.senasteUrsprung.push(vald.ursprungsId);
+    if(state.senasteUrsprung.length>3) state.senasteUrsprung.shift();
+  }
   return vald;
 }
 
@@ -2575,6 +2685,92 @@ function startArea(area){
 /* Ett grupperat kort tränar alla sina områden. Vilket område varje
    uppgift kommer från avgörs som i det adaptiva läget, och nivån
    räknas per område precis som annars. */
+/* ==========================================================
+   VÄLJ FLERA OMRÅDEN
+   Ett pass kan blandas ihop av valfria områden i ett kapitel, t.ex.
+   logaritmbegreppet och logaritmlagar samtidigt.
+   ========================================================== */
+
+function oppnaFlerval(kap){
+  state.flervalKap=String(kap);
+  state.flervalValda=new Set();
+  const omr=getAreas().filter(a=>String(a.kap)===state.flervalKap);
+  const rutor=omr.map(a=>{
+    const st=areaStatus(a.key);
+    return `<button class="valruta ${st.tone}" data-omr="${esc(a.key)}" onclick="vaxlaVal(this)">
+      <span class="kryss" aria-hidden="true"></span>
+      <span class="valnamn">${esc(a.name)}</span>
+      <span class="valstate">${st.label}</span>
+    </button>`;
+  }).join("");
+  const el=document.createElement("div");
+  el.className="modal"; el.id="flervalsruta";
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-label="Välj områden">
+      <div class="modal-topp">
+        <div>
+          <div class="lbl">${esc(chapterName(kap))}</div>
+          <h2>Träna flera områden</h2>
+        </div>
+        <button class="iconbtn" onclick="stangFlerval()" aria-label="Stäng">✕</button>
+      </div>
+      <p class="modal-text">Markera de områden du vill blanda i passet.</p>
+      <div class="valgrid">${rutor}</div>
+      <div class="modal-fot">
+        <button class="btn quiet sm" onclick="valjAllaOmraden(true)">Markera alla</button>
+        <button class="btn quiet sm" onclick="valjAllaOmraden(false)">Rensa</button>
+        <span class="spacer"></span>
+        <button class="btn primary" id="flervalStart" disabled onclick="startaFlerval()">
+          Starta pass
+        </button>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangFlerval(); });
+  uppdateraFlervalKnapp();
+  requestAnimationFrame(()=>el.classList.add("visa"));
+}
+function stangFlerval(){
+  const el=document.getElementById("flervalsruta");
+  if(!el) return;
+  el.classList.remove("visa");
+  setTimeout(()=>el.remove(),250);
+}
+function vaxlaVal(btn){
+  const key=btn.dataset.omr;
+  if(state.flervalValda.has(key)){ state.flervalValda.delete(key); btn.classList.remove("vald"); }
+  else { state.flervalValda.add(key); btn.classList.add("vald"); }
+  uppdateraFlervalKnapp();
+}
+function valjAllaOmraden(alla){
+  document.querySelectorAll("#flervalsruta .valruta").forEach(b=>{
+    b.classList.toggle("vald",alla);
+    if(alla) state.flervalValda.add(b.dataset.omr); else state.flervalValda.delete(b.dataset.omr);
+  });
+  uppdateraFlervalKnapp();
+}
+function uppdateraFlervalKnapp(){
+  const k=document.getElementById("flervalStart");
+  if(!k) return;
+  const n=state.flervalValda.size;
+  k.disabled=n===0;
+  k.textContent = n===0 ? "Välj minst ett område"
+                : n===1 ? "Starta pass · 1 område"
+                : `Starta pass · ${n} områden`;
+}
+function startaFlerval(){
+  const valda=[...state.flervalValda];
+  if(!valda.length) return;
+  const namn=getAreas().filter(a=>valda.includes(a.key)).map(a=>a.name);
+  stangFlerval();
+  state.focusArea=null;
+  state.focusOmr=valda;
+  state.focusNamn = valda.length===1 ? namn[0] : namn.length+" områden";
+  state.focusFamily=null;
+  beginSession();
+  navRecord("training");
+  nextTask();
+}
+
 /* Hela kapitlet i ett pass. Uppgifterna hämtas från kapitlets alla
    områden, och nivån räknas per område precis som annars. */
 function startChapter(kap){
@@ -2776,7 +2972,19 @@ function autoPerDel(t,antal){
   });
 }
 
+/* Får facit i lösningstexten användas när rättSvar saknas?
+   De reviderade bankerna ska lita på sin metadata och sätta
+   facitFallback:true där extraktion är önskvärd. Så länge äldre banker
+   fortfarande saknar rättSvar hålls det gamla beteendet som standard.
+   Ändra till false när bankerna är genomgångna. */
+const FACIT_FALLBACK_STANDARD=true;
+
 function expectedAnswersForTask(t){
+  // Metadata går före allt: sagt nej till självrättning betyder nej,
+  // även om ett svar går att gräva fram ur facit.
+  if(t.självrättning===false){
+    return {answers:[],source:"metadata",auto:false,delAuto:[]};
+  }
   if(t.rättSvar!==null && t.rättSvar!==undefined){
     const plan=svarsPlan(t);
     const answers=plan ? plan.rutor.map(r=>plan.delar[r.del].svar[r.plats])
@@ -2791,7 +2999,9 @@ function expectedAnswersForTask(t){
     };
   }
 
-  const derived=derivedAnswersFromSolution(t);
+  const fallbackTillaten = t.facitFallback===true
+    || (t.facitFallback!==false && FACIT_FALLBACK_STANDARD);
+  const derived=fallbackTillaten ? derivedAnswersFromSolution(t) : null;
   if(derived && derived.length){
     return {answers:derived,source:"facit",auto:true,
             delAuto:derived.map(()=>true)};
@@ -2874,9 +3084,10 @@ function svarsPlan(t){
     const svar=Array.isArray(v)?v:[v];
     const enhet=faltVarde(t.svarEnhet,i,svar.length);
     const tol=faltVarde(t.tolerans,i,svar.length);
+    const format=faltVarde(t.svarFormat,i,svar.length);
     const harFacit=svar.every(x=>x!==null&&x!==undefined&&x!=="");
     return {
-      svar, enhet, tol,
+      svar, enhet, tol, format,
       auto: harFacit && faltFlagga(t.självrättning,i,false),
       manuell: faltFlagga(t.manuellKomplettering,i,false)
     };
@@ -2887,12 +3098,228 @@ function svarsPlan(t){
   return {delar,rutor};
 }
 
-/* Rättar ett delsvar. Enhet i metadatan ger enhetsjämförelse, annars
-   används den vanliga rättningsmotorn. */
-function delSvarRatt(anv,facit,enhet,tol,t,idx){
+/* ==========================================================
+   FORMATSPECIFIK RÄTTNING
+   svarFormat i banken talar om vad slags svar det är, och styr hur
+   elevens text tolkas. Utan format faller allt tillbaka på den
+   befintliga rättningsmotorn.
+   ========================================================== */
+
+function stadaSvar(x){
+  return String(x??"").trim()
+    .replace(/^svar\s*:\s*/i,"")
+    .replace(/[−–—]/g,"-")
+    .replace(/\u00a0/g," ");
+}
+/* Tal ur en sträng, med decimalkomma och tusentalsmellanrum. */
+function talAv(x){
+  const s=stadaSvar(x).toLowerCase().replace(/\s/g,"");
+  if(/^[+-]?(∞|oo|inf|infinity)$/.test(s)) return s.startsWith("-")?-Infinity:Infinity;
+  const v=taltolk(s);
+  return Number.isFinite(v)?v:NaN;
+}
+function talLika(a,b,tol){
+  if(a===Infinity||b===Infinity||a===-Infinity||b===-Infinity) return a===b;
+  return naraNog(a,b,tol);
+}
+function naraNog(a,b,tol){
+  if(!Number.isFinite(a)||!Number.isFinite(b)) return false;
+  const t=(typeof tol==="number")?tol:Math.max(1e-9,Math.abs(b)*1e-4);
+  return Math.abs(a-b)<=t+1e-12;
+}
+/* Plockar ut listor: "0, 7", "{0; 7}", "(2, 5)", "x = 0 eller x = 7" */
+/* Delar upp en svarslista. Semikolon är alltid avskiljare. Komma är
+   avskiljare utom när det tydligt är ett decimaltecken — men inuti
+   parenteser, som i (2,5), är kommat alltid en avskiljare. */
+function listaAv(x,parTvang){
+  const rå=stadaSvar(x);
+  const iParentes=parTvang || /^[[({].*[\])}]$/.test(rå);
+  let s=rå.replace(/^[[({]\s*|\s*[\])}]$/g,"");
+  s=s.replace(/\s+(eller|och)\s+/gi,";");
+  if(s.includes(";")) return s.split(";").map(d=>d.trim()).filter(Boolean);
+  s=s.replace(/,/g,(m,i,str)=>{
+    if(iParentes) return ";";
+    const f=str[i-1], e=str[i+1];
+    // "0, 7" är två svar, "0,7" ett decimaltal.
+    if(/\d/.test(f||"") && e===" ") return ";";
+    return (/\d/.test(f||"")&&/\d/.test(e||"")) ? "," : ";";
+  });
+  return s.split(";").map(d=>d.trim()).filter(Boolean);
+}
+/* "x = 5" -> "5". Behåller strängen om det inte är en tilldelning. */
+function hogerled(x){
+  const s=stadaSvar(x);
+  const m=s.match(/^[A-Za-zåäöÅÄÖ][\w()',.\s]*=\s*(.+)$/);
+  return m?m[1].trim():s;
+}
+/* Bråk och blandad form: 1/2, 3/4, 1 1/2 */
+function brakAv(x){
+  const s=stadaSvar(x).replace(/\s*\/\s*/,"/");
+  const bl=s.match(/^(-?\d+)\s+(\d+)\/(\d+)$/);
+  if(bl){ const h=+bl[1]; return h+(h<0?-1:1)*(+bl[2]/+bl[3]); }
+  const m=s.match(/^(-?\d+(?:[.,]\d+)?)\/(-?\d+(?:[.,]\d+)?)$/);
+  if(m) return talAv(m[1])/talAv(m[2]);
+  return talAv(s);
+}
+/* Intervall: "1 < x <= 7", "x ∈ (1,7]", "(1,7]", "[0,∞)" */
+function intervallAv(x){
+  let s=stadaSvar(x).replace(/\s+/g,"").replace(/∈/g,"").replace(/≤/g,"<=").replace(/≥/g,">=");
+  s=s.replace(/[A-Za-zåäö]+(?=[[(])/,"");
+  const par=s.match(/^([[(])(.+?)[,;](.+?)([\])])$/);
+  if(par){
+    return {min:talAv(par[2]),max:talAv(par[3]),
+            minOpen:par[1]==="(",maxOpen:par[4]===")"};
+  }
+  const dubbel=s.match(/^(-?[\d.,]+|-?oo|-?∞)(<=|<)([A-Za-zåäö]+)(<=|<)([+-]?[\d.,]+|[+-]?oo|[+-]?∞)$/);
+  if(dubbel){
+    return {min:talAv(dubbel[1]),max:talAv(dubbel[5]),
+            minOpen:dubbel[2]==="<",maxOpen:dubbel[4]==="<"};
+  }
+  const enkel=s.match(/^([A-Za-zåäö]+)(<=|<|>=|>)([+-]?[\d.,]+|[+-]?oo|[+-]?∞)$/);
+  if(enkel){
+    const v=talAv(enkel[3]);
+    return enkel[2][0]==="<" ? {min:-Infinity,max:v,minOpen:true,maxOpen:enkel[2]==="<"}
+                             : {min:v,max:Infinity,minOpen:enkel[2]===">",maxOpen:true};
+  }
+  return null;
+}
+function sammaIntervall(a,b,tol){
+  if(!a||!b) return false;
+  return talLika(a.min,b.min,tol)&&talLika(a.max,b.max,tol)
+      && !!a.minOpen===!!b.minOpen && !!a.maxOpen===!!b.maxOpen;
+}
+/* Tid: 1:30, 1.30, 90 min, 1 h 30 min -> minuter */
+function minuterAv(x){
+  const s=stadaSvar(x).toLowerCase();
+  let m=s.match(/^(\d+)\s*[:.]\s*(\d{1,2})$/);
+  if(m) return +m[1]*60 + +m[2];
+  m=s.match(/^(?:(\d+(?:[.,]\d+)?)\s*(?:h|tim|timmar|timme))?\s*(?:(\d+(?:[.,]\d+)?)\s*(?:min|minuter))?$/);
+  if(m && (m[1]||m[2])) return (m[1]?talAv(m[1])*60:0)+(m[2]?talAv(m[2]):0);
+  return talAv(s);
+}
+/* Minuter och sekunder: 3:07, 3 min 7 s -> sekunder */
+function sekunderAv(x){
+  const s=stadaSvar(x).toLowerCase();
+  let m=s.match(/^(\d+)\s*[:.]\s*(\d{1,2})$/);
+  if(m) return +m[1]*60 + +m[2];
+  m=s.match(/^(?:(\d+)\s*(?:min|m))?\s*(?:(\d+(?:[.,]\d+)?)\s*(?:s|sek))?$/);
+  if(m && (m[1]||m[2])) return (m[1]?+m[1]*60:0)+(m[2]?talAv(m[2]):0);
+  return talAv(s);
+}
+/* Skala: 1:40000, 1/40000, 1 : 40 000 */
+function skalaAv(x){
+  const s=stadaSvar(x).replace(/\s/g,"");
+  const m=s.match(/^(\d+(?:[.,]\d+)?)\s*[:/]\s*(\d+(?:[.,]\d+)?)$/);
+  if(m) return talAv(m[1])/talAv(m[2]);
+  return talAv(s);
+}
+function textNyckel(x){
+  return stadaSvar(x).toLowerCase()
+    .replace(/["'`´’]/g,"")
+    .replace(/[.,;:!?]/g," ")
+    .replace(/\s+/g," ").trim();
+}
+/* Återanvänder sidans befintliga ekvivalenskontroll i stället för en
+   egen. Den expanderar uttrycken, vilket krävs för (x+1)^2. */
+function algebraisktLika(a,b){
+  try{
+    if(typeof window.nerdamer!=="function") return null;
+    return algebraicallyEquivalent(String(a),String(b))===true;
+  }catch(_){ return null; }
+}
+
+const ORDNADE_FORMAT=new Set(["punkt","talpar","vektor","koordinat"]);
+const MANGD_FORMAT=new Set(["lösningsmängd","losningsmangd","mängd","mangd"]);
+
+/* Rättar ett delsvar mot facit med metadata för just den komponenten:
+   {format, tolerans, enhet}. */
+function formatRatt(anv,facit,meta){
+  const format=String(meta.format||"").toLowerCase();
+  const tol=meta.tolerans;
+  const a=stadaSvar(anv), f=stadaSvar(facit);
+  if(!a) return false;
+
+  switch(format){
+    case "heltal": {
+      const v=talAv(hogerled(a));
+      return Number.isInteger(v) ? v===Math.round(talAv(f)) : naraNog(v,talAv(f),tol);
+    }
+    case "numeriskt": {
+      // Generöst: "f(3)=2", "x=2" och "2" är samma svar.
+      return naraNog(talAv(hogerled(a)),talAv(f),tol);
+    }
+    case "procent": {
+      const v=talAv(hogerled(a.replace(/%/g,""))), fv=talAv(String(f).replace(/%/g,""));
+      return naraNog(v,fv,tol) || naraNog(v*100,fv,tol) || naraNog(v,fv*100,tol);
+    }
+    case "bråk": case "brak": case "kvot":
+      return naraNog(brakAv(hogerled(a)),brakAv(f),tol);
+    case "grader": {
+      const v=talAv(hogerled(a.replace(/[°]/g,""))), fv=talAv(String(f).replace(/[°]/g,""));
+      return naraNog(v,fv,tol);
+    }
+    case "skala":
+      return naraNog(skalaAv(a),skalaAv(f),tol);
+    case "tid": case "tidlängd": case "tidlangd":
+      return naraNog(minuterAv(a),minuterAv(f),tol);
+    case "minuter_sekunder":
+      return naraNog(sekunderAv(a),sekunderAv(f),tol);
+    case "vinst_forlust": case "vinst_förlust": {
+      const v=talAv(hogerled(a)), fv=talAv(f);
+      if(!naraNog(Math.abs(v),Math.abs(fv),tol)) return false;
+      return Math.sign(v)===Math.sign(fv) || /förlust|forlust|minus/i.test(a)===(fv<0);
+    }
+    case "kort_text": case "text":
+      return textNyckel(a)===textNyckel(f);
+    case "kalkylbladsformel": {
+      const norm=x=>textNyckel(x).replace(/\s/g,"").replace(/^=/,"").replace(/;/g,",");
+      return norm(a)===norm(f);
+    }
+    case "punkt": case "talpar": case "vektor": case "koordinat": {
+      const la=listaAv(a,true), lf=listaAv(f,true);
+      if(la.length!==lf.length) return false;
+      return la.every((v,i)=>naraNog(talAv(v),talAv(lf[i]),tol) || algebraisktLika(v,lf[i])===true);
+    }
+    case "lösningsmängd": case "losningsmangd": case "mängd": case "mangd": {
+      const la=listaAv(a).map(hogerled), lf=listaAv(f).map(hogerled);
+      if(la.length!==lf.length) return false;
+      const kvar=[...lf];
+      return la.every(v=>{
+        const i=kvar.findIndex(k=>naraNog(talAv(v),talAv(k),tol)||algebraisktLika(v,k)===true);
+        if(i<0) return false;
+        kvar.splice(i,1); return true;
+      });
+    }
+    case "intervall": case "intervall_tal": {
+      const ia=intervallAv(a), ifa=intervallAv(f);
+      if(ia&&ifa) return sammaIntervall(ia,ifa,tol);
+      return textNyckel(a)===textNyckel(f);
+    }
+    case "uttryck": case "uttryck_med_villkor": {
+      const rensa=x=>String(x).split(/,(?![^()]*\))|\s+där\s+|\s+om\s+/i)[0];
+      const r=algebraisktLika(hogerled(rensa(a)),hogerled(rensa(f)));
+      if(r!==null) return r;
+      return textNyckel(a)===textNyckel(f);
+    }
+  }
+  return null;   // okänt format -> vanliga motorn får ta över
+}
+
+/* Rättar ett delsvar. Ordningen är: format, sedan enhet, sedan den
+   befintliga rättningsmotorn. */
+function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
+  const meta={format,tolerans:tol,enhet};
+  if(format){
+    const r=formatRatt(anv,facit,meta);
+    if(r!==null) return r;
+  }
   if(enhet!==undefined&&enhet!==null&&enhet!==""){
     const r=enhetsJamforelse(anv,facit,enhet,tol);
     if(r!==null) return r;
+  }
+  // Generöst direktsvar: "f(3)=2" mot facit 2.
+  if(numerisktSvar(facit) || typeof facit==="number"){
+    if(naraNog(talAv(hogerled(anv)),talAv(facit),tol)) return true;
   }
   const kopia = (typeof tol==="number") ? Object.assign({},t,{tolerans:tol}) : t;
   return oneAnswerCorrect(anv,facit,kopia,idx);
@@ -2906,23 +3333,30 @@ function answerLayout(t){
   // när de står som <ol><li> i stället för a), b), c). Ordningen är då
   // bindande, så att 50, 100 och 6 inte får matchas huller om buller.
   const plan=svarsPlan(t);
-  const delarTaggat=["flera_delar","flera delar","deluppgifter"]
-      .includes(String(t.svarstyp||"").toLowerCase())
-    || ["deluppgifter","delar","flera_delar"]
-      .includes(String(t.svarsstruktur||"").toLowerCase())
+  const struktur=String(t.svarsstruktur||"").toLowerCase();
+  const etiketter=Array.isArray(t.svarEtiketter)?t.svarEtiketter:null;
+  // Metadata går före textanalys. Först svarsstruktur, sedan svarstyp,
+  // sedan etiketter, och först därefter bokstäver i uppgiftstexten.
+  const mangdTaggat=["mängd","mangd","lösningsmängd","losningsmangd"].includes(struktur);
+  const delarTaggat = mangdTaggat ? false : (
+       ["ordnad","deluppgifter","delar","flera_delar"].includes(struktur)
+    || ["flera_delar","flera delar","deluppgifter"].includes(String(t.svarstyp||"").toLowerCase())
     || nastlat(t.rättSvar)
-    || (plan && plan.delar.some(d=>d.manuell));
+    || (etiketter && etiketter.length>1)
+    || (plan && plan.delar.some(d=>d.manuell)));
   const harFacit = t.rättSvar!==null && t.rättSvar!==undefined;
   const n = plan ? plan.rutor.length
           : info.auto ? Math.max(1,info.answers.length)
           : Math.max(1,taggat||bokstaver||1);
-  const ordnad = delarTaggat ? n>1
+  const ordnad = mangdTaggat ? false
+               : delarTaggat ? n>1
                : (!taggat && bokstaver>1 && n>1);
   // delAuto talar om vilka rutor som rättas och vilka eleven bedömer själv.
   const delAuto = plan
     ? plan.rutor.map(r=>plan.delar[r.del].auto)
     : Array.from({length:n},(_,i)=>info.delAuto ? !!info.delAuto[i] : !!info.auto);
   return {info,plan,n,ordnad,flersvar:n>1&&!ordnad,taggat,delarTaggat,delAuto,
+          etiketter,struktur,
           blandad:delAuto.some(Boolean)&&delAuto.some(x=>!x)};
 }
 
@@ -3067,6 +3501,13 @@ function numerisktSvar(facit){
   const x=String(facit).trim().replace(",",".");
   return /^\d+(\.\d+)?$/.test(x);
 }
+/* Sifferlayouten passar bara när svaret är ett rent tal utan enhet.
+   I fysiken skrivs enheten oftast med, och då behövs bokstäverna. */
+function sifferlage(facit,enhet){
+  if(enhet) return false;
+  if(COURSES[state.course]?.subject==="Fysik") return false;
+  return numerisktSvar(facit);
+}
 
 /* ==========================================================
    SYMBOLRAD
@@ -3080,12 +3521,17 @@ const SYMBOLER={
   fysik:    [["−","−"],[",",","],["·10^","·10^"],["^","^"],["√","√"],
              ["π","π"],["/","/"],["(","("],[")",")"]]
 };
-function symbolrad(){
+function symbolrad(t){
   const amne=COURSES[state.course]?.subject==="Fysik" ? "fysik" : "matematik";
-  return `<div class="symrad" aria-label="Matematiska tecken">
-    ${SYMBOLER[amne].map(([txt,tecken])=>
-      `<button type="button" class="symtgt" onmousedown="event.preventDefault()"
-        onclick="skrivTecken('${tecken}')">${esc(txt)}</button>`).join("")}
+  // Uppgiftens egna enheter läggs först, så att de blir ett tryck bort.
+  const enheter=[...new Set((svarsPlan(t)?.delar||[])
+    .flatMap(d=>d.enhet).filter(Boolean).map(String))].slice(0,4);
+  const knappar=[...enheter.map(e=>[e," "+e]), ...SYMBOLER[amne]];
+  return `<div class="symrad" aria-label="Tecken och enheter">
+    ${knappar.map(([txt,tecken],i)=>
+      `<button type="button" class="symtgt${i<enheter.length?" enhet":""}"
+        onmousedown="event.preventDefault()"
+        onclick="skrivTecken('${esc(tecken).replace(/'/g,"\\'")}')">${esc(txt)}</button>`).join("")}
   </div>`;
 }
 /* Skriver tecknet vid markören i den ruta eleven senast var i. */
@@ -3393,6 +3839,13 @@ function renderTraining(){
   // Etikett per ruta: deluppgiftens bokstav, och en siffra när samma
   // deluppgift har flera svar.
   const rutEtikett=i=>{
+    const del = plan ? plan.rutor[i].del : i;
+    // Bankens egna etiketter går före a), b), c).
+    if(layout.etiketter && layout.etiketter[del]!==undefined){
+      const namn=String(layout.etiketter[del]);
+      const flera=plan && plan.delar[del].svar.length>1;
+      return flera ? namn+" "+(plan.rutor[i].plats+1) : namn;
+    }
     if(inputCount<2) return "";
     if(!plan) return layout.ordnad?String.fromCharCode(97+i)+")":(i+1)+".";
     const r=plan.rutor[i], flera=plan.delar[r.del].svar.length>1;
@@ -3413,7 +3866,7 @@ function renderTraining(){
         ${isLongAnswer
           ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"${laasta(i)?" disabled":""} onfocus="state.aktivRuta=${i}"></textarea>`
           : `<input id="ans-${i}" autocomplete="off"
-              inputmode="${numerisktSvar(expectedInfo.answers[i])?"decimal":"text"}"
+              inputmode="${sifferlage(expectedInfo.answers[i],rutEnhet(i))?"decimal":"text"}"
               placeholder="${
                 rutEnhet(i) ? "Svar i "+esc(rutEnhet(i))
                 : inputCount<2 ? "Ditt svar"
@@ -3451,14 +3904,14 @@ function renderTraining(){
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
       <article class="task">
-        <div class="tmeta">${meta}<span class="tid">#${esc(t.id)}</span></div>
+        <div class="tmeta">${meta}<span class="tid">#${esc(t.ursprungsId||t.id)}${t.deluppgift?" · del "+esc(t.deluppgift):""}</span></div>
         <div class="tbody">${t.t||""}</div>
         <div class="azone" id="answer-zone">
           <div class="notice"><b aria-hidden="true">✎</b><span>Skriv ner fullständiga lösningar med papper och penna innan du skriver in svaren här.</span></div>
           <h3>Ditt svar</h3>
           ${partLine}
           <div class="ainputs">${fieldHtml}</div>
-          ${isLongAnswer?"":symbolrad()}
+          ${isLongAnswer?"":symbolrad(t)}
           <div class="aacts">
             ${canAuto
               ? `<button class="btn primary" onclick="checkAnswer()">Kontrollera</button>
@@ -3501,7 +3954,11 @@ function checkAnswer(){
     if(svar.some(x=>!x.trim())){ toast("Fyll i alla svar först."); return; }
     const kvar=expected.map((v,i)=>({v,i}));
     const res=svar.map(anv=>{
-      const träff=kvar.findIndex(k=>oneAnswerCorrect(anv,k.v,t,k.i));
+      const träff=kvar.findIndex(k=>delSvarRatt(anv,k.v,
+        Array.isArray(t.svarEnhet)?t.svarEnhet[k.i]:t.svarEnhet,
+        Array.isArray(t.tolerans)?t.tolerans[k.i]:t.tolerans,
+        t,k.i,
+        Array.isArray(t.svarFormat)?t.svarFormat[k.i]:t.svarFormat));
       if(träff<0) return false;
       kvar.splice(träff,1);
       return true;
@@ -3529,7 +3986,7 @@ function checkAnswer(){
     // Flera svar inom samma deluppgift matchas fritt mot varandra.
     const kvar=d.svar.map((v,j)=>({v,j}));
     const utfall=varden.map(anv=>{
-      const träff=kvar.findIndex(k=>delSvarRatt(anv,k.v,d.enhet[k.j],d.tol[k.j],t,k.j));
+      const träff=kvar.findIndex(k=>delSvarRatt(anv,k.v,d.enhet[k.j],d.tol[k.j],t,k.j,d.format[k.j]));
       if(träff<0) return false;
       kvar.splice(träff,1);
       return true;
@@ -3559,7 +4016,10 @@ function checkAnswer(){
     return;
   }
 
-  const ok=oneAnswerCorrect(svar,expected[i],t,i);
+  const enkelFormat=Array.isArray(t.svarFormat)?t.svarFormat[i]:t.svarFormat;
+  const enkelEnhet=Array.isArray(t.svarEnhet)?t.svarEnhet[i]:t.svarEnhet;
+  const enkelTol=Array.isArray(t.tolerans)?t.tolerans[i]:t.tolerans;
+  const ok=delSvarRatt(svar,expected[i],enkelEnhet,enkelTol,t,i,enkelFormat);
   registreraDel(i,ok,expected[i]);
 }
 
@@ -3733,7 +4193,8 @@ function finishAttempt(resultat){
     updateLevelStat(t.omr,niva,v);
     fs.forEach(f=>updateMastery(cp.families,f,v));
   });
-  cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj});
+  cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj,
+    ...(t.ursprungsId?{ursprungsId:t.ursprungsId,deluppgift:t.deluppgift}:{})});
   cp.history=cp.history.slice(-300);
 
   // Underlag för medaljerna

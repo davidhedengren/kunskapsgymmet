@@ -585,6 +585,27 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 }
 .gate-foot{margin-top:24px;font-size:12px;color:var(--ink3);font-family:var(--read);letter-spacing:0}
 
+/* ---------- e‑postkontot på startskärmen ---------- */
+.gate-form{display:grid;gap:11px;text-align:left}
+.gate-form label{
+  display:grid;gap:6px;font-size:12.5px;font-weight:600;color:var(--ink3);
+  font-family:var(--read);letter-spacing:0;
+}
+.gate-form .namnfalt{font-weight:500;letter-spacing:0}
+.gate-rubrik{margin:0 0 16px;font-size:15px;font-weight:700;letter-spacing:-.02em;color:var(--ink)}
+.gate-besked{
+  margin:13px 0 0;font-size:12.5px;line-height:1.5;color:var(--bad);
+  font-family:var(--read);letter-spacing:0;
+}
+.gate-besked.ok{color:var(--good)}
+.gate-lankar{display:flex;justify-content:space-between;gap:12px;margin-top:15px;flex-wrap:wrap}
+.gate-lank{
+  background:none;border:0;padding:0;font:inherit;font-size:12.5px;font-weight:600;
+  color:var(--accInk);font-family:var(--read);letter-spacing:0;
+}
+.gate-lank:hover{text-decoration:underline}
+.btn[aria-busy="true"]{opacity:.6;pointer-events:none}
+
 /* ---------- hem ---------- */
 .hero{padding:56px 4px 34px;max-width:760px}
 .hero h1{font-size:clamp(34px,5.4vw,58px);line-height:1.02;letter-spacing:-.05em;margin:0}
@@ -896,26 +917,94 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .row .val{font-size:12px;font-weight:600;color:var(--ink3)}
 .empty{padding:16px;border:1px dashed var(--hair2);border-radius:14px;color:var(--ink3);font-size:13px;font-family:var(--read)}
 
-/* ---------- PT / coach ---------- */
-.coach{
-  position:relative;overflow:hidden;display:flex;align-items:center;gap:18px;flex-wrap:wrap;
-  padding:18px 20px;border-radius:20px;border:1px solid var(--hair);
-  background:linear-gradient(120deg,var(--surface),var(--surface3));box-shadow:var(--e1);margin-bottom:50px;
+/* ---------- tränaren ----------
+   Passkortet ligger högst upp i kursvyn, direkt under rubriken. Det är
+   det första eleven ser och det enda som ger en tydlig ingång: allt
+   annat på sidan är valfrihet, det här är ett förslag. */
+.pt{
+  position:relative;overflow:hidden;border-radius:24px;border:1px solid var(--hair);
+  background:linear-gradient(135deg,var(--surface),var(--surface3));
+  box-shadow:var(--e1);padding:20px 22px 21px;margin:0 0 22px;
 }
-.coach:before{
-  content:"";position:absolute;left:-60px;top:-70px;width:220px;height:220px;border-radius:50%;
-  background:radial-gradient(circle,var(--accSoft),transparent 70%);
+.pt:before{
+  content:"";position:absolute;left:0;top:0;bottom:0;width:4px;
+  background:linear-gradient(180deg,var(--acc),var(--acc2));
 }
-.coach .avatar{
-  position:relative;width:46px;height:46px;border-radius:15px;flex:none;display:grid;place-items:center;
-  background:linear-gradient(160deg,var(--acc),var(--acc2));color:#fff;font-size:19px;
+.pt.klart:before{background:linear-gradient(180deg,var(--good),var(--good))}
+.pt:after{
+  content:"";position:absolute;right:-80px;top:-110px;width:280px;height:280px;border-radius:50%;
+  background:radial-gradient(circle,var(--accSoft),transparent 70%);pointer-events:none;
+}
+.pt-huvud{position:relative;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.pt-ikon{
+  width:46px;height:46px;border-radius:15px;flex:none;display:grid;place-items:center;color:#fff;
+  background:linear-gradient(160deg,var(--acc),var(--acc2));
   box-shadow:0 8px 18px -9px rgba(11,33,51,.55),inset 0 1px 0 rgba(255,255,255,.35);
 }
-.coach .body{flex:1;min-width:220px;position:relative}
-.coach .lbl{font-size:12px;color:var(--ink3)}
-.coach .msg{margin-top:5px;font-size:15px;line-height:1.45;font-family:var(--read);letter-spacing:0}
-.coach .msg b{font-weight:700;color:var(--ink)}
-.coach .act{position:relative;display:flex;gap:8px;flex-wrap:wrap}
+.pt.klart .pt-ikon{background:linear-gradient(160deg,var(--good),var(--good))}
+.pt-ikon svg{width:23px;height:23px}
+.pt-titel{flex:1;min-width:190px;display:block}
+.pt-lbl{
+  display:block;font-size:11px;font-weight:600;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--ink3);
+}
+.pt-titel h2{margin:4px 0 0;font-size:20.5px;letter-spacing:-.035em}
+.pt-chips{display:flex;gap:7px;flex-wrap:wrap}
+.pt-chip{
+  display:inline-flex;align-items:center;padding:6px 11px;border-radius:99px;
+  border:1px solid var(--hair);background:var(--surface);
+  font-size:12px;font-weight:600;color:var(--ink2);white-space:nowrap;
+}
+.pt-msg{
+  position:relative;margin:14px 0 0;max-width:72ch;
+  font-family:var(--read);font-size:15px;line-height:1.55;letter-spacing:0;color:var(--ink2);
+}
+.pt-msg b{color:var(--ink);font-weight:700}
+.pt-act{position:relative;display:flex;gap:9px;flex-wrap:wrap;margin-top:17px}
+.pt-val{
+  position:relative;margin-top:16px;padding-top:15px;border-top:1px solid var(--hair);
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(196px,1fr));gap:8px;
+  animation:pop .3s var(--ease) both;
+}
+.pt-alt{
+  display:flex;align-items:center;gap:11px;text-align:left;padding:11px 13px;border-radius:15px;
+  border:1px solid var(--hair);background:var(--surface);transition:.2s var(--ease);
+}
+.pt-alt:hover{border-color:var(--hair2);background:var(--surface2)}
+.pt-alt:active{transform:scale(.98)}
+.pt-alt.pa{border-color:var(--acc);background:var(--accSoft)}
+.pt-alt svg{width:20px;height:20px;flex:none;color:var(--accInk)}
+.pt-alt b{display:block;font-size:13.5px;letter-spacing:-.02em}
+.pt-alt small{
+  display:block;margin-top:1px;font-size:11.5px;color:var(--ink3);
+  font-family:var(--read);letter-spacing:0;
+}
+/* Fokusraden: vilka kapitel tränaren håller sig inom just nu. */
+.pt-fokus{
+  position:relative;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  margin-top:16px;padding-top:14px;border-top:1px solid var(--hair);
+}
+.pt-fokus-lbl{
+  font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3);
+}
+.pt-kap{
+  display:inline-flex;align-items:center;padding:5px 11px;border-radius:99px;
+  background:var(--accSoft);color:var(--accInk);font-size:12px;font-weight:600;
+  letter-spacing:-.01em;white-space:nowrap;max-width:230px;overflow:hidden;text-overflow:ellipsis;
+}
+.pt-auto{font-size:11.5px;color:var(--ink3);font-family:var(--read);letter-spacing:0}
+.pt-andra{
+  margin-left:auto;font-size:12.5px;font-weight:600;color:var(--accInk);
+  padding:5px 10px;border-radius:10px;transition:.2s var(--ease);
+}
+.pt-andra:hover{background:var(--accSoft)}
+.pt-val .valruta{background:var(--surface)}
+@media(max-width:700px){
+  .pt{padding:18px 17px 19px;border-radius:20px}
+  .pt-titel{min-width:140px}
+  .pt-chips{width:100%;margin-top:2px}
+  .pt-act .btn{flex:1;min-width:132px}
+}
 
 /* ---------- träning ---------- */
 .tshell{width:min(880px,calc(100% - 32px));margin:0 auto;padding-bottom:60px}
@@ -1419,12 +1508,14 @@ function lasSession(){
 
 /* Startar Googles inloggning. Supabase skickar tillbaka eleven hit
    med tokens i adressens fragment. */
-function loggaIn(){
+function loggaInGoogle(){
   if(!MOLN_PA()) return;
-  const retur=location.origin+location.pathname;
   location.href=SUPABASE_URL+"/auth/v1/authorize?provider=google"
-    +"&redirect_to="+encodeURIComponent(retur);
+    +"&redirect_to="+encodeURIComponent(returAdress());
 }
+/* Knappen i toppfältet visar startskärmen med alla sätt att logga in. */
+function loggaIn(){ if(MOLN_PA()) bytGate("val"); }
+function returAdress(){ return location.origin+location.pathname; }
 async function loggaUt(){
   if(session){
     try{ await fetch(SUPABASE_URL+"/auth/v1/logout",{method:"POST",headers:sbHeaders(true)}); }catch(_){}
@@ -1432,17 +1523,29 @@ async function loggaUt(){
   sparaSession(null);
   state.course=null;state.data=null;state.track=null;state.currentTask=null;
   state.openChapters=null;applyAccent();
+  gateLage="val";
   renderGate();
   toast("Utloggad. Träningen sparas fortfarande här på enheten.");
 }
 
-/* Plockar upp tokens efter återkomsten från Google och städar adressen. */
+/* Plockar upp tokens efter återkomsten från Google eller ett e‑postlänkklick
+   och städar adressen. inloggningsTyp blir "recovery" när eleven kommer via
+   länken för glömt lösenord, och "signup" efter en bekräftad registrering. */
+let inloggningsTyp=null, inloggningsFel=null;
 function fangaInloggning(){
   const h=location.hash||"";
+  if(h.includes("error_description=")||h.includes("error=")){
+    const e=new URLSearchParams(h.replace(/^#/,""));
+    inloggningsFel=decodeURIComponent(e.get("error_description")||e.get("error")||"")
+      .replace(/\+/g," ");
+    history.replaceState(null,"",location.pathname+location.search);
+    return false;
+  }
   if(!h.includes("access_token=")) return false;
   const p=new URLSearchParams(h.replace(/^#/,""));
   const at=p.get("access_token"), rt=p.get("refresh_token");
   if(!at) return false;
+  inloggningsTyp=p.get("type")||null;
   sparaSession({access_token:at,refresh_token:rt,
     expires_at:Date.now()+(+(p.get("expires_in")||3600))*1000,user:null});
   history.replaceState(null,"",location.pathname+location.search);
@@ -1477,6 +1580,61 @@ async function hamtaAnvandare(){
     sparaSession({...session,user:u});
     return u;
   }catch(_){ return null; }
+}
+
+/* ---------- Konto med e‑post och lösenord ----------
+   Samma användare och samma rader i databasen som Google-inloggningen.
+   Det enda som skiljer är vägen in. Efter en lyckad inloggning laddas
+   sidan om, så att uppstarten får slå ihop den lokala profilen med
+   molnets på precis samma sätt som efter Google. */
+
+function authFel(d){
+  const m=(d?.error_description||d?.msg||d?.message||"").toLowerCase();
+  if(m.includes("invalid login"))            return "Fel e‑post eller lösenord.";
+  if(m.includes("already registered")||m.includes("already been registered"))
+                                             return "Det finns redan ett konto med den e‑posten. Logga in i stället.";
+  if(m.includes("password")&&m.includes("6")) return "Lösenordet är för kort.";
+  if(m.includes("password should be"))       return "Lösenordet uppfyller inte kraven.";
+  if(m.includes("unable to validate")||m.includes("invalid email"))
+                                             return "E‑postadressen ser inte giltig ut.";
+  if(m.includes("not confirmed"))            return "Bekräfta din e‑post först — kolla inkorgen.";
+  if(m.includes("rate limit")||m.includes("too many")||m.includes("security purposes"))
+                                             return "För många försök. Vänta en stund och prova igen.";
+  if(m.includes("same password"))            return "Välj ett lösenord som skiljer sig från det gamla.";
+  return d?.error_description||d?.msg||d?.message||"Något gick fel. Försök igen.";
+}
+async function authAnrop(vag,kropp,metod){
+  const r=await fetch(SUPABASE_URL+"/auth/v1/"+vag,{
+    method:metod||"POST",headers:sbHeaders(metod==="PUT"),body:JSON.stringify(kropp)});
+  let d={}; try{ d=await r.json(); }catch(_){}
+  if(!r.ok) throw new Error(authFel(d));
+  return d;
+}
+function sparaFranAuthSvar(d){
+  if(!d?.access_token) return false;
+  sparaSession({access_token:d.access_token,refresh_token:d.refresh_token,
+    expires_at:Date.now()+(d.expires_in||3600)*1000,user:d.user||null});
+  return true;
+}
+
+async function loggaInMedLosenord(epost,losen){
+  const d=await authAnrop("token?grant_type=password",{email:epost,password:losen});
+  if(!sparaFranAuthSvar(d)) throw new Error("Inloggningen gick inte igenom.");
+}
+/* Returnerar true om eleven är inloggad direkt, false om ett
+   bekräftelsemejl skickats och kontot väntar på att öppnas. */
+async function skapaKonto(epost,losen){
+  const d=await authAnrop("signup?redirect_to="+encodeURIComponent(returAdress()),
+    {email:epost,password:losen});
+  return sparaFranAuthSvar(d);
+}
+async function begarNyttLosenord(epost){
+  await authAnrop("recover?redirect_to="+encodeURIComponent(returAdress()),{email:epost});
+}
+async function sattNyttLosenord(losen){
+  if(!await giltigSession()) throw new Error("Länken har gått ut. Begär en ny.");
+  const u=await authAnrop("user",{password:losen},"PUT");
+  sparaSession({...session,user:u});
 }
 
 /* ---------- Profilen i molnet ----------
@@ -1544,6 +1702,10 @@ function slaIhopProfiler(a,b){
   kurser.forEach(k=>{
     const x=(a.courses||{})[k]||{}, y=(b.courses||{})[k]||{};
     const c={areas:{},families:{},levels:{},sedda:{...(x.sedda||{}),...(y.sedda||{})},history:[]};
+    // Kapitelfokus är ett aktivt val. Den profil som har ett behålls,
+    // och har båda gjort val tas unionen — ingen förlorar sitt kapitel.
+    const fx=(x.fokus||[]).map(String), fy=(y.fokus||[]).map(String);
+    if(fx.length||fy.length) c.fokus=[...new Set([...fx,...fy])];
     ["areas","families"].forEach(f=>{
       new Set([...Object.keys(x[f]||{}),...Object.keys(y[f]||{})]).forEach(n=>{
         c[f][n]=Math.max((x[f]||{})[n]??0,(y[f]||{})[n]??0);
@@ -1749,7 +1911,7 @@ const navStack=[];
 function navDesc(view){
   return {view,course:state.course,track:state.track,
           area:state.focusArea,omr:state.focusOmr,namn:state.focusNamn,
-          family:state.focusFamily};
+          family:state.focusFamily,pass:state.passTyp};
 }
 function navRecord(view,replace){
   const st=navDesc(view);
@@ -1798,6 +1960,7 @@ async function navRestore(st){
   state.focusOmr=st.omr||null;
   state.focusNamn=st.namn||null;
   state.focusFamily=st.family||null;
+  state.passTyp=st.pass||null;
   applyAccent();
   switch(st.view){
     case "picker":   showAreaPicker(false); break;
@@ -2444,6 +2607,124 @@ async function startaAppen(){
   if(COURSES[onskadKurs]){ const id=onskadKurs; onskadKurs=null; await selectCourse(id); }
 }
 
+/* val = knappvalen, logga/skapa = e‑postformuläret,
+   glomt = begär återställning, nytt = sätt lösenord efter mejllänken. */
+let gateLage="val";
+function bytGate(lage){ gateLage=lage; renderGate(); }
+function gateBesked(msg,ok){
+  const el=document.getElementById("gate-besked");
+  if(!el) return;
+  el.className="gate-besked"+(ok?" ok":"");
+  el.textContent=msg;
+}
+function gateVarde(id){ return (document.getElementById(id)?.value||"").trim(); }
+
+/* Kör ett anrop med spärrad knapp och felet skrivet under formuläret. */
+async function gateKor(knapp,jobb){
+  const b=document.getElementById(knapp);
+  if(b) b.setAttribute("aria-busy","true");
+  gateBesked("");
+  try{ await jobb(); }
+  catch(e){ gateBesked(e.message||"Något gick fel."); }
+  finally{ if(document.getElementById(knapp)) b.removeAttribute("aria-busy"); }
+}
+function gateEnter(ev,fn){ if(ev.key==="Enter"){ ev.preventDefault(); window[fn](); } }
+
+async function gateLoggaIn(){
+  const e=gateVarde("gate-epost"), l=gateVarde("gate-losen");
+  if(!e||!l) return gateBesked("Fyll i både e‑post och lösenord.");
+  await gateKor("gate-knapp",async()=>{
+    await loggaInMedLosenord(e,l);
+    location.reload();
+  });
+}
+async function gateSkapaKonto(){
+  const e=gateVarde("gate-epost"), l=gateVarde("gate-losen");
+  if(!e||!l) return gateBesked("Fyll i både e‑post och lösenord.");
+  if(l.length<8) return gateBesked("Välj ett lösenord med minst 8 tecken.");
+  await gateKor("gate-knapp",async()=>{
+    const inne=await skapaKonto(e,l);
+    if(inne) location.reload();
+    else gateBesked("Nästan klart. Vi har skickat ett mejl till "+e+" — klicka på länken där för att öppna kontot.",true);
+  });
+}
+async function gateGlomt(){
+  const e=gateVarde("gate-epost");
+  if(!e) return gateBesked("Skriv din e‑postadress först.");
+  await gateKor("gate-knapp",async()=>{
+    await begarNyttLosenord(e);
+    gateBesked("Om det finns ett konto för "+e+" ligger nu ett mejl med en länk i inkorgen.",true);
+  });
+}
+async function gateNyttLosenord(){
+  const l=gateVarde("gate-losen");
+  if(l.length<8) return gateBesked("Välj ett lösenord med minst 8 tecken.");
+  await gateKor("gate-knapp",async()=>{
+    await sattNyttLosenord(l);
+    toast("Lösenordet är bytt.");
+    location.href=returAdress();
+  });
+}
+
+function gatePanel(){
+  const eposttfalt=(auto)=>`<label>E‑postadress
+    <input class="namnfalt" id="gate-epost" type="email" autocomplete="${auto}"
+      inputmode="email" placeholder="namn@skola.se" onkeydown="gateEnter(event,'${gateLage==='skapa'?'gateSkapaKonto':gateLage==='glomt'?'gateGlomt':'gateLoggaIn'}')">
+  </label>`;
+  const losenfalt=(auto,txt)=>`<label>${txt||"Lösenord"}
+    <input class="namnfalt" id="gate-losen" type="password" autocomplete="${auto}"
+      onkeydown="gateEnter(event,'${gateLage==='skapa'?'gateSkapaKonto':gateLage==='nytt'?'gateNyttLosenord':'gateLoggaIn'}')">
+  </label>`;
+
+  if(gateLage==="nytt") return `
+    <p class="gate-rubrik">Välj ett nytt lösenord</p>
+    <div class="gate-form">
+      ${losenfalt("new-password","Nytt lösenord (minst 8 tecken)")}
+      <button class="btn primary wide" id="gate-knapp" onclick="gateNyttLosenord()">Spara lösenordet</button>
+    </div>
+    <p class="gate-besked" id="gate-besked"></p>`;
+
+  if(gateLage==="glomt") return `
+    <p class="gate-rubrik">Glömt lösenordet?</p>
+    <div class="gate-form">
+      ${eposttfalt("email")}
+      <button class="btn primary wide" id="gate-knapp" onclick="gateGlomt()">Skicka återställningslänk</button>
+    </div>
+    <p class="gate-besked" id="gate-besked"></p>
+    <div class="gate-lankar">
+      <button class="gate-lank" onclick="bytGate('logga')">Tillbaka till inloggningen</button>
+    </div>`;
+
+  if(gateLage==="logga"||gateLage==="skapa"){
+    const skapa=gateLage==="skapa";
+    return `
+    <p class="gate-rubrik">${skapa?"Skapa ett konto":"Logga in med e‑post"}</p>
+    <div class="gate-form">
+      ${eposttfalt(skapa?"email":"username")}
+      ${losenfalt(skapa?"new-password":"current-password",skapa?"Lösenord (minst 8 tecken)":"Lösenord")}
+      <button class="btn primary wide" id="gate-knapp"
+        onclick="${skapa?"gateSkapaKonto()":"gateLoggaIn()"}">${skapa?"Skapa konto":"Logga in"}</button>
+    </div>
+    <p class="gate-besked" id="gate-besked"></p>
+    <div class="gate-lankar">
+      <button class="gate-lank" onclick="bytGate('${skapa?"logga":"skapa"}')">${skapa?"Jag har redan ett konto":"Skapa ett konto"}</button>
+      ${skapa?"":`<button class="gate-lank" onclick="bytGate('glomt')">Glömt lösenordet?</button>`}
+    </div>
+    <div class="gate-eller">eller</div>
+    <button class="btn wide" onclick="bytGate('val')">Andra sätt att logga in</button>`;
+  }
+
+  return `
+    <p class="why">Loggar du in följer din träning med mellan telefon, dator och skolans elevdator.</p>
+    <button class="btn-google" onclick="loggaInGoogle()">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg><span>Fortsätt med Google</span>
+    </button>
+    <button class="btn wide" style="margin-top:10px" onclick="bytGate('logga')">Fortsätt med e‑post</button>
+    <div class="gate-eller">eller</div>
+    <button class="btn wide" onclick="fortsattUtanInlogg()">Fortsätt utan inloggning</button>
+    <p class="gate-note">Utan konto sparas träningen bara i den här webbläsaren. Du kan logga in senare och ta med dig allt.</p>`;
+}
+
 function renderGate(){
   document.title="Kunskapsgymmet";
   state.view="gate";
@@ -2457,20 +2738,15 @@ function renderGate(){
       <h1>Kunskaps<span class="gym">gymmet</span></h1>
       <p class="lead">Träna matematik och fysik med uppgifter som anpassar sig efter hur det går för dig.</p>
 
-      <div class="gate-panel">
-        <p class="why">Loggar du in följer din träning med mellan telefon, dator och skolans elevdator.</p>
-        <button class="btn-google" onclick="loggaIn()">
-          <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg><span>Fortsätt med Google</span>
-        </button>
-        <div class="gate-eller">eller</div>
-        <button class="btn wide" onclick="fortsattUtanInlogg()">Fortsätt utan inloggning</button>
-        <p class="gate-note">Utan konto sparas träningen bara i den här webbläsaren. Du kan logga in senare och ta med dig allt.</p>
-      </div>
+      <div class="gate-panel">${gatePanel()}</div>
 
       <p class="gate-foot">Matematik och fysik för gymnasiet</p>
     </div>
   </main>`;
   afterRender();
+  if(inloggningsFel){ gateBesked(inloggningsFel); inloggningsFel=null; }
+  const f=document.getElementById("gate-epost")||document.getElementById("gate-losen");
+  if(f && gateLage!=="val") f.focus();
 }
 
 /* ==========================================================
@@ -2785,36 +3061,380 @@ function weakFamilies(limit=8){
 
 /* ==========================================================
    TRÄNAREN
+   Tränaren lägger ett pass i taget, ungefär som på gymmet: en dag
+   teknik på det som skaver, en dag mängd för att få flyt, en dag
+   tunga lyft. Passet slås fast en gång per dag och kurs och ligger
+   kvar dagen ut — annars byter förslaget skepnad varje gång sidan
+   ritas om, och då är det ingen tränare utan en tärning.
+
+   Varje passtyp gör tre saker: väljer områden, förskjuter
+   nivåblandningen och sätter passets längd. Tunga pass är korta,
+   mängdpass är långa. Precis som på gymmet.
    ========================================================== */
 
-function coachAdvice(){
-  const done=todayCount(), goal=profile.goal||8, st=currentStreak();
-  const weak=weakAreas(1)[0];
-  const areas=getAreas();
-
-  if(!profile.attempts){
-    return {msg:"Vi börjar brett. Ett kort pass så lär jag känna din nivå — sedan blir förslagen träffsäkra.",
-            btn:"Starta första passet", act:"startAdaptive()"};
-  }
-  if(done>=goal){
-    return {msg:`Dagens mål är avklarat. <b>${done} uppgifter</b> idag${st>1?` och ${st} dagar i rad`:""}. Vill du fortsätta väljer jag lite svårare uppgifter.`,
-            btn:"Ett pass till", act:"startAdaptive()"};
-  }
-  if(weak && weak.m<.62){
-    return {msg:`Idag föreslår jag <b>${esc(weak.name)}</b>. Där sitter det inte riktigt än, och det är där du växer snabbast.`,
-            btn:"Träna området", act:`startArea('${esc(weak.key)}')`};
-  }
-  if(weak && areas.length && strongAreas(99).length<Math.min(6,areas.length)){
-    return {msg:`Du är stabil i det du tränat. Prova ett område du inte rört än — bredd ger bättre resultat på provet.`,
-            btn:"Låt mig välja", act:"startAdaptive()"};
-  }
-  return {msg:`Formen är god. Jag blandar repetition med tuffare uppgifter så att det fortsätter kännas lagom svårt.`,
-          btn:"Starta dagens pass", act:"startAdaptive()"};
+const PASS_IKON={
+  grund:      '<path d="M4 7h3.5l8 10H20"/><path d="M4 17h3.5l8-10H20"/><path d="M17.2 4.2L20 7l-2.8 2.8"/><path d="M17.2 14.2L20 17l-2.8 2.8"/>',
+  teknik:     '<circle cx="12" cy="12" r="8.4"/><circle cx="12" cy="12" r="3.6"/><circle cx="12" cy="12" r=".6"/>',
+  mangd:      '<path d="M6.8 9.5v5"/><path d="M17.2 9.5v5"/><path d="M3.6 10.8v2.4"/><path d="M20.4 10.8v2.4"/><path d="M6.8 12h10.4"/>',
+  tungt:      '<path d="M6.8 6.4v11.2"/><path d="M17.2 6.4v11.2"/><path d="M3.2 9.2v5.6"/><path d="M20.8 9.2v5.6"/><path d="M6.8 12h10.4"/>',
+  repetition: '<path d="M20.2 12a8.2 8.2 0 1 1-2.4-5.8"/><path d="M20.2 3.8v4.8h-4.8"/>'
+};
+function passIkon(id){
+  const d=PASS_IKON[id]||PASS_IKON.grund;
+  return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.85"
+    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
 }
+
+/* ---------- vad tränaren får plocka ur ----------
+   Fokus är de kapitel eleven jobbar med just nu. Utan fokus skulle
+   ett grundpass dra uppgifter från hela kursen, och den som ska ha
+   prov på kapitel 1 och 2 vill inte möta kapitel 4.
+
+   Inom fokus öppnar sig kapitlet dessutom i takt med eleven: bara
+   områden som är påbörjade räknas som träningsbara, och ett nytt
+   område släpps in först när det påbörjade håller ihop. Ett kapitel
+   är en resa, inte en hög. */
+
+const START_KRAV=3;          // uppgifter innan ett område räknas som påbörjat
+const OPPNA_NYTT=.6;         // så väl måste det påbörjade sitta för att nästa ska släppas in
+
+/* Räknaren i cp.levels överlever historikens 300 rader. */
+function omradesForsok(key){
+  const cp=ensureCourseProfile();
+  const a=(cp.levels||{})[key];
+  if(!a) return typeof cp.areas[key]==="number" ? 1 : 0;
+  return (a.E?.n||0)+(a.C?.n||0)+(a.A?.n||0);
+}
+function kursensKapitel(){
+  const sedda=new Set();
+  return getAreas().map(a=>String(a.kap)).filter(k=>!sedda.has(k)&&sedda.add(k));
+}
+/* Har eleven inte valt något gissar tränaren utifrån var träningen
+   faktiskt legat den senaste tiden. */
+function autoKapitel(){
+  const cp=ensureCourseProfile();
+  const karta={}; getAreas().forEach(a=>karta[a.key]=String(a.kap));
+  const raknare={};
+  (cp.history||[]).slice(-50).forEach(h=>{
+    const k=karta[h.area]; if(k) raknare[k]=(raknare[k]||0)+1;
+  });
+  return Object.entries(raknare).filter(([,n])=>n>=3)
+    .sort((a,b)=>b[1]-a[1]).slice(0,3).map(([k])=>k)
+    .sort((a,b)=>kapNr(a)-kapNr(b));
+}
+function aktivaKapitel(){
+  const cp=ensureCourseProfile();
+  const alla=kursensKapitel();
+  const valda=(cp.fokus||[]).map(String).filter(k=>alla.includes(k));
+  if(valda.length) return valda;
+  const auto=autoKapitel();
+  return auto.length?auto:alla.slice(0,1);
+}
+function fokusValt(){
+  const cp=ensureCourseProfile();
+  return !!(cp.fokus||[]).length;
+}
+function vaxlaKapitel(kap){
+  const cp=ensureCourseProfile();
+  const k=String(kap);
+  const valda=new Set((cp.fokus||[]).map(String));
+  // Utan eget val står de automatiskt valda kapitlen som utgångsläge,
+  // annars skulle första klicket kasta bort dem.
+  if(!valda.size) aktivaKapitel().forEach(x=>valda.add(x));
+  valda.has(k) ? valda.delete(k) : valda.add(k);
+  cp.fokus=[...valda].sort((a,b)=>kapNr(a)-kapNr(b));
+  // Byter eleven kapitel mitt i dagen ska passet räknas om.
+  profile.pt=null;
+  saveProfile();
+  renderDashboard();
+}
+function allaKapitel(){
+  const cp=ensureCourseProfile();
+  cp.fokus=[]; profile.pt=null; saveProfile(); renderDashboard();
+}
+
+/* Områdena tränaren får välja bland: inom fokus, påbörjade, plus på
+   sin höjd ett nytt. Returnerar även vilket det nya är, så att
+   tränaren kan säga det högt. */
+function traningsOmraden(){
+  const kap=new Set(aktivaKapitel());
+  const iFokus=getAreas().filter(a=>kap.has(String(a.kap)));
+  if(!iFokus.length) return {omr:getAreas().map(a=>a.key),nytt:null,kvar:0};
+  const igang=iFokus.filter(a=>omradesForsok(a.key)>=START_KRAV);
+  const nasta=iFokus.find(a=>omradesForsok(a.key)<START_KRAV);
+  const kvar=iFokus.filter(a=>omradesForsok(a.key)<START_KRAV).length;
+  if(!igang.length)
+    return {omr:iFokus.slice(0,1).map(a=>a.key),nytt:iFokus[0].key,kvar:Math.max(0,kvar-1)};
+  const cp=ensureCourseProfile();
+  const snitt=igang.reduce((s,a)=>s+mastery(cp.areas,a.key),0)/igang.length;
+  const slappIn = nasta && snitt>=OPPNA_NYTT;
+  return {
+    omr:[...igang.map(a=>a.key),...(slappIn?[nasta.key]:[])],
+    nytt:slappIn?nasta.key:null,
+    kvar:Math.max(0,kvar-(slappIn?1:0))
+  };
+}
+function fokusNycklar(){ return traningsOmraden().omr; }
+
+/* Passtypernas urval görs alltid inom det tränaren får plocka ur. */
+function svagaInom(keys,n){
+  const cp=ensureCourseProfile();
+  return keys.map(k=>({k,m:mastery(cp.areas,k),sedd:typeof cp.areas[k]==="number"}))
+    .filter(x=>x.sedd && x.m<.72).sort((a,b)=>a.m-b.m).slice(0,n).map(x=>x.k);
+}
+function starkaInom(keys,n){
+  const cp=ensureCourseProfile();
+  return keys.map(k=>({k,m:mastery(cp.areas,k),sedd:typeof cp.areas[k]==="number"}))
+    .filter(x=>x.sedd && x.m>=.62).sort((a,b)=>b.m-a.m).slice(0,n).map(x=>x.k);
+}
+function senastTranad(area){
+  const h=ensureCourseProfile().history||[];
+  for(let i=h.length-1;i>=0;i--) if(h[i].area===area) return h[i].at;
+  return null;
+}
+/* Områden som en gång suttit men legat orörda en vecka. Kunskap som
+   inte repeteras rinner ut — det är den enda luckan som varken
+   mastery eller nivågränserna fångar, eftersom båda är blinda för tid. */
+function repetitionInom(keys){
+  const cp=ensureCourseProfile(), nu=Date.now();
+  return keys.map(k=>({k,m:mastery(cp.areas,k),at:senastTranad(k)}))
+    .filter(x=>x.at && x.m>=.6 && (nu-x.at)/864e5>=7)
+    .sort((a,b)=>a.at-b.at).slice(0,3).map(x=>x.k);
+}
+
+/* vikt förskjuter nivåblandningen, malFaktor passets längd och
+   omraden väljer ut ett smalare urval ur fokus. Saknas omraden
+   tränar passet hela fokus. */
+const PASS={
+  grund:{
+    namn:"Grundpass", under:"Blandat inom fokus", niva:"Nivå efter dagsform",
+    vikt:{E:1,C:1,A:1}, malFaktor:1
+  },
+  teknik:{
+    namn:"Teknikpass", under:"Det som skaver mest", niva:"Nivå 1–2",
+    vikt:{E:3.2,C:1,A:.25}, malFaktor:1,
+    omraden:keys=>svagaInom(keys,2)
+  },
+  mangd:{
+    namn:"Mängdpass", under:"Många uppgifter i följd", niva:"Nivå 1–2",
+    vikt:{E:2.6,C:1,A:.3}, malFaktor:1.6
+  },
+  tungt:{
+    namn:"Tungt pass", under:"Färre men svårare", niva:"Nivå 2–3",
+    vikt:{E:.25,C:1.3,A:2.4}, malFaktor:.7,
+    omraden:keys=>starkaInom(keys,3)
+  },
+  repetition:{
+    namn:"Repetitionspass", under:"Sådant du inte rört på ett tag", niva:"Nivå 1–3",
+    vikt:{E:1,C:1.1,A:.7}, malFaktor:1,
+    omraden:keys=>repetitionInom(keys)
+  }
+};
+const PASS_ORDNING=["grund","teknik","mangd","tungt","repetition"];
+
+/* Områdena ett visst pass skulle träna. Ger passtypens smalare urval
+   om det finns något att välja på, annars hela fokus. */
+function passOmraden(typ){
+  const p=PASS[typ]||PASS.grund;
+  const fokus=fokusNycklar();
+  if(!p.omraden) return fokus;
+  const valt=p.omraden(fokus);
+  return (valt&&valt.length)?valt:fokus;
+}
+
+/* ---------- underlag för valet ---------- */
+
+function senasteTraffsakerhet(n=12){
+  const h=(ensureCourseProfile().history||[]).slice(-n);
+  if(h.length<n) return null;
+  return h.filter(x=>x.ok).length/h.length;
+}
+function redoForTungt(){
+  const t=senasteTraffsakerhet();
+  return t!==null && t>=.75 && starkaInom(fokusNycklar(),1).length>0;
+}
+
+/* Kandidaterna ligger i behovsordning. Den som redan använts de två
+   senaste dagarna hoppas över, så att veckan får variation utan att
+   valet blir slumpmässigt. */
+function valjPassTyp(){
+  const senaste=(profile.passLogg||[]).slice(-2).map(x=>x.typ);
+  const fokus=fokusNycklar();
+  const kandidater=[];
+  const cp=ensureCourseProfile();
+  const svag=svagaInom(fokus,1)[0];
+  if(svag && mastery(cp.areas,svag)<.62) kandidater.push("teknik");
+  if(repetitionInom(fokus).length) kandidater.push("repetition");
+  if(redoForTungt()) kandidater.push("tungt");
+  kandidater.push("mangd","grund");
+  return kandidater.find(t=>!senaste.includes(t)) || kandidater[0];
+}
+function dagensPass(){
+  const nyckel=todayKey()+"|"+state.course+"|"+aktivaKapitel().join(",");
+  if(profile.pt && profile.pt.nyckel===nyckel && PASS[profile.pt.typ]) return profile.pt.typ;
+  const cp=ensureCourseProfile();
+  // De första uppgifterna får vara breda: tränaren behöver underlag
+  // innan den börjar peka ut svagheter.
+  const typ=(cp.history||[]).length<10 ? "grund" : valjPassTyp();
+  profile.pt={nyckel,typ};
+  profile.passLogg=[...(profile.passLogg||[]),{d:todayKey(),typ}].slice(-6);
+  saveProfile();
+  return typ;
+}
+/* Eleven får byta pass. En tränare som inte lyssnar är en app. */
+function valjPass(typ){
+  if(!PASS[typ]) return;
+  profile.pt={nyckel:todayKey()+"|"+state.course+"|"+aktivaKapitel().join(","),typ,valt:true};
+  const logg=profile.passLogg||[];
+  if(logg.length && logg[logg.length-1].d===todayKey()) logg[logg.length-1].typ=typ;
+  saveProfile();
+  state.visaPassval=false;
+  renderDashboard();
+}
+function vaxlaPassval(){ state.visaPassval=!state.visaPassval; state.visaFokus=false; renderDashboard(); }
+function vaxlaFokusval(){ state.visaFokus=!state.visaFokus; state.visaPassval=false; renderDashboard(); }
+
+/* ---------- tränarens röst ---------- */
+
+function passOmradesNamn(typ){
+  return passOmraden(typ).map(k=>areaName(k)).filter(Boolean);
+}
+function namnLista(namn,max=2){
+  const n=namn.slice(0,max);
+  const rest=namn.length-n.length;
+  const txt = n.length===1 ? `<b>${esc(n[0])}</b>`
+            : `<b>${esc(n.slice(0,-1).join(", "))}</b> och <b>${esc(n[n.length-1])}</b>`;
+  return n.length ? txt+(rest>0?` (med flera)`:"") : "";
+}
+function passMeddelande(typ){
+  const st=currentStreak(), done=todayCount(), goal=profile.goal||8;
+  const t=traningsOmraden();
+  const lista=namnLista(passOmradesNamn(typ));
+  const nytt=t.nytt?`<b>${esc(areaName(t.nytt))}</b>`:"";
+
+  if(!profile.attempts)
+    return `Vi börjar i ${nytt||"första området"}. Ett kort pass så lär jag känna din nivå — sedan blir passen träffsäkra, och nya områden släpps in efter hand.`;
+  if(done>=goal)
+    return `Dagens mål är avklarat — <b>${done} uppgifter</b>${st>1?` och ${st} dagar i rad`:""}. Vill du köra ett pass till lägger jag nivån lite högre.`;
+
+  const nyttTillagg = (t.nytt && typ!=="repetition")
+    ? ` Idag släpper jag också in ${nytt} — du är redo för det.` : "";
+
+  switch(typ){
+    case "teknik":
+      return (lista
+        ? `Idag går vi på tekniken. ${lista} är det som skaver mest just nu, och det är där du växer snabbast. Vi håller nere svårighetsgraden och gör dem många gånger.`
+        : "Idag går vi på tekniken: färre områden, lägre nivå, fler repetitioner.");
+    case "mangd":
+      return `Idag kör vi mängd. Fler uppgifter än vanligt på en nivå du redan klarar — det är så det går från att fungera till att sitta i fingrarna.${nyttTillagg}`;
+    case "tungt":
+      return lista
+        ? `Du har varit stabil på sistone, så idag lyfter vi tyngre. Uppgifter på nivå 2 och 3 i ${lista}. Färre uppgifter, längre tid på varje — räkna med att det tar emot.`
+        : `Du har varit stabil på sistone, så idag lyfter vi tyngre. Färre uppgifter men på en nivå över den du är van vid.`;
+    case "repetition":{
+      const gamla=repetitionInom(fokusNycklar());
+      return gamla.length
+        ? `${namnLista(gamla.map(k=>areaName(k)))} har fått ligga ett tag. Vi tar en runda där innan det hinner rinna ut — repetition med mellanrum är det som gör att kunskapen finns kvar till provet.`
+        : `Inget har hunnit bli gammalt än, så vi tar en bred runda över det du jobbar med i stället.`;
+    }
+    default:
+      return (st>1
+        ? `${st} dagar i rad. Idag blandar jag inom det du jobbar med och låter nivån ställa in sig efter hur det går.`
+        : `Idag blandar vi inom det du jobbar med just nu. Nivån ställer in sig efter hur det går för dig.`)+nyttTillagg;
+  }
+}
+/* Nivåtexten räknas fram ur den blandning passet faktiskt kommer att
+   ge, inte ur en fast etikett. Ett tungt pass i en kurs där nivå 3
+   ännu inte är öppen ska inte lova nivå 3.
+   Bara områden eleven redan tränat vägs in — att fråga om ett orört
+   område skulle skapa tomma poster i profilen. */
+function passNivaSpann(typ){
+  const p=PASS[typ]||PASS.grund, cp=ensureCourseProfile();
+  const omr=passOmraden(typ).filter(k=>cp.levels&&cp.levels[k]);
+  if(!omr.length) return p.niva;
+  const gammal=state.passTyp; state.passTyp=typ;
+  const sum={E:0,C:0,A:0}; let n=0;
+  omr.forEach(a=>{
+    const m=levelMix({E:1,C:1,A:1},a);
+    if(m){ sum.E+=m.E; sum.C+=m.C; sum.A+=m.A; n++; }
+  });
+  state.passTyp=gammal;
+  if(!n) return p.niva;
+  const andel=[sum.E/n,sum.C/n,sum.A/n];
+  const med=[1,2,3].filter(i=>andel[i-1]>=.18);
+  if(!med.length) return p.niva;
+  return med.length===1 ? `Nivå ${med[0]}` : `Nivå ${med[0]}–${med[med.length-1]}`;
+}
+function passChips(typ){
+  const p=PASS[typ]||PASS.grund;
+  const antal=Math.max(4,Math.round((profile.goal||8)*p.malFaktor));
+  const namn=passOmradesNamn(typ);
+  const chips=[`${antal} uppgifter`,passNivaSpann(typ)];
+  if(namn.length===1) chips.push(namn[0]);
+  else if(namn.length) chips.push(`${namn.length} områden`);
+  return chips;
+}
+
 
 /* ==========================================================
    KURSVY
    ========================================================== */
+
+function ptKort(){
+  const typ=dagensPass(), p=PASS[typ]||PASS.grund;
+  const done=todayCount(), goal=profile.goal||8, klart=done>=goal && profile.attempts;
+  const chips=passChips(typ);
+  const aktiva=aktivaKapitel(), t=traningsOmraden();
+  const val=state.visaPassval?`
+    <div class="pt-val">
+      ${PASS_ORDNING.map(id=>`
+        <button class="pt-alt${id===typ?" pa":""}" onclick="valjPass('${id}')">
+          ${passIkon(id)}
+          <span><b>${PASS[id].namn}</b><small>${PASS[id].under}</small></span>
+        </button>`).join("")}
+    </div>`:"";
+
+  const fokusval=state.visaFokus?`
+    <div class="pt-val">
+      ${kursensKapitel().map(k=>{
+        const pa=aktiva.includes(k);
+        const antal=getAreas().filter(a=>String(a.kap)===k).length;
+        return `<button class="valruta${pa?" vald":""}" onclick="vaxlaKapitel('${esc(k)}')">
+          <span class="kryss" aria-hidden="true"></span>
+          <span class="valnamn">${esc(chapterName(k))}</span>
+          <span class="valstate">${antal} områden</span>
+        </button>`;
+      }).join("")}
+      <button class="btn quiet sm" style="grid-column:1/-1;justify-self:start" onclick="allaKapitel()">Låt tränaren välja åt mig</button>
+    </div>`:"";
+
+  return `
+  <section class="pt${klart?" klart":""}">
+    <div class="pt-huvud">
+      <span class="pt-ikon">${passIkon(typ)}</span>
+      <span class="pt-titel">
+        <span class="pt-lbl">Din tränare · ${klart?"dagens mål avklarat":"dagens pass"}</span>
+        <h2>${p.namn}</h2>
+      </span>
+      <span class="pt-chips">${chips.map(c=>`<span class="pt-chip">${esc(c)}</span>`).join("")}</span>
+    </div>
+    <p class="pt-msg">${passMeddelande(typ)}</p>
+    <div class="pt-act">
+      <button class="btn primary" onclick="startPass('${typ}')">${klart?"Kör ett pass till":"Starta passet"} <span aria-hidden="true">→</span></button>
+      <button class="btn" onclick="vaxlaPassval()" aria-expanded="${state.visaPassval?"true":"false"}">${state.visaPassval?"Stäng":"Byt pass"}</button>
+      <button class="btn quiet" onclick="showAreaPicker()">Punktträna</button>
+    </div>
+    <div class="pt-fokus">
+      <span class="pt-fokus-lbl">Jobbar med</span>
+      ${aktiva.map(k=>`<span class="pt-kap">${esc(chapterName(k))}</span>`).join("")}
+      ${fokusValt()?"":`<span class="pt-auto" title="Tränaren har gissat utifrån var du tränat">vald åt dig</span>`}
+      ${t.kvar?`<span class="pt-auto">${t.kvar} område${t.kvar>1?"n":""} kvar att öppna</span>`:""}
+      <button class="pt-andra" onclick="vaxlaFokusval()" aria-expanded="${state.visaFokus?"true":"false"}">${state.visaFokus?"Stäng":"Ändra"}</button>
+    </div>
+    ${val}${fokusval}
+  </section>`;
+}
+
 
 function renderDashboard(){
   document.title=COURSES[state.course].name+" · Kunskapsgymmet";
@@ -2823,7 +3443,7 @@ function renderDashboard(){
   const areas=getAreas(), kort=getCards(), cp=ensureCourseProfile();
   const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
   const done=todayCount(), goal=profile.goal||8, st=currentStreak();
-  const weak=weakAreas(3), advice=coachAdvice();
+  const weak=weakAreas(3);
 
   const grouped={};
   kort.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
@@ -2871,6 +3491,8 @@ function renderDashboard(){
       </div>
       ${trackHTML}
     </div>
+
+    ${ptKort()}
 
     <div class="dash">
       <div>${areaHTML || `<div class="empty">Inga uppgifter för den här kursvarianten.</div>`}</div>
@@ -2932,18 +3554,6 @@ function renderDashboard(){
           <button class="btn soft wide sm" style="margin-top:10px" onclick="showProgress()">Min utveckling</button>
         </div>
       </aside>
-    </div>
-
-    <div class="coach">
-      <div class="avatar" aria-hidden="true">◎</div>
-      <div class="body">
-        <div class="lbl">Din tränare</div>
-        <div class="msg">${advice.msg}</div>
-      </div>
-      <div class="act">
-        <button class="btn primary" onclick="${advice.act}">${advice.btn} <span aria-hidden="true">→</span></button>
-        <button class="btn" onclick="showAreaPicker()">Punktträna</button>
-      </div>
     </div>
   </main>`;
   afterRender();
@@ -3123,28 +3733,36 @@ const klarar    = x => x.n<2 ? .6 : Math.max(0,Math.min(1,(x.s-.35)/.30));
 function levelWeights(area){
   const e=scopeLevel("E",area), c=scopeLevel("C",area), a=scopeLevel("A",area);
   const m1=behärskar(e), m2=behärskar(c), k2=klarar(c), k3=klarar(a);
-  return {
+  const w={
     // Nivå 1 viker undan först när grunderna sitter OCH nivå 2 går bra.
     // Kärvar det på nivå 2 kommer nivå 1 tillbaka av sig själv.
     E: 1 - .90*m1*k2,
     C: m1*(.25+.75*k2),
     A: m1*m2*(.25+.75*k3)
   };
+  // Dagens passtyp förskjuter blandningen. Den ändrar aldrig vad eleven
+  // faktiskt har låst upp — ett tungt pass i ett område där nivå 2 inte
+  // är öppen blir helt enkelt ett vanligt pass.
+  const v=(PASS[state.passTyp]||{}).vikt;
+  if(v){ w.E*=v.E; w.C*=v.C; w.A*=v.A; }
+  return w;
 }
 
-/* Normaliserad blandning, med golv för nivå 1. */
+/* Normaliserad blandning, med golv för nivå 1. Ett tungt pass sänker
+   golvet: där är hela poängen att slippa uppvärmningen. */
 const NIVA_GOLV=.10;
 function levelMix(finns,area){
   const w=levelWeights(area);
+  const golv=state.passTyp==="tungt" ? .04 : NIVA_GOLV;
   const order=["E","C","A"];
   order.forEach(L=>{ if(!finns[L]) w[L]=0; });
   const tot=order.reduce((x,L)=>x+w[L],0);
   if(!tot) return null;
   const mix={};
   order.forEach(L=>mix[L]=w[L]/tot);
-  if(finns.E && mix.E<NIVA_GOLV){
-    const kvar=1-NIVA_GOLV, ovrigt=mix.C+mix.A;
-    mix.E=NIVA_GOLV;
+  if(finns.E && mix.E<golv){
+    const kvar=1-golv, ovrigt=mix.C+mix.A;
+    mix.E=golv;
     if(ovrigt>0){ mix.C=mix.C/ovrigt*kvar; mix.A=mix.A/ovrigt*kvar; }
   }
   return mix;
@@ -3212,9 +3830,21 @@ function chooseTask(){
   return vald;
 }
 
-function beginSession(){
+function beginSession(typ){
+  state.passTyp=PASS[typ]?typ:null;
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
-  state.sessionTarget=profile.goal||8;
+  const f=(PASS[state.passTyp]||{}).malFaktor||1;
+  state.sessionTarget=Math.max(4,Math.round((profile.goal||8)*f));
+}
+/* Dagens pass från tränaren. Passtypen styr både vilka områden som
+   kommer upp och hur nivåblandningen förskjuts. */
+function startPass(typ){
+  state.focusArea=null;state.focusNamn=null;state.focusFamily=null;
+  const omr=passOmraden(typ);
+  state.focusOmr=(omr && omr.length)?omr:null;
+  state.visaPassval=false;state.visaFokus=false;
+  beginSession(typ);
+  navRecord("training");nextTask();
 }
 function startAdaptive(){
   state.focusArea=null;state.focusOmr=null;state.focusNamn=null;
@@ -3366,6 +3996,7 @@ function noteNewLevel(t){
 function sessionLabel(){
   if(state.focusFamily) return familyName(state.focusFamily);
   if(state.focusNamn) return state.focusNamn;
+  if(state.passTyp && PASS[state.passTyp]) return PASS[state.passTyp].namn;
   if(state.focusArea) return areaName(state.focusArea);
   return "Adaptivt pass";
 }
@@ -4953,6 +5584,29 @@ function selfGrade(ok){ if(!state.answered) finishAttempt(ok); }
    PASSRAPPORT
    ========================================================== */
 
+/* Tränarens kommentar efter passet. Den vet vilken sorts pass det var,
+   så att ett lågt resultat på ett tungt pass inte läses som ett
+   misslyckande — där är svårigheten själva poängen. */
+function passRapport(acc){
+  const typ=state.passTyp;
+  if(typ==="tungt")
+    return acc>=70 ? "Starkt. Du bar de tunga uppgifterna hela vägen — nivån följer med upp."
+         : acc>=40 ? "Precis den motståndsnivån vi var ute efter. Tunga pass ska kännas i huvudet, och det är där nivån flyttas."
+                   : "Det tog emot, och det var meningen. Nästa pass blir lättare — sedan går vi upp igen.";
+  if(typ==="teknik")
+    return acc>=70 ? "Tekniken börjar sitta. Vi tar samma område igen om några dagar och ser om det håller."
+                   : "Precis det här området behövde tiden. Vi nöter det igen innan vi går vidare.";
+  if(typ==="repetition")
+    return acc>=70 ? "Det satt kvar. Det är själva beviset på att repetitionen fungerar."
+                   : "Bra att vi tog det nu — det hade hunnit rinna ut till provet.";
+  if(typ==="mangd")
+    return acc>=70 ? "Bra flyt genom hela passet. Det är den sortens rutin som frigör huvudet till de svåra uppgifterna."
+                   : "Många uppgifter avklarade. Vi håller nivån ett tag till så att rutinen får sätta sig.";
+  return acc>=80 ? "Starkt genomfört. Den nivån bär hela vägen till provet."
+       : acc>=50 ? "Bra jobbat. Just den här blandningen av rätt och fel är där inlärningen sitter."
+                 : "Tuffa uppgifter idag — och det är precis så framsteg känns. Nästa pass blir bättre anpassat.";
+}
+
 function renderSessionDone(record){
   // Passrapporten ersätter träningssteget, så bakåt leder till kursen.
   // Rekordet avgörs en gång, när passet faktiskt avslutas.
@@ -4990,9 +5644,7 @@ function renderSessionDone(record){
       <div class="num">${acc}<small>% rätt</small></div>
     </div>
     <h1>Passet är klart</h1>
-    <p>${acc>=80?"Starkt genomfört. Den nivån bär hela vägen till provet."
-        :acc>=50?"Bra jobbat. Just den här blandningen av rätt och fel är där inlärningen sitter."
-        :"Tuffa uppgifter idag — och det är precis så framsteg känns. Nästa pass blir bättre anpassat."}</p>
+    <p>${passRapport(acc)}</p>
 
     <div class="sumtiles">
       <div class="card tile" style="background:var(--surface)"><span>Uppgifter</span><strong>${state.sessionCorrect} / ${total}</strong></div>
@@ -5337,6 +5989,9 @@ window.addEventListener("load",async()=>{
   // radera hashen innan vi hunnit se vilken kurs som efterfrågas.
   onskadKurs=location.hash.replace("#","");
 
+  // Länken från "glömt lösenord" loggar in tillfälligt. Då är det bara
+  // lösenordsrutan som ska mötas, inte hela appen.
+  if(inloggningsTyp==="recovery"){ gateLage="nytt"; renderGate(); navRecord("home",true); return; }
   if(visaGate()){ renderGate(); navRecord("home",true); return; }
   await startaAppen();
 

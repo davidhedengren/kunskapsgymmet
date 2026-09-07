@@ -1014,6 +1014,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .pt-liten .pt-ikon.liten svg{width:19px;height:19px}
 .pt-liten-txt{flex:1;min-width:150px;position:relative}
 .pt-liten-txt b{display:block;font-size:14.5px;letter-spacing:-.025em}
+.pt-namn{color:var(--accInk);font-weight:600}
 .pt-liten-txt small{
   display:block;margin-top:1px;font-size:12px;color:var(--ink3);
   font-family:var(--read);letter-spacing:0;
@@ -3237,31 +3238,35 @@ function repetitionInom(keys){
     .sort((a,b)=>a.at-b.at).slice(0,3).map(x=>x.k);
 }
 
-/* vikt förskjuter nivåblandningen, malFaktor passets längd och
+/* vikt förskjuter nivåblandningen, antal är passets längd och
    omraden väljer ut ett smalare urval ur fokus. Saknas omraden
-   tränar passet hela fokus. */
+   tränar passet hela fokus.
+
+   Antalet är absolut, inte en andel av dagsmålet. Ett tungt pass är
+   fem uppgifter för att fem tunga uppgifter är ett pass — inte för
+   att dagsmålet råkar stå på åtta. */
 const PASS={
   grund:{
     namn:"Grundpass", under:"Blandat inom områdena du jobbar med", niva:"Nivå efter dagsform",
-    vikt:{E:1,C:1,A:1}, malFaktor:1
+    vikt:{E:1,C:1,A:1}, antal:8
   },
   teknik:{
     namn:"Teknikpass", under:"Det du har svårast för", niva:"Nivå 1–2",
-    vikt:{E:3.2,C:1,A:.25}, malFaktor:1,
+    vikt:{E:3.2,C:1,A:.25}, antal:10,
     omraden:keys=>svagaInom(keys,2)
   },
   mangd:{
     namn:"Mängdpass", under:"Många uppgifter", niva:"Nivå 1–2",
-    vikt:{E:2.6,C:1,A:.3}, malFaktor:1.6
+    vikt:{E:2.6,C:1,A:.3}, antal:15
   },
   tungt:{
     namn:"Tungt pass", under:"Svårare uppgifter där du är starkast", niva:"Nivå 2–3",
-    vikt:{E:.25,C:1.3,A:2.4}, malFaktor:.7,
+    vikt:{E:.25,C:1.3,A:2.4}, antal:5,
     omraden:keys=>starkaInom(keys,3)
   },
   repetition:{
     namn:"Repetitionspass", under:"Sådant du inte tränat på ett tag", niva:"Nivå 1–3",
-    vikt:{E:1,C:1.1,A:.7}, malFaktor:1,
+    vikt:{E:1,C:1.1,A:.7}, antal:8,
     omraden:keys=>repetitionInom(keys)
   }
 };
@@ -3402,7 +3407,7 @@ function passNivaSpann(typ){
 }
 function passChips(typ){
   const p=PASS[typ]||PASS.grund;
-  const antal=Math.max(4,Math.round((profile.goal||8)*p.malFaktor));
+  const antal=p.antal||profile.goal||8;
   const namn=passOmradesNamn(typ);
   const chips=[`${antal} uppgifter`,passNivaSpann(typ)];
   if(namn.length===1) chips.push(namn[0]);
@@ -3439,7 +3444,7 @@ function ptLitet(sort){
   <section class="pt pt-liten${pagar?"":" klart"}">
     <span class="pt-ikon liten">${passIkon(pagar?(state.passTyp||typ):typ)}</span>
     <span class="pt-liten-txt">
-      <b>${pagar?esc(sessionLabel()):"Dagens mål klart"}</b>
+      <b><span class="pt-namn">Din personliga tränare:</span> ${pagar?esc(sessionLabel()):"Dagens mål klart"}</b>
       <small>${pagar
         ? `${state.sessionDone} av ${state.sessionTarget} uppgifter klara`
         : `${done} av ${goal} uppgifter${st>1?` · ${st} dagar i rad`:""}`}</small>
@@ -3915,8 +3920,9 @@ function beginSession(typ){
   state.passTyp=PASS[typ]?typ:null;
   state.ptOppen=false;
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
-  const f=(PASS[state.passTyp]||{}).malFaktor||1;
-  state.sessionTarget=Math.max(4,Math.round((profile.goal||8)*f));
+  // Passtypen bestämmer längden. Punktträning och andra pass utan
+  // typ landar på dagsmålet som förut.
+  state.sessionTarget=(PASS[state.passTyp]||{}).antal || profile.goal || 8;
 }
 /* Dagens pass från tränaren. Passtypen styr både vilka områden som
    kommer upp och hur nivåblandningen förskjuts. */

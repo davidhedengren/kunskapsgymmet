@@ -866,7 +866,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((-2)(5-8)+4\\)</div><div>b) \\(3(-4+1)-2\\)</div><div>c) \\(-5(2-6)+7\\)</div></div>",
     "s": "<p><strong>Nyckelidé:</strong> Räkna i rätt ordning. Multiplikation och division görs före addition och subtraktion. Håll särskilt reda på minustecknen.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(10\\)</div><div>b) \\(-11\\)</div><div>c) \\(27\\)</div></div>",
-    "familj": "Addition och subtraktion med negativa tal",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -3576,7 +3576,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-3(4-6)+2\\)</div><div>b) \\(2(-5+3)-7\\)</div><div>c) \\(-4(1-5)-6\\)</div></div>",
     "s": "<p><strong>Nyckelidé:</strong> Räkna i rätt ordning. Multiplikation och division görs före addition och subtraktion. Håll särskilt reda på minustecknen.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(8\\)</div><div>b) \\(-11\\)</div><div>c) \\(10\\)</div></div>",
-    "familj": "Addition och subtraktion med negativa tal",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -4273,7 +4273,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((-7)(-2)-9+3\\)</div><div>b) \\(4(-3)+15-5\\)</div><div>c) \\((-6)(5-7)-8\\)</div></div>",
     "s": "<p><strong>Nyckelidé:</strong> Räkna i rätt ordning. Multiplikation och division görs före addition och subtraktion. Håll särskilt reda på minustecknen.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(8\\)</div><div>b) \\(-2\\)</div><div>c) \\(4\\)</div></div>",
-    "familj": "Addition och subtraktion med negativa tal",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -5793,6 +5793,263 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "0.315",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>På morgonen är temperaturen −6 °C. Under dagen stiger den 9 °C. Vilken temperatur blir det?</p>",
+    "s": "<p>En ökning med 9 grader betyder \\(-6+9=3\\).</p><p><strong>Svar:</strong> <strong>3 °C</strong>.</p>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.316",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En hiss står på våning 4 och åker ned 7 våningar. Vilken våning hamnar den på om källarvåningarna numreras med negativa tal?</p>",
+    "s": "<p>Förflyttningen nedåt skrivs som −7: \\(4-7=-3\\).</p><p><strong>Svar:</strong> <strong>våning −3</strong>.</p>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.317",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett konto har saldot −350 kr. Du sätter in 500 kr. Vilket blir det nya saldot?</p>",
+    "s": "<p>Insättningen ökar saldot: \\(-350+500=150\\).</p><p><strong>Svar:</strong> <strong>150 kr</strong>.</p>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 150,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.318",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En dykare befinner sig 12 m under havsytan, alltså på höjden −12 m. Dykaren stiger 7 m. Vilken höjd har dykaren då?</p>",
+    "s": "<p>Att stiga 7 m innebär att 7 adderas: \\(-12+7=-5\\).</p><p><strong>Svar:</strong> <strong>−5 m</strong>.</p>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.319",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Temperaturen är 2 °C och sjunker först 5 °C. Därefter sjunker den ytterligare 4 °C. Vilken temperatur blir det?</p>",
+    "s": "<p>Räkna förändringarna i ordning: \\(2-5-4=-3-4=-7\\).</p><p><strong>Svar:</strong> <strong>−7 °C</strong>.</p>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.320",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((-5)^2\\).</p>",
+    "s": "<p>Parentesen visar att hela talet −5 upphöjs till 2: \\((-5)^2=(-5)\\cdot(-5)=25\\).</p><p><strong>Svar:</strong> <strong>25</strong>.</p>",
+    "familj": "Potensuttryck med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.321",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(-5^2\\).</p>",
+    "s": "<p>Potensen beräknas före minustecknet: \\(-5^2=-(5^2)=-25\\).</p><p><strong>Svar:</strong> <strong>−25</strong>.</p>",
+    "familj": "Potensuttryck med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -25,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.322",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket uttryck har värdet −16?</p><p>A: \\((-4)^2\\)<br>B: \\(-4^2\\)<br>C: \\((-4)^3\\)</p>",
+    "s": "<p>\\((-4)^2=16\\), \\(-4^2=-16\\) och \\((-4)^3=-64\\).</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Potensuttryck med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "0.323",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\((-2)^4-3^2\\).</p>",
+    "s": "<p>\\((-2)^4=16\\) och \\(3^2=9\\). Därefter \\(16-9=7\\).</p><p><strong>Svar:</strong> <strong>7</strong>.</p>",
+    "familj": "Potensuttryck med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.324",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(-(-3)^2+2^3\\).</p>",
+    "s": "<p>Först potenserna: \\((-3)^2=9\\) och \\(2^3=8\\). Minustecknet framför den första potensen ger \\(-9+8=-1\\).</p><p><strong>Svar:</strong> <strong>−1</strong>.</p>",
+    "familj": "Potensuttryck med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "0.145",
     "kap": 0,
     "omr": "brakrakning",
@@ -6090,6 +6347,458 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
+    ]
+  },
+  {
+    "id": "0.292",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[\\frac12+\\frac34\\cdot\\frac23\\]</p>",
+    "s": "<p><strong>Steg 1:</strong> Multiplikationen först: \\(\\frac34\\cdot\\frac23=\\frac12\\).</p><p><strong>Steg 2:</strong> \\(\\frac12+\\frac12=1\\).</p><p><strong>Svar:</strong> \\(1\\)</p>",
+    "familj": "Prioriteringsregler med bråk",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.293",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[(\\frac12+\\frac14)\\cdot\\frac23\\]</p>",
+    "s": "<p><strong>Steg 1:</strong> Parentesen: \\(\\frac12+\\frac14=\\frac34\\).</p><p><strong>Steg 2:</strong> \\(\\frac34\\cdot\\frac23=\\frac12\\).</p><p><strong>Svar:</strong> \\(\\frac12\\)</p>",
+    "familj": "Prioriteringsregler med bråk",
+    "svarstyp": "bråk",
+    "rättSvar": "1/2",
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "0.294",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[\\frac35-\\frac12\\cdot\\frac25\\]</p>",
+    "s": "<p>Multiplikationen görs först: \\(\\frac12\\cdot\\frac25=\\frac15\\).</p><p>Därefter \\(\\frac35-\\frac15=\\frac25\\).</p><p><strong>Svar:</strong> \\(\\frac25\\)</p>",
+    "familj": "Prioriteringsregler med bråk",
+    "svarstyp": "bråk",
+    "rättSvar": "2/5",
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "0.295",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[(\\frac56-\\frac13)\\div\\frac12\\]</p>",
+    "s": "<p>Parentesen ger \\(\\frac56-\\frac26=\\frac36=\\frac12\\).</p><p>Sedan \\(\\frac12\\div\\frac12=1\\).</p><p><strong>Svar:</strong> \\(1\\)</p>",
+    "familj": "Prioriteringsregler med bråk",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.296",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[1-\\frac34\\div\\frac32\\]</p>",
+    "s": "<p><strong>Steg 1:</strong> Divisionen först: \\(\\frac34\\div\\frac32=\\frac34\\cdot\\frac23=\\frac12\\).</p><p><strong>Steg 2:</strong> \\(1-\\frac12=\\frac12\\).</p><p><strong>Svar:</strong> \\(\\frac12\\)</p>",
+    "familj": "Prioriteringsregler med bråk",
+    "svarstyp": "bråk",
+    "rättSvar": "1/2",
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "0.297",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[\\frac23+(\\frac12)^2\\]</p>",
+    "s": "<p>Potensen först: \\((\\frac12)^2=\\frac14\\).</p><p>Med gemensam nämnare 12 blir \\(\\frac23+\\frac14=\\frac8{12}+\\frac3{12}=\\frac{11}{12}\\).</p><p><strong>Svar:</strong> \\(\\frac{11}{12}\\)</p>",
+    "familj": "Prioriteringsregler med bråk",
+    "svarstyp": "bråk",
+    "rättSvar": "11/12",
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "0.298",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[(\\frac34-\\frac14)^2\\cdot4\\]</p>",
+    "s": "<p>Parentesen ger \\(\\frac12\\). Sedan \\((\\frac12)^2=\\frac14\\), och \\(\\frac14\\cdot4=1\\).</p><p><strong>Svar:</strong> \\(1\\)</p>",
+    "familj": "Prioriteringsregler med bråk",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.299",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[(\\frac12+\\frac13)\\div\\frac56\\]</p>",
+    "s": "<p>Parentesen ger \\(\\frac12+\\frac13=\\frac56\\).</p><p>Då blir \\(\\frac56\\div\\frac56=1\\).</p><p><strong>Svar:</strong> \\(1\\)</p>",
+    "familj": "Prioriteringsregler med bråk",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.300",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förkorta bråket \\(\\frac{42}{63}\\) så långt som möjligt.</p>",
+    "s": "<p><strong>Steg 1:</strong> Största gemensamma faktorn till 42 och 63 är 21.</p><p>\\(\\frac{42}{63}=\\frac{42\\div21}{63\\div21}=\\frac23\\).</p><p><strong>Svar:</strong> \\(\\frac23\\).</p>",
+    "familj": "Förkorta bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "2/3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "0.301",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket av bråken är \\(\\frac{56}{98}\\) förkortat så långt som möjligt?</p><p>A: \\(\\frac47\\)<br>B: \\(\\frac{28}{49}\\)<br>C: \\(\\frac{8}{14}\\)</p>",
+    "s": "<p>56 och 98 kan båda divideras med 14: \\(56\\div14=4\\) och \\(98\\div14=7\\).</p><p><strong>Svar:</strong> <strong>A</strong>, \\(\\frac47\\).</p>",
+    "familj": "Förkorta bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "0.302",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Fyll i det saknade talet:</p><p>\\[\\frac{45}{60}=\\frac{\\square}{4}\\]</p>",
+    "s": "<p>Nämnaren 60 har dividerats med 15 för att bli 4. Gör samma sak med täljaren: \\(45\\div15=3\\).</p><p><strong>Svar:</strong> <strong>3</strong>.</p>",
+    "familj": "Förkorta bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.303",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förkorta \\(\\frac{54}{90}\\). Börja med att bryta ut den största gemensamma faktorn.</p>",
+    "s": "<p>Både 54 och 90 är delbara med 18.</p><p>\\(\\frac{54}{90}=\\frac{3\\cdot18}{5\\cdot18}=\\frac35\\).</p><p><strong>Svar:</strong> \\(\\frac35\\).</p>",
+    "familj": "Förkorta bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "3/5",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "0.304",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Bråket \\(\\frac{120}{168}\\) ska skrivas i enklaste form. Bestäm bråket.</p>",
+    "s": "<p>Största gemensamma faktorn är 24. Då blir \\(120\\div24=5\\) och \\(168\\div24=7\\).</p><p><strong>Svar:</strong> \\(\\frac57\\).</p>",
+    "familj": "Förkorta bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "5/7",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ]
+  },
+  {
+    "id": "0.305",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket bråk är störst?</p><p>A: \\(\\frac23\\)<br>B: \\(\\frac35\\)<br>C: \\(\\frac58\\)</p>",
+    "s": "<p>Jämför till exempel med gemensam nämnare 120: \\(\\frac23=\\frac{80}{120}\\), \\(\\frac35=\\frac{72}{120}\\), \\(\\frac58=\\frac{75}{120}\\).</p><p><strong>Svar:</strong> <strong>A</strong>, \\(\\frac23\\).</p>",
+    "familj": "Jämföra och ordna bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "0.306",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket bråk är minst?</p><p>A: \\(\\frac7{10}\\)<br>B: \\(\\frac58\\)<br>C: \\(\\frac23\\)</p>",
+    "s": "<p>Med nämnaren 120 får vi \\(\\frac7{10}=\\frac{84}{120}\\), \\(\\frac58=\\frac{75}{120}\\) och \\(\\frac23=\\frac{80}{120}\\).</p><p><strong>Svar:</strong> <strong>B</strong>, \\(\\frac58\\).</p>",
+    "familj": "Jämföra och ordna bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "0.307",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Jämför \\(\\frac57\\) och \\(\\frac59\\). Vilket är störst?</p><p>A: \\(\\frac57\\)<br>B: \\(\\frac59\\)<br>C: De är lika stora</p>",
+    "s": "<p>Bråken har samma täljare. När samma mängd delar fördelas på färre delar blir varje del större. Eftersom 7 &lt; 9 är \\(\\frac57>\\frac59\\).</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Jämföra och ordna bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "0.308",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Skriv bråken \\(\\frac34\\), \\(\\frac5{12}\\) och \\(\\frac23\\) i storleksordning. Ange först det minsta, sedan mittenbråket och sist det största.</p>",
+    "s": "<p>Skriv alla med nämnaren 12: \\(\\frac34=\\frac9{12}\\), \\(\\frac5{12}=\\frac5{12}\\), \\(\\frac23=\\frac8{12}\\).</p><p><strong>Svar:</strong> \\(\\frac5{12}&lt;\\frac23&lt;\\frac34\\).</p>",
+    "familj": "Jämföra och ordna bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "5/12",
+      "2/3",
+      "3/4"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "minst",
+      "mitten",
+      "störst"
+    ]
+  },
+  {
+    "id": "0.309",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Utan att räkna om till decimalform: vilket påstående är korrekt?</p><p>A: \\(\\frac49>\\frac5{11}\\)<br>B: \\(\\frac49&lt;\\frac5{11}\\)<br>C: Bråken är lika stora</p>",
+    "s": "<p>Korsmultiplicera: \\(4\\cdot11=44\\) och \\(5\\cdot9=45\\). Eftersom 44 &lt; 45 gäller \\(\\frac49&lt;\\frac5{11}\\).</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Jämföra och ordna bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
     ]
   },
   {
@@ -6587,6 +7296,1005 @@ window.BANKMA1 = [
     "rättSvar": 16,
     "tolerans": null,
     "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.252",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(18-3\\cdot4\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Multiplikationen görs före subtraktionen: \\(3\\cdot4=12\\).</p><p><strong>Steg 2:</strong> \\(18-12=6\\).</p><p><strong>Svar:</strong> \\(6\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.253",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(42\\div7\\cdot3\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Division och multiplikation har samma prioritet. Räkna därför från vänster till höger.</p><p>\\(42\\div7=6\\) och sedan \\(6\\cdot3=18\\).</p><p><strong>Svar:</strong> \\(18\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.254",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(20-7+4\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Addition och subtraktion har samma prioritet. Räkna från vänster till höger.</p><p>\\(20-7=13\\), därefter \\(13+4=17\\).</p><p><strong>Svar:</strong> \\(17\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.255",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(2+3^2\\cdot2\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Potensen först: \\(3^2=9\\).</p><p><strong>Steg 2:</strong> Multiplikation: \\(9\\cdot2=18\\).</p><p><strong>Steg 3:</strong> \\(2+18=20\\).</p><p><strong>Svar:</strong> \\(20\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.256",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((14-6)\\cdot3+2\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Parentesen först: \\(14-6=8\\).</p><p><strong>Steg 2:</strong> \\(8\\cdot3=24\\).</p><p><strong>Steg 3:</strong> \\(24+2=26\\).</p><p><strong>Svar:</strong> \\(26\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 26,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.257",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(48\\div(10-4)+5\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Parentesen: \\(10-4=6\\).</p><p><strong>Steg 2:</strong> Divisionen: \\(48\\div6=8\\).</p><p><strong>Steg 3:</strong> \\(8+5=13\\).</p><p><strong>Svar:</strong> \\(13\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.258",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(5+30\\div3\\cdot2\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Division och multiplikation ligger på samma nivå och tas från vänster.</p><p>\\(30\\div3=10\\), sedan \\(10\\cdot2=20\\). Till sist \\(5+20=25\\).</p><p><strong>Svar:</strong> \\(25\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.259",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((6+4)^2\\div20\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Parentesen: \\(6+4=10\\).</p><p><strong>Steg 2:</strong> Potensen: \\(10^2=100\\).</p><p><strong>Steg 3:</strong> \\(100\\div20=5\\).</p><p><strong>Svar:</strong> \\(5\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.260",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(64\\div2^3+7\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Potensen först: \\(2^3=8\\).</p><p><strong>Steg 2:</strong> \\(64\\div8=8\\).</p><p><strong>Steg 3:</strong> \\(8+7=15\\).</p><p><strong>Svar:</strong> \\(15\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.261",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(3,5+1,5\\cdot4\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Multiplikationen först: \\(1,5\\cdot4=6\\).</p><p><strong>Steg 2:</strong> \\(3,5+6=9,5\\).</p><p><strong>Svar:</strong> \\(9,5\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.5,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.262",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((8,4-2,4)\\div3+1\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Parentesen: \\(8,4-2,4=6\\).</p><p><strong>Steg 2:</strong> \\(6\\div3=2\\).</p><p><strong>Steg 3:</strong> \\(2+1=3\\).</p><p><strong>Svar:</strong> \\(3\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.263",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\frac{18+6}{7-3}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Ett bråkstreck fungerar som en gruppindelning. Beräkna därför hela täljaren och hela nämnaren först.</p><p>\\(18+6=24\\) och \\(7-3=4\\). Då blir \\(24\\div4=6\\).</p><p><strong>Svar:</strong> \\(6\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.264",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(20-(3+2)\\cdot4\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> \\(3+2=5\\).</p><p><strong>Steg 2:</strong> \\(5\\cdot4=20\\).</p><p><strong>Steg 3:</strong> \\(20-20=0\\).</p><p><strong>Svar:</strong> \\(0\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.265",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(2[3+(8-5)]\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Börja innerst: \\(8-5=3\\).</p><p><strong>Steg 2:</strong> \\(3+3=6\\).</p><p><strong>Steg 3:</strong> \\(2\\cdot6=12\\).</p><p><strong>Svar:</strong> \\(12\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.266",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(36\\div[2(3+3)]\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Parentesen: \\(3+3=6\\).</p><p><strong>Steg 2:</strong> Nämnaren blir \\(2\\cdot6=12\\).</p><p><strong>Steg 3:</strong> \\(36\\div12=3\\).</p><p><strong>Svar:</strong> \\(3\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.267",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket uttryck har störst värde?</p><p>A: \\(6+2\\cdot5\\)<br>B: \\((6+2)\\cdot5\\)</p>",
+    "s": "<p>A ger \\(6+10=16\\). B ger \\(8\\cdot5=40\\).</p><p><strong>Svar:</strong> <strong>B</strong> har störst värde.</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "0.268",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken del ska beräknas <strong>först</strong> i uttrycket \\(14-2\\cdot3^2\\)?</p><p>A: \\(14-2\\)<br>B: \\(2\\cdot3\\)<br>C: \\(3^2\\)</p>",
+    "s": "<p>Potenser har högre prioritet än multiplikation, addition och subtraktion.</p><p><strong>Svar:</strong> <strong>C</strong>, alltså \\(3^2\\).</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "0.269",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En elev räknar \\(12-4\\cdot2=16\\). Vilket fel har eleven gjort?</p><p>A: Eleven har räknat \\(12-4\\) före multiplikationen.<br>B: Eleven har räknat multiplikationen först.<br>C: Eleven har bytt tecken på 4.</p>",
+    "s": "<p>För att få 16 måste eleven ha räknat \\(12-4=8\\) och sedan \\(8\\cdot2=16\\). Men multiplikationen ska göras först.</p><p>Korrekt är \\(12-8=4\\).</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "0.270",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken parentesplacering gör att värdet blir \\(16\\)?</p><p>A: \\((3+5)\\cdot2\\)<br>B: \\(3+(5\\cdot2)\\)<br>C: \\((3+5\\cdot2)\\)</p>",
+    "s": "<p>A ger \\(8\\cdot2=16\\). B och C ger båda \\(3+10=13\\).</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ]
+  },
+  {
+    "id": "0.271",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal ska stå i rutan för att likheten ska stämma?</p><p>\\[4+\\square\\cdot3=19\\]</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Multiplikationen med \\(x\\) görs före additionen.</p><p>För att \\(4+x\\cdot3=19\\) måste \\(x\\cdot3=15\\), alltså \\(x=5\\).</p><p><strong>Svar:</strong> \\(5\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.272",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal ska stå i rutan?</p><p>\\[(\\square+2)\\cdot4=28\\]</p>",
+    "s": "<p>Eftersom parentesen multipliceras med 4 måste parentesens värde vara \\(28\\div4=7\\).</p><p>Då gäller \\(x+2=7\\), så \\(x=5\\).</p><p><strong>Svar:</strong> \\(5\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.273",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(50-18\\div3+2^2\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> \\(2^2=4\\) och \\(18\\div3=6\\).</p><p><strong>Steg 2:</strong> Addition och subtraktion tas sedan från vänster: \\(50-6+4=48\\).</p><p><strong>Svar:</strong> \\(48\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.274",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(72\\div(3\\cdot4)+2\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Parentesen: \\(3\\cdot4=12\\).</p><p><strong>Steg 2:</strong> \\(72\\div12=6\\).</p><p><strong>Steg 3:</strong> \\(6+2=8\\).</p><p><strong>Svar:</strong> \\(8\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.275",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(7+4(9-6)-2^2\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Parentes och potens: \\(9-6=3\\) och \\(2^2=4\\).</p><p><strong>Steg 2:</strong> \\(4\\cdot3=12\\).</p><p><strong>Steg 3:</strong> \\(7+12-4=15\\).</p><p><strong>Svar:</strong> \\(15\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.276",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((20-8)\\div2^2+5\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> \\(20-8=12\\) och \\(2^2=4\\).</p><p><strong>Steg 2:</strong> \\(12\\div4=3\\).</p><p><strong>Steg 3:</strong> \\(3+5=8\\).</p><p><strong>Svar:</strong> \\(8\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.277",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(100\\div[5(2+3)]\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> \\(2+3=5\\).</p><p><strong>Steg 2:</strong> \\(5\\cdot5=25\\).</p><p><strong>Steg 3:</strong> \\(100\\div25=4\\).</p><p><strong>Svar:</strong> \\(4\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.278",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Starta med talet 6. Addera 4. Multiplicera sedan resultatet med 3 och subtrahera till sist 5.</p><p>Vilket tal får du?</p>",
+    "s": "<p>”Addera 4” ger först \\(6+4=10\\). Därefter multipliceras hela resultatet med 3: \\(10\\cdot3=30\\). Till sist \\(30-5=25\\).</p><p><strong>Svar:</strong> \\(25\\)</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.279",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket uttryck betyder: ”subtrahera 2 från 5 och kvadrera sedan resultatet”?</p><p>A: \\(5-2^2\\)<br>B: \\((5-2)^2\\)<br>C: \\(5^2-2\\)</p>",
+    "s": "<p>Orden ”kvadrera sedan resultatet” betyder att skillnaden \\(5-2\\) ska beräknas först och därefter upphöjas till 2.</p><p><strong>Svar:</strong> <strong>B</strong>, \\((5-2)^2\\).</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "0.280",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket uttryck har störst värde?</p><p>A: \\(24\\div6\\cdot2\\)<br>B: \\(24\\div(6\\cdot2)\\)</p>",
+    "s": "<p>I A räknas division och multiplikation från vänster: \\(24\\div6\\cdot2=4\\cdot2=8\\).</p><p>I B blir nämnaren först \\(12\\), så värdet är \\(2\\).</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "0.281",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken beräkningskedja är korrekt för \\(3+2\\cdot(7-4)^2\\)?</p><p>A: parentes → potens → multiplikation → addition<br>B: potens → parentes → addition → multiplikation<br>C: multiplikation → parentes → potens → addition</p>",
+    "s": "<p>Parentesen måste beräknas först. Därefter kommer potensen, sedan multiplikationen och sist additionen.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Räkna med prioriteringsregler",
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "0.282",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(3[8-2(5-3)]\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Innersta parentesen: \\(5-3=2\\).</p><p><strong>Steg 2:</strong> \\(2\\cdot2=4\\), så hakparentesen blir \\(8-4=4\\).</p><p><strong>Steg 3:</strong> \\(3\\cdot4=12\\).</p><p><strong>Svar:</strong> \\(12\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.283",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(\\frac{24-(6+2)}{4}+3\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> \\(6+2=8\\).</p><p><strong>Steg 2:</strong> Täljaren blir \\(24-8=16\\).</p><p><strong>Steg 3:</strong> \\(16\\div4+3=4+3=7\\).</p><p><strong>Svar:</strong> \\(7\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.284",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(2^3(7-4)-5\\).</p>",
+    "s": "<p>Parentesen ger \\(3\\) och potensen ger \\(8\\). Därefter \\(8\\cdot3=24\\) och \\(24-5=19\\).</p><p><strong>Svar:</strong> \\(19\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.285",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\((5+3)^2\\div16\\).</p>",
+    "s": "<p>Först \\(5+3=8\\), sedan \\(8^2=64\\). Till sist \\(64\\div16=4\\).</p><p><strong>Svar:</strong> \\(4\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.286",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(4+2[3^2-(7-4)]\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> \\(3^2=9\\) och \\(7-4=3\\).</p><p><strong>Steg 2:</strong> Hakparentesen blir \\(9-3=6\\).</p><p><strong>Steg 3:</strong> \\(4+2\\cdot6=16\\).</p><p><strong>Svar:</strong> \\(16\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.287",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(60\\div[3(2+3)]+2^2\\).</p>",
+    "s": "<p>Parentesen ger \\(5\\), så \\(3(2+3)=15\\). Potensen ger \\(4\\).</p><p>Då blir uttrycket \\(60\\div15+4=4+4=8\\).</p><p><strong>Svar:</strong> \\(8\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.288",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(\\frac{(18\\div3+2)^2}{16}\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Inuti parentesen: \\(18\\div3+2=6+2=8\\).</p><p><strong>Steg 2:</strong> \\(8^2=64\\).</p><p><strong>Steg 3:</strong> \\(64\\div16=4\\).</p><p><strong>Svar:</strong> \\(4\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.289",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(5\\{12-[2(3+1)+1]\\}\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> \\(3+1=4\\).</p><p><strong>Steg 2:</strong> \\(2\\cdot4+1=9\\).</p><p><strong>Steg 3:</strong> \\(12-9=3\\), och till sist \\(5\\cdot3=15\\).</p><p><strong>Svar:</strong> \\(15\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.290",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\((4,8+1,2)\\div(0,5\\cdot3)\\).</p>",
+    "s": "<p>Täljaren blir \\(6\\). Nämnaren blir \\(1,5\\). Därför är \\(6\\div1,5=4\\).</p><p><strong>Svar:</strong> \\(4\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "heltal"
+  },
+  {
+    "id": "0.291",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(2[5+(12\\div3-1)^2]\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> \\(12\\div3-1=4-1=3\\).</p><p><strong>Steg 2:</strong> \\(3^2=9\\).</p><p><strong>Steg 3:</strong> \\(2(5+9)=2\\cdot14=28\\).</p><p><strong>Svar:</strong> \\(28\\)</p>",
+    "familj": "Beräkna uttryck med parenteser",
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
     "formaga": [
       "procedur"
     ],
@@ -8013,6 +9721,131 @@ window.BANKMA1 = [
     "svarEnhet": "min"
   },
   {
+    "id": "0.310",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>3,5 m²</strong> till cm².</p>",
+    "s": "<p>Eftersom \\(1\\,m=100\\,cm\\) gäller \\(1\\,m^2=10\\,000\\,cm^2\\). Då blir \\(3,5\\cdot10\\,000=35\\,000\\).</p><p><strong>Svar:</strong> <strong>35 000 cm²</strong>.</p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 35000,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.311",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla <strong>24 000 cm²</strong> till m².</p>",
+    "s": "<p>\\(1\\,m^2=10\\,000\\,cm^2\\). Dividera därför med 10 000: \\(24\\,000/10\\,000=2,4\\).</p><p><strong>Svar:</strong> <strong>2,4 m²</strong>.</p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.312",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tomt har arean <strong>0,08 km²</strong>. Hur många m² är det?</p>",
+    "s": "<p>\\(1\\,km^2=(1000\\,m)^2=1\\,000\\,000\\,m^2\\). Därför är \\(0,08\\cdot1\\,000\\,000=80\\,000\\).</p><p><strong>Svar:</strong> <strong>80 000 m²</strong>.</p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 80000,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.313",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många minuter är <strong>2,5 timmar</strong>?</p>",
+    "s": "<p>En timme är 60 minuter. \\(2,5\\cdot60=150\\).</p><p><strong>Svar:</strong> <strong>150 minuter</strong>.</p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 150,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.314",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En film är <strong>1 h 45 min</strong> lång. Hur många minuter är det totalt?</p>",
+    "s": "<p>En timme är 60 minuter. \\(60+45=105\\).</p><p><strong>Svar:</strong> <strong>105 minuter</strong>.</p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 105,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "0.232",
     "kap": 0,
     "omr": "tiopotenser_prefix",
@@ -8523,6 +10356,254 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "mg"
+  },
+  {
+    "id": "0.325",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv <strong>320 000</strong> i grundpotensform.</p>",
+    "s": "<p>Flytta decimaltecknet fem steg åt vänster så att talet framför tiopotensen hamnar mellan 1 och 10.</p><p><strong>Svar:</strong> \\(3,2\\cdot10^5\\).</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "3.2*10^5",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "0.326",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv <strong>0,00071</strong> i grundpotensform.</p>",
+    "s": "<p>Flytta decimaltecknet fyra steg åt höger till 7,1. Då behövs exponenten −4.</p><p><strong>Svar:</strong> \\(7,1\\cdot10^{-4}\\).</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "7.1*10^-4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "0.327",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv <strong>6 040 000</strong> i grundpotensform.</p>",
+    "s": "<p>Decimaltecknet flyttas sex steg åt vänster.</p><p><strong>Svar:</strong> \\(6,04\\cdot10^6\\).</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "6.04*10^6",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "0.328",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Skriv <strong>0,00905</strong> i grundpotensform.</p>",
+    "s": "<p>Decimaltecknet flyttas tre steg åt höger till 9,05. Därför är exponenten −3.</p><p><strong>Svar:</strong> \\(9,05\\cdot10^{-3}\\).</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "9.05*10^-3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "0.329",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal är korrekt skrivet i grundpotensform?</p><p>A: \\(0,42\\cdot10^6\\)<br>B: \\(4,2\\cdot10^5\\)<br>C: \\(42\\cdot10^4\\)</p>",
+    "s": "<p>I grundpotensform ska talet framför tiopotensen vara minst 1 men mindre än 10. Bara 4,2 uppfyller det kravet.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "0.330",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(4,8\\cdot10^4\\) i vanlig decimalform.</p>",
+    "s": "<p>Exponent 4 betyder att decimaltecknet flyttas fyra steg åt höger.</p><p><strong>Svar:</strong> <strong>48 000</strong>.</p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48000,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.331",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(2,6\\cdot10^{-3}\\) i vanlig decimalform.</p>",
+    "s": "<p>Exponent −3 betyder att decimaltecknet flyttas tre steg åt vänster.</p><p><strong>Svar:</strong> <strong>0,0026</strong>.</p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0026,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.332",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(9,03\\cdot10^5\\) i vanlig decimalform.</p>",
+    "s": "<p>Flytta decimaltecknet fem steg åt höger: 9,03 → 903 000.</p><p><strong>Svar:</strong> <strong>903 000</strong>.</p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 903000,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.333",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Skriv \\(7,25\\cdot10^{-5}\\) i vanlig decimalform.</p>",
+    "s": "<p>Flytta decimaltecknet fem steg åt vänster.</p><p><strong>Svar:</strong> <strong>0,0000725</strong>.</p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.25e-05,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.334",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal motsvarar \\(3,1\\cdot10^{-2}\\)?</p><p>A: 0,31<br>B: 0,031<br>C: 0,0031</p>",
+    "s": "<p>Exponent −2 flyttar decimaltecknet två steg åt vänster: 3,1 → 0,031.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "1.01",
@@ -16409,6 +18490,252 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "1.258",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera \\(18x+30\\) genom att bryta ut största gemensamma faktor.</p>",
+    "s": "<p>Största gemensamma faktorn till 18 och 30 är 6. Därför \\(18x+30=6(3x+5)\\).</p><p><strong>Svar:</strong> \\(6(3x+5)\\).</p>",
+    "familj": "Bryta ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "6(3x+5)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.259",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera \\(24a^2-36a\\) genom att bryta ut största gemensamma faktor.</p>",
+    "s": "<p>Båda termerna innehåller faktorn \\(12a\\): \\(24a^2-36a=12a(2a-3)\\).</p><p><strong>Svar:</strong> \\(12a(2a-3)\\).</p>",
+    "familj": "Bryta ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "12a(2a-3)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.260",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera \\(15xy+25x\\) så långt som möjligt genom utbrytning.</p>",
+    "s": "<p>Den största gemensamma faktorn är \\(5x\\). Då återstår \\(3y+5\\) i parentesen.</p><p><strong>Svar:</strong> \\(5x(3y+5)\\).</p>",
+    "familj": "Bryta ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "5x(3y+5)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.261",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Faktorisera \\(-14x^2+21x\\) så att termen med \\(x\\) först i parentesen blir positiv.</p>",
+    "s": "<p>Bryt ut \\(-7x\\): \\(-14x^2+21x=-7x(2x-3)\\).</p><p><strong>Svar:</strong> \\(-7x(2x-3)\\).</p>",
+    "familj": "Bryta ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "-7x(2x-3)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.262",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Faktorisera \\(36a^2b-24ab^2+12ab\\) genom att bryta ut största gemensamma faktor.</p>",
+    "s": "<p>Alla tre termer innehåller \\(12ab\\). Efter division blir termerna \\(3a\\), \\(-2b\\) och \\(1\\).</p><p><strong>Svar:</strong> \\(12ab(3a-2b+1)\\).</p>",
+    "familj": "Bryta ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "12ab(3a-2b+1)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.263",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket uttryck är en korrekt faktorisering av \\(12x+18\\)?</p><p>A: \\(6(2x+3)\\)<br>B: \\(3(4x+18)\\)<br>C: \\(6(2x+18)\\)</p>",
+    "s": "<p>Multiplicera tillbaka: \\(6(2x+3)=12x+18\\). De andra alternativen ger andra uttryck.</p>",
+    "familj": "Jämföra olika faktoriseringar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "1.264",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket alternativ är <em>fullständigt</em> faktoriserat genom utbrytning?</p><p>Uttrycket är \\(20x^2+30x\\).</p><p>A: \\(2x(10x+15)\\)<br>B: \\(10x(2x+3)\\)<br>C: \\(5(4x^2+6x)\\)</p>",
+    "s": "<p>Den största gemensamma faktorn är \\(10x\\). Därför är B fullständigt faktoriserad med utbrytning.</p>",
+    "familj": "Jämföra olika faktoriseringar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "1.265",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En elev skriver \\(15a-25=5(3a-5)\\). Är faktoriseringen korrekt?</p><p>A: Ja<br>B: Nej, det ska vara \\(5(3a+5)\\)<br>C: Nej, 5 kan inte brytas ut</p>",
+    "s": "<p>Kontrollera genom att multiplicera in 5: \\(5\\cdot3a-5\\cdot5=15a-25\\).</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Jämföra olika faktoriseringar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "1.266",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilka två uttryck är ekvivalenta?</p><p>A: \\(8x+12\\) och \\(4(2x+3)\\)<br>B: \\(8x+12\\) och \\(2(4x+12)\\)<br>C: \\(8x+12\\) och \\(4(2x+12)\\)</p>",
+    "s": "<p>Multiplicera in i parenteserna. Endast \\(4(2x+3)=8x+12\\).</p>",
+    "familj": "Jämföra olika faktoriseringar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "1.267",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Vilken faktorisering visar tydligast att \\(18n+30\\) alltid är delbart med 6 för heltal \\(n\\)?</p><p>A: \\(3(6n+10)\\)<br>B: \\(6(3n+5)\\)<br>C: \\(2(9n+15)\\)</p>",
+    "s": "<p>När hela uttrycket skrivs som 6 gånger ett heltalsuttryck syns direkt att det är delbart med 6.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Jämföra olika faktoriseringar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
+  },
+  {
     "id": "1.218",
     "kap": 1,
     "omr": "linjara_ekvationer",
@@ -16663,7 +18990,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Två mobilabonnemang har priserna nedan. Vid hur många samtalsminuter kostar de lika mycket?</p><span class=\"fig smal\"><svg width=\"360\" height=\"180\" viewBox=\"0 0 360 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"358\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n\n<rect x=\"45\" y=\"48\" width=\"120\" height=\"90\" rx=\"10\" fill=\"#FBF0EE\" stroke=\"#B43123\"/>\n<rect x=\"195\" y=\"48\" width=\"120\" height=\"90\" rx=\"10\" fill=\"#EAF0F8\" stroke=\"#2A5D9E\"/>\n<text x=\"105\" y=\"75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">A</text>\n<text x=\"105\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">99 kr +</text>\n<text x=\"105\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1,50 kr/min</text>\n<text x=\"255\" y=\"75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">B</text>\n<text x=\"255\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">159 kr +</text>\n<text x=\"255\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,50 kr/min</text>\n\n</svg></span>",
     "s": "<p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>\\(99+1,50x=159+0,50x\\).</p><p><strong>Svar:</strong> <strong>\\(x=60\\) minuter.</strong></p>",
-    "familj": "Ekvationer med bråk",
+    "familj": "Ställa upp och lösa linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -16672,6 +18999,261 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "resonemang"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.268",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(\\frac{x}{4}=7\\).</p>",
+    "s": "<p>Multiplicera båda leden med 4: \\(x=28\\).</p><p><strong>Svar:</strong> \\(x=28\\).</p>",
+    "familj": "Ekvationer med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.269",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(\\frac{x}{3}+5=11\\).</p>",
+    "s": "<p>Subtrahera 5: \\(x/3=6\\). Multiplicera sedan med 3: \\(x=18\\).</p><p><strong>Svar:</strong> \\(x=18\\).</p>",
+    "familj": "Ekvationer med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.270",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(\\frac{2x-3}{5}=3\\).</p>",
+    "s": "<p>Multiplicera med 5: \\(2x-3=15\\). Addera 3 och dividera med 2: \\(x=9\\).</p><p><strong>Svar:</strong> \\(x=9\\).</p>",
+    "familj": "Ekvationer med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.271",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös ekvationen \\(\\frac{x}{2}-\\frac{x}{5}=9\\).</p>",
+    "s": "<p>Multiplicera hela ekvationen med 10: \\(5x-2x=90\\). Då \\(3x=90\\) och \\(x=30\\).</p><p><strong>Svar:</strong> \\(x=30\\).</p>",
+    "familj": "Ekvationer med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.272",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös ekvationen \\(\\frac{x-2}{3}+\\frac{x+1}{2}=7\\).</p>",
+    "s": "<p>Multiplicera med 6: \\(2(x-2)+3(x+1)=42\\). Då \\(2x-4+3x+3=42\\), alltså \\(5x=43\\) och \\(x=8,6\\).</p><p><strong>Svar:</strong> \\(x=8,6\\).</p>",
+    "familj": "Ekvationer med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.273",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tre likadana anteckningsböcker och en penna för 18 kr kostar tillsammans 93 kr. Vad kostar en anteckningsbok?</p>",
+    "s": "<p>Låt \\(x\\) vara priset på en bok. Då \\(3x+18=93\\). Subtrahera 18: \\(3x=75\\), alltså \\(x=25\\).</p><p><strong>Svar:</strong> <strong>25 kr</strong>.</p>",
+    "familj": "Ställa upp och lösa linjära ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.274",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En rektangels omkrets är 50 cm. Längden är 5 cm längre än bredden. Bestäm bredden.</p>",
+    "s": "<p>Låt bredden vara \\(x\\). Längden är \\(x+5\\). Omkretsen ger \\(2x+2(x+5)=50\\), alltså \\(4x+10=50\\) och \\(x=10\\).</p><p><strong>Svar:</strong> <strong>10 cm</strong>.</p>",
+    "familj": "Ställa upp och lösa linjära ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.275",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Efter att 15 kr i rabatt dragits av kostar fyra likadana varor tillsammans 145 kr. Vad kostade en vara före rabatten om rabatten gällde hela köpet?</p>",
+    "s": "<p>Låt priset per vara vara \\(x\\). Då \\(4x-15=145\\). Alltså \\(4x=160\\) och \\(x=40\\).</p><p><strong>Svar:</strong> <strong>40 kr</strong>.</p>",
+    "familj": "Ställa upp och lösa linjära ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.276",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tank innehåller 120 liter. Den töms med 8 liter per minut. Efter hur många minuter finns 48 liter kvar?</p>",
+    "s": "<p>Efter \\(x\\) minuter finns \\(120-8x\\) liter. Sätt \\(120-8x=48\\). Då \\(8x=72\\) och \\(x=9\\).</p><p><strong>Svar:</strong> <strong>9 minuter</strong>.</p>",
+    "familj": "Ställa upp och lösa linjära ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.277",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två abonnemang kostar A: 79 kr + 2,50 kr per använd enhet och B: 139 kr + 1,00 kr per enhet. Vid hur många enheter kostar de lika mycket?</p>",
+    "s": "<p>Sätt kostnaderna lika: \\(79+2,5x=139+x\\). Då \\(1,5x=60\\), alltså \\(x=40\\).</p><p><strong>Svar:</strong> <strong>40 enheter</strong>.</p>",
+    "familj": "Ställa upp och lösa linjära ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
     ],
     "svarFormat": "numeriskt"
   },
@@ -16720,6 +19302,257 @@ window.BANKMA1 = [
         "t": "<p>Förenkla så långt som möjligt.</p><p><div class=\"spel-en-del\">\\(3a-5b+2-a+5b-9\\)</div></p>",
         "s": "<p><strong>Svar:</strong> 2*a-7</p>"
       }
+    ]
+  },
+  {
+    "id": "1.248",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(2x+3y\\) när \\(x=4\\) och \\(y=-2\\).</p>",
+    "s": "<p>Sätt in värdena: \\(2\\cdot4+3\\cdot(-2)=8-6=2\\).</p><p><strong>Svar:</strong> <strong>2</strong>.</p>",
+    "familj": "Beräkna uttryck med flera variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.249",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(a^2-2b\\) när \\(a=-3\\) och \\(b=5\\).</p>",
+    "s": "<p>\\((-3)^2-2\\cdot5=9-10=-1\\).</p><p><strong>Svar:</strong> <strong>−1</strong>.</p>",
+    "familj": "Beräkna uttryck med flera variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.250",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\frac{x-y}{z}\\) när \\(x=7\\), \\(y=-5\\) och \\(z=4\\).</p>",
+    "s": "<p>Täljaren är \\(7-(-5)=12\\). Sedan \\(12/4=3\\).</p><p><strong>Svar:</strong> <strong>3</strong>.</p>",
+    "familj": "Beräkna uttryck med flera variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.251",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(3ab-2a^2\\) när \\(a=-2\\) och \\(b=5\\).</p>",
+    "s": "<p>\\(3(-2)(5)-2(-2)^2=-30-8=-38\\).</p><p><strong>Svar:</strong> <strong>−38</strong>.</p>",
+    "familj": "Beräkna uttryck med flera variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -38,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.252",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>För \\(x=2\\) och \\(y=3\\), bestäm värdet av \\(x^2y-xy^2\\).</p>",
+    "s": "<p>\\(x^2y=4\\cdot3=12\\) och \\(xy^2=2\\cdot9=18\\). Skillnaden är \\(12-18=-6\\).</p><p><strong>Svar:</strong> <strong>−6</strong>.</p>",
+    "familj": "Beräkna uttryck med flera variabler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.253",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En taxi tar 55 kr i startavgift och 14 kr per kilometer. Vilket uttryck beskriver priset för \\(x\\) kilometer?</p><p>A: \\(55x+14\\)<br>B: \\(55+14x\\)<br>C: \\(14+55/x\\)</p>",
+    "s": "<p>Startavgiften betalas en gång och kilometerkostnaden är 14 gånger antalet kilometer.</p><p><strong>Svar:</strong> <strong>B</strong>, \\(55+14x\\).</p>",
+    "familj": "Översätta en situation till ett algebraiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "1.254",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rektangel har längden \\(x+3\\) cm och bredden \\(x\\) cm. Vilket uttryck beskriver omkretsen?</p><p>A: \\(2x+3\\)<br>B: \\(4x+6\\)<br>C: \\(x(x+3)\\)</p>",
+    "s": "<p>Omkretsen är två längder och två bredder: \\(2(x+3)+2x=4x+6\\).</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Översätta en situation till ett algebraiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "1.255",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En biobiljett kostar \\(p\\) kr. En grupp köper 6 biljetter och använder en rabattkupong på 80 kr för hela köpet. Skriv ett uttryck för priset efter rabatten.</p>",
+    "s": "<p>Sex biljetter kostar \\(6p\\) kr. Rabatten dras av en gång.</p><p><strong>Svar:</strong> \\(6p-80\\).</p>",
+    "familj": "Översätta en situation till ett algebraiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "6p-80",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.256",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett mobilabonnemang innehåller 8 GB. Därefter kostar varje extra GB \\(k\\) kr. En person använder \\(x\\) GB där \\(x>8\\). Vilket uttryck beskriver kostnaden för den extra datan?</p><p>A: \\(kx\\)<br>B: \\(k(x-8)\\)<br>C: \\(8(x-k)\\)</p>",
+    "s": "<p>Det är bara mängden över 8 GB som kostar extra, alltså \\(x-8\\) GB. Kostnaden blir \\(k(x-8)\\).</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Översätta en situation till ett algebraiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "1.257",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En mängd minskas först med 12 och därefter multipliceras resultatet med 5. Om ursprungsvärdet är \\(x\\), vilket uttryck beskriver slutvärdet?</p><p>A: \\(5x-12\\)<br>B: \\(5(x-12)\\)<br>C: \\(x-60\\)</p>",
+    "s": "<p>Orden ”därefter multipliceras resultatet” innebär att hela skillnaden \\(x-12\\) ska multipliceras med 5.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Översätta en situation till ett algebraiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
     ]
   },
   {
@@ -17259,6 +20092,256 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "intervall_tal"
+  },
+  {
+    "id": "1.278",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös den dubbla olikheten \\(-2&lt; x+3 \\le 7\\). Svara som intervall.</p>",
+    "s": "<p>Subtrahera 3 i alla tre led: \\(-5&lt;x\\le4\\).</p><p><strong>Svar:</strong> \\(x\\in(-5,4]\\).</p>",
+    "familj": "Dubbla olikheter och intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in (-5,4]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.279",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös \\(1\\le 2x-3&lt;9\\). Svara som intervall.</p>",
+    "s": "<p>Addera 3: \\(4\\le2x&lt;12\\). Dividera med 2: \\(2\\le x&lt;6\\).</p><p><strong>Svar:</strong> \\(x\\in[2,6)\\).</p>",
+    "familj": "Dubbla olikheter och intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in [2,6)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.280",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös \\(-7&lt;3x+2\\le11\\). Svara som intervall.</p>",
+    "s": "<p>Subtrahera 2: \\(-9&lt;3x\\le9\\). Dividera med 3: \\(-3&lt;x\\le3\\).</p><p><strong>Svar:</strong> \\(x\\in(-3,3]\\).</p>",
+    "familj": "Dubbla olikheter och intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in (-3,3]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.281",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös \\(-4\\le 5-3x&lt;11\\). Svara som intervall.</p>",
+    "s": "<p>Subtrahera 5: \\(-9\\le-3x&lt;6\\). Dividera med −3 och vänd båda olikhetstecknen: \\(3\\ge x>-2\\), alltså \\(-2&lt;x\\le3\\).</p><p><strong>Svar:</strong> \\(x\\in(-2,3]\\).</p>",
+    "familj": "Dubbla olikheter och intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in (-2,3]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.282",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett tal \\(x\\) ska ligga högst 4 enheter från 3. Vilket intervall beskriver alla möjliga värden?</p>",
+    "s": "<p>Fyra enheter åt vänster från 3 är −1 och fyra enheter åt höger är 7. Gränserna får ingå.</p><p><strong>Svar:</strong> \\(x\\in[-1,7]\\).</p>",
+    "familj": "Dubbla olikheter och intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "intervall",
+    "rättSvar": "x in [-1,7]",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "intervall"
+  },
+  {
+    "id": "1.283",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du har 350 kr. En aktivitet kostar 80 kr i fast avgift och 45 kr per timme. Hur många hela timmar kan du som mest delta?</p>",
+    "s": "<p>Låt \\(x\\) vara antalet timmar. Villkoret är \\(80+45x\\le350\\). Då \\(45x\\le270\\), alltså \\(x\\le6\\).</p><p><strong>Svar:</strong> <strong>6 timmar</strong>.</p>",
+    "familj": "Ställa upp linjära olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.284",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En buss rymmer 52 personer. Redan 19 platser är upptagna. Hur många grupper om 4 personer kan som mest stiga på?</p>",
+    "s": "<p>Låt \\(x\\) vara antalet grupper. \\(19+4x\\le52\\) ger \\(4x\\le33\\), alltså \\(x\\le8,25\\). Hela grupper ger högst 8.</p><p><strong>Svar:</strong> <strong>8 grupper</strong>.</p>",
+    "familj": "Ställa upp linjära olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.285",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För att få fri frakt måste ett köp vara minst 500 kr. Du har redan varor för 275 kr och lägger till varor som kostar 45 kr styck. Hur många behöver du minst lägga till?</p>",
+    "s": "<p>Villkoret är \\(275+45x\\ge500\\). Då \\(45x\\ge225\\) och \\(x\\ge5\\).</p><p><strong>Svar:</strong> <strong>5 varor</strong>.</p>",
+    "familj": "Ställa upp linjära olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.286",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett batteri har 92 % laddning och minskar med 7 procentenheter per timme. Det ska finnas minst 50 % kvar. Hur många hela timmar kan det användas?</p>",
+    "s": "<p>Modellen är \\(92-7x\\ge50\\). Då \\(-7x\\ge-42\\), vilket ger \\(x\\le6\\).</p><p><strong>Svar:</strong> <strong>6 timmar</strong>.</p>",
+    "familj": "Ställa upp linjära olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.287",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En förening har 1 500 kr i kassan och tjänar 120 kr per såld biljett. För ett inköp behövs minst 4 500 kr. Hur många biljetter måste säljas minst?</p>",
+    "s": "<p>\\(1500+120x\\ge4500\\). Subtrahera 1500: \\(120x\\ge3000\\), alltså \\(x\\ge25\\).</p><p><strong>Svar:</strong> <strong>25 biljetter</strong>.</p>",
+    "familj": "Ställa upp linjära olikheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.01",
@@ -25691,6 +28774,131 @@ window.BANKMA1 = [
     "svarFormat": "numeriskt"
   },
   {
+    "id": "2.376",
+    "kap": 2,
+    "omr": "funktionsvarden",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen visar en funktion.</p><table class=\"data\"><tr><th>x</th><th>−2</th><th>0</th><th>3</th><th>5</th></tr><tr><th>f(x)</th><td>7</td><td>3</td><td>−3</td><td>−7</td></tr></table><p>Bestäm \\(f(3)\\).</p>",
+    "s": "<p>Leta upp kolumnen där \\(x=3\\). Där står funktionsvärdet −3.</p><p><strong>Svar:</strong> <strong>−3</strong>.</p>",
+    "familj": "Bestämma funktionsvärden från tabell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.377",
+    "kap": 2,
+    "omr": "funktionsvarden",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen visar \\(g\\).</p><table class=\"data\"><tr><th>x</th><th>1</th><th>2</th><th>4</th><th>7</th></tr><tr><th>g(x)</th><td>5</td><td>8</td><td>14</td><td>23</td></tr></table><p>För vilket \\(x\\)-värde är \\(g(x)=14\\)?</p>",
+    "s": "<p>I raden för \\(g(x)\\) finns värdet 14 under kolumnen \\(x=4\\).</p><p><strong>Svar:</strong> <strong>4</strong>.</p>",
+    "familj": "Bestämma funktionsvärden från tabell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.378",
+    "kap": 2,
+    "omr": "funktionsvarden",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen visar \\(h\\).</p><table class=\"data\"><tr><th>x</th><th>−1</th><th>0</th><th>2</th><th>6</th></tr><tr><th>h(x)</th><td>4</td><td>1</td><td>−5</td><td>−17</td></tr></table><p>Beräkna \\(h(-1)+h(2)\\).</p>",
+    "s": "<p>Ur tabellen: \\(h(-1)=4\\) och \\(h(2)=-5\\). Summan är \\(4-5=-1\\).</p><p><strong>Svar:</strong> <strong>−1</strong>.</p>",
+    "familj": "Bestämma funktionsvärden från tabell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.379",
+    "kap": 2,
+    "omr": "funktionsvarden",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En funktion ges av tabellen.</p><table class=\"data\"><tr><th>x</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><th>f(x)</th><td>2</td><td>6</td><td>18</td><td>54</td></tr></table><p>Bestäm kvoten \\(f(3)/f(1)\\).</p>",
+    "s": "<p>\\(f(3)=54\\) och \\(f(1)=6\\). Kvoten är \\(54/6=9\\).</p><p><strong>Svar:</strong> <strong>9</strong>.</p>",
+    "familj": "Bestämma funktionsvärden från tabell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.380",
+    "kap": 2,
+    "omr": "funktionsvarden",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Tabellen visar en funktion \\(p\\).</p><table class=\"data\"><tr><th>x</th><th>−3</th><th>−1</th><th>2</th><th>4</th></tr><tr><th>p(x)</th><td>10</td><td>6</td><td>0</td><td>−4</td></tr></table><p>Bestäm \\(p(-3)-p(4)\\).</p>",
+    "s": "<p>\\(p(-3)=10\\) och \\(p(4)=-4\\). Då \\(10-(-4)=14\\).</p><p><strong>Svar:</strong> <strong>14</strong>.</p>",
+    "familj": "Bestämma funktionsvärden från tabell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "2.259",
     "kap": 2,
     "omr": "linjara_funktioner",
@@ -25855,6 +29063,257 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "2.366",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En storhet beskrivs av \\(f(x)=850\\cdot1,04^x\\). Hur stor är den procentuella ökningen per steg?</p>",
+    "s": "<p>Förändringsfaktorn är 1,04. Ökningen är \\(1,04-1=0,04=4\\%\\).</p><p><strong>Svar:</strong> <strong>4 %</strong>.</p>",
+    "familj": "Tolka exponentialfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.367",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En storhet beskrivs av \\(g(t)=1200\\cdot0,92^t\\). Hur stor är den procentuella minskningen per tidsenhet?</p>",
+    "s": "<p>Förändringsfaktorn 0,92 betyder att 92 % återstår. Minskningen är därför 8 %.</p><p><strong>Svar:</strong> <strong>8 %</strong>.</p>",
+    "familj": "Tolka exponentialfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.368",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I modellen \\(N(t)=35\\cdot1,18^t\\), vad betyder talet 35?</p><p>A: Startvärdet<br>B: Ökningen i procent<br>C: Värdet efter 35 tidsenheter</p>",
+    "s": "<p>När \\(t=0\\) är \\(1,18^0=1\\), så \\(N(0)=35\\). Alltså är 35 startvärdet.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Tolka exponentialfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "2.369",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två modeller är \\(A(t)=500\\cdot1,03^t\\) och \\(B(t)=500\\cdot1,07^t\\). Vilken växer snabbast?</p><p>A: A<br>B: B<br>C: De växer lika snabbt</p>",
+    "s": "<p>Modellerna har samma startvärde. Den större förändringsfaktorn, 1,07, ger snabbare exponentiell tillväxt.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Tolka exponentialfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "2.370",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En modell \\(M(t)=2400\\cdot0,85^t\\) används för en mängd som minskar. Hur stor andel av föregående års mängd återstår varje år?</p>",
+    "s": "<p>Förändringsfaktorn 0,85 betyder att 85 % av föregående värde återstår.</p><p><strong>Svar:</strong> <strong>85 %</strong>.</p>",
+    "familj": "Tolka exponentialfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 85,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.371",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En mängd är 300 från början och ökar med 5 % per år. Vilken funktion beskriver mängden efter \\(t\\) år?</p><p>A: \\(300+0,05t\\)<br>B: \\(300\\cdot1,05^t\\)<br>C: \\(1,05\\cdot300^t\\)</p>",
+    "s": "<p>Exponentiell förändring skrivs startvärde gånger förändringsfaktor upphöjd till tiden. Här är startvärdet 300 och förändringsfaktorn 1,05.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Bestämma och använda exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "2.372",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En maskin är värd 80 000 kr och värdet minskar med 12 % per år. Vilken funktion beskriver värdet \\(V(t)\\)?</p><p>A: \\(80000\\cdot0,88^t\\)<br>B: \\(80000\\cdot1,12^t\\)<br>C: \\(80000-0,12t\\)</p>",
+    "s": "<p>Efter en minskning med 12 % återstår 88 %, alltså förändringsfaktorn 0,88.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Bestämma och använda exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "2.373",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En population är 500 när \\(t=0\\) och 550 när \\(t=1\\). Anta exponentiell utveckling. Bestäm förändringsfaktorn.</p>",
+    "s": "<p>Från 500 till 550 är faktorn \\(550/500=1,10\\).</p><p><strong>Svar:</strong> <strong>1,10</strong>.</p>",
+    "familj": "Bestämma och använda exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.1,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.374",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En mängd följer en exponentialfunktion. Den är 200 vid \\(t=0\\) och 288 vid \\(t=2\\). Bestäm förändringsfaktorn per steg.</p>",
+    "s": "<p>Skriv \\(200\\cdot a^2=288\\). Då \\(a^2=1,44\\), så den positiva förändringsfaktorn är \\(a=1,2\\).</p><p><strong>Svar:</strong> <strong>1,2</strong>.</p>",
+    "familj": "Bestämma och använda exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.375",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En kultur har 640 bakterier och ökar med 25 % per timme. Hur många bakterier ger modellen efter 3 timmar?</p>",
+    "s": "<p>Modellen är \\(640\\cdot1,25^t\\). Efter 3 timmar: \\(640\\cdot1,25^3=1250\\).</p><p><strong>Svar:</strong> <strong>1 250</strong>.</p>",
+    "familj": "Bestämma och använda exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1250,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "2.265",
     "kap": 2,
     "omr": "bestamma_linjar_funktion",
@@ -25876,6 +29335,259 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ]
+  },
+  {
+    "id": "2.381",
+    "kap": 2,
+    "omr": "bestamma_linjar_funktion",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen beskriver en linjär funktion.</p><table class=\"data\"><tr><th>x</th><th>0</th><th>1</th><th>2</th></tr><tr><th>y</th><td>5</td><td>8</td><td>11</td></tr></table><p>Vilken funktion passar?</p><p>A: \\(y=3x+5\\)<br>B: \\(y=5x+3\\)<br>C: \\(y=3x-5\\)</p>",
+    "s": "<p>Värdet ökar med 3 när \\(x\\) ökar med 1, så \\(k=3\\). När \\(x=0\\) är \\(y=5\\), alltså \\(m=5\\).</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Bestämma linjär funktion från tabell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "2.382",
+    "kap": 2,
+    "omr": "bestamma_linjar_funktion",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen beskriver en linjär funktion.</p><table class=\"data\"><tr><th>x</th><th>−1</th><th>1</th><th>3</th></tr><tr><th>y</th><td>7</td><td>3</td><td>−1</td></tr></table><p>Bestäm \\(k\\)-värdet.</p>",
+    "s": "<p>När \\(x\\) ökar med 2 minskar \\(y\\) med 4. Därför \\(k=\\Delta y/\\Delta x=-4/2=-2\\).</p><p><strong>Svar:</strong> <strong>−2</strong>.</p>",
+    "familj": "Bestämma linjär funktion från tabell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.383",
+    "kap": 2,
+    "omr": "bestamma_linjar_funktion",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En linjär funktion har tabellen:</p><table class=\"data\"><tr><th>x</th><th>2</th><th>5</th><th>8</th></tr><tr><th>y</th><td>1</td><td>10</td><td>19</td></tr></table><p>Bestäm \\(m\\)-värdet i \\(y=kx+m\\).</p>",
+    "s": "<p>Först \\(k=(10-1)/(5-2)=9/3=3\\). Sätt in punkten \\((2,1)\\): \\(1=3\\cdot2+m\\), så \\(m=-5\\).</p><p><strong>Svar:</strong> <strong>−5</strong>.</p>",
+    "familj": "Bestämma linjär funktion från tabell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.384",
+    "kap": 2,
+    "omr": "bestamma_linjar_funktion",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Tabellen beskriver en linjär funktion.</p><table class=\"data\"><tr><th>x</th><th>0</th><th>4</th><th>10</th></tr><tr><th>f(x)</th><td>−3</td><td>5</td><td>17</td></tr></table><p>Bestäm \\(f(7)\\).</p>",
+    "s": "<p>Ökningen från \\(x=0\\) till 4 är 8, alltså \\(k=2\\). Funktionen är \\(f(x)=2x-3\\). Då \\(f(7)=14-3=11\\).</p><p><strong>Svar:</strong> <strong>11</strong>.</p>",
+    "familj": "Bestämma linjär funktion från tabell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.385",
+    "kap": 2,
+    "omr": "bestamma_linjar_funktion",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En linjär funktion har värdena nedan.</p><table class=\"data\"><tr><th>x</th><th>−2</th><th>2</th><th>6</th></tr><tr><th>y</th><td>9</td><td>1</td><td>−7</td></tr></table><p>Vilken funktion beskriver tabellen?</p><p>A: \\(y=-2x+5\\)<br>B: \\(y=2x+5\\)<br>C: \\(y=-2x-5\\)</p>",
+    "s": "<p>När \\(x\\) ökar med 4 minskar \\(y\\) med 8, alltså \\(k=-2\\). Med punkten \\((2,1)\\) fås \\(1=-4+m\\), så \\(m=5\\).</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Bestämma linjär funktion från tabell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ]
+  },
+  {
+    "id": "2.386",
+    "kap": 2,
+    "omr": "bestamma_linjar_funktion",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(f(x)=kx+4\\) går genom punkten \\((3,10)\\). Bestäm \\(k\\).</p>",
+    "s": "<p>Sätt in \\(x=3\\) och \\(f(x)=10\\): \\(10=3k+4\\). Då \\(3k=6\\), så \\(k=2\\).</p><p><strong>Svar:</strong> <strong>2</strong>.</p>",
+    "familj": "Bestämma parameter i linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.387",
+    "kap": 2,
+    "omr": "bestamma_linjar_funktion",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(g(x)=-3x+m\\) går genom punkten \\((2,1)\\). Bestäm \\(m\\).</p>",
+    "s": "<p>\\(1=-3\\cdot2+m=-6+m\\). Därför \\(m=7\\).</p><p><strong>Svar:</strong> <strong>7</strong>.</p>",
+    "familj": "Bestämma parameter i linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.388",
+    "kap": 2,
+    "omr": "bestamma_linjar_funktion",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För vilken konstant \\(a\\) gäller \\(f(5)=18\\) om \\(f(x)=ax-2\\)?</p>",
+    "s": "<p>\\(18=5a-2\\). Addera 2: \\(20=5a\\), alltså \\(a=4\\).</p><p><strong>Svar:</strong> <strong>4</strong>.</p>",
+    "familj": "Bestämma parameter i linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.389",
+    "kap": 2,
+    "omr": "bestamma_linjar_funktion",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Linjen \\(y=kx+m\\) går genom \\((0,-4)\\) och \\((6,8)\\). Bestäm \\(k\\).</p>",
+    "s": "<p>\\(k=(8-(-4))/(6-0)=12/6=2\\).</p><p><strong>Svar:</strong> <strong>2</strong>.</p>",
+    "familj": "Bestämma parameter i linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.390",
+    "kap": 2,
+    "omr": "bestamma_linjar_funktion",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Funktionen \\(h(x)=2x+b\\) har samma värde vid \\(x=4\\) som funktionen \\(p(x)=-x+17\\). Bestäm \\(b\\).</p>",
+    "s": "<p>\\(p(4)=-4+17=13\\). Därför ska \\(h(4)=8+b=13\\), vilket ger \\(b=5\\).</p><p><strong>Svar:</strong> <strong>5</strong>.</p>",
+    "familj": "Bestämma parameter i linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.266",
@@ -34109,6 +37821,136 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "3.240",
+    "kap": 3,
+    "omr": "forandringsfaktor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En förändringsfaktor är 1,12. Vilken procentuell förändring motsvarar den?</p>",
+    "s": "<p>\\(1,12-1=0,12\\), alltså en ökning med 12 %.</p><p><strong>Svar:</strong> <strong>12 % ökning</strong>.</p>",
+    "familj": "Bestämma procent från förändringsfaktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.241",
+    "kap": 3,
+    "omr": "forandringsfaktor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En förändringsfaktor är 0,93. Hur stor procentuell minskning motsvarar den?</p>",
+    "s": "<p>\\(1-0,93=0,07\\), alltså 7 % minskning.</p><p><strong>Svar:</strong> <strong>7 %</strong>.</p>",
+    "familj": "Bestämma procent från förändringsfaktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.242",
+    "kap": 3,
+    "omr": "forandringsfaktor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Efter en förändring multipliceras värdet med 1,006. Hur stor är förändringen i procent?</p>",
+    "s": "<p>Överskottet över 1 är \\(0,006=0,6\\%\\).</p><p><strong>Svar:</strong> <strong>0,6 % ökning</strong>.</p>",
+    "familj": "Bestämma och använda förändringsfaktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.243",
+    "kap": 3,
+    "omr": "forandringsfaktor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett värde multipliceras med 0,845. Hur stor är den procentuella minskningen?</p>",
+    "s": "<p>Den borttagna andelen är \\(1-0,845=0,155=15,5\\%\\).</p><p><strong>Svar:</strong> <strong>15,5 %</strong>.</p>",
+    "familj": "Bestämma och använda förändringsfaktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.244",
+    "kap": 3,
+    "omr": "forandringsfaktor",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken förändringsfaktor motsvarar en minskning med 2,5 %?</p>",
+    "s": "<p>Efter minskningen återstår \\(100-2,5=97,5\\%\\), alltså faktorn 0,975.</p><p><strong>Svar:</strong> <strong>0,975</strong>.</p>",
+    "familj": "Bestämma och använda förändringsfaktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.975,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "3.185",
     "kap": 3,
     "omr": "amortering",
@@ -35026,6 +38868,136 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "3.235",
+    "kap": 3,
+    "omr": "procent",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Andelen ökar från 30 % till 38 %. Hur många <strong>procentenheter</strong> är ökningen?</p>",
+    "s": "<p>Procentenheter är skillnaden mellan procentsatserna: \\(38-30=8\\).</p><p><strong>Svar:</strong> <strong>8 procentenheter</strong>.</p>",
+    "familj": "Skillnad mellan procent och procentenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.236",
+    "kap": 3,
+    "omr": "procent",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Andelen minskar från 52 % till 39 %. Hur många procentenheter är minskningen?</p>",
+    "s": "<p>\\(52-39=13\\).</p><p><strong>Svar:</strong> <strong>13 procentenheter</strong>.</p>",
+    "familj": "Skillnad mellan procent och procentenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.237",
+    "kap": 3,
+    "omr": "procent",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En andel ökar från 40 % till 50 %. Hur stor är ökningen i <strong>procent</strong> räknat från det ursprungliga värdet?</p>",
+    "s": "<p>Ökningen är 10 procentenheter. Relativt 40 % blir \\(10/40=0,25=25\\%\\).</p><p><strong>Svar:</strong> <strong>25 %</strong>.</p>",
+    "familj": "Skillnad mellan procent och procentenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.238",
+    "kap": 3,
+    "omr": "procent",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En ränta höjs från 2,0 % till 2,6 %. Hur stor är höjningen i procentenheter?</p>",
+    "s": "<p>Skillnaden är \\(2,6-2,0=0,6\\).</p><p><strong>Svar:</strong> <strong>0,6 procentenheter</strong>.</p>",
+    "familj": "Skillnad mellan procent och procentenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.239",
+    "kap": 3,
+    "omr": "procent",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En andel sjunker från 25 % till 20 %. Hur stor är minskningen i procent räknat från den ursprungliga andelen?</p>",
+    "s": "<p>Minskningen är 5 procentenheter. Relativt 25 % är \\(5/25=0,20=20\\%\\).</p><p><strong>Svar:</strong> <strong>20 %</strong>.</p>",
+    "familj": "Skillnad mellan procent och procentenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "3.219",
     "kap": 3,
     "omr": "upprepade_forandringar",
@@ -35167,6 +39139,124 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "3.255",
+    "kap": 3,
+    "omr": "ranta",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Konto A ger 2,0 % ränta och konto B 2,4 %. Samma belopp sätts in på båda och inga avgifter finns. Vilket ger störst saldo efter ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
+    "s": "<p>Med samma startbelopp och inga andra skillnader ger den högre räntan större saldo.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Jämföra sparande och ränta",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "3.256",
+    "kap": 3,
+    "omr": "ranta",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Du sparar 10 000 kr i ett år. Konto A ger 3 % ränta utan avgift. Konto B ger 3,5 % ränta men har en årsavgift på 100 kr. Vilket ger högst saldo efter ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
+    "s": "<p>Konto A ger \\(10000\\cdot1,03=10300\\) kr. Konto B ger \\(10000\\cdot1,035-100=10250\\) kr.</p><p><strong>Svar:</strong> <strong>A</strong> ger högst saldo.</p>",
+    "familj": "Jämföra sparande och ränta",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "3.257",
+    "kap": 3,
+    "omr": "ranta",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett sparkonto ger 4 % årlig ränta. Ett annat ger 2 % per halvår, med ränta även på den första halvårsräntan. Vilket ger högst förändringsfaktor efter ett år?</p><p>A: 4 % per år<br>B: 2 % per halvår<br>C: Exakt samma</p>",
+    "s": "<p>Årsräntan 4 % ger faktorn 1,04. Två halvår ger \\(1,02^2=1,0404\\), som är något större.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Jämföra sparande och ränta",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "3.258",
+    "kap": 3,
+    "omr": "ranta",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Konto A har 1,8 % ränta och konto B har 1,6 % ränta. Konto A tar dessutom 50 kr i årsavgift. Vilket konto är bäst för 2 000 kr under ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
+    "s": "<p>A ger \\(2000\\cdot1,018-50=1986\\) kr. B ger \\(2000\\cdot1,016=2032\\) kr. B ger högre saldo.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Jämföra sparande och ränta",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "3.259",
+    "kap": 3,
+    "omr": "ranta",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två konton har samma ränta. På konto A sätts 5 000 kr in idag. På konto B sätts samma belopp in ett år senare. Vilket konto har störst saldo två år från idag?</p><p>A: A<br>B: B<br>C: Samma</p>",
+    "s": "<p>Pengarna på konto A hinner få ränta under två år, medan pengarna på B bara får ränta under ett år.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Jämföra sparande och ränta",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
     "id": "3.224",
     "kap": 3,
     "omr": "amortering",
@@ -35187,6 +39277,249 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
+    ]
+  },
+  {
+    "id": "3.245",
+    "kap": 3,
+    "omr": "amortering",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett lån är 120 000 kr. Rak amortering är 2 000 kr per månad och månadsräntan är 0,5 %. Hur stor är den första betalningen?</p>",
+    "s": "<p>Första månadens ränta är \\(120000\\cdot0,005=600\\) kr. Betalningen är amortering + ränta: \\(2000+600=2600\\) kr.</p><p><strong>Svar:</strong> <strong>2 600 kr</strong>.</p>",
+    "familj": "Beräkna betalning med amortering och ränta",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2600,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.246",
+    "kap": 3,
+    "omr": "amortering",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett lån har kvarvarande skuld 80 000 kr. Den månatliga amorteringen är 2 500 kr och månadsräntan 0,4 %. Hur stor blir månadens betalning?</p>",
+    "s": "<p>Räntan är \\(80000\\cdot0,004=320\\) kr. Betalningen blir \\(2500+320=2820\\) kr.</p><p><strong>Svar:</strong> <strong>2 820 kr</strong>.</p>",
+    "familj": "Beräkna betalning med amortering och ränta",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2820,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.247",
+    "kap": 3,
+    "omr": "amortering",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vid rak amortering är amorteringen 3 000 kr per månad. Före månadens betalning är skulden 150 000 kr och månadsräntan 0,6 %. Bestäm betalningen.</p>",
+    "s": "<p>Räntan är \\(150000\\cdot0,006=900\\) kr. Tillsammans med amorteringen blir det \\(3000+900=3900\\) kr.</p><p><strong>Svar:</strong> <strong>3 900 kr</strong>.</p>",
+    "familj": "Beräkna betalning med amortering och ränta",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3900,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.248",
+    "kap": 3,
+    "omr": "amortering",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Första betalningen på ett lån med rak amortering är 4 250 kr. Amorteringen är 3 500 kr. Hur stor är första månadens ränta i kronor?</p>",
+    "s": "<p>Betalning = amortering + ränta. Därför är räntan \\(4250-3500=750\\) kr.</p><p><strong>Svar:</strong> <strong>750 kr</strong>.</p>",
+    "familj": "Beräkna betalning med amortering och ränta",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 750,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.249",
+    "kap": 3,
+    "omr": "amortering",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett lån på 96 000 kr amorteras med 2 000 kr per månad. Månadsräntan är 0,5 %. Hur stor blir den <strong>andra</strong> betalningen?</p>",
+    "s": "<p>Efter första amorteringen återstår \\(96000-2000=94000\\) kr. Andra månadens ränta är \\(94000\\cdot0,005=470\\) kr. Betalningen blir \\(2000+470=2470\\) kr.</p><p><strong>Svar:</strong> <strong>2 470 kr</strong>.</p>",
+    "familj": "Beräkna betalning med amortering och ränta",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2470,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.250",
+    "kap": 3,
+    "omr": "amortering",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lån A har 4 % årsränta och ingen avgift. Lån B har 3,6 % årsränta men en årsavgift på 600 kr. För ett lån på 20 000 kr under ett år, vilket alternativ ger lägst kostnad om vi bortser från amortering under året?</p><p>A: Lån A<br>B: Lån B<br>C: Samma kostnad</p>",
+    "s": "<p>Lån A kostar \\(20000\\cdot0,04=800\\) kr. Lån B kostar \\(20000\\cdot0,036+600=1320\\) kr. A är billigare.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Jämföra lån och amorteringsplaner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "3.251",
+    "kap": 3,
+    "omr": "amortering",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två lån på samma belopp har rak amortering. Lån A amorteras på 24 månader och lån B på 48 månader. Vilket får störst amortering per månad?</p><p>A: Lån A<br>B: Lån B<br>C: Samma</p>",
+    "s": "<p>Samma skuld fördelad på färre månader ger större amortering per månad.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Jämföra lån och amorteringsplaner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "3.252",
+    "kap": 3,
+    "omr": "amortering",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett lån kan amorteras med 2 000 kr/mån eller 3 000 kr/mån. Vilket alternativ gör att skulden efter 10 månader är lägst?</p><p>A: 2 000 kr/mån<br>B: 3 000 kr/mån<br>C: Samma skuld</p>",
+    "s": "<p>Med 3 000 kr per månad har 30 000 kr amorterats efter 10 månader, jämfört med 20 000 kr. Därför är skulden lägre i B.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Jämföra lån och amorteringsplaner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "3.253",
+    "kap": 3,
+    "omr": "amortering",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lån A: 100 000 kr med 5 % årsränta. Lån B: 100 000 kr med 4,5 % årsränta och 700 kr årsavgift. Jämför första årets ränte- och avgiftskostnad, utan hänsyn till amortering. Vilket är billigast?</p><p>A: A<br>B: B<br>C: Lika</p>",
+    "s": "<p>A kostar \\(5000\\) kr. B kostar \\(4500+700=5200\\) kr. A är därför 200 kr billigare.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Jämföra lån och amorteringsplaner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "3.254",
+    "kap": 3,
+    "omr": "amortering",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två lån har samma ränta och samma startskuld. Det ena har större rak amortering per månad. Vilket lån ger normalt lägre total räntekostnad om övriga villkor är lika?</p><p>A: Lånet med större amortering<br>B: Lånet med mindre amortering<br>C: De ger alltid samma ränta totalt</p>",
+    "s": "<p>Större amortering minskar skulden snabbare. Då beräknas framtida ränta på en lägre skuld under fler månader.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Jämföra lån och amorteringsplaner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
     ]
   },
   {
@@ -40686,6 +45019,126 @@ window.BANKMA1 = [
     ]
   },
   {
+    "id": "4.230",
+    "kap": 4,
+    "omr": "strackor_vinklar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En ramp lutar 8° mot marken. Den horisontella sträckan är 6,0 m. Hur lång är rampen? Avrunda till en decimal.</p>",
+    "s": "<p>Rampens längd är hypotenusan \\(L\\). \\(\\cos8^\\circ=6,0/L\\), alltså \\(L=6,0/\\cos8^\\circ\\approx6,1\\) m.</p><p><strong>Svar:</strong> <strong>6,1 m</strong>.</p>",
+    "familj": "Bestämma avstånd med trigonometri",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.1,
+    "tolerans": 0.11,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.231",
+    "kap": 4,
+    "omr": "strackor_vinklar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En vajer bildar vinkeln 35° med marken och når 12 m upp på en mast. Hur lång är vajern? Avrunda till en decimal.</p>",
+    "s": "<p>Höjden är motstående katet och vajern hypotenusa: \\(\\sin35^\\circ=12/L\\). Därför \\(L=12/\\sin35^\\circ\\approx20,9\\) m.</p><p><strong>Svar:</strong> <strong>20,9 m</strong>.</p>",
+    "familj": "Bestämma avstånd med trigonometri",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.9,
+    "tolerans": 0.11,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.232",
+    "kap": 4,
+    "omr": "strackor_vinklar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En stig stiger 18 m i höjd och lutar 12° mot horisontalplanet. Hur lång är stigen? Avrunda till närmaste meter.</p>",
+    "s": "<p>\\(\\sin12^\\circ=18/L\\), så \\(L=18/\\sin12^\\circ\\approx86,6\\) m.</p><p><strong>Svar:</strong> <strong>87 m</strong>.</p>",
+    "familj": "Bestämma avstånd med trigonometri",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 87,
+    "tolerans": 0.11,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.233",
+    "kap": 4,
+    "omr": "strackor_vinklar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Från en punkt 25 m från ett torns fot är elevationsvinkeln till toppen 41°. Hur högt är tornet? Avrunda till en decimal.</p>",
+    "s": "<p>\\(\\tan41^\\circ=h/25\\). Alltså \\(h=25\\tan41^\\circ\\approx21,7\\) m.</p><p><strong>Svar:</strong> <strong>21,7 m</strong>.</p>",
+    "familj": "Bestämma avstånd med trigonometri",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 21.7,
+    "tolerans": 0.11,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.234",
+    "kap": 4,
+    "omr": "strackor_vinklar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En lina är 18,0 m lång och går från marken till toppen av en stolpe. Vinkeln mellan linan och marken är 52°. Hur långt är det horisontella avståndet från stolpens fot till linans fästpunkt i marken? Avrunda till en decimal.</p>",
+    "s": "<p>Det horisontella avståndet är närliggande katet: \\(x=18,0\\cos52^\\circ\\approx11,1\\) m.</p><p><strong>Svar:</strong> <strong>11,1 m</strong>.</p>",
+    "familj": "Bestämma avstånd med trigonometri",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11.1,
+    "tolerans": 0.11,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "4.186",
     "kap": 4,
     "omr": "sinus_cosinus_tangens",
@@ -41087,6 +45540,116 @@ window.BANKMA1 = [
     "svarFormat": "kort_text"
   },
   {
+    "id": "4.225",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel känner du vinkeln \\(v\\), den motstående kateten och vill bestämma hypotenusan. Vilket samband är mest direkt?</p><p>A: sinus<br>B: cosinus<br>C: tangens</p>",
+    "s": "<p>Sinus kopplar samman motstående katet och hypotenusa: \\(\\sin v=\\frac{\\text{motstående}}{\\text{hypotenusa}}\\).</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "4.226",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel känner du vinkeln \\(v\\), den närliggande kateten och hypotenusan. Vilket samband använder du?</p><p>A: sinus<br>B: cosinus<br>C: tangens</p>",
+    "s": "<p>Cosinus är närliggande katet dividerad med hypotenusan.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "4.227",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du känner de två kateterna i en rätvinklig triangel och vill bestämma en spetsig vinkel. Vilket samband är mest direkt?</p><p>A: sinus<br>B: cosinus<br>C: tangens</p>",
+    "s": "<p>Tangens kopplar samman motstående och närliggande katet.</p><p><strong>Svar:</strong> <strong>C</strong>.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "4.228",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En stege lutar mot en vägg. Du känner stegens längd och vinkeln mellan stegen och marken. Du vill bestämma höjden på väggen. Vilket samband passar direkt?</p><p>A: sinus<br>B: cosinus<br>C: tangens</p>",
+    "s": "<p>Stegen är hypotenusan och höjden är motstående katet till vinkeln vid marken. Därför används sinus.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
+    "id": "4.229",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Från en punkt på marken känner du det horisontella avståndet till ett torn och elevationsvinkeln till toppen. Du vill bestämma tornets höjd. Vilket samband passar direkt?</p><p>A: sinus<br>B: cosinus<br>C: tangens</p>",
+    "s": "<p>Höjden är motstående katet och det horisontella avståndet är närliggande katet. Därför används tangens.</p><p><strong>Svar:</strong> <strong>C</strong>.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
+  },
+  {
     "id": "4.187",
     "kap": 4,
     "omr": "vektor_addition_subtraktion",
@@ -41278,6 +45841,161 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ]
+  },
+  {
+    "id": "4.235",
+    "kap": 4,
+    "omr": "vektor_addition_subtraktion",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm resultanten \\(\\vec r\\) av vektorerna \\(\\vec a=(3,1)\\), \\(\\vec b=(-2,4)\\) och \\(\\vec c=(1,-3)\\).</p>",
+    "s": "<p>Addera komponentvis: \\(\\vec r=(3-2+1,\\,1+4-3)=(2,2)\\).</p><p><strong>Svar:</strong> \\((2,2)\\).</p>",
+    "familj": "Bestämma resultant av flera vektorer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.236",
+    "kap": 4,
+    "omr": "vektor_addition_subtraktion",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En förflyttning består av \\((4,-1)\\), därefter \\((-3,5)\\) och sist \\((2,2)\\). Bestäm den sammanlagda förflyttningen.</p>",
+    "s": "<p>Addera x-komponenterna och y-komponenterna var för sig: \\((4-3+2,-1+5+2)=(3,6)\\).</p><p><strong>Svar:</strong> \\((3,6)\\).</p>",
+    "familj": "Bestämma resultant av flera vektorer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      6
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.237",
+    "kap": 4,
+    "omr": "vektor_addition_subtraktion",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tre krafter i ett koordinatsystem representeras av \\((5,0)\\), \\((-2,3)\\) och \\((-1,-4)\\). Bestäm resultanten.</p>",
+    "s": "<p>\\((5-2-1,0+3-4)=(2,-1)\\).</p><p><strong>Svar:</strong> \\((2,-1)\\).</p>",
+    "familj": "Bestämma resultant av flera vektorer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      -1
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.238",
+    "kap": 4,
+    "omr": "vektor_addition_subtraktion",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Vektorerna \\(\\vec u=(2,3)\\), \\(\\vec v=(-5,1)\\) och \\(\\vec w=(4,-6)\\) verkar tillsammans. Bestäm \\(2\\vec u+\\vec v+\\vec w\\).</p>",
+    "s": "<p>\\(2\\vec u=(4,6)\\). Sedan \\((4,6)+(-5,1)+(4,-6)=(3,1)\\).</p><p><strong>Svar:</strong> \\((3,1)\\).</p>",
+    "familj": "Bestämma resultant av flera vektorer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      1
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.239",
+    "kap": 4,
+    "omr": "vektor_addition_subtraktion",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En vektor \\(\\vec a=(6,-2)\\) följs av \\(\\vec b=(-1,5)\\). Vilken tredje vektor \\(\\vec c\\) behövs för att den totala resultanten ska bli \\((0,0)\\)?</p>",
+    "s": "<p>Först \\(\\vec a+\\vec b=(5,3)\\). För att summan ska bli noll behövs motsatt vektor \\((-5,-3)\\).</p><p><strong>Svar:</strong> \\((-5,-3)\\).</p>",
+    "familj": "Bestämma resultant av flera vektorer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -5,
+      -3
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
     ]
   },
   {
@@ -46585,6 +51303,136 @@ window.BANKMA1 = [
     "svarFormat": "bråk"
   },
   {
+    "id": "5.275",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du kastar ett mynt och därefter en vanlig sexsidig tärning. Hur många möjliga ordnade utfall finns?</p>",
+    "s": "<p>Myntet har 2 utfall och tärningen 6. Multiplikationsprincipen ger \\(2\\cdot6=12\\).</p><p><strong>Svar:</strong> <strong>12</strong>.</p>",
+    "familj": "Exakt antal utfall i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.276",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kod består av en bokstav vald bland A, B, C och därefter två siffror där varje siffra kan vara 0–9. Upprepning är tillåten. Hur många koder finns?</p>",
+    "s": "<p>Det finns 3 val för bokstaven och 10 val för vardera siffran: \\(3\\cdot10\\cdot10=300\\).</p><p><strong>Svar:</strong> <strong>300</strong>.</p>",
+    "familj": "Exakt antal utfall i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.277",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En meny består av 4 huvudrätter, 3 drycker och 2 desserter. Hur många olika kompletta menyer kan väljas?</p>",
+    "s": "<p>Välj en från varje kategori: \\(4\\cdot3\\cdot2=24\\).</p><p><strong>Svar:</strong> <strong>24</strong>.</p>",
+    "familj": "Exakt antal utfall i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.278",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Tre trafikljus kan oberoende visa rött, gult eller grönt. Hur många olika ordnade kombinationer av färger finns?</p>",
+    "s": "<p>Varje ljus har 3 möjligheter. För tre ljus blir det \\(3^3=27\\).</p><p><strong>Svar:</strong> <strong>27</strong>.</p>",
+    "familj": "Exakt antal utfall i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 27,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.279",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En tvåsiffrig kod byggs av siffrorna 1, 2, 3, 4 och 5 utan att samma siffra får användas två gånger. Hur många koder finns?</p>",
+    "s": "<p>För första positionen finns 5 val och därefter 4 kvar: \\(5\\cdot4=20\\).</p><p><strong>Svar:</strong> <strong>20</strong>.</p>",
+    "familj": "Exakt antal utfall i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "5.172",
     "kap": 5,
     "omr": "beroende_handelser",
@@ -47897,6 +52745,132 @@ window.BANKMA1 = [
     "svarFormat": "kort_text"
   },
   {
+    "id": "5.280",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två slumpmässiga undersökningar använder 40 respektive 1 000 personer från samma population. Vilken ger normalt mindre slumpmässig osäkerhet?</p><p>A: 40 personer<br>B: 1 000 personer<br>C: Alltid exakt samma</p>",
+    "s": "<p>Ett större slumpmässigt stickprov ger normalt mindre slumpvariation och därmed säkrare skattningar.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Stickprovsstorlek och statistisk osäkerhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "5.281",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I två i övrigt likadana undersökningar svarar 100 personer i den ena och 2 000 i den andra. I vilken bör en observerad andel normalt variera minst från stickprov till stickprov?</p><p>A: 100 personer<br>B: 2 000 personer<br>C: Ingen skillnad</p>",
+    "s": "<p>Större stickprov ger normalt mindre slumpmässig variation i en skattad andel.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Stickprovsstorlek och statistisk osäkerhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "5.282",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En undersökning vill halvera den slumpmässiga osäkerheten. Som tumregel minskar osäkerheten ungefär som \\(1/\\sqrt n\\). Hur många gånger större stickprov behövs ungefär?</p>",
+    "s": "<p>För att \\(1/\\sqrt n\\) ska halveras måste \\(\\sqrt n\\) fördubblas. Då måste \\(n\\) bli fyra gånger så stort.</p><p><strong>Svar:</strong> <strong>4 gånger</strong>.</p>",
+    "familj": "Stickprovsstorlek och statistisk osäkerhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.283",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En enkät har 50 svar och en annan 5 000 svar. Kan man enbart av stickprovsstorleken avgöra att den större enkäten är representativ?</p><p>A: Ja<br>B: Nej</p>",
+    "s": "<p>Ett stort stickprov minskar slumpmässig osäkerhet, men ett snedvridet urval kan fortfarande ge systematiska fel. Storlek ensam garanterar inte representativitet.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
+    "familj": "Stickprovsstorlek och statistisk osäkerhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
+  },
+  {
+    "id": "5.284",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken förändring minskar normalt den slumpmässiga osäkerheten mest?</p><p>A: Öka stickprovet från 100 till 400<br>B: Byt rubrik på enkäten<br>C: Avrunda resultatet till fler decimaler</p>",
+    "s": "<p>Större stickprov ger mer information och minskar normalt slumpvariationen. De andra alternativen skapar inte mer data.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Stickprovsstorlek och statistisk osäkerhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ]
+  },
+  {
     "id": "5.216",
     "kap": 5,
     "omr": "urvalsmetoder",
@@ -48353,6 +53327,134 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "procent"
+  },
+  {
+    "id": "5.270",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Risken för ett fel är 0,8 %. Ungefär hur många fel förväntas bland 1 500 enheter?</p>",
+    "s": "<p>\\(0,8\\%=0,008\\). Förväntat antal är \\(1500\\cdot0,008=12\\).</p><p><strong>Svar:</strong> <strong>12</strong>.</p>",
+    "familj": "Tolka sannolikhet som risk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.271",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En risk anges som 1 på 250. Skriv risken i procent.</p>",
+    "s": "<p>\\(1/250=0,004=0,4\\%\\).</p><p><strong>Svar:</strong> <strong>0,4 %</strong>.</p>",
+    "familj": "Tolka sannolikhet som risk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.272",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En händelse har sannolikheten 0,03. Hur många händelser förväntas ungefär vid 800 oberoende försök?</p>",
+    "s": "<p>Förväntat antal är \\(800\\cdot0,03=24\\).</p><p><strong>Svar:</strong> <strong>24</strong>.</p>",
+    "familj": "Tolka sannolikhet som risk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.273",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Risken för ett fel minskar från 2,0 % till 1,2 %. Hur stor är minskningen i procent räknat från den ursprungliga risken?</p>",
+    "s": "<p>Risken minskar med 0,8 procentenheter. Relativt 2,0 % är \\(0,8/2,0=0,40=40\\%\\).</p><p><strong>Svar:</strong> <strong>40 %</strong>.</p>",
+    "familj": "Tolka sannolikhet som risk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.274",
+    "kap": 5,
+    "omr": "risk_sakerhet",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>System A har felrisk 0,5 % och system B 0,7 % per användning. Vilket har lägst risk?</p><p>A: System A<br>B: System B<br>C: Samma risk</p>",
+    "s": "<p>0,5 % är mindre än 0,7 %, så system A har lägre risk per användning.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
+    "familj": "Tolka sannolikhet som risk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ]
   },
   {
     "id": "6.01",

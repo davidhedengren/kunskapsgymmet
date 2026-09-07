@@ -1,8 +1,7 @@
-/* Kunskapsgymmet-rutinuppdelning 2026-09-07
-   Extra metadata: spelDelning och spelDelar.
-   Uppgiftslabbet kan fortsätta använda originaluppgiften med alla deluppgifter.
-   Kunskapsgymmet kan expandera markerade rutinuppgifter till en träningsuppgift per del.
-*/
+/* uppgiftermatf1.js — Matematik – fördjupning nivå 1.
+   Grundreviderad för Kunskapsgymmet och Uppgiftslabbet 2026-09-07.
+   Pedagogiska familjer, säkrare självrättning, svarFormat/svarsstruktur,
+   problemlösningstaggar och selektiv spelDelning för oberoende rutinuppgifter. */
 
 window.BANKMATF1 = [
   {
@@ -143,7 +142,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "spel": false
   },
   {
     "kap": 1,
@@ -365,7 +365,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "spel": false
   },
   {
     "kap": 1,
@@ -380,12 +381,27 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Avläsa antal och element i Venn-diagram",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      9,
+      34,
+      6
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
     ]
   },
   {
@@ -408,7 +424,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -423,11 +440,26 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Avläsa antal och element i Venn-diagram",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\{5,7\\}",
+      "\\{1,3\\}",
+      "\\{11\\}"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
+    ],
+    "svarFormat": [
+      "mängd",
+      "mängd",
+      "mängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
     ]
   },
   {
@@ -512,6 +544,15 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -559,11 +600,36 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Räkna med union, snitt, differens och komplement",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\{1,3,4,5,6,7,9\\}",
+      "\\{3,5\\}"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
+    ],
+    "svarFormat": [
+      "mängd",
+      "mängd"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Låt \\(A=\\{1,3,5,7,9\\}\\) och \\(B=\\{3,4,5,6\\}\\). Bestäm</p><div class=\"spel-en-del\">\\(A\\cup B\\)</div>",
+        "s": "<p><strong><div class=\"spel-en-del\"></div></strong> Unionen innehåller alla element som finns i minst en av mängderna:</p><p>\\[A\\cup B=\\{1,3,4,5,6,7,9\\}.\\]</p><p><strong></strong></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Låt \\(A=\\{1,3,5,7,9\\}\\) och \\(B=\\{3,4,5,6\\}\\). Bestäm</p><div class=\"spel-en-del\">\\(A\\cap B\\)</div>",
+        "s": "<p><strong><div class=\"spel-en-del\"></div></strong> Snittet innehåller de element som finns i båda mängderna:</p><p>\\[A\\cap B=\\{3,5\\}.\\]</p>"
+      }
     ]
   },
   {
@@ -626,7 +692,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -670,7 +737,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -692,7 +760,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -714,7 +783,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -735,7 +805,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -750,12 +821,24 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inklusion–exklusion med två mängder",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      36,
+      29
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
     ]
   },
   {
@@ -771,13 +854,25 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inklusion–exklusion med tre mängder",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      15,
+      12
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
     ]
   },
   {
@@ -839,7 +934,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -860,7 +956,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -881,7 +978,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -902,7 +1000,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -923,7 +1022,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -944,7 +1044,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -964,7 +1065,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1020,13 +1122,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Utveckla binom med binomialsatsen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "16x^4+16x^3y+6x^2y^2+xy^3+\\frac{1}{16}y^4",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 1,
@@ -1047,7 +1150,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 1,
@@ -1113,6 +1217,15 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1145,7 +1258,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "problemlösning"
     ]
   },
   {
@@ -1170,6 +1284,15 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -1204,7 +1327,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1225,7 +1349,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1288,7 +1413,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1519,7 +1645,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1540,7 +1667,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1582,7 +1710,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1603,7 +1732,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1644,8 +1774,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1666,7 +1798,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1687,7 +1820,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1707,8 +1841,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1728,8 +1864,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1750,7 +1888,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1770,8 +1909,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1792,7 +1933,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1812,8 +1954,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1833,8 +1977,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1855,7 +2001,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1875,8 +2022,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1897,7 +2046,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1917,7 +2067,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1937,7 +2088,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1957,7 +2109,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1977,7 +2130,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -1998,7 +2152,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2019,7 +2174,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2039,7 +2195,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2059,7 +2216,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2079,7 +2237,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2098,8 +2257,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2119,7 +2280,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2134,12 +2296,24 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Permutationer och ordnade urval",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      720,
+      305
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "antal ord",
+      "KNOTAF:s nummer"
     ]
   },
   {
@@ -2161,7 +2335,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2181,7 +2356,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2202,7 +2378,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2222,7 +2399,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2242,7 +2420,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2263,7 +2442,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2283,7 +2463,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2303,7 +2484,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2343,7 +2525,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2363,7 +2546,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2384,7 +2568,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2404,7 +2589,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2424,7 +2610,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2445,7 +2632,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2465,7 +2653,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2485,7 +2674,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2505,7 +2695,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2525,7 +2716,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2545,7 +2737,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2565,7 +2758,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2585,7 +2779,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2606,7 +2801,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2626,7 +2822,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2645,8 +2842,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2666,7 +2865,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2686,7 +2886,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2701,11 +2902,24 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Fördela identiska objekt med villkor",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      455,
+      165
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
     ]
   },
   {
@@ -2726,7 +2940,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2746,7 +2961,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2766,7 +2982,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2786,7 +3003,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2806,7 +3024,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2826,7 +3045,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2846,7 +3066,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2866,7 +3087,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2886,7 +3108,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2906,7 +3129,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2926,7 +3150,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2946,7 +3171,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2966,7 +3192,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -2986,7 +3213,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3006,7 +3234,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3027,7 +3256,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3047,7 +3277,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3069,7 +3300,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3090,7 +3322,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3111,7 +3344,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3132,7 +3366,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3153,7 +3388,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3197,7 +3433,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3240,7 +3477,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3261,7 +3499,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3270,8 +3509,8 @@ window.BANKMATF1 = [
     "typ": "konstant term i binomialutveckling",
     "poang": "0/2/1",
     "id": "1.127",
-    "t": "<p>Bestäm den konstanta termen i utvecklingen av</p><p>\\[\\left(2x^2+\\frac{1}{x}\\rightight)^6.\\]</p>",
-    "s": "<p>En allmän term är</p><p>\\[\\binom{6}{k}(2x^2)^{6-k}\\left(\\frac{1}{x}\\rightight)^k=\\binom{6}{k} 2^{6-k}x^{12-3k}.\\]</p><p>Den konstanta termen fås när exponenten på \\(x\\) är 0:</p><p>\\[12-3k=0\\quad\\Rightarrow\\quad k=4.\\]</p><p>Då blir termen</p><p>\\[\\binom{6}{4} 2^{2}=15\\cdot 4=60.\\]</p><p><strong>Den konstanta termen är 60.</strong></p>",
+    "t": "<p>Bestäm den konstanta termen i utvecklingen av</p><p>\\[\\left(2x^2+\\frac{1}{x}\\right)^6.\\]</p>",
+    "s": "<p>En allmän term är</p><p>\\[\\binom{6}{k}(2x^2)^{6-k}\\left(\\frac{1}{x}\\right)^k=\\binom{6}{k} 2^{6-k}x^{12-3k}.\\]</p><p>Den konstanta termen fås när exponenten på \\(x\\) är 0:</p><p>\\[12-3k=0\\quad\\Rightarrow\\quad k=4.\\]</p><p>Då blir termen</p><p>\\[\\binom{6}{4} 2^{2}=15\\cdot 4=60.\\]</p><p><strong>Den konstanta termen är 60.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Bestämma konstantterm i en binomialutveckling",
@@ -3282,7 +3521,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3303,7 +3543,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 1,
@@ -3345,7 +3586,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3367,7 +3609,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3388,7 +3631,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 1,
@@ -3409,7 +3653,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3430,7 +3675,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3493,7 +3739,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3514,7 +3761,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3557,8 +3805,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3579,8 +3829,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3599,8 +3851,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -3619,8 +3873,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -3639,8 +3895,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -3659,8 +3917,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3681,8 +3941,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -3703,8 +3965,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -3723,8 +3987,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -3743,8 +4009,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3765,8 +4033,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3785,8 +4055,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -3801,11 +4073,24 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Kombinatorisk sannolikhet med ordningar och vägar",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      10,
+      6
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
     ]
   },
   {
@@ -3826,8 +4111,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -3848,8 +4135,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3864,12 +4153,27 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inklusion–exklusion med mängder",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      6,
+      44,
+      32
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
     ]
   },
   {
@@ -3891,7 +4195,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "spel": false
   },
   {
     "kap": 1,
@@ -3934,7 +4239,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "spel": false
   },
   {
     "kap": 1,
@@ -3956,7 +4262,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -3971,13 +4278,25 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inklusion–exklusion med tre mängder",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      734,
+      266
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
     ]
   },
   {
@@ -3999,7 +4318,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -4021,7 +4341,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -4043,7 +4364,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -4064,7 +4386,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -4086,7 +4409,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -4107,7 +4431,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -4128,7 +4453,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -4143,13 +4469,25 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Räkna exakt en, exakt två eller ingen i mängder",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      69,
+      18
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
     ]
   },
   {
@@ -4171,8 +4509,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 1,
@@ -4191,8 +4531,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -4207,12 +4549,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Kombinatorisk sannolikhet vid urval utan återläggning",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "\\frac{14}{95}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -4231,8 +4575,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -4247,12 +4593,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Kombinatorisk sannolikhet vid urval utan återläggning",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "\\frac{3}{10}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 1,
@@ -4267,12 +4615,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Kombinatorisk sannolikhet vid urval utan återläggning",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 42.4,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "procent"
   },
   {
     "kap": 1,
@@ -4287,14 +4637,16 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Kombinatorisk sannolikhet med komplementhändelse",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 28.4,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "procent"
   },
   {
     "kap": 1,
@@ -4309,12 +4661,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Kombinatorisk sannolikhet vid urval utan återläggning",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 14.1,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "procent"
   },
   {
     "kap": 1,
@@ -4329,14 +4683,16 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Kombinatorisk sannolikhet med komplementhändelse",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 40.6,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "procent"
   },
   {
     "kap": 2,
@@ -4397,7 +4753,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -4418,7 +4775,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -4454,13 +4812,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Ändlig geometrisk summa",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 33774,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -4629,7 +4988,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -4650,7 +5010,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -4692,7 +5053,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -4733,7 +5095,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -4754,7 +5117,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -4775,7 +5139,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -4796,7 +5161,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -4816,7 +5182,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -4838,7 +5205,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -4860,7 +5228,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -4904,7 +5273,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -4970,7 +5340,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -4985,12 +5356,27 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Beräkna termer med rekursion",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": [
+      7,
+      12,
+      17
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a₂",
+      "a₃",
+      "a₄"
     ]
   },
   {
@@ -5006,12 +5392,27 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Beräkna termer med rekursion",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": [
+      9,
+      17,
+      33
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a₂",
+      "a₃",
+      "a₄"
     ]
   },
   {
@@ -5054,7 +5455,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -5120,7 +5522,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -5225,7 +5628,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5247,7 +5651,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5268,7 +5673,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5283,13 +5689,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Ändlig geometrisk summa",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 26.5,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5310,7 +5717,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5331,7 +5739,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5352,7 +5761,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5373,7 +5783,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5394,7 +5805,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5416,7 +5828,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5437,7 +5850,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5458,7 +5872,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5479,7 +5894,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5500,7 +5916,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5521,7 +5938,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5542,7 +5960,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5563,7 +5982,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 2,
@@ -5603,7 +6023,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5623,7 +6044,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5645,7 +6067,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5666,7 +6089,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5687,7 +6111,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5729,7 +6154,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5750,7 +6176,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5771,7 +6198,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -5833,7 +6261,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5873,7 +6302,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5914,7 +6344,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5935,7 +6366,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -5999,7 +6431,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6020,7 +6453,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -6042,7 +6476,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -6063,8 +6498,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6085,7 +6522,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6106,7 +6544,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -6127,7 +6566,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6147,8 +6587,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6168,8 +6610,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6191,7 +6635,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6212,7 +6657,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6233,7 +6679,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6254,7 +6701,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6275,7 +6723,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6297,7 +6746,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6318,7 +6768,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6339,7 +6790,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6360,7 +6812,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6381,7 +6834,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6402,7 +6856,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6423,7 +6878,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6444,7 +6900,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -6464,7 +6921,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "problemlösning"
     ]
   },
   {
@@ -6487,7 +6945,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6530,7 +6989,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6545,13 +7005,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Omvandla till bas tio",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 446,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6572,7 +7033,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6587,13 +7049,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Omvandla till bas tio",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "45_{10}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "kort_text"
   },
   {
     "kap": 2,
@@ -6614,7 +7077,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6635,7 +7099,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6656,7 +7121,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6691,13 +7157,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Omvandla till bas tio",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 139,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6718,8 +7185,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6740,7 +7209,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6761,7 +7231,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6782,7 +7253,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6818,13 +7290,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Primtalsfaktorisering",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "2^3*3^2*5",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -6845,7 +7318,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6866,7 +7340,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6887,7 +7362,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -6908,7 +7384,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -7807,8 +8284,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -7829,7 +8308,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -7850,7 +8330,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -7871,7 +8352,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -7892,7 +8374,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -7913,7 +8396,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -7954,8 +8438,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -7976,8 +8462,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -7998,7 +8486,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8061,7 +8550,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8082,7 +8572,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8146,7 +8637,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8187,7 +8679,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8230,7 +8723,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -8251,7 +8745,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8272,7 +8767,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8287,12 +8783,27 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Delbarhetsregler och delbarhetskontroll",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "ja",
+      "ja",
+      "ja"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "kort_text",
+      "kort_text",
+      "kort_text"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "delbart med 4",
+      "delbart med 9",
+      "delbart med 11"
     ]
   },
   {
@@ -8336,7 +8847,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8357,7 +8869,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8378,7 +8891,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8399,7 +8913,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8420,7 +8935,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8463,7 +8979,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8478,12 +8995,33 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Beräkna termer med rekursion",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": [
+      4,
+      16,
+      64,
+      256,
+      1024
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "term 1",
+      "term 2",
+      "term 3",
+      "term 4",
+      "term 5"
     ]
   },
   {
@@ -8548,7 +9086,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8563,13 +9102,29 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Tillämpade rekursiva modeller",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      null,
+      9370.24
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": [
+      false,
+      true
+    ],
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "rekursionsformel",
+      "S₃"
     ]
   },
   {
@@ -8591,8 +9146,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -8614,7 +9171,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -8634,8 +9192,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8656,7 +9216,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 2,
@@ -8678,8 +9239,10 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 2,
@@ -8694,13 +9257,26 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Rekursioner med jämviktsvärde",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      12,
+      "12+8*0.5^n"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "gränsvärde",
+      "explicit formel"
     ]
   },
   {
@@ -8716,13 +9292,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Upprepad partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "-e^{-2x}(\\frac{1}{2}x^2+\\frac{1}{2}x+\\frac14)+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -8737,12 +9314,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "e^x(x-1)+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -8757,12 +9335,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration med logaritmer",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "x\\ln x-x+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -8777,12 +9356,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "x\\sin x+\\cos x+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -8797,12 +9377,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration med logaritmer",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "\\frac{x^3}{3}\\ln x-\\frac{x^3}{9}+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -8817,12 +9398,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "(x-1)e^x+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -8837,12 +9419,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "\\frac{x}{2}e^{2x}-\\frac14e^{2x}+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -8857,12 +9440,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "-x\\cos x+\\sin x+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -8877,12 +9461,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration med logaritmer",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "x\\ln x-x+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -8902,7 +9487,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -8957,12 +9543,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "-(x+1)e^{-x}+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -8982,7 +9569,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -8997,12 +9585,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "-x^2\\cos x+2x\\sin x+2\\cos x+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -9022,7 +9611,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9037,14 +9627,15 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Avgöra konvergens för generaliserade integraler",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "p>1",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "intervall"
   },
   {
     "kap": 3,
@@ -9065,7 +9656,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 3,
@@ -9080,14 +9672,16 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Parameterproblem med generaliserade integraler",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "a>-1",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "intervall"
   },
   {
     "kap": 3,
@@ -9108,7 +9702,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9123,14 +9718,16 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Parameterproblem med generaliserade integraler",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "0<p<1",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "intervall"
   },
   {
     "kap": 3,
@@ -9140,7 +9737,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "3.25",
     "t": "<p>Avgör om integralen konvergerar och bestäm i så fall dess värde:</p><p>\\[\\int_1^{\\infty}\\frac{1}{x^3}\\,dx.\\]</p>",
-    "s": "<p>Vi skriver integralen som ett gränsvärde:</p><p>\\[\\int_1^{\\infty}\\frac{1}{x^3}\\,dx=\\lim_{b\\to\\infty}\\int_1^b x^{-3}\\,dx.\\]</p><p>En primitiv funktion är \\(-\\frac{1}{2x^2}\\). Alltså</p><p>\\[\\lim_{b\\to\\infty}\\left[-\\frac{1}{2x^2}\\rightight]_1^b=\\lim_{b\\to\\infty}\\left(-\\frac{1}{2b^2}+\\frac{1}{2}\\rightight)=\\frac{1}{2}.\\]</p><p>Integralen <strong>konvergerar</strong> och värdet är <strong>\\(1/2\\)</strong>.</p>",
+    "s": "<p>Vi skriver integralen som ett gränsvärde:</p><p>\\[\\int_1^{\\infty}\\frac{1}{x^3}\\,dx=\\lim_{b\\to\\infty}\\int_1^b x^{-3}\\,dx.\\]</p><p>En primitiv funktion är \\(-\\frac{1}{2x^2}\\). Alltså</p><p>\\[\\lim_{b\\to\\infty}\\left[-\\frac{1}{2x^2}\\right]_1^b=\\lim_{b\\to\\infty}\\left(-\\frac{1}{2b^2}+\\frac{1}{2}\\right)=\\frac{1}{2}.\\]</p><p>Integralen <strong>konvergerar</strong> och värdet är <strong>\\(1/2\\)</strong>.</p>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Beräkna generaliserade integraler till oändligheten",
@@ -9173,7 +9770,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 3,
@@ -9194,7 +9792,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 3,
@@ -9216,7 +9815,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -9229,7 +9829,7 @@ window.BANKMATF1 = [
     "id": "3.38",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Generaliserade integraler med singularitet i ändpunkt",
+    "familj": "Generaliserade integraler där integranden blir obegränsad vid en ändpunkt",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -9260,7 +9860,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -9281,7 +9882,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 3,
@@ -9303,7 +9905,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -9316,7 +9919,7 @@ window.BANKMATF1 = [
     "id": "3.61",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Generaliserade integraler med singularitet i ändpunkt",
+    "familj": "Generaliserade integraler där integranden blir obegränsad vid en ändpunkt",
     "svarstyp": "val",
     "rättSvar": "divergerar",
     "tolerans": null,
@@ -9325,7 +9928,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -9340,14 +9944,16 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Parameterproblem med generaliserade integraler",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "0<p<1",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "intervall"
   },
   {
     "kap": 3,
@@ -9368,7 +9974,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 3,
@@ -9389,7 +9996,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 3,
@@ -9410,7 +10018,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 3,
@@ -9432,7 +10041,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -9445,7 +10055,7 @@ window.BANKMATF1 = [
     "id": "3.88",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Generaliserade integraler med singularitet i ändpunkt",
+    "familj": "Generaliserade integraler där integranden blir obegränsad vid en ändpunkt",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -9469,14 +10079,16 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Parameterproblem med generaliserade integraler",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "a>-1",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "intervall"
   },
   {
     "kap": 3,
@@ -9497,7 +10109,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 3,
@@ -9518,7 +10131,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9531,7 +10145,7 @@ window.BANKMATF1 = [
     "id": "3.108",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Generaliserade integraler med singularitet i ändpunkt",
+    "familj": "Generaliserade integraler där integranden blir obegränsad vid en ändpunkt",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -9555,14 +10169,16 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Parameterproblem med generaliserade integraler",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "1/(a+1)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -9577,12 +10193,24 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": [
+      "3+(x-9)/6",
+      3.0333
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "linjär approximation",
+      "uppskattning"
     ]
   },
   {
@@ -9598,13 +10226,28 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": [
+      0.04,
+      null
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": [
+      true,
+      false
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "uppskattning",
+      "för stor/för liten"
     ]
   },
   {
@@ -9620,13 +10263,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 3.975,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9647,7 +10291,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9662,13 +10307,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 2.025,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9689,7 +10335,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9704,13 +10351,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 3.0111,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9751,7 +10399,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9772,7 +10421,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9787,12 +10437,24 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": [
+      "x-1",
+      0.08
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "linjär approximation",
+      "uppskattning"
     ]
   },
   {
@@ -9814,7 +10476,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9835,8 +10498,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9857,8 +10522,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9879,8 +10546,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9901,8 +10570,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9922,8 +10593,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9944,8 +10617,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9965,8 +10640,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -9985,8 +10662,10 @@ window.BANKMATF1 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10005,8 +10684,10 @@ window.BANKMATF1 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10025,8 +10706,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10047,8 +10730,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10067,8 +10752,10 @@ window.BANKMATF1 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10087,8 +10774,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10107,8 +10796,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -10129,8 +10820,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10149,8 +10842,10 @@ window.BANKMATF1 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10169,8 +10864,10 @@ window.BANKMATF1 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10190,8 +10887,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10212,7 +10911,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10233,8 +10933,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10254,8 +10956,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10276,8 +10980,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10297,8 +11003,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 3,
@@ -10308,7 +11016,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "3.28",
     "t": "<span class=\"fig\"><svg height=\"260\" width=\"400\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Grafen y lika med 4 minus x och ett markerat område mellan x lika med 1 och 3\">\n<rect width=\"400\" height=\"260\" fill=\"white\"/>\n<g stroke=\"#e6e6e6\">\n<line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"220\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"220\"/><line x1=\"180\" y1=\"40\" x2=\"180\" y2=\"220\"/><line x1=\"240\" y1=\"40\" x2=\"240\" y2=\"220\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"220\"/>\n<line x1=\"45\" y1=\"220\" x2=\"340\" y2=\"220\"/><line x1=\"45\" y1=\"175\" x2=\"340\" y2=\"175\"/><line x1=\"45\" y1=\"130\" x2=\"340\" y2=\"130\"/><line x1=\"45\" y1=\"85\" x2=\"340\" y2=\"85\"/><line x1=\"45\" y1=\"40\" x2=\"340\" y2=\"40\"/>\n</g>\n<line x1=\"45\" y1=\"220\" x2=\"350\" y2=\"220\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"60\" y1=\"235\" x2=\"60\" y2=\"30\" stroke=\"#222\" stroke-width=\"2\"/>\n<path d=\"M60 40 L300 175\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.6\"/>\n<path d=\"M120 85 L240 130 L240 220 L120 220 Z\" fill=\"#888\" fill-opacity=\"0.28\"/>\n<text x=\"252\" y=\"110\" font-size=\"14\">y = 4 - x</text>\n<text x=\"116\" y=\"238\" font-size=\"12\">1</text><text x=\"236\" y=\"238\" font-size=\"12\">3</text>\n</svg></span><p>Bestäm arean av det markerade området mellan grafen \\(y=4-x\\), \\(x\\)-axeln och linjerna \\(x=1\\) och \\(x=3\\).</p>",
-    "s": "<p>Arean ges av integralen</p><p>\\[A=\\int_1^3 (4-x)\\,dx.\\]</p><p>En primitiv funktion är \\(4x-\\frac{x^2}{2}\\). Då får vi</p><p>\\[A=\\left[4x-\\frac{x^2}{2}\\rightight]_1^3=(12-4,5)-(4-0,5)=7,5-3,5=4.\\]</p><p><strong>Arean är 4 areaenheter.</strong></p>",
+    "s": "<p>Arean ges av integralen</p><p>\\[A=\\int_1^3 (4-x)\\,dx.\\]</p><p>En primitiv funktion är \\(4x-\\frac{x^2}{2}\\). Då får vi</p><p>\\[A=\\left[4x-\\frac{x^2}{2}\\right]_1^3=(12-4,5)-(4-0,5)=7,5-3,5=4.\\]</p><p><strong>Arean är 4 areaenheter.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Area mellan graf och axel med integral",
@@ -10318,8 +11026,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10339,8 +11049,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 3,
@@ -10380,8 +11092,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "bråk"
   },
   {
     "kap": 3,
@@ -10402,8 +11116,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -10422,8 +11138,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10443,8 +11161,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10466,7 +11186,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10487,7 +11208,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10507,7 +11229,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "problemlösning"
     ]
   },
   {
@@ -10674,13 +11397,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Upprepad partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "\\frac{e^{x}(\\sin x-\\cos x)}{2}+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -10695,12 +11419,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration med logaritmer",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "x(\\ln x)^2-2x\\ln x+2x+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -10715,12 +11440,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "e^{3x}(\\frac{x}{3}-\\frac19)+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -10735,12 +11461,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "-\\frac{x}{3}\\cos(3x)+\\frac19\\sin(3x)+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -10755,12 +11482,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration med logaritmer",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "x\\ln(3x)-x+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -10780,7 +11508,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -10816,12 +11545,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "x^2\\sin x+2x\\cos x-2\\sin x+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -10836,12 +11566,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration med logaritmer",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "\\frac{x^2}{2}\\ln(2x)-\\frac{x^2}{4}+C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -10861,7 +11592,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 3,
@@ -10882,7 +11614,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -10898,11 +11631,30 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Area mellan två kurvor",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        "(0,0)",
+        "(2,4)"
+      ],
+      "\\frac{4}{3}"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      [
+        "punkt",
+        "punkt"
+      ],
+      "bråk"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "skärningspunkter",
+      "area"
     ]
   },
   {
@@ -10943,7 +11695,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "problemlösning"
     ]
   },
   {
@@ -10965,7 +11718,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
@@ -10986,8 +11740,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11008,7 +11764,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11028,7 +11785,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11043,12 +11801,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{3x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11063,12 +11822,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{3x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11088,7 +11848,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11103,12 +11864,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{-4x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11128,7 +11890,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11150,7 +11913,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -11171,7 +11935,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -11193,7 +11958,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -11213,7 +11979,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -11228,13 +11995,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med reella rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^{4x}+C_2e^{8x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11270,13 +12038,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med reella rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^{2x}+C_2e^{3x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11291,13 +12060,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med reella rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^{2x}+C_2e^{-3x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11312,12 +12082,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med reella rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^{-2x}+C_2e^{-3x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11332,12 +12103,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med reella rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^x+C_2e^{-4x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11357,7 +12129,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11377,7 +12150,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11397,7 +12171,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11412,12 +12187,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Begynnelsevärdesproblem av andra ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "e^x+e^{-x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11432,12 +12208,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Begynnelsevärdesproblem av andra ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "1.5e^{2x}+1.5e^{-2x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11458,7 +12235,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11478,7 +12256,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11493,12 +12272,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena begynnelsevärdesproblem",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "-2\\cos x+\\sin x+2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11513,12 +12293,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{2x}-3x-\\frac32",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11533,12 +12314,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{3x}+\\frac{x}{3}+\\frac19",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11553,13 +12335,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med dubbelrot",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "(C_1+C_2x)e^{-2x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11580,7 +12363,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -11617,13 +12401,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med komplexa rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "e^{-2x}(C_1\\cos3x+C_2\\sin3x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11780,11 +12565,29 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Klassificera differentialekvationer",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "ja",
+      "nej",
+      "ja",
+      "nej"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
+    ],
+    "svarFormat": [
+      "kort_text",
+      "kort_text",
+      "kort_text",
+      "kort_text"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
     ]
   },
   {
@@ -11826,7 +12629,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11846,7 +12650,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11866,7 +12671,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -11903,12 +12709,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Begynnelsevärdesproblem av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "5e^{2x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -11928,7 +12735,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "problemlösning"
     ]
   },
   {
@@ -11950,7 +12758,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -11971,7 +12780,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -11992,7 +12802,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "problemlösning"
     ]
   },
   {
@@ -12014,8 +12825,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -12036,7 +12849,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -12058,7 +12872,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -12101,7 +12916,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -12122,7 +12938,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -12143,7 +12960,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -12325,12 +13143,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{2x}+e^{3x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12345,12 +13164,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{-2x}+3",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12360,7 +13180,7 @@ window.BANKMATF1 = [
     "poang": "0/1/3",
     "id": "4.52",
     "t": "<span class=\"fig\"><svg height=\"260\" width=\"470\" viewBox=\"0 0 470 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopp kaffe som svalnar i ett rum\">\n<rect width=\"470\" height=\"260\" fill=\"white\"/>\n<ellipse cx=\"190\" cy=\"95\" rx=\"75\" ry=\"18\" fill=\"#ddd\" stroke=\"#444\" stroke-width=\"2\"/>\n<path d=\"M115 95 L125 190 Q130 220 190 220 Q250 220 255 190 L265 95\" fill=\"#f8f8f8\" stroke=\"#444\" stroke-width=\"2\"/>\n<path d=\"M265 110 Q320 105 320 145 Q320 185 270 175\" fill=\"none\" stroke=\"#444\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<path d=\"M160 60 Q152 40 165 25 M190 55 Q182 35 196 20 M220 60 Q214 43 228 27\" fill=\"none\" stroke=\"#888\" stroke-width=\"3\"/>\n<text x=\"332\" y=\"95\" font-size=\"16\">Rum: 20 °C</text>\n<text x=\"330\" y=\"125\" font-size=\"16\">Kaffe: T(t)</text>\n<text x=\"330\" y=\"155\" font-size=\"16\">T(0) = 80 °C</text>\n</svg></span><p>En kopp kaffe har temperaturen 80 °C när den ställs i ett rum som håller 20 °C. Temperaturen \\(T(t)\\) i kaffet följer modellen</p><p>\\[T'(t)=k(20-T(t)),\\qquad k=0,10.\\]</p><ol type=\"a\"><li>Bestäm \\(T(t)\\).</li><li>När har kaffet svalnat till 50 °C?</li></ol>",
-    "s": "<p>Differentialekvationen kan skrivas</p><p>\\[T'+0,10T=2.\\]</p><p>Den homogena lösningen är \\(T_h=Ce^{-0,10t}\\). En konstant partikulärlösning fås av \\(T_p=A\\):</p><p>\\[0,10A=2\\Rightarrow A=20.\\]</p><p>Alltså</p><p>\\[T(t)=Ce^{-0,10t}+20.\\]</p><p>Begynnelsevillkoret \\(T(0)=80\\) ger \\(C=60\\), så</p><p>\\[T(t)=60e^{-0,10t}+20.\\]</p><p>För \\(T=50\\) får vi</p><p>\\[60e^{-0,10t}+20=50\\Rightarrow 60e^{-0,10t}=30\\Rightarrow e^{-0,10t}=\\frac{1}{2}.\\]</p><p>\\[-0,10t=\\ln\\left(\\frac{1}{2}\\rightight)=-\\ln 2\\Rightarrow t=10\\ln 2\\approx 6,93.\\]</p><p><strong>Kaffet når 50 °C efter ungefär 6,9 minuter.</strong></p>",
+    "s": "<p>Differentialekvationen kan skrivas</p><p>\\[T'+0,10T=2.\\]</p><p>Den homogena lösningen är \\(T_h=Ce^{-0,10t}\\). En konstant partikulärlösning fås av \\(T_p=A\\):</p><p>\\[0,10A=2\\Rightarrow A=20.\\]</p><p>Alltså</p><p>\\[T(t)=Ce^{-0,10t}+20.\\]</p><p>Begynnelsevillkoret \\(T(0)=80\\) ger \\(C=60\\), så</p><p>\\[T(t)=60e^{-0,10t}+20.\\]</p><p>För \\(T=50\\) får vi</p><p>\\[60e^{-0,10t}+20=50\\Rightarrow 60e^{-0,10t}=30\\Rightarrow e^{-0,10t}=\\frac{1}{2}.\\]</p><p>\\[-0,10t=\\ln\\left(\\frac{1}{2}\\right)=-\\ln 2\\Rightarrow t=10\\ln 2\\approx 6,93.\\]</p><p><strong>Kaffet når 50 °C efter ungefär 6,9 minuter.</strong></p>",
     "miniräknare": true,
     "geogebra": true,
     "familj": "Newtons avsvalningslag",
@@ -12371,7 +13191,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -12387,12 +13208,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{-3x}+4",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12412,7 +13234,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12427,14 +13250,15 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Bestäm eller kontrollera differentialekvation från lösning",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "y'=-5y+15",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12449,13 +13273,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "4+Ce^{-2x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12476,7 +13301,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12491,14 +13317,15 @@ window.BANKMATF1 = [
     "geogebra": true,
     "familj": "Begynnelsevärdesproblem av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 9.24,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -12513,12 +13340,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{4x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12533,12 +13361,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{-3x}+2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12553,12 +13382,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{2x}-4",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12573,13 +13403,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{0.5x}+6",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12615,12 +13446,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{2x}-2x-\\frac12",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12635,12 +13467,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena differentialekvationer av första ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "Ce^{-2x}+3x-1",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12661,7 +13494,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -12683,7 +13517,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12720,13 +13555,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med dubbelrot",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "(C_1+C_2x)e^{2x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12741,13 +13577,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med dubbelrot",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "(C_1+C_2x)e^{-3x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12762,14 +13599,15 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Bestäm differentialekvation från lösning",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "y''-8y'+16y=0",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12784,13 +13622,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med dubbelrot",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "(C_1+C_2x)e^{-4x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12811,7 +13650,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12832,7 +13672,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12847,13 +13688,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med komplexa rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1\\cos 3x+C_2\\sin 3x",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12868,13 +13710,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med komplexa rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "e^{-x}(C_1\\cos2x+C_2\\sin2x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12889,13 +13732,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Bestäm differentialekvation från lösning",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "y''-4y'+13y=0",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12910,12 +13754,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med komplexa rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1\\cos4x+C_2\\sin4x",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12930,12 +13775,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Begynnelsevärdesproblem av andra ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "e^{-2x}(C_1\\cos3x+C_2\\sin3x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12950,13 +13796,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena andra ordningens ekvationer med polynom som högerled",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^x+C_2e^{2x}+3",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12971,13 +13818,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena andra ordningens ekvationer med polynom som högerled",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^x+C_2e^{-2x}-2x-1",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -12992,13 +13840,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena andra ordningens ekvationer med exponentialhögerled",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^{2x}+C_2e^{3x}+\\frac32e^x",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13013,13 +13862,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med reella rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^x+C_2e^{2x}-xe^x",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13034,13 +13884,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena andra ordningens ekvationer med trigonometriskt högerled",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1\\cos2x+C_2\\sin2x+\\frac83\\cos x",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13053,7 +13904,7 @@ window.BANKMATF1 = [
     "id": "4.32",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Resonans och anpassad partikulärlösning",
+    "familj": "Anpassad ansats för partikulärlösning",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13082,7 +13933,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13118,12 +13970,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena differentialekvationer av andra ordningen",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "x^2-4x+2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13138,12 +13991,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena andra ordningens ekvationer med polynom som högerled",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^x+C_2e^{-2x}-4",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13158,12 +14012,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena andra ordningens ekvationer med polynom som högerled",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "-6x",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13199,13 +14054,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med reella rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^x+C_2e^{-x}+\\frac43e^{2x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13220,13 +14076,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med reella rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "\\frac85\\cos2x",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13241,12 +14098,13 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena andra ordningens ekvationer med polynom som högerled",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1\\cos x+C_2\\sin x+3x-2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13261,13 +14119,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med reella rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "\\frac12x^2e^{2x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13280,7 +14139,7 @@ window.BANKMATF1 = [
     "id": "4.119",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Resonans och anpassad partikulärlösning",
+    "familj": "Anpassad ansats för partikulärlösning",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -13303,13 +14162,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med reella rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^{3x}+C_2e^{4x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13324,13 +14184,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med dubbelrot",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "(C_1+C_2x)e^{-3x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13345,13 +14206,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Homogena andra ordningens ekvationer med komplexa rötter",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "e^{-x}(C_1\\cos3x+C_2\\sin3x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13366,13 +14228,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena andra ordningens ekvationer med polynom som högerled",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^x+C_2e^{-x}-6",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13387,13 +14250,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena andra ordningens ekvationer med exponentialhögerled",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1e^x+C_2e^{2x}+\\frac16e^{4x}",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13406,7 +14270,7 @@ window.BANKMATF1 = [
     "id": "4.153",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Resonans och anpassad partikulärlösning",
+    "familj": "Anpassad ansats för partikulärlösning",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -13429,13 +14293,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena andra ordningens ekvationer med polynom som högerled",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1\\cos x+C_2\\sin x+2x",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13450,13 +14315,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Inhomogena andra ordningens ekvationer med trigonometriskt högerled",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "C_1\\cos2x+C_2\\sin2x+\\frac13\\cos x",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -13477,7 +14343,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13499,7 +14366,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13521,7 +14389,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13544,7 +14413,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -13566,7 +14436,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13587,7 +14458,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13608,7 +14480,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13630,7 +14503,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13651,7 +14525,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13673,7 +14548,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13851,7 +14727,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ]
   },
   {
@@ -13894,8 +14771,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -13916,8 +14795,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -13938,8 +14819,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -13954,13 +14837,25 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Tolka och kontrollera numeriska differentialekvationslösningar",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      0.18,
+      2.25
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "procent"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "absolut fel",
+      "relativt fel"
     ]
   },
   {
@@ -13982,8 +14877,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -13998,13 +14895,26 @@ window.BANKMATF1 = [
     "geogebra": true,
     "familj": "Läkemedelsmodeller med differentialekvationer",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "60(1-e^{-0.3t})",
+      4.62
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "M(t)",
+      "tid"
     ]
   },
   {
@@ -14047,7 +14957,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14067,7 +14978,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14087,7 +14999,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14107,7 +15020,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14128,7 +15042,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14149,7 +15064,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14169,7 +15085,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14189,7 +15106,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14210,7 +15128,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14231,7 +15150,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14251,7 +15171,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14266,13 +15187,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Begynnelsevärdesproblem för svängningar",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "-2\\cos x+\\sin x+2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14315,7 +15237,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -14336,7 +15259,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -14351,12 +15275,45 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Tolka riktningsfält och differentialekvation",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      -1,
+      2,
+      1
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "(0,1)",
+      "(1,0)",
+      "(2,3)"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((0,1)\\)</div>",
+        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot0-1=-1\\).</p><p><strong></strong></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((1,0)\\)</div>",
+        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot1-0=2\\).</p><p><strong></strong></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((2,3)\\).</div>",
+        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot2-3=1\\).</p>"
+      }
     ]
   },
   {
@@ -14393,13 +15350,28 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Eulers metod",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      0.25,
+      0.31640625,
+      0.25
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "h=0,5",
+      "h=0,25",
+      "bästa steglängd"
     ]
   },
   {
@@ -14436,11 +15408,36 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Jämvikt och stabilitet i riktningsfält",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        0,
+        2
+      ],
+      null,
+      null
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": [
+      true,
+      false,
+      false
+    ],
     "formaga": [
       "begrepp"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "jämviktslösningar",
+      "start y(0)=0,5",
+      "start y(0)=3"
     ]
   },
   {
@@ -14463,7 +15460,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -14478,12 +15476,45 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Tolka riktningsfält och differentialekvation",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      2,
+      0,
+      -1
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "(0,2)",
+      "(1,1)",
+      "(2,3)"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((0,2)\\)</div>",
+        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2-0^2=2\\).</p><p><strong></strong></p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((1,1)\\)</div>",
+        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(1-1^2=0\\).</p><p><strong></strong></p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((2,3)\\).</div>",
+        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(3-2^2=-1\\).</p>"
+      }
     ]
   },
   {
@@ -14505,7 +15536,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 4,
@@ -14520,13 +15552,34 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Jämvikt och stabilitet i riktningsfält",
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        -2,
+        1
+      ],
+      null
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": [
+      true,
+      false
+    ],
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "jämviktslösningar",
+      "stabilitet"
     ]
   },
   {
@@ -14549,7 +15602,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -14611,7 +15665,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "problemlösning"
     ]
   },
   {
@@ -14633,7 +15688,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "modellering",
-      "resonemang"
+      "resonemang",
+      "problemlösning"
     ]
   },
   {
@@ -14649,13 +15705,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Bestäm eller kontrollera differentialekvation från lösning",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": "y'=-2(y-3)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "kap": 4,
@@ -14694,8 +15751,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.209",
@@ -14715,8 +15774,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.210",
@@ -14731,12 +15792,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Fördela identiska objekt med villkor",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 120,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.211",
@@ -14751,12 +15814,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Fördela identiska objekt med villkor",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 81,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.212",
@@ -14775,8 +15840,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.213",
@@ -14796,8 +15863,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.214",
@@ -14817,8 +15886,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.215",
@@ -14838,8 +15909,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.216",
@@ -14859,7 +15932,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.217",
@@ -14880,7 +15954,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.218",
@@ -14900,7 +15975,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.219",
@@ -14921,7 +15997,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.220",
@@ -14941,7 +16018,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.221",
@@ -14956,13 +16034,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Permutationer och ordningar med placeringsvillkor",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 20,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.222",
@@ -14981,8 +16060,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.223",
@@ -15001,8 +16082,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.224",
@@ -15017,13 +16100,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Permutationer och ordningar med placeringsvillkor",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 810,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.225",
@@ -15044,7 +16128,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.226",
@@ -15065,8 +16150,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.227",
@@ -15087,8 +16174,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang"
-    ]
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.228",
@@ -15103,12 +16192,14 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Räkna kortaste vägar i rutnät",
     "svarstyp": "text",
-    "rättSvar": null,
+    "rättSvar": 66,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.229",
@@ -15130,7 +16221,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.230",
@@ -15149,8 +16241,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.231",
@@ -15171,7 +16265,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.110",
@@ -15191,8 +16286,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.111",
@@ -15211,8 +16308,10 @@ window.BANKMATF1 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.112",
@@ -15233,8 +16332,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.113",
@@ -15254,8 +16355,10 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
-    ]
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.114",
@@ -15276,8 +16379,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.115",
@@ -15298,8 +16403,10 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
-    ]
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.116",
@@ -15320,7 +16427,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.117",
@@ -15339,8 +16447,10 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
-    ]
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.209",
@@ -15361,7 +16471,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.210",
@@ -15382,7 +16493,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.211",
@@ -15403,7 +16515,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.212",
@@ -15424,7 +16537,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.213",
@@ -15446,7 +16560,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.214",
@@ -15488,7 +16603,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.216",
@@ -15509,7 +16625,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.217",

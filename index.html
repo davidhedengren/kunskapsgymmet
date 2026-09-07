@@ -1004,6 +1004,35 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   padding:5px 10px;border-radius:10px;transition:.2s var(--ease);
 }
 .pt-andra:hover{background:var(--accSoft)}
+/* Sammandraget läge: en rad i stället för ett kort. Samma tonade yta
+   och samma ribba, så att eleven ser att det är samma tränare. */
+.pt-liten{
+  display:flex;align-items:center;gap:13px;flex-wrap:wrap;
+  padding:13px 18px;border-radius:18px;margin-bottom:20px;
+}
+.pt-liten .pt-ikon.liten{width:36px;height:36px;border-radius:12px}
+.pt-liten .pt-ikon.liten svg{width:19px;height:19px}
+.pt-liten-txt{flex:1;min-width:150px;position:relative}
+.pt-liten-txt b{display:block;font-size:14.5px;letter-spacing:-.025em}
+.pt-liten-txt small{
+  display:block;margin-top:1px;font-size:12px;color:var(--ink3);
+  font-family:var(--read);letter-spacing:0;
+}
+.pt-mini{
+  position:relative;flex:none;width:96px;height:5px;border-radius:99px;
+  background:var(--hair);overflow:hidden;
+}
+.pt-mini i{
+  display:block;height:100%;border-radius:99px;
+  background:linear-gradient(90deg,var(--acc),var(--acc2));
+  transition:width .5s var(--ease);
+}
+.pt-liten.klart .pt-mini i{background:var(--good)}
+.pt-liten .pt-andra{margin-left:0;font-size:12px}
+@media(max-width:620px){
+  .pt-mini{display:none}
+  .pt-liten .btn{flex:1}
+}
 .pt-val .valruta{background:var(--surface)}
 @media(max-width:700px){
   .pt{padding:18px 17px 19px;border-radius:20px}
@@ -3213,25 +3242,25 @@ function repetitionInom(keys){
    tränar passet hela fokus. */
 const PASS={
   grund:{
-    namn:"Grundpass", under:"Blandat inom fokus", niva:"Nivå efter dagsform",
+    namn:"Grundpass", under:"Blandat inom områdena du jobbar med", niva:"Nivå efter dagsform",
     vikt:{E:1,C:1,A:1}, malFaktor:1
   },
   teknik:{
-    namn:"Teknikpass", under:"Det som skaver mest", niva:"Nivå 1–2",
+    namn:"Teknikpass", under:"Det du har svårast för", niva:"Nivå 1–2",
     vikt:{E:3.2,C:1,A:.25}, malFaktor:1,
     omraden:keys=>svagaInom(keys,2)
   },
   mangd:{
-    namn:"Mängdpass", under:"Många uppgifter i följd", niva:"Nivå 1–2",
+    namn:"Mängdpass", under:"Många uppgifter", niva:"Nivå 1–2",
     vikt:{E:2.6,C:1,A:.3}, malFaktor:1.6
   },
   tungt:{
-    namn:"Tungt pass", under:"Färre men svårare", niva:"Nivå 2–3",
+    namn:"Tungt pass", under:"Svårare uppgifter där du är starkast", niva:"Nivå 2–3",
     vikt:{E:.25,C:1.3,A:2.4}, malFaktor:.7,
     omraden:keys=>starkaInom(keys,3)
   },
   repetition:{
-    namn:"Repetitionspass", under:"Sådant du inte rört på ett tag", niva:"Nivå 1–3",
+    namn:"Repetitionspass", under:"Sådant du inte tränat på ett tag", niva:"Nivå 1–3",
     vikt:{E:1,C:1.1,A:.7}, malFaktor:1,
     omraden:keys=>repetitionInom(keys)
   }
@@ -3386,9 +3415,51 @@ function passChips(typ){
    KURSVY
    ========================================================== */
 
+/* ---------- tränarens tre lägen ----------
+   Fullt kort när dagens pass ligger framför eleven. Sammandraget när
+   beslutet redan är taget: mitt i ett pass, eller när dagsmålet är
+   klart. Lägena styrs av läget, inte av eleven — den som fäller ihop
+   kortet en trött torsdag ska inte hitta det ihopfällt på måndagen
+   då den behövde en knuff. "Visa" öppnar det för stunden. */
+function pagaendePass(){
+  return !!(state.currentTask && state.sessionDone>0 && state.sessionDone<state.sessionTarget);
+}
+function fortsattPass(){
+  if(!state.currentTask) return startPass(dagensPass());
+  navRecord("training"); renderTraining();
+}
+function oppnaPt(){ state.ptOppen=true; renderDashboard(); }
+
+function ptLitet(sort){
+  const typ=dagensPass();
+  const done=todayCount(), goal=profile.goal||8, st=currentStreak();
+  const pagar=sort==="pagar";
+  const kvot=pagar ? state.sessionDone/state.sessionTarget : Math.min(1,done/goal);
+  return `
+  <section class="pt pt-liten${pagar?"":" klart"}">
+    <span class="pt-ikon liten">${passIkon(pagar?(state.passTyp||typ):typ)}</span>
+    <span class="pt-liten-txt">
+      <b>${pagar?esc(sessionLabel()):"Dagens mål klart"}</b>
+      <small>${pagar
+        ? `${state.sessionDone} av ${state.sessionTarget} uppgifter klara`
+        : `${done} av ${goal} uppgifter${st>1?` · ${st} dagar i rad`:""}`}</small>
+    </span>
+    <span class="pt-mini"><i style="width:${Math.round(kvot*100)}%"></i></span>
+    <button class="btn primary sm" onclick="${pagar?"fortsattPass()":`startPass('${typ}')`}">
+      ${pagar?"Fortsätt":"Ett pass till"} <span aria-hidden="true">→</span>
+    </button>
+    <button class="pt-andra" onclick="oppnaPt()">Visa tränaren</button>
+  </section>`;
+}
+
 function ptKort(){
+  const done=todayCount(), goal=profile.goal||8;
+  const klart=done>=goal && profile.attempts;
+  if(!state.ptOppen){
+    if(pagaendePass()) return ptLitet("pagar");
+    if(klart) return ptLitet("klart");
+  }
   const typ=dagensPass(), p=PASS[typ]||PASS.grund;
-  const done=todayCount(), goal=profile.goal||8, klart=done>=goal && profile.attempts;
   const chips=passChips(typ);
   if(klart) chips.unshift("Dagens mål klart");
   const aktiva=aktivaKapitel(), t=traningsOmraden();
@@ -3421,13 +3492,15 @@ function ptKort(){
       <span class="pt-ikon">${passIkon(typ)}</span>
       <span class="pt-titel">
         <span class="pt-lbl">Din personliga tränare</span>
-        <h2>${p.namn}</h2>
+        <h2>Idag: ${p.namn}</h2>
       </span>
       <span class="pt-chips">${chips.map(c=>`<span class="pt-chip">${esc(c)}</span>`).join("")}</span>
     </div>
     <p class="pt-msg">${passMeddelande(typ)}</p>
     <div class="pt-act">
-      <button class="btn primary" onclick="startPass('${typ}')">${klart?"Kör ett pass till":"Starta passet"} <span aria-hidden="true">→</span></button>
+      ${pagaendePass()
+        ? `<button class="btn primary" onclick="fortsattPass()">Fortsätt passet <span aria-hidden="true">→</span></button>`
+        : `<button class="btn primary" onclick="startPass('${typ}')">${klart?"Kör ett pass till":"Starta passet"} <span aria-hidden="true">→</span></button>`}
       <button class="btn" onclick="vaxlaPassval()" aria-expanded="${state.visaPassval?"true":"false"}">${state.visaPassval?"Stäng":"Byt pass"}</button>
       <button class="btn quiet" onclick="showAreaPicker()">Punktträna</button>
     </div>
@@ -3840,6 +3913,7 @@ function chooseTask(){
 
 function beginSession(typ){
   state.passTyp=PASS[typ]?typ:null;
+  state.ptOppen=false;
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
   const f=(PASS[state.passTyp]||{}).malFaktor||1;
   state.sessionTarget=Math.max(4,Math.round((profile.goal||8)*f));

@@ -762,6 +762,17 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}
 .area .state{font-size:11.5px;font-weight:600;letter-spacing:.005em;color:var(--tone)}
 .area.stack{flex-direction:column;align-items:stretch;gap:11px;min-height:96px}
+/* Punktträningen: korten har olika många delmoment, så raden får inte
+   sträcka alla till det högsta kortets höjd. */
+.punktgrid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));align-items:start}
+.punktgrid .area.stack{min-height:0}
+.omrknapp{all:unset;cursor:pointer;display:block;width:100%}
+.delmoment{display:block}
+.dellbl{
+  display:block;margin-bottom:6px;font-size:10.5px;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);
+}
+.deltaggar{display:flex;gap:5px;flex-wrap:wrap}
 .area.stack .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
 .meter{height:5px;border-radius:99px;background:var(--hair);overflow:hidden;flex:1;max-width:80px;
   box-shadow:inset 0 1px 2px rgba(11,33,51,.10)}
@@ -1777,7 +1788,7 @@ async function synkaProfil(){
   }
   await skickaMolnprofil();
 }
-const BANK_VERSION="2026-09-07";
+const BANK_VERSION="2026-09-07b";
 const app=document.getElementById("app");
 
 const state={
@@ -2830,6 +2841,34 @@ async function loadScript(src){
   });
 }
 
+/* ==========================================================
+   MIGRERING AV FAMILJENAMN
+   Banken kan ge en familj ett tydligare namn och lämna det gamla i
+   familjTidigare. Då flyttas elevens progress över till det nya
+   namnet. Det gamla värdet ligger kvar, så att en äldre bankversion
+   fortfarande hittar sin egen progress.
+   ========================================================== */
+function migreraFamiljer(){
+  const cp=ensureCourseProfile();
+  const bank=state.data?.bank||[];
+  const lista=x=>(Array.isArray(x)?x:[x]).filter(Boolean).map(String);
+  let andrat=false;
+  bank.forEach(t=>{
+    if(!t||!t.familjTidigare||!t.familj) return;
+    const gamla=lista(t.familjTidigare), nya=lista(t.familj);
+    gamla.forEach(g=>{
+      const v=cp.families[g];
+      if(typeof v!=="number") return;
+      nya.forEach(n=>{
+        if(n===g) return;
+        const nu=typeof cp.families[n]==="number" ? cp.families[n] : 0;
+        if(v>nu){ cp.families[n]=v; andrat=true; }
+      });
+    });
+  });
+  if(andrat) saveProfile();
+}
+
 async function selectCourse(id,opts){
   const {record=true,render=true}=opts||{};
   const c=COURSES[id];
@@ -2853,6 +2892,7 @@ async function selectCourse(id,opts){
     state.focusFamily=null;state.currentTask=null;
     state.openChapters=null;
     ensureCourseProfile();
+    migreraFamiljer();
     applyAccent();
     if(record) navRecord("dashboard");
     if(render) renderDashboard();
@@ -3073,25 +3113,84 @@ function setTrack(track){
   state.focusFamily=null; state.currentTask=null;
   renderDashboard();
 }
-function weakAreas(limit=4){
-  const cp=ensureCourseProfile();
-  return getAreas().filter(a=>typeof cp.areas[a.key]==="number")
-    .map(a=>({...a,m:cp.areas[a.key]})).sort((a,b)=>a.m-b.m).slice(0,limit);
+/* ==========================================================
+   KORTET SOM ELEVENS OMRÅDE
+   OMR-nycklarna i banken är tekniska underområden. De styr fortfarande
+   adaptiv statistik och sparad progress, men det eleven ser och väljer
+   är kortet: en GRUPP om strukturfilen har en, annars det enskilda
+   området. Allt som visas för eleven ska därför byggas på getCards().
+   ========================================================== */
+
+function cardTaskPool(kort){
+  return availableTasks().filter(t=>kort.omr.includes(t.omr||"ovrigt"));
 }
-function strongAreas(limit=4){
-  const cp=ensureCourseProfile();
-  return getAreas().filter(a=>typeof cp.areas[a.key]==="number")
-    .map(a=>({...a,m:cp.areas[a.key]})).sort((a,b)=>b.m-a.m).slice(0,limit);
+/* Delmomenten inom ett helt kort. Räknas på availableTasks(), alltså
+   efter kursspår, spel:false och uppdelning i deluppgifter — annars
+   skulle antalen inte spegla vad eleven faktiskt kan träna. */
+function cardFamilies(kort){
+  const pool=cardTaskPool(kort);
+  const counts=new Map();
+  pool.forEach(t=>{
+    const fs=(Array.isArray(t.familj)?t.familj:[t.familj]).filter(Boolean);
+    fs.forEach(f=>counts.set(f,(counts.get(f)||0)+1));
+  });
+  let fam=[...counts].map(([family,count])=>({family,count}));
+  // Ett delmoment måste ha en rimlig träningspool.
+  fam=fam.filter(x=>x.count>=5);
+  // Är kortet i praktiken en enda familj tillför knappen ingenting.
+  if(fam.length===1 && fam[0].count>=pool.length*0.80) return [];
+  return fam.sort((a,b)=>b.count-a.count).slice(0,10);
 }
+
+/* En familj kan förekomma i flera underområden. Den hör hemma i det
+   kort där den har flest spelbara uppgifter i aktuellt spår. */
+function familjIndex(){
+  const kort=getCards();
+  const omrTillKort={};
+  kort.forEach(k=>k.omr.forEach(o=>omrTillKort[o]=k.key));
+  const idx=new Map();
+  availableTasks().forEach(t=>{
+    const kk=omrTillKort[t.omr||"ovrigt"];
+    if(!kk) return;
+    const fs=(Array.isArray(t.familj)?t.familj:[t.familj]).filter(Boolean);
+    fs.forEach(f=>{
+      if(!idx.has(f)) idx.set(f,{total:0,kort:new Map()});
+      const e=idx.get(f);
+      e.total++;
+      e.kort.set(kk,(e.kort.get(kk)||0)+1);
+    });
+  });
+  return {idx,kortMap:new Map(kort.map(k=>[k.key,k]))};
+}
+
+/* Elevsynliga listor sorteras på kortets läge, inte på råa OMR. */
+function rankedCards(limit,riktning){
+  return getCards().map(k=>({kort:k,st:cardStatus(k)}))
+    .filter(x=>x.st.seen)
+    .sort((a,b)=>riktning*(a.st.m-b.st.m))
+    .slice(0,limit)
+    .map(x=>({key:x.kort.key,name:x.kort.name,m:x.st.m}));
+}
+function weakCards(limit=4){ return rankedCards(limit,1); }
+function strongCards(limit=4){ return rankedCards(limit,-1); }
+
 function weakFamilies(limit=8){
   const cp=ensureCourseProfile();
-  const seen=new Map();
-  availableTasks().forEach(t=>{
-    if(!t.familj) return;
-    const fs=Array.isArray(t.familj)?t.familj:[t.familj];
-    fs.forEach(f=>{ if(!seen.has(f)) seen.set(f,{family:f,area:t.omr,count:0}); seen.get(f).count++; });
-  });
-  return [...seen.values()].map(x=>({...x,m:mastery(cp.families,x.family)}))
+  const {idx,kortMap}=familjIndex();
+  // Ett delmoment som inte gör urvalet smalare än hela kortet listas
+  // inte. Samma regel som i punktträningen, så listorna säger samma sak.
+  const godkanda=new Map();
+  const okForCard=(k,f)=>{
+    if(!godkanda.has(k.key)) godkanda.set(k.key,new Set(cardFamilies(k).map(x=>x.family)));
+    return godkanda.get(k.key).has(f);
+  };
+  return [...idx.entries()]
+    .filter(([,e])=>e.total>=5)
+    .map(([family,e])=>{
+      const bast=[...e.kort.entries()].sort((a,b)=>b[1]-a[1])[0];
+      return {family,count:e.total,card:kortMap.get(bast[0]),m:mastery(cp.families,family)};
+    })
+    .filter(x=>x.card && okForCard(x.card,x.family))
     .sort((a,b)=>a.m-b.m).slice(0,limit);
 }
 
@@ -3481,7 +3580,7 @@ function ptKort(){
     <div class="pt-val">
       ${kursensKapitel().map(k=>{
         const pa=aktiva.includes(k);
-        const antal=getAreas().filter(a=>String(a.kap)===k).length;
+        const antal=getCards().filter(a=>String(a.kap)===k).length;
         return `<button class="valruta${pa?" vald":""}" onclick="vaxlaKapitel('${esc(k)}')">
           <span class="kryss" aria-hidden="true"></span>
           <span class="valnamn">${esc(chapterName(k))}</span>
@@ -3525,10 +3624,10 @@ function renderDashboard(){
   document.title=COURSES[state.course].name+" · Kunskapsgymmet";
   state.view="dashboard";
   const c=COURSES[state.course];
-  const areas=getAreas(), kort=getCards(), cp=ensureCourseProfile();
+  const kort=getCards(), cp=ensureCourseProfile();
   const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
   const done=todayCount(), goal=profile.goal||8, st=currentStreak();
-  const weak=weakAreas(3);
+  const weak=weakCards(3);
 
   const grouped={};
   kort.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
@@ -3633,7 +3732,7 @@ function renderDashboard(){
         <div class="card pad">
           <div class="sec"><h2>Träna mer på</h2></div>
           <div class="rowlist">
-            ${weak.length?weak.map(x=>`<button class="row" onclick="startArea('${esc(x.key)}')">
+            ${weak.length?weak.map(x=>`<button class="row" onclick="startCard('${esc(x.key)}')">
               <span class="dot warn"></span><span class="name">${esc(x.name)}</span><span class="val">${Math.round(x.m*100)}%</span>
             </button>`).join(""):`<div class="empty">Träna några uppgifter så bygger jag din profil.</div>`}
           </div>
@@ -3652,9 +3751,9 @@ function renderDashboard(){
 function showAreaPicker(record){
   if(record!==false) navRecord("picker");
   state.view="picker";
-  const areas=getAreas();
+  const kort=getCards();
   const grouped={};
-  areas.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
+  kort.forEach(k=>{(grouped[k.kap] ||= []).push(k)});
   const kapitel=Object.keys(grouped).sort((a,b)=>kapNr(a)-kapNr(b));
   if(!state.openChapters) state.openChapters=new Set(kapitel.length>1?[String(kapitel[0])]:kapitel.map(String));
   app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
@@ -3662,7 +3761,7 @@ function showAreaPicker(record){
       <div class="t">
         <button class="crumb" onclick="backToDashboard()"><span aria-hidden="true">←</span> Tillbaka</button>
         <h1>Punktträna</h1>
-        <p>Välj område, eller en enskild uppgiftstyp för smalare träning.</p>
+        <p>Välj område, eller ett enskilt delmoment för smalare träning.</p>
       </div>
     </div>
     ${kapitel.map(kap=>{
@@ -3671,16 +3770,20 @@ function showAreaPicker(record){
       <section class="chapter${open?" open":""}">
         ${chapterHead(kap,chapterName(kap),grouped[kap],false)}
         <div class="chapter-body"${open?"":" hidden"}>
-        <div class="area-grid stagger" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">
-          ${grouped[kap].map(a=>{
-            const s=areaStatus(a.key);
+        <div class="area-grid stagger punktgrid">
+          ${grouped[kap].map(k=>{
+            const s=cardStatus(k);
+            const fam=cardFamilies(k);
             return `<div class="area stack ${s.tone}" style="cursor:default">
-              <button style="all:unset;cursor:pointer;display:block;width:100%" onclick="startArea('${esc(a.key)}')">
-                <strong>${esc(a.name)}</strong>
+              <button class="omrknapp" onclick="startCard('${esc(k.key)}')">
+                <strong>${esc(k.name)}</strong>
               </button>
-              ${a.families.size?`<div style="display:flex;gap:5px;flex-wrap:wrap">
-                ${[...a.families].slice(0,14).map(f=>`<button class="tag" style="cursor:pointer"
-                  onclick="startFamily('${esc(a.key)}','${esc(f)}')">${esc(familyName(f))}</button>`).join("")}
+              ${fam.length?`<div class="delmoment">
+                <span class="dellbl">Delmoment</span>
+                <div class="deltaggar">
+                  ${fam.map(f=>`<button class="tag" style="cursor:pointer"
+                    onclick="startCardFamily('${esc(k.key)}','${esc(f.family)}')">${esc(familyName(f.family))}</button>`).join("")}
+                </div>
               </div>`:""}
               <span class="foot">
                 <span class="meter ${s.mcls}"><i data-w="${Math.round(s.m*100)}%"></i></span>
@@ -3956,12 +4059,12 @@ function startArea(area){
 function oppnaFlerval(kap){
   state.flervalKap=String(kap);
   state.flervalValda=new Set();
-  const omr=getAreas().filter(a=>String(a.kap)===state.flervalKap);
-  const rutor=omr.map(a=>{
-    const st=areaStatus(a.key);
-    return `<button class="valruta ${st.tone}" data-omr="${esc(a.key)}" onclick="vaxlaVal(this)">
+  const kort=getCards().filter(k=>String(k.kap)===state.flervalKap);
+  const rutor=kort.map(k=>{
+    const st=cardStatus(k);
+    return `<button class="valruta ${st.tone}" data-kort="${esc(k.key)}" onclick="vaxlaVal(this)">
       <span class="kryss" aria-hidden="true"></span>
-      <span class="valnamn">${esc(a.name)}</span>
+      <span class="valnamn">${esc(k.name)}</span>
       <span class="valstate">${st.label}</span>
     </button>`;
   }).join("");
@@ -3998,7 +4101,7 @@ function stangFlerval(){
   setTimeout(()=>el.remove(),250);
 }
 function vaxlaVal(btn){
-  const key=btn.dataset.omr;
+  const key=btn.dataset.kort;
   if(state.flervalValda.has(key)){ state.flervalValda.delete(key); btn.classList.remove("vald"); }
   else { state.flervalValda.add(key); btn.classList.add("vald"); }
   uppdateraFlervalKnapp();
@@ -4006,7 +4109,7 @@ function vaxlaVal(btn){
 function valjAllaOmraden(alla){
   document.querySelectorAll("#flervalsruta .valruta").forEach(b=>{
     b.classList.toggle("vald",alla);
-    if(alla) state.flervalValda.add(b.dataset.omr); else state.flervalValda.delete(b.dataset.omr);
+    if(alla) state.flervalValda.add(b.dataset.kort); else state.flervalValda.delete(b.dataset.kort);
   });
   uppdateraFlervalKnapp();
 }
@@ -4022,10 +4125,14 @@ function uppdateraFlervalKnapp(){
 function startaFlerval(){
   const valda=[...state.flervalValda];
   if(!valda.length) return;
-  const namn=getAreas().filter(a=>valda.includes(a.key)).map(a=>a.name);
+  // Ett valt kort kan rymma flera underområden. Passet tränar unionen.
+  const kort=getCards().filter(k=>valda.includes(k.key));
+  if(!kort.length) return;
+  const namn=kort.map(k=>k.name);
+  const omr=[...new Set(kort.flatMap(k=>k.omr))];
   stangFlerval();
   state.focusArea=null;
-  state.focusOmr=valda;
+  state.focusOmr=omr;
   state.focusNamn = valda.length===1 ? namn[0] : namn.length+" områden";
   state.focusFamily=null;
   beginSession();
@@ -4051,10 +4158,18 @@ function startCard(key){
   state.focusFamily=null;beginSession();
   navRecord("training");nextTask();
 }
-function startFamily(area,family){
-  state.focusArea=area;state.focusOmr=[area];state.focusNamn=null;
-  state.focusFamily=family;beginSession();
-  navRecord("training");nextTask();
+/* Ett delmoment tränas inom hela det elevsynliga området, inte bara i
+   det underområde där uppgiften råkar ligga. */
+function startCardFamily(cardKey,family){
+  const kort=getCards().find(k=>k.key===cardKey);
+  if(!kort) return;
+  state.focusArea=null;
+  state.focusOmr=[...kort.omr];
+  state.focusNamn=kort.name;
+  state.focusFamily=family;
+  beginSession();
+  navRecord("training");
+  nextTask();
 }
 function continueSession(){ beginSession(); navRecord("training",true); nextTask(); }
 function nextTask(){
@@ -5900,7 +6015,7 @@ function showProgress(record){
   if(!state.course) return renderHome();
   if(record!==false) navRecord("progress");
   state.view="progress";
-  const strong=strongAreas(5), weak=weakAreas(5), families=weakFamilies(8);
+  const strong=strongCards(5), weak=weakCards(5), families=weakFamilies(8);
   const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
   const acc=profile.attempts?Math.round(profile.correct/profile.attempts*100):0;
   const st=currentStreak();
@@ -6018,7 +6133,7 @@ function showProgress(record){
       <div class="card pad">
         <div class="sec"><h2>Starkt just nu</h2></div>
         <div class="rowlist">
-          ${strong.length?strong.map(x=>`<button class="row" onclick="startArea('${esc(x.key)}')">
+          ${strong.length?strong.map(x=>`<button class="row" onclick="startCard('${esc(x.key)}')">
             <span class="dot good"></span><span class="name">${esc(x.name)}</span><span class="val">${Math.round(x.m*100)}%</span>
           </button>`).join(""):`<div class="empty">Träna några uppgifter först.</div>`}
         </div>
@@ -6026,19 +6141,19 @@ function showProgress(record){
       <div class="card pad">
         <div class="sec"><h2>Prioriteras framåt</h2></div>
         <div class="rowlist">
-          ${weak.length?weak.map(x=>`<button class="row" onclick="startArea('${esc(x.key)}')">
+          ${weak.length?weak.map(x=>`<button class="row" onclick="startCard('${esc(x.key)}')">
             <span class="dot warn"></span><span class="name">${esc(x.name)}</span><span class="val">${Math.round(x.m*100)}%</span>
           </button>`).join(""):`<div class="empty">Ingen data ännu.</div>`}
         </div>
       </div>
     </div>
 
-    <div class="sec" style="margin-top:22px"><h2>Uppgiftstyper att punktträna</h2></div>
+    <div class="sec" style="margin-top:22px"><h2>Delmoment att punktträna</h2></div>
     <div class="card pad">
       <div class="rowlist">
-        ${families.length?families.map(x=>`<button class="row" onclick="startFamily('${esc(x.area)}','${esc(x.family)}')">
+        ${families.length?families.map(x=>`<button class="row" onclick="startCardFamily('${esc(x.card.key)}','${esc(x.family)}')">
           <span class="dot warn"></span><span class="name">${esc(familyName(x.family))}</span>
-          <span class="val">${esc(areaName(x.area))} · ${Math.round(x.m*100)}%</span>
+          <span class="val">${esc(x.card.name)} · ${Math.round(x.m*100)}%</span>
         </button>`).join(""):`<div class="empty">Den här banken saknar familjetaggar, eller så finns ingen data ännu.</div>`}
       </div>
     </div>

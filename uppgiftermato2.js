@@ -1,4 +1,8 @@
-/* uppgiftermato2.js — Matematik fortsättning nivå 2. Familjetaggning reviderad för Kunskapsgymmet 2026-09-07. */
+/* uppgiftermato2.js — Matematik – fortsättning nivå 2.
+   Hierarkirevision för Kunskapsgymmet 2026-09-07.
+   OMR bevaras som intern understruktur; familj är elevens punktträningsdelmoment.
+   familjTidigare finns på omdöpta familjer för migrering av sparad familjeprogress. */
+
 window.BANKMATO2 = [
   {
     "id": "1.01",
@@ -444,7 +448,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>För \\(f(x)=\\tan(2x)\\):</p><p>a) ange perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) ange två närliggande lodräta asymptoter kring origo<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) bestäm \\(f(\\pi/8)\\).</p>",
     "s": "<p><strong>Metod:</strong> För \\(\\tan(kx)\\) är perioden \\(\\pi/|k|\\). Lodräta asymptoter fås när vinkeln i tangensuttrycket är \\(\\pi/2+n\\pi\\).</p><p>a) \\(T=\\pi/2\\).</p><p>b) \\(2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\). De två närmast origo är \\(\\boxed{x=-\\pi/4}\\) och \\(\\boxed{x=\\pi/4}\\).</p><p>c) \\(f(\\pi/8)=\\tan(2\\cdot\\pi/8)=\\tan(\\pi/4)=\\boxed{1}\\).</p>",
-    "familj": "Period och asymptoter för tangensfunktioner",
+    "familj": "Tangensfunktionens period och asymptoter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -452,7 +456,8 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Period och asymptoter för tangensfunktioner"
   },
   {
     "id": "1.11",
@@ -556,7 +561,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>En trigonometrisk kurva har en maximipunkt i</p>\n<p>\\[\n\\left(\\frac{\\pi}{3},5\\right)\n\\]</p>\n<p>och nästa minimipunkt i</p>\n<p>\\[\n\\left(\\frac{5\\pi}{6},1\\right).\n\\]</p>\n<p>Det finns inga extrempunkter mellan dessa punkter.</p>\n<p>Bestäm en ekvation för kurvan på formen \\(y=A\\sin(kx+v)+B\\).</p>",
     "s": "<p>Största värdet är \\(5\\) och minsta \\(1\\). Därför</p>\n<p>\\[\nA=\\frac{5-1}{2}=2,\\qquad B=\\frac{5+1}{2}=3.\n\\]</p>\n<p>Avståndet från en maxpunkt till nästa minpunkt är en halv period:</p>\n<p>\\[\n\\frac{T}{2}=\\frac{5\\pi}{6}-\\frac{\\pi}{3}\n=\\frac{\\pi}{2}.\n\\]</p>\n<p>Alltså \\(T=\\pi\\) och</p>\n<p>\\[\nk=\\frac{2\\pi}{T}=2.\n\\]</p>\n<p>Vid \\(x=\\pi/3\\) ska vinkeln i sinusuttrycket vara \\(\\pi/2\\):</p>\n<p>\\[\n2\\cdot\\frac{\\pi}{3}+v=\\frac{\\pi}{2}\n\\Rightarrow v=-\\frac{\\pi}{6}.\n\\]</p>\n<p><strong>\\[\ny=2\\sin\\left(2x-\\frac{\\pi}{6}\\right)+3.\n\\]</strong></p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -564,7 +569,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.14",
@@ -579,7 +585,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Grafen visar en funktion som kan skrivas</p>\n<p>\\[\nf(x)=A\\sin(kx+v)+B.\n\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"250\" viewBox=\"0 0 470 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till en sinusfunktion med period pi, maxvärde 3 och minvärde minus 1\">\n<rect x=\"1\" y=\"1\" width=\"468\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55\" y1=\"215.0\" x2=\"445\" y2=\"215.0\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"219.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-2</text>\n<line x1=\"55\" y1=\"183.3\" x2=\"445\" y2=\"183.3\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"187.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-1</text>\n<line x1=\"55\" y1=\"151.7\" x2=\"445\" y2=\"151.7\" stroke=\"#D9E6E9\"/>\n<line x1=\"55\" y1=\"120.0\" x2=\"445\" y2=\"120.0\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"124.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text>\n<line x1=\"55\" y1=\"88.3\" x2=\"445\" y2=\"88.3\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"92.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text>\n<line x1=\"55\" y1=\"56.7\" x2=\"445\" y2=\"56.7\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"60.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text>\n<line x1=\"55\" y1=\"25.0\" x2=\"445\" y2=\"25.0\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"29.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text>\n<line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"55.0\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-π/2</text>\n<line x1=\"152.5\" y1=\"25\" x2=\"152.5\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"152.5\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text>\n<line x1=\"250.0\" y1=\"25\" x2=\"250.0\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"250.0\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text>\n<line x1=\"347.5\" y1=\"25\" x2=\"347.5\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"347.5\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text>\n<line x1=\"445.0\" y1=\"25\" x2=\"445.0\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"445.0\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text>\n<line x1=\"55\" y1=\"151.7\" x2=\"445\" y2=\"151.7\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"152.5\" y1=\"25\" x2=\"152.5\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<polyline points=\"55.00,56.67 56.30,56.72 57.60,56.89 58.90,57.17 60.20,57.55 61.50,58.05 62.80,58.66 64.10,59.37 65.40,60.19 66.70,61.11 68.00,62.14 69.30,63.27 70.60,64.50 71.90,65.83 73.20,67.25 74.50,68.76 75.80,70.37 77.10,72.06 78.40,73.83 79.70,75.69 81.00,77.62 82.30,79.63 83.60,81.71 84.90,83.85 86.20,86.06 87.50,88.33 88.80,90.66 90.10,93.03 91.40,95.46 92.70,97.92 94.00,100.43 95.30,102.97 96.60,105.54 97.90,108.13 99.20,110.75 100.50,113.38 101.80,116.02 103.10,118.67 104.40,121.33 105.70,123.98 107.00,126.62 108.30,129.25 109.60,131.87 110.90,134.46 112.20,137.03 113.50,139.57 114.80,142.08 116.10,144.54 117.40,146.97 118.70,149.34 120.00,151.67 121.30,153.94 122.60,156.15 123.90,158.29 125.20,160.37 126.50,162.38 127.80,164.31 129.10,166.17 130.40,167.94 131.70,169.63 133.00,171.24 134.30,172.75 135.60,174.17 136.90,175.50 138.20,176.73 139.50,177.86 140.80,178.89 142.10,179.81 143.40,180.63 144.70,181.34 146.00,181.95 147.30,182.45 148.60,182.83 149.90,183.11 151.20,183.28 152.50,183.33 153.80,183.28 155.10,183.11 156.40,182.83 157.70,182.45 159.00,181.95 160.30,181.34 161.60,180.63 162.90,179.81 164.20,178.89 165.50,177.86 166.80,176.73 168.10,175.50 169.40,174.17 170.70,172.75 172.00,171.24 173.30,169.63 174.60,167.94 175.90,166.17 177.20,164.31 178.50,162.38 179.80,160.37 181.10,158.29 182.40,156.15 183.70,153.94 185.00,151.67 186.30,149.34 187.60,146.97 188.90,144.54 190.20,142.08 191.50,139.57 192.80,137.03 194.10,134.46 195.40,131.87 196.70,129.25 198.00,126.62 199.30,123.98 200.60,121.33 201.90,118.67 203.20,116.02 204.50,113.38 205.80,110.75 207.10,108.13 208.40,105.54 209.70,102.97 211.00,100.43 212.30,97.92 213.60,95.46 214.90,93.03 216.20,90.66 217.50,88.33 218.80,86.06 220.10,83.85 221.40,81.71 222.70,79.63 224.00,77.62 225.30,75.69 226.60,73.83 227.90,72.06 229.20,70.37 230.50,68.76 231.80,67.25 233.10,65.83 234.40,64.50 235.70,63.27 237.00,62.14 238.30,61.11 239.60,60.19 240.90,59.37 242.20,58.66 243.50,58.05 244.80,57.55 246.10,57.17 247.40,56.89 248.70,56.72 250.00,56.67 251.30,56.72 252.60,56.89 253.90,57.17 255.20,57.55 256.50,58.05 257.80,58.66 259.10,59.37 260.40,60.19 261.70,61.11 263.00,62.14 264.30,63.27 265.60,64.50 266.90,65.83 268.20,67.25 269.50,68.76 270.80,70.37 272.10,72.06 273.40,73.83 274.70,75.69 276.00,77.62 277.30,79.63 278.60,81.71 279.90,83.85 281.20,86.06 282.50,88.33 283.80,90.66 285.10,93.03 286.40,95.46 287.70,97.92 289.00,100.43 290.30,102.97 291.60,105.54 292.90,108.13 294.20,110.75 295.50,113.38 296.80,116.02 298.10,118.67 299.40,121.33 300.70,123.98 302.00,126.62 303.30,129.25 304.60,131.87 305.90,134.46 307.20,137.03 308.50,139.57 309.80,142.08 311.10,144.54 312.40,146.97 313.70,149.34 315.00,151.67 316.30,153.94 317.60,156.15 318.90,158.29 320.20,160.37 321.50,162.38 322.80,164.31 324.10,166.17 325.40,167.94 326.70,169.63 328.00,171.24 329.30,172.75 330.60,174.17 331.90,175.50 333.20,176.73 334.50,177.86 335.80,178.89 337.10,179.81 338.40,180.63 339.70,181.34 341.00,181.95 342.30,182.45 343.60,182.83 344.90,183.11 346.20,183.28 347.50,183.33 348.80,183.28 350.10,183.11 351.40,182.83 352.70,182.45 354.00,181.95 355.30,181.34 356.60,180.63 357.90,179.81 359.20,178.89 360.50,177.86 361.80,176.73 363.10,175.50 364.40,174.17 365.70,172.75 367.00,171.24 368.30,169.63 369.60,167.94 370.90,166.17 372.20,164.31 373.50,162.38 374.80,160.37 376.10,158.29 377.40,156.15 378.70,153.94 380.00,151.67 381.30,149.34 382.60,146.97 383.90,144.54 385.20,142.08 386.50,139.57 387.80,137.03 389.10,134.46 390.40,131.87 391.70,129.25 393.00,126.62 394.30,123.98 395.60,121.33 396.90,118.67 398.20,116.02 399.50,113.38 400.80,110.75 402.10,108.13 403.40,105.54 404.70,102.97 406.00,100.43 407.30,97.92 408.60,95.46 409.90,93.03 411.20,90.66 412.50,88.33 413.80,86.06 415.10,83.85 416.40,81.71 417.70,79.63 419.00,77.62 420.30,75.69 421.60,73.83 422.90,72.06 424.20,70.37 425.50,68.76 426.80,67.25 428.10,65.83 429.40,64.50 430.70,63.27 432.00,62.14 433.30,61.11 434.60,60.19 435.90,59.37 437.20,58.66 438.50,58.05 439.80,57.55 441.10,57.17 442.40,56.89 443.70,56.72 445.00,56.67\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n</svg></span><p>Bestäm \\(A\\), \\(k\\), \\(v\\) och \\(B\\). Ange en möjlig funktion.</p>",
     "s": "<p>Av grafen avläses största värdet \\(3\\) och minsta värdet \\(-1\\).</p>\n<p>Amplituden är därför</p>\n<p>\\[\nA=\\frac{3-(-1)}2=2\n\\]</p>\n<p>och medellinjen är</p>\n<p>\\[\nB=\\frac{3+(-1)}2=1.\n\\]</p>\n<p>Avståndet mellan två minimipunkter är \\(\\pi\\), alltså är perioden \\(T=\\pi\\). Därför</p>\n<p>\\[\nk=\\frac{2\\pi}{T}=2.\n\\]</p>\n<p>Grafen har en minimipunkt vid \\(x=0\\). För \\(A=2\\) ska vinkeln i sinusuttrycket då vara \\(-\\pi/2\\), så ett möjligt värde på \\(v\\) är \\(v=-\\pi/2\\).</p>\n<p><strong>\\[\nf(x)=2\\sin\\left(2x-\\frac{\\pi}{2}\\right)+1.\n\\]</strong></p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp",
@@ -588,7 +594,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.15",
@@ -760,7 +767,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Vinkeln \\(\\alpha\\) ligger i andra kvadranten och \\(\\sin\\alpha=3/5\\).</p><p>a) Bestäm \\(\\cos\\alpha\\) och \\(\\tan\\alpha\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin(\\pi-\\alpha)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(\\cos(2\\pi-\\alpha)\\).</p>",
     "s": "<p>I andra kvadranten är cosinus negativ. Trigonometriska ettan ger \\(\\cos\\alpha=-4/5\\), och då \\(\\tan\\alpha=(3/5)/(-4/5)=-3/4\\).</p><p>b) \\(\\sin(\\pi-\\alpha)=\\sin\\alpha=\\boxed{3/5}\\).</p><p>c) \\(\\cos(2\\pi-\\alpha)=\\cos\\alpha=\\boxed{-4/5}\\).</p>",
-    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "familj": "Bestämma trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
       "begrepp"
@@ -814,7 +821,8 @@ window.BANKMATO2 = [
         "t": "<p>Vinkeln \\(\\alpha\\) ligger i andra kvadranten och \\(\\sin\\alpha=3/5\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Bestäm \\(\\cos(2\\pi-\\alpha)\\).</div>",
         "s": "<p>Först ger trigonometriska ettan \\(\\cos\\alpha=-4/5\\), eftersom \\(\\alpha\\) ligger i andra kvadranten. Sedan gäller \\(\\cos(2\\pi-\\alpha)=\\cos\\alpha\\).</p><p><strong>\\(-4/5\\)</strong>.</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Bestäm trigonometriska värden från ett givet värde"
   },
   {
     "id": "1.20",
@@ -1222,7 +1230,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>För \\(y=\\tan(2x)\\), bestäm</p><p>a) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) ett nollställe<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) de två lodräta asymptoter som ligger närmast origo<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) om funktionen är udda, jämn eller varken eller.</p>",
     "s": "<p>a) \\(T=\\pi/2\\).</p><p>b) Till exempel <strong>\\(x=0\\)</strong>; generellt \\(x=n\\pi/2\\).</p><p>c) \\(2x=\\pm\\pi/2\\Rightarrow\\)<strong>\\(x=\\pm\\pi/4\\)</strong>.</p><p>d) \\(\\tan(2(-x))=-\\tan(2x)\\), alltså är funktionen <strong>udda</strong>.</p>",
-    "familj": "Period och asymptoter för tangensfunktioner",
+    "familj": "Tangensfunktionens period och asymptoter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -1285,7 +1293,8 @@ window.BANKMATO2 = [
         "t": "<p>För \\(y=\\tan(2x)\\), bestäm</p><div class=\"spel-en-del\"><strong>d)</strong> om funktionen är udda, jämn eller varken eller.</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> \\(\\tan(2(-x))=-\\tan(2x)\\), alltså är funktionen udda .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Period och asymptoter för tangensfunktioner"
   },
   {
     "id": "1.31",
@@ -2047,7 +2056,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Funktionerna ges av</p><p>\\[f(x)=2\\sin(1,4x)+1\\qquad\\text{och}\\qquad g(x)=0,35x+0,5.\\]</p><p>Bestäm alla skärningspunkters x-koordinater för \\(0\\le x\\le8\\). Svara med tre decimaler.</p>",
     "s": "<p>Skärningspunkterna fås när \\(f(x)=g(x)\\):</p><p>\\[2\\sin(1,4x)+1=0,35x+0,5.\\]</p><p>En grafisk lösning ger tre skärningar i intervallet:</p><p>\\[\\boxed{x\\approx2,153;\\ 4,965;\\ 6,058}.\\]</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2055,7 +2064,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.49",
@@ -2233,7 +2243,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Grafen visar en funktion \\(f(x)=A\\cos(kx)+B\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"450\" height=\"250\" viewBox=\"0 0 450 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"448\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"147.0\" y1=\"20\" x2=\"147.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"242.0\" y1=\"20\" x2=\"242.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"337.0\" y1=\"20\" x2=\"337.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"432.0\" y1=\"20\" x2=\"432.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"188.0\" x2=\"432\" y2=\"188.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"164.0\" x2=\"432\" y2=\"164.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"116.0\" x2=\"432\" y2=\"116.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"44.0\" x2=\"432\" y2=\"44.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"212\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<line x1=\"52\" y1=\"164.0\" x2=\"432\" y2=\"164.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<text x=\"52.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">0</text>\n<text x=\"147.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">π</text>\n<text x=\"242.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">2π</text>\n<text x=\"337.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">3π</text>\n<text x=\"432.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">4π</text>\n<text x=\"44\" y=\"192.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">−1</text>\n<text x=\"44\" y=\"120.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">2</text>\n<text x=\"44\" y=\"48.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">5</text>\n<path d=\"M52.0,44.0 L53.6,44.0 L55.2,44.1 L56.8,44.2 L58.3,44.4 L59.9,44.6 L61.5,44.9 L63.1,45.2 L64.7,45.6 L66.2,46.0 L67.8,46.5 L69.4,47.0 L71.0,47.5 L72.6,48.1 L74.2,48.8 L75.8,49.5 L77.3,50.2 L78.9,51.0 L80.5,51.8 L82.1,52.7 L83.7,53.6 L85.2,54.6 L86.8,55.6 L88.4,56.7 L90.0,57.8 L91.6,58.9 L93.2,60.0 L94.8,61.3 L96.3,62.5 L97.9,63.8 L99.5,65.1 L101.1,66.4 L102.7,67.8 L104.2,69.2 L105.8,70.7 L107.4,72.2 L109.0,73.7 L110.6,75.2 L112.2,76.8 L113.8,78.4 L115.3,80.0 L116.9,81.6 L118.5,83.3 L120.1,85.0 L121.7,86.7 L123.2,88.4 L124.8,90.2 L126.4,92.0 L128.0,93.8 L129.6,95.6 L131.2,97.4 L132.8,99.2 L134.3,101.0 L135.9,102.9 L137.5,104.7 L139.1,106.6 L140.7,108.5 L142.2,110.4 L143.8,112.2 L145.4,114.1 L147.0,116.0 L148.6,117.9 L150.2,119.8 L151.8,121.6 L153.3,123.5 L154.9,125.4 L156.5,127.3 L158.1,129.1 L159.7,131.0 L161.2,132.8 L162.8,134.6 L164.4,136.4 L166.0,138.2 L167.6,140.0 L169.2,141.8 L170.8,143.6 L172.3,145.3 L173.9,147.0 L175.5,148.7 L177.1,150.4 L178.7,152.0 L180.2,153.6 L181.8,155.2 L183.4,156.8 L185.0,158.3 L186.6,159.8 L188.2,161.3 L189.8,162.8 L191.3,164.2 L192.9,165.6 L194.5,166.9 L196.1,168.2 L197.7,169.5 L199.2,170.7 L200.8,172.0 L202.4,173.1 L204.0,174.2 L205.6,175.3 L207.2,176.4 L208.8,177.4 L210.3,178.4 L211.9,179.3 L213.5,180.2 L215.1,181.0 L216.7,181.8 L218.2,182.5 L219.8,183.2 L221.4,183.9 L223.0,184.5 L224.6,185.0 L226.2,185.5 L227.8,186.0 L229.3,186.4 L230.9,186.8 L232.5,187.1 L234.1,187.4 L235.7,187.6 L237.2,187.8 L238.8,187.9 L240.4,188.0 L242.0,188.0 L243.6,188.0 L245.2,187.9 L246.7,187.8 L248.3,187.6 L249.9,187.4 L251.5,187.1 L253.1,186.8 L254.7,186.4 L256.2,186.0 L257.8,185.5 L259.4,185.0 L261.0,184.5 L262.6,183.9 L264.2,183.2 L265.8,182.5 L267.3,181.8 L268.9,181.0 L270.5,180.2 L272.1,179.3 L273.7,178.4 L275.2,177.4 L276.8,176.4 L278.4,175.3 L280.0,174.2 L281.6,173.1 L283.2,172.0 L284.8,170.7 L286.3,169.5 L287.9,168.2 L289.5,166.9 L291.1,165.6 L292.7,164.2 L294.2,162.8 L295.8,161.3 L297.4,159.8 L299.0,158.3 L300.6,156.8 L302.2,155.2 L303.8,153.6 L305.3,152.0 L306.9,150.4 L308.5,148.7 L310.1,147.0 L311.7,145.3 L313.2,143.6 L314.8,141.8 L316.4,140.0 L318.0,138.2 L319.6,136.4 L321.2,134.6 L322.7,132.8 L324.3,131.0 L325.9,129.1 L327.5,127.3 L329.1,125.4 L330.7,123.5 L332.2,121.6 L333.8,119.8 L335.4,117.9 L337.0,116.0 L338.6,114.1 L340.2,112.2 L341.8,110.4 L343.3,108.5 L344.9,106.6 L346.5,104.7 L348.1,102.9 L349.7,101.0 L351.3,99.2 L352.8,97.4 L354.4,95.6 L356.0,93.8 L357.6,92.0 L359.2,90.2 L360.7,88.4 L362.3,86.7 L363.9,85.0 L365.5,83.3 L367.1,81.6 L368.7,80.0 L370.2,78.4 L371.8,76.8 L373.4,75.2 L375.0,73.7 L376.6,72.2 L378.2,70.7 L379.8,69.2 L381.3,67.8 L382.9,66.4 L384.5,65.1 L386.1,63.8 L387.7,62.5 L389.2,61.3 L390.8,60.0 L392.4,58.9 L394.0,57.8 L395.6,56.7 L397.2,55.6 L398.8,54.6 L400.3,53.6 L401.9,52.7 L403.5,51.8 L405.1,51.0 L406.7,50.2 L408.2,49.5 L409.8,48.8 L411.4,48.1 L413.0,47.5 L414.6,47.0 L416.2,46.5 L417.8,46.0 L419.3,45.6 L420.9,45.2 L422.5,44.9 L424.1,44.6 L425.7,44.4 L427.2,44.2 L428.8,44.1 L430.4,44.0 L432.0,44.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/>\n<text x=\"423\" y=\"224\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">x</text>\n</svg></span><p>a) Bestäm \\(A\\), \\(k\\) och \\(B\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm funktionens nollställen i intervallet \\(0\\le x\\le4\\pi\\). Svara med \\(\\arccos\\) eller med tre decimaler.</p>",
     "s": "<p>a) Grafen har största värdet 5 och minsta värdet −1. Alltså</p><p>\\[A=\\frac{5-(-1)}2=3,\\qquad B=\\frac{5+(-1)}2=2.\\]</p><p>Avståndet mellan två toppar är \\(4\\pi\\), så perioden är \\(4\\pi\\). Därför</p><p>\\[k=\\frac{2\\pi}{4\\pi}=\\frac12.\\]</p><p>Eftersom grafen har en topp vid \\(x=0\\) blir</p><p>\\[\\boxed{f(x)=3\\cos(x/2)+2}.\\]</p><p>b) Nollställen fås ur</p><p>\\[3\\cos(x/2)+2=0\\Rightarrow \\cos(x/2)=-\\frac23.\\]</p><p>Sätt \\(\\alpha=\\arccos(-2/3)\\). Då ligger \\(x/2\\) i intervallet \\([0,2\\pi]\\), och lösningarna är</p><p>\\[\\frac x2=\\alpha\\quad\\text{eller}\\quad \\frac x2=2\\pi-\\alpha.\\]</p><p>Alltså</p><p>\\[\\boxed{x=2\\alpha\\ \\text{eller}\\ x=4\\pi-2\\alpha}.\\]</p><p>Numeriskt: \\(x\\approx4,601\\) och \\(x\\approx7,965\\).</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2241,7 +2251,8 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.54",
@@ -2256,7 +2267,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>En periodisk rörelse varierar mellan 1,5 m och 5,5 m. Tiden mellan två på varandra följande maximipunkter är 8,0 s. Vid \\(t=0\\) passerar rörelsen medellinjen uppåt.</p><p>Bestäm en sinusmodell \\(h(t)=A\\sin(kt)+B\\).</p>",
     "s": "<p><strong>Metod:</strong> Bestäm amplitud, medellinje och period först. Använd sedan en tydlig punkt i grafen för att bestämma fasen.</p><p>Amplituden är \\(A=(5,5-1,5)/2=2\\). Medellinjen är \\(B=(5,5+1,5)/2=3,5\\).</p><p>Perioden 8 ger \\(k=2\\pi/8=\\pi/4\\). Ingen fasförskjutning behövs.</p><p><strong>\\(h(t)=2\\sin(\\pi t/4)+3,5\\)</strong>.</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp",
@@ -2265,7 +2276,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.55",
@@ -2303,7 +2315,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>För \\(f(x)=\\tan(2x)\\), bestäm</p><p>a) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) två lodräta asymptoter närmast origo<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(f(\\pi/8)\\).</p>",
     "s": "<p>a) Tangens har period \\(\\pi\\), alltså blir perioden \\(\\pi/2\\).</p><p>b) \\(2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\). Närmast origo: <strong>\\(x=\\pm\\pi/4\\)</strong>.</p><p>c) \\(f(\\pi/8)=\\tan(\\pi/4)=\\)<strong>1</strong>.</p>",
-    "familj": "Period och asymptoter för tangensfunktioner",
+    "familj": "Tangensfunktionens period och asymptoter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2311,7 +2323,8 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Period och asymptoter för tangensfunktioner"
   },
   {
     "id": "1.57",
@@ -2444,7 +2457,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Grafen visar en sinusfunktion.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Periodisk graf\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"103.4\" y1=\"25\" x2=\"103.4\" y2=\"232\" stroke=\"#E8ECEF\"/><line x1=\"151.8\" y1=\"25\" x2=\"151.8\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"151.8\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"200.1\" y1=\"25\" x2=\"200.1\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"200.1\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"248.5\" y1=\"25\" x2=\"248.5\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"248.5\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"296.9\" y1=\"25\" x2=\"296.9\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"296.9\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"345.2\" y1=\"25\" x2=\"345.2\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"345.2\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"393.6\" y1=\"25\" x2=\"393.6\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"393.6\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"206.1\" x2=\"442\" y2=\"206.1\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"210.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"55\" y1=\"180.2\" x2=\"442\" y2=\"180.2\" stroke=\"#E8ECEF\"/><line x1=\"55\" y1=\"154.4\" x2=\"442\" y2=\"154.4\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"158.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"55\" y1=\"128.5\" x2=\"442\" y2=\"128.5\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"132.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"102.6\" x2=\"442\" y2=\"102.6\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"106.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"55\" y1=\"76.8\" x2=\"442\" y2=\"76.8\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"80.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"50.9\" x2=\"442\" y2=\"50.9\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"54.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"55\" y1=\"180.2\" x2=\"442\" y2=\"180.2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"103.4\" y1=\"25\" x2=\"103.4\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><polyline points=\"55.0,128.5 56.8,132.9 58.5,137.3 60.3,141.7 62.0,146.1 63.8,150.4 65.6,154.6 67.3,158.7 69.1,162.7 70.8,166.7 72.6,170.5 74.3,174.1 76.1,177.6 77.9,181.0 79.6,184.2 81.4,187.2 83.1,190.0 84.9,192.6 86.7,195.0 88.4,197.2 90.2,199.1 91.9,200.8 93.7,202.3 95.5,203.6 97.2,204.6 99.0,205.3 100.7,205.8 102.5,206.1 104.3,206.1 106.0,205.8 107.8,205.3 109.5,204.6 111.3,203.6 113.0,202.3 114.8,200.8 116.6,199.1 118.3,197.2 120.1,195.0 121.8,192.6 123.6,190.0 125.4,187.2 127.1,184.2 128.9,181.0 130.6,177.6 132.4,174.1 134.2,170.5 135.9,166.7 137.7,162.7 139.4,158.7 141.2,154.6 143.0,150.4 144.7,146.1 146.5,141.7 148.2,137.3 150.0,132.9 151.8,128.5 153.5,124.1 155.3,119.7 157.0,115.3 158.8,110.9 160.5,106.6 162.3,102.4 164.1,98.3 165.8,94.3 167.6,90.3 169.3,86.5 171.1,82.9 172.9,79.4 174.6,76.0 176.4,72.8 178.1,69.8 179.9,67.0 181.7,64.4 183.4,62.0 185.2,59.8 186.9,57.9 188.7,56.2 190.4,54.7 192.2,53.4 194.0,52.4 195.7,51.7 197.5,51.2 199.2,50.9 201.0,50.9 202.8,51.2 204.5,51.7 206.3,52.4 208.0,53.4 209.8,54.7 211.6,56.2 213.3,57.9 215.1,59.8 216.8,62.0 218.6,64.4 220.4,67.0 222.1,69.8 223.9,72.8 225.6,76.0 227.4,79.4 229.2,82.9 230.9,86.5 232.7,90.3 234.4,94.3 236.2,98.3 237.9,102.4 239.7,106.6 241.5,110.9 243.2,115.3 245.0,119.7 246.7,124.1 248.5,128.5 250.3,132.9 252.0,137.3 253.8,141.7 255.5,146.1 257.3,150.4 259.1,154.6 260.8,158.7 262.6,162.7 264.3,166.7 266.1,170.5 267.9,174.1 269.6,177.6 271.4,181.0 273.1,184.2 274.9,187.2 276.6,190.0 278.4,192.6 280.2,195.0 281.9,197.2 283.7,199.1 285.4,200.8 287.2,202.3 289.0,203.6 290.7,204.6 292.5,205.3 294.2,205.8 296.0,206.1 297.8,206.1 299.5,205.8 301.3,205.3 303.0,204.6 304.8,203.6 306.6,202.3 308.3,200.8 310.1,199.1 311.8,197.2 313.6,195.0 315.3,192.6 317.1,190.0 318.9,187.2 320.6,184.2 322.4,181.0 324.1,177.6 325.9,174.1 327.7,170.5 329.4,166.7 331.2,162.7 332.9,158.7 334.7,154.6 336.5,150.4 338.2,146.1 340.0,141.7 341.7,137.3 343.5,132.9 345.2,128.5 347.0,124.1 348.8,119.7 350.5,115.3 352.3,110.9 354.0,106.6 355.8,102.4 357.6,98.3 359.3,94.3 361.1,90.3 362.8,86.5 364.6,82.9 366.4,79.4 368.1,76.0 369.9,72.8 371.6,69.8 373.4,67.0 375.2,64.4 376.9,62.0 378.7,59.8 380.4,57.9 382.2,56.2 383.9,54.7 385.7,53.4 387.5,52.4 389.2,51.7 391.0,51.2 392.7,50.9 394.5,50.9 396.3,51.2 398.0,51.7 399.8,52.4 401.5,53.4 403.3,54.7 405.1,56.2 406.8,57.9 408.6,59.8 410.3,62.0 412.1,64.4 413.9,67.0 415.6,69.8 417.4,72.8 419.1,76.0 420.9,79.4 422.6,82.9 424.4,86.5 426.2,90.3 427.9,94.3 429.7,98.3 431.4,102.4 433.2,106.6 435.0,110.9 436.7,115.3 438.5,119.7 440.2,124.1 442.0,128.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"411.0\" y=\"55.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11.5\" fill=\"#B43123\">f</text><text x=\"440\" y=\"172.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"111.4\" y=\"37\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span><p>Bestäm funktionens a) amplitud, b) medellinje och c) period.</p>",
     "s": "<p>Maximivärdet är 5 och minimivärdet är −1.</p><p>a) Amplituden är \\((5-(-1))/2=\\boxed{3}\\).</p><p>b) Medellinjen är \\((5+(-1))/2=\\boxed{y=2}\\).</p><p>c) Avståndet mellan två motsvarande lägen är \\(\\boxed{4}\\).</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -2485,7 +2498,8 @@ window.BANKMATO2 = [
         "t": "<p>Grafen visar en sinusfunktion.</p><span class=\"fig\"><svg aria-label=\"Periodisk graf\" height=\"270\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 270\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"268\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><line stroke=\"#E8ECEF\" x1=\"151.8\" x2=\"151.8\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"151.8\" y=\"250\">1</text><line stroke=\"#E8ECEF\" x1=\"200.1\" x2=\"200.1\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"200.1\" y=\"250\">2</text><line stroke=\"#E8ECEF\" x1=\"248.5\" x2=\"248.5\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"248.5\" y=\"250\">3</text><line stroke=\"#E8ECEF\" x1=\"296.9\" x2=\"296.9\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"296.9\" y=\"250\">4</text><line stroke=\"#E8ECEF\" x1=\"345.2\" x2=\"345.2\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"345.2\" y=\"250\">5</text><line stroke=\"#E8ECEF\" x1=\"393.6\" x2=\"393.6\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"393.6\" y=\"250\">6</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"206.1\" y2=\"206.1\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"210.1\">-1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"154.4\" y2=\"154.4\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"158.4\">1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"128.5\" y2=\"128.5\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"132.5\">2</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"102.6\" y2=\"102.6\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"106.6\">3</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"76.8\" y2=\"76.8\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"80.8\">4</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"50.9\" y2=\"50.9\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"54.9\">5</text><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><polyline fill=\"none\" points=\"55.0,128.5 56.8,132.9 58.5,137.3 60.3,141.7 62.0,146.1 63.8,150.4 65.6,154.6 67.3,158.7 69.1,162.7 70.8,166.7 72.6,170.5 74.3,174.1 76.1,177.6 77.9,181.0 79.6,184.2 81.4,187.2 83.1,190.0 84.9,192.6 86.7,195.0 88.4,197.2 90.2,199.1 91.9,200.8 93.7,202.3 95.5,203.6 97.2,204.6 99.0,205.3 100.7,205.8 102.5,206.1 104.3,206.1 106.0,205.8 107.8,205.3 109.5,204.6 111.3,203.6 113.0,202.3 114.8,200.8 116.6,199.1 118.3,197.2 120.1,195.0 121.8,192.6 123.6,190.0 125.4,187.2 127.1,184.2 128.9,181.0 130.6,177.6 132.4,174.1 134.2,170.5 135.9,166.7 137.7,162.7 139.4,158.7 141.2,154.6 143.0,150.4 144.7,146.1 146.5,141.7 148.2,137.3 150.0,132.9 151.8,128.5 153.5,124.1 155.3,119.7 157.0,115.3 158.8,110.9 160.5,106.6 162.3,102.4 164.1,98.3 165.8,94.3 167.6,90.3 169.3,86.5 171.1,82.9 172.9,79.4 174.6,76.0 176.4,72.8 178.1,69.8 179.9,67.0 181.7,64.4 183.4,62.0 185.2,59.8 186.9,57.9 188.7,56.2 190.4,54.7 192.2,53.4 194.0,52.4 195.7,51.7 197.5,51.2 199.2,50.9 201.0,50.9 202.8,51.2 204.5,51.7 206.3,52.4 208.0,53.4 209.8,54.7 211.6,56.2 213.3,57.9 215.1,59.8 216.8,62.0 218.6,64.4 220.4,67.0 222.1,69.8 223.9,72.8 225.6,76.0 227.4,79.4 229.2,82.9 230.9,86.5 232.7,90.3 234.4,94.3 236.2,98.3 237.9,102.4 239.7,106.6 241.5,110.9 243.2,115.3 245.0,119.7 246.7,124.1 248.5,128.5 250.3,132.9 252.0,137.3 253.8,141.7 255.5,146.1 257.3,150.4 259.1,154.6 260.8,158.7 262.6,162.7 264.3,166.7 266.1,170.5 267.9,174.1 269.6,177.6 271.4,181.0 273.1,184.2 274.9,187.2 276.6,190.0 278.4,192.6 280.2,195.0 281.9,197.2 283.7,199.1 285.4,200.8 287.2,202.3 289.0,203.6 290.7,204.6 292.5,205.3 294.2,205.8 296.0,206.1 297.8,206.1 299.5,205.8 301.3,205.3 303.0,204.6 304.8,203.6 306.6,202.3 308.3,200.8 310.1,199.1 311.8,197.2 313.6,195.0 315.3,192.6 317.1,190.0 318.9,187.2 320.6,184.2 322.4,181.0 324.1,177.6 325.9,174.1 327.7,170.5 329.4,166.7 331.2,162.7 332.9,158.7 334.7,154.6 336.5,150.4 338.2,146.1 340.0,141.7 341.7,137.3 343.5,132.9 345.2,128.5 347.0,124.1 348.8,119.7 350.5,115.3 352.3,110.9 354.0,106.6 355.8,102.4 357.6,98.3 359.3,94.3 361.1,90.3 362.8,86.5 364.6,82.9 366.4,79.4 368.1,76.0 369.9,72.8 371.6,69.8 373.4,67.0 375.2,64.4 376.9,62.0 378.7,59.8 380.4,57.9 382.2,56.2 383.9,54.7 385.7,53.4 387.5,52.4 389.2,51.7 391.0,51.2 392.7,50.9 394.5,50.9 396.3,51.2 398.0,51.7 399.8,52.4 401.5,53.4 403.3,54.7 405.1,56.2 406.8,57.9 408.6,59.8 410.3,62.0 412.1,64.4 413.9,67.0 415.6,69.8 417.4,72.8 419.1,76.0 420.9,79.4 422.6,82.9 424.4,86.5 426.2,90.3 427.9,94.3 429.7,98.3 431.4,102.4 433.2,106.6 435.0,110.9 436.7,115.3 438.5,119.7 440.2,124.1 442.0,128.5\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.2\"></polyline><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" text-anchor=\"end\" x=\"411.0\" y=\"55.0\">f</text><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"440\" y=\"172.2\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"111.4\" y=\"37\">y</text></svg></span><p>Bestäm funktionens<div class=\"spel-en-del\">period.</div></p>",
         "s": "<p>Maximivärdet är 5 och minimivärdet är −1.</p><p><div class=\"spel-en-del\">Avståndet mellan två motsvarande lägen är \\(\\boxed{4}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.160",
@@ -3034,7 +3048,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>För funktionen \\(f(x)=\\tan(2x)\\), bestäm</p><p>a) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) två lodräta asymptoter närmast origo.</p>",
     "s": "<p>Tangens har period \\(\\pi\\). Faktorn 2 framför \\(x\\) halverar perioden, så \\(T=\\boxed{\\pi/2}\\).</p><p>Asymptoter fås när \\(2x=\\pi/2+n\\pi\\), alltså \\(x=\\pi/4+n\\pi/2\\). De två närmast origo är \\(\\boxed{x=-\\pi/4}\\) och \\(\\boxed{x=\\pi/4}\\).</p>",
-    "familj": "Period och asymptoter för tangensfunktioner",
+    "familj": "Tangensfunktionens period och asymptoter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -3042,7 +3056,8 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Period och asymptoter för tangensfunktioner"
   },
   {
     "id": "1.74",
@@ -3128,7 +3143,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>En trigonometrisk funktion har en maximipunkt \\((\\pi/3,5)\\) och nästa maximipunkt \\((7\\pi/3,5)\\). Mellan dessa ligger en minimipunkt med y-koordinaten 1.</p><p>Bestäm en möjlig funktion på formen \\(f(x)=A\\cos(k(x-c))+B\\).</p>",
     "s": "<p>Max 5 och min 1 ger amplitud \\(A=2\\) och medellinje \\(B=3\\). Avståndet mellan två maximipunkter är \\(2\\pi\\), alltså är perioden \\(2\\pi\\) och \\(k=1\\). Ett maximum ligger vid \\(x=\\pi/3\\), så vi kan välja \\(c=\\pi/3\\).</p><p><strong>\\(\\boxed{f(x)=2\\cos(x-\\pi/3)+3}\\)</strong>.</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -3136,7 +3151,8 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.78",
@@ -3645,7 +3661,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Funktionen ges av</p><p>\\[f(x)=3\\cos(0,8x-0,6)-1.\\]</p><p>Bestäm de intervall i \\(0\\le x\\le10\\) där \\(f(x)&gt;1,5\\). Ange gränserna med tre decimaler.</p>",
     "s": "<p>Gränserna fås ur \\(f(x)=1,5\\):</p><p>\\[3\\cos(0,8x-0,6)-1=1,5.\\]</p><p>I intervallet fås</p><p>\\[x\\approx0,018;\\ 1,482;\\ 7,872;\\ 9,336.\\]</p><p>Av grafen ser man att kurvan ligger över nivån \\(1,5\\) mellan den första och andra skärningen samt mellan den tredje och fjärde.</p><p>\\[\\boxed{0,018&lt;x&lt;1,482\\quad\\text{eller}\\quad7,872&lt;x&lt;9,336}.\\]</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -3653,7 +3669,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.164",
@@ -3870,7 +3887,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Skriv en möjlig funktion av formen \\(y=A\\sin(kx)+B\\).</p><p>a) amplitud 3, period \\(2\\pi\\), medellinje \\(y=4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) amplitud 5, period \\(\\pi\\), medellinje \\(y=-1\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) amplitud 2, period \\(4\\pi\\), medellinje \\(y=0\\).</p>",
     "s": "<p>a) Exempel: <strong>\\(y=3\\sin x+4\\)</strong>.</p><p>b) \\(k=2\\), exempel: <strong>\\(y=5\\sin2x-1\\)</strong>.</p><p>c) \\(k=1/2\\), exempel: <strong>\\(y=2\\sin(x/2)\\)</strong>.</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -3911,7 +3928,8 @@ window.BANKMATO2 = [
         "t": "<p>Skriv en möjlig funktion av formen \\(y=A\\sin(kx)+B\\).</p><div class=\"spel-en-del\"><strong>c)</strong> amplitud 2, period \\(4\\pi\\), medellinje \\(y=0\\).</div>",
         "s": "<div class=\"spel-en-del\"><strong>c)</strong> \\(k=1/2\\), exempel: \\(y=2\\sin(x/2)\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.92",
@@ -4226,7 +4244,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Grafen visar en funktion på formen \\(f(x)=A\\sin(kx)+B\\).</p>\n<span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sinuskurva med medellinje 3, maximum 5, minimum 1 och period pi\">\n<rect x=\"1\" y=\"1\" width=\"518\" height=\"283\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<g stroke=\"#E1E5EA\" stroke-width=\"1\"><line x1=\"55.0\" y1=\"40\" x2=\"55.0\" y2=\"240\"/><line x1=\"108.1\" y1=\"40\" x2=\"108.1\" y2=\"240\"/><line x1=\"161.3\" y1=\"40\" x2=\"161.3\" y2=\"240\"/><line x1=\"214.4\" y1=\"40\" x2=\"214.4\" y2=\"240\"/><line x1=\"267.5\" y1=\"40\" x2=\"267.5\" y2=\"240\"/><line x1=\"320.6\" y1=\"40\" x2=\"320.6\" y2=\"240\"/><line x1=\"373.8\" y1=\"40\" x2=\"373.8\" y2=\"240\"/><line x1=\"426.9\" y1=\"40\" x2=\"426.9\" y2=\"240\"/><line x1=\"480.0\" y1=\"40\" x2=\"480.0\" y2=\"240\"/><line x1=\"50\" y1=\"205\" x2=\"485\" y2=\"205\"/><line x1=\"50\" y1=\"175\" x2=\"485\" y2=\"175\"/><line x1=\"50\" y1=\"145\" x2=\"485\" y2=\"145\"/><line x1=\"50\" y1=\"115\" x2=\"485\" y2=\"115\"/><line x1=\"50\" y1=\"85\" x2=\"485\" y2=\"85\"/></g>\n<line x1=\"50\" y1=\"235\" x2=\"490\" y2=\"235\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M490 235 l-9 -5 v10 z\" fill=\"#2B2527\"/>\n<line x1=\"267.5\" y1=\"245\" x2=\"267.5\" y2=\"30\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M267.5 30 l-5 9 h10 z\" fill=\"#2B2527\"/>\n<line x1=\"50\" y1=\"145\" x2=\"485\" y2=\"145\" stroke=\"#A8ADB3\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\"/>\n<polyline points=\"55.0,145.0 56.9,141.6 58.9,138.2 60.8,134.8 62.7,131.4 64.7,128.1 66.6,124.8 68.5,121.6 70.5,118.5 72.4,115.5 74.3,112.6 76.3,109.7 78.2,107.0 80.1,104.4 82.0,102.0 84.0,99.7 85.9,97.5 87.8,95.5 89.8,93.6 91.7,91.9 93.6,90.4 95.6,89.1 97.5,87.9 99.4,87.0 101.4,86.2 103.3,85.6 105.2,85.2 107.2,85.0 109.1,85.0 111.0,85.2 113.0,85.6 114.9,86.2 116.8,87.0 118.8,87.9 120.7,89.1 122.6,90.4 124.5,91.9 126.5,93.6 128.4,95.5 130.3,97.5 132.3,99.7 134.2,102.0 136.1,104.4 138.1,107.0 140.0,109.7 141.9,112.6 143.9,115.5 145.8,118.5 147.7,121.6 149.7,124.8 151.6,128.1 153.5,131.4 155.5,134.8 157.4,138.2 159.3,141.6 161.3,145.0 163.2,148.4 165.1,151.8 167.0,155.2 169.0,158.6 170.9,161.9 172.8,165.2 174.8,168.4 176.7,171.5 178.6,174.5 180.6,177.4 182.5,180.3 184.4,183.0 186.4,185.6 188.3,188.0 190.2,190.3 192.2,192.5 194.1,194.5 196.0,196.4 198.0,198.1 199.9,199.6 201.8,200.9 203.8,202.1 205.7,203.0 207.6,203.8 209.5,204.4 211.5,204.8 213.4,205.0 215.3,205.0 217.3,204.8 219.2,204.4 221.1,203.8 223.1,203.0 225.0,202.1 226.9,200.9 228.9,199.6 230.8,198.1 232.7,196.4 234.7,194.5 236.6,192.5 238.5,190.3 240.5,188.0 242.4,185.6 244.3,183.0 246.3,180.3 248.2,177.4 250.1,174.5 252.0,171.5 254.0,168.4 255.9,165.2 257.8,161.9 259.8,158.6 261.7,155.2 263.6,151.8 265.6,148.4 267.5,145.0 269.4,141.6 271.4,138.2 273.3,134.8 275.2,131.4 277.2,128.1 279.1,124.8 281.0,121.6 283.0,118.5 284.9,115.5 286.8,112.6 288.8,109.7 290.7,107.0 292.6,104.4 294.5,102.0 296.5,99.7 298.4,97.5 300.3,95.5 302.3,93.6 304.2,91.9 306.1,90.4 308.1,89.1 310.0,87.9 311.9,87.0 313.9,86.2 315.8,85.6 317.7,85.2 319.7,85.0 321.6,85.0 323.5,85.2 325.5,85.6 327.4,86.2 329.3,87.0 331.3,87.9 333.2,89.1 335.1,90.4 337.0,91.9 339.0,93.6 340.9,95.5 342.8,97.5 344.8,99.7 346.7,102.0 348.6,104.4 350.6,107.0 352.5,109.7 354.4,112.6 356.4,115.5 358.3,118.5 360.2,121.6 362.2,124.8 364.1,128.1 366.0,131.4 368.0,134.8 369.9,138.2 371.8,141.6 373.7,145.0 375.7,148.4 377.6,151.8 379.5,155.2 381.5,158.6 383.4,161.9 385.3,165.2 387.3,168.4 389.2,171.5 391.1,174.5 393.1,177.4 395.0,180.3 396.9,183.0 398.9,185.6 400.8,188.0 402.7,190.3 404.7,192.5 406.6,194.5 408.5,196.4 410.5,198.1 412.4,199.6 414.3,200.9 416.3,202.1 418.2,203.0 420.1,203.8 422.0,204.4 424.0,204.8 425.9,205.0 427.8,205.0 429.8,204.8 431.7,204.4 433.6,203.8 435.6,203.0 437.5,202.1 439.4,200.9 441.4,199.6 443.3,198.1 445.2,196.4 447.2,194.5 449.1,192.5 451.0,190.3 453.0,188.0 454.9,185.6 456.8,183.0 458.8,180.3 460.7,177.4 462.6,174.5 464.5,171.5 466.5,168.4 468.4,165.2 470.3,161.9 472.3,158.6 474.2,155.2 476.1,151.8 478.1,148.4 480.0,145.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<text x=\"493\" y=\"230\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"275.5\" y=\"32\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text>\n<text x=\"42\" y=\"209\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">1</text><text x=\"42\" y=\"149\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">3</text><text x=\"42\" y=\"89\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">5</text>\n<text x=\"267.5\" y=\"260\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">0</text><text x=\"320.625\" y=\"260\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">π/4</text><text x=\"373.75\" y=\"260\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">π/2</text><text x=\"426.875\" y=\"260\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">3π/4</text>\n</svg></span>\n<p>Bestäm konstanterna \\(A\\), \\(k\\) och \\(B\\).</p>",
     "s": "<p>Grafens största värde är 5 och minsta värde 1. Därför är amplituden</p><p>\\[A=\\frac{5-1}{2}=2\\]</p><p>och medellinjen</p><p>\\[B=\\frac{5+1}{2}=3.\\]</p>\n<p>Kurvan passerar medellinjen uppåt vid \\(x=0\\) och har första maximum vid \\(x=\\pi/4\\). För en sinuskurva inträffar maximum efter en fjärdedels period, alltså är perioden \\(T=\\pi\\).</p><p>\\[k=\\frac{2\\pi}{T}=2.\\]</p>\n<p><strong>\\(A=2,\\;k=2,\\;B=3\\)</strong>, alltså \\(f(x)=2\\sin2x+3\\).</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -4234,7 +4252,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.101",
@@ -4400,7 +4419,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>En trigonometrisk funktion har maximivärdet 7 och minimivärdet −1. Två på varandra följande maximipunkter har x-koordinaterna \\(\\pi/6\\) och \\(7\\pi/6\\).</p><p>Bestäm en funktion på formen \\(f(x)=A\\cos(k(x-c))+B\\) som uppfyller villkoren.</p>",
     "s": "<p>Amplitud \\(A=(7-(-1))/2=4\\) och medellinje \\(B=(7+(-1))/2=3\\).</p><p>Perioden är \\(7\\pi/6-\\pi/6=\\pi\\), så \\(k=2\\pi/T=2\\).</p><p>En maximipunkt fås vid \\(x=c\\), alltså kan \\(c=\\pi/6\\).</p><p><strong>\\[\\boxed{f(x)=4\\cos\\left(2\\left(x-\\frac\\pi6\\right)\\right)+3}.\\]</strong></p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -4408,7 +4427,8 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.106",
@@ -4512,7 +4532,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Grafen visar \\(y=\\tan x\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"245\" viewBox=\"0 0 470 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till tangensfunktionen med lodräta asymptoter\">\n<rect x=\"1\" y=\"1\" width=\"468\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"60\" y1=\"205.0\" x2=\"440\" y2=\"205.0\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"182.5\" x2=\"440\" y2=\"182.5\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"160.0\" x2=\"440\" y2=\"160.0\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"137.5\" x2=\"440\" y2=\"137.5\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"115.0\" x2=\"440\" y2=\"115.0\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"92.5\" x2=\"440\" y2=\"92.5\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"70.0\" x2=\"440\" y2=\"70.0\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"47.5\" x2=\"440\" y2=\"47.5\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"25.0\" x2=\"440\" y2=\"25.0\" stroke=\"#D9E6E9\"/>\n<line x1=\"60.0\" y1=\"25\" x2=\"60.0\" y2=\"205\" stroke=\"#D9E6E9\"/>\n<text x=\"60.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-π</text>\n<line x1=\"155.0\" y1=\"25\" x2=\"155.0\" y2=\"205\" stroke=\"#D9E6E9\"/>\n<text x=\"155.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-π/2</text>\n<line x1=\"250.0\" y1=\"25\" x2=\"250.0\" y2=\"205\" stroke=\"#D9E6E9\"/>\n<text x=\"240.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text>\n<line x1=\"345.0\" y1=\"25\" x2=\"345.0\" y2=\"205\" stroke=\"#D9E6E9\"/>\n<text x=\"345.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text>\n<line x1=\"440.0\" y1=\"25\" x2=\"440.0\" y2=\"205\" stroke=\"#D9E6E9\"/>\n<text x=\"440.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text>\n<line x1=\"60\" y1=\"115.0\" x2=\"440\" y2=\"115.0\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"250.0\" y1=\"25\" x2=\"250.0\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"155.0\" y1=\"25\" x2=\"155.0\" y2=\"205\" stroke=\"#268FA3\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/>\n<line x1=\"345.0\" y1=\"25\" x2=\"345.0\" y2=\"205\" stroke=\"#268FA3\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/>\n<polyline points=\"60.00,115.00 60.72,114.73 61.43,114.47 62.15,114.20 62.87,113.93 63.58,113.67 64.30,113.40 65.02,113.13 65.73,112.86 66.45,112.59 67.17,112.32 67.88,112.05 68.60,111.78 69.32,111.51 70.04,111.23 70.75,110.96 71.47,110.68 72.19,110.40 72.90,110.13 73.62,109.85 74.34,109.56 75.05,109.28 75.77,109.00 76.49,108.71 77.20,108.42 77.92,108.13 78.64,107.84 79.35,107.54 80.07,107.25 80.79,106.95 81.50,106.64 82.22,106.34 82.94,106.03 83.65,105.72 84.37,105.41 85.09,105.09 85.81,104.77 86.52,104.45 87.24,104.12 87.96,103.79 88.67,103.45 89.39,103.12 90.11,102.77 90.82,102.42 91.54,102.07 92.26,101.72 92.97,101.35 93.69,100.99 94.41,100.61 95.12,100.23 95.84,99.85 96.56,99.46 97.27,99.06 97.99,98.66 98.71,98.25 99.42,97.83 100.14,97.40 100.86,96.97 101.58,96.53 102.29,96.08 103.01,95.62 103.73,95.15 104.44,94.67 105.16,94.18 105.88,93.68 106.59,93.17 107.31,92.64 108.03,92.10 108.74,91.56 109.46,90.99 110.18,90.41 110.89,89.82 111.61,89.21 112.33,88.59 113.04,87.94 113.76,87.28 114.48,86.60 115.19,85.90 115.91,85.18 116.63,84.43 117.35,83.66 118.06,82.86 118.78,82.03 119.50,81.18 120.21,80.30 120.93,79.38 121.65,78.42 122.36,77.43 123.08,76.40 123.80,75.33 124.51,74.21 125.23,73.04 125.95,71.82 126.66,70.54 127.38,69.21 128.10,67.80 128.81,66.32 129.53,64.77 130.25,63.13 130.96,61.40 131.68,59.57 132.40,57.62 133.11,55.56 133.83,53.36 134.55,51.02 135.27,48.51 135.98,45.82 136.70,42.93 137.42,39.81 138.13,36.43 138.85,32.76 139.57,28.75 140.28,24.37\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.4\"/>\n<polyline points=\"169.72,205.63 171.15,197.24 172.58,190.19 174.02,184.18 175.45,178.98 176.89,174.44 178.32,170.43 179.75,166.87 181.19,163.68 182.62,160.79 184.05,158.18 185.49,155.79 186.92,153.60 188.35,151.58 189.79,149.70 191.22,147.97 192.65,146.34 194.09,144.82 195.52,143.40 196.96,142.06 198.39,140.79 199.82,139.59 201.26,138.44 202.69,137.36 204.12,136.32 205.56,135.33 206.99,134.38 208.42,133.47 209.86,132.60 211.29,131.75 212.73,130.94 214.16,130.15 215.59,129.39 217.03,128.65 218.46,127.93 219.89,127.23 221.33,126.55 222.76,125.88 224.19,125.23 225.63,124.59 227.06,123.97 228.50,123.36 229.93,122.75 231.36,122.16 232.80,121.58 234.23,121.00 235.66,120.44 237.10,119.87 238.53,119.32 239.96,118.77 241.40,118.22 242.83,117.68 244.27,117.14 245.70,116.60 247.13,116.07 248.57,115.53 250.00,115.00 251.43,114.47 252.87,113.93 254.30,113.40 255.73,112.86 257.17,112.32 258.60,111.78 260.04,111.23 261.47,110.68 262.90,110.13 264.34,109.56 265.77,109.00 267.20,108.42 268.64,107.84 270.07,107.25 271.50,106.64 272.94,106.03 274.37,105.41 275.81,104.77 277.24,104.12 278.67,103.45 280.11,102.77 281.54,102.07 282.97,101.35 284.41,100.61 285.84,99.85 287.27,99.06 288.71,98.25 290.14,97.40 291.58,96.53 293.01,95.62 294.44,94.67 295.88,93.68 297.31,92.64 298.74,91.56 300.18,90.41 301.61,89.21 303.04,87.94 304.48,86.60 305.91,85.18 307.35,83.66 308.78,82.03 310.21,80.30 311.65,78.42 313.08,76.40 314.51,74.21 315.95,71.82 317.38,69.21 318.81,66.32 320.25,63.13 321.68,59.57 323.11,55.56 324.55,51.02 325.98,45.82 327.42,39.81 328.85,32.76 330.28,24.37\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.4\"/>\n<polyline points=\"359.72,205.63 360.43,201.25 361.15,197.24 361.87,193.57 362.58,190.19 363.30,187.07 364.02,184.18 364.73,181.49 365.45,178.98 366.17,176.64 366.89,174.44 367.60,172.38 368.32,170.43 369.04,168.60 369.75,166.87 370.47,165.23 371.19,163.68 371.90,162.20 372.62,160.79 373.34,159.46 374.05,158.18 374.77,156.96 375.49,155.79 376.20,154.67 376.92,153.60 377.64,152.57 378.35,151.58 379.07,150.62 379.79,149.70 380.50,148.82 381.22,147.97 381.94,147.14 382.65,146.34 383.37,145.57 384.09,144.82 384.81,144.10 385.52,143.40 386.24,142.72 386.96,142.06 387.67,141.41 388.39,140.79 389.11,140.18 389.82,139.59 390.54,139.01 391.26,138.44 391.97,137.90 392.69,137.36 393.41,136.83 394.12,136.32 394.84,135.82 395.56,135.33 396.27,134.85 396.99,134.38 397.71,133.92 398.42,133.47 399.14,133.03 399.86,132.60 400.58,132.17 401.29,131.75 402.01,131.34 402.73,130.94 403.44,130.54 404.16,130.15 404.88,129.77 405.59,129.39 406.31,129.01 407.03,128.65 407.74,128.28 408.46,127.93 409.18,127.58 409.89,127.23 410.61,126.88 411.33,126.55 412.04,126.21 412.76,125.88 413.48,125.55 414.19,125.23 414.91,124.91 415.63,124.59 416.35,124.28 417.06,123.97 417.78,123.66 418.50,123.36 419.21,123.05 419.93,122.75 420.65,122.46 421.36,122.16 422.08,121.87 422.80,121.58 423.51,121.29 424.23,121.00 424.95,120.72 425.66,120.44 426.38,120.15 427.10,119.87 427.81,119.60 428.53,119.32 429.25,119.04 429.96,118.77 430.68,118.49 431.40,118.22 432.12,117.95 432.83,117.68 433.55,117.41 434.27,117.14 434.98,116.87 435.70,116.60 436.42,116.33 437.13,116.07 437.85,115.80 438.57,115.53 439.28,115.27 440.00,115.00\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.4\"/>\n</svg></span><p>a) Ange de två lodräta asymptoter som syns närmast origo.<br>\nb) Ange funktionens period.<br>\nc) Ange alla nollställen.</p>",
     "s": "<p>a) Tangens är inte definierad där \\(\\cos x=0\\). Närmast origo är därför</p>\n<p><strong>\\(x=-\\frac{\\pi}{2}\\) och \\(x=\\frac{\\pi}{2}\\).</strong></p>\n<p>b) <strong>Perioden är \\(\\pi\\).</strong></p>\n<p>c) \\(\\tan x=0\\) när \\(\\sin x=0\\), alltså</p>\n<p><strong>\\(x=n\\pi,\\;n\\in\\mathbb Z\\).</strong></p>",
-    "familj": "Period och asymptoter för tangensfunktioner",
+    "familj": "Tangensfunktionens period och asymptoter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -4548,7 +4568,8 @@ window.BANKMATO2 = [
       ],
       "uttryck",
       "uttryck"
-    ]
+    ],
+    "familjTidigare": "Period och asymptoter för tangensfunktioner"
   },
   {
     "id": "1.111",
@@ -4563,7 +4584,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Lös ekvationen</p><p>\\[\\tan(2x-\\pi/4)=\\sqrt3.\\]</p><p>Ange alla lösningar.</p>",
     "s": "<p>\\(\\tan y=\\sqrt3\\) ger \\(y=\\pi/3+n\\pi\\).</p><p>Sätt \\(y=2x-\\pi/4\\):</p><p>\\[2x-\\frac\\pi4=\\frac\\pi3+n\\pi\\Rightarrow2x=\\frac{7\\pi}{12}+n\\pi.\\]</p><p>Därför</p><p>\\[\\boxed{x=\\frac{7\\pi}{24}+n\\frac\\pi2},\\qquad n\\in\\mathbb Z.\\]</p>",
-    "familj": "Period och asymptoter för tangensfunktioner",
+    "familj": "Tangensfunktionens period och asymptoter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -4571,7 +4592,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Period och asymptoter för tangensfunktioner"
   },
   {
     "id": "1.112",
@@ -4650,7 +4672,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>För varje funktion, ange period och alla lodräta asymptoter.</p><p>a) \\(y=\\tan x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=\\tan(2x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=\\tan(x-\\frac\\pi4)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(y=2\\tan(3x)+1\\)</p>",
     "s": "<p>a) period <strong>\\(\\pi\\)</strong>, asymptoter <strong>\\(x=\\frac\\pi2+n\\pi\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) period <strong>\\(\\frac\\pi2\\)</strong>, asymptoter <strong>\\(x=\\frac\\pi4+n\\frac\\pi2\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) period <strong>\\(\\pi\\)</strong>, asymptoter <strong>\\(x=\\frac{3\\pi}{4}+n\\pi\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) period <strong>\\(\\frac\\pi3\\)</strong>, asymptoter <strong>\\(x=\\frac\\pi6+n\\frac\\pi3\\)</strong>.</p>",
-    "familj": "Period och asymptoter för tangensfunktioner",
+    "familj": "Tangensfunktionens period och asymptoter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -4658,7 +4680,8 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Period och asymptoter för tangensfunktioner"
   },
   {
     "id": "1.114",
@@ -4758,7 +4781,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Grafen visar en funktion av formen \\(f(x)=A\\sin(kx+v)+B\\).</p><span class=\"fig\"><svg width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Graf till en sinusfunktion med graderade axlar\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"52.0\" y1=\"30.0\" x2=\"52.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"30.0\" x2=\"119.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"186.0\" y1=\"30.0\" x2=\"186.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"253.0\" y1=\"30.0\" x2=\"253.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"320.0\" y1=\"30.0\" x2=\"320.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"387.0\" y1=\"30.0\" x2=\"387.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"30.0\" x2=\"454.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"260.0\" x2=\"454.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"221.7\" x2=\"454.0\" y2=\"221.7\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"183.3\" x2=\"454.0\" y2=\"183.3\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"145.0\" x2=\"454.0\" y2=\"145.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"106.7\" x2=\"454.0\" y2=\"106.7\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"68.3\" x2=\"454.0\" y2=\"68.3\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"30.0\" x2=\"454.0\" y2=\"30.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"183.3\" x2=\"454.0\" y2=\"183.3\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M454.0 183.3 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"119.0\" y1=\"260.0\" x2=\"119.0\" y2=\"30.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M119.0 30.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"458.0\" y=\"174.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"128.0\" y=\"41.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text><line x1=\"186.0\" y1=\"179.8\" x2=\"186.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"186.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">π/2</text><text x=\"186.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text><line x1=\"253.0\" y1=\"179.8\" x2=\"253.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"253.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">π</text><text x=\"253.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text><line x1=\"320.0\" y1=\"179.8\" x2=\"320.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"320.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3π/2</text><text x=\"320.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text><line x1=\"387.0\" y1=\"179.8\" x2=\"387.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"387.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2π</text><text x=\"387.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2π</text><line x1=\"454.0\" y1=\"179.8\" x2=\"454.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"115.5\" y1=\"260.0\" x2=\"122.5\" y2=\"260.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"111.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"115.5\" y1=\"221.7\" x2=\"122.5\" y2=\"221.7\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"225.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"111.0\" y=\"225.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"115.5\" y1=\"145.0\" x2=\"122.5\" y2=\"145.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"148.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"111.0\" y=\"148.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"115.5\" y1=\"106.7\" x2=\"122.5\" y2=\"106.7\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"110.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"111.0\" y=\"110.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"115.5\" y1=\"68.3\" x2=\"122.5\" y2=\"68.3\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"71.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3</text><text x=\"111.0\" y=\"71.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"115.5\" y1=\"30.0\" x2=\"122.5\" y2=\"30.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"33.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">4</text><text x=\"111.0\" y=\"33.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text><path d=\"M 52.00,183.33 L 53.01,184.89 L 54.01,186.42 L 55.02,187.93 L 56.02,189.41 L 57.02,190.87 L 58.03,192.31 L 59.03,193.71 L 60.04,195.10 L 61.04,196.45 L 62.05,197.77 L 63.06,199.07 L 64.06,200.33 L 65.06,201.57 L 66.07,202.77 L 67.08,203.94 L 68.08,205.08 L 69.08,206.19 L 70.09,207.26 L 71.09,208.30 L 72.10,209.30 L 73.11,210.26 L 74.11,211.19 L 75.12,212.09 L 76.12,212.94 L 77.12,213.76 L 78.13,214.54 L 79.13,215.28 L 80.14,215.98 L 81.14,216.65 L 82.15,217.27 L 83.16,217.85 L 84.16,218.39 L 85.16,218.90 L 86.17,219.36 L 87.17,219.78 L 88.18,220.15 L 89.19,220.49 L 90.19,220.78 L 91.19,221.04 L 92.20,221.25 L 93.20,221.41 L 94.21,221.54 L 95.22,221.62 L 96.22,221.66 L 97.22,221.66 L 98.23,221.62 L 99.23,221.53 L 100.24,221.40 L 101.25,221.23 L 102.25,221.01 L 103.25,220.75 L 104.26,220.45 L 105.27,220.11 L 106.27,219.73 L 107.27,219.31 L 108.28,218.84 L 109.28,218.34 L 110.29,217.79 L 111.30,217.20 L 112.30,216.57 L 113.30,215.91 L 114.31,215.20 L 115.31,214.46 L 116.32,213.67 L 117.33,212.85 L 118.33,211.99 L 119.33,211.09 L 120.34,210.16 L 121.34,209.19 L 122.35,208.18 L 123.36,207.14 L 124.36,206.07 L 125.36,204.96 L 126.37,203.82 L 127.38,202.64 L 128.38,201.43 L 129.38,200.20 L 130.39,198.93 L 131.39,197.63 L 132.40,196.30 L 133.41,194.94 L 134.41,193.56 L 135.41,192.15 L 136.42,190.71 L 137.43,189.25 L 138.43,187.76 L 139.44,186.25 L 140.44,184.72 L 141.44,183.16 L 142.45,181.58 L 143.46,179.98 L 144.46,178.37 L 145.47,176.73 L 146.47,175.08 L 147.48,173.41 L 148.48,171.72 L 149.49,170.02 L 150.49,168.31 L 151.50,166.58 L 152.50,164.84 L 153.50,163.09 L 154.51,161.33 L 155.51,159.56 L 156.52,157.79 L 157.53,156.00 L 158.53,154.21 L 159.53,152.41 L 160.54,150.61 L 161.55,148.81 L 162.55,147.01 L 163.56,145.20 L 164.56,143.39 L 165.56,141.59 L 166.57,139.79 L 167.57,137.98 L 168.58,136.19 L 169.58,134.40 L 170.59,132.61 L 171.59,130.83 L 172.60,129.06 L 173.61,127.30 L 174.61,125.55 L 175.62,123.80 L 176.62,122.07 L 177.62,120.36 L 178.63,118.65 L 179.63,116.96 L 180.64,115.29 L 181.65,113.63 L 182.65,111.99 L 183.66,110.37 L 184.66,108.77 L 185.66,107.19 L 186.67,105.63 L 187.67,104.09 L 188.68,102.57 L 189.69,101.08 L 190.69,99.61 L 191.69,98.17 L 192.70,96.75 L 193.70,95.36 L 194.71,94.00 L 195.72,92.66 L 196.72,91.36 L 197.73,90.08 L 198.73,88.84 L 199.73,87.62 L 200.74,86.44 L 201.74,85.29 L 202.75,84.18 L 203.76,83.09 L 204.76,82.05 L 205.77,81.03 L 206.77,80.05 L 207.77,79.11 L 208.78,78.21 L 209.79,77.34 L 210.79,76.51 L 211.80,75.72 L 212.80,74.96 L 213.81,74.25 L 214.81,73.57 L 215.81,72.93 L 216.82,72.34 L 217.83,71.78 L 218.83,71.27 L 219.84,70.79 L 220.84,70.36 L 221.84,69.97 L 222.85,69.62 L 223.85,69.31 L 224.86,69.04 L 225.87,68.82 L 226.87,68.64 L 227.88,68.50 L 228.88,68.40 L 229.88,68.35 L 230.89,68.33 L 231.90,68.37 L 232.90,68.44 L 233.91,68.55 L 234.91,68.71 L 235.91,68.91 L 236.92,69.16 L 237.93,69.44 L 238.93,69.77 L 239.94,70.14 L 240.94,70.55 L 241.94,71.00 L 242.95,71.49 L 243.95,72.02 L 244.96,72.60 L 245.97,73.21 L 246.97,73.87 L 247.98,74.56 L 248.98,75.29 L 249.98,76.06 L 250.99,76.87 L 251.99,77.72 L 253.00,78.60 L 254.01,79.53 L 255.01,80.48 L 256.01,81.48 L 257.02,82.51 L 258.02,83.57 L 259.03,84.67 L 260.04,85.80 L 261.04,86.96 L 262.05,88.16 L 263.05,89.39 L 264.06,90.65 L 265.06,91.94 L 266.06,93.25 L 267.07,94.60 L 268.08,95.98 L 269.08,97.38 L 270.09,98.81 L 271.09,100.26 L 272.10,101.74 L 273.10,103.24 L 274.10,104.77 L 275.11,106.32 L 276.12,107.89 L 277.12,109.48 L 278.12,111.09 L 279.13,112.72 L 280.13,114.37 L 281.14,116.03 L 282.14,117.71 L 283.15,119.41 L 284.15,121.12 L 285.16,122.84 L 286.16,124.58 L 287.17,126.32 L 288.18,128.08 L 289.18,129.85 L 290.19,131.62 L 291.19,133.40 L 292.19,135.19 L 293.20,136.99 L 294.21,138.78 L 295.21,140.59 L 296.22,142.39 L 297.22,144.20 L 298.23,146.00 L 299.23,147.81 L 300.24,149.61 L 301.24,151.42 L 302.25,153.21 L 303.25,155.01 L 304.25,156.80 L 305.26,158.58 L 306.26,160.35 L 307.27,162.12 L 308.28,163.87 L 309.28,165.62 L 310.29,167.35 L 311.29,169.07 L 312.29,170.78 L 313.30,172.47 L 314.31,174.15 L 315.31,175.82 L 316.31,177.46 L 317.32,179.09 L 318.32,180.70 L 319.33,182.29 L 320.34,183.85 L 321.34,185.40 L 322.35,186.92 L 323.35,188.42 L 324.36,189.90 L 325.36,191.35 L 326.37,192.78 L 327.37,194.18 L 328.38,195.55 L 329.38,196.89 L 330.38,198.21 L 331.39,199.49 L 332.40,200.75 L 333.40,201.97 L 334.41,203.17 L 335.41,204.33 L 336.42,205.46 L 337.42,206.55 L 338.43,207.61 L 339.43,208.63 L 340.44,209.62 L 341.44,210.58 L 342.44,211.50 L 343.45,212.38 L 344.46,213.22 L 345.46,214.02 L 346.46,214.79 L 347.47,215.52 L 348.48,216.21 L 349.48,216.86 L 350.49,217.47 L 351.49,218.04 L 352.50,218.57 L 353.50,219.05 L 354.50,219.50 L 355.51,219.91 L 356.52,220.27 L 357.52,220.59 L 358.52,220.87 L 359.53,221.11 L 360.54,221.31 L 361.54,221.46 L 362.54,221.57 L 363.55,221.64 L 364.56,221.67 L 365.56,221.65 L 366.56,221.59 L 367.57,221.49 L 368.57,221.35 L 369.58,221.16 L 370.58,220.93 L 371.59,220.66 L 372.60,220.35 L 373.60,219.99 L 374.60,219.59 L 375.61,219.16 L 376.62,218.68 L 377.62,218.16 L 378.62,217.60 L 379.63,217.00 L 380.63,216.36 L 381.64,215.68 L 382.64,214.96 L 383.65,214.20 L 384.66,213.40 L 385.66,212.57 L 386.66,211.69 L 387.67,210.78 L 388.68,209.84 L 389.68,208.86 L 390.68,207.84 L 391.69,206.79 L 392.69,205.70 L 393.70,204.58 L 394.71,203.43 L 395.71,202.24 L 396.71,201.02 L 397.72,199.78 L 398.72,198.50 L 399.73,197.19 L 400.74,195.85 L 401.74,194.49 L 402.74,193.09 L 403.75,191.67 L 404.75,190.23 L 405.76,188.75 L 406.77,187.26 L 407.77,185.74 L 408.77,184.20 L 409.78,182.64 L 410.79,181.05 L 411.79,179.45 L 412.79,177.82 L 413.80,176.18 L 414.80,174.52 L 415.81,172.85 L 416.81,171.16 L 417.82,169.45 L 418.82,167.73 L 419.83,166.00 L 420.83,164.26 L 421.84,162.51 L 422.85,160.74 L 423.85,158.97 L 424.85,157.19 L 425.86,155.40 L 426.87,153.61 L 427.87,151.82 L 428.88,150.01 L 429.88,148.21 L 430.88,146.40 L 431.89,144.60 L 432.89,142.79 L 433.90,140.99 L 434.91,139.18 L 435.91,137.39 L 436.91,135.59 L 437.92,133.80 L 438.93,132.02 L 439.93,130.24 L 440.93,128.47 L 441.94,126.71 L 442.94,124.96 L 443.95,123.23 L 444.95,121.50 L 445.96,119.79 L 446.96,118.09 L 447.97,116.40 L 448.97,114.74 L 449.98,113.09 L 450.99,111.45 L 451.99,109.84 L 452.99,108.24 L 454.00,106.67\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"413.8\" y=\"53.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">y = f(x)</text><text x=\"413.8\" y=\"53.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#C93A2B\">y = f(x)</text></svg></span><p>Det är känt att \\(A&gt;0\\), \\(k&gt;0\\) och \\(-\\pi&lt;v\\le\\pi\\). Bestäm \\(A\\), \\(k\\), \\(v\\) och \\(B\\) och förklara varför villkoren gör att konstanten \\(v\\) kan bestämmas på bara ett sätt.</p>",
     "s": "<p>Maxvärdet är 3 och minvärdet −1, vilket ger \\(A=2\\) och \\(B=1\\). Avståndet mellan två likadana lägen i grafen är \\(2\\pi\\), alltså \\(k=1\\).</p><p>Grafen passerar medellinjen uppåt vid \\(x=\\pi/3\\). För en sinusfunktion sker detta när vinkeln i sinusuttrycket är \\(2\\pi n\\), där \\(n\\) är ett heltal:</p><p>\\[\\pi/3+v=2\\pi n.\\]</p><p>Med villkoret \\(-\\pi&lt;v\\le\\pi\\) fås bara ett värde inom intervallet: <strong>\\(v=-\\pi/3\\)</strong>.</p><p><strong>\\(f(x)=2\\sin(x-\\pi/3)+1\\).</strong></p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp",
@@ -4767,7 +4790,8 @@ window.BANKMATO2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.117",
@@ -4782,7 +4806,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln och har koordinaterna</p><p>\\[P=\\left(-\\frac{\\sqrt3}{2},\\frac12\\right).\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"99.3\" y1=\"20.0\" x2=\"99.3\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"193.5\" y1=\"20.0\" x2=\"193.5\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"287.7\" y1=\"20.0\" x2=\"287.7\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"61.6\" y1=\"236.7\" x2=\"325.4\" y2=\"236.7\" stroke=\"#E8EEF0\"/>\n<line x1=\"61.6\" y1=\"142.5\" x2=\"325.4\" y2=\"142.5\" stroke=\"#E8EEF0\"/>\n<line x1=\"61.6\" y1=\"48.3\" x2=\"325.4\" y2=\"48.3\" stroke=\"#E8EEF0\"/>\n<circle cx=\"193.5\" cy=\"142.5\" r=\"94.2\" fill=\"#F8FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"61.6\" y1=\"142.5\" x2=\"325.4\" y2=\"142.5\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<line x1=\"193.5\" y1=\"20.0\" x2=\"193.5\" y2=\"265.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<circle cx=\"111.9\" cy=\"95.4\" r=\"4.5\" fill=\"#B43123\"/>\n<text x=\"118.9\" y=\"88.4\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">P</text>\n<text x=\"322.4\" y=\"135.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text>\n<text x=\"200.5\" y=\"32.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text>\n</svg></span><p>Låt \\(v\\) vara vinkeln från positiva x-axeln till \\(OP\\), där \\(0\\le v&lt;2\\pi\\).</p><p>a) Bestäm \\(v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin 2v\\) exakt.</p>",
     "s": "<p>a) Koordinaterna ger \\(\\cos v=-\\sqrt3/2\\) och \\(\\sin v=1/2\\). Punkten ligger i andra kvadranten, alltså</p><p>\\[\\boxed{v=\\frac{5\\pi}{6}}.\\]</p><p>b) Använd dubbla vinkeln:</p><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac12\\cdot\\left(-\\frac{\\sqrt3}{2}\\right)=\\boxed{-\\frac{\\sqrt3}{2}}.\\]</p>",
-    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "familj": "Bestämma trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
       "begrepp"
@@ -4815,7 +4839,8 @@ window.BANKMATO2 = [
         "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln och har koordinaterna</p><p>\\[P=\\left(-\\frac{\\sqrt3}{2},\\frac12\\right).\\]</p><span class=\"fig\"><svg height=\"300\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"298\" rx=\"10\" stroke=\"#E4E3E6\" width=\"358\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" x1=\"99.3\" x2=\"99.3\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"193.5\" x2=\"193.5\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"287.7\" x2=\"287.7\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"236.7\" y2=\"236.7\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"142.5\" y2=\"142.5\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"48.3\" y2=\"48.3\"></line>\n<circle cx=\"193.5\" cy=\"142.5\" fill=\"#F8FAFB\" r=\"94.2\" stroke=\"#2B2527\" stroke-width=\"2\"></circle>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"61.6\" x2=\"325.4\" y1=\"142.5\" y2=\"142.5\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"193.5\" x2=\"193.5\" y1=\"20.0\" y2=\"265.0\"></line>\n<circle cx=\"111.9\" cy=\"95.4\" fill=\"#B43123\" r=\"4.5\"></circle>\n<text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"118.9\" y=\"88.4\">P</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"322.4\" y=\"135.5\">x</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"200.5\" y=\"32.0\">y</text>\n</svg></span><p>Låt \\(v\\) vara vinkeln från positiva x-axeln till \\(OP\\), där \\(0\\le v&lt;2\\pi\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\sin 2v\\) exakt.</div></p>",
         "s": "<p><div class=\"spel-en-del\">Använd dubbla vinkeln:</div></p><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac12\\cdot\\left(-\\frac{\\sqrt3}{2}\\right)=\\boxed{-\\frac{\\sqrt3}{2}}.\\]</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Bestäm trigonometriska värden från ett givet värde"
   },
   {
     "id": "1.118",
@@ -4939,7 +4964,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\sin v=3/5\\) och \\(90^\\circ&lt;v&lt;180^\\circ\\).</p><p>Bestäm exakt</p><p>a) \\(\\cos v\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sin(180^\\circ-v)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan(360^\\circ-v)\\).</p>",
     "s": "<p>Eftersom \\(v\\) ligger i andra kvadranten är cosinus negativ.</p><p>a) Trigonometriska ettan ger \\(\\cos^2v=1-9/25=16/25\\), alltså \\(\\cos v=\\boxed{-4/5}\\).</p><p>b) \\(\\sin(180^\\circ-v)=\\sin v=\\boxed{3/5}\\).</p><p>c) \\(\\tan(360^\\circ-v)=-\\tan v\\). Här är \\(\\tan v=(3/5)/(-4/5)=-3/4\\), alltså \\(\\boxed{3/4}\\).</p>",
-    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "familj": "Bestämma trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
       "begrepp"
@@ -4980,7 +5005,8 @@ window.BANKMATO2 = [
         "t": "<p>För vinkeln \\(v\\) gäller \\(\\sin v=3/5\\) och \\(90^\\circ&lt;v&lt;180^\\circ\\).</p><p>Bestäm exakt</p><p><div class=\"spel-en-del\">\\(\\tan(360^\\circ-v)\\).</div></p>",
         "s": "<p>Eftersom \\(v\\) ligger i andra kvadranten är cosinus negativ.</p><p><div class=\"spel-en-del\">\\(\\tan(360^\\circ-v)=-\\tan v\\). Här är \\(\\tan v=(3/5)/(-4/5)=-3/4\\), alltså \\(\\boxed{3/4}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Bestäm trigonometriska värden från ett givet värde"
   },
   {
     "id": "1.122",
@@ -5279,7 +5305,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>För \\(f(x)=1,8\\sin(1,3x+0,4)+0,7\\), bestäm de två minsta positiva värdena på \\(x\\) som uppfyller \\(f(x)=2\\).</p><p>Svara med tre decimaler.</p>",
     "s": "<p>Vi löser</p><p>\\[1,8\\sin(1,3x+0,4)+0,7=2.\\]</p><p>De två minsta positiva lösningarna är</p><p>\\[\\boxed{x\\approx0,313\\quad\\text{och}\\quad x\\approx1,488}.\\]</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -5287,7 +5313,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.129",
@@ -5549,7 +5576,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>För funktionen \\(f(x)=3\\cos(2x-\\pi)+1\\), bestäm</p><p>a) amplituden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) största värdet<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) minsta värdet.</p>",
     "s": "<p><strong>Metod:</strong> Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><p>Eftersom \\(f(x)=3\\cos(2x-\\pi)+1\\) är amplituden 3 och medellinjen \\(y=1\\).</p><p>a) <strong>3</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(T=2\\pi/2=\\)<strong>\\(\\pi\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>4</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>−2</strong>.</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -5557,7 +5584,8 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.165",
@@ -5596,7 +5624,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Grafen visar en cosinusfunktion på intervallet \\(0\\le x\\le2\\pi\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"290\" viewBox=\"0 0 500 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"funktionsgraf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"55.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"160.0\" y1=\"25\" x2=\"160.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"160.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text><line x1=\"265.0\" y1=\"25\" x2=\"265.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"265.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text><line x1=\"370.0\" y1=\"25\" x2=\"370.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"370.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text><line x1=\"475.0\" y1=\"25\" x2=\"475.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"475.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2π</text><line x1=\"55\" y1=\"225.7\" x2=\"475\" y2=\"225.7\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"228.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-1</text><line x1=\"55\" y1=\"181.1\" x2=\"475\" y2=\"181.1\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"184.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"136.5\" x2=\"475\" y2=\"136.5\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"139.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"55\" y1=\"91.9\" x2=\"475\" y2=\"91.9\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"94.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"47.3\" x2=\"475\" y2=\"47.3\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"50.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"55\" y1=\"181.1\" x2=\"480\" y2=\"181.1\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"55.0\" y1=\"20\" x2=\"55.0\" y2=\"248\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><polyline fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\" points=\"55.0,225.7 56.0,225.7 57.1,225.7 58.1,225.6 59.2,225.5 60.2,225.4 61.3,225.3 62.4,225.2 63.4,225.0 64.5,224.8 65.5,224.6 66.5,224.4 67.6,224.1 68.7,223.8 69.7,223.6 70.8,223.2 71.8,222.9 72.8,222.5 73.9,222.2 74.9,221.8 76.0,221.3 77.0,220.9 78.1,220.4 79.1,219.9 80.2,219.4 81.2,218.9 82.3,218.4 83.3,217.8 84.4,217.2 85.5,216.6 86.5,216.0 87.5,215.3 88.6,214.7 89.7,214.0 90.7,213.3 91.8,212.6 92.8,211.8 93.8,211.1 94.9,210.3 95.9,209.5 97.0,208.7 98.0,207.8 99.1,207.0 100.1,206.1 101.2,205.2 102.2,204.3 103.3,203.4 104.3,202.5 105.4,201.5 106.4,200.6 107.5,199.6 108.5,198.6 109.6,197.6 110.7,196.5 111.7,195.5 112.8,194.4 113.8,193.4 114.8,192.3 115.9,191.2 116.9,190.1 118.0,188.9 119.0,187.8 120.1,186.6 121.2,185.5 122.2,184.3 123.2,183.1 124.3,181.9 125.3,180.7 126.4,179.5 127.5,178.2 128.5,177.0 129.6,175.7 130.6,174.5 131.6,173.2 132.7,171.9 133.8,170.6 134.8,169.3 135.8,168.0 136.9,166.7 137.9,165.4 139.0,164.1 140.0,162.7 141.1,161.4 142.2,160.0 143.2,158.7 144.2,157.3 145.3,156.0 146.3,154.6 147.4,153.2 148.4,151.8 149.5,150.5 150.5,149.1 151.6,147.7 152.6,146.3 153.7,144.9 154.8,143.5 155.8,142.1 156.8,140.7 157.9,139.3 158.9,137.9 160.0,136.5 161.0,135.1 162.1,133.7 163.1,132.3 164.2,130.9 165.2,129.5 166.3,128.1 167.3,126.7 168.4,125.3 169.4,123.9 170.5,122.5 171.6,121.2 172.6,119.8 173.6,118.4 174.7,117.0 175.8,115.7 176.8,114.3 177.8,113.0 178.9,111.6 179.9,110.3 181.0,108.9 182.1,107.6 183.1,106.3 184.1,105.0 185.2,103.7 186.2,102.4 187.3,101.1 188.3,99.8 189.4,98.5 190.4,97.3 191.5,96.0 192.5,94.8 193.6,93.5 194.7,92.3 195.7,91.1 196.8,89.9 197.8,88.7 198.8,87.5 199.9,86.4 200.9,85.2 202.0,84.1 203.0,82.9 204.1,81.8 205.2,80.7 206.2,79.6 207.2,78.6 208.3,77.5 209.3,76.5 210.4,75.4 211.4,74.4 212.5,73.4 213.5,72.4 214.6,71.5 215.7,70.5 216.7,69.6 217.8,68.7 218.8,67.8 219.8,66.9 220.9,66.0 221.9,65.2 223.0,64.3 224.0,63.5 225.1,62.7 226.1,61.9 227.2,61.2 228.2,60.4 229.3,59.7 230.3,59.0 231.4,58.3 232.4,57.7 233.5,57.0 234.5,56.4 235.6,55.8 236.6,55.2 237.7,54.6 238.7,54.1 239.8,53.6 240.8,53.1 241.9,52.6 242.9,52.1 244.0,51.7 245.0,51.2 246.1,50.8 247.1,50.5 248.2,50.1 249.2,49.8 250.3,49.4 251.3,49.2 252.4,48.9 253.4,48.6 254.5,48.4 255.5,48.2 256.6,48.0 257.6,47.8 258.7,47.7 259.8,47.6 260.8,47.5 261.8,47.4 262.9,47.3 263.9,47.3 265.0,47.3 266.0,47.3 267.1,47.3 268.1,47.4 269.2,47.5 270.2,47.6 271.3,47.7 272.3,47.8 273.4,48.0 274.4,48.2 275.5,48.4 276.5,48.6 277.6,48.9 278.6,49.2 279.7,49.4 280.8,49.8 281.8,50.1 282.8,50.5 283.9,50.8 284.9,51.2 286.0,51.7 287.1,52.1 288.1,52.6 289.1,53.1 290.2,53.6 291.2,54.1 292.3,54.6 293.3,55.2 294.4,55.8 295.4,56.4 296.5,57.0 297.6,57.7 298.6,58.3 299.6,59.0 300.7,59.7 301.8,60.4 302.8,61.2 303.8,61.9 304.9,62.7 305.9,63.5 307.0,64.3 308.1,65.2 309.1,66.0 310.1,66.9 311.2,67.8 312.2,68.7 313.3,69.6 314.3,70.5 315.4,71.5 316.4,72.4 317.5,73.4 318.6,74.4 319.6,75.4 320.6,76.5 321.7,77.5 322.8,78.6 323.8,79.6 324.9,80.7 325.9,81.8 326.9,82.9 328.0,84.1 329.0,85.2 330.1,86.4 331.2,87.5 332.2,88.7 333.2,89.9 334.3,91.1 335.4,92.3 336.4,93.5 337.4,94.8 338.5,96.0 339.5,97.3 340.6,98.5 341.7,99.8 342.7,101.1 343.8,102.4 344.8,103.7 345.9,105.0 346.9,106.3 347.9,107.6 349.0,108.9 350.0,110.3 351.1,111.6 352.2,113.0 353.2,114.3 354.2,115.7 355.3,117.0 356.4,118.4 357.4,119.8 358.4,121.2 359.5,122.5 360.5,123.9 361.6,125.3 362.6,126.7 363.7,128.1 364.8,129.5 365.8,130.9 366.9,132.3 367.9,133.7 368.9,135.1 370.0,136.5 371.0,137.9 372.1,139.3 373.1,140.7 374.2,142.1 375.2,143.5 376.3,144.9 377.3,146.3 378.4,147.7 379.4,149.1 380.5,150.5 381.5,151.8 382.6,153.2 383.6,154.6 384.7,156.0 385.8,157.3 386.8,158.7 387.8,160.0 388.9,161.4 389.9,162.7 391.0,164.1 392.0,165.4 393.1,166.7 394.1,168.0 395.2,169.3 396.2,170.6 397.3,171.9 398.3,173.2 399.4,174.5 400.4,175.7 401.5,177.0 402.5,178.2 403.6,179.5 404.6,180.7 405.7,181.9 406.7,183.1 407.8,184.3 408.8,185.5 409.9,186.6 410.9,187.8 412.0,188.9 413.0,190.1 414.1,191.2 415.2,192.3 416.2,193.4 417.2,194.4 418.3,195.5 419.3,196.5 420.4,197.6 421.4,198.6 422.5,199.6 423.5,200.6 424.6,201.5 425.6,202.5 426.7,203.4 427.7,204.3 428.8,205.2 429.8,206.1 430.9,207.0 431.9,207.8 433.0,208.7 434.0,209.5 435.1,210.3 436.2,211.1 437.2,211.8 438.2,212.6 439.3,213.3 440.3,214.0 441.4,214.7 442.4,215.3 443.5,216.0 444.5,216.6 445.6,217.2 446.6,217.8 447.7,218.4 448.7,218.9 449.8,219.4 450.8,219.9 451.9,220.4 452.9,220.9 454.0,221.3 455.0,221.8 456.1,222.2 457.1,222.5 458.2,222.9 459.2,223.2 460.3,223.6 461.3,223.8 462.4,224.1 463.4,224.4 464.5,224.6 465.5,224.8 466.6,225.0 467.6,225.2 468.7,225.3 469.7,225.4 470.8,225.5 471.8,225.6 472.9,225.7 473.9,225.7 475.0,225.7\"/><text x=\"467\" y=\"43\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">y = f(x)</text></svg></span><p>Bestäm en ekvation för funktionen på formen \\(f(x)=A\\cos(kx)+B\\).</p>",
     "s": "<p>Grafens största värde är 3 och minsta värde −1. Därför är</p><p>\\[|A|=\\frac{3-(-1)}2=2,\\qquad B=\\frac{3+(-1)}2=1.\\]</p><p>Perioden är \\(2\\pi\\), alltså \\(k=1\\). Vid \\(x=0\\) antar funktionen sitt minimum, så \\(A=-2\\).</p><p><strong>\\(\\boxed{f(x)=-2\\cos x+1}\\)</strong>.</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -5604,7 +5632,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.138",
@@ -6288,7 +6317,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>För funktionen \\(f(x)=2\\tan(3x)\\):</p><p>a) bestäm perioden,<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) ange två lodräta asymptoter som ligger närmast origo,<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) bestäm alla nollställen.</p>",
     "s": "<p>För \\(\\tan(kx)\\) är perioden \\(\\pi/|k|\\).</p><p>a) \\(\\boxed{\\pi/3}\\).</p><p>b) \\(3x=\\pi/2+n\\pi\\Rightarrow x=\\pi/6+n\\pi/3\\). De närmaste är \\(\\boxed{x=\\pm\\pi/6}\\).</p><p>c) \\(3x=n\\pi\\Rightarrow\\boxed{x=n\\pi/3}\\).</p>",
-    "familj": "Period och asymptoter för tangensfunktioner",
+    "familj": "Tangensfunktionens period och asymptoter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -6342,7 +6371,8 @@ window.BANKMATO2 = [
         "t": "<p>För funktionen \\(f(x)=2\\tan(3x)\\):</p><div class=\"spel-en-del\"><strong>c)</strong> bestäm alla nollställen.</div>",
         "s": "<p>För \\(\\tan(kx)\\) är perioden \\(\\pi/|k|\\).</p><div class=\"spel-en-del\"><strong>c)</strong> \\(3x=n\\pi\\Rightarrow\\boxed{x=n\\pi/3}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Period och asymptoter för tangensfunktioner"
   },
   {
     "id": "1.155",
@@ -6357,7 +6387,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Bestäm.</p><p>a) perioden för \\(y=\\tan(3x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) perioden för \\(y=\\tan(x/2)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) två lodräta asymptoter närmast origo för \\(y=\\tan x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) två lodräta asymptoter närmast origo för \\(y=\\tan(2x)\\).</p>",
     "s": "<p>a) \\(T=\\pi/3\\).</p><p>b) \\(T=2\\pi\\).</p><p>c) <strong>\\(x=-\\pi/2\\)</strong> och <strong>\\(x=\\pi/2\\)</strong>.</p><p>d) \\(2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\). Närmast origo: <strong>\\(x=-\\pi/4,\\pi/4\\)</strong>.</p>",
-    "familj": "Period och asymptoter för tangensfunktioner",
+    "familj": "Tangensfunktionens period och asymptoter",
     "formaga": [
       "procedur",
       "begrepp"
@@ -6429,7 +6459,8 @@ window.BANKMATO2 = [
         "t": "<p>Bestäm.</p><div class=\"spel-en-del\"><strong>d)</strong> två lodräta asymptoter närmast origo för \\(y=\\tan(2x)\\).</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> \\(2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\). Närmast origo: \\(x=-\\pi/4,\\pi/4\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Period och asymptoter för tangensfunktioner"
   },
   {
     "id": "2.01",
@@ -15082,7 +15113,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Låt</p>\n<p>\\[\nf(x)=6x-x^2.\n\\]</p>\n<p>Två tal \\(a&lt;b\\) väljs så att</p>\n<p>\\[\n\\int_a^b f(x)\\,dx=0.\n\\]</p>\n<p>Bestäm det största möjliga värdet av intervallets längd \\(b-a\\). Svara exakt.</p>",
     "s": "<p>Skriv om funktionen:</p>\n<p>\\[\nf(x)=9-(x-3)^2.\n\\]</p>\n<p>Låt intervallets mittpunkt vara \\(m\\) och längden vara \\(d=b-a\\). Sätt \\(x=m+u\\), där \\(-d/2\\le u\\le d/2\\).</p>\n<p>Då är</p>\n<p>\\[\n0=\\int_{-d/2}^{d/2}\\left[9-(m-3+u)^2\\right]du.\n\\]</p>\n<p>Den linjära termen i \\(u\\) försvinner över det symmetriska intervallet. Därför</p>\n<p>\\[\n0=d\\left(9-(m-3)^2-\\frac{d^2}{12}\\right).\n\\]</p>\n<p>Eftersom \\(d&gt;0\\):</p>\n<p>\\[\n(m-3)^2+\\frac{d^2}{12}=9.\n\\]</p>\n<p>För att maximera \\(d\\) ska \\((m-3)^2\\) vara så liten som möjligt, alltså \\(m=3\\).</p>\n<p>\\[\n\\frac{d^2}{12}=9\n\\Rightarrow d^2=108\n\\Rightarrow d=6\\sqrt3.\n\\]</p>\n<p><strong>Det största möjliga värdet är \\(b-a=6\\sqrt3\\).</strong></p>",
-    "familj": "Tillämpa integraler i modeller",
+    "familj": "Tolka och använda integraler i modeller",
     "formaga": [
       "procedur",
       "resonemang"
@@ -15090,7 +15121,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Tillämpa integraler i modeller"
   },
   {
     "id": "3.36",
@@ -15168,7 +15200,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>För ett reellt tal \\(a\\) definieras</p><p>\\[F(a)=\\int_a^{a+2}(4-x^2)\\,dx.\\]</p><p>Bestäm det värde på \\(a\\) som maximerar \\(F(a)\\), och bestäm maxvärdet.</p>",
     "s": "<p>Det går att derivera integralen utan att först räkna ut hela integralen. När båda gränserna flyttas med samma hastighet får vi</p><p>\\[F'(a)=(4-(a+2)^2)-(4-a^2)=-4a-4.\\]</p><p>\\(F'(a)=0\\Rightarrow a=-1\\). Derivatan är positiv före och negativ efter, alltså maximum.</p><p>\\[F(-1)=\\int_{-1}^{1}(4-x^2)dx=8-\\frac23=\\boxed{22/3}.\\]</p><p><strong>Maximum fås för \\(\\boxed{a=-1}\\).</strong></p>",
-    "familj": "Tillämpa integraler i modeller",
+    "familj": "Tolka och använda integraler i modeller",
     "formaga": [
       "procedur",
       "resonemang"
@@ -15176,7 +15208,8 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Tillämpa integraler i modeller"
   },
   {
     "id": "3.38",
@@ -15853,7 +15886,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Regnets intensitet under ett tiotimmarsregn modelleras av</p><p>\\[r(t)=3,2\\sin\\left(\\frac{\\pi t}{10}\\right)+0,4t,\\qquad0\\le t\\le10,\\]</p><p>där \\(r\\) mäts i mm/h och \\(t\\) i timmar.</p><p>Beräkna hur mycket regn som faller totalt.</p>",
     "s": "<p>Den totala regnmängden fås genom att integrera intensiteten:</p><p>\\[R=\\int_0^{10}r(t)\\,dt.\\]</p><p>Numeriskt fås</p><p>\\[R\\approx\\boxed{40,37\\text{ mm}}.\\]</p>",
-    "familj": "Tillämpa integraler i modeller",
+    "familj": "Tolka och använda integraler i modeller",
     "formaga": [
       "procedur",
       "modellering",
@@ -15863,7 +15896,8 @@ window.BANKMATO2 = [
     "rättSvar": 40.37,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Tillämpa integraler i modeller"
   },
   {
     "id": "3.52",
@@ -17051,7 +17085,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Låt</p><p>\\[C=\\int_a^b(x-1)(5-x)\\,dx,\\qquad 0\\le a&lt;b\\le6.\\]</p><p>Bestäm det största möjliga värdet av intervallets längd \\(b-a\\) om \\(C=0\\).</p>",
     "s": "<p>Sätt</p><p>\\[F(x)=\\int (x-1)(5-x)dx=-\\frac{x^3}{3}+3x^2-5x.\\]</p><p>Villkoret \\(C=0\\) betyder \\(F(b)=F(a)\\).</p><p>Funktionen \\(F\\) är avtagande på \\([0,1]\\), växande på \\([1,5]\\) och avtagande på \\([5,6]\\), eftersom \\(F'(x)=(x-1)(5-x)\\).</p><p>Två olika punkter kan ha samma \\(F\\)-värde bara om de ligger på olika delar av grafen där \\(F\\) växer eller avtar. För den vänstra delen \\([0,1]\\) och mittdelen blir avståndet störst när den vänstra punkten flyttas ända till \\(a=0\\). På motsvarande sätt blir största avståndet mellan mittdelen och den högra delen när \\(b=6\\). På grund av symmetrin får de två fallen samma längd.</p><p>Ta därför \\(a=0\\). Då krävs \\(F(b)=F(0)=0\\):</p><p>\\[-\\frac{b^3}{3}+3b^2-5b=0.\\]</p><p>För \\(b&gt;0\\):</p><p>\\[b^2-9b+15=0.\\]</p><p>Den lösning som ligger i intervallet är</p><p>\\[b=\\frac{9-\\sqrt{21}}{2}.\\]</p><p>Alltså är den största möjliga längden</p><p>\\[\\boxed{b-a=\\frac{9-\\sqrt{21}}2\\approx2,21}.\\]</p>",
-    "familj": "Tillämpa integraler i modeller",
+    "familj": "Tolka och använda integraler i modeller",
     "formaga": [
       "procedur",
       "resonemang"
@@ -17059,7 +17093,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Tillämpa integraler i modeller"
   },
   {
     "id": "3.80",
@@ -17214,7 +17249,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Effekten hos en maskin under åtta timmar modelleras av</p><p>\\[P(t)=2,5+1,2\\sin\\left(\\frac{\\pi t}{6}\\right)+0,08t^2\\]</p><p>kW.</p><p>Bestäm den energi som maskinen använder under de åtta timmarna.</p>",
     "s": "<p>Energin i kWh fås av</p><p>\\[E=\\int_0^8P(t)\\,dt.\\]</p><p>Beräkningen ger</p><p>\\[\\boxed{E\\approx37,09\\text{ kWh}}.\\]</p>",
-    "familj": "Tillämpa integraler i modeller",
+    "familj": "Tolka och använda integraler i modeller",
     "formaga": [
       "procedur",
       "modellering",
@@ -17224,7 +17259,8 @@ window.BANKMATO2 = [
     "rättSvar": 37.09,
     "tolerans": 0.01,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Tillämpa integraler i modeller"
   },
   {
     "id": "3.84",
@@ -18644,7 +18680,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>En tunn stång är 4,0 m lång. Dess massa per meter varierar enligt</p><p>\\[m(x)=2+0,5x\\quad\\text{kg/m},\\qquad0\\le x\\le4.\\]</p><p>Bestäm stångens totala massa.</p>",
     "s": "<p><strong>Metod:</strong> En integral summerar en storhet per enhet, till exempel hastighet, flöde eller massa per meter. Kontrollera därför också enheten i svaret.</p><p>Massan fås genom att integrera massan per längdenhet:</p><p>\\[m=\\int_0^4(2+0,5x)dx=[2x+0,25x^2]_0^4=8+4=\\boxed{12\\text{ kg}}.\\]</p>",
-    "familj": "Tillämpa integraler i modeller",
+    "familj": "Tolka och använda integraler i modeller",
     "formaga": [
       "procedur",
       "modellering",
@@ -18654,7 +18690,8 @@ window.BANKMATO2 = [
     "rättSvar": 12,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Tillämpa integraler i modeller"
   },
   {
     "id": "3.246",
@@ -18669,7 +18706,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Trafikflödet på en väg modelleras under sex timmar av</p><p>\\[q(t)=500+300e^{-0,2(t-3)^2}\\]</p><p>fordon per timme, där \\(0\\le t\\le6\\).</p><p>Beräkna hur många fordon som passerar under perioden.</p>",
     "s": "<p>Antalet fordon motsvarar arean under flödeskurvan:</p><p>\\[N=\\int_0^6 q(t)\\,dt.\\]</p><p>Numerisk integration ger</p><p>\\[N\\approx4120,3.\\]</p><p>Alltså passerar ungefär \\(\\boxed{4120\\text{ fordon}}\\).</p>",
-    "familj": "Tillämpa integraler i modeller",
+    "familj": "Tolka och använda integraler i modeller",
     "formaga": [
       "procedur",
       "begrepp",
@@ -18680,7 +18717,8 @@ window.BANKMATO2 = [
     "rättSvar": 4120,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Tillämpa integraler i modeller"
   },
   {
     "id": "3.118",
@@ -19410,7 +19448,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Temperaturen under 12 timmar modelleras av</p><p>\\[T(t)=20+4\\sin\\left(\\frac{\\pi t}{12}\\right),\\qquad0\\le t\\le12.\\]</p><p>Medelvärdet av en funktion på \\([a,b]\\) ges av \\(\\frac1{b-a}\\int_a^bf(x)dx\\).</p><p>Bestäm modellens medeltemperatur under de 12 timmarna.</p>",
     "s": "<p>\\[\\bar T=\\frac1{12}\\int_0^{12}\\left(20+4\\sin\\frac{\\pi t}{12}\\right)dt.\\]</p><p>Konstantdelen ger 20. Vidare</p><p>\\[\\int_0^{12}\\sin(\\pi t/12)dt=\\frac{24}{\\pi}.\\]</p><p>Alltså</p><p>\\[\\bar T=20+\\frac1{12}\\cdot4\\cdot\\frac{24}{\\pi}=\\boxed{20+\\frac8\\pi\\approx22,55^\\circ C}.\\]</p>",
-    "familj": "Tillämpa integraler i modeller",
+    "familj": "Tolka och använda integraler i modeller",
     "formaga": [
       "procedur",
       "modellering",
@@ -19419,7 +19457,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Tillämpa integraler i modeller"
   },
   {
     "id": "3.136",
@@ -19619,7 +19658,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Ett läkemedel tillförs kroppen med hastigheten</p><p>\\[r(t)=12te^{-0,6t},\\qquad0\\le t\\le8,\\]</p><p>där \\(r\\) mäts i mg/h.</p><p>a) Hur stor mängd tillförs under de åtta timmarna?<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Vid vilken tidpunkt har hälften av denna mängd tillförts?</p>",
     "s": "<p>a) Den totala mängden är</p><p>\\[M=\\int_0^8 12te^{-0,6t}\\,dt\\approx\\boxed{31,74\\text{ mg}}.\\]</p><p>b) Vi söker \\(T\\) som uppfyller</p><p>\\[\\int_0^T12te^{-0,6t}\\,dt=\\frac{31,74}{2}.\\]</p><p>Den numeriska lösningen är</p><p>\\[\\boxed{T\\approx2,67\\text{ h}}.\\]</p>",
-    "familj": "Tillämpa integraler i modeller",
+    "familj": "Tolka och använda integraler i modeller",
     "formaga": [
       "procedur",
       "modellering",
@@ -19653,7 +19692,8 @@ window.BANKMATO2 = [
         "t": "<p>Ett läkemedel tillförs kroppen med hastigheten</p><p>\\[r(t)=12te^{-0,6t},\\qquad0\\le t\\le8,\\]</p><p>där \\(r\\) mäts i mg/h.</p><div class=\"spel-en-del\"><strong>b)</strong> Vid vilken tidpunkt har hälften av denna mängd tillförts?</div>",
         "s": "<div class=\"spel-en-del\"><strong>b)</strong> Vi söker \\(T\\) som uppfyller\n\\[\\int_0^T12te^{-0,6t}\\,dt=\\frac{31,74}{2}.\\]\nDen numeriska lösningen är\n\\[\\boxed{T\\approx2,67\\text{ h}}.\\]</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Tillämpa integraler i modeller"
   },
   {
     "id": "3.140",
@@ -19934,7 +19974,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna och skriv på formen \\(a+bi\\).</p><p>a) \\((4-3i)-(1+5i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((2+3i)(2-3i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((1-i)^3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{3+4i}{1+i}\\)</p>",
     "s": "<p>a) <strong>\\(3-8i\\)</strong>.</p><p>b) Produkten av konjugat: <strong>13</strong>.</p><p>c) \\((1-i)^2=-2i\\), alltså \\((-2i)(1-i)=-2-2i\\): <strong>\\(-2-2i\\)</strong>.</p><p>d) Multiplicera med \\(1-i\\): \\((3+4i)(1-i)/2=(7+i)/2\\), alltså <strong>\\(7/2+i/2\\)</strong>.</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -19982,7 +20022,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna och skriv på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\frac{3+4i}{1+i}\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> Multiplicera med \\(1-i\\): \\((3+4i)(1-i)/2=(7+i)/2\\), alltså \\(7/2+i/2\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.08",
@@ -19997,7 +20038,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna.</p><p>a) \\((5+3i)+(-2+7i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((4-6i)-(1+2i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-3(2-i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2(1+4i)-(3-i)\\)</p>",
     "s": "<p><strong>Metod:</strong> Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><p>a) <strong>\\(3+10i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(3-8i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(-6+3i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2+8i-3+i=\\boxed{-1+9i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -20045,7 +20086,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(2(1+4i)-(3-i)\\)</div>",
         "s": "<p>Metod: Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(2+8i-3+i=\\boxed{-1+9i}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.09",
@@ -20130,7 +20172,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv på polär form.</p><p>a) \\(2+2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-3i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-1-\\sqrt3i\\)</p>",
     "s": "<p>a) Absolutbelopp \\(2\\sqrt2\\), argument \\(\\pi/4\\): <strong>\\(2\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\)</strong>.</p><p>b) Absolutbelopp 3, argument \\(3\\pi/2\\): <strong>\\(3(\\cos\\frac{3\\pi}{2}+i\\sin\\frac{3\\pi}{2})\\)</strong>.</p><p>c) Absolutbelopp 2, argument \\(4\\pi/3\\): <strong>\\(2(\\cos\\frac{4\\pi}{3}+i\\sin\\frac{4\\pi}{3})\\)</strong>.</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
@@ -20170,7 +20212,8 @@ window.BANKMATO2 = [
         "t": "<p>Skriv på polär form.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(-1-\\sqrt3i\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>c)</strong> Absolutbelopp 2, argument \\(4\\pi/3\\): \\(2(\\cos\\frac{4\\pi}{3}+i\\sin\\frac{4\\pi}{3})\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.13",
@@ -20230,7 +20273,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Multiplicera och skriv svaret på formen \\(a+bi\\).</p><p>a) \\((2+3i)(4-i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((1-2i)^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((3+i)(3-i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((2+i)(-1+4i)\\)</p>",
     "s": "<p>a) \\(8-2i+12i-3i^2=\\boxed{11+10i}\\).</p><p>b) \\(1-4i+4i^2=\\boxed{-3-4i}\\).</p><p>c) Faktorerna är konjugat: \\((3+i)(3-i)=3^2+1^2=\\boxed{10}\\).</p><p>d) \\(-2+8i-i+4i^2=\\boxed{-6+7i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -20278,7 +20321,8 @@ window.BANKMATO2 = [
         "t": "<p>Multiplicera och skriv svaret på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\((2+i)(-1+4i)\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> \\(-2+8i-i+4i^2=\\boxed{-6+7i}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.16",
@@ -20560,14 +20604,15 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv på polär form med \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-2i\\)</p>",
     "s": "<p>a) \\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sqrt2(\\cos\\frac{3\\pi}4+i\\sin\\frac{3\\pi}4)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.25",
@@ -20661,7 +20706,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna och svara på formen \\(a+bi\\).</p><p>a) \\((3-2i)+(5+7i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((4+i)(2-3i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\frac{5+i}{1-i}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((2+3i)^2\\)</p>",
     "s": "<p><strong>Metod:</strong> Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><p>a) \\(8+5i\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(11-10i\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Multiplicera med \\(1+i\\): \\(\\frac{(5+i)(1+i)}2=2+3i\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(-5+12i\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -20709,7 +20754,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna och svara på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\((2+3i)^2\\)</div>",
         "s": "<p>Metod: Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(-5+12i\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.28",
@@ -20941,7 +20987,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Lös ekvationerna och skriv \\(z\\) på formen \\(a+bi\\).</p><p>a) \\(z+(3-2i)=7+5i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2z=6-8i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((1+i)z=4\\)</p>",
     "s": "<p><strong>Metod:</strong> Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><p>a) \\(z=7+5i-(3-2i)=\\boxed{4+7i}\\).</p><p>b) \\(z=\\boxed{3-4i}\\).</p><p>c) \\(z=4/(1+i)=4(1-i)/2=\\boxed{2-2i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -20981,7 +21027,8 @@ window.BANKMATO2 = [
         "t": "<p>Lös ekvationerna och skriv \\(z\\) på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>c)</strong> \\((1+i)z=4\\)</div>",
         "s": "<p>Metod: Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><div class=\"spel-en-del\"><strong>c)</strong> \\(z=4/(1+i)=4(1-i)/2=\\boxed{2-2i}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.36",
@@ -21168,14 +21215,15 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv på formen \\(a+bi\\).</p><p>a) \\(2\\left(\\cos(0)+i\\sin(0)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(4\\left(\\cos(\\pi/2)+i\\sin(\\pi/2)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(6\\left(\\cos(\\pi)+i\\sin(\\pi)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\sqrt2\\left(\\cos(7\\pi/4)+i\\sin(7\\pi/4)\\right)\\)</p>",
     "s": "<p>a) <strong>2</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(4i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>−6</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\sqrt2(\\frac{\\sqrt2}{2}-i\\frac{\\sqrt2}{2})=\\)<strong>\\(2-2i\\)</strong>.</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.40",
@@ -21447,7 +21495,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Multiplicera och skriv svaret på formen \\(a+bi\\).</p><p>a) \\((2+3i)(4-i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((1-2i)^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((3+i)(3-i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(i(5-4i)\\)</p>",
     "s": "<p><strong>Metod:</strong> Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><p>a) \\(8-2i+12i-3i^2=\\)<strong>\\(11+10i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(1-4i+4i^2=\\)<strong>\\(-3-4i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(9-i^2=\\)<strong>10</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(5i-4i^2=\\)<strong>\\(4+5i\\)</strong>.</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -21495,7 +21543,8 @@ window.BANKMATO2 = [
         "t": "<p>Multiplicera och skriv svaret på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(i(5-4i)\\)</div>",
         "s": "<p>Metod: Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(5i-4i^2=\\) \\(4+5i\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.48",
@@ -21510,7 +21559,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv i polär form \\(r(\\cos v+i\\sin v)\\), med \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-\\sqrt3-i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2i\\)</p>",
     "s": "<p>a) \\(r=\\sqrt2\\), \\(v=\\pi/4\\): <strong>\\(\\sqrt2\\left(\\cos(\\pi/4)+i\\sin(\\pi/4)\\right)\\)</strong>.</p><p>b) \\(r=\\sqrt2\\), \\(v=3\\pi/4\\).</p><p>c) \\(r=2\\), vinkeln ligger i tredje kvadranten med motsvarande vinkel i första kvadranten \\(\\pi/6\\): <strong>\\(2\\left(\\cos(7\\pi/6)+i\\sin(7\\pi/6)\\right)\\)</strong>.</p><p>d) <strong>\\(2\\left(\\cos(\\pi/2)+i\\sin(\\pi/2)\\right)\\)</strong>.</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
@@ -21563,7 +21612,8 @@ window.BANKMATO2 = [
         "t": "<p>Skriv i polär form \\(r(\\cos v+i\\sin v)\\), med \\(0\\le v&lt;2\\pi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(2i\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> \\(2\\left(\\cos(\\pi/2)+i\\sin(\\pi/2)\\right)\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.49",
@@ -21772,7 +21822,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv på formen \\(a+bi\\).</p><p>a) \\(4\\left(\\cos(\\pi/3)+i\\sin(\\pi/3)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(6\\left(\\cos(5\\pi/6)+i\\sin(5\\pi/6)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(3\\left(\\cos(3\\pi/2)+i\\sin(3\\pi/2)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\sqrt2\\left(\\cos(7\\pi/4)+i\\sin(7\\pi/4)\\right)\\)</p>",
     "s": "<p>a) \\(4(1/2+i\\sqrt3/2)=\\boxed{2+2\\sqrt3i}\\).</p><p>b) \\(6(-\\sqrt3/2+i/2)=\\boxed{-3\\sqrt3+3i}\\).</p><p>c) <strong>\\(-3i\\)</strong>.</p><p>d) \\(2\\sqrt2(\\sqrt2/2-i\\sqrt2/2)=\\boxed{2-2i}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
@@ -21820,7 +21870,8 @@ window.BANKMATO2 = [
         "t": "<p>Skriv på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(2\\sqrt2\\left(\\cos(7\\pi/4)+i\\sin(7\\pi/4)\\right)\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> \\(2\\sqrt2(\\sqrt2/2-i\\sqrt2/2)=\\boxed{2-2i}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.320",
@@ -21835,14 +21886,15 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>De komplexa talen ges i polär form av</p><p>\\[z=2,3(\\cos1,1+i\\sin1,1)\\]</p><p>och</p><p>\\[w=1,7(\\cos2,4+i\\sin2,4).\\]</p><p>Bestäm produkten \\(zw\\) på rektangulär form med tre decimaler.</p>",
     "s": "<p>Vid multiplikation multipliceras absolutbeloppen och argumenten adderas:</p><p>\\[|zw|=2,3\\cdot1,7=3,91\\]</p><p>och argumentet blir \\(1,1+2,4=3,5\\) rad.</p><p>\\[zw=3,91(\\cos3,5+i\\sin3,5).\\]</p><p>På rektangulär form:</p><p>\\[\\boxed{zw\\approx-3,662-1,372i}.\\]</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.56",
@@ -22112,7 +22164,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Bestäm det reella talet \\(a\\) så att det komplexa talet</p><p>\\[\\frac{a+i}{2-i}\\]</p><p>har argument \\(45^\\circ\\).</p>",
     "s": "<p>Förläng med nämnarens konjugat:</p><p>\\[\\frac{a+i}{2-i}=\\frac{(a+i)(2+i)}{5}.\\]</p><p>Utveckla täljaren:</p><p>\\[(a+i)(2+i)=(2a-1)+(a+2)i.\\]</p><p>Ett tal med argument \\(45^\\circ\\) har lika stor positiv realdel och imaginärdel. Därför krävs</p><p>\\[2a-1=a+2.\\]</p><p>\\[\\boxed{a=3}.\\]</p><p>Kontroll: Då blir talet \\((5+5i)/5=1+i\\), som har argument \\(45^\\circ\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur",
       "begrepp"
@@ -22121,7 +22173,8 @@ window.BANKMATO2 = [
     "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.63",
@@ -22184,7 +22237,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv på polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(\\sqrt3+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-1-i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(3i\\)</p>",
     "s": "<p>a) \\(r=2\\), \\(v=\\pi/6\\): \\(\\boxed{2(\\cos\\frac\\pi6+i\\sin\\frac\\pi6)}\\).</p><p>b) \\(r=\\sqrt2\\), \\(v=5\\pi/4\\): \\(\\boxed{\\sqrt2(\\cos\\frac{5\\pi}4+i\\sin\\frac{5\\pi}4)}\\).</p><p>c) \\(\\boxed{3(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -22225,7 +22278,8 @@ window.BANKMATO2 = [
         "t": "<p>Skriv på polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p><div class=\"spel-en-del\"><strong>c)</strong> \\(3i\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>c)</strong> \\(\\boxed{3(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.65",
@@ -22419,7 +22473,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Talet \\(z=-\\sqrt3+i\\) är markerat i det komplexa talplanet.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"410\" height=\"280\" viewBox=\"0 0 410 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Komplext talplan\">\n<rect x=\"1\" y=\"1\" width=\"408\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"240\" stroke=\"#D9E6E9\"/>\n<text x=\"55.0\" y=\"147.5\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-3</text>\n<line x1=\"110.0\" y1=\"25\" x2=\"110.0\" y2=\"240\" stroke=\"#D9E6E9\"/>\n<text x=\"110.0\" y=\"147.5\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-2</text>\n<line x1=\"165.0\" y1=\"25\" x2=\"165.0\" y2=\"240\" stroke=\"#D9E6E9\"/>\n<text x=\"165.0\" y=\"147.5\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-1</text>\n<line x1=\"220.0\" y1=\"25\" x2=\"220.0\" y2=\"240\" stroke=\"#D9E6E9\"/>\n<line x1=\"275.0\" y1=\"25\" x2=\"275.0\" y2=\"240\" stroke=\"#D9E6E9\"/>\n<text x=\"275.0\" y=\"147.5\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text>\n<line x1=\"330.0\" y1=\"25\" x2=\"330.0\" y2=\"240\" stroke=\"#D9E6E9\"/>\n<text x=\"330.0\" y=\"147.5\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text>\n<line x1=\"385.0\" y1=\"25\" x2=\"385.0\" y2=\"240\" stroke=\"#D9E6E9\"/>\n<text x=\"385.0\" y=\"147.5\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text>\n<line x1=\"55\" y1=\"240.0\" x2=\"385\" y2=\"240.0\" stroke=\"#D9E6E9\"/>\n<text x=\"212.0\" y=\"243.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-3</text>\n<line x1=\"55\" y1=\"204.2\" x2=\"385\" y2=\"204.2\" stroke=\"#D9E6E9\"/>\n<text x=\"212.0\" y=\"207.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-2</text>\n<line x1=\"55\" y1=\"168.3\" x2=\"385\" y2=\"168.3\" stroke=\"#D9E6E9\"/>\n<text x=\"212.0\" y=\"171.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-1</text>\n<line x1=\"55\" y1=\"132.5\" x2=\"385\" y2=\"132.5\" stroke=\"#D9E6E9\"/>\n<line x1=\"55\" y1=\"96.7\" x2=\"385\" y2=\"96.7\" stroke=\"#D9E6E9\"/>\n<text x=\"212.0\" y=\"99.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text>\n<line x1=\"55\" y1=\"60.8\" x2=\"385\" y2=\"60.8\" stroke=\"#D9E6E9\"/>\n<text x=\"212.0\" y=\"63.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text>\n<line x1=\"55\" y1=\"25.0\" x2=\"385\" y2=\"25.0\" stroke=\"#D9E6E9\"/>\n<text x=\"212.0\" y=\"28.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text>\n<line x1=\"55\" y1=\"132.5\" x2=\"385\" y2=\"132.5\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"220.0\" y1=\"25\" x2=\"220.0\" y2=\"240\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<text x=\"383\" y=\"125.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">Re</text>\n<text x=\"228.0\" y=\"37\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">Im</text>\n<line x1=\"220.0\" y1=\"132.5\" x2=\"124.7\" y2=\"96.7\" stroke=\"#268FA3\" stroke-width=\"2\"/>\n<circle cx=\"124.7\" cy=\"96.7\" r=\"5\" fill=\"#268FA3\"/>\n<text x=\"132.7\" y=\"88.7\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">z</text>\n\n</svg></span><p>Skriv \\(z\\) i polär form med argumentet i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
     "s": "<p>Absolutbeloppet är</p>\n<p>\\[\nr=\\sqrt{(-\\sqrt3)^2+1^2}=2.\n\\]</p>\n<p>Punkten ligger i andra kvadranten och har motsvarande vinkeln i första kvadranten \\(30^\\circ\\), alltså</p>\n<p>\\[\nv=150^\\circ=\\frac{5\\pi}{6}.\n\\]</p>\n<p><strong>\\[\nz=2\\left(\\cos\\frac{5\\pi}{6}+i\\sin\\frac{5\\pi}{6}\\right).\n\\]</strong></p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -22427,7 +22481,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.70",
@@ -22860,7 +22915,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna och svara på formen \\(a+bi\\).</p><p>a) \\((3+2i)+(5-7i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((4-i)(2+3i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(i(6-2i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((1+i)^2\\)</p>",
     "s": "<p><strong>Metod:</strong> Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><p>a) <strong>\\(8-5i\\)</strong>.</p><p>b) \\(8+12i-2i-3i^2=\\)<strong>\\(11+10i\\)</strong>.</p><p>c) \\(6i-2i^2=\\)<strong>\\(2+6i\\)</strong>.</p><p>d) \\(1+2i+i^2=\\)<strong>\\(2i\\)</strong>.</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -22908,7 +22963,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna och svara på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\((1+i)^2\\)</div>",
         "s": "<p>Metod: Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(1+2i+i^2=\\) \\(2i\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.84",
@@ -22970,14 +23026,15 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv \\(z=-\\sqrt3+i\\) i polär form.</p>",
     "s": "<p>Absolutbeloppet är \\(r=\\sqrt{3+1}=2\\). Punkten ligger i andra kvadranten och motsvarande vinkeln i första kvadranten är \\(\\pi/6\\), så argumentet är \\(5\\pi/6\\).</p><p><strong>\\(\\boxed{z=2(\\cos(5\\pi/6)+i\\sin(5\\pi/6))}\\)</strong>.</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.86",
@@ -23014,7 +23071,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-\\sqrt3-i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2i\\)</p>",
     "s": "<p>a) \\(|z|=\\sqrt2\\), \\(v=\\pi/4\\): <strong>\\(\\sqrt2\\left(\\cos(\\pi/4)+i\\sin(\\pi/4)\\right)\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\sqrt2\\left(\\cos(3\\pi/4)+i\\sin(3\\pi/4)\\right)\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(|z|=2\\), tredje kvadranten med motsvarande vinkel i första kvadranten \\(\\pi/6\\): <strong>\\(2\\left(\\cos(7\\pi/6)+i\\sin(7\\pi/6)\\right)\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(2\\left(\\cos(\\pi/2)+i\\sin(\\pi/2)\\right)\\)</strong>.</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -23022,7 +23079,8 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.88",
@@ -23361,7 +23419,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p><p>a) \\((3+5i)+(2-7i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((4-3i)-(1+6i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-2(3-i)+(5+4i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((1+i)+(1-i)\\)</p>",
     "s": "<p><strong>Metod:</strong> Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><p>a) <strong>\\(5-2i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(3-9i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-6+2i+5+4i=\\)<strong>\\(-1+6i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>2</strong>.</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -23409,7 +23467,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\((1+i)+(1-i)\\)</div>",
         "s": "<p>Metod: Räkna realdelar och imaginärdelar var för sig och använd \\(i^2=-1\\).</p><div class=\"spel-en-del\"><strong>d)</strong> 2 .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.97",
@@ -23472,7 +23531,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Lös ekvationerna och skriv svaret på formen \\(a+bi\\).</p><p>a) \\(z+(2-i)=5+3i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2z=6-4i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((1+i)z=4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{z}{2-i}=1+2i\\)</p>",
     "s": "<p>a) Flytta över \\(2-i\\):</p><p>\\[z=5+3i-(2-i)=\\boxed{3+4i}.\\]</p>\n<p>b) Dela båda leden med 2:</p><p>\\[z=\\boxed{3-2i}.\\]</p>\n<p>c) \\(z=4/(1+i)\\). Förläng med konjugatet \\(1-i\\):</p><p>\\[z=\\frac{4(1-i)}{(1+i)(1-i)}=\\frac{4-4i}{2}=\\boxed{2-2i}.\\]</p>\n<p>d) Multiplicera båda leden med \\(2-i\\):</p><p>\\[z=(2-i)(1+2i)=2+4i-i-2i^2=\\boxed{4+3i}.\\]</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -23520,7 +23579,8 @@ window.BANKMATO2 = [
         "t": "<p>Lös ekvationerna och skriv svaret på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\frac{z}{2-i}=1+2i\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> Multiplicera båda leden med \\(2-i\\):\n\\[z=(2-i)(1+2i)=2+4i-i-2i^2=\\boxed{4+3i}.\\]</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.100",
@@ -23864,7 +23924,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Låt</p><p>\\[z=1,08(\\cos0,52+i\\sin0,52).\\]</p><p>Bestäm det minsta positiva heltalet \\(n\\) för vilket realdelen av \\(z^n\\) är mindre än \\(-2\\).</p>",
     "s": "<p>Enligt de Moivres formel</p><p>\\[z^n=1,08^n(\\cos(0,52n)+i\\sin(0,52n)).\\]</p><p>Genom att undersöka heltalen i ordning fås första träffen vid \\(n=17\\):</p><p>\\[z^{17}\\approx-3,085+2,042i.\\]</p><p>Alltså \\(\\boxed{n=17}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -23872,7 +23932,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.106",
@@ -23933,7 +23994,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Det komplexa talet är \\(z=1+i\\sqrt3\\).</p><p>a) Bestäm \\(z^5\\) exakt med polär form.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(1/z\\) på både rektangulär och polär form.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Kontrollera att absolutbeloppen uppfyller \\(|z|\\,|1/z|=1\\).</p>",
     "s": "<p>\\(z=2e^{i\\pi/3}\\).</p><p>a) \\(z^5=32e^{i5\\pi/3}=\\boxed{16-16\\sqrt3 i}\\).</p><p>b) Polärt \\(\\boxed{\\frac12e^{-i\\pi/3}}\\). Rektangulärt \\((1-i\\sqrt3)/4=\\boxed{1/4-(\\sqrt3/4)i}\\).</p><p>c) \\(|z|=2\\), \\(|1/z|=1/2\\), produkten är \\(\\boxed{1}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -23960,7 +24021,8 @@ window.BANKMATO2 = [
       "uttryck",
       null,
       "numeriskt"
-    ]
+    ],
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.108",
@@ -24167,7 +24229,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv talen på polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-\\sqrt3+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-2i\\)</p>",
     "s": "<p>a) \\(r=\\sqrt2\\), \\(v=\\pi/4\\): <strong>\\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\)</strong>.</p>\n<p>b) \\(r=2\\), andra kvadranten och motsvarande vinkel i första kvadranten \\(\\pi/6\\), alltså \\(v=5\\pi/6\\): <strong>\\(2(\\cos\\frac{5\\pi}{6}+i\\sin\\frac{5\\pi}{6})\\)</strong>.</p>\n<p>c) \\(r=2\\), \\(v=3\\pi/2\\): <strong>\\(2(\\cos\\frac{3\\pi}{2}+i\\sin\\frac{3\\pi}{2})\\)</strong>.</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -24208,7 +24270,8 @@ window.BANKMATO2 = [
         "t": "<p>Skriv talen på polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p><div class=\"spel-en-del\"><strong>c)</strong> \\(-2i\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>c)</strong> \\(r=2\\), \\(v=3\\pi/2\\): \\(2(\\cos\\frac{3\\pi}{2}+i\\sin\\frac{3\\pi}{2})\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.115",
@@ -24499,7 +24562,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p><p>a) \\((5-3i)+(2+7i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((4+2i)(1-3i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((2-i)^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{6+8i}{2i}\\)</p>",
     "s": "<p>a) \\(\\boxed{7+4i}\\)</p><p>b) \\(4-12i+2i-6i^2=\\boxed{10-10i}\\)</p><p>c) \\(4-4i+i^2=\\boxed{3-4i}\\)</p><p>d) Multiplicera med \\(-i/-i\\): \\((6+8i)/(2i)=4-3i\\), alltså \\(\\boxed{4-3i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -24547,7 +24610,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\frac{6+8i}{2i}\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> Multiplicera med \\(-i/-i\\): \\((6+8i)/(2i)=4-3i\\), alltså \\(\\boxed{4-3i}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.123",
@@ -24562,7 +24626,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p><p>a) \\((3-2i)+(1+5i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((4+i)-(2-3i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((2+i)(3-2i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{5+5i}{1+i}\\)</p>",
     "s": "<p>a) <strong>\\(4+3i\\)</strong>.</p><p>b) <strong>\\(2+4i\\)</strong>.</p><p>c) \\(6-4i+3i-2i^2=8-i\\), alltså <strong>\\(8-i\\)</strong>.</p><p>d) Multiplicera med konjugatet \\(1-i\\):</p><p>\\[\\frac{(5+5i)(1-i)}{(1+i)(1-i)}=\\frac{10}{2}=\\boxed{5}.\\]</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -24610,7 +24674,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\frac{5+5i}{1+i}\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> Multiplicera med konjugatet \\(1-i\\):\n\\[\\frac{(5+5i)(1-i)}{(1+i)(1-i)}=\\frac{10}{2}=\\boxed{5}.\\]</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.124",
@@ -25185,14 +25250,15 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv på formen \\(a+bi\\) med hjälp av Eulers formel.</p><p>a) \\(e^{i\\pi}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(e^{i\\pi/2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2e^{i3\\pi/4}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3e^{-i\\pi/6}\\)</p>",
     "s": "<p>Använd \\(e^{iv}=\\cos v+i\\sin v\\).</p><p>a) <strong>\\(-1\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(-\\sqrt2+\\sqrt2i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\frac{3\\sqrt3}{2}-\\frac32i\\)</strong>.</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.140",
@@ -25299,14 +25365,15 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Låt</p><p>\\[z=1,1(\\cos0,7+i\\sin0,7).\\]</p><p>Av talen \\(z,z^2,\\ldots,z^{12}\\), vilket ligger närmast punkten \\(-2+i\\) i det komplexa talplanet?</p>",
     "s": "<p>Beräkna eller markera potenserna och jämför avstånden till \\(-2+i\\).</p><p>Det minsta avståndet fås för \\(n=4\\). Då</p><p>\\[z^4\\approx-1,380+0,490i.\\]</p><p>Avståndet till \\(-2+i\\) är ungefär \\(0,803\\).</p><p>Alltså är \\(\\boxed{z^4}\\) närmast.</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.141",
@@ -26029,14 +26096,15 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv talet \\(z=-1+i\\sqrt3\\) i polär form.</p>",
     "s": "<p><strong>Formel från formelbladet:</strong> \\(z=r(\\cos v+i\\sin v)\\).</p><p>Först bestäms absolutbeloppet:</p><p>\\[r=|z|=\\sqrt{(-1)^2+(\\sqrt3)^2}=2.\\]</p><p>Punkten \\((-1,\\sqrt3)\\) ligger i andra kvadranten. Vinkeln mot positiva reella axeln är därför \\(v=\\frac{2\\pi}{3}\\).</p><p>Den polära formen är</p><p>\\[\\boxed{z=2\\left(\\cos\\frac{2\\pi}{3}+i\\sin\\frac{2\\pi}{3}\\right)}.\\]</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.163",
@@ -27576,7 +27644,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Funktionerna</p><p>\\[f(x)=2,5\\sin(0,9x)+1\\]</p><p>och</p><p>\\[g(x)=2\\cos(0,6x)-0,5\\]</p><p>är definierade för \\(0\\le x\\le12\\).</p><p>Bestäm samtliga skärningspunkter. Svara med tre decimaler.</p>",
     "s": "<p>Skärningspunkterna fås genom att lösa \\(f(x)=g(x)\\). En grafisk lösning ger</p><p>\\[x\\approx0,216\\quad\\text{och}\\quad x\\approx10,256.\\]</p><p>I båda punkterna är y-koordinaten ungefär \\(1,483\\).</p><p>\\[\\boxed{(0,216;1,483)\\ \\text{och}\\ (10,256;1,483)}.\\]</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -27584,7 +27652,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.182",
@@ -28571,7 +28640,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p><p>a) \\((3+2i)+(5-7i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((4-3i)-(1+6i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((-2+5i)+(7+i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((6+i)-(9-4i)\\)</p>",
     "s": "<p><strong>Metod:</strong> Samla realdelar för sig och imaginärdelar för sig.</p><p>a) \\((3+5)+(2-7)i=\\boxed{8-5i}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((4-1)+(-3-6)i=\\boxed{3-9i}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((-2+7)+(5+1)i=\\boxed{5+6i}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((6-9)+(1+4)i=\\boxed{-3+5i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -28619,7 +28688,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\((6+i)-(9-4i)\\)</div>",
         "s": "<p>Metod: Samla realdelar för sig och imaginärdelar för sig.</p><div class=\"spel-en-del\"><strong>d)</strong> \\((6-9)+(1+4)i=\\boxed{-3+5i}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.187",
@@ -28634,7 +28704,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Multiplicera och skriv svaret på formen \\(a+bi\\).</p><p>a) \\((2+i)(3-2i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((1+3i)(2+i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((4-i)(1-2i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((2-3i)^2\\)</p>",
     "s": "<p><strong>Metod:</strong> Multiplicera parenteserna som vanligt och använd sedan \\(i^2=-1\\).</p><p>a) \\((2+i)(3-2i)=6-4i+3i-2i^2=\\boxed{8-i}\\).</p><p>b) \\(2+i+6i+3i^2=\\boxed{-1+7i}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(4-8i-i+2i^2=\\boxed{2-9i}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(4-12i+9i^2=\\boxed{-5-12i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -28682,7 +28752,8 @@ window.BANKMATO2 = [
         "t": "<p>Multiplicera och skriv svaret på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\((2-3i)^2\\)</div>",
         "s": "<p>Metod: Multiplicera parenteserna som vanligt och använd sedan \\(i^2=-1\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(4-12i+9i^2=\\boxed{-5-12i}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.188",
@@ -28846,7 +28917,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Bestäm \\(z\\).</p><p>a) \\(z+(3-2i)=7+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(z-(1+4i)=-2+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2z=6-8i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(-3z=9+6i\\)</p>",
     "s": "<p>Behandla \\(z\\) som den obekanta och isolera den.</p><p>a) \\(z=7+i-(3-2i)=\\boxed{4+3i}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(z=-2+i+(1+4i)=\\boxed{-1+5i}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(z=(6-8i)/2=\\boxed{3-4i}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(z=(9+6i)/(-3)=\\boxed{-3-2i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -28894,7 +28965,8 @@ window.BANKMATO2 = [
         "t": "<p>Bestäm \\(z\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(-3z=9+6i\\)</div>",
         "s": "<p>Behandla \\(z\\) som den obekanta och isolera den.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(z=(9+6i)/(-3)=\\boxed{-3-2i}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.192",
@@ -28972,7 +29044,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna.</p><p>a) \\((1+i)^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((1+i)^3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((1-i)^4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((\\sqrt3+i)^2\\)</p>",
     "s": "<p>Multiplicera stegvis och använd \\(i^2=-1\\).</p><p>a) \\((1+i)^2=1+2i+i^2=\\boxed{2i}\\).</p><p>b) \\((1+i)^3=(1+i)\\cdot2i=\\boxed{-2+2i}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((1-i)^2=-2i\\), så \\((1-i)^4=(-2i)^2=\\boxed{-4}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((\\sqrt3+i)^2=3+2\\sqrt3 i+i^2=\\boxed{2+2\\sqrt3 i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -29020,7 +29092,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\"><strong>d)</strong> \\((\\sqrt3+i)^2\\)</div>",
         "s": "<p>Multiplicera stegvis och använd \\(i^2=-1\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\((\\sqrt3+i)^2=3+2\\sqrt3 i+i^2=\\boxed{2+2\\sqrt3 i}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.194",
@@ -29098,14 +29171,15 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Bestäm de reella talen \\(a\\) och \\(b\\).</p><p>a) \\(a+bi=5-2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2a+(b-1)i=8+3i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((a+bi)+(2-i)=7+4i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((a+bi)(1+i)=1+5i\\)</p>",
     "s": "<p><strong>Idé:</strong> Två komplexa tal är lika när deras realdelar är lika och deras imaginärdelar är lika.</p><p>a) Direkt fås \\(\\boxed{a=5,b=-2}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2a=8\\) och \\(b-1=3\\), alltså \\(\\boxed{a=4,b=4}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(a+2=7\\) och \\(b-1=4\\), alltså \\(\\boxed{a=5,b=5}\\).</p><p>d) \\((a+bi)(1+i)=(a-b)+(a+b)i\\). Därför \\(a-b=1\\) och \\(a+b=5\\), vilket ger \\(\\boxed{a=3,b=2}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.196",
@@ -29143,14 +29217,15 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv i polär form.</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-\\sqrt3-i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sqrt3-i\\)</p>",
     "s": "<p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p><p>a) <strong>\\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\sqrt2(\\cos\\frac{3\\pi}4+i\\sin\\frac{3\\pi}4)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(2(\\cos\\frac{7\\pi}6+i\\sin\\frac{7\\pi}6)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(2(\\cos\\frac{11\\pi}6+i\\sin\\frac{11\\pi}6)\\)</strong></p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.198",
@@ -29165,14 +29240,15 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv i polär form.</p><p>a) \\(2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-4i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(5\\)</p>",
     "s": "<p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p><p>a) <strong>\\(2(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(3(\\cos\\pi+i\\sin\\pi)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(4(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(5(\\cos0+i\\sin0)\\)</strong></p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.199",
@@ -29187,14 +29263,15 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv på formen \\(a+bi\\).</p><p>a) \\(4(\\cos\\frac\\pi3+i\\sin\\frac\\pi3)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(6(\\cos\\pi+i\\sin\\pi)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2\\sqrt2(\\cos\\frac{7\\pi}4+i\\sin\\frac{7\\pi}4)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\)</p>",
     "s": "<p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p><p>a) <strong>\\(2+2\\sqrt3 i\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-6\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(2-2i\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(-3i\\)</strong></p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.200",
@@ -29276,14 +29353,15 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv på formen \\(a+bi\\).</p><p>a) \\(2e^{i\\pi/2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(4e^{i\\pi}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(3e^{i2\\pi/3}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\sqrt2e^{-i\\pi/4}\\)</p>",
     "s": "<p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p><p>a) <strong>\\(2i\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-4\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(-\\frac32+\\frac{3\\sqrt3}{2}i\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(2-2i\\)</strong></p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.204",
@@ -29298,14 +29376,15 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv i exponentiell form.</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-2+2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-3i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sqrt3-i\\)</p>",
     "s": "<p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p><p>a) <strong>\\(\\sqrt2e^{i\\pi/4}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(2\\sqrt2e^{i3\\pi/4}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(3e^{-i\\pi/2}\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(2e^{-i\\pi/6}\\)</strong></p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.205",
@@ -29320,7 +29399,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna och svara i polär form.</p><p>a) \\((1+i)\\cdot2(\\cos\\frac\\pi3+i\\sin\\frac\\pi3)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\frac{-1+i}{\\sqrt2(\\cos\\frac\\pi6+i\\sin\\frac\\pi6)}\\)</p>",
     "s": "<p>a) Första faktorn har absolutbelopp \\(\\sqrt2\\) och argument \\(\\pi/4\\). Produkten blir \\(\\boxed{2\\sqrt2(\\cos\\frac{7\\pi}{12}+i\\sin\\frac{7\\pi}{12})}\\).</p><p>b) Täljaren har absolutbelopp \\(\\sqrt2\\) och argument \\(3\\pi/4\\). Kvoten får absolutbelopp 1 och argument \\(3\\pi/4-\\pi/6=7\\pi/12\\): \\(\\boxed{\\cos\\frac{7\\pi}{12}+i\\sin\\frac{7\\pi}{12}}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
@@ -29352,7 +29431,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna och svara i polär form.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(\\frac{-1+i}{\\sqrt2(\\cos\\frac\\pi6+i\\sin\\frac\\pi6)}\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>b)</strong> Täljaren har absolutbelopp \\(\\sqrt2\\) och argument \\(3\\pi/4\\). Kvoten får absolutbelopp 1 och argument \\(3\\pi/4-\\pi/6=7\\pi/12\\): \\(\\boxed{\\cos\\frac{7\\pi}{12}+i\\sin\\frac{7\\pi}{12}}\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.206",
@@ -29390,14 +29470,15 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Låt</p><p>\\[z=1,35(\\cos0,4+i\\sin0,4).\\]</p><p>Bestäm det minsta positiva heltalet \\(n\\) för vilket \\(|z^n|&gt;10\\).</p>",
     "s": "<p>Absolutbeloppet av en potens är</p><p>\\[|z^n|=|z|^n=1,35^n.\\]</p><p>Vi söker första heltalet med \\(1,35^n&gt;10\\). Man får</p><p>\\[1,35^7\\approx8,17\\quad\\text{och}\\quad1,35^8\\approx11,03.\\]</p><p>Alltså \\(\\boxed{n=8}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.207",
@@ -29412,7 +29493,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna absolutbeloppet av produkten eller kvoten utan att först skriva på formen \\(a+bi\\).</p><p>a) \\(|(3-4i)(1+i)|\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\left|\\frac{2+2i}{1-i}\\right|\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(|(1-\\sqrt3 i)^3|\\)</p>",
     "s": "<p><strong>Formel från formelbladet:</strong> I polär form är \\(z=r(\\cos v+i\\sin v)\\), och vid multiplikation adderas argumenten medan vid division subtraheras de.</p><p>a) <strong>\\(|3-4i|\\,|1+i|=5\\sqrt2\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\frac{|2+2i|}{|1-i|}=\\frac{2\\sqrt2}{\\sqrt2}=2\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(|1-\\sqrt3i|^3=2^3=8\\)</strong></p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -29420,7 +29501,8 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.208",
@@ -31306,7 +31388,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>En punkt \\(P\\) på enhetscirkeln ligger i tredje kvadranten och har x-koordinaten \\(-3/5\\).</p><p>Bestäm punktens y-koordinat och \\(\\tan v\\), där \\(v\\) är motsvarande vinkel.</p>",
     "s": "<p>På enhetscirkeln gäller \\(x^2+y^2=1\\). Alltså \\(9/25+y^2=1\\Rightarrow y^2=16/25\\). I tredje kvadranten är y negativ, så \\(y=-4/5\\).</p><p>\\[\\tan v=\\frac{y}{x}=\\frac{-4/5}{-3/5}=\\boxed{4/3}.\\]</p>",
-    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "familj": "Bestämma trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
       "begrepp"
@@ -31314,7 +31396,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometriska värden från ett givet värde"
   },
   {
     "id": "1.268",
@@ -31329,7 +31412,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Vinkeln \\(v\\) ligger i andra kvadranten och \\(\\sin v=3/5\\).</p><p>Bestäm exakt \\(\\sin(2v)\\) och \\(\\cos(2v)\\).</p>",
     "s": "<p>I andra kvadranten är cosinus negativ. Trigonometriska ettan ger \\(\\cos v=-4/5\\).</p><p>Dubbelvinkelformlerna ger</p><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac35\\cdot\\left(-\\frac45\\right)=\\boxed{-24/25},\\]</p><p>\\[\\cos2v=\\cos^2v-\\sin^2v=\\frac{16}{25}-\\frac9{25}=\\boxed{7/25}.\\]</p>",
-    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "familj": "Bestämma trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
       "begrepp"
@@ -31337,7 +31420,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometriska värden från ett givet värde"
   },
   {
     "id": "1.269",
@@ -31352,7 +31436,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Funktionen \\(f(x)=a\\sin(bx)+d\\) har största värdet 7, minsta värdet −1 och perioden \\(\\pi\\).</p><p>Bestäm positiva värden på \\(a\\) och \\(b\\) samt \\(d\\).</p>",
     "s": "<p>Medellinjen är \\(d=(7+(-1))/2=3\\). Amplituden är \\(a=(7-(-1))/2=4\\).</p><p>Perioden \\(2\\pi/b=\\pi\\) ger \\(b=2\\).</p><p>Alltså \\(\\boxed{a=4,b=2,d=3}\\).</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -31360,7 +31444,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.270",
@@ -33591,7 +33676,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=2+3i\\) och \\(z_2=1-2i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{3+1i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{1+5i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{8-1i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{2-3i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -33639,7 +33724,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=2+3i\\) och \\(z_2=1-2i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{2-3i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.224",
@@ -33654,7 +33740,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=4-1i\\) och \\(z_2=-2+3i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{2+2i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{6-4i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{-5+14i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{4+1i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -33702,7 +33788,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=4-1i\\) och \\(z_2=-2+3i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{4+1i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.225",
@@ -33717,7 +33804,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=-3+2i\\) och \\(z_2=5+1i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{2+3i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{-8+1i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{-17+7i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{-3-2i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -33765,7 +33852,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=-3+2i\\) och \\(z_2=5+1i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{-3-2i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.226",
@@ -33780,7 +33868,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=1+4i\\) och \\(z_2=2-1i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{3+3i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{-1+5i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{6+7i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{1-4i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -33828,7 +33916,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=1+4i\\) och \\(z_2=2-1i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{1-4i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.227",
@@ -33843,7 +33932,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=3+3i\\) och \\(z_2=-1+2i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{2+5i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{4+1i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{-9+3i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{3-3i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -33891,7 +33980,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=3+3i\\) och \\(z_2=-1+2i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{3-3i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.228",
@@ -33906,7 +33996,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=5-2i\\) och \\(z_2=2+2i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{7+0i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{3-4i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{14+6i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{5+2i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -33954,7 +34044,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=5-2i\\) och \\(z_2=2+2i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{5+2i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.229",
@@ -33969,7 +34060,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=2-5i\\) och \\(z_2=-3+1i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{-1-4i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{5-6i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{-1+17i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{2+5i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -34017,7 +34108,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=2-5i\\) och \\(z_2=-3+1i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{2+5i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.230",
@@ -34032,7 +34124,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=6+1i\\) och \\(z_2=1+3i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{7+4i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{5-2i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{3+19i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{6-1i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -34080,7 +34172,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=6+1i\\) och \\(z_2=1+3i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{6-1i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.231",
@@ -34095,7 +34188,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=1-2i\\) och \\(z_2=3+4i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{4+2i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{-2-6i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{11-2i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{1+2i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -34143,7 +34236,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=1-2i\\) och \\(z_2=3+4i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{1+2i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.232",
@@ -34158,7 +34252,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=-4+1i\\) och \\(z_2=2-3i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{-2-2i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{-6+4i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{-5+14i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{-4-1i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -34206,7 +34300,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=-4+1i\\) och \\(z_2=2-3i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{-4-1i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.233",
@@ -34221,7 +34316,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=5+3i\\) och \\(z_2=-2+1i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{3+4i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{7+2i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{-13-1i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{5-3i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -34269,7 +34364,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=5+3i\\) och \\(z_2=-2+1i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{5-3i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.234",
@@ -34284,7 +34380,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=2+2i\\) och \\(z_2=4-1i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{6+1i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{-2+3i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{10+6i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{2-2i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -34332,7 +34428,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=2+2i\\) och \\(z_2=4-1i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{2-2i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.235",
@@ -34347,7 +34444,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=-1+5i\\) och \\(z_2=3+2i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{2+7i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{-4+3i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{-13+13i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{-1-5i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -34395,7 +34492,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=-1+5i\\) och \\(z_2=3+2i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{-1-5i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.236",
@@ -34410,7 +34508,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=7-2i\\) och \\(z_2=1-4i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{8-6i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{6+2i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{-1-30i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{7+2i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -34458,7 +34556,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=7-2i\\) och \\(z_2=1-4i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{7+2i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.237",
@@ -34473,7 +34572,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=3-6i\\) och \\(z_2=-2-1i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{1-7i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{5-5i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{-12+9i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{3+6i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -34521,7 +34620,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=3-6i\\) och \\(z_2=-2-1i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{3+6i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.238",
@@ -34536,7 +34636,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Låt \\(z_1=4+5i\\) och \\(z_2=2+3i\\).</p><p>a) Bestäm \\(z_1+z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(z_1-z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(z_1z_2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(\\overline{z_1}\\).</p>",
     "s": "<p>a) Addera real- och imaginärdelar: \\(\\boxed{6+8i}\\).</p><p>b) Subtrahera del för del: \\(\\boxed{2+2i}\\).</p><p>c) Multiplicera och använd \\(i^2=-1\\): \\(\\boxed{-7+22i}\\).</p><p>d) Byt tecken på imaginärdelen: \\(\\boxed{4-5i}\\).</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -34584,7 +34684,8 @@ window.BANKMATO2 = [
         "t": "<p>Låt \\(z_1=4+5i\\) och \\(z_2=2+3i\\).</p><p><div class=\"spel-en-del\">Bestäm \\(\\overline{z_1}\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">Byt tecken på imaginärdelen: \\(\\boxed{4-5i}\\).</div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.239",
@@ -34783,7 +34884,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv \\(z=1+1i\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
     "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=\\sqrt2\\) och \\(v=\\pi/4\\).</p><p>Alltså \\(\\boxed{z=\\sqrt2(\\cos(\\pi/4)+i\\sin(\\pi/4))}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -34791,7 +34892,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.248",
@@ -34806,7 +34908,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv \\(z=-1+1i\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
     "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=\\sqrt2\\) och \\(v=3\\pi/4\\).</p><p>Alltså \\(\\boxed{z=\\sqrt2(\\cos(3\\pi/4)+i\\sin(3\\pi/4))}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -34814,7 +34916,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.249",
@@ -34829,7 +34932,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv \\(z=-1-1i\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
     "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=\\sqrt2\\) och \\(v=5\\pi/4\\).</p><p>Alltså \\(\\boxed{z=\\sqrt2(\\cos(5\\pi/4)+i\\sin(5\\pi/4))}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -34837,7 +34940,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.250",
@@ -34852,7 +34956,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv \\(z=0+3i\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
     "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=3\\) och \\(v=\\pi/2\\).</p><p>Alltså \\(\\boxed{z=3(\\cos(\\pi/2)+i\\sin(\\pi/2))}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -34860,7 +34964,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.251",
@@ -34875,7 +34980,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv \\(z=3+0i\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
     "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=3\\) och \\(v=0\\).</p><p>Alltså \\(\\boxed{z=3(\\cos(0)+i\\sin(0))}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -34883,7 +34988,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.252",
@@ -34898,7 +35004,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv \\(z=1+i\\sqrt3\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
     "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=2\\) och \\(v=\\pi/3\\).</p><p>Alltså \\(\\boxed{z=2(\\cos(\\pi/3)+i\\sin(\\pi/3))}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -34906,7 +35012,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.253",
@@ -34987,7 +35094,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Låt</p><p>\\[z=1,15(\\cos0,55+i\\sin0,55).\\]</p><p>Bestäm det minsta positiva heltalet \\(n\\) för vilket \\(z^n\\) både ligger i tredje kvadranten och har absolutbelopp större än 2.</p>",
     "s": "<p>Med de Moivres formel kan potenserna följas genom att argumentet ökar med \\(0,55\\) rad och absolutbeloppet multipliceras med \\(1,15\\) för varje steg.</p><p>Första talet som uppfyller båda villkoren är</p><p>\\[z^6\\approx-2,284-0,365i.\\]</p><p>Det ligger i tredje kvadranten och \\(|z^6|\\approx2,313&gt;2\\).</p><p>Alltså \\(\\boxed{n=6}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -34995,7 +35102,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.256",
@@ -35587,7 +35695,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Bestäm en funktion på formen \\(y=a\\sin bx\\) som har amplitud 3 och period \\(\\pi/2\\).</p>",
     "s": "<p>Amplituden ger \\(a=3\\). Perioden \\(2\\pi/b=\\pi/2\\) ger \\(b=4\\). En möjlig funktion är \\(\\boxed{y=3\\sin4x}\\).</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -35595,7 +35703,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.276",
@@ -36472,7 +36581,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>En kraft beror på läget enligt \\(F(x)=4x+2\\) N. Bestäm arbetet när föremålet flyttas från \\(x=0\\) till \\(x=3\\) m.</p>",
     "s": "<p>Arbetet är integralen av kraften över sträckan:</p><p>\\[W=\\int_0^3(4x+2)dx=[2x^2+2x]_0^3=18+6=\\boxed{24\\text{ J}}.\\]</p>",
-    "familj": "Tillämpa integraler i modeller",
+    "familj": "Tolka och använda integraler i modeller",
     "formaga": [
       "procedur",
       "problemlösning"
@@ -36481,7 +36590,8 @@ window.BANKMATO2 = [
     "rättSvar": 24,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Tillämpa integraler i modeller"
   },
   {
     "id": "3.196",
@@ -36615,7 +36725,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Vatten strömmar in och ut ur en reservoar. Nettoflödet, alltså inflöde minus utflöde, modelleras av</p><p>\\[q(t)=-10+2t+20\\sin\\left(\\frac{\\pi t}{6}\\right),\\qquad0\\le t\\le12,\\]</p><p>där \\(q\\) mäts i m³/h.</p><p>Vid vilken tidpunkt är den tillförda nettovolymen sedan \\(t=0\\) som störst, och hur stor är den då?</p>",
     "s": "<p>Låt</p><p>\\[V(t)=\\int_0^tq(u)\\,du.\\]</p><p>Då är \\(V'(t)=q(t)\\). Kandidater till största värdet fås därför när \\(q(t)=0\\) samt i intervallets ändpunkter.</p><p>Nollställena är ungefär</p><p>\\[t\\approx0,823;\\ 6,237;\\ 10,815.\\]</p><p>Beräkning av \\(V(t)\\) i dessa punkter och vid ändpunkterna visar att det största värdet fås vid</p><p>\\[\\boxed{t\\approx6,237\\text{ h}}\\]</p><p>och är</p><p>\\[\\boxed{V\\approx52,63\\text{ m}^3}.\\]</p>",
-    "familj": "Tillämpa integraler i modeller",
+    "familj": "Tolka och använda integraler i modeller",
     "formaga": [
       "procedur",
       "modellering",
@@ -36624,7 +36734,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Tillämpa integraler i modeller"
   },
   {
     "id": "3.201",
@@ -36863,7 +36974,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv \\(z=-2i\\) i polär form med argument i \\(0\\le v&lt;2\\pi\\).</p>",
     "s": "<p>Absolutbeloppet är 2 och punkten ligger på negativa imaginära axeln, så \\(v=3\\pi/2\\).</p><p>\\(\\boxed{2(\\cos(3\\pi/2)+i\\sin(3\\pi/2))}\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
       "begrepp"
@@ -36871,7 +36982,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.276",
@@ -37515,7 +37627,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>En funktion kan skrivas \\(f(x)=A\\cos(kx)+m\\). Funktionen har största värdet 7, minsta värdet 1 och perioden \\(4\\pi\\). Dessutom är \\(f(0)=7\\).</p><p>Bestäm \\(A\\), \\(k\\) och \\(m\\).</p>",
     "s": "<p>Medellinjen är \\(m=(7+1)/2=4\\) och amplituden är \\(A=(7-1)/2=3\\).</p><p>Perioden ger \\(2\\pi/k=4\\pi\\), alltså \\(k=1/2\\).</p><p>Eftersom \\(f(0)=A+m=7\\) ska \\(A\\) vara positiv. Därför <strong>\\(A=3,\\;k=1/2,\\;m=4\\)</strong>.</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp",
@@ -37524,7 +37636,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.293",
@@ -38323,7 +38436,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p><p>a) \\((3-2i)+(5+4i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((2+i)(4-3i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((1+2i)^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{5+i}{1-i}\\)</p>",
     "s": "<p>a) <strong>\\(8+2i\\)</strong>.</p><p>b) \\(8-6i+4i-3i^2=\\)<strong>\\(11-2i\\)</strong>.</p><p>c) \\(1+4i+4i^2=\\)<strong>\\(-3+4i\\)</strong>.</p><p>d) Förläng med \\(1+i\\): \\((5+i)(1+i)/2=(4+6i)/2=\\)<strong>\\(2+3i\\)</strong>.</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -38371,7 +38484,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\frac{5+i}{1-i}\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> Förläng med \\(1+i\\): \\((5+i)(1+i)/2=(4+6i)/2=\\) \\(2+3i\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.288",
@@ -38386,7 +38500,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv talen i polär form \\(r(\\cos v+i\\sin v)\\). Ange \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-\\sqrt3+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-2-2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3i\\)</p>",
     "s": "<p>a) \\(r=\\sqrt2\\), \\(v=\\pi/4\\): <strong>\\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\)</strong>.</p><p>b) \\(r=2\\), \\(v=5\\pi/6\\): <strong>\\(2(\\cos\\frac{5\\pi}{6}+i\\sin\\frac{5\\pi}{6})\\)</strong>.</p><p>c) \\(r=2\\sqrt2\\), \\(v=5\\pi/4\\).</p><p>d) \\(r=3\\), \\(v=\\pi/2\\).</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
@@ -38439,7 +38553,8 @@ window.BANKMATO2 = [
         "t": "<p>Skriv talen i polär form \\(r(\\cos v+i\\sin v)\\). Ange \\(0\\le v&lt;2\\pi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(3i\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> \\(r=3\\), \\(v=\\pi/2\\).</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.289",
@@ -38879,7 +38994,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>En sinusfunktion har amplituden 4, medellinjen \\(y=1\\) och perioden \\(6\\pi\\). Funktionen passerar medellinjen vid \\(x=0\\) och är växande där.</p><p>Bestäm en formel för funktionen.</p>",
     "s": "<p>En växande sinuskurva som passerar medellinjen vid \\(x=0\\) kan skrivas \\(f(x)=1+4\\sin(kx)\\).</p><p>Perioden ger \\(2\\pi/k=6\\pi\\), alltså \\(k=1/3\\).</p><p>En möjlig formel är därför <strong>\\(f(x)=1+4\\sin(x/3)\\)</strong>.</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -38887,7 +39002,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.299",
@@ -39290,7 +39406,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>En funktion ges av \\(f(x)=a+b\\sin(\\pi x/6)\\). Det största värdet är 11 och det minsta värdet är 3.</p><p>Bestäm \\(a\\) och \\(|b|\\). Ange också funktionens period.</p>",
     "s": "<p>Medellinjen är \\(a=(11+3)/2=7\\). Amplituden är \\(|b|=(11-3)/2=4\\).</p><p>Perioden fås från \\(2\\pi/(\\pi/6)=12\\).</p><p>Alltså <strong>\\(a=7,\\;|b|=4\\)</strong> och <strong>perioden är 12</strong>.</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -39298,7 +39414,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "1.310",
@@ -40344,7 +40461,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>En punkt \\(P=(3/5,y)\\) ligger på enhetscirkeln i fjärde kvadranten.</p><p>Bestäm \\(y\\) och \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
     "s": "<p>På enhetscirkeln gäller \\(x^2+y^2=1\\):</p><p>\\[(3/5)^2+y^2=1\\Rightarrow y^2=16/25.\\]</p><p>I fjärde kvadranten är \\(y&lt;0\\), alltså <strong>\\(y=-4/5\\)</strong>.</p><p>\\(\\tan v=y/x=(-4/5)/(3/5)=\\)<strong>\\(-4/3\\)</strong>.</p>",
-    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "familj": "Bestämma trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
       "begrepp"
@@ -40352,7 +40469,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometriska värden från ett givet värde"
   },
   {
     "id": "1.319",
@@ -40486,7 +40604,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Grafen till en trigonometrisk funktion visas i figuren.</p><span class=\"fig\"><svg width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Graf till en trigonometrisk funktion med graderade axlar\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"52.0\" y1=\"30.0\" x2=\"52.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"102.2\" y1=\"30.0\" x2=\"102.2\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"152.5\" y1=\"30.0\" x2=\"152.5\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"202.8\" y1=\"30.0\" x2=\"202.8\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"253.0\" y1=\"30.0\" x2=\"253.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"303.2\" y1=\"30.0\" x2=\"303.2\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"353.5\" y1=\"30.0\" x2=\"353.5\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"403.8\" y1=\"30.0\" x2=\"403.8\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"30.0\" x2=\"454.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"260.0\" x2=\"454.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"221.7\" x2=\"454.0\" y2=\"221.7\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"183.3\" x2=\"454.0\" y2=\"183.3\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"145.0\" x2=\"454.0\" y2=\"145.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"106.7\" x2=\"454.0\" y2=\"106.7\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"68.3\" x2=\"454.0\" y2=\"68.3\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"30.0\" x2=\"454.0\" y2=\"30.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"183.3\" x2=\"454.0\" y2=\"183.3\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M454.0 183.3 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"52.0\" y1=\"260.0\" x2=\"52.0\" y2=\"30.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M52.0 30.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"458.0\" y=\"174.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"61.0\" y=\"41.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text><line x1=\"152.5\" y1=\"179.8\" x2=\"152.5\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"152.5\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">π/2</text><text x=\"152.5\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text><line x1=\"253.0\" y1=\"179.8\" x2=\"253.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"253.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">π</text><text x=\"253.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text><line x1=\"353.5\" y1=\"179.8\" x2=\"353.5\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"353.5\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3π/2</text><text x=\"353.5\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text><line x1=\"454.0\" y1=\"179.8\" x2=\"454.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"48.5\" y1=\"260.0\" x2=\"55.5\" y2=\"260.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"44.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"48.5\" y1=\"221.7\" x2=\"55.5\" y2=\"221.7\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"225.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"44.0\" y=\"225.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"48.5\" y1=\"145.0\" x2=\"55.5\" y2=\"145.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"148.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"44.0\" y=\"148.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"48.5\" y1=\"106.7\" x2=\"55.5\" y2=\"106.7\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"110.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"44.0\" y=\"110.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"48.5\" y1=\"68.3\" x2=\"55.5\" y2=\"68.3\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"71.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3</text><text x=\"44.0\" y=\"71.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"48.5\" y1=\"30.0\" x2=\"55.5\" y2=\"30.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"33.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">4</text><text x=\"44.0\" y=\"33.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text><path d=\"M 52.00,68.33 L 53.01,68.37 L 54.01,68.48 L 55.02,68.67 L 56.02,68.94 L 57.02,69.28 L 58.03,69.69 L 59.03,70.18 L 60.04,70.74 L 61.05,71.38 L 62.05,72.09 L 63.05,72.87 L 64.06,73.72 L 65.06,74.64 L 66.07,75.63 L 67.08,76.69 L 68.08,77.82 L 69.09,79.01 L 70.09,80.27 L 71.09,81.59 L 72.10,82.98 L 73.11,84.42 L 74.11,85.93 L 75.11,87.49 L 76.12,89.11 L 77.12,90.79 L 78.13,92.52 L 79.14,94.30 L 80.14,96.13 L 81.15,98.01 L 82.15,99.94 L 83.16,101.91 L 84.16,103.92 L 85.17,105.97 L 86.17,108.07 L 87.18,110.19 L 88.18,112.36 L 89.19,114.55 L 90.19,116.78 L 91.19,119.03 L 92.20,121.31 L 93.20,123.61 L 94.21,125.93 L 95.22,128.28 L 96.22,130.63 L 97.22,133.01 L 98.23,135.39 L 99.24,137.79 L 100.24,140.19 L 101.25,142.59 L 102.25,145.00 L 103.25,147.41 L 104.26,149.81 L 105.27,152.21 L 106.27,154.61 L 107.28,156.99 L 108.28,159.37 L 109.28,161.72 L 110.29,164.07 L 111.30,166.39 L 112.30,168.69 L 113.31,170.97 L 114.31,173.22 L 115.31,175.45 L 116.32,177.64 L 117.33,179.81 L 118.33,181.93 L 119.34,184.03 L 120.34,186.08 L 121.35,188.09 L 122.35,190.06 L 123.36,191.99 L 124.36,193.87 L 125.36,195.70 L 126.37,197.48 L 127.38,199.21 L 128.38,200.89 L 129.38,202.51 L 130.39,204.07 L 131.40,205.58 L 132.40,207.02 L 133.41,208.41 L 134.41,209.73 L 135.42,210.99 L 136.42,212.18 L 137.43,213.31 L 138.43,214.37 L 139.44,215.36 L 140.44,216.28 L 141.44,217.13 L 142.45,217.91 L 143.45,218.62 L 144.46,219.26 L 145.47,219.82 L 146.47,220.31 L 147.48,220.72 L 148.48,221.06 L 149.49,221.33 L 150.49,221.52 L 151.50,221.63 L 152.50,221.67 L 153.50,221.63 L 154.51,221.52 L 155.51,221.33 L 156.52,221.06 L 157.53,220.72 L 158.53,220.31 L 159.54,219.82 L 160.54,219.26 L 161.55,218.62 L 162.55,217.91 L 163.56,217.13 L 164.56,216.28 L 165.56,215.36 L 166.57,214.37 L 167.58,213.31 L 168.58,212.18 L 169.59,210.99 L 170.59,209.73 L 171.59,208.41 L 172.60,207.02 L 173.61,205.58 L 174.61,204.07 L 175.62,202.51 L 176.62,200.89 L 177.62,199.21 L 178.63,197.48 L 179.63,195.70 L 180.64,193.87 L 181.65,191.99 L 182.65,190.06 L 183.66,188.09 L 184.66,186.08 L 185.67,184.03 L 186.67,181.93 L 187.68,179.81 L 188.68,177.64 L 189.69,175.45 L 190.69,173.22 L 191.70,170.97 L 192.70,168.69 L 193.71,166.39 L 194.71,164.07 L 195.72,161.72 L 196.72,159.37 L 197.72,156.99 L 198.73,154.61 L 199.74,152.21 L 200.74,149.81 L 201.75,147.41 L 202.75,145.00 L 203.75,142.59 L 204.76,140.19 L 205.77,137.79 L 206.77,135.39 L 207.78,133.01 L 208.78,130.63 L 209.78,128.28 L 210.79,125.93 L 211.80,123.61 L 212.80,121.31 L 213.81,119.03 L 214.81,116.78 L 215.81,114.55 L 216.82,112.36 L 217.82,110.19 L 218.83,108.07 L 219.84,105.97 L 220.84,103.92 L 221.85,101.91 L 222.85,99.94 L 223.85,98.01 L 224.86,96.13 L 225.86,94.30 L 226.87,92.52 L 227.87,90.79 L 228.88,89.11 L 229.89,87.49 L 230.89,85.93 L 231.90,84.42 L 232.90,82.98 L 233.91,81.59 L 234.91,80.27 L 235.91,79.01 L 236.92,77.82 L 237.93,76.69 L 238.93,75.63 L 239.94,74.64 L 240.94,73.72 L 241.95,72.87 L 242.95,72.09 L 243.96,71.38 L 244.96,70.74 L 245.97,70.18 L 246.97,69.69 L 247.98,69.28 L 248.98,68.94 L 249.99,68.67 L 250.99,68.48 L 252.00,68.37 L 253.00,68.33 L 254.00,68.37 L 255.01,68.48 L 256.01,68.67 L 257.02,68.94 L 258.02,69.28 L 259.03,69.69 L 260.03,70.18 L 261.04,70.74 L 262.05,71.38 L 263.05,72.09 L 264.06,72.87 L 265.06,73.72 L 266.07,74.64 L 267.07,75.63 L 268.08,76.69 L 269.08,77.82 L 270.09,79.01 L 271.09,80.27 L 272.10,81.59 L 273.10,82.98 L 274.11,84.42 L 275.11,85.93 L 276.12,87.49 L 277.12,89.11 L 278.12,90.79 L 279.13,92.52 L 280.13,94.30 L 281.14,96.13 L 282.14,98.01 L 283.15,99.94 L 284.16,101.91 L 285.16,103.92 L 286.17,105.97 L 287.17,108.07 L 288.18,110.19 L 289.18,112.36 L 290.19,114.55 L 291.19,116.78 L 292.19,119.03 L 293.20,121.31 L 294.21,123.61 L 295.21,125.93 L 296.22,128.28 L 297.22,130.63 L 298.23,133.01 L 299.23,135.39 L 300.24,137.79 L 301.24,140.19 L 302.25,142.59 L 303.25,145.00 L 304.25,147.41 L 305.26,149.81 L 306.26,152.21 L 307.27,154.61 L 308.28,156.99 L 309.28,159.37 L 310.29,161.72 L 311.29,164.07 L 312.30,166.39 L 313.30,168.69 L 314.31,170.97 L 315.31,173.22 L 316.32,175.45 L 317.32,177.64 L 318.33,179.81 L 319.33,181.93 L 320.34,184.03 L 321.34,186.08 L 322.35,188.09 L 323.35,190.06 L 324.36,191.99 L 325.36,193.87 L 326.37,195.70 L 327.37,197.48 L 328.38,199.21 L 329.38,200.89 L 330.39,202.51 L 331.39,204.07 L 332.40,205.58 L 333.40,207.02 L 334.41,208.41 L 335.41,209.73 L 336.42,210.99 L 337.42,212.18 L 338.43,213.31 L 339.43,214.37 L 340.44,215.36 L 341.44,216.28 L 342.45,217.13 L 343.45,217.91 L 344.45,218.62 L 345.46,219.26 L 346.46,219.82 L 347.47,220.31 L 348.48,220.72 L 349.48,221.06 L 350.49,221.33 L 351.49,221.52 L 352.50,221.63 L 353.50,221.67 L 354.50,221.63 L 355.51,221.52 L 356.51,221.33 L 357.52,221.06 L 358.53,220.72 L 359.53,220.31 L 360.54,219.82 L 361.54,219.26 L 362.55,218.62 L 363.55,217.91 L 364.56,217.13 L 365.56,216.28 L 366.56,215.36 L 367.57,214.37 L 368.58,213.31 L 369.58,212.18 L 370.59,210.99 L 371.59,209.73 L 372.60,208.41 L 373.60,207.02 L 374.61,205.58 L 375.61,204.07 L 376.62,202.51 L 377.62,200.89 L 378.62,199.21 L 379.63,197.48 L 380.64,195.70 L 381.64,193.87 L 382.65,191.99 L 383.65,190.06 L 384.66,188.09 L 385.66,186.08 L 386.67,184.03 L 387.67,181.93 L 388.68,179.81 L 389.68,177.64 L 390.69,175.45 L 391.69,173.22 L 392.69,170.97 L 393.70,168.69 L 394.70,166.39 L 395.71,164.07 L 396.72,161.72 L 397.72,159.37 L 398.73,156.99 L 399.73,154.61 L 400.74,152.21 L 401.74,149.81 L 402.75,147.41 L 403.75,145.00 L 404.75,142.59 L 405.76,140.19 L 406.76,137.79 L 407.77,135.39 L 408.77,133.01 L 409.78,130.63 L 410.78,128.28 L 411.79,125.93 L 412.79,123.61 L 413.80,121.31 L 414.81,119.03 L 415.81,116.78 L 416.82,114.55 L 417.82,112.36 L 418.83,110.19 L 419.83,108.07 L 420.84,105.97 L 421.84,103.92 L 422.85,101.91 L 423.85,99.94 L 424.86,98.01 L 425.86,96.13 L 426.87,94.30 L 427.87,92.52 L 428.88,90.79 L 429.88,89.11 L 430.88,87.49 L 431.89,85.93 L 432.90,84.42 L 433.90,82.98 L 434.91,81.59 L 435.91,80.27 L 436.92,79.01 L 437.92,77.82 L 438.93,76.69 L 439.93,75.63 L 440.94,74.64 L 441.94,73.72 L 442.95,72.87 L 443.95,72.09 L 444.96,71.38 L 445.96,70.74 L 446.97,70.18 L 447.97,69.69 L 448.97,69.28 L 449.98,68.94 L 450.99,68.67 L 451.99,68.48 L 453.00,68.37 L 454.00,68.33\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"423.9\" y=\"53.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">y = f(x)</text><text x=\"423.9\" y=\"53.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#C93A2B\">y = f(x)</text></svg></span><p>Bestäm en formel på formen \\(f(x)=a+b\\cos(kx)\\).</p>",
     "s": "<p>Grafens medellinje är \\(y=1\\), så \\(a=1\\). Maxvärdet är 3 och minvärdet −1, alltså är amplituden 2 och \\(b=2\\) eftersom grafen startar i ett maximum.</p><p>Grafen gör två perioder från 0 till \\(2\\pi\\), alltså är perioden \\(\\pi\\) och \\(k=2\\).</p><p>En formel är <strong>\\(f(x)=1+2\\cos2x\\)</strong>.</p>",
-    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "familj": "Bestämma trigonometrisk funktion från graf",
     "formaga": [
       "procedur",
       "begrepp"
@@ -40494,7 +40612,8 @@ window.BANKMATO2 = [
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Bestäm trigonometrisk funktion från graf och egenskaper"
   },
   {
     "id": "2.246",
@@ -41120,7 +41239,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna och skriv på formen \\(a+bi\\).</p><p>a) \\((4+3i)-(1-5i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((3-2i)(1+4i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((2-i)^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((6+2i)/(1+i)\\)</p>",
     "s": "<p>a) <strong>\\(3+8i\\)</strong>.</p><p>b) \\(3+12i-2i-8i^2=\\)<strong>\\(11+10i\\)</strong>.</p><p>c) \\(4-4i+i^2=\\)<strong>\\(3-4i\\)</strong>.</p><p>d) Förläng med \\(1-i\\): \\((6+2i)(1-i)/2=(8-4i)/2=\\)<strong>\\(4-2i\\)</strong>.</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -41168,7 +41287,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna och skriv på formen \\(a+bi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\((6+2i)/(1+i)\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> Förläng med \\(1-i\\): \\((6+2i)(1-i)/2=(8-4i)/2=\\) \\(4-2i\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.301",
@@ -41183,7 +41303,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv i exponentiell form \\(re^{iv}\\), där \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(2+2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-3i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-1-\\sqrt3i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(4\\)</p>",
     "s": "<p>a) \\(r=2\\sqrt2\\), \\(v=\\pi/4\\): <strong>\\(2\\sqrt2e^{i\\pi/4}\\)</strong>.</p><p>b) <strong>\\(3e^{i3\\pi/2}\\)</strong>.</p><p>c) \\(r=2\\), \\(v=4\\pi/3\\): <strong>\\(2e^{i4\\pi/3}\\)</strong>.</p><p>d) <strong>\\(4e^{i0}\\)</strong>.</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
@@ -41231,7 +41351,8 @@ window.BANKMATO2 = [
         "t": "<p>Skriv i exponentiell form \\(re^{iv}\\), där \\(0\\le v&lt;2\\pi\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(4\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> \\(4e^{i0}\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.302",
@@ -42289,7 +42410,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Beräkna.</p><p>a) \\((1+i)+(2-3i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((4-i)-(2+5i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((1-i)(1+i)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((3+3i)/(1+i)\\)</p>",
     "s": "<p>a) <strong>\\(3-2i\\)</strong>.</p><p>b) <strong>\\(2-6i\\)</strong>.</p><p>c) \\(1-i^2=\\)<strong>2</strong>.</p><p>d) Förkorta eller förläng med konjugatet: <strong>3</strong>.</p>",
-    "familj": "Räkna med komplexa tal",
+    "familj": "Grundläggande räkning med komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -42337,7 +42458,8 @@ window.BANKMATO2 = [
         "t": "<p>Beräkna.</p><div class=\"spel-en-del\"><strong>d)</strong> \\((3+3i)/(1+i)\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> Förkorta eller förläng med konjugatet: 3 .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Räkna med komplexa tal"
   },
   {
     "id": "4.308",
@@ -42416,7 +42538,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Skriv i rektangulär form.</p><p>a) \\(2(\\cos0+i\\sin0)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(4(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2(\\cos\\pi+i\\sin\\pi)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(6(\\cos\\frac{3\\pi}{2}+i\\sin\\frac{3\\pi}{2})\\)</p>",
     "s": "<p>a) <strong>2</strong>.</p><p>b) <strong>\\(4i\\)</strong>.</p><p>c) <strong>−2</strong>.</p><p>d) <strong>\\(-6i\\)</strong>.</p>",
-    "familj": "Växla mellan former för komplexa tal",
+    "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
     ],
@@ -42464,7 +42586,8 @@ window.BANKMATO2 = [
         "t": "<p>Skriv i rektangulär form.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(6(\\cos\\frac{3\\pi}{2}+i\\sin\\frac{3\\pi}{2})\\)</div>",
         "s": "<div class=\"spel-en-del\"><strong>d)</strong> \\(-6i\\) .</div>"
       }
-    ]
+    ],
+    "familjTidigare": "Växla mellan former för komplexa tal"
   },
   {
     "id": "4.310",
@@ -42626,900 +42749,901 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false
   },
-{
-  "id": "1.401",
-  "kap": 1,
-  "omr": "trig_ekvationer",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>För vilka värden på parametern \\(a\\) har ekvationen \\(\\sin x=a\\) exakt två lösningar i \\(0\\le x&lt;2\\pi\\)?</p><p>A. \\(-1&lt;a&lt;1\\)<br>B. Bara \\(a=1\\)<br>C. \\(|a|&gt;1\\)<br>D. Bara \\(a=-1\\)</p>",
-  "s": "<p>För varje nivå strikt mellan −1 och 1 skär en hel sinusperiod nivån två gånger.</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Parameterproblem med antal trigonometriska lösningar",
-  "formaga": [
-    "begrepp",
-    "resonemang"
-  ],
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "val"
-},
-{
-  "id": "1.402",
-  "kap": 1,
-  "omr": "trig_ekvationer",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Ekvationen \\(\\cos x=a\\) betraktas i \\(0\\le x&lt;2\\pi\\). Hur många lösningar finns när \\(a=1\\)?</p>",
-  "s": "<p>Cosinus är 1 vid \\(x=0\\). Punkten \\(2\\pi\\) ingår inte i intervallet.</p><p><strong>Svar:</strong> 1.</p>",
-  "familj": "Parameterproblem med antal trigonometriska lösningar",
-  "formaga": [
-    "begrepp"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 1,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "1.403",
-  "kap": 1,
-  "omr": "trig_ekvationer",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Hur många lösningar har \\(3\\sin x=2\\) i \\(0\\le x&lt;2\\pi\\)?</p>",
-  "s": "<p>Ekvationen är \\(\\sin x=2/3\\). Eftersom \\(2/3\\) ligger strikt mellan −1 och 1 finns två lösningar under en hel period.</p><p><strong>Svar:</strong> 2.</p>",
-  "familj": "Parameterproblem med antal trigonometriska lösningar",
-  "formaga": [
-    "begrepp",
-    "resonemang"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 2,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "1.404",
-  "kap": 1,
-  "omr": "trig_ekvationer",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Hur många lösningar har \\(\\sin^2x=0{,}25\\) i \\(0\\le x&lt;2\\pi\\)?</p>",
-  "s": "<p>Detta motsvarar \\(\\sin x=\\pm0{,}5\\). Varje nivå ger två lösningar under en period.</p><p><strong>Svar:</strong> 4.</p>",
-  "familj": "Parameterproblem med antal trigonometriska lösningar",
-  "formaga": [
-    "procedur",
-    "resonemang"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 4,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "1.405",
-  "kap": 1,
-  "omr": "trig_ekvationer",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Vilken är den generella lösningen till \\(\\tan x=1\\)?</p><p>A. \\(x=\\pi/4+n\\pi\\)<br>B. \\(x=\\pi/4+2n\\pi\\)<br>C. \\(x=3\\pi/4+n\\pi\\)<br>D. \\(x=n\\pi\\)</p>",
-  "s": "<p>Tangens har perioden \\(\\pi\\), och grundvinkeln är \\(\\pi/4\\).</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Trigonometriska ekvationer med generell lösning",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "val"
-},
-{
-  "id": "1.406",
-  "kap": 1,
-  "omr": "trig_ekvationer",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Vilken är den generella lösningen till \\(\\cos x=0\\)?</p><p>A. \\(x=\\pi/2+n\\pi\\)<br>B. \\(x=n\\pi\\)<br>C. \\(x=\\pi/2+2n\\pi\\)<br>D. \\(x=\\pi/4+n\\pi\\)</p>",
-  "s": "<p>Cosinus är noll vid udda multiplar av \\(\\pi/2\\), vilket skrivs \\(\\pi/2+n\\pi\\).</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Trigonometriska ekvationer med generell lösning",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "val"
-},
-{
-  "id": "1.407",
-  "kap": 1,
-  "omr": "trig_ekvationer",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Vilken beskrivning ger alla lösningar till \\(\\sin x=1/2\\)?</p><p>A. \\(x=\\pi/6+2n\\pi\\) eller \\(x=5\\pi/6+2n\\pi\\)<br>B. Bara \\(x=\\pi/6+n\\pi\\)<br>C. \\(x=\\pi/3+2n\\pi\\)<br>D. \\(x=n\\pi\\)</p>",
-  "s": "<p>Sinus är 1/2 i första och andra kvadranten.</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Trigonometriska ekvationer med generell lösning",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "val"
-},
-{
-  "id": "1.408",
-  "kap": 1,
-  "omr": "trig_ekvationer",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Vilken är den generella lösningen till \\(\\sin(2x)=0\\)?</p><p>A. \\(x=n\\pi/2\\)<br>B. \\(x=n\\pi\\)<br>C. \\(x=\\pi/2+n\\pi\\)<br>D. \\(x=2n\\pi\\)</p>",
-  "s": "<p>\\(2x=n\\pi\\Rightarrow x=n\\pi/2\\).</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Trigonometriska ekvationer med generell lösning",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "val"
-},
-{
-  "id": "1.409",
-  "kap": 1,
-  "omr": "enhetscirkeln",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Vinkeln \\(\\alpha\\) ligger i första kvadranten och \\(\\sin\\alpha=5/13\\). Bestäm \\(\\tan\\alpha\\).</p>",
-  "s": "<p>Trigonometriska ettan ger \\(\\cos\\alpha=12/13\\). Därför</p><p>\\[\\tan\\alpha=\\frac{5/13}{12/13}=\\frac5{12}.\\]</p><p><strong>Svar:</strong> \\(5/12\\).</p>",
-  "familj": "Bestäm trigonometriska värden från ett givet värde",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "uttryck",
-  "rättSvar": "5/12",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "uttryck"
-},
-{
-  "id": "1.410",
-  "kap": 1,
-  "omr": "enhetscirkeln",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Punkten på enhetscirkeln motsvarar vinkeln \\(210^\\circ\\). Vilken är punktens x-koordinat?</p><p>A. \\(\\sqrt3/2\\)<br>B. \\(-\\sqrt3/2\\)<br>C. \\(1/2\\)<br>D. \\(-1/2\\)</p>",
-  "s": "<p>x-koordinaten är cosinusvärdet. \\(210^\\circ=180^\\circ+30^\\circ\\), så cosinus är negativt och har belopp \\(\\sqrt3/2\\).</p><p><strong>Svar:</strong> B.</p>",
-  "familj": "Koordinater och tecken i enhetscirkeln",
-  "formaga": [
-    "begrepp"
-  ],
-  "svarstyp": "val",
-  "rättSvar": "B",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "val"
-},
-{
-  "id": "2.401",
-  "kap": 2,
-  "omr": "derivator_specialfunktioner",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Derivera \\(f(x)=e^{3x}\\).</p>",
-  "s": "<p>Yttre derivatan är samma exponentialfunktion och den inre derivatan är 3.</p><p><strong>Svar:</strong> \\(3e^{3x}\\).</p>",
-  "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "uttryck",
-  "rättSvar": "3*e^(3*x)",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "uttryck"
-},
-{
-  "id": "2.402",
-  "kap": 2,
-  "omr": "derivator_specialfunktioner",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Derivera \\(f(x)=\\sin(x^2)\\).</p>",
-  "s": "<p>Derivatan av sinus är cosinus och den inre derivatan av \\(x^2\\) är \\(2x\\).</p><p><strong>Svar:</strong> \\(2x\\cos(x^2)\\).</p>",
-  "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "uttryck",
-  "rättSvar": "2*x*cos(x^2)",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "uttryck"
-},
-{
-  "id": "2.403",
-  "kap": 2,
-  "omr": "derivator_specialfunktioner",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Derivera \\(f(x)=e^{-2x}\\).</p>",
-  "s": "<p>Den inre derivatan är −2.</p><p><strong>Svar:</strong> \\(-2e^{-2x}\\).</p>",
-  "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "uttryck",
-  "rättSvar": "-2*e^(-2*x)",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "uttryck"
-},
-{
-  "id": "2.404",
-  "kap": 2,
-  "omr": "tillampningar_derivata",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Bestäm y-skärningen för tangenten till \\(y=x^2\\) i punkten där \\(x=2\\).</p>",
-  "s": "<p>\\(f(2)=4\\) och \\(f'(2)=4\\). Tangenten är \\(y-4=4(x-2)\\), alltså \\(y=4x-4\\).</p><p><strong>Svar:</strong> y-skärningen är −4.</p>",
-  "familj": "Tangentproblem i tillämpningar",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": -4,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.405",
-  "kap": 2,
-  "omr": "tillampningar_derivata",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Tangenten till \\(y=e^x\\) i \\(x=0\\) har ekvationen \\(y=x+1\\). Bestäm tangentens x-skärning.</p>",
-  "s": "<p>Sätt \\(y=0\\): \\(0=x+1\\Rightarrow x=-1\\).</p><p><strong>Svar:</strong> −1.</p>",
-  "familj": "Tangentproblem i tillämpningar",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": -1,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.406",
-  "kap": 2,
-  "omr": "tillampningar_derivata",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": true,
-  "geogebra": false,
-  "t": "<p>En kurva ges av \\(y=\\ln x\\). Bestäm tangentens lutning vid \\(x=e\\).</p>",
-  "s": "<p>\\(f'(x)=1/x\\), så \\(f'(e)=1/e\\approx0{,}368\\).</p><p><strong>Svar:</strong> Cirka 0,368.</p>",
-  "familj": "Tangentproblem i tillämpningar",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.368,
-  "tolerans": 0.006,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.407",
-  "kap": 2,
-  "omr": "grafer_asymptoter",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Vilken lodrät asymptot har funktionen \\(f(x)=\\ln x\\)?</p><p>A. \\(x=0\\)<br>B. \\(y=0\\)<br>C. \\(x=1\\)<br>D. Ingen</p>",
-  "s": "<p>När \\(x\\to0^+\\) går \\(\\ln x\\to-\\infty\\). Därför är \\(x=0\\) en lodrät asymptot.</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Grafanalys av specialfunktioner",
-  "formaga": [
-    "begrepp"
-  ],
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "val"
-},
-{
-  "id": "2.408",
-  "kap": 2,
-  "omr": "grafer_asymptoter",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Vilken vågrät asymptot har \\(f(x)=e^{-x}\\) när \\(x\\to\\infty\\)?</p><p>A. \\(y=0\\)<br>B. \\(y=1\\)<br>C. \\(x=0\\)<br>D. Ingen</p>",
-  "s": "<p>När \\(x\\to\\infty\\) går \\(e^{-x}\\to0\\).</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Grafanalys av specialfunktioner",
-  "formaga": [
-    "begrepp"
-  ],
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "val"
-},
-{
-  "id": "3.401",
-  "kap": 3,
-  "omr": "integral_tillampningar",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Effekten hos en apparat är \\(P(t)=3t^2+2\\) watt under \\(0\\le t\\le2\\) s. Bestäm den tillförda energin.</p>",
-  "s": "<p>\\[E=\\int_0^2(3t^2+2)dt=[t^3+2t]_0^2=8+4=12\\ \\mathrm J\\]</p><p><strong>Svar:</strong> 12 J.</p>",
-  "familj": "Energi som integral av effekt",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 12,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "3.402",
-  "kap": 3,
-  "omr": "integral_tillampningar",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": true,
-  "geogebra": false,
-  "t": "<p>En effekt avtar enligt \\(P(t)=500e^{-0{,}2t}\\) W under de första 5 sekunderna. Bestäm energin under detta tidsintervall.</p>",
-  "s": "<p>\\[E=\\int_0^5 500e^{-0{,}2t}dt=2500(1-e^{-1})\\approx1580\\ \\mathrm J\\]</p><p><strong>Svar:</strong> Cirka 1580 J.</p>",
-  "familj": "Energi som integral av effekt",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 1580,
-  "tolerans": 25,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "3.403",
-  "kap": 3,
-  "omr": "integral_tillampningar",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>En maskins effekt i kW ges av \\(P(t)=4+t\\) under \\(0\\le t\\le3\\) h. Bestäm energin i kWh.</p>",
-  "s": "<p>\\[E=\\int_0^3(4+t)dt=[4t+t^2/2]_0^3=12+4{,}5=16{,}5\\]</p><p><strong>Svar:</strong> 16,5 kWh.</p>",
-  "familj": "Energi som integral av effekt",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 16.5,
-  "tolerans": 0.2,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "3.404",
-  "kap": 3,
-  "omr": "area_integraler",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Arean under linjen \\(y=ax\\) från \\(x=0\\) till \\(x=2\\) är 4 areaenheter. Bestäm \\(a\\).</p>",
-  "s": "<p>\\[\\int_0^2 ax\\,dx=a[x^2/2]_0^2=2a\\]</p><p>Villkoret \\(2a=4\\) ger \\(a=2\\).</p>",
-  "familj": "Parameterproblem med area och integral",
-  "formaga": [
-    "procedur",
-    "resonemang"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 2,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "3.405",
-  "kap": 3,
-  "omr": "area_integraler",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Arean mellan linjen \\(y=kx\\), x-axeln och linjen \\(x=3\\) är 9 areaenheter. Bestäm \\(k\\).</p>",
-  "s": "<p>\\[A=\\int_0^3 kx\\,dx=\\frac92k\\]</p><p>\\(9k/2=9\\Rightarrow k=2\\).</p><p><strong>Svar:</strong> 2.</p>",
-  "familj": "Parameterproblem med area och integral",
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 2,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.401",
-  "kap": 4,
-  "omr": "polynom_komplexa",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Ekvationen \\(x^2+4=0\\) har två komplexa rötter. Vilken är roten med positiv imaginärdel?</p><p>A. \\(2i\\)<br>B. \\(-2i\\)<br>C. 2<br>D. −2</p>",
-  "s": "<p>\\(x^2=-4\\Rightarrow x=\\pm2i\\). Positiv imaginärdel ger \\(2i\\).</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Polynomekvationer med komplexa lösningar",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "val"
-},
-{
-  "id": "4.402",
-  "kap": 4,
-  "omr": "polynom_komplexa",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Lös \\(x^2-4x+13=0\\). Vad är realdelen hos båda rötterna?</p>",
-  "s": "<p>\\[x=\\frac{4\\pm\\sqrt{16-52}}2=2\\pm3i\\]</p><p><strong>Svar:</strong> Realdelen är 2.</p>",
-  "familj": "Polynomekvationer med komplexa lösningar",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 2,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.403",
-  "kap": 4,
-  "omr": "polynom_komplexa",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Ekvationen \\(x^3-8=0\\) har tre komplexa rötter räknat med multiplicitet. Hur många av dem är icke-reella?</p>",
-  "s": "<p>Rötterna är \\(2\\) samt \\(-1\\pm i\\sqrt3\\). Två är alltså icke-reella.</p><p><strong>Svar:</strong> 2.</p>",
-  "familj": "Polynomekvationer med komplexa lösningar",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 2,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.404",
-  "kap": 4,
-  "omr": "polynom_komplexa",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Hur många icke-reella rötter har ekvationen \\(x^4+5x^2+4=0\\)?</p>",
-  "s": "<p>Faktorisera: \\((x^2+1)(x^2+4)=0\\). Rötterna är \\(\\pm i\\) och \\(\\pm2i\\), alltså fyra icke-reella rötter.</p><p><strong>Svar:</strong> 4.</p>",
-  "familj": "Polynomekvationer med komplexa lösningar",
-  "formaga": [
-    "procedur"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 4,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.405",
-  "kap": 4,
-  "omr": "polar_exponentiell",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Det komplexa talet är \\(z=-3+3i\\). Bestäm argumentet i grader i intervallet \\(0^\\circ\\le\\arg z&lt;360^\\circ\\).</p>",
-  "s": "<p>Talet ligger i andra kvadranten och har lika stora belopp på real- och imaginärdel. Referensvinkeln är 45°.</p><p><strong>Svar:</strong> \\(135^\\circ\\).</p>",
-  "familj": "Absolutbelopp och argument för komplexa tal",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 135,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.406",
-  "kap": 4,
-  "omr": "polar_exponentiell",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Det komplexa talet \\(z=-1-\\sqrt3i\\) har absolutbelopp 2. Vilket argument i intervallet \\(0^\\circ\\le\\arg z&lt;360^\\circ\\) är korrekt?</p><p>A. 60°<br>B. 120°<br>C. 240°<br>D. 300°</p>",
-  "s": "<p>Talet ligger i tredje kvadranten och referensvinkeln är 60°. Alltså är argumentet 240°.</p><p><strong>Svar:</strong> C.</p>",
-  "familj": "Absolutbelopp och argument för komplexa tal",
-  "formaga": [
-    "begrepp"
-  ],
-  "svarstyp": "val",
-  "rättSvar": "C",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "val"
-},
-{
-  "id": "4.407",
-  "kap": 4,
-  "omr": "polar_exponentiell",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Använd Eulers formel. Vad är realdelen av \\(e^{i\\pi/3}\\)?</p>",
-  "s": "<p>\\[e^{i\\theta}=\\cos\\theta+i\\sin\\theta\\]</p><p>Realdelen är \\(\\cos(\\pi/3)=1/2\\).</p><p><strong>Svar:</strong> 0,5.</p>",
-  "familj": "Eulers formel",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.5,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.409",
-  "kap": 2,
-  "omr": "derivator_specialfunktioner",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Funktionen är \\(f(x)=e^{2x+1}\\).</p><p>Bestäm \\(f'(0)\\). Svara exakt.</p>",
-  "s": "<p><strong>Metod:</strong> Kedjeregeln ger \\(f'(x)=2e^{2x+1}\\). Därför</p><p>\\[f'(0)=2e.\\]</p><p><strong>Svar:</strong> \\(2e\\).</p>",
-  "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "uttryck",
-  "rättSvar": "2*e",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "uttryck"
-},
-{
-  "id": "2.410",
-  "kap": 2,
-  "omr": "derivator_specialfunktioner",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Funktionen är \\(g(x)=\\sin(3x-\\pi/2)\\).</p><p>Bestäm \\(g'(\\pi/6)\\).</p>",
-  "s": "<p><strong>Metod:</strong> Kedjeregeln ger \\(g'(x)=3\\cos(3x-\\pi/2)\\).</p><p>Vid \\(x=\\pi/6\\) blir vinkeln 0, så \\(g'=3\\cos0=3\\).</p><p><strong>Svar:</strong> 3.</p>",
-  "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 3,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.408",
-  "kap": 4,
-  "omr": "polar_exponentiell",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Det komplexa talet är \\(z=-3+3\\sqrt3\\,i\\).</p><p>Bestäm \\(|z|\\).</p>",
-  "s": "<p><strong>Metod:</strong> Absolutbeloppet är avståndet från origo:</p><p>\\[|z|=\\sqrt{(-3)^2+(3\\sqrt3)^2}=\\sqrt{9+27}=6.\\]</p><p><strong>Svar:</strong> 6.</p>",
-  "familj": "Absolutbelopp och argument för komplexa tal",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 6,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.409",
-  "kap": 4,
-  "omr": "polar_exponentiell",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Det komplexa talet är \\(z=-3+3\\sqrt3\\,i\\).</p><p>Bestäm ett huvudargument i radianer.</p>",
-  "s": "<p><strong>Metod:</strong> Punkten ligger i andra kvadranten. Referensvinkeln är \\(\\pi/3\\), så argumentet är \\(\\pi-\\pi/3=2\\pi/3\\).</p><p><strong>Svar:</strong> \\(2\\pi/3\\).</p>",
-  "familj": "Absolutbelopp och argument för komplexa tal",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "uttryck",
-  "rättSvar": "2*pi/3",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "uttryck"
-},
-{
-  "id": "4.410",
-  "kap": 4,
-  "omr": "polar_exponentiell",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Använd Eulers formel. Bestäm realdelen av \\(e^{i5\\pi/3}\\).</p>",
-  "s": "<p><strong>Metod:</strong> Eulers formel ger \\(e^{iv}=\\cos v+i\\sin v\\). Realdelen är därför \\(\\cos(5\\pi/3)=1/2\\).</p><p><strong>Svar:</strong> \\(1/2\\).</p>",
-  "familj": "Eulers formel",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "uttryck",
-  "rättSvar": "1/2",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "uttryck"
-},
-{
-  "id": "4.411",
-  "kap": 4,
-  "omr": "polar_exponentiell",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Använd Eulers formel. Bestäm imaginärdelen av \\(e^{i3\\pi/2}\\).</p>",
-  "s": "<p><strong>Metod:</strong> Imaginärdelen är \\(\\sin(3\\pi/2)=-1\\).</p><p><strong>Svar:</strong> -1.</p>",
-  "familj": "Eulers formel",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": -1,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.412",
-  "kap": 4,
-  "omr": "komplexa_talplanet",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Avbildningen ges av \\(w=-iz\\). Punkten \\(z=2+3i\\) avbildas till \\(w\\).</p><p>Bestäm realdelen av \\(w\\).</p>",
-  "s": "<p><strong>Metod:</strong> Multiplicera:</p><p>\\[w=-i(2+3i)=-2i-3i^2=3-2i.\\]</p><p><strong>Svar:</strong> Realdelen är 3.</p>",
-  "familj": "Avbildningar, rotation och skalning med komplexa tal",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 3,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.413",
-  "kap": 4,
-  "omr": "komplexa_talplanet",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "miniräknare": false,
-  "geogebra": false,
-  "t": "<p>Multiplikation med det komplexa talet \\(i\\) motsvarar en rotation kring origo.</p><p>Hur många grader moturs är rotationen?</p>",
-  "s": "<p><strong>Metod:</strong> Talet \\(i\\) har argument \\(\\pi/2\\). Multiplikation med \\(i\\) roterar därför alla punkter \\(\\pi/2=90^\\circ\\) moturs.</p><p><strong>Svar:</strong> 90°.</p>",
-  "familj": "Avbildningar, rotation och skalning med komplexa tal",
-  "formaga": [
-    "begrepp"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 90,
-  "tolerans": 0,
-  "självrättning": true,
-  "svarFormat": "numeriskt"
-},
+  {
+    "id": "1.401",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För vilka värden på parametern \\(a\\) har ekvationen \\(\\sin x=a\\) exakt två lösningar i \\(0\\le x&lt;2\\pi\\)?</p><p>A. \\(-1&lt;a&lt;1\\)<br>B. Bara \\(a=1\\)<br>C. \\(|a|&gt;1\\)<br>D. Bara \\(a=-1\\)</p>",
+    "s": "<p>För varje nivå strikt mellan −1 och 1 skär en hel sinusperiod nivån två gånger.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Parameterproblem med antal trigonometriska lösningar",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "1.402",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Ekvationen \\(\\cos x=a\\) betraktas i \\(0\\le x&lt;2\\pi\\). Hur många lösningar finns när \\(a=1\\)?</p>",
+    "s": "<p>Cosinus är 1 vid \\(x=0\\). Punkten \\(2\\pi\\) ingår inte i intervallet.</p><p><strong>Svar:</strong> 1.</p>",
+    "familj": "Parameterproblem med antal trigonometriska lösningar",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.403",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Hur många lösningar har \\(3\\sin x=2\\) i \\(0\\le x&lt;2\\pi\\)?</p>",
+    "s": "<p>Ekvationen är \\(\\sin x=2/3\\). Eftersom \\(2/3\\) ligger strikt mellan −1 och 1 finns två lösningar under en hel period.</p><p><strong>Svar:</strong> 2.</p>",
+    "familj": "Parameterproblem med antal trigonometriska lösningar",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.404",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Hur många lösningar har \\(\\sin^2x=0{,}25\\) i \\(0\\le x&lt;2\\pi\\)?</p>",
+    "s": "<p>Detta motsvarar \\(\\sin x=\\pm0{,}5\\). Varje nivå ger två lösningar under en period.</p><p><strong>Svar:</strong> 4.</p>",
+    "familj": "Parameterproblem med antal trigonometriska lösningar",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.405",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vilken är den generella lösningen till \\(\\tan x=1\\)?</p><p>A. \\(x=\\pi/4+n\\pi\\)<br>B. \\(x=\\pi/4+2n\\pi\\)<br>C. \\(x=3\\pi/4+n\\pi\\)<br>D. \\(x=n\\pi\\)</p>",
+    "s": "<p>Tangens har perioden \\(\\pi\\), och grundvinkeln är \\(\\pi/4\\).</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Trigonometriska ekvationer med generell lösning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "1.406",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vilken är den generella lösningen till \\(\\cos x=0\\)?</p><p>A. \\(x=\\pi/2+n\\pi\\)<br>B. \\(x=n\\pi\\)<br>C. \\(x=\\pi/2+2n\\pi\\)<br>D. \\(x=\\pi/4+n\\pi\\)</p>",
+    "s": "<p>Cosinus är noll vid udda multiplar av \\(\\pi/2\\), vilket skrivs \\(\\pi/2+n\\pi\\).</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Trigonometriska ekvationer med generell lösning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "1.407",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vilken beskrivning ger alla lösningar till \\(\\sin x=1/2\\)?</p><p>A. \\(x=\\pi/6+2n\\pi\\) eller \\(x=5\\pi/6+2n\\pi\\)<br>B. Bara \\(x=\\pi/6+n\\pi\\)<br>C. \\(x=\\pi/3+2n\\pi\\)<br>D. \\(x=n\\pi\\)</p>",
+    "s": "<p>Sinus är 1/2 i första och andra kvadranten.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Trigonometriska ekvationer med generell lösning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "1.408",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vilken är den generella lösningen till \\(\\sin(2x)=0\\)?</p><p>A. \\(x=n\\pi/2\\)<br>B. \\(x=n\\pi\\)<br>C. \\(x=\\pi/2+n\\pi\\)<br>D. \\(x=2n\\pi\\)</p>",
+    "s": "<p>\\(2x=n\\pi\\Rightarrow x=n\\pi/2\\).</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Trigonometriska ekvationer med generell lösning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "1.409",
+    "kap": 1,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vinkeln \\(\\alpha\\) ligger i första kvadranten och \\(\\sin\\alpha=5/13\\). Bestäm \\(\\tan\\alpha\\).</p>",
+    "s": "<p>Trigonometriska ettan ger \\(\\cos\\alpha=12/13\\). Därför</p><p>\\[\\tan\\alpha=\\frac{5/13}{12/13}=\\frac5{12}.\\]</p><p><strong>Svar:</strong> \\(5/12\\).</p>",
+    "familj": "Bestämma trigonometriska värden från ett givet värde",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "5/12",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "familjTidigare": "Bestäm trigonometriska värden från ett givet värde"
+  },
+  {
+    "id": "1.410",
+    "kap": 1,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Punkten på enhetscirkeln motsvarar vinkeln \\(210^\\circ\\). Vilken är punktens x-koordinat?</p><p>A. \\(\\sqrt3/2\\)<br>B. \\(-\\sqrt3/2\\)<br>C. \\(1/2\\)<br>D. \\(-1/2\\)</p>",
+    "s": "<p>x-koordinaten är cosinusvärdet. \\(210^\\circ=180^\\circ+30^\\circ\\), så cosinus är negativt och har belopp \\(\\sqrt3/2\\).</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Koordinater och tecken i enhetscirkeln",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "2.401",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=e^{3x}\\).</p>",
+    "s": "<p>Yttre derivatan är samma exponentialfunktion och den inre derivatan är 3.</p><p><strong>Svar:</strong> \\(3e^{3x}\\).</p>",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "3*e^(3*x)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.402",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=\\sin(x^2)\\).</p>",
+    "s": "<p>Derivatan av sinus är cosinus och den inre derivatan av \\(x^2\\) är \\(2x\\).</p><p><strong>Svar:</strong> \\(2x\\cos(x^2)\\).</p>",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*x*cos(x^2)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.403",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=e^{-2x}\\).</p>",
+    "s": "<p>Den inre derivatan är −2.</p><p><strong>Svar:</strong> \\(-2e^{-2x}\\).</p>",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "-2*e^(-2*x)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.404",
+    "kap": 2,
+    "omr": "tillampningar_derivata",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm y-skärningen för tangenten till \\(y=x^2\\) i punkten där \\(x=2\\).</p>",
+    "s": "<p>\\(f(2)=4\\) och \\(f'(2)=4\\). Tangenten är \\(y-4=4(x-2)\\), alltså \\(y=4x-4\\).</p><p><strong>Svar:</strong> y-skärningen är −4.</p>",
+    "familj": "Tangentproblem i tillämpningar",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.405",
+    "kap": 2,
+    "omr": "tillampningar_derivata",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Tangenten till \\(y=e^x\\) i \\(x=0\\) har ekvationen \\(y=x+1\\). Bestäm tangentens x-skärning.</p>",
+    "s": "<p>Sätt \\(y=0\\): \\(0=x+1\\Rightarrow x=-1\\).</p><p><strong>Svar:</strong> −1.</p>",
+    "familj": "Tangentproblem i tillämpningar",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.406",
+    "kap": 2,
+    "omr": "tillampningar_derivata",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>En kurva ges av \\(y=\\ln x\\). Bestäm tangentens lutning vid \\(x=e\\).</p>",
+    "s": "<p>\\(f'(x)=1/x\\), så \\(f'(e)=1/e\\approx0{,}368\\).</p><p><strong>Svar:</strong> Cirka 0,368.</p>",
+    "familj": "Tangentproblem i tillämpningar",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.368,
+    "tolerans": 0.006,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.407",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vilken lodrät asymptot har funktionen \\(f(x)=\\ln x\\)?</p><p>A. \\(x=0\\)<br>B. \\(y=0\\)<br>C. \\(x=1\\)<br>D. Ingen</p>",
+    "s": "<p>När \\(x\\to0^+\\) går \\(\\ln x\\to-\\infty\\). Därför är \\(x=0\\) en lodrät asymptot.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Grafanalys av specialfunktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "2.408",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vilken vågrät asymptot har \\(f(x)=e^{-x}\\) när \\(x\\to\\infty\\)?</p><p>A. \\(y=0\\)<br>B. \\(y=1\\)<br>C. \\(x=0\\)<br>D. Ingen</p>",
+    "s": "<p>När \\(x\\to\\infty\\) går \\(e^{-x}\\to0\\).</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Grafanalys av specialfunktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "3.401",
+    "kap": 3,
+    "omr": "integral_tillampningar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Effekten hos en apparat är \\(P(t)=3t^2+2\\) watt under \\(0\\le t\\le2\\) s. Bestäm den tillförda energin.</p>",
+    "s": "<p>\\[E=\\int_0^2(3t^2+2)dt=[t^3+2t]_0^2=8+4=12\\ \\mathrm J\\]</p><p><strong>Svar:</strong> 12 J.</p>",
+    "familj": "Energi som integral av effekt",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.402",
+    "kap": 3,
+    "omr": "integral_tillampningar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>En effekt avtar enligt \\(P(t)=500e^{-0{,}2t}\\) W under de första 5 sekunderna. Bestäm energin under detta tidsintervall.</p>",
+    "s": "<p>\\[E=\\int_0^5 500e^{-0{,}2t}dt=2500(1-e^{-1})\\approx1580\\ \\mathrm J\\]</p><p><strong>Svar:</strong> Cirka 1580 J.</p>",
+    "familj": "Energi som integral av effekt",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1580,
+    "tolerans": 25,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.403",
+    "kap": 3,
+    "omr": "integral_tillampningar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En maskins effekt i kW ges av \\(P(t)=4+t\\) under \\(0\\le t\\le3\\) h. Bestäm energin i kWh.</p>",
+    "s": "<p>\\[E=\\int_0^3(4+t)dt=[4t+t^2/2]_0^3=12+4{,}5=16{,}5\\]</p><p><strong>Svar:</strong> 16,5 kWh.</p>",
+    "familj": "Energi som integral av effekt",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 16.5,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.404",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Arean under linjen \\(y=ax\\) från \\(x=0\\) till \\(x=2\\) är 4 areaenheter. Bestäm \\(a\\).</p>",
+    "s": "<p>\\[\\int_0^2 ax\\,dx=a[x^2/2]_0^2=2a\\]</p><p>Villkoret \\(2a=4\\) ger \\(a=2\\).</p>",
+    "familj": "Parameterproblem med area och integral",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.405",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Arean mellan linjen \\(y=kx\\), x-axeln och linjen \\(x=3\\) är 9 areaenheter. Bestäm \\(k\\).</p>",
+    "s": "<p>\\[A=\\int_0^3 kx\\,dx=\\frac92k\\]</p><p>\\(9k/2=9\\Rightarrow k=2\\).</p><p><strong>Svar:</strong> 2.</p>",
+    "familj": "Parameterproblem med area och integral",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.401",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Ekvationen \\(x^2+4=0\\) har två komplexa rötter. Vilken är roten med positiv imaginärdel?</p><p>A. \\(2i\\)<br>B. \\(-2i\\)<br>C. 2<br>D. −2</p>",
+    "s": "<p>\\(x^2=-4\\Rightarrow x=\\pm2i\\). Positiv imaginärdel ger \\(2i\\).</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Polynomekvationer med komplexa lösningar",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "4.402",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Lös \\(x^2-4x+13=0\\). Vad är realdelen hos båda rötterna?</p>",
+    "s": "<p>\\[x=\\frac{4\\pm\\sqrt{16-52}}2=2\\pm3i\\]</p><p><strong>Svar:</strong> Realdelen är 2.</p>",
+    "familj": "Polynomekvationer med komplexa lösningar",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.403",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Ekvationen \\(x^3-8=0\\) har tre komplexa rötter räknat med multiplicitet. Hur många av dem är icke-reella?</p>",
+    "s": "<p>Rötterna är \\(2\\) samt \\(-1\\pm i\\sqrt3\\). Två är alltså icke-reella.</p><p><strong>Svar:</strong> 2.</p>",
+    "familj": "Polynomekvationer med komplexa lösningar",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.404",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Hur många icke-reella rötter har ekvationen \\(x^4+5x^2+4=0\\)?</p>",
+    "s": "<p>Faktorisera: \\((x^2+1)(x^2+4)=0\\). Rötterna är \\(\\pm i\\) och \\(\\pm2i\\), alltså fyra icke-reella rötter.</p><p><strong>Svar:</strong> 4.</p>",
+    "familj": "Polynomekvationer med komplexa lösningar",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.405",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Det komplexa talet är \\(z=-3+3i\\). Bestäm argumentet i grader i intervallet \\(0^\\circ\\le\\arg z&lt;360^\\circ\\).</p>",
+    "s": "<p>Talet ligger i andra kvadranten och har lika stora belopp på real- och imaginärdel. Referensvinkeln är 45°.</p><p><strong>Svar:</strong> \\(135^\\circ\\).</p>",
+    "familj": "Absolutbelopp och argument för komplexa tal",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 135,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.406",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Det komplexa talet \\(z=-1-\\sqrt3i\\) har absolutbelopp 2. Vilket argument i intervallet \\(0^\\circ\\le\\arg z&lt;360^\\circ\\) är korrekt?</p><p>A. 60°<br>B. 120°<br>C. 240°<br>D. 300°</p>",
+    "s": "<p>Talet ligger i tredje kvadranten och referensvinkeln är 60°. Alltså är argumentet 240°.</p><p><strong>Svar:</strong> C.</p>",
+    "familj": "Absolutbelopp och argument för komplexa tal",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "4.407",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Använd Eulers formel. Vad är realdelen av \\(e^{i\\pi/3}\\)?</p>",
+    "s": "<p>\\[e^{i\\theta}=\\cos\\theta+i\\sin\\theta\\]</p><p>Realdelen är \\(\\cos(\\pi/3)=1/2\\).</p><p><strong>Svar:</strong> 0,5.</p>",
+    "familj": "Eulers formel",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.409",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen är \\(f(x)=e^{2x+1}\\).</p><p>Bestäm \\(f'(0)\\). Svara exakt.</p>",
+    "s": "<p><strong>Metod:</strong> Kedjeregeln ger \\(f'(x)=2e^{2x+1}\\). Därför</p><p>\\[f'(0)=2e.\\]</p><p><strong>Svar:</strong> \\(2e\\).</p>",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*e",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.410",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen är \\(g(x)=\\sin(3x-\\pi/2)\\).</p><p>Bestäm \\(g'(\\pi/6)\\).</p>",
+    "s": "<p><strong>Metod:</strong> Kedjeregeln ger \\(g'(x)=3\\cos(3x-\\pi/2)\\).</p><p>Vid \\(x=\\pi/6\\) blir vinkeln 0, så \\(g'=3\\cos0=3\\).</p><p><strong>Svar:</strong> 3.</p>",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.408",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Det komplexa talet är \\(z=-3+3\\sqrt3\\,i\\).</p><p>Bestäm \\(|z|\\).</p>",
+    "s": "<p><strong>Metod:</strong> Absolutbeloppet är avståndet från origo:</p><p>\\[|z|=\\sqrt{(-3)^2+(3\\sqrt3)^2}=\\sqrt{9+27}=6.\\]</p><p><strong>Svar:</strong> 6.</p>",
+    "familj": "Absolutbelopp och argument för komplexa tal",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.409",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Det komplexa talet är \\(z=-3+3\\sqrt3\\,i\\).</p><p>Bestäm ett huvudargument i radianer.</p>",
+    "s": "<p><strong>Metod:</strong> Punkten ligger i andra kvadranten. Referensvinkeln är \\(\\pi/3\\), så argumentet är \\(\\pi-\\pi/3=2\\pi/3\\).</p><p><strong>Svar:</strong> \\(2\\pi/3\\).</p>",
+    "familj": "Absolutbelopp och argument för komplexa tal",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*pi/3",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "4.410",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Använd Eulers formel. Bestäm realdelen av \\(e^{i5\\pi/3}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Eulers formel ger \\(e^{iv}=\\cos v+i\\sin v\\). Realdelen är därför \\(\\cos(5\\pi/3)=1/2\\).</p><p><strong>Svar:</strong> \\(1/2\\).</p>",
+    "familj": "Eulers formel",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "1/2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "4.411",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Använd Eulers formel. Bestäm imaginärdelen av \\(e^{i3\\pi/2}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Imaginärdelen är \\(\\sin(3\\pi/2)=-1\\).</p><p><strong>Svar:</strong> -1.</p>",
+    "familj": "Eulers formel",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.412",
+    "kap": 4,
+    "omr": "komplexa_talplanet",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Avbildningen ges av \\(w=-iz\\). Punkten \\(z=2+3i\\) avbildas till \\(w\\).</p><p>Bestäm realdelen av \\(w\\).</p>",
+    "s": "<p><strong>Metod:</strong> Multiplicera:</p><p>\\[w=-i(2+3i)=-2i-3i^2=3-2i.\\]</p><p><strong>Svar:</strong> Realdelen är 3.</p>",
+    "familj": "Avbildningar, rotation och skalning med komplexa tal",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.413",
+    "kap": 4,
+    "omr": "komplexa_talplanet",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Multiplikation med det komplexa talet \\(i\\) motsvarar en rotation kring origo.</p><p>Hur många grader moturs är rotationen?</p>",
+    "s": "<p><strong>Metod:</strong> Talet \\(i\\) har argument \\(\\pi/2\\). Multiplikation med \\(i\\) roterar därför alla punkter \\(\\pi/2=90^\\circ\\) moturs.</p><p><strong>Svar:</strong> 90°.</p>",
+    "familj": "Avbildningar, rotation och skalning med komplexa tal",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
   {
     "id": "2.411",
     "kap": 2,
@@ -43677,7 +43801,7 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 2.0,
+    "rättSvar": 2,
     "tolerans": 0.001,
     "självrättning": true,
     "svarFormat": "numeriskt"
@@ -43701,7 +43825,7 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 3.0,
+    "rättSvar": 3,
     "tolerans": 0.001,
     "självrättning": true,
     "svarFormat": "numeriskt"
@@ -43725,7 +43849,7 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 7.0,
+    "rättSvar": 7,
     "tolerans": 0.001,
     "självrättning": true,
     "svarFormat": "numeriskt"
@@ -43743,7 +43867,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Vinkeln \\(v\\) ligger i kvadrant I och \\(sinv=0.600000\\).</p><p>Bestäm \\(cosv\\).</p>",
     "s": "<p><strong>Metod:</strong> Använd \\(\\sin^2v+\\cos^2v=1\\) och välj tecken från kvadranten. Därefter kan \\(\\tan v=\\sin v/\\cos v\\) användas vid behov.</p><p><strong>Svar:</strong> \\(0.800000\\).</p>",
-    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "familj": "Bestämma trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur"
     ],
@@ -43751,7 +43875,8 @@ window.BANKMATO2 = [
     "rättSvar": 0.8,
     "tolerans": 0.001,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Bestäm trigonometriska värden från ett givet värde"
   },
   {
     "id": "1.415",
@@ -43766,7 +43891,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Vinkeln \\(v\\) ligger i kvadrant II och \\(cosv=-0.384615\\).</p><p>Bestäm \\(sinv\\).</p>",
     "s": "<p><strong>Metod:</strong> Använd \\(\\sin^2v+\\cos^2v=1\\) och välj tecken från kvadranten. Därefter kan \\(\\tan v=\\sin v/\\cos v\\) användas vid behov.</p><p><strong>Svar:</strong> \\(0.923077\\).</p>",
-    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "familj": "Bestämma trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur"
     ],
@@ -43774,7 +43899,8 @@ window.BANKMATO2 = [
     "rättSvar": 0.9230769230769231,
     "tolerans": 0.001,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Bestäm trigonometriska värden från ett givet värde"
   },
   {
     "id": "1.416",
@@ -43789,7 +43915,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Vinkeln \\(v\\) ligger i kvadrant IV och \\(sinv=-0.470588\\).</p><p>Bestäm \\(tanv\\).</p>",
     "s": "<p><strong>Metod:</strong> Använd \\(\\sin^2v+\\cos^2v=1\\) och välj tecken från kvadranten. Därefter kan \\(\\tan v=\\sin v/\\cos v\\) användas vid behov.</p><p><strong>Svar:</strong> \\(-0.533333\\).</p>",
-    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "familj": "Bestämma trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur"
     ],
@@ -43797,7 +43923,8 @@ window.BANKMATO2 = [
     "rättSvar": -0.5333333333333333,
     "tolerans": 0.001,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Bestäm trigonometriska värden från ett givet värde"
   },
   {
     "id": "1.417",

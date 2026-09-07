@@ -1,7 +1,6 @@
-/* strukturmatf1.js — Matematik – fördjupning nivå 1.
-   Områdena är sammanslagna till större, pedagogiskt meningsfulla block
-   så att kurslistan blir överskådlig utan att innehåll försvinner.
-   Grafteori ingår inte eftersom det inte längre hör till den aktuella ämnesplanen. */
+/* strukturmatf1.js — intern understruktur och elevsynliga träningsområden för Matematik – fördjupning nivå 1.
+   OMR bevaras för bank/progression. GRUPPMATF1 definierar elevens större områden; familj är delmoment.
+   Reviderad 2026-09-07. */
 
 window.KAPNAMNMATF1 = {
   "1": "Kombinatorik och mängdlära",
@@ -43,3 +42,83 @@ window.OMRMATF1 = {
     "modellering_digitalt": "Modellering och digitala metoder"
   }
 };
+
+window.GRUPPMATF1 = {
+  "1": [
+    {
+      "id": "mangder_principer",
+      "namn": "Mängder och kombinatoriska principer",
+      "omr": [
+        "mangder_venn",
+        "additionsprincipen_mangder",
+        "kombinatoriska_principer"
+      ]
+    },
+    {
+      "id": "urval_binomial",
+      "namn": "Permutationer, kombinationer och binomialsatsen",
+      "omr": [
+        "permutationer_kombinationer",
+        "binomialsatsen"
+      ]
+    }
+  ],
+  "2": [
+    {
+      "id": "talteori",
+      "namn": "Talteori, talbaser och kongruens",
+      "omr": [
+        "delbarhet",
+        "talbaser",
+        "kongruens"
+      ]
+    },
+    {
+      "id": "talfoljder",
+      "namn": "Talföljder och rekursion",
+      "omr": [
+        "talfoljder_sigma",
+        "aritmetiska_geometriska",
+        "rekursiva_talfoljder"
+      ]
+    }
+  ],
+  "3": [
+    {
+      "id": "integrationstekniker",
+      "namn": "Integrationstekniker",
+      "omr": [
+        "partiell_integration",
+        "generaliserade_integraler"
+      ]
+    },
+    {
+      "id": "fordjupad_analys",
+      "namn": "Fördjupad derivata och analys",
+      "omr": [
+        "derivata_tillampningar",
+        "fordjupad_analys"
+      ]
+    }
+  ],
+  "4": [
+    {
+      "id": "diffekv_forsta",
+      "namn": "Differentialekvationer – grunder och första ordningen",
+      "omr": [
+        "diffekv_grunder",
+        "forsta_ordningen",
+        "begynnelsevillkor"
+      ]
+    },
+    {
+      "id": "diffekv_digitalt",
+      "namn": "Riktningsfält, numeriska och digitala metoder",
+      "omr": [
+        "riktningsfalt_euler",
+        "modellering_digitalt"
+      ]
+    }
+  ]
+};
+

@@ -1,6 +1,6 @@
-/* strukturmato1.js — Matematik – fortsättning nivå 1b och 1c.
-   Strukturen är medvetet förenklad: kapitel -> områden direkt, utan lärobokens
-   mellanrubriker 1.1, 1.2 osv. Närliggande innehåll har slagits ihop. */
+/* strukturmato1.js — intern understruktur och elevsynliga träningsområden för Matematik – fortsättning nivå 1.
+   OMR bevaras för bank/progression. GRUPPMATO1 definierar elevens större områden; familj är delmoment.
+   Reviderad 2026-09-07. */
 
 window.KAPNAMNMATO1 = {
   "1": "Algebra och funktioner",
@@ -35,8 +35,8 @@ window.OMRMATO1 = {
   "2": {
     "derivatabegrepp": "Ändringskvot och derivatabegreppet",
     "deriveringsregler": "Deriveringsregler",
-    "funktion_derivata_grafer": "Funktioners grafer och derivatans grafer",
     "tangenter_derivata": "Tangenter och derivata",
+    "funktion_derivata_grafer": "Funktionens och derivatans grafer",
     "exponential_ln_derivata": "Exponentialfunktioner, e, ln och derivata",
     "derivering_digitalt": "Derivering med digitala verktyg"
   },
@@ -61,35 +61,174 @@ window.OMRMATO1 = {
 
 window.SPARMATO1 = {
   "1": {
-    "polynom": ["1b","1c"],
-    "funktioner": ["1b","1c"],
-    "rationella_uttryck": ["1b","1c"],
-    "gransvarde_kontinuitet": ["1b","1c"],
-    "absolutbelopp": ["1c"]
+    "polynom": [
+      "1b",
+      "1c"
+    ],
+    "funktioner": [
+      "1b",
+      "1c"
+    ],
+    "rationella_uttryck": [
+      "1b",
+      "1c"
+    ],
+    "gransvarde_kontinuitet": [
+      "1b",
+      "1c"
+    ],
+    "absolutbelopp": [
+      "1c"
+    ]
   },
   "2": {
-    "derivatabegrepp": ["1b","1c"],
-    "deriveringsregler": ["1b","1c"],
-    "funktion_derivata_grafer": ["1b","1c"],
-    "tangenter_derivata": ["1b","1c"],
-    "exponential_ln_derivata": ["1b","1c"],
-    "derivering_digitalt": ["1b","1c"]
+    "derivatabegrepp": [
+      "1b",
+      "1c"
+    ],
+    "deriveringsregler": [
+      "1b",
+      "1c"
+    ],
+    "tangenter_derivata": [
+      "1b",
+      "1c"
+    ],
+    "funktion_derivata_grafer": [
+      "1b",
+      "1c"
+    ],
+    "exponential_ln_derivata": [
+      "1b",
+      "1c"
+    ],
+    "derivering_digitalt": [
+      "1b",
+      "1c"
+    ]
   },
   "3": {
-    "grafanalys_derivata": ["1b","1c"],
-    "extremvardesproblem": ["1b","1c"],
-    "derivata_tillampningar": ["1b","1c"],
-    "deriverbarhet": ["1b","1c"],
-    "primitiva_funktioner": ["1b","1c"],
-    "integraler": ["1b","1c"],
-    "integraler_digitalt": ["1b","1c"],
-    "integraltillampningar": ["1b","1c"]
+    "grafanalys_derivata": [
+      "1b",
+      "1c"
+    ],
+    "extremvardesproblem": [
+      "1b",
+      "1c"
+    ],
+    "derivata_tillampningar": [
+      "1b",
+      "1c"
+    ],
+    "deriverbarhet": [
+      "1b",
+      "1c"
+    ],
+    "primitiva_funktioner": [
+      "1b",
+      "1c"
+    ],
+    "integraler": [
+      "1b",
+      "1c"
+    ],
+    "integraler_digitalt": [
+      "1b",
+      "1c"
+    ],
+    "integraltillampningar": [
+      "1b",
+      "1c"
+    ]
   },
   "4": {
-    "enhetscirkeln_trig": ["1c"],
-    "triangelsatser": ["1c"],
-    "trig_tillampningar_bevis": ["1c"],
-    "linjar_optimering": ["1b"],
-    "geometriska_summor": ["1b"]
+    "enhetscirkeln_trig": [
+      "1c"
+    ],
+    "triangelsatser": [
+      "1c"
+    ],
+    "trig_tillampningar_bevis": [
+      "1c"
+    ],
+    "linjar_optimering": [
+      "1b"
+    ],
+    "geometriska_summor": [
+      "1b"
+    ]
   }
 };
+
+window.GRUPPMATO1 = {
+  "1": [
+    {
+      "id": "polynom_rationella",
+      "namn": "Polynom och rationella uttryck",
+      "omr": [
+        "polynom",
+        "rationella_uttryck"
+      ]
+    },
+    {
+      "id": "funktioner_gransvarden",
+      "namn": "Funktioner, gränsvärden och kontinuitet",
+      "omr": [
+        "funktioner",
+        "gransvarde_kontinuitet",
+        "absolutbelopp"
+      ]
+    }
+  ],
+  "2": [
+    {
+      "id": "derivata_begrepp_graf",
+      "namn": "Derivata, tangenter och grafer",
+      "omr": [
+        "derivatabegrepp",
+        "tangenter_derivata",
+        "funktion_derivata_grafer"
+      ]
+    },
+    {
+      "id": "deriveringsregler",
+      "namn": "Deriveringsregler och exponentialfunktioner",
+      "omr": [
+        "deriveringsregler",
+        "exponential_ln_derivata"
+      ]
+    }
+  ],
+  "3": [
+    {
+      "id": "grafanalys_extrem",
+      "namn": "Grafanalys, extremvärden och deriverbarhet",
+      "omr": [
+        "grafanalys_derivata",
+        "extremvardesproblem",
+        "deriverbarhet"
+      ]
+    },
+    {
+      "id": "integralberakning",
+      "namn": "Primitiva funktioner och integralberäkning",
+      "omr": [
+        "primitiva_funktioner",
+        "integraler",
+        "integraler_digitalt"
+      ]
+    }
+  ],
+  "4": [
+    {
+      "id": "trigonometri",
+      "namn": "Trigonometri",
+      "omr": [
+        "enhetscirkeln_trig",
+        "triangelsatser",
+        "trig_tillampningar_bevis"
+      ]
+    }
+  ]
+};
+

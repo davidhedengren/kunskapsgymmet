@@ -1,4 +1,8 @@
-/* uppgifterma1.js — Matematik nivå 1. Familjetaggning reviderad för Kunskapsgymmet 2026-09-07. */
+/* uppgifterma1.js — Matematik nivå 1.
+   Hierarkirevision för Kunskapsgymmet 2026-09-07.
+   OMR bevaras som intern understruktur; familj är elevens punktträningsdelmoment.
+   familjTidigare finns på omdöpta familjer för migrering av sparad familjeprogress. */
+
 window.BANKMA1 = [
   {
     "id": "0.01",
@@ -8318,7 +8322,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 47,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8343,7 +8347,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 83,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8368,7 +8372,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6.7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8393,7 +8397,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8418,7 +8422,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.49,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8443,7 +8447,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.075,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8468,7 +8472,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3700,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8493,7 +8497,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8518,7 +8522,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8543,7 +8547,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8568,7 +8572,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8593,7 +8597,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 240,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8618,7 +8622,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7400,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8643,7 +8647,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.68,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8668,7 +8672,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 99000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8693,7 +8697,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.445,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8718,7 +8722,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1250,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8743,7 +8747,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 57,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8768,7 +8772,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8793,7 +8797,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8818,7 +8822,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8843,7 +8847,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8868,7 +8872,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8893,7 +8897,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8918,7 +8922,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8943,7 +8947,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8968,7 +8972,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8993,7 +8997,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 400,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9018,7 +9022,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9043,7 +9047,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9068,7 +9072,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9093,7 +9097,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9118,7 +9122,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9143,7 +9147,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9168,7 +9172,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 70000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9193,7 +9197,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9218,7 +9222,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 340,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9244,7 +9248,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9270,7 +9274,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2750,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9296,7 +9300,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6.4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9322,7 +9326,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9348,7 +9352,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.75,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9374,7 +9378,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9400,7 +9404,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9426,7 +9430,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 144,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9452,7 +9456,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9478,7 +9482,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 650,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9504,7 +9508,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.48,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9530,7 +9534,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 32,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9556,7 +9560,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9582,7 +9586,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1800,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9608,7 +9612,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.75,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9634,7 +9638,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9660,7 +9664,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9686,7 +9690,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9712,7 +9716,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 60,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10037,7 +10041,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.000084,
+    "rättSvar": 8.4e-05,
     "tolerans": 1e-12,
     "självrättning": true,
     "formaga": [
@@ -10063,7 +10067,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3200,
-    "tolerans": 0.0000032000000000000003,
+    "tolerans": 3.2000000000000003e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10115,7 +10119,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 75,
-    "tolerans": 7.500000000000001e-8,
+    "tolerans": 7.500000000000001e-08,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10166,7 +10170,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0000085,
+    "rättSvar": 8.5e-06,
     "tolerans": 1e-12,
     "självrättning": true,
     "formaga": [
@@ -10193,7 +10197,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 360,
-    "tolerans": 3.6000000000000005e-7,
+    "tolerans": 3.6000000000000005e-07,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10245,7 +10249,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7.5,
-    "tolerans": 7.500000000000001e-9,
+    "tolerans": 7.500000000000001e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10271,7 +10275,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 4.500000000000001e-9,
+    "tolerans": 4.500000000000001e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10297,7 +10301,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2800,
-    "tolerans": 0.0000028000000000000003,
+    "tolerans": 2.8000000000000003e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10323,7 +10327,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1.5000000000000002e-8,
+    "tolerans": 1.5000000000000002e-08,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10573,7 +10577,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0000725,
+    "rättSvar": 7.25e-05,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -10783,7 +10787,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>Ett gym tar 250 kr i startavgift och 180 kr per månad.</p><p>a) Teckna en ekvation för den totala kostnaden efter \\(x\\) månader om du betalat 1 330 kr.<br>b) Hur många månader har du varit medlem?<br>c) Vad kostar ett medlemskap på 12 månader?</p>",
     "s": "<p>a) <strong>\\(250+180x=1\\,330\\)</strong></p><p>b) \\(180x=1\\,080\\Rightarrow x=6\\), alltså <strong>6 månader</strong></p><p>c) \\(250+180\\cdot12=250+2\\,160=\\)<strong>2 410 kr</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -10815,7 +10819,8 @@ window.BANKMA1 = [
         "t": "<p>Ett gym tar 250 kr i startavgift och 180 kr per månad.</p><p><div class=\"spel-en-del\">Vad kostar ett medlemskap på 12 månader?</div></p>",
         "s": "<p><strong>Metod:</strong> Målet är att få variabeln ensam. Förenkla först om det behövs och gör sedan samma operation i båda leden, ett steg i taget.</p><p><div class=\"spel-en-del\">\\(250+180\\cdot12=250+2\\,160=\\)<strong>2 410 kr</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.06",
@@ -10880,7 +10885,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>Lös olikheterna.</p><p>a) \\(5x-7\\ge18\\)<br>b) \\(2x+9&lt;3\\)<br>c) \\(8-x\\le2\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla parenteserna och samla variabeltermerna som i en ekvation. Om du dividerar eller multiplicerar med ett negativt tal måste olikhetstecknet vändas.</p><p>a) \\(5x\\ge25\\), alltså <strong>\\(x\\ge5\\)</strong></p><p>b) \\(2x&lt;-6\\), alltså <strong>\\(x&lt;-3\\)</strong></p><p>c) \\(-x\\le-6\\). Vid division med \\(-1\\) vänds tecknet: <strong>\\(x\\ge6\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -10912,7 +10917,8 @@ window.BANKMA1 = [
         "t": "<p>Lös olikheterna.</p><p><div class=\"spel-en-del\">\\(8-x\\le2\\)</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">\\(-x\\le-6\\). Vid division med \\(-1\\) vänds tecknet: <strong>\\(x\\ge6\\)</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.08",
@@ -12162,7 +12168,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Lös \\(-\\frac{2}{3}x+1=\\frac14x+\\frac52\\).</p>",
     "s": "<p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>Multiplicera med 12: \\(-8x+12=3x+30\\Rightarrow -11x=18\\).</p><p><strong>\\(x=\\frac{-18}{11}\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -12173,7 +12179,8 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.41",
@@ -12188,7 +12195,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös.</p><p>a) \\(5x=45\\)<br>b) \\(x/6=7\\)<br>c) \\(-4x=28\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(5 x=45\\). Dela båda leden med \\(5\\): \\(x=9\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(\\frac{x}{6}=7\\). Dela båda leden med \\(\\frac{1}{6}\\): \\(x=42\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(- 4 x=28\\). Dela båda leden med \\(-4\\): \\(x=-7\\).</p><p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>a) <strong>9</strong><br>b) <strong>42</strong><br>c) <strong>-7</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -12220,7 +12227,8 @@ window.BANKMA1 = [
         "t": "<p>Lös.</p><p><div class=\"spel-en-del\">\\(-4x=28\\)</div></p>",
         "s": "<p><strong>Svar:</strong> -7</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.43",
@@ -12235,7 +12243,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Lös ekvationen och redovisa:</p><p>\\[3(2x-5)-4=2(x+7)+5.\\]</p>",
     "s": "<p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>\\(6x-19=2x+19\\Rightarrow4x=38\\Rightarrow\\)<strong>\\(x=9,5\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -12247,7 +12255,8 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "manuellKomplettering": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.44",
@@ -12262,7 +12271,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(4x=36\\)<br>b) \\(7x=-42\\)<br>c) \\(\\frac x5=8\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(4 x=36\\). Dela båda leden med \\(4\\): \\(x=9\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(7 x=-42\\). Dela båda leden med \\(7\\): \\(x=-6\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(\\frac{x}{5}=8\\). Dela båda leden med \\(\\frac{1}{5}\\): \\(x=40\\).</p><p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>a) <strong>\\(x=9\\)</strong></p><p>b) <strong>\\(x=-6\\)</strong></p><p>c) Multiplicera båda leden med 5: <strong>\\(x=40\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -12299,7 +12308,8 @@ window.BANKMA1 = [
         "t": "<p>Lös ekvationerna.</p><p><div class=\"spel-en-del\">\\(\\frac x5=8\\)</div></p>",
         "s": "<p><strong>Svar:</strong> 40</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.45",
@@ -12314,7 +12324,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En rektangels längd är 4 cm längre än bredden. Därefter kortas längden med 2 cm och bredden ökas med 3 cm. Den nya rektangelns omkrets är 46 cm.</p>\n<p>Bestäm den ursprungliga rektangelns sidlängder och jämför den ursprungliga arean med den nya.</p>",
     "s": "<p><strong>Steg 1:</strong> Låt ursprunglig bredd vara \\(x\\). Då är längden \\(x+4\\).</p>\n<p>Efter förändringen är måtten \\(x+2\\) och \\(x+3\\).</p>\n<p>\\(2(x+2)+2(x+3)=46\\Rightarrow4x+10=46\\Rightarrow x=9\\).</p>\n<p>Ursprungliga mått: 9 cm × 13 cm, area 117 cm².</p>\n<p>Nya mått: 12 cm × 11 cm, area 132 cm².</p>\n<p><strong>Svar:</strong> <strong>Den nya arean är 15 cm² större.</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -12339,7 +12349,8 @@ window.BANKMA1 = [
       "ursprunglig bredd (cm)",
       "ursprunglig längd (cm)",
       "nya arean är större med (cm²)"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.46",
@@ -12354,7 +12365,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(9-2x=-7\\)<br>b) \\(15-3x=6\\)<br>c) \\(-4-5x=11\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(- 2 x=-16\\). Dela båda leden med \\(-2\\): \\(x=8\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(- 3 x=-9\\). Dela båda leden med \\(-3\\): \\(x=3\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(- 5 x=15\\). Dela båda leden med \\(-5\\): \\(x=-3\\).</p><p>a) \\(-2x=-16\\), alltså <strong>\\(x=8\\)</strong></p><p>b) \\(-3x=-9\\), alltså <strong>\\(x=3\\)</strong></p><p>c) \\(-5x=15\\), alltså <strong>\\(x=-3\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -12391,7 +12402,8 @@ window.BANKMA1 = [
         "t": "<p>Lös ekvationerna.</p><p><div class=\"spel-en-del\">\\(-4-5x=11\\)</div></p>",
         "s": "<p><strong>Svar:</strong> -3</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.47",
@@ -12406,7 +12418,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En rektangels omkrets är 70 cm. Längden är 3 cm större än bredden. Bestäm rektangelns längd och bredd.</p>",
     "s": "<p><strong>Steg 1:</strong> Låt bredden vara \\(x\\) cm. Då är längden \\(x+3\\) cm.</p><p>\\(2x+2(x+3)=70\\Rightarrow4x+6=70\\Rightarrow x=16\\).</p><p><strong>Svar:</strong> <strong>Bredden är 16 cm och längden 19 cm.</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -12427,7 +12439,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "längd (cm)",
       "bredd (cm)"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.48",
@@ -12442,7 +12455,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(x+9=21\\)<br>b) \\(x-6=15\\)<br>c) \\(14-x=9\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(x=12\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(x=21\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(-x=-5\\). Multiplicera båda leden med \\(-1\\): \\(x=5\\).</p><p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>a) <strong>\\(x=12\\)</strong></p><p>b) <strong>\\(x=21\\)</strong></p><p>c) \\(-x=-5\\), alltså <strong>\\(x=5\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -12479,7 +12492,8 @@ window.BANKMA1 = [
         "t": "<p>Lös ekvationerna.</p><p><div class=\"spel-en-del\">\\(14-x=9\\)</div></p>",
         "s": "<p><strong>Svar:</strong> 5</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.49",
@@ -12494,7 +12508,7 @@ window.BANKMA1 = [
     "poang": "1/1/0",
     "t": "<p>Utgå från uttrycket \\(4(x+3)-(7+x)\\). Bestäm \\(x\\) så att uttryckets värde blir 8.</p>",
     "s": "<p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>Uttrycket blir \\(3x+5\\). \\(3x+5=8\\Rightarrow\\)<strong>\\(x=1\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -12505,7 +12519,8 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.50",
@@ -12778,7 +12793,7 @@ window.BANKMA1 = [
     "poang": "1/2/0",
     "t": "<p>Du har 300 kr. Inträdet kostar 90 kr och varje åk kostar 35 kr.</p><p>a) Teckna en olikhet där \\(x\\) är antalet åk.<br>b) Hur många åk kan du som mest köpa?<br>c) Hur många åk hade räckt pengarna till om inträdet höjdes till 125 kr?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla parenteserna och samla variabeltermerna som i en ekvation. Om du dividerar eller multiplicerar med ett negativt tal måste olikhetstecknet vändas.</p><p>a) <strong>\\(90+35x\\le300\\)</strong></p><p>b) \\(35x\\le210\\Rightarrow x\\le6\\), alltså <strong>6 åk</strong></p><p>c) \\(125+35x\\le300\\Rightarrow35x\\le175\\Rightarrow x\\le5\\), alltså <strong>5 åk</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -12810,7 +12825,8 @@ window.BANKMA1 = [
         "t": "<p>Du har 300 kr. Inträdet kostar 90 kr och varje åk kostar 35 kr.</p><p><div class=\"spel-en-del\">Hur många åk hade räckt pengarna till om inträdet höjdes till 125 kr?</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">\\(125+35x\\le300\\Rightarrow35x\\le175\\Rightarrow x\\le5\\), alltså <strong>5 åk</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.59",
@@ -12824,7 +12840,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>Vilket av talen 1, 2, 3, 4 och 5 uppfyller <em>inte</em> villkoret \\(3x-2&gt;7\\)? Ange alla sådana tal.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p>Villkoret ger \\(x&gt;3\\). <strong>1, 2 och 3</strong> uppfyller inte villkoret.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -12848,7 +12864,8 @@ window.BANKMA1 = [
       "x",
       "x",
       "x"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.60",
@@ -12862,7 +12879,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En elev har fått 12 och 17 poäng på två prov. Efter ett tredje prov med \\(x\\) poäng ska medelvärdet vara minst 15 men mindre än 18.</p><p>Bestäm intervallet för \\(x\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Villkoret kan skrivas</p><p>\\(15\\le\\frac{12+17+x}{3}&lt;18\\).</p><p>Multiplicera alla led med 3:</p><p>\\(45\\le29+x&lt;54\\).</p><p>Subtrahera 29:</p><p><strong>\\(16\\le x&lt;25\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
@@ -12873,7 +12890,8 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.61",
@@ -12887,7 +12905,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>Lös olikheterna.</p><p>a) \\(7x-2&gt;3x+10\\)<br>b) \\(5x+1\\le2x+13\\)<br>c) \\(4-x&gt;2x-8\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla parenteserna och samla variabeltermerna som i en ekvation. Om du dividerar eller multiplicerar med ett negativt tal måste olikhetstecknet vändas.</p><p>a) \\(4x&gt;12\\), alltså <strong>\\(x&gt;3\\)</strong></p><p>b) \\(3x\\le12\\), alltså <strong>\\(x\\le4\\)</strong></p><p>c) \\(4+8&gt;2x+x\\Rightarrow12&gt;3x\\), alltså <strong>\\(x&lt;4\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -12919,7 +12937,8 @@ window.BANKMA1 = [
         "t": "<p>Lös olikheterna.</p><p><div class=\"spel-en-del\">\\(4-x&gt;2x-8\\)</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">\\(4+8&gt;2x+x\\Rightarrow12&gt;3x\\), alltså <strong>\\(x&lt;4\\)</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.62",
@@ -12934,7 +12953,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Bestäm alla \\(x\\) som uppfyller</p><p>\\[4-3(2x-1)\\le 13.\\]</p>",
     "s": "<p><strong>Nyckelidé:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p>\\(7-6x\\le13\\Rightarrow-6x\\le6\\Rightarrow\\)<strong>\\(x\\ge-1\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
@@ -12945,7 +12964,8 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.63",
@@ -12959,7 +12979,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös olikheterna.</p><p>a) \\(4x-3&lt;17\\)<br>b) \\(3x+2\\le20\\)<br>c) \\(6x-5&gt;13\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla parenteserna och samla variabeltermerna som i en ekvation. Om du dividerar eller multiplicerar med ett negativt tal måste olikhetstecknet vändas.</p><p>a) \\(4x&lt;20\\), alltså <strong>\\(x&lt;5\\)</strong></p><p>b) \\(3x\\le18\\), alltså <strong>\\(x\\le6\\)</strong></p><p>c) \\(6x&gt;18\\), alltså <strong>\\(x&gt;3\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -12991,7 +13011,8 @@ window.BANKMA1 = [
         "t": "<p>Lös olikheterna.</p><p><div class=\"spel-en-del\">\\(6x-5&gt;13\\)</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">\\(6x&gt;18\\), alltså <strong>\\(x&gt;3\\)</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.64",
@@ -13005,7 +13026,7 @@ window.BANKMA1 = [
     "poang": "0/0/1",
     "t": "<p>Bestäm \\(a\\) så att olikheten \\(3x-a&lt;8\\) får lösningsmängden \\(x&lt;5\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p>\\(3x-a&lt;8\\Rightarrow x&lt;(8+a)/3\\). För gränsen 5 krävs \\((8+a)/3=5\\Rightarrow\\)<strong>\\(a=7\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -13014,7 +13035,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.65",
@@ -13028,7 +13050,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös olikheterna.</p><p>a) \\(5x+7&lt;32\\)<br>b) \\(6x-4\\ge14\\)<br>c) \\(9x+2&lt;2\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla parenteserna och samla variabeltermerna som i en ekvation. Om du dividerar eller multiplicerar med ett negativt tal måste olikhetstecknet vändas.</p><p>a) \\(5x&lt;25\\), alltså <strong>\\(x&lt;5\\)</strong></p><p>b) \\(6x\\ge18\\), alltså <strong>\\(x\\ge3\\)</strong></p><p>c) \\(9x&lt;0\\), alltså <strong>\\(x&lt;0\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -13060,7 +13082,8 @@ window.BANKMA1 = [
         "t": "<p>Lös olikheterna.</p><p><div class=\"spel-en-del\">\\(9x+2&lt;2\\)</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">\\(9x&lt;0\\), alltså <strong>\\(x&lt;0\\)</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.66",
@@ -13074,7 +13097,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En elev löser \\(-3x&lt;12\\) och skriver \\(x&lt;-4\\). Förklara felet och ge rätt lösning.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p>Vid division med −3 ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> <strong>\\(x&gt;-4\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "resonemang",
@@ -13086,7 +13109,8 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": "intervall",
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.67",
@@ -14521,7 +14545,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>En bowlinghall tar 60 kr i inträde och 45 kr per serie. Samir betalar totalt 330 kr.</p><p>a) Teckna en ekvation där \\(x\\) är antalet serier.<br>b) Hur många serier spelar han?<br>c) Vad hade 9 serier kostat?</p>",
     "s": "<p>a) <strong>\\(60+45x=330\\)</strong></p><p>b) \\(45x=270\\Rightarrow\\)<strong>6 serier</strong></p><p>c) \\(60+45\\cdot9=60+405=\\)<strong>465 kr</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -14553,7 +14577,8 @@ window.BANKMA1 = [
         "t": "<p>En bowlinghall tar 60 kr i inträde och 45 kr per serie. Samir betalar totalt 330 kr.</p><p><div class=\"spel-en-del\">Vad hade 9 serier kostat?</div></p>",
         "s": "<p><strong>Metod:</strong> Målet är att få variabeln ensam. Förenkla först om det behövs och gör sedan samma operation i båda leden, ett steg i taget.</p><p><div class=\"spel-en-del\">\\(60+45\\cdot9=60+405=\\)<strong>465 kr</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.108",
@@ -14568,7 +14593,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En förening säljer 14 biljetter. Vuxenbiljetten kostar 125 kr och ungdomsbiljetten 85 kr. Totalt får föreningen in 1 510 kr.</p><p>Hur många vuxenbiljetter och ungdomsbiljetter såldes? Ställ upp och lös en ekvation.</p>",
     "s": "<p><strong>Steg 1:</strong> Låt \\(x\\) vara antalet vuxenbiljetter. Då är antalet ungdomsbiljetter \\(14-x\\).</p><p>\\(125x+85(14-x)=1510\\).</p><p>\\(125x+1190-85x=1510\\Rightarrow40x=320\\Rightarrow x=8\\).</p><p><strong>Svar:</strong> <strong>8 vuxenbiljetter och 6 ungdomsbiljetter.</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -14590,7 +14615,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "vuxenbiljetter",
       "ungdomsbiljetter"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.109",
@@ -14605,7 +14631,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös.</p><p>a) \\(x/4+3=8\\)<br>b) \\((x-2)/5=3\\)<br>c) \\((2x+1)/3=5\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(\\frac{x}{4}=5\\). Dela båda leden med \\(\\frac{1}{4}\\): \\(x=20\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(\\frac{x}{5}=\\frac{17}{5}\\). Dela båda leden med \\(\\frac{1}{5}\\): \\(x=17\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(\\frac{2 x}{3}=\\frac{14}{3}\\). Dela båda leden med \\(\\frac{2}{3}\\): \\(x=7\\).</p><p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>a) <strong>20</strong><br>b) <strong>17</strong><br>c) <strong>7</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -14637,7 +14663,8 @@ window.BANKMA1 = [
         "t": "<p>Lös.</p><p><div class=\"spel-en-del\">\\((2x+1)/3=5\\)</div></p>",
         "s": "<p><strong>Svar:</strong> 7</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.110",
@@ -14652,7 +14679,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>I en klass finns det fyra fler flickor än pojkar. En dag är tre pojkar och fem flickor frånvarande. Då är det dubbelt så många flickor som pojkar på plats.</p><p>Hur många elever finns i klassen?</p>",
     "s": "<p><strong>Steg 1:</strong> Låt antalet pojkar i klassen vara \\(x\\). Då finns \\(x+4\\) flickor.</p><p>På plats finns \\(x-3\\) pojkar och \\(x+4-5=x-1\\) flickor. Villkoret ger</p><p>\\(x-1=2(x-3)\\Rightarrow x-1=2x-6\\Rightarrow x=5\\).</p><p>Det finns 5 pojkar och 9 flickor, alltså <strong>14 elever</strong>.</p><p>Kontroll: På plats finns 2 pojkar och 4 flickor.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -14661,7 +14688,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.111",
@@ -14676,7 +14704,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(4(x-3)=28\\)<br>b) \\(6(x+2)=42\\)<br>c) \\(3(x-4)=-9\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(4 x=40\\). Dela båda leden med \\(4\\): \\(x=10\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(6 x=30\\). Dela båda leden med \\(6\\): \\(x=5\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(3 x=3\\). Dela båda leden med \\(3\\): \\(x=1\\).</p><p>a) \\(x-3=7\\), alltså <strong>\\(x=10\\)</strong></p><p>b) \\(x+2=7\\), alltså <strong>\\(x=5\\)</strong></p><p>c) \\(x-4=-3\\), alltså <strong>\\(x=1\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -14713,7 +14741,8 @@ window.BANKMA1 = [
         "t": "<p>Lös ekvationerna.</p><p><div class=\"spel-en-del\">\\(3(x-4)=-9\\)</div></p>",
         "s": "<p><strong>Svar:</strong> 1</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.112",
@@ -14728,7 +14757,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\(\\frac{5x+1}{6}=\\frac{2x+5}{3}\\).</p>",
     "s": "<p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>Multiplicera med 6: \\(5x+1=4x+10\\Rightarrow\\)<strong>\\(x=9\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -14739,7 +14768,8 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.113",
@@ -14754,7 +14784,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(5(x-2)=20\\)<br>b) \\(3(x+4)=27\\)<br>c) \\(-2(x-5)=14\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(5 x=30\\). Dela båda leden med \\(5\\): \\(x=6\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(3 x=15\\). Dela båda leden med \\(3\\): \\(x=5\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(- 2 x=4\\). Dela båda leden med \\(-2\\): \\(x=-2\\).</p><p>a) \\(x-2=4\\), alltså <strong>\\(x=6\\)</strong></p><p>b) \\(x+4=9\\), alltså <strong>\\(x=5\\)</strong></p><p>c) \\(x-5=-7\\), alltså <strong>\\(x=-2\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -14791,7 +14821,8 @@ window.BANKMA1 = [
         "t": "<p>Lös ekvationerna.</p><p><div class=\"spel-en-del\">\\(-2(x-5)=14\\)</div></p>",
         "s": "<p><strong>Svar:</strong> -2</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.114",
@@ -14806,7 +14837,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Två taxibolag har priserna</p><p>Bolag A: \\(79+12x\\) kr<br>Bolag B: \\(39+16x\\) kr</p><p>där \\(x\\) är körsträckan i kilometer. Vid vilken körsträcka kostar resorna lika mycket?</p>",
     "s": "<p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>\\(79+12x=39+16x\\).</p><p>\\(40=4x\\Rightarrow x=10\\).</p><p><strong>Svar:</strong> <strong>Priserna är lika vid 10 km.</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -14816,7 +14847,8 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.115",
@@ -14831,7 +14863,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(7x+5=40\\)<br>b) \\(6x-9=27\\)<br>c) \\(5-3x=20\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(7 x=35\\). Dela båda leden med \\(7\\): \\(x=5\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(6 x=36\\). Dela båda leden med \\(6\\): \\(x=6\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(- 3 x=15\\). Dela båda leden med \\(-3\\): \\(x=-5\\).</p><p>a) \\(7x=35\\), alltså <strong>\\(x=5\\)</strong></p><p>b) \\(6x=36\\), alltså <strong>\\(x=6\\)</strong></p><p>c) \\(-3x=15\\), alltså <strong>\\(x=-5\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -14868,7 +14900,8 @@ window.BANKMA1 = [
         "t": "<p>Lös ekvationerna.</p><p><div class=\"spel-en-del\">\\(5-3x=20\\)</div></p>",
         "s": "<p><strong>Svar:</strong> -5</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.116",
@@ -14883,7 +14916,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\((3x-4)(x+2)=3x^2+5x-18\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Målet är att få variabeln ensam. Förenkla först om det behövs och gör sedan samma operation i båda leden, ett steg i taget.</p><p>Vänsterled: \\(3x^2+2x-8\\). Då \\(3x^2+2x-8=3x^2+5x-18\\).</p><p>\\(10=3x\\Rightarrow\\)<strong>\\(x=\\frac{10}{3}\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -14894,7 +14927,8 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.117",
@@ -15318,7 +15352,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös olikheterna.</p><p>a) \\(2x+5&lt;17\\)<br>b) \\(4x-1\\ge11\\)<br>c) \\(7x+4&lt;-10\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla parenteserna och samla variabeltermerna som i en ekvation. Om du dividerar eller multiplicerar med ett negativt tal måste olikhetstecknet vändas.</p><p>a) \\(2x&lt;12\\), alltså <strong>\\(x&lt;6\\)</strong></p><p>b) \\(4x\\ge12\\), alltså <strong>\\(x\\ge3\\)</strong></p><p>c) \\(7x&lt;-14\\), alltså <strong>\\(x&lt;-2\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -15350,7 +15384,8 @@ window.BANKMA1 = [
         "t": "<p>Lös olikheterna.</p><p><div class=\"spel-en-del\">\\(7x+4&lt;-10\\)</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">\\(7x&lt;-14\\), alltså <strong>\\(x&lt;-2\\)</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.128",
@@ -15364,7 +15399,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>Bestäm talet \\(a\\) så att olikheten</p><p>\\[ax+4\\le3(x-2)\\]</p><p>får exakt lösningsmängden \\(x\\ge5\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Omskrivning ger</p><p>\\(ax+4\\le3x-6\\Rightarrow(a-3)x\\le-10\\).</p><p>För att lösningen ska vara av typen \\(x\\ge\\text{ett tal}\\) måste \\(a-3&lt;0\\), så tecknet vänds vid division:</p><p>\\(x\\ge\\frac{-10}{a-3}\\).</p><p>Gränsen ska vara 5:</p><p>\\(\\frac{-10}{a-3}=5\\Rightarrow-10=5a-15\\Rightarrow5a=5\\Rightarrow a=1\\).</p><p>Kontroll: \\(x+4\\le3x-6\\Rightarrow10\\le2x\\Rightarrow x\\ge5\\).</p><p><strong>Svar:</strong> <strong>\\(a=1\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -15373,7 +15408,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.129",
@@ -15387,7 +15423,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>Lös olikheterna. Tänk på när olikhetstecknet ska vändas.</p><p>a) \\(12-2x&gt;4\\)<br>b) \\(9-3x\\le0\\)<br>c) \\(-5x&gt;20\\)</p>",
     "s": "<p>a) \\(-2x&gt;-8\\). Division med \\(-2\\) vänder tecknet: <strong>\\(x&lt;4\\)</strong></p><p>b) \\(-3x\\le-9\\), tecknet vänds: <strong>\\(x\\ge3\\)</strong></p><p>c) Division med \\(-5\\) vänder tecknet: <strong>\\(x&lt;-4\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -15419,7 +15455,8 @@ window.BANKMA1 = [
         "t": "<p>Lös olikheterna. Tänk på när olikhetstecknet ska vändas.</p><p><div class=\"spel-en-del\">\\(-5x&gt;20\\)</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">Division med \\(-5\\) vänder tecknet: <strong>\\(x&lt;-4\\)</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.130",
@@ -15433,7 +15470,7 @@ window.BANKMA1 = [
     "poang": "0/0/2",
     "t": "<p>\\(x\\ge3\\) och \\(y\\ge-2\\). Bestäm det minsta möjliga värdet av \\(4x+y^2\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p>Minsta \\(4x\\) fås vid \\(x=3\\). Eftersom \\(y\\ge-2\\) kan \\(y=0\\), vilket minimerar \\(y^2\\).</p><p><strong>Svar:</strong> <strong>Minsta värde är 12.</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -15442,7 +15479,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.131",
@@ -15456,7 +15494,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>Lös olikheterna.</p><p>a) \\(3(x+2)\\le15\\)<br>b) \\(2(x-3)&gt;8\\)<br>c) \\(-4(x+1)\\ge12\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla parenteserna och samla variabeltermerna som i en ekvation. Om du dividerar eller multiplicerar med ett negativt tal måste olikhetstecknet vändas.</p><p>a) \\(x+2\\le5\\), alltså <strong>\\(x\\le3\\)</strong></p><p>b) \\(x-3&gt;4\\), alltså <strong>\\(x&gt;7\\)</strong></p><p>c) Division med \\(-4\\) vänder tecknet: \\(x+1\\le-3\\), alltså <strong>\\(x\\le-4\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -15488,7 +15526,8 @@ window.BANKMA1 = [
         "t": "<p>Lös olikheterna.</p><p><div class=\"spel-en-del\">\\(-4(x+1)\\ge12\\)</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">Division med \\(-4\\) vänder tecknet: \\(x+1\\le-3\\), alltså <strong>\\(x\\le-4\\)</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.132",
@@ -15502,7 +15541,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Två aktiviteter har kostnaderna</p><p>A: \\(90+6x\\) kr<br>B: \\(30+9x\\) kr</p><p>där \\(x\\) är ett helt antal deltagare. För vilka värden på \\(x\\) är A billigare än B samtidigt som båda aktiviteterna kostar högst 270 kr?</p>",
     "s": "<p><strong>Steg 1:</strong> A är billigare när</p><p>\\(90+6x&lt;30+9x\\Rightarrow60&lt;3x\\Rightarrow x&gt;20\\).</p><p>Budgetvillkoren ger</p><p>\\(90+6x\\le270\\Rightarrow x\\le30\\),</p><p>\\(30+9x\\le270\\Rightarrow x\\le\\frac{240}{9}=\\frac{80}{3}\\).</p><p>Eftersom \\(x\\) är ett heltal blir svaret <strong>\\(21\\le x\\le26\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
@@ -15513,7 +15552,8 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.133",
@@ -15527,7 +15567,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös olikheterna.</p><p>a) \\(x+4&gt;9\\)<br>b) \\(x-3\\le2\\)<br>c) \\(x+7\\ge1\\)</p>",
     "s": "<p><strong>Tänk så här:</strong> Kontrollera den färdiga lösningen mot den ursprungliga olikheten, särskilt om ett negativt tal har använts vid division eller multiplikation.</p><p>a) <strong>\\(x&gt;5\\)</strong></p><p>b) <strong>\\(x\\le5\\)</strong></p><p>c) <strong>\\(x\\ge-6\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -15559,7 +15599,8 @@ window.BANKMA1 = [
         "t": "<p>Lös olikheterna.</p><p><div class=\"spel-en-del\">\\(x+7\\ge1\\)</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><strong>Tänk så här:</strong> Kontrollera den färdiga lösningen mot den ursprungliga olikheten, särskilt om ett negativt tal har använts vid division eller multiplikation.</p><p><div class=\"spel-en-del\"><strong>\\(x\\ge-6\\)</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.134",
@@ -15573,7 +15614,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Ett fraktföretag tar 85 kr i fast avgift och 12 kr per kilogram. Frakten får kosta högst 265 kr. Hur tungt får paketet som mest vara?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p>\\(85+12x\\le265\\Rightarrow x\\le15\\).</p><p><strong>Svar:</strong> <strong>Högst 15 kg.</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -15582,7 +15623,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.135",
@@ -15596,7 +15638,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>Lös olikheterna.</p><p>a) \\(3-4x\\le15\\)<br>b) \\(10-2x&gt;4\\)<br>c) \\(-7x\\le21\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla parenteserna och samla variabeltermerna som i en ekvation. Om du dividerar eller multiplicerar med ett negativt tal måste olikhetstecknet vändas.</p><p>a) \\(-4x\\le12\\). Vid division med \\(-4\\) vänds tecknet: <strong>\\(x\\ge-3\\)</strong></p><p>b) \\(-2x&gt;-6\\), tecknet vänds: <strong>\\(x&lt;3\\)</strong></p><p>c) Tecknet vänds: <strong>\\(x\\ge-3\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -15628,7 +15670,8 @@ window.BANKMA1 = [
         "t": "<p>Lös olikheterna.</p><p><div class=\"spel-en-del\">\\(-7x\\le21\\)</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">Tecknet vänds: <strong>\\(x\\ge-3\\)</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.136",
@@ -15642,7 +15685,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>Lös olikheten</p><p>\\[(a-2)x&lt;a-2\\]</p><p>för alla möjliga värden på talet \\(a\\). Redovisa samtliga fall.</p>",
     "s": "<p><strong>Steg 1:</strong> Om \\(a&gt;2\\) är \\(a-2\\) positivt. Division ger då <strong>\\(x&lt;1\\)</strong>.</p><p>Om \\(a&lt;2\\) är \\(a-2\\) negativt. Vid division vänds tecknet och lösningen blir <strong>\\(x&gt;1\\)</strong>.</p><p>Om \\(a=2\\) blir olikheten \\(0&lt;0\\), vilket aldrig är sant. Då finns <strong>ingen lösning</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
@@ -15651,7 +15694,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.137",
@@ -17027,7 +17071,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös.</p><p>a) \\(4(x+2)=28\\)<br>b) \\(3(x-5)=12\\)<br>c) \\(2(3x+1)=20\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(4 x=20\\). Dela båda leden med \\(4\\): \\(x=5\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(3 x=27\\). Dela båda leden med \\(3\\): \\(x=9\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(6 x=18\\). Dela båda leden med \\(6\\): \\(x=3\\).</p><p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>a) <strong>5</strong><br>b) <strong>9</strong><br>c) <strong>3</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17059,7 +17103,8 @@ window.BANKMA1 = [
         "t": "<p>Lös.</p><p><div class=\"spel-en-del\">\\(2(3x+1)=20\\)</div></p>",
         "s": "<p><strong>Svar:</strong> 3</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.178",
@@ -17074,7 +17119,7 @@ window.BANKMA1 = [
     "poang": "1/1/1",
     "t": "<p>Tre elever löser ekvationen \\(4(2x-3)=3x+7\\).</p><p>Alva får \\(x=\\frac{19}{5}\\). Ben får \\(x=1\\). Cia får \\(x=\\frac{-19}{5}\\).</p><p>a) Vem har rätt?<br>b) Ge en möjlig förklaring till ett fel som någon av de andra kan ha gjort.</p>",
     "s": "<p><strong>Steg 1:</strong> \\(8x-12=3x+7\\Rightarrow5x=19\\Rightarrow x=\\frac{19}{5}\\). <strong>Alva har rätt.</strong></p><p>Ett möjligt fel är att flytta \\(-12\\) till höger utan att byta tecken, eller att hantera \\(4(2x-3)\\) fel.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17086,7 +17131,8 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": "kort_text",
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.179",
@@ -17101,7 +17147,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(7x+16=51\\).</p>",
     "s": "<p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>\\(7x=35\\Rightarrow\\)<strong>\\(x=5\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -17111,7 +17157,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.180",
@@ -17126,7 +17173,7 @@ window.BANKMA1 = [
     "poang": "1/1/0",
     "t": "<p>Lös ekvationen \\(3(2x-1)=5(4-x)\\). Redovisa.</p>",
     "s": "<p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>\\(6x-3=20-5x\\Rightarrow11x=23\\Rightarrow\\)<strong>\\(x=\\frac{23}{11}\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -17138,7 +17185,8 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "manuellKomplettering": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.181",
@@ -17153,7 +17201,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös.</p><p>a) \\(2x+7=x+15\\)<br>b) \\(5x-4=3x+10\\)<br>c) \\(12-2x=x+3\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(x=8\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(2 x=14\\). Dela båda leden med \\(2\\): \\(x=7\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(- 3 x=-9\\). Dela båda leden med \\(-3\\): \\(x=3\\).</p><p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>a) <strong>8</strong><br>b) <strong>7</strong><br>c) <strong>3</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17185,7 +17233,8 @@ window.BANKMA1 = [
         "t": "<p>Lös.</p><p><div class=\"spel-en-del\">\\(12-2x=x+3\\)</div></p>",
         "s": "<p><strong>Svar:</strong> 3</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.182",
@@ -17200,7 +17249,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>Undersök ekvationen</p><p>\\[a(x-2)=3x-6.\\]</p><p>Beskriv hur antalet lösningar och lösningen beror på värdet av \\(a\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Högerledet kan faktoriseras: \\(3x-6=3(x-2)\\). Ekvationen blir</p><p>\\(a(x-2)=3(x-2)\\Rightarrow(a-3)(x-2)=0\\).</p><p>Om \\(a\\ne3\\) måste \\(x-2=0\\), så den enda lösningen är \\(x=2\\).</p><p>Om \\(a=3\\) blir båda leden \\(3(x-2)\\), och likheten gäller för varje reellt \\(x\\).</p><p><strong>Svar:</strong> <strong>För \\(a\\ne3\\): exakt en lösning, \\(x=2\\). För \\(a=3\\): oändligt många lösningar.</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
@@ -17210,7 +17259,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.183",
@@ -17225,7 +17275,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Tre syskon delar 780 kr. Det äldsta får 60 kr mer än det yngsta. Mellanbarnet får dubbelt så mycket som det yngsta. Hur mycket får varje syskon?</p>",
     "s": "<p><strong>Steg 1:</strong> Låt det yngsta få \\(x\\).</p><p>\\(x+2x+(x+60)=780\\Rightarrow x=180\\).</p><p><strong>Svar:</strong> <strong>Yngsta får 180 kr, mellanbarnet 360 kr och det äldsta 240 kr.</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17249,7 +17299,8 @@ window.BANKMA1 = [
       "yngsta (kr)",
       "mellanbarnet (kr)",
       "äldsta (kr)"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.184",
@@ -17264,7 +17315,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(5x-7=23\\)<br>b) \\(3x+8=29\\)<br>c) \\(12-4x=0\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(5 x=30\\). Dela båda leden med \\(5\\): \\(x=6\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(3 x=21\\). Dela båda leden med \\(3\\): \\(x=7\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(- 4 x=-12\\). Dela båda leden med \\(-4\\): \\(x=3\\).</p><p>a) \\(5x=30\\), alltså <strong>\\(x=6\\)</strong></p><p>b) \\(3x=21\\), alltså <strong>\\(x=7\\)</strong></p><p>c) \\(-4x=-12\\), alltså <strong>\\(x=3\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17301,7 +17352,8 @@ window.BANKMA1 = [
         "t": "<p>Lös ekvationerna.</p><p><div class=\"spel-en-del\">\\(12-4x=0\\)</div></p>",
         "s": "<p><strong>Svar:</strong> 3</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.185",
@@ -17316,7 +17368,7 @@ window.BANKMA1 = [
     "poang": "0/3/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(3(2x-1)=4x+9\\)<br>b) \\(5-2(x+3)=3x-6\\)<br>c) \\(4(x-2)-3(x+1)=7\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(2 x=12\\). Dela båda leden med \\(2\\): \\(x=6\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(- 5 x=-5\\). Dela båda leden med \\(-5\\): \\(x=1\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(x=18\\).</p><p>a) \\(6x-3=4x+9\\Rightarrow\\)<strong>\\(x=6\\)</strong>.<br>b) \\(-2x-1=3x-6\\Rightarrow\\)<strong>\\(x=1\\)</strong>.<br>c) \\(4x-8-3x-3=7\\Rightarrow x-11=7\\Rightarrow\\)<strong>\\(x=18\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17331,7 +17383,8 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.186",
@@ -17346,7 +17399,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>Två elever löser samma ekvation. Den ena får \\(x=4\\), den andra får \\(x=-4\\). Ekvationen är</p><p>\\[(x-a)(x+2)=x^2-6x+b.\\]</p><p>Bestäm \\(a\\) och \\(b\\) så att båda elevernas svar verkligen är lösningar.</p>",
     "s": "<p><strong>Steg 1:</strong> Förenkla vänsterledet: \\(x^2+(2-a)x-2a\\). Efter borttagning av \\(x^2\\) fås \\((8-a)x-(2a+b)=0\\).</p><p>En linjär ekvation kan inte ha två olika lösningar om inte båda leden blir identiska. Därför krävs \\(8-a=0\\) och \\(2a+b=0\\).</p><p><strong>\\(a=8\\), \\(b=-16\\)</strong>. Då gäller likheten för alla \\(x\\), inklusive ±4.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17364,7 +17417,8 @@ window.BANKMA1 = [
       "a",
       "b"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.187",
@@ -17451,7 +17505,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(\\frac{x+5}{3}=9\\)<br>b) \\(\\frac{x-4}{5}=3\\)<br>c) \\(\\frac{2x+1}{4}=6\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(\\frac{x}{3}=\\frac{22}{3}\\). Dela båda leden med \\(\\frac{1}{3}\\): \\(x=22\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(\\frac{x}{5}=\\frac{19}{5}\\). Dela båda leden med \\(\\frac{1}{5}\\): \\(x=19\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(\\frac{x}{2}=\\frac{23}{4}\\). Dela båda leden med \\(\\frac{1}{2}\\): \\(x=\\frac{23}{2}\\).</p><p>Multiplicera först båda leden med nämnaren.</p><p>a) \\(x+5=27\\), alltså <strong>\\(x=22\\)</strong></p><p>b) \\(x-4=15\\), alltså <strong>\\(x=19\\)</strong></p><p>c) \\(2x+1=24\\Rightarrow2x=23\\), alltså <strong>\\(x=11{,}5\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17488,7 +17542,8 @@ window.BANKMA1 = [
         "t": "<p>Lös ekvationerna.</p><p><div class=\"spel-en-del\">\\(\\frac{2x+1}{4}=6\\)</div></p>",
         "s": "<p><strong>Svar:</strong> 11.5</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.190",
@@ -17566,7 +17621,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös olikheterna.</p><p>a) \\(3x\\le18\\)<br>b) \\(5x&gt;-20\\)<br>c) \\(\\frac x2\\ge7\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla parenteserna och samla variabeltermerna som i en ekvation. Om du dividerar eller multiplicerar med ett negativt tal måste olikhetstecknet vändas.</p><p>a) <strong>\\(x\\le6\\)</strong></p><p>b) <strong>\\(x&gt;-4\\)</strong></p><p>c) Multiplicera båda leden med 2: <strong>\\(x\\ge14\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17598,7 +17653,8 @@ window.BANKMA1 = [
         "t": "<p>Lös olikheterna.</p><p><div class=\"spel-en-del\">\\(\\frac x2\\ge7\\)</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">Multiplicera båda leden med 2: <strong>\\(x\\ge14\\)</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.193",
@@ -17760,7 +17816,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>Två mobilabonnemang kostar</p><p>\\(A(x)=149+0,90x\\) och \\(B(x)=239+0,30x\\),</p><p>där \\(x\\) är antal extra minuter.</p><p>En kund vill att skillnaden mellan abonnemangen ska vara exakt 30 kr. Bestäm alla möjliga \\(x\\ge0\\) och ange vilket abonnemang som är billigast i varje fall.</p>",
     "s": "<p><strong>Steg 1:</strong> Skillnaden är \\(|A-B|=|0,60x-90|\\). Villkoret \\(|0,60x-90|=30\\) ger</p><p>\\(0,60x-90=30\\Rightarrow x=200\\), eller \\(0,60x-90=-30\\Rightarrow x=100\\).</p><p>Vid \\(x=100\\) är A 30 kr billigare. Vid \\(x=200\\) är B 30 kr billigare.</p><p><strong>Svar:</strong> <strong>\\(x=100\\) eller \\(200\\).</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17788,7 +17844,8 @@ window.BANKMA1 = [
       "billigast då",
       "andra x",
       "billigast då"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.198",
@@ -17851,7 +17908,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(3x+5=26\\)<br>b) \\(7x-9=33\\)<br>c) \\(18-4x=6\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(3 x=21\\). Dela båda leden med \\(3\\): \\(x=7\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(7 x=42\\). Dela båda leden med \\(7\\): \\(x=6\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(- 4 x=-12\\). Dela båda leden med \\(-4\\): \\(x=3\\).</p><p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>a) <strong>7</strong><br>b) <strong>6</strong><br>c) <strong>3</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17883,7 +17940,8 @@ window.BANKMA1 = [
         "t": "<p>Lös ekvationerna.</p><p><div class=\"spel-en-del\">\\(18-4x=6\\)</div></p>",
         "s": "<p><strong>Svar:</strong> 3</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.201",
@@ -17925,7 +17983,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En rektangels omkrets är 46 cm. Längden är 5 cm längre än bredden. Bestäm längd och bredd.</p>",
     "s": "<p><strong>Steg 1:</strong> Låt bredden vara \\(x\\). Då är längden \\(x+5\\).</p><p>\\(2x+2(x+5)=46\\Rightarrow x=9\\).</p><p><strong>Svar:</strong> <strong>Bredd 9 cm, längd 14 cm.</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -17946,7 +18004,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "längd (cm)",
       "bredd (cm)"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.203",
@@ -18008,7 +18067,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>Ekvationen \\(a(x-2)=3x+6\\) ska ha lösningen \\(x=5\\).</p><p>Bestäm \\(a\\). Undersök sedan om samma ekvation kan få oändligt många lösningar för något värde på \\(a\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Sätt \\(x=5\\): \\(a\\cdot3=21\\Rightarrow\\)<strong>\\(a=7\\)</strong>.</p><p>För oändligt många lösningar måste leden bli identiska: \\(ax-2a=3x+6\\). Då krävs samtidigt \\(a=3\\) och \\(-2a=6\\), vilket skulle ge \\(a=-3\\). Det går inte.</p><p><strong>Svar:</strong> <strong>Inget värde på \\(a\\) ger oändligt många lösningar.</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -18033,7 +18092,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "a",
       "oändligt många lösningar?"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.205",
@@ -18095,7 +18155,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(7x+10^2=10^3\\).</p>",
     "s": "<p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>\\(7x=900\\Rightarrow\\)<strong>\\(x=\\frac{900}{7}\\)</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -18105,7 +18165,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.207",
@@ -18120,7 +18181,7 @@ window.BANKMA1 = [
     "poang": "1/2/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(7x-4=3x+20\\)<br>b) \\(5x+3=2x+18\\)<br>c) \\(4(x-1)=2x+10\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(4 x=24\\). Dela båda leden med \\(4\\): \\(x=6\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(3 x=15\\). Dela båda leden med \\(3\\): \\(x=5\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(2 x=14\\). Dela båda leden med \\(2\\): \\(x=7\\).</p><p>Samla x-termerna i ena ledet och konstanterna i det andra.</p><p>a) \\(4x=24\\), alltså <strong>\\(x=6\\)</strong></p><p>b) \\(3x=15\\), alltså <strong>\\(x=5\\)</strong></p><p>c) \\(4x-4=2x+10\\Rightarrow2x=14\\), alltså <strong>\\(x=7\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -18140,7 +18201,8 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.208",
@@ -18273,7 +18335,7 @@ window.BANKMA1 = [
     "poang": "0/1/1",
     "t": "<p>Jämför uttrycken \\(2x+3\\) och \\(x+7\\). För vilka \\(x\\) är det första större, lika respektive mindre än det andra?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p>\\(2x+3-(x+7)=x-4\\).</p><p><strong>Svar:</strong> <strong>Större när \\(x&gt;4\\), lika när \\(x=4\\), mindre när \\(x&lt;4\\).</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -18297,7 +18359,8 @@ window.BANKMA1 = [
       "första större",
       "lika",
       "första mindre"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.212",
@@ -18311,7 +18374,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>Du har 299 kr. En fast avgift är 75 kr och varje vara kostar 28 kr.</p><p>a) Teckna en olikhet där \\(x\\) är antalet varor.<br>b) Hur många hela varor kan du köpa som mest?<br>c) Hur många varor hade du kunnat köpa om den fasta avgiften i stället var 103 kr?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla parenteserna och samla variabeltermerna som i en ekvation. Om du dividerar eller multiplicerar med ett negativt tal måste olikhetstecknet vändas.</p><p>a) <strong>\\(75+28x\\le299\\)</strong></p><p>b) \\(28x\\le224\\Rightarrow x\\le8\\), alltså <strong>8 varor</strong></p><p>c) \\(103+28x\\le299\\Rightarrow28x\\le196\\Rightarrow x\\le7\\), alltså <strong>7 varor</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -18343,7 +18406,8 @@ window.BANKMA1 = [
         "t": "<p>Du har 299 kr. En fast avgift är 75 kr och varje vara kostar 28 kr.</p><p><div class=\"spel-en-del\">Hur många varor hade du kunnat köpa om den fasta avgiften i stället var 103 kr?</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">\\(103+28x\\le299\\Rightarrow28x\\le196\\Rightarrow x\\le7\\), alltså <strong>7 varor</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.213",
@@ -18382,7 +18446,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En förening betalar 1 200 kr för att ordna ett evenemang och tjänar 85 kr per såld biljett. Hur många biljetter måste säljas för att vinsten ska bli minst 2 500 kr?</p>",
     "s": "<p><strong>Steg 1:</strong> Vinsten är \\(85x-1\\,200\\). Kravet ger</p><p>\\(85x-1\\,200\\ge2\\,500\\Rightarrow85x\\ge3\\,700\\Rightarrow x\\ge43,53\\ldots\\)</p><p>Antalet biljetter måste vara ett heltal. <strong>Minst 44 biljetter</strong> måste säljas.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -18391,7 +18455,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.215",
@@ -18748,7 +18813,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(2(x+4)+3=17\\)<br>b) \\(4(x-1)+5=21\\)<br>c) \\(3(2x+1)-4=17\\)</p>",
     "s": "<p><strong>Mellanled:</strong><br>a) Samla x-termerna i ena ledet och konstanterna i det andra: \\(2 x=6\\). Dela båda leden med \\(2\\): \\(x=3\\).<br>b) Samla x-termerna i ena ledet och konstanterna i det andra: \\(4 x=20\\). Dela båda leden med \\(4\\): \\(x=5\\).<br>c) Samla x-termerna i ena ledet och konstanterna i det andra: \\(6 x=18\\). Dela båda leden med \\(6\\): \\(x=3\\).</p><p>a) \\(2x+8+3=17\\Rightarrow2x=6\\), alltså <strong>\\(x=3\\)</strong></p><p>b) \\(4x-4+5=21\\Rightarrow4x=20\\), alltså <strong>\\(x=5\\)</strong></p><p>c) \\(6x+3-4=17\\Rightarrow6x=18\\), alltså <strong>\\(x=3\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -18785,7 +18850,8 @@ window.BANKMA1 = [
         "t": "<p>Lös ekvationerna.</p><p><div class=\"spel-en-del\">\\(3(2x+1)-4=17\\)</div></p>",
         "s": "<p><strong>Svar:</strong> 3</p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.219",
@@ -18800,7 +18866,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>För ekvationen</p><p>\\[(a-1)x+2=3x+a\\]</p><p>ska du avgöra för vilka värden på \\(a\\) den har exakt en lösning, ingen lösning respektive oändligt många lösningar. Ange även lösningen när den är unik.</p>",
     "s": "<p><strong>Steg 1:</strong> Samla x-termerna:</p><p>\\((a-1)x-3x=a-2\\Rightarrow(a-4)x=a-2\\).</p><p>Om \\(a\\ne4\\) kan vi dividera med \\(a-4\\), och då finns exakt en lösning:</p><p>\\(x=\\frac{a-2}{a-4}\\).</p><p>Om \\(a=4\\) blir ursprungsekvationen \\(3x+2=3x+4\\), vilket är omöjligt. Då saknas lösning.</p><p>För oändligt många lösningar skulle både x-koefficienterna och konstanterna behöva vara lika. x-koefficienterna blir lika endast när \\(a=4\\), men då är 2 inte lika med 4. Det finns därför inget sådant \\(a\\).</p><p><strong>Svar:</strong> <strong>Exakt en lösning för \\(a\\ne4\\); ingen lösning för \\(a=4\\); aldrig oändligt många lösningar.</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
@@ -18810,7 +18876,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.220",
@@ -18871,7 +18938,7 @@ window.BANKMA1 = [
     "poang": "2/1/0",
     "t": "<p>Lös olikheterna.</p><p>a) \\(2(x+3)\\ge14\\)<br>b) \\(5(x-1)&lt;20\\)<br>c) \\(3(2-x)\\le9\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla parenteserna och samla variabeltermerna som i en ekvation. Om du dividerar eller multiplicerar med ett negativt tal måste olikhetstecknet vändas.</p><p>a) \\(x+3\\ge7\\), alltså <strong>\\(x\\ge4\\)</strong></p><p>b) \\(x-1&lt;4\\), alltså <strong>\\(x&lt;5\\)</strong></p><p>c) \\(6-3x\\le9\\Rightarrow-3x\\le3\\), tecknet vänds: <strong>\\(x\\ge-1\\)</strong></p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -18903,7 +18970,8 @@ window.BANKMA1 = [
         "t": "<p>Lös olikheterna.</p><p><div class=\"spel-en-del\">\\(3(2-x)\\le9\\)</div></p>",
         "s": "<p><strong>Metod:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p><div class=\"spel-en-del\">\\(6-3x\\le9\\Rightarrow-3x\\le3\\), tecknet vänds: <strong>\\(x\\ge-1\\)</strong></div></p>"
       }
-    ]
+    ],
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.222",
@@ -18990,7 +19058,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Två mobilabonnemang har priserna nedan. Vid hur många samtalsminuter kostar de lika mycket?</p><span class=\"fig smal\"><svg width=\"360\" height=\"180\" viewBox=\"0 0 360 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"358\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n\n<rect x=\"45\" y=\"48\" width=\"120\" height=\"90\" rx=\"10\" fill=\"#FBF0EE\" stroke=\"#B43123\"/>\n<rect x=\"195\" y=\"48\" width=\"120\" height=\"90\" rx=\"10\" fill=\"#EAF0F8\" stroke=\"#2A5D9E\"/>\n<text x=\"105\" y=\"75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">A</text>\n<text x=\"105\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">99 kr +</text>\n<text x=\"105\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1,50 kr/min</text>\n<text x=\"255\" y=\"75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">B</text>\n<text x=\"255\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">159 kr +</text>\n<text x=\"255\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,50 kr/min</text>\n\n</svg></span>",
     "s": "<p><strong>Tänk så här:</strong> Efter varje steg ska ekvationen ha samma lösning som den föregående. Fortsätt tills variabeln står ensam.</p><p>\\(99+1,50x=159+0,50x\\).</p><p><strong>Svar:</strong> <strong>\\(x=60\\) minuter.</strong></p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -19000,7 +19068,8 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.268",
@@ -19015,17 +19084,18 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(\\frac{x}{4}=7\\).</p>",
     "s": "<p>Multiplicera båda leden med 4: \\(x=28\\).</p><p><strong>Svar:</strong> \\(x=28\\).</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 28,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.269",
@@ -19040,17 +19110,18 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(\\frac{x}{3}+5=11\\).</p>",
     "s": "<p>Subtrahera 5: \\(x/3=6\\). Multiplicera sedan med 3: \\(x=18\\).</p><p><strong>Svar:</strong> \\(x=18\\).</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.270",
@@ -19065,17 +19136,18 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(\\frac{2x-3}{5}=3\\).</p>",
     "s": "<p>Multiplicera med 5: \\(2x-3=15\\). Addera 3 och dividera med 2: \\(x=9\\).</p><p><strong>Svar:</strong> \\(x=9\\).</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.271",
@@ -19090,17 +19162,18 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Lös ekvationen \\(\\frac{x}{2}-\\frac{x}{5}=9\\).</p>",
     "s": "<p>Multiplicera hela ekvationen med 10: \\(5x-2x=90\\). Då \\(3x=90\\) och \\(x=30\\).</p><p><strong>Svar:</strong> \\(x=30\\).</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.272",
@@ -19115,17 +19188,18 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Lös ekvationen \\(\\frac{x-2}{3}+\\frac{x+1}{2}=7\\).</p>",
     "s": "<p>Multiplicera med 6: \\(2(x-2)+3(x+1)=42\\). Då \\(2x-4+3x+3=42\\), alltså \\(5x=43\\) och \\(x=8,6\\).</p><p><strong>Svar:</strong> \\(x=8,6\\).</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.273",
@@ -19140,7 +19214,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Tre likadana anteckningsböcker och en penna för 18 kr kostar tillsammans 93 kr. Vad kostar en anteckningsbok?</p>",
     "s": "<p>Låt \\(x\\) vara priset på en bok. Då \\(3x+18=93\\). Subtrahera 18: \\(3x=75\\), alltså \\(x=25\\).</p><p><strong>Svar:</strong> <strong>25 kr</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -19151,7 +19225,8 @@ window.BANKMA1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.274",
@@ -19166,7 +19241,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>En rektangels omkrets är 50 cm. Längden är 5 cm längre än bredden. Bestäm bredden.</p>",
     "s": "<p>Låt bredden vara \\(x\\). Längden är \\(x+5\\). Omkretsen ger \\(2x+2(x+5)=50\\), alltså \\(4x+10=50\\) och \\(x=10\\).</p><p><strong>Svar:</strong> <strong>10 cm</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -19177,7 +19252,8 @@ window.BANKMA1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.275",
@@ -19192,7 +19268,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Efter att 15 kr i rabatt dragits av kostar fyra likadana varor tillsammans 145 kr. Vad kostade en vara före rabatten om rabatten gällde hela köpet?</p>",
     "s": "<p>Låt priset per vara vara \\(x\\). Då \\(4x-15=145\\). Alltså \\(4x=160\\) och \\(x=40\\).</p><p><strong>Svar:</strong> <strong>40 kr</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -19203,7 +19279,8 @@ window.BANKMA1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.276",
@@ -19218,7 +19295,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>En tank innehåller 120 liter. Den töms med 8 liter per minut. Efter hur många minuter finns 48 liter kvar?</p>",
     "s": "<p>Efter \\(x\\) minuter finns \\(120-8x\\) liter. Sätt \\(120-8x=48\\). Då \\(8x=72\\) och \\(x=9\\).</p><p><strong>Svar:</strong> <strong>9 minuter</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -19229,7 +19306,8 @@ window.BANKMA1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.277",
@@ -19244,7 +19322,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Två abonnemang kostar A: 79 kr + 2,50 kr per använd enhet och B: 139 kr + 1,00 kr per enhet. Vid hur många enheter kostar de lika mycket?</p>",
     "s": "<p>Sätt kostnaderna lika: \\(79+2,5x=139+x\\). Då \\(1,5x=60\\), alltså \\(x=40\\).</p><p><strong>Svar:</strong> <strong>40 enheter</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära ekvationer",
+    "familj": "Linjära ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -19255,7 +19333,8 @@ window.BANKMA1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära ekvationer"
   },
   {
     "id": "1.225",
@@ -19817,7 +19896,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös olikheten \\(3x+5<20\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<5\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -19827,7 +19906,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.237",
@@ -19841,7 +19921,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös olikheten \\(4x-7>=9\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x>=4\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -19851,7 +19931,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.238",
@@ -19865,7 +19946,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös olikheten \\(12-2x>4\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<4\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -19875,7 +19956,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.239",
@@ -19889,7 +19971,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös olikheten \\(5x+2<=3x+14\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<=6\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -19899,7 +19981,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.240",
@@ -19913,7 +19996,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös olikheten \\(7-3x<=16\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x>=-3\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -19923,7 +20006,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.241",
@@ -19937,7 +20021,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös olikheten \\(2(x+4)>14\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x>3\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -19947,7 +20031,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.242",
@@ -19961,7 +20046,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös olikheten \\(5-2(x-1)>=11\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<=-2\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -19971,7 +20056,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.243",
@@ -19985,7 +20071,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Lös olikheten \\(3(x-2)<2x+5\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<11\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -19995,7 +20081,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.244",
@@ -20009,7 +20096,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Lös olikheten \\(4(2x-1)>=3x+11\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x>=3\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -20019,7 +20106,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.245",
@@ -20033,7 +20121,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Lös olikheten \\(6-2(3x+1)>-8\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<2\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -20043,7 +20131,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.246",
@@ -20057,7 +20146,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Lös olikheten \\(5(x-2)<=2(x+7)\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<=8\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -20067,7 +20156,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.247",
@@ -20081,7 +20171,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Lös olikheten \\(3-4(x-1)>=2x-11\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förenkla båda leden och samla x-termerna. Om du dividerar med ett negativt tal ska olikhetstecknet vändas.</p><p><strong>Svar:</strong> \\(x<=3\\)</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -20091,7 +20181,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall_tal"
+    "svarFormat": "intervall_tal",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.278",
@@ -20105,7 +20196,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös den dubbla olikheten \\(-2&lt; x+3 \\le 7\\). Svara som intervall.</p>",
     "s": "<p>Subtrahera 3 i alla tre led: \\(-5&lt;x\\le4\\).</p><p><strong>Svar:</strong> \\(x\\in(-5,4]\\).</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -20116,7 +20207,8 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.279",
@@ -20130,7 +20222,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös \\(1\\le 2x-3&lt;9\\). Svara som intervall.</p>",
     "s": "<p>Addera 3: \\(4\\le2x&lt;12\\). Dividera med 2: \\(2\\le x&lt;6\\).</p><p><strong>Svar:</strong> \\(x\\in[2,6)\\).</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -20141,7 +20233,8 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.280",
@@ -20155,7 +20248,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Lös \\(-7&lt;3x+2\\le11\\). Svara som intervall.</p>",
     "s": "<p>Subtrahera 2: \\(-9&lt;3x\\le9\\). Dividera med 3: \\(-3&lt;x\\le3\\).</p><p><strong>Svar:</strong> \\(x\\in(-3,3]\\).</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -20166,7 +20259,8 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.281",
@@ -20180,7 +20274,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Lös \\(-4\\le 5-3x&lt;11\\). Svara som intervall.</p>",
     "s": "<p>Subtrahera 5: \\(-9\\le-3x&lt;6\\). Dividera med −3 och vänd båda olikhetstecknen: \\(3\\ge x>-2\\), alltså \\(-2&lt;x\\le3\\).</p><p><strong>Svar:</strong> \\(x\\in(-2,3]\\).</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -20191,7 +20285,8 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.282",
@@ -20205,7 +20300,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Ett tal \\(x\\) ska ligga högst 4 enheter från 3. Vilket intervall beskriver alla möjliga värden?</p>",
     "s": "<p>Fyra enheter åt vänster från 3 är −1 och fyra enheter åt höger är 7. Gränserna får ingå.</p><p><strong>Svar:</strong> \\(x\\in[-1,7]\\).</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "intervall",
@@ -20216,7 +20311,8 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.283",
@@ -20230,7 +20326,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Du har 350 kr. En aktivitet kostar 80 kr i fast avgift och 45 kr per timme. Hur många hela timmar kan du som mest delta?</p>",
     "s": "<p>Låt \\(x\\) vara antalet timmar. Villkoret är \\(80+45x\\le350\\). Då \\(45x\\le270\\), alltså \\(x\\le6\\).</p><p><strong>Svar:</strong> <strong>6 timmar</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -20241,7 +20337,8 @@ window.BANKMA1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.284",
@@ -20255,7 +20352,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>En buss rymmer 52 personer. Redan 19 platser är upptagna. Hur många grupper om 4 personer kan som mest stiga på?</p>",
     "s": "<p>Låt \\(x\\) vara antalet grupper. \\(19+4x\\le52\\) ger \\(4x\\le33\\), alltså \\(x\\le8,25\\). Hela grupper ger högst 8.</p><p><strong>Svar:</strong> <strong>8 grupper</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -20266,7 +20363,8 @@ window.BANKMA1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.285",
@@ -20280,7 +20378,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>För att få fri frakt måste ett köp vara minst 500 kr. Du har redan varor för 275 kr och lägger till varor som kostar 45 kr styck. Hur många behöver du minst lägga till?</p>",
     "s": "<p>Villkoret är \\(275+45x\\ge500\\). Då \\(45x\\ge225\\) och \\(x\\ge5\\).</p><p><strong>Svar:</strong> <strong>5 varor</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -20291,7 +20389,8 @@ window.BANKMA1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.286",
@@ -20305,7 +20404,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Ett batteri har 92 % laddning och minskar med 7 procentenheter per timme. Det ska finnas minst 50 % kvar. Hur många hela timmar kan det användas?</p>",
     "s": "<p>Modellen är \\(92-7x\\ge50\\). Då \\(-7x\\ge-42\\), vilket ger \\(x\\le6\\).</p><p><strong>Svar:</strong> <strong>6 timmar</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -20316,7 +20415,8 @@ window.BANKMA1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "1.287",
@@ -20330,7 +20430,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>En förening har 1 500 kr i kassan och tjänar 120 kr per såld biljett. För ett inköp behövs minst 4 500 kr. Hur många biljetter måste säljas minst?</p>",
     "s": "<p>\\(1500+120x\\ge4500\\). Subtrahera 1500: \\(120x\\ge3000\\), alltså \\(x\\ge25\\).</p><p><strong>Svar:</strong> <strong>25 biljetter</strong>.</p>",
-    "familj": "Lösa och ställa upp linjära olikheter",
+    "familj": "Linjära olikheter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -20341,7 +20441,8 @@ window.BANKMA1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Lösa och ställa upp linjära olikheter"
   },
   {
     "id": "2.01",
@@ -20548,7 +20649,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>En linjär funktion går genom \\((0,3)\\) och \\((2,9)\\).</p><p>Bestäm \\(k\\) och skriv funktionen.</p>",
     "s": "<p><strong>Tänk så här:</strong> Kontrollera den färdiga linjen genom att sätta in en av de givna punkterna eller läsa av en tydlig punkt i grafen.</p><p>\\(k=(9-3)/(2-0)=3\\) och \\(m=3\\).</p><p><strong>Svar:</strong> <strong>\\(y=3x+3\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -20569,7 +20670,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "k",
       "funktion"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.09",
@@ -22109,7 +22211,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>En linjär funktion ökar med 7 när \\(x\\) ökar med 1. Dessutom är \\(f(3)=25\\).</p><p>Bestäm funktionen.</p>",
     "s": "<p><strong>Steg 1:</strong> Ökningen ger \\(k=7\\). Skriv \\(f(x)=7x+m\\) och använd \\(f(3)=25\\):</p><p>\\(25=7\\cdot3+m\\Rightarrow m=4\\).</p><p><strong>Svar:</strong> <strong>\\(f(x)=7x+4\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -22118,7 +22220,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.56",
@@ -24470,7 +24573,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>En linjär modell har startvärdet 120 och ökar med 15 per tidsenhet. Skriv modellen.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Om två punkter är kända kan du använda formelbladets \\(k=\\frac{y_2-y_1}{x_2-x_1}\\). Sätt sedan in en av punkterna i \\(y=kx+m\\) för att bestämma \\(m\\).</p><p><strong>Tänk så här:</strong> Kontrollera den färdiga linjen genom att sätta in en av de givna punkterna eller läsa av en tydlig punkt i grafen.</p><p><strong>Svar:</strong> <strong>\\(f(t)=120+15t\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -24480,7 +24583,8 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp",
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.128",
@@ -24609,7 +24713,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>En linjär funktion uppfyller \\(f(0)=-2\\) och \\(f(1)=3\\).</p><p>Bestäm funktionen.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Om två punkter är kända kan du använda formelbladets \\(k=\\frac{y_2-y_1}{x_2-x_1}\\). Sätt sedan in en av punkterna i \\(y=kx+m\\) för att bestämma \\(m\\).</p><p>\\(f(0)=-2\\) ger \\(m=-2\\). När x ökar från 0 till 1 ökar funktionsvärdet med \\(3-(-2)=5\\), så \\(k=5\\).</p><p><strong>Svar:</strong> <strong>\\(f(x)=5x-2\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -24618,7 +24722,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.132",
@@ -24633,7 +24738,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>En hyrtjänst har kostnaden \\(K(x)=a+bx\\), där \\(x\\) är antal timmar. En kund betalar 610 kr för 4 timmar och 970 kr för 10 timmar.</p><p>En konkurrent tar 250 kr i fast avgift och 75 kr per timme. Bestäm när den första tjänsten är billigare än konkurrenten.</p>",
     "s": "<p><strong>Steg 1:</strong> \\(b=(970-610)/(10-4)=60\\). \\(a=610-4\\cdot60=370\\). Alltså \\(K=370+60x\\).</p><p>Första billigare när \\(370+60x&lt;250+75x\\Rightarrow120&lt;15x\\Rightarrow\\)<strong>\\(x&gt;8\\)</strong>.</p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
@@ -24643,7 +24748,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.133",
@@ -24680,7 +24786,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>En linjär funktion \\(f\\) uppfyller</p><p>\\[f(0)=2,\\qquad f(a)=a+2,\\qquad f(a+2)=3a+2.\\]</p><p>Bestäm alla möjliga värden på \\(a\\) och alla motsvarande funktionsuttryck.</p>",
     "s": "<p><strong>Steg 1:</strong> Eftersom \\(f(0)=2\\) kan funktionen skrivas \\(f(x)=kx+2\\).</p><p>Mellan x-värdena \\(a\\) och \\(a+2\\) är ökningen i funktionsvärde</p><p>\\((3a+2)-(a+2)=2a\\).</p><p>Därför är riktningskoefficienten \\(k=2a/2=a\\), så \\(f(x)=ax+2\\).</p><p>Villkoret \\(f(a)=a+2\\) ger</p><p>\\(a^2+2=a+2\\Rightarrow a^2-a=0\\Rightarrow a(a-1)=0\\).</p><p>Alltså är \\(a=0\\) eller \\(a=1\\).</p><p>Kontroll:</p><p>Om \\(a=0\\) fås \\(f(x)=2\\), och samtliga tre villkor gäller.<br>Om \\(a=1\\) fås \\(f(x)=x+2\\), och samtliga tre villkor gäller.</p><p><strong>Svar:</strong> <strong>\\(a=0\\) ger \\(f(x)=2\\), och \\(a=1\\) ger \\(f(x)=x+2\\).</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
@@ -24690,7 +24796,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.135",
@@ -24704,7 +24811,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>Temperaturen i en kylbox antas minska linjärt. Vid start är den 22 °C och efter 4 timmar är den 14 °C.</p><p>Bestäm en funktion \\(T(t)\\), där \\(t\\) är antal timmar efter start.</p>",
     "s": "<p><strong>Steg 1:</strong> Startvärdet är 22. Förändringen under 4 timmar är \\(14-22=-8\\) grader, så</p><p>\\(k=\\frac{-8}{4}=-2\\).</p><p><strong>Svar:</strong> <strong>\\(T(t)=22-2t\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -24714,7 +24821,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.136",
@@ -25585,7 +25693,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En behållare innehåller 84 liter efter 3 minuter och 60 liter efter 7 minuter. Anta linjär förändring.</p>\n<p>a) Bestäm en modell \\(V(t)\\).<br>b) Tolka riktningskoefficienten.<br>c) Enligt modellen: när är behållaren tom, och vilket tidsintervall är därför rimligt att använda modellen på?</p>",
     "s": "<p><strong>Steg 1:</strong> \\(k=(60-84)/(7-3)=-6\\). \\(84=-6\\cdot3+m\\Rightarrow m=102\\).</p>\n<p>a) <strong>\\(V(t)=102-6t\\)</strong>.</p>\n<p>b) Mängden minskar med 6 liter per minut.</p>\n<p>c) \\(0=102-6t\\Rightarrow t=17\\). Ett rimligt intervall är <strong>\\(0\\le t\\le17\\)</strong> om modellen beskriver tömningen från start till tom behållare.</p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -25620,7 +25728,8 @@ window.BANKMA1 = [
       null,
       "numeriskt",
       "intervall"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.167",
@@ -25634,7 +25743,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>En linjär funktion går genom \\((0,-4)\\) och \\((5,6)\\). Bestäm funktionen.</p>",
     "s": "<p><strong>Tänk så här:</strong> Kontrollera den färdiga linjen genom att sätta in en av de givna punkterna eller läsa av en tydlig punkt i grafen.</p><p>\\(k=(6-(-4))/5=2\\), \\(m=-4\\).</p><p><strong>Svar:</strong> <strong>\\(y=2x-4\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -25643,7 +25752,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.168",
@@ -25657,7 +25767,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>En linjär funktion \\(f\\) uppfyller</p><p>\\[f(0)=a,\\qquad f(a)=0,\\qquad f(2)=2.\\]</p><p>Bestäm alla möjliga värden på \\(a\\) och alla motsvarande funktionsuttryck. Var noga med fallet \\(a=0\\).</p>",
     "s": "<p><strong>Fall 1: \\(a=0\\).</strong> Då är \\(f(0)=0\\). Tillsammans med \\(f(2)=2\\) bestämmer punkterna \\((0,0)\\) och \\((2,2)\\) funktionen \\(f(x)=x\\). Villkoret \\(f(a)=f(0)=0\\) är uppfyllt.</p><p><strong>Fall 2: \\(a\\ne0\\).</strong> Punkten \\((0,a)\\) och punkten \\((a,0)\\) ligger på grafen. Riktningskoefficienten blir</p><p>\\[k=\\frac{0-a}{a-0}=-1.\\]</p><p>Alltså är \\(f(x)=-x+a\\). Villkoret \\(f(2)=2\\) ger</p><p>\\(-2+a=2\\Rightarrow a=4\\).</p><p>Då är \\(f(x)=-x+4\\), och \\(f(4)=0\\) stämmer.</p><p><strong>Svar:</strong> <strong>De två möjligheterna är \\(a=0,\\quad f(x)=x\\) och \\(a=4,\\quad f(x)=-x+4\\).</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
@@ -25667,7 +25777,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.169",
@@ -25681,7 +25792,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En linjär funktion uppfyller \\(f(-2)=7\\) och \\(f(3)=-3\\).</p><p>a) Bestäm funktionen.<br>b) Bestäm \\(x\\) så att \\(f(x)=11\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Riktningskoefficienten är</p><p>\\[k=\\frac{-3-7}{3-(-2)}=\\frac{-10}{5}=-2.\\]</p><p>Sätt in \\((-2,7)\\):</p><p>\\(7=-2\\cdot(-2)+m\\Rightarrow m=3\\).</p><p>Alltså \\(f(x)=-2x+3\\).</p><p>\\(-2x+3=11\\Rightarrow-2x=8\\Rightarrow x=-4\\).</p><p><strong>Svar:</strong> <strong>\\(f(x)=-2x+3\\) och \\(x=-4\\).</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -25702,7 +25813,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "a) funktion",
       "b) x"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.170",
@@ -25716,7 +25828,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>En taxiresa kostar 45 kr i startavgift. En resa på 5 km kostar totalt 125 kr. Anta att priset är en linjär funktion av sträckan.</p><p>Bestäm kostnadsfunktionen \\(K(x)\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Startavgiften ger \\(m=45\\). Kilometerpriset bestäms av</p><p>\\(125=5k+45\\Rightarrow5k=80\\Rightarrow k=16\\).</p><p><strong>Svar:</strong> <strong>\\(K(x)=16x+45\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -25725,7 +25837,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.171",
@@ -25739,7 +25852,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>För en linjär funktion \\(f(x)=kx+m\\) gäller</p><p>\\(f(a)=7\\), \\(f(a+3)=1\\) och \\(f(0)=13\\).</p><p>Bestäm \\(a\\).</p>",
     "s": "<p><strong>Steg 1:</strong> \\(f(0)=13\\) ger \\(m=13\\).</p><p>På tre steg i x-led minskar funktionsvärdet med 6, alltså \\(k=-2\\).</p><p>\\(-2a+13=7\\Rightarrow a=3\\).</p><p><strong>Svar:</strong> <strong>\\(a=3\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -25748,7 +25861,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.172",
@@ -25785,7 +25899,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En planta är 18 cm hög efter 4 dagar och 33 cm efter 14 dagar. Anta linjär tillväxt. Bestäm \\(h(x)\\).</p>",
     "s": "<p><strong>Tänk så här:</strong> Kontrollera den färdiga linjen genom att sätta in en av de givna punkterna eller läsa av en tydlig punkt i grafen.</p><p>\\(k=1,5\\), \\(m=12\\).</p><p><strong>Svar:</strong> <strong>\\(h(x)=1,5x+12\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -25794,7 +25908,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.174",
@@ -25808,7 +25923,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>En linjär funktion \\(f\\) uppfyller</p><p>\\[f(0)=1,\\qquad f(p)=p+1,\\qquad f(p+2)=3p+5.\\]</p><p>Bestäm alla möjliga värden på \\(p\\) och alla motsvarande funktionsuttryck.</p>",
     "s": "<p><strong>Steg 1:</strong> Eftersom \\(f(0)=1\\) kan funktionen skrivas \\(f(x)=kx+1\\).</p><p>Mellan x-värdena \\(p\\) och \\(p+2\\) är förändringen i funktionsvärde</p><p>\\((3p+5)-(p+1)=2p+4\\).</p><p>Därför är</p><p>\\[k=\\frac{2p+4}{2}=p+2.\\]</p><p>Villkoret \\(f(p)=p+1\\) ger</p><p>\\((p+2)p+1=p+1\\Rightarrow p^2+p=0\\Rightarrow p(p+1)=0\\).</p><p>Alltså är \\(p=0\\) eller \\(p=-1\\).</p><p>Om \\(p=0\\) blir \\(k=2\\), så \\(f(x)=2x+1\\).<br>Om \\(p=-1\\) blir \\(k=1\\), så \\(f(x)=x+1\\).</p><p>Båda funktionerna uppfyller samtliga villkor.</p><p><strong>Svar:</strong> <strong>\\(p=0\\) ger \\(f(x)=2x+1\\), och \\(p=-1\\) ger \\(f(x)=x+1\\).</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
@@ -25818,7 +25933,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.175",
@@ -25832,7 +25948,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>En linjär funktion har \\(f(1)=8\\) och \\(f(2)=12\\). Bestäm funktionen.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Om två punkter är kända kan du använda formelbladets \\(k=\\frac{y_2-y_1}{x_2-x_1}\\). Sätt sedan in en av punkterna i \\(y=kx+m\\) för att bestämma \\(m\\).</p><p>\\(k=(12-8)/(2-1)=4\\). \\(8=4\\cdot1+m\\Rightarrow m=4\\).</p><p><strong>Svar:</strong> <strong>\\(f(x)=4x+4\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -25841,7 +25957,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.176",
@@ -26638,7 +26755,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -26662,7 +26779,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 48,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -26686,7 +26803,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -26710,7 +26827,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -26734,7 +26851,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -26758,7 +26875,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -26782,7 +26899,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -26806,7 +26923,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -26830,7 +26947,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.444444444444445,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -26854,7 +26971,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -26878,7 +26995,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -26903,7 +27020,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -26928,7 +27045,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -26953,7 +27070,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -26978,7 +27095,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -27003,7 +27120,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -27504,7 +27621,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En linjär modell ger värdet 34 när \\(x=2\\) och 58 när \\(x=8\\). Bestäm modellen och beräkna värdet när \\(x=20\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Om två punkter är kända kan du använda formelbladets \\(k=\\frac{y_2-y_1}{x_2-x_1}\\). Sätt sedan in en av punkterna i \\(y=kx+m\\) för att bestämma \\(m\\).</p><p>\\(k=(58-34)/(8-2)=4\\). \\(34=4\\cdot2+m\\Rightarrow m=26\\).</p><p>Modell: \\(y=4x+26\\). Vid 20: <strong>106</strong>.</p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -27526,7 +27643,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "modell",
       "värde när x=20"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.217",
@@ -27540,7 +27658,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>En linjär funktion har formen \\(f(x)=kx+m\\), där \\(k&gt;0\\). Det gäller att</p><p>\\[f(f(x))=4x+3\\]</p><p>för alla \\(x\\).</p><p>Bestäm funktionen \\(f\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Sätt först in \\(f(x)=kx+m\\) i funktionen en gång till:</p><p>\\[f(f(x))=k(kx+m)+m=k^2x+km+m.\\]</p><p>Detta ska vara lika med \\(4x+3\\) för alla \\(x\\).</p><p>Talet framför \\(x\\) måste därför uppfylla</p><p>\\[k^2=4.\\]</p><p>Eftersom \\(k&gt;0\\) är \\(k=2\\).</p><p>Delarna utan \\(x\\) ska också vara lika:</p><p>\\[2m+m=3\\Rightarrow m=1.\\]</p><p><strong>Svar:</strong> <strong>\\(f(x)=2x+1\\).</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -27549,7 +27667,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.218",
@@ -27563,7 +27682,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Ett serviceföretag tar en fast framkörningsavgift och därefter samma pris per arbetstimme. Ett arbete på 3 timmar kostar 1 850 kr och ett arbete på 7 timmar kostar 3 850 kr.</p><p>a) Bestäm en linjär kostnadsfunktion \\(K(t)\\).<br>b) Vad kostar 5,5 timmars arbete enligt modellen?</p>",
     "s": "<p><strong>Steg 1:</strong> Timpriset är kostnadsökningen delad med tidsökningen:</p><p>\\[k=\\frac{3850-1850}{7-3}=\\frac{2000}{4}=500.\\]</p><p>Sätt in \\((3,1850)\\):</p><p>\\(1850=500\\cdot3+m\\Rightarrow m=350\\).</p><p>Alltså \\(K(t)=500t+350\\).</p><p>\\(K(5,5)=500\\cdot5,5+350=3100\\).</p><p><strong>Svar:</strong> <strong>\\(K(t)=500t+350\\), och 5,5 timmar kostar 3 100 kr.</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -27585,7 +27704,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "a) K(t)",
       "b) kostnad (kr)"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.219",
@@ -27622,7 +27742,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>En linjär funktion \\(f\\) uppfyller</p><p>\\[f(1)=a,\\qquad f(a)=1,\\qquad f(0)=3.\\]</p><p>Bestäm alla möjliga värden på \\(a\\) och alla motsvarande funktionsuttryck. Behandla fallet \\(a=1\\) separat.</p>",
     "s": "<p><strong>Fall 1: \\(a=1\\).</strong> Då ger villkoren \\(f(1)=1\\) och \\(f(0)=3\\). Linjen genom \\((0,3)\\) och \\((1,1)\\) har \\(k=-2\\), alltså</p><p>\\(f(x)=-2x+3\\).</p><p><strong>Fall 2: \\(a\\ne1\\).</strong> Grafen går genom de olika punkterna \\((1,a)\\) och \\((a,1)\\). Riktningskoefficienten är</p><p>\\[k=\\frac{1-a}{a-1}=-1.\\]</p><p>Eftersom \\(f(0)=3\\) blir \\(f(x)=-x+3\\). Då är</p><p>\\(a=f(1)=-1+3=2\\).</p><p>Kontroll: \\(f(2)=1\\), så även det andra villkoret gäller.</p><p><strong>Svar:</strong> <strong>\\(a=1\\) ger \\(f(x)=-2x+3\\), och \\(a=2\\) ger \\(f(x)=-x+3\\).</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -27650,7 +27770,8 @@ window.BANKMA1 = [
       "fall 1: funktion",
       "fall 2: a",
       "fall 2: funktion"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.221",
@@ -27664,7 +27785,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Bestäm en linjär funktion som går genom \\((0,-4)\\) och \\((5,6)\\).</p>",
     "s": "<p><strong>Tänk så här:</strong> Kontrollera den färdiga linjen genom att sätta in en av de givna punkterna eller läsa av en tydlig punkt i grafen.</p><p>\\(k=(6-(-4))/5=2\\), \\(m=-4\\).</p><p><strong>Svar:</strong> <strong>\\(y=2x-4\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -27673,7 +27794,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.222",
@@ -27710,7 +27832,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En temperatursensor antas ge en spänning som beror linjärt på temperaturen. Vid 10 °C är spänningen 1,8 V och vid 30 °C är den 3,0 V.</p><p>a) Bestäm en modell \\(U(T)\\).<br>b) Vilken temperatur motsvarar 2,4 V?</p>",
     "s": "<p><strong>Steg 1:</strong> Riktningskoefficienten är</p><p>\\[k=\\frac{3,0-1,8}{30-10}=\\frac{1,2}{20}=0,06.\\]</p><p>Sätt in \\(T=10\\) och \\(U=1,8\\):</p><p>\\(1,8=0,06\\cdot10+m\\Rightarrow m=1,2\\).</p><p>Modellen är \\(U(T)=0,06T+1,2\\).</p><p>\\(2,4=0,06T+1,2\\Rightarrow0,06T=1,2\\Rightarrow T=20\\).</p><p><strong>Svar:</strong> <strong>\\(U(T)=0,06T+1,2\\), och 2,4 V motsvarar 20 °C.</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -27732,7 +27854,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "a) modell",
       "b) temperatur"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.224",
@@ -27746,7 +27869,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>En linjär funktion har riktningskoefficienten 4 och \\(f(2)=9\\).</p><p>Bestäm funktionen.</p>",
     "s": "<p><strong>Steg 1:</strong> Skriv \\(f(x)=4x+m\\). Villkoret ger</p><p>\\(9=4\\cdot2+m\\Rightarrow m=1\\).</p><p><strong>Svar:</strong> <strong>\\(f(x)=4x+1\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -27756,7 +27879,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.225",
@@ -29253,7 +29377,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -29279,7 +29403,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -29305,7 +29429,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1250,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -29325,7 +29449,7 @@ window.BANKMA1 = [
     "poang": "0/0/2",
     "t": "<p>För en linjär funktion \\(f(x)=kx+m\\) gäller</p><p>\\(f(x+3)-f(x)=6\\)<br>och<br>\\(f(4)=2m\\).</p><p>Bestäm funktionen \\(f\\).</p>",
     "s": "<p><strong>Steg 1:</strong> \\(f(x+3)-f(x)=3k=6\\), alltså \\(k=2\\).</p><p>Då är \\(f(4)=8+m\\). Villkoret ger \\(8+m=2m\\), alltså \\(m=8\\).</p><p><strong>Svar:</strong> <strong>\\(f(x)=2x+8\\)</strong></p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
@@ -29334,7 +29458,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.381",
@@ -29477,7 +29602,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f(x)=kx+4\\) går genom punkten \\((3,10)\\). Bestäm \\(k\\).</p>",
     "s": "<p>Sätt in \\(x=3\\) och \\(f(x)=10\\): \\(10=3k+4\\). Då \\(3k=6\\), så \\(k=2\\).</p><p><strong>Svar:</strong> <strong>2</strong>.</p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -29487,7 +29612,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.387",
@@ -29502,7 +29628,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(g(x)=-3x+m\\) går genom punkten \\((2,1)\\). Bestäm \\(m\\).</p>",
     "s": "<p>\\(1=-3\\cdot2+m=-6+m\\). Därför \\(m=7\\).</p><p><strong>Svar:</strong> <strong>7</strong>.</p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -29512,7 +29638,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.388",
@@ -29527,7 +29654,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>För vilken konstant \\(a\\) gäller \\(f(5)=18\\) om \\(f(x)=ax-2\\)?</p>",
     "s": "<p>\\(18=5a-2\\). Addera 2: \\(20=5a\\), alltså \\(a=4\\).</p><p><strong>Svar:</strong> <strong>4</strong>.</p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -29537,7 +29664,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.389",
@@ -29552,7 +29680,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Linjen \\(y=kx+m\\) går genom \\((0,-4)\\) och \\((6,8)\\). Bestäm \\(k\\).</p>",
     "s": "<p>\\(k=(8-(-4))/(6-0)=12/6=2\\).</p><p><strong>Svar:</strong> <strong>2</strong>.</p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -29562,7 +29690,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.390",
@@ -29577,7 +29706,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Funktionen \\(h(x)=2x+b\\) har samma värde vid \\(x=4\\) som funktionen \\(p(x)=-x+17\\). Bestäm \\(b\\).</p>",
     "s": "<p>\\(p(4)=-4+17=13\\). Därför ska \\(h(4)=8+b=13\\), vilket ger \\(b=5\\).</p><p><strong>Svar:</strong> <strong>5</strong>.</p>",
-    "familj": "Bestämma en linjär funktion",
+    "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -29587,7 +29716,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Bestämma en linjär funktion"
   },
   {
     "id": "2.266",
@@ -32502,7 +32632,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Ett kapital på 10 000 kr har vuxit till 10 500 kr efter ett år. Vilken var årsräntan?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>Ökningen är 500 kr. \\(\\frac{500}{10}\\,000=0,05\\).</p><p><strong>Svar:</strong> <strong>5 %</strong></p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -32511,7 +32641,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.09",
@@ -33412,7 +33543,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Efter tre år med 5,5 % årlig ränta finns 16 439,38 kr på ett konto. Inga insättningar eller uttag har gjorts. Hur stort var startkapitalet?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>\\(K\\cdot1,055^3=16 439,38\\).</p><p><strong>\\(K=14\\,000\\) kr</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "ekvation",
@@ -33421,7 +33552,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.40",
@@ -33435,7 +33567,7 @@ window.BANKMA1 = [
     "poang": "3/0/0",
     "t": "<p>Ett sparkonto har räntan 2,4 % per år. Räntan läggs till kapitalet varje år.</p><p>a) Skriv förändringsfaktorn för ett år.<br>b) Skriv ett uttryck för kapitalet efter 5 år om insättningen är 12 000 kr.<br>c) Beräkna kapitalet efter 5 år. Svara med två decimaler.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Vid samma procentuella förändring varje period multipliceras värdet med samma förändringsfaktor varje gång. Efter n perioder används därför faktorn upphöjd till n.</p><p>a) <strong>1,024</strong></p><p>b) <strong>\\(12\\,000\\cdot1{,}024^5\\)</strong></p><p>c) \\(12\\,000\\cdot1{,}024^5\\approx\\)<strong>13 510,80 kr</strong></p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
@@ -33455,7 +33587,8 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.41",
@@ -34658,7 +34791,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>20 000 kr sätts in på ett konto. Första året är räntan 2,0 %. Direkt efter första årets ränta sätts ytterligare 5 000 kr in. Det andra året är räntan okänd. Tredje året är räntan 4,0 %. Efter tre år finns 27 208,48 kr. Bestäm räntan under det andra året.</p>",
     "s": "<p><strong>Steg 1:</strong> Efter år 1 och insättningen finns 25 400 kr. Låt förändringsfaktorn år 2 vara \\(q\\).</p><p>\\(25\\,400q\\cdot1,04=27 208,48\\), vilket ger \\(q=1,03\\).</p><p><strong>3,0 %</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -34668,7 +34801,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.81",
@@ -34682,7 +34816,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Du sätter in 5 000 kr på ett konto med 4 % ränta. Hur stor blir räntan första året?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p><strong>Svar:</strong> <strong>200 kr</strong></p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -34691,7 +34825,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.82",
@@ -34705,7 +34840,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>Ett kapital ökar med 5 % första året. Under de följande två åren är den årliga räntan samma okända procentsats \\(r\\). Efter tre år har kapitalet totalt ökat med 21,275 %.</p><p>Bestäm \\(r\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Total faktor är 1,21275. \\(1,05(1+r)^2=1,21275\\Rightarrow(1+r)^2=1,155\\).</p><p>\\(1+r=\\sqrt{1,155}\\approx1,07471\\).</p><p><strong>\\(r\\approx7,47\\%\\)</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "val",
@@ -34715,7 +34850,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.83",
@@ -34729,7 +34865,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Vilket konto ger störst ränta första året på 8 000 kr?<br>A: 2,4 % ränta<br>B: 2,1 % ränta</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>A ger 192 kr och B ger 168 kr.</p><p><strong>Svar:</strong> <strong>Konto A</strong></p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
@@ -34739,7 +34875,8 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp",
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.84",
@@ -34753,7 +34890,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>Konto A ger 2,5 % ränta utan avgift. Konto B ger 3,2 % ränta men tar en årsavgift på 120 kr efter att räntan lagts till. Hur stort måste startkapitalet vara för att konto B ska ge mer pengar efter ett år?</p>",
     "s": "<p><strong>Steg 1:</strong> A: \\(1,025K\\). B: \\(1,032K-120\\).</p><p>\\(0,007K&gt;120\\).</p><p><strong>\\(K&gt;17143\\) kr</strong>, alltså minst 17 143 kr om hela kronor används.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
@@ -34762,7 +34899,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.85",
@@ -34776,7 +34914,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>Ett sparkapital på 18 000 kr får 3 % ränta under ett år. Hur stor är räntan i kronor?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p><strong>540 kr</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -34785,7 +34923,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.86",
@@ -34799,7 +34938,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>Två femåriga sparkonton jämförs.</p><p><strong>A:</strong> 3,0 % ränta varje år, ingen avgift.<br><strong>B:</strong> 300 kr startavgift dras direkt, därefter 4,5 % ränta de två första åren och 2,2 % de tre sista.</p><p>För vilka startkapital ger konto B mer pengar efter fem år?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>A ger \\(K\\cdot1,03^5\\). B ger \\((K-300)\\cdot1,045^2\\cdot1,022^3\\).</p><p>Olikheten ger ungefär <strong>\\(K&gt;54456\\) kr</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "uttryck",
@@ -34809,7 +34948,8 @@ window.BANKMA1 = [
     "formaga": [
       "modellering",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.87",
@@ -34823,7 +34963,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>20 000 kr står på ett konto med 2 % ränta. Hur stor är räntan under det andra året om inga pengar sätts in eller tas ut?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>Efter år 1 finns 20 400 kr. Räntan år 2 är \\(20\\,400\\cdot0,02=\\)<strong>408 kr</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -34832,7 +34972,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.88",
@@ -34846,7 +34987,7 @@ window.BANKMA1 = [
     "poang": "1/2/0",
     "t": "<p>En hyra är 8 200 kr i månaden. Hyran höjs med 2,8 % varje år.</p><p>a) Skriv förändringsfaktorn för ett år.<br>b) Vad blir hyran efter 3 år? Svara med två decimaler.<br>c) Hur mycket mer betalar man per månad efter 3 år jämfört med i dag?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Vid samma procentuella förändring varje period multipliceras värdet med samma förändringsfaktor varje gång. Efter n perioder används därför faktorn upphöjd till n.</p><p>a) <strong>1,028</strong></p><p>b) \\(8\\,200\\cdot1{,}028^3\\approx\\)<strong>8 908,27 kr</strong></p><p>c) \\(8\\,908{,}27-8\\,200=\\)<strong>ungefär 708 kr mer per månad</strong></p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "flera_delar",
@@ -34862,7 +35003,8 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.89",
@@ -34876,7 +35018,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Du sätter in 12 000 kr på ett konto med 3,2 % årlig ränta. Hur stor blir räntan under det första året?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>\\(12\\,000\\cdot0,032=\\)<strong>384 kr</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -34885,7 +35027,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.90",
@@ -35419,7 +35562,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>Två sparformer erbjuds för en insättning på 20 000 kr som ska stå i 8 år.</p><p><strong>Alternativ A:</strong> 3,5 % ränta per år, där räntan läggs till kapitalet varje år.<br><strong>Alternativ B:</strong> banken garanterar att kapitalet har vuxit med totalt 30 % efter de 8 åren.</p><p>Vilket alternativ ger mest, och hur stor blir skillnaden? Motivera.</p>",
     "s": "<p><strong>Alternativ A</strong> ger ränta på ränta:</p><p>\\[20\\,000\\cdot1{,}035^8\\approx26\\,336\\text{ kr}.\\]</p><p><strong>Alternativ B</strong> ger</p><p>\\[20\\,000\\cdot1{,}30=26\\,000\\text{ kr}.\\]</p><p><strong>Alternativ A ger mest, ungefär 336 kr mer.</strong></p><p>Att alternativen ligger så nära varandra beror på att \\(1{,}035^8\\approx1{,}317\\), alltså en total ökning på ungefär 31,7 % — bara knappt två procentenheter mer än B:s 30 %.</p><p>Observera att \\(8\\cdot3{,}5=28\\) % vore fel svar för alternativ A. Ränta på ränta ger mer än så, eftersom räntan varje år beräknas på ett kapital som redan vuxit.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "val",
@@ -35430,7 +35573,8 @@ window.BANKMA1 = [
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.112",
@@ -35444,7 +35588,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>Ett amorteringsfritt lån är 900 000 kr och årsräntan 4,0 %. Hur mycket betalas i ränta per månad?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>Årsränta = 36 000 kr. Per månad: <strong>3 000 kr</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -35453,7 +35597,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.113",
@@ -35903,7 +36048,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>10 000 kr växer till 11 255,09 kr på fyra år med samma ränta varje år. Bestäm årsräntan.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>\\(10\\,000q^4=11\\,255,09\\). Då \\(q\\approx1,03\\).</p><p><strong>Svar:</strong> <strong>3,0 %</strong></p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -35913,7 +36058,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.127",
@@ -35927,7 +36073,7 @@ window.BANKMA1 = [
     "poang": "3/2/0",
     "t": "<p>Ett lån på 120 000 kr återbetalas med 1 350 kr per månad i 10 år.</p><p>a) Hur mycket betalas totalt?<br>b) Hur stor är merkostnaden jämfört med lånebeloppet?<br>c) Om första månadens ränta är 780 kr, hur stor andel av första betalningen är ränta?</p>",
     "s": "<p>a) \\(1350\\cdot120=\\)<strong>162 000 kr</strong>.</p><p>b) <strong>42 000 kr</strong>.</p><p>c) \\(\\frac{780}{1350}\\approx\\)<strong>57,8 %</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
@@ -35942,7 +36088,8 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.128",
@@ -36385,7 +36532,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.000002,
+      2e-06,
       0.01,
       1
     ],
@@ -37838,7 +37985,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37864,7 +38011,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37890,7 +38037,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37916,7 +38063,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37942,7 +38089,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.975,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37984,7 +38131,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>Ett sparkonto har räntan 4,2 % per år, och räntan läggs till kapitalet varje år. Insättningen är 15 000 kr.</p><p>a) Skriv en modell för kapitalet efter \\(n\\) år.<br>b) Efter hur många hela år har kapitalet för första gången mer än fördubblats?<br>c) En sparare gissar att det borde ta ungefär 24 år, eftersom \\(\\frac{100}{4}{,}2\\approx24\\). Förklara varför det blir fel.</p>",
     "s": "<p>a) <strong>\\(K(n)=15\\,000\\cdot1{,}042^n\\)</strong></p><p>b) Kapitalet ska överstiga 30 000 kr.</p><p>\\(K(16)=15\\,000\\cdot1{,}042^{16}\\approx28\\,972\\) kr, alltså ännu inte fördubblat.</p><p>\\(K(17)=15\\,000\\cdot1{,}042^{17}\\approx30\\,189\\) kr, alltså över gränsen.</p><p><strong>Det tar 17 år.</strong></p><p>c) Beräkningen \\(\\frac{100}{4}{,}2\\) förutsätter att man varje år får 4,2 % av det <em>ursprungliga</em> beloppet, alltså 630 kr per år. Men räntan beräknas på ett kapital som växer, så räntan i kronor blir större för varje år.</p><p><strong>Svar:</strong> <strong>Ränta på ränta gör att fördubblingen sker snabbare än gissningen 24 år.</strong></p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "flera_delar",
@@ -38013,7 +38160,8 @@ window.BANKMA1 = [
       "uttryck",
       "heltal",
       null
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.187",
@@ -38476,7 +38624,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>10 000 kr växer med 2,5 % ränta per år. Hur mycket finns efter 5 år?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>\\(10000\\cdot1,025^5\\approx\\)<strong>11 314 kr</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -38485,7 +38633,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.204",
@@ -38832,7 +38981,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>8 000 kr sätts in på ett konto med 3 % årlig ränta. Hur mycket finns på kontot efter två år om inga uttag görs?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>\\(8000\\cdot1,03^2=8487,2\\).</p><p><strong>Svar:</strong> <strong>8 487,20 kr</strong></p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -38841,7 +38990,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.218",
@@ -38885,7 +39035,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -38911,7 +39061,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -38937,7 +39087,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -38963,7 +39113,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -38989,7 +39139,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -39127,7 +39277,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>7 500 kr står på ett konto med 1,8 % årlig ränta. Hur mycket finns efter två år om räntan läggs till kapitalet varje år?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>\\(7500\\cdot1,018^2\\approx\\)<strong>7772,43 kr</strong>,</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -39136,7 +39286,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.255",
@@ -39150,7 +39301,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Konto A ger 2,0 % ränta och konto B 2,4 %. Samma belopp sätts in på båda och inga avgifter finns. Vilket ger störst saldo efter ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
     "s": "<p>Med samma startbelopp och inga andra skillnader ger den högre räntan större saldo.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
@@ -39159,7 +39310,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.256",
@@ -39173,7 +39325,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Du sparar 10 000 kr i ett år. Konto A ger 3 % ränta utan avgift. Konto B ger 3,5 % ränta men har en årsavgift på 100 kr. Vilket ger högst saldo efter ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
     "s": "<p>Konto A ger \\(10000\\cdot1,03=10300\\) kr. Konto B ger \\(10000\\cdot1,035-100=10250\\) kr.</p><p><strong>Svar:</strong> <strong>A</strong> ger högst saldo.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
@@ -39183,7 +39335,8 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.257",
@@ -39197,7 +39350,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Ett sparkonto ger 4 % årlig ränta. Ett annat ger 2 % per halvår, med ränta även på den första halvårsräntan. Vilket ger högst förändringsfaktor efter ett år?</p><p>A: 4 % per år<br>B: 2 % per halvår<br>C: Exakt samma</p>",
     "s": "<p>Årsräntan 4 % ger faktorn 1,04. Två halvår ger \\(1,02^2=1,0404\\), som är något större.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
@@ -39207,7 +39360,8 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.258",
@@ -39221,7 +39375,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>Konto A har 1,8 % ränta och konto B har 1,6 % ränta. Konto A tar dessutom 50 kr i årsavgift. Vilket konto är bäst för 2 000 kr under ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
     "s": "<p>A ger \\(2000\\cdot1,018-50=1986\\) kr. B ger \\(2000\\cdot1,016=2032\\) kr. B ger högre saldo.</p><p><strong>Svar:</strong> <strong>B</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
@@ -39231,7 +39385,8 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.259",
@@ -39245,7 +39400,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Två konton har samma ränta. På konto A sätts 5 000 kr in idag. På konto B sätts samma belopp in ett år senare. Vilket konto har störst saldo två år från idag?</p><p>A: A<br>B: B<br>C: Samma</p>",
     "s": "<p>Pengarna på konto A hinner få ränta under två år, medan pengarna på B bara får ränta under ett år.</p><p><strong>Svar:</strong> <strong>A</strong>.</p>",
-    "familj": "Ränta och ränta på ränta",
+    "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
@@ -39254,7 +39409,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "familjTidigare": "Ränta och ränta på ränta"
   },
   {
     "id": "3.224",
@@ -39832,7 +39988,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>En lina är 18 m lång och bildar vinkeln 52° med marken. Hur stor är höjdskillnaden mellan linans ändar?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p>\\(h=18\\sin52^\\circ\\approx\\)<strong>14,2 m</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -39841,7 +39997,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.05",
@@ -40135,7 +40292,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>I halvcirkeln är den vågräta sträckan 6,2 cm och vinkeln 24°.</p><span class=\"fig\"><svg width=\"400\" height=\"263\" viewBox=\"0 0 400 263\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"cirkel med korrekt markerad vinkel\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"261\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"170\" cy=\"129.2\" r=\"125.0\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"129.2\" r=\"4\" fill=\"#2B2527\"/><line x1=\"170\" y1=\"129.2\" x2=\"284.2\" y2=\"180\" stroke=\"#B43123\" stroke-width=\"2.5\"/><line x1=\"170\" y1=\"129.2\" x2=\"170\" y2=\"180\" stroke=\"#777\"/><line x1=\"170\" y1=\"180\" x2=\"284.2\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"170\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\"/><text x=\"227.1\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">6,2 cm</text><text x=\"232.1\" y=\"145.6\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">r</text><text x=\"178\" y=\"121.2\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">O</text><polyline points=\"260.2,180.0 260.2,179.4 260.2,178.9 260.3,178.3 260.3,177.8 260.4,177.2 260.4,176.7 260.5,176.1 260.6,175.6 260.7,175.0 260.8,174.5 261.0,173.9 261.1,173.4 261.3,172.8 261.5,172.3 261.6,171.8 261.8,171.3 262.0,170.8 262.3,170.2\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"245.1\" y=\"175.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\">24°</text></svg></span><p>Bestäm radien \\(r\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(\\cos24^\\circ=6,2/r\\), Alltså <strong>\\(r\\approx6,79\\) cm</strong>,</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -40144,7 +40301,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.18",
@@ -40157,7 +40315,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Från en punkt 14 m från en flaggstång är elevationsvinkeln 27°. Hur hög är stången? Ögonhöjd försummas.</p><span class=\"fig\"><svg width=\"380\" height=\"230\" viewBox=\"0 0 380 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rätvinklig triangel med korrekt markerad vinkel\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M60 180 L295.5 180 L295.5 60.0 Z\" fill=\"#F7F5F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"280.5\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"177.8\" y=\"202\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">14 m</text><text x=\"306.5\" y=\"120.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">h</text><polyline points=\"87.0,180.0 87.0,179.3 87.0,178.6 86.9,177.9 86.9,177.2 86.8,176.5 86.7,175.8 86.5,175.1 86.4,174.4 86.3,173.7 86.1,173.0 85.9,172.3 85.7,171.7 85.5,171.0 85.2,170.3 84.9,169.7 84.7,169.0 84.4,168.4 84.1,167.7\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"102.8\" y=\"173.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">27°</text></svg></span>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(h=14\\tan27^\\circ\\approx7,1 m\\)</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "uttryck",
@@ -40166,7 +40324,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.19",
@@ -40507,7 +40666,7 @@ window.BANKMA1 = [
     "poang": "0/3/0",
     "t": "<p>Från strandkanten ser du toppen av en mast på andra sidan en kanal med elevationsvinkeln 52°. Du går 18 m rakt bakåt och vinkeln blir 33°. Marken är plan.</p><p>Bestäm kanalens bredd och mastens höjd.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(h=w\\tan52^\\circ=(w+18)\\tan33^\\circ\\),</p><p><strong>Svar:</strong> <strong>\\(w\\approx18,5 m\\), \\(h\\approx23,7 m\\)</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
@@ -40516,7 +40675,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.32",
@@ -40551,7 +40711,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Den horisontella sträckan under en lutande väg är 40 m och lutar 12°. Hur lång är vägsträckan?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(L=40/\\cos12^\\circ\\approx40,9 m\\)</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -40560,7 +40720,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.34",
@@ -40573,7 +40734,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En 5,0 m lång stege står mot en vägg. Foten står 1,4 m från väggen.</p><p>Bestäm vinkeln mellan stegen och marken.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(\\cos v=\\frac{1,4}{5,0}=0,28\\).</p><p><strong>\\(v\\approx73,7^\\circ\\)</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
@@ -40582,7 +40743,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.35",
@@ -40595,7 +40757,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>En 8,0 m hög stolpe kastar en skugga. Solens höjdvinkel är 38°. Hur lång är skuggan?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(x=8,0/\\tan38^\\circ\\approx10,2 m\\)</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "uttryck",
@@ -40604,7 +40766,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.37",
@@ -40707,7 +40870,7 @@ window.BANKMA1 = [
     "poang": "0/3/0",
     "t": "<p>Två observationspunkter ligger 25 m från varandra. Elevationsvinkeln till ett torn är 31° från den bortre punkten och 47° från den närmare.</p><span class=\"fig\"><svg width=\"410\" height=\"245\" viewBox=\"0 0 410 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"torn med två korrekt markerade elevationsvinklar\"><rect x=\"1\" y=\"1\" width=\"408\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"45\" y1=\"185\" x2=\"380\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"350\" y1=\"185\" x2=\"350\" y2=\"75.0\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"166.9\" y1=\"185\" x2=\"350\" y2=\"75.0\" stroke=\"#315F91\" stroke-width=\"2.2\"/><line x1=\"247.4\" y1=\"185\" x2=\"350\" y2=\"75.0\" stroke=\"#B43123\" stroke-width=\"2.2\"/><line x1=\"166.9\" y1=\"208\" x2=\"247.4\" y2=\"208\" stroke=\"#777\"/><path d=\"M166.9 203 v10 M247.4 203 v10\" stroke=\"#777\"/><text x=\"207.2\" y=\"226\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">25 m</text><text x=\"360\" y=\"130.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">h</text><polyline points=\"188.9,185.0 188.9,184.3 188.9,183.7 188.8,183.0 188.8,182.4 188.7,181.7 188.6,181.1 188.4,180.4 188.3,179.8 188.1,179.1 187.9,178.5 187.7,177.9 187.5,177.2 187.3,176.6 187.0,176.0 186.7,175.4 186.4,174.8 186.1,174.2 185.8,173.7\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"204.5\" y=\"178.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\">31°</text><polyline points=\"269.4,185.0 269.4,184.0 269.3,183.0 269.2,182.0 269.1,181.0 268.9,180.0 268.6,179.1 268.3,178.1 268.0,177.2 267.6,176.2 267.2,175.3 266.7,174.4 266.2,173.6 265.7,172.7 265.1,171.9 264.5,171.1 263.8,170.3 263.1,169.6 262.4,168.9\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"283.2\" y=\"173.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">47°</text></svg></span><p>Bestäm tornets höjd.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(h=x\\tan47^\\circ=(x+25)\\tan31^\\circ\\),</p><p><strong>Svar:</strong> <strong>\\(h\\approx34,2 m\\)</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
@@ -40716,7 +40879,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.41",
@@ -41240,7 +41404,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>En staglina bildar vinkeln 52° med marken och fästs 6,0 m upp på en mast. Hur lång är linan?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(L=6,0/\\sin52^\\circ\\approx7,6 m\\)</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -41249,7 +41413,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.62",
@@ -41262,7 +41427,7 @@ window.BANKMA1 = [
     "poang": "0/0/3",
     "t": "<p>En fiskare använder två spön från samma plats. På det ena har 12 m mer lina släppts ut. Vinklarna mellan vattenytan och linorna är 38° och 24°. Båda betena går på samma djup. Spöspetsen är 1,0 m över vattnet.</p><span class=\"fig\"><svg width=\"460\" height=\"245\" viewBox=\"0 0 460 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"två fiskelinor med korrekt markerade vinklar\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"30\" y1=\"95\" x2=\"430\" y2=\"95\" stroke=\"#2A8EBB\" stroke-width=\"2.5\"/><circle cx=\"70\" cy=\"65\" r=\"4\" fill=\"#2B2527\"/><line x1=\"70\" y1=\"65\" x2=\"236.4\" y2=\"195\" stroke=\"#B43123\" stroke-width=\"2.3\"/><line x1=\"70\" y1=\"65\" x2=\"362.0\" y2=\"195\" stroke=\"#315F91\" stroke-width=\"2.3\"/><line x1=\"70\" y1=\"65\" x2=\"70\" y2=\"195\" stroke=\"#777\" stroke-dasharray=\"5 4\"/><line x1=\"70\" y1=\"195\" x2=\"377.0\" y2=\"195\" stroke=\"#777\" stroke-dasharray=\"5 4\"/><text x=\"131.2\" y=\"145.5\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">x</text><text x=\"220.0\" y=\"115.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">x + 12</text><text x=\"94.0\" y=\"66.5\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">1,0 m</text><text x=\"78\" y=\"145\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">d</text><text x=\"35\" y=\"87\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">vattenyta</text><polyline points=\"214.4,195.0 214.4,194.2 214.5,193.4 214.5,192.6 214.6,191.8 214.8,191.0 214.9,190.2 215.1,189.4 215.3,188.6 215.6,187.8 215.9,187.1 216.2,186.3 216.5,185.6 216.9,184.9 217.3,184.1 217.7,183.5 218.1,182.8 218.6,182.1 219.1,181.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"200.5\" y=\"186.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">38°</text><polyline points=\"340.0,195.0 340.0,194.5 340.0,194.0 340.0,193.5 340.1,193.0 340.1,192.4 340.2,191.9 340.3,191.4 340.4,190.9 340.5,190.4 340.6,189.9 340.7,189.4 340.8,188.9 341.0,188.4 341.1,188.0 341.3,187.5 341.5,187.0 341.7,186.5 341.9,186.1\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"324.8\" y=\"191.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\">24°</text></svg></span><p>Bestäm betenas djup.</p>",
     "s": "<p><strong>Steg 1:</strong> \\(x\\sin38^\\circ=(x+12)\\sin24^\\circ\\),</p><p>\\(x\\approx23,4\\) m och höjdskillnaden från spöspetsen blir \\(H\\approx14,4\\) m,</p><p><strong>Djupet är \\(d\\approx13,4 m\\)</strong>,</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
@@ -41271,7 +41436,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.63",
@@ -41284,7 +41450,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>En takkant ligger 5,5 m över marken. Elevationsvinkeln från en punkt är 34°. Hur långt från väggen ligger punkten?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(x=5,5/\\tan34^\\circ\\approx8,2 m\\)</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "uttryck",
@@ -41293,7 +41459,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.64",
@@ -41306,7 +41473,7 @@ window.BANKMA1 = [
     "poang": "1/3/1",
     "t": "<p>Figuren visar två rätvinkliga trianglar med gemensam lodrät sida.</p><span class=\"fig\"><svg width=\"410\" height=\"230\" viewBox=\"0 0 410 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"två rätvinkliga trianglar med korrekta vinkelmarkeringar\"><rect x=\"1\" y=\"1\" width=\"408\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"122.2\" y1=\"180\" x2=\"330\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"330\" y1=\"180\" x2=\"330\" y2=\"60.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"122.2\" y1=\"180\" x2=\"330\" y2=\"60.0\" stroke=\"#B43123\" stroke-width=\"2.5\"/><line x1=\"210.0\" y1=\"180\" x2=\"330\" y2=\"60.0\" stroke=\"#315F91\" stroke-width=\"2.5\"/><rect x=\"315\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\"/><text x=\"213.1\" y=\"85.5\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">130 cm</text><text x=\"342\" y=\"120.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">x</text><text x=\"270.0\" y=\"202\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">y</text><polyline points=\"147.2,180.0 147.1,179.3 147.1,178.5 147.1,177.8 147.0,177.1 146.9,176.4 146.8,175.7 146.6,174.9 146.5,174.2 146.3,173.5 146.1,172.8 145.9,172.1 145.6,171.4 145.4,170.8 145.1,170.1 144.8,169.4 144.5,168.8 144.2,168.1 143.8,167.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"162.7\" y=\"173.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">30°</text><polyline points=\"235.0,180.0 235.0,178.9 234.9,177.8 234.8,176.7 234.6,175.7 234.4,174.6 234.1,173.5 233.8,172.5 233.5,171.4 233.1,170.4 232.7,169.4 232.2,168.5 231.7,167.5 231.1,166.6 230.5,165.7 229.8,164.8 229.2,163.9 228.4,163.1 227.7,162.3\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"249.7\" y=\"167.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\">45°</text></svg></span><p>a) Bestäm de markerade längderna \\(x\\) och \\(y\\).<br>b) Hur mycket längre omkrets har den stora triangeln än den lilla?</p>",
     "s": "<p><strong>Steg 1:</strong> I stora triangeln: \\(x=130\\sin30^\\circ=65\\) cm.</p><p>I den lilla triangeln är vinkeln 45°, alltså \\(y=x=65\\) cm och hypotenusan \\(65\\sqrt2\\) cm.</p><p>Stora triangelns bas är \\(130\\cos30^\\circ=65\\sqrt3\\) cm.</p><p>Skillnad i omkrets: \\((130+65+65\\sqrt3)-(65+65+65\\sqrt2)\\approx\\)<strong>85,7 cm</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
@@ -41315,7 +41482,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.65",
@@ -41328,7 +41496,7 @@ window.BANKMA1 = [
     "poang": "0/2/2",
     "t": "<p>Ett skåp är 232 cm högt och 60 cm djupt. Rumshöjden är 239 cm.</p><p>a) Kan skåpet monteras liggande på golvet och sedan resas upp? Motivera.<br>b) När skåpet står med botten mot väggen är överkanten 3,2 cm från väggen. Anta att skåpet står vinkelrätt mot golvet. Bestäm vinkeln mellan vägg och golv.</p>",
     "s": "<p>a) Under uppresningen behövs minst diagonalen \\(\\sqrt{232^2+60^2}\\approx239,6\\) cm. <strong>Nej, 239 cm räcker inte.</strong></p><p>b) Avvikelsen från lodlinjen är \\(v=\\sin^{-1}(\\frac{3,2}{232})\\approx0,79^\\circ\\).</p><p><strong>Svar:</strong> <strong>Vinkeln mellan vägg och golv är cirka \\(89,21^\\circ\\).</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
@@ -41338,7 +41506,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.66",
@@ -41351,7 +41520,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>En 3,6 m lång stege står med vinkeln 74° mot marken. Hur högt upp på väggen når den?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>Höjden är \\(3,6\\sin74^\\circ\\approx\\)<strong>3,5 m</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -41360,7 +41529,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.67",
@@ -41373,7 +41543,7 @@ window.BANKMA1 = [
     "poang": "2/2/0",
     "t": "<p>Ett tak anges med lutningsförhållandet 1:2,5, dvs. det stiger 1 m på 2,5 m horisontellt.</p><span class=\"fig\"><svg width=\"430\" height=\"230\" viewBox=\"0 0 430 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"taklutning som höjd genom horisontell sträcka\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"212.5\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"3\"/>\n<text x=\"143.75\" y=\"200\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2.5</text>\n<text x=\"230.5\" y=\"147.5\" font-family=\"monospace\" font-size=\"12\">1</text>\n<text x=\"123\" y=\"161\" font-family=\"monospace\" font-size=\"12\">v</text>\n</svg></span><p>a) Bestäm takvinkeln.<br>b) Om förhållandet ändras till 1:1,25, blir vinkeln då dubbelt så stor? Motivera.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>a) \\(v=\\tan^{-1}(\\frac{1}{2,5})\\approx\\)<strong>21,8°</strong>.</p><p>b) Ny vinkel \\(\\tan^{-1}(\\frac{1}{1,25})\\approx38,7°\\), vilket inte är dubbelt. <strong>Nej.</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
@@ -41405,7 +41575,8 @@ window.BANKMA1 = [
     "manuellKomplettering": [
       false,
       true
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.68",
@@ -41418,7 +41589,7 @@ window.BANKMA1 = [
     "poang": "0/1/2",
     "t": "<p>Från punkt A ses toppen av ett torn under vinkeln 28°. Man går 35 m rakt mot tornet till punkt B, där vinkeln är 41°. Marken är plan.</p><p>Bestäm tornets höjd. Bortse från ögonhöjd.</p>",
     "s": "<p><strong>Steg 1:</strong> Låt avståndet från B till tornet vara \\(x\\) och höjden \\(h\\). Då \\(h=x\\tan41^\\circ=(x+35)\\tan28^\\circ\\).</p><p>\\(x=35\\tan28^\\circ/(\\tan41^\\circ-\\tan28^\\circ)\\approx55,1\\) m.</p><p>\\(h=x\\tan41^\\circ\\approx\\)<strong>47,9 m</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -41427,7 +41598,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.70",
@@ -41440,7 +41612,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>En flaggstång står på plan mark. Från en punkt 24 m från stångens fot mäts vinkeln upp till toppen till 31°. Mätinstrumentet hålls 1,6 m över marken.</p><p>Bestäm flaggstångens höjd.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>Höjden över instrumentet är \\(24\\tan31^\\circ\\approx14,42\\) m. Lägg till 1,6 m.</p><p><strong>Svar:</strong> <strong>Cirka 16,0 m.</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -41449,7 +41621,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.71",
@@ -44204,7 +44377,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>Varje steg i en rak trappa är 29 cm djupt och 17 cm högt. Bestäm trappans vinkel mot horisontalplanet.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(\\tan v=\\frac{17}{29}\\Rightarrow v\\approx\\)<strong>30,4°</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -44213,7 +44386,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.167",
@@ -44226,7 +44400,7 @@ window.BANKMA1 = [
     "poang": "0/0/2",
     "t": "<p>Från en punkt på marken ser man toppen av ett torn med elevationsvinkeln 28°. Man går 30 m närmare tornet och vinkeln blir 41°. Bestäm tornets höjd. Anta plan mark.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>Låt avståndet efter förflyttningen vara \\(x\\). Då \\(h=x\\tan41^\\circ=(x+30)\\tan28^\\circ\\).</p><p>\\(x\\approx47,2\\) m och <strong>\\(h\\approx41,0\\) m</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -44235,7 +44409,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.168",
@@ -44248,7 +44423,7 @@ window.BANKMA1 = [
     "poang": "2/2/0",
     "t": "<p>Ett borrhål ska nå lodrätt djup 140 m och borras 12° från lodlinjen.</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"sned borrning med vinkel mot lodlinjen och givet djup\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"45\" y1=\"45\" x2=\"395\" y2=\"45\" stroke=\"#6B7D5D\" stroke-width=\"3\"/>\n<line x1=\"300\" y1=\"45\" x2=\"300\" y2=\"250\" stroke=\"#777\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/>\n<line x1=\"300\" y1=\"45\" x2=\"256.4\" y2=\"250\" stroke=\"#2B2527\" stroke-width=\"5\"/>\n<line x1=\"340\" y1=\"45\" x2=\"340\" y2=\"250\" stroke=\"#315F91\" stroke-width=\"2\"/>\n<text x=\"348\" y=\"147.5\" font-family=\"monospace\" font-size=\"12\">140 m</text>\n<text x=\"256\" y=\"97\" font-family=\"monospace\" font-size=\"12\">12°</text>\n<line x1=\"256.4\" y1=\"250\" x2=\"300\" y2=\"250\" stroke=\"#B43123\" stroke-width=\"2\"/>\n</svg></span><p>a) Hur långt borrhål behövs?<br>b) Hur stor blir den horisontella förskjutningen nere på 140 m djup?</p>",
     "s": "<span class=\"fig\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Borrhål, lodrätt djup och horisontell förskjutning\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"90\" y1=\"40\" x2=\"90\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"90\" y1=\"210\" x2=\"245\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"90\" y1=\"40\" x2=\"245\" y2=\"210\" stroke=\"#2B6CB0\" stroke-width=\"4\"/><rect x=\"90\" y=\"194\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"#777\" stroke-width=\"1.4\"/><path d=\"M90 82 A42 42 0 0 1 116 86\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\"/><strong>Steg 1:</strong> <text x=\"123\" y=\"82\" font-family=\"monospace\" font-size=\"13\">12°</text><text x=\"64\" y=\"130\" transform=\"rotate(-90 64 130)\" font-family=\"monospace\" font-size=\"13\">140 m</text><text x=\"175\" y=\"228\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">x</text><text x=\"165\" y=\"118\" font-family=\"monospace\" font-size=\"13\" fill=\"#2B6CB0\">L</text></svg></span><p><strong>a)</strong> Sidan 140 m ligger intill vinkeln 12°:</p><p>\\[\\cos12^\\circ=\\frac{140}{L}\\]</p><p>\\[L=\\frac{140}{\\cos12^\\circ}\\approx143{,}1\\text{ m}\\]</p><p><strong>b)</strong> Den horisontella förskjutningen är motstående katet:</p><p>\\[\\tan12^\\circ=\\frac{x}{140}\\]</p><p>\\[x=140\\tan12^\\circ\\approx29{,}8\\text{ m}\\]</p><p><strong>Svar: borrhålet behöver vara cirka 143,1 m långt och förskjutningen blir cirka 29,8 m.</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
@@ -44266,7 +44441,8 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.169",
@@ -44279,7 +44455,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>Solens höjdvinkel är 11,5°. En flaggstång kastar en 24 m lång skugga. Hur hög är flaggstången?</p><span class=\"fig\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rätvinklig triangel med mått\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"65\" y1=\"205\" x2=\"345.0\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"345.0\" y1=\"205\" x2=\"345.0\" y2=\"148.03335616136417\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"65\" y1=\"205\" x2=\"345.0\" y2=\"148.03335616136417\" stroke=\"#2B2527\" stroke-width=\"3\"/><rect x=\"325.0\" y=\"185\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"#777\" stroke-width=\"2\"/><text x=\"205.0\" y=\"233\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">24 m</text><text x=\"365.0\" y=\"176.51667808068208\" font-family=\"monospace\" font-size=\"12\">h</text><path d=\"M 99.0 205.0 A 34 34 0 0 0 98.3 198.2\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.5\"/><text x=\"113\" y=\"190\" font-family=\"monospace\" font-size=\"12\">11.5°</text></svg></span>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(\\tan11,5^\\circ=h/24\\Rightarrow h=24\\tan11,5^\\circ\\approx\\)<strong>4,9 m</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -44288,7 +44464,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.170",
@@ -44301,7 +44478,7 @@ window.BANKMA1 = [
     "poang": "0/0/3",
     "t": "<p>En fiskare använder två linor. Den ena linan är 8 m längre än den andra. Linorna bildar vinklarna 42° respektive 26° med horisontalplanet. Båda betena ligger på samma djup. Spöspetsen är 1,0 m över vattenytan.</p><span class=\"fig\"><svg width=\"460\" height=\"245\" viewBox=\"0 0 460 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"två fiskelinor med korrekt markerade vinklar\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"30\" y1=\"95\" x2=\"430\" y2=\"95\" stroke=\"#2A8EBB\" stroke-width=\"2.5\"/><circle cx=\"70\" cy=\"65\" r=\"4\" fill=\"#2B2527\"/><line x1=\"70\" y1=\"65\" x2=\"214.4\" y2=\"195\" stroke=\"#B43123\" stroke-width=\"2.3\"/><line x1=\"70\" y1=\"65\" x2=\"336.5\" y2=\"195\" stroke=\"#315F91\" stroke-width=\"2.3\"/><line x1=\"70\" y1=\"65\" x2=\"70\" y2=\"195\" stroke=\"#777\" stroke-dasharray=\"5 4\"/><line x1=\"70\" y1=\"195\" x2=\"351.5\" y2=\"195\" stroke=\"#777\" stroke-dasharray=\"5 4\"/><text x=\"118.8\" y=\"144.3\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">x</text><text x=\"207.3\" y=\"115.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">x + 8</text><text x=\"95.4\" y=\"67.7\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">1,0 m</text><text x=\"78\" y=\"145\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">d</text><text x=\"35\" y=\"87\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">vattenyta</text><polyline points=\"192.4,195.0 192.4,194.1 192.5,193.2 192.5,192.3 192.7,191.4 192.8,190.6 193.0,189.7 193.3,188.8 193.5,188.0 193.8,187.1 194.2,186.3 194.6,185.5 195.0,184.7 195.4,183.9 195.9,183.1 196.4,182.4 196.9,181.7 197.4,181.0 198.0,180.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"178.9\" y=\"185.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">42°</text><polyline points=\"314.5,195.0 314.5,194.4 314.6,193.9 314.6,193.3 314.7,192.8 314.7,192.2 314.8,191.7 314.9,191.1 315.0,190.6 315.1,190.1 315.2,189.5 315.4,189.0 315.5,188.4 315.7,187.9 315.9,187.4 316.1,186.9 316.3,186.4 316.5,185.9 316.8,185.4\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"299.5\" y=\"190.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\">26°</text></svg></span><p>Bestäm betenas djup under vattenytan.</p>",
     "s": "<p><strong>Steg 1:</strong> Låt den kortare linan vara \\(x\\) m. Den lodräta sträckan från spöspetsen till betet är samma:</p><p>\\(x\\sin42^\\circ=(x+8)\\sin26^\\circ\\).</p><p>Det ger \\(x\\approx15,20\\) m och lodrät sträcka \\(h\\approx10,17\\) m.</p><p>Djupet under vattenytan är \\(10,17-1,0\\approx\\)<strong>9,17 m</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -44310,7 +44487,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.171",
@@ -44573,7 +44751,7 @@ window.BANKMA1 = [
     "poang": "0/2/0",
     "t": "<p>I cirkeln är \\(O\\) centrum. Den lodräta linjen är vinkelrät mot den vågräta sträckan. Den vågräta sträckan är 5,4 cm och vinkeln vid cirkelpunkten är 21°.</p><span class=\"fig\"><svg width=\"400\" height=\"263\" viewBox=\"0 0 400 263\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"cirkel med korrekt markerad vinkel\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"261\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"170\" cy=\"138.5\" r=\"115.7\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"138.5\" r=\"4\" fill=\"#2B2527\"/><line x1=\"170\" y1=\"138.5\" x2=\"278.0\" y2=\"180\" stroke=\"#B43123\" stroke-width=\"2.5\"/><line x1=\"170\" y1=\"138.5\" x2=\"170\" y2=\"180\" stroke=\"#777\"/><line x1=\"170\" y1=\"180\" x2=\"278.0\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"170\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\"/><text x=\"224.0\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">5,4 cm</text><text x=\"229.0\" y=\"150.3\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">r</text><text x=\"178\" y=\"130.5\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">O</text><polyline points=\"254.0,180.0 254.0,179.5 254.0,179.0 254.0,178.5 254.1,178.0 254.1,177.6 254.2,177.1 254.2,176.6 254.3,176.1 254.4,175.6 254.5,175.1 254.6,174.7 254.7,174.2 254.8,173.7 255.0,173.3 255.1,172.8 255.3,172.3 255.4,171.9 255.6,171.4\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"238.7\" y=\"176.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\">21°</text></svg></span><p>Bestäm radien.</p>",
     "s": "<p><strong>Steg 1:</strong> Radien är hypotenusan i den rätvinkliga triangeln,</p><p>\\(\\cos21^\\circ=5,4/r\\),</p><p><strong>Svar:</strong> <strong>\\(r\\approx5,8 cm\\)</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -44582,7 +44760,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.181",
@@ -44617,7 +44796,7 @@ window.BANKMA1 = [
     "poang": "2/0/0",
     "t": "<p>En 6,0 m lång stege lutar mot en vägg och bildar vinkeln \\(68^\\circ\\) med marken. Hur högt upp på väggen når den?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p>\\(h=6,0\\sin68^\\circ\\approx\\)<strong>5,56 m</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -44626,7 +44805,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.183",
@@ -45007,7 +45187,7 @@ window.BANKMA1 = [
     "poang": "0/0/2",
     "t": "<p>En cylindrisk tunnel har diametern 20 m. Vägen ligger 6 m över tunnelns lägsta punkt.</p><span class=\"fig\"><svg width=\"420\" height=\"230\" viewBox=\"0 0 420 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"tunnel med korrekt markerad vinkel v\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"205\" cy=\"100\" r=\"100\" fill=\"#F8EFCB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"113.3\" y1=\"140\" x2=\"296.7\" y2=\"140\" stroke=\"#555\" stroke-width=\"6\"/><line x1=\"113.3\" y1=\"140\" x2=\"205\" y2=\"100\" stroke=\"#B43123\" stroke-width=\"2.4\"/><line x1=\"205\" y1=\"100\" x2=\"205\" y2=\"140\" stroke=\"#777\" stroke-dasharray=\"5 4\"/><text x=\"213\" y=\"122.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">4 m</text><text x=\"233\" y=\"76\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">r = 10 m</text><polyline points=\"137.3,140.0 137.3,139.5 137.3,138.9 137.3,138.4 137.2,137.8 137.2,137.3 137.1,136.7 137.0,136.2 136.9,135.6 136.8,135.1 136.7,134.6 136.6,134.0 136.5,133.5 136.3,133.0 136.1,132.4 136.0,131.9 135.8,131.4 135.6,130.9 135.3,130.4\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"162.9\" y=\"159.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">v</text></svg></span><p>Bestäm vinkeln \\(v\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Vägen ligger 4 m under centrum, Halva kordan är \\(\\sqrt{10^2-4^2}=\\sqrt{84}\\),</p><p>\\(\\tan v=4/\\sqrt{84}\\),</p><p><strong>Svar:</strong> <strong>\\(v\\approx23,6^\\circ\\)</strong></p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
@@ -45016,7 +45196,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.230",
@@ -45029,7 +45210,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>En ramp lutar 8° mot marken. Den horisontella sträckan är 6,0 m. Hur lång är rampen? Avrunda till en decimal.</p>",
     "s": "<p>Rampens längd är hypotenusan \\(L\\). \\(\\cos8^\\circ=6,0/L\\), alltså \\(L=6,0/\\cos8^\\circ\\approx6,1\\) m.</p><p><strong>Svar:</strong> <strong>6,1 m</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -45040,7 +45221,8 @@ window.BANKMA1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.231",
@@ -45053,7 +45235,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>En vajer bildar vinkeln 35° med marken och når 12 m upp på en mast. Hur lång är vajern? Avrunda till en decimal.</p>",
     "s": "<p>Höjden är motstående katet och vajern hypotenusa: \\(\\sin35^\\circ=12/L\\). Därför \\(L=12/\\sin35^\\circ\\approx20,9\\) m.</p><p><strong>Svar:</strong> <strong>20,9 m</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -45064,7 +45246,8 @@ window.BANKMA1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.232",
@@ -45077,7 +45260,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>En stig stiger 18 m i höjd och lutar 12° mot horisontalplanet. Hur lång är stigen? Avrunda till närmaste meter.</p>",
     "s": "<p>\\(\\sin12^\\circ=18/L\\), så \\(L=18/\\sin12^\\circ\\approx86,6\\) m.</p><p><strong>Svar:</strong> <strong>87 m</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -45088,7 +45271,8 @@ window.BANKMA1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.233",
@@ -45101,7 +45285,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "t": "<p>Från en punkt 25 m från ett torns fot är elevationsvinkeln till toppen 41°. Hur högt är tornet? Avrunda till en decimal.</p>",
     "s": "<p>\\(\\tan41^\\circ=h/25\\). Alltså \\(h=25\\tan41^\\circ\\approx21,7\\) m.</p><p><strong>Svar:</strong> <strong>21,7 m</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -45112,7 +45296,8 @@ window.BANKMA1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.234",
@@ -45125,7 +45310,7 @@ window.BANKMA1 = [
     "poang": "0/1/0",
     "t": "<p>En lina är 18,0 m lång och går från marken till toppen av en stolpe. Vinkeln mellan linan och marken är 52°. Hur långt är det horisontella avståndet från stolpens fot till linans fästpunkt i marken? Avrunda till en decimal.</p>",
     "s": "<p>Det horisontella avståndet är närliggande katet: \\(x=18,0\\cos52^\\circ\\approx11,1\\) m.</p><p><strong>Svar:</strong> <strong>11,1 m</strong>.</p>",
-    "familj": "Trigonometri i rättvinkliga trianglar och problemlösning",
+    "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -45136,7 +45321,8 @@ window.BANKMA1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning"
   },
   {
     "id": "4.186",
@@ -49416,7 +49602,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "0.443625",
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -50375,7 +50561,7 @@ window.BANKMA1 = [
     ],
     "tolerans": [
       0.0001,
-      0.000001,
+      1e-06,
       null,
       0.0001
     ],
@@ -53346,7 +53532,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -53372,7 +53558,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -53398,7 +53584,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -53424,7 +53610,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -60884,7 +61070,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.6,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -60908,7 +61094,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -60932,7 +61118,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -60956,7 +61142,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -60980,7 +61166,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -61004,7 +61190,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -61028,7 +61214,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -61052,7 +61238,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -61076,7 +61262,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -61100,7 +61286,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -61124,7 +61310,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -61148,7 +61334,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -63192,7 +63378,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63215,7 +63401,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63238,7 +63424,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63261,7 +63447,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63284,7 +63470,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63307,7 +63493,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63330,7 +63516,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63353,7 +63539,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63376,7 +63562,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63399,7 +63585,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63537,7 +63723,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63560,7 +63746,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63583,7 +63769,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 255,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63606,7 +63792,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3.8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63629,7 +63815,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63744,7 +63930,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 126,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63767,7 +63953,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63790,7 +63976,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -63813,1932 +63999,1932 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 140,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt"
   },
-{
-  "id": "0.401",
-  "kap": 0,
-  "omr": "decimaltal_positionssystem",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vilket tal är störst?</p><p>A. 0,507<br>B. 0,57<br>C. 0,509<br>D. 0,55</p>",
-  "s": "<p>Jämför tiondelar och sedan hundradelar: 0,57 = 0,570 är störst.</p><p><strong>Svar:</strong> B.</p>",
-  "familj": "Jämföra och ordna decimaltal",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "B",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "0.402",
-  "kap": 0,
-  "omr": "decimaltal_positionssystem",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vilket tal är minst?</p><p>A. 1,08<br>B. 1,008<br>C. 1,080<br>D. 1,018</p>",
-  "s": "<p>Skriv med lika många decimaler: 1,080; 1,008; 1,080; 1,018. Minst är 1,008.</p><p><strong>Svar:</strong> B.</p>",
-  "familj": "Jämföra och ordna decimaltal",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "B",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "0.403",
-  "kap": 0,
-  "omr": "decimaltal_positionssystem",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vilket tal ligger mellan 2,49 och 2,50?</p><p>A. 2,405<br>B. 2,495<br>C. 2,505<br>D. 2,59</p>",
-  "s": "<p>2,495 är större än 2,490 men mindre än 2,500.</p><p><strong>Svar:</strong> B.</p>",
-  "familj": "Jämföra och ordna decimaltal",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "B",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "0.404",
-  "kap": 0,
-  "omr": "decimaltal_positionssystem",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vilket påstående är korrekt?</p><p>A. 0,7 &lt; 0,65<br>B. 0,305 &gt; 0,35<br>C. 1,099 &lt; 1,10<br>D. 2,08 &gt; 2,8</p>",
-  "s": "<p>1,10 = 1,100, så 1,099 är mindre än 1,100.</p><p><strong>Svar:</strong> C.</p>",
-  "familj": "Jämföra och ordna decimaltal",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "C",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "0.405",
-  "kap": 0,
-  "omr": "negativa_tal",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Temperaturen är −7 °C på morgonen och 4 °C på eftermiddagen. Hur många grader har temperaturen stigit?</p>",
-  "s": "<p>Förändringen är \\(4-(-7)=11\\).</p><p><strong>Svar:</strong> 11 °C.</p>",
-  "familj": "Negativa tal i praktiska situationer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 11,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "0.406",
-  "kap": 0,
-  "omr": "negativa_tal",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Ett konto står på −350 kr. Du sätter in 500 kr. Vilket saldo får kontot?</p>",
-  "s": "<p>\\[-350+500=150\\]</p><p><strong>Svar:</strong> 150 kr.</p>",
-  "familj": "Negativa tal i praktiska situationer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 150,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "0.407",
-  "kap": 0,
-  "omr": "negativa_tal",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En hiss står på våning 3 och åker 7 våningar ned. Vilken våning hamnar den på om entréplanet räknas som våning 0?</p>",
-  "s": "<p>\\[3-7=-4\\]</p><p><strong>Svar:</strong> Våning −4.</p>",
-  "familj": "Negativa tal i praktiska situationer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": -4,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "0.408",
-  "kap": 0,
-  "omr": "negativa_tal",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En dykare befinner sig 6 m under vattenytan, alltså på nivån −6 m. Hon stiger 2,5 m. Vilken nivå befinner hon sig på?</p>",
-  "s": "<p>\\[-6+2{,}5=-3{,}5\\]</p><p><strong>Svar:</strong> −3,5 m.</p>",
-  "familj": "Negativa tal i praktiska situationer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": -3.5,
-  "tolerans": 0.05,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "0.409",
-  "kap": 0,
-  "omr": "enhetsbyten",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Omvandla 0,003 km² till m².</p>",
-  "s": "<p>\\(1\\,\\mathrm{km^2}=1\\,000\\,000\\,\\mathrm{m^2}\\). Därför \\(0{,}003\\cdot1\\,000\\,000=3000\\).</p><p><strong>Svar:</strong> 3000 m².</p>",
-  "familj": "Omvandla area- och tidsenheter",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 3000,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "0.410",
-  "kap": 0,
-  "omr": "enhetsbyten",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Omvandla 2,5 timmar till sekunder.</p>",
-  "s": "<p>\\[2{,}5\\cdot60\\cdot60=9000\\]</p><p><strong>Svar:</strong> 9000 s.</p>",
-  "familj": "Omvandla area- och tidsenheter",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 9000,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "0.411",
-  "kap": 0,
-  "omr": "enhetsbyten",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Omvandla 45 000 cm² till m².</p>",
-  "s": "<p>\\(1\\,\\mathrm{m^2}=10\\,000\\,\\mathrm{cm^2}\\). Alltså \\(45\\,000/10\\,000=4{,}5\\).</p><p><strong>Svar:</strong> 4,5 m².</p>",
-  "familj": "Omvandla area- och tidsenheter",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 4.5,
-  "tolerans": 0.05,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "0.412",
-  "kap": 0,
-  "omr": "tiopotenser_prefix",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Skriv 0,00072 i grundpotensform.</p>",
-  "s": "<p>Flytta decimaltecknet fyra steg åt höger: \\(0{,}00072=7{,}2\\cdot10^{-4}\\).</p>",
-  "familj": "Skriva tal i grundpotensform",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "7.2*10^-4",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "0.413",
-  "kap": 0,
-  "omr": "tiopotenser_prefix",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Skriv 12 300 000 i grundpotensform.</p>",
-  "s": "<p>\\(12\\,300\\,000=1{,}23\\cdot10^7\\).</p>",
-  "familj": "Skriva tal i grundpotensform",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "1.23*10^7",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "0.414",
-  "kap": 0,
-  "omr": "tiopotenser_prefix",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Skriv 0,000000056 i grundpotensform.</p>",
-  "s": "<p>\\(0{,}000000056=5{,}6\\cdot10^{-8}\\).</p>",
-  "familj": "Skriva tal i grundpotensform",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "5.6*10^-8",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "0.415",
-  "kap": 0,
-  "omr": "tiopotenser_prefix",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Skriv \\(3{,}4\\cdot10^5\\) i decimalform.</p>",
-  "s": "<p>Flytta decimaltecknet fem steg åt höger.</p><p><strong>Svar:</strong> 340 000.</p>",
-  "familj": "Växla mellan grundpotensform och decimalform",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 340000,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "0.416",
-  "kap": 0,
-  "omr": "tiopotenser_prefix",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Skriv \\(7{,}2\\cdot10^{-3}\\) i decimalform.</p>",
-  "s": "<p>Flytta decimaltecknet tre steg åt vänster.</p><p><strong>Svar:</strong> 0,0072.</p>",
-  "familj": "Växla mellan grundpotensform och decimalform",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.0072,
-  "tolerans": 0.0001,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "0.417",
-  "kap": 0,
-  "omr": "tiopotenser_prefix",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Skriv \\(1{,}05\\cdot10^6\\) i decimalform.</p>",
-  "s": "<p>\\(1{,}05\\cdot10^6=1\\,050\\,000\\).</p>",
-  "familj": "Växla mellan grundpotensform och decimalform",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 1050000,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "0.418",
-  "kap": 0,
-  "omr": "negativa_tal",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Beräkna \\((-2)^4-(-2^4)\\).</p>",
-  "s": "<p>\\((-2)^4=16\\), medan \\(-2^4=-(2^4)=-16\\). Alltså \\(16-(-16)=32\\).</p><p><strong>Svar:</strong> 32.</p>",
-  "familj": "Potensuttryck med negativa tal",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 32,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "1.401",
-  "kap": 1,
-  "omr": "algebraiska_uttryck",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En taxi tar 55 kr i startavgift och 18 kr per kilometer. Skriv kostnaden för \\(x\\) kilometer.</p>",
-  "s": "<p>Startavgiften är konstant och kilometerkostnaden är \\(18x\\).</p><p><strong>Svar:</strong> \\(55+18x\\).</p>",
-  "familj": "Översätta en situation till ett algebraiskt uttryck",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "55+18*x",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "modellering",
-    "procedur"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "1.402",
-  "kap": 1,
-  "omr": "algebraiska_uttryck",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En rektangel har längden \\(x+3\\) cm och bredden \\(x\\) cm. Skriv ett uttryck för omkretsen.</p>",
-  "s": "<p>\\[O=2(x+3)+2x=4x+6\\]</p><p><strong>Svar:</strong> \\(4x+6\\).</p>",
-  "familj": "Översätta en situation till ett algebraiskt uttryck",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "4*x+6",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "modellering",
-    "procedur"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "1.403",
-  "kap": 1,
-  "omr": "algebraiska_uttryck",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En biobiljett kostar \\(p\\) kr. Tre biljetter köps och dessutom betalas en serviceavgift på 25 kr. Skriv totalkostnaden.</p>",
-  "s": "<p>Tre biljetter kostar \\(3p\\), och avgiften läggs till.</p><p><strong>Svar:</strong> \\(3p+25\\).</p>",
-  "familj": "Översätta en situation till ett algebraiskt uttryck",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "3*p+25",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "modellering"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "1.404",
-  "kap": 1,
-  "omr": "algebraiska_uttryck",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Ett tal \\(x\\) först minskas med 4 och resultatet multipliceras sedan med 3. Skriv uttrycket.</p>",
-  "s": "<p>Först får vi \\(x-4\\). Hela resultatet multipliceras med 3.</p><p><strong>Svar:</strong> \\(3(x-4)\\).</p>",
-  "familj": "Översätta en situation till ett algebraiskt uttryck",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "3*(x-4)",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "1.405",
-  "kap": 1,
-  "omr": "faktorisering",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Faktorisera genom att bryta ut största gemensamma faktor: \\(12x+18\\).</p>",
-  "s": "<p>Största gemensamma faktor är 6.</p><p><strong>Svar:</strong> \\(6(2x+3)\\).</p>",
-  "familj": "Bryta ut största gemensamma faktor",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "6*(2*x+3)",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "1.406",
-  "kap": 1,
-  "omr": "faktorisering",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "t": "<p>Faktorisera så långt som möjligt: \\(15a^2b+20ab^2\\).</p>",
-  "s": "<p>Båda termerna innehåller \\(5ab\\).</p><p><strong>Svar:</strong> \\(5ab(3a+4b)\\).</p>",
-  "familj": "Bryta ut största gemensamma faktor",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "5*a*b*(3*a+4*b)",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "1.407",
-  "kap": 1,
-  "omr": "faktorisering",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Faktorisera: \\(14x^2-21x\\).</p>",
-  "s": "<p>Största gemensamma faktor är \\(7x\\).</p><p><strong>Svar:</strong> \\(7x(2x-3)\\).</p>",
-  "familj": "Bryta ut största gemensamma faktor",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "7*x*(2*x-3)",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "1.408",
-  "kap": 1,
-  "omr": "multiplicera_uttryck",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Utveckla och förenkla \\((x+3)(x-5)\\).</p>",
-  "s": "<p>\\[(x+3)(x-5)=x^2-5x+3x-15=x^2-2x-15\\]</p>",
-  "familj": "Multiplicera två parenteser och använda identiteter",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "x^2-2*x-15",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "1.409",
-  "kap": 1,
-  "omr": "multiplicera_uttryck",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Utveckla \\((2x-1)^2\\).</p>",
-  "s": "<p>Använd kvadreringsregeln: \\((a-b)^2=a^2-2ab+b^2\\).</p><p><strong>Svar:</strong> \\(4x^2-4x+1\\).</p>",
-  "familj": "Multiplicera två parenteser och använda identiteter",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "4*x^2-4*x+1",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "uttryck"
-},
-{
-  "id": "2.401",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En mängd beskrivs av \\(f(t)=120\\cdot1{,}08^t\\). Vad är startvärdet?</p>",
-  "s": "<p>När \\(t=0\\) är exponentialfaktorn 1. Startvärdet är därför 120.</p>",
-  "familj": "Tolka exponentialfunktioner från graf och formel",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 120,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.402",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En mängd beskrivs av \\(f(t)=120\\cdot1{,}08^t\\). Hur stor är den procentuella ökningen per tidsenhet?</p>",
-  "s": "<p>Förändringsfaktorn 1,08 betyder en ökning med 8 %.</p>",
-  "familj": "Tolka exponentialfunktioner från graf och formel",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 8,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.403",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En population beskrivs av \\(P(t)=500\\cdot0{,}92^t\\). Hur stor är den procentuella minskningen per år?</p>",
-  "s": "<p>\\(0{,}92=1-0{,}08\\), alltså minskar populationen med 8 % per år.</p>",
-  "familj": "Tolka exponentialfunktioner från graf och formel",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 8,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.404",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vilken funktion beskriver ett startvärde 300 som ökar med 5 % per år?</p><p>A. \\(300+1{,}05t\\)<br>B. \\(300\\cdot1{,}05^t\\)<br>C. \\(1{,}05\\cdot300^t\\)<br>D. \\(300\\cdot0{,}95^t\\)</p>",
-  "s": "<p>Vid procentuell förändring upprepas multiplikation med förändringsfaktorn 1,05.</p><p><strong>Svar:</strong> B.</p>",
-  "familj": "Tolka exponentialfunktioner från graf och formel",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "B",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "modellering"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "2.405",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Ett värde är 200 från början och ökar med 10 % per år. Bestäm värdet efter 3 år.</p>",
-  "s": "<p>Modellen är \\(200\\cdot1{,}10^t\\).</p><p>\\[200\\cdot1{,}10^3=266{,}2\\]</p><p><strong>Svar:</strong> 266,2.</p>",
-  "familj": "Bestämma och använda exponentialfunktion",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 266.2,
-  "tolerans": 0.2,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.406",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "t": "<p>En exponentialfunktion har formen \\(f(x)=C\\cdot a^x\\). Det gäller att \\(f(0)=50\\) och \\(f(2)=72\\). Bestäm förändringsfaktorn \\(a\\).</p>",
-  "s": "<p>Från \\(f(0)=50\\) fås \\(C=50\\). Sedan \\(50a^2=72\\Rightarrow a^2=1{,}44\\Rightarrow a=1{,}20\\).</p><p><strong>Svar:</strong> 1,20.</p>",
-  "familj": "Bestämma och använda exponentialfunktion",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 1.2,
-  "tolerans": 0.02,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "resonemang"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.407",
-  "kap": 2,
-  "omr": "potensfunktioner",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Arean av likformiga figurer är proportionell mot längdskalan i kvadrat. Längderna tredubblas. Hur många gånger större blir arean?</p>",
-  "s": "<p>Areafaktorn är \\(3^2=9\\).</p><p><strong>Svar:</strong> 9 gånger.</p>",
-  "familj": "Skalning med potensfunktioner",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 9,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.408",
-  "kap": 2,
-  "omr": "potensfunktioner",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Volymen av likformiga kroppar är proportionell mot längdskalan i kubik. Alla längder halveras. Hur stor andel av den ursprungliga volymen återstår?</p>",
-  "s": "<p>Volymfaktorn är \\(0{,}5^3=0{,}125\\).</p><p><strong>Svar:</strong> 0,125.</p>",
-  "familj": "Skalning med potensfunktioner",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.125,
-  "tolerans": 0.002,
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.409",
-  "kap": 2,
-  "omr": "linjara_funktioner",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En kostnad beskrivs av \\(C(x)=75+12x\\), där \\(x\\) är antal hyrda timmar. Vad betyder talet 75?</p><p>A. Kostnad per timme<br>B. Fast startavgift<br>C. Antal timmar<br>D. Maximal kostnad</p>",
-  "s": "<p>Konstanttermen är kostnaden när \\(x=0\\), alltså den fasta avgiften.</p><p><strong>Svar:</strong> B.</p>",
-  "familj": "Tolka linjära modeller i en situation",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "B",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "modellering"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "2.410",
-  "kap": 2,
-  "omr": "linjara_funktioner",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En kostnad beskrivs av \\(C(x)=75+12x\\). Vad betyder talet 12?</p><p>A. Fast avgift<br>B. Kostnaden ökar med 12 kr per timme<br>C. Högsta antal timmar<br>D. Kostnaden minskar med 12 kr per timme</p>",
-  "s": "<p>Riktningskoefficienten 12 anger förändringen när \\(x\\) ökar med 1.</p><p><strong>Svar:</strong> B.</p>",
-  "familj": "Tolka linjära modeller i en situation",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "B",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "modellering"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "3.401",
-  "kap": 3,
-  "omr": "genomsnittlig_forandring",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Ett värde minskar från 1000 till 729 på 3 år med samma procentuella minskning varje år. Bestäm minskningen per år i procent.</p>",
-  "s": "<p>\\[a^3=729/1000=0{,}729\\Rightarrow a=0{,}90\\]</p><p>Det motsvarar en minskning med 10 % per år.</p>",
-  "familj": "Genomsnittlig årlig minskning",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 10,
-  "tolerans": 0.2,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "3.402",
-  "kap": 3,
-  "omr": "genomsnittlig_forandring",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Ett värde minskar från 500 till 320 på 2 år med samma procentuella minskning varje år. Bestäm minskningen per år.</p>",
-  "s": "<p>\\[a^2=320/500=0{,}64\\Rightarrow a=0{,}80\\]</p><p><strong>Svar:</strong> 20 % per år.</p>",
-  "familj": "Genomsnittlig årlig minskning",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 20,
-  "tolerans": 0.3,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "3.403",
-  "kap": 3,
-  "omr": "genomsnittlig_forandring",
-  "kurs": [
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Ett värde minskar från 1000 till 512 på 3 år med samma procentuella minskning varje år. Bestäm minskningen per år.</p>",
-  "s": "<p>\\[a^3=0{,}512\\Rightarrow a=0{,}80\\]</p><p><strong>Svar:</strong> 20 % per år.</p>",
-  "familj": "Genomsnittlig årlig minskning",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 20,
-  "tolerans": 0.3,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.401",
-  "kap": 4,
-  "omr": "pythagoras",
-  "kurs": [
-    "1a",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En rätvinklig triangel har kateterna 6 cm och 8 cm. Bestäm hypotenusan.</p>",
-  "s": "<p>\\[c=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\]</p>",
-  "familj": "Bestämma hypotenusan med Pythagoras sats",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 10,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.402",
-  "kap": 4,
-  "omr": "pythagoras",
-  "kurs": [
-    "1a",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En rätvinklig triangel har kateterna 7 cm och 24 cm. Bestäm hypotenusan.</p>",
-  "s": "<p>\\[c=\\sqrt{7^2+24^2}=\\sqrt{625}=25\\]</p>",
-  "familj": "Bestämma hypotenusan med Pythagoras sats",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 25,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.403",
-  "kap": 4,
-  "omr": "pythagoras",
-  "kurs": [
-    "1a",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Hypotenusan är 17 cm och ena kateten är 8 cm. Bestäm den andra kateten.</p>",
-  "s": "<p>\\[x=\\sqrt{17^2-8^2}=\\sqrt{225}=15\\]</p>",
-  "familj": "Bestämma en katet med Pythagoras sats",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 15,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.404",
-  "kap": 4,
-  "omr": "pythagoras",
-  "kurs": [
-    "1a",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "t": "<p>En rektangel har diagonal 13 m och ena sidan 5 m. Bestäm den andra sidans längd.</p>",
-  "s": "<p>Diagonalen är hypotenusa.</p><p>\\[x=\\sqrt{13^2-5^2}=\\sqrt{144}=12\\]</p><p><strong>Svar:</strong> 12 m.</p>",
-  "familj": "Pythagoras sats i problemlösning",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 12,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.405",
-  "kap": 4,
-  "omr": "sinus_cosinus_tangens",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>I en rätvinklig triangel känner du den motstående kateten och hypotenusan till en given vinkel. Vilket samband ska du använda?</p><p>A. sinus<br>B. cosinus<br>C. tangens<br>D. Pythagoras direkt utan vinkel</p>",
-  "s": "<p>Sinus är kvoten motstående katet genom hypotenusa.</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Välja rätt trigonometriskt samband",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "5.401",
-  "kap": 5,
-  "omr": "komplementhandelse",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Sannolikheten att en maskin stannar under ett pass är 0,18. Bestäm sannolikheten att den inte stannar.</p>",
-  "s": "<p>Komplementet har sannolikheten \\(1-0{,}18=0{,}82\\).</p>",
-  "familj": "Använda komplementhändelse i sannolikhet",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.82,
-  "tolerans": 0.01,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "5.402",
-  "kap": 5,
-  "omr": "komplementhandelse",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "t": "<p>Sannolikheten för träff i ett försök är 0,20. Två oberoende försök görs. Bestäm sannolikheten för minst en träff.</p>",
-  "s": "<p>Räkna via komplementet ”ingen träff”: \\(1-0{,}80^2=0{,}36\\).</p>",
-  "familj": "Använda komplementhändelse i sannolikhet",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.36,
-  "tolerans": 0.01,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "resonemang"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "5.403",
-  "kap": 5,
-  "omr": "komplementhandelse",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "t": "<p>Två vanliga tärningar kastas. Bestäm sannolikheten att minst en av dem visar en sexa.</p>",
-  "s": "<p>Komplementet är ingen sexa på någon tärning: \\(1-(5/6)^2=11/36\\approx0{,}306\\).</p>",
-  "familj": "Använda komplementhändelse i sannolikhet",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.306,
-  "tolerans": 0.006,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "resonemang"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "5.404",
-  "kap": 5,
-  "omr": "komplementhandelse",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Sannolikheten att det regnar i morgon anges till 35 %. Hur stor är sannolikheten att det inte regnar?</p>",
-  "s": "<p>\\[100\\%-35\\%=65\\%\\]</p>",
-  "familj": "Använda komplementhändelse i sannolikhet",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 65,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "5.405",
-  "kap": 5,
-  "omr": "oberoende_handelser",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "t": "<p>Ett rättvist mynt kastas 3 gånger. Bestäm sannolikheten för exakt 2 krona.</p>",
-  "s": "<p>Det finns \\(\\binom32=3\\) möjliga placeringar av de två kronorna. Varje följd har sannolikheten \\(1/8\\).</p><p>\\[P=3/8=0{,}375\\]</p>",
-  "familj": "Exakt antal träffar vid oberoende försök",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.375,
-  "tolerans": 0.005,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "resonemang"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "5.406",
-  "kap": 5,
-  "omr": "oberoende_handelser",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "t": "<p>Sannolikheten för träff är 0,30 i varje av två oberoende försök. Bestäm sannolikheten för exakt en träff.</p>",
-  "s": "<p>Träffen kan komma i första eller andra försöket: \\(2\\cdot0{,}30\\cdot0{,}70=0{,}42\\).</p>",
-  "familj": "Exakt antal träffar vid oberoende försök",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.42,
-  "tolerans": 0.006,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "5.407",
-  "kap": 5,
-  "omr": "oberoende_handelser",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "t": "<p>Ett rättvist mynt kastas 4 gånger. Bestäm sannolikheten för exakt 3 krona.</p>",
-  "s": "<p>\\(\\binom43=4\\) följder av totalt 16 ger exakt tre krona.</p><p>\\[P=4/16=0{,}25\\]</p>",
-  "familj": "Exakt antal träffar vid oberoende försök",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.25,
-  "tolerans": 0.005,
-  "självrättning": true,
-  "formaga": [
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "6.401",
-  "kap": 6,
-  "omr": "programmering",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Variabeln x har värdet 100. Raden <code>x = x*1.02</code> körs tre gånger. Vilket värde får x?</p>",
-  "s": "<p>Varje körning multiplicerar med 1,02: \\(100\\cdot1{,}02^3=106{,}1208\\).</p>",
-  "familj": "Matematik och enkla algoritmer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 106.1208,
-  "tolerans": 0.01,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "6.402",
-  "kap": 6,
-  "omr": "programmering",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Variabeln x börjar på 3. Raden <code>x = x + 4</code> körs fem gånger. Vilket slutvärde får x?</p>",
-  "s": "<p>Fem ökningar med 4 ger \\(3+5\\cdot4=23\\).</p>",
-  "familj": "Matematik och enkla algoritmer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 23,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "6.403",
-  "kap": 6,
-  "omr": "programmering",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En algoritm sätter <code>s = 0</code> och adderar sedan talen 1, 2, 3, 4 och 5 till s. Vilket slutvärde får s?</p>",
-  "s": "<p>\\(1+2+3+4+5=15\\).</p>",
-  "familj": "Matematik och enkla algoritmer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 15,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "6.404",
-  "kap": 6,
-  "omr": "programmering",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Variabeln x börjar på 3. Så länge x&lt;20 ersätts x med 2x. Hur många gånger utförs multiplikationen?</p>",
-  "s": "<p>Värdena blir 3 → 6 → 12 → 24. Multiplikationen utförs 3 gånger.</p>",
-  "familj": "Matematik och enkla algoritmer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 3,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "6.405",
-  "kap": 6,
-  "omr": "programmering",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En algoritm beräknar medelvärdet av 6, 10 och 14. Vilket värde ska den ge?</p>",
-  "s": "<p>\\[(6+10+14)/3=10\\]</p>",
-  "familj": "Matematik och enkla algoritmer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 10,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "6.406",
-  "kap": 6,
-  "omr": "programmering",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>För varje indata x beräknar en algoritm y = 2x + 1. Vad blir y när x = 4?</p>",
-  "s": "<p>\\[y=2\\cdot4+1=9\\]</p>",
-  "familj": "Matematik och enkla algoritmer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 9,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "6.407",
-  "kap": 6,
-  "omr": "programmering",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vad innebär raden <code>x = x*0.9</code> om den upprepas en gång per år?</p><p>A. x ökar med 90 %<br>B. x minskar med 10 %<br>C. x minskar med 90 %<br>D. x ökar med 10 %</p>",
-  "s": "<p>Multiplikation med 0,9 behåller 90 % av värdet, alltså minskar det med 10 %.</p><p><strong>Svar:</strong> B.</p>",
-  "familj": "Matematik och enkla algoritmer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "B",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "6.408",
-  "kap": 6,
-  "omr": "programmering",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>En variabel n börjar på 1. I varje steg ökas n med 1. När n blir 6 stoppas algoritmen. Hur många ökningar har gjorts?</p>",
-  "s": "<p>1 → 2 → 3 → 4 → 5 → 6 är fem ökningar.</p>",
-  "familj": "Matematik och enkla algoritmer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 5,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "6.409",
-  "kap": 6,
-  "omr": "matematikens_historia",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vilket talsystem förknippas historiskt med babylonisk matematik?</p><p>A. Bas 2<br>B. Bas 10 utan positionsvärde<br>C. Bas 60<br>D. Bas 100</p>",
-  "s": "<p>Babylonierna använde ett positionssystem med bas 60.</p><p><strong>Svar:</strong> C.</p>",
-  "familj": "Matematikens historia och utveckling",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "C",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "6.410",
-  "kap": 6,
-  "omr": "matematikens_historia",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vilken egenskap är central i det hindu-arabiska decimalsystemet?</p><p>A. Det saknar noll<br>B. Det är ett positionssystem med bas 10<br>C. Det använder bara bokstäver<br>D. Det har bas 60</p>",
-  "s": "<p>Det moderna decimalsystemet är ett positionssystem med bas 10 och använder noll som siffra och platshållare.</p><p><strong>Svar:</strong> B.</p>",
-  "familj": "Matematikens historia och utveckling",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "B",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "6.411",
-  "kap": 6,
-  "omr": "matematikens_historia",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vilken matematiker förknippas starkt med den axiomatiska framställningen av geometri i verket Elementa?</p><p>A. Euklides<br>B. Gauss<br>C. Euler<br>D. Pascal</p>",
-  "s": "<p>Euklides Elementa fick enorm betydelse för den axiomatiska geometrin.</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Matematikens historia och utveckling",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "6.412",
-  "kap": 6,
-  "omr": "matematikens_historia",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vem förknippas med införandet av koordinatgeometri och sambandet mellan algebra och geometri?</p><p>A. Descartes<br>B. Pythagoras ensam<br>C. Fibonacci<br>D. Cantor</p>",
-  "s": "<p>René Descartes förknippas starkt med den kartesiska koordinatgeometrin.</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Matematikens historia och utveckling",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "6.413",
-  "kap": 6,
-  "omr": "matematikens_historia",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vilket hjälpmedel utvecklades på 1600-talet för att förenkla stora multiplikationer genom att omvandla dem till additioner?</p><p>A. Logaritmer<br>B. Venn-diagram<br>C. Primtal<br>D. Negativa tal</p>",
-  "s": "<p>Logaritmer gjorde omfattande beräkningar betydligt enklare före elektroniska räknare.</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Matematikens historia och utveckling",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "6.414",
-  "kap": 6,
-  "omr": "matematikens_historia",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vilka två namn förknippas oberoende med utvecklingen av differential- och integralkalkylen på 1600-talet?</p><p>A. Newton och Leibniz<br>B. Euklides och Ptolemaios<br>C. Gauss och Cantor<br>D. Pascal och Fermat endast</p>",
-  "s": "<p>Newton och Leibniz utvecklade kalkylen oberoende av varandra och med olika notation.</p><p><strong>Svar:</strong> A.</p>",
-  "familj": "Matematikens historia och utveckling",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "A",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "6.415",
-  "kap": 6,
-  "omr": "matematikens_historia",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Vilket påstående om romerska siffror är korrekt jämfört med vårt decimalsystem?</p><p>A. De bildar ett modernt positionssystem med noll<br>B. De saknar ett positionsvärdessystem av samma typ som decimalsystemet<br>C. De använder bas 2<br>D. De kan bara skriva tal under 100</p>",
-  "s": "<p>Romerska siffror är inte ett positionssystem på samma sätt som vårt decimalsystem, vilket gör många skriftliga beräkningar mer omständliga.</p><p><strong>Svar:</strong> B.</p>",
-  "familj": "Matematikens historia och utveckling",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "val",
-  "rättSvar": "B",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp"
-  ],
-  "svarFormat": "val"
-},
-{
-  "id": "6.416",
-  "kap": 6,
-  "omr": "generella_samband",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "t": "<p>En figurserie har 4 stickor i figur 1, 7 i figur 2 och 10 i figur 3. Mönstret fortsätter på samma sätt. Hur många stickor har figur 13?</p>",
-  "s": "<p>Antalet ökar med 3 varje gång, så en formel är \\(3n+1\\). För \\(n=13\\): \\(3\\cdot13+1=40\\).</p><p><strong>Svar:</strong> 40.</p>",
-  "familj": "Algebraiska samband och problemlösning",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 40,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "7.401",
-  "kap": 7,
-  "omr": "yrkesformler",
-  "kurs": [
-    "1a"
-  ],
-  "niva": "E",
-  "poang": "1/0/0",
-  "t": "<p>Flödet i en ledning ges av \\(Q=vt\\), där \\(v\\) är liter per minut och \\(t\\) minuter. Bestäm volymen när \\(v=18\\) l/min och \\(t=2{,}5\\) min.</p>",
-  "s": "<p>\\[Q=18\\cdot2{,}5=45\\]</p><p><strong>Svar:</strong> 45 liter.</p>",
-  "familj": "Använda yrkesrelaterade formler",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 45,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.406",
-  "kap": 4,
-  "omr": "pythagoras",
-  "kurs": [
-    "1a",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>En rektangulär skärm har diagonalen 65 cm och höjden 39 cm.</p><p>Bestäm skärmens bredd.</p>",
-  "s": "<p><strong>Metod:</strong> Diagonalen är hypotenusa. Använd Pythagoras sats och lös ut den okända kateten.</p><p>\\[b=\\sqrt{65^2-39^2}=52\\]</p><p><strong>Svar:</strong> 52 cm.</p>",
-  "familj": "Bestämma en katet med Pythagoras sats",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 52,
-  "tolerans": 0.5,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.407",
-  "kap": 4,
-  "omr": "pythagoras",
-  "kurs": [
-    "1a",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>En 10,0 m lång stege når 8,0 m upp på en vägg.</p><p>Hur långt står stegens fot från väggen?</p>",
-  "s": "<p><strong>Metod:</strong> Stegen är hypotenusan. Den horisontella sträckan fås med Pythagoras sats.</p><p>\\[x=\\sqrt{10^2-8^2}=6{,}0\\]</p><p><strong>Svar:</strong> 6,0 m.</p>",
-  "familj": "Bestämma en katet med Pythagoras sats",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 6.0,
-  "tolerans": 0.1,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.408",
-  "kap": 4,
-  "omr": "pythagoras",
-  "kurs": [
-    "1a",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>En rektangulär gård är 24 m lång och 18 m bred.</p><p>Hur lång är den raka diagonala sträckan mellan två motsatta hörn?</p>",
-  "s": "<p><strong>Metod:</strong> Gårdens sidor är kateter i en rätvinklig triangel.</p><p>\\[d=\\sqrt{24^2+18^2}=30\\]</p><p><strong>Svar:</strong> 30 m.</p>",
-  "familj": "Bestämma hypotenusan med Pythagoras sats",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 30,
-  "tolerans": 0.5,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.409",
-  "kap": 4,
-  "omr": "pythagoras",
-  "kurs": [
-    "1a",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>En vajer går från marken till toppen av en 12 m hög mast. Vajerns markfäste ligger 5,0 m från mastens fot.</p><p>Hur lång är vajern?</p>",
-  "s": "<p><strong>Metod:</strong> Masten och marksträckan är kateter. Vajern är hypotenusan.</p><p>\\[l=\\sqrt{12^2+5^2}=13\\]</p><p><strong>Svar:</strong> 13 m.</p>",
-  "familj": "Bestämma hypotenusan med Pythagoras sats",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 13,
-  "tolerans": 0.2,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "modellering"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.410",
-  "kap": 4,
-  "omr": "sinus_cosinus_tangens",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>I en rätvinklig triangel känner du en vinkel och den motstående kateten. Du söker den närliggande kateten.</p><p>Vilket trigonometriskt samband är direkt användbart?</p>",
-  "s": "<p><strong>Metod:</strong> Tangens kopplar samman motstående och närliggande katet: \\(\\tan v=\\frac{\\text{motstående}}{\\text{närliggande}}\\).</p><p><strong>Svar:</strong> tangens.</p>",
-  "familj": "Välja rätt trigonometriskt samband",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "text",
-  "rättSvar": "tangens",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "svarFormat": "text"
-},
-{
-  "id": "4.411",
-  "kap": 4,
-  "omr": "sinus_cosinus_tangens",
-  "kurs": [
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>I en rätvinklig triangel känner du hypotenusan och en vinkel. Du söker den motstående kateten.</p><p>Vilket trigonometriskt samband är direkt användbart?</p>",
-  "s": "<p><strong>Metod:</strong> Sinus kopplar samman motstående katet och hypotenusa: \\(\\sin v=\\frac{\\text{motstående}}{\\text{hypotenusa}}\\).</p><p><strong>Svar:</strong> sinus.</p>",
-  "familj": "Välja rätt trigonometriskt samband",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "text",
-  "rättSvar": "sinus",
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "svarFormat": "text"
-},
-{
-  "id": "2.411",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>En exponentialfunktion är \\(f(x)=250\\cdot1{,}08^x\\).</p><p>Hur stor är den procentuella förändringen när \\(x\\) ökar med 1?</p>",
-  "s": "<p><strong>Metod:</strong> Förändringsfaktorn 1,08 betyder en ökning med \\(1{,}08-1=0{,}08=8\\,\\%\\).</p><p><strong>Svar:</strong> 8 %.</p>",
-  "familj": "Tolka exponentialfunktioner från graf och formel",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 8,
-  "tolerans": 0.1,
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.412",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "1a",
-    "1b",
-    "1c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>En exponentialfunktion har formen \\(g(x)=1200\\cdot0{,}92^x\\).</p><p>Vilket är funktionens startvärde?</p>",
-  "s": "<p><strong>Metod:</strong> Startvärdet är värdet när \\(x=0\\). Eftersom \\(0{,}92^0=1\\) blir \\(g(0)=1200\\).</p><p><strong>Svar:</strong> 1200.</p>",
-  "familj": "Tolka exponentialfunktioner från graf och formel",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 1200,
-  "tolerans": 0,
-  "självrättning": true,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "svarFormat": "numeriskt"
-},
+  {
+    "id": "0.401",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal är störst?</p><p>A. 0,507<br>B. 0,57<br>C. 0,509<br>D. 0,55</p>",
+    "s": "<p>Jämför tiondelar och sedan hundradelar: 0,57 = 0,570 är störst.</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Jämföra och ordna decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "0.402",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal är minst?</p><p>A. 1,08<br>B. 1,008<br>C. 1,080<br>D. 1,018</p>",
+    "s": "<p>Skriv med lika många decimaler: 1,080; 1,008; 1,080; 1,018. Minst är 1,008.</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Jämföra och ordna decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "0.403",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal ligger mellan 2,49 och 2,50?</p><p>A. 2,405<br>B. 2,495<br>C. 2,505<br>D. 2,59</p>",
+    "s": "<p>2,495 är större än 2,490 men mindre än 2,500.</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Jämföra och ordna decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "0.404",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket påstående är korrekt?</p><p>A. 0,7 &lt; 0,65<br>B. 0,305 &gt; 0,35<br>C. 1,099 &lt; 1,10<br>D. 2,08 &gt; 2,8</p>",
+    "s": "<p>1,10 = 1,100, så 1,099 är mindre än 1,100.</p><p><strong>Svar:</strong> C.</p>",
+    "familj": "Jämföra och ordna decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "0.405",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Temperaturen är −7 °C på morgonen och 4 °C på eftermiddagen. Hur många grader har temperaturen stigit?</p>",
+    "s": "<p>Förändringen är \\(4-(-7)=11\\).</p><p><strong>Svar:</strong> 11 °C.</p>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.406",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett konto står på −350 kr. Du sätter in 500 kr. Vilket saldo får kontot?</p>",
+    "s": "<p>\\[-350+500=150\\]</p><p><strong>Svar:</strong> 150 kr.</p>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 150,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.407",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En hiss står på våning 3 och åker 7 våningar ned. Vilken våning hamnar den på om entréplanet räknas som våning 0?</p>",
+    "s": "<p>\\[3-7=-4\\]</p><p><strong>Svar:</strong> Våning −4.</p>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.408",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En dykare befinner sig 6 m under vattenytan, alltså på nivån −6 m. Hon stiger 2,5 m. Vilken nivå befinner hon sig på?</p>",
+    "s": "<p>\\[-6+2{,}5=-3{,}5\\]</p><p><strong>Svar:</strong> −3,5 m.</p>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3.5,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.409",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla 0,003 km² till m².</p>",
+    "s": "<p>\\(1\\,\\mathrm{km^2}=1\\,000\\,000\\,\\mathrm{m^2}\\). Därför \\(0{,}003\\cdot1\\,000\\,000=3000\\).</p><p><strong>Svar:</strong> 3000 m².</p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3000,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.410",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla 2,5 timmar till sekunder.</p>",
+    "s": "<p>\\[2{,}5\\cdot60\\cdot60=9000\\]</p><p><strong>Svar:</strong> 9000 s.</p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9000,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.411",
+    "kap": 0,
+    "omr": "enhetsbyten",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Omvandla 45 000 cm² till m².</p>",
+    "s": "<p>\\(1\\,\\mathrm{m^2}=10\\,000\\,\\mathrm{cm^2}\\). Alltså \\(45\\,000/10\\,000=4{,}5\\).</p><p><strong>Svar:</strong> 4,5 m².</p>",
+    "familj": "Omvandla area- och tidsenheter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.5,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.412",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv 0,00072 i grundpotensform.</p>",
+    "s": "<p>Flytta decimaltecknet fyra steg åt höger: \\(0{,}00072=7{,}2\\cdot10^{-4}\\).</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "7.2*10^-4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "0.413",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv 12 300 000 i grundpotensform.</p>",
+    "s": "<p>\\(12\\,300\\,000=1{,}23\\cdot10^7\\).</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "1.23*10^7",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "0.414",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv 0,000000056 i grundpotensform.</p>",
+    "s": "<p>\\(0{,}000000056=5{,}6\\cdot10^{-8}\\).</p>",
+    "familj": "Skriva tal i grundpotensform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "5.6*10^-8",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "0.415",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(3{,}4\\cdot10^5\\) i decimalform.</p>",
+    "s": "<p>Flytta decimaltecknet fem steg åt höger.</p><p><strong>Svar:</strong> 340 000.</p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 340000,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.416",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(7{,}2\\cdot10^{-3}\\) i decimalform.</p>",
+    "s": "<p>Flytta decimaltecknet tre steg åt vänster.</p><p><strong>Svar:</strong> 0,0072.</p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0072,
+    "tolerans": 0.0001,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.417",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(1{,}05\\cdot10^6\\) i decimalform.</p>",
+    "s": "<p>\\(1{,}05\\cdot10^6=1\\,050\\,000\\).</p>",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1050000,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "0.418",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((-2)^4-(-2^4)\\).</p>",
+    "s": "<p>\\((-2)^4=16\\), medan \\(-2^4=-(2^4)=-16\\). Alltså \\(16-(-16)=32\\).</p><p><strong>Svar:</strong> 32.</p>",
+    "familj": "Potensuttryck med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.401",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En taxi tar 55 kr i startavgift och 18 kr per kilometer. Skriv kostnaden för \\(x\\) kilometer.</p>",
+    "s": "<p>Startavgiften är konstant och kilometerkostnaden är \\(18x\\).</p><p><strong>Svar:</strong> \\(55+18x\\).</p>",
+    "familj": "Översätta en situation till ett algebraiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "55+18*x",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.402",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rektangel har längden \\(x+3\\) cm och bredden \\(x\\) cm. Skriv ett uttryck för omkretsen.</p>",
+    "s": "<p>\\[O=2(x+3)+2x=4x+6\\]</p><p><strong>Svar:</strong> \\(4x+6\\).</p>",
+    "familj": "Översätta en situation till ett algebraiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "4*x+6",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.403",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En biobiljett kostar \\(p\\) kr. Tre biljetter köps och dessutom betalas en serviceavgift på 25 kr. Skriv totalkostnaden.</p>",
+    "s": "<p>Tre biljetter kostar \\(3p\\), och avgiften läggs till.</p><p><strong>Svar:</strong> \\(3p+25\\).</p>",
+    "familj": "Översätta en situation till ett algebraiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "3*p+25",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.404",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett tal \\(x\\) först minskas med 4 och resultatet multipliceras sedan med 3. Skriv uttrycket.</p>",
+    "s": "<p>Först får vi \\(x-4\\). Hela resultatet multipliceras med 3.</p><p><strong>Svar:</strong> \\(3(x-4)\\).</p>",
+    "familj": "Översätta en situation till ett algebraiskt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "3*(x-4)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.405",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera genom att bryta ut största gemensamma faktor: \\(12x+18\\).</p>",
+    "s": "<p>Största gemensamma faktor är 6.</p><p><strong>Svar:</strong> \\(6(2x+3)\\).</p>",
+    "familj": "Bryta ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "6*(2*x+3)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.406",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Faktorisera så långt som möjligt: \\(15a^2b+20ab^2\\).</p>",
+    "s": "<p>Båda termerna innehåller \\(5ab\\).</p><p><strong>Svar:</strong> \\(5ab(3a+4b)\\).</p>",
+    "familj": "Bryta ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "5*a*b*(3*a+4*b)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.407",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Faktorisera: \\(14x^2-21x\\).</p>",
+    "s": "<p>Största gemensamma faktor är \\(7x\\).</p><p><strong>Svar:</strong> \\(7x(2x-3)\\).</p>",
+    "familj": "Bryta ut största gemensamma faktor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "7*x*(2*x-3)",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.408",
+    "kap": 1,
+    "omr": "multiplicera_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Utveckla och förenkla \\((x+3)(x-5)\\).</p>",
+    "s": "<p>\\[(x+3)(x-5)=x^2-5x+3x-15=x^2-2x-15\\]</p>",
+    "familj": "Multiplicera två parenteser och använda identiteter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "x^2-2*x-15",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.409",
+    "kap": 1,
+    "omr": "multiplicera_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Utveckla \\((2x-1)^2\\).</p>",
+    "s": "<p>Använd kvadreringsregeln: \\((a-b)^2=a^2-2ab+b^2\\).</p><p><strong>Svar:</strong> \\(4x^2-4x+1\\).</p>",
+    "familj": "Multiplicera två parenteser och använda identiteter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "4*x^2-4*x+1",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.401",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En mängd beskrivs av \\(f(t)=120\\cdot1{,}08^t\\). Vad är startvärdet?</p>",
+    "s": "<p>När \\(t=0\\) är exponentialfaktorn 1. Startvärdet är därför 120.</p>",
+    "familj": "Tolka exponentialfunktioner från graf och formel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.402",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En mängd beskrivs av \\(f(t)=120\\cdot1{,}08^t\\). Hur stor är den procentuella ökningen per tidsenhet?</p>",
+    "s": "<p>Förändringsfaktorn 1,08 betyder en ökning med 8 %.</p>",
+    "familj": "Tolka exponentialfunktioner från graf och formel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.403",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En population beskrivs av \\(P(t)=500\\cdot0{,}92^t\\). Hur stor är den procentuella minskningen per år?</p>",
+    "s": "<p>\\(0{,}92=1-0{,}08\\), alltså minskar populationen med 8 % per år.</p>",
+    "familj": "Tolka exponentialfunktioner från graf och formel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.404",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken funktion beskriver ett startvärde 300 som ökar med 5 % per år?</p><p>A. \\(300+1{,}05t\\)<br>B. \\(300\\cdot1{,}05^t\\)<br>C. \\(1{,}05\\cdot300^t\\)<br>D. \\(300\\cdot0{,}95^t\\)</p>",
+    "s": "<p>Vid procentuell förändring upprepas multiplikation med förändringsfaktorn 1,05.</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Tolka exponentialfunktioner från graf och formel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "2.405",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett värde är 200 från början och ökar med 10 % per år. Bestäm värdet efter 3 år.</p>",
+    "s": "<p>Modellen är \\(200\\cdot1{,}10^t\\).</p><p>\\[200\\cdot1{,}10^3=266{,}2\\]</p><p><strong>Svar:</strong> 266,2.</p>",
+    "familj": "Bestämma och använda exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 266.2,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.406",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En exponentialfunktion har formen \\(f(x)=C\\cdot a^x\\). Det gäller att \\(f(0)=50\\) och \\(f(2)=72\\). Bestäm förändringsfaktorn \\(a\\).</p>",
+    "s": "<p>Från \\(f(0)=50\\) fås \\(C=50\\). Sedan \\(50a^2=72\\Rightarrow a^2=1{,}44\\Rightarrow a=1{,}20\\).</p><p><strong>Svar:</strong> 1,20.</p>",
+    "familj": "Bestämma och använda exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.2,
+    "tolerans": 0.02,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.407",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Arean av likformiga figurer är proportionell mot längdskalan i kvadrat. Längderna tredubblas. Hur många gånger större blir arean?</p>",
+    "s": "<p>Areafaktorn är \\(3^2=9\\).</p><p><strong>Svar:</strong> 9 gånger.</p>",
+    "familj": "Skalning med potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.408",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Volymen av likformiga kroppar är proportionell mot längdskalan i kubik. Alla längder halveras. Hur stor andel av den ursprungliga volymen återstår?</p>",
+    "s": "<p>Volymfaktorn är \\(0{,}5^3=0{,}125\\).</p><p><strong>Svar:</strong> 0,125.</p>",
+    "familj": "Skalning med potensfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.125,
+    "tolerans": 0.002,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.409",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kostnad beskrivs av \\(C(x)=75+12x\\), där \\(x\\) är antal hyrda timmar. Vad betyder talet 75?</p><p>A. Kostnad per timme<br>B. Fast startavgift<br>C. Antal timmar<br>D. Maximal kostnad</p>",
+    "s": "<p>Konstanttermen är kostnaden när \\(x=0\\), alltså den fasta avgiften.</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Tolka linjära modeller i en situation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "2.410",
+    "kap": 2,
+    "omr": "linjara_funktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kostnad beskrivs av \\(C(x)=75+12x\\). Vad betyder talet 12?</p><p>A. Fast avgift<br>B. Kostnaden ökar med 12 kr per timme<br>C. Högsta antal timmar<br>D. Kostnaden minskar med 12 kr per timme</p>",
+    "s": "<p>Riktningskoefficienten 12 anger förändringen när \\(x\\) ökar med 1.</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Tolka linjära modeller i en situation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "3.401",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett värde minskar från 1000 till 729 på 3 år med samma procentuella minskning varje år. Bestäm minskningen per år i procent.</p>",
+    "s": "<p>\\[a^3=729/1000=0{,}729\\Rightarrow a=0{,}90\\]</p><p>Det motsvarar en minskning med 10 % per år.</p>",
+    "familj": "Genomsnittlig årlig minskning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.402",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett värde minskar från 500 till 320 på 2 år med samma procentuella minskning varje år. Bestäm minskningen per år.</p>",
+    "s": "<p>\\[a^2=320/500=0{,}64\\Rightarrow a=0{,}80\\]</p><p><strong>Svar:</strong> 20 % per år.</p>",
+    "familj": "Genomsnittlig årlig minskning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0.3,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.403",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett värde minskar från 1000 till 512 på 3 år med samma procentuella minskning varje år. Bestäm minskningen per år.</p>",
+    "s": "<p>\\[a^3=0{,}512\\Rightarrow a=0{,}80\\]</p><p><strong>Svar:</strong> 20 % per år.</p>",
+    "familj": "Genomsnittlig årlig minskning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0.3,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.401",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har kateterna 6 cm och 8 cm. Bestäm hypotenusan.</p>",
+    "s": "<p>\\[c=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\]</p>",
+    "familj": "Bestämma hypotenusan med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.402",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har kateterna 7 cm och 24 cm. Bestäm hypotenusan.</p>",
+    "s": "<p>\\[c=\\sqrt{7^2+24^2}=\\sqrt{625}=25\\]</p>",
+    "familj": "Bestämma hypotenusan med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.403",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hypotenusan är 17 cm och ena kateten är 8 cm. Bestäm den andra kateten.</p>",
+    "s": "<p>\\[x=\\sqrt{17^2-8^2}=\\sqrt{225}=15\\]</p>",
+    "familj": "Bestämma en katet med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.404",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En rektangel har diagonal 13 m och ena sidan 5 m. Bestäm den andra sidans längd.</p>",
+    "s": "<p>Diagonalen är hypotenusa.</p><p>\\[x=\\sqrt{13^2-5^2}=\\sqrt{144}=12\\]</p><p><strong>Svar:</strong> 12 m.</p>",
+    "familj": "Pythagoras sats i problemlösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.405",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel känner du den motstående kateten och hypotenusan till en given vinkel. Vilket samband ska du använda?</p><p>A. sinus<br>B. cosinus<br>C. tangens<br>D. Pythagoras direkt utan vinkel</p>",
+    "s": "<p>Sinus är kvoten motstående katet genom hypotenusa.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "5.401",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sannolikheten att en maskin stannar under ett pass är 0,18. Bestäm sannolikheten att den inte stannar.</p>",
+    "s": "<p>Komplementet har sannolikheten \\(1-0{,}18=0{,}82\\).</p>",
+    "familj": "Använda komplementhändelse i sannolikhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.82,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.402",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Sannolikheten för träff i ett försök är 0,20. Två oberoende försök görs. Bestäm sannolikheten för minst en träff.</p>",
+    "s": "<p>Räkna via komplementet ”ingen träff”: \\(1-0{,}80^2=0{,}36\\).</p>",
+    "familj": "Använda komplementhändelse i sannolikhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.36,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.403",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två vanliga tärningar kastas. Bestäm sannolikheten att minst en av dem visar en sexa.</p>",
+    "s": "<p>Komplementet är ingen sexa på någon tärning: \\(1-(5/6)^2=11/36\\approx0{,}306\\).</p>",
+    "familj": "Använda komplementhändelse i sannolikhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.306,
+    "tolerans": 0.006,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.404",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sannolikheten att det regnar i morgon anges till 35 %. Hur stor är sannolikheten att det inte regnar?</p>",
+    "s": "<p>\\[100\\%-35\\%=65\\%\\]</p>",
+    "familj": "Använda komplementhändelse i sannolikhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 65,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.405",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett rättvist mynt kastas 3 gånger. Bestäm sannolikheten för exakt 2 krona.</p>",
+    "s": "<p>Det finns \\(\\binom32=3\\) möjliga placeringar av de två kronorna. Varje följd har sannolikheten \\(1/8\\).</p><p>\\[P=3/8=0{,}375\\]</p>",
+    "familj": "Exakt antal träffar vid oberoende försök",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.375,
+    "tolerans": 0.005,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.406",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Sannolikheten för träff är 0,30 i varje av två oberoende försök. Bestäm sannolikheten för exakt en träff.</p>",
+    "s": "<p>Träffen kan komma i första eller andra försöket: \\(2\\cdot0{,}30\\cdot0{,}70=0{,}42\\).</p>",
+    "familj": "Exakt antal träffar vid oberoende försök",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.42,
+    "tolerans": 0.006,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.407",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett rättvist mynt kastas 4 gånger. Bestäm sannolikheten för exakt 3 krona.</p>",
+    "s": "<p>\\(\\binom43=4\\) följder av totalt 16 ger exakt tre krona.</p><p>\\[P=4/16=0{,}25\\]</p>",
+    "familj": "Exakt antal träffar vid oberoende försök",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.25,
+    "tolerans": 0.005,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.401",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Variabeln x har värdet 100. Raden <code>x = x*1.02</code> körs tre gånger. Vilket värde får x?</p>",
+    "s": "<p>Varje körning multiplicerar med 1,02: \\(100\\cdot1{,}02^3=106{,}1208\\).</p>",
+    "familj": "Matematik och enkla algoritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 106.1208,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.402",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Variabeln x börjar på 3. Raden <code>x = x + 4</code> körs fem gånger. Vilket slutvärde får x?</p>",
+    "s": "<p>Fem ökningar med 4 ger \\(3+5\\cdot4=23\\).</p>",
+    "familj": "Matematik och enkla algoritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 23,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.403",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En algoritm sätter <code>s = 0</code> och adderar sedan talen 1, 2, 3, 4 och 5 till s. Vilket slutvärde får s?</p>",
+    "s": "<p>\\(1+2+3+4+5=15\\).</p>",
+    "familj": "Matematik och enkla algoritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.404",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Variabeln x börjar på 3. Så länge x&lt;20 ersätts x med 2x. Hur många gånger utförs multiplikationen?</p>",
+    "s": "<p>Värdena blir 3 → 6 → 12 → 24. Multiplikationen utförs 3 gånger.</p>",
+    "familj": "Matematik och enkla algoritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.405",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En algoritm beräknar medelvärdet av 6, 10 och 14. Vilket värde ska den ge?</p>",
+    "s": "<p>\\[(6+10+14)/3=10\\]</p>",
+    "familj": "Matematik och enkla algoritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.406",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För varje indata x beräknar en algoritm y = 2x + 1. Vad blir y när x = 4?</p>",
+    "s": "<p>\\[y=2\\cdot4+1=9\\]</p>",
+    "familj": "Matematik och enkla algoritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.407",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vad innebär raden <code>x = x*0.9</code> om den upprepas en gång per år?</p><p>A. x ökar med 90 %<br>B. x minskar med 10 %<br>C. x minskar med 90 %<br>D. x ökar med 10 %</p>",
+    "s": "<p>Multiplikation med 0,9 behåller 90 % av värdet, alltså minskar det med 10 %.</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Matematik och enkla algoritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "6.408",
+    "kap": 6,
+    "omr": "programmering",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En variabel n börjar på 1. I varje steg ökas n med 1. När n blir 6 stoppas algoritmen. Hur många ökningar har gjorts?</p>",
+    "s": "<p>1 → 2 → 3 → 4 → 5 → 6 är fem ökningar.</p>",
+    "familj": "Matematik och enkla algoritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.409",
+    "kap": 6,
+    "omr": "matematikens_historia",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket talsystem förknippas historiskt med babylonisk matematik?</p><p>A. Bas 2<br>B. Bas 10 utan positionsvärde<br>C. Bas 60<br>D. Bas 100</p>",
+    "s": "<p>Babylonierna använde ett positionssystem med bas 60.</p><p><strong>Svar:</strong> C.</p>",
+    "familj": "Matematikens historia och utveckling",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "6.410",
+    "kap": 6,
+    "omr": "matematikens_historia",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken egenskap är central i det hindu-arabiska decimalsystemet?</p><p>A. Det saknar noll<br>B. Det är ett positionssystem med bas 10<br>C. Det använder bara bokstäver<br>D. Det har bas 60</p>",
+    "s": "<p>Det moderna decimalsystemet är ett positionssystem med bas 10 och använder noll som siffra och platshållare.</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Matematikens historia och utveckling",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "6.411",
+    "kap": 6,
+    "omr": "matematikens_historia",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken matematiker förknippas starkt med den axiomatiska framställningen av geometri i verket Elementa?</p><p>A. Euklides<br>B. Gauss<br>C. Euler<br>D. Pascal</p>",
+    "s": "<p>Euklides Elementa fick enorm betydelse för den axiomatiska geometrin.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Matematikens historia och utveckling",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "6.412",
+    "kap": 6,
+    "omr": "matematikens_historia",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vem förknippas med införandet av koordinatgeometri och sambandet mellan algebra och geometri?</p><p>A. Descartes<br>B. Pythagoras ensam<br>C. Fibonacci<br>D. Cantor</p>",
+    "s": "<p>René Descartes förknippas starkt med den kartesiska koordinatgeometrin.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Matematikens historia och utveckling",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "6.413",
+    "kap": 6,
+    "omr": "matematikens_historia",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket hjälpmedel utvecklades på 1600-talet för att förenkla stora multiplikationer genom att omvandla dem till additioner?</p><p>A. Logaritmer<br>B. Venn-diagram<br>C. Primtal<br>D. Negativa tal</p>",
+    "s": "<p>Logaritmer gjorde omfattande beräkningar betydligt enklare före elektroniska räknare.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Matematikens historia och utveckling",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "6.414",
+    "kap": 6,
+    "omr": "matematikens_historia",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilka två namn förknippas oberoende med utvecklingen av differential- och integralkalkylen på 1600-talet?</p><p>A. Newton och Leibniz<br>B. Euklides och Ptolemaios<br>C. Gauss och Cantor<br>D. Pascal och Fermat endast</p>",
+    "s": "<p>Newton och Leibniz utvecklade kalkylen oberoende av varandra och med olika notation.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Matematikens historia och utveckling",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "6.415",
+    "kap": 6,
+    "omr": "matematikens_historia",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket påstående om romerska siffror är korrekt jämfört med vårt decimalsystem?</p><p>A. De bildar ett modernt positionssystem med noll<br>B. De saknar ett positionsvärdessystem av samma typ som decimalsystemet<br>C. De använder bas 2<br>D. De kan bara skriva tal under 100</p>",
+    "s": "<p>Romerska siffror är inte ett positionssystem på samma sätt som vårt decimalsystem, vilket gör många skriftliga beräkningar mer omständliga.</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Matematikens historia och utveckling",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "val"
+  },
+  {
+    "id": "6.416",
+    "kap": 6,
+    "omr": "generella_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En figurserie har 4 stickor i figur 1, 7 i figur 2 och 10 i figur 3. Mönstret fortsätter på samma sätt. Hur många stickor har figur 13?</p>",
+    "s": "<p>Antalet ökar med 3 varje gång, så en formel är \\(3n+1\\). För \\(n=13\\): \\(3\\cdot13+1=40\\).</p><p><strong>Svar:</strong> 40.</p>",
+    "familj": "Algebraiska samband och problemlösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "7.401",
+    "kap": 7,
+    "omr": "yrkesformler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Flödet i en ledning ges av \\(Q=vt\\), där \\(v\\) är liter per minut och \\(t\\) minuter. Bestäm volymen när \\(v=18\\) l/min och \\(t=2{,}5\\) min.</p>",
+    "s": "<p>\\[Q=18\\cdot2{,}5=45\\]</p><p><strong>Svar:</strong> 45 liter.</p>",
+    "familj": "Använda yrkesrelaterade formler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 45,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.406",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En rektangulär skärm har diagonalen 65 cm och höjden 39 cm.</p><p>Bestäm skärmens bredd.</p>",
+    "s": "<p><strong>Metod:</strong> Diagonalen är hypotenusa. Använd Pythagoras sats och lös ut den okända kateten.</p><p>\\[b=\\sqrt{65^2-39^2}=52\\]</p><p><strong>Svar:</strong> 52 cm.</p>",
+    "familj": "Bestämma en katet med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 52,
+    "tolerans": 0.5,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.407",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En 10,0 m lång stege når 8,0 m upp på en vägg.</p><p>Hur långt står stegens fot från väggen?</p>",
+    "s": "<p><strong>Metod:</strong> Stegen är hypotenusan. Den horisontella sträckan fås med Pythagoras sats.</p><p>\\[x=\\sqrt{10^2-8^2}=6{,}0\\]</p><p><strong>Svar:</strong> 6,0 m.</p>",
+    "familj": "Bestämma en katet med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.408",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En rektangulär gård är 24 m lång och 18 m bred.</p><p>Hur lång är den raka diagonala sträckan mellan två motsatta hörn?</p>",
+    "s": "<p><strong>Metod:</strong> Gårdens sidor är kateter i en rätvinklig triangel.</p><p>\\[d=\\sqrt{24^2+18^2}=30\\]</p><p><strong>Svar:</strong> 30 m.</p>",
+    "familj": "Bestämma hypotenusan med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 0.5,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.409",
+    "kap": 4,
+    "omr": "pythagoras",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En vajer går från marken till toppen av en 12 m hög mast. Vajerns markfäste ligger 5,0 m från mastens fot.</p><p>Hur lång är vajern?</p>",
+    "s": "<p><strong>Metod:</strong> Masten och marksträckan är kateter. Vajern är hypotenusan.</p><p>\\[l=\\sqrt{12^2+5^2}=13\\]</p><p><strong>Svar:</strong> 13 m.</p>",
+    "familj": "Bestämma hypotenusan med Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.410",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>I en rätvinklig triangel känner du en vinkel och den motstående kateten. Du söker den närliggande kateten.</p><p>Vilket trigonometriskt samband är direkt användbart?</p>",
+    "s": "<p><strong>Metod:</strong> Tangens kopplar samman motstående och närliggande katet: \\(\\tan v=\\frac{\\text{motstående}}{\\text{närliggande}}\\).</p><p><strong>Svar:</strong> tangens.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "tangens",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "text"
+  },
+  {
+    "id": "4.411",
+    "kap": 4,
+    "omr": "sinus_cosinus_tangens",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>I en rätvinklig triangel känner du hypotenusan och en vinkel. Du söker den motstående kateten.</p><p>Vilket trigonometriskt samband är direkt användbart?</p>",
+    "s": "<p><strong>Metod:</strong> Sinus kopplar samman motstående katet och hypotenusa: \\(\\sin v=\\frac{\\text{motstående}}{\\text{hypotenusa}}\\).</p><p><strong>Svar:</strong> sinus.</p>",
+    "familj": "Välja rätt trigonometriskt samband",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "sinus",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "text"
+  },
+  {
+    "id": "2.411",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En exponentialfunktion är \\(f(x)=250\\cdot1{,}08^x\\).</p><p>Hur stor är den procentuella förändringen när \\(x\\) ökar med 1?</p>",
+    "s": "<p><strong>Metod:</strong> Förändringsfaktorn 1,08 betyder en ökning med \\(1{,}08-1=0{,}08=8\\,\\%\\).</p><p><strong>Svar:</strong> 8 %.</p>",
+    "familj": "Tolka exponentialfunktioner från graf och formel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.412",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En exponentialfunktion har formen \\(g(x)=1200\\cdot0{,}92^x\\).</p><p>Vilket är funktionens startvärde?</p>",
+    "s": "<p><strong>Metod:</strong> Startvärdet är värdet när \\(x=0\\). Eftersom \\(0{,}92^0=1\\) blir \\(g(0)=1200\\).</p><p><strong>Svar:</strong> 1200.</p>",
+    "familj": "Tolka exponentialfunktioner från graf och formel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1200,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt"
+  },
   {
     "id": "1.410",
     "kap": 1,
@@ -66495,7 +66681,7 @@ window.BANKMA1 = [
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 45.0,
+    "rättSvar": 45,
     "tolerans": 0.6749999999999999,
     "självrättning": true,
     "formaga": [
@@ -66543,7 +66729,7 @@ window.BANKMA1 = [
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 18.0,
+    "rättSvar": 18,
     "tolerans": 0.27,
     "självrättning": true,
     "formaga": [
@@ -66567,7 +66753,7 @@ window.BANKMA1 = [
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 10.0,
+    "rättSvar": 10,
     "tolerans": 0.15,
     "självrättning": true,
     "formaga": [
@@ -66639,7 +66825,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 2.0,
+    "rättSvar": 2,
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
@@ -66709,7 +66895,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 2.0,
+    "rättSvar": 2,
     "tolerans": 0.001,
     "självrättning": true,
     "formaga": [

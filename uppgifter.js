@@ -1,4 +1,8 @@
-/* uppgifter.js — Fysik nivå 1. Familjetaggning reviderad för Kunskapsgymmet 2026-09-07. */
+/* uppgifter.js — Fysik nivå 1.
+   Hierarkirevision för Kunskapsgymmet 2026-09-07.
+   OMR bevaras som intern understruktur, med två tidigare kolliderande blandat-nycklar separerade.
+   familj är elevens punktträningsdelmoment; migrationsmetadata finns där namn/område ändrats. */
+
 window.BANK = [
   {
     "id": "2.1",
@@ -4277,11 +4281,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Rymdstationen ISS går ett varv runt jorden på 92 minuter. Banans omkrets är 4,25·10⁷ meter.</p><span class=\"fig smal\"><svg height=\"369\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"113.686 0.000 256.286 248.684\"><circle cx=\"230\" cy=\"130\" r=\"68\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"230\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">Jorden</text><circle cx=\"230\" cy=\"130\" r=\"105\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-dasharray=\"7 6\"/><rect x=\"322\" y=\"118\" width=\"26\" height=\"16\" rx=\"2\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"312\" y1=\"126\" x2=\"322\" y2=\"126\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"348\" y1=\"126\" x2=\"358\" y2=\"126\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"230\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">omkretsen 4,25·10⁷ m</text><line x1=\"300\" y1=\"60\" x2=\"314.26\" y2=\"71.6676\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"322.00,78.00 311.35,75.23 317.17,68.11\" fill=\"#2A5D9E\"/></svg></span>\n<ol><li>Hur många sekunder är 92 minuter?</li>\n<li>Vilken fart har ISS i m/s?</li>\n<li>Hur mycket är det i km/h?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla minuter till sekunder.</p><div class=\"facit-matte\">\\[t=92\\cdot60=5520\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela banans omkrets med omloppstiden.</p><div class=\"facit-matte\">\\[v=\\frac{4{,}25\\cdot10^7}{5520}=7{,}70\\cdot10^3\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Multiplicera med 3,6.</p><div class=\"facit-matte\">\\[v=(7{,}70\\cdot10^3)\\cdot3{,}6=2{,}77\\cdot10^4\\ \\mathrm{km/h}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> ISS färdas med cirka \\(7{,}7\\cdot10^3\\ \\mathrm{m/s}=2{,}8\\cdot10^4\\ \\mathrm{km/h}\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -4314,7 +4318,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.2",
@@ -4325,11 +4331,11 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>En delfin simmar med den konstanta farten 9,5 m/s.</p>\n<ol><li>Hur lång tid tar det för delfinen att simma 380 meter?</li>\n<li>Vilken fart har delfinen i km/h?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut tiden ur \\(v=s/t\\).</p><div class=\"facit-matte\">\\[t=\\frac{s}{v}=\\frac{380}{9{,}5}=40\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla m/s till km/h.</p><div class=\"facit-matte\">\\[9{,}5\\cdot3{,}6=34{,}2\\ \\mathrm{km/h}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det tar \\(40\\ \\mathrm s\\), och delfinens fart är \\(34{,}2\\ \\mathrm{km/h}\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       40,
@@ -4366,7 +4372,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla m/s till km/h.</p><div class=\"facit-matte\">\\[9{,}5\\cdot3{,}6=34{,}2\\ \\mathrm{km/h}\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.3",
@@ -4424,12 +4432,12 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En kula rullar uppför ett lutande plan med begynnelsefarten 6,0 m/s. Kulan retarderar likformigt med 2,0 m/s² hela tiden, både på väg upp och på väg ned.</p><span class=\"fig bred\"><svg height=\"162\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"17.086 47.956 425.829 111.022\"><path d=\"M 36 152 L 424 152 L 424 56 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"139.04\" cy=\"118.3\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"195.04\" y1=\"98.07\" x2=\"286.22\" y2=\"75.51\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"295.92,73.11 287.32,79.98 285.11,71.04\" fill=\"#2A5D9E\"/><text x=\"251.25\" y=\"62.29\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 6,0 m/s</text></svg></span>\n<ol><li>Hur långt upp längs planet kommer kulan innan den vänder?</li>\n<li>Hur lång tid tar det innan kulan vänder?</li>\n<li>Hur långt från startpunkten är kulan efter 4,0 sekunder?</li>\n<li>Svaret i c) är mindre än svaret i a). Förklara varför.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj uppför planet som positiv riktning. Accelerationen är då −2,0 m/s².</p><div class=\"facit-matte\">\\[v_0=6{,}0\\ \\mathrm{m/s},\\qquad a=-2{,}0\\ \\mathrm{m/s^2}\\]</div><p class=\"facit-metod\">I vändpunkten är hastigheten noll.</p><div class=\"facit-matte\">\\[0=6{,}0^2+2(-2{,}0)s\\Rightarrow s=9{,}0\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tiden till vändpunkten.</p><div class=\"facit-matte\">\\[0=6{,}0-2{,}0t\\Rightarrow t=3{,}0\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bestäm läget efter 4,0 s.</p><div class=\"facit-matte\">\\[x=6{,}0\\cdot4{,}0-\\frac{2{,}0\\cdot4{,}0^2}{2}=8{,}0\\ \\mathrm m\\]</div><p>Kulan har vänt efter 3,0 s och rullat 1,0 m tillbaka. Den totala rullsträckan är 10,0 m, medan läget är 8,0 m från start.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kulan vänder \\(9{,}0\\ \\mathrm m\\) uppför planet efter \\(3{,}0\\ \\mathrm s\\). Efter 4,0 s är den \\(8{,}0\\ \\mathrm m\\) från startpunkten.</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       9,
@@ -4468,7 +4476,9 @@ window.BANK = [
       "c",
       "d"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.5",
@@ -4526,11 +4536,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Under uppskjutningen av en rymdraket accelererar den en stund med 30 m/s².</p>\n<ol><li>Skriv raketens acceleration på formen x·g.</li>\n<li>Hur lång tid tar det för raketen att öka sin hastighet med 150 km/h?</li>\n<li>Hur lång sträcka färdas raketen under den tiden, om den startar från vila?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför raketens acceleration med tyngdaccelerationen.</p><div class=\"facit-matte\">\\[\\frac{30}{9{,}82}=3{,}05\\Rightarrow a\\approx3{,}1g\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla fartökningen till m/s och dela med accelerationen.</p><div class=\"facit-matte\">\\[\\Delta v=\\frac{150}{3{,}6}=41{,}7\\ \\mathrm{m/s}\\]\\[t=\\frac{41{,}7}{30}=1{,}39\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Raketen startar från vila.</p><div class=\"facit-matte\">\\[s=\\frac{at^2}{2}=\\frac{30\\cdot1{,}39^2}{2}=28{,}9\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är cirka \\(3{,}1g\\). Fartökningen tar \\(1{,}39\\ \\mathrm s\\), och raketen färdas cirka \\(29\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -4563,7 +4573,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.7",
@@ -4660,12 +4672,12 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En motorcykel håller farten 8,0 m/s när föraren gasar. Motorcykeln accelererar sedan likformigt med 3,0 m/s² under 6,0 sekunder.</p><span class=\"fig bred\"><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 33.475 460.000 130.618\"><rect x=\"20\" y=\"118\" width=\"420\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"118\" x2=\"440\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"60\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"60\" y1=\"106\" x2=\"78\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"78\" y1=\"88\" x2=\"100\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><path d=\"M 68 94 L 90 88 L 102 92 L 98 102 L 72 102 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"98\" y1=\"90\" x2=\"106\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"82\" cy=\"74\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"320\" y1=\"106\" x2=\"338\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"338\" y1=\"88\" x2=\"360\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><path d=\"M 328 94 L 350 88 L 362 92 L 358 102 L 332 102 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"358\" y1=\"90\" x2=\"366\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"342\" cy=\"74\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"112\" y1=\"56\" x2=\"158\" y2=\"56\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"168,56 158,60.6 158,51.4\" fill=\"#2A5D9E\"/><text x=\"140\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 8,0 m/s</text><line x1=\"372\" y1=\"56\" x2=\"418\" y2=\"56\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"428,56 418,60.6 418,51.4\" fill=\"#2A5D9E\"/><text x=\"400\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text><line x1=\"80\" y1=\"140\" x2=\"344\" y2=\"140\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"80,140 87,143 87,137\" fill=\"#5C575E\"/><polygon points=\"344,140 337,143 337,137\" fill=\"#5C575E\"/><text x=\"212\" y=\"156\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">s = ?  under 6,0 s</text></svg></span>\n<ol><li>Hur stor är farten efter de 6,0 sekunderna?</li>\n<li>Hur lång sträcka tillryggalägger motorcykeln under tiden?</li>\n<li>Hur stor är medelhastigheten under de 6,0 sekunderna?</li>\n<li>Jämför svaret i c) med medelvärdet av start- och slutfarten. Vad ser du?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna slutfarten.</p><div class=\"facit-matte\">\\[v=v_0+at=8{,}0+3{,}0\\cdot6{,}0=26\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna sträckan med begynnelsefart.</p><div class=\"facit-matte\">\\[s=8{,}0\\cdot6{,}0+\\frac{3{,}0\\cdot6{,}0^2}{2}=102\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela sträckan med tiden.</p><div class=\"facit-matte\">\\[\\bar v=\\frac{102}{6{,}0}=17\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med ändpunktsmedelvärdet.</p><div class=\"facit-matte\">\\[\\frac{v_0+v}{2}=\\frac{8{,}0+26}{2}=17\\ \\mathrm{m/s}\\]</div><p>Vid konstant acceleration är detta exakt samma värde.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Slutfarten är \\(26\\ \\mathrm{m/s}\\), sträckan \\(102\\ \\mathrm m\\) och medelfarten \\(17\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       26,
@@ -4704,7 +4716,9 @@ window.BANK = [
       "c",
       "d"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.11",
@@ -5120,11 +5134,11 @@ window.BANK = [
     "poang": "(0/1/2)",
     "t": "<p>En person står mellan två klippväggar och klappar i händerna. Det första ekot hörs efter 0,40 sekunder och det andra efter 1,10 sekunder. Ljudets fart är 340 m/s.</p><span class=\"fig bred\"><svg height=\"308\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 25.714 492.143 244.286\"><rect x=\"20\" y=\"200\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"200\" x2=\"470\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"20\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"436\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"173.7\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"186.3\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"176.6\" x2=\"180\" y2=\"156.8\" stroke=\"#2B2527\" stroke-width=\"3.24\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"162.2\" x2=\"194.4\" y2=\"158.6\" stroke=\"#2B2527\" stroke-width=\"2.3400000000000003\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"148.7\" r=\"8.1\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"196\" y1=\"130\" x2=\"290\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"300.00,130.00 290.00,134.60 290.00,125.40\" fill=\"#2A5D9E\"/><line x1=\"164\" y1=\"160\" x2=\"72\" y2=\"160\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"62.00,160.00 72.00,155.40 72.00,164.60\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt höger</text><text x=\"112\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt vänster</text><line x1=\"54\" y1=\"226\" x2=\"180\" y2=\"226\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"221\" x2=\"54\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"221\" x2=\"180\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"117\" y=\"242\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">d₁</text><line x1=\"180\" y1=\"250\" x2=\"436\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"245\" x2=\"180\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"436\" y1=\"245\" x2=\"436\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"308\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">d₂</text></svg></span>\n<ol><li>Hur långt är det till den närmaste väggen?</li>\n<li>Hur långt är det till den bortre väggen?</li>\n<li>Hur långt är det mellan väggarna?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Varje eko motsvarar en tur och retur. Avståndet till väggen är därför \\(d=vt/2\\).</p><div class=\"facit-matte\">\\[d_1=\\frac{340\\cdot0{,}40}{2}=68\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd den längre ekotiden för den bortre väggen.</p><div class=\"facit-matte\">\\[d_2=\\frac{340\\cdot1{,}10}{2}=187\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Personen står mellan väggarna, så väggavståndet är summan av enkelavstånden.</p><div class=\"facit-matte\">\\[D=d_1+d_2=68+187=255\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det är \\(68\\ \\mathrm m\\) till den närmaste väggen och \\(187\\ \\mathrm m\\) till den bortre. Mellan väggarna är det \\(255\\ \\mathrm m\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       68,
@@ -5153,7 +5167,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "hastighet__hastighet_fran_stracka_och_tid"
+    "familjNyckelTidigare": "hastighet__hastighet_fran_stracka_och_tid",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.21",
@@ -5164,11 +5180,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Ett fartyg mäter havsdjupet med ekolod. En ljudpuls skickas rakt nedåt och ekot är tillbaka efter 0,80 sekunder. Ljudets fart i vatten är 1500 m/s.</p><span class=\"fig bred\"><svg height=\"250\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 28.571 500.000 201.429\"><rect x=\"15\" y=\"70\" width=\"470\" height=\"150\" fill=\"#DCE6F2\"/><line x1=\"15\" y1=\"70\" x2=\"485\" y2=\"70\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 190 70 L 310 70 L 292 40 L 208 40 Z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">ekolod</text><path d=\"M 15 205 Q 120 190 210 208 T 485 198\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"4\"/><line x1=\"232\" y1=\"74\" x2=\"232\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"268\" y1=\"196\" x2=\"268\" y2=\"74\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"232\" y1=\"120\" x2=\"232\" y2=\"180\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"232.00,190.00 227.40,180.00 236.60,180.00\" fill=\"#2A5D9E\"/><line x1=\"268\" y1=\"150\" x2=\"268\" y2=\"94\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"268.00,84.00 272.60,94.00 263.40,94.00\" fill=\"#2A5D9E\"/><line x1=\"360\" y1=\"70\" x2=\"360\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"70\" x2=\"365\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"200\" x2=\"365\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"368\" y=\"139\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">djup = ?</text></svg></span>\n<ol><li>Hur långt hinner ljudet på 0,80 s?</li>\n<li>Hur djupt är vattnet?</li>\n<li>Vid ett annat tillfälle kommer ekot tillbaka efter 0,20 s. Hur djupt är det då?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna ljudpulsens hela sträcka under tur och retur.</p><div class=\"facit-matte\">\\[s=vt=1500\\cdot0{,}80=1200\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Djupet är halva den sträcka pulsen färdas.</p><div class=\"facit-matte\">\\[d=\\frac{s}{2}=\\frac{1200}{2}=600\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd samma resonemang för den kortare ekotiden.</p><div class=\"facit-matte\">\\[d=\\frac{vt}{2}=\\frac{1500\\cdot0{,}20}{2}=150\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ljudet färdas \\(1200\\ \\mathrm m\\) på 0,80 s, vilket ger djupet \\(600\\ \\mathrm m\\). Vid 0,20 s är djupet \\(150\\ \\mathrm m\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       1200,
@@ -5197,7 +5213,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "hastighet__hastighet_fran_stracka_och_tid"
+    "familjNyckelTidigare": "hastighet__hastighet_fran_stracka_och_tid",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.22",
@@ -5429,17 +5447,19 @@ window.BANK = [
     "poang": "(0/1/2)",
     "t": "<p>En ballong stiger med den konstanta farten 5,0 m/s. På höjden 80 meter över marken lossnar en sandsäck från ballongen. Luftmotståndet mot sandsäcken försummas.</p><span class=\"fig smal\"><svg height=\"272\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 300 215\"><rect x=\"20\" y=\"196\" width=\"260\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"196\" x2=\"280\" y2=\"196\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 108 14 C 152 14 152 62 108 84 C 64 62 64 14 108 14 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"96\" y1=\"78\" x2=\"102\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"78\" x2=\"114\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"94\" y=\"96\" width=\"28\" height=\"18\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"164\" y1=\"76\" x2=\"164\" y2=\"36\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"164,26 168.6,36 159.4,36\" fill=\"#2A5D9E\"/><text x=\"172\" y=\"52\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">5,0 m/s</text><rect x=\"98\" y=\"128\" width=\"20\" height=\"24\" rx=\"4\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"126\" y=\"144\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">sandsäck</text><line x1=\"62\" y1=\"105\" x2=\"62\" y2=\"196\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"62,105 59,112 65,112\" fill=\"#5C575E\"/><polygon points=\"62,196 59,189 65,189\" fill=\"#5C575E\"/><text x=\"54\" y=\"152\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">80 m</text></svg></span>\n<ol><li>Hur högt över marken kommer sandsäcken som högst?</li>\n<li>Hur lång tid tar det innan sandsäcken når marken, och med vilken fart slår den ned?</li>\n<li>Hur lång tid hade fallet tagit om ballongen i stället hade sjunkit med 5,0 m/s? Förklara skillnaden mellan svaren.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När säcken lossnar har den ballongens hastighet 5,0 m/s uppåt.</p><div class=\"facit-matte\">\\[y=80+5{,}0t-\\frac{gt^2}{2}\\]</div><p class=\"facit-metod\">Beräkna den extra stighöjden innan säcken vänder.</p><div class=\"facit-matte\">\\[\\Delta h=\\frac{5{,}0^2}{2\\cdot9{,}82}=1{,}27\\ \\mathrm m\\]\\[h_{\\max}=81{,}3\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt markhöjden till noll och välj den positiva roten.</p><div class=\"facit-matte\">\\[0=80+5{,}0t-4{,}91t^2\\Rightarrow t=4{,}58\\ \\mathrm s\\]\\[v=5{,}0-9{,}82\\cdot4{,}58=-39{,}95\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Om ballongen sjunker är begynnelsehastigheten −5,0 m/s.</p><div class=\"facit-matte\">\\[0=80-5{,}0t-4{,}91t^2\\Rightarrow t=3{,}56\\ \\mathrm s\\]\\[\\Delta t=4{,}58-3{,}56=1{,}02\\ \\mathrm s\\]</div><p>Skillnaden är tiden för säcken att först stiga och sedan återvända till 80 m med farten 5,0 m/s nedåt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Säcken når \\(81{,}3\\ \\mathrm m\\). Den träffar marken efter \\(4{,}58\\ \\mathrm s\\) med farten cirka \\(40\\ \\mathrm{m/s}\\). Om ballongen sjunker tar fallet \\(3{,}56\\ \\mathrm s\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.28",
@@ -5450,11 +5470,11 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p>\n<ol><li>Vilken fart har simmaren efter 2,5 sekunder?</li>\n<li>Hur långt har simmaren kommit då?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Simmaren startar från vila.</p><div class=\"facit-matte\">\\[v=at=1{,}2\\cdot2{,}5=3{,}0\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna sträckan.</p><div class=\"facit-matte\">\\[s=\\frac{at^2}{2}=\\frac{1{,}2\\cdot2{,}5^2}{2}=3{,}75\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter 2,5 s är farten \\(3{,}0\\ \\mathrm{m/s}\\), och simmaren har kommit cirka \\(3{,}8\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       3,
@@ -5491,7 +5511,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna sträckan.</p><div class=\"facit-matte\">\\[s=\\frac{at^2}{2}=\\frac{1{,}2\\cdot2{,}5^2}{2}=3{,}75\\ \\mathrm m\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.29",
@@ -5502,16 +5524,18 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Ett tåg lämnar station A från vila och accelererar likformigt med 0,60 m/s² tills det når farten 24 m/s. Därefter håller det farten konstant. Till sist bromsar det likformigt med 0,80 m/s² och står stilla precis vid station B. Avståndet mellan stationerna är 2,4 km.</p><span class=\"fig bred\"><svg height=\"190\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 18.142 470.000 143.794\"><line x1=\"14\" y1=\"112.5\" x2=\"456\" y2=\"112.5\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"20\" y1=\"113.5\" x2=\"20\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"36\" y1=\"113.5\" x2=\"36\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"52\" y1=\"113.5\" x2=\"52\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"68\" y1=\"113.5\" x2=\"68\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"84\" y1=\"113.5\" x2=\"84\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"113.5\" x2=\"100\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"116\" y1=\"113.5\" x2=\"116\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"132\" y1=\"113.5\" x2=\"132\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"148\" y1=\"113.5\" x2=\"148\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"164\" y1=\"113.5\" x2=\"164\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"113.5\" x2=\"180\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"196\" y1=\"113.5\" x2=\"196\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"212\" y1=\"113.5\" x2=\"212\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"228\" y1=\"113.5\" x2=\"228\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"244\" y1=\"113.5\" x2=\"244\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"113.5\" x2=\"260\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"276\" y1=\"113.5\" x2=\"276\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"292\" y1=\"113.5\" x2=\"292\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"308\" y1=\"113.5\" x2=\"308\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"324\" y1=\"113.5\" x2=\"324\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"113.5\" x2=\"340\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"356\" y1=\"113.5\" x2=\"356\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"372\" y1=\"113.5\" x2=\"372\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"388\" y1=\"113.5\" x2=\"388\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"404\" y1=\"113.5\" x2=\"404\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"420\" y1=\"113.5\" x2=\"420\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"436\" y1=\"113.5\" x2=\"436\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"452\" y1=\"113.5\" x2=\"452\" y2=\"119.5\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><path d=\"M 107.2 108 L 107.2 67.7 L 133.2 67.7 L 141 74.2 L 151.4 74.2 L 151.4 108 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"24\" y=\"74.2\" width=\"37.7\" height=\"33.8\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"65.6\" y=\"74.2\" width=\"37.7\" height=\"33.8\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"117.6\" cy=\"108\" r=\"4.5\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"141\" cy=\"108\" r=\"4.5\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"35.6\" cy=\"108\" r=\"4.5\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"57.7\" cy=\"108\" r=\"4.5\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"77.2\" cy=\"108\" r=\"4.5\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"99.3\" cy=\"108\" r=\"4.5\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"20\" y1=\"62\" x2=\"20\" y2=\"108\" stroke=\"#5C575E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><line x1=\"452\" y1=\"62\" x2=\"452\" y2=\"108\" stroke=\"#5C575E\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><text x=\"20\" y=\"56\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">station A</text><text x=\"452\" y=\"56\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">station B</text><line x1=\"22\" y1=\"136.5\" x2=\"450\" y2=\"136.5\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"22,136.5 29,139.5 29,133.5\" fill=\"#5C575E\"/><polygon points=\"450,136.5 443,139.5 443,133.5\" fill=\"#5C575E\"/><text x=\"236\" y=\"152.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">2,4 km</text><text x=\"240\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">accelererar → konstant 24 m/s → bromsar</text></svg></span>\n<p>Hur lång tid tar hela resan?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tid och sträcka under accelerationen.</p><div class=\"facit-matte\">\\[t_1=\\frac{24}{0{,}60}=40\\ \\mathrm s\\]\\[s_1=\\frac{24^2}{2\\cdot0{,}60}=480\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gör samma sak för inbromsningen.</p><div class=\"facit-matte\">\\[t_3=\\frac{24}{0{,}80}=30\\ \\mathrm s\\]\\[s_3=\\frac{24^2}{2\\cdot0{,}80}=360\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Resten av stationsavståndet körs med 24 m/s.</p><div class=\"facit-matte\">\\[s_2=2400-480-360=1560\\ \\mathrm m\\]\\[t_2=\\frac{1560}{24}=65\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">4</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Addera tiderna.</p><div class=\"facit-matte\">\\[t_{\\mathrm{tot}}=40+65+30=135\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resan tar \\(135\\ \\mathrm s=2\\ \\mathrm{min}\\ 15\\ \\mathrm s\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.30",
@@ -6090,11 +6114,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Tabellen gäller tre kroppar som rör sig med konstant acceleration.</p><table class=\"data\"><tr><th>v₀ (m/s)</th><th>a (m/s²)</th><th>t (s)</th><th>s (m)</th></tr><tr><td>0</td><td>2,0</td><td>3,0</td><td>?</td></tr><tr><td>5,0</td><td>0</td><td>4,0</td><td>?</td></tr><tr><td>10</td><td>−2,0</td><td>3,0</td><td>?</td></tr></table>\n<ol><li>Beräkna sträckan i de tre fallen.</li>\n<li>Vad kännetecknar rörelsen på rad 2?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd lägesekvationen för konstant acceleration.</p><div class=\"facit-matte\">\\[s=v_0t+\\frac{at^2}{2}\\]</div><p class=\"facit-metod\">Sätt in värdena på de tre raderna.</p><div class=\"facit-matte\">\\[s_1=0+\\frac{2{,}0\\cdot3{,}0^2}{2}=9{,}0\\ \\mathrm m\\]\\[s_2=5{,}0\\cdot4{,}0=20\\ \\mathrm m\\]\\[s_3=10\\cdot3{,}0-\\frac{2{,}0\\cdot3{,}0^2}{2}=21\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På rad 2 är accelerationen noll.</p><div class=\"facit-matte\">\\[a=0\\Rightarrow v=v_0=5{,}0\\ \\mathrm{m/s}\\]</div><p>Rörelsen har konstant fart.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Sträckorna är \\(9{,}0\\ \\mathrm m\\), \\(20\\ \\mathrm m\\) och \\(21\\ \\mathrm m\\). På rad 2 är farten konstant.</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       21,
@@ -6121,7 +6145,9 @@ window.BANK = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.44",
@@ -6306,11 +6332,11 @@ window.BANK = [
     "poang": "(0/2/1)",
     "t": "<p>En bil accelererar med konstant acceleration från stillastående till 60 km/h. Under accelerationen kör bilen 50 meter.</p>\n<ol><li>Bestäm bilens acceleration.</li><li>Hur lång tid tog accelerationen?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla slutfarten.</p><div class=\"facit-matte\">\\[v=\\frac{60}{3{,}6}=16{,}7\\ \\mathrm{m/s}\\]</div><p class=\"facit-metod\">Bilen startar från vila och tiden är okänd, så använd sambandet utan tid.</p><div class=\"facit-matte\">\\[v^2=2as\\Rightarrow a=\\frac{v^2}{2s}=\\frac{16{,}7^2}{2\\cdot50}=2{,}78\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tiden ur fartlagen.</p><div class=\"facit-matte\">\\[t=\\frac{v}{a}=\\frac{16{,}7}{2{,}78}=6{,}0\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bilens acceleration är cirka \\(2{,}8\\ \\mathrm{m/s^2}\\), och accelerationen tar \\(6{,}0\\ \\mathrm s\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.8,
@@ -6347,7 +6373,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tiden ur fartlagen.</p><div class=\"facit-matte\">\\[t=\\frac{v}{a}=\\frac{16{,}7}{2{,}78}=6{,}0\\ \\mathrm s\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.49",
@@ -6405,11 +6433,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En kanotist paddlar med farten 1,8 m/s i stilla vatten. I älven är strömhastigheten 0,7 m/s.</p><span class=\"fig bred\"><svg height=\"183\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 50.714 500.000 147.857\"><rect x=\"15\" y=\"60\" width=\"470\" height=\"110\" fill=\"#DCE6F2\"/><line x1=\"15\" y1=\"60\" x2=\"485\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"15\" y1=\"170\" x2=\"485\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"60\" y1=\"148\" x2=\"96\" y2=\"148\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"106.00,148.00 96.00,152.60 96.00,143.40\" fill=\"#2A5D9E\"/><line x1=\"180\" y1=\"148\" x2=\"216\" y2=\"148\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"226.00,148.00 216.00,152.60 216.00,143.40\" fill=\"#2A5D9E\"/><line x1=\"300\" y1=\"148\" x2=\"336\" y2=\"148\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"346.00,148.00 336.00,152.60 336.00,143.40\" fill=\"#2A5D9E\"/><line x1=\"400\" y1=\"148\" x2=\"436\" y2=\"148\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"446.00,148.00 436.00,152.60 436.00,143.40\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">strömmen 0,7 m/s</text><path d=\"M 170 120 L 330 120 L 306 98 L 194 98 Z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"114\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">kanot</text></svg></span>\n<ol><li>Vilken fart har kanoten i förhållande till stranden när den paddlar medströms?</li>\n<li>Vilken fart har den motströms?</li>\n<li>Hur lång tid tar det att paddla 500 m medströms respektive motströms?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Medströms verkar kanotens egen fart och strömmen åt samma håll.</p><div class=\"facit-matte\">\\[v_+=1{,}8+0{,}7=2{,}5\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Motströms verkar farterna åt motsatta håll.</p><div class=\"facit-matte\">\\[v_-=1{,}8-0{,}7=1{,}1\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd \\(t=s/v\\) för vardera riktningen.</p><div class=\"facit-matte\">\\[t_+=\\frac{500}{2{,}5}=200\\ \\mathrm s\\]\\[t_-=\\frac{500}{1{,}1}=455\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Farten är \\(2{,}5\\ \\mathrm{m/s}\\) medströms och \\(1{,}1\\ \\mathrm{m/s}\\) motströms. Tiderna för 500 m blir \\(200\\ \\mathrm s\\) respektive cirka \\(455\\ \\mathrm s\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.5,
@@ -6442,7 +6470,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.51",
@@ -6492,16 +6522,18 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>Tabellen gäller tre kroppar som rör sig med konstant fart. Ett värde saknas på varje rad.</p><table class=\"data\"><tr><th>s (m)</th><th>v (m/s)</th><th>t (s)</th></tr><tr><td>?</td><td>12</td><td>25</td></tr><tr><td>450</td><td>?</td><td>30</td></tr><tr><td>800</td><td>16</td><td>?</td></tr></table>\n<p>Bestäm de värden som saknas.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd de tre formerna av samma samband.</p><div class=\"facit-matte\">\\[v=\\frac{s}{t},\\qquad s=vt,\\qquad t=\\frac{s}{v}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna det saknade värdet på varje rad.</p><div class=\"facit-matte\">\\[s_1=12\\cdot25=300\\ \\mathrm m\\]\\[v_2=\\frac{450}{30}=15\\ \\mathrm{m/s}\\]\\[t_3=\\frac{800}{16}=50\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade värdena är \\(300\\ \\mathrm m\\), \\(15\\ \\mathrm{m/s}\\) och \\(50\\ \\mathrm s\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.54",
@@ -6512,16 +6544,18 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>Tabellen visar farten hos fyra olika kroppar. Ett värde saknas på varje rad.</p><table class=\"data\"><tr><th></th><th>v (m/s)</th><th>v (km/h)</th></tr><tr><td>gående människa</td><td>1,5</td><td>?</td></tr><tr><td>spårvagn</td><td>?</td><td>54</td></tr><tr><td>pilgrimsfalk i dykning</td><td>90</td><td>?</td></tr><tr><td>motorbåt</td><td>?</td><td>72</td></tr></table>\n<p>Fyll i de värden som saknas.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Från m/s till km/h multiplicerar man med 3,6. Från km/h till m/s delar man med 3,6.</p><div class=\"facit-matte\">\\[1\\ \\mathrm{m/s}=3{,}6\\ \\mathrm{km/h}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fyll i rad för rad.</p><div class=\"facit-matte\">\\[1{,}5\\cdot3{,}6=5{,}4\\ \\mathrm{km/h}\\]\\[\\frac{54}{3{,}6}=15\\ \\mathrm{m/s}\\]\\[90\\cdot3{,}6=324\\ \\mathrm{km/h}\\]\\[\\frac{72}{3{,}6}=20\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade värdena är \\(5{,}4\\ \\mathrm{km/h}\\), \\(15\\ \\mathrm{m/s}\\), \\(324\\ \\mathrm{km/h}\\) och \\(20\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.55",
@@ -6532,11 +6566,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En fladdermus skickar ut ett ljud och hör ekot från en insekt 12 millisekunder senare. Ljudets fart i luft är 340 m/s.</p><span class=\"fig bred\"><svg height=\"209\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.000 19.286 323.571 109.286\"><path d=\"M 100 70 Q 130 40 160 70 Q 150 88 130 92 Q 110 88 100 70 Z\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"130\" cy=\"78\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"130\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">fladdermus</text><ellipse cx=\"380\" cy=\"78\" rx=\"14\" ry=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"380\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">insekt</text><path d=\"M 176 62 Q 187 52 198 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 202 62 Q 213 52 224 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 228 62 Q 239 52 250 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 254 62 Q 265 52 276 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 280 62 Q 291 52 302 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 306 62 Q 317 52 328 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 332 62 Q 343 52 354 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"176\" y1=\"44\" x2=\"338\" y2=\"44\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"348.00,44.00 338.00,48.60 338.00,39.40\" fill=\"#2A5D9E\"/><line x1=\"348\" y1=\"100\" x2=\"186\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"176.00,100.00 186.00,95.40 186.00,104.60\" fill=\"#9A959C\"/><text x=\"262\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">utsänt ljud</text><text x=\"262\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">eko</text></svg></span>\n<ol><li>Skriv om tiden i sekunder.</li>\n<li>Hur långt hinner ljudet under den tiden?</li>\n<li>Hur långt bort är insekten?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Prefixet milli betyder \\(10^{-3}\\).</p><div class=\"facit-matte\">\\[12\\ \\mathrm{ms}=12\\cdot10^{-3}\\ \\mathrm s=0{,}012\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna ljudets hela sträcka under ekotiden.</p><div class=\"facit-matte\">\\[s=vt=340\\cdot0{,}012=4{,}08\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ljudet färdas till insekten och tillbaka, så enkelavståndet är hälften.</p><div class=\"facit-matte\">\\[d=\\frac{s}{2}=\\frac{4{,}08}{2}=2{,}04\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Insekten är cirka \\(2{,}0\\ \\mathrm m\\) bort.</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -6569,7 +6603,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "hastighet__hastighet_fran_stracka_och_tid"
+    "familjNyckelTidigare": "hastighet__hastighet_fran_stracka_och_tid",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.56",
@@ -6785,11 +6821,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Bil A kör om bil B. Under omkörningen ökar bil A farten likformigt från 70 km/h till 90 km/h på 4,0 sekunder. Bil B håller hela tiden farten 70 km/h.</p><span class=\"fig bred\"><svg height=\"158\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 41.660 470.000 119.605\"><rect x=\"14\" y=\"133.8\" width=\"442\" height=\"8\" fill=\"#E5EDF4\"/><line x1=\"14\" y1=\"133.8\" x2=\"456\" y2=\"133.8\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"14\" y1=\"153.8\" x2=\"456\" y2=\"153.8\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"12 10\"/><path d=\"M 40 122 L 40 86.6 L 70.68 86.6 L 82.48 63 L 120.24 63 L 132.04 86.6 L 158 86.6 L 158 122 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"68.32\" cy=\"122\" r=\"11.8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"134.4\" cy=\"122\" r=\"11.8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"101.36\" y=\"108.55\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">A</text><path d=\"M 250 122 L 250 86.6 L 280.68 86.6 L 292.48 63 L 330.24 63 L 342.04 86.6 L 368 86.6 L 368 122 Z\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"278.32\" cy=\"122\" r=\"11.8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"344.4\" cy=\"122\" r=\"11.8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"311.36\" y=\"108.55\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">B</text><line x1=\"60\" y1=\"64\" x2=\"140\" y2=\"64\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"150,64 140,68.6 140,59.4\" fill=\"#2A5D9E\"/><text x=\"105\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">70 → 90 km/h</text><line x1=\"285\" y1=\"64\" x2=\"335\" y2=\"64\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"345,64 335,68.6 335,59.4\" fill=\"#2A5D9E\"/><text x=\"315\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">70 km/h</text></svg></span>\n<ol><li>Hur stor är bil A:s acceleration?</li>\n<li>Hur långt kör bil A under de 4,0 sekunderna?</li>\n<li>Hur långt kör bil B under samma tid?</li>\n<li>Hur mycket längre än bil B har bil A kommit när omkörningen är klar?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla farterna.</p><div class=\"facit-matte\">\\[v_0=\\frac{70}{3{,}6}=19{,}44\\ \\mathrm{m/s}\\]\\[v=\\frac{90}{3{,}6}=25{,}0\\ \\mathrm{m/s}\\]</div><p class=\"facit-metod\">Beräkna bil A:s acceleration.</p><div class=\"facit-matte\">\\[a=\\frac{25{,}0-19{,}44}{4{,}0}=1{,}39\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd medelfarten för bil A.</p><div class=\"facit-matte\">\\[s_A=\\frac{19{,}44+25{,}0}{2}\\cdot4{,}0=88{,}9\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bil B håller konstant fart. Subtrahera sträckorna.</p><div class=\"facit-matte\">\\[s_B=19{,}44\\cdot4{,}0=77{,}8\\ \\mathrm m\\]\\[\\Delta s=88{,}9-77{,}8=11{,}1\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bil A accelererar med \\(1{,}39\\ \\mathrm{m/s^2}\\) och kör \\(88{,}9\\ \\mathrm m\\). Bil B kör \\(77{,}8\\ \\mathrm m\\), så A vinner \\(11{,}1\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.39,
@@ -6823,7 +6859,9 @@ window.BANK = [
       "c",
       "d"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.63",
@@ -6853,11 +6891,11 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>En skateboardåkare håller farten 6,0 m/s och bromsar sedan likformigt till stillastående på 4,0 meter.</p>\n<ol><li>Bestäm accelerationen under inbromsningen.</li>\n<li>Hur lång tid tar inbromsningen?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj rörelseriktningen som positiv. Vid stopp är slutfarten noll.</p><div class=\"facit-matte\">\\[0=6{,}0^2+2a\\cdot4{,}0\\Rightarrow a=-4{,}5\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Medelfarten är medelvärdet av start- och slutfarten.</p><div class=\"facit-matte\">\\[\\bar v=\\frac{6{,}0+0}{2}=3{,}0\\ \\mathrm{m/s}\\]\\[t=\\frac{s}{\\bar v}=\\frac{4{,}0}{3{,}0}=1{,}33\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(-4{,}5\\ \\mathrm{m/s^2}\\), alltså retardationen \\(4{,}5\\ \\mathrm{m/s^2}\\). Inbromsningen tar \\(1{,}3\\ \\mathrm s\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       -4.5,
@@ -6884,7 +6922,9 @@ window.BANK = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.65",
@@ -6895,11 +6935,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En kula rullar nedför en ramp. Läget mäts varje sekund.</p><span class=\"fig bred\"><svg height=\"163\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"6.914 65.389 426.800 111.916\"><polygon points=\"25,170 415,170 415,72.76207889115953\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(227.8,119.43628102340296) rotate(-14)\"><circle cx=\"0\" cy=\"-15\" r=\"15\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"-5\" cy=\"-20\" r=\"4\" fill=\"#fff\"/></g><path d=\"M 95 170 A 70 70 0 0 1 92.92070083931975 153.06546730802324\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"134\" y=\"163\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#B43123\">14°</text></svg></span>\n<table class=\"data\"><tr><th>t (s)</th><th>s (m)</th></tr><tr><td>0</td><td>0,0</td></tr><tr><td>1</td><td>1,2</td></tr><tr><td>2</td><td>4,8</td></tr><tr><td>3</td><td>10,8</td></tr><tr><td>4</td><td>19,2</td></tr></table>\n<ol><li>Bestäm accelerationen ur den sista mätpunkten.</li>\n<li>Kontrollera att accelerationen ger rätt värde även vid t = 2,0 s.</li>\n<li>Vilken fart har kulan vid t = 4 s?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd sista mätpunkten och att kulan startar från vila.</p><div class=\"facit-matte\">\\[a=\\frac{2s}{t^2}=\\frac{2\\cdot19{,}2}{4^2}=2{,}4\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kontrollera modellen vid 2,0 s.</p><div class=\"facit-matte\">\\[s=\\frac{2{,}4\\cdot2{,}0^2}{2}=4{,}8\\ \\mathrm m\\]</div><p>Det överensstämmer med tabellen.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Farten efter 4 s är</p><div class=\"facit-matte\">\\[v=at=2{,}4\\cdot4=9{,}6\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(2{,}4\\ \\mathrm{m/s^2}\\), vilket passar tabellen. Vid 4 s är farten \\(9{,}6\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.4,
@@ -6932,7 +6972,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.66",
@@ -6943,11 +6985,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En löpare accelererar likformigt upp till 9 m/s och håller sedan den farten resten av loppet på 100 m.</p><span class=\"fig bred\"><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 18.443 430.000 121.721\"><rect x=\"10\" y=\"92\" width=\"410\" height=\"12\" fill=\"#ECEFF3\"/><line x1=\"10\" y1=\"92\" x2=\"420\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"88\" cy=\"34\" r=\"8\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"86\" y1=\"42\" x2=\"76\" y2=\"66\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><polyline points=\"83,49 96,46 100,56\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"83,49 70,52 64,43\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"76,66 92,74 88,86\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"76,66 66,80 58,92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"130\" y1=\"73\" x2=\"190\" y2=\"73\" stroke=\"#2A5D9E\" stroke-width=\"2.2\"/><polygon points=\"200,73 190,77.6 190,68.4\" fill=\"#2A5D9E\"/><text x=\"215\" y=\"77\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v = 9 m/s</text><line x1=\"40\" y1=\"128\" x2=\"410\" y2=\"128\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"123\" x2=\"40\" y2=\"133\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"410\" y1=\"123\" x2=\"410\" y2=\"133\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"225\" y=\"119\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100 m</text></svg></span>\n<ol><li>Hur lång tid tar accelerationsfasen om accelerationen är 1,8 m/s²?</li>\n<li>Hur långt hinner löparen under accelerationen?</li><li>Vilken sluttid får loppet?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Löparen startar från vila.</p><div class=\"facit-matte\">\\[t_1=\\frac{v}{a}=\\frac{9}{1{,}8}=5{,}0\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna sträckan under accelerationen.</p><div class=\"facit-matte\">\\[s_1=\\frac{v^2}{2a}=\\frac{9^2}{2\\cdot1{,}8}=22{,}5\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Återstående sträcka springs med konstant fart.</p><div class=\"facit-matte\">\\[s_2=100-22{,}5=77{,}5\\ \\mathrm m\\]\\[t_2=\\frac{77{,}5}{9}=8{,}61\\ \\mathrm s\\]\\[t_{\\mathrm{tot}}=5{,}0+8{,}61=13{,}6\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen tar \\(5{,}0\\ \\mathrm s\\) och omfattar \\(22{,}5\\ \\mathrm m\\). Sluttiden blir cirka \\(13{,}6\\ \\mathrm s\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       5,
@@ -6980,7 +7022,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.67",
@@ -6991,11 +7035,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Diagrammet visar ett tåg som kör mellan två stationer.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.33333333333334\" x2=\"486\" y2=\"209.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"172.66666666666669\" x2=\"486\" y2=\"172.66666666666669\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.66666666666669\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"54\" y1=\"99.33333333333334\" x2=\"486\" y2=\"99.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"62.66666666666666\" x2=\"486\" y2=\"62.66666666666666\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.66666666666666\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">25</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"115.71428571428571\" y1=\"26\" x2=\"115.71428571428571\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"115.71428571428571\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"177.42857142857142\" y1=\"26\" x2=\"177.42857142857142\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"177.42857142857142\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"239.14285714285714\" y1=\"26\" x2=\"239.14285714285714\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"239.14285714285714\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"300.85714285714283\" y1=\"26\" x2=\"300.85714285714283\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"300.85714285714283\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"362.57142857142856\" y1=\"26\" x2=\"362.57142857142856\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"362.57142857142856\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"424.2857142857143\" y1=\"26\" x2=\"424.2857142857143\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"424.2857142857143\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">120</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">140</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 115.71428571428571,26 362.57142857142856,26 455.14285714285717,246\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span>\n<ol><li>Hur stor är retardationen i slutet?</li><li>Hur långt är det mellan stationerna?</li>\n<li>Vilken medelhastighet har tåget?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Läs av inbromsningsdelen och beräkna lutningen.</p><div class=\"facit-matte\">\\[a=\\frac{0-30}{130-100}=-1{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Avståndet är arean under hela fartkurvan.</p><div class=\"facit-matte\">\\[s=\\frac{20\\cdot30}{2}+80\\cdot30+\\frac{30\\cdot30}{2}\\]\\[s=300+2400+450=3150\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela totalsträckan med 130 s.</p><div class=\"facit-matte\">\\[v_{\\mathrm{med}}=\\frac{3150}{130}=24{,}2\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Retardationen är \\(1{,}0\\ \\mathrm{m/s^2}\\), stationsavståndet \\(3150\\ \\mathrm m\\), och medelfarten \\(24{,}2\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -7028,7 +7072,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.68",
@@ -7038,11 +7084,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En hiss startar från vila, accelererar med 0,80 m/s² tills den når 2,0 m/s, håller den farten i 4,0 s och bromsar sedan in med samma retardation.</p>\n<ol><li>Hur lång tid tar accelerationsfasen, och hur långt går hissen då?</li>\n<li>Hur lång är hela färden?</li><li>Hur lång tid tar den totalt?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tid och sträcka under accelerationen.</p><div class=\"facit-matte\">\\[t_1=\\frac{2{,}0}{0{,}80}=2{,}5\\ \\mathrm s\\]\\[s_1=\\frac{2{,}0^2}{2\\cdot0{,}80}=2{,}5\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Under konstant fart och inbromsning blir sträckorna</p><div class=\"facit-matte\">\\[s_2=2{,}0\\cdot4{,}0=8{,}0\\ \\mathrm m\\]\\[s_3=s_1=2{,}5\\ \\mathrm m\\]\\[s_{\\mathrm{tot}}=2{,}5+8{,}0+2{,}5=13\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Inbromsningen tar lika lång tid som accelerationen eftersom fartändringen och accelerationens storlek är desamma.</p><div class=\"facit-matte\">\\[t_{\\mathrm{tot}}=2{,}5+4{,}0+2{,}5=9{,}0\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationsfasen tar \\(2{,}5\\ \\mathrm s\\) och omfattar \\(2{,}5\\ \\mathrm m\\). Hela färden är \\(13\\ \\mathrm m\\) och tar \\(9{,}0\\ \\mathrm s\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -7075,7 +7121,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.69",
@@ -7086,12 +7134,12 @@ window.BANK = [
     "poang": "(0/2/2)",
     "t": "<p>En kula rullar från vila nedför ett lutande plan. Man markerar var kulan befinner sig efter 1,0 s, 2,0 s och 3,0 s. Avstånden från startpunkten mäts till 12 cm, 48 cm och 108 cm.</p><span class=\"fig bred\"><svg height=\"262\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"12.086 8.051 437.771 185.176\"><polygon points=\"60,50 430,170 425.99,182.37 55.99,62.37\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"95.07\" y1=\"58.22\" x2=\"90.14\" y2=\"73.44\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><text x=\"100.94\" y=\"40.15\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">1,0 s</text><line x1=\"197.43\" y1=\"91.42\" x2=\"192.49\" y2=\"106.64\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><text x=\"203.29\" y=\"73.34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">2,0 s</text><line x1=\"367.98\" y1=\"146.73\" x2=\"363.05\" y2=\"161.95\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><text x=\"373.84\" y=\"128.66\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">3,0 s</text><circle cx=\"62.47\" cy=\"42.39\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"42.02\" y=\"25.27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">start</text></svg></span>\n<ol><li>Visa att mätningen stämmer med konstant acceleration.</li>\n<li>Bestäm accelerationen.</li>\n<li>Hur långt rullar kulan under den fjärde sekunden?</li>\n<li>Vilken fart har kulan efter 3,0 s?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid start från vila och konstant acceleration ska läget vara proportionellt mot tidens kvadrat.</p><div class=\"facit-matte\">\\[1^2:2^2:3^2=1:4:9\\]\\[12:48:108=1:4:9\\]</div><p>Mätvärdena följer alltså modellen för konstant acceleration.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd den första mätpunkten.</p><div class=\"facit-matte\">\\[0{,}12=\\frac{a\\cdot1{,}0^2}{2}\\Rightarrow a=0{,}24\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sträckan under den fjärde sekunden är skillnaden mellan lägena vid 4,0 s och 3,0 s.</p><div class=\"facit-matte\">\\[s(4)=\\frac{0{,}24\\cdot4^2}{2}=1{,}92\\ \\mathrm m\\]\\[\\Delta s_4=1{,}92-1{,}08=0{,}84\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Farten efter 3,0 s är</p><div class=\"facit-matte\">\\[v=at=0{,}24\\cdot3{,}0=0{,}72\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(0{,}24\\ \\mathrm{m/s^2}\\). Under fjärde sekunden rullar kulan \\(0{,}84\\ \\mathrm m\\), och efter 3,0 s är farten \\(0{,}72\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -7130,7 +7178,9 @@ window.BANK = [
       "c",
       "d"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.70",
@@ -7161,11 +7211,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En sten släpps ned i ett gruvschakt. Djupet till vattenytan visas i figuren.</p><span class=\"fig smal\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 23.600 280.000 208.000\"><rect x=\"80\" y=\"40\" width=\"120\" height=\"180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"10\" y=\"34\" width=\"270\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"10\" y1=\"42\" x2=\"80\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"42\" x2=\"270\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"140\" cy=\"62\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"82\" y=\"212\" width=\"116\" height=\"7\" fill=\"#DCEAF6\"/><line x1=\"82\" y1=\"212\" x2=\"198\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"225\" y1=\"42\" x2=\"225\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"42\" x2=\"230\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"212\" x2=\"230\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"234\" y=\"127\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45 m</text></svg></span>\n<ol><li>Hur lång tid tar det innan stenen når vattnet?</li><li>Vilken fart har den då?</li>\n<li>Hur djupt hade schaktet varit om fallet tagit dubbelt så lång tid?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Stenen släpps från vila.</p><div class=\"facit-matte\">\\[t=\\sqrt{\\frac{2\\cdot45}{9{,}82}}=3{,}03\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna farten vid vattenytan.</p><div class=\"facit-matte\">\\[v=gt=9{,}82\\cdot3{,}03=29{,}7\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fallsträckan är proportionell mot tidens kvadrat.</p><div class=\"facit-matte\">\\[\\frac{h_2}{h_1}=\\left(\\frac{2t}{t}\\right)^2=4\\Rightarrow h_2=4\\cdot45=180\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fallet tar \\(3{,}03\\ \\mathrm s\\), slutfarten är \\(29{,}7\\ \\mathrm{m/s}\\), och dubbel falltid motsvarar djupet \\(180\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       3.03,
@@ -7194,7 +7244,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.72",
@@ -7255,11 +7307,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig bred\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span>\n<ol><li>Hur lång tid tar det att nå lyftfarten?</li>\n<li>Hur lång sträcka behöver planet för att nå lyftfarten?</li>\n<li>Vilken fart har planet när det passerar banans slut vid 800 m?</li>\n<li>Hur stor acceleration skulle krävas för att planet ska lyfta precis vid banans slut?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Planet startar från vila.</p><div class=\"facit-matte\">\\[t=\\frac{65}{2{,}5}=26\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna sträckan till lyftfarten.</p><div class=\"facit-matte\">\\[s=\\frac{65^2}{2\\cdot2{,}5}=845\\ \\mathrm m\\]</div><p>Banan på 800 m är alltså för kort med denna acceleration.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna farten vid banans slut.</p><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot2{,}5\\cdot800}=63{,}2\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut den acceleration som krävs för 65 m/s på 800 m.</p><div class=\"facit-matte\">\\[a=\\frac{65^2}{2\\cdot800}=2{,}64\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lyftfarten nås efter 26 s men kräver \\(845\\ \\mathrm m\\). Vid 800 m är farten \\(63{,}2\\ \\mathrm{m/s}\\); minst \\(2{,}64\\ \\mathrm{m/s^2}\\) krävs för att lyfta precis vid banans slut.</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -7298,7 +7350,9 @@ window.BANK = [
       "c",
       "d"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.74",
@@ -7308,11 +7362,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En motorcykel kör med hastigheten 12 m/s och accelererar därefter med 1,2 m/s². Under accelerationen färdas den 40 meter.</p>\n<ol><li>Hur lång tid varade accelerationen?</li><li>Vilken hastighet har motorcykeln efter accelerationen?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt in sträckan i lägesekvationen.</p><div class=\"facit-matte\">\\[40=12t+\\frac{1{,}2t^2}{2}\\]\\[0{,}6t^2+12t-40=0\\]</div><p class=\"facit-metod\">Välj den positiva roten eftersom tiden efter start ska vara positiv.</p><div class=\"facit-matte\">\\[t=\\frac{-12+\\sqrt{12^2+4\\cdot0{,}6\\cdot40}}{2\\cdot0{,}6}=2{,}91\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna slutfarten.</p><div class=\"facit-matte\">\\[v=12+1{,}2\\cdot2{,}91=15{,}5\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen varar cirka \\(2{,}9\\ \\mathrm s\\), och slutfarten är cirka \\(15{,}5\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.9,
@@ -7349,7 +7403,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna slutfarten.</p><div class=\"facit-matte\">\\[v=12+1{,}2\\cdot2{,}91=15{,}5\\ \\mathrm{m/s}\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.75",
@@ -7515,11 +7571,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Diagrammet visar en truck som kör i tre faser.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"115.71428571428571\" y1=\"26\" x2=\"115.71428571428571\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"115.71428571428571\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"177.42857142857142\" y1=\"26\" x2=\"177.42857142857142\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"177.42857142857142\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"239.14285714285714\" y1=\"26\" x2=\"239.14285714285714\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"239.14285714285714\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"300.85714285714283\" y1=\"26\" x2=\"300.85714285714283\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"300.85714285714283\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"362.57142857142856\" y1=\"26\" x2=\"362.57142857142856\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"362.57142857142856\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"424.2857142857143\" y1=\"26\" x2=\"424.2857142857143\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"424.2857142857143\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">14</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 208.28571428571428,26 331.7142857142857,26 455.14285714285717,246\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span>\n<ol><li>Bestäm accelerationen i den första fasen.</li><li>Hur lång sträcka färdas trucken totalt?</li>\n<li>Bestäm medelhastigheten under hela förloppet.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Accelerationen i första fasen är fartkurvans lutning.</p><div class=\"facit-matte\">\\[a=\\frac{10-0}{5-0}=2{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sträckan är summan av areorna under de tre delarna av fartkurvan.</p><div class=\"facit-matte\">\\[s_1=\\frac{5\\cdot10}{2}=25\\ \\mathrm m\\]\\[s_2=4\\cdot10=40\\ \\mathrm m\\]\\[s_3=\\frac{4\\cdot10}{2}=20\\ \\mathrm m\\]\\[s_{\\mathrm{tot}}=85\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela total sträcka med total tid.</p><div class=\"facit-matte\">\\[v_{\\mathrm{med}}=\\frac{85}{13}=6{,}54\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(2{,}0\\ \\mathrm{m/s^2}\\), totalsträckan \\(85\\ \\mathrm m\\) och medelfarten cirka \\(6{,}5\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
@@ -7566,7 +7622,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela total sträcka med total tid.</p><div class=\"facit-matte\">\\[v_{\\mathrm{med}}=\\frac{85}{13}=6{,}54\\ \\mathrm{m/s}\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.79",
@@ -7597,11 +7655,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En vagn startar från vila och rullar sträckan 24 m på 4 sekunder med konstant acceleration.</p><span class=\"fig bred\"><svg height=\"124\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 53.484 430.000 86.066\"><rect x=\"10\" y=\"92\" width=\"410\" height=\"12\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"92\" x2=\"420\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"40\" y=\"60\" width=\"76\" height=\"22\" rx=\"3\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"40\" y1=\"67\" x2=\"116\" y2=\"67\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><circle cx=\"56\" cy=\"85\" r=\"7\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"56\" cy=\"85\" r=\"2\" fill=\"#2B2527\"/><circle cx=\"100\" cy=\"85\" r=\"7\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"85\" r=\"2\" fill=\"#2B2527\"/><line x1=\"40\" y1=\"128\" x2=\"410\" y2=\"128\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"123\" x2=\"40\" y2=\"133\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"410\" y1=\"123\" x2=\"410\" y2=\"133\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"225\" y=\"119\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">24 m</text></svg></span>\n<ol><li>Bestäm accelerationen.</li><li>Vilken fart har vagnen efter 4 s?</li>\n<li>Vilken medelhastighet har den under sträckan?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vagnen startar från vila.</p><div class=\"facit-matte\">\\[24=\\frac{a\\cdot4^2}{2}\\Rightarrow a=3{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna slutfarten.</p><div class=\"facit-matte\">\\[v=at=3{,}0\\cdot4=12\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Medelfarten är total sträcka delad med tid.</p><div class=\"facit-matte\">\\[v_{\\mathrm{med}}=\\frac{24}{4}=6{,}0\\ \\mathrm{m/s}\\]</div><p>Vid konstant acceleration från vila är medelfarten halva slutfarten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(3{,}0\\ \\mathrm{m/s^2}\\), slutfarten \\(12\\ \\mathrm{m/s}\\) och medelfarten \\(6{,}0\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       3,
@@ -7634,7 +7692,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.81",
@@ -7696,11 +7756,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En bil kör i 25 m/s och ska köra om en lastbil som håller 20 m/s. Bilen måste förflytta sig 100 m i förhållande till lastbilen.</p><span class=\"fig bred\"><svg height=\"142\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 41.189 430.000 98.361\"><rect x=\"10\" y=\"92\" width=\"410\" height=\"12\" fill=\"#E5EDF4\"/><line x1=\"10\" y1=\"92\" x2=\"420\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"36\" y=\"62\" width=\"86\" height=\"22\" rx=\"5\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"58,62 70,48 98,48 108,62\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"84\" y1=\"48\" x2=\"84\" y2=\"62\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><circle cx=\"54\" cy=\"84\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"104\" cy=\"84\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"73\" x2=\"190\" y2=\"73\" stroke=\"#2A5D9E\" stroke-width=\"2.2\"/><polygon points=\"200,73 190,77.6 190,68.4\" fill=\"#2A5D9E\"/><text x=\"215\" y=\"77\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v = 25 m/s</text><line x1=\"40\" y1=\"128\" x2=\"410\" y2=\"128\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"123\" x2=\"40\" y2=\"133\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"410\" y1=\"123\" x2=\"410\" y2=\"133\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"225\" y=\"119\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100 m</text></svg></span>\n<ol><li>Vilken är bilens hastighet i förhållande till lastbilen?</li><li>Hur lång tid tar omkörningen?</li>\n<li>Hur långt kör bilen under tiden, sett från vägen?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När fordonen rör sig åt samma håll subtraheras farterna.</p><div class=\"facit-matte\">\\[v_{\\mathrm{rel}}=25-20=5{,}0\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bilen ska vinna 100 m relativt lastbilen.</p><div class=\"facit-matte\">\\[t=\\frac{100}{5{,}0}=20\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sett från vägen håller bilen 25 m/s.</p><div class=\"facit-matte\">\\[s=25\\cdot20=500\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den relativa hastigheten är \\(5{,}0\\ \\mathrm{m/s}\\). Omkörningen tar \\(20\\ \\mathrm s\\), och bilen kör då \\(500\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -7733,7 +7793,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.83",
@@ -7877,12 +7939,12 @@ window.BANK = [
     "poang": "(0/2/2)",
     "t": "<p>En hiss åker uppåt med den konstanta farten 2,0 m/s. En mutter lossnar från hissens tak, 2,6 m ovanför hissgolvet.</p>\n<ol><li>Hur lång tid tar det innan muttern träffar hissgolvet?</li>\n<li>Spelar hissens fart någon roll för svaret? Motivera.</li>\n<li>Hissen accelererar istället uppåt med 1,2 m/s². Hur lång blir falltiden då?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I ett referenssystem som följer hissen har muttern och golvet samma begynnelsefart. Den relativa begynnelsefarten är därför noll.</p><div class=\"facit-matte\">\\[2{,}6=\\frac{gt^2}{2}\\Rightarrow t=\\sqrt{\\frac{2\\cdot2{,}6}{9{,}82}}=0{,}728\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Hissens konstanta fart finns hos både golvet och muttern när muttern lossnar.</p><p>Den gemensamma farten försvinner när den relativa rörelsen beräknas och påverkar därför inte falltiden.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När hissen accelererar uppåt ökar mutterns acceleration nedåt relativt hissgolvet.</p><div class=\"facit-matte\">\\[a_{\\mathrm{rel}}=g+1{,}2=11{,}02\\ \\mathrm{m/s^2}\\]\\[t=\\sqrt{\\frac{2\\cdot2{,}6}{11{,}02}}=0{,}687\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Falltiden är \\(0{,}73\\ \\mathrm s\\) vid konstant hissfart och \\(0{,}69\\ \\mathrm s\\) när hissen accelererar uppåt.</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.73,
@@ -7915,7 +7977,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.87",
@@ -7987,11 +8051,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En pilbåge accelererar en pil längs sträckan 0,60 meter. Pilen startar från vila och lämnar bågen med farten 55 m/s. Accelerationen antas vara likformig.</p><span class=\"fig\"><svg height=\"288\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"76.057 26.400 335.657 193.600\"><path d=\"M 120 40 Q 66 130 120 220\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"120\" y1=\"40\" x2=\"200\" y2=\"130\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"220\" x2=\"200\" y2=\"130\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"130\" x2=\"380\" y2=\"130\" stroke=\"#2B2527\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><polygon points=\"398,130 374,122 374,138\" fill=\"#2B2527\"/><polygon points=\"200,130 214,122 214,138\" fill=\"#E8DCC6\"/><line x1=\"120\" y1=\"190\" x2=\"200\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"185\" x2=\"120\" y2=\"195\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"185\" x2=\"200\" y2=\"195\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"215\" y=\"196\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">sträcka 0,60 m</text></svg></span>\n<ol><li>Bestäm pilens acceleration.</li>\n<li>Hur många gånger större är den än tyngdaccelerationen?</li>\n<li>Hur lång tid är pilen i kontakt med strängen?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Pilen startar från vila och accelererar över 0,60 m.</p><div class=\"facit-matte\">\\[a=\\frac{v^2}{2s}=\\frac{55^2}{2\\cdot0{,}60}=2{,}52\\cdot10^3\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med tyngdaccelerationen.</p><div class=\"facit-matte\">\\[\\frac{a}{g}=\\frac{2521}{9{,}82}=257\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tiden till slutfarten.</p><div class=\"facit-matte\">\\[t=\\frac{v}{a}=\\frac{55}{2521}=2{,}18\\cdot10^{-2}\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är cirka \\(2{,}5\\cdot10^3\\ \\mathrm{m/s^2}\\), ungefär \\(257g\\). Kontakttiden är cirka \\(0{,}022\\ \\mathrm s=22\\ \\mathrm{ms}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2520,
@@ -8020,7 +8084,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.89",
@@ -8239,11 +8305,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Ett flygplan startar från vila och lyfter vid farten 68 m/s efter att ha rullat sträckan i figuren.</p><span class=\"fig bred\"><svg height=\"159\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 29.508 430.000 110.041\"><rect x=\"10\" y=\"92\" width=\"410\" height=\"12\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"92\" x2=\"420\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><polygon points=\"36,60 32,36 50,60\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"74,72 62,86 86,86 94,72\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"34\" y=\"58\" width=\"86\" height=\"20\" rx=\"10\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"120,58 134,68 120,78\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"58\" cy=\"67\" r=\"2.2\" fill=\"#9A959C\"/><circle cx=\"70\" cy=\"67\" r=\"2.2\" fill=\"#9A959C\"/><circle cx=\"82\" cy=\"67\" r=\"2.2\" fill=\"#9A959C\"/><circle cx=\"94\" cy=\"67\" r=\"2.2\" fill=\"#9A959C\"/><line x1=\"52\" y1=\"78\" x2=\"52\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"52\" cy=\"88\" r=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"106\" y1=\"78\" x2=\"106\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"106\" cy=\"88\" r=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"146\" y1=\"73\" x2=\"196\" y2=\"73\" stroke=\"#2A5D9E\" stroke-width=\"2.2\"/><polygon points=\"206,73 196,77.6 196,68.4\" fill=\"#2A5D9E\"/><text x=\"221\" y=\"77\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v = 68 m/s</text><line x1=\"40\" y1=\"128\" x2=\"410\" y2=\"128\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"123\" x2=\"40\" y2=\"133\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"410\" y1=\"123\" x2=\"410\" y2=\"133\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"225\" y=\"119\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1156 m</text></svg></span>\n<ol><li>Bestäm accelerationen.</li><li>Hur lång tid tar starten?</li>\n<li>Hur lång startbana krävs om lyfthastigheten i stället är 78 m/s med samma acceleration?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Planet startar från vila. Använd sambandet utan tid.</p><div class=\"facit-matte\">\\[a=\\frac{v^2}{2s}=\\frac{68^2}{2\\cdot1156}=2{,}00\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tiden till lyftfarten.</p><div class=\"facit-matte\">\\[t=\\frac{v}{a}=\\frac{68}{2{,}00}=34\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Behåll samma acceleration men byt slutfart.</p><div class=\"facit-matte\">\\[s_2=\\frac{78^2}{2\\cdot2{,}00}=1521\\ \\mathrm m\\]</div><p>Det är 365 m längre än den första startsträckan.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(2{,}00\\ \\mathrm{m/s^2}\\), starten tar \\(34\\ \\mathrm s\\), och 78 m/s skulle kräva cirka \\(1{,}52\\ \\mathrm{km}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
@@ -8290,7 +8356,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Behåll samma acceleration men byt slutfart.</p><div class=\"facit-matte\">\\[s_2=\\frac{78^2}{2\\cdot2{,}00}=1521\\ \\mathrm m\\]</div><p>Det är 365 m längre än den första startsträckan.</p></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.94",
@@ -8301,11 +8369,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Vid ett accelerationsprov mäts farten hos en bil.</p>\n<table class=\"data\"><tr><th>t (s)</th><th>v (km/h)</th></tr>\n<tr><td>0,0</td><td>0</td></tr><tr><td>2,0</td><td>31</td></tr><tr><td>4,0</td><td>62</td></tr><tr><td>6,5</td><td>100</td></tr></table>\n<ol><li>Omvandla sluthastigheten till m/s.</li><li>Bestäm accelerationen.</li>\n<li>Hur lång sträcka färdas bilen under provet?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla slutfarten.</p><div class=\"facit-matte\">\\[v=\\frac{100}{3{,}6}=27{,}78\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tabellvärdena ligger nära en rät fartökning, så använd hela intervallet.</p><div class=\"facit-matte\">\\[a=\\frac{27{,}78-0}{6{,}5}=4{,}27\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant acceleration från vila är medelfarten halva slutfarten.</p><div class=\"facit-matte\">\\[s=\\frac{0+27{,}78}{2}\\cdot6{,}5=90{,}3\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Slutfarten är \\(27{,}8\\ \\mathrm{m/s}\\), accelerationen \\(4{,}27\\ \\mathrm{m/s^2}\\), och bilen färdas cirka \\(90\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -8338,7 +8406,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.95",
@@ -8454,11 +8524,11 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>En bil kör med hastigheten 80 km/h.</p>\n<ol><li>Hur lång tid tar det för bilen att köra 150 meter?</li>\n<li>Hur långt hinner bilen på 2,5 sekunder?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla först farten till m/s.</p><div class=\"facit-matte\">\\[v=\\frac{80}{3{,}6}=22{,}2\\ \\mathrm{m/s}\\]</div><p class=\"facit-metod\">Lös ut tiden ur \\(v=s/t\\).</p><div class=\"facit-matte\">\\[t=\\frac{s}{v}=\\frac{150}{22{,}2}=6{,}75\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd \\(s=vt\\).</p><div class=\"facit-matte\">\\[s=22{,}2\\cdot2{,}5=55{,}6\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det tar cirka \\(6{,}8\\ \\mathrm s\\) att köra 150 m, och bilen hinner cirka \\(56\\ \\mathrm m\\) på 2,5 s.</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       6.8,
@@ -8495,7 +8565,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd \\(s=vt\\).</p><div class=\"facit-matte\">\\[s=22{,}2\\cdot2{,}5=55{,}6\\ \\mathrm m\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.100",
@@ -8555,11 +8627,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En satellit går i cirkelbana 700 km över jordytan med hastigheten 7,5 km/s. Jordens radie är 6371 km.</p>\n<ol><li>Hur lång är satellitens bana?</li><li>Hur lång tid tar ett varv?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Banradien är jordradien plus höjden över jordytan.</p><div class=\"facit-matte\">\\[r=6371+700=7071\\ \\mathrm{km}\\]\\[s=2\\pi r=2\\pi\\cdot7071=4{,}443\\cdot10^4\\ \\mathrm{km}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela banans längd med satellitens fart.</p><div class=\"facit-matte\">\\[t=\\frac{4{,}443\\cdot10^4}{7{,}5}=5{,}92\\cdot10^3\\ \\mathrm s\\]\\[t=\\frac{5924}{60}=98{,}7\\ \\mathrm{min}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Banans längd är cirka \\(4{,}44\\cdot10^4\\ \\mathrm{km}\\), och ett varv tar cirka \\(99\\ \\mathrm{min}\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       44400.00000000001,
@@ -8596,7 +8668,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela banans längd med satellitens fart.</p><div class=\"facit-matte\">\\[t=\\frac{4{,}443\\cdot10^4}{7{,}5}=5{,}92\\cdot10^3\\ \\mathrm s\\]\\[t=\\frac{5924}{60}=98{,}7\\ \\mathrm{min}\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.102",
@@ -8607,11 +8681,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Ett godståg rullar med den konstanta farten 22 m/s under 2,5 timmar.</p>\n<ol><li>Hur många sekunder är 2,5 timmar?</li>\n<li>Hur långt kör tåget, i meter?</li>\n<li>Hur långt är det i kilometer?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla timmar till sekunder.</p><div class=\"facit-matte\">\\[t=2{,}5\\cdot3600=9000\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna sträckan med \\(s=vt\\).</p><div class=\"facit-matte\">\\[s=22\\cdot9000=198\\,000\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela antalet meter med 1000.</p><div class=\"facit-matte\">\\[198\\,000\\ \\mathrm m=198\\ \\mathrm{km}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tåget kör \\(198\\,000\\ \\mathrm m=198\\ \\mathrm{km}\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       198,
@@ -8658,7 +8732,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela antalet meter med 1000.</p><div class=\"facit-matte\">\\[198\\,000\\ \\mathrm m=198\\ \\mathrm{km}\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.103",
@@ -8668,12 +8744,12 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Du ser en blixt och hör åskan 6,0 sekunder senare. Ljudet går 340 m/s och ljuset i praktiken direkt.</p>\n<ol><li>Hur långt bort slog blixten ner?</li><li>Varför kan man bortse från ljusets restid?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tidsskillnaden är i praktiken ljudets restid.</p><div class=\"facit-matte\">\\[s=v_{\\mathrm{ljud}}t=340\\cdot6{,}0=2040\\ \\mathrm m\\approx2{,}0\\ \\mathrm{km}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kontrollera hur lång tid ljuset behöver för samma sträcka.</p><div class=\"facit-matte\">\\[t_{\\mathrm{ljus}}=\\frac{2040}{3{,}00\\cdot10^8}=6{,}8\\cdot10^{-6}\\ \\mathrm s\\]</div><p>Det är bara 6,8 mikrosekunder jämfört med 6,0 sekunder.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Blixten slog ned cirka \\(2{,}0\\ \\mathrm{km}\\) bort. Ljusets restid är försumbar i denna beräkning.</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
@@ -8700,7 +8776,9 @@ window.BANK = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.104",
@@ -8710,17 +8788,19 @@ window.BANK = [
     "poang": "(0/1/2)",
     "t": "<p>Två bilar ska köra sträckan s. Den ena kör hela sträckan med hastigheten v. Den andra kör halva sträckan 20 % långsammare och den andra halvan 20 % snabbare.</p>\n<ol><li>Teckna ett uttryck för respektive bils restid.</li>\n<li>Visa att den andra bilen alltid kommer fram sist, oavsett värdet på v.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den första bilens tid är sträcka delad med fart.</p><div class=\"facit-matte\">\\[t_1=\\frac{s}{v}\\]</div><p class=\"facit-metod\">Den andra bilen kör halva sträckan med \\(0{,}8v\\) och halva med \\(1{,}2v\\).</p><div class=\"facit-matte\">\\[t_2=\\frac{s/2}{0{,}8v}+\\frac{s/2}{1{,}2v}\\]\\[t_2=\\frac{s}{v}\\left(\\frac{1}{1{,}6}+\\frac{1}{2{,}4}\\right)=\\frac{25}{24}\\frac{s}{v}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför tiderna.</p><div class=\"facit-matte\">\\[\\frac{t_2}{t_1}=\\frac{25}{24}=1{,}0417\\]</div><p>Kvoten är större än 1 för alla positiva \\(v\\), så slutsatsen beror inte på vilket värde \\(v\\) har.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den andra bilen tar \\(25/24\\) av den första bilens tid, alltså cirka \\(4{,}2\\,\\%\\) längre tid, och kommer alltid sist.</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.105",
@@ -8998,11 +9078,11 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>En joggare håller hastigheten 2,2 m/s och accelererar sedan med 0,25 m/s² under 6,0 sekunder.</p>\n<ol><li>Vilken hastighet har hon efter accelerationen?</li>\n<li>Hur lång sträcka hinner hon under de 6,0 sekunderna?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd fartlagen för konstant acceleration.</p><div class=\"facit-matte\">\\[v=v_0+at=2{,}2+0{,}25\\cdot6{,}0=3{,}7\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ta med både begynnelsefarten och accelerationsbidraget.</p><div class=\"facit-matte\">\\[s=v_0t+\\frac{at^2}{2}=2{,}2\\cdot6{,}0+\\frac{0{,}25\\cdot6{,}0^2}{2}=17{,}7\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter 6,0 s är farten \\(3{,}7\\ \\mathrm{m/s}\\), och joggaren har färdats cirka \\(18\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       3.7,
@@ -9039,7 +9119,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ta med både begynnelsefarten och accelerationsbidraget.</p><div class=\"facit-matte\">\\[s=v_0t+\\frac{at^2}{2}=2{,}2\\cdot6{,}0+\\frac{0{,}25\\cdot6{,}0^2}{2}=17{,}7\\ \\mathrm m\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.116",
@@ -9178,11 +9260,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En hiss startar från vila och accelererar med 1,0 m/s² tills den når farten 2,0 m/s.</p>\n<ol><li>Hur lång tid tar accelerationen?</li>\n<li>Hur långt har hissen åkt då?</li>\n<li>Hur långt åker hissen under de följande 8,0 sekunderna, om farten då hålls konstant?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Hissen startar från vila.</p><div class=\"facit-matte\">\\[t_1=\\frac{v}{a}=\\frac{2{,}0}{1{,}0}=2{,}0\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna sträckan under accelerationen.</p><div class=\"facit-matte\">\\[s_1=\\frac{at_1^2}{2}=\\frac{1{,}0\\cdot2{,}0^2}{2}=2{,}0\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Därefter är farten konstant.</p><div class=\"facit-matte\">\\[s_2=vt=2{,}0\\cdot8{,}0=16\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen tar \\(2{,}0\\ \\mathrm s\\) och omfattar \\(2{,}0\\ \\mathrm m\\). Under följande 8,0 s åker hissen \\(16\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
@@ -9229,7 +9311,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Därefter är farten konstant.</p><div class=\"facit-matte\">\\[s_2=vt=2{,}0\\cdot8{,}0=16\\ \\mathrm m\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.120",
@@ -9331,12 +9415,12 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Diagrammet visar en skidåkare som ökar farten i en svag utförsbacke.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.33333333333334\" x2=\"486\" y2=\"209.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"172.66666666666669\" x2=\"486\" y2=\"172.66666666666669\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.66666666666669\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"99.33333333333334\" x2=\"486\" y2=\"99.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"62.66666666666666\" x2=\"486\" y2=\"62.66666666666666\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.66666666666666\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"108\" y1=\"26\" x2=\"108\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"108\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"216\" y1=\"26\" x2=\"216\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"216\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"324\" y1=\"26\" x2=\"324\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"324\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"432\" y1=\"26\" x2=\"432\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"432\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">7</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,154.33333333333331 486,36.99999999999997\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"154.33333333333331\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"36.99999999999997\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<ol><li>Bestäm accelerationen.</li><li>Hur lång sträcka färdas åkaren på 8 s?</li>\n<li>Varför räcker det inte att räkna s = at²/2 här?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Accelerationen är fartkurvans lutning.</p><div class=\"facit-matte\">\\[a=\\frac{5{,}7-2{,}5}{8}=0{,}40\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sträckan är trapetsarean under kurvan.</p><div class=\"facit-matte\">\\[s=\\frac{v_0+v}{2}t=\\frac{2{,}5+5{,}7}{2}\\cdot8=32{,}8\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Formeln at²/2 beskriver bara accelerationsbidraget när begynnelsefarten är noll.</p><div class=\"facit-matte\">\\[s=v_0t+\\frac{at^2}{2}\\]</div><p>Här måste termen med begynnelsefarten tas med.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(0{,}40\\ \\mathrm{m/s^2}\\), och skidåkaren färdas cirka \\(33\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.4,
@@ -9369,7 +9453,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.123",
@@ -9399,11 +9485,11 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>En backhoppare åker från vila nedför ansatsen och når farten 24 m/s efter 72 meter. Accelerationen är likformig.</p>\n<ol><li>Bestäm accelerationen.</li>\n<li>Hur lång tid tar åkningen nedför ansatsen?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Backhopparen startar från vila och tiden är okänd.</p><div class=\"facit-matte\">\\[a=\\frac{v^2}{2s}=\\frac{24^2}{2\\cdot72}=4{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tiden ur fartlagen.</p><div class=\"facit-matte\">\\[t=\\frac{v}{a}=\\frac{24}{4{,}0}=6{,}0\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(4{,}0\\ \\mathrm{m/s^2}\\), och åkningen nedför ansatsen tar \\(6{,}0\\ \\mathrm s\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       4,
@@ -9440,7 +9526,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tiden ur fartlagen.</p><div class=\"facit-matte\">\\[t=\\frac{v}{a}=\\frac{24}{4{,}0}=6{,}0\\ \\mathrm s\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.125",
@@ -9450,17 +9538,19 @@ window.BANK = [
     "poang": "(0/2/1)",
     "t": "<p>En båt går 4,2 m/s i stilla vatten. Den ska ta sig 850 m i en flod där strömmen är 1,3 m/s.</p>\n<ol><li>Hur lång tid tar sträckan medströms?</li><li>Hur lång tid tar den motströms?</li>\n<li>Blir den sammanlagda tiden fram och tillbaka längre eller kortare än utan ström? Motivera.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Medströms adderas båtens fart genom vattnet och strömmens fart.</p><div class=\"facit-matte\">\\[v_+=4{,}2+1{,}3=5{,}5\\ \\mathrm{m/s}\\]\\[t_+=\\frac{850}{5{,}5}=155\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Motströms subtraheras strömmens fart.</p><div class=\"facit-matte\">\\[v_-=4{,}2-1{,}3=2{,}9\\ \\mathrm{m/s}\\]\\[t_-=\\frac{850}{2{,}9}=293\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför tur–returtiden med samma resa i stilla vatten.</p><div class=\"facit-matte\">\\[t_{\\mathrm{ström}}=155+293=448\\ \\mathrm s\\]\\[t_0=2\\frac{850}{4{,}2}=405\\ \\mathrm s\\]</div><p>Tidsförlusten motströms är större än tidsvinsten medströms eftersom tiden är omvänt proportionell mot farten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det tar cirka \\(155\\ \\mathrm s\\) medströms och \\(293\\ \\mathrm s\\) motströms. Tur och retur tar \\(448\\ \\mathrm s\\), alltså längre än utan ström.</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.126",
@@ -9489,11 +9579,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En GPS-satellit befinner sig 20 200 km över markytan. Signalen går med ljusets fart, 3,00·10⁸ m/s.</p>\n<ol><li>Hur lång tid tar det för signalen att nå en mottagare rakt under satelliten?</li>\n<li>Om mottagarens klocka går fel med en mikrosekund, hur stort blir felet i det beräknade avståndet?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla höjden till meter och använd \\(t=s/c\\).</p><div class=\"facit-matte\">\\[s=20\\,200\\ \\mathrm{km}=2{,}020\\cdot10^7\\ \\mathrm m\\]\\[t=\\frac{2{,}020\\cdot10^7}{3{,}00\\cdot10^8}=6{,}73\\cdot10^{-2}\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett mikrosekundfel motsvarar \\(10^{-6}\\ \\mathrm s\\).</p><div class=\"facit-matte\">\\[\\Delta s=c\\Delta t=(3{,}00\\cdot10^8)(1{,}0\\cdot10^{-6})=300\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Signalen tar cirka \\(0{,}0673\\ \\mathrm s=67{,}3\\ \\mathrm{ms}\\). Ett klockfel på \\(1\\ \\mu\\mathrm s\\) ger ett avståndsfel på \\(300\\ \\mathrm m\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.06730000000000001,
@@ -9520,7 +9610,9 @@ window.BANK = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.128",
@@ -9596,18 +9688,20 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>Du står 85 m från en lodrät klippvägg och klappar i händerna. Ekot hörs 0,50 s senare.</p>\n<p>Bestäm ljudets hastighet i luften.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ekot innebär att ljudet går från dig till väggen och tillbaka. Den totala sträckan är därför dubbel.</p><div class=\"facit-matte\">\\[s=2d=2\\cdot85=170\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd sambandet mellan sträcka, tid och fart.</p><div class=\"facit-matte\">\\[v=\\frac{s}{t}=\\frac{170}{0{,}50}=340\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ljudets fart är \\(340\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "numeriskt",
     "rättSvar": 340,
     "tolerans": 5.1,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "hastighet__hastighet_fran_stracka_och_tid"
+    "familjNyckelTidigare": "hastighet__hastighet_fran_stracka_och_tid",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.131",
@@ -9618,16 +9712,18 @@ window.BANK = [
     "poang": "(0/2/2)",
     "t": "<p>En färja ska ta sig rakt över en älv som är 240 m bred. Färjan gör 3,0 m/s genom vattnet och strömmen är 1,2 m/s.</p><span class=\"fig bred\"><svg height=\"337\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 460 250\"><rect x=\"0\" y=\"0\" width=\"460\" height=\"60\" fill=\"#ECEFF3\"/><rect x=\"0\" y=\"60\" width=\"460\" height=\"140\" fill=\"#DCE6F2\"/><rect x=\"0\" y=\"200\" width=\"460\" height=\"50\" fill=\"#ECEFF3\"/><line x1=\"0\" y1=\"60\" x2=\"460\" y2=\"60\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"0\" y1=\"200\" x2=\"460\" y2=\"200\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"100\" x2=\"383\" y2=\"100\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><polygon points=\"392,100 383,104.6 383,95.4\" fill=\"#2A5D9E\"/><text x=\"352\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">strömmen</text><polygon points=\"106,193 134,193 128,205 112,205\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"120\" y1=\"193\" x2=\"120\" y2=\"119\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/><polygon points=\"120,109 124.6,119 115.4,119\" fill=\"#2A5D9E\"/><text x=\"112\" y=\"152\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">3,0 m/s</text><line x1=\"120\" y1=\"199\" x2=\"144\" y2=\"199\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/><polygon points=\"154,199 144,203.6 144,194.4\" fill=\"#2A5D9E\"/><text x=\"150\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,2 m/s</text><line x1=\"120\" y1=\"199\" x2=\"154\" y2=\"115\" stroke=\"#9A959C\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"48\" y1=\"60\" x2=\"48\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"43\" y1=\"60\" x2=\"53\" y2=\"60\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"43\" y1=\"200\" x2=\"53\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"40\" y=\"134\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">240 m</text></svg></span>\n<ol><li>Färjan riktas rakt mot motsatta stranden. Hur lång tid tar överfarten, och hur långt nedströms hamnar färjan?</li>\n<li>Hur ska färjan riktas för att komma fram rakt över älven?</li>\n<li>Hur lång tid tar överfarten då?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När färjan riktas rakt över älven är tvärkomponenten \\(3{,}0\\ \\mathrm{m/s}\\).</p><div class=\"facit-matte\">\\[t=\\frac{240}{3{,}0}=80\\ \\mathrm s\\]\\[s_{\\mathrm{drift}}=1{,}2\\cdot80=96\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För att färdas rakt över måste färjans uppströmskomponent vara lika stor som strömmen.</p><span class=\"fig smal\"><svg height=\"300\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"22.286 10.582 252.386 199.392\" role=\"img\" aria-label=\"Hastighetstriangel för färjan med uppströmskomponenten 1,2 meter per sekund och tvärkomponenten 2,75 meter per sekund.\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"pil-hastighet-346\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#2A5D9E\"/></marker><marker id=\"pil-resultat-346\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#B43123\"/></marker></defs><line x1=\"85\" y1=\"175\" x2=\"85\" y2=\"55\" stroke=\"#2A5D9E\" stroke-width=\"3\" marker-end=\"url(#pil-hastighet-346)\"/><line x1=\"85\" y1=\"175\" x2=\"225\" y2=\"175\" stroke=\"#2A5D9E\" stroke-width=\"3\" marker-end=\"url(#pil-hastighet-346)\"/><line x1=\"85\" y1=\"175\" x2=\"225\" y2=\"55\" stroke=\"#2A5D9E\" stroke-width=\"3\" marker-end=\"url(#pil-resultat-346)\"/><line x1=\"85\" y1=\"55\" x2=\"225\" y2=\"55\" stroke=\"#9A959C\" stroke-dasharray=\"6 5\"/><line x1=\"225\" y1=\"175\" x2=\"225\" y2=\"55\" stroke=\"#9A959C\" stroke-dasharray=\"6 5\"/><g font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\"><text x=\"130\" y=\"52\" text-anchor=\"end\">1,2 m/s uppströms</text><text x=\"155\" y=\"198\" text-anchor=\"middle\">2,75 m/s tvärs</text><text x=\"175\" y=\"103\" transform=\"rotate(-41 175 103)\" fill=\"#2A5D9E\">3,0 m/s genom vattnet</text></g></svg></span><div class=\"facit-matte\">\\[3{,}0\\sin\\alpha=1{,}2\\]\\[\\alpha=\\arcsin\\!\\left(\\frac{1{,}2}{3{,}0}\\right)=23{,}6^\\circ\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Pythagoras sats ger fartkomponenten rakt över.</p><div class=\"facit-matte\">\\[v_\\perp=\\sqrt{3{,}0^2-1{,}2^2}=2{,}75\\ \\mathrm{m/s}\\]\\[t=\\frac{240}{2{,}75}=87{,}3\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Rakt riktad tar färjan \\(80\\ \\mathrm s\\) och driver \\(96\\ \\mathrm m\\). För att nå rakt över ska den riktas \\(23{,}6^\\circ\\) uppströms; då tar färden cirka \\(87\\ \\mathrm s\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.132",
@@ -9637,11 +9733,11 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>Ljusets hastighet är 2,998·10⁸ m/s och ett år har 3,156·10⁷ sekunder.</p>\n<ol><li>Hur många meter är ett ljusår?</li>\n<li>Mars befinner sig som närmast 2,5·10¹¹ m från jorden. Hur lång tid tar en radiosignal dit?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett ljusår är den sträcka ljuset färdas under ett år.</p><div class=\"facit-matte\">\\[s=ct=(2{,}998\\cdot10^8)(3{,}156\\cdot10^7)\\]\\[s=9{,}462\\cdot10^{15}\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Radiosignalen färdas med ljusets fart.</p><div class=\"facit-matte\">\\[t=\\frac{s}{c}=\\frac{2{,}5\\cdot10^{11}}{2{,}998\\cdot10^8}=8{,}34\\cdot10^2\\ \\mathrm s\\]\\[t=\\frac{834}{60}=13{,}9\\ \\mathrm{min}\\]</div><p>Detta är tiden i en riktning; ett svar från Mars tar lika lång tid tillbaka.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ett ljusår är \\(9{,}46\\cdot10^{15}\\ \\mathrm m\\). Signalen till Mars tar cirka \\(834\\ \\mathrm s=13{,}9\\ \\mathrm{min}\\).</p></div>",
-    "familj": "Likformig rörelse och hastighetsberäkningar",
+    "familj": "Likformig rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "hastighet__likformig_rorelse_och_hastighetsberakningar",
+    "familjNyckel": "hastighet__likformig_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       9462000000000000,
@@ -9665,7 +9761,9 @@ window.BANK = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "hastighet__likformig_rorelse"
+    "familjNyckelTidigare": "hastighet__likformig_rorelse",
+    "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
+    "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar"
   },
   {
     "id": "3.133",
@@ -10130,11 +10228,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Diagrammet visar en radiostyrd bil som kör fram och sedan tillbaka.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-6</text><line x1=\"54\" y1=\"214.57142857142858\" x2=\"486\" y2=\"214.57142857142858\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"218.57142857142858\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-4</text><line x1=\"54\" y1=\"183.14285714285714\" x2=\"486\" y2=\"183.14285714285714\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"187.14285714285714\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-2</text><line x1=\"54\" y1=\"151.71428571428572\" x2=\"486\" y2=\"151.71428571428572\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"155.71428571428572\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"120.28571428571429\" x2=\"486\" y2=\"120.28571428571429\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"124.28571428571429\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"88.85714285714286\" x2=\"486\" y2=\"88.85714285714286\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"92.85714285714286\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"57.428571428571445\" x2=\"486\" y2=\"57.428571428571445\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"61.428571428571445\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"102\" y1=\"26\" x2=\"102\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"102\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"150\" y1=\"26\" x2=\"150\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"150\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"246\" y1=\"26\" x2=\"246\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"246\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"294\" y1=\"26\" x2=\"294\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"294\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"390\" y1=\"26\" x2=\"390\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"390\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">14</text><line x1=\"438\" y1=\"26\" x2=\"438\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"438\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">16</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"151.71428571428572\" x2=\"486\" y2=\"151.71428571428572\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,151.71428571428572 198,26 294,26 390,230.28571428571428 486,230.28571428571428\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span>\n<ol><li>När byter bilen riktning?</li><li>Hur lång sträcka har bilen färdats totalt?</li>\n<li>Hur långt från startpunkten står den till slut?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bilen byter riktning när hastigheten byter tecken, alltså där kurvan skär tidsaxeln.</p><div class=\"facit-matte\">\\[t\\approx12{,}5\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Total vägsträcka fås genom att addera de positiva beloppen av areorna över och under tidsaxeln.</p><div class=\"facit-matte\">\\[s_{\\mathrm{fram}}=66\\ \\mathrm m\\]\\[s_{\\mathrm{bak}}=24\\ \\mathrm m\\]\\[s_{\\mathrm{tot}}=66+24=90\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Förskjutningen fås med tecken på areorna.</p><div class=\"facit-matte\">\\[\\Delta x=66-24=42\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bilen vänder vid cirka \\(12{,}5\\ \\mathrm s\\), färdas totalt \\(90\\ \\mathrm m\\) och slutar \\(42\\ \\mathrm m\\) framför startpunkten.</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -10167,7 +10265,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.146",
@@ -10241,11 +10341,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Diagrammet visar en varuhiss som först åker uppåt och sedan nedåt.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-4</text><line x1=\"54\" y1=\"218.5\" x2=\"486\" y2=\"218.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"222.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-3</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-2</text><line x1=\"54\" y1=\"163.5\" x2=\"486\" y2=\"163.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-1</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"108.5\" x2=\"486\" y2=\"108.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"112.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"53.5\" x2=\"486\" y2=\"53.5\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"57.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"115.71428571428571\" y1=\"26\" x2=\"115.71428571428571\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"115.71428571428571\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"177.42857142857142\" y1=\"26\" x2=\"177.42857142857142\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"177.42857142857142\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"239.14285714285714\" y1=\"26\" x2=\"239.14285714285714\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"239.14285714285714\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"300.85714285714283\" y1=\"26\" x2=\"300.85714285714283\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"300.85714285714283\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"362.57142857142856\" y1=\"26\" x2=\"362.57142857142856\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"362.57142857142856\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"424.2857142857143\" y1=\"26\" x2=\"424.2857142857143\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"424.2857142857143\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">14</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,136 115.71428571428571,26 208.28571428571428,26 270,136 331.7142857142857,246 424.2857142857143,246 486,136\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span>\n<ol><li>Hur långt åker hissen uppåt?</li><li>Hur långt åker den nedåt?</li>\n<li>Var befinner den sig till slut i förhållande till startpunkten?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sträckan uppåt är den positiva arean under fartkurvan.</p><div class=\"facit-matte\">\\[s_\\uparrow=4+12+4=20\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sträckan nedåt är beloppet av den negativa arean.</p><div class=\"facit-matte\">\\[s_\\downarrow=4+12+4=20\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Förskjutningen är den tecknade arean.</p><div class=\"facit-matte\">\\[\\Delta y=20-20=0\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Hissen åker \\(20\\ \\mathrm m\\) uppåt och \\(20\\ \\mathrm m\\) nedåt och slutar vid startpunkten.</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       20,
@@ -10278,7 +10378,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.149",
@@ -10288,11 +10390,11 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>Ett flygplan accelererar likformigt med 2,4 m/s² på startbanan och lyfter vid farten 72 m/s.</p>\n<ol><li>Hur lång tid tar starten?</li><li>Hur lång startbana krävs?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Planet startar från vila, så slutfarten är lika med acceleration gånger tid.</p><div class=\"facit-matte\">\\[t=\\frac{v}{a}=\\frac{72}{2{,}4}=30\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd sambandet utan tid eller medelfarten under accelerationen.</p><div class=\"facit-matte\">\\[s=\\frac{v^2}{2a}=\\frac{72^2}{2\\cdot2{,}4}=1080\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Starten tar \\(30\\ \\mathrm s\\) och kräver cirka \\(1{,}08\\ \\mathrm{km}\\) startbana.</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       30,
@@ -10329,7 +10431,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd sambandet utan tid eller medelfarten under accelerationen.</p><div class=\"facit-matte\">\\[s=\\frac{v^2}{2a}=\\frac{72^2}{2\\cdot2{,}4}=1080\\ \\mathrm m\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.150",
@@ -10362,16 +10466,18 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Tabellen gäller fyra kroppar som rör sig med konstant acceleration. Ett värde saknas på varje rad.</p><table class=\"data\"><tr><th>v₀ (m/s)</th><th>a (m/s²)</th><th>t (s)</th><th>v (m/s)</th></tr><tr><td>0</td><td>3,0</td><td>5,0</td><td>?</td></tr><tr><td>8,0</td><td>?</td><td>4,0</td><td>20</td></tr><tr><td>12</td><td>−2,0</td><td>?</td><td>4,0</td></tr><tr><td>?</td><td>1,5</td><td>6,0</td><td>15</td></tr></table>\n<p>Bestäm de värden som saknas.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd fartlagen rad för rad.</p><div class=\"facit-matte\">\\[v=v_0+at\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De fyra raderna ger</p><div class=\"facit-matte\">\\[v_1=0+3{,}0\\cdot5{,}0=15\\ \\mathrm{m/s}\\]\\[a_2=\\frac{20-8{,}0}{4{,}0}=3{,}0\\ \\mathrm{m/s^2}\\]\\[t_3=\\frac{4{,}0-12}{-2{,}0}=4{,}0\\ \\mathrm s\\]\\[v_{0,4}=15-1{,}5\\cdot6{,}0=6{,}0\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade värdena är \\(15\\ \\mathrm{m/s}\\), \\(3{,}0\\ \\mathrm{m/s^2}\\), \\(4{,}0\\ \\mathrm s\\) och \\(6{,}0\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.152",
@@ -10382,11 +10488,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En cyklist håller farten 4,0 m/s när backen börjar. Cyklisten slutar trampa och accelererar sedan likformigt med 0,80 m/s² nedför den 60 meter långa backen.</p><span class=\"fig bred\"><svg height=\"215\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"21.686 15.777 416.629 144.622\"><path d=\"M 40 56 L 40 152 L 420 152 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><g transform=\"translate(114,74.7) rotate(14.2)\"><circle cx=\"-16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polyline points=\"-16,-10 0,-10 -8,-26 -16,-10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polyline points=\"0,-10 12,-26 -8,-26\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"16\" y2=\"-10\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"18\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-27\" x2=\"-4\" y2=\"-27\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"4\" cy=\"-46\" r=\"7\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"-6\" y1=\"-28\" x2=\"2\" y2=\"-40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"0\" y1=\"-38\" x2=\"16\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-28\" x2=\"0\" y2=\"-14\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></g><line x1=\"196.9\" y1=\"75.01\" x2=\"263.2\" y2=\"91.76\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"272.9,94.21 262.08,96.22 264.33,87.3\" fill=\"#2A5D9E\"/><text x=\"239.8\" y=\"65.22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀</text></svg></span>\n<ol><li>Hur stor är farten längst ned i backen?</li>\n<li>Hur lång tid tar det att åka nedför backen?</li>\n<li>Hur stor är medelhastigheten i backen?</li>\n<li>Hur långt har cyklisten kommit efter 4,0 sekunder? Är det mer eller mindre än halva backen?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tiden är okänd, så använd sambandet utan tid.</p><div class=\"facit-matte\">\\[v^2=4{,}0^2+2\\cdot0{,}80\\cdot60=112\\]\\[v=10{,}58\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tiden ur fartlagen.</p><div class=\"facit-matte\">\\[t=\\frac{10{,}58-4{,}0}{0{,}80}=8{,}23\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Medelfarten kan tas som ändpunktsmedelvärdet.</p><div class=\"facit-matte\">\\[\\bar v=\\frac{4{,}0+10{,}58}{2}=7{,}29\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna läget efter 4,0 s.</p><div class=\"facit-matte\">\\[s=4{,}0\\cdot4{,}0+\\frac{0{,}80\\cdot4{,}0^2}{2}=22{,}4\\ \\mathrm m\\]</div><p>Det är mindre än halva backen eftersom farten är lägre under den första delen av tiden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Slutfarten är \\(10{,}6\\ \\mathrm{m/s}\\), tiden \\(8{,}23\\ \\mathrm s\\), medelfarten \\(7{,}29\\ \\mathrm{m/s}\\), och efter 4,0 s har cyklisten färdats \\(22{,}4\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       10.6,
@@ -10443,7 +10549,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna läget efter 4,0 s.</p><div class=\"facit-matte\">\\[s=4{,}0\\cdot4{,}0+\\frac{0{,}80\\cdot4{,}0^2}{2}=22{,}4\\ \\mathrm m\\]</div><p>Det är mindre än halva backen eftersom farten är lägre under den första delen av tiden.</p></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.153",
@@ -10472,11 +10580,11 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>En kajak håller farten 2,0 m/s och accelererar sedan likformigt med 0,40 m/s² under 5,0 sekunder.</p>\n<ol><li>Vilken fart har kajaken efter 5,0 sekunder?</li>\n<li>Hur långt har den kommit under den tiden?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd fartlagen.</p><div class=\"facit-matte\">\\[v=2{,}0+0{,}40\\cdot5{,}0=4{,}0\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ta med begynnelsefarten i sträckformeln.</p><div class=\"facit-matte\">\\[s=2{,}0\\cdot5{,}0+\\frac{0{,}40\\cdot5{,}0^2}{2}=15\\ \\mathrm m\\]</div><p>Kontroll: medelfarten är 3,0 m/s och 3,0 · 5,0 = 15 m.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter 5,0 s är farten \\(4{,}0\\ \\mathrm{m/s}\\), och kajaken har färdats \\(15\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       4,
@@ -10513,7 +10621,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ta med begynnelsefarten i sträckformeln.</p><div class=\"facit-matte\">\\[s=2{,}0\\cdot5{,}0+\\frac{0{,}40\\cdot5{,}0^2}{2}=15\\ \\mathrm m\\]</div><p>Kontroll: medelfarten är 3,0 m/s och 3,0 · 5,0 = 15 m.</p></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.155",
@@ -10524,11 +10634,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En linbanevagn saktar in från 5,0 m/s till 1,0 m/s under 8,0 sekunder. Retardationen är likformig.</p>\n<ol><li>Bestäm accelerationen.</li>\n<li>Vilken medelfart har vagnen under inbromsningen?</li>\n<li>Hur långt färdas vagnen under de 8,0 sekunderna?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Acceleration är fartändring delad med tid.</p><div class=\"facit-matte\">\\[a=\\frac{1{,}0-5{,}0}{8{,}0}=-0{,}50\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant acceleration är medelfarten medelvärdet av ändpunkternas farter.</p><div class=\"facit-matte\">\\[\\bar v=\\frac{5{,}0+1{,}0}{2}=3{,}0\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Multiplicera medelfarten med tiden.</p><div class=\"facit-matte\">\\[s=\\bar vt=3{,}0\\cdot8{,}0=24\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(-0{,}50\\ \\mathrm{m/s^2}\\), medelfarten \\(3{,}0\\ \\mathrm{m/s}\\), och sträckan \\(24\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       -0.5,
@@ -10561,7 +10671,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.156",
@@ -10572,18 +10684,20 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En tunnelbanevagn startar från vila och accelererar med 1,2 m/s² i 10 sekunder. Därefter håller den konstant fart i 40 sekunder och bromsar sedan med 1,5 m/s² tills den står stilla.</p>\n<p>Hur långt kör vagnen mellan stationerna?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Accelerationsfasen ger slutfarten och den första delsträckan.</p><div class=\"facit-matte\">\\[v=1{,}2\\cdot10=12\\ \\mathrm{m/s}\\]\\[s_1=\\frac{1{,}2\\cdot10^2}{2}=60\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Under konstant fart färdas vagnen</p><div class=\"facit-matte\">\\[s_2=12\\cdot40=480\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid inbromsningen är medelfarten 6,0 m/s och bromstiden 8,0 s.</p><div class=\"facit-matte\">\\[t_3=\\frac{12}{1{,}5}=8{,}0\\ \\mathrm s\\]\\[s_3=\\frac{12+0}{2}\\cdot8{,}0=48\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">4</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Addera delsträckorna.</p><div class=\"facit-matte\">\\[s_{\\mathrm{tot}}=60+480+48=588\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tunnelbanevagnen kör \\(588\\ \\mathrm m\\) mellan stationerna.</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "numeriskt",
     "rättSvar": 588,
     "tolerans": 8.82,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.157",
@@ -10645,11 +10759,11 @@ window.BANK = [
     "poang": "(0/2/0)",
     "t": "<p>En bil startar från stillastående och accelererar med 2,5 m/s² tills den når 25 m/s. Därefter håller den den farten.</p>\n<ol><li>Hur lång tid tar accelerationen, och hur långt kör bilen då?</li>\n<li>Hur lång tid tar det totalt att köra 200 m från start?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Under accelerationen gäller</p><div class=\"facit-matte\">\\[t_1=\\frac{25}{2{,}5}=10\\ \\mathrm s\\]\\[s_1=\\frac{25^2}{2\\cdot2{,}5}=125\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Efter accelerationen återstår 75 m med konstant fart.</p><div class=\"facit-matte\">\\[s_2=200-125=75\\ \\mathrm m\\]\\[t_2=\\frac{75}{25}=3{,}0\\ \\mathrm s\\]\\[t_{\\mathrm{tot}}=10+3{,}0=13\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen tar \\(10\\ \\mathrm s\\) och omfattar \\(125\\ \\mathrm m\\). Hela sträckan 200 m tar \\(13\\ \\mathrm s\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -10676,7 +10790,9 @@ window.BANK = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.159",
@@ -10876,11 +10992,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En puck skjuts iväg över en isbana med farten 12 m/s. Friktionen mot isen gör att pucken retarderar likformigt med 0,40 m/s².</p><span class=\"fig bred\"><svg height=\"134\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 49.884 460.000 99.768\"><rect x=\"14\" y=\"116\" width=\"432\" height=\"28\" fill=\"#DCE6F2\"/><line x1=\"14\" y1=\"116\" x2=\"446\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"70\" y=\"102\" width=\"40\" height=\"14\" rx=\"2\" fill=\"#2B2527\"/><line x1=\"70\" y1=\"112\" x2=\"34\" y2=\"112\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"26,112 36,116.6 36,107.4\" fill=\"#B43123\"/><text x=\"48\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">friktion</text><line x1=\"90\" y1=\"76\" x2=\"170\" y2=\"76\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"180,76 170,80.6 170,71.4\" fill=\"#2A5D9E\"/><text x=\"135\" y=\"64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 12 m/s</text><text x=\"230\" y=\"138\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">is</text></svg></span>\n<ol><li>Hur stor är farten efter 10 sekunder?</li>\n<li>Hur långt har pucken glidit under de 10 sekunderna?</li>\n<li>Efter hur lång tid stannar pucken?</li>\n<li>Hur lång blir den totala glidsträckan?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj rörelseriktningen som positiv, så accelerationen är negativ.</p><div class=\"facit-matte\">\\[v=12-0{,}40\\cdot10=8{,}0\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna sträckan under de första 10 s.</p><div class=\"facit-matte\">\\[s=12\\cdot10-\\frac{0{,}40\\cdot10^2}{2}=100\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Pucken stannar när hastigheten är noll.</p><div class=\"facit-matte\">\\[0=12-0{,}40t\\Rightarrow t=30\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna totalsträckan med sambandet utan tid.</p><div class=\"facit-matte\">\\[0=12^2-2\\cdot0{,}40s\\Rightarrow s=180\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter 10 s är farten \\(8{,}0\\ \\mathrm{m/s}\\) och sträckan \\(100\\ \\mathrm m\\). Pucken stannar efter 30 s och har då glidit \\(180\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       8,
@@ -10919,7 +11035,9 @@ window.BANK = [
       "c",
       "d"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.164",
@@ -10999,16 +11117,18 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En bil bromsar likformigt. Under den första sekunden av inbromsningen kör den 22 meter, och under den fjärde sekunden kör den 10 meter.</p><span class=\"fig bred\"><svg height=\"142\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 65.018 470.000 107.917\"><line x1=\"16\" y1=\"96\" x2=\"454\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"86\" x2=\"30\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><text x=\"30\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">0 s</text><line x1=\"155.28\" y1=\"86\" x2=\"155.28\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><text x=\"155.28\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">1,0 s</text><line x1=\"257.78\" y1=\"86\" x2=\"257.78\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><text x=\"257.78\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">2,0 s</text><line x1=\"337.5\" y1=\"86\" x2=\"337.5\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><text x=\"337.5\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">3,0 s</text><line x1=\"394.44\" y1=\"86\" x2=\"394.44\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><text x=\"394.44\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">4,0 s</text><line x1=\"32\" y1=\"120\" x2=\"153.28\" y2=\"120\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"32,120 39,123 39,117\" fill=\"#5C575E\"/><polygon points=\"153.28,120 146.28,123 146.28,117\" fill=\"#5C575E\"/><text x=\"92.64\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">22 m</text><line x1=\"339.5\" y1=\"120\" x2=\"392.44\" y2=\"120\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"339.5,120 346.5,123 346.5,117\" fill=\"#5C575E\"/><polygon points=\"392.44,120 385.44,123 385.44,117\" fill=\"#5C575E\"/><text x=\"365.97\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">10 m</text><text x=\"30\" y=\"164\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">likformig inbromsning</text></svg></span>\n<p>Bestäm bilens retardation och farten när inbromsningen började.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant acceleration är sträckan under sekund nummer n</p><div class=\"facit-matte\">\\[\\Delta s_n=s(n)-s(n-1)=v_0+a\\left(n-\\frac12\\right)\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd uppgifterna för första och fjärde sekunden.</p><div class=\"facit-matte\">\\[v_0+0{,}5a=22\\]\\[v_0+3{,}5a=10\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Subtrahera ekvationerna och bestäm sedan begynnelsefarten.</p><div class=\"facit-matte\">\\[3a=-12\\Rightarrow a=-4{,}0\\ \\mathrm{m/s^2}\\]\\[v_0=22-0{,}5(-4{,}0)=24\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bilens acceleration är \\(-4{,}0\\ \\mathrm{m/s^2}\\), alltså retardationen \\(4{,}0\\ \\mathrm{m/s^2}\\). Begynnelsefarten är \\(24\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.167",
@@ -11019,11 +11139,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Läget hos en kula som rullar nedför en ränna mäts varje sekund.</p>\n<table class=\"data\"><tr><th>t (s)</th><th>s (m)</th></tr><tr><td>0</td><td>0,0</td></tr><tr><td>1</td><td>1,0</td></tr><tr><td>2</td><td>4,0</td></tr><tr><td>3</td><td>9,0</td></tr><tr><td>4</td><td>16,0</td></tr></table>\n<ol><li>Beräkna medelhastigheten i varje sekundintervall.</li>\n<li>Vad visar de värdena om rörelsen?</li><li>Bestäm accelerationen.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Medelfarten i varje intervall är lägesändringen under en sekund.</p><div class=\"facit-matte\">\\[\\bar v_{0-1}=1{,}0\\ \\mathrm{m/s}\\]\\[\\bar v_{1-2}=3{,}0\\ \\mathrm{m/s}\\]\\[\\bar v_{2-3}=5{,}0\\ \\mathrm{m/s}\\]\\[\\bar v_{3-4}=7{,}0\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Medelfarten ökar med 2,0 m/s för varje ny sekund.</p><p>Det är kännetecknande för en rörelse med konstant acceleration.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tabellen följer s = t². Jämför med s = at²/2.</p><div class=\"facit-matte\">\\[t^2=\\frac{at^2}{2}\\Rightarrow a=2{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Intervallens medelfarter är \\(1{,}0\\), \\(3{,}0\\), \\(5{,}0\\) och \\(7{,}0\\ \\mathrm{m/s}\\). Accelerationen är \\(2{,}0\\ \\mathrm{m/s^2}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -11056,7 +11176,9 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.168",
@@ -11067,11 +11189,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Diagrammet visar accelerationen hos ett fordon som startar från vila.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">a (m/s²)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,81 226.8,81 226.8,191 486,191\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span>\n<ol><li>Vilken fart har fordonet efter 4 s?</li><li>Vilken fart har det efter 10 s?</li>\n<li>Hur lång sträcka färdas det under de första 4 sekunderna?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Arean under ett acceleration–tid-diagram är hastighetsändringen.</p><div class=\"facit-matte\">\\[v(4)=0+3\\cdot4=12\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Från 4 till 10 s är accelerationen 1 m/s².</p><div class=\"facit-matte\">\\[v(10)=12+1\\cdot(10-4)=18\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Under de första fyra sekunderna är accelerationen konstant och fordonet startar från vila.</p><div class=\"facit-matte\">\\[s=\\frac{3\\cdot4^2}{2}=24\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Farten är \\(12\\ \\mathrm{m/s}\\) efter 4 s och \\(18\\ \\mathrm{m/s}\\) efter 10 s. Under de första 4 s färdas fordonet \\(24\\ \\mathrm m\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "flera_delar",
     "rättSvar": [
       12,
@@ -11118,7 +11240,9 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Under de första fyra sekunderna är accelerationen konstant och fordonet startar från vila.</p><div class=\"facit-matte\">\\[s=\\frac{3\\cdot4^2}{2}=24\\ \\mathrm m\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.169",
@@ -11195,16 +11319,18 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En sten kastas rakt nedåt med farten 4,0 m/s från en balkong 25 meter över marken. Luftmotståndet försummas.</p>\n<p>Hur lång tid tar fallet, och vilken fart har stenen när den når marken?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Räkna nedåt som positiv riktning och ställ upp lägesekvationen.</p><div class=\"facit-matte\">\\[25=4{,}0t+\\frac{9{,}82t^2}{2}\\]\\[4{,}91t^2+4{,}0t-25=0\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös andragradsekvationen och välj den positiva roten.</p><div class=\"facit-matte\">\\[t=\\frac{-4{,}0+\\sqrt{4{,}0^2+4\\cdot4{,}91\\cdot25}}{2\\cdot4{,}91}=1{,}89\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna slutfarten.</p><div class=\"facit-matte\">\\[v=4{,}0+9{,}82\\cdot1{,}89=22{,}5\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fallet tar cirka \\(1{,}89\\ \\mathrm s\\), och stenen träffar marken med farten \\(22{,}5\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Beräkningar vid konstant acceleration",
+    "familj": "Konstant acceleration",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "konstacc__berakningar_vid_konstant_acceleration",
+    "familjNyckel": "konstacc__konstant_acceleration",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning"
+    "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
+    "familjTidigare": "Beräkningar vid konstant acceleration",
+    "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration"
   },
   {
     "id": "3.172",
@@ -11252,15 +11378,17 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Fyra vågräta krafter verkar på en låda med massan 3,0 kg enligt figuren. Underlaget är friktionsfritt.</p><span class=\"fig bred\"><svg height=\"119\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 83.305 420.000 80.308\"><rect x=\"15\" y=\"150\" width=\"390\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"150\" x2=\"405\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"90\" width=\"90\" height=\"60\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"126\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">3,0 kg</text><line x1=\"77\" y1=\"105\" x2=\"152\" y2=\"105\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"162.00,105.00 152.00,109.60 152.00,100.40\" fill=\"#B43123\"/><text x=\"71\" y=\"100\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F₁ = 25 N</text><line x1=\"128\" y1=\"135\" x2=\"152\" y2=\"135\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"162.00,135.00 152.00,139.60 152.00,130.40\" fill=\"#B43123\"/><text x=\"122\" y=\"130\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F₃ = 8,0 N</text><line x1=\"314\" y1=\"105\" x2=\"278\" y2=\"105\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"268.00,105.00 278.00,100.40 278.00,109.60\" fill=\"#B43123\"/><text x=\"320\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F₂ = 12 N</text><line x1=\"323\" y1=\"135\" x2=\"278\" y2=\"135\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"268.00,135.00 278.00,130.40 278.00,139.60\" fill=\"#B43123\"/><text x=\"329\" y=\"130\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F₄ = 15 N</text></svg></span>\n<p>Bestäm den resulterande kraften och lådans acceleration.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj höger som positiv riktning och summera alla fyra krafterna med tecken.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=25+8{,}0-12-15=6{,}0\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Resultanten är positiv och därmed riktad åt höger. Beräkna accelerationen.</p><div class=\"facit-matte\">\\[a=\\frac{6{,}0}{3{,}0}=2{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten är \\(6{,}0\\ \\mathrm N\\) åt höger och accelerationen \\(2{,}0\\ \\mathrm{m/s^2}\\) åt höger.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.3",
@@ -11308,11 +11436,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En kitesurfare med bräda väger tillsammans 78 kg. Linorna till draken drar med kraften 500 N i vinkeln 35° mot vattenytan. Vattnet bromsar surfaren med kraften 220 N.</p><span class=\"fig bred\"><svg height=\"293\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 236\"><rect x=\"0\" y=\"170\" width=\"500\" height=\"66\" rx=\"3\" fill=\"#DCE6F2\" stroke=\"none\"/><line x1=\"0\" y1=\"170\" x2=\"500\" y2=\"170\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 36 186 q 9 -6 18 0 q 9 6 18 0\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 118 186 q 9 -6 18 0 q 9 6 18 0\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 366 186 q 9 -6 18 0 q 9 6 18 0\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 440 186 q 9 -6 18 0 q 9 6 18 0\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polygon points=\"136,176 244,176 252,164 128,164\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"176\" y1=\"164\" x2=\"188\" y2=\"136\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"206\" y1=\"164\" x2=\"192\" y2=\"136\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"168\" y1=\"162\" x2=\"182\" y2=\"162\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"200\" y1=\"162\" x2=\"214\" y2=\"162\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"190\" y1=\"136\" x2=\"190\" y2=\"104\" stroke=\"#2B2527\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><circle cx=\"190\" cy=\"94\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"190\" y1=\"116\" x2=\"224\" y2=\"104\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"224\" y1=\"104\" x2=\"330\" y2=\"104\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 4\"/><line x1=\"224\" y1=\"104\" x2=\"324.81\" y2=\"33.34\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"333,27.6 327.45,37.11 322.17,29.57\" fill=\"#B43123\"/><text x=\"256\" y=\"50\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">500 N</text><path d=\"M 336 16 q 44 4 56 34 q -38 16 -66 6 z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 270 104 A 46 46 0 0 0 261.68 77.62\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"/><text x=\"281.22\" y=\"89.96\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">35°</text><line x1=\"134\" y1=\"168\" x2=\"88.5\" y2=\"168\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"78,168 88.5,163.2 88.5,172.8\" fill=\"#B43123\"/><text x=\"66\" y=\"180\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">220 N</text><text x=\"190\" y=\"212\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">m = 78 kg</text></svg></span>\n<ol><li>Hur stor är kraftens komposant längs vattenytan?</li><li>Hur stor är komposanten rakt uppåt?</li><li>Bestäm surfarens acceleration.</li><li>Hur hårt trycker brädan mot vattnet, alltså hur stor är normalkraften?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela upp linornas kraft i en komposant längs vattenytan.</p><div class=\"facit-matte\">\\[F_x=500\\cos35^\\circ=409{,}6\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den lodräta komposanten är riktad uppåt.</p><div class=\"facit-matte\">\\[F_y=500\\sin35^\\circ=286{,}8\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vågrätt motverkas dragkraften av vattnets bromskraft.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res},x}=409{,}6-220=189{,}6\\ \\mathrm N\\]\\[a=\\frac{189{,}6}{78}=2{,}43\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ingen lodrät acceleration anges, så de lodräta krafterna balanserar varandra.</p><div class=\"facit-matte\">\\[N+F_y-mg=0\\]\\[N=78\\cdot9{,}82-286{,}8=479\\ \\mathrm N\\]</div><p>Draken bär en del av tyngden och minskar därför brädans tryck mot vattnet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Komposanterna är \\(410\\ \\mathrm N\\) framåt och \\(287\\ \\mathrm N\\) uppåt. Accelerationen är \\(2{,}4\\ \\mathrm{m/s^2}\\), och normalkraften från vattnet är cirka \\(479\\ \\mathrm N\\).</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       410,
@@ -11368,7 +11496,9 @@ window.BANK = [
         "t": "<p>En kitesurfare med bräda väger tillsammans 78 kg. Linorna till draken drar med kraften 500 N i vinkeln 35° mot vattenytan. Vattnet bromsar surfaren med kraften 220 N.</p><span class=\"fig bred\"><svg height=\"293\" preserveaspectratio=\"xMidYMid meet\" viewbox=\"0 0 500 236\" width=\"620\"><rect fill=\"#DCE6F2\" height=\"66\" rx=\"3\" stroke=\"none\" width=\"500\" x=\"0\" y=\"170\"></rect><line stroke=\"#2A5D9E\" stroke-linecap=\"square\" stroke-width=\"2\" x1=\"0\" x2=\"500\" y1=\"170\" y2=\"170\"></line><path d=\"M 36 186 q 9 -6 18 0 q 9 6 18 0\" fill=\"none\" stroke=\"#2A5D9E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.4\"></path><path d=\"M 118 186 q 9 -6 18 0 q 9 6 18 0\" fill=\"none\" stroke=\"#2A5D9E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.4\"></path><path d=\"M 366 186 q 9 -6 18 0 q 9 6 18 0\" fill=\"none\" stroke=\"#2A5D9E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.4\"></path><path d=\"M 440 186 q 9 -6 18 0 q 9 6 18 0\" fill=\"none\" stroke=\"#2A5D9E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.4\"></path><polygon fill=\"#DCEAF6\" points=\"136,176 244,176 252,164 128,164\" stroke=\"#2B2527\" stroke-linejoin=\"round\" stroke-width=\"2\"></polygon><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"176\" x2=\"188\" y1=\"164\" y2=\"136\"></line><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"206\" x2=\"192\" y1=\"164\" y2=\"136\"></line><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"2.6\" x1=\"168\" x2=\"182\" y1=\"162\" y2=\"162\"></line><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"2.6\" x1=\"200\" x2=\"214\" y1=\"162\" y2=\"162\"></line><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"3.4\" x1=\"190\" x2=\"190\" y1=\"136\" y2=\"104\"></line><circle cx=\"190\" cy=\"94\" fill=\"#fff\" r=\"10\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"2.6\" x1=\"190\" x2=\"224\" y1=\"116\" y2=\"104\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-linecap=\"square\" stroke-width=\"1.2\" x1=\"224\" x2=\"330\" y1=\"104\" y2=\"104\"></line><line stroke=\"#B43123\" stroke-linecap=\"round\" stroke-width=\"2.3\" x1=\"224\" x2=\"324.81\" y1=\"104\" y2=\"33.34\"></line><polygon fill=\"#B43123\" points=\"333,27.6 327.45,37.11 322.17,29.57\"></polygon><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"start\" x=\"256\" y=\"50\">500 N</text><path d=\"M 336 16 q 44 4 56 34 q -38 16 -66 6 z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.8\"></path><path d=\"M 270 104 A 46 46 0 0 0 261.68 77.62\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"></path><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" text-anchor=\"middle\" x=\"281.22\" y=\"89.96\">35°</text><line stroke=\"#B43123\" stroke-linecap=\"butt\" stroke-width=\"2.3\" x1=\"134\" x2=\"88.5\" y1=\"168\" y2=\"168\"></line><polygon fill=\"#B43123\" points=\"78,168 88.5,163.2 88.5,172.8\"></polygon><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"end\" x=\"66\" y=\"180\">220 N</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"190\" y=\"212\">m = 78 kg</text></svg></span><div class=\"spel-en-del\">Hur hårt trycker brädan mot vattnet, alltså hur stor är normalkraften?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ingen lodrät acceleration anges, så de lodräta krafterna balanserar varandra.</p><div class=\"facit-matte\">\\[N+F_y-mg=0\\]\\[N=78\\cdot9{,}82-286{,}8=479\\ \\mathrm N\\]</div><p>Draken bär en del av tyngden och minskar därför brädans tryck mot vattnet.</p></div></div></div>"
       }
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.5",
@@ -12230,11 +12360,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>På en låda med massan 4,0 kg verkar två vågräta krafter enligt figuren. F₁ är 18 N och F₂ är 6,0 N. Underlaget är friktionsfritt.</p><span class=\"fig bred\"><svg height=\"108\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 69.863 360.000 62.671\"><rect x=\"15\" y=\"120\" width=\"330\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"120\" x2=\"345\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"140\" y=\"76\" width=\"90\" height=\"44\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"185\" y=\"102\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 kg</text><line x1=\"70\" y1=\"98\" x2=\"122\" y2=\"98\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"132.00,98.00 122.00,102.60 122.00,93.40\" fill=\"#B43123\"/><text x=\"101\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F₁</text><line x1=\"300\" y1=\"98\" x2=\"248\" y2=\"98\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"238.00,98.00 248.00,93.40 248.00,102.60\" fill=\"#B43123\"/><text x=\"269\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F₂</text></svg></span>\n<ol><li>Hur stor är den resulterande kraften, och åt vilket håll är den riktad?</li>\n<li>Bestäm lådans acceleration.</li>\n<li>Hur stor blir den resulterande kraften om båda krafterna verkar åt höger?</li>\n<li>Vilken acceleration ger det?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När krafterna är motriktade subtraheras deras storlekar.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=18-6{,}0=12\\ \\mathrm N\\quad\\text{åt höger}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Newton II ger accelerationen.</p><div class=\"facit-matte\">\\[a=\\frac{12}{4{,}0}=3{,}0\\ \\mathrm{m/s^2}\\quad\\text{åt höger}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När båda krafterna verkar åt höger adderas de.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=18+6{,}0=24\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna accelerationen i det nya fallet.</p><div class=\"facit-matte\">\\[a=\\frac{24}{4{,}0}=6{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Motriktade krafter ger \\(12\\ \\mathrm N\\) och \\(3{,}0\\ \\mathrm{m/s^2}\\) åt höger. När båda verkar åt höger blir värdena \\(24\\ \\mathrm N\\) och \\(6{,}0\\ \\mathrm{m/s^2}\\).</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       12,
@@ -12278,7 +12408,9 @@ window.BANK = [
       false,
       false,
       false
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.32",
@@ -12288,11 +12420,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Johan trycker på en stor låda med kraften 350 N åt höger, men lådan står helt stilla.</p>\n<ol><li>Hur stor är kraftresultanten på lådan?</li>\n<li>Bestäm storlek och riktning för den övriga kraft som verkar på lådan.</li>\n<li>Vad är det för slags kraft?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan står stilla och har därmed accelerationen noll.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=ma=0\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den vågräta kraftsumman måste vara noll. Den övriga vågräta kraften är därför lika stor och motriktad.</p><div class=\"facit-matte\">\\[350-F_{\\mathrm{fr}}=0\\Rightarrow F_{\\mathrm{fr}}=350\\ \\mathrm N\\quad\\text{åt vänster}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kraften är statisk friktion mellan lådan och golvet.</p><p>Den statiska friktionen anpassar sig till den pålagda kraften så länge dess maximala värde inte överskrids.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten är \\(0\\ \\mathrm N\\). Golvet utövar en statisk friktionskraft på \\(350\\ \\mathrm N\\) åt vänster.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0,
@@ -12324,7 +12456,9 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.33",
@@ -12386,11 +12520,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En elev drar en vagn över ett friktionsfritt spår med fem olika krafter och mäter accelerationen varje gång.</p><table class=\"data\"><tr><th>Försök</th><th>F (N)</th><th>a (m/s²)</th></tr><tr><td>1</td><td>3,0</td><td>1,2</td></tr><tr><td>2</td><td>6,0</td><td>2,4</td></tr><tr><td>3</td><td>9,0</td><td>3,6</td></tr><tr><td>4</td><td>12,0</td><td>6,0</td></tr><tr><td>5</td><td>15,0</td><td>6,0</td></tr></table>\n<ol><li>Beräkna kvoten F/a för varje försök.</li><li>Vilket försök avviker från de andra?</li><li>Vilken massa har vagnen?</li><li>Vilken acceleration borde det avvikande försöket ha gett?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ur \\(F=ma\\) följer att kvoten \\(F/a\\) ska vara vagnens konstanta massa.</p><div class=\"facit-matte\">\\[\\frac{3{,}0}{1{,}2}=2{,}5,\\quad\\frac{6{,}0}{2{,}4}=2{,}5,\\quad\\frac{9{,}0}{3{,}6}=2{,}5\\]\\[\\frac{12{,}0}{6{,}0}=2{,}0,\\quad\\frac{15{,}0}{6{,}0}=2{,}5\\quad(\\mathrm{kg})\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Försök 4 avviker eftersom det ger en annan kvot än de övriga fyra.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De samstämmiga försöken ger vagnens massa.</p><div class=\"facit-matte\">\\[m=2{,}5\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna den förväntade accelerationen i försök 4.</p><div class=\"facit-matte\">\\[a=\\frac{12{,}0}{2{,}5}=4{,}8\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kvoterna är \\(2{,}5, 2{,}5, 2{,}5, 2{,}0, 2{,}5\\ \\mathrm{kg}\\). Försök 4 avviker. Massan är \\(2{,}5\\ \\mathrm{kg}\\), och försök 4 borde ha gett \\(4{,}8\\ \\mathrm{m/s^2}\\).</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -12428,7 +12562,9 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.35",
@@ -13109,11 +13245,11 @@ window.BANK = [
     "poang": "(0/2/0)",
     "t": "<p>Figuren visar en låda som hänger stilla i två snören.</p><span class=\"fig bred\"><svg height=\"252\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 40.000 400.000 162.286\"><rect x=\"15\" y=\"48\" width=\"370\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"57\" x2=\"385\" y2=\"57\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"157\" y=\"92\" width=\"76\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"169.16\" y1=\"92\" x2=\"148.9527405783631\" y2=\"57\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"169.16\" y1=\"92\" x2=\"159.4527405783631\" y2=\"75.1865334794732\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"154.4527405783631,66.52627944162882 163.4364574357715,72.8865334794732 155.46902372095468,77.4865334794732\" fill=\"#B43123\"/><text x=\"139.80637028918156\" y=\"83.26313972081441\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">S₁</text><line x1=\"220.84\" y1=\"92\" x2=\"241.0472594216369\" y2=\"57\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220.84\" y1=\"92\" x2=\"230.5472594216369\" y2=\"75.18653347947321\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"235.5472594216369,66.52627944162883 234.53097627904532,77.48653347947321 226.5635425642285,72.88653347947321\" fill=\"#B43123\"/><text x=\"250.19362971081847\" y=\"83.26313972081441\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">S₂</text><line x1=\"195\" y1=\"116\" x2=\"195\" y2=\"158\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"195,168 190.4,158 199.6,158\" fill=\"#B43123\"/><text x=\"188.1\" y=\"192\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text><circle cx=\"195\" cy=\"116\" r=\"3\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vad måste gälla för summan av alla krafter?</li><li>Vad gäller för snörenas vågräta komposanter?</li>\n<li>Om lådan väger 8,0 kg och båda snörena bildar 30° mot lodlinjen, hur stor är spännkraften i vardera?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan är stilla och har därför ingen acceleration.</p><div class=\"facit-matte\">\\[\\sum\\vec F=\\vec0\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Snörenas vågräta komposanter måste vara lika stora och motriktade.</p><div class=\"facit-matte\">\\[S_1\\sin30^\\circ=S_2\\sin30^\\circ\\Rightarrow S_1=S_2=S\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De lodräta komposanterna bär lådans tyngd.</p><div class=\"facit-matte\">\\[2S\\cos30^\\circ=mg=8{,}0\\cdot9{,}82\\]\\[S=\\frac{78{,}56}{2\\cos30^\\circ}=45{,}4\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraftsumman är noll, sidokomposanterna tar ut varandra och spännkraften är cirka \\(45\\ \\mathrm N\\) i vardera snöret.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -13145,7 +13281,9 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.53",
@@ -13156,11 +13294,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En vattenraket har massan 0,60 kg i startögonblicket. Vattenstrålen ger raketen kraften 45 N rakt uppåt. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"284\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"1.343 6.050 409.571 232.605\"><line x1=\"20\" y1=\"216\" x2=\"232\" y2=\"216\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linecap=\"square\"/><line x1=\"28\" y1=\"216\" x2=\"20\" y2=\"225\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"50\" y1=\"216\" x2=\"42\" y2=\"225\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"72\" y1=\"216\" x2=\"64\" y2=\"225\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"94\" y1=\"216\" x2=\"86\" y2=\"225\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"116\" y1=\"216\" x2=\"108\" y2=\"225\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"138\" y1=\"216\" x2=\"130\" y2=\"225\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"216\" x2=\"152\" y2=\"225\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"182\" y1=\"216\" x2=\"174\" y2=\"225\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"204\" y1=\"216\" x2=\"196\" y2=\"225\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"226\" y1=\"216\" x2=\"218\" y2=\"225\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><polygon points=\"80,96 103,56 126,96\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"80\" y=\"96\" width=\"46\" height=\"94\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"80,190 64,214 80,202\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"126,190 142,214 126,202\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"90,190 116,190 134,218 72,218\" fill=\"#DCE6F2\" stroke=\"#2A5D9E\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><circle cx=\"70\" cy=\"208\" r=\"2\" fill=\"#DCE6F2\" stroke=\"none\"/><circle cx=\"138\" cy=\"206\" r=\"2\" fill=\"#DCE6F2\" stroke=\"none\"/><circle cx=\"60\" cy=\"216\" r=\"1.6\" fill=\"#DCE6F2\" stroke=\"none\"/><circle cx=\"148\" cy=\"214\" r=\"1.6\" fill=\"#DCE6F2\" stroke=\"none\"/><text x=\"103\" y=\"148\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">0,60 kg</text><line x1=\"250\" y1=\"34\" x2=\"250\" y2=\"226\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><text x=\"360\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">frilagd raket</text><rect x=\"320\" y=\"112\" width=\"56\" height=\"42\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"348\" y=\"138\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">0,60 kg</text><line x1=\"348\" y1=\"112\" x2=\"348\" y2=\"72.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"348,62 352.8,72.5 343.2,72.5\" fill=\"#B43123\"/><text x=\"348\" y=\"52\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = 45 N</text><line x1=\"348\" y1=\"154\" x2=\"348\" y2=\"191.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"348,202 343.2,191.5 352.8,191.5\" fill=\"#B43123\"/><text x=\"341.1\" y=\"220\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text></svg></span>\n<ol><li>Hur stor är tyngdkraften på raketen vid start?</li><li>Hur stor är den resulterande kraften?</li><li>Vilken acceleration får raketen?</li><li>Efter 0,20 s är allt vatten ute. Raketen väger då 0,20 kg och kraften från strålen har upphört. Vilken acceleration har raketen just då?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna raketens tyngdkraft vid starten.</p><div class=\"facit-matte\">\\[F_g=mg=0{,}60\\cdot9{,}82=5{,}89\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Strålkraften verkar uppåt och tyngdkraften nedåt.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=45-5{,}89=39{,}11\\ \\mathrm N\\quad\\text{uppåt}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd Newtons andra lag med startmassan.</p><div class=\"facit-matte\">\\[a=\\frac{39{,}11}{0{,}60}=65{,}2\\ \\mathrm{m/s^2}\\quad\\text{uppåt}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När vattnet är slut har strålkraften upphört. Om luftmotståndet försummas verkar bara tyngdkraften.</p><div class=\"facit-matte\">\\[a=-g=-9{,}82\\ \\mathrm{m/s^2}\\]</div><p>Raketen kan fortfarande röra sig uppåt, men hastigheten minskar eftersom accelerationen är nedåtriktad.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vid starten är tyngdkraften \\(5{,}89\\ \\mathrm N\\), resultanten \\(39{,}1\\ \\mathrm N\\) uppåt och accelerationen \\(65\\ \\mathrm{m/s^2}\\) uppåt. När strålen upphör är accelerationen \\(9{,}82\\ \\mathrm{m/s^2}\\) nedåt.</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "flera_delar",
     "rättSvar": [
       5.89,
@@ -13198,7 +13336,9 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.54",
@@ -13268,11 +13408,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Figuren visar tre krafter på en låda med massan 4,0 kg som ligger på ett friktionsfritt golv.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 34.286 400.000 192.000\"><rect x=\"15\" y=\"140\" width=\"370\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"140\" x2=\"385\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"157\" y=\"92\" width=\"76\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"233\" y1=\"116\" x2=\"275\" y2=\"116\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"285,116 275,120.6 275,111.4\" fill=\"#B43123\"/><text x=\"305\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">30 N</text><line x1=\"220.84\" y1=\"140\" x2=\"220.84\" y2=\"70\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"220.84,60 225.44,70 216.24,70\" fill=\"#B43123\"/><text x=\"220.84\" y=\"52\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">N = 50 N</text><line x1=\"195\" y1=\"116\" x2=\"195\" y2=\"186\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"195,196 190.4,186 199.6,186\" fill=\"#B43123\"/><text x=\"163.95\" y=\"214\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan><tspan baseline-shift=\"baseline\"> = 50 N</tspan></text><circle cx=\"195\" cy=\"116\" r=\"3\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Vilka krafter tar ut varandra?</li><li>Hur stor är den resulterande kraften?</li>\n<li>Vilken acceleration får lådan, och åt vilket håll?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Normalkraften och tyngdkraften är lika stora och motriktade, så deras vektorsumma är noll.</p><div class=\"facit-matte\">\\[N-F_g=50-50=0\\ \\mathrm N\\]</div><p>De verkar på samma låda och är ett jämviktspar, inte ett kraft–motkraftspar enligt Newtons tredje lag.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den enda kvarvarande kraften är den vågräta kraften.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=30\\ \\mathrm N\\quad\\text{åt höger}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna accelerationen.</p><div class=\"facit-matte\">\\[a=\\frac{30}{4{,}0}=7{,}5\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften och tyngdkraften tar ut varandra. Resultanten är \\(30\\ \\mathrm N\\) och accelerationen \\(7{,}5\\ \\mathrm{m/s^2}\\), båda åt höger.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -13309,7 +13449,9 @@ window.BANK = [
       false,
       false,
       true
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.56",
@@ -13319,15 +13461,17 @@ window.BANK = [
     "poang": "(0/2/1)",
     "t": "<p>Figuren visar krafterna på en fallskärmshoppare i ett visst ögonblick.</p><span class=\"fig smal\"><svg height=\"722\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"150.857 18.857 97.143 184.571\"><rect x=\"157\" y=\"92\" width=\"76\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"195\" y1=\"116\" x2=\"195\" y2=\"158\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"195,168 190.4,158 199.6,158\" fill=\"#B43123\"/><text x=\"160.5\" y=\"192\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan><tspan baseline-shift=\"baseline\"> = 785 N</tspan></text><line x1=\"220.84\" y1=\"92\" x2=\"220.84\" y2=\"62.48\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"220.84,52.48 225.44,62.48 216.24,62.48\" fill=\"#B43123\"/><text x=\"175.99\" y=\"36.48\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">luft</tspan><tspan baseline-shift=\"baseline\"> = 600 N</tspan></text><circle cx=\"195\" cy=\"116\" r=\"3\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Hur stor är den resulterande kraften?</li><li>Vilken acceleration har hopparen?</li>\n<li>Vad händer med luftmotståndet när farten ökar, och vad blir slutresultatet?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraften är större än luftmotståndet, så resultanten är riktad nedåt.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=785-600=185\\ \\mathrm N\\quad\\text{nedåt}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Massan kan bestämmas av den angivna tyngdkraften och därefter används Newtons andra lag.</p><div class=\"facit-matte\">\\[m=\\frac{785}{9{,}82}=79{,}9\\ \\mathrm{kg}\\]\\[a=\\frac{185}{79{,}9}=2{,}32\\ \\mathrm{m/s^2}\\quad\\text{nedåt}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När farten ökar växer luftmotståndet. Accelerationen minskar därför successivt.</p><div class=\"facit-matte\">\\[F_{\\mathrm{luft}}\\longrightarrow F_g=785\\ \\mathrm N\\Rightarrow F_{\\mathrm{res}}\\longrightarrow0\\]</div><p>När krafterna är lika stora fortsätter hopparen med konstant gränsfart.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten är \\(185\\ \\mathrm N\\) nedåt och accelerationen cirka \\(2{,}3\\ \\mathrm{m/s^2}\\) nedåt. Till slut blir luftmotståndet \\(785\\ \\mathrm N\\) och farten konstant.</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.57",
@@ -13732,11 +13876,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En lampa med massan 4,0 kg hänger i två lika långa snören. Varje snöre bildar 30° mot taket.</p><span class=\"fig smal\"><svg height=\"227\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"27.200 21.845 285.600 170.388\"><rect x=\"40\" y=\"30\" width=\"260\" height=\"9\" fill=\"#E5EDF4\" stroke=\"none\" stroke-width=\"2\"/><line x1=\"40\" y1=\"39\" x2=\"300\" y2=\"39\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"39\" x2=\"170\" y2=\"91\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"39\" x2=\"170\" y2=\"91\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><path d=\"M 114 39 A 34 34 0 0 1 109.44 56\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"130.2\" y=\"52.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">30°</text><path d=\"M 226 39 A 34 34 0 0 0 230.56 56\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"209.8\" y=\"52.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">30°</text><circle cx=\"170\" cy=\"107\" r=\"16\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"170\" y1=\"123\" x2=\"170\" y2=\"155\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"170,165 165.4,155 174.6,155\" fill=\"#B43123\"/><text x=\"163.1\" y=\"182\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text></svg></span>\n<ol><li>Hur stor är tyngdkraften på lampan?</li>\n<li>Hur stor är spännkraften i vardera snöret?</li>\n<li>Vad händer med spännkraften om snörena spänns ut så att de blir nästan vågräta?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lampans tyngdkraft är riktad lodrätt nedåt.</p><div class=\"facit-matte\">\\[F_g=mg=4{,}0\\cdot9{,}82=39{,}3\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Snörena är symmetriska och gör \\(30^\\circ\\) mot taket, alltså mot vågräta planet. De vågräta komposanterna tar ut varandra.</p><div class=\"facit-matte\">\\[2S\\sin30^\\circ=F_g\\]\\[S=\\frac{39{,}3}{2\\sin30^\\circ}=39{,}3\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När snörena blir mer vågräta minskar den lodräta andelen av varje spännkraft.</p><div class=\"facit-matte\">\\[S=\\frac{mg}{2\\sin\\theta}\\longrightarrow\\infty\\quad\\text{när}\\quad\\theta\\longrightarrow0\\]</div><p>Ett belastat snöre kan därför inte vara fullständigt vågrätt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften är \\(39{,}3\\ \\mathrm N\\) och spännkraften \\(39{,}3\\ \\mathrm N\\) i vardera snöret. Spännkraften växer kraftigt när snörena närmar sig vågrätt läge.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       39.3,
@@ -13768,7 +13912,9 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.67",
@@ -14346,11 +14492,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>När Anna drar i en vagn med okänd massa börjar den accelerera. Med dragkraften 75 N accelererar vagnen med 4,2 m/s².</p>\n<ol><li>Bestäm vagnens massa.</li>\n<li>Hur stor kraft krävs för att accelerationen ska bli 6,0 m/s²?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Anta att den angivna dragkraften är den resulterande kraften. Lös ut massan ur Newtons andra lag.</p><div class=\"facit-matte\">\\[m=\\frac{F}{a}=\\frac{75}{4{,}2}=17{,}86\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Massan är oförändrad. Beräkna kraften vid den nya accelerationen.</p><div class=\"facit-matte\">\\[F=ma=17{,}86\\cdot6{,}0=107\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vagnens massa är cirka \\(18\\ \\mathrm{kg}\\), och accelerationen \\(6{,}0\\ \\mathrm{m/s^2}\\) kräver cirka \\(107\\ \\mathrm N\\).</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       17.86,
@@ -14373,7 +14519,9 @@ window.BANK = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.83",
@@ -14558,16 +14706,18 @@ window.BANK = [
     "poang": "(0/1/2)",
     "t": "<p>En puck glider åt höger över en isyta. Ingen knuffar den längre. Friktionen mot isen är liten men inte noll.</p><span class=\"fig bred\"><svg height=\"131\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 50.356 360.000 76.047\"><rect x=\"12\" y=\"96\" width=\"336\" height=\"26\" fill=\"#DCE6F2\"/><line x1=\"12\" y1=\"96\" x2=\"348\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"140\" y=\"83\" width=\"46\" height=\"13\" rx=\"5\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"163\" y=\"74\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">puck</text><line x1=\"212\" y1=\"60\" x2=\"278\" y2=\"60\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"288,60 278,64.6 278,55.4\" fill=\"#2A5D9E\"/><text x=\"298\" y=\"64\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></svg></span><p>Rita av figuren och sätt ut alla krafter som verkar på den markerade kroppen. Märk ut varje kraft med namn och rita pilen från rätt angreppspunkt.</p>\n<ol><li>Vilka krafter verkar på pucken?</li>\n<li>En elev ritar en kraft framåt \"som håller farten uppe\". Vad är fel i det resonemanget?</li>\n<li>Vad skulle hända om isen vore helt friktionsfri?</li></ol>",
     "s": "<div class=\"facit-v2\"><span class=\"fig bred\"><svg height=\"332\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 430 230\" role=\"img\" aria-label=\"Friläggning av en puck med tyngdkraft nedåt, normalkraft uppåt och friktionskraft åt vänster\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"pil-puck-v2\" markerWidth=\"8\" markerHeight=\"8\" refX=\"7\" refY=\"4\" orient=\"auto\" markerUnits=\"strokeWidth\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#B43123\"/></marker></defs><line x1=\"30\" y1=\"178\" x2=\"400\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"215\" cy=\"158\" rx=\"58\" ry=\"19\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"215\" cy=\"158\" r=\"4\" fill=\"#2B2527\"/><g stroke=\"#B43123\" stroke-width=\"3\" marker-end=\"url(#pil-puck-v2)\"><line x1=\"215\" y1=\"150\" x2=\"215\" y2=\"55\"/><line x1=\"215\" y1=\"166\" x2=\"215\" y2=\"218\"/><line x1=\"158\" y1=\"158\" x2=\"70\" y2=\"158\"/></g><g font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#B43123\"><text x=\"226\" y=\"61\">N</text><text x=\"226\" y=\"215\">F<tspan baseline-shift=\"sub\" font-size=\"11\">g</tspan></text><text x=\"72\" y=\"145\">F<tspan baseline-shift=\"sub\" font-size=\"11\">fr</tspan></text></g><g font-family=\"IBM Plex Mono\" font-size=\"13\" fill=\"#5C575E\"><text x=\"215\" y=\"28\" text-anchor=\"middle\">normalkraft</text><text x=\"45\" y=\"185\">friktion</text><text x=\"250\" y=\"196\">tyngdkraft</text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Frilägg pucken efter att knuffen har upphört.</p><div class=\"facit-matte\">\\[\\vec F_g\\ \\text{nedåt},\\qquad\\vec N\\ \\text{uppåt},\\qquad\\vec F_{\\mathrm{fr}}\\ \\text{åt vänster}\\]</div><p>Normalkraften och tyngdkraften balanserar varandra. Friktionen är den enda vågräta kraften.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En framåtriktad kraft behövs inte för att hålla en kropp i rörelse.</p><div class=\"facit-matte\">\\[\\sum F_x=-F_{\\mathrm{fr}}\\Rightarrow a_x&lt;0\\]</div><p>Pucken fortsätter åt höger av tröghet men bromsas av friktionen.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På helt friktionsfri is återstår bara de balanserade lodräta krafterna.</p><div class=\"facit-matte\">\\[\\sum\\vec F=\\vec0\\Rightarrow\\vec v=\\text{konstant}\\]</div><p>Pucken skulle glida rätlinjigt vidare med oförändrad hastighet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> På pucken verkar tyngdkraft, normalkraft och friktion bakåt — ingen kraft framåt. Utan friktion skulle puckens hastighet förbli konstant.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": false
+    "spel": false,
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.88",
@@ -14578,11 +14728,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Två klossar står i kontakt med varandra på ett friktionsfritt underlag. Den vänstra väger 3,0 kg och den högra 2,0 kg. Man trycker på den vänstra klossen med kraften 20 N enligt figuren.</p><span class=\"fig bred\"><svg height=\"104\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 67.160 460.000 77.037\"><rect x=\"15\" y=\"130\" width=\"430\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"15\" y1=\"130\" x2=\"445\" y2=\"130\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"74\" width=\"90\" height=\"56\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"240\" y=\"74\" width=\"70\" height=\"56\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"195\" y=\"106\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">3,0 kg</text><text x=\"275\" y=\"106\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">2,0 kg</text><line x1=\"80\" y1=\"102\" x2=\"132\" y2=\"102\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"142.00,102.00 132.00,106.60 132.00,97.40\" fill=\"#B43123\"/><text x=\"80\" y=\"90\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = 20 N</text></svg></span>\n<ol><li>Vilken total massa sätts i rörelse?</li>\n<li>Bestäm klossarnas acceleration.</li>\n<li>Hur stor kraft trycker den vänstra klossen på den högra med?</li>\n<li>Hur stor blir den kraften om man i stället trycker med 20 N från höger?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Klossarna rör sig tillsammans och behandlas först som ett system.</p><div class=\"facit-matte\">\\[m_{\\mathrm{tot}}=3{,}0+2{,}0=5{,}0\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den yttre kraften accelererar hela systemet.</p><div class=\"facit-matte\">\\[a=\\frac{20}{5{,}0}=4{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När kraften läggs på från vänster friläggs 2,0-kilosklossen. Kontaktkraften är dess enda vågräta kraft.</p><div class=\"facit-matte\">\\[F_k=2{,}0\\cdot4{,}0=8{,}0\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När man trycker från höger är det i stället 3,0-kilosklossen som accelereras av kontaktkraften.</p><div class=\"facit-matte\">\\[F_k=3{,}0\\cdot4{,}0=12\\ \\mathrm N\\]</div><p>Kontaktkraften beror på hur stor massa som ligger framför kontaktytan.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den totala massan är \\(5{,}0\\ \\mathrm{kg}\\) och accelerationen \\(4{,}0\\ \\mathrm{m/s^2}\\). Kontaktkraften är \\(8{,}0\\ \\mathrm N\\) vid tryck från vänster och \\(12\\ \\mathrm N\\) vid tryck från höger.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -14620,7 +14770,9 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.89",
@@ -14751,12 +14903,12 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Två personer står på var sin rullbräda och knuffar ifrån varandra. Den ena väger 50 kg och den andra 75 kg. Den lättare personen knuffar med kraften 150 N. Friktionen försummas.</p><span class=\"fig bred\"><svg height=\"135\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 70.714 487.143 106.429\"><rect x=\"15\" y=\"150\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"150\" x2=\"465\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"143\" y1=\"150\" x2=\"150\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"3.0\" stroke-linecap=\"round\"/><line x1=\"157\" y1=\"150\" x2=\"150\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"3.0\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"124\" x2=\"150\" y2=\"102\" stroke=\"#2B2527\" stroke-width=\"3.6\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"108\" x2=\"166\" y2=\"104\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"93\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"323\" y1=\"150\" x2=\"330\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"3.0\" stroke-linecap=\"round\"/><line x1=\"337\" y1=\"150\" x2=\"330\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"3.0\" stroke-linecap=\"round\"/><line x1=\"330\" y1=\"124\" x2=\"330\" y2=\"102\" stroke=\"#2B2527\" stroke-width=\"3.6\" stroke-linecap=\"round\"/><line x1=\"330\" y1=\"106\" x2=\"319\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"330\" y1=\"106\" x2=\"341\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"330\" cy=\"93\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">50 kg</text><text x=\"330\" y=\"168\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">75 kg</text><line x1=\"215\" y1=\"96\" x2=\"185\" y2=\"96\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"175.00,96.00 185.00,91.40 185.00,100.60\" fill=\"#B43123\"/><text x=\"196\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"265\" y1=\"96\" x2=\"295\" y2=\"96\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"305.00,96.00 295.00,100.60 295.00,91.40\" fill=\"#B43123\"/><text x=\"284\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text></svg></span>\n<ol><li>Hur stor kraft verkar på den tyngre personen?</li>\n<li>Hur stor kraft verkar på den lättare personen? Motivera med Newtons tredje lag.</li>\n<li>Bestäm de två personernas accelerationer.</li>\n<li>Vem får störst fart, och varför?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När personerna knuffar varandra bildar kontaktkrafterna ett kraft–motkraftspar.</p><div class=\"facit-matte\">\\[|\\vec F_{50\\to75}|=|\\vec F_{75\\to50}|=150\\ \\mathrm N\\]</div><p>Krafterna är motriktade och verkar på olika personer.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Samma kraft verkar på olika massor.</p><div class=\"facit-matte\">\\[a_{50}=\\frac{150}{50}=3{,}0\\ \\mathrm{m/s^2}\\]\\[a_{75}=\\frac{150}{75}=2{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Om krafterna verkar lika länge från vila får den lättare personen större fartändring.</p><div class=\"facit-matte\">\\[\\Delta v=a\\Delta t\\]</div><p>Den mindre massan ger större acceleration för samma kraft.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Båda påverkas av \\(150\\ \\mathrm N\\) i motsatta riktningar. Accelerationerna är \\(3{,}0\\ \\mathrm{m/s^2}\\) för 50-kilospersonen och \\(2{,}0\\ \\mathrm{m/s^2}\\) för 75-kilospersonen; den lättare får störst fart.</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "flera_delar",
     "rättSvar": [
       150,
@@ -14800,7 +14952,9 @@ window.BANK = [
       true,
       false,
       false
-    ]
+    ],
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.93",
@@ -14811,11 +14965,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En rymdsond med massan 500 kg drivs av en jonmotor. Motorn ger en kraft på bara 90 mN, men den kan vara igång i månader. Ute i rymden finns inget luftmotstånd, och sonden är så långt från alla himlakroppar att tyngdkraften kan försummas.</p><span class=\"fig bred\"><svg height=\"265\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"20.571 15.413 426.214 182.385\"><circle cx=\"40\" cy=\"40\" r=\"1.6\" fill=\"#9A959C\" stroke=\"none\"/><circle cx=\"90\" cy=\"168\" r=\"1.6\" fill=\"#9A959C\" stroke=\"none\"/><circle cx=\"400\" cy=\"46\" r=\"1.6\" fill=\"#9A959C\" stroke=\"none\"/><circle cx=\"370\" cy=\"172\" r=\"1.6\" fill=\"#9A959C\" stroke=\"none\"/><circle cx=\"58\" cy=\"96\" r=\"1.1\" fill=\"#9A959C\" stroke=\"none\"/><circle cx=\"428\" cy=\"118\" r=\"1.1\" fill=\"#9A959C\" stroke=\"none\"/><circle cx=\"258\" cy=\"26\" r=\"1.1\" fill=\"#9A959C\" stroke=\"none\"/><rect x=\"160\" y=\"88\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"158\" y=\"62\" width=\"90\" height=\"18\" rx=\"3\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"158\" y=\"140\" width=\"90\" height=\"18\" rx=\"3\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"196\" y1=\"80\" x2=\"196\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"210\" y1=\"132\" x2=\"210\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><polygon points=\"160,98 128,88 128,132 160,122\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 118 96 Q 96 110 118 124\" fill=\"none\" stroke=\"#DCE6F2\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 104 90 Q 76 110 104 130\" fill=\"none\" stroke=\"#DCE6F2\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"242\" y1=\"110\" x2=\"345.5\" y2=\"110\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"356,110 345.5,114.8 345.5,105.2\" fill=\"#B43123\"/><text x=\"364\" y=\"114\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = 90 mN</text><text x=\"200\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">m = 500 kg</text></svg></span>\n<ol><li>Vilken acceleration ger motorn sonden?</li><li>Motorn är igång tills sondens fart har ökat med 900 m/s. Hur lång tid tar det?</li><li>Hur många dygn motsvarar det?</li><li>Hur stor kraft hade behövts för att åstadkomma samma fartändring på en timme?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla millinewton till newton och använd Newtons andra lag.</p><div class=\"facit-matte\">\\[F=90\\ \\mathrm{mN}=0{,}090\\ \\mathrm N\\]\\[a=\\frac{0{,}090}{500}=1{,}8\\cdot10^{-4}\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kraften och därmed accelerationen är konstant.</p><div class=\"facit-matte\">\\[t=\\frac{\\Delta v}{a}=\\frac{900}{1{,}8\\cdot10^{-4}}=5{,}0\\cdot10^6\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett dygn är 86 400 s.</p><div class=\"facit-matte\">\\[t=\\frac{5{,}0\\cdot10^6}{86\\,400}=57{,}9\\ \\text{dygn}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För samma fartändring på en timme krävs en mycket större acceleration.</p><div class=\"facit-matte\">\\[F=m\\frac{\\Delta v}{\\Delta t}=500\\frac{900}{3600}=125\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Jonmotorn ger \\(1{,}8\\cdot10^{-4}\\ \\mathrm{m/s^2}\\). Fartökningen tar \\(5{,}0\\cdot10^6\\ \\mathrm s\\approx58\\) dygn. På en timme skulle det krävas \\(125\\ \\mathrm N\\).</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.00018,
@@ -14848,7 +15002,9 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.94",
@@ -14906,16 +15062,18 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En buss kör i 50 km/h. Föraren bromsar och bussen står stilla efter 4,0 s. På ett bord inne i bussen står en kaffemugg med massan 0,25 kg. Friktionskraften mellan muggen och bordet är som mest 0,60 N.</p><span class=\"fig bred\"><svg height=\"234\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 20.013 500.000 188.695\"><line x1=\"20\" y1=\"185\" x2=\"484\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"189\" x2=\"22\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"189\" x2=\"46\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"78\" y1=\"189\" x2=\"70\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"102\" y1=\"189\" x2=\"94\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"126\" y1=\"189\" x2=\"118\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"150\" y1=\"189\" x2=\"142\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"174\" y1=\"189\" x2=\"166\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"198\" y1=\"189\" x2=\"190\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"222\" y1=\"189\" x2=\"214\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"246\" y1=\"189\" x2=\"238\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"270\" y1=\"189\" x2=\"262\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"294\" y1=\"189\" x2=\"286\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"318\" y1=\"189\" x2=\"310\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"342\" y1=\"189\" x2=\"334\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"366\" y1=\"189\" x2=\"358\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"189\" x2=\"382\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"414\" y1=\"189\" x2=\"406\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"438\" y1=\"189\" x2=\"430\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"462\" y1=\"189\" x2=\"454\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"486\" y1=\"189\" x2=\"478\" y2=\"198\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><rect x=\"60\" y=\"58\" width=\"336\" height=\"104\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"78\" y=\"72\" width=\"40\" height=\"30\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"128\" y=\"72\" width=\"40\" height=\"30\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"178\" y=\"72\" width=\"40\" height=\"30\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"228\" y=\"72\" width=\"40\" height=\"30\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"330\" y=\"72\" width=\"54\" height=\"30\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"168\" r=\"17\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"168\" r=\"6\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><circle cx=\"330\" cy=\"168\" r=\"17\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"168\" r=\"6\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"252\" y1=\"132\" x2=\"316\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linecap=\"square\"/><line x1=\"284\" y1=\"132\" x2=\"284\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"266\" y=\"110\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 292 115 Q 302 121 292 127\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"296\" y1=\"112\" x2=\"432\" y2=\"60\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"437\" y=\"64\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">0,25 kg</text><line x1=\"150\" y1=\"34\" x2=\"251.5\" y2=\"34\" stroke=\"#2B2527\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"262,34 251.5,38.8 251.5,29.2\" fill=\"#2B2527\"/><text x=\"270\" y=\"38\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v = 50 km/h</text></svg></span>\n<ol><li>Hur stor är bussens retardation?</li><li>Hur stor kraft skulle behöva verka på muggen för att den ska bromsa in lika snabbt som bussen?</li><li>Glider muggen? Motivera.</li><li>Åt vilket håll glider den i så fall, och vilken av Newtons lagar förklarar det?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla farten och beräkna bussens acceleration.</p><div class=\"facit-matte\">\\[v_0=\\frac{50}{3{,}6}=13{,}89\\ \\mathrm{m/s}\\]\\[a=\\frac{0-13{,}89}{4{,}0}=-3{,}47\\ \\mathrm{m/s^2}\\]</div><p>Retardationens storlek är 3,47 m/s².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För att följa bordet utan att glida måste muggen få samma acceleration bakåt som bussen.</p><div class=\"facit-matte\">\\[F_{\\mathrm{krav}}=m|a|=0{,}25\\cdot3{,}47=0{,}868\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför den nödvändiga kraften med den största möjliga friktionen.</p><div class=\"facit-matte\">\\[0{,}60&lt;0{,}868\\Rightarrow\\text{muggen glider}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Muggen behåller mer av sin ursprungliga fart än bussen och rör sig därför framåt relativt bussens bord.</p><p>Newtons första lag förklarar rörelsen. Ingen kraft kastar muggen framåt; friktionskraften bakåt är bara för liten för att bromsa den lika snabbt som bussen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bussens retardation är \\(3{,}47\\ \\mathrm{m/s^2}\\). Muggen skulle behöva \\(0{,}87\\ \\mathrm N\\) bakåt men friktionen kan bara ge \\(0{,}60\\ \\mathrm N\\), så den glider framåt relativt bussen.</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.96",
@@ -14983,11 +15141,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En låda med massan 12 kg står på ett vågrätt golv. En person trycker rakt nedåt på lådan med kraften 40 N.</p><span class=\"fig smal\"><svg height=\"229\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"16.029 22.367 307.943 185.257\"><rect x=\"30\" y=\"150\" width=\"280\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"30\" y1=\"150\" x2=\"310\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"125\" y=\"90\" width=\"90\" height=\"60\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"200\" y1=\"50\" x2=\"200\" y2=\"76\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"200,86 195.4,76 204.6,76\" fill=\"#B43123\"/><text x=\"200\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">40 N</text><line x1=\"170\" y1=\"150\" x2=\"170\" y2=\"108\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"170,98 174.6,108 165.4,108\" fill=\"#B43123\"/><text x=\"170\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">N</text><circle cx=\"145\" cy=\"120\" r=\"3.6\" fill=\"#2B2527\"/><line x1=\"145\" y1=\"120\" x2=\"145\" y2=\"168\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"145,178 140.4,168 149.6,168\" fill=\"#B43123\"/><text x=\"138.1\" y=\"196\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text></svg></span>\n<ol><li>Hur stor är tyngdkraften på lådan?</li>\n<li>Hur stor är normalkraften från golvet?</li>\n<li>Hur stor blir normalkraften om personen i stället lyfter uppåt i lådan med 40 N?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraften på lådan är riktad nedåt.</p><div class=\"facit-matte\">\\[F_g=mg=12\\cdot9{,}82=117{,}8\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan står stilla. Golvet måste därför balansera både tyngdkraften och handens kraft nedåt.</p><div class=\"facit-matte\">\\[N-F_g-40=0\\Rightarrow N=117{,}8+40=157{,}8\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När personen lyfter uppåt hjälper handen golvet att bära lådan.</p><div class=\"facit-matte\">\\[N+40-F_g=0\\Rightarrow N=117{,}8-40=77{,}8\\ \\mathrm N\\]</div><p>Normalkraften är inte alltid lika stor som tyngdkraften; den anpassas till övriga lodräta krafter och accelerationen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften är \\(118\\ \\mathrm N\\). Normalkraften blir \\(158\\ \\mathrm N\\) vid tryck nedåt och \\(78\\ \\mathrm N\\) vid lyft uppåt.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       118,
@@ -15033,7 +15191,9 @@ window.BANK = [
         "t": "<p>En låda med massan 12 kg står på ett vågrätt golv. En person trycker rakt nedåt på lådan med kraften 40 N.</p><span class=\"fig smal\"><svg height=\"229\" preserveaspectratio=\"xMidYMid meet\" viewbox=\"16.029 22.367 307.943 185.257\" width=\"380\"><rect fill=\"#E8DCC6\" height=\"9\" width=\"280\" x=\"30\" y=\"150\"></rect><line stroke=\"#2B2527\" stroke-linecap=\"square\" stroke-width=\"2\" x1=\"30\" x2=\"310\" y1=\"150\" y2=\"150\"></line><rect fill=\"#fff\" height=\"60\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"90\" x=\"125\" y=\"90\"></rect><line stroke=\"#B43123\" stroke-linecap=\"square\" stroke-width=\"2.3\" x1=\"200\" x2=\"200\" y1=\"50\" y2=\"76\"></line><polygon fill=\"#B43123\" points=\"200,86 195.4,76 204.6,76\"></polygon><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"middle\" x=\"200\" y=\"40\">40 N</text><line stroke=\"#B43123\" stroke-linecap=\"square\" stroke-width=\"2.3\" x1=\"170\" x2=\"170\" y1=\"150\" y2=\"108\"></line><polygon fill=\"#B43123\" points=\"170,98 174.6,108 165.4,108\"></polygon><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"middle\" x=\"170\" y=\"82\">N</text><circle cx=\"145\" cy=\"120\" fill=\"#2B2527\" r=\"3.6\"></circle><line stroke=\"#B43123\" stroke-linecap=\"square\" stroke-width=\"2.3\" x1=\"145\" x2=\"145\" y1=\"120\" y2=\"168\"></line><polygon fill=\"#B43123\" points=\"145,178 140.4,168 149.6,168\"></polygon><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"start\" x=\"138.1\" y=\"196\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text></svg></span><div class=\"spel-en-del\">Hur stor blir normalkraften om personen i stället lyfter uppåt i lådan med 40 N?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När personen lyfter uppåt hjälper handen golvet att bära lådan.</p><div class=\"facit-matte\">\\[N+40-F_g=0\\Rightarrow N=117{,}8-40=77{,}8\\ \\mathrm N\\]</div><p>Normalkraften är inte alltid lika stor som tyngdkraften; den anpassas till övriga lodräta krafter och accelerationen.</p></div></div></div>"
       }
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.99",
@@ -15061,16 +15221,18 @@ window.BANK = [
     "poang": "(0/2/2)",
     "t": "<p>En låda på 20 kg står på golvet i en hiss. Friktionstalet mellan låda och hissgolv är 0,25. Hissen accelererar uppåt med 2,0 m/s².</p><span class=\"fig smal\"><svg height=\"309\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"49.714 29.982 222.000 180.322\"><rect x=\"60\" y=\"40\" width=\"160\" height=\"160\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"95\" y=\"150\" width=\"70\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"120\" y1=\"200\" x2=\"120\" y2=\"170\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"120,160 124.6,170 115.4,170\" fill=\"#B43123\"/><text x=\"120\" y=\"142\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"165\" y1=\"178\" x2=\"195\" y2=\"178\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"205,178 195,182.6 195,173.4\" fill=\"#B43123\"/><text x=\"212\" y=\"182\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text><line x1=\"258\" y1=\"130\" x2=\"258\" y2=\"92\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"258,82 262.6,92 253.4,92\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">a</text></svg></span>\n<ol><li>Hur stor är normalkraften från hissgolvet?</li>\n<li>Hur stor är den maximala friktionskraften?</li>\n<li>Hur mycket större vågrät kraft F krävs för att få lådan att glida, jämfört med när hissen står stilla?</li>\n<li>Vad händer om hisslinan brister och hissen faller fritt?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan följer hissens acceleration uppåt. Newtons andra lag lodrätt ger</p><div class=\"facit-matte\">\\[N-mg=ma\\Rightarrow N=m(g+a)\\]\\[N=20(9{,}82+2{,}0)=236{,}4\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den största statiska friktionskraften är proportionell mot normalkraften.</p><div class=\"facit-matte\">\\[f_{\\max}=\\mu N=0{,}25\\cdot236{,}4=59{,}1\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När hissen står stilla är normalkraften mg.</p><div class=\"facit-matte\">\\[f_{\\max,0}=\\mu mg=0{,}25\\cdot20\\cdot9{,}82=49{,}1\\ \\mathrm N\\]\\[\\frac{59{,}1}{49{,}1}=1{,}20\\]</div><p>Det krävs alltså ungefär 20 % större vågrät kraft för att glidningen ska börja.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid fritt fall accelererar både lådan och golvet nedåt med g.</p><div class=\"facit-matte\">\\[N=m(g-g)=0\\Rightarrow f_{\\max}=\\mu N=0\\]</div><p>Lådan är tyngdlös relativt hissgolvet och kan inte få någon friktionskraft från det.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften är \\(236\\ \\mathrm N\\) och den maximala friktionen \\(59\\ \\mathrm N\\). Det är 20 % mer än i en stillastående hiss. Vid fritt fall blir både normalkraften och friktionen noll.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.101",
@@ -15117,11 +15279,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Clara drar en låda över ett golv med den konstanta hastigheten 1,2 m/s. Hon drar i repet med kraften 75 N.</p>\n<ol><li>Hur stor är friktionskraften som verkar på lådan?</li>\n<li>Clara ökar farten och håller sedan en ny konstant hastighet, där hon drar med 82 N på grund av ökat luftmotstånd. Hur stor är kraftresultanten då?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Konstant hastighet innebär noll acceleration och därmed noll kraftresultant.</p><div class=\"facit-matte\">\\[F_{\\mathrm{drag}}-F_{\\mathrm{fr}}=0\\]\\[F_{\\mathrm{fr}}=75\\ \\mathrm N\\]</div><p>Friktionskraften är riktad motsatt rörelsen.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid den nya konstanta hastigheten är accelerationen åter noll.</p><div class=\"facit-matte\">\\[F_{\\mathrm{motstånd}}=82\\ \\mathrm N\\]\\[F_{\\mathrm{res}}=82-82=0\\ \\mathrm N\\]</div><p>Den större dragkraften balanseras av ett lika stort sammanlagt motstånd.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Friktionskraften är först \\(75\\ \\mathrm N\\). Vid den nya konstanta farten är kraftresultanten fortfarande \\(0\\ \\mathrm N\\).</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "flera_delar",
     "rättSvar": [
       75,
@@ -15157,7 +15319,9 @@ window.BANK = [
         "t": "<p>Clara drar en låda över ett golv med den konstanta hastigheten 1,2 m/s. Hon drar i repet med kraften 75 N.</p><div class=\"spel-en-del\">Clara ökar farten och håller sedan en ny konstant hastighet, där hon drar med 82 N på grund av ökat luftmotstånd. Hur stor är kraftresultanten då?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid den nya konstanta hastigheten är accelerationen åter noll.</p><div class=\"facit-matte\">\\[F_{\\mathrm{motstånd}}=82\\ \\mathrm N\\]\\[F_{\\mathrm{res}}=82-82=0\\ \\mathrm N\\]</div><p>Den större dragkraften balanseras av ett lika stort sammanlagt motstånd.</p></div></div></div>"
       }
-    ]
+    ],
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.103",
@@ -15273,16 +15437,18 @@ window.BANK = [
     "poang": "(0/2/2)",
     "t": "<p>Två vikter hänger i ett snöre över en trissa. Den vänstra vikten väger 1,2 kg och den högra 0,80 kg. Snörets och trissans massa kan försummas, liksom friktionen.</p><span class=\"fig smal\"><svg height=\"442\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"91.543 9.776 176.914 205.817\"><rect x=\"100\" y=\"20\" width=\"160\" height=\"9\" fill=\"#E5EDF4\"/><line x1=\"100\" y1=\"29\" x2=\"260\" y2=\"29\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"29\" x2=\"180\" y2=\"34\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"180\" cy=\"66\" r=\"34\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"66\" r=\"3.6\" fill=\"#2B2527\"/><path d=\"M146 66 A 34 34 0 0 1 214 66\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"146\" y1=\"66\" x2=\"146\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"214\" y1=\"66\" x2=\"214\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"118\" y=\"160\" width=\"56\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"186\" y=\"120\" width=\"56\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></svg></span>\n<ol><li>Vilken resulterande kraft driver systemet?</li>\n<li>Vilken acceleration får vikterna?</li>\n<li>Hur stor är spännkraften i snöret?</li>\n<li>Jämför spännkraften med vikternas tyngder.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den tyngre viktens tyngdkraft driver nedåt och den lättares motverkar rörelsen.</p><div class=\"facit-matte\">\\[F_{\\mathrm{driv}}=(m_1-m_2)g=(1{,}2-0{,}80)9{,}82=3{,}928\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Drivkraften accelererar båda vikterna.</p><div class=\"facit-matte\">\\[a=\\frac{F_{\\mathrm{driv}}}{m_1+m_2}=\\frac{3{,}928}{2{,}0}=1{,}964\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Frilägg den lättare vikten, som accelererar uppåt.</p><div class=\"facit-matte\">\\[S-m_2g=m_2a\\]\\[S=m_2(g+a)=0{,}80(9{,}82+1{,}964)=9{,}43\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med de båda tyngdkrafterna.</p><div class=\"facit-matte\">\\[m_1g=11{,}8\\ \\mathrm N,\\qquad m_2g=7{,}86\\ \\mathrm N\\]</div><p>Spännkraften ligger mellan tyngdkrafterna: mindre än den tyngres, som accelererar nedåt, och större än den lättares, som accelererar uppåt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Drivkraften är \\(3{,}93\\ \\mathrm N\\), accelerationen \\(1{,}96\\ \\mathrm{m/s^2}\\) och spännkraften \\(9{,}43\\ \\mathrm N\\).</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.107",
@@ -15292,15 +15458,17 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Newtons lagar beskriver sambandet mellan kraft och rörelse.</p>\n<ol><li>Vad säger Newtons första lag?</li><li>Vad säger Newtons andra lag?</li>\n<li>Ge ett exempel på en vardaglig situation där kraftresultanten är noll trots att föremålet rör sig.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Newtons första lag beskriver rörelse när kraftresultanten är noll.</p><div class=\"facit-matte\">\\[\\sum\\vec F=\\vec0\\Rightarrow\\vec v=\\text{konstant}\\]</div><p>Föremålet förblir i vila eller rör sig rätlinjigt med konstant fart.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Newtons andra lag kopplar kraftresultanten till accelerationen.</p><div class=\"facit-matte\">\\[\\sum\\vec F=m\\vec a\\]</div><p>Accelerationen får kraftresultantens riktning och blir större för större resultant men mindre för större massa.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En bil som kör rakt fram med konstant fart är ett vardagligt exempel.</p><div class=\"facit-matte\">\\[F_{\\mathrm{driv}}-F_{\\mathrm{luft}}-F_{\\mathrm{rull}}=0\\]</div><p>Bilen rör sig trots att kraftresultanten är noll.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Första lagen gäller konstant hastighet när \\(sum\\vec F=0\\). Andra lagen är \\(sum\\vec F=m\\vec a\\). En bil med konstant fart har balanserad drivkraft och motstånd.</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.108",
@@ -15384,16 +15552,18 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Ett lok med massan 40 ton drar två vagnar som väger 20 ton vardera. Loket drar tåget framåt med kraften 48 kN. Rullmotstånd och friktion försummas.</p><span class=\"fig bred\"><svg height=\"168\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 52.045 520.000 141.264\"><line x1=\"20\" y1=\"154\" x2=\"500\" y2=\"154\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"154\" x2=\"30\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"58\" y1=\"154\" x2=\"58\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"86\" y1=\"154\" x2=\"86\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"114\" y1=\"154\" x2=\"114\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"142\" y1=\"154\" x2=\"142\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"170\" y1=\"154\" x2=\"170\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"198\" y1=\"154\" x2=\"198\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"226\" y1=\"154\" x2=\"226\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"254\" y1=\"154\" x2=\"254\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"282\" y1=\"154\" x2=\"282\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"310\" y1=\"154\" x2=\"310\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"338\" y1=\"154\" x2=\"338\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"366\" y1=\"154\" x2=\"366\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"394\" y1=\"154\" x2=\"394\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"422\" y1=\"154\" x2=\"422\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"450\" y1=\"154\" x2=\"450\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"478\" y1=\"154\" x2=\"478\" y2=\"162\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"40\" y=\"84\" width=\"110\" height=\"58\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"56\" y=\"92\" width=\"32\" height=\"20\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"175\" y=\"92\" width=\"125\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"325\" y=\"92\" width=\"125\" height=\"50\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"150\" y1=\"128\" x2=\"175\" y2=\"128\" stroke=\"#2B2527\" stroke-width=\"4\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"128\" x2=\"325\" y2=\"128\" stroke=\"#2B2527\" stroke-width=\"4\" stroke-linecap=\"square\"/><circle cx=\"72\" cy=\"146\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"122\" cy=\"146\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"195\" cy=\"146\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"280\" cy=\"146\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"345\" cy=\"146\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"146\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"108\" y=\"132\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">40 t</text><text x=\"237\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">20 t</text><text x=\"387\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">20 t</text><line x1=\"60\" y1=\"64\" x2=\"157.5\" y2=\"64\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"168,64 157.5,68.8 157.5,59.2\" fill=\"#B43123\"/><text x=\"176\" y=\"68\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = 48 kN</text><text x=\"162\" y=\"184\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">koppel 1</text><text x=\"312\" y=\"184\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">koppel 2</text></svg></span>\n<ol><li>Hur stor massa har hela tåget?</li><li>Vilken acceleration får tåget?</li><li>Hur stor kraft drar koppel 1 med?</li><li>Hur stor kraft drar koppel 2 med? Varför är den mindre?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Addera lokets och vagnarnas massor.</p><div class=\"facit-matte\">\\[m_{\\mathrm{tot}}=(40+20+20)\\ \\mathrm t=80\\ \\mathrm t=8{,}0\\cdot10^4\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dragkraften accelererar hela tåget.</p><div class=\"facit-matte\">\\[a=\\frac{48\\,000}{80\\,000}=0{,}60\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Koppel 1 måste accelerera båda vagnarna bakom loket.</p><div class=\"facit-matte\">\\[F_1=(20\\,000+20\\,000)0{,}60=24\\,000\\ \\mathrm N=24\\ \\mathrm{kN}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Koppel 2 accelererar bara den sista vagnen.</p><div class=\"facit-matte\">\\[F_2=20\\,000\\cdot0{,}60=12\\ \\mathrm{kN}\\]</div><p>Ju längre bak ett koppel sitter, desto mindre massa finns bakom det att accelerera.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tågets massa är \\(80\\ \\mathrm t\\) och accelerationen \\(0{,}60\\ \\mathrm{m/s^2}\\). Koppel 1 belastas med \\(24\\ \\mathrm{kN}\\) och koppel 2 med \\(12\\ \\mathrm{kN}\\).</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.111",
@@ -15404,15 +15574,17 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>I en kabelmaskin hänger viktmagasinet på 40 kg i en rörlig trissa. Vajerns ena ände är fäst i stativets tak. Därifrån går vajern ned under den rörliga trissan, upp över en fast trissa i taket och sedan ned till handtaget. Trissorna och vajern är friktionsfria och väger försumbart lite. Magasinet lyfts med konstant fart.</p><span class=\"fig\"><img src=\"bilder/4.111.png\" alt=\"Träningsmaskin med rörlig trissa\" loading=\"lazy\" decoding=\"async\"></span>\n<p>Bestäm hur stor kraft personen måste dra i handtaget med, och hur långt handtaget måste dras för att viktmagasinet ska lyftas 20 cm.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Magasinet rör sig med konstant fart, så den rörliga trissan med lasten är i kraftjämvikt.</p><div class=\"facit-matte\">\\[F_g=mg=40\\cdot9{,}82=392{,}8\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två vajerdelar bär den rörliga trissan. I den friktionsfria, masslösa vajern är spännkraften S lika stor överallt.</p><div class=\"facit-matte\">\\[2S=F_g\\Rightarrow S=\\frac{392{,}8}{2}=196{,}4\\ \\mathrm N\\]</div><p>Den fasta trissan ändrar bara dragriktningen, så personen drar med samma kraft S.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När den rörliga trissan höjs 20 cm förkortas vardera bärande vajerdel med 20 cm.</p><div class=\"facit-matte\">\\[s_{\\mathrm{hand}}=2\\cdot0{,}20=0{,}40\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">4</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kontrollera med arbete i den ideala maskinen.</p><div class=\"facit-matte\">\\[W_{\\mathrm{person}}=196{,}4\\cdot0{,}40=78{,}6\\ \\mathrm J\\]\\[\\Delta E_p=392{,}8\\cdot0{,}20=78{,}6\\ \\mathrm J\\]</div><p>Det man vinner i kraft förlorar man i väg.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Personen drar med cirka \\(196\\ \\mathrm N\\) och måste dra handtaget \\(0{,}40\\ \\mathrm m=40\\ \\mathrm{cm}\\) för att lyfta magasinet 20 cm.</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.112",
@@ -15538,15 +15710,17 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En person med massan 65 kg står på en badrumsvåg i en hiss. Vågen visar den normalkraft den trycker upp med.</p><span class=\"fig smal\"><svg height=\"373\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"60.000 0.000 215.571 211.589\"><rect x=\"70\" y=\"40\" width=\"160\" height=\"160\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"150\" y1=\"10\" x2=\"150\" y2=\"40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"150\" cy=\"130\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"150\" y1=\"142\" x2=\"150\" y2=\"168\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"134\" y1=\"152\" x2=\"166\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"150\" y1=\"168\" x2=\"138\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"150\" y1=\"168\" x2=\"162\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"120\" y=\"180\" width=\"60\" height=\"20\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"196\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">våg</text><line x1=\"262\" y1=\"130\" x2=\"262\" y2=\"90\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"square\"/><polygon points=\"262,80 266.6,90 257.4,90\" fill=\"#2A5D9E\"/><text x=\"262\" y=\"68\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">a</text></svg></span>\n<ol><li>Vad visar vågen när hissen står stilla eller går med konstant fart?</li>\n<li>Hissen accelererar uppåt med 1,5 m/s². Vad visar vågen då?</li>\n<li>Hissen accelererar i stället nedåt med 1,5 m/s². Vad visar vågen?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vågen mäter normalkraften N. Välj uppåt som positiv riktning.</p><div class=\"facit-matte\">\\[N-mg=ma\\Rightarrow N=m(g+a)\\]</div><p class=\"facit-metod\">När hissen står stilla eller går med konstant fart är accelerationen noll.</p><div class=\"facit-matte\">\\[N=65\\cdot9{,}82=638\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid acceleration uppåt är a positiv.</p><div class=\"facit-matte\">\\[N=65(9{,}82+1{,}5)=735{,}8\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid acceleration nedåt sätter vi a = −1,5 m/s².</p><div class=\"facit-matte\">\\[N=65(9{,}82-1{,}5)=540{,}8\\ \\mathrm N\\]</div><p>Massan är hela tiden 65 kg; det är normalkraften, och därmed vågens utslag, som ändras.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vågen visar \\(638\\ \\mathrm N\\) utan acceleration, \\(736\\ \\mathrm N\\) vid acceleration uppåt och \\(541\\ \\mathrm N\\) vid acceleration nedåt.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.116",
@@ -16563,17 +16737,17 @@ window.BANK = [
   {
     "id": "4.151",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna fjäderkraft resulterande kraft acceleration och sträcka för en vagn som dras av en utdragen fjäder, ur diagram, sökt kraft acceleration och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>En vagn med massan 1,2 kg dras med hjälp av en fjäder med fjäderkonstanten 240 N/m. Fjädern hålls hela tiden utdragen 5,0 cm. Friktionskraften är 6,0 N och vagnen startar från vila.</p><span class=\"fig bred\"><svg height=\"130\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 67.200 480.000 100.800\"><rect x=\"15\" y=\"154\" width=\"450\" height=\"8\" fill=\"#E5EDF4\"/><line x1=\"15\" y1=\"154\" x2=\"465\" y2=\"154\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"96\" y=\"90\" width=\"112\" height=\"44\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"152\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">1,2 kg</text><circle cx=\"122\" cy=\"142\" r=\"12\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"182\" cy=\"142\" r=\"12\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><polyline points=\"208,112 212.07,121 220.2,103 228.33,121 236.47,103 244.6,121 252.73,103 260.87,121 269,103 277.13,121 285.27,103 293.4,121 301.53,103 309.67,121 317.8,103 330,112\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"330\" y1=\"112\" x2=\"390\" y2=\"112\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"400,112 390,116.6 390,107.4\" fill=\"#B43123\"/><text x=\"269\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">k = 240 N/m</text><line x1=\"90\" y1=\"142\" x2=\"52\" y2=\"142\" stroke=\"#9A959C\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"42,142 52,137.4 52,146.6\" fill=\"#9A959C\"/><text x=\"59\" y=\"132\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">f = 6,0 N</text></svg></span><ol><li>Hur stor kraft drar fjädern med?</li>\n<li>Hur stor är den resulterande kraften på vagnen?</li>\n<li>Bestäm vagnens acceleration.</li>\n<li>Hur långt har vagnen kommit efter 2,0 sekunder?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Eftersom förlängningen hålls konstant är även fjäderkraften konstant.</p><div class=\"facit-matte\">\\[F_f=kx=240\\cdot0{,}050=12\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b–c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Friktionen verkar bakåt.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=12-6{,}0=6{,}0\\ \\mathrm N\\]\\[a=\\frac{6{,}0}{1{,}2}=5{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vagnen startar från vila.</p><div class=\"facit-matte\">\\[s=\\frac{at^2}{2}=\\frac{5{,}0\\cdot2{,}0^2}{2}=10\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fjäderkraften är \\(12\\ \\mathrm N\\), resultanten \\(6{,}0\\ \\mathrm N\\), accelerationen \\(5{,}0\\ \\mathrm{m/s^2}\\) och sträckan \\(10\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       12,
@@ -16606,23 +16780,26 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.152",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "beräkna retardation uppför lutande plan med friktion och avgöra om kroppen glider tillbaka, ur diagram, sökt kraft sträcka tid och resonemang",
     "poang": "(1/2/0)",
     "t": "<p>En kloss med massan 1,5 kg skjuts iväg uppför ett lutande plan med starthastigheten 4,0 m/s. Planet lutar 25° mot marken och friktionstalet är 0,30.</p><span class=\"fig bred\"><svg height=\"297\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 11.142 361.586 173.259\"><polygon points=\"30,175 360,175 360,21.1\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(162,113.4) rotate(-25)\"><rect x=\"-28\" y=\"-30\" width=\"56\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">1,5 kg</text><line x1=\"36\" y1=\"-16\" x2=\"70\" y2=\"-16\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"78,-16 68,-20.6 68,-11.4\" fill=\"#2A5D9E\"/><text x=\"52\" y=\"-26\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></g><path d=\"M 82 175 A 52 52 0 0 0 77.1 153.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"96\" y=\"163\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">25°</text></svg></span>\n<ol><li>Hur stor är den resulterande kraften på klossen på väg uppåt?</li>\n<li>Hur långt upp längs planet kommer klossen?</li><li>Hur lång tid tar det innan den stannar?</li>\n<li>Glider klossen tillbaka nedför planet efteråt? Motivera.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På väg upp verkar både tyngdkomponenten och friktionen nedför planet.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=mg(\\sin25^\\circ+0{,}30\\cos25^\\circ)=10{,}23\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b–c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Retardationens storlek är \\(F_{\\mathrm{res}}/m\\).</p><div class=\"facit-matte\">\\[|a|=6{,}82\\ \\mathrm{m/s^2}\\]\\[s=\\frac{4{,}0^2}{2\\cdot6{,}82}=1{,}17\\ \\mathrm m\\]\\[t=\\frac{4{,}0}{6{,}82}=0{,}587\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När klossen har stannat jämförs kraften nedför planet med största möjliga statiska friktion.</p><div class=\"facit-matte\">\\[mg\\sin25^\\circ=6{,}22\\ \\mathrm N&gt;\\mu mg\\cos25^\\circ=4{,}00\\ \\mathrm N\\]</div><p>Klossen glider därför tillbaka nedför.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten på väg upp är \\(10{,}23\\ \\mathrm N\\) nedför. Klossen når \\(1{,}17\\ \\mathrm m\\), stannar efter \\(0{,}587\\ \\mathrm s\\) och glider sedan tillbaka.</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       10.23,
@@ -16660,22 +16837,25 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.153",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna linkraft i accelererande hiss och sträckan under accelerationen, ur text, sökt acceleration kraft och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>En hiss med last väger tillsammans 700 kg. Den startar från vila och når farten 2,4 m/s uppåt på 3,0 sekunder.</p>\n<ol><li>Bestäm hissens acceleration.</li>\n<li>Hur stor är den resulterande kraften på hissen?</li>\n<li>Hur stor är kraften i linan under accelerationen?</li>\n<li>Hur långt har hissen åkt efter de 3,0 sekunderna?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Hissen accelererar uppåt från vila.</p><div class=\"facit-matte\">\\[a=\\frac{2{,}4}{3{,}0}=0{,}80\\ \\mathrm{m/s^2}\\]\\[F_{\\mathrm{res}}=700\\cdot0{,}80=560\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Linkraften måste både balansera tyngden och ge resultanten.</p><div class=\"facit-matte\">\\[S=m(g+a)=700(9{,}82+0{,}80)=7434\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sträckan under accelerationen är</p><div class=\"facit-matte\">\\[s=\\frac{at^2}{2}=\\frac{0{,}80\\cdot3{,}0^2}{2}=3{,}60\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=0{,}80\\ \\mathrm{m/s^2}\\) uppåt, \\(F_{\\mathrm{res}}=560\\ \\mathrm N\\), \\(S=7{,}43\\ \\mathrm{kN}\\) och \\(s=3{,}60\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.8,
@@ -16708,22 +16888,25 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.154",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "A",
     "typ": "bestämma dragkraft i vinkel ur given acceleration med friktionsberoende normalkraft, ur diagram, sökt kraft sträcka och jämförelse",
     "poang": "(0/1/2)",
     "t": "<p>En låda med massan 25 kg dras med ett rep som bildar vinkeln 30° mot marken. Friktionstalet mellan lådan och golvet är 0,30. Lådan startar från vila och håller farten 2,0 m/s efter 4,0 s.</p><span class=\"fig bred\"><svg height=\"261\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"1.657 13.260 286.686 120.580\"><rect x=\"15\" y=\"120\" width=\"260\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"120\" x2=\"275\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"55\" y=\"76\" width=\"90\" height=\"44\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"100\" y=\"102\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#2B2527\">25 kg</text><line x1=\"145\" y1=\"76\" x2=\"215\" y2=\"76\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"145\" y1=\"76\" x2=\"214\" y2=\"36\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"222,31 215.6,40 211,32\" fill=\"#B43123\"/><path d=\"M 183 76 A 38 38 0 0 0 177.9 57\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"197\" y=\"66\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">30°</text><text x=\"230\" y=\"28\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text></svg></span>\n<ol><li>Hur stor är kraften F i repet?</li><li>Hur långt har lådan dragits under de fyra sekunderna?</li>\n<li>Hur stor kraft hade krävts om repet i stället varit vågrätt? Kommentera skillnaden.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Accelerationen är \\(a=2{,}0/4{,}0=0{,}50\\ \\mathrm{m/s^2}\\). Den uppåtriktade kraftkomponenten minskar normalkraften.</p><div class=\"facit-matte\">\\[N=mg-F\\sin30^\\circ\\]\\[F\\cos30^\\circ-\\mu N=ma\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt in normalkraften och lös ut dragkraften.</p><div class=\"facit-matte\">\\[F(\\cos30^\\circ+0{,}30\\sin30^\\circ)=25\\cdot0{,}50+0{,}30\\cdot25\\cdot9{,}82\\]\\[F=84{,}8\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sträckan under accelerationen är</p><div class=\"facit-matte\">\\[s=\\frac{at^2}{2}=4{,}0\\ \\mathrm m\\]</div><p>En vågrät dragkraft skulle behöva vara \\(ma+\\mu mg=86{,}2\\ \\mathrm N\\), alltså något större.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Dragkraften är cirka \\(84{,}8\\ \\mathrm N\\), och lådan hinner \\(4{,}0\\ \\mathrm m\\). En vågrät kraft skulle behöva vara cirka \\(86{,}2\\ \\mathrm N\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       84.8,
@@ -16751,41 +16934,47 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.155",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna kraft i hisslina vid inbromsning under nedfärd, ur text, sökt acceleration kraft och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>En hiss med last väger tillsammans 500 kg. Hissen åker nedåt med farten 3,0 m/s och bromsas till stillastående på 2,0 sekunder.</p>\n<ol><li>Bestäm accelerationens storlek och riktning.</li>\n<li>Hur stor är den resulterande kraften på hissen?</li>\n<li>Hur stor är kraften i linan under inbromsningen?</li>\n<li>Hur långt hinner hissen under inbromsningen?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Hissen rör sig nedåt men bromsas, så accelerationen är uppåt.</p><div class=\"facit-matte\">\\[a=\\frac{3{,}0}{2{,}0}=1{,}50\\ \\mathrm{m/s^2}\\]\\[F_{\\mathrm{res}}=500\\cdot1{,}50=750\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med uppåt som positiv riktning gäller \\(S-mg=ma\\).</p><div class=\"facit-matte\">\\[S=500(9{,}82+1{,}50)=5660\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Medelfarten under inbromsningen är 1,5 m/s.</p><div class=\"facit-matte\">\\[s=1{,}5\\cdot2{,}0=3{,}0\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(1{,}50\\ \\mathrm{m/s^2}\\) uppåt, resultanten \\(750\\ \\mathrm N\\) uppåt, linkraften \\(5{,}66\\ \\mathrm{kN}\\) och sträckan \\(3{,}0\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.156",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna acceleration ur drivkraft och därefter starttid och startsträcka, ur text, sökt acceleration tid och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>Ett flygplan med massan 4,0·10⁴ kg startar från vila. Den resulterande kraften framåt är 8,0·10⁴ N och kan antas vara konstant. Planet lyfter när farten har nått 60 m/s.</p>\n<ol><li>Bestäm planets acceleration.</li><li>Hur lång tid tar det innan planet lyfter?</li>\n<li>Hur lång startbana krävs?</li>\n<li>På en kortare flygplats är startbanan bara 700 m. Räcker den?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Newtons andra lag ger accelerationen.</p><div class=\"facit-matte\">\\[a=\\frac{8{,}0\\cdot10^4}{4{,}0\\cdot10^4}=2{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b–c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Från vila till lyftfarten 60 m/s.</p><div class=\"facit-matte\">\\[t=\\frac va=30\\ \\mathrm s\\]\\[s=\\frac{v^2}{2a}=900\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kontrollera farten efter 700 m.</p><div class=\"facit-matte\">\\[v=\\sqrt{2as}=\\sqrt{2\\cdot2{,}0\\cdot700}=52{,}9\\ \\mathrm{m/s}\\]</div><p>Det är mindre än lyftfarten 60 m/s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(2{,}0\\ \\mathrm{m/s^2}\\). Det behövs \\(30\\ \\mathrm s\\) och \\(900\\ \\mathrm m\\); en 700 m lång bana räcker inte.</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
@@ -16823,22 +17012,25 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.157",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "bestämma kraft ur v-t-diagram med två faser för löpare, ur diagram, sökt acceleration kraft och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>Diagrammet visar farten hos en löpare med massan 68 kg under starten av ett lopp.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"97.2\" y1=\"26\" x2=\"97.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"97.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"183.6\" y1=\"26\" x2=\"183.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"183.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"356.4\" y1=\"26\" x2=\"356.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"356.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">7</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"442.8\" y1=\"26\" x2=\"442.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"442.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">9</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 226.8,70 486,70\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"226.8\" cy=\"70\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"70\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<ol><li>Bestäm löparens acceleration under de första fyra sekunderna.</li>\n<li>Hur stor är den resulterande kraften på löparen då?</li>\n<li>Hur långt har löparen sprungit efter 10 s?</li>\n<li>Vad är den resulterande kraften efter 4,0 s? Betyder det att löparen har slutat trycka ifrån?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Under de första fyra sekunderna ökar farten linjärt från 0 till 8,0 m/s.</p><div class=\"facit-matte\">\\[a=\\frac{8{,}0}{4{,}0}=2{,}0\\ \\mathrm{m/s^2}\\]\\[F_{\\mathrm{res}}=68\\cdot2{,}0=136\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sträckan är arean under fart–tid-grafen.</p><div class=\"facit-matte\">\\[s=\\frac{4{,}0\\cdot8{,}0}{2}+6{,}0\\cdot8{,}0=64\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Efter 4,0 s är farten konstant.</p><div class=\"facit-matte\">\\[a=0\\Rightarrow F_{\\mathrm{res}}=0\\]</div><p>Löparen trycker fortfarande ifrån; den framåtriktade kraften balanseras av motståndskrafter.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2{,}0\\ \\mathrm{m/s^2}\\), \\(F_{\\mathrm{res}}=136\\ \\mathrm N\\) och \\(s=64\\ \\mathrm m\\). Efter 4,0 s är resultanten noll.</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
@@ -16876,22 +17068,25 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.158",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "bestämma retardation ur fart och tid och därefter bromskraft, ur text, sökt acceleration kraft och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>En cyklist håller farten 8,0 m/s. Cyklisten och cykeln väger tillsammans 75 kg. Vid en inbromsning stannar ekipaget på 5,0 s.</p>\n<ol><li>Bestäm accelerationen under inbromsningen.</li><li>Hur stor är den bromsande kraften?</li>\n<li>Hur lång blir bromssträckan?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj färdriktningen som positiv.</p><div class=\"facit-matte\">\\[a=\\frac{0-8{,}0}{5{,}0}=-1{,}60\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kraften har samma riktning som accelerationen.</p><div class=\"facit-matte\">\\[F=ma=75(-1{,}60)=-120\\ \\mathrm N\\]</div><p>Alltså 120 N bakåt.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid jämn inbromsning är medelfarten halva startfarten.</p><div class=\"facit-matte\">\\[s=\\frac{8{,}0+0}{2}\\cdot5{,}0=20\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(-1{,}60\\ \\mathrm{m/s^2}\\), bromskraften \\(120\\ \\mathrm N\\) bakåt och sträckan \\(20\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       -1.6,
@@ -16937,41 +17132,47 @@ window.BANK = [
         "t": "<p>En cyklist håller farten 8,0 m/s. Cyklisten och cykeln väger tillsammans 75 kg. Vid en inbromsning stannar ekipaget på 5,0 s.</p><div class=\"spel-en-del\">Hur lång blir bromssträckan?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid jämn inbromsning är medelfarten halva startfarten.</p><div class=\"facit-matte\">\\[s=\\frac{8{,}0+0}{2}\\cdot5{,}0=20\\ \\mathrm m\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.159",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "bestämma acceleration ur sträcka och tid och därav resulterande kraft och skjutkraft, ur text, sökt acceleration kraft och fart",
     "poang": "(2/1/0)",
     "t": "<p>En låda med massan 20 kg skjuts från vila över ett golv och rör sig 9,0 m på 3,0 sekunder. Accelerationen är konstant.</p>\n<ol><li>Bestäm lådans acceleration.</li>\n<li>Hur stor är den resulterande kraften på lådan?</li>\n<li>Friktionskraften är 25 N. Hur stor är den skjutande kraften?</li>\n<li>Hur fort går lådan efter 3,0 sekunder?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan startar från vila och accelerationen är konstant.</p><div class=\"facit-matte\">\\[a=\\frac{2s}{t^2}=\\frac{2\\cdot9{,}0}{3{,}0^2}=2{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b–c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Resultanten och skjutkraften blir</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=ma=20\\cdot2{,}0=40\\ \\mathrm N\\]\\[F_{\\mathrm{skjut}}=40+25=65\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Slutfarten är</p><div class=\"facit-matte\">\\[v=at=2{,}0\\cdot3{,}0=6{,}0\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2{,}0\\ \\mathrm{m/s^2}\\), \\(F_{\\mathrm{res}}=40\\ \\mathrm N\\), skjutkraften \\(65\\ \\mathrm N\\) och slutfarten \\(6{,}0\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.160",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "bestämma vajerkraft genom att frilägga en del av ett ekipage, ur diagram, sökt kraft fart och sträcka",
     "poang": "(1/2/0)",
     "t": "<p>En bil med massan 1400 kg bogserar en släpvagn med massan 600 kg. Ekipaget startar från vila och accelererar med 0,80 m/s².</p><span class=\"fig bred\"><svg height=\"160\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 24.419 380.000 98.217\"><rect x=\"15\" y=\"110\" width=\"350\" height=\"8\" fill=\"#E5EDF4\"/><line x1=\"15\" y1=\"110\" x2=\"365\" y2=\"110\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"45\" y=\"68\" width=\"80\" height=\"28\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"85\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2B2527\">600 kg</text><circle cx=\"70\" cy=\"102\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"105\" cy=\"102\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"125\" y1=\"90\" x2=\"165\" y2=\"90\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"195,64 265,64 250,46 210,46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"165\" y=\"64\" width=\"130\" height=\"32\" rx=\"4\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"230\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2B2527\">1400 kg</text><circle cx=\"192\" cy=\"101\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"272\" cy=\"101\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"300\" y1=\"34\" x2=\"330\" y2=\"34\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"338,34 328,29.4 328,38.6\" fill=\"#2A5D9E\"/><text x=\"344\" y=\"38\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">a</text></svg></span>\n<ol><li>Hur stor är den resulterande kraften på hela ekipaget?</li>\n<li>Hur stor är kraften i vajern?</li>\n<li>Hur fort går ekipaget efter 12 s, och hur långt har det då kommit?</li>\n<li>Släpvagnen har i själva verket ett rullmotstånd på 150 N. Hur stor blir vajerkraften då?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Betrakta bil och släp som ett system.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=(1400+600)0{,}80=1600\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Frilägg därefter släpvagnen.</p><div class=\"facit-matte\">\\[S=600\\cdot0{,}80=480\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ekipaget startar från vila.</p><div class=\"facit-matte\">\\[v=at=9{,}6\\ \\mathrm{m/s}\\]\\[s=\\frac{at^2}{2}=57{,}6\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med rullmotstånd måste vajern både accelerera släpet och övervinna motståndet.</p><div class=\"facit-matte\">\\[S=600\\cdot0{,}80+150=630\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten är \\(1{,}60\\ \\mathrm{kN}\\). Vajerkraften är \\(480\\ \\mathrm N\\), eller \\(630\\ \\mathrm N\\) med rullmotstånd; efter 12 s är \\(v=9{,}6\\ \\mathrm{m/s}\\) och \\(s=57{,}6\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       1600,
@@ -17004,22 +17205,25 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.161",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "bestämma kraft i tre faser ur v-t-diagram, ur diagram, sökt kraft och sträcka",
     "poang": "(1/2/0)",
     "t": "<p>Ett tåg med massan 2,0·10⁵ kg kör mellan två stationer. Diagrammet visar tågets fart under hela färden.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"202\" x2=\"486\" y2=\"202\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"206\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"158\" x2=\"486\" y2=\"158\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"114\" x2=\"486\" y2=\"114\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"54\" y1=\"70\" x2=\"486\" y2=\"70\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">25</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"115.7143\" y1=\"26\" x2=\"115.7143\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"115.7143\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"177.4286\" y1=\"26\" x2=\"177.4286\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"177.4286\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"239.1429\" y1=\"26\" x2=\"239.1429\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"239.1429\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">150</text><line x1=\"300.8571\" y1=\"26\" x2=\"300.8571\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"300.8571\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">200</text><line x1=\"362.5714\" y1=\"26\" x2=\"362.5714\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"362.5714\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">250</text><line x1=\"424.2857\" y1=\"26\" x2=\"424.2857\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"424.2857\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">300</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">350</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 177.4286,70 424.2857,70 486,246\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"177.4286\" cy=\"70\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"424.2857\" cy=\"70\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<ol><li>Bestäm den resulterande kraften på tåget under de första 100 sekunderna.</li>\n<li>Hur stor är den resulterande kraften mellan 100 s och 300 s?</li>\n<li>Hur stor är den bromsande kraften i slutet?</li>\n<li>Hur långt är det mellan stationerna?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bestäm grafens lutning i varje tidsintervall och använd \\(F=ma\\).</p><div class=\"facit-matte\">\\[F_{0-100}=2{,}0\\cdot10^5\\frac{20}{100}=4{,}0\\cdot10^4\\ \\mathrm N\\]\\[F_{100-300}=0\\]\\[F_{300-350}=2{,}0\\cdot10^5\\frac{-20}{50}=-8{,}0\\cdot10^4\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sträckan är den sammanlagda arean under fart–tid-grafen.</p><div class=\"facit-matte\">\\[s=\\frac{100\\cdot20}{2}+200\\cdot20+\\frac{50\\cdot20}{2}=5500\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Krafterna är \\(40\\ \\mathrm{kN}\\) framåt, \\(0\\), och \\(80\\ \\mathrm{kN}\\) bakåt. Den totala sträckan är \\(5{,}50\\ \\mathrm{km}\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       40,
@@ -17052,80 +17256,92 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.162",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "beräkna förlängningen hos en fjäder mellan två klossar som dras med gemensam acceleration, ur diagram, sökt förlängning",
     "poang": "(1/2/0)",
     "t": "<p>Två klossar med massorna 3,0 kg och 2,0 kg är hopkopplade med en fjäder med fjäderkonstanten 500 N/m. Den främre klossen, som är den på 2,0 kg, dras med kraften 20 N över ett friktionsfritt underlag. Fjädern är masslös.</p><span class=\"fig bred\"><svg height=\"113\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 77.365 480.000 87.635\"><rect x=\"15\" y=\"152\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"152\" x2=\"465\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"78\" y=\"100\" width=\"84\" height=\"52\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"120\" y=\"130\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">3,0 kg</text><polyline points=\"162,126 166,135 174,117 182,135 190,117 198,135 206,117 214,135 222,117 230,135 238,117 250,126\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"250\" y=\"100\" width=\"84\" height=\"52\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"292\" y=\"130\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">2,0 kg</text><line x1=\"334\" y1=\"126\" x2=\"400\" y2=\"126\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"410,126 400,130.6 400,121.4\" fill=\"#B43123\"/><text x=\"378\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F = 20 N</text><text x=\"206\" y=\"92\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">k = 500 N/m</text></svg></span><p>Bestäm hur långt fjädern är utdragen.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Betrakta först båda klossarna som ett system.</p><div class=\"facit-matte\">\\[a=\\frac{20}{3{,}0+2{,}0}=4{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På den bakre 3,0-kilogramsklossen är fjäderkraften den enda vågräta kraften.</p><div class=\"facit-matte\">\\[F_f=3{,}0\\cdot4{,}0=12\\ \\mathrm N\\]\\[x=\\frac{F_f}{k}=\\frac{12}{500}=0{,}024\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fjädern är utdragen \\(0{,}024\\ \\mathrm m=2{,}4\\ \\mathrm{cm}\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.163",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "beräkna accelerationen i tre lägen för en kloss i en fjäder och avgöra om rörelsen är likformigt accelererad, ur diagram, sökt acceleration och resonemang",
     "poang": "(1/2/0)",
     "t": "<p>En kloss med massan 0,80 kg ligger på ett friktionsfritt underlag och är fäst i en fjäder med fjäderkonstanten 50 N/m. Klossen dras ut 24 cm från jämviktsläget och släpps. Den streckade linjen på mitten visar läget 12 cm från jämviktsläget.</p><span class=\"fig bred\"><svg height=\"148\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 48.242 490.000 116.758\"><rect x=\"20\" y=\"152\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"152\" x2=\"470\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"56\" x2=\"44\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"64\" x2=\"36\" y2=\"56\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"74\" x2=\"36\" y2=\"66\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"84\" x2=\"36\" y2=\"76\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"94\" x2=\"36\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"104\" x2=\"36\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"114\" x2=\"36\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"124\" x2=\"36\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"134\" x2=\"36\" y2=\"126\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"144\" x2=\"36\" y2=\"136\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"154\" x2=\"36\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"140\" y1=\"76\" x2=\"140\" y2=\"152\" stroke=\"#5C575E\" stroke-width=\"1\" stroke-linecap=\"square\" stroke-dasharray=\"4 4\"/><line x1=\"188\" y1=\"96\" x2=\"188\" y2=\"152\" stroke=\"#5C575E\" stroke-width=\"1\" stroke-linecap=\"square\" stroke-dasharray=\"4 4\"/><polyline points=\"44,127 49.65,137 60.94,117 72.24,137 83.53,117 94.82,137 106.12,117 117.41,137 128.71,117 140,137 151.29,117 162.59,137 173.88,117 185.18,137 196.47,117 207.76,137 219.06,117 236,127\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"236\" y=\"102\" width=\"66\" height=\"50\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"269\" y=\"131\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" font-weight=\"600\" fill=\"#2B2527\">0,80 kg</text><line x1=\"140\" y1=\"88\" x2=\"236\" y2=\"88\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"140,88 147,91 147,85\" fill=\"#5C575E\"/><polygon points=\"236,88 229,91 229,85\" fill=\"#5C575E\"/><text x=\"188\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">24 cm</text><text x=\"140\" y=\"66\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">jämviktsläge</text><text x=\"322\" y=\"131\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">k = 50 N/m</text></svg></span><p>Bestäm klossens acceleration i släppögonblicket, vid 12 cm och i jämviktsläget, och förklara varför man inte kan använda s = at²/2 för att räkna ut hur lång tid det tar innan klossen når jämviktsläget.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den momentana accelerationen följer av Hookes lag.</p><div class=\"facit-matte\">\\[|a|=\\frac{k|x|}{m}\\]</div><p>Den är alltid riktad mot jämviktsläget.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt in de tre lägena.</p><div class=\"facit-matte\">\\[|a(0{,}24)|=\\frac{50\\cdot0{,}24}{0{,}80}=15\\ \\mathrm{m/s^2}\\]\\[|a(0{,}12)|=7{,}5\\ \\mathrm{m/s^2}\\]\\[a(0)=0\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Formeln \\(s=at^2/2\\) kräver konstant acceleration.</p><p>Här ändras accelerationen kontinuerligt med läget, så den formeln kan inte användas för tiden till jämviktsläget.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationens storlek är \\(15\\ \\mathrm{m/s^2}\\), \\(7{,}5\\ \\mathrm{m/s^2}\\) respektive \\(0\\). Den är inte konstant.</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.164",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna resulterande kraft med friktion och därefter fart och sträcka, ur text, sökt kraft fart och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>En pulka med ett barn i väger tillsammans 32 kg. En vuxen drar pulkan över en isbana med en vågrät kraft på 20 N. Friktionskraften från isen är 4,0 N. Pulkan startar från vila.</p><span class=\"fig bred\"><svg height=\"140\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.457 52.614 319.086 71.830\"><rect x=\"15\" y=\"112\" width=\"290\" height=\"8\" fill=\"#DCE6F2\"/><line x1=\"15\" y1=\"112\" x2=\"305\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 96,88 L 206,88 L 206,112 L 108,112 Q 94,112 94,100 Z\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 96,88 C 84,87 78,81 77,74\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"68\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"150\" y1=\"77\" x2=\"150\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><text x=\"180\" y=\"105\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#2B2527\">32 kg</text><line x1=\"72\" y1=\"74\" x2=\"42\" y2=\"74\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"34,74 44,69.4 44,78.6\" fill=\"#B43123\"/><text x=\"48\" y=\"65\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text></svg></span>\n<ol><li>Hur stor är den resulterande kraften på pulkan?</li><li>Bestäm pulkans acceleration.</li>\n<li>Hur fort går pulkan efter 6,0 s?</li><li>Hur långt har den då åkt?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dragkraft och friktion är motriktade.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=20-4{,}0=16\\ \\mathrm N\\]\\[a=\\frac{16}{32}=0{,}50\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Pulken startar från vila.</p><div class=\"facit-matte\">\\[v=at=0{,}50\\cdot6{,}0=3{,}0\\ \\mathrm{m/s}\\]\\[s=\\frac{at^2}{2}=\\frac{0{,}50\\cdot6{,}0^2}{2}=9{,}0\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten är \\(16\\ \\mathrm N\\), accelerationen \\(0{,}50\\ \\mathrm{m/s^2}\\), farten \\(3{,}0\\ \\mathrm{m/s}\\) och sträckan \\(9{,}0\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.165",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "beräkna krockkraft ur deformationssträcka och jämföra två krockzoner, ur text, sökt acceleration kraft och tid",
     "poang": "(1/2/0)",
     "t": "<p>En bil med massan 1,3·10³ kg kör i 14 m/s och krockar med ett fast hinder. Bilens front trycks ihop 0,60 m innan bilen står stilla. Inbromsningen kan antas vara likformig.</p>\n<ol><li>Bestäm bilens acceleration under krocken.</li><li>Hur stor är den resulterande kraften på bilen?</li>\n<li>Hur lång tid tar krocken?</li>\n<li>En äldre bil har en styvare front som bara trycks ihop 0,20 m. Hur stor blir kraften då?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bilen bromsas från 14 m/s till vila över 0,60 m.</p><div class=\"facit-matte\">\\[0=14^2+2a\\cdot0{,}60\\Rightarrow a=-163\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b–c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Newtons andra lag och \\(v=v_0+at\\) ger</p><div class=\"facit-matte\">\\[F=ma=1{,}3\\cdot10^3(-163)=-2{,}12\\cdot10^5\\ \\mathrm N\\]\\[t=\\frac{14}{163}=0{,}0857\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med krockzonen 0,20 m blir retardationen tre gånger större.</p><div class=\"facit-matte\">\\[|a|=\\frac{14^2}{2\\cdot0{,}20}=490\\ \\mathrm{m/s^2}\\]\\[|F|=1{,}3\\cdot10^3\\cdot490=6{,}37\\cdot10^5\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> För 0,60 m blir \\(a=-163\\ \\mathrm{m/s^2}\\), kraften cirka \\(2{,}12\\cdot10^5\\ \\mathrm N\\) bakåt och tiden \\(0{,}0857\\ \\mathrm s\\). Vid 0,20 m blir kraften cirka \\(6{,}37\\cdot10^5\\ \\mathrm N\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       -163,
@@ -17158,22 +17374,25 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.166",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "bestämma friktionskraft och friktionstal ur uppmätt fartminskning, ur diagram, sökt acceleration kraft sträcka och friktionstal",
     "poang": "(2/1/0)",
     "t": "<p>En curlingsten med massan 19 kg glider fram över isen. Farten minskar från 2,4 m/s till 1,2 m/s under 8,0 s.</p><span class=\"fig bred\"><svg height=\"120\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 25.279 260.000 50.186\"><rect x=\"12\" y=\"64\" width=\"236\" height=\"8\" fill=\"#DCE6F2\"/><line x1=\"12\" y1=\"64\" x2=\"248\" y2=\"64\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 70,64 Q 70,40 100,40 Q 130,40 130,64 Z\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"94\" y=\"30\" width=\"12\" height=\"10\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"88\" y1=\"30\" x2=\"112\" y2=\"30\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><text x=\"100\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2B2527\">19 kg</text><line x1=\"142\" y1=\"50\" x2=\"178\" y2=\"50\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"186,50 176,45.4 176,54.6\" fill=\"#2A5D9E\"/><text x=\"192\" y=\"54\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text></svg></span>\n<ol><li>Bestäm stenens acceleration.</li><li>Hur stor är friktionskraften från isen?</li>\n<li>Hur långt har stenen glidit under de 8,0 sekunderna?</li>\n<li>Bestäm friktionstalet mellan stenen och isen.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj rörelseriktningen som positiv.</p><div class=\"facit-matte\">\\[a=\\frac{1{,}2-2{,}4}{8{,}0}=-0{,}150\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Friktionen är den enda vågräta kraften.</p><div class=\"facit-matte\">\\[f=m|a|=19\\cdot0{,}150=2{,}85\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd medelfarten vid konstant acceleration.</p><div class=\"facit-matte\">\\[s=\\frac{2{,}4+1{,}2}{2}\\cdot8{,}0=14{,}4\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På plan is är \\(N=mg\\).</p><div class=\"facit-matte\">\\[\\mu=\\frac{f}{mg}=\\frac{2{,}85}{19\\cdot9{,}82}=0{,}0153\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-0{,}150\\ \\mathrm{m/s^2}\\), \\(f=2{,}85\\ \\mathrm N\\), \\(s=14{,}4\\ \\mathrm m\\) och \\(\\mu=0{,}0153\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       -0.15,
@@ -17206,80 +17425,92 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.167",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna resulterande kraft acceleration och fart för en låda som dras av en dynamometer samt dynamometerns förlängning, ur diagram, sökt kraft acceleration fart och förlängning",
     "poang": "(2/1/0)",
     "t": "<p>En låda med massan 8,0 kg dras över ett golv med hjälp av en dynamometer, som visar 30 N. Friktionskraften är 18 N. Lådan startar från vila.</p><span class=\"fig bred\"><svg height=\"112\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 78.050 480.000 86.950\"><rect x=\"15\" y=\"152\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"152\" x2=\"465\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"120\" y=\"94\" width=\"104\" height=\"58\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"172\" y=\"127\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">8,0 kg</text><line x1=\"224\" y1=\"118\" x2=\"244\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><rect x=\"244\" y=\"103\" width=\"72\" height=\"30\" rx=\"4\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"280\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">30 N</text><line x1=\"316\" y1=\"118\" x2=\"340\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"340\" y1=\"118\" x2=\"394\" y2=\"118\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"404,118 394,122.6 394,113.4\" fill=\"#B43123\"/><text x=\"280\" y=\"92\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">dynamometer</text><line x1=\"112\" y1=\"140\" x2=\"68\" y2=\"140\" stroke=\"#9A959C\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"58,140 68,135.4 68,144.6\" fill=\"#9A959C\"/><text x=\"85\" y=\"130\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">f = 18 N</text></svg></span><ol><li>Hur stor är den resulterande kraften på lådan?</li>\n<li>Bestäm lådans acceleration.</li>\n<li>Hur fort går lådan efter 4,0 sekunder?</li>\n<li>Dynamometerns fjäder har fjäderkonstanten 500 N/m. Hur långt är den utdragen?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dynamometerns dragkraft motverkas av friktionen.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=30-18=12\\ \\mathrm N\\]\\[a=\\frac{12}{8{,}0}=1{,}50\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Från vila efter 4,0 s blir farten</p><div class=\"facit-matte\">\\[v=at=1{,}50\\cdot4{,}0=6{,}0\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dynamometerns kraft är dess fjäderkraft.</p><div class=\"facit-matte\">\\[x=\\frac Fk=\\frac{30}{500}=0{,}060\\ \\mathrm m=6{,}0\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten är \\(12\\ \\mathrm N\\), accelerationen \\(1{,}50\\ \\mathrm{m/s^2}\\), farten \\(6{,}0\\ \\mathrm{m/s}\\) och förlängningen \\(6{,}0\\ \\mathrm{cm}\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.168",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "beräkna kraftkomposant längs lutande plan och därefter fart och tid, ur diagram, sökt kraft acceleration fart och tid",
     "poang": "(1/2/0)",
     "t": "<p>En kloss med massan 2,5 kg släpps från vila högst upp på ett lutande plan. Planet lutar 20° mot marken och sträckan längs planet är 3,0 m. Friktionen kan försummas.</p><span class=\"fig bred\"><svg height=\"246\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.486 39.554 361.586 143.733\"><polygon points=\"30,175 360,175 360,54.9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(277.5,84.9) rotate(-20)\"><rect x=\"-28\" y=\"-30\" width=\"56\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">2,5 kg</text></g><path d=\"M 82 175 A 52 52 0 0 0 78.9 157.2\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"96\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">20°</text></svg></span>\n<ol><li>Hur stor är den resulterande kraften längs planet?</li><li>Bestäm klossens acceleration.</li>\n<li>Hur fort går klossen när den når nedre kanten?</li><li>Hur lång tid tar färden?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraftens komponent längs planet driver klossen.</p><div class=\"facit-matte\">\\[F_{\\parallel}=mg\\sin20^\\circ=2{,}5\\cdot9{,}82\\sin20^\\circ=8{,}40\\ \\mathrm N\\]\\[a=g\\sin20^\\circ=3{,}36\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Klossen startar från vila och glider 3,0 m.</p><div class=\"facit-matte\">\\[v=\\sqrt{2as}=\\sqrt{2\\cdot3{,}36\\cdot3{,}0}=4{,}49\\ \\mathrm{m/s}\\]\\[t=\\frac va=1{,}34\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraftkomponenten är \\(8{,}40\\ \\mathrm N\\), accelerationen \\(3{,}36\\ \\mathrm{m/s^2}\\), slutfarten \\(4{,}49\\ \\mathrm{m/s}\\) och tiden \\(1{,}34\\ \\mathrm s\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.169",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna linkraft vid accelererande lyft och därefter fart och höjd, ur diagram, sökt kraft fart och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>En lyftkran lyfter en last med massan 350 kg. Lasten startar från vila och accelererar uppåt med 0,60 m/s².</p><span class=\"fig smal\"><svg height=\"241\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 300 190\"><rect x=\"15\" y=\"170\" width=\"270\" height=\"8\" fill=\"#ECEFF3\"/><line x1=\"15\" y1=\"170\" x2=\"285\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"40\" y=\"20\" width=\"16\" height=\"150\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"40\" y=\"20\" width=\"180\" height=\"14\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"212\" y1=\"34\" x2=\"212\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><rect x=\"186\" y=\"96\" width=\"52\" height=\"34\" rx=\"3\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"212\" y=\"117\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2B2527\">350 kg</text><line x1=\"262\" y1=\"110\" x2=\"262\" y2=\"72\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"262,62 257.4,72 266.6,72\" fill=\"#2A5D9E\"/><text x=\"270\" y=\"92\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">a</text></svg></span>\n<ol><li>Hur stor är kraften i linan under lyftet?</li><li>Hur fort går lasten efter 3,0 s?</li>\n<li>Hur högt har den då kommit?</li>\n<li>Sedan lyfts lasten vidare med konstant fart. Vad blir linkraften då?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Under lyftet gäller \\(S-mg=ma\\).</p><div class=\"facit-matte\">\\[S=m(g+a)=350(9{,}82+0{,}60)=3647\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b–c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lasten startar från vila.</p><div class=\"facit-matte\">\\[v=at=0{,}60\\cdot3{,}0=1{,}8\\ \\mathrm{m/s}\\]\\[s=\\frac{at^2}{2}=2{,}7\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant fart är resultanten noll.</p><div class=\"facit-matte\">\\[S=mg=350\\cdot9{,}82=3437\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Linan drar med cirka \\(3{,}65\\ \\mathrm{kN}\\) under accelerationen. Efter 3,0 s är \\(v=1{,}8\\ \\mathrm{m/s}\\) och \\(s=2{,}7\\ \\mathrm m\\); vid konstant fart är linkraften \\(3{,}44\\ \\mathrm{kN}\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.170",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "bestämma acceleration ur v-t-diagram och därefter resulterande kraft, ur diagram, sökt acceleration kraft och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>En bil med massan 1200 kg startar från vila. Diagrammet visar bilens fart under de första åtta sekunderna.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.3333\" x2=\"486\" y2=\"209.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.3333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"172.6667\" x2=\"486\" y2=\"172.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"54\" y1=\"99.3333\" x2=\"486\" y2=\"99.3333\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.3333\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">16</text><line x1=\"54\" y1=\"62.6667\" x2=\"486\" y2=\"62.6667\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.6667\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">24</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"108\" y1=\"26\" x2=\"108\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"108\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"216\" y1=\"26\" x2=\"216\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"216\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"324\" y1=\"26\" x2=\"324\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"324\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"432\" y1=\"26\" x2=\"432\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"432\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">7</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg></span>\n<ol><li>Bestäm bilens acceleration.</li><li>Hur stor är den resulterande kraften på bilen?</li>\n<li>Hur långt har bilen kommit efter 8,0 s?</li>\n<li>Motorns drivkraft är i verkligheten större än svaret i b. Förklara varför.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lutningen i fart–tid-diagrammet ger accelerationen.</p><div class=\"facit-matte\">\\[a=\\frac{24-0}{8{,}0}=3{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Newtons andra lag ger resultanten.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=ma=1200\\cdot3{,}0=3{,}6\\cdot10^3\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sträckan är arean under grafen.</p><div class=\"facit-matte\">\\[s=\\frac{8{,}0\\cdot24}{2}=96\\ \\mathrm m\\]</div><p>Motorkraften måste vara större än resultanten om luft- och rullmotstånd också verkar bakåt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3{,}0\\ \\mathrm{m/s^2}\\), \\(F_{\\mathrm{res}}=3{,}6\\ \\mathrm{kN}\\) och \\(s=96\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       3,
@@ -17317,7 +17548,10 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.171",
@@ -17394,11 +17628,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En kloss på 3,0 kg på ett friktionsfritt bord är kopplad till en hängande vikt på 1,0 kg via ett snöre över en trissa.</p><span class=\"fig bred\"><svg height=\"251\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.286 80.049 341.143 138.370\"><rect x=\"30\" y=\"120\" width=\"270\" height=\"10\" fill=\"#E8DCC6\"/><line x1=\"30\" y1=\"120\" x2=\"300\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"90\" y=\"88\" width=\"66\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"156\" y1=\"96\" x2=\"300\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"300\" cy=\"112\" r=\"16\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"316\" y1=\"112\" x2=\"316\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"292\" y=\"180\" width=\"48\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/></svg></span>\n<ol><li>Vilken kraft driver systemet?</li><li>Vilken acceleration får klossen?</li>\n<li>Hur stor är spännkraften i snöret?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den hängande viktens tyngdkraft driver systemet.</p><div class=\"facit-matte\">\\[F_g=m_2g=1{,}0\\cdot9{,}82=9{,}82\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Betrakta båda massorna som ett system.</p><div class=\"facit-matte\">\\[a=\\frac{m_2g}{m_1+m_2}=\\frac{9{,}82}{3{,}0+1{,}0}=2{,}455\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Frilägg klossen på bordet. Spännkraften är dess enda vågräta kraft.</p><div class=\"facit-matte\">\\[S=m_1a=3{,}0\\cdot2{,}455=7{,}37\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Drivkraften är \\(9{,}82\\ \\mathrm N\\), accelerationen \\(2{,}46\\ \\mathrm{m/s^2}\\) och spännkraften \\(7{,}37\\ \\mathrm N\\).</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       9.82,
@@ -17426,7 +17660,9 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.174",
@@ -17436,11 +17672,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En bogservajer är märkt med brottgränsen 8,0 kN. Den bogserade bilen väger 1400 kg och bromsas av rullmotstånd på 300 N.</p>\n<ol><li>Vilken är den största acceleration vajern klarar?</li>\n<li>Med säkerhetsfaktorn 3 får vajern belastas med högst en tredjedel av brottgränsen. Vilken acceleration ger det?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vajern drar framåt och rullmotståndet bakåt. Vid brottgränsen är dragkraften 8,0 kN.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=8000-300=7700\\ \\mathrm N\\]\\[a_{\\max}=\\frac{7700}{1400}=5{,}50\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med säkerhetsfaktor 3 får vajern belastas med högst en tredjedel av brottgränsen.</p><div class=\"facit-matte\">\\[F_{\\mathrm{till}}=\\frac{8000}{3}=2667\\ \\mathrm N\\]\\[a=\\frac{2667-300}{1400}=1{,}69\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den teoretiska största accelerationen är \\(5{,}5\\ \\mathrm{m/s^2}\\). Med säkerhetsfaktor 3 blir den tillåtna accelerationen cirka \\(1{,}7\\ \\mathrm{m/s^2}\\).</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -17466,7 +17702,9 @@ window.BANK = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.175",
@@ -18276,17 +18514,17 @@ window.BANK = [
   {
     "id": "4.201",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna acceleration ur kraft och därefter fart och sträcka, ur text, sökt acceleration fart och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>En kundvagn med massan 24 kg står stilla i en affär. En kund börjar skjuta på den med en vågrät kraft på 36 N. Friktionen mot golvet är så liten att den kan försummas.</p><span class=\"fig bred\"><svg height=\"230\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"1.714 9.439 286.286 105.974\"><rect x=\"15\" y=\"102\" width=\"260\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"102\" x2=\"275\" y2=\"102\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"90\" y=\"44\" width=\"110\" height=\"42\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"145\" y=\"69\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#2B2527\">24 kg</text><circle cx=\"110\" cy=\"94\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"94\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"90\" y1=\"52\" x2=\"68\" y2=\"32\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"68\" y1=\"32\" x2=\"56\" y2=\"32\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"24\" y1=\"32\" x2=\"44\" y2=\"32\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"52,32 43,27.6 43,36.4\" fill=\"#B43123\"/><text x=\"24\" y=\"23\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text></svg></span>\n<ol><li>Bestäm vagnens acceleration.</li><li>Hur fort går vagnen efter 4,0 s?</li>\n<li>Hur långt har den då hunnit?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Friktionen försummas, så skjutkraften är den resulterande kraften.</p><div class=\"facit-matte\">\\[a=\\frac{F}{m}=\\frac{36}{24}=1{,}50\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vagnen startar från vila.</p><div class=\"facit-matte\">\\[v=at=1{,}50\\cdot4{,}0=6{,}0\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd rörelseformeln för konstant acceleration.</p><div class=\"facit-matte\">\\[s=\\frac{at^2}{2}=\\frac{1{,}50\\cdot4{,}0^2}{2}=12\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(1{,}50\\ \\mathrm{m/s^2}\\). Efter \\(4{,}0\\ \\mathrm s\\) är farten \\(6{,}0\\ \\mathrm{m/s}\\) och sträckan \\(12\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.5,
@@ -18318,42 +18556,48 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.202",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "bestämma acceleration ur vågens utslag i hiss och därefter fart och sträcka, ur diagram, sökt acceleration fart sträcka och kraft",
     "poang": "(1/2/0)",
     "t": "<p>En person med massan 62 kg står på en badrumsvåg inne i en hiss. Hissen startar från vila och vågen visar 700 N under de första två sekunderna.</p><span class=\"fig smal\"><svg height=\"358\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"44.343 1.830 231.314 218.170\"><line x1=\"55\" y1=\"14\" x2=\"55\" y2=\"208\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"265\" y1=\"14\" x2=\"265\" y2=\"208\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"85\" y=\"40\" width=\"150\" height=\"158\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"130\" y=\"182\" width=\"60\" height=\"16\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"142\" y=\"175\" width=\"18\" height=\"7\" rx=\"2.5\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><rect x=\"161\" y=\"175\" width=\"18\" height=\"7\" rx=\"2.5\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><rect x=\"149\" y=\"144\" width=\"9\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><rect x=\"162\" y=\"144\" width=\"9\" height=\"34\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polygon points=\"145,99 175,99 170,144 150,144\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"145\" y1=\"104\" x2=\"136\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"175\" y1=\"104\" x2=\"184\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"86\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"190\" y1=\"190\" x2=\"200\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><text x=\"204\" y=\"193\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#5C575E\">våg</text><text x=\"160\" y=\"215\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">62 kg</text></svg></span>\n<ol><li>Åt vilket håll accelererar hissen? Motivera.</li><li>Bestäm accelerationens storlek.</li>\n<li>Hur fort går hissen efter 2,0 s, och hur långt har den åkt?</li>\n<li>Sedan åker hissen vidare med konstant fart. Vad visar vågen då?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vågens utslag är normalkraften. Eftersom \\(N&gt;mg\\) är accelerationen uppåt.</p><div class=\"facit-matte\">\\[N-mg=ma\\]\\[a=\\frac{700-62\\cdot9{,}82}{62}=1{,}47\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Hissen startar från vila och accelererar i 2,0 s.</p><div class=\"facit-matte\">\\[v=at=1{,}47\\cdot2{,}0=2{,}94\\ \\mathrm{m/s}\\]\\[s=\\frac{at^2}{2}=2{,}94\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant fart är accelerationen noll.</p><div class=\"facit-matte\">\\[N=mg=62\\cdot9{,}82=609\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(1{,}47\\ \\mathrm{m/s^2}\\) uppåt. Efter 2,0 s är \\(v=2{,}94\\ \\mathrm{m/s}\\) och \\(s=2{,}94\\ \\mathrm m\\); vid konstant fart visar vågen cirka \\(609\\ \\mathrm N\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.203",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "A",
     "typ": "bestämma drivkraft uppför lutning med motståndskrafter och jämföra med plan väg, ur text, sökt kraft sträcka och tid",
     "poang": "(0/1/2)",
     "t": "<p>En bil med massan 1500 kg kör uppför en backe som lutar 6,0° mot marken. Bilen accelererar likformigt från stillastående till 20 m/s på 12 s. Rull- och luftmotstånd är tillsammans 400 N och kan antas konstanta.</p>\n<ol><li>Hur stor är motorns drivkraft?</li><li>Hur långt har bilen kört under de 12 sekunderna?</li>\n<li>Med samma drivkraft och samma motstånd kör bilen sedan på plan väg. Hur lång tid tar det då att nå 20 m/s från stillastående?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Accelerationen i backen är \\(20/12=1{,}667\\ \\mathrm{m/s^2}\\).</p><div class=\"facit-matte\">\\[F-mg\\sin6{,}0^\\circ-400=ma\\]\\[F=1500\\cdot1{,}667+1500\\cdot9{,}82\\sin6{,}0^\\circ+400=4439\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid jämn acceleration från vila är medelfarten 10 m/s.</p><div class=\"facit-matte\">\\[s=10\\cdot12=120\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På plan väg återstår drivkraften och motståndet.</p><div class=\"facit-matte\">\\[a=\\frac{4439-400}{1500}=2{,}69\\ \\mathrm{m/s^2}\\]\\[t=\\frac{20}{2{,}69}=7{,}43\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Drivkraften är cirka \\(4{,}44\\ \\mathrm{kN}\\), sträckan i backen \\(120\\ \\mathrm m\\), och tiden till 20 m/s på plan väg \\(7{,}43\\ \\mathrm s\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       4.44,
@@ -18381,45 +18625,54 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.204",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "beräkna förlängningen hos en fjäder som håller en kloss på ett friktionsfritt lutande plan, ur diagram, sökt förlängning",
     "poang": "(1/2/0)",
     "t": "<p>En kloss med massan 1,5 kg ligger stilla på ett friktionsfritt lutande plan med lutningen 25°. Klossen hålls uppe av en fjäder längs planet med fjäderkonstanten 120 N/m.</p><span class=\"fig bred\"><svg height=\"319\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"26.400 8.813 307.371 158.004\"><path d=\"M 40 158 L 320 158 L 320 27.43 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 90 158 A 50 50 0 0 0 85.32 136.87\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"106\" y=\"151\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">25°</text><polygon points=\"130.41,115.84 184.79,90.48 168.73,56.04 114.35,81.4\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"149.57\" y=\"89.94\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">1,5 kg</text><line x1=\"311.6\" y1=\"31.35\" x2=\"305.26\" y2=\"17.76\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><polyline points=\"178.45,76.89 186.69,80.77 191.34,63.15 207.83,70.91 212.48,53.3 228.96,61.06 233.61,43.44 250.1,51.2 254.75,33.59 271.23,41.35 275.88,23.73 292.37,31.49 305.26,17.76\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"126\" y=\"44\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">k = 120 N/m</text></svg></span><p>Bestäm fjäderns förlängning, och avgör om förlängningen fördubblas när planet görs dubbelt så brant, alltså 50°.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I jämvikt balanserar fjäderkraften tyngdkomponenten längs planet.</p><div class=\"facit-matte\">\\[kx=mg\\sin25^\\circ\\Rightarrow x=\\frac{1{,}5\\cdot9{,}82\\sin25^\\circ}{120}=0{,}0519\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid 50° blir förlängningen</p><div class=\"facit-matte\">\\[x_{50}=\\frac{1{,}5\\cdot9{,}82\\sin50^\\circ}{120}=0{,}0940\\ \\mathrm m\\]\\[\\frac{x_{50}}{x_{25}}=\\frac{\\sin50^\\circ}{\\sin25^\\circ}=1{,}81\\]</div><p>Den fördubblas alltså inte.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Förlängningen är \\(5{,}19\\ \\mathrm{cm}\\) vid 25° och \\(9{,}40\\ \\mathrm{cm}\\) vid 50°; ökningen är en faktor \\(1{,}81\\), inte 2.</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.205",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "koppla tyngdkraft till acceleration vid fritt fall och beräkna tid och fart, ur text, sökt kraft acceleration tid och fart",
     "poang": "(2/1/0)",
     "t": "<p>En boll med massan 0,50 kg släpps från vila på höjden 20 m. Luftmotståndet försummas.</p>\n<ol><li>Hur stor är tyngdkraften på bollen?</li>\n<li>Vilken acceleration får bollen? Visa hur den följer av Newtons andra lag.</li>\n<li>Hur lång tid tar fallet?</li>\n<li>Hur fort går bollen när den träffar marken?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraften är</p><div class=\"facit-matte\">\\[F_g=mg=0{,}50\\cdot9{,}82=4{,}91\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraften är den enda kraften.</p><div class=\"facit-matte\">\\[a=\\frac{F_g}{m}=\\frac{mg}{m}=g=9{,}82\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bollen faller 20 m från vila.</p><div class=\"facit-matte\">\\[t=\\sqrt{\\frac{2s}{g}}=\\sqrt{\\frac{40}{9{,}82}}=2{,}02\\ \\mathrm s\\]\\[v=gt=19{,}8\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften är \\(4{,}91\\ \\mathrm N\\), accelerationen \\(9{,}82\\ \\mathrm{m/s^2}\\) nedåt, falltiden \\(2{,}02\\ \\mathrm s\\) och slutfarten \\(19{,}8\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.206",
@@ -18482,11 +18735,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En elev ställer en vikt på en våg som visar 423 g. Eleven fäster en dynamometer och drar sakta uppåt tills vågen visar 257 g.</p><ol><li>Hur mycket visar dynamometern?</li><li>Eleven drar tills vikten hänger fritt. Vad visar dynamometern?</li><li>Fjäderkonstanten i dynamometern är 25 N/m. Hur mycket förlängs fjädern i läge b)?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vågens visning i gram motsvarar den massa vars tyngd ger normalkraften. När dynamometern drar långsamt är kraftsumman noll.</p><div class=\"facit-matte\">\\[T+N-mg=0\\]\\[T=(0{,}423-0{,}257)g=0{,}166\\cdot9{,}82=1{,}63\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När vikten hänger fritt bär dynamometern hela tyngden.</p><div class=\"facit-matte\">\\[T=mg=0{,}423\\cdot9{,}82=4{,}15\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd Hookes lag för dynamometerns fjäder.</p><div class=\"facit-matte\">\\[T=kx\\Rightarrow x=\\frac{T}{k}=\\frac{4{,}15}{25}=0{,}166\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Dynamometern visar \\(1{,}63\\ \\mathrm N\\) i a och \\(4{,}15\\ \\mathrm N\\) när vikten hänger fritt. Då är fjädern utdragen \\(0{,}166\\ \\mathrm m=16{,}6\\ \\mathrm{cm}\\).</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.63,
@@ -18518,7 +18771,9 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.208",
@@ -19232,18 +19487,18 @@ window.BANK = [
   {
     "id": "4.224",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna kraft och acceleration från en hoptryckt fjäder som skjuter iväg en vagn, ur diagram, sökt kraft och acceleration",
     "poang": "(2/1/0)",
     "t": "<p>En vagn med massan 0,60 kg trycks mot en fjäder som är fäst i en vägg. Fjäderkonstanten är 400 N/m och fjädern trycks ihop 8,0 cm. Sedan släpps vagnen. Underlaget är friktionsfritt.</p><span class=\"fig bred\"><svg height=\"175\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 40.039 460.000 129.961\"><rect x=\"20\" y=\"156\" width=\"420\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"156\" x2=\"440\" y2=\"156\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"48\" x2=\"44\" y2=\"164\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"56\" x2=\"36\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"66\" x2=\"36\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"76\" x2=\"36\" y2=\"68\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"86\" x2=\"36\" y2=\"78\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"96\" x2=\"36\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"106\" x2=\"36\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"116\" x2=\"36\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"126\" x2=\"36\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"136\" x2=\"36\" y2=\"128\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"146\" x2=\"36\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"156\" x2=\"36\" y2=\"148\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><polyline points=\"44,110 47.2,119 53.6,101 60,119 66.4,101 72.8,119 79.2,101 85.6,119 92,101 98.4,119 104.8,101 111.2,119 117.6,101 124,119 130.4,101 140,110\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"196\" y1=\"62\" x2=\"196\" y2=\"90\" stroke=\"#5C575E\" stroke-width=\"1\" stroke-linecap=\"square\" stroke-dasharray=\"4 4\"/><line x1=\"140\" y1=\"74\" x2=\"196\" y2=\"74\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"140,74 147,77 147,71\" fill=\"#5C575E\"/><polygon points=\"196,74 189,77 189,71\" fill=\"#5C575E\"/><text x=\"168\" y=\"68\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">8,0 cm</text><rect x=\"140\" y=\"90\" width=\"104\" height=\"44\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"192\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">0,60 kg</text><circle cx=\"164\" cy=\"144\" r=\"12\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"220\" cy=\"144\" r=\"12\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"268\" y=\"114\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">k = 400 N/m</text></svg></span><ol><li>Hur stor är fjäderkraften på vagnen i släppögonblicket?</li>\n<li>Bestäm vagnens acceleration just då.</li>\n<li>Hur många g motsvarar den accelerationen?</li>\n<li>Är accelerationen konstant under hela knuffen? Motivera.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fjäderkraften vid hoptryckningen 8,0 cm är</p><div class=\"facit-matte\">\\[F=kx=400\\cdot0{,}080=32\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b–c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den momentana accelerationen och antalet g blir</p><div class=\"facit-matte\">\\[a=\\frac{32}{0{,}60}=53{,}3\\ \\mathrm{m/s^2}\\]\\[\\frac ag=\\frac{53{,}3}{9{,}82}=5{,}43\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Accelerationen är inte konstant.</p><div class=\"facit-matte\">\\[a(x)=\\frac{kx}{m}\\]</div><p>Den minskar när fjädern rätas ut och är noll när vagnen lämnar en okopplad fjäder i dess naturliga längd.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är \\(32\\ \\mathrm N\\) och begynnelseaccelerationen \\(53{,}3\\ \\mathrm{m/s^2}=5{,}43g\\). Accelerationen avtar under knuffen.</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       32,
@@ -19281,45 +19536,54 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.225",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "beräkna kraft och retardation för en vagn som bromsas av en fjäderbuffert vid en viss hoptryckning, ur diagram, sökt kraft och acceleration",
     "poang": "(1/2/0)",
     "t": "<p>En järnvägsvagn med massan 250 kg rullar in i en fjäderbuffert vid spårets slut. Bufferten har fjäderkonstanten 80 kN/m. I ett visst ögonblick är fjädern hoptryckt 15 cm. Rullmotståndet kan försummas.</p><span class=\"fig bred\"><svg height=\"162\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 44.049 490.000 127.951\"><rect x=\"15\" y=\"158\" width=\"455\" height=\"8\" fill=\"#E5EDF4\"/><line x1=\"15\" y1=\"158\" x2=\"470\" y2=\"158\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"52\" x2=\"430\" y2=\"166\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"60\" x2=\"438\" y2=\"52\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"70\" x2=\"438\" y2=\"62\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"80\" x2=\"438\" y2=\"72\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"90\" x2=\"438\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"100\" x2=\"438\" y2=\"92\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"110\" x2=\"438\" y2=\"102\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"120\" x2=\"438\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"130\" x2=\"438\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"140\" x2=\"438\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"150\" x2=\"438\" y2=\"142\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"430\" y1=\"160\" x2=\"438\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><polyline points=\"430,108 425.83,99 417.5,117 409.17,99 400.83,117 392.5,99 384.17,117 375.83,99 367.5,117 359.17,99 350.83,117 342.5,99 330,108\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"222\" y=\"84\" width=\"108\" height=\"46\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"276\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">250 kg</text><circle cx=\"248\" cy=\"146\" r=\"12\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"306\" cy=\"146\" r=\"12\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"270\" y1=\"54\" x2=\"270\" y2=\"82\" stroke=\"#5C575E\" stroke-width=\"1\" stroke-linecap=\"square\" stroke-dasharray=\"4 4\"/><line x1=\"270\" y1=\"68\" x2=\"330\" y2=\"68\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"270,68 277,71 277,65\" fill=\"#5C575E\"/><polygon points=\"330,68 323,71 323,65\" fill=\"#5C575E\"/><text x=\"300\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">15 cm</text><line x1=\"60\" y1=\"100\" x2=\"130\" y2=\"100\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"140,100 130,104.6 130,95.4\" fill=\"#2A5D9E\"/><text x=\"150\" y=\"104\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text><text x=\"380\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">k = 80 kN/m</text></svg></span><p>Bestäm bromskraften och vagnens retardation i det ögonblicket, och hur många g det motsvarar.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla fjäderkonstanten och hoptryckningen till SI-enheter.</p><div class=\"facit-matte\">\\[F=kx=80\\cdot10^3\\cdot0{,}15=1{,}20\\cdot10^4\\ \\mathrm N\\]</div><p>Kraften verkar bakåt.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna den momentana retardationen.</p><div class=\"facit-matte\">\\[|a|=\\frac{1{,}20\\cdot10^4}{250}=48\\ \\mathrm{m/s^2}\\]\\[\\frac{|a|}{g}=\\frac{48}{9{,}82}=4{,}89\\]</div><p>Retardationen är inte konstant eftersom fjäderkraften växer med hoptryckningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bromskraften är \\(12{,}0\\ \\mathrm{kN}\\) och den momentana retardationen \\(48\\ \\mathrm{m/s^2}=4{,}89g\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.226",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna acceleration nedför friktionsfritt lutande plan och därav fart och sträcka, ur diagram, sökt kraft acceleration fart och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>En kloss med massan 4,0 kg släpps från vila på ett friktionsfritt plan som lutar 30° mot marken.</p><span class=\"fig\"><svg height=\"293\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"13.371 2.786 310.886 182.173\"><polygon points=\"30,175 310,175 310,13.3419\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 82 175 A 52 52 0 0 0 75.0 149.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"95.683\" y=\"161.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">30°</text><g transform=\"translate(170.0,94.2) rotate(-30)\"><rect x=\"-28\" y=\"-30\" width=\"56\" height=\"30\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"-11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 kg</text></g></svg></span>\n<ol><li>Hur stor är tyngdkraftens komposant längs planet?</li>\n<li>Bestäm klossens acceleration.</li>\n<li>Hur fort går klossen efter 2,0 sekunder?</li>\n<li>Hur långt har den då glidit längs planet?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraftens komponent längs planet är</p><div class=\"facit-matte\">\\[F_{\\parallel}=mg\\sin30^\\circ=4{,}0\\cdot9{,}82\\cdot0{,}5=19{,}64\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På det friktionsfria planet är detta den resulterande kraften.</p><div class=\"facit-matte\">\\[a=\\frac{F_{\\parallel}}m=g\\sin30^\\circ=4{,}91\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Efter 2,0 s från vila blir</p><div class=\"facit-matte\">\\[v=at=9{,}82\\ \\mathrm{m/s}\\]\\[s=\\frac{at^2}{2}=9{,}82\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraftkomponenten är \\(19{,}64\\ \\mathrm N\\), accelerationen \\(4{,}91\\ \\mathrm{m/s^2}\\), farten \\(9{,}82\\ \\mathrm{m/s}\\) och sträckan \\(9{,}82\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.227",
@@ -19329,11 +19593,11 @@ window.BANK = [
     "poang": "(0/2/0)",
     "t": "<p>En kloss på 2,0 kg ligger på ett friktionsfritt bord. Ett snöre går från klossen över en trissa vid bordskanten. I snöret hänger en vikt på 0,50 kg.</p>\n<ol><li>Vilken kraft drar systemet framåt?</li><li>Vilken acceleration får klossen?</li>\n<li>Hur stor är spännkraften i snöret?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den hängande viktens tyngdkraft är den yttre kraft som driver hela systemet.</p><div class=\"facit-matte\">\\[F_g=m_2g=0{,}50\\cdot9{,}82=4{,}91\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraften ska accelerera båda massorna.</p><div class=\"facit-matte\">\\[a=\\frac{m_2g}{m_1+m_2}=\\frac{4{,}91}{2{,}0+0{,}50}=1{,}964\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Frilägg klossen på bordet. Spännkraften är dess enda vågräta kraft.</p><div class=\"facit-matte\">\\[S=m_1a=2{,}0\\cdot1{,}964=3{,}93\\ \\mathrm N\\]</div><p>Spännkraften är mindre än den hängande viktens tyngd, eftersom en del av tyngdkraften accelererar den hängande vikten själv.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Drivkraften är \\(4{,}91\\ \\mathrm N\\), accelerationen \\(1{,}96\\ \\mathrm{m/s^2}\\) och spännkraften \\(3{,}93\\ \\mathrm N\\).</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       4.91,
@@ -19361,7 +19625,9 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.228",
@@ -19372,17 +19638,19 @@ window.BANK = [
     "poang": "(0/2/2)",
     "t": "<p>En fjäderboll i badminton har massan 5,0 g. Släpper man den från hög höjd faller den till slut med den konstanta gränsfarten 6,8 m/s. Luftmotståndet på bollen kan skrivas F<sub>luft</sub> = kv², där v är farten.</p><span class=\"fig smal\"><svg height=\"631\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"76.371 4.243 143.314 238.099\"><circle cx=\"120\" cy=\"150\" r=\"15\" fill=\"#2B2527\" stroke=\"none\"/><polygon points=\"106,146 84,84 156,84 134,146\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"96\" y1=\"86\" x2=\"106\" y2=\"144\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"86\" x2=\"112.72\" y2=\"144\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"86\" x2=\"119.44\" y2=\"144\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"132\" y1=\"86\" x2=\"126.16\" y2=\"144\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"144\" y1=\"86\" x2=\"132.88\" y2=\"144\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"84\" y1=\"84\" x2=\"156\" y2=\"84\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"82\" x2=\"120\" y2=\"46.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"120,36 124.8,46.5 115.2,46.5\" fill=\"#B43123\"/><text x=\"120\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">luftmotstånd</text><line x1=\"120\" y1=\"166\" x2=\"120\" y2=\"199.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"120,210 115.2,199.5 124.8,199.5\" fill=\"#B43123\"/><text x=\"113.1\" y=\"228\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text><line x1=\"138\" y1=\"152\" x2=\"186\" y2=\"160\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"191\" y=\"164\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">5,0 g</text></svg></span>\n<ol><li>Vad gäller för krafterna på bollen när den faller med gränsfarten? Bestäm konstanten k.</li><li>Vilken acceleration har bollen i det ögonblick då farten är 3,4 m/s?</li><li>Visa att svaret i b blir 0,75g oavsett vilken massa och gränsfart bollen har, så länge farten är halva gränsfarten.</li><li>Skissa hur farten beror på tiden när bollen släpps från vila. Förklara varför farten närmar sig 6,8 m/s men aldrig överskrider den.</li></ol>",
     "s": "<div class=\"facit-v2\"><span class=\"fig\"><svg height=\"306\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 400 245\" role=\"img\" aria-label=\"Badmintonbollens fart ökar snabbt från noll och planar långsamt ut mot gränsfarten 6,8 meter per sekund.\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"48\" y1=\"67.5\" x2=\"372\" y2=\"67.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48\" y1=\"115\" x2=\"372\" y2=\"115\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48\" y1=\"162.5\" x2=\"372\" y2=\"162.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"129\" y1=\"20\" x2=\"129\" y2=\"210\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"210\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"291\" y1=\"20\" x2=\"291\" y2=\"210\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48\" y1=\"210\" x2=\"372\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\"/><polyline points=\"48.0,210.0 75.0,150.5 102.0,103.6 129.0,72.9 156.0,56.0 210.0,42.3 264.0,38.7 318.0,38.0 372.0,37.7\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"48.0,37.7 372.0,37.7\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"380.0\" y=\"30.7\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">v<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text><g font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\"><text x=\"338\" y=\"235\" text-anchor=\"end\">t / s</text><text x=\"13\" y=\"115\" text-anchor=\"middle\" transform=\"rotate(-90 13 115)\">v / (m/s)</text><text x=\"48\" y=\"227\" text-anchor=\"middle\">0</text><text x=\"372\" y=\"227\" text-anchor=\"middle\">3</text><text x=\"40\" y=\"24.0\" text-anchor=\"end\">7.5</text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid gränsfarten är accelerationen noll. Luftmotståndet uppåt balanserar tyngdkraften nedåt.</p><div class=\"facit-matte\">\\[kv_g^2=mg\\]\\[k=\\frac{mg}{v_g^2}=\\frac{0{,}0050\\cdot9{,}82}{6{,}8^2}=1{,}06\\cdot10^{-3}\\ \\mathrm{kg/m}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid halva gränsfarten är luftmotståndet en fjärdedel av värdet vid gränsfarten.</p><div class=\"facit-matte\">\\[F_{\\mathrm{luft}}=k(3{,}4)^2=0{,}0123\\ \\mathrm N\\]\\[F_{\\mathrm{res}}=0{,}0491-0{,}0123=0{,}0368\\ \\mathrm N\\]\\[a=\\frac{0{,}0368}{0{,}0050}=7{,}37\\ \\mathrm{m/s^2}\\quad\\text{nedåt}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt generellt \\(v=v_g/2\\) och använd \\(kv_g^2=mg\\).</p><div class=\"facit-matte\">\\[F_{\\mathrm{luft}}=k\\left(\\frac{v_g}{2}\\right)^2=\\frac14kv_g^2=\\frac14mg\\]\\[a=\\frac{mg-\\frac14mg}{m}=\\frac34g=0{,}75g\\]</div><p>Massan, k och gränsfarten försvinner ur uttrycket.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Från vila är luftmotståndet först noll och accelerationen g. När farten växer ökar motståndet, så grafens lutning minskar.</p><div class=\"facit-matte\">\\[v\\longrightarrow v_g=6{,}8\\ \\mathrm{m/s}\\]</div><p>Om farten blev större än gränsfarten skulle luftmotståndet bli större än tyngdkraften och bromsa bollen tillbaka.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=1{,}06\\cdot10^{-3}\\ \\mathrm{kg/m}\\). Vid \\(3{,}4\\ \\mathrm{m/s}\\) är accelerationen \\(7{,}37\\ \\mathrm{m/s^2}=0{,}75g\\) nedåt. Farten närmar sig \\(6{,}8\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": false
+    "spel": false,
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.229",
@@ -19392,16 +19660,18 @@ window.BANK = [
     "poang": "(0/1/2)",
     "t": "<p>En person står i en hiss på en våg. Hissen åker en hel tur uppåt: den startar, håller jämn fart och bromsar in.</p>\n<ol><li>Rita hur vågens utslag ändras under de tre faserna.</li>\n<li>När visar vågen mer än personens vanliga vikt, och när mindre?</li>\n<li>Vad skulle vågen visa om linan gick av?</li></ol>",
     "s": "<div class=\"facit-v2\"><span class=\"fig\"><svg height=\"306\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 400 245\" role=\"img\" aria-label=\"Vågens utslag är först högre än normalt, sedan normalt, därefter lägre och till sist normalt igen.\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"48\" y1=\"67.5\" x2=\"372\" y2=\"67.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48\" y1=\"115\" x2=\"372\" y2=\"115\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48\" y1=\"162.5\" x2=\"372\" y2=\"162.5\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"129\" y1=\"20\" x2=\"129\" y2=\"210\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"210\" y1=\"20\" x2=\"210\" y2=\"210\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"291\" y1=\"20\" x2=\"291\" y2=\"210\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48\" y1=\"210\" x2=\"372\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"48\" y1=\"20\" x2=\"48\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\"/><polyline points=\"48.0,74.3 75.0,47.1 129.0,47.1 156.0,74.3 264.0,74.3 291.0,101.4 345.0,101.4 372.0,74.3\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><g font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\"><text x=\"338\" y=\"235\" text-anchor=\"end\">tid</text><text x=\"13\" y=\"115\" text-anchor=\"middle\" transform=\"rotate(-90 13 115)\">N / mg</text><text x=\"48\" y=\"227\" text-anchor=\"middle\">0</text><text x=\"372\" y=\"227\" text-anchor=\"middle\">6</text><text x=\"40\" y=\"24.0\" text-anchor=\"end\">1.4</text></g></svg></span><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vågen mäter normalkraften N. Räkna uppåt som positiv riktning.</p><div class=\"facit-matte\">\\[N-mg=ma\\Rightarrow N=m(g+a)\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid starten accelererar hissen uppåt.</p><div class=\"facit-matte\">\\[a&gt;0\\Rightarrow N&gt;mg\\]</div><p>Vågen visar mer än personens vanliga tyngd.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Under fasen med konstant fart är accelerationen noll.</p><div class=\"facit-matte\">\\[a=0\\Rightarrow N=mg\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">4</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När hissen bromsar på väg upp är accelerationen riktad nedåt.</p><div class=\"facit-matte\">\\[a&lt;0\\Rightarrow N&lt;mg\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">5</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Om linan går av faller både personen och vågen fritt med accelerationen g.</p><div class=\"facit-matte\">\\[N=m(g-g)=0\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vågen visar mer än normalt vid starten, normalt vid jämn fart och mindre än normalt under inbromsningen. Vid fritt fall visar den \\(0\\ \\mathrm N\\).</p><p class=\"facit-not\">Grafens tider och nivåskillnader är schematiska; det viktiga är ordningen mellan de tre faserna.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": false
+    "spel": false,
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.230",
@@ -19412,11 +19682,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En pråm med massan 4000 kg bogseras av två bogserbåtar. Varje lina drar med kraften 800 N och bildar vinkeln 30° mot färdriktningen enligt figuren. Vattenmotståndet försummas.</p><span class=\"fig bred\"><svg height=\"194\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 61.429 500.000 156.429\"><rect x=\"15\" y=\"150\" width=\"470\" height=\"60\" fill=\"#DCE6F2\"/><rect x=\"180\" y=\"118\" width=\"110\" height=\"40\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"235\" y=\"143\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">4000 kg</text><line x1=\"290\" y1=\"138\" x2=\"385.263\" y2=\"83\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"393.92,78.00 387.56,86.98 382.96,79.02\" fill=\"#B43123\"/><text x=\"409.923\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F₁</text><line x1=\"290\" y1=\"138\" x2=\"385.263\" y2=\"193\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"393.92,198.00 382.96,196.98 387.56,189.02\" fill=\"#B43123\"/><text x=\"409.923\" y=\"206\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F₂</text><line x1=\"290\" y1=\"138\" x2=\"440\" y2=\"138\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 4\"/><path d=\"M 330 138 A 40 40 0 0 0 324.6 118.0\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"/><text x=\"348\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30°</text><text x=\"348\" y=\"162\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30°</text></svg></span>\n<ol><li>Hur stor är varje kraftskomposant längs färdriktningen?</li>\n<li>Vad händer med komposanterna vinkelrätt mot färdriktningen?</li>\n<li>Hur stor är den resulterande kraften på pråmen?</li>\n<li>Bestäm pråmens acceleration.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Varje linas komposant längs färdriktningen är närliggande katet.</p><div class=\"facit-matte\">\\[F_{\\parallel}=800\\cos30^\\circ=693\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sidokomposanterna har vardera storleken 800 sin 30° men pekar åt motsatta håll.</p><div class=\"facit-matte\">\\[F_{\\perp,1}+F_{\\perp,2}=400-400=0\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Komposanterna framåt adderas.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=2\\cdot693=1386\\ \\mathrm N\\approx1{,}39\\ \\mathrm{kN}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd hela pråmens massa.</p><div class=\"facit-matte\">\\[a=\\frac{1386}{4000}=0{,}347\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Varje lina bidrar med \\(693\\ \\mathrm N\\) framåt. Sidokomposanterna tar ut varandra, resultanten blir \\(1{,}39\\ \\mathrm{kN}\\) och accelerationen \\(0{,}35\\ \\mathrm{m/s^2}\\).</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "flera_delar",
     "rättSvar": [
       693,
@@ -19454,7 +19724,9 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.231",
@@ -19465,16 +19737,18 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En rymdfarkost med massan 800 kg tänder motorn långt ute i rymden, där det inte finns någon luft. Motorn kastar ut brända gaser bakåt och trycker på dem med kraften 2,4 kN.</p><span class=\"fig bred\"><svg height=\"261\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"31.500 13.318 450.800 189.961\"><circle cx=\"52\" cy=\"40\" r=\"1.6\" fill=\"#9A959C\" stroke=\"none\"/><circle cx=\"430\" cy=\"44\" r=\"1.6\" fill=\"#9A959C\" stroke=\"none\"/><circle cx=\"400\" cy=\"178\" r=\"1.6\" fill=\"#9A959C\" stroke=\"none\"/><circle cx=\"64\" cy=\"182\" r=\"1.6\" fill=\"#9A959C\" stroke=\"none\"/><circle cx=\"244\" cy=\"24\" r=\"1.1\" fill=\"#9A959C\" stroke=\"none\"/><circle cx=\"462\" cy=\"108\" r=\"1.1\" fill=\"#9A959C\" stroke=\"none\"/><rect x=\"150\" y=\"88\" width=\"140\" height=\"44\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"290,88 340,110 290,132\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"150,96 124,84 124,136 150,124\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 116 92 Q 92 110 116 128\" fill=\"none\" stroke=\"#DCE6F2\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 100 84 Q 68 110 100 136\" fill=\"none\" stroke=\"#DCE6F2\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 82 78 Q 42 110 82 142\" fill=\"none\" stroke=\"#DCE6F2\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"146\" y1=\"110\" x2=\"86.5\" y2=\"110\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"76,110 86.5,105.2 86.5,114.8\" fill=\"#B43123\"/><text x=\"104\" y=\"176\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">på gaserna</text><text x=\"104\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">2,4 kN</text><line x1=\"206\" y1=\"110\" x2=\"275.5\" y2=\"110\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"286,110 275.5,114.8 275.5,105.2\" fill=\"#B43123\"/><text x=\"248\" y=\"176\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">på farkosten</text><text x=\"248\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">2,4 kN</text><text x=\"258\" y=\"44\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">m = 800 kg</text></svg></span>\n<ol><li>Vilken kraft är motkraften till kraften på gaserna? Ange storlek, riktning och vad den verkar på.</li><li>Vilken acceleration får farkosten?</li><li>En kamrat säger: \"En raket kan inte fungera i rymden, för den har ingen luft att trycka emot.\" Bemöt påståendet.</li><li>Varför fungerar en raket faktiskt <em>bättre</em> i rymden än i luften?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Farkosten trycker gaserna bakåt med 2,4 kN. Enligt Newtons tredje lag trycker gaserna på farkosten med lika stor kraft framåt.</p><div class=\"facit-matte\">\\[\\vec F_{\\mathrm{gas\\to farkost}}=-\\vec F_{\\mathrm{farkost\\to gas}}\\]</div><p>Motkraften är alltså 2,4 kN framåt och verkar på farkosten.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna farkostens acceleration.</p><div class=\"facit-matte\">\\[a=\\frac{2400}{800}=3{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Raketen behöver inte trycka mot omgivande luft. Den accelererar sina egna gaser bakåt och får själv motkraften framåt.</p><p>Kraft och motkraft tar inte ut varandra eftersom de verkar på olika kroppar.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I vakuum saknas luftmotstånd och det omgivande trycket vid munstycket är lägre.</p><p>Därför ger en given raketmotor normalt något större nettodragkraft i vakuum än vid havsnivå.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gaserna trycker farkosten framåt med \\(2{,}4\\ \\mathrm{kN}\\), vilket ger \\(3{,}0\\ \\mathrm{m/s^2}\\). En raket fungerar genom att kasta ut egen massa bakåt och behöver ingen luft att trycka mot.</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.232",
@@ -19485,15 +19759,17 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En person med massan 65 kg står mitt emellan två kabelmaskiner med armarna utsträckta åt sidorna, i det läge där övningen börjar. Figuren visar situationen uppifrån. Varje kabel drar handen bakåt och utåt med kraften 200 N, i vinkeln 40° mot kroppens framåtriktning.</p><span class=\"fig\"><svg height=\"303\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"9.000 2.997 372.000 225.408\"><line x1=\"210\" y1=\"58\" x2=\"210\" y2=\"216\" stroke=\"#9A959C\" stroke-width=\"1.69\" stroke-linecap=\"square\" stroke-dasharray=\"5 4\"/><text x=\"210\" y=\"50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13.8\" font-weight=\"400\" fill=\"#5C575E\">framåt</text><circle cx=\"210\" cy=\"120\" r=\"20\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"194\" y1=\"120\" x2=\"148\" y2=\"114\" stroke=\"#2B2527\" stroke-width=\"20.8\" stroke-linecap=\"round\"/><line x1=\"194\" y1=\"120\" x2=\"148\" y2=\"114\" stroke=\"#fff\" stroke-width=\"15.6\" stroke-linecap=\"round\"/><line x1=\"148\" y1=\"114\" x2=\"99.15\" y2=\"172.22\" stroke=\"#2B2527\" stroke-width=\"2.34\" stroke-linecap=\"square\"/><rect x=\"86.15\" y=\"172.22\" width=\"26\" height=\"42\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"148\" y1=\"114\" x2=\"126.15\" y2=\"140.05\" stroke=\"#B43123\" stroke-width=\"2.99\" stroke-linecap=\"round\"/><polygon points=\"119.72,147.71 122.62,137.09 129.67,143\" fill=\"#B43123\"/><text x=\"94\" y=\"142\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"14.5\" font-weight=\"600\" fill=\"#B43123\">200 N</text><line x1=\"226\" y1=\"120\" x2=\"272\" y2=\"114\" stroke=\"#2B2527\" stroke-width=\"20.8\" stroke-linecap=\"round\"/><line x1=\"226\" y1=\"120\" x2=\"272\" y2=\"114\" stroke=\"#fff\" stroke-width=\"15.6\" stroke-linecap=\"round\"/><line x1=\"272\" y1=\"114\" x2=\"320.85\" y2=\"172.22\" stroke=\"#2B2527\" stroke-width=\"2.34\" stroke-linecap=\"square\"/><rect x=\"307.85\" y=\"172.22\" width=\"26\" height=\"42\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"272\" y1=\"114\" x2=\"293.85\" y2=\"140.05\" stroke=\"#B43123\" stroke-width=\"2.99\" stroke-linecap=\"round\"/><polygon points=\"300.28,147.71 290.33,143 297.38,137.09\" fill=\"#B43123\"/><text x=\"326\" y=\"142\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"14.5\" font-weight=\"600\" fill=\"#B43123\">200 N</text><line x1=\"148\" y1=\"114\" x2=\"148\" y2=\"176\" stroke=\"#9A959C\" stroke-width=\"1.69\" stroke-linecap=\"square\" stroke-dasharray=\"4 4\"/><path d=\"M 148 158 A 44 44 0 0 1 119.72 147.71\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.69\"/><text x=\"140\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"14.5\" font-weight=\"400\" fill=\"#5C575E\">40°</text><text x=\"24\" y=\"26\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"14.5\" font-weight=\"400\" fill=\"#5C575E\">sett uppifrån</text></svg></span>\n<p>Bestäm hur stor sammanlagd kraft som drar personen bakåt, och hur stort friktionstalet mellan skorna och golvet minst måste vara för att hon ska stå kvar.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Varje kabelkraft delas upp i en bakåtkomposant och en sidokomposant.</p><div class=\"facit-matte\">\\[F_{\\mathrm{bak},1}=200\\cos40^\\circ=153{,}2\\ \\mathrm N\\]\\[F_{\\mathrm{sida},1}=200\\sin40^\\circ=128{,}6\\ \\mathrm N\\]</div><p class=\"facit-metod\">Sidokomposanterna är lika stora och motriktade. Bakåtkomposanterna verkar åt samma håll.</p><div class=\"facit-matte\">\\[F_{\\mathrm{bak,tot}}=2\\cdot153{,}2=306{,}4\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kablarna drar vågrätt, så normalkraften är lika stor som tyngdkraften. Den maximala statiska friktionen måste minst balansera kabelkraften.</p><div class=\"facit-matte\">\\[N=mg=65\\cdot9{,}82=638{,}3\\ \\mathrm N\\]\\[\\mu_{\\min}N=306{,}4\\Rightarrow\\mu_{\\min}=\\frac{306{,}4}{638{,}3}=0{,}480\\]</div></div></div><p>Modellen undersöker bara om hon glider. Kablarna drar i axelhöjd, så de ger också ett moment som vill tippa henne bakåt kring hälarna. I praktiken lutar hon sig därför framåt så att tyngdpunkten flyttas fram över fötterna.</p><p class=\"facit-svar\"><strong>Svar:</strong> Kablarna drar sammanlagt \\(306\\ \\mathrm N\\) bakåt. Det behövs minst friktionstalet \\(\\mu\\approx0{,}48\\) för att personen ska stå kvar.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.233",
@@ -19503,11 +19779,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En vagn dras med kraften 180 N enligt figuren. Kraften bildar vinkeln 35° mot marken.</p><span class=\"fig bred\"><svg height=\"237\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"22.629 5.662 394.743 150.993\"><line x1=\"40\" y1=\"136\" x2=\"400\" y2=\"136\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"146\" x2=\"48\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"70\" y1=\"146\" x2=\"78\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"146\" x2=\"108\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"146\" x2=\"138\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"146\" x2=\"168\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"146\" x2=\"198\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"146\" x2=\"228\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"146\" x2=\"258\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"146\" x2=\"288\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"310\" y1=\"146\" x2=\"318\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"146\" x2=\"348\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"370\" y1=\"146\" x2=\"378\" y2=\"136\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"120\" y=\"100\" width=\"92\" height=\"36\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"142.08\" cy=\"142\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"142.08\" cy=\"142\" r=\"1.8\" fill=\"#2B2527\"/><circle cx=\"189.92\" cy=\"142\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"189.92\" cy=\"142\" r=\"1.8\" fill=\"#2B2527\"/><line x1=\"210\" y1=\"100\" x2=\"340\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"210\" y1=\"100\" x2=\"308.298\" y2=\"31.1708\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"316.49,25.4351 310.937,34.9389 305.66,27.4027\" fill=\"#B43123\"/><text x=\"324.49\" y=\"21.4351\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">180 N</text><path d=\"M 256 100 A 46 46 0 0 0 247.681 73.6155\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"272.945\" y=\"85.9577\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#B43123\">35°</text></svg></span>\n<ol><li>Hur stor är den kraftkomposant som är parallell med marken?</li>\n<li>Hur stor är den kraftkomposant som är vinkelrät mot marken?</li>\n<li>Vad händer med de båda komposanterna om vinkeln ökar?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den markparallella komposanten ligger intill vinkeln.</p><div class=\"facit-matte\">\\[F_{\\parallel}=F\\cos35^\\circ=180\\cos35^\\circ=147\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den vinkelräta komposanten ligger mittemot vinkeln.</p><div class=\"facit-matte\">\\[F_{\\perp}=F\\sin35^\\circ=180\\sin35^\\circ=103\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När vinkeln \\(\\theta\\) ökar minskar \\(\\cos\\theta\\) medan \\(\\sin\\theta\\) ökar.</p><div class=\"facit-matte\">\\[F_{\\parallel}=F\\cos\\theta\\downarrow,\\qquad F_{\\perp}=F\\sin\\theta\\uparrow\\]</div><p>En större del av kraften lyfter då vagnen och en mindre del drar den framåt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Komposanterna är \\(147\\ \\mathrm N\\) parallellt med marken och \\(103\\ \\mathrm N\\) vinkelrätt uppåt. Vid större vinkel minskar den parallella och ökar den vinkelräta komposanten.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       147,
@@ -19539,7 +19815,9 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.234",
@@ -19549,11 +19827,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Två klossar står i kontakt med varandra på ett friktionsfritt bord. Den ena väger 3,0 kg och den andra 5,0 kg. Man trycker på 3-kilosklossen med kraften 24 N.</p>\n<ol><li>Vilken acceleration får klossarna?</li><li>Hur stor kraft trycker den första klossen på den andra med?</li>\n<li>Hur stor kraft trycker den andra tillbaka med?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Betrakta först båda klossarna som ett enda system. Kontaktkrafterna är då inre krafter och tar ut varandra.</p><div class=\"facit-matte\">\\[m_{\\mathrm{tot}}=3{,}0+5{,}0=8{,}0\\ \\mathrm{kg}\\]\\[a=\\frac{24}{8{,}0}=3{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Frilägg 5,0-kilosklossen. Kontaktkraften är dess enda vågräta kraft.</p><div class=\"facit-matte\">\\[F_k=m_2a=5{,}0\\cdot3{,}0=15\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Enligt Newtons tredje lag trycker 5,0-kilosklossen tillbaka på 3,0-kilosklossen med lika stor men motriktad kraft.</p><div class=\"facit-matte\">\\[F_{2\\to1}=F_{1\\to2}=15\\ \\mathrm N\\]</div><p>Dessa två krafter verkar på olika klossar och tar därför inte ut varandra i en enskild friläggning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Klossarna accelererar med \\(3{,}0\\ \\mathrm{m/s^2}\\). Kontaktkrafterna är \\(15\\ \\mathrm N\\), lika stora och motriktade.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -19585,7 +19863,9 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.235",
@@ -19595,11 +19875,11 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>Figuren visar en låda på ett friktionsfritt underlag. Lådan dras samtidigt av två krafter.</p><span class=\"fig bred\"><svg height=\"121\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"22.629 55.230 394.743 77.197\"><line x1=\"40\" y1=\"116\" x2=\"400\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"126\" x2=\"48\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"70\" y1=\"126\" x2=\"78\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"126\" x2=\"108\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"126\" x2=\"138\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"126\" x2=\"168\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"190\" y1=\"126\" x2=\"198\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"126\" x2=\"228\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"126\" x2=\"258\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"126\" x2=\"288\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"310\" y1=\"126\" x2=\"318\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"126\" x2=\"348\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"370\" y1=\"126\" x2=\"378\" y2=\"116\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"165\" y=\"62\" width=\"110\" height=\"54\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"220\" y=\"94\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">6,0 kg</text><line x1=\"160\" y1=\"89\" x2=\"121\" y2=\"89\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"111,89 121,84.4 121,93.6\" fill=\"#B43123\"/><text x=\"140\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">18 N</text><line x1=\"280\" y1=\"89\" x2=\"378\" y2=\"89\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"388,89 378,93.6 378,84.4\" fill=\"#B43123\"/><text x=\"334\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">45 N</text></svg></span>\n<ol><li>Hur stor är den resulterande kraften på lådan?</li>\n<li>Hur stor blir lådans acceleration om den har massan 6,0 kg?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj höger som positiv riktning och subtrahera de motriktade krafterna.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=45-18=27\\ \\mathrm N\\quad\\text{åt höger}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd Newtons andra lag.</p><div class=\"facit-matte\">\\[a=\\frac{F_{\\mathrm{res}}}{m}=\\frac{27}{6{,}0}=4{,}5\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten är \\(27\\ \\mathrm N\\) åt höger och accelerationen \\(4{,}5\\ \\mathrm{m/s^2}\\) åt höger.</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "flera_delar",
     "rättSvar": [
       27,
@@ -19635,7 +19915,9 @@ window.BANK = [
         "t": "<p>Figuren visar en låda på ett friktionsfritt underlag. Lådan dras samtidigt av två krafter.</p><span class=\"fig bred\"><svg height=\"121\" preserveaspectratio=\"xMidYMid meet\" viewbox=\"22.629 55.230 394.743 77.197\" width=\"620\"><line stroke=\"#2B2527\" stroke-linecap=\"square\" stroke-width=\"2\" x1=\"40\" x2=\"400\" y1=\"116\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"40\" x2=\"48\" y1=\"126\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"70\" x2=\"78\" y1=\"126\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"100\" x2=\"108\" y1=\"126\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"130\" x2=\"138\" y1=\"126\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"160\" x2=\"168\" y1=\"126\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"190\" x2=\"198\" y1=\"126\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"220\" x2=\"228\" y1=\"126\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"250\" x2=\"258\" y1=\"126\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"280\" x2=\"288\" y1=\"126\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"310\" x2=\"318\" y1=\"126\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"340\" x2=\"348\" y1=\"126\" y2=\"116\"></line><line stroke=\"#9A959C\" stroke-linecap=\"square\" stroke-width=\"1.4\" x1=\"370\" x2=\"378\" y1=\"126\" y2=\"116\"></line><rect fill=\"#fff\" height=\"54\" rx=\"4\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"110\" x=\"165\" y=\"62\"></rect><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"220\" y=\"94\">6,0 kg</text><line stroke=\"#B43123\" stroke-linecap=\"butt\" stroke-width=\"2.3\" x1=\"160\" x2=\"121\" y1=\"89\" y2=\"89\"></line><polygon fill=\"#B43123\" points=\"111,89 121,84.4 121,93.6\"></polygon><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"140\" y=\"76\">18 N</text><line stroke=\"#B43123\" stroke-linecap=\"butt\" stroke-width=\"2.3\" x1=\"280\" x2=\"378\" y1=\"89\" y2=\"89\"></line><polygon fill=\"#B43123\" points=\"388,89 378,93.6 378,84.4\"></polygon><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"334\" y=\"76\">45 N</text></svg></span><div class=\"spel-en-del\">Hur stor blir lådans acceleration om den har massan 6,0 kg?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd Newtons andra lag.</p><div class=\"facit-matte\">\\[a=\\frac{F_{\\mathrm{res}}}{m}=\\frac{27}{6{,}0}=4{,}5\\ \\mathrm{m/s^2}\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.236",
@@ -19645,15 +19927,17 @@ window.BANK = [
     "poang": "(0/2/1)",
     "t": "<p>Ett trafikljus med massan 120 kg hänger i två linor fästa i taket. Linorna bildar vinklarna 35° och 43° mot taket.</p><span class=\"fig bred\"><svg height=\"326\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 400 210\"><rect x=\"20\" y=\"12\" width=\"360\" height=\"8\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"40.05\" y1=\"20\" x2=\"200\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"320.11\" y1=\"20\" x2=\"200\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"96.03\" y=\"70.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#2B2527\">F₁</text><text x=\"282.06\" y=\"70.4\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#2B2527\">F₂</text><path d=\"M 76.05 20 A 36 36 0 0 1 69.54 40.65\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"/><text x=\"89.64\" y=\"39.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">35°</text><path d=\"M 284.11 20 A 36 36 0 0 0 293.78 44.55\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"/><text x=\"271.72\" y=\"43.06\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">43°</text><rect x=\"182\" y=\"132\" width=\"36\" height=\"56\" rx=\"6\" fill=\"#111\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"144\" r=\"7\" fill=\"#cc2200\"/><circle cx=\"200\" cy=\"160\" r=\"7\" fill=\"#ddaa00\"/><circle cx=\"200\" cy=\"176\" r=\"7\" fill=\"#22aa44\"/><text x=\"200\" y=\"204\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">120 kg</text></svg></span><p>Bestäm spännkrafterna F₁ och F₂.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Låt \\(F_1\\) höra till linan vid \\(35^\\circ\\) och \\(F_2\\) till linan vid \\(43^\\circ\\). Vinklarna mäts mot det vågräta taket.</p><div class=\"facit-matte\">\\[F_g=mg=120\\cdot9{,}82=1178{,}4\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trafikljuset är i jämvikt. De vågräta komposanterna måste ta ut varandra.</p><div class=\"facit-matte\">\\[F_1\\cos35^\\circ=F_2\\cos43^\\circ\\]\\[F_1=\\frac{\\cos43^\\circ}{\\cos35^\\circ}F_2=0{,}893F_2\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De lodräta komposanterna bär tyngden.</p><div class=\"facit-matte\">\\[F_1\\sin35^\\circ+F_2\\sin43^\\circ=1178{,}4\\]\\[(0{,}893\\sin35^\\circ+\\sin43^\\circ)F_2=1178{,}4\\]\\[F_2=987\\ \\mathrm N,\\qquad F_1=881\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Spännkrafterna är \\(F_1\\approx880\\ \\mathrm N\\) i linan vid \\(35^\\circ\\) och \\(F_2\\approx990\\ \\mathrm N\\) i linan vid \\(43^\\circ\\).</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.237",
@@ -19734,15 +20018,17 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Peter pressar sin ena hand mot en vägg med kraften 60 N.</p>\n<ol><li>Beskriv motkraften enligt Newtons tredje lag.</li>\n<li>I en boxningsmatch träffar en boxares hand motståndarens ansikte. Vad påverkas av störst kraft, handen eller ansiktet?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Peters hand trycker på väggen. Motkraften verkar på handen, inte på väggen.</p><div class=\"facit-matte\">\\[\\vec F_{\\mathrm{vägg\\to hand}}=-\\vec F_{\\mathrm{hand\\to vägg}}\\]</div><p>Väggen trycker alltså tillbaka med 60 N i motsatt riktning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid slaget påverkar handen ansiktet och ansiktet handen med lika stora, motriktade krafter.</p><div class=\"facit-matte\">\\[|\\vec F_{\\mathrm{hand\\to ansikte}}|=|\\vec F_{\\mathrm{ansikte\\to hand}}|\\]</div><p>Olika skador beror på vävnadernas tålighet och hur kraften fördelas, inte på att den ena kraften är större.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Väggen trycker på handen med \\(60\\ \\mathrm N\\). I boxningsslaget är krafterna på handen och ansiktet lika stora men motriktade.</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.239",
@@ -19753,16 +20039,18 @@ window.BANK = [
     "poang": "(0/2/2)",
     "t": "<p>En kedja som är 3,0 m lång och väger 12 kg ligger utsträckt på ett friktionsfritt bord. Man drar i ena änden med den vågräta kraften 30 N. Kedjan är jämntjock, så massan är jämnt fördelad.</p><span class=\"fig bred\"><svg height=\"231\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"8.571 15.000 490.714 182.857\"><line x1=\"30\" y1=\"142\" x2=\"470\" y2=\"142\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"142\" x2=\"32\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"64\" y1=\"142\" x2=\"56\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"88\" y1=\"142\" x2=\"80\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"112\" y1=\"142\" x2=\"104\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"136\" y1=\"142\" x2=\"128\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"142\" x2=\"152\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"184\" y1=\"142\" x2=\"176\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"208\" y1=\"142\" x2=\"200\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"232\" y1=\"142\" x2=\"224\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"256\" y1=\"142\" x2=\"248\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"142\" x2=\"272\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"304\" y1=\"142\" x2=\"296\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"328\" y1=\"142\" x2=\"320\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"352\" y1=\"142\" x2=\"344\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"376\" y1=\"142\" x2=\"368\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"142\" x2=\"392\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"424\" y1=\"142\" x2=\"416\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"448\" y1=\"142\" x2=\"440\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"472\" y1=\"142\" x2=\"464\" y2=\"151\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><circle cx=\"96\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"120\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"144\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"168\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"192\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"216\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"240\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"264\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"288\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"312\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"336\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"360\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"384\" cy=\"128\" r=\"9\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"396\" y1=\"128\" x2=\"441.5\" y2=\"128\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"452,128 441.5,132.8 441.5,123.2\" fill=\"#B43123\"/><text x=\"458\" y=\"110\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = 30 N</text><line x1=\"240\" y1=\"96\" x2=\"240\" y2=\"158\" stroke=\"#B43123\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-dasharray=\"5 4\"/><text x=\"240\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">snitt</text><line x1=\"240\" y1=\"172\" x2=\"390\" y2=\"172\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"167\" x2=\"240\" y2=\"177\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"167\" x2=\"390\" y2=\"177\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"315\" y=\"188\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">x</text><line x1=\"90\" y1=\"40\" x2=\"390\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"35\" x2=\"90\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"390\" y1=\"35\" x2=\"390\" y2=\"45\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"240\" y=\"32\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">3,0 m</text></svg></span>\n<ol><li>Vilken acceleration får kedjan?</li><li>Hur stor är spännkraften mitt på kedjan?</li><li>Ställ upp ett uttryck för spännkraften S på avståndet x från den dragna änden.</li><li>Vad blir S längst bak i kedjan? Förklara varför det svaret är rimligt.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den yttre kraften 30 N accelererar hela kedjan.</p><div class=\"facit-matte\">\\[a=\\frac{F}{m}=\\frac{30}{12}=2{,}5\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett snitt mitt på kedjan måste dra den bakre halvan, vars massa är 6,0 kg.</p><div class=\"facit-matte\">\\[S_{\\mathrm{mitt}}=6{,}0\\cdot2{,}5=15\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Massan per meter är 12/3,0 = 4,0 kg/m. Bakom ett snitt på avståndet x från den dragna änden finns längden 3,0 − x.</p><div class=\"facit-matte\">\\[m_{\\mathrm{bak}}=4{,}0(3{,}0-x)\\]\\[S(x)=m_{\\mathrm{bak}}a=4{,}0(3{,}0-x)2{,}5\\]\\[S(x)=30-10x\\]</div><p>Här anges \\(S\\) i newton och \\(x\\) i meter.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid den fria bakänden är x = 3,0 m.</p><div class=\"facit-matte\">\\[S(3{,}0)=30-10\\cdot3{,}0=0\\ \\mathrm N\\]</div><p>Bakom ändpunkten finns ingen återstående kedjemassa att accelerera. Spännkraften avtar därför linjärt från 30 N till noll.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kedjans acceleration är \\(2{,}5\\ \\mathrm{m/s^2}\\), spännkraften mitt på är \\(15\\ \\mathrm N\\), och \\(S(x)=30-10x\\). Vid den fria änden är spännkraften noll.</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.240",
@@ -19773,11 +20061,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En bygghiss lyfter material rakt uppåt. Hissen med last väger tillsammans 320 kg. Diagrammet visar hissens fart uppåt.</p><span class=\"fig bred\"><svg height=\"372\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 300\"><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"62\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"107.78\" y1=\"248\" x2=\"107.78\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"107.78\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"153.56\" y1=\"248\" x2=\"153.56\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"153.56\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"199.33\" y1=\"248\" x2=\"199.33\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"199.33\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"245.11\" y1=\"248\" x2=\"245.11\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"245.11\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"290.89\" y1=\"248\" x2=\"290.89\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"290.89\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"336.67\" y1=\"248\" x2=\"336.67\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"336.67\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"382.44\" y1=\"248\" x2=\"382.44\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"382.44\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">14</text><line x1=\"428.22\" y1=\"248\" x2=\"428.22\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"428.22\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">16</text><line x1=\"474\" y1=\"248\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"474\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"252\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,0</text><line x1=\"62\" y1=\"203.6\" x2=\"474\" y2=\"203.6\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"207.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,5</text><line x1=\"62\" y1=\"159.2\" x2=\"474\" y2=\"159.2\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"163.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,0</text><line x1=\"62\" y1=\"114.8\" x2=\"474\" y2=\"114.8\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"118.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,5</text><line x1=\"62\" y1=\"70.4\" x2=\"474\" y2=\"70.4\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"74.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,0</text><line x1=\"62\" y1=\"26\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,5</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"474\" y=\"288\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><text x=\"16\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><line x1=\"62\" y1=\"248\" x2=\"153.56\" y2=\"70.4\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"153.56\" y1=\"70.4\" x2=\"382.44\" y2=\"70.4\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"382.44\" y1=\"70.4\" x2=\"428.22\" y2=\"248\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/></svg></span>\n<ol><li>Bestäm accelerationen i var och en av de tre faserna.</li><li>Hur stor är kraften i linan under de första 4 sekunderna?</li><li>Hur stor är den under den jämna färden respektive under inbromsningen?</li><li>Hur högt har hissen kommit när den stannar?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Accelerationen är fartgrafens lutning i varje fas.</p><div class=\"facit-matte\">\\[a_1=\\frac{2{,}0-0}{4{,}0-0}=0{,}50\\ \\mathrm{m/s^2}\\]\\[a_2=0\\]\\[a_3=\\frac{0-2{,}0}{16-14}=-1{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För linans kraft gäller S − mg = ma när uppåt är positiv riktning.</p><div class=\"facit-matte\">\\[S_1=m(g+a_1)=320(9{,}82+0{,}50)=3302\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd respektive acceleration i de två följande faserna.</p><div class=\"facit-matte\">\\[S_2=320\\cdot9{,}82=3142\\ \\mathrm N\\]\\[S_3=320(9{,}82-1{,}0)=2822\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Höjden är arean under fart–tid-grafen: en triangel, en rektangel och en triangel.</p><div class=\"facit-matte\">\\[s=\\frac{4\\cdot2}{2}+10\\cdot2+\\frac{2\\cdot2}{2}=4+20+2=26\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationerna är \\(0{,}50, 0\\) och \\(-1{,}0\\ \\mathrm{m/s^2}\\). Linkrafterna är cirka \\(3{,}30, 3{,}14\\) och \\(2{,}82\\ \\mathrm{kN}\\). Hissen stannar på höjden \\(26\\ \\mathrm m\\).</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       -1,
@@ -19815,7 +20103,9 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.241",
@@ -19826,11 +20116,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>I en latsdragsmaskin hänger ett viktmagasin på 35 kg i en vajer. Vajern går lodrätt upp till en trissa i toppen av stativet och sedan lodrätt ned till handtaget. Trissan och vajern är friktionsfria och väger försumbart lite. Vikterna hänger stilla.</p><span class=\"fig\"><svg height=\"309\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"43.800 5.400 352.200 217.800\"><line x1=\"60\" y1=\"20\" x2=\"380\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"3.25\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3.9\" stroke-linecap=\"square\"/><line x1=\"60\" y1=\"210\" x2=\"380\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"20\" x2=\"230\" y2=\"18\" stroke=\"#2B2527\" stroke-width=\"2.08\" stroke-linecap=\"square\"/><circle cx=\"230\" cy=\"48\" r=\"30\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><circle cx=\"230\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><line x1=\"200\" y1=\"48\" x2=\"200\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"2.34\" stroke-linecap=\"square\"/><line x1=\"260\" y1=\"48\" x2=\"260\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.34\" stroke-linecap=\"square\"/><rect x=\"164\" y=\"108\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><rect x=\"164\" y=\"128\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><rect x=\"164\" y=\"148\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><rect x=\"164\" y=\"168\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><text x=\"200\" y=\"202\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15.5\" font-weight=\"600\" fill=\"#2B2527\">35 kg</text><rect x=\"242\" y=\"150\" width=\"36\" height=\"10\" rx=\"4\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"260\" y1=\"168\" x2=\"260\" y2=\"186\" stroke=\"#B43123\" stroke-width=\"2.99\" stroke-linecap=\"round\"/><polygon points=\"260,196 255.4,186 264.6,186\" fill=\"#B43123\"/><text x=\"274\" y=\"190\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"14.1\" font-weight=\"400\" fill=\"#5C575E\">handtag</text><text x=\"276\" y=\"34\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"14.1\" font-weight=\"400\" fill=\"#5C575E\">trissa</text></svg></span>\n<ol><li>Hur stor är tyngdkraften på viktmagasinet?</li>\n<li>Hur stor är kraften i vajern mellan magasinet och trissan?</li>\n<li>Hur hårt måste personen dra i handtaget?</li>\n<li>Hur stor kraft belastar trissans axel?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Viktmagasinets tyngdkraft är</p><div class=\"facit-matte\">\\[F_g=mg=35\\cdot9{,}82=343{,}7\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Magasinet hänger stilla, så vajerkraften balanserar tyngdkraften.</p><div class=\"facit-matte\">\\[S=F_g=343{,}7\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I en masslös vajer över en friktionsfri trissa är spännkraften lika stor på båda sidor.</p><div class=\"facit-matte\">\\[F_{\\mathrm{hand}}=S=343{,}7\\ \\mathrm N\\]</div><p>Den fasta trissan ändrar kraftens riktning men ger ingen kraftvinst.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Båda lodräta vajerdelarna drar trissan nedåt med S.</p><div class=\"facit-matte\">\\[F_{\\mathrm{axel}}=2S=2\\cdot343{,}7=687{,}4\\ \\mathrm N\\]</div><p>Axeln ger en lika stor stödreaktion uppåt på trissan.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften, vajerkraften och handkraften är vardera cirka \\(344\\ \\mathrm N\\). Trissans axel belastas med cirka \\(687\\ \\mathrm N\\).</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "flera_delar",
     "rättSvar": [
       343.7,
@@ -19868,7 +20158,9 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.242",
@@ -20934,55 +21226,61 @@ window.BANK = [
   {
     "id": "4.277",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "beräkna acceleration för raket i två faser och bestämma största höjd, ur diagram, sökt kraft acceleration fart och höjd",
     "poang": "(1/2/0)",
     "t": "<p>En modellraket med massan 0,80 kg skjuts upp rakt uppåt. Motorn ger en konstant kraft på 12 N under 2,0 s och slocknar sedan. Luftmotståndet och bränslets massa försummas.</p><span class=\"fig smal\"><svg height=\"347\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"24.000 24.286 148.000 135.143\"><polygon points=\"92,130 108,130 100,152\" fill=\"#F4EDD8\" stroke=\"#B43123\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/><polygon points=\"88,112 88,130 72,140\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"112,112 112,130 128,140\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"88\" y=\"60\" width=\"24\" height=\"70\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"88,60 112,60 100,32\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"64\" y1=\"92\" x2=\"84\" y2=\"92\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><text x=\"60\" y=\"96\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#5C575E\">0,80 kg</text><line x1=\"152\" y1=\"140\" x2=\"152\" y2=\"106\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"152,96 147.4,106 156.6,106\" fill=\"#B43123\"/><text x=\"160\" y=\"124\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F</text></svg></span>\n<ol><li>Hur stor är den resulterande kraften på raketen medan motorn går?</li>\n<li>Bestäm raketens acceleration under den tiden.</li>\n<li>Hur fort går raketen när motorn slocknar, och hur högt har den då kommit?</li>\n<li>Hur högt kommer raketen som mest?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Motorkraften verkar uppåt och tyngdkraften nedåt.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=12-0{,}80\\cdot9{,}82=4{,}144\\ \\mathrm N\\]\\[a=\\frac{4{,}144}{0{,}80}=5{,}18\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Under motorfasens 2,0 s startar raketen från vila.</p><div class=\"facit-matte\">\\[v=at=10{,}36\\ \\mathrm{m/s}\\]\\[h_1=\\frac{at^2}{2}=10{,}36\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Efter att motorn slocknat bromsar tyngdkraften raketen.</p><div class=\"facit-matte\">\\[\\Delta h=\\frac{v^2}{2g}=5{,}46\\ \\mathrm m\\]\\[h_{\\max}=10{,}36+5{,}46=15{,}82\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten är \\(4{,}14\\ \\mathrm N\\) uppåt och accelerationen \\(5{,}18\\ \\mathrm{m/s^2}\\). Vid motorstopp är \\(v=10{,}36\\ \\mathrm{m/s}\\) och \\(h=10{,}36\\ \\mathrm m\\); största höjden är \\(15{,}8\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.278",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna acceleration med friktion och därav fart och sträcka, ur diagram, sökt acceleration fart och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>En låda med massan 6,0 kg dras från vila över ett golv med den konstanta kraften 30 N. Friktionskraften är 12 N.</p><span class=\"fig bred\"><svg height=\"110\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 77.452 460.000 81.390\"><rect x=\"15\" y=\"145\" width=\"430\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"145\" x2=\"445\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"160\" y=\"85\" width=\"100\" height=\"60\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">6,0 kg</text><line x1=\"70\" y1=\"108\" x2=\"142\" y2=\"108\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"152.00,108.00 142.00,112.60 142.00,103.40\" fill=\"#B43123\"/><text x=\"64\" y=\"103\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F = 30 N</text><line x1=\"340\" y1=\"130\" x2=\"282\" y2=\"130\" stroke=\"#9A959C\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"272.00,130.00 282.00,125.40 282.00,134.60\" fill=\"#9A959C\"/><text x=\"348\" y=\"134\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">f = 12 N</text></svg></span>\n<ol><li>Hur stor är den resulterande kraften?</li>\n<li>Bestäm lådans acceleration.</li>\n<li>Hur fort går lådan efter 4,0 sekunder?</li>\n<li>Hur långt har den då kommit?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dragkraften och friktionen är motriktade.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=30-12=18\\ \\mathrm N\\]\\[a=\\frac{18}{6{,}0}=3{,}0\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan startar från vila.</p><div class=\"facit-matte\">\\[v=at=3{,}0\\cdot4{,}0=12\\ \\mathrm{m/s}\\]\\[s=\\frac{at^2}{2}=24\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resultanten är \\(18\\ \\mathrm N\\), accelerationen \\(3{,}0\\ \\mathrm{m/s^2}\\), farten \\(12\\ \\mathrm{m/s}\\) och sträckan \\(24\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.279",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "kombinera friktionskraft och rörelseekvationer i två faser, ur text, sökt kraft acceleration fart och sträcka",
     "poang": "(1/2/0)",
     "t": "<p>En låda med massan 18 kg står stilla på ett golv. Lådan dras sedan med en konstant vågrät kraft på 60 N. Friktionstalet mellan lådan och golvet är 0,25.</p>\n<ol><li>Hur stor är friktionskraften?</li><li>Bestäm lådans acceleration.</li>\n<li>Hur fort går lådan när den har dragits 5,0 m?</li>\n<li>Där släpper man dragkraften. Hur långt glider lådan innan den stannar?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På det vågräta golvet är normalkraften \\(N=mg\\).</p><div class=\"facit-matte\">\\[f=\\mu mg=0{,}25\\cdot18\\cdot9{,}82=44{,}2\\ \\mathrm N\\]\\[F_{\\mathrm{res}}=60-44{,}2=15{,}8\\ \\mathrm N\\]\\[a=\\frac{15{,}8}{18}=0{,}878\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Efter 5,0 m fås farten ur \\(v^2=2as\\).</p><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot0{,}878\\cdot5{,}0}=2{,}96\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När dragkraften släpps bromsar enbart friktionen.</p><div class=\"facit-matte\">\\[a_f=\\mu g=2{,}455\\ \\mathrm{m/s^2}\\]\\[s_f=\\frac{v^2}{2a_f}=\\frac{2{,}96^2}{2\\cdot2{,}455}=1{,}79\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen under dragningen är \\(0{,}878\\ \\mathrm{m/s^2}\\), farten efter 5,0 m är \\(2{,}96\\ \\mathrm{m/s}\\), och därefter glider lådan ytterligare \\(1{,}79\\ \\mathrm m\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.878,
@@ -21020,63 +21318,72 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.280",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "bestämma en hiss acceleration och riktning ur förlängningen hos en fjäder som bär en vikt, ur diagram, sökt acceleration",
     "poang": "(1/2/0)",
     "t": "<p>En vikt med massan 2,0 kg hänger i en fjäder i taket på en hiss. Fjäderkonstanten är 350 N/m. Medan hissen rör sig är fjädern utdragen 7,2 cm. Den streckade linjen visar var fjäderns ände befinner sig när hissen står stilla.</p><span class=\"fig smal\"><svg height=\"269\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"87.371 0.000 275.314 195.000\"><line x1=\"200\" y1=\"4\" x2=\"200\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"100\" y=\"24\" width=\"250\" height=\"160\" rx=\"3\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><polyline points=\"200,30 190,33.08 210,39.25 190,45.42 210,51.58 190,57.75 210,63.92 190,70.08 210,76.25 190,82.42 210,88.58 190,94.75 200,104\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"200\" y1=\"104\" x2=\"200\" y2=\"112\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"170\" y=\"112\" width=\"60\" height=\"38\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"200\" y=\"135\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">2,0 kg</text><line x1=\"172\" y1=\"79\" x2=\"228\" y2=\"79\" stroke=\"#5C575E\" stroke-width=\"1\" stroke-linecap=\"square\" stroke-dasharray=\"4 4\"/><line x1=\"248\" y1=\"79\" x2=\"248\" y2=\"104\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"248,79 245,86 251,86\" fill=\"#5C575E\"/><polygon points=\"248,104 245,97 251,97\" fill=\"#5C575E\"/><text x=\"256\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">7,2 cm</text><text x=\"256\" y=\"60\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">k = 350 N/m</text><text x=\"118\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">hiss</text></svg></span><p>Bestäm hissens acceleration och avgör åt vilket håll den är riktad.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fjäderkraften uppåt jämförs med tyngdkraften nedåt.</p><div class=\"facit-matte\">\\[F_f=kx=350\\cdot0{,}072=25{,}2\\ \\mathrm N\\]\\[F_g=mg=2{,}0\\cdot9{,}82=19{,}64\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Resultanten är uppåt.</p><div class=\"facit-matte\">\\[a=\\frac{25{,}2-19{,}64}{2{,}0}=2{,}78\\ \\mathrm{m/s^2}\\]</div><p>Accelerationen säger inte om hissen för tillfället rör sig uppåt eller nedåt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Hissens acceleration är \\(2{,}78\\ \\mathrm{m/s^2}\\) uppåt.</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "numeriskt",
     "rättSvar": 2.78,
     "tolerans": 0.041699999999999994,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s²",
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.281",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna acceleration och kraft för accelererande fordon och undersöka effekten av ökad massa, ur text, sökt acceleration kraft och sträcka",
     "poang": "(2/1/0)",
     "t": "<p>En motorcykel med förare väger tillsammans 220 kg. Farten ökar från 10 m/s till 25 m/s på 5,0 sekunder.</p>\n<ol><li>Bestäm accelerationen.</li>\n<li>Hur stor är den resulterande kraften på motorcykeln?</li>\n<li>Hur långt kör motorcykeln under de fem sekunderna?</li>\n<li>Med en passagerare väger ekipaget 300 kg. Vilken acceleration ger samma resulterande kraft då?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fartändringen sker på 5,0 s.</p><div class=\"facit-matte\">\\[a=\\frac{25-10}{5{,}0}=3{,}0\\ \\mathrm{m/s^2}\\]\\[F_{\\mathrm{res}}=220\\cdot3{,}0=660\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant acceleration används medelfarten.</p><div class=\"facit-matte\">\\[s=\\frac{10+25}{2}\\cdot5{,}0=87{,}5\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Samma kraft på den större massan ger</p><div class=\"facit-matte\">\\[a=\\frac{660}{300}=2{,}20\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3{,}0\\ \\mathrm{m/s^2}\\), \\(F_{\\mathrm{res}}=660\\ \\mathrm N\\), \\(s=87{,}5\\ \\mathrm m\\). Med passagerare blir accelerationen \\(2{,}20\\ \\mathrm{m/s^2}\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.282",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "A",
     "typ": "analysera glidfas för paket på transportband med relativ rörelse, ur diagram, sökt kraft tid och glidsträcka",
     "poang": "(0/2/1)",
     "t": "<p>Ett paket med massan 8,0 kg läggs försiktigt ned på ett transportband som rör sig med den konstanta farten 1,5 m/s. Paketet har ingen fart i det ögonblick det läggs ned. Friktionstalet mellan paketet och bandet är 0,25.</p><span class=\"fig bred\"><svg height=\"183\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"24.771 34.514 290.457 85.556\"><circle cx=\"60\" cy=\"92\" r=\"22\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"92\" r=\"22\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"92\" r=\"5\" fill=\"#2B2527\"/><circle cx=\"280\" cy=\"92\" r=\"5\" fill=\"#2B2527\"/><line x1=\"60\" y1=\"70\" x2=\"280\" y2=\"70\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"60\" y1=\"114\" x2=\"280\" y2=\"114\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"110\" y=\"40\" width=\"60\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"140\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2B2527\">8,0 kg</text><line x1=\"196\" y1=\"92\" x2=\"230\" y2=\"92\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"238,92 228,87.4 228,96.6\" fill=\"#2A5D9E\"/><text x=\"246\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2A5D9E\">band</text></svg></span>\n<ol><li>Hur stor är friktionskraften på paketet, och åt vilket håll verkar den?</li>\n<li>Hur lång tid tar det innan paketet följer med bandet?</li>\n<li>Hur långt har paketet glidit i förhållande till bandet under den tiden?</li>\n<li>Vad händer med friktionskraften när paketet väl har kommit upp i bandets fart?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bandet glider framåt under paketet, så rörelsefriktionen på paketet verkar framåt.</p><div class=\"facit-matte\">\\[f=\\mu mg=0{,}25\\cdot8{,}0\\cdot9{,}82=19{,}64\\ \\mathrm N\\]\\[a=\\frac fm=2{,}455\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Glidningen upphör när paketets fart har blivit 1,5 m/s.</p><div class=\"facit-matte\">\\[t=\\frac{1{,}5}{2{,}455}=0{,}611\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför bandets och paketets sträckor under tiden.</p><div class=\"facit-matte\">\\[s_{\\mathrm{band}}=1{,}5\\cdot0{,}611=0{,}916\\ \\mathrm m\\]\\[s_{\\mathrm{paket}}=\\frac{1{,}5^2}{2\\cdot2{,}455}=0{,}458\\ \\mathrm m\\]\\[s_{\\mathrm{rel}}=0{,}458\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När hastigheterna är lika och bandet går med konstant fart behövs ingen vågrät resultant.</p><div class=\"facit-matte\">\\[f=0\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Friktionen är \\(19{,}64\\ \\mathrm N\\) framåt. Paketet följer bandet efter \\(0{,}611\\ \\mathrm s\\), har då glidit \\(0{,}458\\ \\mathrm m\\) relativt bandet, och friktionen blir därefter noll.</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       19.64,
@@ -21120,22 +21427,25 @@ window.BANK = [
       false,
       false,
       false
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.283",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "beräkna fjäderkraft och acceleration för en kloss som släpps från utdraget läge, ur diagram, sökt kraft och acceleration",
     "poang": "(2/1/0)",
     "t": "<p>En kloss med massan 2,5 kg ligger på ett friktionsfritt underlag och är fäst i en fjäder med fjäderkonstanten 180 N/m. Klossen dras ut 20 cm från jämviktsläget och släpps.</p><span class=\"fig bred\"><svg height=\"160\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 48.794 450.000 116.206\"><rect x=\"20\" y=\"152\" width=\"410\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"152\" x2=\"430\" y2=\"152\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"56\" x2=\"44\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"64\" x2=\"36\" y2=\"56\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"74\" x2=\"36\" y2=\"66\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"84\" x2=\"36\" y2=\"76\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"94\" x2=\"36\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"104\" x2=\"36\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"114\" x2=\"36\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"124\" x2=\"36\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"134\" x2=\"36\" y2=\"126\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"144\" x2=\"36\" y2=\"136\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"44\" y1=\"154\" x2=\"36\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"126\" y1=\"78\" x2=\"126\" y2=\"152\" stroke=\"#5C575E\" stroke-width=\"1\" stroke-linecap=\"square\" stroke-dasharray=\"4 4\"/><polyline points=\"44,127 49.56,137 60.69,117 71.81,137 82.94,117 94.06,137 105.19,117 116.31,137 127.44,117 138.56,137 149.69,117 160.81,137 171.94,117 183.06,137 194.19,117 205.31,137 222,127\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"222\" y=\"102\" width=\"66\" height=\"50\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"255\" y=\"131\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">2,5 kg</text><line x1=\"126\" y1=\"90\" x2=\"222\" y2=\"90\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"126,90 133,93 133,87\" fill=\"#5C575E\"/><polygon points=\"222,90 215,93 215,87\" fill=\"#5C575E\"/><text x=\"174\" y=\"84\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">20 cm</text><text x=\"126\" y=\"66\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">jämviktsläge</text><text x=\"310\" y=\"131\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">k = 180 N/m</text></svg></span><ol><li>Hur stor är fjäderkraften i det ögonblick klossen släpps?</li>\n<li>Åt vilket håll är kraften riktad?</li>\n<li>Bestäm klossens acceleration just då.</li>\n<li>Vad händer med accelerationen medan klossen närmar sig jämviktsläget?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a–b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Hookes lag ger fjäderkraften i släppögonblicket.</p><div class=\"facit-matte\">\\[F=kx=180\\cdot0{,}20=36\\ \\mathrm N\\]</div><p>Kraften är riktad in mot jämviktsläget.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Newtons andra lag ger den momentana accelerationen.</p><div class=\"facit-matte\">\\[a=\\frac Fm=\\frac{36}{2{,}5}=14{,}4\\ \\mathrm{m/s^2}\\]</div><p>När klossen närmar sig jämviktsläget minskar x, fjäderkraften och accelerationens storlek till noll.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> I släppögonblicket är kraften \\(36\\ \\mathrm N\\) mot jämviktsläget och accelerationen \\(14{,}4\\ \\mathrm{m/s^2}\\). Accelerationen avtar mot noll.</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       36,
@@ -21173,62 +21483,71 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.284",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "A",
     "typ": "lösa system med två sammankopplade massor över trissa med friktion, ur diagram, sökt acceleration snörkraft fart och tid",
     "poang": "(0/2/1)",
     "t": "<p>En kloss med massan 3,0 kg ligger på ett vågrätt bord. Den är via ett snöre över en lättrörlig trissa kopplad till en hängande vikt på 1,2 kg. Friktionstalet mellan klossen och bordet är 0,20. Systemet släpps från vila.</p><span class=\"fig bred\"><svg height=\"229\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"4.629 50.461 338.400 125.122\"><rect x=\"20\" y=\"92\" width=\"280\" height=\"10\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"140\" y=\"102\" width=\"14\" height=\"66\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"44\" y=\"58\" width=\"76\" height=\"34\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"82\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#2B2527\">3,0 kg</text><line x1=\"120\" y1=\"68\" x2=\"292\" y2=\"68\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"292\" cy=\"82\" r=\"14\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"292\" cy=\"82\" r=\"4\" fill=\"#2B2527\"/><line x1=\"306\" y1=\"82\" x2=\"306\" y2=\"128\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><rect x=\"284\" y=\"128\" width=\"44\" height=\"28\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"306\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2B2527\">1,2 kg</text></svg></span>\n<ol><li>Bestäm systemets acceleration.</li><li>Hur stor är kraften i snöret?</li>\n<li>Vikten faller 0,80 m innan den når golvet. Hur fort går den då?</li>\n<li>Hur lång tid tar fallet?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Betrakta båda massorna som ett system. Den hängande tyngden driver och friktionen bromsar.</p><div class=\"facit-matte\">\\[f=0{,}20\\cdot3{,}0\\cdot9{,}82=5{,}892\\ \\mathrm N\\]\\[a=\\frac{1{,}2\\cdot9{,}82-5{,}892}{3{,}0+1{,}2}=1{,}40\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Frilägg den hängande massan.</p><div class=\"facit-matte\">\\[1{,}2g-S=1{,}2a\\Rightarrow S=1{,}2(g-a)=10{,}1\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c–d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Massan faller 0,80 m från vila.</p><div class=\"facit-matte\">\\[v=\\sqrt{2as}=1{,}50\\ \\mathrm{m/s}\\]\\[t=\\sqrt{\\frac{2s}{a}}=1{,}07\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=1{,}40\\ \\mathrm{m/s^2}\\), \\(S=10{,}1\\ \\mathrm N\\), \\(v=1{,}50\\ \\mathrm{m/s}\\) och \\(t=1{,}07\\ \\mathrm s\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.285",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "C",
     "typ": "beräkna acceleration för en kloss som dras av en fjäder över ett underlag med friktionstal, ur diagram, sökt acceleration",
     "poang": "(1/2/0)",
     "t": "<p>En kloss med massan 3,0 kg dras över ett vågrätt golv av en fjäder med fjäderkonstanten 250 N/m. Fjädern är utdragen 12 cm. Friktionstalet mellan klossen och golvet är 0,25.</p><span class=\"fig bred\"><svg height=\"117\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 77.486 480.000 90.514\"><rect x=\"15\" y=\"154\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"154\" x2=\"465\" y2=\"154\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"120\" y=\"100\" width=\"92\" height=\"54\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"166\" y=\"131\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">3,0 kg</text><polyline points=\"212,127 216.13,136 224.4,118 232.67,136 240.93,118 249.2,136 257.47,118 265.73,136 274,118 282.27,136 290.53,118 298.8,136 307.07,118 315.33,136 323.6,118 336,127\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"336\" y1=\"127\" x2=\"396\" y2=\"127\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"406,127 396,131.6 396,122.4\" fill=\"#B43123\"/><line x1=\"276\" y1=\"92\" x2=\"276\" y2=\"127\" stroke=\"#5C575E\" stroke-width=\"1\" stroke-linecap=\"square\" stroke-dasharray=\"4 4\"/><line x1=\"276\" y1=\"100\" x2=\"336\" y2=\"100\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"276,100 283,103 283,97\" fill=\"#5C575E\"/><polygon points=\"336,100 329,103 329,97\" fill=\"#5C575E\"/><text x=\"306\" y=\"94\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">12 cm</text><text x=\"166\" y=\"92\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">k = 250 N/m</text></svg></span><p>Bestäm klossens acceleration.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bestäm fjäderkraften och friktionen.</p><div class=\"facit-matte\">\\[F_f=kx=250\\cdot0{,}12=30\\ \\mathrm N\\]\\[f=\\mu mg=0{,}25\\cdot3{,}0\\cdot9{,}82=7{,}365\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Differensen är den resulterande kraften.</p><div class=\"facit-matte\">\\[a=\\frac{30-7{,}365}{3{,}0}=7{,}545\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Klossens acceleration är cirka \\(7{,}5\\ \\mathrm{m/s^2}\\) i fjäderns dragriktning.</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "numeriskt",
     "rättSvar": 7.5,
     "tolerans": 0.11249999999999999,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.286",
     "kap": 4,
-    "omr": "blandat",
+    "omr": "blandat_kraft",
     "niva": "E",
     "typ": "bestämma resulterande kraft ur fartändring och tid, ur text, sökt acceleration och kraft",
     "poang": "(2/0/0)",
     "t": "<p>En bil med massan 900 kg accelererar från vila till 20 m/s på 8,0 sekunder.</p>\n<ol><li>Bestäm bilens acceleration.</li>\n<li>Hur stor är den resulterande kraften på bilen?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bilen startar från vila.</p><div class=\"facit-matte\">\\[a=\\frac{20}{8{,}0}=2{,}50\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd Newtons andra lag.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=ma=900\\cdot2{,}50=2250\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(2{,}50\\ \\mathrm{m/s^2}\\) och den resulterande kraften \\(2{,}25\\ \\mathrm{kN}\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_kraft__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.5,
@@ -21264,7 +21583,10 @@ window.BANK = [
         "t": "<p>En bil med massan 900 kg accelererar från vila till 20 m/s på 8,0 sekunder.</p><div class=\"spel-en-del\">Hur stor är den resulterande kraften på bilen?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd Newtons andra lag.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=ma=900\\cdot2{,}50=2250\\ \\mathrm N\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "4.287",
@@ -21332,11 +21654,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>Två vagnar, A och B, dras med olika stora krafter på ett friktionsfritt spår. För varje kraft mäts vagnens acceleration. Resultaten ligger på var sin rät linje genom origo.</p><span class=\"fig bred\"><svg height=\"372\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 300\"><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"62\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,0</text><line x1=\"103.2\" y1=\"248\" x2=\"103.2\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"144.4\" y1=\"248\" x2=\"144.4\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"144.4\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,0</text><line x1=\"185.6\" y1=\"248\" x2=\"185.6\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"226.8\" y1=\"248\" x2=\"226.8\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2,0</text><line x1=\"268\" y1=\"248\" x2=\"268\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"309.2\" y1=\"248\" x2=\"309.2\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"309.2\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3,0</text><line x1=\"350.4\" y1=\"248\" x2=\"350.4\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"391.6\" y1=\"248\" x2=\"391.6\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"391.6\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0</text><line x1=\"432.8\" y1=\"248\" x2=\"432.8\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><line x1=\"474\" y1=\"248\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"474\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5,0</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"252\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"62\" y1=\"225.8\" x2=\"474\" y2=\"225.8\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"229.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"62\" y1=\"203.6\" x2=\"474\" y2=\"203.6\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"207.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"62\" y1=\"181.4\" x2=\"474\" y2=\"181.4\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"185.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"62\" y1=\"159.2\" x2=\"474\" y2=\"159.2\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"163.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"62\" y1=\"137\" x2=\"474\" y2=\"137\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"141\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"62\" y1=\"114.8\" x2=\"474\" y2=\"114.8\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"118.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"62\" y1=\"92.6\" x2=\"474\" y2=\"92.6\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"96.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">14</text><line x1=\"62\" y1=\"70.4\" x2=\"474\" y2=\"70.4\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"74.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">16</text><line x1=\"62\" y1=\"48.2\" x2=\"474\" y2=\"48.2\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"52.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18</text><line x1=\"62\" y1=\"26\" x2=\"474\" y2=\"26\" stroke=\"#D8DAE0\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"53\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"248\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"62\" y1=\"248\" x2=\"62\" y2=\"26\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"474\" y=\"288\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">a (m/s²)</text><text x=\"16\" y=\"16\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">F (N)</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"26\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"458\" y=\"20\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">A</text><line x1=\"62\" y1=\"248\" x2=\"474\" y2=\"137\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"458\" y=\"129\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\">B</text><circle cx=\"268\" cy=\"137\" r=\"4\" fill=\"#2B2527\" stroke=\"none\"/><text x=\"274\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">P</text><circle cx=\"391.6\" cy=\"159.2\" r=\"4\" fill=\"#2B2527\" stroke=\"none\"/><text x=\"401.6\" y=\"150.2\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">Q</text></svg></span>\n<ol><li>Läs av punkten P och bestäm vagn A:s massa.</li><li>Läs av punkten Q och bestäm vagn B:s massa.</li><li>Vilken av linjerna hör till den tyngsta vagnen? Hur ser man det på lutningen?</li><li>Hur stor kraft krävs för att ge vagn A accelerationen 3,0 m/s²?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkten P på linje A är \\((a,F)=(2{,}5\\ \\mathrm{m/s^2},10\\ \\mathrm N)\\). I ett F–a-diagram är lutningen massan.</p><div class=\"facit-matte\">\\[m_A=\\frac Fa=\\frac{10}{2{,}5}=4{,}0\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Punkten Q på linje B är \\((4{,}0\\ \\mathrm{m/s^2},8{,}0\\ \\mathrm N)\\).</p><div class=\"facit-matte\">\\[m_B=\\frac{8{,}0}{4{,}0}=2{,}0\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Linje A är brantast och hör därför till den tyngsta vagnen.</p><div class=\"facit-matte\">\\[F=ma\\Rightarrow\\frac{\\Delta F}{\\Delta a}=m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd vagn A:s massa.</p><div class=\"facit-matte\">\\[F=m_Aa=4{,}0\\cdot3{,}0=12\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vagn A har massan \\(4{,}0\\ \\mathrm{kg}\\) och vagn B \\(2{,}0\\ \\mathrm{kg}\\). A:s brantare linje visar den större massan. Vid \\(3{,}0\\ \\mathrm{m/s^2}\\) kräver A kraften \\(12\\ \\mathrm N\\).</p></div>",
-    "familj": "Newtons lagar i hiss",
+    "familj": "Hissproblem med Newtons lagar",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_lagar_i_hiss",
+    "familjNyckel": "newton__hissproblem_med_newtons_lagar",
     "svarstyp": "flera_delar",
     "rättSvar": [
       4,
@@ -21374,7 +21696,9 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Newtons lagar i hiss",
+    "familjNyckelFöreHierarki": "newton__newtons_lagar_i_hiss"
   },
   {
     "id": "4.291",
@@ -21422,16 +21746,18 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Två lag tävlar i dragkamp. Trots att de drar med lika stora och motriktade krafter i repet kan ett lag vinna.</p><span class=\"fig bred\"><svg height=\"131\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"14.114 58.605 351.771 74.341\"><line x1=\"30\" y1=\"116\" x2=\"350\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"90\" cy=\"75\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"80,109 100,109 90,85\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"90\" y1=\"89\" x2=\"108\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"82\" y1=\"109\" x2=\"70\" y2=\"127\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"98\" y1=\"109\" x2=\"86\" y2=\"127\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><circle cx=\"290\" cy=\"75\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"280,109 300,109 290,85\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"290\" y1=\"89\" x2=\"272\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"282\" y1=\"109\" x2=\"294\" y2=\"127\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"298\" y1=\"109\" x2=\"310\" y2=\"127\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"108\" y1=\"96\" x2=\"272\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"200.0\" y1=\"96.0\" x2=\"230.0\" y2=\"96.0\" stroke=\"#B43123\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><polygon points=\"236.0,96.0 228.0,92.0 228.0,100.0\" fill=\"#B43123\"/><text x=\"230\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F₁</text><line x1=\"180.0\" y1=\"96.0\" x2=\"150.0\" y2=\"96.0\" stroke=\"#2A5D9E\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><polygon points=\"144.0,96.0 152.0,100.0 152.0,92.0\" fill=\"#2A5D9E\"/><text x=\"150\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">F₂</text><line x1=\"84.0\" y1=\"116.0\" x2=\"64.0\" y2=\"116.0\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"58.0,116.0 66.0,120.0 66.0,112.0\" fill=\"#B43123\"/><text x=\"50\" y=\"108\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">f₁</text><line x1=\"296.0\" y1=\"116.0\" x2=\"316.0\" y2=\"116.0\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"322.0,116.0 314.0,112.0 314.0,120.0\" fill=\"#2A5D9E\"/><text x=\"328\" y=\"108\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">f₂</text></svg></span><ol><li>Förklara hur dragkamp fungerar utifrån Newtons lagar.</li><li>Diskutera vad friktionskraften mot underlaget har för roll.</li><li>Vad händer med nettokraften på ett lag om det börjar glida?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I ett lätt rep med försumbar acceleration är spännkraften lika stor i båda ändar. Repet drar därför lagen med lika stora krafter åt motsatta håll.</p><p>Krafterna från lagen på samma rep är inte i sig ett kraft–motkraftspar. Varje lags kraft på repet bildar i stället par med repets kraft på just det laget.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För varje lag är markens statiska friktion den avgörande yttre kraften framåt. Repet drar laget mot motståndaren.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=F_{\\mathrm{fr,mark}}-S\\]</div><p>Det lag som kan skapa störst friktionskraft utan att glida kan överföra den största dragkraften.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När ett lag börjar glida övergår den statiska friktionen till glidfriktion, som vanligen är mindre.</p><div class=\"facit-matte\">\\[F_{\\mathrm{fr}}&lt;S\\Rightarrow F_{\\mathrm{res}}\\ \\text{riktas mot motståndaren}\\]</div><p>Laget accelererar då i den förlorande riktningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Repkrafterna är lika stora i ett idealiskt rep, men markfriktionen avgör. Laget med bäst grepp kan balansera en större repkraft; ett lag som börjar glida får en nettokraft mot motståndaren.</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.294",
@@ -21594,11 +21920,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>En väderballong med utrustning väger tillsammans 4,0 kg. Lyftkraften på ballongen är 52 N och kan antas vara konstant. Luftmotståndet försummas i början av stigningen.</p><span class=\"fig smal\"><svg height=\"397\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"84.343 0.000 250.686 262.000\"><ellipse cx=\"150\" cy=\"88\" rx=\"54\" ry=\"60\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 132 143 L 150 168 L 168 143\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"126\" y1=\"172\" x2=\"174\" y2=\"172\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><rect x=\"114\" y=\"172\" width=\"72\" height=\"34\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"150\" y=\"194\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">4,0 kg</text><line x1=\"180\" y1=\"200\" x2=\"190\" y2=\"206\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"200\" x2=\"208\" y2=\"206\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><polygon points=\"186,206 212,206 216,234 182,234\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"218\" y1=\"222\" x2=\"250\" y2=\"230\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"255\" y=\"234\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">ballast 0,50 kg</text><line x1=\"150\" y1=\"82\" x2=\"150\" y2=\"36.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"150,26 154.8,36.5 145.2,36.5\" fill=\"#B43123\"/><text x=\"150\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = 52 N</text><line x1=\"150\" y1=\"206\" x2=\"150\" y2=\"229.5\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"150,240 145.2,229.5 154.8,229.5\" fill=\"#B43123\"/><text x=\"143.1\" y=\"256\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text></svg></span>\n<ol><li>Hur stor är tyngdkraften på ballongen med utrustning?</li><li>Vilken acceleration har ballongen precis efter starten?</li><li>Man släpper 0,50 kg ballast. Vilken acceleration får ballongen då?</li><li>Hur stor total massa skulle ballongen behöva ha för att sväva stilla?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tyngdkraften före ballasten släpps.</p><div class=\"facit-matte\">\\[F_g=4{,}0\\cdot9{,}82=39{,}28\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lyftkraften är större än tyngdkraften.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=52-39{,}28=12{,}72\\ \\mathrm N\\]\\[a=\\frac{12{,}72}{4{,}0}=3{,}18\\ \\mathrm{m/s^2}\\quad\\text{uppåt}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Efter släppet är massan 3,5 kg medan lyftkraften är oförändrad.</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=52-3{,}5\\cdot9{,}82=17{,}63\\ \\mathrm N\\]\\[a=\\frac{17{,}63}{3{,}5}=5{,}04\\ \\mathrm{m/s^2}\\quad\\text{uppåt}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid svävning är kraftresultanten noll.</p><div class=\"facit-matte\">\\[52-mg=0\\Rightarrow m=\\frac{52}{9{,}82}=5{,}30\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften är \\(39{,}3\\ \\mathrm N\\), och startaccelerationen \\(3{,}18\\ \\mathrm{m/s^2}\\) uppåt. Efter ballastsläppet blir accelerationen \\(5{,}04\\ \\mathrm{m/s^2}\\). Svävning kräver totalmassan \\(5{,}30\\ \\mathrm{kg}\\).</p></div>",
-    "familj": "Newtons andra lag med motstånd",
+    "familj": "Newtons andra lag med motståndskrafter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "newton__newtons_andra_lag_med_motstand",
+    "familjNyckel": "newton__newtons_andra_lag_med_motstandskrafter",
     "svarstyp": "flera_delar",
     "rättSvar": [
       39.28,
@@ -21631,7 +21957,9 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "familjTidigare": "Newtons andra lag med motstånd",
+    "familjNyckelFöreHierarki": "newton__newtons_andra_lag_med_motstand"
   },
   {
     "id": "4.299",
@@ -21951,16 +22279,18 @@ window.BANK = [
     "poang": "(0/2/2)",
     "t": "<p>En elbil med massan 1600 kg bromsar från 90 km/h till stillastående. Batteriet rymmer 60 kWh.</p>\n<ol><li>Hur mycket rörelseenergi omvandlas?</li><li>Vid regenerativ bromsning återvinns 70 %. Hur många kWh blir det?</li>\n<li>Hur stor andel av batteriet motsvarar det, och vad säger det om nyttan med tekniken?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla \\(90\\ \\mathrm{km/h}=25{,}0\\ \\mathrm{m/s}\\).</p><div class=\"facit-matte\">\\[E_k=\\frac{1600\\cdot25{,}0^2}{2}=5{,}00\\cdot10^5\\ \\mathrm J\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En kilowattimme är \\(3{,}6\\cdot10^6\\ \\mathrm J\\).</p><div class=\"facit-matte\">\\[E_k=\\frac{5{,}00\\cdot10^5}{3{,}6\\cdot10^6}=0{,}1389\\ \\mathrm{kWh}\\]\\[E_{\\mathrm{åter}}=0{,}70\\cdot0{,}1389=0{,}0972\\ \\mathrm{kWh}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med batteriets kapacitet.</p><div class=\"facit-matte\">\\[\\frac{0{,}0972}{60}\\cdot100=0{,}162\\,\\%\\]</div><p>En inbromsning ger en liten andel, men många inbromsningar i stadstrafik gör tekniken värdefull.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Rörelseenergin är \\(500\\ \\mathrm{kJ}=0{,}139\\ \\mathrm{kWh}\\). Cirka \\(0{,}097\\ \\mathrm{kWh}\\) återvinns, motsvarande \\(0{,}162\\,\\%\\) av batteriet.</p></div>",
-    "familj": "Effekt som energi per tid",
+    "familj": "Energi, effekt och tid",
     "formaga": [
       "modellering",
       "problemlösning"
     ],
-    "familjNyckel": "effekt__effekt_som_energi_per_tid",
+    "familjNyckel": "effekt__energi_effekt_och_tid",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Effekt som energi per tid",
+    "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid"
   },
   {
     "id": "5.2",
@@ -22257,11 +22587,11 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>En hink med vatten väger 12 kg och vevas upp 8 m ur en brunn på 25 sekunder.</p>\n<ol><li>Hur stort arbete uträttas?</li><li>Vilken effekt utvecklas?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Arbetet är ökningen i lägesenergi.</p><div class=\"facit-matte\">\\[W=mgh=12\\cdot9{,}82\\cdot8{,}0=943\\ \\mathrm J\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Effekten blir</p><div class=\"facit-matte\">\\[P=\\frac Wt=\\frac{943}{25}=37{,}7\\ \\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Arbetet är \\(943\\ \\mathrm J\\) och effekten cirka \\(38\\ \\mathrm W\\).</p></div>",
-    "familj": "Effekt som energi per tid",
+    "familj": "Energi, effekt och tid",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "effekt__effekt_som_energi_per_tid",
+    "familjNyckel": "effekt__energi_effekt_och_tid",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -22287,7 +22617,9 @@ window.BANK = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Effekt som energi per tid",
+    "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid"
   },
   {
     "id": "5.10",
@@ -22720,15 +23052,17 @@ window.BANK = [
     "poang": "(2/0/0)",
     "t": "<p>Tabellen gäller tre olika maskiner. Ett värde saknas på varje rad.</p><table class=\"data\"><tr><th>W (J)</th><th>t (s)</th><th>P (W)</th></tr><tr><td>9000</td><td>15</td><td>?</td></tr><tr><td>?</td><td>40</td><td>250</td></tr><tr><td>72 000</td><td>?</td><td>400</td></tr></table>\n<p>Bestäm de värden som saknas.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Första raden: dela arbete med tid.</p><div class=\"facit-matte\">\\[P=\\frac{9000}{15}=600\\ \\mathrm W\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Andra raden: multiplicera effekt och tid.</p><div class=\"facit-matte\">\\[W=250\\cdot40=10\\,000\\ \\mathrm J\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tredje raden: dela arbete med effekt.</p><div class=\"facit-matte\">\\[t=\\frac{72\\,000}{400}=180\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade värdena är \\(600\\ \\mathrm W\\), \\(10\\ \\mathrm{kJ}\\) och \\(180\\ \\mathrm s\\).</p></div>",
-    "familj": "Effekt som energi per tid",
+    "familj": "Energi, effekt och tid",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "effekt__effekt_som_energi_per_tid",
+    "familjNyckel": "effekt__energi_effekt_och_tid",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Effekt som energi per tid",
+    "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid"
   },
   {
     "id": "5.22",
@@ -22941,12 +23275,12 @@ window.BANK = [
     "poang": "(0/2/1)",
     "t": "<p>En villa har solceller med toppeffekten 6,0 kW. I Sverige motsvarar det ungefär 900 timmars drift på full effekt under ett år. Huset använder 15 000 kWh per år.</p>\n<ol><li>Hur mycket el producerar anläggningen per år?</li>\n<li>Hur stor andel av husets behov täcks?</li>\n<li>Varför kan huset ändå inte klara sig utan elnätet?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Årsenergin är toppeffekt gånger motsvarande fullasttimmar.</p><div class=\"facit-matte\">\\[E=6{,}0\\cdot900=5400\\ \\mathrm{kWh}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Andelen av årsförbrukningen är</p><div class=\"facit-matte\">\\[\\frac{5400}{15\\,000}=0{,}36=36\\,\\%\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Produktion och förbrukning sammanfaller inte i tiden: produktionen är hög på ljusa sommardagar medan behovet ofta är stort vintertid och kvällstid.</p><p>Utan tillräcklig lagring behövs därför elnätet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Anläggningen producerar cirka \\(5400\\ \\mathrm{kWh/år}\\), vilket motsvarar \\(36\\,\\%\\) av årsbehovet.</p></div>",
-    "familj": "Effekt som energi per tid",
+    "familj": "Energi, effekt och tid",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "effekt__effekt_som_energi_per_tid",
+    "familjNyckel": "effekt__energi_effekt_och_tid",
     "svarstyp": "flera_delar",
     "rättSvar": [
       5400,
@@ -22978,7 +23312,9 @@ window.BANK = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "familjTidigare": "Effekt som energi per tid",
+    "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid"
   },
   {
     "id": "5.28",
@@ -23008,11 +23344,11 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>När Tobias, som väger 75 kg, gör armhävningar höjer han sin tyngdpunkt 18 cm varje gång. Han hinner göra 35 armhävningar per minut.</p>\n<ol><li>Hur stort arbete uträttar han per armhävning?</li>\n<li>Vilken effekt utvecklar han?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Arbetet per armhävning uppskattas som tyngdpunktens ökning i lägesenergi.</p><div class=\"facit-matte\">\\[W=mgh=75\\cdot9{,}82\\cdot0{,}18=132{,}6\\ \\mathrm J\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På en minut utförs 35 armhävningar.</p><div class=\"facit-matte\">\\[P=\\frac{35\\cdot132{,}6}{60}=77{,}4\\ \\mathrm W\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Arbetet är cirka \\(133\\ \\mathrm J\\) per armhävning och medeleffekten \\(77\\ \\mathrm W\\).</p></div>",
-    "familj": "Effekt som energi per tid",
+    "familj": "Energi, effekt och tid",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "effekt__effekt_som_energi_per_tid",
+    "familjNyckel": "effekt__energi_effekt_och_tid",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -23038,7 +23374,9 @@ window.BANK = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Effekt som energi per tid",
+    "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid"
   },
   {
     "id": "5.30",
@@ -23692,15 +24030,17 @@ window.BANK = [
     "poang": "(1/2/0)",
     "t": "<p>Ett hustak har arean 120 m². Under ett regn faller 18 mm nederbörd på två timmar. Vattnet rinner ned genom ett stuprör och faller 6,0 m till marken.</p>\n<ol><li>Hur mycket lägesenergi frigörs?</li><li>Vilken medeleffekt motsvarar det?</li>\n<li>Skulle det löna sig att sätta en generator i stupröret?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Regndjupet \\(18\\ \\mathrm{mm}=0{,}018\\ \\mathrm m\\) över takytan ger vattenvolymen och massan</p><div class=\"facit-matte\">\\[V=0{,}018\\cdot120=2{,}16\\ \\mathrm{m^3}\\]\\[m=\\rho V=1000\\cdot2{,}16=2160\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lägesenergin som frigörs under fallet 6,0 m är</p><div class=\"facit-matte\">\\[E=mgh=2160\\cdot9{,}82\\cdot6{,}0=1{,}27\\cdot10^5\\ \\mathrm J\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två timmar är 7200 s.</p><div class=\"facit-matte\">\\[P=\\frac{1{,}2727\\cdot10^5}{7200}=17{,}7\\ \\mathrm W\\]</div><p>En verklig liten generator skulle ge ännu mindre på grund av förluster; energiutbytet är därför opraktiskt litet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Regnet frigör cirka \\(127\\ \\mathrm{kJ}\\), motsvarande bara \\(17{,}7\\ \\mathrm W\\) i medeleffekt.</p></div>",
-    "familj": "Effekt som energi per tid",
+    "familj": "Energi, effekt och tid",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "effekt__effekt_som_energi_per_tid",
+    "familjNyckel": "effekt__energi_effekt_och_tid",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "familjTidigare": "Effekt som energi per tid",
+    "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid"
   },
   {
     "id": "5.48",
@@ -24664,11 +25004,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En dammsugare har effekten 1200 W och används i 25 minuter.</p>\n<ol><li>Hur många sekunder är 25 minuter?</li>\n<li>Hur mycket energi förbrukas, i joule?</li>\n<li>Hur mycket är det i kilowattimmar?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla tiden.</p><div class=\"facit-matte\">\\[25\\ \\mathrm{min}=25\\cdot60=1500\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Energin i joule är</p><div class=\"facit-matte\">\\[E=Pt=1200\\cdot1500=1{,}80\\cdot10^6\\ \\mathrm J\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I kilowattimmar används 1,2 kW och \\(25/60\\) h.</p><div class=\"facit-matte\">\\[E=1{,}2\\cdot\\frac{25}{60}=0{,}500\\ \\mathrm{kWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tiden är \\(1500\\ \\mathrm s\\), och energin \\(1{,}80\\ \\mathrm{MJ}=0{,}500\\ \\mathrm{kWh}\\).</p></div>",
-    "familj": "Effekt som energi per tid",
+    "familj": "Energi, effekt och tid",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "effekt__effekt_som_energi_per_tid",
+    "familjNyckel": "effekt__energi_effekt_och_tid",
     "svarstyp": "flera_delar",
     "rättSvar": [
       1500,
@@ -24714,7 +25054,9 @@ window.BANK = [
         "t": "<p>En dammsugare har effekten 1200 W och används i 25 minuter.</p><div class=\"spel-en-del\">Hur mycket är det i kilowattimmar?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I kilowattimmar används 1,2 kW och \\(25/60\\) h.</p><div class=\"facit-matte\">\\[E=1{,}2\\cdot\\frac{25}{60}=0{,}500\\ \\mathrm{kWh}\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "familjTidigare": "Effekt som energi per tid",
+    "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid"
   },
   {
     "id": "5.78",
@@ -24771,11 +25113,11 @@ window.BANK = [
     "poang": "(2/1/0)",
     "t": "<p>En tvättmaskin förbrukar effekten 2,0 kW under uppvärmningen av vattnet.</p>\n<ol><li>Hur mycket energi förbrukar maskinen på 45 minuter? Svara både i joule och kWh.</li>\n<li>Hur lång tid tar det för maskinen att förbruka energin 1,0 MJ?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fyrtiofem minuter är 2700 s eller 0,75 h.</p><div class=\"facit-matte\">\\[E=Pt=2000\\cdot2700=5{,}40\\cdot10^6\\ \\mathrm J\\]\\[E=2{,}0\\cdot0{,}75=1{,}50\\ \\mathrm{kWh}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tiden för 1,0 MJ blir</p><div class=\"facit-matte\">\\[t=\\frac EP=\\frac{1{,}0\\cdot10^6}{2000}=500\\ \\mathrm s=8{,}33\\ \\mathrm{min}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> På 45 minuter används \\(5{,}40\\ \\mathrm{MJ}=1{,}50\\ \\mathrm{kWh}\\). För \\(1{,}0\\ \\mathrm{MJ}\\) krävs \\(500\\ \\mathrm s\\).</p></div>",
-    "familj": "Effekt som energi per tid",
+    "familj": "Energi, effekt och tid",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "effekt__effekt_som_energi_per_tid",
+    "familjNyckel": "effekt__energi_effekt_och_tid",
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.5,
@@ -24798,7 +25140,9 @@ window.BANK = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "familjTidigare": "Effekt som energi per tid",
+    "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid"
   },
   {
     "id": "5.80",
@@ -25167,7 +25511,7 @@ window.BANK = [
   {
     "id": "5.90",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna rekylfart ur rörelsemängdens bevarande och jämföra energier, ur text, sökt rörelsemängd fart och energi",
     "poang": "(2/1/0)",
@@ -25178,16 +25522,18 @@ window.BANK = [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.91",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "koppla effekt kraft och fart vid konstant hastighet, ur text, sökt kraft energi och tid",
     "poang": "(2/1/0)",
@@ -25198,16 +25544,18 @@ window.BANK = [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "blandat__arbete_energi_och_effekt",
+    "familjNyckel": "blandat_energi__arbete_energi_och_effekt",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__arbete_energi_och_effekt"
   },
   {
     "id": "5.92",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna fart och kraft vid studs mot fast underlag, ur diagram, sökt energi fart rörelsemängd och kraft",
     "poang": "(2/1/0)",
@@ -25217,7 +25565,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.8,
@@ -25255,12 +25603,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.93",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "analysera F-t-diagram och koppla impuls till kraft, ur diagram, sökt impuls rörelsemängd fart och energi",
     "poang": "(1/2/0)",
@@ -25270,7 +25620,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       400,
@@ -25308,12 +25658,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.94",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "beräkna kraft och stöttid när hammares rörelseenergi driver in en spik, ur text, sökt energi kraft och tid",
     "poang": "(1/2/0)",
@@ -25324,7 +25676,7 @@ window.BANK = [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       10.8,
@@ -25362,12 +25714,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.95",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "jämföra lägesenergi och rörelseenergi för att bestämma energiförlust och motståndskraft, ur text, sökt energi kraft",
     "poang": "(2/1/0)",
@@ -25377,7 +25731,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__mekanisk_energi",
+    "familjNyckel": "blandat_energi__mekanisk_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
       9.43,
@@ -25433,12 +25787,14 @@ window.BANK = [
         "t": "<p>En cyklist med cykel väger tillsammans 80 kg och rullar från vila nedför en backe med höjdskillnaden 12 m. Längst ned har cyklisten farten 12 m/s. Backen är 90 m lång längs vägen.</p><div class=\"spel-en-del\">Hur stor är den genomsnittliga motståndskraften?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Över 90 m motsvarar det</p><div class=\"facit-matte\">\\[F_{\\mathrm{mot}}=\\frac{3667}{90}=40{,}7\\ \\mathrm N\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__mekanisk_energi"
   },
   {
     "id": "5.96",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "analysera effekt snörkraft och energibalans vid konstant fart upp för backe med friktion, ur text, sökt kraft effekt energi och andel",
     "poang": "(0/1/2)",
@@ -25448,16 +25804,18 @@ window.BANK = [
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "blandat__arbete_energi_och_effekt",
+    "familjNyckel": "blandat_energi__arbete_energi_och_effekt",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__arbete_energi_och_effekt"
   },
   {
     "id": "5.97",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "omvandla fjäderenergi till fart rörelsemängd och stighöjd, ur text, sökt energi fart och höjd",
     "poang": "(2/1/0)",
@@ -25467,7 +25825,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       3.6,
@@ -25523,12 +25881,14 @@ window.BANK = [
         "t": "<p>En fjäderkanon har fjäderkonstanten 500 N/m. Fjädern trycks ihop 0,12 m och skjuter i väg en kula med massan 80 g rakt uppåt. Luftmotståndet försummas.</p><div class=\"spel-en-del\">Hur högt kommer kulan?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Stighöjden är</p><div class=\"facit-matte\">\\[h=\\frac{E_f}{mg}=4{,}58\\ \\mathrm m\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.98",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna rörelseenergi rörelsemängd och friktionskraft för bowlingklot, ur text, sökt energi rörelsemängd kraft och friktionstal",
     "poang": "(2/1/0)",
@@ -25538,7 +25898,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__mekanisk_energi",
+    "familjNyckel": "blandat_energi__mekanisk_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
       60.75,
@@ -25571,12 +25931,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__mekanisk_energi"
   },
   {
     "id": "5.99",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "kedja fjäderenergi oelastisk stöt och friktionsarbete, ur diagram, sökt fart energiförlust och friktionstal",
     "poang": "(0/2/1)",
@@ -25586,16 +25948,18 @@ window.BANK = [
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.100",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "beräkna bromskraft ur energi och stopptid ur impuls för en kula i sand, ur text, sökt kraft och tid",
     "poang": "(1/2/0)",
@@ -25605,7 +25969,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.81,
@@ -25641,12 +26005,14 @@ window.BANK = [
         "t": "<p>En kula med massan 20 g träffar en sandlåda med farten 150 m/s och stannar på 8,0 cm.</p><div class=\"spel-en-del\">Hur lång tid tar inbromsningen?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Impulsen stoppar kulan.</p><div class=\"facit-matte\">\\[\\Delta t=\\frac{mv}{F}=\\frac{0{,}020\\cdot150}{2813}=1{,}07\\ \\mathrm{ms}\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.101",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "kedja energiprincipen oelastisk stöt och friktionsarbete för att bestämma friktionstalet, ur diagram, sökt fart och friktionstal",
     "poang": "(0/1/2)",
@@ -25656,16 +26022,18 @@ window.BANK = [
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.102",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "beräkna sluthastighet nedför lutande plan med friktion via energi och kontrollera med kraft, ur diagram, sökt energi fart och rörelsemängd",
     "poang": "(1/2/0)",
@@ -25675,7 +26043,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__mekanisk_energi",
+    "familjNyckel": "blandat_energi__mekanisk_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -25713,12 +26081,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__mekanisk_energi"
   },
   {
     "id": "5.103",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "bestämma kulas fart via ballistiskt pendel med energi och rörelsemängd, ur text, sökt rörelsemängd fart och energi",
     "poang": "(0/1/2)",
@@ -25729,7 +26099,7 @@ window.BANK = [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -25773,12 +26143,14 @@ window.BANK = [
       false,
       false,
       true
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.104",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "bestämma fart efter stöt ur fjäderenergi och rörelsemängdsbevarande, ur diagram, sökt energi fart och rörelsemängd",
     "poang": "(1/2/0)",
@@ -25788,7 +26160,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       4.243,
@@ -25826,12 +26198,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.105",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "bestämma överförd energiandel vid elastisk stöt mellan olika massor utan delfrågor, ur text, sökt andel av rörelseenergi",
     "poang": "(1/2/0)",
@@ -25841,40 +26215,45 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__mekanisk_energi",
+    "familjNyckel": "blandat_energi__mekanisk_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 94.7,
     "tolerans": 1.4205,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "%"
+    "svarEnhet": "%",
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__mekanisk_energi"
   },
   {
     "id": "5.106",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "bestämma fjäderns hoptryckning efter friktionssträcka utan delfrågor, ur diagram, sökt hoptryckning",
     "poang": "(1/2/0)",
     "t": "<p>Ett paket med massan 6,0 kg lämnar en ränna med farten 4,0 m/s och glider sedan 3,0 m längs ett vågrätt golv där friktionstalet är 0,15. Där träffar det en fjäder med fjäderkonstanten 1200 N/m. Under själva hoptryckningen kan friktionen försummas.</p><span class=\"fig bred\"><svg height=\"173\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 39.632 360.000 100.368\"><rect x=\"15\" y=\"100\" width=\"330\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"100\" x2=\"345\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"60\" y=\"64\" width=\"52\" height=\"36\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"86\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" fill=\"#2B2527\">6,0 kg</text><line x1=\"122\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"158,50 148,45.4 148,54.6\" fill=\"#2A5D9E\"/><text x=\"164\" y=\"54\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v</text><line x1=\"330\" y1=\"46\" x2=\"330\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"46\" x2=\"338\" y2=\"54\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"55\" x2=\"338\" y2=\"63\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"64\" x2=\"338\" y2=\"72\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"73\" x2=\"338\" y2=\"81\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"82\" x2=\"338\" y2=\"90\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"91\" x2=\"338\" y2=\"99\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><polyline points=\"272,82 278,72 285,92 292,72 299,92 306,72 313,92 320,77 330,82\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"112\" y1=\"118\" x2=\"272\" y2=\"118\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"112\" y1=\"113\" x2=\"112\" y2=\"123\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"272\" y1=\"113\" x2=\"272\" y2=\"123\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><text x=\"192\" y=\"134\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3,0 m</text></svg></span>\n<p>Hur mycket trycks fjädern ihop?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Startenergin och friktionsarbetet är</p><div class=\"facit-matte\">\\[E_{k,0}=\\frac{6{,}0\\cdot4{,}0^2}{2}=48{,}0\\ \\mathrm J\\]\\[W_f=0{,}15\\cdot6{,}0\\cdot9{,}82\\cdot3{,}0=26{,}51\\ \\mathrm J\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kvar vid fjädern är 21,49 J.</p><div class=\"facit-matte\">\\[\\frac{kx^2}{2}=21{,}49\\Rightarrow x=\\sqrt{\\frac{2\\cdot21{,}49}{1200}}=0{,}189\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fjädern trycks ihop cirka \\(0{,}189\\ \\mathrm m=18{,}9\\ \\mathrm{cm}\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_energi__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "numeriskt",
     "rättSvar": 18.9,
     "tolerans": 0.2835,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "familjNyckelTidigare": "blandat__mekanik_blandade_metoder"
+    "familjNyckelTidigare": "blandat__mekanik_blandade_metoder",
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "5.107",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna landningsfart ur lägesenergi och därefter kraft vid två bromssträckor, ur diagram, sökt energi fart och kraft",
     "poang": "(2/1/0)",
@@ -25884,7 +26263,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__mekanisk_energi",
+    "familjNyckel": "blandat_energi__mekanisk_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
       707,
@@ -25940,12 +26319,14 @@ window.BANK = [
         "t": "<p>En person med massan 60 kg hoppar ned från en plattform 1,2 m över marken.</p><span class=\"fig smal\"><svg height=\"267\" preserveaspectratio=\"xMidYMid meet\" viewbox=\"5.029 17.592 209.943 147.644\" width=\"380\"><rect fill=\"#E8DCC6\" height=\"8\" width=\"190\" x=\"15\" y=\"150\"></rect><line stroke=\"#2B2527\" stroke-linecap=\"square\" stroke-width=\"2\" x1=\"15\" x2=\"205\" y1=\"150\" y2=\"150\"></line><rect fill=\"#E8DCC6\" height=\"10\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"70\" x=\"30\" y=\"64\"></rect><rect fill=\"#E8DCC6\" height=\"76\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"14\" x=\"50\" y=\"74\"></rect><circle cx=\"85\" cy=\"34\" fill=\"#fff\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"3.4\" x1=\"85\" x2=\"85\" y1=\"42\" y2=\"56\"></line><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"85\" x2=\"79\" y1=\"56\" y2=\"64\"></line><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"3\" x1=\"85\" x2=\"91\" y1=\"56\" y2=\"64\"></line><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"2.6\" x1=\"77\" x2=\"93\" y1=\"47\" y2=\"47\"></line><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"130\" x2=\"130\" y1=\"64\" y2=\"150\"></line><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"125\" x2=\"135\" y1=\"64\" y2=\"64\"></line><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"125\" x2=\"135\" y1=\"150\" y2=\"150\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" text-anchor=\"start\" x=\"142\" y=\"110\">1,2 m</text></svg></span><div class=\"spel-en-del\">Med böjda knän bromsas kroppen i stället på 40 cm. Hur stor blir kraften då?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För raka respektive böjda ben:</p><div class=\"facit-matte\">\\[N_{0{,}020}=\\frac{60\\cdot9{,}82(1{,}2+0{,}020)}{0{,}020}=35{,}9\\ \\mathrm{kN}\\]\\[N_{0{,}40}=\\frac{60\\cdot9{,}82(1{,}2+0{,}40)}{0{,}40}=2{,}36\\ \\mathrm{kN}\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__mekanisk_energi"
   },
   {
     "id": "5.108",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "omvandla elastisk energi till fart rörelsemängd kraft och stighöjd, ur text, sökt fart rörelsemängd kraft och höjd",
     "poang": "(2/1/0)",
@@ -25955,7 +26336,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       31,
@@ -26011,12 +26392,14 @@ window.BANK = [
         "t": "<p>En slangbella spänns så att gummibanden lagrar energin 12 J. Projektilen väger 25 g. Utskjutningen tar 0,040 s.</p><div class=\"spel-en-del\">Hur högt kommer projektilen om den skjuts rakt uppåt? Luftmotståndet försummas.</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid lodrätt skott:</p><div class=\"facit-matte\">\\[h=\\frac{E}{mg}=\\frac{12}{0{,}025\\cdot9{,}82}=48{,}9\\ \\mathrm m\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.109",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna impuls och därefter fart rörelseenergi och kontaktsträcka, ur diagram, sökt impuls fart energi och sträcka",
     "poang": "(2/1/0)",
@@ -26026,7 +26409,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       4.5,
@@ -26082,12 +26465,14 @@ window.BANK = [
         "t": "<p>En ishockeypuck med massan 0,17 kg ligger stilla på isen. En klubba träffar pucken med den genomsnittliga kraften 90 N under 0,050 s.</p><span class=\"fig bred\"><svg height=\"165\" preserveaspectratio=\"xMidYMid meet\" viewbox=\"0.000 10.391 260.000 69.023\" width=\"620\"><rect fill=\"#DCE6F2\" height=\"8\" width=\"236\" x=\"12\" y=\"68\"></rect><line stroke=\"#2B2527\" stroke-linecap=\"square\" stroke-width=\"2\" x1=\"12\" x2=\"248\" y1=\"68\" y2=\"68\"></line><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"4\" x1=\"55\" x2=\"96\" y1=\"16\" y2=\"58\"></line><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"6\" x1=\"94\" x2=\"112\" y1=\"62\" y2=\"62\"></line><rect fill=\"#2B2527\" height=\"12\" rx=\"4\" width=\"44\" x=\"112\" y=\"56\"></rect><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"134\" x2=\"134\" y1=\"52\" y2=\"56\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"400\" text-anchor=\"middle\" x=\"134\" y=\"48\">0,17 kg</text></svg></span><div class=\"spel-en-del\">Hur långt hinner pucken röra sig medan klubban är i kontakt med den?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med konstant medelkraft blir accelerationen \\(a=90/0{,}17=529\\ \\mathrm{m/s^2}\\).</p><div class=\"facit-matte\">\\[s=\\frac{a\\Delta t^2}{2}=\\frac{529\\cdot0{,}050^2}{2}=0{,}662\\ \\mathrm m\\]</div><p>Kontroll: \\(Fs=59{,}6\\ \\mathrm J\\), samma som rörelseenergin.</p></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.110",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "analysera tvåstegsraket med rörelsemängd energi och kraft, ur text, sökt fart energi kraft och tid",
     "poang": "(1/2/0)",
@@ -26097,7 +26482,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       5.18,
@@ -26130,12 +26515,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.111",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna stighöjd ur rörelseenergi och jämföra med tyngdkraftens impuls, ur text, sökt energi höjd tid och rörelsemängd",
     "poang": "(2/1/0)",
@@ -26146,7 +26533,7 @@ window.BANK = [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       18,
@@ -26179,12 +26566,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.112",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "bestämma bromskraft friktionstal och tid ur rörelseenergi och bromssträcka, ur text, sökt energi kraft friktionstal och tid",
     "poang": "(2/1/0)",
@@ -26194,7 +26583,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__mekanisk_energi",
+    "familjNyckel": "blandat_energi__mekanisk_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
       7350,
@@ -26227,12 +26616,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__mekanisk_energi"
   },
   {
     "id": "5.113",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "koppla effekt snörkraft och fart för motor som drar upp ett fordon, ur diagram, sökt kraft effekt energi och tid",
     "poang": "(1/2/0)",
@@ -26242,7 +26633,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__arbete_energi_och_effekt",
+    "familjNyckel": "blandat_energi__arbete_energi_och_effekt",
     "svarstyp": "flera_delar",
     "rättSvar": [
       1120,
@@ -26280,12 +26671,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__arbete_energi_och_effekt"
   },
   {
     "id": "5.114",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna effekt och elektrisk effekt med verkningsgrad för rulltrappa, ur text, sökt massflöde effekt energi och verkningsgrad",
     "poang": "(2/1/0)",
@@ -26295,7 +26688,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__arbete_energi_och_effekt",
+    "familjNyckel": "blandat_energi__arbete_energi_och_effekt",
     "svarstyp": "flera_delar",
     "rättSvar": [
       32.5,
@@ -26333,12 +26726,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__arbete_energi_och_effekt"
   },
   {
     "id": "5.115",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "följa energin från lägesenergi till rörelsemängd och kraft vid nedslag, ur text, sökt energi fart och kraft",
     "poang": "(2/1/0)",
@@ -26348,7 +26743,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       235.7,
@@ -26381,12 +26776,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.116",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "kedja fjäderenergi friktionsarbete och oelastisk stöt utan delfrågor, ur text, sökt gemensam fart",
     "poang": "(1/2/0)",
@@ -26396,16 +26793,18 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.117",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "jämföra krockkraft med och utan krockkudde via impulslagen, ur text, sökt rörelsemängd kraft och energi",
     "poang": "(1/2/0)",
@@ -26415,7 +26814,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       1050,
@@ -26471,12 +26870,14 @@ window.BANK = [
         "t": "<p>En person med massan 75 kg åker bil i 14 m/s när bilen krockar och tvärstannar.</p><div class=\"spel-en-del\">Hur stor rörelseenergi ska bromsas bort i de två fallen?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Samma rörelseenergi ska tas upp i båda fallen.</p><div class=\"facit-matte\">\\[E_k=\\frac{75\\cdot14^2}{2}=7{,}35\\ \\mathrm{kJ}\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.118",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna gemensam fart energiförlust och kopplingskraft vid tågkoppling, ur diagram, sökt rörelsemängd fart energi och kraft",
     "poang": "(2/1/0)",
@@ -26486,7 +26887,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0,
@@ -26524,12 +26925,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.119",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "analysera vagn med växande massa och visa att halva effekten blir värme, ur diagram, sökt fart kraft effekt och energibalans",
     "poang": "(0/1/2)",
@@ -26540,16 +26943,18 @@ window.BANK = [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.120",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "beräkna drivkraft och effekt uppför lutning och fördela energin, ur text, sökt kraft effekt arbete och andel",
     "poang": "(1/2/0)",
@@ -26559,7 +26964,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__arbete_energi_och_effekt",
+    "familjNyckel": "blandat_energi__arbete_energi_och_effekt",
     "svarstyp": "flera_delar",
     "rättSvar": [
       10.72,
@@ -26597,12 +27002,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__arbete_energi_och_effekt"
   },
   {
     "id": "5.121",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "analysera kast och fångst mellan två personer med rörelsemängd och energi i två steg, ur diagram, sökt fart rörelsemängd och energi",
     "poang": "(0/1/2)",
@@ -26613,16 +27020,18 @@ window.BANK = [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.122",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna nyttig och tillförd effekt för en stigande drönare och därav flygtiden, ur diagram, sökt effekt och tid",
     "poang": "(2/1/0)",
@@ -26632,7 +27041,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__arbete_energi_och_effekt",
+    "familjNyckel": "blandat_energi__arbete_energi_och_effekt",
     "svarstyp": "flera_delar",
     "rättSvar": [
       17.68,
@@ -26670,12 +27079,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__arbete_energi_och_effekt"
   },
   {
     "id": "5.123",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "bestämma effekt hos dragkraft uppför lutande plan med friktion och acceleration utan delfrågor, ur diagram, sökt effekt",
     "poang": "(1/2/0)",
@@ -26685,18 +27096,20 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__arbete_energi_och_effekt",
+    "familjNyckel": "blandat_energi__arbete_energi_och_effekt",
     "svarstyp": "numeriskt",
     "rättSvar": 764,
     "tolerans": 11.459999999999999,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__arbete_energi_och_effekt"
   },
   {
     "id": "5.124",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "beräkna impuls kraft energi och effekt vid en fotbollsspark, ur text, sökt kraft och effekt",
     "poang": "(1/2/0)",
@@ -26706,7 +27119,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__arbete_energi_och_effekt",
+    "familjNyckel": "blandat_energi__arbete_energi_och_effekt",
     "svarstyp": "flera_delar",
     "rättSvar": [
       1.19,
@@ -26732,12 +27145,14 @@ window.BANK = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__arbete_energi_och_effekt"
   },
   {
     "id": "5.125",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "använda impuls för att bestämma ny fart och energiökning i kanot, ur text, sökt rörelsemängd fart energi och kraft",
     "poang": "(2/1/0)",
@@ -26747,7 +27162,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       237.5,
@@ -26803,12 +27218,14 @@ window.BANK = [
         "t": "<p>En kanot med paddlare väger tillsammans 95 kg och glider fram med farten 2,5 m/s. Paddlaren tar ett tag som ger kanoten impulsen 60 Ns framåt. Taget varar 0,80 s.</p><div class=\"spel-en-del\">Hur stor är den genomsnittliga kraften under taget?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Medelkraften är</p><div class=\"facit-matte\">\\[F=\\frac{60}{0{,}80}=75\\ \\mathrm N\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.126",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna bromskraft retardation och bromstid ur rörelseenergi och bromssträcka, ur text, sökt energi kraft och tid",
     "poang": "(2/1/0)",
@@ -26818,7 +27235,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__mekanisk_energi",
+    "familjNyckel": "blandat_energi__mekanisk_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2205,
@@ -26856,12 +27273,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__mekanisk_energi"
   },
   {
     "id": "5.127",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "koppla kraftjämvikt effekt och impuls vid fallskärmshopp, ur text, sökt kraft effekt energi och kraft vid landning",
     "poang": "(1/2/0)",
@@ -26872,16 +27291,18 @@ window.BANK = [
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.128",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna fart och kraft vid pendel ur energi och höjd, ur diagram, sökt energi fart och kraft",
     "poang": "(2/1/0)",
@@ -26891,7 +27312,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.43,
@@ -26947,12 +27368,14 @@ window.BANK = [
         "t": "<p>En pendel med massan 0,50 kg och snörlängden 1,6 m dras ut till vinkeln α mot lodlinjen och släpps. Höjden h ovanför lägsta läget är 0,30 m. Luftmotståndet försummas.</p><span class=\"fig smal\"><svg height=\"363\" preserveaspectratio=\"xMidYMid meet\" viewbox=\"2.229 1.487 207.629 198.513\" width=\"380\"><line stroke=\"#2B2527\" stroke-linecap=\"square\" stroke-width=\"2\" x1=\"60\" x2=\"200\" y1=\"20\" y2=\"20\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"60\" x2=\"68\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"70\" x2=\"78\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"80\" x2=\"88\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"90\" x2=\"98\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"100\" x2=\"108\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"110\" x2=\"118\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"120\" x2=\"128\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"130\" x2=\"138\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"140\" x2=\"148\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"150\" x2=\"158\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"160\" x2=\"168\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"170\" x2=\"178\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"180\" x2=\"188\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"190\" x2=\"198\" y1=\"20\" y2=\"12\"></line><line stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"1.8\" x1=\"130\" x2=\"95\" y1=\"20\" y2=\"140\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"4 3\" stroke-width=\"1\" x1=\"130\" x2=\"130\" y1=\"20\" y2=\"140\"></line><circle cx=\"95\" cy=\"150\" fill=\"#fff\" r=\"10\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><path d=\"M 130 60 A 40 40 0 0 1 118.8 58.4\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"></path><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" text-anchor=\"end\" x=\"124\" y=\"70\">α</text><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"55\" x2=\"55\" y1=\"150\" y2=\"20\"></line><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"50\" x2=\"60\" y1=\"150\" y2=\"150\"></line><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"50\" x2=\"60\" y1=\"20\" y2=\"20\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" text-anchor=\"end\" x=\"46\" y=\"90\">L=1,6 m</text><line stroke=\"#9A959C\" stroke-dasharray=\"3 3\" stroke-width=\"1\" x1=\"95\" x2=\"95\" y1=\"150\" y2=\"185\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"3 3\" stroke-width=\"1\" x1=\"130\" x2=\"130\" y1=\"185\" y2=\"140\"></line><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"95\" x2=\"130\" y1=\"182\" y2=\"182\"></line><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"95\" x2=\"95\" y1=\"178\" y2=\"186\"></line><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"130\" x2=\"130\" y1=\"178\" y2=\"186\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" text-anchor=\"middle\" x=\"113\" y=\"196\">h</text></svg></span><div class=\"spel-en-del\">Hur stor impuls har kulan i lägsta läget?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I botten är rörelsemängdens storlek</p><div class=\"facit-matte\">\\[p=mv=0{,}50\\cdot2{,}43=1{,}21\\ \\mathrm{kg\\,m/s}\\]</div></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.129",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "bestämma gemensam fart vid oelastisk stöt och därefter energiförlust, ur diagram, sökt rörelsemängd fart och energi",
     "poang": "(2/1/0)",
@@ -26962,7 +27385,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       12,
@@ -27000,12 +27423,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.130",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "jämföra elastisk och fullständigt oelastisk stöt med avseende på energi och impuls, ur text, sökt fart energi och kraft",
     "poang": "(0/2/1)",
@@ -27016,16 +27441,18 @@ window.BANK = [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.131",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "dela upp dragkraftens arbete i friktionsarbete och rörelseenergi, ur text, sökt arbete och fart",
     "poang": "(2/1/0)",
@@ -27035,7 +27462,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__mekanisk_energi",
+    "familjNyckel": "blandat_energi__mekanisk_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
@@ -27073,12 +27500,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__mekanisk_energi"
   },
   {
     "id": "5.132",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "bestämma kraft från golvet vid studs via rörelsemängdsändring och energiförlust, ur diagram, sökt fart rörelsemängd kraft och energi",
     "poang": "(1/2/0)",
@@ -27088,7 +27517,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       5.61,
@@ -27121,12 +27550,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.133",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna gemensam fart och effekt vid bil med släp ur rörelsemängd och energi, ur text, sökt rörelsemängd kraft effekt och energi",
     "poang": "(2/1/0)",
@@ -27136,7 +27567,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "flera_delar",
     "rättSvar": [
       500,
@@ -27169,12 +27600,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.134",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "analysera kloss som glider upp på fritt rörlig kil med rörelsemängd och energi, ur diagram, sökt höjd och sluthastigheter",
     "poang": "(0/1/2)",
@@ -27185,11 +27618,13 @@ window.BANK = [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.135",
@@ -28292,7 +28727,7 @@ window.BANK = [
   {
     "id": "5.165",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "koppla effekt vattenflöde och kraft i vattenkraftverk, ur diagram, sökt energi effekt och kraft",
     "poang": "(2/1/0)",
@@ -28302,7 +28737,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__arbete_energi_och_effekt",
+    "familjNyckel": "blandat_energi__arbete_energi_och_effekt",
     "svarstyp": "flera_delar",
     "rättSvar": [
       5000,
@@ -28358,12 +28793,14 @@ window.BANK = [
         "t": "<p>En turbin i ett vattenkraftverk utnyttjar ett vattenfall med fallhöjden 18 m. Vattenflödet är 5,0 m³/s. Vattnets densitet är 1000 kg/m³.</p><span class=\"fig smal\"><svg height=\"300\" preserveaspectratio=\"xMidYMid meet\" viewbox=\"18.800 0.000 238.400 188.400\" width=\"380\"><rect fill=\"#DCE6F2\" height=\"14\" rx=\"2\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"80\" x=\"30\" y=\"10\"></rect><rect fill=\"#DCE6F2\" height=\"120\" rx=\"2\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"20\" x=\"95\" y=\"24\"></rect><rect fill=\"#DCE6F2\" height=\"30\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"110\" x=\"30\" y=\"148\"></rect><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"9\" text-anchor=\"middle\" x=\"85\" y=\"168\">turbin</text><path d=\"M 82 30 Q 82 80 100 120\" fill=\"none\" stroke=\"#2A5D9E\" stroke-linecap=\"round\" stroke-width=\"3\"></path><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"175\" x2=\"175\" y1=\"24\" y2=\"148\"></line><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"170\" x2=\"180\" y1=\"24\" y2=\"24\"></line><line stroke=\"#9A959C\" stroke-width=\"1.2\" x1=\"170\" x2=\"180\" y1=\"148\" y2=\"148\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" text-anchor=\"start\" x=\"186\" y=\"90\">h=18 m</text><rect fill=\"#DCEAF6\" height=\"28\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"56\" x=\"190\" y=\"60\"></rect><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"9\" text-anchor=\"middle\" x=\"218\" y=\"78\">800 kW</text></svg></span><div class=\"spel-en-del\">Hur stor kraft verkar på turbinhjulet om vattnets hastighet in i turbinen är 12 m/s?</div>",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Om vattnets hastighetskomponent i strålens riktning minskar från 12 m/s till noll blir kraften</p><div class=\"facit-matte\">\\[F=\\dot m\\Delta v=5000\\cdot12=60\\ \\mathrm{kN}\\]</div><p>Den tidigare kontrollen \\(P=Fv\\) är inte giltig här, eftersom v i det sambandet ska vara turbinhjulets kontaktpunkts fart, inte strålens infartshastighet.</p></div></div></div>"
       }
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__arbete_energi_och_effekt"
   },
   {
     "id": "5.166",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna rörelseenergi ur v-t-diagram och bestämma retardationskraft, ur diagram, sökt energi fart kraft och sträcka",
     "poang": "(2/1/0)",
@@ -28373,7 +28810,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__mekanisk_energi",
+    "familjNyckel": "blandat_energi__mekanisk_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
       128,
@@ -28411,12 +28848,14 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__mekanisk_energi"
   },
   {
     "id": "5.167",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "koppla effekt impuls och energi för accelererande fordon med hastighetsvarierande kraft, ur text, sökt kraft effekt energi och tid",
     "poang": "(0/2/1)",
@@ -28427,16 +28866,18 @@ window.BANK = [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.168",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "bestämma elektrisk effekt vid accelererande hisslyft med verkningsgrad utan delfrågor, ur text, sökt effekt",
     "poang": "(1/2/0)",
@@ -28446,16 +28887,18 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__arbete_energi_och_effekt",
+    "familjNyckel": "blandat_energi__arbete_energi_och_effekt",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__arbete_energi_och_effekt"
   },
   {
     "id": "5.169",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "analysera raketmotor med rörelsemängd impuls och effekt, ur text, sökt kraft impuls effekt och energi",
     "poang": "(0/1/2)",
@@ -28465,26 +28908,28 @@ window.BANK = [
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "5.170",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "E",
     "typ": "beräkna farter före och efter en studs och den förlorade energin, ur text, sökt fart och energi",
     "poang": "(2/1/0)",
     "t": "<p>En boll med massan 0,20 kg släpps från vila 1,8 meter över golvet och studsar upp till 1,1 meter.</p>\n<ol><li>Vilken fart har bollen precis före studsen?</li>\n<li>Vilken fart har den precis efter studsen?</li>\n<li>Hur mycket energi försvann i studsen?</li>\n<li>Hur stor andel av energin försvann?</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Farten före studsen är</p><div class=\"facit-matte\">\\[v_i=\\sqrt{2g\\cdot1{,}8}=5{,}95\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Farten efter studsen är</p><div class=\"facit-matte\">\\[v_f=\\sqrt{2g\\cdot1{,}1}=4{,}65\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Energiförlusten är</p><div class=\"facit-matte\">\\[\\Delta E=mg(1{,}8-1{,}1)=1{,}375\\ \\mathrm J\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Andelen blir</p><div class=\"facit-matte\">\\[\\frac{0{,}70}{1{,}8}=38{,}9\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Farten är \\(5{,}95\\ \\mathrm{m/s}\\) före och \\(4{,}65\\ \\mathrm{m/s}\\) efter; \\(1{,}38\\ \\mathrm J\\), alltså \\(38{,}9\\,\\%\\), försvinner.</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_energi__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "flera_delar",
     "rättSvar": [
       5.95,
@@ -28541,12 +28986,15 @@ window.BANK = [
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Andelen blir</p><div class=\"facit-matte\">\\[\\frac{0{,}70}{1{,}8}=38{,}9\\,\\%\\]</div></div></div></div>"
       }
     ],
-    "familjNyckelTidigare": "blandat__mekanik_blandade_metoder"
+    "familjNyckelTidigare": "blandat__mekanik_blandade_metoder",
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "5.171",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "bestämma fart ur energi med friktion på lutande plan uppför och jämföra med impulsmetoden, ur diagram, sökt energi fart kraft och tid",
     "poang": "(1/2/0)",
@@ -28556,7 +29004,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__mekanisk_energi",
+    "familjNyckel": "blandat_energi__mekanisk_energi",
     "svarstyp": "flera_delar",
     "rättSvar": [
       32200.000000000004,
@@ -28594,32 +29042,37 @@ window.BANK = [
       "b",
       "c",
       "d"
-    ]
+    ],
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__mekanisk_energi"
   },
   {
     "id": "5.172",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "kombinera fritt fall och elastisk energi vid bungeehopp och avgöra var farten är störst, ur diagram, sökt fart sträcka och kraft",
     "poang": "(0/1/2)",
     "t": "<p>En person med massan 65 kg gör ett bungeehopp från en bro. Gummisnöret är 18 m långt när det är oböjt och har fjäderkonstanten 62 N/m. Personen faller från vila och luftmotståndet försummas.</p><span class=\"fig smal\"><svg height=\"357\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"13.600 1.600 253.600 238.400\"><rect x=\"25\" y=\"22\" width=\"120\" height=\"14\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"25\" y1=\"22\" x2=\"33\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"35\" y1=\"22\" x2=\"43\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"45\" y1=\"22\" x2=\"53\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"55\" y1=\"22\" x2=\"63\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"65\" y1=\"22\" x2=\"73\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"75\" y1=\"22\" x2=\"83\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"85\" y1=\"22\" x2=\"93\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"95\" y1=\"22\" x2=\"103\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"105\" y1=\"22\" x2=\"113\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"115\" y1=\"22\" x2=\"123\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"125\" y1=\"22\" x2=\"133\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"135\" y1=\"22\" x2=\"143\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"85\" y1=\"36\" x2=\"85\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"178\" x2=\"85\" y2=\"196\" stroke=\"#2B2527\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"85\" y1=\"196\" x2=\"85\" y2=\"211\" stroke=\"#2B2527\" stroke-width=\"3.8\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"205\" x2=\"98\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"85\" cy=\"220\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"40\" y1=\"90\" x2=\"210\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"225\" y1=\"36\" x2=\"225\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"36\" x2=\"230\" y2=\"36\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"90\" x2=\"230\" y2=\"90\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><text x=\"234\" y=\"67\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">18 m</text><line x1=\"225\" y1=\"90\" x2=\"225\" y2=\"178\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"178\" x2=\"230\" y2=\"178\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><text x=\"234\" y=\"138\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5C575E\">?</text></svg></span>\n<ol><li>Vilken fart har personen i det ögonblick snöret börjar sträckas?</li>\n<li>Hur långt under bron befinner sig personen i den lägsta punkten?</li>\n<li>Hur stor är den största kraften snöret drar med, och hur många gånger tyngdkraften motsvarar det?</li>\n<li>Var under fallet är farten som störst? Motivera och beräkna den farten.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Under de första 18 m är fallet fritt.</p><div class=\"facit-matte\">\\[v=\\sqrt{2g\\cdot18}=18{,}8\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I lägsta punkten är farten noll. Med förlängningen x:</p><div class=\"facit-matte\">\\[mg(18+x)=\\frac{kx^2}{2}\\Rightarrow x=32{,}13\\ \\mathrm m\\]\\[y_{\\min}=18+32{,}13=50{,}13\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Största snörkraften är</p><div class=\"facit-matte\">\\[F_{\\max}=kx=62\\cdot32{,}13=1{,}99\\ \\mathrm{kN}=3{,}12mg\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Farten är störst när accelerationen är noll, alltså när \\(kx=mg\\).</p><div class=\"facit-matte\">\\[x=\\frac{mg}{k}=10{,}30\\ \\mathrm m\\]\\[v_{\\max}=\\sqrt{\\frac{2[mg(18+x)-kx^2/2]}m}=21{,}3\\ \\mathrm{m/s}\\]</div><p>Det sker 28,3 m under bron.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vid snörkontakt är farten \\(18{,}8\\ \\mathrm{m/s}\\). Lägsta punkten ligger \\(50{,}1\\ \\mathrm m\\) under bron, största snörkraften är \\(1{,}99\\ \\mathrm{kN}\\), och maxfarten \\(21{,}3\\ \\mathrm{m/s}\\).</p></div>",
-    "familj": "Krafter och rörelse",
+    "familj": "Kombinerade problem med krafter och rörelse",
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "familjNyckel": "blandat__krafter_och_rorelse",
+    "familjNyckel": "blandat_energi__kombinerade_problem_med_krafter_och_rorelse",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__krafter_och_rorelse",
+    "familjTidigare": "Krafter och rörelse"
   },
   {
     "id": "5.173",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "C",
     "typ": "bestämma fart vid vattenytan när hoppet börjar med en begynnelsefart uppåt, ur text, sökt fart",
     "poang": "(1/2/0)",
@@ -28629,18 +29082,20 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "blandat__mekanisk_energi",
+    "familjNyckel": "blandat_energi__mekanisk_energi",
     "svarstyp": "numeriskt",
     "rättSvar": 7.93,
     "tolerans": 0.11894999999999999,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__mekanisk_energi"
   },
   {
     "id": "5.174",
     "kap": 5,
-    "omr": "blandat",
+    "omr": "blandat_energi",
     "niva": "A",
     "typ": "jämföra energiförlust vid elastisk och oelastisk stöt och koppla till bromssträcka, ur text, sökt fart energi kraft och sträcka",
     "poang": "(0/2/1)",
@@ -28650,11 +29105,13 @@ window.BANK = [
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "blandat__rorelsemangd_och_impuls",
+    "familjNyckel": "blandat_energi__rorelsemangd_och_impuls",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "omrTidigare": "blandat",
+    "familjNyckelFöreHierarki": "blandat__rorelsemangd_och_impuls"
   },
   {
     "id": "6.1",
@@ -36071,7 +36528,7 @@ window.BANK = [
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.963e-7,
+      1.963e-07,
       0.701,
       null
     ],
@@ -37093,7 +37550,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
-      0.00008630000000000001
+      8.630000000000001e-05
     ],
     "tolerans": [
       null,
@@ -38652,7 +39109,7 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1e-9,
+      1e-09,
       4.9e-11,
       null
     ],
@@ -38774,9 +39231,9 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.000032000000000000005,
-      1.96e-8,
-      0.00003198,
+      3.2000000000000005e-05,
+      1.96e-08,
+      3.198e-05,
       16000
     ],
     "tolerans": [
@@ -38831,7 +39288,7 @@ window.BANK = [
     "rättSvar": [
       null,
       20000,
-      0.00008,
+      8e-05,
       null
     ],
     "tolerans": [
@@ -41052,7 +41509,7 @@ window.BANK = [
     "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.000012,
+      1.2e-05,
       1.2,
       null
     ],
@@ -41678,7 +42135,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       432000,
-      0.0000016,
+      1.6e-06,
       null
     ],
     "tolerans": [
@@ -43547,7 +44004,7 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.000001,
+      1e-06,
       5,
       0.63
     ],
@@ -43695,7 +44152,7 @@ window.BANK = [
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.000032000000000000005,
+      3.2000000000000005e-05,
       120000000
     ],
     "tolerans": [
@@ -44146,1016 +44603,1020 @@ window.BANK = [
       "c"
     ]
   },
-{
-  "id": "6.141",
-  "kap": 6,
-  "omr": "gaslagen",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>En instängd gas har volymen 2,4 liter vid trycket 100 kPa. Temperaturen är konstant. Gasen komprimeras till 1,5 liter.</p><p>Vilket blir det nya trycket?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid konstant temperatur gäller Boyles lag: \\(p_1V_1=p_2V_2\\).</p><div class=\"facit-matte\">\\[p_2=\\frac{p_1V_1}{V_2}=\\frac{100\\cdot2{,}4}{1{,}5}=160\\ \\mathrm{kPa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(160\\ \\mathrm{kPa}\\).</p></div>",
-  "familj": "Boyles lag",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "gaslagen__boyles_lag",
-  "svarstyp": "numeriskt",
-  "rättSvar": 160,
-  "tolerans": 2.4,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "kPa"
-},
-{
-  "id": "6.142",
-  "kap": 6,
-  "omr": "gaslagen",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>En luftbubbla har volymen 3,0 ml vid trycket 95 kPa. Temperaturen kan antas konstant. När trycket ökar till 120 kPa, vilken volym får bubblan?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd \\(p_1V_1=p_2V_2\\) och lös ut \\(V_2\\).</p><div class=\"facit-matte\">\\[V_2=\\frac{95\\cdot3{,}0}{120}=2{,}375\\ \\mathrm{ml}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}38\\ \\mathrm{ml}\\).</p></div>",
-  "familj": "Boyles lag",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "gaslagen__boyles_lag",
-  "svarstyp": "numeriskt",
-  "rättSvar": 2.38,
-  "tolerans": 0.04,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "ml"
-},
-{
-  "id": "6.143",
-  "kap": 6,
-  "omr": "gaslagen",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>En stängd spruta innehåller 60 ml luft vid 101 kPa. Kolven trycks långsamt in tills volymen är 30 ml. Temperaturen är oförändrad.</p><p>Bestäm gasens tryck.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">När volymen halveras vid konstant temperatur måste trycket fördubblas.</p><div class=\"facit-matte\">\\[p_2=\\frac{101\\cdot60}{30}=202\\ \\mathrm{kPa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(202\\ \\mathrm{kPa}\\).</p></div>",
-  "familj": "Boyles lag",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "familjNyckel": "gaslagen__boyles_lag",
-  "svarstyp": "numeriskt",
-  "rättSvar": 202,
-  "tolerans": 3.0,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "kPa"
-},
-{
-  "id": "6.144",
-  "kap": 6,
-  "omr": "gaslagen",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En gas hålls vid konstant temperatur. Trycket ökar till 1,25 gånger det ursprungliga trycket.</p><p>Hur stor blir den nya volymen jämfört med den ursprungliga? Svara med faktorn \\(V_2/V_1\\).</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Boyles lag ger \\(p_1V_1=p_2V_2\\). Sätt \\(p_2=1{,}25p_1\\).</p><div class=\"facit-matte\">\\[\\frac{V_2}{V_1}=\\frac{p_1}{1{,}25p_1}=0{,}80\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen blir \\(0{,}80\\) av den ursprungliga, alltså minskar den med 20 %.</p></div>",
-  "familj": "Boyles lag",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "familjNyckel": "gaslagen__boyles_lag",
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.8,
-  "tolerans": 0.01,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "4.305",
-  "kap": 4,
-  "omr": "fjadrar",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>Två likadana fjädrar har vardera fjäderkonstanten 120 N/m och kopplas i serie.</p><p>Bestäm den ekvivalenta fjäderkonstanten.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För två fjädrar i serie gäller \\(1/k=1/k_1+1/k_2\\).</p><div class=\"facit-matte\">\\[\\frac1k=\\frac1{120}+\\frac1{120}=\\frac1{60}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=60\\ \\mathrm{N/m}\\).</p></div>",
-  "familj": "Fjädrar i serie och parallell",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "fjadrar__fjadrar_i_serie_och_parallell",
-  "svarstyp": "numeriskt",
-  "rättSvar": 60,
-  "tolerans": 0.9,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "N/m"
-},
-{
-  "id": "4.306",
-  "kap": 4,
-  "omr": "fjadrar",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>Två fjädrar med fjäderkonstanterna 80 N/m och 120 N/m kopplas i serie.</p><p>Bestäm den ekvivalenta fjäderkonstanten.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">I seriekoppling adderas fjädrarnas inverser.</p><div class=\"facit-matte\">\\[\\frac1k=\\frac1{80}+\\frac1{120}=\\frac{3+2}{240}=\\frac1{48}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\ \\mathrm{N/m}\\).</p></div>",
-  "familj": "Fjädrar i serie och parallell",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "fjadrar__fjadrar_i_serie_och_parallell",
-  "svarstyp": "numeriskt",
-  "rättSvar": 48,
-  "tolerans": 0.72,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "N/m"
-},
-{
-  "id": "4.307",
-  "kap": 4,
-  "omr": "fjadrar",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>Två fjädrar med fjäderkonstanterna 75 N/m och 125 N/m sitter parallellt och belastas tillsammans.</p><p>Bestäm den ekvivalenta fjäderkonstanten.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För parallellkopplade fjädrar adderas fjäderkonstanterna.</p><div class=\"facit-matte\">\\[k=75+125=200\\ \\mathrm{N/m}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{N/m}\\).</p></div>",
-  "familj": "Fjädrar i serie och parallell",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "fjadrar__fjadrar_i_serie_och_parallell",
-  "svarstyp": "numeriskt",
-  "rättSvar": 200,
-  "tolerans": 3,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "N/m"
-},
-{
-  "id": "4.308",
-  "kap": 4,
-  "omr": "fjadrar",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>Två fjädrar med \\(k=100\\ \\mathrm{N/m}\\) kopplas i serie. Den seriekopplingen kopplas sedan parallellt med en fjäder som har \\(k=50\\ \\mathrm{N/m}\\).</p><p>Bestäm hela systemets ekvivalenta fjäderkonstant.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Börja med de två fjädrarna i serie. Två lika fjädrar på 100 N/m ger tillsammans 50 N/m. Denna gren ligger sedan parallellt med ytterligare 50 N/m.</p><div class=\"facit-matte\">\\[k_{\\rm serie}=50\\ \\mathrm{N/m},\\qquad k_{\\rm totalt}=50+50=100\\ \\mathrm{N/m}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\ \\mathrm{N/m}\\).</p></div>",
-  "familj": "Fjädrar i serie och parallell",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "familjNyckel": "fjadrar__fjadrar_i_serie_och_parallell",
-  "svarstyp": "numeriskt",
-  "rättSvar": 100,
-  "tolerans": 1.5,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "N/m"
-},
-{
-  "id": "8.171",
-  "kap": 8,
-  "omr": "laddning",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>En liten kula har laddningen \\(-3{,}2\\ \\mathrm{nC}\\).</p><p>Hur många överskottselektroner motsvarar det? Använd \\(e=1{,}602\\cdot10^{-19}\\ \\mathrm C\\).</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Antalet elektroner fås av \\(n=|Q|/e\\).</p><div class=\"facit-matte\">\\[n=\\frac{3{,}2\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx2{,}0\\cdot10^{10}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}0\\cdot10^{10}\\) överskottselektroner.</p></div>",
-  "familj": "Laddning och antal elektroner",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "laddning__laddning_och_antal_elektroner",
-  "svarstyp": "numeriskt",
-  "rättSvar": 20000000000.0,
-  "tolerans": 300000000.0,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "elektroner"
-},
-{
-  "id": "8.172",
-  "kap": 8,
-  "omr": "laddning",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>Ett föremål har laddningen \\(+4{,}8\\ \\mathrm{nC}\\).</p><p>Hur många elektroner har avlägsnats från föremålet?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Positiv laddning betyder underskott av elektroner. Beräkna antalet med \\(n=Q/e\\).</p><div class=\"facit-matte\">\\[n=\\frac{4{,}8\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx3{,}0\\cdot10^{10}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(3{,}0\\cdot10^{10}\\) elektroner har avlägsnats.</p></div>",
-  "familj": "Laddning och antal elektroner",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "familjNyckel": "laddning__laddning_och_antal_elektroner",
-  "svarstyp": "numeriskt",
-  "rättSvar": 30000000000.0,
-  "tolerans": 450000000.0,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "elektroner"
-},
-{
-  "id": "8.173",
-  "kap": 8,
-  "omr": "laddning",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>En plaststav får \\(5{,}0\\cdot10^{12}\\) extra elektroner.</p><p>Bestäm stavens laddning i nC.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Extra elektroner ger negativ laddning.</p><div class=\"facit-matte\">\\[Q=-ne=-(5{,}0\\cdot10^{12})(1{,}602\\cdot10^{-19})=-8{,}01\\cdot10^{-7}\\ \\mathrm C=-801\\ \\mathrm{nC}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-801\\ \\mathrm{nC}\\).</p></div>",
-  "familj": "Laddning och antal elektroner",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "laddning__laddning_och_antal_elektroner",
-  "svarstyp": "numeriskt",
-  "rättSvar": -801,
-  "tolerans": 12,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "nC"
-},
-{
-  "id": "8.174",
-  "kap": 8,
-  "omr": "laddning",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>Vid kontakt mellan två isolerade metallkulor överförs \\(2{,}5\\cdot10^8\\) elektroner från kula A till kula B. Kulorna var från början neutrala.</p><p>Vilken laddning får kula B i pC?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">B tar emot elektroner och blir därför negativt laddad.</p><div class=\"facit-matte\">\\[Q_B=-(2{,}5\\cdot10^8)(1{,}602\\cdot10^{-19})=-4{,}005\\cdot10^{-11}\\ \\mathrm C=-40{,}1\\ \\mathrm{pC}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-40\\ \\mathrm{pC}\\).</p></div>",
-  "familj": "Laddning och antal elektroner",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "familjNyckel": "laddning__laddning_och_antal_elektroner",
-  "svarstyp": "numeriskt",
-  "rättSvar": -40.1,
-  "tolerans": 0.7,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "pC"
-},
-{
-  "id": "4.309",
-  "kap": 4,
-  "omr": "moment",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>Två punktmassor sitter på en lätt stång. En massa på 2,0 kg sitter vid \\(x=0\\) m och en massa på 6,0 kg vid \\(x=1{,}0\\) m.</p><p>Var ligger systemets tyngdpunkt räknat från \\(x=0\\)?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Tyngdpunkten är det massvägda medelvärdet av positionerna.</p><div class=\"facit-matte\">\\[x_T=\\frac{2{,}0\\cdot0+6{,}0\\cdot1{,}0}{2{,}0+6{,}0}=0{,}75\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}75\\) m från den första massan.</p></div>",
-  "familj": "Tyngdpunkt och stabilitet",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "moment__tyngdpunkt_och_stabilitet",
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.75,
-  "tolerans": 0.02,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "m"
-},
-{
-  "id": "4.310",
-  "kap": 4,
-  "omr": "moment",
-  "niva": "E",
-  "poang": "(1/0/0)",
-  "t": "<p>Vilken förändring gör i första hand ett föremål mer stabilt mot att välta?</p><p>A. Högre tyngdpunkt och smalare stödyta<br>B. Lägre tyngdpunkt och bredare stödyta<br>C. Högre tyngdpunkt och bredare stödyta<br>D. Lägre tyngdpunkt och smalare stödyta</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ett föremål välter när tyngdkraftens verkningslinje hamnar utanför stödytan. Lägre tyngdpunkt och bredare stödyta gör att större lutning krävs.</p><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
-  "familj": "Tyngdpunkt och stabilitet",
-  "formaga": [
-    "begrepp"
-  ],
-  "familjNyckel": "moment__tyngdpunkt_och_stabilitet",
-  "svarstyp": "val",
-  "rättSvar": "B",
-  "tolerans": null,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "val"
-},
-{
-  "id": "4.311",
-  "kap": 4,
-  "omr": "moment",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En homogen 2,0 m lång planka väger 12 kg. En låda på 8,0 kg placeras 0,25 m från plankans vänstra ände.</p><p>Var ligger plankans och lådans gemensamma tyngdpunkt räknat från plankans vänstra ände?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Plankans egen tyngdpunkt ligger mitt på plankan, alltså vid 1,0 m.</p><div class=\"facit-matte\">\\[x_T=\\frac{12\\cdot1{,}0+8{,}0\\cdot0{,}25}{12+8{,}0}=\\frac{14}{20}=0{,}70\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}70\\) m från vänster ände.</p></div>",
-  "familj": "Tyngdpunkt och stabilitet",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "familjNyckel": "moment__tyngdpunkt_och_stabilitet",
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.7,
-  "tolerans": 0.02,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "m"
-},
-{
-  "id": "4.312",
-  "kap": 4,
-  "omr": "moment",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En låda är 0,80 m hög och 0,50 m bred. Tyngdpunkten ligger mitt i lådan. Lådan lutas långsamt åt sidan kring den nedre kanten.</p><p>Vid ungefär vilken lutningsvinkel från lodlinjen börjar den välta?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid vältgränsen går tyngdkraftens verkningslinje genom stödytans kant. Från vridkanten till tyngdpunkten är den horisontella sträckan 0,25 m och höjden 0,40 m.</p><div class=\"facit-matte\">\\[\\tan\\theta=\\frac{0{,}25}{0{,}40}=0{,}625\\Rightarrow\\theta\\approx32^\\circ\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(32^\\circ\\).</p></div>",
-  "familj": "Tyngdpunkt och stabilitet",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "familjNyckel": "moment__tyngdpunkt_och_stabilitet",
-  "svarstyp": "numeriskt",
-  "rättSvar": 32,
-  "tolerans": 1,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "°"
-},
-{
-  "id": "7.55",
-  "kap": 7,
-  "omr": "varme",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>200 g vatten med temperaturen 80 °C blandas med 300 g vatten med temperaturen 20 °C. Värmeförluster försummas.</p><p>Vilken blir sluttemperaturen?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Båda mängderna är vatten och har samma specifika värmekapacitet. Sluttemperaturen blir därför det massvägda medelvärdet.</p><div class=\"facit-matte\">\\[T=\\frac{0{,}200\\cdot80+0{,}300\\cdot20}{0{,}500}=44^\\circ\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44^\\circ\\mathrm C\\).</p></div>",
-  "familj": "Värmebalans och blandning",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "varme__varmebalans_och_blandning",
-  "svarstyp": "numeriskt",
-  "rättSvar": 44,
-  "tolerans": 0.7,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "°C"
-},
-{
-  "id": "7.56",
-  "kap": 7,
-  "omr": "varme",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En aluminiumklump med massan 0,50 kg och temperaturen 100 °C läggs i 1,0 kg vatten som håller 20 °C. Använd \\(c_{Al}=900\\ \\mathrm{J/(kg\\cdot K)}\\) och \\(c_v=4180\\ \\mathrm{J/(kg\\cdot K)}\\). Värmeförluster försummas.</p><p>Bestäm sluttemperaturen.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Värmen som aluminiumet avger är lika stor som värmen vattnet tar upp.</p><div class=\"facit-matte\">\\[0{,}50\\cdot900(100-T)=1{,}0\\cdot4180(T-20)\\]\\[T\\approx27{,}8^\\circ\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(28^\\circ\\mathrm C\\).</p></div>",
-  "familj": "Värmebalans och blandning",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "familjNyckel": "varme__varmebalans_och_blandning",
-  "svarstyp": "numeriskt",
-  "rättSvar": 27.8,
-  "tolerans": 0.5,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "°C"
-},
-{
-  "id": "7.57",
-  "kap": 7,
-  "omr": "varme",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>100 g vatten vid 90 °C blandas med 100 g vatten vid 10 °C i ett välisolerat kärl.</p><p>Vilken blir sluttemperaturen?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Massorna och materialet är samma. Då ligger sluttemperaturen mitt emellan starttemperaturerna.</p><div class=\"facit-matte\">\\[T=\\frac{90+10}{2}=50^\\circ\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50^\\circ\\mathrm C\\).</p></div>",
-  "familj": "Värmebalans och blandning",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "familjNyckel": "varme__varmebalans_och_blandning",
-  "svarstyp": "numeriskt",
-  "rättSvar": 50,
-  "tolerans": 0.8,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "°C"
-},
-{
-  "id": "7.58",
-  "kap": 7,
-  "omr": "varme",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>0,40 kg vatten vid 15 °C ska värmas genom att blanda i vatten vid 75 °C. Man vill få 30 °C och försummar värmeförluster.</p><p>Hur stor massa varmt vatten behövs?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Värmen som det varma vattnet avger är lika stor som värmen det kalla vattnet tar upp. Den specifika värmekapaciteten förkortas bort.</p><div class=\"facit-matte\">\\[m(75-30)=0{,}40(30-15)\\]\\[45m=6{,}0\\Rightarrow m=0{,}133\\ \\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(0{,}13\\) kg, alltså 130 g varmt vatten.</p></div>",
-  "familj": "Värmebalans och blandning",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "familjNyckel": "varme__varmebalans_och_blandning",
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.133,
-  "tolerans": 0.004,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "kg"
-},
-{
-  "id": "6.145",
-  "kap": 6,
-  "omr": "gaslagen",
-  "niva": "E",
-  "poang": "(1/0/0)",
-  "t": "<p>Omvandla 25 °C till kelvin.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Kelvintemperaturen fås med \\(T_K=T_C+273{,}15\\).</p><div class=\"facit-matte\">\\[25+273{,}15=298{,}15\\ \\mathrm K\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(298\\ \\mathrm K\\).</p></div>",
-  "familj": "Kelvinskalan",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "gaslagen__kelvinskalan",
-  "svarstyp": "numeriskt",
-  "rättSvar": 298,
-  "tolerans": 1,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "K"
-},
-{
-  "id": "6.146",
-  "kap": 6,
-  "omr": "gaslagen",
-  "niva": "E",
-  "poang": "(1/0/0)",
-  "t": "<p>En gas har temperaturen 350 K. Vilken temperatur är det i grader Celsius?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Gå från kelvin till Celsius genom att subtrahera 273,15.</p><div class=\"facit-matte\">\\[350-273{,}15=76{,}85^\\circ\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(77^\\circ\\mathrm C\\).</p></div>",
-  "familj": "Kelvinskalan",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "gaslagen__kelvinskalan",
-  "svarstyp": "numeriskt",
-  "rättSvar": 77,
-  "tolerans": 1,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "°C"
-},
-{
-  "id": "6.147",
-  "kap": 6,
-  "omr": "gaslagen",
-  "niva": "E",
-  "poang": "(1/0/0)",
-  "t": "<p>Vilken av följande temperaturer är inte fysikaliskt möjlig?</p><p>A. 250 K<br>B. 0 K<br>C. −5 K<br>D. 400 K</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Kelvinskalan börjar vid absoluta nollpunkten, \\(0\\ \\mathrm K\\). Negativa kelvintemperaturer ingår inte i den vanliga termodynamiska temperaturskalan.</p><p class=\"facit-svar\"><strong>Svar:</strong> C, −5 K.</p></div>",
-  "familj": "Kelvinskalan",
-  "formaga": [
-    "begrepp"
-  ],
-  "familjNyckel": "gaslagen__kelvinskalan",
-  "svarstyp": "val",
-  "rättSvar": "C",
-  "tolerans": null,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "val"
-},
-{
-  "id": "3.173",
-  "kap": 3,
-  "omr": "hastighet",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>En motorbåt går med 5,0 m/s relativt vattnet. Strömmen går åt samma håll med 2,0 m/s.</p><p>Vilken fart har båten relativt stranden?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">När hastigheterna är åt samma håll adderas de.</p><div class=\"facit-matte\">\\[v=5{,}0+2{,}0=7{,}0\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\ \\mathrm{m/s}\\).</p></div>",
-  "familj": "Relativ hastighet",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "hastighet__relativ_hastighet",
-  "svarstyp": "numeriskt",
-  "rättSvar": 7,
-  "tolerans": 0.1,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "m/s"
-},
-{
-  "id": "3.174",
-  "kap": 3,
-  "omr": "hastighet",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>Två bilar kör åt samma håll. Den ena kör 90 km/h och den andra 72 km/h.</p><p>Med vilken fart ser föraren i den snabbare bilen den långsammare bilen röra sig bakåt?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Relativfarten för två rörelser åt samma håll är skillnaden mellan farterna.</p><div class=\"facit-matte\">\\[v_{rel}=90-72=18\\ \\mathrm{km/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\ \\mathrm{km/h}\\).</p></div>",
-  "familj": "Relativ hastighet",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "familjNyckel": "hastighet__relativ_hastighet",
-  "svarstyp": "numeriskt",
-  "rättSvar": 18,
-  "tolerans": 0.3,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "km/h"
-},
-{
-  "id": "3.175",
-  "kap": 3,
-  "omr": "hastighet",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>Ett flygplan har farten 240 km/h relativt luften. Det flyger rakt mot en motvind på 40 km/h.</p><p>Vilken fart har planet relativt marken?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Motvinden har motsatt riktning och ska därför subtraheras från flygplanets fart relativt luften.</p><div class=\"facit-matte\">\\[v_{mark}=240-40=200\\ \\mathrm{km/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{km/h}\\).</p></div>",
-  "familj": "Relativ hastighet",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "hastighet__relativ_hastighet",
-  "svarstyp": "numeriskt",
-  "rättSvar": 200,
-  "tolerans": 3,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "km/h"
-},
-{
-  "id": "5.175",
-  "kap": 5,
-  "omr": "effekt",
-  "niva": "E",
-  "poang": "(2/0/0)",
-  "t": "<p>En värmare har effekten 1,5 kW och är påslagen i 20 minuter.</p><p>Hur mycket energi avger den? Svara i MJ.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Energi är effekt gånger tid. Omvandla först 20 min till 1200 s.</p><div class=\"facit-matte\">\\[E=Pt=1500\\cdot1200=1{,}8\\cdot10^6\\ \\mathrm J=1{,}8\\ \\mathrm{MJ}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\ \\mathrm{MJ}\\).</p></div>",
-  "familj": "Effekt som energi per tid",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "effekt__effekt_som_energi_per_tid",
-  "svarstyp": "numeriskt",
-  "rättSvar": 1.8,
-  "tolerans": 0.03,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "MJ"
-},
-{
-  "id": "5.176",
-  "kap": 5,
-  "omr": "effekt",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En bygglift lyfter en last med massan 250 kg lodrätt 6,0 m på 12 s. Förluster försummas.</p><p>Vilken medeleffekt utvecklar liften?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Arbetet mot tyngdkraften är \\(W=mgh\\). Effekten är sedan \\(P=W/t\\).</p><div class=\"facit-matte\">\\[P=\\frac{250\\cdot9{,}82\\cdot6{,}0}{12}=1{,}23\\cdot10^3\\ \\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}23\\ \\mathrm{kW}\\).</p></div>",
-  "familj": "Effekt som energi per tid",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "familjNyckel": "effekt__effekt_som_energi_per_tid",
-  "svarstyp": "numeriskt",
-  "rättSvar": 1.23,
-  "tolerans": 0.03,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "kW"
-},
-{
-  "id": "3.176",
-  "kap": 3,
-  "omr": "konstacc",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En bil startar från vila med den konstanta accelerationen 3,0 m/s² samtidigt som en lastbil passerar samma punkt med konstant fart 12 m/s.</p><p>Efter hur lång tid hinner bilen ikapp lastbilen?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Båda startar från samma position. Bilens sträcka är \\(s_b=\\tfrac12at^2\\), lastbilens \\(s_l=vt\\).</p><div class=\"facit-matte\">\\[1{,}5t^2=12t\\Rightarrow t=8{,}0\\ \\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}0\\) s efter starten.</p></div>",
-  "familj": "Mötes- och ikapproblem med acceleration",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "familjNyckel": "konstacc__motes_och_ikapproblem_med_acceleration",
-  "svarstyp": "numeriskt",
-  "rättSvar": 8,
-  "tolerans": 0.15,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "s"
-},
-{
-  "id": "3.177",
-  "kap": 3,
-  "omr": "konstacc",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En mopedist kör med konstant fart 6,0 m/s och har ett försprång på 30 m. En cyklist startar samtidigt från vila och accelererar konstant med 1,5 m/s² i samma riktning.</p><p>Efter hur lång tid hinner cyklisten ikapp mopedisten?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Sätt cyklistens och mopedistens positioner lika.</p><div class=\"facit-matte\">\\[0{,}75t^2=30+6t\\]\\[t^2-8t-40=0\\]\\[t=4+2\\sqrt{14}\\approx11{,}5\\ \\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(11{,}5\\) s.</p></div>",
-  "familj": "Mötes- och ikapproblem med acceleration",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "familjNyckel": "konstacc__motes_och_ikapproblem_med_acceleration",
-  "svarstyp": "numeriskt",
-  "rättSvar": 11.5,
-  "tolerans": 0.2,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "s"
-},
-{
-  "id": "8.175",
-  "kap": 8,
-  "omr": "kretsar",
-  "niva": "E",
-  "poang": "(1/0/0)",
-  "t": "<p>En resistor på 30 Ω kopplas till spänningen 12 V.</p><p>Hur stor ström går genom resistorn?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd Ohms lag \\(U=RI\\).</p><div class=\"facit-matte\">\\[I=\\frac{U}{R}=\\frac{12}{30}=0{,}40\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\ \\mathrm A\\).</p></div>",
-  "familj": "Ohms lag",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "kretsar__ohms_lag",
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.4,
-  "tolerans": 0.01,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "A"
-},
-{
-  "id": "8.176",
-  "kap": 8,
-  "omr": "kretsar",
-  "niva": "E",
-  "poang": "(1/0/0)",
-  "t": "<p>Genom en komponent går strömmen 0,25 A när spänningen över den är 9,0 V.</p><p>Bestäm resistansen.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut resistansen ur Ohms lag.</p><div class=\"facit-matte\">\\[R=\\frac{U}{I}=\\frac{9{,}0}{0{,}25}=36\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\ \\Omega\\).</p></div>",
-  "familj": "Ohms lag",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "kretsar__ohms_lag",
-  "svarstyp": "numeriskt",
-  "rättSvar": 36,
-  "tolerans": 0.6,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "Ω"
-},
-{
-  "id": "8.177",
-  "kap": 8,
-  "omr": "kretsar",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En kopparledning är 20 m lång och har tvärsnittsarean 2,5 mm². Kopparns resistivitet är \\(1{,}72\\cdot10^{-8}\\ \\Omega\\mathrm m\\).</p><p>Bestäm ledningens resistans.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd \\(R=\\rho L/A\\) och omvandla \\(2{,}5\\ \\mathrm{mm^2}=2{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[R=\\frac{1{,}72\\cdot10^{-8}\\cdot20}{2{,}5\\cdot10^{-6}}=0{,}1376\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(0{,}138\\ \\Omega\\).</p></div>",
-  "familj": "Resistivitet och ledarresistans",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.138,
-  "tolerans": 0.003,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "Ω"
-},
-{
-  "id": "8.178",
-  "kap": 8,
-  "omr": "kretsar",
-  "niva": "E",
-  "poang": "(1/0/0)",
-  "t": "<p>En ledare ersätts av en ledare av samma material som är dubbelt så lång och har halva tvärsnittsarean.</p><p>Hur många gånger större blir resistansen?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Eftersom \\(R=\\rho L/A\\) ger dubbla längden faktorn 2 och halva arean ytterligare faktorn 2.</p><div class=\"facit-matte\">\\[\\frac{R_2}{R_1}=2\\cdot2=4\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Resistansen blir 4 gånger så stor.</p></div>",
-  "familj": "Resistivitet och ledarresistans",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
-  "svarstyp": "numeriskt",
-  "rättSvar": 4,
-  "tolerans": 0,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt"
-},
-{
-  "id": "2.151",
-  "kap": 2,
-  "omr": "densitet",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>Ett homogent föremål har medeldensiteten 0,75 g/cm³ och flyter stilla i vatten med densiteten 1,00 g/cm³.</p><p>Hur stor andel av föremålets volym ligger under vattenytan? Svara i procent.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För ett flytande föremål är lyftkraften lika stor som tyngdkraften. Därför är den nedsänkta volymandelen lika med kvoten mellan föremålets och vätskans densitet.</p><div class=\"facit-matte\">\\[\\frac{V_{nedsänkt}}{V}=\\frac{0{,}75}{1{,}00}=0{,}75\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\,\\%\\) av volymen ligger under ytan.</p></div>",
-  "familj": "Densitet och flytförmåga",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "familjNyckel": "densitet__densitet_och_flytformaga",
-  "svarstyp": "numeriskt",
-  "rättSvar": 75,
-  "tolerans": 1.2,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "%"
-},
-{
-  "id": "9.99",
-  "kap": 9,
-  "omr": "karnreaktioner",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>Vid en fission frigörs ungefär 200 MeV. Använd \\(1\\ \\mathrm{eV}=1{,}602\\cdot10^{-19}\\ \\mathrm J\\).</p><p>Hur många fissioner krävs för att frigöra 1,0 kWh energi?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Omvandla först energin per fission och sedan 1,0 kWh till joule.</p><div class=\"facit-matte\">\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=3{,}204\\cdot10^{-11}\\ \\mathrm J\\]\\[1{,}0\\ \\mathrm{kWh}=3{,}6\\cdot10^6\\ \\mathrm J\\]\\[N=\\frac{3{,}6\\cdot10^6}{3{,}204\\cdot10^{-11}}\\approx1{,}12\\cdot10^{17}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}1\\cdot10^{17}\\) fissioner.</p></div>",
-  "familj": "Fission och energiutvinning",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
-  "svarstyp": "numeriskt",
-  "rättSvar": 1.12e+17,
-  "tolerans": 2000000000000000.0,
-  "självrättning": true,
-  "miniräknare": true,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "fissioner"
-},
-{
-  "id": "5.177",
-  "kap": 5,
-  "omr": "rorelsemangd",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En vagn med massan 0,40 kg rör sig med 5,0 m/s och kolliderar med en stillastående vagn med massan 0,60 kg. Vagnarna fastnar i varandra.</p><p>Vilken gemensam hastighet får de direkt efter kollisionen?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Under den korta kollisionen bevaras systemets rörelsemängd.</p><div class=\"facit-matte\">\\[0{,}40\\cdot5{,}0+0{,}60\\cdot0=(0{,}40+0{,}60)v\\]\\[v=2{,}0\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm{m/s}\\) i den första vagnens ursprungliga riktning.</p></div>",
-  "familj": "Rörelsemängdens bevarande",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "familjNyckel": "rorelsemangd__rorelsemangdens_bevarande",
-  "svarstyp": "numeriskt",
-  "rättSvar": 2.0,
-  "tolerans": 0.03,
-  "självrättning": true,
-  "miniräknare": false,
-  "geogebra": false,
-  "svarFormat": "numeriskt",
-  "svarEnhet": "m/s"
-},
-{
-  "id": "8.179",
-  "kap": 8,
-  "omr": "kretsar",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En resistor kopplas till 6,0 V och då går strömmen 0,20 A. Spänningen ökas till 9,0 V och resistorns temperatur antas oförändrad.</p><p>Hur stor blir strömmen?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm först resistansen med Ohms lag. Samma resistor har samma resistans när temperaturen antas oförändrad.</p><div class=\"facit-matte\">\\[R=\\frac{6{,}0}{0{,}20}=30\\ \\Omega\\]\\[I=\\frac{9{,}0}{30}=0{,}30\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\ \\mathrm A\\).</p></div>",
-  "familj": "Ohms lag",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "familjNyckel": "kretsar__ohms_lag",
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.3,
-  "tolerans": 0.01,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "miniräknare": false,
-  "geogebra": false,
-  "svarEnhet": "A"
-},
-{
-  "id": "8.180",
-  "kap": 8,
-  "omr": "kretsar",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En komponent ska ha strömmen 75 mA när den ansluts till 12 V.</p><p>Vilken resistans behöver komponenten ha?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Omvandla först 75 mA till 0,075 A och lös sedan ut resistansen ur Ohms lag.</p><div class=\"facit-matte\">\\[R=\\frac{U}{I}=\\frac{12}{0{,}075}=160\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(160\\ \\Omega\\).</p></div>",
-  "familj": "Ohms lag",
-  "formaga": [
-    "procedur"
-  ],
-  "familjNyckel": "kretsar__ohms_lag",
-  "svarstyp": "numeriskt",
-  "rättSvar": 160,
-  "tolerans": 2.4,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "miniräknare": false,
-  "geogebra": false,
-  "svarEnhet": "Ω"
-},
-{
-  "id": "3.178",
-  "kap": 3,
-  "omr": "hastighet",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En bil kör 30 km med medelhastigheten 60 km/h och därefter 30 km med medelhastigheten 90 km/h.</p><p>Bestäm medelhastigheten för hela resan.</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Medelhastigheten är total sträcka delad med total tid. Man får inte ta vanligt medelvärde av 60 och 90 eftersom delsträckorna tar olika lång tid.</p><div class=\"facit-matte\">\\[t=\\frac{30}{60}+\\frac{30}{90}=\\frac56\\ \\mathrm h\\]\\[v_{med}=\\frac{60}{5/6}=72\\ \\mathrm{km/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(72\\ \\mathrm{km/h}\\).</p></div>",
-  "familj": "Medelhastighet",
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "familjNyckel": "hastighet__medelhastighet",
-  "svarstyp": "numeriskt",
-  "rättSvar": 72,
-  "tolerans": 1.1,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "miniräknare": false,
-  "geogebra": false,
-  "svarEnhet": "km/h"
-},
-{
-  "id": "3.179",
-  "kap": 3,
-  "omr": "hastighet",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En löpare springer första halvan av tiden med 4,0 m/s och den andra halvan av tiden med 6,0 m/s.</p><p>Vilken blir medelhastigheten under hela tidsintervallet?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Här är tiderna lika långa. Sätt varje deltid till \\(t\\). Då blir totalsträckan \\(4t+6t=10t\\) och totaltiden \\(2t\\).</p><div class=\"facit-matte\">\\[v_{med}=\\frac{10t}{2t}=5{,}0\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm{m/s}\\).</p></div>",
-  "familj": "Medelhastighet",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "familjNyckel": "hastighet__medelhastighet",
-  "svarstyp": "numeriskt",
-  "rättSvar": 5.0,
-  "tolerans": 0.08,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "miniräknare": false,
-  "geogebra": false,
-  "svarEnhet": "m/s"
-},
-{
-  "id": "8.181",
-  "kap": 8,
-  "omr": "laddning",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>Två från början neutrala föremål gnids mot varandra. Det ena får laddningen \\(+6{,}4\\ \\mathrm{nC}\\).</p><p>Hur många elektroner har flyttats mellan föremålen? Använd \\(e=1{,}60\\cdot10^{-19}\\ \\mathrm C\\).</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Laddning bevaras. Storleken på den överförda laddningen är 6,4 nC. Antalet elektroner fås av \\(n=|Q|/e\\).</p><div class=\"facit-matte\">\\[n=\\frac{6{,}4\\cdot10^{-9}}{1{,}60\\cdot10^{-19}}=4{,}0\\cdot10^{10}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\cdot10^{10}\\) elektroner.</p></div>",
-  "familj": "Laddning och antal elektroner",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "familjNyckel": "laddning__laddning_och_antal_elektroner",
-  "svarstyp": "numeriskt",
-  "rättSvar": 40000000000.0,
-  "tolerans": 600000000.0,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "miniräknare": true,
-  "geogebra": false,
-  "svarEnhet": "elektroner"
-},
-{
-  "id": "8.182",
-  "kap": 8,
-  "omr": "laddning",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>Ett litet metallföremål har laddningen \\(-1{,}28\\ \\mu\\mathrm C\\). Hälften av överskottselektronerna avlägsnas.</p><p>Vilken laddning har föremålet därefter, i \\(\\mu\\mathrm C\\)?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">När hälften av överskottselektronerna tas bort halveras den negativa laddningens storlek.</p><div class=\"facit-matte\">\\[Q_2=\\frac{-1{,}28}{2}=-0{,}64\\ \\mu\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}64\\ \\mu\\mathrm C\\).</p></div>",
-  "familj": "Laddning och antal elektroner",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "familjNyckel": "laddning__laddning_och_antal_elektroner",
-  "svarstyp": "numeriskt",
-  "rättSvar": -0.64,
-  "tolerans": 0.02,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "miniräknare": false,
-  "geogebra": false,
-  "svarEnhet": "µC"
-},
-{
-  "id": "6.148",
-  "kap": 6,
-  "omr": "gaslagen",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>Temperaturen hos en gas ökar från 20 °C till 80 °C.</p><p>Med vilken faktor har den absoluta temperaturen ökat?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Temperaturkvoter måste beräknas på kelvinskalan.</p><div class=\"facit-matte\">\\[T_1=293{,}15\\ \\mathrm K,\\qquad T_2=353{,}15\\ \\mathrm K\\]\\[\\frac{T_2}{T_1}=1{,}205\\approx1{,}20\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Den absoluta temperaturen har ökat med faktorn cirka \\(1{,}20\\).</p></div>",
-  "familj": "Kelvinskalan",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "familjNyckel": "gaslagen__kelvinskalan",
-  "svarstyp": "numeriskt",
-  "rättSvar": 1.2,
-  "tolerans": 0.02,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "miniräknare": true,
-  "geogebra": false
-},
-{
-  "id": "6.149",
-  "kap": 6,
-  "omr": "gaslagen",
-  "niva": "C",
-  "poang": "(1/2/0)",
-  "t": "<p>En gas kyls från 400 K till 300 K.</p><p>Hur stor är temperaturminskningen i procent räknat på den absoluta temperaturen?</p>",
-  "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Procentuell förändring beräknas från förändringen dividerad med ursprungsvärdet.</p><div class=\"facit-matte\">\\[\\frac{400-300}{400}=0{,}25=25\\,\\%\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen minskar med \\(25\\,\\%\\).</p></div>",
-  "familj": "Kelvinskalan",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "familjNyckel": "gaslagen__kelvinskalan",
-  "svarstyp": "numeriskt",
-  "rättSvar": 25,
-  "tolerans": 0.5,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "miniräknare": false,
-  "geogebra": false,
-  "svarEnhet": "%"
-},
+  {
+    "id": "6.141",
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En instängd gas har volymen 2,4 liter vid trycket 100 kPa. Temperaturen är konstant. Gasen komprimeras till 1,5 liter.</p><p>Vilket blir det nya trycket?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid konstant temperatur gäller Boyles lag: \\(p_1V_1=p_2V_2\\).</p><div class=\"facit-matte\">\\[p_2=\\frac{p_1V_1}{V_2}=\\frac{100\\cdot2{,}4}{1{,}5}=160\\ \\mathrm{kPa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(160\\ \\mathrm{kPa}\\).</p></div>",
+    "familj": "Boyles lag",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__boyles_lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 160,
+    "tolerans": 2.4,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kPa"
+  },
+  {
+    "id": "6.142",
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En luftbubbla har volymen 3,0 ml vid trycket 95 kPa. Temperaturen kan antas konstant. När trycket ökar till 120 kPa, vilken volym får bubblan?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd \\(p_1V_1=p_2V_2\\) och lös ut \\(V_2\\).</p><div class=\"facit-matte\">\\[V_2=\\frac{95\\cdot3{,}0}{120}=2{,}375\\ \\mathrm{ml}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}38\\ \\mathrm{ml}\\).</p></div>",
+    "familj": "Boyles lag",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__boyles_lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.38,
+    "tolerans": 0.04,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "ml"
+  },
+  {
+    "id": "6.143",
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En stängd spruta innehåller 60 ml luft vid 101 kPa. Kolven trycks långsamt in tills volymen är 30 ml. Temperaturen är oförändrad.</p><p>Bestäm gasens tryck.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">När volymen halveras vid konstant temperatur måste trycket fördubblas.</p><div class=\"facit-matte\">\\[p_2=\\frac{101\\cdot60}{30}=202\\ \\mathrm{kPa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(202\\ \\mathrm{kPa}\\).</p></div>",
+    "familj": "Boyles lag",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "gaslagen__boyles_lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 202,
+    "tolerans": 3,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kPa"
+  },
+  {
+    "id": "6.144",
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En gas hålls vid konstant temperatur. Trycket ökar till 1,25 gånger det ursprungliga trycket.</p><p>Hur stor blir den nya volymen jämfört med den ursprungliga? Svara med faktorn \\(V_2/V_1\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Boyles lag ger \\(p_1V_1=p_2V_2\\). Sätt \\(p_2=1{,}25p_1\\).</p><div class=\"facit-matte\">\\[\\frac{V_2}{V_1}=\\frac{p_1}{1{,}25p_1}=0{,}80\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen blir \\(0{,}80\\) av den ursprungliga, alltså minskar den med 20 %.</p></div>",
+    "familj": "Boyles lag",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__boyles_lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.305",
+    "kap": 4,
+    "omr": "fjadrar",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Två likadana fjädrar har vardera fjäderkonstanten 120 N/m och kopplas i serie.</p><p>Bestäm den ekvivalenta fjäderkonstanten.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För två fjädrar i serie gäller \\(1/k=1/k_1+1/k_2\\).</p><div class=\"facit-matte\">\\[\\frac1k=\\frac1{120}+\\frac1{120}=\\frac1{60}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=60\\ \\mathrm{N/m}\\).</p></div>",
+    "familj": "Fjädrar i serie och parallell",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "fjadrar__fjadrar_i_serie_och_parallell",
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 0.9,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N/m"
+  },
+  {
+    "id": "4.306",
+    "kap": 4,
+    "omr": "fjadrar",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Två fjädrar med fjäderkonstanterna 80 N/m och 120 N/m kopplas i serie.</p><p>Bestäm den ekvivalenta fjäderkonstanten.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">I seriekoppling adderas fjädrarnas inverser.</p><div class=\"facit-matte\">\\[\\frac1k=\\frac1{80}+\\frac1{120}=\\frac{3+2}{240}=\\frac1{48}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\ \\mathrm{N/m}\\).</p></div>",
+    "familj": "Fjädrar i serie och parallell",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "fjadrar__fjadrar_i_serie_och_parallell",
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": 0.72,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N/m"
+  },
+  {
+    "id": "4.307",
+    "kap": 4,
+    "omr": "fjadrar",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Två fjädrar med fjäderkonstanterna 75 N/m och 125 N/m sitter parallellt och belastas tillsammans.</p><p>Bestäm den ekvivalenta fjäderkonstanten.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För parallellkopplade fjädrar adderas fjäderkonstanterna.</p><div class=\"facit-matte\">\\[k=75+125=200\\ \\mathrm{N/m}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{N/m}\\).</p></div>",
+    "familj": "Fjädrar i serie och parallell",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "fjadrar__fjadrar_i_serie_och_parallell",
+    "svarstyp": "numeriskt",
+    "rättSvar": 200,
+    "tolerans": 3,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N/m"
+  },
+  {
+    "id": "4.308",
+    "kap": 4,
+    "omr": "fjadrar",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Två fjädrar med \\(k=100\\ \\mathrm{N/m}\\) kopplas i serie. Den seriekopplingen kopplas sedan parallellt med en fjäder som har \\(k=50\\ \\mathrm{N/m}\\).</p><p>Bestäm hela systemets ekvivalenta fjäderkonstant.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Börja med de två fjädrarna i serie. Två lika fjädrar på 100 N/m ger tillsammans 50 N/m. Denna gren ligger sedan parallellt med ytterligare 50 N/m.</p><div class=\"facit-matte\">\\[k_{\\rm serie}=50\\ \\mathrm{N/m},\\qquad k_{\\rm totalt}=50+50=100\\ \\mathrm{N/m}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\ \\mathrm{N/m}\\).</p></div>",
+    "familj": "Fjädrar i serie och parallell",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "fjadrar__fjadrar_i_serie_och_parallell",
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 1.5,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "N/m"
+  },
+  {
+    "id": "8.171",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En liten kula har laddningen \\(-3{,}2\\ \\mathrm{nC}\\).</p><p>Hur många överskottselektroner motsvarar det? Använd \\(e=1{,}602\\cdot10^{-19}\\ \\mathrm C\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Antalet elektroner fås av \\(n=|Q|/e\\).</p><div class=\"facit-matte\">\\[n=\\frac{3{,}2\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx2{,}0\\cdot10^{10}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}0\\cdot10^{10}\\) överskottselektroner.</p></div>",
+    "familj": "Laddning och antal elektroner",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "laddning__laddning_och_antal_elektroner",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20000000000,
+    "tolerans": 300000000,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "elektroner"
+  },
+  {
+    "id": "8.172",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett föremål har laddningen \\(+4{,}8\\ \\mathrm{nC}\\).</p><p>Hur många elektroner har avlägsnats från föremålet?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Positiv laddning betyder underskott av elektroner. Beräkna antalet med \\(n=Q/e\\).</p><div class=\"facit-matte\">\\[n=\\frac{4{,}8\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx3{,}0\\cdot10^{10}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(3{,}0\\cdot10^{10}\\) elektroner har avlägsnats.</p></div>",
+    "familj": "Laddning och antal elektroner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "laddning__laddning_och_antal_elektroner",
+    "svarstyp": "numeriskt",
+    "rättSvar": 30000000000,
+    "tolerans": 450000000,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "elektroner"
+  },
+  {
+    "id": "8.173",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En plaststav får \\(5{,}0\\cdot10^{12}\\) extra elektroner.</p><p>Bestäm stavens laddning i nC.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Extra elektroner ger negativ laddning.</p><div class=\"facit-matte\">\\[Q=-ne=-(5{,}0\\cdot10^{12})(1{,}602\\cdot10^{-19})=-8{,}01\\cdot10^{-7}\\ \\mathrm C=-801\\ \\mathrm{nC}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-801\\ \\mathrm{nC}\\).</p></div>",
+    "familj": "Laddning och antal elektroner",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "laddning__laddning_och_antal_elektroner",
+    "svarstyp": "numeriskt",
+    "rättSvar": -801,
+    "tolerans": 12,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "nC"
+  },
+  {
+    "id": "8.174",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Vid kontakt mellan två isolerade metallkulor överförs \\(2{,}5\\cdot10^8\\) elektroner från kula A till kula B. Kulorna var från början neutrala.</p><p>Vilken laddning får kula B i pC?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">B tar emot elektroner och blir därför negativt laddad.</p><div class=\"facit-matte\">\\[Q_B=-(2{,}5\\cdot10^8)(1{,}602\\cdot10^{-19})=-4{,}005\\cdot10^{-11}\\ \\mathrm C=-40{,}1\\ \\mathrm{pC}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-40\\ \\mathrm{pC}\\).</p></div>",
+    "familj": "Laddning och antal elektroner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "laddning__laddning_och_antal_elektroner",
+    "svarstyp": "numeriskt",
+    "rättSvar": -40.1,
+    "tolerans": 0.7,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "pC"
+  },
+  {
+    "id": "4.309",
+    "kap": 4,
+    "omr": "moment",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Två punktmassor sitter på en lätt stång. En massa på 2,0 kg sitter vid \\(x=0\\) m och en massa på 6,0 kg vid \\(x=1{,}0\\) m.</p><p>Var ligger systemets tyngdpunkt räknat från \\(x=0\\)?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Tyngdpunkten är det massvägda medelvärdet av positionerna.</p><div class=\"facit-matte\">\\[x_T=\\frac{2{,}0\\cdot0+6{,}0\\cdot1{,}0}{2{,}0+6{,}0}=0{,}75\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}75\\) m från den första massan.</p></div>",
+    "familj": "Tyngdpunkt och stabilitet",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "moment__tyngdpunkt_och_stabilitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.75,
+    "tolerans": 0.02,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.310",
+    "kap": 4,
+    "omr": "moment",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Vilken förändring gör i första hand ett föremål mer stabilt mot att välta?</p><p>A. Högre tyngdpunkt och smalare stödyta<br>B. Lägre tyngdpunkt och bredare stödyta<br>C. Högre tyngdpunkt och bredare stödyta<br>D. Lägre tyngdpunkt och smalare stödyta</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ett föremål välter när tyngdkraftens verkningslinje hamnar utanför stödytan. Lägre tyngdpunkt och bredare stödyta gör att större lutning krävs.</p><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "familj": "Tyngdpunkt och stabilitet",
+    "formaga": [
+      "begrepp"
+    ],
+    "familjNyckel": "moment__tyngdpunkt_och_stabilitet",
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "val"
+  },
+  {
+    "id": "4.311",
+    "kap": 4,
+    "omr": "moment",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En homogen 2,0 m lång planka väger 12 kg. En låda på 8,0 kg placeras 0,25 m från plankans vänstra ände.</p><p>Var ligger plankans och lådans gemensamma tyngdpunkt räknat från plankans vänstra ände?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Plankans egen tyngdpunkt ligger mitt på plankan, alltså vid 1,0 m.</p><div class=\"facit-matte\">\\[x_T=\\frac{12\\cdot1{,}0+8{,}0\\cdot0{,}25}{12+8{,}0}=\\frac{14}{20}=0{,}70\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}70\\) m från vänster ände.</p></div>",
+    "familj": "Tyngdpunkt och stabilitet",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "moment__tyngdpunkt_och_stabilitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.7,
+    "tolerans": 0.02,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.312",
+    "kap": 4,
+    "omr": "moment",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En låda är 0,80 m hög och 0,50 m bred. Tyngdpunkten ligger mitt i lådan. Lådan lutas långsamt åt sidan kring den nedre kanten.</p><p>Vid ungefär vilken lutningsvinkel från lodlinjen börjar den välta?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid vältgränsen går tyngdkraftens verkningslinje genom stödytans kant. Från vridkanten till tyngdpunkten är den horisontella sträckan 0,25 m och höjden 0,40 m.</p><div class=\"facit-matte\">\\[\\tan\\theta=\\frac{0{,}25}{0{,}40}=0{,}625\\Rightarrow\\theta\\approx32^\\circ\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(32^\\circ\\).</p></div>",
+    "familj": "Tyngdpunkt och stabilitet",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "moment__tyngdpunkt_och_stabilitet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": 1,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "7.55",
+    "kap": 7,
+    "omr": "varme",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>200 g vatten med temperaturen 80 °C blandas med 300 g vatten med temperaturen 20 °C. Värmeförluster försummas.</p><p>Vilken blir sluttemperaturen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Båda mängderna är vatten och har samma specifika värmekapacitet. Sluttemperaturen blir därför det massvägda medelvärdet.</p><div class=\"facit-matte\">\\[T=\\frac{0{,}200\\cdot80+0{,}300\\cdot20}{0{,}500}=44^\\circ\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44^\\circ\\mathrm C\\).</p></div>",
+    "familj": "Värmebalans och blandning",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "varme__varmebalans_och_blandning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 44,
+    "tolerans": 0.7,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°C"
+  },
+  {
+    "id": "7.56",
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En aluminiumklump med massan 0,50 kg och temperaturen 100 °C läggs i 1,0 kg vatten som håller 20 °C. Använd \\(c_{Al}=900\\ \\mathrm{J/(kg\\cdot K)}\\) och \\(c_v=4180\\ \\mathrm{J/(kg\\cdot K)}\\). Värmeförluster försummas.</p><p>Bestäm sluttemperaturen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Värmen som aluminiumet avger är lika stor som värmen vattnet tar upp.</p><div class=\"facit-matte\">\\[0{,}50\\cdot900(100-T)=1{,}0\\cdot4180(T-20)\\]\\[T\\approx27{,}8^\\circ\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(28^\\circ\\mathrm C\\).</p></div>",
+    "familj": "Värmebalans och blandning",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "varme__varmebalans_och_blandning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 27.8,
+    "tolerans": 0.5,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°C"
+  },
+  {
+    "id": "7.57",
+    "kap": 7,
+    "omr": "varme",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>100 g vatten vid 90 °C blandas med 100 g vatten vid 10 °C i ett välisolerat kärl.</p><p>Vilken blir sluttemperaturen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Massorna och materialet är samma. Då ligger sluttemperaturen mitt emellan starttemperaturerna.</p><div class=\"facit-matte\">\\[T=\\frac{90+10}{2}=50^\\circ\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50^\\circ\\mathrm C\\).</p></div>",
+    "familj": "Värmebalans och blandning",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "familjNyckel": "varme__varmebalans_och_blandning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 0.8,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°C"
+  },
+  {
+    "id": "7.58",
+    "kap": 7,
+    "omr": "varme",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>0,40 kg vatten vid 15 °C ska värmas genom att blanda i vatten vid 75 °C. Man vill få 30 °C och försummar värmeförluster.</p><p>Hur stor massa varmt vatten behövs?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Värmen som det varma vattnet avger är lika stor som värmen det kalla vattnet tar upp. Den specifika värmekapaciteten förkortas bort.</p><div class=\"facit-matte\">\\[m(75-30)=0{,}40(30-15)\\]\\[45m=6{,}0\\Rightarrow m=0{,}133\\ \\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(0{,}13\\) kg, alltså 130 g varmt vatten.</p></div>",
+    "familj": "Värmebalans och blandning",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "varme__varmebalans_och_blandning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.133,
+    "tolerans": 0.004,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kg"
+  },
+  {
+    "id": "6.145",
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Omvandla 25 °C till kelvin.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Kelvintemperaturen fås med \\(T_K=T_C+273{,}15\\).</p><div class=\"facit-matte\">\\[25+273{,}15=298{,}15\\ \\mathrm K\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(298\\ \\mathrm K\\).</p></div>",
+    "familj": "Kelvinskalan",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__kelvinskalan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 298,
+    "tolerans": 1,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "K"
+  },
+  {
+    "id": "6.146",
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En gas har temperaturen 350 K. Vilken temperatur är det i grader Celsius?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Gå från kelvin till Celsius genom att subtrahera 273,15.</p><div class=\"facit-matte\">\\[350-273{,}15=76{,}85^\\circ\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(77^\\circ\\mathrm C\\).</p></div>",
+    "familj": "Kelvinskalan",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__kelvinskalan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 77,
+    "tolerans": 1,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°C"
+  },
+  {
+    "id": "6.147",
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Vilken av följande temperaturer är inte fysikaliskt möjlig?</p><p>A. 250 K<br>B. 0 K<br>C. −5 K<br>D. 400 K</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Kelvinskalan börjar vid absoluta nollpunkten, \\(0\\ \\mathrm K\\). Negativa kelvintemperaturer ingår inte i den vanliga termodynamiska temperaturskalan.</p><p class=\"facit-svar\"><strong>Svar:</strong> C, −5 K.</p></div>",
+    "familj": "Kelvinskalan",
+    "formaga": [
+      "begrepp"
+    ],
+    "familjNyckel": "gaslagen__kelvinskalan",
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "val"
+  },
+  {
+    "id": "3.173",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En motorbåt går med 5,0 m/s relativt vattnet. Strömmen går åt samma håll med 2,0 m/s.</p><p>Vilken fart har båten relativt stranden?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">När hastigheterna är åt samma håll adderas de.</p><div class=\"facit-matte\">\\[v=5{,}0+2{,}0=7{,}0\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Relativ hastighet",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "hastighet__relativ_hastighet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m/s"
+  },
+  {
+    "id": "3.174",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Två bilar kör åt samma håll. Den ena kör 90 km/h och den andra 72 km/h.</p><p>Med vilken fart ser föraren i den snabbare bilen den långsammare bilen röra sig bakåt?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Relativfarten för två rörelser åt samma håll är skillnaden mellan farterna.</p><div class=\"facit-matte\">\\[v_{rel}=90-72=18\\ \\mathrm{km/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\ \\mathrm{km/h}\\).</p></div>",
+    "familj": "Relativ hastighet",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "hastighet__relativ_hastighet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": 0.3,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "km/h"
+  },
+  {
+    "id": "3.175",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett flygplan har farten 240 km/h relativt luften. Det flyger rakt mot en motvind på 40 km/h.</p><p>Vilken fart har planet relativt marken?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Motvinden har motsatt riktning och ska därför subtraheras från flygplanets fart relativt luften.</p><div class=\"facit-matte\">\\[v_{mark}=240-40=200\\ \\mathrm{km/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{km/h}\\).</p></div>",
+    "familj": "Relativ hastighet",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "hastighet__relativ_hastighet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 200,
+    "tolerans": 3,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "km/h"
+  },
+  {
+    "id": "5.175",
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En värmare har effekten 1,5 kW och är påslagen i 20 minuter.</p><p>Hur mycket energi avger den? Svara i MJ.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Energi är effekt gånger tid. Omvandla först 20 min till 1200 s.</p><div class=\"facit-matte\">\\[E=Pt=1500\\cdot1200=1{,}8\\cdot10^6\\ \\mathrm J=1{,}8\\ \\mathrm{MJ}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\ \\mathrm{MJ}\\).</p></div>",
+    "familj": "Energi, effekt och tid",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "effekt__energi_effekt_och_tid",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.8,
+    "tolerans": 0.03,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "MJ",
+    "familjTidigare": "Effekt som energi per tid",
+    "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid"
+  },
+  {
+    "id": "5.176",
+    "kap": 5,
+    "omr": "effekt",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En bygglift lyfter en last med massan 250 kg lodrätt 6,0 m på 12 s. Förluster försummas.</p><p>Vilken medeleffekt utvecklar liften?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Arbetet mot tyngdkraften är \\(W=mgh\\). Effekten är sedan \\(P=W/t\\).</p><div class=\"facit-matte\">\\[P=\\frac{250\\cdot9{,}82\\cdot6{,}0}{12}=1{,}23\\cdot10^3\\ \\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}23\\ \\mathrm{kW}\\).</p></div>",
+    "familj": "Energi, effekt och tid",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "effekt__energi_effekt_och_tid",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.23,
+    "tolerans": 0.03,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kW",
+    "familjTidigare": "Effekt som energi per tid",
+    "familjNyckelFöreHierarki": "effekt__effekt_som_energi_per_tid"
+  },
+  {
+    "id": "3.176",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En bil startar från vila med den konstanta accelerationen 3,0 m/s² samtidigt som en lastbil passerar samma punkt med konstant fart 12 m/s.</p><p>Efter hur lång tid hinner bilen ikapp lastbilen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Båda startar från samma position. Bilens sträcka är \\(s_b=\\tfrac12at^2\\), lastbilens \\(s_l=vt\\).</p><div class=\"facit-matte\">\\[1{,}5t^2=12t\\Rightarrow t=8{,}0\\ \\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}0\\) s efter starten.</p></div>",
+    "familj": "Mötes- och ikapproblem med acceleration",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "konstacc__motes_och_ikapproblem_med_acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0.15,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "s"
+  },
+  {
+    "id": "3.177",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En mopedist kör med konstant fart 6,0 m/s och har ett försprång på 30 m. En cyklist startar samtidigt från vila och accelererar konstant med 1,5 m/s² i samma riktning.</p><p>Efter hur lång tid hinner cyklisten ikapp mopedisten?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Sätt cyklistens och mopedistens positioner lika.</p><div class=\"facit-matte\">\\[0{,}75t^2=30+6t\\]\\[t^2-8t-40=0\\]\\[t=4+2\\sqrt{14}\\approx11{,}5\\ \\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(11{,}5\\) s.</p></div>",
+    "familj": "Mötes- och ikapproblem med acceleration",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "konstacc__motes_och_ikapproblem_med_acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11.5,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "s"
+  },
+  {
+    "id": "8.175",
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En resistor på 30 Ω kopplas till spänningen 12 V.</p><p>Hur stor ström går genom resistorn?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd Ohms lag \\(U=RI\\).</p><div class=\"facit-matte\">\\[I=\\frac{U}{R}=\\frac{12}{30}=0{,}40\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\ \\mathrm A\\).</p></div>",
+    "familj": "Ohms lag",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "kretsar__ohms_lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "A"
+  },
+  {
+    "id": "8.176",
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>Genom en komponent går strömmen 0,25 A när spänningen över den är 9,0 V.</p><p>Bestäm resistansen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut resistansen ur Ohms lag.</p><div class=\"facit-matte\">\\[R=\\frac{U}{I}=\\frac{9{,}0}{0{,}25}=36\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\ \\Omega\\).</p></div>",
+    "familj": "Ohms lag",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "kretsar__ohms_lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "Ω"
+  },
+  {
+    "id": "8.177",
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En kopparledning är 20 m lång och har tvärsnittsarean 2,5 mm². Kopparns resistivitet är \\(1{,}72\\cdot10^{-8}\\ \\Omega\\mathrm m\\).</p><p>Bestäm ledningens resistans.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd \\(R=\\rho L/A\\) och omvandla \\(2{,}5\\ \\mathrm{mm^2}=2{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[R=\\frac{1{,}72\\cdot10^{-8}\\cdot20}{2{,}5\\cdot10^{-6}}=0{,}1376\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(0{,}138\\ \\Omega\\).</p></div>",
+    "familj": "Resistivitet och ledarresistans",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.138,
+    "tolerans": 0.003,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "Ω"
+  },
+  {
+    "id": "8.178",
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En ledare ersätts av en ledare av samma material som är dubbelt så lång och har halva tvärsnittsarean.</p><p>Hur många gånger större blir resistansen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Eftersom \\(R=\\rho L/A\\) ger dubbla längden faktorn 2 och halva arean ytterligare faktorn 2.</p><div class=\"facit-matte\">\\[\\frac{R_2}{R_1}=2\\cdot2=4\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Resistansen blir 4 gånger så stor.</p></div>",
+    "familj": "Resistivitet och ledarresistans",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.151",
+    "kap": 2,
+    "omr": "densitet",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Ett homogent föremål har medeldensiteten 0,75 g/cm³ och flyter stilla i vatten med densiteten 1,00 g/cm³.</p><p>Hur stor andel av föremålets volym ligger under vattenytan? Svara i procent.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För ett flytande föremål är lyftkraften lika stor som tyngdkraften. Därför är den nedsänkta volymandelen lika med kvoten mellan föremålets och vätskans densitet.</p><div class=\"facit-matte\">\\[\\frac{V_{nedsänkt}}{V}=\\frac{0{,}75}{1{,}00}=0{,}75\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\,\\%\\) av volymen ligger under ytan.</p></div>",
+    "familj": "Densitet och flytförmåga",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "familjNyckel": "densitet__densitet_och_flytformaga",
+    "svarstyp": "numeriskt",
+    "rättSvar": 75,
+    "tolerans": 1.2,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "9.99",
+    "kap": 9,
+    "omr": "karnreaktioner",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Vid en fission frigörs ungefär 200 MeV. Använd \\(1\\ \\mathrm{eV}=1{,}602\\cdot10^{-19}\\ \\mathrm J\\).</p><p>Hur många fissioner krävs för att frigöra 1,0 kWh energi?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Omvandla först energin per fission och sedan 1,0 kWh till joule.</p><div class=\"facit-matte\">\\[E_f=200\\cdot10^6\\cdot1{,}602\\cdot10^{-19}=3{,}204\\cdot10^{-11}\\ \\mathrm J\\]\\[1{,}0\\ \\mathrm{kWh}=3{,}6\\cdot10^6\\ \\mathrm J\\]\\[N=\\frac{3{,}6\\cdot10^6}{3{,}204\\cdot10^{-11}}\\approx1{,}12\\cdot10^{17}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}1\\cdot10^{17}\\) fissioner.</p></div>",
+    "familj": "Fission och energiutvinning",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
+    "svarstyp": "numeriskt",
+    "rättSvar": 112000000000000000,
+    "tolerans": 2000000000000000,
+    "självrättning": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "fissioner"
+  },
+  {
+    "id": "5.177",
+    "kap": 5,
+    "omr": "rorelsemangd",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En vagn med massan 0,40 kg rör sig med 5,0 m/s och kolliderar med en stillastående vagn med massan 0,60 kg. Vagnarna fastnar i varandra.</p><p>Vilken gemensam hastighet får de direkt efter kollisionen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Under den korta kollisionen bevaras systemets rörelsemängd.</p><div class=\"facit-matte\">\\[0{,}40\\cdot5{,}0+0{,}60\\cdot0=(0{,}40+0{,}60)v\\]\\[v=2{,}0\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm{m/s}\\) i den första vagnens ursprungliga riktning.</p></div>",
+    "familj": "Rörelsemängdens bevarande",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "rorelsemangd__rorelsemangdens_bevarande",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0.03,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m/s"
+  },
+  {
+    "id": "8.179",
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En resistor kopplas till 6,0 V och då går strömmen 0,20 A. Spänningen ökas till 9,0 V och resistorns temperatur antas oförändrad.</p><p>Hur stor blir strömmen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm först resistansen med Ohms lag. Samma resistor har samma resistans när temperaturen antas oförändrad.</p><div class=\"facit-matte\">\\[R=\\frac{6{,}0}{0{,}20}=30\\ \\Omega\\]\\[I=\\frac{9{,}0}{30}=0{,}30\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\ \\mathrm A\\).</p></div>",
+    "familj": "Ohms lag",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "kretsar__ohms_lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.3,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "miniräknare": false,
+    "geogebra": false,
+    "svarEnhet": "A"
+  },
+  {
+    "id": "8.180",
+    "kap": 8,
+    "omr": "kretsar",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En komponent ska ha strömmen 75 mA när den ansluts till 12 V.</p><p>Vilken resistans behöver komponenten ha?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Omvandla först 75 mA till 0,075 A och lös sedan ut resistansen ur Ohms lag.</p><div class=\"facit-matte\">\\[R=\\frac{U}{I}=\\frac{12}{0{,}075}=160\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(160\\ \\Omega\\).</p></div>",
+    "familj": "Ohms lag",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "kretsar__ohms_lag",
+    "svarstyp": "numeriskt",
+    "rättSvar": 160,
+    "tolerans": 2.4,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "miniräknare": false,
+    "geogebra": false,
+    "svarEnhet": "Ω"
+  },
+  {
+    "id": "3.178",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En bil kör 30 km med medelhastigheten 60 km/h och därefter 30 km med medelhastigheten 90 km/h.</p><p>Bestäm medelhastigheten för hela resan.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Medelhastigheten är total sträcka delad med total tid. Man får inte ta vanligt medelvärde av 60 och 90 eftersom delsträckorna tar olika lång tid.</p><div class=\"facit-matte\">\\[t=\\frac{30}{60}+\\frac{30}{90}=\\frac56\\ \\mathrm h\\]\\[v_{med}=\\frac{60}{5/6}=72\\ \\mathrm{km/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(72\\ \\mathrm{km/h}\\).</p></div>",
+    "familj": "Medelhastighet",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "familjNyckel": "hastighet__medelhastighet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 72,
+    "tolerans": 1.1,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "miniräknare": false,
+    "geogebra": false,
+    "svarEnhet": "km/h"
+  },
+  {
+    "id": "3.179",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En löpare springer första halvan av tiden med 4,0 m/s och den andra halvan av tiden med 6,0 m/s.</p><p>Vilken blir medelhastigheten under hela tidsintervallet?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Här är tiderna lika långa. Sätt varje deltid till \\(t\\). Då blir totalsträckan \\(4t+6t=10t\\) och totaltiden \\(2t\\).</p><div class=\"facit-matte\">\\[v_{med}=\\frac{10t}{2t}=5{,}0\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Medelhastighet",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "familjNyckel": "hastighet__medelhastighet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0.08,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "miniräknare": false,
+    "geogebra": false,
+    "svarEnhet": "m/s"
+  },
+  {
+    "id": "8.181",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Två från början neutrala föremål gnids mot varandra. Det ena får laddningen \\(+6{,}4\\ \\mathrm{nC}\\).</p><p>Hur många elektroner har flyttats mellan föremålen? Använd \\(e=1{,}60\\cdot10^{-19}\\ \\mathrm C\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Laddning bevaras. Storleken på den överförda laddningen är 6,4 nC. Antalet elektroner fås av \\(n=|Q|/e\\).</p><div class=\"facit-matte\">\\[n=\\frac{6{,}4\\cdot10^{-9}}{1{,}60\\cdot10^{-19}}=4{,}0\\cdot10^{10}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\cdot10^{10}\\) elektroner.</p></div>",
+    "familj": "Laddning och antal elektroner",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "familjNyckel": "laddning__laddning_och_antal_elektroner",
+    "svarstyp": "numeriskt",
+    "rättSvar": 40000000000,
+    "tolerans": 600000000,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "miniräknare": true,
+    "geogebra": false,
+    "svarEnhet": "elektroner"
+  },
+  {
+    "id": "8.182",
+    "kap": 8,
+    "omr": "laddning",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Ett litet metallföremål har laddningen \\(-1{,}28\\ \\mu\\mathrm C\\). Hälften av överskottselektronerna avlägsnas.</p><p>Vilken laddning har föremålet därefter, i \\(\\mu\\mathrm C\\)?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">När hälften av överskottselektronerna tas bort halveras den negativa laddningens storlek.</p><div class=\"facit-matte\">\\[Q_2=\\frac{-1{,}28}{2}=-0{,}64\\ \\mu\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-0{,}64\\ \\mu\\mathrm C\\).</p></div>",
+    "familj": "Laddning och antal elektroner",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "familjNyckel": "laddning__laddning_och_antal_elektroner",
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.64,
+    "tolerans": 0.02,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "miniräknare": false,
+    "geogebra": false,
+    "svarEnhet": "µC"
+  },
+  {
+    "id": "6.148",
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>Temperaturen hos en gas ökar från 20 °C till 80 °C.</p><p>Med vilken faktor har den absoluta temperaturen ökat?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Temperaturkvoter måste beräknas på kelvinskalan.</p><div class=\"facit-matte\">\\[T_1=293{,}15\\ \\mathrm K,\\qquad T_2=353{,}15\\ \\mathrm K\\]\\[\\frac{T_2}{T_1}=1{,}205\\approx1{,}20\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Den absoluta temperaturen har ökat med faktorn cirka \\(1{,}20\\).</p></div>",
+    "familj": "Kelvinskalan",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__kelvinskalan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.2,
+    "tolerans": 0.02,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "miniräknare": true,
+    "geogebra": false
+  },
+  {
+    "id": "6.149",
+    "kap": 6,
+    "omr": "gaslagen",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En gas kyls från 400 K till 300 K.</p><p>Hur stor är temperaturminskningen i procent räknat på den absoluta temperaturen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Procentuell förändring beräknas från förändringen dividerad med ursprungsvärdet.</p><div class=\"facit-matte\">\\[\\frac{400-300}{400}=0{,}25=25\\,\\%\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen minskar med \\(25\\,\\%\\).</p></div>",
+    "familj": "Kelvinskalan",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__kelvinskalan",
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 0.5,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "miniräknare": false,
+    "geogebra": false,
+    "svarEnhet": "%"
+  },
   {
     "id": "9.100",
     "kap": 9,
@@ -45212,8 +45673,8 @@ window.BANK = [
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.1210986267166044e+19,
-    "tolerans": 4.681647940074906e+17,
+    "rättSvar": 31210986267166044000,
+    "tolerans": 468164794007490600,
     "självrättning": true,
     "svarFormat": "numeriskt"
   },
@@ -45253,7 +45714,7 @@ window.BANK = [
     ],
     "familjNyckel": "karnreaktioner__fission_och_energiutvinning",
     "svarstyp": "numeriskt",
-    "rättSvar": 120.0,
+    "rättSvar": 120,
     "tolerans": 1.7999999999999998,
     "självrättning": true,
     "svarFormat": "numeriskt",
@@ -45479,7 +45940,7 @@ window.BANK = [
     ],
     "familjNyckel": "rorelsemangd__rorelsemangdens_bevarande",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.0,
+    "rättSvar": 2,
     "tolerans": 0.03,
     "självrättning": true,
     "svarFormat": "numeriskt",
@@ -45500,7 +45961,7 @@ window.BANK = [
     ],
     "familjNyckel": "rorelsemangd__rorelsemangdens_bevarande",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.0,
+    "rättSvar": 2,
     "tolerans": 0.03,
     "självrättning": true,
     "svarFormat": "numeriskt",
@@ -45686,7 +46147,7 @@ window.BANK = [
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 414.0,
+    "rättSvar": 414,
     "tolerans": 6.21,
     "självrättning": true,
     "svarFormat": "numeriskt",
@@ -45706,7 +46167,7 @@ window.BANK = [
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 54.0,
+    "rättSvar": 54,
     "tolerans": 0.8099999999999999,
     "självrättning": true,
     "svarFormat": "numeriskt",
@@ -45768,7 +46229,7 @@ window.BANK = [
     ],
     "familjNyckel": "kretsar__elektrisk_effekt_och_energi",
     "svarstyp": "numeriskt",
-    "rättSvar": 2.0,
+    "rättSvar": 2,
     "tolerans": 0.03,
     "självrättning": true,
     "svarFormat": "numeriskt",

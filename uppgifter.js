@@ -1,7 +1,5 @@
-/* uppgifter.js — Fysik nivå 1.
-   Hierarkirevision för Kunskapsgymmet 2026-09-07.
-   OMR bevaras som intern understruktur, med två tidigare kolliderande blandat-nycklar separerade.
-   familj är elevens punktträningsdelmoment; migrationsmetadata finns där namn/område ändrats. */
+/* uppgifter.js — Fysik 1.
+   Selektiv premiumrevision av facit S5 2026-09-08. Endast s ändrat. */
 
 window.BANK = [
   {
@@ -3605,7 +3603,7 @@ window.BANK = [
     "typ": "bestämma volym ur massa och densitet för kula",
     "poang": "(1/0/0)",
     "t": "<p>En glaskula har massan 83,8 g. Glasets densitet är 2,50 g/cm³. Bestäm kulans volym.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd sambandet \\(V=\\frac{m}{\\rho}\\).</p><div class=\"facit-matte\">\\[V = \\frac{m}{\\rho} = \\frac{83{,}8}{2{,}50} = 33{,}52\\ \\mathrm{cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(33{,}5\\ \\mathrm{cm^3}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vi känner både massa och densitet, så kulans geometriska form behöver inte användas. Ur \\(\\rho=m/V\\) fås \\(V=m/\\rho\\).</p><div class=\"facit-matte\">\\[V=\\frac{83{,}8}{2{,}50}=33{,}52\\ \\mathrm{cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(33{,}5\\ \\mathrm{cm^3}\\).</p></div>",
     "familj": "Densitet med geometri och volymberäkning",
     "familjNyckel": "densitet__densitet_med_geometri_och_volymberakning",
     "formaga": [
@@ -3830,7 +3828,7 @@ window.BANK = [
     "typ": "bestämma volym ur massa och densitet",
     "poang": "(1/0/0)",
     "t": "<p>Ett aluminiumföremål har massan 540 g. Aluminium har densiteten 2,70 g/cm³. Bestäm föremålets volym.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd \\(V=\\frac{m}{\\rho}\\).</p><div class=\"facit-matte\">\\[V = \\frac{540}{2{,}70} = 200\\ \\mathrm{cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{cm^3}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Densitet är massa per volym: \\(\\rho=m/V\\). Här söker vi volymen, så lös först ut \\(V\\).</p><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{540\\ \\mathrm g}{2{,}70\\ \\mathrm{g/cm^3}}=200\\ \\mathrm{cm^3}\\]</div><p class=\"facit-not\">Enheterna visar också att uppställningen är rätt: \\(\\mathrm g/(\\mathrm{g/cm^3})=\\mathrm{cm^3}\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{cm^3}\\).</p></div>",
     "familj": "Massa, volym och densitet",
     "familjNyckel": "densitet__massa_volym_och_densitet",
     "formaga": [
@@ -3851,7 +3849,7 @@ window.BANK = [
     "typ": "bestämma massa ur volym i liter och densitet",
     "poang": "(1/0/0)",
     "t": "<p>En dunk innehåller 0,75 liter glycerol. Glycerol har densiteten 1,26 g/cm³. Bestäm glycerolens massa i kg.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Omvandla volymen till \\(\\mathrm{cm^3}\\) och använd \\(m=\\rho V\\).</p><div class=\"facit-matte\">\\[0{,}75\\ \\mathrm{liter}=750\\ \\mathrm{cm^3}\\]</div><div class=\"facit-matte\">\\[m=1{,}26\\cdot750=945\\ \\mathrm g=0{,}945\\ \\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}945\\ \\mathrm{kg}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Densiteten är given i \\(\\mathrm{g/cm^3}\\), därför är det smidigast att först skriva volymen i \\(\\mathrm{cm^3}\\).</p><div class=\"facit-matte\">\\[0{,}75\\ \\mathrm l=750\\ \\mathrm{cm^3}\\]</div><p class=\"facit-metod\">Ur \\(\\rho=m/V\\) får vi \\(m=\\rho V\\).</p><div class=\"facit-matte\">\\[m=1{,}26\\cdot750=945\\ \\mathrm g=0{,}945\\ \\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}945\\ \\mathrm{kg}\\).</p></div>",
     "familj": "Massa, volym och densitet",
     "familjNyckel": "densitet__massa_volym_och_densitet",
     "formaga": [
@@ -4215,7 +4213,7 @@ window.BANK = [
     "typ": "bestämma densitet ur massa och volym i liter",
     "poang": "(1/0/0)",
     "t": "<p>Ett skummaterial har volymen 2,5 liter och massan 125 g. Bestäm materialets densitet i kg/m³.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Omvandla till SI-enheter och använd \\(\\rho=\\frac{m}{V}\\).</p><div class=\"facit-matte\">\\[125\\ \\mathrm{g}=0{,}125\\ \\mathrm{kg},\\quad 2{,}5\\ \\mathrm{liter}=0{,}0025\\ \\mathrm{m^3}\\]</div><div class=\"facit-matte\">\\[\\rho = \\frac{0{,}125}{0{,}0025} = 50\\ \\mathrm{kg/m^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{kg/m^3}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Svaret ska vara i \\(\\mathrm{kg/m^3}\\), så både massa och volym skrivs först i SI-enheter.</p><div class=\"facit-matte\">\\[125\\ \\mathrm g=0{,}125\\ \\mathrm{kg},\\qquad2{,}5\\ \\mathrm l=2{,}5\\cdot10^{-3}\\ \\mathrm{m^3}\\]</div><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{0{,}125}{0{,}0025}=50\\ \\mathrm{kg/m^3}\\]</div><p class=\"facit-not\">Det låga värdet är rimligt för ett skummaterial, som till stor del består av luft.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{kg/m^3}\\).</p></div>",
     "familj": "Massa, volym och densitet",
     "familjNyckel": "densitet__massa_volym_och_densitet",
     "formaga": [
@@ -18356,7 +18354,7 @@ window.BANK = [
     "typ": "undersöka om en ensidigt avlastad skivstång tippar på bänkpressställningen och bestämma största ensidiga last, ur diagram, sökt moment och massa",
     "poang": "(0/1/2)",
     "t": "<p>Efter ett lyft ligger skivstången åter på bänkpressställningens två stöd. Stången väger 20 kg och det sitter 70 kg viktskivor på vardera sidan, alltså 160 kg totalt. Avståndet mellan stöden är 1,10 m och stöden sitter symmetriskt kring stångens mitt. Viktskivorna på en sida kan räknas som en enda massa med tyngdpunkten 0,75 m från stångens mitt. Stångens egen tyngdpunkt ligger mitt på stången.</p><span class=\"fig\"><img src=\"bilder/4.191.png\" alt=\"Bänkpressställning med skivstång, viktskivor och måtten 1,10 m och 0,75 m\" loading=\"lazy\" decoding=\"async\"></span>\n<ol><li>Du lastar av hela högersidan, alltså alla 70 kg, medan skivorna på vänster sida sitter kvar. Undersök med hjälp av moment om stången tippar åt vänster eller ligger kvar på båda stöden.</li>\n<li>Anta i stället att stången är tom från början och att du bara lastar den ena sidan, med skivornas tyngdpunkt 0,75 m från mitten. Hur stor massa kan du som mest lasta på innan stången börjar tippa?</li>\n<li>Man brukar lasta av en tung stång växelvis, lite från varje sida. Ge minst två skäl till det, och utgå från dina svar i a) och b).</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Stöden sitter 1,10/2 = 0,55 m från stångens mitt. Tippar stången åt vänster sker det kring det vänstra stödet. Skivorna sitter 0,75 m från mitten, alltså 0,20 m utanför stödet, medan stångens egen tyngd verkar 0,55 m innanför stödet.</p><div class=\"facit-matte\">\\[M_{\\mathrm{tipp}}=70\\cdot9{,}82\\cdot0{,}20=137\\ \\mathrm{Nm}\\]\\[M_{\\mathrm{mot}}=20\\cdot9{,}82\\cdot0{,}55=108\\ \\mathrm{Nm}\\]</div><p>Tippmomentet är större, så stången tippar. Eftersom \\(g\\) finns i båda leden kan man lika gärna jämföra \\(70\\cdot0{,}20=14{,}0\\) med \\(20\\cdot0{,}55=11{,}0\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gränsfallet är när de två momenten kring stödet är lika stora. Tyngdaccelerationen förkortas bort.</p><div class=\"facit-matte\">\\[m\\cdot g\\cdot0{,}20=20\\cdot g\\cdot0{,}55\\]\\[m=\\frac{20\\cdot0{,}55}{0{,}20}=55\\ \\mathrm{kg}\\]</div><p>Redan 55 kg på ena sidan räcker alltså för att välta en tom 20-kilosstång. De 70 kg i a) ligger långt över gränsen.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför obalansen vid växelvis avlastning med gränsen i b).</p><div class=\"facit-matte\">\\[70\\cdot0{,}20=14{,}0>20\\cdot0{,}55=11{,}0\\]</div><p>Två skäl: <em>(1)</em> Lastar man av allt från en sida blir obalansen 70 kg, långt över gränsvärdet 55 kg, och stången tippar. Tar man en skiva i taget är obalansen aldrig större än en enda skiva, och stången stannar hela tiden med god marginal under gränsen. <em>(2)</em> Modellen är dessutom idealiserad: skivorna kan glida utåt på hylsan, stången ligger inte alltid mitt i stöden, och en knuff när man drar av en skiva räcker för att bryta jämvikten. En lättare stång, 10–15 kg, tippar ännu lättare eftersom det motverkande momentet krymper i samma takt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Stången tippar, eftersom \\(137\\ \\mathrm{Nm}>108\\ \\mathrm{Nm}\\). På en tom stång kan man som mest lasta \\(55\\ \\mathrm{kg}\\) på ena sidan. Växelvis avlastning håller obalansen nere till en skiva åt gången.</p></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Stöden sitter 1,10/2 = 0,55 m från stångens mitt. Tippar stången åt vänster sker det kring det vänstra stödet. Skivorna sitter 0,75 m från mitten, alltså 0,20 m utanför stödet, medan stångens egen tyngd verkar 0,55 m innanför stödet.</p><div class=\"facit-matte\">\\[M_{\\mathrm{tipp}}=70\\cdot9{,}82\\cdot0{,}20=137\\ \\mathrm{Nm}\\]\\[M_{\\mathrm{mot}}=20\\cdot9{,}82\\cdot0{,}55=108\\ \\mathrm{Nm}\\]</div><p>Tippmomentet är större, så stången tippar. Eftersom \\(g\\) finns i båda leden kan man lika gärna jämföra \\(70\\cdot0{,}20=14{,}0\\) med \\(20\\cdot0{,}55=11{,}0\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gränsfallet är när de två momenten kring stödet är lika stora. Tyngdaccelerationen förkortas bort.</p><div class=\"facit-matte\">\\[m\\cdot g\\cdot0{,}20=20\\cdot g\\cdot0{,}55\\]\\[m=\\frac{20\\cdot0{,}55}{0{,}20}=55\\ \\mathrm{kg}\\]</div><p>Redan 55 kg på ena sidan räcker alltså för att välta en tom 20-kilosstång. De 70 kg i a) ligger långt över gränsen.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför obalansen vid växelvis avlastning med gränsen i b).</p><div class=\"facit-matte\">\\[70\\cdot0{,}20=14{,}0\\gt 20\\cdot0{,}55=11{,}0\\]</div><p>Två skäl: <em>(1)</em> Lastar man av allt från en sida blir obalansen 70 kg, långt över gränsvärdet 55 kg, och stången tippar. Tar man en skiva i taget är obalansen aldrig större än en enda skiva, och stången stannar hela tiden med god marginal under gränsen. <em>(2)</em> Modellen är dessutom idealiserad: skivorna kan glida utåt på hylsan, stången ligger inte alltid mitt i stöden, och en knuff när man drar av en skiva räcker för att bryta jämvikten. En lättare stång, 10–15 kg, tippar ännu lättare eftersom det motverkande momentet krymper i samma takt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Stången tippar, eftersom \\(137\\ \\mathrm{Nm}\\gt 108\\ \\mathrm{Nm}\\). På en tom stång kan man som mest lasta \\(55\\ \\mathrm{kg}\\) på ena sidan. Växelvis avlastning håller obalansen nere till en skiva åt gången.</p></div>",
     "familj": "Momentjämvikt",
     "formaga": [
       "problemlösning"
@@ -40876,7 +40874,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>Ett batteri på 12 V är kopplat till två seriekopplade resistorer, R₁ = 100 Ω och R₂ = 200 Ω. Punkten mellan resistorerna är jordad, alltså har potentialen 0 V.</p>\n<ol><li>Vilken ström går i kretsen?</li><li>Bestäm spänningen över varje resistor.</li>\n<li>Bestäm potentialen vid batteriets båda poler.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Resistorerna är i serie.</p><div class=\"facit-matte\">\\[I=\\frac{12}{100+200}=40\\ \\mathrm{mA}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Delspänningarna är</p><div class=\"facit-matte\">\\[U_1=0{,}040\\cdot100=4{,}0\\ \\mathrm V\\]\\[U_2=0{,}040\\cdot200=8{,}0\\ \\mathrm V\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Mellanpunkten definieras som 0 V. I strömriktningen sjunker potentialen, så polen på \\(R_1\\)-sidan ligger på +4,0 V och polen på \\(R_2\\)-sidan på −8,0 V.</p><div class=\"facit-matte\">\\[V_+=+4{,}0\\ \\mathrm V,\\qquad V_-=-8{,}0\\ \\mathrm V\\]</div><p>Skillnaden är \\(V_+-V_-=12\\ \\mathrm V\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(40\\ \\mathrm{mA}\\), delspänningarna \\(4{,}0\\) och \\(8{,}0\\ \\mathrm V\\), och batteripolernas potentialer \\(+4{,}0\\) respektive \\(-8{,}0\\ \\mathrm V\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Resistorerna är i serie.</p><div class=\"facit-matte\">\\[I=\\frac{12}{100+200}=40\\ \\mathrm{mA}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Delspänningarna är</p><div class=\"facit-matte\">\\[U_1=0{,}040\\cdot100=4{,}0\\ \\mathrm V\\]\\[U_2=0{,}040\\cdot200=8{,}0\\ \\mathrm V\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Mellanpunkten definieras som 0 V. I strömriktningen sjunker potentialen, så polen på \\(R_1\\)-sidan ligger på +4,0 V och polen på \\(R_2\\)-sidan på −8,0 V.</p><div class=\"facit-matte\">\\[V_+=+4{,}0\\ \\mathrm V,\\qquad V_-=-8{,}0\\ \\mathrm V\\]</div><p>Skillnaden är \\(V_-V_-=12\\ \\mathrm V\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(40\\ \\mathrm{mA}\\), delspänningarna \\(4{,}0\\) och \\(8{,}0\\ \\mathrm V\\), och batteripolernas potentialer \\(+4{,}0\\) respektive \\(-8{,}0\\ \\mathrm V\\).</p></div>",
     "familj": "Elektrisk potential och spänning",
     "formaga": [
       "begrepp",
@@ -44632,7 +44630,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En luftbubbla har volymen 3,0 ml vid trycket 95 kPa. Temperaturen kan antas konstant. När trycket ökar till 120 kPa, vilken volym får bubblan?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd \\(p_1V_1=p_2V_2\\) och lös ut \\(V_2\\).</p><div class=\"facit-matte\">\\[V_2=\\frac{95\\cdot3{,}0}{120}=2{,}375\\ \\mathrm{ml}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}38\\ \\mathrm{ml}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Temperaturen är konstant, så Boyles lag gäller: \\(p_1V_1=p_2V_2\\). Lös ut den nya volymen.</p><div class=\"facit-matte\">\\[V_2=\\frac{p_1V_1}{p_2}=\\frac{95\\cdot3{,}0}{120}=2{,}375\\ \\mathrm{ml}\\]</div><p class=\"facit-not\">Trycket ökar från 95 till 120 kPa, så volymen ska minska. \\(2{,}38<3{,}0\\) ml är därför rimligt.</p><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(2{,}38\\ \\mathrm{ml}\\).</p></div>",
     "familj": "Boyles lag",
     "formaga": [
       "procedur"
@@ -44699,7 +44697,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Två likadana fjädrar har vardera fjäderkonstanten 120 N/m och kopplas i serie.</p><p>Bestäm den ekvivalenta fjäderkonstanten.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För två fjädrar i serie gäller \\(1/k=1/k_1+1/k_2\\).</p><div class=\"facit-matte\">\\[\\frac1k=\\frac1{120}+\\frac1{120}=\\frac1{60}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=60\\ \\mathrm{N/m}\\).</p></div>",
+    "s": "<p class=\"facit-tolkning\"><strong>Varför:</strong> Seriekopplade fjädrar delar på förlängningen och blir därför mjukare tillsammans än var och en för sig. Därför adderas de inversa fjäderkonstanterna.</p><div class=\"facit-v2\"><p class=\"facit-metod\">För två fjädrar i serie gäller \\(1/k=1/k_1+1/k_2\\).</p><div class=\"facit-matte\">\\[\\frac1k=\\frac1{120}+\\frac1{120}=\\frac1{60}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=60\\ \\mathrm{N/m}\\).</p></div>",
     "familj": "Fjädrar i serie och parallell",
     "formaga": [
       "procedur"
@@ -44721,7 +44719,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>Två fjädrar med fjäderkonstanterna 80 N/m och 120 N/m kopplas i serie.</p><p>Bestäm den ekvivalenta fjäderkonstanten.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">I seriekoppling adderas fjädrarnas inverser.</p><div class=\"facit-matte\">\\[\\frac1k=\\frac1{80}+\\frac1{120}=\\frac{3+2}{240}=\\frac1{48}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\ \\mathrm{N/m}\\).</p></div>",
+    "s": "<p class=\"facit-tolkning\"><strong>Varför:</strong> Seriekopplade fjädrar delar på förlängningen och blir därför mjukare tillsammans än var och en för sig. Därför adderas de inversa fjäderkonstanterna.</p><div class=\"facit-v2\"><p class=\"facit-metod\">I seriekoppling adderas fjädrarnas inverser.</p><div class=\"facit-matte\">\\[\\frac1k=\\frac1{80}+\\frac1{120}=\\frac{3+2}{240}=\\frac1{48}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48\\ \\mathrm{N/m}\\).</p></div>",
     "familj": "Fjädrar i serie och parallell",
     "formaga": [
       "procedur"
@@ -44743,7 +44741,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Två fjädrar med fjäderkonstanterna 75 N/m och 125 N/m sitter parallellt och belastas tillsammans.</p><p>Bestäm den ekvivalenta fjäderkonstanten.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För parallellkopplade fjädrar adderas fjäderkonstanterna.</p><div class=\"facit-matte\">\\[k=75+125=200\\ \\mathrm{N/m}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{N/m}\\).</p></div>",
+    "s": "<p class=\"facit-tolkning\"><strong>Varför:</strong> Parallellkopplade fjädrar får samma förlängning och deras krafter adderas. Därför adderas fjäderkonstanterna direkt.</p><div class=\"facit-v2\"><p class=\"facit-metod\">För parallellkopplade fjädrar adderas fjäderkonstanterna.</p><div class=\"facit-matte\">\\[k=75+125=200\\ \\mathrm{N/m}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{N/m}\\).</p></div>",
     "familj": "Fjädrar i serie och parallell",
     "formaga": [
       "procedur"
@@ -45058,7 +45056,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Omvandla 25 °C till kelvin.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Kelvintemperaturen fås med \\(T_K=T_C+273{,}15\\).</p><div class=\"facit-matte\">\\[25+273{,}15=298{,}15\\ \\mathrm K\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(298\\ \\mathrm K\\).</p></div>",
+    "s": "<p class=\"facit-tolkning\"><strong>Kontroll:</strong> Kelvin och Celsius har lika stora temperatursteg; skalorna skiljer sig bara med 273,15. Därför ändras inte en temperaturdifferens vid omvandlingen.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Kelvintemperaturen fås med \\(T_K=T_C+273{,}15\\).</p><div class=\"facit-matte\">\\[25+273{,}15=298{,}15\\ \\mathrm K\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(298\\ \\mathrm K\\).</p></div>",
     "familj": "Kelvinskalan",
     "formaga": [
       "procedur"
@@ -45080,7 +45078,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En gas har temperaturen 350 K. Vilken temperatur är det i grader Celsius?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Gå från kelvin till Celsius genom att subtrahera 273,15.</p><div class=\"facit-matte\">\\[350-273{,}15=76{,}85^\\circ\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(77^\\circ\\mathrm C\\).</p></div>",
+    "s": "<p class=\"facit-tolkning\"><strong>Kontroll:</strong> Kelvin och Celsius har lika stora temperatursteg; skalorna skiljer sig bara med 273,15. Därför ändras inte en temperaturdifferens vid omvandlingen.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Gå från kelvin till Celsius genom att subtrahera 273,15.</p><div class=\"facit-matte\">\\[350-273{,}15=76{,}85^\\circ\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(77^\\circ\\mathrm C\\).</p></div>",
     "familj": "Kelvinskalan",
     "formaga": [
       "procedur"
@@ -45123,7 +45121,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En motorbåt går med 5,0 m/s relativt vattnet. Strömmen går åt samma håll med 2,0 m/s.</p><p>Vilken fart har båten relativt stranden?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">När hastigheterna är åt samma håll adderas de.</p><div class=\"facit-matte\">\\[v=5{,}0+2{,}0=7{,}0\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\ \\mathrm{m/s}\\).</p></div>",
+    "s": "<p class=\"facit-tolkning\"><strong>Tolkning:</strong> Båtens fart relativt stranden fås genom att kombinera båtens fart relativt vattnet med strömmens fart. När de går åt samma håll ska resultatet därför bli större än 5,0 m/s.</p><div class=\"facit-v2\"><p class=\"facit-metod\">När hastigheterna är åt samma håll adderas de.</p><div class=\"facit-matte\">\\[v=5{,}0+2{,}0=7{,}0\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}0\\ \\mathrm{m/s}\\).</p></div>",
     "familj": "Relativ hastighet",
     "formaga": [
       "procedur"
@@ -45145,7 +45143,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Två bilar kör åt samma håll. Den ena kör 90 km/h och den andra 72 km/h.</p><p>Med vilken fart ser föraren i den snabbare bilen den långsammare bilen röra sig bakåt?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Relativfarten för två rörelser åt samma håll är skillnaden mellan farterna.</p><div class=\"facit-matte\">\\[v_{rel}=90-72=18\\ \\mathrm{km/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\ \\mathrm{km/h}\\).</p></div>",
+    "s": "<p class=\"facit-tolkning\"><strong>Tolkning:</strong> För två fordon som kör åt samma håll är relativfarten skillnaden mellan farterna. I den snabbare bilen ser man därför den långsammare röra sig bakåt med just denna skillnad.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Relativfarten för två rörelser åt samma håll är skillnaden mellan farterna.</p><div class=\"facit-matte\">\\[v_{rel}=90-72=18\\ \\mathrm{km/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\ \\mathrm{km/h}\\).</p></div>",
     "familj": "Relativ hastighet",
     "formaga": [
       "procedur",
@@ -45285,7 +45283,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En resistor på 30 Ω kopplas till spänningen 12 V.</p><p>Hur stor ström går genom resistorn?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd Ohms lag \\(U=RI\\).</p><div class=\"facit-matte\">\\[I=\\frac{U}{R}=\\frac{12}{30}=0{,}40\\ \\mathrm A\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\ \\mathrm A\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ohms lag är \\(U=RI\\). Eftersom strömmen söks delar vi båda led med \\(R\\): \\(I=U/R\\).</p><div class=\"facit-matte\">\\[I=\\frac{12\\ \\mathrm V}{30\\ \\Omega}=0{,}40\\ \\mathrm A\\]</div><p class=\"facit-not\">Kontroll: \\(\\mathrm V/\\Omega=\\mathrm A\\), alltså får vi rätt enhet för ström.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}40\\ \\mathrm A\\).</p></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur"
@@ -45307,7 +45305,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Genom en komponent går strömmen 0,25 A när spänningen över den är 9,0 V.</p><p>Bestäm resistansen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Lös ut resistansen ur Ohms lag.</p><div class=\"facit-matte\">\\[R=\\frac{U}{I}=\\frac{9{,}0}{0{,}25}=36\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\ \\Omega\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Ur Ohms lag \\(U=RI\\) får vi resistansen genom att dividera med strömmen: \\(R=U/I\\).</p><div class=\"facit-matte\">\\[R=\\frac{9{,}0\\ \\mathrm V}{0{,}25\\ \\mathrm A}=36\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\ \\Omega\\).</p></div>",
     "familj": "Ohms lag",
     "formaga": [
       "procedur"
@@ -45329,7 +45327,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>En kopparledning är 20 m lång och har tvärsnittsarean 2,5 mm². Kopparns resistivitet är \\(1{,}72\\cdot10^{-8}\\ \\Omega\\mathrm m\\).</p><p>Bestäm ledningens resistans.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd \\(R=\\rho L/A\\) och omvandla \\(2{,}5\\ \\mathrm{mm^2}=2{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[R=\\frac{1{,}72\\cdot10^{-8}\\cdot20}{2{,}5\\cdot10^{-6}}=0{,}1376\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(0{,}138\\ \\Omega\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För en homogen ledare gäller \\(R=\\rho L/A\\). Resistiviteten är given i SI-enheter, så tvärsnittsarean måste först skrivas i \\(\\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[2{,}5\\ \\mathrm{mm^2}=2{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\]</div><div class=\"facit-matte\">\\[R=\\frac{1{,}72\\cdot10^{-8}\\cdot20}{2{,}5\\cdot10^{-6}}=0{,}1376\\ \\Omega\\]</div><p class=\"facit-not\">Det viktiga enhetssteget är att \\(1\\ \\mathrm{mm^2}=10^{-6}\\ \\mathrm{m^2}\\), eftersom längdomvandlingen ska kvadreras.</p><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(0{,}138\\ \\Omega\\).</p></div>",
     "familj": "Resistivitet och ledarresistans",
     "formaga": [
       "procedur"
@@ -45624,7 +45622,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Vid en kärnreaktion minskar den sammanlagda massan med 0,80 mg.</p><p>Hur stor energi frigörs? Ange svaret i TJ.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd mass–energi-sambandet \\(E=\\Delta mc^2\\). Massan måste först skrivas i kilogram.</p><div class=\"facit-matte\">\\[\\Delta m=0,80\\cdot10^{-6}\\,\\mathrm{kg}\\]\\[E=8e-07\\cdot(3,00\\cdot10^8)^2=7.2e+10\\,\\mathrm{J}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0,072\\,\\mathrm{TJ}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd mass–energi-sambandet \\(E=\\Delta mc^2\\). Massan måste först skrivas i kilogram.</p><div class=\"facit-matte\">\\[\\Delta m=0,80\\cdot10^{-6}\\,\\mathrm{kg}\\]\\[E=8\\cdot10^{-7}\\cdot(3,00\\cdot10^8)^2=7{,}2\\cdot10^{10}\\,\\mathrm{J}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0,072\\,\\mathrm{TJ}\\).</p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
       "procedur"
@@ -45644,7 +45642,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>Vid en kärnreaktion minskar den sammanlagda massan med 1,15 mg.</p><p>Hur stor energi frigörs? Ange svaret i TJ.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd mass–energi-sambandet \\(E=\\Delta mc^2\\). Massan måste först skrivas i kilogram.</p><div class=\"facit-matte\">\\[\\Delta m=1,15\\cdot10^{-6}\\,\\mathrm{kg}\\]\\[E=1,15e-06\\cdot(3,00\\cdot10^8)^2=1.03e+11\\,\\mathrm{J}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0,104\\,\\mathrm{TJ}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd mass–energi-sambandet \\(E=\\Delta mc^2\\). Massan måste först skrivas i kilogram.</p><div class=\"facit-matte\">\\[\\Delta m=1,15\\cdot10^{-6}\\,\\mathrm{kg}\\]\\[E=1,15\\cdot10^{-6}\\cdot(3,00\\cdot10^8)^2=1{,}03\\cdot10^{11}\\,\\mathrm{J}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0,104\\,\\mathrm{TJ}\\).</p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
       "procedur",
@@ -45665,7 +45663,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>En fission frigör ungefär 200 MeV. Hur många fissioner behövs för att frigöra 1,0 GJ?</p><p>Använd \\(1\\,\\mathrm{eV}=1,602\\cdot10^{-19}\\,\\mathrm J\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Omvandla först energin per fission till joule och dividera sedan den önskade energin med energin per fission.</p><div class=\"facit-matte\">\\[E_f=200\\cdot10^6\\cdot1,602\\cdot10^{-19}=3.204e-11\\,\\mathrm J\\]\\[N=\\frac{1,0\\cdot10^9}{E_f}=3.121e+19\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(3.12e+19\\) fissioner.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Omvandla först energin per fission till joule och dividera sedan den önskade energin med energin per fission.</p><div class=\"facit-matte\">\\[E_f=200\\cdot10^6\\cdot1,602\\cdot10^{-19}=3{,}204\\cdot10^{-11}\\,\\mathrm J\\]\\[N=\\frac{1,0\\cdot10^9}{E_f}=3{,}121\\cdot10^{19}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(3{,}12\\cdot10^{19}\\) fissioner.</p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
       "procedur",
@@ -45706,7 +45704,7 @@ window.BANK = [
     "niva": "A",
     "poang": "(0/2/1)",
     "t": "<p>Ett kärnkraftverk levererar 900 MWh elektrisk energi. Verkningsgraden från kärnenergi till el är 30 %.</p><p>Hur stor massa har omvandlats till energi enligt \\(E=mc^2\\)? Ange svaret i mg.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Elenergin är bara 30 % av den frigjorda kärnenergin. Bestäm därför först kärnenergin och använd sedan \\(m=E/c^2\\).</p><div class=\"facit-matte\">\\[E_{k}=\\frac{900\\cdot3,6\\cdot10^9}{0,30}=1.080e+13\\,\\mathrm J\\]\\[m=\\frac{E_k}{(3,00\\cdot10^8)^2}=120.00\\,\\mathrm{mg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(120.0\\,\\mathrm{mg}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Elenergin är bara 30 % av den frigjorda kärnenergin. Bestäm därför först kärnenergin och använd sedan \\(m=E/c^2\\).</p><div class=\"facit-matte\">\\[E_{k}=\\frac{900\\cdot3,6\\cdot10^9}{0,30}=1{,}080\\cdot10^{13}\\,\\mathrm J\\]\\[m=\\frac{E_k}{(3,00\\cdot10^8)^2}=120.00\\,\\mathrm{mg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(120.0\\,\\mathrm{mg}\\).</p></div>",
     "familj": "Fission och energiutvinning",
     "formaga": [
       "procedur",
@@ -46140,7 +46138,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En elektrisk apparat är ansluten till 230 V och strömmen genom apparaten är 1.8 A.</p><p>Bestäm apparatens effekt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Elektrisk effekt ges av \\(P=UI\\).</p><div class=\"facit-matte\">\\[P=230\\cdot1.8=414\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(414\\,\\mathrm W\\).</p></div>",
+    "s": "<p class=\"facit-tolkning\"><strong>Tolkning:</strong> Produkten \\(UI\\) anger hur mycket elektrisk energi som omvandlas per sekund, alltså effekten.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Elektrisk effekt ges av \\(P=UI\\).</p><div class=\"facit-matte\">\\[P=230\\cdot1.8=414\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(414\\,\\mathrm W\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -46160,7 +46158,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En elektrisk apparat är ansluten till 12 V och strömmen genom apparaten är 4.5 A.</p><p>Bestäm apparatens effekt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Elektrisk effekt ges av \\(P=UI\\).</p><div class=\"facit-matte\">\\[P=12\\cdot4.5=54\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\,\\mathrm W\\).</p></div>",
+    "s": "<p class=\"facit-tolkning\"><strong>Tolkning:</strong> Produkten \\(UI\\) anger hur mycket elektrisk energi som omvandlas per sekund, alltså effekten.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Elektrisk effekt ges av \\(P=UI\\).</p><div class=\"facit-matte\">\\[P=12\\cdot4.5=54\\,\\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(54\\,\\mathrm W\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -46180,7 +46178,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>En apparat med effekten 1800 W används i 2.5 h.</p><p>Hur mycket elektrisk energi använder den? Ange svaret i kWh.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Skriv effekten i kW och använd \\(E=Pt\\).</p><div class=\"facit-matte\">\\[E=1.80\\cdot2.5=4.50\\,\\mathrm{kWh}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4.50\\,\\mathrm{kWh}\\).</p></div>",
+    "s": "<p class=\"facit-tolkning\"><strong>Enhetsval:</strong> Eftersom svaret ska anges i kWh skrivs effekten först i kW. Då kan timmar användas direkt i sambandet \\(E=Pt\\).</p><div class=\"facit-v2\"><p class=\"facit-metod\">Skriv effekten i kW och använd \\(E=Pt\\).</p><div class=\"facit-matte\">\\[E=1.80\\cdot2.5=4.50\\,\\mathrm{kWh}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4.50\\,\\mathrm{kWh}\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur"
@@ -46200,7 +46198,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>En apparat med effekten 750 W används i 6.0 h.</p><p>Hur mycket elektrisk energi använder den? Ange svaret i kWh.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Skriv effekten i kW och använd \\(E=Pt\\).</p><div class=\"facit-matte\">\\[E=0.75\\cdot6.0=4.50\\,\\mathrm{kWh}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4.50\\,\\mathrm{kWh}\\).</p></div>",
+    "s": "<p class=\"facit-tolkning\"><strong>Enhetsval:</strong> Eftersom svaret ska anges i kWh skrivs effekten först i kW. Då kan timmar användas direkt i sambandet \\(E=Pt\\).</p><div class=\"facit-v2\"><p class=\"facit-metod\">Skriv effekten i kW och använd \\(E=Pt\\).</p><div class=\"facit-matte\">\\[E=0.75\\cdot6.0=4.50\\,\\mathrm{kWh}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4.50\\,\\mathrm{kWh}\\).</p></div>",
     "familj": "Elektrisk effekt och energi",
     "formaga": [
       "procedur",

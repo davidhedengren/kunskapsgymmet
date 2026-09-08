@@ -1,7 +1,5 @@
-/* uppgiftermato2.js — Matematik – fortsättning nivå 2.
-   Hierarkirevision för Kunskapsgymmet 2026-09-07.
-   OMR bevaras som intern understruktur; familj är elevens punktträningsdelmoment.
-   familjTidigare finns på omdöpta familjer för migrering av sparad familjeprogress. */
+/* uppgiftermato2.js — Matematik fortsättning nivå 2.
+   Selektiv premiumrevision av facit S5 2026-09-08. Endast s ändrat. */
 
 window.BANKMATO2 = [
   {
@@ -2338,7 +2336,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Omvandla.</p><p>a) \\(30^\\circ\\) till radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(135^\\circ\\) till radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(5\\pi/6\\) rad till grader<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(7\\pi/4\\) rad till grader</p>",
-    "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad.</p><p>a) \\(\\pi/6\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(3\\pi/4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(150^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(315^\\circ\\)</p>",
+    "s": "<p>Använd \\(180^\\circ=\\pi\\) rad. Grader till radianer: multiplicera med \\(\\pi/180\\). Radianer till grader: multiplicera med \\(180/\\pi\\).</p><p>a) \\(30^\\circ\\cdot\\frac\\pi{180^\\circ}=\\frac\\pi6\\).</p><p>b) \\(135^\\circ\\cdot\\frac\\pi{180^\\circ}=\\frac{3\\pi}4\\).</p><p>c) \\(\\frac{5\\pi}6\\cdot\\frac{180^\\circ}{\\pi}=150^\\circ\\).</p><p>d) \\(\\frac{7\\pi}4\\cdot\\frac{180^\\circ}{\\pi}=315^\\circ\\).</p>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
       "procedur"
@@ -2895,7 +2893,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange alla lösningar i grader.</p><p>a) \\(\\sin x=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos x=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan x=\\sqrt3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos x=1\\)</p>",
-    "s": "<p>a) <strong>\\(x=180^\\circ n\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(x=90^\\circ+180^\\circ n\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(x=60^\\circ+180^\\circ n\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(x=360^\\circ n\\)</strong>, där \\(n\\in\\mathbb Z\\).</p>",
+    "s": "<p>a) \\(\\sin x=0\\) på x-axeln i enhetscirkeln: \\(x=180^\\circ n\\).</p><p>b) \\(\\cos x=0\\) vid \\(90^\\circ\\) och därefter var \\(180^\\circ\\): \\(x=90^\\circ+180^\\circ n\\).</p><p>c) \\(\\tan x=\\sqrt3\\) har referensvinkeln \\(60^\\circ\\) och tangens period \\(180^\\circ\\): \\(x=60^\\circ+180^\\circ n\\).</p><p>d) \\(\\cos x=1\\) vid hela varv: \\(x=360^\\circ n\\).</p><p>Här är \\(n\\in\\mathbb Z\\).</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur"
@@ -3002,7 +3000,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Lös ekvationen</p><p>\\[\\sin x=0,18x\\]</p><p>för \\(0\\le x\\le10\\). Svara med tre decimaler.</p>",
-    "s": "<p>Skärningarna mellan \\(y=\\sin x\\) och \\(y=0,18x\\) ger lösningarna.</p><p>\\[\\boxed{x=0\\quad\\text{och}\\quad x\\approx2,645}.\\]</p>",
+    "s": "<p><strong>Numerisk ekvation:</strong> När \\(x\\) förekommer både inne i en trigonometrisk funktion och på annat sätt finns normalt ingen enkel algebraisk lösning. Rita båda leden och bestäm alla skärningar i intervallet.</p><p>Skärningarna mellan \\(y=\\sin x\\) och \\(y=0,18x\\) ger lösningarna.</p><p>\\[\\boxed{x=0\\quad\\text{och}\\quad x\\approx2,645}.\\]</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
@@ -3943,7 +3941,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös i intervallet \\(0^\\circ\\le x&lt;360^\\circ\\).</p><p>a) \\(\\sin x=-\\frac12\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos x=\\frac{\\sqrt2}{2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan x=\\sqrt3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\cos x+1=0\\)</p>",
-    "s": "<p>a) <strong>\\(x=210^\\circ,330^\\circ\\)</strong>.</p><p>b) <strong>\\(x=45^\\circ,315^\\circ\\)</strong>.</p><p>c) <strong>\\(x=60^\\circ,240^\\circ\\)</strong>.</p><p>d) \\(\\cos x=-1/2\\), alltså <strong>\\(x=120^\\circ,240^\\circ\\)</strong>.</p>",
+    "s": "<p>a) \\(\\sin x=-\\tfrac12\\). Referensvinkeln är \\(30^\\circ\\) och sinus är negativ i tredje och fjärde kvadranten: \\(x=210^\\circ,330^\\circ\\).</p><p>b) \\(\\cos x=\\tfrac{\\sqrt2}{2}\\). Referensvinkeln är \\(45^\\circ\\) och cosinus är positiv i första och fjärde kvadranten: \\(x=45^\\circ,315^\\circ\\).</p><p>c) \\(\\tan x=\\sqrt3\\). Referensvinkeln är \\(60^\\circ\\), och tangens är positiv i första och tredje kvadranten: \\(x=60^\\circ,240^\\circ\\).</p><p>d) \\(2\\cos x+1=0\\Rightarrow\\cos x=-\\tfrac12\\). Då \\(x=120^\\circ,240^\\circ\\).</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
@@ -4053,7 +4051,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p><p>a) \\(\\sin 30^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos 120^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan 225^\\circ\\)</p>",
-    "s": "<p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och kontrollera tecknet i rätt kvadrant.</p><p>a) <strong>\\(1/2\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-1/2\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(1\\)</strong></p>",
+    "s": "<p>a) \\(30^\\circ\\) är en standardvinkel: \\(\\sin30^\\circ=\\tfrac12\\).</p><p>b) \\(120^\\circ=180^\\circ-60^\\circ\\). Cosinus är negativ i andra kvadranten, så \\(\\cos120^\\circ=-\\tfrac12\\).</p><p>c) \\(225^\\circ=180^\\circ+45^\\circ\\). Tangens är positiv i tredje kvadranten och \\(\\tan45^\\circ=1\\), alltså \\(\\tan225^\\circ=1\\).</p>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -4695,7 +4693,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Omvandla mellan grader och radianer.</p><p>a) \\(72^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(330^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\frac{7\\pi}{12}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{11\\pi}{6}\\)</p>",
-    "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad och multiplicera med rätt omvandlingsfaktor.</p><p>a) <strong>\\(2\\pi/5\\)</strong>.</p><p>b) <strong>\\(11\\pi/6\\)</strong>.</p><p>c) <strong>105°</strong>.</p><p>d) <strong>330°</strong>.</p>",
+    "s": "<p>Använd \\(180^\\circ=\\pi\\) rad.</p><p>a) \\(72^\\circ\\cdot\\frac\\pi{180^\\circ}=\\frac{2\\pi}{5}\\).</p><p>b) \\(330^\\circ\\cdot\\frac\\pi{180^\\circ}=\\frac{11\\pi}{6}\\).</p><p>c) \\(\\frac{7\\pi}{12}\\cdot\\frac{180^\\circ}{\\pi}=105^\\circ\\).</p><p>d) \\(\\frac{11\\pi}{6}\\cdot\\frac{180^\\circ}{\\pi}=330^\\circ\\).</p>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
       "procedur"
@@ -5020,7 +5018,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös i intervallet \\(0\\le x&lt;2\\pi\\).</p><p>a) \\(2\\cos x+1=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sin x=-1\\)</p>",
-    "s": "<p>a) \\(\\cos x=-1/2\\Rightarrow\\boxed{x=2\\pi/3,4\\pi/3}\\).</p><p>b) \\(\\sin x=-1\\Rightarrow\\boxed{x=3\\pi/2}\\).</p>",
+    "s": "<p>a) Börja med att isolera cosinus:</p><p>\\[2\\cos x+1=0\\Rightarrow\\cos x=-\\frac12.\\]</p><p>Referensvinkeln är \\(\\pi/3\\), och cosinus är negativ i kvadrant II och III:</p><p>\\[x=\\frac{2\\pi}{3},\\ \\frac{4\\pi}{3}.\\]</p><p>b) \\(\\sin x=-1\\) endast i cirkelns nedersta punkt inom ett varv:</p><p>\\[x=\\frac{3\\pi}{2}.\\]</p><p><strong>Svar:</strong> a) \\(2\\pi/3,4\\pi/3\\), b) \\(3\\pi/2\\).</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
@@ -5490,7 +5488,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Lös ekvationen</p><p>\\[\\cos(1,7x)=0,25x-0,4\\]</p><p>för \\(0\\le x\\le6\\). Svara med tre decimaler.</p>",
-    "s": "<p>En grafisk lösning ger tre skärningar:</p><p>\\[\\boxed{x\\approx1,011;\\ 2,979;\\ 4,203}.\\]</p>",
+    "s": "<p><strong>Numerisk ekvation:</strong> När \\(x\\) förekommer både inne i en trigonometrisk funktion och på annat sätt finns normalt ingen enkel algebraisk lösning. Rita båda leden och bestäm alla skärningar i intervallet.</p><p>En grafisk lösning ger tre skärningar:</p><p>\\[\\boxed{x\\approx1,011;\\ 2,979;\\ 4,203}.\\]</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
@@ -6961,7 +6959,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera.</p><p>a) \\(f(x)=e^x+3\\ln x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=5e^{2x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\ln(4x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=2^x\\)</p>",
-    "s": "<p>a) <strong>\\(f'(x)=e^x+3/x\\)</strong>.</p><p>b) <strong>\\(g'(x)=10e^{2x}\\)</strong>.</p><p>c) <strong>\\(h'(x)=1/x\\)</strong> för \\(x&gt;0\\).</p><p>d) <strong>\\(p'(x)=2^x\\ln2\\)</strong>.</p>",
+    "s": "<p>a) Derivera termvis: \\(f\\prime(x)=e^x+3\\cdot\\frac1x=e^x+\\frac3x\\).</p><p>b) Kedjeregeln ger \\(g\\prime(x)=5\\cdot2e^{2x}=10e^{2x}\\).</p><p>c) \\(h\\prime(x)=\\frac{4}{4x}=\\frac1x\\), för \\(x&gt;0\\).</p><p>d) För \\(a^x\\) gäller \\((a^x)\\prime=a^x\\ln a\\), alltså \\(p\\prime(x)=2^x\\ln2\\).</p>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
       "procedur"
@@ -7096,7 +7094,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera.</p><p>a) \\(\\ln(2x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\ln(x^3)\\)<br>för \\(x&gt;0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(e^{x^2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(e^{\\sin x}\\)</p>",
-    "s": "<p>a) <strong>\\(1/x\\)</strong>.</p><p>b) \\(\\ln(x^3)=3\\ln x\\), alltså <strong>\\(3/x\\)</strong>.</p><p>c) <strong>\\(2xe^{x^2}\\)</strong>.</p><p>d) <strong>\\(e^{\\sin x}\\cos x\\)</strong>.</p>",
+    "s": "<p>a) \\(\\frac{d}{dx}\\ln(2x)=\\frac{2}{2x}=\\frac1x\\).</p><p>b) För \\(x&gt;0\\) är \\(\\ln(x^3)=3\\ln x\\), så derivatan är \\(\\frac3x\\).</p><p>c) Kedjeregeln: \\((e^{x^2})\\prime=e^{x^2}\\cdot2x=2xe^{x^2}\\).</p><p>d) Kedjeregeln igen: \\((e^{\\sin x})\\prime=e^{\\sin x}\\cos x\\).</p>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
       "procedur"
@@ -7508,7 +7506,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera med kedjeregeln.</p><p>a) \\(f(x)=(3x-1)^6\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=(x^2+4)^5\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\sqrt{2x+7}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=(5-2x)^{-3}\\)</p>",
-    "s": "<p>a) <strong>\\(f'(x)=18(3x-1)^5\\)</strong>.</p><p>b) <strong>\\(g'(x)=10x(x^2+4)^4\\)</strong>.</p><p>c) <strong>\\(h'(x)=1/\\sqrt{2x+7}\\)</strong>.</p><p>d) \\(-3(5-2x)^{-4}\\cdot(-2)\\), alltså <strong>\\(p'(x)=6(5-2x)^{-4}\\)</strong>.</p>",
+    "s": "<p>a) \\(f\\prime(x)=6(3x-1)^5\\cdot3=18(3x-1)^5\\).</p><p>b) \\(g\\prime(x)=5(x^2+4)^4\\cdot2x=10x(x^2+4)^4\\).</p><p>c) Skriv roten som \\((2x+7)^{1/2}\\):</p><p>\\[h\\prime(x)=\\tfrac12(2x+7)^{-1/2}\\cdot2=\\frac1{\\sqrt{2x+7}}.\\]</p><p>d) \\(p\\prime(x)=-3(5-2x)^{-4}\\cdot(-2)=6(5-2x)^{-4}\\).</p><p>I varje del är den sista faktorn den inre derivatan.</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur"
@@ -8132,7 +8130,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera med produktregeln.</p><p>a) \\(f(x)=x^2e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=x\\ln x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=x^3\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=(x+1)(x^2-2)\\)</p>",
-    "s": "<p>a) <strong>\\(f'(x)=2xe^x+x^2e^x=e^x(x^2+2x)\\)</strong>.</p><p>b) <strong>\\(g'(x)=\\ln x+1\\)</strong>.</p><p>c) <strong>\\(h'(x)=3x^2\\sin x+x^3\\cos x\\)</strong>.</p><p>d) <strong>\\(p'(x)=(x^2-2)+2x(x+1)=3x^2+2x-2\\)</strong>.</p>",
+    "s": "<p>Använd produktregeln \\((uv)\\prime=u\\prime v+uv\\prime\\).</p><p>a) \\(f\\prime=2xe^x+x^2e^x=e^x(x^2+2x)\\).</p><p>b) \\(g\\prime=1\\cdot\\ln x+x\\cdot\\frac1x=\\ln x+1\\).</p><p>c) \\(h\\prime=3x^2\\sin x+x^3\\cos x\\).</p><p>d) \\(p\\prime=1\\cdot(x^2-2)+(x+1)\\cdot2x=3x^2+2x-2\\).</p>",
     "familj": "Derivering med produktregeln",
     "formaga": [
       "procedur"
@@ -8871,7 +8869,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera.</p><p>a) \\(\\sin(5x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(4x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan(3x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\cos(\\pi x)\\)</p>",
-    "s": "<p>a) <strong>\\(5\\cos5x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-4\\sin4x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac{3}{\\cos^2(3x)}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(-2\\pi\\sin(\\pi x)\\)</strong>.</p>",
+    "s": "<p><strong>Kedjeregeln:</strong> Derivera den yttre funktionen, behåll den inre oförändrad och multiplicera med den inre derivatan. Det sista steget ger faktorer som 3, 5 eller \\(-2\\).</p><p>a) <strong>\\(5\\cos5x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-4\\sin4x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac{3}{\\cos^2(3x)}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(-2\\pi\\sin(\\pi x)\\)</strong>.</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur"
@@ -13674,7 +13672,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=6x^2-4x+3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=5x^4+2/x^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=3\\sqrt{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=4x^{-3}\\)</p>",
-    "s": "<p>a) <strong>\\(F(x)=2x^3-2x^2+3x+C\\)</strong>.</p><p>b) <strong>\\(G(x)=x^5-2/x+C\\)</strong>.</p><p>c) \\(3x^{1/2}\\Rightarrow\\) <strong>\\(H(x)=2x^{3/2}+C\\)</strong>.</p><p>d) <strong>\\(P(x)=-2x^{-2}+C=-2/x^2+C\\)</strong>.</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a) <strong>\\(F(x)=2x^3-2x^2+3x+C\\)</strong>.</p><p>b) <strong>\\(G(x)=x^5-2/x+C\\)</strong>.</p><p>c) \\(3x^{1/2}\\Rightarrow\\) <strong>\\(H(x)=2x^{3/2}+C\\)</strong>.</p><p>d) <strong>\\(P(x)=-2x^{-2}+C=-2/x^2+C\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -14080,7 +14078,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=6x^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(f(x)=4x^3-2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(f(x)=3e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(f(x)=\\frac{5}{x}\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p>a) <strong>\\(F(x)=2x^3+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(F(x)=x^4-x^2+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(F(x)=3e^x+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(F(x)=5\\ln x+C\\)</strong>.</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a) <strong>\\(F(x)=2x^3+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(F(x)=x^4-x^2+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(F(x)=3e^x+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(F(x)=5\\ln x+C\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -14253,7 +14251,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p><p>a) \\(F'(x)=4x^3\\), \\(F(1)=5\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(F'(x)=2e^x\\), \\(F(0)=3\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(F'(x)=\\cos x\\), \\(F(\\pi/2)=4\\).</p>",
-    "s": "<p>a) \\(F=x^4+C\\). \\(1+C=5\\Rightarrow C=4\\). <strong>\\(F=x^4+4\\)</strong>.</p><p>b) \\(F=2e^x+C\\). \\(2+C=3\\Rightarrow C=1\\). <strong>\\(F=2e^x+1\\)</strong>.</p><p>c) \\(F=\\sin x+C\\). \\(1+C=4\\Rightarrow C=3\\). <strong>\\(F=\\sin x+3\\)</strong>.</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a) \\(F=x^4+C\\). \\(1+C=5\\Rightarrow C=4\\). <strong>\\(F=x^4+4\\)</strong>.</p><p>b) \\(F=2e^x+C\\). \\(2+C=3\\Rightarrow C=1\\). <strong>\\(F=2e^x+1\\)</strong>.</p><p>c) \\(F=\\sin x+C\\). \\(1+C=4\\Rightarrow C=3\\). <strong>\\(F=\\sin x+3\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -14531,7 +14529,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Beräkna.</p><p>a) \\(\\int_0^2(3x^2+1)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_1^3(2x-4)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_{-1}^{1}x^2\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_0^4\\sqrt{x}\\,dx\\)</p>",
-    "s": "<p>a) \\([x^3+x]_0^2=8+2=\\boxed{10}\\).</p><p>b) \\([x^2-4x]_1^3=(-3)-(-3)=\\boxed{0}\\).</p><p>c) \\([x^3/3]_{-1}^1=\\boxed{2/3}\\).</p><p>d) \\([\\frac23x^{3/2}]_0^4=\\frac23\\cdot8=\\boxed{16/3}\\).</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p>a) \\([x^3+x]_0^2=8+2=\\boxed{10}\\).</p><p>b) \\([x^2-4x]_1^3=(-3)-(-3)=\\boxed{0}\\).</p><p>c) \\([x^3/3]_{-1}^1=\\boxed{2/3}\\).</p><p>d) \\([\\frac23x^{3/2}]_0^4=\\frac23\\cdot8=\\boxed{16/3}\\).</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -14711,7 +14709,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under \\(y=x\\) för \\(0\\le x\\le2\\) roteras ett varv kring x-axeln.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"290\" viewBox=\"0 0 500 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"funktionsgraf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"55.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"265.0\" y1=\"25\" x2=\"265.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"265.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"475.0\" y1=\"25\" x2=\"475.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"475.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"248.0\" x2=\"475\" y2=\"248.0\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"251.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"155.1\" x2=\"475\" y2=\"155.1\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"158.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"55\" y1=\"62.2\" x2=\"475\" y2=\"62.2\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"65.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"248.0\" x2=\"480\" y2=\"248.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"55.0\" y1=\"20\" x2=\"55.0\" y2=\"248\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><polygon points=\"55.0,248.0 57.3,247.0 59.7,245.9 62.0,244.9 64.3,243.9 66.7,242.8 69.0,241.8 71.3,240.8 73.7,239.7 76.0,238.7 78.3,237.7 80.7,236.6 83.0,235.6 85.3,234.6 87.7,233.5 90.0,232.5 92.3,231.5 94.7,230.4 97.0,229.4 99.3,228.4 101.7,227.4 104.0,226.3 106.3,225.3 108.7,224.3 111.0,223.2 113.3,222.2 115.7,221.2 118.0,220.1 120.3,219.1 122.7,218.1 125.0,217.0 127.3,216.0 129.7,215.0 132.0,213.9 134.3,212.9 136.7,211.9 139.0,210.8 141.3,209.8 143.7,208.8 146.0,207.7 148.3,206.7 150.7,205.7 153.0,204.6 155.3,203.6 157.7,202.6 160.0,201.5 162.3,200.5 164.7,199.5 167.0,198.4 169.3,197.4 171.7,196.4 174.0,195.3 176.3,194.3 178.7,193.3 181.0,192.2 183.3,191.2 185.7,190.2 188.0,189.2 190.3,188.1 192.7,187.1 195.0,186.1 197.3,185.0 199.7,184.0 202.0,183.0 204.3,181.9 206.7,180.9 209.0,179.9 211.3,178.8 213.7,177.8 216.0,176.8 218.3,175.7 220.7,174.7 223.0,173.7 225.3,172.6 227.7,171.6 230.0,170.6 232.3,169.5 234.7,168.5 237.0,167.5 239.3,166.4 241.7,165.4 244.0,164.4 246.3,163.3 248.7,162.3 251.0,161.3 253.3,160.2 255.7,159.2 258.0,158.2 260.3,157.1 262.7,156.1 265.0,155.1 267.3,154.1 269.7,153.0 272.0,152.0 274.3,151.0 276.7,149.9 279.0,148.9 281.3,147.9 283.7,146.8 286.0,145.8 288.3,144.8 290.7,143.7 293.0,142.7 295.3,141.7 297.7,140.6 300.0,139.6 302.3,138.6 304.7,137.5 307.0,136.5 309.3,135.5 311.7,134.4 314.0,133.4 316.3,132.4 318.7,131.3 321.0,130.3 323.3,129.3 325.7,128.2 328.0,127.2 330.3,126.2 332.7,125.1 335.0,124.1 337.3,123.1 339.7,122.0 342.0,121.0 344.3,120.0 346.7,118.9 349.0,117.9 351.3,116.9 353.7,115.9 356.0,114.8 358.3,113.8 360.7,112.8 363.0,111.7 365.3,110.7 367.7,109.7 370.0,108.6 372.3,107.6 374.7,106.6 377.0,105.5 379.3,104.5 381.7,103.5 384.0,102.4 386.3,101.4 388.7,100.4 391.0,99.3 393.3,98.3 395.7,97.3 398.0,96.2 400.3,95.2 402.7,94.2 405.0,93.1 407.3,92.1 409.7,91.1 412.0,90.0 414.3,89.0 416.7,88.0 419.0,86.9 421.3,85.9 423.7,84.9 426.0,83.8 428.3,82.8 430.7,81.8 433.0,80.8 435.3,79.7 437.7,78.7 440.0,77.7 442.3,76.6 444.7,75.6 447.0,74.6 449.3,73.5 451.7,72.5 454.0,71.5 456.3,70.4 458.7,69.4 461.0,68.4 463.3,67.3 465.7,66.3 468.0,65.3 470.3,64.2 472.7,63.2 475.0,62.2 475.0,248.0 472.7,248.0 470.3,248.0 468.0,248.0 465.7,248.0 463.3,248.0 461.0,248.0 458.7,248.0 456.3,248.0 454.0,248.0 451.7,248.0 449.3,248.0 447.0,248.0 444.7,248.0 442.3,248.0 440.0,248.0 437.7,248.0 435.3,248.0 433.0,248.0 430.7,248.0 428.3,248.0 426.0,248.0 423.7,248.0 421.3,248.0 419.0,248.0 416.7,248.0 414.3,248.0 412.0,248.0 409.7,248.0 407.3,248.0 405.0,248.0 402.7,248.0 400.3,248.0 398.0,248.0 395.7,248.0 393.3,248.0 391.0,248.0 388.7,248.0 386.3,248.0 384.0,248.0 381.7,248.0 379.3,248.0 377.0,248.0 374.7,248.0 372.3,248.0 370.0,248.0 367.7,248.0 365.3,248.0 363.0,248.0 360.7,248.0 358.3,248.0 356.0,248.0 353.7,248.0 351.3,248.0 349.0,248.0 346.7,248.0 344.3,248.0 342.0,248.0 339.7,248.0 337.3,248.0 335.0,248.0 332.7,248.0 330.3,248.0 328.0,248.0 325.7,248.0 323.3,248.0 321.0,248.0 318.7,248.0 316.3,248.0 314.0,248.0 311.7,248.0 309.3,248.0 307.0,248.0 304.7,248.0 302.3,248.0 300.0,248.0 297.7,248.0 295.3,248.0 293.0,248.0 290.7,248.0 288.3,248.0 286.0,248.0 283.7,248.0 281.3,248.0 279.0,248.0 276.7,248.0 274.3,248.0 272.0,248.0 269.7,248.0 267.3,248.0 265.0,248.0 262.7,248.0 260.3,248.0 258.0,248.0 255.7,248.0 253.3,248.0 251.0,248.0 248.7,248.0 246.3,248.0 244.0,248.0 241.7,248.0 239.3,248.0 237.0,248.0 234.7,248.0 232.3,248.0 230.0,248.0 227.7,248.0 225.3,248.0 223.0,248.0 220.7,248.0 218.3,248.0 216.0,248.0 213.7,248.0 211.3,248.0 209.0,248.0 206.7,248.0 204.3,248.0 202.0,248.0 199.7,248.0 197.3,248.0 195.0,248.0 192.7,248.0 190.3,248.0 188.0,248.0 185.7,248.0 183.3,248.0 181.0,248.0 178.7,248.0 176.3,248.0 174.0,248.0 171.7,248.0 169.3,248.0 167.0,248.0 164.7,248.0 162.3,248.0 160.0,248.0 157.7,248.0 155.3,248.0 153.0,248.0 150.7,248.0 148.3,248.0 146.0,248.0 143.7,248.0 141.3,248.0 139.0,248.0 136.7,248.0 134.3,248.0 132.0,248.0 129.7,248.0 127.3,248.0 125.0,248.0 122.7,248.0 120.3,248.0 118.0,248.0 115.7,248.0 113.3,248.0 111.0,248.0 108.7,248.0 106.3,248.0 104.0,248.0 101.7,248.0 99.3,248.0 97.0,248.0 94.7,248.0 92.3,248.0 90.0,248.0 87.7,248.0 85.3,248.0 83.0,248.0 80.7,248.0 78.3,248.0 76.0,248.0 73.7,248.0 71.3,248.0 69.0,248.0 66.7,248.0 64.3,248.0 62.0,248.0 59.7,248.0 57.3,248.0 55.0,248.0\" fill=\"#DCEFF2\" opacity=\"0.9\"/><polyline fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\" points=\"55.0,248.0 56.0,247.5 57.1,247.1 58.1,246.6 59.2,246.1 60.2,245.7 61.3,245.2 62.4,244.7 63.4,244.3 64.5,243.8 65.5,243.4 66.5,242.9 67.6,242.4 68.7,242.0 69.7,241.5 70.8,241.0 71.8,240.6 72.8,240.1 73.9,239.6 75.0,239.2 76.0,238.7 77.0,238.2 78.1,237.8 79.2,237.3 80.2,236.8 81.2,236.4 82.3,235.9 83.3,235.5 84.4,235.0 85.5,234.5 86.5,234.1 87.5,233.6 88.6,233.1 89.7,232.7 90.7,232.2 91.8,231.7 92.8,231.3 93.8,230.8 94.9,230.3 96.0,229.9 97.0,229.4 98.0,229.0 99.1,228.5 100.2,228.0 101.2,227.6 102.2,227.1 103.3,226.6 104.3,226.2 105.4,225.7 106.4,225.2 107.5,224.8 108.6,224.3 109.6,223.8 110.7,223.4 111.7,222.9 112.8,222.4 113.8,222.0 114.8,221.5 115.9,221.1 116.9,220.6 118.0,220.1 119.0,219.7 120.1,219.2 121.2,218.7 122.2,218.3 123.2,217.8 124.3,217.3 125.4,216.9 126.4,216.4 127.4,215.9 128.5,215.5 129.6,215.0 130.6,214.6 131.6,214.1 132.7,213.6 133.8,213.2 134.8,212.7 135.9,212.2 136.9,211.8 137.9,211.3 139.0,210.8 140.1,210.4 141.1,209.9 142.1,209.4 143.2,209.0 144.2,208.5 145.3,208.0 146.3,207.6 147.4,207.1 148.4,206.7 149.5,206.2 150.6,205.7 151.6,205.3 152.7,204.8 153.7,204.3 154.8,203.9 155.8,203.4 156.8,202.9 157.9,202.5 158.9,202.0 160.0,201.5 161.1,201.1 162.1,200.6 163.2,200.1 164.2,199.7 165.2,199.2 166.3,198.8 167.4,198.3 168.4,197.8 169.4,197.4 170.5,196.9 171.6,196.4 172.6,196.0 173.6,195.5 174.7,195.0 175.8,194.6 176.8,194.1 177.8,193.6 178.9,193.2 179.9,192.7 181.0,192.2 182.1,191.8 183.1,191.3 184.2,190.9 185.2,190.4 186.2,189.9 187.3,189.5 188.3,189.0 189.4,188.5 190.5,188.1 191.5,187.6 192.6,187.1 193.6,186.7 194.7,186.2 195.7,185.7 196.8,185.3 197.8,184.8 198.9,184.4 199.9,183.9 200.9,183.4 202.0,183.0 203.0,182.5 204.1,182.0 205.2,181.6 206.2,181.1 207.2,180.6 208.3,180.2 209.3,179.7 210.4,179.2 211.4,178.8 212.5,178.3 213.6,177.8 214.6,177.4 215.7,176.9 216.7,176.5 217.8,176.0 218.8,175.5 219.8,175.1 220.9,174.6 222.0,174.1 223.0,173.7 224.1,173.2 225.1,172.7 226.1,172.3 227.2,171.8 228.2,171.3 229.3,170.9 230.3,170.4 231.4,169.9 232.4,169.5 233.5,169.0 234.5,168.6 235.6,168.1 236.7,167.6 237.7,167.2 238.8,166.7 239.8,166.2 240.8,165.8 241.9,165.3 243.0,164.8 244.0,164.4 245.1,163.9 246.1,163.4 247.2,163.0 248.2,162.5 249.2,162.1 250.3,161.6 251.4,161.1 252.4,160.7 253.4,160.2 254.5,159.7 255.5,159.3 256.6,158.8 257.6,158.3 258.7,157.9 259.8,157.4 260.8,156.9 261.9,156.5 262.9,156.0 263.9,155.5 265.0,155.1 266.0,154.6 267.1,154.2 268.1,153.7 269.2,153.2 270.2,152.8 271.3,152.3 272.4,151.8 273.4,151.4 274.4,150.9 275.5,150.4 276.5,150.0 277.6,149.5 278.6,149.0 279.7,148.6 280.8,148.1 281.8,147.6 282.9,147.2 283.9,146.7 284.9,146.3 286.0,145.8 287.0,145.3 288.1,144.9 289.1,144.4 290.2,143.9 291.2,143.5 292.3,143.0 293.4,142.5 294.4,142.1 295.5,141.6 296.5,141.1 297.6,140.7 298.6,140.2 299.6,139.8 300.7,139.3 301.8,138.8 302.8,138.4 303.9,137.9 304.9,137.4 306.0,137.0 307.0,136.5 308.1,136.0 309.1,135.6 310.1,135.1 311.2,134.6 312.2,134.2 313.3,133.7 314.4,133.2 315.4,132.8 316.5,132.3 317.5,131.9 318.5,131.4 319.6,130.9 320.6,130.5 321.7,130.0 322.8,129.5 323.8,129.1 324.8,128.6 325.9,128.1 326.9,127.7 328.0,127.2 329.1,126.7 330.1,126.3 331.1,125.8 332.2,125.3 333.2,124.9 334.3,124.4 335.3,124.0 336.4,123.5 337.4,123.0 338.5,122.6 339.6,122.1 340.6,121.6 341.6,121.2 342.7,120.7 343.8,120.2 344.8,119.8 345.9,119.3 346.9,118.8 347.9,118.4 349.0,117.9 350.1,117.5 351.1,117.0 352.2,116.5 353.2,116.1 354.2,115.6 355.3,115.1 356.4,114.7 357.4,114.2 358.4,113.7 359.5,113.3 360.6,112.8 361.6,112.3 362.7,111.9 363.7,111.4 364.8,110.9 365.8,110.5 366.9,110.0 367.9,109.6 369.0,109.1 370.0,108.6 371.0,108.2 372.1,107.7 373.1,107.2 374.2,106.8 375.2,106.3 376.3,105.8 377.3,105.4 378.4,104.9 379.4,104.4 380.5,104.0 381.6,103.5 382.6,103.0 383.6,102.6 384.7,102.1 385.8,101.7 386.8,101.2 387.8,100.7 388.9,100.3 389.9,99.8 391.0,99.3 392.1,98.9 393.1,98.4 394.1,97.9 395.2,97.5 396.2,97.0 397.3,96.5 398.4,96.1 399.4,95.6 400.4,95.2 401.5,94.7 402.6,94.2 403.6,93.8 404.7,93.3 405.7,92.8 406.8,92.4 407.8,91.9 408.9,91.4 409.9,91.0 410.9,90.5 412.0,90.0 413.1,89.6 414.1,89.1 415.2,88.6 416.2,88.2 417.2,87.7 418.3,87.3 419.4,86.8 420.4,86.3 421.5,85.9 422.5,85.4 423.5,84.9 424.6,84.5 425.6,84.0 426.7,83.5 427.8,83.1 428.8,82.6 429.8,82.1 430.9,81.7 431.9,81.2 433.0,80.8 434.1,80.3 435.1,79.8 436.1,79.4 437.2,78.9 438.2,78.4 439.3,78.0 440.3,77.5 441.4,77.0 442.4,76.6 443.5,76.1 444.6,75.6 445.6,75.2 446.6,74.7 447.7,74.2 448.8,73.8 449.8,73.3 450.9,72.9 451.9,72.4 452.9,71.9 454.0,71.5 455.1,71.0 456.1,70.5 457.2,70.1 458.2,69.6 459.2,69.1 460.3,68.7 461.4,68.2 462.4,67.7 463.4,67.3 464.5,66.8 465.6,66.3 466.6,65.9 467.7,65.4 468.7,65.0 469.8,64.5 470.8,64.0 471.9,63.6 472.9,63.1 474.0,62.6 475.0,62.2\"/><text x=\"467\" y=\"43\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">y = x</text></svg></span><p>Bestäm rotationskroppens volym.</p>",
-    "s": "<p>Metoden med cirkelformade tvärsnitt ger</p><p>\\[V=\\pi\\int_0^2x^2dx=\\pi\\left[\\frac{x^3}{3}\\right]_0^2=\\boxed{\\frac{8\\pi}{3}}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>Metoden med cirkelformade tvärsnitt ger</p><p>\\[V=\\pi\\int_0^2x^2dx=\\pi\\left[\\frac{x^3}{3}\\right]_0^2=\\boxed{\\frac{8\\pi}{3}}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -15043,7 +15041,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm integralen</p><p>\\[\\int_0^2 e^{-x^2}\\,dx\\]</p><p>med tre decimaler.</p>",
-    "s": "<p>Integralen saknar en enkel primitiv funktion med de vanliga funktioner som används i kursen. En numerisk beräkning ger</p><p>\\[\\boxed{\\int_0^2 e^{-x^2}\\,dx\\approx0,882}.\\]</p>",
+    "s": "<p><strong>Metodval:</strong> Här efterfrågas ett numeriskt värde och någon enkel primitiv funktion används inte. Beräkna därför integralen numeriskt med digitalt verktyg och behåll gränserna exakt.</p><p>Integralen saknar en enkel primitiv funktion med de vanliga funktioner som används i kursen. En numerisk beräkning ger</p><p>\\[\\boxed{\\int_0^2 e^{-x^2}\\,dx\\approx0,882}.\\]</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -15066,7 +15064,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm</p><p>\\[\\int_{1}^{e}\\left(g'(x)h(x)+g(x)h'(x)\\right)dx\\]</p><p>då \\(g(x)=\\ln x\\) och \\(h(x)=x^2\\).</p>",
-    "s": "<p><strong>Metod:</strong> Enligt produktregeln är</p><p>\\[(g(x)h(x))'=g'(x)h(x)+g(x)h'(x).\\]</p><p>Integralen blir därför</p><p>\\[[g(x)h(x)]_{1}^{e}=\\boxed{e^2}.\\]</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p><strong>Metod:</strong> Enligt produktregeln är</p><p>\\[(g(x)h(x))'=g'(x)h(x)+g(x)h'(x).\\]</p><p>Integralen blir därför</p><p>\\[[g(x)h(x)]_{1}^{e}=\\boxed{e^2}.\\]</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -15223,7 +15221,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion \\(F\\) till \\(f\\).</p>\n<p>a) \\(f(x)=6x^2-4x+3\\)<br>\nb) \\(f(x)=5e^{2x}\\)<br>\nc) \\(f(x)=4\\cos3x\\)<br>\nd) \\(f(x)=\\dfrac3x\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p>a)</p>\n<p>\\[\nF(x)=2x^3-2x^2+3x+C.\n\\]</p>\n<p>b)</p>\n<p>\\[\nF(x)=\\frac52e^{2x}+C.\n\\]</p>\n<p>c)</p>\n<p>\\[\nF(x)=\\frac43\\sin3x+C.\n\\]</p>\n<p>d)</p>\n<p>\\[\nF(x)=3\\ln x+C.\n\\]</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a)</p>\n<p>\\[\nF(x)=2x^3-2x^2+3x+C.\n\\]</p>\n<p>b)</p>\n<p>\\[\nF(x)=\\frac52e^{2x}+C.\n\\]</p>\n<p>c)</p>\n<p>\\[\nF(x)=\\frac43\\sin3x+C.\n\\]</p>\n<p>d)</p>\n<p>\\[\nF(x)=3\\ln x+C.\n\\]</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -15356,7 +15354,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm</p><p>\\[\\int_{0}^{\\ln2}(e^x+e^{-x})\\,dx.\\]</p>",
-    "s": "<p>En primitiv funktion är \\(e^x-e^{-x}\\).</p><p>\\[ [e^x-e^{-x}]_0^{\\ln2}=(2-1/2)-(1-1)=\\boxed{\\frac32}.\\]</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p>En primitiv funktion är \\(e^x-e^{-x}\\).</p><p>\\[ [e^x-e^{-x}]_0^{\\ln2}=(2-1/2)-(1-1)=\\boxed{\\frac32}.\\]</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -15516,7 +15514,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm</p><p>\\[\\int_{0}^{1}\\left(g'(x)h(x)+g(x)h'(x)\\right)dx\\]</p><p>då \\(g(x)=x^3\\) och \\(h(x)=1/(x+1)\\).</p>",
-    "s": "<p><strong>Metod:</strong> Enligt produktregeln är</p><p>\\[(g(x)h(x))'=g'(x)h(x)+g(x)h'(x).\\]</p><p>Integralen blir därför</p><p>\\[[g(x)h(x)]_{0}^{1}=\\boxed{1/2}.\\]</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p><strong>Metod:</strong> Enligt produktregeln är</p><p>\\[(g(x)h(x))'=g'(x)h(x)+g(x)h'(x).\\]</p><p>Integralen blir därför</p><p>\\[[g(x)h(x)]_{0}^{1}=\\boxed{1/2}.\\]</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -15539,7 +15537,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm</p><p>\\[\\int_{0}^{\\pi/4}(1+\\tan^2x)\\,dx.\\]</p>",
-    "s": "<p>Använd identiteten \\(1+\\tan^2x=1/\\cos^2x\\). Då är en primitiv funktion \\(\\tan x\\):</p><p>\\[\\tan x]_0^{\\pi/4}=1-0=\\boxed{1}.\\]</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p>Använd identiteten \\(1+\\tan^2x=1/\\cos^2x\\). Då är en primitiv funktion \\(\\tan x\\):</p><p>\\[\\tan x]_0^{\\pi/4}=1-0=\\boxed{1}.\\]</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -15585,7 +15583,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm integralen</p><p>\\[\\int_0^\\pi \\sin\\left(\\frac{x^2}{2}\\right)\\,dx\\]</p><p>med tre decimaler.</p>",
-    "s": "<p>En numerisk beräkning ger</p><p>\\[\\boxed{\\int_0^\\pi \\sin\\left(\\frac{x^2}{2}\\right)\\,dx\\approx0,846}.\\]</p>",
+    "s": "<p><strong>Metodval:</strong> Här efterfrågas ett numeriskt värde och någon enkel primitiv funktion används inte. Beräkna därför integralen numeriskt med digitalt verktyg och behåll gränserna exakt.</p><p>En numerisk beräkning ger</p><p>\\[\\boxed{\\int_0^\\pi \\sin\\left(\\frac{x^2}{2}\\right)\\,dx\\approx0,846}.\\]</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -15960,7 +15958,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under kurvan</p><p>\\[y=e^{-x^2},\\qquad0\\le x\\le1,5\\]</p><p>roteras ett varv kring x-axeln.</p><p>Bestäm rotationskroppens volym med tre decimaler.</p>",
-    "s": "<p>Vid rotation kring x-axeln gäller</p><p>\\[V=\\pi\\int_0^{1,5}y^2\\,dx=\\pi\\int_0^{1,5}e^{-2x^2}\\,dx.\\]</p><p>Numeriskt:</p><p>\\[\\boxed{V\\approx1,963}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>Vid rotation kring x-axeln gäller</p><p>\\[V=\\pi\\int_0^{1,5}y^2\\,dx=\\pi\\int_0^{1,5}e^{-2x^2}\\,dx.\\]</p><p>Numeriskt:</p><p>\\[\\boxed{V\\approx1,963}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -16488,7 +16486,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm konstanten \\(k\\) så att</p><p>\\[\\int_0^2(kx+1)\\,dx=10.\\]</p>",
-    "s": "<p><strong>Metod:</strong> Bestäm en primitiv funktion, sätt in övre och undre gränsen och subtrahera.</p><p>\\[\\int_0^2(kx+1)dx=\\left[\\frac{kx^2}{2}+x\\right]_0^2=2k+2.\\]</p><p>\\(2k+2=10\\Rightarrow\\boxed{k=4}\\).</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p><strong>Metod:</strong> Bestäm en primitiv funktion, sätt in övre och undre gränsen och subtrahera.</p><p>\\[\\int_0^2(kx+1)dx=\\left[\\frac{kx^2}{2}+x\\right]_0^2=2k+2.\\]</p><p>\\(2k+2=10\\Rightarrow\\boxed{k=4}\\).</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur",
@@ -16680,7 +16678,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=4\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=3\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=2e^{2x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=5/x\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p>a) \\(\\boxed{4\\sin x+C}\\)</p><p>b) \\(\\boxed{-3\\cos x+C}\\)</p><p>c) \\(\\boxed{e^{2x}+C}\\)</p><p>d) \\(\\boxed{5\\ln x+C}\\)</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a) \\(\\boxed{4\\sin x+C}\\)</p><p>b) \\(\\boxed{-3\\cos x+C}\\)</p><p>c) \\(\\boxed{e^{2x}+C}\\)</p><p>d) \\(\\boxed{5\\ln x+C}\\)</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -16768,7 +16766,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under \\(y=x\\) från \\(x=0\\) till \\(x=3\\) roteras kring x-axeln.</p><p>a) Skriv integralen för volymen.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Beräkna volymen.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Vilken välkänd kropp får man?</p>",
-    "s": "<p>a) \\(V=\\pi\\int_0^3x^2dx\\).</p><p>b) \\(V=\\pi[x^3/3]_0^3=\\)<strong>\\(9\\pi\\)</strong>.</p><p>c) Området bildar en <strong>rät cirkulär kon</strong> med radie och höjd 3.</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>a) \\(V=\\pi\\int_0^3x^2dx\\).</p><p>b) \\(V=\\pi[x^3/3]_0^3=\\)<strong>\\(9\\pi\\)</strong>.</p><p>c) Området bildar en <strong>rät cirkulär kon</strong> med radie och höjd 3.</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -16919,7 +16917,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm</p><p>\\[\\int_{0}^{\\ln2}\\left(g'(x)h(x)+g(x)h'(x)\\right)dx\\]</p><p>då \\(g(x)=e^x\\) och \\(h(x)=x+1\\).</p>",
-    "s": "<p><strong>Metod:</strong> Enligt produktregeln är</p><p>\\[(g(x)h(x))'=g'(x)h(x)+g(x)h'(x).\\]</p><p>Integralen blir därför</p><p>\\[[g(x)h(x)]_{0}^{\\ln2}=\\boxed{1+2\\ln2}.\\]</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p><strong>Metod:</strong> Enligt produktregeln är</p><p>\\[(g(x)h(x))'=g'(x)h(x)+g(x)h'(x).\\]</p><p>Integralen blir därför</p><p>\\[[g(x)h(x)]_{0}^{\\ln2}=\\boxed{1+2\\ln2}.\\]</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -16942,7 +16940,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm</p><p>\\[\\int_1^4 \\frac{\\ln(x^2+1)}{x+1}\\,dx\\]</p><p>med tre decimaler.</p>",
-    "s": "<p>Funktionen som integreras är kontinuerlig på intervallet. Numerisk integration ger</p><p>\\[\\boxed{1,597}.\\]</p>",
+    "s": "<p><strong>Metodval:</strong> Här efterfrågas ett numeriskt värde och någon enkel primitiv funktion används inte. Beräkna därför integralen numeriskt med digitalt verktyg och behåll gränserna exakt.</p><p>Funktionen som integreras är kontinuerlig på intervallet. Numerisk integration ger</p><p>\\[\\boxed{1,597}.\\]</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -16965,7 +16963,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En funktion \\(P(t)=200+50t\\) anger effekt i watt under tidsintervallet \\(0\\le t\\le4\\) timmar.</p><p>a) Ställ upp en integral för energin under intervallet.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Beräkna energin i Wh.</p>",
-    "s": "<p>a) \\[E=\\int_0^4(200+50t)dt.\\]</p><p>b) \\([200t+25t^2]_0^4=800+400=\\boxed{1200\\text{ Wh}}\\).</p>",
+    "s": "<p>a) Energin fås genom att integrera effekten över tiden:</p><p>\\[E=\\int_0^4(200+50t)\\,dt.\\]</p><p>b) Eftersom \\(P\\) mäts i watt och \\(t\\) i timmar blir integralens enhet Wh:</p><p>\\[E=[200t+25t^2]_0^4=800+400=1200\\ \\mathrm{Wh}.\\]</p><p><strong>Svar:</strong> a) integralen ovan, b) \\(1200\\ \\mathrm{Wh}=1{,}2\\ \\mathrm{kWh}\\).</p>",
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
@@ -16989,7 +16987,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En slumpvariabel har täthetsfunktionen \\(f(x)=2x\\) för \\(0\\le x\\le1\\).</p><p>Bestäm \\(P(0,2\\le X\\le0,7)\\).</p>",
-    "s": "<p>\\[P(0,2\\le X\\le0,7)=\\int_{0,2}^{0,7}2x dx=[x^2]_{0,2}^{0,7}=0,49-0,04=\\boxed{0,45}.\\]</p>",
+    "s": "<p>För en kontinuerlig slumpvariabel är sannolikheten arean under täthetsfunktionen över det aktuella intervallet:</p><p>\\[P(0{,}2\\le X\\le0{,}7)=\\int_{0{,}2}^{0{,}7}2x\\,dx.\\]</p><p>En primitiv funktion till \\(2x\\) är \\(x^2\\), alltså</p><p>\\[[x^2]_{0{,}2}^{0{,}7}=0{,}7^2-0{,}2^2=0{,}49-0{,}04=0{,}45.\\]</p><p><strong>Svar:</strong> \\(0{,}45\\).</p>",
     "familj": "Sannolikhet och kvantiler från täthetsfunktion",
     "formaga": [
       "procedur",
@@ -17108,7 +17106,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Grafen till \\(f(x)=2-x\\) och koordinataxlarna begränsar ett område i första kvadranten.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"430\" height=\"270\" viewBox=\"0 0 430 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"166.0\" y1=\"22\" x2=\"166.0\" y2=\"232\" stroke=\"#D9DDE2\" stroke-width=\"0.7\"/><text x=\"166.0\" y=\"249.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"284.0\" y1=\"22\" x2=\"284.0\" y2=\"232\" stroke=\"#D9DDE2\" stroke-width=\"0.7\"/><text x=\"284.0\" y=\"249.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"402.0\" y1=\"22\" x2=\"402.0\" y2=\"232\" stroke=\"#D9DDE2\" stroke-width=\"0.7\"/><text x=\"402.0\" y=\"249.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"48\" y1=\"232.0\" x2=\"402\" y2=\"232.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"48\" y1=\"162.0\" x2=\"402\" y2=\"162.0\" stroke=\"#D9DDE2\" stroke-width=\"0.7\"/><text x=\"40.0\" y=\"166.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"48\" y1=\"92.0\" x2=\"402\" y2=\"92.0\" stroke=\"#D9DDE2\" stroke-width=\"0.7\"/><text x=\"40.0\" y=\"96.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"48\" y1=\"22.0\" x2=\"402\" y2=\"22.0\" stroke=\"#D9DDE2\" stroke-width=\"0.7\"/><text x=\"40.0\" y=\"26.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><polygon points=\"48.0,232.0 48.0,92.0 284.0,232.0\" fill=\"#F6E8E5\" opacity=\"0.85\"/><polyline points=\"48.0,92.0 284.0,232.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"394\" y=\"38\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">y=2-x</text></svg></span><p>Beräkna områdets area med en integral.</p>",
-    "s": "<p>\\[A=\\int_0^2(2-x)\\,dx=[2x-x^2/2]_0^2=2.\\]</p><p><strong>2 areaenheter.</strong></p>",
+    "s": "<p>Linjen \\(y=2-x\\) skär y-axeln vid \\(y=2\\) och x-axeln när \\(2-x=0\\), alltså vid \\(x=2\\). Det begränsade området ligger därför mellan \\(x=0\\) och \\(x=2\\), där funktionen är positiv.</p><p>\\[A=\\int_0^2(2-x)\\,dx=[2x-\\tfrac12x^2]_0^2=4-2=2.\\]</p><p><strong>Svar:</strong> 2 areaenheter.</p>",
     "familj": "Geometrisk area och area från graf med integral",
     "formaga": [
       "procedur"
@@ -17177,7 +17175,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=6x^2-4x+3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=5e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=4\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=3/x\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p>a) \\(F(x)=2x^3-2x^2+3x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(G(x)=5e^x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(H(x)=4\\sin x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(P(x)=3\\ln x+C\\)</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a) \\(F(x)=2x^3-2x^2+3x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(G(x)=5e^x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(H(x)=4\\sin x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(P(x)=3\\ln x+C\\)</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -17299,7 +17297,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Beräkna exakt.</p><p>a) \\(\\int_{-1}^{1}x^2\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_{-2}^{2}x^3\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_1^4\\frac1{\\sqrt{x}}\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_1^e\\frac1x\\,dx\\)</p>",
-    "s": "<p>a) <strong>\\(\\frac23\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Uttrycket som integreras är udda över ett symmetriskt intervall: <strong>0</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\([2\\sqrt{x}]_1^4=4-2=\\)<strong>2</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\([\\ln x]_1^e=\\)<strong>1</strong>.</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p>a) <strong>\\(\\frac23\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Uttrycket som integreras är udda över ett symmetriskt intervall: <strong>0</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\([2\\sqrt{x}]_1^4=4-2=\\)<strong>2</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\([\\ln x]_1^e=\\)<strong>1</strong>.</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -17529,7 +17527,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm medelvärdet av funktionen.</p><p>a) \\(f(x)=x^2\\) på intervallet \\([0,3]\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=2x+1\\) på intervallet \\([1,5]\\).</p>",
-    "s": "<p>Medelvärdet är \\(\\frac1{b-a}\\int_a^bf(x)dx\\).</p><p>a) \\(\\frac13[x^3/3]_0^3=\\frac13\\cdot9=\\boxed{3}\\).</p><p>b) \\(\\frac14[x^2+x]_1^5=\\frac14(30-2)=\\boxed{7}\\).</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p>Medelvärdet är \\(\\frac1{b-a}\\int_a^bf(x)dx\\).</p><p>a) \\(\\frac13[x^3/3]_0^3=\\frac13\\cdot9=\\boxed{3}\\).</p><p>b) \\(\\frac14[x^2+x]_1^5=\\frac14(30-2)=\\boxed{7}\\).</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -18257,7 +18255,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området mellan x-axeln och kurvan</p><p>\\[y=\\ln(x+1),\\qquad0\\le x\\le3\\]</p><p>roteras ett varv kring x-axeln.</p><p>Bestäm volymen med tre decimaler.</p>",
-    "s": "<p>Volymen är</p><p>\\[V=\\pi\\int_0^3\\left(\\ln(x+1)\\right)^2dx.\\]</p><p>Numerisk integration ger</p><p>\\[\\boxed{V\\approx8,158}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>Volymen är</p><p>\\[V=\\pi\\int_0^3\\left(\\ln(x+1)\\right)^2dx.\\]</p><p>Numerisk integration ger</p><p>\\[\\boxed{V\\approx8,158}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -18305,7 +18303,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En funktion \\(F\\) uppfyller \\(F'(x)=3x^2-4x+2\\) och \\(F(1)=5\\). Bestäm \\(F(x)\\).</p>",
-    "s": "<p>En primitiv funktion är \\(x^3-2x^2+2x+C\\).</p><p>Villkoret \\(F(1)=1-2+2+C=1+C=5\\) ger \\(C=4\\).</p><p><strong>\\(\\boxed{F(x)=x^3-2x^2+2x+4}\\)</strong>.</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>En primitiv funktion är \\(x^3-2x^2+2x+C\\).</p><p>Villkoret \\(F(1)=1-2+2+C=1+C=5\\) ger \\(C=4\\).</p><p><strong>\\(\\boxed{F(x)=x^3-2x^2+2x+4}\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -18352,7 +18350,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under \\(y=\\sqrt{x}\\) från \\(x=0\\) till \\(x=4\\) roteras kring x-axeln.</p><p>Bestäm rotationskroppens volym.</p>",
-    "s": "<p>\\[V=\\pi\\int_0^4(\\sqrt{x})^2dx=\\pi\\int_0^4x\\,dx=8\\pi.\\]</p><p><strong>\\(8\\pi\\) volymenheter.</strong></p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>\\[V=\\pi\\int_0^4(\\sqrt{x})^2dx=\\pi\\int_0^4x\\,dx=8\\pi.\\]</p><p><strong>\\(8\\pi\\) volymenheter.</strong></p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -18375,7 +18373,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Beräkna.</p><p>a) \\(\\int_0^2(4-x^2)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_0^3(6-2x)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_{-1}^2(2x+3)\\,dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_0^1(3x^2-2x+1)\\,dx\\)</p>",
-    "s": "<p>a) \\([4x-x^3/3]_0^2=\\)<strong>\\(\\frac{16}{3}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\([6x-x^2]_0^3=\\)<strong>9</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\([x^2+3x]_{-1}^2=10-(-2)=\\)<strong>12</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\([x^3-x^2+x]_0^1=\\)<strong>1</strong>.</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p>a) \\([4x-x^3/3]_0^2=\\)<strong>\\(\\frac{16}{3}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\([6x-x^2]_0^3=\\)<strong>9</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\([x^2+3x]_{-1}^2=10-(-2)=\\)<strong>12</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\([x^3-x^2+x]_0^1=\\)<strong>1</strong>.</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -18438,7 +18436,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under \\(y=x^2\\) från \\(x=0\\) till \\(x=3\\) roteras kring x-axeln.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"450\" height=\"270\" viewBox=\"0 0 450 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Område under parabel\"><rect x=\"1\" y=\"1\" width=\"448\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"232\" stroke=\"#E8ECEF\"/><line x1=\"177.3\" y1=\"25\" x2=\"177.3\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"177.3\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"299.7\" y1=\"25\" x2=\"299.7\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"299.7\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"422.0\" y1=\"25\" x2=\"422.0\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"422.0\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"55\" y1=\"232.0\" x2=\"422\" y2=\"232.0\" stroke=\"#E8ECEF\"/><line x1=\"55\" y1=\"190.6\" x2=\"422\" y2=\"190.6\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"194.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"149.2\" x2=\"422\" y2=\"149.2\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"153.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"107.8\" x2=\"422\" y2=\"107.8\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"111.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"66.4\" x2=\"422\" y2=\"66.4\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"70.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">8</text><line x1=\"55\" y1=\"25.0\" x2=\"422\" y2=\"25.0\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"29.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">10</text><line x1=\"55\" y1=\"232.0\" x2=\"422\" y2=\"232.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"422.0\" y1=\"25\" x2=\"422.0\" y2=\"232\" stroke=\"#B43123\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><text x=\"427.0\" y=\"39\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#B43123\">x=3</text><polyline points=\"55.0,232.0 56.7,232.0 58.3,232.0 60.0,232.0 61.7,231.9 63.3,231.9 65.0,231.9 66.7,231.8 68.3,231.8 70.0,231.7 71.7,231.6 73.3,231.5 75.0,231.4 76.7,231.3 78.4,231.2 80.0,231.1 81.7,231.0 83.4,230.9 85.0,230.8 86.7,230.6 88.4,230.5 90.0,230.3 91.7,230.1 93.4,230.0 95.0,229.8 96.7,229.6 98.4,229.4 100.0,229.2 101.7,229.0 103.4,228.8 105.0,228.5 106.7,228.3 108.4,228.1 110.0,227.8 111.7,227.6 113.4,227.3 115.1,227.0 116.7,226.7 118.4,226.4 120.1,226.1 121.7,225.8 123.4,225.5 125.1,225.2 126.7,224.9 128.4,224.5 130.1,224.2 131.7,223.9 133.4,223.5 135.1,223.1 136.7,222.8 138.4,222.4 140.1,222.0 141.7,221.6 143.4,221.2 145.1,220.8 146.8,220.4 148.4,219.9 150.1,219.5 151.8,219.1 153.4,218.6 155.1,218.1 156.8,217.7 158.4,217.2 160.1,216.7 161.8,216.2 163.4,215.7 165.1,215.2 166.8,214.7 168.4,214.2 170.1,213.7 171.8,213.1 173.4,212.6 175.1,212.0 176.8,211.5 178.4,210.9 180.1,210.3 181.8,209.8 183.5,209.2 185.1,208.6 186.8,208.0 188.5,207.4 190.1,206.7 191.8,206.1 193.5,205.5 195.1,204.8 196.8,204.2 198.5,203.5 200.1,202.9 201.8,202.2 203.5,201.5 205.1,200.8 206.8,200.1 208.5,199.4 210.1,198.7 211.8,198.0 213.5,197.3 215.1,196.5 216.8,195.8 218.5,195.0 220.2,194.3 221.8,193.5 223.5,192.7 225.2,192.0 226.8,191.2 228.5,190.4 230.2,189.6 231.8,188.8 233.5,187.9 235.2,187.1 236.8,186.3 238.5,185.4 240.2,184.6 241.8,183.7 243.5,182.8 245.2,182.0 246.8,181.1 248.5,180.2 250.2,179.3 251.8,178.4 253.5,177.5 255.2,176.6 256.8,175.6 258.5,174.7 260.2,173.8 261.9,172.8 263.5,171.9 265.2,170.9 266.9,169.9 268.5,168.9 270.2,167.9 271.9,166.9 273.5,165.9 275.2,164.9 276.9,163.9 278.5,162.9 280.2,161.8 281.9,160.8 283.5,159.8 285.2,158.7 286.9,157.6 288.5,156.6 290.2,155.5 291.9,154.4 293.6,153.3 295.2,152.2 296.9,151.1 298.6,150.0 300.2,148.8 301.9,147.7 303.6,146.5 305.2,145.4 306.9,144.2 308.6,143.1 310.2,141.9 311.9,140.7 313.6,139.5 315.2,138.3 316.9,137.1 318.6,135.9 320.2,134.7 321.9,133.5 323.6,132.2 325.2,131.0 326.9,129.7 328.6,128.5 330.2,127.2 331.9,125.9 333.6,124.7 335.3,123.4 336.9,122.1 338.6,120.8 340.3,119.4 341.9,118.1 343.6,116.8 345.3,115.5 346.9,114.1 348.6,112.8 350.3,111.4 351.9,110.0 353.6,108.7 355.3,107.3 356.9,105.9 358.6,104.5 360.3,103.1 361.9,101.7 363.6,100.3 365.3,98.8 366.9,97.4 368.6,96.0 370.3,94.5 372.0,93.0 373.6,91.6 375.3,90.1 377.0,88.6 378.6,87.1 380.3,85.6 382.0,84.1 383.6,82.6 385.3,81.1 387.0,79.6 388.6,78.0 390.3,76.5 392.0,74.9 393.6,73.4 395.3,71.8 397.0,70.2 398.6,68.7 400.3,67.1 402.0,65.5 403.7,63.9 405.3,62.3 407.0,60.6 408.7,59.0 410.3,57.4 412.0,55.7 413.7,54.1 415.3,52.4 417.0,50.7 418.7,49.1 420.3,47.4 422.0,45.7\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"392.6\" y=\"66.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11.5\" fill=\"#B43123\">y=x²</text><text x=\"420\" y=\"224.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"63.0\" y=\"37\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span><p>a) Ställ upp integralen för volymen.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Beräkna volymen exakt.</p>",
-    "s": "<p>Metoden med cirkelformade tvärsnitt ger</p><p>\\[V=\\pi\\int_0^3(x^2)^2dx=\\pi\\int_0^3x^4dx.\\]</p><p>\\[V=\\pi\\left[\\frac{x^5}{5}\\right]_0^3=\\boxed{\\frac{243\\pi}{5}}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>Metoden med cirkelformade tvärsnitt ger</p><p>\\[V=\\pi\\int_0^3(x^2)^2dx=\\pi\\int_0^3x^4dx.\\]</p><p>\\[V=\\pi\\left[\\frac{x^5}{5}\\right]_0^3=\\boxed{\\frac{243\\pi}{5}}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -18560,7 +18558,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=6x^2-4x+3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=5e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=1/x\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p>a) <strong>\\(F(x)=2x^3-2x^2+3x+C\\)</strong>.</p><p>b) <strong>\\(G(x)=\\sin x+C\\)</strong>.</p><p>c) <strong>\\(H(x)=5e^x+C\\)</strong>.</p><p>d) <strong>\\(P(x)=\\ln x+C\\)</strong>.</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a) <strong>\\(F(x)=2x^3-2x^2+3x+C\\)</strong>.</p><p>b) <strong>\\(G(x)=\\sin x+C\\)</strong>.</p><p>c) <strong>\\(H(x)=5e^x+C\\)</strong>.</p><p>d) <strong>\\(P(x)=\\ln x+C\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -18623,7 +18621,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under grafen roteras kring x-axeln. Bestäm volymen.</p><p>a) \\(y=x\\)<br>för \\(0\\le x\\le2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=\\sqrt{x}\\)<br>för \\(0\\le x\\le4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=2\\)<br>för \\(0\\le x\\le3\\).</p>",
-    "s": "<p>Använd \\(V=\\pi\\int_a^b y^2dx\\).</p><p>a) \\(V=\\pi\\int_0^2x^2dx=\\boxed{8\\pi/3}\\).</p><p>b) \\(V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}\\).</p><p>c) \\(V=\\pi\\int_0^34dx=\\boxed{12\\pi}\\).</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>Använd \\(V=\\pi\\int_a^b y^2dx\\).</p><p>a) \\(V=\\pi\\int_0^2x^2dx=\\boxed{8\\pi/3}\\).</p><p>b) \\(V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}\\).</p><p>c) \\(V=\\pi\\int_0^34dx=\\boxed{12\\pi}\\).</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -19880,7 +19878,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange en icke-reell rot till ekvationen</p><p>\\[z^8=1.\\]</p>",
-    "s": "<p>Ett möjligt svar är <strong>\\(e^{i\\pi/4}\\)</strong>. Eftersom \\((e^{i\\pi/4})^8=e^{i2\\pi}=1\\).</p>",
+    "s": "<p><strong>De Moivre:</strong> Skriv först talet på polär form. För en n:te rot tas \\(r^{1/n}\\) och argumenten \\((v+2k\\pi)/n\\), \\(k=0,\\ldots,n-1\\), så att alla rötter kommer med.</p><p>Ett möjligt svar är <strong>\\(e^{i\\pi/4}\\)</strong>. Eftersom \\((e^{i\\pi/4})^8=e^{i2\\pi}=1\\).</p>",
     "familj": "Komplexa rötter med de Moivres formel",
     "formaga": [
       "procedur"
@@ -20603,7 +20601,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv på polär form med \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-2i\\)</p>",
-    "s": "<p>a) \\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sqrt2(\\cos\\frac{3\\pi}4+i\\sin\\frac{3\\pi}4)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\).</p>",
+    "s": "<p><strong>Två storheter behövs:</strong> Modulen är \\(r=\\sqrt{a^2+b^2}\\). Argumentet bestäms av riktningen från origo, så kvadranten måste kontrolleras.</p><p>a) \\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sqrt2(\\cos\\frac{3\\pi}4+i\\sin\\frac{3\\pi}4)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2(\\cos\\frac{3\\pi}2+i\\sin\\frac{3\\pi}2)\\).</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
@@ -21214,7 +21212,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv på formen \\(a+bi\\).</p><p>a) \\(2\\left(\\cos(0)+i\\sin(0)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(4\\left(\\cos(\\pi/2)+i\\sin(\\pi/2)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(6\\left(\\cos(\\pi)+i\\sin(\\pi)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\sqrt2\\left(\\cos(7\\pi/4)+i\\sin(7\\pi/4)\\right)\\)</p>",
-    "s": "<p>a) <strong>2</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(4i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>−6</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\sqrt2(\\frac{\\sqrt2}{2}-i\\frac{\\sqrt2}{2})=\\)<strong>\\(2-2i\\)</strong>.</p>",
+    "s": "<p><strong>Gå via Euler/trigonometri:</strong> Använd \\(e^{iv}=\\cos v+i\\sin v\\) och beräkna real- och imaginärdel var för sig.</p><p>a) <strong>2</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(4i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>−6</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\sqrt2(\\frac{\\sqrt2}{2}-i\\frac{\\sqrt2}{2})=\\)<strong>\\(2-2i\\)</strong>.</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
@@ -21237,7 +21235,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[x^2+2x+10=0.\\]</p>",
-    "s": "<p>pq-formeln eller kvadratkomplettering ger</p><p>\\[x=-1\\pm\\sqrt{1-10}=-1\\pm\\sqrt{-9}.\\]</p><p>Eftersom \\(\\sqrt{-9}=3i\\) blir lösningarna</p><p>\\[\\boxed{x=-1\\pm3i}.\\]</p>",
+    "s": "<p><strong>Arbetsordning:</strong> Faktorisera så långt som möjligt över de reella talen. När en andragradsfaktor saknar reella rötter fortsätter lösningen i de komplexa talen med \\(i^2=-1\\).</p><p>pq-formeln eller kvadratkomplettering ger</p><p>\\[x=-1\\pm\\sqrt{1-10}=-1\\pm\\sqrt{-9}.\\]</p><p>Eftersom \\(\\sqrt{-9}=3i\\) blir lösningarna</p><p>\\[\\boxed{x=-1\\pm3i}.\\]</p>",
     "familj": "Polynomekvationer med komplexa lösningar",
     "formaga": [
       "procedur"
@@ -21821,7 +21819,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv på formen \\(a+bi\\).</p><p>a) \\(4\\left(\\cos(\\pi/3)+i\\sin(\\pi/3)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(6\\left(\\cos(5\\pi/6)+i\\sin(5\\pi/6)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(3\\left(\\cos(3\\pi/2)+i\\sin(3\\pi/2)\\right)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\sqrt2\\left(\\cos(7\\pi/4)+i\\sin(7\\pi/4)\\right)\\)</p>",
-    "s": "<p>a) \\(4(1/2+i\\sqrt3/2)=\\boxed{2+2\\sqrt3i}\\).</p><p>b) \\(6(-\\sqrt3/2+i/2)=\\boxed{-3\\sqrt3+3i}\\).</p><p>c) <strong>\\(-3i\\)</strong>.</p><p>d) \\(2\\sqrt2(\\sqrt2/2-i\\sqrt2/2)=\\boxed{2-2i}\\).</p>",
+    "s": "<p><strong>Gå via Euler/trigonometri:</strong> Använd \\(e^{iv}=\\cos v+i\\sin v\\) och beräkna real- och imaginärdel var för sig.</p><p>a) \\(4(1/2+i\\sqrt3/2)=\\boxed{2+2\\sqrt3i}\\).</p><p>b) \\(6(-\\sqrt3/2+i/2)=\\boxed{-3\\sqrt3+3i}\\).</p><p>c) <strong>\\(-3i\\)</strong>.</p><p>d) \\(2\\sqrt2(\\sqrt2/2-i\\sqrt2/2)=\\boxed{2-2i}\\).</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
@@ -22236,7 +22234,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv på polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(\\sqrt3+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-1-i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(3i\\)</p>",
-    "s": "<p>a) \\(r=2\\), \\(v=\\pi/6\\): \\(\\boxed{2(\\cos\\frac\\pi6+i\\sin\\frac\\pi6)}\\).</p><p>b) \\(r=\\sqrt2\\), \\(v=5\\pi/4\\): \\(\\boxed{\\sqrt2(\\cos\\frac{5\\pi}4+i\\sin\\frac{5\\pi}4)}\\).</p><p>c) \\(\\boxed{3(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)}\\).</p>",
+    "s": "<p><strong>Två storheter behövs:</strong> Modulen är \\(r=\\sqrt{a^2+b^2}\\). Argumentet bestäms av riktningen från origo, så kvadranten måste kontrolleras.</p><p>a) \\(r=2\\), \\(v=\\pi/6\\): \\(\\boxed{2(\\cos\\frac\\pi6+i\\sin\\frac\\pi6)}\\).</p><p>b) \\(r=\\sqrt2\\), \\(v=5\\pi/4\\): \\(\\boxed{\\sqrt2(\\cos\\frac{5\\pi}4+i\\sin\\frac{5\\pi}4)}\\).</p><p>c) \\(\\boxed{3(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)}\\).</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
@@ -22626,7 +22624,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[x^2+6x+13=0.\\]</p>",
-    "s": "<p>Uttrycket under rottecknet i andragradsformeln är \\(36-52=-16\\). Därför</p><p>\\[x=\\frac{-6\\pm4i}{2}=\\boxed{-3\\pm2i}.\\]</p>",
+    "s": "<p><strong>Arbetsordning:</strong> Faktorisera så långt som möjligt över de reella talen. När en andragradsfaktor saknar reella rötter fortsätter lösningen i de komplexa talen med \\(i^2=-1\\).</p><p>Uttrycket under rottecknet i andragradsformeln är \\(36-52=-16\\). Därför</p><p>\\[x=\\frac{-6\\pm4i}{2}=\\boxed{-3\\pm2i}.\\]</p>",
     "familj": "Polynomekvationer med komplexa lösningar",
     "formaga": [
       "procedur"
@@ -22648,7 +22646,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationerna och ange alla komplexa lösningar.</p><p>a) \\(z^2=4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(z^2=-9\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(z^3=8\\)</p>",
-    "s": "<p>a) <strong>\\(z=\\pm2\\)</strong>.</p><p>b) <strong>\\(z=\\pm3i\\)</strong>.</p><p>c) Skriv \\(8=8\\left(\\cos(2k\\pi)+i\\sin(2k\\pi)\\right)\\). Kubikrötterna har absolutbelopp 2 och argument \\(2k\\pi/3\\): <strong>\\(2,\\ -1+\\sqrt3i,\\ -1-\\sqrt3i\\)</strong>.</p>",
+    "s": "<p><strong>De Moivre:</strong> Skriv först talet på polär form. För en n:te rot tas \\(r^{1/n}\\) och argumenten \\((v+2k\\pi)/n\\), \\(k=0,\\ldots,n-1\\), så att alla rötter kommer med.</p><p>a) <strong>\\(z=\\pm2\\)</strong>.</p><p>b) <strong>\\(z=\\pm3i\\)</strong>.</p><p>c) Skriv \\(8=8\\left(\\cos(2k\\pi)+i\\sin(2k\\pi)\\right)\\). Kubikrötterna har absolutbelopp 2 och argument \\(2k\\pi/3\\): <strong>\\(2,\\ -1+\\sqrt3i,\\ -1-\\sqrt3i\\)</strong>.</p>",
     "familj": "Komplexa rötter med de Moivres formel",
     "formaga": [
       "procedur"
@@ -22670,7 +22668,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange en icke-reell rot till ekvationen</p><p>\\[z^6=-1.\\]</p>",
-    "s": "<p>Ett möjligt svar är <strong>\\(e^{i\\pi/6}\\)</strong>. \\((e^{i\\pi/6})^6=e^{i\\pi}=-1\\).</p>",
+    "s": "<p><strong>De Moivre:</strong> Skriv först talet på polär form. För en n:te rot tas \\(r^{1/n}\\) och argumenten \\((v+2k\\pi)/n\\), \\(k=0,\\ldots,n-1\\), så att alla rötter kommer med.</p><p>Ett möjligt svar är <strong>\\(e^{i\\pi/6}\\)</strong>. \\((e^{i\\pi/6})^6=e^{i\\pi}=-1\\).</p>",
     "familj": "Komplexa rötter med de Moivres formel",
     "formaga": [
       "procedur"
@@ -22868,7 +22866,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange en icke-reell rot till ekvationen</p><p>\\[z^4=-16.\\]</p>",
-    "s": "<p>Ett möjligt svar är <strong>\\(2e^{i\\pi/4}\\)</strong>. \\((2e^{i\\pi/4})^4=16e^{i\\pi}=-16\\).</p>",
+    "s": "<p><strong>De Moivre:</strong> Skriv först talet på polär form. För en n:te rot tas \\(r^{1/n}\\) och argumenten \\((v+2k\\pi)/n\\), \\(k=0,\\ldots,n-1\\), så att alla rötter kommer med.</p><p>Ett möjligt svar är <strong>\\(2e^{i\\pi/4}\\)</strong>. \\((2e^{i\\pi/4})^4=16e^{i\\pi}=-16\\).</p>",
     "familj": "Komplexa rötter med de Moivres formel",
     "formaga": [
       "procedur"
@@ -23971,7 +23969,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange en icke-reell rot till ekvationen</p><p>\\[z^5=32.\\]</p>",
-    "s": "<p>Ett möjligt svar är <strong>\\(2e^{i2\\pi/5}\\)</strong>. \\((2e^{i2\\pi/5})^5=32e^{i2\\pi}=32\\).</p>",
+    "s": "<p><strong>De Moivre:</strong> Skriv först talet på polär form. För en n:te rot tas \\(r^{1/n}\\) och argumenten \\((v+2k\\pi)/n\\), \\(k=0,\\ldots,n-1\\), så att alla rötter kommer med.</p><p>Ett möjligt svar är <strong>\\(2e^{i2\\pi/5}\\)</strong>. \\((2e^{i2\\pi/5})^5=32e^{i2\\pi}=32\\).</p>",
     "familj": "Komplexa rötter med de Moivres formel",
     "formaga": [
       "procedur"
@@ -24159,7 +24157,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange en icke-reell rot till ekvationen</p><p>\\[z^9=1.\\]</p>",
-    "s": "<p>Ett möjligt svar är <strong>\\(e^{i2\\pi/9}\\)</strong>. \\((e^{i2\\pi/9})^9=e^{i2\\pi}=1\\).</p>",
+    "s": "<p><strong>De Moivre:</strong> Skriv först talet på polär form. För en n:te rot tas \\(r^{1/n}\\) och argumenten \\((v+2k\\pi)/n\\), \\(k=0,\\ldots,n-1\\), så att alla rötter kommer med.</p><p>Ett möjligt svar är <strong>\\(e^{i2\\pi/9}\\)</strong>. \\((e^{i2\\pi/9})^9=e^{i2\\pi}=1\\).</p>",
     "familj": "Komplexa rötter med de Moivres formel",
     "formaga": [
       "procedur"
@@ -25249,7 +25247,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv på formen \\(a+bi\\) med hjälp av Eulers formel.</p><p>a) \\(e^{i\\pi}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(e^{i\\pi/2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2e^{i3\\pi/4}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3e^{-i\\pi/6}\\)</p>",
-    "s": "<p>Använd \\(e^{iv}=\\cos v+i\\sin v\\).</p><p>a) <strong>\\(-1\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(-\\sqrt2+\\sqrt2i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\frac{3\\sqrt3}{2}-\\frac32i\\)</strong>.</p>",
+    "s": "<p><strong>Gå via Euler/trigonometri:</strong> Använd \\(e^{iv}=\\cos v+i\\sin v\\) och beräkna real- och imaginärdel var för sig.</p><p>Använd \\(e^{iv}=\\cos v+i\\sin v\\).</p><p>a) <strong>\\(-1\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(-\\sqrt2+\\sqrt2i\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\frac{3\\sqrt3}{2}-\\frac32i\\)</strong>.</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
@@ -25538,7 +25536,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös andragradsekvationerna.</p><p>a) \\(x^2+16=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(x^2-4x+13=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2x^2+8x+10=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(x^2+6x+25=0\\)</p>",
-    "s": "<p>a) <strong>\\(x=\\pm4i\\)</strong>.</p><p>b) \\(x=(4\\pm\\sqrt{-36})/2=\\boxed{2\\pm3i}\\).</p><p>c) Dividera med 2: \\(x^2+4x+5=0\\Rightarrow\\boxed{x=-2\\pm i}\\).</p><p>d) \\(x=(-6\\pm\\sqrt{-64})/2=\\boxed{-3\\pm4i}\\).</p>",
+    "s": "<p><strong>Arbetsordning:</strong> Faktorisera så långt som möjligt över de reella talen. När en andragradsfaktor saknar reella rötter fortsätter lösningen i de komplexa talen med \\(i^2=-1\\).</p><p>a) <strong>\\(x=\\pm4i\\)</strong>.</p><p>b) \\(x=(4\\pm\\sqrt{-36})/2=\\boxed{2\\pm3i}\\).</p><p>c) Dividera med 2: \\(x^2+4x+5=0\\Rightarrow\\boxed{x=-2\\pm i}\\).</p><p>d) \\(x=(-6\\pm\\sqrt{-64})/2=\\boxed{-3\\pm4i}\\).</p>",
     "familj": "Polynomekvationer med komplexa lösningar",
     "formaga": [
       "procedur"
@@ -26876,7 +26874,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under kurvan</p><p>\\[y=\\sqrt{1+x^2}-1,\\qquad0\\le x\\le2\\]</p><p>roteras ett varv kring x-axeln.</p><p>Bestäm volymen med tre decimaler.</p>",
-    "s": "<p>\\[V=\\pi\\int_0^2\\left(\\sqrt{1+x^2}-1\\right)^2dx.\\]</p><p>Numeriskt fås</p><p>\\[\\boxed{V\\approx2,359}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>\\[V=\\pi\\int_0^2\\left(\\sqrt{1+x^2}-1\\right)^2dx.\\]</p><p>Numeriskt fås</p><p>\\[\\boxed{V\\approx2,359}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -27857,7 +27855,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange samtliga lösningar till \\(\\cos x=-\\frac{\\sqrt2}{2}\\). Vinkeln \\(x\\) mäts i grader.</p>",
-    "s": "<p>\\(x=135^\\circ+360^\\circ n\\) eller \\(x=225^\\circ+360^\\circ n\\).</p>",
+    "s": "<p>Referensvinkeln är \\(45^\\circ\\), eftersom \\(\\cos45^\\circ=\\sqrt2/2\\). Cosinus ska vara negativ, så lösningarna ligger i kvadrant II och III:</p><p>\\[x=135^\\circ\\quad\\text{eller}\\quad225^\\circ.\\]</p><p>Cosinus har perioden \\(360^\\circ\\), därför är de generella lösningarna</p><p>\\[x=135^\\circ+360^\\circ n\\quad\\text{eller}\\quad x=225^\\circ+360^\\circ n,\\qquad n\\in\\mathbb Z.\\]</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur"
@@ -27879,7 +27877,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\tan x=\\sqrt3\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p>\\(x=\\pi/3\\) eller \\(x=4\\pi/3\\).</p>",
+    "s": "<p>\\(\\tan(\\pi/3)=\\sqrt3\\). Tangens är positiv i kvadrant I och III och har perioden \\(\\pi\\).</p><p>Startlösningen är därför \\(x=\\pi/3\\), och nästa lösning i intervallet fås genom att addera \\(\\pi\\):</p><p>\\[x=\\frac\\pi3+\\pi=\\frac{4\\pi}{3}.\\]</p><p><strong>Svar:</strong> \\(x=\\pi/3\\) eller \\(x=4\\pi/3\\).</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
@@ -28099,7 +28097,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Lös ekvationen</p><p>\\[2\\sin x+\\cos(2,3x)=0,7\\]</p><p>för \\(0\\le x&lt;2\\pi\\). Svara med tre decimaler.</p>",
-    "s": "<p>Studera vänsterledet som en funktion och bestäm dess skärning med nivån \\(0,7\\).</p><p>I intervallet finns en lösning:</p><p>\\[\\boxed{x\\approx3,112}.\\]</p>",
+    "s": "<p><strong>Numerisk ekvation:</strong> När \\(x\\) förekommer både inne i en trigonometrisk funktion och på annat sätt finns normalt ingen enkel algebraisk lösning. Rita båda leden och bestäm alla skärningar i intervallet.</p><p>Studera vänsterledet som en funktion och bestäm dess skärning med nivån \\(0,7\\).</p><p>I intervallet finns en lösning:</p><p>\\[\\boxed{x\\approx3,112}.\\]</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
@@ -31459,7 +31457,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionerna \\(f(x)=2\\sin x+1\\) och \\(g(x)=2\\cos x+1\\) skär varandra flera gånger.</p><p>Bestäm alla skärningspunkters x-koordinater i intervallet \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p>Skärning kräver \\(2\\sin x+1=2\\cos x+1\\), alltså \\(\\sin x=\\cos x\\).</p><p>Där \\(\\cos x\\ne0\\) kan vi dividera och får \\(\\tan x=1\\). I intervallet blir \\(\\boxed{x=\\pi/4,\\ 5\\pi/4}\\).</p>",
+    "s": "<p><strong>Numerisk ekvation:</strong> När \\(x\\) förekommer både inne i en trigonometrisk funktion och på annat sätt finns normalt ingen enkel algebraisk lösning. Rita båda leden och bestäm alla skärningar i intervallet.</p><p>Skärning kräver \\(2\\sin x+1=2\\cos x+1\\), alltså \\(\\sin x=\\cos x\\).</p><p>Där \\(\\cos x\\ne0\\) kan vi dividera och får \\(\\tan x=1\\). I intervallet blir \\(\\boxed{x=\\pi/4,\\ 5\\pi/4}\\).</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur",
@@ -32135,7 +32133,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionen \\(f(x)=x+\\frac{4}{x}\\), \\(x&gt;0\\).</p><p>Bestäm funktionens minsta värde.</p>",
-    "s": "<p>\\[f'(x)=1-\\frac4{x^2}.\\]</p><p>\\(f'(x)=0\\) ger \\(x^2=4\\Rightarrow x=2\\) eftersom \\(x&gt;0\\). Derivatan går från negativ till positiv, så punkten är minimum.</p><p>\\[f(2)=2+2=\\boxed4.\\]</p>",
+    "s": "<p>\\[f'(x)=1-\\frac4{x^2}.\\]</p><p>\\(f'(x)=0\\) ger \\(x^2=4\\Rightarrow x=2\\) eftersom \\(x&gt;0\\). Derivatan går från negativ till positiv, så punkten är minimum.</p><p>\\[f(2)=2+2=\\boxed{4}.\\]</p>",
     "familj": "Grafanalys med derivata",
     "formaga": [
       "procedur",
@@ -32687,7 +32685,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm</p><p>\\[\\int_0^3 \\sqrt{1+x^3}\\,dx\\]</p><p>med tre decimaler.</p>",
-    "s": "<p>Numerisk integration ger</p><p>\\[\\boxed{7,341}.\\]</p>",
+    "s": "<p><strong>Metodval:</strong> Här efterfrågas ett numeriskt värde och någon enkel primitiv funktion används inte. Beräkna därför integralen numeriskt med digitalt verktyg och behåll gränserna exakt.</p><p>Numerisk integration ger</p><p>\\[\\boxed{7,341}.\\]</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -32962,7 +32960,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion till varje funktion.</p><p>a) \\(5x^3-6x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2x^2+3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(7e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin x+\\cos x\\)</p>",
-    "s": "<p>a) \\(\\boxed{\\frac54x^4-3x^2}\\).</p><p>b) \\(\\boxed{\\frac23x^3+3x}\\).</p><p>c) \\(\\boxed{7e^x}\\).</p><p>d) \\(\\boxed{-\\cos x+\\sin x}\\).</p><p>En godtycklig konstant kan läggas till i varje svar.</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a) \\(\\boxed{\\frac54x^4-3x^2}\\).</p><p>b) \\(\\boxed{\\frac23x^3+3x}\\).</p><p>c) \\(\\boxed{7e^x}\\).</p><p>d) \\(\\boxed{-\\cos x+\\sin x}\\).</p><p>En godtycklig konstant kan läggas till i varje svar.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -33151,7 +33149,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion till varje funktion.</p><p>a) \\(\\sin(2x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(3x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(e^{-x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac1{x+2}\\), \\(x&gt;-2\\)</p>",
-    "s": "<p>a) \\(\\boxed{-\\frac12\\cos(2x)}\\).</p><p>b) \\(\\boxed{\\frac13\\sin(3x)}\\).</p><p>c) \\(\\boxed{-e^{-x}}\\).</p><p>d) \\(\\boxed{\\ln(x+2)}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a) \\(\\boxed{-\\frac12\\cos(2x)}\\).</p><p>b) \\(\\boxed{\\frac13\\sin(3x)}\\).</p><p>c) \\(\\boxed{-e^{-x}}\\).</p><p>d) \\(\\boxed{\\ln(x+2)}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -33214,7 +33212,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion till varje funktion.</p><p>a) \\(4x^3+x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(6x^5-2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2e^x+3\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac4x\\), \\(x&gt;0\\)</p>",
-    "s": "<p>a) \\(\\boxed{x^4+\\frac12x^2}\\).</p><p>b) \\(\\boxed{x^6-2x}\\).</p><p>c) \\(\\boxed{2e^x+3\\sin x}\\).</p><p>d) \\(\\boxed{4\\ln x}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a) \\(\\boxed{x^4+\\frac12x^2}\\).</p><p>b) \\(\\boxed{x^6-2x}\\).</p><p>c) \\(\\boxed{2e^x+3\\sin x}\\).</p><p>d) \\(\\boxed{4\\ln x}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -33277,7 +33275,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion till varje funktion.</p><p>a) \\((4x+1)^3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(e^{5x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos(x/2)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac1{3x-1}\\), \\(x&gt;1/3\\)</p>",
-    "s": "<p>a) \\(\\boxed{\\frac{(4x+1)^4}{16}}\\).</p><p>b) \\(\\boxed{\\frac15e^{5x}}\\).</p><p>c) \\(\\boxed{2\\sin(x/2)}\\).</p><p>d) \\(\\boxed{\\frac13\\ln(3x-1)}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a) \\(\\boxed{\\frac{(4x+1)^4}{16}}\\).</p><p>b) \\(\\boxed{\\frac15e^{5x}}\\).</p><p>c) \\(\\boxed{2\\sin(x/2)}\\).</p><p>d) \\(\\boxed{\\frac13\\ln(3x-1)}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -33435,7 +33433,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under \\(y=\\sqrt{x}\\) mellan \\(x=0\\) och \\(x=4\\) roteras kring x-axeln. Bestäm volymen.</p>",
-    "s": "<p><strong>Formel från formelbladet:</strong> \\(V=\\pi\\int_a^b y^2dx\\).</p><p>Här är \\(y^2=x\\), så</p><p>\\[V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p><strong>Formel från formelbladet:</strong> \\(V=\\pi\\int_a^b y^2dx\\).</p><p>Här är \\(y^2=x\\), så</p><p>\\[V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -33459,7 +33457,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området mellan \\(y=2\\) och \\(y=x^2\\) för \\(0\\le x\\le\\sqrt2\\) roteras kring x-axeln. Bestäm volymen.</p>",
-    "s": "<p>Rotationen bildar brickor med yttre radie 2 och inre radie \\(x^2\\).</p><p>\\[V=\\pi\\int_0^{\\sqrt2}(2^2-(x^2)^2)dx=\\pi\\int_0^{\\sqrt2}(4-x^4)dx.\\]</p><p>\\[V=\\pi[4x-x^5/5]_0^{\\sqrt2}=\\boxed{16\\sqrt2\\pi/5}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>Rotationen bildar brickor med yttre radie 2 och inre radie \\(x^2\\).</p><p>\\[V=\\pi\\int_0^{\\sqrt2}(2^2-(x^2)^2)dx=\\pi\\int_0^{\\sqrt2}(4-x^4)dx.\\]</p><p>\\[V=\\pi[4x-x^5/5]_0^{\\sqrt2}=\\boxed{16\\sqrt2\\pi/5}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -33533,7 +33531,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En partikels hastighet är \\(v(t)=t^2-4t+3\\) m/s under \\(0\\le t\\le4\\). Bestäm partikelns totala färdsträcka.</p>",
-    "s": "<p>Färdsträcka kräver integralen av \\(|v(t)|\\). Nollställena är \\(t=1\\) och \\(t=3\\). Hastigheten är positiv på \\([0,1]\\), negativ på \\([1,3]\\) och positiv på \\([3,4]\\).</p><p>En primitiv funktion är \\(F=t^3/3-2t^2+3t\\).</p><p>Sträckan är \\(F(1)-F(0)-[F(3)-F(1)]+F(4)-F(3)=\\boxed4\\) m.</p>",
+    "s": "<p>Färdsträcka kräver integralen av \\(|v(t)|\\). Nollställena är \\(t=1\\) och \\(t=3\\). Hastigheten är positiv på \\([0,1]\\), negativ på \\([1,3]\\) och positiv på \\([3,4]\\).</p><p>En primitiv funktion är \\(F=t^3/3-2t^2+3t\\).</p><p>Sträckan är \\(F(1)-F(0)-[F(3)-F(1)]+F(4)-F(3)=\\boxed{4}\\) m.</p>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
       "procedur",
@@ -33580,7 +33578,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under \\(y=3-x\\) för \\(0\\le x\\le3\\) roteras kring x-axeln. Bestäm rotationskroppens volym.</p>",
-    "s": "<p>\\[V=\\pi\\int_0^3(3-x)^2dx.\\]</p><p>En primitiv funktion kan fås genom att utveckla parentesen. \\(\\int_0^3(3-x)^2dx=9\\). Därför \\(\\boxed{V=9\\pi}\\).</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>\\[V=\\pi\\int_0^3(3-x)^2dx.\\]</p><p>En primitiv funktion kan fås genom att utveckla parentesen. \\(\\int_0^3(3-x)^2dx=9\\). Därför \\(\\boxed{V=9\\pi}\\).</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -33603,7 +33601,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm arean som begränsas av \\(y=\\sin x\\), x-axeln och linjerna \\(x=0\\) och \\(x=\\pi\\).</p>",
-    "s": "<p>Sinus är icke-negativ på intervallet. Arean är</p><p>\\[A=\\int_0^\\pi\\sin x dx=[-\\cos x]_0^\\pi=1-(-1)=\\boxed2.\\]</p>",
+    "s": "<p>Sinus är icke-negativ på intervallet. Arean är</p><p>\\[A=\\int_0^\\pi\\sin x dx=[-\\cos x]_0^\\pi=1-(-1)=\\boxed{2}.\\]</p>",
     "familj": "Area mot x-axeln med integral",
     "formaga": [
       "procedur"
@@ -33625,7 +33623,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm konstanten \\(a\\) så att</p><p>\\[\\int_0^2(ax+1)dx=8.\\]</p>",
-    "s": "<p>\\[\\int_0^2(ax+1)dx=[ax^2/2+x]_0^2=2a+2.\\]</p><p>Sätt \\(2a+2=8\\Rightarrow\\boxed{a=3}\\).</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p>\\[\\int_0^2(ax+1)dx=[ax^2/2+x]_0^2=2a+2.\\]</p><p>Sätt \\(2a+2=8\\Rightarrow\\boxed{a=3}\\).</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur",
@@ -34883,7 +34881,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv \\(z=1+1i\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
-    "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=\\sqrt2\\) och \\(v=\\pi/4\\).</p><p>Alltså \\(\\boxed{z=\\sqrt2(\\cos(\\pi/4)+i\\sin(\\pi/4))}\\).</p>",
+    "s": "<p><strong>Två storheter behövs:</strong> Modulen är \\(r=\\sqrt{a^2+b^2}\\). Argumentet bestäms av riktningen från origo, så kvadranten måste kontrolleras.</p><p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=\\sqrt2\\) och \\(v=\\pi/4\\).</p><p>Alltså \\(\\boxed{z=\\sqrt2(\\cos(\\pi/4)+i\\sin(\\pi/4))}\\).</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
@@ -34907,7 +34905,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv \\(z=-1+1i\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
-    "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=\\sqrt2\\) och \\(v=3\\pi/4\\).</p><p>Alltså \\(\\boxed{z=\\sqrt2(\\cos(3\\pi/4)+i\\sin(3\\pi/4))}\\).</p>",
+    "s": "<p><strong>Två storheter behövs:</strong> Modulen är \\(r=\\sqrt{a^2+b^2}\\). Argumentet bestäms av riktningen från origo, så kvadranten måste kontrolleras.</p><p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=\\sqrt2\\) och \\(v=3\\pi/4\\).</p><p>Alltså \\(\\boxed{z=\\sqrt2(\\cos(3\\pi/4)+i\\sin(3\\pi/4))}\\).</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
@@ -34931,7 +34929,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv \\(z=-1-1i\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
-    "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=\\sqrt2\\) och \\(v=5\\pi/4\\).</p><p>Alltså \\(\\boxed{z=\\sqrt2(\\cos(5\\pi/4)+i\\sin(5\\pi/4))}\\).</p>",
+    "s": "<p><strong>Två storheter behövs:</strong> Modulen är \\(r=\\sqrt{a^2+b^2}\\). Argumentet bestäms av riktningen från origo, så kvadranten måste kontrolleras.</p><p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=\\sqrt2\\) och \\(v=5\\pi/4\\).</p><p>Alltså \\(\\boxed{z=\\sqrt2(\\cos(5\\pi/4)+i\\sin(5\\pi/4))}\\).</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
@@ -34955,7 +34953,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv \\(z=0+3i\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
-    "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=3\\) och \\(v=\\pi/2\\).</p><p>Alltså \\(\\boxed{z=3(\\cos(\\pi/2)+i\\sin(\\pi/2))}\\).</p>",
+    "s": "<p><strong>Två storheter behövs:</strong> Modulen är \\(r=\\sqrt{a^2+b^2}\\). Argumentet bestäms av riktningen från origo, så kvadranten måste kontrolleras.</p><p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=3\\) och \\(v=\\pi/2\\).</p><p>Alltså \\(\\boxed{z=3(\\cos(\\pi/2)+i\\sin(\\pi/2))}\\).</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
@@ -34979,7 +34977,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv \\(z=3+0i\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
-    "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=3\\) och \\(v=0\\).</p><p>Alltså \\(\\boxed{z=3(\\cos(0)+i\\sin(0))}\\).</p>",
+    "s": "<p><strong>Två storheter behövs:</strong> Modulen är \\(r=\\sqrt{a^2+b^2}\\). Argumentet bestäms av riktningen från origo, så kvadranten måste kontrolleras.</p><p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=3\\) och \\(v=0\\).</p><p>Alltså \\(\\boxed{z=3(\\cos(0)+i\\sin(0))}\\).</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
@@ -35003,7 +35001,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv \\(z=1+i\\sqrt3\\) i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
-    "s": "<p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=2\\) och \\(v=\\pi/3\\).</p><p>Alltså \\(\\boxed{z=2(\\cos(\\pi/3)+i\\sin(\\pi/3))}\\).</p>",
+    "s": "<p><strong>Två storheter behövs:</strong> Modulen är \\(r=\\sqrt{a^2+b^2}\\). Argumentet bestäms av riktningen från origo, så kvadranten måste kontrolleras.</p><p>Bestäm först absolutbeloppet och kvadranten. Här fås \\(|z|=2\\) och \\(v=\\pi/3\\).</p><p>Alltså \\(\\boxed{z=2(\\cos(\\pi/3)+i\\sin(\\pi/3))}\\).</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
@@ -35183,7 +35181,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm alla komplexa lösningar till \\(z^3=8\\). Svara i polär form.</p>",
-    "s": "<p>Skriv \\(8=8(\\cos0+i\\sin0)\\). Tredjerötternas absolutbelopp är 2 och argumenten är \\(0,2\\pi/3,4\\pi/3\\).</p><p>\\[\\boxed{z=2(\\cos0+i\\sin0),\\quad 2(\\cos\\frac{2\\pi}{3}+i\\sin\\frac{2\\pi}{3}),\\quad 2(\\cos\\frac{4\\pi}{3}+i\\sin\\frac{4\\pi}{3})}.\\]</p>",
+    "s": "<p><strong>De Moivre:</strong> Skriv först talet på polär form. För en n:te rot tas \\(r^{1/n}\\) och argumenten \\((v+2k\\pi)/n\\), \\(k=0,\\ldots,n-1\\), så att alla rötter kommer med.</p><p>Skriv \\(8=8(\\cos0+i\\sin0)\\). Tredjerötternas absolutbelopp är 2 och argumenten är \\(0,2\\pi/3,4\\pi/3\\).</p><p>\\[\\boxed{z=2(\\cos0+i\\sin0),\\quad 2(\\cos\\frac{2\\pi}{3}+i\\sin\\frac{2\\pi}{3}),\\quad 2(\\cos\\frac{4\\pi}{3}+i\\sin\\frac{4\\pi}{3})}.\\]</p>",
     "familj": "Komplexa rötter med de Moivres formel",
     "formaga": [
       "procedur"
@@ -35227,7 +35225,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm alla komplexa lösningar till \\(z^3=-8\\). Svara i polär form.</p>",
-    "s": "<p>Skriv \\(-8=8(\\cos\\pi+i\\sin\\pi)\\). Tredjerötternas absolutbelopp är 2.</p><p>Argumenten är \\(\\pi/3,\\pi,5\\pi/3\\), alltså</p><p>\\[\\boxed{z=2(\\cos\\frac\\pi3+i\\sin\\frac\\pi3),\\ 2(\\cos\\pi+i\\sin\\pi),\\ 2(\\cos\\frac{5\\pi}{3}+i\\sin\\frac{5\\pi}{3})}.\\]</p>",
+    "s": "<p><strong>De Moivre:</strong> Skriv först talet på polär form. För en n:te rot tas \\(r^{1/n}\\) och argumenten \\((v+2k\\pi)/n\\), \\(k=0,\\ldots,n-1\\), så att alla rötter kommer med.</p><p>Skriv \\(-8=8(\\cos\\pi+i\\sin\\pi)\\). Tredjerötternas absolutbelopp är 2.</p><p>Argumenten är \\(\\pi/3,\\pi,5\\pi/3\\), alltså</p><p>\\[\\boxed{z=2(\\cos\\frac\\pi3+i\\sin\\frac\\pi3),\\ 2(\\cos\\pi+i\\sin\\pi),\\ 2(\\cos\\frac{5\\pi}{3}+i\\sin\\frac{5\\pi}{3})}.\\]</p>",
     "familj": "Komplexa rötter med de Moivres formel",
     "formaga": [
       "procedur"
@@ -35648,7 +35646,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla \\(\\sin(x+\\pi/2)\\) med additionsformeln.</p>",
-    "s": "<p>\\[\\sin(x+\\pi/2)=\\sin x\\cos\\pi/2+\\cos x\\sin\\pi/2=\\boxed{\\cos x}.\\]</p>",
+    "s": "<p>Använd additionsformeln</p><p>\\[\\sin(a+b)=\\sin a\\cos b+\\cos a\\sin b.\\]</p><p>Med \\(a=x\\) och \\(b=\\pi/2\\) får vi</p><p>\\[\\sin(x+\\pi/2)=\\sin x\\underbrace{\\cos(\\pi/2)}_{0}+\\cos x\\underbrace{\\sin(\\pi/2)}_{1}=\\cos x.\\]</p><p><strong>Svar:</strong> \\(\\cos x\\).</p>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -36079,7 +36077,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\frac{x^2+1}{x+1}\\).</p>",
-    "s": "<p>Kvotregeln ger</p><p>\\[f'=\\frac{2x(x+1)-(x^2+1)}{(x+1)^2}=\\boxed{\\frac{x^2+2x-1}{(x+1)^2}}.\\]</p>",
+    "s": "<p>Använd kvotregeln med \\(u=x^2+1\\) och \\(v=x+1\\). Då är \\(u'=2x\\) och \\(v'=1\\):</p><p>\\[f'(x)=\\frac{u'v-uv'}{v^2}=\\frac{2x(x+1)-(x^2+1)}{(x+1)^2}.\\]</p><p>Förenkla täljaren:</p><p>\\[2x^2+2x-x^2-1=x^2+2x-1.\\]</p><p><strong>Svar:</strong> \\[f'(x)=\\frac{x^2+2x-1}{(x+1)^2}.\\]</p>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
       "procedur"
@@ -36420,7 +36418,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Beräkna.</p><p>a) \\(\\int_0^2x^2dx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_0^\\pi\\sin xdx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_0^1e^xdx\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\int_1^e\\frac1x dx\\)</p>",
-    "s": "<p>a) \\(\\boxed{8/3}\\).</p><p>b) \\(\\boxed2\\).</p><p>c) \\(\\boxed{e-1}\\).</p><p>d) \\(\\boxed1\\).</p>",
+    "s": "<p>Bestäm en primitiv funktion i varje del och använd övre minus undre gräns.</p><p><strong>a)</strong> \\[\\int_0^2x^2\\,dx=\\left[\\frac{x^3}{3}\\right]_0^2=\\frac83.\\]</p><p><strong>b)</strong> \\[\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi=1-(-1)=2.\\]</p><p><strong>c)</strong> \\[\\int_0^1e^x\\,dx=[e^x]_0^1=e-1.\\]</p><p><strong>d)</strong> \\[\\int_1^e\\frac1x\\,dx=[\\ln x]_1^e=1-0=1.\\]</p>",
     "familj": "Bestämda integraler med trigonometriska funktioner",
     "formaga": [
       "procedur"
@@ -36488,7 +36486,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm arean under \\(y=3x^2\\) för \\(0\\le x\\le2\\).</p>",
-    "s": "<p>\\[A=\\int_0^2 3x^2dx=[x^3]_0^2=\\boxed8.\\]</p>",
+    "s": "<p>På intervallet \\(0\\le x\\le2\\) är \\(3x^2\\ge0\\), så den bestämda integralen är direkt den geometriska arean.</p><p>\\[A=\\int_0^2 3x^2\\,dx=[x^3]_0^2=8-0=8.\\]</p><p><strong>Svar:</strong> \\(8\\) areaenheter.</p>",
     "familj": "Geometrisk area och area från graf med integral",
     "formaga": [
       "procedur"
@@ -36510,7 +36508,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm \\(a\\) om \\(\\int_1^a 2x dx=15\\) och \\(a&gt;1\\).</p>",
-    "s": "<p>\\([x^2]_1^a=a^2-1=15\\), så \\(a^2=16\\). Eftersom \\(a&gt;1\\): \\(\\boxed{a=4}\\).</p>",
+    "s": "<p>En primitiv funktion till \\(2x\\) är \\(x^2\\). Därför</p><p>\\[\\int_1^a2x\\,dx=[x^2]_1^a=a^2-1.\\]</p><p>Villkoret ger \\(a^2-1=15\\Rightarrow a^2=16\\), alltså \\(a=\\pm4\\). Eftersom uppgiften anger \\(a&gt;1\\) väljs den positiva lösningen.</p><p><strong>Svar:</strong> \\(a=4\\).</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -36556,7 +36554,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under \\(y=x^2\\) för \\(0\\le x\\le1\\) roteras kring x-axeln. Bestäm volymen.</p>",
-    "s": "<p>\\[V=\\pi\\int_0^1(x^2)^2dx=\\pi[x^5/5]_0^1=\\boxed{\\pi/5}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>\\[V=\\pi\\int_0^1(x^2)^2dx=\\pi[x^5/5]_0^1=\\boxed{\\pi/5}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -36677,7 +36675,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en funktion \\(f\\) om \\(f'(x)=3x^2-4x+1\\) och \\(f(0)=5\\).</p>",
-    "s": "<p>Integrera derivatan:</p><p>\\[f(x)=x^3-2x^2+x+C.\\]</p><p>\\(f(0)=C=5\\). Alltså \\(\\boxed{f(x)=x^3-2x^2+x+5}\\).</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p>Integrera derivatan:</p><p>\\[f(x)=x^3-2x^2+x+C.\\]</p><p>\\(f(0)=C=5\\). Alltså \\(\\boxed{f(x)=x^3-2x^2+x+5}\\).</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur"
@@ -36798,7 +36796,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under \\(y=2-x\\) mellan \\(x=0\\) och \\(x=2\\) roteras kring x-axeln. Bestäm volymen.</p>",
-    "s": "<p>\\[V=\\pi\\int_0^2(2-x)^2dx=\\pi\\cdot\\frac83=\\boxed{8\\pi/3}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>\\[V=\\pi\\int_0^2(2-x)^2dx=\\pi\\cdot\\frac83=\\boxed{8\\pi/3}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -36846,7 +36844,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Beräkna.</p><p>a) \\(i^{23}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(i^{40}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(i^{57}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(i^{102}\\)</p>",
-    "s": "<p>Potenser av \\(i\\) upprepas med period 4.</p><p>a) \\(23\\equiv3\\pmod4\\Rightarrow\\boxed{-i}\\).</p><p>b) \\(\\boxed1\\).</p><p>c) \\(57\\equiv1\\Rightarrow\\boxed i\\).</p><p>d) \\(102\\equiv2\\Rightarrow\\boxed{-1}\\).</p>",
+    "s": "<p>Potenser av \\(i\\) upprepas med period 4.</p><p>a) \\(23\\equiv3\\pmod4\\Rightarrow\\boxed{-i}\\).</p><p>b) \\(\\boxed{1}\\).</p><p>c) \\(57\\equiv1\\Rightarrow\\boxed{i}\\).</p><p>d) \\(102\\equiv2\\Rightarrow\\boxed{-1}\\).</p>",
     "familj": "Potenser med komplexa tal",
     "formaga": [
       "procedur"
@@ -36914,7 +36912,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm för \\(z=3-4i\\):</p><p>a) \\(|z|\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\bar z\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(z\\bar z\\)</p>",
-    "s": "<p>a) \\(|z|=\\sqrt{9+16}=\\boxed5\\).</p><p>b) \\(\\boxed{3+4i}\\).</p><p>c) \\(z\\bar z=|z|^2=\\boxed{25}\\).</p>",
+    "s": "<p>a) \\(|z|=\\sqrt{9+16}=\\boxed{5}\\).</p><p>b) \\(\\boxed{3+4i}\\).</p><p>c) \\(z\\bar z=|z|^2=\\boxed{25}\\).</p>",
     "familj": "Konjugat och absolutbelopp av komplexa tal",
     "formaga": [
       "procedur"
@@ -36973,7 +36971,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv \\(z=-2i\\) i polär form med argument i \\(0\\le v&lt;2\\pi\\).</p>",
-    "s": "<p>Absolutbeloppet är 2 och punkten ligger på negativa imaginära axeln, så \\(v=3\\pi/2\\).</p><p>\\(\\boxed{2(\\cos(3\\pi/2)+i\\sin(3\\pi/2))}\\).</p>",
+    "s": "<p><strong>Två storheter behövs:</strong> Modulen är \\(r=\\sqrt{a^2+b^2}\\). Argumentet bestäms av riktningen från origo, så kvadranten måste kontrolleras.</p><p>Absolutbeloppet är 2 och punkten ligger på negativa imaginära axeln, så \\(v=3\\pi/2\\).</p><p>\\(\\boxed{2(\\cos(3\\pi/2)+i\\sin(3\\pi/2))}\\).</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur",
@@ -37041,7 +37039,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm alla tredje rötter till \\(8i\\).</p>",
-    "s": "<p>\\(8i=8e^{i\\pi/2}\\). Rötternas absolutbelopp är 2 och argumenten</p><p>\\[\\frac{\\pi/2+2k\\pi}{3}=\\pi/6+2k\\pi/3,\\quad k=0,1,2.\\]</p><p>Alltså \\(\\boxed{2e^{i\\pi/6},2e^{i5\\pi/6},2e^{i3\\pi/2}}\\).</p>",
+    "s": "<p><strong>De Moivre:</strong> Skriv först talet på polär form. För en n:te rot tas \\(r^{1/n}\\) och argumenten \\((v+2k\\pi)/n\\), \\(k=0,\\ldots,n-1\\), så att alla rötter kommer med.</p><p>\\(8i=8e^{i\\pi/2}\\). Rötternas absolutbelopp är 2 och argumenten</p><p>\\[\\frac{\\pi/2+2k\\pi}{3}=\\pi/6+2k\\pi/3,\\quad k=0,1,2.\\]</p><p>Alltså \\(\\boxed{2e^{i\\pi/6},2e^{i5\\pi/6},2e^{i3\\pi/2}}\\).</p>",
     "familj": "Komplexa rötter med de Moivres formel",
     "formaga": [
       "procedur"
@@ -37260,7 +37258,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>De fyra lösningarna till \\(z^4=16\\) bildar hörnen i en fyrhörning i det komplexa talplanet. Bestäm fyrhörningens area.</p>",
-    "s": "<p>Rötterna är \\(2,2i,-2,-2i\\). De bildar en kvadrat vars diagonaler båda har längden 4.</p><p>Arean är \\(A=d_1d_2/2=4\\cdot4/2=\\boxed8\\).</p>",
+    "s": "<p><strong>De Moivre:</strong> Skriv först talet på polär form. För en n:te rot tas \\(r^{1/n}\\) och argumenten \\((v+2k\\pi)/n\\), \\(k=0,\\ldots,n-1\\), så att alla rötter kommer med.</p><p>Rötterna är \\(2,2i,-2,-2i\\). De bildar en kvadrat vars diagonaler båda har längden 4.</p><p>Arean är \\(A=d_1d_2/2=4\\cdot4/2=\\boxed{8}\\).</p>",
     "familj": "Komplexa rötter med de Moivres formel",
     "formaga": [
       "procedur",
@@ -38281,7 +38279,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området mellan \\(y=x^2\\), x-axeln och linjen \\(x=2\\) roteras ett varv kring x-axeln.</p><p>Bestäm rotationskroppens volym exakt.</p>",
-    "s": "<p><strong>Formelbladet:</strong> Vid rotation kring x-axeln gäller \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>Här är \\(y=x^2\\):</p><p>\\[V=\\pi\\int_0^2(x^2)^2\\,dx=\\pi\\int_0^2x^4\\,dx=\\pi\\left[\\frac{x^5}{5}\\right]_0^2=\\boxed{\\frac{32\\pi}{5}}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p><strong>Formelbladet:</strong> Vid rotation kring x-axeln gäller \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p>Här är \\(y=x^2\\):</p><p>\\[V=\\pi\\int_0^2(x^2)^2\\,dx=\\pi\\int_0^2x^4\\,dx=\\pi\\left[\\frac{x^5}{5}\\right]_0^2=\\boxed{\\frac{32\\pi}{5}}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -38305,7 +38303,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Det markerade området begränsas av y-axeln, kurvan \\(x=\\sqrt y\\) och linjen \\(y=4\\). Området roteras ett varv kring y-axeln.</p><span class=\"fig smal\"><svg width=\"430\" height=\"320\" viewBox=\"0 0 430 320\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Området mellan y-axeln, kurvan x = roten ur y och linjen y = 4\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"34.0\" x2=\"48.0\" y2=\"280.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"148.6\" y1=\"34.0\" x2=\"148.6\" y2=\"280.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"249.2\" y1=\"34.0\" x2=\"249.2\" y2=\"280.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"349.8\" y1=\"34.0\" x2=\"349.8\" y2=\"280.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"48.0\" y1=\"280.0\" x2=\"390.0\" y2=\"280.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"48.0\" y1=\"235.3\" x2=\"390.0\" y2=\"235.3\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"48.0\" y1=\"190.5\" x2=\"390.0\" y2=\"190.5\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"48.0\" y1=\"145.8\" x2=\"390.0\" y2=\"145.8\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"48.0\" y1=\"101.1\" x2=\"390.0\" y2=\"101.1\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"48.0\" y1=\"56.4\" x2=\"390.0\" y2=\"56.4\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"48.0\" y1=\"257.6\" x2=\"390.0\" y2=\"257.6\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M390.0 257.6 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"88.2\" y1=\"280.0\" x2=\"88.2\" y2=\"34.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M88.2 34.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"394.0\" y=\"248.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"97.2\" y=\"45.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text><line x1=\"188.8\" y1=\"254.1\" x2=\"188.8\" y2=\"261.1\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"188.8\" y=\"272.6\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"188.8\" y=\"272.6\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"289.4\" y1=\"254.1\" x2=\"289.4\" y2=\"261.1\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"289.4\" y=\"272.6\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"289.4\" y=\"272.6\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"84.7\" y1=\"212.9\" x2=\"91.7\" y2=\"212.9\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"80.2\" y=\"216.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"80.2\" y=\"216.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"84.7\" y1=\"168.2\" x2=\"91.7\" y2=\"168.2\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"80.2\" y=\"171.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"80.2\" y=\"171.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"84.7\" y1=\"123.5\" x2=\"91.7\" y2=\"123.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"80.2\" y=\"127.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3</text><text x=\"80.2\" y=\"127.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"84.7\" y1=\"78.7\" x2=\"91.7\" y2=\"78.7\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"80.2\" y=\"82.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">4</text><text x=\"80.2\" y=\"82.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text><path d=\"M 88.24,257.64 L 114.21,254.65 L 124.96,251.67 L 133.22,248.69 L 140.18,245.71 L 146.31,242.73 L 151.85,239.75 L 156.95,236.76 L 161.69,233.78 L 166.15,230.80 L 170.37,227.82 L 174.37,224.84 L 178.20,221.85 L 181.88,218.87 L 185.41,215.89 L 188.82,212.91 L 192.12,209.93 L 195.32,206.95 L 198.42,203.96 L 201.44,200.98 L 204.38,198.00 L 207.25,195.02 L 210.05,192.04 L 212.79,189.05 L 215.47,186.07 L 218.09,183.09 L 220.67,180.11 L 223.19,177.13 L 225.66,174.15 L 228.10,171.16 L 230.49,168.18 L 232.84,165.20 L 235.15,162.22 L 237.43,159.24 L 239.68,156.25 L 241.89,153.27 L 244.07,150.29 L 246.22,147.31 L 248.34,144.33 L 250.43,141.35 L 252.50,138.36 L 254.54,135.38 L 256.55,132.40 L 258.54,129.42 L 260.51,126.44 L 262.46,123.45 L 264.38,120.47 L 266.29,117.49 L 268.17,114.51 L 270.04,111.53 L 271.88,108.55 L 273.71,105.56 L 275.52,102.58 L 277.31,99.60 L 279.09,96.62 L 280.85,93.64 L 282.59,90.65 L 284.32,87.67 L 286.03,84.69 L 287.73,81.71 L 289.41,78.73 L 88.24,78.73 Z\" fill=\"#DCEFF2\" fill-opacity=\".8\"/><path d=\"M 88.24,257.64 L 114.21,254.65 L 124.96,251.67 L 133.22,248.69 L 140.18,245.71 L 146.31,242.73 L 151.85,239.75 L 156.95,236.76 L 161.69,233.78 L 166.15,230.80 L 170.37,227.82 L 174.37,224.84 L 178.20,221.85 L 181.88,218.87 L 185.41,215.89 L 188.82,212.91 L 192.12,209.93 L 195.32,206.95 L 198.42,203.96 L 201.44,200.98 L 204.38,198.00 L 207.25,195.02 L 210.05,192.04 L 212.79,189.05 L 215.47,186.07 L 218.09,183.09 L 220.67,180.11 L 223.19,177.13 L 225.66,174.15 L 228.10,171.16 L 230.49,168.18 L 232.84,165.20 L 235.15,162.22 L 237.43,159.24 L 239.68,156.25 L 241.89,153.27 L 244.07,150.29 L 246.22,147.31 L 248.34,144.33 L 250.43,141.35 L 252.50,138.36 L 254.54,135.38 L 256.55,132.40 L 258.54,129.42 L 260.51,126.44 L 262.46,123.45 L 264.38,120.47 L 266.29,117.49 L 268.17,114.51 L 270.04,111.53 L 271.88,108.55 L 273.71,105.56 L 275.52,102.58 L 277.31,99.60 L 279.09,96.62 L 280.85,93.64 L 282.59,90.65 L 284.32,87.67 L 286.03,84.69 L 287.73,81.71 L 289.41,78.73\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"88.2\" y1=\"78.7\" x2=\"289.4\" y2=\"78.7\" stroke=\"#268FA3\" stroke-width=\"2.2\"/><text x=\"295.4\" y=\"70.7\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">y = 4</text><text x=\"295.4\" y=\"70.7\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">y = 4</text><text x=\"261.2\" y=\"190.5\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">x = √y</text><text x=\"261.2\" y=\"190.5\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">x = √y</text></svg></span><p>Bestäm volymen exakt.</p>",
-    "s": "<p><strong>Formelbladet:</strong> Vid rotation kring y-axeln gäller \\(V=\\pi\\int_a^b x^2\\,dy\\).</p><p>Eftersom \\(x=\\sqrt y\\) blir \\(x^2=y\\):</p><p>\\[V=\\pi\\int_0^4 y\\,dy=\\pi\\left[\\frac{y^2}{2}\\right]_0^4=\\boxed{8\\pi}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring y-axeln och integration med avseende på \\(y\\) blir skivans radie \\(x=x(y)\\). Då är tvärsnittsarean \\(\\pi x^2\\) och \\(V=\\pi\\int x(y)^2\\,dy\\).</p><p><strong>Formelbladet:</strong> Vid rotation kring y-axeln gäller \\(V=\\pi\\int_a^b x^2\\,dy\\).</p><p>Eftersom \\(x=\\sqrt y\\) blir \\(x^2=y\\):</p><p>\\[V=\\pi\\int_0^4 y\\,dy=\\pi\\left[\\frac{y^2}{2}\\right]_0^4=\\boxed{8\\pi}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -38499,7 +38497,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv talen i polär form \\(r(\\cos v+i\\sin v)\\). Ange \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(1+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-\\sqrt3+i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-2-2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3i\\)</p>",
-    "s": "<p>a) \\(r=\\sqrt2\\), \\(v=\\pi/4\\): <strong>\\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\)</strong>.</p><p>b) \\(r=2\\), \\(v=5\\pi/6\\): <strong>\\(2(\\cos\\frac{5\\pi}{6}+i\\sin\\frac{5\\pi}{6})\\)</strong>.</p><p>c) \\(r=2\\sqrt2\\), \\(v=5\\pi/4\\).</p><p>d) \\(r=3\\), \\(v=\\pi/2\\).</p>",
+    "s": "<p><strong>Två storheter behövs:</strong> Modulen är \\(r=\\sqrt{a^2+b^2}\\). Argumentet bestäms av riktningen från origo, så kvadranten måste kontrolleras.</p><p>a) \\(r=\\sqrt2\\), \\(v=\\pi/4\\): <strong>\\(\\sqrt2(\\cos\\frac\\pi4+i\\sin\\frac\\pi4)\\)</strong>.</p><p>b) \\(r=2\\), \\(v=5\\pi/6\\): <strong>\\(2(\\cos\\frac{5\\pi}{6}+i\\sin\\frac{5\\pi}{6})\\)</strong>.</p><p>c) \\(r=2\\sqrt2\\), \\(v=5\\pi/4\\).</p><p>d) \\(r=3\\), \\(v=\\pi/2\\).</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
@@ -39590,7 +39588,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera.</p><p>a) \\(f(x)=e^{3x+2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\ln(5x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\sin(2x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=\\cos(4x-1)\\)</p>",
-    "s": "<p>a) <strong>\\(3e^{3x+2}\\)</strong>.</p><p>b) Kedjeregeln ger \\(5/(5x)=\\)<strong>\\(1/x\\)</strong>.</p><p>c) <strong>\\(2\\cos2x\\)</strong>.</p><p>d) <strong>\\(-4\\sin(4x-1)\\)</strong>.</p>",
+    "s": "<p><strong>Kedjeregeln:</strong> Derivera den yttre funktionen, behåll den inre oförändrad och multiplicera med den inre derivatan. Det sista steget ger faktorer som 3, 5 eller \\(-2\\).</p><p>a) <strong>\\(3e^{3x+2}\\)</strong>.</p><p>b) Kedjeregeln ger \\(5/(5x)=\\)<strong>\\(1/x\\)</strong>.</p><p>c) <strong>\\(2\\cos2x\\)</strong>.</p><p>d) <strong>\\(-4\\sin(4x-1)\\)</strong>.</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur"
@@ -40916,7 +40914,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera.</p><p>a) \\(e^{-2x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\ln(x^2+1)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin(5x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(x/3)\\)</p>",
-    "s": "<p>a) <strong>\\(-2e^{-2x}\\)</strong>.</p><p>b) <strong>\\(2x/(x^2+1)\\)</strong>.</p><p>c) <strong>\\(5\\cos5x\\)</strong>.</p><p>d) <strong>\\(-(1/3)\\sin(x/3)\\)</strong>.</p>",
+    "s": "<p><strong>Kedjeregeln:</strong> Derivera den yttre funktionen, behåll den inre oförändrad och multiplicera med den inre derivatan. Det sista steget ger faktorer som 3, 5 eller \\(-2\\).</p><p>a) <strong>\\(-2e^{-2x}\\)</strong>.</p><p>b) <strong>\\(2x/(x^2+1)\\)</strong>.</p><p>c) <strong>\\(5\\cos5x\\)</strong>.</p><p>d) <strong>\\(-(1/3)\\sin(x/3)\\)</strong>.</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur"
@@ -40979,7 +40977,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(5x^4+2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(4e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2/x\\), \\(x&gt;0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3\\sin x+5\\cos x\\)</p>",
-    "s": "<p>a) <strong>\\(x^5+x^2+C\\)</strong>.</p><p>b) <strong>\\(4e^x+C\\)</strong>.</p><p>c) <strong>\\(2\\ln x+C\\)</strong>.</p><p>d) <strong>\\(-3\\cos x+5\\sin x+C\\)</strong>.</p>",
+    "s": "<p><strong>Välj regel term för term:</strong> För \\(x^n\\), \\(n\\ne-1\\), höjs exponenten med 1 och koefficienten divideras med den nya exponenten. Kom också ihåg standardfallen \\(e^x\\), \\(1/x\\), sinus och cosinus. Kontrollera genom derivering.</p><p>a) <strong>\\(x^5+x^2+C\\)</strong>.</p><p>b) <strong>\\(4e^x+C\\)</strong>.</p><p>c) <strong>\\(2\\ln x+C\\)</strong>.</p><p>d) <strong>\\(-3\\cos x+5\\sin x+C\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -41065,7 +41063,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under linjen \\(y=2-x\\), ovanför x-axeln, för \\(0\\le x\\le2\\) roteras kring x-axeln.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"450\" height=\"300\" viewBox=\"0 0 450 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Område under y lika med 2 minus x mellan noll och två\"><rect x=\"1\" y=\"1\" width=\"448\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g stroke=\"#E6ECEF\"><line x1=\"90\" y1=\"35\" x2=\"90\" y2=\"250\"/><line x1=\"150\" y1=\"35\" x2=\"150\" y2=\"250\"/><line x1=\"210\" y1=\"35\" x2=\"210\" y2=\"250\"/><line x1=\"270\" y1=\"35\" x2=\"270\" y2=\"250\"/><line x1=\"330\" y1=\"35\" x2=\"330\" y2=\"250\"/><line x1=\"55\" y1=\"190\" x2=\"390\" y2=\"190\"/><line x1=\"55\" y1=\"130\" x2=\"390\" y2=\"130\"/><line x1=\"55\" y1=\"70\" x2=\"390\" y2=\"70\"/></g><line x1=\"55\" y1=\"250\" x2=\"400\" y2=\"250\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"90\" y1=\"265\" x2=\"90\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><polygon points=\"90,130 210,250 90,250\" fill=\"#DCEFF2\" fill-opacity=\".65\"/><line x1=\"90\" y1=\"130\" x2=\"210\" y2=\"250\" stroke=\"#B43123\" stroke-width=\"2.4\"/><text x=\"145\" y=\"169\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">y = 2 - x</text><text x=\"145\" y=\"169\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">y = 2 - x</text><text x=\"207\" y=\"268\" font-family=\"sans-serif\" font-size=\"10\">2</text></svg></span><p>Bestäm rotationskroppens volym exakt.</p>",
-    "s": "<p><strong>Formelbladet:</strong> \\(V=\\pi\\int_0^2y^2dx\\).</p><p>\\[V=\\pi\\int_0^2(2-x)^2dx=\\pi\\int_0^2(x^2-4x+4)dx.\\]</p><p>\\[V=\\pi\\left[x^3/3-2x^2+4x\\right]_0^2=\\boxed{8\\pi/3}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p><strong>Formelbladet:</strong> \\(V=\\pi\\int_0^2y^2dx\\).</p><p>\\[V=\\pi\\int_0^2(2-x)^2dx=\\pi\\int_0^2(x^2-4x+4)dx.\\]</p><p>\\[V=\\pi\\left[x^3/3-2x^2+4x\\right]_0^2=\\boxed{8\\pi/3}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -41138,7 +41136,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm konstanten \\(a\\) om</p><p>\\[\\int_0^2(ax+1)dx=10.\\]</p>",
-    "s": "<p>Beräkna integralen:</p><p>\\[\\int_0^2(ax+1)dx=\\left[\\frac{ax^2}{2}+x\\right]_0^2=2a+2.\\]</p><p>Villkoret ger \\(2a+2=10\\), alltså <strong>\\(a=4\\)</strong>.</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p>Beräkna integralen:</p><p>\\[\\int_0^2(ax+1)dx=\\left[\\frac{ax^2}{2}+x\\right]_0^2=2a+2.\\]</p><p>Villkoret ger \\(2a+2=10\\), alltså <strong>\\(a=4\\)</strong>.</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur",
@@ -41302,7 +41300,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv i exponentiell form \\(re^{iv}\\), där \\(0\\le v&lt;2\\pi\\).</p><p>a) \\(2+2i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(-3i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(-1-\\sqrt3i\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(4\\)</p>",
-    "s": "<p>a) \\(r=2\\sqrt2\\), \\(v=\\pi/4\\): <strong>\\(2\\sqrt2e^{i\\pi/4}\\)</strong>.</p><p>b) <strong>\\(3e^{i3\\pi/2}\\)</strong>.</p><p>c) \\(r=2\\), \\(v=4\\pi/3\\): <strong>\\(2e^{i4\\pi/3}\\)</strong>.</p><p>d) <strong>\\(4e^{i0}\\)</strong>.</p>",
+    "s": "<p><strong>Gå via Euler/trigonometri:</strong> Använd \\(e^{iv}=\\cos v+i\\sin v\\) och beräkna real- och imaginärdel var för sig.</p><p>a) \\(r=2\\sqrt2\\), \\(v=\\pi/4\\): <strong>\\(2\\sqrt2e^{i\\pi/4}\\)</strong>.</p><p>b) <strong>\\(3e^{i3\\pi/2}\\)</strong>.</p><p>c) \\(r=2\\), \\(v=4\\pi/3\\): <strong>\\(2e^{i4\\pi/3}\\)</strong>.</p><p>d) <strong>\\(4e^{i0}\\)</strong>.</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
@@ -42243,7 +42241,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området under \\(y=3x\\) för \\(0\\le x\\le1\\) roteras ett varv kring x-axeln.</p><p>Bestäm volymen exakt.</p>",
-    "s": "<p><strong>Formelbladet:</strong> \\(V=\\pi\\int_0^1y^2dx\\).</p><p>\\[V=\\pi\\int_0^1(3x)^2dx=9\\pi\\left[\\frac{x^3}{3}\\right]_0^1=\\boxed{3\\pi}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring x-axeln blir varje tvärsnitt en cirkelskiva med radien \\(y=f(x)\\). Därför är \\(V=\\pi\\int_a^b y^2\\,dx\\).</p><p><strong>Formelbladet:</strong> \\(V=\\pi\\int_0^1y^2dx\\).</p><p>\\[V=\\pi\\int_0^1(3x)^2dx=9\\pi\\left[\\frac{x^3}{3}\\right]_0^1=\\boxed{3\\pi}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -42267,7 +42265,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Området mellan y-axeln och kurvan \\(x=y/2\\) för \\(0\\le y\\le6\\) roteras kring y-axeln.</p><p>Bestäm volymen exakt.</p>",
-    "s": "<p><strong>Formelbladet:</strong> \\(V=\\pi\\int_0^6x^2dy\\).</p><p>Här är \\(x=y/2\\):</p><p>\\[V=\\pi\\int_0^6\\frac{y^2}{4}dy=\\frac\\pi4\\left[\\frac{y^3}{3}\\right]_0^6=\\boxed{18\\pi}.\\]</p>",
+    "s": "<p><strong>Geometrisk idé:</strong> Vid rotation kring y-axeln och integration med avseende på \\(y\\) blir skivans radie \\(x=x(y)\\). Då är tvärsnittsarean \\(\\pi x^2\\) och \\(V=\\pi\\int x(y)^2\\,dy\\).</p><p><strong>Formelbladet:</strong> \\(V=\\pi\\int_0^6x^2dy\\).</p><p>Här är \\(x=y/2\\):</p><p>\\[V=\\pi\\int_0^6\\frac{y^2}{4}dy=\\frac\\pi4\\left[\\frac{y^3}{3}\\right]_0^6=\\boxed{18\\pi}.\\]</p>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
@@ -42384,7 +42382,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm \\(a&gt;0\\) om</p><p>\\[\\int_0^a x^2dx=9.\\]</p>",
-    "s": "<p>\\[\\int_0^a x^2dx=\\left[\\frac{x^3}{3}\\right]_0^a=\\frac{a^3}{3}.\\]</p><p>Villkoret ger \\(a^3/3=9\\), alltså \\(a^3=27\\) och <strong>\\(a=3\\)</strong>.</p>",
+    "s": "<p><strong>Kontrollpunkt:</strong> När en primitiv funktion \\(F\\) är bestämd avslutas integralen med \\(F(b)-F(a)\\): övre gränsen minus den undre.</p><p>\\[\\int_0^a x^2dx=\\left[\\frac{x^3}{3}\\right]_0^a=\\frac{a^3}{3}.\\]</p><p>Villkoret ger \\(a^3/3=9\\), alltså \\(a^3=27\\) och <strong>\\(a=3\\)</strong>.</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur",
@@ -42537,7 +42535,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv i rektangulär form.</p><p>a) \\(2(\\cos0+i\\sin0)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(4(\\cos\\frac\\pi2+i\\sin\\frac\\pi2)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2(\\cos\\pi+i\\sin\\pi)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(6(\\cos\\frac{3\\pi}{2}+i\\sin\\frac{3\\pi}{2})\\)</p>",
-    "s": "<p>a) <strong>2</strong>.</p><p>b) <strong>\\(4i\\)</strong>.</p><p>c) <strong>−2</strong>.</p><p>d) <strong>\\(-6i\\)</strong>.</p>",
+    "s": "<p><strong>Gå via Euler/trigonometri:</strong> Använd \\(e^{iv}=\\cos v+i\\sin v\\) och beräkna real- och imaginärdel var för sig.</p><p>a) <strong>2</strong>.</p><p>b) <strong>\\(4i\\)</strong>.</p><p>c) <strong>−2</strong>.</p><p>d) <strong>\\(-6i\\)</strong>.</p>",
     "familj": "Växla mellan rektangulär, polär och exponentiell form",
     "formaga": [
       "procedur"
@@ -42928,7 +42926,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vilken är den generella lösningen till \\(\\sin(2x)=0\\)?</p><p>A. \\(x=n\\pi/2\\)<br>B. \\(x=n\\pi\\)<br>C. \\(x=\\pi/2+n\\pi\\)<br>D. \\(x=2n\\pi\\)</p>",
-    "s": "<p>\\(2x=n\\pi\\Rightarrow x=n\\pi/2\\).</p><p><strong>Svar:</strong> A.</p>",
+    "s": "<p>Sinus är noll när dess argument är ett helt antal \\(\\pi\\):</p><p>\\[2x=n\\pi,\\qquad n\\in\\mathbb Z.\\]</p><p>Dela med 2:</p><p>\\[x=\\frac{n\\pi}{2}.\\]</p><p><strong>Svar:</strong> A.</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur",
@@ -43000,7 +42998,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=e^{3x}\\).</p>",
-    "s": "<p>Yttre derivatan är samma exponentialfunktion och den inre derivatan är 3.</p><p><strong>Svar:</strong> \\(3e^{3x}\\).</p>",
+    "s": "<p><strong>Kedjeregeln:</strong> Derivera den yttre funktionen, behåll den inre oförändrad och multiplicera med den inre derivatan. Det sista steget ger faktorer som 3, 5 eller \\(-2\\).</p><p>Yttre derivatan är samma exponentialfunktion och den inre derivatan är 3.</p><p><strong>Svar:</strong> \\(3e^{3x}\\).</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur"
@@ -43023,7 +43021,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\sin(x^2)\\).</p>",
-    "s": "<p>Derivatan av sinus är cosinus och den inre derivatan av \\(x^2\\) är \\(2x\\).</p><p><strong>Svar:</strong> \\(2x\\cos(x^2)\\).</p>",
+    "s": "<p><strong>Kedjeregeln:</strong> Derivera den yttre funktionen, behåll den inre oförändrad och multiplicera med den inre derivatan. Det sista steget ger faktorer som 3, 5 eller \\(-2\\).</p><p>Derivatan av sinus är cosinus och den inre derivatan av \\(x^2\\) är \\(2x\\).</p><p><strong>Svar:</strong> \\(2x\\cos(x^2)\\).</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur"
@@ -43046,7 +43044,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=e^{-2x}\\).</p>",
-    "s": "<p>Den inre derivatan är −2.</p><p><strong>Svar:</strong> \\(-2e^{-2x}\\).</p>",
+    "s": "<p><strong>Kedjeregeln:</strong> Derivera den yttre funktionen, behåll den inre oförändrad och multiplicera med den inre derivatan. Det sista steget ger faktorer som 3, 5 eller \\(-2\\).</p><p>Den inre derivatan är −2.</p><p><strong>Svar:</strong> \\(-2e^{-2x}\\).</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur"
@@ -43184,7 +43182,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Effekten hos en apparat är \\(P(t)=3t^2+2\\) watt under \\(0\\le t\\le2\\) s. Bestäm den tillförda energin.</p>",
-    "s": "<p>\\[E=\\int_0^2(3t^2+2)dt=[t^3+2t]_0^2=8+4=12\\ \\mathrm J\\]</p><p><strong>Svar:</strong> 12 J.</p>",
+    "s": "<p>Energi är integralen av effekt över tiden. Eftersom effekten mäts i watt och tiden i sekunder blir enheten \\(\\mathrm{W\\,s}=\\mathrm J\\).</p><p>\\[E=\\int_0^2(3t^2+2)\\,dt=[t^3+2t]_0^2.\\]</p><p>\\[E=(8+4)-0=12\\ \\mathrm J.\\]</p><p><strong>Svar:</strong> 12 J.</p>",
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur"
@@ -43230,7 +43228,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En maskins effekt i kW ges av \\(P(t)=4+t\\) under \\(0\\le t\\le3\\) h. Bestäm energin i kWh.</p>",
-    "s": "<p>\\[E=\\int_0^3(4+t)dt=[4t+t^2/2]_0^3=12+4{,}5=16{,}5\\]</p><p><strong>Svar:</strong> 16,5 kWh.</p>",
+    "s": "<p>Energin fås genom att integrera effekten. Här mäts effekten i kW och tiden i timmar, så svaret kommer direkt i kWh:</p><p>\\[E=\\int_0^3(4+t)\\,dt=[4t+\\tfrac12t^2]_0^3.\\]</p><p>\\[E=12+4{,}5=16{,}5\\ \\mathrm{kWh}.\\]</p><p><strong>Svar:</strong> 16,5 kWh.</p>",
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur"
@@ -43277,7 +43275,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Arean mellan linjen \\(y=kx\\), x-axeln och linjen \\(x=3\\) är 9 areaenheter. Bestäm \\(k\\).</p>",
-    "s": "<p>\\[A=\\int_0^3 kx\\,dx=\\frac92k\\]</p><p>\\(9k/2=9\\Rightarrow k=2\\).</p><p><strong>Svar:</strong> 2.</p>",
+    "s": "<p>För \\(0\\le x\\le3\\) ligger linjen \\(y=kx\\) över x-axeln när \\(k>0\\), så arean kan skrivas</p><p>\\[A=\\int_0^3kx\\,dx=k\\left[\\frac{x^2}{2}\\right]_0^3=\\frac92k.\\]</p><p>Arean ska vara 9:</p><p>\\[\\frac92k=9\\Rightarrow k=2.\\]</p><p><strong>Svar:</strong> \\(k=2\\).</p>",
     "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur",
@@ -43301,7 +43299,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ekvationen \\(x^2+4=0\\) har två komplexa rötter. Vilken är roten med positiv imaginärdel?</p><p>A. \\(2i\\)<br>B. \\(-2i\\)<br>C. 2<br>D. −2</p>",
-    "s": "<p>\\(x^2=-4\\Rightarrow x=\\pm2i\\). Positiv imaginärdel ger \\(2i\\).</p><p><strong>Svar:</strong> A.</p>",
+    "s": "<p><strong>Arbetsordning:</strong> Faktorisera så långt som möjligt över de reella talen. När en andragradsfaktor saknar reella rötter fortsätter lösningen i de komplexa talen med \\(i^2=-1\\).</p><p>\\(x^2=-4\\Rightarrow x=\\pm2i\\). Positiv imaginärdel ger \\(2i\\).</p><p><strong>Svar:</strong> A.</p>",
     "familj": "Polynomekvationer med komplexa lösningar",
     "formaga": [
       "procedur"
@@ -43324,7 +43322,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(x^2-4x+13=0\\). Vad är realdelen hos båda rötterna?</p>",
-    "s": "<p>\\[x=\\frac{4\\pm\\sqrt{16-52}}2=2\\pm3i\\]</p><p><strong>Svar:</strong> Realdelen är 2.</p>",
+    "s": "<p><strong>Arbetsordning:</strong> Faktorisera så långt som möjligt över de reella talen. När en andragradsfaktor saknar reella rötter fortsätter lösningen i de komplexa talen med \\(i^2=-1\\).</p><p>\\[x=\\frac{4\\pm\\sqrt{16-52}}2=2\\pm3i\\]</p><p><strong>Svar:</strong> Realdelen är 2.</p>",
     "familj": "Polynomekvationer med komplexa lösningar",
     "formaga": [
       "procedur"
@@ -43347,7 +43345,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ekvationen \\(x^3-8=0\\) har tre komplexa rötter räknat med multiplicitet. Hur många av dem är icke-reella?</p>",
-    "s": "<p>Rötterna är \\(2\\) samt \\(-1\\pm i\\sqrt3\\). Två är alltså icke-reella.</p><p><strong>Svar:</strong> 2.</p>",
+    "s": "<p><strong>Arbetsordning:</strong> Faktorisera så långt som möjligt över de reella talen. När en andragradsfaktor saknar reella rötter fortsätter lösningen i de komplexa talen med \\(i^2=-1\\).</p><p>Rötterna är \\(2\\) samt \\(-1\\pm i\\sqrt3\\). Två är alltså icke-reella.</p><p><strong>Svar:</strong> 2.</p>",
     "familj": "Polynomekvationer med komplexa lösningar",
     "formaga": [
       "begrepp",
@@ -43371,7 +43369,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Hur många icke-reella rötter har ekvationen \\(x^4+5x^2+4=0\\)?</p>",
-    "s": "<p>Faktorisera: \\((x^2+1)(x^2+4)=0\\). Rötterna är \\(\\pm i\\) och \\(\\pm2i\\), alltså fyra icke-reella rötter.</p><p><strong>Svar:</strong> 4.</p>",
+    "s": "<p><strong>Arbetsordning:</strong> Faktorisera så långt som möjligt över de reella talen. När en andragradsfaktor saknar reella rötter fortsätter lösningen i de komplexa talen med \\(i^2=-1\\).</p><p>Faktorisera: \\((x^2+1)(x^2+4)=0\\). Rötterna är \\(\\pm i\\) och \\(\\pm2i\\), alltså fyra icke-reella rötter.</p><p><strong>Svar:</strong> 4.</p>",
     "familj": "Polynomekvationer med komplexa lösningar",
     "formaga": [
       "procedur"
@@ -43465,7 +43463,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Funktionen är \\(f(x)=e^{2x+1}\\).</p><p>Bestäm \\(f'(0)\\). Svara exakt.</p>",
-    "s": "<p><strong>Metod:</strong> Kedjeregeln ger \\(f'(x)=2e^{2x+1}\\). Därför</p><p>\\[f'(0)=2e.\\]</p><p><strong>Svar:</strong> \\(2e\\).</p>",
+    "s": "<p><strong>Kedjeregeln:</strong> Derivera den yttre funktionen, behåll den inre oförändrad och multiplicera med den inre derivatan. Det sista steget ger faktorer som 3, 5 eller \\(-2\\).</p><p><strong>Metod:</strong> Kedjeregeln ger \\(f'(x)=2e^{2x+1}\\). Därför</p><p>\\[f'(0)=2e.\\]</p><p><strong>Svar:</strong> \\(2e\\).</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur",
@@ -43489,7 +43487,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Funktionen är \\(g(x)=\\sin(3x-\\pi/2)\\).</p><p>Bestäm \\(g'(\\pi/6)\\).</p>",
-    "s": "<p><strong>Metod:</strong> Kedjeregeln ger \\(g'(x)=3\\cos(3x-\\pi/2)\\).</p><p>Vid \\(x=\\pi/6\\) blir vinkeln 0, så \\(g'=3\\cos0=3\\).</p><p><strong>Svar:</strong> 3.</p>",
+    "s": "<p><strong>Kedjeregeln:</strong> Derivera den yttre funktionen, behåll den inre oförändrad och multiplicera med den inre derivatan. Det sista steget ger faktorer som 3, 5 eller \\(-2\\).</p><p><strong>Metod:</strong> Kedjeregeln ger \\(g'(x)=3\\cos(3x-\\pi/2)\\).</p><p>Vid \\(x=\\pi/6\\) blir vinkeln 0, så \\(g'=3\\cos0=3\\).</p><p><strong>Svar:</strong> 3.</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur",
@@ -43794,7 +43792,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionen är \\(f(x)=\\frac{x^2+3x+5}{x+1}\\).</p><p>Den sneda asymptoten har formen \\(y=kx+m\\). Bestäm \\(m\\).</p>",
-    "s": "<p><strong>Metod:</strong> Polynomdivision ger kvoten \\(1x+2\\) samt en restterm som går mot 0 då \\(|x|\\to\\infty\\).</p><p><strong>Svar:</strong> \\(m=2\\).</p>",
+    "s": "<p>Gör polynomdivision. Kvoten börjar med \\(x\\), eftersom den högsta graden i täljaren är en grad större än i nämnaren. Divisionen ger</p><p>\\[f(x)=x+2+\\frac{R(x)}{Q(x)},\\]</p><p>där resttermen \\(R(x)/Q(x)\\to0\\) när \\(|x|\\to\\infty\\).</p><p>Den sneda asymptoten är därför \\(y=x+2\\).</p><p><strong>Svar:</strong> \\(m=2\\).</p>",
     "familj": "Asymptoter med polynomdivision",
     "formaga": [
       "procedur",
@@ -43842,7 +43840,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionen är \\(f(x)=\\frac{-x^2+4x+1}{x+3}\\).</p><p>Den sneda asymptoten har formen \\(y=kx+m\\). Bestäm \\(m\\).</p>",
-    "s": "<p><strong>Metod:</strong> Polynomdivision ger kvoten \\(-1x+7\\) samt en restterm som går mot 0 då \\(|x|\\to\\infty\\).</p><p><strong>Svar:</strong> \\(m=7\\).</p>",
+    "s": "<p>Polynomdivisionen ger en linjär kvot. Den kan skrivas</p><p>\\[f(x)=-x+7+\\frac{R(x)}{Q(x)},\\]</p><p>där resttermen går mot 0 när \\(|x|\\to\\infty\\). Därför närmar sig grafen linjen</p><p>\\[y=-x+7.\\]</p><p><strong>Svar:</strong> \\(m=7\\).</p>",
     "familj": "Asymptoter med polynomdivision",
     "formaga": [
       "procedur",
@@ -44076,7 +44074,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Funktionen är \\(f(x)=sin(3x)\\).</p><p>Bestäm \\(f'(0.00000)\\).</p>",
-    "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med den inre derivatan.</p><p><strong>Svar:</strong> \\(3.00000\\).</p>",
+    "s": "<p><strong>Kedjeregeln:</strong> Derivera den yttre funktionen, behåll den inre oförändrad och multiplicera med den inre derivatan. Det sista steget ger faktorer som 3, 5 eller \\(-2\\).</p><p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med den inre derivatan.</p><p><strong>Svar:</strong> \\(3.00000\\).</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur"
@@ -44099,7 +44097,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Funktionen är \\(f(x)=e^(2x-1)\\).</p><p>Bestäm \\(f'(0.00000)\\).</p>",
-    "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med den inre derivatan.</p><p><strong>Svar:</strong> \\(0.73576\\).</p>",
+    "s": "<p><strong>Kedjeregeln:</strong> Derivera den yttre funktionen, behåll den inre oförändrad och multiplicera med den inre derivatan. Det sista steget ger faktorer som 3, 5 eller \\(-2\\).</p><p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med den inre derivatan.</p><p><strong>Svar:</strong> \\(0.73576\\).</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur"
@@ -44122,7 +44120,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Funktionen är \\(f(x)=cos(x^2)\\).</p><p>Bestäm \\(f'(1.25331)\\).</p>",
-    "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med den inre derivatan.</p><p><strong>Svar:</strong> \\(-2.50663\\).</p>",
+    "s": "<p><strong>Kedjeregeln:</strong> Derivera den yttre funktionen, behåll den inre oförändrad och multiplicera med den inre derivatan. Det sista steget ger faktorer som 3, 5 eller \\(-2\\).</p><p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med den inre derivatan.</p><p><strong>Svar:</strong> \\(-2.50663\\).</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur"
@@ -44145,7 +44143,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln är \\(v=30^\\circ\\).</p><p>Bestäm \\(sin(2v)\\) med en formel för dubbla vinkeln.</p>",
-    "s": "<p><strong>Metod:</strong> Använd \\(\\sin2v=2\\sin v\\cos v\\) eller \\(\\cos2v=\\cos^2v-\\sin^2v\\).</p><p><strong>Svar:</strong> \\(0.866025\\).</p>",
+    "s": "<p>Dubbla vinkeln först: \\(2v=60^\\circ\\). Med \\(\\sin2v=2\\sin v\\cos v\\) får vi samma standardvärde:</p><p>\\[\\sin(60^\\circ)=\\frac{\\sqrt3}{2}\\approx0{,}866025.\\]</p><p><strong>Svar:</strong> \\(0{,}866025\\).</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -44168,7 +44166,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln är \\(v=22.5^\\circ\\).</p><p>Bestäm \\(cos(2v)\\) med en formel för dubbla vinkeln.</p>",
-    "s": "<p><strong>Metod:</strong> Använd \\(\\sin2v=2\\sin v\\cos v\\) eller \\(\\cos2v=\\cos^2v-\\sin^2v\\).</p><p><strong>Svar:</strong> \\(0.707107\\).</p>",
+    "s": "<p>Dubbla vinkeln är \\(2v=45^\\circ\\). Därför</p><p>\\[\\cos(2v)=\\cos45^\\circ=\\frac{\\sqrt2}{2}\\approx0{,}707107.\\]</p><p><strong>Svar:</strong> \\(0{,}707107\\).</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -44191,7 +44189,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln är \\(v=75^\\circ\\).</p><p>Bestäm \\(sin(2v)\\) med en formel för dubbla vinkeln.</p>",
-    "s": "<p><strong>Metod:</strong> Använd \\(\\sin2v=2\\sin v\\cos v\\) eller \\(\\cos2v=\\cos^2v-\\sin^2v\\).</p><p><strong>Svar:</strong> \\(0.500000\\).</p>",
+    "s": "<p>Dubbla vinkeln är \\(2v=150^\\circ\\). Eftersom \\(\\sin150^\\circ=\\sin30^\\circ\\) får vi</p><p>\\[\\sin(2v)=\\frac12=0{,}5.\\]</p><p><strong>Svar:</strong> \\(0{,}5\\).</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -44430,7 +44428,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(sin x=1/2\\) generellt och ange här den minsta positiva lösningen.</p>",
-    "s": "<p><strong>Metod:</strong> Utgå från enhetscirkeln och ta därefter med funktionens periodicitet i den generella lösningen.</p><p>Den minsta positiva lösningen är \\(0.523599\\).</p>",
+    "s": "<p>Sinus är \\(1/2\\) vid \\(\\pi/6\\) och \\(5\\pi/6\\) under ett varv. Med perioden \\(2\\pi\\) blir alla lösningar</p><p>\\[x=\\frac\\pi6+2\\pi n\\quad\\text{eller}\\quad x=\\frac{5\\pi}{6}+2\\pi n,\\qquad n\\in\\mathbb Z.\\]</p><p>Den minsta positiva lösningen är \\(\\pi/6\\approx0{,}523599\\).</p><p><strong>Svar:</strong> \\(0{,}523599\\).</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur"
@@ -44453,7 +44451,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(cos x=-1\\) generellt och ange här den minsta positiva lösningen.</p>",
-    "s": "<p><strong>Metod:</strong> Utgå från enhetscirkeln och ta därefter med funktionens periodicitet i den generella lösningen.</p><p>Den minsta positiva lösningen är \\(3.141593\\).</p>",
+    "s": "<p>Cosinus är \\(-1\\) vid vinkeln \\(\\pi\\), och cosinus har perioden \\(2\\pi\\):</p><p>\\[x=\\pi+2\\pi n,\\qquad n\\in\\mathbb Z.\\]</p><p>Den minsta positiva lösningen är \\(\\pi\\approx3{,}141593\\).</p><p><strong>Svar:</strong> \\(3{,}141593\\).</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur"
@@ -44476,7 +44474,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(tan x=sqrt(3)\\) generellt och ange här den minsta positiva lösningen.</p>",
-    "s": "<p><strong>Metod:</strong> Utgå från enhetscirkeln och ta därefter med funktionens periodicitet i den generella lösningen.</p><p>Den minsta positiva lösningen är \\(1.047198\\).</p>",
+    "s": "<p>\\(\\tan x=\\sqrt3\\) har referenslösningen \\(x=\\pi/3\\). Tangens har perioden \\(\\pi\\), så</p><p>\\[x=\\frac\\pi3+\\pi n,\\qquad n\\in\\mathbb Z.\\]</p><p>Den minsta positiva lösningen är \\(\\pi/3\\approx1{,}047198\\).</p><p><strong>Svar:</strong> \\(1{,}047198\\).</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur"

@@ -1,7 +1,5 @@
-/* uppgiftermatf1.js — Matematik – fördjupning nivå 1.
-   Bas: premiumrevision av facit, familjer och spelDelning 2026-09-07.
-   Hierarkirevision: OMR bevaras internt; familj är elevens punktträningsdelmoment.
-   familjTidigare finns på omdöpta familjer för migrering av sparad familjeprogress. */
+/* uppgiftermatf1.js — Matematik fördjupning nivå 1.
+   Selektiv premiumrevision av facit S5 2026-09-08. Endast s ändrat. */
 
 window.BANKMATF1 = [
   {
@@ -9543,7 +9541,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration två gånger",
     "poang": "0/2/1",
     "t": "<p>Beräkna \\(\\displaystyle\\int x^2e^{-2x}\\,dx\\).</p>",
-    "s": "<p>Partiell integration två gånger ger</p><p>\\[\\int x^2e^{-2x}dx=-\\frac{1}{2}x^2e^{-2x}+\\int xe^{-2x}dx\\]</p><p>\\[=-\\frac{1}{2}x^2e^{-2x}-\\frac{1}{2}xe^{-2x}-\\frac14e^{-2x}+C.\\]</p><p>Alltså <strong>\\(-e^{-2x}(\\frac{1}{2}x^2+\\frac{1}{2}x+\\frac14)+C\\)</strong>.</p>",
+    "s": "<p>Integranden är en produkt där polynomet blir enklare när det deriveras, så partiell integration är lämplig.</p><p>Först väljer vi \\(u=x^2\\) och \\(dv=e^{-2x}dx\\). Då är \\(du=2x\\,dx\\) och \\(v=-\\frac12e^{-2x}\\):</p><p>\\[\\int x^2e^{-2x}dx=-\\frac12x^2e^{-2x}+\\int xe^{-2x}dx.\\]</p><p>Den återstående integralen kräver partiell integration en gång till:</p><p>\\[\\int xe^{-2x}dx=-\\frac12xe^{-2x}-\\frac14e^{-2x}.\\]</p><p>Därför</p><p>\\[\\int x^2e^{-2x}dx=-\\frac12x^2e^{-2x}-\\frac12xe^{-2x}-\\frac14e^{-2x}+C.\\]</p><p><strong>Svar:</strong> \\(-e^{-2x}(\\frac12x^2+\\frac12x+\\frac14)+C\\).</p>",
     "id": "3.01",
     "miniräknare": false,
     "geogebra": false,
@@ -11855,7 +11853,7 @@ window.BANKMATF1 = [
     "typ": "bestämd integral av logaritm i kvadrat",
     "poang": "0/3/0",
     "t": "<p>Beräkna</p><p>\\[\\int_1^e(\\ln x)^2\\,dx.\\]</p>",
-    "s": "<p>Välj \\(u=(\\ln x)^2\\), \\(dv=dx\\). Då är \\(du=\\frac{2\\ln x}{x}dx\\) och \\(v=x\\):</p><p>\\[\\int(\\ln x)^2dx=x(\\ln x)^2-2\\int\\ln xdx.\\]</p><p>Eftersom \\(\\int\\ln xdx=x\\ln x-x\\) får vi</p><p>\\[F(x)=x(\\ln x)^2-2x\\ln x+2x.\\]</p><p>\\[F(e)=e-2e+2e=e,\\qquad F(1)=2.\\]</p><p><strong>Integralen är \\(e-2\\).</strong></p>",
+    "s": "<p>Välj \\(u=(\\ln x)^2\\) och \\(dv=dx\\). Då är \\(du=\\frac{2\\ln x}{x}dx\\) och \\(v=x\\):</p><p>\\[\\int(\\ln x)^2dx=x(\\ln x)^2-2\\int\\ln x\\,dx.\\]</p><p>Eftersom \\(\\int\\ln x\\,dx=x\\ln x-x\\) får vi</p><p>\\[F(x)=x(\\ln x)^2-2x\\ln x+2x.\\]</p><p>Vid övre gränsen är \\(\\ln e=1\\):</p><p>\\[F(e)=e-2e+2e=e.\\]</p><p>Vid undre gränsen är \\(\\ln1=0\\):</p><p>\\[F(1)=2.\\]</p><p><strong>Alltså är integralen \\(F(e)-F(1)=e-2\\).</strong></p>",
     "id": "3.97",
     "miniräknare": false,
     "geogebra": false,
@@ -18003,7 +18001,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För \\(y'=y,\\ y(0)=1\\) används Eulers metod med \\(h=0.2\\) i 3 steg.</p><p>Bestäm absolutfelet jämfört med den exakta lösningen \\(y=e^x\\) vid slutpunkten.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kontrollera varje Eulersteg med \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Lutningen ska alltid beräknas i den punkt där steget börjar, inte i den nya punkten.</p><p><strong>Metod:</strong> Euler ger \\(y\\approx(1+h)^n=(1.2)^3=1.72800\\). Exakt värde är \\(e^{0.6000000000000001}=1.82212\\).</p><p>Absolutfelet är \\(0.09412\\).</p>",
+    "s": "<p>Eulers metod använder \\(y_{n+1}=y_n+h\\,y_n=(1+h)y_n\\) eftersom \\(y\\prime=y\\). Med \\(h=0{,}2\\) och tre steg blir</p><p>\\[y_3=(1{,}2)^3=1{,}728.\\]</p><p>Efter tre steg är slutpunkten \\(x=3\\cdot0{,}2=0{,}6\\). Den exakta lösningen \\(y=e^x\\) ger då</p><p>\\[e^{0{,}6}\\approx1{,}82212.\\]</p><p>Absolutfelet är därför</p><p>\\[|1{,}82212-1{,}728|\\approx0{,}09412.\\]</p><p><strong>Svar:</strong> cirka \\(0{,}0941\\).</p>",
     "id": "4.314",
     "miniräknare": true,
     "geogebra": false,

@@ -1546,7 +1546,10 @@ let session=null;     // {access_token, refresh_token, expires_at, user}
 
 function sbHeaders(auth){
   const h={apikey:SUPABASE_KEY,"Content-Type":"application/json"};
-  if(auth && session) h.Authorization="Bearer "+session.access_token;
+  // PostgREST vill ha en Authorization-header även för utloggade anrop.
+  // Utan session är anon-nyckeln själv den token som ger rollen anon —
+  // skickas den inte blir svaret 401 i stället för en tom lista.
+  h.Authorization="Bearer "+((auth && session) ? session.access_token : SUPABASE_KEY);
   return h;
 }
 function sparaSession(s){
@@ -1934,7 +1937,13 @@ async function hamtaTopplista(sortering,gräns=50){
       +"?select=namn,xp,niva,rang,uppgifter,dagar,medaljer"
       +"&visa=eq.true&order="+kol+".desc&limit="+gräns,
       {headers:sbHeaders(inloggad)});
-    if(!r.ok) return null;
+    if(!r.ok){
+      // Vanligaste orsaken utloggad: anon saknar läsrätt på topplista.
+      // Felet från PostgREST säger vilket, så det loggas i klartext.
+      let txt=""; try{ txt=await r.text(); }catch(_){}
+      console.warn("Topplistan svarade "+r.status+": "+txt);
+      return null;
+    }
     return await r.json();
   }catch(_){ return null; }
 }

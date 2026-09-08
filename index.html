@@ -4978,6 +4978,78 @@ function listaAv(x,parTvang){
   });
   return s.split(";").map(d=>d.trim()).filter(Boolean);
 }
+/* Delar upp ett svar som skrivits som en uppräkning med ord:
+   "x<-2 eller x>2", "x=1 och x=3", "2; 5". En sådan uppräkning har
+   ingen inneboende ordning — unionen av två intervall är densamma
+   vilken del man skriver först.
+
+   Komma duger inte som signal här: (2,5) är en koordinat där
+   ordningen är hela poängen. Bara utskrivna ord och semikolon räknas,
+   och parenteser runt hela svaret stänger av uppdelningen. Returnerar
+   null när svaret inte är en uppräkning, så att vanliga svar inte
+   berörs alls. */
+function ordListaAv(x){
+  const s=stadaSvar(x);
+  if(!s) return null;
+  if(/^[[({].*[\])}]$/.test(s)) return null;
+  const delar=s.split(/\s+(?:eller|och|samt)\s+|\s*;\s*/i)
+               .map(d=>d.trim()).filter(Boolean);
+  return delar.length>1 ? delar : null;
+}
+
+/* ==========================================================
+   OLIKHETER
+   Jämförs på sina beståndsdelar: variabel, riktning och gränsvärde.
+   "2<x" och "x>2" är samma villkor, "x>2" och "x>=2" är det inte.
+   Dubbelolikheten -2<x<=5 delas i sina två halvor.
+   ========================================================== */
+
+const SPEGLA={"<":">",">":"<","<=":">=",">=":"<="};
+
+function olikhetsDelar(x){
+  const s=stadaSvar(x).replace(/≤/g,"<=").replace(/≥/g,">=");
+  // En uppräkning är inte en olikhet. Utan den här spärren skulle
+  // "x<-2 eller x>2" tolkas som den enda olikheten x < (-2 eller x>2),
+  // och gränsvärdet läsas som -2 — varpå x<-2 ensamt hade godkänts.
+  if(/\s(?:eller|och|samt)\s|;/i.test(s)) return null;
+  const arVar=t=>/^[a-zåäö]\w*$/i.test(t.trim());
+
+  // Dubbelolikhet: -2 < x <= 5 blir x > -2 och x <= 5.
+  const d=s.match(/^(.+?)(<=|<)(.+?)(<=|<)(.+)$/);
+  if(d && arVar(d[3])){
+    return [{v:d[3].trim(), op:SPEGLA[d[2]], tal:d[1].trim()},
+            {v:d[3].trim(), op:d[4],         tal:d[5].trim()}];
+  }
+  // Samma sak skriven fallande: 5 > x > -2.
+  const dn=s.match(/^(.+?)(>=|>)(.+?)(>=|>)(.+)$/);
+  if(dn && arVar(dn[3])){
+    return [{v:dn[3].trim(), op:SPEGLA[dn[2]], tal:dn[1].trim()},
+            {v:dn[3].trim(), op:dn[4],         tal:dn[5].trim()}];
+  }
+  const m=s.match(/^(.+?)(<=|>=|<|>)(.+)$/);
+  if(!m) return null;
+  const vans=m[1].trim(), op=m[2], hoger=m[3].trim();
+  if(arVar(vans) && !arVar(hoger)) return [{v:vans, op, tal:hoger}];
+  if(arVar(hoger) && !arVar(vans)) return [{v:hoger, op:SPEGLA[op], tal:vans}];
+  return null;
+}
+
+/* true/false när båda sidor är olikheter, annars null så att den
+   vanliga motorn får ta över. */
+function olikhetsJamforelse(a,f,tol){
+  const la=olikhetsDelar(a), lf=olikhetsDelar(f);
+  if(!la || !lf) return null;
+  if(la.length!==lf.length) return false;
+  const kvar=[...lf];
+  return la.every(x=>{
+    const i=kvar.findIndex(y=>
+      x.v.toLowerCase()===y.v.toLowerCase() && x.op===y.op &&
+      (naraNog(talAv(x.tal),talAv(y.tal),tol) || algebraisktLika(x.tal,y.tal)===true));
+    if(i<0) return false;
+    kvar.splice(i,1); return true;
+  });
+}
+
 /* "x = 5" -> "5". Behåller strängen om det inte är en tilldelning. */
 function hogerled(x){
   const s=stadaSvar(x);
@@ -5154,7 +5226,28 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
     if(naraNog(talAv(hogerled(anv)),talAv(facit),tol)) return true;
   }
   const kopia = (typeof tol==="number") ? Object.assign({},t,{tolerans:tol}) : t;
-  return oneAnswerCorrect(anv,facit,kopia,idx);
+
+  // Olikheter går sin egen väg, resten till den vanliga motorn.
+  const enDel=(x,y)=>{
+    const o=olikhetsJamforelse(x,y,tol);
+    return (o!==null) ? o : oneAnswerCorrect(x,y,kopia,idx);
+  };
+
+  // Uppräkningar matchas fritt mot varandra, så att "x>2 eller x<-2"
+  // godtas mot facit "x<-2 eller x>2". Varje del måste hitta sin egen
+  // motpart, så en dubblett räcker inte för att täcka två olika delar.
+  const lu=ordListaAv(anv), lf=ordListaAv(facit);
+  if(lu && lf && lu.length===lf.length){
+    const kvar=[...lf];
+    const alla=lu.every(v=>{
+      const i=kvar.findIndex(k=>enDel(v,k));
+      if(i<0) return false;
+      kvar.splice(i,1); return true;
+    });
+    if(alla) return true;
+  }
+
+  return enDel(anv,facit);
 }
 
 function answerLayout(t){
@@ -5424,6 +5517,13 @@ function latexToPlain(s){
     x=x.replace(/\\sqrt\s*\{([^{}]+)\}/g,"sqrt($1)");
   }
   x=x.replace(/\\left|\\right/g,"");
+
+  // e^{x} och x_{1}: LaTeX-klamrar blir vanliga parenteser. Eleven
+  // kopierar ofta uppgiftens skrivsätt rakt in i svarsrutan.
+  for(let i=0;i<4;i++){
+    x=x.replace(/\^\s*\{([^{}]*)\}/g,"^($1)");
+    x=x.replace(/_\s*\{([^{}]*)\}/g,"_$1");
+  }
   x=x.replace(/\\cdot|\\times/g,"*");
   x=x.replace(/\\pi/g,"pi");
   x=x.replace(/\\,/g,"");
@@ -5471,6 +5571,13 @@ function normalizeMathInput(s){
   // Procenttal: 12% -> (12/100)
   x=x.replace(/(\d+(?:\.\d+)?)\s*%/g,"($1/100)");
 
+  // "sin x", "ln 2x": funktionsanrop utan parentes. Mellanrummet visar
+  // var argumentet slutar, så det måste tolkas innan blanksteg stryks.
+  x=x.replace(/\b(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sqrt|log10|log|sin|cos|tan|ln|lg|exp)\s+([a-z0-9.]+(?:\^[a-z0-9.]+)?)/g,"$1($2)");
+  // Samma sak utan mellanrum, men bara för en ensam bokstav: sinx är
+  // sin(x), medan sinxy lämnas i fred eftersom det inte går att tyda.
+  x=x.replace(/\b(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sqrt|log10|log|sin|cos|tan|ln|lg|exp)([a-z])(?![a-z0-9])/g,"$1($2)");
+
   // Ta bort tusentalsmellanrum mellan siffror, därefter övriga blanksteg.
   x=x.replace(/(\d)\s+(?=\d{3}(?:\D|$))/g,"$1");
   x=x.replace(/\s+/g,"");
@@ -5485,6 +5592,53 @@ function normalizeAnswer(s){
   return normalizeMathInput(s);
 }
 
+/* ==========================================================
+   UNDERFÖRSTÅDD MULTIPLIKATION OCH LOGARITMNAMN
+   Nerdamer läser 25xy^2 som 25 gånger variabeln "xy", inte som
+   25·x·y². Eleven skriver ofta ut stjärnan, facit gör det sällan,
+   och då jämförs två olika uttryck och rätt svar underkänns.
+   Nerdamer känner inte heller igen lg och ln — de blir variabler,
+   så lg(100) tolkas som 100·lg.
+
+   Båda stegen körs på redan normaliserad text, och bara i de
+   jämförelser som går till Nerdamer. Enhetsjämförelsen rör de inte,
+   eftersom kWh annars skulle bli k·W·h.
+   ========================================================== */
+
+const MATTEFUNKTIONER=["arcsin","arccos","arctan","sinh","cosh","tanh",
+  "asin","acos","atan","sqrt","log10","log","sin","cos","tan","ln","lg",
+  "exp","abs","pi"];
+
+function explicitMultiplikation(x){
+  const token=new RegExp("("+MATTEFUNKTIONER.join("|")+")|(\\d+(?:\\.\\d+)?)|([a-z])|([\\s\\S])","g");
+  let ut="", forra=null, m;
+  while((m=token.exec(x))){
+    const typ = m[1]?"fn" : m[2]?"tal" : m[3]?"bok" : "ovr";
+    const txt = m[0];
+    if(forra){
+      const p=forra.typ, pt=forra.txt;
+      const stjarna =
+           (p==="tal" && (typ==="bok"||typ==="fn"||txt==="("))
+        || (p==="bok" && (typ==="bok"||typ==="fn"))
+        // x(x+1) är en produkt, f(x) ett funktionsvärde. f, g och h är
+        // funktionsnamn i skolmatematiken, övriga bokstäver variabler.
+        || (p==="bok" && txt==="(" && !"fgh".includes(pt))
+        || (pt===")"  && (typ==="bok"||typ==="tal"||typ==="fn"||txt==="("));
+      if(stjarna) ut+="*";
+    }
+    ut+=txt; forra={typ,txt};
+  }
+  return ut;
+}
+
+/* I svensk skolmatematik är lg och log tiologaritmen och ln den
+   naturliga. Nerdamer menar tvärtom med log, så namnen byts. */
+function tillNerdamer(x){
+  return explicitMultiplikation(x)
+    .replace(/(?<![a-z0-9_])(log10|lg|log|ln)\s*\(/g,
+      (m,f)=> (f==="ln"?"log":"log10")+"(");
+}
+
 function firstNumber(s){
   const x=normalizeMathInput(s);
   const m=x.match(/[-+]?(?:\d+(?:\.\d+)?|\.\d+)/);
@@ -5493,11 +5647,13 @@ function firstNumber(s){
 
 function isPureNumberExpression(s){
   // Tillåt siffror, pi/e, parenteser och elementära operatorer/funktioner,
-  // men inga fria variabler.
-  const x=normalizeMathInput(s);
+  // men inga fria variabler. Multiplikationen skrivs ut först, annars
+  // ser 2pi ut som en variabel eftersom \b inte hittar någon gräns
+  // mellan siffran och bokstaven.
+  const x=explicitMultiplikation(normalizeMathInput(s));
   if(!x) return false;
   const scrub=x
-    .replace(/\b(?:sqrt|sin|cos|tan|asin|acos|atan|ln|log|abs|exp|pi|e)\b/g,"")
+    .replace(/\b(?:arcsin|arccos|arctan|sinh|cosh|tanh|sqrt|sin|cos|tan|asin|acos|atan|log10|lg|ln|log|abs|exp|pi|e)\b/g,"")
     .replace(/[0-9.+\-*/^(),]/g,"");
   return scrub==="";
 }
@@ -5572,8 +5728,8 @@ function equationsEquivalent(user,expected){
 }
 
 function algebraicallyEquivalent(user,expected){
-  const u=normalizeMathInput(user);
-  const e=normalizeMathInput(expected);
+  const u=tillNerdamer(normalizeMathInput(user));
+  const e=tillNerdamer(normalizeMathInput(expected));
   if(!u || !e) return false;
   if(u===e) return true;
   if(typeof window.nerdamer!=="function") return false;
@@ -5599,6 +5755,11 @@ function algebraicallyEquivalent(user,expected){
   // Ett uttryck ska normalt inte jämföras direkt med en ospecificerad ekvation.
   if(ue || ee) return false;
 
+  // Nerdamer läser bort jämförelsetecken: (x>2)-(x<-2) förenklas till 0,
+  // vilket gör att varje olikhet godkänns mot varje annan. Olikheter
+  // hanteras av olikhetsJamforelse() i stället.
+  if(/[<>≤≥]/.test(u) || /[<>≤≥]/.test(e)) return false;
+
   // Symbolisk förenkling är huvudkontrollen.
   if(symbolicZero(`((${u})-(${e}))`)) return true;
 
@@ -5618,15 +5779,28 @@ function oneAnswerCorrect(user,expected,t,delIndex){
   // 1. Exakt efter normalisering.
   if(u===e) return true;
 
+  // 1b. Samma svar med och utan utskriven multiplikation.
+  if(explicitMultiplikation(u)===explicitMultiplikation(e)) return true;
+
   // 2. Algebraisk/symbolisk ekvivalens.
   //    Exempel: 11y+3 = 3+11y, (x+1)^2 = x^2+2x+1.
   if(algebraicallyEquivalent(user,expected)) return true;
 
   // 3. Numerisk jämförelse med tolerans.
   //    Både punkt och komma fungerar genom normalizeMathInput().
+  //
+  //    Två uttryck som båda innehåller variabler får aldrig jämföras
+  //    på sin första siffra. 25x·y och 25x·y² börjar båda på 25 men är
+  //    olika svar, och reservvägen firstNumber() nedan skulle annars
+  //    godkänna det ena mot det andra. Har minst en sida ett rent tal
+  //    är jämförelsen meningsfull igen, t.ex. "12 kr" mot 12.
+  const algebraisktU=!isPureNumberExpression(user);
+  const algebraisktE=!isPureNumberExpression(expected);
+  if(algebraisktU && algebraisktE) return false;
+
   let un=NaN,en=NaN;
-  if(isPureNumberExpression(user)) un=numericValue(normalizeMathInput(user));
-  if(isPureNumberExpression(expected)) en=numericValue(normalizeMathInput(expected));
+  if(isPureNumberExpression(user)) un=numericValue(tillNerdamer(normalizeMathInput(user)));
+  if(isPureNumberExpression(expected)) en=numericValue(tillNerdamer(normalizeMathInput(expected)));
 
   // Fallback om Nerdamer inte hunnit laddas eller uttrycket är enkelt.
   if(!Number.isFinite(un)) un=firstNumber(user);

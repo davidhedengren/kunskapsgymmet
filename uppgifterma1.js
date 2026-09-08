@@ -8295,16 +8295,16 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket tal ska stå i rutan för att likheten ska stämma?</p><p>\\[4+\\square\\cdot3=19\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Multiplikationen med \\(x\\) görs före additionen.</p><p>För att \\(4+x\\cdot3=19\\) måste \\(x\\cdot3=15\\), alltså \\(x=5\\).</p><p><strong>Svar:</strong> \\(5\\)</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Multiplikationen görs före additionen.</p><p>Först måste produkten i \\(4+\\square\\cdot3=19\\) vara \\(19-4=15\\).</p><p>Därför ska talet i rutan uppfylla \\(\\square\\cdot3=15\\), vilket ger \\(\\square=5\\).</p><p><strong>Svar:</strong> \\(5\\)</p>",
     "familj": "Räkna med prioriteringsregler",
     "svarstyp": "numeriskt",
-    "rättSvar": 19,
+    "rättSvar": 5,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "heltal",
-    "ledtrad": "<p>Multiplikationen med \\(x\\) görs före additionen. Ta en operation i taget enligt prioriteringsreglerna.</p>"
+    "ledtrad": "<p>Multiplikationen görs före additionen. Börja med att fråga vilket värde produkten \\(\\square\\cdot3\\) måste ha för att summan ska bli 19.</p>"
   },
   {
     "id": "0.272",
@@ -8322,16 +8322,16 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket tal ska stå i rutan?</p><p>\\[(\\square+2)\\cdot4=28\\]</p>",
-    "s": "<p>Eftersom parentesen multipliceras med 4 måste parentesens värde vara \\(28\\div4=7\\).</p><p>Då gäller \\(x+2=7\\), så \\(x=5\\).</p><p><strong>Svar:</strong> \\(5\\)</p>",
+    "s": "<p><strong>Steg 1:</strong> Eftersom hela parentesen multipliceras med 4 måste parentesens värde vara \\(28\\div4=7\\).</p><p><strong>Steg 2:</strong> Då ska \\(\\square+2=7\\), så talet i rutan är \\(7-2=5\\).</p><p><strong>Svar:</strong> \\(5\\)</p>",
     "familj": "Räkna med prioriteringsregler",
     "svarstyp": "numeriskt",
-    "rättSvar": 28,
+    "rättSvar": 5,
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarFormat": "heltal",
-    "ledtrad": "<p>Ta en operation i taget enligt prioriteringsreglerna. Skriv gärna om subtraktion som addition av ett negativt tal om minustecknen är svåra att hålla reda på.</p>"
+    "ledtrad": "<p>Börja med att dela 28 med 4. Då vet du vilket värde parentesen \\(\\square+2\\) måste ha.</p>"
   },
   {
     "id": "0.273",
@@ -28394,19 +28394,19 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En potensfunktion har formen \\(f(x)=ax^{2}\\) och går genom punkten \\((3,40)\\). Bestäm \\(a\\).</p>",
-    "s": "<p><strong>Steg 1:</strong> Punkten betyder att \\(f(3)=40\\).</p><p>\\(40=a\\cdot 3^{2}=a\\cdot 9\\).</p><p><strong>Steg 2:</strong> Dela med \\(9\\): \\(a=4,4444\\).</p><p><strong>Svar:</strong> \\(a=4,4444\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Punkten betyder att \\(f(3)=40\\).</p><p>\\(40=a\\cdot3^2=9a\\).</p><p><strong>Steg 2:</strong> Dela båda led med 9: \\(a=\\frac{40}{9}\\).</p><p>Som decimal är detta \\(a\\approx4,44\\).</p><p><strong>Svar:</strong> \\(a=\\frac{40}{9}\\approx4,44\\).</p>",
     "familj": "Använda potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.444444444444445,
-    "tolerans": 0.000001,
+    "tolerans": 0.001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>"
+    "ledtrad": "<p>Punkten \\((3,40)\\) betyder att \\(f(3)=40\\). Sätt in \\(x=3\\) och \\(f(x)=40\\) i \\(f(x)=ax^2\\) och lös sedan efter \\(a\\).</p>"
   },
   {
     "id": "2.359",
@@ -32048,7 +32048,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "manuellKomplettering": true,
-    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>"
+    "ledtrad": "<p>Titta på de x-värden som förekommer mer än en gång. För att relationen ska vara en funktion måste samma x-värde alltid ge samma y-värde.</p>"
   },
   {
     "id": "2.285",
@@ -58265,7 +58265,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm digitalt skärningsvärdet \\(x\\) mellan \\(y=2,5x+5\\) och \\(y=23-1,x\\).</p>",
+    "t": "<p>Bestäm digitalt skärningsvärdet \\(x\\) mellan \\(y=2,5x+5\\) och \\(y=23-1,1x\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p><p>\\(2,5x+5=23-1,1x\\Rightarrow3,6x=18\\).</p><p><strong>Svar:</strong> <strong>\\(x=5\\)</strong></p>",
     "familj": "Lösa ekvationer med digitalt verktyg",
     "geogebra": true,
@@ -58345,7 +58345,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/1/0",
-    "t": "<p>Använd ett digitalt verktyg för att lösa uppgifterna.</p><p>a) Lös ekvationen \\(4{,}5x-7{,}2=23{,}4\\).<br>b) Bestäm skärningspunkten mellan \\(y=2{,}4x+1{,}5\\) och \\(y=9-1{,}x\\). Svara med två decimaler.<br>c) Förklara hur du kan kontrollera att svaret i a) är rimligt utan digitalt verktyg.</p>",
+    "t": "<p>Använd ett digitalt verktyg för att lösa uppgifterna.</p><p>a) Lös ekvationen \\(4{,}5x-7{,}2=23{,}4\\).<br>b) Bestäm skärningspunkten mellan \\(y=2{,}4x+1{,}5\\) och \\(y=9-1{,}1x\\). Svara med två decimaler.<br>c) Förklara hur du kan kontrollera att svaret i a) är rimligt utan digitalt verktyg.</p>",
     "s": "<p>a) \\(4{,}5x=30{,}6\\Rightarrow\\)<strong>\\(x=6{,}8\\)</strong></p><p>b) \\(2{,}4x+1{,}5=9-1{,}1x\\Rightarrow3{,}5x=7{,}5\\Rightarrow x\\approx2{,}14\\) och \\(y\\approx6{,}64\\). Skärningspunkten är <strong>\\((2{,}14;\\ 6{,}64)\\)</strong></p><p>c) Sätt in svaret i ekvationen: \\(4{,}5\\cdot6{,}8-7{,}2=30{,}6-7{,}2=23{,}4\\). <strong>Vänsterledet blir lika med högerledet, så svaret stämmer.</strong></p>",
     "familj": "Lösa ekvationer med digitalt verktyg",
     "geogebra": true,

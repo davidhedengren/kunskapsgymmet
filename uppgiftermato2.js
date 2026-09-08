@@ -13804,7 +13804,7 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För</p><p>\\[f(x)=\\ln(x^2+1)+0,x\\]</p><p>bestäm alla punkter där tangentens lutning är \\(0,8\\). Svara med tre decimaler.</p>",
+    "t": "<p>För</p><p>\\[f(x)=\\ln(x^2+1)+0,1x\\]</p><p>bestäm alla punkter där tangentens lutning är \\(0,8\\). Svara med tre decimaler.</p>",
     "s": "<p>\\[f'(x)=\\frac{2x}{x^2+1}+0,1.\\]</p><p>Vi löser \\(f'(x)=0,8\\). Det ger</p><p>\\[x\\approx0,408\\quad\\text{och}\\quad x\\approx2,449.\\]</p><p>Y-värdena är ungefär \\(0,195\\) och \\(2,190\\).</p><p>Punkterna är alltså</p><p>\\[\\boxed{(0,408;0,195)\\quad\\text{och}\\quad(2,449;2,190)}.\\]</p>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
@@ -15824,7 +15824,7 @@ window.BANKMATO2 = [
     "poang": "0/1/3",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För varje \\(a&gt;0\\) ges täthetsfunktionen</p><p>\\[f_a(x)=ax^{a-1},\\qquad0&lt;x&lt;1.\\]</p><p>För ett visst värde på \\(a\\) gäller \\(P(X&lt;1/2)=1/8\\).</p><p>a) Bestäm \\(a\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm därefter \\(P(X&gt;3/4)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm det förväntade värdet \\(E(X)\\) med hjälp av \\(E(X)=\\int_0^x f(x)dx\\).</p>",
+    "t": "<p>För varje \\(a&gt;0\\) ges täthetsfunktionen</p><p>\\[f_a(x)=ax^{a-1},\\qquad0&lt;x&lt;1.\\]</p><p>För ett visst värde på \\(a\\) gäller \\(P(X&lt;1/2)=1/8\\).</p><p>a) Bestäm \\(a\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm därefter \\(P(X&gt;3/4)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm det förväntade värdet \\(E(X)\\) med hjälp av \\(E(X)=\\int_0^1 x f_a(x)\\,dx\\).</p>",
     "s": "<p>För \\(0&lt;t&lt;1\\) får vi sannolikheten</p><p>\\[P(X&lt;t)=\\int_0^t ax^{a-1}dx=t^a.\\]</p><p>a) \\((1/2)^a=1/8=(1/2)^3\\Rightarrow\\boxed{a=3}\\).</p><p>b) \\(P(X&gt;3/4)=1-(3/4)^3=1-27/64=\\boxed{37/64}\\).</p><p>c) \\[E(X)=\\int_0^1x\\cdot3x^2dx=3\\int_0^1x^3dx=\\boxed{3/4}.\\]</p>",
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "formaga": [
@@ -15851,7 +15851,7 @@ window.BANKMATO2 = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Ställ därför upp integralen över hela definitionsintervallet, sätt den lika med 1 och lös ekvationen efter parametern.</p>"
+    "ledtrad": "<p>Integrera först \\(f_a(x)\\) från 0 till ett godtyckligt \\(t\\) för att få \\(P(X&lt;t)\\). Använd sedan villkoret vid \\(t=1/2\\). I b) kan du använda komplementhändelsen, och i c) använder du väntevärdesintegralen.</p>"
   },
   {
     "id": "3.33",
@@ -16962,7 +16962,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Sannolikheten för ett intervall är arean under täthetsfunktionen över just det intervallet. För en kvantil \\(q\\) ställer du i stället upp \\(\\int_{-\\infty}^{q} f(x)\\,dx=p\\) och löser efter \\(q\\).</p>"
+    "ledtrad": "<p>Börja med att bestämma \\(k\\) genom att kräva att hela arean under täthetsfunktionen på \\(0\\le x\\le2\\) är 1. När \\(k\\) är känt får du \\(P(X\\le1)\\) genom att integrera samma täthetsfunktion från 0 till 1.</p>"
   },
   {
     "id": "3.54",
@@ -18850,22 +18850,22 @@ window.BANKMATO2 = [
         "etikett": "a",
         "t": "<p>Funktionen \\(f(x)=kx\\) för \\(0\\le x\\le2\\) och \\(f(x)=0\\) annars ska vara en täthetsfunktion.</p><p><div class=\"spel-en-del\">Bestäm \\(k\\).<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
         "s": "<p><div class=\"spel-en-del\">\\(1=\\int_0^2kx dx=2k\\Rightarrow\\boxed{k=1/2}\\).</div></p><p></p>",
-        "ledtrad": "<p>Sannolikheten för ett intervall är arean under täthetsfunktionen över just det intervallet. För en kvantil \\(q\\) ställer du i stället upp \\(\\int_{-\\infty}^{q} f(x)\\,dx=p\\) och löser efter \\(q\\).</p>"
+        "ledtrad": "<p>Bestäm \\(k\\) genom att använda villkoret att hela arean under täthetsfunktionen på \\(0\\le x\\le2\\) ska vara 1.</p>"
       },
       {
         "etikett": "b",
-        "t": "<p>Funktionen \\(f(x)=kx\\) för \\(0\\le x\\le2\\) och \\(f(x)=0\\) annars ska vara en täthetsfunktion.</p><p><div class=\"spel-en-del\">Bestäm \\(P(X\\le1)\\).<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
+        "t": "<p>Funktionen \\(f(x)=x/2\\) för \\(0\\le x\\le2\\) och \\(f(x)=0\\) annars är en täthetsfunktion.</p><p><div class=\"spel-en-del\">Bestäm \\(P(X\\le1)\\).<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
         "s": "<p><div class=\"spel-en-del\">\\(\\int_0^1x/2\\,dx=[x^2/4]_0^1=\\boxed{1/4}\\).</div></p><p></p>",
-        "ledtrad": "<p>Sannolikheten för ett intervall är arean under täthetsfunktionen över just det intervallet. För en kvantil \\(q\\) ställer du i stället upp \\(\\int_{-\\infty}^{q} f(x)\\,dx=p\\) och löser efter \\(q\\).</p>"
+        "ledtrad": "<p>Här är \\(f(x)=x/2\\). Sannolikheten \\(P(X\\le1)\\) är arean under täthetsfunktionen från 0 till 1.</p>"
       },
       {
         "etikett": "c",
-        "t": "<p>Funktionen \\(f(x)=kx\\) för \\(0\\le x\\le2\\) och \\(f(x)=0\\) annars ska vara en täthetsfunktion.</p><p><div class=\"spel-en-del\">Bestäm \\(P(1\\le X\\le2)\\).</div></p>",
+        "t": "<p>Funktionen \\(f(x)=x/2\\) för \\(0\\le x\\le2\\) och \\(f(x)=0\\) annars är en täthetsfunktion.</p><p><div class=\"spel-en-del\">Bestäm \\(P(1\\le X\\le2)\\).</div></p>",
         "s": "<p><div class=\"spel-en-del\">\\(1-1/4=\\boxed{3/4}\\).</div></p>",
-        "ledtrad": "<p>Sannolikheten för ett intervall är arean under täthetsfunktionen över just det intervallet. För en kvantil \\(q\\) ställer du i stället upp \\(\\int_{-\\infty}^{q} f(x)\\,dx=p\\) och löser efter \\(q\\).</p>"
+        "ledtrad": "<p>Integrera \\(f(x)=x/2\\) från 1 till 2. Du kan också använda att total sannolikhet är 1 och ta komplementet till \\(P(X\\le1)\\).</p>"
       }
     ],
-    "ledtrad": "<p>Sannolikheten för ett intervall är arean under täthetsfunktionen över just det intervallet. För en kvantil \\(q\\) ställer du i stället upp \\(\\int_{-\\infty}^{q} f(x)\\,dx=p\\) och löser efter \\(q\\).</p>"
+    "ledtrad": "<p>Bestäm först \\(k\\) genom att kräva total area 1. Därefter beräknas sannolikheterna som areor under täthetsfunktionen över de efterfrågade intervallen.</p>"
   },
   {
     "id": "3.97",

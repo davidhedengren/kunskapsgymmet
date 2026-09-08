@@ -1240,6 +1240,39 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 
 .aacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
 .hint{margin-top:10px;font-size:12px;color:var(--ink3);line-height:1.5}
+/* Kurskortets läge. En kurs man lagt tjugo timmar på ska inte se ut
+   som en man aldrig öppnat. */
+.kursstatus{display:block;margin-top:auto}
+.kursbar{
+  display:block;height:4px;border-radius:99px;background:var(--hair);overflow:hidden;
+}
+.kursbar i{display:block;height:100%;border-radius:99px;transition:width .6s var(--ease)}
+.kurssiffror{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:8px;
+  font-size:12px;color:var(--ink3);font-family:var(--read);letter-spacing:0;
+}
+.kurssiffror .go{margin:0}
+/* Felen i passrapporten. Neutral ton — det här är material att lära
+   av, inte en tillrättavisning. */
+.felruta{
+  margin:26px auto 0;max-width:640px;text-align:left;padding:18px 20px;
+  border:1px solid var(--hair);border-radius:20px;background:var(--surface);
+}
+.felruta .sec{margin-bottom:6px}
+.felrad{border-top:1px solid var(--hair);padding:12px 0}
+.felrad:first-of-type{border-top:0}
+.felrubrik{display:flex;align-items:center;gap:11px;flex-wrap:wrap}
+.felnr{font-size:11.5px;font-weight:700;color:var(--ink3);white-space:nowrap}
+.feltext{
+  flex:1;min-width:140px;font-family:var(--read);font-size:13.5px;
+  line-height:1.45;letter-spacing:0;color:var(--ink2);
+}
+.fellosning{
+  margin-top:11px;padding:14px 16px;border-radius:14px;background:var(--surface2);
+  font-family:var(--read);font-size:14px;line-height:1.6;letter-spacing:0;color:var(--ink2);
+}
+.fellosning p{margin:0 0 9px}
+.fellosning p:last-child{margin-bottom:0}
 /* Ledtråden är varken rätt eller fel, så den håller sig utanför
    rött och grönt. Den ligger direkt ovanför knapparna, så att den
    syns utan att eleven behöver leta på mobilen. */
@@ -1791,7 +1824,7 @@ function slaIhopProfiler(a,b){
   const [bas,extra] = (a.attempts||0)>=(b.attempts||0) ? [a,b] : [b,a];
   const p={...extra,...bas};
   ["xp","attempts","correct","bestStreak","bestRun","aCorrect","pass","felfria",
-   "utanFacit","morgon","bestKapitel","bestKurs","bestNiva3"]
+   "utanFacit","morgon","bestKapitel","bestKurs","bestNiva3","reparerade"]
     .forEach(k=>{ p[k]=Math.max(a[k]||0,b[k]||0); });
 
   // Dagsstrecket följer den senaste träningsdagen.
@@ -1859,6 +1892,64 @@ async function synkaProfil(){
   await skickaMolnprofil();
 }
 const BANK_VERSION="2026-09-08";
+
+/* ==========================================================
+   ETT PÅGÅENDE PASS ÖVERLEVER EN OMLADDNING
+   Telefonen låser sig, fliken kastas, någon trycker ladda om — och
+   sju avklarade uppgifter är borta. Det som behövs för att ta upp
+   tråden är litet nog att få plats i localStorage: vilken uppgift
+   som låg framme, hur långt passet kommit och vad det var för pass.
+   ========================================================== */
+const PASS_KEY="kunskapsgymmet-pagaende-pass";
+const PASS_LIVSTID=12*3600*1000;     // äldre än så är passet inte längre aktuellt
+
+function sparaPagaendePass(){
+  if(!state.currentTask || !state.course) return;
+  // Ett pass utan avklarade uppgifter är inget att återuppta: att börja
+  // om från början ger exakt samma sak.
+  if(!state.sessionDone) return rensaPagaendePass();
+  try{
+    localStorage.setItem(PASS_KEY,JSON.stringify({
+      at:Date.now(), kurs:state.course, track:state.track,
+      uppgift:state.currentTask.id,
+      done:state.sessionDone, target:state.sessionTarget,
+      xp:state.sessionXp, ratt:state.sessionCorrect,
+      passTyp:state.passTyp, omr:state.focusOmr, namn:state.focusNamn,
+      area:state.focusArea, family:state.focusFamily,
+      felKo:state.felKo||null, lastIds:(state.lastIds||[]).slice(-12)
+    }));
+  }catch(_){}
+}
+function rensaPagaendePass(){
+  try{ localStorage.removeItem(PASS_KEY); }catch(_){}
+}
+function lasPagaendePass(){
+  try{
+    const d=JSON.parse(localStorage.getItem(PASS_KEY)||"null");
+    if(!d || !d.kurs || !d.uppgift) return null;
+    if(Date.now()-(d.at||0)>PASS_LIVSTID){ rensaPagaendePass(); return null; }
+    return d;
+  }catch(_){ return null; }
+}
+/* Körs när kursen är laddad, så att uppgiften går att slå upp i banken. */
+function aterupptaPass(d){
+  if(!d || d.kurs!==state.course) return false;
+  if(d.track && COURSES[state.course]?.tracks?.includes(d.track)) state.track=d.track;
+  const t=availableTasks().find(x=>x.id===d.uppgift);
+  if(!t){ rensaPagaendePass(); return false; }   // banken har ändrats
+  state.currentTask=t;
+  state.sessionDone=d.done||0; state.sessionTarget=d.target||8;
+  state.sessionXp=d.xp||0; state.sessionCorrect=d.ratt||0;
+  state.passTyp=d.passTyp||null;
+  state.focusOmr=d.omr||null; state.focusNamn=d.namn||null;
+  state.focusArea=d.area||null; state.focusFamily=d.family||null;
+  state.felKo=d.felKo||null;
+  state.lastIds=d.lastIds||[];
+  state.answered=false; state.solutionShown=false; state.noXp=false;
+  state.partResults=[]; state.partIndex=0;
+  state.hintUsed=false; state.hintVisible=false;
+  return true;
+}
 const app=document.getElementById("app");
 
 const state={
@@ -2180,6 +2271,7 @@ function loadProfileFrom(p){
   p.run||=0; p.bestRun||=0; p.aCorrect||=0; p.today||=0; p.goal||=8;
   p.pass||=0; p.felfria||=0; p.utanFacit||=0; p.morgon||=0;
   p.bestKapitel||=0; p.bestKurs||=0; p.bestNiva3||=0;
+  p.reparerade||=0;   // uppgifter som gått från fel till rätt
   p.bastaPass ??= null;   // {pct, ratt, total, at}
   p.lastDay ??= null;
   // Topplistan. Namnet väljs av eleven och är inte Google-namnet.
@@ -2329,6 +2421,10 @@ const MEDALJBANOR={
   toppform:  '<path d="M2.6 19.5l6.5-10.7 3.9 6 2.1-3.2 6.3 7.9z"/><path d="M9.1 8.8l2 3.2H7.1z"/>',
   kapitel:   '<path d="M12 7.4v12.4"/><path d="M12 7.4C10.4 6 8.4 5.3 5.8 5.3H3.5v11.9h2.3c2.6 0 4.6.7 6.2 2.6"/><path d="M12 7.4c1.6-1.4 3.6-2.1 6.2-2.1h2.3v11.9h-2.3c-2.6 0-4.6.7-6.2 2.6"/>',
   provklar:  '<circle cx="12" cy="9.2" r="5.9"/><path d="M8.4 14.4L7 21.6l5-2.7 5 2.7-1.4-7.2"/>',
+  /* laga fel */
+  lagat:     '<path d="M20 12a8 8 0 1 1-2.3-5.6"/><path d="M20 3.8v4.8h-4.8"/><path d="M8.6 12.3l2.4 2.4 4.4-4.7"/>',
+  envis:     '<path d="M4 12a8 8 0 0 1 13.6-5.7"/><path d="M20 12a8 8 0 0 1-13.6 5.7"/><path d="M17.8 2.4v4.4h-4.4"/><path d="M6.2 21.6v-4.4h4.4"/>',
+  skuldfri:  '<path d="M3.4 20h17.2"/><path d="M4.4 15.6l4.6-4.7 3.5 3.5 6.3-6.8"/><path d="M14.6 7.6h4.2v4.2"/>',
   /* hyllningar utanför medaljlistan */
   nivaupp:   '<path d="M12 19.5V5"/><path d="M6.5 10.5L12 5l5.5 5.5"/><path d="M6.5 3.5h11"/>',
   dagsmal:   '<path d="M5.6 21V3.6"/><path d="M5.6 4.2h11.6l-2.4 4 2.4 4H5.6"/>',
@@ -2364,6 +2460,10 @@ const BADGES=[
   {id:"bredd20",icon:"kartan",name:"Kartläggaren",    desc:"Träna i 20 olika områden",     max:20,  cur:()=>touchedAreas()},
   {id:"tvakurser",icon:"bredaxlad",name:"Bredaxlad",     desc:"Träna i två olika kurser",     max:2,   cur:()=>Object.keys(profile.courses||{}).length},
   {id:"xp1000",icon:"tusen", name:"Tusen",           desc:"Samla 1000 XP",                max:1000,cur:()=>profile.xp},
+  // Laga fel
+  {id:"lagat5", icon:"lagat", name:"Andra chansen", desc:"Klara 5 uppgifter du haft fel på",  max:5,  cur:()=>profile.reparerade},
+  {id:"lagat10",icon:"envis", name:"Envis",         desc:"Klara 10 uppgifter du haft fel på", max:10, cur:()=>profile.reparerade},
+  {id:"lagat20",icon:"skuldfri", name:"Skuldfri",   desc:"Klara 20 uppgifter du haft fel på", max:20, cur:()=>profile.reparerade},
   // Djup
   {id:"omr",   icon:"stjarna", name:"Områdesmästare",  desc:"Nå 85 % i ett område",         max:85,  cur:()=>Math.round(bestAreaMastery()*100)},
   {id:"topp",  icon:"hojd", name:"Höjdhoppare",     desc:"25 rätt på nivå 3",            max:25,  cur:()=>profile.aCorrect},
@@ -2986,6 +3086,25 @@ function renderGate(){
    START
    ========================================================== */
 
+/* Kursens läge, räknat enbart ur profilen — banken är inte laddad på
+   startsidan, så antalet områden i kursen är okänt här. Det som går
+   att säga är hur mycket eleven tränat och hur väl det sitter. */
+function kursLage(id){
+  const cp=(profile.courses||{})[id];
+  if(!cp) return null;
+  const varden=Object.values(cp.areas||{}).filter(x=>typeof x==="number");
+  if(!varden.length) return null;
+  let uppgifter=0;
+  Object.values(cp.levels||{}).forEach(a=>{
+    ["E","C","A"].forEach(L=>{ uppgifter+=(a?.[L]?.n)||0; });
+  });
+  return {
+    omraden:varden.length,
+    snitt:varden.reduce((a,b)=>a+b,0)/varden.length,
+    uppgifter
+  };
+}
+
 function renderHome(){
   document.title="Kunskapsgymmet";
   state.view="home";
@@ -3005,7 +3124,17 @@ function renderHome(){
             <h3>${esc(c.name)}</h3>
             <span class="sub">${esc(c.subject)}</span>
           </span>
-          <span class="go">Öppna <span aria-hidden="true">→</span></span>
+          ${(()=>{
+            const l=kursLage(id);
+            if(!l) return `<span class="go">Öppna <span aria-hidden="true">→</span></span>`;
+            return `<span class="kursstatus">
+              <span class="kursbar"><i style="width:${Math.round(l.snitt*100)}%;background:${c.tint}"></i></span>
+              <span class="kurssiffror">
+                <span>${l.omraden} område${l.omraden===1?"":"n"} · ${Math.round(l.snitt*100)} %</span>
+                <span class="go">Fortsätt <span aria-hidden="true">→</span></span>
+              </span>
+            </span>`;
+          })()}
         </button>`;
       }).join("")}
     </section>
@@ -3402,7 +3531,8 @@ const PASS_IKON={
   teknik:     '<circle cx="12" cy="12" r="8.4"/><circle cx="12" cy="12" r="3.6"/><circle cx="12" cy="12" r=".6"/>',
   mangd:      '<path d="M6.8 9.5v5"/><path d="M17.2 9.5v5"/><path d="M3.6 10.8v2.4"/><path d="M20.4 10.8v2.4"/><path d="M6.8 12h10.4"/>',
   tungt:      '<path d="M6.8 6.4v11.2"/><path d="M17.2 6.4v11.2"/><path d="M3.2 9.2v5.6"/><path d="M20.8 9.2v5.6"/><path d="M6.8 12h10.4"/>',
-  repetition: '<path d="M20.2 12a8.2 8.2 0 1 1-2.4-5.8"/><path d="M20.2 3.8v4.8h-4.8"/>'
+  repetition: '<path d="M20.2 12a8.2 8.2 0 1 1-2.4-5.8"/><path d="M20.2 3.8v4.8h-4.8"/>',
+  fel:        '<path d="M12 3.6l8.7 15.1H3.3z"/><path d="M12 9.6v4.2"/><path d="M12 16.6h.01"/>'
 };
 function passIkon(id){
   const d=PASS_IKON[id]||PASS_IKON.grund;
@@ -3512,6 +3642,25 @@ function starkaInom(keys,n){
   return keys.map(k=>({k,m:mastery(cp.areas,k),sedd:typeof cp.areas[k]==="number"}))
     .filter(x=>x.sedd && x.m>=.62).sort((a,b)=>b.m-a.m).slice(0,n).map(x=>x.k);
 }
+/* Uppgifter eleven svarat fel på och inte klarat sedan dess. Att gå
+   tillbaka till sina egna misstag är den bäst belagda inlärnings-
+   effekten som finns, och historiken bär redan svaret. */
+function felUppgifter(gräns=10){
+  const cp=ensureCourseProfile();
+  const fokus=new Set(fokusNycklar());
+  const senaste=new Map();
+  // Historiken läses framlänges, så den sista posten per uppgift vinner.
+  (cp.history||[]).forEach(h=>{ if(h && h.id) senaste.set(h.id,h); });
+  const kvar=[...senaste.values()]
+    .filter(h=>!h.ok && (!h.area || fokus.has(h.area)))
+    .sort((a,b)=>b.at-a.at)
+    .map(h=>h.id);
+  if(!kvar.length) return [];
+  // Bara uppgifter som fortfarande finns i banken och i valt spår.
+  const finns=new Set(availableTasks().map(t=>t.id));
+  return kvar.filter(id=>finns.has(id)).slice(0,gräns);
+}
+
 function senastTranad(area){
   const h=ensureCourseProfile().history||[];
   for(let i=h.length-1;i>=0;i--) if(h[i].area===area) return h[i].at;
@@ -3557,9 +3706,15 @@ const PASS={
     namn:"Repetitionspass", under:"Sådant du inte tränat på ett tag", niva:"Nivå 1–3",
     vikt:{E:1,C:1.1,A:.7}, antal:8,
     omraden:keys=>repetitionInom(keys)
+  },
+  // Felpasset väljer inte område och nivå — det serverar en bestämd
+  // kö av uppgifter, i den ordning de gick fel.
+  fel:{
+    namn:"Repetera dina fel", under:"Uppgifter du hade fel på", niva:"Dina egna fel",
+    vikt:{E:1,C:1,A:1}, antal:10, ko:true
   }
 };
-const PASS_ORDNING=["grund","teknik","mangd","tungt","repetition"];
+const PASS_ORDNING=["grund","teknik","mangd","tungt","repetition","fel"];
 
 /* Områdena ett visst pass skulle träna. Ger passtypens smalare urval
    om det finns något att välja på, annars hela fokus. */
@@ -3591,6 +3746,7 @@ function valjPassTyp(){
   const fokus=fokusNycklar();
   const kandidater=[];
   const cp=ensureCourseProfile();
+  if(felUppgifter(10).length>=4) kandidater.push("fel");
   const svag=svagaInom(fokus,1)[0];
   if(svag && mastery(cp.areas,svag)<.62) kandidater.push("teknik");
   if(repetitionInom(fokus).length) kandidater.push("repetition");
@@ -3661,6 +3817,10 @@ function passMeddelande(typ){
       return lista
         ? `Idag kör vi tyngre. Nivå 2 och 3 i ${lista}. Bara ${antal} uppgifter, så ta den tid du behöver.`
         : `Idag kör vi tyngre. Bara ${antal} uppgifter, men på en nivå över den du är van vid.`;
+    case "fel":{
+      const n=felUppgifter(10).length;
+      return `Du har <b>${n} uppgift${n===1?"":"er"}</b> som blev fel och som du inte klarat sedan dess. Vi tar dem igen — det är där du har mest att hämta.`;
+    }
     case "repetition":{
       const gamla=repetitionInom(fokusNycklar());
       return gamla.length
@@ -3697,6 +3857,10 @@ function passNivaSpann(typ){
 }
 function passChips(typ){
   const p=PASS[typ]||PASS.grund;
+  if(p.ko){
+    const n=felUppgifter(p.antal).length;
+    return [`${n} uppgift${n===1?"":"er"}`,"Dina egna fel","Blandade områden"];
+  }
   const antal=p.antal||profile.goal||8;
   const namn=passOmradesNamn(typ);
   const chips=[`${antal} uppgifter`,passNivaSpann(typ)];
@@ -3760,7 +3924,7 @@ function ptKort(){
   const aktiva=aktivaKapitel(), t=traningsOmraden();
   const val=state.visaPassval?`
     <div class="pt-val">
-      ${PASS_ORDNING.map(id=>`
+      ${PASS_ORDNING.filter(id=>!PASS[id].ko || felUppgifter(PASS[id].antal).length).map(id=>`
         <button class="pt-alt${id===typ?" pa":""}" onclick="valjPass('${id}')">
           ${passIkon(id)}
           <span><b>${PASS[id].namn}</b><small>${PASS[id].under}</small></span>
@@ -4161,6 +4325,13 @@ function chooseArea(pool){
 }
 
 function chooseTask(){
+  // Felpasset har en färdig kö. Uppgifter som hunnit försvinna ur
+  // banken hoppas över i stället för att stoppa passet.
+  while(state.felKo && state.felKo.length){
+    const id=state.felKo.shift();
+    const t=availableTasks().find(x=>x.id===id);
+    if(t) return t;
+  }
   let pool=availableTasks();
   if(state.focusOmr) pool=pool.filter(t=>state.focusOmr.includes(t.omr||"ovrigt"));
   else if(state.focusArea) pool=pool.filter(t=>t.omr===state.focusArea);
@@ -4213,6 +4384,8 @@ function chooseTask(){
 function beginSession(typ){
   state.passTyp=PASS[typ]?typ:null;
   state.ptOppen=false;
+  state.felKo=null;state.sessionFel=[];
+  rensaPagaendePass();
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
   // Passtypen bestämmer längden. Punktträning och andra pass utan
   // typ landar på dagsmålet som förut.
@@ -4222,6 +4395,18 @@ function beginSession(typ){
    kommer upp och hur nivåblandningen förskjuts. */
 function startPass(typ){
   state.focusArea=null;state.focusNamn=null;state.focusFamily=null;
+  state.felKo=null;
+  if(PASS[typ]?.ko){
+    const ko=felUppgifter(PASS[typ].antal);
+    if(!ko.length){ toast("Du har inga fel att repetera just nu."); return; }
+    state.focusOmr=null;
+    state.visaPassval=false;state.visaFokus=false;
+    beginSession(typ);
+    state.felKo=ko;
+    state.sessionTarget=ko.length;
+    navRecord("training");nextTask();
+    return;
+  }
   const omr=passOmraden(typ);
   state.focusOmr=(omr && omr.length)?omr:null;
   state.visaPassval=false;state.visaFokus=false;
@@ -4372,6 +4557,7 @@ function nextTask(){
   state.hintUsed=false;state.hintVisible=false;
   state.lastIds.push(t.id);
   if(state.lastIds.length>12) state.lastIds.shift();
+  sparaPagaendePass();
   renderTraining();
 }
 /* Första gången en högre svårighetsgrad dyker upp i kursen firas det. */
@@ -5857,6 +6043,8 @@ function finishAttempt(resultat){
   const andel=ratt/delar.length;
   const correct=ratt===delar.length;
   state.answered=true; state.sessionDone++;
+  if(!correct){ (state.sessionFel ||= []).push(t); }
+  sparaPagaendePass();
 
   const xpBefore=profile.xp;
   const levelBefore=levelFromXP(profile.xp);
@@ -5895,6 +6083,14 @@ function finishAttempt(resultat){
     updateLevelStat(t.omr,niva,v);
     fs.forEach(f=>updateMastery(cp.families,f,v));
   });
+  // Ett lagat fel: uppgiften gick fel senast och sitter nu. Räknas
+  // oavsett om den kom via ett felpass eller dök upp av sig själv —
+  // det är att gå tillbaka till sitt misstag som är bedriften.
+  if(correct && !state.noXp){
+    let forra=null;
+    for(let i=cp.history.length-1;i>=0;i--) if(cp.history[i].id===t.id){ forra=cp.history[i]; break; }
+    if(forra && !forra.ok) profile.reparerade=(profile.reparerade||0)+1;
+  }
   cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj,
     hint:!!state.hintUsed,
     ...(t.ursprungsId?{ursprungsId:t.ursprungsId,deluppgift:t.deluppgift}:{})});
@@ -6017,6 +6213,9 @@ function passRapport(acc){
   if(typ==="teknik")
     return acc>=70 ? "Det börjar sitta. Vi tar samma område igen om några dagar."
                    : "Det här området behöver mer tid. Vi kör det igen.";
+  if(typ==="fel")
+    return acc>=70 ? "Det satt den här gången. Det är precis så man lär sig av ett fel."
+                   : "Några sitter fortfarande inte. De ligger kvar och kommer tillbaka i nästa felpass.";
   if(typ==="repetition")
     return acc>=70 ? "Det satt kvar. Bra."
                    : "Bra att vi tog det nu och inte veckan före provet.";
@@ -6026,6 +6225,46 @@ function passRapport(acc){
   return acc>=80 ? "Starkt genomfört. Den nivån bär till provet."
        : acc>=50 ? "Bra jobbat. Blandningen av rätt och fel är där du lär dig mest."
                  : "Tuffa uppgifter idag. Nästa pass blir bättre anpassat.";
+}
+
+/* De uppgifter som gick fel, med lösningen ett klick bort. Direkt
+   efter passet är eleven som mest mottaglig för att titta en gång
+   till på just det som inte stämde. */
+function felLista(){
+  const fel=state.sessionFel||[];
+  if(!fel.length) return "";
+  return `
+    <div class="felruta">
+      <div class="sec"><h2>Det här blev fel</h2></div>
+      ${fel.map((t,i)=>`
+        <div class="felrad">
+          <div class="felrubrik">
+            <span class="felnr">${esc(t.ursprungsId||t.id)}${t.deluppgift?" · "+esc(t.deluppgift):""}</span>
+            <span class="feltext">${esc(kortText(t))}</span>
+            <button class="btn sm" onclick="vaxlaFelLosning(${i},this)">Visa lösning</button>
+          </div>
+          <div class="fellosning" id="fellosning-${i}" hidden></div>
+        </div>`).join("")}
+    </div>`;
+}
+/* Ren text ur uppgiftens HTML, kortad så att raden håller sig på en rad. */
+function kortText(t){
+  const d=document.createElement("div");
+  d.innerHTML=String(t.t||"");
+  const txt=(d.textContent||"").replace(/\s+/g," ").trim();
+  return txt.length>70 ? txt.slice(0,70).replace(/\s\S*$/,"")+"…" : txt;
+}
+function vaxlaFelLosning(i,btn){
+  const t=(state.sessionFel||[])[i];
+  const box=document.getElementById("fellosning-"+i);
+  if(!t||!box) return;
+  if(!box.hidden){ box.hidden=true; btn.textContent="Visa lösning"; return; }
+  if(!box.dataset.fylld){
+    box.innerHTML=t.s || "<p>Den här uppgiften saknar lösning i banken.</p>";
+    box.dataset.fylld="1";
+    renderMath(box);
+  }
+  box.hidden=false; btn.textContent="Dölj";
 }
 
 function renderSessionDone(record){
@@ -6052,6 +6291,7 @@ function renderSessionDone(record){
     if(state.rekord) cheer(medaljIkon("provklar"),"Nytt rekord",pct+" % på ett pass",
       `Ditt bästa hittills var ${gammalt.pct} %.`);
   }
+  rensaPagaendePass();
   state.view="summary";
   const total=state.sessionDone||1;
   const acc=Math.round(state.sessionCorrect/total*100);
@@ -6072,6 +6312,8 @@ function renderSessionDone(record){
       <div class="card tile" style="background:var(--surface)"><span>Intjänat</span><strong>+${state.sessionXp} XP</strong></div>
       <div class="card tile" style="background:var(--surface)"><span>Idag</span><strong>${done} / ${goal}</strong></div>
     </div>
+
+    ${felLista()}
 
     ${(()=>{
       const b=profile.bastaPass;
@@ -6424,7 +6666,15 @@ window.addEventListener("load",async()=>{
   // lösenordsrutan som ska mötas, inte hela appen.
   if(inloggningsTyp==="recovery"){ gateLage="nytt"; renderGate(); navRecord("home",true); return; }
   if(visaGate()){ renderGate(); navRecord("home",true); return; }
-  await startaAppen();
+  // Ett avbrutet pass går före kurslistan: eleven var mitt i något.
+  const avbrutet=lasPagaendePass();
+  if(avbrutet && !onskadKurs && COURSES[avbrutet.kurs]){
+    renderHome(); navRecord("home",true);
+    await selectCourse(avbrutet.kurs);
+    if(aterupptaPass(avbrutet)) renderDashboard();
+  }else{
+    await startaAppen();
+  }
 
   if(MOLN_PA() && session){
     await hamtaAnvandare();

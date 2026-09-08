@@ -3461,38 +3461,39 @@ function namnLista(namn,max=2){
 function passMeddelande(typ){
   const st=currentStreak(), done=todayCount(), goal=profile.goal||8;
   const t=traningsOmraden();
+  const antal=(PASS[typ]||PASS.grund).antal||8;
   const lista=namnLista(passOmradesNamn(typ));
   const nytt=t.nytt?`<b>${esc(areaName(t.nytt))}</b>`:"";
 
   if(!profile.attempts)
-    return `Vi börjar i ${nytt||"första området"}. Ett kort pass så lär jag känna din nivå — sedan blir passen träffsäkra, och nya områden släpps in efter hand.`;
+    return `Vi börjar i ${nytt||"första området"}. Ett kort pass så ser jag var du ligger.`;
   if(done>=goal)
-    return `Dagens mål är avklarat — <b>${done} uppgifter</b>${st>1?` och ${st} dagar i rad`:""}. Vill du köra ett pass till lägger jag nivån lite högre.`;
+    return `Dagens mål är klart. <b>${done} uppgifter</b>${st>1?` och ${st} dagar i rad`:""}. Kör du ett till lägger jag nivån lite högre.`;
 
   const nyttTillagg = (t.nytt && typ!=="repetition")
-    ? ` Idag släpper jag också in ${nytt} — du är redo för det.` : "";
+    ? ` Jag släpper också in ${nytt} idag.` : "";
 
   switch(typ){
     case "teknik":
-      return (lista
-        ? `Idag går vi på tekniken. ${lista} är det som skaver mest just nu, och det är där du växer snabbast. Vi håller nere svårighetsgraden och gör dem många gånger.`
-        : "Idag går vi på tekniken: färre områden, lägre nivå, fler repetitioner.");
+      return lista
+        ? `Idag tränar vi det som är svårast just nu: ${lista}. Lägre nivå, fler uppgifter.`
+        : `Idag tränar vi det som är svårast just nu. Lägre nivå, fler uppgifter.`;
     case "mangd":
-      return `Idag kör vi mängd. Fler uppgifter än vanligt på en nivå du redan klarar — det är så det går från att fungera till att sitta i fingrarna.${nyttTillagg}`;
+      return `Idag kör vi mängd. ${antal} uppgifter på en nivå du klarar, så att det får sitta.${nyttTillagg}`;
     case "tungt":
       return lista
-        ? `Du har varit stabil på sistone, så idag lyfter vi tyngre. Uppgifter på nivå 2 och 3 i ${lista}. Färre uppgifter, längre tid på varje — räkna med att det tar emot.`
-        : `Du har varit stabil på sistone, så idag lyfter vi tyngre. Färre uppgifter men på en nivå över den du är van vid.`;
+        ? `Idag kör vi tyngre. Nivå 2 och 3 i ${lista}. Bara ${antal} uppgifter, så ta den tid du behöver.`
+        : `Idag kör vi tyngre. Bara ${antal} uppgifter, men på en nivå över den du är van vid.`;
     case "repetition":{
       const gamla=repetitionInom(fokusNycklar());
       return gamla.length
-        ? `${namnLista(gamla.map(k=>areaName(k)))} har fått ligga ett tag. Vi tar en runda där innan det hinner rinna ut — repetition med mellanrum är det som gör att kunskapen finns kvar till provet.`
-        : `Inget har hunnit bli gammalt än, så vi tar en bred runda över det du jobbar med i stället.`;
+        ? `${namnLista(gamla.map(k=>areaName(k)))} har du inte tränat på ett tag. Vi tar en runda där så det sitter kvar.`
+        : `Inget har hunnit bli gammalt än. Vi tar en bred runda över det du jobbar med i stället.`;
     }
     default:
       return (st>1
-        ? `${st} dagar i rad. Idag blandar jag inom det du jobbar med och låter nivån ställa in sig efter hur det går.`
-        : `Idag blandar vi inom det du jobbar med just nu. Nivån ställer in sig efter hur det går för dig.`)+nyttTillagg;
+        ? `${st} dagar i rad. Idag blandar jag inom det du jobbar med och ställer nivån efter hur det går.`
+        : `Idag blandar vi inom det du jobbar med. Nivån ställs efter hur det går för dig.`)+nyttTillagg;
   }
 }
 /* Nivåtexten räknas fram ur den blandning passet faktiskt kommer att
@@ -5806,21 +5807,21 @@ function selfGrade(ok){ if(!state.answered) finishAttempt(ok); }
 function passRapport(acc){
   const typ=state.passTyp;
   if(typ==="tungt")
-    return acc>=70 ? "Starkt. Du bar de tunga uppgifterna hela vägen — nivån följer med upp."
-         : acc>=40 ? "Precis den motståndsnivån vi var ute efter. Tunga pass ska kännas i huvudet, och det är där nivån flyttas."
-                   : "Det tog emot, och det var meningen. Nästa pass blir lättare — sedan går vi upp igen.";
+    return acc>=70 ? "Bra jobbat. Du klarade de tunga uppgifterna, så nivån följer med upp."
+         : acc>=40 ? "Så ska ett tungt pass kännas. Det är där nivån flyttas."
+                   : "Det var tungt idag. Nästa pass blir lättare.";
   if(typ==="teknik")
-    return acc>=70 ? "Tekniken börjar sitta. Vi tar samma område igen om några dagar och ser om det håller."
-                   : "Precis det här området behövde tiden. Vi nöter det igen innan vi går vidare.";
+    return acc>=70 ? "Det börjar sitta. Vi tar samma område igen om några dagar."
+                   : "Det här området behöver mer tid. Vi kör det igen.";
   if(typ==="repetition")
-    return acc>=70 ? "Det satt kvar. Det är själva beviset på att repetitionen fungerar."
-                   : "Bra att vi tog det nu — det hade hunnit rinna ut till provet.";
+    return acc>=70 ? "Det satt kvar. Bra."
+                   : "Bra att vi tog det nu och inte veckan före provet.";
   if(typ==="mangd")
-    return acc>=70 ? "Bra flyt genom hela passet. Det är den sortens rutin som frigör huvudet till de svåra uppgifterna."
-                   : "Många uppgifter avklarade. Vi håller nivån ett tag till så att rutinen får sätta sig.";
-  return acc>=80 ? "Starkt genomfört. Den nivån bär hela vägen till provet."
-       : acc>=50 ? "Bra jobbat. Just den här blandningen av rätt och fel är där inlärningen sitter."
-                 : "Tuffa uppgifter idag — och det är precis så framsteg känns. Nästa pass blir bättre anpassat.";
+    return acc>=70 ? "Bra flyt hela vägen."
+                   : "Många uppgifter avklarade. Vi håller nivån ett tag till.";
+  return acc>=80 ? "Starkt genomfört. Den nivån bär till provet."
+       : acc>=50 ? "Bra jobbat. Blandningen av rätt och fel är där du lär dig mest."
+                 : "Tuffa uppgifter idag. Nästa pass blir bättre anpassat.";
 }
 
 function renderSessionDone(record){

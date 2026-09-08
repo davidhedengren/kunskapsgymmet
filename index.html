@@ -159,11 +159,13 @@
   --spar-a:#C2453B;--spar-a2:#9C3730;
   --spar-b:#17835A;--spar-b2:#116546;
   --spar-c:#1A66C2;--spar-c2:#14509A;
+  --spar-gul:#CE9412;--spar-gul2:#A8760A;
 }
 html[data-theme="dark"]{
   --spar-a:#D2564B;--spar-a2:#A63F37;
   --spar-b:#1C9B6B;--spar-b2:#147753;
   --spar-c:#2D79D6;--spar-c2:#215CA8;
+  --spar-gul:#DCA426;--spar-gul2:#B4820F;
 }
 html[data-theme="light"][data-accent="a"]{  /* 1a och 2a */
   --bg:#F2ECF0;
@@ -657,6 +659,14 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
   background:linear-gradient(160deg,var(--sf),var(--sf2));
   box-shadow:0 8px 18px -9px var(--sf),inset 0 1px 0 rgba(255,255,255,.32);
   transition:transform .22s var(--ease),box-shadow .22s var(--ease);
+}
+/* Ett spår som ges ur två böcker delas diagonalt. Halvorna är släta
+   i stället för tonade — på 48 px syns ingen tonning ändå, och två
+   tonningar mot varandra ger bara en smutsig skarv. Skuggan under
+   texten behövs för att vitt ska hålla mot den ljusa halvan. */
+.sparkod.delad{
+  background:linear-gradient(135deg,var(--sf) 0 49.4%,var(--sfB) 50.6% 100%);
+  text-shadow:0 1px 2px rgba(0,0,0,.4);
 }
 .sparkod:hover{transform:translateY(-2px);box-shadow:0 12px 22px -10px var(--sf),inset 0 1px 0 rgba(255,255,255,.32)}
 .sparkod:active{transform:translateY(0) scale(.96)}
@@ -1644,6 +1654,13 @@ const COURSES = {
 };
 
 const COURSE_ORDER=["ma1","ma2","mato1","mato2","matf1","fy1","fy2"];
+
+/* Spår som ges ur två olika böcker beroende på program. Rutan på
+   startsidan delas diagonalt mellan bokens två färger, så att båda
+   grupperna känner igen sin bok. Nyckeln är kurs och spår, värdet är
+   den andra bokens färg. Accenten inne i kursen följer spårets
+   bokstav som vanligt. */
+const DELAT_SPAR={ "ma1|1a":"gul" };
 
 /* ==========================================================
    SUPABASE
@@ -3166,7 +3183,9 @@ function renderHome(){
             style="--tint:${c.tint}22;--tintStrong:${c.tint}">
           ${flera?`<div class="sparkoder">${c.tracks.map(t=>{
             const bok=String(t).slice(-1).toLowerCase();
-            return `<button class="sparkod" style="--sf:var(--spar-${bok});--sf2:var(--spar-${bok}2)"
+            const andra=DELAT_SPAR[id+"|"+t];
+            return `<button class="sparkod${andra?" delad":""}"
+              style="--sf:var(--spar-${bok});--sf2:var(--spar-${bok}2)${andra?`;--sfB:var(--spar-${andra})`:""}"
               onclick="oppnaSpar('${id}','${t}')"
               title="Öppna ${esc(c.name)}, spår ${esc(t)}">${esc(t)}</button>`;
           }).join("")}</div>`:""}

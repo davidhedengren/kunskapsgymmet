@@ -8843,7 +8843,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 47,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8869,7 +8869,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 83,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8895,7 +8895,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6.7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8921,7 +8921,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8947,7 +8947,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.49,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8973,7 +8973,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.075,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8999,7 +8999,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3700,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9025,7 +9025,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9051,7 +9051,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9077,7 +9077,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9103,7 +9103,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9129,7 +9129,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 240,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9155,7 +9155,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7400,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9181,7 +9181,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.68,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9207,7 +9207,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 99000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9233,7 +9233,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.445,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9259,7 +9259,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1250,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9285,7 +9285,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 57,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9311,7 +9311,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9337,7 +9337,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9363,7 +9363,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9389,7 +9389,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9415,7 +9415,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9441,7 +9441,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9467,7 +9467,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9493,7 +9493,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9519,7 +9519,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9545,7 +9545,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 400,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9571,7 +9571,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9597,7 +9597,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9623,7 +9623,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9649,7 +9649,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9675,7 +9675,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9701,7 +9701,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9727,7 +9727,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 70000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9753,7 +9753,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9779,7 +9779,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 340,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9806,7 +9806,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9833,7 +9833,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2750,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9860,7 +9860,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6.4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9887,7 +9887,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9914,7 +9914,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.75,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9941,7 +9941,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9968,7 +9968,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9995,7 +9995,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 144,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10022,7 +10022,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10049,7 +10049,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 650,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10076,7 +10076,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.48,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10103,7 +10103,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 32,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10130,7 +10130,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10157,7 +10157,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1800,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10184,7 +10184,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.75,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10211,7 +10211,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10238,7 +10238,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10265,7 +10265,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10292,7 +10292,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 60,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10630,7 +10630,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.000084,
+    "rättSvar": 8.4e-05,
     "tolerans": 1e-12,
     "självrättning": true,
     "formaga": [
@@ -10657,7 +10657,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3200,
-    "tolerans": 0.0000032000000000000003,
+    "tolerans": 3.2000000000000003e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10711,7 +10711,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 75,
-    "tolerans": 7.500000000000001e-8,
+    "tolerans": 7.500000000000001e-08,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10764,7 +10764,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0000085,
+    "rättSvar": 8.5e-06,
     "tolerans": 1e-12,
     "självrättning": true,
     "formaga": [
@@ -10792,7 +10792,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 360,
-    "tolerans": 3.6000000000000005e-7,
+    "tolerans": 3.6000000000000005e-07,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10846,7 +10846,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7.5,
-    "tolerans": 7.500000000000001e-9,
+    "tolerans": 7.500000000000001e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10873,7 +10873,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 4.500000000000001e-9,
+    "tolerans": 4.500000000000001e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10900,7 +10900,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2800,
-    "tolerans": 0.0000028000000000000003,
+    "tolerans": 2.8000000000000003e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10927,7 +10927,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1.5000000000000002e-8,
+    "tolerans": 1.5000000000000002e-08,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -11187,7 +11187,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0000725,
+    "rättSvar": 7.25e-05,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -11739,8 +11739,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>I en tabell gäller \\(x=3\\), \\(xy=-12\\). Bestäm \\(xy^2\\).</p>",
     "s": "<p><strong>Steg 1:</strong> \\[3y=-12\\Rightarrow y=-4\\]</p><p>Därefter</p><p>\\[xy^2=3\\cdot(-4)^2=3\\cdot16=48\\]</p><p><strong>Svar: 48.</strong></p>",
     "familj": "Beräkna och jämföra algebraiska uttryck",
@@ -13789,8 +13789,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "C",
+    "poang": "0/1/0",
     "t": "<p>Bestäm \\(a\\) så att olikheten \\(3x-a&lt;8\\) får lösningsmängden \\(x&lt;5\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p>\\(3x-a&lt;8\\Rightarrow x&lt;(8+a)/3\\). För gränsen 5 krävs \\((8+a)/3=5\\Rightarrow\\)<strong>\\(a=7\\)</strong>.</p>",
     "familj": "Linjära olikheter",
@@ -15342,8 +15342,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "1/2/2",
+    "niva": "C",
+    "poang": "1/4/0",
     "t": "<p>Tidsskillnaden i minuter för samma sträcka \\(s\\) km med hastigheterna \\(h_1\\) och \\(h_2\\) ges av</p><p>\\[t=60s\\left(\\frac1{h_1}-\\frac1{h_2}\\right).\\]</p><p>a) Beräkna tidsskillnaden för \\(s=24\\), \\(h_1=72\\), \\(h_2=90\\).<br>b) För samma sträcka är den ena hastigheten dubbelt så stor som den andra och tidsskillnaden är 10 min. Bestäm hastigheterna.</p>",
     "s": "<p>a) \\(t=60\\cdot24(\\frac{1}{72}-\\frac{1}{90})=\\)<strong>4 min</strong>.</p><p>b) Låt den lägre vara \\(v\\), den högre \\(2v\\). \\(10=60\\cdot24(1/v-1/(2v))=720/v\\Rightarrow v=72\\).</p><p><strong>Svar:</strong> <strong>72 km/h och 144 km/h.</strong></p>",
     "familj": "Tolka, sätta in och använda formler",
@@ -16383,8 +16383,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>\\(x\\ge3\\) och \\(y\\ge-2\\). Bestäm det minsta möjliga värdet av \\(4x+y^2\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Lös som en ekvation genom att göra samma operation i båda leden. Om du multiplicerar eller dividerar med ett negativt tal måste olikhetstecknet vändas.</p><p>Minsta \\(4x\\) fås vid \\(x=3\\). Eftersom \\(y\\ge-2\\) kan \\(y=0\\), vilket minimerar \\(y^2\\).</p><p><strong>Svar:</strong> <strong>Minsta värde är 12.</strong></p>",
     "familj": "Linjära olikheter",
@@ -16639,8 +16639,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Skriv \\(3a+b\\) uttryckt enbart i \\(a\\) om \\(a+b=5\\).</p>",
     "s": "<p><strong>Tänk så här:</strong> Stryk inte bort termer som inte är av samma slag. Exempelvis kan en x-term inte slås ihop med ett vanligt tal.</p><p>\\(b=5-a\\). Då \\(3a+b=3a+5-a=\\)<strong>\\(2a+5\\)</strong>.</p>",
     "familj": "Förenkla algebraiska uttryck",
@@ -16796,8 +16796,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Låt \\(E(x)=a(x+2)-b(2x-1)\\). Man vet att \\(E(3)=20\\) och att</p><p>\\(E(x)-E(-x)=10x\\)</p><p>för alla \\(x\\).</p><p>Bestäm \\(a\\), \\(b\\) och ett förenklat uttryck för \\(E(x)\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Förenkla \\(E(x)=(a-2b)x+(2a+b)\\).</p><p>Då är \\(E(x)-E(-x)=2(a-2b)x\\). Villkoret ger \\(a-2b=5\\).</p><p>Eftersom \\(E(3)=20\\) blir \\(3\\cdot5+(2a+b)=20\\), alltså \\(2a+b=5\\).</p><p>Lös systemet: <strong>\\(a=3\\), \\(b=-1\\)</strong>.</p><p>Därmed <strong>\\(E(x)=5x+5\\)</strong>.</p>",
     "familj": "Förenkla algebraiska uttryck",
@@ -16963,8 +16963,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Uttrycket \\(F(x)=p(3x-2)-q(x+4)\\) ska ha samma värde för alla \\(x\\), och detta konstanta värde ska vara 14.</p><p>Bestäm \\(p\\) och \\(q\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Förenkla: \\(F(x)=(3p-q)x+(-2p-4q)\\).</p><p>För att uttrycket ska vara konstant krävs \\(3p-q=0\\), alltså \\(q=3p\\).</p><p>Konstanten ska vara 14: \\(-2p-4q=14\\). Sätt in \\(q=3p\\): \\(-14p=14\\Rightarrow p=-1\\).</p><p>Då <strong>\\(q=-3\\)</strong>.</p>",
     "familj": "Multiplicera två parenteser och använda identiteter",
@@ -18596,8 +18596,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En kvadratisk ram av plattor har yttermåtten \\((n+2)\\times(n+2)\\) plattor och ett tomt kvadratiskt hål med måtten \\(n\\times n\\) plattor.</p><p>a) Bestäm ett förenklat uttryck för antalet plattor i ramen på två olika sätt.<br>b) Bestäm \\(n\\) om ramen består av 60 plattor.</p>",
     "s": "<p><strong>Metod 1:</strong> Skillnaden mellan ytterkvadraten och hålet är</p><p><strong>Steg 1:</strong> \\((n+2)^2-n^2=n^2+4n+4-n^2=4n+4\\).</p><p><strong>Metod 2:</strong> Fyra sidor med \\(n+2\\) plattor ger \\(4(n+2)\\), men då räknas de fyra hörnen dubbelt. Alltså \\(4(n+2)-4=4n+4\\).</p><p>Vid 60 plattor gäller \\(4n+4=60\\), så \\(4n=56\\) och <strong>\\(n=14\\)</strong>.</p>",
     "familj": "Förenkla algebraiska uttryck",
@@ -20218,7 +20218,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 28,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -20245,7 +20245,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -20272,7 +20272,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -20299,7 +20299,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -20326,7 +20326,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -24076,8 +24076,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En tank innehåller 600 liter vatten. Under de första 4 minuterna rinner \\(r\\) liter per minut ut. Därefter halveras utflödet. Efter totalt 10 minuter finns 320 liter kvar.</p><p>a) Bestäm \\(r\\).<br>b) Beskriv vattenmängden \\(V(t)\\) med funktionsuttryck för \\(0\\le t\\le10\\).<br>c) Gör en tabell för \\(t=0,4,10\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Under de första 4 minuterna försvinner \\(4r\\) liter. Under de följande 6 minuterna är hastigheten \\(r/2\\), så då försvinner \\(6\\cdot r/2=3r\\) liter.</p><p>Totalt har \\(600-320=280\\) liter runnit ut:</p><p>\\(4r+3r=280\\Rightarrow r=40\\).</p><p>Under de första 4 minuterna är</p><p>\\(V(t)=600-40t\\), för \\(0\\le t\\le4\\).</p><p>Efter 4 minuter återstår 440 liter. Därefter blir</p><p>\\(V(t)=440-20(t-4)=520-20t\\), för \\(4&lt;t\\le10\\).</p><table class='data'><tr><th>t</th><th>0</th><th>4</th><th>10</th></tr><tr><th>V(t)</th><td>600</td><td>440</td><td>320</td></tr></table><p><strong>\\(r=40\\) liter per minut.</strong> Båda uttrycken ger 440 liter vid övergången \\(t=4\\).</p>",
     "familj": "Växla mellan tabell och formel",
@@ -24795,8 +24795,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>\\(f(x)=3x-5\\) och \\(g(x)=2x+4\\). Bestäm \\(f(g(-1))\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> När du ska bestämma \\(f(a)\\), sätter du \\(x=a\\) i funktionsuttrycket eller läser av värdet i tabellen eller grafen. Om \\(f(x)=k\\) är givet, söker du i stället det \\(x\\)-värde som ger funktionsvärdet \\(k\\).</p><p>\\(g(-1)=2\\). \\(f(2)=1\\). <strong>1</strong>.</p>",
     "familj": "Beräkna funktionsvärden från formel",
@@ -25488,8 +25488,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "1/1/1",
+    "niva": "C",
+    "poang": "1/2/0",
     "t": "<p>En klass hyr lokal och DJ för totalt 2 400 kr och säljer biljetter för 60 kr.</p><p>a) Vinst vid 80 biljetter?<br>b) Skriv vinstfunktionen \\(V(x)\\).<br>c) Hur många biljetter krävs minst för att gå plus?</p>",
     "s": "<p>a) \\(60\\cdot80-2400=\\)<strong>2400 kr</strong>.</p><p>b) <strong>\\(V(x)=60x-2400\\)</strong>.</p><p>c) \\(60x-2400&gt;0\\Rightarrow x&gt;40\\). <strong>Minst 41 biljetter.</strong></p>",
     "familj": "Tolka linjära funktioner från graf och formel",
@@ -26096,8 +26096,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En hyrtjänst har kostnaden \\(K(x)=a+bx\\), där \\(x\\) är antal timmar. En kund betalar 610 kr för 4 timmar och 970 kr för 10 timmar.</p><p>En konkurrent tar 250 kr i fast avgift och 75 kr per timme. Bestäm när den första tjänsten är billigare än konkurrenten.</p>",
     "s": "<p><strong>Steg 1:</strong> \\(b=(970-610)/(10-4)=60\\). \\(a=610-4\\cdot60=370\\). Alltså \\(K=370+60x\\).</p><p>Första billigare när \\(370+60x&lt;250+75x\\Rightarrow120&lt;15x\\Rightarrow\\)<strong>\\(x&gt;8\\)</strong>.</p>",
     "familj": "Bestämma linjär funktion från villkor",
@@ -27255,8 +27255,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>För en linjär funktion \\(f(x)=kx+m\\) gäller</p><p>\\(f(a)=7\\), \\(f(a+3)=1\\) och \\(f(0)=13\\).</p><p>Bestäm \\(a\\).</p>",
     "s": "<p><strong>Steg 1:</strong> \\(f(0)=13\\) ger \\(m=13\\).</p><p>På tre steg i x-led minskar funktionsvärdet med 6, alltså \\(k=-2\\).</p><p>\\(-2a+13=7\\Rightarrow a=3\\).</p><p><strong>Svar:</strong> <strong>\\(a=3\\)</strong></p>",
     "familj": "Bestämma linjär funktion från villkor",
@@ -27380,8 +27380,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Linjerna \\(y=-3x+4\\) och \\(y=kx+m\\) skär varandra i exakt en punkt. Skärningspunkten ligger på y-axeln. Bestäm \\(m\\) och ange vilka värden \\(k\\) kan ha.</p>",
     "s": "<p><strong>Steg 1:</strong> På y-axeln är \\(x=0\\). Den första linjen har då \\(y=4\\), alltså måste \\(m=4\\).</p><p>För att linjerna ska ha exakt en skärningspunkt får de inte ha samma lutning.</p><p><strong>Svar:</strong> <strong>\\(m=4\\) och \\(k\\ne-3\\).</strong></p>",
     "familj": "Bestämma linjens ekvation från punkt och k-värde",
@@ -27712,8 +27712,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>För en exponentialfunktion \\(f(x)=C\\cdot a^x\\) gäller att \\(f(2)=18\\) och \\(f(5)=486\\).</p><p>Bestäm \\(C\\) och \\(a\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Bilda kvoten mellan funktionsvärdena. Konstanten \\(C\\) förkortas då bort:</p><p>\\[\\frac{f(5)}{f(2)}=\\frac{C\\cdot a^5}{C\\cdot a^2}=a^3=\\frac{486}{18}=27.\\]</p><p>Alltså är \\(a=3\\).</p><p>Insättning i \\(f(2)=18\\) ger \\(C\\cdot3^2=18\\), så \\(C=2\\).</p><p><strong>\\(C=2\\) och \\(a=3\\), alltså \\(f(x)=2\\cdot3^x\\).</strong></p><p>Kontroll: \\(f(2)=2\\cdot9=18\\) och \\(f(5)=2\\cdot243=486\\).</p>",
     "familj": "Bestämma och använda exponentialfunktion",
@@ -28155,8 +28155,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En potensfunktion \\(y=C\\cdot x^n\\) går genom punkterna \\((2,\\ 24)\\) och \\((4,\\ 96)\\).</p><p>Bestäm \\(C\\) och \\(n\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Bilda kvoten mellan funktionsvärdena så att \\(C\\) förkortas bort:</p><p>\\[\\frac{96}{24}=\\frac{C\\cdot4^n}{C\\cdot2^n}=\\left(\\frac42\\right)^n=2^n=4.\\]</p><p>Alltså är \\(n=2\\).</p><p>Insättning i den första punkten ger \\(C\\cdot2^2=24\\), så \\(C=6\\).</p><p><strong>\\(C=6\\) och \\(n=2\\), alltså \\(y=6x^2\\).</strong></p><p>Kontroll: \\(6\\cdot2^2=24\\) och \\(6\\cdot4^2=96\\).</p>",
     "familj": "Använda potensfunktioner",
@@ -28200,7 +28200,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28225,7 +28225,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 48,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28250,7 +28250,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28275,7 +28275,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28300,7 +28300,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28325,7 +28325,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28350,7 +28350,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28375,7 +28375,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28425,7 +28425,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28450,7 +28450,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -28476,7 +28476,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -28502,7 +28502,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -28528,7 +28528,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -28554,7 +28554,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -28580,7 +28580,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -30925,7 +30925,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -30952,7 +30952,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -30979,7 +30979,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1250,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -30996,8 +30996,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>För en linjär funktion \\(f(x)=kx+m\\) gäller</p><p>\\(f(x+3)-f(x)=6\\)<br>och<br>\\(f(4)=2m\\).</p><p>Bestäm funktionen \\(f\\).</p>",
     "s": "<p><strong>Steg 1:</strong> \\(f(x+3)-f(x)=3k=6\\), alltså \\(k=2\\).</p><p>Då är \\(f(4)=8+m\\). Villkoret ger \\(8+m=2m\\), alltså \\(m=8\\).</p><p><strong>Svar:</strong> <strong>\\(f(x)=2x+8\\)</strong></p>",
     "familj": "Bestämma linjär funktion från villkor",
@@ -34468,8 +34468,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Förenkla \\(\\frac{16^x+4^{2x}}{4^x}\\) så långt som möjligt.</p>",
     "s": "<p><strong>Regel som används:</strong> Vid division av potenser med samma bas behåller du basen och subtraherar exponenterna.</p><p>\\(16^x=(4^2)^x=4^{2x}\\).</p><p>Täljaren blir \\(2\\cdot4^{2x}\\).</p><p>\\(\\frac{2\\cdot4^{2x}}{4^x}=\\)<strong>\\(2\\cdot4^x\\)</strong>.</p>",
     "familj": "Förenkla uttryck med potensregler",
@@ -34542,8 +34542,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Förenkla \\(\\left(\\frac14\\right)^{n+2}+\\left(\\frac14\\right)^{n+2}+\\left(\\frac14\\right)^{n+2}+\\left(\\frac14\\right)^{n+2}\\).</p>",
     "s": "<p><strong>Regel som används:</strong> Vid division av potenser med samma bas behåller du basen och subtraherar exponenterna. Vid potens av en potens multipliceras exponenterna.</p><p>\\(4\\cdot4^{-(n+2)}=4^{1-n-2}=\\)<strong>\\(4^{-n-1}\\)</strong>.</p>",
     "familj": "Förenkla uttryck med potensregler",
@@ -34566,8 +34566,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\((2x-3)^4=625\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p><p>\\(625=5^4\\), alltså \\(2x-3=5\\) eller \\(2x-3=-5\\).</p><p><strong>Svar:</strong> <strong>\\(x=4\\) eller \\(x=-1\\)</strong></p>",
     "familj": "Lösa och analysera potensekvationer",
@@ -34656,8 +34656,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Bestäm \\(a\\) så att \\(\\frac{(x^2)^5}{x^{2a}}=x^{\\frac{1}{4}}\\) gäller för alla positiva \\(x\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Vänsterledet är \\(x^{10-2a}\\). Exponenterna måste därför vara lika:</p><p>\\(10-2a=\\frac14\\).</p><p><strong>Svar:</strong> <strong>\\(a=\\frac{39}{8}\\)</strong></p>",
     "familj": "Lösa och analysera potensekvationer",
@@ -35469,8 +35469,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Förenkla \\(4^{n-1}+4^{n-1}+4^{n-1}+4^{n-1}\\) så långt som möjligt.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Använd räknereglerna för potenser på formelbladet, en regel i taget. Kontrollera särskilt om du multiplicerar eller dividerar potenser med samma bas eller har en potens upphöjd till en ny exponent.</p><p>Fyra lika termer: \\(4\\cdot4^{n-1}=\\)<strong>\\(4^n\\)</strong>.</p>",
     "familj": "Förenkla uttryck med potensregler",
@@ -35592,8 +35592,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Förenkla:</p><p>a) \\(\\frac{x^{5m/8}}{x^{3m/8}}\\)<br>b) \\(\\frac{\\sqrt{x}\\cdot\\sqrt{x}\\cdot\\sqrt{x}\\cdot\\sqrt{x}}{\\sqrt{x}+\\sqrt{x}}\\), \\(x&gt;0\\).</p>",
     "s": "<p><strong>Regel som används:</strong> Vid multiplikation av potenser med samma bas behåller du basen och adderar exponenterna. Vid division av potenser med samma bas behåller du basen och subtraherar exponenterna.</p><p>a) <strong>\\(x^{m/4}\\)</strong>.</p><p>b) Täljaren är \\(x^2\\), nämnaren \\(2\\sqrt{x}\\). <strong>\\(\\frac12x^{\\frac{3}{2}}\\)</strong>.</p>",
     "familj": "Förenkla uttryck med potensregler",
@@ -35663,8 +35663,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Visa med räkneregler för potenser att \\(16^{\\frac{3}{4}}=8\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Använd räknereglerna för potenser på formelbladet, en regel i taget. Kontrollera särskilt om du multiplicerar eller dividerar potenser med samma bas eller har en potens upphöjd till en ny exponent.</p><p>\\(16^{\\frac{3}{4}}=(2^4)^{\\frac{3}{4}}=2^3=\\)<strong>8</strong>.</p>",
     "familj": "Jämföra och använda potensregler",
@@ -37717,8 +37717,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Bestäm \\(a\\) så att sambandet \\(\\frac{(5^4)^3}{5^{2a}}=1\\) gäller.</p>",
     "s": "<p><strong>Regel som används:</strong> Vid division av potenser med samma bas behåller du basen och subtraherar exponenterna. Vid potens av en potens multipliceras exponenterna.</p><p>Vänsterledet är \\(5^{12-2a}\\). För att värdet ska vara 1 måste exponenten vara 0.</p><p>\\(12-2a=0\\Rightarrow\\)<strong>\\(a=6\\)</strong>.</p>",
     "familj": "Jämföra och använda potensregler",
@@ -37846,8 +37846,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Lös:</p><p>a) \\(a^{\\frac{1}{4}}\\cdot a^{\\frac{3}{4}}=a^2\\cdot a^x\\), \\(a&gt;0, a\\ne1\\).<br>b) \\(3^x+3^x+3^x=3^{10}\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p><p>a) Vänster exponent är 1. \\(1=2+x\\Rightarrow\\)<strong>\\(x=-1\\)</strong>.</p><p>b) \\(3\\cdot3^x=3^{x+1}=3^{10}\\Rightarrow\\)<strong>\\(x=9\\)</strong>.</p>",
     "familj": "Lösa och analysera potensekvationer",
@@ -38020,8 +38020,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Ett tal \\(x\\) ligger mellan 18 och 30. Talet är \\(p\\) % större än 18 och samtidigt \\(p\\) % mindre än 30. Bestäm \\(x\\).</p>",
     "s": "<p><strong>Steg 1:</strong> \\(x=18(1+r)=30(1-r)\\).</p><p>\\(18+18r=30-30r\\Rightarrow48r=12\\Rightarrow r=0,25\\).</p><p><strong>\\(x=22,5\\)</strong>.</p>",
     "familj": "Beräkna procent och procentuell förändring",
@@ -38424,7 +38424,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.000002,
+      2e-06,
       0.01,
       1
     ],
@@ -38618,8 +38618,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>För heltal \\(n\\) definieras</p><p>\\[E_n=\\frac{8^{2n}\\cdot4^{3-n}}{2^{4n+2}}.\\]</p><p>Visa med potensregler att \\(E_n\\) har samma värde för alla \\(n\\), och bestäm värdet.</p>",
     "s": "<p><strong>Regel som används:</strong> Vid multiplikation av potenser med samma bas behåller du basen och adderar exponenterna. Vid division av potenser med samma bas behåller du basen och subtraherar exponenterna.</p><p>\\(8^{2n}=2^{6n}\\) och \\(4^{3-n}=2^{6-2n}\\).</p><p>Därför</p><p>\\[E_n=2^{6n+6-2n-(4n+2)}=2^4.\\]</p><p><strong>Svar:</strong> <strong>\\(E_n=16\\) för alla \\(n\\).</strong></p>",
     "familj": "Jämföra och använda potensregler",
@@ -39690,8 +39690,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\((4x+1)^6=15625\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p><p>\\(15625=5^6\\), så \\(4x+1=5\\) eller \\(4x+1=-5\\).</p><p><strong>Svar:</strong> <strong>\\(x=1\\) eller \\(x=-\\frac32\\)</strong></p>",
     "familj": "Lösa och analysera potensekvationer",
@@ -39868,8 +39868,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Bestäm \\(n\\) om \\(2^5\\cdot8^3=4^n\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p><p>\\(8^3=2^9\\), så vänsterledet är \\(2^{14}\\). \\(4^n=2^{2n}\\).</p><p>\\(2n=14\\Rightarrow\\)<strong>\\(n=7\\)</strong>.</p>",
     "familj": "Lösa och analysera potensekvationer",
@@ -39953,7 +39953,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -39980,7 +39980,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -40007,7 +40007,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -40034,7 +40034,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -40061,7 +40061,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.975,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -40690,8 +40690,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Uttrycken gäller samma positiva \\(a\\). Om \\(a^{\\frac{2}{3}}=16\\), bestäm \\(a^{\\frac{1}{3}}\\) och \\(a\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Använd räknereglerna för potenser på formelbladet, en regel i taget. Kontrollera särskilt om du multiplicerar eller dividerar potenser med samma bas eller har en potens upphöjd till en ny exponent.</p><p>\\(a^{\\frac{1}{3}}\\) är positiv och dess kvadrat är 16, alltså \\(a^{\\frac{1}{3}}=4\\). Därför <strong>\\(a=64\\)</strong>.</p>",
     "familj": "Jämföra och använda potensregler",
@@ -40871,8 +40871,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(x^3+1=\\frac{35}{8}\\). Svara exakt.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p><p>\\(x^3=\\frac{27}{8}\\).</p><p><strong>Svar:</strong> <strong>\\(x=\\frac32\\)</strong></p>",
     "familj": "Lösa och analysera potensekvationer",
@@ -41049,7 +41049,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -41076,7 +41076,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -41103,7 +41103,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -41130,7 +41130,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -41157,7 +41157,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -43704,8 +43704,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Från punkt A ses toppen av ett torn under vinkeln 28°. Man går 35 m rakt mot tornet till punkt B, där vinkeln är 41°. Marken är plan.</p><p>Bestäm tornets höjd. Bortse från ögonhöjd.</p>",
     "s": "<p><strong>Steg 1:</strong> Låt avståndet från B till tornet vara \\(x\\) och höjden \\(h\\). Då \\(h=x\\tan41^\\circ=(x+35)\\tan28^\\circ\\).</p><p>\\(x=35\\tan28^\\circ/(\\tan41^\\circ-\\tan28^\\circ)\\approx55,1\\) m.</p><p>\\(h=x\\tan41^\\circ\\approx\\)<strong>47,9 m</strong>.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
@@ -46583,8 +46583,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>\\(\\vec u=(2,1)\\) och \\(\\vec w=(6,-2)\\). Bestäm \\(\\vec v\\) om</p><p>\\[3\\vec u-2\\vec v=\\vec w.\\]</p>",
     "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns regeln för multiplikation med en skalär. Multiplicera båda komponenterna med talet. Om talet är negativt får vektorn motsatt riktning.</p><p>\\(2\\vec v=3\\vec u-\\vec w=(6,3)-(6,-2)=(0,5)\\).</p><p><strong>\\(\\vec v=(0,\\frac52)\\)</strong>.</p>",
     "familj": "Skalärmultiplikation av vektorer",
@@ -46654,8 +46654,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Från en punkt på marken ser man toppen av ett torn med elevationsvinkeln 28°. Man går 30 m närmare tornet och vinkeln blir 41°. Bestäm tornets höjd. Anta plan mark.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>Låt avståndet efter förflyttningen vara \\(x\\). Då \\(h=x\\tan41^\\circ=(x+30)\\tan28^\\circ\\).</p><p>\\(x\\approx47,2\\) m och <strong>\\(h\\approx41,0\\) m</strong>.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
@@ -47474,8 +47474,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>En cylindrisk tunnel har diametern 20 m. Vägen ligger 6 m över tunnelns lägsta punkt.</p><span class=\"fig\"><svg width=\"420\" height=\"230\" viewBox=\"0 0 420 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"tunnel med korrekt markerad vinkel v\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"205\" cy=\"100\" r=\"100\" fill=\"#F8EFCB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"113.3\" y1=\"140\" x2=\"296.7\" y2=\"140\" stroke=\"#555\" stroke-width=\"6\"/><line x1=\"113.3\" y1=\"140\" x2=\"205\" y2=\"100\" stroke=\"#B43123\" stroke-width=\"2.4\"/><line x1=\"205\" y1=\"100\" x2=\"205\" y2=\"140\" stroke=\"#777\" stroke-dasharray=\"5 4\"/><text x=\"213\" y=\"122.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">4 m</text><text x=\"233\" y=\"76\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">r = 10 m</text><polyline points=\"137.3,140.0 137.3,139.5 137.3,138.9 137.3,138.4 137.2,137.8 137.2,137.3 137.1,136.7 137.0,136.2 136.9,135.6 136.8,135.1 136.7,134.6 136.6,134.0 136.5,133.5 136.3,133.0 136.1,132.4 136.0,131.9 135.8,131.4 135.6,130.9 135.3,130.4\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"162.9\" y=\"159.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">v</text></svg></span><p>Bestäm vinkeln \\(v\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Vägen ligger 4 m under centrum, Halva kordan är \\(\\sqrt{10^2-4^2}=\\sqrt{84}\\),</p><p>\\(\\tan v=4/\\sqrt{84}\\),</p><p><strong>Svar:</strong> <strong>\\(v\\approx23,6^\\circ\\)</strong></p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
@@ -52080,7 +52080,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "0.443625",
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -53083,7 +53083,7 @@ window.BANKMA1 = [
     ],
     "tolerans": [
       0.0001,
-      0.000001,
+      1e-06,
       null,
       0.0001
     ],
@@ -56174,7 +56174,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -56201,7 +56201,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -56228,7 +56228,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -56255,7 +56255,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -57285,8 +57285,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/1",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Ett tal står i mitten av en figur. Till vänster multipliceras talet med 3 och därefter adderas 4. Till höger multipliceras talet med 5 och därefter subtraheras 10. Resultaten är lika.</p><p>Bestäm talet.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Börja med att skriva upp vad som är känt och vad som ska bestämmas. Välj sedan en matematisk modell eller ekvation och kontrollera slutligen att svaret uppfyller villkoren.</p><p>\\(3x+4=5x-10\\Rightarrow14=2x\\Rightarrow\\)<strong>\\(x=7\\)</strong>.</p>",
     "familj": "Algebraiska samband och problemlösning",
@@ -59523,8 +59523,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En verksamhets utsläpp är 1 200 ton per år och fördelas så här:</p><p>el 50 %, transporter 30 %, uppvärmning 20 %.</p><p>Planerade åtgärder minskar elutsläppen med 25 %, transportutsläppen med 40 % och uppvärmningsutsläppen med 10 %.</p><span class=\"fig\"><svg width=\"440\" height=\"250\" viewBox=\"0 0 440 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"stapeldiagram över utsläpp\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"80\" y=\"52.8\" width=\"65\" height=\"152.2\" fill=\"#F4F2EF\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"112.5\" y=\"45.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">600</text><text x=\"112.5\" y=\"225\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">el</text><rect x=\"180\" y=\"113.7\" width=\"65\" height=\"91.3\" fill=\"#F4F2EF\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"212.5\" y=\"106.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">360</text><text x=\"212.5\" y=\"225\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">transport</text><rect x=\"280\" y=\"144.1\" width=\"65\" height=\"60.9\" fill=\"#F4F2EF\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"312.5\" y=\"137.1\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">240</text><text x=\"312.5\" y=\"225\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">värme</text><line x1=\"55\" y1=\"205\" x2=\"415\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"1.7\"/></svg></span><p>a) Når verksamheten målet att minska de totala utsläppen med 30 %?<br>b) Om bara uppvärmningen kan förbättras ytterligare, hur många procent av de <em>återstående</em> uppvärmningsutsläppen måste då tas bort för att precis nå målet?</p>",
     "s": "<p><strong>Steg 1:</strong> Efter åtgärder: el 450, transport 216 och uppvärmning 216 ton, Totalt <strong>882 ton</strong>, vilket är en minskning på <strong>26,5 %</strong>, Målet nås alltså inte,</p><p>30 % minskning betyder högst 840 ton, Det saknas 42 ton, Av återstående 216 ton uppvärmning är det \\(\\frac{42}{216}\\approx\\)<strong>19,4 %</strong>,</p>",
     "familj": "Hållbarhetsberäkningar",
@@ -59970,8 +59970,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Ett hushåll har nettolönen 32 000 kr, fasta utgifter 18 400 kr och övrig konsumtion 10 200 kr. Målet är att spara minst 15 % av nettolönen. Nästa månad ökar nettolönen 3 % och fasta utgifter 4 %. Den övriga konsumtionen förändras med \\(p\\) %.</p><p>Bestäm största möjliga \\(p\\) om sparmålet ska nås.</p>",
     "s": "<p><strong>Steg 1:</strong> Ny nettolön 32 960, sparmål 4944, fasta utgifter 19 136, Övrig konsumtion får vara högst 8880,</p><p>\\(10200(1+p/100)=8880\\),</p><p><strong>\\(p\\approx-12,94\\%\\)</strong>, dvs konsumtionen måste minska cirka 12,94 %,</p>",
     "familj": "Privatekonomiska beräkningar",
@@ -61197,8 +61197,8 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En planritning är gjord i skala 1:50 men skrivs ut förminskad till 80 % av originalets längd och bredd.</p><span class=\"fig\"><svg width=\"405\" height=\"220\" viewBox=\"0 0 405 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"ritning som skrivs ut i 80 procent\"><rect x=\"1\" y=\"1\" width=\"403\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<rect x=\"35\" y=\"48\" width=\"145\" height=\"118\" fill=\"#F8F7F5\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<rect x=\"250\" y=\"68\" width=\"116\" height=\"94\" fill=\"#F8F7F5\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"190\" y1=\"105\" x2=\"235\" y2=\"105\" stroke=\"#777\" stroke-width=\"2\"/>\n<polygon points=\"235,105 224,99 224,111\" fill=\"#777\"/>\n<text x=\"107\" y=\"185\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">original 1:50</text>\n<text x=\"308\" y=\"185\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">utskrift 80 %</text>\n<text x=\"212\" y=\"92\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">förminskas</text>\n</svg></span><p>På den förminskade utskriften mäter ett rum 6,4 cm × 4,8 cm.</p><p>a) Bestäm utskriftens effektiva skala.<br>b) Bestäm rummets verkliga area.<br>c) Hur många procent för liten area får man om man av misstag fortfarande räknar med skala 1:50?</p>",
     "s": "<p>a) När ritningen förminskas till 80 % måste varje centimeter på utskriften motsvara \\(\\frac{50}{0,80}=62,5\\) cm i verkligheten. <strong>Effektiv skala är 1:62,5.</strong></p><p>b) 6,4 cm motsvarar 4,0 m och 4,8 cm motsvarar 3,0 m. <strong>Arean är 12,0 m².</strong></p><p>c) Med felaktig skala 1:50 skulle man få \\(3,2\\cdot2,4=7,68\\) m². Det är \\((12-7,68)/12=0,36\\), alltså <strong>36 % för liten area</strong>.</p>",
     "familj": "Skala och likformighet",
@@ -64129,7 +64129,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.6,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64154,7 +64154,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64179,7 +64179,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64204,7 +64204,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64229,7 +64229,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64254,7 +64254,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64279,7 +64279,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64304,7 +64304,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64329,7 +64329,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -64354,7 +64354,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -64379,7 +64379,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -64404,7 +64404,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -66559,7 +66559,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66583,7 +66583,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66607,7 +66607,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66631,7 +66631,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66655,7 +66655,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66679,7 +66679,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66703,7 +66703,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66727,7 +66727,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66751,7 +66751,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66775,7 +66775,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66919,7 +66919,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66943,7 +66943,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66967,7 +66967,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 255,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66991,7 +66991,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3.8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -67015,7 +67015,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -67135,7 +67135,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 126,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -67159,7 +67159,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -67183,7 +67183,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -67207,7 +67207,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 140,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -69754,8 +69754,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>En storhet minskar från 12000 till 7800 på 6 år. Anta samma procentuella minskning varje år.</p><p>Bestäm den genomsnittliga årliga minskningen i procent.</p>",
     "s": "<p><strong>Metod:</strong> Om förändringsfaktorn per år är \\(q\\), så gäller \\(12000q^6=7800\\). Därför \\(q=(7800/12000)^{1/6}=0.9307\\).</p><p>Minskningen är \\((1-q)\\cdot100\\approx 6.93\\,\\%\\).</p>",
     "familj": "Genomsnittlig årlig minskning",
@@ -70062,8 +70062,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>En storhet beskrivs av en potensfunktion \\(y=Cx^{-1}\\). När \\(x\\) multipliceras med 3 är det ursprungliga värdet på \\(y\\) 30.</p><p>Bestäm det nya värdet på \\(y\\).</p>",
     "s": "<p><strong>Metod:</strong> I en potensfunktion förändras \\(y\\) med faktorn \\(k^p\\).</p><p>Faktorn är \\(3^{-1}=0.3333\\), så det nya värdet blir \\(30\\cdot0.3333=10\\).</p>",
     "familj": "Skalning med potensfunktioner",
@@ -70162,8 +70162,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>En exponentialfunktion har formen \\(f(x)=100\\cdot b^x\\) och \\(f(3)=64\\).</p><p>Bestäm förändringsfaktorn \\(b\\).</p>",
     "s": "<p><strong>Metod:</strong> Sätt in den givna punkten och lös potensekvationen.</p><p>\\(100b^3=64\\Rightarrow b^{3}=0.64\\Rightarrow b=0.8618\\).</p>",
     "familj": "Bestämma och använda exponentialfunktion",

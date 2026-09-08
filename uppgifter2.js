@@ -1,6 +1,4 @@
-/* uppgifter2.js — Fysik 2.
-   Selektiv premiumrevision av facit S5 2026-09-08. Endast s ändrat. */
-
+/* Kunskapsgymmet: uppgiftsbank med uppgiftsspecifika ledtrådar. Fältet ledtrad används inte av Uppgiftslabbet. */
 window.BANK2 = [
   {
     "id": "1.1",
@@ -21,7 +19,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Hastigheten är alltid tangent till banan och pekar i den riktning vagnen rör sig för ögonblicket.</p>"
   },
   {
     "id": "1.2",
@@ -44,7 +43,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Centripetalaccelerationen är riktad in mot kurvans mitt. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>"
   },
   {
     "id": "1.3",
@@ -84,7 +84,8 @@ window.BANK2 = [
       "b"
     ],
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Börja med sträckan under ett helt varv: den är cirkelns omkrets \\(2\\pi r\\). När sträckan är känd får du farten genom att dividera med tiden för ett varv.</p>"
   },
   {
     "id": "1.4",
@@ -128,7 +129,8 @@ window.BANK2 = [
       true
     ],
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Den resulterande kraften fås med Newtons andra lag. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>"
   },
   {
     "id": "1.5",
@@ -149,7 +151,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Vid samma fart är centripetalaccelerationen omvänt proportionell mot radien.</p>"
   },
   {
     "id": "1.6",
@@ -172,7 +175,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Lös ut radien ur sambandet för centripetalacceleration. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>"
   },
   {
     "id": "1.7",
@@ -193,7 +197,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion"
+    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion",
+    "ledtrad": "<p>Den enda vågräta kraften på bilen är friktionskraften från vägbanan. Den måste därför vara riktad in mot kurvans mitt.</p>"
   },
   {
     "id": "1.8",
@@ -242,7 +247,8 @@ window.BANK2 = [
       "c"
     ],
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Börja med cirkelns omkrets. Den ger sträckan per varv och kan sedan användas för att bestämma periodtid och varvtal.</p>"
   },
   {
     "id": "1.9",
@@ -264,7 +270,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana"
+    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana",
+    "ledtrad": "<p>Rita ut krafterna på bilen. I krönets högsta punkt ligger cirkelns mitt nedanför bilen. Välj därför riktningen nedåt som positiv.</p>"
   },
   {
     "id": "1.10",
@@ -303,7 +310,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana"
+    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana",
+    "ledtrad": "<p>I dalbotten ligger cirkelns mitt ovanför passageraren. Välj uppåt som positiv riktning.</p>"
   },
   {
     "id": "1.11",
@@ -324,7 +332,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion"
+    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion",
+    "ledtrad": "<p>Vid gränsen till glidning är friktionen som störst, och den ensam ger centripetalkraften.</p>"
   },
   {
     "id": "1.12",
@@ -345,7 +354,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "cirkel__konisk_pendel"
+    "familjNyckelTidigare": "cirkel__konisk_pendel",
+    "ledtrad": "<p>Snörkraftens lodräta komponent balanserar tyngdkraften. Den vågräta komponenten ger centripetalkraften.</p>"
   },
   {
     "id": "1.13",
@@ -368,7 +378,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Banradien ska mätas från asteroidens centrum. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>"
   },
   {
     "id": "1.14",
@@ -388,7 +399,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana"
+    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana",
+    "ledtrad": "<p>I gränsfallet är normalkraften noll i loopens högsta punkt. Tyngdkraften ger då ensam centripetalkraften.</p>"
   },
   {
     "id": "1.15",
@@ -409,7 +421,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Vid golvet ska centripetalaccelerationen vara \\(0{,}90g\\). Använd \\(v=2\\pi R/T\\).</p>"
   },
   {
     "id": "1.16",
@@ -448,7 +461,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "kast__horisontellt_kast"
+    "familjNyckelTidigare": "kast__horisontellt_kast",
+    "ledtrad": "<p>Lodrätt är rörelsen ett fritt fall från vila. Den vågräta farten påverkar inte falltiden.</p>"
   },
   {
     "id": "1.17",
@@ -490,7 +504,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Dela upp starthastigheten i en vågrät och en lodrät komposant.</p>"
   },
   {
     "id": "1.18",
@@ -512,7 +527,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>I den högsta punkten är den lodräta hastigheten noll. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.19",
@@ -551,7 +567,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>I högsta punkten är \\(v_y=0\\). Använd ett samband utan tid.</p>"
   },
   {
     "id": "1.20",
@@ -590,7 +607,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Börja med den lodräta startkomposanten. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.21",
@@ -612,7 +630,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Start och landning ligger på samma höjd, så kastviddsformeln kan användas direkt.</p>"
   },
   {
     "id": "1.22",
@@ -651,7 +670,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\). Tiden kopplar ihop de två rörelserna.</p>"
   },
   {
     "id": "1.23",
@@ -699,7 +719,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Den vågräta komposanten är konstant, medan den lodräta ändras med tiden.</p>"
   },
   {
     "id": "1.24",
@@ -719,7 +740,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Få bort tiden genom att kombinera den vågräta och den lodräta rörelsen.</p>"
   },
   {
     "id": "1.25",
@@ -758,7 +780,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\). Tiden kopplar ihop de två rörelserna.</p>"
   },
   {
     "id": "1.26",
@@ -778,7 +801,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Beräkna först tiden till väggen med den konstanta vågräta hastigheten.</p>"
   },
   {
     "id": "1.27",
@@ -798,7 +822,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Bestäm hastighetskomposanterna var för sig ur mätpunkterna.</p>"
   },
   {
     "id": "1.28",
@@ -818,7 +843,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Vid lika start- och sluthöjd gäller kastviddsformeln. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.29",
@@ -838,7 +864,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Flaket förflyttas \\(5{,}0T\\) under bollens flygtid. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.30",
@@ -858,7 +885,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Använd kastbanans höjd som funktion av den vågräta sträckan.</p>"
   },
   {
     "id": "1.31",
@@ -903,7 +931,8 @@ window.BANK2 = [
       "c"
     ],
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\). Identifiera vilken verklig kraft eller kraftkomponent som ger denna nettokraft.</p>"
   },
   {
     "id": "1.32",
@@ -952,7 +981,8 @@ window.BANK2 = [
       "c"
     ],
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Båda personerna har samma omloppstid och därmed samma vinkelhastighet.</p>"
   },
   {
     "id": "1.33",
@@ -974,7 +1004,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion"
+    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion",
+    "ledtrad": "<p>Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\). Identifiera vilken verklig kraft eller kraftkomponent som ger denna nettokraft.</p>"
   },
   {
     "id": "1.34",
@@ -1023,7 +1054,8 @@ window.BANK2 = [
       "c"
     ],
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Centripetalaccelerationen ändrar riktningen och den tangentiella accelerationen ändrar fartens storlek.</p>"
   },
   {
     "id": "1.35",
@@ -1044,7 +1076,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion"
+    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion",
+    "ledtrad": "<p>Vid gränsen till glidning är friktionen maximal. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>"
   },
   {
     "id": "1.36",
@@ -1064,7 +1097,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana"
+    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana",
+    "ledtrad": "<p>I botten pekar riktningen mot centrum uppåt. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>"
   },
   {
     "id": "1.37",
@@ -1108,7 +1142,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "kast__horisontellt_kast"
+    "familjNyckelTidigare": "kast__horisontellt_kast",
+    "ledtrad": "<p>Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\). Tiden kopplar ihop de två rörelserna.</p>"
   },
   {
     "id": "1.38",
@@ -1152,7 +1187,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Den vågräta komposanten är konstant. Vid lika start- och sluthöjd är stigtiden halva flygtiden.</p>"
   },
   {
     "id": "1.39",
@@ -1200,7 +1236,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Få bort tiden ur de två rörelseekvationerna. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.40",
@@ -1220,7 +1257,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Sätt \\(u=\\tan\\theta\\) och använd \\(1/\\cos^2\\theta=1+u^2\\).</p>"
   },
   {
     "id": "1.41",
@@ -1268,7 +1306,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "kast__horisontellt_kast"
+    "familjNyckelTidigare": "kast__horisontellt_kast",
+    "ledtrad": "<p>Lodrätt är paketets rörelse ett fritt fall från vila. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.42",
@@ -1316,7 +1355,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Kastet börjar och slutar på samma höjd, så använd kastviddsformeln.</p>"
   },
   {
     "id": "1.58",
@@ -1336,7 +1376,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Dela upp starthastigheten i en vågrät och en lodrät komposant.</p>"
   },
   {
     "id": "1.59",
@@ -1375,7 +1416,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Eftersom start- och landningshöjden är samma är flygtiden dubbla stigtiden.</p>"
   },
   {
     "id": "1.60",
@@ -1395,7 +1437,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__horisontellt_kast"
+    "familjNyckelTidigare": "kast__horisontellt_kast",
+    "ledtrad": "<p>Den vågräta rörelsen bestämmer tiden till mållinjen. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.61",
@@ -1439,7 +1482,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Dela upp hastigheten och använd den lodräta rörelsen fram till högsta punkten.</p>"
   },
   {
     "id": "1.62",
@@ -1459,7 +1503,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__horisontellt_kast"
+    "familjNyckelTidigare": "kast__horisontellt_kast",
+    "ledtrad": "<p>Den lodräta rörelsen är fritt fall från vila. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.63",
@@ -1479,7 +1524,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Dela upp starthastigheten. Uppskjutning och landning sker på samma höjd, så banan är symmetrisk.</p>"
   },
   {
     "id": "1.64",
@@ -1523,7 +1569,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "kast__horisontellt_kast"
+    "familjNyckelTidigare": "kast__horisontellt_kast",
+    "ledtrad": "<p>Till nätet bestäms tiden av den vågräta rörelsen. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.65",
@@ -1543,7 +1590,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Få bort tiden ur kaströrelsen. För en given vinkel gäller Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.66",
@@ -1563,7 +1611,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Den givna tiden bestämmer båda hastighetskomposanterna. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.67",
@@ -1583,7 +1632,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Använd \\(t=x/v_{0x}\\) vid muren och mållinjen. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.68",
@@ -1603,7 +1653,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__horisontellt_kast"
+    "familjNyckelTidigare": "kast__horisontellt_kast",
+    "ledtrad": "<p>För ett vågrätt kast är \\(x=v_0t\\) och \\(y=-gt^2/2\\). Få bort tiden.</p>"
   },
   {
     "id": "1.69",
@@ -1624,7 +1675,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Vid \\(45^\\circ\\) är \\(v_{0x}=v_{0y}=8/\\sqrt2=5{,}66\\ \\mathrm{m/s}\\). Använd samma starthastighet men olika \\(g\\).</p>"
   },
   {
     "id": "1.70",
@@ -1644,7 +1696,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Addera målvaktens fart till bollens vågräta hastighet relativt målvakten. Den lodräta komposanten påverkas inte.</p>"
   },
   {
     "id": "1.71",
@@ -1664,7 +1717,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Sätt \\(u=\\tan\\theta\\) och använd \\(1/\\cos^2\\theta=1+u^2\\).</p>"
   },
   {
     "id": "1.72",
@@ -1684,7 +1738,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Efter tiden \\(t\\) har lagkamraten positionen \\(x=25+7t\\). Samtidigt gäller \\(x=v_0\\cos20^\\circ\\,t\\).</p>"
   },
   {
     "id": "1.73",
@@ -1704,7 +1759,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Dela först upp farten med höjdvinkeln och sedan markplansfarten med sidvinkeln.</p>"
   },
   {
     "id": "1.74",
@@ -1724,7 +1780,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Den vågräta komposanten bestämmer tiden till mållinjen. Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "1.75",
@@ -1744,7 +1801,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\). Tiden kopplar ihop de två rörelserna.</p>"
   },
   {
     "id": "1.76",
@@ -1764,7 +1822,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Höjdvinkeln bestämmer flygtiden. Därefter delas markplansfarten upp med sidvinkeln.</p>"
   },
   {
     "id": "1.77",
@@ -1784,7 +1843,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Höjdvinkeln delar upp farten i lodrät fart och fart i markplanet. Sidvinkeln delar sedan markplansfarten i två komponenter.</p>"
   },
   {
     "id": "1.78",
@@ -1804,7 +1864,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Dela markplansfarten med sidvinkeln och använd framåtkomposanten för tiden till målet.</p>"
   },
   {
     "id": "1.79",
@@ -1824,7 +1885,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kast__sned_kast"
+    "familjNyckelTidigare": "kast__sned_kast",
+    "ledtrad": "<p>Tiden till mållinjen och bollens sidoläge är Dela rörelsen i två oberoende riktningar: horisontellt är hastigheten konstant, vertikalt gäller konstant acceleration \\(g\\).</p>"
   },
   {
     "id": "2.1",
@@ -1848,7 +1910,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "fjadrar__hookes_lag",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Använd Hookes lag och skriv förlängningen i meter. Identifiera om uppgiften handlar om kraft, förlängning eller energi.</p>"
   },
   {
     "id": "2.2",
@@ -1872,7 +1935,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "fjadrar__hookes_lag",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Lös ut fjäderkonstanten ur Hookes lag. Identifiera om uppgiften handlar om kraft, förlängning eller energi.</p>"
   },
   {
     "id": "2.3",
@@ -1896,7 +1960,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "fjadrar__hookes_lag",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Massan är i jämvikt, så fjäderkraften balanserar tyngdkraften.</p>"
   },
   {
     "id": "2.4",
@@ -1920,7 +1985,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "fjadrar__hookes_lag",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Lasten hänger stilla, så fjäderkraft och tyngdkraft är lika stora.</p>"
   },
   {
     "id": "2.5",
@@ -1944,7 +2010,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "fjadrar__fjaderenergi",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Den elastiska energin i en ideal fjäder är \\(kx^2/2\\). Identifiera om uppgiften handlar om kraft, förlängning eller energi.</p>"
   },
   {
     "id": "2.6",
@@ -1967,7 +2034,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "fjadrar__hookes_lag",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>I ett diagram med \\(F\\) på y-axeln och \\(x\\) på x-axeln är lutningen fjäderkonstanten.</p>"
   },
   {
     "id": "2.7",
@@ -1989,7 +2057,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "fjadrar__hookes_lag",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Fjäderkraften är återförande och pekar motsatt förskjutningen.</p>"
   },
   {
     "id": "2.8",
@@ -2013,7 +2082,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "fjadrar__hookes_lag",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Beräkna först förlängningen med Hookes lag. Identifiera om uppgiften handlar om kraft, förlängning eller energi.</p>"
   },
   {
     "id": "2.9",
@@ -2035,7 +2105,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "fjadrar__fjadrar_i_serie_och_parallell",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Parallellkopplade fjädrar får samma förlängning och deras krafter adderas.</p>"
   },
   {
     "id": "2.10",
@@ -2057,7 +2128,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "fjadrar__hookes_lag",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Ta skillnaden mellan mätningarna; då försvinner den okända obelastade längden.</p>"
   },
   {
     "id": "2.11",
@@ -2080,7 +2152,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "fjadrar__fjaderenergi",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Rampen är friktionsfri, så fjäderenergin omvandlas till lägesenergi.</p>"
   },
   {
     "id": "2.12",
@@ -2105,7 +2178,8 @@ window.BANK2 = [
     "manuellKomplettering": true,
     "familjNyckelTidigare": "fjadrar__hookes_lag",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Skalvärdet \\(4{,}0\\ \\mathrm{cm}\\) är nollpunkten. Förlängningen mäts från den.</p>"
   },
   {
     "id": "2.13",
@@ -2129,7 +2203,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "fjadrar__fjadrar_i_serie_och_parallell",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>I en seriekoppling verkar samma kraft i båda fjädrarna, och förlängningarna adderas.</p>"
   },
   {
     "id": "2.14",
@@ -2151,7 +2226,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "fjadrar__fjadrar_i_serie_och_parallell",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Pröva båda kopplingarna mot både förlängnings- och kraftkravet.</p>"
   },
   {
     "id": "2.15",
@@ -2173,7 +2249,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "fjadrar__fjaderenergi",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Använd energin för att koppla ihop stoppsträckan, fjäderkonstanten och den största kraften.</p>"
   },
   {
     "id": "2.16",
@@ -2194,7 +2271,8 @@ window.BANK2 = [
     "tolerans": 0.01,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Periodtiden för en ideal fjäderoscillator bestäms av massan och fjäderkonstanten.</p>"
   },
   {
     "id": "2.17",
@@ -2215,7 +2293,8 @@ window.BANK2 = [
     "tolerans": 0.01875,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Frekvensen är ett delat med periodtiden. Period och frekvens är varandras inverser: \\(f=1/T\\).</p>"
   },
   {
     "id": "2.18",
@@ -2234,7 +2313,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Amplituden är det största avståndet från jämviktsläget \\(x=0\\).</p>"
   },
   {
     "id": "2.19",
@@ -2255,7 +2335,8 @@ window.BANK2 = [
     "tolerans": 0.189,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>En hel period motsvarar fasändringen \\(2\\pi\\) radianer. Period och frekvens är varandras inverser: \\(f=1/T\\).</p>"
   },
   {
     "id": "2.20",
@@ -2276,7 +2357,8 @@ window.BANK2 = [
     "tolerans": 0.01185,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Den största farten är \\(v_{\\max}=\\omega A\\). Skriv amplituden i meter.</p>"
   },
   {
     "id": "2.21",
@@ -2297,7 +2379,8 @@ window.BANK2 = [
     "tolerans": 0.1185,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Accelerationens största belopp är \\(a_{\\max}=\\omega^2A\\). Period och frekvens är varandras inverser: \\(f=1/T\\).</p>"
   },
   {
     "id": "2.22",
@@ -2316,7 +2399,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Vid harmonisk svängning gäller \\(a=-\\omega^2x\\), medan rörelseenergin är störst när fjäderenergin är minst.</p>"
   },
   {
     "id": "2.23",
@@ -2335,7 +2419,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>För samma fjäder är periodtiden proportionell mot kvadratroten ur massan.</p>"
   },
   {
     "id": "2.24",
@@ -2356,7 +2441,8 @@ window.BANK2 = [
     "tolerans": 0.01,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd först jämviktsläget för att bestämma fjäderkonstanten.</p>"
   },
   {
     "id": "2.25",
@@ -2375,7 +2461,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Den mekaniska energin bevaras. I vändläget är all energi elastisk.</p>"
   },
   {
     "id": "2.26",
@@ -2396,7 +2483,8 @@ window.BANK2 = [
     "tolerans": 0.105,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Välj höger som positiv riktning. Fjäderkraften är återförande.</p>"
   },
   {
     "id": "2.27",
@@ -2415,7 +2503,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Använd sambandet mellan maximal fart, vinkelfrekvens och amplitud.</p>"
   },
   {
     "id": "2.28",
@@ -2434,7 +2523,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>När svängningen startar i det högra vändläget kan läget skrivas med cosinus.</p>"
   },
   {
     "id": "2.29",
@@ -2453,7 +2543,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Lös ut fjäderkonstanten ur periodformeln. Period och frekvens är varandras inverser: \\(f=1/T\\).</p>"
   },
   {
     "id": "2.30",
@@ -2472,7 +2563,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Fjäderkraften svänger symmetriskt kring jämviktsvärdet \\(mg\\).</p>"
   },
   {
     "id": "2.31",
@@ -2494,7 +2586,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>För små utslag används periodformeln för en matematisk pendel.</p>"
   },
   {
     "id": "2.32",
@@ -2516,7 +2609,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>Lös ut pendellängden ur periodformeln. För små utslag hos en matematisk pendel gäller \\(T=2\\pi\\sqrt{l/g}\\).</p>"
   },
   {
     "id": "2.33",
@@ -2538,7 +2632,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>Periodtiden är den totala tiden delad med antalet hela svängningar.</p>"
   },
   {
     "id": "2.34",
@@ -2560,7 +2655,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>Frekvensen är ett delat med periodtiden. För små utslag hos en matematisk pendel gäller \\(T=2\\pi\\sqrt{l/g}\\).</p>"
   },
   {
     "id": "2.35",
@@ -2580,7 +2676,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>Periodformeln för små utslag innehåller inte lodets massa.</p>"
   },
   {
     "id": "2.36",
@@ -2602,7 +2699,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>Använd månens tyngdacceleration i pendelformeln. För små utslag hos en matematisk pendel gäller \\(T=2\\pi\\sqrt{l/g}\\).</p>"
   },
   {
     "id": "2.37",
@@ -2622,7 +2720,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>För samma tyngdacceleration är periodtiden proportionell mot kvadratroten ur längden.</p>"
   },
   {
     "id": "2.38",
@@ -2642,7 +2741,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>En matematisk pendels längd mäts från upphängningspunkten till lodets tyngdpunkt.</p>"
   },
   {
     "id": "2.39",
@@ -2664,7 +2764,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>Bestäm först periodtiden ur den uppmätta tiden. För små utslag hos en matematisk pendel gäller \\(T=2\\pi\\sqrt{l/g}\\).</p>"
   },
   {
     "id": "2.40",
@@ -2686,7 +2787,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>Periodtiden är proportionell mot kvadratroten ur pendellängden.</p>"
   },
   {
     "id": "2.41",
@@ -2709,7 +2811,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__pendel_och_energi"
+    "familjNyckelTidigare": "pendlar__pendel_och_energi",
+    "ledtrad": "<p>Beräkna först höjdskillnaden och använd sedan energiprincipen.</p>"
   },
   {
     "id": "2.42",
@@ -2731,7 +2834,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>Samma pendel har samma längd, så jämför periodformlerna genom en kvot.</p>"
   },
   {
     "id": "2.43",
@@ -2753,7 +2857,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__konisk_pendel"
+    "familjNyckelTidigare": "pendlar__konisk_pendel",
+    "ledtrad": "<p>Snörkraftens lodräta komponent balanserar tyngdkraften och den vågräta ger centripetalkraften.</p>"
   },
   {
     "id": "2.44",
@@ -2773,7 +2878,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>Räkna som om tyngdaccelerationen i hissen har ett annat värde.</p>"
   },
   {
     "id": "2.45",
@@ -2795,7 +2901,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__matematisk_pendel_period"
+    "familjNyckelTidigare": "pendlar__matematisk_pendel_period",
+    "ledtrad": "<p>Pendeln ger tyngdaccelerationen vid ytan. Satellitens omloppstid kopplar sedan \\(g\\) till planetens radie.</p>"
   },
   {
     "id": "2.46",
@@ -2819,7 +2926,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\). För stående vågor avgör randvillkoren hur många halva eller fjärdedels våglängder som ryms.</p>"
   },
   {
     "id": "2.47",
@@ -2843,7 +2951,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Lös ut våglängden ur \\(v=f\\lambda\\). Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.48",
@@ -2867,7 +2976,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Frekvensen är ett delat med periodtiden. Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.49",
@@ -2889,7 +2999,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\). För stående vågor avgör randvillkoren hur många halva eller fjärdedels våglängder som ryms.</p>"
   },
   {
     "id": "2.50",
@@ -2912,7 +3023,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "vagrorelser__reflektion_och_brytning",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Vid en fast ände måste linans ände hela tiden ha elongationen noll. Reflektionen får därför motsatt tecken.</p>"
   },
   {
     "id": "2.51",
@@ -2936,7 +3048,8 @@ window.BANK2 = [
     "svarEnhet": "cm",
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Bestäm först perioden. Eftersom punkten startar i jämviktsläget och rör sig uppåt används en sinusfunktion.</p>"
   },
   {
     "id": "2.52",
@@ -2957,7 +3070,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>Tre bukar motsvarar tredje harmoniska tonen: tre halva våglängder ryms på strängen.</p>"
   },
   {
     "id": "2.53",
@@ -2980,7 +3094,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Frekvensen bestäms av källan och är oförändrad när vågen passerar gränsen.</p>"
   },
   {
     "id": "2.54",
@@ -3000,7 +3115,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__superposition"
+    "familjNyckelTidigare": "vagrorelser__superposition",
+    "ledtrad": "<p>Kanterna närmar sig varandra med summan av pulsernas farter.</p>"
   },
   {
     "id": "2.55",
@@ -3023,7 +3139,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "vagrorelser__reflektion_och_brytning",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\). För stående vågor avgör randvillkoren hur många halva eller fjärdedels våglängder som ryms.</p>"
   },
   {
     "id": "2.56",
@@ -3047,7 +3164,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Den markerade sträckan innehåller två hela våglängder. Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.57",
@@ -3069,7 +3187,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>För en högerriktad våg \\(y(x,t)=F(x-vt)\\) har punktens tvärhastighet motsatt tecken mot kurvans lutning.</p>"
   },
   {
     "id": "2.58",
@@ -3093,7 +3212,8 @@ window.BANK2 = [
     "spel": false,
     "familjNyckelTidigare": "vagrorelser__reflektion_och_brytning",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\). För stående vågor avgör randvillkoren hur många halva eller fjärdedels våglängder som ryms.</p>"
   },
   {
     "id": "2.59",
@@ -3114,7 +3234,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>Fem bukar innebär att fem halva våglängder ryms på strängen.</p>"
   },
   {
     "id": "2.60",
@@ -3137,7 +3258,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Bestäm först frekvensen i område 1. Samma frekvens gäller i område 2.</p>"
   },
   {
     "id": "2.61",
@@ -3159,7 +3281,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Pulsen förflyttas en ruta varje sekund. Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.62",
@@ -3181,7 +3304,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "vagrorelser__reflektion_och_brytning",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Den fasta änden kan inte röra sig, så elongationen där måste hela tiden vara noll. För att den inkommande och reflekterade pulsen ska uppfylla detta måste den reflekterade pulsen få motsatt tecken.</p>"
   },
   {
     "id": "2.63",
@@ -3201,7 +3325,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__superposition"
+    "familjNyckelTidigare": "vagrorelser__superposition",
+    "ledtrad": "<p>När pulserna ligger ovanpå varandra gäller superpositionsprincipen.</p>"
   },
   {
     "id": "2.64",
@@ -3223,7 +3348,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Omvandla avståndet till en fasskillnad. Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.65",
@@ -3244,7 +3370,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>Räkna områdena med maximal amplitud som bukar. Noder finns i båda ändarna och mellan intilliggande bukar.</p>"
   },
   {
     "id": "2.66",
@@ -3269,7 +3396,8 @@ window.BANK2 = [
     "manuellKomplettering": true,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Våghastigheten fås av pulsens förflyttning mellan ögonblicksbilderna.</p>"
   },
   {
     "id": "2.67",
@@ -3292,7 +3420,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Hz",
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>Beräkna först våghastigheten ur strängens spännkraft och massa per meter.</p>"
   },
   {
     "id": "2.68",
@@ -3317,7 +3446,8 @@ window.BANK2 = [
     "svarEnhet": "°",
     "familjNyckelTidigare": "vagrorelser__reflektion_och_brytning",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Använd brytningslagen och mät vinklarna mot normalen. Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.69",
@@ -3337,7 +3467,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__superposition"
+    "familjNyckelTidigare": "vagrorelser__superposition",
+    "ledtrad": "<p>Flytta först varje puls enligt dess hastighet och addera därefter elongationerna punkt för punkt.</p>"
   },
   {
     "id": "2.70",
@@ -3361,7 +3492,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Samma stränglängd och resonansform innebär oförändrad våglängd. Därför är \\(f\\propto v\\), och för strängen gäller \\(v\\propto\\sqrt F\\).</p>"
   },
   {
     "id": "2.71",
@@ -3385,7 +3517,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "ljudvagor__ljudfart_frekvens_och_vaglangd",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Lös ut våglängden ur \\(v=f\\lambda\\). Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.72",
@@ -3409,7 +3542,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "ljudvagor__ljudfart_frekvens_och_vaglangd",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Ekot innebär att ljudet färdas både till väggen och tillbaka.</p>"
   },
   {
     "id": "2.73",
@@ -3430,7 +3564,8 @@ window.BANK2 = [
     "tolerans": 3.75,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>I grundtonen för ett öppet rör ryms en halv våglängd i röret.</p>"
   },
   {
     "id": "2.74",
@@ -3451,7 +3586,8 @@ window.BANK2 = [
     "tolerans": 3.195,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>I grundtonen för ett halvöppet rör ryms en fjärdedels våglängd.</p>"
   },
   {
     "id": "2.75",
@@ -3472,7 +3608,8 @@ window.BANK2 = [
     "tolerans": 6.6,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Ett öppet rör har resonanserna \\(f_n=nf_1\\). Första övertonen är \\(n=2\\).</p>"
   },
   {
     "id": "2.76",
@@ -3493,7 +3630,8 @@ window.BANK2 = [
     "tolerans": 5.115,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Skillnaden mellan två närliggande resonanslängder i ett halvöppet rör är en halv våglängd.</p>"
   },
   {
     "id": "2.77",
@@ -3512,7 +3650,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Fem halva våglängder innebär att mönstret är fjärde övertonen.</p>"
   },
   {
     "id": "2.78",
@@ -3533,7 +3672,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__interferens_fran_tva_kallor"
+    "familjNyckelTidigare": "interferens__interferens_fran_tva_kallor",
+    "ledtrad": "<p>För två källor i fas fås första minimum när vägskillnaden är \\(\\lambda/2\\).</p>"
   },
   {
     "id": "2.79",
@@ -3555,7 +3695,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "ledtrad": "<p>Pröva resonansserierna för öppet och halvöppet rör. Avgör först om röret är öppet i båda ändar eller slutet i ena.</p>"
   },
   {
     "id": "2.80",
@@ -3574,7 +3715,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Grundtonen i ett öppet rör har \\(\\lambda=2L\\). Mätningen ger därför ljudhastigheten.</p>"
   },
   {
     "id": "2.81",
@@ -3599,7 +3741,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Tre noder i det öppna röret betyder att mönstret är andra övertonen.</p>"
   },
   {
     "id": "2.82",
@@ -3620,7 +3763,8 @@ window.BANK2 = [
     "tolerans": 2.13,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>I ett halvöppet rör följs grundtonen av första övertonen, andra övertonen och så vidare. Frekvenserna är</p>"
   },
   {
     "id": "2.83",
@@ -3644,7 +3788,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "ljudvagor__ljudfart_frekvens_och_vaglangd",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Ekot färdas sträckan till väggen två gånger. Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.84",
@@ -3663,7 +3808,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Avgör först om röret är öppet i båda ändar eller slutet i ena. Det bestämmer om längden motsvarar multiplar av \\(\\lambda/2\\) eller udda multiplar av \\(\\lambda/4\\).</p>"
   },
   {
     "id": "2.85",
@@ -3686,7 +3832,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "interferens__interferens_fran_tva_kallor"
+    "familjNyckelTidigare": "interferens__interferens_fran_tva_kallor",
+    "ledtrad": "<p>För första minimum från två källor i fas är vägskillnaden \\(\\lambda/2\\).</p>"
   },
   {
     "id": "2.86",
@@ -3710,7 +3857,8 @@ window.BANK2 = [
     "spel": false,
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\). För stående vågor avgör randvillkoren hur många halva eller fjärdedels våglängder som ryms.</p>"
   },
   {
     "id": "2.87",
@@ -3731,7 +3879,8 @@ window.BANK2 = [
     "tolerans": 3,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Grundtonen i ett halvöppet rör har \\(L=\\lambda/4\\). Avgör först om röret är öppet i båda ändar eller slutet i ena.</p>"
   },
   {
     "id": "2.88",
@@ -3755,7 +3904,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "ljudvagor__ljudfart_frekvens_och_vaglangd",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Avståndet mellan två intilliggande noder är en halv våglängd.</p>"
   },
   {
     "id": "2.89",
@@ -3776,7 +3926,8 @@ window.BANK2 = [
     "tolerans": 8.1,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Ett halvöppet rör har frekvenserna \\(f_1,3f_1,5f_1,\\ldots\\). Första övertonen är därför \\(3f_1\\).</p>"
   },
   {
     "id": "2.90",
@@ -3797,7 +3948,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Högtalarna sänder i fas. Jämför vägskillnaden med våglängden.</p>"
   },
   {
     "id": "2.91",
@@ -3820,7 +3972,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Pulveransamlingarna markerar noder. Avståndet mellan intilliggande noder är \\(\\lambda/2\\).</p>"
   },
   {
     "id": "2.92",
@@ -3839,7 +3992,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Tre halva våglängder betyder att mönstret är andra övertonen.</p>"
   },
   {
     "id": "2.93",
@@ -3858,7 +4012,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Skillnaden mellan på varandra följande resonanslängder i ett halvöppet rör är \\(\\lambda/2\\).</p>"
   },
   {
     "id": "2.94",
@@ -3878,7 +4033,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Avgör först om röret är öppet i båda ändar eller slutet i ena. Det bestämmer om längden motsvarar multiplar av \\(\\lambda/2\\) eller udda multiplar av \\(\\lambda/4\\).</p>"
   },
   {
     "id": "2.95",
@@ -3899,7 +4055,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Mellan två intilliggande maxima ändras vägskillnaden med en våglängd. Sträckan innehåller två sådana steg.</p>"
   },
   {
     "id": "2.96",
@@ -3921,7 +4078,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel"
+    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel",
+    "ledtrad": "<p>Ljudnivån jämför intensiteten med hörtröskelns referensintensitet \\(I_0\\).</p>"
   },
   {
     "id": "2.97",
@@ -3943,7 +4101,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel"
+    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel",
+    "ledtrad": "<p>Ljudnivå är logaritmisk: \\(L=10\\log_{10}(I/I_0)\\). När flera oberoende källor verkar samtidigt adderar du intensiteterna – inte decibeltalen direkt.</p>"
   },
   {
     "id": "2.98",
@@ -3963,7 +4122,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "ljud_horsel__ljudintensitet_och_horsel"
+    "familjNyckelTidigare": "ljud_horsel__ljudintensitet_och_horsel",
+    "ledtrad": "<p>Effekten fördelas jämnt över ytan av en sfär med radien \\(r\\).</p>"
   },
   {
     "id": "2.99",
@@ -3983,7 +4143,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel"
+    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel",
+    "ledtrad": "<p>Maskinerna är oberoende, så deras intensiteter adderas. Två lika stora intensiteter ger \\(I_{\\text{tot}}=2I\\).</p>"
   },
   {
     "id": "2.100",
@@ -4003,7 +4164,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "ljud_horsel__ljudintensitet_och_horsel"
+    "familjNyckelTidigare": "ljud_horsel__ljudintensitet_och_horsel",
+    "ledtrad": "<p>En ung människas ungefärliga hörselområde brukar anges till \\(20\\ \\mathrm{Hz}\\)–\\(20\\ \\mathrm{kHz}\\).</p>"
   },
   {
     "id": "2.101",
@@ -4023,7 +4185,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel"
+    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel",
+    "ledtrad": "<p>När ljudet sprids fritt åt alla håll avtar intensiteten som \\(1/r^2\\). När avståndet ökar används därför nivåminskningen \\(20\\log_{10}(r_2/r_1)\\).</p>"
   },
   {
     "id": "2.102",
@@ -4045,7 +4208,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel"
+    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel",
+    "ledtrad": "<p>Man kan inte ta medelvärdet av decibelvärden direkt. Räkna om varje nivå till intensitet, väg samman efter hur länge nivån varar och räkna sedan tillbaka till decibel.</p>"
   },
   {
     "id": "2.103",
@@ -4065,7 +4229,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel"
+    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel",
+    "ledtrad": "<p>Lös först ut intensiteten ur decibeldefinitionen. Ljudnivå är logaritmisk: \\(L=10\\log_{10}(I/I_0)\\).</p>"
   },
   {
     "id": "2.104",
@@ -4085,7 +4250,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel"
+    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel",
+    "ledtrad": "<p>Behandla bidragen som tre nivåförändringar: fyra oberoende källor, större avstånd och hur mycket ljud skärmen släpper igenom.</p>"
   },
   {
     "id": "2.105",
@@ -4105,7 +4271,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel"
+    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel",
+    "ledtrad": "<p>Sätt den närmaste punktens avstånd till \\(r_1\\). Den andra ligger då på \\(r_2=r_1+5{,}0\\ \\mathrm m\\). Nivåskillnaden är \\(6{,}0\\ \\mathrm{dB}\\).</p>"
   },
   {
     "id": "2.106",
@@ -4127,7 +4294,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "extrema_frekvenser__ultraljud"
+    "familjNyckelTidigare": "extrema_frekvenser__ultraljud",
+    "ledtrad": "<p>Använd vågsambandet \\(v=f\\lambda\\) och skriv \\(50\\ \\mathrm{kHz}=5{,}0\\cdot10^4\\ \\mathrm{Hz}\\).</p>"
   },
   {
     "id": "2.107",
@@ -4149,7 +4317,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "familjNyckelTidigare": "extrema_frekvenser__ultraljud"
+    "familjNyckelTidigare": "extrema_frekvenser__ultraljud",
+    "ledtrad": "<p>Den uppmätta tiden gäller hela vägen ned till botten och tillbaka. Den totala sträckan är därför \\(2d\\).</p>"
   },
   {
     "id": "2.108",
@@ -4169,7 +4338,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "extrema_frekvenser__ultraljud"
+    "familjNyckelTidigare": "extrema_frekvenser__ultraljud",
+    "ledtrad": "<p>Människans övre hörselgräns brukar anges till ungefär \\(20\\ \\mathrm{kHz}\\). Frekvenser över denna gräns klassas som ultraljud.</p>"
   },
   {
     "id": "2.109",
@@ -4191,7 +4361,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "extrema_frekvenser__infraljud"
+    "familjNyckelTidigare": "extrema_frekvenser__infraljud",
+    "ledtrad": "<p>Använd vågsambandet \\(v=f\\lambda\\). Koppla frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.110",
@@ -4212,7 +4383,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "extrema_frekvenser__ultraljud"
+    "familjNyckelTidigare": "extrema_frekvenser__ultraljud",
+    "ledtrad": "<p>I en viss vävnad är ljudhastigheten ungefär konstant. Av \\(\\lambda=v/f\\) följer då att en högre frekvens ger en kortare våglängd.</p>"
   },
   {
     "id": "2.111",
@@ -4234,7 +4406,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "familjNyckelTidigare": "extrema_frekvenser__ultraljud"
+    "familjNyckelTidigare": "extrema_frekvenser__ultraljud",
+    "ledtrad": "<p>Koppla frekvens och våglängd med \\(v=f\\lambda\\). För elektromagnetiska vågor i vakuum är \\(v=c\\).</p>"
   },
   {
     "id": "2.112",
@@ -4256,7 +4429,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "extrema_frekvenser__ultraljud"
+    "familjNyckelTidigare": "extrema_frekvenser__ultraljud",
+    "ledtrad": "<p>Insekten är en stillastående observatör och fladdermusen en källa som närmar sig. Då blir den observerade frekvensen</p>"
   },
   {
     "id": "2.113",
@@ -4276,7 +4450,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "extrema_frekvenser__ultraljud"
+    "familjNyckelTidigare": "extrema_frekvenser__ultraljud",
+    "ledtrad": "<p>Minsta frekvens fås när våglängden är så stor som tumregeln tillåter: \\(\\lambda_{\\max}=0{,}50\\ \\mathrm{mm}\\).</p>"
   },
   {
     "id": "2.114",
@@ -4296,7 +4471,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "extrema_frekvenser__ultraljud"
+    "familjNyckelTidigare": "extrema_frekvenser__ultraljud",
+    "ledtrad": "<p>Fartyget tar först emot en dopplerförskjuten signal och fungerar sedan som en rörlig källa när vågen reflekteras. För ett mål som rör sig bort blir den totala frekvensändringen</p>"
   },
   {
     "id": "2.115",
@@ -4320,7 +4496,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "manuellKomplettering": true,
-    "familjNyckelTidigare": "extrema_frekvenser__ultraljud"
+    "familjNyckelTidigare": "extrema_frekvenser__ultraljud",
+    "ledtrad": "<p>Lös ut blodets hastighet ur den givna dopplerformeln. Använd \\(f_0=5{,}0\\cdot10^6\\ \\mathrm{Hz}\\), \\(\\Delta f=1{,}80\\cdot10^3\\ \\mathrm{Hz}\\) och \\(\\cos60^\\circ=0{,}50\\).</p>"
   },
   {
     "id": "2.116",
@@ -4341,7 +4518,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Vid superposition adderas vågornas elongationer punkt för punkt.</p>"
   },
   {
     "id": "2.117",
@@ -4362,7 +4540,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>För vågor som startar i fas fås konstruktiv interferens när vägskillnaden är ett helt antal våglängder.</p>"
   },
   {
     "id": "2.118",
@@ -4383,7 +4562,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>För vågor som startar i fas fås destruktiv interferens vid en udda multipel av en halv våglängd.</p>"
   },
   {
     "id": "2.119",
@@ -4405,7 +4585,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Diffraktion blir tydlig när öppningens bredd är jämförbar med våglängden.</p>"
   },
   {
     "id": "2.120",
@@ -4427,7 +4608,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "vagrorelser__vagfart_frekvens_och_vaglangd",
     "familjTidigare": "Vågrörelser: fart, reflektion och brytning",
-    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning"
+    "familjNyckelFöreHierarki": "vagrorelser__vagrorelser_fart_reflektion_och_brytning",
+    "ledtrad": "<p>Frekvensen anger hur ofta vågtoppar lämnar källan och måste vara densamma på båda sidor om gränsen.</p>"
   },
   {
     "id": "2.121",
@@ -4448,7 +4630,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Källorna svänger i fas. Jämför vägskillnaden med våglängden.</p>"
   },
   {
     "id": "2.122",
@@ -4469,7 +4652,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Mellan intilliggande maxima ändras vägskillnaden med en våglängd. Från A till B finns två sådana intervall.</p>"
   },
   {
     "id": "2.123",
@@ -4490,7 +4674,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>Fyra bukar innebär att fyra halva våglängder ryms på strängen.</p>"
   },
   {
     "id": "2.124",
@@ -4514,7 +4699,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
     "manuellKomplettering": true,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Ta med både vägskillnadens fas och källornas inbyggda fasskillnad \\(\\pi\\).</p>"
   },
   {
     "id": "2.125",
@@ -4535,7 +4721,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>För samma sträng och samma svängningsform är våglängden konstant. Därför gäller \\(f\\propto v\\propto\\sqrt F\\).</p>"
   },
   {
     "id": "2.126",
@@ -4559,7 +4746,8 @@ window.BANK2 = [
     "spel": false,
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\). För stående vågor avgör randvillkoren hur många halva eller fjärdedels våglängder som ryms.</p>"
   },
   {
     "id": "2.127",
@@ -4583,7 +4771,8 @@ window.BANK2 = [
     "spel": false,
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\). För stående vågor avgör randvillkoren hur många halva eller fjärdedels våglängder som ryms.</p>"
   },
   {
     "id": "2.128",
@@ -4607,7 +4796,8 @@ window.BANK2 = [
     "spel": false,
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\). För stående vågor avgör randvillkoren hur många halva eller fjärdedels våglängder som ryms.</p>"
   },
   {
     "id": "2.129",
@@ -4627,7 +4817,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": false
+    "spel": false,
+    "ledtrad": "<p>Avgör först om röret är öppet i båda ändar eller slutet i ena. Det bestämmer om längden motsvarar multiplar av \\(\\lambda/2\\) eller udda multiplar av \\(\\lambda/4\\).</p>"
   },
   {
     "id": "2.130",
@@ -4651,7 +4842,8 @@ window.BANK2 = [
     "spel": false,
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\). För stående vågor avgör randvillkoren hur många halva eller fjärdedels våglängder som ryms.</p>"
   },
   {
     "id": "2.131",
@@ -4676,7 +4868,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Tre bukar betyder \\(n=3\\), alltså andra övertonen. Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.132",
@@ -4700,7 +4893,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "ljudvagor__ljudfart_frekvens_och_vaglangd",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Fyra halva våglängder ryms på sträckan. Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.133",
@@ -4742,7 +4936,8 @@ window.BANK2 = [
     ],
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>I en öppen pipa gäller \\(L=n\\lambda_n/2\\) och \\(f_n=nf_1\\). Den undre figuren har tre halva våglängder och visar därför den andra övertonen, \\(n=3\\).</p>"
   },
   {
     "id": "2.134",
@@ -4766,7 +4961,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "ljudvagor__ljudfart_frekvens_och_vaglangd",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Två bukar betyder andra harmoniska svängningen. För en sträng som är fixerad i båda ändar är då \\(L=\\lambda\\).</p>"
   },
   {
     "id": "2.135",
@@ -4785,7 +4981,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Avgör först om röret är öppet i båda ändar eller slutet i ena. Det bestämmer om längden motsvarar multiplar av \\(\\lambda/2\\) eller udda multiplar av \\(\\lambda/4\\).</p>"
   },
   {
     "id": "2.136",
@@ -4806,7 +5003,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>Mönstret har två bukar, alltså \\(n=2\\): andra harmoniska tonen eller första övertonen.</p>"
   },
   {
     "id": "2.137",
@@ -4827,7 +5025,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>Fyra bukar betyder \\(n=4\\), alltså tredje övertonen. Markera noder och bukar.</p>"
   },
   {
     "id": "2.138",
@@ -4848,7 +5047,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>A har tre bukar och B fyra, alltså \\(n=3\\) respektive \\(n=4\\). För en sträng gäller \\(f_n=nf_1\\).</p>"
   },
   {
     "id": "2.139",
@@ -4869,7 +5069,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>Fem bukar betyder \\(n=5\\), alltså fjärde övertonen. Markera noder och bukar.</p>"
   },
   {
     "id": "2.140",
@@ -4894,7 +5095,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>En halvöppen pipa har nod vid den stängda änden och buk vid den öppna. Figuren rymmer \\(3/4\\) våglängd, vilket betyder att den visar första övertonen.</p>"
   },
   {
     "id": "2.141",
@@ -4913,7 +5115,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>I ett öppet rör är båda ändarna förskjutningsbukar. De fyra markerade inre noderna visar att mönstret är tredje övertonen.</p>"
   },
   {
     "id": "2.142",
@@ -4932,7 +5135,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Fem kvarts våglängder ryms i den halvöppna pipan. Det är resonansen \\(5f_1\\), alltså den andra övertonen.</p>"
   },
   {
     "id": "2.143",
@@ -4952,7 +5156,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>För samma längd har en öppen pipa grundvåglängden \\(2L\\), medan en halvöppen pipa har grundvåglängden \\(4L\\).</p>"
   },
   {
     "id": "2.144",
@@ -4974,7 +5179,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>Markera noder och bukar. Avståndet mellan två intilliggande noder är \\(\\lambda/2\\); koppla sedan våglängden till frekvensen med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.145",
@@ -4996,7 +5202,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>Markera noder och bukar. Avståndet mellan två intilliggande noder är \\(\\lambda/2\\); koppla sedan våglängden till frekvensen med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.146",
@@ -5020,7 +5227,8 @@ window.BANK2 = [
     "spel": false,
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\). För stående vågor avgör randvillkoren hur många halva eller fjärdedels våglängder som ryms.</p>"
   },
   {
     "id": "2.147",
@@ -5042,7 +5250,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>Markera noder och bukar. Avståndet mellan två intilliggande noder är \\(\\lambda/2\\); koppla sedan våglängden till frekvensen med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "2.148",
@@ -5063,7 +5272,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__interferens_fran_tva_kallor"
+    "familjNyckelTidigare": "interferens__interferens_fran_tva_kallor",
+    "ledtrad": "<p>Beräkna först de båda gångvägarna. Den vänstra är \\(r_1=2{,}0\\ \\mathrm m\\); den högra fås med Pythagoras sats.</p>"
   },
   {
     "id": "2.149",
@@ -5086,7 +5296,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Högtalarna ligger \\(7{,}0\\ \\mathrm m\\) på var sida om centrallinjen. Från A blir de vågräta avstånden \\(6{,}20\\ \\mathrm m\\) respektive \\(7{,}80\\ \\mathrm m\\).</p>"
   },
   {
     "id": "2.150",
@@ -5107,7 +5318,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Från P är de vågräta avstånden till högtalarna \\(1{,}2-0{,}42=0{,}78\\ \\mathrm m\\) och \\(1{,}2+0{,}42=1{,}62\\ \\mathrm m\\).</p>"
   },
   {
     "id": "2.151",
@@ -5128,7 +5340,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>C ligger på symmetrilinjen, så avstånden till högtalarna är lika.</p>"
   },
   {
     "id": "2.152",
@@ -5149,7 +5362,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>För källor i fas ger ett helt antal våglängder konstruktiv interferens.</p>"
   },
   {
     "id": "2.153",
@@ -5194,15 +5408,18 @@ window.BANK2 = [
       {
         "etikett": "a",
         "t": "<p>Två punktkällor i en vågbassäng svänger i fas. Till mätpunkten P är avstånden 2,10 m och 2,55 m. P ligger i det första interferensminimumet. Vågornas hastighet är 0,54 m/s.</p><span class=\"fig bred\"><svg aria-label=\"Vågbassäng med två punktkällor och en mätpunkt.\" height=\"254\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0.629 15.086 438.743 179.771\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Vågbassäng med två punktkällor och en mätpunkt.</title><rect fill=\"#DCE6F2\" height=\"160\" rx=\"8\" stroke=\"#2A5D9E\" stroke-width=\"1.5\" width=\"400\" x=\"20\" y=\"25\"></rect><circle cx=\"85\" cy=\"70\" fill=\"#fff\" r=\"7\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><circle cx=\"85\" cy=\"145\" fill=\"#fff\" r=\"7\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><circle cx=\"345\" cy=\"105\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"start\" x=\"357\" y=\"109\">P</text><line stroke=\"#2A5D9E\" stroke-dasharray=\"6 4\" stroke-width=\"2\" x1=\"85\" x2=\"345\" y1=\"70\" y2=\"105\"></line><line stroke=\"#B43123\" stroke-dasharray=\"6 4\" stroke-width=\"2\" x1=\"85\" x2=\"345\" y1=\"145\" y2=\"105\"></line><text font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" x=\"65\" y=\"62\">K₁</text><text font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" x=\"65\" y=\"162\">K₂</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"210\" y=\"76\">2,10 m</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"210\" y=\"145\">2,55 m</text></svg></span><div class=\"spel-en-del\">Bestäm våglängden.</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Det första minimumet för källor i fas uppstår när vägskillnaden är en halv våglängd.</p><div class=\"facit-matte\">\\[\\Delta r=2{,}55-2{,}10=0{,}45\\ \\mathrm m=\\frac{\\lambda}{2}\\]</div></div></div></div>"
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Det första minimumet för källor i fas uppstår när vägskillnaden är en halv våglängd.</p><div class=\"facit-matte\">\\[\\Delta r=2{,}55-2{,}10=0{,}45\\ \\mathrm m=\\frac{\\lambda}{2}\\]</div></div></div></div>",
+        "ledtrad": "<p>Det första minimumet för källor i fas uppstår när vägskillnaden är en halv våglängd.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>Två punktkällor i en vågbassäng svänger i fas. Till mätpunkten P är avstånden 2,10 m och 2,55 m. P ligger i det första interferensminimumet. Vågornas hastighet är 0,54 m/s.</p><span class=\"fig bred\"><svg aria-label=\"Vågbassäng med två punktkällor och en mätpunkt.\" height=\"254\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0.629 15.086 438.743 179.771\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Vågbassäng med två punktkällor och en mätpunkt.</title><rect fill=\"#DCE6F2\" height=\"160\" rx=\"8\" stroke=\"#2A5D9E\" stroke-width=\"1.5\" width=\"400\" x=\"20\" y=\"25\"></rect><circle cx=\"85\" cy=\"70\" fill=\"#fff\" r=\"7\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><circle cx=\"85\" cy=\"145\" fill=\"#fff\" r=\"7\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><circle cx=\"345\" cy=\"105\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"start\" x=\"357\" y=\"109\">P</text><line stroke=\"#2A5D9E\" stroke-dasharray=\"6 4\" stroke-width=\"2\" x1=\"85\" x2=\"345\" y1=\"70\" y2=\"105\"></line><line stroke=\"#B43123\" stroke-dasharray=\"6 4\" stroke-width=\"2\" x1=\"85\" x2=\"345\" y1=\"145\" y2=\"105\"></line><text font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" x=\"65\" y=\"62\">K₁</text><text font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" x=\"65\" y=\"162\">K₂</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"210\" y=\"76\">2,10 m</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"210\" y=\"145\">2,55 m</text></svg></span><div class=\"spel-en-del\">Bestäm frekvensen.</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut våglängden.</p><div class=\"facit-matte\">\\[\\lambda=0{,}90\\ \\mathrm m\\]</div></div></div></div>"
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut våglängden.</p><div class=\"facit-matte\">\\[\\lambda=0{,}90\\ \\mathrm m\\]</div></div></div></div>",
+        "ledtrad": "<p>Beräkna vägskillnaden. För källor i fas ger heltalsmultiplar av \\(\\lambda\\) maximum och halvtalsmultiplar minimum; för gitter kan du använda \\(d\\sin\\theta=m\\lambda\\).</p>"
       }
     ],
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Det första minimumet för källor i fas uppstår när vägskillnaden är en halv våglängd.</p>"
   },
   {
     "id": "2.154",
@@ -5223,7 +5440,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>När vägarna är lika långa kommer vågtoppen från det ena ljudet fram samtidigt som vågdalen från det andra.</p>"
   },
   {
     "id": "2.155",
@@ -5244,7 +5462,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Mellan ett maximum och närmaste minimum ändras vägskillnaden med en halv våglängd.</p>"
   },
   {
     "id": "2.156",
@@ -5265,7 +5484,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Beräkna vägskillnaden. För källor i fas ger heltalsmultiplar av \\(\\lambda\\) maximum och halvtalsmultiplar minimum; för gitter kan du använda \\(d\\sin\\theta=m\\lambda\\).</p>"
   },
   {
     "id": "2.157",
@@ -5286,7 +5506,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Den korta vägen är given. Den andra är hypotenusan i en rätvinklig triangel.</p>"
   },
   {
     "id": "2.158",
@@ -5307,7 +5528,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Beräkna vägen från den högra källan med Pythagoras sats. Beräkna vägskillnaden.</p>"
   },
   {
     "id": "2.159",
@@ -5328,7 +5550,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Den sneda ljudvägen fås med Pythagoras sats. Beräkna vägskillnaden.</p>"
   },
   {
     "id": "2.160",
@@ -5349,7 +5572,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>På centrallinjen är vägskillnaden noll. Ett minimum där innebär att källorna är i motfas.</p>"
   },
   {
     "id": "2.161",
@@ -5370,7 +5594,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>För källor i fas ska P vara minimum och Q maximum.</p>"
   },
   {
     "id": "2.162",
@@ -5391,7 +5616,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>De vågräta avstånden från P till högtalarna är 1,0 m och 2,0 m. Använd Pythagoras sats.</p>"
   },
   {
     "id": "2.163",
@@ -5412,7 +5638,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>De vågräta avstånden är 1,0 m och 3,0 m. Beräkna vägskillnaden.</p>"
   },
   {
     "id": "2.164",
@@ -5433,7 +5660,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Beräkna avstånden från källorna till P. Beräkna vägskillnaden.</p>"
   },
   {
     "id": "2.165",
@@ -5454,7 +5682,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Beräkna ljudvägarna och deras skillnad. Beräkna vägskillnaden.</p>"
   },
   {
     "id": "2.166",
@@ -5475,7 +5704,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Beräkna vägskillnaden. För källor i fas ger heltalsmultiplar av \\(\\lambda\\) maximum och halvtalsmultiplar minimum; för gitter kan du använda \\(d\\sin\\theta=m\\lambda\\).</p>"
   },
   {
     "id": "2.167",
@@ -5496,7 +5726,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>De vågräta avstånden är 0,40 m och 2,00 m. Beräkna vägskillnaden.</p>"
   },
   {
     "id": "2.168",
@@ -5517,7 +5748,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>De vågräta avstånden från P är 1,2 m och 2,4 m. Beräkna vägskillnaden.</p>"
   },
   {
     "id": "2.169",
@@ -5538,7 +5770,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Beräkna ljudvägarna och vägskillnaden. Beräkna vägskillnaden.</p>"
   },
   {
     "id": "2.170",
@@ -5561,7 +5794,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Beräkna våglängden. Vid det första minimumet ska vägskillnaden vara en halv våglängd.</p>"
   },
   {
     "id": "2.171",
@@ -5606,15 +5840,18 @@ window.BANK2 = [
       {
         "etikett": "a",
         "t": "<p>Två scenhögtalare står 3,2 m från varandra och spelar i fas. Mätlinjen ligger 4,5 m framför dem. Det första minimumet finns i P, 0,65 m från M. Punkten Q är nästa maximum längre bort på samma sida. Använd ljudhastigheten 340 m/s.</p><span class=\"fig bred\"><svg aria-label=\"Mätlinje framför två scenhögtalare med ett första minimum i P och nästa maximum i Q.\" height=\"359\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 440 255\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje framför två scenhögtalare med ett första minimum i P och nästa maximum i Q.</title><rect fill=\"#FAFAFB\" height=\"176\" rx=\"8\" stroke=\"#D5D2D7\" stroke-width=\"1.4\" width=\"400\" x=\"20\" y=\"32\"></rect><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"42\" x2=\"408\" y1=\"48\" y2=\"48\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" text-anchor=\"end\" x=\"405\" y=\"40\">mätlinje</text><line stroke=\"#9A959C\" stroke-dasharray=\"5 5\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"48\" y2=\"190\"></line><g transform=\"translate(110 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₁</text></g><g transform=\"translate(330 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₂</text></g><circle cx=\"220\" cy=\"48\" fill=\"#2B2527\" r=\"5\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" text-anchor=\"end\" x=\"210\" y=\"39\">M</text><circle cx=\"264.6875\" cy=\"48\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" x=\"274.6875\" y=\"39\">P</text><line stroke=\"#B43123\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"110\" x2=\"264.6875\" y1=\"190\" y2=\"48\"></line><line stroke=\"#2A5D9E\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"330\" x2=\"264.6875\" y1=\"190\" y2=\"48\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"177.34375\" y=\"129\">r₂</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"305.34375\" y=\"111\">r₁</text><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"264.6875\" y1=\"72\" y2=\"72\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"67\" y2=\"77\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"264.6875\" x2=\"264.6875\" y1=\"67\" y2=\"77\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"242.34375\" y=\"79\">0,65 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"58\" x2=\"58\" y1=\"48\" y2=\"190\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"48\" y2=\"48\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"190\" y2=\"190\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"end\" x=\"49\" y=\"119\">4,5 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"330\" y1=\"228\" y2=\"228\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"110\" y1=\"223\" y2=\"233\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"330\" x2=\"330\" y1=\"223\" y2=\"233\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"220\" y=\"244\">3,2 m</text><circle cx=\"311.4375\" cy=\"48\" fill=\"#2A5D9E\" r=\"5\"></circle><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" x=\"321.4375\" y=\"39\">Q</text><line stroke=\"#2A5D9E\" stroke-width=\"1.2\" x1=\"220\" x2=\"311.4375\" y1=\"20\" y2=\"20\"></line><line stroke=\"#2A5D9E\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"15\" y2=\"25\"></line><line stroke=\"#2A5D9E\" stroke-width=\"1.2\" x1=\"311.4375\" x2=\"311.4375\" y1=\"15\" y2=\"25\"></line><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"265.71875\" y=\"13\">sökt avstånd</text><line stroke=\"#9A959C\" stroke-dasharray=\"4 4\" stroke-width=\"1.2\" x1=\"110\" x2=\"311.4375\" y1=\"190\" y2=\"48\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"4 4\" stroke-width=\"1.2\" x1=\"330\" x2=\"311.4375\" y1=\"190\" y2=\"48\"></line></svg></span><div class=\"spel-en-del\">Bestäm ljudets frekvens.</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna ljudvägarna till P. De vågräta avstånden är 0,95 m och 2,25 m.</p><div class=\"facit-matte\">\\[r_1=\\sqrt{4{,}5^2+0{,}95^2}=4{,}599\\ \\mathrm m\\]\\[r_2=\\sqrt{4{,}5^2+2{,}25^2}=5{,}031\\ \\mathrm m\\]\\[\\Delta r_P=0{,}432\\ \\mathrm m\\]</div></div></div></div>"
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna ljudvägarna till P. De vågräta avstånden är 0,95 m och 2,25 m.</p><div class=\"facit-matte\">\\[r_1=\\sqrt{4{,}5^2+0{,}95^2}=4{,}599\\ \\mathrm m\\]\\[r_2=\\sqrt{4{,}5^2+2{,}25^2}=5{,}031\\ \\mathrm m\\]\\[\\Delta r_P=0{,}432\\ \\mathrm m\\]</div></div></div></div>",
+        "ledtrad": "<p>Beräkna ljudvägarna till P. De vågräta avstånden är 0,95 m och 2,25 m.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>Två scenhögtalare står 3,2 m från varandra och spelar i fas. Mätlinjen ligger 4,5 m framför dem. Det första minimumet finns i P, 0,65 m från M. Punkten Q är nästa maximum längre bort på samma sida. Använd ljudhastigheten 340 m/s.</p><span class=\"fig bred\"><svg aria-label=\"Mätlinje framför två scenhögtalare med ett första minimum i P och nästa maximum i Q.\" height=\"359\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 440 255\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje framför två scenhögtalare med ett första minimum i P och nästa maximum i Q.</title><rect fill=\"#FAFAFB\" height=\"176\" rx=\"8\" stroke=\"#D5D2D7\" stroke-width=\"1.4\" width=\"400\" x=\"20\" y=\"32\"></rect><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"42\" x2=\"408\" y1=\"48\" y2=\"48\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" text-anchor=\"end\" x=\"405\" y=\"40\">mätlinje</text><line stroke=\"#9A959C\" stroke-dasharray=\"5 5\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"48\" y2=\"190\"></line><g transform=\"translate(110 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₁</text></g><g transform=\"translate(330 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₂</text></g><circle cx=\"220\" cy=\"48\" fill=\"#2B2527\" r=\"5\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" text-anchor=\"end\" x=\"210\" y=\"39\">M</text><circle cx=\"264.6875\" cy=\"48\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" x=\"274.6875\" y=\"39\">P</text><line stroke=\"#B43123\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"110\" x2=\"264.6875\" y1=\"190\" y2=\"48\"></line><line stroke=\"#2A5D9E\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"330\" x2=\"264.6875\" y1=\"190\" y2=\"48\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"177.34375\" y=\"129\">r₂</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"305.34375\" y=\"111\">r₁</text><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"264.6875\" y1=\"72\" y2=\"72\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"67\" y2=\"77\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"264.6875\" x2=\"264.6875\" y1=\"67\" y2=\"77\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"242.34375\" y=\"79\">0,65 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"58\" x2=\"58\" y1=\"48\" y2=\"190\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"48\" y2=\"48\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"190\" y2=\"190\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"end\" x=\"49\" y=\"119\">4,5 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"330\" y1=\"228\" y2=\"228\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"110\" y1=\"223\" y2=\"233\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"330\" x2=\"330\" y1=\"223\" y2=\"233\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"220\" y=\"244\">3,2 m</text><circle cx=\"311.4375\" cy=\"48\" fill=\"#2A5D9E\" r=\"5\"></circle><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" x=\"321.4375\" y=\"39\">Q</text><line stroke=\"#2A5D9E\" stroke-width=\"1.2\" x1=\"220\" x2=\"311.4375\" y1=\"20\" y2=\"20\"></line><line stroke=\"#2A5D9E\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"15\" y2=\"25\"></line><line stroke=\"#2A5D9E\" stroke-width=\"1.2\" x1=\"311.4375\" x2=\"311.4375\" y1=\"15\" y2=\"25\"></line><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"265.71875\" y=\"13\">sökt avstånd</text><line stroke=\"#9A959C\" stroke-dasharray=\"4 4\" stroke-width=\"1.2\" x1=\"110\" x2=\"311.4375\" y1=\"190\" y2=\"48\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"4 4\" stroke-width=\"1.2\" x1=\"330\" x2=\"311.4375\" y1=\"190\" y2=\"48\"></line></svg></span><div class=\"spel-en-del\">Bestäm avståndet från M till Q.</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">P är det första minimumet, så vägskillnaden är en halv våglängd.</p><div class=\"facit-matte\">\\[\\lambda=2\\Delta r_P=0{,}864\\ \\mathrm m\\]\\[f=\\frac{340}{0{,}864}=394\\ \\mathrm{Hz}\\]</div></div></div></div>"
+        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">P är det första minimumet, så vägskillnaden är en halv våglängd.</p><div class=\"facit-matte\">\\[\\lambda=2\\Delta r_P=0{,}864\\ \\mathrm m\\]\\[f=\\frac{340}{0{,}864}=394\\ \\mathrm{Hz}\\]</div></div></div></div>",
+        "ledtrad": "<p>P är det första minimumet, så vägskillnaden är en halv våglängd.</p>"
       }
     ],
-    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens"
+    "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
+    "ledtrad": "<p>Beräkna ljudvägarna till P. De vågräta avstånden är 0,95 m och 2,25 m.</p>"
   },
   {
     "id": "3.1",
@@ -5640,7 +5877,8 @@ window.BANK2 = [
     "manuellKomplettering": true,
     "familjNyckelTidigare": "elektriska_falt__homogent_elektriskt_falt",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Kraften på en laddning i ett elektriskt fält är \\(F=qE\\). Kraftens storlek fås med laddningens belopp.</p>"
   },
   {
     "id": "3.2",
@@ -5681,7 +5919,8 @@ window.BANK2 = [
     ],
     "familjNyckelTidigare": "elektriska_falt__homogent_elektriskt_falt",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Mellan parallella plattor är fältet homogent och \\(E=U/d\\). Omvandla \\(2{,}4\\ \\mathrm{kV}\\) till volt och \\(3{,}0\\ \\mathrm{cm}\\) till meter.</p>"
   },
   {
     "id": "3.3",
@@ -5722,7 +5961,8 @@ window.BANK2 = [
     ],
     "familjNyckelTidigare": "elektriska_falt__faltstyrka_och_elektrisk_kraft",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Droppen svävar, så nettokraften är noll. Tyngdkraften är nedåt och den elektriska kraften måste vara uppåt. Eftersom fältet är riktat nedåt måste laddningen vara negativ.</p>"
   },
   {
     "id": "3.4",
@@ -5742,7 +5982,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning"
+    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning",
+    "ledtrad": "<p>En kondensators laddning ges av \\(Q=CU\\). Använd \\(Q=CU\\).</p>"
   },
   {
     "id": "3.5",
@@ -5784,7 +6025,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator"
+    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator",
+    "ledtrad": "<p>Den elektriska energin i en laddad kondensator är \\(W=CU^2/2\\).</p>"
   },
   {
     "id": "3.6",
@@ -5805,7 +6047,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator"
+    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator",
+    "ledtrad": "<p>Batteriet är anslutet och håller spänningen \\(U=200\\ \\mathrm V\\) konstant. Fältstyrkan är \\(E=U/d\\).</p>"
   },
   {
     "id": "3.7",
@@ -5827,7 +6070,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "ledtrad": "<p>Ledaren är vinkelrät mot fältet, så \\(\\sin90^\\circ=1\\) i \\(F=BIl\\sin\\theta\\).</p>"
   },
   {
     "id": "3.8",
@@ -5849,7 +6093,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>För att staven precis ska sväva måste den magnetiska kraften uppåt vara lika stor som tyngdkraften nedåt.</p>"
   },
   {
     "id": "3.9",
@@ -5868,7 +6113,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Kraften per längdenhet mellan två långa parallella strömledare är \\(F/L=\\mu_0I_1I_2/(2\\pi d)\\).</p>"
   },
   {
     "id": "3.10",
@@ -5892,7 +6138,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "manuellKomplettering": true,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>När hastigheten är vinkelrät mot magnetfältet är kraftens storlek \\(F=|q|vB\\).</p>"
   },
   {
     "id": "3.11",
@@ -5935,7 +6182,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.12",
@@ -5955,7 +6203,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__partikel_i_korsade_falt"
+    "familjNyckelTidigare": "laddade_partiklar__partikel_i_korsade_falt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.13",
@@ -5974,7 +6223,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Kompassnålen är en liten stavmagnet. Jordens magnetfält vrider den tills nålen ligger längs fältet.</p>"
   },
   {
     "id": "3.14",
@@ -5994,7 +6244,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "jordens_magnetfalt__inklination_och_deklination"
+    "familjNyckelTidigare": "jordens_magnetfalt__inklination_och_deklination",
+    "ledtrad": "<p>Inklinationsvinkeln mäts nedåt från vågrätt läge. Den vågräta komposanten är därför närliggande katet och den lodräta motstående katet.</p>"
   },
   {
     "id": "3.15",
@@ -6015,7 +6266,8 @@ window.BANK2 = [
     "tolerans": 0.495,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "µT"
+    "svarEnhet": "µT",
+    "ledtrad": "<p>Fältet från en lång rak ledare är \\(B=\\mu_0I/(2\\pi r)\\). Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet.</p>"
   },
   {
     "id": "3.16",
@@ -6035,7 +6287,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>Faradays induktionslag ger spänningens storlek. Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\).</p>"
   },
   {
     "id": "3.17",
@@ -6078,7 +6331,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "induktion__rorelseinduktion"
+    "familjNyckelTidigare": "induktion__rorelseinduktion",
+    "ledtrad": "<p>En stav som rör sig vinkelrätt mot både sin egen längd och magnetfältet får en inducerad spänning.</p>"
   },
   {
     "id": "3.18",
@@ -6099,7 +6353,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.19",
@@ -6119,7 +6374,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom"
+    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom",
+    "ledtrad": "<p>Periodtiden är ett delat med frekvensen. Läs av toppvärdet och vinkelfrekvensen ur sinusuttrycket.</p>"
   },
   {
     "id": "3.20",
@@ -6139,7 +6395,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vaxelstrom__effektivvarde"
+    "familjNyckelTidigare": "vaxelstrom__effektivvarde",
+    "ledtrad": "<p>För en sinusformad spänning är toppvärdet \\(\\sqrt2\\) gånger effektivvärdet.</p>"
   },
   {
     "id": "3.21",
@@ -6148,18 +6405,74 @@ window.BANK2 = [
     "niva": "C",
     "typ": "tolka en spänningsfunktion och beräkna effektivvärden och energi, ur text, sökt frekvens, ström och energi",
     "poang": "(2/2/0)",
-    "t": "<p>En generator ger spänningen u(t)=170 sin(100πt) V över ett motstånd på 34 Ω.</p><ol><li>Bestäm frekvensen.</li><li>Bestäm effektivvärdet av spänning och ström.</li><li>Bestäm den energi som omvandlas till värme under 3,0 minuter.</li></ol>",
+    "t": "<p>En generator ger spänningen \\(u(t)=170\\sin(100\\pi t)\\,\\mathrm V\\) över ett motstånd på \\(34\\,\\Omega\\).</p><p>a) Bestäm frekvensen.<br>b) Bestäm spänningens effektivvärde.<br>c) Bestäm strömmens effektivvärde.<br>d) Bestäm den energi som omvandlas till värme under 3,0 minuter.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Jämför \\(u(t)=170\\sin(100\\pi t)\\) med \\(u(t)=U_{\\max}\\sin(\\omega t)\\).</p><div class=\"facit-matte\">\\[\\omega=100\\pi\\ \\mathrm{rad/s},\\qquad f=\\frac{\\omega}{2\\pi}=50\\ \\mathrm{Hz}\\]\\[U_{\\mathrm{eff}}=\\frac{170}{\\sqrt2}=120{,}2\\ \\mathrm V\\]\\[I_{\\mathrm{eff}}=\\frac{U_{\\mathrm{eff}}}{R}=\\frac{120{,}2}{34}=3{,}54\\ \\mathrm A\\]</div><p class=\"facit-metod\">Medeleffekten omvandlas till värme under \\(3{,}0\\ \\mathrm{min}=180\\ \\mathrm s\\).</p><div class=\"facit-matte\">\\[P=\\frac{U_{\\mathrm{eff}}^2}{R}=425\\ \\mathrm W\\]\\[E=Pt=425\\cdot180=7{,}65\\cdot10^4\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(f=50\\ \\mathrm{Hz}\\), \\(U_{\\mathrm{eff}}\\approx120\\ \\mathrm V\\), \\(I_{\\mathrm{eff}}\\approx3{,}5\\ \\mathrm A\\), och energin är cirka \\(76\\ \\mathrm{kJ}\\).</p></div>",
     "familj": "Sinusformad växelström och effektivvärde",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "vaxelstrom__sinusformad_vaxelstrom_och_effektivvarde",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "vaxelstrom__effektivvarde"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50,
+      120.2,
+      3.535,
+      76500
+    ],
+    "tolerans": [
+      0.1,
+      0.6,
+      0.03,
+      1200
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "familjNyckelTidigare": "vaxelstrom__effektivvarde",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "V",
+      "A",
+      "J"
+    ],
+    "svarsstruktur": "ordnad",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En generator ger spänningen \\(u(t)=170\\sin(100\\pi t)\\,\\mathrm V\\) över ett motstånd på \\(34\\,\\Omega\\).</p><p>Bestäm frekvensen.</p>",
+        "s": "<p>Här är \\(\\omega=100\\pi\\,\\mathrm{rad/s}\\). Eftersom \\(\\omega=2\\pi f\\) blir \\(f=50\\,\\mathrm{Hz}\\).</p>",
+        "ledtrad": "<p>Läs av toppvärdet och vinkelfrekvensen ur sinusuttrycket. Använd \\(U_{eff}=U_{max}/\\sqrt2\\) och \\(\\omega=2\\pi f\\).</p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En generator ger spänningen \\(u(t)=170\\sin(100\\pi t)\\,\\mathrm V\\) över ett motstånd på \\(34\\,\\Omega\\).</p><p>Bestäm spänningens effektivvärde.</p>",
+        "s": "<p>\\(U_{\\mathrm{eff}}=U_{\\max}/\\sqrt2=170/\\sqrt2\\approx120{,}2\\,\\mathrm V\\).</p>",
+        "ledtrad": "<p>Läs av toppvärdet och vinkelfrekvensen ur sinusuttrycket. Använd \\(U_{eff}=U_{max}/\\sqrt2\\) och \\(\\omega=2\\pi f\\).</p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>En generator ger spänningen \\(u(t)=170\\sin(100\\pi t)\\,\\mathrm V\\) över ett motstånd på \\(34\\,\\Omega\\).</p><p>Bestäm strömmens effektivvärde.</p>",
+        "s": "<p>Först \\(U_{\\mathrm{eff}}\\approx120{,}2\\,\\mathrm V\\). Då \\(I_{\\mathrm{eff}}=U_{\\mathrm{eff}}/R\\approx120{,}2/34=3{,}54\\,\\mathrm A\\).</p>",
+        "ledtrad": "<p>Läs av toppvärdet och vinkelfrekvensen ur sinusuttrycket. Använd \\(U_{eff}=U_{max}/\\sqrt2\\) och \\(\\omega=2\\pi f\\).</p>"
+      },
+      {
+        "etikett": "d",
+        "t": "<p>En generator ger spänningen \\(u(t)=170\\sin(100\\pi t)\\,\\mathrm V\\) över ett motstånd på \\(34\\,\\Omega\\).</p><p>Bestäm den energi som omvandlas till värme under 3,0 minuter.</p>",
+        "s": "<p>\\(P=U_{\\mathrm{eff}}^2/R\\approx425\\,\\mathrm W\\) och \\(t=180\\,\\mathrm s\\). Alltså \\(E=Pt\\approx7{,}65\\cdot10^4\\,\\mathrm J\\).</p>",
+        "ledtrad": "<p>Läs av toppvärdet och vinkelfrekvensen ur sinusuttrycket. Använd \\(U_{eff}=U_{max}/\\sqrt2\\) och \\(\\omega=2\\pi f\\).</p>"
+      }
+    ],
+    "ledtrad": "<p>Jämför \\(u(t)=170\\sin(100\\pi t)\\) med \\(u(t)=U_{\\max}\\sin(\\omega t)\\).</p>"
   },
   {
     "id": "3.22",
@@ -6179,7 +6492,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__induktiv_reaktans"
+    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__induktiv_reaktans",
+    "ledtrad": "<p>En ideal spoles induktiva reaktans är proportionell mot frekvensen.</p>"
   },
   {
     "id": "3.23",
@@ -6218,7 +6532,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__kapacitiv_reaktans"
+    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__kapacitiv_reaktans",
+    "ledtrad": "<p>Skriv kapacitansen i farad och använd den kapacitiva reaktansen.</p>"
   },
   {
     "id": "3.24",
@@ -6267,7 +6582,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__resonans_i_lc_eller_rlc_krets"
+    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__resonans_i_lc_eller_rlc_krets",
+    "ledtrad": "<p>Vid serieresonans är \\(X_L=X_C\\). Då fås resonansfrekvensen</p>"
   },
   {
     "id": "3.25",
@@ -6289,7 +6605,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "elektriska_falt__potential_och_falt",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Vid genomslag når fältstyrkan luftens gränsvärde. Använd \\(E=U/d\\).</p>"
   },
   {
     "id": "3.26",
@@ -6311,7 +6628,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "elektriska_falt__faltstyrka_och_elektrisk_kraft",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Den vågräta farten är konstant. Eftersom droppen är negativ och fältet pekar nedåt är den elektriska kraften och avböjningen uppåt.</p>"
   },
   {
     "id": "3.27",
@@ -6330,7 +6648,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Varje cirkulärt varv har omkretsen \\(\\pi d\\). Den sammanlagda trådlängden i fältet är därför</p>"
   },
   {
     "id": "3.28",
@@ -6351,7 +6670,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Sätt magnetkraften lika med centripetalkraften. Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>"
   },
   {
     "id": "3.29",
@@ -6372,7 +6692,8 @@ window.BANK2 = [
     "tolerans": 0.0375,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Ledningens fält är vinkelrätt mot Jordens vågräta fält. Kompassens vridning bestäms därför av hur stora de två fälten är i förhållande till varandra.</p>"
   },
   {
     "id": "3.30",
@@ -6393,7 +6714,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning"
+    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning",
+    "ledtrad": "<p>Permanentmagneten magnetiserar stålsträngen. När strängen svänger ändras magnetfältet och därmed magnetflödet genom spolen.</p>"
   },
   {
     "id": "3.31",
@@ -6415,7 +6737,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "induktion__generatorprincipen"
+    "familjNyckelTidigare": "induktion__generatorprincipen",
+    "ledtrad": "<p>Arean måste först skrivas i kvadratmeter. Under ett halvt varv går flödet från \\(+BA\\) till \\(-BA\\).</p>"
   },
   {
     "id": "3.32",
@@ -6435,7 +6758,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom"
+    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom",
+    "ledtrad": "<p>Använd apparatens märkspänning och märkeffekt. Läs av toppvärdet och vinkelfrekvensen ur sinusuttrycket.</p>"
   },
   {
     "id": "3.33",
@@ -6454,7 +6778,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Runt en lång rak ledare gäller \\(B=\\mu_0I/(2\\pi r)\\). Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.34",
@@ -6473,7 +6798,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Varvtätheten är \\(n=N/L\\), och för en lång solenoid gäller \\(B=\\mu_0nI\\).</p>"
   },
   {
     "id": "3.35",
@@ -6493,7 +6819,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.36",
@@ -6512,7 +6839,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Kraften på en rak strömledare är \\(F=BIl\\sin\\theta\\), där \\(\\theta\\) är vinkeln mellan strömmen och fältet.</p>"
   },
   {
     "id": "3.37",
@@ -6531,7 +6859,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.38",
@@ -6552,7 +6881,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.39",
@@ -6573,7 +6903,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>Mittpunkten ligger \\(r=0{,}060\\ \\mathrm m\\) från båda ledarna. Varje ledare skapar fältet</p>"
   },
   {
     "id": "3.40",
@@ -6593,7 +6924,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.41",
@@ -6612,7 +6944,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Kraftens storlek är \\(F=BIl\\sin\\theta\\). Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.42",
@@ -6631,7 +6964,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>För en lång solenoid är \\(B=\\mu_0(N/L)I\\). Minsta antal varv fås när den högsta tillåtna strömmen används.</p>"
   },
   {
     "id": "3.43",
@@ -6655,7 +6989,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "manuellKomplettering": true,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>Mellan likriktade strömmar är fältbidragen motriktade. Sätt avståndet från \\(6{,}0\\ \\mathrm A\\)-ledaren till \\(x\\).</p>"
   },
   {
     "id": "3.44",
@@ -6679,7 +7014,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "manuellKomplettering": true,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>De korta sidorna är parallella med fältet och får ingen kraft. De långa sidorna är vinkelräta mot fältet och får lika stora men motriktade krafter.</p>"
   },
   {
     "id": "3.45",
@@ -6700,7 +7036,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Beräkna magnetkraften och jämför med tyngdkraften. Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>"
   },
   {
     "id": "3.46",
@@ -6720,7 +7057,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.47",
@@ -6740,7 +7078,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.48",
@@ -6761,7 +7100,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Magnetkraftens storlek är \\(F=|q|vB\\sin\\theta\\). Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>"
   },
   {
     "id": "3.49",
@@ -6781,7 +7121,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Magnetkraften fungerar som centripetalkraft, vilket ger \\(r=mv/(|q|B)\\).</p>"
   },
   {
     "id": "3.50",
@@ -6801,7 +7142,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Använd den givna cyklotronperioden och beräkna därefter frekvensen.</p>"
   },
   {
     "id": "3.51",
@@ -6821,7 +7163,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Båda jonerna har samma \\(v\\), \\(q\\) och \\(B\\), så radien är proportionell mot massan.</p>"
   },
   {
     "id": "3.52",
@@ -6841,7 +7184,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.53",
@@ -6861,7 +7205,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.54",
@@ -6885,7 +7230,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "manuellKomplettering": true,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.55",
@@ -6907,7 +7253,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Först fås farten ur \\(eU=mv^2/2\\). Det går också att kombinera energi- och radieformlerna direkt till \\(r=\\sqrt{2mU/e}/B\\).</p>"
   },
   {
     "id": "3.56",
@@ -6927,7 +7274,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.57",
@@ -6946,7 +7294,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.58",
@@ -6965,7 +7314,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.59",
@@ -6985,7 +7335,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.60",
@@ -7005,7 +7356,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.61",
@@ -7025,7 +7377,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.62",
@@ -7045,7 +7398,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.63",
@@ -7064,7 +7418,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.64",
@@ -7084,7 +7439,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>Varje ledare ligger i den andra ledarens cirkulära magnetfält. Högerhandsregeln ger en kraft på vardera ledaren riktad mot den andra.</p>"
   },
   {
     "id": "3.65",
@@ -7104,7 +7460,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>När den ena strömmen vänds vänds också den magnetiska kraften på båda ledarna.</p>"
   },
   {
     "id": "3.66",
@@ -7123,7 +7480,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.67",
@@ -7143,7 +7501,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.68",
@@ -7164,7 +7523,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt"
+    "familjNyckelTidigare": "laddade_partiklar__cirkular_bana_i_magnetfalt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.69",
@@ -7184,7 +7544,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>Sidorna parallella med fältet får ingen kraft. På de två tvärgående sidorna ger högerhandsregeln lika stora men motriktade krafter, den ena ut ur och den andra in i pappret.</p>"
   },
   {
     "id": "3.70",
@@ -7203,7 +7564,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.71",
@@ -7223,7 +7585,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.72",
@@ -7240,7 +7603,7 @@ window.BANK2 = [
     ],
     "familjNyckel": "elektriska_falt__elektriskt_falt_potential_och_kraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.400000000000001e-05,
+    "rättSvar": 0.00008400000000000001,
     "tolerans": 0.01,
     "självrättning": true,
     "svarFormat": "numeriskt",
@@ -7248,7 +7611,8 @@ window.BANK2 = [
     "manuellKomplettering": true,
     "familjNyckelTidigare": "elektriska_falt__falt_fran_punktladdning",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Använd Coulombs lag och omvandla nanocoulomb till coulomb samt centimeter till meter.</p>"
   },
   {
     "id": "3.73",
@@ -7270,7 +7634,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "elektriska_falt__falt_fran_punktladdning",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Fältstyrkan kring en punktladdning är \\(E=k|Q|/r^2\\). Skilj på fält och kraft: \\(E=F/q\\) och \\(F=qE\\).</p>"
   },
   {
     "id": "3.74",
@@ -7292,7 +7657,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "elektriska_falt__potential_och_falt",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Det arbete som fältet utför är lika stort som minskningen av den elektriska lägesenergin. För en elektron som accelereras genom \\(350\\ \\mathrm V\\) är arbetets storlek \\(eU\\).</p>"
   },
   {
     "id": "3.75",
@@ -7313,7 +7679,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.76",
@@ -7333,7 +7700,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning"
+    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.77",
@@ -7353,7 +7721,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom"
+    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom",
+    "ledtrad": "<p>I en ideal transformator är spänningskvoten lika med varvtalskvoten.</p>"
   },
   {
     "id": "3.78",
@@ -7374,7 +7743,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom"
+    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom",
+    "ledtrad": "<p>Vid given överförd effekt gäller \\(I=P/U\\), och ledningsförlusten är \\(P_{\\mathrm f}=RI^2\\).</p>"
   },
   {
     "id": "3.79",
@@ -7395,7 +7765,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning"
+    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning",
+    "ledtrad": "<p>För en slinga som roterar med vinkelhastigheten \\(\\omega\\) kan flödet skrivas</p>"
   },
   {
     "id": "3.80",
@@ -7417,7 +7788,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "elektriska_falt__potential_och_falt",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Energin som en laddning får av en spänning är \\(E_k=|q|U\\). En alfapartikel har laddningsbeloppet \\(2e\\).</p>"
   },
   {
     "id": "3.81",
@@ -7439,7 +7811,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "elektriska_falt__faltstyrka_och_elektrisk_kraft",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Det elektriska fältet pekar från den positiva plattan mot den negativa, alltså nedåt i figuren. En positiv laddning får en kraft åt samma håll som fältet, en negativ laddning åt motsatt håll.</p>"
   },
   {
     "id": "3.82",
@@ -7461,7 +7834,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "elektriska_falt__potential_och_falt",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Elektronens vågräta fart är konstant, medan fältet ger en konstant acceleration vinkelrätt mot rörelsen.</p>"
   },
   {
     "id": "3.83",
@@ -7487,7 +7861,8 @@ window.BANK2 = [
     "manuellKomplettering": true,
     "familjNyckelTidigare": "elektriska_falt__faltstyrka_och_elektrisk_kraft",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Mittpunkten ligger \\(r=3{,}0\\ \\mathrm{cm}\\) från vardera laddningen. Bidragen har samma storlek.</p>"
   },
   {
     "id": "3.84",
@@ -7513,7 +7888,8 @@ window.BANK2 = [
     "manuellKomplettering": true,
     "familjNyckelTidigare": "elektriska_falt__faltstyrka_och_elektrisk_kraft",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Mellan två positiva laddningar är fältbidragen motriktade. Sätt avståndet från den mindre laddningen \\(Q_1\\) till nollpunkten till \\(x\\); avståndet till \\(Q_2\\) är då \\(0{,}20-x\\).</p>"
   },
   {
     "id": "3.85",
@@ -7536,7 +7912,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "elektriska_falt__faltstyrka_och_elektrisk_kraft",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Fältet ger elektronen en konstant acceleration motriktad begynnelsehastigheten.</p>"
   },
   {
     "id": "3.86",
@@ -7556,7 +7933,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning"
+    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning",
+    "ledtrad": "<p>Magnetflödet genom ett varv är \\(\\Phi=BA\\cos\\theta\\), där \\(\\theta\\) är vinkeln mellan fältet och spolens normal.</p>"
   },
   {
     "id": "3.87",
@@ -7577,7 +7955,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>När aluminiumplattan rör sig genom fältgränserna ändras magnetflödet genom delar av metallen. Eftersom aluminium leder ström induceras slutna virvelströmmar.</p>"
   },
   {
     "id": "3.88",
@@ -7598,7 +7977,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__rorelseinduktion"
+    "familjNyckelTidigare": "induktion__rorelseinduktion",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.89",
@@ -7618,7 +7998,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__generatorprincipen"
+    "familjNyckelTidigare": "induktion__generatorprincipen",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.90",
@@ -7639,7 +8020,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning"
+    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.91",
@@ -7663,7 +8045,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "manuellKomplettering": true,
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.92",
@@ -7684,7 +8067,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.93",
@@ -7705,7 +8089,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__rorelseinduktion"
+    "familjNyckelTidigare": "induktion__rorelseinduktion",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.94",
@@ -7726,7 +8111,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__rorelseinduktion"
+    "familjNyckelTidigare": "induktion__rorelseinduktion",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.95",
@@ -7747,7 +8133,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>Faradays lag beror på flödets ändringstakt, inte på flödets storlek.</p>"
   },
   {
     "id": "3.96",
@@ -7768,7 +8155,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning"
+    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.97",
@@ -7788,7 +8176,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning"
+    "familjNyckelTidigare": "induktion__magnetiskt_flode_och_inducerad_spanning",
+    "ledtrad": "<p>Strömmen i spole 1 och flödet genom spole 2 växer. Mätaren ger ett kort utslag.</p>"
   },
   {
     "id": "3.98",
@@ -7809,7 +8198,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "id": "3.99",
@@ -7828,7 +8218,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Följ strömmen med högerhandens fingrar; tummen visar fältets riktning inuti spolen och pekar mot nordpolen. På spolens axel i A och C pekar fältet åt samma håll som inuti. Ovanför spolen, i B, går returfältet åt motsatt håll.</p>"
   },
   {
     "id": "3.100",
@@ -7848,7 +8239,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.101",
@@ -7872,7 +8264,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "manuellKomplettering": true,
-    "familjTidigare": "Magnetfält och magnetisk kraft"
+    "familjTidigare": "Magnetfält och magnetisk kraft",
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.102",
@@ -7891,7 +8284,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.123",
@@ -7912,7 +8306,8 @@ window.BANK2 = [
     "tolerans": 0.1,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "µT"
+    "svarEnhet": "µT",
+    "ledtrad": "<p>För en lång rak ledare gäller \\(B=\\mu_0 I/(2\\pi r)\\). Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.124",
@@ -7933,7 +8328,8 @@ window.BANK2 = [
     "tolerans": 0.1,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "µT"
+    "svarEnhet": "µT",
+    "ledtrad": "<p>För en lång rak ledare gäller \\(B=\\mu_0 I/(2\\pi r)\\). Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.125",
@@ -7954,7 +8350,8 @@ window.BANK2 = [
     "tolerans": 0.1,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "µT"
+    "svarEnhet": "µT",
+    "ledtrad": "<p>För en lång rak ledare gäller \\(B=\\mu_0 I/(2\\pi r)\\). Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.126",
@@ -7975,7 +8372,8 @@ window.BANK2 = [
     "tolerans": 0.1,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "A"
+    "svarEnhet": "A",
+    "ledtrad": "<p>Lös ut strömmen ur \\(B=\\mu_0I/(2\\pi r)\\). Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.127",
@@ -7996,7 +8394,8 @@ window.BANK2 = [
     "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "mT"
+    "svarEnhet": "mT",
+    "ledtrad": "<p>För en lång solenoid gäller \\(B=\\mu_0(N/L)I\\). Följ strömmen runt spolen med höger hand.</p>"
   },
   {
     "id": "3.128",
@@ -8017,7 +8416,8 @@ window.BANK2 = [
     "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "mT"
+    "svarEnhet": "mT",
+    "ledtrad": "<p>För en lång solenoid gäller \\(B=\\mu_0(N/L)I\\). Följ strömmen runt spolen med höger hand.</p>"
   },
   {
     "id": "3.129",
@@ -8038,7 +8438,8 @@ window.BANK2 = [
     "tolerans": 2,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.145",
@@ -8060,7 +8461,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.146",
@@ -8082,7 +8484,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.147",
@@ -8104,7 +8507,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.148",
@@ -8126,7 +8530,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.149",
@@ -8148,7 +8553,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.150",
@@ -8170,7 +8576,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.151",
@@ -8192,7 +8599,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.152",
@@ -8214,7 +8622,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.153",
@@ -8236,7 +8645,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.154",
@@ -8258,7 +8668,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.155",
@@ -8280,7 +8691,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.156",
@@ -8302,7 +8714,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.157",
@@ -8324,7 +8737,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.158",
@@ -8346,7 +8760,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.159",
@@ -8368,7 +8783,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.160",
@@ -8390,7 +8806,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd högerhandsregeln: tummen följer strömriktningen och de böjda fingrarna visar magnetfältets riktning runt ledaren.</p>"
   },
   {
     "id": "3.161",
@@ -8412,7 +8829,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.162",
@@ -8434,7 +8852,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.163",
@@ -8456,7 +8875,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.164",
@@ -8478,7 +8898,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.165",
@@ -8500,7 +8921,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.166",
@@ -8522,7 +8944,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.167",
@@ -8544,7 +8967,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.168",
@@ -8566,7 +8990,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.169",
@@ -8588,7 +9013,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.170",
@@ -8610,7 +9036,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.171",
@@ -8632,7 +9059,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.172",
@@ -8654,7 +9082,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en strömförande ledare gäller \\(F=BIL\\sin\\theta\\). Bestäm riktningen med högerhandsregeln och håll isär strömriktning, magnetfält och kraft.</p>"
   },
   {
     "id": "3.185",
@@ -8677,7 +9106,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.186",
@@ -8700,7 +9130,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.187",
@@ -8723,7 +9154,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.188",
@@ -8746,7 +9178,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.189",
@@ -8769,7 +9202,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.190",
@@ -8792,7 +9226,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.191",
@@ -8815,7 +9250,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.192",
@@ -8838,7 +9274,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_magnetfalt_i_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.209",
@@ -8861,7 +9298,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.210",
@@ -8884,7 +9322,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.211",
@@ -8893,8 +9332,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra om en coilända är nordpol eller sydpol",
     "poang": "(2/0/0)",
-    "t": "<p>Du ser rakt in i öppningen på en spole. Strömmen går moturs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 234.5 137.8 A 58 58 0 0 0 142.7 73.6\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"142.7,73.6 132.6,75.5 139.0,83.2\" fill=\"#A23B2A\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>Är den synliga änden en nordpol eller en sydpol?</p><p><strong>nordpol</strong> eller <strong>sydpol</strong></p>",
-    "s": "<div class=\"facit-v2\"><p>Använd högerhandsregeln: när fingrarna följer strömmen visar tummen magnetfältets riktning genom öppningen. Om fältet kommer ut mot dig är änden en nordpol, och om fältet går in från dig är änden en sydpol. Här blir den synliga änden alltså nordpol.</p><p class=\"facit-svar\"><strong>Svar:</strong> nordpol.</p></div>",
+    "t": "<p>Du ser rakt in i öppningen på en spole. Strömmen går moturs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 234.5 137.8 A 58 58 0 0 0 142.7 73.6\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"142.7,73.6 132.6,75.5 139.0,83.2\" fill=\"#A23B2A\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>I vilken riktning går magnetfältet i punkten P: <strong>ut ur bildplanet</strong> eller <strong>in i bildplanet</strong>?</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ strömmen med höger hand. När strömmen går moturs pekar tummen mot dig, alltså ut ur bildplanet.</p><p class=\"facit-svar\"><strong>Svar:</strong> ut ur bildplanet.</p></div>",
     "familj": "Riktningsfrågor för spolar och strömslingor",
     "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor",
     "formaga": [
@@ -8902,12 +9341,13 @@ window.BANK2 = [
       "procedur"
     ],
     "svarstyp": "kort_text",
-    "rättSvar": "nordpol",
+    "rättSvar": "ut ur bildplanet",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.212",
@@ -8916,8 +9356,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra om en coilända är nordpol eller sydpol",
     "poang": "(2/0/0)",
-    "t": "<p>Du ser rakt in i öppningen på en spole. Strömmen går medurs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 125.5 137.8 A 58 58 0 0 1 224.4 80.7\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"224.4,80.7 226.4,90.8 234.0,84.4\" fill=\"#A23B2A\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>Är den synliga änden en nordpol eller en sydpol?</p><p><strong>nordpol</strong> eller <strong>sydpol</strong></p>",
-    "s": "<div class=\"facit-v2\"><p>Använd högerhandsregeln: när fingrarna följer strömmen visar tummen magnetfältets riktning genom öppningen. Om fältet kommer ut mot dig är änden en nordpol, och om fältet går in från dig är änden en sydpol. Här blir den synliga änden alltså sydpol.</p><p class=\"facit-svar\"><strong>Svar:</strong> sydpol.</p></div>",
+    "t": "<p>Du ser rakt in i öppningen på en spole. Strömmen går medurs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 125.5 137.8 A 58 58 0 0 1 224.4 80.7\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"224.4,80.7 226.4,90.8 234.0,84.4\" fill=\"#A23B2A\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>I vilken riktning går magnetfältet i punkten P: <strong>ut ur bildplanet</strong> eller <strong>in i bildplanet</strong>?</p>",
+    "s": "<div class=\"facit-v2\"><p>Följ strömmen med höger hand. När strömmen går medurs pekar tummen bort från dig, alltså in i bildplanet.</p><p class=\"facit-svar\"><strong>Svar:</strong> in i bildplanet.</p></div>",
     "familj": "Riktningsfrågor för spolar och strömslingor",
     "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor",
     "formaga": [
@@ -8925,12 +9365,13 @@ window.BANK2 = [
       "procedur"
     ],
     "svarstyp": "kort_text",
-    "rättSvar": "sydpol",
+    "rättSvar": "in i bildplanet",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.213",
@@ -8953,7 +9394,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.214",
@@ -8976,7 +9418,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.215",
@@ -8985,8 +9428,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra om en coilända är nordpol eller sydpol",
     "poang": "(2/0/0)",
-    "t": "<p>En elektromagnet betraktas framifrån. Strömmen går moturs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 234.5 137.8 A 58 58 0 0 0 142.7 73.6\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"142.7,73.6 132.6,75.5 139.0,83.2\" fill=\"#A23B2A\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>Är den synliga änden en nordpol eller en sydpol?</p><p><strong>nordpol</strong> eller <strong>sydpol</strong></p>",
-    "s": "<div class=\"facit-v2\"><p>Använd högerhandsregeln: när fingrarna följer strömmen visar tummen magnetfältets riktning genom öppningen. Om fältet kommer ut mot dig är änden en nordpol, och om fältet går in från dig är änden en sydpol. Här blir den synliga änden alltså nordpol.</p><p class=\"facit-svar\"><strong>Svar:</strong> nordpol.</p></div>",
+    "t": "<p>En elektromagnet betraktas framifrån. Strömmen går moturs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 234.5 137.8 A 58 58 0 0 0 142.7 73.6\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"142.7,73.6 132.6,75.5 139.0,83.2\" fill=\"#A23B2A\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>Går magnetfältets linjer <strong>ut ur</strong> eller <strong>in i</strong> den synliga änden av elektromagneten?</p>",
+    "s": "<div class=\"facit-v2\"><p>Moturs ström sedd framifrån ger ett magnetfält mot dig. Fältlinjerna lämnar därför den synliga änden.</p><p class=\"facit-svar\"><strong>Svar:</strong> ut ur.</p></div>",
     "familj": "Riktningsfrågor för spolar och strömslingor",
     "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor",
     "formaga": [
@@ -8994,12 +9437,13 @@ window.BANK2 = [
       "procedur"
     ],
     "svarstyp": "kort_text",
-    "rättSvar": "nordpol",
+    "rättSvar": "ut ur",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.216",
@@ -9008,8 +9452,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra om en coilända är nordpol eller sydpol",
     "poang": "(2/0/0)",
-    "t": "<p>En elektromagnet betraktas framifrån. Strömmen går medurs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 125.5 137.8 A 58 58 0 0 1 224.4 80.7\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"224.4,80.7 226.4,90.8 234.0,84.4\" fill=\"#A23B2A\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>Är den synliga änden en nordpol eller en sydpol?</p><p><strong>nordpol</strong> eller <strong>sydpol</strong></p>",
-    "s": "<div class=\"facit-v2\"><p>Använd högerhandsregeln: när fingrarna följer strömmen visar tummen magnetfältets riktning genom öppningen. Om fältet kommer ut mot dig är änden en nordpol, och om fältet går in från dig är änden en sydpol. Här blir den synliga änden alltså sydpol.</p><p class=\"facit-svar\"><strong>Svar:</strong> sydpol.</p></div>",
+    "t": "<p>En elektromagnet betraktas framifrån. Strömmen går medurs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 125.5 137.8 A 58 58 0 0 1 224.4 80.7\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"224.4,80.7 226.4,90.8 234.0,84.4\" fill=\"#A23B2A\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>Går magnetfältets linjer <strong>ut ur</strong> eller <strong>in i</strong> den synliga änden av elektromagneten?</p>",
+    "s": "<div class=\"facit-v2\"><p>Medurs ström sedd framifrån ger ett magnetfält bort från dig. Fältlinjerna går därför in i den synliga änden.</p><p class=\"facit-svar\"><strong>Svar:</strong> in i.</p></div>",
     "familj": "Riktningsfrågor för spolar och strömslingor",
     "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor",
     "formaga": [
@@ -9017,12 +9461,13 @@ window.BANK2 = [
       "procedur"
     ],
     "svarstyp": "kort_text",
-    "rättSvar": "sydpol",
+    "rättSvar": "in i",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.217",
@@ -9045,7 +9490,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.218",
@@ -9068,7 +9514,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.219",
@@ -9077,31 +9524,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "avgöra om en coilända är nordpol eller sydpol",
     "poang": "(1/2/0)",
-    "t": "<p>Du ser rakt mot en strömslinga. Strömmen går moturs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"170\" cy=\"128\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 224.5 147.8 A 58 58 0 0 0 132.7 83.6\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"132.7,83.6 122.6,85.5 129.0,93.2\" fill=\"#A23B2A\"/><circle cx=\"170\" cy=\"128\" r=\"5\" fill=\"#2B2527\"/><text x=\"184\" y=\"118\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>Är den synliga änden en nordpol eller en sydpol?</p><p><strong>nordpol</strong> eller <strong>sydpol</strong></p>",
-    "s": "<div class=\"facit-v2\"><p>Använd högerhandsregeln: när fingrarna följer strömmen visar tummen magnetfältets riktning genom öppningen. Om fältet kommer ut mot dig är änden en nordpol, och om fältet går in från dig är änden en sydpol. Här blir den synliga änden alltså nordpol.</p><p class=\"facit-svar\"><strong>Svar:</strong> nordpol.</p></div>",
-    "familj": "Riktningsfrågor för spolar och strömslingor",
-    "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor",
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "svarstyp": "kort_text",
-    "rättSvar": "nordpol",
-    "tolerans": null,
-    "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
-  },
-  {
-    "id": "3.220",
-    "kap": 3,
-    "omr": "magnetism",
-    "niva": "C",
-    "typ": "avgöra om en coilända är nordpol eller sydpol",
-    "poang": "(1/2/0)",
-    "t": "<p>Du ser rakt mot en strömslinga. Strömmen går medurs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"170\" cy=\"128\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 115.5 147.8 A 58 58 0 0 1 214.4 90.7\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"214.4,90.7 216.4,100.8 224.0,94.4\" fill=\"#A23B2A\"/><circle cx=\"170\" cy=\"128\" r=\"5\" fill=\"#2B2527\"/><text x=\"184\" y=\"118\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>Är den synliga änden en nordpol eller en sydpol?</p><p><strong>nordpol</strong> eller <strong>sydpol</strong></p>",
-    "s": "<div class=\"facit-v2\"><p>Använd högerhandsregeln: när fingrarna följer strömmen visar tummen magnetfältets riktning genom öppningen. Om fältet kommer ut mot dig är änden en nordpol, och om fältet går in från dig är änden en sydpol. Här blir den synliga änden alltså sydpol.</p><p class=\"facit-svar\"><strong>Svar:</strong> sydpol.</p></div>",
+    "t": "<p>Du ser rakt mot en strömslinga. Strömmen går moturs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"170\" cy=\"128\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 224.5 147.8 A 58 58 0 0 0 132.7 83.6\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"132.7,83.6 122.6,85.5 129.0,93.2\" fill=\"#A23B2A\"/><circle cx=\"170\" cy=\"128\" r=\"5\" fill=\"#2B2527\"/><text x=\"184\" y=\"118\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>Anta att strömriktningen i figuren vänds. Vilken magnetisk pol får då sidan som vetter mot dig: <strong>nordpol</strong> eller <strong>sydpol</strong>?</p>",
+    "s": "<div class=\"facit-v2\"><p>I figuren går strömmen moturs, vilket gör sidan mot dig till nordpol. Om strömmen vänds byter också magnetfältet riktning, så polerna byter plats.</p><p class=\"facit-svar\"><strong>Svar:</strong> sydpol.</p></div>",
     "familj": "Riktningsfrågor för spolar och strömslingor",
     "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor",
     "formaga": [
@@ -9114,7 +9538,32 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
+  },
+  {
+    "id": "3.220",
+    "kap": 3,
+    "omr": "magnetism",
+    "niva": "C",
+    "typ": "avgöra om en coilända är nordpol eller sydpol",
+    "poang": "(1/2/0)",
+    "t": "<p>Du ser rakt mot en strömslinga. Strömmen går medurs sedd från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga sedd framifrån</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"170\" cy=\"128\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><path d=\"M 115.5 147.8 A 58 58 0 0 1 214.4 90.7\" fill=\"none\" stroke=\"#A23B2A\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><polygon points=\"214.4,90.7 216.4,100.8 224.0,94.4\" fill=\"#A23B2A\"/><circle cx=\"170\" cy=\"128\" r=\"5\" fill=\"#2B2527\"/><text x=\"184\" y=\"118\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text></svg></span><p>Anta att strömriktningen i figuren vänds. Vilken magnetisk pol får då sidan som vetter mot dig: <strong>nordpol</strong> eller <strong>sydpol</strong>?</p>",
+    "s": "<div class=\"facit-v2\"><p>I figuren går strömmen medurs, vilket gör sidan mot dig till sydpol. När strömmen vänds byter magnetfältet riktning och sidan blir i stället nordpol.</p><p class=\"facit-svar\"><strong>Svar:</strong> nordpol.</p></div>",
+    "familj": "Riktningsfrågor för spolar och strömslingor",
+    "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "kort_text",
+    "rättSvar": "nordpol",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "svarEnhet": null,
+    "familjNyckelTidigare": "magnetism__riktningsfragor_pol_i_spole_eller_stromslinga",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.221",
@@ -9137,7 +9586,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.222",
@@ -9160,7 +9610,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.223",
@@ -9183,7 +9634,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.224",
@@ -9206,7 +9658,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.225",
@@ -9215,8 +9668,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "avgöra strömriktning från given polriktning",
     "poang": "(1/2/0)",
-    "t": "<p>Du ser rakt mot en spole. Den synliga änden ska vara en nordpol.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>spole med markerad pol</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"54\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"118\" r=\"40\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"118\" r=\"26\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text><rect x=\"154\" y=\"30\" width=\"52\" height=\"36\" rx=\"10\" fill=\"#DC2626\"/><text x=\"180\" y=\"54\" text-anchor=\"middle\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#fff\">N</text></svg></span><p>Vilken riktning måste strömmen ha sedd framifrån?</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
-    "s": "<div class=\"facit-v2\"><p>Om den synliga änden ska vara en nordpol måste magnetfältet genom öppningen peka ut mot dig. När du använder högerhandsregeln följer då att strömmen måste gå moturs.</p><p class=\"facit-svar\"><strong>Svar:</strong> moturs.</p></div>",
+    "t": "<p>Magnetfältet genom mitten av en spole är riktat <strong>mot dig</strong>.</p><p>Du ser spolen rakt framifrån. Går strömmen <strong>medurs</strong> eller <strong>moturs</strong>?</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd högerhandsregeln för en spole: tummen visar magnetfältets riktning genom spolen och de böjda fingrarna visar strömriktningen. När fältet pekar mot dig böjs fingrarna moturs.</p><p class=\"facit-svar\"><strong>Svar:</strong> moturs.</p></div>",
     "familj": "Riktningsfrågor för spolar och strömslingor",
     "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor",
     "formaga": [
@@ -9229,7 +9682,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.226",
@@ -9238,8 +9692,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "avgöra strömriktning från given polriktning",
     "poang": "(1/2/0)",
-    "t": "<p>Du ser rakt mot en spole. Den synliga änden ska vara en sydpol.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>spole med markerad pol</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"54\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"118\" r=\"40\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"118\" r=\"26\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text><rect x=\"154\" y=\"30\" width=\"52\" height=\"36\" rx=\"10\" fill=\"#2563EB\"/><text x=\"180\" y=\"54\" text-anchor=\"middle\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#fff\">S</text></svg></span><p>Vilken riktning måste strömmen ha sedd framifrån?</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
-    "s": "<div class=\"facit-v2\"><p>Om den synliga änden ska vara en sydpol måste magnetfältet genom öppningen peka in från dig. När du använder högerhandsregeln följer då att strömmen måste gå medurs.</p><p class=\"facit-svar\"><strong>Svar:</strong> medurs.</p></div>",
+    "t": "<p>Magnetfältet genom mitten av en spole är riktat <strong>från dig, in i papperet</strong>.</p><p>Du ser spolen rakt framifrån. Går strömmen <strong>medurs</strong> eller <strong>moturs</strong>?</p>",
+    "s": "<div class=\"facit-v2\"><p>Med högerhandsregeln pekar tummen in i papperet. Då följer de böjda fingrarna strömmen medurs.</p><p class=\"facit-svar\"><strong>Svar:</strong> medurs.</p></div>",
     "familj": "Riktningsfrågor för spolar och strömslingor",
     "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor",
     "formaga": [
@@ -9252,7 +9706,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.227",
@@ -9261,8 +9716,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "avgöra strömriktning från given polriktning",
     "poang": "(1/2/0)",
-    "t": "<p>Du ser rakt mot en strömslinga. Den synliga änden ska vara en nordpol.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga med markerad pol</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text><rect x=\"154\" y=\"30\" width=\"52\" height=\"36\" rx=\"10\" fill=\"#DC2626\"/><text x=\"180\" y=\"54\" text-anchor=\"middle\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#fff\">N</text></svg></span><p>Vilken riktning måste strömmen ha sedd framifrån?</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
-    "s": "<div class=\"facit-v2\"><p>Om den synliga änden ska vara en nordpol måste magnetfältet genom öppningen peka ut mot dig. När du använder högerhandsregeln följer då att strömmen måste gå moturs.</p><p class=\"facit-svar\"><strong>Svar:</strong> moturs.</p></div>",
+    "t": "<p>I centrum av en cirkulär strömslinga är magnetfältet riktat <strong>ut ur papperet</strong>.</p><p>Vilken riktning har strömmen i slingan sedd framifrån?</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
+    "s": "<div class=\"facit-v2\"><p>Greppa slingan med höger hand så att tummen pekar ut ur papperet. Fingrarna böjs då moturs, vilket är strömmens riktning.</p><p class=\"facit-svar\"><strong>Svar:</strong> moturs.</p></div>",
     "familj": "Riktningsfrågor för spolar och strömslingor",
     "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor",
     "formaga": [
@@ -9275,7 +9730,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.228",
@@ -9284,8 +9740,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "avgöra strömriktning från given polriktning",
     "poang": "(1/2/0)",
-    "t": "<p>Du ser rakt mot en strömslinga. Den synliga änden ska vara en sydpol.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>strömslinga med markerad pol</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"58\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"118\" r=\"5\" fill=\"#2B2527\"/><text x=\"194\" y=\"108\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">P</text><rect x=\"154\" y=\"30\" width=\"52\" height=\"36\" rx=\"10\" fill=\"#2563EB\"/><text x=\"180\" y=\"54\" text-anchor=\"middle\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"22\" font-weight=\"700\" fill=\"#fff\">S</text></svg></span><p>Vilken riktning måste strömmen ha sedd framifrån?</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
-    "s": "<div class=\"facit-v2\"><p>Om den synliga änden ska vara en sydpol måste magnetfältet genom öppningen peka in från dig. När du använder högerhandsregeln följer då att strömmen måste gå medurs.</p><p class=\"facit-svar\"><strong>Svar:</strong> medurs.</p></div>",
+    "t": "<p>I centrum av en cirkulär strömslinga är magnetfältet riktat <strong>in i papperet</strong>.</p><p>Vilken riktning har strömmen i slingan sedd framifrån?</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
+    "s": "<div class=\"facit-v2\"><p>Greppa slingan med höger hand så att tummen pekar in i papperet. Fingrarna böjs då medurs.</p><p class=\"facit-svar\"><strong>Svar:</strong> medurs.</p></div>",
     "familj": "Riktningsfrågor för spolar och strömslingor",
     "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor",
     "formaga": [
@@ -9298,7 +9754,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole"
+    "familjNyckelTidigare": "magnetism__riktningsfragor_stromriktning_for_given_pol_i_spole",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "4.1",
@@ -9321,7 +9778,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "manuellKomplettering": true,
-    "familjNyckelTidigare": "em_vagor__elektromagnetiska_spektrumet"
+    "familjNyckelTidigare": "em_vagor__elektromagnetiska_spektrumet",
+    "ledtrad": "<p>Använd vågsambandet för elektromagnetiska vågor i vakuum. Koppla frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "4.2",
@@ -9360,7 +9818,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "em_vagor__elektromagnetiska_spektrumet"
+    "familjNyckelTidigare": "em_vagor__elektromagnetiska_spektrumet",
+    "ledtrad": "<p>Koppla frekvens och våglängd med \\(v=f\\lambda\\). För elektromagnetiska vågor i vakuum är \\(v=c\\).</p>"
   },
   {
     "id": "4.3",
@@ -9380,7 +9839,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "em_vagor__em_vagors_fart_frekvens_och_vaglangd"
+    "familjNyckelTidigare": "em_vagor__em_vagors_fart_frekvens_och_vaglangd",
+    "ledtrad": "<p>Koppla frekvens och våglängd med \\(v=f\\lambda\\). För elektromagnetiska vågor i vakuum är \\(v=c\\).</p>"
   },
   {
     "id": "4.4",
@@ -9399,7 +9859,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Nära centralmaximum gäller sambandet som gäller för små vinklar vid dubbelspalt.</p>"
   },
   {
     "id": "4.5",
@@ -9437,7 +9898,8 @@ window.BANK2 = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "ledtrad": "<p>Gitterkonstanten är avståndet mellan två linjer. Beräkna vägskillnaden.</p>"
   },
   {
     "id": "4.6",
@@ -9456,7 +9918,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Två våglängder ligger i samma riktning när deras produkter \\(m\\lambda\\) är lika.</p>"
   },
   {
     "id": "4.7",
@@ -9480,7 +9943,8 @@ window.BANK2 = [
     "svarEnhet": null,
     "manuellKomplettering": true,
     "familjNyckelTidigare": "temperaturstralning__wiens_forskjutningslag",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Använd Wiens lag för sambandet mellan temperatur och toppvåglängd, och Stefan–Boltzmanns lag när total utstrålad effekt eller luminositet efterfrågas.</p>"
   },
   {
     "id": "4.8",
@@ -9501,7 +9965,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "temperaturstralning__wiens_forskjutningslag",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Wiens lag ger \\(\\lambda_{\\max}\\propto1/T\\). Använd Wiens lag för sambandet mellan temperatur och toppvåglängd, och Stefan–Boltzmanns lag när total utstrålad effekt eller luminositet efterfrågas.</p>"
   },
   {
     "id": "4.9",
@@ -9523,7 +9988,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "temperaturstralning__stefan_boltzmanns_lag",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>I strålningsjämvikt är den absorberade effekten per kvadratmeter lika med den utstrålade.</p>"
   },
   {
     "id": "4.10",
@@ -9546,7 +10012,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "ledtrad": "<p>Rita normalen i gränsytan och mät vinklarna mot normalen. Använd sedan \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\).</p>"
   },
   {
     "id": "4.11",
@@ -9566,7 +10033,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Vid gränsvinkeln är brytningsvinkeln i luften \\(90^\\circ\\).</p>"
   },
   {
     "id": "4.12",
@@ -9589,7 +10057,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "ledtrad": "<p>Fönstrets ytterkant motsvarar ljus som kommer längs horisonten, alltså med infallsvinkeln \\(90^\\circ\\) i luften.</p>"
   },
   {
     "id": "4.13",
@@ -9608,7 +10077,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>En fotons energi är \\(E=hf=hc/\\lambda\\). Koppla fotonens energi till frekvens eller våglängd med \\(E=hf=hc/\\lambda\\).</p>"
   },
   {
     "id": "4.14",
@@ -9646,7 +10116,8 @@ window.BANK2 = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "ledtrad": "<p>Koppla fotonens energi till frekvens eller våglängd med \\(E=hf=hc/\\lambda\\). Om en elektron frigörs kan resterande energi bli rörelseenergi.</p>"
   },
   {
     "id": "4.15",
@@ -9684,7 +10155,8 @@ window.BANK2 = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "ledtrad": "<p>Stoppotentialen anger de snabbaste elektronernas rörelseenergi direkt i elektronvolt.</p>"
   },
   {
     "id": "4.16",
@@ -9704,7 +10176,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>En alfapartikel innehåller två protoner och två neutroner. Protonerna har laddningen \\(+e\\), medan neutronerna är oladdade.</p>"
   },
   {
     "id": "4.17",
@@ -9724,7 +10197,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Spänningens arbete blir elektronens rörelseenergi. Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>"
   },
   {
     "id": "4.18",
@@ -9773,7 +10247,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Protonens rörelseenergi efter accelerationen är \\(eU\\). Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>"
   },
   {
     "id": "4.19",
@@ -9795,7 +10270,8 @@ window.BANK2 = [
     "tolerans": 0.028499999999999998,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Elektronen går till en lägre energinivå, så energiskillnaden avges som en foton.</p>"
   },
   {
     "id": "4.20",
@@ -9837,7 +10313,8 @@ window.BANK2 = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "ledtrad": "<p>Spektrallinjens våglängd bestämmer fotonenergin. En foton avges eller absorberas när elektronen byter energinivå.</p>"
   },
   {
     "id": "4.21",
@@ -9857,7 +10334,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Bestäm energin på nivå \\(n=4\\) och jämför med grundtillståndet.</p>"
   },
   {
     "id": "4.22",
@@ -9877,7 +10355,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "em_vagor__elektromagnetiska_spektrumet"
+    "familjNyckelTidigare": "em_vagor__elektromagnetiska_spektrumet",
+    "ledtrad": "<p>Två närliggande bukar i en stående våg ligger en halv våglängd från varandra.</p>"
   },
   {
     "id": "4.23",
@@ -9896,7 +10375,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>En ordning finns bara om gitterekvationen ger \\(|\\sin\\theta|\\leq1\\).</p>"
   },
   {
     "id": "4.24",
@@ -9918,7 +10398,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "temperaturstralning__wiens_forskjutningslag",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Beräkna maximum med Wiens förskjutningslag för båda temperaturerna.</p>"
   },
   {
     "id": "4.25",
@@ -9941,7 +10422,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "ledtrad": "<p>Vid gränsvinkeln bryts ljuset längs gränsytan. Rita normalen i gränsytan och mät vinklarna mot normalen.</p>"
   },
   {
     "id": "4.26",
@@ -9960,7 +10442,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Koppla fotonens energi till frekvens eller våglängd med \\(E=hf=hc/\\lambda\\). Om en elektron frigörs kan resterande energi bli rörelseenergi.</p>"
   },
   {
     "id": "4.27",
@@ -9981,7 +10464,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>de Broglies samband ger den rörelsemängd som krävs. Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>"
   },
   {
     "id": "4.28",
@@ -10001,7 +10485,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Jonisationsgränsen ligger vid \\(E=0\\). En foton avges eller absorberas när elektronen byter energinivå.</p>"
   },
   {
     "id": "4.29",
@@ -10020,7 +10505,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>En fotons rörelsemängd är \\(p=h/\\lambda\\). Koppla fotonens energi till frekvens eller våglängd med \\(E=hf=hc/\\lambda\\).</p>"
   },
   {
     "id": "4.30",
@@ -10041,7 +10527,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Elektronen får energin \\(eU\\). Den kortaste möjliga våglängden uppstår om hela energin övergår till en enda foton.</p>"
   },
   {
     "id": "4.31",
@@ -10089,7 +10576,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>När en elektron accelereras genom spänningen \\(U\\) får den energin \\(eU\\).</p>"
   },
   {
     "id": "4.32",
@@ -10109,7 +10597,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "4.33",
@@ -10131,7 +10620,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>När hastigheten är vinkelrät mot magnetfältet gäller \\(F=qvB\\).</p>"
   },
   {
     "id": "4.34",
@@ -10153,7 +10643,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Magnetkraften fungerar som centripetalkraft. Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>"
   },
   {
     "id": "4.35",
@@ -10195,7 +10686,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Magnetkraften fungerar som centripetalkraft. Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>"
   },
   {
     "id": "4.36",
@@ -10237,7 +10729,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>de Broglie-våglängden är \\(\\lambda=h/(mv)\\). Vid samma fart ger mindre massa större våglängd.</p>"
   },
   {
     "id": "4.37",
@@ -10276,7 +10769,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "4.38",
@@ -10319,7 +10813,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "4.39",
@@ -10358,7 +10853,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "4.40",
@@ -10379,7 +10875,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__masspektrometer"
+    "familjNyckelTidigare": "partikelstralar__masspektrometer",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "4.41",
@@ -10401,7 +10898,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "partikelstralar__masspektrometer"
+    "familjNyckelTidigare": "partikelstralar__masspektrometer",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "4.42",
@@ -10449,7 +10947,8 @@ window.BANK2 = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Vid given accelerationsspänning gäller \\(\\lambda=h/\\sqrt{2mqU}\\). Mindre massa ger större våglängd.</p>"
   },
   {
     "id": "4.43",
@@ -10491,7 +10990,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Ur \\(qvB=mv^2/r\\) följer \\(q/m=v/(Br)\\). Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>"
   },
   {
     "id": "4.44",
@@ -10513,7 +11013,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Kombinera sambanden \\(eU=\\tfrac12mv^2\\) och \\(r=mv/(eB)\\). Elimineras \\(v\\) fås \\(U=eB^2r^2/(2m)\\).</p>"
   },
   {
     "id": "4.45",
@@ -10533,7 +11034,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "4.46",
@@ -10553,7 +11055,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__masspektrometer"
+    "familjNyckelTidigare": "partikelstralar__masspektrometer",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "4.47",
@@ -10573,7 +11076,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__masspektrometer"
+    "familjNyckelTidigare": "partikelstralar__masspektrometer",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "4.48",
@@ -10593,7 +11097,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__masspektrometer"
+    "familjNyckelTidigare": "partikelstralar__masspektrometer",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "4.49",
@@ -10613,7 +11118,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale"
+    "familjNyckelTidigare": "partikelstralar__styrning_av_partikelstrale",
+    "ledtrad": "<p>Elektronen går in mitt emellan plattorna, så den måste förskjutas \\(1{,}0\\ \\mathrm{cm}\\) uppåt under tiden mellan plattorna. Horisontellt är hastigheten konstant, medan den vertikala rörelsen är likformigt accelererad.</p>"
   },
   {
     "id": "4.50",
@@ -10633,7 +11139,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "partikelstralar__masspektrometer"
+    "familjNyckelTidigare": "partikelstralar__masspektrometer",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "5.1",
@@ -10654,7 +11161,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur"
+    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur",
+    "ledtrad": "<p>Wiens förskjutningslag visar att maximumets våglängd är omvänt proportionell mot temperaturen.</p>"
   },
   {
     "id": "5.2",
@@ -10675,7 +11183,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur"
+    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur",
+    "ledtrad": "<p>En stjärnas luminositet är \\(L=4\\pi R^2\\sigma T^4\\). När temperaturerna är lika återstår radieberoendet.</p>"
   },
   {
     "id": "5.3",
@@ -10696,7 +11205,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur"
+    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur",
+    "ledtrad": "<p>Jämför luminositeterna med \\(L\\propto R^2T^4\\). Koppla färg/toppvåglängd till temperatur med Wiens lag.</p>"
   },
   {
     "id": "5.4",
@@ -10719,7 +11229,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "exoplaneter__transitmetoden"
+    "familjNyckelTidigare": "exoplaneter__transitmetoden",
+    "ledtrad": "<p>För jämnt lysande skivor är transitdjupet lika med kvoten mellan planetens och stjärnans skymda areor.</p>"
   },
   {
     "id": "5.5",
@@ -10742,7 +11253,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "exoplaneter__detektion_av_exoplaneter"
+    "familjNyckelTidigare": "exoplaneter__detektion_av_exoplaneter",
+    "ledtrad": "<p>Skriv omloppstiden i år och använd \\(T^2=a^3\\). Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\Delta F/F\\approx(R_p/R_*)^2\\).</p>"
   },
   {
     "id": "5.6",
@@ -10763,7 +11275,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "exoplaneter__transitmetoden"
+    "familjNyckelTidigare": "exoplaneter__transitmetoden",
+    "ledtrad": "<p>Transitdjupet bestämmer planetens radie. Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\Delta F/F\\approx(R_p/R_*)^2\\).</p>"
   },
   {
     "id": "5.7",
@@ -10784,7 +11297,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "stjarnornas_utveckling__stjarnors_livscykel"
+    "familjNyckelTidigare": "stjarnornas_utveckling__stjarnors_livscykel",
+    "ledtrad": "<p>En stjärna med ungefär solens massa blir inte tillräckligt varm i centrum för att fortsätta fusionen genom alla tyngre ämnen. Efter röd-jättefasen stöts de yttre lagren bort.</p>"
   },
   {
     "id": "5.8",
@@ -10805,7 +11319,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "stjarnornas_utveckling__hr_diagram_och_huvudserien"
+    "familjNyckelTidigare": "stjarnornas_utveckling__hr_diagram_och_huvudserien",
+    "ledtrad": "<p>Livslängden kan uppskattas som tillgängligt bränsle delat med energiförbrukning.</p>"
   },
   {
     "id": "5.9",
@@ -10826,7 +11341,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "stjarnornas_utveckling__hr_diagram_och_huvudserien"
+    "familjNyckelTidigare": "stjarnornas_utveckling__hr_diagram_och_huvudserien",
+    "ledtrad": "<p>Med \\(L\\propto M^{3{,}5}\\) och \\(t\\propto M/L\\) fås Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt.</p>"
   },
   {
     "id": "5.10",
@@ -10846,7 +11362,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Rödförskjutning innebär att spektrallinjernas observerade våglängder är längre än laboratorievärdena.</p>"
   },
   {
     "id": "5.11",
@@ -10888,7 +11405,8 @@ window.BANK2 = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given. Använd därefter Hubbles lag \\(v=H_0d\\).</p>"
   },
   {
     "id": "5.12",
@@ -10908,7 +11426,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Skriv först Hubblekonstanten i enheten \\(\\mathrm{s^{-1}}\\).</p>"
   },
   {
     "id": "5.13",
@@ -10928,7 +11447,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Observationerna kan beskrivas genom en komponent med negativt tryck som gör att expansionen accelererar.</p>"
   },
   {
     "id": "5.14",
@@ -10948,7 +11468,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Universums framtida dynamik bestäms av hela energiinnehållet och hur varje komponents täthet och tryck utvecklas när skalfaktorn växer.</p>"
   },
   {
     "id": "5.15",
@@ -10969,7 +11490,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "framtiden__kosmologiska_scenarier"
+    "familjNyckelTidigare": "framtiden__kosmologiska_scenarier",
+    "ledtrad": "<p>Det fysiska avståndet är proportionellt mot skalfaktorn. En fördubbling kräver därför \\(a(t)=2\\).</p>"
   },
   {
     "id": "5.16",
@@ -10987,9 +11509,49 @@ window.BANK2 = [
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
     "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      17.2,
+      1.03,
+      61.9
+    ],
+    "tolerans": [
+      0.3,
+      0.03,
+      1
+    ],
+    "självrättning": true,
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En cirkelformad landningsmarkering har diametern 0,60 m. Markeringens synvinkel är 2,0°. Använd småvinkelapproximationen och bestäm kamerans avstånd i meter.</p>",
+        "s": "<p>\\(2,0^\\circ=0,03491\\,\\mathrm{rad}\\). Med \\(d\\approx D/\\alpha\\) fås \\(d\\approx0,60/0,03491=17,2\\,\\mathrm m\\).</p>",
+        "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En cirkelformad landningsmarkering har diametern 0,60 m. Markeringens synvinkel är 2,0 bågminuter. Använd småvinkelapproximationen och bestäm kamerans avstånd i kilometer.</p>",
+        "s": "<p>\\(2,0\\prime=(2/60)^\\circ=5,818\\cdot10^{-4}\\,\\mathrm{rad}\\). Då blir \\(d\\approx0,60/\\alpha\\approx1,03\\,\\mathrm{km}\\).</p>",
+        "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>En cirkelformad landningsmarkering har diametern 0,60 m. Markeringens synvinkel är 2,0 bågsekunder. Använd småvinkelapproximationen och bestäm kamerans avstånd i kilometer.</p>",
+        "s": "<p>\\(2,0\\prime\\prime=(2/3600)^\\circ=9,696\\cdot10^{-6}\\,\\mathrm{rad}\\). Då blir \\(d\\approx61,9\\,\\mathrm{km}\\).</p>",
+        "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "km",
+      "km"
+    ],
+    "ledtrad": "<p>För en liten synvinkel i radianer gäller \\(\\alpha\\approx D/d\\), alltså \\(d\\approx D/\\alpha\\). Vinklarna måste först skrivas i radianer.</p>"
   },
   {
     "id": "5.17",
@@ -11009,7 +11571,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Använd den exakta geometrin \\(d=D/[2\\tan(\\alpha/2)]\\). En mindre synvinkel betyder ett större avstånd.</p>"
   },
   {
     "id": "5.18",
@@ -11029,7 +11592,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>För små vinklar gäller \\(\\alpha\\approx D/d\\). Resultatet i radianer multipliceras med 206 265 för att få bågsekunder.</p>"
   },
   {
     "id": "5.19",
@@ -11047,9 +11611,39 @@ window.BANK2 = [
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
     "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      1.913e+21,
+      202244
+    ],
+    "tolerans": [
+      30000000000000000000,
+      3000
+    ],
+    "självrättning": true,
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En dvärggalax ligger 62 kpc från jorden. Bestäm avståndet i meter. Använd \\(1\\,\\mathrm{pc}=3,086\\cdot10^{16}\\,\\mathrm m\\).</p>",
+        "s": "<p>\\(62\\,\\mathrm{kpc}=62000\\,\\mathrm{pc}\\), så \\(d=62000\\cdot3,086\\cdot10^{16}\\approx1,91\\cdot10^{21}\\,\\mathrm m\\).</p>",
+        "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En dvärggalax ligger 62 kpc från jorden. Bestäm avståndet i ljusår. Använd \\(1\\,\\mathrm{pc}=3,262\\) ljusår.</p>",
+        "s": "<p>\\(62\\,\\mathrm{kpc}=62000\\,\\mathrm{pc}\\). Därför blir \\(d=62000\\cdot3,262\\approx2,02\\cdot10^5\\) ljusår.</p>",
+        "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "ljusår"
+    ],
+    "ledtrad": "<p>Prefixet kilo betyder tusen, så \\(62\\ \\mathrm{kpc}=62\\,000\\ \\mathrm{pc}\\).</p>"
   },
   {
     "id": "5.20",
@@ -11067,10 +11661,40 @@ window.BANK2 = [
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
     "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "avstandsmatning__parallax"
+    "rättSvar": [
+      2.5445,
+      78520000000000000
+    ],
+    "tolerans": [
+      0.04,
+      1200000000000000
+    ],
+    "självrättning": true,
+    "familjNyckelTidigare": "avstandsmatning__parallax",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En stjärnas parallax är 0,393 bågsekunder. Bestäm avståndet i parsec.</p>",
+        "s": "<p>När parallaxen anges i bågsekunder gäller \\(d=1/p\\): \\(d=1/0,393\\approx2,54\\,\\mathrm{pc}\\).</p>",
+        "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En stjärnas parallax är 0,393 bågsekunder. Bestäm avståndet i meter. Använd \\(1\\,\\mathrm{pc}=3,086\\cdot10^{16}\\,\\mathrm m\\).</p>",
+        "s": "<p>Först \\(d=1/0,393\\approx2,54\\,\\mathrm{pc}\\). Därefter \\(d\\approx2,54\\cdot3,086\\cdot10^{16}=7,85\\cdot10^{16}\\,\\mathrm m\\).</p>",
+        "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "pc",
+      "m"
+    ],
+    "ledtrad": "<p>När parallaxen \\(p\\) anges i bågsekunder fås avståndet i parsec direkt från \\(d=1/p\\).</p>"
   },
   {
     "id": "5.21",
@@ -11091,7 +11715,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "avstandsmatning__parallax"
+    "familjNyckelTidigare": "avstandsmatning__parallax",
+    "ledtrad": "<p>Omvandla först avståndet till parsec och använd sedan \\(p=1/d\\).</p>"
   },
   {
     "id": "5.22",
@@ -11112,7 +11737,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "avstandsmatning__parallax"
+    "familjNyckelTidigare": "avstandsmatning__parallax",
+    "ledtrad": "<p>Eftersom \\(d=1/p\\) får avståndet samma relativa osäkerhet som parallaxen.</p>"
   },
   {
     "id": "5.23",
@@ -11133,7 +11759,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "avstandsmatning__parallax"
+    "familjNyckelTidigare": "avstandsmatning__parallax",
+    "ledtrad": "<p>Beräkna först dagens avstånd, lägg sedan till den sträcka stjärnan rör sig på 100 år och omvandla tillbaka till parallax.</p>"
   },
   {
     "id": "5.24",
@@ -11154,7 +11781,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "avstandsmatning__avstandsmodul"
+    "familjNyckelTidigare": "avstandsmatning__avstandsmodul",
+    "ledtrad": "<p>På magnitudskalan betyder ett lägre tal större observerad ljusstyrka. Absolut magnitud är den magnitud stjärnan skulle ha på avståndet 10 pc.</p>"
   },
   {
     "id": "5.25",
@@ -11172,10 +11800,40 @@ window.BANK2 = [
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
     "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "avstandsmatning__parallax"
+    "rättSvar": [
+      36.31,
+      0.02754
+    ],
+    "tolerans": [
+      0.6,
+      0.001
+    ],
+    "självrättning": true,
+    "familjNyckelTidigare": "avstandsmatning__parallax",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En stjärna har apparent magnitud \\(m=+4,10\\) och absolut magnitud \\(M=+1,30\\). Bestäm avståndet i parsec.</p>",
+        "s": "<p>Avståndsmodulen ger \\(d=10^{(m-M+5)/5}=10^{1,56}\\approx36,3\\,\\mathrm{pc}\\).</p>",
+        "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En stjärna har apparent magnitud \\(m=+4,10\\) och absolut magnitud \\(M=+1,30\\). Bestäm stjärnans parallax i bågsekunder.</p>",
+        "s": "<p>Först ger avståndsmodulen \\(d\\approx36,3\\,\\mathrm{pc}\\). Sedan \\(p=1/d\\approx0,0275\\prime\\prime\\).</p>",
+        "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "pc",
+      "bågsekunder"
+    ],
+    "ledtrad": "<p>Använd avståndsmodulen \\(m-M=5\\log_{10}d-5\\), där \\(d\\) anges i parsec.</p>"
   },
   {
     "id": "5.26",
@@ -11198,7 +11856,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "avstandsmatning__parallax"
+    "familjNyckelTidigare": "avstandsmatning__parallax",
+    "ledtrad": "<p>Parallaxen ger först avståndet. Sätt sedan in avståndet i magnitudformeln.</p>"
   },
   {
     "id": "5.27",
@@ -11241,7 +11900,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "avstandsmatning__parallax"
+    "familjNyckelTidigare": "avstandsmatning__parallax",
+    "ledtrad": "<p>Parallaxen ger \\(d=1/p\\). Därefter används \\(m=M-5+5\\log_{10}d\\).</p>"
   },
   {
     "id": "5.28",
@@ -11262,7 +11922,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "avstandsmatning__parallax"
+    "familjNyckelTidigare": "avstandsmatning__parallax",
+    "ledtrad": "<p>Använd \\(d=1/p\\) och \\(M=m+5-5\\log_{10}d\\). För D löses avståndet ur avståndsmodulen.</p>"
   },
   {
     "id": "5.29",
@@ -11283,7 +11944,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "avstandsmatning__avstandsmodul"
+    "familjNyckelTidigare": "avstandsmatning__avstandsmodul",
+    "ledtrad": "<p>När samma källa flyttas ändras flödet som \\(1/d^2\\). Magnitudskillnaden ger avståndsfaktorn \\(10^{\\Delta m/5}\\).</p>"
   },
   {
     "id": "5.30",
@@ -11301,10 +11963,40 @@ window.BANK2 = [
     ],
     "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
     "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan"
+    "rättSvar": [
+      50.1,
+      1.918e+28
+    ],
+    "tolerans": [
+      0.8,
+      3e+26
+    ],
+    "självrättning": true,
+    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Vega har absolut magnitud \\(M=+0,58\\). Bestäm luminositeten i enheter av solens luminositet. Använd \\(M_\\odot=+4,83\\).</p>",
+        "s": "<p>\\(L/L_\\odot=10^{-0,4(M-M_\\odot)}=10^{-0,4(0,58-4,83)}\\approx50,1\\).</p>",
+        "ledtrad": "<p>Koppla färg/toppvåglängd till temperatur med Wiens lag. Om radie och temperatur ingår, använd \\(L=4\\pi R^2\\sigma T^4\\).</p>"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Vega har absolut magnitud \\(M=+0,58\\). Bestäm luminositeten i watt. Använd \\(M_\\odot=+4,83\\) och \\(L_\\odot=3,828\\cdot10^{26}\\,\\mathrm W\\).</p>",
+        "s": "<p>Först fås \\(L\\approx50,1L_\\odot\\). Då blir \\(L\\approx50,1\\cdot3,828\\cdot10^{26}=1,92\\cdot10^{28}\\,\\mathrm W\\).</p>",
+        "ledtrad": "<p>Koppla färg/toppvåglängd till temperatur med Wiens lag. Om radie och temperatur ingår, använd \\(L=4\\pi R^2\\sigma T^4\\).</p>"
+      }
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "L☉",
+      "W"
+    ],
+    "ledtrad": "<p>Magnitudskillnaden motsvarar en luminositetskvot enligt \\(L/L_\\odot=10^{-0{,}4(M-M_\\odot)}\\).</p>"
   },
   {
     "id": "5.31",
@@ -11325,7 +12017,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan"
+    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+    "ledtrad": "<p>Skriv först luminositeten som andel av solens och använd sedan magnitudformeln.</p>"
   },
   {
     "id": "5.32",
@@ -11365,7 +12058,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan"
+    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+    "ledtrad": "<p>I förhållande till solen kan Stefan–Boltzmanns lag skrivas utan att konstanten behöver sättas in.</p>"
   },
   {
     "id": "5.33",
@@ -11386,7 +12080,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan"
+    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+    "ledtrad": "<p>Den absoluta magnituden ger luminositeten. Därefter löses radien ut ur Stefan–Boltzmanns lag i relativ form.</p>"
   },
   {
     "id": "5.34",
@@ -11407,7 +12102,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan"
+    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+    "ledtrad": "<p>Bestäm först luminositetskvoten och lös sedan ut temperaturkvoten ur \\(L/L_\\odot=(R/R_\\odot)^2(T/T_\\odot)^4\\).</p>"
   },
   {
     "id": "5.35",
@@ -11428,7 +12124,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan"
+    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+    "ledtrad": "<p>Först används Stefan–Boltzmanns lag relativt solen. Sedan omvandlas luminositeten till absolut magnitud och avståndsmodulen ger avståndet.</p>"
   },
   {
     "id": "5.36",
@@ -11451,7 +12148,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan"
+    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+    "ledtrad": "<p>En magnitudskillnad på 1,0 motsvarar luminositetskvoten \\(10^{0{,}4}=2{,}512\\). Vid samma radie gäller \\(L\\propto T^4\\).</p>"
   },
   {
     "id": "5.37",
@@ -11472,7 +12170,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan"
+    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+    "ledtrad": "<p>Luminositeten beror på radien i kvadrat och temperaturen upphöjd till fyra.</p>"
   },
   {
     "id": "5.38",
@@ -11527,7 +12226,8 @@ window.BANK2 = [
       "d",
       "e"
     ],
-    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur"
+    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur",
+    "ledtrad": "<p>Utgå från \\(L=4\\pi R^2\\sigma T^4\\). I del b–e är det enklast att dividera med motsvarande uttryck för solen.</p>"
   },
   {
     "id": "5.39",
@@ -11567,7 +12267,8 @@ window.BANK2 = [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan"
+    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+    "ledtrad": "<p>Beräkna först luminositeten relativt solen och använd därefter magnitudskalan.</p>"
   },
   {
     "id": "5.40",
@@ -11617,7 +12318,8 @@ window.BANK2 = [
       "c",
       "d"
     ],
-    "familjNyckelTidigare": "avstandsmatning__parallax"
+    "familjNyckelTidigare": "avstandsmatning__parallax",
+    "ledtrad": "<p>Uppgiften bildar en kedja: parallax ger avstånd, avstånd och apparent magnitud ger absolut magnitud, och den ger sedan luminositet och radie.</p>"
   },
   {
     "id": "5.41",
@@ -11638,7 +12340,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan"
+    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+    "ledtrad": "<p>En skillnad i absolut magnitud kopplas till luminositetskvoten med \\(L_A/L_B=10^{-0{,}4(M_A-M_B)}\\). Här är \\(M_A-M_B=-3{,}83\\).</p>"
   },
   {
     "id": "5.42",
@@ -11698,7 +12401,8 @@ window.BANK2 = [
       "e",
       "f"
     ],
-    "familjNyckelTidigare": "avstandsmatning__parallax"
+    "familjNyckelTidigare": "avstandsmatning__parallax",
+    "ledtrad": "<p>Lös delarna i ordning. Varje resultat används i nästa steg.</p>"
   },
   {
     "id": "5.43",
@@ -11719,7 +12423,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "avstandsmatning__avstandsmodul"
+    "familjNyckelTidigare": "avstandsmatning__avstandsmodul",
+    "ledtrad": "<p>Beräkna \\(L/L_\\odot=R^2(T/T_\\odot)^4\\), sedan \\(M=4{,}83-2{,}5\\log_{10}(L/L_\\odot)\\) och till sist \\(m=M-5+5\\log_{10}d\\), där \\(d\\) anges i parsec.</p>"
   },
   {
     "id": "6.1",
@@ -11741,7 +12446,8 @@ window.BANK2 = [
     "tolerans": 0.017249999999999998,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Skriv farten som andel av ljusfarten och använd Lorentzfaktorn.</p>"
   },
   {
     "id": "6.2",
@@ -11763,7 +12469,8 @@ window.BANK2 = [
     "tolerans": 0.01875,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Identifiera egentiden – den mäts i det system där de två händelserna sker på samma plats. Använd sedan \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>"
   },
   {
     "id": "6.3",
@@ -11785,7 +12492,8 @@ window.BANK2 = [
     "tolerans": 3900000,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Identifiera egentiden – den mäts i det system där de två händelserna sker på samma plats. Använd sedan \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>"
   },
   {
     "id": "6.4",
@@ -11807,7 +12515,8 @@ window.BANK2 = [
     "tolerans": 0.0147,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Använd den utlösta formen \\(v/c=\\sqrt{1-1/\\gamma^2}\\). Identifiera egentiden – den mäts i det system där de två händelserna sker på samma plats.</p>"
   },
   {
     "id": "6.5",
@@ -11829,7 +12538,8 @@ window.BANK2 = [
     "tolerans": 0.1035,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Sömnen sker på en och samma plats i astronautens referenssystem, så \\(6{,}0\\ \\mathrm h\\) är egentiden \\(\\Delta\\tau\\).</p>"
   },
   {
     "id": "6.6",
@@ -11848,7 +12558,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Laboratoriets livslängd är dilaterad. Livslängden i partikelns vilosystem är egentiden.</p>"
   },
   {
     "id": "6.7",
@@ -11869,7 +12580,8 @@ window.BANK2 = [
     "tolerans": 0.012105000000000001,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Kvoten mellan den uppmätta tiden och egentiden ger Lorentzfaktorn.</p>"
   },
   {
     "id": "6.8",
@@ -11889,7 +12601,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Pelles klocka mäter egentiden eftersom läsningen sker på samma plats i skeppet.</p>"
   },
   {
     "id": "6.9",
@@ -11908,7 +12621,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Jorden mäter den dilaterade tiden \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>"
   },
   {
     "id": "6.10",
@@ -11929,7 +12643,8 @@ window.BANK2 = [
     "tolerans": 0.058499999999999996,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Händelserna sker på samma plats på jorden, så jordens tidsintervall \\(\\Delta\\tau\\) är egentiden. Bestäm den först ur klingonernas mätning.</p>"
   },
   {
     "id": "6.11",
@@ -11951,7 +12666,8 @@ window.BANK2 = [
     "tolerans": 1.173,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Den längd du mäter är kontraherad. Skeppets vilolängd \\(L_0\\) är längden i skeppets eget system.</p>"
   },
   {
     "id": "6.12",
@@ -11973,7 +12689,8 @@ window.BANK2 = [
     "tolerans": 0.525,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Jorden och stjärnan är i vila relativt varandra, så \\(135\\) ljusår är vilolängden.</p>"
   },
   {
     "id": "6.13",
@@ -11994,7 +12711,8 @@ window.BANK2 = [
     "tolerans": 0.010499999999999999,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Längdkontraktionen ger först Lorentzfaktorn. Egenlängden mäts i föremålets vilosystem.</p>"
   },
   {
     "id": "6.14",
@@ -12015,7 +12733,8 @@ window.BANK2 = [
     "tolerans": 0.01,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Linjalens vilolängd är \\(1{,}00\\ \\mathrm m\\), medan den observerade längden är kontraherad.</p>"
   },
   {
     "id": "6.15",
@@ -12035,7 +12754,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Ett ljusår är sträckan som ljuset färdas under ett år. Egenlängden mäts i föremålets vilosystem.</p>"
   },
   {
     "id": "6.16",
@@ -12057,7 +12777,8 @@ window.BANK2 = [
     "tolerans": 0.13649999999999998,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>I jordens referenssystem är avståndet \\(8{,}6\\) ljusår och farten \\(0{,}95\\) ljusår per år.</p>"
   },
   {
     "id": "6.17",
@@ -12078,7 +12799,8 @@ window.BANK2 = [
     "tolerans": 0.041999999999999996,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Avståndet 8,6 ljusår är vilolängden i jordens referenssystem. Beräkna först restiden enligt jorden. Tiden ombord är sedan egentiden.</p>"
   },
   {
     "id": "6.18",
@@ -12097,7 +12819,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Avståndet mellan solen och Sirius är kontraherat i resenärens referenssystem.</p>"
   },
   {
     "id": "6.19",
@@ -12118,7 +12841,8 @@ window.BANK2 = [
     "tolerans": 15.899999999999999,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Jorden mäter vilolängden mellan marken och skeppets aktuella position. Kaptenen mäter den kontraherade sträckan.</p>"
   },
   {
     "id": "6.20",
@@ -12139,7 +12863,8 @@ window.BANK2 = [
     "tolerans": 0.0135,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Avståndet \\(625\\ \\mathrm{km}\\) är vilolängden i jordens referenssystem, medan kaptenen mäter den kontraherade längden \\(267\\ \\mathrm{km}\\).</p>"
   },
   {
     "id": "6.21",
@@ -12160,7 +12885,8 @@ window.BANK2 = [
     "tolerans": 1.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "ledtrad": "<p>Tågets \\(101\\ \\mathrm m\\) är vilolängden. För personen vid tunneln är tåget i rörelse och därför längdkontraherat.</p>"
   },
   {
     "id": "6.22",
@@ -12179,7 +12905,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>I lokförarens referenssystem är tåget i vila och tunneln rör sig. Därför kontraheras tunnelns längd.</p>"
   },
   {
     "id": "6.23",
@@ -12201,7 +12928,8 @@ window.BANK2 = [
     "tolerans": 0.525,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Myonens vilolivslängd är egentiden. Börja med att ange vilket referenssystem varje mätning görs i.</p>"
   },
   {
     "id": "6.24",
@@ -12220,7 +12948,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>I myonens system är atmosfärens sträcka kontraherad; den sträcka som hinner passera under egentiden är</p>"
   },
   {
     "id": "6.25",
@@ -12242,7 +12971,8 @@ window.BANK2 = [
     "tolerans": 0.054,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Jordens \\(5{,}0\\) år är den dilaterade tiden. Besättningen mäter egentiden.</p>"
   },
   {
     "id": "6.26",
@@ -12264,7 +12994,8 @@ window.BANK2 = [
     "tolerans": 0.105,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Nu är \\(5{,}0\\) år egentiden ombord. Jordens tid är dilaterad.</p>"
   },
   {
     "id": "6.27",
@@ -12285,7 +13016,8 @@ window.BANK2 = [
     "tolerans": 0.11549999999999999,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Kvoten mellan jordens tid och egentiden ombord ger Lorentzfaktorn.</p>"
   },
   {
     "id": "6.28",
@@ -12306,7 +13038,8 @@ window.BANK2 = [
     "tolerans": 0.0795,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Avståndskvoten ger Lorentzfaktorn och därifrån farten. Börja med att ange vilket referenssystem varje mätning görs i.</p>"
   },
   {
     "id": "6.29",
@@ -12327,7 +13060,8 @@ window.BANK2 = [
     "tolerans": 0.01,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Endast dimensionen parallellt med rörelsen kontraheras. De två tvärgående sidorna förblir \\(1{,}0\\ \\mathrm{km}\\).</p>"
   },
   {
     "id": "6.30",
@@ -12348,7 +13082,8 @@ window.BANK2 = [
     "tolerans": 0.014504999999999999,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>I laboratoriet färdas pionen \\(L=v\\Delta t\\), där \\(\\Delta t=\\gamma\\Delta\\tau\\). Sätt \\(\\beta=v/c\\).</p>"
   },
   {
     "id": "6.31",
@@ -12370,7 +13105,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Elektronens viloenergi är \\(E_0=m_ec^2\\). Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>"
   },
   {
     "id": "6.32",
@@ -12392,7 +13128,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Använd \\(E_0=m_nc^2\\) och omvandla joule till MeV. Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>"
   },
   {
     "id": "6.33",
@@ -12412,7 +13149,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Omvandla teraelektronvolt till elektronvolt och därefter till joule.</p>"
   },
   {
     "id": "6.34",
@@ -12434,7 +13172,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Skriv energin i joule och lös ut massan ur \\(E_0=mc^2\\). Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>"
   },
   {
     "id": "6.35",
@@ -12456,7 +13195,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Den tillförda värmeenergin ökar systemets totala massa. Håll isär vattnets specifika värmekapacitet och ljusets hastighet.</p>"
   },
   {
     "id": "6.36",
@@ -12478,7 +13218,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Vid denna fart räcker den klassiska rörelseenergin mycket väl.</p>"
   },
   {
     "id": "6.37",
@@ -12500,7 +13241,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Omvandla den frigjorda energin till joule och använd mass–energiekvivalensen.</p>"
   },
   {
     "id": "6.38",
@@ -12520,7 +13262,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Beräkna den frigjorda energin under ett år. Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>"
   },
   {
     "id": "6.39",
@@ -12540,7 +13283,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Omvandla hela grammet till energi och därefter till kilowattimmar.</p>"
   },
   {
     "id": "6.40",
@@ -12562,7 +13306,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Elenergin är \\(30\\ \\%\\) av den frigjorda kärnenergin. Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>"
   },
   {
     "id": "6.41",
@@ -12585,7 +13330,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "relativistisk_energi__totalenergi_och_viloenergi"
+    "familjNyckelTidigare": "relativistisk_energi__totalenergi_och_viloenergi",
+    "ledtrad": "<p>Viloenergin beror endast på partikelns vilomassa, inte på dess fart.</p>"
   },
   {
     "id": "6.42",
@@ -12607,7 +13353,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "relativistisk_energi__totalenergi_och_viloenergi"
+    "familjNyckelTidigare": "relativistisk_energi__totalenergi_och_viloenergi",
+    "ledtrad": "<p>Den totala relativistiska energin är \\(E=\\gamma E_0\\). Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>"
   },
   {
     "id": "6.43",
@@ -12629,7 +13376,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi"
+    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
+    "ledtrad": "<p>Rörelseenergin är total energi minus viloenergi. Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>"
   },
   {
     "id": "6.44",
@@ -12649,7 +13397,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi"
+    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
+    "ledtrad": "<p>Beräkna Lorentzfaktorn och använd \\(K=(\\gamma-1)E_0\\). Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>"
   },
   {
     "id": "6.45",
@@ -12671,7 +13420,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi"
+    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
+    "ledtrad": "<p>Rörelseenergin bestämmer först Lorentzfaktorn. Beräkna först Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>"
   },
   {
     "id": "6.46",
@@ -12691,7 +13441,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi"
+    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
+    "ledtrad": "<p>Arbetet är ökningen i relativistisk rörelseenergi, vilket här är skillnaden i total energi.</p>"
   },
   {
     "id": "6.47",
@@ -12712,7 +13463,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi"
+    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
+    "ledtrad": "<p>I den klassiska modellen blir spänningens arbete rörelseenergi.</p>"
   },
   {
     "id": "6.48",
@@ -12734,7 +13486,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi"
+    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
+    "ledtrad": "<p>Den tillförda energin är \\(K=eU=10{,}0\\ \\mathrm{keV}\\). För elektronen är \\(E_0=511\\ \\mathrm{keV}\\).</p>"
   },
   {
     "id": "6.49",
@@ -12755,7 +13508,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi"
+    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
+    "ledtrad": "<p>Använd den klassiska formeln trots att resultatet måste rimlighetskontrolleras.</p>"
   },
   {
     "id": "6.50",
@@ -12777,7 +13531,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi"
+    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
+    "ledtrad": "<p>Elektronen får rörelseenergin \\(K=1{,}00\\ \\mathrm{MeV}\\), medan viloenergin är \\(0{,}511\\ \\mathrm{MeV}\\).</p>"
   },
   {
     "id": "6.51",
@@ -12797,7 +13552,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Färdtiden i markens system fås ur sträcka delat med fart. Identifiera egentiden – den mäts i det system där de två händelserna sker på samma plats.</p>"
   },
   {
     "id": "6.52",
@@ -12817,7 +13573,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Händelser som är samtidiga i ett system är det inte i ett annat. Med \\(\\Delta t=0\\) och \\(\\Delta x=8{,}00\\ \\mathrm m\\) i garagets system blir tidsskillnaden i stångens system</p>"
   },
   {
     "id": "6.62",
@@ -12839,7 +13596,8 @@ window.BANK2 = [
     "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "ledtrad": "<p>Egenlängden är den längd som mäts i skeppets vilosystem. I jordens system gäller \\(L=L_0/\\gamma\\).</p>"
   },
   {
     "id": "6.63",
@@ -12861,7 +13619,8 @@ window.BANK2 = [
     "tolerans": 0.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "ledtrad": "<p>Egenlängden är den längd som mäts i skeppets vilosystem. I jordens system gäller \\(L=L_0/\\gamma\\).</p>"
   },
   {
     "id": "6.64",
@@ -12882,7 +13641,8 @@ window.BANK2 = [
     "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Egenlängden mäts i föremålets vilosystem. I ett system där föremålet rör sig är längden längs rörelseriktningen \\(L=L_0/\\gamma\\).</p>"
   },
   {
     "id": "6.53",
@@ -12903,7 +13663,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "relativistisk_energi__totalenergi_och_viloenergi"
+    "familjNyckelTidigare": "relativistisk_energi__totalenergi_och_viloenergi",
+    "ledtrad": "<p>Röret rör sig i elektronens system och är därför kontraherat.</p>"
   },
   {
     "id": "6.54",
@@ -12924,7 +13685,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Utstrålad energi per sekund motsvarar en massa enligt \\(E=mc^2\\).</p>"
   },
   {
     "id": "1.80",
@@ -12945,7 +13707,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana"
+    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana",
+    "ledtrad": "<p>I gränsfallet räcker tyngdkraften ensam som centripetalkraft. Vattnet trycker då inte mot hinkens botten, alltså är normalkraften noll.</p>"
   },
   {
     "id": "2.172",
@@ -12965,7 +13728,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "ljud_horsel__ljudintensitet_och_horsel"
+    "familjNyckelTidigare": "ljud_horsel__ljudintensitet_och_horsel",
+    "ledtrad": "<p>Effekten fördelas jämnt över en klotyta. Ljudnivå är logaritmisk: \\(L=10\\log_{10}(I/I_0)\\).</p>"
   },
   {
     "id": "2.194",
@@ -12982,12 +13746,13 @@ window.BANK2 = [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 1e-06,
-    "tolerans": 2e-08,
+    "rättSvar": 0.000001,
+    "tolerans": 2e-8,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "W/m²",
-    "familjNyckelTidigare": "ljud_horsel__ljudintensitet_och_horsel"
+    "familjNyckelTidigare": "ljud_horsel__ljudintensitet_och_horsel",
+    "ledtrad": "<p>Använd \\(\\beta=10\\log_{10}(I/I_0)\\) och lös ut \\(I\\). Ljudnivå är logaritmisk: \\(L=10\\log_{10}(I/I_0)\\).</p>"
   },
   {
     "id": "2.195",
@@ -13005,11 +13770,12 @@ window.BANK2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 0.00031622776601683794,
-    "tolerans": 6.324555320336759e-06,
+    "tolerans": 0.000006324555320336759,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "W/m²",
-    "familjNyckelTidigare": "ljud_horsel__ljudintensitet_och_horsel"
+    "familjNyckelTidigare": "ljud_horsel__ljudintensitet_och_horsel",
+    "ledtrad": "<p>Använd \\(\\beta=10\\log_{10}(I/I_0)\\) och lös ut \\(I\\). Ljudnivå är logaritmisk: \\(L=10\\log_{10}(I/I_0)\\).</p>"
   },
   {
     "id": "2.196",
@@ -13032,7 +13798,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel"
+    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel",
+    "ledtrad": "<p>En skillnad \\(\\Delta\\beta\\) motsvarar intensitetsförhållandet \\(I_2/I_1=10^{\\Delta\\beta/10}\\).</p>"
   },
   {
     "id": "2.197",
@@ -13055,7 +13822,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel"
+    "familjNyckelTidigare": "ljud_horsel__ljudniva_och_decibel",
+    "ledtrad": "<p>En skillnad \\(\\Delta\\beta\\) motsvarar intensitetsförhållandet \\(I_2/I_1=10^{\\Delta\\beta/10}\\).</p>"
   },
   {
     "id": "2.173",
@@ -13076,7 +13844,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "extrema_frekvenser__infraljud"
+    "familjNyckelTidigare": "extrema_frekvenser__infraljud",
+    "ledtrad": "<p>Ett varv ger tre pulser eftersom rotorn har tre blad. Koppla frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "3.103",
@@ -13097,7 +13866,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>Flödet genom spolen går från maximalt till noll när planet vrids parallellt med fältet.</p>"
   },
   {
     "id": "3.104",
@@ -13118,7 +13888,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning"
+    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning",
+    "ledtrad": "<p>Kapacitansen är omvänt proportionell mot plattavståndet. Eftersom kondensatorn är bortkopplad kan laddningen inte ändras.</p>"
   },
   {
     "id": "4.51",
@@ -13138,7 +13909,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Fotonens energi går dels till att lösgöra elektronen, dels till dess rörelseenergi.</p>"
   },
   {
     "id": "5.44",
@@ -13159,7 +13931,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "exoplaneter__transitmetoden"
+    "familjNyckelTidigare": "exoplaneter__transitmetoden",
+    "ledtrad": "<p>Ljusminskningen svarar mot den andel av stjärnskivan som planeten täcker, alltså förhållandet mellan areorna.</p>"
   },
   {
     "id": "6.55",
@@ -13179,7 +13952,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Identifiera egentiden – den mäts i det system där de två händelserna sker på samma plats. Använd sedan \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>"
   },
   {
     "id": "6.59",
@@ -13201,7 +13975,8 @@ window.BANK2 = [
     "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "år"
+    "svarEnhet": "år",
+    "ledtrad": "<p>Tiden ombord är egentiden \\(\\Delta\\tau\\). I jordens system gäller \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>"
   },
   {
     "id": "6.60",
@@ -13223,7 +13998,8 @@ window.BANK2 = [
     "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "år"
+    "svarEnhet": "år",
+    "ledtrad": "<p>Tiden ombord är egentiden \\(\\Delta\\tau\\). I jordens system gäller \\(\\Delta t=\\gamma\\Delta\\tau\\).</p>"
   },
   {
     "id": "6.61",
@@ -13244,7 +14020,8 @@ window.BANK2 = [
     "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Förhållandet är \\(\\gamma=\\Delta t/\\Delta\\tau=2\\). Lös \\(\\gamma=1/\\sqrt{1-\\beta^2}\\).</p>"
   },
   {
     "id": "4.52",
@@ -13263,7 +14040,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>En foton avges eller absorberas när elektronen byter energinivå. Använd \\(|\\Delta E|=hf=hc/\\lambda\\) och håll reda på om övergången går uppåt eller nedåt.</p>"
   },
   {
     "id": "4.53",
@@ -13285,7 +14063,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "THz",
-    "familjNyckelTidigare": "em_vagor__em_vagors_fart_frekvens_och_vaglangd"
+    "familjNyckelTidigare": "em_vagor__em_vagors_fart_frekvens_och_vaglangd",
+    "ledtrad": "<p>Använd sambandet mellan våghastighet, frekvens och våglängd.</p>"
   },
   {
     "id": "4.61",
@@ -13307,7 +14086,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "familjNyckelTidigare": "em_vagor__elektromagnetiska_vagor_fart_frekvens_och_vaglangd"
+    "familjNyckelTidigare": "em_vagor__elektromagnetiska_vagor_fart_frekvens_och_vaglangd",
+    "ledtrad": "<p>Koppla frekvens och våglängd med \\(v=f\\lambda\\). För elektromagnetiska vågor i vakuum är \\(v=c\\).</p>"
   },
   {
     "id": "4.62",
@@ -13329,7 +14109,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "familjNyckelTidigare": "em_vagor__elektromagnetiska_vagor_fart_frekvens_och_vaglangd"
+    "familjNyckelTidigare": "em_vagor__elektromagnetiska_vagor_fart_frekvens_och_vaglangd",
+    "ledtrad": "<p>Koppla frekvens och våglängd med \\(v=f\\lambda\\). För elektromagnetiska vågor i vakuum är \\(v=c\\).</p>"
   },
   {
     "id": "4.63",
@@ -13351,7 +14132,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Hz",
-    "familjNyckelTidigare": "em_vagor__elektromagnetiska_vagor_fart_frekvens_och_vaglangd"
+    "familjNyckelTidigare": "em_vagor__elektromagnetiska_vagor_fart_frekvens_och_vaglangd",
+    "ledtrad": "<p>Använd \\(f=c/\\lambda\\) och omvandla nm till meter. Koppla frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "4.54",
@@ -13372,7 +14154,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "temperaturstralning__stefan_boltzmanns_lag",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Stefan–Boltzmanns lag ger utstrålad effekt per ytenhet. Använd Wiens lag för sambandet mellan temperatur och toppvåglängd, och Stefan–Boltzmanns lag när total utstrålad effekt eller luminositet efterfrågas.</p>"
   },
   {
     "id": "4.55",
@@ -13394,7 +14177,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "ledtrad": "<p>Använd brytningslagen med vattnet som medium 1 och luften som medium 2.</p>"
   },
   {
     "id": "4.56",
@@ -13414,7 +14198,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Gitterkonstanten är bredden på en millimeter delad med antalet linjer.</p>"
   },
   {
     "id": "4.64",
@@ -13435,7 +14220,8 @@ window.BANK2 = [
     "tolerans": 0.2,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°"
+    "svarEnhet": "°",
+    "ledtrad": "<p>Gitterkonstanten är \\(d=1/N\\). För vinkelrätt infall gäller \\(d\\sin\\theta=m\\lambda\\).</p>"
   },
   {
     "id": "4.65",
@@ -13456,7 +14242,8 @@ window.BANK2 = [
     "tolerans": 0.2,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°"
+    "svarEnhet": "°",
+    "ledtrad": "<p>Gitterkonstanten är \\(d=1/N\\). För vinkelrätt infall gäller \\(d\\sin\\theta=m\\lambda\\).</p>"
   },
   {
     "id": "4.66",
@@ -13477,7 +14264,8 @@ window.BANK2 = [
     "tolerans": 0.2,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°"
+    "svarEnhet": "°",
+    "ledtrad": "<p>Gitterkonstanten är \\(d=1/N\\). För vinkelrätt infall gäller \\(d\\sin\\theta=m\\lambda\\).</p>"
   },
   {
     "id": "4.67",
@@ -13498,7 +14286,8 @@ window.BANK2 = [
     "tolerans": 0.1,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "mm"
+    "svarEnhet": "mm",
+    "ledtrad": "<p>För små vinklar nära centralmaximum gäller \\(\\Delta y=\\lambda L/d\\).</p>"
   },
   {
     "id": "5.45",
@@ -13517,7 +14306,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Sätt in avståndet direkt i Hubbles lag. Enheterna är valda så att avståndet ska anges i megaparsec.</p>"
   },
   {
     "id": "5.46",
@@ -13539,7 +14329,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur"
+    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur",
+    "ledtrad": "<p>Lös ut temperaturen ur Wiens förskjutningslag. Koppla färg/toppvåglängd till temperatur med Wiens lag.</p>"
   },
   {
     "id": "5.47",
@@ -13560,7 +14351,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "stjarnornas_utveckling__hr_diagram_och_huvudserien"
+    "familjNyckelTidigare": "stjarnornas_utveckling__hr_diagram_och_huvudserien",
+    "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>"
   },
   {
     "id": "5.48",
@@ -13582,7 +14374,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan"
+    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+    "ledtrad": "<p>Lägre magnitud betyder ljusare. Skillnaden i magnitud räknas om till en faktor.</p>"
   },
   {
     "id": "1.81",
@@ -13604,7 +14397,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "km/h",
-    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana"
+    "familjNyckelTidigare": "cirkel__lodrat_cirkelbana",
+    "ledtrad": "<p>Bilen lättar när normalkraften blir noll. Då är tyngdkraften ensam centripetalkraft.</p>"
   },
   {
     "id": "1.82",
@@ -13624,7 +14418,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "cirkel__konisk_pendel"
+    "familjNyckelTidigare": "cirkel__konisk_pendel",
+    "ledtrad": "<p>Snöret är hypotenusan i en rätvinklig triangel. Radien är motstående katet till vinkeln och höjden är närliggande katet.</p>"
   },
   {
     "id": "1.83",
@@ -13647,7 +14442,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion"
+    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion",
+    "ledtrad": "<p>När friktion inte behövs ger kraftkomposanterna sambandet \\(\\tan\\theta=v^2/(rg)\\).</p>"
   },
   {
     "id": "1.84",
@@ -13670,7 +14466,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion"
+    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion",
+    "ledtrad": "<p>När friktion inte behövs ger kraftkomposanterna sambandet \\(\\tan\\theta=v^2/(rg)\\).</p>"
   },
   {
     "id": "1.85",
@@ -13692,7 +14489,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s",
-    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion"
+    "familjNyckelTidigare": "cirkel__doserad_kurva_och_friktion",
+    "ledtrad": "<p>Lös ut farten ur \\(\\tan\\theta=v^2/(rg)\\). Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>"
   },
   {
     "id": "1.86",
@@ -13715,7 +14513,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s²",
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\). Identifiera vilken verklig kraft eller kraftkomponent som ger denna nettokraft.</p>"
   },
   {
     "id": "1.87",
@@ -13738,7 +14537,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s²",
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\). Identifiera vilken verklig kraft eller kraftkomponent som ger denna nettokraft.</p>"
   },
   {
     "id": "1.88",
@@ -13761,7 +14561,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s",
     "familjTidigare": "Centripetalkraft och centripetalacceleration",
-    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration"
+    "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
+    "ledtrad": "<p>På ett varv färdas kapseln sträckan \\(2\\pi r\\). Farten är sträcka delat med periodtid.</p>"
   },
   {
     "id": "2.174",
@@ -13783,7 +14584,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "fjadrar__fjadrar_i_serie_och_parallell",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Parallella fjädrar dras ut lika mycket och krafterna adderas.</p>"
   },
   {
     "id": "2.180",
@@ -13807,7 +14609,8 @@ window.BANK2 = [
     "svarEnhet": "J",
     "familjNyckelTidigare": "fjadrar__fjaderenergi",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Den elastiska energin är \\(E=\\tfrac12kx^2\\). Sträckningen måste anges i meter.</p>"
   },
   {
     "id": "2.181",
@@ -13831,7 +14634,8 @@ window.BANK2 = [
     "svarEnhet": "J",
     "familjNyckelTidigare": "fjadrar__fjaderenergi",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Den elastiska energin är \\(E=\\tfrac12kx^2\\). Sträckningen måste anges i meter.</p>"
   },
   {
     "id": "2.182",
@@ -13855,7 +14659,8 @@ window.BANK2 = [
     "svarEnhet": "cm",
     "familjNyckelTidigare": "fjadrar__fjaderenergi",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Lös ut \\(x\\) ur \\(E=\\tfrac12kx^2\\). Identifiera om uppgiften handlar om kraft, förlängning eller energi.</p>"
   },
   {
     "id": "2.183",
@@ -13880,7 +14685,8 @@ window.BANK2 = [
     "svarEnhet": "N/m",
     "familjNyckelTidigare": "fjadrar__fjadrar_i_serie_och_parallell",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>För seriekoppling gäller \\(1/k=1/k_1+1/k_2\\); för parallellkoppling gäller \\(k=k_1+k_2\\).</p>"
   },
   {
     "id": "2.184",
@@ -13905,7 +14711,8 @@ window.BANK2 = [
     "svarEnhet": "N/m",
     "familjNyckelTidigare": "fjadrar__fjadrar_i_serie_och_parallell",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>För seriekoppling gäller \\(1/k=1/k_1+1/k_2\\); för parallellkoppling gäller \\(k=k_1+k_2\\).</p>"
   },
   {
     "id": "2.185",
@@ -13929,7 +14736,8 @@ window.BANK2 = [
     "svarEnhet": "cm",
     "familjNyckelTidigare": "fjadrar__fjadrar_i_serie_och_parallell",
     "familjTidigare": "Fjädrar: Hookes lag, energi och kopplingar",
-    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar"
+    "familjNyckelFöreHierarki": "fjadrar__fjadrar_hookes_lag_energi_och_kopplingar",
+    "ledtrad": "<p>Beräkna först seriekopplingens effektiva fjäderkonstant och använd sedan \\(mg=kx\\).</p>"
   },
   {
     "id": "2.175",
@@ -13950,7 +14758,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "interferens__interferens_fran_tva_kallor"
+    "familjNyckelTidigare": "interferens__interferens_fran_tva_kallor",
+    "ledtrad": "<p>Jämför vägskillnaden med våglängden. Beräkna vägskillnaden.</p>"
   },
   {
     "id": "2.176",
@@ -13972,7 +14781,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "pendlar__pendel_och_energi"
+    "familjNyckelTidigare": "pendlar__pendel_och_energi",
+    "ledtrad": "<p>All lägesenergi omvandlas till rörelseenergi. För små utslag hos en matematisk pendel gäller \\(T=2\\pi\\sqrt{l/g}\\).</p>"
   },
   {
     "id": "3.105",
@@ -13992,7 +14802,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator"
+    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator",
+    "ledtrad": "<p>Använd \\(Q=CU\\). Om energi efterfrågas är \\(E_C=CU^2/2=Q^2/(2C)\\); kontrollera också om kondensatorerna är serie- eller parallellkopplade.</p>"
   },
   {
     "id": "3.115",
@@ -14014,7 +14825,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "µC",
-    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning"
+    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning",
+    "ledtrad": "<p>Använd \\(Q=CU\\). Med C i μF blir Q direkt i μC när U anges i volt.</p>"
   },
   {
     "id": "3.116",
@@ -14036,7 +14848,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "µC",
-    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning"
+    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning",
+    "ledtrad": "<p>Använd \\(Q=CU\\). Med C i μF blir Q direkt i μC när U anges i volt.</p>"
   },
   {
     "id": "3.117",
@@ -14058,7 +14871,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "µC",
-    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning"
+    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning",
+    "ledtrad": "<p>Använd \\(Q=CU\\). Med C i μF blir Q direkt i μC när U anges i volt.</p>"
   },
   {
     "id": "3.118",
@@ -14080,7 +14894,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "µF",
-    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning"
+    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning",
+    "ledtrad": "<p>Använd \\(Q=CU\\). Om energi efterfrågas är \\(E_C=CU^2/2=Q^2/(2C)\\); kontrollera också om kondensatorerna är serie- eller parallellkopplade.</p>"
   },
   {
     "id": "3.119",
@@ -14102,7 +14917,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning"
+    "familjNyckelTidigare": "kondensatorer__kapacitans_laddning_och_spanning",
+    "ledtrad": "<p>Använd \\(Q=CU\\). Om energi efterfrågas är \\(E_C=CU^2/2=Q^2/(2C)\\); kontrollera också om kondensatorerna är serie- eller parallellkopplade.</p>"
   },
   {
     "id": "3.120",
@@ -14124,7 +14940,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "mJ",
-    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator"
+    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator",
+    "ledtrad": "<p>Använd \\(W=\\tfrac12CU^2\\) och omvandla μF till F. Använd \\(Q=CU\\).</p>"
   },
   {
     "id": "3.121",
@@ -14146,7 +14963,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "mJ",
-    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator"
+    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator",
+    "ledtrad": "<p>Använd \\(W=\\tfrac12CU^2\\) och omvandla μF till F. Använd \\(Q=CU\\).</p>"
   },
   {
     "id": "3.122",
@@ -14168,7 +14986,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator"
+    "familjNyckelTidigare": "kondensatorer__energi_i_kondensator",
+    "ledtrad": "<p>Använd \\(Q=CU\\). Om energi efterfrågas är \\(E_C=CU^2/2=Q^2/(2C)\\); kontrollera också om kondensatorerna är serie- eller parallellkopplade.</p>"
   },
   {
     "id": "3.106",
@@ -14190,7 +15009,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "vaxelstrom__effektivvarde"
+    "familjNyckelTidigare": "vaxelstrom__effektivvarde",
+    "ledtrad": "<p>För en sinusformad växelspänning är effektivvärdet toppvärdet delat med roten ur två.</p>"
   },
   {
     "id": "3.135",
@@ -14212,7 +15032,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "familjNyckelTidigare": "vaxelstrom__effektivvarde"
+    "familjNyckelTidigare": "vaxelstrom__effektivvarde",
+    "ledtrad": "<p>För en sinusformad spänning gäller \\(U_\\mathrm{eff}=U_\\max/\\sqrt2\\).</p>"
   },
   {
     "id": "3.136",
@@ -14234,7 +15055,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "familjNyckelTidigare": "vaxelstrom__effektivvarde"
+    "familjNyckelTidigare": "vaxelstrom__effektivvarde",
+    "ledtrad": "<p>För en sinusformad spänning gäller \\(U_\\mathrm{eff}=U_\\max/\\sqrt2\\).</p>"
   },
   {
     "id": "3.137",
@@ -14256,7 +15078,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Hz",
-    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom"
+    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom",
+    "ledtrad": "<p>Jämför med \\(u=U_\\max\\sin(\\omega t)\\). Här är \\(\\omega=120\\pi\\), och \\(f=\\omega/(2\\pi)\\).</p>"
   },
   {
     "id": "3.138",
@@ -14278,7 +15101,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Hz",
-    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom"
+    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom",
+    "ledtrad": "<p>Jämför med \\(u=U_\\max\\sin(\\omega t)\\). Här är \\(\\omega=200\\pi\\), och \\(f=\\omega/(2\\pi)\\).</p>"
   },
   {
     "id": "3.139",
@@ -14300,7 +15124,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
-    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom"
+    "familjNyckelTidigare": "vaxelstrom__sinusformad_vaxelstrom",
+    "ledtrad": "<p>För en ren resistor kan effektivvärdet användas direkt: \\(P=U_\\mathrm{eff}^2/R\\).</p>"
   },
   {
     "id": "3.107",
@@ -14321,7 +15146,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "induktion__generatorprincipen"
+    "familjNyckelTidigare": "induktion__generatorprincipen",
+    "ledtrad": "<p>Den inducerade spänningen bestäms av hur snabbt det magnetiska flödet genom spolen ändras. När spolen roterar växlar flödet riktning två gånger per varv: först ökar det, sedan minskar det, och därefter går det åt motsatt håll.</p>"
   },
   {
     "id": "3.130",
@@ -14330,7 +15156,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "beräkna inducerad spänning från flödesändring",
     "poang": "(2/0/0)",
-    "t": "<p>Magnetflödet genom en spole med 250 varv ändras med 3.0e-04 Wb på 0,04 s.</p><p>Bestäm den inducerade spänningens storlek.</p>",
+    "t": "<p>Magnetflödet genom en spole med 250 varv ändras med \\(3,0\\cdot10^{-4}\\,\\mathrm{Wb}\\) på 0,040 s.</p><p>Bestäm den inducerade spänningens storlek.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Faradays lag ger \\(|\\varepsilon|=N|\\Delta\\Phi|/\\Delta t\\).</p><div class=\"facit-matte\">\\[|\\varepsilon|=250\\frac{3{,}0\\cdot10^{-4}}{0.04}=1.875\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Spänningens storlek är \\(1,875\\ \\mathrm V\\).</p></div>",
     "familj": "Faradays lag, magnetiskt flöde och induktion",
     "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion",
@@ -14343,7 +15169,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>Faradays lag ger \\(|\\varepsilon|=N|\\Delta\\Phi|/\\Delta t\\).</p>"
   },
   {
     "id": "3.131",
@@ -14352,7 +15179,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "beräkna inducerad spänning från flödesändring",
     "poang": "(2/0/0)",
-    "t": "<p>Magnetflödet genom en spole med 500 varv ändras med 1.2e-04 Wb på 0,015 s.</p><p>Bestäm den inducerade spänningens storlek.</p>",
+    "t": "<p>Magnetflödet genom en spole med 500 varv ändras med \\(1,2\\cdot10^{-4}\\,\\mathrm{Wb}\\) på 0,015 s.</p><p>Bestäm den inducerade spänningens storlek.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Faradays lag ger \\(|\\varepsilon|=N|\\Delta\\Phi|/\\Delta t\\).</p><div class=\"facit-matte\">\\[|\\varepsilon|=500\\frac{1{,}2\\cdot10^{-4}}{0.015}=4.000\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Spänningens storlek är \\(4\\ \\mathrm V\\).</p></div>",
     "familj": "Faradays lag, magnetiskt flöde och induktion",
     "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion",
@@ -14365,7 +15192,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>Faradays lag ger \\(|\\varepsilon|=N|\\Delta\\Phi|/\\Delta t\\).</p>"
   },
   {
     "id": "3.132",
@@ -14374,7 +15202,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "beräkna inducerad spänning från flödesändring",
     "poang": "(2/0/0)",
-    "t": "<p>Magnetflödet genom en spole med 120 varv ändras med 8.0e-04 Wb på 0,08 s.</p><p>Bestäm den inducerade spänningens storlek.</p>",
+    "t": "<p>Magnetflödet genom en spole med 120 varv ändras med \\(8,0\\cdot10^{-4}\\,\\mathrm{Wb}\\) på 0,080 s.</p><p>Bestäm den inducerade spänningens storlek.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Faradays lag ger \\(|\\varepsilon|=N|\\Delta\\Phi|/\\Delta t\\).</p><div class=\"facit-matte\">\\[|\\varepsilon|=120\\frac{8{,}0\\cdot10^{-4}}{0.08}=1.200\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Spänningens storlek är \\(1,2\\ \\mathrm V\\).</p></div>",
     "familj": "Faradays lag, magnetiskt flöde och induktion",
     "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion",
@@ -14387,7 +15215,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag"
+    "familjNyckelTidigare": "induktion__faradays_och_lenz_lag",
+    "ledtrad": "<p>Faradays lag ger \\(|\\varepsilon|=N|\\Delta\\Phi|/\\Delta t\\).</p>"
   },
   {
     "id": "3.133",
@@ -14409,7 +15238,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "familjNyckelTidigare": "induktion__rorelseinduktion"
+    "familjNyckelTidigare": "induktion__rorelseinduktion",
+    "ledtrad": "<p>När rörelsen, ledaren och fältet är inbördes vinkelräta gäller \\(\\varepsilon=Blv\\).</p>"
   },
   {
     "id": "3.134",
@@ -14431,7 +15261,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "familjNyckelTidigare": "induktion__rorelseinduktion"
+    "familjNyckelTidigare": "induktion__rorelseinduktion",
+    "ledtrad": "<p>När rörelsen, ledaren och fältet är inbördes vinkelräta gäller \\(\\varepsilon=Blv\\).</p>"
   },
   {
     "id": "3.193",
@@ -14453,7 +15284,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.194",
@@ -14475,7 +15307,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.195",
@@ -14497,7 +15330,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.196",
@@ -14519,7 +15353,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.197",
@@ -14541,7 +15376,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.198",
@@ -14563,7 +15399,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.199",
@@ -14585,7 +15422,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.200",
@@ -14607,7 +15445,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.201",
@@ -14629,7 +15468,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.202",
@@ -14651,7 +15491,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.203",
@@ -14673,7 +15514,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.204",
@@ -14695,7 +15537,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.205",
@@ -14717,7 +15560,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.206",
@@ -14739,7 +15583,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.207",
@@ -14761,7 +15606,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.208",
@@ -14783,7 +15629,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>"
   },
   {
     "id": "3.108",
@@ -14805,7 +15652,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__kapacitiv_reaktans"
+    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__kapacitiv_reaktans",
+    "ledtrad": "<p>Jämför reaktanserna \\(X_L=\\omega L\\) och \\(X_C=1/(\\omega C)\\). Vid resonans är de lika stora.</p>"
   },
   {
     "id": "3.109",
@@ -14827,7 +15675,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__resonans_i_lc_eller_rlc_krets"
+    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__resonans_i_lc_eller_rlc_krets",
+    "ledtrad": "<p>Vid resonans är den induktiva och den kapacitiva reaktansen lika stora.</p>"
   },
   {
     "id": "3.110",
@@ -14847,7 +15696,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "jordens_magnetfalt__inklination_och_deklination"
+    "familjNyckelTidigare": "jordens_magnetfalt__inklination_och_deklination",
+    "ledtrad": "<p>Dela upp fältet som en vektor. Inklinationen mäts från horisontalplanet.</p>"
   },
   {
     "id": "3.229",
@@ -14870,7 +15720,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.230",
@@ -14893,7 +15744,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.231",
@@ -14916,7 +15768,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.232",
@@ -14939,7 +15792,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.233",
@@ -14962,7 +15816,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.234",
@@ -14985,7 +15840,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.235",
@@ -15008,7 +15864,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.236",
@@ -15031,7 +15888,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.237",
@@ -15054,7 +15912,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.238",
@@ -15077,7 +15936,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.239",
@@ -15100,7 +15960,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.240",
@@ -15123,7 +15984,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "kort_text",
     "svarEnhet": null,
-    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet"
+    "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
+    "ledtrad": "<p>Se kompassnålen som en liten magnet som ställer in sig efter det resulterande magnetfältet. Bestäm bidraget från ledare/spole och kombinera det med jordens fält som vektorer innan du avgör riktning eller storlek.</p>"
   },
   {
     "id": "3.111",
@@ -15145,7 +16007,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "elektriska_falt__falt_fran_punktladdning",
     "familjTidigare": "Elektriska fält, potential och kraft",
-    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft"
+    "familjNyckelFöreHierarki": "elektriska_falt__elektriska_falt_potential_och_kraft",
+    "ledtrad": "<p>Lös ut laddningen ur uttrycket för fältet kring en punktladdning.</p>"
   },
   {
     "id": "3.112",
@@ -15166,7 +16029,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__induktiv_reaktans"
+    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__induktiv_reaktans",
+    "ledtrad": "<p>Jämför reaktanserna \\(X_L=\\omega L\\) och \\(X_C=1/(\\omega C)\\). Vid resonans är de lika stora.</p>"
   },
   {
     "id": "3.140",
@@ -15188,7 +16052,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__induktiv_reaktans"
+    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__induktiv_reaktans",
+    "ledtrad": "<p>Jämför reaktanserna \\(X_L=\\omega L\\) och \\(X_C=1/(\\omega C)\\). Vid resonans är de lika stora.</p>"
   },
   {
     "id": "3.141",
@@ -15210,7 +16075,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__induktiv_reaktans"
+    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__induktiv_reaktans",
+    "ledtrad": "<p>Jämför reaktanserna \\(X_L=\\omega L\\) och \\(X_C=1/(\\omega C)\\). Vid resonans är de lika stora.</p>"
   },
   {
     "id": "3.142",
@@ -15232,7 +16098,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__kapacitiv_reaktans"
+    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__kapacitiv_reaktans",
+    "ledtrad": "<p>Jämför reaktanserna \\(X_L=\\omega L\\) och \\(X_C=1/(\\omega C)\\). Vid resonans är de lika stora.</p>"
   },
   {
     "id": "3.143",
@@ -15241,7 +16108,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "beräkna kapacitiv reaktans",
     "poang": "(2/0/0)",
-    "t": "<p>En kondensator på 4.7 μF ansluts till växelström med frekvensen 1000 Hz.</p><p>Bestäm den kapacitiva reaktansen.</p>",
+    "t": "<p>En kondensator på 4,7 μF ansluts till växelström med frekvensen 1000 Hz.</p><p>Bestäm den kapacitiva reaktansen.</p>",
     "s": "<p><strong>Kondensator i växelström:</strong> Den kapacitiva reaktansen är \\(X_C=1/(2\\pi fC)\\). Högre frekvens eller större kapacitans ger mindre reaktans.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Använd \\(X_C=1/(2\\pi fC)\\).</p><div class=\"facit-matte\">\\[X_C=\\frac{1}{2\\pi\\cdot1000\\cdot4{,}7\\cdot10^{-6}}=33.86\\ \\Omega\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Reaktansen är cirka \\(33,86\\ \\Omega\\).</p></div>",
     "familj": "Spole, kondensator och resonans i växelström",
     "familjNyckel": "vaxelstrom_spole_kondensator__spole_kondensator_och_resonans_i_vaxelstrom",
@@ -15254,7 +16121,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Ω",
-    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__kapacitiv_reaktans"
+    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__kapacitiv_reaktans",
+    "ledtrad": "<p>Jämför reaktanserna \\(X_L=\\omega L\\) och \\(X_C=1/(\\omega C)\\). Vid resonans är de lika stora.</p>"
   },
   {
     "id": "3.144",
@@ -15276,7 +16144,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Hz",
-    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__resonans_i_lc_eller_rlc_krets"
+    "familjNyckelTidigare": "vaxelstrom_spole_kondensator__resonans_i_lc_eller_rlc_krets",
+    "ledtrad": "<p>Resonansfrekvensen är \\(f_0=1/(2\\pi\\sqrt{LC})\\). Jämför reaktanserna \\(X_L=\\omega L\\) och \\(X_C=1/(\\omega C)\\).</p>"
   },
   {
     "id": "4.57",
@@ -15298,7 +16167,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "partikelstralar__masspektrometer"
+    "familjNyckelTidigare": "partikelstralar__masspektrometer",
+    "ledtrad": "<p>Den magnetiska kraften är centripetalkraft. Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\).</p>"
   },
   {
     "id": "5.49",
@@ -15319,7 +16189,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "stjarnornas_utveckling__stjarnors_livscykel"
+    "familjNyckelTidigare": "stjarnornas_utveckling__stjarnors_livscykel",
+    "ledtrad": "<p>Sätt in luminositetssambandet i uttrycket för livstiden. Räkna i solenheter.</p>"
   },
   {
     "id": "5.50",
@@ -15339,7 +16210,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "exoplaneter__detektion_av_exoplaneter"
+    "familjNyckelTidigare": "exoplaneter__detektion_av_exoplaneter",
+    "ledtrad": "<p>Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\Delta F/F\\approx(R_p/R_*)^2\\). Perioden kan sedan kopplas till banradien med Keplers tredje lag.</p>"
   },
   {
     "id": "5.55",
@@ -15362,7 +16234,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
-    "familjNyckelTidigare": "exoplaneter__transitmetoden"
+    "familjNyckelTidigare": "exoplaneter__transitmetoden",
+    "ledtrad": "<p>För en central transit är transitdjupet ungefär kvadraten på radieförhållandet.</p>"
   },
   {
     "id": "5.56",
@@ -15385,7 +16258,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
-    "familjNyckelTidigare": "exoplaneter__transitmetoden"
+    "familjNyckelTidigare": "exoplaneter__transitmetoden",
+    "ledtrad": "<p>För en central transit är transitdjupet ungefär kvadraten på radieförhållandet.</p>"
   },
   {
     "id": "5.57",
@@ -15408,7 +16282,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "exoplaneter__transitmetoden"
+    "familjNyckelTidigare": "exoplaneter__transitmetoden",
+    "ledtrad": "<p>Transitdjupet är ungefär \\(\\delta=(R_p/R_*)^2\\).</p>"
   },
   {
     "id": "5.64",
@@ -15431,7 +16306,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "dygn",
-    "familjNyckelTidigare": "exoplaneter__transitmetoden"
+    "familjNyckelTidigare": "exoplaneter__transitmetoden",
+    "ledtrad": "<p>Tiden mellan två på varandra följande transiter är planetens omloppstid.</p>"
   },
   {
     "id": "2.177",
@@ -15453,7 +16329,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "familjNyckelTidigare": "pendlar__konisk_pendel"
+    "familjNyckelTidigare": "pendlar__konisk_pendel",
+    "ledtrad": "<p>Kulan rör sig i en vågrät cirkel, så den har ingen acceleration i lodled. Snörkraftens lodräta komposant måste därför balansera tyngdkraften.</p>"
   },
   {
     "id": "3.113",
@@ -15475,7 +16352,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "laddade_partiklar__partikel_i_korsade_falt"
+    "familjNyckelTidigare": "laddade_partiklar__partikel_i_korsade_falt",
+    "ledtrad": "<p>Partikeln går rakt fram när den elektriska och den magnetiska kraften tar ut varandra.</p>"
   },
   {
     "id": "3.114",
@@ -15496,7 +16374,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "laddade_partiklar__partikel_i_korsade_falt"
+    "familjNyckelTidigare": "laddade_partiklar__partikel_i_korsade_falt",
+    "ledtrad": "<p>Skriv kraften från varje fält separat: \\(F_E=qE\\) och \\(F_B=qvB\\). Om partikeln går rakt fram måste krafterna balansera; vid cirkelbana ger magnetkraften centripetalkraften.</p>"
   },
   {
     "id": "3.173",
@@ -15518,7 +16397,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.174",
@@ -15540,7 +16420,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.175",
@@ -15562,7 +16443,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.176",
@@ -15584,7 +16466,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.177",
@@ -15606,7 +16489,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.178",
@@ -15628,7 +16512,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.179",
@@ -15650,7 +16535,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.180",
@@ -15672,7 +16558,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.181",
@@ -15694,7 +16581,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.182",
@@ -15716,7 +16604,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.183",
@@ -15738,7 +16627,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "3.184",
@@ -15760,7 +16650,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "kort_text",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "ledtrad": "<p>För en laddning gäller \\(F=qvB\\sin\\theta\\). Använd högerhandsregeln för en positiv laddning; om laddningen är negativ vänder du kraftens riktning.</p>"
   },
   {
     "id": "5.51",
@@ -15780,7 +16671,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "framtiden__kosmologiska_scenarier"
+    "familjNyckelTidigare": "framtiden__kosmologiska_scenarier",
+    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>"
   },
   {
     "id": "4.58",
@@ -15800,7 +16692,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Fotonens energi är skillnaden mellan nivåerna, och våglängden fås ur \\(\\lambda=hc/E\\).</p>"
   },
   {
     "id": "4.59",
@@ -15822,7 +16715,8 @@ window.BANK2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "temperaturstralning__stefan_boltzmanns_lag",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Luminositeten beror på ytan och på utstrålad effekt per ytenhet. Jämför med solen så faller konstanterna bort.</p>"
   },
   {
     "id": "4.68",
@@ -15845,7 +16739,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "nm",
     "familjNyckelTidigare": "temperaturstralning__wiens_forskjutningslag",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Wiens förskjutningslag är \\(\\lambda_\\max T=2{,}90\\cdot10^{-3}\\,\\mathrm{m\\,K}\\).</p>"
   },
   {
     "id": "4.69",
@@ -15868,7 +16763,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "nm",
     "familjNyckelTidigare": "temperaturstralning__wiens_forskjutningslag",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Wiens förskjutningslag är \\(\\lambda_\\max T=2{,}90\\cdot10^{-3}\\,\\mathrm{m\\,K}\\).</p>"
   },
   {
     "id": "4.70",
@@ -15891,7 +16787,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "W/m²",
     "familjNyckelTidigare": "temperaturstralning__stefan_boltzmanns_lag",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Stefan–Boltzmanns lag per ytenhet är \\(P/A=\\sigma T^4\\). Använd Wiens lag för sambandet mellan temperatur och toppvåglängd, och Stefan–Boltzmanns lag när total utstrålad effekt eller luminositet efterfrågas.</p>"
   },
   {
     "id": "4.71",
@@ -15915,7 +16812,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": null,
     "familjNyckelTidigare": "temperaturstralning__stefan_boltzmanns_lag",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Vid samma radie är arean lika och Stefan–Boltzmann ger \\(P\\propto T^4\\).</p>"
   },
   {
     "id": "4.60",
@@ -15935,7 +16833,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Sambandet är \\(eU=hc/\\lambda-W\\). Med två mätningar kan \\(W\\) elimineras genom subtraktion.</p>"
   },
   {
     "id": "4.72",
@@ -15956,7 +16855,8 @@ window.BANK2 = [
     "tolerans": 0.03,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "ledtrad": "<p>Använd \\(E=hc/\\lambda\\) och omvandla joule till eV. Koppla fotonens energi till frekvens eller våglängd med \\(E=hf=hc/\\lambda\\).</p>"
   },
   {
     "id": "4.73",
@@ -15977,28 +16877,30 @@ window.BANK2 = [
     "tolerans": 0.03,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "ledtrad": "<p>Använd \\(E=hc/\\lambda\\) och omvandla joule till eV. Koppla fotonens energi till frekvens eller våglängd med \\(E=hf=hc/\\lambda\\).</p>"
   },
   {
     "id": "4.74",
     "kap": 4,
     "omr": "ljus_partikelstrom",
     "niva": "C",
-    "typ": "beräkna fotonenergi från våglängd",
+    "typ": "fotoelektrisk effekt – maximal kinetisk energi",
     "poang": "(1/2/0)",
-    "t": "<p>En foton har våglängden 250 nm.</p><p>Bestäm fotonens energi i eV.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd \\(E=hc/\\lambda\\) och omvandla joule till eV.</p><div class=\"facit-matte\">\\[E=\\frac{6{,}626\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{250\\cdot10^{-9}}=7{,}95\\cdot10^{-19}\\ \\mathrm J\\]\\[E=4.963\\ \\mathrm{eV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Fotonenergin är cirka \\(4,963\\ \\mathrm{eV}\\).</p></div>",
+    "t": "<p>En metall har utträdesarbetet \\(4,50\\,\\mathrm{eV}\\). Metallen belyses med fotoner med våglängden \\(250\\,\\mathrm{nm}\\).</p><p>Bestäm den största kinetiska energin hos de fotoelektroner som kan frigöras. Svara i eV.</p>",
+    "s": "<div class=\"facit-v2\"><p>Bestäm först fotonens energi:</p><div class=\"facit-matte\">\\[E_\\gamma=\\frac{hc}{\\lambda}\\approx\\frac{1240\\,\\mathrm{eV\\,nm}}{250\\,\\mathrm{nm}}=4,96\\,\\mathrm{eV}.\\]</div><p>Den del som överstiger metallens utträdesarbete kan bli elektronens kinetiska energi:</p><div class=\"facit-matte\">\\[E_k=E_\\gamma-W\\approx4,96-4,50=0,46\\,\\mathrm{eV}.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(0,46\\,\\mathrm{eV}\\).</p></div>",
     "familj": "Fotonenergi",
     "familjNyckel": "ljus_partikelstrom__fotonenergi",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 4.963295880149812,
-    "tolerans": 0.03,
+    "rättSvar": 0.463,
+    "tolerans": 0.02,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "ledtrad": "<p>Koppla fotonens energi till frekvens eller våglängd med \\(E=hf=hc/\\lambda\\). Om en elektron frigörs kan resterande energi bli rörelseenergi.</p>"
   },
   {
     "id": "4.75",
@@ -16019,7 +16921,8 @@ window.BANK2 = [
     "tolerans": 2,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "nm"
+    "svarEnhet": "nm",
+    "ledtrad": "<p>Omvandla först eV till joule och använd sedan \\(\\lambda=hc/E\\).</p>"
   },
   {
     "id": "5.52",
@@ -16039,7 +16942,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Lös ut β ur den relativistiska formeln genom att kvadrera.</p>"
   },
   {
     "id": "5.58",
@@ -16061,7 +16965,8 @@ window.BANK2 = [
     "tolerans": 1,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "Mpc"
+    "svarEnhet": "Mpc",
+    "ledtrad": "<p>Hubbles lag är \\(v=H_0d\\). Lös ut d. Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given.</p>"
   },
   {
     "id": "5.59",
@@ -16083,7 +16988,8 @@ window.BANK2 = [
     "tolerans": 1,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "Mpc"
+    "svarEnhet": "Mpc",
+    "ledtrad": "<p>Hubbles lag är \\(v=H_0d\\). Lös ut d. Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given.</p>"
   },
   {
     "id": "5.60",
@@ -16105,7 +17011,8 @@ window.BANK2 = [
     "tolerans": 100,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "km/s"
+    "svarEnhet": "km/s",
+    "ledtrad": "<p>Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given. Använd därefter Hubbles lag \\(v=H_0d\\).</p>"
   },
   {
     "id": "5.53",
@@ -16125,7 +17032,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>"
   },
   {
     "id": "5.61",
@@ -16148,7 +17056,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "pc",
-    "familjNyckelTidigare": "avstandsmatning__avstandsmodul"
+    "familjNyckelTidigare": "avstandsmatning__avstandsmodul",
+    "ledtrad": "<p>Sätt in magnituderna i avståndsmodulen och lös ut d. Identifiera vilken avståndsmetod uppgiften använder.</p>"
   },
   {
     "id": "5.62",
@@ -16171,7 +17080,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "pc",
-    "familjNyckelTidigare": "avstandsmatning__avstandsmodul"
+    "familjNyckelTidigare": "avstandsmatning__avstandsmodul",
+    "ledtrad": "<p>Sätt in magnituderna i avståndsmodulen och lös ut d. Identifiera vilken avståndsmetod uppgiften använder.</p>"
   },
   {
     "id": "5.63",
@@ -16194,7 +17104,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
-    "familjNyckelTidigare": "avstandsmatning__avstandsmodul"
+    "familjNyckelTidigare": "avstandsmatning__avstandsmodul",
+    "ledtrad": "<p>Använd \\(m-M=5\\log_{10}(d/10\\,\\mathrm{pc})\\). Identifiera vilken avståndsmetod uppgiften använder.</p>"
   },
   {
     "id": "5.54",
@@ -16215,7 +17126,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur"
+    "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur",
+    "ledtrad": "<p>Den vita komponenten. Trots att den totala luminositeten är ungefär lika stor för båda är fördelningen helt olika.</p>"
   },
   {
     "id": "2.178",
@@ -16236,7 +17148,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>I grundtonen ryms en halv våglängd på strängen. Markera noder och bukar.</p>"
   },
   {
     "id": "2.186",
@@ -16259,7 +17172,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "familjNyckelTidigare": "vagrorelser__superposition"
+    "familjNyckelTidigare": "vagrorelser__superposition",
+    "ledtrad": "<p>Enligt superpositionsprincipen adderas utslagen algebraiskt.</p>"
   },
   {
     "id": "2.187",
@@ -16282,7 +17196,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "familjNyckelTidigare": "vagrorelser__superposition"
+    "familjNyckelTidigare": "vagrorelser__superposition",
+    "ledtrad": "<p>Enligt superpositionsprincipen adderas utslagen algebraiskt.</p>"
   },
   {
     "id": "2.188",
@@ -16305,7 +17220,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "familjNyckelTidigare": "vagrorelser__superposition"
+    "familjNyckelTidigare": "vagrorelser__superposition",
+    "ledtrad": "<p>Enligt superpositionsprincipen adderas utslagen algebraiskt.</p>"
   },
   {
     "id": "2.189",
@@ -16328,7 +17244,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Hz",
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>För en sträng som är fast i båda ändar gäller \\(f_n=n v/(2L)\\).</p>"
   },
   {
     "id": "2.190",
@@ -16351,7 +17268,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Hz",
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>För en sträng som är fast i båda ändar gäller \\(f_n=n v/(2L)\\).</p>"
   },
   {
     "id": "2.191",
@@ -16374,7 +17292,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Hz",
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>För en sträng som är fast i båda ändar gäller \\(f_n=n v/(2L)\\).</p>"
   },
   {
     "id": "2.192",
@@ -16396,7 +17315,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m/s",
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>För den n:te harmoniska tonen gäller \\(f_n=n v/(2L)\\). Lös ut \\(v\\).</p>"
   },
   {
     "id": "2.193",
@@ -16419,7 +17339,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Hz",
-    "familjNyckelTidigare": "vagrorelser__staende_vagor"
+    "familjNyckelTidigare": "vagrorelser__staende_vagor",
+    "ledtrad": "<p>I ett halvöppet rör ryms en fjärdedels våglängd i grundtonen: \\(L=\\lambda/4\\).</p>"
   },
   {
     "id": "2.179",
@@ -16442,7 +17363,8 @@ window.BANK2 = [
     "självrättning": false,
     "familjNyckelTidigare": "ljudvagor__grundton_och_overtoner",
     "familjTidigare": "Ljudvågor: fart, grundton och övertoner",
-    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner"
+    "familjNyckelFöreHierarki": "ljudvagor__ljudvagor_fart_grundton_och_overtoner",
+    "ledtrad": "<p>I en öppen pipa ryms en halv våglängd i grundtonen. Koppla vågfart, frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "6.56",
@@ -16463,7 +17385,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi"
+    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
+    "ledtrad": "<p>Ringen rör sig i protonens system och är därför kontraherad.</p>"
   },
   {
     "id": "6.66",
@@ -16485,7 +17408,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "MeV",
-    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi"
+    "familjNyckelTidigare": "relativistisk_energi__relativistisk_kinetisk_energi",
+    "ledtrad": "<p>Den relativistiska kinetiska energin är \\(K=(\\gamma-1)mc^2\\).</p>"
   },
   {
     "id": "6.57",
@@ -16505,7 +17429,8 @@ window.BANK2 = [
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>I den resandes system är det sträckan som är kontraherad. Börja med att ange vilket referenssystem varje mätning görs i.</p>"
   },
   {
     "id": "6.58",
@@ -16526,7 +17451,8 @@ window.BANK2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Fotonens energi måste minst räcka till båda partiklarnas viloenergi.</p>"
   },
   {
     "id": "6.65",
@@ -16548,7 +17474,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "GJ",
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Använd Einsteins samband \\(E=mc^2\\). 2,0 mg = 2,0·10⁻⁶ kg.</p>"
   },
   {
     "id": "6.67",
@@ -16570,7 +17497,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "kJ",
-    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens"
+    "familjNyckelFöreHierarki": "massa_och_energi__massa_energi_ekvivalens",
+    "ledtrad": "<p>Massdefekten omvandlas till energi enligt \\(E=\\Delta mc^2\\).</p>"
   },
   {
     "id": "4.301",
@@ -16591,7 +17519,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Snells lag ger \\(n_1\\sin i=n_2\\sin r\\). Rita normalen i gränsytan och mät vinklarna mot normalen.</p>"
   },
   {
     "id": "4.302",
@@ -16612,7 +17541,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Rita normalen i gränsytan och mät vinklarna mot normalen. Använd sedan \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\).</p>"
   },
   {
     "id": "4.303",
@@ -16634,7 +17564,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Vid gränsvinkeln är brytningsvinkeln 90°. Rita normalen i gränsytan och mät vinklarna mot normalen.</p>"
   },
   {
     "id": "4.304",
@@ -16654,7 +17585,8 @@ window.BANK2 = [
     "tolerans": 0.03,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Rita normalen i gränsytan och mät vinklarna mot normalen. Använd sedan \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\).</p>"
   },
   {
     "id": "4.305",
@@ -16673,7 +17605,8 @@ window.BANK2 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Rita normalen i gränsytan och mät vinklarna mot normalen. Använd sedan \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\).</p>"
   },
   {
     "id": "4.306",
@@ -16694,7 +17627,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Rita normalen i gränsytan och mät vinklarna mot normalen. Använd sedan \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\).</p>"
   },
   {
     "id": "4.307",
@@ -16713,7 +17647,8 @@ window.BANK2 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Rita normalen i gränsytan och mät vinklarna mot normalen. Använd sedan \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\).</p>"
   },
   {
     "id": "4.308",
@@ -16733,7 +17668,8 @@ window.BANK2 = [
     "tolerans": 0.02,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "ledtrad": "<p>En foton avges eller absorberas när elektronen byter energinivå. Använd \\(|\\Delta E|=hf=hc/\\lambda\\) och håll reda på om övergången går uppåt eller nedåt.</p>"
   },
   {
     "id": "4.309",
@@ -16753,7 +17689,8 @@ window.BANK2 = [
     "tolerans": 0.03,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "ledtrad": "<p>En foton avges eller absorberas när elektronen byter energinivå. Använd \\(|\\Delta E|=hf=hc/\\lambda\\) och håll reda på om övergången går uppåt eller nedåt.</p>"
   },
   {
     "id": "4.310",
@@ -16774,7 +17711,8 @@ window.BANK2 = [
     "tolerans": 0.05,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "ledtrad": "<p>En foton avges eller absorberas när elektronen byter energinivå. Använd \\(|\\Delta E|=hf=hc/\\lambda\\) och håll reda på om övergången går uppåt eller nedåt.</p>"
   },
   {
     "id": "4.311",
@@ -16794,7 +17732,8 @@ window.BANK2 = [
     "tolerans": 0.04,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "ledtrad": "<p>En foton avges eller absorberas när elektronen byter energinivå. Använd \\(|\\Delta E|=hf=hc/\\lambda\\) och håll reda på om övergången går uppåt eller nedåt.</p>"
   },
   {
     "id": "4.312",
@@ -16813,7 +17752,8 @@ window.BANK2 = [
     "rättSvar": 4,
     "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fysikalisk idé: I Bohrs modell är energin negativ för en bunden elektron. Ju större \\(n\\) är, desto närmare 0 ligger nivån.</p>"
   },
   {
     "id": "4.313",
@@ -16832,7 +17772,8 @@ window.BANK2 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>En foton avges eller absorberas när elektronen byter energinivå. Använd \\(|\\Delta E|=hf=hc/\\lambda\\) och håll reda på om övergången går uppåt eller nedåt.</p>"
   },
   {
     "id": "4.314",
@@ -16853,7 +17794,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Koppla frekvens och våglängd med \\(v=f\\lambda\\). För elektromagnetiska vågor i vakuum är \\(v=c\\).</p>"
   },
   {
     "id": "4.315",
@@ -16874,7 +17816,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Hz",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Koppla frekvens och våglängd med \\(v=f\\lambda\\). För elektromagnetiska vågor i vakuum är \\(v=c\\).</p>"
   },
   {
     "id": "4.316",
@@ -16893,7 +17836,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frekvens och våglängd med \\(v=f\\lambda\\). För elektromagnetiska vågor i vakuum är \\(v=c\\).</p>"
   },
   {
     "id": "4.317",
@@ -16912,7 +17856,8 @@ window.BANK2 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frekvens och våglängd med \\(v=f\\lambda\\). För elektromagnetiska vågor i vakuum är \\(v=c\\).</p>"
   },
   {
     "id": "4.318",
@@ -16933,7 +17878,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "mm",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Beräkna vägskillnaden. För källor i fas ger heltalsmultiplar av \\(\\lambda\\) maximum och halvtalsmultiplar minimum; för gitter kan du använda \\(d\\sin\\theta=m\\lambda\\).</p>"
   },
   {
     "id": "4.319",
@@ -16954,7 +17900,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "°",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Beräkna vägskillnaden. För källor i fas ger heltalsmultiplar av \\(\\lambda\\) maximum och halvtalsmultiplar minimum; för gitter kan du använda \\(d\\sin\\theta=m\\lambda\\).</p>"
   },
   {
     "id": "4.320",
@@ -16974,7 +17921,8 @@ window.BANK2 = [
     "rättSvar": 3,
     "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna vägskillnaden. För källor i fas ger heltalsmultiplar av \\(\\lambda\\) maximum och halvtalsmultiplar minimum; för gitter kan du använda \\(d\\sin\\theta=m\\lambda\\).</p>"
   },
   {
     "id": "4.321",
@@ -16996,7 +17944,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "svarEnhet": "nm",
     "miniräknare": true,
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Använd Wiens lag för sambandet mellan temperatur och toppvåglängd, och Stefan–Boltzmanns lag när total utstrålad effekt eller luminositet efterfrågas.</p>"
   },
   {
     "id": "4.322",
@@ -17017,7 +17966,8 @@ window.BANK2 = [
     "tolerans": 0,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Använd Wiens lag för sambandet mellan temperatur och toppvåglängd, och Stefan–Boltzmanns lag när total utstrålad effekt eller luminositet efterfrågas.</p>"
   },
   {
     "id": "4.323",
@@ -17038,7 +17988,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "eV",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Koppla fotonens energi till frekvens eller våglängd med \\(E=hf=hc/\\lambda\\). Om en elektron frigörs kan resterande energi bli rörelseenergi.</p>"
   },
   {
     "id": "3.301",
@@ -17059,7 +18010,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "mT",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.302",
@@ -17078,7 +18030,8 @@ window.BANK2 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Följ strömmen runt spolen med höger hand. Fingrarna följer strömmen och tummen pekar mot spolens nordpol och fältets riktning inne i spolen.</p>"
   },
   {
     "id": "3.303",
@@ -17099,7 +18052,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Hz",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Jämför reaktanserna \\(X_L=\\omega L\\) och \\(X_C=1/(\\omega C)\\). Vid resonans är de lika stora.</p>"
   },
   {
     "id": "2.301",
@@ -17118,7 +18072,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frekvens och våglängd med \\(v=f\\lambda\\). För elektromagnetiska vågor i vakuum är \\(v=c\\).</p>"
   },
   {
     "id": "6.301",
@@ -17127,7 +18082,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>Ett rymdskepp rör sig med farten \\(0{,}80c\\) relativt jorden. Bestäm Lorentzfaktorn \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\).</p>",
-    "s": "<p>Eftersom farten anges som \\(0{,}80c\\) blir kvoten \\(v/c=0{,}80\\). Sätt den direkt i Lorentzfaktorn:</p><p>\\[\\gamma=\\frac{1}{\\sqrt{1-(v/c)^2}}=\\frac{1}{\\sqrt{1-0{,}80^2}}=\\frac{1}{0{,}60}\\approx1{,}67.\\]</p><p><strong>Svar:</strong> \\(\\gamma\\approx1{,}67\\). Att \\(\\gamma>1\\) är väntat för varje fart större än noll.</p>",
+    "s": "<p>Eftersom farten anges som \\(0{,}80c\\) blir kvoten \\(v/c=0{,}80\\). Sätt den direkt i Lorentzfaktorn:</p><p>\\[\\gamma=\\frac{1}{\\sqrt{1-(v/c)^2}}=\\frac{1}{\\sqrt{1-0{,}80^2}}=\\frac{1}{0{,}60}\\approx1{,}67.\\]</p><p><strong>Svar:</strong> \\(\\gamma\\approx1{,}67\\). Att \\(\\gamma\\gt 1\\) är väntat för varje fart större än noll.</p>",
     "familj": "Rumtid och referenssystem",
     "formaga": [
       "procedur"
@@ -17138,7 +18093,8 @@ window.BANK2 = [
     "tolerans": 0.03,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Börja med att ange vilket referenssystem varje mätning görs i. Avgör sedan vilka storheter som är invarianta och vilka som beror på observatörens rörelse.</p>"
   },
   {
     "id": "5.301",
@@ -17157,7 +18113,8 @@ window.BANK2 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>"
   },
   {
     "id": "5.302",
@@ -17176,7 +18133,8 @@ window.BANK2 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>"
   },
   {
     "id": "5.303",
@@ -17195,7 +18153,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>"
   },
   {
     "id": "5.304",
@@ -17214,7 +18173,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>"
   },
   {
     "id": "5.305",
@@ -17233,7 +18193,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>"
   },
   {
     "id": "5.306",
@@ -17252,7 +18213,8 @@ window.BANK2 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>"
   },
   {
     "id": "5.307",
@@ -17271,7 +18233,8 @@ window.BANK2 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>"
   },
   {
     "id": "5.308",
@@ -17290,7 +18253,8 @@ window.BANK2 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>"
   },
   {
     "id": "5.309",
@@ -17309,7 +18273,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>"
   },
   {
     "id": "5.310",
@@ -17328,7 +18293,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>"
   },
   {
     "id": "5.311",
@@ -17347,7 +18313,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>"
   },
   {
     "id": "5.312",
@@ -17366,7 +18333,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>"
   },
   {
     "id": "5.313",
@@ -17385,7 +18353,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>"
   },
   {
     "id": "5.314",
@@ -17404,7 +18373,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>"
   },
   {
     "id": "5.315",
@@ -17423,7 +18393,8 @@ window.BANK2 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>"
   },
   {
     "id": "5.316",
@@ -17444,7 +18415,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "km/s",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given. Använd därefter Hubbles lag \\(v=H_0d\\).</p>"
   },
   {
     "id": "5.317",
@@ -17465,7 +18437,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "Mpc",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given. Använd därefter Hubbles lag \\(v=H_0d\\).</p>"
   },
   {
     "id": "5.318",
@@ -17486,7 +18459,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "km/s",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given. Använd därefter Hubbles lag \\(v=H_0d\\).</p>"
   },
   {
     "id": "5.319",
@@ -17505,7 +18479,8 @@ window.BANK2 = [
     "rättSvar": 0.02,
     "tolerans": 0.001,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given. Använd därefter Hubbles lag \\(v=H_0d\\).</p>"
   },
   {
     "id": "5.320",
@@ -17526,7 +18501,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\Delta F/F\\approx(R_p/R_*)^2\\). Perioden kan sedan kopplas till banradien med Keplers tredje lag.</p>"
   },
   {
     "id": "5.321",
@@ -17546,7 +18522,8 @@ window.BANK2 = [
     "tolerans": 0,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "dygn"
+    "svarEnhet": "dygn",
+    "ledtrad": "<p>Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\Delta F/F\\approx(R_p/R_*)^2\\). Perioden kan sedan kopplas till banradien med Keplers tredje lag.</p>"
   },
   {
     "id": "5.322",
@@ -17567,7 +18544,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "AU",
-    "miniräknare": true
+    "miniräknare": true,
+    "ledtrad": "<p>Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\Delta F/F\\approx(R_p/R_*)^2\\). Perioden kan sedan kopplas till banradien med Keplers tredje lag.</p>"
   },
   {
     "id": "3.304",
@@ -17589,7 +18567,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "miniräknare": true,
     "geogebra": false,
-    "svarEnhet": "mT"
+    "svarEnhet": "mT",
+    "ledtrad": "<p>För en lång spole är fältet proportionellt mot både varvtätheten \\(N/l\\) och strömmen: \\(B=\\mu_0NI/l\\).</p>"
   },
   {
     "id": "3.305",
@@ -17612,7 +18591,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "miniräknare": true,
     "geogebra": false,
-    "svarEnhet": "varv"
+    "svarEnhet": "varv",
+    "ledtrad": "<p>Utgå från \\(B=\\mu_0NI/l\\) och lös ut antalet varv \\(N\\): Följ strömmen runt spolen med höger hand.</p>"
   },
   {
     "id": "3.306",
@@ -17620,21 +18600,22 @@ window.BANK2 = [
     "omr": "vaxelstrom",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En sinusformad växelspänning har toppvärdet 325 V.</p><p>Bestäm effektivvärdet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För en sinusformad växelspänning är effektivvärdet det likspänningsvärde som skulle ge samma effekt i en resistor. Sambandet är \\(U_\\mathrm{eff}=U_\\mathrm{max}/\\sqrt2\\).</p><div class=\"facit-matte\">\\[U_\\mathrm{eff}=\\frac{325}{\\sqrt2}=229{,}8\\ \\mathrm V\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(230\\ \\mathrm V\\).</p></div>",
+    "t": "<p>En resistor utvecklar samma medeleffekt med en sinusformad växelspänning som med 230 V likspänning.</p><p>Bestäm växelspänningens toppvärde.</p>",
+    "s": "<div class=\"facit-v2\"><p>Likspänningen 230 V motsvarar växelspänningens effektivvärde. För en sinusformad växelspänning gäller</p><div class=\"facit-matte\">\\[U_\\mathrm{max}=\\sqrt2,U_\\mathrm{eff}=\\sqrt2\\cdot230\\approx325\\ \\mathrm V.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(325\\,\\mathrm V\\).</p></div>",
     "familj": "Sinusformad växelström och effektivvärde",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "vaxelstrom__sinusformad_vaxelstrom_och_effektivvarde",
     "svarstyp": "numeriskt",
-    "rättSvar": 230,
-    "tolerans": 3.5,
+    "rättSvar": 325,
+    "tolerans": 5,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "miniräknare": true,
     "geogebra": false,
-    "svarEnhet": "V"
+    "svarEnhet": "V",
+    "ledtrad": "<p>Läs av toppvärdet och vinkelfrekvensen ur sinusuttrycket. Använd \\(U_{eff}=U_{max}/\\sqrt2\\) och \\(\\omega=2\\pi f\\).</p>"
   },
   {
     "id": "3.307",
@@ -17657,7 +18638,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "miniräknare": false,
     "geogebra": false,
-    "svarEnhet": "A"
+    "svarEnhet": "A",
+    "ledtrad": "<p>För en ren resistor kan Ohms lag användas direkt med effektivvärden.</p>"
   },
   {
     "id": "5.323",
@@ -17679,7 +18661,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "miniräknare": false,
-    "geogebra": false
+    "geogebra": false,
+    "ledtrad": "<p>När temperaturen är samma gäller \\(L\\propto R^2\\). Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt.</p>"
   },
   {
     "id": "5.324",
@@ -17700,7 +18683,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "val",
     "miniräknare": false,
-    "geogebra": false
+    "geogebra": false,
+    "ledtrad": "<p>I ett HR-diagram ökar luminositeten uppåt, medan temperaturen är högre åt vänster.</p>"
   },
   {
     "id": "5.325",
@@ -17722,7 +18706,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "val",
     "miniräknare": false,
-    "geogebra": false
+    "geogebra": false,
+    "ledtrad": "<p>Om den accelererande expansionen fortsätter växer avstånden mellan gravitationellt obundna strukturer allt snabbare.</p>"
   },
   {
     "id": "5.326",
@@ -17744,7 +18729,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "miniräknare": false,
-    "geogebra": false
+    "geogebra": false,
+    "ledtrad": "<p>För galaxer som följer expansionen är det kosmologiska avståndet proportionellt mot skalfaktorn.</p>"
   },
   {
     "id": "4.324",
@@ -17764,7 +18750,8 @@ window.BANK2 = [
     "tolerans": 0.051,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "ledtrad": "<p>Sätt in huvudkvanttalet i uttrycket för energinivåerna. En foton avges eller absorberas när elektronen byter energinivå.</p>"
   },
   {
     "id": "4.325",
@@ -17784,7 +18771,8 @@ window.BANK2 = [
     "tolerans": 0.01275,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "ledtrad": "<p>Sätt in huvudkvanttalet i uttrycket för energinivåerna. En foton avges eller absorberas när elektronen byter energinivå.</p>"
   },
   {
     "id": "4.326",
@@ -17804,7 +18792,8 @@ window.BANK2 = [
     "tolerans": 9.845803990588236,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "nm"
+    "svarEnhet": "nm",
+    "ledtrad": "<p>Skillnaden mellan energinivåerna blir fotonens energi. Använd sedan \\(E=hc/\\lambda\\).</p>"
   },
   {
     "id": "4.327",
@@ -17824,7 +18813,8 @@ window.BANK2 = [
     "tolerans": 7.29318814117647,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "nm"
+    "svarEnhet": "nm",
+    "ledtrad": "<p>Skillnaden mellan energinivåerna blir fotonens energi. Använd sedan \\(E=hc/\\lambda\\).</p>"
   },
   {
     "id": "4.328",
@@ -17844,7 +18834,8 @@ window.BANK2 = [
     "tolerans": 0.019837499999999997,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "nm"
+    "svarEnhet": "nm",
+    "ledtrad": "<p>Radien växer med kvadraten på huvudkvanttalet. En foton avges eller absorberas när elektronen byter energinivå.</p>"
   },
   {
     "id": "4.329",
@@ -17852,7 +18843,7 @@ window.BANK2 = [
     "omr": "vagrorelselara",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Monokromatiskt ljus med våglängden 600 nm passerar en dubbelspalt med spaltavståndet 20 μm. Skärmen står 1.5 m bort.</p><p>Hur långt från centralmaximum ligger maximum av ordning 1? Använd småvinkelapproximationen. Ange svaret i cm.</p>",
+    "t": "<p>Monokromatiskt ljus med våglängden 600 nm passerar en dubbelspalt med spaltavståndet 20 μm. Skärmen står 1,5 m bort.</p><p>Hur långt från centralmaximum ligger maximum av ordning 1? Använd småvinkelapproximationen. Ange svaret i cm.</p>",
     "s": "<p><strong>Dubbelspalt nära mitten:</strong> För små vinklar kan läget på skärmen beräknas med \\(y_m\\approx m\\lambda L/d\\). Skriv först alla längder i samma enhet.</p><div class=\"facit-v2\"><p class=\"facit-metod\">För små vinklar gäller \\(y_m\\approx Lm\\lambda/d\\).</p><div class=\"facit-matte\">\\[y=1.5\\cdot1\\frac{600\\cdot10^{-9}}{20\\cdot10^{-6}}=0.0450\\,\\mathrm m=4.50\\,\\mathrm{cm}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4.50\\,\\mathrm{cm}\\).</p></div>",
     "familj": "Dubbelspalt och gitter",
     "formaga": [
@@ -17864,7 +18855,8 @@ window.BANK2 = [
     "tolerans": 0.0675,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "ledtrad": "<p>För små vinklar gäller \\(y_m\\approx Lm\\lambda/d\\). Beräkna vägskillnaden.</p>"
   },
   {
     "id": "4.330",
@@ -17872,7 +18864,7 @@ window.BANK2 = [
     "omr": "vagrorelselara",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Monokromatiskt ljus med våglängden 520 nm passerar en dubbelspalt med spaltavståndet 25 μm. Skärmen står 2.0 m bort.</p><p>Hur långt från centralmaximum ligger maximum av ordning 2? Använd småvinkelapproximationen. Ange svaret i cm.</p>",
+    "t": "<p>Monokromatiskt ljus med våglängden 520 nm passerar en dubbelspalt med spaltavståndet 25 μm. Skärmen står 2,0 m bort.</p><p>Hur långt från centralmaximum ligger maximum av ordning 2? Använd småvinkelapproximationen. Ange svaret i cm.</p>",
     "s": "<p><strong>Dubbelspalt nära mitten:</strong> För små vinklar kan läget på skärmen beräknas med \\(y_m\\approx m\\lambda L/d\\). Skriv först alla längder i samma enhet.</p><div class=\"facit-v2\"><p class=\"facit-metod\">För små vinklar gäller \\(y_m\\approx Lm\\lambda/d\\).</p><div class=\"facit-matte\">\\[y=2.0\\cdot2\\frac{520\\cdot10^{-9}}{25\\cdot10^{-6}}=0.0832\\,\\mathrm m=8.32\\,\\mathrm{cm}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8.32\\,\\mathrm{cm}\\).</p></div>",
     "familj": "Dubbelspalt och gitter",
     "formaga": [
@@ -17884,7 +18876,8 @@ window.BANK2 = [
     "tolerans": 0.1248,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "ledtrad": "<p>För små vinklar gäller \\(y_m\\approx Lm\\lambda/d\\). Beräkna vägskillnaden.</p>"
   },
   {
     "id": "4.331",
@@ -17892,7 +18885,7 @@ window.BANK2 = [
     "omr": "vagrorelselara",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Monokromatiskt ljus med våglängden 450 nm passerar en dubbelspalt med spaltavståndet 15 μm. Skärmen står 1.2 m bort.</p><p>Hur långt från centralmaximum ligger maximum av ordning 1? Använd småvinkelapproximationen. Ange svaret i cm.</p>",
+    "t": "<p>Monokromatiskt ljus med våglängden 450 nm passerar en dubbelspalt med spaltavståndet 15 μm. Skärmen står 1,2 m bort.</p><p>Hur långt från centralmaximum ligger maximum av ordning 1? Använd småvinkelapproximationen. Ange svaret i cm.</p>",
     "s": "<p><strong>Dubbelspalt nära mitten:</strong> För små vinklar kan läget på skärmen beräknas med \\(y_m\\approx m\\lambda L/d\\). Skriv först alla längder i samma enhet.</p><div class=\"facit-v2\"><p class=\"facit-metod\">För små vinklar gäller \\(y_m\\approx Lm\\lambda/d\\).</p><div class=\"facit-matte\">\\[y=1.2\\cdot1\\frac{450\\cdot10^{-9}}{15\\cdot10^{-6}}=0.0360\\,\\mathrm m=3.60\\,\\mathrm{cm}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3.60\\,\\mathrm{cm}\\).</p></div>",
     "familj": "Dubbelspalt och gitter",
     "formaga": [
@@ -17904,7 +18897,8 @@ window.BANK2 = [
     "tolerans": 0.054000000000000006,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "ledtrad": "<p>För små vinklar gäller \\(y_m\\approx Lm\\lambda/d\\). Beräkna vägskillnaden.</p>"
   },
   {
     "id": "4.332",
@@ -17924,7 +18918,8 @@ window.BANK2 = [
     "tolerans": 0.27631790148263624,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°"
+    "svarEnhet": "°",
+    "ledtrad": "<p>Gitterkonstanten är avståndet mellan två linjer. För första ordningen gäller \\(d\\sin\\theta=\\lambda\\).</p>"
   },
   {
     "id": "4.333",
@@ -17944,7 +18939,8 @@ window.BANK2 = [
     "tolerans": 0.49025458269386923,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°"
+    "svarEnhet": "°",
+    "ledtrad": "<p>Gitterkonstanten är avståndet mellan två linjer. För första ordningen gäller \\(d\\sin\\theta=\\lambda\\).</p>"
   },
   {
     "id": "4.334",
@@ -17952,7 +18948,7 @@ window.BANK2 = [
     "omr": "em_vagor",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En elektromagnetisk våg har frekvensen \\(1.00e+08\\) Hz.</p><p>Bestäm våglängden i vakuum.</p>",
+    "t": "<p>En elektromagnetisk våg har frekvensen \\(1,00\\cdot10^{8}\\,\\mathrm{Hz}\\).</p><p>Bestäm våglängden i vakuum.</p>",
     "s": "<p><strong>Enhetssteg:</strong> Skriv frekvensen i Hz innan \\(c=f\\lambda\\) används. Då fås våglängden direkt i meter.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Alla elektromagnetiska vågor färdas med ljusets hastighet i vakuum, så \\(c=f\\lambda\\).</p><div class=\"facit-matte\">\\[\\lambda=\\frac{2,998\\cdot10^8}{1{,}00\\cdot10^{8}}=3\\,\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\,\\mathrm m\\).</p></div>",
     "familj": "Elektromagnetiska vågor och spektrum",
     "formaga": [
@@ -17964,7 +18960,8 @@ window.BANK2 = [
     "tolerans": 0.04497,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "ledtrad": "<p>Alla elektromagnetiska vågor färdas med ljusets hastighet i vakuum, så \\(c=f\\lambda\\).</p>"
   },
   {
     "id": "4.335",
@@ -17972,7 +18969,7 @@ window.BANK2 = [
     "omr": "em_vagor",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En elektromagnetisk våg har frekvensen \\(2.45e+09\\) Hz.</p><p>Bestäm våglängden i vakuum.</p>",
+    "t": "<p>En elektromagnetisk våg har frekvensen \\(2,45\\cdot10^{9}\\,\\mathrm{Hz}\\).</p><p>Bestäm våglängden i vakuum.</p>",
     "s": "<p><strong>Enhetssteg:</strong> Skriv frekvensen i Hz innan \\(c=f\\lambda\\) används. Då fås våglängden direkt i meter.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Alla elektromagnetiska vågor färdas med ljusets hastighet i vakuum, så \\(c=f\\lambda\\).</p><div class=\"facit-matte\">\\[\\lambda=\\frac{2,998\\cdot10^8}{2{,}45\\cdot10^{9}}=0.122\\,\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0.122\\,\\mathrm m\\).</p></div>",
     "familj": "Elektromagnetiska vågor och spektrum",
     "formaga": [
@@ -17984,7 +18981,8 @@ window.BANK2 = [
     "tolerans": 0.0018355102040816325,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "ledtrad": "<p>Alla elektromagnetiska vågor färdas med ljusets hastighet i vakuum, så \\(c=f\\lambda\\).</p>"
   },
   {
     "id": "4.336",
@@ -17992,7 +18990,7 @@ window.BANK2 = [
     "omr": "em_vagor",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En elektromagnetisk våg har frekvensen \\(5.00e+14\\) Hz.</p><p>Bestäm våglängden i vakuum.</p>",
+    "t": "<p>En elektromagnetisk våg har frekvensen \\(5,00\\cdot10^{14}\\,\\mathrm{Hz}\\).</p><p>Bestäm våglängden i vakuum.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Alla elektromagnetiska vågor färdas med ljusets hastighet i vakuum, så \\(c=f\\lambda\\).</p><div class=\"facit-matte\">\\[\\lambda=\\frac{2,998\\cdot10^8}{5{,}00\\cdot10^{14}}=6\\cdot10^{-7}\\,\\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\cdot10^{-7}\\,\\mathrm m\\).</p></div>",
     "familj": "Elektromagnetiska vågor och spektrum",
     "formaga": [
@@ -18000,11 +18998,12 @@ window.BANK2 = [
     ],
     "familjNyckel": "em_vagor__elektromagnetiska_vagor_och_spektrum",
     "svarstyp": "numeriskt",
-    "rättSvar": 5.996e-07,
+    "rättSvar": 5.996e-7,
     "tolerans": 0.001,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "ledtrad": "<p>Alla elektromagnetiska vågor färdas med ljusets hastighet i vakuum, så \\(c=f\\lambda\\).</p>"
   },
   {
     "id": "4.337",
@@ -18024,7 +19023,8 @@ window.BANK2 = [
     "tolerans": 449700000000000,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "Hz"
+    "svarEnhet": "Hz",
+    "ledtrad": "<p>Använd \\(f=c/\\lambda\\) och skriv våglängden i meter. Koppla frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "4.338",
@@ -18032,7 +19032,7 @@ window.BANK2 = [
     "omr": "em_vagor",
     "niva": "A",
     "poang": "(0/2/1)",
-    "t": "<p>En elektromagnetisk våg har våglängden 0.15 nm.</p><p>Bestäm frekvensen.</p>",
+    "t": "<p>En elektromagnetisk våg har våglängden 0,15 nm.</p><p>Bestäm frekvensen.</p>",
     "s": "<p><strong>Enhetssteg:</strong> Skriv frekvensen i Hz innan \\(c=f\\lambda\\) används. Då fås våglängden direkt i meter.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Använd \\(f=c/\\lambda\\) och skriv våglängden i meter.</p><div class=\"facit-matte\">\\[f=\\frac{2,998\\cdot10^8}{0.15\\cdot10^{-9}}=1{,}999\\cdot10^{18}\\,\\mathrm{Hz}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}00\\cdot10^{18}\\,\\mathrm{Hz}\\).</p></div>",
     "familj": "Elektromagnetiska vågor och spektrum",
     "formaga": [
@@ -18044,7 +19044,8 @@ window.BANK2 = [
     "tolerans": 29980000000000000,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "Hz"
+    "svarEnhet": "Hz",
+    "ledtrad": "<p>Använd \\(f=c/\\lambda\\) och skriv våglängden i meter. Koppla frekvens och våglängd med \\(v=f\\lambda\\).</p>"
   },
   {
     "id": "5.327",
@@ -18052,7 +19053,7 @@ window.BANK2 = [
     "omr": "exoplaneter",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Vid en transit minskar en stjärnas ljusstyrka med 1.0 %. Anta att planeten passerar framför en jämnt lysande stjärnskiva. Stjärnans radie är 1.0 solradier.</p><p>Bestäm planetens radie i solradier.</p>",
+    "t": "<p>Vid en transit minskar en stjärnas ljusstyrka med 1,0 %. Anta att planeten passerar framför en jämnt lysande stjärnskiva. Stjärnans radie är 1,0 solradier.</p><p>Bestäm planetens radie i solradier.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\delta=(R_p/R_s)^2\\).</p><div class=\"facit-matte\">\\[R_p=R_s\\sqrt{\\delta}=1.0\\sqrt{0.0100}=0.1000R_\\odot\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0.100R_\\odot\\).</p></div>",
     "familj": "Exoplaneter och transitmetoden",
     "formaga": [
@@ -18064,7 +19065,8 @@ window.BANK2 = [
     "tolerans": 0.0015,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "solradier"
+    "svarEnhet": "solradier",
+    "ledtrad": "<p>Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\delta=(R_p/R_s)^2\\).</p>"
   },
   {
     "id": "5.328",
@@ -18072,7 +19074,7 @@ window.BANK2 = [
     "omr": "exoplaneter",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Vid en transit minskar en stjärnas ljusstyrka med 0.36 %. Anta att planeten passerar framför en jämnt lysande stjärnskiva. Stjärnans radie är 0.9 solradier.</p><p>Bestäm planetens radie i solradier.</p>",
+    "t": "<p>Vid en transit minskar en stjärnas ljusstyrka med 0,36 %. Anta att planeten passerar framför en jämnt lysande stjärnskiva. Stjärnans radie är 0,9 solradier.</p><p>Bestäm planetens radie i solradier.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\delta=(R_p/R_s)^2\\).</p><div class=\"facit-matte\">\\[R_p=R_s\\sqrt{\\delta}=0.9\\sqrt{0.0036}=0.0540R_\\odot\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0.054R_\\odot\\).</p></div>",
     "familj": "Exoplaneter och transitmetoden",
     "formaga": [
@@ -18084,7 +19086,8 @@ window.BANK2 = [
     "tolerans": 0.001,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "solradier"
+    "svarEnhet": "solradier",
+    "ledtrad": "<p>Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\delta=(R_p/R_s)^2\\).</p>"
   },
   {
     "id": "5.329",
@@ -18092,7 +19095,7 @@ window.BANK2 = [
     "omr": "exoplaneter",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Vid en transit minskar en stjärnas ljusstyrka med 2.25 %. Anta att planeten passerar framför en jämnt lysande stjärnskiva. Stjärnans radie är 0.7 solradier.</p><p>Bestäm planetens radie i solradier.</p>",
+    "t": "<p>Vid en transit minskar en stjärnas ljusstyrka med 2,25 %. Anta att planeten passerar framför en jämnt lysande stjärnskiva. Stjärnans radie är 0,7 solradier.</p><p>Bestäm planetens radie i solradier.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\delta=(R_p/R_s)^2\\).</p><div class=\"facit-matte\">\\[R_p=R_s\\sqrt{\\delta}=0.7\\sqrt{0.0225}=0.1050R_\\odot\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0.105R_\\odot\\).</p></div>",
     "familj": "Exoplaneter och transitmetoden",
     "formaga": [
@@ -18104,7 +19107,8 @@ window.BANK2 = [
     "tolerans": 0.0015749999999999998,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "solradier"
+    "svarEnhet": "solradier",
+    "ledtrad": "<p>Transitdjupet är ungefär kvadraten på radieförhållandet: \\(\\delta=(R_p/R_s)^2\\).</p>"
   },
   {
     "id": "5.330",
@@ -18112,7 +19116,7 @@ window.BANK2 = [
     "omr": "exoplaneter",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En exoplanets radie är 0.08 gånger stjärnans radie.</p><p>Hur stor procentuell ljusminskning förväntas vid en central transit?</p>",
+    "t": "<p>En exoplanets radie är 0,08 gånger stjärnans radie.</p><p>Hur stor procentuell ljusminskning förväntas vid en central transit?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Andelen av stjärnskivans area som täcks är ungefär \\(R_p^2/R_s^2\\).</p><div class=\"facit-matte\">\\[\\delta=(0.08)^2=0.0064=0.64\\,\\%\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(0.64\\,\\%\\).</p></div>",
     "familj": "Exoplaneter och transitmetoden",
     "formaga": [
@@ -18124,7 +19128,8 @@ window.BANK2 = [
     "tolerans": 0.0096,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "%"
+    "svarEnhet": "%",
+    "ledtrad": "<p>Andelen av stjärnskivans area som täcks är ungefär \\(R_p^2/R_s^2\\).</p>"
   },
   {
     "id": "5.331",
@@ -18132,7 +19137,7 @@ window.BANK2 = [
     "omr": "exoplaneter",
     "niva": "A",
     "poang": "(0/2/1)",
-    "t": "<p>En exoplanets radie är 0.12 gånger stjärnans radie.</p><p>Hur stor procentuell ljusminskning förväntas vid en central transit?</p>",
+    "t": "<p>En exoplanets radie är 0,12 gånger stjärnans radie.</p><p>Hur stor procentuell ljusminskning förväntas vid en central transit?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Andelen av stjärnskivans area som täcks är ungefär \\(R_p^2/R_s^2\\).</p><div class=\"facit-matte\">\\[\\delta=(0.12)^2=0.0144=1.44\\,\\%\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(1.44\\,\\%\\).</p></div>",
     "familj": "Exoplaneter och transitmetoden",
     "formaga": [
@@ -18144,7 +19149,8 @@ window.BANK2 = [
     "tolerans": 0.021599999999999998,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "%"
+    "svarEnhet": "%",
+    "ledtrad": "<p>Andelen av stjärnskivans area som täcks är ungefär \\(R_p^2/R_s^2\\).</p>"
   },
   {
     "id": "4.339",
@@ -18164,7 +19170,8 @@ window.BANK2 = [
     "tolerans": 0.03719990262172284,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "ledtrad": "<p>Använd \\(E=hc/\\lambda\\) och omvandla joule till eV, eller direkt \\(hc\\approx1240\\,\\mathrm{eV\\,nm}\\).</p>"
   },
   {
     "id": "4.340",
@@ -18172,19 +19179,21 @@ window.BANK2 = [
     "omr": "ljus_partikelstrom",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En foton har våglängden 250 nm.</p><p>Bestäm fotonens energi i eV.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd \\(E=hc/\\lambda\\) och omvandla joule till eV, eller direkt \\(hc\\approx1240\\,\\mathrm{eV\\,nm}\\).</p><div class=\"facit-matte\">\\[E=\\frac{1240}{250}=4.960\\,\\mathrm{eV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4.96\\,\\mathrm{eV}\\).</p></div>",
+    "t": "<p>En foton har energin \\(3,10\\,\\mathrm{eV}\\).</p><p>Bestäm fotonens våglängd i nm.</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd \\(E=hc/\\lambda\\). Med \\(hc\\approx1240\\,\\mathrm{eV\\,nm}\\) kan sambandet lösas direkt för våglängden:</p><div class=\"facit-matte\">\\[\\lambda=\\frac{1240}{3,10}=400\\ \\mathrm{nm}.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\,\\mathrm{nm}\\).</p></div>",
     "familj": "Fotonenergi",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "ljus_partikelstrom__fotonenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.959987016229712,
-    "tolerans": 0.07439980524344568,
+    "rättSvar": 400,
+    "tolerans": 4,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "nm",
+    "typ": "bestäm våglängd från fotonenergi",
+    "ledtrad": "<p>Koppla fotonens energi till frekvens eller våglängd med \\(E=hf=hc/\\lambda\\). Om en elektron frigörs kan resterande energi bli rörelseenergi.</p>"
   },
   {
     "id": "4.341",
@@ -18204,7 +19213,8 @@ window.BANK2 = [
     "tolerans": 0.021882295659836966,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "eV"
+    "svarEnhet": "eV",
+    "ledtrad": "<p>Använd \\(E=hc/\\lambda\\) och omvandla joule till eV, eller direkt \\(hc\\approx1240\\,\\mathrm{eV\\,nm}\\).</p>"
   },
   {
     "id": "4.342",
@@ -18212,7 +19222,7 @@ window.BANK2 = [
     "omr": "ljus_partikelstrom",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En laser med effekten 2.0 mW sänder ljus med våglängden 650 nm.</p><p>Hur många fotoner sänder lasern ut per sekund?</p>",
+    "t": "<p>En laser med effekten 2,0 mW sänder ljus med våglängden 650 nm.</p><p>Hur många fotoner sänder lasern ut per sekund?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm först energin per foton. Antalet fotoner per sekund fås sedan av \\(N=P/E_f\\).</p><div class=\"facit-matte\">\\[E_f=\\frac{hc}{\\lambda}=3{,}056\\cdot10^{-19}\\,\\mathrm J\\]\\[N=\\frac{2.0\\cdot10^{-3}}{E_f}=6{,}544\\cdot10^{15}\\,\\mathrm{s^{-1}}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(6{,}54\\cdot10^{15}\\) fotoner/s.</p></div>",
     "familj": "Fotonenergi",
     "formaga": [
@@ -18224,7 +19234,8 @@ window.BANK2 = [
     "tolerans": 98163842803341.88,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "fotoner/s"
+    "svarEnhet": "fotoner/s",
+    "ledtrad": "<p>Bestäm först energin per foton. Antalet fotoner per sekund fås sedan av \\(N=P/E_f\\).</p>"
   },
   {
     "id": "4.343",
@@ -18232,7 +19243,7 @@ window.BANK2 = [
     "omr": "ljus_partikelstrom",
     "niva": "A",
     "poang": "(0/2/1)",
-    "t": "<p>En laser med effekten 5.0 mW sänder ljus med våglängden 405 nm.</p><p>Hur många fotoner sänder lasern ut per sekund?</p>",
+    "t": "<p>En laser med effekten 5,0 mW sänder ljus med våglängden 405 nm.</p><p>Hur många fotoner sänder lasern ut per sekund?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bestäm först energin per foton. Antalet fotoner per sekund fås sedan av \\(N=P/E_f\\).</p><div class=\"facit-matte\">\\[E_f=\\frac{hc}{\\lambda}=4{,}905\\cdot10^{-19}\\,\\mathrm J\\]\\[N=\\frac{5.0\\cdot10^{-3}}{E_f}=1{,}019\\cdot10^{16}\\,\\mathrm{s^{-1}}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(1{,}02\\cdot10^{16}\\) fotoner/s.</p></div>",
     "familj": "Fotonenergi",
     "formaga": [
@@ -18244,7 +19255,8 @@ window.BANK2 = [
     "tolerans": 152909062828282.56,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "fotoner/s"
+    "svarEnhet": "fotoner/s",
+    "ledtrad": "<p>Bestäm först energin per foton. Antalet fotoner per sekund fås sedan av \\(N=P/E_f\\).</p>"
   },
   {
     "id": "5.332",
@@ -18264,7 +19276,8 @@ window.BANK2 = [
     "tolerans": 52.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "km/s"
+    "svarEnhet": "km/s",
+    "ledtrad": "<p>Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given. Använd därefter Hubbles lag \\(v=H_0d\\).</p>"
   },
   {
     "id": "5.333",
@@ -18284,7 +19297,8 @@ window.BANK2 = [
     "tolerans": 126,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "km/s"
+    "svarEnhet": "km/s",
+    "ledtrad": "<p>Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given. Använd därefter Hubbles lag \\(v=H_0d\\).</p>"
   },
   {
     "id": "5.334",
@@ -18304,7 +19318,8 @@ window.BANK2 = [
     "tolerans": 472.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "km/s"
+    "svarEnhet": "km/s",
+    "ledtrad": "<p>Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given. Använd därefter Hubbles lag \\(v=H_0d\\).</p>"
   },
   {
     "id": "5.335",
@@ -18324,7 +19339,8 @@ window.BANK2 = [
     "tolerans": 1.7999999999999998,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "Mpc"
+    "svarEnhet": "Mpc",
+    "ledtrad": "<p>Bestäm först recessionshastigheten från rödförskjutningen om den inte redan är given. Använd därefter Hubbles lag \\(v=H_0d\\).</p>"
   },
   {
     "id": "5.336",
@@ -18344,7 +19360,8 @@ window.BANK2 = [
     "tolerans": 4.5,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "Mpc"
+    "svarEnhet": "Mpc",
+    "ledtrad": "<p>Fysikalisk idé: Hubbles lag \\(v=H_0d\\) ger recessionsfarten direkt när avståndet är känt.</p>"
   },
   {
     "id": "4.344",
@@ -18352,7 +19369,7 @@ window.BANK2 = [
     "omr": "straloptik",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ljus går från ett medium med brytningsindex 1.0 till ett medium med brytningsindex 1.5. Infallsvinkeln är 30°.</p><p>Bestäm brytningsvinkeln.</p>",
+    "t": "<p>Ljus går från ett medium med brytningsindex 1,0 till ett medium med brytningsindex 1,5. Infallsvinkeln är 30°.</p><p>Bestäm brytningsvinkeln.</p>",
     "s": "<p><strong>Rimlighetskontroll:</strong> Vinklarna i Snells lag mäts från normalen. Till större brytningsindex ska vinkeln minska; till mindre brytningsindex ska den öka.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Använd Snells lag \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\).</p><div class=\"facit-matte\">\\[\\sin\\theta_2=\\frac{1.0\\sin 30^\\circ}{1.5}\\Rightarrow\\theta_2=19.47^\\circ\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19.5^\\circ\\).</p></div>",
     "familj": "Snells lag och brytning",
     "formaga": [
@@ -18364,7 +19381,8 @@ window.BANK2 = [
     "tolerans": 0.29206830951736035,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°"
+    "svarEnhet": "°",
+    "ledtrad": "<p>Använd Snells lag \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\). Rita normalen i gränsytan och mät vinklarna mot normalen.</p>"
   },
   {
     "id": "4.345",
@@ -18372,7 +19390,7 @@ window.BANK2 = [
     "omr": "straloptik",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Ljus går från ett medium med brytningsindex 1.33 till ett medium med brytningsindex 1.0. Infallsvinkeln är 35°.</p><p>Bestäm brytningsvinkeln.</p>",
+    "t": "<p>Ljus går från ett medium med brytningsindex 1,33 till ett medium med brytningsindex 1,0. Infallsvinkeln är 35°.</p><p>Bestäm brytningsvinkeln.</p>",
     "s": "<p><strong>Rimlighetskontroll:</strong> Vinklarna i Snells lag mäts från normalen. Till större brytningsindex ska vinkeln minska; till mindre brytningsindex ska den öka.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Använd Snells lag \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\).</p><div class=\"facit-matte\">\\[\\sin\\theta_2=\\frac{1.33\\sin 35^\\circ}{1.0}\\Rightarrow\\theta_2=49.72^\\circ\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(49.7^\\circ\\).</p></div>",
     "familj": "Snells lag och brytning",
     "formaga": [
@@ -18384,7 +19402,8 @@ window.BANK2 = [
     "tolerans": 0.7457502916334792,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°"
+    "svarEnhet": "°",
+    "ledtrad": "<p>Använd Snells lag \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\). Rita normalen i gränsytan och mät vinklarna mot normalen.</p>"
   },
   {
     "id": "4.346",
@@ -18392,7 +19411,7 @@ window.BANK2 = [
     "omr": "straloptik",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ljus går från ett medium med brytningsindex 1.0 till ett medium med brytningsindex 1.33. Infallsvinkeln är 50°.</p><p>Bestäm brytningsvinkeln.</p>",
+    "t": "<p>Ljus går från ett medium med brytningsindex 1,0 till ett medium med brytningsindex 1,33. Infallsvinkeln är 50°.</p><p>Bestäm brytningsvinkeln.</p>",
     "s": "<p><strong>Rimlighetskontroll:</strong> Vinklarna i Snells lag mäts från normalen. Till större brytningsindex ska vinkeln minska; till mindre brytningsindex ska den öka.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Använd Snells lag \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\).</p><div class=\"facit-matte\">\\[\\sin\\theta_2=\\frac{1.0\\sin 50^\\circ}{1.33}\\Rightarrow\\theta_2=35.17^\\circ\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35.2^\\circ\\).</p></div>",
     "familj": "Snells lag och brytning",
     "formaga": [
@@ -18404,7 +19423,8 @@ window.BANK2 = [
     "tolerans": 0.5275172865098707,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°"
+    "svarEnhet": "°",
+    "ledtrad": "<p>Använd Snells lag \\(n_1\\sin\\theta_1=n_2\\sin\\theta_2\\). Rita normalen i gränsytan och mät vinklarna mot normalen.</p>"
   },
   {
     "id": "4.347",
@@ -18412,7 +19432,7 @@ window.BANK2 = [
     "omr": "straloptik",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Ljus går från ett material med brytningsindex 1.50 till luft.</p><p>Bestäm gränsvinkeln för totalreflektion.</p>",
+    "t": "<p>Ljus går från ett material med brytningsindex 1,50 till luft.</p><p>Bestäm gränsvinkeln för totalreflektion.</p>",
     "s": "<p><strong>Rimlighetskontroll:</strong> Vinklarna i Snells lag mäts från normalen. Till större brytningsindex ska vinkeln minska; till mindre brytningsindex ska den öka.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Vid gränsvinkeln är brytningsvinkeln 90°. Snells lag ger därför \\(n\\sin\\theta_c=1\\).</p><div class=\"facit-matte\">\\[\\theta_c=\\arcsin\\left(\\frac1{1.50}\\right)=41.81^\\circ\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41.8^\\circ\\).</p></div>",
     "familj": "Snells lag och brytning",
     "formaga": [
@@ -18424,7 +19444,8 @@ window.BANK2 = [
     "tolerans": 0.6271547234366789,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°"
+    "svarEnhet": "°",
+    "ledtrad": "<p>Vid gränsvinkeln är brytningsvinkeln 90°. Snells lag ger därför \\(n\\sin\\theta_c=1\\).</p>"
   },
   {
     "id": "4.348",
@@ -18432,7 +19453,7 @@ window.BANK2 = [
     "omr": "straloptik",
     "niva": "A",
     "poang": "(0/2/1)",
-    "t": "<p>Ljus går från ett material med brytningsindex 1.33 till luft.</p><p>Bestäm gränsvinkeln för totalreflektion.</p>",
+    "t": "<p>Ljus går från ett material med brytningsindex 1,33 till luft.</p><p>Bestäm gränsvinkeln för totalreflektion.</p>",
     "s": "<p><strong>Rimlighetskontroll:</strong> Vinklarna i Snells lag mäts från normalen. Till större brytningsindex ska vinkeln minska; till mindre brytningsindex ska den öka.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Vid gränsvinkeln är brytningsvinkeln 90°. Snells lag ger därför \\(n\\sin\\theta_c=1\\).</p><div class=\"facit-matte\">\\[\\theta_c=\\arcsin\\left(\\frac1{1.33}\\right)=48.75^\\circ\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(48.8^\\circ\\).</p></div>",
     "familj": "Snells lag och brytning",
     "formaga": [
@@ -18444,7 +19465,8 @@ window.BANK2 = [
     "tolerans": 0.7313019994699085,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°"
+    "svarEnhet": "°",
+    "ledtrad": "<p>Vid gränsvinkeln är brytningsvinkeln 90°. Snells lag ger därför \\(n\\sin\\theta_c=1\\).</p>"
   },
   {
     "id": "4.349",
@@ -18465,7 +19487,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "nm",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Lös ut \\(\\lambda_{max}\\) ur Wiens lag. Använd Wiens lag för sambandet mellan temperatur och toppvåglängd, och Stefan–Boltzmanns lag när total utstrålad effekt eller luminositet efterfrågas.</p>"
   },
   {
     "id": "4.350",
@@ -18486,7 +19509,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "nm",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Lös ut \\(\\lambda_{max}\\) ur Wiens lag. Använd Wiens lag för sambandet mellan temperatur och toppvåglängd, och Stefan–Boltzmanns lag när total utstrålad effekt eller luminositet efterfrågas.</p>"
   },
   {
     "id": "4.351",
@@ -18507,7 +19531,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "nm",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Lös ut \\(\\lambda_{max}\\) ur Wiens lag. Använd Wiens lag för sambandet mellan temperatur och toppvåglängd, och Stefan–Boltzmanns lag när total utstrålad effekt eller luminositet efterfrågas.</p>"
   },
   {
     "id": "4.352",
@@ -18528,7 +19553,8 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "W/m²",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Sätt temperaturen i kelvin direkt i Stefan–Boltzmanns lag.</p>"
   },
   {
     "id": "4.353",
@@ -18549,6 +19575,7 @@ window.BANK2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "W/m²",
-    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann"
+    "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
+    "ledtrad": "<p>Sätt temperaturen i kelvin direkt i Stefan–Boltzmanns lag.</p>"
   }
 ];

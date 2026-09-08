@@ -1,6 +1,4 @@
-/* uppgiftermatf1.js — Matematik fördjupning nivå 1.
-   Selektiv premiumrevision av facit S5 2026-09-08. Endast s ändrat. */
-
+/* Kunskapsgymmet: uppgiftsbank med uppgiftsspecifika ledtrådar. Fältet ledtrad används inte av Uppgiftslabbet. */
 window.BANKMATF1 = [
   {
     "kap": 1,
@@ -21,7 +19,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Beskriv först vilket talområde elementen ska komma från och skriv sedan villkoret efter ett lodrätt streck, till exempel \\(\\{x\\in\\mathbb R\\mid \\text{villkor}\\}\\). Här behöver du inte rita ett Venn-diagram.</p>"
   },
   {
     "kap": 1,
@@ -42,7 +41,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p>"
   },
   {
     "kap": 1,
@@ -63,7 +63,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt symbolerna stegvis: union betyder “i minst en”, snitt “i båda” och komplement “utanför”. Markera gärna rätt region i ett Venn-diagram innan du räknar.</p>"
   },
   {
     "kap": 1,
@@ -84,7 +85,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p>"
   },
   {
     "kap": 1,
@@ -105,7 +107,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt symbolerna stegvis: union betyder “i minst en”, snitt “i båda” och komplement “utanför”. Markera gärna rätt region i ett Venn-diagram innan du räknar.</p>"
   },
   {
     "kap": 1,
@@ -126,7 +129,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p>"
   },
   {
     "kap": 1,
@@ -148,7 +152,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "spel": false,
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt symbolerna stegvis: union betyder “i minst en”, snitt “i båda” och komplement “utanför”. Markera gärna rätt region i ett Venn-diagram innan du räknar.</p>"
   },
   {
     "kap": 1,
@@ -169,7 +174,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p>"
   },
   {
     "kap": 1,
@@ -190,7 +196,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p>"
   },
   {
     "kap": 1,
@@ -212,7 +219,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p>"
   },
   {
     "kap": 1,
@@ -234,7 +242,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Beskriv först vilket talområde elementen ska komma från och skriv sedan villkoret efter ett lodrätt streck, till exempel \\(\\{x\\in\\mathbb R\\mid \\text{villkor}\\}\\). Här behöver du inte rita ett Venn-diagram.</p>"
   },
   {
     "kap": 1,
@@ -255,7 +264,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Beskriv först vilket talområde elementen ska komma från och skriv sedan villkoret efter ett lodrätt streck, till exempel \\(\\{x\\in\\mathbb R\\mid \\text{villkor}\\}\\). Här behöver du inte rita ett Venn-diagram.</p>"
   },
   {
     "kap": 1,
@@ -276,7 +286,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p>"
   },
   {
     "kap": 1,
@@ -297,7 +308,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Beskriv först vilket talområde elementen ska komma från och skriv sedan villkoret efter ett lodrätt streck, till exempel \\(\\{x\\in\\mathbb R\\mid \\text{villkor}\\}\\). Här behöver du inte rita ett Venn-diagram.</p>"
   },
   {
     "kap": 1,
@@ -318,7 +330,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p>"
   },
   {
     "kap": 1,
@@ -339,7 +352,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Beskriv först vilket talområde elementen ska komma från och skriv sedan villkoret efter ett lodrätt streck, till exempel \\(\\{x\\in\\mathbb R\\mid \\text{villkor}\\}\\). Här behöver du inte rita ett Venn-diagram.</p>"
   },
   {
     "kap": 1,
@@ -360,7 +374,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Beskriv först vilket talområde elementen ska komma från och skriv sedan villkoret efter ett lodrätt streck, till exempel \\(\\{x\\in\\mathbb R\\mid \\text{villkor}\\}\\). Här behöver du inte rita ett Venn-diagram.</p>"
   },
   {
     "kap": 1,
@@ -382,7 +397,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "spel": false,
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt symbolerna stegvis: union betyder “i minst en”, snitt “i båda” och komplement “utanför”. Markera gärna rätt region i ett Venn-diagram innan du räknar.</p>"
   },
   {
     "kap": 1,
@@ -424,20 +440,24 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många tillhör \\(A\\cap B\\)?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>a)</strong>  I snittet står talet 9, alltså \\(|A\\cap B|=9\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>a)</strong>  I snittet står talet 9, alltså \\(|A\\cap B|=9\\).</div>",
+        "ledtrad": "<p>Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p>"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många tillhör \\(A\\cup B\\)?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>b)</strong>  Unionen innehåller \\(14+9+11=34\\) elever.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>b)</strong>  Unionen innehåller \\(14+9+11=34\\) elever.</div>",
+        "ledtrad": "<p>Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p>"
       },
       {
         "etikett": "c",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Hur många tillhör ingen av mängderna?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>c)</strong>  Utanför båda mängderna ligger \\(40-34=6\\) elever.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>c)</strong>  Utanför båda mängderna ligger \\(40-34=6\\) elever.</div>",
+        "ledtrad": "<p>Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p>"
       }
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt symbolerna stegvis: union betyder “i minst en”, snitt “i båda” och komplement “utanför”. Markera gärna rätt region i ett Venn-diagram innan du räknar.</p>"
   },
   {
     "kap": 1,
@@ -461,7 +481,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt symbolerna stegvis: union betyder “i minst en”, snitt “i båda” och komplement “utanför”. Markera gärna rätt region i ett Venn-diagram innan du räknar.</p>"
   },
   {
     "kap": 1,
@@ -502,20 +523,24 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Skriv mängden \\(A\\cap B\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>a)</strong>  \\(A\\cap B=\\{5,7\\}\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>a)</strong>  \\(A\\cap B=\\{5,7\\}\\).</div>",
+        "ledtrad": "<p>Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p>"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Skriv mängden \\(A\\setminus B\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>b)</strong>  \\(A\\setminus B=\\{1,3\\}\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>b)</strong>  \\(A\\setminus B=\\{1,3\\}\\).</div>",
+        "ledtrad": "<p>Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p>"
       },
       {
         "etikett": "c",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Skriv mängden \\((A\\cup B)^c\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>c)</strong>  \\((A\\cup B)^c=\\{11\\}\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>c)</strong>  \\((A\\cup B)^c=\\{11\\}\\).</div>",
+        "ledtrad": "<p>Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p>"
       }
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p>"
   },
   {
     "kap": 1,
@@ -536,7 +561,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p>"
   },
   {
     "kap": 1,
@@ -557,7 +583,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p>"
   },
   {
     "kap": 1,
@@ -578,7 +605,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Beskriv först vilket talområde elementen ska komma från och skriv sedan villkoret efter ett lodrätt streck, till exempel \\(\\{x\\in\\mathbb R\\mid \\text{villkor}\\}\\). Här behöver du inte rita ett Venn-diagram.</p>"
   },
   {
     "kap": 1,
@@ -616,15 +644,18 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Avgör om påståendena är sanna eller falska.</p><div class=\"spel-en-del\">\\(2\\in A\\)</div>",
-        "s": "<p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p><div class=\"spel-en-del\"><strong>Falskt.</strong> Talet 2 är inte ett element i \\(A\\).</div>"
+        "s": "<p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p><div class=\"spel-en-del\"><strong>Falskt.</strong> Talet 2 är inte ett element i \\(A\\).</div>",
+        "ledtrad": "<p>Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Avgör om påståendena är sanna eller falska.</p><div class=\"spel-en-del\">\\(\\{2\\}\\in A\\)</div>",
-        "s": "<p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p><div class=\"spel-en-del\"><strong>Sant.</strong> Mängden \\(\\{2\\}\\) är ett element i \\(A\\).</div>"
+        "s": "<p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p><div class=\"spel-en-del\"><strong>Sant.</strong> Mängden \\(\\{2\\}\\) är ett element i \\(A\\).</div>",
+        "ledtrad": "<p>Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p>"
       }
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p>"
   },
   {
     "kap": 1,
@@ -645,7 +676,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt symbolerna stegvis: union betyder “i minst en”, snitt “i båda” och komplement “utanför”. Markera gärna rätt region i ett Venn-diagram innan du räknar.</p>"
   },
   {
     "kap": 1,
@@ -683,15 +715,18 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Låt \\(A=\\{1,3,5,7,9\\}\\) och \\(B=\\{3,4,5,6\\}\\). Bestäm</p><div class=\"spel-en-del\">\\(A\\cup B\\)</div>",
-        "s": "<p><strong><div class=\"spel-en-del\"></div></strong> Unionen innehåller alla element som finns i minst en av mängderna:</p><p>\\[A\\cup B=\\{1,3,4,5,6,7,9\\}.\\]</p><p><strong></strong></p>"
+        "s": "<p><strong><div class=\"spel-en-del\"></div></strong> Unionen innehåller alla element som finns i minst en av mängderna:</p><p>\\[A\\cup B=\\{1,3,4,5,6,7,9\\}.\\]</p><p><strong></strong></p>",
+        "ledtrad": "<p>Översätt symbolerna stegvis: union betyder “i minst en”, snitt “i båda” och komplement “utanför”. Markera gärna rätt region i ett Venn-diagram innan du räknar.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>Låt \\(A=\\{1,3,5,7,9\\}\\) och \\(B=\\{3,4,5,6\\}\\). Bestäm</p><div class=\"spel-en-del\">\\(A\\cap B\\)</div>",
-        "s": "<p><strong><div class=\"spel-en-del\"></div></strong> Snittet innehåller de element som finns i båda mängderna:</p><p>\\[A\\cap B=\\{3,5\\}.\\]</p>"
+        "s": "<p><strong><div class=\"spel-en-del\"></div></strong> Snittet innehåller de element som finns i båda mängderna:</p><p>\\[A\\cap B=\\{3,5\\}.\\]</p>",
+        "ledtrad": "<p>Översätt symbolerna stegvis: union betyder “i minst en”, snitt “i båda” och komplement “utanför”. Markera gärna rätt region i ett Venn-diagram innan du räknar.</p>"
       }
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt symbolerna stegvis: union betyder “i minst en”, snitt “i båda” och komplement “utanför”. Markera gärna rätt region i ett Venn-diagram innan du räknar.</p>"
   },
   {
     "kap": 1,
@@ -712,7 +747,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Översätt symbolerna stegvis: union betyder “i minst en”, snitt “i båda” och komplement “utanför”. Markera gärna rätt region i ett Venn-diagram innan du räknar.</p>"
   },
   {
     "kap": 1,
@@ -734,7 +770,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p>"
   },
   {
     "kap": 1,
@@ -756,7 +793,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna först varje mängd och korrigera sedan för överlapp. För två mängder: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>"
   },
   {
     "kap": 1,
@@ -778,7 +816,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Låt mittenområdet, alltså \\(A\\cap B\\cap C\\), vara \\(x\\).</p>"
   },
   {
     "kap": 1,
@@ -801,7 +840,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna först varje mängd och korrigera sedan för överlapp. För två mängder: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>"
   },
   {
     "kap": 1,
@@ -824,7 +864,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna först varje mängd och korrigera sedan för överlapp. För två mängder: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>"
   },
   {
     "kap": 1,
@@ -847,7 +888,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Idé: Varje parsnitt innehåller även de 8 personer som ligger i alla tre mängderna. De måste tas bort från varje parsnitt.</p>"
   },
   {
     "kap": 1,
@@ -869,7 +911,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna först varje mängd och korrigera sedan för överlapp. För två mängder: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>"
   },
   {
     "kap": 1,
@@ -908,14 +951,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar hur elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många tillhör \\(A\\cup B\\)?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  \\(|A\\cup B|=18+7+11=36\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  \\(|A\\cup B|=18+7+11=36\\).</div>",
+        "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar hur elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många tillhör exakt en av mängderna?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Exakt en mängd ger \\(18+11=29\\) personer.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Exakt en mängd ger \\(18+11=29\\) personer.</div>",
+        "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
   },
   {
     "kap": 1,
@@ -955,14 +1001,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder och angivna antal i varje del\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text><text x=\"302\" y=\"56\" font-size=\"17\">B</text><text x=\"210\" y=\"260\" font-size=\"17\">C</text><text x=\"28\" y=\"35\" font-size=\"15\">U = 60</text>\n<text x=\"122\" y=\"116\" font-size=\"16\">12</text><text x=\"286\" y=\"116\" font-size=\"16\">8</text><text x=\"214\" y=\"222\" font-size=\"16\">10</text>\n<text x=\"209\" y=\"92\" font-size=\"16\">5</text><text x=\"168\" y=\"170\" font-size=\"16\">6</text><text x=\"255\" y=\"170\" font-size=\"16\">4</text>\n<text x=\"210\" y=\"142\" font-size=\"16\" font-weight=\"700\">3</text>\n</svg></span><p>Diagrammet visar hur 60 personer fördelar sig i mängderna \\(A\\), \\(B\\) och \\(C\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många tillhör exakt två av mängderna?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  Exakt två mängder motsvarar de tre parvisa överlappen utan mittenområdet. Antalet är \\(5+6+4=15\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  Exakt två mängder motsvarar de tre parvisa överlappen utan mittenområdet. Antalet är \\(5+6+4=15\\).</div>",
+        "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder och angivna antal i varje del\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text><text x=\"302\" y=\"56\" font-size=\"17\">B</text><text x=\"210\" y=\"260\" font-size=\"17\">C</text><text x=\"28\" y=\"35\" font-size=\"15\">U = 60</text>\n<text x=\"122\" y=\"116\" font-size=\"16\">12</text><text x=\"286\" y=\"116\" font-size=\"16\">8</text><text x=\"214\" y=\"222\" font-size=\"16\">10</text>\n<text x=\"209\" y=\"92\" font-size=\"16\">5</text><text x=\"168\" y=\"170\" font-size=\"16\">6</text><text x=\"255\" y=\"170\" font-size=\"16\">4</text>\n<text x=\"210\" y=\"142\" font-size=\"16\" font-weight=\"700\">3</text>\n</svg></span><p>Diagrammet visar hur 60 personer fördelar sig i mängderna \\(A\\), \\(B\\) och \\(C\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många tillhör ingen av mängderna?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Inne i minst en mängd finns \\(12+8+10+5+6+4+3=48\\) personer. Utanför alla tre finns därför \\(60-48=12\\) personer.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Inne i minst en mängd finns \\(12+8+10+5+6+4+3=48\\) personer. Utanför alla tre finns därför \\(60-48=12\\) personer.</div>",
+        "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>Räkna först varje mängd och korrigera sedan för överlapp. För två mängder: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>"
   },
   {
     "kap": 1,
@@ -983,7 +1032,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Lådprincipen: Tänk de fem länderna som fem lådor och de 31 eleverna som föremål som placeras i lådorna.</p>"
   },
   {
     "kap": 1,
@@ -1003,7 +1053,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -1024,7 +1075,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "kap": 1,
@@ -1046,7 +1098,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p>"
   },
   {
     "kap": 1,
@@ -1068,7 +1121,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
   },
   {
     "kap": 1,
@@ -1090,7 +1144,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
   },
   {
     "kap": 1,
@@ -1112,7 +1167,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
   },
   {
     "kap": 1,
@@ -1134,7 +1190,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera först om ordningen spelar roll. Här gör den det, vilket är signalen för permutationer.</p>"
   },
   {
     "kap": 1,
@@ -1155,7 +1212,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "kap": 1,
@@ -1176,7 +1234,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -1196,7 +1255,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "kap": 1,
@@ -1218,7 +1278,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Binomialsatsen ger alla termer systematiskt: binomialkoefficienterna bestämmer talfaktorerna och exponenterna på de två termerna summerar alltid till binomets exponent.</p>"
   },
   {
     "kap": 1,
@@ -1240,7 +1301,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Binomialsatsen ger alla termer systematiskt: binomialkoefficienterna bestämmer talfaktorerna och exponenterna på de två termerna summerar alltid till binomets exponent.</p>"
   },
   {
     "kap": 1,
@@ -1261,7 +1323,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -1281,7 +1344,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -1320,14 +1384,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Utveckla.</p><div class=\"spel-en-del\">\\((2x+x^2)^5\\)</div>",
-        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">Faktorisera gärna \\(x\\): \\((x(2+x))^5=x^5(2+x)^5\\). Det ger <strong>\\(32x^5+80x^6+80x^7+40x^8+10x^9+x^{10}\\)</strong>.</div>"
+        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">Faktorisera gärna \\(x\\): \\((x(2+x))^5=x^5(2+x)^5\\). Det ger <strong>\\(32x^5+80x^6+80x^7+40x^8+10x^9+x^{10}\\)</strong>.</div>",
+        "ledtrad": "<p>Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>Utveckla.</p><div class=\"spel-en-del\">\\((2x-y)^5\\)</div>",
-        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\"><strong>\\(32x^5-80x^4y+80x^3y^2-40x^2y^3+10xy^4-y^5\\)</strong>.</div>"
+        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\"><strong>\\(32x^5-80x^4y+80x^3y^2-40x^2y^3+10xy^4-y^5\\)</strong>.</div>",
+        "ledtrad": "<p>Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>Binomialsatsen ger alla termer systematiskt: binomialkoefficienterna bestämmer talfaktorerna och exponenterna på de två termerna summerar alltid till binomets exponent.</p>"
   },
   {
     "kap": 1,
@@ -1349,7 +1416,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -1388,14 +1456,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Bestäm koefficienten framför</p><div class=\"spel-en-del\">\\(x^7y^4\\) i \\((x+y)^{11}\\),</div>",
-        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">Koefficienten är <strong>\\(\\binom{11}{4}=330\\)</strong>.</div>"
+        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">Koefficienten är <strong>\\(\\binom{11}{4}=330\\)</strong>.</div>",
+        "ledtrad": "<p>Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>Bestäm koefficienten framför</p><div class=\"spel-en-del\">\\(x^5y^8\\) i \\((2x+y^2)^9\\).</div>",
-        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">För \\(y^8\\) behövs fyra faktorer \\(y^2\\), alltså fem faktorer \\(2x\\). Koefficienten blir <strong>\\(\\binom94 2^5=4032\\)</strong>.</div>"
+        "s": "<p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">För \\(y^8\\) behövs fyra faktorer \\(y^2\\), alltså fem faktorer \\(2x\\). Koefficienten blir <strong>\\(\\binom94 2^5=4032\\)</strong>.</div>",
+        "ledtrad": "<p>Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p>"
   },
   {
     "kap": 1,
@@ -1417,7 +1488,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När valet sker i flera steg och varje val kan kombineras med valen i nästa steg multipliceras antalet möjligheter.</p>"
   },
   {
     "kap": 1,
@@ -1439,7 +1511,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Identifiera vad som är “föremål” och vad som är “lådor”. Jämför antalet föremål med hur många som maximalt kan ligga i varje låda utan att den efterfrågade situationen uppstår.</p>"
   },
   {
     "kap": 1,
@@ -1460,7 +1533,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Identifiera vad som är “föremål” och vad som är “lådor”. Jämför antalet föremål med hur många som maximalt kan ligga i varje låda utan att den efterfrågade situationen uppstår.</p>"
   },
   {
     "kap": 1,
@@ -1481,7 +1555,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Lådprincipen: De 26 bokstäverna är lådorna och de 27 orden placeras efter sin första bokstav.</p>"
   },
   {
     "kap": 1,
@@ -1503,7 +1578,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Identifiera vad som är “föremål” och vad som är “lådor”. Jämför antalet föremål med hur många som maximalt kan ligga i varje låda utan att den efterfrågade situationen uppstår.</p>"
   },
   {
     "kap": 1,
@@ -1524,7 +1600,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Identifiera vad som är “föremål” och vad som är “lådor”. Jämför antalet föremål med hur många som maximalt kan ligga i varje låda utan att den efterfrågade situationen uppstår.</p>"
   },
   {
     "kap": 1,
@@ -1545,7 +1622,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Lådprincipen: Vid division med 9 kan resten bara vara \\(0,1,2,\\ldots,8\\), alltså 9 olika rester. Restklasserna är lådorna.</p>"
   },
   {
     "kap": 1,
@@ -1566,7 +1644,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Det finns 10 möjliga avrundade heltal: 150, 151, ..., 159. De är lådorna.</p>"
   },
   {
     "kap": 1,
@@ -1587,7 +1666,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Para ihop talen efter vilka som summerar till 13: Identifiera vad som är “föremål” och vad som är “lådor”.</p>"
   },
   {
     "kap": 1,
@@ -1608,7 +1688,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Dela mängden i fem par: \\[(1,2),(3,4),(5,6),(7,8),(9,10).\\]</p>"
   },
   {
     "kap": 1,
@@ -1629,7 +1710,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>De fyra workshopparna är lådorna. Om varje workshop hade högst 3 elever skulle totalt högst \\(4\\cdot3=12\\) elever kunna fördelas.</p>"
   },
   {
     "kap": 1,
@@ -1650,7 +1732,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Idé: Dela den stora kvadraten i fyra lika stora kvadrater med sidan \\(1/2\\). De fyra delarna är lådorna.</p>"
   },
   {
     "kap": 1,
@@ -1671,7 +1754,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Idé: Använd restklasser modulo \\(n\\) som lådor.</p>"
   },
   {
     "kap": 1,
@@ -1692,7 +1776,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Mapparna är de 12 lådorna. Om varje mapp innehöll högst 6 filer skulle totalt högst \\(12\\cdot6=72\\) filer få plats.</p>"
   },
   {
     "kap": 1,
@@ -1713,7 +1798,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Identifiera vad som är “föremål” och vad som är “lådor”. Jämför antalet föremål med hur många som maximalt kan ligga i varje låda utan att den efterfrågade situationen uppstår.</p>"
   },
   {
     "kap": 1,
@@ -1735,7 +1821,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Identifiera vad som är “föremål” och vad som är “lådor”. Jämför antalet föremål med hur många som maximalt kan ligga i varje låda utan att den efterfrågade situationen uppstår.</p>"
   },
   {
     "kap": 1,
@@ -1757,7 +1844,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Identifiera vad som är ”föremål” och vad som är ”lådor”. För att visa att någon låda måste innehålla många föremål jämför man antalet föremål med hur många som högst kan placeras utan att den önskade situationen uppstår.</p>"
   },
   {
     "kap": 1,
@@ -1778,7 +1866,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Identifiera vad som är ”föremål” och vad som är ”lådor”. För att visa att någon låda måste innehålla många föremål jämför man antalet föremål med hur många som högst kan placeras utan att den önskade situationen uppstår.</p>"
   },
   {
     "kap": 1,
@@ -1800,7 +1889,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Identifiera vad som är ”föremål” och vad som är ”lådor”. För att visa att någon låda måste innehålla många föremål jämför man antalet föremål med hur många som högst kan placeras utan att den önskade situationen uppstår.</p>"
   },
   {
     "kap": 1,
@@ -1822,7 +1912,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Identifiera vad som är ”föremål” och vad som är ”lådor”. För att visa att någon låda måste innehålla många föremål jämför man antalet föremål med hur många som högst kan placeras utan att den önskade situationen uppstår.</p>"
   },
   {
     "kap": 1,
@@ -1843,7 +1934,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Identifiera vad som är ”föremål” och vad som är ”lådor”. För att visa att någon låda måste innehålla många föremål jämför man antalet föremål med hur många som högst kan placeras utan att den önskade situationen uppstår.</p>"
   },
   {
     "kap": 1,
@@ -1866,7 +1958,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
   },
   {
     "kap": 1,
@@ -1888,7 +1981,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
   },
   {
     "kap": 1,
@@ -1910,7 +2004,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp valet i steg. Om ett val kan göras på ett visst antal sätt och nästa val därefter på ett annat antal sätt, multipliceras antalen eftersom varje möjlighet i första steget kan kombineras med varje möjlighet i nästa.</p>"
   },
   {
     "kap": 1,
@@ -1933,7 +2028,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
   },
   {
     "kap": 1,
@@ -1956,7 +2052,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
   },
   {
     "kap": 1,
@@ -1978,7 +2075,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
   },
   {
     "kap": 1,
@@ -2001,7 +2099,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
   },
   {
     "kap": 1,
@@ -2023,7 +2122,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp valet i steg. Om ett val kan göras på ett visst antal sätt och nästa val därefter på ett annat antal sätt, multipliceras antalen eftersom varje möjlighet i första steget kan kombineras med varje möjlighet i nästa.</p>"
   },
   {
     "kap": 1,
@@ -2046,7 +2146,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp valet i steg. Om ett val kan göras på ett visst antal sätt och nästa val därefter på ett annat antal sätt, multipliceras antalen eftersom varje möjlighet i första steget kan kombineras med varje möjlighet i nästa.</p>"
   },
   {
     "kap": 1,
@@ -2069,7 +2170,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp valet i steg. Om ett val kan göras på ett visst antal sätt och nästa val därefter på ett annat antal sätt, multipliceras antalen eftersom varje möjlighet i första steget kan kombineras med varje möjlighet i nästa.</p>"
   },
   {
     "kap": 1,
@@ -2091,7 +2193,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp valet i steg. Om ett val kan göras på ett visst antal sätt och nästa val därefter på ett annat antal sätt, multipliceras antalen eftersom varje möjlighet i första steget kan kombineras med varje möjlighet i nästa.</p>"
   },
   {
     "kap": 1,
@@ -2114,7 +2217,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp valet i steg. Om ett val kan göras på ett visst antal sätt och nästa val därefter på ett annat antal sätt, multipliceras antalen eftersom varje möjlighet i första steget kan kombineras med varje möjlighet i nästa.</p>"
   },
   {
     "kap": 1,
@@ -2136,7 +2240,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera först om ordningen spelar roll. Här gör den det, vilket är signalen för permutationer.</p>"
   },
   {
     "kap": 1,
@@ -2157,7 +2262,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -2178,7 +2284,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p>"
   },
   {
     "kap": 1,
@@ -2199,7 +2306,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -2220,7 +2328,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -2242,7 +2351,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -2264,7 +2374,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -2285,7 +2396,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Börja med själva placeringsvillkoret och lås de positioner eller block som villkoret bestämmer. Räkna därefter hur de återstående objekten kan ordnas utan att bryta villkoret.</p>"
   },
   {
     "kap": 1,
@@ -2306,7 +2418,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Placera först de fem övriga böckerna. De kan ordnas på \\(5!\\) sätt.</p>"
   },
   {
     "kap": 1,
@@ -2327,7 +2440,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -2349,7 +2463,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -2370,7 +2485,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p>"
   },
   {
     "kap": 1,
@@ -2409,14 +2525,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Bokstäverna i ordet <em>AFKNOT</em> ska ordnas på alla möjliga sätt.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många olika ord kan bildas?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p><div class=\"spel-en-del\"><strong>a)</strong>  Alla 6 bokstäver är olika, så antalet ord är</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p><div class=\"spel-en-del\"><strong>a)</strong>  Alla 6 bokstäver är olika, så antalet ord är</div>",
+        "ledtrad": "<p>Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>Bokstäverna i ordet <em>AFKNOT</em> ska ordnas på alla möjliga sätt.</p><div class=\"spel-en-del\"><strong>b)</strong> Om alla orden ordnas i bokstavsordning, vilket nummer får ordet <em>KNOTAF</em>?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p><div class=\"spel-en-del\"><strong>b)</strong>  Vi räknar hur många ord som kommer före <em>KNOTAF</em> i lexikografisk ordning.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p><div class=\"spel-en-del\"><strong>b)</strong>  Vi räknar hur många ord som kommer före <em>KNOTAF</em> i lexikografisk ordning.</div>",
+        "ledtrad": "<p>Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>a) Alla 6 bokstäver är olika, så antalet ord är</p>"
   },
   {
     "kap": 1,
@@ -2438,7 +2557,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vi räknar först alla möjliga ordningar och drar sedan bort de förbjudna.</p>"
   },
   {
     "kap": 1,
@@ -2459,7 +2579,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p>"
   },
   {
     "kap": 1,
@@ -2481,7 +2602,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p>"
   },
   {
     "kap": 1,
@@ -2502,7 +2624,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -2523,7 +2646,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p>"
   },
   {
     "kap": 1,
@@ -2545,7 +2669,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -2566,7 +2691,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -2587,7 +2713,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -2607,7 +2734,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Tänk en grupp med \\(n+1\\) personer där en särskild person heter P. Antalet par är \\(\\binom{n+1}{2}\\).</p>"
   },
   {
     "kap": 1,
@@ -2628,7 +2756,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -2649,7 +2778,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -2671,7 +2801,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -2692,7 +2823,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "kap": 1,
@@ -2713,7 +2845,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "kap": 1,
@@ -2735,7 +2868,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -2756,7 +2890,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -2777,7 +2912,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -2798,7 +2934,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Idé: Använd komplement och inklusion–exklusion.</p>"
   },
   {
     "kap": 1,
@@ -2819,7 +2956,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -2840,7 +2978,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -2861,7 +3000,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -2882,7 +3022,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "kap": 1,
@@ -2904,7 +3045,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "kap": 1,
@@ -2925,7 +3067,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "kap": 1,
@@ -2947,7 +3090,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "kap": 1,
@@ -2968,7 +3112,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "kap": 1,
@@ -2989,7 +3134,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -3028,14 +3174,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>David ska köpa 12 burkar energidryck. Det finns 4 olika smaker att välja mellan.</p><div class=\"spel-en-del\"><strong>a)</strong> På hur många sätt kan han välja 12 burkar om bara antalet av varje smak spelar roll?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> När objekten är identiska avgör bara hur många som hamnar i varje grupp. Översätt därför fördelningen till en ekvation för icke-negativa heltal och justera först för eventuella minimikrav.</p><div class=\"spel-en-del\"><strong>a)</strong>  Låt \\(x_1,x_2,x_3,x_4\\) vara antalet burkar av de fyra smakerna. Då söker vi antalet heltalslösningar till</div>"
+        "s": "<p><strong>Nyckelidé:</strong> När objekten är identiska avgör bara hur många som hamnar i varje grupp. Översätt därför fördelningen till en ekvation för icke-negativa heltal och justera först för eventuella minimikrav.</p><div class=\"spel-en-del\"><strong>a)</strong>  Låt \\(x_1,x_2,x_3,x_4\\) vara antalet burkar av de fyra smakerna. Då söker vi antalet heltalslösningar till</div>",
+        "ledtrad": "<p>När objekten är identiska avgör bara hur många som hamnar i varje grupp. Översätt därför fördelningen till en ekvation för icke-negativa heltal och justera först för eventuella minimikrav.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>David ska köpa 12 burkar energidryck. Det finns 4 olika smaker att välja mellan.</p><div class=\"spel-en-del\"><strong>b)</strong> På hur många sätt kan han välja burkarna om han vill ha minst en av varje smak?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> När objekten är identiska avgör bara hur många som hamnar i varje grupp. Översätt därför fördelningen till en ekvation för icke-negativa heltal och justera först för eventuella minimikrav.</p><div class=\"spel-en-del\"><strong>b)</strong>  Om minst en burk av varje smak ska väljas lägger vi först undan en burk av varje smak. Då återstår 8 burkar att fördela fritt mellan de fyra smakerna.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> När objekten är identiska avgör bara hur många som hamnar i varje grupp. Översätt därför fördelningen till en ekvation för icke-negativa heltal och justera först för eventuella minimikrav.</p><div class=\"spel-en-del\"><strong>b)</strong>  Om minst en burk av varje smak ska väljas lägger vi först undan en burk av varje smak. Då återstår 8 burkar att fördela fritt mellan de fyra smakerna.</div>",
+        "ledtrad": "<p>När objekten är identiska avgör bara hur många som hamnar i varje grupp. Översätt därför fördelningen till en ekvation för icke-negativa heltal och justera först för eventuella minimikrav.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>a) Låt \\(x_1,x_2,x_3,x_4\\) vara antalet burkar av de fyra smakerna. Då söker vi antalet heltalslösningar till</p>"
   },
   {
     "kap": 1,
@@ -3056,7 +3205,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -3077,7 +3227,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -3098,7 +3249,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -3119,7 +3271,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -3140,7 +3293,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -3161,7 +3315,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Två representanter ska väljas, men det spelar ingen roll vem som räknas som ”först”. Därför används kombinationer och inte permutationer.</p>"
   },
   {
     "kap": 1,
@@ -3182,7 +3337,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Börja med själva placeringsvillkoret och lås de positioner eller block som villkoret bestämmer. Räkna därefter hur de återstående objekten kan ordnas utan att bryta villkoret.</p>"
   },
   {
     "kap": 1,
@@ -3203,7 +3359,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -3224,7 +3381,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p>"
   },
   {
     "kap": 1,
@@ -3245,7 +3403,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p>"
   },
   {
     "kap": 1,
@@ -3266,7 +3425,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -3287,7 +3447,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p>"
   },
   {
     "kap": 1,
@@ -3308,7 +3469,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Här spelar ordningen roll. Räkna därför hur många val som finns till första platsen, sedan till nästa, och fortsätt tills alla platser är fyllda; detta ger en permutation eller ett ordnat urval.</p>"
   },
   {
     "kap": 1,
@@ -3329,7 +3491,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eftersom bara vilka objekt som väljs är viktiga och inte deras inbördes ordning används kombinationer. Då räknas varje grupp en gång med \\(\\binom{n}{k}\\), i stället för en gång för varje möjlig ordning.</p>"
   },
   {
     "kap": 1,
@@ -3350,7 +3513,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -3372,7 +3536,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -3393,7 +3558,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "kap": 1,
@@ -3416,7 +3582,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p>"
   },
   {
     "kap": 1,
@@ -3438,7 +3605,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd den allmänna termen \\(\\binom nk a^{n-k}b^k\\). Bestäm först vilket \\(k\\) som ger den efterfrågade potensen innan du räknar koefficienten.</p>"
   },
   {
     "kap": 1,
@@ -3460,7 +3628,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p>"
   },
   {
     "kap": 1,
@@ -3482,7 +3651,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd den allmänna termen \\(\\binom nk a^{n-k}b^k\\). Bestäm först vilket \\(k\\) som ger den efterfrågade potensen innan du räknar koefficienten.</p>"
   },
   {
     "kap": 1,
@@ -3504,7 +3674,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd den allmänna termen \\(\\binom nk a^{n-k}b^k\\). Bestäm först vilket \\(k\\) som ger den efterfrågade potensen innan du räknar koefficienten.</p>"
   },
   {
     "kap": 1,
@@ -3526,7 +3697,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Använd den allmänna termen \\(\\binom nk a^{n-k}b^k\\). Bestäm först vilket \\(k\\) som ger den efterfrågade potensen innan du räknar koefficienten.</p>"
   },
   {
     "kap": 1,
@@ -3549,7 +3721,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Om \\(\\frac{2}{x^2}\\) väljs från \\(k\\) faktorer blir exponenten på \\(x\\)</p>"
   },
   {
     "kap": 1,
@@ -3571,7 +3744,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Använd den allmänna termen \\(\\binom nk a^{n-k}b^k\\). Bestäm först vilket \\(k\\) som ger den efterfrågade potensen innan du räknar koefficienten.</p>"
   },
   {
     "kap": 1,
@@ -3593,7 +3767,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd den allmänna termen \\(\\binom nk a^{n-k}b^k\\). Bestäm först vilket \\(k\\) som ger den efterfrågade potensen innan du räknar koefficienten.</p>"
   },
   {
     "kap": 1,
@@ -3615,7 +3790,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd den allmänna termen \\(\\binom nk a^{n-k}b^k\\). Bestäm först vilket \\(k\\) som ger den efterfrågade potensen innan du räknar koefficienten.</p>"
   },
   {
     "kap": 1,
@@ -3637,7 +3813,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd den allmänna termen \\(\\binom nk a^{n-k}b^k\\). Bestäm först vilket \\(k\\) som ger den efterfrågade potensen innan du räknar koefficienten.</p>"
   },
   {
     "kap": 1,
@@ -3659,7 +3836,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Binomialsatsen ger alla termer systematiskt: binomialkoefficienterna bestämmer talfaktorerna och exponenterna på de två termerna summerar alltid till binomets exponent.</p>"
   },
   {
     "kap": 1,
@@ -3680,7 +3858,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p>"
   },
   {
     "kap": 1,
@@ -3702,7 +3881,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p>"
   },
   {
     "kap": 1,
@@ -3725,7 +3905,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p>"
   },
   {
     "kap": 1,
@@ -3747,7 +3928,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Binomialsatsen ger alla termer systematiskt: binomialkoefficienterna bestämmer talfaktorerna och exponenterna på de två termerna summerar alltid till binomets exponent.</p>"
   },
   {
     "kap": 1,
@@ -3769,7 +3951,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p>"
   },
   {
     "kap": 1,
@@ -3791,7 +3974,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p>"
   },
   {
     "kap": 1,
@@ -3812,7 +3996,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Binomialsatsen ger alla termer systematiskt: binomialkoefficienterna bestämmer talfaktorerna och exponenterna på de två termerna summerar alltid till binomets exponent.</p>"
   },
   {
     "kap": 1,
@@ -3833,7 +4018,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p>"
   },
   {
     "kap": 1,
@@ -3855,7 +4041,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd den allmänna termen \\(\\binom nk a^{n-k}b^k\\). Bestäm först vilket \\(k\\) som ger den efterfrågade potensen innan du räknar koefficienten.</p>"
   },
   {
     "kap": 1,
@@ -3863,7 +4050,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "konstantterm i binomialutveckling",
     "poang": "0/2/0",
-    "t": "<p>Bestäm konstanttermen i</p><p>\\[\\left(2x^2-\\frac1x\\right)^6.\\]</p>",
+    "t": "<p>Bestäm konstanttermen i</p><p>\\[\\left(2x^2-\\fracx\\right)^6.\\]</p>",
     "s": "<p>En allmän term är</p><p>\\[\\binom6k(2x^2)^{6-k}\\left(-\\frac1x\\right)^k.\\]</p><p>Potensen av \\(x\\) blir \\(2(6-k)-k=12-3k\\). För en konstant term krävs</p><p>\\[12-3k=0\\Rightarrow k=4.\\]</p><p>Koefficienten blir</p><p>\\[\\binom64 2^{2}(-1)^4=15\\cdot4=60.\\]</p><p><strong>Konstanttermen är 60.</strong></p>",
     "id": "1.185",
     "miniräknare": false,
@@ -3877,7 +4064,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd den allmänna termen \\(\\binom nk a^{n-k}b^k\\). Bestäm först vilket \\(k\\) som ger den efterfrågade potensen innan du räknar koefficienten.</p>"
   },
   {
     "kap": 1,
@@ -3899,7 +4087,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Utgå från den allmänna termen i binomialutvecklingen. Välj det index som ger just den efterfrågade potensen; först därefter räknas binomialkoefficienten och övriga faktorer ihop.</p>"
   },
   {
     "kap": 1,
@@ -3923,7 +4112,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Villkoret begränsar utfallsrummet till grupper med 3, 4 eller 5 kvinnor.</p>"
   },
   {
     "kap": 1,
@@ -3947,7 +4137,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Totalt finns \\(\\binom{18}{5}\\) möjliga femgrupper.</p>"
   },
   {
     "kap": 1,
@@ -3969,7 +4160,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -3991,7 +4183,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -4013,7 +4206,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -4035,7 +4229,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -4059,7 +4254,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Viktigt: Eftersom sannolikheten är villkorad ska nämnaren bara innehålla grupper som uppfyller villkoret ”minst 2 från B”.</p>"
   },
   {
     "kap": 1,
@@ -4083,7 +4279,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -4105,7 +4302,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -4127,7 +4325,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -4151,7 +4350,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -4173,7 +4373,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -4212,14 +4413,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig\"><svg width=\"340\" height=\"235\" viewBox=\"0 0 350 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rutnät med tre steg åt höger och två steg uppåt från A till B\">\n<rect width=\"350\" height=\"240\" fill=\"white\"/>\n<g stroke=\"#666\" stroke-width=\"1.5\"><line x1=\"60\" y1=\"45\" x2=\"60\" y2=\"185\"/><line x1=\"130\" y1=\"45\" x2=\"130\" y2=\"185\"/><line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"185\"/><line x1=\"270\" y1=\"45\" x2=\"270\" y2=\"185\"/><line x1=\"60\" y1=\"45\" x2=\"270\" y2=\"45\"/><line x1=\"60\" y1=\"115\" x2=\"270\" y2=\"115\"/><line x1=\"60\" y1=\"185\" x2=\"270\" y2=\"185\"/></g>\n<circle cx=\"60\" cy=\"185\" r=\"5\" fill=\"#222\"/><circle cx=\"270\" cy=\"45\" r=\"5\" fill=\"#222\"/>\n<circle cx=\"200\" cy=\"115\" r=\"4.5\" fill=\"#B23A2E\"/>\n<text x=\"40\" y=\"204\" font-size=\"16\">A</text><text x=\"278\" y=\"41\" font-size=\"16\">B</text>\n<text x=\"208\" y=\"110\" font-size=\"13\" fill=\"#B23A2E\">M</text>\n<text x=\"60\" y=\"225\" font-size=\"14\">endast steg åt höger eller uppåt</text>\n</svg></span><p>Man går från punkt A till punkt B i rutnätet genom att bara gå åt höger eller uppåt.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många kortaste vägar finns det?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p><div class=\"spel-en-del\"><strong>a)</strong>  Antalet kortaste vägar är antalet sätt att välja vilka 2 av de 5 stegen som ska vara uppsteg:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p><div class=\"spel-en-del\"><strong>a)</strong>  Antalet kortaste vägar är antalet sätt att välja vilka 2 av de 5 stegen som ska vara uppsteg:</div>",
+        "ledtrad": "<p>Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p>"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig\"><svg width=\"340\" height=\"235\" viewBox=\"0 0 350 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rutnät med tre steg åt höger och två steg uppåt från A till B\">\n<rect width=\"350\" height=\"240\" fill=\"white\"/>\n<g stroke=\"#666\" stroke-width=\"1.5\"><line x1=\"60\" y1=\"45\" x2=\"60\" y2=\"185\"/><line x1=\"130\" y1=\"45\" x2=\"130\" y2=\"185\"/><line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"185\"/><line x1=\"270\" y1=\"45\" x2=\"270\" y2=\"185\"/><line x1=\"60\" y1=\"45\" x2=\"270\" y2=\"45\"/><line x1=\"60\" y1=\"115\" x2=\"270\" y2=\"115\"/><line x1=\"60\" y1=\"185\" x2=\"270\" y2=\"185\"/></g>\n<circle cx=\"60\" cy=\"185\" r=\"5\" fill=\"#222\"/><circle cx=\"270\" cy=\"45\" r=\"5\" fill=\"#222\"/>\n<circle cx=\"200\" cy=\"115\" r=\"4.5\" fill=\"#B23A2E\"/>\n<text x=\"40\" y=\"204\" font-size=\"16\">A</text><text x=\"278\" y=\"41\" font-size=\"16\">B</text>\n<text x=\"208\" y=\"110\" font-size=\"13\" fill=\"#B23A2E\">M</text>\n<text x=\"60\" y=\"225\" font-size=\"14\">endast steg åt höger eller uppåt</text>\n</svg></span><p>Man går från punkt A till punkt B i rutnätet genom att bara gå åt höger eller uppåt.</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många av dessa vägar passerar genom punkten mitt i rutnätet, alltså punkten som ligger 2 steg åt höger och 1 steg upp från A?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p><div class=\"spel-en-del\"><strong>b)</strong>  Till mittpunkten krävs 2 höger och 1 upp, alltså \\(\\binom{3}{1}=3\\) vägar. Från mittpunkten till B krävs 1 höger och 1 upp, alltså \\(\\binom{2}{1}=2\\) vägar.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p><div class=\"spel-en-del\"><strong>b)</strong>  Till mittpunkten krävs 2 höger och 1 upp, alltså \\(\\binom{3}{1}=3\\) vägar. Från mittpunkten till B krävs 1 höger och 1 upp, alltså \\(\\binom{2}{1}=2\\) vägar.</div>",
+        "ledtrad": "<p>Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -4242,7 +4446,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p>"
   },
   {
     "kap": 1,
@@ -4266,7 +4471,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p>"
   },
   {
     "kap": 1,
@@ -4308,20 +4514,24 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder där mittenområdet är okänt och betecknas x\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"m167_A\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m167_B\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m167_C\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<text x=\"112\" y=\"105\" font-size=\"16\" text-anchor=\"middle\">19</text><text x=\"215\" y=\"98\" font-size=\"16\" text-anchor=\"middle\">12</text><text x=\"318\" y=\"105\" font-size=\"16\" text-anchor=\"middle\">14</text><text x=\"163\" y=\"168\" font-size=\"16\" text-anchor=\"middle\">8</text><text x=\"215\" y=\"132\" font-size=\"17\" text-anchor=\"middle\" fill=\"#B23A2E\" font-weight=\"700\">x</text><text x=\"268\" y=\"168\" font-size=\"16\" text-anchor=\"middle\">6</text><text x=\"215\" y=\"222\" font-size=\"16\" text-anchor=\"middle\">11</text>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>I diagrammet är antalet i mittenområdet okänt och betecknas \\(x\\). Det är känt att \\(|A|=45\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm \\(x\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p><div class=\"spel-en-del\"><strong>a)</strong>  Mängden \\(A\\) består av fyra delområden: 19, 12, 8 och \\(x\\). Alltså</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p><div class=\"spel-en-del\"><strong>a)</strong>  Mängden \\(A\\) består av fyra delområden: 19, 12, 8 och \\(x\\). Alltså</div>",
+        "ledtrad": "<p>Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p>"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder där mittenområdet är okänt och betecknas x\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"m167_A\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m167_B\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m167_C\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<text x=\"112\" y=\"105\" font-size=\"16\" text-anchor=\"middle\">19</text><text x=\"215\" y=\"98\" font-size=\"16\" text-anchor=\"middle\">12</text><text x=\"318\" y=\"105\" font-size=\"16\" text-anchor=\"middle\">14</text><text x=\"163\" y=\"168\" font-size=\"16\" text-anchor=\"middle\">8</text><text x=\"215\" y=\"132\" font-size=\"17\" text-anchor=\"middle\" fill=\"#B23A2E\" font-weight=\"700\">x</text><text x=\"268\" y=\"168\" font-size=\"16\" text-anchor=\"middle\">6</text><text x=\"215\" y=\"222\" font-size=\"16\" text-anchor=\"middle\">11</text>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>I diagrammet är antalet i mittenområdet okänt och betecknas \\(x\\). Det är känt att \\(|A|=45\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många tillhör exakt en av mängderna?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p><div class=\"spel-en-del\"><strong>b)</strong>  Exakt en mängd svarar mot de tre yttre områdena:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p><div class=\"spel-en-del\"><strong>b)</strong>  Exakt en mängd svarar mot de tre yttre områdena:</div>",
+        "ledtrad": "<p>Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p>"
       },
       {
         "etikett": "c",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder där mittenområdet är okänt och betecknas x\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"m167_A\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m167_B\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m167_C\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<text x=\"112\" y=\"105\" font-size=\"16\" text-anchor=\"middle\">19</text><text x=\"215\" y=\"98\" font-size=\"16\" text-anchor=\"middle\">12</text><text x=\"318\" y=\"105\" font-size=\"16\" text-anchor=\"middle\">14</text><text x=\"163\" y=\"168\" font-size=\"16\" text-anchor=\"middle\">8</text><text x=\"215\" y=\"132\" font-size=\"17\" text-anchor=\"middle\" fill=\"#B23A2E\" font-weight=\"700\">x</text><text x=\"268\" y=\"168\" font-size=\"16\" text-anchor=\"middle\">6</text><text x=\"215\" y=\"222\" font-size=\"16\" text-anchor=\"middle\">11</text>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>I diagrammet är antalet i mittenområdet okänt och betecknas \\(x\\). Det är känt att \\(|A|=45\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Hur många tillhör minst två av mängderna?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p><div class=\"spel-en-del\"><strong>c)</strong>  Minst två mängder är de tre parvisa överlappen tillsammans med mitten:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p><div class=\"spel-en-del\"><strong>c)</strong>  Minst två mängder är de tre parvisa överlappen tillsammans med mitten:</div>",
+        "ledtrad": "<p>Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p>"
       }
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Idé: Varje tal i diagrammet står för ett eget delområde. Summan av de delområden som ligger inuti \\(A\\) måste bli \\(|A|\\).</p>"
   },
   {
     "kap": 1,
@@ -4344,7 +4554,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "spel": false,
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>Idé: Två mängder är lika om varje element i den ena också ligger i den andra, och tvärtom. Vi översätter därför båda sidorna till villkor på ett godtyckligt element \\(u\\in U\\).</p>"
   },
   {
     "kap": 1,
@@ -4367,7 +4578,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>a) En delmängd byggs genom att för varje element fatta ett oberoende beslut: ta med det eller inte. Det är 2 val per element och \\(n\\) element, så multiplikationsprincipen ger</p>"
   },
   {
     "kap": 1,
@@ -4390,7 +4602,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "spel": false,
-    "familjTidigare": "Mängder och Venn-diagram"
+    "familjTidigare": "Mängder och Venn-diagram",
+    "ledtrad": "<p>a) \\(A\\setminus B=\\{1,2,3\\}\\) och \\(B\\setminus A=\\{7,8\\}\\). Unionen av dessa är</p>"
   },
   {
     "kap": 1,
@@ -4413,7 +4626,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Låt \\(T_3\\) vara de tal som är delbara med 3 och \\(T_5\\) de som är delbara med 5. Vi söker \\(|T_3\\cup T_5|\\).</p>"
   },
   {
     "kap": 1,
@@ -4453,14 +4667,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig smal\"><svg width=\"400\" height=\"285\" viewBox=\"0 0 430 305\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre mängder för tal delbara med 2, 3 respektive 5\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"112\" y=\"52\" font-size=\"16\" fill=\"#2C62A8\">T&#8322;</text>\n<text x=\"308\" y=\"52\" font-size=\"16\" fill=\"#2E7D52\">T&#8323;</text>\n<text x=\"208\" y=\"258\" font-size=\"16\" fill=\"#B48A18\">T&#8325;</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">1–1000</text>\n<text x=\"30\" y=\"288\" font-size=\"14\" fill=\"#777\">T&#8322;, T&#8323; och T&#8325; = talen delbara med 2, 3 respektive 5.</text>\n</svg></span><p>Låt \\(T_2\\), \\(T_3\\) och \\(T_5\\) vara mängderna av de tal bland \\(1,2,\\ldots,1000\\) som är delbara med 2, 3 respektive 5.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många av talen är delbara med minst ett av talen 2, 3 och 5?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  Additionsprincipen för tre mängder ger</div>"
+        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  Additionsprincipen för tre mängder ger</div>",
+        "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig smal\"><svg width=\"400\" height=\"285\" viewBox=\"0 0 430 305\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre mängder för tal delbara med 2, 3 respektive 5\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"112\" y=\"52\" font-size=\"16\" fill=\"#2C62A8\">T&#8322;</text>\n<text x=\"308\" y=\"52\" font-size=\"16\" fill=\"#2E7D52\">T&#8323;</text>\n<text x=\"208\" y=\"258\" font-size=\"16\" fill=\"#B48A18\">T&#8325;</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">1–1000</text>\n<text x=\"30\" y=\"288\" font-size=\"14\" fill=\"#777\">T&#8322;, T&#8323; och T&#8325; = talen delbara med 2, 3 respektive 5.</text>\n</svg></span><p>Låt \\(T_2\\), \\(T_3\\) och \\(T_5\\) vara mängderna av de tal bland \\(1,2,\\ldots,1000\\) som är delbara med 2, 3 respektive 5.</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många är inte delbara med något av dem?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  De övriga talen är komplementet:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  De övriga talen är komplementet:</div>",
+        "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>Antalet multiplar av \\(d\\) upp till 1000 är \\(\\lfloor 1000/d\\rfloor\\). För snitten gäller att ett tal är delbart med både \\(a\\) och \\(b\\) precis när det är delbart med deras minsta gemensamma multipel.</p>"
   },
   {
     "kap": 1,
@@ -4482,7 +4699,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
   },
   {
     "kap": 1,
@@ -4505,7 +4723,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
   },
   {
     "kap": 1,
@@ -4528,7 +4747,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
   },
   {
     "kap": 1,
@@ -4550,7 +4770,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna först varje mängd och korrigera sedan för överlapp. För två mängder: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>"
   },
   {
     "kap": 1,
@@ -4573,7 +4794,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
   },
   {
     "kap": 1,
@@ -4595,7 +4817,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
   },
   {
     "kap": 1,
@@ -4617,7 +4840,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
   },
   {
     "kap": 1,
@@ -4657,14 +4881,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>På ett evenemang provar 64 personer aktivitet A och 51 personer aktivitet B. 23 provar båda. Totalt deltar 110 personer.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många provar exakt en av aktiviteterna?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  Endast A: \\(64-23=41\\). Endast B: \\(51-23=28\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  Endast A: \\(64-23=41\\). Endast B: \\(51-23=28\\).</div>",
+        "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>På ett evenemang provar 64 personer aktivitet A och 51 personer aktivitet B. 23 provar båda. Totalt deltar 110 personer.</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många provar ingen av aktiviteterna?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Minst en aktivitet:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Minst en aktivitet:</div>",
+        "ledtrad": "<p>När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>Räkna först varje mängd och korrigera sedan för överlapp. För två mängder: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>"
   },
   {
     "kap": 1,
@@ -4688,7 +4915,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Idé: \"Minst ett\" är besvärligt att räkna direkt, eftersom man då måste behandla fallen ett, två, tre och fyra ess var för sig. Komplementhändelsen \"inget ess\" är däremot ett enda fall.</p>"
   },
   {
     "kap": 1,
@@ -4710,7 +4938,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p>"
   },
   {
     "kap": 1,
@@ -4732,7 +4961,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p>"
   },
   {
     "kap": 1,
@@ -4754,7 +4984,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p>"
   },
   {
     "kap": 1,
@@ -4776,7 +5007,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p>"
   },
   {
     "kap": 1,
@@ -4798,7 +5030,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "procent"
+    "svarFormat": "procent",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -4822,7 +5055,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "procent"
+    "svarFormat": "procent",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 1,
@@ -4844,7 +5078,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "procent"
+    "svarFormat": "procent",
+    "ledtrad": "<p>Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p>"
   },
   {
     "kap": 1,
@@ -4868,7 +5103,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "procent"
+    "svarFormat": "procent",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "kap": 2,
@@ -4888,7 +5124,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Undersök om differensen eller kvoten mellan följande termer är konstant.</p>"
   },
   {
     "kap": 2,
@@ -4909,7 +5146,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -4930,7 +5168,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>I en geometrisk talföljd multipliceras varje term med samma kvot \\(q\\). Använd därför \\(a_n=a_1q^{n-1}\\) och lös baklänges om den sökta storheten är \\(a_1\\), \\(q\\) eller \\(n\\).</p>"
   },
   {
     "kap": 2,
@@ -4952,7 +5191,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -4973,7 +5213,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Följden är geometrisk eftersom varje term fås genom multiplikation med 3. Det ger både en direkt formel för en term och en formel för summan.</p>"
   },
   {
     "kap": 2,
@@ -4995,7 +5236,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera först den konstanta kvoten \\(q\\). När flera geometriska termer ska summeras används \\(S_n=a_1(1-q^n)/(1-q)\\); ordna termerna så att första termen och antalet termer blir tydliga.</p>"
   },
   {
     "kap": 2,
@@ -5016,7 +5258,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>I en aritmetisk talföljd är differensen \\(d\\) konstant. Bestäm först första och sista termen och använd sedan \\(S_n=n(a_1+a_n)/2\\), vilket parar ihop lika stora ändsummor.</p>"
   },
   {
     "kap": 2,
@@ -5037,7 +5280,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -5057,7 +5301,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>I en geometrisk talföljd multipliceras varje term med samma kvot \\(q\\). Använd därför \\(a_n=a_1q^{n-1}\\) och lös baklänges om den sökta storheten är \\(a_1\\), \\(q\\) eller \\(n\\).</p>"
   },
   {
     "kap": 2,
@@ -5079,7 +5324,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Avgör först om skillnaden eller kvoten mellan följande termer är konstant. Det avgör om du ska använda en aritmetisk eller geometrisk formel för term eller summa.</p>"
   },
   {
     "kap": 2,
@@ -5100,7 +5346,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>En explicit formel ger termen direkt från indexet. Sätt in de efterfrågade indexvärdena ett i taget och behåll skillnaden mellan termnumret \\(n\\) och själva termvärdet \\(a_n\\).</p>"
   },
   {
     "kap": 2,
@@ -5120,7 +5367,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>I en geometrisk talföljd multipliceras varje term med samma kvot \\(q\\). Använd därför \\(a_n=a_1q^{n-1}\\) och lös baklänges om den sökta storheten är \\(a_1\\), \\(q\\) eller \\(n\\).</p>"
   },
   {
     "kap": 2,
@@ -5142,7 +5390,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>En explicit formel ger termen direkt från indexet. Sätt in de efterfrågade indexvärdena ett i taget och behåll skillnaden mellan termnumret \\(n\\) och själva termvärdet \\(a_n\\).</p>"
   },
   {
     "kap": 2,
@@ -5165,7 +5414,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Avgör först om skillnaden eller kvoten mellan följande termer är konstant. Det avgör om du ska använda en aritmetisk eller geometrisk formel för term eller summa.</p>"
   },
   {
     "kap": 2,
@@ -5187,7 +5437,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>En explicit formel ger termen direkt från indexet. Sätt in de efterfrågade indexvärdena ett i taget och behåll skillnaden mellan termnumret \\(n\\) och själva termvärdet \\(a_n\\).</p>"
   },
   {
     "kap": 2,
@@ -5208,7 +5459,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>I en aritmetisk talföljd ökar eller minskar termerna med samma differens \\(d\\). Använd \\(a_n=a_1+(n-1)d\\); faktorn \\(n-1\\) kommer av att det finns \\(n-1\\) steg från första till \\(n\\):te termen.</p>"
   },
   {
     "kap": 2,
@@ -5230,7 +5482,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera först den konstanta kvoten \\(q\\). När flera geometriska termer ska summeras används \\(S_n=a_1(1-q^n)/(1-q)\\); ordna termerna så att första termen och antalet termer blir tydliga.</p>"
   },
   {
     "kap": 2,
@@ -5251,7 +5504,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>1. Bassteg: kontrollera påståendet för \\(n=n_0\\).</p>"
   },
   {
     "kap": 2,
@@ -5272,7 +5526,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en aritmetisk talföljd är differensen \\(d\\) konstant. Bestäm först första och sista termen och använd sedan \\(S_n=n(a_1+a_n)/2\\), vilket parar ihop lika stora ändsummor.</p>"
   },
   {
     "kap": 2,
@@ -5294,7 +5549,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en aritmetisk talföljd ökar eller minskar termerna med samma differens \\(d\\). Använd \\(a_n=a_1+(n-1)d\\); faktorn \\(n-1\\) kommer av att det finns \\(n-1\\) steg från första till \\(n\\):te termen.</p>"
   },
   {
     "kap": 2,
@@ -5316,7 +5572,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgör först om skillnaden eller kvoten mellan följande termer är konstant. Det avgör om du ska använda en aritmetisk eller geometrisk formel för term eller summa.</p>"
   },
   {
     "kap": 2,
@@ -5338,7 +5595,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en aritmetisk talföljd ökar eller minskar termerna med samma differens \\(d\\). Använd \\(a_n=a_1+(n-1)d\\); faktorn \\(n-1\\) kommer av att det finns \\(n-1\\) steg från första till \\(n\\):te termen.</p>"
   },
   {
     "kap": 2,
@@ -5359,7 +5617,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en aritmetisk talföljd är differensen \\(d\\) konstant. Bestäm först första och sista termen och använd sedan \\(S_n=n(a_1+a_n)/2\\), vilket parar ihop lika stora ändsummor.</p>"
   },
   {
     "kap": 2,
@@ -5382,7 +5641,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgör först om skillnaden eller kvoten mellan följande termer är konstant. Det avgör om du ska använda en aritmetisk eller geometrisk formel för term eller summa.</p>"
   },
   {
     "kap": 2,
@@ -5405,7 +5665,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Från första termen till den tionde görs nio steg med differensen 5. Använd därför \\(a_n=a_1+(n-1)d\\).</p>"
   },
   {
     "kap": 2,
@@ -5427,7 +5688,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>I en aritmetisk talföljd ökar eller minskar termerna med samma differens \\(d\\). Använd \\(a_n=a_1+(n-1)d\\); faktorn \\(n-1\\) kommer av att det finns \\(n-1\\) steg från första till \\(n\\):te termen.</p>"
   },
   {
     "kap": 2,
@@ -5450,7 +5712,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en aritmetisk talföljd ökar eller minskar termerna med samma differens \\(d\\). Använd \\(a_n=a_1+(n-1)d\\); faktorn \\(n-1\\) kommer av att det finns \\(n-1\\) steg från första till \\(n\\):te termen.</p>"
   },
   {
     "kap": 2,
@@ -5472,7 +5735,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>En rekursiv formel behöver både startvärde och en regel för hur nästa term fås.</p>"
   },
   {
     "kap": 2,
@@ -5495,7 +5759,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Jämviktsvärdet \\(L\\) uppfyller \\(L=0,78L+2400\\), så \\(L=2400/0,22=\\frac{120000}{11}\\). Sätt \\(b_n=a_n-L\\).</p>"
   },
   {
     "kap": 2,
@@ -5517,7 +5782,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv startvärdet och regeln för hur nästa term fås från den föregående. Beräkna de första termerna stegvis och koppla varje del av rekursionen till situationen innan du gör en prognos.</p>"
   },
   {
     "kap": 2,
@@ -5553,7 +5819,8 @@ window.BANKMATF1 = [
       "a₂",
       "a₃",
       "a₄"
-    ]
+    ],
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -5589,7 +5856,8 @@ window.BANKMATF1 = [
       "a₂",
       "a₃",
       "a₄"
-    ]
+    ],
+    "ledtrad": "<p>Rekursionen anger hur nästa term byggs av den föregående. Vi måste därför räkna termerna i ordning.</p>"
   },
   {
     "kap": 2,
@@ -5610,7 +5878,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -5633,7 +5902,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Skriv startvärdet och regeln för hur nästa term fås från den föregående. Beräkna de första termerna stegvis och koppla varje del av rekursionen till situationen innan du gör en prognos.</p>"
   },
   {
     "kap": 2,
@@ -5654,7 +5924,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -5676,7 +5947,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -5699,7 +5971,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -5720,7 +5993,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -5741,7 +6015,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -5762,7 +6037,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -5783,7 +6059,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -5805,7 +6082,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -5828,7 +6106,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sigma-notationen betyder att alla heltal från startindex 3 till slutindex 7 ska adderas.</p>"
   },
   {
     "kap": 2,
@@ -5850,7 +6129,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -5872,7 +6152,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en geometrisk talföljd multipliceras varje term med samma kvot \\(q\\). Använd därför \\(a_n=a_1q^{n-1}\\) och lös baklänges om den sökta storheten är \\(a_1\\), \\(q\\) eller \\(n\\).</p>"
   },
   {
     "kap": 2,
@@ -5894,7 +6175,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera först den konstanta kvoten \\(q\\). När flera geometriska termer ska summeras används \\(S_n=a_1(1-q^n)/(1-q)\\); ordna termerna så att första termen och antalet termer blir tydliga.</p>"
   },
   {
     "kap": 2,
@@ -5916,7 +6198,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en geometrisk talföljd multipliceras varje term med samma kvot \\(q\\). Använd därför \\(a_n=a_1q^{n-1}\\) och lös baklänges om den sökta storheten är \\(a_1\\), \\(q\\) eller \\(n\\).</p>"
   },
   {
     "kap": 2,
@@ -5938,7 +6221,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera först den konstanta kvoten \\(q\\). När flera geometriska termer ska summeras används \\(S_n=a_1(1-q^n)/(1-q)\\); ordna termerna så att första termen och antalet termer blir tydliga.</p>"
   },
   {
     "kap": 2,
@@ -5960,7 +6244,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en geometrisk talföljd multipliceras varje term med samma kvot \\(q\\). Använd därför \\(a_n=a_1q^{n-1}\\) och lös baklänges om den sökta storheten är \\(a_1\\), \\(q\\) eller \\(n\\).</p>"
   },
   {
     "kap": 2,
@@ -5982,7 +6267,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en aritmetisk talföljd ökar eller minskar termerna med samma differens \\(d\\). Använd \\(a_n=a_1+(n-1)d\\); faktorn \\(n-1\\) kommer av att det finns \\(n-1\\) steg från första till \\(n\\):te termen.</p>"
   },
   {
     "kap": 2,
@@ -6005,7 +6291,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgör först om skillnaden eller kvoten mellan följande termer är konstant. Det avgör om du ska använda en aritmetisk eller geometrisk formel för term eller summa.</p>"
   },
   {
     "kap": 2,
@@ -6027,7 +6314,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en geometrisk talföljd gäller \\(a_n=a_1q^{n-1}\\). Mellan \\(a_1\\) och \\(a_4\\) sker alltså tre multiplikationer med kvoten \\(q\\).</p>"
   },
   {
     "kap": 2,
@@ -6049,7 +6337,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera först den konstanta kvoten \\(q\\). När flera geometriska termer ska summeras används \\(S_n=a_1(1-q^n)/(1-q)\\); ordna termerna så att första termen och antalet termer blir tydliga.</p>"
   },
   {
     "kap": 2,
@@ -6071,7 +6360,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en geometrisk talföljd multipliceras varje term med samma kvot \\(q\\). Använd därför \\(a_n=a_1q^{n-1}\\) och lös baklänges om den sökta storheten är \\(a_1\\), \\(q\\) eller \\(n\\).</p>"
   },
   {
     "kap": 2,
@@ -6093,7 +6383,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en aritmetisk talföljd ökar eller minskar termerna med samma differens \\(d\\). Använd \\(a_n=a_1+(n-1)d\\); faktorn \\(n-1\\) kommer av att det finns \\(n-1\\) steg från första till \\(n\\):te termen.</p>"
   },
   {
     "kap": 2,
@@ -6115,7 +6406,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en aritmetisk talföljd är differensen \\(d\\) konstant. Bestäm först första och sista termen och använd sedan \\(S_n=n(a_1+a_n)/2\\), vilket parar ihop lika stora ändsummor.</p>"
   },
   {
     "kap": 2,
@@ -6137,7 +6429,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I en geometrisk talföljd multipliceras varje term med samma kvot \\(q\\). Använd därför \\(a_n=a_1q^{n-1}\\) och lös baklänges om den sökta storheten är \\(a_1\\), \\(q\\) eller \\(n\\).</p>"
   },
   {
     "kap": 2,
@@ -6159,7 +6452,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>I en aritmetisk talföljd ökar eller minskar termerna med samma differens \\(d\\). Använd \\(a_n=a_1+(n-1)d\\); faktorn \\(n-1\\) kommer av att det finns \\(n-1\\) steg från första till \\(n\\):te termen.</p>"
   },
   {
     "kap": 2,
@@ -6179,7 +6473,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>I en geometrisk talföljd multipliceras varje term med samma kvot \\(q\\). Använd därför \\(a_n=a_1q^{n-1}\\) och lös baklänges om den sökta storheten är \\(a_1\\), \\(q\\) eller \\(n\\).</p>"
   },
   {
     "kap": 2,
@@ -6200,7 +6495,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgör först om skillnaden eller kvoten mellan följande termer är konstant. Det avgör om du ska använda en aritmetisk eller geometrisk formel för term eller summa.</p>"
   },
   {
     "kap": 2,
@@ -6221,7 +6517,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Först faller bollen 12 m. Därefter går den både upp och ner för varje studshöjd:</p>"
   },
   {
     "kap": 2,
@@ -6229,7 +6526,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "bestäm antal termer från geometrisk tillväxt",
     "poang": "0/2/0",
-    "t": "<p>En geometrisk följd börjar med 5 och har kvoten 1,5. Bestäm det minsta \\(n\\) för vilket \\(a_n>100\\).</p>",
+    "t": "<p>En geometrisk följd börjar med 5 och har kvoten 1,5. Bestäm det minsta \\(n\\) för vilket \\(a_n\\gt 100\\).</p>",
     "s": "<p>\\[a_n=5\\cdot1,5^{n-1}.\\]</p><p>Vi söker</p><p>\\[5\\cdot1,5^{n-1}\\gt 100\\Rightarrow1,5^{n-1}\\gt 20.\\]</p><p>Logaritmera:</p><p>\\[n-1\\gt \\frac{\\ln20}{\\ln1,5}\\approx7,39.\\]</p><p>Alltså måste \\(n-1\\ge8\\), alltså <strong>\\(n=9\\)</strong>. Kontroll: \\(a_8\\approx85,4\\), \\(a_9\\approx128,1\\).</p>",
     "id": "2.188",
     "miniräknare": true,
@@ -6244,7 +6541,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Avgör först om skillnaden eller kvoten mellan följande termer är konstant. Det avgör om du ska använda en aritmetisk eller geometrisk formel för term eller summa.</p>"
   },
   {
     "kap": 2,
@@ -6266,7 +6564,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv talet på formen \\(n=q m+r\\), där \\(0\\le r\\lt m\\). Resten \\(r\\) är den restklass talet tillhör modulo \\(m\\), och det är den som efterfrågas.</p>"
   },
   {
     "kap": 2,
@@ -6289,7 +6588,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Ersätt först varje faktor med dess rest vid division med 4. Det gör talen mindre men ändrar inte vilken rest produkten får.</p>"
   },
   {
     "kap": 2,
@@ -6310,7 +6610,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Två tal är kongruenta modulo 9 om de ger samma rest vid division med 9.</p>"
   },
   {
     "kap": 2,
@@ -6333,7 +6634,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Eftersom vi arbetar modulo 16 kan vi först ersätta varje faktor med dess rest vid division med 16.</p>"
   },
   {
     "kap": 2,
@@ -6356,7 +6658,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo det givna talet. Addition och multiplikation kan sedan göras med de mindre resterna, eftersom kongruensen bevaras av dessa operationer.</p>"
   },
   {
     "kap": 2,
@@ -6378,7 +6681,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Situationen upprepas periodiskt och kan därför beskrivas med kongruensräkning.</p>"
   },
   {
     "kap": 2,
@@ -6398,7 +6702,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>a) \\(38\\equiv3\\pmod5\\) betyder att 38 och 3 ger samma rest vid division med 5. Det kan också kontrolleras genom att skillnaden</p>"
   },
   {
     "kap": 2,
@@ -6420,7 +6725,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo det givna talet. Addition och multiplikation kan sedan göras med de mindre resterna, eftersom kongruensen bevaras av dessa operationer.</p>"
   },
   {
     "kap": 2,
@@ -6442,7 +6748,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv talet på formen \\(n=q m+r\\), där \\(0\\le r\\lt m\\). Resten \\(r\\) är den restklass talet tillhör modulo \\(m\\), och det är den som efterfrågas.</p>"
   },
   {
     "kap": 2,
@@ -6462,7 +6769,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Skriv talet på formen \\(n=q m+r\\), där \\(0\\le r\\lt m\\). Resten \\(r\\) är den restklass talet tillhör modulo \\(m\\), och det är den som efterfrågas.</p>"
   },
   {
     "kap": 2,
@@ -6483,7 +6791,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv talet på formen \\(n=q m+r\\), där \\(0\\le r\\lt m\\). Resten \\(r\\) är den restklass talet tillhör modulo \\(m\\), och det är den som efterfrågas.</p>"
   },
   {
     "kap": 2,
@@ -6503,7 +6812,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Skriv talet på formen \\(n=q m+r\\), där \\(0\\le r\\lt m\\). Resten \\(r\\) är den restklass talet tillhör modulo \\(m\\), och det är den som efterfrågas.</p>"
   },
   {
     "kap": 2,
@@ -6525,7 +6835,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv talet på formen \\(n=q m+r\\), där \\(0\\le r\\lt m\\). Resten \\(r\\) är den restklass talet tillhör modulo \\(m\\), och det är den som efterfrågas.</p>"
   },
   {
     "kap": 2,
@@ -6548,7 +6859,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Vi arbetar modulo 5. Ersätt därför 23, 39 och 12 med deras respektive rester vid division med 5:</p>"
   },
   {
     "kap": 2,
@@ -6571,7 +6883,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p>"
   },
   {
     "kap": 2,
@@ -6593,7 +6906,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>I varje del räcker det att behålla resten. För potenser letar vi efter ett kort upprepningsmönster i resterna.</p>"
   },
   {
     "kap": 2,
@@ -6616,7 +6930,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>För att bestämma slutsiffran räcker det att undersöka potenserna av 7 modulo 10.</p>"
   },
   {
     "kap": 2,
@@ -6638,7 +6953,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Byt gärna ut stora tal mot deras rester modulo \\(n\\) så tidigt som möjligt. Addition och multiplikation får göras direkt på resterna.</p>"
   },
   {
     "kap": 2,
@@ -6661,7 +6977,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Byt gärna ut stora tal mot deras rester modulo \\(n\\) så tidigt som möjligt. Addition och multiplikation får göras direkt på resterna.</p>"
   },
   {
     "kap": 2,
@@ -6686,7 +7003,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt gärna ut stora tal mot deras rester modulo \\(n\\) så tidigt som möjligt. Addition och multiplikation får göras direkt på resterna.</p>"
   },
   {
     "kap": 2,
@@ -6708,7 +7026,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv talet på formen \\(n=q m+r\\), där \\(0\\le r\\lt m\\). Resten \\(r\\) är den restklass talet tillhör modulo \\(m\\), och det är den som efterfrågas.</p>"
   },
   {
     "kap": 2,
@@ -6730,7 +7049,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Byt gärna ut stora tal mot deras rester modulo \\(n\\) så tidigt som möjligt. Addition och multiplikation får göras direkt på resterna.</p>"
   },
   {
     "kap": 2,
@@ -6753,7 +7073,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Reducera basen modulo det givna talet och leta efter ett kort återkommande mönster i potenserna. Då behöver den stora exponenten inte beräknas direkt.</p>"
   },
   {
     "kap": 2,
@@ -6777,7 +7098,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo det givna talet. Addition och multiplikation kan sedan göras med de mindre resterna, eftersom kongruensen bevaras av dessa operationer.</p>"
   },
   {
     "kap": 2,
@@ -6801,7 +7123,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Villkoret \\(x\\equiv2\\pmod5\\) betyder att \\(x\\) kan skrivas</p>"
   },
   {
     "kap": 2,
@@ -6825,7 +7148,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt gärna ut stora tal mot deras rester modulo \\(n\\) så tidigt som möjligt. Addition och multiplikation får göras direkt på resterna.</p>"
   },
   {
     "kap": 2,
@@ -6848,7 +7172,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Vi arbetar modulo 5, så vi ersätter först faktorerna med deras rester vid division med 5:</p>"
   },
   {
     "kap": 2,
@@ -6871,7 +7196,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo det givna talet. Addition och multiplikation kan sedan göras med de mindre resterna, eftersom kongruensen bevaras av dessa operationer.</p>"
   },
   {
     "kap": 2,
@@ -6894,7 +7220,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Reducera basen modulo det givna talet och leta efter ett kort återkommande mönster i potenserna. Då behöver den stora exponenten inte beräknas direkt.</p>"
   },
   {
     "kap": 2,
@@ -6917,7 +7244,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo det givna talet. Addition och multiplikation kan sedan göras med de mindre resterna, eftersom kongruensen bevaras av dessa operationer.</p>"
   },
   {
     "kap": 2,
@@ -6941,7 +7269,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Reducera basen modulo det givna talet och leta efter ett kort återkommande mönster i potenserna. Då behöver den stora exponenten inte beräknas direkt.</p>"
   },
   {
     "kap": 2,
@@ -6964,7 +7293,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo det givna talet. Addition och multiplikation kan sedan göras med de mindre resterna, eftersom kongruensen bevaras av dessa operationer.</p>"
   },
   {
     "kap": 2,
@@ -6987,7 +7317,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Reducera basen modulo det givna talet och leta efter ett kort återkommande mönster i potenserna. Då behöver den stora exponenten inte beräknas direkt.</p>"
   },
   {
     "kap": 2,
@@ -7010,7 +7341,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo det givna talet. Addition och multiplikation kan sedan göras med de mindre resterna, eftersom kongruensen bevaras av dessa operationer.</p>"
   },
   {
     "kap": 2,
@@ -7033,7 +7365,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo det givna talet. Addition och multiplikation kan sedan göras med de mindre resterna, eftersom kongruensen bevaras av dessa operationer.</p>"
   },
   {
     "kap": 2,
@@ -7056,7 +7389,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo det givna talet. Addition och multiplikation kan sedan göras med de mindre resterna, eftersom kongruensen bevaras av dessa operationer.</p>"
   },
   {
     "kap": 2,
@@ -7079,7 +7413,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Reducera basen modulo det givna talet och leta efter ett kort återkommande mönster i potenserna. Då behöver den stora exponenten inte beräknas direkt.</p>"
   },
   {
     "kap": 2,
@@ -7101,7 +7436,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv talet på formen \\(n=q m+r\\), där \\(0\\le r\\lt m\\). Resten \\(r\\) är den restklass talet tillhör modulo \\(m\\), och det är den som efterfrågas.</p>"
   },
   {
     "kap": 2,
@@ -7124,7 +7460,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo det givna talet. Addition och multiplikation kan sedan göras med de mindre resterna, eftersom kongruensen bevaras av dessa operationer.</p>"
   },
   {
     "kap": 2,
@@ -7148,7 +7485,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Räkna med modularitet och kongruenser"
+    "familjTidigare": "Räkna med modularitet och kongruenser",
+    "ledtrad": "<p>Byt gärna ut stora tal mot deras rester modulo \\(n\\) så tidigt som möjligt. Addition och multiplikation får göras direkt på resterna.</p>"
   },
   {
     "kap": 2,
@@ -7171,7 +7509,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p>"
   },
   {
     "kap": 2,
@@ -7193,7 +7532,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I bas \\(b\\) har positionerna vikterna \\(b^0,b^1,b^2,\\ldots\\). Vid omvandling till bas tio multiplicerar du varje siffra med sitt platsvärde och summerar.</p>"
   },
   {
     "kap": 2,
@@ -7215,7 +7555,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd platsvärdena i den aktuella basen och skriv talet som en summa av baspotenser.</p>"
   },
   {
     "kap": 2,
@@ -7237,7 +7578,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid basomvandling måste varje siffra tolkas utifrån sin plats och den aktuella basen. Kontrollera särskilt att ingen siffra är lika stor som eller större än basen.</p>"
   },
   {
     "kap": 2,
@@ -7259,7 +7601,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "ledtrad": "<p>I ett positionssystem har varje siffra ett platsvärde som är en potens av basen. Multiplicera därför varje siffra med rätt baspotens, med \\(b^0\\) längst till höger, och summera bidragen.</p>"
   },
   {
     "kap": 2,
@@ -7281,7 +7624,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I ett positionssystem har varje siffra ett platsvärde som är en potens av basen. Multiplicera därför varje siffra med rätt baspotens, med \\(b^0\\) längst till höger, och summera bidragen.</p>"
   },
   {
     "kap": 2,
@@ -7303,7 +7647,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid basomvandling måste varje siffra tolkas utifrån sin plats och den aktuella basen. Kontrollera särskilt att ingen siffra är lika stor som eller större än basen.</p>"
   },
   {
     "kap": 2,
@@ -7325,7 +7670,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I ett positionssystem har varje siffra ett platsvärde som är en potens av basen. Multiplicera därför varje siffra med rätt baspotens, med \\(b^0\\) längst till höger, och summera bidragen.</p>"
   },
   {
     "kap": 2,
@@ -7345,7 +7691,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Vid basomvandling måste varje siffra tolkas utifrån sin plats och den aktuella basen. Kontrollera särskilt att ingen siffra är lika stor som eller större än basen.</p>"
   },
   {
     "kap": 2,
@@ -7367,7 +7714,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I bas 6 har positionerna från höger platsvärdena \\(6^0,6^1,6^2,\\ldots\\).</p>"
   },
   {
     "kap": 2,
@@ -7391,7 +7739,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid basomvandling måste varje siffra tolkas utifrån sin plats och den aktuella basen. Kontrollera särskilt att ingen siffra är lika stor som eller större än basen.</p>"
   },
   {
     "kap": 2,
@@ -7413,7 +7762,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid basomvandling måste varje siffra tolkas utifrån sin plats och den aktuella basen. Kontrollera särskilt att ingen siffra är lika stor som eller större än basen.</p>"
   },
   {
     "kap": 2,
@@ -7436,7 +7786,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p>"
   },
   {
     "kap": 2,
@@ -7459,7 +7810,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "kap": 2,
@@ -7481,7 +7833,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "kap": 2,
@@ -7504,7 +7857,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisering fortsätter tills varje faktor är ett primtal.</p>"
   },
   {
     "kap": 2,
@@ -7527,7 +7881,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen och jämför faktorerna. SGD innehåller de gemensamma primfaktorerna med minsta förekommande exponent, medan MGM använder varje primfaktor med största förekommande exponent.</p>"
   },
   {
     "kap": 2,
@@ -7550,7 +7905,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p>"
   },
   {
     "kap": 2,
@@ -7573,7 +7929,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "kap": 2,
@@ -7596,7 +7953,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen och jämför faktorerna. SGD innehåller de gemensamma primfaktorerna med minsta förekommande exponent, medan MGM använder varje primfaktor med största förekommande exponent.</p>"
   },
   {
     "kap": 2,
@@ -7619,7 +7977,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen och jämför faktorerna. SGD innehåller de gemensamma primfaktorerna med minsta förekommande exponent, medan MGM använder varje primfaktor med största förekommande exponent.</p>"
   },
   {
     "kap": 2,
@@ -7642,7 +8001,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Bland tre på varandra följande heltal finns alltid ett jämnt tal, alltså en faktor 2. Dessutom finns alltid ett tal delbart med 3, alltså en faktor 3.</p>"
   },
   {
     "kap": 2,
@@ -7662,7 +8022,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Bas: \\(n=1\\): vänsterledet är \\(a\\), högerledet \\(a(k-1)/(k-1)=a\\).</p>"
   },
   {
     "kap": 2,
@@ -7682,7 +8043,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "kap": 2,
@@ -7702,7 +8064,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Basfall: För \\(k=1\\) är vänsterledet \\(5\\) och högerledet \\(1(3\\cdot1+2)=5\\). Formeln stämmer alltså för \\(k=1\\).</p>"
   },
   {
     "kap": 2,
@@ -7722,7 +8085,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta att summan till term \\(k\\) är \\(k(2k-1)\\). Nästa term är \\(4(k+1)-3=4k+1\\).</p>"
   },
   {
     "kap": 2,
@@ -7742,7 +8106,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Basfall: För \\(n=1\\): \\(1=\\frac{1\\cdot2}{2}\\).</p>"
   },
   {
     "kap": 2,
@@ -7762,7 +8127,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta formeln för \\(k\\). Lägg till nästa term \\(12(k+1)-9=12k+3\\):</p>"
   },
   {
     "kap": 2,
@@ -7782,7 +8148,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Ändligt många kontroller visar inte ett påstående för alla heltal. Efter bassteget måste man anta att påståendet gäller för ett godtyckligt \\(n=k\\) och därefter visa att detta medför att det gäller för \\(k+1\\).</p>"
   },
   {
     "kap": 2,
@@ -7802,7 +8169,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Eftersom rekursionen använder två föregående termer kontrolleras två basfall: \\(a_0=0=1-1\\) och \\(a_1=1=3-2\\). Anta sedan att formlerna gäller för \\(a_k\\) och \\(a_{k-1}\\).</p>"
   },
   {
     "kap": 2,
@@ -7822,7 +8190,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Basfall: För \\(n=0\\) är \\(8^0-5^0=1-1=0\\), som är delbart med 3.</p>"
   },
   {
     "kap": 2,
@@ -7842,7 +8211,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "kap": 2,
@@ -7862,7 +8232,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "kap": 2,
@@ -7882,7 +8253,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "kap": 2,
@@ -7902,7 +8274,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Basfall: För \\(n=0\\) är \\(2^0=1\\) och \\(0+1=1\\), så olikheten gäller.</p>"
   },
   {
     "kap": 2,
@@ -7922,7 +8295,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Basfall: För \\(n=1\\) är \\(7^1-1=6\\), som är delbart med 6.</p>"
   },
   {
     "kap": 2,
@@ -7942,7 +8316,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Överlappningsargumentet fungerar bara om de två mängderna faktiskt har ett gemensamt element. I steget från \\(k=1\\) till \\(k=2\\) är mängderna \\(\\{1\\}\\) och \\(\\{2\\}\\) disjunkta.</p>"
   },
   {
     "kap": 2,
@@ -7962,7 +8337,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "kap": 2,
@@ -7983,7 +8359,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "kap": 2,
@@ -8003,7 +8380,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Basfall: För \\(n=1\\) är \\(7^2-1=49-1=48\\), alltså delbart med 48.</p>"
   },
   {
     "kap": 2,
@@ -8023,7 +8401,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Börja med magnetflödet \\(\\Phi=BA\\cos\\theta\\). Den inducerade emk:n bestäms av hur snabbt flödet ändras: \\(|\\mathcal E|=N|\\Delta\\Phi/\\Delta t|\\).</p>"
   },
   {
     "kap": 2,
@@ -8043,7 +8422,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Ett induktionsbevis har två delar som båda behövs: kontrollera först basfallet och anta sedan att påståendet gäller för ett godtyckligt \\(n=k\\). Använd just detta antagande för att visa fallet \\(k+1\\).</p>"
   },
   {
     "kap": 2,
@@ -8063,7 +8443,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Ett induktionsbevis har två delar som båda behövs: kontrollera först basfallet och anta sedan att påståendet gäller för ett godtyckligt \\(n=k\\). Använd just detta antagande för att visa fallet \\(k+1\\).</p>"
   },
   {
     "kap": 2,
@@ -8083,7 +8464,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Ett induktionsbevis har två delar som båda behövs: kontrollera först basfallet och anta sedan att påståendet gäller för ett godtyckligt \\(n=k\\). Använd just detta antagande för att visa fallet \\(k+1\\).</p>"
   },
   {
     "kap": 2,
@@ -8104,7 +8486,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta motsatsen till det som ska bevisas och följ konsekvenserna. Målet är att nå något som strider mot ett givet villkor eller ett känt faktum.</p>"
   },
   {
     "kap": 2,
@@ -8125,16 +8508,17 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta att det bara finns ändligt många primtal \\(p_1,\\ldots,p_n\\). Betrakta \\(N=p_1p_2\\cdots p_n+1\\).</p>"
   },
   {
     "kap": 2,
     "omr": "bevismetoder",
     "niva": "A",
-    "typ": "indirekt bevis – Euklides bevis för oändligt många primtal",
+    "typ": "indirekt bevis – irrationalitet",
     "poang": "0/1/3",
-    "t": "<p>Visa med ett motsägelsebevis att det finns oändligt många primtal.</p>",
-    "s": "<p>Anta motsatsen: att det bara finns ändligt många primtal \\(p_1,p_2,\\ldots,p_n\\).</p><p>Bilda talet</p><p>\\[N=p_1p_2\\cdots p_n+1.\\]</p><p>För varje primtal \\(p_i\\) ger division av \\(N\\) med \\(p_i\\) resten 1. Alltså är \\(N\\) inte delbart med något av de primtal som enligt antagandet skulle vara alla primtal.</p><p>Men varje heltal större än 1 är antingen ett primtal eller har en primtalsfaktor. Därför måste \\(N\\) ha en primtalsfaktor som inte finns i listan. Det motsäger antagandet. Alltså finns <strong>oändligt många primtal</strong>.</p>",
+    "t": "<p>Visa med ett motsägelsebevis att \\(\\sqrt3\\) är irrationellt.</p>",
+    "s": "<p>Anta motsatsen: att \\(\\sqrt3\\) är rationellt. Då kan talet skrivas \\(\\sqrt3=a/b\\), där \\(a\\) och \\(b\\) är heltal utan gemensam faktor.</p><p>Kvadrera:</p><p>\\[3=\\frac{a^2}{b^2}\\quad\\Rightarrow\\quad a^2=3b^2.\\]</p><p>Då är \\(a^2\\) delbart med 3, vilket innebär att även \\(a\\) är delbart med 3. Sätt \\(a=3k\\). Då</p><p>\\[9k^2=3b^2\\quad\\Rightarrow\\quad b^2=3k^2.\\]</p><p>Alltså är även \\(b\\) delbart med 3. Men då har \\(a\\) och \\(b\\) den gemensamma faktorn 3, i strid med att bråket var förkortat så långt som möjligt.</p><p>Antagandet leder till en motsägelse. Därför är \\(\\sqrt3\\) irrationellt.</p>",
     "id": "2.59",
     "miniräknare": false,
     "geogebra": false,
@@ -8146,7 +8530,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta motsatsen: att \\(\\sqrt3\\) är rationellt. Då kan talet skrivas \\(\\sqrt3=a/b\\), där \\(a\\) och \\(b\\) är heltal utan gemensam faktor.</p>"
   },
   {
     "kap": 2,
@@ -8167,7 +8552,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta motsatsen till det som ska bevisas och följ konsekvenserna. Målet är att nå något som strider mot ett givet villkor eller ett känt faktum.</p>"
   },
   {
     "kap": 2,
@@ -8188,7 +8574,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta motsatsen till det som ska bevisas och följ konsekvenserna. Målet är att nå något som strider mot ett givet villkor eller ett känt faktum.</p>"
   },
   {
     "kap": 2,
@@ -8209,7 +8596,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta motsatsen till det som ska bevisas och följ konsekvenserna. Målet är att nå något som strider mot ett givet villkor eller ett känt faktum.</p>"
   },
   {
     "kap": 2,
@@ -8230,7 +8618,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta motsatsen till det som ska bevisas och följ konsekvenserna. Målet är att nå något som strider mot ett givet villkor eller ett känt faktum.</p>"
   },
   {
     "kap": 2,
@@ -8251,7 +8640,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta motsatsen till det som ska bevisas och följ konsekvenserna. Målet är att nå något som strider mot ett givet villkor eller ett känt faktum.</p>"
   },
   {
     "id": "2.141",
@@ -8271,7 +8661,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv påståendet som “om P så Q”. Bedöm om det är enklast att gå direkt från P till Q eller att visa kontrapositionen “om inte Q så inte P”.</p>"
   },
   {
     "id": "2.142",
@@ -8291,7 +8682,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv påståendet som “om P så Q”. Bedöm om det är enklast att gå direkt från P till Q eller att visa kontrapositionen “om inte Q så inte P”.</p>"
   },
   {
     "id": "2.143",
@@ -8311,7 +8703,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv påståendet som “om P så Q”. Bedöm om det är enklast att gå direkt från P till Q eller att visa kontrapositionen “om inte Q så inte P”.</p>"
   },
   {
     "id": "2.144",
@@ -8332,7 +8725,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv påståendet som “om P så Q”. Bedöm om det är enklast att gå direkt från P till Q eller att visa kontrapositionen “om inte Q så inte P”.</p>"
   },
   {
     "id": "2.145",
@@ -8353,7 +8747,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>I ett direkt bevis utgår man från antagandena och härleder steg för steg det som ska visas.</p>"
   },
   {
     "id": "2.146",
@@ -8373,7 +8768,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv påståendet som “om P så Q”. Bedöm om det är enklast att gå direkt från P till Q eller att visa kontrapositionen “om inte Q så inte P”.</p>"
   },
   {
     "id": "2.147",
@@ -8393,7 +8789,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv påståendet som “om P så Q”. Bedöm om det är enklast att gå direkt från P till Q eller att visa kontrapositionen “om inte Q så inte P”.</p>"
   },
   {
     "id": "2.148",
@@ -8414,7 +8811,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv påståendet som “om P så Q”. Bedöm om det är enklast att gå direkt från P till Q eller att visa kontrapositionen “om inte Q så inte P”.</p>"
   },
   {
     "id": "2.149",
@@ -8435,7 +8833,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv påståendet som “om P så Q”. Bedöm om det är enklast att gå direkt från P till Q eller att visa kontrapositionen “om inte Q så inte P”.</p>"
   },
   {
     "id": "2.150",
@@ -8455,7 +8854,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv påståendet som “om P så Q”. Bedöm om det är enklast att gå direkt från P till Q eller att visa kontrapositionen “om inte Q så inte P”.</p>"
   },
   {
     "kap": 2,
@@ -8476,7 +8876,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Idé: Uppställningen fungerar som i bas tio, men växlingen sker vid 5 i stället för vid 10.</p>"
   },
   {
     "kap": 2,
@@ -8500,7 +8901,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Idé: Skriv talet med platsvärden i basen \\(b\\). Då blir basen den obekanta i en ekvation.</p>"
   },
   {
     "kap": 2,
@@ -8522,7 +8924,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid basomvandling måste varje siffra tolkas utifrån sin plats och den aktuella basen. Kontrollera särskilt att ingen siffra är lika stor som eller större än basen.</p>"
   },
   {
     "kap": 2,
@@ -8544,7 +8947,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I ett positionssystem har varje siffra ett platsvärde som är en potens av basen. Multiplicera därför varje siffra med rätt baspotens, med \\(b^0\\) längst till höger, och summera bidragen.</p>"
   },
   {
     "kap": 2,
@@ -8566,7 +8970,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I ett positionssystem har varje siffra ett platsvärde som är en potens av basen. Multiplicera därför varje siffra med rätt baspotens, med \\(b^0\\) längst till höger, och summera bidragen.</p>"
   },
   {
     "kap": 2,
@@ -8588,7 +8993,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid basomvandling måste varje siffra tolkas utifrån sin plats och den aktuella basen. Kontrollera särskilt att ingen siffra är lika stor som eller större än basen.</p>"
   },
   {
     "kap": 2,
@@ -8610,7 +9016,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I ett positionssystem har varje siffra ett platsvärde som är en potens av basen. Multiplicera därför varje siffra med rätt baspotens, med \\(b^0\\) längst till höger, och summera bidragen.</p>"
   },
   {
     "kap": 2,
@@ -8630,7 +9037,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>I bas \\(b\\) har positionerna vikterna \\(b^0,b^1,b^2,\\ldots\\). Vid omvandling till bas tio multiplicerar du varje siffra med sitt platsvärde och summerar.</p>"
   },
   {
     "kap": 2,
@@ -8654,7 +9062,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid basomvandling måste varje siffra tolkas utifrån sin plats och den aktuella basen. Kontrollera särskilt att ingen siffra är lika stor som eller större än basen.</p>"
   },
   {
     "kap": 2,
@@ -8678,7 +9087,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I bas \\(b\\) har positionerna vikterna \\(b^0,b^1,b^2,\\ldots\\). Vid omvandling till bas tio multiplicerar du varje siffra med sitt platsvärde och summerar.</p>"
   },
   {
     "kap": 2,
@@ -8700,7 +9110,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I ett positionssystem har varje siffra ett platsvärde som är en potens av basen. Multiplicera därför varje siffra med rätt baspotens, med \\(b^0\\) längst till höger, och summera bidragen.</p>"
   },
   {
     "kap": 2,
@@ -8720,7 +9131,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>I bas \\(b\\) har positionerna vikterna \\(b^0,b^1,b^2,\\ldots\\). Vid omvandling till bas tio multiplicerar du varje siffra med sitt platsvärde och summerar.</p>"
   },
   {
     "kap": 2,
@@ -8742,7 +9154,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Om varje term kan skrivas som en differens mellan två närliggande uttryck tar termerna ut varandra parvis. En sådan summa kallas teleskopsumma.</p>"
   },
   {
     "kap": 2,
@@ -8764,7 +9177,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dela upp summan i två enklare delar och använd formeln \\(1+2+\\cdots+n=\\frac{n(n+1)}2\\). Tänk på att summationen startar vid \\(k=3\\), inte vid \\(k=1\\).</p>"
   },
   {
     "kap": 2,
@@ -8786,7 +9200,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -8807,7 +9222,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -8828,7 +9244,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>En explicit formel ger termen direkt från indexet. Sätt in de efterfrågade indexvärdena ett i taget och behåll skillnaden mellan termnumret \\(n\\) och själva termvärdet \\(a_n\\).</p>"
   },
   {
     "kap": 2,
@@ -8851,7 +9268,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -8871,7 +9289,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -8893,7 +9312,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Läs först av start- och slutindex. Sätt sedan in indexvärdena eller använd en lämplig summaformel; kontrollera att både första och sista termen verkligen ingår.</p>"
   },
   {
     "kap": 2,
@@ -8916,7 +9336,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Idé: Eftersom \\(30=2\\cdot3\\cdot5\\) och faktorerna är olika primtal räcker det att visa delbarhet med 2, 3 och 5 var för sig.</p>"
   },
   {
     "kap": 2,
@@ -8939,7 +9360,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p>"
   },
   {
     "kap": 2,
@@ -8962,7 +9384,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen och jämför faktorerna. SGD innehåller de gemensamma primfaktorerna med minsta förekommande exponent, medan MGM använder varje primfaktor med största förekommande exponent.</p>"
   },
   {
     "kap": 2,
@@ -8985,7 +9408,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "kap": 2,
@@ -9027,20 +9451,24 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\"><strong>a)</strong> 4</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>a)</strong>  De två sista siffrorna är 72 och \\(72\\) är delbart med 4. Alltså är 2772 delbart med 4.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>a)</strong>  De två sista siffrorna är 72 och \\(72\\) är delbart med 4. Alltså är 2772 delbart med 4.</div>",
+        "ledtrad": "<p>Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\"><strong>b)</strong> 9</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>b)</strong>  Siffersumman är \\(2+7+7+2=18\\), som är delbar med 9. Alltså är 2772 delbart med 9.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>b)</strong>  Siffersumman är \\(2+7+7+2=18\\), som är delbar med 9. Alltså är 2772 delbart med 9.</div>",
+        "ledtrad": "<p>Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p>"
       },
       {
         "etikett": "c",
         "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\"><strong>c)</strong> 11.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>c)</strong>  Den alternerande summan är \\(2-7+7-2=0\\), som är delbar med 11. Alltså är 2772 också delbart med 11.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>c)</strong>  Den alternerande summan är \\(2-7+7-2=0\\), som är delbar med 11. Alltså är 2772 också delbart med 11.</div>",
+        "ledtrad": "<p>Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p>"
       }
     ],
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "kap": 2,
@@ -9062,7 +9490,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "kap": 2,
@@ -9086,7 +9515,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "kap": 2,
@@ -9109,7 +9539,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "kap": 2,
@@ -9132,7 +9563,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "kap": 2,
@@ -9155,7 +9587,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen och jämför faktorerna. SGD innehåller de gemensamma primfaktorerna med minsta förekommande exponent, medan MGM använder varje primfaktor med största förekommande exponent.</p>"
   },
   {
     "kap": 2,
@@ -9178,7 +9611,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "kap": 2,
@@ -9200,7 +9634,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv startvärdet och regeln för hur nästa term fås från den föregående. Beräkna de första termerna stegvis och koppla varje del av rekursionen till situationen innan du gör en prognos.</p>"
   },
   {
     "kap": 2,
@@ -9222,7 +9657,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -9264,7 +9700,8 @@ window.BANKMATF1 = [
       "term 3",
       "term 4",
       "term 5"
-    ]
+    ],
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -9285,7 +9722,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -9306,7 +9744,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -9329,7 +9768,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -9367,7 +9807,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "rekursionsformel",
       "S₃"
-    ]
+    ],
+    "ledtrad": "<p>Skriv startvärdet och regeln för hur nästa term fås från den föregående. Beräkna de första termerna stegvis och koppla varje del av rekursionen till situationen innan du gör en prognos.</p>"
   },
   {
     "kap": 2,
@@ -9391,7 +9832,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Leta först efter ett jämviktsvärde \\(L\\) som inte ändras av rekursionen:</p>"
   },
   {
     "kap": 2,
@@ -9414,7 +9856,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv startvärdet och regeln för hur nästa term fås från den föregående. Beräkna de första termerna stegvis och koppla varje del av rekursionen till situationen innan du gör en prognos.</p>"
   },
   {
     "kap": 2,
@@ -9437,7 +9880,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -9459,7 +9903,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>En rekursiv formel bygger nästa term på tidigare termer. Beräkna därför i rätt ordning: använd startvärdet för nästa term och använd sedan det nya värdet i följande steg.</p>"
   },
   {
     "kap": 2,
@@ -9484,7 +9929,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv startvärdet och regeln för hur nästa term fås från den föregående. Beräkna de första termerna stegvis och koppla varje del av rekursionen till situationen innan du gör en prognos.</p>"
   },
   {
     "kap": 2,
@@ -9525,14 +9971,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0,5a_n+6.\\]</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm följdens gränsvärde.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Om följden närmar sig ett gränsvärde \\(L\\), måste nästa term också närma sig \\(L\\). Sätt därför \\(a_{n+1}=a_n=L\\) i rekursionen och lös den ekvation som uppstår.</p><div class=\"spel-en-del\"><strong>a)</strong>  Ett gränsvärde \\(L\\) måste uppfylla</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Om följden närmar sig ett gränsvärde \\(L\\), måste nästa term också närma sig \\(L\\). Sätt därför \\(a_{n+1}=a_n=L\\) i rekursionen och lös den ekvation som uppstår.</p><div class=\"spel-en-del\"><strong>a)</strong>  Ett gränsvärde \\(L\\) måste uppfylla</div>",
+        "ledtrad": "<p>Om följden närmar sig ett gränsvärde \\(L\\), måste nästa term också närma sig \\(L\\). Sätt därför \\(a_{n+1}=a_n=L\\) i rekursionen och lös den ekvation som uppstår.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0,5a_n+6.\\]</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm en explicit formel.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Om följden närmar sig ett gränsvärde \\(L\\), måste nästa term också närma sig \\(L\\). Sätt därför \\(a_{n+1}=a_n=L\\) i rekursionen och lös den ekvation som uppstår.</p><div class=\"spel-en-del\"><strong>b)</strong>  Avvikelsen från 12 uppfyller</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Om följden närmar sig ett gränsvärde \\(L\\), måste nästa term också närma sig \\(L\\). Sätt därför \\(a_{n+1}=a_n=L\\) i rekursionen och lös den ekvation som uppstår.</p><div class=\"spel-en-del\"><strong>b)</strong>  Avvikelsen från 12 uppfyller</div>",
+        "ledtrad": "<p>Om följden närmar sig ett gränsvärde \\(L\\), måste nästa term också närma sig \\(L\\). Sätt därför \\(a_{n+1}=a_n=L\\) i rekursionen och lös den ekvation som uppstår.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>Skriv startvärdet och regeln för hur nästa term fås från den föregående. Beräkna de första termerna stegvis och koppla varje del av rekursionen till situationen innan du gör en prognos.</p>"
   },
   {
     "kap": 3,
@@ -9554,7 +10003,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\).</p>"
   },
   {
     "kap": 3,
@@ -9575,7 +10025,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9596,7 +10047,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9617,7 +10069,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9638,7 +10091,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9659,7 +10113,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9680,7 +10135,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9701,7 +10157,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9722,7 +10179,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9743,7 +10201,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9763,7 +10222,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\).</p>"
   },
   {
     "kap": 3,
@@ -9783,7 +10243,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9804,7 +10265,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9825,7 +10287,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9846,7 +10309,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9867,7 +10331,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -9890,7 +10355,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -9912,7 +10378,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -9936,7 +10403,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -9958,7 +10426,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -9982,7 +10451,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10004,7 +10474,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10026,7 +10497,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10048,7 +10520,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10056,7 +10529,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "avgöra divergens p=1",
     "poang": "2/0/0",
-    "t": "<p>Avgör om \\(\\int_1^{\\infty}\\frac1x\\,dx\\) konvergerar.</p>",
+    "t": "<p>Avgör om \\(\\int_1^{\\infty}\\fracx\\,dx\\) konvergerar.</p>",
     "s": "<p><strong>Nyckelidé:</strong> En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p><p>\\[\\int_1^b\\frac1x dx=\\ln b.\\]</p><p>När \\(b\\to\\infty\\) växer \\(\\ln b\\) utan gräns. Integralen <strong>divergerar</strong>.</p>",
     "id": "3.37",
     "miniräknare": false,
@@ -10071,7 +10544,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10093,7 +10567,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10116,7 +10591,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10138,7 +10614,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>En integral med övre gränsen \\(\\infty\\) är ett gränsvärde. Integrera först till en ändlig gräns \\(b\\).</p>"
   },
   {
     "kap": 3,
@@ -10161,7 +10638,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10184,7 +10662,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10208,7 +10687,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "ledtrad": "<p>En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10230,7 +10710,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10252,7 +10733,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10274,7 +10756,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10297,7 +10780,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10319,7 +10803,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10343,7 +10828,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "ledtrad": "<p>En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10365,7 +10851,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10387,7 +10874,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>En oändlig eller singulär integral beräknas som ett gränsvärde. Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10409,7 +10897,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10417,7 +10906,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "parameter vid noll",
     "poang": "0/2/0",
-    "t": "<p>För vilka reella \\(a\\) konvergerar</p><p>\\[\\int_0^1x^a\\,dx?\\]</p><p>Bestäm också integralens värde när den konvergerar.</p>",
+    "t": "<p>För vilka reella \\(a\\) konvergerar</p><p>\\[\\int_0^x^a\\,dx?\\]</p><p>Bestäm också integralens värde när den konvergerar.</p>",
     "s": "<p>För \\(a\\ne-1\\) är en primitiv funktion</p><p>\\[\\frac{x^{a+1}}{a+1}.\\]</p><p>Gränsvärdet vid 0 blir ändligt precis när \\(a+1\\gt 0\\), alltså när</p><p>\\[a\\gt -1.\\]</p><p>Då är</p><p>\\[\\int_0^1x^adx=\\left[\\frac{x^{a+1}}{a+1}\\right]_0^1=\\frac1{a+1}.\\]</p><p><strong>Konvergens för \\(a\\gt -1\\), med värdet \\(1/(a+1)\\).</strong></p>",
     "id": "3.109",
     "miniräknare": false,
@@ -10433,7 +10922,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Ersätt den oändliga eller problematiska integrationsgränsen med en parameter och skriv integralen som ett gränsvärde. Integralen konvergerar bara om detta gränsvärde är ändligt.</p>"
   },
   {
     "kap": 3,
@@ -10466,7 +10956,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "linjär approximation",
       "uppskattning"
-    ]
+    ],
+    "ledtrad": "<p>Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p>"
   },
   {
     "kap": 3,
@@ -10503,7 +10994,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "uppskattning",
       "för stor/för liten"
-    ]
+    ],
+    "ledtrad": "<p>Använd tangenten nära en punkt där funktionen är lätt att beräkna: \\(f(a+h)\\approx f(a)+f'(a)h\\).</p>"
   },
   {
     "kap": 3,
@@ -10525,7 +11017,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd tangenten nära en punkt där funktionen är lätt att beräkna: \\(f(a+h)\\approx f(a)+f'(a)h\\).</p>"
   },
   {
     "kap": 3,
@@ -10547,7 +11040,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd tangenten nära en punkt där funktionen är lätt att beräkna: \\(f(a+h)\\approx f(a)+f'(a)h\\).</p>"
   },
   {
     "kap": 3,
@@ -10569,7 +11063,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p>"
   },
   {
     "kap": 3,
@@ -10591,7 +11086,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p>"
   },
   {
     "kap": 3,
@@ -10613,7 +11109,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p>"
   },
   {
     "kap": 3,
@@ -10633,7 +11130,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Använd tangenten nära en punkt där funktionen är lätt att beräkna: \\(f(a+h)\\approx f(a)+f'(a)h\\).</p>"
   },
   {
     "kap": 3,
@@ -10655,7 +11153,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p>"
   },
   {
     "kap": 3,
@@ -10677,7 +11176,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p>"
   },
   {
     "kap": 3,
@@ -10710,7 +11210,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "linjär approximation",
       "uppskattning"
-    ]
+    ],
+    "ledtrad": "<p>Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p>"
   },
   {
     "kap": 3,
@@ -10732,7 +11233,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p>"
   },
   {
     "kap": 3,
@@ -10756,7 +11258,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -10764,7 +11267,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade förändringshastigheter ballong",
     "poang": "0/2/1",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ballong och cyklist\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"220\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"35\" y1=\"195\" x2=\"385\" y2=\"195\" stroke=\"#666\" stroke-width=\"2\"/>\n<ellipse cx=\"230\" cy=\"70\" rx=\"28\" ry=\"34\" fill=\"#f0c36d\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"104\" x2=\"230\" y2=\"130\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<rect x=\"220\" y=\"130\" width=\"20\" height=\"15\" fill=\"#d9a65e\" stroke=\"#916d1b\"/>\n<circle cx=\"302\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<circle cx=\"324\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<line x1=\"302\" y1=\"195\" x2=\"324\" y2=\"195\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"312\" y1=\"187\" x2=\"312\" y2=\"178\" stroke=\"#333\" stroke-width=\"2\"/>\n<circle cx=\"312\" cy=\"171\" r=\"6\" fill=\"#333\"/>\n<line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"122\" stroke=\"#999\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<line x1=\"230\" y1=\"195\" x2=\"312\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"230\" y2=\"195\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"312\" y2=\"195\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"265\" y=\"188\" font-size=\"15\">x</text>\n<text x=\"214\" y=\"168\" font-size=\"15\">y</text>\n<text x=\"270\" y=\"154\" font-size=\"15\">s</text>\n<line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"25\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"230,21 225,31 235,31\" fill=\"#8b1e3f\"/>\n<text x=\"238\" y=\"33\" font-size=\"12\">1,5 m/s</text>\n<line x1=\"334\" y1=\"195\" x2=\"354\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"358,195 348,190 348,200\" fill=\"#0e5d9e\"/>\n<text x=\"300\" y=\"181\" font-size=\"12\">6,0 m/s</text>\n<text x=\"239\" y=\"122\" font-size=\"13\">ballong</text>\n<text x=\"316\" y=\"166\" font-size=\"13\">cyklist</text>\n</svg></span><p>En ballong stiger lodrätt med 1,5 m/s. När den är 18 m över marken passerar en cyklist rakt under den och fortsätter horisontellt med 6,0 m/s.</p><p>Hur snabbt ökar avståndet mellan dem 4,0 s senare?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ballong och cyklist\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"220\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"35\" y1=\"195\" x2=\"385\" y2=\"195\" stroke=\"#666\" stroke-width=\"2\"/>\n<ellipse cx=\"230\" cy=\"70\" rx=\"28\" ry=\"34\" fill=\"#f0c36d\" stroke=\"#916db\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"104\" x2=\"230\" y2=\"130\" stroke=\"#916db\" stroke-width=\"2\"/>\n<rect x=\"220\" y=\"130\" width=\"20\" height=\"15\" fill=\"#d9a65e\" stroke=\"#916db\"/>\n<circle cx=\"302\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<circle cx=\"324\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<line x1=\"302\" y1=\"195\" x2=\"324\" y2=\"195\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"312\" y1=\"187\" x2=\"312\" y2=\"178\" stroke=\"#333\" stroke-width=\"2\"/>\n<circle cx=\"312\" cy=\"171\" r=\"6\" fill=\"#333\"/>\n<line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"122\" stroke=\"#999\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<line x1=\"230\" y1=\"195\" x2=\"312\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"230\" y2=\"195\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"312\" y2=\"195\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"265\" y=\"188\" font-size=\"15\">x</text>\n<text x=\"214\" y=\"168\" font-size=\"15\">y</text>\n<text x=\"270\" y=\"154\" font-size=\"15\">s</text>\n<line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"25\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"230,21 225,31 235,31\" fill=\"#8b1e3f\"/>\n<text x=\"238\" y=\"33\" font-size=\"12\">1,5 m/s</text>\n<line x1=\"334\" y1=\"195\" x2=\"354\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"358,195 348,190 348,200\" fill=\"#0e5d9e\"/>\n<text x=\"300\" y=\"181\" font-size=\"12\">6,0 m/s</text>\n<text x=\"239\" y=\"122\" font-size=\"13\">ballong</text>\n<text x=\"316\" y=\"166\" font-size=\"13\">cyklist</text>\n</svg></span><p>En ballong stiger lodrätt med 1,5 m/s. När den är 18 m över marken passerar en cyklist rakt under den och fortsätter horisontellt med 6,0 m/s.</p><p>Hur snabbt ökar avståndet mellan dem 4,0 s senare?</p>",
     "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till ballong och cyklist\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"220\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"35\" y1=\"195\" x2=\"385\" y2=\"195\" stroke=\"#666\" stroke-width=\"2\"/>\n<ellipse cx=\"230\" cy=\"70\" rx=\"28\" ry=\"34\" fill=\"#f0c36d\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"104\" x2=\"230\" y2=\"130\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<rect x=\"220\" y=\"130\" width=\"20\" height=\"15\" fill=\"#d9a65e\" stroke=\"#916d1b\"/>\n<circle cx=\"302\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<circle cx=\"324\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<line x1=\"302\" y1=\"195\" x2=\"324\" y2=\"195\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"312\" y1=\"187\" x2=\"312\" y2=\"178\" stroke=\"#333\" stroke-width=\"2\"/>\n<circle cx=\"312\" cy=\"171\" r=\"6\" fill=\"#333\"/>\n<line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"122\" stroke=\"#999\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<line x1=\"230\" y1=\"195\" x2=\"312\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"230\" y2=\"195\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"312\" y2=\"195\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"265\" y=\"188\" font-size=\"15\">x</text>\n<text x=\"214\" y=\"168\" font-size=\"15\">y</text>\n<text x=\"270\" y=\"154\" font-size=\"15\">s</text>\n<line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"25\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"230,21 225,31 235,31\" fill=\"#8b1e3f\"/>\n<text x=\"238\" y=\"33\" font-size=\"12\">1,5 m/s</text>\n<line x1=\"334\" y1=\"195\" x2=\"354\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"358,195 348,190 348,200\" fill=\"#0e5d9e\"/>\n<text x=\"300\" y=\"181\" font-size=\"12\">6,0 m/s</text>\n<text x=\"239\" y=\"122\" font-size=\"13\">ballong</text>\n<text x=\"316\" y=\"166\" font-size=\"13\">cyklist</text>\n</svg></span><p>Låt <strong>x</strong> vara cyklistens horisontella avstånd från punkten rakt under ballongen, <strong>y</strong> ballongens höjd över marken och <strong>s</strong> avståndet mellan ballongen och cyklisten.</p><p>Efter 4,0 s är</p><p>\\[x=6,0\\cdot4,0=24\\ \\text{m},\\qquad y=18+1,5\\cdot4,0=24\\ \\text{m}.\\]</p><p>Dessutom är \\(x'=6,0\\) m/s och \\(y'=1,5\\) m/s.</p><p>Pythagoras sats ger</p><p>\\[s^2=x^2+y^2.\\]</p><p>Derivera:</p><p>\\[ss'=xx'+yy'.\\]</p><p>När \\(x=y=24\\) blir</p><p>\\[s=\\sqrt{24^2+24^2}=24\\sqrt2.\\]</p><p>Sätt in:</p><p>\\[(24\\sqrt2)s'=24\\cdot6,0+24\\cdot1,5=180.\\]</p><p>Alltså</p><p>\\[s'=\\frac{180}{24\\sqrt2}=\\frac{7,5}{\\sqrt2}\\approx5,3.\\]</p><p><strong>Svar: avståndet ökar med ungefär \\(5,3\\ \\text{m/s}\\).</strong></p>",
     "id": "3.10",
     "miniräknare": true,
@@ -10780,7 +11283,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -10804,7 +11308,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Volymen ökar med \\(50\\) liter/min = \\(0,050\\ \\text{m}^3/\\text{min}\\).</p>"
   },
   {
     "kap": 3,
@@ -10828,7 +11333,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -10851,7 +11357,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -10875,7 +11382,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -10898,7 +11406,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -10920,7 +11429,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -10942,7 +11452,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -10964,7 +11475,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -10988,7 +11500,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -11010,7 +11523,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -11032,7 +11546,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett samband mellan de geometriska storheterna. Derivera sedan hela sambandet med avseende på tiden, så att varje storhet som förändras ger en tidsderivata, och sätt in det aktuella ögonblickets värden sist.</p>"
   },
   {
     "kap": 3,
@@ -11054,7 +11569,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv först ett samband mellan de geometriska storheterna. Derivera sedan hela sambandet med avseende på tiden, så att varje storhet som förändras ger en tidsderivata, och sätt in det aktuella ögonblickets värden sist.</p>"
   },
   {
     "kap": 3,
@@ -11078,7 +11594,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -11100,7 +11617,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -11122,7 +11640,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -11145,7 +11664,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -11167,7 +11687,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd tangenten nära en punkt där funktionen är lätt att beräkna: \\(f(a+h)\\approx f(a)+f'(a)h\\).</p>"
   },
   {
     "kap": 3,
@@ -11175,7 +11696,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterad förändringshastighet båt och rep",
     "poang": "0/3/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Båt som dras mot en kaj\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"300\" y=\"35\" width=\"34\" height=\"180\" rx=\"3\" fill=\"#d8dde6\" stroke=\"#8f98a3\"/>\n<rect x=\"35\" y=\"183\" width=\"265\" height=\"8\" rx=\"4\" fill=\"#82bfe9\"/>\n<polygon points=\"110,185 155,185 145,170 120,170\" fill=\"#9c5e2d\" stroke=\"#6b3b1a\"/>\n<line x1=\"300\" y1=\"70\" x2=\"145\" y2=\"170\" stroke=\"#b45f32\" stroke-width=\"2.6\"/>\n<line x1=\"145\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"300\" y1=\"170\" x2=\"300\" y2=\"70\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"163\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"311\" y=\"123\" font-size=\"14\" fill=\"#7f1f3d\">3 m</text>\n<text x=\"224\" y=\"113\" font-size=\"14\" fill=\"#7a3d19\">s</text>\n<line x1=\"169\" y1=\"177\" x2=\"150\" y2=\"177\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/>\n<polygon points=\"146,177 156,172 156,182\" fill=\"#2e8b57\"/>\n<text x=\"154\" y=\"195\" font-size=\"12\" fill=\"#2e8b57\">båten rör sig mot kajen</text>\n</svg></span><p>Ett rep går från toppen av en kaj ned till en båt. Fästpunkten på kajen ligger 3,0 m över vattenytan. Repet dras in med hastigheten 0,60 m/s.</p><p>Hur snabbt närmar sig båten kajen när den är 4,0 m från kajen?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Båt som dras mot en kaj\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"300\" y=\"35\" width=\"34\" height=\"180\" rx=\"3\" fill=\"#d8dde6\" stroke=\"#8f98a3\"/>\n<rect x=\"35\" y=\"183\" width=\"265\" height=\"8\" rx=\"4\" fill=\"#82bfe9\"/>\n<polygon points=\"110,185 155,185 145,170 120,170\" fill=\"#9c5e2d\" stroke=\"#6b3ba\"/>\n<line x1=\"300\" y1=\"70\" x2=\"145\" y2=\"170\" stroke=\"#b45f32\" stroke-width=\"2.6\"/>\n<line x1=\"145\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"300\" y1=\"170\" x2=\"300\" y2=\"70\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"163\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"311\" y=\"123\" font-size=\"14\" fill=\"#7f1f3d\">3 m</text>\n<text x=\"224\" y=\"113\" font-size=\"14\" fill=\"#7a3d19\">s</text>\n<line x1=\"169\" y1=\"177\" x2=\"150\" y2=\"177\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/>\n<polygon points=\"146,177 156,172 156,182\" fill=\"#2e8b57\"/>\n<text x=\"154\" y=\"195\" font-size=\"12\" fill=\"#2e8b57\">båten rör sig mot kajen</text>\n</svg></span><p>Ett rep går från toppen av en kaj ned till en båt. Fästpunkten på kajen ligger 3,0 m över vattenytan. Repet dras in med hastigheten 0,60 m/s.</p><p>Hur snabbt närmar sig båten kajen när den är 4,0 m från kajen?</p>",
     "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till båt och rep\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"300\" y=\"35\" width=\"34\" height=\"180\" rx=\"3\" fill=\"#d8dde6\" stroke=\"#8f98a3\"/>\n<rect x=\"35\" y=\"183\" width=\"265\" height=\"8\" rx=\"4\" fill=\"#82bfe9\"/>\n<polygon points=\"110,185 155,185 145,170 120,170\" fill=\"#9c5e2d\" stroke=\"#6b3b1a\"/>\n<line x1=\"300\" y1=\"70\" x2=\"145\" y2=\"170\" stroke=\"#b45f32\" stroke-width=\"2.6\"/>\n<line x1=\"145\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"300\" y1=\"170\" x2=\"300\" y2=\"70\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"163\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"311\" y=\"123\" font-size=\"14\" fill=\"#7f1f3d\">3 m</text>\n<text x=\"224\" y=\"113\" font-size=\"14\" fill=\"#7a3d19\">s</text>\n<line x1=\"169\" y1=\"177\" x2=\"150\" y2=\"177\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/>\n<polygon points=\"146,177 156,172 156,182\" fill=\"#2e8b57\"/>\n<text x=\"154\" y=\"195\" font-size=\"12\" fill=\"#2e8b57\">båten rör sig mot kajen</text>\n</svg></span><p>Låt \\(x\\) vara båtens horisontella avstånd till kajen och \\(s\\) repets längd.</p><p>Av figuren gäller Pythagoras sats:</p><p>\\[s^2=x^2+3^2=x^2+9.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[2ss'=2xx'\\quad\\Rightarrow\\quad ss'=xx'.\\]</p><p>När \\(x=4,0\\) m är</p><p>\\[s=\\sqrt{4^2+3^2}=5,0\\ \\text{m}.\\]</p><p>Repet blir kortare, alltså är \\(s'=-0,60\\) m/s.</p><p>Sätt in:</p><p>\\[5,0\\cdot(-0,60)=4,0x'.\\]</p><p>Det ger</p><p>\\[x'=-0,75\\ \\text{m/s}.\\]</p><p>Minustecknet visar att avståndet minskar.</p><p><strong>Svar: båten närmar sig kajen med \\(0,75\\ \\text{m/s}\\).</strong></p>",
     "id": "3.100",
     "miniräknare": true,
@@ -11191,7 +11712,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -11214,7 +11736,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "kap": 3,
@@ -11239,7 +11762,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Bestäm först var området börjar och slutar och vilken graf som ligger överst. Arean fås sedan genom att integrera ”övre funktion minus undre funktion”; delar under \\(x\\)-axeln måste behandlas med positiv area.</p>"
   },
   {
     "kap": 3,
@@ -11263,7 +11787,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "bråk",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Dela problemet i två lager: identifiera först vilken derivata- eller integralidé som beskriver situationen, och skriv sedan det samband som gör att de givna villkoren kan användas. Räkna först när modellen är tydlig.</p>"
   },
   {
     "kap": 3,
@@ -11287,7 +11812,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Dela problemet i två lager: identifiera först vilken derivata- eller integralidé som beskriver situationen, och skriv sedan det samband som gör att de givna villkoren kan användas. Räkna först när modellen är tydlig.</p>"
   },
   {
     "kap": 3,
@@ -11311,7 +11837,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "bråk",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Dela problemet i två lager: identifiera först vilken derivata- eller integralidé som beskriver situationen, och skriv sedan det samband som gör att de givna villkoren kan användas. Räkna först när modellen är tydlig.</p>"
   },
   {
     "kap": 3,
@@ -11332,7 +11859,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>En funktions medelvärde på \\([a,b]\\) är arean med tecken under grafen delad med intervallets längd: \\(f_{med}=\\frac1{b-a}\\int_a^b f(x)\\,dx\\).</p>"
   },
   {
     "kap": 3,
@@ -11356,7 +11884,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "bråk",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Bestäm först var området börjar och slutar och vilken graf som ligger överst. Arean fås sedan genom att integrera ”övre funktion minus undre funktion”; delar under \\(x\\)-axeln måste behandlas med positiv area.</p>"
   },
   {
     "kap": 3,
@@ -11381,7 +11910,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Dela problemet i två lager: identifiera först vilken derivata- eller integralidé som beskriver situationen, och skriv sedan det samband som gör att de givna villkoren kan användas. Räkna först när modellen är tydlig.</p>"
   },
   {
     "kap": 3,
@@ -11404,7 +11934,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Bestäm först var området börjar och slutar och vilken graf som ligger överst. Arean fås sedan genom att integrera ”övre funktion minus undre funktion”; delar under \\(x\\)-axeln måste behandlas med positiv area.</p>"
   },
   {
     "kap": 3,
@@ -11428,7 +11959,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Kontrollera först vad det digitala eller algebraiska resultatet faktiskt betyder och vilka villkor som gäller. Ett numeriskt eller symboliskt svar är bara användbart om det stämmer med funktionens definitionsmängd och problemets geometriska eller analytiska innebörd.</p>"
   },
   {
     "kap": 3,
@@ -11452,7 +11984,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Dela problemet i två lager: identifiera först vilken derivata- eller integralidé som beskriver situationen, och skriv sedan det samband som gör att de givna villkoren kan användas. Räkna först när modellen är tydlig.</p>"
   },
   {
     "kap": 3,
@@ -11475,7 +12008,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Kontrollera först vad det digitala eller algebraiska resultatet faktiskt betyder och vilka villkor som gäller. Ett numeriskt eller symboliskt svar är bara användbart om det stämmer med funktionens definitionsmängd och problemets geometriska eller analytiska innebörd.</p>"
   },
   {
     "kap": 3,
@@ -11498,7 +12032,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Dela problemet i två lager: identifiera först vilken derivata- eller integralidé som beskriver situationen, och skriv sedan det samband som gör att de givna villkoren kan användas. Räkna först när modellen är tydlig.</p>"
   },
   {
     "kap": 3,
@@ -11520,7 +12055,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>En generaliserad integral måste behandlas som ett gränsvärde:</p>"
   },
   {
     "kap": 3,
@@ -11542,7 +12078,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Integranden går mot oändligheten när \\(x\\to1\\). Integralen måste därför delas upp:</p>"
   },
   {
     "kap": 3,
@@ -11565,7 +12102,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Dela problemet i två lager: identifiera först vilken derivata- eller integralidé som beskriver situationen, och skriv sedan det samband som gör att de givna villkoren kan användas. Räkna först när modellen är tydlig.</p>"
   },
   {
     "kap": 3,
@@ -11588,7 +12126,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Kontrollera först vad det digitala eller algebraiska resultatet faktiskt betyder och vilka villkor som gäller. Ett numeriskt eller symboliskt svar är bara användbart om det stämmer med funktionens definitionsmängd och problemets geometriska eller analytiska innebörd.</p>"
   },
   {
     "kap": 3,
@@ -11610,7 +12149,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>För reella \\(x\\) gäller \\(\\sqrt{x^2}=|x|\\), inte alltid \\(x\\). Om \\(x\\lt0\\) är \\(|x|=-x\\).</p>"
   },
   {
     "kap": 3,
@@ -11632,7 +12172,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Kontrollera först vad det digitala eller algebraiska resultatet faktiskt betyder och vilka villkor som gäller. Ett numeriskt eller symboliskt svar är bara användbart om det stämmer med funktionens definitionsmängd och problemets geometriska eller analytiska innebörd.</p>"
   },
   {
     "kap": 3,
@@ -11654,7 +12195,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Kontrollera först vad det digitala eller algebraiska resultatet faktiskt betyder och vilka villkor som gäller. Ett numeriskt eller symboliskt svar är bara användbart om det stämmer med funktionens definitionsmängd och problemets geometriska eller analytiska innebörd.</p>"
   },
   {
     "kap": 3,
@@ -11676,7 +12218,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Här blir ingen av faktorerna enklare när man deriverar. Efter två partiella integrationer dyker den ursprungliga integralen upp igen, och då kan man lösa ut den som en obekant.</p>"
   },
   {
     "kap": 3,
@@ -11697,7 +12240,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Idé: Precis som för \\(\\int\\ln x\\,dx\\) finns ingen synlig andra faktor. Skriv därför integranden som \\(1\\cdot(\\ln x)^2\\) och låt \\(dv=dx\\).</p>"
   },
   {
     "kap": 3,
@@ -11718,7 +12262,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\).</p>"
   },
   {
     "kap": 3,
@@ -11739,7 +12284,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -11747,7 +12293,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "integral av logaritm med faktor",
     "poang": "2/0/0",
-    "t": "<p>Bestäm \\(\\int\\ln(3x)\\,dx\\) för \\(x>0\\).</p>",
+    "t": "<p>Bestäm \\(\\int\\ln(3x)\\,dx\\) för \\(x\\gt 0\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p><p>Skriv integranden som \\(1\\cdot\\ln(3x)\\). Välj \\(u=\\ln(3x)\\) och \\(dv=dx\\). Då är \\(du=\\frac1x dx\\) och \\(v=x\\).</p><p>\\[\\int\\ln(3x)dx=x\\ln(3x)-\\int1\\,dx.\\]</p><p><strong>\\[x\\ln(3x)-x+C.\\]</strong></p>",
     "id": "3.92",
     "miniräknare": false,
@@ -11760,7 +12306,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -11781,7 +12328,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p>"
   },
   {
     "kap": 3,
@@ -11802,7 +12350,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\).</p>"
   },
   {
     "kap": 3,
@@ -11823,7 +12372,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\).</p>"
   },
   {
     "kap": 3,
@@ -11831,7 +12381,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "partiell integration polynom gånger logaritm",
     "poang": "0/2/0",
-    "t": "<p>Bestäm \\(\\int x\\ln(2x)\\,dx\\) för \\(x>0\\).</p>",
+    "t": "<p>Bestäm \\(\\int x\\ln(2x)\\,dx\\) för \\(x\\gt 0\\).</p>",
     "s": "<p>Välj \\(u=\\ln(2x)\\) och \\(dv=x\\,dx\\). Då är \\(du=\\frac1x dx\\) och \\(v=\\frac{x^2}{2}\\).</p><p>\\[\\int x\\ln(2x)dx=\\frac{x^2}{2}\\ln(2x)-\\frac12\\int xdx\\]</p><p><strong>\\[=\\frac{x^2}{2}\\ln(2x)-\\frac{x^2}{4}+C.\\]</strong></p>",
     "id": "3.96",
     "miniräknare": false,
@@ -11844,7 +12394,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\).</p>"
   },
   {
     "kap": 3,
@@ -11865,7 +12416,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Välj \\(u\\) så att det blir enklare när det deriveras och \\(dv\\) så att det är lätt att integrera. Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\).</p>"
   },
   {
     "kap": 3,
@@ -11889,7 +12441,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>a) Det högra hörnet ligger i \\((x,\\,12-x^2)\\). Eftersom rektangeln är symmetrisk kring \\(y\\)-axeln är bredden \\(2x\\) och höjden \\(12-x^2\\).</p>"
   },
   {
     "kap": 3,
@@ -11934,15 +12487,18 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Området mellan linjen y lika med 2x och parabeln y lika med x kvadrat mellan skärningspunkterna\">\n<rect width=\"440\" height=\"300\" fill=\"white\"/>\n<path d=\"M 90.0,240.0 L 92.0,238.5 L 93.9,236.9 L 95.9,235.4 L 97.9,233.9 L 99.8,232.3 L 101.8,230.8 L 103.8,229.3 L 105.7,227.7 L 107.7,226.2 L 109.7,224.7 L 111.6,223.1 L 113.6,221.6 L 115.6,220.1 L 117.5,218.5 L 119.5,217.0 L 121.5,215.5 L 123.4,213.9 L 125.4,212.4 L 127.4,210.9 L 129.3,209.3 L 131.3,207.8 L 133.3,206.3 L 135.2,204.7 L 137.2,203.2 L 139.2,201.7 L 141.1,200.1 L 143.1,198.6 L 145.1,197.1 L 147.0,195.5 L 149.0,194.0 L 151.0,192.5 L 152.9,190.9 L 154.9,189.4 L 156.9,187.9 L 158.8,186.3 L 160.8,184.8 L 162.8,183.3 L 164.7,181.7 L 166.7,180.2 L 168.7,178.7 L 170.6,177.1 L 172.6,175.6 L 174.6,174.1 L 176.5,172.5 L 178.5,171.0 L 180.5,169.5 L 182.4,167.9 L 184.4,166.4 L 186.4,164.9 L 188.3,163.3 L 190.3,161.8 L 192.3,160.3 L 194.2,158.7 L 196.2,157.2 L 198.2,155.7 L 200.1,154.1 L 202.1,152.6 L 204.1,151.1 L 206.0,149.5 L 208.0,148.0 L 210.0,146.5 L 211.9,144.9 L 213.9,143.4 L 215.9,141.9 L 217.8,140.3 L 219.8,138.8 L 221.8,137.3 L 223.7,135.7 L 225.7,134.2 L 227.7,132.7 L 229.6,131.1 L 231.6,129.6 L 233.6,128.1 L 235.5,126.5 L 237.5,125.0 L 239.5,123.5 L 241.4,121.9 L 243.4,120.4 L 245.4,118.9 L 247.3,117.3 L 249.3,115.8 L 251.3,114.3 L 253.2,112.7 L 255.2,111.2 L 257.2,109.7 L 259.1,108.1 L 261.1,106.6 L 263.1,105.1 L 265.0,103.5 L 267.0,102.0 L 269.0,100.5 L 270.9,98.9 L 272.9,97.4 L 274.9,95.9 L 276.8,94.3 L 278.8,92.8 L 280.8,91.3 L 282.7,89.7 L 284.7,88.2 L 286.7,86.7 L 288.6,85.1 L 290.6,83.6 L 292.6,82.1 L 294.5,80.5 L 296.5,79.0 L 298.5,77.5 L 300.4,75.9 L 302.4,74.4 L 304.4,72.9 L 306.3,71.3 L 308.3,69.8 L 310.3,68.3 L 312.2,66.7 L 314.2,65.2 L 316.2,63.7 L 318.1,62.1 L 320.1,60.6 L 322.1,59.1 L 324.0,57.5 L 326.0,56.0 L 326.0,56.0 L 324.0,59.1 L 322.1,62.1 L 320.1,65.1 L 318.1,68.1 L 316.2,71.0 L 314.2,73.9 L 312.2,76.8 L 310.3,79.7 L 308.3,82.6 L 306.3,85.4 L 304.4,88.2 L 302.4,91.0 L 300.4,93.7 L 298.5,96.4 L 296.5,99.1 L 294.5,101.8 L 292.6,104.4 L 290.6,107.1 L 288.6,109.7 L 286.7,112.2 L 284.7,114.8 L 282.7,117.3 L 280.8,119.8 L 278.8,122.2 L 276.8,124.7 L 274.9,127.1 L 272.9,129.5 L 270.9,131.8 L 269.0,134.2 L 267.0,136.5 L 265.0,138.8 L 263.1,141.0 L 261.1,143.3 L 259.1,145.5 L 257.2,147.7 L 255.2,149.8 L 253.2,152.0 L 251.3,154.1 L 249.3,156.2 L 247.3,158.2 L 245.4,160.3 L 243.4,162.3 L 241.4,164.2 L 239.5,166.2 L 237.5,168.1 L 235.5,170.0 L 233.6,171.9 L 231.6,173.8 L 229.6,175.6 L 227.7,177.4 L 225.7,179.2 L 223.7,180.9 L 221.8,182.6 L 219.8,184.3 L 217.8,186.0 L 215.9,187.7 L 213.9,189.3 L 211.9,190.9 L 210.0,192.5 L 208.0,194.0 L 206.0,195.5 L 204.1,197.0 L 202.1,198.5 L 200.1,199.9 L 198.2,201.3 L 196.2,202.7 L 194.2,204.1 L 192.3,205.4 L 190.3,206.8 L 188.3,208.1 L 186.4,209.3 L 184.4,210.6 L 182.4,211.8 L 180.5,213.0 L 178.5,214.1 L 176.5,215.3 L 174.6,216.4 L 172.6,217.5 L 170.6,218.5 L 168.7,219.6 L 166.7,220.6 L 164.7,221.5 L 162.8,222.5 L 160.8,223.4 L 158.8,224.3 L 156.9,225.2 L 154.9,226.1 L 152.9,226.9 L 151.0,227.7 L 149.0,228.5 L 147.0,229.3 L 145.1,230.0 L 143.1,230.7 L 141.1,231.4 L 139.2,232.0 L 137.2,232.6 L 135.2,233.2 L 133.3,233.8 L 131.3,234.4 L 129.3,234.9 L 127.4,235.4 L 125.4,235.9 L 123.4,236.3 L 121.5,236.7 L 119.5,237.1 L 117.5,237.5 L 115.6,237.8 L 113.6,238.2 L 111.6,238.5 L 109.7,238.7 L 107.7,239.0 L 105.7,239.2 L 103.8,239.4 L 101.8,239.5 L 99.8,239.7 L 97.9,239.8 L 95.9,239.9 L 93.9,239.9 L 92.0,240.0 L 90.0,240.0 Z\" fill=\"#2C62A8\" fill-opacity=\".18\"/>\n<path d=\"M 42.8,232.6 L 45.8,233.5 L 48.7,234.4 L 51.6,235.1 L 54.6,235.9 L 57.5,236.5 L 60.5,237.1 L 63.5,237.7 L 66.4,238.2 L 69.3,238.6 L 72.3,239.0 L 75.2,239.3 L 78.2,239.5 L 81.2,239.7 L 84.1,239.9 L 87.0,240.0 L 90.0,240.0 L 93.0,240.0 L 95.9,239.9 L 98.8,239.7 L 101.8,239.5 L 104.8,239.3 L 107.7,239.0 L 110.7,238.6 L 113.6,238.2 L 116.5,237.7 L 119.5,237.1 L 122.5,236.5 L 125.4,235.9 L 128.3,235.1 L 131.3,234.4 L 134.2,233.5 L 137.2,232.6 L 140.2,231.7 L 143.1,230.7 L 146.1,229.6 L 149.0,228.5 L 151.9,227.3 L 154.9,226.1 L 157.8,224.8 L 160.8,223.4 L 163.8,222.0 L 166.7,220.6 L 169.7,219.0 L 172.6,217.5 L 175.6,215.8 L 178.5,214.1 L 181.4,212.4 L 184.4,210.6 L 187.3,208.7 L 190.3,206.8 L 193.2,204.8 L 196.2,202.7 L 199.2,200.6 L 202.1,198.5 L 205.1,196.3 L 208.0,194.0 L 210.9,191.7 L 213.9,189.3 L 216.8,186.8 L 219.8,184.3 L 222.8,181.8 L 225.7,179.2 L 228.7,176.5 L 231.6,173.8 L 234.6,171.0 L 237.5,168.1 L 240.4,165.2 L 243.4,162.3 L 246.3,159.2 L 249.3,156.2 L 252.2,153.0 L 255.2,149.8 L 258.1,146.6 L 261.1,143.3 L 264.1,139.9 L 267.0,136.5 L 269.9,133.0 L 272.9,129.5 L 275.9,125.9 L 278.8,122.2 L 281.8,118.5 L 284.7,114.8 L 287.6,110.9 L 290.6,107.1 L 293.6,103.1 L 296.5,99.1 L 299.4,95.1 L 302.4,91.0 L 305.4,86.8 L 308.3,82.6 L 311.2,78.3 L 314.2,73.9 L 317.1,69.5 L 320.1,65.1 L 323.1,60.6 L 326.0,56.0 L 328.9,51.4 L 331.9,46.7 L 334.9,41.9 L 337.8,37.1 L 340.8,32.3 L 343.7,27.4 L 346.6,22.4 L 349.6,17.4 L 352.6,12.3 L 355.5,7.1 L 358.4,1.9 L 361.4,-3.3 L 364.4,-8.7 L 367.3,-14.0 L 370.2,-19.5 L 373.2,-25.0 L 376.1,-30.5 L 379.1,-36.1 L 382.1,-41.8 L 385.0,-47.5 L 387.9,-53.3 L 390.9,-59.1 L 393.9,-65.0 L 396.8,-71.0 L 399.8,-77.0 L 402.7,-83.0 L 405.6,-89.2 L 408.6,-95.3 L 411.6,-101.6 L 414.5,-107.9 L 417.4,-114.2 L 420.4,-120.6\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.4\"/>\n<path d=\"M 42.8,276.8 L 408.6,-8.4\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.4\"/>\n<line x1=\"55\" y1=\"240\" x2=\"410\" y2=\"240\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"90\" y1=\"30\" x2=\"90\" y2=\"256\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"208\" y1=\"240\" x2=\"208\" y2=\"245\" stroke=\"#222\"/><text x=\"208\" y=\"260\" font-size=\"12.5\" text-anchor=\"middle\">1</text><line x1=\"326\" y1=\"240\" x2=\"326\" y2=\"245\" stroke=\"#222\"/><text x=\"326\" y=\"260\" font-size=\"12.5\" text-anchor=\"middle\">2</text><line x1=\"85\" y1=\"194\" x2=\"95\" y2=\"194\" stroke=\"#222\"/><text x=\"80\" y=\"199\" font-size=\"12.5\" text-anchor=\"end\">1</text><line x1=\"85\" y1=\"148\" x2=\"95\" y2=\"148\" stroke=\"#222\"/><text x=\"80\" y=\"153\" font-size=\"12.5\" text-anchor=\"end\">2</text><line x1=\"85\" y1=\"102\" x2=\"95\" y2=\"102\" stroke=\"#222\"/><text x=\"80\" y=\"107\" font-size=\"12.5\" text-anchor=\"end\">3</text><line x1=\"85\" y1=\"56\" x2=\"95\" y2=\"56\" stroke=\"#222\"/><text x=\"80\" y=\"61\" font-size=\"12.5\" text-anchor=\"end\">4</text>\n<circle cx=\"90.0\" cy=\"240.0\" r=\"5\" fill=\"#B23A2E\"/>\n<circle cx=\"326.0\" cy=\"56.0\" r=\"5\" fill=\"#B23A2E\"/>\n<text x=\"338\" y=\"58\" font-size=\"14\" fill=\"#B23A2E\">(2, 4)</text>\n<text x=\"330\" y=\"200\" font-size=\"15\" fill=\"#222\">y = x²</text>\n<text x=\"226\" y=\"51\" font-size=\"15\" fill=\"#2E7D52\">y = 2x</text>\n<text x=\"408\" y=\"245\" font-size=\"14\">x</text>\n</svg></span><p>Området begränsas av linjen \\(y=2x\\) och parabeln \\(y=x^2\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm skärningspunkterna.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Bestäm först var området börjar och slutar och vilken graf som ligger överst. Arean fås sedan genom att integrera ”övre funktion minus undre funktion”; delar under \\(x\\)-axeln måste behandlas med positiv area.</p><div class=\"spel-en-del\"><strong>a)</strong>  Kurvorna skär varandra där funktionsvärdena är lika:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Bestäm först var området börjar och slutar och vilken graf som ligger överst. Arean fås sedan genom att integrera ”övre funktion minus undre funktion”; delar under \\(x\\)-axeln måste behandlas med positiv area.</p><div class=\"spel-en-del\"><strong>a)</strong>  Kurvorna skär varandra där funktionsvärdena är lika:</div>",
+        "ledtrad": "<p>Bestäm först var området börjar och slutar och vilken graf som ligger överst. Arean fås sedan genom att integrera ”övre funktion minus undre funktion”; delar under \\(x\\)-axeln måste behandlas med positiv area.</p>"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Området mellan linjen y lika med 2x och parabeln y lika med x kvadrat mellan skärningspunkterna\">\n<rect width=\"440\" height=\"300\" fill=\"white\"/>\n<path d=\"M 90.0,240.0 L 92.0,238.5 L 93.9,236.9 L 95.9,235.4 L 97.9,233.9 L 99.8,232.3 L 101.8,230.8 L 103.8,229.3 L 105.7,227.7 L 107.7,226.2 L 109.7,224.7 L 111.6,223.1 L 113.6,221.6 L 115.6,220.1 L 117.5,218.5 L 119.5,217.0 L 121.5,215.5 L 123.4,213.9 L 125.4,212.4 L 127.4,210.9 L 129.3,209.3 L 131.3,207.8 L 133.3,206.3 L 135.2,204.7 L 137.2,203.2 L 139.2,201.7 L 141.1,200.1 L 143.1,198.6 L 145.1,197.1 L 147.0,195.5 L 149.0,194.0 L 151.0,192.5 L 152.9,190.9 L 154.9,189.4 L 156.9,187.9 L 158.8,186.3 L 160.8,184.8 L 162.8,183.3 L 164.7,181.7 L 166.7,180.2 L 168.7,178.7 L 170.6,177.1 L 172.6,175.6 L 174.6,174.1 L 176.5,172.5 L 178.5,171.0 L 180.5,169.5 L 182.4,167.9 L 184.4,166.4 L 186.4,164.9 L 188.3,163.3 L 190.3,161.8 L 192.3,160.3 L 194.2,158.7 L 196.2,157.2 L 198.2,155.7 L 200.1,154.1 L 202.1,152.6 L 204.1,151.1 L 206.0,149.5 L 208.0,148.0 L 210.0,146.5 L 211.9,144.9 L 213.9,143.4 L 215.9,141.9 L 217.8,140.3 L 219.8,138.8 L 221.8,137.3 L 223.7,135.7 L 225.7,134.2 L 227.7,132.7 L 229.6,131.1 L 231.6,129.6 L 233.6,128.1 L 235.5,126.5 L 237.5,125.0 L 239.5,123.5 L 241.4,121.9 L 243.4,120.4 L 245.4,118.9 L 247.3,117.3 L 249.3,115.8 L 251.3,114.3 L 253.2,112.7 L 255.2,111.2 L 257.2,109.7 L 259.1,108.1 L 261.1,106.6 L 263.1,105.1 L 265.0,103.5 L 267.0,102.0 L 269.0,100.5 L 270.9,98.9 L 272.9,97.4 L 274.9,95.9 L 276.8,94.3 L 278.8,92.8 L 280.8,91.3 L 282.7,89.7 L 284.7,88.2 L 286.7,86.7 L 288.6,85.1 L 290.6,83.6 L 292.6,82.1 L 294.5,80.5 L 296.5,79.0 L 298.5,77.5 L 300.4,75.9 L 302.4,74.4 L 304.4,72.9 L 306.3,71.3 L 308.3,69.8 L 310.3,68.3 L 312.2,66.7 L 314.2,65.2 L 316.2,63.7 L 318.1,62.1 L 320.1,60.6 L 322.1,59.1 L 324.0,57.5 L 326.0,56.0 L 326.0,56.0 L 324.0,59.1 L 322.1,62.1 L 320.1,65.1 L 318.1,68.1 L 316.2,71.0 L 314.2,73.9 L 312.2,76.8 L 310.3,79.7 L 308.3,82.6 L 306.3,85.4 L 304.4,88.2 L 302.4,91.0 L 300.4,93.7 L 298.5,96.4 L 296.5,99.1 L 294.5,101.8 L 292.6,104.4 L 290.6,107.1 L 288.6,109.7 L 286.7,112.2 L 284.7,114.8 L 282.7,117.3 L 280.8,119.8 L 278.8,122.2 L 276.8,124.7 L 274.9,127.1 L 272.9,129.5 L 270.9,131.8 L 269.0,134.2 L 267.0,136.5 L 265.0,138.8 L 263.1,141.0 L 261.1,143.3 L 259.1,145.5 L 257.2,147.7 L 255.2,149.8 L 253.2,152.0 L 251.3,154.1 L 249.3,156.2 L 247.3,158.2 L 245.4,160.3 L 243.4,162.3 L 241.4,164.2 L 239.5,166.2 L 237.5,168.1 L 235.5,170.0 L 233.6,171.9 L 231.6,173.8 L 229.6,175.6 L 227.7,177.4 L 225.7,179.2 L 223.7,180.9 L 221.8,182.6 L 219.8,184.3 L 217.8,186.0 L 215.9,187.7 L 213.9,189.3 L 211.9,190.9 L 210.0,192.5 L 208.0,194.0 L 206.0,195.5 L 204.1,197.0 L 202.1,198.5 L 200.1,199.9 L 198.2,201.3 L 196.2,202.7 L 194.2,204.1 L 192.3,205.4 L 190.3,206.8 L 188.3,208.1 L 186.4,209.3 L 184.4,210.6 L 182.4,211.8 L 180.5,213.0 L 178.5,214.1 L 176.5,215.3 L 174.6,216.4 L 172.6,217.5 L 170.6,218.5 L 168.7,219.6 L 166.7,220.6 L 164.7,221.5 L 162.8,222.5 L 160.8,223.4 L 158.8,224.3 L 156.9,225.2 L 154.9,226.1 L 152.9,226.9 L 151.0,227.7 L 149.0,228.5 L 147.0,229.3 L 145.1,230.0 L 143.1,230.7 L 141.1,231.4 L 139.2,232.0 L 137.2,232.6 L 135.2,233.2 L 133.3,233.8 L 131.3,234.4 L 129.3,234.9 L 127.4,235.4 L 125.4,235.9 L 123.4,236.3 L 121.5,236.7 L 119.5,237.1 L 117.5,237.5 L 115.6,237.8 L 113.6,238.2 L 111.6,238.5 L 109.7,238.7 L 107.7,239.0 L 105.7,239.2 L 103.8,239.4 L 101.8,239.5 L 99.8,239.7 L 97.9,239.8 L 95.9,239.9 L 93.9,239.9 L 92.0,240.0 L 90.0,240.0 Z\" fill=\"#2C62A8\" fill-opacity=\".18\"/>\n<path d=\"M 42.8,232.6 L 45.8,233.5 L 48.7,234.4 L 51.6,235.1 L 54.6,235.9 L 57.5,236.5 L 60.5,237.1 L 63.5,237.7 L 66.4,238.2 L 69.3,238.6 L 72.3,239.0 L 75.2,239.3 L 78.2,239.5 L 81.2,239.7 L 84.1,239.9 L 87.0,240.0 L 90.0,240.0 L 93.0,240.0 L 95.9,239.9 L 98.8,239.7 L 101.8,239.5 L 104.8,239.3 L 107.7,239.0 L 110.7,238.6 L 113.6,238.2 L 116.5,237.7 L 119.5,237.1 L 122.5,236.5 L 125.4,235.9 L 128.3,235.1 L 131.3,234.4 L 134.2,233.5 L 137.2,232.6 L 140.2,231.7 L 143.1,230.7 L 146.1,229.6 L 149.0,228.5 L 151.9,227.3 L 154.9,226.1 L 157.8,224.8 L 160.8,223.4 L 163.8,222.0 L 166.7,220.6 L 169.7,219.0 L 172.6,217.5 L 175.6,215.8 L 178.5,214.1 L 181.4,212.4 L 184.4,210.6 L 187.3,208.7 L 190.3,206.8 L 193.2,204.8 L 196.2,202.7 L 199.2,200.6 L 202.1,198.5 L 205.1,196.3 L 208.0,194.0 L 210.9,191.7 L 213.9,189.3 L 216.8,186.8 L 219.8,184.3 L 222.8,181.8 L 225.7,179.2 L 228.7,176.5 L 231.6,173.8 L 234.6,171.0 L 237.5,168.1 L 240.4,165.2 L 243.4,162.3 L 246.3,159.2 L 249.3,156.2 L 252.2,153.0 L 255.2,149.8 L 258.1,146.6 L 261.1,143.3 L 264.1,139.9 L 267.0,136.5 L 269.9,133.0 L 272.9,129.5 L 275.9,125.9 L 278.8,122.2 L 281.8,118.5 L 284.7,114.8 L 287.6,110.9 L 290.6,107.1 L 293.6,103.1 L 296.5,99.1 L 299.4,95.1 L 302.4,91.0 L 305.4,86.8 L 308.3,82.6 L 311.2,78.3 L 314.2,73.9 L 317.1,69.5 L 320.1,65.1 L 323.1,60.6 L 326.0,56.0 L 328.9,51.4 L 331.9,46.7 L 334.9,41.9 L 337.8,37.1 L 340.8,32.3 L 343.7,27.4 L 346.6,22.4 L 349.6,17.4 L 352.6,12.3 L 355.5,7.1 L 358.4,1.9 L 361.4,-3.3 L 364.4,-8.7 L 367.3,-14.0 L 370.2,-19.5 L 373.2,-25.0 L 376.1,-30.5 L 379.1,-36.1 L 382.1,-41.8 L 385.0,-47.5 L 387.9,-53.3 L 390.9,-59.1 L 393.9,-65.0 L 396.8,-71.0 L 399.8,-77.0 L 402.7,-83.0 L 405.6,-89.2 L 408.6,-95.3 L 411.6,-101.6 L 414.5,-107.9 L 417.4,-114.2 L 420.4,-120.6\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.4\"/>\n<path d=\"M 42.8,276.8 L 408.6,-8.4\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.4\"/>\n<line x1=\"55\" y1=\"240\" x2=\"410\" y2=\"240\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"90\" y1=\"30\" x2=\"90\" y2=\"256\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"208\" y1=\"240\" x2=\"208\" y2=\"245\" stroke=\"#222\"/><text x=\"208\" y=\"260\" font-size=\"12.5\" text-anchor=\"middle\">1</text><line x1=\"326\" y1=\"240\" x2=\"326\" y2=\"245\" stroke=\"#222\"/><text x=\"326\" y=\"260\" font-size=\"12.5\" text-anchor=\"middle\">2</text><line x1=\"85\" y1=\"194\" x2=\"95\" y2=\"194\" stroke=\"#222\"/><text x=\"80\" y=\"199\" font-size=\"12.5\" text-anchor=\"end\">1</text><line x1=\"85\" y1=\"148\" x2=\"95\" y2=\"148\" stroke=\"#222\"/><text x=\"80\" y=\"153\" font-size=\"12.5\" text-anchor=\"end\">2</text><line x1=\"85\" y1=\"102\" x2=\"95\" y2=\"102\" stroke=\"#222\"/><text x=\"80\" y=\"107\" font-size=\"12.5\" text-anchor=\"end\">3</text><line x1=\"85\" y1=\"56\" x2=\"95\" y2=\"56\" stroke=\"#222\"/><text x=\"80\" y=\"61\" font-size=\"12.5\" text-anchor=\"end\">4</text>\n<circle cx=\"90.0\" cy=\"240.0\" r=\"5\" fill=\"#B23A2E\"/>\n<circle cx=\"326.0\" cy=\"56.0\" r=\"5\" fill=\"#B23A2E\"/>\n<text x=\"338\" y=\"58\" font-size=\"14\" fill=\"#B23A2E\">(2, 4)</text>\n<text x=\"330\" y=\"200\" font-size=\"15\" fill=\"#222\">y = x²</text>\n<text x=\"226\" y=\"51\" font-size=\"15\" fill=\"#2E7D52\">y = 2x</text>\n<text x=\"408\" y=\"245\" font-size=\"14\">x</text>\n</svg></span><p>Området begränsas av linjen \\(y=2x\\) och parabeln \\(y=x^2\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Beräkna områdets area.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Bestäm först var området börjar och slutar och vilken graf som ligger överst. Arean fås sedan genom att integrera ”övre funktion minus undre funktion”; delar under \\(x\\)-axeln måste behandlas med positiv area.</p><div class=\"spel-en-del\"><strong>b)</strong>  Mellan \\(x=0\\) och \\(x=2\\) ligger linjen ovanför parabeln, vilket syns i figuren och kan kontrolleras med en testpunkt: vid \\(x=1\\) är \\(2x=2\\) medan \\(x^2=1\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Bestäm först var området börjar och slutar och vilken graf som ligger överst. Arean fås sedan genom att integrera ”övre funktion minus undre funktion”; delar under \\(x\\)-axeln måste behandlas med positiv area.</p><div class=\"spel-en-del\"><strong>b)</strong>  Mellan \\(x=0\\) och \\(x=2\\) ligger linjen ovanför parabeln, vilket syns i figuren och kan kontrolleras med en testpunkt: vid \\(x=1\\) är \\(2x=2\\) medan \\(x^2=1\\).</div>",
+        "ledtrad": "<p>Bestäm först var området börjar och slutar och vilken graf som ligger överst. Arean fås sedan genom att integrera ”övre funktion minus undre funktion”; delar under \\(x\\)-axeln måste behandlas med positiv area.</p>"
       }
     ],
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>a) Kurvorna skär varandra där funktionsvärdena är lika:</p>"
   },
   {
     "kap": 3,
@@ -11963,7 +12519,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>En funktions medelvärde på \\([a,b]\\) är arean med tecken under grafen delad med intervallets längd: \\(f_{med}=\\frac1{b-a}\\int_a^b f(x)\\,dx\\).</p>"
   },
   {
     "kap": 3,
@@ -11986,7 +12543,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Bestäm först var området börjar och slutar och vilken graf som ligger överst. Arean fås sedan genom att integrera ”övre funktion minus undre funktion”; delar under \\(x\\)-axeln måste behandlas med positiv area.</p>"
   },
   {
     "kap": 3,
@@ -11994,7 +12552,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "parameter från area mellan linje och parabel",
     "poang": "0/3/0",
-    "t": "<p>För \\(k>0\\) begränsar kurvorna \\(y=kx\\) och \\(y=x^2\\) ett område mellan sina skärningspunkter. Bestäm \\(k\\) om områdets area är \\(\\frac43\\).</p>",
+    "t": "<p>För \\(k\\gt 0\\) begränsar kurvorna \\(y=kx\\) och \\(y=x^2\\) ett område mellan sina skärningspunkter. Bestäm \\(k\\) om områdets area är \\(\\frac43\\).</p>",
     "s": "<p>Skärningspunkterna fås av \\(kx=x^2\\), alltså \\(x=0\\) och \\(x=k\\).</p><p>På intervallet \\([0,k]\\) ligger linjen över parabeln. Arean är</p><p>\\[A=\\int_0^k(kx-x^2)dx=\\left[\\frac{kx^2}{2}-\\frac{x^3}{3}\\right]_0^k=\\frac{k^3}{6}.\\]</p><p>Sätt \\(A=\\frac43\\):</p><p>\\[\\frac{k^3}{6}=\\frac43\\Rightarrow k^3=8.\\]</p><p><strong>\\(k=2\\).</strong></p>",
     "id": "3.104",
     "miniräknare": false,
@@ -12009,7 +12567,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Dela problemet i två lager: identifiera först vilken derivata- eller integralidé som beskriver situationen, och skriv sedan det samband som gör att de givna villkoren kan användas. Räkna först när modellen är tydlig.</p>"
   },
   {
     "kap": 3,
@@ -12034,7 +12593,8 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Fördjupad analys med derivata och integral"
+    "familjTidigare": "Fördjupad analys med derivata och integral",
+    "ledtrad": "<p>Dela problemet i två lager: identifiera först vilken derivata- eller integralidé som beskriver situationen, och skriv sedan det samband som gör att de givna villkoren kan användas. Räkna först när modellen är tydlig.</p>"
   },
   {
     "kap": 4,
@@ -12056,7 +12616,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoret för att bestämma integrationskonstanten.</p>"
   },
   {
     "kap": 4,
@@ -12077,7 +12638,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och låt dess rötter bestämma lösningsformen.</p>"
   },
   {
     "kap": 4,
@@ -12099,7 +12661,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Identifiera typen av ekvation. Om variablerna kan separeras, samla alla y-termer med \\(dy\\) på ena sidan och x-termer med \\(dx\\) på den andra innan du integrerar.</p>"
   },
   {
     "kap": 4,
@@ -12121,7 +12684,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot \\(y\\) får lösningen exponentialform. Separera variablerna eller använd standardformen \\(y=Ce^{kx}\\), där koefficienten framför \\(y\\) blir exponentens faktor.</p>"
   },
   {
     "kap": 4,
@@ -12142,7 +12706,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -12164,7 +12729,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot \\(y\\) får lösningen exponentialform. Separera variablerna eller använd standardformen \\(y=Ce^{kx}\\), där koefficienten framför \\(y\\) blir exponentens faktor.</p>"
   },
   {
     "kap": 4,
@@ -12185,7 +12751,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -12208,7 +12775,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot den aktuella mängden gäller \\(y'=ky\\) och därmed \\(y=y_0e^{kt}\\). Tecknet på \\(k\\) avgör tillväxt eller sönderfall, och givna värden används för att bestämma \\(k\\) eller tiden.</p>"
   },
   {
     "kap": 4,
@@ -12230,7 +12798,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot den aktuella mängden gäller \\(y'=ky\\) och därmed \\(y=y_0e^{kt}\\). Tecknet på \\(k\\) avgör tillväxt eller sönderfall, och givna värden används för att bestämma \\(k\\) eller tiden.</p>"
   },
   {
     "kap": 4,
@@ -12253,7 +12822,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot den aktuella mängden gäller \\(y'=ky\\) och därmed \\(y=y_0e^{kt}\\). Tecknet på \\(k\\) avgör tillväxt eller sönderfall, och givna värden används för att bestämma \\(k\\) eller tiden.</p>"
   },
   {
     "kap": 4,
@@ -12274,7 +12844,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Begynnelsevillkoret väljer en enda kurva ur lösningsfamiljen \\(y=Ce^{2x}\\). Sätt därför in den punkt som lösningen ska gå genom.</p>"
   },
   {
     "kap": 4,
@@ -12297,7 +12868,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>För en homogen linjär differentialekvation med konstanta koefficienter använder vi den karakteristiska ekvationen.</p>"
   },
   {
     "kap": 4,
@@ -12319,7 +12891,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -12342,7 +12915,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -12365,7 +12939,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -12387,7 +12962,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -12409,7 +12985,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -12430,7 +13007,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -12451,7 +13029,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen och använd sedan villkoren för att bestämma konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -12472,7 +13051,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen och använd sedan villkoren för att bestämma konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -12493,7 +13073,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoret för att bestämma integrationskonstanten.</p>"
   },
   {
     "kap": 4,
@@ -12514,7 +13095,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -12536,7 +13118,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -12557,7 +13140,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -12578,7 +13162,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -12600,7 +13185,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Identifiera typen av ekvation. Om variablerna kan separeras, samla alla y-termer med \\(dy\\) på ena sidan och x-termer med \\(dx\\) på den andra innan du integrerar.</p>"
   },
   {
     "kap": 4,
@@ -12622,7 +13208,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Bygg lösningen som homogen lösning plus en partikulärlösning.</p>"
   },
   {
     "kap": 4,
@@ -12645,7 +13232,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -12668,7 +13256,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>”0,012 % av mängden per år” betyder att förändringshastigheten är proportionell mot den mängd som finns kvar. Eftersom mängden minskar ska proportionalitetskonstanten vara negativ.</p>"
   },
   {
     "kap": 4,
@@ -12690,7 +13279,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Deluppgifterna kräver två olika standardmetoder. För en första ordningens ekvation av typen \\(y'=ky\\) används exponentiallösningen direkt. För en homogen ekvation av andra ordningen används den karakteristiska ekvationen.</p>"
   },
   {
     "kap": 4,
@@ -12713,7 +13303,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Rötterna till \\(r^2+4r+13=0\\) är \\(-2\\pm3i\\). Därför</p>"
   },
   {
     "kap": 4,
@@ -12733,7 +13324,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>För att verifiera en föreslagen lösning deriverar vi och sätter in i differentialekvationen.</p>"
   },
   {
     "kap": 4,
@@ -12753,7 +13345,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Derivera den föreslagna funktionen och kontrollera att insättning ger rätt högerled.</p>"
   },
   {
     "kap": 4,
@@ -12773,7 +13366,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Derivera den föreslagna lösningen så många gånger som ekvationen kräver och sätt in uttrycken i båda leden. En lösning måste göra ekvationen sann för alla relevanta x.</p>"
   },
   {
     "kap": 4,
@@ -12793,7 +13387,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>För att verifiera en föreslagen lösning räcker det inte att den ser rimlig ut. Derivera så många gånger som differentialekvationen kräver och sätt sedan in \\(y\\), \\(y'\\) och eventuellt \\(y''\\); vänster- och högerled ska då bli identiska.</p>"
   },
   {
     "kap": 4,
@@ -12813,7 +13408,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>För att verifiera en föreslagen lösning räcker det inte att den ser rimlig ut. Derivera så många gånger som differentialekvationen kräver och sätt sedan in \\(y\\), \\(y'\\) och eventuellt \\(y''\\); vänster- och högerled ska då bli identiska.</p>"
   },
   {
     "kap": 4,
@@ -12833,7 +13429,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>För att verifiera en föreslagen lösning räcker det inte att den ser rimlig ut. Derivera så många gånger som differentialekvationen kräver och sätt sedan in \\(y\\), \\(y'\\) och eventuellt \\(y''\\); vänster- och högerled ska då bli identiska.</p>"
   },
   {
     "kap": 4,
@@ -12856,7 +13453,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>Identifiera ordningen från den högsta derivatan och avgör om ekvationen är linjär eller icke-linjär utifrån hur \\(y\\) och dess derivator förekommer. Läs också av vilken variabel som är beroende respektive oberoende.</p>"
   },
   {
     "kap": 4,
@@ -12900,25 +13498,30 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(y'=3y\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Här förekommer både den okända funktionen \\(y\\) och derivatan \\(y'\\).</p><p><strong>Svar:</strong> ja.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Här förekommer både den okända funktionen \\(y\\) och derivatan \\(y'\\).</p><p><strong>Svar:</strong> ja.</p>",
+        "ledtrad": "<p>Här förekommer både den okända funktionen \\(y\\) och derivatan \\(y'\\).</p>"
       },
       {
         "etikett": "b",
         "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(2x+5=11\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Detta är en vanlig algebraisk ekvation i \\(x\\); ingen okänd funktion eller derivata förekommer.</p><p><strong>Svar:</strong> nej.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Detta är en vanlig algebraisk ekvation i \\(x\\); ingen okänd funktion eller derivata förekommer.</p><p><strong>Svar:</strong> nej.</p>",
+        "ledtrad": "<p>Detta är en vanlig algebraisk ekvation i \\(x\\); ingen okänd funktion eller derivata förekommer.</p>"
       },
       {
         "etikett": "c",
         "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(y''+y=0\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Här förekommer den okända funktionen \\(y\\) och dess andraderivata \\(y''\\).</p><p><strong>Svar:</strong> ja.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Här förekommer den okända funktionen \\(y\\) och dess andraderivata \\(y''\\).</p><p><strong>Svar:</strong> ja.</p>",
+        "ledtrad": "<p>Här förekommer den okända funktionen \\(y\\) och dess andraderivata \\(y''\\).</p>"
       },
       {
         "etikett": "d",
         "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(f(x)=x^2\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Detta definierar en funktion men innehåller ingen derivata, så det är inte en differentialekvation.</p><p><strong>Svar:</strong> nej.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Detta definierar en funktion men innehåller ingen derivata, så det är inte en differentialekvation.</p><p><strong>Svar:</strong> nej.</p>",
+        "ledtrad": "<p>Detta definierar en funktion men innehåller ingen derivata, så det är inte en differentialekvation.</p>"
       }
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>Identifiera ordningen från den högsta derivatan och avgör om ekvationen är linjär eller icke-linjär utifrån hur \\(y\\) och dess derivator förekommer. Läs också av vilken variabel som är beroende respektive oberoende.</p>"
   },
   {
     "kap": 4,
@@ -12939,7 +13542,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>Ordningen bestäms av den högsta derivatan som förekommer. En ekvation med \\(y''\\) men ingen högre derivata är därför av andra ordningen.</p>"
   },
   {
     "kap": 4,
@@ -12962,7 +13566,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>För en linjär differentialekvation tittar man på högerledet. Om högerledet är noll är ekvationen homogen; annars är den inhomogen.</p>"
   },
   {
     "kap": 4,
@@ -12984,7 +13589,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>Den beroende variabeln är den storhet vars värde förändras och därför deriveras i differentialekvationen.</p>"
   },
   {
     "kap": 4,
@@ -13007,7 +13613,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>När föremålet är kallare än ugnen gäller \\(T&lt;180\\), alltså är \\(T-180&lt;0\\). Samtidigt värms föremålet, så temperaturen ökar och därför är \\(T'&gt;0\\).</p>"
   },
   {
     "kap": 4,
@@ -13029,7 +13636,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>I den homogena ekvationen är högerledet noll och alla lösningar består bara av den homogena delen:</p>"
   },
   {
     "kap": 4,
@@ -13050,7 +13658,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -13073,7 +13682,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>En jämviktslösning är konstant och måste därför ge \\(y'=0\\). Lös först ekvationen för jämvikterna och undersök sedan tecknet på högerledet på båda sidor för att avgöra om lösningar rör sig mot eller från jämvikten.</p>"
   },
   {
     "kap": 4,
@@ -13097,7 +13707,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>Identifiera ordningen från den högsta derivatan och avgör om ekvationen är linjär eller icke-linjär utifrån hur \\(y\\) och dess derivator förekommer. Läs också av vilken variabel som är beroende respektive oberoende.</p>"
   },
   {
     "kap": 4,
@@ -13120,7 +13731,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>Läs differentialekvationen som ett samband för förändringshastigheten. Tecknet på högerledet avgör om lösningen ökar eller minskar i den aktuella situationen.</p>"
   },
   {
     "kap": 4,
@@ -13143,7 +13755,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>Identifiera ordningen från den högsta derivatan och avgör om ekvationen är linjär eller icke-linjär utifrån hur \\(y\\) och dess derivator förekommer. Läs också av vilken variabel som är beroende respektive oberoende.</p>"
   },
   {
     "kap": 4,
@@ -13167,7 +13780,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Översätt texten till en differentialekvation: förändringshastigheten är proportionell mot den aktuella mängden eller temperaturskillnaden. Bestäm konstanten från ett känt värde.</p>"
   },
   {
     "kap": 4,
@@ -13190,7 +13804,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Välj en beroende variabel och beskriv vilka processer som ökar respektive minskar den. Skriv förändringshastigheten som nettoeffekten av dessa processer innan du försöker lösa differentialekvationen.</p>"
   },
   {
     "kap": 4,
@@ -13212,7 +13827,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eulers metod följer riktningsfältet stegvis med \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
@@ -13234,7 +13850,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Gå ett steg i taget. Från \\((x_n,y_n)\\) beräknar du lutningen från differentialekvationen och använder \\(y_{n+1}=y_n+h\\,f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
@@ -13256,7 +13873,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gå ett steg i taget. Från \\((x_n,y_n)\\) beräknar du lutningen från differentialekvationen och använder \\(y_{n+1}=y_n+h\\,f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
@@ -13278,7 +13896,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
@@ -13300,7 +13919,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
@@ -13322,7 +13942,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Gå ett steg i taget. Från \\((x_n,y_n)\\) beräknar du lutningen från differentialekvationen och använder \\(y_{n+1}=y_n+h\\,f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
@@ -13344,7 +13965,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Lutningen i en punkt fås genom att sätta punktens koordinater i differentialekvationens högerled.</p>"
   },
   {
     "kap": 4,
@@ -13364,7 +13986,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Varje litet streck visar den lutning \\(y'\\) som differentialekvationen ger i punkten. Följ streckens riktning utan att korsa dem tvärt när du skissar en lösningskurva.</p>"
   },
   {
     "kap": 4,
@@ -13385,7 +14008,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Varje litet streck visar den lutning \\(y'\\) som differentialekvationen ger i punkten. Följ streckens riktning utan att korsa dem tvärt när du skissar en lösningskurva.</p>"
   },
   {
     "kap": 4,
@@ -13405,7 +14029,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>I ett riktningsfält är linjeelementets lutning lika med differentialekvationens högerled i just den punkten. Sätt därför in punktens koordinater i uttrycket för \\(y'\\).</p>"
   },
   {
     "kap": 4,
@@ -13426,7 +14051,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Läs tecknet på \\(y'\\) i olika områden: positiv lutning gör att lösningskurvor stiger och negativ lutning gör att de sjunker. Horisontella element markerar där \\(y'=0\\), ofta jämvikter eller linjer där lutningen är noll.</p>"
   },
   {
     "kap": 4,
@@ -13446,7 +14072,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Läs tecknet på \\(y'\\) i olika områden: positiv lutning gör att lösningskurvor stiger och negativ lutning gör att de sjunker. Horisontella element markerar där \\(y'=0\\), ofta jämvikter eller linjer där lutningen är noll.</p>"
   },
   {
     "kap": 4,
@@ -13467,7 +14094,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Varje litet streck visar den lutning \\(y'\\) som differentialekvationen ger i punkten. Följ streckens riktning utan att korsa dem tvärt när du skissar en lösningskurva.</p>"
   },
   {
     "kap": 4,
@@ -13489,7 +14117,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Bygg lösningen som homogen lösning plus en partikulärlösning.</p>"
   },
   {
     "kap": 4,
@@ -13511,7 +14140,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Identifiera typen av ekvation. Om variablerna kan separeras, samla alla y-termer med \\(dy\\) på ena sidan och x-termer med \\(dx\\) på den andra innan du integrerar.</p>"
   },
   {
     "kap": 4,
@@ -13534,7 +14164,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Översätt texten till en differentialekvation: förändringshastigheten är proportionell mot den aktuella mängden eller temperaturskillnaden. Bestäm konstanten från ett känt värde.</p>"
   },
   {
     "kap": 4,
@@ -13556,7 +14187,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Skriv ekvationen på linjär standardform och lös den homogena delen först. Bestäm sedan en partikulär lösning som passar högerledets form; den allmänna lösningen är summan av dessa två delar.</p>"
   },
   {
     "kap": 4,
@@ -13578,7 +14210,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Skriv ekvationen på linjär standardform och lös den homogena delen först. Bestäm sedan en partikulär lösning som passar högerledets form; den allmänna lösningen är summan av dessa två delar.</p>"
   },
   {
     "kap": 4,
@@ -13601,7 +14234,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar. Bygg därefter en differentialekvation som ger just dessa egenskaper.</p>"
   },
   {
     "kap": 4,
@@ -13624,7 +14258,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot \\(y\\) får lösningen exponentialform. Separera variablerna eller använd standardformen \\(y=Ce^{kx}\\), där koefficienten framför \\(y\\) blir exponentens faktor.</p>"
   },
   {
     "kap": 4,
@@ -13647,7 +14282,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot \\(y\\) får lösningen exponentialform. Separera variablerna eller använd standardformen \\(y=Ce^{kx}\\), där koefficienten framför \\(y\\) blir exponentens faktor.</p>"
   },
   {
     "kap": 4,
@@ -13670,7 +14306,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -13692,7 +14329,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot \\(y\\) får lösningen exponentialform. Separera variablerna eller använd standardformen \\(y=Ce^{kx}\\), där koefficienten framför \\(y\\) blir exponentens faktor.</p>"
   },
   {
     "kap": 4,
@@ -13714,7 +14352,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Skriv ekvationen på linjär standardform och lös den homogena delen först. Bestäm sedan en partikulär lösning som passar högerledets form; den allmänna lösningen är summan av dessa två delar.</p>"
   },
   {
     "kap": 4,
@@ -13736,7 +14375,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Skriv ekvationen på linjär standardform och lös den homogena delen först. Bestäm sedan en partikulär lösning som passar högerledets form; den allmänna lösningen är summan av dessa två delar.</p>"
   },
   {
     "kap": 4,
@@ -13759,7 +14399,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Skriv ekvationen på linjär standardform och lös den homogena delen först. Bestäm sedan en partikulär lösning som passar högerledets form; den allmänna lösningen är summan av dessa två delar.</p>"
   },
   {
     "kap": 4,
@@ -13780,7 +14421,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>För att verifiera en föreslagen lösning räcker det inte att den ser rimlig ut. Derivera så många gånger som differentialekvationen kräver och sätt sedan in \\(y\\), \\(y'\\) och eventuellt \\(y''\\); vänster- och högerled ska då bli identiska.</p>"
   },
   {
     "kap": 4,
@@ -13802,7 +14444,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Identifiera typen av ekvation. Om variablerna kan separeras, samla alla y-termer med \\(dy\\) på ena sidan och x-termer med \\(dx\\) på den andra innan du integrerar.</p>"
   },
   {
     "kap": 4,
@@ -13824,7 +14467,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Differentialekvationer av första ordningen"
+    "familjTidigare": "Differentialekvationer av första ordningen",
+    "ledtrad": "<p>Identifiera typen av ekvation. Om variablerna kan separeras, samla alla y-termer med \\(dy\\) på ena sidan och x-termer med \\(dx\\) på den andra innan du integrerar.</p>"
   },
   {
     "kap": 4,
@@ -13847,7 +14491,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Översätt texten till en differentialekvation: förändringshastigheten är proportionell mot den aktuella mängden eller temperaturskillnaden. Bestäm konstanten från ett känt värde.</p>"
   },
   {
     "kap": 4,
@@ -13869,7 +14514,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Vid dubbelrot behövs både \\(e^{rx}\\) och \\(xe^{rx}\\) för två oberoende lösningar.</p>"
   },
   {
     "kap": 4,
@@ -13892,7 +14538,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -13915,7 +14562,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -13938,7 +14586,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -13961,7 +14610,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar. Bygg därefter en differentialekvation som ger just dessa egenskaper.</p>"
   },
   {
     "kap": 4,
@@ -13984,7 +14634,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -14006,7 +14657,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -14028,7 +14680,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Komplexa rötter \\(a\\pm bi\\) ger lösningar av formen \\(e^{ax}(C\\cos bx+D\\sin bx)\\).</p>"
   },
   {
     "kap": 4,
@@ -14051,7 +14704,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14074,7 +14728,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -14096,7 +14751,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar. Bygg därefter en differentialekvation som ger just dessa egenskaper.</p>"
   },
   {
     "kap": 4,
@@ -14118,7 +14774,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -14139,7 +14796,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -14162,7 +14820,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14185,7 +14844,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14208,7 +14868,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14231,7 +14892,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14254,7 +14916,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14276,7 +14939,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Den homogena karakteristiska ekvationen är \\((r-2)^2=0\\). Därför innehåller den homogena lösningen både \\(e^{2x}\\) och \\(xe^{2x}\\).</p>"
   },
   {
     "kap": 4,
@@ -14298,7 +14962,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Homogena lösningen är \\(y_h=C_1e^{-x}+C_2e^x\\).</p>"
   },
   {
     "kap": 4,
@@ -14319,7 +14984,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Den homogena lösningen är \\(y_h=C_1\\cos2x+C_2\\sin2x\\). Högerledets \\(\\cos2x\\) har alltså samma form som en term som redan finns i den homogena lösningen.</p>"
   },
   {
     "kap": 4,
@@ -14341,7 +15007,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14363,7 +15030,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Hitta sedan en partikulär lösning som motsvarar högerledets form; om ansatsen redan ingår i den homogena lösningen måste den multipliceras med \\(x\\) tillräckligt många gånger.</p>"
   },
   {
     "kap": 4,
@@ -14385,7 +15053,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Hitta sedan en partikulär lösning som motsvarar högerledets form; om ansatsen redan ingår i den homogena lösningen måste den multipliceras med \\(x\\) tillräckligt många gånger.</p>"
   },
   {
     "kap": 4,
@@ -14407,7 +15076,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Den homogena lösningen innehåller \\(\\cos2x\\) och \\(\\sin2x\\). Ansatsen \\(A\\cos2x+B\\sin2x\\) skulle därför bara ge termer som redan ingår i den homogena lösningen.</p>"
   },
   {
     "kap": 4,
@@ -14430,7 +15100,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -14453,7 +15124,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -14475,7 +15147,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Hitta sedan en partikulär lösning som motsvarar högerledets form; om ansatsen redan ingår i den homogena lösningen måste den multipliceras med \\(x\\) tillräckligt många gånger.</p>"
   },
   {
     "kap": 4,
@@ -14498,7 +15171,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14520,7 +15194,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Hitta sedan en partikulär lösning som motsvarar högerledets form; om ansatsen redan ingår i den homogena lösningen måste den multipliceras med \\(x\\) tillräckligt många gånger.</p>"
   },
   {
     "kap": 4,
@@ -14543,7 +15218,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -14566,7 +15242,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -14589,7 +15266,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Homogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Homogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\). Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p>"
   },
   {
     "kap": 4,
@@ -14612,7 +15290,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Hitta sedan en partikulär lösning som motsvarar högerledets form; om ansatsen redan ingår i den homogena lösningen måste den multipliceras med \\(x\\) tillräckligt många gånger.</p>"
   },
   {
     "kap": 4,
@@ -14635,7 +15314,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14657,7 +15337,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14680,7 +15361,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14703,7 +15385,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen"
+    "familjTidigare": "Inhomogena differentialekvationer av andra ordningen",
+    "ledtrad": "<p>Sätt upp den karakteristiska ekvationen och bestäm dess rötter. Formen på den homogena lösningen beror på om rötterna är olika reella, dubbla eller komplexa.</p>"
   },
   {
     "kap": 4,
@@ -14726,7 +15409,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Jämviktsfarten är \\(9,82/0,40=24,55\\). Med \\(v(0)=0\\): \\(v(t)=24,55(1-e^{-0,40t})\\).</p>"
   },
   {
     "kap": 4,
@@ -14749,7 +15433,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Välj en beroende variabel och beskriv vilka processer som ökar respektive minskar den. Skriv förändringshastigheten som nettoeffekten av dessa processer innan du försöker lösa differentialekvationen.</p>"
   },
   {
     "kap": 4,
@@ -14772,7 +15457,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Newtons andra lag ger \\(my''=F(t)-ky\\). Med \\(m=1\\) och \\(k=9\\):</p>"
   },
   {
     "kap": 4,
@@ -14796,7 +15482,8 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Den homogena ekvationen har rötterna \\(-1\\pm2i\\):</p>"
   },
   {
     "kap": 4,
@@ -14819,7 +15506,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Välj en beroende variabel och beskriv vilka processer som ökar respektive minskar den. Skriv förändringshastigheten som nettoeffekten av dessa processer innan du försöker lösa differentialekvationen.</p>"
   },
   {
     "kap": 4,
@@ -14841,7 +15529,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Vid Newtons avsvalningslag är det temperaturskillnaden mot omgivningen som avtar exponentiellt. Skriv därför \\(T-T_{omg}\\) som en exponentialfunktion och använd mätvärdena för att bestämma konstanten.</p>"
   },
   {
     "kap": 4,
@@ -14863,7 +15552,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot den aktuella mängden gäller \\(y'=ky\\) och därmed \\(y=y_0e^{kt}\\). Tecknet på \\(k\\) avgör tillväxt eller sönderfall, och givna värden används för att bestämma \\(k\\) eller tiden.</p>"
   },
   {
     "kap": 4,
@@ -14886,7 +15576,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Identifiera först vilken storhet som förändras och vilka mekanismer som ökar respektive minskar den. Differentialekvationen ska uttrycka nettot av dessa förändringshastigheter med korrekta enheter.</p>"
   },
   {
     "kap": 4,
@@ -14908,7 +15599,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Välj en beroende variabel och beskriv vilka processer som ökar respektive minskar den. Skriv förändringshastigheten som nettoeffekten av dessa processer innan du försöker lösa differentialekvationen.</p>"
   },
   {
     "kap": 4,
@@ -14931,7 +15623,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Vid Newtons avsvalningslag är det temperaturskillnaden mot omgivningen som avtar exponentiellt. Skriv därför \\(T-T_{omg}\\) som en exponentialfunktion och använd mätvärdena för att bestämma konstanten.</p>"
   },
   {
     "kap": 4,
@@ -14954,7 +15647,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Derivera den föreslagna lösningen så många gånger som ekvationen kräver och sätt in uttrycken i båda leden. En lösning måste göra ekvationen sann för alla relevanta x.</p>"
   },
   {
     "kap": 4,
@@ -14977,7 +15671,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Derivera den föreslagna lösningen så många gånger som ekvationen kräver och sätt in uttrycken i båda leden. En lösning måste göra ekvationen sann för alla relevanta x.</p>"
   },
   {
     "kap": 4,
@@ -15000,7 +15695,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Operatorn är \\(L[y]=y''-3y'+2y\\). Termerna \\(e^x\\) och \\(e^{2x}\\) motsvarar rötterna 1 och 2 till den karakteristiska ekvationen, så</p>"
   },
   {
     "kap": 4,
@@ -15022,7 +15718,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "ledtrad": "<p>CAS-resultatet \\(y=Ce^{4x}\\) är en hel lösningsfamilj. Begynnelsevillkoret väljer den enda medlem av familjen som går genom punkten \\((1,6)\\).</p>"
   },
   {
     "kap": 4,
@@ -15045,7 +15742,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>För att kontrollera ett digitalt lösningsförslag deriverar vi uttrycket och sätter in både \\(y\\) och \\(y^{\\prime}\\) i differentialekvationen.</p>"
   },
   {
     "kap": 4,
@@ -15066,7 +15764,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "modellering"
-    ]
+    ],
+    "ledtrad": "<p>Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p>"
   },
   {
     "kap": 4,
@@ -15088,7 +15787,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "ledtrad": "<p>Kontrollera varje Eulersteg med \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Lutningen ska alltid beräknas i den punkt där steget börjar, inte i den nya punkten.</p>"
   },
   {
     "kap": 4,
@@ -15110,7 +15810,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Välj en beroende variabel och beskriv vilka processer som ökar respektive minskar den. Skriv förändringshastigheten som nettoeffekten av dessa processer innan du försöker lösa differentialekvationen.</p>"
   },
   {
     "kap": 4,
@@ -15131,7 +15832,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "modellering"
-    ]
+    ],
+    "ledtrad": "<p>Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p>"
   },
   {
     "kap": 4,
@@ -15155,7 +15857,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Identifiera först vilken storhet som förändras och vilka mekanismer som ökar respektive minskar den. Differentialekvationen ska uttrycka nettot av dessa förändringshastigheter med korrekta enheter.</p>"
   },
   {
     "kap": 4,
@@ -15179,7 +15882,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot den aktuella mängden gäller \\(y'=ky\\) och därmed \\(y=y_0e^{kt}\\). Tecknet på \\(k\\) avgör tillväxt eller sönderfall, och givna värden används för att bestämma \\(k\\) eller tiden.</p>"
   },
   {
     "kap": 4,
@@ -15203,7 +15907,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Översätt texten till en differentialekvation: förändringshastigheten är proportionell mot den aktuella mängden eller temperaturskillnaden. Bestäm konstanten från ett känt värde.</p>"
   },
   {
     "kap": 4,
@@ -15243,14 +15948,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Ett numeriskt verktyg ger \\(y(4)\\approx7,82\\), medan en analytisk lösning ger \\(y(4)=8,00\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm det absoluta felet.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p><div class=\"spel-en-del\"><strong>a)</strong>  Absolut fel:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p><div class=\"spel-en-del\"><strong>a)</strong>  Absolut fel:</div>",
+        "ledtrad": "<p>Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>Ett numeriskt verktyg ger \\(y(4)\\approx7,82\\), medan en analytisk lösning ger \\(y(4)=8,00\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm det relativa felet i procent.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p><div class=\"spel-en-del\"><strong>b)</strong>  Relativt fel:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p><div class=\"spel-en-del\"><strong>b)</strong>  Relativt fel:</div>",
+        "ledtrad": "<p>Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p>"
   },
   {
     "kap": 4,
@@ -15274,7 +15982,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot den aktuella mängden gäller \\(y'=ky\\) och därmed \\(y=y_0e^{kt}\\). Tecknet på \\(k\\) avgör tillväxt eller sönderfall, och givna värden används för att bestämma \\(k\\) eller tiden.</p>"
   },
   {
     "kap": 4,
@@ -15309,7 +16018,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "M(t)",
       "tid"
-    ]
+    ],
+    "ledtrad": "<p>a) Jämviktsvärdet är \\(18/0,3=60\\). Lösningen kan därför skrivas \\(M=60+Ce^{-0,3t}\\).</p>"
   },
   {
     "kap": 4,
@@ -15331,7 +16041,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "ledtrad": "<p>a) Karakteristiska ekvationen är \\(r^2+9=0\\) med rötterna \\(r=\\pm3i\\). Rent imaginära rötter \\(\\pm\\beta i\\) ger lösningen</p>"
   },
   {
     "kap": 4,
@@ -15352,7 +16063,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -15373,7 +16085,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -15394,7 +16107,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -15415,7 +16129,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoret för att bestämma integrationskonstanten.</p>"
   },
   {
     "kap": 4,
@@ -15437,7 +16152,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -15459,7 +16175,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoret för att bestämma integrationskonstanten.</p>"
   },
   {
     "kap": 4,
@@ -15480,7 +16197,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoret för att bestämma integrationskonstanten.</p>"
   },
   {
     "kap": 4,
@@ -15501,7 +16219,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoret för att bestämma integrationskonstanten.</p>"
   },
   {
     "kap": 4,
@@ -15523,7 +16242,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p>"
   },
   {
     "kap": 4,
@@ -15545,7 +16265,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoret för att bestämma integrationskonstanten.</p>"
   },
   {
     "kap": 4,
@@ -15566,7 +16287,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoret för att bestämma integrationskonstanten.</p>"
   },
   {
     "kap": 4,
@@ -15588,7 +16310,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoret för att bestämma integrationskonstanten.</p>"
   },
   {
     "kap": 4,
@@ -15610,7 +16333,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>a) Eulerformeln är \\(y_{n+1}=y_n+h\\,f(x_n,y_n)\\). Här blir</p>"
   },
   {
     "kap": 4,
@@ -15632,7 +16356,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
@@ -15654,7 +16379,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gå ett steg i taget. Från \\((x_n,y_n)\\) beräknar du lutningen från differentialekvationen och använder \\(y_{n+1}=y_n+h\\,f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
@@ -15696,19 +16422,23 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((0,1)\\)</div>",
-        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot0-1=-1\\).</p><p><strong></strong></p>"
+        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot0-1=-1\\).</p><p><strong></strong></p>",
+        "ledtrad": "<p>Varje litet streck visar den lutning \\(y'\\) som differentialekvationen ger i punkten. Följ streckens riktning utan att korsa dem tvärt när du skissar en lösningskurva.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((1,0)\\)</div>",
-        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot1-0=2\\).</p><p><strong></strong></p>"
+        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot1-0=2\\).</p><p><strong></strong></p>",
+        "ledtrad": "<p>Varje litet streck visar den lutning \\(y'\\) som differentialekvationen ger i punkten. Följ streckens riktning utan att korsa dem tvärt när du skissar en lösningskurva.</p>"
       },
       {
         "etikett": "c",
         "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((2,3)\\).</div>",
-        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot2-3=1\\).</p>"
+        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot2-3=1\\).</p>",
+        "ledtrad": "<p>Varje litet streck visar den lutning \\(y'\\) som differentialekvationen ger i punkten. Följ streckens riktning utan att korsa dem tvärt när du skissar en lösningskurva.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>I ett riktningsfält är linjeelementets lutning lika med differentialekvationens högerled i just den punkten. Sätt därför in punktens koordinater i uttrycket för \\(y'\\).</p>"
   },
   {
     "kap": 4,
@@ -15729,7 +16459,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Läs tecknet på \\(y'\\) i olika områden: positiv lutning gör att lösningskurvor stiger och negativ lutning gör att de sjunker. Horisontella element markerar där \\(y'=0\\), ofta jämvikter eller linjer där lutningen är noll.</p>"
   },
   {
     "kap": 4,
@@ -15772,19 +16503,23 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Approximerar \\(y(1)\\) med Eulers metod och \\(h=0,5\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>a)</strong>  Med \\(h=0,5\\) multipliceras värdet varje steg med \\(1-h=0,5\\):</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>a)</strong>  Med \\(h=0,5\\) multipliceras värdet varje steg med \\(1-h=0,5\\):</div>",
+        "ledtrad": "<p>Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p>"
       },
       {
         "etikett": "b",
         "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Gör samma sak med \\(h=0,25\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>b)</strong>  Med \\(h=0,25\\) multipliceras värdet med \\(0,75\\) vid varje av fyra steg:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>b)</strong>  Med \\(h=0,25\\) multipliceras värdet med \\(0,75\\) vid varje av fyra steg:</div>",
+        "ledtrad": "<p>Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p>"
       },
       {
         "etikett": "c",
         "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Det exakta värdet är \\(e^{-1}\\approx0,3679\\). Vilken approximation är bäst?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>c)</strong>  Felet blir ungefär \\(0,1179\\) respektive \\(0,0515\\). Den mindre steglängden \\(h=0,25\\) ger alltså den bättre approximationen.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>c)</strong>  Felet blir ungefär \\(0,1179\\) respektive \\(0,0515\\). Den mindre steglängden \\(h=0,25\\) ger alltså den bättre approximationen.</div>",
+        "ledtrad": "<p>Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>Gå ett steg i taget. Från \\((x_n,y_n)\\) beräknar du lutningen från differentialekvationen och använder \\(y_{n+1}=y_n+h\\,f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
@@ -15805,7 +16540,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>a) Segmenten är horisontella där lutningen är noll:</p>"
   },
   {
     "kap": 4,
@@ -15851,14 +16587,7 @@ window.BANKMATF1 = [
       "start y(0)=0,5",
       "start y(0)=3"
     ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<span class=\"fig\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Riktningsfält för y prim lika med y gånger två minus y\"><rect width=\"430\" height=\"300\" fill=\"white\"/><line x1=\"55\" y1=\"209.5\" x2=\"390\" y2=\"209.5\" stroke=\"#777\" stroke-width=\"1.2\"/><line x1=\"55\" y1=\"28\" x2=\"55\" y2=\"270\" stroke=\"#777\" stroke-width=\"1.2\"/><text x=\"45\" y=\"274.0\" font-size=\"12\" text-anchor=\"end\">-1</text><text x=\"45\" y=\"213.5\" font-size=\"12\" text-anchor=\"end\">0</text><text x=\"45\" y=\"153.0\" font-size=\"12\" text-anchor=\"end\">1</text><text x=\"45\" y=\"92.5\" font-size=\"12\" text-anchor=\"end\">2</text><text x=\"45\" y=\"32.0\" font-size=\"12\" text-anchor=\"end\">3</text><text x=\"55.0\" y=\"286\" font-size=\"12\" text-anchor=\"middle\">0</text><text x=\"138.8\" y=\"286\" font-size=\"12\" text-anchor=\"middle\">1</text><text x=\"222.5\" y=\"286\" font-size=\"12\" text-anchor=\"middle\">2</text><text x=\"306.2\" y=\"286\" font-size=\"12\" text-anchor=\"middle\">3</text><text x=\"390.0\" y=\"286\" font-size=\"12\" text-anchor=\"middle\">4</text><line x1=\"50.4\" y1=\"260.0\" x2=\"59.6\" y2=\"280.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"44.0\" y1=\"209.5\" x2=\"66.0\" y2=\"209.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"45.3\" y1=\"184.5\" x2=\"64.7\" y2=\"174.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"46.1\" y1=\"155.4\" x2=\"63.9\" y2=\"142.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"45.3\" y1=\"124.0\" x2=\"64.7\" y2=\"113.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"44.0\" y1=\"88.5\" x2=\"66.0\" y2=\"88.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"46.8\" y1=\"50.9\" x2=\"63.2\" y2=\"65.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"50.4\" y1=\"18.0\" x2=\"59.6\" y2=\"38.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"260.0\" x2=\"143.4\" y2=\"280.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"127.8\" y1=\"209.5\" x2=\"149.8\" y2=\"209.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"129.1\" y1=\"184.5\" x2=\"148.4\" y2=\"174.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"129.8\" y1=\"155.4\" x2=\"147.7\" y2=\"142.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"129.1\" y1=\"124.0\" x2=\"148.4\" y2=\"113.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"127.8\" y1=\"88.5\" x2=\"149.8\" y2=\"88.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"130.6\" y1=\"50.9\" x2=\"146.9\" y2=\"65.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"18.0\" x2=\"143.4\" y2=\"38.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"217.9\" y1=\"260.0\" x2=\"227.1\" y2=\"280.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"211.5\" y1=\"209.5\" x2=\"233.5\" y2=\"209.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"212.8\" y1=\"184.5\" x2=\"232.2\" y2=\"174.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"213.6\" y1=\"155.4\" x2=\"231.4\" y2=\"142.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"212.8\" y1=\"124.0\" x2=\"232.2\" y2=\"113.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"211.5\" y1=\"88.5\" x2=\"233.5\" y2=\"88.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"214.3\" y1=\"50.9\" x2=\"230.7\" y2=\"65.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"217.9\" y1=\"18.0\" x2=\"227.1\" y2=\"38.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"301.6\" y1=\"260.0\" x2=\"310.9\" y2=\"280.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"295.2\" y1=\"209.5\" x2=\"317.2\" y2=\"209.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"296.6\" y1=\"184.5\" x2=\"315.9\" y2=\"174.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"297.3\" y1=\"155.4\" x2=\"315.2\" y2=\"142.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"296.6\" y1=\"124.0\" x2=\"315.9\" y2=\"113.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"295.2\" y1=\"88.5\" x2=\"317.2\" y2=\"88.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"298.1\" y1=\"50.9\" x2=\"314.4\" y2=\"65.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"301.6\" y1=\"18.0\" x2=\"310.9\" y2=\"38.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"385.4\" y1=\"260.0\" x2=\"394.6\" y2=\"280.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"379.0\" y1=\"209.5\" x2=\"401.0\" y2=\"209.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"380.3\" y1=\"184.5\" x2=\"399.7\" y2=\"174.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"381.1\" y1=\"155.4\" x2=\"398.9\" y2=\"142.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"380.3\" y1=\"124.0\" x2=\"399.7\" y2=\"113.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"379.0\" y1=\"88.5\" x2=\"401.0\" y2=\"88.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"381.8\" y1=\"50.9\" x2=\"398.2\" y2=\"65.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"385.4\" y1=\"18.0\" x2=\"394.6\" y2=\"38.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"209.5\" x2=\"390\" y2=\"209.5\" stroke=\"#B23A2E\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><text x=\"315\" y=\"202.5\" font-size=\"13\" fill=\"#B23A2E\">y = 0</text><line x1=\"55\" y1=\"88.5\" x2=\"390\" y2=\"88.5\" stroke=\"#B23A2E\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><text x=\"315\" y=\"81.5\" font-size=\"13\" fill=\"#B23A2E\">y = 2</text><text x=\"400\" y=\"251\" font-size=\"14\">t</text><text x=\"63\" y=\"24\" font-size=\"14\">y</text></svg></span><p>Riktningsfältet hör till \\(y'=y(2-y)\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Vilka jämviktslösningar finns?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> En jämviktslösning är konstant, alltså måste \\(y'=0\\). Lös \\(y(2-y)=0\\).</p><p><strong>Svar:</strong> \\(y=0\\) och \\(y=2\\).</p>"
-      }
-    ]
+    "ledtrad": "<p>Varje litet streck visar den lutning \\(y'\\) som differentialekvationen ger i punkten. Följ streckens riktning utan att korsa dem tvärt när du skissar en lösningskurva.</p>"
   },
   {
     "kap": 4,
@@ -15881,7 +16610,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
@@ -15923,19 +16653,23 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((0,2)\\)</div>",
-        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2-0^2=2\\).</p><p><strong></strong></p>"
+        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2-0^2=2\\).</p><p><strong></strong></p>",
+        "ledtrad": "<p>Varje litet streck visar den lutning \\(y'\\) som differentialekvationen ger i punkten. Följ streckens riktning utan att korsa dem tvärt när du skissar en lösningskurva.</p>"
       },
       {
         "etikett": "b",
         "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((1,1)\\)</div>",
-        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(1-1^2=0\\).</p><p><strong></strong></p>"
+        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(1-1^2=0\\).</p><p><strong></strong></p>",
+        "ledtrad": "<p>Varje litet streck visar den lutning \\(y'\\) som differentialekvationen ger i punkten. Följ streckens riktning utan att korsa dem tvärt när du skissar en lösningskurva.</p>"
       },
       {
         "etikett": "c",
         "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((2,3)\\).</div>",
-        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(3-2^2=-1\\).</p>"
+        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(3-2^2=-1\\).</p>",
+        "ledtrad": "<p>Varje litet streck visar den lutning \\(y'\\) som differentialekvationen ger i punkten. Följ streckens riktning utan att korsa dem tvärt när du skissar en lösningskurva.</p>"
       }
-    ]
+    ],
+    "ledtrad": "<p>I ett riktningsfält är linjeelementets lutning lika med differentialekvationens högerled i just den punkten. Sätt därför in punktens koordinater i uttrycket för \\(y'\\).</p>"
   },
   {
     "kap": 4,
@@ -15957,7 +16691,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
@@ -16001,14 +16736,7 @@ window.BANKMATF1 = [
       "jämviktslösningar",
       "stabilitet"
     ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Betrakta differentialekvationen \\[y'=(1-y)(y+2).\\]</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm jämviktslösningarna.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Jämvikt betyder att lösningen är konstant, alltså \\(y'=0\\).</p><p>\\[(1-y)(y+2)=0\\Rightarrow y=1\\text{ eller }y=-2.\\]</p><p><strong>Svar:</strong> \\(y=-2\\) och \\(y=1\\).</p>"
-      }
-    ]
+    "ledtrad": "<p>Varje litet streck visar den lutning \\(y'\\) som differentialekvationen ger i punkten. Följ streckens riktning utan att korsa dem tvärt när du skissar en lösningskurva.</p>"
   },
   {
     "kap": 4,
@@ -16033,7 +16761,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>a) En jämviktslösning är konstant, alltså \\(P'=0\\):</p>"
   },
   {
     "kap": 4,
@@ -16055,7 +16784,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>Ordningen bestäms av den högsta derivatan som förekommer. En ekvation med \\(y''\\) men ingen högre derivata är därför av andra ordningen.</p>"
   },
   {
     "kap": 4,
@@ -16075,7 +16805,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>För att verifiera en föreslagen lösning räcker det inte att den ser rimlig ut. Derivera så många gånger som differentialekvationen kräver och sätt sedan in \\(y\\), \\(y'\\) och eventuellt \\(y''\\); vänster- och högerled ska då bli identiska.</p>"
   },
   {
     "kap": 4,
@@ -16098,7 +16829,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>En konstant lösning ändras inte. Därför måste dess derivata vara noll för alla värden på den oberoende variabeln.</p>"
   },
   {
     "kap": 4,
@@ -16122,7 +16854,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>Läs differentialekvationen som ett samband för förändringshastigheten. Tecknet på högerledet avgör om lösningen ökar eller minskar i den aktuella situationen.</p>"
   },
   {
     "kap": 4,
@@ -16144,7 +16877,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar. Bygg därefter en differentialekvation som ger just dessa egenskaper.</p>"
   },
   {
     "kap": 4,
@@ -16164,7 +16898,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>För att verifiera en föreslagen lösning räcker det inte att den ser rimlig ut. Derivera så många gånger som differentialekvationen kräver och sätt sedan in \\(y\\), \\(y'\\) och eventuellt \\(y''\\); vänster- och högerled ska då bli identiska.</p>"
   },
   {
     "id": "1.208",
@@ -16186,7 +16921,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Översätt fördelningen till en ekvation \\(x_1+\\cdots+x_k=n\\) med de villkor som gäller. Tänk sedan i termer av identiska objekt och avskiljare.</p>"
   },
   {
     "id": "1.209",
@@ -16209,7 +16945,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Översätt fördelningen till en ekvation \\(x_1+\\cdots+x_k=n\\) med de villkor som gäller. Tänk sedan i termer av identiska objekt och avskiljare.</p>"
   },
   {
     "id": "1.210",
@@ -16231,7 +16968,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Översätt fördelningen till en ekvation \\(x_1+\\cdots+x_k=n\\) med de villkor som gäller. Tänk sedan i termer av identiska objekt och avskiljare.</p>"
   },
   {
     "id": "1.211",
@@ -16253,7 +16991,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Översätt fördelningen till en ekvation \\(x_1+\\cdots+x_k=n\\) med de villkor som gäller. Tänk sedan i termer av identiska objekt och avskiljare.</p>"
   },
   {
     "id": "1.212",
@@ -16275,7 +17014,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Översätt fördelningen till en ekvation \\(x_1+\\cdots+x_k=n\\) med de villkor som gäller. Tänk sedan i termer av identiska objekt och avskiljare.</p>"
   },
   {
     "id": "1.213",
@@ -16298,7 +17038,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Översätt fördelningen till en ekvation \\(x_1+\\cdots+x_k=n\\) med de villkor som gäller. Tänk sedan i termer av identiska objekt och avskiljare.</p>"
   },
   {
     "id": "1.214",
@@ -16321,7 +17062,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Översätt fördelningen till en ekvation \\(x_1+\\cdots+x_k=n\\) med de villkor som gäller. Tänk sedan i termer av identiska objekt och avskiljare.</p>"
   },
   {
     "id": "1.215",
@@ -16344,7 +17086,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Översätt fördelningen till en ekvation \\(x_1+\\cdots+x_k=n\\) med de villkor som gäller. Tänk sedan i termer av identiska objekt och avskiljare.</p>"
   },
   {
     "id": "1.216",
@@ -16365,7 +17108,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "id": "1.217",
@@ -16387,7 +17131,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "id": "1.218",
@@ -16408,7 +17153,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "id": "1.219",
@@ -16430,7 +17176,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "id": "1.220",
@@ -16451,7 +17198,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "id": "1.221",
@@ -16473,7 +17221,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "id": "1.222",
@@ -16495,7 +17244,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "id": "1.223",
@@ -16517,7 +17267,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "id": "1.224",
@@ -16539,7 +17290,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "id": "1.225",
@@ -16561,7 +17313,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först vilka positioner som har särskilda villkor. Fyll dem i en ordning som gör villkoren enkla och använd multiplikationsprincipen för antalet val.</p>"
   },
   {
     "id": "1.226",
@@ -16585,7 +17338,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "id": "1.227",
@@ -16609,7 +17363,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna antalet gynnsamma och möjliga utfall med samma kombinatoriska princip. Avgör först om ordningen spelar roll och om urval sker med eller utan återläggning.</p>"
   },
   {
     "id": "1.228",
@@ -16631,7 +17386,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "id": "1.229",
@@ -16654,7 +17410,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
   },
   {
     "id": "1.230",
@@ -16676,7 +17433,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Översätt fördelningen till en ekvation \\(x_1+\\cdots+x_k=n\\) med de villkor som gäller. Tänk sedan i termer av identiska objekt och avskiljare.</p>"
   },
   {
     "id": "1.231",
@@ -16698,7 +17456,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordningen spelar inte roll i en kombination. Bestäm hur många objekt som ska väljas ur hur många och använd \\(\\binom nk\\); jämför gärna med ett ordnat urval för att se varför du inte ska multiplicera med ordningsföljder.</p>"
   },
   {
     "id": "3.110",
@@ -16721,7 +17480,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "id": "3.111",
@@ -16743,7 +17503,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "id": "3.112",
@@ -16767,7 +17528,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "id": "3.113",
@@ -16790,7 +17552,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "id": "3.114",
@@ -16814,7 +17577,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "id": "3.115",
@@ -16838,7 +17602,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "id": "3.116",
@@ -16860,7 +17625,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd tangenten nära en punkt där funktionen är lätt att beräkna: \\(f(a+h)\\approx f(a)+f'(a)h\\).</p>"
   },
   {
     "id": "3.117",
@@ -16882,7 +17648,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv först ett geometriskt samband mellan storheterna. Derivera hela sambandet med avseende på tiden innan du sätter in det aktuella lägets värden.</p>"
   },
   {
     "id": "2.209",
@@ -16905,7 +17672,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p>"
   },
   {
     "id": "2.210",
@@ -16928,7 +17696,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "id": "2.211",
@@ -16951,7 +17720,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "id": "2.212",
@@ -16974,7 +17744,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "id": "2.213",
@@ -16998,7 +17769,8 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "id": "2.214",
@@ -17020,7 +17792,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "id": "2.215",
@@ -17043,7 +17816,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "id": "2.216",
@@ -17066,7 +17840,8 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "id": "2.217",
@@ -17088,7 +17863,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "id": "2.218",
@@ -17110,7 +17886,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    "familjTidigare": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD byggs av gemensamma primfaktorer med minsta exponent, MGM av alla förekommande primfaktorer med största exponent.</p>"
   },
   {
     "id": "2.301",
@@ -17131,7 +17908,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande. När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p>"
   },
   {
     "id": "2.302",
@@ -17152,7 +17930,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande. När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p>"
   },
   {
     "id": "2.303",
@@ -17173,7 +17952,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande. När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p>"
   },
   {
     "id": "2.304",
@@ -17194,7 +17974,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande. När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p>"
   },
   {
     "id": "4.301",
@@ -17214,7 +17995,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera varje Eulersteg med \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Lutningen ska alltid beräknas i den punkt där steget börjar, inte i den nya punkten.</p>"
   },
   {
     "id": "4.302",
@@ -17234,7 +18016,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera varje Eulersteg med \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Lutningen ska alltid beräknas i den punkt där steget börjar, inte i den nya punkten.</p>"
   },
   {
     "id": "4.303",
@@ -17255,7 +18038,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I Euler-metoden används lutningen i början av steget. Här är \\(y(0)=2\\), så lutningen där är \\(y'=y=2\\).</p>"
   },
   {
     "id": "1.301",
@@ -17276,7 +18060,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fördelningen motsvarar icke-negativa heltalslösningar till \\(x_1+x_2+x_3=8\\). Ett konkret sätt att räkna dem är att tänka de 8 identiska kulorna i en rad och placera 2 avskiljare som delar raden i tre märkta lådor.</p>"
   },
   {
     "id": "1.302",
@@ -17297,7 +18082,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När objekten är identiska avgör bara hur många som hamnar i varje grupp. Översätt därför fördelningen till en ekvation för icke-negativa heltal och justera först för eventuella minimikrav.</p>"
   },
   {
     "id": "2.305",
@@ -17318,7 +18104,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Skriv påståendet som “om P så Q”. Bedöm om det är enklast att gå direkt från P till Q eller att visa kontrapositionen “om inte Q så inte P”.</p>"
   },
   {
     "id": "4.304",
@@ -17339,7 +18126,8 @@ window.BANKMATF1 = [
       "modellering",
       "begrepp"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Identifiera först vilken storhet som förändras och vilka mekanismer som ökar respektive minskar den. Differentialekvationen ska uttrycka nettot av dessa förändringshastigheter med korrekta enheter.</p>"
   },
   {
     "id": "2.321",
@@ -17360,7 +18148,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Välj bevismetod efter påståendets logiska form. För ett påstående ”om P så Q” kan kontrapositionen ”om inte Q så inte P” vara enklare, medan ett direkt bevis börjar i P och arbetar fram till Q.</p>"
   },
   {
     "id": "2.322",
@@ -17381,7 +18170,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Välj bevismetod efter påståendets logiska form. För ett påstående ”om P så Q” kan kontrapositionen ”om inte Q så inte P” vara enklare, medan ett direkt bevis börjar i P och arbetar fram till Q.</p>"
   },
   {
     "id": "4.320",
@@ -17402,7 +18192,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar. Bygg därefter en differentialekvation som ger just dessa egenskaper.</p>"
   },
   {
     "id": "4.321",
@@ -17423,7 +18214,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Utgå från lösningsfamiljens form och identifiera vilka karakteristiska rötter eller vilket jämviktsvärde den motsvarar. Bygg därefter en differentialekvation som ger just dessa egenskaper.</p>"
   },
   {
     "id": "4.322",
@@ -17444,7 +18236,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera varje Eulersteg med \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Lutningen ska alltid beräknas i den punkt där steget börjar, inte i den nya punkten.</p>"
   },
   {
     "id": "4.323",
@@ -17465,7 +18258,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera varje Eulersteg med \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Lutningen ska alltid beräknas i den punkt där steget börjar, inte i den nya punkten.</p>"
   },
   {
     "id": "4.324",
@@ -17486,7 +18280,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "ledtrad": "<p>När förändringshastigheten är proportionell mot den aktuella mängden gäller \\(y'=ky\\) och därmed \\(y=y_0e^{kt}\\). Tecknet på \\(k\\) avgör tillväxt eller sönderfall, och givna värden används för att bestämma \\(k\\) eller tiden.</p>"
   },
   {
     "id": "4.325",
@@ -17507,14 +18302,15 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid Newtons avsvalningslag är det temperaturskillnaden mot omgivningen som avtar exponentiellt. Skriv därför \\(T-T_{omg}\\) som en exponentialfunktion och använd mätvärdena för att bestämma konstanten.</p>"
   },
   {
     "kap": 4,
     "omr": "riktningsfalt_euler",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Använd Eulers metod på differentialekvationen \\(y'=x+y\\) med \\(y(0)=1\\), steglängd \\(h=0.2\\) och 2 steg.</p><p>Bestäm det approximativa värdet efter 2 steg.</p>",
+    "t": "<p>Använd Eulers metod på differentialekvationen \\(y'=x+y\\) med \\(y(0)=1\\), steglängd \\(h=0{,}2\\) och 2 steg.</p><p>Bestäm det approximativa värdet efter 2 steg.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><p><strong>Metod:</strong> Eulersteget är \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><p>Steg 1: \\(f=1.0000\\), så \\(y=1.2000\\).</p><p>Steg 2: \\(f=1.4000\\), så \\(y=1.4800\\).</p><p><strong>Svar:</strong> \\(1.4800\\).</p>",
     "id": "4.305",
     "miniräknare": false,
@@ -17527,14 +18323,15 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 4,
     "omr": "riktningsfalt_euler",
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Använd Eulers metod på differentialekvationen \\(y'=x+y\\) med \\(y(0)=2\\), steglängd \\(h=0.1\\) och 3 steg.</p><p>Bestäm det approximativa värdet efter 3 steg.</p>",
+    "t": "<p>Använd Eulers metod på differentialekvationen \\(y'=x+y\\) med \\(y(0)=2\\), steglängd \\(h=0{,}1\\) och 3 steg.</p><p>Bestäm det approximativa värdet efter 3 steg.</p>",
     "s": "<p><strong>Metod:</strong> Eulersteget är \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><p>Steg 1: \\(f=2.0000\\), så \\(y=2.2000\\).</p><p>Steg 2: \\(f=2.3000\\), så \\(y=2.4300\\).</p><p>Steg 3: \\(f=2.6300\\), så \\(y=2.6930\\).</p><p><strong>Svar:</strong> \\(2.6930\\).</p>",
     "id": "4.306",
     "miniräknare": false,
@@ -17547,14 +18344,15 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Eulersteget är \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Gå ett steg i taget.</p>"
   },
   {
     "kap": 4,
     "omr": "riktningsfalt_euler",
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Använd Eulers metod på differentialekvationen \\(y'=x+y\\) med \\(y(0)=0\\), steglängd \\(h=0.25\\) och 2 steg.</p><p>Bestäm det approximativa värdet efter 2 steg.</p>",
+    "t": "<p>Använd Eulers metod på differentialekvationen \\(y'=x+y\\) med \\(y(0)=0\\), steglängd \\(h=0{,}25\\) och 2 steg.</p><p>Bestäm det approximativa värdet efter 2 steg.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><p><strong>Metod:</strong> Eulersteget är \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><p>Steg 1: \\(f=0.0000\\), så \\(y=0.0000\\).</p><p>Steg 2: \\(f=0.2500\\), så \\(y=0.0625\\).</p><p><strong>Svar:</strong> \\(0.0625\\).</p>",
     "id": "4.307",
     "miniräknare": false,
@@ -17567,7 +18365,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p>"
   },
   {
     "kap": 1,
@@ -17588,7 +18387,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När objekten är identiska avgör bara hur många som hamnar i varje grupp. Översätt därför fördelningen till en ekvation för icke-negativa heltal och justera först för eventuella minimikrav.</p>"
   },
   {
     "kap": 1,
@@ -17609,7 +18409,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När objekten är identiska avgör bara hur många som hamnar i varje grupp. Översätt därför fördelningen till en ekvation för icke-negativa heltal och justera först för eventuella minimikrav.</p>"
   },
   {
     "kap": 1,
@@ -17630,7 +18431,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När objekten är identiska avgör bara hur många som hamnar i varje grupp. Översätt därför fördelningen till en ekvation för icke-negativa heltal och justera först för eventuella minimikrav.</p>"
   },
   {
     "kap": 4,
@@ -17651,7 +18453,8 @@ window.BANKMATF1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Identifiera först vilken storhet som förändras och vilka mekanismer som ökar respektive minskar den. Differentialekvationen ska uttrycka nettot av dessa förändringshastigheter med korrekta enheter.</p>"
   },
   {
     "kap": 4,
@@ -17672,7 +18475,8 @@ window.BANKMATF1 = [
       "modellering",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Identifiera först vilken storhet som förändras och vilka mekanismer som ökar respektive minskar den. Differentialekvationen ska uttrycka nettot av dessa förändringshastigheter med korrekta enheter.</p>"
   },
   {
     "kap": 4,
@@ -17693,7 +18497,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Identifiera först vilken storhet som förändras och vilka mekanismer som ökar respektive minskar den. Differentialekvationen ska uttrycka nettot av dessa förändringshastigheter med korrekta enheter.</p>"
   },
   {
     "kap": 2,
@@ -17712,7 +18517,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande. När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p>"
   },
   {
     "kap": 2,
@@ -17731,7 +18537,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande. När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p>"
   },
   {
     "kap": 2,
@@ -17750,7 +18557,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande. När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p>"
   },
   {
     "kap": 4,
@@ -17771,7 +18579,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I ett riktningsfält är linjeelementets lutning lika med differentialekvationens högerled i just den punkten. Sätt därför in punktens koordinater i uttrycket för \\(y'\\).</p>"
   },
   {
     "kap": 4,
@@ -17792,7 +18601,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I ett riktningsfält är linjeelementets lutning lika med differentialekvationens högerled i just den punkten. Sätt därför in punktens koordinater i uttrycket för \\(y'\\).</p>"
   },
   {
     "kap": 4,
@@ -17813,7 +18623,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>I ett riktningsfält är linjeelementets lutning lika med differentialekvationens högerled i just den punkten. Sätt därför in punktens koordinater i uttrycket för \\(y'\\).</p>"
   },
   {
     "kap": 2,
@@ -17832,7 +18643,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Börja med de givna antagandena och skriv dem i en algebraisk form som kan användas. Målet är att varje steg ska följa direkt av föregående steg tills det påstående som ska visas nås.</p>"
   },
   {
     "kap": 2,
@@ -17851,7 +18663,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Välj bevismetod efter påståendets logiska form. För ett påstående ”om P så Q” kan kontrapositionen ”om inte Q så inte P” vara enklare, medan ett direkt bevis börjar i P och arbetar fram till Q.</p>"
   },
   {
     "kap": 2,
@@ -17870,14 +18683,15 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Välj bevismetod efter påståendets logiska form. För ett påstående ”om P så Q” kan kontrapositionen ”om inte Q så inte P” vara enklare, medan ett direkt bevis börjar i P och arbetar fram till Q.</p>"
   },
   {
     "kap": 3,
     "omr": "derivata_tillampningar",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Använd linjär approximation kring \\(x_0=4\\) för att approximera värdet av \\(sqrt(4.1)\\). Här är \\(f(4)=2\\) och \\(f'(4)=0.25\\).</p>",
+    "t": "<p>Använd linjär approximation kring \\(x_0=4\\) för att approximera \\(\\sqrt{4{,}1}\\). Du får använda att \\(f(4)=2\\) och \\(f'(4)=0{,}25\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p><p><strong>Metod:</strong> \\(f(x_0+\\Delta x)\\approx f(x_0)+f'(x_0)\\Delta x\\).</p><p>\\(2+0.25\\cdot0.1=2.0250\\).</p>",
     "id": "3.118",
     "miniräknare": false,
@@ -17891,14 +18705,15 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p>"
   },
   {
     "kap": 3,
     "omr": "derivata_tillampningar",
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Använd linjär approximation kring \\(x_0=1\\) för att approximera värdet av \\(ln(1.03)\\). Här är \\(f(1)=0\\) och \\(f'(1)=1\\).</p>",
+    "t": "<p>Använd linjär approximation kring \\(x_0=1\\) för att approximera \\(\\ln(1{,}03)\\). Du får använda att \\(f(1)=0\\) och \\(f'(1)=1\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p><p><strong>Metod:</strong> \\(f(x_0+\\Delta x)\\approx f(x_0)+f'(x_0)\\Delta x\\).</p><p>\\(0+1\\cdot0.03=0.0300\\).</p>",
     "id": "3.119",
     "miniräknare": false,
@@ -17912,14 +18727,15 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p>"
   },
   {
     "kap": 3,
     "omr": "derivata_tillampningar",
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Använd linjär approximation kring \\(x_0=0\\) för att approximera värdet av \\(e^0.05\\). Här är \\(f(0)=1\\) och \\(f'(0)=1\\).</p>",
+    "t": "<p>Använd linjär approximation kring \\(x_0=0\\) för att approximera \\(e^{0{,}05}\\). Du får använda att \\(f(0)=1\\) och \\(f'(0)=1\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p><p><strong>Metod:</strong> \\(f(x_0+\\Delta x)\\approx f(x_0)+f'(x_0)\\Delta x\\).</p><p>\\(1+1\\cdot0.05=1.0500\\).</p>",
     "id": "3.120",
     "miniräknare": false,
@@ -17933,7 +18749,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Nära punkten \\(x=a\\) ersätts grafen med sin tangent. Beräkna därför både \\(f(a)\\) och \\(f'(a)\\) och använd \\(L(x)=f(a)+f'(a)(x-a)\\); approximationen blir bäst nära \\(a\\).</p>"
   },
   {
     "kap": 2,
@@ -17953,7 +18770,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv talet på formen \\(n=q m+r\\), där \\(0\\le r\\lt m\\). Resten \\(r\\) är den restklass talet tillhör modulo \\(m\\), och det är den som efterfrågas.</p>"
   },
   {
     "kap": 2,
@@ -17973,7 +18791,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv talet på formen \\(n=q m+r\\), där \\(0\\le r\\lt m\\). Resten \\(r\\) är den restklass talet tillhör modulo \\(m\\), och det är den som efterfrågas.</p>"
   },
   {
     "kap": 2,
@@ -17993,14 +18812,15 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv talet på formen \\(n=q m+r\\), där \\(0\\le r\\lt m\\). Resten \\(r\\) är den restklass talet tillhör modulo \\(m\\), och det är den som efterfrågas.</p>"
   },
   {
     "kap": 4,
     "omr": "modellering_digitalt",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För \\(y'=y,\\ y(0)=1\\) används Eulers metod med \\(h=0.2\\) i 3 steg.</p><p>Bestäm absolutfelet jämfört med den exakta lösningen \\(y=e^x\\) vid slutpunkten.</p>",
+    "t": "<p>För \\(y'=y,\\ y(0)=1\\) används Eulers metod med \\(h=0{,}2\\) i 3 steg.</p><p>Bestäm absolutfelet jämfört med den exakta lösningen \\(y=e^x\\) vid slutpunkten.</p>",
     "s": "<p>Eulers metod använder \\(y_{n+1}=y_n+h\\,y_n=(1+h)y_n\\) eftersom \\(y\\prime=y\\). Med \\(h=0{,}2\\) och tre steg blir</p><p>\\[y_3=(1{,}2)^3=1{,}728.\\]</p><p>Efter tre steg är slutpunkten \\(x=3\\cdot0{,}2=0{,}6\\). Den exakta lösningen \\(y=e^x\\) ger då</p><p>\\[e^{0{,}6}\\approx1{,}82212.\\]</p><p>Absolutfelet är därför</p><p>\\[|1{,}82212-1{,}728|\\approx0{,}09412.\\]</p><p><strong>Svar:</strong> cirka \\(0{,}0941\\).</p>",
     "id": "4.314",
     "miniräknare": true,
@@ -18014,14 +18834,15 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Derivera den föreslagna lösningen så många gånger som ekvationen kräver och sätt in uttrycken i båda leden. En lösning måste göra ekvationen sann för alla relevanta x.</p>"
   },
   {
     "kap": 4,
     "omr": "modellering_digitalt",
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>För \\(y'=y,\\ y(0)=1\\) används Eulers metod med \\(h=0.1\\) i 5 steg.</p><p>Bestäm absolutfelet jämfört med den exakta lösningen \\(y=e^x\\) vid slutpunkten.</p>",
+    "t": "<p>För \\(y'=y,\\ y(0)=1\\) används Eulers metod med \\(h=0{,}1\\) i 5 steg.</p><p>Bestäm absolutfelet jämfört med den exakta lösningen \\(y=e^x\\) vid slutpunkten.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Kontrollera varje Eulersteg med \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Lutningen ska alltid beräknas i den punkt där steget börjar, inte i den nya punkten.</p><p><strong>Metod:</strong> Euler ger \\(y\\approx(1+h)^n=(1.1)^5=1.61051\\). Exakt värde är \\(e^{0.5}=1.64872\\).</p><p>Absolutfelet är \\(0.03821\\).</p>",
     "id": "4.315",
     "miniräknare": true,
@@ -18035,14 +18856,15 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera varje Eulersteg med \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Lutningen ska alltid beräknas i den punkt där steget börjar, inte i den nya punkten.</p>"
   },
   {
     "kap": 4,
     "omr": "modellering_digitalt",
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>För \\(y'=y,\\ y(0)=1\\) används Eulers metod med \\(h=0.25\\) i 4 steg.</p><p>Bestäm absolutfelet jämfört med den exakta lösningen \\(y=e^x\\) vid slutpunkten.</p>",
+    "t": "<p>För \\(y'=y,\\ y(0)=1\\) används Eulers metod med \\(h=0{,}25\\) i 4 steg.</p><p>Bestäm absolutfelet jämfört med den exakta lösningen \\(y=e^x\\) vid slutpunkten.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Kontrollera varje Eulersteg med \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Lutningen ska alltid beräknas i den punkt där steget börjar, inte i den nya punkten.</p><p><strong>Metod:</strong> Euler ger \\(y\\approx(1+h)^n=(1.25)^4=2.44141\\). Exakt värde är \\(e^{1.0}=2.71828\\).</p><p>Absolutfelet är \\(0.27688\\).</p>",
     "id": "4.316",
     "miniräknare": true,
@@ -18056,7 +18878,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kontrollera varje Eulersteg med \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Lutningen ska alltid beräknas i den punkt där steget börjar, inte i den nya punkten.</p>"
   },
   {
     "kap": 4,
@@ -18078,7 +18901,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>En jämviktslösning är konstant och måste därför ge \\(y'=0\\). Lös först ekvationen för jämvikterna och undersök sedan tecknet på högerledet på båda sidor för att avgöra om lösningar rör sig mot eller från jämvikten.</p>"
   },
   {
     "kap": 4,
@@ -18099,7 +18923,8 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>För att jämföra \\(y=Ce^{2x}\\) med formen \\(y'=ky\\) behöver vi skriva derivatan som en multipel av själva \\(y\\).</p>"
   },
   {
     "kap": 4,
@@ -18121,6 +18946,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "familjTidigare": "Grundläggande analys av differentialekvationer"
+    "familjTidigare": "Grundläggande analys av differentialekvationer",
+    "ledtrad": "<p>En lösningskurva har horisontell tangent där dess lutning är noll. I en differentialekvation är lutningen just \\(y'\\).</p>"
   }
 ];

@@ -150,7 +150,21 @@
   --lvl1:#79A5DC;--lvl2:#1A66C2;--lvl3:#13498C;
 }
 /* Bokens färg styr accenten: a = rött, b = grönt, c = blått,
-   Fysik 1 = turkos, Fysik 2 = blålila. */
+   Fysik 1 = turkos, Fysik 2 = blålila.
+
+   Samma tre kulörer används på startsidans spårrutor, så att rutan
+   man klickar på är den färg rummet byter till. I mörkt läge lyfts
+   de ett par steg, annars sjunker de in i kortet. */
+:root{
+  --spar-a:#C2453B;--spar-a2:#9C3730;
+  --spar-b:#17835A;--spar-b2:#116546;
+  --spar-c:#1A66C2;--spar-c2:#14509A;
+}
+html[data-theme="dark"]{
+  --spar-a:#D2564B;--spar-a2:#A63F37;
+  --spar-b:#1C9B6B;--spar-b2:#147753;
+  --spar-c:#2D79D6;--spar-c2:#215CA8;
+}
 html[data-theme="light"][data-accent="a"]{  /* 1a och 2a */
   --bg:#F2ECF0;
   --surface:#FFFDFC;--surface2:#F8F6F9;--surface3:#EDE9EE;
@@ -633,6 +647,23 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
   display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;color:#fff;
   font-size:13.5px;font-weight:700;letter-spacing:-.02em;
   box-shadow:0 8px 18px -9px var(--tintStrong),inset 0 1px 0 rgba(255,255,255,.32);
+}
+/* Spårrutorna. Ett kort utan spår behåller sin kurskod. */
+.sparkoder{display:flex;gap:8px;flex-wrap:wrap}
+.sparkod{
+  width:48px;height:48px;flex:none;border-radius:16px;
+  display:grid;place-items:center;color:#fff;
+  font-size:14.5px;font-weight:700;letter-spacing:-.03em;
+  background:linear-gradient(160deg,var(--sf),var(--sf2));
+  box-shadow:0 8px 18px -9px var(--sf),inset 0 1px 0 rgba(255,255,255,.32);
+  transition:transform .22s var(--ease),box-shadow .22s var(--ease);
+}
+.sparkod:hover{transform:translateY(-2px);box-shadow:0 12px 22px -10px var(--sf),inset 0 1px 0 rgba(255,255,255,.32)}
+.sparkod:active{transform:translateY(0) scale(.96)}
+.sparkod:focus-visible{outline:2.5px solid var(--acc);outline-offset:3px}
+/* Resten av kortet är en egen knapp som öppnar kursens förvalda spår. */
+.kursoppna{
+  flex:1;display:flex;flex-direction:column;gap:14px;text-align:left;color:inherit;
 }
 .course-card h3{font-size:18.5px;line-height:1.15;letter-spacing:-.035em}
 .course-card .sub{margin-top:5px;font-size:12.5px;color:var(--ink3);font-weight:500}
@@ -3117,25 +3148,37 @@ function renderHome(){
     <section class="course-grid stagger">
       ${COURSE_ORDER.map(id=>{
         const c=COURSES[id];
-        return `<button class="course-card" id="course-${id}" onclick="selectCourse('${id}')"
+        const status=(()=>{
+          const l=kursLage(id);
+          if(!l) return `<span class="go">Öppna <span aria-hidden="true">→</span></span>`;
+          return `<span class="kursstatus">
+            <span class="kursbar"><i style="width:${Math.round(l.snitt*100)}%;background:${c.tint}"></i></span>
+            <span class="kurssiffror">
+              <span>${l.omraden} område${l.omraden===1?"":"n"} · ${Math.round(l.snitt*100)} %</span>
+              <span class="go">Fortsätt <span aria-hidden="true">→</span></span>
+            </span>
+          </span>`;
+        })();
+        // Kurser med flera spår visar spåren i stället för kurskoden.
+        // Eleven vet att hon läser 1c, inte att hon läser Ma1.
+        const flera=c.tracks.length>1;
+        return `<div class="course-card" id="course-${id}"
             style="--tint:${c.tint}22;--tintStrong:${c.tint}">
-          <span class="kurskod" style="background:linear-gradient(160deg,${c.tint},${c.tint}bb)">${esc(c.code)}</span>
-          <span>
-            <h3>${esc(c.name)}</h3>
-            <span class="sub">${esc(c.subject)}</span>
-          </span>
-          ${(()=>{
-            const l=kursLage(id);
-            if(!l) return `<span class="go">Öppna <span aria-hidden="true">→</span></span>`;
-            return `<span class="kursstatus">
-              <span class="kursbar"><i style="width:${Math.round(l.snitt*100)}%;background:${c.tint}"></i></span>
-              <span class="kurssiffror">
-                <span>${l.omraden} område${l.omraden===1?"":"n"} · ${Math.round(l.snitt*100)} %</span>
-                <span class="go">Fortsätt <span aria-hidden="true">→</span></span>
-              </span>
-            </span>`;
-          })()}
-        </button>`;
+          ${flera?`<div class="sparkoder">${c.tracks.map(t=>{
+            const bok=String(t).slice(-1).toLowerCase();
+            return `<button class="sparkod" style="--sf:var(--spar-${bok});--sf2:var(--spar-${bok}2)"
+              onclick="oppnaSpar('${id}','${t}')"
+              title="Öppna ${esc(c.name)}, spår ${esc(t)}">${esc(t)}</button>`;
+          }).join("")}</div>`:""}
+          <button class="kursoppna" onclick="selectCourse('${id}')">
+            ${flera?"":`<span class="kurskod" style="background:linear-gradient(160deg,${c.tint},${c.tint}bb)">${esc(c.code)}</span>`}
+            <span>
+              <h3>${esc(c.name)}</h3>
+              <span class="sub">${esc(c.subject)}</span>
+            </span>
+            ${status}
+          </button>
+        </div>`;
       }).join("")}
     </section>
   </main>`;
@@ -3426,6 +3469,20 @@ function areaStatus(key){
   if(m>=.55)  return {seen:true,m,label:"På gång",tone:"t-mid",mcls:""};
   return {seen:true,m,label:"Behöver träning",tone:"t-low",mcls:""};
 }
+/* Öppnar en kurs direkt på ett bestämt spår, från startsidans rutor.
+   selectCourse sätter alltid det förvalda spåret, så bytet måste ske
+   efter laddningen men före ritningen. */
+async function oppnaSpar(id,spar){
+  const c=COURSES[id];
+  if(!c) return;
+  const ok=await selectCourse(id,{record:false,render:false});
+  if(!ok) return;
+  if(c.tracks.includes(spar)) state.track=spar;
+  applyAccent();
+  navRecord("dashboard");
+  renderDashboard();
+}
+
 function setTrack(track){
   state.track=track; applyAccent(); state.openChapters=null;
   state.focusArea=null; state.focusOmr=null; state.focusNamn=null;

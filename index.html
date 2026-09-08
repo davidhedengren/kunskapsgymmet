@@ -19,22 +19,23 @@
 <title>Kunskapsgymmet – adaptiv träning i matematik och fysik</title>
 
 <!-- ══════════════════════════════════════════════════════════════
-     ADRESS: https://www.kunskapsgymmet.se/
+     ADRESS: https://kunskapsgymmet.se/  (utan www — det är den
+     adress GitHub Pages levererar, och www omdirigeras dit)
      Delningsbilder och sökmotorer kräver fullständiga adresser, inte
      relativa. Byter sidan adress måste strängen bytas överallt nedan,
      och även i robots.txt och sitemap.xml.
      ══════════════════════════════════════════════════════════════ -->
 <meta name="description" content="Träna matematik och fysik med uppgifter som anpassar sig efter hur det går för dig. Ma1, Ma2, fortsättning, fördjupning, Fysik 1 och Fysik 2.">
-<link rel="canonical" href="https://www.kunskapsgymmet.se/">
+<link rel="canonical" href="https://kunskapsgymmet.se/">
 <meta name="robots" content="index, follow">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Kunskapsgymmet">
 <meta property="og:locale" content="sv_SE">
-<meta property="og:url" content="https://www.kunskapsgymmet.se/">
+<meta property="og:url" content="https://kunskapsgymmet.se/">
 <meta property="og:title" content="Kunskapsgymmet – adaptiv träning i matematik och fysik">
 <meta property="og:description" content="Träna matematik och fysik med uppgifter som anpassar sig efter hur det går för dig. Ma1, Ma2, fortsättning, fördjupning, Fysik 1 och Fysik 2.">
-<meta property="og:image" content="https://www.kunskapsgymmet.se/og-image.png">
+<meta property="og:image" content="https://kunskapsgymmet.se/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:type" content="image/png">
@@ -43,7 +44,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Kunskapsgymmet – adaptiv träning i matematik och fysik">
 <meta name="twitter:description" content="Träna matematik och fysik med uppgifter som anpassar sig efter hur det går för dig.">
-<meta name="twitter:image" content="https://www.kunskapsgymmet.se/og-image.png">
+<meta name="twitter:image" content="https://kunskapsgymmet.se/og-image.png">
 <meta name="twitter:image:alt" content="Kunskapsgymmet – träna på rätt saker, på rätt nivå.">
 
 <script type="application/ld+json">
@@ -51,7 +52,7 @@
   "@context":"https://schema.org",
   "@type":"WebApplication",
   "name":"Kunskapsgymmet",
-  "url":"https://www.kunskapsgymmet.se/",
+  "url":"https://kunskapsgymmet.se/",
   "applicationCategory":"EducationalApplication",
   "operatingSystem":"Webbläsare",
   "inLanguage":"sv-SE",
@@ -788,6 +789,17 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   background:radial-gradient(circle,var(--goldSoft),transparent 70%);
 }
 .rankrow{display:flex;align-items:center;gap:15px;position:relative}
+/* Vägen till utvecklingssidan hör hemma där siffrorna står, inte
+   längst ner i en annan ruta. */
+.rankid{min-width:0;padding-right:8px}
+.rankgo{
+  position:absolute;top:0;right:0;padding:4px 2px;
+  font-size:12px;font-weight:600;color:var(--ink3);white-space:nowrap;
+  font-family:var(--read);letter-spacing:0;transition:color .2s var(--ease);
+}
+.rankgo:hover{color:var(--accInk)}
+.rankgo span{display:inline-block;transition:transform .2s var(--ease)}
+.rankgo:hover span{transform:translateX(2px)}
 .ringwrap{position:relative;width:74px;height:74px;flex:none}
 .ringwrap .num{
   position:absolute;inset:0;display:grid;place-items:center;text-align:center;
@@ -1489,6 +1501,24 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 </head>
 
 <body>
+<!-- Sidan byggs helt av JavaScript, så en sökrobot som inte kör skript
+     ser annars en tom sida. Det här är den enda text som finns i
+     HTML:en från start, och den är också vad en besökare utan
+     JavaScript möts av. -->
+<noscript>
+  <div style="max-width:640px;margin:60px auto;padding:0 24px;font-family:system-ui,sans-serif;line-height:1.6">
+    <h1>Kunskapsgymmet</h1>
+    <p>Adaptiv träning i matematik och fysik för gymnasiet. Uppgifterna
+       anpassar sig efter hur det går för dig: nivån justeras efter dina
+       svar, och en personlig tränare lägger upp ett pass åt dig varje dag.</p>
+    <p>Kurser: Matematik 1, Matematik 2, Matematik fortsättning,
+       Matematik fördjupning, Fysik 1 och Fysik 2.</p>
+    <p>Sidan kräver JavaScript för att fungera. Slå på JavaScript i
+       webbläsaren och ladda om.</p>
+    <p>Kunskapsgymmet är byggt av David Hedengren, fysik- och
+       matematiklärare på Erik Dahlbergsgymnasiet i Jönköping.</p>
+  </div>
+</noscript>
 <div id="app"></div>
 <div id="toast" class="toast"></div>
 <div id="cheer" class="cheer" role="dialog" aria-live="polite"></div>
@@ -1769,11 +1799,15 @@ function slaIhopProfiler(a,b){
   p.streak = (a.lastDay===b.lastDay) ? Math.max(a.streak||0,b.streak||0) : (sen.streak||0);
   p.goal = bas.goal || extra.goal || 8;
 
-  // Namnet och synligheten följer den profil som tränat mest. Att
-  // gissa fel här får inte sluta med att någon syns mot sin vilja,
-  // så en profil utan uttryckligt val räknas som avstängd.
+  // Namnet följer den profil som tränat mest. Synligheten är på som
+  // standard, men ett uttryckligt nej på någon av enheterna vinner —
+  // ingen ska hamna på listan mot sin vilja för att synken råkade
+  // välja fel profil.
   p.namn = bas.namn || extra.namn || null;
-  p.visaTopplista = !!(bas.namn ? bas.visaTopplista : extra.visaTopplista);
+  p.toppValt = !!(a.toppValt || b.toppValt);
+  const doldNagonstans = (a.toppValt && a.visaTopplista===false)
+                      || (b.toppValt && b.visaTopplista===false);
+  p.visaTopplista = !doldNagonstans;
 
   p.badges={...(extra.badges||{})};
   Object.entries(a.badges||{}).forEach(([k,v])=>{p.badges[k]=Math.min(p.badges[k]||v,v);});
@@ -1944,6 +1978,7 @@ async function claimaNamn(namn){
    går att läsa för någon annan. */
 async function vaxlaTopplista(pa){
   profile.visaTopplista=!!pa;
+  profile.toppValt=true;
   saveProfile();
   await skickaTopplista();
 }
@@ -2064,6 +2099,16 @@ async function navRestore(st){
   }
 }
 window.addEventListener("popstate",e=>{ navRestore(e.state); });
+/* En fokuslänk som öppnas i en flik där appen redan körs laddar inte
+   om sidan, den byter bara hash. Egna navigeringar skriver aldrig ett
+   snedstreck, så det är säkert att bara reagera på dem. */
+window.addEventListener("hashchange",()=>{
+  const adr=tolkaAdress(location.hash);
+  if(!adr.kapitel || !COURSES[adr.kurs]) return;
+  onskadKapitel={kurs:adr.kurs,lista:adr.kapitel};
+  if(adr.kurs===state.course){ tillampaKapitelfokus(); renderDashboard(); }
+  else selectCourse(adr.kurs);
+});
 
 function loadProfile(){
   let p;
@@ -2079,9 +2124,12 @@ function loadProfileFrom(p){
   p.bastaPass ??= null;   // {pct, ratt, total, at}
   p.lastDay ??= null;
   // Topplistan. Namnet väljs av eleven och är inte Google-namnet.
-  // Deltagandet är avstängt tills eleven själv slår på det.
+  // Den som är inloggad är med som standard och får aktivt dölja sig.
+  // toppValt minns om eleven själv rört växeln: har någon en gång
+  // valt bort listan ska inte en ny standard sätta tillbaka dem där.
   p.namn ??= null;
-  p.visaTopplista ??= false;
+  p.toppValt ??= !!p.namn;
+  p.visaTopplista = p.toppValt ? !!p.visaTopplista : true;
   p.courses ||= {}; p.badges ||= {};
   return p;
 }
@@ -2573,7 +2621,7 @@ function kontoMeny(ev){
       <div class="menyrubrik">Topplistan</div>
       ${har
         ? `<div class="menynamn">${esc(profile.namn)}</div>`
-        : `<p class="menytext">Välj ett namn för att kunna vara med.</p>`}
+        : `<p class="menytext">Välj ett namn så syns du på listan.</p>`}
       <button class="btn sm wide" onclick="oppnaNamnruta()">${har?"Byt namn":"Välj användarnamn"}</button>
       ${har?`
       <button class="vaxel${profile.visaTopplista?" pa":""}" role="switch"
@@ -2675,9 +2723,9 @@ async function sparaNamn(){
   }
   stangNamnruta();
   toast("Användarnamnet är sparat.");
-  // Nyvalt namn: visa vad nästa steg är, utan att slå på det själv.
-  if(!profile.visaTopplista) setTimeout(()=>oppnaTopplista(),300);
-  else render();
+  // Med namnet på plats är eleven med på listan. Visa den direkt, så
+  // att det inte kommer som en överraskning var namnet dök upp.
+  setTimeout(()=>oppnaTopplista(),300);
 }
 
 /* ==========================================================
@@ -2693,6 +2741,33 @@ function visaGate(){ return MOLN_PA() && !session; }
 
 /* Kursen som eventuellt begärdes i adressen öppnas efter valet. */
 let onskadKurs=null;
+/* Adressen kan bära kapitelfokus: #ma2c/1,2 öppnar Matematik 2c med
+   kapitel 1 och 2 som fokus. Tänkt för läraren som delar en länk i
+   Classroom inför ett prov — eleven behöver inte kryssa i något. */
+let onskadKapitel=null;                 // {kurs, lista}
+function tolkaAdress(h){
+  const [kurs,kap]=String(h||"").replace(/^#/,"").split("/");
+  return {
+    kurs: kurs||null,
+    kapitel: kap ? kap.split(",").map(x=>x.trim()).filter(Boolean) : null
+  };
+}
+function tillampaKapitelfokus(){
+  if(!onskadKapitel || onskadKapitel.kurs!==state.course) return;
+  const onskade=onskadKapitel.lista; onskadKapitel=null;
+  const alla=kursensKapitel();
+  // Länken skriver kapitelnummer. Nycklarna kan se ut hur som helst,
+  // så både exakt träff och nummerträff godtas.
+  const valda=[...new Set(onskade.map(x=>
+    alla.find(k=>k===String(x) || kapNr(k)===Number(x))
+  ).filter(Boolean))];
+  if(!valda.length) return;
+  const cp=ensureCourseProfile();
+  cp.fokus=valda.sort((a,b)=>kapNr(a)-kapNr(b));
+  profile.pt=null;                      // dagens pass räknas om mot nya kapitel
+  saveProfile();
+  setTimeout(()=>toast("Fokus: "+valda.map(k=>chapterName(k)).join(" och ")),400);
+}
 async function startaAppen(){
   renderHome();
   navRecord("home",true);
@@ -2941,6 +3016,7 @@ async function selectCourse(id,opts){
     state.openChapters=null;
     ensureCourseProfile();
     migreraFamiljer();
+    tillampaKapitelfokus();
     applyAccent();
     if(record) navRecord("dashboard");
     if(render) renderDashboard();
@@ -3744,10 +3820,11 @@ function renderDashboard(){
               </linearGradient></defs></svg>
               <div class="num">${lp.level}<small>nivå</small></div>
             </div>
-            <div>
+            <div class="rankid">
               <div class="rankname">${esc(rank.name)}</div>
               <div class="rankmeta">${profile.xp} XP</div>
             </div>
+            <button class="rankgo" onclick="showProgress()">Min utveckling <span aria-hidden="true">→</span></button>
           </div>
           <div class="rankbar"><i data-w="${Math.round(lp.pct*100)}%"></i></div>
           <div class="rankfoot">
@@ -3788,7 +3865,6 @@ function renderDashboard(){
               <span class="dot warn"></span><span class="name">${esc(x.name)}</span><span class="val">${Math.round(x.m*100)}%</span>
             </button>`).join(""):`<div class="empty">Träna några uppgifter så bygger jag din profil.</div>`}
           </div>
-          <button class="btn soft wide sm" style="margin-top:10px" onclick="showProgress()">Min utveckling</button>
         </div>
       </aside>
     </div>
@@ -6017,7 +6093,7 @@ function ritaTopplista(laddar,rader,placering){
     : !profile.namn
     ? `<div class="toppnotis">
          <b>Du är inte med än.</b>
-         <span>Välj ett användarnamn så kan du ställa dig på listan.</span>
+         <span>Välj ett användarnamn så kommer du med på listan. Du kan dölja dig igen när du vill.</span>
          <button class="btn sm" onclick="oppnaNamnruta()">Välj användarnamn</button>
        </div>`
     : !profile.visaTopplista
@@ -6275,7 +6351,11 @@ window.addEventListener("load",async()=>{
   if(MOLN_PA()) lasSession();
   // Adressen läses först: navRecord skriver om den och skulle annars
   // radera hashen innan vi hunnit se vilken kurs som efterfrågas.
-  onskadKurs=location.hash.replace("#","");
+  {
+    const adr=tolkaAdress(location.hash);
+    onskadKurs=adr.kurs;
+    if(adr.kurs && adr.kapitel) onskadKapitel={kurs:adr.kurs,lista:adr.kapitel};
+  }
 
   // Länken från "glömt lösenord" loggar in tillfälligt. Då är det bara
   // lösenordsrutan som ska mötas, inte hela appen.

@@ -1227,6 +1227,24 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 
 .aacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
 .hint{margin-top:10px;font-size:12px;color:var(--ink3);line-height:1.5}
+/* Ledtråden är varken rätt eller fel, så den håller sig utanför
+   rött och grönt. Den ligger direkt ovanför knapparna, så att den
+   syns utan att eleven behöver leta på mobilen. */
+.ledtrad{
+  margin:14px 0 2px;padding:13px 15px;border-radius:15px;
+  border:1px solid var(--hair2);background:var(--surface2);
+  animation:pop .28s var(--ease) both;
+}
+.ledtrad b{
+  display:block;margin-bottom:5px;font-size:11px;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);
+}
+.ledtrad .ltxt{
+  font-family:var(--read);font-size:14.5px;line-height:1.55;
+  letter-spacing:0;color:var(--ink2);
+}
+.ledtrad .ltxt p{margin:0 0 8px}
+.ledtrad .ltxt p:last-child{margin-bottom:0}
 .notice{
   display:flex;gap:10px;align-items:flex-start;margin-bottom:14px;padding:12px 14px;border-radius:14px;
   background:var(--accSoft);color:var(--accInk);font-family:var(--read);font-size:13.5px;line-height:1.45;
@@ -1246,6 +1264,14 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   font-size:12.5px;font-weight:700;padding:6px 11px;border-radius:99px;
   background:linear-gradient(160deg,#f3d99f,#c99b3b);color:#402f08;white-space:nowrap;
   box-shadow:inset 0 1px 0 rgba(255,255,255,.5);
+}
+.xplapp{
+  font-size:11px;font-weight:600;color:var(--ink3);white-space:nowrap;
+  font-family:var(--read);letter-spacing:0;
+}
+.lkost{
+  display:block;margin-top:9px;font-size:11.5px;color:var(--ink3);
+  font-family:var(--read);letter-spacing:0;
 }
 .sol{
   margin-top:12px;padding:20px;border:1px solid var(--hair);border-radius:18px;background:var(--surface);
@@ -1797,7 +1823,7 @@ async function synkaProfil(){
   }
   await skickaMolnprofil();
 }
-const BANK_VERSION="2026-09-07b";
+const BANK_VERSION="2026-09-08";
 const app=document.getElementById("app");
 
 const state={
@@ -2976,6 +3002,9 @@ function expandGameTask(t){
     q.id=`${t.id}${etikett}`;
     q.t=del?.t || t.t;
     q.s=del?.s || t.s;
+    // Varje del har sin egen ledtråd. Huvuduppgiftens används bara
+    // som reserv, annars skulle alla delar få samma tips.
+    q.ledtrad=del?.ledtrad || t.ledtrad || null;
     q.rättSvar=metadataForDel(t.rättSvar,i,antal);
     q.tolerans=metadataForDel(t.tolerans,i,antal);
     q.självrättning=metadataForDel(t.självrättning,i,antal);
@@ -4201,6 +4230,7 @@ function nextTask(){
   noteNewLevel(t);
   state.currentTask=t;state.answered=false;state.solutionShown=false;
   state.partResults=[];state.partIndex=0;state.noXp=false;state.aktivRuta=0;
+  state.hintUsed=false;state.hintVisible=false;
   state.lastIds.push(t.id);
   if(state.lastIds.length>12) state.lastIds.shift();
   renderTraining();
@@ -5424,11 +5454,14 @@ function renderTraining(){
           ${partLine}
           <div class="ainputs">${fieldHtml}</div>
           ${isLongAnswer?"":symbolrad(t)}
+          <div id="ledtrad-holder">${state.hintVisible?ledtradRuta(t):""}</div>
           <div class="aacts">
             ${canAuto
               ? `<button class="btn primary" onclick="checkAnswer()">Kontrollera</button>
+                 ${t.ledtrad&&!state.hintVisible?`<button class="btn" id="ledtradknapp" onclick="visaLedtrad()">Visa ledtråd</button>`:""}
                  <button class="btn" onclick="showSolution()">Visa lösning</button>`
-              : `<button class="btn primary" onclick="showSolution()">Visa facit och jämför</button>`}
+              : `${t.ledtrad&&!state.hintVisible?`<button class="btn" id="ledtradknapp" onclick="visaLedtrad()">Visa ledtråd</button>`:""}
+                 <button class="btn primary" onclick="showSolution()">Visa facit och jämför</button>`}
           </div>
           ${canAuto
             ? (layout.blandad
@@ -5703,6 +5736,9 @@ function finishAttempt(resultat){
   }
   const bas=xpFor(t.niva,true,profile.run);
   let xp = correct ? bas : Math.max(2,Math.round(bas*andel));
+  // En ledtråd är hjälp på vägen, inte ett fel. Den kostar halva XP:n
+  // för uppgiften men påverkar varken rätt/fel eller mastery.
+  if(state.hintUsed) xp=Math.max(1,Math.round(xp*.5));
   if(state.noXp) xp=0;                       // lösningen var redan visad
   profile.xp+=xp;
   profile.today=(profile.today||0)+1;
@@ -5721,6 +5757,7 @@ function finishAttempt(resultat){
     fs.forEach(f=>updateMastery(cp.families,f,v));
   });
   cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj,
+    hint:!!state.hintUsed,
     ...(t.ursprungsId?{ursprungsId:t.ursprungsId,deluppgift:t.deluppgift}:{})});
   cp.history=cp.history.slice(-300);
 
@@ -5774,6 +5811,7 @@ function finishAttempt(resultat){
           <small>${under}</small>
         </div>
         <span class="xpchip"${state.noXp?' style="background:var(--surface3);color:var(--ink3);box-shadow:none"':""}>${state.noXp?"0 XP":"+"+xp+" XP"}</span>
+        ${(state.hintUsed && !state.noXp)?`<span class="xplapp">halverat · ledtråd</span>`:""}
       </div>
       <div class="aacts">
         ${!correct?`<button class="btn" onclick="showSolution()">Visa lösning</button>`:""}
@@ -5783,6 +5821,24 @@ function finishAttempt(resultat){
       </div>`;
     setTimeout(()=>document.getElementById("nextbtn")?.focus(),80);
   }
+}
+
+/* ---------- ledtrådar ----------
+   Ledtråden är ett steg före facit: den pekar ut vägen utan att ge
+   svaret. När den väl visats går den inte att ta tillbaka. */
+function ledtradRuta(t){
+  // Kostnaden nämns inte på knappen — hjälpen ska vara lätt att ta —
+  // men den syns i samma stund som eleven öppnar rutan.
+  return `<div class="ledtrad"><b>Ledtråd</b><div class="ltxt">${t.ledtrad||""}</div>
+    <span class="lkost">Halv XP för den här uppgiften</span></div>`;
+}
+function visaLedtrad(){
+  const t=state.currentTask;
+  if(!t || !t.ledtrad || state.hintVisible) return;
+  state.hintUsed=true; state.hintVisible=true;
+  const h=document.getElementById("ledtrad-holder");
+  if(h){ h.innerHTML=ledtradRuta(t); renderMath(h); }
+  document.getElementById("ledtradknapp")?.remove();
 }
 
 function showSolution(){

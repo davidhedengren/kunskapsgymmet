@@ -1902,6 +1902,64 @@ function namnFel(namn){
   return null;
 }
 
+/* ---------- namnet från Google ----------
+   Den som loggar in med Google får sitt förnamn på listan direkt, utan
+   att behöva välja något. Namnet är bara ett förnamn, och eleven kan
+   både byta det och dölja sig efteråt — men den får veta att det hänt,
+   i samma stund som det händer. Att tyst publicera någons namn vore
+   fel även när namnet är harmlöst. */
+function fornamnFranKonto(u){
+  const m=u?.user_metadata||{};
+  const helt=m.given_name || m.first_name
+    || String(m.full_name || m.name || "").trim().split(/\s+/)[0] || "";
+  // Bara tecken användarnamn får innehålla. Punkter och apostrofer i
+  // namn som "J.P" eller "O'Brien" faller bort i stället för att stoppa.
+  const rent=helt.replace(/[^A-Za-zÅÄÖåäö0-9_-]/g,"");
+  if(rent.length<NAMN_MIN || rent.length>NAMN_MAX) return null;
+  return rent;
+}
+/* Krockar är regel, inte undantag: i en klass finns flera Anna. Den
+   första får sitt rena förnamn. För nästa slår automatiken av och
+   eleven får välja själv, med förnamnet förifyllt. Alternativen vore
+   Anna2, som ingen vill heta, eller efternamnets initial, som pekar ut
+   en enskild elev på en lista vem som helst kan läsa. */
+async function autoNamnFranGoogle(){
+  if(!MOLN_PA() || !session || profile.namn) return;
+  const u=await hamtaAnvandare();
+  const bas=fornamnFranKonto(u);
+  if(!bas) return;
+  const svar=await claimaNamn(bas);
+  if(svar.ok) return visaNamnBesked(bas);
+  if(/upptaget/i.test(svar.fel||""))
+    oppnaNamnruta(bas,`${bas} är redan taget. Välj ett namn du vill ha på listan.`);
+}
+function visaNamnBesked(namn){
+  const el=document.createElement("div");
+  el.className="modal"; el.id="namnbesked";
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-label="Du är med på topplistan" style="width:min(420px,100%)">
+      <div class="modal-topp">
+        <div>
+          <div class="lbl">Topplistan</div>
+          <h2>Du är med</h2>
+        </div>
+      </div>
+      <p class="modal-text">Du visas som <b>${esc(namn)}</b> på topplistan, tillsammans
+        med din nivå, dina medaljer och hur mycket du tränat. Vill du heta något
+        annat eller inte synas alls ändrar du det när som helst i menyn uppe till höger.</p>
+      <div class="modal-fot">
+        <span class="spacer"></span>
+        <button class="btn" onclick="stangNamnbesked();oppnaNamnruta()">Byt namn</button>
+        <button class="btn primary" onclick="stangNamnbesked()">Okej</button>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  requestAnimationFrame(()=>el.classList.add("visa"));
+}
+function stangNamnbesked(){
+  const el=document.getElementById("namnbesked");
+  if(el){ el.classList.remove("visa"); setTimeout(()=>el.remove(),200); }
+}
+
 /* Det, och bara det, som skickas till topplistan. */
 function topplistaRad(id){
   const lp=levelProgress();
@@ -2660,7 +2718,9 @@ async function vaxlaSynlighet(btn){
 }
 
 /* ---------- namnrutan ---------- */
-function oppnaNamnruta(){
+/* forslag och besked används när automatiken krockat: fältet är
+   förifyllt med förnamnet och eleven får veta varför den står här. */
+function oppnaNamnruta(forslag,besked){
   document.getElementById("kontomeny")?.remove();
   const el=document.createElement("div");
   el.className="modal"; el.id="namnruta";
@@ -2672,11 +2732,11 @@ function oppnaNamnruta(){
         </div>
         <button class="iconbtn" onclick="stangNamnruta()" aria-label="Stäng">✕</button>
       </div>
-      <p class="modal-text">Det här namnet är det enda andra ser. Välj något
-        du inte har något emot att visa — ditt riktiga namn behövs inte.</p>
+      <p class="modal-text">${besked?esc(besked)+" ":""}Det här namnet är det enda andra ser.
+        Välj något du inte har något emot att visa — ditt riktiga namn behövs inte.</p>
       <input id="namnfalt" class="namnfalt" maxlength="${NAMN_MAX}" autocomplete="off"
         spellcheck="false" placeholder="t.ex. raketrav"
-        value="${esc(profile.namn||"")}"
+        value="${esc(forslag||profile.namn||"")}"
         oninput="namnSkrivet()" onkeydown="if(event.key==='Enter')sparaNamn()">
       <div class="namnhjalp" id="namnhjalp">${NAMN_MIN}–${NAMN_MAX} tecken. Bokstäver, siffror, bindestreck och understreck.</div>
       <div class="modal-fot">
@@ -6369,6 +6429,7 @@ window.addEventListener("load",async()=>{
   if(MOLN_PA() && session){
     await hamtaAnvandare();
     await synkaProfil();
+    await autoNamnFranGoogle();
     render();
     if(nyInloggning) toast("Inloggad. Din träning synkas nu mellan enheterna.");
   }

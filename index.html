@@ -1393,6 +1393,42 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   margin-top:12px;padding:20px;border:1px solid var(--hair);border-radius:18px;background:var(--surface);
   font-family:var(--read);font-size:16px;line-height:1.62;letter-spacing:0;animation:rise .35s var(--ease) both;
 }
+
+/* Facitmarkup från uppgiftsbanken. Banken skickar facit-v2-strukturen,
+   men Kunskapsgymmet hade ingen stil för den, så delmarkörerna och
+   svarsraden ramlade ut som naken text. Oscopad, eftersom facit visas
+   både i .sol, i .delfacit och i .fellosning. */
+
+.facit-v2 > * + *{margin-top:12px}
+
+.facit-del{display:flex;gap:11px;align-items:flex-start}
+.facit-mark{
+  flex:0 0 auto;min-width:22px;height:22px;margin-top:2px;
+  display:inline-flex;align-items:center;justify-content:center;
+  border-radius:999px;background:var(--accSoft);color:var(--accInk);
+  font-family:var(--ui);font-size:12.5px;font-weight:700;line-height:1;
+}
+.facit-arbete{flex:1 1 auto;min-width:0}
+
+.facit-metod{margin:0 0 8px;color:var(--ink2)}
+.facit-matte{margin:8px 0;overflow-x:auto}
+.facit-matte mjx-container{margin:6px 0}
+
+.facit-svar{
+  margin:14px 0 0;padding:11px 14px;border-radius:12px;
+  background:var(--accSoft);color:var(--ink);
+}
+.facit-svar strong{color:var(--accInk)}
+
+/* Figurer i uppgiftstext och facit. Banken lindar dem i <span class="fig">,
+   ibland med bred/smal som breddhint. */
+.fig{display:block;margin:14px auto;text-align:center}
+.fig svg{display:block;max-width:100%;height:auto;margin:0 auto}
+.fig.smal svg{max-width:340px}
+
+/* Frågan i en enskild deluppgift, när en uppgift delats i spelet. */
+.spel-en-del{margin-top:12px;font-weight:600}
+
 .sol .lbl{font-size:12.5px;color:var(--ink3);font-weight:600}
 .sol svg{display:block;max-width:100%;height:auto;margin:18px auto}
 
@@ -3364,7 +3400,13 @@ function expandGameTask(t){
     q.ursprungsId=t.id;
     q.deluppgift=etikett;
     q.id=`${t.id}${etikett}`;
-    q.t=del?.t || t.t;
+    // Delen kan bära hela sin text i t, eller bara sin fråga i fraga och
+    // låta uppgiftens spelIntro stå för ingressen och figuren. Det andra
+    // sättet slipper kopiera samma SVG in i varje del.
+    q.t=del?.t
+      || (del?.fraga!=null && t.spelIntro!=null
+            ? `${t.spelIntro}<div class="spel-en-del">${del.fraga}</div>`
+            : t.t);
     q.s=del?.s || t.s;
     // Varje del har sin egen ledtråd. Huvuduppgiftens används bara
     // som reserv, annars skulle alla delar få samma tips.
@@ -3386,6 +3428,7 @@ function expandGameTask(t){
     }
     delete q.spelDelning;
     delete q.spelDelar;
+    delete q.spelIntro;
     delete q.svarEtiketter;
     return q;
   });
@@ -3920,16 +3963,31 @@ function dagensPass(){
   // innan den börjar peka ut svagheter.
   const typ=(cp.history||[]).length<10 ? "grund" : valjPassTyp();
   profile.pt={nyckel,typ};
-  profile.passLogg=[...(profile.passLogg||[]),{d:todayKey(),typ}].slice(-6);
   saveProfile();
   return typ;
+}
+
+/* Passloggen bokförs när passet startar, inte när kursöversikten
+   ritas. Loggen styr variationsregeln i valjPassTyp(), och den ska
+   mäta genomförd träning — inte att eleven tittat förbi tränarkortet
+   på väg till punktträningen. Många elever gör just det: de går
+   direkt på området de haft på lektionen och låter tränaren vara.
+
+   En dag ger en post. Byter eleven pass samma dag skrivs posten över,
+   så ett ombestämt sig räknas inte som två dagar. */
+function loggaPass(typ){
+  const logg=[...(profile.passLogg||[])];
+  const idag=todayKey();
+  if(logg.length && logg[logg.length-1].d===idag) logg[logg.length-1]={d:idag,typ};
+  else logg.push({d:idag,typ});
+  profile.passLogg=logg.slice(-6);
+  saveProfile();
 }
 /* Eleven får byta pass. En tränare som inte lyssnar är en app. */
 function valjPass(typ){
   if(!PASS[typ]) return;
+  // Bara ett val, ingen bokföring: loggen skrivs först om passet körs.
   profile.pt={nyckel:todayKey()+"|"+state.course+"|"+aktivaKapitel().join(","),typ,valt:true};
-  const logg=profile.passLogg||[];
-  if(logg.length && logg[logg.length-1].d===todayKey()) logg[logg.length-1].typ=typ;
   saveProfile();
   state.visaPassval=false;
   renderDashboard();
@@ -4612,6 +4670,7 @@ function startPass(typ){
     if(!ko.length){ toast("Du har inga fel att repetera just nu."); return; }
     state.focusOmr=null;
     state.visaPassval=false;state.visaFokus=false;
+    loggaPass(typ);
     beginSession(typ);
     state.felKo=ko;
     state.sessionTarget=ko.length;
@@ -4621,6 +4680,7 @@ function startPass(typ){
   const omr=passOmraden(typ);
   state.focusOmr=(omr && omr.length)?omr:null;
   state.visaPassval=false;state.visaFokus=false;
+  loggaPass(typ);
   beginSession(typ);
   navRecord("training");nextTask();
 }

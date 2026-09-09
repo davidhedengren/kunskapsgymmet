@@ -790,6 +790,36 @@ html[data-theme="dark"] .area.t-good{--toneWash:var(--goldSoft);--toneEdge:rgba(
 html[data-theme="dark"] .area.t-mid{--toneWash:var(--accSoft);--toneEdge:var(--hair2)}
 html[data-theme="dark"] .area.t-low{--toneWash:var(--amberSoft);--toneEdge:rgba(242,185,89,.28)}
 html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 44px -22px #000,inset 0 1px 0 rgba(255,255,255,.08)}
+/* Kortet är inte längre en enda knapp: ytan öppnar området, siktet
+   till höger öppnar punktträningen. Hela kortet lyfter fortfarande
+   som en enhet vid hovring, så det läses som ett kort och inte två. */
+.omr-oppna{
+  flex:1;min-width:0;display:flex;align-items:center;gap:13px;
+  text-align:left;color:inherit;padding:0;
+}
+.omr-punkt{
+  flex:none;width:34px;height:34px;border-radius:12px;display:grid;place-items:center;
+  color:var(--ink3);border:1px solid transparent;
+  transition:.2s var(--ease);
+}
+.omr-punkt svg{width:17px;height:17px;display:block}
+.omr-punkt:hover{color:var(--tone);border-color:var(--toneEdge);background:var(--toneWash)}
+.omr-punkt:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
+.area.stack{flex-direction:column;align-items:stretch;gap:11px;min-height:96px}
+/* Punktträningen: korten har olika många delmoment, så raden får inte
+   sträcka alla till det högsta kortets höjd. */
+.punktgrid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));align-items:start}
+.punktgrid .area.stack{min-height:0}
+.omrknapp{all:unset;cursor:pointer;display:block;flex:1;min-width:0}
+/* Kortrubriken i punktvyn: namnet till vänster, siktet till höger. */
+.omr-rad{display:flex;align-items:flex-start;gap:10px}
+.delmoment{display:block}
+.dellbl{
+  display:block;margin-bottom:6px;font-size:10.5px;font-weight:700;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);
+}
+.deltaggar{display:flex;gap:5px;flex-wrap:wrap}
+.area.stack .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
 .area-ring{position:relative;width:46px;height:46px;flex:none;display:grid;place-items:center}
 .area-ring:before{
   content:"";position:absolute;inset:0;border-radius:50%;background:var(--toneDisc);
@@ -804,19 +834,6 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .area strong{font-size:14px;font-weight:600;line-height:1.25;letter-spacing:-.022em;
   hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}
 .area .state{font-size:11.5px;font-weight:600;letter-spacing:.005em;color:var(--tone)}
-.area.stack{flex-direction:column;align-items:stretch;gap:11px;min-height:96px}
-/* Punktträningen: korten har olika många delmoment, så raden får inte
-   sträcka alla till det högsta kortets höjd. */
-.punktgrid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));align-items:start}
-.punktgrid .area.stack{min-height:0}
-.omrknapp{all:unset;cursor:pointer;display:block;width:100%}
-.delmoment{display:block}
-.dellbl{
-  display:block;margin-bottom:6px;font-size:10.5px;font-weight:700;
-  letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);
-}
-.deltaggar{display:flex;gap:5px;flex-wrap:wrap}
-.area.stack .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
 .meter{height:5px;border-radius:99px;background:var(--hair);overflow:hidden;flex:1;max-width:80px;
   box-shadow:inset 0 1px 2px rgba(11,33,51,.10)}
 .meter i{display:block;height:100%;border-radius:99px;width:0;transition:width 1.1s var(--ease);
@@ -2006,7 +2023,7 @@ const state={
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
   aktivRuta:0,
   focusOmr:null, focusNamn:null, senasteUrsprung:[],
-  flervalKap:null, flervalValda:null,
+  flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
   toppSort:"xp",
   lastIds:[], solutionShown:false, answered:false
@@ -2667,6 +2684,11 @@ function renderMath(root=app){
 const CHEV='<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>';
 
 const TONE_VAR={"t-good":"var(--good)","t-mid":"var(--acc)","t-low":"var(--warn)","t-new":"var(--hair2)"};
+
+/* Sikte: punktträning siktar på ett enskilt delmoment. */
+const PUNKT_IKON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" '
+  +'stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="7.5"/>'
+  +'<circle cx="12" cy="12" r="2.6"/><path d="M12 1.8v3M12 19.2v3M1.8 12h3M19.2 12h3"/></svg>';
 
 function chapterHead(kap,namn,omraden,tranaKnapp){
   const open=state.openChapters.has(String(kap));
@@ -3479,6 +3501,18 @@ function cardStatus(kort){
   return {seen:true,m,label:"Behöver träning",tone:"t-low",mcls:""};
 }
 
+/* Samma tröskelvärden som områdena, men för ett delmoment. Listorna
+   ska säga samma sak oavsett vilken nivå man tittar på. */
+function delmomentStatus(family){
+  const cp=ensureCourseProfile();
+  const seen=typeof cp.families[family]==="number";
+  const m=seen?cp.families[family]:0;
+  if(!seen)   return {m:0,label:"Ny",tone:"t-new"};
+  if(m>=.78)  return {m,label:"Stark",tone:"t-good"};
+  if(m>=.55)  return {m,label:"På gång",tone:"t-mid"};
+  return {m,label:"Behöver träning",tone:"t-low"};
+}
+
 function areaStatus(key){
   const cp=ensureCourseProfile();
   const seen=typeof cp.areas[key]==="number";
@@ -4076,17 +4110,26 @@ function renderDashboard(){
       <div class="area-grid stagger">
         ${grouped[kap].map(a=>{
           const s=cardStatus(a);
-          return `<button class="area ${s.tone}" onclick="startCard('${esc(a.key)}')"
+          // Punktknappen visas bara när kortet faktiskt har delmoment
+          // att välja mellan. Ett kort som i praktiken är ett enda
+          // delmoment får ingen knapp som inte leder någonstans.
+          const harDelar=cardFamilies(a).length>0;
+          return `<div class="area ${s.tone}">
+            <button class="omr-oppna" onclick="startCard('${esc(a.key)}')"
               title="${a.grupp?esc(a.delar.map(d=>d.name).join(" · ")):esc(a.name)}">
-            <span class="area-ring">
-              ${ring(s.m,46,4.5,"var(--tone)")}
-              ${s.seen?"":`<span class="pip"></span>`}
-            </span>
-            <span class="area-txt">
-              <strong>${esc(a.name)}</strong>
-              <span class="state">${s.label}</span>
-            </span>
-          </button>`;
+              <span class="area-ring">
+                ${ring(s.m,46,4.5,"var(--tone)")}
+                ${s.seen?"":`<span class="pip"></span>`}
+              </span>
+              <span class="area-txt">
+                <strong>${esc(a.name)}</strong>
+                <span class="state">${s.label}</span>
+              </span>
+            </button>
+            ${harDelar?`<button class="omr-punkt" onclick="oppnaPunkt('${esc(a.key)}')"
+              title="Punktträna delmoment i ${esc(a.name)}"
+              aria-label="Punktträna delmoment i ${esc(a.name)}">${PUNKT_IKON}</button>`:""}
+          </div>`;
         }).join("")}
       </div>
       </div>
@@ -4176,7 +4219,10 @@ function renderDashboard(){
 }
 
 /* ==========================================================
-   OMRÅDESVÄLJARE (punktträning på familjenivå)
+   PUNKTTRÄNING (hela kursen på en sida)
+   Samma val som siktet på kursöversiktens kort, men alla kapitel och
+   alla delmoment samtidigt. Överblicken är hela poängen: härifrån ser
+   eleven var delmomenten sitter innan hon väljer.
    ========================================================== */
 
 function showAreaPicker(record){
@@ -4192,7 +4238,7 @@ function showAreaPicker(record){
       <div class="t">
         <button class="crumb" onclick="backToDashboard()"><span aria-hidden="true">←</span> Tillbaka</button>
         <h1>Punktträna</h1>
-        <p>Välj område, eller ett enskilt delmoment för smalare träning.</p>
+        <p>Klicka ett delmoment för att träna det ensamt, eller siktet för att blanda flera.</p>
       </div>
     </div>
     ${kapitel.map(kap=>{
@@ -4206,9 +4252,14 @@ function showAreaPicker(record){
             const s=cardStatus(k);
             const fam=cardFamilies(k);
             return `<div class="area stack ${s.tone}" style="cursor:default">
-              <button class="omrknapp" onclick="startCard('${esc(k.key)}')">
-                <strong>${esc(k.name)}</strong>
-              </button>
+              <div class="omr-rad">
+                <button class="omrknapp" onclick="startCard('${esc(k.key)}')">
+                  <strong>${esc(k.name)}</strong>
+                </button>
+                ${fam.length?`<button class="omr-punkt" onclick="oppnaPunkt('${esc(k.key)}')"
+                  title="Blanda flera delmoment i ${esc(k.name)}"
+                  aria-label="Blanda flera delmoment i ${esc(k.name)}">${PUNKT_IKON}</button>`:""}
+              </div>
               ${fam.length?`<div class="delmoment">
                 <span class="dellbl">Delmoment</span>
                 <div class="deltaggar">
@@ -4411,10 +4462,14 @@ function chooseTask(){
   let pool=availableTasks();
   if(state.focusOmr) pool=pool.filter(t=>state.focusOmr.includes(t.omr||"ovrigt"));
   else if(state.focusArea) pool=pool.filter(t=>t.omr===state.focusArea);
-  if(state.focusFamily) pool=pool.filter(t=>{
-    const fs=Array.isArray(t.familj)?t.familj:[t.familj];
-    return fs.includes(state.focusFamily);
-  });
+  if(state.focusFamily){
+    // Fokus kan vara ett enskilt delmoment eller flera valda samtidigt.
+    const vill=Array.isArray(state.focusFamily)?state.focusFamily:[state.focusFamily];
+    pool=pool.filter(t=>{
+      const fs=Array.isArray(t.familj)?t.familj:[t.familj];
+      return fs.some(f=>vill.includes(f));
+    });
+  }
   if(!pool.length) return null;
 
   const cp=ensureCourseProfile();
@@ -4508,43 +4563,81 @@ function startArea(area){
    logaritmbegreppet och logaritmlagar samtidigt.
    ========================================================== */
 
-function oppnaFlerval(kap){
-  state.flervalKap=String(kap);
-  state.flervalValda=new Set();
-  const kort=getCards().filter(k=>String(k.kap)===state.flervalKap);
-  const rutor=kort.map(k=>{
-    const st=cardStatus(k);
-    return `<button class="valruta ${st.tone}" data-kort="${esc(k.key)}" onclick="vaxlaVal(this)">
-      <span class="kryss" aria-hidden="true"></span>
-      <span class="valnamn">${esc(k.name)}</span>
-      <span class="valstate">${st.label}</span>
-    </button>`;
-  }).join("");
+/* Rutan används på två nivåer. På kapitelnivå väljer man områden, på
+   områdesnivå delmoment inom ett enda kort. Maskineriet är detsamma:
+   en mängd markerade nycklar och en knapp som startar passet. */
+
+function ritaFlerval({lbl,rubrik,text,rutor,tomText}){
   const el=document.createElement("div");
   el.className="modal"; el.id="flervalsruta";
-  el.innerHTML=`<div class="modal-kort" role="dialog" aria-label="Välj områden">
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-label="${esc(rubrik)}">
       <div class="modal-topp">
         <div>
-          <div class="lbl">${esc(chapterName(kap))}</div>
-          <h2>Träna flera områden</h2>
+          <div class="lbl">${esc(lbl)}</div>
+          <h2>${esc(rubrik)}</h2>
         </div>
         <button class="iconbtn" onclick="stangFlerval()" aria-label="Stäng">✕</button>
       </div>
-      <p class="modal-text">Markera de områden du vill blanda i passet.</p>
-      <div class="valgrid">${rutor}</div>
-      <div class="modal-fot">
+      <p class="modal-text">${esc(text)}</p>
+      ${rutor ? `<div class="valgrid">${rutor}</div>` : `<div class="empty">${esc(tomText||"")}</div>`}
+      ${rutor?`<div class="modal-fot">
         <button class="btn quiet sm" onclick="valjAllaOmraden(true)">Markera alla</button>
         <button class="btn quiet sm" onclick="valjAllaOmraden(false)">Rensa</button>
         <span class="spacer"></span>
-        <button class="btn primary" id="flervalStart" disabled onclick="startaFlerval()">
-          Starta pass
-        </button>
-      </div>
+        <button class="btn primary" id="flervalStart" disabled onclick="startaFlerval()">Starta pass</button>
+      </div>`:`<div class="modal-fot"><span class="spacer"></span>
+        <button class="btn" onclick="stangFlerval()">Stäng</button></div>`}
     </div>`;
   document.body.appendChild(el);
   el.addEventListener("click",e=>{ if(e.target===el) stangFlerval(); });
   uppdateraFlervalKnapp();
   requestAnimationFrame(()=>el.classList.add("visa"));
+}
+
+function oppnaFlerval(kap){
+  state.flervalTyp="omraden";
+  state.flervalKap=String(kap);
+  state.flervalKort=null;
+  state.flervalValda=new Set();
+  const kort=getCards().filter(k=>String(k.kap)===state.flervalKap);
+  ritaFlerval({
+    lbl:chapterName(kap),
+    rubrik:"Träna flera områden",
+    text:"Markera de områden du vill blanda i passet.",
+    rutor:kort.map(k=>{
+      const st=cardStatus(k);
+      return `<button class="valruta ${st.tone}" data-kort="${esc(k.key)}" onclick="vaxlaVal(this)">
+        <span class="kryss" aria-hidden="true"></span>
+        <span class="valnamn">${esc(k.name)}</span>
+        <span class="valstate">${st.label}</span>
+      </button>`;
+    }).join("")
+  });
+}
+
+/* Punktträning: flera delmoment inom ett och samma område. */
+function oppnaPunkt(kortKey){
+  const kort=getCards().find(k=>k.key===kortKey);
+  if(!kort) return;
+  state.flervalTyp="delmoment";
+  state.flervalKort=kortKey;
+  state.flervalKap=null;
+  state.flervalValda=new Set();
+  const fam=cardFamilies(kort);
+  ritaFlerval({
+    lbl:kort.name,
+    rubrik:"Punktträna",
+    text:"Markera de delmoment du vill träna. Passet blandar bara dem.",
+    tomText:"Det här området har inga separata delmoment att välja mellan. Starta området som vanligt i stället.",
+    rutor:fam.length ? fam.map(f=>{
+      const st=delmomentStatus(f.family);
+      return `<button class="valruta ${st.tone}" data-kort="${esc(f.family)}" onclick="vaxlaVal(this)">
+        <span class="kryss" aria-hidden="true"></span>
+        <span class="valnamn">${esc(familyName(f.family))}</span>
+        <span class="valstate">${st.label}</span>
+      </button>`;
+    }).join("") : ""
+  });
 }
 function stangFlerval(){
   const el=document.getElementById("flervalsruta");
@@ -4569,14 +4662,16 @@ function uppdateraFlervalKnapp(){
   const k=document.getElementById("flervalStart");
   if(!k) return;
   const n=state.flervalValda.size;
+  const del=state.flervalTyp==="delmoment";
+  const ord=del?"delmoment":(n===1?"område":"områden");
   k.disabled=n===0;
-  k.textContent = n===0 ? "Välj minst ett område"
-                : n===1 ? "Starta pass · 1 område"
-                : `Starta pass · ${n} områden`;
+  k.textContent = n===0 ? (del?"Välj minst ett delmoment":"Välj minst ett område")
+                        : `Starta pass · ${n} ${ord}`;
 }
 function startaFlerval(){
   const valda=[...state.flervalValda];
   if(!valda.length) return;
+  if(state.flervalTyp==="delmoment") return startaPunkt(valda);
   // Ett valt kort kan rymma flera underområden. Passet tränar unionen.
   const kort=getCards().filter(k=>valda.includes(k.key));
   if(!kort.length) return;
@@ -4587,6 +4682,21 @@ function startaFlerval(){
   state.focusOmr=omr;
   state.focusNamn = valda.length===1 ? namn[0] : namn.length+" områden";
   state.focusFamily=null;
+  beginSession();
+  navRecord("training");
+  nextTask();
+}
+
+/* Ett punktpass tränar valda delmoment inom hela det elevsynliga
+   området, inte bara i det underområde där uppgiften råkar ligga. */
+function startaPunkt(familjer){
+  const kort=getCards().find(k=>k.key===state.flervalKort);
+  if(!kort) return;
+  stangFlerval();
+  state.focusArea=null;
+  state.focusOmr=[...kort.omr];
+  state.focusNamn=kort.name;
+  state.focusFamily=familjer.length===1 ? familjer[0] : familjer;
   beginSession();
   navRecord("training");
   nextTask();
@@ -4651,7 +4761,11 @@ function noteNewLevel(t){
 }
 
 function sessionLabel(){
-  if(state.focusFamily) return familyName(state.focusFamily);
+  if(state.focusFamily){
+    const f=state.focusFamily;
+    if(Array.isArray(f)) return f.length===1 ? familyName(f[0]) : f.length+" delmoment";
+    return familyName(f);
+  }
   if(state.focusNamn) return state.focusNamn;
   if(state.passTyp && PASS[state.passTyp]) return PASS[state.passTyp].namn;
   if(state.focusArea) return areaName(state.focusArea);
@@ -6891,9 +7005,9 @@ function goHome(){
 function render(){
   if(state.view==="gate") renderGate();
   else if(state.view==="dashboard"&&state.course) renderDashboard();
-  else if(state.view==="picker"&&state.course) showAreaPicker();
   else if(state.view==="training"&&state.currentTask) renderTraining();
   else if(state.view==="progress"&&state.course) showProgress();
+  else if(state.view==="picker"&&state.course) showAreaPicker();
   else if(state.view==="summary"&&state.course) renderSessionDone();
   else if(state.view==="topplista") oppnaTopplista(state.toppSort,false);
   else renderHome();

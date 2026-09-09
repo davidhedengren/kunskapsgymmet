@@ -3875,21 +3875,42 @@ function redoForTungt(){
   return t!==null && t>=.75 && starkaInom(fokusNycklar(),1).length>0;
 }
 
-/* Kandidaterna ligger i behovsordning. Den som redan använts de två
-   senaste dagarna hoppas över, så att veckan får variation utan att
-   valet blir slumpmässigt. */
+/* Kandidaterna ligger i behovsordning.
+
+   Två av dem står över variationsregeln. Att gå tillbaka till sina
+   egna fel och att träna det man har svårast för är de två saker som
+   faktiskt flyttar en elev i matematik, och de ska inte roteras bort
+   bara för att de användes igår. Finns det obearbetade fel kommer
+   felpasset först, annars teknikpasset så länge något område är
+   svagt. Resten av veckans variation sköts av de övriga typerna.
+
+   Eleven kan alltid byta själv. En tränare som inte lyssnar är en app. */
+const PASS_UTAN_ROTATION=["fel","teknik"];
+
 function valjPassTyp(){
   const senaste=(profile.passLogg||[]).slice(-2).map(x=>x.typ);
   const fokus=fokusNycklar();
   const kandidater=[];
   const cp=ensureCourseProfile();
-  if(felUppgifter(10).length>=4) kandidater.push("fel");
-  const svag=svagaInom(fokus,1)[0];
-  if(svag && mastery(cp.areas,svag)<.62) kandidater.push("teknik");
+  // Två kvarvarande fel räcker. Ett ensamt fel kan vara en felskrivning,
+  // men två är ett mönster värt att gå tillbaka till.
+  if(felUppgifter(10).length>=2) kandidater.push("fel");
+  if(svagaInom(fokus,1).length) kandidater.push("teknik");
   if(repetitionInom(fokus).length) kandidater.push("repetition");
   if(redoForTungt()) kandidater.push("tungt");
   kandidater.push("mangd","grund");
-  return kandidater.find(t=>!senaste.includes(t)) || kandidater[0];
+  const forst=kandidater[0];
+  // ... men inte varje dag i all evighet. Felkön töms aldrig helt —
+  // nya fel tillkommer i samma takt som gamla rättas — så utan tak
+  // skulle eleven mötas av gamla misstag varje dag och aldrig se nytt
+  // stoff. Två dagar i rad räcker; den tredje släpps något annat fram.
+  const dominerat = senaste.length>=2
+    && PASS_UTAN_ROTATION.includes(senaste[0])
+    && PASS_UTAN_ROTATION.includes(senaste[1]);
+  if(PASS_UTAN_ROTATION.includes(forst) && !dominerat) return forst;
+  return kandidater.find(t=>!PASS_UTAN_ROTATION.includes(t) && !senaste.includes(t))
+      || kandidater.find(t=>!senaste.includes(t))
+      || forst;
 }
 function dagensPass(){
   const nyckel=todayKey()+"|"+state.course+"|"+aktivaKapitel().join(",");

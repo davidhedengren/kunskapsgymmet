@@ -1,6 +1,7 @@
 /* uppgiftermato2.js — Matematik – fortsättning nivå 2.
-   Slutgranskad för Kunskapsgymmet: alla spelbara a)/b)/c)-delar delas till egna träningsuppgifter.
-   Självrättning, beroenden, delfacit, lösningsmängder och ordnade flersvar slutkontrollerade 2026-09-09. */
+   Familjebalanserad 2026-09-09: minst 15 uppgifter i varje av bankens 73 familjer.
+   107 nya uppgifter är individuellt konstruerade och blandade med befintliga uppgifter
+   inom respektive familj. Kunskapsgymmet-metadata och självrättning bevaras. */
 
 window.BANKMATO2 = [
   {
@@ -1076,6 +1077,33 @@ window.BANKMATO2 = [
     "självrättning": false,
     "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
+  },
+  {
+    "id": "1.552",
+    "kap": 1,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "supplementvinkel för sinus",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Förenkla \\(\\sin(\\pi-x)\\).</p>",
+    "s": "<p>Vinklarna x och \\(\\pi-x\\) ligger speglade i y-axeln på enhetscirkeln. De har samma y-koordinat, alltså samma sinusvärde. Därför \\(\\sin(\\pi-x)=\\sin x\\).</p><p><strong>Geometriskt:</strong> Sinus är punktens y-koordinat på enhetscirkeln. Spegling i y-axeln ändrar x-koordinaten men lämnar y-koordinaten oförändrad, vilket är precis varför identiteten gäller.</p>",
+    "familj": "Symmetrier och periodicitet i enhetscirkeln",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "sin(x)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
+    "ledtrad": "<p>Sinus är y-koordinaten på enhetscirkeln.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.126",
@@ -2248,6 +2276,33 @@ window.BANKMATO2 = [
     "spel": false
   },
   {
+    "id": "1.553",
+    "kap": 1,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "symmetrikvot för cosinus",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Utan att använda miniräknare, bestäm</p><p>\\[\\frac{\\cos(-1,2)}{\\cos(1,2)}.\\]</p>",
+    "s": "<p>Cosinus är en jämn funktion, vilket betyder att spegling i y-axeln inte ändrar funktionsvärdet:</p><p>\\[\\cos(-x)=\\cos x.\\]</p><p>Därför är täljare och nämnare lika. Eftersom \\(\\cos(1,2)\\ne0\\) blir kvoten</p><p>\\[\\boxed{1}.\\]</p>",
+    "familj": "Symmetrier och periodicitet i enhetscirkeln",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
+    "ledtrad": "<p>Vilken av sinus och cosinus är en jämn funktion?</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "1.413",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -2374,6 +2429,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
   {
+    "id": "1.558",
+    "kap": 1,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "tangens från cosinus och kvadrant",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En vinkel x ligger i fjärde kvadranten och \\(\\tan x=-3/4\\). Bestäm \\(\\cos x\\).</p>",
+    "s": "<p>Tangens beskriver förhållandet mellan y- och x-koordinat. En 3–4–5-triangel ger beloppen \\(|\\sin x|=3/5\\) och \\(|\\cos x|=4/5\\). I fjärde kvadranten är cosinus positiv, alltså \\(\\cos x=4/5\\).</p>",
+    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "4/5",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "enhetscirkeln__bestam_trigonometriska_varden_fran_ett_givet_varde",
+    "ledtrad": "<p>Använd en 3–4–5-triangel och låt kvadranten bestämma tecknet.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "1.447",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -2476,6 +2559,34 @@ window.BANKMATO2 = [
     "spel": false
   },
   {
+    "id": "1.554",
+    "kap": 1,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "periodicitet för tangens i exakt vinkel",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm \\(\\tan(13\\pi/4)\\) exakt.</p>",
+    "s": "<p>Tangens har period \\(\\pi\\). Subtrahera \\(3\\pi=12\\pi/4\\): \\(13\\pi/4-12\\pi/4=\\pi/4\\). Alltså \\(\\tan(13\\pi/4)=\\tan(\\pi/4)=1\\).</p><p><strong>Varför räcker det att subtrahera \\(3\\pi\\)?</strong> Vinklar som skiljer sig med ett helt antal \\(\\pi\\) har samma tangensvärde. Vi reducerar alltså vinkeln modulo \\(\\pi\\), tills en välkänd standardvinkel återstår.</p>",
+    "familj": "Symmetrier och periodicitet i enhetscirkeln",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
+    "ledtrad": "<p>Reducera vinkeln modulo π, eftersom tangens har period π.</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "1.419",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -2499,6 +2610,38 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "enhetscirkeln__koordinater_och_tecken_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
+  },
+  {
+    "id": "1.559",
+    "kap": 1,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "koordinater för 7pi/6",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En punkt på enhetscirkeln har x-koordinaten \\(-\\sqrt3/2\\) och negativ y-koordinat. Bestäm vinkeln \\(\\theta\\) i intervallet \\(0\\le\\theta&lt;2\\pi\\).</p>",
+    "s": "<p>x-koordinaten är cosinus. Beloppet \\(\\sqrt3/2\\) ger referensvinkeln \\(\\pi/6\\). Både x- och y-koordinaten är negativa, så punkten ligger i tredje kvadranten. Därför \\(\\theta=\\pi+\\pi/6=7\\pi/6\\).</p>",
+    "familj": "Koordinater och tecken i enhetscirkeln",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "7*pi/6",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "enhetscirkeln__koordinater_och_tecken_i_enhetscirkeln",
+    "ledtrad": "<p>Bestäm först referensvinkeln och använd sedan tecknen för att välja kvadrant.</p>",
+    "svarFormat": "uttryck",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-koordinat",
+      "y-koordinat"
+    ]
   },
   {
     "id": "1.07",
@@ -2978,6 +3121,33 @@ window.BANKMATO2 = [
     "spelIntro": "<p>Bestäm det saknade trigonometriska värdet exakt.</p>"
   },
   {
+    "id": "1.533",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "bestäm sinus från cosinus och kvadrant",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En punkt P på enhetscirkeln har x-koordinaten \\(8/17\\) och ligger under x-axeln. Bestäm P:s y-koordinat exakt.</p>",
+    "s": "<p>På enhetscirkeln gäller \\(x^2+y^2=1\\), vilket är samma samband som trigonometriska ettan. Därför</p><p>\\[y^2=1-(8/17)^2=1-64/289=225/289.\\]</p><p>Alltså \\(|y|=15/17\\). Punkten ligger under x-axeln, så y måste vara negativ: \\(y=-15/17\\).</p>",
+    "familj": "Använda trigonometriska ettan",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "-15/17",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_formler__anvanda_trigonometriska_ettan",
+    "ledtrad": "<p>Använd x²+y²=1 och låt läget under x-axeln avgöra tecknet.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "1.38",
     "kap": 1,
     "omr": "trig_formler",
@@ -3052,6 +3222,34 @@ window.BANKMATO2 = [
       "c",
       "d"
     ]
+  },
+  {
+    "id": "1.537",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "exakt sinus 75 grader",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm \\(\\sin75^\\circ\\) exakt med en additionsformel.</p>",
+    "s": "<p>Skriv \\(75^\\circ=45^\\circ+30^\\circ\\). Då</p><p>\\[\\sin75^\\circ=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ=\\frac{\\sqrt6+\\sqrt2}{4}.\\]</p><p><strong>Varför just 45° + 30°?</strong> Båda vinklarna har exakta standardvärden för sinus och cosinus. Additionsformeln gör därför att \\(75^\\circ\\) kan byggas upp utan miniräknare.</p>",
+    "familj": "Använda additionsformler för sinus och cosinus",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "(sqrt(6)+sqrt(2))/4",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
+    "ledtrad": "<p>Dela 75° i två standardvinklar.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.39",
@@ -3413,6 +3611,34 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
     "spelIntro": "<p>Bestäm exakt med additions- eller subtraktionsformler.</p>"
+  },
+  {
+    "id": "1.538",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "exakt cosinus 15 grader",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm \\(\\cos15^\\circ\\) exakt.</p>",
+    "s": "<p>Använd \\(15^\\circ=45^\\circ-30^\\circ\\). Cosinus för en differens ger</p><p>\\[\\cos15^\\circ=\\cos45^\\circ\\cos30^\\circ+\\sin45^\\circ\\sin30^\\circ=\\frac{\\sqrt6+\\sqrt2}{4}.\\]</p><p><strong>Teckenkontroll:</strong> För \\(\\cos(\\alpha-\\beta)\\) står ett plustecken mellan produkterna. Det är lätt att blanda ihop med sinusformeln, så skriv gärna formeln innan värdena sätts in.</p>",
+    "familj": "Använda additionsformler för sinus och cosinus",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "(sqrt(6)+sqrt(2))/4",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
+    "ledtrad": "<p>För cos(a−b) står det ett plus mellan produkterna.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.50",
@@ -3783,6 +4009,34 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
     "spelIntro": "<p>Skriv om med formler för dubbla vinkeln.</p>"
+  },
+  {
+    "id": "1.540",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "sinus dubbla vinkeln från triangelvärden",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En vinkel x ligger i första kvadranten och \\(\\cos x=12/13\\). Bestäm \\(\\cos2x\\) exakt.</p>",
+    "s": "<p>Trigonometriska ettan ger \\(\\sin x=5/13\\). Använd sedan dubbelvinkelformen \\(\\cos2x=\\cos^2x-\\sin^2x\\):</p><p>\\[\\cos2x=\\frac{144}{169}-\\frac{25}{169}=\\frac{119}{169}.\\]</p><p><strong>Varför används första kvadranten?</strong> Från \\(\\cos x=12/13\\) får vi \\(\\sin^2x=25/169\\). Första kvadranten gör att \\(\\sin x\\) är positiv, alltså \\(5/13\\), vilket gör mellanledet entydigt.</p>",
+    "familj": "Använda formler för dubbla vinkeln",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "119/169",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
+    "ledtrad": "<p>Bestäm först sin x och använd sedan cos 2x=cos²x−sin²x.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.75",
@@ -4160,6 +4414,34 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "1.534",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "förenkla kvot med trigonometriska ettan",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Förenkla \\(\\frac{1-\\cos^2x}{\\sin x}\\) där \\(\\sin x\\ne0\\).</p>",
+    "s": "<p>Med \\(\\sin^2x+\\cos^2x=1\\) är täljaren \\(\\sin^2x\\). Då \\(\\sin^2x/\\sin x=\\sin x\\), under det givna villkoret att nämnaren inte är noll.</p><p><strong>Viktigt:</strong> Vi får förkorta med \\(\\sin x\\) bara eftersom uppgiften uttryckligen anger \\(\\sin x\\ne0\\). Utan det villkoret skulle vi riskera att förenkla på ett ställe där ursprungsuttrycket inte ens är definierat.</p>",
+    "familj": "Använda trigonometriska ettan",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "sin(x)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_formler__anvanda_trigonometriska_ettan",
+    "ledtrad": "<p>Byt ut 1−cos²x innan du förkortar.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "1.135",
     "kap": 1,
     "omr": "trig_formler",
@@ -4334,6 +4616,33 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_formler__anvanda_trigonometriska_ettan",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
     "spelIntro": "<p>Förenkla.</p>"
+  },
+  {
+    "id": "1.535",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "bestäm cosinuskvadrat från sinus",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Om \\(\\sin x=\\sqrt3/2\\), bestäm \\(\\cos^2x\\).</p>",
+    "s": "<p>Trigonometriska ettan ger \\(\\cos^2x=1-\\sin^2x=1-3/4=1/4\\). Eftersom frågan gäller kvadraten behövs ingen kvadrantinformation.</p><p><strong>Varför behövs inte tecknet på cosinus?</strong> Om vi hade sökt \\(\\cos x\\) skulle kvadranten avgöra om svaret är \\(+1/2\\) eller \\(-1/2\\). Men \\(\\cos^2x\\) blir \\(1/4\\) i båda fallen.</p>",
+    "familj": "Använda trigonometriska ettan",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "1/4",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_formler__anvanda_trigonometriska_ettan",
+    "ledtrad": "<p>Sätt in sin²x direkt i sin²x+cos²x=1.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.143",
@@ -4582,6 +4891,45 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
     "spelIntro": "<p>Förenkla så långt som möjligt.</p>"
+  },
+  {
+    "id": "1.541",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "lös cosinus dubbla vinkeln",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Lös ekvationen \\(\\sin^2x=\\cos^2x\\) för \\(0\\le x&lt;2\\pi\\) genom att använda en dubbelvinkelformel.</p>",
+    "s": "<p>Flytta leden till samma sida: \\(\\cos^2x-\\sin^2x=0\\). Vänsterledet är \\(\\cos2x\\), så ekvationen blir \\(\\cos2x=0\\). Därför</p><p>\\[x=\\frac{\\pi}{4},\\frac{3\\pi}{4},\\frac{5\\pi}{4},\\frac{7\\pi}{4}.\\]</p>",
+    "familj": "Använda formler för dubbla vinkeln",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/4",
+      "3*pi/4",
+      "5*pi/4",
+      "7*pi/4"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
+    "ledtrad": "<p>Försök känna igen cos²x−sin²x som cos 2x.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.510",
@@ -5323,6 +5671,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
   },
   {
+    "id": "1.539",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "tecken och exakt värde för cosinus 105 grader",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm \\(\\cos105^\\circ\\) exakt och förklara varför svaret måste vara negativt.</p>",
+    "s": "<p>Vinkeln 105° ligger i andra kvadranten, där cosinus är negativ. Med \\(105^\\circ=60^\\circ+45^\\circ\\):</p><p>\\[\\cos105^\\circ=\\frac12\\frac{\\sqrt2}{2}-\\frac{\\sqrt3}{2}\\frac{\\sqrt2}{2}=\\frac{\\sqrt2-\\sqrt6}{4}.\\]</p><p>Eftersom \\(\\sqrt6&gt;\\sqrt2\\) är uttrycket negativt, som väntat.</p>",
+    "familj": "Använda additionsformler för sinus och cosinus",
+    "formaga": [
+      "procedur",
+      "resonemang",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "(sqrt(2)-sqrt(6))/4",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
+    "ledtrad": "<p>Gör en teckenkontroll med enhetscirkeln innan du räknar.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "1.274",
     "kap": 1,
     "omr": "trig_formler",
@@ -5604,6 +5980,32 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
   },
   {
+    "id": "1.536",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "härled tangentidentitet från trigonometriska ettan",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Visa med utgångspunkt i trigonometriska ettan att</p><p>\\[1+\\tan^2x=\\frac{1}{\\cos^2x}\\]</p><p>för de x där uttrycken är definierade.</p>",
+    "s": "<p>Utgå från \\(\\sin^2x+\\cos^2x=1\\). Dividera hela likheten med \\(\\cos^2x\\), vilket är tillåtet när \\(\\cos x\\ne0\\):</p><p>\\[\\frac{\\sin^2x}{\\cos^2x}+1=\\frac1{\\cos^2x}.\\]</p><p>Eftersom \\(\\sin x/\\cos x=\\tan x\\) fås identiteten. Villkoret är viktigt eftersom division med 0 inte är tillåten.</p>",
+    "familj": "Använda trigonometriska ettan",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "trig_formler__anvanda_trigonometriska_ettan",
+    "ledtrad": "<p>Dividera varje term i trigonometriska ettan med cos²x.</p>"
+  },
+  {
     "id": "1.321",
     "kap": 1,
     "omr": "trig_formler",
@@ -5729,6 +6131,33 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
+  },
+  {
+    "id": "1.542",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "härled halv-vinkelform från dubbelvinkelform",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En elev påstår att</p><p>\\[\\frac{1-\\cos2x}{\\sin x}=2\\sin x\\]</p><p>gäller för alla reella x. Undersök påståendet och ange exakt när likheten är giltig.</p>",
+    "s": "<p>Dubbelvinkelformeln ger \\(1-\\cos2x=2\\sin^2x\\). När \\(\\sin x\\ne0\\) kan vi förkorta och får verkligen \\(2\\sin x\\). Men om \\(\\sin x=0\\), alltså \\(x=k\\pi\\), är ursprungsuttrycket odefinierat.</p><p>Påståendet ”för alla reella x” är därför fel. Likheten gäller för \\(x\\ne k\\pi\\), \\(k\\in\\mathbb Z\\).</p>",
+    "familj": "Använda formler för dubbla vinkeln",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
+    "ledtrad": "<p>Använd 1−cos 2x=2sin²x, men kontrollera nämnaren innan du förkortar.</p>",
+    "svarFormat": null
   },
   {
     "id": "1.03",
@@ -6681,6 +7110,45 @@ window.BANKMATO2 = [
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;2\\pi\\).</p>"
   },
   {
+    "id": "1.528",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "fasförskjuten sinus med dubbel vinkel",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Lös \\(\\sin(2x+\\pi/6)=1/2\\) för \\(0\\le x&lt;2\\pi\\).</p>",
+    "s": "<p>Sätt \\(u=2x+\\pi/6\\). Då är \\(u=\\pi/6+2k\\pi\\) eller \\(u=5\\pi/6+2k\\pi\\). Det ger \\(x=k\\pi\\) eller \\(x=\\pi/3+k\\pi\\). I intervallet blir lösningarna \\(0,\\pi/3,\\pi,4\\pi/3\\).</p><p><strong>Kontroll av intervallet:</strong> Substitutionen gör själva trigonometrin enklare, men efter att vi löst för \\(x\\) måste vi fortfarande välja de heltal \\(k\\) som verkligen ger \\(0\\le x&lt;2\\pi\\). Det är därför bara de fyra angivna värdena återstår.</p>",
+    "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "pi/3",
+      "pi",
+      "4*pi/3"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
+    "ledtrad": "<p>Lös först ekvationen för hela vinkeluttrycket u.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
+  },
+  {
     "id": "1.79",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -6756,6 +7224,41 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "spel": false
+  },
+  {
+    "id": "1.546",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "exakt en sinuslösning på ett varv",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För vilka värden på a har ekvationen \\(\\sin x=a\\) exakt en lösning i intervallet \\(0\\le x&lt;2\\pi\\)?</p>",
+    "s": "<p>För \\(-1&lt;a&lt;1\\) skär en horisontell linje sinuskurvan två gånger under ett varv. För \\(a=1\\) respektive \\(a=-1\\) tangerar linjen grafen i en extrempunkt och ger exakt en lösning. Utanför \\([-1,1]\\) finns inga lösningar.</p><p><strong>Svar:</strong> \\(a=-1\\) eller \\(a=1\\).</p>",
+    "familj": "Parameterproblem med antal trigonometriska lösningar",
+    "formaga": [
+      "resonemang",
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      1
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
+    "ledtrad": "<p>Tänk på hur många gånger en horisontell linje y=a skär sinuskurvan.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.92",
@@ -7365,6 +7868,33 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
   {
+    "id": "1.555",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "generell sinuslösning med två grenar",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Ge den allmänna lösningen till \\(\\sin x=\\sqrt3/2\\).</p>",
+    "s": "<p>På enhetscirkeln fås referensvinkeln \\(\\pi/3\\). Sinus är positiv i första och andra kvadranten, så</p><p>\\[x=\\frac\\pi3+2k\\pi\\quad\\text{eller}\\quad x=\\frac{2\\pi}3+2k\\pi,\\quad k\\in\\mathbb Z.\\]</p>",
+    "familj": "Trigonometriska ekvationer med generell lösning",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
+    "ledtrad": "<p>Sinus ger två vinklar per varv när värdet ligger strikt mellan −1 och 1.</p>"
+  },
+  {
     "id": "1.191",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7509,6 +8039,36 @@ window.BANKMATO2 = [
     "självrättning": false,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+  },
+  {
+    "id": "1.529",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "antal nollpassager för fasförskjuten cosinussignal",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En vinkelsensor ger signalen \\(S(t)=\\cos(3t-\\pi/3)\\). Under tidsintervallet \\(0\\le t&lt;2\\pi\\) registreras en händelse varje gång \\(S(t)=0\\).</p><p>Hur många händelser registreras?</p>",
+    "s": "<p>Cosinus är 0 två gånger under varje hel period. Funktionen \\(\\cos(3t-\\pi/3)\\) har perioden</p><p>\\[T=\\frac{2\\pi}{3}.\\]</p><p>Intervallet \\(0\\le t&lt;2\\pi\\) innehåller exakt tre sådana perioder. Fasförskjutningen flyttar nollställena men ändrar inte hur många som ryms i tre hela perioder.</p><p>Antalet händelser blir därför \\(3\\cdot2=\\boxed{6}\\).</p>",
+    "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
+    "ledtrad": "<p>Du behöver inte lösa ut alla sex tiderna. Bestäm signalens period och hur många nollställen cosinus har per period.</p>",
+    "svarFormat": "heltal",
+    "svarsstruktur": null,
+    "svarEtiketter": null
   },
   {
     "id": "1.196",
@@ -7996,6 +8556,45 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
   {
+    "id": "1.530",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "tangensekvation med fas och dubbel vinkel",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En signal modelleras av \\(S(t)=\\tan(2t+\\pi/4)\\). Bestäm de två första tidpunkterna \\(t\\ge0\\) då signalvärdet är 1.</p>",
+    "s": "<p>Villkoret är \\(\\tan(2t+\\pi/4)=1\\). Tangens är 1 när argumentet är \\(\\pi/4+k\\pi\\). Därför \\(2t=k\\pi\\Rightarrow t=k\\pi/2\\). De två första icke-negativa tidpunkterna är \\(0\\) och \\(\\pi/2\\).</p>",
+    "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
+    "formaga": [
+      "modellering",
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "pi/2"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
+    "ledtrad": "<p>Tangens återkommer efter π i sitt argument.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "första tid",
+      "andra tid"
+    ]
+  },
+  {
     "id": "1.344",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8435,6 +9034,34 @@ window.BANKMATO2 = [
     "självrättning": false,
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+  },
+  {
+    "id": "1.547",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "två cosinuslösningar beroende på parameter",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För vilka k har \\(\\cos x=k\\) exakt två lösningar i \\(0\\le x&lt;2\\pi\\)?</p>",
+    "s": "<p>En horisontell linje \\(y=k\\) skär cosinuskurvan två gånger för alla nivåer strikt mellan minimum och maximum. Vid \\(k=\\pm1\\) fås bara en träff och utanför intervallet inga.</p><p><strong>Svar:</strong> \\(-1&lt;k&lt;1\\).</p>",
+    "familj": "Parameterproblem med antal trigonometriska lösningar",
+    "formaga": [
+      "resonemang",
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "(-1,1)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
+    "ledtrad": "<p>Rita mentalt cosinus på ett helt varv och flytta en horisontell linje.</p>",
+    "svarFormat": "intervall"
   },
   {
     "id": "1.284",
@@ -9188,6 +9815,41 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
   {
+    "id": "1.548",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "antal lösningar för sin 2x",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm alla a så att \\(\\sin(2x)=a\\) har exakt två lösningar i \\(0\\le x&lt;2\\pi\\).</p>",
+    "s": "<p>När x går ett varv går 2x två varv. För \\(-1&lt;a&lt;1\\) träffas nivån två gånger per varv, alltså fyra gånger totalt. Vid \\(a=\\pm1\\) blir det en tangering per varv, alltså två lösningar totalt. Därför \\(a=\\pm1\\).</p>",
+    "familj": "Parameterproblem med antal trigonometriska lösningar",
+    "formaga": [
+      "resonemang",
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      1
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
+    "ledtrad": "<p>Räkna hur många hela sinusperioder som ryms när 2x varierar.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
+  },
+  {
     "id": "1.405",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9266,6 +9928,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
   {
+    "id": "1.556",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "generell lösning för cos 2x = -1",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Ge den allmänna lösningen till \\(\\cos(2x)=-1\\).</p>",
+    "s": "<p>Cosinus antar värdet \\(-1\\) när vinkeln pekar rakt åt vänster i enhetscirkeln. Det sker vid</p><p>\\[2x=\\pi+2k\\pi,\\qquad k\\in\\mathbb Z.\\]</p><p>Nu är det hela vinkeln \\(2x\\) som ska delas med 2:</p><p>\\[x=\\frac\\pi2+k\\pi,\\qquad k\\in\\mathbb Z.\\]</p><p>Perioden i x blir alltså \\(\\pi\\), vilket stämmer med att \\(\\cos(2x)\\) har dubbla frekvensen.</p>",
+    "familj": "Trigonometriska ekvationer med generell lösning",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "pi/2+k*pi",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
+    "ledtrad": "<p>Lös först för hela vinkeln 2x.</p>",
+    "svarFormat": "uttryck_med_villkor"
+  },
+  {
     "id": "1.408",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9317,6 +10007,45 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
   {
+    "id": "1.531",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "fyra gånger vinkeln",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Lös \\(\\sin(4x)=\\sqrt2/2\\) för \\(0\\le x&lt;\\pi\\).</p>",
+    "s": "<p>För \\(u=4x\\) varierar u över \\([0,4\\pi)\\). Ekvationen \\(\\sin u=\\sqrt2/2\\) ger två lösningar per period. I två hela perioder blir det fyra u-värden: \\(\\pi/4,3\\pi/4,9\\pi/4,11\\pi/4\\). Dividera med 4.</p>",
+    "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/16",
+      "3*pi/16",
+      "9*pi/16",
+      "11*pi/16"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
+    "ledtrad": "<p>Översätt först x-intervallet till ett intervall för u=4x.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
+  },
+  {
     "id": "1.421",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9365,6 +10094,45 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+  },
+  {
+    "id": "1.532",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "roterande ljusstråle som trigonometrisk ekvation",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En roterande ljusstråles riktning modelleras av \\(\\theta(t)=2t+\\pi/6\\) rad. En markör träffas när \\(\\sin\\theta=1/2\\). Bestäm de två första positiva tidpunkterna.</p>",
+    "s": "<p>Villkoret är \\(\\sin(2t+\\pi/6)=1/2\\). Lösningarna är \\(2t+\\pi/6=\\pi/6+2k\\pi\\) eller \\(5\\pi/6+2k\\pi\\). Därför \\(t=k\\pi\\) eller \\(t=\\pi/3+k\\pi\\). De två första positiva är \\(\\pi/3\\) och \\(\\pi\\).</p>",
+    "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/3",
+      "pi"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
+    "ledtrad": "<p>Det är samma trigonometriska ekvation som i en ren matematikuppgift, men variabeln är tid.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "första tid",
+      "andra tid"
+    ]
   },
   {
     "id": "1.426",
@@ -9440,6 +10208,34 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+  },
+  {
+    "id": "1.557",
+    "kap": 1,
+    "omr": "trig_ekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "generell tangenslösning med trippel vinkel",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm den allmänna lösningen till</p><p>\\[\\sin(2x)=\\cos x.\\]</p>",
+    "s": "<p>Använd \\(\\sin2x=2\\sin x\\cos x\\):</p><p>\\[2\\sin x\\cos x=\\cos x\\Rightarrow\\cos x(2\\sin x-1)=0.\\]</p><p>Alltså antingen \\(\\cos x=0\\), vilket ger \\(x=\\pi/2+k\\pi\\), eller \\(\\sin x=1/2\\), vilket ger \\(x=\\pi/6+2k\\pi\\) eller \\(x=5\\pi/6+2k\\pi\\). Här är \\(k\\in\\mathbb Z\\).</p>",
+    "familj": "Trigonometriska ekvationer med generell lösning",
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "procedur"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
+    "ledtrad": "<p>Skriv om sin 2x och faktorisera. Varje faktor kan ge en egen lösningsfamilj.</p>",
+    "svarFormat": null
   },
   {
     "id": "1.01",
@@ -9964,6 +10760,33 @@ window.BANKMATO2 = [
     "spelIntro": "<p>För \\(y=\\tan(2x)\\), bestäm</p>"
   },
   {
+    "id": "1.522",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "period för tan(2x)",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm perioden för \\(f(x)=\\tan(2x)\\).</p>",
+    "s": "<p>Tangens har grundperiod \\(\\pi\\). När vinkeln multipliceras med 2 komprimeras grafen horisontellt med faktor 2, så perioden blir \\(\\pi/2\\).</p><p><strong>Svar:</strong> \\(\\pi/2\\).</p><p><strong>Varför delar vi med 2?</strong> För \\(\\tan(bx)\\) är perioden \\(\\pi/|b|\\), inte \\(2\\pi/|b|\\). Tangens upprepar nämligen sina värden redan efter \\(\\pi\\) radianer.</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "pi/2",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>För tan(bx) är perioden π/|b|.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "1.35",
     "kap": 1,
     "omr": "trig_funktioner",
@@ -10256,6 +11079,33 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "1.543",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "läs fasförskjutning i sinus",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Hur är grafen till \\(y=\\sin(x-\\pi/3)\\) förskjuten horisontellt jämfört med \\(y=\\sin x\\)? Ange förskjutningen med tecken: höger positivt.</p>",
+    "s": "<p>En vanlig fallgrop är tecknet. I formen \\(f(x-c)\\) måste x bli <em>större</em> med c för att det inre argumentet ska få samma värde som tidigare. Därför flyttas grafen c steg åt höger.</p><p>Här är</p><p>\\[y=\\sin\\left(x-\\frac\\pi3\\right),\\]</p><p>så förskjutningen är \\(+\\pi/3\\) enligt uppgiftens teckenkonvention.</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "pi/3",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>x−c betyder åt höger med c.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "1.48",
     "kap": 1,
     "omr": "trig_funktioner",
@@ -10519,6 +11369,34 @@ window.BANKMATO2 = [
       "b",
       "c"
     ]
+  },
+  {
+    "id": "1.523",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "första positiva asymptot efter fasförskjutning",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm den minsta positiva x-koordinaten för en lodrät asymptot till \\(f(x)=3\\tan(x-\\pi/4)\\).</p>",
+    "s": "<p>En lodrät asymptot uppstår när tangens är odefinierad, alltså när cosinus av argumentet är 0. Därför ska</p><p>\\[x-\\frac\\pi4=\\frac\\pi2+k\\pi.\\]</p><p>Det ger \\(x=3\\pi/4+k\\pi\\). Värdet \\(k=-1\\) ger ett negativt x-värde, så den minsta positiva asymptoten fås för \\(k=0\\):</p><p><strong>\\(x=3\\pi/4\\).</strong></p><p>Faktorn 3 framför tangens ändrar höjden på grafen men inte asymptoternas lägen.</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "3*pi/4",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>Sätt hela vinkeluttrycket lika med π/2+kπ.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.59",
@@ -11406,6 +12284,34 @@ window.BANKMATO2 = [
     "spel": false
   },
   {
+    "id": "1.549",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "3-4-5-kombination",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Skriv uttrycket \\(\\sqrt3\\sin x-\\cos x\\) som en enda sinusfunktion med positiv amplitud.</p>",
+    "s": "<p>Sök formen \\(R\\sin(x-\\varphi)\\). Amplituden är \\(R=\\sqrt{3+1}=2\\). Koefficientjämförelse ger \\(2\\cos\\varphi=\\sqrt3\\) och \\(2\\sin\\varphi=1\\), alltså \\(\\varphi=\\pi/6\\).</p><p><strong>Svar:</strong> \\(2\\sin(x-\\pi/6)\\).</p>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*sin(x-pi/6)",
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__skriva_om_kombinationer_av_sinus_och_cosinus",
+    "ledtrad": "<p>Amplituden blir √((√3)²+(−1)²). Matcha sedan tecknet med sin(x−φ).</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "1.98",
     "kap": 1,
     "omr": "trig_funktioner",
@@ -11751,6 +12657,33 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "1.524",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "utdragen tangensgraf",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen \\(f(x)=\\tan(x/2)\\). Bestäm perioden.</p>",
+    "s": "<p>Tangens grundperiod är \\(\\pi\\). Här byts \\(x\\) mot \\(x/2\\), så argumentet förändras bara hälften så snabbt. Grafen sträcks därför ut horisontellt med faktor 2.</p><p>Algebraiskt:</p><p>\\[T=\\frac{\\pi}{1/2}=2\\pi.\\]</p><p><strong>Svar:</strong> \\(2\\pi\\).</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*pi",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>Dividera tangens grundperiod π med koefficienten framför x.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "1.111",
     "kap": 1,
     "omr": "trig_funktioner",
@@ -11774,6 +12707,45 @@ window.BANKMATO2 = [
     "självrättning": false,
     "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+  },
+  {
+    "id": "1.525",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "sammanhängande definitionsintervall kring origo för tangens",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen är \\(f(x)=-2\\tan(3x+\\pi/6)\\). Bestäm det största öppna intervallet som innehåller \\(x=0\\) och där funktionen är definierad och sammanhängande.</p>",
+    "s": "<p>För att hitta intervallets gränser söker vi de två lodräta asymptoter som ligger närmast origo. Tangens är odefinierad när</p><p>\\[3x+\\frac\\pi6=\\frac\\pi2+k\\pi.\\]</p><p>Det ger</p><p>\\[x=\\frac\\pi9+\\frac{k\\pi}{3}.\\]</p><p>För \\(k=0\\) fås den närmaste asymptoten till höger, \\(x=\\pi/9\\). För \\(k=-1\\) fås den närmaste till vänster:</p><p>\\[x=\\frac\\pi9-\\frac\\pi3=-\\frac{2\\pi}{9}.\\]</p><p>Alltså är det största sammanhängande intervallet kring origo</p><p><strong>\\[\\left(-\\frac{2\\pi}{9},\\frac\\pi9\\right).\\]</strong></p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-2*pi/9",
+      "pi/9"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>Bestäm asymptoternas allmänna x-lägen och välj de två som ligger närmast 0, en på varje sida.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "vänster gräns",
+      "höger gräns"
+    ]
   },
   {
     "id": "1.113",
@@ -12010,6 +12982,61 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_funktioner__skriva_om_kombinationer_av_sinus_och_cosinus",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelIntro": "<p>Skriv på formen \\(R\\sin(x+v)\\), där \\(R&gt;0\\).</p>"
+  },
+  {
+    "id": "1.550",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "maxvärde och första maxläge från kombinerad sinus och cosinus",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen är \\(f(x)=\\sin x-\\cos x\\).</p><p>a) Bestäm funktionens största möjliga värde.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm det minsta \\(x\\ge0\\) där detta största värde antas.</p>",
+    "s": "<p>Skriv först kombinationen som en enda sinusfunktion:</p><p>\\[\\sin x-\\cos x=\\sqrt2\\sin\\left(x-\\frac\\pi4\\right).\\]</p><p>a) En sinusfunktion kan som mest vara 1. Största värdet är därför \\(\\boxed{\\sqrt2}\\).</p><p>b) Maximum fås första gången</p><p>\\[x-\\frac\\pi4=\\frac\\pi2,\\]</p><p>så \\(x=\\boxed{3\\pi/4}\\).</p>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "sqrt(2)",
+      "3*pi/4"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__skriva_om_kombinationer_av_sinus_och_cosinus",
+    "ledtrad": "<p>Skriv först om uttrycket som \\(R\\sin(x-\\varphi)\\). Då kan både amplituden och läget för maximum läsas av.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "maxvärde",
+      "första x"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Funktionen är \\(f(x)=\\sin x-\\cos x\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm funktionens största möjliga värde.</p>",
+        "s": "<p>Skriv om uttrycket som \\(\\sqrt2\\sin(x-\\pi/4)\\). Eftersom sinus som mest är 1 blir största möjliga värde \\(\\boxed{\\sqrt2}\\).</p>",
+        "ledtrad": "<p>Skriv om summan till en enda sinusfunktion. Amplituden blir då det största möjliga absolutvärdet.</p>"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm det minsta \\(x\\ge0\\) där funktionens största möjliga värde antas.</p>",
+        "s": "<p>Skriv \\(\\sin x-\\cos x=\\sqrt2\\sin(x-\\pi/4)\\). Maximum fås när sinusdelen är 1, alltså när \\(x-\\pi/4=\\pi/2\\) första gången. Därför \\(x=\\boxed{3\\pi/4}\\).</p>",
+        "ledtrad": "<p>Efter omskrivning till en enda sinusfunktion: när blir själva sinusdelen lika med 1 för första gången?</p>"
+      }
+    ]
   },
   {
     "id": "1.133",
@@ -12410,6 +13437,34 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "1.544",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "faktorisera vinkel före fasavläsning",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm fasförskjutningen för \\(y=\\cos(2x+\\pi/2)\\). Ange höger som positivt och vänster som negativt.</p>",
+    "s": "<p>Faktorisera 2: \\(2x+\\pi/2=2(x+\\pi/4)=2(x-(-\\pi/4))\\). Alltså är grafen förskjuten \\(\\pi/4\\) åt vänster, dvs förskjutningen \\(-\\pi/4\\).</p><p><strong>Läs av i standardform:</strong> En cosinusfunktion skrivs gärna \\(\\cos(b(x-c))\\), där \\(c\\) är förskjutningen åt höger. Här är \\(c=-\\pi/4\\), och ett negativt \\(c\\) betyder därför förskjutning åt vänster.</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "-pi/4",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Faktorisera koefficienten framför x innan du läser av fasen.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "1.152",
     "kap": 1,
     "omr": "trig_funktioner",
@@ -12562,6 +13617,34 @@ window.BANKMATO2 = [
     "spelIntro": "<p>För funktionen \\(f(x)=2\\tan(3x)\\):</p>"
   },
   {
+    "id": "1.526",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "bestäm parameter från period",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En tangensfunktion \\(f(x)=\\tan(bx)\\) har perioden \\(\\pi/4\\), där \\(b&gt;0\\). Bestäm b.</p>",
+    "s": "<p>Tangens upprepar sina värden när vinkeln ökar med \\(\\pi\\). Om argumentet är \\(bx\\) behöver därför \\(x\\) bara öka så mycket att \\(bx\\) ökar med \\(\\pi\\). Det ger</p><p>\\[bT=\\pi\\quad\\Rightarrow\\quad T=\\frac{\\pi}{b}.\\]</p><p>Här är \\(T=\\pi/4\\), så</p><p>\\[\\frac{\\pi}{b}=\\frac{\\pi}{4}\\Rightarrow b=4.\\]</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>Använd T=π/b när b>0.</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "1.155",
     "kap": 1,
     "omr": "trig_funktioner",
@@ -12655,6 +13738,34 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelIntro": "<p>Bestäm.</p>"
+  },
+  {
+    "id": "1.527",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "tangensmodell och första singularitet",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En förenklad modell för en sensors utslag är</p><p>\\[S(t)=5+2\\tan\\!\\left(\\frac{\\pi}{6}(t-1)\\right).\\]</p><p>Vid vilken första tidpunkt \\(t&gt;1\\) blir modellen odefinierad?</p>",
+    "s": "<p>Modellen blir odefinierad när tangens argument är \\(\\pi/2\\). Lös \\(\\frac{\\pi}{6}(t-1)=\\frac{\\pi}{2}\\). Då är \\(t-1=3\\), alltså \\(t=4\\). Nästa asymptot ligger en hel period, 6 tidsenheter, senare.</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>Fråga inte när tangens blir stor, utan när cosinus i nämnaren blir 0.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.179",
@@ -13124,6 +14235,34 @@ window.BANKMATO2 = [
     "spel": false
   },
   {
+    "id": "1.545",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "fas från maximum i modell",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En funktion har period 4, medellinje 5 och ett maximum vid \\(x=1\\). En lämplig cosinusmodell skrivs \\(f(x)=A\\cos(B(x-c))+5\\) med \\(A&gt;0\\). Bestäm c i den enklaste modellen.</p>",
+    "s": "<p>För en cosinus med positiv amplitud inträffar ett maximum när argumentet är 0. Därför placeras fasreferensen direkt vid maximipunkten: \\(c=1\\). Perioden bestämmer B men behövs inte för just c.</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "modellering",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Positiv cosinus har maximum när argumentet är 0.</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "1.227",
     "kap": 1,
     "omr": "trig_funktioner",
@@ -13225,6 +14364,34 @@ window.BANKMATO2 = [
     "självrättning": false,
     "familjNyckel": "trig_funktioner__skriva_om_kombinationer_av_sinus_och_cosinus",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+  },
+  {
+    "id": "1.551",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "kombination med bestämd exakt fas",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Två harmoniska signaler läggs samman:</p><p>\\[y_1=2\\sin x,\\qquad y_2=2\\sqrt3\\cos x.\\]</p><p>Skriv resultanten \\(y=y_1+y_2\\) som en enda sinusfunktion med positiv amplitud.</p>",
+    "s": "<p>En enda sinusfunktion skrivs \\(R\\sin(x+\\varphi)\\). Koefficientjämförelse ger \\(R\\cos\\varphi=2\\) och \\(R\\sin\\varphi=2\\sqrt3\\). Därför \\(R=4\\) och \\(\\varphi=\\pi/3\\).</p><p><strong>Resultant:</strong> \\(y=4\\sin(x+\\pi/3)\\).</p>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "modellering",
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "4*sin(x+pi/3)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__skriva_om_kombinationer_av_sinus_och_cosinus",
+    "ledtrad": "<p>Resultantens amplitud är √(2²+(2√3)²).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.230",
@@ -19951,6 +21118,33 @@ window.BANKMATO2 = [
     "spelIntro": "<p>Bestäm derivatans värde.</p>"
   },
   {
+    "id": "2.492",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "blandade potensformer",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=4x^5-3x^{-2}+x^{1/2}\\).</p>",
+    "s": "<p>Använd potensregeln term för term:</p><p>\\[f'(x)=20x^4+6x^{-3}+\\frac12x^{-1/2}.\\]</p><p>Det sista kan också skrivas \\(1/(2\\sqrt x)\\).</p><p><strong>Samma potensregel gäller även negativa och bråkiga exponenter:</strong> \\((x^n)'=nx^{n-1}\\). Därför blir \\((-3x^{-2})'=6x^{-3}\\) och \\((x^{1/2})'=\\tfrac12x^{-1/2}\\).</p>",
+    "familj": "Grundläggande deriveringsregler",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "20*x^4+6*x^(-3)+1/(2*sqrt(x))",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "deriveringsregler__grundlaggande_deriveringsregler",
+    "ledtrad": "<p>Skriv rötter och bråk som potenser innan du deriverar.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "2.436",
     "kap": 2,
     "omr": "deriveringsregler",
@@ -21497,6 +22691,34 @@ window.BANKMATO2 = [
     "familjNyckel": "deriveringsregler__grundlaggande_deriveringsregler",
     "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
     "spelIntro": "<p>Derivera.</p>"
+  },
+  {
+    "id": "2.493",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "derivata i punkt med horisontell tangent",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För \\(f(x)=x^4-2x^2+7\\), bestäm \\(f'(-1)\\).</p>",
+    "s": "<p>Derivera först funktionen:</p><p>\\[f'(x)=4x^3-4x.\\]</p><p>Sätt sedan in \\(x=-1\\):</p><p>\\[f'(-1)=4(-1)^3-4(-1)=-4+4=0.\\]</p><p>Derivatan anger tangentens lutning. Värdet 0 betyder därför att tangenten är horisontell vid \\(x=-1\\).</p>",
+    "familj": "Grundläggande deriveringsregler",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "deriveringsregler__grundlaggande_deriveringsregler",
+    "ledtrad": "<p>Derivera symboliskt innan du sätter in x=-1.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.440",
@@ -24920,6 +26142,34 @@ window.BANKMATO2 = [
     "spelIntro": "<p>Låt \\(f(x)=e^x\\) och \\(g(x)=x^2-3x\\).</p>"
   },
   {
+    "id": "2.497",
+    "kap": 2,
+    "omr": "kedjeregel_sammansatta",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "sammansättning där ordningen spelar roll",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Låt \\(f(x)=\\sqrt{x+1}\\) och \\(g(x)=x^2\\). Bestäm \\((f\\circ g)(3)\\).</p>",
+    "s": "<p>Kompositionen betyder att g används först: \\(g(3)=9\\). Därefter \\(f(9)=\\sqrt{9+1}=\\sqrt{10}\\). Alltså \\((f\\circ g)(3)=\\sqrt{10}\\).</p><p><strong>Ordningen är avgörande:</strong> \\(f\\circ g\\) betyder \\(f(g(x))\\), alltså g först och f sedan. Om ordningen hade varit \\(g\\circ f\\) skulle vi i stället ha kvadrerat \\(\\sqrt{x+1}\\), vilket är en annan funktion.</p>",
+    "familj": "Beräkna sammansatta funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "sqrt(10)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
+    "ledtrad": "<p>I f∘g arbetar du inifrån och ut: g först, sedan f.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "2.454",
     "kap": 2,
     "omr": "kedjeregel_sammansatta",
@@ -25443,6 +26693,33 @@ window.BANKMATO2 = [
     "spelIntro": "<p>Derivera.</p>"
   },
   {
+    "id": "2.473",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "summa av sinus och cosinus",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=2\\sin x-3\\cos x\\).</p>",
+    "s": "<p>Använd \\((\\sin x)'=\\cos x\\) och \\((\\cos x)'=-\\sin x\\). Minustecknet framför cosinus gör därför att termen blir positiv efter derivering:</p><p>\\[f'(x)=2\\cos x+3\\sin x.\\]</p><p><strong>Kontrollera varje term:</strong> Konstantfaktorerna 2 och -3 följer med vid deriveringen. Dessutom ger derivatan av \\(-3\\cos x\\) ett dubbelt minustecken, vilket förklarar plustecknet framför \\(3\\sin x\\).</p>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*cos(x)+3*sin(x)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
+    "ledtrad": "<p>Kom ihåg det extra minustecknet i derivatan av cos x.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "2.25",
     "kap": 2,
     "omr": "derivator_specialfunktioner",
@@ -25772,6 +27049,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>"
   },
   {
+    "id": "2.478",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "logaritm av kvadratiskt uttryck",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För \\(f(x)=\\ln(x^2+4)\\), bestäm tangentens lutning i punkten där \\(x=2\\).</p>",
+    "s": "<p><strong>Varför denna metod?</strong> Tangentens lutning är derivatans värde i punkten, så vi behöver inte bestämma hela tangenten.</p><p>\\[f'(x)=\\frac{2x}{x^2+4}.\\]</p><p>Vid \\(x=2\\): \\(f'(2)=4/8=1/2\\).</p><p><strong>Kedjeregeln i bakgrunden:</strong> Ytterfunktionen är \\(\\ln u\\), vars derivata är \\(1/u\\), och innerfunktionen är \\(u=x^2+4\\), vars derivata är \\(2x\\). Därför uppstår faktorn \\(2x\\) i täljaren.</p>",
+    "familj": "Derivering av logaritmfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "1/2",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_logaritmfunktioner",
+    "ledtrad": "<p>Derivera först logaritmen med kedjeregeln och sätt sedan in x=2.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "2.36",
     "kap": 2,
     "omr": "derivator_specialfunktioner",
@@ -25913,6 +27218,34 @@ window.BANKMATO2 = [
     "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelIntro": "<p>Derivera.</p>"
+  },
+  {
+    "id": "2.474",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "lutning där sinus och cosinus tar ut varandra",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm \\(f'(\\pi/4)\\) för \\(f(x)=\\sin x+\\cos x\\).</p>",
+    "s": "<p>Först behöver vi derivatan, eftersom den ger tangentens lutning:</p><p>\\[f'(x)=\\cos x-\\sin x.\\]</p><p>Vid \\(x=\\pi/4\\) är \\(\\sin(\\pi/4)=\\cos(\\pi/4)=\\sqrt2/2\\). Termerna tar därför ut varandra:</p><p>\\[f'(\\pi/4)=0.\\]</p><p>Tangenten är alltså horisontell i den punkten.</p>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
+    "ledtrad": "<p>Derivera först symboliskt och sätt sedan in π/4.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.49",
@@ -26494,6 +27827,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
   },
   {
+    "id": "2.475",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "trigonometrisk produkt",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=\\frac{\\sin x}{x}\\), där \\(x\\ne0\\).</p>",
+    "s": "<p>Här behövs kvotregeln eftersom både täljare och nämnare beror på x:</p><p>\\[f'(x)=\\frac{x\\cos x-\\sin x}{x^2}.\\]</p><p>Nämnarvillkoret \\(x\\ne0\\) följer med från ursprungsfunktionen.</p><p><strong>Varför inte derivera täljare och nämnare var för sig?</strong> Kvoten av två funktioner har inte derivatan \\(u'/v'\\). Kvotregeln behövs och ger \\((u'v-uv')/v^2\\), vilket här leder till täljaren \\(x\\cos x-\\sin x\\).</p>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "(x*cos(x)-sin(x))/x^2",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
+    "ledtrad": "<p>Använd kvotregeln med u=sin x och v=x.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "2.276",
     "kap": 2,
     "omr": "derivator_specialfunktioner",
@@ -26645,6 +28006,34 @@ window.BANKMATO2 = [
     "familjNyckel": "derivator_specialfunktioner__derivering_av_logaritmfunktioner",
     "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
     "spelIntro": "<p>Derivera.</p>"
+  },
+  {
+    "id": "2.479",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "produkt med naturlig logaritm",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen \\(f(x)=x\\ln x\\) är definierad för \\(x&gt;0\\). Bestäm x-koordinaten för dess stationära punkt.</p>",
+    "s": "<p>En stationär punkt fås där derivatan är 0. Produktregeln ger \\(f'(x)=\\ln x+1\\). Sätt \\(\\ln x+1=0\\Rightarrow\\ln x=-1\\Rightarrow x=e^{-1}=1/e\\).</p><p>Derivatan byter från negativ till positiv, så punkten är dessutom ett minimum.</p>",
+    "familj": "Derivering av logaritmfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "1/e",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_logaritmfunktioner",
+    "ledtrad": "<p>Derivera produkten x ln x och lös sedan f′(x)=0.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.120",
@@ -26892,6 +28281,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>"
   },
   {
+    "id": "2.494",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "tangent i känt nollställe för logaritmkvot",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Kurvan \\(y=\\frac{\\ln x}{x}\\) skär x-axeln vid \\(x=1\\). Bestäm tangentens ekvation i denna skärningspunkt.</p>",
+    "s": "<p>Skärningspunkten är \\((1,0)\\). Derivera med kvotregeln:</p><p>\\[f\\'(x)=\\frac{1-\\ln x}{x^2}.\\]</p><p>Vid \\(x=1\\) är \\(\\ln1=0\\), så tangentens lutning är \\(f\\'(1)=1\\). Linjen genom \\((1,0)\\) med lutning 1 är</p><p>\\[y=x-1.\\]</p>",
+    "familj": "Tangentproblem med specialfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "x-1",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__tangentproblem_med_specialfunktioner",
+    "ledtrad": "<p>Du känner redan tangentpunkten. Bestäm bara derivatan i x=1 och använd punkt-lutningsformen.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "2.142",
     "kap": 2,
     "omr": "derivator_specialfunktioner",
@@ -26966,6 +28383,33 @@ window.BANKMATO2 = [
     "familjNyckel": "derivator_specialfunktioner__derivering_av_logaritmfunktioner",
     "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
     "spelIntro": "<p>Lös ekvationerna.</p>"
+  },
+  {
+    "id": "2.480",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "logaritm av kvadratrot",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=\\ln\\sqrt{x}\\), \\(x&gt;0\\).</p>",
+    "s": "<p>Det går att använda kedjeregeln direkt, men logaritmlagen gör uttrycket enklare först:</p><p>\\[\\ln\\sqrt{x}=\\ln(x^{1/2})=\\frac12\\ln x.\\]</p><p>Nu är derivatan omedelbar:</p><p>\\[f'(x)=\\frac12\\cdot\\frac1x=\\frac{1}{2x}.\\]</p><p>Villkoret \\(x&gt;0\\) behövs eftersom \\(\\ln x\\) bara är definierad för positiva x.</p>",
+    "familj": "Derivering av logaritmfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "1/(2*x)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_logaritmfunktioner",
+    "ledtrad": "<p>Logaritmlagen ln(x^a)=a ln x gör uttrycket enklare.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.146",
@@ -27120,6 +28564,34 @@ window.BANKMATO2 = [
     "spelIntro": "<p>För varje funktion, ange definitionsmängd.</p>"
   },
   {
+    "id": "2.481",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "tangent till förskjuten logaritm",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm tangentens ekvation till \\(f(x)=\\ln(2x-1)\\) i punkten där \\(x=1\\).</p>",
+    "s": "<p>Punkten är \\((1,0)\\), eftersom \\(\\ln1=0\\). Derivatan är \\(f'(x)=2/(2x-1)\\), så lutningen vid x=1 är 2. Tangenten blir \\(y-0=2(x-1)\\), alltså \\(y=2x-2\\).</p><p><strong>Bygg tangenten i två steg:</strong> Först behövs punkten på grafen, sedan lutningen där. När båda är kända används punkt-lutningsformen \\(y-y_0=k(x-x_0)\\), vilket här ger samma slutekvation.</p>",
+    "familj": "Derivering av logaritmfunktioner",
+    "formaga": [
+      "procedur",
+      "resonemang",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*x-2",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_logaritmfunktioner",
+    "ledtrad": "<p>Du behöver både punktens y-värde och derivatans värde där.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "2.148",
     "kap": 2,
     "omr": "derivator_specialfunktioner",
@@ -27254,6 +28726,34 @@ window.BANKMATO2 = [
     "spelIntro": "<p>Derivera.</p>"
   },
   {
+    "id": "2.476",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "kvadrat av sinus",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=\\sin x\\cos x\\) och förenkla svaret till en enda trigonometrisk funktion.</p>",
+    "s": "<p>Här finns två faktorer, så produktregeln behövs:</p><p>\\[f'(x)=(\\sin x)'\\cos x+\\sin x(\\cos x)'=\\cos^2x-\\sin^2x.\\]</p><p>Uppgiften ber dessutom om en enda trigonometrisk funktion. Dubbelvinkelformeln \\(\\cos2x=\\cos^2x-\\sin^2x\\) ger därför</p><p><strong>\\[f'(x)=\\cos2x.\\]</strong></p>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "cos(2*x)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
+    "ledtrad": "<p>Produktregeln ger ett uttryck som kan kännas igen som en dubbelvinkelformel.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "2.150",
     "kap": 2,
     "omr": "derivator_specialfunktioner",
@@ -27353,6 +28853,35 @@ window.BANKMATO2 = [
     "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelIntro": "<p>Derivera.</p>"
+  },
+  {
+    "id": "2.477",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "hastighet i harmonisk rörelse",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En punkt rör sig enligt \\(s(t)=0,08\\cos(5t)\\) meter. Bestäm punktens största fart.</p>",
+    "s": "<p>Hastigheten är derivatan av sträckfunktionen:</p><p>\\[v(t)=s'(t)=-0,08\\cdot5\\sin(5t)=-0,40\\sin(5t).\\]</p><p>Frågan gäller <em>fart</em>, alltså hastighetens belopp. Eftersom \\(|\\sin(5t)|\\le1\\) kan \\(|v(t)|\\) aldrig bli större än 0,40.</p><p><strong>Största fart:</strong> \\(0,40\\text{ m/s}\\).</p>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "formaga": [
+      "modellering",
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
+    "ledtrad": "<p>Derivera läget. Största fart är största möjliga absolutbelopp av hastigheten.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m/s"
   },
   {
     "id": "2.191",
@@ -27940,6 +29469,34 @@ window.BANKMATO2 = [
     "spelIntro": "<p>Derivera.</p>"
   },
   {
+    "id": "2.482",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "exponential av sinus",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För \\(f(x)=e^{2\\sin x}\\), bestäm \\(f'(\\pi/6)\\) exakt.</p>",
+    "s": "<p>Kedjeregeln ger \\(f'(x)=2e^{2\\sin x}\\cos x\\). Vid \\(x=\\pi/6\\) är \\(2\\sin x=1\\) och \\(\\cos x=\\sqrt3/2\\). Därför</p><p>\\[f'(\\pi/6)=2e\\cdot\\frac{\\sqrt3}{2}=e\\sqrt3.\\]</p><p><strong>Två lager:</strong> Ytterst har vi \\(e^u\\), och innerst \\(u=2\\sin x\\). Kedjeregeln ger därför \\(e^u\\cdot u'\\), där \\(u'=2\\cos x\\). Det är den faktorn som annars lätt glöms.</p>",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "e*sqrt(3)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
+    "ledtrad": "<p>Derivera först. Sätt sedan in de exakta trigonometriska värdena.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "2.262",
     "kap": 2,
     "omr": "derivator_specialfunktioner",
@@ -27964,6 +29521,34 @@ window.BANKMATO2 = [
     "svarFormat": "uttryck",
     "familjNyckel": "derivator_specialfunktioner__tangentproblem_med_specialfunktioner",
     "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>"
+  },
+  {
+    "id": "2.495",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "tangent till exponentialfunktion",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm tangentens ekvation till \\(f(x)=xe^x\\) i origo.</p>",
+    "s": "<p>Först \\(f(0)=0\\), så origo ligger på grafen. Produktregeln ger \\(f'(x)=e^x+xe^x=e^x(1+x)\\), och därför \\(f'(0)=1\\). Tangenten genom origo med lutning 1 är \\(y=x\\).</p><p><strong>Varför räcker detta?</strong> En tangent bestäms av en punkt och en lutning. Punkten är redan origo och derivatan ger lutningen 1, så punkt-lutningsformen blir direkt \\(y-0=1(x-0)\\).</p>",
+    "familj": "Tangentproblem med specialfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "x",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__tangentproblem_med_specialfunktioner",
+    "ledtrad": "<p>Kontrollera först punkten och använd sedan produktregeln för tangentens lutning.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.401",
@@ -28068,6 +29653,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>"
   },
   {
+    "id": "2.483",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "sinus av exponential",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen är \\(f(x)=\\sin(e^x)\\). Bestäm tangentens lutning vid \\(x=0\\).</p>",
+    "s": "<p>Kedjeregeln ger \\(f'(x)=e^x\\cos(e^x)\\). Vid \\(x=0\\) är \\(e^0=1\\), alltså \\(f'(0)=\\cos1\\). Observera att 1 här är en vinkel i radianer.</p><p><strong>Två lager även här:</strong> Ytterfunktionen \\(\\sin u\\) ger \\(\\cos u\\), medan innerfunktionen \\(u=e^x\\) ger faktorn \\(e^x\\). Därför måste båda faktorerna finnas i derivatan.</p>",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "cos(1)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
+    "ledtrad": "<p>Tangentens lutning är f′(0). Derivera den sammansatta funktionen först.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "2.409",
     "kap": 2,
     "omr": "derivator_specialfunktioner",
@@ -28145,6 +29758,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>"
   },
   {
+    "id": "2.484",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "Gaussliknande exponential",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Den klockformade funktionen \\(f(x)=e^{-x^2}\\) används i en modell. Bestäm förändringshastigheten vid \\(x=1\\) exakt.</p>",
+    "s": "<p>Kedjeregeln ger \\(f'(x)=-2xe^{-x^2}\\). Därför</p><p>\\[f'(1)=-2e^{-1}=-\\frac{2}{e}.\\]</p><p>Det negativa tecknet visar att modellen är avtagande vid x=1.</p><p><strong>Tolkning:</strong> Vid \\(x=1\\) är derivatan negativ. Det betyder inte att funktionsvärdet är negativt, utan att grafen lutar nedåt just där. Storleken \\(2/e\\) anger hur snabbt den minskar per x-enhet.</p>",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "-2/e",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
+    "ledtrad": "<p>Derivera exponenten −x² och sätt sedan in x=1.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "2.418",
     "kap": 2,
     "omr": "derivator_specialfunktioner",
@@ -28193,6 +29834,34 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "derivator_specialfunktioner__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
     "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>"
+  },
+  {
+    "id": "2.485",
+    "kap": 2,
+    "omr": "derivator_specialfunktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "förändringshastighet i periodisk exponentialmodell",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En modell för ljusintensitet är \\(I(t)=e^{0,4\\cos t}\\). Bestäm \\(I'(\\pi/2)\\).</p>",
+    "s": "<p>Exponentialfunktionen har ett sammansatt argument, så kedjeregeln behövs. Sätt \\(u(t)=0,4\\cos t\\). Då är \\(u'(t)=-0,4\\sin t\\), och</p><p>\\[I'(t)=e^{u(t)}u'(t)=e^{0,4\\cos t}(-0,4\\sin t).\\]</p><p>Vid \\(t=\\pi/2\\) är \\(\\cos t=0\\) och \\(\\sin t=1\\):</p><p>\\[I'(\\pi/2)=e^0(-0,4)=-0,4.\\]</p>",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "formaga": [
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.4,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "familjNyckel": "derivator_specialfunktioner__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
+    "ledtrad": "<p>Derivera hela exponenten 0,4 cos t.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.11",
@@ -28756,6 +30425,34 @@ window.BANKMATO2 = [
       "a",
       "b"
     ]
+  },
+  {
+    "id": "2.489",
+    "kap": 2,
+    "omr": "tillampningar_derivata",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "exponentiell befolkning och momentan tillväxt",
+    "poang": "0/2/0",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>En population modelleras av \\(N(t)=1000e^{0,2t}\\). Bestäm den momentana tillväxthastigheten vid \\(t=5\\), avrundad till heltal.</p>",
+    "s": "<p>Derivatan är \\(N'(t)=200e^{0,2t}\\). Vid t=5 blir \\(N'(5)=200e\\approx544\\). Tangentens lutning beskriver den momentana ökningen vid just den tidpunkten.</p><p><strong>Tolkning av enheten:</strong> Om \\(N\\) mäts i individer och \\(t\\) i år, mäts \\(N'\\) i individer per år. Svaret 544 beskriver alltså en momentan takt, inte hur många individer som totalt har tillkommit under fem år.</p>",
+    "familj": "Tangentproblem i tillämpningar",
+    "formaga": [
+      "modellering",
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 544,
+    "tolerans": 1,
+    "självrättning": true,
+    "familjNyckel": "tillampningar_derivata__tangentproblem_i_tillampningar",
+    "ledtrad": "<p>Derivatan i tidpunkten är tangentens lutning och modellens momentana förändringshastighet.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.84",
@@ -30428,6 +32125,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>"
   },
   {
+    "id": "2.498",
+    "kap": 2,
+    "omr": "tillampningar_derivata",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "rektangel under parabel",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En rektangel har nedre sida på x-axeln och övre hörn på parabeln \\(y=12-x^2\\), symmetriskt kring y-axeln. Bestäm rektangelns största möjliga area.</p>",
+    "s": "<p>Låt högra övre hörnet ha x-koordinaten \\(x&gt;0\\). Då är bredden \\(2x\\) och höjden \\(12-x^2\\):</p><p>\\[A(x)=2x(12-x^2)=24x-2x^3.\\]</p><p>\\(A'(x)=24-6x^2=0\\Rightarrow x=2\\). Då är höjden 8 och bredden 4, så största arean är \\(32\\).</p>",
+    "familj": "Geometrisk optimering med derivata",
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "tillampningar_derivata__geometrisk_optimering_med_derivata",
+    "ledtrad": "<p>Uttryck både bredd och höjd med samma variabel innan du deriverar.</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "2.404",
     "kap": 2,
     "omr": "tillampningar_derivata",
@@ -30476,6 +32201,34 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "tillampningar_derivata__tangentproblem_i_tillampningar",
     "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>"
+  },
+  {
+    "id": "2.490",
+    "kap": 2,
+    "omr": "tillampningar_derivata",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "Newtonsk kylning och tangentlutning",
+    "poang": "0/2/0",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>Temperaturen modelleras av \\(T(t)=20+60e^{-0,1t}\\) °C. Bestäm \\(T'(10)\\) med två decimaler.</p>",
+    "s": "<p>\\(T'(t)=-6e^{-0,1t}\\). Därför \\(T'(10)=-6e^{-1}\\approx-2,21\\) °C per tidsenhet. Minustecknet visar att temperaturen sjunker.</p><p><strong>Tolkning:</strong> Derivatan beskriver temperaturens momentana förändring, inte själva temperaturen. Värdet \\(-2,21\\) betyder att modellen vid \\(t=10\\) minskar med ungefär 2,21 °C per tidsenhet.</p>",
+    "familj": "Tangentproblem i tillämpningar",
+    "formaga": [
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -2.21,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "familjNyckel": "tillampningar_derivata__tangentproblem_i_tillampningar",
+    "ledtrad": "<p>Derivera exponentialtermen och tolka sedan tecknet.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.406",
@@ -30579,6 +32332,35 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "tillampningar_derivata__tangentproblem_i_tillampningar",
     "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>"
+  },
+  {
+    "id": "2.491",
+    "kap": 2,
+    "omr": "tillampningar_derivata",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "linjär approximation från tangent",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En bils sträcka i meter ges nära \\(t=2\\) av \\(s(t)=t^3-3t^2+5t\\). Använd tangenten vid \\(t=2\\) för att uppskatta \\(s(2,5)\\).</p>",
+    "s": "<p>\\(s(2)=8-12+10=6\\). Derivatan är \\(s'(t)=3t^2-6t+5\\), så \\(s'(2)=5\\). Tangentapproximationen blir \\(L(t)=6+5(t-2)\\). Då \\(L(2,5)=6+2,5=8,5\\) m.</p><p><strong>Varför fungerar uppskattningen?</strong> Nära \\(t=2\\) ligger en slät kurva nära sin tangent. Vi ersätter därför tillfälligt \\(s(t)\\) med den linjära modellen \\(L(t)=s(2)+s'(2)(t-2)\\).</p>",
+    "familj": "Tangentproblem i tillämpningar",
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "familjNyckel": "tillampningar_derivata__tangentproblem_i_tillampningar",
+    "ledtrad": "<p>Bygg tangentens linjära modell L(t)=s(a)+s′(a)(t−a).</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "2.01",
@@ -31092,6 +32874,33 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
   },
   {
+    "id": "2.464",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "rationell graf med lodrät och vågrät asymptot",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Skissa grafen till</p><p>\\[f(x)=\\frac{2x+1}{x-2}.\\]</p><p>Markera asymptoter och skärningar med koordinataxlarna.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Nämnaren ger den lodräta asymptoten. Eftersom täljare och nämnare har samma grad fås den vågräta asymptoten av kvoten mellan de ledande koefficienterna.</p><p>\\(x=2\\) och \\(y=2\\) är asymptoter. Nollstället är \\(x=-1/2\\) och \\(f(0)=-1/2\\). De fyra uppgifterna räcker för att placera grenarna korrekt.</p>",
+    "familj": "Skissa grafer och asymptoter",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "grafer_asymptoter__skissa_grafer_och_asymptoter",
+    "ledtrad": "<p>Börja med nämnarens nollställe och jämför sedan graderna i täljare och nämnare.</p>",
+    "spel": false
+  },
+  {
     "id": "2.60",
     "kap": 2,
     "omr": "grafer_asymptoter",
@@ -31374,6 +33183,60 @@ window.BANKMATO2 = [
     "spel": false,
     "familjNyckel": "grafer_asymptoter__skissa_grafer_och_asymptoter",
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
+  },
+  {
+    "id": "2.465",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "rationell graf med sned asymptot",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Skissa grafen till</p><p>\\[f(x)=\\frac{x^2+1}{x-1}.\\]</p><p>Visa tydligt hur grafen förhåller sig till sina asymptoter.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Polynomdivision visar den långsiktiga formen.</p><p>\\[\\frac{x^2+1}{x-1}=x+1+\\frac{2}{x-1}.\\]</p><p>Alltså är \\(x=1\\) lodrät asymptot och \\(y=x+1\\) sned asymptot. Resttermen är negativ för \\(x&lt;1\\) och positiv för \\(x&gt;1\\), vilket visar på vilken sida om den sneda asymptoten respektive gren ligger.</p>",
+    "familj": "Skissa grafer och asymptoter",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "grafer_asymptoter__skissa_grafer_och_asymptoter",
+    "ledtrad": "<p>Gör polynomdivision. Resttermens tecken hjälper dig att placera grenarna.</p>",
+    "spel": false
+  },
+  {
+    "id": "2.466",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "logaritmisk graf med förskjuten asymptot",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Skissa \\(f(x)=\\ln(x-2)\\). Markera definitionsmängd, eventuell asymptot och en lätt bestämd punkt.</p>",
+    "s": "<p>Argumentet måste vara positivt: \\(x&gt;2\\). När \\(x\\to2^+\\) går \\(\\ln(x-2)\\to-\\infty\\), så \\(x=2\\) är lodrät asymptot. Punkten \\((3,0)\\) ligger på grafen eftersom \\(\\ln1=0\\). Grafen är växande och konkav nedåt.</p>",
+    "familj": "Skissa grafer och asymptoter",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "grafer_asymptoter__skissa_grafer_och_asymptoter",
+    "ledtrad": "<p>Översätt först villkoret för logaritmens argument till en definitionsmängd.</p>",
+    "spel": false
   },
   {
     "id": "2.86",
@@ -31711,6 +33574,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
   },
   {
+    "id": "2.486",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "grafanalys av ln x",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För \\(f(x)=\\ln x\\), bestäm om funktionen är konkav uppåt eller nedåt för \\(x&gt;0\\).</p>",
+    "s": "<p>Första derivatan är \\(1/x\\) och andraderivatan är \\(-1/x^2\\). Den är negativ för alla \\(x&gt;0\\), så grafen är konkav nedåt på hela definitionsmängden.</p><p><strong>Varför räcker andraderivatan?</strong> Tecknet på \\(f''\\) beskriver hur tangenternas lutning förändras. När \\(f''&lt;0\\) över hela intervallet minskar lutningen hela tiden, vilket betyder att grafen är konkav nedåt.</p>",
+    "familj": "Grafanalys av specialfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "nedåt",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "grafer_asymptoter__grafanalys_av_specialfunktioner",
+    "ledtrad": "<p>Tecknet på andraderivatan avgör konkaviteten.</p>",
+    "svarFormat": "text"
+  },
+  {
     "id": "2.105",
     "kap": 2,
     "omr": "grafer_asymptoter",
@@ -32033,6 +33924,32 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
   },
   {
+    "id": "2.467",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "exponentialgraf med horisontell asymptot",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Skissa \\(f(x)=e^{-x}+1\\) och markera dess horisontella asymptot.</p>",
+    "s": "<p>När \\(x\\to\\infty\\) går \\(e^{-x}\\to0\\), därför närmar sig grafen \\(y=1\\). Vid \\(x=0\\) är \\(f(0)=2\\). Funktionen är positiv och avtagande; grafen ligger hela tiden ovanför asymptoten.</p>",
+    "familj": "Skissa grafer och asymptoter",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "grafer_asymptoter__skissa_grafer_och_asymptoter",
+    "ledtrad": "<p>Undersök vad exponentialdelen gör när x blir mycket stor.</p>",
+    "spel": false
+  },
+  {
     "id": "2.266",
     "kap": 2,
     "omr": "grafer_asymptoter",
@@ -32269,6 +34186,61 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
   },
   {
+    "id": "2.468",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "rationell graf med två lodräta asymptoter",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Skissa \\(f(x)=\\frac{1}{x^2-4}\\). Markera alla asymptoter och ange var grafen är positiv respektive negativ.</p>",
+    "s": "<p>Nämnaren är noll vid \\(x=\\pm2\\), vilket ger två lodräta asymptoter. För stora \\(|x|\\) går funktionen mot 0, så \\(y=0\\) är horisontell asymptot. Nämnaren är positiv när \\(|x|&gt;2\\) och negativ när \\(|x|&lt;2\\), så grafens tecken följer samma uppdelning.</p>",
+    "familj": "Skissa grafer och asymptoter",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "grafer_asymptoter__skissa_grafer_och_asymptoter",
+    "ledtrad": "<p>Faktorisera nämnaren och gör en enkel teckenkontroll mellan nollställena.</p>",
+    "spel": false
+  },
+  {
+    "id": "2.469",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "olika asymptoter åt höger och vänster",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Undersök och skissa grafen till \\(f(x)=x+\\sqrt{x^2+1}\\). Beskriv grafens asymptotiska beteende när \\(x\\to\\infty\\) respektive \\(x\\to-\\infty\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Samma uttryck kan ha olika asymptotiskt beteende åt olika håll.</p><p>För \\(x\\to\\infty\\): \\(\\sqrt{x^2+1}\\sim x\\), alltså \\(f(x)\\sim2x\\), så \\(y=2x\\) är sned asymptot åt höger. För \\(x\\to-\\infty\\) gäller \\(\\sqrt{x^2+1}\\sim -x\\), så \\(f(x)\\to0\\). Därför är \\(y=0\\) horisontell asymptot åt vänster. Dessutom är \\(f(x)&gt;0\\) för alla x.</p>",
+    "familj": "Skissa grafer och asymptoter",
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "begrepp"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "grafer_asymptoter__skissa_grafer_och_asymptoter",
+    "ledtrad": "<p>Var försiktig: √(x²) är |x|, inte x. Därför måste de två riktningarna behandlas separat.</p>",
+    "spel": false
+  },
+  {
     "id": "2.122",
     "kap": 2,
     "omr": "grafer_asymptoter",
@@ -32350,6 +34322,34 @@ window.BANKMATO2 = [
     "spel": false,
     "familjNyckel": "grafer_asymptoter__skissa_grafer_och_asymptoter",
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
+  },
+  {
+    "id": "2.470",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "graf utan lodrät asymptot trots nämnare",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Skissa \\(f(x)=\\frac{x}{x^2+1}\\). Markera asymptot och extrempunkter.</p>",
+    "s": "<p>Nämnaren är alltid positiv, så ingen lodrät asymptot finns. När \\(|x|\\to\\infty\\) går \\(f(x)\\to0\\), alltså är \\(y=0\\) horisontell asymptot. Derivatan är \\(f'(x)=\\frac{1-x^2}{(x^2+1)^2}\\), vilket ger extrempunkter vid \\(x=\\pm1\\): \\((-1,-1/2)\\) och \\((1,1/2)\\).</p>",
+    "familj": "Skissa grafer och asymptoter",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "grafer_asymptoter__skissa_grafer_och_asymptoter",
+    "ledtrad": "<p>Kontrollera först om nämnaren verkligen kan bli noll. Använd sedan derivatan för formen.</p>",
+    "spel": false
   },
   {
     "id": "2.128",
@@ -33257,6 +35257,62 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
   },
   {
+    "id": "2.471",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "absolutbelopp ger olika horisontella asymptoter",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Skissa \\(f(x)=\\frac{|x|}{x-1}\\). Bestäm asymptoterna och förklara varför de horisontella asymptoterna blir olika åt höger och vänster.</p>",
+    "s": "<p>För \\(x&gt;0\\) är \\(|x|=x\\), så \\(f(x)=x/(x-1)\\to1\\). För \\(x&lt;0\\) är \\(|x|=-x\\), så \\(f(x)=-x/(x-1)\\to-1\\). Därför är \\(y=1\\) asymptot åt höger och \\(y=-1\\) åt vänster. Dessutom är \\(x=1\\) lodrät asymptot.</p>",
+    "familj": "Skissa grafer och asymptoter",
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "begrepp"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "grafer_asymptoter__skissa_grafer_och_asymptoter",
+    "ledtrad": "<p>Skriv om |x| styckvis. Då blir beteendet åt höger och vänster tydligt.</p>",
+    "spel": false
+  },
+  {
+    "id": "2.472",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "logaritm genom x och två asymptoter",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Undersök grafen till \\(f(x)=\\frac{\\ln x}{x}\\) för \\(x&gt;0\\). Markera asymptoter och extrempunkt och skissa grafens huvudsakliga form.</p>",
+    "s": "<p>När \\(x\\to0^+\\) går \\(\\ln x/x\\to-\\infty\\), så \\(x=0\\) är lodrät asymptot. När \\(x\\to\\infty\\) går \\(\\ln x/x\\to0\\), alltså är \\(y=0\\) horisontell asymptot. Derivatan är \\(f'(x)=\\frac{1-\\ln x}{x^2}\\), så maximum fås vid \\(x=e\\) med värdet \\(1/e\\).</p>",
+    "familj": "Skissa grafer och asymptoter",
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "begrepp"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "grafer_asymptoter__skissa_grafer_och_asymptoter",
+    "ledtrad": "<p>Studera först gränsbeteendet och använd sedan kvotregeln för extrempunkten.</p>",
+    "spel": false
+  },
+  {
     "id": "2.245",
     "kap": 2,
     "omr": "grafer_asymptoter",
@@ -33431,6 +35487,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
   },
   {
+    "id": "2.487",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "maximum för e^-x²",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm x-koordinaten för den globala maximipunkten till \\(f(x)=e^{-x^2}\\).</p>",
+    "s": "<p>\\(f'(x)=-2xe^{-x^2}\\). Exponentialfaktorn är alltid positiv, så derivatan är 0 endast när \\(x=0\\). Den är positiv för x<0 och negativ för x>0, alltså är \\(x=0\\) ett globalt maximum.</p><p><strong>Global kontroll:</strong> Teckenbytet visar ett lokalt maximum vid \\(x=0\\). Dessutom gäller \\(e^{-x^2}\\to0\\) när \\(|x|\\to\\infty\\), medan \\(f(0)=1\\). Därför kan inget annat x ge ett större värde.</p>",
+    "familj": "Grafanalys av specialfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "grafer_asymptoter__grafanalys_av_specialfunktioner",
+    "ledtrad": "<p>Exponentialfaktorn kan aldrig bli 0; fokusera därför på faktorn −2x.</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "2.408",
     "kap": 2,
     "omr": "grafer_asymptoter",
@@ -33534,6 +35618,45 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
   },
   {
+    "id": "2.496",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "kan en rationell graf skära sin sneda asymptot",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För funktionen \\(f(x)=\\frac{x^2+2}{x-1}\\), bestäm den sneda asymptoten och avgör om grafen kan skära denna asymptot.</p><p>Ange asymptoten som \\(y=\\ldots\\) och svara därefter ja eller nej.</p>",
+    "s": "<p>Polynomdivision ger</p><p>\\[\\frac{x^2+2}{x-1}=x+1+\\frac{3}{x-1}.\\]</p><p>När \\(|x|\\) blir stor går resttermen \\(3/(x-1)\\) mot 0, så den sneda asymptoten är \\(y=x+1\\).</p><p>För att grafen skulle skära asymptoten behövde \\(f(x)=x+1\\). Men då skulle</p><p>\\[\\frac{3}{x-1}=0,\\]</p><p>vilket är omöjligt för alla tillåtna x. Grafen närmar sig alltså linjen men skär den aldrig.</p><p><strong>Svar:</strong> \\(y=x+1\\); nej.</p>",
+    "familj": "Asymptoter med polynomdivision",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "x+1",
+      "nej"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "grafer_asymptoter__asymptoter_med_polynomdivision",
+    "ledtrad": "<p>Gör polynomdivision och studera sedan resttermen. När kan en bråkterm med konstant täljare bli exakt 0?</p>",
+    "svarFormat": [
+      "uttryck",
+      "text"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "asymptot y=",
+      "skär grafen asymptoten?"
+    ]
+  },
+  {
     "id": "2.420",
     "kap": 2,
     "omr": "grafer_asymptoter",
@@ -33610,6 +35733,34 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "grafer_asymptoter__grafanalys_av_specialfunktioner",
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
+  },
+  {
+    "id": "2.488",
+    "kap": 2,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "maximum för x e^-x",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen \\(f(x)=xe^{-x}\\) används för \\(x\\ge0\\). Bestäm funktionens största värde exakt.</p>",
+    "s": "<p>Produktregeln ger \\(f'(x)=e^{-x}(1-x)\\). Eftersom \\(e^{-x}&gt;0\\) byter derivatan tecken från positiv till negativ vid \\(x=1\\). Maximum är därför \\(f(1)=e^{-1}=1/e\\).</p><p><strong>Kontrollera även rand och långt bort:</strong> På området \\(x\\ge0\\) är \\(f(0)=0\\), och \\(xe^{-x}\\to0\\) när \\(x\\to\\infty\\). Det kritiska värdet \\(x=1\\) ger därför inte bara ett lokalt utan det globala maximumet.</p>",
+    "familj": "Grafanalys av specialfunktioner",
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "1/e",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "grafer_asymptoter__grafanalys_av_specialfunktioner",
+    "ledtrad": "<p>Faktorisera derivatan så blir teckenbytet tydligt.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.03",
@@ -37960,6 +40111,33 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "3.460",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "triangelarea verifierad med integral",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Linjen \\(y=4-2x\\) och koordinataxlarna bildar en triangel i första kvadranten. Bestäm arean med en integral.</p>",
+    "s": "<p>Linjen skär x-axeln vid \\(x=2\\). Arean blir</p><p>\\[A=\\int_0^2(4-2x)dx=[4x-x^2]_0^2=8-4=4.\\]</p><p>Som kontroll har triangeln bas 2 och höjd 4: \\(2\\cdot4/2=4\\).</p><p><strong>Varför kan integralen användas direkt?</strong> På intervallet \\([0,2]\\) ligger linjen ovanför x-axeln, så den bestämda integralen är redan positiv och sammanfaller med den geometriska arean.</p>",
+    "familj": "Geometrisk area och area från graf med integral",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__geometrisk_area_och_area_fran_graf_med_integral",
+    "ledtrad": "<p>Bestäm först var linjen skär x-axeln.</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "3.18",
     "kap": 3,
     "omr": "area_integraler",
@@ -38154,6 +40332,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
   },
   {
+    "id": "3.461",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "kvartscirkel som integral",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Kurvan \\(y=\\sqrt{9-x^2}\\) avgränsar tillsammans med axlarna ett område för \\(0\\le x\\le3\\). Bestäm arean exakt.</p>",
+    "s": "<p>Grafen är den övre halvan av cirkeln \\(x^2+y^2=9\\). På intervallet \\(0\\le x\\le3\\) får vi en fjärdedel av en cirkel med radie 3. Därför är arean \\(\\frac14\\pi3^2=\\frac{9\\pi}{4}\\). Integralen \\(\\int_0^3\\sqrt{9-x^2}dx\\) måste ge samma värde.</p>",
+    "familj": "Geometrisk area och area från graf med integral",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "9*pi/4",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__geometrisk_area_och_area_fran_graf_med_integral",
+    "ledtrad": "<p>Känn igen kurvan innan du försöker hitta en primitiv funktion.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "3.31",
     "kap": 3,
     "omr": "area_integraler",
@@ -38230,6 +40436,34 @@ window.BANKMATO2 = [
     "familjNyckel": "area_integraler__area_mot_x_axeln_med_integral",
     "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
     "spel": false
+  },
+  {
+    "id": "3.473",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "area med två teckenbyten",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm den geometriska arean mellan \\(f(x)=x^2-1\\) och x-axeln på \\([-2,2]\\).</p>",
+    "s": "<p>Nollställena är \\(x=\\pm1\\). Funktionen är negativ mellan dem och positiv utanför. Utnyttja symmetrin:</p><p>\\[A=2\\left(\\int_0^1(1-x^2)dx+\\int_1^2(x^2-1)dx\\right)=2\\left(\\frac23+\\frac43\\right)=4.\\]</p>",
+    "familj": "Area mot x-axeln med integral",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__area_mot_x_axeln_med_integral",
+    "ledtrad": "<p>Geometrisk area kräver att negativa integralbidrag byter tecken.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.43",
@@ -38564,6 +40798,35 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "3.462",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "absolutbeloppsgraf och geometrisk uppdelning",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Ett V-format tvärsnitt beskrivs av \\(y=|x-2|\\) meter för \\(0\\le x\\le4\\). Bestäm tvärsnittsarean mellan profilen och linjen \\(y=0\\).</p>",
+    "s": "<p>Profilen består av två kongruenta rätvinkliga trianglar. Varje triangel har bas 2 m och höjd 2 m, alltså area \\(2\\cdot2/2=2\\) m². Totalt blir tvärsnittsarean \\(4\\) m². Samma resultat fås genom att dela integralen vid x=2.</p>",
+    "familj": "Geometrisk area och area från graf med integral",
+    "formaga": [
+      "modellering",
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__geometrisk_area_och_area_fran_graf_med_integral",
+    "ledtrad": "<p>Dela V-formen vid spetsen x=2.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m²"
+  },
+  {
     "id": "3.64",
     "kap": 3,
     "omr": "area_integraler",
@@ -38797,6 +41060,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>"
   },
   {
+    "id": "3.465",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "parameter i rörligt integrationsintervall",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm \\(a&gt;0\\) så att</p><p>\\[\\int_a^{2a}x\\,dx=6.\\]</p>",
+    "s": "<p>Båda integrationsgränserna beror på a, så sätt in dem först i den primitiva funktionen:</p><p>\\[\\int_a^{2a}x\\,dx=\\left[\\frac{x^2}{2}\\right]_a^{2a}=\\frac{(2a)^2-a^2}{2}=\\frac{3a^2}{2}.\\]</p><p>Villkoret blir</p><p>\\[\\frac{3a^2}{2}=6\\Rightarrow a^2=4.\\]</p><p>Eftersom \\(a&gt;0\\) får vi <strong>\\(a=2\\)</strong>.</p>",
+    "familj": "Parameterproblem med area och integral",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__parameterproblem_med_area_och_integral",
+    "ledtrad": "<p>Kom ihåg att både den övre och den undre integrationsgränsen ska sättas in i den primitiva funktionen.</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "3.80",
     "kap": 3,
     "omr": "area_integraler",
@@ -38868,6 +41159,34 @@ window.BANKMATO2 = [
     "självrättning": false,
     "familjNyckel": "area_integraler__area_mot_x_axeln_med_integral",
     "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>"
+  },
+  {
+    "id": "3.474",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "area för kubisk teckenväxling",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm arean mellan \\(f(x)=x(x-2)\\) och x-axeln på \\([0,3]\\).</p>",
+    "s": "<p><strong>Viktig skillnad:</strong> En bestämd integral räknar arean under x-axeln negativt, men frågan gäller geometrisk area. Därför måste vi först hitta nollställena.</p><p>\\[x(x-2)=0\\Rightarrow x=0\\text{ eller }x=2.\\]</p><p>Funktionen är negativ på \\(0&lt;x&lt;2\\) och positiv på \\(2&lt;x\\le3\\). Alltså byter vi tecken på den första integralen:</p><p>\\[A=-\\int_0^2(x^2-2x)\\,dx+\\int_2^3(x^2-2x)\\,dx=\\frac43+\\frac43=\\frac83.\\]</p>",
+    "familj": "Area mot x-axeln med integral",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "8/3",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__area_mot_x_axeln_med_integral",
+    "ledtrad": "<p>Dela integralen där grafen korsar x-axeln.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.418",
@@ -39197,6 +41516,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
   },
   {
+    "id": "3.463",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "grafgiven trapetsarea",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En funktion är linjär mellan punkterna \\((0,1)\\), \\((2,3)\\) och \\((5,3)\\). Grafen ligger över x-axeln. Bestäm arean mellan grafen och x-axeln från \\(x=0\\) till \\(x=5\\).</p>",
+    "s": "<p>Från 0 till 2 fås en trapets med parallella sidor 1 och 3 och bredd 2: \\(A_1=(1+3)\\cdot2/2=4\\). Från 2 till 5 är grafen konstant 3, alltså \\(A_2=3\\cdot3=9\\). Totalt \\(A=13\\).</p><p><strong>Varför delar vi vid \\(x=2\\)?</strong> Där ändrar grafen form: först är den en stigande linje och sedan en horisontell linje. Arean kan därför beräknas bit för bit och sedan adderas, precis som en styckvis integral.</p>",
+    "familj": "Geometrisk area och area från graf med integral",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__geometrisk_area_och_area_fran_graf_med_integral",
+    "ledtrad": "<p>Dela området där grafens lutning ändras.</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "3.178",
     "kap": 3,
     "omr": "area_integraler",
@@ -39247,6 +41594,34 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "area_integraler__parameterproblem_med_area_och_integral",
     "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>"
+  },
+  {
+    "id": "3.466",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "parameter i area mellan linje och parabel",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För \\(k&gt;0\\) innesluter graferna \\(y=kx\\) och \\(y=x^2\\) ett område. Bestäm k om områdets area är \\(9/2\\).</p>",
+    "s": "<p>Skärningarna är \\(x=0\\) och \\(x=k\\). På intervallet ligger kx över x². Arean är</p><p>\\[A=\\int_0^k(kx-x^2)dx=\\frac{k^3}{6}.\\]</p><p>Sätt \\(k^3/6=9/2\\Rightarrow k^3=27\\Rightarrow k=3\\).</p><p><strong>Varför är gränsen \\(x=k\\)?</strong> Skärningsvillkoret \\(kx=x^2\\) ger \\(x=0\\) eller \\(x=k\\). Eftersom \\(k&gt;0\\) ligger linjen över parabeln mellan dessa två skärningspunkter, så integranden \\(kx-x^2\\) är positiv där.</p>",
+    "familj": "Parameterproblem med area och integral",
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__parameterproblem_med_area_och_integral",
+    "ledtrad": "<p>Skärningspunkterna beror själva på parametern k.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.420",
@@ -39347,6 +41722,34 @@ window.BANKMATO2 = [
     "svarFormat": "bråk",
     "familjNyckel": "area_integraler__geometrisk_area_och_area_fran_graf_med_integral",
     "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>"
+  },
+  {
+    "id": "3.464",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "area från symmetrisk graf utan explicit integration",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En kontinuerlig funktion är udda och grafen på intervallet \\(0\\le x\\le2\\) avgränsar arean 3 mot x-axeln. Hur stor är den geometriska arean mellan grafen och x-axeln på \\([-2,2]\\)?</p>",
+    "s": "<p>För en udda funktion är vänstra delen en 180°-rotation av den högra. Den bestämda integralen över ett symmetriskt intervall skulle bli 0 eftersom tecknen tar ut varandra, men <em>geometrisk area</em> summerar beloppen. Därför blir arean \\(3+3=6\\).</p>",
+    "familj": "Geometrisk area och area från graf med integral",
+    "formaga": [
+      "begrepp",
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__geometrisk_area_och_area_fran_graf_med_integral",
+    "ledtrad": "<p>Skilj på tecknad integral och geometrisk area.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.198",
@@ -39532,6 +41935,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>"
   },
   {
+    "id": "3.467",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "dela area under linje i två lika delar",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm \\(c\\in(0,4)\\) så att linjen \\(x=c\\) delar arean under \\(y=x\\) på \\([0,4]\\) i två lika stora delar.</p>",
+    "s": "<p>Hela arean är \\(\\int_0^4x dx=8\\), så vänstra delen ska vara 4. Sätt \\(\\int_0^c x dx=c^2/2=4\\). Då \\(c^2=8\\) och eftersom c är positivt: \\(c=2\\sqrt2\\).</p><p><strong>Observera:</strong> Att dela intervallet mitt itu, \\(c=2\\), skulle inte dela arean mitt itu eftersom höjden \\(y=x\\) är större på höger sida. Därför måste vi dela själva integralens värde, inte bara x-intervallets längd.</p>",
+    "familj": "Parameterproblem med area och integral",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*sqrt(2)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__parameterproblem_med_area_och_integral",
+    "ledtrad": "<p>Räkna först ut hur stor halva totalarean är.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "3.218",
     "kap": 3,
     "omr": "area_integraler",
@@ -39634,6 +42065,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>"
   },
   {
+    "id": "3.475",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "geometrisk area under sinus över ett helt varv",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm den geometriska arean mellan \\(y=\\sin x\\) och x-axeln på \\([0,2\\pi]\\).</p>",
+    "s": "<p>Den bestämda integralen över hela perioden är 0, men det är inte den geometriska arean. Sinus är positiv på \\((0,\\pi)\\) och negativ på \\((\\pi,2\\pi)\\):</p><p>\\[A=\\int_0^\\pi\\sin x dx-\\int_\\pi^{2\\pi}\\sin x dx=2+2=4.\\]</p>",
+    "familj": "Area mot x-axeln med integral",
+    "formaga": [
+      "begrepp",
+      "resonemang",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__area_mot_x_axeln_med_integral",
+    "ledtrad": "<p>Skilj på integralens nettovärde och area.</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
     "id": "3.232",
     "kap": 3,
     "omr": "area_integraler",
@@ -39709,6 +42168,41 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "area_integraler__parameterproblem_med_area_och_integral",
     "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>"
+  },
+  {
+    "id": "3.468",
+    "kap": 3,
+    "omr": "area_integraler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "absolutbeloppsintegral med två parameterlösningar",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm alla \\(a\\in[0,1]\\) som uppfyller</p><p>\\[\\int_0^1|x-a|\\,dx=\\frac5{16}.\\]</p>",
+    "s": "<p>Dela integralen vid \\(x=a\\):</p><p>\\[\\int_0^a(a-x)dx+\\int_a^1(x-a)dx=\\frac{a^2}{2}+\\frac{(1-a)^2}{2}.\\]</p><p>Sätt detta lika med \\(5/16\\): \\(a^2-a+3/16=0\\), vilket ger \\(a=1/4\\) eller \\(a=3/4\\). Symmetrin kring 1/2 förklarar de två lösningarna.</p>",
+    "familj": "Parameterproblem med area och integral",
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1/4",
+      "3/4"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "area_integraler__parameterproblem_med_area_och_integral",
+    "ledtrad": "<p>Absolutbeloppet byter uttryck vid x=a, så integralen måste delas där.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "3.08",
@@ -40121,6 +42615,34 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>"
   },
   {
+    "id": "3.469",
+    "kap": 3,
+    "omr": "integral_tillampningar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "läkemedelsdos från infusionshastighet",
+    "poang": "0/2/0",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>Ett läkemedel ges med hastigheten \\(r(t)=6+0,5t\\) mg/min under de första 8 minuterna. Hur stor total dos ges?</p>",
+    "s": "<p>Hastigheten \\(r(t)\\) anger hur många milligram som ges <em>per minut</em>. Den totala dosen fås därför genom att summera alla små bidrag \\(r(t)\\,dt\\), alltså genom en integral:</p><p>\\[D=\\int_0^8(6+0,5t)\\,dt=[6t+0,25t^2]_0^8=48+16=64.\\]</p><p>Enheten blir \\((\\text{mg/min})\\cdot\\text{min}=\\text{mg}\\).</p><p><strong>Svar:</strong> 64 mg.</p>",
+    "familj": "Tillämpa integraler i modeller",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 64,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "integral_tillampningar__tillampa_integraler_i_modeller",
+    "ledtrad": "<p>En hastighet integrerad över tid ger den ackumulerade mängden.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "mg"
+  },
+  {
     "id": "3.55",
     "kap": 3,
     "omr": "integral_tillampningar",
@@ -40318,6 +42840,34 @@ window.BANKMATO2 = [
       null,
       "Wh"
     ]
+  },
+  {
+    "id": "3.476",
+    "kap": 3,
+    "omr": "integral_tillampningar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "linjärt varierande effekt",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En maskins effekt är \\(P(t)=200+50t\\) W under \\(0\\le t\\le4\\) s. Hur mycket energi tillförs?</p>",
+    "s": "<p>Effekt är energi per tidsenhet, \\(P=dE/dt\\). Därför fås den tillförda energin genom att summera effekten över tiden, alltså integrera:</p><p>\\[E=\\int_0^4P(t)\\,dt=\\int_0^4(200+50t)\\,dt.\\]</p><p>\\[E=[200t+25t^2]_0^4=800+400=1200\\text{ J}.\\]</p><p>Enhetskontroll: watt gånger sekund är joule.</p>",
+    "familj": "Energi som integral av effekt",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1200,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "integral_tillampningar__energi_som_integral_av_effekt",
+    "ledtrad": "<p>Watt är joule per sekund, så integrera över tiden.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J"
   },
   {
     "id": "3.79",
@@ -40766,6 +43316,35 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>"
   },
   {
+    "id": "3.470",
+    "kap": 3,
+    "omr": "integral_tillampningar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "nettovolym från in- och utflöde",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>I en tank är inflödet \\(I(t)=20+2t\\) L/min och utflödet konstant 14 L/min. Hur mycket ökar vattenmängden under 5 minuter?</p>",
+    "s": "<p>Det är inte inflödet i sig som avgör förändringen i tanken utan <em>nettoflödet</em>: inflöde minus utflöde.</p><p>\\[I(t)-U(t)=(20+2t)-14=6+2t\\text{ L/min}.\\]</p><p>Förändringen av vattenmängden under fem minuter blir därför</p><p>\\[\\Delta V=\\int_0^5(6+2t)\\,dt=[6t+t^2]_0^5=55\\text{ L}.\\]</p>",
+    "familj": "Tillämpa integraler i modeller",
+    "formaga": [
+      "modellering",
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 55,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "integral_tillampningar__tillampa_integraler_i_modeller",
+    "ledtrad": "<p>Integrera nettotakten, inte inflödet ensamt.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "L"
+  },
+  {
     "id": "3.246",
     "kap": 3,
     "omr": "integral_tillampningar",
@@ -41137,6 +43716,35 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>"
   },
   {
+    "id": "3.477",
+    "kap": 3,
+    "omr": "integral_tillampningar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "periodiskt varierande cykeleffekt",
+    "poang": "0/2/0",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>En cyklist trampar med effekten \\(P(t)=250+30\\sin(\\pi t/10)\\) W under 10 s. Bestäm arbetet med närmaste joule.</p>",
+    "s": "<p>\\[E=\\int_0^{10}P(t)dt=2500+30\\left[-\\frac{10}{\\pi}\\cos(\\pi t/10)\\right]_0^{10}=2500+\\frac{600}{\\pi}.\\]</p><p>Det är cirka \\(2691\\) J.</p><p><strong>Varför integrerar vi effekten?</strong> Effekt är energi per tid, alltså \\(P=dE/dt\\). Därför återfås energin genom \\(E=\\int P(t)dt\\). Enhetskontrollen ger W·s = J, vilket stämmer med det sökta arbetet.</p>",
+    "familj": "Energi som integral av effekt",
+    "formaga": [
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2691,
+    "tolerans": 1,
+    "självrättning": true,
+    "familjNyckel": "integral_tillampningar__energi_som_integral_av_effekt",
+    "ledtrad": "<p>Integrera konstantdelen och sinusdelen var för sig.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J"
+  },
+  {
     "id": "3.138",
     "kap": 3,
     "omr": "integral_tillampningar",
@@ -41317,6 +43925,35 @@ window.BANKMATO2 = [
     "familjNyckel": "integral_tillampningar__tillampa_integraler_i_modeller",
     "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
     "spelIntro": "<p>Ett läkemedel tillförs kroppen med hastigheten</p><p>\\[r(t)=12te^{-0,6t},\\qquad0\\le t\\le8,\\]</p><p>där \\(r\\) mäts i mg/h.</p>"
+  },
+  {
+    "id": "3.471",
+    "kap": 3,
+    "omr": "integral_tillampningar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "total kostnad från marginalkostnad",
+    "poang": "0/1/2",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>Marginalkostnaden för att producera x enheter är \\(K'(x)=40+0,02x\\) kr/enhet. Den fasta kostnaden är 12 000 kr. Bestäm kostnaden för 1000 producerade enheter.</p>",
+    "s": "<p>Marginalkostnaden beskriver hur totalkostnaden förändras. Därför</p><p>\\[K(1000)=K(0)+\\int_0^{1000}(40+0,02x)dx.\\]</p><p>Integralen är \\(40\\,000+10\\,000=50\\,000\\) kr. Med den fasta kostnaden blir totalen \\(62\\,000\\) kr.</p>",
+    "familj": "Tillämpa integraler i modeller",
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 62000,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "integral_tillampningar__tillampa_integraler_i_modeller",
+    "ledtrad": "<p>Glöm inte begynnelsevärdet K(0): integralen ger bara förändringen.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
   },
   {
     "id": "3.140",
@@ -41620,6 +44257,35 @@ window.BANKMATO2 = [
     "självrättning": false,
     "familjNyckel": "integral_tillampningar__tillampa_integraler_i_modeller",
     "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>"
+  },
+  {
+    "id": "3.472",
+    "kap": 3,
+    "omr": "integral_tillampningar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "massa från varierande linjär densitet",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En 3 m lång stång har linjär densitet \\(\\rho(x)=2+0,4x\\) kg/m, där x mäts från ena änden. Bestäm stångens massa.</p>",
+    "s": "<p>En liten bit med längd dx har massan ungefär \\(\\rho(x)dx\\). Summering längs hela stången ger</p><p>\\[m=\\int_0^3(2+0,4x)dx=[2x+0,2x^2]_0^3=6+1,8=7,8\\text{ kg}.\\]</p><p><strong>Enhetskontroll:</strong> Densiteten har enheten kg/m och \\(dx\\) har enheten m. Produkten \\(\\rho(x)dx\\) får därför enheten kg, och integralen summerar massan av alla små delar längs stången.</p>",
+    "familj": "Tillämpa integraler i modeller",
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "familjNyckel": "integral_tillampningar__tillampa_integraler_i_modeller",
+    "ledtrad": "<p>Densitet per längdenhet integrerad över längden ger total massa.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kg"
   },
   {
     "id": "3.202",
@@ -42009,6 +44675,35 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "integral_tillampningar__energi_som_integral_av_effekt",
     "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>"
+  },
+  {
+    "id": "3.478",
+    "kap": 3,
+    "omr": "integral_tillampningar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "avtagande laddningseffekt",
+    "poang": "0/1/2",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>En laddare levererar effekten \\(P(t)=1000e^{-0,5t}\\) W. Bestäm energin som levereras under de första 4 sekunderna, avrundat till heltal joule.</p>",
+    "s": "<p>Eftersom effekt mäts i joule per sekund är energin arean under effektkurvan:</p><p>\\[E=\\int_0^4 1000e^{-0,5t}\\,dt.\\]</p><p>En primitiv funktion är \\(-2000e^{-0,5t}\\), eftersom derivatan då ger tillbaka faktorn 1000:</p><p>\\[E=\\left[-2000e^{-0,5t}\\right]_0^4=2000(1-e^{-2})\\approx1729\\text{ J}.\\]</p><p><strong>Svar:</strong> cirka \\(1729\\) J.</p>",
+    "familj": "Energi som integral av effekt",
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1729,
+    "tolerans": 1,
+    "självrättning": true,
+    "familjNyckel": "integral_tillampningar__energi_som_integral_av_effekt",
+    "ledtrad": "<p>Kontrollera enheten: W·s = J.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J"
   },
   {
     "id": "3.02",
@@ -47750,6 +50445,45 @@ window.BANKMATO2 = [
     "spelIntro": "<p>Förenkla uttrycken till formen \\(a+bi\\).</p>"
   },
   {
+    "id": "4.450",
+    "kap": 4,
+    "omr": "komplex_aritmetik",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "upprepad komplex skalning och rotation",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En punkt startar i \\(z_0=1\\). I varje steg multipliceras dess komplexa koordinat med \\(1-i\\):</p><p>\\[z_{n+1}=(1-i)z_n.\\]</p><p>Bestäm \\(z_{10}\\) på formen \\(a+bi\\).</p>",
+    "s": "<p>Efter tio steg är</p><p>\\[z_{10}=(1-i)^{10}.\\]</p><p>Skriv faktorn i polär form: \\(1-i=\\sqrt2\\,e^{-i\\pi/4}\\). Då ser vi både skalning och rotation:</p><p>\\[(1-i)^{10}=(\\sqrt2)^{10}e^{-i10\\pi/4}=32e^{-i5\\pi/2}=32e^{-i\\pi/2}=-32i.\\]</p><p>Varje steg skalar alltså avståndet med \\(\\sqrt2\\) och roterar \\(45^\\circ\\) medurs.</p><p><strong>Svar:</strong> \\(z_{10}=-32i\\).</p>",
+    "familj": "Potenser med komplexa tal",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      -32
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "komplex_aritmetik__potenser_med_komplexa_tal",
+    "ledtrad": "<p>Efter n steg har samma faktor multiplicerats n gånger. Polär form gör en hög potens betydligt enklare.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "realdel",
+      "imaginärdel"
+    ]
+  },
+  {
     "id": "4.96",
     "kap": 4,
     "omr": "komplex_aritmetik",
@@ -50723,6 +53457,44 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>"
   },
   {
+    "id": "4.448",
+    "kap": 4,
+    "omr": "komplex_aritmetik",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "division med icke-reell nämnare",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm det komplexa talet z som uppfyller</p><p>\\[(1-2i)z=4+i.\\]</p><p>Skriv z på formen \\(a+bi\\).</p>",
+    "s": "<p>Dividera med \\(1-2i\\) och gör nämnaren reell med konjugatet \\(1+2i\\):</p><p>\\[z=\\frac{4+i}{1-2i}\\cdot\\frac{1+2i}{1+2i}=\\frac{2+9i}{5}=\\frac25+\\frac95i.\\]</p><p><strong>Varför konjugatet?</strong> Produkten \\((1-2i)(1+2i)=1^2+2^2=5\\) är reell. Då kan kvoten förenklas precis som ett vanligt bråk och real- respektive imaginärdel kan läsas av utan ett komplext tal i nämnaren.</p>",
+    "familj": "Division av komplexa tal",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2/5",
+      "9/5"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "komplex_aritmetik__division_av_komplexa_tal",
+    "ledtrad": "<p>Isolera z först. Använd sedan nämnarens konjugat.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "realdel",
+      "imaginärdel"
+    ]
+  },
+  {
     "id": "4.418",
     "kap": 4,
     "omr": "komplex_aritmetik",
@@ -50898,6 +53670,45 @@ window.BANKMATO2 = [
     "svarFormat": "uttryck",
     "familjNyckel": "komplex_aritmetik__division_av_komplexa_tal",
     "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>"
+  },
+  {
+    "id": "4.449",
+    "kap": 4,
+    "omr": "komplex_aritmetik",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "komplex kvot i impedansliknande modell",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Beräkna kvoten \\(\\frac{4-2i}{1+i}\\).</p>",
+    "s": "<p><strong>Varför konjugatet?</strong> Vi vill få bort \\(i\\) ur nämnaren. Produkten av ett komplext tal och dess konjugat är reell: \\((1+i)(1-i)=2\\).</p><p>Multiplicera därför både täljare och nämnare med \\(1-i\\):</p><p>\\[\\frac{4-2i}{1+i}=\\frac{(4-2i)(1-i)}{(1+i)(1-i)}=\\frac{2-6i}{2}=1-3i.\\]</p><p><strong>Svar:</strong> \\(1-3i\\).</p>",
+    "familj": "Division av komplexa tal",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1",
+      "-3"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "komplex_aritmetik__division_av_komplexa_tal",
+    "ledtrad": "<p>Använd nämnarens konjugat 1−i.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "realdel",
+      "imaginärdel"
+    ]
   },
   {
     "id": "4.273",
@@ -51192,6 +54003,34 @@ window.BANKMATO2 = [
     "familjNyckel": "komplex_aritmetik__potenser_med_komplexa_tal",
     "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
     "spelIntro": "<p>Bestäm.</p>"
+  },
+  {
+    "id": "4.451",
+    "kap": 4,
+    "omr": "komplex_aritmetik",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "periodicitet i i-potenser",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Beräkna \\(i^{2026}\\).</p>",
+    "s": "<p>Potenserna av i upprepas med period 4. Eftersom \\(2026=4\\cdot506+2\\) får vi \\(i^{2026}=i^2=-1\\).</p><p><strong>Se mönstret:</strong> \\(i^1=i\\), \\(i^2=-1\\), \\(i^3=-i\\) och \\(i^4=1\\). Därefter börjar samma fyrastegscykel om. Därför är det resten vid division med 4 som avgör värdet, inte storleken på exponenten i sig.</p>",
+    "familj": "Potenser med komplexa tal",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "komplex_aritmetik__potenser_med_komplexa_tal",
+    "ledtrad": "<p>Reducera exponenten modulo 4.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.300",
@@ -52122,6 +54961,45 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "4.442",
+    "kap": 4,
+    "omr": "komplexa_talplanet",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "rotation 90 grader i komplexa talplanet",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Punkten \\(z=2+i\\) roteras 90° moturs kring origo. Bestäm bildpunkten.</p>",
+    "s": "<p>På det komplexa talplanet betyder multiplikation med \\(i\\) att argumentet ökar med \\(\\pi/2\\), alltså en rotation \\(90^\\circ\\) moturs, medan absolutbeloppet är oförändrat.</p><p>Därför blir bildpunkten</p><p>\\[w=i(2+i)=2i+i^2=-1+2i.\\]</p><p>Som kontroll har både \\(2+i\\) och \\(-1+2i\\) absolutbeloppet \\(\\sqrt5\\).</p>",
+    "familj": "Avbildningar, rotation och skalning med komplexa tal",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-1",
+      "2"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "komplexa_talplanet__avbildningar_rotation_och_skalning_med_komplexa_tal",
+    "ledtrad": "<p>Multiplikation med i roterar 90° moturs.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "realdel",
+      "imaginärdel"
+    ]
+  },
+  {
     "id": "4.153",
     "kap": 4,
     "omr": "komplexa_talplanet",
@@ -52831,6 +55709,45 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>"
   },
   {
+    "id": "4.443",
+    "kap": 4,
+    "omr": "komplexa_talplanet",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "skalning och rotation i ett steg",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Talet \\(z=2\\) multipliceras med \\(2e^{-i\\pi/3}\\). Bestäm resultatet på formen \\(a+bi\\).</p>",
+    "s": "<p>Multiplikatorn skalar med faktor 2 och roterar −60°. Produkten har absolutbelopp 4 och argument −π/3:</p><p>\\[w=4(\\cos(-\\pi/3)+i\\sin(-\\pi/3))=2-2\\sqrt3 i.\\]</p><p><strong>Geometrisk tolkning:</strong> Vid multiplikation av komplexa tal multipliceras absolutbeloppen och argumenten adderas. Därför blir \\(|w|=2\\cdot2=4\\) och vinkeln \\(-\\pi/3\\), innan vi skriver om till rektangulär form.</p>",
+    "familj": "Avbildningar, rotation och skalning med komplexa tal",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2",
+      "-2*sqrt(3)"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "komplexa_talplanet__avbildningar_rotation_och_skalning_med_komplexa_tal",
+    "ledtrad": "<p>Multiplicera absolutbeloppen och addera argumenten.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "realdel",
+      "imaginärdel"
+    ]
+  },
+  {
     "id": "4.425",
     "kap": 4,
     "omr": "komplexa_talplanet",
@@ -53536,6 +56453,45 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "komplexa_talplanet__avbildningar_rotation_och_skalning_med_komplexa_tal",
     "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>"
+  },
+  {
+    "id": "4.444",
+    "kap": 4,
+    "omr": "komplexa_talplanet",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "invertera komplex linjär avbildning",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Avbildningen \\(w=(1+i)z\\) skickar z till \\(w=-1+3i\\). Bestäm z.</p>",
+    "s": "<p>Avbildningen är given som \\(w=(1+i)z\\). För att gå baklänges måste vi alltså dividera med \\(1+i\\):</p><p>\\[z=\\frac{-1+3i}{1+i}.\\]</p><p>Multiplicera med konjugatet \\(1-i\\) så att nämnaren blir reell:</p><p>\\[z=\\frac{(-1+3i)(1-i)}{(1+i)(1-i)}=\\frac{2+4i}{2}=1+2i.\\]</p><p><strong>Svar:</strong> \\(z=1+2i\\).</p>",
+    "familj": "Avbildningar, rotation och skalning med komplexa tal",
+    "formaga": [
+      "problemlösning",
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1",
+      "2"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "komplexa_talplanet__avbildningar_rotation_och_skalning_med_komplexa_tal",
+    "ledtrad": "<p>Invertera avbildningen genom att dividera med 1+i.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "realdel",
+      "imaginärdel"
+    ]
   },
   {
     "id": "4.04",
@@ -54345,6 +57301,38 @@ window.BANKMATO2 = [
     "spel": false
   },
   {
+    "id": "4.438",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "Eulerform till rektangulär form",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Ett tal på enhetscirkeln är \\(z=e^{i\\theta}\\). Realdelen är \\(-1/2\\) och imaginärdelen är positiv. Bestäm \\(\\theta\\) i intervallet \\(0\\le\\theta&lt;2\\pi\\).</p>",
+    "s": "<p>Eulers formel visar att realdelen är \\(\\cos\\theta\\) och imaginärdelen \\(\\sin\\theta\\). Villkoren blir \\(\\cos\\theta=-1/2\\) och \\(\\sin\\theta&gt;0\\), vilket placerar vinkeln i andra kvadranten. Referensvinkeln är \\(\\pi/3\\), alltså \\(\\theta=2\\pi/3\\).</p>",
+    "familj": "Eulers formel",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*pi/3",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "polar_exponentiell__eulers_formel",
+    "ledtrad": "<p>Översätt realdel och imaginärdel till cos θ respektive sin θ.</p>",
+    "svarFormat": "uttryck",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "realdel",
+      "koefficient framför i"
+    ]
+  },
+  {
     "id": "4.148",
     "kap": 4,
     "omr": "polar_exponentiell",
@@ -55052,6 +58040,33 @@ window.BANKMATO2 = [
     "självrättning": false,
     "familjNyckel": "polar_exponentiell__eulers_formel",
     "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>"
+  },
+  {
+    "id": "4.439",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "härled cosinus med komplexa exponentialer",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Använd Eulers formel för att härleda additionsformeln för \\(\\cos(\\alpha+\\beta)\\).</p>",
+    "s": "<p>Å ena sidan är \\(e^{i(\\alpha+\\beta)}=\\cos(\\alpha+\\beta)+i\\sin(\\alpha+\\beta)\\). Å andra sidan</p><p>\\[e^{i\\alpha}e^{i\\beta}=(\\cos\\alpha+i\\sin\\alpha)(\\cos\\beta+i\\sin\\beta).\\]</p><p>Realdelen av produkten är \\(\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta\\). Eftersom uttrycken är samma komplexa tal måste realdelarna vara lika:</p><p>\\[\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta.\\]</p>",
+    "familj": "Eulers formel",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "svarstyp": "manuell",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "familjNyckel": "polar_exponentiell__eulers_formel",
+    "ledtrad": "<p>Skriv e^{i(α+β)} både direkt och som e^{iα}e^{iβ}, och jämför realdelarna.</p>",
+    "svarFormat": null
   },
   {
     "id": "4.146",
@@ -57050,6 +60065,44 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>"
   },
   {
+    "id": "4.440",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "Eulers identitet som värde",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Beräkna \\((e^{i\\pi/6})^9\\) och skriv resultatet på formen \\(a+bi\\).</p>",
+    "s": "<p>Potensregeln för exponentialformen ger \\((e^{i\\pi/6})^9=e^{i9\\pi/6}=e^{i3\\pi/2}\\). Med Eulers formel är detta \\(\\cos(3\\pi/2)+i\\sin(3\\pi/2)=-i\\).</p><p><strong>Nyckelidé:</strong> I exponentialform ligger vinkeln i exponenten. När ett komplext tal upphöjs till en potens multipliceras därför argumentet med exponenten. Sedan används Eulers formel för att gå tillbaka till formen \\(a+bi\\).</p>",
+    "familj": "Eulers formel",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      -1
+    ],
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "polar_exponentiell__eulers_formel",
+    "ledtrad": "<p>Multiplicera argumentet med exponenten 9 innan du använder Eulers formel.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "realdel",
+      "imaginärdel"
+    ]
+  },
+  {
     "id": "4.408",
     "kap": 4,
     "omr": "polar_exponentiell",
@@ -57102,6 +60155,45 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>"
   },
   {
+    "id": "4.452",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "exakt argument i andra kvadranten",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm absolutbelopp och huvudargument för \\(z=-3+3\\sqrt3 i\\), där \\(0\\le\\arg z&lt;2\\pi\\).</p>",
+    "s": "<p>Absolutbeloppet är \\(\\sqrt{(-3)^2+(3\\sqrt3)^2}=\\sqrt{36}=6\\). Punkten ligger i andra kvadranten och \\(\\tan\\alpha=\\sqrt3\\), så referensvinkeln är \\(\\pi/3\\). Därför är argumentet \\(2\\pi/3\\).</p>",
+    "familj": "Absolutbelopp och argument för komplexa tal",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "6",
+      "2*pi/3"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "polar_exponentiell__absolutbelopp_och_argument_for_komplexa_tal",
+    "ledtrad": "<p>Bestäm först kvadranten; arctan ensam kan ge fel argument.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "absolutbelopp",
+      "argument"
+    ]
+  },
+  {
     "id": "4.410",
     "kap": 4,
     "omr": "polar_exponentiell",
@@ -57152,6 +60244,41 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "polar_exponentiell__eulers_formel",
     "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>"
+  },
+  {
+    "id": "4.441",
+    "kap": 4,
+    "omr": "polar_exponentiell",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "bestäm argument från komplex exponential",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Lös \\(e^{2i\\theta}=-1\\) för \\(0\\le\\theta&lt;2\\pi\\).</p>",
+    "s": "<p>Talet −1 har argument \\(\\pi+2k\\pi\\). Därför måste \\(2\\theta=\\pi+2k\\pi\\), vilket ger \\(\\theta=\\pi/2+k\\pi\\). I det givna intervallet fås \\(\\theta=\\pi/2\\) och \\(3\\pi/2\\).</p><p><strong>Varför kommer \\(2k\\pi\\) med?</strong> Samma komplexa tal har oändligt många argument som skiljer sig med hela varv. Vi måste ta med dem innan vi delar med 2 och därefter välja de \\(\\theta\\) som ligger i det givna intervallet.</p>",
+    "familj": "Eulers formel",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/2",
+      "3*pi/2"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "polar_exponentiell__eulers_formel",
+    "ledtrad": "<p>Skriv −1 som e^{i(π+2kπ)}.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "4.03",
@@ -60732,6 +63859,45 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>"
   },
   {
+    "id": "4.445",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "Sophie Germain-faktorisering av x⁴+4",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Lös \\(x^4+4=0\\) fullständigt över de komplexa talen.</p>",
+    "s": "<p>Skriv \\(x^4+4=(x^2+2)^2-(2x)^2\\). Då</p><p>\\[x^4+4=(x^2-2x+2)(x^2+2x+2).\\]</p><p>De två andragradsekvationerna ger rötterna \\(1\\pm i\\) och \\(-1\\pm i\\).</p><p><strong>Varför den omskrivningen?</strong> Uttrycket saknar vanliga reella faktorer, men genom att skapa en kvadratskillnad kan vi använda \\(A^2-B^2=(A-B)(A+B)\\). Därefter återstår två vanliga andragradsekvationer.</p>",
+    "familj": "Polynomekvationer med komplexa lösningar",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1+i",
+      "1-i",
+      "-1+i",
+      "-1-i"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "polynom_komplexa__polynomekvationer_med_komplexa_losningar",
+    "ledtrad": "<p>Försök skapa en kvadratskillnad: (x²+2)²−(2x)².</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
+  },
+  {
     "id": "4.129",
     "kap": 4,
     "omr": "polynom_komplexa",
@@ -62647,6 +65813,43 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>"
   },
   {
+    "id": "4.446",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "typ": "kubikekvation med två komplexa rötter",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Lös \\(x^3=8\\) över de komplexa talen.</p>",
+    "s": "<p>Talet 8 har absolutbelopp 8 och argument \\(0+2k\\pi\\). Kubikrötterna har absolutbelopp 2 och argument \\(2k\\pi/3\\). Därför fås \\(2\\), \\(-1+i\\sqrt3\\) och \\(-1-i\\sqrt3\\).</p><p><strong>Geometriskt:</strong> De tre kubikrötterna ligger lika långt från origo och är jämnt fördelade med \\(2\\pi/3\\) radianer mellan sig. Det är därför vi får exakt tre olika rötter, inte bara den reella roten 2.</p>",
+    "familj": "Polynomekvationer med komplexa lösningar",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2",
+      "-1+i*sqrt(3)",
+      "-1-i*sqrt(3)"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "polynom_komplexa__polynomekvationer_med_komplexa_losningar",
+    "ledtrad": "<p>En kubikekvation har tre komplexa rötter räknat med multiplicitet.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
+  },
+  {
     "id": "4.304",
     "kap": 4,
     "omr": "polynom_komplexa",
@@ -62966,5 +66169,44 @@ window.BANKMATO2 = [
     "svarFormat": "numeriskt",
     "familjNyckel": "polynom_komplexa__polynomekvationer_med_komplexa_losningar",
     "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>"
+  },
+  {
+    "id": "4.447",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "typ": "minsta grad och polynom från två icke-reella rötter",
+    "poang": "0/1/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Ett moniskt polynom har reella koefficienter och rötterna \\(1+i\\) och \\(2i\\).</p><p>Bestäm den minsta möjliga graden och polynomet med denna grad.</p>",
+    "s": "<p>Eftersom koefficienterna är reella måste varje icke-reell rot följas av sitt konjugat. Rötterna \\(1-i\\) och \\(-2i\\) måste därför också finnas. Vi har alltså fyra rötter och minsta möjliga grad är 4.</p><p>Polynomet blir</p><p>\\[P(x)=(x-(1+i))(x-(1-i))(x-2i)(x+2i).\\]</p><p>Para ihop konjugaten:</p><p>\\[(x-(1+i))(x-(1-i))=x^2-2x+2,\\qquad (x-2i)(x+2i)=x^2+4.\\]</p><p>Multiplikation ger</p><p>\\[P(x)=x^4-2x^3+6x^2-8x+8.\\]</p>",
+    "familj": "Polynomekvationer med komplexa lösningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      "x^4-2*x^3+6*x^2-8*x+8"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "polynom_komplexa__polynomekvationer_med_komplexa_losningar",
+    "ledtrad": "<p>Reella koefficienter innebär att icke-reella rötter kommer i konjugatpar. Börja med att skriva upp de rötter som därför saknas.</p>",
+    "svarFormat": [
+      "heltal",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "minsta grad",
+      "P(x)"
+    ]
   }
 ];

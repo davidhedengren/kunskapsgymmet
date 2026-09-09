@@ -8843,7 +8843,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 47,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8869,7 +8869,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 83,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8895,7 +8895,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6.7,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8921,7 +8921,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8947,7 +8947,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.49,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8973,7 +8973,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.075,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -8999,7 +8999,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3700,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9025,7 +9025,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9000,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9051,7 +9051,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9077,7 +9077,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9103,7 +9103,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9129,7 +9129,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 240,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9155,7 +9155,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7400,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9181,7 +9181,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.68,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9207,7 +9207,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 99000,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9233,7 +9233,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.445,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9259,7 +9259,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1250,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9285,7 +9285,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 57,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9304,20 +9304,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(49\\cdot21\\) genom att använda <strong>50·20</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[49\\cdot21\\approx 50\\cdot20=1000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(1000\\).</p>",
+    "t": "<p>Gör ett överslag av \\(49\\cdot21\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[49\\cdot21\\approx 50\\cdot20=1000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(1000\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-09,
+    "tolerans": 100,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.195",
@@ -9330,20 +9330,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(198+403\\) genom att använda <strong>200+400</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[198+403\\approx 200+400=600.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(600\\).</p>",
+    "t": "<p>Gör ett överslag av \\(198+403\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[198+403\\approx 200+400=600.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(600\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-09,
+    "tolerans": 60,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.196",
@@ -9356,20 +9356,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(612-297\\) genom att använda <strong>600-300</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[612-297\\approx 600-300=300.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(300\\).</p>",
+    "t": "<p>Gör ett överslag av \\(612-297\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[612-297\\approx 600-300=300.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(300\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-09,
+    "tolerans": 30,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.197",
@@ -9382,20 +9382,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(79\\cdot51\\) genom att använda <strong>80·50</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[79\\cdot51\\approx 80\\cdot50=4000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(4000\\).</p>",
+    "t": "<p>Gör ett överslag av \\(79\\cdot51\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[79\\cdot51\\approx 80\\cdot50=4000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(4000\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-09,
+    "tolerans": 400,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.198",
@@ -9408,20 +9408,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(1 498+2 503\\) genom att använda <strong>1 500+2 500</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[1\\,498+2\\,503\\approx 1\\,500+2\\,500=4000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(4000\\).</p>",
+    "t": "<p>Gör ett överslag av \\(1 498+2 503\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[1\\,498+2\\,503\\approx 1\\,500+2\\,500=4000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(4000\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-09,
+    "tolerans": 400,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.199",
@@ -9434,20 +9434,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(398\\div19\\) genom att använda <strong>400/20</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[398\\div19\\approx 400\\div20=20.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(20\\).</p>",
+    "t": "<p>Gör ett överslag av \\(398\\div19\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[398\\div19\\approx 400\\div20=20.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(20\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-09,
+    "tolerans": 2,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.200",
@@ -9460,20 +9460,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(6,1\\cdot19,8\\) genom att använda <strong>6·20</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[6{,}1\\cdot19{,}8\\approx 6\\cdot20=120.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(120\\).</p>",
+    "t": "<p>Gör ett överslag av \\(6,1\\cdot19,8\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[6{,}1\\cdot19{,}8\\approx 6\\cdot20=120.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(120\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 1e-09,
+    "tolerans": 12,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.201",
@@ -9486,20 +9486,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(303\\cdot0,49\\) genom att använda <strong>300·0,5</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[303\\cdot0{,}49\\approx 300\\cdot0{,}5=150.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(150\\).</p>",
+    "t": "<p>Gör ett överslag av \\(303\\cdot0,49\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[303\\cdot0{,}49\\approx 300\\cdot0{,}5=150.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(150\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-09,
+    "tolerans": 15,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.202",
@@ -9512,20 +9512,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(2 980\\div61\\) genom att använda <strong>3 000/60</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[2\\,980\\div61\\approx 3\\,000\\div60=50.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(50\\).</p>",
+    "t": "<p>Gör ett överslag av \\(2 980\\div61\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[2\\,980\\div61\\approx 3\\,000\\div60=50.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(50\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-09,
+    "tolerans": 5,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.203",
@@ -9538,20 +9538,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(74+128+203\\) genom att använda <strong>70+130+200</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[74+128+203\\approx 70+130+200=400.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(400\\).</p>",
+    "t": "<p>Gör ett överslag av \\(74+128+203\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[74+128+203\\approx 70+130+200=400.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(400\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 400,
-    "tolerans": 1e-09,
+    "tolerans": 40,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.204",
@@ -9564,20 +9564,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(19,7\\cdot4,9\\) genom att använda <strong>20·5</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[19{,}7\\cdot4{,}9\\approx 20\\cdot5=100.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(100\\).</p>",
+    "t": "<p>Gör ett överslag av \\(19,7\\cdot4,9\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[19{,}7\\cdot4{,}9\\approx 20\\cdot5=100.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(100\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-09,
+    "tolerans": 10,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.205",
@@ -9590,20 +9590,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag av \\(998-487\\) genom att använda <strong>1 000-500</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[998-487\\approx 1\\,000-500=500.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(500\\).</p>",
+    "t": "<p>Gör ett överslag av \\(998-487\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[998-487\\approx 1\\,000-500=500.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(500\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 500,
-    "tolerans": 1e-09,
+    "tolerans": 50,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.206",
@@ -9616,20 +9616,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Gör ett överslag av \\(1 995\\cdot0,051\\) genom att använda <strong>2 000·0,05</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[1\\,995\\cdot0{,}051\\approx 2\\,000\\cdot0{,}05=100.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(100\\).</p>",
+    "t": "<p>Gör ett överslag av \\(1 995\\cdot0,051\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[1\\,995\\cdot0{,}051\\approx 2\\,000\\cdot0{,}05=100.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(100\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-09,
+    "tolerans": 10,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.207",
@@ -9642,20 +9642,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Gör ett överslag av \\(4 980\\div0,99\\) genom att använda <strong>5 000/1</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[4\\,980\\div0{,}99\\approx 5\\,000\\div1=5000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(5000\\).</p>",
+    "t": "<p>Gör ett överslag av \\(4 980\\div0,99\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[4\\,980\\div0{,}99\\approx 5\\,000\\div1=5000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(5000\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5000,
-    "tolerans": 1e-09,
+    "tolerans": 500,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.208",
@@ -9668,20 +9668,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Gör ett överslag av \\(247\\cdot39\\) genom att använda <strong>250·40</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[247\\cdot39\\approx 250\\cdot40=10\\,000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(10\\,000\\).</p>",
+    "t": "<p>Gör ett överslag av \\(247\\cdot39\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[247\\cdot39\\approx 250\\cdot40=10\\,000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(10\\,000\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-09,
+    "tolerans": 1000,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.209",
@@ -9694,20 +9694,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Gör ett överslag av \\(8,03\\cdot1,98\\) genom att använda <strong>8·2</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[8{,}03\\cdot1{,}98\\approx 8\\cdot2=16.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(16\\).</p>",
+    "t": "<p>Gör ett överslag av \\(8,03\\cdot1,98\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[8{,}03\\cdot1{,}98\\approx 8\\cdot2=16.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(16\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-09,
+    "tolerans": 1.6,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.210",
@@ -9720,20 +9720,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Gör ett överslag av \\(59 800+20 300-9 900\\) genom att använda <strong>60 000+20 000-10 000</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[59\\,800+20\\,300-9\\,900\\approx 60\\,000+20\\,000-10\\,000=70\\,000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(70\\,000\\).</p>",
+    "t": "<p>Gör ett överslag av \\(59 800+20 300-9 900\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[59\\,800+20\\,300-9\\,900\\approx 60\\,000+20\\,000-10\\,000=70\\,000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(70\\,000\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 70000,
-    "tolerans": 1e-09,
+    "tolerans": 7000,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.211",
@@ -9746,20 +9746,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Gör ett överslag av \\(3 980\\div0,202\\) genom att använda <strong>4 000/0,2</strong>. Beräkna överslaget.</p>",
-    "s": "<p>Ersätt talen med de lättare tal som uppgiften anger. Då blir</p><p>\\[3\\,980\\div0{,}202\\approx 4\\,000\\div0{,}2=20\\,000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p><strong>Svar:</strong> cirka \\(20\\,000\\).</p>",
+    "t": "<p>Gör ett överslag av \\(3 980\\div0,202\\). Välj själv lämpliga tal att avrunda till och beräkna ett rimligt överslag.</p>",
+    "s": "<p><strong>Metod:</strong> Välj närliggande tal som är enklare att räkna med. Ett möjligt överslag är</p><p>\\[3\\,980\\div0{,}202\\approx 4\\,000\\div0{,}2=20\\,000.\\]</p><p>Tecknet \\(\\approx\\) används eftersom det är ett överslag, inte det exakta värdet.</p><p>Andra väl valda avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(20\\,000\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20000,
-    "tolerans": 1e-09,
+    "tolerans": 2000,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "0.212",
@@ -9779,7 +9779,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 340,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9806,7 +9806,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9833,7 +9833,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2750,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9860,7 +9860,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6.4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9887,7 +9887,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4200,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9914,7 +9914,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.75,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9941,7 +9941,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3500,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9968,7 +9968,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.25,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -9995,7 +9995,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 144,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10022,7 +10022,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10049,7 +10049,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 650,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10076,7 +10076,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.48,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10103,7 +10103,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 32,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10130,7 +10130,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5.6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10157,7 +10157,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1800,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10184,7 +10184,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.75,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10211,7 +10211,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25000,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10238,7 +10238,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3.6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10265,7 +10265,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10292,7 +10292,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 60,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10630,7 +10630,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 8.4e-05,
+    "rättSvar": 0.000084,
     "tolerans": 1e-12,
     "självrättning": true,
     "formaga": [
@@ -10657,7 +10657,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3200,
-    "tolerans": 3.2000000000000003e-06,
+    "tolerans": 0.0000032000000000000003,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10711,7 +10711,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 75,
-    "tolerans": 7.500000000000001e-08,
+    "tolerans": 7.500000000000001e-8,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10764,7 +10764,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 8.5e-06,
+    "rättSvar": 0.0000085,
     "tolerans": 1e-12,
     "självrättning": true,
     "formaga": [
@@ -10792,7 +10792,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 360,
-    "tolerans": 3.6000000000000005e-07,
+    "tolerans": 3.6000000000000005e-7,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10846,7 +10846,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7.5,
-    "tolerans": 7.500000000000001e-09,
+    "tolerans": 7.500000000000001e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10873,7 +10873,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 4.500000000000001e-09,
+    "tolerans": 4.500000000000001e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10900,7 +10900,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2800,
-    "tolerans": 2.8000000000000003e-06,
+    "tolerans": 0.0000028000000000000003,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10927,7 +10927,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1.5000000000000002e-08,
+    "tolerans": 1.5000000000000002e-8,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -11187,7 +11187,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 7.25e-05,
+    "rättSvar": 0.0000725,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -20218,7 +20218,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 28,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -20245,7 +20245,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -20272,7 +20272,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -20299,7 +20299,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -20326,7 +20326,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28200,7 +28200,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28225,7 +28225,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 48,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28250,7 +28250,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28275,7 +28275,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28300,7 +28300,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28325,7 +28325,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28350,7 +28350,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28375,7 +28375,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28425,7 +28425,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -28450,7 +28450,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -28476,7 +28476,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -28502,7 +28502,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -28528,7 +28528,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -28554,7 +28554,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -28580,7 +28580,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -30925,7 +30925,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.1,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -30952,7 +30952,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.2,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -30979,7 +30979,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1250,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -38424,7 +38424,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2e-06,
+      0.000002,
       0.01,
       1
     ],
@@ -39953,7 +39953,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -39980,7 +39980,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -40007,7 +40007,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -40034,7 +40034,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15.5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -40061,7 +40061,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.975,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -41049,7 +41049,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -41076,7 +41076,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -41103,7 +41103,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -41130,7 +41130,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -41157,7 +41157,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -52080,7 +52080,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "0.443625",
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -53083,7 +53083,7 @@ window.BANKMA1 = [
     ],
     "tolerans": [
       0.0001,
-      1e-06,
+      0.000001,
       null,
       0.0001
     ],
@@ -56174,7 +56174,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -56201,7 +56201,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -56228,7 +56228,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -56255,7 +56255,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -60483,7 +60483,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "bråk",
     "rättSvar": 200,
-    "tolerans": null,
+    "tolerans": 20,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64129,7 +64129,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.6,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64154,7 +64154,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64179,7 +64179,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64204,7 +64204,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64229,7 +64229,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64254,7 +64254,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64279,7 +64279,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64304,7 +64304,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64329,7 +64329,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -64354,7 +64354,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -64379,7 +64379,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -64404,7 +64404,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -64592,7 +64592,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "val",
     "rättSvar": 10000,
-    "tolerans": null,
+    "tolerans": 1000,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -66552,20 +66552,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En butik köper 48 varor för 197 kr styck. Gör ett överslag av kostnaden. Använd överslaget <strong>50·200</strong>.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Beräkna med den angivna avrundningen 50·200.</p><p><strong>Svar:</strong> cirka <strong>10000</strong></p>",
+    "t": "<p>En butik köper 48 varor för 197 kr styck. Gör ett rimligt överslag av kostnaden. Välj själv lämpliga tal att avrunda till.</p>",
+    "s": "<p><strong>Metod:</strong> Vid överslagsräkning väljer du närliggande tal som är enkla att räkna med. Här kan du till exempel avrunda \\(48\\approx50\\) och \\(197\\approx200\\).</p><p>\\[48\\cdot197\\approx50\\cdot200=10\\,000\\]</p><p>Det exakta värdet behöver inte beräknas för att göra överslaget. Andra närliggande avrundningar kan ge ett något annat men fortfarande rimligt värde.</p><p><strong>Svar:</strong> cirka \\(10\\,000\\) kr.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-09,
+    "tolerans": 1000,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna med den angivna avrundningen 50·200. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "7.175",
@@ -66576,20 +66576,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En yrkesarbetare använder 19,6 m kabel per bostad i 31 bostäder. Gör ett överslag av total längd. Använd överslaget <strong>20·30</strong>.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Beräkna med den angivna avrundningen 20·30.</p><p><strong>Svar:</strong> cirka <strong>600</strong></p>",
+    "t": "<p>En yrkesarbetare använder 19,6 m kabel per bostad i 31 bostäder. Gör ett rimligt överslag av den totala kabellängden. Välj själv lämpliga tal att avrunda till.</p>",
+    "s": "<p><strong>Metod:</strong> Avrunda till tal som gör multiplikationen enkel. Ett möjligt val är \\(19{,}6\\approx20\\) och \\(31\\approx30\\).</p><p>\\[19{,}6\\cdot31\\approx20\\cdot30=600\\]</p><p>Eftersom båda avrundningarna ligger nära de ursprungliga talen är 600 m en rimlig uppskattning. Ett annat genomtänkt överslag kan bli något annorlunda.</p><p><strong>Svar:</strong> cirka \\(600\\) m.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-09,
+    "tolerans": 60,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna med den angivna avrundningen 20·30. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "7.176",
@@ -66600,20 +66600,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En tank rymmer 1 980 liter och fylls med cirka 49 liter per minut. Gör ett överslag av fyllnadstiden i minuter. Använd överslaget <strong>2 000/50</strong>.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Beräkna med den angivna avrundningen 2 000/50.</p><p><strong>Svar:</strong> cirka <strong>40</strong></p>",
+    "t": "<p>En tank rymmer 1 980 liter och fylls med cirka 49 liter per minut. Gör ett rimligt överslag av fyllnadstiden i minuter. Välj själv lämpliga tal att avrunda till.</p>",
+    "s": "<p><strong>Metod:</strong> Fyllnadstid är volym delat med flöde. Välj närliggande tal som gör divisionen enkel, till exempel \\(1\\,980\\approx2\\,000\\) och \\(49\\approx50\\).</p><p>\\[t\\approx\\frac{2\\,000}{50}=40\\text{ min}\\]</p><p>Andra närliggande avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(40\\) minuter.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-09,
+    "tolerans": 4,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna med den angivna avrundningen 2 000/50. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "7.177",
@@ -66624,20 +66624,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett material kostar 82 kr/kg och det behövs 24,5 kg. Gör ett överslag av kostnaden. Använd överslaget <strong>80·25</strong>.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Beräkna med den angivna avrundningen 80·25.</p><p><strong>Svar:</strong> cirka <strong>2000</strong></p>",
+    "t": "<p>Ett material kostar 82 kr/kg och det behövs 24,5 kg. Gör ett rimligt överslag av kostnaden. Välj själv lämpliga tal att avrunda till.</p>",
+    "s": "<p><strong>Metod:</strong> Avrunda båda talen till närliggande värden som är enkla att multiplicera. Ett möjligt val är \\(82\\approx80\\) och \\(24{,}5\\approx25\\).</p><p>\\[82\\cdot24{,}5\\approx80\\cdot25=2\\,000\\]</p><p>Överslaget visar att kostnaden bör ligga kring två tusen kronor.</p><p><strong>Svar:</strong> cirka \\(2\\,000\\) kr.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2000,
-    "tolerans": 1e-09,
+    "tolerans": 200,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna med den angivna avrundningen 80·25. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "7.178",
@@ -66648,20 +66648,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En resa är 398 km och bilen drar ungefär 0,61 liter per mil. Gör ett överslag av bränsleåtgången i liter. Använd överslaget <strong>40 mil·0,6</strong>.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Beräkna med den angivna avrundningen 40 mil·0,6.</p><p><strong>Svar:</strong> cirka <strong>24</strong></p>",
+    "t": "<p>En resa är 398 km och bilen drar ungefär 0,61 liter per mil. Gör ett rimligt överslag av bränsleåtgången i liter. Välj själv lämpliga tal att avrunda till.</p>",
+    "s": "<p><strong>Metod:</strong> Börja med att byta kilometer till mil: \\(398\\text{ km}=39{,}8\\text{ mil}\\). För ett överslag kan du till exempel använda \\(39{,}8\\approx40\\) och \\(0{,}61\\approx0{,}6\\).</p><p>\\[40\\cdot0{,}6=24\\]</p><p>Andra närliggande avrundningar kan ge ett något annat men fortfarande rimligt värde.</p><p><strong>Svar:</strong> cirka \\(24\\) liter.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-09,
+    "tolerans": 2.4,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna med den angivna avrundningen 40 mil·0,6. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "7.179",
@@ -66672,20 +66672,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett lager har 2 970 artiklar. 9,8 % behöver kontrolleras. Gör ett överslag av antalet artiklar. Använd överslaget <strong>3 000·0,10</strong>.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Beräkna med den angivna avrundningen 3 000·0,10.</p><p><strong>Svar:</strong> cirka <strong>300</strong></p>",
+    "t": "<p>Ett lager har 2 970 artiklar. 9,8 % behöver kontrolleras. Gör ett rimligt överslag av antalet artiklar. Välj själv lämpliga tal att avrunda till.</p>",
+    "s": "<p><strong>Metod:</strong> Tänk på att \\(9{,}8\\,\\%\\) ligger nära \\(10\\,\\%\\), och \\(2\\,970\\) ligger nära \\(3\\,000\\).</p><p>\\[2\\,970\\cdot0{,}098\\approx3\\,000\\cdot0{,}10=300\\]</p><p>Det är också rimligt eftersom 10 % av 3 000 är 300.</p><p><strong>Svar:</strong> cirka \\(300\\) artiklar.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-09,
+    "tolerans": 30,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna med den angivna avrundningen 3 000·0,10. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "7.180",
@@ -66696,20 +66696,20 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En yta är 7,9 m lång och 5,1 m bred. Gör ett överslag av arean. Använd överslaget <strong>8·5</strong>.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Beräkna med den angivna avrundningen 8·5.</p><p><strong>Svar:</strong> cirka <strong>40</strong></p>",
+    "t": "<p>En yta är 7,9 m lång och 5,1 m bred. Gör ett rimligt överslag av arean. Välj själv lämpliga tal att avrunda till.</p>",
+    "s": "<p><strong>Metod:</strong> Arean fås genom längd gånger bredd. Ett möjligt överslag är \\(7{,}9\\approx8\\) och \\(5{,}1\\approx5\\).</p><p>\\[A\\approx8\\cdot5=40\\ \\mathrm{m^2}\\]</p><p>Eftersom den ena faktorn avrundas uppåt och den andra nedåt blir överslaget dessutom väl balanserat.</p><p><strong>Svar:</strong> cirka \\(40\\ \\mathrm{m^2}\\).</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-09,
+    "tolerans": 4,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna med den angivna avrundningen 8·5. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "7.181",
@@ -66720,20 +66720,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>En leverans består av 198 lådor med 51 produkter i varje. Gör ett överslag av antalet produkter. Använd överslaget <strong>200·50</strong>.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Beräkna med den angivna avrundningen 200·50.</p><p><strong>Svar:</strong> cirka <strong>10000</strong></p>",
+    "t": "<p>En leverans består av 198 lådor med 51 produkter i varje. Gör ett rimligt överslag av antalet produkter. Välj själv lämpliga tal att avrunda till.</p>",
+    "s": "<p><strong>Metod:</strong> Ett enkelt val är \\(198\\approx200\\) och \\(51\\approx50\\).</p><p>\\[198\\cdot51\\approx200\\cdot50=10\\,000\\]</p><p>Överslaget visar att det totala antalet produkter bör vara omkring tiotusen.</p><p><strong>Svar:</strong> cirka \\(10\\,000\\) produkter.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-09,
+    "tolerans": 1000,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna med den angivna avrundningen 200·50. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "7.182",
@@ -66744,20 +66744,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>En maskin producerar 149 delar per timme i 8,1 timmar. Gör ett överslag. Använd överslaget <strong>150·8</strong>.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Beräkna med den angivna avrundningen 150·8.</p><p><strong>Svar:</strong> cirka <strong>1200</strong></p>",
+    "t": "<p>En maskin producerar 149 delar per timme i 8,1 timmar. Gör ett rimligt överslag av hur många delar som produceras. Välj själv lämpliga tal att avrunda till.</p>",
+    "s": "<p><strong>Metod:</strong> Avrunda till närliggande tal som är enkla att multiplicera. Ett möjligt val är \\(149\\approx150\\) och \\(8{,}1\\approx8\\).</p><p>\\[149\\cdot8{,}1\\approx150\\cdot8=1\\,200\\]</p><p>Andra genomtänkta avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(1\\,200\\) delar.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1200,
-    "tolerans": 1e-09,
+    "tolerans": 120,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna med den angivna avrundningen 150·8. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "7.183",
@@ -66768,20 +66768,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Ett företag har 4 980 kunder och 2,1 % väntas säga upp tjänsten. Gör ett överslag av antalet. Använd överslaget <strong>5 000·0,02</strong>.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Beräkna med den angivna avrundningen 5 000·0,02.</p><p><strong>Svar:</strong> cirka <strong>100</strong></p>",
+    "t": "<p>Ett företag har 4 980 kunder och 2,1 % väntas säga upp tjänsten. Gör ett rimligt överslag av antalet kunder. Välj själv lämpliga tal att avrunda till.</p>",
+    "s": "<p><strong>Metod:</strong> \\(4\\,980\\) ligger nära \\(5\\,000\\) och \\(2{,}1\\,\\%\\) ligger nära \\(2\\,\\%\\).</p><p>\\[4\\,980\\cdot0{,}021\\approx5\\,000\\cdot0{,}02=100\\]</p><p>Det är rimligt eftersom 1 % av 5 000 är 50, så 2 % är 100.</p><p><strong>Svar:</strong> cirka \\(100\\) kunder.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-09,
+    "tolerans": 10,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna med den angivna avrundningen 5 000·0,02. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
   },
   {
     "id": "7.184",
@@ -66919,7 +66919,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66943,7 +66943,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66967,7 +66967,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 255,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -66991,7 +66991,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3.8,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -67015,7 +67015,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -67135,7 +67135,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 126,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -67159,7 +67159,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -67183,7 +67183,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -67207,7 +67207,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 140,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"

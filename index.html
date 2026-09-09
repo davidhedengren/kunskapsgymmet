@@ -4337,17 +4337,49 @@ function familyMastery(t,cp){
    nivå 2", och förskjuta blandningen åt rätt håll i båda fallen.
    ========================================================== */
 
+/* Ett nytt område ärver ett startvärde från hur eleven klarar samma
+   nivå i kapitlets övriga områden. Utan arvet börjar varje område om
+   från noll, och den som visat sig stark i fyra områden får ändå bara
+   nivå 1 i det femte tills sex uppgifter passerat — vilket är det som
+   får ett adaptivt pass att kännas som att appen inte lär sig något.
+
+   Förtroendet sätts lågt, tre av de sex svar som krävs för full
+   ramp, så att några lokala svar väger tyngre än arvet. Innehållet i
+   ett nytt område är trots allt nytt. */
+function nivaPrior(area,L){
+  const cp=ensureCourseProfile();
+  if(!cp.levels) return null;
+  const alla=getAreas();
+  const mitt=alla.find(a=>a.key===area);
+  if(!mitt) return null;
+  const varden=alla
+    .filter(a=>a.key!==area && String(a.kap)===String(mitt.kap))
+    .map(a=>cp.levels[a.key] && cp.levels[a.key][L])
+    .filter(x=>x && (x.n||0)>=4)
+    .map(x=>x.s);
+  if(varden.length<2) return null;
+  return varden.reduce((x,y)=>x+y,0)/varden.length;
+}
+
 function levelStats(area,L){
   const cp=ensureCourseProfile();
   cp.levels ||= {};
+  const nyNiva=niva=>{
+    const p=nivaPrior(area,niva);
+    return p===null ? {s:.5,n:0} : {s:p,n:3};
+  };
   if(!cp.levels[area]){
     // Har eleven redan tränat området före uppdateringen ärvs den
     // gamla siffran som ett resultat på nivå 1, så ingen börjar om.
     const m = typeof cp.areas[area]==="number" ? cp.areas[area] : null;
     const n = m===null ? 0 : Math.min(8,cp.history.filter(h=>h.area===area).length);
-    cp.levels[area]={E:{s:m===null?.5:m,n},C:{s:.5,n:0},A:{s:.5,n:0}};
+    cp.levels[area]={
+      E: m===null ? nyNiva("E") : {s:m,n},
+      C: nyNiva("C"),
+      A: nyNiva("A")
+    };
   }
-  return cp.levels[area][L] || (cp.levels[area][L]={s:.5,n:0});
+  return cp.levels[area][L] || (cp.levels[area][L]=nyNiva(L));
 }
 function updateLevelStat(area,L,ok){
   if(!area) return;

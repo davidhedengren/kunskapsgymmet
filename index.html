@@ -1197,6 +1197,8 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
    samma tre färger betydde både svårighet, form och belöning. Nu är
    brickan neutral och de tre färgspråken kan inte längre förväxlas. */
 .tag.lv{background:var(--surface3);color:var(--ink2);border-color:var(--hair)}
+.tag.lv0 .pips b{background:var(--lvl1);opacity:1}
+.tag.lv0{background:var(--surface3);color:var(--ink2);border-color:var(--hair);font-weight:600}
 .tag.lv1 .pips b{background:var(--lvl1)}
 .tag.lv2 .pips b{background:var(--lvl2)}
 .tag.lv3 .pips b{background:var(--lvl3)}
@@ -4059,15 +4061,15 @@ function passNivaSpann(typ){
   const omr=passOmraden(typ).filter(k=>cp.levels&&cp.levels[k]);
   if(!omr.length) return p.niva;
   const gammal=state.passTyp; state.passTyp=typ;
-  const sum={E:0,C:0,A:0}; let n=0;
+  const sum={G:0,E:0,C:0,A:0}; let n=0;
   omr.forEach(a=>{
-    const m=levelMix({E:1,C:1,A:1},a);
-    if(m){ sum.E+=m.E; sum.C+=m.C; sum.A+=m.A; n++; }
+    const m=levelMix({G:1,E:1,C:1,A:1},a);
+    if(m){ NIVAER.forEach(L=>sum[L]+=m[L]); n++; }
   });
   state.passTyp=gammal;
   if(!n) return p.niva;
-  const andel=[sum.E/n,sum.C/n,sum.A/n];
-  const med=[1,2,3].filter(i=>andel[i-1]>=.18);
+  const andel=NIVAER.map(L=>sum[L]/n);
+  const med=[0,1,2,3].filter(i=>andel[i]>=.18);
   if(!med.length) return p.niva;
   return med.length===1 ? `Nivå ${med[0]}` : `Nivå ${med[0]}–${med[med.length-1]}`;
 }
@@ -4390,15 +4392,23 @@ function showAreaPicker(record){
    URVAL OCH PASS
    ========================================================== */
 
-/* Bankens E, C och A visas för eleven som nivå 1, 2 och 3. */
-const NIVA={E:1,C:2,A:3};
+/* Bankens E, C och A visas för eleven som nivå 1, 2 och 3.
+   G är grundnivån — repetition från högstadiet som ligger under E.
+   Den serveras bara i Kunskapsgymmet, och bara till den som kört fast
+   på nivå 1 i just det området. Se grundVikt() längre ned. */
+const NIVA={G:0,E:1,C:2,A:3};
+const NIVAER=["G","E","C","A"];
 function levelOf(t){
   const n=String(t.niva||"E").toUpperCase();
-  return (n==="A"||n==="C") ? n : "E";
+  return (n==="A"||n==="C"||n==="G") ? n : "E";
 }
 function levelNumber(t){ return NIVA[levelOf(t)]; }
 function levelChip(t){
   const n=levelNumber(t);
+  // Grundnivån visas som en egen etikett, inte som noll av tre fyllda
+  // prickar — den ska kännas som en avstickare, inte som ett underkänt.
+  if(n===0) return `<span class="tag lv lv0" title="Grundnivå – repetition inför nivå 1">
+    <span class="pips" aria-hidden="true"><b class="on"></b></span>Grunder</span>`;
   const pips=[1,2,3].map(i=>`<b class="${i<=n?"on":""}"></b>`).join("");
   return `<span class="tag lv lv${n}" title="Svårighetsgrad ${n} av 3">
     <span class="pips" aria-hidden="true">${pips}</span>Nivå ${n}</span>`;
@@ -4539,10 +4549,32 @@ function scoreLabel(v){
 const behärskar = x => Math.max(0,Math.min(1,(x.s-.55)/.25)) * Math.max(0,Math.min(1,x.n/6));
 const klarar    = x => x.n<2 ? .6 : Math.max(0,Math.min(1,(x.s-.35)/.30));
 
+/* ==========================================================
+   GRUNDNIVÅN
+   Nivå 0 är högstadierepetition. Den ligger tyst i banken tills
+   eleven visat att nivå 1 inte bär i ett bestämt område: minst fyra
+   svar på nivå 1 och ett resultat under tröskeln. Då blandas
+   grunduppgifter in, och andelen växer ju sämre det går.
+
+   Grunduppgifterna påverkar bara sin egen statistik. Vägen tillbaka
+   går via nivå 1, som alltid har kvar sitt golv i blandningen —
+   annars skulle eleven kunna fastna på grundnivån.
+   ========================================================== */
+const NIVA0_TROSKEL=.32;      // resultat på nivå 1 under detta öppnar grunderna
+const NIVA0_MIN_SVAR=4;       // men först när nivå 1 är prövad så här många gånger
+const NIVA0_TAK=.65;          // grunderna tar aldrig mer än så här stor del av passet
+function grundVikt(area){
+  const e=scopeLevel("E",area);
+  if((e.n||0)<NIVA0_MIN_SVAR) return 0;
+  if(e.s>=NIVA0_TROSKEL) return 0;
+  return Math.min(NIVA0_TAK, 1.4*(NIVA0_TROSKEL-e.s)/NIVA0_TROSKEL);
+}
+
 function levelWeights(area){
   const e=scopeLevel("E",area), c=scopeLevel("C",area), a=scopeLevel("A",area);
   const m1=behärskar(e), m2=behärskar(c), k2=klarar(c), k3=klarar(a);
   const w={
+    G: grundVikt(area),
     // Nivå 1 viker undan först när grunderna sitter OCH nivå 2 går bra.
     // Kärvar det på nivå 2 kommer nivå 1 tillbaka av sig själv.
     E: 1 - .90*m1*k2,
@@ -4553,7 +4585,9 @@ function levelWeights(area){
   // faktiskt har låst upp — ett tungt pass i ett område där nivå 2 inte
   // är öppen blir helt enkelt ett vanligt pass.
   const v=(PASS[state.passTyp]||{}).vikt;
-  if(v){ w.E*=v.E; w.C*=v.C; w.A*=v.A; }
+  // Grundnivån följer nivå 1:s vikt om passtypen inte säger annat. Ett
+  // tungt pass drar därmed ned båda, vilket är precis meningen.
+  if(v){ w.G*=(v.G!==undefined?v.G:v.E); w.E*=v.E; w.C*=v.C; w.A*=v.A; }
   return w;
 }
 
@@ -4563,16 +4597,19 @@ const NIVA_GOLV=.10;
 function levelMix(finns,area){
   const w=levelWeights(area);
   const golv=state.passTyp==="tungt" ? .04 : NIVA_GOLV;
-  const order=["E","C","A"];
+  const order=NIVAER;
   order.forEach(L=>{ if(!finns[L]) w[L]=0; });
-  const tot=order.reduce((x,L)=>x+w[L],0);
+  const tot=order.reduce((x,L)=>x+(w[L]||0),0);
   if(!tot) return null;
   const mix={};
-  order.forEach(L=>mix[L]=w[L]/tot);
+  order.forEach(L=>mix[L]=(w[L]||0)/tot);
+  // Nivå 1 har alltid kvar sitt golv, även när grunderna är öppna.
+  // Det är den vägen tillbaka uppåt: utan nivå 1-uppgifter skulle
+  // nivå 1-statistiken aldrig kunna repa sig.
   if(finns.E && mix.E<golv){
-    const kvar=1-golv, ovrigt=mix.C+mix.A;
+    const kvar=1-golv, ovrigt=mix.G+mix.C+mix.A;
     mix.E=golv;
-    if(ovrigt>0){ mix.C=mix.C/ovrigt*kvar; mix.A=mix.A/ovrigt*kvar; }
+    if(ovrigt>0){ ["G","C","A"].forEach(L=>mix[L]=mix[L]/ovrigt*kvar); }
   }
   return mix;
 }
@@ -4617,18 +4654,22 @@ function chooseTask(){
   const area = state.focusArea || chooseArea(pool);
   if(!state.focusArea) pool=pool.filter(t=>(t.omr||"ovrigt")===area);
 
-  const buckets={E:[],C:[],A:[]};
+  const buckets={G:[],E:[],C:[],A:[]};
   pool.forEach(t=>buckets[levelOf(t)].push(t));
 
   // 2. Slumpa fram nivå enligt områdets rörliga blandning.
-  const order=["E","C","A"];
-  const mix=levelMix({E:!!buckets.E.length,C:!!buckets.C.length,A:!!buckets.A.length},area);
+  const order=NIVAER;
+  const mix=levelMix({G:!!buckets.G.length,E:!!buckets.E.length,
+                      C:!!buckets.C.length,A:!!buckets.A.length},area);
   let level=null;
   if(mix){
     let x=Math.random();
     for(const L of order){ x-=mix[L]; if(x<=0 && buckets[L].length){ level=L; break; } }
   }
-  if(!level || !buckets[level].length) level=order.find(L=>buckets[L].length)||"E";
+  // Faller allt annat bort väljs nivå 1 först, aldrig grundnivån —
+  // den ska bara komma via blandningen ovan.
+  if(!level || !buckets[level].length)
+    level=["E","C","A","G"].find(L=>buckets[L].length)||"E";
 
   // 3. Slumpa uppgift inom nivån, med lätt förtur för svaga familjer
   //    och utan att upprepa det som nyss visats.
@@ -6547,7 +6588,7 @@ function giveUp(){
    inte nära noll: det är där en elev som kämpar tränar, och den
    eleven ska inte få mindre för att uppgifterna ligger på rätt nivå
    för henne. */
-const XP_NIVA={E:8, C:20, A:50};
+const XP_NIVA={G:4, E:8, C:20, A:50};
 
 /* Seriebonusen är procentuell. En fast bonus vore värd fyra gånger
    mer på en E-uppgift än på en A-uppgift, och skulle alltså löna sig

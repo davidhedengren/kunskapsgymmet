@@ -5488,7 +5488,23 @@ function taltolk(str){
     .replace(/[⋅∙·×]/g,"*")
     .replace(/\s+/g,"");
   x=x.replace(/(\d),(\d)/g,"$1.$2");
-  x=x.replace(/\*?10\^?\(?(-?\d+)\)?/g,"e$1");
+  // Upphöjda tecken: 10³ skrivs om till 10^3 innan grundpotensformen
+  // tolkas. latexToPlain gör samma sak, men taltolk anropas också
+  // direkt på råa strängar.
+  const UPP={"\u2070":"0","\u00b9":"1","\u00b2":"2","\u00b3":"3","\u2074":"4",
+             "\u2075":"5","\u2076":"6","\u2077":"7","\u2078":"8","\u2079":"9",
+             "\u207b":"-"};
+  x=x.replace(/[\u2070\u00b9\u00b2\u00b3\u2074-\u2079\u207b]+/g,
+    m=>"^"+[...m].map(c=>UPP[c]).join(""));
+  // Grundpotensform: 2,5·10^3 blir 2.5e3. Tecknet ^ måste finnas.
+  // Utan det kravet matchar mönstret även vanliga tal — 100 lästes som
+  // "10 upphöjt till 0" och blev e0, alltså inget tal alls, och varje
+  // svar med 10 följt av siffror gick förlorat.
+  x=x.replace(/(\*?)10\^\(?(-?\d+)\)?/g,(m,stjarna,exp,off,str)=>{
+    const fore=str[off-1];
+    // Står en mantissa före (2,5·10^3) räcker e, annars behövs en etta.
+    return (stjarna || (fore && /[\d.]/.test(fore))) ? "e"+exp : "1e"+exp;
+  });
   const m=x.match(/^[-+]?\d*\.?\d+(?:e[-+]?\d+)?/);
   if(!m) return NaN;
   const v=Number(m[0]);

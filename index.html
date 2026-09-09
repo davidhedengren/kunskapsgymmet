@@ -1273,28 +1273,40 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .aline input:focus,.aline textarea:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 4px var(--accSoft)}
 .aline textarea{min-height:96px;resize:vertical;line-height:1.5}
-/* Symbolraden visas bara där den behövs: pekskärmar utan hovring.
-   Med fysiskt tangentbord är tecknen redan en knapptryckning bort. */
-.symrad{display:none}
+/* Symbolraden. Tecknen är omständliga att nå överallt: på pekskärm
+   ligger de bakom en flik i tangentbordet, på dator bakom AltGr eller
+   en teckenkarta. Raden visas därför i båda fallen, men med olika
+   mått — små knappar som radbryter på dator, breda och svepbara på
+   pekskärm. */
+.symrad{
+  display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;
+}
+.symtgt{
+  flex:none;min-width:34px;height:34px;padding:0 9px;border-radius:10px;
+  border:1px solid var(--hair);background:var(--surface);color:var(--ink);
+  font-family:var(--read);font-size:15.5px;line-height:1;letter-spacing:0;
+  box-shadow:0 1px 2px rgba(11,33,51,.05);
+  transition:transform .15s var(--ease),background .15s ease,border-color .15s ease;
+}
+.symtgt:hover{background:var(--accSoft);border-color:var(--acc);color:var(--accInk)}
+.symtgt:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
+.symtgt.enhet{
+  background:var(--accSoft);border-color:transparent;color:var(--accInk);
+  font-family:var(--ui);font-size:13px;font-weight:600;
+}
+.symtgt:active{transform:scale(.93);background:var(--accSoft)}
 @media(hover:none){
+  /* Pekskärm: en svepbar rad i stället för radbrytning, och
+     träffytorna tillbaka till 42 px. */
   .symrad{
-    display:flex;gap:6px;margin-top:12px;overflow-x:auto;padding-bottom:2px;
+    flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px;
     -webkit-overflow-scrolling:touch;scrollbar-width:none;
   }
   .symrad::-webkit-scrollbar{display:none}
+  .symtgt{flex:1 0 auto;min-width:42px;height:42px;padding:0 10px;
+    border-radius:12px;font-size:17px}
+  .symtgt.enhet{font-size:14px}
 }
-.symtgt{
-  flex:1 0 auto;min-width:42px;height:42px;padding:0 10px;border-radius:12px;
-  border:1px solid var(--hair);background:var(--surface);color:var(--ink);
-  font-family:var(--read);font-size:17px;line-height:1;letter-spacing:0;
-  box-shadow:0 1px 2px rgba(11,33,51,.05);
-  transition:transform .15s var(--ease),background .15s ease;
-}
-.symtgt.enhet{
-  background:var(--accSoft);border-color:transparent;color:var(--accInk);
-  font-family:var(--ui);font-size:14px;font-weight:600;
-}
-.symtgt:active{transform:scale(.93);background:var(--accSoft)}
 
 .aacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
 .hint{margin-top:10px;font-size:12px;color:var(--ink3);line-height:1.5}
@@ -5576,6 +5588,15 @@ const SYMBOLER={
   fysik:    [["−","−"],[",",","],["·10^","·10^"],["^","^"],["√","√"],
              ["π","π"],["/","/"],["(","("],[")",")"]]
 };
+/* Vad tecknen heter. Syns vid hovring på dator, där man har tid att
+   undra vad ≈ gör i en svarsruta. */
+const SYMBOLNAMN={
+  "−":"Minustecken","(":"Vänsterparentes",")":"Högerparentes",
+  "/":"Bråkstreck","^":"Upphöjt till","√":"Roten ur","π":"Pi",
+  "x":"Variabeln x","≈":"Ungefär lika med",",":"Decimalkomma",
+  "·10^":"Grundpotensform, tio upphöjt till"
+};
+
 function symbolrad(t){
   const amne=COURSES[state.course]?.subject==="Fysik" ? "fysik" : "matematik";
   // Uppgiftens egna enheter läggs först, så att de blir ett tryck bort.
@@ -5585,6 +5606,7 @@ function symbolrad(t){
   return `<div class="symrad" aria-label="Tecken och enheter">
     ${knappar.map(([txt,tecken],i)=>
       `<button type="button" class="symtgt${i<enheter.length?" enhet":""}"
+        title="${esc(SYMBOLNAMN[txt]||("Skriv "+txt))}"
         onmousedown="event.preventDefault()"
         onclick="skrivTecken('${esc(tecken).replace(/'/g,"\\'")}')">${esc(txt)}</button>`).join("")}
   </div>`;

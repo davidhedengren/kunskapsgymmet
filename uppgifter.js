@@ -92832,3 +92832,120 @@ window.BANK = [
     "spel": false
   }
 ];
+
+/* Revidering av "Densitet från diagram och mätdata".
+ * I Kunskapsgymmet ska eleven tolka en redan anpassad linje. Deluppgifter
+ * som bygger på varandra hålls ihop så att ingen exempelvis får del c utan
+ * den beräkning som c syftar på. */
+(() => {
+  const familj = window.BANK.filter(x => x.familj === "Densitet från diagram och mätdata");
+  const uppgift = id => familj.find(x => x.id === id);
+
+  /* Delarna är pedagogiska följdfrågor, inte fristående slumpuppgifter. */
+  familj.forEach(x => {
+    delete x.spelDelning;
+    delete x.spelIntro;
+    delete x.spelDelar;
+  });
+
+  function matdiagram({titel, xMax, yMax, xSteg, ySteg, xEtikett="V (cm³)",
+      yEtikett="m (g)", punkter, lutning, start=0, markera=-1}) {
+    const L=65, R=460, T=46, B=276, W=R-L, H=B-T;
+    const X=x => L + x/xMax*W;
+    const Y=y => B - y/yMax*H;
+    const linjeSlut=Math.min(xMax,(yMax-start)/lutning);
+    const rutX=[], rutY=[];
+    for(let x=0; x<=xMax+1e-9; x+=xSteg){
+      const px=X(x); rutX.push(`<line x1="${px}" y1="${T}" x2="${px}" y2="${B}"/>`
+        +`<text x="${px}" y="299" text-anchor="middle">${String(+x.toFixed(6)).replace(".",",")}</text>`);
+    }
+    for(let y=0; y<=yMax+1e-9; y+=ySteg){
+      const py=Y(y); rutY.push(`<line x1="${L}" y1="${py}" x2="${R}" y2="${py}"/>`
+        +`<text x="54" y="${py+4}" text-anchor="end">${String(+y.toFixed(6)).replace(".",",")}</text>`);
+    }
+    const prickar=punkter.map(([x,y],i)=>`<g><circle cx="${X(x)}" cy="${Y(y)}" r="${i===markera?5:4}" class="${i===markera?"felpunkt":"matpunkt"}"/>`
+      +(i===markera?`<text x="${X(x)+9}" y="${Y(y)-9}" class="feltext">P</text>`:"")+`</g>`).join("");
+    return `<span class="fig bred"><svg xmlns="http://www.w3.org/2000/svg" width="520" height="340" viewBox="0 0 520 340" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${titel}. Mätpunkter och en redan anpassad rät linje."><title>${titel}</title>
+      <rect x="${L}" y="${T}" width="${W}" height="${H}" fill="#fff"/>
+      <g stroke="#DDE5EB" stroke-width="1" fill="#425466" font-family="DejaVu Sans,sans-serif" font-size="11">${rutX.join("")}${rutY.join("")}</g>
+      <g stroke="#293747" stroke-width="1.8"><line x1="${L}" y1="${T}" x2="${L}" y2="${B}"/><line x1="${L}" y1="${B}" x2="${R+4}" y2="${B}"/></g>
+      <text x="${L}" y="25" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#293747">${yEtikett}</text>
+      <text x="${R}" y="328" text-anchor="end" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#293747">${xEtikett}</text>
+      <line x1="${X(0)}" y1="${Y(start)}" x2="${X(linjeSlut)}" y2="${Y(start+lutning*linjeSlut)}" stroke="#B43123" stroke-width="3" stroke-linecap="round"/>
+      <g fill="#2A5D9E" stroke="#fff" stroke-width="1.4">${prickar}</g>
+      <style>.felpunkt{fill:#D68A1F}.feltext{fill:#9A5A08;font:700 13px DejaVu Sans,sans-serif}.matpunkt{fill:#2A5D9E}</style>
+      <g font-family="DejaVu Sans,sans-serif" font-size="11"><circle cx="310" cy="19" r="4" fill="#2A5D9E"/><text x="320" y="23" fill="#425466">mätvärde</text><line x1="402" y1="19" x2="426" y2="19" stroke="#B43123" stroke-width="3"/><text x="434" y="23" fill="#425466">anpassad linje</text></g>
+    </svg></span>`;
+  }
+
+  function enkeltFacit(berakning, svar){
+    return `<div class="facit-v2"><p class="facit-metod">Densiteten är den anpassade linjens lutning. Välj två tydliga punkter på linjen, inte två av de spridda mätpunkterna.</p><div class="facit-matte">${berakning}</div><p class="facit-svar"><strong>Svar:</strong> ${svar}</p></div>`;
+  }
+
+  const d28=uppgift("2.8");
+  Object.assign(d28,{
+    spel:true,
+    typ:"bestämma densitet från en redan anpassad linje i massa–volym-diagram",
+    t:`<p>Fem bitar av samma metall har mätts. Punkterna visar mätvärdena och den röda linjen är redan anpassad till hela mätserien.</p>${matdiagram({titel:"Massa mot volym för fem metallbitar",xMax:20,yMax:180,xSteg:4,ySteg:40,punkter:[[4,34],[8,70],[12,101],[16,138],[20,169]],lutning:8.5})}<p>Bestäm metallens densitet med hjälp av den anpassade linjen.</p>`,
+    s:enkeltFacit("\\[\\rho=\\frac{\\Delta m}{\\Delta V}=\\frac{170-0}{20-0}=8{,}5\\ \\mathrm{g/cm^3}\\]","\\(8{,}5\\ \\mathrm{g/cm^3}\\)."),
+    svarstyp:"numeriskt", rättSvar:8.5, tolerans:0.13, självrättning:true,
+    svarFormat:"numeriskt", svarEnhet:"g/cm³",
+    ledtrad:"<p>Välj två punkter långt från varandra på den röda linjen och beräkna \\(\\rho=\\Delta m/\\Delta V\\).</p>"
+  });
+  delete d28.svarsstruktur;
+  delete d28.svarEtiketter;
+  delete d28.antalSvar;
+
+  const d239=uppgift("2.39");
+  const diagram239=matdiagram({titel:"Massa mot volym för ett material",xMax:30,yMax:60,xSteg:5,ySteg:10,punkter:[[5,11],[10,19],[15,31],[20,39],[25,51]],lutning:2});
+  Object.assign(d239,{
+    typ:"avläsa massa och bestämma densitet från en redan anpassad linje",
+    t:`<p>Diagrammet visar mätvärden för olika stora bitar av samma material. Den röda linjen är redan anpassad.</p>${diagram239}<ol><li>Avläs massan när volymen är 20 cm³.</li><li>Bestäm materialets densitet från linjens lutning.</li></ol>`,
+    s:"<div class=\"facit-v2\"><p class=\"facit-metod\">Vid 20 cm³ visar linjen 40 g. Lutningen är massaökning per volymökning.</p><div class=\"facit-matte\">\\[m=40\\ \\mathrm g\\]\\[\\rho=\\frac{40-0}{20-0}=2{,}0\\ \\mathrm{g/cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 40 g och \\(2{,}0\\ \\mathrm{g/cm^3}\\).</p></div>",
+    svarstyp:"flera_delar", rättSvar:[40,2], tolerans:[1,0.05], självrättning:[true,true],
+    svarFormat:["numeriskt","numeriskt"], svarEnhet:["g","g/cm³"], svarsstruktur:"ordnad", svarEtiketter:["a","b"], antalSvar:2,
+    ledtrad:"<p>Läs först av den röda linjen vid 20 cm³. Beräkna sedan linjens lutning med \\(\\Delta m/\\Delta V\\).</p>"
+  });
+
+  const d2171=uppgift("2.171");
+  Object.assign(d2171,{
+    spel:true,
+    typ:"bestämma träets densitet från mätpunkter och en redan anpassad linje",
+    t:`<p>Diagrammet visar mätningar på klossar av samma träslag. Den röda linjen är redan anpassad till mätvärdena.</p>${matdiagram({titel:"Massa mot volym för träklossar",xMax:400,yMax:180,xSteg:100,ySteg:40,punkter:[[50,21],[100,39],[150,61],[200,78],[300,122],[400,158]],lutning:.4})}<p>Bestäm träslagets densitet från linjens lutning.</p>`,
+    s:enkeltFacit("\\[\\rho=\\frac{160-0}{400-0}=0{,}40\\ \\mathrm{g/cm^3}\\]","\\(0{,}40\\ \\mathrm{g/cm^3}\\)."),
+    rättSvar:.4, tolerans:.02, självrättning:true, svarstyp:"numeriskt", svarFormat:"numeriskt", svarEnhet:"g/cm³",
+    ledtrad:"<p>Använd två tydliga punkter på den röda linjen, gärna origo och punkten vid 400 cm³.</p>"
+  });
+
+  const d2172=uppgift("2.172");
+  Object.assign(d2172,{
+    spel:true,
+    typ:"bestämma oljans densitet från mätpunkter och en redan anpassad linje",
+    t:`<p>Diagrammet visar mätningar för olika volymer av en olja. Den röda linjen är redan anpassad till mätvärdena.</p>${matdiagram({titel:"Massa mot volym för en olja",xMax:250,yMax:250,xSteg:50,ySteg:50,punkter:[[50,44],[100,90],[150,135],[200,182],[250,224]],lutning:.9})}<p>Bestäm oljans densitet från linjens lutning.</p>`,
+    s:enkeltFacit("\\[\\rho=\\frac{225-0}{250-0}=0{,}90\\ \\mathrm{g/cm^3}\\]","\\(0{,}90\\ \\mathrm{g/cm^3}\\)."),
+    rättSvar:.9, tolerans:.03, självrättning:true, svarstyp:"numeriskt", svarFormat:"numeriskt", svarEnhet:"g/cm³",
+    ledtrad:"<p>Välj två punkter på den röda linjen och beräkna massaökning delat med volymökning.</p>"
+  });
+
+  const d2173=uppgift("2.173");
+  Object.assign(d2173,{
+    t:`<p>En sirapsflaska vägs med olika mycket sirap i. Punkterna är mätvärden och den röda linjen är redan anpassad.</p>${matdiagram({titel:"Flaskans totala massa mot sirapens volym",xMax:5,yMax:800,xSteg:1,ySteg:100,xEtikett:"V (dl)",yEtikett:"total massa (g)",punkter:[[.8,162],[2,330],[3.2,500],[4.1,625],[5,750]],lutning:140,start:50})}<ol><li>Bestäm sirapens densitet i g/cm³.</li><li>Bestäm den tomma flaskans massa.</li></ol>`,
+    s:"<div class=\"facit-v2\"><p class=\"facit-metod\">Linjens lutning är 140 g/dl. Eftersom 1 dl = 100 cm³ blir densiteten 1,40 g/cm³. Skärningen med massaaxeln visar flaskans massa.</p><div class=\"facit-matte\">\\[\\rho=\\frac{700\\ \\mathrm g}{5{,}0\\ \\mathrm{dl}}=140\\ \\mathrm{g/dl}=1{,}40\\ \\mathrm{g/cm^3}\\]\\[m_{\\text{flaska}}=50\\ \\mathrm g\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}40\\ \\mathrm{g/cm^3}\\) och 50 g.</p></div>",
+    ledtrad:"<p>Lutningen ger gram per deciliter. Dela med 100 för att få g/cm³. Linjens skärning med massaaxeln visar massan när volymen sirap är noll.</p>"
+  });
+
+  const d2174=uppgift("2.174");
+  Object.assign(d2174,{
+    spel:true,
+    t:`<p>Diagrammet visar sex mätningar på bitar av samma metall. Den röda linjen är redan anpassad till de fem mätvärden som följer sambandet. Punkten P har inte använts i anpassningen.</p>${matdiagram({titel:"Massa mot volym med en avvikande mätpunkt",xMax:60,yMax:480,xSteg:10,ySteg:80,punkter:[[15,116],[23,182],[30,273],[42,328],[50,395],[57,439]],lutning:7.8,markera:2})}<ol><li>Vilken markerad punkt är avvikande?</li><li>Bestäm metallens densitet från den anpassade linjen.</li></ol>`,
+    s:"<div class=\"facit-v2\"><p class=\"facit-metod\">P ligger tydligt utanför mönstret. Densiteten bestäms från den röda linjen, inte genom att använda P.</p><div class=\"facit-matte\">\\[\\rho=\\frac{390-0}{50-0}=7{,}8\\ \\mathrm{g/cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Punkten P är avvikande och densiteten är \\(7{,}8\\ \\mathrm{g/cm^3}\\).</p></div>",
+    rättSvar:["P",7.8], tolerans:[null,.2], självrättning:[true,true], svarFormat:["kort_text","numeriskt"], svarEnhet:[null,"g/cm³"],
+    svarsstruktur:"ordnad", svarEtiketter:["a","b"], antalSvar:2,
+    ledtrad:"<p>Punkten långst från den röda linjen är avvikande. Bestäm sedan linjens lutning.</p>"
+  });
+
+  /* Dessa kräver att eleven själv ritar eller anpassar en linje och ska
+     därför inte dyka upp i det adaptiva flödet i sin nuvarande form. */
+  ["2.80","2.92","2.93","2.94","2.95","2.96","2.97","2.98","2.99","2.101","2.102","2.103","2.104","2.105","2.203"]
+    .forEach(id => { const x=uppgift(id); if(x) x.spel=false; });
+})();

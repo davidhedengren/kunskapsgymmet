@@ -1663,6 +1663,7 @@ const COURSES = {
   ma1:{
     name:"Matematik nivå 1", code:"Ma1", subject:"Matematik",
     files:["strukturma1.js","uppgifterma1.js"],
+    typfil:"typuppgifter-ma1.js", typGlobal:"TYPUPPGIFTER_MA1",
     globals:{bank:"BANKMA1",kap:"KAPNAMNMA1",kapSpar:"KAPNAMNMA1SPAR",omr:"OMRMA1",grupp:"GRUPPMA1"},
     tracks:["1a","1b","1c"], defaultTrack:"1c", tint:"#4A86EE",
 
@@ -1733,6 +1734,7 @@ function loggaInGoogle(){
 function loggaIn(){ if(MOLN_PA()) bytGate("val"); }
 function returAdress(){ return location.origin+location.pathname; }
 async function loggaUt(){
+  stangKunskap();
   if(session){
     try{ await fetch(SUPABASE_URL+"/auth/v1/logout",{method:"POST",headers:sbHeaders(true)}); }catch(_){}
   }
@@ -2200,6 +2202,7 @@ function navDesc(view){
           family:state.focusFamily,pass:state.passTyp};
 }
 function navRecord(view,replace){
+  stangKunskap();
   const st=navDesc(view);
   st.depth = replace ? (history.state?.depth||0) : (history.state?.depth??-1)+1;
   navStack.length=st.depth;
@@ -2226,6 +2229,7 @@ function backToDashboard(){
 }
 
 async function navRestore(st){
+  stangKunskap();
 
   if(st && st.view==="topplista"){
     if(st.course && st.course!==state.course) await selectCourse(st.course,{record:false,render:false});
@@ -2289,7 +2293,16 @@ function loadProfileFrom(p){
      för sig. */
   p.genomgangar ||= {}; p.ggKapKlara ||= {};
   p.ggTranat ||= 0;
+  aterstallGenomgangsmedaljer(p);
   return p;
+}
+function aterstallGenomgangsmedaljer(p){
+  const antal=Object.keys(p.genomgangar||{}).length;
+  const regler={gg1:antal>=1,gg10:antal>=10,
+    ggkap:Object.keys(p.ggKapKlara||{}).length>=1,ggtrana:(p.ggTranat||0)>=5};
+  for(const [id,uppfylld] of Object.entries(regler)){
+    if(uppfylld && !p.badges[id]) p.badges[id]=Date.now();
+  }
 }
 function saveProfile(){
   if(syncOwner && syncOwner===session?.user?.id){
@@ -2500,8 +2513,15 @@ function checkBadges(fordroj=0){
     if(profile.badges[b.id]) continue;
     if((b.cur()||0)>=b.max){ profile.badges[b.id]=Date.now(); gained.push(b); }
   }
-  const visa=()=>gained.forEach(b=>cheer(medaljIkon(b.icon),"Ny medalj",b.name,b.desc));
-  if(gained.length){ fordroj>0 ? setTimeout(visa,fordroj) : visa(); }
+  const agare=ggAgare();
+  const visa=()=>{
+    if(agare!==ggAgare()) return;
+    gained.forEach(b=>cheer(medaljIkon(b.icon),"Ny medalj",b.name,b.desc));
+  };
+  if(gained.length){
+    saveProfile();
+    fordroj>0 ? setTimeout(visa,fordroj) : visa();
+  }
   return gained;
 }
 
@@ -2682,7 +2702,8 @@ function kunskapSteg(kap){
   if(explicita.length){
     const kort=getCards().filter(k=>String(k.kap)===String(kap));
     const bank=state.data?.bank||[];
-    return explicita.filter(([,g])=>String(g.kap)===String(kap))
+    return explicita.filter(([,g])=>String(g.kap)===String(kap)
+      && (!Array.isArray(g.kurs) || g.kurs.includes(state.track)))
       .map(([familj,g])=>{
         const k=kort.find(k=>k.omr.includes(g.omr));
         const bankuppgift=g.uppgift
@@ -2732,9 +2753,11 @@ function kunskapSteg(kap){
 function harKunskap(kap){ return kunskapSteg(kap).length>0; }
 
 function oppnaKunskap(kap){
+  stangKunskap();
   const steg=kunskapSteg(kap);
   if(!steg.length) return;
-  state.kunskap={kap:String(kap),steg,i:0};
+  state.kunskap={kap:String(kap),steg,i:0,course:state.course,track:state.track,
+    view:state.view,owner:ggAgare()};
   const el=document.createElement("div");
   el.className="modal"; el.id="kunskapsruta";
   el.innerHTML=`<div class="modal-kort typ-kort" role="dialog" aria-modal="true"
@@ -2751,13 +2774,16 @@ function oppnaKunskap(kap){
   document.body.appendChild(el);
   el.addEventListener("click",e=>{ if(e.target===el) stangKunskap(); });
   ritaKunskap();
-  requestAnimationFrame(()=>el.classList.add("visa"));
+  requestAnimationFrame(()=>{
+    if(state.kunskap && el.isConnected){ el.classList.add("visa"); ggStartaLastimer(); }
+  });
 }
 function stangKunskap(){
+  ggStoppaLastimer();
+  state.kunskap=null;
   const el=document.getElementById("kunskapsruta");
   if(!el) return;
-  clearTimeout(ggTimer);
-  state.kunskap=null;
+  el.removeAttribute("id");
   el.classList.remove("visa");
   setTimeout(()=>el.remove(),250);
 }
@@ -2773,45 +2799,61 @@ function kunskapTrana(){
   const k=state.kunskap; if(!k) return;
   const s=k.steg[k.i]; if(!s) return;
   profile.ggTranat=(profile.ggTranat||0)+1;
-  saveProfile(); checkBadges();
+  checkBadges(); saveProfile();
   stangKunskap();
   if(s.traningsfamilj && s.kort) startCardFamily(s.kort,s.traningsfamilj);
   else if(s.omr) startArea(s.omr);
   else if(s.kort) startCard(s.kort);
 }
 
-/* En genomgång räknas som läst först när kortet stått framme en stund.
-   Utan fördröjningen skulle den som bläddrar snabbt genom kapitlet
-   samla medaljer utan att ha läst ett ord, och då mäter medaljen
-   ingenting. */
+/* Bara sammanhängande tid i en synlig, aktiv genomgång räknas.
+   Kurs, spår, konto, vy och kort låses till samma lästillfälle. */
 const GG_LASTID=15000;
-let ggTimer=null;
+let ggTimer=null,ggTimerVersion=0;
+function ggAgare(){ return session?.user?.id || syncOwner || "guest"; }
 function ggNyckel(familj){ return state.course+"|"+familj; }
 function ggLast(familj){ return !!(profile.genomgangar||{})[ggNyckel(familj)]; }
+function ggStoppaLastimer(){
+  clearTimeout(ggTimer); ggTimer=null; ggTimerVersion++;
+}
+function ggSynlig(k){
+  const el=document.getElementById("kunskapsruta");
+  if(!k || k!==state.kunskap || !el?.isConnected || !el.classList.contains("visa")) return false;
+  if(document.visibilityState!=="visible" || !document.hasFocus()) return false;
+  if(k.course!==state.course || k.track!==state.track || k.view!==state.view || k.owner!==ggAgare()) return false;
+  const style=getComputedStyle(el);
+  return el.getClientRects().length>0 && style.display!=="none" && style.visibility!=="hidden";
+}
 function ggStartaLastimer(){
-  clearTimeout(ggTimer);
-  const k=state.kunskap; if(!k) return;
+  ggStoppaLastimer();
+  const k=state.kunskap;
+  if(!ggSynlig(k)) return;
   const s=k.steg[k.i]; if(!s || ggLast(s.familj)) return;
-  const kap=k.kap, familj=s.familj;
+  const familj=s.familj,index=k.i,version=ggTimerVersion;
   ggTimer=setTimeout(()=>{
-    /* Kortet kan ha stängts eller bläddrats vidare under tiden. */
-    const nu=state.kunskap;
-    if(!nu || nu.kap!==kap || nu.steg[nu.i]?.familj!==familj) return;
+    if(version!==ggTimerVersion || !ggSynlig(k) || k.i!==index || k.steg[k.i]?.familj!==familj || ggLast(familj)) return;
+    ggTimer=null;
+    profile.genomgangar ||= {};
     profile.genomgangar[ggNyckel(familj)]=Date.now();
-    ggKollaKapitel(nu);
-    /* checkBadges först: den sätter profile.badges för nya medaljer, och
-       den ändringen måste med i sparningen. Sparades profilen dessförinnan
-       glömdes medaljen bort, och delades ut på nytt vid nästa besök. */
+    ggKollaKapitel(k);
     checkBadges(); saveProfile();
-    /* Rita om prickraden så att den nya guldpricken syns direkt. */
     ritaKunskap();
   },GG_LASTID);
 }
 function ggKollaKapitel(k){
-  const nyckel=state.course+"|"+k.kap;
+  const nyckel=state.course+"|"+(state.track?state.track+"|":"")+k.kap;
+  profile.ggKapKlara ||= {};
   if(profile.ggKapKlara[nyckel]) return;
-  if(k.steg.every(x=>ggLast(x.familj))) profile.ggKapKlara[nyckel]=Date.now();
+  if(k.steg.length && k.steg.every(x=>ggLast(x.familj))) profile.ggKapKlara[nyckel]=Date.now();
 }
+document.addEventListener("visibilitychange",()=>{
+  if(document.visibilityState==="visible") ggStartaLastimer();
+  else ggStoppaLastimer();
+});
+window.addEventListener("blur",ggStoppaLastimer);
+window.addEventListener("focus",ggStartaLastimer);
+window.addEventListener("pagehide",ggStoppaLastimer);
+
 function ritaKunskap(){
   const host=document.getElementById("kunskapInnehall");
   const k=state.kunskap;

@@ -1,13 +1,11 @@
 /* Grundgenomgångar för Matematik 1 i Kunskapsgymmet.
- * kap och omr anger placering; objektens ordning anger läsordning.
- * kurs anger vilka spår (1a, 1b, 1c) genomgången visas för. Appen visar
- * dessutom bara genomgången om träningsbanken har uppgifter i området för
- * det valda spåret, så banken har sista ordet.
+ * kap och omr anger placering; omr kan vara en sträng eller en lista med kompatibla områdes-ID:n.
+ * Objektens ordning anger läsordning. kurs anger vilka spår (1a, 1b, 1c) genomgången visas för.
+ * Appen visar en genomgång bara när det finns ett motsvarande områdeskort i den valda kursvarianten.
  * t och steg hör ihop och redigeras tillsammans. Ett steg kan ha figur (SVG).
  * traningsfamilj är valfri och använder bankens oförändrade familjenamn.
  * Saknas familj leder träningsknappen till området.
- * Kapitel 6 (digitala verktyg) används inte. Verktygsexempel finns i
- * 2-10, 3-05, 3-13 och 7-07.
+ * Kapitel 6 (digitala verktyg, problemlösning och modellering) används inte som eget träningskapitel här.
  */
 window.TYPUPPGIFTER_MA1 = {
   "ma1-grund-0-01": {
@@ -763,6 +761,7 @@ window.TYPUPPGIFTER_MA1 = {
     "kap": 1,
     "omr": "intervall",
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -788,6 +787,7 @@ window.TYPUPPGIFTER_MA1 = {
     "kap": 1,
     "omr": "linjara_olikheter",
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -814,6 +814,7 @@ window.TYPUPPGIFTER_MA1 = {
     "kap": 1,
     "omr": "linjara_olikheter",
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -838,7 +839,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-2-01": {
     "kap": 2,
-    "omr": "funktionsbegreppet",
+    "omr": [
+      "funktionsvarden",
+      "funktionsbegreppet"
+    ],
     "kurs": [
       "1a",
       "1b",
@@ -865,7 +869,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-2-02": {
     "kap": 2,
-    "omr": "funktionsbegreppet",
+    "omr": [
+      "representationer",
+      "funktionsbegreppet"
+    ],
     "kurs": [
       "1a",
       "1b",
@@ -892,7 +899,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-2-03": {
     "kap": 2,
-    "omr": "funktionsbegreppet",
+    "omr": [
+      "funktionsbegreppet",
+      "representationer"
+    ],
     "kurs": [
       "1a",
       "1b",
@@ -919,7 +929,9 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-2-04": {
     "kap": 2,
-    "omr": "linjara_funktioner",
+    "omr": [
+      "linjara_funktioner"
+    ],
     "kurs": [
       "1a",
       "1b",
@@ -949,8 +961,11 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-2-05": {
     "kap": 2,
-    "omr": "bestamma_linjar_funktion",
+    "omr": [
+      "bestamma_linjar_funktion"
+    ],
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -975,8 +990,12 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-2-06": {
     "kap": 2,
-    "omr": "bestamma_linjar_funktion",
+    "omr": [
+      "rata_linjens_ekvation",
+      "bestamma_linjar_funktion"
+    ],
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1006,8 +1025,12 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-2-07": {
     "kap": 2,
-    "omr": "linjara_funktioner",
+    "omr": [
+      "linjara_funktioner",
+      "rata_linjens_ekvation"
+    ],
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1038,8 +1061,11 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-2-08": {
     "kap": 2,
-    "omr": "exponentialfunktioner",
+    "omr": [
+      "exponentialfunktioner"
+    ],
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1069,8 +1095,12 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-2-09": {
     "kap": 2,
-    "omr": "potensfunktioner",
+    "omr": [
+      "potensfunktioner"
+    ],
     "kurs": [
+      "1a",
+      "1b",
       "1c"
     ],
     "rubrik": "Potensfunktioner",
@@ -1099,8 +1129,12 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-2-10": {
     "kap": 2,
-    "omr": "exponentialfunktioner",
+    "omr": [
+      "grafisk_ekvationslosning",
+      "exponentialfunktioner"
+    ],
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1131,6 +1165,7 @@ window.TYPUPPGIFTER_MA1 = {
     "kap": 3,
     "omr": "potensregler",
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1158,6 +1193,7 @@ window.TYPUPPGIFTER_MA1 = {
     "kap": 3,
     "omr": "potensregler",
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1184,6 +1220,7 @@ window.TYPUPPGIFTER_MA1 = {
     "kap": 3,
     "omr": "potensregler",
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1210,6 +1247,7 @@ window.TYPUPPGIFTER_MA1 = {
     "kap": 3,
     "omr": "potensekvationer",
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1236,6 +1274,7 @@ window.TYPUPPGIFTER_MA1 = {
     "kap": 3,
     "omr": "potensekvationer",
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1520,7 +1559,9 @@ window.TYPUPPGIFTER_MA1 = {
     "kap": 3,
     "omr": "index",
     "kurs": [
-      "1b"
+      "1a",
+      "1b",
+      "1c"
     ],
     "rubrik": "Räkna med index",
     "niva": "E",
@@ -1543,10 +1584,14 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-3-16": {
     "kap": 3,
-    "omr": "ranta_lan",
+    "omr": [
+      "ranta",
+      "ranta_lan"
+    ],
     "kurs": [
       "1a",
-      "1b"
+      "1b",
+      "1c"
     ],
     "rubrik": "Ränta på sparade pengar",
     "niva": "E",
@@ -1569,10 +1614,14 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-3-17": {
     "kap": 3,
-    "omr": "ranta_lan",
+    "omr": [
+      "amortering",
+      "ranta_lan"
+    ],
     "kurs": [
       "1a",
-      "1b"
+      "1b",
+      "1c"
     ],
     "rubrik": "Rak amortering",
     "niva": "E",
@@ -1600,9 +1649,13 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-4-01": {
     "kap": 4,
-    "omr": "pythagoras_sats",
+    "omr": [
+      "pythagoras",
+      "pythagoras_sats"
+    ],
     "kurs": [
       "1a",
+      "1b",
       "1c"
     ],
     "rubrik": "Beräkna hypotenusan",
@@ -1626,9 +1679,13 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-4-02": {
     "kap": 4,
-    "omr": "pythagoras_sats",
+    "omr": [
+      "pythagoras",
+      "pythagoras_sats"
+    ],
     "kurs": [
       "1a",
+      "1b",
       "1c"
     ],
     "rubrik": "Beräkna en katet",
@@ -1652,9 +1709,13 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-4-03": {
     "kap": 4,
-    "omr": "pythagoras_sats",
+    "omr": [
+      "pythagoras",
+      "pythagoras_sats"
+    ],
     "kurs": [
       "1a",
+      "1b",
       "1c"
     ],
     "rubrik": "Kontrollera en rät vinkel",
@@ -1677,8 +1738,13 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-4-04": {
     "kap": 4,
-    "omr": "trigonometri",
+    "omr": [
+      "sinus_cosinus_tangens",
+      "trigonometri"
+    ],
     "kurs": [
+      "1a",
+      "1b",
       "1c"
     ],
     "rubrik": "Beräkna en sida med tangens",
@@ -1706,8 +1772,14 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-4-05": {
     "kap": 4,
-    "omr": "trigonometri",
+    "omr": [
+      "strackor_vinklar",
+      "sinus_cosinus_tangens",
+      "trigonometri"
+    ],
     "kurs": [
+      "1a",
+      "1b",
       "1c"
     ],
     "rubrik": "Okänd hypotenusa",
@@ -1731,8 +1803,13 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-4-06": {
     "kap": 4,
-    "omr": "trigonometri",
+    "omr": [
+      "arcusfunktioner",
+      "trigonometri"
+    ],
     "kurs": [
+      "1a",
+      "1b",
       "1c"
     ],
     "rubrik": "Beräkna en vinkel",
@@ -1756,8 +1833,13 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-4-07": {
     "kap": 4,
-    "omr": "vektor_skalar",
+    "omr": [
+      "vektorer",
+      "vektor_skalar"
+    ],
     "kurs": [
+      "1a",
+      "1b",
       "1c"
     ],
     "rubrik": "Vektor eller skalär",
@@ -1779,8 +1861,13 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-4-08": {
     "kap": 4,
-    "omr": "vektorer",
+    "omr": [
+      "vektor_addition_subtraktion",
+      "vektorer"
+    ],
     "kurs": [
+      "1a",
+      "1b",
       "1c"
     ],
     "rubrik": "Addera vektorer",
@@ -1803,8 +1890,13 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-4-09": {
     "kap": 4,
-    "omr": "vektorer",
+    "omr": [
+      "vektor_absolutbelopp",
+      "vektorer"
+    ],
     "kurs": [
+      "1a",
+      "1b",
       "1c"
     ],
     "rubrik": "En vektors längd",
@@ -1828,8 +1920,13 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-4-10": {
     "kap": 4,
-    "omr": "vektorer",
+    "omr": [
+      "vektor_skalar",
+      "vektorer"
+    ],
     "kurs": [
+      "1a",
+      "1b",
       "1c"
     ],
     "rubrik": "Multiplicera en vektor med ett tal",
@@ -1853,7 +1950,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-5-01": {
     "kap": 5,
-    "omr": "sannolikhet",
+    "omr": [
+      "grundlaggande_sannolikhet",
+      "sannolikhet"
+    ],
     "kurs": [
       "1a",
       "1b",
@@ -1879,7 +1979,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-5-02": {
     "kap": 5,
-    "omr": "sannolikhet",
+    "omr": [
+      "komplementhandelse",
+      "sannolikhet"
+    ],
     "kurs": [
       "1a",
       "1b",
@@ -1904,8 +2007,12 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-5-03": {
     "kap": 5,
-    "omr": "flerstegsforsok",
+    "omr": [
+      "oberoende_handelser",
+      "flerstegsforsok"
+    ],
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1929,8 +2036,12 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-5-04": {
     "kap": 5,
-    "omr": "flerstegsforsok",
+    "omr": [
+      "beroende_handelser",
+      "flerstegsforsok"
+    ],
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1959,8 +2070,12 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-5-05": {
     "kap": 5,
-    "omr": "flerstegsforsok",
+    "omr": [
+      "sannolikhet_flera_steg",
+      "flerstegsforsok"
+    ],
     "kurs": [
+      "1a",
       "1b",
       "1c"
     ],
@@ -1989,7 +2104,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-5-06": {
     "kap": 5,
-    "omr": "statistik_urval",
+    "omr": [
+      "urvalsmetoder",
+      "statistik_urval"
+    ],
     "kurs": [
       "1a",
       "1b",
@@ -2014,7 +2132,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-5-07": {
     "kap": 5,
-    "omr": "statistik_urval",
+    "omr": [
+      "felkallor",
+      "statistik_urval"
+    ],
     "kurs": [
       "1a",
       "1b",
@@ -2039,7 +2160,9 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-5-08": {
     "kap": 5,
-    "omr": "korrelation",
+    "omr": [
+      "korrelation"
+    ],
     "kurs": [
       "1a",
       "1b",
@@ -2068,7 +2191,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-7-01": {
     "kap": 7,
-    "omr": "proportionalitet",
+    "omr": [
+      "proportionalitet_yrke",
+      "proportionalitet"
+    ],
     "kurs": [
       "1a"
     ],
@@ -2092,7 +2218,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-7-02": {
     "kap": 7,
-    "omr": "skala",
+    "omr": [
+      "skala_likformighet",
+      "skala"
+    ],
     "kurs": [
       "1a"
     ],
@@ -2117,7 +2246,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-7-03": {
     "kap": 7,
-    "omr": "skala",
+    "omr": [
+      "skala_likformighet",
+      "skala"
+    ],
     "kurs": [
       "1a"
     ],
@@ -2141,7 +2273,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-7-04": {
     "kap": 7,
-    "omr": "volym_flode",
+    "omr": [
+      "yrkesformler",
+      "volym_flode"
+    ],
     "kurs": [
       "1a"
     ],
@@ -2166,7 +2301,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-7-05": {
     "kap": 7,
-    "omr": "matning_area",
+    "omr": [
+      "matning_enheter",
+      "matning_area"
+    ],
     "kurs": [
       "1a"
     ],
@@ -2189,7 +2327,9 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-7-06": {
     "kap": 7,
-    "omr": "spill_svinnostnad",
+    "omr": [
+      "spill_svinnostnad"
+    ],
     "kurs": [
       "1a"
     ],
@@ -2217,7 +2357,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-7-07": {
     "kap": 7,
-    "omr": "kostnader",
+    "omr": [
+      "kostnadsberakningar",
+      "kostnader"
+    ],
     "kurs": [
       "1a"
     ],
@@ -2247,7 +2390,9 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-7-08": {
     "kap": 7,
-    "omr": "sakerhetsmarginaler",
+    "omr": [
+      "sakerhetsmarginaler"
+    ],
     "kurs": [
       "1a"
     ],
@@ -2270,7 +2415,9 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-7-09": {
     "kap": 7,
-    "omr": "yrkesformler",
+    "omr": [
+      "yrkesformler"
+    ],
     "kurs": [
       "1a"
     ],
@@ -2295,7 +2442,10 @@ window.TYPUPPGIFTER_MA1 = {
   },
   "ma1-grund-7-10": {
     "kap": 7,
-    "omr": "ror_fall_vinklar",
+    "omr": [
+      "yrkesformler",
+      "ror_fall_vinklar"
+    ],
     "kurs": [
       "1a"
     ],
@@ -2315,5 +2465,280 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Slutet ska ligga \\(65\\) mm, alltså 6,5 cm, lägre.",
     "komihag": "Fall 1:100 fungerar som en skala. Dela längden med 100 så får du höjdskillnaden."
+  },
+  "ma1-grund-2-11": {
+    "kap": 2,
+    "omr": [
+      "definitionsmangd_vardemangd"
+    ],
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "rubrik": "Definitionsmängd och värdemängd",
+    "niva": "E",
+    "t": "<p>Funktionen \\(f\\) visas i en graf som börjar i punkten \\((-2,1)\\) och slutar i \\((4,5)\\). Grafen finns bara mellan dessa ändpunkter. Ange definitionsmängd och värdemängd.</p>",
+    "ram": "Definitionsmängden beskriver vilka x-värden som är tillåtna. Värdemängden beskriver vilka y-värden funktionen faktiskt antar.",
+    "steg": [
+      {
+        "rubrik": "Läs x-led för definitionsmängden",
+        "text": "Grafen finns från x = −2 till x = 4. Ändpunkterna ingår.",
+        "matte": "\\[D_f=[-2,4]\\]"
+      },
+      {
+        "rubrik": "Läs y-led för värdemängden",
+        "text": "Det minsta y-värdet är 1 och det största är 5.",
+        "matte": "\\[V_f=[1,5]\\]"
+      }
+    ],
+    "svar": "\\(D_f=[-2,4]\\) och \\(V_f=[1,5]\\).",
+    "komihag": "Definitionsmängd hör till x-axeln. Värdemängd hör till y-axeln."
+  },
+  "ma1-grund-2-12": {
+    "kap": 2,
+    "omr": [
+      "jamfora_modeller"
+    ],
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "rubrik": "Välja mellan linjär och exponentiell modell",
+    "niva": "E",
+    "t": "<p>En mängd är 100 från början. Därefter är den 120, 144 och 172,8 efter lika långa tidssteg. Är en linjär eller exponentiell modell mest rimlig?</p>",
+    "ram": "En linjär modell har ungefär samma förändring i antal varje steg. En exponentiell modell har ungefär samma förändringsfaktor varje steg.",
+    "steg": [
+      {
+        "rubrik": "Kontrollera skillnaderna",
+        "text": "Ökningarna är 20, 24 och 28,8. De är inte lika stora."
+      },
+      {
+        "rubrik": "Kontrollera kvoterna",
+        "text": "Varje nytt värde är 1,2 gånger det föregående.",
+        "matte": "\\[120/100=144/120=172{,}8/144=1{,}2\\]"
+      }
+    ],
+    "svar": "En exponentiell modell är mest rimlig, med förändringsfaktorn \\(1{,}2\\).",
+    "komihag": "Samma differens tyder på linjär förändring. Samma kvot eller förändringsfaktor tyder på exponentiell förändring."
+  },
+  "ma1-grund-3-18": {
+    "kap": 3,
+    "omr": [
+      "genomsnittlig_forandring"
+    ],
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "rubrik": "Genomsnittlig procentuell förändring",
+    "niva": "E",
+    "t": "<p>Ett värde ökar från 100 till 121 på två lika långa perioder. Vilken lika stor procentuell ökning per period ger samma slutvärde?</p>",
+    "ram": "Vid flera procentuella förändringar multipliceras förändringsfaktorer. Därför ska den genomsnittliga förändringen bestämmas med en rot, inte genom att dela den totala procentökningen med antalet perioder.",
+    "steg": [
+      {
+        "rubrik": "Bestäm den totala förändringsfaktorn",
+        "text": "Från 100 till 121 är faktorn 1,21.",
+        "matte": "\\[121/100=1{,}21\\]"
+      },
+      {
+        "rubrik": "Fördela faktorn på två perioder",
+        "text": "Samma faktor q ska användas två gånger, alltså q² = 1,21.",
+        "matte": "\\[q=\\sqrt{1{,}21}=1{,}10\\]"
+      }
+    ],
+    "svar": "Den genomsnittliga ökningen är \\(10\\,\\%\\) per period.",
+    "fallgrop": "Att räkna 21 % / 2 ger 10,5 %, men procentuella förändringar läggs inte ihop på det sättet när de sker efter varandra.",
+    "komihag": "Sök först den genomsnittliga förändringsfaktorn. Om det är n perioder använder du n:te roten."
+  },
+  "ma1-grund-4-11": {
+    "kap": 4,
+    "omr": [
+      "koordinatgeometri"
+    ],
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "rubrik": "Avstånd mellan två punkter",
+    "niva": "E",
+    "t": "<p>Punkterna är \\(A=(1,2)\\) och \\(B=(5,5)\\). Bestäm avståndet \\(AB\\).</p>",
+    "ram": "Skillnaden i x-led och skillnaden i y-led bildar kateterna i en rätvinklig triangel. Då kan Pythagoras sats användas.",
+    "steg": [
+      {
+        "rubrik": "Bestäm förändringen i varje riktning",
+        "text": "I x-led är skillnaden 5 − 1 = 4 och i y-led 5 − 2 = 3."
+      },
+      {
+        "rubrik": "Använd Pythagoras sats",
+        "text": "Avståndet är triangelns hypotenusa.",
+        "matte": "\\[AB=\\sqrt{4^2+3^2}=\\sqrt{25}=5\\]"
+      }
+    ],
+    "svar": "Avståndet är \\(5\\) längdenheter.",
+    "komihag": "Tecknet på koordinatskillnaden spelar ingen roll efter kvadreringen, men använd samma ordning i båda differenserna."
+  },
+  "ma1-grund-5-09": {
+    "kap": 5,
+    "omr": [
+      "kausalitet"
+    ],
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "rubrik": "Korrelation är inte automatiskt orsak",
+    "niva": "E",
+    "t": "<p>I en undersökning har elever som sover mer i genomsnitt också högre provresultat. Kan man av detta ensam dra slutsatsen att mer sömn orsakar högre provresultat?</p>",
+    "ram": "Ett statistiskt samband visar att två variabler varierar tillsammans. Det säger inte automatiskt varför sambandet finns.",
+    "steg": [
+      {
+        "rubrik": "Identifiera vad data visar",
+        "text": "Data visar ett samband mellan sömn och provresultat."
+      },
+      {
+        "rubrik": "Fundera på andra förklaringar",
+        "text": "Exempelvis studietid, stress, hälsa eller rutiner kan påverka både sömn och resultat."
+      }
+    ],
+    "svar": "Nej. Undersökningen visar korrelation, men den räcker inte för att fastställa ett orsakssamband.",
+    "komihag": "För att tala om orsak behövs starkare underlag än att två variabler samvarierar."
+  },
+  "ma1-grund-5-10": {
+    "kap": 5,
+    "omr": [
+      "signifikans"
+    ],
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "rubrik": "Bedöma om en skillnad är övertygande",
+    "niva": "E",
+    "t": "<p>I ett litet stickprov svarar 52 % ja och i ett annat 54 % ja. Räcker skillnaden på två procentenheter för att säkert säga att grupperna skiljer sig i populationen?</p>",
+    "ram": "Stickprov varierar slumpmässigt. En liten skillnad mellan två stickprov kan därför uppstå även om populationerna egentligen är lika.",
+    "steg": [
+      {
+        "rubrik": "Jämför skillnaden med osäkerheten",
+        "text": "Vi känner bara de två procenttalen. Vi saknar bland annat stickprovens storlek och ett mått på osäkerheten."
+      },
+      {
+        "rubrik": "Dra en försiktig slutsats",
+        "text": "Två procentenheters skillnad är inte i sig ett bevis för en verklig skillnad i populationen."
+      }
+    ],
+    "svar": "Nej. Mer information om stickprovens storlek och statistisk osäkerhet behövs.",
+    "komihag": "Ett observerat avstånd mellan två stickprovsvärden är inte samma sak som en säker skillnad i populationen."
+  },
+  "ma1-grund-5-11": {
+    "kap": 5,
+    "omr": [
+      "risk_sakerhet"
+    ],
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "rubrik": "Tolka risk som sannolikhet",
+    "niva": "E",
+    "t": "<p>Risken för ett fel vid ett arbetsmoment uppskattas till 3 %. Hur många fel motsvarar det i genomsnitt per 1 000 liknande arbetsmoment?</p>",
+    "ram": "En risk angiven i procent kan tolkas som en sannolikhet. Tre procent betyder 3 av 100 i en stor mängd jämförbara situationer.",
+    "steg": [
+      {
+        "rubrik": "Skriv procenten som decimalform",
+        "text": "3 % = 0,03."
+      },
+      {
+        "rubrik": "Beräkna det förväntade antalet",
+        "text": "Multiplicera antalet tillfällen med sannolikheten.",
+        "matte": "\\[1000\\cdot0{,}03=30\\]"
+      }
+    ],
+    "svar": "Det motsvarar ungefär \\(30\\) fel per 1 000 arbetsmoment.",
+    "komihag": "Det är ett förväntat antal över många liknande situationer, inte ett löfte om exakt 30 fel i varje serie."
+  },
+  "ma1-grund-7-11": {
+    "kap": 7,
+    "omr": [
+      "uppskattning_overslag"
+    ],
+    "kurs": [
+      "1a"
+    ],
+    "rubrik": "Överslag i en arbetssituation",
+    "niva": "E",
+    "t": "<p>En arbetsplats behöver ungefär 48 längder material som kostar 198 kr styck. Gör ett snabbt överslag av totalkostnaden.</p>",
+    "ram": "Ett överslag ska gå snabbt och ge rätt storleksordning. Välj närliggande tal som är enkla att räkna med.",
+    "steg": [
+      {
+        "rubrik": "Avrunda till enkla tal",
+        "text": "48 ligger nära 50 och 198 nära 200."
+      },
+      {
+        "rubrik": "Räkna överslaget",
+        "text": "Multiplicera de avrundade talen.",
+        "matte": "\\[50\\cdot200=10\\,000\\]"
+      }
+    ],
+    "svar": "Totalkostnaden är ungefär \\(10\\,000\\) kr.",
+    "komihag": "Ett överslag används för rimlighetskontroll och planering. Det behöver inte ge exakt samma svar som den noggranna beräkningen."
+  },
+  "ma1-grund-7-12": {
+    "kap": 7,
+    "omr": [
+      "matfel_felmarginal"
+    ],
+    "kurs": [
+      "1a"
+    ],
+    "rubrik": "Mätvärde och felmarginal",
+    "niva": "E",
+    "t": "<p>En längd mäts till 2,40 m med felmarginalen ±0,02 m. Mellan vilka värden kan den verkliga längden ligga enligt mätningen?</p>",
+    "ram": "En felmarginal ±a betyder att du tar mätvärdet minus a för den nedre gränsen och plus a för den övre.",
+    "steg": [
+      {
+        "rubrik": "Bestäm den nedre gränsen",
+        "text": "Dra bort felmarginalen.",
+        "matte": "\\[2{,}40-0{,}02=2{,}38\\]"
+      },
+      {
+        "rubrik": "Bestäm den övre gränsen",
+        "text": "Lägg till felmarginalen.",
+        "matte": "\\[2{,}40+0{,}02=2{,}42\\]"
+      }
+    ],
+    "svar": "Längden ligger enligt mätningen mellan \\(2{,}38\\) m och \\(2{,}42\\) m.",
+    "komihag": "Felmarginalen beskriver ett intervall runt mätvärdet; den ska inte läggas till åt båda hållen."
+  },
+  "ma1-grund-7-13": {
+    "kap": 7,
+    "omr": [
+      "yrkesverktyg"
+    ],
+    "kurs": [
+      "1a"
+    ],
+    "rubrik": "Välja ett lämpligt matematiskt verktyg",
+    "niva": "E",
+    "t": "<p>Du ska jämföra kostnaden månad för månad för tre olika abonnemang under ett år. Vilket verktyg är mest lämpligt: huvudräkning, kalkylprogram eller gradskiva?</p>",
+    "ram": "Välj verktyg efter uppgiften. När samma beräkning ska upprepas för många värden är ett kalkylprogram ofta effektivt och minskar risken för skrivfel.",
+    "steg": [
+      {
+        "rubrik": "Identifiera arbetssättet",
+        "text": "Samma typ av kostnadsberäkning ska göras för många månader och flera alternativ."
+      },
+      {
+        "rubrik": "Välj verktyget",
+        "text": "Ett kalkylprogram kan använda formler, kopiera dem mellan rader och jämföra resultaten i tabell eller diagram."
+      }
+    ],
+    "svar": "Ett kalkylprogram är mest lämpligt.",
+    "komihag": "Ett digitalt verktyg ersätter inte själva modellen. Du behöver fortfarande veta vilken formel eller beräkning som ska användas."
   }
 };

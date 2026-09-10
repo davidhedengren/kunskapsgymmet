@@ -1410,6 +1410,22 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .kaptrana.kunskap:hover{background:var(--goldSoft);color:var(--gold);border-color:transparent}
 @media(max-width:620px){.kaptrana.kunskap .kt-txt{display:none}.kaptrana.kunskap{padding:6px 9px}}
 
+/* Områdeskort med en egen minigenomgång. Knappen ligger på en separat rad
+   så att "Träna området" och genomgången aldrig konkurrerar om samma klickyta. */
+.area.med-kunskap{flex-wrap:wrap;row-gap:8px;padding-bottom:11px}
+.area.med-kunskap .omr-oppna{min-width:0}
+.omr-kunskap{
+  flex:0 0 100%;display:flex;align-items:center;justify-content:flex-start;gap:7px;
+  min-height:31px;padding:6px 9px;border-radius:10px;border:1px solid var(--hair);
+  background:var(--surface2);color:var(--ink3);font-size:11.5px;font-weight:650;
+  font-family:var(--read);letter-spacing:0;text-align:left;transition:.2s var(--ease);
+}
+.omr-kunskap svg{width:14px;height:14px;flex:none}
+.omr-kunskap:hover{background:var(--goldSoft);color:var(--gold);border-color:transparent}
+.omr-kunskap:active{transform:scale(.985)}
+.area.stack .omr-kunskap{flex:0 0 auto;width:100%}
+@media(max-width:520px){.omr-kunskap{font-size:11px;padding:6px 8px}}
+
 .typ-kort{width:min(680px,100%)}
 .typ-stig{display:flex;align-items:center;gap:5px;margin:14px 0 2px;flex-wrap:wrap}
 .typ-stig i{
@@ -1993,7 +2009,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-09-08";
+const BANK_VERSION="2026-09-10-kunskap-2";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -2693,19 +2709,36 @@ function typData(){
   return (c&&c.typGlobal&&window[c.typGlobal]) || null;
 }
 
+/* omr får vara antingen en sträng eller en lista. Det gör genomgångsfilerna
+   bakåtkompatibla när ett äldre samlingsområde senare delas upp i flera områden. */
+function genomgangOmr(g){
+  const v=g?.omr;
+  return (Array.isArray(v)?v:[v]).filter(Boolean).map(String);
+}
+function genomgangPassarKort(g,kort){
+  if(!kort) return false;
+  const omr=genomgangOmr(g);
+  return omr.some(o=>kort.omr.includes(o));
+}
+
 /* Explicit kapitelplacering ger genomgångarna en egen pedagogisk ordning.
-   För äldre filer används bankens ordning och familjekopplingar. */
-function kunskapSteg(kap){
+   kortNyckel används när eleven öppnar "Det här behöver du kunna" från ett
+   enskilt område. Utan kortNyckel visas hela kapitlets genomgång som tidigare. */
+function kunskapSteg(kap,kortNyckel=null){
   const typ=typData();
   if(!typ) return [];
+  const allaKort=getCards().filter(k=>String(k.kap)===String(kap));
+  const valtKort=kortNyckel ? allaKort.find(k=>String(k.key)===String(kortNyckel)) : null;
+  if(kortNyckel && !valtKort) return [];
+
   const explicita=Object.entries(typ).filter(([,g])=>g.kap!=null);
   if(explicita.length){
-    const kort=getCards().filter(k=>String(k.kap)===String(kap));
     const bank=state.data?.bank||[];
     return explicita.filter(([,g])=>String(g.kap)===String(kap)
-      && (!Array.isArray(g.kurs) || g.kurs.includes(state.track)))
+      && (!Array.isArray(g.kurs) || g.kurs.includes(state.track))
+      && (!valtKort || genomgangPassarKort(g,valtKort)))
       .map(([familj,g])=>{
-        const k=kort.find(k=>k.omr.includes(g.omr));
+        const k=valtKort || allaKort.find(k=>genomgangPassarKort(g,k));
         const bankuppgift=g.uppgift
           ? bank.find(t=>String(t.id)===String(g.uppgift)) : null;
         const uppgift=g.t ? {t:g.t,niva:g.niva||"E"} : bankuppgift;
@@ -2713,16 +2746,21 @@ function kunskapSteg(kap){
           console.warn('Typuppgift saknas för '+(g.rubrik||familj));
           return null;
         }
-        const harFamilj=k && g.traningsfamilj && cardTaskPool(k).some(t=>
+        /* Ett explicit kort måste faktiskt finnas i den valda kursvarianten.
+           Därmed visas inte genomgångar för områden som saknar uppgifter i spåret. */
+        if(!k) return null;
+        const harFamilj=g.traningsfamilj && cardTaskPool(k).some(t=>
           (Array.isArray(t.familj)?t.familj:[t.familj]).includes(g.traningsfamilj));
-        return {kort:k?.key||null,omr:g.omr,
-          omrNamn:familyName(k?.name||chapterName(kap)),familj,
+        const primartOmr=genomgangOmr(g).find(o=>k.omr.includes(o)) || k.omr[0];
+        return {kort:k.key,omr:primartOmr,
+          omrNamn:familyName(k.name||chapterName(kap)),familj,
           traningsfamilj:harFamilj?g.traningsfamilj:null,
           genomgang:g,uppgift};
       }).filter(Boolean);
   }
+
   const poster=new Map(); let n=0;
-  getCards().filter(k=>String(k.kap)===String(kap)).forEach(k=>{
+  (valtKort?[valtKort]:allaKort).forEach(k=>{
     cardTaskPool(k).forEach(t=>{
       const fs=(Array.isArray(t.familj)?t.familj:[t.familj]).filter(Boolean);
       fs.forEach(f=>{
@@ -2740,9 +2778,6 @@ function kunskapSteg(kap){
       if(g.uppgift && !uppgift){
         console.warn('Genomgången för "'+familj+'" pekar på uppgift '+g.uppgift+' som inte finns i banken.');
       }
-      /* Typuppgiften ska vara grunden i delmomentet, alltså E-nivå.
-         Varningen finns för den som redigerar innehållet — kortet visas
-         ändå, men en C- eller A-uppgift här är nästan alltid ett misstag. */
       if(uppgift && String(uppgift.niva||"").toUpperCase()!=="E"){
         console.warn('Typuppgiften '+g.uppgift+' för "'+familj+'" ligger på nivå '
           +uppgift.niva+'. Typuppgifter bör vara E-nivå.');
@@ -2751,20 +2786,30 @@ function kunskapSteg(kap){
     });
 }
 function harKunskap(kap){ return kunskapSteg(kap).length>0; }
+function harKunskapKort(kort){
+  const typ=typData();
+  if(!typ||!kort) return false;
+  return Object.values(typ).some(g=>String(g.kap)===String(kort.kap)
+    && (!Array.isArray(g.kurs) || g.kurs.includes(state.track))
+    && genomgangPassarKort(g,kort)
+    && (g.t || g.uppgift));
+}
 
-function oppnaKunskap(kap){
+function oppnaKunskap(kap,kortNyckel=null){
   stangKunskap();
-  const steg=kunskapSteg(kap);
+  const steg=kunskapSteg(kap,kortNyckel);
   if(!steg.length) return;
-  state.kunskap={kap:String(kap),steg,i:0,course:state.course,track:state.track,
-    view:state.view,owner:ggAgare()};
+  const valtKort=kortNyckel ? getCards().find(k=>String(k.key)===String(kortNyckel)) : null;
+  const rubrik=valtKort?.name || chapterName(kap);
+  state.kunskap={kap:String(kap),kortNyckel:kortNyckel||null,steg,i:0,course:state.course,track:state.track,
+    view:state.view,owner:ggAgare(),rubrik};
   const el=document.createElement("div");
   el.className="modal"; el.id="kunskapsruta";
   el.innerHTML=`<div class="modal-kort typ-kort" role="dialog" aria-modal="true"
-      aria-label="Det här behöver du kunna i ${esc(chapterName(kap))}">
+      aria-label="Det här behöver du kunna i ${esc(rubrik)}">
       <div class="modal-topp">
         <div>
-          <div class="lbl">${esc(chapterName(kap))}</div>
+          <div class="lbl">${esc(rubrik)}</div>
           <h2>Det här behöver du kunna</h2>
         </div>
         <button class="iconbtn" onclick="stangKunskap()" aria-label="Stäng">✕</button>
@@ -4198,7 +4243,8 @@ function renderDashboard(){
           const s=cardStatus(a);
 
           const harDelar=cardFamilies(a).length>0;
-          return `<div class="area ${s.tone}">
+          const harK=harKunskapKort(a);
+          return `<div class="area ${s.tone}${harK?" med-kunskap":""}">
             <button class="omr-oppna" onclick="startCard('${esc(a.key)}')"
               title="${a.grupp?esc(a.delar.map(d=>d.name).join(" · ")):esc(a.name)}">
               <span class="area-ring">
@@ -4213,6 +4259,9 @@ function renderDashboard(){
             ${harDelar?`<button class="omr-punkt" onclick="oppnaPunkt('${esc(a.key)}')"
               title="Punktträna delmoment i ${esc(a.name)}"
               aria-label="Punktträna delmoment i ${esc(a.name)}">${PUNKT_IKON}</button>`:""}
+            ${harK?`<button class="omr-kunskap" onclick="oppnaKunskap('${esc(String(a.kap))}','${esc(a.key)}')"
+              title="Minigenomgång för ${esc(a.name)}"
+              aria-label="Det här behöver du kunna i ${esc(a.name)}">${KUNSKAP_IKON}<span>Det här behöver du kunna</span></button>`:""}
           </div>`;
         }).join("")}
       </div>
@@ -4328,6 +4377,7 @@ function showAreaPicker(record){
           ${grouped[kap].map(k=>{
             const s=cardStatus(k);
             const fam=cardFamilies(k);
+            const harK=harKunskapKort(k);
             return `<div class="area stack ${s.tone}" style="cursor:default">
               <div class="omr-rad">
                 <button class="omrknapp" onclick="startCard('${esc(k.key)}')">
@@ -4337,6 +4387,9 @@ function showAreaPicker(record){
                   title="Blanda flera delmoment i ${esc(k.name)}"
                   aria-label="Blanda flera delmoment i ${esc(k.name)}">${PUNKT_IKON}</button>`:""}
               </div>
+              ${harK?`<button class="omr-kunskap" onclick="oppnaKunskap('${esc(String(k.kap))}','${esc(k.key)}')"
+                title="Minigenomgång för ${esc(k.name)}"
+                aria-label="Det här behöver du kunna i ${esc(k.name)}">${KUNSKAP_IKON}<span>Det här behöver du kunna</span></button>`:""}
               ${fam.length?`<div class="delmoment">
                 <span class="dellbl">Delmoment</span>
                 <div class="deltaggar">

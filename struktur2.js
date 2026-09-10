@@ -1,6 +1,6 @@
 /* struktur2.js — intern understruktur och elevsynliga träningsområden för Fysik nivå 2.
    OMR bevaras för bank/progression. GRUPP2 definierar elevens större områden; familj är delmoment.
-   Reviderad 2026-09-07. */
+   Reviderad 2026-09-10. */
 
 window.OMR2 = {
   "1": {
@@ -15,8 +15,7 @@ window.OMR2 = {
     "ljudvagor": "Ljudvågor",
     "interferens": "Interferens",
     "ljud_horsel": "Ljud och hörsel",
-    "extrema_frekvenser": "Ljud med extrema frekvenser",
-    "vagor": "Vågor"
+    "extrema_frekvenser": "Ljud med extrema frekvenser"
   },
   "3": {
     "elektriska_falt": "Elektriska fält",
@@ -64,6 +63,22 @@ window.KAPNAMN2 = {
 };
 
 window.GRUPP2 = {
+  "1": [
+    {
+      "id": "centralrorelse",
+      "namn": "Centralrörelse",
+      "omr": [
+        "cirkel"
+      ]
+    },
+    {
+      "id": "tva_dimensioner",
+      "namn": "Rörelse i två dimensioner",
+      "omr": [
+        "kast"
+      ]
+    }
+  ],
   "2": [
     {
       "id": "svangningar",
@@ -79,8 +94,7 @@ window.GRUPP2 = {
       "namn": "Vågrörelser och interferens",
       "omr": [
         "vagrorelser",
-        "interferens",
-        "vagor"
+        "interferens"
       ]
     },
     {
@@ -149,6 +163,7 @@ window.GRUPP2 = {
       "omr": [
         "avstandsmatning",
         "farg_ljusstyrka",
+        "exoplaneter",
         "stjarnornas_utveckling"
       ]
     },
@@ -181,4 +196,3 @@ window.GRUPP2 = {
     }
   ]
 };
-

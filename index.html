@@ -640,21 +640,19 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .side{position:sticky;top:82px;display:grid;gap:12px}
 .chapter{margin-bottom:8px}
 .chapter.open{margin-bottom:24px}
-.chapter-row{display:flex;align-items:center;gap:8px}
+.chapter-row{display:flex;align-items:center;gap:9px;min-height:58px}
 .chapter-head{
-  flex:1;min-width:0;display:flex;align-items:center;gap:11px;padding:11px 4px;text-align:left;color:var(--ink3);
+  flex:1;min-width:190px;display:flex;align-items:center;gap:11px;padding:13px 5px;text-align:left;color:var(--ink3);
   border-radius:12px;transition:color .2s ease,background .2s ease;
 }
 .kaptrana{
-  flex:none;padding:6px 12px;border-radius:99px;font-size:12px;font-weight:600;
+  flex:none;padding:8px 12px;border-radius:99px;font-size:12px;font-weight:650;
   border:1px solid var(--hair);background:var(--surface);color:var(--ink2);
-  opacity:0;transform:translateX(-4px);transition:.22s var(--ease);
+  transition:.22s var(--ease);
 }
-.chapter-row:hover .kaptrana,.chapter.open .kaptrana,.kaptrana:focus-visible{opacity:1;transform:none}
 .kaptrana:hover{border-color:transparent;background:var(--accSoft);color:var(--accInk)}
 .kaptrana:active{transform:scale(.96)}
 
-@media(hover:none){.kaptrana{opacity:1;transform:none}}
 .chapter-head:hover{color:var(--ink);background:var(--toneHover,transparent)}
 .chapter-head .chev{
   flex:none;width:15px;height:15px;color:var(--ink3);
@@ -664,56 +662,43 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .chapter-head:hover .chev{color:var(--acc)}
 
 .chapter-head .name{
-  font-size:13.5px;font-weight:600;letter-spacing:-.02em;
-  transition:color .2s ease;
+  font-size:16px;font-weight:680;letter-spacing:-.025em;line-height:1.25;
+  transition:color .2s ease,font-size .2s ease;
 }
-.chapter-head[aria-expanded="true"] .name{color:var(--ink2)}
+.chapter-head[aria-expanded="false"] .name{font-size:17.5px;color:var(--ink2)}
+.chapter-head[aria-expanded="true"] .name{color:var(--ink)}
 .chapter-head .rule{flex:1;height:1px;background:var(--hair)}
 .chapter-head .n{font-size:11px;opacity:.7;min-width:14px;text-align:right;font-weight:600}
 .kdots{display:flex;gap:4px;transition:opacity .3s ease}
 .chapter.open .kdots{opacity:0}
 .kdots i{width:6px;height:6px;border-radius:50%;background:var(--d);box-shadow:0 0 0 2px var(--bg)}
 .chapter-body{padding:4px 0 2px}
-.chapter-tools{
-  display:block;margin:2px 0 14px;
+.kap-kunskap{
+  --gg-tone:var(--acc);flex:none;display:flex;align-items:center;gap:8px;padding:5px 6px 5px 11px;
+  border-radius:15px;text-align:left;color:var(--accInk);background:var(--accSoft);
+  border:1px solid color-mix(in srgb,var(--acc) 34%,var(--hair));
+  box-shadow:inset 0 1px 0 var(--specular);transition:.22s var(--ease);
 }
-.chapter-tools .kunskap{
-  --gg-tone:var(--acc);--gg-ink:var(--accInk);--gg-soft:var(--accSoft);
-  position:relative;overflow:hidden;width:100%;display:grid;
-  grid-template-columns:46px minmax(0,1fr) auto;align-items:center;gap:13px;
-  padding:14px 16px;text-align:left;border-radius:18px;
-  border:1px solid color-mix(in srgb,var(--gg-tone) 35%,var(--hair));
-  background:linear-gradient(135deg,var(--gg-soft),var(--surface) 72%);
-  color:var(--ink);box-shadow:0 10px 26px -22px var(--gg-tone),inset 0 1px 0 var(--specular);
-  transition:transform .22s var(--ease),border-color .22s ease,box-shadow .22s ease;
+.kap-kunskap:hover{transform:translateY(-1px);border-color:var(--acc);box-shadow:0 10px 24px -20px var(--acc)}
+.kap-kunskap:active{transform:scale(.98)}
+.kap-kunskap.klar{--gg-tone:var(--gold);color:var(--gold);background:var(--goldSoft);border-color:color-mix(in srgb,var(--gold) 38%,var(--hair))}
+.kap-kunskap .bok{width:20px;height:20px;display:grid;place-items:center;flex:none}
+.kap-kunskap .bok svg{width:20px;height:20px}
+.kap-kunskap .etikett{font-size:12.5px;font-weight:720;line-height:1.15;white-space:nowrap}
+.kap-kunskap-ring{position:relative;width:43px;height:43px;display:grid;place-items:center;flex:none}
+.kap-kunskap-ring svg{position:absolute;inset:0;width:100%;height:100%}
+.kap-kunskap-ring .ring-spar{stroke:color-mix(in srgb,var(--ink3) 24%,transparent)}
+.kap-kunskap-ring .ring-las{stroke:var(--gg-tone)}
+.kap-kunskap-ring b{font-size:10.5px;line-height:1;color:var(--ink);letter-spacing:-.03em}
+.kap-kunskap-ring small{position:absolute;top:27px;font-size:6.5px;font-weight:700;line-height:1;color:var(--ink3);text-transform:uppercase;letter-spacing:.04em}
+@media(max-width:820px){
+  .chapter-row{flex-wrap:wrap;padding-bottom:8px}.chapter-head{flex-basis:100%;padding-bottom:5px}
+  .kap-kunskap{margin-left:26px}.kaptrana{margin-left:auto}
 }
-.chapter-tools .kunskap:before{
-  content:"";position:absolute;inset:0;pointer-events:none;
-  background:radial-gradient(240px 120px at 0 0,color-mix(in srgb,var(--gg-tone) 16%,transparent),transparent 72%);
-}
-.chapter-tools .kunskap:hover{transform:translateY(-2px);border-color:var(--gg-tone);box-shadow:0 18px 34px -24px var(--gg-tone),inset 0 1px 0 var(--specular)}
-.chapter-tools .kunskap:active{transform:translateY(0) scale(.995)}
-.chapter-tools .kunskap.klar{--gg-tone:var(--gold);--gg-ink:var(--gold);--gg-soft:var(--goldSoft)}
-.kunskap-ikon{
-  position:relative;width:46px;height:46px;border-radius:14px;display:grid;place-items:center;
-  color:var(--gg-ink);background:color-mix(in srgb,var(--gg-soft) 76%,var(--surface));
-  border:1px solid color-mix(in srgb,var(--gg-tone) 30%,var(--hair));
-}
-.kunskap-ikon svg{width:23px;height:23px}
-.kunskap-copy{position:relative;min-width:0;display:grid;gap:2px}
-.kunskap-overline{font-size:10px;font-weight:750;letter-spacing:.09em;text-transform:uppercase;color:var(--gg-ink)}
-.kunskap-copy strong{font-size:15.5px;font-weight:720;letter-spacing:-.025em;color:var(--ink)}
-.kunskap-copy small{font-size:12px;line-height:1.4;color:var(--ink3)}
-.kunskap-framsteg{height:3px;margin-top:7px;max-width:260px;border-radius:99px;background:var(--hair);overflow:hidden}
-.kunskap-framsteg i{display:block;height:100%;border-radius:inherit;background:var(--gg-tone)}
-.kunskap-cta{position:relative;display:inline-flex;align-items:center;gap:7px;padding:8px 11px;
-  border-radius:11px;color:var(--gg-ink);font-size:12px;font-weight:700;white-space:nowrap}
-.kunskap-cta b{font-size:16px;font-weight:500;transition:transform .2s ease}
-.chapter-tools .kunskap:hover .kunskap-cta b{transform:translateX(3px)}
-@media(max-width:560px){
-  .chapter-tools .kunskap{grid-template-columns:40px minmax(0,1fr);padding:13px;gap:11px}
-  .kunskap-ikon{width:40px;height:40px;border-radius:12px}.kunskap-ikon svg{width:20px;height:20px}
-  .kunskap-cta{grid-column:2;padding:4px 0 0;justify-self:start}
+@media(max-width:460px){
+  .chapter-head .rule,.chapter-head .kdots,.chapter-head .n{display:none}
+  .chapter-head[aria-expanded="false"] .name{font-size:17px}
+  .kap-kunskap{margin-left:0;flex:1;justify-content:flex-start}.kaptrana{margin-left:0}
 }
 
 .area-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(238px,1fr));gap:12px}
@@ -1552,6 +1537,18 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .gg-ruta.fel{border-color:rgba(176,124,25,.30);background:var(--amberSoft)}
 .gg-ruta.fel .gg-rlbl{color:var(--amber)}
 .gg-ruta.bar{border-color:var(--hair2)}
+.gg-formler{margin:12px 0 2px;border:1px solid var(--hair2);border-radius:14px;background:var(--surface2);overflow:hidden}
+.gg-formler summary{display:flex;align-items:center;gap:9px;padding:10px 12px;cursor:pointer;list-style:none;color:var(--ink2);font-size:12.5px;font-weight:700}
+.gg-formler summary::-webkit-details-marker{display:none}
+.gg-formler summary svg{width:17px;height:17px;color:var(--accInk);flex:none}
+.gg-formler summary .formel-antal{margin-left:auto;color:var(--ink3);font-size:10.5px;font-weight:600}
+.gg-formler summary:after{content:"⌄";font-size:15px;color:var(--ink3);transition:transform .2s ease}
+.gg-formler[open] summary:after{transform:rotate(180deg)}
+.gg-formel-lista{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:7px;padding:0 10px 10px}
+.gg-formel{min-width:0;padding:8px 9px;border-radius:10px;background:var(--surface);border:1px solid var(--hair)}
+.gg-formel b{display:block;margin-bottom:3px;color:var(--ink3);font-size:9px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+.gg-formel span{font-size:13px;color:var(--ink)}
+.gg-formel .katex{font-size:.98em}
 
 .typ-nav{display:flex;align-items:center;gap:8px;margin-top:20px;flex-wrap:wrap}
 .typ-nav .spacer{flex:1}
@@ -2706,39 +2703,36 @@ function chapterHead(kap,namn,omraden,tranaKnapp){
       ${CHEV}<span class="name">${esc(namn)}</span><span class="rule"></span>
       <span class="kdots">${dots}</span><span class="n">${omraden.length}</span>
     </button>
+    ${chapterKnowledge(kap)}
     ${tranaKnapp===false?"":`
-      <button class="kaptrana" onclick="startChapter('${esc(String(kap))}')"
-        title="Träna hela kapitlet">Träna allt</button>
       <button class="kaptrana valj" onclick="oppnaFlerval('${esc(String(kap))}')"
-        title="Välj flera områden att blanda">Välj flera</button>`}
+        title="Välj flera områden att blanda">Träna flera</button>`}
   </div>`;
 }
 
-function chapterTools(kap){
+function chapterKnowledge(kap){
   const steg=kunskapSteg(kap);
   if(!steg.length) return "";
   const namn=chapterName(kap);
   const lasta=steg.filter(x=>ggLast(x.familj)).length;
   const klart=lasta===steg.length;
-  const pagaende=lasta>0&&!klart;
-  const handling=klart?"Repetera genomgången":pagaende?"Fortsätt genomgången":"Starta genomgången";
-  const under=klart
-    ? "Genomgången är läst. Öppna den igen när du vill repetera."
-    : "Korta förklaringar och typuppgifter för kapitlets viktigaste delar.";
-  return `<div class="chapter-tools">
-    <button class="kunskap${klart?" klar":""}" onclick="oppnaKunskap('${esc(String(kap))}')"
-      title="Kort genomgång delmoment för delmoment"
-      aria-label="Det här behöver du kunna i ${esc(namn)}">
-      <span class="kunskap-ikon">${KUNSKAP_IKON}</span>
-      <span class="kunskap-copy">
-        <span class="kunskap-overline">Genomgång · ${lasta} av ${steg.length} lästa</span>
-        <strong>Det här behöver du kunna</strong>
-        <small>${under}</small>
-        <span class="kunskap-framsteg" aria-hidden="true"><i style="width:${Math.round(100*lasta/steg.length)}%"></i></span>
-      </span>
-      <span class="kunskap-cta">${handling}<b aria-hidden="true">→</b></span>
-    </button>
-  </div>`;
+  const r=18,c=2*Math.PI*r,off=c*(1-lasta/steg.length);
+  return `<button class="kap-kunskap${klart?" klar":""}" onclick="oppnaKunskap('${esc(String(kap))}')"
+    data-kap="${esc(String(kap))}"
+    title="Öppna kapitlets korta genomgång"
+    aria-label="Det här behöver du kunna i ${esc(namn)}. ${lasta} av ${steg.length} lästa.">
+    <span class="bok">${KUNSKAP_IKON}</span>
+    <span class="etikett">Det här behöver<br>du kunna</span>
+    <span class="kap-kunskap-ring" aria-hidden="true">
+      <svg viewBox="0 0 43 43">
+        <circle class="ring-spar" cx="21.5" cy="21.5" r="${r}" fill="none" stroke-width="4"/>
+        <circle class="ring-las" cx="21.5" cy="21.5" r="${r}" fill="none" stroke-width="4"
+          stroke-linecap="round" stroke-dasharray="${c.toFixed(2)}" stroke-dashoffset="${off.toFixed(2)}"
+          transform="rotate(-90 21.5 21.5)"/>
+      </svg>
+      <b>${lasta}/${steg.length}</b><small>lästa</small>
+    </span>
+  </button>`;
 }
 
 /* Det här behöver du kunna.
@@ -2749,6 +2743,39 @@ const KUNSKAP_IKON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" s
   +'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
   +'<path d="M4 19V5.5A2 2 0 0 1 6 3.5h11.2a.8.8 0 0 1 .8.8v13.4a.8.8 0 0 1-.8.8H6a2 2 0 0 0-2 2Z"/>'
   +'<path d="M8 7.6h6M8 11h4"/></svg>';
+
+/* Ett koncentrerat formelurval för varje fysikkapitel. Formlerna använder
+   samma vanliga beteckningar som gymnasiets formelsamlingar, men ligger här
+   nära genomgången så att eleven slipper leta mellan flera vyer. */
+const FYSIK_FORMELSAMLING={
+  fy1:{
+    "2":[["Densitet","\\(\\rho=\\frac{m}{V}\\)"],["Medelvärde","\\(\\bar{x}=\\frac{\\sum x}{n}\\)"],["Relativ osäkerhet","\\(\\frac{\\Delta x}{x}\\)"],["Procentuell osäkerhet","\\(\\frac{\\Delta x}{x}\\cdot100\\,\\%\\)"]],
+    "3":[["Fart","\\(v=\\frac{s}{t}\\)"],["Acceleration","\\(a=\\frac{\\Delta v}{\\Delta t}\\)"],["Konstant acceleration","\\(v=v_0+at\\)"],["Sträcka","\\(s=v_0t+\\frac{at^2}{2}\\)"],["Utan tid","\\(v^2=v_0^2+2as\\)"]],
+    "4":[["Newtons andra lag","\\(\\sum F=ma\\)"],["Tyngdkraft","\\(F_g=mg\\)"],["Friktion","\\(F_f=\\mu N\\)"],["Fjäderkraft","\\(F=kx\\)"],["Kraftmoment","\\(M=F_\\perp l\\)"]],
+    "5":[["Arbete","\\(W=Fs\\cos\\alpha\\)"],["Rörelseenergi","\\(E_k=\\frac{mv^2}{2}\\)"],["Lägesenergi","\\(E_p=mgh\\)"],["Effekt","\\(P=\\frac{W}{t}\\)"],["Verkningsgrad","\\(\\eta=\\frac{E_{nyttig}}{E_{tillförd}}\\)"],["Rörelsemängd","\\(p=mv\\)"],["Impuls","\\(F\\Delta t=\\Delta p\\)"]],
+    "6":[["Tryck","\\(p=\\frac{F}{A}\\)"],["Vätsketryck","\\(p=\\rho gh\\)"],["Boyles lag","\\(p_1V_1=p_2V_2\\)"],["Allmänna gaslagen","\\(\\frac{pV}{T}=\\text{konstant}\\)"],["Lyftkraft","\\(F_b=\\rho Vg\\)"]],
+    "7":[["Temperaturändring","\\(\\Delta T=T_2-T_1\\)"],["Uppvärmning","\\(Q=mc\\Delta T\\)"],["Fasövergång","\\(Q=mL\\)"],["Värmebalans","\\(\\sum Q=0\\)"]],
+    "8":[["Laddning","\\(Q=Ne\\)"],["Coulombs lag","\\(F=k\\frac{|Q_1Q_2|}{r^2}\\)"],["Ström","\\(I=\\frac{Q}{t}\\)"],["Spänning","\\(U=\\frac{W}{Q}\\)"],["Ohms lag","\\(U=RI\\)"],["Seriekoppling","\\(R=R_1+R_2+\\cdots\\)"],["Parallellkoppling","\\(\\frac1R=\\frac1{R_1}+\\frac1{R_2}+\\cdots\\)"],["Elektrisk effekt","\\(P=UI=I^2R=\\frac{U^2}{R}\\)"],["Homogent fält","\\(E=\\frac{U}{d},\\quad F=QE\\)"]],
+    "9":[["Halveringstid","\\(A=A_0\\left(\\frac12\\right)^{t/T_{1/2}}\\)"],["Absorberad dos","\\(D=\\frac{E}{m}\\)"],["Ekvivalent dos","\\(H=w_R D\\)"],["Mass–energi","\\(E=\\Delta mc^2\\)"],["Elektromagnetisk våg","\\(c=f\\lambda\\)"],["Fotonenergi","\\(E=hf\\)"]]
+  },
+  fy2:{
+    "1":[["Centripetalacceleration","\\(a_c=\\frac{v^2}{r}=\\omega^2r\\)"],["Centripetalkraft","\\(F_c=\\frac{mv^2}{r}\\)"],["Fart i cirkel","\\(v=\\frac{2\\pi r}{T}\\)"],["Kaströrelse vågrätt","\\(x=v_{0x}t\\)"],["Kaströrelse lodrätt","\\(y=v_{0y}t-\\frac{gt^2}{2}\\)"]],
+    "2":[["Hookes lag","\\(F=-kx\\)"],["Fjäderenergi","\\(E=\\frac{kx^2}{2}\\)"],["Frekvens och period","\\(f=\\frac1T\\)"],["Fjäderpendel","\\(T=2\\pi\\sqrt{\\frac{m}{k}}\\)"],["Matematisk pendel","\\(T=2\\pi\\sqrt{\\frac{l}{g}}\\)"],["Vågfart","\\(v=f\\lambda\\)"],["Sträng eller öppen pipa","\\(f_n=\\frac{nv}{2L}\\)"],["Stängd pipa","\\(f_n=\\frac{(2n-1)v}{4L}\\)"],["Ljudnivå","\\(L=10\\log\\frac{I}{I_0}\\)"]],
+    "3":[["Elektrisk kraft","\\(F=qE\\)"],["Homogent fält","\\(E=\\frac{U}{d}\\)"],["Kapacitans","\\(C=\\frac{Q}{U}\\)"],["Kondensatorenergi","\\(W=\\frac{CU^2}{2}\\)"],["Rak ledare","\\(B=\\frac{\\mu_0I}{2\\pi r}\\)"],["Spole","\\(B=\\mu_0\\frac{NI}{l}\\)"],["Kraft på ledare","\\(F=BIl\\sin\\alpha\\)"],["Kraft på laddning","\\(F=qvB\\sin\\alpha\\)"],["Magnetiskt flöde","\\(\\Phi=BA\\cos\\alpha\\)"],["Induktion","\\(\\varepsilon=-N\\frac{\\Delta\\Phi}{\\Delta t}\\)"],["Effektivvärde","\\(U_{eff}=\\frac{U_{max}}{\\sqrt2}\\)"],["Transformator","\\(\\frac{U_s}{U_p}=\\frac{N_s}{N_p}\\)"],["LC-resonans","\\(f_0=\\frac{1}{2\\pi\\sqrt{LC}}\\)"]],
+    "4":[["Vågsambandet","\\(c=f\\lambda\\)"],["Gitter","\\(d\\sin\\theta=n\\lambda\\)"],["Wiens lag","\\(\\lambda_{max}T=b\\)"],["Stefan–Boltzmann","\\(P=\\sigma AT^4\\)"],["Snells lag","\\(n_1\\sin\\alpha=n_2\\sin\\beta\\)"],["Fotonenergi","\\(E=hf=\\frac{hc}{\\lambda}\\)"],["Bana i magnetfält","\\(r=\\frac{mv}{qB}\\)"],["Fotoelektrisk effekt","\\(hf=W+E_{k,max}\\)"],["Stoppspänning","\\(eU_s=E_{k,max}\\)"]],
+    "5":[["Parallax","\\(d(\\mathrm{pc})=\\frac{1}{p('')}\\)"],["Strålningsflöde","\\(I=\\frac{L}{4\\pi r^2}\\)"],["Transitdjup","\\(\\frac{\\Delta I}{I}\\approx\\left(\\frac{R_p}{R_s}\\right)^2\\)"],["Hubbles lag","\\(v=H_0d\\)"]],
+    "6":[["Lorentzfaktor","\\(\\gamma=\\frac{1}{\\sqrt{1-v^2/c^2}}\\)"],["Tidsdilatation","\\(\\Delta t=\\gamma\\Delta\\tau\\)"],["Längdkontraktion","\\(L=\\frac{L_0}{\\gamma}\\)"],["Viloenergi","\\(E_0=mc^2\\)"],["Total energi","\\(E=\\gamma mc^2\\)"],["Rörelseenergi","\\(E_k=(\\gamma-1)mc^2\\)"]]
+  }
+};
+const FORMEL_IKON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 4H9.8L7.2 12l2.6 8h7.7"/><path d="M7.2 12H4"/><path d="M13 8h6M13 16h6"/></svg>';
+function fysikFormlerHTML(kap){
+  const formler=FYSIK_FORMELSAMLING[state.course]?.[String(kap)]||[];
+  if(!formler.length) return "";
+  return `<details class="gg-formler">
+    <summary>${FORMEL_IKON}<span>Formler i kapitlet</span><span class="formel-antal">${formler.length} samband</span></summary>
+    <div class="gg-formel-lista">${formler.map(([namn,formel])=>`<div class="gg-formel"><b>${esc(namn)}</b><span>${formel}</span></div>`).join("")}</div>
+  </details>`;
+}
 
 /* Matematiken i genomgångarna skrivs med \\( och \\[ i JS-källan, vilket
    blir ett bakstreck i den färdiga strängen — det är vad KaTeX vill ha.
@@ -2968,6 +2995,7 @@ function ggStartaLastimer(){
     profile.genomgangar[ggNyckel(familj)]=Date.now();
     ggKollaKapitel(k);
     checkBadges(); saveProfile();
+    uppdateraKunskapsindikator(k.kap);
     ritaKunskap();
   },GG_LASTID);
 }
@@ -2976,6 +3004,18 @@ function ggKollaKapitel(k){
   profile.ggKapKlara ||= {};
   if(profile.ggKapKlara[nyckel]) return;
   if(k.steg.length && k.steg.every(x=>ggLast(x.familj))) profile.ggKapKlara[nyckel]=Date.now();
+}
+function uppdateraKunskapsindikator(kap){
+  const steg=kunskapSteg(kap); if(!steg.length) return;
+  const lasta=steg.filter(x=>ggLast(x.familj)).length;
+  const klart=lasta===steg.length, r=18, c=2*Math.PI*r, off=c*(1-lasta/steg.length);
+  document.querySelectorAll(".kap-kunskap").forEach(btn=>{
+    if(btn.dataset.kap!==String(kap)) return;
+    btn.classList.toggle("klar",klart);
+    const tal=btn.querySelector(".kap-kunskap-ring b"); if(tal) tal.textContent=lasta+"/"+steg.length;
+    const cirkel=btn.querySelector(".ring-las"); if(cirkel) cirkel.setAttribute("stroke-dashoffset",off.toFixed(2));
+    btn.setAttribute("aria-label","Det här behöver du kunna i "+chapterName(kap)+". "+lasta+" av "+steg.length+" lästa.");
+  });
 }
 document.addEventListener("visibilitychange",()=>{
   if(document.visibilityState==="visible") ggStartaLastimer();
@@ -3014,6 +3054,7 @@ function ritaKunskap(){
     <div class="typ-omr">${esc(s.omrNamn)}</div>
     <h3 class="typ-familj">${esc(g.rubrik||familyName(s.familj))}</h3>
     ${g.ram?`<p class="gg-ram">${g.ram}</p>`:""}
+    ${fysikFormlerHTML(k.kap)}
 
     ${s.uppgift?`<div class="typ-block fraga">
       <div class="typ-lbl"><b></b>Typuppgift</div>
@@ -4325,9 +4366,8 @@ function renderDashboard(){
     const open=state.openChapters.has(String(kap));
     return `
     <section class="chapter${open?" open":""}">
-      ${manyChapters?chapterHead(kap,chapterName(kap),grouped[kap]):""}
+      ${chapterHead(kap,chapterName(kap),grouped[kap])}
       <div class="chapter-body"${manyChapters&&!open?" hidden":""}>
-      ${chapterTools(kap)}
       <div class="area-grid stagger">
         ${grouped[kap].map(a=>{
           const s=cardStatus(a);
@@ -4459,7 +4499,6 @@ function showAreaPicker(record){
       <section class="chapter${open?" open":""}">
         ${chapterHead(kap,chapterName(kap),grouped[kap],false)}
         <div class="chapter-body"${open?"":" hidden"}>
-        ${chapterTools(kap)}
         <div class="area-grid stagger punktgrid">
           ${grouped[kap].map(k=>{
             const s=cardStatus(k);

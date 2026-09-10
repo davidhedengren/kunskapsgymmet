@@ -24,6 +24,7 @@
   const parabelFigur = '<svg class="dg" viewBox="0 0 340 282" role="img" aria-label="Grafen till f av x lika med x kvadrat minus 4x plus 3. Parabeln skär x-axeln vid 1 och 3 och har minimipunkten 2, minus 1." style="display:block;width:min(100%,330px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M32 24V244M76 24V244M120 24V244M164 24V244M208 24V244M252 24V244M296 24V244M32 244H296M32 200H296M32 156H296M32 112H296M32 68H296M32 24H296"/><path class="dg-axel" d="M32 200H306M76 254V14"/><path class="dg-pil" d="M314 200l-10-4.5v9zM76 6l-4.5 10h9z"/><g class="dg-txt"><text x="32" y="219" text-anchor="middle">−1</text><text x="120" y="219" text-anchor="middle">1</text><text x="164" y="219" text-anchor="middle">2</text><text x="208" y="219" text-anchor="middle">3</text><text x="252" y="219" text-anchor="middle">4</text><text x="296" y="219" text-anchor="middle">5</text><text x="68" y="249" text-anchor="end">−1</text><text x="68" y="161" text-anchor="end">1</text><text x="68" y="117" text-anchor="end">2</text><text x="68" y="73" text-anchor="end">3</text><text x="68" y="29" text-anchor="end">4</text><text x="310" y="191" text-anchor="end" font-style="italic">x</text><text x="86" y="18" font-style="italic">y</text></g><polyline class="dg-linje" points="76,68 98,145 120,200 142,233 164,244 186,233 208,200 230,145 252,68"/><circle class="dg-matt" cx="120" cy="200" r="5"/><circle class="dg-matt" cx="208" cy="200" r="5"/><circle class="dg-vald" cx="164" cy="244" r="5.5"/><text class="dg-etikett" x="174" y="238">(2, −1)</text></svg>';
   const nollstalleFigur = '<svg class="dg" viewBox="0 0 340 272" role="img" aria-label="Parabel med nollställena minus 1 och 4. Punkten 0, minus 8 är markerad på grafen." style="display:block;width:min(100%,330px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M24 24V232M64 24V232M104 24V232M144 24V232M184 24V232M224 24V232M264 24V232M304 24V232M24 120H304M24 88H304M24 56H304M24 24H304M24 152H304M24 184H304M24 216H304"/><path class="dg-axel" d="M24 120H314M104 240V14"/><path class="dg-pil" d="M322 120l-10-4.5v9zM104 6l-4.5 10h9z"/><g class="dg-txt"><text x="24" y="139" text-anchor="middle">−2</text><text x="64" y="139" text-anchor="middle">−1</text><text x="144" y="139" text-anchor="middle">1</text><text x="184" y="139" text-anchor="middle">2</text><text x="224" y="139" text-anchor="middle">3</text><text x="264" y="139" text-anchor="middle">4</text><text x="304" y="139" text-anchor="middle">5</text><text x="96" y="189" text-anchor="end">−8</text><text x="96" y="221" text-anchor="end">−12</text><text x="318" y="111" text-anchor="end" font-style="italic">x</text><text x="114" y="18" font-style="italic">y</text></g><polyline class="dg-linje" points="44,76 64,120 104,184 144,216 164,220 184,216 224,184 264,120 284,76"/><circle class="dg-matt" cx="64" cy="120" r="5"/><circle class="dg-matt" cx="264" cy="120" r="5"/><circle class="dg-vald" cx="104" cy="184" r="5.5"/><text class="dg-etikett" x="113" y="178">(0, −8)</text></svg>';
   const exponentialFigur = '<svg class="dg" viewBox="0 0 360 276" role="img" aria-label="Avtagande exponentialkurva med startvärdet 200. Kurvan går genom punkterna 0, 200, 1, 150 och 2, 112,5." style="display:block;width:min(100%,350px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M54 26V226M90 26V226M126 26V226M162 26V226M198 26V226M234 26V226M270 26V226M306 26V226M342 26V226M54 226H342M54 176H342M54 126H342M54 76H342M54 26H342"/><path class="dg-axel" d="M54 226H348M54 234V16"/><path class="dg-pil" d="M356 226l-10-4.5v9zM54 8l-4.5 10h9z"/><g class="dg-txt"><text x="54" y="245" text-anchor="middle">0</text><text x="90" y="245" text-anchor="middle">1</text><text x="126" y="245" text-anchor="middle">2</text><text x="198" y="245" text-anchor="middle">4</text><text x="270" y="245" text-anchor="middle">6</text><text x="342" y="245" text-anchor="middle">8</text><text x="46" y="181" text-anchor="end">50</text><text x="46" y="131" text-anchor="end">100</text><text x="46" y="81" text-anchor="end">150</text><text x="46" y="31" text-anchor="end">200</text><text x="352" y="217" text-anchor="end" font-style="italic">x</text><text x="64" y="20" font-style="italic">f(x)</text></g><polyline class="dg-linje" points="54,26 90,76 126,113.5 162,141.6 198,162.7 234,178.5 270,190.4 306,199.3 342,206"/><circle class="dg-matt" cx="54" cy="26" r="5"/><circle class="dg-matt" cx="90" cy="76" r="5"/><circle class="dg-matt" cx="126" cy="113.5" r="5"/></svg>';
+  const exponentialEkvFigur = '<svg class="dg" viewBox="0 0 380 282" role="img" aria-label="Koordinatsystem med exponentialkurvan y lika med 3 gånger 1,5 upphöjt till x och den vågräta linjen y lika med 10. Graferna skär varandra nära x lika med 2,97." style="display:block;width:min(100%,365px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M50 30V230M106 30V230M162 30V230M218 30V230M274 30V230M330 30V230M50 230H330M50 180H330M50 130H330M50 80H330M50 30H330"/><path class="dg-axel" d="M50 230H340M50 240V20"/><path class="dg-pil" d="M348 230l-10-4.5v9zM50 12l-4.5 10h9z"/><g class="dg-txt"><text x="50" y="249" text-anchor="middle">0</text><text x="106" y="249" text-anchor="middle">1</text><text x="162" y="249" text-anchor="middle">2</text><text x="218" y="249" text-anchor="middle">3</text><text x="274" y="249" text-anchor="middle">4</text><text x="330" y="249" text-anchor="middle">5</text><text x="42" y="184" text-anchor="end">4</text><text x="42" y="134" text-anchor="end">8</text><text x="42" y="84" text-anchor="end">12</text><text x="42" y="34" text-anchor="end">16</text><text x="344" y="220" text-anchor="end" font-style="italic">x</text><text x="60" y="22" font-style="italic">y</text></g><polyline class="dg-linje" points="50,192.5 78,185 106,173.8 134,162.5 162,145.6 190,127.8 218,103.4 246,76.6 274,40.1"/><path class="dg-form" d="M50 105H330"/><circle class="dg-skar" cx="216.3" cy="105" r="5.5"/><text class="dg-etikett" x="224" y="96">(2,97; 10)</text><text class="dg-etikett" x="250" y="119">y = 10</text></svg>';
   const ladaFigur = '<svg class="dg" viewBox="0 0 420 150" role="img" aria-label="Lådagram med minimum 2, undre kvartil 5, median 8, övre kvartil 12 och maximum 17." style="display:block;width:min(100%,410px);height:auto;margin:14px auto 4px"><path class="dg-axel" d="M40 116H390"/><path class="dg-form" d="M80 72H140M280 72H380M80 55V89M380 55V89M140 42H280V102H140Z"/><path class="dg-linje" d="M200 42V102"/><g class="dg-txt"><text x="80" y="135" text-anchor="middle">2</text><text x="140" y="135" text-anchor="middle">5</text><text x="200" y="135" text-anchor="middle">8</text><text x="280" y="135" text-anchor="middle">12</text><text x="380" y="135" text-anchor="middle">17</text></g><g class="dg-etikett"><text x="140" y="28" text-anchor="middle">Q₁</text><text x="200" y="28" text-anchor="middle">median</text><text x="280" y="28" text-anchor="middle">Q₃</text></g></svg>';
   const regressionFigur = '<svg class="dg" viewBox="0 0 380 286" role="img" aria-label="Spridningsdiagram med en redan anpassad stigande regressionslinje. Punkterna ligger nära men inte exakt på linjen." style="display:block;width:min(100%,365px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M46 24V236M96 24V236M146 24V236M196 24V236M246 24V236M296 24V236M346 24V236M46 236H346M46 196H346M46 156H346M46 116H346M46 76H346M46 36H346"/><path class="dg-axel" d="M46 236H356M46 246V14"/><path class="dg-pil" d="M364 236l-10-4.5v9zM46 6l-4.5 10h9z"/><path class="dg-linje" d="M46 214L346 70"/><g class="dg-matt"><circle cx="71" cy="207" r="5"/><circle cx="96" cy="192" r="5"/><circle cx="121" cy="194" r="5"/><circle cx="146" cy="170" r="5"/><circle cx="171" cy="165" r="5"/><circle cx="196" cy="145" r="5"/><circle cx="221" cy="151" r="5"/><circle cx="246" cy="120" r="5"/><circle cx="271" cy="112" r="5"/><circle cx="296" cy="91" r="5"/><circle cx="321" cy="88" r="5"/></g><g class="dg-txt"><text x="352" y="258" text-anchor="end">studietimmar</text><text x="56" y="18">provpoäng</text></g></svg>';
   const korrelationFigur = '<svg class="dg" viewBox="0 0 380 286" role="img" aria-label="Spridningsdiagram med starkt negativt linjärt samband. Punkterna faller från övre vänster till nedre höger." style="display:block;width:min(100%,365px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M46 24V236M96 24V236M146 24V236M196 24V236M246 24V236M296 24V236M346 24V236M46 236H346M46 196H346M46 156H346M46 116H346M46 76H346M46 36H346"/><path class="dg-axel" d="M46 236H356M46 246V14"/><path class="dg-pil" d="M364 236l-10-4.5v9zM46 6l-4.5 10h9z"/><g class="dg-matt"><circle cx="71" cy="52" r="5"/><circle cx="96" cy="67" r="5"/><circle cx="121" cy="71" r="5"/><circle cx="146" cy="96" r="5"/><circle cx="171" cy="104" r="5"/><circle cx="196" cy="126" r="5"/><circle cx="221" cy="132" r="5"/><circle cx="246" cy="157" r="5"/><circle cx="271" cy="165" r="5"/><circle cx="296" cy="193" r="5"/><circle cx="321" cy="202" r="5"/></g><g class="dg-txt"><text x="352" y="258" text-anchor="end">temperatur</text><text x="56" y="18">kostnad</text></g></svg>';
@@ -34,7 +35,7 @@
     "<p>Linjen har ekvationen <strong>y = 3x − 2</strong>. Ange riktningskoefficienten, skärningen med y-axeln och beräkna y när x = 4.</p>",
     "I \\(y=kx+m\\) visar \\(k\\) förändringen i y när x ökar med 1. Talet \\(m\\) är y-värdet när \\(x=0\\).",
     [steg("Läs av k och m", "Jämför med formen y = kx + m.", "\\[k=3\\quad\\text{och}\\quad m=-2\\]"),
-     steg("Sätt in x-värdet", "Ersätt varje x i formeln med 4. Det insatta värdet markeras rött.", "\\[y=3\\cdot{\\color{#D1495B}{4}}-2=12-2=10\\]")],
+     steg("Sätt in x-värdet", "Ersätt varje x i formeln med 4.", "\\[y=3\\cdot{\\color{#D1495B}{4}}-2=12-2=10\\]")],
     "\\(k=3\\), \\(m=-2\\) och \\(y=10\\) när \\(x=4\\).",
     "k är förändring per x-enhet; m är startvärdet.", "Använda linjens ekvation och beräkna värden");
 
@@ -43,7 +44,7 @@
     "<p>Bestäm ekvationen för linjen genom punkterna (1, 3) och (4, 9).</p>",
     "Bestäm först lutningen med förändring i y delat med förändring i x. Sätt sedan in en punkt för att hitta m.",
     [steg("Beräkna k", "Använd samma ordning i täljare och nämnare.", "\\[k=\\frac{9-3}{4-1}=\\frac63=2\\]"),
-     steg("Bestäm m", "Sätt in punkten (1, 3) i y = 2x + m. Det insatta x-värdet markeras rött.", "\\[3=2\\cdot{\\color{#D1495B}{1}}+m\\Rightarrow m=1\\]"),
+     steg("Bestäm m", "Sätt in punkten (1, 3) i y = 2x + m.", "\\[3=2\\cdot{\\color{#D1495B}{1}}+m\\Rightarrow m=1\\]"),
      steg("Skriv och kontrollera", "Kontroll med den andra punkten ger 2·4 + 1 = 9.", "\\[y=2x+1\\]")],
     "Linjen har ekvationen \\(y=2x+1\\).",
     "Två olika punkter bestämmer en rät linje.", "Bestämma linjär funktion från två punkter");
@@ -69,7 +70,7 @@
 
   add("ma2-grund-1-05", 1, ["linjara_ekvationssystem", "grafisk_losning_ekvationssystem"], ALL,
     "Förstå lösningen till ett ekvationssystem",
-    "<p>Linjerna y = x + 1 och y = −x + 5 är ritade i koordinatsystemet. Bestäm skärningspunkten.</p>" + linjeSystemFigur,
+    "<p>Lös ekvationssystemet grafiskt:</p><p>\\[\\begin{cases}y=x+1\\\\y=-x+5\\end{cases}\\]</p>" + linjeSystemFigur,
     "Lösningen är det talpar som gör båda ekvationerna sanna. I en graf är det linjernas skärningspunkt.",
     [steg("Sätt uttrycken lika", "I skärningspunkten har linjerna samma y-värde.", "\\[x+1=-x+5\\]"),
      steg("Lös ut x", "Samla x-termerna på ena sidan.", "\\[2x=4\\Rightarrow x=2\\]"),
@@ -79,17 +80,17 @@
 
   add("ma2-grund-1-06", 1, "substitutionsmetoden", ALL,
     "Lös ett ekvationssystem med substitution",
-    "<p>Lös systemet y = 2x + 1 och x + y = 10.</p>",
+    "<p>Lös ekvationssystemet:</p><p>\\[\\begin{cases}y=2x+1\\\\x+y=10\\end{cases}\\]</p>",
     "När en variabel redan är ensam kan dess uttryck sättas in i den andra ekvationen.",
     [steg("Ersätt y", "Sätt in 2x + 1 där y står i den andra ekvationen.", "\\[x+(2x+1)=10\\]"),
      steg("Lös ekvationen", "Förenkla och lös ut x.", "\\[3x+1=10\\Rightarrow 3x=9\\Rightarrow x=3\\]"),
-     steg("Bestäm y", "Sätt tillbaka x = 3. Det insatta värdet markeras rött.", "\\[y=2\\cdot{\\color{#D1495B}{3}}+1=7\\]")],
+     steg("Bestäm y", "Sätt tillbaka x = 3.", "\\[y=2\\cdot{\\color{#D1495B}{3}}+1=7\\]")],
     "Lösningen är \\(x=3\\), \\(y=7\\).",
     "Substitution betyder att ersätta en variabel med ett lika stort uttryck.", "Substitutionsmetoden");
 
   add("ma2-grund-1-07", 1, "additionsmetoden", ALL,
     "Lös ett ekvationssystem med addition",
-    "<p>Lös systemet 2x + y = 11 och 3x − y = 9.</p>",
+    "<p>Lös ekvationssystemet:</p><p>\\[\\begin{cases}2x+y=11\\\\3x-y=9\\end{cases}\\]</p>",
     "Adderar du leden försvinner en variabel när dess koefficienter är motsatta.",
     [steg("Addera ekvationerna", "y och −y tar ut varandra.", "\\[(2x+y)+(3x-y)=11+9\\Rightarrow5x=20\\]"),
      steg("Bestäm x", "Dela båda led med 5.", "\\[x=4\\]"),
@@ -99,7 +100,7 @@
 
   add("ma2-grund-1-08", 1, "speciella_ekvationssystem", ALL,
     "Avgör om ett system saknar eller har oändligt många lösningar",
-    "<p>Jämför systemen A: y = 2x + 1 och y = 2x − 3, samt B: y = 2x + 1 och 2y = 4x + 2.</p>",
+    "<p>Jämför ekvationssystemen:</p><p>\\[A:\\begin{cases}y=2x+1\\\\y=2x-3\\end{cases}\\qquad B:\\begin{cases}y=2x+1\\\\2y=4x+2\\end{cases}\\]</p>",
     "Parallella olika linjer möts aldrig. Två ekvationer som beskriver samma linje har alla sina punkter gemensamma.",
     [steg("Undersök system A", "Samma k men olika m ger parallella linjer.", "\\[k_1=k_2=2,\\quad m_1\\ne m_2\\]"),
      steg("Förenkla system B", "Dela den andra ekvationen med 2.", "\\[2y=4x+2\\Rightarrow y=2x+1\\]")],
@@ -112,13 +113,13 @@
     "Låt variablerna stå för de okända antalen och översätt en uppgift i taget till en ekvation.",
     [steg("Välj variabler", "Låt x vara antalet vuxenbiljetter och y antalet ungdomsbiljetter.", "\\[x+y=40\\]"),
      steg("Skriv intäktsekvationen", "Pris gånger antal ger intäkten.", "\\[120x+80y=4000\\]"),
-     steg("Lös systemet", "Sätt y = 40 − x i intäktsekvationen.", "\\[120x+80(40-x)=4000\\Rightarrow40x=800\\Rightarrow x=20\\]")],
+     steg("Lös systemet", "De två villkoren bildar systemet nedan. Sätt sedan y = 40 − x i intäktsekvationen.", "\\[\\begin{cases}x+y=40\\\\120x+80y=4000\\end{cases}\\qquad\\Rightarrow\\qquad120x+80(40-x)=4000\\Rightarrow x=20\\]")],
     "Det säljs 20 vuxenbiljetter och 20 ungdomsbiljetter.",
     "Kontrollera både totalantalet och totalsumman.", "Tillämpningar med ekvationssystem");
 
   add("ma2-grund-1-10", 1, "ekvationssystem_tre_obekanta", C,
     "Lös ett system med tre obekanta",
-    "<p>Lös x + y + z = 6, x − y = 0 och z = 2.</p>",
+    "<p>Lös ekvationssystemet:</p><p>\\[\\begin{cases}x+y+z=6\\\\x-y=0\\\\z=2\\end{cases}\\]</p>",
     "Använd den enklaste ekvationen först och minska antalet obekanta steg för steg.",
     [steg("Använd z", "Den tredje ekvationen ger z direkt.", "\\[z=2\\]"),
      steg("Använd sambandet mellan x och y", "x − y = 0 betyder att x = y.", "\\[x=y\\]"),
@@ -234,7 +235,7 @@
     "Kvadrering kan skapa falska lösningar. Därför måste alla svar prövas i ursprungsekvationen.",
     [steg("Kvadrera båda led", "Vänsterledet blir x + 1.", "\\[x+1=(x-1)^2=x^2-2x+1\\]"),
      steg("Lös andragradsekvationen", "Förenkla och använd nollproduktmetoden.", "\\[x^2-3x=0\\Rightarrow x(x-3)=0\\Rightarrow x=0\\text{ eller }x=3\\]"),
-     steg("Pröva", "x = 0 ger 1 = −1 och förkastas. x = 3 ger 2 = 2.", "\\[x=3\\]")],
+     steg("Pröva", "x = 0 ger 1 = −1 och är därför en falsk rot. x = 3 ger 2 = 2 och är en lösning.", "\\[x=3\\]")],
     "\\(x=3\\).",
     "En rot är aldrig negativ, så högerledet måste också vara minst noll.", "Rotekvationer och falska rötter");
 
@@ -242,7 +243,7 @@
     "Tolka funktionsnotation",
     "<p>Funktionen f ges av f(x) = x² − 3. Beräkna f(−2) och lös f(x) = 6.</p>",
     "\\(f(-2)\\) frågar efter ett funktionsvärde. \\(f(x)=6\\) frågar efter de x-värden som ger funktionsvärdet 6.",
-    [steg("Beräkna funktionsvärdet", "Ersätt varje x med −2. Det insatta värdet markeras rött.", "\\[f({\\color{#D1495B}{-2}})=({\\color{#D1495B}{-2}})^2-3=1\\]"),
+    [steg("Beräkna funktionsvärdet", "Ersätt varje x med −2.", "\\[f({\\color{#D1495B}{-2}})=({\\color{#D1495B}{-2}})^2-3=1\\]"),
      steg("Lös ekvationen", "Sätt funktionsuttrycket lika med 6.", "\\[x^2-3=6\\Rightarrow x^2=9\\Rightarrow x=\\pm3\\]")],
     "\\(f(-2)=1\\). Ekvationen \\(f(x)=6\\) har lösningarna \\(x=-3\\) och \\(x=3\\).",
     "Skilj på ett givet x-värde och ett givet funktionsvärde.", "Tolka funktionsnotation och funktionsvärden");
@@ -257,21 +258,12 @@
     "Nollställena är 1 och 3, symmetrilinjen är \\(x=2\\) och minimipunkten är \\((2,-1)\\).",
     "När koefficienten framför x² är positiv öppnar parabeln uppåt.", "Grundegenskaper hos andragradsfunktioner");
 
-  add("ma2-grund-2-09", 2, "symmetrilinje_extrempunkt", ALL,
-    "Läs av extrempunkten ur vertexform",
-    "<p>Bestäm extrempunkt och största eller minsta värde för f(x) = −2(x − 3)² + 8.</p>",
-    "I formen \\(a(x-h)^2+k\\) är extrempunkten \\((h,k)\\). Tecknet på a visar åt vilket håll parabeln öppnar sig.",
-    [steg("Läs av h och k", "Jämför med a(x − h)² + k.", "\\[h=3,\\quad k=8\\]"),
-     steg("Avgör typen av extrempunkt", "a = −2 är negativt, så parabeln öppnar nedåt.", "\\[a=-2<0\\]")],
-    "Extrempunkten är \\((3,8)\\) och funktionens största värde är 8.",
-    "I (x − h)² byter h inte tecken när det läses av.", "Symmetrilinje och extrempunkt");
-
   add("ma2-grund-2-10", 2, "fran_graf_till_formel", ALL,
     "Bestäm en andragradsfunktion från nollställen",
     "<p>Parabeln har nollställena −1 och 4 och går genom den markerade punkten (0, −8). Bestäm funktionen.</p>" + nollstalleFigur,
     "Med nollställena \\(x_1\\) och \\(x_2\\) kan funktionen skrivas \\(f(x)=a(x-x_1)(x-x_2)\\).",
     [steg("Skriv faktorformen", "Nollställena ger var sin faktor.", "\\[f(x)=a(x+1)(x-4)\\]"),
-     steg("Bestäm a", "Sätt in punkten (0, −8). De insatta x-värdena markeras röda.", "\\[-8=a({\\color{#D1495B}{0}}+1)({\\color{#D1495B}{0}}-4)=-4a\\Rightarrow a=2\\]"),
+     steg("Bestäm a", "Sätt in punkten (0, −8).", "\\[-8=a({\\color{#D1495B}{0}}+1)({\\color{#D1495B}{0}}-4)=-4a\\Rightarrow a=2\\]"),
      steg("Skriv funktionen", "Behåll gärna faktorformen när nollställena är viktiga.", "\\[f(x)=2(x+1)(x-4)\\]")],
     "\\(f(x)=2(x+1)(x-4)\\).",
     "Nollställena bestämmer faktorerna; ytterligare en punkt bestämmer a.", "Bestämma andragradsfunktion från graf");
@@ -279,8 +271,9 @@
   add("ma2-grund-2-11", 2, "andragradsfunktioner_tillampningar", ALL,
     "Tolka en andragradsmodell",
     "<p>Höjden i meter för en boll beskrivs av h(t) = −5t² + 20t + 1. När är bollen som högst?</p>",
-    "För \\(at^2+bt+c\\) ligger symmetrilinjen vid \\(t=-b/(2a)\\).",
-    [steg("Bestäm tiden", "Här är a = −5 och b = 20.", "\\[t=-\\frac{20}{2\\cdot(-5)}=2\\]"),
+    "Skriv först andragradsuttrycket på formen \\(t^2+pt+q\\). Då ligger symmetrilinjen vid \\(t=-p/2\\), mitt emellan ekvationens två rötter.",
+    [steg("Gör koefficienten framför t² till 1", "Dividera uttrycket med −5. Det ändrar inte symmetrilinjens läge.", "\\[t^2-4t-0{,}2\\quad\\Rightarrow\\quad p=-4\\]"),
+     steg("Bestäm tiden med symmetrilinjen", "Använd t = −p/2.", "\\[t=-\\frac p2=-\\frac{-4}{2}=2\\]"),
      steg("Beräkna höjden", "Sätt t = 2 i modellen.", "\\[h({\\color{#D1495B}{2}})=-5\\cdot{\\color{#D1495B}{2}}^2+20\\cdot{\\color{#D1495B}{2}}+1=21\\]")],
     "Bollen är som högst efter 2 s, på höjden 21 m.",
     "Svara med både x-värdets och y-värdets betydelse i situationen.", "Tillämpa andragradsmodeller");
@@ -315,8 +308,8 @@
   add("ma2-grund-2-15", 2, "exponentialfunktioner", ALL,
     "Bygg och använd en exponentialmodell",
     "<p>Ett kapital på 5 000 kr ökar med 4 % per år. Skriv en modell och beräkna värdet efter 3 år.</p>",
-    "Förändringsfaktorn vid en ökning med p procent är \\(1+p/100\\).",
-    [steg("Bestäm startvärde och faktor", "Startvärdet är 5 000 och faktorn är 1,04.", "\\[K(x)=5000\\cdot1{,}04^x\\]"),
+    "Kapitalet behåller hela sitt tidigare värde och får dessutom 4 % extra varje år. Det betyder att nästa års värde är 104 % av årets värde, alltså 1,04 gånger så stort.",
+    [steg("Bestäm startvärde och faktor", "Startvärdet är 5 000. Eftersom 104 % skrivs 1,04 i decimalform är förändringsfaktorn 1,04.", "\\[104\\,\\%=1{,}04\\qquad K(x)=5000\\cdot1{,}04^x\\]"),
      steg("Sätt in tiden", "Exponentens värde är antalet år.", "\\[K({\\color{#D1495B}{3}})=5000\\cdot1{,}04^{\\color{#D1495B}{3}}\\approx5624\\]")],
     "Modellen är \\(K(x)=5000\\cdot1{,}04^x\\), och efter 3 år är värdet cirka 5 624 kr.",
     "Procentuell förändring sker på det nya värdet varje period.", "Bestämma och tolka exponentialfunktioner");
@@ -332,7 +325,7 @@
 
   add("ma2-grund-2-17", 2, "exponentialekvationer", ALL,
     "Lös en exponentialekvation grafiskt",
-    "<p>Lös 3 · 1,5ˣ = 10 med ett digitalt grafverktyg.</p>",
+    "<p>Lös 3 · 1,5ˣ = 10 med ett digitalt grafverktyg.</p>" + exponentialEkvFigur,
     "Rita vänsterledet och högerledet som två funktioner. Skärningens x-koordinat är lösningen.",
     [steg("Skriv in två funktioner", "Använd y₁ = 3·1,5ˣ och y₂ = 10.", "\\[y_1=3\\cdot1{,}5^x,\\quad y_2=10\\]"),
      steg("Läs av skärningen", "Grafverktyget ger x ungefär 2,97.", "\\[x\\approx2{,}97\\]"),
@@ -380,7 +373,7 @@
   add("ma2-grund-2-22", 2, ["regressionsanalys_olika_modeller", "modellval_regression"], BC,
     "Välj en rimlig regressionsmodell",
     "<p>Ett mätvärde ökar med ungefär samma procent varje år. Ska du i första hand pröva linjär, potens- eller exponentialregression?</p>",
-    "Modellval ska bygga på förändringsmönstret och sammanhanget, inte bara på ett högt R²-värde.",
+    "Modellval ska bygga på förändringsmönstret, spridningsdiagrammet och vad storheterna betyder i sammanhanget.",
     [steg("Identifiera förändringen", "Samma procent innebär ungefär samma förändringsfaktor mellan mätvärdena."),
      steg("Välj modell", "Konstant förändringsfaktor passar en exponentialmodell.", "\\[y=C\\cdot a^x\\]"),
      steg("Kontrollera", "Granska residualer och om modellens prognoser är rimliga i sammanhanget.")],
@@ -535,7 +528,7 @@
     "<p>Den redan anpassade linjen i spridningsdiagrammet har ekvationen y = 2,4x + 18, där x är antal studietimmar och y är provpoäng. Tolka koefficienterna och beräkna prognosen för 10 timmar.</p>" + regressionFigur,
     "Riktningskoefficienten beskriver modellens genomsnittliga förändring per x-enhet. Konstanttermen är modellens y-värde när x = 0.",
     [steg("Tolka koefficienterna", "2,4 betyder 2,4 poäng mer per extra studietimme. 18 är modellens poäng vid 0 timmar."),
-     steg("Gör prognosen", "Sätt in x = 10. Det insatta värdet markeras rött.", "\\[y=2{,}4\\cdot{\\color{#D1495B}{10}}+18=42\\]")],
+     steg("Gör prognosen", "Sätt in x = 10.", "\\[y=2{,}4\\cdot{\\color{#D1495B}{10}}+18=42\\]")],
     "Modellen ökar med 2,4 poäng per timme, har startvärdet 18 och ger prognosen 42 poäng vid 10 timmar.",
     "En regressionsmodell beskriver ett mönster i data, inte en exakt regel för varje individ.", "Tolka koefficienter i en regressionsmodell");
 
@@ -602,7 +595,7 @@
     "<p>Tiden för dokumentation modelleras med T(n) = 14n + 30 minuter, där n är antal ärenden. Tolka talen och beräkna T(12).</p>",
     "I en linjär modell är koefficienten framför variabeln tid per ärende och konstanttermen fast tid.",
     [steg("Tolka modellen", "14 betyder 14 minuter per ärende och 30 betyder 30 minuters fast tid."),
-     steg("Sätt in antalet ärenden", "Ersätt n med 12. Det insatta värdet markeras rött.", "\\[T({\\color{#D1495B}{12}})=14\\cdot{\\color{#D1495B}{12}}+30=198\\]")],
+     steg("Sätt in antalet ärenden", "Ersätt n med 12.", "\\[T({\\color{#D1495B}{12}})=14\\cdot{\\color{#D1495B}{12}}+30=198\\]")],
     "Det tar enligt modellen 198 minuter. Talen betyder 14 min/ärende och 30 min fast tid.",
     "Kontrollera om modellens svar är rimligt i den praktiska situationen.", "Växla mellan graf, tabell, formel och situation för linjära funktioner");
 
@@ -610,7 +603,7 @@
     "Använd en potensmodell för tryckfall",
     "<p>Tryckfallet i en kanal modelleras med Δp = 0,018q², där q är luftflödet i L/s. Beräkna tryckfallet när q = 120 L/s.</p>",
     "Sätt in luftflödet med rätt enhet och räkna kvadraten före multiplikationen.",
-    [steg("Sätt in q", "Ersätt q med 120. Det insatta värdet markeras rött.", "\\[\\Delta p=0{,}018\\cdot{\\color{#D1495B}{120}}^2\\]"),
+    [steg("Sätt in q", "Ersätt q med 120.", "\\[\\Delta p=0{,}018\\cdot{\\color{#D1495B}{120}}^2\\]"),
      steg("Beräkna", "120² = 14 400.", "\\[\\Delta p=0{,}018\\cdot14400=259{,}2\\]")],
     "Tryckfallet är \\(259{,}2\\) Pa.",
     "Om luftflödet fördubblas blir tryckfallet fyra gånger så stort i denna modell.", "Tolka och använda potensfunktioner");
@@ -619,7 +612,7 @@
     "Lös ett undersökningsproblem med ekvationssystem",
     "<p>En undersökning får 320 svar. Ett webbsvar tar 2 minuter att behandla och ett telefonsvar 6 minuter. Totalt tar behandlingen 960 minuter. Bestäm antalet av varje sort.</p>",
     "Låt variablerna stå för antalen och skriv en ekvation för totalantalet och en för totaltiden.",
-    [steg("Skriv systemet", "Låt x vara webbsvar och y telefonsvar.", "\\[x+y=320,\\quad2x+6y=960\\]"),
+    [steg("Skriv systemet", "Låt x vara webbsvar och y telefonsvar.", "\\[\\begin{cases}x+y=320\\\\2x+6y=960\\end{cases}\\]"),
      steg("Substituera", "Använd x = 320 − y i tidsekvationen.", "\\[2(320-y)+6y=960\\Rightarrow4y=320\\Rightarrow y=80\\]"),
      steg("Bestäm x", "Ta resten av de 320 svaren.", "\\[x=320-80=240\\]")],
     "Undersökningen har 240 webbsvar och 80 telefonsvar.",

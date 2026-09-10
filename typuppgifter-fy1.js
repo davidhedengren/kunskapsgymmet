@@ -1919,5 +1919,65 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Joniserande strålning kan slå loss elektroner. Den kan användas för att behandla tumörer men kan också skada frisk vävnad.",
     "komihag": "Strålslag, absorberad energi, bestrålad vävnad och exponering spelar roll. Enbart källans aktivitet räcker inte för att avgöra påverkan."
+  },
+  "fy1-grund-9-11": {
+    "kap": 9,
+    "omr": "nuklider",
+    "rubrik": "Elementarpartiklar och protonens laddning",
+    "niva": "E",
+    "t": "<p>En proton består av två uppkvarkar och en nedkvark. Visa att laddningen blir +1e.</p>",
+    "ram": "Kvarkar och leptoner betraktas som elementarpartiklar. Protoner och neutroner är däremot uppbyggda av kvarkar.",
+    "steg": [
+      {"rubrik":"Skriv kvarkarnas laddningar","text":"En uppkvark har laddningen +2e/3 och en nedkvark −e/3.","matte":"\\[u+u+d=\\frac23e+\\frac23e-\\frac13e\\]"},
+      {"rubrik":"Addera","text":"Skriv alla termer med samma nämnare.","matte":"\\[\\frac23e+\\frac23e-\\frac13e=\\frac33e=+e\\]"}
+    ],
+    "svar": "Protonens tre kvarkar ger tillsammans laddningen \\(+e\\).",
+    "komihag": "Elektronen är elementär, men protonen är sammansatt av tre kvarkar.",
+    "traningsfamilj": "Standardmodellen och elementarpartiklar"
+  },
+  "fy1-grund-9-12": {
+    "kap": 9,
+    "omr": "stralning",
+    "rubrik": "Elektromagnetiska spektrumet",
+    "niva": "E",
+    "t": "<p>En radiovåg har frekvensen 100 MHz. Bestäm våglängden.</p>",
+    "ram": "Alla elektromagnetiska vågor rör sig med ljushastigheten i vakuum. Högre frekvens betyder kortare våglängd.",
+    "steg": [
+      {"rubrik":"Omvandla frekvensen","text":"Mega betyder en miljon.","matte":"\\[100\\ \\mathrm{MHz}=1{,}00\\cdot10^8\\ \\mathrm{Hz}\\]"},
+      {"rubrik":"Använd vågekvationen","text":"Lös ut våglängden ur c = fλ.","matte":"\\[\\lambda=\\frac cf=\\frac{3{,}0\\cdot10^8}{1{,}00\\cdot10^8}=3{,}0\\ \\mathrm m\\]"}
+    ],
+    "svar": "Våglängden är \\(3{,}0\\ \\mathrm m\\).",
+    "komihag": "Från låg till hög frekvens: radio, mikrovågor, infrarött, synligt ljus, ultraviolett, röntgen och gamma.",
+    "traningsfamilj": "Elektromagnetiska spektrumet"
+  },
+  "fy1-grund-5-energi": {
+    "kap": 5,
+    "omr": "arbete",
+    "rubrik": "Verkningsgrad och energiresurser",
+    "niva": "E",
+    "t": "<p>Ett kraftverk tar emot 250 MJ energi och levererar 225 MJ elektrisk energi. Bestäm verkningsgraden.</p>",
+    "ram": "Verkningsgraden är den andel av den tillförda energin som blir den önskade energiformen.",
+    "steg": [
+      {"rubrik":"Välj rätt energier","text":"Elektrisk energi är den nyttiga energin i uppgiften.","matte":"\\[\\eta=\\frac{E_{nyttig}}{E_{tillförd}}\\]"},
+      {"rubrik":"Beräkna andelen","text":"Gör om decimaltalet till procent.","matte":"\\[\\eta=\\frac{225}{250}=0{,}90=90\\,\\%\\]"}
+    ],
+    "svar": "Verkningsgraden är \\(90\\,\\%\\).",
+    "komihag": "När energisystem jämförs behövs mer än märkeffekt: även energimängd, reglerbarhet, miljöpåverkan och hela livscykeln spelar roll.",
+    "traningsfamilj": "Energiresurser och hållbarhet"
+  },
+  "fy1-grund-9-kallkritik": {
+    "kap": 9,
+    "omr": "stralning",
+    "rubrik": "Granska ett fysikaliskt påstående",
+    "niva": "E",
+    "t": "<p>Två saker ökar samtidigt. Räcker det för att säga att den ena orsakar den andra?</p>",
+    "ram": "En samtidig förändring är en korrelation. Ett orsakssamband kräver mer underlag.",
+    "steg": [
+      {"rubrik":"Beskriv vad datan visar","text":"Säg först bara att storheterna samvarierar. Lägg inte till en orsak som mätningen inte visar."},
+      {"rubrik":"Pröva andra förklaringar","text":"Fråga om en tredje faktor kan påverka båda och om resultatet återkommer i kontrollerade undersökningar."}
+    ],
+    "svar": "Nej. Korrelation kan vara en ledtråd, men visar inte ensam vad som orsakar vad.",
+    "komihag": "Ett bra påstående anger mätstorhet, metod, osäkerhet och vilket slutsatsstöd resultaten faktiskt ger.",
+    "traningsfamilj": "Granska fysikaliska påståenden"
   }
 };

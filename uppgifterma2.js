@@ -1,5 +1,5 @@
 /* Kvalitets- och nivåreviderad 2026-09-10.
- * Nivå följer högsta förekommande E/C/A-poäng; deluppgifter har egen nivå. */
+ * Kompletterad mot Gy25 med riktade kvalitetsuppgifter. */
 window.BANKMA2 = [
   {
     "id": "1.01",
@@ -54073,5 +54073,473 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Rita eller titta på punkterna gruppvis. Vad händer med lutningen om du bara ser på grupp A, respektive bara på grupp B?</p>"
+  },
+  {
+    "id": "GY25-MA2-A-01",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm alla värden på \\(a\\) för vilka systemet</p><p>\\[\\begin{cases}(a-1)x+2y=4\\\\2x+(a-1)y=4\\end{cases}\\]</p><p>har exakt en lösning. Undersök även undantagsfallen.</p>",
+    "s": "<p>Koefficientmatrisens determinant är</p><p>\\[D=(a-1)^2-4.\\]</p><p>Exakt en lösning fås när \\(D\\ne0\\), alltså när \\(a-1\\ne\\pm2\\). Därför krävs \\(a\\ne3\\) och \\(a\\ne-1\\).</p><p>För \\(a=3\\) blir båda ekvationerna \\(2x+2y=4\\): oändligt många lösningar. För \\(a=-1\\) blir ekvationerna motsatta i vänsterled men har samma högerled, vilket ger en motsägelse och ingen lösning.</p>",
+    "familj": "Parameterfall i linjära ekvationssystem",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Undersök när koefficienterna gör linjerna parallella. Kontrollera sedan varje undantagsvärde separat.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-02",
+    "kap": 1,
+    "omr": "ekvationssystem_tillampningar",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En biograf säljer vuxenbiljetter för 140 kr och ungdomsbiljetter för 90 kr. En kväll säljs 320 biljetter för 36 800 kr. Efteråt upptäcks att 20 fribiljetter felaktigt räknats in i antalet 320 men inte i intäkten. Bestäm antalet betalande vuxna och ungdomar.</p>",
+    "s": "<p>Det betalande antalet är \\(320-20=300\\). Låt \\(v\\) vara vuxna och \\(u\\) ungdomar:</p><p>\\[\\begin{cases}v+u=300\\\\140v+90u=36800\\end{cases}\\]</p><p>Sätt \\(u=300-v\\):</p><p>\\[140v+90(300-v)=36800\\Rightarrow50v=9800\\Rightarrow v=196.\\]</p><p>Då är \\(u=104\\). Kontroll: \\(196+104=300\\) och intäkten blir 36 800 kr.</p>",
+    "familj": "Tillämpningar med ekvationssystem",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Justera först det totala antalet betalande biljetter. Ställ därefter upp två ekvationer.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-03",
+    "kap": 1,
+    "omr": "bestamma_linjara_funktioner",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Linjerna \\(f(x)=kx+m\\) och \\(g(x)=(2-k)x+4\\) skär varandra på y-axeln och är vinkelräta. Bestäm \\(f\\).</p>",
+    "s": "<p>Skärning på y-axeln betyder att linjerna har samma värde när \\(x=0\\). Därför är \\(m=4\\).</p><p>Vinkelräta linjer med ändliga lutningar uppfyller \\(k(2-k)=-1\\):</p><p>\\[2k-k^2=-1\\Rightarrow k^2-2k-1=0.\\]</p><p>\\[k=1\\pm\\sqrt2.\\]</p><p>Det finns alltså två möjliga funktioner:</p><p>\\[f(x)=(1+\\sqrt2)x+4\\quad\\text{eller}\\quad f(x)=(1-\\sqrt2)x+4.\\]</p>",
+    "familj": "Bestämma linjär funktion från villkor",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Använd först skärningen på y-axeln. För vinkelräta linjer är produkten av lutningarna \\(-1\\).</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-04",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En rektangel har omkretsen 40 cm. Bestäm de sidlängder som ger area minst \\(96\\ \\mathrm{cm^2}\\).</p>",
+    "s": "<p>Låt ena sidan vara \\(x\\). Den andra är \\(20-x\\), eftersom halva omkretsen är 20.</p><p>\\[A=x(20-x)=-x^2+20x.\\]</p><p>Villkoret blir \\(-x^2+20x\\ge96\\), eller</p><p>\\[x^2-20x+96\\le0=(x-8)(x-12)\\le0.\\]</p><p>Produkten är högst noll mellan rötterna, så \\(8\\le x\\le12\\). Den andra sidan är då \\(20-x\\).</p><p><strong>Svar:</strong> Båda sidlängderna ligger mellan 8 och 12 cm och deras summa är 20 cm.</p>",
+    "familj": "Tillämpa andragradsmodeller",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Skriv den andra sidan med hjälp av omkretsen och lös sedan en andragrads­olikhet.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-05",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Två modeller beskriver en population: \\(A(t)=800\\cdot1{,}06^t\\) och \\(B(t)=1200\\cdot0{,}98^t\\). Bestäm när modellerna ger samma värde och förklara vilken modell som är störst före respektive efter tidpunkten.</p>",
+    "s": "<p>Sätt modellerna lika och samla förändringsfaktorerna:</p><p>\\[800\\cdot1{,}06^t=1200\\cdot0{,}98^t\\]</p><p>\\[\\left(\\frac{1{,}06}{0{,}98}\\right)^t=1{,}5.\\]</p><p>\\[t=\\frac{\\ln1{,}5}{\\ln(1{,}06/0{,}98)}\\approx5{,}17.\\]</p><p>Vid \\(t=0\\) är B större. Kvoten \\(A/B\\) växer eftersom \\(1{,}06/0{,}98>1\\), så efter ungefär 5,17 tidsenheter är A större.</p>",
+    "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Bilda kvoten mellan modellerna och använd logaritmer. Kontrollera ordningen vid \\(t=0\\).</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-06",
+    "kap": 2,
+    "omr": "modellval_regression",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett datamaterial för \\(0\\le x\\le10\\) passar nästan lika bra med en linjär och en exponentiell modell. Den linjära modellen har \\(R^2=0{,}993\\) och den exponentiella \\(R^2=0{,}995\\). En elev väljer exponentiell modell enbart för att \\(R^2\\) är större. Granska valet.</p>",
+    "s": "<p>Skillnaden i \\(R^2\\) är mycket liten och räcker inte ensam för modellval. Residualerna behöver undersökas: ett systematiskt mönster visar att modellen missar struktur även om \\(R^2\\) är högt.</p><p>Modellens innebörd spelar också roll. En exponentiell modell antar ungefär konstant procentuell förändring och kan ge orimlig långsiktig extrapolation. En linjär modell antar konstant absolut förändring.</p><p><strong>Slutsats:</strong> Välj utifrån residualer, processens mekanism, giltighetsintervall och rimlighet — inte bara det största \\(R^2\\)-värdet.</p>",
+    "familj": "Välja och granska regressionsmodeller",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Jämför modellernas antaganden och residualer. Fundera särskilt på extrapolation utanför mätintervallet.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-07",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm alla värden på \\(a\\) för vilka ekvationen \\(\\sqrt{x+1}=x-a\\) har exakt en reell lösning.</p>",
+    "s": "<p>Högerledet måste vara icke-negativt. Sätt \\(y=\\sqrt{x+1}\\), där \\(y\\ge0\\) och \\(x=y^2-1\\). Ekvationen blir</p><p>\\[y=y^2-1-a\\Rightarrow a=y^2-y-1.\\]</p><p>Funktionen i \\(y\\ge0\\) har minimum vid \\(y=\\frac12\\), med värdet \\(-\\frac54\\). För \\(a>-1\\) skär en horisontell linje grafen exakt en gång på \\(y\\ge0\\). För \\(-\\frac54<a\\le-1\\) fås två lösningar, vid \\(a=-\\frac54\\) en dubbel lösning och för mindre värden ingen.</p><p><strong>Svar:</strong> Exakt en reell lösning fås för \\(a=-\\frac54\\) eller \\(a>-1\\).</p>",
+    "familj": "Rotekvationer och falska rötter",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Byt variabel till \\(y=\\sqrt{x+1}\\ge0\\) och studera andragradsfunktionen \\(a=y^2-y-1\\).</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-08",
+    "kap": 3,
+    "omr": "sats_bevis",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I en triangel dras en sträcka genom mittpunkten på två av sidorna. Visa att sträckan är parallell med den tredje sidan och hälften så lång.</p>",
+    "s": "<p>Låt mittpunkterna vara \\(M\\) och \\(N\\) på sidorna \\(AB\\) respektive \\(AC\\). Då är</p><p>\\[\\frac{AM}{AB}=\\frac12\\quad\\text{och}\\quad\\frac{AN}{AC}=\\frac12.\\]</p><p>Trianglarna \\(AMN\\) och \\(ABC\\) har dessutom samma vinkel vid A. De är därför likformiga enligt sida–vinkel–sida.</p><p>Motsvarande vinklar är lika, vilket ger \\(MN\\parallel BC\\). Likformighetens längdskala är \\(1/2\\), så \\(MN=BC/2\\).</p>",
+    "familj": "Förstå och genomföra geometriska bevis",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Jämför den lilla triangeln vid A med hela triangeln och använd mittpunkternas längdförhållanden.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-09",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Avgör om påståendena är ekvivalenta för reella \\(x\\):</p><p>\\[x^2>4\\qquad\\text{och}\\qquad x>2.\\]</p><p>Om de inte är ekvivalenta, skriv en korrekt ekvivalens.</p>",
+    "s": "<p>Om \\(x>2\\), då är \\(x^2>4\\). Den ena implikationen gäller alltså.</p><p>Omvänt behöver \\(x^2>4\\) inte ge \\(x>2\\); exempelvis uppfyller \\(x=-3\\) vänsterledet. Påståendena är därför inte ekvivalenta.</p><p>Eftersom \\(x^2>4\\) betyder att avståndet från noll är större än 2 får vi</p><p>\\[x^2>4\\iff x<-2\\ \\text{eller}\\ x>2.\\]</p>",
+    "familj": "Implikation och ekvivalens",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Testa både en positiv och en negativ lösning. Ekvivalens kräver att båda riktningarna gäller.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-10",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett datamaterial har korrelationskoefficienten \\(r=0{,}02\\). En elev drar slutsatsen att variablerna saknar samband. Visa med ett exempel varför slutsatsen kan vara fel.</p>",
+    "s": "<p>Korrelationskoefficienten \\(r\\) mäter styrkan hos ett <em>linjärt</em> samband. Punkter nära parabeln \\(y=x^2\\), symmetriskt fördelade kring \\(x=0\\), kan ha \\(r\\) nära noll trots ett mycket tydligt icke-linjärt samband.</p><p>Ett spridningsdiagram måste därför granskas innan slutsatsen dras. Ett litet \\(r\\) betyder liten linjär korrelation, inte automatiskt att alla typer av samband saknas.</p>",
+    "familj": "Tolka korrelationskoefficient",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Fundera på ett tydligt samband som inte liknar en rät linje.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-11",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I två skolor finns ett negativt samband mellan studietid och provresultat inom varje skola. När skolornas data slås ihop blir sambandet positivt. Förklara hur detta kan ske och varför grupperna bör visas separat.</p>",
+    "s": "<p>Skolorna kan ha olika genomsnittlig studietid och olika genomsnittligt resultat. Om skolan med högre resultat också har högre studietid kan skillnaden mellan skolorna dominera det sammanslagna diagrammet, även om lutningen inom varje skola är negativ.</p><p>Detta är ett exempel på att en bakomliggande gruppvariabel förändrar den synliga relationen. Slutsatsen beror då på om man undersöker skillnader mellan skolor eller samband mellan elever inom samma skola.</p><p><strong>Åtgärd:</strong> Färgkoda grupperna, redovisa regressionerna separat och beskriv vilken frågeställning modellen besvarar.</p>",
+    "familj": "Kritisk granskning av korrelation och regressionsmodeller",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Skilj på variationen inom varje grupp och skillnaden mellan gruppernas medelvärden.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-12",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En fyllningsmaskin ger normalfördelade volymer med standardavvikelsen 2,0 ml. Maskinen ska ställas så att högst 1 % av förpackningarna innehåller mindre än 500 ml. Vilket minsta medelvärde behövs?</p>",
+    "s": "<p>Den nedre 1-procentskvantilen i standardnormalfördelningen är ungefär \\(z=-2{,}326\\). Villkoret är</p><p>\\[\\frac{500-\\mu}{2{,}0}=-2{,}326.\\]</p><p>\\[500-\\mu=-4{,}652\\Rightarrow\\mu=504{,}652.\\]</p><p><strong>Svar:</strong> Medelvärdet behöver vara minst ungefär \\(504{,}7\\ \\mathrm{ml}\\).</p><p>Det extra utrymmet är en säkerhetsmarginal som behövs på grund av maskinens spridning.</p>",
+    "familj": "Bestämma gränsvärde i normalfördelning från sannolikhet",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Använd den z-kvantil som lämnar 1 % till vänster och lös ut \\(\\mu\\).</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-13",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Två klasser har samma medelvärde 70 poäng. Klass A har standardavvikelsen 4 och klass B standardavvikelsen 12. En elev säger att B därför måste ha både det högsta och det lägsta resultatet. Bedöm påståendet.</p>",
+    "s": "<p>Större standardavvikelse betyder att resultaten i genomsnitt ligger längre från medelvärdet. Det säger inte exakt vilka extremvärden som förekommer.</p><p>Klass B kan exempelvis ha många värden ganska långt från 70 men ändå sakna det enskilt högsta värdet, medan A kan innehålla ett ovanligt extremt värde tillsammans med många värden nära 70.</p><p><strong>Slutsats:</strong> Påståendet följer inte av standardavvikelserna. För att avgöra högsta och lägsta resultat måste extremvärdena eller hela datamaterialet vara känt.</p>",
+    "familj": "Standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Skilj på ett mått för typisk spridning och de enskilda extremvärdena.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-14",
+    "kap": 4,
+    "omr": "ladagram",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Två datamaterial har identiska lådagram. Måste de ha samma medelvärde och standardavvikelse? Motivera med hur ett lådagram är uppbyggt.</p>",
+    "s": "<p>Ett lådagram visar vanligtvis minimum, första kvartil, median, tredje kvartil och maximum. Det visar inte hur värdena är fördelade mellan dessa fem punkter.</p><p>Två material kan därför ha samma femtals­sammanfattning men olika många värden nära eller långt från medianen. Då kan både medelvärde och standardavvikelse skilja sig.</p><p><strong>Svar:</strong> Nej. Identiska lådagram garanterar samma kvartiler och extremvärden, men inte samma medelvärde eller standardavvikelse.</p>",
+    "familj": "Lådagram",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Lista vilken information lådagrammet visar och vilken information som har försvunnit.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-15",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen \\(\\lg(x-1)+\\lg(x+1)=1\\) och kontrollera definitionsvillkoren.</p>",
+    "s": "<p>Logaritmernas argument måste vara positiva. Villkoren ger \\(x-1>0\\) och \\(x+1>0\\), alltså \\(x>1\\).</p><p>Använd logaritmlagen:</p><p>\\[\\lg((x-1)(x+1))=1\\Rightarrow x^2-1=10.\\]</p><p>\\[x^2=11\\Rightarrow x=\\pm\\sqrt{11}.\\]</p><p>Endast \\(x=\\sqrt{11}\\) uppfyller \\(x>1\\). Den negativa roten måste förkastas.</p>",
+    "familj": "Logaritmlagar",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Skriv definitionsvillkoren innan du slår ihop logaritmerna.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-16",
+    "kap": 3,
+    "omr": "koordinatgeometri_problemlosning",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm alla punkter på y-axeln som ligger lika långt från \\(A=(-3,2)\\) som från \\(B=(5,-2)\\).</p>",
+    "s": "<p>En punkt på y-axeln kan skrivas \\(P=(0,y)\\). Sätt de kvadrerade avstånden lika; då slipper vi kvadratrötter:</p><p>\\[PA^2=3^2+(y-2)^2,\\qquad PB^2=5^2+(y+2)^2.\\]</p><p>\\[9+(y-2)^2=25+(y+2)^2.\\]</p><p>Utveckling ger \\(9+y^2-4y+4=25+y^2+4y+4\\), alltså \\(-8y=16\\) och \\(y=-2\\).</p><p><strong>Svar:</strong> Punkten är \\((0,-2)\\).</p>",
+    "familj": "Koordinatgeometrisk problemlösning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Skriv punkten som \\((0,y)\\) och jämför de kvadrerade avstånden.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-17",
+    "kap": 2,
+    "omr": "samband_roter_koefficienter",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En andragradsekvation har rötterna \\(r\\) och \\(s\\). Man vet att \\(r+s=6\\) och \\(r^2+s^2=20\\). Bestäm en möjlig ekvation.</p>",
+    "s": "<p>Använd identiteten</p><p>\\[r^2+s^2=(r+s)^2-2rs.\\]</p><p>\\[20=6^2-2rs\\Rightarrow2rs=16\\Rightarrow rs=8.\\]</p><p>En monisk andragradsekvation med rotsumma 6 och rotprodukt 8 är</p><p>\\[x^2-6x+8=0.\\]</p><p>Kontroll: ekvationen faktoriseras till \\((x-2)(x-4)=0\\), och \\(2^2+4^2=20\\).</p>",
+    "familj": "Rötter och koefficienter",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Koppla \\(r^2+s^2\\) till \\((r+s)^2\\) för att hitta produkten \\(rs\\).</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
+  },
+  {
+    "id": "GY25-MA2-A-18",
+    "kap": 2,
+    "omr": "jamfora_exponential_potens",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Förklara varför exponentialfunktionen \\(2^x\\) till slut blir större än potensfunktionen \\(x^{10}\\), trots att \\(x^{10}\\) är större för många positiva x-värden.</p>",
+    "s": "<p>Öka \\(x\\) med 1. Då multipliceras \\(2^x\\) alltid med 2. För \\(x^{10}\\) är motsvarande faktor</p><p>\\[\\frac{(x+1)^{10}}{x^{10}}=\\left(1+\\frac1x\\right)^{10},\\]</p><p>och den faktorn närmar sig 1 när \\(x\\) växer. Potensfunktionen får alltså en allt mindre relativ ökning per steg, medan exponentialfunktionen fortsätter att fördubblas.</p><p>Därför kommer \\(2^x\\) efter ett tillräckligt stort x att passera \\(x^{10}\\) och sedan växa snabbare.</p>",
+    "familj": "Jämföra potens- och exponentialfunktioner",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Jämför den relativa förändringsfaktorn när \\(x\\) ökar med 1.</p>",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ]
   }
 ];

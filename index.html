@@ -675,17 +675,46 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .kdots i{width:6px;height:6px;border-radius:50%;background:var(--d);box-shadow:0 0 0 2px var(--bg)}
 .chapter-body{padding:4px 0 2px}
 .chapter-tools{
-  display:flex;align-items:center;justify-content:flex-end;gap:8px;margin:0 0 10px;
+  display:block;margin:2px 0 14px;
 }
 .chapter-tools .kunskap{
-  display:inline-flex;align-items:center;gap:7px;padding:7px 11px;border-radius:11px;
-  border:1px solid color-mix(in srgb,var(--gold) 30%,var(--hair));
-  background:var(--goldSoft);color:var(--gold);font-size:11.5px;font-weight:650;
-  transition:.2s var(--ease);
+  --gg-tone:var(--acc);--gg-ink:var(--accInk);--gg-soft:var(--accSoft);
+  position:relative;overflow:hidden;width:100%;display:grid;
+  grid-template-columns:46px minmax(0,1fr) auto;align-items:center;gap:13px;
+  padding:14px 16px;text-align:left;border-radius:18px;
+  border:1px solid color-mix(in srgb,var(--gg-tone) 35%,var(--hair));
+  background:linear-gradient(135deg,var(--gg-soft),var(--surface) 72%);
+  color:var(--ink);box-shadow:0 10px 26px -22px var(--gg-tone),inset 0 1px 0 var(--specular);
+  transition:transform .22s var(--ease),border-color .22s ease,box-shadow .22s ease;
 }
-.chapter-tools .kunskap svg{width:14px;height:14px;flex:none}
-.chapter-tools .kunskap:hover{border-color:var(--gold);background:color-mix(in srgb,var(--goldSoft) 72%,var(--surface))}
-.chapter-tools .kunskap:active{transform:scale(.985)}
+.chapter-tools .kunskap:before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(240px 120px at 0 0,color-mix(in srgb,var(--gg-tone) 16%,transparent),transparent 72%);
+}
+.chapter-tools .kunskap:hover{transform:translateY(-2px);border-color:var(--gg-tone);box-shadow:0 18px 34px -24px var(--gg-tone),inset 0 1px 0 var(--specular)}
+.chapter-tools .kunskap:active{transform:translateY(0) scale(.995)}
+.chapter-tools .kunskap.klar{--gg-tone:var(--gold);--gg-ink:var(--gold);--gg-soft:var(--goldSoft)}
+.kunskap-ikon{
+  position:relative;width:46px;height:46px;border-radius:14px;display:grid;place-items:center;
+  color:var(--gg-ink);background:color-mix(in srgb,var(--gg-soft) 76%,var(--surface));
+  border:1px solid color-mix(in srgb,var(--gg-tone) 30%,var(--hair));
+}
+.kunskap-ikon svg{width:23px;height:23px}
+.kunskap-copy{position:relative;min-width:0;display:grid;gap:2px}
+.kunskap-overline{font-size:10px;font-weight:750;letter-spacing:.09em;text-transform:uppercase;color:var(--gg-ink)}
+.kunskap-copy strong{font-size:15.5px;font-weight:720;letter-spacing:-.025em;color:var(--ink)}
+.kunskap-copy small{font-size:12px;line-height:1.4;color:var(--ink3)}
+.kunskap-framsteg{height:3px;margin-top:7px;max-width:260px;border-radius:99px;background:var(--hair);overflow:hidden}
+.kunskap-framsteg i{display:block;height:100%;border-radius:inherit;background:var(--gg-tone)}
+.kunskap-cta{position:relative;display:inline-flex;align-items:center;gap:7px;padding:8px 11px;
+  border-radius:11px;color:var(--gg-ink);font-size:12px;font-weight:700;white-space:nowrap}
+.kunskap-cta b{font-size:16px;font-weight:500;transition:transform .2s ease}
+.chapter-tools .kunskap:hover .kunskap-cta b{transform:translateX(3px)}
+@media(max-width:560px){
+  .chapter-tools .kunskap{grid-template-columns:40px minmax(0,1fr);padding:13px;gap:11px}
+  .kunskap-ikon{width:40px;height:40px;border-radius:12px}.kunskap-ikon svg{width:20px;height:20px}
+  .kunskap-cta{grid-column:2;padding:4px 0 0;justify-self:start}
+}
 
 .area-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(238px,1fr));gap:12px}
 .area{
@@ -2686,13 +2715,28 @@ function chapterHead(kap,namn,omraden,tranaKnapp){
 }
 
 function chapterTools(kap){
-  if(!harKunskap(kap)) return "";
+  const steg=kunskapSteg(kap);
+  if(!steg.length) return "";
   const namn=chapterName(kap);
+  const lasta=steg.filter(x=>ggLast(x.familj)).length;
+  const klart=lasta===steg.length;
+  const pagaende=lasta>0&&!klart;
+  const handling=klart?"Repetera genomgången":pagaende?"Fortsätt genomgången":"Starta genomgången";
+  const under=klart
+    ? "Genomgången är läst. Öppna den igen när du vill repetera."
+    : "Korta förklaringar och typuppgifter för kapitlets viktigaste delar.";
   return `<div class="chapter-tools">
-    <button class="kunskap" onclick="oppnaKunskap('${esc(String(kap))}')"
+    <button class="kunskap${klart?" klar":""}" onclick="oppnaKunskap('${esc(String(kap))}')"
       title="Kort genomgång delmoment för delmoment"
       aria-label="Det här behöver du kunna i ${esc(namn)}">
-      ${KUNSKAP_IKON}<span>Det här behöver du kunna</span>
+      <span class="kunskap-ikon">${KUNSKAP_IKON}</span>
+      <span class="kunskap-copy">
+        <span class="kunskap-overline">Genomgång · ${lasta} av ${steg.length} lästa</span>
+        <strong>Det här behöver du kunna</strong>
+        <small>${under}</small>
+        <span class="kunskap-framsteg" aria-hidden="true"><i style="width:${Math.round(100*lasta/steg.length)}%"></i></span>
+      </span>
+      <span class="kunskap-cta">${handling}<b aria-hidden="true">→</b></span>
     </button>
   </div>`;
 }

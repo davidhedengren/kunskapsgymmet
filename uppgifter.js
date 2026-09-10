@@ -1,5 +1,5 @@
 /* Kvalitets- och nivåreviderad 2026-09-10.
- * Nivå följer högsta förekommande E/C/A-poäng; deluppgifter har egen nivå. */
+ * Kompletterad mot Gy25 med riktade kvalitetsuppgifter. */
 window.BANK = [
   {
     "id": "2.1",
@@ -97259,5 +97259,297 @@ window.BANK = [
     "geogebra": false,
     "ledtrad": "<p>Eftersom stavens area är konstant gäller \\(dm/dx=\\rho A\\). Varje material ger därför en egen konstant lutning.</p>",
     "spel": false
+  },
+  {
+    "id": "GY25-FY1-STD-01",
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilka av partiklarna protonen, elektronen och kvarken räknas som elementarpartiklar i standardmodellen?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> En elementarpartikel har, så långt vi vet, ingen mindre inre struktur.</p><p>Elektronen är en lepton och betraktas som elementär. Kvarkar är också elementarpartiklar. Protonen består däremot av tre kvarkar och är därför inte elementär.</p><p><strong>Svar:</strong> Elektronen och kvarken är elementarpartiklar. Protonen är sammansatt.</p>",
+    "familj": "Standardmodellen och elementarpartiklar",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Fråga om partikeln består av mindre beståndsdelar enligt standardmodellen.</p>"
+  },
+  {
+    "id": "GY25-FY1-STD-02",
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En proton består av två uppkvarkar och en nedkvark. Visa att deras sammanlagda laddning blir \\(+1e\\). Uppkvarken har laddningen \\(+\\frac23e\\) och nedkvarken \\(-\\frac13e\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Skriv laddningen för varje kvark: \\(+\\frac23e,+\\frac23e,-\\frac13e\\).</p><p><strong>Steg 2:</strong> Addera med gemensam nämnare:</p><p>\\[\\frac23e+\\frac23e-\\frac13e=\\frac33e=+1e.\\]</p><p><strong>Svar:</strong> Kvarkarnas laddningar ger protonens laddning \\(+e\\).</p>",
+    "familj": "Standardmodellen och elementarpartiklar",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Addera de tre kvarkarnas laddningar. Behåll enheten \\(e\\).</p>"
+  },
+  {
+    "id": "GY25-FY1-STD-03",
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En neutron består av kvarkarna udd. Förklara varför neutronens laddning är noll och varför neutronen ändå inte är en elementarpartikel.</p>",
+    "s": "<p><strong>Laddningen:</strong> En uppkvark har \\(+\\frac23e\\) och varje nedkvark \\(-\\frac13e\\). Därför blir</p><p>\\[\\frac23e-\\frac13e-\\frac13e=0.\\]</p><p><strong>Partikeltypen:</strong> Neutronen har inre struktur eftersom den består av tre kvarkar. Den är därför en sammansatt partikel, även om nettoladdningen är noll.</p><p><strong>Slutsats:</strong> Oladdad betyder inte samma sak som elementär.</p>",
+    "familj": "Standardmodellen och elementarpartiklar",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Beräkna först nettoladdningen. Resonera sedan om neutronen har inre beståndsdelar.</p>"
+  },
+  {
+    "id": "GY25-FY1-STD-04",
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Sortera partiklarna elektron, elektronneutrino, uppkvark och proton i grupperna <em>lepton</em>, <em>kvark</em> och <em>sammansatt partikel</em>. Motivera kort.</p>",
+    "s": "<p>Elektronen och elektronneutrinon är leptoner. Uppkvarken är en kvark. Protonen består av kvarkar och är därför en sammansatt partikel, närmare bestämt en baryon.</p><p><strong>Kontroll:</strong> Leptoner och kvarkar är standardmodellens materiepartiklar. Protoner och neutroner byggs av kvarkar.</p>",
+    "familj": "Standardmodellen och elementarpartiklar",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Börja med att skilja elementarpartiklar från partiklar som består av kvarkar.</p>"
+  },
+  {
+    "id": "GY25-FY1-STD-05",
+    "kap": 9,
+    "omr": "nuklider",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Vid beta-minus-sönderfall omvandlas en neutron till en proton samtidigt som en elektron och en antineutrino bildas. Kontrollera att elektrisk laddning bevaras.</p>",
+    "s": "<p><strong>Före:</strong> Neutronens laddning är \\(0\\).</p><p><strong>Efter:</strong> Protonen har \\(+e\\), elektronen \\(-e\\) och antineutrinon \\(0\\). Summan blir</p><p>\\[+e-e+0=0.\\]</p><p>Laddningen är alltså noll både före och efter sönderfallet. Elektronen kommer inte från atomens elektronskal utan bildas i själva sönderfallet.</p><p><strong>Slutsats:</strong> Reaktionen är förenlig med laddningens bevarande.</p>",
+    "familj": "Standardmodellen och elementarpartiklar",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Skriv laddningen för varje partikel på varsin sida av reaktionen och jämför summorna.</p>"
+  },
+  {
+    "id": "GY25-FY1-EM-01",
+    "kap": 9,
+    "omr": "stralning",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ordna radiovågor, synligt ljus, ultraviolett strålning och gammastrålning från lägst till högst frekvens.</p>",
+    "s": "<p>I elektromagnetiska spektrumet ökar frekvensen när våglängden minskar. Ordningen blir</p><p><strong>radiovågor → synligt ljus → ultraviolett strålning → gammastrålning.</strong></p><p>Gammastrålning har alltså högst frekvens och störst fotonenergi av alternativen.</p>",
+    "familj": "Elektromagnetiska spektrumet",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Tänk från lång våglängd till kort våglängd. Frekvensen går åt motsatt håll.</p>"
+  },
+  {
+    "id": "GY25-FY1-EM-02",
+    "kap": 9,
+    "omr": "stralning",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En elektromagnetisk våg har frekvensen \\(100\\ \\mathrm{MHz}\\). Bestäm våglängden. Använd \\(c=3{,}0\\cdot10^8\\ \\mathrm{m/s}\\).</p>",
+    "s": "<p><strong>Steg 1:</strong> Omvandla megahertz: \\(100\\ \\mathrm{MHz}=1{,}00\\cdot10^8\\ \\mathrm{Hz}\\).</p><p><strong>Steg 2:</strong> Använd \\(c=f\\lambda\\):</p><p>\\[\\lambda=\\frac{c}{f}=\\frac{3{,}0\\cdot10^8}{1{,}00\\cdot10^8}=3{,}0\\ \\mathrm m.\\]</p><p><strong>Svar:</strong> Våglängden är \\(3{,}0\\ \\mathrm m\\).</p>",
+    "familj": "Elektromagnetiska spektrumet",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "tal",
+    "rättSvar": "3",
+    "tolerans": 0.03,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Lös ut \\(\\lambda\\) ur \\(c=f\\lambda\\) och omvandla MHz till Hz.</p>"
+  },
+  {
+    "id": "GY25-FY1-EM-03",
+    "kap": 9,
+    "omr": "stralning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ultraviolett strålning kan orsaka kemiska förändringar som radiovågor normalt inte kan. Förklara detta med fotonenergin \\(E=hf\\).</p>",
+    "s": "<p>En fotons energi är proportionell mot frekvensen: \\(E=hf\\). Ultraviolett strålning har mycket högre frekvens än radiovågor och varje UV-foton bär därför betydligt mer energi.</p><p>Det är energin per foton som avgör om en enskild foton kan starta vissa kemiska processer. Hög total effekt hos radiovågor betyder alltså inte automatiskt att varje foton får UV-fotonens verkan.</p>",
+    "familj": "Elektromagnetiska spektrumet",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Jämför frekvenserna och använd att Plancks konstant är samma för båda strålslagen.</p>"
+  },
+  {
+    "id": "GY25-FY1-EM-04",
+    "kap": 9,
+    "omr": "stralning",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En annons påstår: ”Vår router sänder starkare strålning än solen eftersom signalstyrkan är hög nära routern.” Granska påståendet naturvetenskapligt. Vilka storheter och jämförelser saknas?</p>",
+    "s": "<p><strong>Först måste ordet starkare preciseras.</strong> Det kan avse effekt, intensitet, elektrisk fältstyrka eller energi per foton. Dessa är inte samma sak.</p><p>Routern och solen sänder dessutom olika spektrum. Fotonenergin bestäms av frekvensen, medan intensiteten beskriver energi per area och tid. Avstånd, exponeringstid och vilken biologisk effekt man frågar efter måste också anges.</p><p><strong>Slutsats:</strong> Signalstyrka nära en router räcker inte för jämförelsen. Påståendet saknar definierad storhet, mätdata, spektrum och relevant riskmått.</p>",
+    "familj": "Elektromagnetiska spektrumet",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Fråga vad ”starkare” betyder, vilka frekvenser som jämförs och hur exponeringen har mätts.</p>"
+  },
+  {
+    "id": "GY25-FY1-EN-01",
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett vattenkraftverk tar emot \\(250\\ \\mathrm{MJ}\\) lägesenergi och levererar \\(225\\ \\mathrm{MJ}\\) elektrisk energi. Bestäm verkningsgraden.</p>",
+    "s": "<p>Verkningsgraden är nyttig energi dividerad med tillförd energi:</p><p>\\[\\eta=\\frac{225}{250}=0{,}90=90\\,\\%.\\]</p><p><strong>Svar:</strong> Verkningsgraden är \\(90\\,\\%\\). De återstående \\(10\\,\\%\\) omvandlas främst till andra energiformer, exempelvis värme.</p>",
+    "familj": "Energiresurser och hållbarhet",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "tal",
+    "rättSvar": "90",
+    "tolerans": 0.2,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Använd \\(\\eta=E_{nyttig}/E_{tillförd}\\) och skriv kvoten i procent.</p>"
+  },
+  {
+    "id": "GY25-FY1-EN-02",
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Två kraftverk har samma märkeffekt \\(100\\ \\mathrm{MW}\\). Kraftverk A levererar i genomsnitt full effekt 90 % av året och B 30 %. Jämför deras årliga energileverans och förklara varför märkeffekt ensam är otillräcklig.</p>",
+    "s": "<p>Energi fås av effekt gånger tid. På ett år är tiden \\(8760\\ \\mathrm h\\).</p><p>\\[E_A=100\\cdot0{,}90\\cdot8760=788\\,400\\ \\mathrm{MWh}\\]</p><p>\\[E_B=100\\cdot0{,}30\\cdot8760=262\\,800\\ \\mathrm{MWh}.\\]</p><p>A levererar tre gånger så mycket energi. Märkeffekten anger vad anläggningen kan leverera vid full drift, inte hur länge den faktiskt gör det.</p>",
+    "familj": "Energiresurser och hållbarhet",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Multiplicera märkeffekten med andelen drifttid och årets antal timmar.</p>"
+  },
+  {
+    "id": "GY25-FY1-EN-03",
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Kommunen ska jämföra två energisystem. System X har låga utsläpp under drift men kräver mycket material vid byggandet. System Y har högre utsläpp under drift men kan regleras snabbt. Beskriv hur en fysikaliskt rimlig jämförelse bör göras.</p>",
+    "s": "<p>Jämförelsen behöver avse samma levererade energimängd, exempelvis utsläpp och material per \\(\\mathrm{kWh}\\), inte bara per kraftverk. Hela livscykeln bör tas med: råvaror, byggande, drift, underhåll och avveckling.</p><p>Dessutom måste systemen jämföras för samma funktion. Reglerbarhet, lagring, effektbehov vid toppar, verkningsgrad och lokala förutsättningar påverkar hur mycket kompletterande teknik som behövs.</p><p><strong>Insikt:</strong> Ett enda tal räcker sällan. Antaganden, systemgräns och osäkerheter måste redovisas öppet.</p>",
+    "familj": "Energiresurser och hållbarhet",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Bestäm först vad systemen ska leverera och välj därefter gemensamma jämförelsemått över hela livscykeln.</p>"
+  },
+  {
+    "id": "GY25-FY1-VET-01",
+    "kap": 9,
+    "omr": "stralning",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En artikel skriver: ”Antalet cancerfall ökade samtidigt som användningen av trådlösa nätverk ökade. Därför orsakar trådlösa nätverk cancer.” Förklara varför slutsatsen inte följer av uppgifterna.</p>",
+    "s": "<p>Två storheter som förändras samtidigt visar en korrelation, men inte automatiskt ett orsakssamband. Befolkningens ålder, diagnostik, livsstil och många andra faktorer kan påverka antalet registrerade fall.</p><p>För att undersöka orsak behövs bland annat ett rimligt fysikaliskt verkningssätt, kontrollerade jämförelser, dos–respons-samband och resultat som kan upprepas. Artikeln ger inget sådant underlag.</p>",
+    "familj": "Granska fysikaliska påståenden",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Skilj på samtidig förändring och visad orsak. Fundera på alternativa förklaringar och vilken evidens som saknas.</p>"
+  },
+  {
+    "id": "GY25-FY1-VET-02",
+    "kap": 9,
+    "omr": "stralning",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Två grupper mäter bakgrundsstrålning. Grupp A mäter under 10 sekunder och får 3 pulser. Grupp B mäter under 10 minuter och får 180 pulser. En elev säger att B:s plats är 60 gånger farligare. Granska resonemanget.</p>",
+    "s": "<p>Mätningarna har olika längd och måste jämföras som pulser per tidsenhet.</p><p>\\[A:\\ \\frac3{10}=0{,}30\\ \\mathrm{s^{-1}},\\qquad B:\\ \\frac{180}{600}=0{,}30\\ \\mathrm{s^{-1}}.\\]</p><p>Mätvärdena ger alltså samma medelräkningshastighet. Den korta mätningen har dessutom större relativ slumpvariation. Ordet ”farligare” kräver också uppgifter om strålslag, energi, dos och exponeringstid.</p><p><strong>Slutsats:</strong> Påståendet bygger både på felaktig tidsjämförelse och ett otillräckligt riskmått.</p>",
+    "familj": "Granska fysikaliska påståenden",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Räkna först om båda mätningarna till pulser per sekund. Bedöm sedan vad mätningen faktiskt säger om dos.</p>"
   }
 ];

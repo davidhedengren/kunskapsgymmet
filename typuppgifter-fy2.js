@@ -25,105 +25,105 @@
 
   add(1,"cirkel","Beräkna centripetalacceleration","<p>En bil kör med farten 12 m/s i en kurva med radien 24 m. Bestäm centripetalaccelerationen.</p>","Fartens riktning ändras snabbare vid hög fart och liten radie.",[
     steg("Välj sambandet","Använd farten och radien.","\\[a_c=\\frac{v^2}{r}\\]"),
-    steg("Sätt in värdena","Färgmarkeringen visar de givna värdena.","\\[a_c=\\frac{{\\color{#D1495B}{12}}^2}{{\\color{#D1495B}{24}}}=6{,}0\\ \\mathrm{m/s^2}\\]")
-  ],"Centripetalaccelerationen är \(6{,}0\\ \mathrm{m/s^2}\), riktad mot centrum.","Kvadrera farten innan du dividerar med radien.","Centripetalacceleration och centripetalkraft");
+    steg("Sätt in värdena","","\\[a_c=\\frac{{\\color{#D1495B}{12}}^2}{{\\color{#D1495B}{24}}}=6{,}0\\ \\mathrm{m/s^2}\\]")
+  ],"Centripetalaccelerationen är \\(6{,}0\\ \mathrm{m/s^2}\\), riktad mot centrum.","Kvadrera farten innan du dividerar med radien.","Centripetalacceleration och centripetalkraft");
 
   add(1,"cirkel","Kraften som håller kvar föremålet","<p>En boll med massan 0,20 kg rör sig med 6,0 m/s i en cirkel med radien 0,90 m. Bestäm den resulterande kraften.</p>","Centripetalkraft är namnet på den resulterande kraft som pekar inåt; det är inte en extra kraft.",[
     steg("Beräkna accelerationen","Börja med cirkelrörelsen.","\\[a_c=\\frac{6{,}0^2}{0{,}90}=40\\ \\mathrm{m/s^2}\\]"),
     steg("Använd Newtons andra lag","Den resulterande kraften är massa gånger acceleration.","\\[F_{res}=ma_c={\\color{#D1495B}{0{,}20}}\\cdot{\\color{#D1495B}{40}}=8{,}0\\ \\mathrm N\\]")
-  ],"Kraften är \(8{,}0\\ \mathrm N\) mot cirkelns centrum.","Fråga alltid vilken verklig kraft som ger den inåtriktade resultantkraften.","Tillämpningar av cirkelrörelse");
+  ],"Kraften är \\(8{,}0\\ \mathrm N\\) mot cirkelns centrum.","Fråga alltid vilken verklig kraft som ger den inåtriktade resultantkraften.","Tillämpningar av cirkelrörelse");
 
   add(1,"cirkel","Period för en konisk pendel","<p>En kula rör sig som en konisk pendel. Snöret är 1,20 m och bildar vinkeln 30° mot lodlinjen. Bestäm omloppstiden.</p>","Spännkraftens horisontella del ger centripetalkraften och den vertikala delen balanserar tyngdkraften.",[
     steg("Koppla kraftkomponenterna","Dividera ekvationerna så försvinner spännkraften.","\\[S\\cos\\theta=mg,\\quad S\\sin\\theta=m\\omega^2r\\]"),
-    steg("Använd geometrin","Med \(r=L\\sin\\theta\) fås \(\\omega^2=g/(L\\cos\\theta)\).","\\[T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}}=2\\pi\\sqrt{\\frac{1{,}20\\cos30^\\circ}{9{,}82}}=2{,}04\\ \\mathrm s\\]")
-  ],"Omloppstiden är ungefär \(2{,}0\\ \mathrm s\).","Rita spännkraften längs snöret och dela upp den i lodrät och vågrät riktning.","Matematisk och konisk pendel");
+    steg("Använd geometrin","Med \\(r=L\\sin\\theta\\) fås \\(\\omega^2=g/(L\\cos\\theta)\\).","\\[T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}}=2\\pi\\sqrt{\\frac{1{,}20\\cos30^\\circ}{9{,}82}}=2{,}04\\ \\mathrm s\\]")
+  ],"Omloppstiden är ungefär \\(2{,}0\\ \mathrm s\\).","Rita spännkraften längs snöret och dela upp den i lodrät och vågrät riktning.","Matematisk och konisk pendel");
 
   add(1,"kast","Dela upp en kaströrelse","<p>En boll kastas horisontellt med 8,0 m/s från 5,0 m höjd. Hur långt från kanten landar den? Bortse från luftmotstånd.</p>","Vågrät och lodrät rörelse har samma tid men behandlas var för sig.",[
     steg("Bestäm falltiden","I lodrät riktning är begynnelsehastigheten noll.","\\[h=\\frac{gt^2}{2}\\Rightarrow t=\\sqrt{\\frac{2h}{g}}=\\sqrt{\\frac{2\\cdot5{,}0}{9{,}82}}=1{,}01\\ \\mathrm s\\]"),
     steg("Beräkna den vågräta sträckan","Den vågräta farten är konstant.","\\[x=v_xt={\\color{#D1495B}{8{,}0}}\\cdot{\\color{#D1495B}{1{,}01}}=8{,}1\\ \\mathrm m\\]")
-  ],"Bollen landar ungefär \(8{,}1\\ \mathrm m\) från kanten.","Tyngdaccelerationen påverkar bara den lodräta rörelsen.","Kastparabler: horisontellt och snett kast");
+  ],"Bollen landar ungefär \\(8{,}1\\ \mathrm m\\) från kanten.","Tyngdaccelerationen påverkar bara den lodräta rörelsen.","Kastparabler: horisontellt och snett kast");
 
   add(2,"fjadrar","Hookes lag och fjäderenergi","<p>En fjäder med fjäderkonstanten 250 N/m dras ut 8,0 cm. Bestäm fjäderkraften och den lagrade energin.</p>","Förlängningen måste anges i meter.",[
     steg("Omvandla längden","Åtta centimeter är 0,080 meter.","\\[x=8{,}0\\ \\mathrm{cm}=0{,}080\\ \\mathrm m\\]"),
-    steg("Beräkna kraft och energi","Kraftens belopp är \(kx\), medan energin beror på \(x^2\).","\\[F=kx=250\\cdot0{,}080=20\\ \\mathrm N\\]\\[E_f=\\frac{kx^2}{2}=0{,}80\\ \\mathrm J\\]")
-  ],"Fjäderkraften är \(20\\ \mathrm N\) och energin \(0{,}80\\ \mathrm J\).","Fjäderkraften är riktad tillbaka mot jämviktsläget.","Hookes lag, fjäderenergi och kopplingar");
+    steg("Beräkna kraft och energi","Kraftens belopp är \\(kx\\), medan energin beror på \\(x^2\\).","\\[F=kx=250\\cdot0{,}080=20\\ \\mathrm N\\]\\[E_f=\\frac{kx^2}{2}=0{,}80\\ \\mathrm J\\]")
+  ],"Fjäderkraften är \\(20\\ \mathrm N\\) och energin \\(0{,}80\\ \mathrm J\\).","Fjäderkraften är riktad tillbaka mot jämviktsläget.","Hookes lag, fjäderenergi och kopplingar");
 
   add(2,"svangningar","Amplitud, period och frekvens","<p>En svängning går från största utslaget på ena sidan till största utslaget på den andra på 0,40 s. Amplituden är 6,0 cm. Bestäm period och frekvens.</p>","Från ett ytterläge till motsatt ytterläge går en halv period.",[
     steg("Bestäm perioden","Dubbla tiden för en halv svängning.","\\[T=2\\cdot0{,}40=0{,}80\\ \\mathrm s\\]"),
     steg("Bestäm frekvensen","Frekvens och period är varandras inverser.","\\[f=\\frac1T=\\frac1{0{,}80}=1{,}25\\ \\mathrm{Hz}\\]")
-  ],"Perioden är \(0{,}80\\ \mathrm s\) och frekvensen \(1{,}25\\ \mathrm{Hz}\).","Amplituden är största avståndet från jämviktsläget, inte hela bredden.","Amplitud, period och frekvens");
+  ],"Perioden är \\(0{,}80\\ \mathrm s\\) och frekvensen \\(1{,}25\\ \mathrm{Hz}\\).","Amplituden är största avståndet från jämviktsläget, inte hela bredden.","Amplitud, period och frekvens");
 
   add(2,"pendlar","Perioden för en matematisk pendel","<p>En liten pendelkula hänger i en 0,90 m lång tråd. Bestäm perioden för små svängningar.</p>","För små utslag beror perioden på pendellängden och tyngdaccelerationen, inte på massan.",[
     steg("Använd periodformeln","Sätt längden i meter.","\\[T=2\\pi\\sqrt{\\frac{l}{g}}\\]"),
     steg("Sätt in värdena","Behåll flera siffror till slutsvaret.","\\[T=2\\pi\\sqrt{\\frac{{\\color{#D1495B}{0{,}90}}}{9{,}82}}=1{,}90\\ \\mathrm s\\]")
-  ],"Perioden är ungefär \(1{,}9\\ \mathrm s\).","Formeln gäller små svängningsvinklar.","Matematisk och konisk pendel");
+  ],"Perioden är ungefär \\(1{,}9\\ \mathrm s\\).","Formeln gäller små svängningsvinklar.","Matematisk och konisk pendel");
 
   add(2,"vagrorelser","Vågens fart","<p>En våg har frekvensen 5,0 Hz och våglängden 1,6 m. Bestäm vågens fart.</p>","På en period rör sig vågmönstret en våglängd.",[
     steg("Identifiera storheterna","Frekvensen anger svängningar per sekund och våglängden avståndet mellan två toppar.","\\[f=5{,}0\\ \\mathrm{Hz},\\quad \\lambda=1{,}6\\ \\mathrm m\\]",vagFigur),
     steg("Beräkna farten","Använd vågekvationen.","\\[v=f\\lambda={\\color{#D1495B}{5{,}0}}\\cdot{\\color{#D1495B}{1{,}6}}=8{,}0\\ \\mathrm{m/s}\\]")
-  ],"Vågens fart är \(8{,}0\\ \mathrm{m/s}\).","I \(v=f\\lambda\) är \(v\) utbredningsfarten, inte partiklarnas svängningsfart.","Vågrörelsers fart, reflektion och brytning");
+  ],"Vågens fart är \\(8{,}0\\ \mathrm{m/s}\\).","I \\(v=f\\lambda\\) är \\(v\\) utbredningsfarten, inte partiklarnas svängningsfart.","Vågrörelsers fart, reflektion och brytning");
 
   add(2,"vagrorelser","Stående våg på en sträng","<p>En sträng är 1,20 m lång och har noder i båda ändar. Grundtonens frekvens är 75 Hz. Bestäm våglängd och vågfart.</p>","I grundtonen ryms en halv våglängd på strängen.",[
-    steg("Bestäm våglängden","För grundtonen gäller \(L=\\lambda/2\).","\\[\\lambda=2L=2\\cdot1{,}20=2{,}40\\ \\mathrm m\\]"),
+    steg("Bestäm våglängden","För grundtonen gäller \\(L=\\lambda/2\\).","\\[\\lambda=2L=2\\cdot1{,}20=2{,}40\\ \\mathrm m\\]"),
     steg("Bestäm farten","Använd vågekvationen.","\\[v=f\\lambda=75\\cdot2{,}40=180\\ \\mathrm{m/s}\\]")
-  ],"Våglängden är \(2{,}40\\ \mathrm m\) och vågfarten \(180\\ \mathrm{m/s}\).","Räkna halva våglängder mellan två fasta ändar.","Superposition och stående vågor");
+  ],"Våglängden är \\(2{,}40\\ \mathrm m\\) och vågfarten \\(180\\ \mathrm{m/s}\\).","Räkna halva våglängder mellan två fasta ändar.","Superposition och stående vågor");
 
   add(2,"ljudvagor","Grundton i en öppen pipa","<p>En öppen pipa är 0,85 m lång. Ljudhastigheten är 340 m/s. Bestäm grundtonens frekvens.</p>","En öppen pipa har buk vid båda ändarna; i grundtonen ryms en halv våglängd.",[
     steg("Bestäm våglängden","För en öppen pipa gäller samma längdvillkor som för en sträng med två ändar.","\\[\\lambda=2L=1{,}70\\ \\mathrm m\\]"),
     steg("Bestäm frekvensen","Lös ut frekvensen ur vågekvationen.","\\[f=\\frac v\\lambda=\\frac{340}{1{,}70}=200\\ \\mathrm{Hz}\\]")
-  ],"Grundtonen är \(200\\ \mathrm{Hz}\).","En pipa som är stängd i ena änden har i stället \(L=\\lambda/4\) för grundtonen.","Ljudvågors fart, grundton och övertoner");
+  ],"Grundtonen är \\(200\\ \mathrm{Hz}\\).","En pipa som är stängd i ena änden har i stället \\(L=\\lambda/4\\) för grundtonen.","Ljudvågors fart, grundton och övertoner");
 
   add(2,"ljudvagor","Resonans i en stängd pipa","<p>Ett rör är stängt i ena änden och 0,425 m långt. Bestäm den lägsta resonansfrekvensen när ljudhastigheten är 340 m/s.</p>","Vid den stängda änden finns en nod och vid den öppna änden en buk.",[
     steg("Använd kvartsvågen","I grundresonansen ryms en fjärdedels våglängd.","\\[L=\\frac\\lambda4\\Rightarrow\\lambda=4L=1{,}70\\ \\mathrm m\\]"),
-    steg("Beräkna frekvensen","Använd \(f=v/\\lambda\).","\\[f=\\frac{340}{1{,}70}=200\\ \\mathrm{Hz}\\]")
-  ],"Den lägsta resonansfrekvensen är \(200\\ \mathrm{Hz}\).","I ett rör stängt i ena änden förekommer bara udda multiplar av grundtonen.","Resonans i luftpelare");
+    steg("Beräkna frekvensen","Använd \\(f=v/\\lambda\\).","\\[f=\\frac{340}{1{,}70}=200\\ \\mathrm{Hz}\\]")
+  ],"Den lägsta resonansfrekvensen är \\(200\\ \mathrm{Hz}\\).","I ett rör stängt i ena änden förekommer bara udda multiplar av grundtonen.","Resonans i luftpelare");
 
   add(2,"interferens","Avgör konstruktiv interferens","<p>Två högtalare sänder samma ton i fas. Till en punkt är avstånden 4,20 m och 4,70 m. Våglängden är 0,50 m. Blir ljudet starkt eller svagt?</p>","Det är vägskillnaden, inte de två avstånden var för sig, som avgör interferensen.",[
     steg("Beräkna vägskillnaden","Ta absolutbeloppet av avståndens skillnad.","\\[\\Delta s=|4{,}70-4{,}20|=0{,}50\\ \\mathrm m\\]"),
     steg("Jämför med våglängden","En hel våglängd ger konstruktiv interferens för källor i fas.","\\[\\Delta s=1\\lambda\\Rightarrow\\text{konstruktiv interferens}\\]")
   ],"Ljudet blir starkt: vågorna förstärker varandra.","Helt antal våglängder ger maximum; ett udda antal halva våglängder ger minimum.","Interferens från flera källor");
 
-  add(2,"ljud_horsel","Ljudnivå från intensitet","<p>Ljudintensiteten är \(1{,}0\\cdot10^{-6}\\ \mathrm{W/m^2}\). Bestäm ljudnivån. Referensintensiteten är \(I_0=1{,}0\\cdot10^{-12}\\ \mathrm{W/m^2}\).</p>","Decibelskalan är logaritmisk.",[
+  add(2,"ljud_horsel","Ljudnivå från intensitet","<p>Ljudintensiteten är \\(1{,}0\\cdot10^{-6}\\ \mathrm{W/m^2}\\). Bestäm ljudnivån. Referensintensiteten är \\(I_0=1{,}0\\cdot10^{-12}\\ \mathrm{W/m^2}\\).</p>","Decibelskalan är logaritmisk.",[
     steg("Skriv sambandet","Ljudnivån jämför intensiteten med hörtröskeln.","\\[L=10\\log_{10}\\left(\\frac I{I_0}\\right)\\]"),
     steg("Sätt in värdena","Kvoten är en miljon.","\\[L=10\\log_{10}(10^6)=60\\ \\mathrm{dB}\\]")
-  ],"Ljudnivån är \(60\\ \mathrm{dB}\).","Tio gånger större intensitet höjer ljudnivån med 10 dB.","Ljudintensitet och ljudnivå");
+  ],"Ljudnivån är \\(60\\ \mathrm{dB}\\).","Tio gånger större intensitet höjer ljudnivån med 10 dB.","Ljudintensitet och ljudnivå");
 
   add(2,"extrema_frekvenser","Ekolod med ultraljud","<p>En ultraljudspuls återvänder efter 0,040 s. Ljudhastigheten i vattnet är 1500 m/s. Hur djupt är det?</p>","Den uppmätta tiden gäller vägen både ned och upp.",[
     steg("Beräkna hela sträckan","Farten gånger tiden ger tur-och-retur-sträckan.","\\[s_{tot}=vt=1500\\cdot0{,}040=60\\ \\mathrm m\\]"),
     steg("Ta halva sträckan","Djupet är enkel väg.","\\[d=\\frac{s_{tot}}2=30\\ \\mathrm m\\]")
-  ],"Djupet är \(30\\ \mathrm m\).","Ultraljud har frekvens över människans hörselområde; fysiken för eko är densamma som för annat ljud.","Infraljud och ultraljud");
+  ],"Djupet är \\(30\\ \mathrm m\\).","Ultraljud har frekvens över människans hörselområde; fysiken för eko är densamma som för annat ljud.","Infraljud och ultraljud");
 
-  add(3,"elektriska_falt","Elektriskt fält och kraft","<p>En positiv laddning \(q=2{,}0\\ \\mathrm{nC}\) finns i ett elektriskt fält med styrkan \(3{,}0\\cdot10^4\\ \mathrm{N/C}\). Bestäm kraften.</p>","Fältstyrkan anger kraft per coulomb på en positiv provladdning.",[
-    steg("Omvandla laddningen","Nano betyder \(10^{-9}\).","\\[q=2{,}0\\cdot10^{-9}\\ \\mathrm C\\]"),
+  add(3,"elektriska_falt","Elektriskt fält och kraft","<p>En positiv laddning \\(q=2{,}0\\ \\mathrm{nC}\\) finns i ett elektriskt fält med styrkan \\(3{,}0\\cdot10^4\\ \mathrm{N/C}\\). Bestäm kraften.</p>","Fältstyrkan anger kraft per coulomb på en positiv provladdning.",[
+    steg("Omvandla laddningen","Nano betyder \\(10^{-9}\\).","\\[q=2{,}0\\cdot10^{-9}\\ \\mathrm C\\]"),
     steg("Beräkna kraften","För en positiv laddning är kraften i fältets riktning.","\\[F=qE=2{,}0\\cdot10^{-9}\\cdot3{,}0\\cdot10^4=6{,}0\\cdot10^{-5}\\ \\mathrm N\\]")
-  ],"Kraften är \(6{,}0\\cdot10^{-5}\\ \mathrm N\) i fältets riktning.","En negativ laddning får kraft i motsatt riktning mot fältet.","Elektriskt fält, potential och kraft");
+  ],"Kraften är \\(6{,}0\\cdot10^{-5}\\ \mathrm N\\) i fältets riktning.","En negativ laddning får kraft i motsatt riktning mot fältet.","Elektriskt fält, potential och kraft");
 
   add(3,"kondensatorer","Kapacitans och lagrad energi","<p>En kondensator på 220 µF laddas till 12 V. Bestäm laddningen och energin.</p>","Kapacitans beskriver hur mycket laddning som lagras per volt.",[
-    steg("Beräkna laddningen","Mikro betyder \(10^{-6}\).","\\[Q=CU=220\\cdot10^{-6}\\cdot12=2{,}64\\cdot10^{-3}\\ \\mathrm C\\]"),
+    steg("Beräkna laddningen","Mikro betyder \\(10^{-6}\\).","\\[Q=CU=220\\cdot10^{-6}\\cdot12=2{,}64\\cdot10^{-3}\\ \\mathrm C\\]"),
     steg("Beräkna energin","Använd spänningen över kondensatorn.","\\[E=\\frac{CU^2}{2}=\\frac{220\\cdot10^{-6}\\cdot12^2}{2}=1{,}58\\cdot10^{-2}\\ \\mathrm J\\]")
-  ],"Laddningen är \(2{,}64\\ \mathrm{mC}\) och energin \(15{,}8\\ \mathrm{mJ}\).","Blanda inte ihop kapacitansen \(C\) med laddningen \(Q\).","Kondensatorer: kapacitans och energi");
+  ],"Laddningen är \\(2{,}64\\ \mathrm{mC}\\) och energin \\(15{,}8\\ \mathrm{mJ}\\).","Blanda inte ihop kapacitansen \\(C\\) med laddningen \\(Q\\).","Kondensatorer: kapacitans och energi");
 
   add(3,"magnetism","Magnetfält kring en rak ledare","<p>Strömmen i en lång rak ledare är 5,0 A. Bestäm magnetfältet 4,0 cm från ledaren.</p>","Fältlinjerna är cirklar runt ledaren.",[
     steg("Omvandla avståndet","Fyra centimeter är 0,040 meter.","\\[r=0{,}040\\ \\mathrm m\\]"),
     steg("Använd fältformeln","För en lång rak ledare gäller följande samband.","\\[B=\\frac{\\mu_0I}{2\\pi r}=\\frac{4\\pi\\cdot10^{-7}\\cdot5{,}0}{2\\pi\\cdot0{,}040}=2{,}5\\cdot10^{-5}\\ \\mathrm T\\]")
-  ],"Magnetfältet är \(25\\ \mathrm{\\mu T}\).","Höger tumme visar strömmen; böjda fingrar visar fältets riktning.","Magnetfält kring strömledare");
+  ],"Magnetfältet är \\(25\\ \mathrm{\\mu T}\\).","Höger tumme visar strömmen; böjda fingrar visar fältets riktning.","Magnetfält kring strömledare");
 
   add(3,"magnetism","Magnetfält i en lång spole","<p>En 0,40 m lång spole har 800 varv och strömmen 0,60 A. Bestäm magnetfältet inuti spolen.</p>","I en lång spole är fältet ungefär homogent långt från ändarna.",[
     steg("Bestäm varvtätheten","Dela antalet varv med spolens längd.","\\[n=\\frac Nl=\\frac{800}{0{,}40}=2000\\ \\mathrm{m^{-1}}\\]"),
-    steg("Beräkna fältet","Använd \(B=\\mu_0nI\).","\\[B=4\\pi\\cdot10^{-7}\\cdot2000\\cdot0{,}60=1{,}51\\cdot10^{-3}\\ \\mathrm T\\]")
-  ],"Magnetfältet är ungefär \(1{,}5\\ \mathrm{mT}\).","Fler varv per meter eller större ström ger starkare fält.","Magnetfält i spole");
+    steg("Beräkna fältet","Använd \\(B=\\mu_0nI\\).","\\[B=4\\pi\\cdot10^{-7}\\cdot2000\\cdot0{,}60=1{,}51\\cdot10^{-3}\\ \\mathrm T\\]")
+  ],"Magnetfältet är ungefär \\(1{,}5\\ \mathrm{mT}\\).","Fler varv per meter eller större ström ger starkare fält.","Magnetfält i spole");
 
   add(3,"magnetism","Kraft på en strömförande ledare","<p>En 0,25 m lång ledare för strömmen 3,0 A vinkelrätt mot ett magnetfält på 0,40 T. Bestäm kraftens belopp.</p>","Magnetfältet kan påverka rörliga laddningar och därmed en strömförande ledare.",[
-    steg("Kontrollera vinkeln","Ledaren är vinkelrät mot fältet, så \(\\sin90^\\circ=1\).","\\[F=BIl\\sin\\theta\\]"),
+    steg("Kontrollera vinkeln","Ledaren är vinkelrät mot fältet, så \\(\\sin90^\\circ=1\\).","\\[F=BIl\\sin\\theta\\]"),
     steg("Sätt in värdena","Multiplicera fält, ström och ledarlängd.","\\[F=0{,}40\\cdot3{,}0\\cdot0{,}25=0{,}30\\ \\mathrm N\\]")
-  ],"Kraften är \(0{,}30\\ \mathrm N\).","Kraften är vinkelrät mot både strömmen och magnetfältet.","Magnetfält och magnetisk kraft");
+  ],"Kraften är \\(0{,}30\\ \mathrm N\\).","Kraften är vinkelrät mot både strömmen och magnetfältet.","Magnetfält och magnetisk kraft");
 
   add(3,"magnetism","Riktning kring en rak ledare","<p>Strömmen går rakt ut ur skärmen. Åt vilket håll går magnetfältet runt ledaren?</p>","Riktningen fås med högerhandsregeln.",[
     steg("Rikta tummen","Låt höger tumme peka ut ur skärmen, i strömmens riktning.","\\[I:\\quad \\text{ut ur skärmen}\\]"),
     steg("Följ fingrarna","De böjda fingrarna visar fältlinjernas riktning.","\\[B:\\quad \\text{moturs}\\]")
   ],"Magnetfältet går moturs runt ledaren.","Punkt betyder ut ur skärmen; kryss betyder in i skärmen.","Riktningsfrågor: magnetfält kring rak ledare");
 
-  add(3,"magnetism","Riktning på kraften på en ledare","<p>En ledare har ström åt höger och ligger i ett magnetfält in i skärmen. Åt vilket håll verkar kraften?</p>","Kraftens riktning följer kryssprodukten \(\\vec F=I\\vec l\\times\\vec B\).",[
+  add(3,"magnetism","Riktning på kraften på en ledare","<p>En ledare har ström åt höger och ligger i ett magnetfält in i skärmen. Åt vilket håll verkar kraften?</p>","Kraftens riktning följer kryssprodukten \\(\\vec F=I\\vec l\\times\\vec B\\).",[
     steg("Ordna riktningarna","Peka med högerhandens fingrar i strömriktningen och böj mot fältet.","\\[I:\\rightarrow,\\qquad B:\\otimes\\]"),
     steg("Läs av kraften","Tummen visar kraften på ledaren.","\\[F:\\uparrow\\]")
   ],"Kraften verkar uppåt.","Byter strömmen eller fältet riktning byter kraften riktning.","Riktningsfrågor: kraft på ledare i magnetfält");
@@ -133,10 +133,10 @@
     steg("Läs av tummen","Tummen pekar mot spolens nordpol och fältet inuti spolen.","\\[\\text{vänster ände}=N\\]")
   ],"Den vänstra änden är spolens nordpol.","Moturs ström sedd från en ände betyder nordpol vid den änden.","Riktningsfrågor för spolar och strömslingor");
 
-  add(3,"laddade_partiklar","Laddad partikel i magnetfält","<p>En proton med farten \(2{,}0\\cdot10^6\\ \mathrm{m/s}\) går vinkelrätt in i ett fält på 0,30 T. Bestäm magnetkraften.</p>","När hastigheten är vinkelrät mot fältet är kraften störst.",[
-    steg("Välj sambandet","Protonens laddning är \(e=1{,}60\\cdot10^{-19}\\ \mathrm C\).","\\[F=qvB\\sin90^\\circ=qvB\\]"),
+  add(3,"laddade_partiklar","Laddad partikel i magnetfält","<p>En proton med farten \\(2{,}0\\cdot10^6\\ \mathrm{m/s}\\) går vinkelrätt in i ett fält på 0,30 T. Bestäm magnetkraften.</p>","När hastigheten är vinkelrät mot fältet är kraften störst.",[
+    steg("Välj sambandet","Protonens laddning är \\(e=1{,}60\\cdot10^{-19}\\ \mathrm C\\).","\\[F=qvB\\sin90^\\circ=qvB\\]"),
     steg("Sätt in värdena","Magnetkraften ändrar riktningen men inte farten.","\\[F=1{,}60\\cdot10^{-19}\\cdot2{,}0\\cdot10^6\\cdot0{,}30=9{,}6\\cdot10^{-14}\\ \\mathrm N\\]")
-  ],"Magnetkraftens belopp är \(9{,}6\\cdot10^{-14}\\ \mathrm N\).","Är hastigheten parallell med fältet blir magnetkraften noll.","Laddade partiklar i elektriska och magnetiska fält");
+  ],"Magnetkraftens belopp är \\(9{,}6\\cdot10^{-14}\\ \mathrm N\\).","Är hastigheten parallell med fältet blir magnetkraften noll.","Laddade partiklar i elektriska och magnetiska fält");
 
   add(3,"laddade_partiklar","Riktning för en laddad partikel","<p>En proton rör sig åt höger i ett magnetfält in i skärmen. Åt vilket håll verkar magnetkraften?</p>","För en positiv laddning använder du högerhandsregeln direkt.",[
     steg("Peka i hastighetens riktning","Fingrarna pekar åt höger och böjs mot fältet in i skärmen.","\\[\\vec v:\\rightarrow,\\qquad\\vec B:\\otimes\\]",faltFigur),
@@ -146,12 +146,12 @@
   add(3,"jordens_magnetfalt","Kompass och jordens magnetfält","<p>En kompass ställs bredvid en rak ledare. Jordfältets horisontella komponent är 18 µT och ledarens fält vid kompassen är 18 µT vinkelrätt mot jordfältet. Hur mycket vrids nålen?</p>","Kompassnålen lägger sig längs det resulterande magnetfältet.",[
     steg("Rita fältvektorerna","De två fälten är lika stora och vinkelräta.","\\[B_{ledare}=B_{jord}=18\\ \\mathrm{\\mu T}\\]"),
     steg("Bestäm vinkeln","För en rätvinklig triangel gäller tangens.","\\[\\tan\\theta=\\frac{B_{ledare}}{B_{jord}}=1\\Rightarrow\\theta=45^\\circ\\]")
-  ],"Kompassnålen vrids \(45^\\circ\).","En kompass visar resultantens riktning, inte ett av fälten separat.","Jordens magnetfält och kompass");
+  ],"Kompassnålen vrids \\(45^\\circ\\).","En kompass visar resultantens riktning, inte ett av fälten separat.","Jordens magnetfält och kompass");
 
   add(3,"induktion","Beräkna inducerad spänning","<p>Magnetflödet genom en spole med 200 varv minskar jämnt från 0,012 Wb till 0 på 0,30 s. Bestäm spänningens belopp.</p>","En förändring av magnetiskt flöde inducerar spänning.",[
     steg("Bestäm flödesändringen","Använd ändringens belopp när bara spänningens storlek efterfrågas.","\\[|\\Delta\\Phi|=0{,}012\\ \\mathrm{Wb}\\]"),
     steg("Använd Faradays lag","Multiplicera ändring per tid med antalet varv.","\\[|U|=N\\frac{|\\Delta\\Phi|}{\\Delta t}=200\\cdot\\frac{0{,}012}{0{,}30}=8{,}0\\ \\mathrm V\\]")
-  ],"Den inducerade spänningens belopp är \(8{,}0\\ \mathrm V\).","Magnetiskt flöde är \(\\Phi=BA\\cos\\theta\), där vinkeln mäts mot ytans normal.","Faradays lag, magnetiskt flöde och induktion");
+  ],"Den inducerade spänningens belopp är \\(8{,}0\\ \mathrm V\\).","Magnetiskt flöde är \\(\\Phi=BA\\cos\\theta\\), där vinkeln mäts mot ytans normal.","Faradays lag, magnetiskt flöde och induktion");
 
   add(3,"induktion","Lenz lag: bestäm strömriktningen","<p>En magnets nordpol förs mot en ledande ring. Vilken magnetisk pol skapar ringen på sidan mot magneten?</p>","Den inducerade strömmen motverkar förändringen av magnetflödet.",[
     steg("Beskriv förändringen","När nordpolen närmar sig ökar flödet genom ringen.","\\[\\Phi:\\quad \\text{ökar}\\]"),
@@ -159,57 +159,57 @@
   ],"Ringen skapar en nordpol mot magneten; sedd från magneten går strömmen moturs.","Lenz lag handlar om att motverka förändringen, inte själva fältet.","Riktningsfrågor: inducerad ström enligt Lenz lag");
 
   add(3,"vaxelstrom","Effektivvärde för växelspänning","<p>En sinusformad växelspänning har toppvärdet 325 V. Bestäm effektivvärdet.</p>","Effektivvärdet ger samma medeleffekt i en resistor som motsvarande likspänning.",[
-    steg("Välj sambandet","För en sinusformad spänning gäller \(U_{eff}=U_{max}/\\sqrt2\).","\\[U_{eff}=\\frac{U_{max}}{\\sqrt2}\\]"),
+    steg("Välj sambandet","För en sinusformad spänning gäller \\(U_{eff}=U_{max}/\\sqrt2\\).","\\[U_{eff}=\\frac{U_{max}}{\\sqrt2}\\]"),
     steg("Sätt in toppvärdet","Dividera med roten ur två.","\\[U_{eff}=\\frac{{\\color{#D1495B}{325}}}{\\sqrt2}=230\\ \\mathrm V\\]")
-  ],"Effektivvärdet är \(230\\ \mathrm V\).","Topp-till-topp-värdet är dubbla toppvärdet.","Sinusformad växelström och effektivvärde");
+  ],"Effektivvärdet är \\(230\\ \mathrm V\\).","Topp-till-topp-värdet är dubbla toppvärdet.","Sinusformad växelström och effektivvärde");
 
   add(3,"vaxelstrom_spole_kondensator","Resonans i en LC-krets","<p>En spole på 0,20 H och en kondensator på 50 µF ingår i en krets. Bestäm resonansfrekvensen.</p>","Vid resonans är spolens och kondensatorns reaktanser lika stora.",[
     steg("Omvandla kapacitansen","Mikrofarad skrivs i farad.","\\[C=50\\cdot10^{-6}\\ \\mathrm F\\]"),
     steg("Beräkna resonansfrekvensen","Använd resonansvillkoret.","\\[f_0=\\frac1{2\\pi\\sqrt{LC}}=\\frac1{2\\pi\\sqrt{0{,}20\\cdot50\\cdot10^{-6}}}=50{,}3\\ \\mathrm{Hz}\\]")
-  ],"Resonansfrekvensen är ungefär \(50\\ \mathrm{Hz}\).","Vid resonans gäller \(X_L=X_C\).","Spole, kondensator och resonans i växelström");
+  ],"Resonansfrekvensen är ungefär \\(50\\ \mathrm{Hz}\\).","Vid resonans gäller \\(X_L=X_C\\).","Spole, kondensator och resonans i växelström");
 
   add(4,"em_vagor","Frekvens och våglängd för ljus","<p>En radiovåg har frekvensen 100 MHz. Bestäm våglängden i vakuum.</p>","Alla elektromagnetiska vågor färdas med ljushastigheten i vakuum.",[
-    steg("Skriv i hertz","Mega betyder \(10^6\).","\\[f=100\\cdot10^6\\ \\mathrm{Hz}\\]"),
-    steg("Använd vågekvationen","Sätt \(c=3{,}00\\cdot10^8\\ \mathrm{m/s}\).","\\[\\lambda=\\frac cf=\\frac{3{,}00\\cdot10^8}{100\\cdot10^6}=3{,}00\\ \\mathrm m\\]")
-  ],"Våglängden är \(3{,}00\\ \mathrm m\).","Högre frekvens innebär kortare våglängd.","Elektromagnetiska vågor och spektrum");
+    steg("Skriv i hertz","Mega betyder \\(10^6\\).","\\[f=100\\cdot10^6\\ \\mathrm{Hz}\\]"),
+    steg("Använd vågekvationen","Sätt \\(c=3{,}00\\cdot10^8\\ \mathrm{m/s}\\).","\\[\\lambda=\\frac cf=\\frac{3{,}00\\cdot10^8}{100\\cdot10^6}=3{,}00\\ \\mathrm m\\]")
+  ],"Våglängden är \\(3{,}00\\ \mathrm m\\).","Högre frekvens innebär kortare våglängd.","Elektromagnetiska vågor och spektrum");
 
   add(4,"vagrorelselara","Gitter och interferensmaximum","<p>Laserljus med våglängden 600 nm träffar ett gitter med 500 linjer/mm. Bestäm vinkeln till första ordningens maximum.</p>","Gitterkonstanten är avståndet mellan två intilliggande spalter.",[
     steg("Bestäm gitterkonstanten","Omvandla linjetätheten till linjer per meter och ta inversen.","\\[d=\\frac1{500\\cdot10^3}=2{,}0\\cdot10^{-6}\\ \\mathrm m\\]"),
-    steg("Använd gitterformeln","För första ordningen är \(m=1\).","\\[d\\sin\\theta=m\\lambda\\Rightarrow\\theta=\\arcsin\\left(\\frac{600\\cdot10^{-9}}{2{,}0\\cdot10^{-6}}\\right)=17{,}5^\\circ\\]")
-  ],"Vinkeln är ungefär \(17{,}5^\\circ\).","Om \(m\\lambda/d>1\) finns inget maximum av den ordningen.","Dubbelspalt och gitter");
+    steg("Använd gitterformeln","För första ordningen är \\(m=1\\).","\\[d\\sin\\theta=m\\lambda\\Rightarrow\\theta=\\arcsin\\left(\\frac{600\\cdot10^{-9}}{2{,}0\\cdot10^{-6}}\\right)=17{,}5^\\circ\\]")
+  ],"Vinkeln är ungefär \\(17{,}5^\\circ\\).","Om \\(m\\lambda/d>1\\) finns inget maximum av den ordningen.","Dubbelspalt och gitter");
 
   add(4,"temperaturstralning","Temperatur från strålningsmaximum","<p>En stjärnas spektrum har sitt maximum vid 500 nm. Uppskatta stjärnans yttemperatur.</p>","Wiens förskjutningslag kopplar den mest intensiva våglängden till temperaturen.",[
     steg("Omvandla våglängden","Nanometer skrivs i meter.","\\[\\lambda_{max}=500\\cdot10^{-9}\\ \\mathrm m\\]"),
-    steg("Använd Wiens lag","Använd \(b=2{,}90\\cdot10^{-3}\\ \mathrm{m\\,K}\).","\\[T=\\frac b{\\lambda_{max}}=\\frac{2{,}90\\cdot10^{-3}}{500\\cdot10^{-9}}=5800\\ \\mathrm K\\]")
-  ],"Stjärnans yttemperatur är ungefär \(5800\\ \mathrm K\).","Kortare maximumvåglängd betyder högre temperatur.","Temperaturstrålning: Wien och Stefan–Boltzmann");
+    steg("Använd Wiens lag","Använd \\(b=2{,}90\\cdot10^{-3}\\ \mathrm{m\\,K}\\).","\\[T=\\frac b{\\lambda_{max}}=\\frac{2{,}90\\cdot10^{-3}}{500\\cdot10^{-9}}=5800\\ \\mathrm K\\]")
+  ],"Stjärnans yttemperatur är ungefär \\(5800\\ \mathrm K\\).","Kortare maximumvåglängd betyder högre temperatur.","Temperaturstrålning: Wien och Stefan–Boltzmann");
 
   add(4,"straloptik","Brytning med Snells lag","<p>Ljus går från luft in i glas med brytningsindex 1,50. Infallsvinkeln är 30°. Bestäm brytningsvinkeln.</p>","Vinklar mäts mot normalen, inte mot ytan.",[
-    steg("Skriv Snells lag","För luft kan du använda \(n_1\\approx1{,}00\).","\\[n_1\\sin i=n_2\\sin r\\]"),
+    steg("Skriv Snells lag","För luft kan du använda \\(n_1\\approx1{,}00\\).","\\[n_1\\sin i=n_2\\sin r\\]"),
     steg("Lös ut vinkeln","Ljuset bryts mot normalen när det går in i glas.","\\[r=\\arcsin\\left(\\frac{1{,}00\\sin30^\\circ}{1{,}50}\\right)=19{,}5^\\circ\\]")
-  ],"Brytningsvinkeln är ungefär \(19{,}5^\\circ\).","Rita alltid normalen innan du märker ut vinklarna.","Snells lag och brytning");
+  ],"Brytningsvinkeln är ungefär \\(19{,}5^\\circ\\).","Rita alltid normalen innan du märker ut vinklarna.","Snells lag och brytning");
 
   add(4,"ljus_partikelstrom","Beräkna en fotons energi","<p>Grönt ljus har våglängden 550 nm. Bestäm energin hos en foton.</p>","En fotons energi bestäms av frekvensen eller våglängden.",[
-    steg("Välj sambandet","Kombinera \(E=hf\) med \(c=f\\lambda\).","\\[E=\\frac{hc}{\\lambda}\\]"),
-    steg("Sätt in värdena","Använd \(h=6{,}626\\cdot10^{-34}\\ \mathrm{J\\,s}\).","\\[E=\\frac{6{,}626\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{550\\cdot10^{-9}}=3{,}61\\cdot10^{-19}\\ \\mathrm J\\]")
-  ],"Fotonens energi är \(3{,}61\\cdot10^{-19}\\ \mathrm J\), cirka \(2{,}25\\ \mathrm{eV}\).","Högre frekvens och kortare våglängd ger större fotonenergi.","Fotonenergi");
+    steg("Välj sambandet","Kombinera \\(E=hf\\) med \\(c=f\\lambda\\).","\\[E=\\frac{hc}{\\lambda}\\]"),
+    steg("Sätt in värdena","Använd \\(h=6{,}626\\cdot10^{-34}\\ \mathrm{J\\,s}\\).","\\[E=\\frac{6{,}626\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{550\\cdot10^{-9}}=3{,}61\\cdot10^{-19}\\ \\mathrm J\\]")
+  ],"Fotonens energi är \\(3{,}61\\cdot10^{-19}\\ \mathrm J\\), cirka \\(2{,}25\\ \mathrm{eV}\\).","Högre frekvens och kortare våglängd ger större fotonenergi.","Fotonenergi");
 
-  add(4,"partikelstralar","Radie i ett magnetfält","<p>En proton rör sig vinkelrätt mot ett magnetfält på 0,20 T med farten \(3{,}0\\cdot10^6\\ \mathrm{m/s}\). Bestäm banradien.</p>","Magnetkraften fungerar som centripetalkraft.",[
-    steg("Sätt krafterna lika","Använd \(qvB=mv^2/r\).","\\[qvB=\\frac{mv^2}{r}\\Rightarrow r=\\frac{mv}{qB}\\]"),
-    steg("Sätt in protonens data","\(m_p=1{,}67\\cdot10^{-27}\\ \mathrm{kg}\) och \(q=e\).","\\[r=\\frac{1{,}67\\cdot10^{-27}\\cdot3{,}0\\cdot10^6}{1{,}60\\cdot10^{-19}\\cdot0{,}20}=0{,}157\\ \\mathrm m\\]")
-  ],"Banradien är ungefär \(0{,}16\\ \mathrm m\).","Magnetfältet böjer banan men utför inget arbete på partikeln.","Styrning och analys av partikelstrålar");
+  add(4,"partikelstralar","Radie i ett magnetfält","<p>En proton rör sig vinkelrätt mot ett magnetfält på 0,20 T med farten \\(3{,}0\\cdot10^6\\ \mathrm{m/s}\\). Bestäm banradien.</p>","Magnetkraften fungerar som centripetalkraft.",[
+    steg("Sätt krafterna lika","Använd \\(qvB=mv^2/r\\).","\\[qvB=\\frac{mv^2}{r}\\Rightarrow r=\\frac{mv}{qB}\\]"),
+    steg("Sätt in protonens data","\\(m_p=1{,}67\\cdot10^{-27}\\ \mathrm{kg}\\) och \\(q=e\\).","\\[r=\\frac{1{,}67\\cdot10^{-27}\\cdot3{,}0\\cdot10^6}{1{,}60\\cdot10^{-19}\\cdot0{,}20}=0{,}157\\ \\mathrm m\\]")
+  ],"Banradien är ungefär \\(0{,}16\\ \mathrm m\\).","Magnetfältet böjer banan men utför inget arbete på partikeln.","Styrning och analys av partikelstrålar");
 
   add(4,"atomstruktur","Emissionslinje från en atom","<p>En elektron faller från energinivån −1,5 eV till −3,4 eV. Bestäm den utsända fotonens energi.</p>","En foton bär bort skillnaden mellan atomens energinivåer.",[
     steg("Ta energiskillnaden","Slutnivån är lägre, så energi avges.","\\[E_\\gamma=E_{före}-E_{efter}=(-1{,}5)-(-3{,}4)=1{,}9\\ \\mathrm{eV}\\]"),
     steg("Tolka svaret","Fotonens energi är positiv även om atomnivåerna skrivs som negativa.","\\[E_\\gamma=1{,}9\\ \\mathrm{eV}\\]")
-  ],"Atomen sänder ut en foton med energin \(1{,}9\\ \mathrm{eV}\).","Absorption höjer elektronen; emission sänker den.","Bohrs atommodell");
+  ],"Atomen sänder ut en foton med energin \\(1{,}9\\ \mathrm{eV}\\).","Absorption höjer elektronen; emission sänker den.","Bohrs atommodell");
 
   add(5,"avstandsmatning","Avstånd med parallax","<p>En stjärnas parallaxvinkel är 0,20 bågsekunder. Bestäm avståndet i parsec.</p>","Parallaxen jämför stjärnans läge när jorden befinner sig på motsatta sidor om solen.",[
     steg("Använd parsec-definitionen","När vinkeln anges i bågsekunder blir sambandet enkelt.","\\[d(\\mathrm{pc})=\\frac1{p(\\mathrm{bågsekunder})}\\]"),
     steg("Sätt in vinkeln","Dividera ett med parallaxvinkeln.","\\[d=\\frac1{0{,}20}=5{,}0\\ \\mathrm{pc}\\]")
-  ],"Stjärnan ligger \(5{,}0\\ \mathrm{pc}\) bort.","Mindre parallaxvinkel betyder större avstånd.","Astronomisk avståndsmätning");
+  ],"Stjärnan ligger \\(5{,}0\\ \mathrm{pc}\\) bort.","Mindre parallaxvinkel betyder större avstånd.","Astronomisk avståndsmätning");
 
   add(5,"farg_ljusstyrka","Ljusstyrka och avstånd","<p>Två lika starka stjärnor jämförs. Stjärna B ligger dubbelt så långt bort som stjärna A. Hur stor blir den observerade intensiteten från B?</p>","Strålningen sprids över en sfär vars area växer med avståndets kvadrat.",[
-    steg("Skriv inversa kvadratlagen","Intensiteten är \(I=L/(4\\pi r^2)\).","\\[I\\propto\\frac1{r^2}\\]"),
+    steg("Skriv inversa kvadratlagen","Intensiteten är \\(I=L/(4\\pi r^2)\\).","\\[I\\propto\\frac1{r^2}\\]"),
     steg("Jämför avstånden","När avståndet fördubblas blir nämnaren fyra gånger större.","\\[\\frac{I_B}{I_A}=\\left(\\frac{r_A}{2r_A}\\right)^2=\\frac14\\]")
   ],"Stjärna B ser en fjärdedel så ljusstark ut.","Skenbar ljusstyrka beror både på luminositet och avstånd.","Stjärnors färg, temperatur och ljusstyrka");
 
@@ -223,25 +223,25 @@
     steg("Identifiera området","I denna del finns vita dvärgar: små, heta stjärnrester.","\\[\\text{vit dvärg}\\]")
   ],"Stjärnan är troligast en vit dvärg.","En stjärnas massa avgör i stor utsträckning dess livslängd och slutstadium.","Stjärnors utveckling och HR-diagram");
 
-  add(5,"kosmologi","Hubbles lag","<p>En galax avlägsnar sig med 1400 km/s. Använd \(H_0=70\\ \mathrm{km\\,s^{-1}Mpc^{-1}}\) och bestäm avståndet.</p>","På stora skalor ökar recessionshastigheten ungefär linjärt med avståndet.",[
+  add(5,"kosmologi","Hubbles lag","<p>En galax avlägsnar sig med 1400 km/s. Använd \\(H_0=70\\ \mathrm{km\\,s^{-1}Mpc^{-1}}\\) och bestäm avståndet.</p>","På stora skalor ökar recessionshastigheten ungefär linjärt med avståndet.",[
     steg("Skriv Hubbles lag","Sambandet gäller universums expansion, inte vanlig rörelse genom rymden i närområdet.","\\[v=H_0d\\]"),
     steg("Lös ut avståndet","Enheterna är valda så att svaret blir i megaparsec.","\\[d=\\frac v{H_0}=\\frac{1400}{70}=20\\ \\mathrm{Mpc}\\]")
-  ],"Galaxens avstånd är ungefär \(20\\ \mathrm{Mpc}\).","Rödförskjutning används för att uppskatta recessionshastigheten.","Hubbles lag och rödförskjutning");
+  ],"Galaxens avstånd är ungefär \\(20\\ \mathrm{Mpc}\\).","Rödförskjutning används för att uppskatta recessionshastigheten.","Hubbles lag och rödförskjutning");
 
   add(5,"framtiden","Universums framtid","<p>Observationer visar att universums expansion accelererar. Vilken slutsats är rimlig om universums framtid enligt dagens standardmodell?</p>","Universums framtid beror på innehåll, densitet och hur den mörka energin beter sig.",[
     steg("Koppla observation till modell","Accelerationen tillskrivs i standardmodellen mörk energi.","\\[\\ddot a>0\\]"),
     steg("Dra en försiktig slutsats","Om mörk energi fortsätter på samma sätt fortsätter expansionen och avlägsna galaxer skiljs allt mer åt.","\\[\\text{fortsatt accelererad expansion}\\]")
   ],"Den enklaste slutsatsen är att expansionen fortsätter och accelererar.","Skilj mellan observationen och den modellberoende tolkningen.","Universums framtida utveckling");
 
-  add(6,"tidsdilatation","Beräkna tidsdilatation","<p>Ett rymdskepp färdas med \(0{,}80c\). Ombord går 3,0 år. Hur lång tid mäter jorden?</p>","Egentiden mäts av den klocka som följer med mellan händelserna.",[
-    steg("Beräkna gammafaktorn","Sätt \(v/c=0{,}80\).","\\[\\gamma=\\frac1{\\sqrt{1-v^2/c^2}}=\\frac1{\\sqrt{1-0{,}80^2}}=1{,}667\\]"),
+  add(6,"tidsdilatation","Beräkna tidsdilatation","<p>Ett rymdskepp färdas med \\(0{,}80c\\). Ombord går 3,0 år. Hur lång tid mäter jorden?</p>","Egentiden mäts av den klocka som följer med mellan händelserna.",[
+    steg("Beräkna gammafaktorn","Sätt \\(v/c=0{,}80\\).","\\[\\gamma=\\frac1{\\sqrt{1-v^2/c^2}}=\\frac1{\\sqrt{1-0{,}80^2}}=1{,}667\\]"),
     steg("Beräkna jordens tid","Den rörliga klockan går långsammare sedd från jorden.","\\[\\Delta t=\\gamma\\Delta\\tau=1{,}667\\cdot3{,}0=5{,}0\\ \\mathrm{år}\\]")
-  ],"På jorden går \(5{,}0\) år.","Egentiden är den kortaste tiden mellan de två händelserna.","Tidsdilatation och egentid");
+  ],"På jorden går \\(5{,}0\\) år.","Egentiden är den kortaste tiden mellan de två händelserna.","Tidsdilatation och egentid");
 
-  add(6,"langdkontraktion","Beräkna längdkontraktion","<p>Ett rymdskepp är 100 m långt i vila. Det passerar jorden med \(0{,}80c\). Hur långt mäts det från jorden?</p>","Egenlängden mäts i föremålets eget vilosystem.",[
-    steg("Använd samma gammafaktor","Vid \(0{,}80c\) är \(\\gamma=1{,}667\).","\\[\\gamma=1{,}667\\]"),
+  add(6,"langdkontraktion","Beräkna längdkontraktion","<p>Ett rymdskepp är 100 m långt i vila. Det passerar jorden med \\(0{,}80c\\). Hur långt mäts det från jorden?</p>","Egenlängden mäts i föremålets eget vilosystem.",[
+    steg("Använd samma gammafaktor","Vid \\(0{,}80c\\) är \\(\\gamma=1{,}667\\).","\\[\\gamma=1{,}667\\]"),
     steg("Beräkna den kontraherade längden","Kontraktionen sker i rörelseriktningen.","\\[L=\\frac{L_0}{\\gamma}=\\frac{100}{1{,}667}=60\\ \\mathrm m\\]")
-  ],"Från jorden mäts skeppet till \(60\\ \mathrm m\).","Egenlängden är alltid den största längden.","Längdkontraktion och egenlängd");
+  ],"Från jorden mäts skeppet till \\(60\\ \mathrm m\\).","Egenlängden är alltid den största längden.","Längdkontraktion och egenlängd");
 
   add(6,"tid_och_langd","Händelser och referenssystem","<p>Två blixtar slår ned samtidigt enligt en observatör på marken. Är de automatiskt samtidiga för en observatör som rör sig längs marken?</p>","Samtidighet på olika platser är inte absolut i den speciella relativitetsteorin.",[
     steg("Identifiera händelserna","Varje blixtnedslag är en händelse med en plats och en tid.","\\[(x_1,t_1),\\quad(x_2,t_2)\\]"),
@@ -249,14 +249,34 @@
   ],"Nej. Händelser som är samtidiga på marken behöver inte vara samtidiga i det rörliga systemet.","Fråga alltid i vilket referenssystem tid och längd är mätta.","Rumtid och referenssystem");
 
   add(6,"massa_och_energi","Massa som energi","<p>Hur mycket energi motsvarar massan 1,0 mg?</p>","Massa är en form av energi även när föremålet är i vila.",[
-    steg("Omvandla massan","Ett milligram är \(1{,}0\\cdot10^{-6}\) kg.","\\[m=1{,}0\\cdot10^{-6}\\ \\mathrm{kg}\\]"),
-    steg("Använd massa–energi-ekvivalensen","Sätt \(c=3{,}00\\cdot10^8\\ \mathrm{m/s}\).","\\[E=mc^2=1{,}0\\cdot10^{-6}(3{,}00\\cdot10^8)^2=9{,}0\\cdot10^{10}\\ \\mathrm J\\]")
-  ],"Massan motsvarar \(9{,}0\\cdot10^{10}\\ \mathrm J\).","Eftersom \(c^2\) är mycket stort motsvarar en liten massa mycket energi.","Massa–energi-ekvivalens");
+    steg("Omvandla massan","Ett milligram är \\(1{,}0\\cdot10^{-6}\\) kg.","\\[m=1{,}0\\cdot10^{-6}\\ \\mathrm{kg}\\]"),
+    steg("Använd massa–energi-ekvivalensen","Sätt \\(c=3{,}00\\cdot10^8\\ \mathrm{m/s}\\).","\\[E=mc^2=1{,}0\\cdot10^{-6}(3{,}00\\cdot10^8)^2=9{,}0\\cdot10^{10}\\ \\mathrm J\\]")
+  ],"Massan motsvarar \\(9{,}0\\cdot10^{10}\\ \mathrm J\\).","Eftersom \\(c^2\\) är mycket stort motsvarar en liten massa mycket energi.","Massa–energi-ekvivalens");
 
-  add(6,"relativistisk_energi","Relativistisk rörelseenergi","<p>En partikel med vilomassan \(m\) rör sig med \(0{,}80c\). Uttryck rörelseenergin i enheten \(mc^2\).</p>","Vid höga hastigheter används inte den klassiska formeln \(mv^2/2\).",[
-    steg("Beräkna gammafaktorn","För \(v=0{,}80c\) är \(\\gamma=1{,}667\).","\\[\\gamma=\\frac1{\\sqrt{1-0{,}80^2}}=1{,}667\\]"),
+  add(6,"relativistisk_energi","Relativistisk rörelseenergi","<p>En partikel med vilomassan \\(m\\) rör sig med \\(0{,}80c\\). Uttryck rörelseenergin i enheten \\(mc^2\\).</p>","Vid höga hastigheter används inte den klassiska formeln \\(mv^2/2\\).",[
+    steg("Beräkna gammafaktorn","För \\(v=0{,}80c\\) är \\(\\gamma=1{,}667\\).","\\[\\gamma=\\frac1{\\sqrt{1-0{,}80^2}}=1{,}667\\]"),
     steg("Använd relativistisk energi","Rörelseenergin är total energi minus viloenergi.","\\[E_k=(\\gamma-1)mc^2=(1{,}667-1)mc^2=0{,}667mc^2\\]")
-  ],"Rörelseenergin är \(0{,}667mc^2\).","Total energi är \(E=\\gamma mc^2\), medan viloenergin är \(E_0=mc^2\).","Relativistisk energi");
+  ],"Rörelseenergin är \\(0{,}667mc^2\\).","Total energi är \\(E=\\gamma mc^2\\), medan viloenergin är \\(E_0=mc^2\\).","Relativistisk energi");
+
+  add(3,"vaxelstrom","Transformatorns spänning","<p>En ideal transformator har 1200 varv på primärsidan och 120 varv på sekundärsidan. Primärspänningen är 230 V. Bestäm sekundärspänningen.</p>","Spänningarnas förhållande är samma som spolarnas varvtalsförhållande.",[
+    steg("Skriv sambandet","Koppla sekundärsidan till primärsidan.","\\[\\frac{U_s}{U_p}=\\frac{N_s}{N_p}\\]"),
+    steg("Sätt in värdena","Sekundärspolen har en tiondel så många varv.","\\[U_s=230\\cdot\\frac{120}{1200}=23\\ \\mathrm V\\]")
+  ],"Sekundärspänningen är \\(23\\ \\mathrm V\\).","Färre varv på sekundärsidan ger lägre spänning.","Generatorer och transformatorer");
+
+  add(4,"ljus_partikelstrom","Fotoelektrisk effekt","<p>En metall belyses med ljus över gränsfrekvensen. Vad händer med elektronernas maximala rörelseenergi när frekvensen ökar?</p>","Varje foton har energin hf. En del går åt till att frigöra elektronen.",[
+    steg("Använd energibalansen","Utträdesarbetet W är bestämt av metallen.","\\[E_{k,max}=hf-W\\]"),
+    steg("Öka frekvensen","När f ökar blir varje fotons energi större, medan W är oförändrat.","\\[f\\uparrow\\quad\\Rightarrow\\quad E_{k,max}\\uparrow\\]")
+  ],"Den maximala rörelseenergin ökar.","Högre intensitet ger främst fler fotoner; högre frekvens ger mer energi per foton.","Fotoelektrisk effekt och våg–partikeldualism");
+
+  add(4,"temperaturstralning","Jordens strålningsbalans","<p>Jorden absorberar i genomsnitt 240 W/m². Hur mycket måste stråla ut om medeltemperaturen är konstant?</p>","En konstant medeltemperatur kräver att systemets energi inte ökar eller minskar.",[
+    steg("Använd energiprincipen","I jämvikt är inkommande och utgående effekt lika stora.","\\[P_{in}=P_{ut}\\]"),
+    steg("Sätt in absorptionen","Samma effekt per kvadratmeter måste lämna systemet.","\\[P_{ut}=240\\ \\mathrm{W/m^2}\\]")
+  ],"Jorden måste stråla ut \\(240\\ \\mathrm{W/m^2}\\).","Om mindre energi lämnar än kommer in stiger systemets energi tills en ny jämvikt kan nås.","Jordens strålningsbalans");
+
+  add(4,"em_vagor","Välj strålning efter användning","<p>Varför passar radiovågor för kommunikation medan röntgenstrålning kan användas för att avbilda skelett?</p>","Olika frekvenser ger olika fotonenergi och olika växelverkan med materia.",[
+    steg("Radiovågor","De kan moduleras så att signalen bär information och har låg energi per foton.","\\[E=hf\\]"),
+    steg("Röntgenstrålning","Den tränger igenom mjukvävnad bättre än ben. Skillnaden i absorption skapar kontrast, men jonisationsrisken kräver låg dos.")
+  ],"Strålslaget väljs efter hur det sprids och växelverkar med material.","Teknisk nytta och risk måste bedömas med frekvens, intensitet, exponering och materialets absorption.","Fysik i kommunikations- och medicinteknik");
 
   window.TYPUPPGIFTER_FY2 = bank;
 })();

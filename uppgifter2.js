@@ -1,5 +1,5 @@
 /* Kvalitets- och nivåreviderad 2026-09-10.
- * Nivå följer högsta förekommande E/C/A-poäng; deluppgifter har egen nivå. */
+ * Kompletterad mot Gy25 med riktade kvalitetsuppgifter. */
 window.BANK2 = [
   {
     "id": "1.1",
@@ -19687,5 +19687,319 @@ window.BANK2 = [
     "svarEnhet": "W/m²",
     "familjNyckelFöreHierarki": "temperaturstralning__temperaturstralning_wien_och_stefan_boltzmann",
     "ledtrad": "<p>Sätt temperaturen i kelvin direkt i Stefan–Boltzmanns lag.</p>"
+  },
+  {
+    "id": "GY25-FY2-TR-01",
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En ideal transformator har 1200 varv i primärspolen och 120 varv i sekundärspolen. Primärspänningen är 230 V. Bestäm sekundärspänningen.</p>",
+    "s": "<p>För en ideal transformator gäller \\(U_s/U_p=N_s/N_p\\).</p><p>\\[U_s=230\\cdot\\frac{120}{1200}=23\\ \\mathrm V.\\]</p><p><strong>Svar:</strong> Sekundärspänningen är \\(23\\ \\mathrm V\\). Färre varv på sekundärsidan ger lägre spänning.</p>",
+    "familj": "Generatorer och transformatorer",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "tal",
+    "rättSvar": "23",
+    "tolerans": 0.2,
+    "självrättning": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Jämför spolarnas varvtal med spänningarna: \\(U_s/U_p=N_s/N_p\\).</p>"
+  },
+  {
+    "id": "GY25-FY2-TR-02",
+    "kap": 3,
+    "omr": "vaxelstrom",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En ideal transformator höjer spänningen från 10 kV till 400 kV. Strömmen på lågspänningssidan är 800 A. Bestäm strömmen på högspänningssidan och förklara varför hög spänning används vid överföring.</p>",
+    "s": "<p>I en ideal transformator är effekten lika på båda sidor:</p><p>\\[U_pI_p=U_sI_s.\\]</p><p>\\[I_s=\\frac{10\\,000\\cdot800}{400\\,000}=20\\ \\mathrm A.\\]</p><p>För samma överförda effekt ger högre spänning lägre ström. Ledningsförlusten är \\(P_{förlust}=I^2R\\), så den mindre strömmen minskar värmeförlusterna kraftigt.</p>",
+    "familj": "Generatorer och transformatorer",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Använd effektbevarande och koppla sedan strömmen till \\(I^2R\\)-förlusterna.</p>"
+  },
+  {
+    "id": "GY25-FY2-TR-03",
+    "kap": 3,
+    "omr": "induktion",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En generator ger sinusformad spänning. Beskriv två olika förändringar som ökar spänningens toppvärde och förklara dem med Faradays induktionslag.</p>",
+    "s": "<p>Faradays lag ger \\(|\\mathcal E|=N|d\\Phi/dt|\\). Toppvärdet kan därför ökas genom exempelvis fler varv \\(N\\), starkare magnetfält, större spolareal eller snabbare rotation.</p><p>Fler varv gör att samma flödesändring bidrar i fler ledarvarv. Snabbare rotation gör att magnetflödet genom spolen ändras snabbare. Båda ökar därför \\(|d\\Phi/dt|\\) eller faktorn framför den.</p><p><strong>Viktigt:</strong> Det räcker inte att bara säga ”mer magnetism”; förändringen måste kopplas till magnetiskt flöde och förändringstakt.</p>",
+    "familj": "Generatorer och transformatorer",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Utgå från \\(|\\mathcal E|=N|d\\Phi/dt|\\) och förändra en faktor i taget.</p>"
+  },
+  {
+    "id": "GY25-FY2-FOTO-01",
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vad händer med fotoelektronernas maximala rörelseenergi om ljusets frekvens ökas men intensiteten hålls oförändrad?</p>",
+    "s": "<p>Einsteins fotoelektriska ekvation är \\(E_{k,max}=hf-W\\). När frekvensen \\(f\\) ökar får varje foton större energi. Utträdesarbetet \\(W\\) är oförändrat för samma metall.</p><p><strong>Svar:</strong> Fotoelektronernas maximala rörelseenergi ökar.</p>",
+    "familj": "Fotoelektrisk effekt och våg–partikeldualism",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Använd \\(E_{k,max}=hf-W\\) och avgör vilken term som förändras.</p>"
+  },
+  {
+    "id": "GY25-FY2-FOTO-02",
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En metall har utträdesarbetet \\(2{,}2\\ \\mathrm{eV}\\) och belyses med fotoner med energin \\(3{,}5\\ \\mathrm{eV}\\). Bestäm fotoelektronernas maximala rörelseenergi och stoppspänningen.</p>",
+    "s": "<p>Energin som återstår efter utträdesarbetet blir rörelseenergi:</p><p>\\[E_{k,max}=3{,}5-2{,}2=1{,}3\\ \\mathrm{eV}.\\]</p><p>En elektronvolt motsvarar energin \\(eU\\). Därför ger \\(1{,}3\\ \\mathrm{eV}\\) stoppspänningen \\(1{,}3\\ \\mathrm V\\).</p><p><strong>Svar:</strong> \\(E_{k,max}=1{,}3\\ \\mathrm{eV}\\) och \\(U_s=1{,}3\\ \\mathrm V\\).</p>",
+    "familj": "Fotoelektrisk effekt och våg–partikeldualism",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Subtrahera först utträdesarbetet. Använd sedan \\(eU_s=E_{k,max}\\).</p>"
+  },
+  {
+    "id": "GY25-FY2-FOTO-03",
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I ett fotoelektriskt försök ger dubblerad ljusintensitet fler elektroner men samma stoppspänning. Dubblerad frekvens ger däremot större stoppspänning. Förklara båda resultaten med fotonmodellen.</p>",
+    "s": "<p>Högre intensitet vid oförändrad frekvens betyder fler fotoner per sekund. Fler fotoner kan frigöra fler elektroner, men varje foton har fortfarande energin \\(hf\\). Därför ändras inte den största energin per elektron eller stoppspänningen.</p><p>När frekvensen ökar får varje foton större energi. Efter att utträdesarbetet betalats återstår mer rörelseenergi, så \\(E_{k,max}=hf-W\\) och stoppspänningen ökar.</p><p>Resultatet visar varför ljusets energiöverföring måste beskrivas som kvantiserad.</p>",
+    "familj": "Fotoelektrisk effekt och våg–partikeldualism",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Skilj på antalet fotoner per sekund och energin hos varje enskild foton.</p>"
+  },
+  {
+    "id": "GY25-FY2-FOTO-04",
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Elektroner accelereras genom \\(150\\ \\mathrm V\\). Uppskatta deras de Broglie-våglängd utan relativistisk korrektion. Använd \\(\\lambda=h/p\\), \\(eU=p^2/(2m_e)\\).</p>",
+    "s": "<p>Elektronens elektriska energi blir rörelseenergi:</p><p>\\[eU=\\frac{p^2}{2m_e}\\Rightarrow p=\\sqrt{2m_e eU}.\\]</p><p>Med \\(m_e=9{,}11\\cdot10^{-31}\\ \\mathrm{kg}\\), \\(e=1{,}60\\cdot10^{-19}\\ \\mathrm C\\) och \\(h=6{,}626\\cdot10^{-34}\\ \\mathrm{Js}\\) fås</p><p>\\[\\lambda=\\frac{h}{\\sqrt{2m_e eU}}\\approx1{,}00\\cdot10^{-10}\\ \\mathrm m.\\]</p><p>Våglängden är i storleksordningen atomavstånd, vilket gör elektrondiffraktion möjlig.</p>",
+    "familj": "Fotoelektrisk effekt och våg–partikeldualism",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Lös först ut rörelsemängden ur energisambandet och sätt sedan in den i \\(\\lambda=h/p\\).</p>"
+  },
+  {
+    "id": "GY25-FY2-STR-01",
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Jorden tar i genomsnitt emot \\(240\\ \\mathrm{W/m^2}\\) från solen efter reflektion. Hur stor effekt per kvadratmeter måste jorden i jämvikt stråla ut till rymden?</p>",
+    "s": "<p>I långvarig strålningsjämvikt förändras inte jordens medelenergi. Utstrålad effekt måste då vara lika stor som absorberad effekt.</p><p><strong>Svar:</strong> Jorden måste stråla ut \\(240\\ \\mathrm{W/m^2}\\).</p><p>Om utstrålningen tillfälligt är mindre än absorptionen ökar jordens energi och temperaturen tenderar att stiga.</p>",
+    "familj": "Jordens strålningsbalans",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Använd energiprincipen för ett system vars medeltemperatur är konstant.</p>"
+  },
+  {
+    "id": "GY25-FY2-STR-02",
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En planets absorberade strålning ökar med 4 %. Anta att planeten strålar som en svart kropp och att dess nya jämviktstemperatur är \\(T_2\\). Bestäm kvoten \\(T_2/T_1\\).</p>",
+    "s": "<p>Stefan–Boltzmanns lag ger utstrålningen proportionell mot \\(T^4\\). I jämvikt måste därför</p><p>\\[\\frac{T_2^4}{T_1^4}=1{,}04.\\]</p><p>Ta fjärderoten:</p><p>\\[\\frac{T_2}{T_1}=1{,}04^{1/4}\\approx1{,}00985.\\]</p><p><strong>Svar:</strong> Temperaturen ökar med ungefär \\(0{,}99\\,\\%\\), inte med 4 %.</p>",
+    "familj": "Jordens strålningsbalans",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Effekten är proportionell mot temperaturens fjärde potens. Ta därför fjärderoten av effektkvoten.</p>"
+  },
+  {
+    "id": "GY25-FY2-STR-03",
+    "kap": 4,
+    "omr": "temperaturstralning",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Förklara varför en ökad växthuseffekt först skapar en energiobalans och varför jordytans temperatur därefter stiger mot en ny jämvikt.</p>",
+    "s": "<p>Om atmosfären tillfälligt minskar den utgående värmestrålningen medan den absorberade solstrålningen är ungefär oförändrad, kommer mer energi in än ut. Jordens system får då ett positivt energiflöde.</p><p>När temperaturen stiger ökar den termiska utstrålningen, ungefär enligt Stefan–Boltzmanns lag. Uppvärmningen fortsätter tills den utgående strålningen åter motsvarar den absorberade solenergin.</p><p><strong>Insikt:</strong> Den nya jämvikten kan ha samma in- och utflöde som tidigare men vid en högre temperatur.</p>",
+    "familj": "Jordens strålningsbalans",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Beskriv först obalansen mellan absorberad och utstrålad effekt. Koppla sedan temperaturen till utstrålningen.</p>"
+  },
+  {
+    "id": "GY25-FY2-TEK-01",
+    "kap": 4,
+    "omr": "em_vagor",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Varför används radiovågor för trådlös kommunikation medan röntgenstrålning används för avbildning av skelett? Förklara med frekvens, genomträngning och växelverkan med materia.</p>",
+    "s": "<p>Radiovågor har låg fotonenergi och kan moduleras för att bära information. De kan spridas över stora områden utan att jonisera materia.</p><p>Röntgenfotoner har mycket högre energi och tränger igenom mjukvävnad bättre än ben. Skillnaden i absorption skapar kontrast i bilden. Den högre energin innebär samtidigt jonisationsrisk, så dosen måste begränsas.</p>",
+    "familj": "Fysik i kommunikations- och medicinteknik",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Jämför både hur strålningen bär information och hur olika material absorberar den.</p>"
+  },
+  {
+    "id": "GY25-FY2-TEK-02",
+    "kap": 4,
+    "omr": "straloptik",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Ett fiberoptiskt system får stora förluster i en skarp böj. Förklara orsaken med totalreflektion och ange två sätt att minska problemet.</p>",
+    "s": "<p>I en rak fiber träffar ljuset gränsytan mellan kärna och mantel med en vinkel som ger totalreflektion. I en skarp böj förändras geometrin så att vissa strålar träffar gränsytan med för liten infallsvinkel. Då bryts en del av ljuset ut ur kärnan.</p><p>Förlusten kan minskas genom större böjradie och genom lämpligare skillnad i brytningsindex mellan kärna och mantel. Man kan också använda en fiber och våglängd som är avsedd för den aktuella installationen.</p>",
+    "familj": "Fysik i kommunikations- och medicinteknik",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Rita normalen lokalt i böjen och fundera på vad som händer med infallsvinkeln.</p>"
+  },
+  {
+    "id": "GY25-FY2-EXP-01",
+    "kap": 3,
+    "omr": "induktion",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En elev undersöker inducerad spänning som funktion av magnetens fart genom en spole. Beskriv vilka variabler som bör hållas konstanta och hur försöket kan göras mer tillförlitligt.</p>",
+    "s": "<p>Spolen, antalet varv, magneten, rörelseriktningen och magnetens bana genom spolen bör vara desamma. Farten är den oberoende variabeln och den maximala inducerade spänningen en möjlig beroende variabel.</p><p>Farten bör mätas nära spolen, inte uppskattas från handen. Gör flera mätningar vid varje fart, använd samma start- och stoppläge och redovisa medelvärde samt spridning. Ett diagram kan sedan visa om spänningen följer den förväntade modellen.</p>",
+    "familj": "Experiment, felberäkning och modellprövning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Identifiera oberoende, beroende och kontrollerade variabler. Lägg sedan till upprepningar och objektiv fartmätning.</p>"
+  },
+  {
+    "id": "GY25-FY2-EXP-02",
+    "kap": 2,
+    "omr": "pendlar",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En grupp bestämmer \\(g\\) med en pendel från \\(g=4\\pi^2L/T^2\\). De mäter \\(L=(0{,}800\\pm0{,}004)\\ \\mathrm m\\) och \\(T=(1{,}79\\pm0{,}02)\\ \\mathrm s\\). Bedöm vilken mätning som bidrar mest till den relativa osäkerheten i \\(g\\).</p>",
+    "s": "<p>Längden förekommer i första potens, så dess relativa bidrag är ungefär</p><p>\\[\\frac{\\Delta L}{L}=\\frac{0{,}004}{0{,}800}=0{,}5\\,\\%.\\]</p><p>Perioden är kvadrerad i nämnaren, så dess relativa bidrag blir ungefär</p><p>\\[2\\frac{\\Delta T}{T}=2\\frac{0{,}02}{1{,}79}\\approx2{,}2\\,\\%.\\]</p><p>Periodmätningen dominerar. Fler perioder bör därför tidtas tillsammans för att minska reaktionstidens relativa betydelse.</p>",
+    "familj": "Experiment, felberäkning och modellprövning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": true,
+    "geogebra": false,
+    "ledtrad": "<p>Jämför \\(\\Delta L/L\\) med \\(2\\Delta T/T\\), eftersom perioden är upphöjd till två.</p>"
+  },
+  {
+    "id": "GY25-FY2-EXP-03",
+    "kap": 4,
+    "omr": "ljus_partikelstrom",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I ett försök med fotoelektrisk effekt plottas stoppspänningen \\(U_s\\) mot frekvensen \\(f\\). Förklara vilken modell som bör anpassas och hur Plancks konstant kan bestämmas ur diagrammet.</p>",
+    "s": "<p>Fotoelektriska ekvationen kan skrivas</p><p>\\[eU_s=hf-W\\Rightarrow U_s=\\frac{h}{e}f-\\frac{W}{e}.\\]</p><p>En rät linje ska därför anpassas till mätpunkterna. Riktningskoefficienten är \\(k=h/e\\), så</p><p>\\[h=ek.\\]</p><p>Skärningen med \\(U_s\\)-axeln är \\(-W/e\\). Spridningen kring linjen och osäkerheten i lutningen bör redovisas; att bara använda två godtyckliga mätpunkter gör resultatet känsligare för mätfel.</p>",
+    "familj": "Experiment, felberäkning och modellprövning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "miniräknare": false,
+    "geogebra": false,
+    "ledtrad": "<p>Skriv om fotoelektriska ekvationen på formen \\(y=kx+m\\).</p>"
   }
 ];

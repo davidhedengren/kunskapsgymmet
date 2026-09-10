@@ -565,7 +565,7 @@
     [steg("Beräkna medelvärdet", "Addera värdena och dela med fyra.", "\\[\\bar x=\\frac{2+4+4+6}{4}=4\\]"),
      steg("Beräkna de kvadrerade avvikelserna", "Subtrahera medelvärdet 4 från varje värde och kvadrera.", "\\[(2-4)^2+(4-4)^2+(4-4)^2+(6-4)^2=8\\]"),
      steg("Ta roten ur medelvärdet", "Dividera med antalet värden och ta kvadratroten.", "\\[\\sigma=\\sqrt{\\frac84}=\\sqrt2\\approx1{,}4\\]")],
-    "Medelvärdet är 4 och standardavvikelsen är ungefär \(1{,}4\).",
+    "Medelvärdet är 4 och standardavvikelsen är ungefär \\(1{,}4\\).",
     "Om värdena är ett stickprov använder vissa verktyg n − 1 i nämnaren. Kontrollera om uppgiften frågar efter stickprovets eller hela materialets standardavvikelse.", "Standardavvikelse");
 
   add("ma2-grund-4-07", 4, "normalfordelat_material", ALL,

@@ -2618,6 +2618,26 @@ const KUNSKAP_IKON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" s
   +'<path d="M4 19V5.5A2 2 0 0 1 6 3.5h11.2a.8.8 0 0 1 .8.8v13.4a.8.8 0 0 1-.8.8H6a2 2 0 0 0-2 2Z"/>'
   +'<path d="M8 7.6h6M8 11h4"/></svg>';
 
+/* Matematiken i genomgångarna skrivs med \\( och \\[ i JS-källan, vilket
+   blir ett bakstreck i den färdiga strängen — det är vad KaTeX vill ha.
+   Skrivs ett bakstreck för mycket hamnar rå LaTeX på skärmen i stället
+   för formler. Felet är lätt att göra och svårt att se i källkoden, så
+   filen granskas en gång vid inläsningen. */
+function granskaGenomgangar(kurs){
+  const typ=window[kurs.typGlobal];
+  if(!typ) return;
+  const trasiga=[];
+  Object.entries(typ).forEach(([familj,g])=>{
+    const falt=[g.ram,g.svar,g.fallgrop,g.komihag]
+      .concat((g.steg||[]).map(s=>(s.text||"")+(s.matte||"")));
+    if(falt.some(x=>typeof x==="string" && /\\\\[[(]/.test(x))) trasiga.push(familj);
+  });
+  if(trasiga.length){
+    console.warn("Dubbla bakstreck i "+kurs.typfil+" — LaTeX visas som råtext i "
+      +trasiga.length+" delmoment:",trasiga);
+  }
+}
+
 function typData(){
   const c=COURSES[state.course];
   return (c&&c.typGlobal&&window[c.typGlobal]) || null;
@@ -3290,7 +3310,7 @@ async function selectCourse(id,opts){
     /* Genomgångarna är ett tillägg, inte en förutsättning. Saknas filen
        ska kursen fungera precis som förut — knappen döljs bara. */
     if(c.typfil && !window[c.typGlobal]){
-      try{ await loadScript(c.typfil); }
+      try{ await loadScript(c.typfil); granskaGenomgangar(c); }
       catch(e){ console.warn("Genomgångar kunde inte läsas in:",c.typfil,e); }
     }
     const bank=window[c.globals.bank];

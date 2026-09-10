@@ -1399,6 +1399,91 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .kaptrana.valj{background:var(--accSoft);border-color:transparent;color:var(--accInk)}
 
+/* ── "Det här behöver du kunna" ──
+   Knappen är alltid synlig, till skillnad från de andra kapitelknapparna.
+   Den är en ingång till stoffet, inte en genväg för den som redan hittat. */
+.kaptrana.kunskap{
+  opacity:1;transform:none;display:inline-flex;align-items:center;gap:6px;
+  border-color:var(--hair2);color:var(--ink2);
+}
+.kaptrana.kunskap svg{width:14px;height:14px;flex:none}
+.kaptrana.kunskap:hover{background:var(--goldSoft);color:var(--gold);border-color:transparent}
+@media(max-width:620px){.kaptrana.kunskap .kt-txt{display:none}.kaptrana.kunskap{padding:6px 9px}}
+
+.typ-kort{width:min(680px,100%)}
+.typ-stig{display:flex;align-items:center;gap:5px;margin:14px 0 2px;flex-wrap:wrap}
+.typ-stig i{
+  width:7px;height:7px;border-radius:50%;background:var(--hair2);flex:none;
+  transition:.25s var(--ease);
+}
+.typ-stig i.gjord{background:var(--ink3)}
+.typ-stig i.nu{width:20px;border-radius:99px;background:var(--acc)}
+.typ-rakn{margin-left:8px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink3)}
+
+.typ-omr{
+  font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink3);margin-top:16px;
+}
+.typ-familj{font-size:20px;letter-spacing:-.035em;margin:5px 0 0;line-height:1.2}
+
+.typ-block{margin-top:16px;border:1px solid var(--hair);border-radius:18px;overflow:hidden;background:var(--surface2)}
+.typ-block > .typ-lbl{
+  display:flex;align-items:center;gap:7px;padding:9px 15px;
+  font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink3);border-bottom:1px solid var(--hair);background:var(--surface);
+}
+.typ-block > .typ-lbl b{width:6px;height:6px;border-radius:50%;background:var(--acc);flex:none}
+.typ-block.losning > .typ-lbl b{background:var(--good)}
+.typ-kropp{padding:15px;font-family:var(--read);font-size:14.5px;line-height:1.65;color:var(--ink)}
+.typ-kropp > * + *{margin-top:10px}
+.typ-kropp p{margin:0}
+.typ-kropp ol,.typ-kropp ul{margin:0;padding-left:22px}
+.typ-kropp li + li{margin-top:6px}
+.typ-kropp img,.typ-kropp svg{max-width:100%;height:auto}
+.typ-kropp table{border-collapse:collapse;max-width:100%}
+.typ-kropp .katex-display{overflow-x:auto;overflow-y:hidden}
+
+.gg-ram{margin:11px 0 0;font-family:var(--read);font-size:14px;line-height:1.65;color:var(--ink2)}
+.gg-ram em{color:var(--ink);font-style:normal;font-weight:600}
+
+.gg-lista{list-style:none;margin:0;padding:0;counter-reset:none}
+.gg-steg{display:flex;gap:12px;align-items:flex-start}
+.gg-steg + .gg-steg{margin-top:16px;padding-top:16px;border-top:1px solid var(--hair)}
+.gg-nr{
+  flex:none;width:23px;height:23px;border-radius:8px;margin-top:1px;
+  display:grid;place-items:center;font-family:var(--mono);font-size:11px;font-weight:700;
+  background:var(--accSoft);color:var(--accInk);
+}
+.gg-txt{flex:1;min-width:0}
+.gg-txt h4{margin:0 0 5px;font-size:14px;letter-spacing:-.02em;line-height:1.35;color:var(--ink)}
+.gg-txt p{margin:0;font-size:13.5px;line-height:1.65;color:var(--ink2)}
+.gg-txt em{color:var(--ink);font-style:normal;font-weight:600}
+.gg-matte{margin-top:9px;padding:9px 12px;border-radius:12px;background:var(--surface);
+  border:1px solid var(--hair);overflow-x:auto;overflow-y:hidden}
+.gg-matte .katex-display{margin:0}
+.gg-matte .katex-display + .katex-display{margin-top:6px}
+.gg-svar{
+  margin:16px 0 0;padding:11px 13px;border-radius:12px;font-size:14px;line-height:1.6;
+  background:var(--goldSoft);border:1px solid rgba(190,145,50,.28);color:var(--ink);
+}
+
+.gg-ruta{margin-top:12px;padding:12px 14px;border-radius:14px;border:1px solid var(--hair);background:var(--surface2)}
+.gg-ruta p{margin:5px 0 0;font-family:var(--read);font-size:13.5px;line-height:1.6;color:var(--ink2)}
+.gg-ruta em{color:var(--ink);font-style:normal;font-weight:600}
+.gg-rlbl{font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3)}
+.gg-ruta.fel{border-color:rgba(176,124,25,.30);background:var(--amberSoft)}
+.gg-ruta.fel .gg-rlbl{color:var(--amber)}
+.gg-ruta.bar{border-color:var(--hair2)}
+
+.typ-nav{display:flex;align-items:center;gap:8px;margin-top:20px;flex-wrap:wrap}
+.typ-nav .spacer{flex:1}
+@media(max-width:520px){
+  .typ-familj{font-size:17px}
+  .typ-nav .btn{flex:1 1 auto}
+  .typ-nav .spacer{display:none}
+}
+
 .cheer{
   position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:20px;
   background:rgba(6,18,30,.46);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
@@ -1542,6 +1627,7 @@ const COURSES = {
     name:"Fysik nivå 1", code:"Fy1", subject:"Fysik",
     files:["struktur.js","uppgifter.js"],
     globals:{bank:"BANK",kap:"KAPNAMN",kapSpar:"KAPNAMNSPAR",omr:"OMR",grupp:"GRUPP"},
+    typfil:"typuppgifter-fy1.js", typGlobal:"TYPUPPGIFTER_FY1",
     tracks:[], tint:"#16A99A"
   },
   fy2:{
@@ -2499,6 +2585,9 @@ function chapterHead(kap,namn,omraden,tranaKnapp){
       ${CHEV}<span class="name">${esc(namn)}</span><span class="rule"></span>
       <span class="kdots">${dots}</span><span class="n">${omraden.length}</span>
     </button>
+    ${harKunskap(kap)?`<button class="kaptrana kunskap" onclick="oppnaKunskap('${esc(String(kap))}')"
+      title="Genomgången delmoment för delmoment i ${esc(namn)}"
+      aria-label="Det här behöver du kunna i ${esc(namn)}">${KUNSKAP_IKON}<span class="kt-txt">Det här behöver du kunna</span></button>`:""}
     ${tranaKnapp===false?"":`
       <button class="kaptrana" onclick="startChapter('${esc(String(kap))}')"
         title="Träna hela kapitlet">Träna allt</button>
@@ -2506,6 +2595,176 @@ function chapterHead(kap,namn,omraden,tranaKnapp){
         title="Välj flera områden att blanda">Välj flera</button>`}
   </div>`;
 }
+
+/* ═══════════════════════════════════════════════════════════
+   DET HÄR BEHÖVER DU KUNNA
+
+   Ett kort per delmoment i kapitlet: en handplockad typuppgift och
+   en genomgång av den.
+
+   Innehållet ligger i kursens genomgångsfil, inte i banken. Skälet
+   är att en genomgång är något annat än ett facit. Facit visar att
+   svaret stämmer; genomgången ska lära ut metoden, med ramen före
+   räkningen, ett resonemang till varje steg, det vanligaste felet
+   och regeln att bära vidare. Att generera det ur banken går inte.
+
+   Frågetexten hämtas däremot ur banken via fältet "uppgift", så att
+   typuppgiften aldrig glider isär från den uppgift eleven möter i
+   träningen. Delmoment som saknar genomgång visas inte alls — hellre
+   färre kort än ett kort som inte håller måttet.
+   ═══════════════════════════════════════════════════════════ */
+const KUNSKAP_IKON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" '
+  +'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+  +'<path d="M4 19V5.5A2 2 0 0 1 6 3.5h11.2a.8.8 0 0 1 .8.8v13.4a.8.8 0 0 1-.8.8H6a2 2 0 0 0-2 2Z"/>'
+  +'<path d="M8 7.6h6M8 11h4"/></svg>';
+
+function typData(){
+  const c=COURSES[state.course];
+  return (c&&c.typGlobal&&window[c.typGlobal]) || null;
+}
+
+/* Delmomenten tas i bankens ordning, som följer kursens gång.
+   Ett delmoment kan finnas i flera områden — mätosäkerhet dyker till
+   exempel upp både under enheter och under mätnoggrannhet — och ska
+   ändå bara ge ett kort. */
+function kunskapSteg(kap){
+  const typ=typData();
+  if(!typ) return [];
+  const poster=new Map(); let n=0;
+  getCards().filter(k=>String(k.kap)===String(kap)).forEach(k=>{
+    cardTaskPool(k).forEach(t=>{
+      const fs=(Array.isArray(t.familj)?t.familj:[t.familj]).filter(Boolean);
+      fs.forEach(f=>{
+        if(!typ[f]) return;
+        if(!poster.has(f)) poster.set(f,{ordn:n++,kort:k.key,omrNamn:k.name});
+      });
+    });
+  });
+  const bank=state.data?.bank||[];
+  return [...poster.entries()]
+    .sort((a,b)=>a[1].ordn-b[1].ordn)
+    .map(([familj,p])=>{
+      const g=typ[familj];
+      const uppgift=g.uppgift ? bank.find(x=>String(x.id)===String(g.uppgift)) : null;
+      if(g.uppgift && !uppgift){
+        console.warn('Genomgången för "'+familj+'" pekar på uppgift '+g.uppgift+' som inte finns i banken.');
+      }
+      /* Typuppgiften ska vara grunden i delmomentet, alltså E-nivå.
+         Varningen finns för den som redigerar innehållet — kortet visas
+         ändå, men en C- eller A-uppgift här är nästan alltid ett misstag. */
+      if(uppgift && String(uppgift.niva||"").toUpperCase()!=="E"){
+        console.warn('Typuppgiften '+g.uppgift+' för "'+familj+'" ligger på nivå '
+          +uppgift.niva+'. Typuppgifter bör vara E-nivå.');
+      }
+      return {kort:p.kort, omrNamn:p.omrNamn, familj, genomgang:g, uppgift};
+    });
+}
+function harKunskap(kap){ return kunskapSteg(kap).length>0; }
+
+function oppnaKunskap(kap){
+  const steg=kunskapSteg(kap);
+  if(!steg.length) return;
+  state.kunskap={kap:String(kap),steg,i:0};
+  const el=document.createElement("div");
+  el.className="modal"; el.id="kunskapsruta";
+  el.innerHTML=`<div class="modal-kort typ-kort" role="dialog" aria-modal="true"
+      aria-label="Det här behöver du kunna i ${esc(chapterName(kap))}">
+      <div class="modal-topp">
+        <div>
+          <div class="lbl">${esc(chapterName(kap))}</div>
+          <h2>Det här behöver du kunna</h2>
+        </div>
+        <button class="iconbtn" onclick="stangKunskap()" aria-label="Stäng">✕</button>
+      </div>
+      <div id="kunskapInnehall"></div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangKunskap(); });
+  ritaKunskap();
+  requestAnimationFrame(()=>el.classList.add("visa"));
+}
+function stangKunskap(){
+  const el=document.getElementById("kunskapsruta");
+  if(!el) return;
+  state.kunskap=null;
+  el.classList.remove("visa");
+  setTimeout(()=>el.remove(),250);
+}
+function kunskapGa(steg){
+  const k=state.kunskap; if(!k) return;
+  const ny=k.i+steg;
+  if(ny<0||ny>=k.steg.length) return;
+  k.i=ny; ritaKunskap();
+  const kort=document.querySelector("#kunskapsruta .modal-kort");
+  if(kort) kort.scrollTop=0;
+}
+function kunskapTrana(){
+  const k=state.kunskap; if(!k) return;
+  const s=k.steg[k.i]; if(!s) return;
+  stangKunskap();
+  startCardFamily(s.kort,s.familj);
+}
+function ritaKunskap(){
+  const host=document.getElementById("kunskapInnehall");
+  const k=state.kunskap;
+  if(!host||!k||!k.steg.length) return;
+  const s=k.steg[k.i], g=s.genomgang;
+  const prickar=k.steg.map((_,i)=>
+    `<i class="${i===k.i?"nu":(i<k.i?"gjord":"")}"></i>`).join("");
+
+  const stegHTML=(g.steg||[]).map((x,i)=>`
+    <li class="gg-steg">
+      <span class="gg-nr">${i+1}</span>
+      <div class="gg-txt">
+        <h4>${x.rubrik||""}</h4>
+        ${x.text?`<p>${x.text}</p>`:""}
+        ${x.matte?`<div class="gg-matte">${x.matte}</div>`:""}
+      </div>
+    </li>`).join("");
+
+  host.innerHTML=`
+    <div class="typ-stig" aria-hidden="true">${prickar}
+      <span class="typ-rakn">${k.i+1} / ${k.steg.length}</span></div>
+    <div class="typ-omr">${esc(s.omrNamn)}</div>
+    <h3 class="typ-familj">${esc(familyName(s.familj))}</h3>
+    ${g.ram?`<p class="gg-ram">${g.ram}</p>`:""}
+
+    ${s.uppgift?`<div class="typ-block">
+      <div class="typ-lbl"><b></b>Typuppgift</div>
+      <div class="typ-kropp">${s.uppgift.t||""}</div>
+    </div>`:""}
+
+    <div class="typ-block losning">
+      <div class="typ-lbl"><b></b>Genomgång</div>
+      <div class="typ-kropp">
+        <ol class="gg-lista">${stegHTML}</ol>
+        ${g.svar?`<p class="gg-svar"><strong>Svar:</strong> ${g.svar}</p>`:""}
+      </div>
+    </div>
+
+    ${g.fallgrop?`<div class="gg-ruta fel">
+      <span class="gg-rlbl">Vanligaste felet</span><p>${g.fallgrop}</p></div>`:""}
+    ${g.komihag?`<div class="gg-ruta bar">
+      <span class="gg-rlbl">Ta med dig</span><p>${g.komihag}</p></div>`:""}
+
+    <div class="typ-nav">
+      <button class="btn quiet sm" onclick="kunskapGa(-1)" ${k.i===0?"disabled":""}>← Föregående</button>
+      <button class="btn quiet sm" onclick="kunskapGa(1)" ${k.i>=k.steg.length-1?"disabled":""}>Nästa →</button>
+      <span class="spacer"></span>
+      <button class="btn primary" onclick="kunskapTrana()">Träna det här</button>
+    </div>`;
+  renderMath(host);
+}
+
+/* Piltangenter bläddrar och Escape stänger, men bara när kortet är öppet
+   och inget textfält har fokus. */
+document.addEventListener("keydown",e=>{
+  if(!state.kunskap||!document.getElementById("kunskapsruta")) return;
+  if(e.target&&e.target.closest&&e.target.closest("input,textarea,select")) return;
+  if(e.key==="Escape"){ e.preventDefault(); stangKunskap(); }
+  else if(e.key==="ArrowRight"){ e.preventDefault(); kunskapGa(1); }
+  else if(e.key==="ArrowLeft"){ e.preventDefault(); kunskapGa(-1); }
+});
 
 function playIn(root){
   root.querySelectorAll("[data-off]").forEach(el=>{ el.style.strokeDashoffset=el.getAttribute("stroke-dashoffset"); });
@@ -3028,6 +3287,12 @@ async function selectCourse(id,opts){
   if(card) card.classList.add("loading");
   try{
     for(const f of c.files) await loadScript(f);
+    /* Genomgångarna är ett tillägg, inte en förutsättning. Saknas filen
+       ska kursen fungera precis som förut — knappen döljs bara. */
+    if(c.typfil && !window[c.typGlobal]){
+      try{ await loadScript(c.typfil); }
+      catch(e){ console.warn("Genomgångar kunde inte läsas in:",c.typfil,e); }
+    }
     const bank=window[c.globals.bank];
     const kap=window[c.globals.kap] || {};
 

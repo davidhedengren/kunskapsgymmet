@@ -377,5 +377,233 @@
     "Pröva i första hand en exponentialmodell.",
     "Konstant skillnad pekar mot linjär modell; konstant faktor pekar mot exponentialmodell.", "Välja och granska regressionsmodeller");
 
+  // Kapitel 3: Geometri
+  add("ma2-grund-3-01", 3, "geometriska_begrepp_definitioner", BC,
+    "Känna igen geometriska begrepp",
+    "<p>Förklara kort begreppen <strong>korda</strong>, <strong>diameter</strong> och <strong>bisektris</strong>.</p>",
+    "En tydlig definition ska tala om vad begreppet är, inte bara peka ut ett exempel.",
+    [steg("Korda och diameter", "En korda är en sträcka mellan två punkter på en cirkel. En diameter är en korda som går genom medelpunkten."),
+     steg("Bisektris", "En bisektris delar en vinkel i två lika stora vinklar.", "\\[\\angle 1=\\angle 2\\]")],
+    "En korda förenar två punkter på cirkeln, en diameter går dessutom genom medelpunkten och en bisektris halverar en vinkel.",
+    "Alla diametrar är kordor, men alla kordor är inte diametrar.", "Identifiera geometriska begrepp");
+
+  add("ma2-grund-3-02", 3, "sats_bevis", BC,
+    "Förstå vad ett bevis visar",
+    "<p>Varför räcker inte tre ritade exempel som bevis för att ett påstående gäller för alla trianglar?</p>",
+    "Exempel kan visa att ett påstående verkar rimligt. Ett bevis måste bygga på definitioner och kända satser så att alla möjliga fall omfattas.",
+    [steg("Se begränsningen", "Tre figurer visar bara att påståendet fungerar i just de tre fallen."),
+     steg("Beskriv kravet på ett bevis", "Resonemanget måste visa varför påståendet följer för varje triangel som uppfyller villkoren.")],
+    "Exemplen omfattar inte alla trianglar. Det behövs ett generellt logiskt resonemang.",
+    "En figur hjälper dig att tänka, men figurens utseende är inte i sig ett bevis.", "Förstå och genomföra geometriska bevis");
+
+  add("ma2-grund-3-03", 3, "implikation_ekvivalens", BC,
+    "Skilj på implikation och ekvivalens",
+    "<p>Avgör vilket samband som gäller: ”x = 4” och ”x² = 16”, för reella x.</p>",
+    "Implikation betyder att det första påståendet medför det andra. Ekvivalens kräver att sambandet gäller åt båda hållen.",
+    [steg("Pröva framåt", "Om x = 4 är x² = 16. Den riktningen är sann.", "\\[x=4\\Rightarrow x^2=16\\]"),
+     steg("Pröva bakåt", "x² = 16 ger både x = 4 och x = −4. Därför följer inte x = 4.", "\\[x^2=16\\nRightarrow x=4\\]")],
+    "Det gäller en implikation \\(x=4\\Rightarrow x^2=16\\), men inte en ekvivalens.",
+    "För att använda ⇔ måste du kontrollera båda riktningarna.", "Implikation och ekvivalens");
+
+  add("ma2-grund-3-04", 3, "yttervinkelsatsen", BC,
+    "Använd yttervinkelsatsen",
+    "<p>En yttervinkel i en triangel är 137°. Den ena motstående inre vinkeln är 58°. Bestäm den andra.</p>",
+    "En yttervinkel är lika stor som summan av de två motstående inre vinklarna.",
+    [steg("Skriv sambandet", "Låt den okända motstående vinkeln vara x.", "\\[137^\\circ=58^\\circ+x\\]"),
+     steg("Lös ut vinkeln", "Subtrahera 58° från båda led.", "\\[x=137^\\circ-58^\\circ=79^\\circ\\]")],
+    "Den andra motstående inre vinkeln är \\(79^\\circ\\).",
+    "Använd de två inre vinklar som inte ligger intill yttervinkeln.", "Yttervinkelsatsen");
+
+  const cirkelFigur = '<svg class="dg" xmlns="http://www.w3.org/2000/svg" width="360" height="250" viewBox="0 0 360 250" role="img" aria-label="Cirkel med medelpunkten M, punkterna A och B samt randpunkten C"><circle class="dg-form" cx="180" cy="128" r="92"/><line class="dg-grenar" x1="180" y1="128" x2="121" y2="198"/><line class="dg-grenar" x1="180" y1="128" x2="239" y2="198"/><line class="dg-form" x1="180" y1="36" x2="121" y2="198"/><line class="dg-form" x1="180" y1="36" x2="239" y2="198"/><circle class="dg-matt" cx="180" cy="128" r="4"/><circle class="dg-matt" cx="121" cy="198" r="4"/><circle class="dg-matt" cx="239" cy="198" r="4"/><circle class="dg-matt" cx="180" cy="36" r="4"/><text class="dg-txt" x="194" y="124">M</text><text class="dg-txt" x="105" y="216">A</text><text class="dg-txt" x="246" y="216">B</text><text class="dg-txt" x="180" y="24" text-anchor="middle">C</text><text class="dg-etikett" x="180" y="178" text-anchor="middle">80°</text><text class="dg-etikett" x="180" y="72" text-anchor="middle">x</text></svg>';
+  add("ma2-grund-3-05", 3, "randvinkel_medelpunkt", BC,
+    "Beräkna en randvinkel",
+    "<p>Medelpunktsvinkeln ∠AMB är 80°. Bestäm randvinkeln ∠ACB.</p>" + cirkelFigur,
+    "En randvinkel är hälften så stor som medelpunktsvinkeln över samma cirkelbåge.",
+    [steg("Kontrollera cirkelbågen", "Både ∠AMB och ∠ACB spänner över bågen AB."),
+     steg("Halvera medelpunktsvinkeln", "Randvinkeln är hälften av 80°.", "\\[x=\\frac{80^\\circ}{2}=40^\\circ\\]")],
+    "Randvinkeln är \\(40^\\circ\\).",
+    "Medelpunktsvinkel = 2 · randvinkel, när vinklarna hör till samma båge.", "Randvinkel och medelpunktsvinkel");
+
+  add("ma2-grund-3-06", 3, "pythagoras", ALL,
+    "Beräkna en längd med Pythagoras sats",
+    "<p>En rätvinklig triangel har kateterna 7 cm och 24 cm. Bestäm hypotenusan.</p>",
+    "I en rätvinklig triangel gäller \\(a^2+b^2=c^2\\), där c är hypotenusan mitt emot den räta vinkeln.",
+    [steg("Sätt in kateterna", "Hypotenusan är den okända sidan c.", "\\[7^2+24^2=c^2\\]"),
+     steg("Beräkna c²", "Addera kvadraterna.", "\\[49+576=625=c^2\\]"),
+     steg("Ta kvadratroten", "En längd är positiv.", "\\[c=\\sqrt{625}=25\\]")],
+    "Hypotenusan är \\(25\\) cm.",
+    "Pythagoras sats får bara användas direkt i rätvinkliga trianglar.", "Beräkna längder med Pythagoras sats");
+
+  add("ma2-grund-3-07", 3, "likformighet", BC,
+    "Beräkna med likformighet",
+    "<p>Två trianglar är likformiga. En sida på 6 cm i den lilla motsvarar 15 cm i den stora. En annan sida i den lilla är 8 cm. Hur lång är motsvarande sida i den stora?</p>",
+    "I likformiga figurer är kvoten mellan motsvarande längder densamma.",
+    [steg("Bestäm längdskalan", "Dela en stor sida med motsvarande liten sida.", "\\[k=\\frac{15}{6}=2{,}5\\]"),
+     steg("Skala den andra sidan", "Multiplicera den lilla längden med 2,5.", "\\[8\\cdot2{,}5=20\\]")],
+    "Sidan i den stora triangeln är \\(20\\) cm.",
+    "Skriv motsvarande sidor i samma ordning i alla kvoter.", "Likformighet, skala och indirekt mätning");
+
+  add("ma2-grund-3-08", 3, "topptriangel_transversal", BC,
+    "Använd topptriangelsatsen",
+    "<p>I triangeln ABC är DE parallell med BC. AD = 4, DB = 8 och DE = 5. Bestäm BC.</p>",
+    "När DE är parallell med BC är topptriangeln ADE likformig med hela triangeln ABC.",
+    [steg("Bestäm hela sidan AB", "AD och DB ligger efter varandra.", "\\[AB=4+8=12\\]"),
+     steg("Skriv en kvot", "DE motsvarar BC och AD motsvarar AB.", "\\[\\frac{DE}{BC}=\\frac{AD}{AB}=\\frac4{12}\\]"),
+     steg("Lös ut BC", "Den stora triangeln har tre gånger så långa sidor.", "\\[BC=3\\cdot5=15\\]")],
+    "\\(BC=15\\).",
+    "Använd hela sidan i den stora triangeln, inte bara den nedre delsträckan.", "Beräkna med topptriangelsatsen");
+
+  add("ma2-grund-3-09", 3, "bevis_likformighet", BC,
+    "Visa att två trianglar är likformiga",
+    "<p>Två trianglar har vardera en vinkel på 50° och en vinkel på 70°. Förklara varför trianglarna är likformiga.</p>",
+    "Två trianglar är likformiga om två vinklar i den ena är lika stora som två vinklar i den andra.",
+    [steg("Jämför två vinklar", "Båda trianglarna har vinklarna 50° och 70°."),
+     steg("Dra slutsatsen", "Vinkel–vinkel-villkoret är uppfyllt. Den tredje vinkeln blir dessutom 60° i båda.", "\\[180^\\circ-50^\\circ-70^\\circ=60^\\circ\\]")],
+    "Trianglarna är likformiga enligt vinkel–vinkel.",
+    "Ett likformighetsbevis ska ange både vilka vinklar eller sidkvoter som är lika och vilket villkor som används.", "Bevis med likformighet");
+
+  add("ma2-grund-3-10", 3, "kordasatsen_biskarningssatsen", BC,
+    "Använd kordasatsen",
+    "<p>Två kordor AB och CD skär varandra i P. AP = 5, PB = 6 och CP = 3. Bestäm PD.</p>",
+    "För två kordor som skär varandra inne i en cirkel gäller \\(AP\\cdot PB=CP\\cdot PD\\).",
+    [steg("Sätt in längderna", "Låt den okända sträckan PD vara x.", "\\[5\\cdot6=3\\cdot x\\]"),
+     steg("Lös ut x", "Dividera båda led med 3.", "\\[x=\\frac{30}{3}=10\\]")],
+    "\\(PD=10\\).",
+    "Multiplicera de två delarna på samma korda med varandra.", "Beräkna sträckor med kordasatsen");
+
+  add("ma2-grund-3-11", 3, "avstandsformeln_mittpunktsformeln", ALL,
+    "Bestäm avstånd och mittpunkt",
+    "<p>Punkterna är A(1, 2) och B(7, 10). Bestäm sträckan AB och sträckans mittpunkt.</p>",
+    "Koordinatskillnaderna är kateter i en rätvinklig triangel. Mittpunkten fås genom medelvärdet av respektive koordinat.",
+    [steg("Beräkna koordinatskillnaderna", "Skillnaden i x-led är 6 och i y-led 8.", "\\[\\Delta x=7-1=6,\\quad\\Delta y=10-2=8\\]"),
+     steg("Bestäm avståndet", "Använd Pythagoras sats.", "\\[AB=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\]"),
+     steg("Bestäm mittpunkten", "Ta medelvärdet av x-koordinaterna och y-koordinaterna.", "\\[M=\\left(\\frac{1+7}{2},\\frac{2+10}{2}\\right)=(4,6)\\]")],
+    "\\(AB=10\\) och mittpunkten är \\((4,6)\\).",
+    "Blanda inte ihop x- och y-koordinater när du beräknar mittpunkten.", "Avstånd och mittpunkt i koordinatsystem");
+
+  add("ma2-grund-3-12", 3, "koordinatgeometri_problemlosning", ALL,
+    "Kontrollera en rät vinkel med koordinater",
+    "<p>Punkterna är A(0, 0), B(4, 0) och C(4, 3). Visa att triangeln ABC är rätvinklig.</p>",
+    "Beräkna sidlängderna och kontrollera om den längsta sidan uppfyller Pythagoras sats.",
+    [steg("Bestäm sidlängderna", "AB är horisontell och BC vertikal. Avståndsformeln ger AC.", "\\[AB=4,\\quad BC=3,\\quad AC=\\sqrt{4^2+3^2}=5\\]"),
+     steg("Kontrollera Pythagoras", "Den längsta sidan är AC.", "\\[AB^2+BC^2=4^2+3^2=25=AC^2\\]")],
+    "Triangeln är rätvinklig i B.",
+    "När Pythagoras likhet gäller är vinkeln mellan de två kortare sidorna rät.", "Koordinatgeometrisk problemlösning");
+
+  // Kapitel 4: Statistik
+  add("ma2-grund-4-01", 4, "lagesmatt", ALL,
+    "Bestäm medelvärde, median och typvärde",
+    "<p>Bestäm medelvärde, median och typvärde för talen 2, 4, 4, 5, 10.</p>",
+    "Medelvärdet använder alla värden. Medianen är det mittersta sorterade värdet. Typvärdet är det vanligaste.",
+    [steg("Beräkna medelvärdet", "Addera värdena och dela med antalet.", "\\[\\bar x=\\frac{2+4+4+5+10}{5}=5\\]"),
+     steg("Bestäm medianen", "Talen är redan sorterade; det tredje talet ligger i mitten.", "\\[\\text{median}=4\\]"),
+     steg("Bestäm typvärdet", "4 förekommer två gånger och övriga en gång.", "\\[\\text{typvärde}=4\\]")],
+    "Medelvärdet är 5, medianen 4 och typvärdet 4.",
+    "Sortera alltid materialet innan du bestämmer medianen.", "Lägesmått");
+
+  add("ma2-grund-4-02", 4, "kvartiler_percentiler", ALL,
+    "Bestäm median och kvartiler",
+    "<p>Bestäm median, undre kvartil och övre kvartil för 2, 3, 5, 7, 8, 10, 12, 15.</p>",
+    "Medianen delar materialet i två halvor. Kvartilerna är medianerna i den undre respektive övre halvan.",
+    [steg("Bestäm medianen", "Det finns åtta värden, så ta medelvärdet av det fjärde och femte.", "\\[Q_2=\\frac{7+8}{2}=7{,}5\\]"),
+     steg("Bestäm undre kvartilen", "Medianen i 2, 3, 5, 7 är medelvärdet av 3 och 5.", "\\[Q_1=4\\]"),
+     steg("Bestäm övre kvartilen", "Medianen i 8, 10, 12, 15 är medelvärdet av 10 och 12.", "\\[Q_3=11\\]")],
+    "\\(Q_1=4\\), medianen är \\(7{,}5\\) och \\(Q_3=11\\).",
+    "Olika digitala verktyg kan använda något olika kvartildefinitioner; följ kursens eller verktygets metod konsekvent.", "Bestämma median och kvartiler");
+
+  add("ma2-grund-4-03", 4, "ladagram", ALL,
+    "Tolka ett lådagram",
+    "<p>Ett lådagram har min = 2, Q₁ = 5, median = 8, Q₃ = 12 och max = 17. Bestäm kvartilavståndet och variationsbredden.</p>",
+    "Lådan går från Q₁ till Q₃. Hela diagrammet går från minsta till största värdet.",
+    [steg("Beräkna kvartilavståndet", "Subtrahera den undre kvartilen från den övre.", "\\[Q_3-Q_1=12-5=7\\]"),
+     steg("Beräkna variationsbredden", "Subtrahera minsta värdet från största.", "\\[17-2=15\\]")],
+    "Kvartilavståndet är 7 och variationsbredden är 15.",
+    "Medianstrecket delar lådan, men behöver inte ligga mitt i den.", "Lådagram");
+
+  add("ma2-grund-4-04", 4, "linjar_regression", BC,
+    "Tolka en regressionslinje och göra en prognos",
+    "<p>En regressionsmodell är y = 2,4x + 18, där x är antal studietimmar och y är provpoäng. Tolka koefficienterna och beräkna prognosen för 10 timmar.</p>",
+    "Riktningskoefficienten beskriver modellens genomsnittliga förändring per x-enhet. Konstanttermen är modellens y-värde när x = 0.",
+    [steg("Tolka koefficienterna", "2,4 betyder 2,4 poäng mer per extra studietimme. 18 är modellens poäng vid 0 timmar."),
+     steg("Gör prognosen", "Sätt in x = 10. Det insatta värdet markeras rött.", "\\[y=2{,}4\\cdot{\\color{#D1495B}{10}}+18=42\\]")],
+    "Modellen ökar med 2,4 poäng per timme, har startvärdet 18 och ger prognosen 42 poäng vid 10 timmar.",
+    "En regressionsmodell beskriver ett mönster i data, inte en exakt regel för varje individ.", "Tolka koefficienter i en regressionsmodell");
+
+  add("ma2-grund-4-05", 4, "korrelation_koefficient", BC,
+    "Tolka korrelation utan att påstå kausalitet",
+    "<p>Ett datamaterial har korrelationskoefficienten r = −0,92 mellan utomhustemperatur och uppvärmningskostnad. Vad säger värdet – och vad säger det inte?</p>",
+    "Tecknet visar sambandets riktning och avståndet från noll visar styrkan i det linjära sambandet.",
+    [steg("Tolka tecknet", "Det negativa tecknet betyder att högre temperatur brukar höra ihop med lägre kostnad."),
+     steg("Tolka styrkan", "|r| = 0,92 ligger nära 1 och visar ett starkt negativt linjärt samband.", "\\[|r|=0{,}92\\]"),
+     steg("Avgränsa slutsatsen", "Korrelationen visar inte ensam att den ena variabeln orsakar den andra. För kausalitet behövs mer kunskap och en rimlig mekanism.")],
+    "Det finns ett starkt negativt linjärt samband. r-värdet bevisar inte i sig ett orsakssamband.",
+    "Korrelation beskriver samvariation; kausalitet handlar om orsak.", "Tolka korrelationskoefficient");
+
+  add("ma2-grund-4-06", 4, "standardavvikelse", ALL,
+    "Tolka standardavvikelse",
+    "<p>Två löpare har samma medeltid. Löpare A har standardavvikelsen 0,08 s och löpare B 0,31 s. Vem springer jämnast?</p>",
+    "Standardavvikelsen beskriver hur mycket värdena typiskt avviker från medelvärdet. Ett mindre värde betyder mindre spridning.",
+    [steg("Jämför spridningen", "0,08 s är mindre än 0,31 s.", "\\[0{,}08<0{,}31\\]"),
+     steg("Tolka i sammanhanget", "A:s tider ligger i regel närmare A:s medeltid och är därför jämnare.")],
+    "Löpare A springer jämnast.",
+    "Standardavvikelsen säger något om spridningen, inte i sig vem som har bäst medelvärde.", "Standardavvikelse");
+
+  add("ma2-grund-4-07", 4, "normalfordelat_material", ALL,
+    "Använd 68–95–99,7-regeln",
+    "<p>Ett normalfördelat material har medelvärdet 100 och standardavvikelsen 15. Mellan vilka värden ligger ungefär 95 % av observationerna?</p>",
+    "I en normalfördelning ligger ungefär 68 % inom en standardavvikelse och ungefär 95 % inom två standardavvikelser från medelvärdet.",
+    [steg("Beräkna två standardavvikelser", "Två standardavvikelser är 2·15 = 30.", "\\[2\\sigma=30\\]"),
+     steg("Bestäm gränserna", "Subtrahera och addera 30 till medelvärdet.", "\\[100-30=70,\\quad100+30=130\\]")],
+    "Ungefär 95 % ligger mellan 70 och 130.",
+    "Rita gärna en enkel normalfördelningskurva och markera medelvärdet innan du räknar.", "Sannolikhet i normalfördelning");
+
+  add("ma2-grund-4-08", 4, "normalfordelning_digitala_verktyg", ALL,
+    "Beräkna normalfördelningssannolikhet digitalt",
+    "<p>X är normalfördelad med μ = 72 och σ = 8. Bestäm med ett digitalt verktyg P(65 ≤ X ≤ 80).</p>",
+    "Välj normalfördelning, skriv in medelvärde och standardavvikelse och ange både en undre och en övre gräns.",
+    [steg("Ställ in fördelningen", "Ange μ = 72 och σ = 8."),
+     steg("Ange intervallet", "Välj området mellan 65 och 80.", "\\[P(65\\le X\\le80)\\]"),
+     steg("Läs av och avrunda", "Verktyget ger ungefär 0,651.", "\\[P\\approx0{,}651=65{,}1\\,\\%\\]")],
+    "Sannolikheten är ungefär \\(65{,}1\\,\\%\\).",
+    "Kontrollera att du har valt området mellan gränserna och inte de två svansarna.", "Sannolikhet i normalfördelning");
+
+  // Kapitel 5: Programspecifika tillämpningar
+  add("ma2-grund-5-01", 5, "ekonomiprogrammet", ["2b"],
+    "Tolka en ekonomisk regressionsmodell",
+    "<p>En modell för reklamkostnad och veckoförsäljning är y = 18,5x + 240, där båda beloppen anges i tusen kronor. Tolka talen 18,5 och 240.</p>",
+    "Koefficienterna ska alltid beskrivas med variablernas enheter och betydelse.",
+    [steg("Tolka riktningskoefficienten", "När reklamkostnaden ökar med 1 000 kr förutsäger modellen att försäljningen ökar med 18 500 kr."),
+     steg("Tolka konstanttermen", "Vid 0 kr i reklamkostnad förutsäger modellen en veckoförsäljning på 240 000 kr.")],
+    "18,5 är modellens ökning i försäljning per extra tusen kronor reklam. 240 är den förutsagda försäljningen utan reklamkostnad.",
+    "Skriv aldrig bara ”ökningen är 18,5” – ta med både enhet och per vad.", "Linjär regression och prognoser");
+
+  add("ma2-grund-5-02", 5, "vard_omsorgsprogrammet", ["2a"],
+    "Använd en linjär modell i vård och omsorg",
+    "<p>Tiden för dokumentation modelleras med T(n) = 14n + 30 minuter, där n är antal ärenden. Tolka talen och beräkna T(12).</p>",
+    "I en linjär modell är koefficienten framför variabeln tid per ärende och konstanttermen fast tid.",
+    [steg("Tolka modellen", "14 betyder 14 minuter per ärende och 30 betyder 30 minuters fast tid."),
+     steg("Sätt in antalet ärenden", "Ersätt n med 12. Det insatta värdet markeras rött.", "\\[T({\\color{#D1495B}{12}})=14\\cdot{\\color{#D1495B}{12}}+30=198\\]")],
+    "Det tar enligt modellen 198 minuter. Talen betyder 14 min/ärende och 30 min fast tid.",
+    "Kontrollera om modellens svar är rimligt i den praktiska situationen.", "Växla mellan graf, tabell, formel och situation för linjära funktioner");
+
+  add("ma2-grund-5-03", 5, "vvs_fastighetsprogrammet", ["2a"],
+    "Använd en potensmodell för tryckfall",
+    "<p>Tryckfallet i en kanal modelleras med Δp = 0,018q², där q är luftflödet i L/s. Beräkna tryckfallet när q = 120 L/s.</p>",
+    "Sätt in luftflödet med rätt enhet och räkna kvadraten före multiplikationen.",
+    [steg("Sätt in q", "Ersätt q med 120. Det insatta värdet markeras rött.", "\\[\\Delta p=0{,}018\\cdot{\\color{#D1495B}{120}}^2\\]"),
+     steg("Beräkna", "120² = 14 400.", "\\[\\Delta p=0{,}018\\cdot14400=259{,}2\\]")],
+    "Tryckfallet är \\(259{,}2\\) Pa.",
+    "Om luftflödet fördubblas blir tryckfallet fyra gånger så stort i denna modell.", "Tolka och använda potensfunktioner");
+
+  add("ma2-grund-5-04", 5, "samhallsvetenskapsprogrammet", ["2b"],
+    "Lös ett undersökningsproblem med ekvationssystem",
+    "<p>En undersökning får 320 svar. Ett webbsvar tar 2 minuter att behandla och ett telefonsvar 6 minuter. Totalt tar behandlingen 960 minuter. Bestäm antalet av varje sort.</p>",
+    "Låt variablerna stå för antalen och skriv en ekvation för totalantalet och en för totaltiden.",
+    [steg("Skriv systemet", "Låt x vara webbsvar och y telefonsvar.", "\\[x+y=320,\\quad2x+6y=960\\]"),
+     steg("Substituera", "Använd x = 320 − y i tidsekvationen.", "\\[2(320-y)+6y=960\\Rightarrow4y=320\\Rightarrow y=80\\]"),
+     steg("Bestäm x", "Ta resten av de 320 svaren.", "\\[x=320-80=240\\]")],
+    "Undersökningen har 240 webbsvar och 80 telefonsvar.",
+    "Kontrollera både antalet svar och den sammanlagda tiden.", "Ekvationssystem i tillämpningar");
+
   window.TYPUPPGIFTER_MA2 = bank;
 })();

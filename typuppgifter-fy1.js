@@ -1,6 +1,8 @@
 /* Grundgenomgångar för Fysik 1 i Kunskapsgymmet.
  * kap och omr anger placering; objektens ordning anger läsordning.
  * t och steg hör ihop och redigeras tillsammans.
+ * Ett steg kan ha figur (SVG) som visas mellan text och matte. Figurer
+ * använder dg-klasserna i index.html så att de följer tema och mörkt läge.
  * traningsfamilj är valfri och använder bankens oförändrade familjenamn.
  * Saknas familj leder träningsknappen till området.
  */
@@ -172,21 +174,33 @@ window.TYPUPPGIFTER_FY1 = {
     "omr": "densitet",
     "rubrik": "Densitet från mätningar",
     "niva": "E",
-    "t": "<p>Två bitar av samma material ger följande mätvärden. Bestäm densiteten med hjälp av varje mätning.</p><table class=\"data\"><tr><th>Volym (cm³)</th><th>Massa (g)</th></tr><tr><td>10</td><td>27</td></tr><tr><td>20</td><td>55</td></tr></table>",
-    "ram": "När du mäter massa och volym för flera bitar av samma material kan du undersöka om kvoten mellan dem är ungefär konstant.",
+    "t": "<p>Elin vill bestämma densiteten hos en vätska. Hon häller olika mycket vätska i ett mätglas och väger mätglaset med vätskan i efter varje påfyllning.</p><table class=\"data\"><tr><th>Volym <i>V</i> (cm³)</th><th>Massa <i>m</i> (g)</th></tr><tr><td>20</td><td>69</td></tr><tr><td>40</td><td>82</td></tr><tr><td>60</td><td>102</td></tr><tr><td>80</td><td>114</td></tr><tr><td>100</td><td>133</td></tr></table><p>Bestäm vätskans densitet genom att anpassa en rät linje till mätvärdena.</p>",
+    "ram": "Med flera mätningar får du ett säkrare värde om du ritar en linje genom alla punkterna i stället för att lita på en enda mätning. Linjens lutning visar hur mycket massan ökar för varje kubikcentimeter vätska du fyller på. Det är precis vad densitet betyder.",
     "steg": [
       {
-        "rubrik": "Beräkna kvoten för varje bit",
-        "text": "Dela massan med volymen, precis som när du har en enda mätning.",
-        "matte": "\\[\\rho_1=\\frac{27}{10}=2{,}7\\ \\mathrm{g/cm^3},\\qquad\\rho_2=\\frac{55}{20}=2{,}75\\ \\mathrm{g/cm^3}\\]"
+        "rubrik": "Rita mätpunkterna och anpassa en rät linje",
+        "text": "Sätt volymen på x-axeln och massan på y-axeln och pricka in de fem mätpunkterna. Lägg sedan linjalen så att linjen följer punkterna så bra som möjligt, med ungefär lika många punkter på varje sida. Linjen behöver inte gå genom någon mätpunkt, och den behöver inte gå genom origo.",
+        "figur": "<svg class=\"dg\" viewBox=\"0 0 520 444\" role=\"img\" aria-labelledby=\"dg-dens-t\"><title id=\"dg-dens-t\">Massa mot volym. Fem mätpunkter ligger nära en rät linje. Linjen går genom punkterna A (10 cm³, 60 g) och B (110 cm³, 140 g) och skär m-axeln vid ungefär 50 g.</title><g class=\"dg-txt\"><circle class=\"dg-matt\" cx=\"76\" cy=\"18\" r=\"5\"/><text x=\"88\" y=\"23\">mätvärde</text><circle class=\"dg-vald\" cx=\"182\" cy=\"18\" r=\"6\"/><text x=\"195\" y=\"23\">avläst punkt på linjen</text><line class=\"dg-linje\" x1=\"372\" y1=\"18\" x2=\"396\" y2=\"18\"/><text x=\"404\" y=\"23\">anpassad linje</text></g><path class=\"dg-rut\" d=\"M105 70V390M140 70V390M175 70V390M210 70V390M245 70V390M280 70V390M315 70V390M350 70V390M385 70V390M420 70V390M455 70V390M490 70V390M70 370H490M70 350H490M70 330H490M70 310H490M70 290H490M70 270H490M70 250H490M70 230H490M70 210H490M70 190H490M70 170H490M70 150H490M70 130H490M70 110H490M70 90H490M70 70H490\"/><path class=\"dg-axel\" d=\"M70 390H502M70 390V56\"/><path class=\"dg-pil\" d=\"M510 390l-10-4.5v9zM70 48l-4.5 10h9z\"/><g class=\"dg-txt\"><text x=\"70\" y=\"412\" text-anchor=\"middle\">0</text><text x=\"140\" y=\"412\" text-anchor=\"middle\">20</text><text x=\"210\" y=\"412\" text-anchor=\"middle\">40</text><text x=\"280\" y=\"412\" text-anchor=\"middle\">60</text><text x=\"350\" y=\"412\" text-anchor=\"middle\">80</text><text x=\"420\" y=\"412\" text-anchor=\"middle\">100</text><text x=\"490\" y=\"412\" text-anchor=\"middle\">120</text><text x=\"60\" y=\"395\" text-anchor=\"end\">0</text><text x=\"60\" y=\"355\" text-anchor=\"end\">20</text><text x=\"60\" y=\"315\" text-anchor=\"end\">40</text><text x=\"60\" y=\"235\" text-anchor=\"end\">80</text><text x=\"60\" y=\"195\" text-anchor=\"end\">100</text><text x=\"60\" y=\"155\" text-anchor=\"end\">120</text><text x=\"60\" y=\"75\" text-anchor=\"end\">160</text><text x=\"502\" y=\"436\" text-anchor=\"end\"><tspan font-style=\"italic\">V</tspan> (cm³)</text><text x=\"82\" y=\"62\"><tspan font-style=\"italic\">m</tspan> (g)</text></g><path class=\"dg-hjalp\" d=\"M105 270V390M105 270H70M455 270V390M455 110H70\"/><g class=\"dg-avl\"><text x=\"105\" y=\"412\" text-anchor=\"middle\">10</text><text x=\"455\" y=\"412\" text-anchor=\"middle\">110</text><text x=\"60\" y=\"275\" text-anchor=\"end\">60</text><text x=\"60\" y=\"115\" text-anchor=\"end\">140</text></g><path class=\"dg-delta\" d=\"M105 270H455V110\"/><path class=\"dg-vinkel\" d=\"M444 270V259H455\"/><line class=\"dg-linje\" x1=\"70\" y1=\"286\" x2=\"490\" y2=\"94\"/><circle class=\"dg-skar\" cx=\"70\" cy=\"286\" r=\"4\"/><circle class=\"dg-matt\" cx=\"140\" cy=\"252\" r=\"5.5\"/><circle class=\"dg-matt\" cx=\"210\" cy=\"226\" r=\"5.5\"/><circle class=\"dg-matt\" cx=\"280\" cy=\"186\" r=\"5.5\"/><circle class=\"dg-matt\" cx=\"350\" cy=\"162\" r=\"5.5\"/><circle class=\"dg-matt\" cx=\"420\" cy=\"124\" r=\"5.5\"/><circle class=\"dg-vald\" cx=\"105\" cy=\"270\" r=\"7\"/><circle class=\"dg-vald\" cx=\"455\" cy=\"110\" r=\"7\"/><g class=\"dg-etikett\"><text x=\"96\" y=\"258\" text-anchor=\"end\">A</text><text x=\"443\" y=\"100\" text-anchor=\"end\">B</text><text x=\"280\" y=\"293\" text-anchor=\"middle\">ΔV = 100 cm³</text><text x=\"445\" y=\"196\" text-anchor=\"end\">Δm = 80 g</text></g><text class=\"dg-not\" x=\"80\" y=\"310\">mätglaset ≈ 50 g</text></svg>"
       },
       {
-        "rubrik": "Jämför resultaten",
-        "text": "Båda mätningarna ger ungefär 2,7 g/cm³. En liten skillnad är väntad eftersom massa och volym inte kan mätas exakt."
+        "rubrik": "Läs av två punkter på linjen",
+        "text": "Välj två punkter som ligger på den ritade linjen, inte två av mätpunkterna. Linjen väger ihop alla fem mätningarna, medan en enskild mätpunkt kan ha ett mätfel. Ta punkterna långt ifrån varandra och gärna där linjen korsar rutnätet, så blir avläsningen noggrann. Här väljer vi A och B.",
+        "matte": "\\[V_A=10\\ \\mathrm{cm^3},\\quad m_A=60\\ \\mathrm g\\]\\[V_B=110\\ \\mathrm{cm^3},\\quad m_B=140\\ \\mathrm g\\]"
+      },
+      {
+        "rubrik": "Beräkna lutningen k",
+        "text": "Lutningen är hur mycket y ändras delat med hur mycket x ändras. I diagrammet är det triangelns lodräta sida delad med den vågräta. Ta med enheterna från axlarna.",
+        "matte": "\\[k=\\frac{\\Delta m}{\\Delta V}=\\frac{m_B-m_A}{V_B-V_A}\\]\\[k=\\frac{(140-60)\\ \\mathrm g}{(110-10)\\ \\mathrm{cm^3}}=\\frac{80\\ \\mathrm g}{100\\ \\mathrm{cm^3}}\\]\\[k=0{,}80\\ \\mathrm{g/cm^3}\\]"
+      },
+      {
+        "rubrik": "Koppla k-värdet till densiteten",
+        "text": "Lutningen säger att massan ökar med 0,80 g för varje kubikcentimeter vätska som fylls på. Massa per volym är just densitet, så lutningen är vätskans densitet. Mätglaset väger lika mycket i alla mätningar och påverkar därför inte lutningen. Mätglaset syns i stället där linjen skär m-axeln. Vid V = 0 finns ingen vätska, så linjen visar där mätglasets massa, ungefär 50 g.",
+        "matte": "\\[\\rho=k=0{,}80\\ \\mathrm{g/cm^3}\\]"
       }
     ],
-    "svar": "Densiteten är ungefär \\(2{,}7\\ \\mathrm{g/cm^3}\\).",
-    "komihag": "I ett diagram med massa på y-axeln och volym på x-axeln motsvarar linjens lutning densiteten.",
+    "svar": "Vätskans densitet är ungefär \\(0{,}80\\ \\mathrm{g/cm^3}\\), alltså \\(800\\ \\mathrm{kg/m^3}\\).",
+    "fallgrop": "Dela inte varje massa med sin volym. Massan innehåller mätglaset, så kvoterna blir för stora och olika för varje mätning: 69/20 ≈ 3,5 g/cm³ men 133/100 ≈ 1,3 g/cm³. Lutningen påverkas inte av mätglaset.",
+    "komihag": "I ett diagram med massa på y-axeln och volym på x-axeln är densiteten linjens lutning, \\(\\rho=\\Delta m/\\Delta V\\). Läs av två punkter på linjen långt ifrån varandra. Var linjen skär m-axeln påverkar inte densiteten.",
     "traningsfamilj": "Densitet från diagram och mätdata"
   },
   "fy1-grund-2-09": {

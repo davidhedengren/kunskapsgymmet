@@ -1763,7 +1763,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "\\({}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^{4}_{2}\\mathrm{He}\\).",
     "komihag": "Vid alfasönderfall minskar A med 4 och Z med 2.",
-    "traningsfamilj": "Kärnreaktioner, massa och energi"
+    "traningsfamilj": "Alfasönderfall"
   },
   "fy1-grund-9-04": {
     "kap": 9,
@@ -1785,7 +1785,68 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Kväve-14, \\({}^{14}_{7}\\mathrm N\\), bildas.",
     "komihag": "Vid beta-minus-sönderfall är A oförändrat och Z ökar med 1.",
-    "traningsfamilj": "Kärnreaktioner, massa och energi"
+    "traningsfamilj": "Beta-minus-sönderfall"
+  },
+  "fy1-grund-9-04b": {
+    "kap": 9,
+    "omr": "karnreaktioner",
+    "rubrik": "Skriv ett beta-plus-sönderfall",
+    "niva": "E",
+    "t": "<p>Natrium-22, med atomnumret 11, sönderfaller med beta-plus-sönderfall. Vilken kärna bildas? Grundämnet med atomnummer 10 är neon, Ne.</p>",
+    "ram": "Vid beta-plus-sönderfall omvandlas en proton i kärnan till en neutron. Masstalet är oförändrat medan atomnumret minskar med ett.",
+    "steg": [
+      {
+        "rubrik": "Bestäm dotterkärnan",
+        "text": "Masstalet är fortfarande 22. Eftersom en proton blir en neutron minskar atomnumret från 11 till 10. Dotterkärnan är därför neon-22.",
+        "matte": "\\[A=22,\\qquad Z=11-1=10\\]"
+      },
+      {
+        "rubrik": "Skriv hela sönderfallet",
+        "text": "En positron och en neutrino avges. Positronen har masstalet 0 och laddningstalet +1.",
+        "matte": "\\[{}^{22}_{11}\\mathrm{Na}\\rightarrow{}^{22}_{10}\\mathrm{Ne}+{}^{0}_{+1}\\mathrm e+\\nu_e\\]"
+      },
+      {
+        "rubrik": "Kontrollera talen",
+        "text": "Masstalen är 22 på båda sidor. Laddningstalen är 11 till vänster och 10 + 1 = 11 till höger."
+      }
+    ],
+    "svar": "Neon-22, \\({}^{22}_{10}\\mathrm{Ne}\\), bildas.",
+    "komihag": "Vid beta-plus-sönderfall är A oförändrat och Z minskar med 1. Positronen skrivs \\({}^{0}_{+1}e\\).",
+    "traningsfamilj": "Beta-plus-sönderfall"
+  },
+  "fy1-grund-9-04c": {
+    "kap": 9,
+    "omr": "karnreaktioner",
+    "rubrik": "Massdefekt vid alfasönderfall",
+    "niva": "E",
+    "t": "<p>Radium-226 sönderfaller till radon-222 och en alfapartikel. Atommassorna är 226,025410 u, 222,017578 u och 4,002602 u. Bestäm den frigjorda energin. Använd 1 u = 931,5 MeV.</p>",
+    "ram": "Om produkternas sammanlagda massa är mindre än moderkärnans massa har en del av massan omvandlats till energi. Skillnaden kallas massdefekt.",
+    "steg": [
+      {
+        "rubrik": "Skriv reaktionen",
+        "text": "Kontrollera först att masstal och atomnummer bevaras.",
+        "matte": "\\[{}^{226}_{88}\\mathrm{Ra}\\rightarrow{}^{222}_{86}\\mathrm{Rn}+{}^{4}_{2}\\mathrm{He}\\]"
+      },
+      {
+        "rubrik": "Addera massorna efter sönderfallet",
+        "text": "Båda produkternas massor ska tas med.",
+        "matte": "\\[m_{efter}=222{,}017578+4{,}002602=226{,}020180\\ \\mathrm u\\]"
+      },
+      {
+        "rubrik": "Beräkna massdefekten",
+        "text": "Ta massan före minus den sammanlagda massan efter. En positiv skillnad betyder att energi har frigjorts.",
+        "matte": "\\[\\Delta m=m_{före}-m_{efter}=226{,}025410-226{,}020180=0{,}005230\\ \\mathrm u\\]"
+      },
+      {
+        "rubrik": "Omvandla massan till energi",
+        "text": "Varje atommassenhet motsvarar 931,5 MeV.",
+        "matte": "\\[E=0{,}005230\\cdot931{,}5=4{,}87\\ \\mathrm{MeV}\\]"
+      }
+    ],
+    "svar": "Massdefekten är \\(0{,}005230\\ \\mathrm u\\) och den frigjorda energin är \\(4{,}87\\ \\mathrm{MeV}\\).",
+    "fallgrop": "Subtrahera inte bara dotterkärnans massa. Alfapartikelns massa måste också ingå i massan efter sönderfallet.",
+    "komihag": "Massdefekt = sammanlagd massa före − sammanlagd massa efter. Multiplicera sedan massdefekten i u med 931,5 MeV/u.",
+    "traningsfamilj": "Alfasönderfall"
   },
   "fy1-grund-9-05": {
     "kap": 9,
@@ -1964,20 +2025,5 @@ window.TYPUPPGIFTER_FY1 = {
     "svar": "Verkningsgraden är \\(90\\,\\%\\).",
     "komihag": "När energisystem jämförs behövs mer än märkeffekt: även energimängd, reglerbarhet, miljöpåverkan och hela livscykeln spelar roll.",
     "traningsfamilj": "Energiresurser och hållbarhet"
-  },
-  "fy1-grund-9-kallkritik": {
-    "kap": 9,
-    "omr": "stralning",
-    "rubrik": "Granska ett fysikaliskt påstående",
-    "niva": "E",
-    "t": "<p>Två saker ökar samtidigt. Räcker det för att säga att den ena orsakar den andra?</p>",
-    "ram": "En samtidig förändring är en korrelation. Ett orsakssamband kräver mer underlag.",
-    "steg": [
-      {"rubrik":"Beskriv vad datan visar","text":"Säg först bara att storheterna samvarierar. Lägg inte till en orsak som mätningen inte visar."},
-      {"rubrik":"Pröva andra förklaringar","text":"Fråga om en tredje faktor kan påverka båda och om resultatet återkommer i kontrollerade undersökningar."}
-    ],
-    "svar": "Nej. Korrelation kan vara en ledtråd, men visar inte ensam vad som orsakar vad.",
-    "komihag": "Ett bra påstående anger mätstorhet, metod, osäkerhet och vilket slutsatsstöd resultaten faktiskt ger.",
-    "traningsfamilj": "Granska fysikaliska påståenden"
   }
 };

@@ -2775,7 +2775,7 @@ function kunskapTrana(){
    Utan fördröjningen skulle den som bläddrar snabbt genom kapitlet
    samla medaljer utan att ha läst ett ord, och då mäter medaljen
    ingenting. */
-const GG_LASTID=5000;
+const GG_LASTID=15000;
 let ggTimer=null;
 function ggNyckel(familj){ return state.course+"|"+familj; }
 function ggLast(familj){ return !!(profile.genomgangar||{})[ggNyckel(familj)]; }
@@ -2790,7 +2790,10 @@ function ggStartaLastimer(){
     if(!nu || nu.kap!==kap || nu.steg[nu.i]?.familj!==familj) return;
     profile.genomgangar[ggNyckel(familj)]=Date.now();
     ggKollaKapitel(nu);
-    saveProfile(); checkBadges();
+    /* checkBadges först: den sätter profile.badges för nya medaljer, och
+       den ändringen måste med i sparningen. Sparades profilen dessförinnan
+       glömdes medaljen bort, och delades ut på nytt vid nästa besök. */
+    checkBadges(); saveProfile();
     /* Rita om prickraden så att den nya guldpricken syns direkt. */
     ritaKunskap();
   },GG_LASTID);

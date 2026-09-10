@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#090F1B">
 <script>
-/* Sätter färgläget före första målningen så att sidan aldrig blinkar. */
+
 (function(){
   var saved=null;
   try{ saved=localStorage.getItem("kunskapsgymmet-theme"); }catch(_){}
-  // Mörkt är standard. Bara ett eget val i växlaren ändrar det.
+
   var t=(saved==="light") ? "light" : "dark";
   document.documentElement.dataset.theme=t;
   var m=document.querySelector('meta[name="theme-color"]');
@@ -18,13 +18,7 @@
 </script>
 <title>Kunskapsgymmet – adaptiv träning i matematik och fysik</title>
 
-<!-- ══════════════════════════════════════════════════════════════
-     ADRESS: https://kunskapsgymmet.se/  (utan www — det är den
-     adress GitHub Pages levererar, och www omdirigeras dit)
-     Delningsbilder och sökmotorer kräver fullständiga adresser, inte
-     relativa. Byter sidan adress måste strängen bytas överallt nedan,
-     och även i robots.txt och sitemap.xml.
-     ══════════════════════════════════════════════════════════════ -->
+
 <meta name="description" content="Träna matematik och fysik med uppgifter som anpassar sig efter hur det går för dig. Ma1, Ma2, fortsättning, fördjupning, Fysik 1 och Fysik 2.">
 <link rel="canonical" href="https://kunskapsgymmet.se/">
 <meta name="robots" content="index, follow">
@@ -62,7 +56,7 @@
 }
 </script>
 
-<!-- Favicon. Filerna ligger i repots root. -->
+
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -73,75 +67,51 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
 
-<!-- KaTeX: snygg matematisk rendering av \( ... \) och \[ ... \] -->
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js"></script>
 
-<!-- Symbolisk algebra för ekvivalenskontroll av elevsvar -->
+
 <script defer src="https://cdn.jsdelivr.net/npm/nerdamer@1.1.13/all.min.js"></script>
 
 <style>
-/* ==========================================================
-   DESIGNSYSTEM
 
-   Fyra färgspråk med varsitt jobb. Ingen färg gör två saker.
-
-   1  KURSFÄRG   var(--acc)   – var du är. Rummets ljus, primärknappen,
-                                fokusringen. Aldrig ett tillstånd.
-   2  SVÅRIGHET  var(--lvl1..3) – hur tungt. Samma kulör i tre styrkor,
-                                plus antalet fyllda prickar i nivåbrickan.
-   3  FORM       var(--acc) i mängd, plus var(--amber) när något bleknat
-                                och var(--gold) när ett område sitter.
-   4  MÄSSING    var(--gold)  – vad du fick. XP, nivå, medalj, rekord.
-
-   Ytorna är hexvärden med några procent av kursfärgen inblandad, så att
-   korten ärver rummets ljus utan genomskinlighet. Alla värden nedan är
-   kontrollerade mot WCAG AA (minst 4,5:1 för brödtext).
-   ========================================================== */
 :root{
 
   color-scheme:light;
-  /* Bläck och hårstreck. --ink3 är höjd från #8698a5 (2,7:1, underkänt
-     enligt WCAG AA) till #616e81 (4,6:1 mot bakgrunden). */
+
   --ink:#0E141C;
   --ink2:#4A5766;
   --ink3:#616E81;
   --hair:rgba(14,30,50,.10);
   --hair2:rgba(14,30,50,.19);
-  /* Ljuskanten överst på varje upphöjd yta. Den gör att korten läses
-     som gjutna i stället för ritade, och den ska sitta på allt som
-     ligger ovanpå bakgrunden. */
+
   --specular:rgba(255,255,255,.92);
-  /* Mässing: belöning och ingenting annat. XP, nivå, medalj, rekord. */
+
   --gold:#8A6A1E;
   --gold2:#C79A3C;
   --goldSoft:rgba(160,120,40,.13);
   --brass:var(--gold);--brass2:var(--gold2);--brassSoft:var(--goldSoft);
-  /* Bärnsten: det enda varningsläget. Används av områden som bleknat. */
+
   --warn:#8A5E10;
   --warnSoft:rgba(180,125,25,.13);
   --amber:var(--warn);--amberSoft:var(--warnSoft);
-  /* Rätt och fel i rättningen. Aldrig svårighetsgrad. */
+
   --good:#12704F;
   --goodSoft:rgba(18,112,79,.10);
   --bad:#B03F42;
   --badSoft:rgba(176,63,66,.10);
   --e1:0 1px 2px rgba(11,33,51,.05),0 10px 26px -14px rgba(11,33,51,.22);
   --e2:0 2px 6px rgba(11,33,51,.07),0 40px 80px -30px rgba(11,33,51,.34);
-  /* Två familjer, inte tre. Instrument Sans bär gränssnittet, Atkinson
-     Hyperlegible bär uppgiftstexten där 6/9 och I/l måste gå att skilja
-     åt. IBM Plex Mono är struken: den användes dels för att få siffror
-     att stå still i kolumner, vilket font-variant-numeric löser utan en
-     extra nedladdning, dels till versala spärrade etiketter, som var
-     den enskilt största mallkänslan i gränssnittet. */
+
   --ui:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --read:"Atkinson Hyperlegible",system-ui,sans-serif;
   --ease:cubic-bezier(.2,.8,.2,1);
   --brand:#1A66C2;
   --korn:.022;
   --glowVarm:rgba(255,168,92,.13);
-  /* Ljust läge, grundton: blå (spår 1c och 2c). */
+
   --bg:#E7EEF9;
   --surface:#FCFDFF;--surface2:#F3F7FD;--surface3:#E3EBF7;
   --glass:rgba(242,247,253,0.78);
@@ -149,12 +119,7 @@
   --glow1:rgba(26,102,194,0.3);--glow2:rgba(47,111,224,0.225);
   --lvl1:#79A5DC;--lvl2:#1A66C2;--lvl3:#13498C;
 }
-/* Bokens färg styr accenten: a = rött, b = grönt, c = blått,
-   Fysik 1 = turkos, Fysik 2 = blålila.
 
-   Samma tre kulörer används på startsidans spårrutor, så att rutan
-   man klickar på är den färg rummet byter till. I mörkt läge lyfts
-   de ett par steg, annars sjunker de in i kortet. */
 :root{
   --spar-a:#C2453B;--spar-a2:#9C3730;
   --spar-b:#17835A;--spar-b2:#116546;
@@ -167,7 +132,7 @@ html[data-theme="dark"]{
   --spar-c:#2D79D6;--spar-c2:#215CA8;
   --spar-gul:#DCA426;--spar-gul2:#B4820F;
 }
-html[data-theme="light"][data-accent="a"]{  /* 1a och 2a */
+html[data-theme="light"][data-accent="a"]{
   --bg:#F2ECF0;
   --surface:#FFFDFC;--surface2:#F8F6F9;--surface3:#EDE9EE;
   --glass:rgba(249,246,247,0.78);
@@ -175,7 +140,7 @@ html[data-theme="light"][data-accent="a"]{  /* 1a och 2a */
   --glow1:rgba(194,69,59,0.3);--glow2:rgba(224,91,82,0.225);
   --lvl1:#DC928C;--lvl2:#C2453B;--lvl3:#8C322A;
 }
-html[data-theme="light"][data-accent="b"]{  /* 1b och 2b */
+html[data-theme="light"][data-accent="b"]{
   --bg:#E6F2F1;
   --surface:#FBFEFD;--surface2:#F2F9FA;--surface3:#E2EEF0;
   --glass:rgba(241,249,248,0.78);
@@ -183,7 +148,7 @@ html[data-theme="light"][data-accent="b"]{  /* 1b och 2b */
   --glow1:rgba(23,131,90,0.3);--glow2:rgba(43,168,115,0.225);
   --lvl1:#77B79E;--lvl2:#17835A;--lvl3:#115E41;
 }
-html[data-theme="light"][data-accent="fy1"]{  /* Fysik 1 */
+html[data-theme="light"][data-accent="fy1"]{
   --bg:#E4F2F4;
   --surface:#FBFEFE;--surface2:#F2F9FB;--surface3:#E0EEF3;
   --glass:rgba(240,249,250,0.78);
@@ -191,7 +156,7 @@ html[data-theme="light"][data-accent="fy1"]{  /* Fysik 1 */
   --glow1:rgba(12,132,120,0.3);--glow2:rgba(18,160,145,0.225);
   --lvl1:#70B7B0;--lvl2:#0C8478;--lvl3:#095F56;
 }
-html[data-theme="light"][data-accent="fy2"]{  /* Fysik 2 */
+html[data-theme="light"][data-accent="fy2"]{
   --bg:#EBECF8;
   --surface:#FDFCFF;--surface2:#F5F6FD;--surface3:#E7E9F6;
   --glass:rgba(245,245,253,0.78);
@@ -200,10 +165,6 @@ html[data-theme="light"][data-accent="fy2"]{  /* Fysik 2 */
   --lvl1:#A892E3;--lvl2:#6B45CE;--lvl3:#4D3294;
 }
 
-/* ---------- mörkt läge (standard) ----------
-   Basen är djupare än förut (#070a11 med några procent kursfärg) för
-   att ljuskällorna nedan ska ha något att lysa mot. Till skillnad från
-   tidigare byter även mörka läget accent med kursen. */
 html[data-theme="dark"]{
 
   color-scheme:dark;
@@ -236,7 +197,7 @@ html[data-theme="dark"]{
   --glow1:rgba(110,168,255,0.24);--glow2:rgba(47,111,224,0.195);
   --lvl1:#466AA4;--lvl2:#6EA8FF;--lvl3:#A1C6FF;
 }
-html[data-theme="dark"][data-accent="a"]{  /* 1a och 2a */
+html[data-theme="dark"][data-accent="a"]{
   --bg:#120E14;
   --surface:#221E29;--surface2:#282432;--surface3:#332F3E;
   --glass:rgba(25,19,26,0.74);
@@ -244,7 +205,7 @@ html[data-theme="dark"][data-accent="a"]{  /* 1a och 2a */
   --glow1:rgba(255,144,137,0.24);--glow2:rgba(224,91,82,0.195);
   --lvl1:#9C5D5E;--lvl2:#FF9089;--lvl3:#FFB7B2;
 }
-html[data-theme="dark"][data-accent="b"]{  /* 1b och 2b */
+html[data-theme="dark"][data-accent="b"]{
   --bg:#091216;
   --surface:#15242C;--surface2:#1A2A34;--surface3:#233641;
   --glass:rgba(12,25,29,0.74);
@@ -252,7 +213,7 @@ html[data-theme="dark"][data-accent="b"]{  /* 1b och 2b */
   --glow1:rgba(90,213,157,0.24);--glow2:rgba(43,168,115,0.195);
   --lvl1:#3B856A;--lvl2:#5AD59D;--lvl3:#94E4BF;
 }
-html[data-theme="dark"][data-accent="fy1"]{  /* Fysik 1 */
+html[data-theme="dark"][data-accent="fy1"]{
   --bg:#081217;
   --surface:#13232E;--surface2:#182A36;--surface3:#213644;
   --glass:rgba(11,24,31,0.74);
@@ -260,7 +221,7 @@ html[data-theme="dark"][data-accent="fy1"]{  /* Fysik 1 */
   --glow1:rgba(63,217,198,0.24);--glow2:rgba(18,160,145,0.195);
   --lvl1:#2B8782;--lvl2:#3FD9C6;--lvl3:#82E6DA;
 }
-html[data-theme="dark"][data-accent="fy2"]{  /* Fysik 2 */
+html[data-theme="dark"][data-accent="fy2"]{
   --bg:#0D0E1C;
   --surface:#1B1D35;--surface2:#20243D;--surface3:#2A2F4B;
   --glass:rgba(18,19,37,0.74);
@@ -274,14 +235,11 @@ body{
   margin:0;min-height:100vh;color:var(--ink);font-family:var(--ui);
   background:var(--bg);-webkit-font-smoothing:antialiased;
   letter-spacing:-.011em;
-  /* Siffror i tabeller, staplar och XP ska stå stilla mellan omritningar.
-     Instrument Sans har egna sifferbredder, så monospace behövs inte. */
+
   font-variant-numeric:tabular-nums;
   transition:background .55s var(--ease);
 }
-/* Rummets ljus. Två kalla källor i kursens färg och en varm nedtill.
-   Det är den tredje, varma, som gör att ytan slutar läsas som en
-   webbsida och börjar läsas som ett rum. */
+
 body:before{
   content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
   background:
@@ -290,8 +248,7 @@ body:before{
     radial-gradient(78vw 48vh at 52% 116%,var(--glowVarm,rgba(255,176,103,.07)),transparent 62%);
   transition:background .55s var(--ease);
 }
-/* Kornet. Några procent brus över hela sidan är skillnaden mellan
-   gradienter som ser ut som plast och gradienter som ser ut som papper. */
+
 body:after{
   content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
   opacity:var(--korn);mix-blend-mode:overlay;
@@ -305,7 +262,6 @@ a{color:inherit}
 .shell{width:min(1160px,calc(100% - 40px));margin:0 auto}
 .stack{display:grid}
 
-/* ---------- rörelse ---------- */
 @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 @keyframes pop{0%{opacity:0;transform:scale(.92)}60%{transform:scale(1.02)}100%{opacity:1;transform:scale(1)}}
 @keyframes spin{to{transform:rotate(360deg)}}
@@ -316,7 +272,6 @@ a{color:inherit}
   *,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}
 }
 
-/* ---------- toppfält ---------- */
 .topbar{
   position:sticky;top:0;z-index:40;
   backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
@@ -334,7 +289,6 @@ a{color:inherit}
 .brand:hover .brandmark{transform:scale(1.06) rotate(-3deg)}
 .spacer{flex:1}
 
-/* ---------- knappar ---------- */
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;
   border:1px solid var(--hair);border-radius:13px;background:var(--surface);
@@ -374,15 +328,13 @@ a{color:inherit}
 .pill .lvl{font-weight:700;letter-spacing:-.01em}
 .pill .rname{color:var(--ink3);font-weight:600}
 .pill .rname:before{content:"·";margin-right:6px;opacity:.5}
-/* Märket bär rangens ordningstal, inte nivån. Tvåsiffriga tal från
-   rang 10 och upp, därav den täta teckenavståndet. */
+
 .pill .rankdot{
   width:21px;height:21px;border-radius:7px;display:grid;place-items:center;
   font-size:10px;font-weight:700;letter-spacing:-.04em;
   color:#3b2c07;background:linear-gradient(160deg,#f0d296,#c79a3c);
 }
-/* XP-stapeln i toppfältet. Samma mässing som all annan belöning, och
-   samma uppförande som mätaren i träningsvyn: den rör sig när XP läggs på. */
+
 .pill .xpbar{
   width:62px;height:5px;flex:none;border-radius:99px;background:var(--hair);overflow:hidden;
   margin-left:2px;
@@ -402,8 +354,6 @@ a{color:inherit}
 .pill.tick{border-color:var(--gold2);box-shadow:0 0 0 4px var(--goldSoft)}
 .flame{color:var(--gold);font-weight:700}
 
-/* Topplistepillret. Samma form som rangen, men i gränssnittets färg
-   i stället för mässing — det är en väg någonstans, inte en belöning. */
 .topppill{gap:8px;padding:6px 14px 6px 11px;color:var(--ink2)}
 .topppill:hover{color:var(--ink);background:var(--surface2)}
 .topppill .pallmarke{width:16px;height:16px;flex:none;display:block}
@@ -423,8 +373,6 @@ a{color:inherit}
 .kontomeny b{display:block;font-size:14px;letter-spacing:-.02em}
 .kontomeny small{display:block;margin:5px 0 13px;font-size:12px;color:var(--ink3);line-height:1.45}
 
-/* Topplistedelen i kontomenyn hålls ihop av en egen ram, så att
-   "Logga ut" inte läses som en del av samma val. */
 .menyfalt{
   padding:13px;margin-bottom:10px;border-radius:14px;
   border:1px solid var(--hair);background:var(--surface2);
@@ -435,7 +383,6 @@ a{color:inherit}
   font-family:var(--read);letter-spacing:0}
 .menyfalt .btn{margin-top:2px}
 
-/* Växeln. Mässing när den är på, eftersom den styr belöningssidan. */
 .vaxel{
   display:flex;align-items:center;gap:10px;width:100%;margin-top:11px;
   font-size:12.5px;font-weight:600;text-align:left;
@@ -453,7 +400,6 @@ a{color:inherit}
 .vaxel.pa .vspar{background:linear-gradient(90deg,#c79a3c,var(--gold2))}
 .vaxel.pa .vspar i{transform:translateX(14px)}
 
-/* ---------- namnrutan ---------- */
 .namnfalt{
   width:100%;padding:13px 15px;border-radius:14px;font-size:16px;font-weight:600;
   border:1px solid var(--hair2);background:var(--surface2);color:var(--ink);
@@ -465,7 +411,6 @@ a{color:inherit}
 .namnhjalp.fel{color:var(--bad)}
 .namnhjalp.ok{color:var(--good)}
 
-/* ---------- rangstegen ---------- */
 .rangstege{list-style:none;margin:0;padding:0;display:grid;
   grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
 .rangstege li{
@@ -480,13 +425,12 @@ a{color:inherit}
 .rangstege .rnamn{flex:1;min-width:0;font-size:13.5px;font-weight:600;letter-spacing:-.025em;
   color:var(--ink3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .rangstege .rlvl{font-size:11px;color:var(--ink3);flex:none}
-/* Nådda rangar tänds i mässing. Den man står på får en ram. */
+
 .rangstege li.nadd .rsym{background:linear-gradient(160deg,#f0d296,#c79a3c);color:#3b2c07}
 .rangstege li.nadd .rnamn{color:var(--ink)}
 .rangstege li.nadd .rlvl{color:var(--gold)}
 .rangstege li.nu{border-color:var(--gold2);background:var(--goldSoft)}
 
-/* ---------- topplistan ---------- */
 .toppnotis{
   display:flex;align-items:center;gap:14px;flex-wrap:wrap;
   padding:15px 18px;border-radius:18px;margin-bottom:16px;
@@ -534,7 +478,7 @@ a{color:inherit}
   flex:none;min-width:62px;text-align:right;font-size:14px;font-weight:700;
   letter-spacing:-.03em;color:var(--gold);
 }
-/* Den egna raden ska gå att hitta med ögat utan att skrika. */
+
 .topprad.jag{
   background:var(--accSoft);border-radius:14px;border-bottom-color:transparent;
   padding-left:12px;padding-right:12px;margin:2px -6px;
@@ -552,7 +496,6 @@ a{color:inherit}
   .topprad .tvarde{min-width:52px;font-size:13.5px}
 }
 
-/* ---------- typografi ---------- */
 h1,h2,h3{letter-spacing:-.04em;margin:0}
 .sec{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:0 0 14px}
 .sec h2{font-size:15px;font-weight:600;letter-spacing:-.02em;color:var(--ink2)}
@@ -560,7 +503,6 @@ h1,h2,h3{letter-spacing:-.04em;margin:0}
   box-shadow:var(--e1),inset 0 1px 0 var(--specular)}
 .pad{padding:22px}
 
-/* ---------- inloggningssida ---------- */
 .gate{min-height:100dvh;display:grid;place-items:center;padding:28px 20px 40px;position:relative}
 .gate-top{position:absolute;top:16px;right:16px}
 .gate-card{width:min(408px,100%);text-align:center;animation:rise .6s var(--ease) both}
@@ -603,7 +545,6 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .gate-foot{margin-top:24px;font-size:12px;color:var(--ink3);font-family:var(--read);letter-spacing:0}
 .gate-av{display:block;margin-top:5px;font-size:11.5px;color:var(--ink3);opacity:.75}
 
-/* ---------- e‑postkontot på startskärmen ---------- */
 .gate-form{display:grid;gap:11px;text-align:left}
 .gate-form label{
   display:grid;gap:6px;font-size:12.5px;font-weight:600;color:var(--ink3);
@@ -624,7 +565,6 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .gate-lank:hover{text-decoration:underline}
 .btn[aria-busy="true"]{opacity:.6;pointer-events:none}
 
-/* ---------- hem ---------- */
 .hero{padding:56px 4px 34px;max-width:760px}
 .hero h1{font-size:clamp(34px,5.4vw,58px);line-height:1.02;letter-spacing:-.05em;margin:0}
 .hero h1 em{font-style:normal;color:var(--ink3)}
@@ -650,7 +590,7 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
   font-size:13.5px;font-weight:700;letter-spacing:-.02em;
   box-shadow:0 8px 18px -9px var(--tintStrong),inset 0 1px 0 rgba(255,255,255,.32);
 }
-/* Spårrutorna. Ett kort utan spår behåller sin kurskod. */
+
 .sparkoder{display:flex;gap:8px;flex-wrap:wrap}
 .sparkod{
   width:48px;height:48px;flex:none;border-radius:16px;
@@ -660,10 +600,7 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
   box-shadow:0 8px 18px -9px var(--sf),inset 0 1px 0 rgba(255,255,255,.32);
   transition:transform .22s var(--ease),box-shadow .22s var(--ease);
 }
-/* Ett spår som ges ur två böcker delas diagonalt. Halvorna är släta
-   i stället för tonade — på 48 px syns ingen tonning ändå, och två
-   tonningar mot varandra ger bara en smutsig skarv. Skuggan under
-   texten behövs för att vitt ska hålla mot den ljusa halvan. */
+
 .sparkod.delad{
   background:linear-gradient(135deg,var(--sf) 0 49.4%,var(--sfB) 50.6% 100%);
   text-shadow:0 1px 2px rgba(0,0,0,.4);
@@ -671,7 +608,7 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .sparkod:hover{transform:translateY(-2px);box-shadow:0 12px 22px -10px var(--sf),inset 0 1px 0 rgba(255,255,255,.32)}
 .sparkod:active{transform:translateY(0) scale(.96)}
 .sparkod:focus-visible{outline:2.5px solid var(--acc);outline-offset:3px}
-/* Resten av kortet är en egen knapp som öppnar kursens förvalda spår. */
+
 .kursoppna{
   flex:1;display:flex;flex-direction:column;gap:14px;text-align:left;color:inherit;
 }
@@ -685,7 +622,6 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .course-card.loading{pointer-events:none}
 .course-card.loading .go:after{content:"";width:13px;height:13px;border-radius:50%;border:2px solid var(--hair2);border-top-color:var(--acc);animation:spin .7s linear infinite}
 
-/* ---------- kurshuvud ---------- */
 .chead{padding:26px 2px 22px;display:flex;flex-wrap:wrap;align-items:flex-end;gap:18px}
 .chead .t{flex:1;min-width:250px}
 .chead h1{font-size:clamp(28px,4vw,40px);letter-spacing:-.05em;margin:10px 0 0}
@@ -700,7 +636,6 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .track:hover{border-color:var(--hair2)}
 .track.on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
 
-/* ---------- dashboard ---------- */
 .dash{display:grid;grid-template-columns:minmax(0,1fr) 306px;gap:20px;align-items:start;padding-bottom:24px}
 .side{position:sticky;top:82px;display:grid;gap:12px}
 .chapter{margin-bottom:8px}
@@ -718,7 +653,7 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .chapter-row:hover .kaptrana,.chapter.open .kaptrana,.kaptrana:focus-visible{opacity:1;transform:none}
 .kaptrana:hover{border-color:transparent;background:var(--accSoft);color:var(--accInk)}
 .kaptrana:active{transform:scale(.96)}
-/* På pekskärm finns ingen hovring, så knappen står framme. */
+
 @media(hover:none){.kaptrana{opacity:1;transform:none}}
 .chapter-head:hover{color:var(--ink);background:var(--toneHover,transparent)}
 .chapter-head .chev{
@@ -727,9 +662,7 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 }
 .chapter-head[aria-expanded="true"] .chev{transform:rotate(90deg);color:var(--acc)}
 .chapter-head:hover .chev{color:var(--acc)}
-/* Kapitelnamnet skrivs som ett namn och inte som en systemetikett.
-   Versala spärrade rader lästes som avdelningsskyltar och tog mer
-   uppmärksamhet än områdeskorten under sig. */
+
 .chapter-head .name{
   font-size:13.5px;font-weight:600;letter-spacing:-.02em;
   transition:color .2s ease;
@@ -741,8 +674,7 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .chapter.open .kdots{opacity:0}
 .kdots i{width:6px;height:6px;border-radius:50%;background:var(--d);box-shadow:0 0 0 2px var(--bg)}
 .chapter-body{padding:4px 0 2px}
-/* auto-fit i stället för auto-fill: ett kapitel med två områden ska
-   inte lämna en tom tredje spalt och tvinga korten att stå smala. */
+
 .area-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(238px,1fr));gap:12px}
 .area{
   --tone:#7d93a2;--toneWash:rgba(125,147,162,.10);--toneEdge:rgba(125,147,162,.26);
@@ -790,9 +722,7 @@ html[data-theme="dark"] .area.t-good{--toneWash:var(--goldSoft);--toneEdge:rgba(
 html[data-theme="dark"] .area.t-mid{--toneWash:var(--accSoft);--toneEdge:var(--hair2)}
 html[data-theme="dark"] .area.t-low{--toneWash:var(--amberSoft);--toneEdge:rgba(242,185,89,.28)}
 html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 44px -22px #000,inset 0 1px 0 rgba(255,255,255,.08)}
-/* Kortet är inte längre en enda knapp: ytan öppnar området, siktet
-   till höger öppnar punktträningen. Hela kortet lyfter fortfarande
-   som en enhet vid hovring, så det läses som ett kort och inte två. */
+
 .omr-oppna{
   flex:1;min-width:0;display:flex;align-items:center;gap:13px;
   text-align:left;color:inherit;padding:0;
@@ -806,12 +736,11 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .omr-punkt:hover{color:var(--tone);border-color:var(--toneEdge);background:var(--toneWash)}
 .omr-punkt:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
 .area.stack{flex-direction:column;align-items:stretch;gap:11px;min-height:96px}
-/* Punktträningen: korten har olika många delmoment, så raden får inte
-   sträcka alla till det högsta kortets höjd. */
+
 .punktgrid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));align-items:start}
 .punktgrid .area.stack{min-height:0}
 .omrknapp{all:unset;cursor:pointer;display:block;flex:1;min-width:0}
-/* Kortrubriken i punktvyn: namnet till vänster, siktet till höger. */
+
 .omr-rad{display:flex;align-items:flex-start;gap:10px}
 .delmoment{display:block}
 .dellbl{
@@ -829,8 +758,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .area-ring .pip{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--tone);opacity:.4}
 .area.t-new .ring circle:first-child{stroke-dasharray:0.1 6;stroke-linecap:round;stroke-width:3.4}
 .area-txt{min-width:0;display:flex;flex-direction:column;gap:4px}
-/* Långa områdesnamn avstavas i stället för att brytas mitt i ordet.
-   Sidan är lang="sv", så webbläsaren avstavar på svenska. */
+
 .area strong{font-size:14px;font-weight:600;line-height:1.25;letter-spacing:-.022em;
   hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}
 .area .state{font-size:11.5px;font-weight:600;letter-spacing:.005em;color:var(--tone)}
@@ -841,15 +769,13 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   box-shadow:0 0 8px -2px var(--tone);}
 .meter.m-new{background:repeating-linear-gradient(90deg,var(--hair) 0 4px,transparent 4px 8px);box-shadow:none}
 
-/* ---------- rang / gamification ---------- */
 .rankcard{position:relative;overflow:hidden;padding:20px}
 .rankcard:before{
   content:"";position:absolute;inset:-40% -20% auto auto;width:220px;height:220px;border-radius:50%;
   background:radial-gradient(circle,var(--goldSoft),transparent 70%);
 }
 .rankrow{display:flex;align-items:center;gap:15px;position:relative}
-/* Vägen till utvecklingssidan hör hemma där siffrorna står, inte
-   längst ner i en annan ruta. */
+
 .rankid{min-width:0;padding-right:8px}
 .rankgo{
   position:absolute;top:0;right:0;padding:4px 2px;
@@ -886,19 +812,15 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   box-shadow:inset 0 1px 0 var(--specular);
   transition:.25s var(--ease);
 }
-/* Märket skalar med brickan i stället för att ha en egen storlek, så
-   samma teckning håller från remsan till hyllningsrutan. */
+
 .marke{width:52%;max-width:30px;height:auto;display:block}
 .medal .marke{margin-bottom:5px}
 .medal.on .marke{margin-bottom:0}
 .medal:hover{transform:translateY(-2px);border-color:var(--hair2)}
-/* Tipset måste lägga sig över grannmedaljerna, annars göms det
-   bakom dem vid tryck på mobil. */
+
 .medal:hover,.medal:focus-within,.medal.show{z-index:30}
 .badgestrip{position:relative;z-index:1}
-/* Tagen medalj: präglad mässing. Fyra stopp i gradienten i stället för
-   två ger den vändning i ljuset som en gjuten bricka har, och den inre
-   kanten fångar upp ljuset likt en präglad ram. */
+
 .medal.on{
   border-color:transparent;color:#3A2A05;
   background:linear-gradient(152deg,#FBEFD2 0%,#EFCF8F 34%,#C89B3C 68%,#E4C185 100%);
@@ -914,7 +836,6 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .medal .frac{position:absolute;bottom:5px;font-size:9.5px;font-weight:600;color:var(--ink3)}
 .medal.on .frac{display:none}
 
-/* Medaljens beskrivning vid hovring, tangentbordsfokus eller tryck. */
 .mtip{
   position:absolute;bottom:calc(100% + 9px);left:50%;margin-left:-98px;width:196px;z-index:25;
   padding:12px 13px;border-radius:15px;text-align:left;
@@ -929,9 +850,6 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .mtip .num,.medalinfo .num{display:block;margin-top:6px;font-size:11.5px;font-weight:600;color:var(--ink3)}
 .mtip .num.done,.medalinfo .num.done{color:var(--gold)}
 
-/* På pekskärm visas medaljens text i en ruta under remsan i stället
-   för som svävande tips, så att den aldrig hamnar bakom en grannmedalj
-   eller utanför skärmkanten. */
 .medalinfo{
   margin-top:12px;padding:13px 14px;border-radius:15px;
   background:var(--surface2);border:1px solid var(--hair);
@@ -939,11 +857,11 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 }
 @media(hover:hover){ .medalinfo{display:none} }
 @media(hover:none){ .mtip{display:none} }
-/* Översta raden visar tipset nedåt, så det aldrig hamnar utanför skärmen. */
+
 .badgestrip>:nth-child(-n+4) .mtip{bottom:auto;top:calc(100% + 9px);transform:translateY(-5px)}
 .badgestrip>:nth-child(-n+4) .medal:hover .mtip,
 .badgestrip>:nth-child(-n+4) .medal.show .mtip{transform:translateY(0)}
-/* Kanterna: första och sista kolumnen skjuter inte ut ur rutan. */
+
 .badgestrip>:nth-child(4n+1) .mtip{left:0;margin-left:0}
 .badgestrip>:nth-child(4n) .mtip{left:auto;right:0;margin-left:0}
 @media(max-width:640px){.mtip{width:172px;margin-left:-86px}}
@@ -961,9 +879,6 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .badge-row .prog i{display:block;height:100%;background:var(--gold2);width:0;border-radius:99px;transition:width 1.1s var(--ease)}
 .badge-row .txt{flex:1;min-width:0}
 
-/* ---------- lista ---------- */
-/* Kapitelstaplarna: bredden på varje fält är nivåns vikt, fyllnaden
-   är hur väl nivån sitter. Hela stapeln blir alltså kunskapsläget. */
 .kapkort{display:grid;gap:15px}
 .kaprad{padding:14px 16px;border-radius:16px;border:1px solid var(--hair);background:var(--surface2)}
 .kaptop{display:flex;align-items:baseline;gap:10px}
@@ -999,10 +914,6 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .row .val{font-size:12px;font-weight:600;color:var(--ink3)}
 .empty{padding:16px;border:1px dashed var(--hair2);border-radius:14px;color:var(--ink3);font-size:13px;font-family:var(--read)}
 
-/* ---------- tränaren ----------
-   Passkortet ligger högst upp i kursvyn, direkt under rubriken. Det är
-   det första eleven ser och det enda som ger en tydlig ingång: allt
-   annat på sidan är valfrihet, det här är ett förslag. */
 .pt{
   position:relative;overflow:hidden;border-radius:24px;
   border:1px solid var(--hair);
@@ -1067,7 +978,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   display:block;margin-top:1px;font-size:11.5px;color:var(--ink3);
   font-family:var(--read);letter-spacing:0;
 }
-/* Fokusraden: vilka kapitel tränaren håller sig inom just nu. */
+
 .pt-fokus{
   position:relative;display:flex;align-items:center;gap:8px;flex-wrap:wrap;
   margin-top:16px;padding-top:14px;border-top:1px solid var(--hair);
@@ -1086,8 +997,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   padding:5px 10px;border-radius:10px;transition:.2s var(--ease);
 }
 .pt-andra:hover{background:var(--accSoft)}
-/* Sammandraget läge: en rad i stället för ett kort. Samma tonade yta
-   och samma ribba, så att eleven ser att det är samma tränare. */
+
 .pt-liten{
   display:flex;align-items:center;gap:13px;flex-wrap:wrap;
   padding:13px 18px;border-radius:18px;margin-bottom:20px;
@@ -1124,10 +1034,8 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   .pt-act .btn{flex:1;min-width:132px}
 }
 
-/* ---------- träning ---------- */
 .tshell{width:min(880px,calc(100% - 32px));margin:0 auto;padding-bottom:60px}
-/* Träningens toppfält följer med när sidan rullas, så att XP-mätaren
-   är synlig hela vägen genom en lång uppgift. */
+
 .ttop{
   position:sticky;top:0;z-index:30;
   display:flex;align-items:center;gap:12px;
@@ -1142,9 +1050,6 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .dots i.done{background:var(--acc);transform:scale(1.1)}
 .dots i.now{background:var(--acc);box-shadow:0 0 0 4px var(--accSoft)}
 
-/* ---------- XP-mätaren i träningsvyn ----------
-   Mässing, som all annan belöning. Den ska röra sig synligt när ett
-   svar går igenom: det är hela kvittot på att uppgiften gav något. */
 .xpmeter{
   position:relative;display:flex;align-items:center;gap:9px;
   padding:4px 12px 4px 4px;border-radius:99px;
@@ -1169,7 +1074,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 }
 .xpmeter .num{font-size:12px;font-weight:600;color:var(--ink3);white-space:nowrap}
 .xpmeter .num .sep{margin:0 3px;opacity:.55}
-/* Siffran som lyfter ur mätaren när XP läggs på. */
+
 .xpmeter .gain{
   position:absolute;right:12px;top:2px;opacity:0;pointer-events:none;
   font-size:12.5px;font-weight:700;color:var(--gold);white-space:nowrap;
@@ -1192,10 +1097,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .tag.lv .pips{display:inline-flex;gap:3px;align-items:center}
 .tag.lv .pips b{width:5px;height:5px;border-radius:50%;background:var(--ink3);opacity:.22}
 .tag.lv .pips b.on{opacity:1}
-/* Svårighetsgraden bärs av antalet fyllda prickar, inte av kulören.
-   Tidigare lånade nivåerna grönt, kursblått och guld, vilket gjorde att
-   samma tre färger betydde både svårighet, form och belöning. Nu är
-   brickan neutral och de tre färgspråken kan inte längre förväxlas. */
+
 .tag.lv{background:var(--surface3);color:var(--ink2);border-color:var(--hair)}
 .tag.lv0 .pips b{background:var(--lvl1);opacity:1}
 .tag.lv0{background:var(--surface3);color:var(--ink2);border-color:var(--hair);font-weight:600}
@@ -1212,8 +1114,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .verktygsikon svg{width:13px;height:13px;display:block}
 .verktygsikon.raknare{background:#F5F1EA;color:#725B38;border-color:#E7DDCD}
 .verktygsikon.geogebra{background:#EDF2F9;color:#315F99;border-color:#DCE5F2}
-/* Räknaren med snedstreck tonas neutralt så att den inte förväxlas med
-   den bruna "tillåten"-ikonen i en snabb blick. */
+
 .verktygsikon.utan-raknare{background:#F1F0F2;color:#5C575E;border-color:#DEDCE0}
 .verktygsikon.utan-raknare .urtag{stroke:#F1F0F2}
 html[data-theme="dark"] .verktygsikon.raknare{background:#332a1c;color:#dcc094;border-color:#4b3c27}
@@ -1244,7 +1145,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .apart.no input{border-color:rgba(176,74,77,.5);background:var(--badSoft)}
 .apart.ok input,.apart.no input{pointer-events:none}
 .corr{margin-left:30px;font-family:var(--read);font-size:13px;color:var(--ink3);letter-spacing:0}
-/* Deluppgift som eleven bedömer själv. */
+
 .apart.egen .aline input,.apart.egen .aline textarea{border-style:dashed}
 .delfacit{
   margin:8px 0 2px 30px;padding:14px 16px;border-radius:15px;
@@ -1275,11 +1176,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .aline input:focus,.aline textarea:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 4px var(--accSoft)}
 .aline textarea{min-height:96px;resize:vertical;line-height:1.5}
-/* Symbolraden. Tecknen är omständliga att nå överallt: på pekskärm
-   ligger de bakom en flik i tangentbordet, på dator bakom AltGr eller
-   en teckenkarta. Raden visas därför i båda fallen, men med olika
-   mått — små knappar som radbryter på dator, breda och svepbara på
-   pekskärm. */
+
 .symrad{
   display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;
 }
@@ -1298,8 +1195,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .symtgt:active{transform:scale(.93);background:var(--accSoft)}
 @media(hover:none){
-  /* Pekskärm: en svepbar rad i stället för radbrytning, och
-     träffytorna tillbaka till 42 px. */
+
   .symrad{
     flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px;
     -webkit-overflow-scrolling:touch;scrollbar-width:none;
@@ -1312,8 +1208,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 
 .aacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
 .hint{margin-top:10px;font-size:12px;color:var(--ink3);line-height:1.5}
-/* Kurskortets läge. En kurs man lagt tjugo timmar på ska inte se ut
-   som en man aldrig öppnat. */
+
 .kursstatus{display:block;margin-top:auto}
 .kursbar{
   display:block;height:4px;border-radius:99px;background:var(--hair);overflow:hidden;
@@ -1324,8 +1219,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   font-size:12px;color:var(--ink3);font-family:var(--read);letter-spacing:0;
 }
 .kurssiffror .go{margin:0}
-/* Felen i passrapporten. Neutral ton — det här är material att lära
-   av, inte en tillrättavisning. */
+
 .felruta{
   margin:26px auto 0;max-width:640px;text-align:left;padding:18px 20px;
   border:1px solid var(--hair);border-radius:20px;background:var(--surface);
@@ -1345,9 +1239,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .fellosning p{margin:0 0 9px}
 .fellosning p:last-child{margin-bottom:0}
-/* Ledtråden är varken rätt eller fel, så den håller sig utanför
-   rött och grönt. Den ligger direkt ovanför knapparna, så att den
-   syns utan att eleven behöver leta på mobilen. */
+
 .ledtrad{
   margin:14px 0 2px;padding:13px 15px;border-radius:15px;
   border:1px solid var(--hair2);background:var(--surface2);
@@ -1396,11 +1288,6 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   font-family:var(--read);font-size:16px;line-height:1.62;letter-spacing:0;animation:rise .35s var(--ease) both;
 }
 
-/* Facitmarkup från uppgiftsbanken. Banken skickar facit-v2-strukturen,
-   men Kunskapsgymmet hade ingen stil för den, så delmarkörerna och
-   svarsraden ramlade ut som naken text. Oscopad, eftersom facit visas
-   både i .sol, i .delfacit och i .fellosning. */
-
 .facit-v2 > * + *{margin-top:12px}
 
 .facit-del{display:flex;gap:11px;align-items:flex-start}
@@ -1422,19 +1309,15 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .facit-svar strong{color:var(--accInk)}
 
-/* Figurer i uppgiftstext och facit. Banken lindar dem i <span class="fig">,
-   ibland med bred/smal som breddhint. */
 .fig{display:block;margin:14px auto;text-align:center}
 .fig svg{display:block;max-width:100%;height:auto;margin:0 auto}
 .fig.smal svg{max-width:340px}
 
-/* Frågan i en enskild deluppgift, när en uppgift delats i spelet. */
 .spel-en-del{margin-top:12px;font-weight:600}
 
 .sol .lbl{font-size:12.5px;color:var(--ink3);font-weight:600}
 .sol svg{display:block;max-width:100%;height:auto;margin:18px auto}
 
-/* ---------- passrapport ---------- */
 .summary{width:min(620px,calc(100% - 32px));margin:0 auto;padding:40px 0 60px;text-align:center}
 .summary .ringwrap{width:132px;height:132px;margin:0 auto}
 .summary .ringwrap .num{font-size:32px}
@@ -1442,7 +1325,6 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .summary p{color:var(--ink2);margin:10px 0 0;font-family:var(--read);letter-spacing:0}
 .sumtiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:26px 0 24px}
 
-/* Rekordraden i passrapporten. */
 .rekord{
   display:flex;align-items:center;gap:13px;text-align:left;margin:0 0 18px;
   padding:13px 16px;border-radius:17px;
@@ -1464,14 +1346,13 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   box-shadow:inset 0 1px 0 rgba(255,255,255,.55)}
 .rekord.ny b{color:var(--gold)}
 
-/* ---------- toast / hyllning ---------- */
 .toast{
   position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);opacity:0;pointer-events:none;
   padding:11px 16px;border-radius:13px;background:var(--ink);color:var(--bg);box-shadow:var(--e2);
   transition:.25s var(--ease);z-index:60;font-size:13.5px;font-weight:500;
 }
 .toast.show{opacity:1;transform:translate(-50%,0)}
-/* ---------- flervalsruta ---------- */
+
 .modal{
   position:fixed;inset:0;z-index:70;display:grid;place-items:center;padding:20px;
   background:rgba(6,14,26,.5);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
@@ -1557,23 +1438,19 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   .side{position:static;grid-template-columns:1fr 1fr;display:grid}
   .course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
-/* Toppfältet på mobil: inget får radbrytas, och rangen kortas ned
-   till sitt märke och sitt dagsstreck när bredden tryter. XP-stapeln
-   är det sista som viker, för det är den som ska synas hela tiden. */
+
 @media(max-width:820px){
   .topbar .pill .xpnum{display:none}
 }
 @media(max-width:760px){
   .topbar .pill .rname{display:none}
 }
-/* Pallen blir en ren ikon när texten inte längre får plats. */
+
 @media(max-width:680px){
   .topppill .topptext{display:none}
   .topppill{padding:7px;border-radius:11px}
 }
-/* Under 560 px räcker bredden inte till både ordmärket och de tre
-   knapparna till höger. Loggan bär varumärket ensam, och allt som
-   går att klicka på blir kvar. */
+
 @media(max-width:560px){
   .topbar .brand>span{display:none}
   .topbar .brand{gap:0}
@@ -1592,7 +1469,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 @media(max-width:430px){
   .brand{font-size:15px;gap:8px}
   .brandmark{width:30px;height:30px;border-radius:9px}
-  /* Inloggningsknappen blir en ikon, så att namnet får plats. */
+
   .logga-in span{
     position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;
   }
@@ -1602,8 +1479,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .logga-in svg{width:16px;height:16px;display:none}
 @media(max-width:430px){.logga-in svg{display:block}}
-/* Riktigt smala skärmar: dagsstrecket får ge vika, nivån stannar.
-   Färgläget följer datorns inställning ändå. */
+
 @media(max-width:392px){
   .topbar .pill .flame,.topbar .pill .rankdot{display:none}
   .topbar .pill{padding:5px 11px}
@@ -1620,8 +1496,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   .course-grid{grid-template-columns:1fr}
   .side{grid-template-columns:1fr}
   .area-grid{grid-template-columns:1fr 1fr}
-  /* Långa områdesnamn får inte kapas. Under 430 px står korten i en
-     spalt i stället för två. */
+
   @media(max-width:430px){.area-grid{grid-template-columns:1fr}}
   .hero{padding:34px 2px 26px}
   .tbody{font-size:17px;padding:22px 18px}
@@ -1629,9 +1504,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   .sumtiles{grid-template-columns:1fr}
   .badgestrip{grid-template-columns:repeat(4,1fr)}
 }
-/* På smal skärm får XP-mätaren en egen rad under Avsluta och prickarna,
-   i stället för att kortas ned. Passetiketten är den enda uppgift i
-   raden som står att läsa någon annanstans, så den får vika. */
+
 @media(max-width:600px){
   .ttop{flex-wrap:wrap;row-gap:10px;padding-bottom:11px}
   .ttop .tag{display:none}
@@ -1643,10 +1516,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 </head>
 
 <body>
-<!-- Sidan byggs helt av JavaScript, så en sökrobot som inte kör skript
-     ser annars en tom sida. Det här är den enda text som finns i
-     HTML:en från start, och den är också vad en besökare utan
-     JavaScript möts av. -->
+
 <noscript>
   <div style="max-width:640px;margin:60px auto;padding:0 24px;font-family:system-ui,sans-serif;line-height:1.6">
     <h1>Kunskapsgymmet</h1>
@@ -1666,11 +1536,6 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 <div id="cheer" class="cheer" role="dialog" aria-live="polite"></div>
 
 <script>
-/* ==========================================================
-   KUNSKAPSGYMMET
-   All UI, CSS och träningslogik ligger i denna index.html.
-   Struktur- och uppgiftsfilerna ligger separat i rooten.
-   ========================================================== */
 
 const COURSES = {
   fy1:{
@@ -1690,8 +1555,7 @@ const COURSES = {
     files:["strukturma1.js","uppgifterma1.js"],
     globals:{bank:"BANKMA1",kap:"KAPNAMNMA1",kapSpar:"KAPNAMNMA1SPAR",omr:"OMRMA1",grupp:"GRUPPMA1"},
     tracks:["1a","1b","1c"], defaultTrack:"1c", tint:"#4A86EE",
-    // Stryks helt ur Kunskapsgymmet. Matchas mot kapitlets namn,
-    // områdets namn eller områdets nyckel.
+
     utanOmraden:["digitala verktyg, problemlösning och modellering"]
   },
   ma2:{
@@ -1722,41 +1586,24 @@ const COURSES = {
 
 const COURSE_ORDER=["ma1","ma2","mato1","mato2","matf1","fy1","fy2"];
 
-/* Spår som ges ur två olika böcker beroende på program. Rutan på
-   startsidan delas diagonalt mellan bokens två färger, så att båda
-   grupperna känner igen sin bok. Nyckeln är kurs och spår, värdet är
-   den andra bokens färg. Accenten inne i kursen följer spårets
-   bokstav som vanligt. */
 const DELAT_SPAR={ "ma1|1a":"gul" };
 
-/* ==========================================================
-   SUPABASE
-   Projektets adress och den publika nyckeln. Nyckeln är avsedd att
-   ligga öppet i frontend — skyddet ligger i radsäkerheten (RLS) i
-   databasen. Använd aldrig en secret- eller service_role-nyckel här.
-   Töms fälten försvinner inloggningen och allt körs lokalt igen.
-   ========================================================== */
+// Publik API-nyckel. Behörigheter och resultatkontroller ligger i databasen.
 let SUPABASE_URL="https://lynobdhncyhnogiafsdb.supabase.co";
 let SUPABASE_KEY="sb_publishable_Goz662Lr8mb0-h3J6GzdKQ_v8Zq4apt";
 
 const MOLN_PA = () => !!(SUPABASE_URL && SUPABASE_KEY);
 
-/* Konton med e‑post och lösenord kräver att SMTP är konfigurerat i
-   Supabase, annars når varken bekräftelsemejl eller återställning
-   fram. Koden ligger kvar och fungerar — sätt den här till true när
-   avsändaren är på plats, så dyker vägen upp på startskärmen igen. */
 const EPOST_LOGIN=false;
 const SESSION_KEY="kunskapsgymmet-session";
-let session=null;     // {access_token, refresh_token, expires_at, user}
+let session=null;
 
 function sbHeaders(auth){
   const h={apikey:SUPABASE_KEY,"Content-Type":"application/json"};
-  // PostgREST vill ha en Authorization-header även för utloggade anrop.
-  // Utan session är anon-nyckeln själv den token som ger rollen anon —
-  // skickas den inte blir svaret 401 i stället för en tom lista.
-  h.Authorization="Bearer "+((auth && session) ? session.access_token : SUPABASE_KEY);
+  if(auth && session?.access_token) h.Authorization="Bearer "+session.access_token;
   return h;
 }
+
 function sparaSession(s){
   session=s;
   try{ s ? localStorage.setItem(SESSION_KEY,JSON.stringify(s))
@@ -1767,21 +1614,24 @@ function lasSession(){
   return session;
 }
 
-/* Startar Googles inloggning. Supabase skickar tillbaka eleven hit
-   med tokens i adressens fragment. */
 function loggaInGoogle(){
   if(!MOLN_PA()) return;
   location.href=SUPABASE_URL+"/auth/v1/authorize?provider=google"
     +"&redirect_to="+encodeURIComponent(returAdress());
 }
-/* Knappen i toppfältet visar startskärmen med alla sätt att logga in. */
+
 function loggaIn(){ if(MOLN_PA()) bytGate("val"); }
 function returAdress(){ return location.origin+location.pathname; }
 async function loggaUt(){
   if(session){
     try{ await fetch(SUPABASE_URL+"/auth/v1/logout",{method:"POST",headers:sbHeaders(true)}); }catch(_){}
   }
+  clearTimeout(pushTimer);
+  cacheCloudProfile();
+  syncOwner=null;syncRevision=null;acceptedProfile=null;pushKo=false;
   sparaSession(null);
+  profile=loadProfile();
+  rensaPagaendePass();
   state.course=null;state.data=null;state.track=null;state.currentTask=null;
   state.openChapters=null;applyAccent();
   gateLage="val";
@@ -1789,9 +1639,6 @@ async function loggaUt(){
   toast("Utloggad. Träningen sparas fortfarande här på enheten.");
 }
 
-/* Plockar upp tokens efter återkomsten från Google eller ett e‑postlänkklick
-   och städar adressen. inloggningsTyp blir "recovery" när eleven kommer via
-   länken för glömt lösenord, och "signup" efter en bekräftad registrering. */
 let inloggningsTyp=null, inloggningsFel=null;
 function fangaInloggning(){
   const h=location.hash||"";
@@ -1843,12 +1690,6 @@ async function hamtaAnvandare(){
   }catch(_){ return null; }
 }
 
-/* ---------- Konto med e‑post och lösenord ----------
-   Samma användare och samma rader i databasen som Google-inloggningen.
-   Det enda som skiljer är vägen in. Efter en lyckad inloggning laddas
-   sidan om, så att uppstarten får slå ihop den lokala profilen med
-   molnets på precis samma sätt som efter Google. */
-
 function authFel(d){
   const m=(d?.error_description||d?.msg||d?.message||"").toLowerCase();
   if(m.includes("invalid login"))            return "Fel e‑post eller lösenord.";
@@ -1882,8 +1723,7 @@ async function loggaInMedLosenord(epost,losen){
   const d=await authAnrop("token?grant_type=password",{email:epost,password:losen});
   if(!sparaFranAuthSvar(d)) throw new Error("Inloggningen gick inte igenom.");
 }
-/* Returnerar true om eleven är inloggad direkt, false om ett
-   bekräftelsemejl skickats och kontot väntar på att öppnas. */
+
 async function skapaKonto(epost,losen){
   const d=await authAnrop("signup?redirect_to="+encodeURIComponent(returAdress()),
     {email:epost,password:losen});
@@ -1898,134 +1738,161 @@ async function sattNyttLosenord(losen){
   sparaSession({...session,user:u});
 }
 
-/* ---------- Profilen i molnet ----------
-   Hela profilen ligger som ett jsonb-fält på en rad per användare. */
-async function hamtaMolnprofil(){
-  if(!await giltigSession()) return null;
-  const u=await hamtaAnvandare();
-  if(!u) return null;
+let pushTimer=null, pushKo=false, syncOwner=null, syncRevision=null;
+let syncQueue=Promise.resolve(), syncRetry=0, acceptedProfile=null;
+const SYNC_PREFIX="kunskapsgymmet-cloud-v2:";
+
+function localSyncKey(uid){ return SYNC_PREFIX+uid; }
+function cacheCloudProfile(){
+  if(!syncOwner || syncOwner!==session?.user?.id) return;
   try{
-    const r=await fetch(SUPABASE_URL+"/rest/v1/profiler?select=data&id=eq."+u.id,
-      {headers:sbHeaders(true)});
-    if(!r.ok) return null;
-    const rader=await r.json();
-    return rader[0]?.data || null;
-  }catch(_){ return null; }
+    localStorage.setItem(localSyncKey(syncOwner),JSON.stringify({
+      revision:syncRevision,data:profile,pending:pushKo
+    }));
+  }catch(_){}
 }
-let pushTimer=null, pushKo=false;
-async function skickaMolnprofil(){
-  if(!MOLN_PA() || !await giltigSession()) return;
-  const u=await hamtaAnvandare();
-  if(!u) return;
+function backupLocalProfile(reason,data=profile){
   try{
-    await fetch(SUPABASE_URL+"/rest/v1/profiler",{
-      method:"POST",
-      headers:{...sbHeaders(true),Prefer:"resolution=merge-duplicates,return=minimal"},
-      body:JSON.stringify({id:u.id,data:profile,uppdaterad:new Date().toISOString()})});
-  }catch(_){ pushKo=true; }   // nästa sparning försöker igen
-  // Topplistans rad skrivs bara om eleven valt ett namn.
-  await skickaTopplista();
+    const key="kunskapsgymmet-recovery:"+(syncOwner||"guest");
+    const entries=JSON.parse(localStorage.getItem(key)||"[]");
+    entries.push({at:Date.now(),reason,data});
+    localStorage.setItem(key,JSON.stringify(entries.slice(-5)));
+  }catch(_){}
 }
+// Serialisering och serverrevision förhindrar att äldre sparningar skriver över nyare.
+function serialSync(work){
+  const next=syncQueue.then(work,work);
+  syncQueue=next.catch(()=>{});
+  return next;
+}
+// Ingen reservväg får skriva direkt till profiler eller topplista.
+async function cloudRpc(action,data=null,revision=null){
+  if(!await giltigSession()) throw new Error("Logga in igen för att spara din träning.");
+  const response=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_profile",{
+    method:"POST",headers:sbHeaders(true),
+    body:JSON.stringify({p_action:action,p_data:data,p_revision:revision})
+  });
+  if(!response.ok){
+    const err=new Error(response.status===404
+      ? "Molnsparningen behöver uppdateras. Kontakta webbplatsens ansvarige."
+      : "Träningen kunde inte sparas i molnet. Den finns kvar på enheten.");
+    err.status=response.status;
+    throw err;
+  }
+  return response.json();
+}
+function syncMessage(code){
+  if(code==="name_taken") return "Namnet är upptaget. Prova ett annat.";
+  if(code==="name_format") return "Använd 3–16 bokstäver, siffror, bindestreck eller understreck.";
+  if(code==="conflict") return "En nyare profil finns. Den har hämtats; osparad träning har säkerhetskopierats på enheten.";
+  if(code==="rate_limit") return "Ovanligt många uppgifter skickades samtidigt. Den senaste sparade profilen har återställts. Kontakta ansvarig om träningen stämmer.";
+  if(code==="review_required") return "Din tidigare profil behöver granskas. Kontakta webbplatsens ansvarige.";
+  return "Resultaten kunde inte godkännas. Den senaste sparade profilen har återställts.";
+}
+function installCloudProfile(reply){
+  profile=loadProfileFrom(reply.data);
+  acceptedProfile=JSON.parse(JSON.stringify(profile));
+  syncRevision=reply.revision;
+  pushKo=false;
+  cacheCloudProfile();
+}
+function recoverCloudProfile(reply){
+  backupLocalProfile(reply.code);
+  installCloudProfile(reply);
+  rensaPagaendePass();
+  state.currentTask=null;
+  state.view=state.course&&state.data?"dashboard":"home";
+  render();
+  toast(syncMessage(reply.code));
+}
+async function sendProfileNow(){
+  if(!MOLN_PA() || !session || !syncOwner || syncRevision===null) return {ok:false};
+  const uid=syncOwner;
+  if(uid!==session.user?.id) return {ok:false};
+  const snapshot=JSON.stringify(profile);
+  try{
+    const reply=await cloudRpc("save",JSON.parse(snapshot),syncRevision);
+    if(uid!==syncOwner || uid!==session?.user?.id) return {ok:false};
+    if(!reply.ok){
+      if(reply.data) recoverCloudProfile(reply);
+      else toast(syncMessage(reply.code));
+      return reply;
+    }
+    acceptedProfile=JSON.parse(JSON.stringify(reply.data));
+    syncRevision=reply.revision;
+    syncRetry=0;
+    if(JSON.stringify(profile)===snapshot){
+      installCloudProfile(reply);
+    }else{
+      pushKo=true;
+      cacheCloudProfile();
+      schemalaggPush();
+    }
+    return reply;
+  }catch(err){
+    if(uid!==syncOwner || uid!==session?.user?.id) return {ok:false};
+    pushKo=true;
+    cacheCloudProfile();
+    if(!syncRetry) toast(err.message);
+    syncRetry++;
+    if(err.status!==404 && err.status!==401 && err.status!==403){
+      clearTimeout(pushTimer);
+      pushTimer=setTimeout(skickaMolnprofil,Math.min(60000,5000*2**Math.min(syncRetry,4)));
+    }
+    return {ok:false,fel:err.message};
+  }
+}
+function skickaMolnprofil(){ return serialSync(sendProfileNow); }
 function schemalaggPush(){
-  if(!MOLN_PA() || !session) return;
+  if(!MOLN_PA() || !session || !syncOwner) return;
   clearTimeout(pushTimer);
   pushTimer=setTimeout(skickaMolnprofil,2500);
 }
-
-/* Slår ihop två profiler. Den med flest tränade uppgifter är grund,
-   räknare tar högsta värdet och medaljer behåller sitt tidigaste datum. */
-function slaIhopProfiler(a,b){
-  if(!a) return b; if(!b) return a;
-  const [bas,extra] = (a.attempts||0)>=(b.attempts||0) ? [a,b] : [b,a];
-  const p={...extra,...bas};
-  ["xp","attempts","correct","bestStreak","bestRun","aCorrect","pass","felfria",
-   "utanFacit","morgon","bestKapitel","bestKurs","bestNiva3","reparerade"]
-    .forEach(k=>{ p[k]=Math.max(a[k]||0,b[k]||0); });
-
-  // Dagsstrecket följer den senaste träningsdagen.
-  const sen = (a.lastDay||"") >= (b.lastDay||"") ? a : b;
-  p.lastDay=sen.lastDay||null; p.today=sen.today||0;
-  p.streak = (a.lastDay===b.lastDay) ? Math.max(a.streak||0,b.streak||0) : (sen.streak||0);
-  p.goal = bas.goal || extra.goal || 8;
-
-  // Namnet följer den profil som tränat mest. Synligheten är på som
-  // standard, men ett uttryckligt nej på någon av enheterna vinner —
-  // ingen ska hamna på listan mot sin vilja för att synken råkade
-  // välja fel profil.
-  p.namn = bas.namn || extra.namn || null;
-  p.toppValt = !!(a.toppValt || b.toppValt);
-  const doldNagonstans = (a.toppValt && a.visaTopplista===false)
-                      || (b.toppValt && b.visaTopplista===false);
-  p.visaTopplista = !doldNagonstans;
-
-  p.badges={...(extra.badges||{})};
-  Object.entries(a.badges||{}).forEach(([k,v])=>{p.badges[k]=Math.min(p.badges[k]||v,v);});
-  Object.entries(b.badges||{}).forEach(([k,v])=>{p.badges[k]=Math.min(p.badges[k]||v,v);});
-
-  p.courses={};
-  const kurser=new Set([...Object.keys(a.courses||{}),...Object.keys(b.courses||{})]);
-  kurser.forEach(k=>{
-    const x=(a.courses||{})[k]||{}, y=(b.courses||{})[k]||{};
-    const c={areas:{},families:{},levels:{},sedda:{...(x.sedda||{}),...(y.sedda||{})},history:[]};
-    // Kapitelfokus är ett aktivt val. Den profil som har ett behålls,
-    // och har båda gjort val tas unionen — ingen förlorar sitt kapitel.
-    const fx=(x.fokus||[]).map(String), fy=(y.fokus||[]).map(String);
-    if(fx.length||fy.length) c.fokus=[...new Set([...fx,...fy])];
-    ["areas","families"].forEach(f=>{
-      new Set([...Object.keys(x[f]||{}),...Object.keys(y[f]||{})]).forEach(n=>{
-        c[f][n]=Math.max((x[f]||{})[n]??0,(y[f]||{})[n]??0);
-      });
-    });
-    new Set([...Object.keys(x.levels||{}),...Object.keys(y.levels||{})]).forEach(omr=>{
-      const xa=(x.levels||{})[omr]||{}, ya=(y.levels||{})[omr]||{};
-      c.levels[omr]={};
-      ["E","C","A"].forEach(L=>{
-        const p1=xa[L], p2=ya[L];
-        // Fler besvarade uppgifter väger tyngst som underlag.
-        c.levels[omr][L] = !p1 ? p2 : !p2 ? p1 : ((p1.n||0)>=(p2.n||0)?p1:p2);
-        if(!c.levels[omr][L]) delete c.levels[omr][L];
-      });
-    });
-    const h=[...(x.history||[]),...(y.history||[])];
-    const sett=new Set();
-    c.history=h.sort((m,n)=>(m.at||0)-(n.at||0))
-      .filter(e=>{const nyckel=e.id+"|"+e.at; if(sett.has(nyckel))return false; sett.add(nyckel); return true;})
-      .slice(-300);
-    p.courses[k]=c;
-  });
-  return p;
-}
-
-/* Körs vid start och efter inloggning. */
 async function synkaProfil(){
   if(!MOLN_PA() || !session) return;
-  const moln=await hamtaMolnprofil();
-  if(moln){
-    profile=loadProfileFrom(slaIhopProfiler(profile,moln));
-    saveProfile();
+  const user=await hamtaAnvandare();
+  if(!user) return;
+  syncOwner=user.id;
+  let cached=null;
+  try{ cached=JSON.parse(localStorage.getItem(localSyncKey(user.id))); }catch(_){}
+  if(cached?.data && Number.isSafeInteger(cached.revision)){
+    profile=loadProfileFrom(cached.data);
+    syncRevision=cached.revision;
+    pushKo=!!cached.pending;
+  }else{
+    backupLocalProfile("before-account-sync");
+    profile=loadProfileFrom({});
   }
-  await skickaMolnprofil();
+  try{
+    const reply=await cloudRpc("read");
+    if(syncOwner!==user.id || session?.user?.id!==user.id) return;
+    if(!reply.ok || !reply.data) throw new Error("Kunde inte hämta din sparade profil.");
+    acceptedProfile=JSON.parse(JSON.stringify(reply.data));
+    if(cached?.pending && cached.revision===reply.revision && !reply.review){
+      await skickaMolnprofil();
+    }else{
+      if(cached?.pending){ backupLocalProfile("startup-conflict"); rensaPagaendePass(); }
+      installCloudProfile(reply);
+      if(cached?.pending) toast(syncMessage("conflict"));
+      if(reply.review) toast(syncMessage("review_required"));
+    }
+  }catch(err){
+    toast(err.message);
+  }
 }
+
 const BANK_VERSION="2026-09-08";
 
-/* ==========================================================
-   ETT PÅGÅENDE PASS ÖVERLEVER EN OMLADDNING
-   Telefonen låser sig, fliken kastas, någon trycker ladda om — och
-   sju avklarade uppgifter är borta. Det som behövs för att ta upp
-   tråden är litet nog att få plats i localStorage: vilken uppgift
-   som låg framme, hur långt passet kommit och vad det var för pass.
-   ========================================================== */
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
-const PASS_LIVSTID=12*3600*1000;     // äldre än så är passet inte längre aktuellt
+const PASS_LIVSTID=12*3600*1000;
 
 function sparaPagaendePass(){
   if(!state.currentTask || !state.course) return;
-  // Ett pass utan avklarade uppgifter är inget att återuppta: att börja
-  // om från början ger exakt samma sak.
+
   if(!state.sessionDone) return rensaPagaendePass();
   try{
     localStorage.setItem(PASS_KEY,JSON.stringify({
-      at:Date.now(), kurs:state.course, track:state.track,
+      at:Date.now(), owner:syncOwner, kurs:state.course, track:state.track,
       uppgift:state.currentTask.id,
       done:state.sessionDone, target:state.sessionTarget,
       xp:state.sessionXp, ratt:state.sessionCorrect,
@@ -2042,16 +1909,17 @@ function lasPagaendePass(){
   try{
     const d=JSON.parse(localStorage.getItem(PASS_KEY)||"null");
     if(!d || !d.kurs || !d.uppgift) return null;
+    if((d.owner||null)!==syncOwner){ rensaPagaendePass(); return null; }
     if(Date.now()-(d.at||0)>PASS_LIVSTID){ rensaPagaendePass(); return null; }
     return d;
   }catch(_){ return null; }
 }
-/* Körs när kursen är laddad, så att uppgiften går att slå upp i banken. */
+
 function aterupptaPass(d){
   if(!d || d.kurs!==state.course) return false;
   if(d.track && COURSES[state.course]?.tracks?.includes(d.track)) state.track=d.track;
   const t=availableTasks().find(x=>x.id===d.uppgift);
-  if(!t){ rensaPagaendePass(); return false; }   // banken har ändrats
+  if(!t){ rensaPagaendePass(); return false; }
   state.currentTask=t;
   state.sessionDone=d.done||0; state.sessionTarget=d.target||8;
   state.sessionXp=d.xp||0; state.sessionCorrect=d.ratt||0;
@@ -2083,23 +1951,9 @@ const loadedScripts=new Set();
 const PROFILE_KEY="kunskapsgymmet-profile-v1";
 let profile=loadProfile();
 
-/* ==========================================================
-   TOPPLISTAN
-   En egen tabell, "topplista", med bara det som är tänkt att synas:
-   valt namn, nivå, XP, antal uppgifter, dagsstreck och medaljer.
-   Den fullständiga profilen ligger kvar i "profiler" och lämnar
-   aldrig kontot. Raden skrivs bara när eleven valt ett namn, och
-   den syns för andra bara när eleven slagit på det själv.
-
-   Tabellen skapas med SQL:n som ligger i README. Radsäkerheten är
-   det som håller: läsning bara av rader med visa = true, skrivning
-   bara av sin egen rad.
-   ========================================================== */
-
 const NAMN_MIN=3, NAMN_MAX=16;
 const NAMN_MONSTER=/^[A-Za-zÅÄÖåäö0-9_-]+$/;
 
-/* Returnerar ett felmeddelande, eller null om namnet duger. */
 function namnFel(namn){
   const n=String(namn||"").trim();
   if(n.length<NAMN_MIN) return `Minst ${NAMN_MIN} tecken.`;
@@ -2108,27 +1962,16 @@ function namnFel(namn){
   return null;
 }
 
-/* ---------- namnet från Google ----------
-   Den som loggar in med Google får sitt förnamn på listan direkt, utan
-   att behöva välja något. Namnet är bara ett förnamn, och eleven kan
-   både byta det och dölja sig efteråt — men den får veta att det hänt,
-   i samma stund som det händer. Att tyst publicera någons namn vore
-   fel även när namnet är harmlöst. */
 function fornamnFranKonto(u){
   const m=u?.user_metadata||{};
   const helt=m.given_name || m.first_name
     || String(m.full_name || m.name || "").trim().split(/\s+/)[0] || "";
-  // Bara tecken användarnamn får innehålla. Punkter och apostrofer i
-  // namn som "J.P" eller "O'Brien" faller bort i stället för att stoppa.
+
   const rent=helt.replace(/[^A-Za-zÅÄÖåäö0-9_-]/g,"");
   if(rent.length<NAMN_MIN || rent.length>NAMN_MAX) return null;
   return rent;
 }
-/* Krockar är regel, inte undantag: i en klass finns flera Anna. Den
-   första får sitt rena förnamn. För nästa slår automatiken av och
-   eleven får välja själv, med förnamnet förifyllt. Alternativen vore
-   Anna2, som ingen vill heta, eller efternamnets initial, som pekar ut
-   en enskild elev på en lista vem som helst kan läsa. */
+
 async function autoNamnFranGoogle(){
   if(!MOLN_PA() || !session || profile.namn) return;
   const u=await hamtaAnvandare();
@@ -2166,97 +2009,46 @@ function stangNamnbesked(){
   if(el){ el.classList.remove("visa"); setTimeout(()=>el.remove(),200); }
 }
 
-/* Det, och bara det, som skickas till topplistan. */
-function topplistaRad(id){
-  const lp=levelProgress();
-  return {
-    id, namn:profile.namn,
-    visa:!!profile.visaTopplista,
-    xp:profile.xp||0,
-    niva:lp.level,
-    rang:rankFor(lp.level).name,
-    uppgifter:profile.attempts||0,
-    dagar:currentStreak(),
-    medaljer:Object.keys(profile.badges||{}),
-    uppdaterad:new Date().toISOString()
-  };
+function skickaTopplista(){ return skickaMolnprofil(); }
+async function saveLeaderboardSettings(namn,visa){
+  return serialSync(async()=>{
+    if(!syncOwner || syncOwner!==session?.user?.id) return {ok:false,fel:"Du måste vara inloggad."};
+    const uid=syncOwner;
+    if(pushKo){
+      const saved=await sendProfileNow();
+      if(!saved.ok && saved.code!=="review_required") return {ok:false,fel:saved.fel||syncMessage(saved.code)};
+    }
+    try{
+      const reply=await cloudRpc("settings",{namn,visaTopplista:!!visa});
+      if(uid!==syncOwner || uid!==session?.user?.id) return {ok:false,fel:"Kontot har ändrats. Försök igen."};
+      if(!reply.ok) return {ok:false,fel:syncMessage(reply.code)};
+      acceptedProfile=JSON.parse(JSON.stringify(reply.data));
+      syncRevision=reply.revision;
+      profile.namn=reply.data.namn;
+      profile.visaTopplista=reply.data.visaTopplista;
+      profile.toppValt=true;
+      cacheCloudProfile();
+      if(reply.review) toast(syncMessage("review_required"));
+      return {ok:true,review:reply.review};
+    }catch(err){ return {ok:false,fel:err.message}; }
+  });
 }
-
-async function skickaTopplista(){
-  if(!MOLN_PA() || !profile.namn || !await giltigSession()) return;
-  const u=await hamtaAnvandare();
-  if(!u) return;
-  try{
-    await fetch(SUPABASE_URL+"/rest/v1/topplista?on_conflict=id",{
-      method:"POST",
-      headers:{...sbHeaders(true),Prefer:"resolution=merge-duplicates,return=minimal"},
-      body:JSON.stringify(topplistaRad(u.id))});
-  }catch(_){}
-}
-
-/* Claimar namnet. Krocken fångas av det unika indexet i databasen,
-   inte av en förhandskoll — två elever kan annars hinna ta samma
-   namn i mellanrummet. */
 async function claimaNamn(namn){
   const fel=namnFel(namn);
   if(fel) return {ok:false,fel};
-  if(!MOLN_PA() || !await giltigSession()) return {ok:false,fel:"Du måste vara inloggad."};
-  const u=await hamtaAnvandare();
-  if(!u) return {ok:false,fel:"Kunde inte läsa kontot."};
-
-  const forra=profile.namn;
-  profile.namn=String(namn).trim();
-  try{
-    const r=await fetch(SUPABASE_URL+"/rest/v1/topplista?on_conflict=id",{
-      method:"POST",
-      headers:{...sbHeaders(true),Prefer:"resolution=merge-duplicates,return=minimal"},
-      body:JSON.stringify(topplistaRad(u.id))});
-    if(r.status===409 || r.status===23505){
-      profile.namn=forra;
-      return {ok:false,fel:"Namnet är upptaget. Prova ett annat."};
-    }
-    if(!r.ok){
-      profile.namn=forra;
-      const txt=await r.text().catch(()=>"");
-      if(/duplicate|unique/i.test(txt)) return {ok:false,fel:"Namnet är upptaget. Prova ett annat."};
-      // Serverns eget besked är värt mer än en artig omskrivning: det
-      // är skillnaden mellan "policyn släpper inte igenom" och
-      // "namnet bröt mot formatet".
-      let detalj="";
-      try{
-        const j=JSON.parse(txt);
-        detalj=[j.message,j.details,j.hint].filter(Boolean).join(" · ");
-      }catch(_){ detalj=txt.slice(0,160); }
-      console.warn("Topplistan svarade",r.status,txt);
-      return {ok:false,fel:`Fel ${r.status}. ${detalj||"Inget besked från servern."}`};
-    }
-  }catch(fel){
-    profile.namn=forra;
-    console.warn("Topplistan:",fel);
-    return {ok:false,fel:"Ingen kontakt med servern."};
-  }
-  saveProfile();
-  return {ok:true};
+  return saveLeaderboardSettings(String(namn).trim(),profile.visaTopplista);
 }
-
-/* Slår på eller av synligheten. Av betyder att raden inte längre
-   går att läsa för någon annan. */
 async function vaxlaTopplista(pa){
-  profile.visaTopplista=!!pa;
-  profile.toppValt=true;
-  saveProfile();
-  await skickaTopplista();
+  const reply=await saveLeaderboardSettings(profile.namn,pa);
+  if(!reply.ok) toast(reply.fel);
+  return reply;
 }
 
-/* Hämtar listan. Sorteringen görs i databasen, så vi får rätt topp
-   även när det finns fler rader än vi hämtar hem. */
 const TOPP_SORT={xp:"xp",uppgifter:"uppgifter",dagar:"dagar"};
 async function hamtaTopplista(sortering,gräns=50){
   const kol=TOPP_SORT[sortering]||"xp";
   if(!MOLN_PA()) return null;
-  // Listan går att läsa utloggad. Den som inte är inloggad ser samma
-  // rader, bara utan sin egen — vilket är själva poängen med att visa
-  // den. Raderna innehåller bara det de som står där valt att visa.
+
   const inloggad = !!session && await giltigSession();
   try{
     const r=await fetch(SUPABASE_URL+"/rest/v1/topplista"
@@ -2264,8 +2056,7 @@ async function hamtaTopplista(sortering,gräns=50){
       +"&visa=eq.true&order="+kol+".desc&limit="+gräns,
       {headers:sbHeaders(inloggad)});
     if(!r.ok){
-      // Vanligaste orsaken utloggad: anon saknar läsrätt på topplista.
-      // Felet från PostgREST säger vilket, så det loggas i klartext.
+
       let txt=""; try{ txt=await r.text(); }catch(_){}
       console.warn("Topplistan svarade "+r.status+": "+txt);
       return null;
@@ -2274,30 +2065,23 @@ async function hamtaTopplista(sortering,gräns=50){
   }catch(_){ return null; }
 }
 
-/* Egen placering, även när man ligger utanför den hämtade toppen.
-   Räknar rader med högre värde och lägger på ett. */
 async function minPlacering(sortering){
   const kol=TOPP_SORT[sortering]||"xp";
   if(!session || !profile.visaTopplista || !profile.namn) return null;
-  const mitt={xp:profile.xp||0,uppgifter:profile.attempts||0,dagar:currentStreak()}[kol];
+  if(!acceptedProfile || !await giltigSession()) return null;
+  const acceptedDay=acceptedProfile.lastDay;
+  const streak=(acceptedDay===todayKey() || acceptedDay===yesterdayKey())?acceptedProfile.streak||0:0;
+  const mitt={xp:acceptedProfile.xp||0,uppgifter:acceptedProfile.attempts||0,dagar:streak}[kol];
   try{
     const r=await fetch(SUPABASE_URL+"/rest/v1/topplista?select=id&visa=eq.true&"+kol+"=gt."+mitt,
       {headers:{...sbHeaders(true),Prefer:"count=exact",Range:"0-0"}});
     if(!r.ok) return null;
-    const cr=r.headers.get("content-range")||"";       // "0-0/17"
+    const cr=r.headers.get("content-range")||"";
     const n=parseInt(cr.split("/")[1],10);
     return Number.isFinite(n) ? n+1 : null;
   }catch(_){ return null; }
 }
 
-/* ==========================================================
-   NAVIGERING
-   Varje vy blir ett steg i webbläsarens historik, så att bakåt
-   på mobilen tar eleven ett steg tillbaka i stället för att
-   lämna sidan. navStack speglar historiken i minnet så att
-   knapparna i gränssnittet kan gå bakåt i stället för att lägga
-   till ännu ett steg.
-   ========================================================== */
 const navStack=[];
 
 function navDesc(view){
@@ -2320,9 +2104,7 @@ function navPrev(){
   const d=history.state?.depth||0;
   return d>0 ? navStack[d-1] : null;
 }
-/* Gå tillbaka till en vy: används av knapparna i gränssnittet.
-   Ligger vyn redan bakom oss backar vi dit i stället för att
-   stapla på ett nytt steg. */
+
 function navBackTo(view){
   const p=navPrev();
   if(p && p.view===view && p.course===state.course){ history.back(); return true; }
@@ -2334,7 +2116,7 @@ function backToDashboard(){
 }
 
 async function navRestore(st){
-  // Topplistan hänger inte på en kurs, så den återskapas före kurskollen.
+
   if(st && st.view==="topplista"){
     if(st.course && st.course!==state.course) await selectCourse(st.course,{record:false,render:false});
     oppnaTopplista(state.toppSort,false); return;
@@ -2358,15 +2140,13 @@ async function navRestore(st){
     case "picker":   showAreaPicker(false); break;
     case "progress": showProgress(false); break;
     case "summary":  renderSessionDone(false); break;
-    // En pågående uppgift går inte att återskapa, så vi landar i kursen.
+
     case "training": state.currentTask?renderTraining():renderDashboard(); break;
     default:         renderDashboard();
   }
 }
 window.addEventListener("popstate",e=>{ navRestore(e.state); });
-/* En fokuslänk som öppnas i en flik där appen redan körs laddar inte
-   om sidan, den byter bara hash. Egna navigeringar skriver aldrig ett
-   snedstreck, så det är säkert att bara reagera på dem. */
+
 window.addEventListener("hashchange",()=>{
   const adr=tolkaAdress(location.hash);
   if(!adr.kapitel || !COURSES[adr.kurs]) return;
@@ -2386,13 +2166,10 @@ function loadProfileFrom(p){
   p.run||=0; p.bestRun||=0; p.aCorrect||=0; p.today||=0; p.goal||=8;
   p.pass||=0; p.felfria||=0; p.utanFacit||=0; p.morgon||=0;
   p.bestKapitel||=0; p.bestKurs||=0; p.bestNiva3||=0;
-  p.reparerade||=0;   // uppgifter som gått från fel till rätt
-  p.bastaPass ??= null;   // {pct, ratt, total, at}
+  p.reparerade||=0;
+  p.bastaPass ??= null;
   p.lastDay ??= null;
-  // Topplistan. Namnet väljs av eleven och är inte Google-namnet.
-  // Den som är inloggad är med som standard och får aktivt dölja sig.
-  // toppValt minns om eleven själv rört växeln: har någon en gång
-  // valt bort listan ska inte en ny standard sätta tillbaka dem där.
+
   p.namn ??= null;
   p.toppValt ??= !!p.namn;
   p.visaTopplista = p.toppValt ? !!p.visaTopplista : true;
@@ -2400,9 +2177,15 @@ function loadProfileFrom(p){
   return p;
 }
 function saveProfile(){
-  try{ localStorage.setItem(PROFILE_KEY,JSON.stringify(profile)); }catch(_){}
-  schemalaggPush();
+  if(syncOwner && syncOwner===session?.user?.id){
+    pushKo=true;
+    cacheCloudProfile();
+    schemalaggPush();
+  }else{
+    try{ localStorage.setItem(PROFILE_KEY,JSON.stringify(profile)); }catch(_){}
+  }
 }
+
 function ensureCourseProfile(){
   const c=state.course || "none";
   profile.courses[c] ||= {areas:{},families:{},history:[]};
@@ -2419,14 +2202,6 @@ function updateMastery(map,key,correct){
   map[key]=Math.max(.08,Math.min(.96,s));
 }
 
-/* ==========================================================
-   RANGER, MILSTOLPAR OCH DAGSSTRECK
-   ========================================================== */
-
-/* Rangerna. Tolv steg i stället för sex, så att det alltid finns
-   något inom räckhåll. Tätt i början, där en ny elev behöver se att
-   det rör sig, och glesare uppåt, där varje steg ska betyda något.
-   sym är siffran som står i märket, inte nivån. */
 const RANKS=[
   {lvl:1,  name:"Nykomling",   sym:"1"},
   {lvl:2,  name:"Motionär",    sym:"2"},
@@ -2441,11 +2216,7 @@ const RANKS=[
   {lvl:38, name:"Ikon",        sym:"11"},
   {lvl:46, name:"Odödlig",     sym:"12"}
 ];
-/* Nivåkurvan. Kostnaden för nästa nivå växer kvadratiskt och sedan
-   kubiskt, så en ny nivå tar allt längre tid ju högre man kommer:
-   nivå 2 tar ett par uppgifter, nivå 10 en dryg vecka, nivå 30 ett
-   läsår med jämn träning. Trean i nämnaren gör kurvan mjuk nog att
-   de första tjugo nivåerna inte känns låsta. */
+
 function totalXpForLevel(L){
   const n=L-1;
   return Math.round(20*n + 10*n*n + 0.6*n*n*n);
@@ -2498,55 +2269,43 @@ function bestAreaMastery(){
 }
 function touchedAreas(){ return allAreaMasteries().length; }
 
-/* ==========================================================
-   MEDALJMÄRKEN
-   Ett ritat märke per medalj, i stället för tecken ur teckentabellen.
-   Tecken som ◆ ▲ ⬢ ✦ renderas olika på iOS, Android och Windows, så
-   utseendet gick inte att styra. Här är varje märke en streckteckning
-   i samma vikt, som ärver färg av brickan den ligger i: matt bläck när
-   medaljen är låst, mörk mässingsgravyr när den är tagen.
-
-   Alla banor är ritade i rutan 24 × 24 med samma streckvikt, så att
-   märkena väger lika mycket bredvid varandra.
-   ========================================================== */
 const MEDALJBANOR={
-  /* uthållighet */
+
   steg:      '<path d="M5 20.5h14"/><path d="M12 16.5V5"/><path d="M7.5 9.5L12 5l4.5 4.5"/>',
   uppvarmd:  '<path d="M14 14.6V5.5a2 2 0 1 0-4 0v9.1a4 4 0 1 0 4 0z"/><path d="M12 9.5v5.5"/>',
   formstark: '<path d="M6 20.5V15"/><path d="M12 20.5V8.5"/><path d="M18 20.5V4"/>',
   jarnvilja: '<path d="M10.3 7.6l1.4-1.4a3.7 3.7 0 0 1 5.2 5.2l-1.4 1.4"/><path d="M13.7 16.4l-1.4 1.4a3.7 3.7 0 0 1-5.2-5.2l1.4-1.4"/><path d="M9.4 14.6l5.2-5.2"/>',
-  /* precision */
+
   serie:     '<circle cx="12" cy="12" r="8.2"/><circle cx="12" cy="12" r="4.2"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/>',
   obruten:   '<path d="M20.2 12a8.2 8.2 0 1 1-3.4-6.6"/><path d="M20.2 3.8v5h-5"/>',
   felfri:    '<path d="M12 3.2l7.4 2.9v5.4c0 4.4-3.1 7.5-7.4 8.9-4.3-1.4-7.4-4.5-7.4-8.9V6.1z"/><path d="M9.2 11.9l2.2 2.2 4.2-4.4"/>',
   egenkraft: '<path d="M13.2 3L5.4 13.6h5.6L10.8 21l7.8-10.6H13z"/>',
-  /* vanor */
+
   veckan:    '<rect x="3.6" y="5.2" width="16.8" height="15.2" rx="3"/><path d="M8 3v4.4M16 3v4.4M3.6 10.2h16.8"/><path d="M9.4 14.6l2.1 2.1 3.9-4"/>',
   manaden:   '<path d="M20.3 14.6A8.4 8.4 0 0 1 9.4 3.7a8.4 8.4 0 1 0 10.9 10.9z"/>',
   passtio:   '<circle cx="12" cy="13.6" r="7.4"/><path d="M12 13.6V9.8"/><path d="M9.6 2.6h4.8"/><path d="M12 2.6v3"/>',
   tidig:     '<path d="M3 19h18"/><path d="M6.6 15a5.4 5.4 0 0 1 10.8 0"/><path d="M12 3.4v2.6M5.4 6.9l1.8 1.8M18.6 6.9l-1.8 1.8"/>',
-  /* bredd */
+
   allsidig:  '<path d="M12 3v18M3 12h18"/><path d="M5.7 5.7l12.6 12.6M18.3 5.7L5.7 18.3"/>',
   kartan:    '<path d="M9 4.6L3.6 6.9v12.5L9 17.1l6 2.3 5.4-2.3V4.6L15 6.9z"/><path d="M9 4.6v12.5M15 6.9v12.5"/>',
   bredaxlad: '<rect x="3.2" y="4.6" width="7.4" height="14.8" rx="1.8"/><rect x="13.4" y="4.6" width="7.4" height="14.8" rx="1.8"/>',
   tusen:     '<ellipse cx="12" cy="6.6" rx="7.4" ry="2.9"/><path d="M4.6 6.6v5c0 1.6 3.3 2.9 7.4 2.9s7.4-1.3 7.4-2.9v-5"/><path d="M4.6 11.6v5c0 1.6 3.3 2.9 7.4 2.9s7.4-1.3 7.4-2.9v-5"/>',
-  /* djup */
+
   stjarna:   '<path d="M12 3.4l2.7 5.5 6 .9-4.3 4.2 1 6-5.4-2.8-5.4 2.8 1-6L3.3 9.8l6-.9z"/>',
   hojd:      '<path d="M6 13l6-6 6 6"/><path d="M6 19l6-6 6 6"/>',
   toppform:  '<path d="M2.6 19.5l6.5-10.7 3.9 6 2.1-3.2 6.3 7.9z"/><path d="M9.1 8.8l2 3.2H7.1z"/>',
   kapitel:   '<path d="M12 7.4v12.4"/><path d="M12 7.4C10.4 6 8.4 5.3 5.8 5.3H3.5v11.9h2.3c2.6 0 4.6.7 6.2 2.6"/><path d="M12 7.4c1.6-1.4 3.6-2.1 6.2-2.1h2.3v11.9h-2.3c-2.6 0-4.6.7-6.2 2.6"/>',
   provklar:  '<circle cx="12" cy="9.2" r="5.9"/><path d="M8.4 14.4L7 21.6l5-2.7 5 2.7-1.4-7.2"/>',
-  /* laga fel */
+
   lagat:     '<path d="M20 12a8 8 0 1 1-2.3-5.6"/><path d="M20 3.8v4.8h-4.8"/><path d="M8.6 12.3l2.4 2.4 4.4-4.7"/>',
   envis:     '<path d="M4 12a8 8 0 0 1 13.6-5.7"/><path d="M20 12a8 8 0 0 1-13.6 5.7"/><path d="M17.8 2.4v4.4h-4.4"/><path d="M6.2 21.6v-4.4h4.4"/>',
   skuldfri:  '<path d="M3.4 20h17.2"/><path d="M4.4 15.6l4.6-4.7 3.5 3.5 6.3-6.8"/><path d="M14.6 7.6h4.2v4.2"/>',
-  /* hyllningar utanför medaljlistan */
+
   nivaupp:   '<path d="M12 19.5V5"/><path d="M6.5 10.5L12 5l5.5 5.5"/><path d="M6.5 3.5h11"/>',
   dagsmal:   '<path d="M5.6 21V3.6"/><path d="M5.6 4.2h11.6l-2.4 4 2.4 4H5.6"/>',
   skiva:     '<circle cx="12" cy="12" r="7.6"/><circle cx="12" cy="12" r="2.4"/>'
 };
-/* Storleken sätts i CSS, inte här, så samma märke kan användas i
-   remsan, i listan och i hyllningsrutan. */
+
 function medaljIkon(namn){
   const d=MEDALJBANOR[namn];
   if(!d) return "";
@@ -2555,31 +2314,31 @@ function medaljIkon(namn){
 }
 
 const BADGES=[
-  // Uthållighet
+
   {id:"start", icon:"steg", name:"Första steget",   desc:"Träna din första uppgift",     max:1,   cur:()=>profile.attempts},
   {id:"warm",  icon:"uppvarmd", name:"Uppvärmd",        desc:"10 tränade uppgifter",         max:10,  cur:()=>profile.attempts},
   {id:"form",  icon:"formstark", name:"Formstark",       desc:"100 tränade uppgifter",        max:100, cur:()=>profile.attempts},
   {id:"jarn",  icon:"jarnvilja", name:"Järnvilja",       desc:"250 tränade uppgifter",        max:250, cur:()=>profile.attempts},
-  // Precision
+
   {id:"serie", icon:"serie", name:"Perfekt serie",   desc:"10 rätt i rad",                max:10,  cur:()=>profile.bestRun},
   {id:"serie20",icon:"obruten",name:"Obruten",         desc:"20 rätt i rad",                max:20,  cur:()=>profile.bestRun},
   {id:"felfri",icon:"felfri", name:"Felfritt pass",   desc:"Klara ett helt pass utan fel", max:1,   cur:()=>profile.felfria},
   {id:"sjalv", icon:"egenkraft", name:"Egen kraft",      desc:"25 rätt utan att ta lösningen",max:25,  cur:()=>profile.utanFacit},
-  // Vanor
+
   {id:"vecka", icon:"veckan", name:"Sju raka dagar",  desc:"Träna 7 dagar i följd",        max:7,   cur:()=>profile.bestStreak},
   {id:"manad", icon:"manaden", name:"Trettio dagar",   desc:"Träna 30 dagar i följd",       max:30,  cur:()=>profile.bestStreak},
   {id:"pass10",icon:"passtio", name:"Tio pass",        desc:"Avsluta 10 träningspass",      max:10,  cur:()=>profile.pass},
   {id:"tidig", icon:"tidig", name:"Tidigt uppe",     desc:"Träna före klockan sju",       max:1,   cur:()=>profile.morgon},
-  // Bredd
+
   {id:"bredd", icon:"allsidig", name:"Allsidig",        desc:"Träna i 8 olika områden",      max:8,   cur:()=>touchedAreas()},
   {id:"bredd20",icon:"kartan",name:"Kartläggaren",    desc:"Träna i 20 olika områden",     max:20,  cur:()=>touchedAreas()},
   {id:"tvakurser",icon:"bredaxlad",name:"Bredaxlad",     desc:"Träna i två olika kurser",     max:2,   cur:()=>Object.keys(profile.courses||{}).length},
   {id:"xp1000",icon:"tusen", name:"Tusen",           desc:"Samla 1000 XP",                max:1000,cur:()=>profile.xp},
-  // Laga fel
+
   {id:"lagat5", icon:"lagat", name:"Andra chansen", desc:"Klara 5 uppgifter du haft fel på",  max:5,  cur:()=>profile.reparerade},
   {id:"lagat10",icon:"envis", name:"Envis",         desc:"Klara 10 uppgifter du haft fel på", max:10, cur:()=>profile.reparerade},
   {id:"lagat20",icon:"skuldfri", name:"Skuldfri",   desc:"Klara 20 uppgifter du haft fel på", max:20, cur:()=>profile.reparerade},
-  // Djup
+
   {id:"omr",   icon:"stjarna", name:"Områdesmästare",  desc:"Nå 85 % i ett område",         max:85,  cur:()=>Math.round(bestAreaMastery()*100)},
   {id:"topp",  icon:"hojd", name:"Höjdhoppare",     desc:"25 rätt på nivå 3",            max:25,  cur:()=>profile.aCorrect},
   {id:"niva3", icon:"toppform", name:"Toppform",        desc:"80 % på nivå 3 i ett område",  max:80,  cur:()=>profile.bestNiva3},
@@ -2590,8 +2349,7 @@ function badgeState(b){
   const cur=Math.max(0,Math.min(b.max,b.cur()||0));
   return {cur,pct:cur/b.max,on:!!profile.badges[b.id]||cur>=b.max};
 }
-/* Åtta medaljer i sidopanelen: de senast tagna först, därefter de
-   som ligger närmast att låsas upp. Då finns alltid något att jaga. */
+
 function stripBadges(){
   const tagna=BADGES.filter(b=>badgeState(b).on)
     .sort((a,b)=>(profile.badges[b.id]||0)-(profile.badges[a.id]||0));
@@ -2606,8 +2364,7 @@ function nextBadge(){
   locked.sort((x,y)=>y.s.pct-x.s.pct);
   return locked[0];
 }
-/* Medaljerna bokförs direkt, men hyllningen kan skjutas upp så att
-   XP-mätaren hinner röra sig innan rutan lägger sig över skärmen. */
+
 function checkBadges(fordroj=0){
   const gained=[];
   for(const b of BADGES){
@@ -2619,12 +2376,6 @@ function checkBadges(fordroj=0){
   return gained;
 }
 
-/* ==========================================================
-   TEMA, HJÄLPARE, ANIMATION
-   ========================================================== */
-
-/* Adressfältets färg på mobil. Måste följa både läget och kursen,
-   annars syns en skarv mellan telefonens ram och sidans bakgrund. */
 const ACCENT_BG={
   ljus:{a:"#F2ECF0",b:"#E6F2F1",c:"#E7EEF9",fy1:"#E4F2F4",fy2:"#EBECF8"},
   mork:{a:"#120E14",b:"#091216",c:"#090F1B",fy1:"#081217",fy2:"#0D0E1C"}
@@ -2634,8 +2385,7 @@ function accentKey(){
   if(state.course==="fy1") return "fy1";
   if(state.course==="fy2") return "fy2";
   const m=String(state.track||"").match(/[abc]$/i);
-  // Fortsättnings- och fördjupningskurserna saknar spår men ska ändå
-  // ha ett ljus i rummet. De faller tillbaka på blått, som spår c.
+
   return m ? m[0].toLowerCase() : "c";
 }
 function applyAccent(){
@@ -2735,14 +2485,13 @@ const CHEV='<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentCol
 
 const TONE_VAR={"t-good":"var(--good)","t-mid":"var(--acc)","t-low":"var(--warn)","t-new":"var(--hair2)"};
 
-/* Sikte: punktträning siktar på ett enskilt delmoment. */
 const PUNKT_IKON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" '
   +'stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="7.5"/>'
   +'<circle cx="12" cy="12" r="2.6"/><path d="M12 1.8v3M12 19.2v3M1.8 12h3M19.2 12h3"/></svg>';
 
 function chapterHead(kap,namn,omraden,tranaKnapp){
   const open=state.openChapters.has(String(kap));
-  // Prickarna sammanfattar kapitlets läge när det är hopfällt.
+
   const dots=omraden.slice(0,10)
     .map(a=>`<i style="--d:${TONE_VAR[(a.omr?cardStatus(a):areaStatus(a.key)).tone]}"></i>`).join("");
   return `<div class="chapter-row">
@@ -2758,7 +2507,6 @@ function chapterHead(kap,namn,omraden,tranaKnapp){
   </div>`;
 }
 
-/* Spelar upp ringar, mätare och inglidning igen när ett kapitel öppnas. */
 function playIn(root){
   root.querySelectorAll("[data-off]").forEach(el=>{ el.style.strokeDashoffset=el.getAttribute("stroke-dashoffset"); });
   root.querySelectorAll("[data-w]").forEach(el=>{ el.style.width="0"; });
@@ -2774,7 +2522,6 @@ function playIn(root){
   });
 }
 
-/* På pekskärm finns ingen hovring, så ett tryck visar beskrivningen. */
 function toggleTip(el,ev){
   ev.stopPropagation();
   const öppen=el.classList.contains("show");
@@ -2793,7 +2540,7 @@ document.addEventListener("click",stängTips);
 
 function toggleChapter(kap,btn){
   const key=String(kap);
-  const sec=btn.closest(".chapter");   // raden ligger inuti sektionen
+  const sec=btn.closest(".chapter");
   const body=sec.querySelector(".chapter-body");
   const open=state.openChapters.has(key);
   if(open){
@@ -2827,10 +2574,6 @@ window.addEventListener("scroll",()=>{
   if(tt) tt.classList.toggle("stuck",window.scrollY>6);
 },{passive:true});
 
-/* ==========================================================
-   TOPPFÄLT
-   ========================================================== */
-
 function topbar(){
   const lp=levelProgress(), r=rankFor(lp.level), st=currentStreak();
   const badge=profile.attempts?`<button class="pill" onclick="showProgress()" title="Nivå ${lp.level} · ${esc(r.name)} · ${lp.into} av ${lp.need} XP till nivå ${lp.level+1}${st?` · ${st} dagar i rad`:""} — visa min utveckling">
@@ -2855,8 +2598,6 @@ function topbar(){
   </div></header>`;
 }
 
-/* Pallen. Egen ingång bredvid rangen, eftersom topplistan är något
-   man går till, inte något man ställer in. */
 const PALL_IKON='<svg class="pallmarke" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
   +'stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
   +'<path d="M9 20V9h6v11"/><path d="M3 20v-6h6"/><path d="M15 14h6v6"/><path d="M3.5 20h17"/>'
@@ -2918,28 +2659,23 @@ function kontoMeny(ev){
   const r=ev.currentTarget.getBoundingClientRect();
   el.style.top=(r.bottom+8)+"px";
   el.style.right=Math.max(12,window.innerWidth-r.right)+"px";
-  // Menyn ska överleva klick inuti sig själv, bara klick utanför stänger.
+
   el.addEventListener("click",e=>e.stopPropagation());
   setTimeout(()=>document.addEventListener("click",()=>el.remove(),{once:true}),0);
 }
 
-/* Växeln slår igenom direkt i gränssnittet, och skrivs till servern
-   i bakgrunden. Slår det fel ställs den tillbaka. */
 async function vaxlaSynlighet(btn){
-  const pa=!profile.visaTopplista;
+  btn.disabled=true;
+  const reply=await vaxlaTopplista(!profile.visaTopplista);
+  btn.disabled=false;
+  const pa=profile.visaTopplista;
   btn.classList.toggle("pa",pa);
-  btn.setAttribute("aria-checked",pa?"true":"false");
+  btn.setAttribute("aria-checked",String(pa));
   const txt=document.getElementById("menysynlig");
-  if(txt) txt.textContent = pa
-    ? "Andra ser ditt namn, din nivå och dina medaljer."
-    : "Du tränar som vanligt, men syns inte för andra.";
-  await vaxlaTopplista(pa);
-  toast(pa?"Du syns nu på topplistan.":"Du är dold igen.");
+  if(txt) txt.textContent=pa?"Andra ser ditt namn, din nivå och dina medaljer.":"Du tränar som vanligt, men syns inte för andra.";
+  if(reply.ok && !reply.review) toast(pa?"Du syns nu på topplistan.":"Du är dold igen.");
 }
 
-/* ---------- namnrutan ---------- */
-/* forslag och besked används när automatiken krockat: fältet är
-   förifyllt med förnamnet och eleven får veta varför den står här. */
 function oppnaNamnruta(forslag,besked){
   document.getElementById("kontomeny")?.remove();
   const el=document.createElement("div");
@@ -2977,8 +2713,7 @@ function stangNamnruta(){
   el.classList.remove("visa");
   setTimeout(()=>el.remove(),250);
 }
-/* Formen kontrolleras medan man skriver. Om namnet är ledigt vet vi
-   först när vi försöker spara. */
+
 function namnSkrivet(){
   const f=document.getElementById("namnfalt"), h=document.getElementById("namnhjalp"),
         k=document.getElementById("namnspara");
@@ -3004,28 +2739,16 @@ async function sparaNamn(){
   }
   stangNamnruta();
   toast("Användarnamnet är sparat.");
-  // Med namnet på plats är eleven med på listan. Visa den direkt, så
-  // att det inte kommer som en överraskning var namnet dök upp.
+
   setTimeout(()=>oppnaTopplista(),300);
 }
 
-/* ==========================================================
-   INLOGGNINGSSIDA
-   Visas som första skärm när molnet är påslaget och eleven varken
-   är inloggad eller redan valt att fortsätta utan konto.
-   ========================================================== */
-
-/* Valet sparas inte: startsidan möter eleven vid varje nytt besök,
-   så länge ingen är inloggad. Inne i appen är den ur vägen. */
 function fortsattUtanInlogg(){ return startaAppen(); }
 function visaGate(){ return MOLN_PA() && !session; }
 
-/* Kursen som eventuellt begärdes i adressen öppnas efter valet. */
 let onskadKurs=null;
-/* Adressen kan bära kapitelfokus: #ma2c/1,2 öppnar Matematik 2c med
-   kapitel 1 och 2 som fokus. Tänkt för läraren som delar en länk i
-   Classroom inför ett prov — eleven behöver inte kryssa i något. */
-let onskadKapitel=null;                 // {kurs, lista}
+
+let onskadKapitel=null;
 function tolkaAdress(h){
   const [kurs,kap]=String(h||"").replace(/^#/,"").split("/");
   return {
@@ -3037,15 +2760,14 @@ function tillampaKapitelfokus(){
   if(!onskadKapitel || onskadKapitel.kurs!==state.course) return;
   const onskade=onskadKapitel.lista; onskadKapitel=null;
   const alla=kursensKapitel();
-  // Länken skriver kapitelnummer. Nycklarna kan se ut hur som helst,
-  // så både exakt träff och nummerträff godtas.
+
   const valda=[...new Set(onskade.map(x=>
     alla.find(k=>k===String(x) || kapNr(k)===Number(x))
   ).filter(Boolean))];
   if(!valda.length) return;
   const cp=ensureCourseProfile();
   cp.fokus=valda.sort((a,b)=>kapNr(a)-kapNr(b));
-  profile.pt=null;                      // dagens pass räknas om mot nya kapitel
+  profile.pt=null;
   saveProfile();
   setTimeout(()=>toast("Fokus: "+valda.map(k=>chapterName(k)).join(" och ")),400);
 }
@@ -3055,8 +2777,6 @@ async function startaAppen(){
   if(COURSES[onskadKurs]){ const id=onskadKurs; onskadKurs=null; await selectCourse(id); }
 }
 
-/* val = knappvalen, logga/skapa = e‑postformuläret,
-   glomt = begär återställning, nytt = sätt lösenord efter mejllänken. */
 let gateLage="val";
 function bytGate(lage){
   if(!EPOST_LOGIN && lage!=="val") lage="val";
@@ -3070,7 +2790,6 @@ function gateBesked(msg,ok){
 }
 function gateVarde(id){ return (document.getElementById(id)?.value||"").trim(); }
 
-/* Kör ett anrop med spärrad knapp och felet skrivet under formuläret. */
 async function gateKor(knapp,jobb){
   const b=document.getElementById(knapp);
   if(b) b.setAttribute("aria-busy","true");
@@ -3202,13 +2921,6 @@ function renderGate(){
   if(f && gateLage!=="val") f.focus();
 }
 
-/* ==========================================================
-   START
-   ========================================================== */
-
-/* Kursens läge, räknat enbart ur profilen — banken är inte laddad på
-   startsidan, så antalet områden i kursen är okänt här. Det som går
-   att säga är hur mycket eleven tränat och hur väl det sitter. */
 function kursLage(id){
   const cp=(profile.courses||{})[id];
   if(!cp) return null;
@@ -3248,8 +2960,7 @@ function renderHome(){
             </span>
           </span>`;
         })();
-        // Kurser med flera spår visar spåren i stället för kurskoden.
-        // Eleven vet att hon läser 1c, inte att hon läser Ma1.
+
         const flera=c.tracks.length>1;
         return `<div class="course-card" id="course-${id}"
             style="--tint:${c.tint}22;--tintStrong:${c.tint}">
@@ -3280,9 +2991,7 @@ async function loadScript(src){
   if(loadedScripts.has(src)) return;
   await new Promise((resolve,reject)=>{
     const s=document.createElement("script");
-    // Versionssträngen bumpas för hand när en uppgiftsbank ändras.
-    // Date.now() här gjorde att bankerna laddades om från nätet vid
-    // varje besök, vilket märks på ett klassrum som startar samtidigt.
+
     s.src=src+"?v="+BANK_VERSION;
     s.onload=()=>{loadedScripts.add(src);resolve();};
     s.onerror=()=>reject(new Error("Kunde inte ladda "+src));
@@ -3290,13 +2999,6 @@ async function loadScript(src){
   });
 }
 
-/* ==========================================================
-   MIGRERING AV FAMILJENAMN
-   Banken kan ge en familj ett tydligare namn och lämna det gamla i
-   familjTidigare. Då flyttas elevens progress över till det nya
-   namnet. Det gamla värdet ligger kvar, så att en äldre bankversion
-   fortfarande hittar sin egen progress.
-   ========================================================== */
 function migreraFamiljer(){
   const cp=ensureCourseProfile();
   const bank=state.data?.bank||[];
@@ -3328,8 +3030,7 @@ async function selectCourse(id,opts){
     for(const f of c.files) await loadScript(f);
     const bank=window[c.globals.bank];
     const kap=window[c.globals.kap] || {};
-    // Vissa kurser har egna kapitelnamn per spår, t.ex. 1b och 1c i
-    // fortsättningskursen. Finns de används de för valt spår.
+
     const kapSpar=window[c.globals.kapSpar] || null;
     const omr=window[c.globals.omr] || {};
     const grupp=window[c.globals.grupp] || {};
@@ -3355,12 +3056,6 @@ async function selectCourse(id,opts){
   }
 }
 
-/* ==========================================================
-   DATA
-   ========================================================== */
-
-/* Områden som kursen har valt bort finns kvar i banken men visas
-   och tränas aldrig i Kunskapsgymmet. */
 function normOmr(x){
   return String(x??"").toLowerCase().replaceAll("_"," ").replace(/\s+/g," ").replace(/[.\s]+$/,"").trim();
 }
@@ -3372,21 +3067,12 @@ function isExcluded(t){
   return lista.some(x=>{
     const v=normOmr(x);
     if(!v) return false;
-    // Prefixmatchning bägge hållen, så att "… och modeller" fångar
-    // "… och modellering" utan att korta ord råkar träffa inuti andra ord.
+
     return falt.some(f=>f && (f===v ||
       (v.length>=6 && f.startsWith(v)) ||
       (f.length>=6 && v.startsWith(f))));
   });
 }
-
-/* ==========================================================
-   SPELPOOL
-   Kunskapsgymmet tränar moment, inte nödvändigtvis hela bankobjekt.
-   En rutinuppgift med oberoende deluppgifter kan delas till flera
-   träningsmoment, men bara när banken uttryckligen säger det med
-   spelDelning. Originalobjektet lämnas orört.
-   ========================================================== */
 
 function metadataForDel(varde,index,antal){
   return Array.isArray(varde) && varde.length===antal ? varde[index] : varde;
@@ -3402,16 +3088,13 @@ function expandGameTask(t){
     q.ursprungsId=t.id;
     q.deluppgift=etikett;
     q.id=`${t.id}${etikett}`;
-    // Delen kan bära hela sin text i t, eller bara sin fråga i fraga och
-    // låta uppgiftens spelIntro stå för ingressen och figuren. Det andra
-    // sättet slipper kopiera samma SVG in i varje del.
+
     q.t=del?.t
       || (del?.fraga!=null && t.spelIntro!=null
             ? `${t.spelIntro}<div class="spel-en-del">${del.fraga}</div>`
             : t.t);
     q.s=del?.s || t.s;
-    // Varje del har sin egen ledtråd. Huvuduppgiftens används bara
-    // som reserv, annars skulle alla delar få samma tips.
+
     q.ledtrad=del?.ledtrad || t.ledtrad || null;
     q.rättSvar=metadataForDel(t.rättSvar,i,antal);
     q.tolerans=metadataForDel(t.tolerans,i,antal);
@@ -3419,7 +3102,7 @@ function expandGameTask(t){
     if("svarEnhet" in t) q.svarEnhet=metadataForDel(t.svarEnhet,i,antal);
     if("svarFormat" in t) q.svarFormat=metadataForDel(t.svarFormat,i,antal);
     if("manuellKomplettering" in t) q.manuellKomplettering=metadataForDel(t.manuellKomplettering,i,antal);
-    // En inre lista är en lösningsmängd inom delen, inte nya deluppgifter.
+
     if(Array.isArray(q.rättSvar) && q.rättSvar.length>1){
       q.svarstyp="flera_delar";
       q.svarsstruktur="mängd";
@@ -3436,16 +3119,6 @@ function expandGameTask(t){
   });
 }
 
-/* Listan räknas om från hela banken varje gång: uteslutna områden,
-   spel:false, uppdelning i deluppgifter och kursspår. En ritning av
-   kursöversikten frågar efter den fyrtio gånger, en för varje kort och
-   kapitel, så utan cache växer ritningstiden linjärt med bankens
-   storlek och blir sekunder vid några tusen uppgifter.
-
-   Nyckeln är identiteten hos bankens array plus kurs och spår. Byter
-   eleven spår eller kurs pekar state.data.bank på ett nytt objekt
-   eller state.track på ett nytt värde, och cachen faller av sig själv.
-   Ingen anropare muterar listan — alla filtrerar om till nya arrayer. */
 let _tillgCache={bank:null,track:null,kurs:null,lista:null};
 function availableTasks(){
   if(!state.data) return [];
@@ -3455,8 +3128,7 @@ function availableTasks(){
   let tasks=state.data.bank;
   const kurs=COURSES[state.course];
   if(kurs?.utanOmraden?.length) tasks=tasks.filter(t=>!isExcluded(t));
-  // Uppgifter som inte passar spelet, t.ex. rita ett diagram, tas bort
-  // före delningen så att inte heller deras delar kan väljas.
+
   tasks=tasks.filter(t=>t.spel!==false).flatMap(expandGameTask);
   if(state.track){
     tasks=tasks.filter(t=>{
@@ -3476,8 +3148,7 @@ function areaName(key){
   if(key in omr && typeof omr[key]==="string") return omr[key];
   return key ? key.replaceAll("_"," ") : "Övrigt";
 }
-/* Kapitelnummer för sortering. Kapitel "0" finns i Ma1, så noll får
-   inte falla igenom som saknat värde. */
+
 function kapNr(x){
   const n=Number(x);
   return Number.isFinite(n) ? n : 99;
@@ -3497,8 +3168,7 @@ function abilityText(f){
   const a=Array.isArray(f)?f:[f];
   return a.map(x=>String(x).replaceAll("_"," ")).join(" · ");
 }
-/* Strukturfilen bestämmer ordningen. Områdena listas i den följd de
-   står i OMR-objektet, alltså i bokens ordning, inte alfabetiskt. */
+
 function areaOrder(){
   const omr=state.data?.omr||{};
   const ordning={};
@@ -3527,12 +3197,6 @@ function getAreas(){
     (ordning[a.key] ?? 9999)-(ordning[b.key] ?? 9999) ||
     a.name.localeCompare(b.name,"sv"));
 }
-/* ==========================================================
-   KORT PÅ KURSSIDAN
-   Strukturfilens GRUPP-objekt slår ihop närbesläktade områden till
-   ett kort, t.ex. alla metoder för andragradsekvationer. Områden som
-   inte ingår i någon grupp blir egna kort. Ordningen följer strukturen.
-   ========================================================== */
 
 function getCards(){
   const areas=getAreas();
@@ -3545,7 +3209,7 @@ function getCards(){
     const gruppLista=grupper[a.kap]||[];
     const g=gruppLista.find(x=>Array.isArray(x.omr)&&x.omr.includes(a.key));
     if(g){
-      // Alla gruppens områden som faktiskt har uppgifter i det här spåret.
+
       const med=areas.filter(x=>x.kap===a.kap && g.omr.includes(x.key));
       med.forEach(x=>tagna.add(x.key));
       kort.push({key:"g:"+g.id, name:g.namn, kap:a.kap, omr:med.map(x=>x.key),
@@ -3560,8 +3224,6 @@ function getCards(){
   return kort;
 }
 
-/* Ett grupperat korts läge är medelvärdet av dess områden. Områden
-   som inte tränats räknas som noll, så kortet fylls efter hand. */
 function cardStatus(kort){
   const cp=ensureCourseProfile();
   const varden=kort.omr.map(k=>typeof cp.areas[k]==="number"?cp.areas[k]:null);
@@ -3573,8 +3235,6 @@ function cardStatus(kort){
   return {seen:true,m,label:"Behöver träning",tone:"t-low",mcls:""};
 }
 
-/* Samma tröskelvärden som områdena, men för ett delmoment. Listorna
-   ska säga samma sak oavsett vilken nivå man tittar på. */
 function delmomentStatus(family){
   const cp=ensureCourseProfile();
   const seen=typeof cp.families[family]==="number";
@@ -3594,9 +3254,7 @@ function areaStatus(key){
   if(m>=.55)  return {seen:true,m,label:"På gång",tone:"t-mid",mcls:""};
   return {seen:true,m,label:"Behöver träning",tone:"t-low",mcls:""};
 }
-/* Öppnar en kurs direkt på ett bestämt spår, från startsidans rutor.
-   selectCourse sätter alltid det förvalda spåret, så bytet måste ske
-   efter laddningen men före ritningen. */
+
 async function oppnaSpar(id,spar){
   const c=COURSES[id];
   if(!c) return;
@@ -3614,20 +3272,11 @@ function setTrack(track){
   state.focusFamily=null; state.currentTask=null;
   renderDashboard();
 }
-/* ==========================================================
-   KORTET SOM ELEVENS OMRÅDE
-   OMR-nycklarna i banken är tekniska underområden. De styr fortfarande
-   adaptiv statistik och sparad progress, men det eleven ser och väljer
-   är kortet: en GRUPP om strukturfilen har en, annars det enskilda
-   området. Allt som visas för eleven ska därför byggas på getCards().
-   ========================================================== */
 
 function cardTaskPool(kort){
   return availableTasks().filter(t=>kort.omr.includes(t.omr||"ovrigt"));
 }
-/* Delmomenten inom ett helt kort. Räknas på availableTasks(), alltså
-   efter kursspår, spel:false och uppdelning i deluppgifter — annars
-   skulle antalen inte spegla vad eleven faktiskt kan träna. */
+
 function cardFamilies(kort){
   const pool=cardTaskPool(kort);
   const counts=new Map();
@@ -3636,15 +3285,13 @@ function cardFamilies(kort){
     fs.forEach(f=>counts.set(f,(counts.get(f)||0)+1));
   });
   let fam=[...counts].map(([family,count])=>({family,count}));
-  // Ett delmoment måste ha en rimlig träningspool.
+
   fam=fam.filter(x=>x.count>=5);
-  // Är kortet i praktiken en enda familj tillför knappen ingenting.
+
   if(fam.length===1 && fam[0].count>=pool.length*0.80) return [];
   return fam.sort((a,b)=>b.count-a.count).slice(0,10);
 }
 
-/* En familj kan förekomma i flera underområden. Den hör hemma i det
-   kort där den har flest spelbara uppgifter i aktuellt spår. */
 function familjIndex(){
   const kort=getCards();
   const omrTillKort={};
@@ -3664,7 +3311,6 @@ function familjIndex(){
   return {idx,kortMap:new Map(kort.map(k=>[k.key,k]))};
 }
 
-/* Elevsynliga listor sorteras på kortets läge, inte på råa OMR. */
 function rankedCards(limit,riktning){
   return getCards().map(k=>({kort:k,st:cardStatus(k)}))
     .filter(x=>x.st.seen)
@@ -3678,8 +3324,7 @@ function strongCards(limit=4){ return rankedCards(limit,-1); }
 function weakFamilies(limit=8){
   const cp=ensureCourseProfile();
   const {idx,kortMap}=familjIndex();
-  // Ett delmoment som inte gör urvalet smalare än hela kortet listas
-  // inte. Samma regel som i punktträningen, så listorna säger samma sak.
+
   const godkanda=new Map();
   const okForCard=(k,f)=>{
     if(!godkanda.has(k.key)) godkanda.set(k.key,new Set(cardFamilies(k).map(x=>x.family)));
@@ -3695,19 +3340,6 @@ function weakFamilies(limit=8){
     .sort((a,b)=>a.m-b.m).slice(0,limit);
 }
 
-/* ==========================================================
-   TRÄNAREN
-   Tränaren lägger ett pass i taget, ungefär som på gymmet: en dag
-   teknik på det som skaver, en dag mängd för att få flyt, en dag
-   tunga lyft. Passet slås fast en gång per dag och kurs och ligger
-   kvar dagen ut — annars byter förslaget skepnad varje gång sidan
-   ritas om, och då är det ingen tränare utan en tärning.
-
-   Varje passtyp gör tre saker: väljer områden, förskjuter
-   nivåblandningen och sätter passets längd. Tunga pass är korta,
-   mängdpass är långa. Precis som på gymmet.
-   ========================================================== */
-
 const PASS_IKON={
   grund:      '<path d="M4 7h3.5l8 10H20"/><path d="M4 17h3.5l8-10H20"/><path d="M17.2 4.2L20 7l-2.8 2.8"/><path d="M17.2 14.2L20 17l-2.8 2.8"/>',
   teknik:     '<circle cx="12" cy="12" r="8.4"/><circle cx="12" cy="12" r="3.6"/><circle cx="12" cy="12" r=".6"/>',
@@ -3722,20 +3354,9 @@ function passIkon(id){
     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
 }
 
-/* ---------- vad tränaren får plocka ur ----------
-   Fokus är de kapitel eleven jobbar med just nu. Utan fokus skulle
-   ett grundpass dra uppgifter från hela kursen, och den som ska ha
-   prov på kapitel 1 och 2 vill inte möta kapitel 4.
+const START_KRAV=3;
+const OPPNA_NYTT=.6;
 
-   Inom fokus öppnar sig kapitlet dessutom i takt med eleven: bara
-   områden som är påbörjade räknas som träningsbara, och ett nytt
-   område släpps in först när det påbörjade håller ihop. Ett kapitel
-   är en resa, inte en hög. */
-
-const START_KRAV=3;          // uppgifter innan ett område räknas som påbörjat
-const OPPNA_NYTT=.6;         // så väl måste det påbörjade sitta för att nästa ska släppas in
-
-/* Räknaren i cp.levels överlever historikens 300 rader. */
 function omradesForsok(key){
   const cp=ensureCourseProfile();
   const a=(cp.levels||{})[key];
@@ -3746,8 +3367,7 @@ function kursensKapitel(){
   const sedda=new Set();
   return getAreas().map(a=>String(a.kap)).filter(k=>!sedda.has(k)&&sedda.add(k));
 }
-/* Har eleven inte valt något gissar tränaren utifrån var träningen
-   faktiskt legat den senaste tiden. */
+
 function autoKapitel(){
   const cp=ensureCourseProfile();
   const karta={}; getAreas().forEach(a=>karta[a.key]=String(a.kap));
@@ -3775,12 +3395,11 @@ function vaxlaKapitel(kap){
   const cp=ensureCourseProfile();
   const k=String(kap);
   const valda=new Set((cp.fokus||[]).map(String));
-  // Utan eget val står de automatiskt valda kapitlen som utgångsläge,
-  // annars skulle första klicket kasta bort dem.
+
   if(!valda.size) aktivaKapitel().forEach(x=>valda.add(x));
   valda.has(k) ? valda.delete(k) : valda.add(k);
   cp.fokus=[...valda].sort((a,b)=>kapNr(a)-kapNr(b));
-  // Byter eleven kapitel mitt i dagen ska passet räknas om.
+
   profile.pt=null;
   saveProfile();
   renderDashboard();
@@ -3790,9 +3409,6 @@ function allaKapitel(){
   cp.fokus=[]; profile.pt=null; saveProfile(); renderDashboard();
 }
 
-/* Områdena tränaren får välja bland: inom fokus, påbörjade, plus på
-   sin höjd ett nytt. Returnerar även vilket det nya är, så att
-   tränaren kan säga det högt. */
 function traningsOmraden(){
   const kap=new Set(aktivaKapitel());
   const iFokus=getAreas().filter(a=>kap.has(String(a.kap)));
@@ -3813,7 +3429,6 @@ function traningsOmraden(){
 }
 function fokusNycklar(){ return traningsOmraden().omr; }
 
-/* Passtypernas urval görs alltid inom det tränaren får plocka ur. */
 function svagaInom(keys,n){
   const cp=ensureCourseProfile();
   return keys.map(k=>({k,m:mastery(cp.areas,k),sedd:typeof cp.areas[k]==="number"}))
@@ -3824,21 +3439,19 @@ function starkaInom(keys,n){
   return keys.map(k=>({k,m:mastery(cp.areas,k),sedd:typeof cp.areas[k]==="number"}))
     .filter(x=>x.sedd && x.m>=.62).sort((a,b)=>b.m-a.m).slice(0,n).map(x=>x.k);
 }
-/* Uppgifter eleven svarat fel på och inte klarat sedan dess. Att gå
-   tillbaka till sina egna misstag är den bäst belagda inlärnings-
-   effekten som finns, och historiken bär redan svaret. */
+
 function felUppgifter(gräns=10){
   const cp=ensureCourseProfile();
   const fokus=new Set(fokusNycklar());
   const senaste=new Map();
-  // Historiken läses framlänges, så den sista posten per uppgift vinner.
+
   (cp.history||[]).forEach(h=>{ if(h && h.id) senaste.set(h.id,h); });
   const kvar=[...senaste.values()]
     .filter(h=>!h.ok && (!h.area || fokus.has(h.area)))
     .sort((a,b)=>b.at-a.at)
     .map(h=>h.id);
   if(!kvar.length) return [];
-  // Bara uppgifter som fortfarande finns i banken och i valt spår.
+
   const finns=new Set(availableTasks().map(t=>t.id));
   return kvar.filter(id=>finns.has(id)).slice(0,gräns);
 }
@@ -3848,9 +3461,7 @@ function senastTranad(area){
   for(let i=h.length-1;i>=0;i--) if(h[i].area===area) return h[i].at;
   return null;
 }
-/* Områden som en gång suttit men legat orörda en vecka. Kunskap som
-   inte repeteras rinner ut — det är den enda luckan som varken
-   mastery eller nivågränserna fångar, eftersom båda är blinda för tid. */
+
 function repetitionInom(keys){
   const cp=ensureCourseProfile(), nu=Date.now();
   return keys.map(k=>({k,m:mastery(cp.areas,k),at:senastTranad(k)}))
@@ -3858,13 +3469,6 @@ function repetitionInom(keys){
     .sort((a,b)=>a.at-b.at).slice(0,3).map(x=>x.k);
 }
 
-/* vikt förskjuter nivåblandningen, antal är passets längd och
-   omraden väljer ut ett smalare urval ur fokus. Saknas omraden
-   tränar passet hela fokus.
-
-   Antalet är absolut, inte en andel av dagsmålet. Ett tungt pass är
-   fem uppgifter för att fem tunga uppgifter är ett pass — inte för
-   att dagsmålet råkar stå på åtta. */
 const PASS={
   grund:{
     namn:"Grundpass", under:"Blandat inom områdena du jobbar med", niva:"Nivå efter dagsform",
@@ -3889,8 +3493,7 @@ const PASS={
     vikt:{E:1,C:1.1,A:.7}, antal:8,
     omraden:keys=>repetitionInom(keys)
   },
-  // Felpasset väljer inte område och nivå — det serverar en bestämd
-  // kö av uppgifter, i den ordning de gick fel.
+
   fel:{
     namn:"Repetera dina fel", under:"Uppgifter du hade fel på", niva:"Dina egna fel",
     vikt:{E:1,C:1,A:1}, antal:10, ko:true
@@ -3898,8 +3501,6 @@ const PASS={
 };
 const PASS_ORDNING=["grund","teknik","mangd","tungt","repetition","fel"];
 
-/* Områdena ett visst pass skulle träna. Ger passtypens smalare urval
-   om det finns något att välja på, annars hela fokus. */
 function passOmraden(typ){
   const p=PASS[typ]||PASS.grund;
   const fokus=fokusNycklar();
@@ -3907,8 +3508,6 @@ function passOmraden(typ){
   const valt=p.omraden(fokus);
   return (valt&&valt.length)?valt:fokus;
 }
-
-/* ---------- underlag för valet ---------- */
 
 function senasteTraffsakerhet(n=12){
   const h=(ensureCourseProfile().history||[]).slice(-n);
@@ -3920,16 +3519,6 @@ function redoForTungt(){
   return t!==null && t>=.75 && starkaInom(fokusNycklar(),1).length>0;
 }
 
-/* Kandidaterna ligger i behovsordning.
-
-   Två av dem står över variationsregeln. Att gå tillbaka till sina
-   egna fel och att träna det man har svårast för är de två saker som
-   faktiskt flyttar en elev i matematik, och de ska inte roteras bort
-   bara för att de användes igår. Finns det obearbetade fel kommer
-   felpasset först, annars teknikpasset så länge något område är
-   svagt. Resten av veckans variation sköts av de övriga typerna.
-
-   Eleven kan alltid byta själv. En tränare som inte lyssnar är en app. */
 const PASS_UTAN_ROTATION=["fel","teknik"];
 
 function valjPassTyp(){
@@ -3937,18 +3526,14 @@ function valjPassTyp(){
   const fokus=fokusNycklar();
   const kandidater=[];
   const cp=ensureCourseProfile();
-  // Två kvarvarande fel räcker. Ett ensamt fel kan vara en felskrivning,
-  // men två är ett mönster värt att gå tillbaka till.
+
   if(felUppgifter(10).length>=2) kandidater.push("fel");
   if(svagaInom(fokus,1).length) kandidater.push("teknik");
   if(repetitionInom(fokus).length) kandidater.push("repetition");
   if(redoForTungt()) kandidater.push("tungt");
   kandidater.push("mangd","grund");
   const forst=kandidater[0];
-  // ... men inte varje dag i all evighet. Felkön töms aldrig helt —
-  // nya fel tillkommer i samma takt som gamla rättas — så utan tak
-  // skulle eleven mötas av gamla misstag varje dag och aldrig se nytt
-  // stoff. Två dagar i rad räcker; den tredje släpps något annat fram.
+
   const dominerat = senaste.length>=2
     && PASS_UTAN_ROTATION.includes(senaste[0])
     && PASS_UTAN_ROTATION.includes(senaste[1]);
@@ -3961,22 +3546,13 @@ function dagensPass(){
   const nyckel=todayKey()+"|"+state.course+"|"+aktivaKapitel().join(",");
   if(profile.pt && profile.pt.nyckel===nyckel && PASS[profile.pt.typ]) return profile.pt.typ;
   const cp=ensureCourseProfile();
-  // De första uppgifterna får vara breda: tränaren behöver underlag
-  // innan den börjar peka ut svagheter.
+
   const typ=(cp.history||[]).length<10 ? "grund" : valjPassTyp();
   profile.pt={nyckel,typ};
   saveProfile();
   return typ;
 }
 
-/* Passloggen bokförs när passet startar, inte när kursöversikten
-   ritas. Loggen styr variationsregeln i valjPassTyp(), och den ska
-   mäta genomförd träning — inte att eleven tittat förbi tränarkortet
-   på väg till punktträningen. Många elever gör just det: de går
-   direkt på området de haft på lektionen och låter tränaren vara.
-
-   En dag ger en post. Byter eleven pass samma dag skrivs posten över,
-   så ett ombestämt sig räknas inte som två dagar. */
 function loggaPass(typ){
   const logg=[...(profile.passLogg||[])];
   const idag=todayKey();
@@ -3985,10 +3561,10 @@ function loggaPass(typ){
   profile.passLogg=logg.slice(-6);
   saveProfile();
 }
-/* Eleven får byta pass. En tränare som inte lyssnar är en app. */
+
 function valjPass(typ){
   if(!PASS[typ]) return;
-  // Bara ett val, ingen bokföring: loggen skrivs först om passet körs.
+
   profile.pt={nyckel:todayKey()+"|"+state.course+"|"+aktivaKapitel().join(","),typ,valt:true};
   saveProfile();
   state.visaPassval=false;
@@ -3996,8 +3572,6 @@ function valjPass(typ){
 }
 function vaxlaPassval(){ state.visaPassval=!state.visaPassval; state.visaFokus=false; renderDashboard(); }
 function vaxlaFokusval(){ state.visaFokus=!state.visaFokus; state.visaPassval=false; renderDashboard(); }
-
-/* ---------- tränarens röst ---------- */
 
 function passOmradesNamn(typ){
   return passOmraden(typ).map(k=>areaName(k)).filter(Boolean);
@@ -4051,11 +3625,7 @@ function passMeddelande(typ){
         : `Idag blandar vi inom det du jobbar med. Nivån ställs efter hur det går för dig.`)+nyttTillagg;
   }
 }
-/* Nivåtexten räknas fram ur den blandning passet faktiskt kommer att
-   ge, inte ur en fast etikett. Ett tungt pass i en kurs där nivå 3
-   ännu inte är öppen ska inte lova nivå 3.
-   Bara områden eleven redan tränat vägs in — att fråga om ett orört
-   område skulle skapa tomma poster i profilen. */
+
 function passNivaSpann(typ){
   const p=PASS[typ]||PASS.grund, cp=ensureCourseProfile();
   const omr=passOmraden(typ).filter(k=>cp.levels&&cp.levels[k]);
@@ -4087,17 +3657,6 @@ function passChips(typ){
   return chips;
 }
 
-
-/* ==========================================================
-   KURSVY
-   ========================================================== */
-
-/* ---------- tränarens tre lägen ----------
-   Fullt kort när dagens pass ligger framför eleven. Sammandraget när
-   beslutet redan är taget: mitt i ett pass, eller när dagsmålet är
-   klart. Lägena styrs av läget, inte av eleven — den som fäller ihop
-   kortet en trött torsdag ska inte hitta det ihopfällt på måndagen
-   då den behövde en knuff. "Visa" öppnar det för stunden. */
 function pagaendePass(){
   return !!(state.currentTask && state.sessionDone>0 && state.sessionDone<state.sessionTarget);
 }
@@ -4192,7 +3751,6 @@ function ptKort(){
   </section>`;
 }
 
-
 function renderDashboard(){
   document.title=COURSES[state.course].name+" · Kunskapsgymmet";
   state.view="dashboard";
@@ -4206,7 +3764,7 @@ function renderDashboard(){
   kort.forEach(a=>{(grouped[a.kap] ||= []).push(a)});
   const chapters=Object.keys(grouped).sort((a,b)=>kapNr(a)-kapNr(b));
   const manyChapters=chapters.length>1;
-  // Första gången kursen visas står första kapitlet öppet, resten hopfällda.
+
   if(!state.openChapters) state.openChapters=new Set(manyChapters?[String(chapters[0])]:chapters.map(String));
 
   const areaHTML=chapters.map(kap=>{
@@ -4218,9 +3776,7 @@ function renderDashboard(){
       <div class="area-grid stagger">
         ${grouped[kap].map(a=>{
           const s=cardStatus(a);
-          // Punktknappen visas bara när kortet faktiskt har delmoment
-          // att välja mellan. Ett kort som i praktiken är ett enda
-          // delmoment får ingen knapp som inte leder någonstans.
+
           const harDelar=cardFamilies(a).length>0;
           return `<div class="area ${s.tone}">
             <button class="omr-oppna" onclick="startCard('${esc(a.key)}')"
@@ -4326,13 +3882,6 @@ function renderDashboard(){
   afterRender();
 }
 
-/* ==========================================================
-   PUNKTTRÄNING (hela kursen på en sida)
-   Samma val som siktet på kursöversiktens kort, men alla kapitel och
-   alla delmoment samtidigt. Överblicken är hela poängen: härifrån ser
-   eleven var delmomenten sitter innan hon väljer.
-   ========================================================== */
-
 function showAreaPicker(record){
   if(record!==false) navRecord("picker");
   state.view="picker";
@@ -4388,14 +3937,6 @@ function showAreaPicker(record){
   afterRender();
 }
 
-/* ==========================================================
-   URVAL OCH PASS
-   ========================================================== */
-
-/* Bankens E, C och A visas för eleven som nivå 1, 2 och 3.
-   G är grundnivån — repetition från högstadiet som ligger under E.
-   Den serveras bara i Kunskapsgymmet, och bara till den som kört fast
-   på nivå 1 i just det området. Se grundVikt() längre ned. */
 const NIVA={G:0,E:1,C:2,A:3};
 const NIVAER=["G","E","C","A"];
 function levelOf(t){
@@ -4405,8 +3946,7 @@ function levelOf(t){
 function levelNumber(t){ return NIVA[levelOf(t)]; }
 function levelChip(t){
   const n=levelNumber(t);
-  // Grundnivån visas som en egen etikett, inte som noll av tre fyllda
-  // prickar — den ska kännas som en avstickare, inte som ett underkänt.
+
   if(n===0) return `<span class="tag lv lv0" title="Grundnivå – repetition inför nivå 1">
     <span class="pips" aria-hidden="true"><b class="on"></b></span>Grunder</span>`;
   const pips=[1,2,3].map(i=>`<b class="${i<=n?"on":""}"></b>`).join("");
@@ -4419,22 +3959,6 @@ function familyMastery(t,cp){
   return Math.min(...fs.map(f=>mastery(cp.families,f)));
 }
 
-/* ==========================================================
-   RÖRLIGA NIVÅGRÄNSER
-   Varje svårighetsgrad har ett eget resultat per område. Det gör att
-   appen kan skilja på "svarar fel på nivå 1" och "svarar fel på
-   nivå 2", och förskjuta blandningen åt rätt håll i båda fallen.
-   ========================================================== */
-
-/* Ett nytt område ärver ett startvärde från hur eleven klarar samma
-   nivå i kapitlets övriga områden. Utan arvet börjar varje område om
-   från noll, och den som visat sig stark i fyra områden får ändå bara
-   nivå 1 i det femte tills sex uppgifter passerat — vilket är det som
-   får ett adaptivt pass att kännas som att appen inte lär sig något.
-
-   Förtroendet sätts lågt, tre av de sex svar som krävs för full
-   ramp, så att några lokala svar väger tyngre än arvet. Innehållet i
-   ett nytt område är trots allt nytt. */
 function nivaPrior(area,L){
   const cp=ensureCourseProfile();
   if(!cp.levels) return null;
@@ -4458,8 +3982,7 @@ function levelStats(area,L){
     return p===null ? {s:.5,n:0} : {s:p,n:3};
   };
   if(!cp.levels[area]){
-    // Har eleven redan tränat området före uppdateringen ärvs den
-    // gamla siffran som ett resultat på nivå 1, så ingen börjar om.
+
     const m = typeof cp.areas[area]==="number" ? cp.areas[area] : null;
     const n = m===null ? 0 : Math.min(8,cp.history.filter(h=>h.area===area).length);
     cp.levels[area]={
@@ -4473,31 +3996,19 @@ function levelStats(area,L){
 function updateLevelStat(area,L,ok){
   if(!area) return;
   const st=levelStats(area,L);
-  // Snabbare utslag än områdets mastery: gränserna ska röra sig
-  // inom några uppgifter, inte över ett helt kapitel.
+
   st.s = ok ? st.s + .16*(1-st.s) : st.s - .22*st.s;
   st.s = Math.max(.06,Math.min(.97,st.s));
   st.n = (st.n||0)+1;
 }
-/* Resultatet för en nivå i ett bestämt område. Varje område har sin
-   egen resa: den som är stark i ett område börjar ändå på nivå 1 i
-   nästa, eftersom innehållet är nytt. */
+
 function scopeLevel(L,area){
   const st=levelStats(area,L);
   return {s:st.s,n:st.n||0};
 }
 
-/* ==========================================================
-   KUNSKAPSLÄGE PER KAPITEL OCH KURS
-   Nivåresultaten vägs ihop till ett tal 0–100. Nivå 1 svarar för
-   45, nivå 2 för 35 och nivå 3 för 20 — den som bara behärskar
-   grunderna landar alltså kring 45 och den som klarar allt på 100.
-   ========================================================== */
-
 const NIVA_VIKT={E:.45,C:.35,A:.20};
 
-/* Läser utan att skapa poster, så att en vy inte fyller profilen
-   med tomma områden. */
 function levelStatRead(area,L){
   const cp=ensureCourseProfile();
   const a=cp.levels && cp.levels[area];
@@ -4507,8 +4018,7 @@ function levelStatRead(area,L){
   }
   return {s:.5,n:0};
 }
-/* Hur väl en nivå sitter i ett område: resultatet dämpat av hur få
-   uppgifter som ligger bakom det. Oprövat ger noll. */
+
 function levelQuality(area,L){
   const st=levelStatRead(area,L);
   return st.s*Math.min(1,(st.n||0)/5);
@@ -4543,26 +4053,12 @@ function scoreLabel(v){
   return {txt:"Behärskar",cls:"s-good"};
 }
 
-/* behärskar: redo att lämna nivån bakom sig.
-   klarar:    hänger med på nivån just nu. En nivå som ännu inte är
-              prövad får förtroendet .6, så att den introduceras mjukt. */
 const behärskar = x => Math.max(0,Math.min(1,(x.s-.55)/.25)) * Math.max(0,Math.min(1,x.n/6));
 const klarar    = x => x.n<2 ? .6 : Math.max(0,Math.min(1,(x.s-.35)/.30));
 
-/* ==========================================================
-   GRUNDNIVÅN
-   Nivå 0 är högstadierepetition. Den ligger tyst i banken tills
-   eleven visat att nivå 1 inte bär i ett bestämt område: minst fyra
-   svar på nivå 1 och ett resultat under tröskeln. Då blandas
-   grunduppgifter in, och andelen växer ju sämre det går.
-
-   Grunduppgifterna påverkar bara sin egen statistik. Vägen tillbaka
-   går via nivå 1, som alltid har kvar sitt golv i blandningen —
-   annars skulle eleven kunna fastna på grundnivån.
-   ========================================================== */
-const NIVA0_TROSKEL=.32;      // resultat på nivå 1 under detta öppnar grunderna
-const NIVA0_MIN_SVAR=4;       // men först när nivå 1 är prövad så här många gånger
-const NIVA0_TAK=.65;          // grunderna tar aldrig mer än så här stor del av passet
+const NIVA0_TROSKEL=.32;
+const NIVA0_MIN_SVAR=4;
+const NIVA0_TAK=.65;
 function grundVikt(area){
   const e=scopeLevel("E",area);
   if((e.n||0)<NIVA0_MIN_SVAR) return 0;
@@ -4575,24 +4071,18 @@ function levelWeights(area){
   const m1=behärskar(e), m2=behärskar(c), k2=klarar(c), k3=klarar(a);
   const w={
     G: grundVikt(area),
-    // Nivå 1 viker undan först när grunderna sitter OCH nivå 2 går bra.
-    // Kärvar det på nivå 2 kommer nivå 1 tillbaka av sig själv.
+
     E: 1 - .90*m1*k2,
     C: m1*(.25+.75*k2),
     A: m1*m2*(.25+.75*k3)
   };
-  // Dagens passtyp förskjuter blandningen. Den ändrar aldrig vad eleven
-  // faktiskt har låst upp — ett tungt pass i ett område där nivå 2 inte
-  // är öppen blir helt enkelt ett vanligt pass.
+
   const v=(PASS[state.passTyp]||{}).vikt;
-  // Grundnivån följer nivå 1:s vikt om passtypen inte säger annat. Ett
-  // tungt pass drar därmed ned båda, vilket är precis meningen.
+
   if(v){ w.G*=(v.G!==undefined?v.G:v.E); w.E*=v.E; w.C*=v.C; w.A*=v.A; }
   return w;
 }
 
-/* Normaliserad blandning, med golv för nivå 1. Ett tungt pass sänker
-   golvet: där är hela poängen att slippa uppvärmningen. */
 const NIVA_GOLV=.10;
 function levelMix(finns,area){
   const w=levelWeights(area);
@@ -4603,9 +4093,7 @@ function levelMix(finns,area){
   if(!tot) return null;
   const mix={};
   order.forEach(L=>mix[L]=(w[L]||0)/tot);
-  // Nivå 1 har alltid kvar sitt golv, även när grunderna är öppna.
-  // Det är den vägen tillbaka uppåt: utan nivå 1-uppgifter skulle
-  // nivå 1-statistiken aldrig kunna repa sig.
+
   if(finns.E && mix.E<golv){
     const kvar=1-golv, ovrigt=mix.G+mix.C+mix.A;
     mix.E=golv;
@@ -4614,9 +4102,6 @@ function levelMix(finns,area){
   return mix;
 }
 
-/* I adaptivt läge bestäms området före nivån, så att varje område
-   får sin egen nivåblandning. Svaga områden får lite förtur och det
-   senast tränade hålls tillbaka för variationens skull. */
 function chooseArea(pool){
   const cp=ensureCourseProfile();
   const areas=[...new Set(pool.map(t=>t.omr||"ovrigt"))];
@@ -4627,8 +4112,7 @@ function chooseArea(pool){
 }
 
 function chooseTask(){
-  // Felpasset har en färdig kö. Uppgifter som hunnit försvinna ur
-  // banken hoppas över i stället för att stoppa passet.
+
   while(state.felKo && state.felKo.length){
     const id=state.felKo.shift();
     const t=availableTasks().find(x=>x.id===id);
@@ -4638,7 +4122,7 @@ function chooseTask(){
   if(state.focusOmr) pool=pool.filter(t=>state.focusOmr.includes(t.omr||"ovrigt"));
   else if(state.focusArea) pool=pool.filter(t=>t.omr===state.focusArea);
   if(state.focusFamily){
-    // Fokus kan vara ett enskilt delmoment eller flera valda samtidigt.
+
     const vill=Array.isArray(state.focusFamily)?state.focusFamily:[state.focusFamily];
     pool=pool.filter(t=>{
       const fs=Array.isArray(t.familj)?t.familj:[t.familj];
@@ -4650,14 +4134,12 @@ function chooseTask(){
   const cp=ensureCourseProfile();
   const recent=new Set(state.lastIds.slice(-8));
 
-  // 1. Bestäm område. Nivåblandningen gäller alltid ett område i taget.
   const area = state.focusArea || chooseArea(pool);
   if(!state.focusArea) pool=pool.filter(t=>(t.omr||"ovrigt")===area);
 
   const buckets={G:[],E:[],C:[],A:[]};
   pool.forEach(t=>buckets[levelOf(t)].push(t));
 
-  // 2. Slumpa fram nivå enligt områdets rörliga blandning.
   const order=NIVAER;
   const mix=levelMix({G:!!buckets.G.length,E:!!buckets.E.length,
                       C:!!buckets.C.length,A:!!buckets.A.length},area);
@@ -4666,19 +4148,16 @@ function chooseTask(){
     let x=Math.random();
     for(const L of order){ x-=mix[L]; if(x<=0 && buckets[L].length){ level=L; break; } }
   }
-  // Faller allt annat bort väljs nivå 1 först, aldrig grundnivån —
-  // den ska bara komma via blandningen ovan.
+
   if(!level || !buckets[level].length)
     level=["E","C","A","G"].find(L=>buckets[L].length)||"E";
 
-  // 3. Slumpa uppgift inom nivån, med lätt förtur för svaga familjer
-  //    och utan att upprepa det som nyss visats.
   let cands=buckets[level];
   const fresh=cands.filter(t=>!recent.has(t.id));
   if(fresh.length) cands=fresh;
   const scored=cands
     .map(t=>({t,k:familyMastery(t,cp)*.6 + Math.random()*.9
-      // Delar ur samma originaluppgift hålls isär när det finns annat.
+
       + (t.ursprungsId && state.senasteUrsprung.includes(t.ursprungsId) ? 1.5 : 0)}))
     .sort((a,b)=>a.k-b.k);
   const top=scored.slice(0,Math.max(1,Math.ceil(scored.length*.4)));
@@ -4697,12 +4176,10 @@ function beginSession(typ){
   state.felKo=null;state.sessionFel=[];
   rensaPagaendePass();
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
-  // Passtypen bestämmer längden. Punktträning och andra pass utan
-  // typ landar på dagsmålet som förut.
+
   state.sessionTarget=(PASS[state.passTyp]||{}).antal || profile.goal || 8;
 }
-/* Dagens pass från tränaren. Passtypen styr både vilka områden som
-   kommer upp och hur nivåblandningen förskjuts. */
+
 function startPass(typ){
   state.focusArea=null;state.focusNamn=null;state.focusFamily=null;
   state.felKo=null;
@@ -4735,18 +4212,6 @@ function startArea(area){
   state.focusFamily=null;beginSession();
   navRecord("training");nextTask();
 }
-/* Ett grupperat kort tränar alla sina områden. Vilket område varje
-   uppgift kommer från avgörs som i det adaptiva läget, och nivån
-   räknas per område precis som annars. */
-/* ==========================================================
-   VÄLJ FLERA OMRÅDEN
-   Ett pass kan blandas ihop av valfria områden i ett kapitel, t.ex.
-   logaritmbegreppet och logaritmlagar samtidigt.
-   ========================================================== */
-
-/* Rutan används på två nivåer. På kapitelnivå väljer man områden, på
-   områdesnivå delmoment inom ett enda kort. Maskineriet är detsamma:
-   en mängd markerade nycklar och en knapp som startar passet. */
 
 function ritaFlerval({lbl,rubrik,text,rutor,tomText}){
   const el=document.createElement("div");
@@ -4796,7 +4261,6 @@ function oppnaFlerval(kap){
   });
 }
 
-/* Punktträning: flera delmoment inom ett och samma område. */
 function oppnaPunkt(kortKey){
   const kort=getCards().find(k=>k.key===kortKey);
   if(!kort) return;
@@ -4853,7 +4317,7 @@ function startaFlerval(){
   const valda=[...state.flervalValda];
   if(!valda.length) return;
   if(state.flervalTyp==="delmoment") return startaPunkt(valda);
-  // Ett valt kort kan rymma flera underområden. Passet tränar unionen.
+
   const kort=getCards().filter(k=>valda.includes(k.key));
   if(!kort.length) return;
   const namn=kort.map(k=>k.name);
@@ -4868,8 +4332,6 @@ function startaFlerval(){
   nextTask();
 }
 
-/* Ett punktpass tränar valda delmoment inom hela det elevsynliga
-   området, inte bara i det underområde där uppgiften råkar ligga. */
 function startaPunkt(familjer){
   const kort=getCards().find(k=>k.key===state.flervalKort);
   if(!kort) return;
@@ -4883,8 +4345,6 @@ function startaPunkt(familjer){
   nextTask();
 }
 
-/* Hela kapitlet i ett pass. Uppgifterna hämtas från kapitlets alla
-   områden, och nivån räknas per område precis som annars. */
 function startChapter(kap){
   const omr=getAreas().filter(a=>String(a.kap)===String(kap)).map(a=>a.key);
   if(!omr.length) return;
@@ -4901,8 +4361,7 @@ function startCard(key){
   state.focusFamily=null;beginSession();
   navRecord("training");nextTask();
 }
-/* Ett delmoment tränas inom hela det elevsynliga området, inte bara i
-   det underområde där uppgiften råkar ligga. */
+
 function startCardFamily(cardKey,family){
   const kort=getCards().find(k=>k.key===cardKey);
   if(!kort) return;
@@ -4927,7 +4386,7 @@ function nextTask(){
   sparaPagaendePass();
   renderTraining();
 }
-/* Första gången en högre svårighetsgrad dyker upp i kursen firas det. */
+
 function noteNewLevel(t){
   const cp=ensureCourseProfile();
   cp.sedda ||= {};
@@ -4953,33 +4412,17 @@ function sessionLabel(){
   return "Adaptivt pass";
 }
 
-/* ==========================================================
-   SÄKER FACITFALLBACK
-   Många äldre uppgifter har ett tydligt slutligt svar i facit men
-   rättSvar:null. För rutinuppgifter kan Kunskapsgymmet då plocka ut
-   det slutliga svaret med strikta regler.
-
-   Viktigt:
-   - figur/resonemang/text öppnas aldrig för automatisk rättning här
-   - för flerdelsuppgifter måste ALLA delars slutsvar kunna hittas
-   - ett tydligt <strong>...</strong> i respektive slutrad prioriteras
-   - annars accepteras sista matematikuttrycket i en ren a)/b)/c)-rad
-   ========================================================== */
-
 function cleanDerivedAnswer(raw){
   let x=String(raw??"").trim();
   if(!x) return null;
 
-  // Om innehållet är HTML, behåll text/LaTeX men ta bort taggar.
   x=x.replace(/<br\s*\/?>/gi," ");
   x=x.replace(/<[^>]+>/g,"");
   x=x.replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&");
   x=x.trim();
 
-  // Ta bort "Svar:" men inte själva svaret.
   x=x.replace(/^svar\s*:\s*/i,"").trim();
 
-  // Väldigt långa textstycken är inte ett säkert maskinsvar.
   if(x.length>120) return null;
   return x || null;
 }
@@ -4987,9 +4430,9 @@ function cleanDerivedAnswer(raw){
 function mathChunksFromHTML(html){
   const s=String(html??"");
   const out=[];
-  // \( ... \)
+
   for(const m of s.matchAll(/\\\(([\s\S]*?)\\\)/g)) out.push("\\("+m[1].trim()+"\\)");
-  // \[ ... \]
+
   for(const m of s.matchAll(/\\\[([\s\S]*?)\\\]/g)) out.push("\\("+m[1].trim()+"\\)");
   return out;
 }
@@ -4997,7 +4440,6 @@ function mathChunksFromHTML(html){
 function answerCandidateFromElement(el){
   if(!el) return null;
 
-  // Prioritera sista <strong> som faktiskt ser ut som ett svar.
   const strongs=[...el.querySelectorAll("strong")];
   for(let i=strongs.length-1;i>=0;i--){
     const raw=strongs[i].innerHTML.trim();
@@ -5010,8 +4452,6 @@ function answerCandidateFromElement(el){
     }
   }
 
-  // Om raden i sig är en ren deluppgiftsrad kan sista matematikuttrycket
-  // vara slutsvaret, t.ex. <div>a) \(-14\)</div>.
   const chunks=mathChunksFromHTML(el.innerHTML);
   if(chunks.length){
     return cleanDerivedAnswer(chunks[chunks.length-1]);
@@ -5045,18 +4485,15 @@ function derivedAnswersFromSolution(t){
       if(idx<0 || idx>=partCount) continue;
 
       const candidate=answerCandidateFromElement(el);
-      if(candidate) answers[idx]=candidate; // senare/final rad får ersätta mellanled
+      if(candidate) answers[idx]=candidate;
     }
 
-    // Samtliga deluppgifter måste ha ett säkert hittat svar.
     if(answers.every(Boolean)) return answers;
     return null;
   }
 
-  // Enkelsvar: använd bara tydliga svarsrader.
   const elements=[...root.querySelectorAll("p, li, .svar, .answer")];
 
-  // 1) Prioritera en rad som uttryckligen innehåller "Svar:".
   for(let i=elements.length-1;i>=0;i--){
     const txt=(elements[i].textContent||"").trim();
     if(/\bsvar\s*:/i.test(txt)){
@@ -5067,7 +4504,6 @@ function derivedAnswersFromSolution(t){
     }
   }
 
-  // 2) Om exakt ett svarsliknande <strong> finns i hela facit.
   const candidates=[];
   for(const el of root.querySelectorAll("strong")){
     const plain=(el.textContent||"").trim();
@@ -5082,10 +4518,6 @@ function derivedAnswersFromSolution(t){
   return null;
 }
 
-/* Vilka delsvar som rättas automatiskt.
-   självrättning får vara en boolean för hela uppgiften eller en lista
-   med ett värde per delsvar. Ett delsvar utan facit (null) bedöms
-   alltid av eleven själv. */
 function autoPerDel(t,antal){
   const plan=svarsPlan(t);
   if(plan) return plan.rutor.map(r=>plan.delar[r.del].auto);
@@ -5099,16 +4531,10 @@ function autoPerDel(t,antal){
   });
 }
 
-/* Får facit i lösningstexten användas när rättSvar saknas?
-   De reviderade bankerna ska lita på sin metadata och sätta
-   facitFallback:true där extraktion är önskvärd. Så länge äldre banker
-   fortfarande saknar rättSvar hålls det gamla beteendet som standard.
-   Ändra till false när bankerna är genomgångna. */
 const FACIT_FALLBACK_STANDARD=true;
 
 function expectedAnswersForTask(t){
-  // Metadata går före allt: sagt nej till självrättning betyder nej,
-  // även om ett svar går att gräva fram ur facit.
+
   if(t.självrättning===false){
     return {answers:[],source:"metadata",auto:false,delAuto:[]};
   }
@@ -5120,7 +4546,7 @@ function expectedAnswersForTask(t){
     return {
       answers,
       source:"metadata",
-      // Uppgiften räknas som självrättande så snart någon del kan rättas.
+
       auto:auto.some(Boolean),
       delAuto:auto
     };
@@ -5150,16 +4576,6 @@ function inferAnswerCount(t){
   return unique.length || 1;
 }
 
-/* ==========================================================
-   SVARSRUTOR
-   Två olika saker kan ge flera rutor:
-   a) Deluppgifter a), b), c) — olika frågor, rättas i tur och ordning.
-   b) En fråga med flera svar, t.ex. x = 1 och x = 3 — alla rutor
-      är öppna samtidigt och ordningen spelar ingen roll.
-   Banken kan tagga fall b) med antal svar. Flera stavningar godtas
-   så att märkningen inte behöver vara exakt.
-   ========================================================== */
-
 const SVAR_ORD={en:1,ett:1,"två":2,tva:2,tre:3,fyra:4,fem:5};
 const SVAR_FALT=["antalSvar","antal_svar","svarsantal","antalsvar",
                  "flerSvar","fleraSvar","flersvar","tvåSvar","tvasvar","svar"];
@@ -5175,22 +4591,16 @@ function taggatAntalSvar(t){
   }
   return 0;
 }
-/* Räknar deluppgiftsbokstäver i uppgiftstexten: a) b) c) */
+
 function subtaskLetters(t){
   const plain=String(t.t||"")
     .replace(/<br\s*\/?>/gi,"\n").replace(/<\/p>/gi,"\n").replace(/<[^>]+>/g," ");
   const m=[...plain.matchAll(/(?:^|[\s\n])([a-j])\)\s*/gi)].map(x=>x[1].toLowerCase());
   return new Set(m).size;
 }
-/* ==========================================================
-   SVARSPLAN
-   Fysikbankerna kan ange nästlade fält: en deluppgift kan ha flera
-   svar, var och en med egen enhet och tolerans. Planen packar upp
-   det till en lista av delar, där varje del har sina rutor.
-   ========================================================== */
 
 function nastlat(v){ return Array.isArray(v) && v.some(x=>Array.isArray(x)); }
-/* Plockar värde nummer i ur ett fält som får vara skalär eller lista. */
+
 function faltVarde(falt,i,antal){
   if(falt===undefined||falt===null) return Array(antal).fill(undefined);
   if(!Array.isArray(falt)) return Array(antal).fill(falt);
@@ -5219,18 +4629,11 @@ function svarsPlan(t){
       manuell: faltFlagga(t.manuellKomplettering,i,false)
     };
   });
-  // Rutlista: en ruta per svar, med koppling tillbaka till sin del.
+
   const rutor=[];
   delar.forEach((d,di)=>d.svar.forEach((_,si)=>rutor.push({del:di,plats:si})));
   return {delar,rutor};
 }
-
-/* ==========================================================
-   FORMATSPECIFIK RÄTTNING
-   svarFormat i banken talar om vad slags svar det är, och styr hur
-   elevens text tolkas. Utan format faller allt tillbaka på den
-   befintliga rättningsmotorn.
-   ========================================================== */
 
 function stadaSvar(x){
   return String(x??"").trim()
@@ -5238,7 +4641,7 @@ function stadaSvar(x){
     .replace(/[−–—]/g,"-")
     .replace(/\u00a0/g," ");
 }
-/* Tal ur en sträng, med decimalkomma och tusentalsmellanrum. */
+
 function talAv(x){
   const s=stadaSvar(x).toLowerCase().replace(/\s/g,"");
   if(/^[+-]?(∞|oo|inf|infinity)$/.test(s)) return s.startsWith("-")?-Infinity:Infinity;
@@ -5254,10 +4657,7 @@ function naraNog(a,b,tol){
   const t=(typeof tol==="number")?tol:Math.max(1e-9,Math.abs(b)*1e-4);
   return Math.abs(a-b)<=t+1e-12;
 }
-/* Plockar ut listor: "0, 7", "{0; 7}", "(2, 5)", "x = 0 eller x = 7" */
-/* Delar upp en svarslista. Semikolon är alltid avskiljare. Komma är
-   avskiljare utom när det tydligt är ett decimaltecken — men inuti
-   parenteser, som i (2,5), är kommat alltid en avskiljare. */
+
 function listaAv(x,parTvang){
   const rå=stadaSvar(x);
   const iParentes=parTvang || /^[[({].*[\])}]$/.test(rå);
@@ -5267,22 +4667,13 @@ function listaAv(x,parTvang){
   s=s.replace(/,/g,(m,i,str)=>{
     if(iParentes) return ";";
     const f=str[i-1], e=str[i+1];
-    // "0, 7" är två svar, "0,7" ett decimaltal.
+
     if(/\d/.test(f||"") && e===" ") return ";";
     return (/\d/.test(f||"")&&/\d/.test(e||"")) ? "," : ";";
   });
   return s.split(";").map(d=>d.trim()).filter(Boolean);
 }
-/* Delar upp ett svar som skrivits som en uppräkning med ord:
-   "x<-2 eller x>2", "x=1 och x=3", "2; 5". En sådan uppräkning har
-   ingen inneboende ordning — unionen av två intervall är densamma
-   vilken del man skriver först.
 
-   Komma duger inte som signal här: (2,5) är en koordinat där
-   ordningen är hela poängen. Bara utskrivna ord och semikolon räknas,
-   och parenteser runt hela svaret stänger av uppdelningen. Returnerar
-   null när svaret inte är en uppräkning, så att vanliga svar inte
-   berörs alls. */
 function ordListaAv(x){
   const s=stadaSvar(x);
   if(!s) return null;
@@ -5292,30 +4683,20 @@ function ordListaAv(x){
   return delar.length>1 ? delar : null;
 }
 
-/* ==========================================================
-   OLIKHETER
-   Jämförs på sina beståndsdelar: variabel, riktning och gränsvärde.
-   "2<x" och "x>2" är samma villkor, "x>2" och "x>=2" är det inte.
-   Dubbelolikheten -2<x<=5 delas i sina två halvor.
-   ========================================================== */
-
 const SPEGLA={"<":">",">":"<","<=":">=",">=":"<="};
 
 function olikhetsDelar(x){
   const s=stadaSvar(x).replace(/≤/g,"<=").replace(/≥/g,">=");
-  // En uppräkning är inte en olikhet. Utan den här spärren skulle
-  // "x<-2 eller x>2" tolkas som den enda olikheten x < (-2 eller x>2),
-  // och gränsvärdet läsas som -2 — varpå x<-2 ensamt hade godkänts.
+
   if(/\s(?:eller|och|samt)\s|;/i.test(s)) return null;
   const arVar=t=>/^[a-zåäö]\w*$/i.test(t.trim());
 
-  // Dubbelolikhet: -2 < x <= 5 blir x > -2 och x <= 5.
   const d=s.match(/^(.+?)(<=|<)(.+?)(<=|<)(.+)$/);
   if(d && arVar(d[3])){
     return [{v:d[3].trim(), op:SPEGLA[d[2]], tal:d[1].trim()},
             {v:d[3].trim(), op:d[4],         tal:d[5].trim()}];
   }
-  // Samma sak skriven fallande: 5 > x > -2.
+
   const dn=s.match(/^(.+?)(>=|>)(.+?)(>=|>)(.+)$/);
   if(dn && arVar(dn[3])){
     return [{v:dn[3].trim(), op:SPEGLA[dn[2]], tal:dn[1].trim()},
@@ -5329,8 +4710,6 @@ function olikhetsDelar(x){
   return null;
 }
 
-/* true/false när båda sidor är olikheter, annars null så att den
-   vanliga motorn får ta över. */
 function olikhetsJamforelse(a,f,tol){
   const la=olikhetsDelar(a), lf=olikhetsDelar(f);
   if(!la || !lf) return null;
@@ -5345,13 +4724,12 @@ function olikhetsJamforelse(a,f,tol){
   });
 }
 
-/* "x = 5" -> "5". Behåller strängen om det inte är en tilldelning. */
 function hogerled(x){
   const s=stadaSvar(x);
   const m=s.match(/^[A-Za-zåäöÅÄÖ][\w()',.\s]*=\s*(.+)$/);
   return m?m[1].trim():s;
 }
-/* Bråk och blandad form: 1/2, 3/4, 1 1/2 */
+
 function brakAv(x){
   const s=stadaSvar(x).replace(/\s*\/\s*/,"/");
   const bl=s.match(/^(-?\d+)\s+(\d+)\/(\d+)$/);
@@ -5360,7 +4738,7 @@ function brakAv(x){
   if(m) return talAv(m[1])/talAv(m[2]);
   return talAv(s);
 }
-/* Intervall: "1 < x <= 7", "x ∈ (1,7]", "(1,7]", "[0,∞)" */
+
 function intervallAv(x){
   let s=stadaSvar(x).replace(/\s+/g,"").replace(/∈/g,"").replace(/≤/g,"<=").replace(/≥/g,">=");
   s=s.replace(/[A-Za-zåäö]+(?=[[(])/,"");
@@ -5387,7 +4765,7 @@ function sammaIntervall(a,b,tol){
   return talLika(a.min,b.min,tol)&&talLika(a.max,b.max,tol)
       && !!a.minOpen===!!b.minOpen && !!a.maxOpen===!!b.maxOpen;
 }
-/* Tid: 1:30, 1.30, 90 min, 1 h 30 min -> minuter */
+
 function minuterAv(x){
   const s=stadaSvar(x).toLowerCase();
   let m=s.match(/^(\d+)\s*[:.]\s*(\d{1,2})$/);
@@ -5396,7 +4774,7 @@ function minuterAv(x){
   if(m && (m[1]||m[2])) return (m[1]?talAv(m[1])*60:0)+(m[2]?talAv(m[2]):0);
   return talAv(s);
 }
-/* Minuter och sekunder: 3:07, 3 min 7 s -> sekunder */
+
 function sekunderAv(x){
   const s=stadaSvar(x).toLowerCase();
   let m=s.match(/^(\d+)\s*[:.]\s*(\d{1,2})$/);
@@ -5405,7 +4783,7 @@ function sekunderAv(x){
   if(m && (m[1]||m[2])) return (m[1]?+m[1]*60:0)+(m[2]?talAv(m[2]):0);
   return talAv(s);
 }
-/* Skala: 1:40000, 1/40000, 1 : 40 000 */
+
 function skalaAv(x){
   const s=stadaSvar(x).replace(/\s/g,"");
   const m=s.match(/^(\d+(?:[.,]\d+)?)\s*[:/]\s*(\d+(?:[.,]\d+)?)$/);
@@ -5418,8 +4796,7 @@ function textNyckel(x){
     .replace(/[.,;:!?]/g," ")
     .replace(/\s+/g," ").trim();
 }
-/* Återanvänder sidans befintliga ekvivalenskontroll i stället för en
-   egen. Den expanderar uttrycken, vilket krävs för (x+1)^2. */
+
 function algebraisktLika(a,b){
   try{
     if(typeof window.nerdamer!=="function") return null;
@@ -5430,8 +4807,6 @@ function algebraisktLika(a,b){
 const ORDNADE_FORMAT=new Set(["punkt","talpar","vektor","koordinat"]);
 const MANGD_FORMAT=new Set(["lösningsmängd","losningsmangd","mängd","mangd"]);
 
-/* Rättar ett delsvar mot facit med metadata för just den komponenten:
-   {format, tolerans, enhet}. */
 function formatRatt(anv,facit,meta){
   const format=String(meta.format||"").toLowerCase();
   const tol=meta.tolerans;
@@ -5444,7 +4819,7 @@ function formatRatt(anv,facit,meta){
       return Number.isInteger(v) ? v===Math.round(talAv(f)) : naraNog(v,talAv(f),tol);
     }
     case "numeriskt": {
-      // Generöst: "f(3)=2", "x=2" och "2" är samma svar.
+
       return naraNog(talAv(hogerled(a)),talAv(f),tol);
     }
     case "procent": {
@@ -5501,11 +4876,9 @@ function formatRatt(anv,facit,meta){
       return textNyckel(a)===textNyckel(f);
     }
   }
-  return null;   // okänt format -> vanliga motorn får ta över
+  return null;
 }
 
-/* Rättar ett delsvar. Ordningen är: format, sedan enhet, sedan den
-   befintliga rättningsmotorn. */
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
   const meta={format,tolerans:tol,enhet};
   if(format){
@@ -5516,21 +4889,17 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
     const r=enhetsJamforelse(anv,facit,enhet,tol);
     if(r!==null) return r;
   }
-  // Generöst direktsvar: "f(3)=2" mot facit 2.
+
   if(numerisktSvar(facit) || typeof facit==="number"){
     if(naraNog(talAv(hogerled(anv)),talAv(facit),tol)) return true;
   }
   const kopia = (typeof tol==="number") ? Object.assign({},t,{tolerans:tol}) : t;
 
-  // Olikheter går sin egen väg, resten till den vanliga motorn.
   const enDel=(x,y)=>{
     const o=olikhetsJamforelse(x,y,tol);
     return (o!==null) ? o : oneAnswerCorrect(x,y,kopia,idx);
   };
 
-  // Uppräkningar matchas fritt mot varandra, så att "x>2 eller x<-2"
-  // godtas mot facit "x<-2 eller x>2". Varje del måste hitta sin egen
-  // motpart, så en dubblett räcker inte för att täcka två olika delar.
   const lu=ordListaAv(anv), lf=ordListaAv(facit);
   if(lu && lf && lu.length===lf.length){
     const kvar=[...lf];
@@ -5549,14 +4918,11 @@ function answerLayout(t){
   const info=expectedAnswersForTask(t);
   const taggat=taggatAntalSvar(t);
   const bokstaver=subtaskLetters(t);
-  // svarstyp "flera_delar" markerar deluppgifter i uppgiftstexten, även
-  // när de står som <ol><li> i stället för a), b), c). Ordningen är då
-  // bindande, så att 50, 100 och 6 inte får matchas huller om buller.
+
   const plan=svarsPlan(t);
   const struktur=String(t.svarsstruktur||"").toLowerCase();
   const etiketter=Array.isArray(t.svarEtiketter)?t.svarEtiketter:null;
-  // Metadata går före textanalys. Först svarsstruktur, sedan svarstyp,
-  // sedan etiketter, och först därefter bokstäver i uppgiftstexten.
+
   const mangdTaggat=["mängd","mangd","lösningsmängd","losningsmangd"].includes(struktur);
   const delarTaggat = mangdTaggat ? false : (
        ["ordnad","deluppgifter","delar","flera_delar"].includes(struktur)
@@ -5571,7 +4937,7 @@ function answerLayout(t){
   const ordnad = mangdTaggat ? false
                : delarTaggat ? n>1
                : (!taggat && bokstaver>1 && n>1);
-  // delAuto talar om vilka rutor som rättas och vilka eleven bedömer själv.
+
   const delAuto = plan
     ? plan.rutor.map(r=>plan.delar[r.del].auto)
     : Array.from({length:n},(_,i)=>info.delAuto ? !!info.delAuto[i] : !!info.auto);
@@ -5580,18 +4946,9 @@ function answerLayout(t){
           blandad:delAuto.some(Boolean)&&delAuto.some(x=>!x)};
 }
 
-/* ==========================================================
-   ENHETER
-   Rättningen ska godta 0,60 m, 60 cm och 600 mm som samma svar.
-   Varje enhet tolkas till en baseneht med en faktor, sammansatta
-   enheter som m/s^2 och kWh hanteras genom att täljare och nämnare
-   tolkas var för sig.
-   ========================================================== */
-
 const SI_PREFIX={T:1e12,G:1e9,M:1e6,k:1e3,h:1e2,da:1e1,
                  d:1e-1,c:1e-2,m:1e-3,"µ":1e-6,"μ":1e-6,u:1e-6,n:1e-9,p:1e-12,f:1e-15};
-/* Grundenheter med sin bas och faktor. Massa räknas i gram som bas,
-   så att kg blir prefixet k gånger g. */
+
 const ENHETER={
   m:{b:"m",f:1}, g:{b:"g",f:1}, s:{b:"s",f:1}, A:{b:"A",f:1}, K:{b:"K",f:1},
   mol:{b:"mol",f:1}, cd:{b:"cd",f:1},
@@ -5607,8 +4964,7 @@ const ENHETER={
   Wh:{b:"J",f:3600}, Ah:{b:"C",f:3600}, kWh:{b:"J",f:3.6e6},
   "°":{b:"°",f:1}, rad:{b:"rad",f:1}, "%":{b:"%",f:1}
 };
-/* h är både timme och prefixet hekto. I fysiksammanhang är timme
-   det rimliga, så den tolkningen kommer först. */
+
 const ENHET_ALIAS={h:"tim",timme:"tim",timmar:"tim",sek:"s",sekunder:"s",
   grader:"°",gr:"°",procent:"%",liter:"l",gram:"g",meter:"m",newton:"N",joule:"J",watt:"W"};
 
@@ -5616,7 +4972,7 @@ function tolkaEnhetsord(sym){
   if(!sym) return null;
   const namn=ENHETER[sym] ? sym : (ENHET_ALIAS[sym]||ENHET_ALIAS[sym.toLowerCase()]||sym);
   if(ENHETER[namn]) return {f:ENHETER[namn].f,b:ENHETER[namn].b};
-  // Prefix + enhet, längsta prefixet först så att "da" slår "d".
+
   for(const p of ["da","T","G","M","k","h","d","c","m","µ","μ","u","n","p","f"]){
     if(namn.length>p.length && namn.startsWith(p)){
       const rest=namn.slice(p.length);
@@ -5627,7 +4983,6 @@ function tolkaEnhetsord(sym){
   return null;
 }
 
-/* "m/s^2" -> {f:1, d:{m:1,s:-2}}. Returnerar null om något inte känns igen. */
 function tolkaEnhet(str){
   if(str===null||str===undefined) return null;
   let x=String(str).trim()
@@ -5659,8 +5014,6 @@ function sammaDimension(a,b){
   return ka.every((k,i)=>k===kb[i] && a.d[k]===b.d[k]);
 }
 
-/* Tal ur en elevsträng: decimalkomma, tusentalsmellanrum,
-   vetenskaplig notation som 1,6·10^-19 eller 1.6e-19. */
 function taltolk(str){
   if(typeof str==="number") return str;
   let x=String(str).trim().toLowerCase()
@@ -5669,21 +5022,16 @@ function taltolk(str){
     .replace(/[⋅∙·×]/g,"*")
     .replace(/\s+/g,"");
   x=x.replace(/(\d),(\d)/g,"$1.$2");
-  // Upphöjda tecken: 10³ skrivs om till 10^3 innan grundpotensformen
-  // tolkas. latexToPlain gör samma sak, men taltolk anropas också
-  // direkt på råa strängar.
+
   const UPP={"\u2070":"0","\u00b9":"1","\u00b2":"2","\u00b3":"3","\u2074":"4",
              "\u2075":"5","\u2076":"6","\u2077":"7","\u2078":"8","\u2079":"9",
              "\u207b":"-"};
   x=x.replace(/[\u2070\u00b9\u00b2\u00b3\u2074-\u2079\u207b]+/g,
     m=>"^"+[...m].map(c=>UPP[c]).join(""));
-  // Grundpotensform: 2,5·10^3 blir 2.5e3. Tecknet ^ måste finnas.
-  // Utan det kravet matchar mönstret även vanliga tal — 100 lästes som
-  // "10 upphöjt till 0" och blev e0, alltså inget tal alls, och varje
-  // svar med 10 följt av siffror gick förlorat.
+
   x=x.replace(/(\*?)10\^\(?(-?\d+)\)?/g,(m,stjarna,exp,off,str)=>{
     const fore=str[off-1];
-    // Står en mantissa före (2,5·10^3) räcker e, annars behövs en etta.
+
     return (stjarna || (fore && /[\d.]/.test(fore))) ? "e"+exp : "1e"+exp;
   });
   const m=x.match(/^[-+]?\d*\.?\d+(?:e[-+]?\d+)?/);
@@ -5691,19 +5039,17 @@ function taltolk(str){
   const v=Number(m[0]);
   return Number.isFinite(v)?v:NaN;
 }
-/* Delar upp "60 cm" i tal och enhet. */
+
 function delaTalEnhet(str){
   const tal=taltolk(str);
   if(!Number.isFinite(tal)) return {tal:NaN,enhet:""};
-  // Skiftläget behålls: kN, mm och Mm är olika enheter.
+
   const x=String(str).replace(/^\s*[Ss]var\s*:\s*/,"").replace(/[−–—]/g,"-").trim();
   const m=x.match(/^[-+]?[\d\s.,]+(?:\s*(?:[⋅∙·×*]\s*10\s*\^?\s*\(?-?\d+\)?|[eE][-+]?\d+))?/);
   const rest=m ? x.slice(m[0].length).trim() : "";
   return {tal,enhet:rest.replace(/^[·*]\s*/,"").trim()};
 }
 
-/* Jämför ett elevsvar med facit när enhet finns i metadatan. Returnerar
-   true, false eller null när frågan inte går att avgöra numeriskt. */
 function enhetsJamforelse(anv,facit,enhet,tol){
   const f=delaTalEnhet(facit);
   const fTal=Number.isFinite(f.tal)?f.tal:taltolk(facit);
@@ -5714,7 +5060,7 @@ function enhetsJamforelse(anv,facit,enhet,tol){
   const facitEnhet=tolkaEnhet(enhet||f.enhet||"");
   const anvEnhet=a.enhet?tolkaEnhet(a.enhet):null;
   if(!facitEnhet) return null;
-  if(a.enhet && !anvEnhet) return false;          // skrev en enhet vi inte känner igen
+  if(a.enhet && !anvEnhet) return false;
   if(anvEnhet && !sammaDimension(facitEnhet,anvEnhet)) return false;
 
   const fBas=fTal*facitEnhet.f;
@@ -5722,7 +5068,7 @@ function enhetsJamforelse(anv,facit,enhet,tol){
   const tolBas=(typeof tol==="number"?tol:Math.max(1e-12,Math.abs(fTal)*1e-4))*facitEnhet.f;
 
   if(Math.abs(aBas-fBas)<=tolBas+1e-12) return true;
-  // Procent: 0,95 och 95 % ska kunna vara samma svar.
+
   const ärProcent=facitEnhet.d["%"]===1;
   if(ärProcent && !a.enhet){
     if(Math.abs(a.tal*100-fTal)<=(typeof tol==="number"?tol:Math.abs(fTal)*1e-4)) return true;
@@ -5730,35 +5076,25 @@ function enhetsJamforelse(anv,facit,enhet,tol){
   return false;
 }
 
-/* Rent numeriskt facit -> telefonen öppnar sifferlayouten direkt.
-   Negativa svar undantas, eftersom flera sifferlayouter saknar minus. */
 function numerisktSvar(facit){
   if(facit===null||facit===undefined) return false;
   const x=String(facit).trim().replace(",",".");
   return /^\d+(\.\d+)?$/.test(x);
 }
-/* Sifferlayouten passar bara när svaret är ett rent tal utan enhet.
-   I fysiken skrivs enheten oftast med, och då behövs bokstäverna. */
+
 function sifferlage(facit,enhet){
   if(enhet) return false;
   if(COURSES[state.course]?.subject==="Fysik") return false;
   return numerisktSvar(facit);
 }
 
-/* ==========================================================
-   SYMBOLRAD
-   En smal rad med tecken som är omständliga att nå på pekskärm.
-   Den skriver vanlig text i fältet — ingen strukturerad matematik —
-   och tecknen är sådana som rättningsmotorn redan normaliserar.
-   ========================================================== */
 const SYMBOLER={
   matematik:[["−","−"],["(","("],[")",")"],["/","/"],["^","^"],
              ["√","√"],["π","π"],["x","x"],["≈","≈"]],
   fysik:    [["−","−"],[",",","],["·10^","·10^"],["^","^"],["√","√"],
              ["π","π"],["/","/"],["(","("],[")",")"]]
 };
-/* Vad tecknen heter. Syns vid hovring på dator, där man har tid att
-   undra vad ≈ gör i en svarsruta. */
+
 const SYMBOLNAMN={
   "−":"Minustecken","(":"Vänsterparentes",")":"Högerparentes",
   "/":"Bråkstreck","^":"Upphöjt till","√":"Roten ur","π":"Pi",
@@ -5768,7 +5104,7 @@ const SYMBOLNAMN={
 
 function symbolrad(t){
   const amne=COURSES[state.course]?.subject==="Fysik" ? "fysik" : "matematik";
-  // Uppgiftens egna enheter läggs först, så att de blir ett tryck bort.
+
   const enheter=[...new Set((svarsPlan(t)?.delar||[])
     .flatMap(d=>d.enhet).filter(Boolean).map(String))].slice(0,4);
   const knappar=[...enheter.map(e=>[e," "+e]), ...SYMBOLER[amne]];
@@ -5780,7 +5116,7 @@ function symbolrad(t){
         onclick="skrivTecken('${esc(tecken).replace(/'/g,"\\'")}')">${esc(txt)}</button>`).join("")}
   </div>`;
 }
-/* Skriver tecknet vid markören i den ruta eleven senast var i. */
+
 function skrivTecken(tecken){
   const i = state.aktivRuta ?? state.partIndex ?? 0;
   const el = document.getElementById("ans-"+i);
@@ -5793,9 +5129,6 @@ function skrivTecken(tecken){
   try{ el.setSelectionRange(pos,pos); }catch(_){}
 }
 
-/* Verktygsikoner, samma märkning som i Uppgiftslabbet.
-   Att fältet saknas är inte samma sak som att hjälpmedlet är otillåtet,
-   därför får otaggade uppgifter ingen ikon alls. */
 function toolIcons(t){
   const har=k=>Object.prototype.hasOwnProperty.call(t||{},k);
   const delar=[];
@@ -5810,28 +5143,14 @@ function toolIcons(t){
   return delar.length?`<span class="verktygsikoner">${delar.join("")}</span>`:"";
 }
 
-/* ==========================================================
-   SVARSKONTROLL
-   - Punkt och decimalcomma behandlas lika: 1,5 = 1.5
-   - Unicode-minus, multiplikationstecken, pi, roten ur m.m. normaliseras
-   - Numeriska svar använder tolerans
-   - Algebraiska uttryck jämförs symboliskt med Nerdamer
-   - Ekvationer kan skrivas med omkastade led och skalade led
-     t.ex. x=2, 2=x och 2x=4 betraktas som ekvivalenta
-   ========================================================== */
-
 function latexToPlain(s){
   let x=String(s??"");
 
-  // Ta bort HTML men behåll själva texten.
   x=x.replace(/<br\s*\/?>/gi," ");
   x=x.replace(/<[^>]+>/g," ");
 
-  // Ta bort vanliga matematik-delimiters.
   x=x.replace(/\\\(|\\\)|\\\[|\\\]|\$\$/g,"");
 
-  // Några vanliga LaTeX-kommandon från banken/svar.
-  // Kör flera varv så även enkla nästlade bråk hinner lösas.
   for(let i=0;i<4;i++){
     x=x.replace(/\\frac\s*\{([^{}]+)\}\s*\{([^{}]+)\}/g,"(($1)/($2))");
     x=x.replace(/\\dfrac\s*\{([^{}]+)\}\s*\{([^{}]+)\}/g,"(($1)/($2))");
@@ -5839,8 +5158,6 @@ function latexToPlain(s){
   }
   x=x.replace(/\\left|\\right/g,"");
 
-  // e^{x} och x_{1}: LaTeX-klamrar blir vanliga parenteser. Eleven
-  // kopierar ofta uppgiftens skrivsätt rakt in i svarsrutan.
   for(let i=0;i<4;i++){
     x=x.replace(/\^\s*\{([^{}]*)\}/g,"^($1)");
     x=x.replace(/_\s*\{([^{}]*)\}/g,"_$1");
@@ -5850,14 +5167,12 @@ function latexToPlain(s){
   x=x.replace(/\\,/g,"");
   x=x.replace(/\\text\s*\{([^{}]*)\}/g," $1 ");
 
-  // Typografiska tecken till maskinläsbara.
   x=x.replace(/[−–—]/g,"-");
   x=x.replace(/[×·⋅]/g,"*");
   x=x.replace(/÷/g,"/");
   x=x.replace(/π/g,"pi");
   x=x.replace(/\u00a0/g," ");
 
-  // Unicode-potenser.
   x=x.replace(/²/g,"^2").replace(/³/g,"^3").replace(/⁴/g,"^4")
      .replace(/⁵/g,"^5").replace(/⁶/g,"^6").replace(/⁷/g,"^7")
      .replace(/⁸/g,"^8").replace(/⁹/g,"^9");
@@ -5866,8 +5181,7 @@ function latexToPlain(s){
 }
 
 function normalizeDecimalComma(x){
-  // Svensk decimalcomma: 1,25 -> 1.25.
-  // Kommatecken som inte ligger mellan siffror lämnas orörda.
+
   let prev;
   do{
     prev=x;
@@ -5882,28 +5196,20 @@ function normalizeMathInput(s){
   x=x.replace(/^svar\s*:\s*/,"");
   x=normalizeDecimalComma(x);
 
-  // Acceptera svensk divisionsnotation "6:3".
   x=x.replace(/(\d|\))\s*:\s*(\d|\()/g,"$1/$2");
 
-  // Enkel roten-ur-notation: √9, √x, √(x+1)
   x=x.replace(/√\s*\(([^()]+)\)/g,"sqrt($1)");
   x=x.replace(/√\s*([a-z]\w*|\d+(?:\.\d+)?)/g,"sqrt($1)");
 
-  // Procenttal: 12% -> (12/100)
   x=x.replace(/(\d+(?:\.\d+)?)\s*%/g,"($1/100)");
 
-  // "sin x", "ln 2x": funktionsanrop utan parentes. Mellanrummet visar
-  // var argumentet slutar, så det måste tolkas innan blanksteg stryks.
   x=x.replace(/\b(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sqrt|log10|log|sin|cos|tan|ln|lg|exp)\s+([a-z0-9.]+(?:\^[a-z0-9.]+)?)/g,"$1($2)");
-  // Samma sak utan mellanrum, men bara för en ensam bokstav: sinx är
-  // sin(x), medan sinxy lämnas i fred eftersom det inte går att tyda.
+
   x=x.replace(/\b(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sqrt|log10|log|sin|cos|tan|ln|lg|exp)([a-z])(?![a-z0-9])/g,"$1($2)");
 
-  // Ta bort tusentalsmellanrum mellan siffror, därefter övriga blanksteg.
   x=x.replace(/(\d)\s+(?=\d{3}(?:\D|$))/g,"$1");
   x=x.replace(/\s+/g,"");
 
-  // Avslutande skiljetecken är inte en del av svaret.
   x=x.replace(/[.;]$/,"");
 
   return x;
@@ -5912,19 +5218,6 @@ function normalizeMathInput(s){
 function normalizeAnswer(s){
   return normalizeMathInput(s);
 }
-
-/* ==========================================================
-   UNDERFÖRSTÅDD MULTIPLIKATION OCH LOGARITMNAMN
-   Nerdamer läser 25xy^2 som 25 gånger variabeln "xy", inte som
-   25·x·y². Eleven skriver ofta ut stjärnan, facit gör det sällan,
-   och då jämförs två olika uttryck och rätt svar underkänns.
-   Nerdamer känner inte heller igen lg och ln — de blir variabler,
-   så lg(100) tolkas som 100·lg.
-
-   Båda stegen körs på redan normaliserad text, och bara i de
-   jämförelser som går till Nerdamer. Enhetsjämförelsen rör de inte,
-   eftersom kWh annars skulle bli k·W·h.
-   ========================================================== */
 
 const MATTEFUNKTIONER=["arcsin","arccos","arctan","sinh","cosh","tanh",
   "asin","acos","atan","sqrt","log10","log","sin","cos","tan","ln","lg",
@@ -5941,8 +5234,7 @@ function explicitMultiplikation(x){
       const stjarna =
            (p==="tal" && (typ==="bok"||typ==="fn"||txt==="("))
         || (p==="bok" && (typ==="bok"||typ==="fn"))
-        // x(x+1) är en produkt, f(x) ett funktionsvärde. f, g och h är
-        // funktionsnamn i skolmatematiken, övriga bokstäver variabler.
+
         || (p==="bok" && txt==="(" && !"fgh".includes(pt))
         || (pt===")"  && (typ==="bok"||typ==="tal"||typ==="fn"||txt==="("));
       if(stjarna) ut+="*";
@@ -5952,8 +5244,6 @@ function explicitMultiplikation(x){
   return ut;
 }
 
-/* I svensk skolmatematik är lg och log tiologaritmen och ln den
-   naturliga. Nerdamer menar tvärtom med log, så namnen byts. */
 function tillNerdamer(x){
   return explicitMultiplikation(x)
     .replace(/(?<![a-z0-9_])(log10|lg|log|ln)\s*\(/g,
@@ -5967,10 +5257,7 @@ function firstNumber(s){
 }
 
 function isPureNumberExpression(s){
-  // Tillåt siffror, pi/e, parenteser och elementära operatorer/funktioner,
-  // men inga fria variabler. Multiplikationen skrivs ut först, annars
-  // ser 2pi ut som en variabel eftersom \b inte hittar någon gräns
-  // mellan siffran och bokstaven.
+
   const x=explicitMultiplikation(normalizeMathInput(s));
   if(!x) return false;
   const scrub=x
@@ -6030,12 +5317,9 @@ function equationsEquivalent(user,expected){
   const er=equationResidual(expected);
   if(!ur || !er) return false;
 
-  // Samma residual eller motsatt residual.
   if(symbolicZero(`(${ur})-(${er})`)) return true;
   if(symbolicZero(`(${ur})+(${er})`)) return true;
 
-  // Samma ekvation multiplicerad med en icke-noll konstant:
-  // x=2 och 2x=4.
   try{
     const ratio=window.nerdamer(`simplify((${ur})/(${er}))`);
     const vars=ratio.variables();
@@ -6058,10 +5342,8 @@ function algebraicallyEquivalent(user,expected){
   const ue=splitEquation(u);
   const ee=splitEquation(e);
 
-  // Två ekvationer.
   if(ue && ee) return equationsEquivalent(u,e);
 
-  // Om facit är ett rent tal accepteras även t.ex. "x=2".
   if(ue && !ee && isPureNumberExpression(e)){
     const left=ue[0],right=ue[1];
     if(/^[a-z]\w*$/.test(left) && algebraicallyEquivalent(right,e)) return true;
@@ -6073,18 +5355,12 @@ function algebraicallyEquivalent(user,expected){
     if(/^[a-z]\w*$/.test(right) && algebraicallyEquivalent(u,left)) return true;
   }
 
-  // Ett uttryck ska normalt inte jämföras direkt med en ospecificerad ekvation.
   if(ue || ee) return false;
 
-  // Nerdamer läser bort jämförelsetecken: (x>2)-(x<-2) förenklas till 0,
-  // vilket gör att varje olikhet godkänns mot varje annan. Olikheter
-  // hanteras av olikhetsJamforelse() i stället.
   if(/[<>≤≥]/.test(u) || /[<>≤≥]/.test(e)) return false;
 
-  // Symbolisk förenkling är huvudkontrollen.
   if(symbolicZero(`((${u})-(${e}))`)) return true;
 
-  // Extra kontroll efter expansion, användbart för parenteser/polynom.
   try{
     const diff=window.nerdamer(`(${u})-(${e})`).expand().toString();
     if(symbolicZero(`(${diff})`)) return true;
@@ -6097,24 +5373,12 @@ function oneAnswerCorrect(user,expected,t,delIndex){
   const u=normalizeAnswer(user), e=normalizeAnswer(expected);
   if(!u) return false;
 
-  // 1. Exakt efter normalisering.
   if(u===e) return true;
 
-  // 1b. Samma svar med och utan utskriven multiplikation.
   if(explicitMultiplikation(u)===explicitMultiplikation(e)) return true;
 
-  // 2. Algebraisk/symbolisk ekvivalens.
-  //    Exempel: 11y+3 = 3+11y, (x+1)^2 = x^2+2x+1.
   if(algebraicallyEquivalent(user,expected)) return true;
 
-  // 3. Numerisk jämförelse med tolerans.
-  //    Både punkt och komma fungerar genom normalizeMathInput().
-  //
-  //    Två uttryck som båda innehåller variabler får aldrig jämföras
-  //    på sin första siffra. 25x·y och 25x·y² börjar båda på 25 men är
-  //    olika svar, och reservvägen firstNumber() nedan skulle annars
-  //    godkänna det ena mot det andra. Har minst en sida ett rent tal
-  //    är jämförelsen meningsfull igen, t.ex. "12 kr" mot 12.
   const algebraisktU=!isPureNumberExpression(user);
   const algebraisktE=!isPureNumberExpression(expected);
   if(algebraisktU && algebraisktE) return false;
@@ -6123,13 +5387,11 @@ function oneAnswerCorrect(user,expected,t,delIndex){
   if(isPureNumberExpression(user)) un=numericValue(tillNerdamer(normalizeMathInput(user)));
   if(isPureNumberExpression(expected)) en=numericValue(tillNerdamer(normalizeMathInput(expected)));
 
-  // Fallback om Nerdamer inte hunnit laddas eller uttrycket är enkelt.
   if(!Number.isFinite(un)) un=firstNumber(user);
   if(!Number.isFinite(en)) en=firstNumber(expected);
 
   if(Number.isFinite(un)&&Number.isFinite(en)){
-    // Toleransen får vara ett tal för hela uppgiften eller en lista
-    // med en tolerans per delsvar.
+
     const rå=Array.isArray(t.tolerans) ? t.tolerans[delIndex||0] : t.tolerans;
     const tol=typeof rå==="number"
       ? rå
@@ -6139,14 +5401,6 @@ function oneAnswerCorrect(user,expected,t,delIndex){
 
   return false;
 }
-
-/* ==========================================================
-   XP-MÄTAREN
-   Finns i två skepnader men styrs av samma kod: som stapel i rangpillret
-   i toppfältet, och som egen mätare i träningens toppfält, där inget
-   toppfält finns. Bara en av dem ligger i DOM:en åt gången, så de kan
-   dela id.
-   ========================================================== */
 
 function xpMeterHtml(){
   const lp=levelProgress();
@@ -6160,18 +5414,15 @@ function xpMeterHtml(){
   </div>`;
 }
 
-/* Vilken av de två skepnaderna som just nu står på skärmen. */
 function xpRuta(){
   return document.getElementById("xpmeter") || document.querySelector(".topbar .pill");
 }
 
-/* Siffran räknas upp i takt med stapeln. Ett hopp från 140 till 158
-   läses som en omritning, en uppräkning läses som en belöning. */
 let xpTween=null;
 function xpSkrivTal(into,need){
   const num=document.getElementById("xpnum");
   if(!num) return;
-  // I pillret är det trångt, så enheten står bara i träningsvyn.
+
   const kort=!!num.closest(".pill");
   num.innerHTML=`${into}<span class="sep">/</span>${need}${kort?"":" XP"}`;
 }
@@ -6187,7 +5438,6 @@ function xpRaknaUpp(fran,till,need,ms){
   xpTween=requestAnimationFrame(steg);
 }
 
-/* Skriver mätaren till ett bestämt XP-värde. */
 function xpStall(xp,animeraTal,fran){
   const fill=document.getElementById("xpfill"), lvl=document.getElementById("xplvl"),
         meter=xpRuta();
@@ -6196,7 +5446,7 @@ function xpStall(xp,animeraTal,fran){
   const into=xp-bas, need=Math.max(1,topp-bas);
   fill.style.width=Math.round(100*into/need)+"%";
   if(lvl) lvl.textContent=L;
-  // Rangen kan ha bytts på vägen, och den står skriven i pillret.
+
   const r=rankFor(L);
   const rk=document.getElementById("xprank"), rd=document.getElementById("xprankdot");
   if(rk) rk.textContent=r.name;
@@ -6208,9 +5458,6 @@ function xpStall(xp,animeraTal,fran){
   if(animeraTal) xpRaknaUpp(fran,into,need,900); else xpSkrivTal(into,need);
 }
 
-/* Körs varje gång en uppgift ger XP. Passeras en nivågräns fylls
-   stapeln först ända fram, nollställs utan animering och börjar om
-   på den nya nivån. */
 function animeraXp(fore,efter){
   const meter=xpRuta(), fill=document.getElementById("xpfill"),
         lvl=document.getElementById("xplvl"), gain=document.getElementById("xpgain");
@@ -6250,10 +5497,6 @@ function animeraXp(fore,efter){
   }
 }
 
-/* ==========================================================
-   TRÄNINGSVY
-   ========================================================== */
-
 function renderTraining(){
   state.view="training";
   const t=state.currentTask;
@@ -6264,20 +5507,17 @@ function renderTraining(){
   const canAuto=expectedInfo.auto;
   const inputCount=layout.n;
 
-  // Svårighetsgraden visas, men inte område och familj.
   const meta=levelChip(t)+toolIcons(t);
 
   const isLongAnswer=["resonemang","text"].includes(String(t.svarstyp||"").toLowerCase());
-  // Deluppgifter besvaras en i taget. Flera svar på samma fråga
-  // fylls i samtidigt, eftersom ordningen inte betyder något.
+
   const stepwise=canAuto && inputCount>1 && layout.ordnad;
   const bedomsSjalv=i=>!layout.delAuto[i];
   const plan=layout.plan;
-  // Etikett per ruta: deluppgiftens bokstav, och en siffra när samma
-  // deluppgift har flera svar.
+
   const rutEtikett=i=>{
     const del = plan ? plan.rutor[i].del : i;
-    // Bankens egna etiketter går före a), b), c).
+
     if(layout.etiketter && layout.etiketter[del]!==undefined){
       const namn=String(layout.etiketter[del]);
       const flera=plan && plan.delar[del].svar.length>1;
@@ -6290,7 +5530,7 @@ function renderTraining(){
     return layout.ordnad ? (flera?bok+(r.plats+1):bok+")") : (i+1)+".";
   };
   const rutEnhet=i=>plan ? (plan.delar[plan.rutor[i].del].enhet[plan.rutor[i].plats]||"") : "";
-  // Första rutan i en deluppgift öppnar hela deluppgiften.
+
   const laasta=i=>{
     if(!stepwise) return false;
     if(!plan) return i>0;
@@ -6373,10 +5613,6 @@ function renderTraining(){
   setTimeout(()=>document.getElementById("ans-0")?.focus(),60);
 }
 
-/* ==========================================================
-   RÄTTNING OCH BELÖNING
-   ========================================================== */
-
 function checkAnswer(){
   if(state.answered) return;
   const t=state.currentTask;
@@ -6388,8 +5624,6 @@ function checkAnswer(){
   }
   const layout=answerLayout(t);
 
-  // Flera svar på samma fråga: alla rutor rättas på en gång och
-  // matchas fritt mot facit, så x=3 i första rutan räknas som rätt.
   if(layout.flersvar){
     const svar=expected.map((_,i)=>document.getElementById("ans-"+i)?.value||"");
     if(svar.some(x=>!x.trim())){ toast("Fyll i alla svar först."); return; }
@@ -6410,8 +5644,6 @@ function checkAnswer(){
     return;
   }
 
-  // Med svarsplan rättas en hel deluppgift i taget, eftersom en
-  // deluppgift kan ha flera svar med var sin enhet och tolerans.
   const plan=layout.plan;
   if(plan){
     const del=plan.rutor[state.partIndex]?.del;
@@ -6424,7 +5656,6 @@ function checkAnswer(){
     const varden=rutor.map(r=>document.getElementById("ans-"+r.idx)?.value||"");
     if(varden.some(x=>!x.trim())){ toast("Fyll i alla svar för deluppgiften."); return; }
 
-    // Flera svar inom samma deluppgift matchas fritt mot varandra.
     const kvar=d.svar.map((v,j)=>({v,j}));
     const utfall=varden.map(anv=>{
       const träff=kvar.findIndex(k=>delSvarRatt(anv,k.v,d.enhet[k.j],d.tol[k.j],t,k.j,d.format[k.j]));
@@ -6435,8 +5666,6 @@ function checkAnswer(){
     utfall.forEach((ok,j)=>markPart(rutor[j].idx,ok,ok?null:facitText(d,kvar)));
     rutor.forEach((r,j)=>{ state.partResults[r.idx]=utfall[j]; });
 
-    // Delen kan kräva att eleven dessutom jämför en motivering
-    // eller riktning med facit.
     if(d.manuell && utfall.every(Boolean)){
       visaDelfacit(rutor[rutor.length-1].idx,del,true);
       return;
@@ -6450,8 +5679,6 @@ function checkAnswer(){
   const svar=el ? el.value : "";
   if(!svar.trim()){ toast("Skriv ett svar först."); return; }
 
-  // En del utan facit — resonemang, förklaring, figur — bedöms av eleven
-  // själv mot facit. Övriga delar i samma uppgift rättas som vanligt.
   if(!layout.delAuto[i]){
     visaDelfacit(i);
     return;
@@ -6464,7 +5691,6 @@ function checkAnswer(){
   registreraDel(i,ok,expected[i]);
 }
 
-/* Skriver ut kvarvarande facit med enhet, till hjälp vid fel. */
 function facitText(d,kvar){
   return (kvar.length?kvar:d.svar.map((v,j)=>({v,j})))
     .map(k=>String(k.v)+(d.enhet[k.j]?" "+d.enhet[k.j]:""))
@@ -6476,15 +5702,12 @@ function gaVidare(nasta,total){
   else openPart(state.partIndex,total);
 }
 
-/* Sparar utfallet för en del och går vidare till nästa, eller avslutar. */
 function registreraDel(i,ok,facit){
   state.partResults[i]=ok;
   markPart(i,ok,facit);
   gaVidare(i+1,answerLayout(state.currentTask).n);
 }
 
-/* Visar facit för en självbedömd deluppgift och låter eleven svara
-   på om det stämde. */
 function visaDelfacit(i,delIndex,komplettering){
   const t=state.currentTask;
   const rad=document.getElementById("part-"+i);
@@ -6505,8 +5728,7 @@ function visaDelfacit(i,delIndex,komplettering){
     renderMath(ruta);
   }
 }
-/* Banken kan lägga facit per del i delfacit/facitDelar, annars visas
-   hela lösningen. */
+
 function delfacitText(t,i){
   const d=t.delfacit||t.facitDelar||t.delsvar;
   if(Array.isArray(d)&&d[i]) return d[i];
@@ -6520,7 +5742,7 @@ function bedomDel(i,ok,delIndex){
   if(plan && delIndex!==undefined && delIndex>=0){
     const rutor=plan.rutor.map((r,idx)=>({...r,idx})).filter(r=>r.del===delIndex);
     rutor.forEach(r=>{
-      // Vid komplettering är rutan redan rättad; ett nej fäller den.
+
       const redan=state.partResults[r.idx];
       const nytt = redan===undefined ? ok : (redan && ok);
       state.partResults[r.idx]=nytt;
@@ -6532,7 +5754,6 @@ function bedomDel(i,ok,delIndex){
   registreraDel(i,ok,null);
 }
 
-/* Visar utfallet för en deluppgift och låser raden. */
 function markPart(i,ok,facit){
   const row=document.getElementById("part-"+i);
   if(!row) return;
@@ -6549,10 +5770,9 @@ function markPart(i,ok,facit){
   }
 }
 
-/* Öppnar nästa deluppgift och flyttar fokus dit. */
 function openPart(i,total){
   const plan=answerLayout(state.currentTask).plan;
-  // Har deluppgiften flera svar öppnas alla dess rutor samtidigt.
+
   const syskon = plan
     ? plan.rutor.map((r,idx)=>({...r,idx})).filter(r=>r.del===plan.rutor[i]?.del)
     : [{idx:i}];
@@ -6574,8 +5794,6 @@ function openPart(i,total){
   }
 }
 
-/* Avslutar uppgiften när eleven tagit lösningen. Deluppgifter som
-   inte hunnit besvaras räknas som obesvarade. */
 function giveUp(){
   if(state.answered) return;
   const info=expectedAnswersForTask(state.currentTask);
@@ -6583,24 +5801,17 @@ function giveUp(){
   finishAttempt(Array.from({length:n},(_,i)=>state.partResults[i]===true));
 }
 
-/* Vad en uppgift är värd. En A-uppgift ger fem gånger så mycket som
-   en E-uppgift, för den tar längre tid och kräver mer. Men E ligger
-   inte nära noll: det är där en elev som kämpar tränar, och den
-   eleven ska inte få mindre för att uppgifterna ligger på rätt nivå
-   för henne. */
 const XP_NIVA={G:4, E:8, C:20, A:50};
 
-/* Seriebonusen är procentuell. En fast bonus vore värd fyra gånger
-   mer på en E-uppgift än på en A-uppgift, och skulle alltså löna sig
-   att jaga genom att välja lätt. */
 const SERIETRAPPA=[[12,1.6],[8,1.4],[5,1.25],[3,1.15]];
 function seriefaktor(run){
   for(const [gräns,f] of SERIETRAPPA) if(run>=gräns) return f;
   return 1;
 }
-/* Hur mycket serien ger just nu, i procent. Noll när ingen bonus gäller. */
+
 function seriebonus(run){ return Math.round((seriefaktor(run)-1)*100); }
 
+// Poängreglerna måste hållas förenliga med serverns gränser vid ändringar.
 function xpFor(niva,correct,run){
   if(!correct) return 2;
   const n=String(niva||"E").toUpperCase();
@@ -6635,17 +5846,14 @@ function finishAttempt(resultat){
   }
   const bas=xpFor(t.niva,true,profile.run);
   let xp = correct ? bas : Math.max(2,Math.round(bas*andel));
-  // En ledtråd är hjälp på vägen, inte ett fel. Den kostar halva XP:n
-  // för uppgiften men påverkar varken rätt/fel eller mastery.
+
   if(state.hintUsed) xp=Math.max(1,Math.round(xp*.5));
-  if(state.noXp) xp=0;                       // lösningen var redan visad
+  if(state.noXp) xp=0;
   profile.xp+=xp;
   profile.today=(profile.today||0)+1;
   state.sessionXp+=xp;
   if(correct) state.sessionCorrect++;
 
-  // Varje deluppgift är ett eget kunskapsbevis. Har lösningen visats
-  // räknas uppgiften inte som behärskad, oavsett vad som skrivits in.
   const cp=ensureCourseProfile();
   const fs=Array.isArray(t.familj)?t.familj:[t.familj].filter(Boolean);
   const niva=levelOf(t);
@@ -6655,9 +5863,7 @@ function finishAttempt(resultat){
     updateLevelStat(t.omr,niva,v);
     fs.forEach(f=>updateMastery(cp.families,f,v));
   });
-  // Ett lagat fel: uppgiften gick fel senast och sitter nu. Räknas
-  // oavsett om den kom via ett felpass eller dök upp av sig själv —
-  // det är att gå tillbaka till sitt misstag som är bedriften.
+
   if(correct && !state.noXp){
     let forra=null;
     for(let i=cp.history.length-1;i>=0;i--) if(cp.history[i].id===t.id){ forra=cp.history[i]; break; }
@@ -6668,7 +5874,6 @@ function finishAttempt(resultat){
     ...(t.ursprungsId?{ursprungsId:t.ursprungsId,deluppgift:t.deluppgift}:{})});
   cp.history=cp.history.slice(-300);
 
-  // Underlag för medaljerna
   if(correct && !state.noXp && !state.solutionShown) profile.utanFacit=(profile.utanFacit||0)+1;
   if(new Date().getHours()<7) profile.morgon=1;
   if(state.data){
@@ -6684,8 +5889,6 @@ function finishAttempt(resultat){
   const rankBefore=rankFor(levelBefore), rankAfter=rankFor(levelAfter);
   saveProfile();
 
-  // Mätaren först. Hyllningarna lägger sig över hela skärmen, så de får
-  // vänta tills stapeln hunnit röra sig, annars missar eleven höjningen.
   animeraXp(xpBefore,profile.xp);
   const HYLLNING=1500;
   setTimeout(()=>{
@@ -6733,12 +5936,8 @@ function finishAttempt(resultat){
   }
 }
 
-/* ---------- ledtrådar ----------
-   Ledtråden är ett steg före facit: den pekar ut vägen utan att ge
-   svaret. När den väl visats går den inte att ta tillbaka. */
 function ledtradRuta(t){
-  // Kostnaden nämns inte på knappen — hjälpen ska vara lätt att ta —
-  // men den syns i samma stund som eleven öppnar rutan.
+
   return `<div class="ledtrad"><b>Ledtråd</b><div class="ltxt">${t.ledtrad||""}</div>
     <span class="lkost">Halv XP för den här uppgiften</span></div>`;
 }
@@ -6755,7 +5954,7 @@ function showSolution(){
   const t=state.currentTask;
   const auto=expectedAnswersForTask(t).auto;
   state.solutionShown=true;
-  // Tas lösningen innan uppgiften är avklarad utgår ingen XP.
+
   if(auto && !state.answered) state.noXp=true;
   const holder=document.getElementById("solution-holder");
   if(holder){
@@ -6772,13 +5971,6 @@ function showSolution(){
 }
 function selfGrade(ok){ if(!state.answered) finishAttempt(ok); }
 
-/* ==========================================================
-   PASSRAPPORT
-   ========================================================== */
-
-/* Tränarens kommentar efter passet. Den vet vilken sorts pass det var,
-   så att ett lågt resultat på ett tungt pass inte läses som ett
-   misslyckande — där är svårigheten själva poängen. */
 function passRapport(acc){
   const typ=state.passTyp;
   if(typ==="tungt")
@@ -6802,9 +5994,6 @@ function passRapport(acc){
                  : "Tuffa uppgifter idag. Nästa pass blir bättre anpassat.";
 }
 
-/* De uppgifter som gick fel, med lösningen ett klick bort. Direkt
-   efter passet är eleven som mest mottaglig för att titta en gång
-   till på just det som inte stämde. */
 function felLista(){
   const fel=state.sessionFel||[];
   if(!fel.length) return "";
@@ -6822,7 +6011,7 @@ function felLista(){
         </div>`).join("")}
     </div>`;
 }
-/* Ren text ur uppgiftens HTML, kortad så att raden håller sig på en rad. */
+
 function kortText(t){
   const d=document.createElement("div");
   d.innerHTML=String(t.t||"");
@@ -6843,8 +6032,7 @@ function vaxlaFelLosning(i,btn){
 }
 
 function renderSessionDone(record){
-  // Passrapporten ersätter träningssteget, så bakåt leder till kursen.
-  // Rekordet avgörs en gång, när passet faktiskt avslutas.
+
   if(record!==false){
     navRecord("summary",true);
     profile.pass=(profile.pass||0)+1;
@@ -6853,12 +6041,11 @@ function renderSessionDone(record){
     const tot=state.sessionDone||1;
     const pct=Math.round(state.sessionCorrect/tot*100);
     const gammalt=profile.bastaPass;
-    // Ett rekord kräver minst fyra uppgifter, annars räcker ett kort
-    // pass med en rätt för att sätta hundra procent.
+
     state.rekord=false; state.gamlaRekordet=gammalt;
     if(tot>=4 && (!gammalt || pct>gammalt.pct ||
        (pct===gammalt.pct && state.sessionCorrect>gammalt.ratt))){
-      state.rekord=!!gammalt;      // första passet är inget "nytt rekord"
+      state.rekord=!!gammalt;
       profile.bastaPass={pct,ratt:state.sessionCorrect,total:tot,at:Date.now()};
     }
     saveProfile();
@@ -6937,16 +6124,6 @@ function renderSessionDone(record){
   afterRender();
 }
 
-/* ==========================================================
-   MIN UTVECKLING
-   ========================================================== */
-
-/* ==========================================================
-   TOPPLISTEVYN
-   Hämtas om varje gång den öppnas. Listan är liten och laddas snabbt,
-   och ett cachelagrat resultat vore värre än ett kort tomrum.
-   ========================================================== */
-
 function oppnaTopplista(sortering,record){
   document.getElementById("kontomeny")?.remove();
   state.toppSort=TOPP_SORT[sortering]?sortering:(state.toppSort||"xp");
@@ -6956,7 +6133,6 @@ function oppnaTopplista(sortering,record){
   laddaTopplista();
 }
 
-/* Ramen ritas direkt, raderna fylls i när svaret kommit. */
 function ritaTopplista(laddar,rader,placering){
   const s=state.toppSort||"xp";
   const flik=(id,txt)=>`<button class="fliknapp${s===id?" pa":""}"
@@ -6967,7 +6143,7 @@ function ritaTopplista(laddar,rader,placering){
   const egen = !session
     ? `<div class="toppnotis">
          <b>Du är inte med och tävlar.</b>
-         <span>Logga in så kan du ställa dig på listan och se hur du ligger till mot andra. Träningen du redan gjort följer med.</span>
+         <span>Logga in så kan du ställa dig på listan och se hur du ligger till mot andra. Din sparade kontoprofil hämtas när du loggar in.</span>
          <button class="btn sm primary" onclick="loggaIn()">Logga in</button>
        </div>`
     : !profile.namn
@@ -7035,14 +6211,13 @@ function ritaTopplista(laddar,rader,placering){
 async function laddaTopplista(){
   const s=state.toppSort||"xp";
   const [rader,plats]=await Promise.all([hamtaTopplista(s),minPlacering(s)]);
-  if(state.view!=="topplista") return;    // eleven hann gå vidare
+  if(state.view!=="topplista") return;
   ritaTopplista(false,rader,plats);
 }
 
-/* Knappen i notisen gör samma sak som växeln i kontomenyn. */
 async function snabbVisa(pa){
-  await vaxlaTopplista(pa);
-  toast(pa?"Du syns nu på topplistan.":"Du är dold igen.");
+  const reply=await vaxlaTopplista(pa);
+  if(reply.ok && !reply.review) toast(profile.visaTopplista?"Du syns nu på topplistan.":"Du är dold igen.");
   oppnaTopplista(state.toppSort,false);
 }
 
@@ -7202,7 +6377,6 @@ function showProgress(record){
   afterRender();
 }
 
-/* Bakåtkompatibelt namn. */
 function showFeedback(){ showProgress(); }
 
 function goHome(){
@@ -7224,24 +6398,21 @@ function render(){
   else renderHome();
 }
 
-/* Om sidan öppnas som index.html#ma1 laddas kursen direkt. */
 window.addEventListener("load",async()=>{
-  // Tokens från Google plockas bort ur adressen innan något annat läser den.
+
   const nyInloggning=MOLN_PA() && fangaInloggning();
   if(MOLN_PA()) lasSession();
-  // Adressen läses först: navRecord skriver om den och skulle annars
-  // radera hashen innan vi hunnit se vilken kurs som efterfrågas.
+
   {
     const adr=tolkaAdress(location.hash);
     onskadKurs=adr.kurs;
     if(adr.kurs && adr.kapitel) onskadKapitel={kurs:adr.kurs,lista:adr.kapitel};
   }
 
-  // Länken från "glömt lösenord" loggar in tillfälligt. Då är det bara
-  // lösenordsrutan som ska mötas, inte hela appen.
   if(inloggningsTyp==="recovery"){ gateLage="nytt"; renderGate(); navRecord("home",true); return; }
   if(visaGate()){ renderGate(); navRecord("home",true); return; }
-  // Ett avbrutet pass går före kurslistan: eleven var mitt i något.
+  if(MOLN_PA() && session) await synkaProfil();
+
   const avbrutet=lasPagaendePass();
   if(avbrutet && !onskadKurs && COURSES[avbrutet.kurs]){
     renderHome(); navRecord("home",true);
@@ -7253,21 +6424,23 @@ window.addEventListener("load",async()=>{
 
   if(MOLN_PA() && session){
     await hamtaAnvandare();
-    await synkaProfil();
     await autoNamnFranGoogle();
     render();
     if(nyInloggning) toast("Inloggad. Din träning synkas nu mellan enheterna.");
   }
 });
-// Sista chansen att skicka det som ligger i kö.
-window.addEventListener("visibilitychange",()=>{
+
+document.addEventListener("visibilitychange",()=>{
   if(document.visibilityState==="hidden" && MOLN_PA() && session){
     clearTimeout(pushTimer); skickaMolnprofil();
   }
 });
 
-// Enkel diagnostik i webbläsarens konsol.
-// Returnerar true om den algebraiska kontrollen fungerar som avsett.
+window.addEventListener("online",()=>{
+  if(!session) return;
+  if(syncRevision===null) synkaProfil();
+  else if(pushKo) skickaMolnprofil();
+});
 
 window.KG_TEST_FACITFALLBACK=function(){
   const sample={

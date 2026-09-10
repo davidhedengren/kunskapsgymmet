@@ -2639,23 +2639,10 @@ function chapterHead(kap,namn,omraden,tranaKnapp){
   </div>`;
 }
 
-/* ═══════════════════════════════════════════════════════════
-   DET HÄR BEHÖVER DU KUNNA
-
-   Ett kort per delmoment i kapitlet: en handplockad typuppgift och
-   en genomgång av den.
-
-   Innehållet ligger i kursens genomgångsfil, inte i banken. Skälet
-   är att en genomgång är något annat än ett facit. Facit visar att
-   svaret stämmer; genomgången ska lära ut metoden, med ramen före
-   räkningen, ett resonemang till varje steg, det vanligaste felet
-   och regeln att bära vidare. Att generera det ur banken går inte.
-
-   Frågetexten hämtas däremot ur banken via fältet "uppgift", så att
-   typuppgiften aldrig glider isär från den uppgift eleven möter i
-   träningen. Delmoment som saknar genomgång visas inte alls — hellre
-   färre kort än ett kort som inte håller måttet.
-   ═══════════════════════════════════════════════════════════ */
+/* Det här behöver du kunna.
+   Genomgångsfilen anger innehåll, kapitel och läsordning. Ett kort kan
+   innehålla en egen typuppgift i t eller referera till banken via uppgift.
+   Äldre genomgångsfiler med familjenamn som nycklar stöds också. */
 const KUNSKAP_IKON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" '
   +'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
   +'<path d="M4 19V5.5A2 2 0 0 1 6 3.5h11.2a.8.8 0 0 1 .8.8v13.4a.8.8 0 0 1-.8.8H6a2 2 0 0 0-2 2Z"/>'
@@ -2671,7 +2658,7 @@ function granskaGenomgangar(kurs){
   if(!typ) return;
   const trasiga=[];
   Object.entries(typ).forEach(([familj,g])=>{
-    const falt=[g.ram,g.svar,g.fallgrop,g.komihag]
+    const falt=[g.rubrik,g.t,g.ram,g.svar,g.fallgrop,g.komihag]
       .concat((g.steg||[]).map(s=>(s.text||"")+(s.matte||"")));
     if(falt.some(x=>typeof x==="string" && /\\\\[[(]/.test(x))) trasiga.push(familj);
   });
@@ -2686,13 +2673,33 @@ function typData(){
   return (c&&c.typGlobal&&window[c.typGlobal]) || null;
 }
 
-/* Delmomenten tas i bankens ordning, som följer kursens gång.
-   Ett delmoment kan finnas i flera områden — mätosäkerhet dyker till
-   exempel upp både under enheter och under mätnoggrannhet — och ska
-   ändå bara ge ett kort. */
+/* Explicit kapitelplacering ger genomgångarna en egen pedagogisk ordning.
+   För äldre filer används bankens ordning och familjekopplingar. */
 function kunskapSteg(kap){
   const typ=typData();
   if(!typ) return [];
+  const explicita=Object.entries(typ).filter(([,g])=>g.kap!=null);
+  if(explicita.length){
+    const kort=getCards().filter(k=>String(k.kap)===String(kap));
+    const bank=state.data?.bank||[];
+    return explicita.filter(([,g])=>String(g.kap)===String(kap))
+      .map(([familj,g])=>{
+        const k=kort.find(k=>k.omr.includes(g.omr));
+        const bankuppgift=g.uppgift
+          ? bank.find(t=>String(t.id)===String(g.uppgift)) : null;
+        const uppgift=g.t ? {t:g.t,niva:g.niva||"E"} : bankuppgift;
+        if(!uppgift){
+          console.warn('Typuppgift saknas för '+(g.rubrik||familj));
+          return null;
+        }
+        const harFamilj=k && g.traningsfamilj && cardTaskPool(k).some(t=>
+          (Array.isArray(t.familj)?t.familj:[t.familj]).includes(g.traningsfamilj));
+        return {kort:k?.key||null,omr:g.omr,
+          omrNamn:familyName(k?.name||chapterName(kap)),familj,
+          traningsfamilj:harFamilj?g.traningsfamilj:null,
+          genomgang:g,uppgift};
+      }).filter(Boolean);
+  }
   const poster=new Map(); let n=0;
   getCards().filter(k=>String(k.kap)===String(kap)).forEach(k=>{
     cardTaskPool(k).forEach(t=>{
@@ -2719,7 +2726,7 @@ function kunskapSteg(kap){
         console.warn('Typuppgiften '+g.uppgift+' för "'+familj+'" ligger på nivå '
           +uppgift.niva+'. Typuppgifter bör vara E-nivå.');
       }
-      return {kort:p.kort, omrNamn:p.omrNamn, familj, genomgang:g, uppgift};
+      return {kort:p.kort, omrNamn:p.omrNamn, familj, traningsfamilj:familj, genomgang:g, uppgift};
     });
 }
 function harKunskap(kap){ return kunskapSteg(kap).length>0; }
@@ -2768,7 +2775,9 @@ function kunskapTrana(){
   profile.ggTranat=(profile.ggTranat||0)+1;
   saveProfile(); checkBadges();
   stangKunskap();
-  startCardFamily(s.kort,s.familj);
+  if(s.traningsfamilj && s.kort) startCardFamily(s.kort,s.traningsfamilj);
+  else if(s.omr) startArea(s.omr);
+  else if(s.kort) startCard(s.kort);
 }
 
 /* En genomgång räknas som läst först när kortet stått framme en stund.
@@ -2829,7 +2838,7 @@ function ritaKunskap(){
       <span class="typ-rakn">${k.i+1} / ${k.steg.length}${
         antalLasta?` · ${antalLasta} lästa`:""}</span></div>
     <div class="typ-omr">${esc(s.omrNamn)}</div>
-    <h3 class="typ-familj">${esc(familyName(s.familj))}</h3>
+    <h3 class="typ-familj">${esc(g.rubrik||familyName(s.familj))}</h3>
     ${g.ram?`<p class="gg-ram">${g.ram}</p>`:""}
 
     ${s.uppgift?`<div class="typ-block fraga">
@@ -2846,7 +2855,7 @@ function ritaKunskap(){
     </div>
 
     ${g.fallgrop?`<div class="gg-ruta fel">
-      <span class="gg-rlbl">Vanligaste felet</span><p>${g.fallgrop}</p></div>`:""}
+      <span class="gg-rlbl">Se upp med</span><p>${g.fallgrop}</p></div>`:""}
     ${g.komihag?`<div class="gg-ruta bar">
       <span class="gg-rlbl">Ta med dig</span><p>${g.komihag}</p></div>`:""}
 
@@ -2854,7 +2863,7 @@ function ritaKunskap(){
       <button class="btn quiet sm" onclick="kunskapGa(-1)" ${k.i===0?"disabled":""}>← Föregående</button>
       <button class="btn quiet sm" onclick="kunskapGa(1)" ${k.i>=k.steg.length-1?"disabled":""}>Nästa →</button>
       <span class="spacer"></span>
-      <button class="btn primary" onclick="kunskapTrana()">Träna det här</button>
+      <button class="btn primary" onclick="kunskapTrana()">${s.traningsfamilj?"Träna det här":"Träna området"}</button>
     </div>`;
   renderMath(host);
   ggStartaLastimer();
@@ -3530,7 +3539,7 @@ function chapterName(kap){
 }
 function familyName(f){
   if(!f) return "Övrigt";
-  return String(f).replaceAll("_"," ").trim();
+  return String(f).replaceAll("_"," ").replace(/hydrostatiskt tryck/gi,"Vätsketryck").trim();
 }
 function abilityText(f){
   if(!f) return "";

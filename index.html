@@ -1138,8 +1138,9 @@ html[data-theme="dark"] .verktygsikon.utan-raknare .urtag{stroke:#2a2b31}
 }
 .tbody p{margin:0 0 18px}
 .tbody p:last-child{margin-bottom:0}
-.tbody svg{display:block;max-width:100%;height:auto;margin:22px auto}
-html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#fff;border-radius:14px;padding:10px}
+.tbody svg:not(.katex svg){display:block;max-width:100%;height:auto;margin:22px auto}
+html[data-theme="dark"] .tbody svg:not(.katex svg),
+html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:14px;padding:10px}
 .tbody table{max-width:100%;border-collapse:collapse}
 .tbody td,.tbody th{border:1px solid var(--hair2);padding:7px 10px}
 .katex{font-size:1.07em}
@@ -1168,7 +1169,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .delfacit .lbl{font-size:12.5px;color:var(--ink3);font-weight:600}
 .delfacit-txt{margin-top:9px}
 .delfacit .aacts{margin-top:12px}
-.delfacit svg{display:block;max-width:100%;height:auto;margin:14px auto}
+.delfacit svg:not(.katex svg){display:block;max-width:100%;height:auto;margin:14px auto}
 @media(max-width:640px){.delfacit,.corr{margin-left:0}}
 .corr b{color:var(--ink2);font-weight:700}
 .partline{
@@ -1328,7 +1329,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .spel-en-del{margin-top:12px;font-weight:600}
 
 .sol .lbl{font-size:12.5px;color:var(--ink3);font-weight:600}
-.sol svg{display:block;max-width:100%;height:auto;margin:18px auto}
+.sol svg:not(.katex svg){display:block;max-width:100%;height:auto;margin:18px auto}
 
 .summary{width:min(620px,calc(100% - 32px));margin:0 auto;padding:40px 0 60px;text-align:center}
 .summary .ringwrap{width:132px;height:132px;margin:0 auto}
@@ -1465,7 +1466,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .typ-kropp p{margin:0}
 .typ-kropp ol,.typ-kropp ul{margin:0;padding-left:22px}
 .typ-kropp li + li{margin-top:6px}
-.typ-kropp img,.typ-kropp svg{max-width:100%;height:auto}
+.typ-kropp img,.typ-kropp svg:not(.katex svg){max-width:100%;height:auto}
 .typ-kropp table{border-collapse:collapse;max-width:100%}
 .typ-kropp .katex-display{overflow-x:auto;overflow-y:hidden}
 

@@ -436,7 +436,7 @@ window.TYPUPPGIFTER_MA1 = {
       {
         "rubrik": "Sätt in värdet",
         "text": "3x betyder 3 multiplicerat med x.",
-        "matte": "\\[3x+4=3\\cdot5+4\\]"
+        "matte": "\\[3x+4=3\\cdot{\\color{#D1495B}{5}}+4\\]"
       },
       {
         "rubrik": "Räkna ut uttrycket",
@@ -856,12 +856,12 @@ window.TYPUPPGIFTER_MA1 = {
       {
         "rubrik": "Sätt in x = 4",
         "text": "Ersätt varje x i formeln med 4.",
-        "matte": "\\[f(4)=3\\cdot4-2=12-2=10\\]"
+        "matte": "\\[f({\\color{#D1495B}{4}})=3\\cdot{\\color{#D1495B}{4}}-2=12-2=10\\]"
       },
       {
         "rubrik": "Sätt in x = −1",
         "text": "Skriv det negativa talet inom parentes, så blir tecknen rätt.",
-        "matte": "\\[f(-1)=3\\cdot(-1)-2=-3-2=-5\\]"
+        "matte": "\\[f({\\color{#D1495B}{-1}})=3\\cdot({\\color{#D1495B}{-1}})-2=-3-2=-5\\]"
       }
     ],
     "svar": "\\(f(4)=10\\) och \\(f(-1)=-5\\).",
@@ -916,7 +916,7 @@ window.TYPUPPGIFTER_MA1 = {
       {
         "rubrik": "Beräkna y för varje x-värde",
         "text": "Sätt in x-värdena ett i taget och räkna multiplikationen före additionen.",
-        "matte": "\\[2\\cdot(-1)+1=-1,\\quad 2\\cdot0+1=1,\\quad 2\\cdot1+1=3,\\quad 2\\cdot2+1=5\\]"
+        "matte": "\\[2\\cdot({\\color{#D1495B}{-1}})+1=-1,\\quad 2\\cdot{\\color{#D1495B}{0}}+1=1,\\quad 2\\cdot{\\color{#D1495B}{1}}+1=3,\\quad 2\\cdot{\\color{#D1495B}{2}}+1=5\\]"
       },
       {
         "rubrik": "Skriv tabellen",
@@ -953,7 +953,7 @@ window.TYPUPPGIFTER_MA1 = {
       {
         "rubrik": "Beräkna priset för 12 km",
         "text": "Sätt in x = 12.",
-        "matte": "\\[y=15\\cdot12+45=180+45=225\\]"
+        "matte": "\\[y=15\\cdot{\\color{#D1495B}{12}}+45=180+45=225\\]"
       }
     ],
     "svar": "15 kr är priset per kilometer och 45 kr är startavgiften. En resa på 12 km kostar \\(225\\) kr.",
@@ -1012,7 +1012,7 @@ window.TYPUPPGIFTER_MA1 = {
       {
         "rubrik": "Beräkna m",
         "text": "Sätt in k = 2 och punkten (2, 5) i y = kx + m.",
-        "matte": "\\[5=2\\cdot2+m\\quad\\Rightarrow\\quad m=1\\]"
+        "matte": "\\[5=2\\cdot{\\color{#D1495B}{2}}+m\\quad\\Rightarrow\\quad m=1\\]"
       },
       {
         "rubrik": "Skriv ekvationen och kontrollera",
@@ -1053,7 +1053,7 @@ window.TYPUPPGIFTER_MA1 = {
       {
         "rubrik": "Skriv ekvationen",
         "text": "Kontrollera med skärningen med x-axeln: när x = 6 blir y = 0.",
-        "matte": "\\[y=-0{,}5x+3,\\qquad -0{,}5\\cdot6+3=0\\]"
+        "matte": "\\[y=-0{,}5x+3,\\qquad -0{,}5\\cdot{\\color{#D1495B}{6}}+3=0\\]"
       }
     ],
     "svar": "\\(y=-0{,}5x+3\\).",
@@ -1086,7 +1086,7 @@ window.TYPUPPGIFTER_MA1 = {
       {
         "rubrik": "Beräkna värdet efter 3 år",
         "text": "Sätt in x = 3. Räkna potensen före multiplikationen.",
-        "matte": "\\[y=240\\,000\\cdot0{,}85^3=240\\,000\\cdot0{,}614125\\approx147\\,000\\]"
+        "matte": "\\[y=240\\,000\\cdot0{,}85^{\\color{#D1495B}{3}}=240\\,000\\cdot0{,}614125\\approx147\\,000\\]"
       }
     ],
     "svar": "240 000 kr är nypriset och 0,85 betyder att värdet minskar med 15 % per år. Efter 3 år är bilen värd ungefär \\(147\\,000\\) kr.",

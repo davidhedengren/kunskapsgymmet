@@ -767,7 +767,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "rubrik": "Skriva och tolka intervall",
     "niva": "E",
-    "t": "<p>Beskriv vilka tal som ingår i 2 ≤ x < 5. Ingår 2 och 5?</p>",
+    "t": "<p>Beskriv vilka tal som ingår i 2 ≤ x &lt; 5. Ingår 2 och 5?</p>",
     "ram": "Ett intervall beskriver alla tal mellan två gränser. Olikhetstecknen visar om gränserna ingår.",
     "steg": [
       {
@@ -776,11 +776,11 @@ window.TYPUPPGIFTER_MA1 = {
       },
       {
         "rubrik": "Läs den högra gränsen",
-        "text": "x < 5 betyder att x måste vara mindre än 5. Även decimaltal mellan gränserna ingår."
+        "text": "x &lt; 5 betyder att x måste vara mindre än 5. Även decimaltal mellan gränserna ingår."
       }
     ],
     "svar": "Alla tal från och med 2 till, men inte med, 5. Talet 2 ingår; 5 ingår inte.",
-    "komihag": "≤ och ≥ tillåter likhet. < och > gör det inte.",
+    "komihag": "≤ och ≥ tillåter likhet. &lt; och &gt; gör det inte.",
     "traningsfamilj": "Tolka och skriva intervall"
   },
   "ma1-grund-1-14": {
@@ -793,7 +793,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "rubrik": "Lösa en linjär olikhet",
     "niva": "E",
-    "t": "<p>Lös 2x + 3 < 11.</p>",
+    "t": "<p>Lös 2x + 3 &lt; 11.</p>",
     "ram": "En olikhet kan ha många lösningar. Du löser den ungefär som en ekvation och skriver sedan vilka tal som uppfyller den.",
     "steg": [
       {
@@ -820,17 +820,17 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "rubrik": "Negativ faktor i en olikhet",
     "niva": "E",
-    "t": "<p>Lös −2x < 6.</p>",
+    "t": "<p>Lös −2x &lt; 6.</p>",
     "ram": "När båda leden multipliceras eller divideras med ett negativt tal byter talen ordning på tallinjen. Olikhetstecknet måste därför vändas.",
     "steg": [
       {
         "rubrik": "Dividera båda leden med −2",
-        "text": "Kom ihåg att samtidigt vända < till >.",
+        "text": "Kom ihåg att samtidigt vända &lt; till &gt;.",
         "matte": "\\[x>\\frac6{-2}\\]"
       },
       {
         "rubrik": "Förenkla och kontrollera ett värde",
-        "text": "Gränsen är −3. Kontrollera med ett tal som ska ingå, till exempel x = 0: −2 · 0 = 0, och 0 < 6 stämmer.",
+        "text": "Gränsen är −3. Kontrollera med ett tal som ska ingå, till exempel x = 0: −2 · 0 = 0, och 0 &lt; 6 stämmer.",
         "matte": "\\[x>-3\\]"
       }
     ],
@@ -1090,7 +1090,7 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "240 000 kr är nypriset och 0,85 betyder att värdet minskar med 15 % per år. Efter 3 år är bilen värd ungefär \\(147\\,000\\) kr.",
-    "komihag": "a > 1 ger en ökning och 0 < a < 1 ger en minskning.",
+    "komihag": "a &gt; 1 ger en ökning och 0 &lt; a &lt; 1 ger en minskning.",
     "fallgrop": "Dra inte av 15 % av nypriset varje år. Det vore en linjär minskning. Här räknas 15 % av det värde bilen har just då."
   },
   "ma1-grund-2-09": {
@@ -1725,6 +1725,7 @@ window.TYPUPPGIFTER_MA1 = {
     "steg": [
       {
         "rubrik": "Beräkna summan av kvadraterna på de korta sidorna",
+        "text": "De två sträckorna längs väggarna är triangelns kortare sidor.",
         "matte": "\\[60^2+80^2=3\\,600+6\\,400=10\\,000\\]"
       },
       {
@@ -1999,6 +2000,7 @@ window.TYPUPPGIFTER_MA1 = {
       },
       {
         "rubrik": "Subtrahera från 1",
+        "text": "Sannolikheten för en fungerande lampa är det som återstår av 1.",
         "matte": "\\[P(\\text{fungerar})=1-0{,}04=0{,}96\\]"
       }
     ],
@@ -2023,6 +2025,7 @@ window.TYPUPPGIFTER_MA1 = {
     "steg": [
       {
         "rubrik": "Bestäm varje sannolikhet för sig",
+        "text": "En tärning har sex lika sannolika utfall och en slant har två.",
         "matte": "\\[P(\\text{sexa})=\\frac16,\\qquad P(\\text{krona})=\\frac12\\]"
       },
       {
@@ -2062,6 +2065,7 @@ window.TYPUPPGIFTER_MA1 = {
       },
       {
         "rubrik": "Multiplicera",
+        "text": "Båda händelserna måste inträffa längs samma väg.",
         "matte": "\\[\\frac4{10}\\cdot\\frac39=\\frac{12}{90}=\\frac2{15}\\approx0{,}13\\]"
       }
     ],
@@ -2091,6 +2095,7 @@ window.TYPUPPGIFTER_MA1 = {
       },
       {
         "rubrik": "Multiplicera längs varje väg",
+        "text": "Varje markerad väg innehåller en sen dag och en dag i tid.",
         "matte": "\\[0{,}2\\cdot0{,}8=0{,}16,\\qquad 0{,}8\\cdot0{,}2=0{,}16\\]"
       },
       {
@@ -2210,6 +2215,7 @@ window.TYPUPPGIFTER_MA1 = {
       },
       {
         "rubrik": "Sätt in antalet timmar",
+        "text": "Multiplicera timlönen med 7,5 timmar.",
         "matte": "\\[y=135\\cdot7{,}5=1\\,012{,}50\\]"
       }
     ],
@@ -2319,6 +2325,7 @@ window.TYPUPPGIFTER_MA1 = {
       },
       {
         "rubrik": "Multiplicera längd och bredd",
+        "text": "En rektangels area är längden multiplicerad med bredden.",
         "matte": "\\[4{,}20\\cdot3{,}50=14{,}7\\ \\mathrm{m^2}\\]"
       }
     ],
@@ -2345,6 +2352,7 @@ window.TYPUPPGIFTER_MA1 = {
       },
       {
         "rubrik": "Dela med paketstorleken",
+        "text": "Kvoten visar hur många paket den beräknade materialåtgången motsvarar.",
         "matte": "\\[\\frac{16{,}17}{2{,}2}\\approx7{,}35\\]"
       },
       {
@@ -2403,6 +2411,7 @@ window.TYPUPPGIFTER_MA1 = {
     "steg": [
       {
         "rubrik": "Dela brottlasten med säkerhetsfaktorn",
+        "text": "Säkerhetsfaktorn 4 betyder att bara en fjärdedel av brottlasten tillåts.",
         "matte": "\\[\\frac{3\\,000\\ \\mathrm N}{4}=750\\ \\mathrm N\\]"
       },
       {
@@ -2460,6 +2469,7 @@ window.TYPUPPGIFTER_MA1 = {
       },
       {
         "rubrik": "Multiplicera med längden",
+        "text": "Röret sjunker 10 mm för var och en av de 6,5 metrarna.",
         "matte": "\\[6{,}5\\cdot10=65\\ \\mathrm{mm}\\]"
       }
     ],

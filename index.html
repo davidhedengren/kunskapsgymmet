@@ -674,6 +674,18 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .chapter.open .kdots{opacity:0}
 .kdots i{width:6px;height:6px;border-radius:50%;background:var(--d);box-shadow:0 0 0 2px var(--bg)}
 .chapter-body{padding:4px 0 2px}
+.chapter-tools{
+  display:flex;align-items:center;justify-content:flex-end;gap:8px;margin:0 0 10px;
+}
+.chapter-tools .kunskap{
+  display:inline-flex;align-items:center;gap:7px;padding:7px 11px;border-radius:11px;
+  border:1px solid color-mix(in srgb,var(--gold) 30%,var(--hair));
+  background:var(--goldSoft);color:var(--gold);font-size:11.5px;font-weight:650;
+  transition:.2s var(--ease);
+}
+.chapter-tools .kunskap svg{width:14px;height:14px;flex:none}
+.chapter-tools .kunskap:hover{border-color:var(--gold);background:color-mix(in srgb,var(--goldSoft) 72%,var(--surface))}
+.chapter-tools .kunskap:active{transform:scale(.985)}
 
 .area-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(238px,1fr));gap:12px}
 .area{
@@ -1399,33 +1411,6 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 }
 .kaptrana.valj{background:var(--accSoft);border-color:transparent;color:var(--accInk)}
 
-/* ── "Det här behöver du kunna" ──
-   Knappen är alltid synlig, till skillnad från de andra kapitelknapparna.
-   Den är en ingång till stoffet, inte en genväg för den som redan hittat. */
-.kaptrana.kunskap{
-  opacity:1;transform:none;display:inline-flex;align-items:center;gap:6px;
-  border-color:var(--hair2);color:var(--ink2);
-}
-.kaptrana.kunskap svg{width:14px;height:14px;flex:none}
-.kaptrana.kunskap:hover{background:var(--goldSoft);color:var(--gold);border-color:transparent}
-@media(max-width:620px){.kaptrana.kunskap .kt-txt{display:none}.kaptrana.kunskap{padding:6px 9px}}
-
-/* Områdeskort med en egen minigenomgång. Knappen ligger på en separat rad
-   så att "Träna området" och genomgången aldrig konkurrerar om samma klickyta. */
-.area.med-kunskap{flex-wrap:wrap;row-gap:8px;padding-bottom:11px}
-.area.med-kunskap .omr-oppna{min-width:0}
-.omr-kunskap{
-  flex:0 0 100%;display:flex;align-items:center;justify-content:flex-start;gap:7px;
-  min-height:31px;padding:6px 9px;border-radius:10px;border:1px solid var(--hair);
-  background:var(--surface2);color:var(--ink3);font-size:11.5px;font-weight:650;
-  font-family:var(--read);letter-spacing:0;text-align:left;transition:.2s var(--ease);
-}
-.omr-kunskap svg{width:14px;height:14px;flex:none}
-.omr-kunskap:hover{background:var(--goldSoft);color:var(--gold);border-color:transparent}
-.omr-kunskap:active{transform:scale(.985)}
-.area.stack .omr-kunskap{flex:0 0 auto;width:100%}
-@media(max-width:520px){.omr-kunskap{font-size:11px;padding:6px 8px}}
-
 .typ-kort{width:min(680px,100%)}
 .typ-stig{display:flex;align-items:center;gap:5px;margin:14px 0 2px;flex-wrap:wrap}
 .typ-stig i{
@@ -1483,6 +1468,26 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
 .typ-kropp img,.typ-kropp svg{max-width:100%;height:auto}
 .typ-kropp table{border-collapse:collapse;max-width:100%}
 .typ-kropp .katex-display{overflow-x:auto;overflow-y:hidden}
+
+/* Temasäkra diagram i genomgångarna. SVG-element utan explicita färger
+   blir annars svarta och tappar kontrast i mörkt läge. */
+.dg{display:block;max-width:100%;height:auto;color:var(--ink2)}
+.dg-rut{fill:none;stroke:var(--hair2);stroke-width:1}
+.dg-axel,.dg-form,.dg-grenar{fill:none;stroke:var(--ink2);stroke-width:2}
+.dg-pil{fill:var(--ink2)}
+.dg-txt,.dg-not{fill:var(--ink2);font-family:var(--read);font-size:12px}
+.dg-linje{fill:none;stroke:var(--acc);stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.dg-matt{fill:var(--acc);stroke:var(--surface);stroke-width:1.5}
+.dg-vald{fill:var(--gold);stroke:var(--surface);stroke-width:1.8}
+.dg-skar{fill:var(--good);stroke:var(--surface);stroke-width:1.5}
+.dg-delta,.dg-vinkel,.dg-gren-vald{fill:none;stroke:var(--gold);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.dg-hjalp{fill:none;stroke:var(--ink3);stroke-width:1.3;stroke-dasharray:5 5}
+.dg-avl,.dg-etikett{fill:var(--gold);font-family:var(--read);font-size:12px;font-weight:650}
+.dg-vek1{fill:none;stroke:var(--acc);stroke-width:3}.dg-spets1{fill:var(--acc)}
+.dg-vek2{fill:none;stroke:var(--good);stroke-width:3}.dg-spets2{fill:var(--good)}
+.dg-vek3{fill:none;stroke:var(--gold);stroke-width:3}.dg-spets3{fill:var(--gold)}
+.dg-e1{fill:var(--acc)}.dg-e2{fill:var(--good)}.dg-e3{fill:var(--gold)}
+.gg-figur{margin-top:10px;padding:8px;border-radius:14px;background:var(--surface);border:1px solid var(--hair)}
 
 .gg-ram{margin:11px 0 0;font-family:var(--read);font-size:14px;line-height:1.65;color:var(--ink2)}
 .gg-ram em{color:var(--ink);font-style:normal;font-weight:600}
@@ -2664,14 +2669,23 @@ function chapterHead(kap,namn,omraden,tranaKnapp){
       ${CHEV}<span class="name">${esc(namn)}</span><span class="rule"></span>
       <span class="kdots">${dots}</span><span class="n">${omraden.length}</span>
     </button>
-    ${harKunskap(kap)?`<button class="kaptrana kunskap" onclick="oppnaKunskap('${esc(String(kap))}')"
-      title="Genomgången delmoment för delmoment i ${esc(namn)}"
-      aria-label="Det här behöver du kunna i ${esc(namn)}">${KUNSKAP_IKON}<span class="kt-txt">Det här behöver du kunna</span></button>`:""}
     ${tranaKnapp===false?"":`
       <button class="kaptrana" onclick="startChapter('${esc(String(kap))}')"
         title="Träna hela kapitlet">Träna allt</button>
       <button class="kaptrana valj" onclick="oppnaFlerval('${esc(String(kap))}')"
         title="Välj flera områden att blanda">Välj flera</button>`}
+  </div>`;
+}
+
+function chapterTools(kap){
+  if(!harKunskap(kap)) return "";
+  const namn=chapterName(kap);
+  return `<div class="chapter-tools">
+    <button class="kunskap" onclick="oppnaKunskap('${esc(String(kap))}')"
+      title="Kort genomgång delmoment för delmoment"
+      aria-label="Det här behöver du kunna i ${esc(namn)}">
+      ${KUNSKAP_IKON}<span>Det här behöver du kunna</span>
+    </button>
   </div>`;
 }
 
@@ -2917,6 +2931,7 @@ function ritaKunskap(){
         <h4>${x.rubrik||""}</h4>
         ${x.text?`<p>${x.text}</p>`:""}
         ${x.matte?`<div class="gg-matte">${x.matte}</div>`:""}
+        ${x.figur?`<div class="gg-figur">${x.figur}</div>`:""}
       </div>
     </li>`).join("");
 
@@ -4238,13 +4253,13 @@ function renderDashboard(){
     <section class="chapter${open?" open":""}">
       ${manyChapters?chapterHead(kap,chapterName(kap),grouped[kap]):""}
       <div class="chapter-body"${manyChapters&&!open?" hidden":""}>
+      ${chapterTools(kap)}
       <div class="area-grid stagger">
         ${grouped[kap].map(a=>{
           const s=cardStatus(a);
 
           const harDelar=cardFamilies(a).length>0;
-          const harK=harKunskapKort(a);
-          return `<div class="area ${s.tone}${harK?" med-kunskap":""}">
+          return `<div class="area ${s.tone}">
             <button class="omr-oppna" onclick="startCard('${esc(a.key)}')"
               title="${a.grupp?esc(a.delar.map(d=>d.name).join(" · ")):esc(a.name)}">
               <span class="area-ring">
@@ -4259,9 +4274,6 @@ function renderDashboard(){
             ${harDelar?`<button class="omr-punkt" onclick="oppnaPunkt('${esc(a.key)}')"
               title="Punktträna delmoment i ${esc(a.name)}"
               aria-label="Punktträna delmoment i ${esc(a.name)}">${PUNKT_IKON}</button>`:""}
-            ${harK?`<button class="omr-kunskap" onclick="oppnaKunskap('${esc(String(a.kap))}','${esc(a.key)}')"
-              title="Minigenomgång för ${esc(a.name)}"
-              aria-label="Det här behöver du kunna i ${esc(a.name)}">${KUNSKAP_IKON}<span>Det här behöver du kunna</span></button>`:""}
           </div>`;
         }).join("")}
       </div>
@@ -4373,11 +4385,11 @@ function showAreaPicker(record){
       <section class="chapter${open?" open":""}">
         ${chapterHead(kap,chapterName(kap),grouped[kap],false)}
         <div class="chapter-body"${open?"":" hidden"}>
+        ${chapterTools(kap)}
         <div class="area-grid stagger punktgrid">
           ${grouped[kap].map(k=>{
             const s=cardStatus(k);
             const fam=cardFamilies(k);
-            const harK=harKunskapKort(k);
             return `<div class="area stack ${s.tone}" style="cursor:default">
               <div class="omr-rad">
                 <button class="omrknapp" onclick="startCard('${esc(k.key)}')">
@@ -4387,9 +4399,6 @@ function showAreaPicker(record){
                   title="Blanda flera delmoment i ${esc(k.name)}"
                   aria-label="Blanda flera delmoment i ${esc(k.name)}">${PUNKT_IKON}</button>`:""}
               </div>
-              ${harK?`<button class="omr-kunskap" onclick="oppnaKunskap('${esc(String(k.kap))}','${esc(k.key)}')"
-                title="Minigenomgång för ${esc(k.name)}"
-                aria-label="Det här behöver du kunna i ${esc(k.name)}">${KUNSKAP_IKON}<span>Det här behöver du kunna</span></button>`:""}
               ${fam.length?`<div class="delmoment">
                 <span class="dellbl">Delmoment</span>
                 <div class="deltaggar">

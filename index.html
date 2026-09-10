@@ -2840,6 +2840,26 @@ function oppnaKunskap(kap,kortNyckel=null){
     </div>`;
   document.body.appendChild(el);
   el.addEventListener("click",e=>{ if(e.target===el) stangKunskap(); });
+  /* Svep vågrätt på själva genomgångskortet för att bläddra på mobil.
+     Ett tydligt horisontellt svep krävs, så vanlig lodrät skrollning påverkas inte. */
+  let svepStart=null;
+  el.addEventListener("touchstart",e=>{
+    if(e.touches.length!==1 || e.target.closest("button,a,input,textarea,select,.katex-display")){
+      svepStart=null; return;
+    }
+    const p=e.touches[0];
+    svepStart={x:p.clientX,y:p.clientY,tid:Date.now()};
+  },{passive:true});
+  el.addEventListener("touchend",e=>{
+    if(!svepStart || e.changedTouches.length!==1){ svepStart=null; return; }
+    const p=e.changedTouches[0], dx=p.clientX-svepStart.x, dy=p.clientY-svepStart.y;
+    const snabbNog=Date.now()-svepStart.tid<1100;
+    svepStart=null;
+    if(snabbNog && Math.abs(dx)>=55 && Math.abs(dx)>Math.abs(dy)*1.25){
+      kunskapGa(dx<0 ? 1 : -1);
+    }
+  },{passive:true});
+  el.addEventListener("touchcancel",()=>{ svepStart=null; },{passive:true});
   ritaKunskap();
   requestAnimationFrame(()=>{
     if(state.kunskap && el.isConnected){ el.classList.add("visa"); ggStartaLastimer(); }
@@ -3576,6 +3596,8 @@ function expandGameTask(t){
     q.ursprungsId=t.id;
     q.deluppgift=etikett;
     q.id=`${t.id}${etikett}`;
+    q.niva=del?.niva || t.niva;
+    if(del?.poang!=null) q.poang=del.poang;
 
     q.t=del?.t
       || (del?.fraga!=null && t.spelIntro!=null

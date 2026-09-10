@@ -33,14 +33,6 @@
     "A ∩ B = {3,4}, A ∪ B = {1,2,3,4,5} och Aᶜ = {5,6}.",
     "Komplementet kan bara bestämmas när grundmängden är känd.", "Mängder och Venn-diagram");
 
-  add("matf1-grund-1-02", 1, "mangder_venn", "Använd De Morgans lag",
-    "<p>Förenkla uttrycket (A ∪ B)ᶜ.</p>",
-    "De Morgans lagar byter union mot snitt och snitt mot union när komplementet förs in.",
-    [steg("För in komplementet", "Allt som inte finns i unionen måste saknas i både A och B.", "\\[(A\\cup B)^c=A^c\\cap B^c\\]"),
-     steg("Kontrollera med ord", "Högerledet betyder element som varken finns i A eller i B.")],
-    "(A ∪ B)ᶜ = Aᶜ ∩ Bᶜ.",
-    "När komplementet förs genom parentesen byts ∪ och ∩.", "Mängder och Venn-diagram");
-
   add("matf1-grund-1-03", 1, "additionsprincipen_mangder", "Använd inklusion–exklusion",
     "<p>I en grupp läser 18 elever franska, 14 spanska och 6 båda språken. Hur många läser minst ett av språken?</p>",
     "När två grupper överlappar räknas snittet två gånger i summan och måste därför dras bort en gång.",

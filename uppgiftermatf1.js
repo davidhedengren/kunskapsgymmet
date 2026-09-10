@@ -1,6 +1,5 @@
-/* uppgiftermatf1.js — Matematik – fördjupning nivå 1.
-   Kombinatorikfacit extra pedagogiskt granskade 2026-09-09.
-   Förklarar metodval, ordning/urval, disjunkta fall och hur dubbelräkning undviks. */
+/* Kvalitets- och nivåreviderad 2026-09-10.
+ * Nivå följer högsta förekommande E/C/A-poäng; deluppgifter har egen nivå. */
 window.BANKMATF1 = [
   {
     "kap": 1,
@@ -22,7 +21,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -31,7 +31,7 @@ window.BANKMATF1 = [
     "typ": "skriva mängd med mängdbyggarnotation",
     "poang": "1/0/0",
     "t": "<p>Skriv med mängdsymboler mängden av alla reella tal som är mindre än 100.</p>",
-    "s": "<p><strong>Idé:</strong> Mängdbyggarnotation beskriver både vilket talområde elementen kommer från och vilket villkor de ska uppfylla.</p><p>Här ska elementen vara reella tal och villkoret är att talet ska vara mindre än 100. En möjlig skrivning är därför</p><p><strong>\\(A=\\{x\\in\\mathbb R\\mid x&lt;100\\}\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> Mängdbyggarnotation beskriver både vilket talområde elementen kommer från och vilket villkor de ska uppfylla.</p><p>Här ska elementen vara reella tal och villkoret är att talet ska vara mindre än 100. En möjlig skrivning är därför</p><p><strong>\\(A=\\{x\\in\\mathbb R\\mid x&lt;100\\}\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "1.01",
     "miniräknare": false,
     "geogebra": false,
@@ -42,7 +42,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -64,7 +65,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -84,7 +86,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -93,7 +96,7 @@ window.BANKMATF1 = [
     "typ": "skriva mängder på listform",
     "poang": "3/0/0",
     "t": "<p>Skriv följande mängder på listform.</p><ol type=\"a\"><li>Veckans dagar.</li><li>Heltalen strikt mellan 1 och 2.</li><li>De naturliga talen från 1 till och med 3.</li></ol>",
-    "s": "<ol type=\"a\"><li>På listform skriver vi ut alla element: <strong>\\(\\{\\text{måndag, tisdag, onsdag, torsdag, fredag, lördag, söndag}\\}\\)</strong>.</li><li>Det finns inget heltal som är större än 1 och samtidigt mindre än 2. Mängden är därför <strong>\\(\\varnothing\\)</strong>.</li><li>De naturliga talen från 1 till och med 3 är <strong>\\(\\{1,2,3\\}\\)</strong>.</li></ol>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><ol type=\"a\"><li>På listform skriver vi ut alla element: <strong>\\(\\{\\text{måndag, tisdag, onsdag, torsdag, fredag, lördag, söndag}\\}\\)</strong>.</li><li>Det finns inget heltal som är större än 1 och samtidigt mindre än 2. Mängden är därför <strong>\\(\\varnothing\\)</strong>.</li><li>De naturliga talen från 1 till och med 3 är <strong>\\(\\{1,2,3\\}\\)</strong>.</li></ol></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "id": "1.03",
     "miniräknare": false,
     "geogebra": false,
@@ -104,7 +107,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -126,7 +130,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -167,35 +172,19 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Låt \\(A=\\{1,3,4,5,6,8\\}\\) och \\(B=\\{3,4,5,6,7,8,9\\}\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm \\(A\\cap B\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara de element som finns i båda mängderna.</p><p>De gemensamma elementen är 3, 4, 5, 6 och 8.</p><p><strong>Svar:</strong> (A\\cap B=\\{3,4,5,6,8\\}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara de element som finns i båda mängderna.</p><p>De gemensamma elementen är 3, 4, 5, 6 och 8.</p><p><strong>Svar:</strong> (A\\cap B=\\{3,4,5,6,8\\}).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Låt \\(A=\\{1,3,4,5,6,8\\}\\) och \\(B=\\{3,4,5,6,7,8,9\\}\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm \\(A\\cup B\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Unionen innehåller alla element som finns i minst en av mängderna. Dubbletter skrivs bara en gång.</p><p><strong>Svar:</strong> (A\\cup B=\\{1,3,4,5,6,7,8,9\\}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Unionen innehåller alla element som finns i minst en av mängderna. Dubbletter skrivs bara en gång.</p><p><strong>Svar:</strong> (A\\cup B=\\{1,3,4,5,6,7,8,9\\}).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
-    ]
-  },
-  {
-    "kap": 1,
-    "omr": "mangder_venn",
-    "niva": "C",
-    "typ": "bevisa en mängdidentitet med elementmetoden",
-    "poang": "0/2/0",
-    "t": "<p>Visa med hjälp av medlemskap att</p><p>\\[\\overline{A\\cup B}=\\overline A\\cap\\overline B.\\]</p>",
-    "s": "<p><strong>Idé:</strong> Välj ett godtyckligt element \\(x\\) och översätt mängdoperationerna till logiska villkor.</p><p>För vänsterledet får man ett villkor på om \\(x\\) tillhör de aktuella mängderna. Med De Morgans lag kan villkoret skrivas om till exakt medlemskapsvillkoret för högerledet. Eftersom detta gäller för varje \\(x\\) är mängderna lika.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
-    "id": "1.311",
-    "miniräknare": false,
-    "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "begrepp",
-      "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -204,7 +193,7 @@ window.BANKMATF1 = [
     "typ": "tolka antal i Venn-diagram",
     "poang": "3/0/0",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder A, B och C och antal i varje område\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text><text x=\"302\" y=\"56\" font-size=\"17\">B</text><text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"122\" y=\"116\" font-size=\"15\">10</text><text x=\"291\" y=\"116\" font-size=\"15\">1</text><text x=\"210\" y=\"222\" font-size=\"15\">9</text>\n<text x=\"210\" y=\"91\" font-size=\"15\">10</text><text x=\"168\" y=\"171\" font-size=\"15\">6</text><text x=\"258\" y=\"171\" font-size=\"15\">2</text>\n<text x=\"211\" y=\"143\" font-size=\"15\" font-weight=\"700\">2</text>\n</svg></span><p>I diagrammet är \\(A\\), \\(B\\) och \\(C\\) tre elevgrupper.</p><ol type=\"a\"><li>Bestäm \\(|A\\cap B|\\).</li><li>Bestäm \\(|A\\cup C|\\).</li><li>Beskriv med ord mängden \\(A\\setminus B\\).</li></ol>",
-    "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_05_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_05_s_1_Aclip)\"><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>a)</strong> I \\(A\\cap B\\) ingår både området som ligger i bara \\(A\\) och \\(B\\) och mittenområdet som ligger i alla tre mängder. Därför blir \\(|A\\cap B|=10+2=12\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A union C är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_05_s_2_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_2_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_2_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>b)</strong> Unionen \\(A\\cup C\\) består av alla områden som ligger i \\(A\\) eller i \\(C\\). Då blir \\(|A\\cup C|=10+10+6+2+2+9=39\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A utan B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>c)</strong> Det markerade området är den del av \\(A\\) som ligger utanför \\(B\\). Med ord: <strong>de elever som tillhör \\(A\\) men inte \\(B\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_05_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_05_s_1_Aclip)\"><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>a)</strong> I \\(A\\cap B\\) ingår både området som ligger i bara \\(A\\) och \\(B\\) och mittenområdet som ligger i alla tre mängder. Därför blir \\(|A\\cap B|=10+2=12\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A union C är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_05_s_2_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_2_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_2_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>b)</strong> Unionen \\(A\\cup C\\) består av alla områden som ligger i \\(A\\) eller i \\(C\\). Då blir \\(|A\\cup C|=10+10+6+2+2+9=39\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A utan B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>c)</strong> Det markerade området är den del av \\(A\\) som ligger utanför \\(B\\). Med ord: <strong>de elever som tillhör \\(A\\) men inte \\(B\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "1.05",
     "miniräknare": false,
     "geogebra": false,
@@ -215,7 +204,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -238,7 +228,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -287,24 +278,33 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>a)</strong> \\(A\\cup B\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Eftersom (B\\subseteq A) tillför (B) inga nya element till unionen.</p><p><strong>Svar:</strong> (A\\cup B=\\{1,2,3,4,5,6,7\\}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Eftersom (B\\subseteq A) tillför (B) inga nya element till unionen.</p><p><strong>Svar:</strong> (A\\cup B=\\{1,2,3,4,5,6,7\\}).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>b)</strong> \\(B\\cap C\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Den tomma mängden har inga element och kan därför inte ha något gemensamt element med (B).</p><p><strong>Svar:</strong> (B\\cap C=\\varnothing).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Den tomma mängden har inga element och kan därför inte ha något gemensamt element med (B).</p><p><strong>Svar:</strong> (B\\cap C=\\varnothing).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>c)</strong> \\(C\\cup A\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Att ta union med den tomma mängden förändrar inte mängden.</p><p><strong>Svar:</strong> (C\\cup A=A=\\{1,2,3,4,5,6,7\\}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Att ta union med den tomma mängden förändrar inte mängden.</p><p><strong>Svar:</strong> (C\\cup A=A=\\{1,2,3,4,5,6,7\\}).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "d",
         "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>d)</strong> \\(B\\cap(A\\cup C)\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Först är (A\\cup C=A). Därefter blir (B\\cap A=B), eftersom (B\\subseteq A).</p><p><strong>Svar:</strong> (\\{1,3,5,7\\}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Först är (A\\cup C=A). Därefter blir (B\\cap A=B), eftersom (B\\subseteq A).</p><p><strong>Svar:</strong> (\\{1,3,5,7\\}).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -326,7 +326,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -335,7 +336,7 @@ window.BANKMATF1 = [
     "typ": "markera mängder i Venn-diagram",
     "poang": "4/0/0",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>I Venn-diagrammet ska följande områden markeras.</p><ol type=\"a\"><li>\\(A\\cup B\\)</li><li>\\(A\\cap(B\\cup C)\\)</li><li>\\(A^c\\cup B\\)</li><li>\\((B\\cup C)\\setminus A\\)</li></ol>",
-    "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A union B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>a)</strong> \\(A\\cup B\\) är allt som ligger i \\(A\\) eller \\(B\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt (B union C) är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_2_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_2_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_2_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_07_s_2_Aclip)\"><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/></g><g clip-path=\"url(#matf1_1_07_s_2_Aclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>b)</strong> \\(A\\cap(B\\cup C)\\) är de delar av \\(A\\) som samtidigt ligger i \\(B\\) eller \\(C\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A-komplement union B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_3_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_3_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_3_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>c)</strong> \\(A^c\\cup B\\) är allt utanför \\(A\\), tillsammans med hela \\(B\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där (B union C) utan A är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_4_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_4_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_4_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>d)</strong> \\((B\\cup C)\\setminus A\\) är de delar av \\(B\\) eller \\(C\\) som ligger utanför \\(A\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A union B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>a)</strong> \\(A\\cup B\\) är allt som ligger i \\(A\\) eller \\(B\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt (B union C) är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_2_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_2_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_2_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_07_s_2_Aclip)\"><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/></g><g clip-path=\"url(#matf1_1_07_s_2_Aclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>b)</strong> \\(A\\cap(B\\cup C)\\) är de delar av \\(A\\) som samtidigt ligger i \\(B\\) eller \\(C\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A-komplement union B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_3_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_3_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_3_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>c)</strong> \\(A^c\\cup B\\) är allt utanför \\(A\\), tillsammans med hela \\(B\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där (B union C) utan A är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_4_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_4_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_4_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>d)</strong> \\((B\\cup C)\\setminus A\\) är de delar av \\(B\\) eller \\(C\\) som ligger utanför \\(A\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "1.07",
     "miniräknare": false,
     "geogebra": false,
@@ -347,7 +348,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "spel": false
+    "spel": false,
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -396,24 +398,29 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>a)</strong> \\(A\\cap M\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Snittet består av de element som finns i både (A) och (M).</p><p>Det enda gemensamma elementet är 0.</p><p><strong>Svar:</strong> (\\{0\\}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Snittet består av de element som finns i både (A) och (M).</p><p>Det enda gemensamma elementet är 0.</p><p><strong>Svar:</strong> (\\{0\\}).</p>",
+        "niva": "E"
       },
       {
         "etikett": "b",
         "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>b)</strong> \\(M^c\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> (M^c) består av alla element i grundmängden (G) som inte ligger i (M).</p><p><strong>Svar:</strong> (\\{1,2,4,5,6,8,9,10,12,13,15,16,17,18,19,20\\}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> (M^c) består av alla element i grundmängden (G) som inte ligger i (M).</p><p><strong>Svar:</strong> (\\{1,2,4,5,6,8,9,10,12,13,15,16,17,18,19,20\\}).</p>",
+        "niva": "E"
       },
       {
         "etikett": "c",
         "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>c)</strong> \\(M\\cup A^c\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Bilda först (A^c=G\\setminus A), och lägg sedan till elementen i (M). Varje element skrivs bara en gång.</p><p><strong>Svar:</strong> (\\{0,2,3,4,6,7,9,10,11,12,14,15,16,17,18,19\\}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Bilda först (A^c=G\\setminus A), och lägg sedan till elementen i (M). Varje element skrivs bara en gång.</p><p><strong>Svar:</strong> (\\{0,2,3,4,6,7,9,10,11,12,14,15,16,17,18,19\\}).</p>",
+        "niva": "E"
       },
       {
         "etikett": "d",
         "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>d)</strong> \\(M\\setminus A\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> (M\\setminus A) betyder elementen som ligger i (M) men inte i (A). Elementet 0 tas därför bort.</p><p><strong>Svar:</strong> (\\{3,7,11,14\\}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> (M\\setminus A) betyder elementen som ligger i (M) men inte i (A). Elementet 0 tas därför bort.</p><p><strong>Svar:</strong> (\\{3,7,11,14\\}).</p>",
+        "niva": "E"
       }
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -435,7 +442,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -455,7 +463,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -477,7 +486,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -498,7 +508,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -519,7 +530,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -540,7 +552,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -563,7 +576,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -573,7 +587,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "1.111",
     "t": "<p>Skriv mängden av alla jämna heltal mellan 2 och 20 med mängdbyggare.</p>",
-    "s": "<p>Vi söker heltal som är jämna och ligger mellan 2 och 20. Ett tydligt sätt är att skriva</p><p><strong>\\(A=\\{x\\mid x\\in\\mathbb{Z},\\ 2\\le x\\le 20\\ \\text{och}\\ x\\ \\text{är jämnt}\\}\\)</strong>.</p><p>Man kan också skriva \\(A=\\{2n\\mid n\\in\\mathbb{Z},\\ 1\\le n\\le 10\\}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Vi söker heltal som är jämna och ligger mellan 2 och 20. Ett tydligt sätt är att skriva</p><p><strong>\\(A=\\{x\\mid x\\in\\mathbb{Z},\\ 2\\le x\\le 20\\ \\text{och}\\ x\\ \\text{är jämnt}\\}\\)</strong>.</p><p>Man kan också skriva \\(A=\\{2n\\mid n\\in\\mathbb{Z},\\ 1\\le n\\le 10\\}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
@@ -583,7 +597,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -603,7 +618,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -625,7 +641,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -645,7 +662,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -667,7 +685,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -687,7 +706,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -709,7 +729,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -718,7 +739,7 @@ window.BANKMATF1 = [
     "typ": "tre mängder med villkor",
     "poang": "1/1/0",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>Beskriv med mängdsymboler de element som ligger i både \\(B\\) och \\(C\\), men inte i \\(A\\).</p>",
-    "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området i B och C men inte A är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_13_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_13_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_13_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_13_s_1_Bclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/></g><g clip-path=\"url(#matf1_1_13_s_1_Aclip)\"><g clip-path=\"url(#matf1_1_13_s_1_Bclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"white\"/></g></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>Området ligger i både \\(B\\) och \\(C\\), men den del som också ligger i \\(A\\) ska inte vara med. Därför är området <strong>\\((B\\cap C)\\setminus A\\)</strong>, vilket också kan skrivas <strong>\\(B\\cap C\\cap A^c\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området i B och C men inte A är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_13_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_13_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_13_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_13_s_1_Bclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/></g><g clip-path=\"url(#matf1_1_13_s_1_Aclip)\"><g clip-path=\"url(#matf1_1_13_s_1_Bclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"white\"/></g></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>Området ligger i både \\(B\\) och \\(C\\), men den del som också ligger i \\(A\\) ska inte vara med. Därför är området <strong>\\((B\\cap C)\\setminus A\\)</strong>, vilket också kan skrivas <strong>\\(B\\cap C\\cap A^c\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "1.13",
     "miniräknare": false,
     "geogebra": false,
@@ -729,7 +750,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -750,7 +772,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -770,7 +793,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -779,7 +803,7 @@ window.BANKMATF1 = [
     "typ": "tolka markerat område i Venn-diagram",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där delen i B och C men inte A är markerad\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_46_t_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_46_t_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_46_t_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_46_t_1_Bclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/></g><g clip-path=\"url(#matf1_1_46_t_1_Aclip)\"><g clip-path=\"url(#matf1_1_46_t_1_Bclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"white\"/></g></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>Det markerade området ska beskrivas med mängdsymboler.</p>",
-    "s": "<p>Området ligger samtidigt i \\(B\\) och \\(C\\), men den del som också ligger i \\(A\\) är borttagen. Därför är området</p><p><strong>\\((B\\cap C)\\setminus A\\)</strong>, vilket också kan skrivas \\(B\\cap C\\cap A^c\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Området ligger samtidigt i \\(B\\) och \\(C\\), men den del som också ligger i \\(A\\) är borttagen. Därför är området</p><p><strong>\\((B\\cap C)\\setminus A\\)</strong>, vilket också kan skrivas \\(B\\cap C\\cap A^c\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "1.46",
     "miniräknare": false,
     "geogebra": false,
@@ -791,7 +815,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "spel": false
+    "spel": false,
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -814,7 +839,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -824,7 +850,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "1.115",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><ol type=\"a\"><li>Hur många tillhör \\(A\\cap B\\)?</li><li>Hur många tillhör \\(A\\cup B\\)?</li><li>Hur många tillhör ingen av mängderna?</li></ol>",
-    "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs><clipPath id=\"c115a\"><circle cx=\"170\" cy=\"138\" r=\"86\"/></clipPath></defs><g clip-path=\"url(#c115a)\"><circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#E7B07A\"/></g>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p><strong>a)</strong> I snittet står talet 9, alltså \\(|A\\cap B|=9\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A union B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#E7B07A\"/>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p><strong>b)</strong> Unionen innehåller \\(14+9+11=34\\) elever.</p><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området utanför både A och B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"white\"/><circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p><strong>c)</strong> Utanför båda mängderna ligger \\(40-34=6\\) elever.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs><clipPath id=\"c115a\"><circle cx=\"170\" cy=\"138\" r=\"86\"/></clipPath></defs><g clip-path=\"url(#c115a)\"><circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#E7B07A\"/></g>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p><strong>a)</strong> I snittet står talet 9, alltså \\(|A\\cap B|=9\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A union B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#E7B07A\"/>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p><strong>b)</strong> Unionen innehåller \\(14+9+11=34\\) elever.</p><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området utanför både A och B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"white\"/><circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p><strong>c)</strong> Utanför båda mängderna ligger \\(40-34=6\\) elever.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
@@ -856,19 +882,23 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många tillhör \\(A\\cap B\\)?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>a)</strong>  I snittet står talet 9, alltså \\(|A\\cap B|=9\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>a)</strong>  I snittet står talet 9, alltså \\(|A\\cap B|=9\\).</div>",
+        "niva": "E"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många tillhör \\(A\\cup B\\)?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>b)</strong>  Unionen innehåller \\(14+9+11=34\\) elever.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>b)</strong>  Unionen innehåller \\(14+9+11=34\\) elever.</div>",
+        "niva": "E"
       },
       {
         "etikett": "c",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där antalen 14, 9, 11 och 6 är utsatta\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p>Diagrammet visar hur 40 elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Hur många tillhör ingen av mängderna?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>c)</strong>  Utanför båda mängderna ligger \\(40-34=6\\) elever.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara element som finns i båda mängderna, medan unionen innehåller alla element som finns i minst en av dem. Läs därför varje område i diagrammet utifrån vilket eller vilka cirklar det ligger i.</p><div class=\"spel-en-del\"><strong>c)</strong>  Utanför båda mängderna ligger \\(40-34=6\\) elever.</div>",
+        "niva": "E"
       }
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -890,7 +920,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -899,7 +930,7 @@ window.BANKMATF1 = [
     "typ": "tre mängder med inklusion-exklusion",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram för engelska, spanska och tyska\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">E</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">S</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">T</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>I en grupp på 80 personer talar 42 engelska, 31 spanska och 24 tyska. 15 talar engelska och spanska, 11 engelska och tyska, 8 spanska och tyska och 5 alla tre. Hur många talar minst ett av språken?</p>",
-    "s": "<p>Att tala minst ett av språken betyder att man tillhör unionen \\(E\\cup S\\cup T\\).</p><p>Vi använder därför additionsprincipen för tre mängder:</p><p>\\[|E\\cup S\\cup T|=|E|+|S|+|T|-|E\\cap S|-|E\\cap T|-|S\\cap T|+|E\\cap S\\cap T|.\\]</p><p>Insättning ger</p><p>\\[42+31+24-15-11-8+5=68.\\]</p><p><strong>68 personer talar minst ett av språken.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Att tala minst ett av språken betyder att man tillhör unionen \\(E\\cup S\\cup T\\).</p><p>Vi använder därför additionsprincipen för tre mängder:</p><p>\\[|E\\cup S\\cup T|=|E|+|S|+|T|-|E\\cap S|-|E\\cap T|-|S\\cap T|+|E\\cap S\\cap T|.\\]</p><p>Insättning ger</p><p>\\[42+31+24-15-11-8+5=68.\\]</p><p><strong>68 personer talar minst ett av språken.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "1.147",
     "miniräknare": false,
     "geogebra": false,
@@ -913,7 +944,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -935,7 +967,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -976,19 +1009,23 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Skriv mängden \\(A\\cap B\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>a)</strong>  \\(A\\cap B=\\{5,7\\}\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>a)</strong>  \\(A\\cap B=\\{5,7\\}\\).</div>",
+        "niva": "E"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Skriv mängden \\(A\\setminus B\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>b)</strong>  \\(A\\setminus B=\\{1,3\\}\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>b)</strong>  \\(A\\setminus B=\\{1,3\\}\\).</div>",
+        "niva": "E"
       },
       {
         "etikett": "c",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Skriv mängden \\((A\\cup B)^c\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>c)</strong>  \\((A\\cup B)^c=\\{11\\}\\).</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><div class=\"spel-en-del\"><strong>c)</strong>  \\((A\\cup B)^c=\\{11\\}\\).</div>",
+        "niva": "E"
       }
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1008,7 +1045,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1030,7 +1068,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1050,7 +1089,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1071,7 +1111,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1091,7 +1132,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1114,7 +1156,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1152,14 +1195,19 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Avgör om påståendena är sanna eller falska.</p><div class=\"spel-en-del\">\\(2\\in A\\)</div>",
-        "s": "<p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p><div class=\"spel-en-del\"><strong>Falskt.</strong> Talet 2 är inte ett element i \\(A\\).</div>"
+        "s": "<p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p><div class=\"spel-en-del\"><strong>Falskt.</strong> Talet 2 är inte ett element i \\(A\\).</div>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Låt \\(A=\\{1,\\{2\\},3\\}\\). Avgör om påståendena är sanna eller falska.</p><div class=\"spel-en-del\">\\(\\{2\\}\\in A\\)</div>",
-        "s": "<p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p><div class=\"spel-en-del\"><strong>Sant.</strong> Mängden \\(\\{2\\}\\) är ett element i \\(A\\).</div>"
+        "s": "<p><strong>Metod:</strong> Översätt först operationen: union betyder ”i minst en”, snitt betyder ”i båda” och differens betyder ”i den första men inte i den andra”.</p><div class=\"spel-en-del\"><strong>Sant.</strong> Mängden \\(\\{2\\}\\) är ett element i \\(A\\).</div>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1181,27 +1229,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
-  },
-  {
-    "kap": 1,
-    "omr": "mangder_venn",
-    "niva": "C",
-    "typ": "De Morgans lag i konkret mängd",
-    "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram för mängderna A och B i grundmängden G\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><p>Låt grundmängden vara \\(G=\\{1,2,\\ldots,12\\}\\), \\(A\\) mängden jämna tal och \\(B\\) mängden tal delbara med 3. Bestäm \\((A\\cup B)^c\\) på två sätt och kontrollera De Morgans lag.</p>",
-    "s": "<p>Först bestämmer vi mängderna i grundmängden \\(G=\\{1,2,\\ldots,12\\}\\).</p><p>\\(A\\) är de jämna talen:</p><p>\\[A=\\{2,4,6,8,10,12\\}.\\]</p><p>\\(B\\) är talen som är delbara med 3:</p><p>\\[B=\\{3,6,9,12\\}.\\]</p><p>Då blir</p><p>\\[A\\cup B=\\{2,3,4,6,8,9,10,12\\}.\\]</p><p>Komplementet till unionen är alltså</p><p><strong>\\[(A\\cup B)^c=\\{1,5,7,11\\}.\\]</strong></p><p>Vidare får vi</p><p>\\[A^c=\\{1,3,5,7,9,11\\},\\qquad B^c=\\{1,2,4,5,7,8,10,11\\}.\\]</p><p>Snittet av dessa komplement blir</p><p><strong>\\[A^c\\cap B^c=\\{1,5,7,11\\}.\\]</strong></p><p>Alltså verifieras De Morgans lag:</p><p><strong>\\[(A\\cup B)^c=A^c\\cap B^c.\\]</strong></p>",
-    "id": "1.16",
-    "miniräknare": false,
-    "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "begrepp"
-    ]
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1211,7 +1240,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "1.113",
     "t": "<p>Låt \\(A=\\{1,3,5,7,9\\}\\) och \\(B=\\{3,4,5,6\\}\\). Bestäm</p><ol type=\"a\"><li>\\(A\\cup B\\)</li><li>\\(A\\cap B\\)</li></ol>",
-    "s": "<p><strong>a)</strong> Unionen innehåller alla element som finns i minst en av mängderna:</p><p>\\[A\\cup B=\\{1,3,4,5,6,7,9\\}.\\]</p><p><strong>b)</strong> Snittet innehåller de element som finns i båda mängderna:</p><p>\\[A\\cap B=\\{3,5\\}.\\]</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p><strong>a)</strong> Unionen innehåller alla element som finns i minst en av mängderna:</p><p>\\[A\\cup B=\\{1,3,4,5,6,7,9\\}.\\]</p><p><strong>b)</strong> Snittet innehåller de element som finns i båda mängderna:</p><p>\\[A\\cap B=\\{3,5\\}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
@@ -1239,14 +1268,19 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Låt \\(A=\\{1,3,5,7,9\\}\\) och \\(B=\\{3,4,5,6\\}\\). Bestäm</p><div class=\"spel-en-del\">\\(A\\cup B\\)</div>",
-        "s": "<p><strong><div class=\"spel-en-del\"></div></strong> Unionen innehåller alla element som finns i minst en av mängderna:</p><p>\\[A\\cup B=\\{1,3,4,5,6,7,9\\}.\\]</p><p><strong></strong></p>"
+        "s": "<p><strong><div class=\"spel-en-del\"></div></strong> Unionen innehåller alla element som finns i minst en av mängderna:</p><p>\\[A\\cup B=\\{1,3,4,5,6,7,9\\}.\\]</p><p><strong></strong></p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Låt \\(A=\\{1,3,5,7,9\\}\\) och \\(B=\\{3,4,5,6\\}\\). Bestäm</p><div class=\"spel-en-del\">\\(A\\cap B\\)</div>",
-        "s": "<p><strong><div class=\"spel-en-del\"></div></strong> Snittet innehåller de element som finns i båda mängderna:</p><p>\\[A\\cap B=\\{3,5\\}.\\]</p>"
+        "s": "<p><strong><div class=\"spel-en-del\"></div></strong> Snittet innehåller de element som finns i båda mängderna:</p><p>\\[A\\cap B=\\{3,5\\}.\\]</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1268,7 +1302,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1309,14 +1344,19 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Grundmängden är \\(U=\\{1,2,3,4,5,6,7,8\\}\\) och \\(A=\\{2,4,6,8\\}\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm \\(U\\setminus A\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Ta bort alla element i (A) från grundmängden (U).</p><p><strong>Svar:</strong> (U\\setminus A=\\{1,3,5,7\\}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Ta bort alla element i (A) från grundmängden (U).</p><p><strong>Svar:</strong> (U\\setminus A=\\{1,3,5,7\\}).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Grundmängden är \\(U=\\{1,2,3,4,5,6,7,8\\}\\) och \\(A=\\{2,4,6,8\\}\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm komplementet \\(A^c\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Komplementet (A^c) tas här i förhållande till (U). Det är därför samma mängd som (U\\setminus A).</p><p><strong>Svar:</strong> (A^c=\\{1,3,5,7\\}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Komplementet (A^c) tas här i förhållande till (U). Det är därför samma mängd som (U\\setminus A).</p><p><strong>Svar:</strong> (A^c=\\{1,3,5,7\\}).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1338,7 +1378,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1359,7 +1400,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1368,7 +1410,7 @@ window.BANKMATF1 = [
     "typ": "bevisa mängdidentitet med symmetrisk differens",
     "poang": "0/1/2",
     "t": "<p>Visa med elementmetoden att</p><p>\\[(A\\setminus B)\\cup(B\\setminus A)=(A\\cup B)\\setminus(A\\cap B).\\]</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Välj ett godtyckligt element \\(x\\). Vänsterledet betyder att \\(x\\) ligger i exakt en av \\(A\\) och \\(B\\). Högerledet betyder att \\(x\\) ligger i unionen men inte i snittet, vilket är samma villkor. Därför är mängderna lika.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
+    "s": "<p>Välj ett godtyckligt element \\(x\\). Vänsterledet betyder att \\(x\\) ligger i exakt en av \\(A\\) och \\(B\\). Högerledet betyder att \\(x\\) ligger i unionen men inte i snittet, vilket är samma villkor. Därför är mängderna lika.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
     "id": "1.331",
     "miniräknare": false,
     "geogebra": false,
@@ -1380,7 +1422,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1416,7 +1459,8 @@ window.BANKMATF1 = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1439,29 +1483,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
-  },
-  {
-    "kap": 1,
-    "omr": "mangder_venn",
-    "niva": "A",
-    "typ": "De Morgans lag för tre mängder",
-    "poang": "0/1/3",
-    "t": "<p>Visa att</p><p>\\[(A\\cup B\\cup C)^c=A^c\\cap B^c\\cap C^c\\]</p><p>för alla mängder \\(A\\), \\(B\\) och \\(C\\) i en grundmängd \\(U\\). Motivera med ett elementresonemang och illustrera med Venn-diagram.</p>",
-    "s": "<p><strong>Idé:</strong> Två mängder är lika om varje element i den ena också ligger i den andra, och tvärtom. Vi översätter därför båda sidorna till villkor på ett godtyckligt element \\(u\\in U\\).</p><p><strong>Vänsterledet.</strong> Att \\(u\\in(A\\cup B\\cup C)^c\\) betyder att \\(u\\) <em>inte</em> ligger i unionen. Men unionen består precis av de element som ligger i minst en av mängderna. Att inte ligga i minst en av dem betyder att ligga i ingen av dem:</p><p>\\[u\\notin A\\ \\text{och}\\ u\\notin B\\ \\text{och}\\ u\\notin C.\\]</p><p><strong>Högerledet.</strong> Att \\(u\\in A^c\\cap B^c\\cap C^c\\) betyder att \\(u\\) ligger i alla tre komplementen, alltså exakt samma sak:</p><p>\\[u\\notin A\\ \\text{och}\\ u\\notin B\\ \\text{och}\\ u\\notin C.\\]</p><p>Villkoren är identiska, så ett element ligger i vänsterledet precis när det ligger i högerledet. Därmed är mängderna lika.</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där komplementet till A union B union C är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"m168a_A\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m168a_B\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m168a_C\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"white\"/><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>Det markerade området är \\((A\\cup B\\cup C)^c\\), alltså allt utanför de tre cirklarna.</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A-komplement snitt B-komplement snitt C-komplement är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"m168b_A\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m168b_B\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m168b_C\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"white\"/><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>Det markerade området är \\(A^c\\cap B^c\\cap C^c\\). Diagrammen är identiska, vilket illustrerar likheten.</p><p><strong>Anmärkning:</strong> ett Venn-diagram är en illustration, inte ett bevis. Det är elementresonemanget ovan som utgör beviset.</p>",
-    "id": "1.168",
-    "miniräknare": false,
-    "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "begrepp",
-      "resonemang"
-    ],
-    "spel": false
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1483,7 +1506,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 1,
@@ -1505,7 +1529,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1527,7 +1552,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "spel": false
+    "spel": false,
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1549,7 +1575,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -1571,7 +1598,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1593,7 +1621,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1615,7 +1644,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1637,7 +1667,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1659,7 +1690,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1681,7 +1713,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -1703,7 +1736,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1724,7 +1758,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1747,7 +1782,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1769,7 +1805,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1791,7 +1828,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1814,7 +1852,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1836,7 +1875,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1858,7 +1898,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1880,7 +1921,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1903,7 +1945,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1912,7 +1955,7 @@ window.BANKMATF1 = [
     "typ": "bevisa kardinalitetsidentitet med mängdargument",
     "poang": "0/1/2",
     "t": "<p>Visa för ändliga mängder att</p><p>\\[|A\\setminus B|=|A|-|A\\cap B|.\\]</p>",
-    "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Dela \\(A\\) i de disjunkta delarna \\(A\\setminus B\\) och \\(A\\cap B\\). Då \\(|A|=|A\\setminus B|+|A\\cap B|\\), vilket ger identiteten.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
+    "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p>Dela \\(A\\) i de disjunkta delarna \\(A\\setminus B\\) och \\(A\\cap B\\). Då \\(|A|=|A\\setminus B|+|A\\cap B|\\), vilket ger identiteten.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
     "id": "1.346",
     "miniräknare": false,
     "geogebra": false,
@@ -1924,7 +1967,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1946,7 +1990,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1968,7 +2013,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -1990,7 +2036,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2012,7 +2059,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2051,14 +2099,19 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar hur elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många tillhör \\(A\\cup B\\)?</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  \\(|A\\cup B|=18+7+11=36\\).</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  \\(|A\\cup B|=18+7+11=36\\).</div>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder och antal i varje område\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text><text x=\"284\" y=\"70\" font-size=\"18\">B</text><text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"123\" y=\"136\" font-size=\"18\">18</text><text x=\"206\" y=\"136\" font-size=\"18\">7</text><text x=\"292\" y=\"136\" font-size=\"18\">11</text><text x=\"340\" y=\"214\" font-size=\"18\">4</text>\n</svg></span><p>Diagrammet visar hur elever fördelar sig i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många tillhör exakt en av mängderna?</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> ”Exakt en” betyder att överlappet inte ska räknas alls. Unionen räcker därför inte, eftersom unionen också innehåller dem som tillhör båda mängderna.</p><p class=\"facit-pedagogik\"><strong>Varför snittet tas bort två gånger:</strong> I summan \\(|A|+|B|\\) finns varje element i \\(A\\cap B\\) två gånger. För svaret ”exakt en” ska det finnas 0 gånger. Därför tar man bort båda kopiorna, till exempel \\((|A|-|A\\cap B|)+(|B|-|A\\cap B|)\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll:</strong> Delarna ”endast A” och ”endast B” är disjunkta: ingen kan tillhöra båda. Därför kan dessa två antal adderas utan att något räknas dubbelt.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Exakt en mängd ger \\(18+11=29\\) personer.</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> ”Exakt en” betyder att överlappet inte ska räknas alls. Unionen räcker därför inte, eftersom unionen också innehåller dem som tillhör båda mängderna.</p><p class=\"facit-pedagogik\"><strong>Varför snittet tas bort två gånger:</strong> I summan \\(|A|+|B|\\) finns varje element i \\(A\\cap B\\) två gånger. För svaret ”exakt en” ska det finnas 0 gånger. Därför tar man bort båda kopiorna, till exempel \\((|A|-|A\\cap B|)+(|B|-|A\\cap B|)\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll:</strong> Delarna ”endast A” och ”endast B” är disjunkta: ingen kan tillhöra båda. Därför kan dessa två antal adderas utan att något räknas dubbelt.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Exakt en mängd ger \\(18+11=29\\) personer.</div>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2080,7 +2133,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2102,7 +2156,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2111,7 +2166,7 @@ window.BANKMATF1 = [
     "typ": "bevisa kardinalitetsidentitet med mängdargument",
     "poang": "0/1/2",
     "t": "<p>Visa att \\(|A\\cup B|\\le |A|+|B|\\) för ändliga mängder och bestäm när likhet gäller.</p>",
-    "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Inklusion–exklusion ger \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\). Eftersom snittets storlek är icke-negativ följer olikheten. Likhet gäller precis när \\(|A\\cap B|=0\\), alltså när mängderna är disjunkta.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
+    "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p>Inklusion–exklusion ger \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\). Eftersom snittets storlek är icke-negativ följer olikheten. Likhet gäller precis när \\(|A\\cap B|=0\\), alltså när mängderna är disjunkta.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
     "id": "1.352",
     "miniräknare": false,
     "geogebra": false,
@@ -2123,7 +2178,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2163,14 +2219,19 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder och angivna antal i varje del\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text><text x=\"302\" y=\"56\" font-size=\"17\">B</text><text x=\"210\" y=\"260\" font-size=\"17\">C</text><text x=\"28\" y=\"35\" font-size=\"15\">U = 60</text>\n<text x=\"122\" y=\"116\" font-size=\"16\">12</text><text x=\"286\" y=\"116\" font-size=\"16\">8</text><text x=\"214\" y=\"222\" font-size=\"16\">10</text>\n<text x=\"209\" y=\"92\" font-size=\"16\">5</text><text x=\"168\" y=\"170\" font-size=\"16\">6</text><text x=\"255\" y=\"170\" font-size=\"16\">4</text>\n<text x=\"210\" y=\"142\" font-size=\"16\" font-weight=\"700\">3</text>\n</svg></span><p>Diagrammet visar hur 60 personer fördelar sig i mängderna \\(A\\), \\(B\\) och \\(C\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många tillhör exakt två av mängderna?</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  Exakt två mängder motsvarar de tre parvisa överlappen utan mittenområdet. Antalet är \\(5+6+4=15\\).</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  Exakt två mängder motsvarar de tre parvisa överlappen utan mittenområdet. Antalet är \\(5+6+4=15\\).</div>",
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder och angivna antal i varje del\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text><text x=\"302\" y=\"56\" font-size=\"17\">B</text><text x=\"210\" y=\"260\" font-size=\"17\">C</text><text x=\"28\" y=\"35\" font-size=\"15\">U = 60</text>\n<text x=\"122\" y=\"116\" font-size=\"16\">12</text><text x=\"286\" y=\"116\" font-size=\"16\">8</text><text x=\"214\" y=\"222\" font-size=\"16\">10</text>\n<text x=\"209\" y=\"92\" font-size=\"16\">5</text><text x=\"168\" y=\"170\" font-size=\"16\">6</text><text x=\"255\" y=\"170\" font-size=\"16\">4</text>\n<text x=\"210\" y=\"142\" font-size=\"16\" font-weight=\"700\">3</text>\n</svg></span><p>Diagrammet visar hur 60 personer fördelar sig i mängderna \\(A\\), \\(B\\) och \\(C\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många tillhör ingen av mängderna?</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> De som tillhör ingen mängd är komplementet till unionen. Räkna därför först hur många som ligger i minst en mängd och ta sedan totalen minus detta antal.</p><p class=\"facit-pedagogik\"><strong>Varför man inte bara drar bort grupperna var för sig:</strong> Om man subtraherar \\(|A|\\) och \\(|B|\\) direkt från totalen dras de som ligger i \\(A\\cap B\\) bort två gånger. Unionen måste först räknas med inklusion–exklusion.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Inne i minst en mängd finns \\(12+8+10+5+6+4+3=48\\) personer. Utanför alla tre finns därför \\(60-48=12\\) personer.</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> De som tillhör ingen mängd är komplementet till unionen. Räkna därför först hur många som ligger i minst en mängd och ta sedan totalen minus detta antal.</p><p class=\"facit-pedagogik\"><strong>Varför man inte bara drar bort grupperna var för sig:</strong> Om man subtraherar \\(|A|\\) och \\(|B|\\) direkt från totalen dras de som ligger i \\(A\\cap B\\) bort två gånger. Unionen måste först räknas med inklusion–exklusion.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Inne i minst en mängd finns \\(12+8+10+5+6+4+3=48\\) personer. Utanför alla tre finns därför \\(60-48=12\\) personer.</div>",
+        "niva": "C",
+        "poang": "0/1/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2192,7 +2253,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2214,7 +2276,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2237,7 +2300,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2259,7 +2323,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2281,7 +2346,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2315,7 +2381,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2337,28 +2404,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
-  },
-  {
-    "kap": 1,
-    "omr": "additionsprincipen_mangder",
-    "niva": "A",
-    "typ": "bevisa kardinalitetsidentitet med mängdargument",
-    "poang": "0/1/2",
-    "t": "<p>För en ändlig universalmängd \\(U\\), visa att</p><p>\\[|A^c\\cap B^c|=|U|-|A\\cup B|.\\]</p>",
-    "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>De Morgans lag ger \\(A^c\\cap B^c=(A\\cup B)^c\\). En mängd och dess komplement delar upp \\(U\\), så \\(|(A\\cup B)^c|=|U|-|A\\cup B|\\).</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
-    "id": "1.358",
-    "miniräknare": false,
-    "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "begrepp",
-      "resonemang"
-    ]
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2380,7 +2427,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2402,7 +2450,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2424,7 +2473,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2446,7 +2496,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2469,7 +2520,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2491,7 +2543,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2513,7 +2566,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2536,7 +2590,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2545,7 +2600,7 @@ window.BANKMATF1 = [
     "typ": "bevisa kardinalitetsidentitet med mängdargument",
     "poang": "0/1/2",
     "t": "<p>Visa att antalet element som ligger i exakt en av två ändliga mängder är</p><p>\\[|A|+|B|-2|A\\cap B|.\\]</p>",
-    "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> ”Exakt en” betyder att överlappet inte ska räknas alls. Unionen räcker därför inte, eftersom unionen också innehåller dem som tillhör båda mängderna.</p><p class=\"facit-pedagogik\"><strong>Varför snittet tas bort två gånger:</strong> I summan \\(|A|+|B|\\) finns varje element i \\(A\\cap B\\) två gånger. För svaret ”exakt en” ska det finnas 0 gånger. Därför tar man bort båda kopiorna, till exempel \\((|A|-|A\\cap B|)+(|B|-|A\\cap B|)\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll:</strong> Delarna ”endast A” och ”endast B” är disjunkta: ingen kan tillhöra båda. Därför kan dessa två antal adderas utan att något räknas dubbelt.</p><p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Exakt en betyder \\(A\\setminus B\\) eller \\(B\\setminus A\\). Dessa delar är disjunkta och har storlekar \\(|A|-|A\\cap B|\\) respektive \\(|B|-|A\\cap B|\\). Summan ger formeln.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
+    "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> ”Exakt en” betyder att överlappet inte ska räknas alls. Unionen räcker därför inte, eftersom unionen också innehåller dem som tillhör båda mängderna.</p><p class=\"facit-pedagogik\"><strong>Varför snittet tas bort två gånger:</strong> I summan \\(|A|+|B|\\) finns varje element i \\(A\\cap B\\) två gånger. För svaret ”exakt en” ska det finnas 0 gånger. Därför tar man bort båda kopiorna, till exempel \\((|A|-|A\\cap B|)+(|B|-|A\\cap B|)\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll:</strong> Delarna ”endast A” och ”endast B” är disjunkta: ingen kan tillhöra båda. Därför kan dessa två antal adderas utan att något räknas dubbelt.</p><p>Exakt en betyder \\(A\\setminus B\\) eller \\(B\\setminus A\\). Dessa delar är disjunkta och har storlekar \\(|A|-|A\\cap B|\\) respektive \\(|B|-|A\\cap B|\\). Summan ger formeln.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
     "id": "1.364",
     "miniräknare": false,
     "geogebra": false,
@@ -2557,7 +2612,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2579,7 +2635,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2601,7 +2658,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2623,7 +2681,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2645,7 +2704,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2667,7 +2727,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2690,7 +2751,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2712,7 +2774,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2721,7 +2784,7 @@ window.BANKMATF1 = [
     "typ": "bevisa kardinalitetsidentitet med mängdargument",
     "poang": "0/1/2",
     "t": "<p>Härled inklusion–exklusion för tre ändliga mängder:</p><p>\\[|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|.\\]</p>",
-    "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Räkna först alla tre mängderna. Element i ett parsnitt blir då räknade en gång för mycket och parsnitten subtraheras. Element i trippelsnittet har då tagits bort en gång för mycket, så trippelsnittet adderas tillbaka. Därmed fås formeln.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
+    "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p>Räkna först alla tre mängderna. Element i ett parsnitt blir då räknade en gång för mycket och parsnitten subtraheras. Element i trippelsnittet har då tagits bort en gång för mycket, så trippelsnittet adderas tillbaka. Därmed fås formeln.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
     "id": "1.370",
     "miniräknare": false,
     "geogebra": false,
@@ -2733,7 +2796,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2755,7 +2819,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2777,7 +2842,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2799,7 +2865,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2821,7 +2888,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2843,7 +2911,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2865,7 +2934,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2905,14 +2975,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>På ett evenemang provar 64 personer aktivitet A och 51 personer aktivitet B. 23 provar båda. Totalt deltar 110 personer.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många provar exakt en av aktiviteterna?</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> ”Exakt en” betyder att överlappet inte ska räknas alls. Unionen räcker därför inte, eftersom unionen också innehåller dem som tillhör båda mängderna.</p><p class=\"facit-pedagogik\"><strong>Varför snittet tas bort två gånger:</strong> I summan \\(|A|+|B|\\) finns varje element i \\(A\\cap B\\) två gånger. För svaret ”exakt en” ska det finnas 0 gånger. Därför tar man bort båda kopiorna, till exempel \\((|A|-|A\\cap B|)+(|B|-|A\\cap B|)\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll:</strong> Delarna ”endast A” och ”endast B” är disjunkta: ingen kan tillhöra båda. Därför kan dessa två antal adderas utan att något räknas dubbelt.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  Endast A: \\(64-23=41\\). Endast B: \\(51-23=28\\).</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> ”Exakt en” betyder att överlappet inte ska räknas alls. Unionen räcker därför inte, eftersom unionen också innehåller dem som tillhör båda mängderna.</p><p class=\"facit-pedagogik\"><strong>Varför snittet tas bort två gånger:</strong> I summan \\(|A|+|B|\\) finns varje element i \\(A\\cap B\\) två gånger. För svaret ”exakt en” ska det finnas 0 gånger. Därför tar man bort båda kopiorna, till exempel \\((|A|-|A\\cap B|)+(|B|-|A\\cap B|)\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll:</strong> Delarna ”endast A” och ”endast B” är disjunkta: ingen kan tillhöra båda. Därför kan dessa två antal adderas utan att något räknas dubbelt.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>a)</strong>  Endast A: \\(64-23=41\\). Endast B: \\(51-23=28\\).</div>",
+        "niva": "C"
       },
       {
         "etikett": "b",
         "t": "<p>På ett evenemang provar 64 personer aktivitet A och 51 personer aktivitet B. 23 provar båda. Totalt deltar 110 personer.</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många provar ingen av aktiviteterna?</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> De som tillhör ingen mängd är komplementet till unionen. Räkna därför först hur många som ligger i minst en mängd och ta sedan totalen minus detta antal.</p><p class=\"facit-pedagogik\"><strong>Varför man inte bara drar bort grupperna var för sig:</strong> Om man subtraherar \\(|A|\\) och \\(|B|\\) direkt från totalen dras de som ligger i \\(A\\cap B\\) bort två gånger. Unionen måste först räknas med inklusion–exklusion.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Minst en aktivitet:</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> De som tillhör ingen mängd är komplementet till unionen. Räkna därför först hur många som ligger i minst en mängd och ta sedan totalen minus detta antal.</p><p class=\"facit-pedagogik\"><strong>Varför man inte bara drar bort grupperna var för sig:</strong> Om man subtraherar \\(|A|\\) och \\(|B|\\) direkt från totalen dras de som ligger i \\(A\\cap B\\) bort två gånger. Unionen måste först räknas med inklusion–exklusion.</p><p><strong>Nyckelidé:</strong> När flera mängder överlappar får de gemensamma delarna inte räknas flera gånger. Använd därför inklusion–exklusion: summera mängderna, dra bort parvisa överlapp och lägg tillbaka eventuell trippelöverlapp.</p><div class=\"spel-en-del\"><strong>b)</strong>  Minst en aktivitet:</div>",
+        "niva": "C"
       }
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2934,7 +3007,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2943,7 +3017,7 @@ window.BANKMATF1 = [
     "typ": "bevisa kardinalitetsidentitet med mängdargument",
     "poang": "0/1/2",
     "t": "<p>Visa för ändliga mängder att</p><p>\\[|A\\triangle B|=|A\\cup B|-|A\\cap B|,\\]</p><p>där \\(A\\triangle B\\) är den symmetriska differensen.</p>",
-    "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Unionen är en disjunkt union av \\(A\\triangle B\\) och \\(A\\cap B\\). Alltså \\(|A\\cup B|=|A\\triangle B|+|A\\cap B|\\), och omformning ger resultatet.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
+    "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> När två mängder överlappar är vanlig addition för stor: varje element i \\(A\\cap B\\) finns med en gång via A och en gång via B.</p><p class=\"facit-pedagogik\"><strong>Varför snittet subtraheras en gång:</strong> I \\(|A|+|B|\\) är ett snittelement räknat två gånger, men i unionen ska det räknas en gång. Därför tar vi bort exakt en kopia: \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ett element som bara ligger i A påverkas inte av subtraktionen. Ett element i båda går från två räknade kopior till en. Det är precis den effekt vi behöver.</p><p>Unionen är en disjunkt union av \\(A\\triangle B\\) och \\(A\\cap B\\). Alltså \\(|A\\cup B|=|A\\triangle B|+|A\\cap B|\\), och omformning ger resultatet.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
     "id": "1.376",
     "miniräknare": false,
     "geogebra": false,
@@ -2955,7 +3029,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -2976,7 +3051,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -2997,7 +3073,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3019,7 +3096,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3040,7 +3118,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3062,7 +3141,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3084,7 +3164,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3105,7 +3186,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3127,7 +3209,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3148,7 +3231,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3170,7 +3254,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3191,7 +3276,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -3212,7 +3298,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3233,7 +3320,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3255,7 +3343,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3277,7 +3366,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3298,7 +3388,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3319,7 +3410,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -3341,7 +3433,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3362,7 +3455,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -3383,7 +3477,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -3405,7 +3500,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3426,7 +3522,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -3448,7 +3545,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3469,7 +3567,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3490,7 +3589,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3512,7 +3612,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3533,7 +3634,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -3554,7 +3656,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3576,7 +3679,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3597,7 +3701,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3619,7 +3724,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3641,7 +3747,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3663,7 +3770,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3684,7 +3792,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -3706,7 +3815,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3728,7 +3838,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3750,7 +3861,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3772,7 +3884,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3793,7 +3906,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -3815,7 +3929,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3838,7 +3953,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3860,7 +3976,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3882,7 +3999,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3904,7 +4022,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3927,7 +4046,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3949,7 +4069,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -3972,7 +4093,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -3994,7 +4116,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4016,7 +4139,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -4039,7 +4163,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4061,7 +4186,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4083,7 +4209,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -4106,7 +4233,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4128,7 +4256,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -4151,7 +4280,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -4173,7 +4303,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4195,7 +4326,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -4218,7 +4350,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.229",
@@ -4241,7 +4374,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4263,7 +4397,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -4286,7 +4421,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4306,7 +4442,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 1,
@@ -4327,7 +4464,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4349,7 +4487,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4370,7 +4509,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4391,7 +4531,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4411,7 +4552,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4456,14 +4598,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Av 33 elever ska 9 delta i en aktivitet.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många olika köordningar kan 9 av eleverna bilda?</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Här skiljer ordningen mellan resultaten. Samma objekt i olika positioner eller roller är alltså olika utfall.</p><p class=\"facit-pedagogik\"><strong>Varför permutation/ordnat urval används:</strong> Första platsen kan fyllas på ett visst antal sätt, nästa på färre sätt när återläggning saknas, och så vidare. Multiplikationsprincipen ger produkten. Vi dividerar inte med en fakultet eftersom de olika ordningarna faktiskt ska räknas som olika.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ta ett färdigt ordnat resultat och fråga om det kan skapas via mer än en av de räknade valvägarna. Om varje positionsföljd beskriver exakt ett resultat är räkningen korrekt.</p><p><strong>Nyckelidé:</strong> I en kö spelar ordningen roll, så använd ett ordnat urval.</p><p>[P(33,9)=\\frac{33!}{24!}=13\\,995\\,229\\,248\\,000.]</p><p><strong>Svar:</strong> (13\\,995\\,229\\,248\\,000).</p>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Här skiljer ordningen mellan resultaten. Samma objekt i olika positioner eller roller är alltså olika utfall.</p><p class=\"facit-pedagogik\"><strong>Varför permutation/ordnat urval används:</strong> Första platsen kan fyllas på ett visst antal sätt, nästa på färre sätt när återläggning saknas, och så vidare. Multiplikationsprincipen ger produkten. Vi dividerar inte med en fakultet eftersom de olika ordningarna faktiskt ska räknas som olika.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ta ett färdigt ordnat resultat och fråga om det kan skapas via mer än en av de räknade valvägarna. Om varje positionsföljd beskriver exakt ett resultat är räkningen korrekt.</p><p><strong>Nyckelidé:</strong> I en kö spelar ordningen roll, så använd ett ordnat urval.</p><p>[P(33,9)=\\frac{33!}{24!}=13\\,995\\,229\\,248\\,000.]</p><p><strong>Svar:</strong> (13\\,995\\,229\\,248\\,000).</p>",
+        "niva": "E"
       },
       {
         "etikett": "b",
         "t": "<p>Av 33 elever ska 9 delta i en aktivitet.</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många olika grupper om 9 elever kan väljas om ordningen inte spelar roll?</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Fråga först om ordningen spelar roll. Här är resultatet en grupp eller ett urval: samma valda objekt ger samma resultat oavsett i vilken ordning de råkade väljas.</p><p class=\"facit-pedagogik\"><strong>Varför kombination och inte permutation:</strong> Om vi räknade ett ordnat urval av r objekt skulle varje färdig grupp förekomma r! gånger, en gång för varje intern ordning. Kombinationstalet \\(\\binom{n}{r}\\) har redan dividerat bort just denna dubbelräkning.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Skriv upp en tänkt vald grupp och kontrollera att den motsvarar exakt ett kombinationsval. Om samma grupp kan skapas via flera fall måste fallen göras disjunkta innan de adderas.</p><p><strong>Nyckelidé:</strong> I en grupp spelar ordningen inte roll, så använd en kombination.</p><p>[\\binom{33}{9}=38\\,567\\,100.]</p><p><strong>Svar:</strong> (38\\,567\\,100).</p>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Fråga först om ordningen spelar roll. Här är resultatet en grupp eller ett urval: samma valda objekt ger samma resultat oavsett i vilken ordning de råkade väljas.</p><p class=\"facit-pedagogik\"><strong>Varför kombination och inte permutation:</strong> Om vi räknade ett ordnat urval av r objekt skulle varje färdig grupp förekomma r! gånger, en gång för varje intern ordning. Kombinationstalet \\(\\binom{n}{r}\\) har redan dividerat bort just denna dubbelräkning.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Skriv upp en tänkt vald grupp och kontrollera att den motsvarar exakt ett kombinationsval. Om samma grupp kan skapas via flera fall måste fallen göras disjunkta innan de adderas.</p><p><strong>Nyckelidé:</strong> I en grupp spelar ordningen inte roll, så använd en kombination.</p><p>[\\binom{33}{9}=38\\,567\\,100.]</p><p><strong>Svar:</strong> (38\\,567\\,100).</p>",
+        "niva": "E"
       }
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4483,7 +4628,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4505,7 +4651,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4526,7 +4673,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4547,7 +4695,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4568,7 +4717,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4589,7 +4739,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4612,7 +4763,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4634,7 +4786,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sortera data om median eller kvartiler behövs. Vid normalfördelning standardiserar du eller använder symmetrin kring medelvärdet.</p>"
   },
   {
     "kap": 1,
@@ -4656,7 +4809,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4677,7 +4831,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4698,7 +4853,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4719,7 +4875,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4741,7 +4898,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4762,7 +4920,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4795,7 +4954,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "antal ord",
       "KNOTAF:s nummer"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4817,7 +4977,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4838,7 +4999,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4860,7 +5022,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4881,7 +5044,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4902,7 +5066,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 1,
@@ -4925,7 +5090,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4947,7 +5113,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4968,7 +5135,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -4989,7 +5157,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5009,7 +5178,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5030,7 +5200,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5051,7 +5222,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5073,7 +5245,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5094,7 +5267,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5115,7 +5289,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5137,7 +5312,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 1,
@@ -5158,7 +5334,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5179,7 +5356,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5200,7 +5378,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5223,7 +5402,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 1,
@@ -5244,7 +5424,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5265,7 +5446,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5286,7 +5468,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5307,7 +5490,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5329,7 +5513,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5350,7 +5535,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5372,7 +5558,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5393,7 +5580,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5414,7 +5602,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5447,7 +5636,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5468,7 +5658,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5489,7 +5680,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5510,7 +5702,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5531,7 +5724,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5554,7 +5748,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5575,7 +5770,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5596,7 +5792,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5617,7 +5814,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5638,7 +5836,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5659,7 +5858,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5680,7 +5880,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5701,7 +5902,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5722,7 +5924,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5743,7 +5946,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 1,
@@ -5764,7 +5968,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5785,7 +5990,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5807,7 +6013,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5828,7 +6035,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -5851,7 +6059,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.208",
@@ -5873,7 +6082,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.209",
@@ -5896,7 +6106,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.210",
@@ -5918,7 +6129,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "1.211",
@@ -5940,7 +6152,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "1.212",
@@ -5962,7 +6175,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.213",
@@ -5985,7 +6199,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.214",
@@ -6008,7 +6223,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.215",
@@ -6031,7 +6247,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.216",
@@ -6052,7 +6269,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.217",
@@ -6074,7 +6292,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "id": "1.218",
@@ -6095,7 +6314,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.219",
@@ -6117,7 +6337,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.220",
@@ -6138,7 +6359,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -6161,7 +6383,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.221",
@@ -6183,7 +6406,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.222",
@@ -6205,7 +6429,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.223",
@@ -6227,7 +6452,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.224",
@@ -6249,7 +6475,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.225",
@@ -6271,7 +6498,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.228",
@@ -6293,7 +6521,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.230",
@@ -6315,7 +6544,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.231",
@@ -6337,7 +6567,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.301",
@@ -6358,7 +6589,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "id": "1.302",
@@ -6379,7 +6611,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -6400,7 +6633,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -6421,7 +6655,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -6442,7 +6677,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
   },
   {
     "kap": 1,
@@ -6465,7 +6701,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 1,
@@ -6486,7 +6723,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6508,7 +6746,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6530,7 +6769,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6552,7 +6792,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6574,7 +6815,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6596,7 +6838,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6619,7 +6862,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 1,
@@ -6658,14 +6902,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Utveckla.</p><div class=\"spel-en-del\">\\((2x+x^2)^5\\)</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Se binomet som en produkt av n lika faktorer. För att skapa en viss term väljer vi den andra binomialtermen ur k faktorer och den första ur de återstående n−k.</p><p class=\"facit-pedagogik\"><strong>Varför koefficienten är ett kombinationstal:</strong> Det finns \\(\\binom{n}{k}\\) olika mängder av k faktorpositioner. Alla dessa val ger samma algebraiska term efter multiplikation, så deras bidrag ska adderas. Det är precis därför binomialkoefficienten uppstår.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ordningen i vilken de k positionerna väljs skapar inte en ny produkt. Kombinationstalet räknar varje uppsättning positioner exakt en gång; att dessutom multiplicera med k! skulle räkna samma bidrag flera gånger.</p><p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">Faktorisera gärna \\(x\\): \\((x(2+x))^5=x^5(2+x)^5\\). Det ger <strong>\\(32x^5+80x^6+80x^7+40x^8+10x^9+x^{10}\\)</strong>.</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Se binomet som en produkt av n lika faktorer. För att skapa en viss term väljer vi den andra binomialtermen ur k faktorer och den första ur de återstående n−k.</p><p class=\"facit-pedagogik\"><strong>Varför koefficienten är ett kombinationstal:</strong> Det finns \\(\\binom{n}{k}\\) olika mängder av k faktorpositioner. Alla dessa val ger samma algebraiska term efter multiplikation, så deras bidrag ska adderas. Det är precis därför binomialkoefficienten uppstår.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ordningen i vilken de k positionerna väljs skapar inte en ny produkt. Kombinationstalet räknar varje uppsättning positioner exakt en gång; att dessutom multiplicera med k! skulle räkna samma bidrag flera gånger.</p><p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">Faktorisera gärna \\(x\\): \\((x(2+x))^5=x^5(2+x)^5\\). Det ger <strong>\\(32x^5+80x^6+80x^7+40x^8+10x^9+x^{10}\\)</strong>.</div>",
+        "niva": "C"
       },
       {
         "etikett": "b",
         "t": "<p>Utveckla.</p><div class=\"spel-en-del\">\\((2x-y)^5\\)</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Se binomet som en produkt av n lika faktorer. För att skapa en viss term väljer vi den andra binomialtermen ur k faktorer och den första ur de återstående n−k.</p><p class=\"facit-pedagogik\"><strong>Varför koefficienten är ett kombinationstal:</strong> Det finns \\(\\binom{n}{k}\\) olika mängder av k faktorpositioner. Alla dessa val ger samma algebraiska term efter multiplikation, så deras bidrag ska adderas. Det är precis därför binomialkoefficienten uppstår.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ordningen i vilken de k positionerna väljs skapar inte en ny produkt. Kombinationstalet räknar varje uppsättning positioner exakt en gång; att dessutom multiplicera med k! skulle räkna samma bidrag flera gånger.</p><p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\"><strong>\\(32x^5-80x^4y+80x^3y^2-40x^2y^3+10xy^4-y^5\\)</strong>.</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Se binomet som en produkt av n lika faktorer. För att skapa en viss term väljer vi den andra binomialtermen ur k faktorer och den första ur de återstående n−k.</p><p class=\"facit-pedagogik\"><strong>Varför koefficienten är ett kombinationstal:</strong> Det finns \\(\\binom{n}{k}\\) olika mängder av k faktorpositioner. Alla dessa val ger samma algebraiska term efter multiplikation, så deras bidrag ska adderas. Det är precis därför binomialkoefficienten uppstår.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ordningen i vilken de k positionerna väljs skapar inte en ny produkt. Kombinationstalet räknar varje uppsättning positioner exakt en gång; att dessutom multiplicera med k! skulle räkna samma bidrag flera gånger.</p><p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\"><strong>\\(32x^5-80x^4y+80x^3y^2-40x^2y^3+10xy^4-y^5\\)</strong>.</div>",
+        "niva": "C"
       }
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 1,
@@ -6687,7 +6934,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -6726,14 +6974,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Bestäm koefficienten framför</p><div class=\"spel-en-del\">\\(x^7y^4\\) i \\((x+y)^{11}\\),</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Se binomet som en produkt av n lika faktorer. För att skapa en viss term väljer vi den andra binomialtermen ur k faktorer och den första ur de återstående n−k.</p><p class=\"facit-pedagogik\"><strong>Varför koefficienten är ett kombinationstal:</strong> Det finns \\(\\binom{n}{k}\\) olika mängder av k faktorpositioner. Alla dessa val ger samma algebraiska term efter multiplikation, så deras bidrag ska adderas. Det är precis därför binomialkoefficienten uppstår.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ordningen i vilken de k positionerna väljs skapar inte en ny produkt. Kombinationstalet räknar varje uppsättning positioner exakt en gång; att dessutom multiplicera med k! skulle räkna samma bidrag flera gånger.</p><p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">Koefficienten är <strong>\\(\\binom{11}{4}=330\\)</strong>.</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Se binomet som en produkt av n lika faktorer. För att skapa en viss term väljer vi den andra binomialtermen ur k faktorer och den första ur de återstående n−k.</p><p class=\"facit-pedagogik\"><strong>Varför koefficienten är ett kombinationstal:</strong> Det finns \\(\\binom{n}{k}\\) olika mängder av k faktorpositioner. Alla dessa val ger samma algebraiska term efter multiplikation, så deras bidrag ska adderas. Det är precis därför binomialkoefficienten uppstår.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ordningen i vilken de k positionerna väljs skapar inte en ny produkt. Kombinationstalet räknar varje uppsättning positioner exakt en gång; att dessutom multiplicera med k! skulle räkna samma bidrag flera gånger.</p><p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">Koefficienten är <strong>\\(\\binom{11}{4}=330\\)</strong>.</div>",
+        "niva": "C"
       },
       {
         "etikett": "b",
         "t": "<p>Bestäm koefficienten framför</p><div class=\"spel-en-del\">\\(x^5y^8\\) i \\((2x+y^2)^9\\).</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Se binomet som en produkt av n lika faktorer. För att skapa en viss term väljer vi den andra binomialtermen ur k faktorer och den första ur de återstående n−k.</p><p class=\"facit-pedagogik\"><strong>Varför koefficienten är ett kombinationstal:</strong> Det finns \\(\\binom{n}{k}\\) olika mängder av k faktorpositioner. Alla dessa val ger samma algebraiska term efter multiplikation, så deras bidrag ska adderas. Det är precis därför binomialkoefficienten uppstår.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ordningen i vilken de k positionerna väljs skapar inte en ny produkt. Kombinationstalet räknar varje uppsättning positioner exakt en gång; att dessutom multiplicera med k! skulle räkna samma bidrag flera gånger.</p><p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">För \\(y^8\\) behövs fyra faktorer \\(y^2\\), alltså fem faktorer \\(2x\\). Koefficienten blir <strong>\\(\\binom94 2^5=4032\\)</strong>.</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Se binomet som en produkt av n lika faktorer. För att skapa en viss term väljer vi den andra binomialtermen ur k faktorer och den första ur de återstående n−k.</p><p class=\"facit-pedagogik\"><strong>Varför koefficienten är ett kombinationstal:</strong> Det finns \\(\\binom{n}{k}\\) olika mängder av k faktorpositioner. Alla dessa val ger samma algebraiska term efter multiplikation, så deras bidrag ska adderas. Det är precis därför binomialkoefficienten uppstår.</p><p class=\"facit-pedagogik\"><strong>Kontroll mot dubbelräkning:</strong> Ordningen i vilken de k positionerna väljs skapar inte en ny produkt. Kombinationstalet räknar varje uppsättning positioner exakt en gång; att dessutom multiplicera med k! skulle räkna samma bidrag flera gånger.</p><p><strong>Metod:</strong> Identifiera vilken term i binomialutvecklingen som kan ge den efterfrågade potensen och bestäm sedan koefficienten.</p><div class=\"spel-en-del\">För \\(y^8\\) behövs fyra faktorer \\(y^2\\), alltså fem faktorer \\(2x\\). Koefficienten blir <strong>\\(\\binom94 2^5=4032\\)</strong>.</div>",
+        "niva": "C"
       }
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6754,7 +7005,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6776,7 +7028,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6799,7 +7052,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6821,7 +7075,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6843,7 +7098,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6866,7 +7122,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 1,
@@ -6888,7 +7145,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6910,7 +7168,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -6932,7 +7191,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6953,7 +7213,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6975,7 +7236,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -6997,7 +7259,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7019,7 +7282,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7041,7 +7305,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7064,7 +7329,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7087,7 +7353,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 1,
@@ -7109,7 +7376,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7131,7 +7399,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -7153,7 +7422,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -7174,7 +7444,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7196,7 +7467,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7218,7 +7490,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7240,7 +7513,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7262,7 +7536,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7285,7 +7560,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 1,
@@ -7307,7 +7583,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7329,7 +7606,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -7350,7 +7628,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7371,7 +7650,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7393,7 +7673,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7415,7 +7696,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7438,7 +7720,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7460,7 +7743,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7482,7 +7766,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7505,7 +7790,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 1,
@@ -7527,7 +7813,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7549,7 +7836,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -7571,7 +7859,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7592,7 +7881,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7614,7 +7904,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7635,7 +7926,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 1,
@@ -7657,7 +7949,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7678,7 +7971,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7701,7 +7995,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 1,
@@ -7723,7 +8018,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 1,
@@ -7745,7 +8041,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 1,
@@ -7767,7 +8064,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7788,7 +8086,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7810,7 +8109,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7832,7 +8132,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 1,
@@ -7854,7 +8155,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -7874,7 +8176,7 @@ window.BANKMATF1 = [
       3.766233766233766
     ],
     "tolerans": [
-      5e-05,
+      0.00005,
       0.02
     ],
     "självrättning": [
@@ -7900,14 +8202,17 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>I ett lotteri väljer man 5 olika nummer av 25. Därefter dras 5 vinnarnummer.</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm sannolikheten att få alla 5 rätt.</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Utfallet är ett urval utan återläggning och den slutliga ordningen saknar betydelse. Därför räknas möjliga urval med kombinationstal, inte med ordnade produkter.</p><p class=\"facit-pedagogik\"><strong>Varför täljaren blir en produkt:</strong> För ett bestämt kategoriutfall, exempelvis exakt k objekt av en viss sort, måste vi både välja dessa k och välja resten ur de andra objekten. Varje val i den första kategorin kan kombineras med varje val i den andra, så antalen multipliceras.</p><p class=\"facit-pedagogik\"><strong>Varför ingen extra fakultet:</strong> När de valda objekten är bestämda är urvalet samma oavsett dragningsordning. Kombinationstalen har redan tagit bort alla ordningskopior. En extra r!-faktor skulle därför räkna varje gynnsamt urval flera gånger.</p><p><strong>Nyckelidé:</strong> Det finns (\\binom{25}{5}=53\\,130) lika sannolika femmängder och exakt en av dem ger fem rätt.</p><p>[P(5\\text{ rätt})=\\frac1{53130}\\approx0,00188\\%.]</p><p><strong>Svar:</strong> cirka (0,00188\\%).</p>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Utfallet är ett urval utan återläggning och den slutliga ordningen saknar betydelse. Därför räknas möjliga urval med kombinationstal, inte med ordnade produkter.</p><p class=\"facit-pedagogik\"><strong>Varför täljaren blir en produkt:</strong> För ett bestämt kategoriutfall, exempelvis exakt k objekt av en viss sort, måste vi både välja dessa k och välja resten ur de andra objekten. Varje val i den första kategorin kan kombineras med varje val i den andra, så antalen multipliceras.</p><p class=\"facit-pedagogik\"><strong>Varför ingen extra fakultet:</strong> När de valda objekten är bestämda är urvalet samma oavsett dragningsordning. Kombinationstalen har redan tagit bort alla ordningskopior. En extra r!-faktor skulle därför räkna varje gynnsamt urval flera gånger.</p><p><strong>Nyckelidé:</strong> Det finns (\\binom{25}{5}=53\\,130) lika sannolika femmängder och exakt en av dem ger fem rätt.</p><p>[P(5\\text{ rätt})=\\frac1{53130}\\approx0,00188\\%.]</p><p><strong>Svar:</strong> cirka (0,00188\\%).</p>",
+        "niva": "C"
       },
       {
         "etikett": "b",
         "t": "<p>I ett lotteri väljer man 5 olika nummer av 25. Därefter dras 5 vinnarnummer.</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm sannolikheten att få minst 3 rätt.</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Utfallet är ett urval utan återläggning och den slutliga ordningen saknar betydelse. Därför räknas möjliga urval med kombinationstal, inte med ordnade produkter.</p><p class=\"facit-pedagogik\"><strong>Varför täljaren blir en produkt:</strong> För ett bestämt kategoriutfall, exempelvis exakt k objekt av en viss sort, måste vi både välja dessa k och välja resten ur de andra objekten. Varje val i den första kategorin kan kombineras med varje val i den andra, så antalen multipliceras.</p><p class=\"facit-pedagogik\"><strong>Varför ingen extra fakultet:</strong> När de valda objekten är bestämda är urvalet samma oavsett dragningsordning. Kombinationstalen har redan tagit bort alla ordningskopior. En extra r!-faktor skulle därför räkna varje gynnsamt urval flera gånger.</p><p><strong>Nyckelidé:</strong> Summera sannolikheterna för exakt 3, exakt 4 och exakt 5 rätt.</p><p>[P=\\frac{\\binom53\\binom{20}2+\\binom54\\binom{20}1+\\binom55}{\\binom{25}5}=\\frac{2001}{53130}\\approx0,03766.]</p><p><strong>Svar:</strong> cirka (3,77\\%).</p>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Utfallet är ett urval utan återläggning och den slutliga ordningen saknar betydelse. Därför räknas möjliga urval med kombinationstal, inte med ordnade produkter.</p><p class=\"facit-pedagogik\"><strong>Varför täljaren blir en produkt:</strong> För ett bestämt kategoriutfall, exempelvis exakt k objekt av en viss sort, måste vi både välja dessa k och välja resten ur de andra objekten. Varje val i den första kategorin kan kombineras med varje val i den andra, så antalen multipliceras.</p><p class=\"facit-pedagogik\"><strong>Varför ingen extra fakultet:</strong> När de valda objekten är bestämda är urvalet samma oavsett dragningsordning. Kombinationstalen har redan tagit bort alla ordningskopior. En extra r!-faktor skulle därför räkna varje gynnsamt urval flera gånger.</p><p><strong>Nyckelidé:</strong> Summera sannolikheterna för exakt 3, exakt 4 och exakt 5 rätt.</p><p>[P=\\frac{\\binom53\\binom{20}2+\\binom54\\binom{20}1+\\binom55}{\\binom{25}5}=\\frac{2001}{53130}\\approx0,03766.]</p><p><strong>Svar:</strong> cirka (3,77\\%).</p>",
+        "niva": "C"
       }
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -7929,7 +8234,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 1,
@@ -7953,7 +8259,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -7976,7 +8283,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8000,7 +8308,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8022,7 +8331,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8045,7 +8355,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8067,7 +8378,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8089,7 +8401,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8111,7 +8424,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8133,7 +8447,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 1,
@@ -8155,7 +8470,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8178,7 +8494,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8200,7 +8517,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8222,7 +8540,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8246,7 +8565,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8269,7 +8589,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8291,7 +8612,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8315,7 +8637,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 1,
@@ -8337,7 +8660,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 1,
@@ -8359,7 +8683,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8382,7 +8707,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8404,7 +8730,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8426,7 +8753,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8450,7 +8778,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8473,7 +8802,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8495,7 +8825,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8517,7 +8848,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8556,14 +8888,19 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<span class=\"fig\"><svg width=\"340\" height=\"235\" viewBox=\"0 0 350 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rutnät med tre steg åt höger och två steg uppåt från A till B\">\n<rect width=\"350\" height=\"240\" fill=\"white\"/>\n<g stroke=\"#666\" stroke-width=\"1.5\"><line x1=\"60\" y1=\"45\" x2=\"60\" y2=\"185\"/><line x1=\"130\" y1=\"45\" x2=\"130\" y2=\"185\"/><line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"185\"/><line x1=\"270\" y1=\"45\" x2=\"270\" y2=\"185\"/><line x1=\"60\" y1=\"45\" x2=\"270\" y2=\"45\"/><line x1=\"60\" y1=\"115\" x2=\"270\" y2=\"115\"/><line x1=\"60\" y1=\"185\" x2=\"270\" y2=\"185\"/></g>\n<circle cx=\"60\" cy=\"185\" r=\"5\" fill=\"#222\"/><circle cx=\"270\" cy=\"45\" r=\"5\" fill=\"#222\"/>\n<circle cx=\"200\" cy=\"115\" r=\"4.5\" fill=\"#B23A2E\"/>\n<text x=\"40\" y=\"204\" font-size=\"16\">A</text><text x=\"278\" y=\"41\" font-size=\"16\">B</text>\n<text x=\"208\" y=\"110\" font-size=\"13\" fill=\"#B23A2E\">M</text>\n<text x=\"60\" y=\"225\" font-size=\"14\">endast steg åt höger eller uppåt</text>\n</svg></span><p>Man går från punkt A till punkt B i rutnätet genom att bara gå åt höger eller uppåt.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många kortaste vägar finns det?</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Varje kortaste väg kan kodas som en följd av steg. När antalet steg av varje sort är fixerat bestäms vägen av vilka positioner som får exempelvis uppsteg.</p><p class=\"facit-pedagogik\"><strong>Varför kombinationstal används:</strong> Att välja positionerna för uppstegen är ett oordnat val av positioner. När dessa är valda är resten av stegen automatiskt bestämda. Därför räknas varje väg exakt en gång med ett kombinationstal.</p><p class=\"facit-pedagogik\"><strong>Sannolikhetskontroll:</strong> Om alla kortaste vägar antas lika sannolika måste både gynnsamma vägar och alla vägar räknas med samma kodning. Annars jämför man olika slags utfall.</p><p><strong>Nyckelidé:</strong> Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p><div class=\"spel-en-del\"><strong>a)</strong>  Antalet kortaste vägar är antalet sätt att välja vilka 2 av de 5 stegen som ska vara uppsteg:</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Varje kortaste väg kan kodas som en följd av steg. När antalet steg av varje sort är fixerat bestäms vägen av vilka positioner som får exempelvis uppsteg.</p><p class=\"facit-pedagogik\"><strong>Varför kombinationstal används:</strong> Att välja positionerna för uppstegen är ett oordnat val av positioner. När dessa är valda är resten av stegen automatiskt bestämda. Därför räknas varje väg exakt en gång med ett kombinationstal.</p><p class=\"facit-pedagogik\"><strong>Sannolikhetskontroll:</strong> Om alla kortaste vägar antas lika sannolika måste både gynnsamma vägar och alla vägar räknas med samma kodning. Annars jämför man olika slags utfall.</p><p><strong>Nyckelidé:</strong> Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p><div class=\"spel-en-del\"><strong>a)</strong>  Antalet kortaste vägar är antalet sätt att välja vilka 2 av de 5 stegen som ska vara uppsteg:</div>",
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "b",
         "t": "<span class=\"fig\"><svg width=\"340\" height=\"235\" viewBox=\"0 0 350 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rutnät med tre steg åt höger och två steg uppåt från A till B\">\n<rect width=\"350\" height=\"240\" fill=\"white\"/>\n<g stroke=\"#666\" stroke-width=\"1.5\"><line x1=\"60\" y1=\"45\" x2=\"60\" y2=\"185\"/><line x1=\"130\" y1=\"45\" x2=\"130\" y2=\"185\"/><line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"185\"/><line x1=\"270\" y1=\"45\" x2=\"270\" y2=\"185\"/><line x1=\"60\" y1=\"45\" x2=\"270\" y2=\"45\"/><line x1=\"60\" y1=\"115\" x2=\"270\" y2=\"115\"/><line x1=\"60\" y1=\"185\" x2=\"270\" y2=\"185\"/></g>\n<circle cx=\"60\" cy=\"185\" r=\"5\" fill=\"#222\"/><circle cx=\"270\" cy=\"45\" r=\"5\" fill=\"#222\"/>\n<circle cx=\"200\" cy=\"115\" r=\"4.5\" fill=\"#B23A2E\"/>\n<text x=\"40\" y=\"204\" font-size=\"16\">A</text><text x=\"278\" y=\"41\" font-size=\"16\">B</text>\n<text x=\"208\" y=\"110\" font-size=\"13\" fill=\"#B23A2E\">M</text>\n<text x=\"60\" y=\"225\" font-size=\"14\">endast steg åt höger eller uppåt</text>\n</svg></span><p>Man går från punkt A till punkt B i rutnätet genom att bara gå åt höger eller uppåt.</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många av dessa vägar passerar genom punkten mitt i rutnätet, alltså punkten som ligger 2 steg åt höger och 1 steg upp från A?</div>",
-        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Varje kortaste väg kan kodas som en följd av steg. När antalet steg av varje sort är fixerat bestäms vägen av vilka positioner som får exempelvis uppsteg.</p><p class=\"facit-pedagogik\"><strong>Varför kombinationstal används:</strong> Att välja positionerna för uppstegen är ett oordnat val av positioner. När dessa är valda är resten av stegen automatiskt bestämda. Därför räknas varje väg exakt en gång med ett kombinationstal.</p><p class=\"facit-pedagogik\"><strong>Sannolikhetskontroll:</strong> Om alla kortaste vägar antas lika sannolika måste både gynnsamma vägar och alla vägar räknas med samma kodning. Annars jämför man olika slags utfall.</p><p><strong>Nyckelidé:</strong> Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p><div class=\"spel-en-del\"><strong>b)</strong>  Till mittpunkten krävs 2 höger och 1 upp, alltså \\(\\binom{3}{1}=3\\) vägar. Från mittpunkten till B krävs 1 höger och 1 upp, alltså \\(\\binom{2}{1}=2\\) vägar.</div>"
+        "s": "<p class=\"facit-pedagogik\"><strong>Tänk före du räknar:</strong> Varje kortaste väg kan kodas som en följd av steg. När antalet steg av varje sort är fixerat bestäms vägen av vilka positioner som får exempelvis uppsteg.</p><p class=\"facit-pedagogik\"><strong>Varför kombinationstal används:</strong> Att välja positionerna för uppstegen är ett oordnat val av positioner. När dessa är valda är resten av stegen automatiskt bestämda. Därför räknas varje väg exakt en gång med ett kombinationstal.</p><p class=\"facit-pedagogik\"><strong>Sannolikhetskontroll:</strong> Om alla kortaste vägar antas lika sannolika måste både gynnsamma vägar och alla vägar räknas med samma kodning. Annars jämför man olika slags utfall.</p><p><strong>Nyckelidé:</strong> Räkna först antalet lika sannolika utfall i hela urvalet och därefter antalet gynnsamma utfall. Sannolikheten fås som gynnsamma utfall dividerat med samtliga möjliga utfall.</p><div class=\"spel-en-del\"><strong>b)</strong>  Till mittpunkten krävs 2 höger och 1 upp, alltså \\(\\binom{3}{1}=3\\) vägar. Från mittpunkten till B krävs 1 höger och 1 upp, alltså \\(\\binom{2}{1}=2\\) vägar.</div>",
+        "niva": "C",
+        "poang": "0/1/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8585,7 +8922,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8608,7 +8946,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8631,7 +8970,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8653,7 +8993,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8677,7 +9018,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8700,7 +9042,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8724,7 +9067,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8746,7 +9090,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8768,7 +9113,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8790,7 +9136,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8812,7 +9159,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8835,7 +9183,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8857,7 +9206,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8879,7 +9229,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8902,7 +9253,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8924,7 +9276,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8946,7 +9299,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8968,7 +9322,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "procent"
+    "svarFormat": "procent",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -8990,7 +9345,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -9014,7 +9370,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "procent"
+    "svarFormat": "procent",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -9037,7 +9394,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -9059,7 +9417,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "procent"
+    "svarFormat": "procent",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -9081,7 +9440,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -9104,7 +9464,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -9128,7 +9489,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "procent"
+    "svarFormat": "procent",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -9150,7 +9512,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "1.226",
@@ -9174,7 +9537,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -9196,7 +9560,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "1.227",
@@ -9220,7 +9585,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 1,
@@ -9243,7 +9609,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 2,
@@ -9264,7 +9631,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9286,7 +9654,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9308,7 +9677,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9330,7 +9700,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9352,7 +9723,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9374,7 +9746,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9384,7 +9757,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "2.61",
     "t": "<p>Bestäm \\(\\mathrm{sgd}(84,126)\\).</p>",
-    "s": "<p>Primtalsfaktorisera båda talen:</p><p>\\[84=2^2\\cdot 3\\cdot 7,\\qquad 126=2\\cdot 3^2\\cdot 7.\\]</p><p>Gemensamma faktorer med minsta exponent är \\(2\\), \\(3\\) och \\(7\\).</p><p>\\[\\mathrm{sgd}(84,126)=2\\cdot 3\\cdot 7=42.\\]</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Primtalsfaktorisera båda talen:</p><p>\\[84=2^2\\cdot 3\\cdot 7,\\qquad 126=2\\cdot 3^2\\cdot 7.\\]</p><p>Gemensamma faktorer med minsta exponent är \\(2\\), \\(3\\) och \\(7\\).</p><p>\\[\\mathrm{sgd}(84,126)=2\\cdot 3\\cdot 7=42.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
@@ -9396,7 +9769,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9405,7 +9779,7 @@ window.BANKMATF1 = [
     "typ": "direkt bevis med definitionen av delbarhet",
     "poang": "0/2/0",
     "t": "<p>Visa att om ett heltal \\(n\\) är delbart med 3, så är \\(n^2+3n\\) också delbart med 3.</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Skriv \\(n=3k\\) för något heltal \\(k\\). Då</p><p>\\[n^2+3n=(3k)^2+3(3k)=3\\bigl(3k^2+3k\\bigr).\\]</p><p>Parentesen är ett heltal, alltså är uttrycket delbart med 3.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Skriv \\(n=3k\\) för något heltal \\(k\\). Då</p><p>\\[n^2+3n=(3k)^2+3(3k)=3\\bigl(3k^2+3k\\bigr).\\]</p><p>Parentesen är ett heltal, alltså är uttrycket delbart med 3.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.326",
     "miniräknare": false,
     "geogebra": false,
@@ -9417,7 +9791,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9438,7 +9813,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9447,7 +9823,7 @@ window.BANKMATF1 = [
     "typ": "bevisa egenskap hos SGD med heltalskombination",
     "poang": "0/1/2",
     "t": "<p>Låt \\(d\\) vara ett positivt heltal som delar både 26 och 42. Visa att \\(d\\) även delar deras största gemensamma delare 2, genom att skriva 2 som en heltalskombination av 26 och 42.</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Euklides algoritm baklänges ger en heltalskombination av talen:</p><p>\\[2=-8\\cdot 26+(5)\\cdot 42.\\]</p><p>Eftersom \\(d\\) delar både 26 och 42 delar \\(d\\) varje heltalskombination av dem. Därför \\(d\\mid 2\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Euklides algoritm baklänges ger en heltalskombination av talen:</p><p>\\[2=-8\\cdot 26+(5)\\cdot 42.\\]</p><p>Eftersom \\(d\\) delar både 26 och 42 delar \\(d\\) varje heltalskombination av dem. Därför \\(d\\mid 2\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.327",
     "miniräknare": false,
     "geogebra": false,
@@ -9460,7 +9836,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9469,7 +9846,7 @@ window.BANKMATF1 = [
     "typ": "primtalsfaktorisering",
     "poang": "2/0/0",
     "t": "<p>Primtalsfaktorisera 360.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Primtalsfaktorisering fortsätter tills varje faktor är ett primtal.</p><p>\\[360=36\\cdot10=(2^2\\cdot3^2)(2\\cdot5)=2^3\\cdot3^2\\cdot5.\\]</p><p><strong>Svar:</strong> \\(360=2^3\\cdot3^2\\cdot5\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Primtalsfaktorisering fortsätter tills varje faktor är ett primtal.</p><p>\\[360=36\\cdot10=(2^2\\cdot3^2)(2\\cdot5)=2^3\\cdot3^2\\cdot5.\\]</p><p><strong>Svar:</strong> \\(360=2^3\\cdot3^2\\cdot5\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "id": "2.79",
     "miniräknare": false,
     "geogebra": false,
@@ -9482,7 +9859,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9503,7 +9881,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9525,7 +9904,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9547,7 +9927,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9569,7 +9950,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9578,7 +9960,7 @@ window.BANKMATF1 = [
     "typ": "fördela lika stora paket med sgd",
     "poang": "0/2/0",
     "t": "<p>En förening har 144 vattenflaskor och 216 energibars. Man vill göra så många identiska paket som möjligt utan att något blir över. Hur många paket kan göras och vad innehåller varje paket?</p>",
-    "s": "<p>Antalet paket måste dela både 144 och 216. Det största möjliga antalet är</p><p>\\[\\mathrm{sgd}(144,216)=72.\\]</p><p>Varje paket får då \\(144/72=2\\) flaskor och \\(216/72=3\\) bars.</p><p><strong>72 paket med 2 flaskor och 3 bars i varje.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Antalet paket måste dela både 144 och 216. Det största möjliga antalet är</p><p>\\[\\mathrm{sgd}(144,216)=72.\\]</p><p>Varje paket får då \\(144/72=2\\) flaskor och \\(216/72=3\\) bars.</p><p><strong>72 paket med 2 flaskor och 3 bars i varje.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "id": "2.82",
     "miniräknare": false,
     "geogebra": false,
@@ -9591,7 +9973,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9613,7 +9996,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9635,7 +10019,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9644,7 +10029,7 @@ window.BANKMATF1 = [
     "typ": "direkt bevis med definitionen av delbarhet",
     "poang": "0/2/0",
     "t": "<p>Visa att om ett heltal \\(n\\) är delbart med 5, så är \\(n^2+5n\\) också delbart med 5.</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Skriv \\(n=5k\\) för något heltal \\(k\\). Då</p><p>\\[n^2+5n=(5k)^2+5(5k)=5\\bigl(5k^2+5k\\bigr).\\]</p><p>Parentesen är ett heltal, alltså är uttrycket delbart med 5.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Skriv \\(n=5k\\) för något heltal \\(k\\). Då</p><p>\\[n^2+5n=(5k)^2+5(5k)=5\\bigl(5k^2+5k\\bigr).\\]</p><p>Parentesen är ett heltal, alltså är uttrycket delbart med 5.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.331",
     "miniräknare": false,
     "geogebra": false,
@@ -9656,7 +10041,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9678,7 +10064,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9687,7 +10074,7 @@ window.BANKMATF1 = [
     "typ": "bevisa egenskap hos SGD med heltalskombination",
     "poang": "0/1/2",
     "t": "<p>Låt \\(d\\) vara ett positivt heltal som delar både 36 och 57. Visa att \\(d\\) även delar deras största gemensamma delare 3, genom att skriva 3 som en heltalskombination av 36 och 57.</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Euklides algoritm baklänges ger en heltalskombination av talen:</p><p>\\[3=8\\cdot 36+(-5)\\cdot 57.\\]</p><p>Eftersom \\(d\\) delar både 36 och 57 delar \\(d\\) varje heltalskombination av dem. Därför \\(d\\mid 3\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Euklides algoritm baklänges ger en heltalskombination av talen:</p><p>\\[3=8\\cdot 36+(-5)\\cdot 57.\\]</p><p>Eftersom \\(d\\) delar både 36 och 57 delar \\(d\\) varje heltalskombination av dem. Därför \\(d\\mid 3\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.332",
     "miniräknare": false,
     "geogebra": false,
@@ -9700,7 +10087,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9709,7 +10097,7 @@ window.BANKMATF1 = [
     "typ": "delbarhet med algebra",
     "poang": "0/2/0",
     "t": "<p>Visa att produkten av tre på varandra följande heltal alltid är delbar med 6.</p>",
-    "s": "<p>Bland tre på varandra följande heltal finns alltid ett jämnt tal, alltså en faktor 2. Dessutom finns alltid ett tal delbart med 3, alltså en faktor 3. Produkten innehåller därför faktorn \\(2\\cdot3=6\\) och är delbar med 6.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Bland tre på varandra följande heltal finns alltid ett jämnt tal, alltså en faktor 2. Dessutom finns alltid ett tal delbart med 3, alltså en faktor 3. Produkten innehåller därför faktorn \\(2\\cdot3=6\\) och är delbar med 6.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "id": "2.136",
     "miniräknare": false,
     "geogebra": false,
@@ -9722,7 +10110,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9744,7 +10133,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9765,7 +10155,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9787,7 +10178,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9809,7 +10201,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9831,7 +10224,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9853,7 +10247,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9862,7 +10257,7 @@ window.BANKMATF1 = [
     "typ": "minsta gemensamma multipel",
     "poang": "2/0/0",
     "t": "<p>Bestäm minsta gemensamma multipel till 36 och 84.</p>",
-    "s": "<p>Primtalsfaktorisera:</p><p>\\[36=2^2\\cdot3^2,\\qquad84=2^2\\cdot3\\cdot7.\\]</p><p>För MGM tar vi den högsta förekommande potensen av varje primtal:</p><p>\\[\\mathrm{mgm}(36,84)=2^2\\cdot3^2\\cdot7=252.\\]</p><p><strong>Svar: 252.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Primtalsfaktorisera:</p><p>\\[36=2^2\\cdot3^2,\\qquad84=2^2\\cdot3\\cdot7.\\]</p><p>För MGM tar vi den högsta förekommande potensen av varje primtal:</p><p>\\[\\mathrm{mgm}(36,84)=2^2\\cdot3^2\\cdot7=252.\\]</p><p><strong>Svar: 252.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "id": "2.159",
     "miniräknare": false,
     "geogebra": false,
@@ -9875,7 +10270,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9884,7 +10280,7 @@ window.BANKMATF1 = [
     "typ": "direkt bevis med definitionen av delbarhet",
     "poang": "0/2/0",
     "t": "<p>Visa att om ett heltal \\(n\\) är delbart med 7, så är \\(n^2+7n\\) också delbart med 7.</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Skriv \\(n=7k\\) för något heltal \\(k\\). Då</p><p>\\[n^2+7n=(7k)^2+7(7k)=7\\bigl(7k^2+7k\\bigr).\\]</p><p>Parentesen är ett heltal, alltså är uttrycket delbart med 7.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Skriv \\(n=7k\\) för något heltal \\(k\\). Då</p><p>\\[n^2+7n=(7k)^2+7(7k)=7\\bigl(7k^2+7k\\bigr).\\]</p><p>Parentesen är ett heltal, alltså är uttrycket delbart med 7.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.336",
     "miniräknare": false,
     "geogebra": false,
@@ -9896,7 +10292,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -9905,7 +10302,7 @@ window.BANKMATF1 = [
     "typ": "delbarhetsregler",
     "poang": "3/0/0",
     "t": "<p>Avgör om talet 2772 är delbart med</p><ol type=\"a\"><li>4</li><li>9</li><li>11.</li></ol>",
-    "s": "<p><strong>a)</strong> De två sista siffrorna är 72 och \\(72\\) är delbart med 4. Alltså är 2772 delbart med 4.</p><p><strong>b)</strong> Siffersumman är \\(2+7+7+2=18\\), som är delbar med 9. Alltså är 2772 delbart med 9.</p><p><strong>c)</strong> Den alternerande summan är \\(2-7+7-2=0\\), som är delbar med 11. Alltså är 2772 också delbart med 11.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p><strong>a)</strong> De två sista siffrorna är 72 och \\(72\\) är delbart med 4. Alltså är 2772 delbart med 4.</p><p><strong>b)</strong> Siffersumman är \\(2+7+7+2=18\\), som är delbar med 9. Alltså är 2772 delbart med 9.</p><p><strong>c)</strong> Den alternerande summan är \\(2-7+7-2=0\\), som är delbar med 11. Alltså är 2772 också delbart med 11.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "id": "2.160",
     "miniräknare": false,
     "geogebra": false,
@@ -9938,19 +10335,26 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\"><strong>a)</strong> 4</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>a)</strong>  De två sista siffrorna är 72 och \\(72\\) är delbart med 4. Alltså är 2772 delbart med 4.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>a)</strong>  De två sista siffrorna är 72 och \\(72\\) är delbart med 4. Alltså är 2772 delbart med 4.</div>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\"><strong>b)</strong> 9</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>b)</strong>  Siffersumman är \\(2+7+7+2=18\\), som är delbar med 9. Alltså är 2772 delbart med 9.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>b)</strong>  Siffersumman är \\(2+7+7+2=18\\), som är delbar med 9. Alltså är 2772 delbart med 9.</div>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "t": "<p>Avgör om talet 2772 är delbart med</p><div class=\"spel-en-del\"><strong>c)</strong> 11.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>c)</strong>  Den alternerande summan är \\(2-7+7-2=0\\), som är delbar med 11. Alltså är 2772 också delbart med 11.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><div class=\"spel-en-del\"><strong>c)</strong>  Den alternerande summan är \\(2-7+7-2=0\\), som är delbar med 11. Alltså är 2772 också delbart med 11.</div>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9959,7 +10363,7 @@ window.BANKMATF1 = [
     "typ": "identiska paket med sgd",
     "poang": "2/0/0",
     "t": "<p>Ett lager har 180 röda och 252 blå reflexband. Man vill göra så många <em>identiska</em> paket som möjligt utan att något band blir över.</p><p>Hur många paket kan göras, och hur många band av varje färg ligger i varje paket?</p>",
-    "s": "<p>Antalet paket måste dela både 180 och 252. Det största möjliga antalet är därför</p><p>\\[\\mathrm{sgd}(180,252)=36.\\]</p><p>I varje paket blir det</p><p>\\[180/36=5\\text{ röda},\\qquad252/36=7\\text{ blå}.\\]</p><p><strong>Svar: 36 paket med 5 röda och 7 blå reflexband i varje.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Antalet paket måste dela både 180 och 252. Det största möjliga antalet är därför</p><p>\\[\\mathrm{sgd}(180,252)=36.\\]</p><p>I varje paket blir det</p><p>\\[180/36=5\\text{ röda},\\qquad252/36=7\\text{ blå}.\\]</p><p><strong>Svar: 36 paket med 5 röda och 7 blå reflexband i varje.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "id": "2.161",
     "miniräknare": false,
     "geogebra": false,
@@ -9971,7 +10375,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -9980,7 +10385,7 @@ window.BANKMATF1 = [
     "typ": "bevisa egenskap hos SGD med heltalskombination",
     "poang": "0/1/2",
     "t": "<p>Låt \\(d\\) vara ett positivt heltal som delar både 46 och 72. Visa att \\(d\\) även delar deras största gemensamma delare 2, genom att skriva 2 som en heltalskombination av 46 och 72.</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Euklides algoritm baklänges ger en heltalskombination av talen:</p><p>\\[2=11\\cdot 46+(-7)\\cdot 72.\\]</p><p>Eftersom \\(d\\) delar både 46 och 72 delar \\(d\\) varje heltalskombination av dem. Därför \\(d\\mid 2\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Euklides algoritm baklänges ger en heltalskombination av talen:</p><p>\\[2=11\\cdot 46+(-7)\\cdot 72.\\]</p><p>Eftersom \\(d\\) delar både 46 och 72 delar \\(d\\) varje heltalskombination av dem. Därför \\(d\\mid 2\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.337",
     "miniräknare": false,
     "geogebra": false,
@@ -9993,7 +10398,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -10016,7 +10422,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -10037,7 +10444,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10046,7 +10454,7 @@ window.BANKMATF1 = [
     "typ": "största kvadratiska platta med sgd",
     "poang": "0/2/0",
     "t": "<p>Ett rektangulärt golv är 378 cm långt och 630 cm brett. Golvet ska täckas helt av lika stora kvadratiska plattor utan att plattor behöver kapas.</p><p>Vilken är den största möjliga sidlängden på plattorna?</p>",
-    "s": "<p>Plattans sida måste dela både 378 och 630. Den största möjliga sidan är därför deras största gemensamma delare.</p><p>Med Euklides algoritm:</p><p>\\[630=1\\cdot378+252,\\quad378=1\\cdot252+126,\\quad252=2\\cdot126.\\]</p><p>Alltså är \\(\\mathrm{sgd}(378,630)=126\\).</p><p><strong>Plattorna kan som mest ha sidan 126 cm.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Plattans sida måste dela både 378 och 630. Den största möjliga sidan är därför deras största gemensamma delare.</p><p>Med Euklides algoritm:</p><p>\\[630=1\\cdot378+252,\\quad378=1\\cdot252+126,\\quad252=2\\cdot126.\\]</p><p>Alltså är \\(\\mathrm{sgd}(378,630)=126\\).</p><p><strong>Plattorna kan som mest ha sidan 126 cm.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "id": "2.163",
     "miniräknare": false,
     "geogebra": false,
@@ -10059,7 +10467,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10081,7 +10490,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10103,7 +10513,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10125,7 +10536,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10146,7 +10558,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10155,7 +10568,7 @@ window.BANKMATF1 = [
     "typ": "minsta gemensamma multipel i tidsschema",
     "poang": "0/2/0",
     "t": "<p>Tre busslinjer avgår samtidigt klockan 06.00. De avgår sedan var 18:e, 24:e respektive 30:e minut.</p><p>När avgår alla tre samtidigt nästa gång?</p>",
-    "s": "<p>Vi söker minsta gemensamma multipel av 18, 24 och 30.</p><p>\\[18=2\\cdot3^2,\\quad24=2^3\\cdot3,\\quad30=2\\cdot3\\cdot5.\\]</p><p>\\[\\mathrm{mgm}=2^3\\cdot3^2\\cdot5=360\\text{ minuter}.\\]</p><p>360 minuter är 6 timmar. Sex timmar efter 06.00 är <strong>12.00</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Vi söker minsta gemensamma multipel av 18, 24 och 30.</p><p>\\[18=2\\cdot3^2,\\quad24=2^3\\cdot3,\\quad30=2\\cdot3\\cdot5.\\]</p><p>\\[\\mathrm{mgm}=2^3\\cdot3^2\\cdot5=360\\text{ minuter}.\\]</p><p>360 minuter är 6 timmar. Sex timmar efter 06.00 är <strong>12.00</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "id": "2.208",
     "miniräknare": false,
     "geogebra": false,
@@ -10168,7 +10581,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10177,7 +10591,7 @@ window.BANKMATF1 = [
     "typ": "direkt bevis med definitionen av delbarhet",
     "poang": "0/1/2",
     "t": "<p>Visa att om ett heltal \\(n\\) är delbart med 11, så är \\(n^2+11n\\) också delbart med 11.</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Skriv \\(n=11k\\) för något heltal \\(k\\). Då</p><p>\\[n^2+11n=(11k)^2+11(11k)=11\\bigl(11k^2+11k\\bigr).\\]</p><p>Parentesen är ett heltal, alltså är uttrycket delbart med 11.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Skriv \\(n=11k\\) för något heltal \\(k\\). Då</p><p>\\[n^2+11n=(11k)^2+11(11k)=11\\bigl(11k^2+11k\\bigr).\\]</p><p>Parentesen är ett heltal, alltså är uttrycket delbart med 11.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.341",
     "miniräknare": false,
     "geogebra": false,
@@ -10189,7 +10603,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "2.209",
@@ -10211,7 +10626,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10220,7 +10636,7 @@ window.BANKMATF1 = [
     "typ": "bevisa egenskap hos SGD med heltalskombination",
     "poang": "0/1/2",
     "t": "<p>Låt \\(d\\) vara ett positivt heltal som delar både 56 och 87. Visa att \\(d\\) även delar deras största gemensamma delare 1, genom att skriva 1 som en heltalskombination av 56 och 87.</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Euklides algoritm baklänges ger en heltalskombination av talen:</p><p>\\[1=14\\cdot 56+(-9)\\cdot 87.\\]</p><p>Eftersom \\(d\\) delar både 56 och 87 delar \\(d\\) varje heltalskombination av dem. Därför \\(d\\mid 1\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Euklides algoritm baklänges ger en heltalskombination av talen:</p><p>\\[1=14\\cdot 56+(-9)\\cdot 87.\\]</p><p>Eftersom \\(d\\) delar både 56 och 87 delar \\(d\\) varje heltalskombination av dem. Därför \\(d\\mid 1\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.342",
     "miniräknare": false,
     "geogebra": false,
@@ -10233,7 +10649,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "2.210",
@@ -10243,7 +10660,7 @@ window.BANKMATF1 = [
     "typ": "största gemensamma delare med primtalsfaktorisering",
     "poang": "2/0/0",
     "t": "<p>Bestäm \\(\\mathrm{{sgd}}(672,840)\\).</p>",
-    "s": "<p>Primtalsfaktorisera båda talen:</p><p>\\[672=2^5\\cdot3\\cdot7,\\qquad 840=2^3\\cdot3\\cdot5\\cdot7.\\]</p><p>Den största gemensamma delaren fås av de gemensamma primtalen med minsta exponent:</p><p>\\[\\mathrm{{sgd}}(672,840)=2^3\\cdot3\\cdot7=168.\\]</p><p><strong>Svar: \\(\\mathrm{{sgd}}(672,840)=168\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Primtalsfaktorisera båda talen:</p><p>\\[672=2^5\\cdot3\\cdot7,\\qquad 840=2^3\\cdot3\\cdot5\\cdot7.\\]</p><p>Den största gemensamma delaren fås av de gemensamma primtalen med minsta exponent:</p><p>\\[\\mathrm{{sgd}}(672,840)=2^3\\cdot3\\cdot7=168.\\]</p><p><strong>Svar: \\(\\mathrm{{sgd}}(672,840)=168\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
@@ -10255,7 +10672,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10276,7 +10694,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "id": "2.211",
@@ -10286,7 +10705,7 @@ window.BANKMATF1 = [
     "typ": "minsta gemensamma multipel med primtalsfaktorisering",
     "poang": "2/0/0",
     "t": "<p>Bestäm minsta gemensamma multipel till \\(45\\) och \\(72\\).</p>",
-    "s": "<p>Primtalsfaktorisera:</p><p>\\[45=3^2\\cdot5,\\qquad 72=2^3\\cdot3^2.\\]</p><p>För minsta gemensamma multipel tar vi med alla primtal med största exponent:</p><p>\\[\\mathrm{{mgm}}(45,72)=2^3\\cdot3^2\\cdot5=360.\\]</p><p><strong>Svar: minsta gemensamma multipel är \\(360\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Primtalsfaktorisera:</p><p>\\[45=3^2\\cdot5,\\qquad 72=2^3\\cdot3^2.\\]</p><p>För minsta gemensamma multipel tar vi med alla primtal med största exponent:</p><p>\\[\\mathrm{{mgm}}(45,72)=2^3\\cdot3^2\\cdot5=360.\\]</p><p><strong>Svar: minsta gemensamma multipel är \\(360\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
@@ -10298,7 +10717,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "id": "2.212",
@@ -10308,7 +10728,7 @@ window.BANKMATF1 = [
     "typ": "Euklides algoritm",
     "poang": "2/0/0",
     "t": "<p>Använd Euklides algoritm för att bestämma \\(\\mathrm{{sgd}}(714,546)\\).</p>",
-    "s": "<p>Använd divisionsalgoritmen steg för steg:</p><p>\\[714=546\\cdot1+168\\]</p><p>\\[546=168\\cdot3+42\\]</p><p>\\[168=42\\cdot4+0\\]</p><p>När resten blir 0 är den sista positiva resten största gemensamma delaren.</p><p><strong>Svar: \\(\\mathrm{{sgd}}(714,546)=42\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Använd divisionsalgoritmen steg för steg:</p><p>\\[714=546\\cdot1+168\\]</p><p>\\[546=168\\cdot3+42\\]</p><p>\\[168=42\\cdot4+0\\]</p><p>När resten blir 0 är den sista positiva resten största gemensamma delaren.</p><p><strong>Svar: \\(\\mathrm{{sgd}}(714,546)=42\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
@@ -10320,7 +10740,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10342,7 +10763,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "id": "2.213",
@@ -10352,7 +10774,7 @@ window.BANKMATF1 = [
     "typ": "minsta faktor för delbarhet",
     "poang": "0/2/0",
     "t": "<p>Bestäm det minsta positiva heltalet \\(k\\) så att \\(90k\\) blir delbart med \\(168\\).</p>",
-    "s": "<p>Primtalsfaktorisera:</p><p>\\[90=2\\cdot3^2\\cdot5,\\qquad 168=2^3\\cdot3\\cdot7.\\]</p><p>För att \\(90k\\) ska vara delbart med \\(168\\) måste produkten innehålla minst faktorerna \\(2^3\\), \\(3\\) och \\(7\\).</p><p>Talet 90 innehåller redan \\(2\\) och \\(3^2\\), men saknar två extra tvåor och en sjua.</p><p>Alltså räcker</p><p>\\[k=2^2\\cdot7=28.\\]</p><p><strong>Svar: \\(k=28\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Primtalsfaktorisera:</p><p>\\[90=2\\cdot3^2\\cdot5,\\qquad 168=2^3\\cdot3\\cdot7.\\]</p><p>För att \\(90k\\) ska vara delbart med \\(168\\) måste produkten innehålla minst faktorerna \\(2^3\\), \\(3\\) och \\(7\\).</p><p>Talet 90 innehåller redan \\(2\\) och \\(3^2\\), men saknar två extra tvåor och en sjua.</p><p>Alltså räcker</p><p>\\[k=2^2\\cdot7=28.\\]</p><p><strong>Svar: \\(k=28\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
@@ -10365,7 +10787,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -10387,7 +10810,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "id": "2.214",
@@ -10408,7 +10832,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 2,
@@ -10417,7 +10842,7 @@ window.BANKMATF1 = [
     "typ": "bevisa invarians av SGD under addition",
     "poang": "0/1/2",
     "t": "<p>Visa att \\(\\operatorname{SGD}(a,b)=\\operatorname{SGD}(a,a+b)\\) för positiva heltal \\(a,b\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>En gemensam delare till \\(a\\) och \\(b\\) delar även \\(a+b\\). Omvänt: en gemensam delare till \\(a\\) och \\(a+b\\) delar också \\((a+b)-a=b\\). De två paren har alltså exakt samma gemensamma delare och därför samma största gemensamma delare.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>En gemensam delare till \\(a\\) och \\(b\\) delar även \\(a+b\\). Omvänt: en gemensam delare till \\(a\\) och \\(a+b\\) delar också \\((a+b)-a=b\\). De två paren har alltså exakt samma gemensamma delare och därför samma största gemensamma delare.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.346",
     "miniräknare": false,
     "geogebra": false,
@@ -10429,7 +10854,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "2.215",
@@ -10439,7 +10865,7 @@ window.BANKMATF1 = [
     "typ": "minsta gemensamma multipel i tidsschema",
     "poang": "0/2/0",
     "t": "<p>Tre sprinklers startar samtidigt. De går sedan igång var 14:e, 18:e respektive 24:e minut.</p><p>Efter hur lång tid går alla tre igång samtidigt nästa gång?</p>",
-    "s": "<p>Vi söker minsta gemensamma multipel till \\(14\\), \\(18\\) och \\(24\\).</p><p>Primtalsfaktorisera:</p><p>\\[14=2\\cdot7,\\qquad 18=2\\cdot3^2,\\qquad 24=2^3\\cdot3.\\]</p><p>Ta alla primtal med största exponent:</p><p>\\[\\mathrm{{mgm}}(14,18,24)=2^3\\cdot3^2\\cdot7=504.\\]</p><p><strong>Svar: de går igång samtidigt nästa gång efter \\(504\\) minuter, alltså efter \\(8\\) timmar och \\(24\\) minuter.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Vi söker minsta gemensamma multipel till \\(14\\), \\(18\\) och \\(24\\).</p><p>Primtalsfaktorisera:</p><p>\\[14=2\\cdot7,\\qquad 18=2\\cdot3^2,\\qquad 24=2^3\\cdot3.\\]</p><p>Ta alla primtal med största exponent:</p><p>\\[\\mathrm{{mgm}}(14,18,24)=2^3\\cdot3^2\\cdot7=504.\\]</p><p><strong>Svar: de går igång samtidigt nästa gång efter \\(504\\) minuter, alltså efter \\(8\\) timmar och \\(24\\) minuter.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
@@ -10451,7 +10877,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10460,7 +10887,7 @@ window.BANKMATF1 = [
     "typ": "bevisa egenskap hos SGD med heltalskombination",
     "poang": "0/1/2",
     "t": "<p>Låt \\(d\\) vara ett positivt heltal som delar både 66 och 102. Visa att \\(d\\) även delar deras största gemensamma delare 6, genom att skriva 6 som en heltalskombination av 66 och 102.</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Euklides algoritm baklänges ger en heltalskombination av talen:</p><p>\\[6=-3\\cdot 66+(2)\\cdot 102.\\]</p><p>Eftersom \\(d\\) delar både 66 och 102 delar \\(d\\) varje heltalskombination av dem. Därför \\(d\\mid 6\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Euklides algoritm baklänges ger en heltalskombination av talen:</p><p>\\[6=-3\\cdot 66+(2)\\cdot 102.\\]</p><p>Eftersom \\(d\\) delar både 66 och 102 delar \\(d\\) varje heltalskombination av dem. Därför \\(d\\mid 6\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.347",
     "miniräknare": false,
     "geogebra": false,
@@ -10473,7 +10900,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "2.216",
@@ -10483,7 +10911,7 @@ window.BANKMATF1 = [
     "typ": "antal positiva delare",
     "poang": "0/2/0",
     "t": "<p>Hur många positiva delare har talet \\(900\\)?</p>",
-    "s": "<p>Primtalsfaktorisera:</p><p>\\[900=9\\cdot100=3^2\\cdot2^2\\cdot5^2=2^2\\cdot3^2\\cdot5^2.\\]</p><p>En positiv delare kan då skrivas som \\(2^a3^b5^c\\), där</p><p>\\[a,b,c\\in\\{0,1,2\\}.\\]</p><p>Det finns alltså 3 val för \\(a\\), 3 val för \\(b\\) och 3 val för \\(c\\).</p><p>Med multiplikationsprincipen fås</p><p>\\[3\\cdot3\\cdot3=27.\\]</p><p><strong>Svar: talet \\(900\\) har \\(27\\) positiva delare.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Primtalsfaktorisera:</p><p>\\[900=9\\cdot100=3^2\\cdot2^2\\cdot5^2=2^2\\cdot3^2\\cdot5^2.\\]</p><p>En positiv delare kan då skrivas som \\(2^a3^b5^c\\), där</p><p>\\[a,b,c\\in\\{0,1,2\\}.\\]</p><p>Det finns alltså 3 val för \\(a\\), 3 val för \\(b\\) och 3 val för \\(c\\).</p><p>Med multiplikationsprincipen fås</p><p>\\[3\\cdot3\\cdot3=27.\\]</p><p><strong>Svar: talet \\(900\\) har \\(27\\) positiva delare.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
@@ -10495,7 +10923,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "id": "2.217",
@@ -10516,7 +10945,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -10537,7 +10967,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "id": "2.218",
@@ -10547,7 +10978,7 @@ window.BANKMATF1 = [
     "typ": "största möjlig brickstorlek i kontext",
     "poang": "0/2/0",
     "t": "<p>Ett golv är 504 cm långt och 378 cm brett. Det ska täckas med lika stora kvadratiska plattor utan att någon platta kapas.</p><p>Bestäm den största möjliga sidlängden hos plattorna och hur många plattor som behövs.</p>",
-    "s": "<p>Plattans sidlängd måste dela både 504 och 378. Den största möjliga sidlängden är därför</p><p>\\[\\mathrm{{sgd}}(504,378).\\]</p><p>Med Euklides algoritm:</p><p>\\[504=378+126,\\qquad 378=3\\cdot126.\\]</p><p>Alltså är \\(\\mathrm{{sgd}}(504,378)=126\\).</p><p>Varje platta blir alltså \\(126\\) cm \\(\\times\\) \\(126\\) cm.</p><p>Antalet plattor blir</p><p>\\[\\frac{504}{126}\\cdot\\frac{378}{126}=4\\cdot3=12.\\]</p><p><strong>Svar: sidlängden ska vara \\(126\\) cm och det behövs \\(12\\) plattor.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Plattans sidlängd måste dela både 504 och 378. Den största möjliga sidlängden är därför</p><p>\\[\\mathrm{{sgd}}(504,378).\\]</p><p>Med Euklides algoritm:</p><p>\\[504=378+126,\\qquad 378=3\\cdot126.\\]</p><p>Alltså är \\(\\mathrm{{sgd}}(504,378)=126\\).</p><p>Varje platta blir alltså \\(126\\) cm \\(\\times\\) \\(126\\) cm.</p><p>Antalet plattor blir</p><p>\\[\\frac{504}{126}\\cdot\\frac{378}{126}=4\\cdot3=12.\\]</p><p><strong>Svar: sidlängden ska vara \\(126\\) cm och det behövs \\(12\\) plattor.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
@@ -10558,7 +10989,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10580,7 +11012,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -10600,7 +11033,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10609,7 +11043,7 @@ window.BANKMATF1 = [
     "typ": "omvandla från bas 10 till annan bas",
     "poang": "2/0/0",
     "t": "<p>Skriv talet \\(91_{10}\\) i bas 4.</p>",
-    "s": "<p><strong>Idé:</strong> Skriv 91 som en summa av potenser av 4.</p><p>\\[91=1\\cdot4^3+1\\cdot4^2+2\\cdot4+3.\\]</p><p>Koefficienterna framför \\(4^3,4^2,4^1,4^0\\) är alltså 1, 1, 2 och 3. Därför är <strong>\\(91_{10}=1123_4\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> Skriv 91 som en summa av potenser av 4.</p><p>\\[91=1\\cdot4^3+1\\cdot4^2+2\\cdot4+3.\\]</p><p>Koefficienterna framför \\(4^3,4^2,4^1,4^0\\) är alltså 1, 1, 2 och 3. Därför är <strong>\\(91_{10}=1123_4\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "2.34",
     "miniräknare": false,
     "geogebra": false,
@@ -10622,7 +11056,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10643,7 +11078,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10665,7 +11101,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10687,7 +11124,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10709,7 +11147,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10731,7 +11170,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10752,7 +11192,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10772,7 +11213,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10794,7 +11236,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10815,7 +11258,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10837,7 +11281,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10859,7 +11304,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10881,7 +11327,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10903,7 +11350,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10924,7 +11372,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10944,7 +11393,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10966,7 +11416,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -10987,7 +11438,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11007,7 +11459,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 2,
@@ -11029,7 +11482,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11051,7 +11505,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11060,7 +11515,7 @@ window.BANKMATF1 = [
     "typ": "bas sex till bas tio",
     "poang": "2/0/0",
     "t": "<p>Omvandla \\(351_6\\) till bas tio.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> I bas 6 har positionerna från höger platsvärdena \\(6^0,6^1,6^2,\\ldots\\).</p><p>Därför betyder \\(351_6\\)</p><p>\\[3\\cdot6^2+5\\cdot6+1=3\\cdot36+30+1=139.\\]</p><p><strong>Svar:</strong> \\(351_6=139_{10}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> I bas 6 har positionerna från höger platsvärdena \\(6^0,6^1,6^2,\\ldots\\).</p><p>Därför betyder \\(351_6\\)</p><p>\\[3\\cdot6^2+5\\cdot6+1=3\\cdot36+30+1=139.\\]</p><p><strong>Svar:</strong> \\(351_6=139_{10}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "2.116",
     "miniräknare": false,
     "geogebra": false,
@@ -11073,7 +11528,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11094,7 +11550,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11118,7 +11575,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11138,7 +11596,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11159,7 +11618,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11181,7 +11641,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11203,7 +11664,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11224,7 +11686,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 2,
@@ -11246,7 +11709,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11267,7 +11731,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11291,7 +11756,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11311,7 +11777,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11332,7 +11799,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11354,7 +11822,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11376,7 +11845,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11398,7 +11868,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11420,7 +11891,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11441,7 +11913,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11463,7 +11936,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11483,7 +11957,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11505,7 +11980,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11526,7 +12002,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11548,7 +12025,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11570,7 +12048,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11592,7 +12071,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11601,7 +12081,7 @@ window.BANKMATF1 = [
     "typ": "addition i bas fem",
     "poang": "0/2/0",
     "t": "<p>Beräkna \\(2431_5+1324_5\\) och skriv svaret i bas 5.</p>",
-    "s": "<p>Räkna från höger och växla när en kolumn når 5:</p><p>Ental: \\(1+4=5=10_5\\): skriv 0 och minnessiffra 1.</p><p>Femtal: \\(3+2+1=6=11_5\\): skriv 1 och minnessiffra 1.</p><p>\\(25\\)-tal: \\(4+3+1=8=13_5\\): skriv 3 och minnessiffra 1.</p><p>\\(125\\)-tal: \\(2+1+1=4\\).</p><p>Alltså</p><p><strong>\\[2431_5+1324_5=4310_5.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Räkna från höger och växla när en kolumn når 5:</p><p>Ental: \\(1+4=5=10_5\\): skriv 0 och minnessiffra 1.</p><p>Femtal: \\(3+2+1=6=11_5\\): skriv 1 och minnessiffra 1.</p><p>\\(25\\)-tal: \\(4+3+1=8=13_5\\): skriv 3 och minnessiffra 1.</p><p>\\(125\\)-tal: \\(2+1+1=4\\).</p><p>Alltså</p><p><strong>\\[2431_5+1324_5=4310_5.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "2.170",
     "miniräknare": false,
     "geogebra": false,
@@ -11612,7 +12092,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 2,
@@ -11633,7 +12114,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11653,7 +12135,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11677,7 +12160,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11698,7 +12182,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11720,7 +12205,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11729,7 +12215,7 @@ window.BANKMATF1 = [
     "typ": "bestäm okänd bas",
     "poang": "0/2/0",
     "t": "<p>Talet \\(132_b\\) är lika med \\(56_{10}\\). Bestäm basen \\(b\\).</p>",
-    "s": "<p>I bas \\(b\\) betyder talet</p><p>\\[132_b=b^2+3b+2.\\]</p><p>Alltså</p><p>\\[b^2+3b+2=56\\Rightarrow b^2+3b-54=0.\\]</p><p>Faktorisera:</p><p>\\[(b-6)(b+9)=0.\\]</p><p>En talbas måste vara positiv och större än den största siffran 3. Därför är <strong>\\(b=6\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>I bas \\(b\\) betyder talet</p><p>\\[132_b=b^2+3b+2.\\]</p><p>Alltså</p><p>\\[b^2+3b+2=56\\Rightarrow b^2+3b-54=0.\\]</p><p>Faktorisera:</p><p>\\[(b-6)(b+9)=0.\\]</p><p>En talbas måste vara positiv och större än den största siffran 3. Därför är <strong>\\(b=6\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "2.172",
     "miniräknare": false,
     "geogebra": false,
@@ -11744,7 +12230,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11766,7 +12253,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11788,7 +12276,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11809,7 +12298,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11829,7 +12319,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11849,7 +12340,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11870,7 +12362,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11892,7 +12385,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -11914,7 +12408,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11936,7 +12431,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -11958,7 +12454,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -11979,7 +12476,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -12001,7 +12499,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12023,7 +12522,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12045,7 +12545,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12067,7 +12568,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12087,7 +12589,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12096,7 +12599,7 @@ window.BANKMATF1 = [
     "typ": "bevisa universell delbarhet med kongruensresonemang",
     "poang": "0/1/2",
     "t": "<p>Visa med kongruenser att \\(n(n-1)(n+1)\\) är delbart med 6 för varje heltal \\(n\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>De tre faktorerna är tre på varandra följande heltal. Ett av dem är delbart med 3 och minst ett är jämnt. Produkten innehåller därför både faktorn 2 och faktorn 3, alltså faktorn 6.</p><p>Med kongruenser kan man formulera det som att bland \\(n-1,n,n+1\\) förekommer en rest 0 modulo 3 och minst en rest 0 modulo 2. Därför \\(n(n-1)(n+1)\\equiv0\\pmod6\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>De tre faktorerna är tre på varandra följande heltal. Ett av dem är delbart med 3 och minst ett är jämnt. Produkten innehåller därför både faktorn 2 och faktorn 3, alltså faktorn 6.</p><p>Med kongruenser kan man formulera det som att bland \\(n-1,n,n+1\\) förekommer en rest 0 modulo 3 och minst en rest 0 modulo 2. Därför \\(n(n-1)(n+1)\\equiv0\\pmod6\\).</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.390",
     "miniräknare": false,
     "geogebra": false,
@@ -12109,7 +12612,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -12130,7 +12634,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12152,7 +12657,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12172,7 +12678,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12194,7 +12701,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -12215,7 +12723,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -12235,7 +12744,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -12257,7 +12767,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -12279,7 +12790,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12301,7 +12813,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12356,24 +12869,33 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(21+15+38\\pmod5\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Ersätt varje term med dess rest modulo 5.</p><p>[21+15+38\\equiv1+0+3=4\\pmod5.]</p><p><strong>Svar:</strong> 4.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Ersätt varje term med dess rest modulo 5.</p><p>[21+15+38\\equiv1+0+3=4\\pmod5.]</p><p><strong>Svar:</strong> 4.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(13\\cdot11\\pmod5\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Reducera faktorerna före multiplikationen.</p><p>[13\\cdot11\\equiv3\\cdot1=3\\pmod5.]</p><p><strong>Svar:</strong> 3.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Reducera faktorerna före multiplikationen.</p><p>[13\\cdot11\\equiv3\\cdot1=3\\pmod5.]</p><p><strong>Svar:</strong> 3.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(2^{30}\\pmod3\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Modulo 3 är (2\\equiv-1). En jämn exponent ger därför resten 1.</p><p>[2^{30}\\equiv(-1)^{30}=1\\pmod3.]</p><p><strong>Svar:</strong> 1.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Modulo 3 är (2\\equiv-1). En jämn exponent ger därför resten 1.</p><p>[2^{30}\\equiv(-1)^{30}=1\\pmod3.]</p><p><strong>Svar:</strong> 1.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "d",
         "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(2^{30}\\pmod5\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Potenserna av 2 upprepas med period 4 modulo 5 eftersom (2^4\\equiv1).</p><p>[30=7\\cdot4+2,\\qquad 2^{30}\\equiv2^2=4\\pmod5.]</p><p><strong>Svar:</strong> 4.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Potenserna av 2 upprepas med period 4 modulo 5 eftersom (2^4\\equiv1).</p><p>[30=7\\cdot4+2,\\qquad 2^{30}\\equiv2^2=4\\pmod5.]</p><p><strong>Svar:</strong> 4.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 2,
@@ -12395,7 +12917,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12417,7 +12940,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12426,7 +12950,7 @@ window.BANKMATF1 = [
     "typ": "stor veckodagsberäkning modulo 7",
     "poang": "0/2/0",
     "t": "<p>Idag är det fredag. Vilken veckodag är det om \\(3^{20}+5\\cdot10^4\\) dagar?</p>",
-    "s": "<p>Modulo 7: \\(3^6\\equiv1\\), så \\(3^{20}=3^{18}3^2\\equiv9\\equiv2\\). Dessutom \\(10\\equiv3\\), så \\(10^4\\equiv3^4=81\\equiv4\\). Då är \\(5\\cdot10^4\\equiv20\\equiv6\\). Totalt \\(2+6=8\\equiv1\\pmod7\\). En dag efter fredag är <strong>lördag</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Modulo 7: \\(3^6\\equiv1\\), så \\(3^{20}=3^{18}3^2\\equiv9\\equiv2\\). Dessutom \\(10\\equiv3\\), så \\(10^4\\equiv3^4=81\\equiv4\\). Då är \\(5\\cdot10^4\\equiv20\\equiv6\\). Totalt \\(2+6=8\\equiv1\\pmod7\\). En dag efter fredag är <strong>lördag</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "2.31",
     "miniräknare": false,
     "geogebra": false,
@@ -12439,7 +12963,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12448,7 +12973,7 @@ window.BANKMATF1 = [
     "typ": "bevisa universell delbarhet med kongruenser",
     "poang": "0/1/2",
     "t": "<p>Visa att \\(n^{5}-n\\) är delbart med 5 för varje heltal \\(n\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Om \\(5\\mid n\\) är påståendet direkt. Annars ger Fermats lilla sats \\(n^{4}\\equiv1\\pmod{5}\\). Multiplikation med \\(n\\) ger \\(n^{5}\\equiv n\\pmod{5}\\). Alltså är \\(n^{5}-n\\) delbart med 5.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Om \\(5\\mid n\\) är påståendet direkt. Annars ger Fermats lilla sats \\(n^{4}\\equiv1\\pmod{5}\\). Multiplikation med \\(n\\) ger \\(n^{5}\\equiv n\\pmod{5}\\). Alltså är \\(n^{5}-n\\) delbart med 5.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.394",
     "miniräknare": false,
     "geogebra": false,
@@ -12460,7 +12985,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -12483,7 +13009,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12507,7 +13034,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12529,7 +13057,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12551,7 +13080,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -12573,7 +13103,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12595,7 +13126,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12617,7 +13149,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -12640,7 +13173,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -12663,7 +13197,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -12686,7 +13221,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12708,7 +13244,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12730,7 +13267,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -12752,7 +13290,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -12761,7 +13300,7 @@ window.BANKMATF1 = [
     "typ": "bevisa universell delbarhet med kongruenser",
     "poang": "0/1/2",
     "t": "<p>Visa att \\(n^{7}-n\\) är delbart med 7 för varje heltal \\(n\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Om \\(7\\mid n\\) är påståendet direkt. Annars ger Fermats lilla sats \\(n^{6}\\equiv1\\pmod{7}\\). Multiplikation med \\(n\\) ger \\(n^{7}\\equiv n\\pmod{7}\\). Alltså är \\(n^{7}-n\\) delbart med 7.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Om \\(7\\mid n\\) är påståendet direkt. Annars ger Fermats lilla sats \\(n^{6}\\equiv1\\pmod{7}\\). Multiplikation med \\(n\\) ger \\(n^{7}\\equiv n\\pmod{7}\\). Alltså är \\(n^{7}-n\\) delbart med 7.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.398",
     "miniräknare": false,
     "geogebra": false,
@@ -12773,7 +13312,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -12795,7 +13335,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 2,
@@ -12817,7 +13358,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12840,7 +13382,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12862,7 +13405,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -12884,7 +13428,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12906,7 +13451,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 2,
@@ -12928,7 +13474,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -12950,7 +13497,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12972,7 +13520,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -12994,7 +13543,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 2,
@@ -13016,7 +13566,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -13038,7 +13589,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 2,
@@ -13060,7 +13612,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -13069,7 +13622,7 @@ window.BANKMATF1 = [
     "typ": "bevisa universell delbarhet med kongruenser",
     "poang": "0/1/2",
     "t": "<p>Visa att \\(n^{11}-n\\) är delbart med 11 för varje heltal \\(n\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>Om \\(11\\mid n\\) är påståendet direkt. Annars ger Fermats lilla sats \\(n^{10}\\equiv1\\pmod{11}\\). Multiplikation med \\(n\\) ger \\(n^{11}\\equiv n\\pmod{11}\\). Alltså är \\(n^{11}-n\\) delbart med 11.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
+    "s": "<p>Om \\(11\\mid n\\) är påståendet direkt. Annars ger Fermats lilla sats \\(n^{10}\\equiv1\\pmod{11}\\). Multiplikation med \\(n\\) ger \\(n^{11}\\equiv n\\pmod{11}\\). Alltså är \\(n^{11}-n\\) delbart med 11.</p><p><strong>Slutsats:</strong> Kongruensen eller faktoriseringen visar att resten är 0, vilket är precis det delbarhetspåstående som skulle visas.</p>",
     "id": "2.402",
     "miniräknare": false,
     "geogebra": false,
@@ -13081,7 +13634,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -13103,7 +13657,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -13112,7 +13667,7 @@ window.BANKMATF1 = [
     "typ": "sista två siffror med potenscykel",
     "poang": "0/2/0",
     "t": "<p>Bestäm de två sista siffrorna i \\(3^{20}\\).</p>",
-    "s": "<p>De två sista siffrorna bestäms av resten modulo 100. Vi kan kvadrera stegvis:</p><p>\\[3^4=81\\pmod{100}.\\]</p><p>\\[3^{10}=59049\\equiv49\\pmod{100}.\\]</p><p>Därför</p><p>\\[3^{20}\\equiv49^2=2401\\equiv1\\pmod{100}.\\]</p><p><strong>De två sista siffrorna är 01.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>De två sista siffrorna bestäms av resten modulo 100. Vi kan kvadrera stegvis:</p><p>\\[3^4=81\\pmod{100}.\\]</p><p>\\[3^{10}=59049\\equiv49\\pmod{100}.\\]</p><p>Därför</p><p>\\[3^{20}\\equiv49^2=2401\\equiv1\\pmod{100}.\\]</p><p><strong>De två sista siffrorna är 01.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
     "id": "2.200",
     "miniräknare": false,
     "geogebra": false,
@@ -13126,7 +13681,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 2,
@@ -13146,7 +13702,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -13168,7 +13725,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -13188,7 +13746,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -13208,7 +13767,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -13230,7 +13790,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -13251,7 +13812,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13271,7 +13833,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13293,7 +13856,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13314,7 +13878,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13335,7 +13900,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13357,7 +13923,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13379,7 +13946,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13388,7 +13956,7 @@ window.BANKMATF1 = [
     "typ": "bevisa summaidentitet med sigmanotation",
     "poang": "0/1/2",
     "t": "<p>Visa att</p><p>\\[\\sum_{k=1}^{12}(2k-1)=12^2.\\]</p><p>Förklara dessutom varför samma identitet gäller för godtyckligt positivt heltal \\(n\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja från definitionerna och de givna antagandena. Gör varje algebraisk eller logisk omskrivning motiverad och avsluta med exakt det påstående som skulle visas.</p><p>För det givna värdet kan summan beräknas direkt, men den generella strukturen är viktigare:</p><p>\\[\\sum_{k=1}^n(2k-1)=2\\sum_{k=1}^n k-\\sum_{k=1}^n1=2\\cdot\\frac{n(n+1)}2-n=n^2.\\]</p><p>Alltså gäller identiteten för varje positivt heltal \\(n\\), och särskilt för \\(n=12\\).</p><p><strong>Slutsats:</strong> Efter förenklingen får vi högerledet i den givna identiteten, så formeln gäller.</p>",
+    "s": "<p>För det givna värdet kan summan beräknas direkt, men den generella strukturen är viktigare:</p><p>\\[\\sum_{k=1}^n(2k-1)=2\\sum_{k=1}^n k-\\sum_{k=1}^n1=2\\cdot\\frac{n(n+1)}2-n=n^2.\\]</p><p>Alltså gäller identiteten för varje positivt heltal \\(n\\), och särskilt för \\(n=12\\).</p><p><strong>Slutsats:</strong> Efter förenklingen får vi högerledet i den givna identiteten, så formeln gäller.</p>",
     "id": "2.409",
     "miniräknare": false,
     "geogebra": false,
@@ -13400,7 +13968,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -13420,7 +13989,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13441,7 +14011,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13450,7 +14021,7 @@ window.BANKMATF1 = [
     "typ": "hitta explicit formel ur differensmönster",
     "poang": "0/2/0",
     "t": "<p>Talföljden börjar</p><p>\\[2,\\ 5,\\ 10,\\ 17,\\ 26,\\ldots\\]</p><ol type=\"a\"><li>Bestäm en explicit formel för \\(a_n\\).</li><li>Bestäm \\(a_{20}\\).</li></ol>",
-    "s": "<p>Differenserna är \\(3,5,7,9,\\ldots\\), alltså de udda talen från 3 och framåt. Det stämmer med följden \\(n^2+1\\):</p><p>\\[1^2+1=2,\\quad 2^2+1=5,\\quad 3^2+1=10.\\]</p><p>Alltså <strong>\\(a_n=n^2+1\\)</strong> och <strong>\\(a_{20}=401\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p>Differenserna är \\(3,5,7,9,\\ldots\\), alltså de udda talen från 3 och framåt. Det stämmer med följden \\(n^2+1\\):</p><p>\\[1^2+1=2,\\quad 2^2+1=5,\\quad 3^2+1=10.\\]</p><p>Alltså <strong>\\(a_n=n^2+1\\)</strong> och <strong>\\(a_{20}=401\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
     "id": "2.55",
     "miniräknare": false,
     "geogebra": false,
@@ -13463,7 +14034,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13485,7 +14057,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13506,7 +14079,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13527,7 +14101,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13549,7 +14124,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13569,7 +14145,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13590,7 +14167,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -13612,7 +14190,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13633,7 +14212,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13642,7 +14222,7 @@ window.BANKMATF1 = [
     "typ": "explicit formel från andradifferenser",
     "poang": "0/2/0",
     "t": "<p>Talföljden är \\(3,8,15,24,35,\\ldots\\). Bestäm en explicit formel för \\(a_n\\).</p>",
-    "s": "<p>Differenserna är \\(5,7,9,11,\\ldots\\), alltså udda tal som ökar med 2. Det tyder på en kvadratisk formel. Testa \\(n^2+2n\\):</p><p>\\[1^2+2=3,\\quad2^2+4=8,\\quad3^2+6=15.\\]</p><p>Alltså <strong>\\(a_n=n^2+2n\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p>Differenserna är \\(5,7,9,11,\\ldots\\), alltså udda tal som ökar med 2. Det tyder på en kvadratisk formel. Testa \\(n^2+2n\\):</p><p>\\[1^2+2=3,\\quad2^2+4=8,\\quad3^2+6=15.\\]</p><p>Alltså <strong>\\(a_n=n^2+2n\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
     "id": "2.98",
     "miniräknare": false,
     "geogebra": false,
@@ -13656,7 +14236,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13678,7 +14259,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13699,7 +14281,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13721,7 +14304,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13743,7 +14327,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13766,7 +14351,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13787,7 +14373,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -13808,7 +14395,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13829,7 +14417,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13850,7 +14439,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13872,7 +14462,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13893,7 +14484,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13914,7 +14506,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13936,7 +14529,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13957,7 +14551,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -13978,7 +14573,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -14000,7 +14596,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14021,7 +14618,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14030,7 +14628,7 @@ window.BANKMATF1 = [
     "typ": "ändra index",
     "poang": "2/0/0",
     "t": "<p>Beräkna \\(\\sum_{k=3}^{7}k\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Sigma-notationen betyder att alla heltal från startindex 3 till slutindex 7 ska adderas.</p><p>\\[\\sum_{k=3}^{7}k=3+4+5+6+7=25.\\]</p><p><strong>Svar:</strong> 25.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Sigma-notationen betyder att alla heltal från startindex 3 till slutindex 7 ska adderas.</p><p>\\[\\sum_{k=3}^{7}k=3+4+5+6+7=25.\\]</p><p><strong>Svar:</strong> 25.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
     "id": "2.128",
     "miniräknare": false,
     "geogebra": false,
@@ -14044,7 +14642,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14066,7 +14665,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14087,7 +14687,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14109,7 +14710,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14131,7 +14733,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14153,7 +14756,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14174,7 +14778,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -14196,7 +14801,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14217,7 +14823,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14239,7 +14846,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14261,7 +14869,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14282,7 +14891,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14303,7 +14913,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14325,7 +14936,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14346,7 +14958,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14367,7 +14980,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -14390,7 +15004,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14411,7 +15026,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14427,13 +15043,14 @@ window.BANKMATF1 = [
     "familj": "Talföljder och sigmanotation",
     "svarstyp": "numeriskt",
     "rättSvar": 0.9523809523809523,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14453,7 +15070,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14474,7 +15092,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14496,7 +15115,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -14518,7 +15138,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14539,7 +15160,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14560,7 +15182,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14581,7 +15204,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14626,14 +15250,19 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Talföljden \\(1,3,9,\\ldots,19683\\) innehåller 10 termer.</p><div class=\"spel-en-del\"><strong>a)</strong> Ange en formel för den \\(n\\):te termen.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Följden är geometrisk med första termen (a_1=1) och kvoten (q=3).</p><p>[a_n=a_1q^{n-1}=3^{n-1}.]</p><p><strong>Svar:</strong> (a_n=3^{n-1}).</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Följden är geometrisk med första termen (a_1=1) och kvoten (q=3).</p><p>[a_n=a_1q^{n-1}=3^{n-1}.]</p><p><strong>Svar:</strong> (a_n=3^{n-1}).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Talföljden \\(1,3,9,\\ldots,19683\\) innehåller 10 termer.</p><div class=\"spel-en-del\"><strong>b)</strong> Beräkna summan av de 10 termerna.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Använd summan av de första (n) termerna i en geometrisk talföljd.</p><p>[S_{10}=\\frac{1(3^{10}-1)}{3-1}=29\\,524.]</p><p><strong>Svar:</strong> 29 524.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Använd summan av de första (n) termerna i en geometrisk talföljd.</p><p>[S_{10}=\\frac{1(3^{10}-1)}{3-1}=29\\,524.]</p><p><strong>Svar:</strong> 29 524.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14655,7 +15284,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 2,
@@ -14677,7 +15307,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14731,14 +15362,19 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>En aritmetisk talföljd har 10 termer. De två första är 4 och 11.</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm de två sista termerna.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Differensen är (d=11-4=7). Den n:te termen är (a_n=4+(n-1)7).</p><p>[a_9=60,\\qquad a_{10}=67.]</p><p><strong>Svar:</strong> 60 och 67.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Differensen är (d=11-4=7). Den n:te termen är (a_n=4+(n-1)7).</p><p>[a_9=60,\\qquad a_{10}=67.]</p><p><strong>Svar:</strong> 60 och 67.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>En aritmetisk talföljd har 10 termer. De två första är 4 och 11.</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm summan av alla termer.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> För en aritmetisk summa kan första och sista termen paras ihop.</p><p>Den sista termen är (a_{10}=67), så</p><p>[S_{10}=\\frac{10(4+67)}2=355.]</p><p><strong>Svar:</strong> 355.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> För en aritmetisk summa kan första och sista termen paras ihop.</p><p>Den sista termen är (a_{10}=67), så</p><p>[S_{10}=\\frac{10(4+67)}2=355.]</p><p><strong>Svar:</strong> 355.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14760,7 +15396,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 2,
@@ -14781,7 +15418,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14805,7 +15443,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14827,7 +15466,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14848,7 +15488,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14869,7 +15510,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14891,7 +15533,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14912,7 +15555,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14934,7 +15578,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14956,7 +15601,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -14978,7 +15624,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15000,7 +15647,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 2,
@@ -15021,7 +15669,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15045,7 +15694,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15054,7 +15704,7 @@ window.BANKMATF1 = [
     "typ": "bestäm antal termer från summa",
     "poang": "0/2/0",
     "t": "<p>En aritmetisk talföljd har första termen 7 och differensen 4. Summan av de första \\(n\\) termerna är 462. Bestäm \\(n\\).</p>",
-    "s": "<p>Formeln för summan är</p><p>\\[S_n=\\frac n2\\bigl(2a_1+(n-1)d\\bigr).\\]</p><p>Med \\(a_1=7\\), \\(d=4\\) och \\(S_n=462\\) får vi</p><p>\\[462=\\frac n2(14+4n-4)=n(2n+5).\\]</p><p>Alltså</p><p>\\[2n^2+5n-462=0=(n-14)(2n+33).\\]</p><p>Antalet termer måste vara positivt, så <strong>\\(n=14\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p>Formeln för summan är</p><p>\\[S_n=\\frac n2\\bigl(2a_1+(n-1)d\\bigr).\\]</p><p>Med \\(a_1=7\\), \\(d=4\\) och \\(S_n=462\\) får vi</p><p>\\[462=\\frac n2(14+4n-4)=n(2n+5).\\]</p><p>Alltså</p><p>\\[2n^2+5n-462=0=(n-14)(2n+33).\\]</p><p>Antalet termer måste vara positivt, så <strong>\\(n=14\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
     "id": "2.101",
     "miniräknare": false,
     "geogebra": false,
@@ -15068,7 +15718,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15077,7 +15728,7 @@ window.BANKMATF1 = [
     "typ": "bestäm första term från senare term",
     "poang": "2/0/0",
     "t": "<p>I en aritmetisk talföljd är \\(a_{10}=47\\) och differensen är 5. Bestäm \\(a_1\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Från första termen till den tionde görs nio steg med differensen 5. Använd därför \\(a_n=a_1+(n-1)d\\).</p><p>\\[47=a_1+9\\cdot5=a_1+45\\]</p><p>så</p><p>\\[a_1=2.\\]</p><p><strong>Svar:</strong> Första termen är 2.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Från första termen till den tionde görs nio steg med differensen 5. Använd därför \\(a_n=a_1+(n-1)d\\).</p><p>\\[47=a_1+9\\cdot5=a_1+45\\]</p><p>så</p><p>\\[a_1=2.\\]</p><p><strong>Svar:</strong> Första termen är 2.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
     "id": "2.124",
     "miniräknare": false,
     "geogebra": false,
@@ -15091,7 +15742,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15112,7 +15764,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15134,7 +15787,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15155,7 +15809,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15178,7 +15833,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15200,7 +15856,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15222,7 +15879,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15244,7 +15902,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 2,
@@ -15266,7 +15925,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15288,7 +15948,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15312,7 +15973,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15334,7 +15996,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15355,7 +16018,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15377,7 +16041,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15398,7 +16063,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15420,7 +16086,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15429,7 +16096,7 @@ window.BANKMATF1 = [
     "typ": "upprepad procentuell minskning",
     "poang": "0/2/0",
     "t": "<span class=\"fig\"><svg width=\"440\" height=\"285\" viewBox=\"0 0 450 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Maskinens värde år för år med en streckad linje vid 100 000 kronor\">\n<rect width=\"450\" height=\"290\" fill=\"white\"/>\n<text x=\"42\" y=\"34\" font-size=\"13\" fill=\"#777\">Värde (tusen kr)</text>\n<text x=\"425\" y=\"34\" font-size=\"12.5\" fill=\"#B23A2E\" text-anchor=\"end\">streckad linje: 100 000 kr</text>\n<rect x=\"72\" y=\"62.0\" width=\"40\" height=\"176.0\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"1.5\"/><text x=\"92\" y=\"54.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">240</text><text x=\"92\" y=\"257\" font-size=\"13\" text-anchor=\"middle\">0</text><rect x=\"128\" y=\"93.7\" width=\"40\" height=\"144.3\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"1.5\"/><text x=\"148\" y=\"85.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">197</text><text x=\"148\" y=\"257\" font-size=\"13\" text-anchor=\"middle\">1</text><rect x=\"184\" y=\"119.7\" width=\"40\" height=\"118.3\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"1.5\"/><text x=\"204\" y=\"111.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">161</text><text x=\"204\" y=\"257\" font-size=\"13\" text-anchor=\"middle\">2</text><rect x=\"240\" y=\"141.0\" width=\"40\" height=\"97.0\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"1.5\"/><text x=\"260\" y=\"133.0\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">132</text><text x=\"260\" y=\"257\" font-size=\"13\" text-anchor=\"middle\">3</text><rect x=\"296\" y=\"158.4\" width=\"40\" height=\"79.6\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"1.5\"/><text x=\"316\" y=\"150.4\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">109</text><text x=\"316\" y=\"257\" font-size=\"13\" text-anchor=\"middle\">4</text><rect x=\"352\" y=\"172.7\" width=\"40\" height=\"65.3\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"1.5\"/><text x=\"372\" y=\"164.7\" font-size=\"12\" text-anchor=\"middle\" fill=\"#333\">89</text><text x=\"372\" y=\"257\" font-size=\"13\" text-anchor=\"middle\">5</text>\n<line x1=\"55\" y1=\"238\" x2=\"425\" y2=\"238\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"55\" y1=\"164.7\" x2=\"425\" y2=\"164.7\" stroke=\"#B23A2E\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/>\n<text x=\"55\" y=\"278\" font-size=\"13\" fill=\"#777\">Antal år</text>\n</svg></span><p>En maskin är värd 240 000 kr. Värdet minskar med 18 % per år. Efter hur många hela år är värdet för första gången under 100 000 kr?</p>",
-    "s": "<p>Efter \\(n\\) år är värdet</p><p>\\[V_n=240000\\cdot0,82^n.\\]</p><p>Vi söker minsta heltal \\(n\\) som uppfyller</p><p>\\[240000\\cdot0,82^n\\lt100000.\\]</p><p>Logaritmer ger \\(n\\gt4,42\\). Minsta hela antal år är därför <strong>5 år</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Efter \\(n\\) år är värdet</p><p>\\[V_n=240000\\cdot0,82^n.\\]</p><p>Vi söker minsta heltal \\(n\\) som uppfyller</p><p>\\[240000\\cdot0,82^n\\lt100000.\\]</p><p>Logaritmer ger \\(n\\gt4,42\\). Minsta hela antal år är därför <strong>5 år</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
     "id": "2.104",
     "miniräknare": true,
     "geogebra": true,
@@ -15443,7 +16110,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 2,
@@ -15465,7 +16133,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15487,7 +16156,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15509,7 +16179,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 2,
@@ -15531,7 +16202,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15555,7 +16227,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15577,7 +16250,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15598,7 +16272,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15620,7 +16295,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15642,7 +16318,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15663,7 +16340,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15685,7 +16363,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15707,7 +16386,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15729,7 +16409,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15751,7 +16432,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 2,
@@ -15771,7 +16453,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15795,7 +16478,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15804,7 +16488,7 @@ window.BANKMATF1 = [
     "typ": "sittplatser i växande rader",
     "poang": "0/2/0",
     "t": "<p>En läktare har 25 rader. Första raden har 18 platser och varje ny rad har 2 platser fler än föregående rad.</p><p>Hur många sittplatser finns totalt?</p>",
-    "s": "<p>Antalet platser per rad bildar en aritmetisk följd med \\(a_1=18\\), \\(d=2\\).</p><p>Sista raden har</p><p>\\[a_{25}=18+24\\cdot2=66.\\]</p><p>Totalt:</p><p>\\[S_{25}=\\frac{25(18+66)}2=25\\cdot42=1050.\\]</p><p><strong>Svar: 1050 platser.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p>Antalet platser per rad bildar en aritmetisk följd med \\(a_1=18\\), \\(d=2\\).</p><p>Sista raden har</p><p>\\[a_{25}=18+24\\cdot2=66.\\]</p><p>Totalt:</p><p>\\[S_{25}=\\frac{25(18+66)}2=25\\cdot42=1050.\\]</p><p><strong>Svar: 1050 platser.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
     "id": "2.186",
     "miniräknare": false,
     "geogebra": false,
@@ -15816,7 +16500,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15837,7 +16522,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15858,7 +16544,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15881,7 +16568,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15902,7 +16590,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15923,7 +16612,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15944,7 +16634,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15966,7 +16657,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -15989,7 +16681,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16011,7 +16704,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16032,7 +16726,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16041,7 +16736,7 @@ window.BANKMATF1 = [
     "typ": "sluten formel för linjär rekursion med konstant tillskott",
     "poang": "0/0/2",
     "t": "<p>En population beskrivs rekursivt av \\(a_0=12000\\) och \\(a_{n+1}=0,78a_n+2400\\). Bestäm en explicit formel för \\(a_n\\) och populationens gränsvärde.</p>",
-    "s": "<p>Jämviktsvärdet \\(L\\) uppfyller \\(L=0,78L+2400\\), så \\(L=2400/0,22=\\frac{120000}{11}\\). Sätt \\(b_n=a_n-L\\). Då \\(b_{n+1}=0,78b_n\\), så</p><p><strong>\\[a_n=L+(12000-L)0,78^n.\\]</strong></p><p>Alltså \\(a_n\\to L\\approx\\mathbf{10\\,909}\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>Jämviktsvärdet \\(L\\) uppfyller \\(L=0,78L+2400\\), så \\(L=2400/0,22=\\frac{120000}{11}\\). Sätt \\(b_n=a_n-L\\). Då \\(b_{n+1}=0,78b_n\\), så</p><p><strong>\\[a_n=L+(12000-L)0,78^n.\\]</strong></p><p>Alltså \\(a_n\\to L\\approx\\mathbf{10\\,909}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
     "id": "2.15",
     "miniräknare": true,
     "geogebra": false,
@@ -16055,7 +16750,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16078,7 +16774,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16099,7 +16796,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16121,7 +16819,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16143,7 +16842,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16166,7 +16866,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16202,7 +16903,8 @@ window.BANKMATF1 = [
       "a₂",
       "a₃",
       "a₄"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16223,7 +16925,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16259,7 +16962,8 @@ window.BANKMATF1 = [
       "a₂",
       "a₃",
       "a₄"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16282,7 +16986,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16303,7 +17008,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16324,7 +17030,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16346,7 +17053,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16355,7 +17063,7 @@ window.BANKMATF1 = [
     "typ": "rekursiv modell med procent och tillskott",
     "poang": "0/2/0",
     "t": "<p>Ett konto innehåller från början 10 000 kr. I slutet av varje år läggs först 3 % ränta till och därefter sätts 2 000 kr in. Skriv en rekursionsformel för saldot \\(a_n\\) efter \\(n\\) år och beräkna \\(a_3\\).</p>",
-    "s": "<p>Sätt \\(a_0=10000\\). Varje år multipliceras saldot med 1,03 och sedan adderas 2000:</p><p>\\[a_{n+1}=1,03a_n+2000.\\]</p><p>\\[a_1=12300,\\quad a_2=14669,\\quad a_3=17109,07.\\]</p><p><strong>Efter tre år är saldot cirka 17 109 kr.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Sätt \\(a_0=10000\\). Varje år multipliceras saldot med 1,03 och sedan adderas 2000:</p><p>\\[a_{n+1}=1,03a_n+2000.\\]</p><p>\\[a_1=12300,\\quad a_2=14669,\\quad a_3=17109,07.\\]</p><p><strong>Efter tre år är saldot cirka 17 109 kr.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
     "id": "2.110",
     "miniräknare": true,
     "geogebra": false,
@@ -16369,7 +17077,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 2,
@@ -16392,7 +17101,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16413,7 +17123,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16434,7 +17145,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16457,7 +17169,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16479,7 +17192,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16500,7 +17214,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16522,7 +17237,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16544,7 +17260,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16567,7 +17284,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16589,7 +17307,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16610,7 +17329,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16633,7 +17353,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16675,7 +17396,8 @@ window.BANKMATF1 = [
       "term 3",
       "term 4",
       "term 5"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16696,7 +17418,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16718,7 +17441,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16739,7 +17463,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16761,7 +17486,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16782,7 +17508,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16803,7 +17530,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16826,7 +17554,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16849,7 +17578,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16870,7 +17600,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -16908,7 +17639,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "rekursionsformel",
       "S₃"
-    ]
+    ],
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 2,
@@ -16930,7 +17662,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16952,7 +17685,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16976,7 +17710,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -16997,7 +17732,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -17020,7 +17756,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -17043,7 +17780,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -17064,7 +17802,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -17087,7 +17826,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 2,
@@ -17109,7 +17849,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17131,7 +17872,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17153,7 +17895,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17174,7 +17917,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -17199,7 +17943,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17222,7 +17967,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -17243,7 +17989,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -17284,14 +18031,19 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0,5a_n+6.\\]</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm följdens gränsvärde.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Om följden närmar sig ett gränsvärde \\(L\\), måste nästa term också närma sig \\(L\\). Sätt därför \\(a_{n+1}=a_n=L\\) i rekursionen och lös den ekvation som uppstår.</p><div class=\"spel-en-del\"><strong>a)</strong>  Ett gränsvärde \\(L\\) måste uppfylla</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Om följden närmar sig ett gränsvärde \\(L\\), måste nästa term också närma sig \\(L\\). Sätt därför \\(a_{n+1}=a_n=L\\) i rekursionen och lös den ekvation som uppstår.</p><div class=\"spel-en-del\"><strong>a)</strong>  Ett gränsvärde \\(L\\) måste uppfylla</div>",
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "b",
         "t": "<p>En talföljd definieras av \\(a_0=20\\) och</p><p>\\[a_{n+1}=0,5a_n+6.\\]</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm en explicit formel.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Om följden närmar sig ett gränsvärde \\(L\\), måste nästa term också närma sig \\(L\\). Sätt därför \\(a_{n+1}=a_n=L\\) i rekursionen och lös den ekvation som uppstår.</p><div class=\"spel-en-del\"><strong>b)</strong>  Avvikelsen från 12 uppfyller</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Om följden närmar sig ett gränsvärde \\(L\\), måste nästa term också närma sig \\(L\\). Sätt därför \\(a_{n+1}=a_n=L\\) i rekursionen och lös den ekvation som uppstår.</p><div class=\"spel-en-del\"><strong>b)</strong>  Avvikelsen från 12 uppfyller</div>",
+        "niva": "C",
+        "poang": "0/1/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17313,7 +18065,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17334,7 +18087,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17355,7 +18109,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17364,7 +18119,7 @@ window.BANKMATF1 = [
     "typ": "induktionsbevis för geometrisk summa",
     "poang": "1/1/1",
     "t": "<p>Visa med induktion att</p><p>\\[a+ak+ak^2+\\cdots+ak^{n-1}=a\\frac{k^n-1}{k-1}\\]</p><p>för \\(n\\ge1\\) och \\(k\\ne1\\).</p>",
-    "s": "<p><strong>Bas:</strong> \\(n=1\\): vänsterledet är \\(a\\), högerledet \\(a(k-1)/(k-1)=a\\).</p><p><strong>Antagande:</strong> formeln gäller för \\(n=p\\).</p><p><strong>Steg:</strong></p><p>\\[S_{p+1}=S_p+ak^p=a\\frac{k^p-1}{k-1}+ak^p=a\\frac{k^{p+1}-1}{k-1}.\\]</p><p>Alltså gäller formeln även för \\(p+1\\), och därmed för alla \\(n\\ge1\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p><strong>Bas:</strong> \\(n=1\\): vänsterledet är \\(a\\), högerledet \\(a(k-1)/(k-1)=a\\).</p><p><strong>Antagande:</strong> formeln gäller för \\(n=p\\).</p><p><strong>Steg:</strong></p><p>\\[S_{p+1}=S_p+ak^p=a\\frac{k^p-1}{k-1}+ak^p=a\\frac{k^{p+1}-1}{k-1}.\\]</p><p>Alltså gäller formeln även för \\(p+1\\), och därmed för alla \\(n\\ge1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
     "id": "2.36",
     "miniräknare": false,
     "geogebra": false,
@@ -17375,7 +18130,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17395,7 +18151,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17404,7 +18161,7 @@ window.BANKMATF1 = [
     "typ": "induktionsbevis för aritmetisk summa",
     "poang": "1/1/1",
     "t": "<p>Bevisa med induktion att</p><p>\\[\\sum_{n=1}^{k}(6n-1)=k(3k+2).\\]</p>",
-    "s": "<p><strong>Basfall:</strong> För \\(k=1\\) är vänsterledet \\(5\\) och högerledet \\(1(3\\cdot1+2)=5\\). Formeln stämmer alltså för \\(k=1\\).</p><p><strong>Induktionsantagande:</strong> Anta att formeln gäller för \\(k=p\\):</p><p>\\[\\sum_{n=1}^{p}(6n-1)=p(3p+2).\\]</p><p><strong>Induktionssteg:</strong> Lägg till nästa term \\(6(p+1)-1=6p+5\\):</p><p>\\[\\sum_{n=1}^{p+1}(6n-1)=p(3p+2)+6p+5=3p^2+8p+5.\\]</p><p>Högerledet för \\(p+1\\) är</p><p>\\[(p+1)(3(p+1)+2)=(p+1)(3p+5)=3p^2+8p+5.\\]</p><p>Uttrycken är lika. Därför gäller formeln för \\(p+1\\), och enligt induktionsprincipen för alla positiva heltal \\(k\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p><strong>Basfall:</strong> För \\(k=1\\) är vänsterledet \\(5\\) och högerledet \\(1(3\\cdot1+2)=5\\). Formeln stämmer alltså för \\(k=1\\).</p><p><strong>Induktionsantagande:</strong> Anta att formeln gäller för \\(k=p\\):</p><p>\\[\\sum_{n=1}^{p}(6n-1)=p(3p+2).\\]</p><p><strong>Induktionssteg:</strong> Lägg till nästa term \\(6(p+1)-1=6p+5\\):</p><p>\\[\\sum_{n=1}^{p+1}(6n-1)=p(3p+2)+6p+5=3p^2+8p+5.\\]</p><p>Högerledet för \\(p+1\\) är</p><p>\\[(p+1)(3(p+1)+2)=(p+1)(3p+5)=3p^2+8p+5.\\]</p><p>Uttrycken är lika. Därför gäller formeln för \\(p+1\\), och enligt induktionsprincipen för alla positiva heltal \\(k\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
     "id": "2.38",
     "miniräknare": false,
     "geogebra": false,
@@ -17415,7 +18172,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17424,7 +18182,7 @@ window.BANKMATF1 = [
     "typ": "induktionsbevis för udda aritmetisk serie",
     "poang": "1/1/1",
     "t": "<p>Bevisa med induktion att</p><p>\\[1+5+9+\\cdots+(4n-3)=n(2n-1)\\]</p><p>för alla \\(n\\ge1\\).</p>",
-    "s": "<p><strong>Bas:</strong> \\(n=1\\): \\(1=1(2-1)\\).</p><p>Anta att summan till term \\(k\\) är \\(k(2k-1)\\). Nästa term är \\(4(k+1)-3=4k+1\\). Då</p><p>\\[k(2k-1)+(4k+1)=2k^2+3k+1=(k+1)(2k+1),\\]</p><p>vilket är formeln med \\(n=k+1\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p><strong>Bas:</strong> \\(n=1\\): \\(1=1(2-1)\\).</p><p>Anta att summan till term \\(k\\) är \\(k(2k-1)\\). Nästa term är \\(4(k+1)-3=4k+1\\). Då</p><p>\\[k(2k-1)+(4k+1)=2k^2+3k+1=(k+1)(2k+1),\\]</p><p>vilket är formeln med \\(n=k+1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
     "id": "2.39",
     "miniräknare": false,
     "geogebra": false,
@@ -17435,7 +18193,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17444,7 +18203,7 @@ window.BANKMATF1 = [
     "typ": "induktionsbevis för summan 1 till n",
     "poang": "1/1/1",
     "t": "<p>Visa med induktion att \\(1+2+\\cdots+n=\\frac{n(n+1)}2\\) för alla positiva heltal \\(n\\).</p>",
-    "s": "<p><strong>Basfall:</strong> För \\(n=1\\): \\(1=\\frac{1\\cdot2}{2}\\).</p><p><strong>Induktionsantagande:</strong> Anta att</p><p>\\[1+2+\\cdots+k=\\frac{k(k+1)}2.\\]</p><p><strong>Induktionssteg:</strong> För \\(k+1\\) får vi</p><p>\\[1+2+\\cdots+k+(k+1)=\\frac{k(k+1)}2+(k+1).\\]</p><p>Faktorisera \\(k+1\\):</p><p>\\[=(k+1)\\left(\\frac{k}{2}+1\\right)=\\frac{(k+1)(k+2)}2.\\]</p><p>Det är exakt formeln med \\(n=k+1\\). Alltså gäller formeln för alla positiva heltal \\(n\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Basfall:</strong> För \\(n=1\\): \\(1=\\frac{1\\cdot2}{2}\\).</p><p><strong>Induktionsantagande:</strong> Anta att</p><p>\\[1+2+\\cdots+k=\\frac{k(k+1)}2.\\]</p><p><strong>Induktionssteg:</strong> För \\(k+1\\) får vi</p><p>\\[1+2+\\cdots+k+(k+1)=\\frac{k(k+1)}2+(k+1).\\]</p><p>Faktorisera \\(k+1\\):</p><p>\\[=(k+1)\\left(\\frac{k}{2}+1\\right)=\\frac{(k+1)(k+2)}2.\\]</p><p>Det är exakt formeln med \\(n=k+1\\). Alltså gäller formeln för alla positiva heltal \\(n\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "id": "2.40",
     "miniräknare": false,
     "geogebra": false,
@@ -17455,7 +18214,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17475,12 +18235,13 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
     "omr": "bevismetoder",
-    "niva": "C",
+    "niva": "A",
     "typ": "förklara induktionsbevis",
     "poang": "0/1/1",
     "t": "<p>En elev säger: ”I ett induktionsbevis räcker det att kontrollera \\(n=1\\) och sedan prova några fler värden.” Förklara varför detta inte räcker och vad som måste visas i stället.</p>",
@@ -17495,7 +18256,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -17515,7 +18277,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17524,7 +18287,7 @@ window.BANKMATF1 = [
     "typ": "induktionsbevis av exponentialdelbarhet",
     "poang": "0/1/2",
     "t": "<p>Visa med induktion att \\(8^n-5^n\\) är delbart med 3 för alla heltal \\(n\\ge0\\).</p>",
-    "s": "<p><strong>Basfall:</strong> För \\(n=0\\) är \\(8^0-5^0=1-1=0\\), som är delbart med 3.</p><p><strong>Induktionsantagande:</strong> Anta att \\(8^k-5^k\\) är delbart med 3. Då finns ett heltal \\(m\\) sådant att</p><p>\\[8^k-5^k=3m.\\]</p><p><strong>Induktionssteg:</strong></p><p>\\[\\begin{aligned}8^{k+1}-5^{k+1}&=8\\cdot8^k-5\\cdot5^k\\\\&=8(8^k-5^k)+(8-5)5^k\\\\&=8\\cdot3m+3\\cdot5^k\\\\&=3(8m+5^k).\\end{aligned}\\]</p><p>Uttrycket har alltså faktor 3. Därmed gäller påståendet för \\(k+1\\), och enligt induktionsprincipen för alla \\(n\\ge0\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Basfall:</strong> För \\(n=0\\) är \\(8^0-5^0=1-1=0\\), som är delbart med 3.</p><p><strong>Induktionsantagande:</strong> Anta att \\(8^k-5^k\\) är delbart med 3. Då finns ett heltal \\(m\\) sådant att</p><p>\\[8^k-5^k=3m.\\]</p><p><strong>Induktionssteg:</strong></p><p>\\[\\begin{aligned}8^{k+1}-5^{k+1}&=8\\cdot8^k-5\\cdot5^k\\\\&=8(8^k-5^k)+(8-5)5^k\\\\&=8\\cdot3m+3\\cdot5^k\\\\&=3(8m+5^k).\\end{aligned}\\]</p><p>Uttrycket har alltså faktor 3. Därmed gäller påståendet för \\(k+1\\), och enligt induktionsprincipen för alla \\(n\\ge0\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "id": "2.44",
     "miniräknare": false,
     "geogebra": false,
@@ -17535,7 +18298,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17544,7 +18308,7 @@ window.BANKMATF1 = [
     "typ": "induktionsbevis för kubsumma",
     "poang": "1/1/3",
     "t": "<p>Visa med induktion att</p><p>\\[\\sum_{k=1}^{n}k^3=\\frac{n^2(n+1)^2}{4}\\]</p><p>för alla positiva heltal \\(n\\).</p>",
-    "s": "<p><strong>Bas:</strong> \\(n=1\\) ger 1 i båda led.</p><p>Anta formeln för \\(n=p\\). Då</p><p>\\[S_{p+1}=\\frac{p^2(p+1)^2}{4}+(p+1)^3=(p+1)^2\\left(\\frac{p^2}{4}+p+1\\right)\\]</p><p>\\[=(p+1)^2\\frac{(p+2)^2}{4}=\\frac{(p+1)^2((p+1)+1)^2}{4}.\\]</p><p>Det är precis formeln för \\(p+1\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Bas:</strong> \\(n=1\\) ger 1 i båda led.</p><p>Anta formeln för \\(n=p\\). Då</p><p>\\[S_{p+1}=\\frac{p^2(p+1)^2}{4}+(p+1)^3=(p+1)^2\\left(\\frac{p^2}{4}+p+1\\right)\\]</p><p>\\[=(p+1)^2\\frac{(p+2)^2}{4}=\\frac{(p+1)^2((p+1)+1)^2}{4}.\\]</p><p>Det är precis formeln för \\(p+1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "id": "2.45",
     "miniräknare": false,
     "geogebra": false,
@@ -17555,7 +18319,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17576,7 +18341,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -17585,7 +18351,7 @@ window.BANKMATF1 = [
     "typ": "induktionsbevis för Fibonacci-summa",
     "poang": "0/1/3",
     "t": "<p>Fibonacciföljden definieras av \\(F_1=F_2=1\\) och \\(F_{n+2}=F_{n+1}+F_n\\). Visa att</p><p>\\[\\sum_{n=1}^{k}F_n=F_{k+2}-1\\]</p><p>för alla \\(k\\ge1\\).</p>",
-    "s": "<p><strong>Bas:</strong> \\(k=1\\): \\(F_1=1=F_3-1=2-1\\).</p><p>Anta \\(\\sum_{n=1}^{k}F_n=F_{k+2}-1\\). Då</p><p>\\[\\sum_{n=1}^{k+1}F_n=F_{k+2}-1+F_{k+1}=F_{k+3}-1\\]</p><p>genom Fibonaccis rekursion. Alltså gäller formeln för \\(k+1\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p><strong>Bas:</strong> \\(k=1\\): \\(F_1=1=F_3-1=2-1\\).</p><p>Anta \\(\\sum_{n=1}^{k}F_n=F_{k+2}-1\\). Då</p><p>\\[\\sum_{n=1}^{k+1}F_n=F_{k+2}-1+F_{k+1}=F_{k+3}-1\\]</p><p>genom Fibonaccis rekursion. Alltså gäller formeln för \\(k+1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
     "id": "2.46",
     "miniräknare": false,
     "geogebra": false,
@@ -17596,7 +18362,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17605,7 +18372,7 @@ window.BANKMATF1 = [
     "typ": "induktionsbevis för linjär summa",
     "poang": "0/2/0",
     "t": "<p>Visa med induktion att \\(2+5+8+\\cdots+(3n-1)=\\frac{n(3n+1)}2\\).</p>",
-    "s": "<p>Basfallet \\(n=1\\) ger 2 i båda led. Anta formeln för \\(n=k\\). Nästa term är \\(3(k+1)-1=3k+2\\):</p><p>\\[\\frac{k(3k+1)}2+3k+2=\\frac{3k^2+7k+4}{2}=\\frac{(k+1)(3k+4)}2,\\]</p><p>vilket är formeln med \\(n=k+1\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>Basfallet \\(n=1\\) ger 2 i båda led. Anta formeln för \\(n=k\\). Nästa term är \\(3(k+1)-1=3k+2\\):</p><p>\\[\\frac{k(3k+1)}2+3k+2=\\frac{3k^2+7k+4}{2}=\\frac{(k+1)(3k+4)}2,\\]</p><p>vilket är formeln med \\(n=k+1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
     "id": "2.47",
     "miniräknare": false,
     "geogebra": false,
@@ -17616,7 +18383,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 2,
@@ -17625,7 +18393,7 @@ window.BANKMATF1 = [
     "typ": "induktionsbevis av olikhet",
     "poang": "0/1/2",
     "t": "<p>Visa med induktion att \\(2^n\\ge n+1\\) för alla heltal \\(n\\ge0\\).</p>",
-    "s": "<p><strong>Basfall:</strong> För \\(n=0\\) är \\(2^0=1\\) och \\(0+1=1\\), så olikheten gäller.</p><p><strong>Induktionsantagande:</strong> Anta att \\(2^k\\ge k+1\\).</p><p><strong>Induktionssteg:</strong></p><p>\\[2^{k+1}=2\\cdot2^k\\ge2(k+1)=2k+2.\\]</p><p>För \\(k\\ge0\\) gäller \\(2k+2\\ge k+2\\). Alltså</p><p>\\[2^{k+1}\\ge k+2=(k+1)+1.\\]</p><p>Därmed gäller olikheten för \\(k+1\\), och alltså för alla heltal \\(n\\ge0\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Basfall:</strong> För \\(n=0\\) är \\(2^0=1\\) och \\(0+1=1\\), så olikheten gäller.</p><p><strong>Induktionsantagande:</strong> Anta att \\(2^k\\ge k+1\\).</p><p><strong>Induktionssteg:</strong></p><p>\\[2^{k+1}=2\\cdot2^k\\ge2(k+1)=2k+2.\\]</p><p>För \\(k\\ge0\\) gäller \\(2k+2\\ge k+2\\). Alltså</p><p>\\[2^{k+1}\\ge k+2=(k+1)+1.\\]</p><p>Därmed gäller olikheten för \\(k+1\\), och alltså för alla heltal \\(n\\ge0\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "id": "2.48",
     "miniräknare": false,
     "geogebra": false,
@@ -17636,7 +18404,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17645,7 +18414,7 @@ window.BANKMATF1 = [
     "typ": "induktionsbevis av delbarhet med faktoruppdelning",
     "poang": "0/1/2",
     "t": "<p>Visa med induktion att \\(7^n-1\\) är delbart med 6 för alla positiva heltal \\(n\\).</p>",
-    "s": "<p><strong>Basfall:</strong> För \\(n=1\\) är \\(7^1-1=6\\), som är delbart med 6.</p><p><strong>Induktionsantagande:</strong> Anta att \\(7^k-1\\) är delbart med 6, alltså att \\(7^k-1=6m\\) för något heltal \\(m\\).</p><p><strong>Induktionssteg:</strong></p><p>\\[7^{k+1}-1=7(7^k-1)+6=7\\cdot6m+6=6(7m+1).\\]</p><p>Uttrycket är därför delbart med 6. Alltså gäller påståendet för \\(k+1\\) och därmed för alla positiva heltal \\(n\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Basfall:</strong> För \\(n=1\\) är \\(7^1-1=6\\), som är delbart med 6.</p><p><strong>Induktionsantagande:</strong> Anta att \\(7^k-1\\) är delbart med 6, alltså att \\(7^k-1=6m\\) för något heltal \\(m\\).</p><p><strong>Induktionssteg:</strong></p><p>\\[7^{k+1}-1=7(7^k-1)+6=7\\cdot6m+6=6(7m+1).\\]</p><p>Uttrycket är därför delbart med 6. Alltså gäller påståendet för \\(k+1\\) och därmed för alla positiva heltal \\(n\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "id": "2.49",
     "miniräknare": false,
     "geogebra": false,
@@ -17656,7 +18425,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17665,7 +18435,7 @@ window.BANKMATF1 = [
     "typ": "hitta fel i induktionsbevis",
     "poang": "0/0/3",
     "t": "<p>En elev försöker bevisa att alla positiva heltal är lika genom induktion och säger: ”Anta att alla tal från 1 till \\(k\\) är lika. Då överlappar mängderna \\(\\{1,\\ldots,k\\}\\) och \\(\\{2,\\ldots,k+1\\}\\), så även \\(k+1\\) måste vara lika med de andra.” Var brister argumentet?</p>",
-    "s": "<p>Överlappningsargumentet fungerar bara om de två mängderna faktiskt har ett gemensamt element. I steget från \\(k=1\\) till \\(k=2\\) är mängderna \\(\\{1\\}\\) och \\(\\{2\\}\\) disjunkta. Därför kan man inte koppla ihop de två påståendena. <strong>Induktionssteget gäller alltså inte för basövergången.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Överlappningsargumentet fungerar bara om de två mängderna faktiskt har ett gemensamt element. I steget från \\(k=1\\) till \\(k=2\\) är mängderna \\(\\{1\\}\\) och \\(\\{2\\}\\) disjunkta. Därför kan man inte koppla ihop de två påståendena. <strong>Induktionssteget gäller alltså inte för basövergången.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "id": "2.50",
     "miniräknare": false,
     "geogebra": false,
@@ -17676,7 +18446,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17685,7 +18456,7 @@ window.BANKMATF1 = [
     "typ": "induktionsbevis av delbarhet",
     "poang": "0/2/0",
     "t": "<p>Visa med induktion att \\(5^{2n}-1\\) är delbart med 24 för alla heltal \\(n\\ge1\\).</p>",
-    "s": "<p><strong>Basfall:</strong> För \\(n=1\\) är \\(5^2-1=24\\), alltså delbart med 24.</p><p><strong>Induktionsantagande:</strong> Anta att \\(5^{2k}-1=24m\\) för något heltal \\(m\\).</p><p><strong>Induktionssteg:</strong></p><p>\\[5^{2(k+1)}-1=25\\cdot5^{2k}-1=25(5^{2k}-1)+24.\\]</p><p>Med antagandet blir detta \\(25\\cdot24m+24=24(25m+1)\\), som är delbart med 24. Därmed gäller påståendet för alla \\(n\\ge1\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Basfall:</strong> För \\(n=1\\) är \\(5^2-1=24\\), alltså delbart med 24.</p><p><strong>Induktionsantagande:</strong> Anta att \\(5^{2k}-1=24m\\) för något heltal \\(m\\).</p><p><strong>Induktionssteg:</strong></p><p>\\[5^{2(k+1)}-1=25\\cdot5^{2k}-1=25(5^{2k}-1)+24.\\]</p><p>Med antagandet blir detta \\(25\\cdot24m+24=24(25m+1)\\), som är delbart med 24. Därmed gäller påståendet för alla \\(n\\ge1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "id": "2.60",
     "miniräknare": false,
     "geogebra": false,
@@ -17696,7 +18467,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17706,7 +18478,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "2.75",
     "t": "<p>Visa med induktion att</p><p>\\[1+3+5+\\ldots +(2n-1)=n^2\\]</p><p>för alla heltal \\(n\\ge 1\\).</p>",
-    "s": "<p><strong>Basfall:</strong> För \\(n=1\\) är vänsterledet \\(1\\) och högerledet \\(1^2=1\\). Påståendet stämmer.</p><p><strong>Induktionsantagande:</strong> Anta att</p><p>\\[1+3+5+\\ldots +(2k-1)=k^2.\\]</p><p><strong>Induktionssteg:</strong> För \\(n=k+1\\) får vi</p><p>\\[1+3+\\ldots +(2k-1)+(2(k+1)-1).\\]</p><p>Med induktionsantagandet blir detta</p><p>\\[k^2+(2k+1)=(k+1)^2.\\]</p><p>Därmed gäller formeln också för \\(k+1\\). Alltså är påståendet sant för alla \\(n\\ge 1\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Basfall:</strong> För \\(n=1\\) är vänsterledet \\(1\\) och högerledet \\(1^2=1\\). Påståendet stämmer.</p><p><strong>Induktionsantagande:</strong> Anta att</p><p>\\[1+3+5+\\ldots +(2k-1)=k^2.\\]</p><p><strong>Induktionssteg:</strong> För \\(n=k+1\\) får vi</p><p>\\[1+3+\\ldots +(2k-1)+(2(k+1)-1).\\]</p><p>Med induktionsantagandet blir detta</p><p>\\[k^2+(2k+1)=(k+1)^2.\\]</p><p>Därmed gäller formeln också för \\(k+1\\). Alltså är påståendet sant för alla \\(n\\ge 1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Matematiska induktionsbevis",
@@ -17717,7 +18489,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17737,7 +18510,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17746,7 +18520,7 @@ window.BANKMATF1 = [
     "typ": "induktion för aritmetisk summa",
     "poang": "2/0/0",
     "t": "<p>Visa med induktion att</p><p>\\[2+4+6+\\cdots+2n=n(n+1)\\]</p><p>för alla \\(n\\ge1\\).</p>",
-    "s": "<p><strong>Basfall:</strong> \\(n=1\\): \\(2=1\\cdot2\\).</p><p><strong>Antagande:</strong> anta \\(2+4+\\cdots+2k=k(k+1)\\).</p><p><strong>Steg:</strong></p><p>\\[2+4+\\cdots+2k+2(k+1)=k(k+1)+2(k+1)=(k+1)(k+2).\\]</p><p>Detta är formeln för \\(n=k+1\\). Alltså gäller påståendet för alla \\(n\\ge1\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p><strong>Basfall:</strong> \\(n=1\\): \\(2=1\\cdot2\\).</p><p><strong>Antagande:</strong> anta \\(2+4+\\cdots+2k=k(k+1)\\).</p><p><strong>Steg:</strong></p><p>\\[2+4+\\cdots+2k+2(k+1)=k(k+1)+2(k+1)=(k+1)(k+2).\\]</p><p>Detta är formeln för \\(n=k+1\\). Alltså gäller påståendet för alla \\(n\\ge1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
     "id": "2.111",
     "miniräknare": false,
     "geogebra": false,
@@ -17757,7 +18531,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17777,7 +18552,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -17797,7 +18573,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17818,7 +18595,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -17838,7 +18616,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -17847,7 +18626,7 @@ window.BANKMATF1 = [
     "typ": "indirekt bevis – motsägelsebevis av irrationalitet",
     "poang": "0/2/0",
     "t": "<p>Visa med motsägelsebevis att \\(\\sqrt2\\) är irrationellt.</p>",
-    "s": "<p>Anta motsatsen: \\(\\sqrt2=p/q\\) i förkortad form. Då \\(p^2=2q^2\\), så \\(p^2\\) och därmed \\(p\\) är jämnt. Sätt \\(p=2r\\). Då \\(4r^2=2q^2\\), alltså \\(q^2=2r^2\\), så även \\(q\\) är jämnt. Då har \\(p\\) och \\(q\\) gemensam faktor 2, i strid med att bråket var förkortat. Alltså är <strong>\\(\\sqrt2\\) irrationellt</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Anta motsatsen: \\(\\sqrt2=p/q\\) i förkortad form. Då \\(p^2=2q^2\\), så \\(p^2\\) och därmed \\(p\\) är jämnt. Sätt \\(p=2r\\). Då \\(4r^2=2q^2\\), alltså \\(q^2=2r^2\\), så även \\(q\\) är jämnt. Då har \\(p\\) och \\(q\\) gemensam faktor 2, i strid med att bråket var förkortat. Alltså är <strong>\\(\\sqrt2\\) irrationellt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "id": "2.51",
     "miniräknare": false,
     "geogebra": false,
@@ -17859,7 +18638,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -17880,7 +18660,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -17901,7 +18682,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -17911,7 +18693,7 @@ window.BANKMATF1 = [
     "poang": "0/2/0",
     "id": "2.77",
     "t": "<p>Visa med ett motsägelsebevis att \\(\\sqrt{12}\\) är irrationellt.</p>",
-    "s": "<p>Anta motsatsen: att \\(\\sqrt{12}\\) är rationellt. Då kan det skrivas</p><p>\\[\\sqrt{12}=\\frac{a}{b}\\]</p><p>där \\(a\\) och \\(b\\) är heltal utan gemensamma faktorer och \\(b\\ne 0\\).</p><p>Kvadrera:</p><p>\\[12=\\frac{a^2}{b^2}\\Rightarrow a^2=12b^2.\\]</p><p>Då är \\(a^2\\) delbart med 3, alltså är \\(a\\) delbart med 3. Skriv \\(a=3k\\).</p><p>Insättning ger</p><p>\\[9k^2=12b^2\\Rightarrow 3k^2=4b^2.\\]</p><p>Då är \\(b^2\\) delbart med 3, alltså är \\(b\\) också delbart med 3.</p><p>Men då har \\(a\\) och \\(b\\) en gemensam faktor 3, i strid med antagandet att bråket är förkortat. Motsägelse. Alltså är <strong>\\(\\sqrt{12}\\) irrationellt</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Anta motsatsen: att \\(\\sqrt{12}\\) är rationellt. Då kan det skrivas</p><p>\\[\\sqrt{12}=\\frac{a}{b}\\]</p><p>där \\(a\\) och \\(b\\) är heltal utan gemensamma faktorer och \\(b\\ne 0\\).</p><p>Kvadrera:</p><p>\\[12=\\frac{a^2}{b^2}\\Rightarrow a^2=12b^2.\\]</p><p>Då är \\(a^2\\) delbart med 3, alltså är \\(a\\) delbart med 3. Skriv \\(a=3k\\).</p><p>Insättning ger</p><p>\\[9k^2=12b^2\\Rightarrow 3k^2=4b^2.\\]</p><p>Då är \\(b^2\\) delbart med 3, alltså är \\(b\\) också delbart med 3.</p><p>Men då har \\(a\\) och \\(b\\) en gemensam faktor 3, i strid med antagandet att bråket är förkortat. Motsägelse. Alltså är <strong>\\(\\sqrt{12}\\) irrationellt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Motsägelsebevis",
@@ -17922,7 +18704,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -17932,7 +18715,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "2.78",
     "t": "<p>Visa med ett motsägelsebevis att \\(\\sqrt{2}\\) är irrationellt.</p>",
-    "s": "<p>Anta motsatsen: att \\(\\sqrt{2}\\) är rationellt. Då kan det skrivas</p><p>\\[\\sqrt{2}=\\frac{a}{b}\\]</p><p>där \\(a\\) och \\(b\\) är heltal utan gemensamma faktorer och \\(b\\ne 0\\).</p><p>Kvadrera båda leden:</p><p>\\[2=\\frac{a^2}{b^2}\\Rightarrow a^2=2b^2.\\]</p><p>Alltså är \\(a^2\\) jämnt, och då måste även \\(a\\) vara jämnt. Skriv därför \\(a=2k\\).</p><p>Insättning ger</p><p>\\[4k^2=2b^2\\Rightarrow b^2=2k^2.\\]</p><p>Då är även \\(b^2\\) jämnt, alltså är också \\(b\\) jämnt.</p><p>Men då är både \\(a\\) och \\(b\\) jämna, så de har minst faktorn 2 gemensam. Det strider mot att bråket \\(a/b\\) skulle vara förkortat. Detta är en motsägelse.</p><p>Alltså är <strong>\\(\\sqrt{2}\\) irrationellt</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Anta motsatsen: att \\(\\sqrt{2}\\) är rationellt. Då kan det skrivas</p><p>\\[\\sqrt{2}=\\frac{a}{b}\\]</p><p>där \\(a\\) och \\(b\\) är heltal utan gemensamma faktorer och \\(b\\ne 0\\).</p><p>Kvadrera båda leden:</p><p>\\[2=\\frac{a^2}{b^2}\\Rightarrow a^2=2b^2.\\]</p><p>Alltså är \\(a^2\\) jämnt, och då måste även \\(a\\) vara jämnt. Skriv därför \\(a=2k\\).</p><p>Insättning ger</p><p>\\[4k^2=2b^2\\Rightarrow b^2=2k^2.\\]</p><p>Då är även \\(b^2\\) jämnt, alltså är också \\(b\\) jämnt.</p><p>Men då är både \\(a\\) och \\(b\\) jämna, så de har minst faktorn 2 gemensam. Det strider mot att bråket \\(a/b\\) skulle vara förkortat. Detta är en motsägelse.</p><p>Alltså är <strong>\\(\\sqrt{2}\\) irrationellt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Motsägelsebevis",
@@ -17943,7 +18726,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -17952,7 +18736,7 @@ window.BANKMATF1 = [
     "typ": "indirekt bevis – motsägelsebevis om jämn/udda",
     "poang": "0/2/0",
     "t": "<p>Visa med motsägelsebevis att om \\(n^2\\) är udda så är \\(n\\) udda.</p>",
-    "s": "<p>Anta motsatsen: \\(n^2\\) är udda men \\(n\\) är jämnt. Då finns ett heltal \\(k\\) så att \\(n=2k\\). Då</p><p>\\[n^2=4k^2=2(2k^2),\\]</p><p>vilket är jämnt. Det motsäger att \\(n^2\\) är udda. Alltså måste \\(n\\) vara udda.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Anta motsatsen: \\(n^2\\) är udda men \\(n\\) är jämnt. Då finns ett heltal \\(k\\) så att \\(n=2k\\). Då</p><p>\\[n^2=4k^2=2(2k^2),\\]</p><p>vilket är jämnt. Det motsäger att \\(n^2\\) är udda. Alltså måste \\(n\\) vara udda.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "2.113",
     "miniräknare": false,
     "geogebra": false,
@@ -17964,7 +18748,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -17973,7 +18758,7 @@ window.BANKMATF1 = [
     "typ": "indirekt bevis – motsägelse om minsta rationella positiva tal",
     "poang": "2/0/0",
     "t": "<p>Visa med motsägelse att det inte finns något minsta positivt rationellt tal.</p>",
-    "s": "<p>Anta att \\(r\\gt0\\) är det minsta positiva rationella talet. Då är \\(r/2\\) också positivt och rationellt, men \\(r/2\\lt r\\). Det motsäger att \\(r\\) var minst. Alltså finns inget minsta positivt rationellt tal.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Anta att \\(r\\gt0\\) är det minsta positiva rationella talet. Då är \\(r/2\\) också positivt och rationellt, men \\(r/2\\lt r\\). Det motsäger att \\(r\\) var minst. Alltså finns inget minsta positivt rationellt tal.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "id": "2.134",
     "miniräknare": false,
     "geogebra": false,
@@ -17985,7 +18770,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -17994,7 +18780,7 @@ window.BANKMATF1 = [
     "typ": "indirekt bevis – irrationalitet roten ur 5",
     "poang": "0/2/0",
     "t": "<p>Visa med motsägelsebevis att \\(\\sqrt5\\) är irrationellt.</p>",
-    "s": "<p>Anta \\(\\sqrt5=a/b\\) i förkortad form. Då \\(a^2=5b^2\\), så \\(a\\) är delbart med 5. Sätt \\(a=5k\\). Då \\(25k^2=5b^2\\Rightarrow b^2=5k^2\\), så även \\(b\\) är delbart med 5. Det motsäger att \\(a/b\\) var förkortat.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Anta \\(\\sqrt5=a/b\\) i förkortad form. Då \\(a^2=5b^2\\), så \\(a\\) är delbart med 5. Sätt \\(a=5k\\). Då \\(25k^2=5b^2\\Rightarrow b^2=5k^2\\), så även \\(b\\) är delbart med 5. Det motsäger att \\(a/b\\) var förkortat.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
     "id": "2.135",
     "miniräknare": false,
     "geogebra": false,
@@ -18006,7 +18792,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "id": "2.141",
@@ -18026,7 +18813,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -18047,7 +18835,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "id": "2.142",
@@ -18057,7 +18846,7 @@ window.BANKMATF1 = [
     "typ": "direkt bevis – udda tal",
     "poang": "2/0/0",
     "t": "<p>Visa med ett direkt bevis att summan av två udda heltal alltid är jämn.</p>",
-    "s": "<p>Låt de udda talen vara</p><p>\\[a=2m+1,\\qquad b=2n+1\\]</p><p>där \\(m\\) och \\(n\\) är heltal.</p><p>Då blir</p><p>\\[a+b=(2m+1)+(2n+1)=2m+2n+2=2(m+n+1).\\]</p><p>Uttrycket är alltså två gånger ett heltal. Därför är <strong>summan jämn</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Låt de udda talen vara</p><p>\\[a=2m+1,\\qquad b=2n+1\\]</p><p>där \\(m\\) och \\(n\\) är heltal.</p><p>Då blir</p><p>\\[a+b=(2m+1)+(2n+1)=2m+2n+2=2(m+n+1).\\]</p><p>Uttrycket är alltså två gånger ett heltal. Därför är <strong>summan jämn</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Direkta bevis, kontraposition och metodval",
@@ -18067,7 +18856,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "2.143",
@@ -18077,7 +18867,7 @@ window.BANKMATF1 = [
     "typ": "direkt bevis – rationella tal",
     "poang": "2/0/0",
     "t": "<p>Visa med ett direkt bevis att summan av två rationella tal är rationell.</p>",
-    "s": "<p>Låt \\(x\\) och \\(y\\) vara rationella. Då kan de skrivas</p><p>\\[x=\\frac{a}{b},\\qquad y=\\frac{c}{d}\\]</p><p>där \\(a,b,c,d\\) är heltal och \\(b\\ne0\\), \\(d\\ne0\\).</p><p>Då är</p><p>\\[x+y=\\frac{a}{b}+\\frac{c}{d}=\\frac{ad+bc}{bd}.\\]</p><p>Täljaren \\(ad+bc\\) är ett heltal och nämnaren \\(bd\\ne0\\) är ett heltal. Alltså kan summan skrivas som en kvot av två heltal.</p><p>Därför är <strong>\\(x+y\\) rationellt</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Låt \\(x\\) och \\(y\\) vara rationella. Då kan de skrivas</p><p>\\[x=\\frac{a}{b},\\qquad y=\\frac{c}{d}\\]</p><p>där \\(a,b,c,d\\) är heltal och \\(b\\ne0\\), \\(d\\ne0\\).</p><p>Då är</p><p>\\[x+y=\\frac{a}{b}+\\frac{c}{d}=\\frac{ad+bc}{bd}.\\]</p><p>Täljaren \\(ad+bc\\) är ett heltal och nämnaren \\(bd\\ne0\\) är ett heltal. Alltså kan summan skrivas som en kvot av två heltal.</p><p>Därför är <strong>\\(x+y\\) rationellt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Direkta bevis, kontraposition och metodval",
@@ -18087,7 +18877,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "id": "2.144",
@@ -18097,7 +18888,7 @@ window.BANKMATF1 = [
     "typ": "indirekt bevis – kontraposition",
     "poang": "2/0/0",
     "t": "<p>Visa med ett <strong>indirekt bevis</strong> att om \\(n^2\\) är jämnt, så är \\(n\\) jämnt.</p><p>Använd kontraposition.</p>",
-    "s": "<p><strong>Kontraposition:</strong> I stället för att visa</p><p>\\[n^2\\text{ jämnt}\\Rightarrow n\\text{ jämnt}\\]</p><p>visar vi det logiskt likvärdiga påståendet</p><p>\\[n\\text{ udda}\\Rightarrow n^2\\text{ udda}.\\]</p><p>Anta därför att \\(n\\) är udda. Då finns ett heltal \\(k\\) sådant att</p><p>\\[n=2k+1.\\]</p><p>Då</p><p>\\[n^2=(2k+1)^2=4k^2+4k+1=2(2k^2+2k)+1.\\]</p><p>Detta är udda. Kontrapositionen är alltså bevisad, och därmed gäller det ursprungliga påståendet: <strong>om \\(n^2\\) är jämnt så är \\(n\\) jämnt</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p><strong>Kontraposition:</strong> I stället för att visa</p><p>\\[n^2\\text{ jämnt}\\Rightarrow n\\text{ jämnt}\\]</p><p>visar vi det logiskt likvärdiga påståendet</p><p>\\[n\\text{ udda}\\Rightarrow n^2\\text{ udda}.\\]</p><p>Anta därför att \\(n\\) är udda. Då finns ett heltal \\(k\\) sådant att</p><p>\\[n=2k+1.\\]</p><p>Då</p><p>\\[n^2=(2k+1)^2=4k^2+4k+1=2(2k^2+2k)+1.\\]</p><p>Detta är udda. Kontrapositionen är alltså bevisad, och därmed gäller det ursprungliga påståendet: <strong>om \\(n^2\\) är jämnt så är \\(n\\) jämnt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Direkta bevis, kontraposition och metodval",
@@ -18108,7 +18899,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "id": "2.145",
@@ -18129,7 +18921,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "id": "2.146",
@@ -18139,7 +18932,7 @@ window.BANKMATF1 = [
     "typ": "direkt bevis – delbarhet",
     "poang": "0/2/0",
     "t": "<p>Låt \\(a,b,c\\) vara heltal. Visa med ett direkt bevis att om \\(a\\mid b\\) och \\(b\\mid c\\), så gäller \\(a\\mid c\\).</p>",
-    "s": "<p>Antag att \\(a\\mid b\\). Då finns ett heltal \\(m\\) sådant att</p><p>\\[b=am.\\]</p><p>Antag också att \\(b\\mid c\\). Då finns ett heltal \\(n\\) sådant att</p><p>\\[c=bn.\\]</p><p>Sätt in \\(b=am\\):</p><p>\\[c=(am)n=a(mn).\\]</p><p>Produkten \\(mn\\) är ett heltal. Alltså kan \\(c\\) skrivas som \\(a\\) gånger ett heltal.</p><p>Därför gäller <strong>\\(a\\mid c\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Antag att \\(a\\mid b\\). Då finns ett heltal \\(m\\) sådant att</p><p>\\[b=am.\\]</p><p>Antag också att \\(b\\mid c\\). Då finns ett heltal \\(n\\) sådant att</p><p>\\[c=bn.\\]</p><p>Sätt in \\(b=am\\):</p><p>\\[c=(am)n=a(mn).\\]</p><p>Produkten \\(mn\\) är ett heltal. Alltså kan \\(c\\) skrivas som \\(a\\) gånger ett heltal.</p><p>Därför gäller <strong>\\(a\\mid c\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Direkta bevis, kontraposition och metodval",
@@ -18149,7 +18942,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "2.147",
@@ -18159,7 +18953,7 @@ window.BANKMATF1 = [
     "typ": "direkt bevis – udda kvadrat modulo 8",
     "poang": "0/2/0",
     "t": "<p>Visa med ett direkt bevis att kvadraten av varje udda heltal ger resten 1 vid division med 8.</p>",
-    "s": "<p>Låt \\(n\\) vara udda. Då kan vi skriva</p><p>\\[n=2k+1\\]</p><p>för något heltal \\(k\\).</p><p>Kvadrera:</p><p>\\[n^2=(2k+1)^2=4k^2+4k+1=4k(k+1)+1.\\]</p><p>Två heltal i följd, \\(k\\) och \\(k+1\\), innehåller alltid ett jämnt tal. Därför är \\(k(k+1)\\) jämnt. Skriv \\(k(k+1)=2m\\).</p><p>Då</p><p>\\[n^2=4\\cdot2m+1=8m+1.\\]</p><p>Alltså ger \\(n^2\\) resten <strong>1</strong> vid division med 8.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Låt \\(n\\) vara udda. Då kan vi skriva</p><p>\\[n=2k+1\\]</p><p>för något heltal \\(k\\).</p><p>Kvadrera:</p><p>\\[n^2=(2k+1)^2=4k^2+4k+1=4k(k+1)+1.\\]</p><p>Två heltal i följd, \\(k\\) och \\(k+1\\), innehåller alltid ett jämnt tal. Därför är \\(k(k+1)\\) jämnt. Skriv \\(k(k+1)=2m\\).</p><p>Då</p><p>\\[n^2=4\\cdot2m+1=8m+1.\\]</p><p>Alltså ger \\(n^2\\) resten <strong>1</strong> vid division med 8.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Direkta bevis, kontraposition och metodval",
@@ -18169,7 +18963,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "2.148",
@@ -18179,7 +18974,7 @@ window.BANKMATF1 = [
     "typ": "indirekt bevis – kontraposition och delbarhet",
     "poang": "0/2/0",
     "t": "<p>Visa med ett indirekt bevis att om \\(n^2\\) är delbart med 3, så är \\(n\\) delbart med 3.</p><p>Använd kontraposition.</p>",
-    "s": "<p>Vi visar kontrapositionen:</p><p><strong>Om \\(n\\) inte är delbart med 3, så är \\(n^2\\) inte delbart med 3.</strong></p><p>Om \\(n\\) inte är delbart med 3 ger det resten 1 eller 2 vid division med 3.</p><p>Fall 1:</p><p>\\[n\\equiv1\\pmod3\\Rightarrow n^2\\equiv1^2=1\\pmod3.\\]</p><p>Fall 2:</p><p>\\[n\\equiv2\\pmod3\\Rightarrow n^2\\equiv2^2=4\\equiv1\\pmod3.\\]</p><p>I båda fallen ger \\(n^2\\) resten 1 och är alltså inte delbart med 3.</p><p>Kontrapositionen är bevisad. Därför gäller det ursprungliga påståendet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Vi visar kontrapositionen:</p><p><strong>Om \\(n\\) inte är delbart med 3, så är \\(n^2\\) inte delbart med 3.</strong></p><p>Om \\(n\\) inte är delbart med 3 ger det resten 1 eller 2 vid division med 3.</p><p>Fall 1:</p><p>\\[n\\equiv1\\pmod3\\Rightarrow n^2\\equiv1^2=1\\pmod3.\\]</p><p>Fall 2:</p><p>\\[n\\equiv2\\pmod3\\Rightarrow n^2\\equiv2^2=4\\equiv1\\pmod3.\\]</p><p>I båda fallen ger \\(n^2\\) resten 1 och är alltså inte delbart med 3.</p><p>Kontrapositionen är bevisad. Därför gäller det ursprungliga påståendet.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Direkta bevis, kontraposition och metodval",
@@ -18190,7 +18985,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "id": "2.149",
@@ -18211,7 +19007,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "id": "2.150",
@@ -18231,7 +19028,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "2.301",
@@ -18252,7 +19050,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "2.302",
@@ -18273,7 +19072,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -18294,7 +19094,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "id": "2.303",
@@ -18315,7 +19116,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "id": "2.304",
@@ -18336,7 +19138,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "2.305",
@@ -18357,7 +19160,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "id": "2.321",
@@ -18378,7 +19182,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "id": "2.322",
@@ -18399,7 +19204,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -18418,7 +19224,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -18437,7 +19244,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 2,
@@ -18456,7 +19264,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -18475,7 +19284,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Beräkna skillnaden mellan två termer och kvoten mellan två termer. Vilken av dem är konstant?</p>"
   },
   {
     "kap": 2,
@@ -18494,7 +19304,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 2,
@@ -18513,7 +19324,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 2,
@@ -18534,7 +19346,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -18554,16 +19367,17 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
     "omr": "partiell_integration",
-    "niva": "C",
+    "niva": "A",
     "typ": "partiell integration två gånger",
     "poang": "0/2/1",
     "t": "<p>Beräkna \\(\\displaystyle\\int x^2e^{-2x}\\,dx\\).</p>",
-    "s": "<p>Partiell integration två gånger ger</p><p>\\[\\int x^2e^{-2x}dx=-\\frac{1}{2}x^2e^{-2x}+\\int xe^{-2x}dx\\]</p><p>\\[=-\\frac{1}{2}x^2e^{-2x}-\\frac{1}{2}xe^{-2x}-\\frac14e^{-2x}+C.\\]</p><p>Alltså <strong>\\(-e^{-2x}(\\frac{1}{2}x^2+\\frac{1}{2}x+\\frac14)+C\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Partiell integration två gånger ger</p><p>\\[\\int x^2e^{-2x}dx=-\\frac{1}{2}x^2e^{-2x}+\\int xe^{-2x}dx\\]</p><p>\\[=-\\frac{1}{2}x^2e^{-2x}-\\frac{1}{2}xe^{-2x}-\\frac14e^{-2x}+C.\\]</p><p>Alltså <strong>\\(-e^{-2x}(\\frac{1}{2}x^2+\\frac{1}{2}x+\\frac14)+C\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "3.01",
     "miniräknare": false,
     "geogebra": false,
@@ -18576,7 +19390,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -18596,7 +19411,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -18617,7 +19433,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -18637,7 +19454,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -18657,7 +19475,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -18678,7 +19497,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -18698,7 +19518,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -18719,7 +19540,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>"
   },
   {
     "kap": 3,
@@ -18739,7 +19561,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -18760,7 +19583,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -18780,7 +19604,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -18801,7 +19626,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 3,
@@ -18821,7 +19647,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -18841,7 +19668,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -18862,7 +19690,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 3,
@@ -18883,7 +19712,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -18904,7 +19734,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -18925,7 +19756,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -18946,7 +19778,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -18967,7 +19800,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -18988,7 +19822,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19009,7 +19844,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19029,7 +19865,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19049,7 +19886,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -19070,7 +19908,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19090,7 +19929,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -19111,7 +19951,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19132,7 +19973,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -19152,7 +19994,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19172,7 +20015,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19193,7 +20037,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -19213,7 +20058,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19234,7 +20080,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -19254,7 +20101,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19275,7 +20123,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -19295,7 +20144,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19317,7 +20167,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19337,7 +20188,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19357,7 +20209,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19378,7 +20231,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -19398,7 +20252,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19407,7 +20262,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration x gånger e upphöjt tre x",
     "poang": "2/0/0",
     "t": "<p>Bestäm</p><p>\\[\\int xe^{3x}\\,dx.\\]</p>",
-    "s": "<p>Välj \\(u=x\\) och \\(dv=e^{3x}dx\\). Då är \\(du=dx\\) och \\(v=\\frac13e^{3x}\\).</p><p>\\[\\int xe^{3x}dx=\\frac{x}{3}e^{3x}-\\frac13\\int e^{3x}dx\\]</p><p>\\[=\\frac{x}{3}e^{3x}-\\frac19e^{3x}+C.\\]</p><p><strong>\\[e^{3x}\\left(\\frac{x}{3}-\\frac19\\right)+C.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Välj \\(u=x\\) och \\(dv=e^{3x}dx\\). Då är \\(du=dx\\) och \\(v=\\frac13e^{3x}\\).</p><p>\\[\\int xe^{3x}dx=\\frac{x}{3}e^{3x}-\\frac13\\int e^{3x}dx\\]</p><p>\\[=\\frac{x}{3}e^{3x}-\\frac19e^{3x}+C.\\]</p><p><strong>\\[e^{3x}\\left(\\frac{x}{3}-\\frac19\\right)+C.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "3.90",
     "miniräknare": false,
     "geogebra": false,
@@ -19419,7 +20274,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -19440,7 +20296,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19461,7 +20318,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>"
   },
   {
     "kap": 3,
@@ -19482,7 +20340,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19503,7 +20362,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19524,7 +20384,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -19545,7 +20406,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19566,7 +20428,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19587,7 +20450,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19608,7 +20472,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 3,
@@ -19629,7 +20494,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19650,7 +20516,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>"
   },
   {
     "kap": 3,
@@ -19671,7 +20538,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19692,7 +20560,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19701,7 +20570,7 @@ window.BANKMATF1 = [
     "typ": "partiell integration polynom gånger logaritm",
     "poang": "0/2/0",
     "t": "<p>Bestäm \\(\\int x\\ln(2x)\\,dx\\) för \\(x>0\\).</p>",
-    "s": "<p>Välj \\(u=\\ln(2x)\\) och \\(dv=x\\,dx\\). Då är \\(du=\\fracx dx\\) och \\(v=\\frac{x^2}{2}\\).</p><p>\\[\\int x\\ln(2x)dx=\\frac{x^2}{2}\\ln(2x)-\\frac12\\int xdx\\]</p><p><strong>\\[=\\frac{x^2}{2}\\ln(2x)-\\frac{x^2}{4}+C.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Välj \\(u=\\ln(2x)\\) och \\(dv=x\\,dx\\). Då är \\(du=\\fracx dx\\) och \\(v=\\frac{x^2}{2}\\).</p><p>\\[\\int x\\ln(2x)dx=\\frac{x^2}{2}\\ln(2x)-\\frac12\\int xdx\\]</p><p><strong>\\[=\\frac{x^2}{2}\\ln(2x)-\\frac{x^2}{4}+C.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
     "id": "3.96",
     "miniräknare": false,
     "geogebra": false,
@@ -19713,7 +20582,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -19734,7 +20604,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19755,7 +20626,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -19776,7 +20648,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19792,21 +20665,22 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
     "omr": "generaliserade_integraler",
-    "niva": "C",
+    "niva": "A",
     "typ": "konvergens för generaliserad integral med x upphöjt till minus p",
     "poang": "0/1/2",
     "t": "<p>För vilka värden på parametern \\(p\\) konvergerar den generaliserade integralen \\(\\displaystyle\\int_1^\\infty x^{-p}\\,dx\\)?</p>",
-    "s": "<p>Skriv integralen med en övre gräns \\(R\\):</p><p>\\[\\int_1^R x^{-p}\\,dx=\\frac{R^{1-p}-1}{1-p}\\qquad(p\\ne1).\\]</p><p>När \\(R\\to\\infty\\) blir gränsvärdet ändligt exakt när exponenten \\(1-p&lt;0\\), det vill säga när <strong>\\(p&gt;1\\)</strong>.</p><p>För \\(p=1\\) får vi \\(\\int_1^R\\frac{1}{x}\\,dx=\\ln R\\), som går mot oändligheten. Alltså konvergerar integralen exakt för <strong>\\(p&gt;1\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area. Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p><div class=\"facit-arbete\"><p>Skriv integralen med en övre gräns \\(R\\):</p><p>\\[\\int_1^R x^{-p}\\,dx=\\frac{R^{1-p}-1}{1-p}\\qquad(p\\ne1).\\]</p><p>När \\(R\\to\\infty\\) blir gränsvärdet ändligt exakt när exponenten \\(1-p&lt;0\\), det vill säga när <strong>\\(p&gt;1\\)</strong>.</p><p>För \\(p=1\\) får vi \\(\\int_1^R\\frac{1}{x}\\,dx=\\ln R\\), som går mot oändligheten. Alltså konvergerar integralen exakt för <strong>\\(p&gt;1\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></div>",
     "id": "3.04",
     "miniräknare": false,
     "geogebra": false,
@@ -19820,7 +20694,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19836,12 +20711,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.5,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 3,
@@ -19862,7 +20738,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -19884,7 +20761,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19900,13 +20778,14 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.01,
-    "tolerans": 1e-05,
+    "tolerans": 0.00001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 3,
@@ -19915,7 +20794,7 @@ window.BANKMATF1 = [
     "typ": "parameter och konvergens nära noll",
     "poang": "0/1/2",
     "t": "<p>För vilka reella \\(a\\) konvergerar \\(\\displaystyle\\int_0^1 x^a\\,dx\\)?</p>",
-    "s": "<p>För \\(a\\ne-1\\): \\(\\int_\\varepsilon^x^a dx=\\frac{1-\\varepsilon^{a+1}}{a+1}\\). När \\(\\varepsilon\\to0^+\\) är gränsvärdet ändligt exakt om \\(a+1\\gt 0\\). För \\(a=-1\\) divergerar logaritmen. Alltså <strong>\\(a\\gt -1\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area. Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p><div class=\"facit-arbete\"><p>För \\(a\\ne-1\\): \\(\\int_\\varepsilon^x^a dx=\\frac{1-\\varepsilon^{a+1}}{a+1}\\). När \\(\\varepsilon\\to0^+\\) är gränsvärdet ändligt exakt om \\(a+1\\gt 0\\). För \\(a=-1\\) divergerar logaritmen. Alltså <strong>\\(a\\gt -1\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></div>",
     "id": "3.06",
     "miniräknare": false,
     "geogebra": false,
@@ -19930,7 +20809,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19952,7 +20832,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -19961,7 +20842,7 @@ window.BANKMATF1 = [
     "typ": "tolka och beräkna generaliserad integral med graf",
     "poang": "2/0/0",
     "t": "<span class=\"fig\"><svg height=\"260\" width=\"390\" viewBox=\"0 0 390 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Grafen y lika med 1 genom x kvadrat och det oändliga området från x lika med 1\">\n<rect width=\"390\" height=\"260\" fill=\"white\"/>\n<line x1=\"80\" y1=\"35\" x2=\"80\" y2=\"225\" stroke=\"#e2e2e2\"/><text x=\"76\" y=\"242\" font-size=\"13\">1</text><line x1=\"142\" y1=\"35\" x2=\"142\" y2=\"225\" stroke=\"#e2e2e2\"/><text x=\"138\" y=\"242\" font-size=\"13\">2</text><line x1=\"204\" y1=\"35\" x2=\"204\" y2=\"225\" stroke=\"#e2e2e2\"/><text x=\"200\" y=\"242\" font-size=\"13\">3</text><line x1=\"266\" y1=\"35\" x2=\"266\" y2=\"225\" stroke=\"#e2e2e2\"/><text x=\"262\" y=\"242\" font-size=\"13\">4</text><line x1=\"328\" y1=\"35\" x2=\"328\" y2=\"225\" stroke=\"#e2e2e2\"/><text x=\"324\" y=\"242\" font-size=\"13\">5</text><line x1=\"60\" y1=\"215.0\" x2=\"350\" y2=\"215.0\" stroke=\"#e2e2e2\"/><line x1=\"60\" y1=\"178.75\" x2=\"350\" y2=\"178.75\" stroke=\"#e2e2e2\"/><line x1=\"60\" y1=\"142.5\" x2=\"350\" y2=\"142.5\" stroke=\"#e2e2e2\"/><line x1=\"60\" y1=\"106.25\" x2=\"350\" y2=\"106.25\" stroke=\"#e2e2e2\"/><line x1=\"60\" y1=\"70.0\" x2=\"350\" y2=\"70.0\" stroke=\"#e2e2e2\"/>\n<line x1=\"55\" y1=\"215\" x2=\"355\" y2=\"215\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"80\" y1=\"230\" x2=\"80\" y2=\"25\" stroke=\"#222\" stroke-width=\"2\"/>\n<path d=\"M 80,215 L 80.0,70.0 L 83.1,83.5 L 86.2,95.2 L 89.3,105.4 L 92.4,114.3 L 95.5,122.2 L 98.6,129.2 L 101.7,135.4 L 104.8,141.0 L 107.9,146.0 L 111.0,150.6 L 114.1,154.6 L 117.2,158.4 L 120.3,161.7 L 123.4,164.8 L 126.5,167.7 L 129.6,170.2 L 132.7,172.6 L 135.8,174.8 L 138.9,176.9 L 142.0,178.8 L 145.1,180.5 L 148.2,182.1 L 151.3,183.6 L 154.4,185.0 L 157.5,186.4 L 160.6,187.6 L 163.7,188.7 L 166.8,189.8 L 169.9,190.8 L 173.0,191.8 L 176.1,192.7 L 179.2,193.6 L 182.3,194.4 L 185.4,195.1 L 188.5,195.8 L 191.6,196.5 L 194.7,197.1 L 197.8,197.8 L 200.9,198.3 L 204.0,198.9 L 207.1,199.4 L 210.2,199.9 L 213.3,200.4 L 216.4,200.8 L 219.5,201.3 L 222.6,201.7 L 225.7,202.1 L 228.8,202.5 L 231.9,202.8 L 235.0,203.2 L 238.1,203.5 L 241.2,203.8 L 244.3,204.1 L 247.4,204.4 L 250.5,204.7 L 253.6,205.0 L 256.7,205.2 L 259.8,205.5 L 262.9,205.7 L 266.0,205.9 L 269.1,206.2 L 272.2,206.4 L 275.3,206.6 L 278.4,206.8 L 281.5,207.0 L 284.6,207.2 L 287.7,207.3 L 290.8,207.5 L 293.9,207.7 L 297.0,207.8 L 300.1,208.0 L 303.2,208.1 L 306.3,208.3 L 309.4,208.4 L 312.5,208.6 L 315.6,208.7 L 318.7,208.8 L 321.8,209.0 L 324.9,209.1 L 328.0,209.2 L 328,215 Z\" fill=\"#999\" fill-opacity=\".25\"/>\n<path d=\"M 80.0,70.0 L 83.1,83.5 L 86.2,95.2 L 89.3,105.4 L 92.4,114.3 L 95.5,122.2 L 98.6,129.2 L 101.7,135.4 L 104.8,141.0 L 107.9,146.0 L 111.0,150.6 L 114.1,154.6 L 117.2,158.4 L 120.3,161.7 L 123.4,164.8 L 126.5,167.7 L 129.6,170.2 L 132.7,172.6 L 135.8,174.8 L 138.9,176.9 L 142.0,178.8 L 145.1,180.5 L 148.2,182.1 L 151.3,183.6 L 154.4,185.0 L 157.5,186.4 L 160.6,187.6 L 163.7,188.7 L 166.8,189.8 L 169.9,190.8 L 173.0,191.8 L 176.1,192.7 L 179.2,193.6 L 182.3,194.4 L 185.4,195.1 L 188.5,195.8 L 191.6,196.5 L 194.7,197.1 L 197.8,197.8 L 200.9,198.3 L 204.0,198.9 L 207.1,199.4 L 210.2,199.9 L 213.3,200.4 L 216.4,200.8 L 219.5,201.3 L 222.6,201.7 L 225.7,202.1 L 228.8,202.5 L 231.9,202.8 L 235.0,203.2 L 238.1,203.5 L 241.2,203.8 L 244.3,204.1 L 247.4,204.4 L 250.5,204.7 L 253.6,205.0 L 256.7,205.2 L 259.8,205.5 L 262.9,205.7 L 266.0,205.9 L 269.1,206.2 L 272.2,206.4 L 275.3,206.6 L 278.4,206.8 L 281.5,207.0 L 284.6,207.2 L 287.7,207.3 L 290.8,207.5 L 293.9,207.7 L 297.0,207.8 L 300.1,208.0 L 303.2,208.1 L 306.3,208.3 L 309.4,208.4 L 312.5,208.6 L 315.6,208.7 L 318.7,208.8 L 321.8,209.0 L 324.9,209.1 L 328.0,209.2\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.4\"/>\n<text x=\"250\" y=\"92\" font-size=\"16\">y = 1/x²</text>\n<text x=\"350\" y=\"207\" font-size=\"15\">x</text><text x=\"88\" y=\"32\" font-size=\"15\">y</text>\n</svg></span><p>Grafen visar \\(f(x)=1/x^2\\). Bestäm arean av det obegränsade området mellan grafen, \\(x\\)-axeln och linjen \\(x=1\\).</p>",
-    "s": "<p>Arean skrivs som den generaliserade integralen</p><p>\\[\\int_1^\\infty \\frac{1}{x^2}\\,dx=\\lim_{b\\to\\infty}\\left[-\\frac{1}{x}\\right]_1^b.\\]</p><p>\\[\\lim_{b\\to\\infty}\\left(1-\\frac1b\\right)=\\mathbf{1}.\\]</p><p>Integralen konvergerar alltså trots att området sträcker sig oändligt långt åt höger.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Arean skrivs som den generaliserade integralen</p><p>\\[\\int_1^\\infty \\frac{1}{x^2}\\,dx=\\lim_{b\\to\\infty}\\left[-\\frac{1}{x}\\right]_1^b.\\]</p><p>\\[\\lim_{b\\to\\infty}\\left(1-\\frac1b\\right)=\\mathbf{1}.\\]</p><p>Integralen konvergerar alltså trots att området sträcker sig oändligt långt åt höger.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "id": "3.16",
     "miniräknare": false,
     "geogebra": false,
@@ -19974,7 +20855,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -19990,12 +20872,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.05555555555555555,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -20011,12 +20894,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.3333333333333333,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 3,
@@ -20040,7 +20924,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20061,7 +20946,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -20071,7 +20957,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "3.25",
     "t": "<p>Avgör om integralen konvergerar och bestäm i så fall dess värde:</p><p>\\[\\int_1^{\\infty}\\frac{1}{x^3}\\,dx.\\]</p>",
-    "s": "<p>Vi skriver integralen som ett gränsvärde:</p><p>\\[\\int_1^{\\infty}\\frac{1}{x^3}\\,dx=\\lim_{b\\to\\infty}\\int_1^b x^{-3}\\,dx.\\]</p><p>En primitiv funktion är \\(-\\frac{1}{2x^2}\\). Alltså</p><p>\\[\\lim_{b\\to\\infty}\\left[-\\frac{1}{2x^2}\\right]_1^b=\\lim_{b\\to\\infty}\\left(-\\frac{1}{2b^2}+\\frac{1}{2}\\right)=\\frac{1}{2}.\\]</p><p>Integralen <strong>konvergerar</strong> och värdet är <strong>\\(1/2\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area. Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p><div class=\"facit-arbete\"><p>Vi skriver integralen som ett gränsvärde:</p><p>\\[\\int_1^{\\infty}\\frac{1}{x^3}\\,dx=\\lim_{b\\to\\infty}\\int_1^b x^{-3}\\,dx.\\]</p><p>En primitiv funktion är \\(-\\frac{1}{2x^2}\\). Alltså</p><p>\\[\\lim_{b\\to\\infty}\\left[-\\frac{1}{2x^2}\\right]_1^b=\\lim_{b\\to\\infty}\\left(-\\frac{1}{2b^2}+\\frac{1}{2}\\right)=\\frac{1}{2}.\\]</p><p>Integralen <strong>konvergerar</strong> och värdet är <strong>\\(1/2\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Generaliserade integraler",
@@ -20083,7 +20969,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20099,13 +20986,14 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 1e-05,
+    "tolerans": 0.00001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 3,
@@ -20127,7 +21015,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -20149,7 +21038,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20165,12 +21055,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.041666666666666664,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -20192,7 +21083,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 3,
@@ -20208,12 +21100,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 3,
@@ -20236,7 +21129,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20257,7 +21151,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -20279,7 +21174,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20295,13 +21191,14 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.027777777777777776,
-    "tolerans": 1e-05,
+    "tolerans": 0.00001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 3,
@@ -20323,7 +21220,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20332,7 +21230,7 @@ window.BANKMATF1 = [
     "typ": "jämföra generaliserade integraler med olika exponenter",
     "poang": "0/2/0",
     "t": "<p>För vilka av \\(p=0,8\\), \\(p=1\\) och \\(p=1,4\\) konvergerar \\(\\int_1^{\\infty}x^{-p}\\,dx\\)?</p>",
-    "s": "<p>Vi använder att en integral av typen \\(\\int_1^{\\infty}x^{-p}dx\\) konvergerar när \\(p\\gt1\\).</p><p>Därför divergerar fallen \\(p=0,8\\) och \\(p=1\\), medan <strong>\\(p=1,4\\)</strong> ger en konvergent integral.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area. Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p><div class=\"facit-arbete\"><p>Vi använder att en integral av typen \\(\\int_1^{\\infty}x^{-p}dx\\) konvergerar när \\(p\\gt1\\).</p><p>Därför divergerar fallen \\(p=0,8\\) och \\(p=1\\), medan <strong>\\(p=1,4\\)</strong> ger en konvergent integral.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></div>",
     "id": "3.39",
     "miniräknare": false,
     "geogebra": false,
@@ -20346,7 +21244,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20362,12 +21261,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -20389,7 +21289,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20405,12 +21306,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 3,
@@ -20426,13 +21328,14 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.16666666666666666,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 3,
@@ -20455,7 +21358,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 3,
@@ -20471,13 +21375,14 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.125,
-    "tolerans": 1e-05,
+    "tolerans": 0.00001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 3,
@@ -20486,7 +21391,7 @@ window.BANKMATF1 = [
     "typ": "generaliserad integral med problem vid x lika med noll",
     "poang": "0/2/0",
     "t": "<p>Avgör om \\(\\int_{-1}^{1}\\frac1{x^2}\\,dx\\) konvergerar.</p>",
-    "s": "<p>Integranden går mot oändligheten när \\(x\\to0\\), så integralen måste delas i två delar.</p><p>Redan</p><p>\\[\\int_0^x^{-2}dx=\\lim_{a\\to0^+}\\left[-\\fracx\\right]_a^1=\\infty.\\]</p><p>Alltså <strong>divergerar integralen</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area. Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p><div class=\"facit-arbete\"><p>Integranden går mot oändligheten när \\(x\\to0\\), så integralen måste delas i två delar.</p><p>Redan</p><p>\\[\\int_0^x^{-2}dx=\\lim_{a\\to0^+}\\left[-\\fracx\\right]_a^1=\\infty.\\]</p><p>Alltså <strong>divergerar integralen</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></div>",
     "id": "3.61",
     "miniräknare": false,
     "geogebra": false,
@@ -20500,7 +21405,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20522,7 +21428,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20546,7 +21453,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20562,12 +21470,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.3333333333333333,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -20583,12 +21492,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20610,7 +21520,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20631,7 +21542,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -20640,7 +21552,7 @@ window.BANKMATF1 = [
     "typ": "generaliserad integral från 2 till oändligheten",
     "poang": "2/0/0",
     "t": "<span class=\"fig\"><svg width=\"440\" height=\"280\" viewBox=\"0 0 440 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Grafen y lika med ett genom x kvadrat med området från x lika med två mot oändligheten markerat\"><rect width=\"440\" height=\"280\" fill=\"white\"/><polygon points=\"136.9,235.0 136.9,203.0 139.7,204.2 142.4,205.4 145.1,206.5 147.8,207.5 150.6,208.5 153.3,209.5 156.0,210.4 158.8,211.2 161.5,212.0 164.2,212.8 167.0,213.5 169.7,214.2 172.4,214.8 175.2,215.4 177.9,216.0 180.6,216.6 183.3,217.2 186.1,217.7 188.8,218.2 191.5,218.7 194.3,219.1 197.0,219.6 199.7,220.0 202.5,220.4 205.2,220.8 207.9,221.1 210.7,221.5 213.4,221.8 216.1,222.2 218.8,222.5 221.6,222.8 224.3,223.1 227.0,223.4 229.8,223.7 232.5,223.9 235.2,224.2 238.0,224.4 240.7,224.7 243.4,224.9 246.2,225.1 248.9,225.3 251.6,225.5 254.3,225.7 257.1,225.9 259.8,226.1 262.5,226.3 265.3,226.5 268.0,226.7 270.7,226.8 273.5,227.0 276.2,227.1 278.9,227.3 281.7,227.5 284.4,227.6 287.1,227.7 289.8,227.9 292.6,228.0 295.3,228.1 298.0,228.3 300.8,228.4 303.5,228.5 306.2,228.6 309.0,228.7 311.7,228.8 314.4,228.9 317.2,229.0 319.9,229.2 322.6,229.2 325.3,229.3 328.1,229.4 330.8,229.5 333.5,229.6 336.3,229.7 339.0,229.8 341.7,229.9 344.5,230.0 347.2,230.0 349.9,230.1 352.7,230.2 355.4,230.3 358.1,230.3 360.8,230.4 363.6,230.5 366.3,230.5 369.0,230.6 371.8,230.7 374.5,230.7 377.2,230.8 380.0,230.9 382.7,230.9 385.4,231.0 388.2,231.0 390.9,231.1 393.6,231.1 396.3,231.2 399.1,231.2 401.8,231.3 404.5,231.3 407.3,231.4 410.0,231.4 410.0,235.0\" fill=\"#E3B52B\" fill-opacity=\".22\"/><line x1=\"55\" y1=\"235\" x2=\"410\" y2=\"235\" stroke=\"#555\" stroke-width=\"1.3\"/><line x1=\"55\" y1=\"30\" x2=\"55\" y2=\"235\" stroke=\"#555\" stroke-width=\"1.3\"/><polyline points=\"55.0,34.8 58.0,54.8 60.9,72.0 63.9,86.9 66.8,99.8 69.8,111.0 72.8,121.0 75.7,129.8 78.7,137.6 81.6,144.5 84.6,150.8 87.5,156.4 90.5,161.5 93.5,166.1 96.4,170.2 99.4,174.1 102.3,177.5 105.3,180.7 108.2,183.7 111.2,186.4 114.2,188.9 117.1,191.2 120.1,193.3 123.0,195.3 126.0,197.2 129.0,198.9 131.9,200.5 134.9,202.0 137.8,203.4 140.8,204.7 143.8,205.9 146.7,207.1 149.7,208.2 152.6,209.2 155.6,210.2 158.5,211.1 161.5,212.0 164.5,212.8 167.4,213.6 170.4,214.3 173.3,215.0 176.3,215.7 179.2,216.3 182.2,216.9 185.2,217.5 188.1,218.1 191.1,218.6 194.0,219.1 197.0,219.6 200.0,220.0 202.9,220.4 205.9,220.9 208.8,221.3 211.8,221.6 214.7,222.0 217.7,222.4 220.7,222.7 223.6,223.0 226.6,223.3 229.5,223.6 232.5,223.9 235.5,224.2 238.4,224.5 241.4,224.7 244.3,225.0 247.3,225.2 250.3,225.4 253.2,225.7 256.2,225.9 259.1,226.1 262.1,226.3 265.0,226.5 268.0,226.7 271.0,226.8 273.9,227.0 276.9,227.2 279.8,227.4 282.8,227.5 285.8,227.7 288.7,227.8 291.7,228.0 294.6,228.1 297.6,228.2 300.5,228.4 303.5,228.5 306.5,228.6 309.4,228.7 312.4,228.9 315.3,229.0 318.3,229.1 321.2,229.2 324.2,229.3 327.2,229.4 330.1,229.5 333.1,229.6 336.0,229.7 339.0,229.8 342.0,229.9 344.9,230.0 347.9,230.1 350.8,230.1 353.8,230.2 356.8,230.3 359.7,230.4 362.7,230.5 365.6,230.5 368.6,230.6 371.5,230.7 374.5,230.7 377.5,230.8 380.4,230.9 383.4,230.9 386.3,231.0 389.3,231.1 392.2,231.1 395.2,231.2 398.2,231.2 401.1,231.3 404.1,231.3 407.0,231.4 410.0,231.4\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.4\"/><line x1=\"136.9\" y1=\"235\" x2=\"136.9\" y2=\"203.0\" stroke=\"#777\" stroke-dasharray=\"5 4\"/><text x=\"136.9\" y=\"255\" font-size=\"12\" text-anchor=\"middle\">2</text><text x=\"330\" y=\"78\" font-size=\"14\" fill=\"#2C62A8\">y = 1/x²</text><text x=\"400\" y=\"229\" font-size=\"14\">x</text><text x=\"63\" y=\"27\" font-size=\"14\">y</text></svg></span><p>Beräkna</p><p>\\[\\int_2^{\\infty}\\frac{1}{x^2}\\,dx.\\]</p>",
-    "s": "<p>Skriv integralen som ett gränsvärde:</p><p>\\[\\int_2^{\\infty}\\frac1{x^2}\\,dx=\\lim_{b\\to\\infty}\\int_2^b x^{-2}\\,dx.\\]</p><p>\\[=\\lim_{b\\to\\infty}\\left[-\\fracx\\right]_2^b=\\lim_{b\\to\\infty}\\left(-\\frac1b+\\frac12\\right)=\\frac12.\\]</p><p><strong>Integralen konvergerar och värdet är \\(\\frac12\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area. Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p><div class=\"facit-arbete\"><p>Skriv integralen som ett gränsvärde:</p><p>\\[\\int_2^{\\infty}\\frac1{x^2}\\,dx=\\lim_{b\\to\\infty}\\int_2^b x^{-2}\\,dx.\\]</p><p>\\[=\\lim_{b\\to\\infty}\\left[-\\fracx\\right]_2^b=\\lim_{b\\to\\infty}\\left(-\\frac1b+\\frac12\\right)=\\frac12.\\]</p><p><strong>Integralen konvergerar och värdet är \\(\\frac12\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></div>",
     "id": "3.85",
     "miniräknare": false,
     "geogebra": false,
@@ -20653,7 +21565,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20669,13 +21582,14 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.0013333333333333333,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 3,
@@ -20697,7 +21611,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 3,
@@ -20719,7 +21634,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20735,12 +21651,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.125,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -20749,7 +21666,7 @@ window.BANKMATF1 = [
     "typ": "avgöra divergens för generaliserad integral",
     "poang": "2/0/0",
     "t": "<p>Avgör om integralen</p><p>\\[\\int_1^{\\infty}\\frac{1}{\\sqrt{x}}\\,dx\\]</p><p>konvergerar eller divergerar.</p>",
-    "s": "<p>Integranden är \\(x^{-1/2}\\). För en integral av typen \\(\\int_1^{\\infty}x^{-p}dx\\) krävs \\(p\\gt 1\\) för konvergens.</p><p>Här är \\(p=\\frac12\\), så integralen <strong>divergerar</strong>.</p><p>Man kan också se det direkt:</p><p>\\[\\int_1^b x^{-1/2}dx=2\\sqrt b-2\\to\\infty.\\]</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area. Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p><div class=\"facit-arbete\"><p>Integranden är \\(x^{-1/2}\\). För en integral av typen \\(\\int_1^{\\infty}x^{-p}dx\\) krävs \\(p\\gt 1\\) för konvergens.</p><p>Här är \\(p=\\frac12\\), så integralen <strong>divergerar</strong>.</p><p>Man kan också se det direkt:</p><p>\\[\\int_1^b x^{-1/2}dx=2\\sqrt b-2\\to\\infty.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></div>",
     "id": "3.87",
     "miniräknare": false,
     "geogebra": false,
@@ -20763,7 +21680,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20779,12 +21697,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.125,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20806,7 +21725,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20827,7 +21747,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -20851,7 +21772,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20867,13 +21789,14 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.00510204081632653,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 3,
@@ -20895,7 +21818,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20917,7 +21841,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -20933,12 +21858,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.3333333333333333,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -20960,7 +21886,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv modellen som startvärde gånger förändringsfaktor upphöjd till tid. Isolera potensen innan du tar logaritm.</p>"
   },
   {
     "kap": 3,
@@ -20976,12 +21903,13 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.012345679012345678,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -21003,7 +21931,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -21024,7 +21953,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -21040,13 +21970,14 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.05555555555555555,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 3,
@@ -21055,7 +21986,7 @@ window.BANKMATF1 = [
     "typ": "parameter vid noll",
     "poang": "0/2/0",
     "t": "<p>För vilka reella \\(a\\) konvergerar</p><p>\\[\\int_0^x^a\\,dx?\\]</p><p>Bestäm också integralens värde när den konvergerar.</p>",
-    "s": "<p>För \\(a\\ne-1\\) är en primitiv funktion</p><p>\\[\\frac{x^{a+1}}{a+1}.\\]</p><p>Gränsvärdet vid 0 blir ändligt precis när \\(a+1\\gt 0\\), alltså när</p><p>\\[a\\gt -1.\\]</p><p>Då är</p><p>\\[\\int_0^x^adx=\\left[\\frac{x^{a+1}}{a+1}\\right]_0^1=\\frac1{a+1}.\\]</p><p><strong>Konvergens för \\(a\\gt -1\\), med värdet \\(1/(a+1)\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area. Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p><div class=\"facit-arbete\"><p>För \\(a\\ne-1\\) är en primitiv funktion</p><p>\\[\\frac{x^{a+1}}{a+1}.\\]</p><p>Gränsvärdet vid 0 blir ändligt precis när \\(a+1\\gt 0\\), alltså när</p><p>\\[a\\gt -1.\\]</p><p>Då är</p><p>\\[\\int_0^x^adx=\\left[\\frac{x^{a+1}}{a+1}\\right]_0^1=\\frac1{a+1}.\\]</p><p><strong>Konvergens för \\(a\\gt -1\\), med värdet \\(1/(a+1)\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></div>",
     "id": "3.109",
     "miniräknare": false,
     "geogebra": false,
@@ -21070,7 +22001,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -21092,7 +22024,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -21108,13 +22041,14 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": -0.75,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -21147,7 +22081,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "linjär approximation",
       "uppskattning"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21184,7 +22119,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "uppskattning",
       "för stor/för liten"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21193,7 +22129,7 @@ window.BANKMATF1 = [
     "typ": "linjär approximation nära känt värde",
     "poang": "2/0/0",
     "t": "<p>Använd en linjär approximation kring \\(x=16\\) för att uppskatta \\(\\sqrt{15,8}\\).</p>",
-    "s": "<p>Låt \\(f(x)=\\sqrt{x}\\). Då är \\(f(16)=4\\) och \\(f'(16)=1/(2\\sqrt{16})=1/8\\).</p><p>Den linjära approximationen är</p><p>\\[L(x)=4+\\frac{1}{8}(x-16).\\]</p><p>För \\(x=15,8\\):</p><p>\\[L(15,8)=4+\\frac{1}{8}(-0,2)=\\mathbf{3,975}.\\]</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>Låt \\(f(x)=\\sqrt{x}\\). Då är \\(f(16)=4\\) och \\(f'(16)=1/(2\\sqrt{16})=1/8\\).</p><p>Den linjära approximationen är</p><p>\\[L(x)=4+\\frac{1}{8}(x-16).\\]</p><p>För \\(x=15,8\\):</p><p>\\[L(15,8)=4+\\frac{1}{8}(-0,2)=\\mathbf{3,975}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
     "id": "3.18",
     "miniräknare": false,
     "geogebra": false,
@@ -21206,7 +22142,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21228,7 +22165,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21238,7 +22176,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "3.26",
     "t": "<span class=\"fig\"><svg height=\"270\" width=\"390\" viewBox=\"0 0 390 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Grafen till y lika med roten ur x och tangentlinjen vid x lika med 16\">\n<rect width=\"390\" height=\"270\" fill=\"white\"/>\n<line x1=\"40.0\" y1=\"30\" x2=\"40.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"34.0\" y=\"257\" font-size=\"12\">12</text><line x1=\"95.0\" y1=\"30\" x2=\"95.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"89.0\" y=\"257\" font-size=\"12\">13</text><line x1=\"150.0\" y1=\"30\" x2=\"150.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"144.0\" y=\"257\" font-size=\"12\">14</text><line x1=\"205.0\" y1=\"30\" x2=\"205.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"199.0\" y=\"257\" font-size=\"12\">15</text><line x1=\"260.0\" y1=\"30\" x2=\"260.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"254.0\" y=\"257\" font-size=\"12\">16</text><line x1=\"315.0\" y1=\"30\" x2=\"315.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"309.0\" y=\"257\" font-size=\"12\">17</text><line x1=\"370.0\" y1=\"30\" x2=\"370.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"364.0\" y=\"257\" font-size=\"12\">18</text><line x1=\"425.0\" y1=\"30\" x2=\"425.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"419.0\" y=\"257\" font-size=\"12\">19</text><line x1=\"480.0\" y1=\"30\" x2=\"480.0\" y2=\"240\" stroke=\"#e6e6e6\"/><text x=\"474.0\" y=\"257\" font-size=\"12\">20</text><line x1=\"35\" y1=\"226.0\" x2=\"370\" y2=\"226.0\" stroke=\"#e6e6e6\"/><line x1=\"35\" y1=\"181.0\" x2=\"370\" y2=\"181.0\" stroke=\"#e6e6e6\"/><line x1=\"35\" y1=\"136.0\" x2=\"370\" y2=\"136.0\" stroke=\"#e6e6e6\"/>\n<line x1=\"35\" y1=\"235\" x2=\"375\" y2=\"235\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"40\" y1=\"245\" x2=\"40\" y2=\"25\" stroke=\"#222\" stroke-width=\"2\"/>\n<path d=\"M 40.0,229.2 L 43.7,228.4 L 47.3,227.5 L 51.0,226.6 L 54.7,225.8 L 58.3,224.9 L 62.0,224.1 L 65.7,223.2 L 69.3,222.4 L 73.0,221.5 L 76.7,220.7 L 80.3,219.8 L 84.0,219.0 L 87.7,218.2 L 91.3,217.3 L 95.0,216.5 L 98.7,215.7 L 102.3,214.8 L 106.0,214.0 L 109.7,213.2 L 113.3,212.4 L 117.0,211.5 L 120.7,210.7 L 124.3,209.9 L 128.0,209.1 L 131.7,208.3 L 135.3,207.5 L 139.0,206.7 L 142.7,205.9 L 146.3,205.1 L 150.0,204.3 L 153.7,203.5 L 157.3,202.7 L 161.0,201.9 L 164.7,201.1 L 168.3,200.3 L 172.0,199.5 L 175.7,198.7 L 179.3,197.9 L 183.0,197.1 L 186.7,196.3 L 190.3,195.5 L 194.0,194.8 L 197.7,194.0 L 201.3,193.2 L 205.0,192.4 L 208.7,191.7 L 212.3,190.9 L 216.0,190.1 L 219.7,189.3 L 223.3,188.6 L 227.0,187.8 L 230.7,187.1 L 234.3,186.3 L 238.0,185.5 L 241.7,184.8 L 245.3,184.0 L 249.0,183.3 L 252.7,182.5 L 256.3,181.8 L 260.0,181.0 L 263.7,180.3 L 267.3,179.5 L 271.0,178.8 L 274.7,178.0 L 278.3,177.3 L 282.0,176.5 L 285.7,175.8 L 289.3,175.0 L 293.0,174.3 L 296.7,173.6 L 300.3,172.8 L 304.0,172.1 L 307.7,171.4 L 311.3,170.6 L 315.0,169.9 L 318.7,169.2 L 322.3,168.5 L 326.0,167.7 L 329.7,167.0 L 333.3,166.3 L 337.0,165.6 L 340.7,164.9 L 344.3,164.1 L 348.0,163.4 L 351.7,162.7 L 355.3,162.0 L 359.0,161.3 L 362.7,160.6 L 366.3,159.9 L 370.0,159.2 L 373.7,158.5 L 377.3,157.8 L 381.0,157.0 L 384.7,156.3 L 388.3,155.6 L 392.0,154.9 L 395.7,154.2 L 399.3,153.5 L 403.0,152.9 L 406.7,152.2 L 410.3,151.5 L 414.0,150.8 L 417.7,150.1 L 421.3,149.4 L 425.0,148.7 L 428.7,148.0 L 432.3,147.3 L 436.0,146.6 L 439.7,146.0 L 443.3,145.3 L 447.0,144.6 L 450.7,143.9 L 454.3,143.2 L 458.0,142.6 L 461.7,141.9 L 465.3,141.2 L 469.0,140.5 L 472.7,139.9 L 476.3,139.2 L 480.0,138.5\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.6\"/>\n<path d=\"M 40.0,226.0 L 43.7,225.2 L 47.3,224.5 L 51.0,223.8 L 54.7,223.0 L 58.3,222.2 L 62.0,221.5 L 65.7,220.7 L 69.3,220.0 L 73.0,219.2 L 76.7,218.5 L 80.3,217.7 L 84.0,217.0 L 87.7,216.2 L 91.3,215.5 L 95.0,214.8 L 98.7,214.0 L 102.3,213.2 L 106.0,212.5 L 109.7,211.8 L 113.3,211.0 L 117.0,210.2 L 120.7,209.5 L 124.3,208.8 L 128.0,208.0 L 131.7,207.3 L 135.3,206.5 L 139.0,205.8 L 142.7,205.0 L 146.3,204.2 L 150.0,203.5 L 153.7,202.8 L 157.3,202.0 L 161.0,201.2 L 164.7,200.5 L 168.3,199.7 L 172.0,199.0 L 175.7,198.2 L 179.3,197.5 L 183.0,196.7 L 186.7,196.0 L 190.3,195.2 L 194.0,194.5 L 197.7,193.8 L 201.3,193.0 L 205.0,192.2 L 208.7,191.5 L 212.3,190.8 L 216.0,190.0 L 219.7,189.2 L 223.3,188.5 L 227.0,187.8 L 230.7,187.0 L 234.3,186.2 L 238.0,185.5 L 241.7,184.8 L 245.3,184.0 L 249.0,183.2 L 252.7,182.5 L 256.3,181.8 L 260.0,181.0 L 263.7,180.3 L 267.3,179.5 L 271.0,178.7 L 274.7,178.0 L 278.3,177.3 L 282.0,176.5 L 285.7,175.7 L 289.3,175.0 L 293.0,174.2 L 296.7,173.5 L 300.3,172.7 L 304.0,172.0 L 307.7,171.2 L 311.3,170.5 L 315.0,169.8 L 318.7,169.0 L 322.3,168.2 L 326.0,167.5 L 329.7,166.8 L 333.3,166.0 L 337.0,165.2 L 340.7,164.5 L 344.3,163.8 L 348.0,163.0 L 351.7,162.2 L 355.3,161.5 L 359.0,160.8 L 362.7,160.0 L 366.3,159.2 L 370.0,158.5 L 373.7,157.8 L 377.3,157.0 L 381.0,156.2 L 384.7,155.5 L 388.3,154.8 L 392.0,154.0 L 395.7,153.2 L 399.3,152.5 L 403.0,151.7 L 406.7,151.0 L 410.3,150.2 L 414.0,149.5 L 417.7,148.8 L 421.3,148.0 L 425.0,147.2 L 428.7,146.5 L 432.3,145.8 L 436.0,145.0 L 439.7,144.2 L 443.3,143.5 L 447.0,142.8 L 450.7,142.0 L 454.3,141.2 L 458.0,140.5 L 461.7,139.7 L 465.3,139.0 L 469.0,138.3 L 472.7,137.5 L 476.3,136.7 L 480.0,136.0\" fill=\"none\" stroke=\"#777\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/>\n<circle cx=\"260.0\" cy=\"181.0\" r=\"4\" fill=\"#222\"/>\n<text x=\"160\" y=\"55\" font-size=\"14\">y = √x</text>\n<text x=\"210\" y=\"148\" font-size=\"14\">tangent</text>\n</svg></span><p>Använd tangentlinjen i \\(x=16\\) för att uppskatta \\(\\sqrt{16,3}\\).</p>",
-    "s": "<p>Låt \\(f(x)=\\sqrt{x}\\). Då är \\(f(16)=4\\) och</p><p>\\[f'(x)=\\frac{1}{2\\sqrt{x}}\\Rightarrow f'(16)=\\frac{1}{8}.\\]</p><p>Tangentlinjen i \\(x=16\\) blir därför</p><p>\\[L(x)=4+\\frac{1}{8}(x-16).\\]</p><p>För \\(x=16,3\\) får vi</p><p>\\[L(16,3)=4+\\frac{1}{8}\\cdot 0,3=4+0,0375=4,0375.\\]</p><p><strong>Uppskattningen blir \\(\\sqrt{16,3}\\approx 4,0375\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>Låt \\(f(x)=\\sqrt{x}\\). Då är \\(f(16)=4\\) och</p><p>\\[f'(x)=\\frac{1}{2\\sqrt{x}}\\Rightarrow f'(16)=\\frac{1}{8}.\\]</p><p>Tangentlinjen i \\(x=16\\) blir därför</p><p>\\[L(x)=4+\\frac{1}{8}(x-16).\\]</p><p>För \\(x=16,3\\) får vi</p><p>\\[L(16,3)=4+\\frac{1}{8}\\cdot 0,3=4+0,0375=4,0375.\\]</p><p><strong>Uppskattningen blir \\(\\sqrt{16,3}\\approx 4,0375\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
@@ -21250,7 +22188,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21272,7 +22211,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -21294,7 +22234,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21315,7 +22256,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21337,7 +22279,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -21346,7 +22289,7 @@ window.BANKMATF1 = [
     "typ": "bedöma över- eller underskattning",
     "poang": "0/2/0",
     "t": "<p>En elev använder tangentlinjen till \\(f(x)=\\sqrt{x}\\) vid \\(x=9\\) för att uppskatta \\(\\sqrt{9,4}\\). Kommer approximationen att bli något för stor eller något för liten? Motivera.</p>",
-    "s": "<p>För \\(x\\gt0\\) är</p><p>\\[f''(x)=-\\frac{1}{4x^{3/2}}\\lt0.\\]</p><p>Grafen är alltså konkav nedåt. En tangent till en konkav nedåt-kurva ligger ovanför grafen nära tangentpunkten. Approximationen blir därför <strong>något för stor</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>För \\(x\\gt0\\) är</p><p>\\[f''(x)=-\\frac{1}{4x^{3/2}}\\lt0.\\]</p><p>Grafen är alltså konkav nedåt. En tangent till en konkav nedåt-kurva ligger ovanför grafen nära tangentpunkten. Approximationen blir därför <strong>något för stor</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
     "id": "3.43",
     "miniräknare": false,
     "geogebra": false,
@@ -21357,7 +22300,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21379,7 +22323,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21403,7 +22348,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21425,7 +22371,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21458,7 +22405,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "linjär approximation",
       "uppskattning"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21480,7 +22428,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21496,13 +22445,14 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": -0.75,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -21511,7 +22461,7 @@ window.BANKMATF1 = [
     "typ": "relaterade förändringshastigheter två fordon",
     "poang": "0/3/0",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 420 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två bilar på vinkelräta vägar\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"225\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<rect x=\"182\" y=\"25\" width=\"56\" height=\"205\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"25\" y=\"102\" width=\"370\" height=\"56\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"170\" y=\"90\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.6\"/>\n<circle cx=\"210\" cy=\"70\" r=\"4.5\" fill=\"#8b1e3f\"/><rect x=\"198\" y=\"57\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#c95477\" stroke=\"#8b1e3f\"/>\n<circle cx=\"318\" cy=\"130\" r=\"4.5\" fill=\"#0e5d9e\"/><rect x=\"306\" y=\"121\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"210\" y1=\"130\" x2=\"210\" y2=\"70\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"130\" x2=\"318\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"70\" x2=\"318\" y2=\"130\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"192\" y=\"103\" font-size=\"15\">y</text>\n<text x=\"260\" y=\"124\" font-size=\"15\">x</text>\n<text x=\"256\" y=\"96\" font-size=\"15\">s</text>\n<line x1=\"210\" y1=\"54\" x2=\"210\" y2=\"32\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"210,28 205,38 215,38\" fill=\"#8b1e3f\"/>\n<line x1=\"334\" y1=\"130\" x2=\"356\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"360,130 350,125 350,135\" fill=\"#0e5d9e\"/>\n<text x=\"116\" y=\"50\" font-size=\"12\">90 km/h</text><text x=\"307\" y=\"166\" font-size=\"12\">v km/h</text>\n<text x=\"223\" y=\"145\" font-size=\"13\">korsning</text>\n<text x=\"195\" y=\"50\" font-size=\"13\">A</text>\n<text x=\"334\" y=\"145\" font-size=\"13\">B</text>\n</svg></span><p>Två raka vägar korsar varandra vinkelrätt. Bil A är 300 m norr om korsningen och kör söderut med 90 km/h. Bil B är 400 m öster om korsningen och kör österut. I detta ögonblick ökar avståndet mellan bilarna med 18 km/h.</p><p>Bestäm bil B:s hastighet.</p>",
-    "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 420 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till bilar på vinkelräta vägar\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"225\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<rect x=\"182\" y=\"25\" width=\"56\" height=\"205\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"25\" y=\"102\" width=\"370\" height=\"56\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"170\" y=\"90\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.6\"/>\n<circle cx=\"210\" cy=\"70\" r=\"4.5\" fill=\"#8b1e3f\"/><rect x=\"198\" y=\"57\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#c95477\" stroke=\"#8b1e3f\"/>\n<circle cx=\"318\" cy=\"130\" r=\"4.5\" fill=\"#0e5d9e\"/><rect x=\"306\" y=\"121\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"210\" y1=\"130\" x2=\"210\" y2=\"70\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"130\" x2=\"318\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"70\" x2=\"318\" y2=\"130\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"192\" y=\"103\" font-size=\"15\">y</text>\n<text x=\"260\" y=\"124\" font-size=\"15\">x</text>\n<text x=\"256\" y=\"96\" font-size=\"15\">s</text>\n<line x1=\"210\" y1=\"54\" x2=\"210\" y2=\"32\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"210,28 205,38 215,38\" fill=\"#8b1e3f\"/>\n<line x1=\"334\" y1=\"130\" x2=\"356\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"360,130 350,125 350,135\" fill=\"#0e5d9e\"/>\n<text x=\"116\" y=\"50\" font-size=\"12\">90 km/h</text><text x=\"307\" y=\"166\" font-size=\"12\">v km/h</text>\n<text x=\"223\" y=\"145\" font-size=\"13\">korsning</text>\n<text x=\"195\" y=\"50\" font-size=\"13\">A</text>\n<text x=\"334\" y=\"145\" font-size=\"13\">B</text>\n</svg></span><p>Låt <strong>x</strong> vara bil B:s avstånd från korsningen, <strong>y</strong> bil A:s avstånd från korsningen och <strong>s</strong> avståndet mellan bilarna.</p><p>Vi räknar i km. I detta ögonblick är</p><p>\\[x=0,4,\\qquad y=0,3,\\qquad s=0,5.\\]</p><p>Bil A närmar sig korsningen, alltså \\(y'=-90\\). Bil B kör bort från korsningen, så \\(x'=v\\). Dessutom är \\(s'=18\\).</p><p>Av figuren ser vi en rätvinklig triangel, så Pythagoras sats ger</p><p>\\[s^2=x^2+y^2.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[2ss'=2xx'+2yy'\\quad\\Rightarrow\\quad ss'=xx'+yy'.\\]</p><p>Sätt in värdena:</p><p>\\[0,5\\cdot18=0,4v+0,3\\cdot(-90).\\]</p><p>Det ger</p><p>\\[9=0,4v-27\\Rightarrow 0,4v=36\\Rightarrow v=90.\\]</p><p><strong>Svar: bil B kör \\(90\\ \\text{km/h}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten. Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 420 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till bilar på vinkelräta vägar\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"225\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<rect x=\"182\" y=\"25\" width=\"56\" height=\"205\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"25\" y=\"102\" width=\"370\" height=\"56\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"170\" y=\"90\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.6\"/>\n<circle cx=\"210\" cy=\"70\" r=\"4.5\" fill=\"#8b1e3f\"/><rect x=\"198\" y=\"57\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#c95477\" stroke=\"#8b1e3f\"/>\n<circle cx=\"318\" cy=\"130\" r=\"4.5\" fill=\"#0e5d9e\"/><rect x=\"306\" y=\"121\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"210\" y1=\"130\" x2=\"210\" y2=\"70\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"130\" x2=\"318\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"70\" x2=\"318\" y2=\"130\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"192\" y=\"103\" font-size=\"15\">y</text>\n<text x=\"260\" y=\"124\" font-size=\"15\">x</text>\n<text x=\"256\" y=\"96\" font-size=\"15\">s</text>\n<line x1=\"210\" y1=\"54\" x2=\"210\" y2=\"32\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"210,28 205,38 215,38\" fill=\"#8b1e3f\"/>\n<line x1=\"334\" y1=\"130\" x2=\"356\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"360,130 350,125 350,135\" fill=\"#0e5d9e\"/>\n<text x=\"116\" y=\"50\" font-size=\"12\">90 km/h</text><text x=\"307\" y=\"166\" font-size=\"12\">v km/h</text>\n<text x=\"223\" y=\"145\" font-size=\"13\">korsning</text>\n<text x=\"195\" y=\"50\" font-size=\"13\">A</text>\n<text x=\"334\" y=\"145\" font-size=\"13\">B</text>\n</svg></span><p>Låt <strong>x</strong> vara bil B:s avstånd från korsningen, <strong>y</strong> bil A:s avstånd från korsningen och <strong>s</strong> avståndet mellan bilarna.</p><p>Vi räknar i km. I detta ögonblick är</p><p>\\[x=0,4,\\qquad y=0,3,\\qquad s=0,5.\\]</p><p>Bil A närmar sig korsningen, alltså \\(y'=-90\\). Bil B kör bort från korsningen, så \\(x'=v\\). Dessutom är \\(s'=18\\).</p><p>Av figuren ser vi en rätvinklig triangel, så Pythagoras sats ger</p><p>\\[s^2=x^2+y^2.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[2ss'=2xx'+2yy'\\quad\\Rightarrow\\quad ss'=xx'+yy'.\\]</p><p>Sätt in värdena:</p><p>\\[0,5\\cdot18=0,4v+0,3\\cdot(-90).\\]</p><p>Det ger</p><p>\\[9=0,4v-27\\Rightarrow 0,4v=36\\Rightarrow v=90.\\]</p><p><strong>Svar: bil B kör \\(90\\ \\text{km/h}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera kritiska punkter, ändpunkter och derivatans tecken så att du verkligen har rätt typ av extrempunkt.</p></div>",
     "id": "3.09",
     "miniräknare": true,
     "geogebra": false,
@@ -21526,16 +22476,17 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
     "omr": "derivata_tillampningar",
-    "niva": "C",
+    "niva": "A",
     "typ": "relaterade förändringshastigheter ballong",
     "poang": "0/2/1",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ballong och cyklist\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"220\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"35\" y1=\"195\" x2=\"385\" y2=\"195\" stroke=\"#666\" stroke-width=\"2\"/>\n<ellipse cx=\"230\" cy=\"70\" rx=\"28\" ry=\"34\" fill=\"#f0c36d\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"104\" x2=\"230\" y2=\"130\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<rect x=\"220\" y=\"130\" width=\"20\" height=\"15\" fill=\"#d9a65e\" stroke=\"#916d1b\"/>\n<circle cx=\"302\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<circle cx=\"324\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<line x1=\"302\" y1=\"195\" x2=\"324\" y2=\"195\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"312\" y1=\"187\" x2=\"312\" y2=\"178\" stroke=\"#333\" stroke-width=\"2\"/>\n<circle cx=\"312\" cy=\"171\" r=\"6\" fill=\"#333\"/>\n<line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"122\" stroke=\"#999\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<line x1=\"230\" y1=\"195\" x2=\"312\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"230\" y2=\"195\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"312\" y2=\"195\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"265\" y=\"188\" font-size=\"15\">x</text>\n<text x=\"214\" y=\"168\" font-size=\"15\">y</text>\n<text x=\"270\" y=\"154\" font-size=\"15\">s</text>\n<line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"25\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"230,21 225,31 235,31\" fill=\"#8b1e3f\"/>\n<text x=\"238\" y=\"33\" font-size=\"12\">1,5 m/s</text>\n<line x1=\"334\" y1=\"195\" x2=\"354\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"358,195 348,190 348,200\" fill=\"#0e5d9e\"/>\n<text x=\"300\" y=\"181\" font-size=\"12\">6,0 m/s</text>\n<text x=\"239\" y=\"122\" font-size=\"13\">ballong</text>\n<text x=\"316\" y=\"166\" font-size=\"13\">cyklist</text>\n</svg></span><p>En ballong stiger lodrätt med 1,5 m/s. När den är 18 m över marken passerar en cyklist rakt under den och fortsätter horisontellt med 6,0 m/s.</p><p>Hur snabbt ökar avståndet mellan dem 4,0 s senare?</p>",
-    "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till ballong och cyklist\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"220\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"35\" y1=\"195\" x2=\"385\" y2=\"195\" stroke=\"#666\" stroke-width=\"2\"/>\n<ellipse cx=\"230\" cy=\"70\" rx=\"28\" ry=\"34\" fill=\"#f0c36d\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"104\" x2=\"230\" y2=\"130\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<rect x=\"220\" y=\"130\" width=\"20\" height=\"15\" fill=\"#d9a65e\" stroke=\"#916d1b\"/>\n<circle cx=\"302\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<circle cx=\"324\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<line x1=\"302\" y1=\"195\" x2=\"324\" y2=\"195\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"312\" y1=\"187\" x2=\"312\" y2=\"178\" stroke=\"#333\" stroke-width=\"2\"/>\n<circle cx=\"312\" cy=\"171\" r=\"6\" fill=\"#333\"/>\n<line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"122\" stroke=\"#999\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<line x1=\"230\" y1=\"195\" x2=\"312\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"230\" y2=\"195\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"312\" y2=\"195\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"265\" y=\"188\" font-size=\"15\">x</text>\n<text x=\"214\" y=\"168\" font-size=\"15\">y</text>\n<text x=\"270\" y=\"154\" font-size=\"15\">s</text>\n<line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"25\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"230,21 225,31 235,31\" fill=\"#8b1e3f\"/>\n<text x=\"238\" y=\"33\" font-size=\"12\">1,5 m/s</text>\n<line x1=\"334\" y1=\"195\" x2=\"354\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"358,195 348,190 348,200\" fill=\"#0e5d9e\"/>\n<text x=\"300\" y=\"181\" font-size=\"12\">6,0 m/s</text>\n<text x=\"239\" y=\"122\" font-size=\"13\">ballong</text>\n<text x=\"316\" y=\"166\" font-size=\"13\">cyklist</text>\n</svg></span><p>Låt <strong>x</strong> vara cyklistens horisontella avstånd från punkten rakt under ballongen, <strong>y</strong> ballongens höjd över marken och <strong>s</strong> avståndet mellan ballongen och cyklisten.</p><p>Efter 4,0 s är</p><p>\\[x=6,0\\cdot4,0=24\\ \\text{m},\\qquad y=18+1,5\\cdot4,0=24\\ \\text{m}.\\]</p><p>Dessutom är \\(x'=6,0\\) m/s och \\(y'=1,5\\) m/s.</p><p>Pythagoras sats ger</p><p>\\[s^2=x^2+y^2.\\]</p><p>Derivera:</p><p>\\[ss'=xx'+yy'.\\]</p><p>När \\(x=y=24\\) blir</p><p>\\[s=\\sqrt{24^2+24^2}=24\\sqrt2.\\]</p><p>Sätt in:</p><p>\\[(24\\sqrt2)s'=24\\cdot6,0+24\\cdot1,5=180.\\]</p><p>Alltså</p><p>\\[s'=\\frac{180}{24\\sqrt2}=\\frac{7,5}{\\sqrt2}\\approx5,3.\\]</p><p><strong>Svar: avståndet ökar med ungefär \\(5,3\\ \\text{m/s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten. Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till ballong och cyklist\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"220\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"35\" y1=\"195\" x2=\"385\" y2=\"195\" stroke=\"#666\" stroke-width=\"2\"/>\n<ellipse cx=\"230\" cy=\"70\" rx=\"28\" ry=\"34\" fill=\"#f0c36d\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"104\" x2=\"230\" y2=\"130\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<rect x=\"220\" y=\"130\" width=\"20\" height=\"15\" fill=\"#d9a65e\" stroke=\"#916d1b\"/>\n<circle cx=\"302\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<circle cx=\"324\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<line x1=\"302\" y1=\"195\" x2=\"324\" y2=\"195\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"312\" y1=\"187\" x2=\"312\" y2=\"178\" stroke=\"#333\" stroke-width=\"2\"/>\n<circle cx=\"312\" cy=\"171\" r=\"6\" fill=\"#333\"/>\n<line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"122\" stroke=\"#999\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<line x1=\"230\" y1=\"195\" x2=\"312\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"230\" y2=\"195\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"312\" y2=\"195\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"265\" y=\"188\" font-size=\"15\">x</text>\n<text x=\"214\" y=\"168\" font-size=\"15\">y</text>\n<text x=\"270\" y=\"154\" font-size=\"15\">s</text>\n<line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"25\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"230,21 225,31 235,31\" fill=\"#8b1e3f\"/>\n<text x=\"238\" y=\"33\" font-size=\"12\">1,5 m/s</text>\n<line x1=\"334\" y1=\"195\" x2=\"354\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"358,195 348,190 348,200\" fill=\"#0e5d9e\"/>\n<text x=\"300\" y=\"181\" font-size=\"12\">6,0 m/s</text>\n<text x=\"239\" y=\"122\" font-size=\"13\">ballong</text>\n<text x=\"316\" y=\"166\" font-size=\"13\">cyklist</text>\n</svg></span><p>Låt <strong>x</strong> vara cyklistens horisontella avstånd från punkten rakt under ballongen, <strong>y</strong> ballongens höjd över marken och <strong>s</strong> avståndet mellan ballongen och cyklisten.</p><p>Efter 4,0 s är</p><p>\\[x=6,0\\cdot4,0=24\\ \\text{m},\\qquad y=18+1,5\\cdot4,0=24\\ \\text{m}.\\]</p><p>Dessutom är \\(x'=6,0\\) m/s och \\(y'=1,5\\) m/s.</p><p>Pythagoras sats ger</p><p>\\[s^2=x^2+y^2.\\]</p><p>Derivera:</p><p>\\[ss'=xx'+yy'.\\]</p><p>När \\(x=y=24\\) blir</p><p>\\[s=\\sqrt{24^2+24^2}=24\\sqrt2.\\]</p><p>Sätt in:</p><p>\\[(24\\sqrt2)s'=24\\cdot6,0+24\\cdot1,5=180.\\]</p><p>Alltså</p><p>\\[s'=\\frac{180}{24\\sqrt2}=\\frac{7,5}{\\sqrt2}\\approx5,3.\\]</p><p><strong>Svar: avståndet ökar med ungefär \\(5,3\\ \\text{m/s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera kritiska punkter, ändpunkter och derivatans tecken så att du verkligen har rätt typ av extrempunkt.</p></div>",
     "id": "3.10",
     "miniräknare": true,
     "geogebra": false,
@@ -21550,7 +22501,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -21559,7 +22511,7 @@ window.BANKMATF1 = [
     "typ": "relaterade förändringshastigheter konisk tank",
     "poang": "0/2/1",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"235\" viewBox=\"0 0 410 265\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Upp-och-nedvänd konisk tank\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"245\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<line x1=\"95\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"315\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"95\" y1=\"48\" x2=\"315\" y2=\"48\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n\n<polygon points=\"167,160 243,160 205,220\" fill=\"#a8d8ff\" opacity=\"0.9\" stroke=\"#4a90d9\" stroke-width=\"2\"/>\n<line x1=\"167\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2d76c2\" stroke-width=\"3\"/>\n\n<line x1=\"205\" y1=\"220\" x2=\"205\" y2=\"160\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"194\" font-size=\"14\" fill=\"#7f1f3d\">h</text>\n<line x1=\"205\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<text x=\"221\" y=\"152\" font-size=\"14\" fill=\"#1f5687\">r</text>\n\n\n<line x1=\"352\" y1=\"48\" x2=\"352\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"48\" x2=\"358\" y2=\"48\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"220\" x2=\"358\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"360\" y=\"138\" font-size=\"13\" fill=\"#56606b\">3,0 m</text>\n\n<line x1=\"205\" y1=\"34\" x2=\"315\" y2=\"34\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"205\" y1=\"29\" x2=\"205\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"315\" y1=\"29\" x2=\"315\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"235\" y=\"26\" font-size=\"13\" fill=\"#56606b\">1,5 m</text>\n\n<line x1=\"338\" y1=\"24\" x2=\"338\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<line x1=\"338\" y1=\"75\" x2=\"300\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<polygon points=\"296,75 307,69 307,81\" fill=\"#3b97ff\"/>\n<text x=\"286\" y=\"18\" font-size=\"13\" fill=\"#2d76c2\">50 liter/min</text>\n</svg></span><p>En upp-och-nedvänd konisk tank har höjden 3,0 m och toppradien 1,5 m. Vatten pumpas in med 50 liter/min.</p><p>Hur snabbt stiger vattennivån när djupet är 2,0 m?</p>",
-    "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"235\" viewBox=\"0 0 410 265\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till konisk tank\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"245\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<line x1=\"95\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"315\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"95\" y1=\"48\" x2=\"315\" y2=\"48\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n\n<polygon points=\"167,160 243,160 205,220\" fill=\"#a8d8ff\" opacity=\"0.9\" stroke=\"#4a90d9\" stroke-width=\"2\"/>\n<line x1=\"167\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2d76c2\" stroke-width=\"3\"/>\n\n<line x1=\"205\" y1=\"220\" x2=\"205\" y2=\"160\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"194\" font-size=\"14\" fill=\"#7f1f3d\">h</text>\n<line x1=\"205\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<text x=\"221\" y=\"152\" font-size=\"14\" fill=\"#1f5687\">r</text>\n\n\n<line x1=\"352\" y1=\"48\" x2=\"352\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"48\" x2=\"358\" y2=\"48\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"220\" x2=\"358\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"360\" y=\"138\" font-size=\"13\" fill=\"#56606b\">3,0 m</text>\n\n<line x1=\"205\" y1=\"34\" x2=\"315\" y2=\"34\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"205\" y1=\"29\" x2=\"205\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"315\" y1=\"29\" x2=\"315\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"235\" y=\"26\" font-size=\"13\" fill=\"#56606b\">1,5 m</text>\n\n<line x1=\"338\" y1=\"24\" x2=\"338\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<line x1=\"338\" y1=\"75\" x2=\"300\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<polygon points=\"296,75 307,69 307,81\" fill=\"#3b97ff\"/>\n<text x=\"286\" y=\"18\" font-size=\"13\" fill=\"#2d76c2\">50 liter/min</text>\n</svg></span><p>Volymen ökar med \\(50\\) liter/min = \\(0,050\\ \\text{m}^3/\\text{min}\\).</p><p>Av likformighet i figuren gäller</p><p>\\[\\frac{r}{h}=\\frac{1,5}{3,0}=\\frac12\\quad\\Rightarrow\\quad r=\\frac h2.\\]</p><p>Volymen av vattnet är</p><p>\\[V=\\frac13\\pi r^2h=\\frac13\\pi\\left(\\frac h2\\right)^2h=\\frac{\\pi}{12}h^3.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[\\frac{dV}{dt}=\\frac{\\pi}{4}h^2\\frac{dh}{dt}.\\]</p><p>När \\(h=2,0\\) m får vi</p><p>\\[0,050=\\frac{\\pi}{4}\\cdot 2^2\\cdot\\frac{dh}{dt}=\\pi\\frac{dh}{dt}.\\]</p><p>Alltså</p><p>\\[\\frac{dh}{dt}=\\frac{0,050}{\\pi}\\approx0,0159.\\]</p><p><strong>Svar: vattennivån stiger med ungefär \\(0,0159\\ \\text{m/min}\\), alltså cirka \\(1,59\\ \\text{cm/min}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten. Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"235\" viewBox=\"0 0 410 265\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till konisk tank\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"245\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<line x1=\"95\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"315\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"95\" y1=\"48\" x2=\"315\" y2=\"48\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n\n<polygon points=\"167,160 243,160 205,220\" fill=\"#a8d8ff\" opacity=\"0.9\" stroke=\"#4a90d9\" stroke-width=\"2\"/>\n<line x1=\"167\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2d76c2\" stroke-width=\"3\"/>\n\n<line x1=\"205\" y1=\"220\" x2=\"205\" y2=\"160\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"194\" font-size=\"14\" fill=\"#7f1f3d\">h</text>\n<line x1=\"205\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<text x=\"221\" y=\"152\" font-size=\"14\" fill=\"#1f5687\">r</text>\n\n\n<line x1=\"352\" y1=\"48\" x2=\"352\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"48\" x2=\"358\" y2=\"48\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"220\" x2=\"358\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"360\" y=\"138\" font-size=\"13\" fill=\"#56606b\">3,0 m</text>\n\n<line x1=\"205\" y1=\"34\" x2=\"315\" y2=\"34\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"205\" y1=\"29\" x2=\"205\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"315\" y1=\"29\" x2=\"315\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"235\" y=\"26\" font-size=\"13\" fill=\"#56606b\">1,5 m</text>\n\n<line x1=\"338\" y1=\"24\" x2=\"338\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<line x1=\"338\" y1=\"75\" x2=\"300\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<polygon points=\"296,75 307,69 307,81\" fill=\"#3b97ff\"/>\n<text x=\"286\" y=\"18\" font-size=\"13\" fill=\"#2d76c2\">50 liter/min</text>\n</svg></span><p>Volymen ökar med \\(50\\) liter/min = \\(0,050\\ \\text{m}^3/\\text{min}\\).</p><p>Av likformighet i figuren gäller</p><p>\\[\\frac{r}{h}=\\frac{1,5}{3,0}=\\frac12\\quad\\Rightarrow\\quad r=\\frac h2.\\]</p><p>Volymen av vattnet är</p><p>\\[V=\\frac13\\pi r^2h=\\frac13\\pi\\left(\\frac h2\\right)^2h=\\frac{\\pi}{12}h^3.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[\\frac{dV}{dt}=\\frac{\\pi}{4}h^2\\frac{dh}{dt}.\\]</p><p>När \\(h=2,0\\) m får vi</p><p>\\[0,050=\\frac{\\pi}{4}\\cdot 2^2\\cdot\\frac{dh}{dt}=\\pi\\frac{dh}{dt}.\\]</p><p>Alltså</p><p>\\[\\frac{dh}{dt}=\\frac{0,050}{\\pi}\\approx0,0159.\\]</p><p><strong>Svar: vattennivån stiger med ungefär \\(0,0159\\ \\text{m/min}\\), alltså cirka \\(1,59\\ \\text{cm/min}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera kritiska punkter, ändpunkter och derivatans tecken så att du verkligen har rätt typ av extrempunkt.</p></div>",
     "id": "3.11",
     "miniräknare": true,
     "geogebra": false,
@@ -21574,7 +22526,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -21596,7 +22549,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21620,7 +22574,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -21629,7 +22584,7 @@ window.BANKMATF1 = [
     "typ": "relaterade förändringshastigheter växande cirkel",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg width=\"255\" height=\"180\" viewBox=\"0 0 285 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Växande cirkelfläck\">\n<rect x=\"10\" y=\"10\" width=\"265\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"140\" cy=\"102\" r=\"58\" fill=\"#eef7ff\" stroke=\"#2c62a8\" stroke-width=\"2.4\"/>\n<circle cx=\"140\" cy=\"102\" r=\"3.7\" fill=\"#2c62a8\"/>\n<line x1=\"140\" y1=\"102\" x2=\"194\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<polygon points=\"198,102 188,97 188,107\" fill=\"#b45f32\"/>\n<text x=\"162\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">r = 6,0 cm</text>\n</svg></span><p>En cirkelformad fläck växer så att radien ökar med 0,40 cm/s. Hur snabbt ökar fläckens area när radien är 6,0 cm?</p>",
-    "s": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden:</p><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p><p>Sätt in \\(r=6,0\\) cm och \\(dr/dt=0,40\\) cm/s:</p><p>\\[\\frac{dA}{dt}=2\\pi\\cdot6,0\\cdot0,40=4,8\\pi.\\]</p><p><strong>Svar: arean ökar med \\(4,8\\pi\\ \\text{cm}^2/\\text{s}\\approx15,1\\ \\text{cm}^2/\\text{s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden:</p><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p><p>Sätt in \\(r=6,0\\) cm och \\(dr/dt=0,40\\) cm/s:</p><p>\\[\\frac{dA}{dt}=2\\pi\\cdot6,0\\cdot0,40=4,8\\pi.\\]</p><p><strong>Svar: arean ökar med \\(4,8\\pi\\ \\text{cm}^2/\\text{s}\\approx15,1\\ \\text{cm}^2/\\text{s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "id": "3.20",
     "miniräknare": true,
     "geogebra": false,
@@ -21643,7 +22598,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21652,7 +22608,7 @@ window.BANKMATF1 = [
     "typ": "relaterade förändringshastigheter konisk tank",
     "poang": "0/1/2",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"235\" viewBox=\"0 0 410 265\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Upp-och-nedvänd konisk tank\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"245\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<line x1=\"95\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"315\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"95\" y1=\"48\" x2=\"315\" y2=\"48\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n\n<polygon points=\"167,160 243,160 205,220\" fill=\"#a8d8ff\" opacity=\"0.9\" stroke=\"#4a90d9\" stroke-width=\"2\"/>\n<line x1=\"167\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2d76c2\" stroke-width=\"3\"/>\n\n<line x1=\"205\" y1=\"220\" x2=\"205\" y2=\"160\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"194\" font-size=\"14\" fill=\"#7f1f3d\">h</text>\n<line x1=\"205\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<text x=\"221\" y=\"152\" font-size=\"14\" fill=\"#1f5687\">r</text>\n\n\n<line x1=\"352\" y1=\"48\" x2=\"352\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"48\" x2=\"358\" y2=\"48\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"220\" x2=\"358\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"360\" y=\"138\" font-size=\"13\" fill=\"#56606b\">6,0 m</text>\n\n<line x1=\"205\" y1=\"34\" x2=\"315\" y2=\"34\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"205\" y1=\"29\" x2=\"205\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"315\" y1=\"29\" x2=\"315\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"235\" y=\"26\" font-size=\"13\" fill=\"#56606b\">3,0 m</text>\n\n<line x1=\"338\" y1=\"24\" x2=\"338\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<line x1=\"338\" y1=\"75\" x2=\"300\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<polygon points=\"296,75 307,69 307,81\" fill=\"#3b97ff\"/>\n<text x=\"286\" y=\"18\" font-size=\"13\" fill=\"#2d76c2\">0,050 m³/min</text>\n</svg></span><p>En upp-och-nedvänd konisk tank är 6,0 m hög och har toppradien 3,0 m. Vatten rinner in med \\(0,050\\,\\text{m}^3/\\text{min}\\).</p><p>Hur snabbt stiger vattennivån när djupet är 4,0 m?</p>",
-    "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"235\" viewBox=\"0 0 410 265\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till större konisk tank\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"245\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<line x1=\"95\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"315\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"95\" y1=\"48\" x2=\"315\" y2=\"48\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n\n<polygon points=\"167,160 243,160 205,220\" fill=\"#a8d8ff\" opacity=\"0.9\" stroke=\"#4a90d9\" stroke-width=\"2\"/>\n<line x1=\"167\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2d76c2\" stroke-width=\"3\"/>\n\n<line x1=\"205\" y1=\"220\" x2=\"205\" y2=\"160\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"194\" font-size=\"14\" fill=\"#7f1f3d\">h</text>\n<line x1=\"205\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<text x=\"221\" y=\"152\" font-size=\"14\" fill=\"#1f5687\">r</text>\n\n\n<line x1=\"352\" y1=\"48\" x2=\"352\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"48\" x2=\"358\" y2=\"48\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"220\" x2=\"358\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"360\" y=\"138\" font-size=\"13\" fill=\"#56606b\">6,0 m</text>\n\n<line x1=\"205\" y1=\"34\" x2=\"315\" y2=\"34\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"205\" y1=\"29\" x2=\"205\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"315\" y1=\"29\" x2=\"315\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"235\" y=\"26\" font-size=\"13\" fill=\"#56606b\">3,0 m</text>\n\n<line x1=\"338\" y1=\"24\" x2=\"338\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<line x1=\"338\" y1=\"75\" x2=\"300\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<polygon points=\"296,75 307,69 307,81\" fill=\"#3b97ff\"/>\n<text x=\"286\" y=\"18\" font-size=\"13\" fill=\"#2d76c2\">0,050 m³/min</text>\n</svg></span><p>Av likformighet gäller</p><p>\\[\\frac{r}{h}=\\frac{3,0}{6,0}=\\frac12\\quad\\Rightarrow\\quad r=\\frac h2.\\]</p><p>Volymen blir då</p><p>\\[V=\\frac13\\pi r^2h=\\frac13\\pi\\left(\\frac h2\\right)^2h=\\frac{\\pi}{12}h^3.\\]</p><p>Derivera:</p><p>\\[\\frac{dV}{dt}=\\frac{\\pi}{4}h^2\\frac{dh}{dt}.\\]</p><p>Sätt in \\(dV/dt=0,050\\) och \\(h=4,0\\):</p><p>\\[0,050=\\frac{\\pi}{4}\\cdot16\\cdot\\frac{dh}{dt}=4\\pi\\frac{dh}{dt}.\\]</p><p>Därför</p><p>\\[\\frac{dh}{dt}=\\frac{0,050}{4\\pi}\\approx0,0040.\\]</p><p><strong>Svar: vattennivån stiger med ungefär \\(0,0040\\ \\text{m/min}\\), alltså cirka \\(0,40\\ \\text{cm/min}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten. Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"235\" viewBox=\"0 0 410 265\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till större konisk tank\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"245\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<line x1=\"95\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"315\" y1=\"48\" x2=\"205\" y2=\"220\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n<line x1=\"95\" y1=\"48\" x2=\"315\" y2=\"48\" stroke=\"#626262\" stroke-width=\"3.4\" stroke-linecap=\"round\"/>\n\n<polygon points=\"167,160 243,160 205,220\" fill=\"#a8d8ff\" opacity=\"0.9\" stroke=\"#4a90d9\" stroke-width=\"2\"/>\n<line x1=\"167\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2d76c2\" stroke-width=\"3\"/>\n\n<line x1=\"205\" y1=\"220\" x2=\"205\" y2=\"160\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"194\" font-size=\"14\" fill=\"#7f1f3d\">h</text>\n<line x1=\"205\" y1=\"160\" x2=\"243\" y2=\"160\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<text x=\"221\" y=\"152\" font-size=\"14\" fill=\"#1f5687\">r</text>\n\n\n<line x1=\"352\" y1=\"48\" x2=\"352\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"48\" x2=\"358\" y2=\"48\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"346\" y1=\"220\" x2=\"358\" y2=\"220\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"360\" y=\"138\" font-size=\"13\" fill=\"#56606b\">6,0 m</text>\n\n<line x1=\"205\" y1=\"34\" x2=\"315\" y2=\"34\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"205\" y1=\"29\" x2=\"205\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<line x1=\"315\" y1=\"29\" x2=\"315\" y2=\"39\" stroke=\"#aab2bd\" stroke-width=\"1.5\"/>\n<text x=\"235\" y=\"26\" font-size=\"13\" fill=\"#56606b\">3,0 m</text>\n\n<line x1=\"338\" y1=\"24\" x2=\"338\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<line x1=\"338\" y1=\"75\" x2=\"300\" y2=\"75\" stroke=\"#3b97ff\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<polygon points=\"296,75 307,69 307,81\" fill=\"#3b97ff\"/>\n<text x=\"286\" y=\"18\" font-size=\"13\" fill=\"#2d76c2\">0,050 m³/min</text>\n</svg></span><p>Av likformighet gäller</p><p>\\[\\frac{r}{h}=\\frac{3,0}{6,0}=\\frac12\\quad\\Rightarrow\\quad r=\\frac h2.\\]</p><p>Volymen blir då</p><p>\\[V=\\frac13\\pi r^2h=\\frac13\\pi\\left(\\frac h2\\right)^2h=\\frac{\\pi}{12}h^3.\\]</p><p>Derivera:</p><p>\\[\\frac{dV}{dt}=\\frac{\\pi}{4}h^2\\frac{dh}{dt}.\\]</p><p>Sätt in \\(dV/dt=0,050\\) och \\(h=4,0\\):</p><p>\\[0,050=\\frac{\\pi}{4}\\cdot16\\cdot\\frac{dh}{dt}=4\\pi\\frac{dh}{dt}.\\]</p><p>Därför</p><p>\\[\\frac{dh}{dt}=\\frac{0,050}{4\\pi}\\approx0,0040.\\]</p><p><strong>Svar: vattennivån stiger med ungefär \\(0,0040\\ \\text{m/min}\\), alltså cirka \\(0,40\\ \\text{cm/min}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera kritiska punkter, ändpunkter och derivatans tecken så att du verkligen har rätt typ av extrempunkt.</p></div>",
     "id": "3.21",
     "miniräknare": true,
     "geogebra": false,
@@ -21667,7 +22623,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -21688,7 +22645,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -21698,7 +22656,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "3.27",
     "t": "<span class=\"fig smal\"><svg width=\"240\" height=\"190\" viewBox=\"0 0 260 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kvadrat vars sida ökar\">\n<rect x=\"10\" y=\"10\" width=\"240\" height=\"190\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"70\" y=\"50\" width=\"110\" height=\"110\" fill=\"#eef6ff\" stroke=\"#2c62a8\" stroke-width=\"2.5\"/>\n<text x=\"118\" y=\"42\" font-size=\"14\" fill=\"#2c62a8\">s</text>\n<text x=\"55\" y=\"110\" font-size=\"14\" fill=\"#2c62a8\">s</text>\n<line x1=\"125\" y1=\"44\" x2=\"125\" y2=\"30\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"125,26 120,36 130,36\" fill=\"#2e8b57\"/>\n<line x1=\"186\" y1=\"105\" x2=\"200\" y2=\"105\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"204,105 194,100 194,110\" fill=\"#2e8b57\"/>\n<line x1=\"125\" y1=\"166\" x2=\"125\" y2=\"180\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"125,184 120,174 130,174\" fill=\"#2e8b57\"/>\n<line x1=\"64\" y1=\"105\" x2=\"50\" y2=\"105\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"46,105 56,100 56,110\" fill=\"#2e8b57\"/>\n<text x=\"186\" y=\"92\" font-size=\"12\" fill=\"#2e8b57\">0,6 cm/s</text>\n</svg></span><p>Sidan \\(s\\) i en kvadrat ökar med hastigheten \\(0,6\\ \\text{cm/s}\\).</p><p>Hur snabbt ökar kvadratens area när \\(s=5,0\\ \\text{cm}\\)?</p>",
-    "s": "<p>Arean är \\(A=s^2\\). Derivera med avseende på tiden:</p><p>\\[\\frac{dA}{dt}=2s\\frac{ds}{dt}.\\]</p><p>Sätt in \\(s=5,0\\) och \\(ds/dt=0,6\\):</p><p>\\[\\frac{dA}{dt}=2\\cdot5,0\\cdot0,6=6,0.\\]</p><p><strong>Svar: arean ökar med \\(6,0\\ \\text{cm}^2/\\text{s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Arean är \\(A=s^2\\). Derivera med avseende på tiden:</p><p>\\[\\frac{dA}{dt}=2s\\frac{ds}{dt}.\\]</p><p>Sätt in \\(s=5,0\\) och \\(ds/dt=0,6\\):</p><p>\\[\\frac{dA}{dt}=2\\cdot5,0\\cdot0,6=6,0.\\]</p><p><strong>Svar: arean ökar med \\(6,0\\ \\text{cm}^2/\\text{s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
@@ -21711,7 +22669,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21720,7 +22679,7 @@ window.BANKMATF1 = [
     "typ": "cirkelns area via diameter",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg width=\"255\" height=\"180\" viewBox=\"0 0 285 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med diameter\">\n<rect x=\"10\" y=\"10\" width=\"265\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"140\" cy=\"102\" r=\"58\" fill=\"#eef7ff\" stroke=\"#2c62a8\" stroke-width=\"2.4\"/>\n<line x1=\"82\" y1=\"102\" x2=\"198\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<polygon points=\"78,102 88,97 88,107\" fill=\"#b45f32\"/>\n<polygon points=\"202,102 192,97 192,107\" fill=\"#b45f32\"/>\n<text x=\"128\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">d = 16,0 cm</text>\n</svg></span><p>Diametern i en cirkel ökar med 0,60 cm/s. Hur snabbt ökar arean när diametern är 16,0 cm?</p>",
-    "s": "<p>Låt \\(d\\) vara diametern. Då är radien \\(r=d/2\\), och arean blir</p><p>\\[A=\\pi r^2=\\pi\\left(\\frac d2\\right)^2=\\frac{\\pi}{4}d^2.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[\\frac{dA}{dt}=\\frac{\\pi}{2}d\\frac{dd}{dt}.\\]</p><p>Sätt in \\(d=16,0\\) cm och \\(dd/dt=0,60\\) cm/s:</p><p>\\[\\frac{dA}{dt}=\\frac{\\pi}{2}\\cdot16,0\\cdot0,60=4,8\\pi.\\]</p><p><strong>Svar: arean ökar med \\(4,8\\pi\\ \\text{cm}^2/\\text{s}\\approx15,1\\ \\text{cm}^2/\\text{s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Låt \\(d\\) vara diametern. Då är radien \\(r=d/2\\), och arean blir</p><p>\\[A=\\pi r^2=\\pi\\left(\\frac d2\\right)^2=\\frac{\\pi}{4}d^2.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[\\frac{dA}{dt}=\\frac{\\pi}{2}d\\frac{dd}{dt}.\\]</p><p>Sätt in \\(d=16,0\\) cm och \\(dd/dt=0,60\\) cm/s:</p><p>\\[\\frac{dA}{dt}=\\frac{\\pi}{2}\\cdot16,0\\cdot0,60=4,8\\pi.\\]</p><p><strong>Svar: arean ökar med \\(4,8\\pi\\ \\text{cm}^2/\\text{s}\\approx15,1\\ \\text{cm}^2/\\text{s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "id": "3.44",
     "miniräknare": true,
     "geogebra": false,
@@ -21733,7 +22692,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21742,7 +22702,7 @@ window.BANKMATF1 = [
     "typ": "sfärens volym",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"180\" viewBox=\"0 0 300 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sfär\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"145\" cy=\"102\" r=\"60\" fill=\"#f8fbff\" stroke=\"#6b6b6b\" stroke-width=\"2.3\"/>\n<ellipse cx=\"145\" cy=\"102\" rx=\"60\" ry=\"18\" fill=\"none\" stroke=\"#b3bcc8\" stroke-width=\"1.2\"/>\n<line x1=\"145\" y1=\"102\" x2=\"200\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.3\"/>\n<polygon points=\"204,102 194,97 194,107\" fill=\"#b45f32\"/>\n<text x=\"168\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">r = 5,0 cm</text>\n</svg></span><p>Radien i en sfär ökar med 0,20 cm/s. Hur snabbt ökar volymen när radien är 5,0 cm?</p>",
-    "s": "<p>Volymen är \\(V=\\frac43\\pi r^3\\). Derivera:</p><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p><p>Sätt in \\(r=5,0\\) cm och \\(dr/dt=0,20\\) cm/s:</p><p>\\[\\frac{dV}{dt}=4\\pi\\cdot25\\cdot0,20=20\\pi.\\]</p><p><strong>Svar: volymen ökar med \\(20\\pi\\ \\text{cm}^3/\\text{s}\\approx62,8\\ \\text{cm}^3/\\text{s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Volymen är \\(V=\\frac43\\pi r^3\\). Derivera:</p><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p><p>Sätt in \\(r=5,0\\) cm och \\(dr/dt=0,20\\) cm/s:</p><p>\\[\\frac{dV}{dt}=4\\pi\\cdot25\\cdot0,20=20\\pi.\\]</p><p><strong>Svar: volymen ökar med \\(20\\pi\\ \\text{cm}^3/\\text{s}\\approx62,8\\ \\text{cm}^3/\\text{s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "id": "3.45",
     "miniräknare": true,
     "geogebra": false,
@@ -21755,7 +22715,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21779,7 +22740,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21788,7 +22750,7 @@ window.BANKMATF1 = [
     "typ": "kubens volym",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg width=\"255\" height=\"200\" viewBox=\"0 0 290 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kub\">\n<rect x=\"10\" y=\"10\" width=\"270\" height=\"200\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<polygon points=\"90,145 160,145 160,75 90,75\" fill=\"#eef6ff\" stroke=\"#666\" stroke-width=\"2.3\"/>\n<polygon points=\"160,145 215,110 215,40 160,75\" fill=\"#d9ebff\" stroke=\"#666\" stroke-width=\"2.3\"/>\n<polygon points=\"90,75 160,75 215,40 145,40\" fill=\"#f7fbff\" stroke=\"#666\" stroke-width=\"2.3\"/>\n<line x1=\"90\" y1=\"145\" x2=\"145\" y2=\"110\" stroke=\"#666\" stroke-width=\"2.3\"/>\n<line x1=\"145\" y1=\"110\" x2=\"215\" y2=\"110\" stroke=\"#666\" stroke-width=\"2.3\"/>\n<line x1=\"145\" y1=\"110\" x2=\"145\" y2=\"40\" stroke=\"#666\" stroke-width=\"2.3\"/>\n<text x=\"121\" y=\"68\" font-size=\"14\" fill=\"#2c62a8\">a</text>\n</svg></span><p>Kantlängden \\(a\\) i en kub ökar med 0,10 cm/s. Hur snabbt ökar kubens volym när \\(a=6,0\\) cm?</p>",
-    "s": "<p>Volymen är \\(V=a^3\\). Derivera:</p><p>\\[\\frac{dV}{dt}=3a^2\\frac{da}{dt}.\\]</p><p>Sätt in \\(a=6,0\\) cm och \\(da/dt=0,10\\) cm/s:</p><p>\\[\\frac{dV}{dt}=3\\cdot6,0^2\\cdot0,10=10,8.\\]</p><p><strong>Svar: volymen ökar med \\(10,8\\ \\text{cm}^3/\\text{s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Volymen är \\(V=a^3\\). Derivera:</p><p>\\[\\frac{dV}{dt}=3a^2\\frac{da}{dt}.\\]</p><p>Sätt in \\(a=6,0\\) cm och \\(da/dt=0,10\\) cm/s:</p><p>\\[\\frac{dV}{dt}=3\\cdot6,0^2\\cdot0,10=10,8.\\]</p><p><strong>Svar: volymen ökar med \\(10,8\\ \\text{cm}^3/\\text{s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "id": "3.46",
     "miniräknare": true,
     "geogebra": false,
@@ -21801,7 +22763,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21810,7 +22773,7 @@ window.BANKMATF1 = [
     "typ": "stege mot vägg",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg width=\"340\" height=\"215\" viewBox=\"0 0 380 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Stege mot vägg\">\n<rect x=\"10\" y=\"10\" width=\"360\" height=\"220\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"45\" y=\"195\" width=\"275\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"320\" y=\"35\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#9c5e2d\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<line x1=\"127\" y1=\"188\" x2=\"307\" y2=\"92\" stroke=\"#d8b48a\" stroke-width=\"1.8\" opacity=\"0.55\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"195\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"320\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"300\" y2=\"185\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"310\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<circle cx=\"115\" cy=\"195\" r=\"4.2\" fill=\"#666\"/>\n<circle cx=\"320\" cy=\"85\" r=\"4.2\" fill=\"#666\"/>\n<text x=\"198\" y=\"133\" font-size=\"13\" fill=\"#6d421f\">10 m</text>\n<text x=\"205\" y=\"188\" font-size=\"13\" fill=\"#1f5687\">x = 6,0 m</text>\n<text x=\"328\" y=\"145\" font-size=\"13\" fill=\"#7f1f3d\">y</text>\n<line x1=\"118\" y1=\"208\" x2=\"142\" y2=\"208\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"146,208 136,203 136,213\" fill=\"#2e8b57\"/>\n<text x=\"77\" y=\"223\" font-size=\"12\" fill=\"#2e8b57\">0,50 m/s</text>\n</svg></span><p>En 10 m lång stege står mot en vägg. Foten glider bort från väggen med 0,50 m/s. Hur snabbt rör sig stegens överände nedåt när foten är 6,0 m från väggen?</p>",
-    "s": "<span class=\"fig smal\"><svg width=\"340\" height=\"215\" viewBox=\"0 0 380 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till stege 10 m\">\n<rect x=\"10\" y=\"10\" width=\"360\" height=\"220\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"45\" y=\"195\" width=\"275\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"320\" y=\"35\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#9c5e2d\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<line x1=\"127\" y1=\"188\" x2=\"307\" y2=\"92\" stroke=\"#d8b48a\" stroke-width=\"1.8\" opacity=\"0.55\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"195\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"320\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"300\" y2=\"185\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"310\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<circle cx=\"115\" cy=\"195\" r=\"4.2\" fill=\"#666\"/>\n<circle cx=\"320\" cy=\"85\" r=\"4.2\" fill=\"#666\"/>\n<text x=\"198\" y=\"133\" font-size=\"13\" fill=\"#6d421f\">10 m</text>\n<text x=\"205\" y=\"188\" font-size=\"13\" fill=\"#1f5687\">x = 6,0 m</text>\n<text x=\"328\" y=\"145\" font-size=\"13\" fill=\"#7f1f3d\">y</text>\n<line x1=\"118\" y1=\"208\" x2=\"142\" y2=\"208\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"146,208 136,203 136,213\" fill=\"#2e8b57\"/>\n<text x=\"77\" y=\"223\" font-size=\"12\" fill=\"#2e8b57\">0,50 m/s</text>\n</svg></span><p>Med beteckningarna i figuren gäller</p><p>\\[x^2+y^2=10^2=100.\\]</p><p>När \\(x=6,0\\) m är</p><p>\\[y=\\sqrt{100-36}=8,0\\ \\text{m}.\\]</p><p>Derivera:</p><p>\\[xx'+yy'=0.\\]</p><p>Sätt in \\(x=6,0\\), \\(x'=0,50\\) och \\(y=8,0\\):</p><p>\\[6,0\\cdot0,50+8,0y'=0.\\]</p><p>Då fås</p><p>\\[y'=-0,375\\ \\text{m/s}.\\]</p><p><strong>Svar: överänden rör sig nedåt med \\(0,375\\ \\text{m/s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten. Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"340\" height=\"215\" viewBox=\"0 0 380 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till stege 10 m\">\n<rect x=\"10\" y=\"10\" width=\"360\" height=\"220\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"45\" y=\"195\" width=\"275\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"320\" y=\"35\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#9c5e2d\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<line x1=\"127\" y1=\"188\" x2=\"307\" y2=\"92\" stroke=\"#d8b48a\" stroke-width=\"1.8\" opacity=\"0.55\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"195\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"320\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"300\" y2=\"185\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"310\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<circle cx=\"115\" cy=\"195\" r=\"4.2\" fill=\"#666\"/>\n<circle cx=\"320\" cy=\"85\" r=\"4.2\" fill=\"#666\"/>\n<text x=\"198\" y=\"133\" font-size=\"13\" fill=\"#6d421f\">10 m</text>\n<text x=\"205\" y=\"188\" font-size=\"13\" fill=\"#1f5687\">x = 6,0 m</text>\n<text x=\"328\" y=\"145\" font-size=\"13\" fill=\"#7f1f3d\">y</text>\n<line x1=\"118\" y1=\"208\" x2=\"142\" y2=\"208\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"146,208 136,203 136,213\" fill=\"#2e8b57\"/>\n<text x=\"77\" y=\"223\" font-size=\"12\" fill=\"#2e8b57\">0,50 m/s</text>\n</svg></span><p>Med beteckningarna i figuren gäller</p><p>\\[x^2+y^2=10^2=100.\\]</p><p>När \\(x=6,0\\) m är</p><p>\\[y=\\sqrt{100-36}=8,0\\ \\text{m}.\\]</p><p>Derivera:</p><p>\\[xx'+yy'=0.\\]</p><p>Sätt in \\(x=6,0\\), \\(x'=0,50\\) och \\(y=8,0\\):</p><p>\\[6,0\\cdot0,50+8,0y'=0.\\]</p><p>Då fås</p><p>\\[y'=-0,375\\ \\text{m/s}.\\]</p><p><strong>Svar: överänden rör sig nedåt med \\(0,375\\ \\text{m/s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera kritiska punkter, ändpunkter och derivatans tecken så att du verkligen har rätt typ av extrempunkt.</p></div>",
     "id": "3.47",
     "miniräknare": true,
     "geogebra": false,
@@ -21825,7 +22788,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -21841,13 +22805,14 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": -0.75,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -21869,7 +22834,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21891,7 +22857,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21913,7 +22880,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21935,7 +22903,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21959,7 +22928,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21968,7 +22938,7 @@ window.BANKMATF1 = [
     "typ": "sfär area mot volym",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"180\" viewBox=\"0 0 300 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sfär med växande volym\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"185\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<circle cx=\"145\" cy=\"102\" r=\"60\" fill=\"#f8f8ff\" stroke=\"#555\" stroke-width=\"2.2\"/>\n<ellipse cx=\"145\" cy=\"102\" rx=\"60\" ry=\"18\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1.3\"/>\n<line x1=\"145\" y1=\"102\" x2=\"200\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.2\"/>\n<polygon points=\"204,102 194,97 194,107\" fill=\"#b45f32\"/>\n<text x=\"168\" y=\"94\" font-size=\"14\">r = 3 cm</text>\n\n</svg></span><p>Volymen av en sfär ökar med 12 cm³/s. Hur snabbt ökar radien när \\(r=3\\) cm?</p>",
-    "s": "<p>Volymen är \\(V=\\frac43\\pi r^3\\). Derivera:</p><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p><p>Sätt in \\(dV/dt=12\\) cm³/s och \\(r=3\\) cm:</p><p>\\[12=4\\pi\\cdot3^2\\frac{dr}{dt}=36\\pi\\frac{dr}{dt}.\\]</p><p>Alltså</p><p>\\[\\frac{dr}{dt}=\\frac{12}{36\\pi}=\\frac{1}{3\\pi}.\\]</p><p><strong>Svar: \\(dr/dt=\\frac{1}{3\\pi}\\ \\text{cm/s}\\approx0,106\\ \\text{cm/s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Volymen är \\(V=\\frac43\\pi r^3\\). Derivera:</p><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p><p>Sätt in \\(dV/dt=12\\) cm³/s och \\(r=3\\) cm:</p><p>\\[12=4\\pi\\cdot3^2\\frac{dr}{dt}=36\\pi\\frac{dr}{dt}.\\]</p><p>Alltså</p><p>\\[\\frac{dr}{dt}=\\frac{12}{36\\pi}=\\frac{1}{3\\pi}.\\]</p><p><strong>Svar: \\(dr/dt=\\frac{1}{3\\pi}\\ \\text{cm/s}\\approx0,106\\ \\text{cm/s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "id": "3.69",
     "miniräknare": true,
     "geogebra": false,
@@ -21981,7 +22951,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -21990,7 +22961,7 @@ window.BANKMATF1 = [
     "typ": "omkrets cirkel",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg width=\"260\" height=\"180\" viewBox=\"0 0 290 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med minskande radie\">\n<rect x=\"10\" y=\"10\" width=\"270\" height=\"185\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<circle cx=\"140\" cy=\"105\" r=\"58\" fill=\"#f7fbff\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"140\" cy=\"105\" r=\"3.5\" fill=\"#2C62A8\"/>\n<line x1=\"140\" y1=\"105\" x2=\"194\" y2=\"105\" stroke=\"#b45f32\" stroke-width=\"2.2\"/>\n<polygon points=\"198,105 188,100 188,110\" fill=\"#b45f32\"/>\n<text x=\"163\" y=\"97\" font-size=\"14\">r</text>\n<text x=\"237\" y=\"100\" font-size=\"12\">dr/dt = -0,12 m/s</text>\n</svg></span><p>Radien i en cirkel minskar med 0,12 m/s. Hur snabbt förändras omkretsen?</p>",
-    "s": "<p>Omkretsen är \\(O=2\\pi r\\). Derivera:</p><p>\\[\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}.\\]</p><p>Sätt in \\(dr/dt=-0,12\\) m/s:</p><p>\\[\\frac{dO}{dt}=2\\pi\\cdot(-0,12)=-0,24\\pi.\\]</p><p><strong>Svar: omkretsen minskar med \\(0,24\\pi\\ \\text{m/s}\\approx0,754\\ \\text{m/s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Omkretsen är \\(O=2\\pi r\\). Derivera:</p><p>\\[\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}.\\]</p><p>Sätt in \\(dr/dt=-0,12\\) m/s:</p><p>\\[\\frac{dO}{dt}=2\\pi\\cdot(-0,12)=-0,24\\pi.\\]</p><p><strong>Svar: omkretsen minskar med \\(0,24\\pi\\ \\text{m/s}\\approx0,754\\ \\text{m/s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "id": "3.79",
     "miniräknare": true,
     "geogebra": false,
@@ -22003,7 +22974,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -22024,7 +22996,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -22033,7 +23006,7 @@ window.BANKMATF1 = [
     "typ": "relaterad förändringshastighet cirkel via omkrets",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg width=\"255\" height=\"180\" viewBox=\"0 0 285 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med växande omkrets\">\n<rect x=\"10\" y=\"10\" width=\"265\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"140\" cy=\"102\" r=\"58\" fill=\"#eef7ff\" stroke=\"#2c62a8\" stroke-width=\"2.4\"/>\n<circle cx=\"140\" cy=\"102\" r=\"3.7\" fill=\"#2c62a8\"/>\n<line x1=\"140\" y1=\"102\" x2=\"194\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<polygon points=\"198,102 188,97 188,107\" fill=\"#b45f32\"/>\n<text x=\"162\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">r = 5,0 cm</text>\n</svg></span><p>En cirkels omkrets ökar med \\(0,80\\pi\\) cm/s. Hur snabbt ökar cirkelns area när radien är 5,0 cm?</p>",
-    "s": "<p>Omkretsen är \\(O=2\\pi r\\). Derivera:</p><p>\\[\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}.\\]</p><p>Sätt in \\(dO/dt=0,80\\pi\\):</p><p>\\[0,80\\pi=2\\pi\\frac{dr}{dt}\\Rightarrow \\frac{dr}{dt}=0,40\\ \\text{cm/s}.\\]</p><p>Arean är \\(A=\\pi r^2\\), så</p><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p><p>När \\(r=5,0\\) cm blir</p><p>\\[\\frac{dA}{dt}=2\\pi\\cdot5,0\\cdot0,40=4\\pi.\\]</p><p><strong>Svar: \\(4\\pi\\ \\text{cm}^2/\\text{s}\\approx12,6\\ \\text{cm}^2/\\text{s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Omkretsen är \\(O=2\\pi r\\). Derivera:</p><p>\\[\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}.\\]</p><p>Sätt in \\(dO/dt=0,80\\pi\\):</p><p>\\[0,80\\pi=2\\pi\\frac{dr}{dt}\\Rightarrow \\frac{dr}{dt}=0,40\\ \\text{cm/s}.\\]</p><p>Arean är \\(A=\\pi r^2\\), så</p><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p><p>När \\(r=5,0\\) cm blir</p><p>\\[\\frac{dA}{dt}=2\\pi\\cdot5,0\\cdot0,40=4\\pi.\\]</p><p><strong>Svar: \\(4\\pi\\ \\text{cm}^2/\\text{s}\\approx12,6\\ \\text{cm}^2/\\text{s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "id": "3.98",
     "miniräknare": true,
     "geogebra": false,
@@ -22047,7 +23020,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -22056,7 +23030,7 @@ window.BANKMATF1 = [
     "typ": "linjär approximation av kvadratrot",
     "poang": "2/0/0",
     "t": "<p>Använd linjär approximation kring \\(x=25\\) för att uppskatta \\(\\sqrt{25,4}\\).</p>",
-    "s": "<p>Låt \\(f(x)=\\sqrt x\\). Då är</p><p>\\[f(25)=5,\\qquad f'(25)=\\frac1{2\\sqrt{25}}=\\frac1{10}.\\]</p><p>Den linjära approximationen ger</p><p>\\[f(25,4)\\approx5+\\frac1{10}(0,4)=5,04.\\]</p><p><strong>\\(\\sqrt{25,4}\\approx5,04\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Låt \\(f(x)=\\sqrt x\\). Då är</p><p>\\[f(25)=5,\\qquad f'(25)=\\frac1{2\\sqrt{25}}=\\frac1{10}.\\]</p><p>Den linjära approximationen ger</p><p>\\[f(25,4)\\approx5+\\frac1{10}(0,4)=5,04.\\]</p><p><strong>\\(\\sqrt{25,4}\\approx5,04\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
     "id": "3.99",
     "miniräknare": false,
     "geogebra": false,
@@ -22069,7 +23043,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -22078,7 +23053,7 @@ window.BANKMATF1 = [
     "typ": "relaterad förändringshastighet båt och rep",
     "poang": "0/3/0",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Båt som dras mot en kaj\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"300\" y=\"35\" width=\"34\" height=\"180\" rx=\"3\" fill=\"#d8dde6\" stroke=\"#8f98a3\"/>\n<rect x=\"35\" y=\"183\" width=\"265\" height=\"8\" rx=\"4\" fill=\"#82bfe9\"/>\n<polygon points=\"110,185 155,185 145,170 120,170\" fill=\"#9c5e2d\" stroke=\"#6b3b1a\"/>\n<line x1=\"300\" y1=\"70\" x2=\"145\" y2=\"170\" stroke=\"#b45f32\" stroke-width=\"2.6\"/>\n<line x1=\"145\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"300\" y1=\"170\" x2=\"300\" y2=\"70\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"163\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"311\" y=\"123\" font-size=\"14\" fill=\"#7f1f3d\">3 m</text>\n<text x=\"224\" y=\"113\" font-size=\"14\" fill=\"#7a3d19\">s</text>\n<line x1=\"169\" y1=\"177\" x2=\"150\" y2=\"177\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/>\n<polygon points=\"146,177 156,172 156,182\" fill=\"#2e8b57\"/>\n<text x=\"154\" y=\"195\" font-size=\"12\" fill=\"#2e8b57\">båten rör sig mot kajen</text>\n</svg></span><p>Ett rep går från toppen av en kaj ned till en båt. Fästpunkten på kajen ligger 3,0 m över vattenytan. Repet dras in med hastigheten 0,60 m/s.</p><p>Hur snabbt närmar sig båten kajen när den är 4,0 m från kajen?</p>",
-    "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till båt och rep\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"300\" y=\"35\" width=\"34\" height=\"180\" rx=\"3\" fill=\"#d8dde6\" stroke=\"#8f98a3\"/>\n<rect x=\"35\" y=\"183\" width=\"265\" height=\"8\" rx=\"4\" fill=\"#82bfe9\"/>\n<polygon points=\"110,185 155,185 145,170 120,170\" fill=\"#9c5e2d\" stroke=\"#6b3b1a\"/>\n<line x1=\"300\" y1=\"70\" x2=\"145\" y2=\"170\" stroke=\"#b45f32\" stroke-width=\"2.6\"/>\n<line x1=\"145\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"300\" y1=\"170\" x2=\"300\" y2=\"70\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"163\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"311\" y=\"123\" font-size=\"14\" fill=\"#7f1f3d\">3 m</text>\n<text x=\"224\" y=\"113\" font-size=\"14\" fill=\"#7a3d19\">s</text>\n<line x1=\"169\" y1=\"177\" x2=\"150\" y2=\"177\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/>\n<polygon points=\"146,177 156,172 156,182\" fill=\"#2e8b57\"/>\n<text x=\"154\" y=\"195\" font-size=\"12\" fill=\"#2e8b57\">båten rör sig mot kajen</text>\n</svg></span><p>Låt \\(x\\) vara båtens horisontella avstånd till kajen och \\(s\\) repets längd.</p><p>Av figuren gäller Pythagoras sats:</p><p>\\[s^2=x^2+3^2=x^2+9.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[2ss'=2xx'\\quad\\Rightarrow\\quad ss'=xx'.\\]</p><p>När \\(x=4,0\\) m är</p><p>\\[s=\\sqrt{4^2+3^2}=5,0\\ \\text{m}.\\]</p><p>Repet blir kortare, alltså är \\(s'=-0,60\\) m/s.</p><p>Sätt in:</p><p>\\[5,0\\cdot(-0,60)=4,0x'.\\]</p><p>Det ger</p><p>\\[x'=-0,75\\ \\text{m/s}.\\]</p><p>Minustecknet visar att avståndet minskar.</p><p><strong>Svar: båten närmar sig kajen med \\(0,75\\ \\text{m/s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten. Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till båt och rep\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"300\" y=\"35\" width=\"34\" height=\"180\" rx=\"3\" fill=\"#d8dde6\" stroke=\"#8f98a3\"/>\n<rect x=\"35\" y=\"183\" width=\"265\" height=\"8\" rx=\"4\" fill=\"#82bfe9\"/>\n<polygon points=\"110,185 155,185 145,170 120,170\" fill=\"#9c5e2d\" stroke=\"#6b3b1a\"/>\n<line x1=\"300\" y1=\"70\" x2=\"145\" y2=\"170\" stroke=\"#b45f32\" stroke-width=\"2.6\"/>\n<line x1=\"145\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"300\" y1=\"170\" x2=\"300\" y2=\"70\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"163\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"311\" y=\"123\" font-size=\"14\" fill=\"#7f1f3d\">3 m</text>\n<text x=\"224\" y=\"113\" font-size=\"14\" fill=\"#7a3d19\">s</text>\n<line x1=\"169\" y1=\"177\" x2=\"150\" y2=\"177\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/>\n<polygon points=\"146,177 156,172 156,182\" fill=\"#2e8b57\"/>\n<text x=\"154\" y=\"195\" font-size=\"12\" fill=\"#2e8b57\">båten rör sig mot kajen</text>\n</svg></span><p>Låt \\(x\\) vara båtens horisontella avstånd till kajen och \\(s\\) repets längd.</p><p>Av figuren gäller Pythagoras sats:</p><p>\\[s^2=x^2+3^2=x^2+9.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[2ss'=2xx'\\quad\\Rightarrow\\quad ss'=xx'.\\]</p><p>När \\(x=4,0\\) m är</p><p>\\[s=\\sqrt{4^2+3^2}=5,0\\ \\text{m}.\\]</p><p>Repet blir kortare, alltså är \\(s'=-0,60\\) m/s.</p><p>Sätt in:</p><p>\\[5,0\\cdot(-0,60)=4,0x'.\\]</p><p>Det ger</p><p>\\[x'=-0,75\\ \\text{m/s}.\\]</p><p>Minustecknet visar att avståndet minskar.</p><p><strong>Svar: båten närmar sig kajen med \\(0,75\\ \\text{m/s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera kritiska punkter, ändpunkter och derivatans tecken så att du verkligen har rätt typ av extrempunkt.</p></div>",
     "id": "3.100",
     "miniräknare": true,
     "geogebra": false,
@@ -22093,7 +23068,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -22117,7 +23093,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -22126,7 +23103,7 @@ window.BANKMATF1 = [
     "typ": "relaterad förändringshastighet sfär",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"180\" viewBox=\"0 0 300 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sfär med växande volym\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"185\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<circle cx=\"145\" cy=\"102\" r=\"60\" fill=\"#f8f8ff\" stroke=\"#555\" stroke-width=\"2.2\"/>\n<ellipse cx=\"145\" cy=\"102\" rx=\"60\" ry=\"18\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1.3\"/>\n<line x1=\"145\" y1=\"102\" x2=\"200\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.2\"/>\n<polygon points=\"204,102 194,97 194,107\" fill=\"#b45f32\"/>\n<text x=\"168\" y=\"94\" font-size=\"14\">r = 2,0 cm</text>\n\n</svg></span><p>Volymen av en sfär ökar med \\(30\\text{ cm}^3/\\text{s}\\). Hur snabbt ökar radien när \\(r=2,0\\) cm?</p>",
-    "s": "<p>Volymen av en sfär är \\(V=\\frac43\\pi r^3\\). Då</p><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p><p>Sätt in \\(dV/dt=30\\) cm³/s och \\(r=2,0\\) cm:</p><p>\\[30=4\\pi\\cdot2^2\\frac{dr}{dt}=16\\pi\\frac{dr}{dt}.\\]</p><p>Alltså</p><p>\\[\\frac{dr}{dt}=\\frac{30}{16\\pi}=\\frac{15}{8\\pi}.\\]</p><p><strong>Svar: \\(dr/dt=\\frac{15}{8\\pi}\\ \\text{cm/s}\\approx0,597\\ \\text{cm/s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Volymen av en sfär är \\(V=\\frac43\\pi r^3\\). Då</p><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p><p>Sätt in \\(dV/dt=30\\) cm³/s och \\(r=2,0\\) cm:</p><p>\\[30=4\\pi\\cdot2^2\\frac{dr}{dt}=16\\pi\\frac{dr}{dt}.\\]</p><p>Alltså</p><p>\\[\\frac{dr}{dt}=\\frac{30}{16\\pi}=\\frac{15}{8\\pi}.\\]</p><p><strong>Svar: \\(dr/dt=\\frac{15}{8\\pi}\\ \\text{cm/s}\\approx0,597\\ \\text{cm/s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "id": "3.101",
     "miniräknare": true,
     "geogebra": false,
@@ -22140,7 +23117,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "id": "3.110",
@@ -22163,7 +23141,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "id": "3.111",
@@ -22173,7 +23152,7 @@ window.BANKMATF1 = [
     "typ": "cylinder med känt inflöde",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"200\" viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cylinder med konstant radie\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"200\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<ellipse cx=\"145\" cy=\"55\" rx=\"52\" ry=\"16\" fill=\"#f8fbff\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"93\" y1=\"55\" x2=\"93\" y2=\"165\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"197\" y1=\"55\" x2=\"197\" y2=\"165\" stroke=\"#555\" stroke-width=\"2\"/>\n<ellipse cx=\"145\" cy=\"165\" rx=\"52\" ry=\"16\" fill=\"#eef6ff\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"145\" y1=\"165\" x2=\"145\" y2=\"55\" stroke=\"#b45f32\" stroke-width=\"2\"/>\n<text x=\"154\" y=\"111\" font-size=\"14\">h</text>\n<line x1=\"145\" y1=\"55\" x2=\"193\" y2=\"55\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<text x=\"153\" y=\"47\" font-size=\"13\">r = 2 dm</text>\n</svg></span><p>En cylindrisk behållare har konstant radie 2 dm. Volymen ökar med 1,6 dm³/min.</p><p>Hur snabbt stiger vätskenivån?</p>",
-    "s": "<p>Volymen av en cylinder är \\(V=\\pi r^2h\\). Här är \\(r=2\\) dm konstant, så</p><p>\\[V=4\\pi h.\\]</p><p>Derivera:</p><p>\\[\\frac{dV}{dt}=4\\pi\\frac{dh}{dt}.\\]</p><p>Sätt in \\(dV/dt=1,6\\) dm³/min:</p><p>\\[1,6=4\\pi\\frac{dh}{dt}\\Rightarrow \\frac{dh}{dt}=\\frac{0,4}{\\pi}.\\]</p><p><strong>Svar: \\(dh/dt=\\frac{0,4}{\\pi}\\ \\text{dm/min}\\approx0,127\\ \\text{dm/min}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Volymen av en cylinder är \\(V=\\pi r^2h\\). Här är \\(r=2\\) dm konstant, så</p><p>\\[V=4\\pi h.\\]</p><p>Derivera:</p><p>\\[\\frac{dV}{dt}=4\\pi\\frac{dh}{dt}.\\]</p><p>Sätt in \\(dV/dt=1,6\\) dm³/min:</p><p>\\[1,6=4\\pi\\frac{dh}{dt}\\Rightarrow \\frac{dh}{dt}=\\frac{0,4}{\\pi}.\\]</p><p><strong>Svar: \\(dh/dt=\\frac{0,4}{\\pi}\\ \\text{dm/min}\\approx0,127\\ \\text{dm/min}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
@@ -22185,7 +23164,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -22207,7 +23187,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "id": "3.112",
@@ -22231,7 +23212,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "id": "3.113",
@@ -22241,7 +23223,7 @@ window.BANKMATF1 = [
     "typ": "konisk behållare med sambandet r lika med 2h",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg width=\"300\" height=\"225\" viewBox=\"0 0 340 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Konisk behållare med r = 2h\">\n<rect x=\"10\" y=\"10\" width=\"320\" height=\"235\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"95\" y1=\"45\" x2=\"170\" y2=\"205\" stroke=\"#555\" stroke-width=\"2.4\"/>\n<line x1=\"245\" y1=\"45\" x2=\"170\" y2=\"205\" stroke=\"#555\" stroke-width=\"2.4\"/>\n<line x1=\"95\" y1=\"45\" x2=\"245\" y2=\"45\" stroke=\"#555\" stroke-width=\"2.4\"/>\n<line x1=\"170\" y1=\"205\" x2=\"170\" y2=\"115\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<text x=\"178\" y=\"166\" font-size=\"14\">h</text>\n<line x1=\"170\" y1=\"115\" x2=\"208\" y2=\"115\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<text x=\"182\" y=\"108\" font-size=\"14\">r = 2h</text>\n<line x1=\"72\" y1=\"62\" x2=\"72\" y2=\"204\" stroke=\"#999\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/>\n<line x1=\"265\" y1=\"45\" x2=\"265\" y2=\"205\" stroke=\"#999\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/>\n\n<line x1=\"270\" y1=\"48\" x2=\"270\" y2=\"22\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<polygon points=\"270,18 265,28 275,28\" fill=\"#2E7D52\"/>\n<text x=\"248\" y=\"32\" font-size=\"12\">dV/dt = 3,0 dm³/s</text>\n</svg></span><p>I en konisk behållare gäller hela tiden sambandet \\(r=2h\\) för vätskans yta. Volymen ökar med 3,0 dm³/s.</p><p>Bestäm \\(dh/dt\\) när \\(h=2,0\\) dm.</p>",
-    "s": "<p>Volymen ges av \\(V=\\frac13\\pi r^2h\\). Med \\(r=2h\\) får vi</p><p>\\[V=\\frac13\\pi(2h)^2h=\\frac43\\pi h^3.\\]</p><p>Derivera:</p><p>\\[\\frac{dV}{dt}=4\\pi h^2\\frac{dh}{dt}.\\]</p><p>När \\(h=2,0\\) dm blir</p><p>\\[3,0=4\\pi\\cdot2,0^2\\frac{dh}{dt}=16\\pi\\frac{dh}{dt}.\\]</p><p>Alltså</p><p>\\[\\frac{dh}{dt}=\\frac{3}{16\\pi}.\\]</p><p><strong>Svar: \\(dh/dt=\\frac{3}{16\\pi}\\ \\text{dm/s}\\approx0,0597\\ \\text{dm/s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Volymen ges av \\(V=\\frac13\\pi r^2h\\). Med \\(r=2h\\) får vi</p><p>\\[V=\\frac13\\pi(2h)^2h=\\frac43\\pi h^3.\\]</p><p>Derivera:</p><p>\\[\\frac{dV}{dt}=4\\pi h^2\\frac{dh}{dt}.\\]</p><p>När \\(h=2,0\\) dm blir</p><p>\\[3,0=4\\pi\\cdot2,0^2\\frac{dh}{dt}=16\\pi\\frac{dh}{dt}.\\]</p><p>Alltså</p><p>\\[\\frac{dh}{dt}=\\frac{3}{16\\pi}.\\]</p><p><strong>Svar: \\(dh/dt=\\frac{3}{16\\pi}\\ \\text{dm/s}\\approx0,0597\\ \\text{dm/s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
@@ -22254,7 +23236,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "id": "3.114",
@@ -22264,7 +23247,7 @@ window.BANKMATF1 = [
     "typ": "relaterade förändringshastigheter strålkastare och vägg",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Strålkastare som lyser mot en vägg\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"65\" y=\"205\" width=\"280\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"305\" y=\"45\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<circle cx=\"105\" cy=\"205\" r=\"6\" fill=\"#444\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#d8a62a\" stroke-width=\"3\"/>\n<circle cx=\"305\" cy=\"120\" r=\"5\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"205\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"305\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"194\" y=\"198\" font-size=\"14\" fill=\"#1f5687\">12 m</text>\n<text x=\"314\" y=\"166\" font-size=\"14\" fill=\"#7f1f3d\">y</text>\n<path d=\"M87 197 A18 18 0 0 1 96 181\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"92\" y=\"186\" font-size=\"13\" fill=\"#333\">v</text>\n</svg></span><p>En strålkastare står på marken 12 m från en lodrät vägg. Ljuskäglans träffpunkt på väggen rör sig uppåt med 3,0 m/s.</p><p>Hur snabbt ändras vinkeln \\(v\\) mellan marken och ljusstrålen när träffpunkten ligger 5,0 m över marken?</p>",
-    "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till strålkastare och vägg\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"65\" y=\"205\" width=\"280\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"305\" y=\"45\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<circle cx=\"105\" cy=\"205\" r=\"6\" fill=\"#444\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#d8a62a\" stroke-width=\"3\"/>\n<circle cx=\"305\" cy=\"120\" r=\"5\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"205\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"305\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"194\" y=\"198\" font-size=\"14\" fill=\"#1f5687\">12 m</text>\n<text x=\"314\" y=\"166\" font-size=\"14\" fill=\"#7f1f3d\">y</text>\n<path d=\"M87 197 A18 18 0 0 1 96 181\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"92\" y=\"186\" font-size=\"13\" fill=\"#333\">v</text>\n</svg></span><p>Låt \\(y\\) vara höjden på väggen och \\(v\\) vinkeln mellan marken och ljusstrålen. Av figuren gäller</p><p>\\[\\tan v=\\frac{y}{12}.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[\\sec^2(v)\\,v'=\\frac{1}{12}y'.\\]</p><p>När \\(y=5,0\\) m gäller \\(\\tan v=5/12\\). Då får vi från en 5-12-13-triangel att</p><p>\\[\\sec^2(v)=\\left(\\frac{13}{12}\\right)^2=\\frac{169}{144}.\\]</p><p>Sätt in \\(y'=3,0\\) m/s:</p><p>\\[\\frac{169}{144}v'=\\frac{3,0}{12}=\\frac14.\\]</p><p>Alltså</p><p>\\[v'=\\frac14\\cdot\\frac{144}{169}=\\frac{36}{169}\\approx0,213.\\]</p><p><strong>Svar: vinkeln ändras med ungefär \\(0,213\\ \\text{rad/s}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten. Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till strålkastare och vägg\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"65\" y=\"205\" width=\"280\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"305\" y=\"45\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<circle cx=\"105\" cy=\"205\" r=\"6\" fill=\"#444\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#d8a62a\" stroke-width=\"3\"/>\n<circle cx=\"305\" cy=\"120\" r=\"5\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"205\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"305\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"194\" y=\"198\" font-size=\"14\" fill=\"#1f5687\">12 m</text>\n<text x=\"314\" y=\"166\" font-size=\"14\" fill=\"#7f1f3d\">y</text>\n<path d=\"M87 197 A18 18 0 0 1 96 181\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"92\" y=\"186\" font-size=\"13\" fill=\"#333\">v</text>\n</svg></span><p>Låt \\(y\\) vara höjden på väggen och \\(v\\) vinkeln mellan marken och ljusstrålen. Av figuren gäller</p><p>\\[\\tan v=\\frac{y}{12}.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[\\sec^2(v)\\,v'=\\frac{1}{12}y'.\\]</p><p>När \\(y=5,0\\) m gäller \\(\\tan v=5/12\\). Då får vi från en 5-12-13-triangel att</p><p>\\[\\sec^2(v)=\\left(\\frac{13}{12}\\right)^2=\\frac{169}{144}.\\]</p><p>Sätt in \\(y'=3,0\\) m/s:</p><p>\\[\\frac{169}{144}v'=\\frac{3,0}{12}=\\frac14.\\]</p><p>Alltså</p><p>\\[v'=\\frac14\\cdot\\frac{144}{169}=\\frac{36}{169}\\approx0,213.\\]</p><p><strong>Svar: vinkeln ändras med ungefär \\(0,213\\ \\text{rad/s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera kritiska punkter, ändpunkter och derivatans tecken så att du verkligen har rätt typ av extrempunkt.</p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
@@ -22278,7 +23261,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -22300,7 +23284,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "id": "3.115",
@@ -22324,7 +23309,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "id": "3.116",
@@ -22334,7 +23320,7 @@ window.BANKMATF1 = [
     "typ": "linjär approximation av logaritm med figur",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"205\" viewBox=\"0 0 420 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till y = ln x med tangent i x = 1\">\n<rect x=\"12\" y=\"12\" width=\"396\" height=\"211\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"50\" y1=\"190\" x2=\"380\" y2=\"190\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"35\" stroke=\"#555\" stroke-width=\"2\"/>\n<path d=\"M 70 170 C 130 135, 180 120, 325 84\" fill=\"none\" stroke=\"#0e5d9e\" stroke-width=\"2.5\"/>\n<line x1=\"82\" y1=\"158\" x2=\"340\" y2=\"93\" stroke=\"#b45f32\" stroke-width=\"2\"/>\n<circle cx=\"210\" cy=\"126\" r=\"4\" fill=\"#333\"/>\n<text x=\"217\" y=\"121\" font-size=\"12\">x = 1</text>\n<text x=\"280\" y=\"79\" font-size=\"13\">y = \\ln x</text>\n<text x=\"288\" y=\"103\" font-size=\"13\">tangent</text>\n</svg></span><p>Använd tangentlinjen till \\(y=\\ln x\\) vid \\(x=1\\) för att uppskatta \\(\\ln(1,05)\\).</p>",
-    "s": "<p>Vi linjäriserar funktionen \\(f(x)=\\ln x\\) kring \\(x=1\\).</p><p>\\[f(1)=0,\\qquad f'(x)=\\fracx\\Rightarrow f'(1)=1.\\]</p><p>Tangentlinjen blir därför</p><p>\\[L(x)=f(1)+f'(1)(x-1)=x-1.\\]</p><p>Sätt in \\(x=1,05\\):</p><p>\\[\\ln(1,05)\\approx L(1,05)=1,05-1=0,05.\\]</p><p><strong>Svar: \\(\\ln(1,05)\\approx0,05\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Vi linjäriserar funktionen \\(f(x)=\\ln x\\) kring \\(x=1\\).</p><p>\\[f(1)=0,\\qquad f'(x)=\\fracx\\Rightarrow f'(1)=1.\\]</p><p>Tangentlinjen blir därför</p><p>\\[L(x)=f(1)+f'(1)(x-1)=x-1.\\]</p><p>Sätt in \\(x=1,05\\):</p><p>\\[\\ln(1,05)\\approx L(1,05)=1,05-1=0,05.\\]</p><p><strong>Svar: \\(\\ln(1,05)\\approx0,05\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Linjär approximation med derivata",
@@ -22346,7 +23332,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "id": "3.117",
@@ -22368,7 +23355,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -22389,7 +23377,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -22410,7 +23399,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -22431,7 +23421,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -22452,7 +23443,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -22476,7 +23468,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -22492,12 +23485,13 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 21.333333333333332,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -22521,7 +23515,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -22542,7 +23537,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -22558,13 +23554,14 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 21.333333333333332,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -22573,7 +23570,7 @@ window.BANKMATF1 = [
     "typ": "area mellan kurva och x-axel med graf",
     "poang": "0/2/0",
     "t": "<span class=\"fig\"><svg height=\"270\" width=\"390\" viewBox=\"0 0 390 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parabeln y lika med x kvadrat minus 4x plus 3 med området mellan x lika med 1 och 3 markerat\">\n<rect width=\"390\" height=\"270\" fill=\"white\"/>\n<line x1=\"55\" y1=\"35\" x2=\"55\" y2=\"245\" stroke=\"#e4e4e4\"/><text x=\"51\" y=\"210\" font-size=\"12\">0</text><line x1=\"127\" y1=\"35\" x2=\"127\" y2=\"245\" stroke=\"#e4e4e4\"/><text x=\"123\" y=\"210\" font-size=\"12\">1</text><line x1=\"199\" y1=\"35\" x2=\"199\" y2=\"245\" stroke=\"#e4e4e4\"/><text x=\"195\" y=\"210\" font-size=\"12\">2</text><line x1=\"271\" y1=\"35\" x2=\"271\" y2=\"245\" stroke=\"#e4e4e4\"/><text x=\"267\" y=\"210\" font-size=\"12\">3</text><line x1=\"343\" y1=\"35\" x2=\"343\" y2=\"245\" stroke=\"#e4e4e4\"/><text x=\"339\" y=\"210\" font-size=\"12\">4</text><line x1=\"45\" y1=\"235\" x2=\"355\" y2=\"235\" stroke=\"#e4e4e4\"/><line x1=\"45\" y1=\"190\" x2=\"355\" y2=\"190\" stroke=\"#e4e4e4\"/><line x1=\"45\" y1=\"145\" x2=\"355\" y2=\"145\" stroke=\"#e4e4e4\"/><line x1=\"45\" y1=\"100\" x2=\"355\" y2=\"100\" stroke=\"#e4e4e4\"/><line x1=\"45\" y1=\"55\" x2=\"355\" y2=\"55\" stroke=\"#e4e4e4\"/>\n<line x1=\"45\" y1=\"190\" x2=\"360\" y2=\"190\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"55\" y1=\"245\" x2=\"55\" y2=\"30\" stroke=\"#222\" stroke-width=\"2\"/>\n<path d=\"M 127,190 L 127.0,190.0 L 129.4,193.0 L 131.8,195.8 L 134.2,198.6 L 136.6,201.2 L 139.0,203.8 L 141.4,206.2 L 143.8,208.6 L 146.2,210.8 L 148.6,212.9 L 151.0,215.0 L 153.4,216.9 L 155.8,218.8 L 158.2,220.6 L 160.6,222.2 L 163.0,223.8 L 165.4,225.2 L 167.8,226.6 L 170.2,227.8 L 172.6,228.9 L 175.0,230.0 L 177.4,230.9 L 179.8,231.8 L 182.2,232.6 L 184.6,233.2 L 187.0,233.8 L 189.4,234.2 L 191.8,234.6 L 194.2,234.8 L 196.6,234.9 L 199.0,235.0 L 201.4,234.9 L 203.8,234.8 L 206.2,234.6 L 208.6,234.2 L 211.0,233.8 L 213.4,233.2 L 215.8,232.6 L 218.2,231.8 L 220.6,230.9 L 223.0,230.0 L 225.4,228.9 L 227.8,227.8 L 230.2,226.5 L 232.6,225.2 L 235.0,223.8 L 237.4,222.2 L 239.8,220.6 L 242.2,218.8 L 244.6,216.9 L 247.0,215.0 L 249.4,212.9 L 251.8,210.8 L 254.2,208.6 L 256.6,206.2 L 259.0,203.8 L 261.4,201.2 L 263.8,198.6 L 266.2,195.8 L 268.6,192.9 L 271.0,190.0 L 271,190 Z\" fill=\"#888\" fill-opacity=\".28\"/>\n<path d=\"M 55.0,55.0 L 57.4,60.9 L 59.8,66.8 L 62.2,72.6 L 64.6,78.2 L 67.0,83.8 L 69.4,89.2 L 71.8,94.6 L 74.2,99.8 L 76.6,105.0 L 79.0,110.0 L 81.4,115.0 L 83.8,119.8 L 86.2,124.6 L 88.6,129.2 L 91.0,133.8 L 93.4,138.2 L 95.8,142.6 L 98.2,146.8 L 100.6,150.9 L 103.0,155.0 L 105.4,158.9 L 107.8,162.8 L 110.2,166.6 L 112.6,170.2 L 115.0,173.8 L 117.4,177.2 L 119.8,180.6 L 122.2,183.8 L 124.6,186.9 L 127.0,190.0 L 129.4,193.0 L 131.8,195.8 L 134.2,198.6 L 136.6,201.2 L 139.0,203.8 L 141.4,206.2 L 143.8,208.6 L 146.2,210.8 L 148.6,212.9 L 151.0,215.0 L 153.4,216.9 L 155.8,218.8 L 158.2,220.6 L 160.6,222.2 L 163.0,223.8 L 165.4,225.2 L 167.8,226.6 L 170.2,227.8 L 172.6,228.9 L 175.0,230.0 L 177.4,230.9 L 179.8,231.8 L 182.2,232.6 L 184.6,233.2 L 187.0,233.8 L 189.4,234.2 L 191.8,234.6 L 194.2,234.8 L 196.6,234.9 L 199.0,235.0 L 201.4,234.9 L 203.8,234.8 L 206.2,234.6 L 208.6,234.2 L 211.0,233.8 L 213.4,233.2 L 215.8,232.6 L 218.2,231.8 L 220.6,230.9 L 223.0,230.0 L 225.4,228.9 L 227.8,227.8 L 230.2,226.6 L 232.6,225.2 L 235.0,223.8 L 237.4,222.2 L 239.8,220.5 L 242.2,218.8 L 244.6,216.9 L 247.0,215.0 L 249.4,212.9 L 251.8,210.8 L 254.2,208.6 L 256.6,206.2 L 259.0,203.8 L 261.4,201.2 L 263.8,198.6 L 266.2,195.8 L 268.6,192.9 L 271.0,190.0 L 273.4,187.0 L 275.8,183.8 L 278.2,180.5 L 280.6,177.2 L 283.0,173.8 L 285.4,170.2 L 287.8,166.5 L 290.2,162.8 L 292.6,159.0 L 295.0,155.0 L 297.4,150.9 L 299.8,146.8 L 302.2,142.6 L 304.6,138.2 L 307.0,133.8 L 309.4,129.2 L 311.8,124.5 L 314.2,119.8 L 316.6,115.0 L 319.0,110.0 L 321.4,104.9 L 323.8,99.8 L 326.2,94.6 L 328.6,89.2 L 331.0,83.7 L 333.4,78.2 L 335.8,72.6 L 338.2,66.8 L 340.6,60.9 L 343.0,55.0\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.4\"/>\n<text x=\"225\" y=\"57\" font-size=\"15\">y = x² - 4x + 3</text>\n</svg></span><p>Bestäm exakt arean av det markerade området mellan grafen \\(y=x^2-4x+3\\) och \\(x\\)-axeln.</p>",
-    "s": "<p>Nollställena är \\(x=1\\) och \\(x=3\\). Mellan dem ligger grafen under \\(x\\)-axeln, så arean är</p><p>\\[A=-\\int_1^3(x^2-4x+3)\\,dx.\\]</p><p>\\[A=-\\left[\\frac{x^3}{3}-2x^2+3x\\right]_1^3=\\mathbf{\\frac43}.\\]</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Nollställena är \\(x=1\\) och \\(x=3\\). Mellan dem ligger grafen under \\(x\\)-axeln, så arean är</p><p>\\[A=-\\int_1^3(x^2-4x+3)\\,dx.\\]</p><p>\\[A=-\\left[\\frac{x^3}{3}-2x^2+3x\\right]_1^3=\\mathbf{\\frac43}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "id": "3.22",
     "miniräknare": false,
     "geogebra": false,
@@ -22587,7 +23584,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -22609,7 +23607,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 3,
@@ -22619,7 +23618,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "3.28",
     "t": "<span class=\"fig\"><svg height=\"260\" width=\"400\" viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Grafen y lika med 4 minus x och ett markerat område mellan x lika med 1 och 3\">\n<rect width=\"400\" height=\"260\" fill=\"white\"/>\n<g stroke=\"#e6e6e6\">\n<line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"220\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"220\"/><line x1=\"180\" y1=\"40\" x2=\"180\" y2=\"220\"/><line x1=\"240\" y1=\"40\" x2=\"240\" y2=\"220\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"220\"/>\n<line x1=\"45\" y1=\"220\" x2=\"340\" y2=\"220\"/><line x1=\"45\" y1=\"175\" x2=\"340\" y2=\"175\"/><line x1=\"45\" y1=\"130\" x2=\"340\" y2=\"130\"/><line x1=\"45\" y1=\"85\" x2=\"340\" y2=\"85\"/><line x1=\"45\" y1=\"40\" x2=\"340\" y2=\"40\"/>\n</g>\n<line x1=\"45\" y1=\"220\" x2=\"350\" y2=\"220\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"60\" y1=\"235\" x2=\"60\" y2=\"30\" stroke=\"#222\" stroke-width=\"2\"/>\n<path d=\"M60 40 L300 175\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.6\"/>\n<path d=\"M120 85 L240 130 L240 220 L120 220 Z\" fill=\"#888\" fill-opacity=\"0.28\"/>\n<text x=\"252\" y=\"110\" font-size=\"14\">y = 4 - x</text>\n<text x=\"116\" y=\"238\" font-size=\"12\">1</text><text x=\"236\" y=\"238\" font-size=\"12\">3</text>\n</svg></span><p>Bestäm arean av det markerade området mellan grafen \\(y=4-x\\), \\(x\\)-axeln och linjerna \\(x=1\\) och \\(x=3\\).</p>",
-    "s": "<p>Arean ges av integralen</p><p>\\[A=\\int_1^3 (4-x)\\,dx.\\]</p><p>En primitiv funktion är \\(4x-\\frac{x^2}{2}\\). Då får vi</p><p>\\[A=\\left[4x-\\frac{x^2}{2}\\right]_1^3=(12-4,5)-(4-0,5)=7,5-3,5=4.\\]</p><p><strong>Arean är 4 areaenheter.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Arean ges av integralen</p><p>\\[A=\\int_1^3 (4-x)\\,dx.\\]</p><p>En primitiv funktion är \\(4x-\\frac{x^2}{2}\\). Då får vi</p><p>\\[A=\\left[4x-\\frac{x^2}{2}\\right]_1^3=(12-4,5)-(4-0,5)=7,5-3,5=4.\\]</p><p><strong>Arean är 4 areaenheter.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Fördjupad analys med derivata och integral",
@@ -22632,7 +23631,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -22655,7 +23655,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -22664,7 +23665,7 @@ window.BANKMATF1 = [
     "typ": "area under parabel",
     "poang": "2/0/0",
     "t": "<span class=\"fig\"><svg height=\"270\" width=\"410\" viewBox=\"0 0 410 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parabeln y lika med 4 minus x kvadrat med området mellan x lika med minus 2 och 2 markerat\">\n<rect width=\"410\" height=\"270\" fill=\"white\"/>\n<line x1=\"35\" y1=\"195.5\" x2=\"390\" y2=\"195.5\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"208.0\" y1=\"245\" x2=\"208.0\" y2=\"25\" stroke=\"#222\" stroke-width=\"2\"/>\n<path d=\"M 80.0,195.5 L 80.0,195.5 L 82.1,190.9 L 84.3,186.4 L 86.4,182.0 L 88.5,177.6 L 90.7,173.4 L 92.8,169.2 L 94.9,165.1 L 97.1,161.1 L 99.2,157.1 L 101.3,153.2 L 103.5,149.4 L 105.6,145.7 L 107.7,142.1 L 109.9,138.5 L 112.0,135.0 L 114.1,131.6 L 116.3,128.2 L 118.4,125.0 L 120.5,121.8 L 122.7,118.7 L 124.8,115.7 L 126.9,112.7 L 129.1,109.8 L 131.2,107.0 L 133.3,104.3 L 135.5,101.6 L 137.6,99.1 L 139.7,96.6 L 141.9,94.2 L 144.0,91.8 L 146.1,89.6 L 148.3,87.4 L 150.4,85.3 L 152.5,83.2 L 154.7,81.3 L 156.8,79.4 L 158.9,77.6 L 161.1,75.9 L 163.2,74.2 L 165.3,72.6 L 167.5,71.1 L 169.6,69.7 L 171.7,68.4 L 173.9,67.1 L 176.0,65.9 L 178.1,64.8 L 180.3,63.8 L 182.4,62.8 L 184.5,61.9 L 186.7,61.1 L 188.8,60.4 L 190.9,59.7 L 193.1,59.2 L 195.2,58.7 L 197.3,58.2 L 199.5,57.9 L 201.6,57.6 L 203.7,57.4 L 205.9,57.3 L 208.0,57.3 L 210.1,57.3 L 212.3,57.4 L 214.4,57.6 L 216.5,57.9 L 218.7,58.2 L 220.8,58.7 L 222.9,59.2 L 225.1,59.7 L 227.2,60.4 L 229.3,61.1 L 231.5,61.9 L 233.6,62.8 L 235.7,63.8 L 237.9,64.8 L 240.0,65.9 L 242.1,67.1 L 244.3,68.4 L 246.4,69.7 L 248.5,71.1 L 250.7,72.6 L 252.8,74.2 L 254.9,75.9 L 257.1,77.6 L 259.2,79.4 L 261.3,81.3 L 263.5,83.2 L 265.6,85.3 L 267.7,87.4 L 269.9,89.6 L 272.0,91.8 L 274.1,94.2 L 276.3,96.6 L 278.4,99.1 L 280.5,101.6 L 282.7,104.3 L 284.8,107.0 L 286.9,109.8 L 289.1,112.7 L 291.2,115.7 L 293.3,118.7 L 295.5,121.8 L 297.6,125.0 L 299.7,128.2 L 301.9,131.6 L 304.0,135.0 L 306.1,138.5 L 308.3,142.1 L 310.4,145.7 L 312.5,149.4 L 314.7,153.2 L 316.8,157.1 L 318.9,161.1 L 321.1,165.1 L 323.2,169.2 L 325.3,173.4 L 327.5,177.6 L 329.6,182.0 L 331.7,186.4 L 333.9,190.9 L 336.0,195.5 L 336.0,195.5 Z\" fill=\"#888\" fill-opacity=\".22\"/>\n<path d=\"M 48.0,273.2 L 50.0,267.8 L 52.0,262.5 L 54.0,257.3 L 56.0,252.1 L 58.0,247.0 L 60.0,242.0 L 62.0,237.1 L 64.0,232.2 L 66.0,227.3 L 68.0,222.6 L 70.0,217.9 L 72.0,213.3 L 74.0,208.7 L 76.0,204.2 L 78.0,199.8 L 80.0,195.5 L 82.0,191.2 L 84.0,187.0 L 86.0,182.8 L 88.0,178.7 L 90.0,174.7 L 92.0,170.8 L 94.0,166.9 L 96.0,163.1 L 98.0,159.3 L 100.0,155.6 L 102.0,152.0 L 104.0,148.5 L 106.0,145.0 L 108.0,141.6 L 110.0,138.3 L 112.0,135.0 L 114.0,131.8 L 116.0,128.7 L 118.0,125.6 L 120.0,122.6 L 122.0,119.7 L 124.0,116.8 L 126.0,114.0 L 128.0,111.2 L 130.0,108.6 L 132.0,106.0 L 134.0,103.5 L 136.0,101.0 L 138.0,98.6 L 140.0,96.3 L 142.0,94.0 L 144.0,91.8 L 146.0,89.7 L 148.0,87.6 L 150.0,85.6 L 152.0,83.7 L 154.0,81.9 L 156.0,80.1 L 158.0,78.4 L 160.0,76.7 L 162.0,75.1 L 164.0,73.6 L 166.0,72.2 L 168.0,70.8 L 170.0,69.5 L 172.0,68.2 L 174.0,67.0 L 176.0,65.9 L 178.0,64.9 L 180.0,63.9 L 182.0,63.0 L 184.0,62.1 L 186.0,61.4 L 188.0,60.6 L 190.0,60.0 L 192.0,59.4 L 194.0,58.9 L 196.0,58.5 L 198.0,58.1 L 200.0,57.8 L 202.0,57.6 L 204.0,57.4 L 206.0,57.3 L 208.0,57.3 L 210.0,57.3 L 212.0,57.4 L 214.0,57.6 L 216.0,57.8 L 218.0,58.1 L 220.0,58.5 L 222.0,58.9 L 224.0,59.4 L 226.0,60.0 L 228.0,60.6 L 230.0,61.4 L 232.0,62.1 L 234.0,63.0 L 236.0,63.9 L 238.0,64.9 L 240.0,65.9 L 242.0,67.0 L 244.0,68.2 L 246.0,69.5 L 248.0,70.8 L 250.0,72.2 L 252.0,73.6 L 254.0,75.1 L 256.0,76.7 L 258.0,78.4 L 260.0,80.1 L 262.0,81.9 L 264.0,83.7 L 266.0,85.6 L 268.0,87.6 L 270.0,89.7 L 272.0,91.8 L 274.0,94.0 L 276.0,96.3 L 278.0,98.6 L 280.0,101.0 L 282.0,103.5 L 284.0,106.0 L 286.0,108.6 L 288.0,111.2 L 290.0,114.0 L 292.0,116.8 L 294.0,119.7 L 296.0,122.6 L 298.0,125.6 L 300.0,128.7 L 302.0,131.8 L 304.0,135.0 L 306.0,138.3 L 308.0,141.6 L 310.0,145.0 L 312.0,148.5 L 314.0,152.0 L 316.0,155.6 L 318.0,159.3 L 320.0,163.1 L 322.0,166.9 L 324.0,170.8 L 326.0,174.7 L 328.0,178.7 L 330.0,182.8 L 332.0,187.0 L 334.0,191.2 L 336.0,195.5 L 338.0,199.8 L 340.0,204.2 L 342.0,208.7 L 344.0,213.3 L 346.0,217.9 L 348.0,222.6 L 350.0,227.3 L 352.0,232.2 L 354.0,237.1 L 356.0,242.0 L 358.0,247.0 L 360.0,252.1 L 362.0,257.3 L 364.0,262.5 L 366.0,267.8 L 368.0,273.2\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/>\n<text x=\"270\" y=\"58\" font-size=\"15\">y = 4 - x²</text>\n<text x=\"73.0\" y=\"213.5\" font-size=\"13\">-2</text>\n<text x=\"332.0\" y=\"213.5\" font-size=\"13\">2</text>\n</svg></span><p>Bestäm arean mellan grafen \\(y=4-x^2\\) och \\(x\\)-axeln.</p>",
-    "s": "<p>Nollställena är \\(x=-2\\) och \\(x=2\\). Mellan nollställena ligger grafen ovanför \\(x\\)-axeln, så arean är</p><p>\\[A=\\int_{-2}^{2}(4-x^2)\\,dx.\\]</p><p>\\[A=\\left[4x-\\frac{x^3}{3}\\right]_{-2}^{2}=\\mathbf{\\frac{32}{3}}.\\]</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm om uppgiften handlar om nollställen, symmetrilinje, extrempunkt eller ett funktionsvärde. Välj form efter det: faktorform, kvadratkompletterad form eller standardform.</p><div class=\"facit-arbete\"><p>Nollställena är \\(x=-2\\) och \\(x=2\\). Mellan nollställena ligger grafen ovanför \\(x\\)-axeln, så arean är</p><p>\\[A=\\int_{-2}^{2}(4-x^2)\\,dx.\\]</p><p>\\[A=\\left[4x-\\frac{x^3}{3}\\right]_{-2}^{2}=\\mathbf{\\frac{32}{3}}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in nollställena i funktionen och kontrollera att extrempunktens läge stämmer med parabelns öppning.</p></div>",
     "id": "3.49",
     "miniräknare": false,
     "geogebra": false,
@@ -22678,7 +23679,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Rita en snabb skiss och markera vad som söks. Kan uttrycket faktoriseras, eller passar pq-formeln eller lösningsformeln bättre?</p>"
   },
   {
     "kap": 3,
@@ -22694,12 +23696,13 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 42.666666666666664,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -22720,7 +23723,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -22740,7 +23744,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -22756,13 +23761,14 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 26.666666666666668,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -22785,7 +23791,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -22807,7 +23814,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 3,
@@ -22816,7 +23824,7 @@ window.BANKMATF1 = [
     "typ": "optimering med integralanknytning",
     "poang": "0/2/0",
     "t": "<p>En rektangel har hörn på \\(x\\)-axeln och de övre hörnen på parabeln \\(y=9-x^2\\), symmetriskt kring \\(y\\)-axeln. Bestäm största möjliga area.</p>",
-    "s": "<p>Låt högra hörnets x-koordinat vara \\(x\\). Bredden är \\(2x\\) och höjden \\(9-x^2\\), så</p><p>\\[A(x)=2x(9-x^2)=18x-2x^3.\\]</p><p>\\[A'(x)=18-6x^2=0\\Rightarrow x=\\sqrt3.\\]</p><p>\\[A_{\\max}=2\\sqrt3(9-3)=12\\sqrt3.\\]</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm om uppgiften handlar om nollställen, symmetrilinje, extrempunkt eller ett funktionsvärde. Välj form efter det: faktorform, kvadratkompletterad form eller standardform.</p><div class=\"facit-arbete\"><p>Låt högra hörnets x-koordinat vara \\(x\\). Bredden är \\(2x\\) och höjden \\(9-x^2\\), så</p><p>\\[A(x)=2x(9-x^2)=18x-2x^3.\\]</p><p>\\[A'(x)=18-6x^2=0\\Rightarrow x=\\sqrt3.\\]</p><p>\\[A_{\\max}=2\\sqrt3(9-3)=12\\sqrt3.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in nollställena i funktionen och kontrollera att extrempunktens läge stämmer med parabelns öppning.</p></div>",
     "id": "3.52",
     "miniräknare": false,
     "geogebra": false,
@@ -22831,7 +23839,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita en snabb skiss och markera vad som söks. Kan uttrycket faktoriseras, eller passar pq-formeln eller lösningsformeln bättre?</p>"
   },
   {
     "kap": 3,
@@ -22854,7 +23863,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -22870,12 +23880,13 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 64,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -22897,7 +23908,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -22918,7 +23930,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -22941,7 +23954,8 @@ window.BANKMATF1 = [
       "begrepp",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -22957,13 +23971,14 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 10.666666666666666,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -22986,7 +24001,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -23002,13 +24018,14 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -23031,7 +24048,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23053,7 +24071,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23069,12 +24088,13 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 85.33333333333333,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23083,7 +24103,7 @@ window.BANKMATF1 = [
     "typ": "area med absolutvärde",
     "poang": "0/2/0",
     "t": "<p>Bestäm arean mellan grafen \\(y=x^2-1\\) och \\(x\\)-axeln på intervallet \\([-2,2]\\).</p>",
-    "s": "<p>Nollställena är \\(x=\\pm1\\). Funktionen är positiv på \\([-2,-1]\\) och \\([1,2]\\), men negativ på \\([-1,1]\\). För area måste den negativa delen därför byta tecken:</p><p>\\[A=2\\int_1^2(x^2-1)\\,dx-\\int_{-1}^{1}(x^2-1)\\,dx.\\]</p><p>De yttre delarna ger tillsammans \\(8/3\\) och mittdelen ger \\(4/3\\). Alltså</p><p>\\[A=\\frac83+\\frac43=\\mathbf{4}.\\]</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p>Nollställena är \\(x=\\pm1\\). Funktionen är positiv på \\([-2,-1]\\) och \\([1,2]\\), men negativ på \\([-1,1]\\). För area måste den negativa delen därför byta tecken:</p><p>\\[A=2\\int_1^2(x^2-1)\\,dx-\\int_{-1}^{1}(x^2-1)\\,dx.\\]</p><p>De yttre delarna ger tillsammans \\(8/3\\) och mittdelen ger \\(4/3\\). Alltså</p><p>\\[A=\\frac83+\\frac43=\\mathbf{4}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
     "id": "3.80",
     "miniräknare": false,
     "geogebra": false,
@@ -23096,7 +24116,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -23117,7 +24138,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -23133,13 +24155,14 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -23148,7 +24171,7 @@ window.BANKMATF1 = [
     "typ": "värdera CAS-resultat för generaliserad integral",
     "poang": "0/2/0",
     "t": "<p>Ett CAS ger värdet \\(-1\\) för en primitiv funktion när du undersöker \\(\\int_1^\\infty \\frac{1}{x^{1/2}}\\,dx\\). Förklara varför man inte kan acceptera detta som integralens värde och avgör om integralen konvergerar.</p>",
-    "s": "<p>En generaliserad integral måste behandlas som ett gränsvärde:</p><p>\\[\\int_1^R x^{-1/2}dx=2\\sqrt R-2.\\]</p><p>När \\(R\\to\\infty\\) går uttrycket mot \\(\\infty\\). Integralen <strong>divergerar</strong>. Ett CAS-uttryck för en primitiv funktion ersätter inte konvergensprövningen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>En generaliserad integral måste behandlas som ett gränsvärde:</p><p>\\[\\int_1^R x^{-1/2}dx=2\\sqrt R-2.\\]</p><p>När \\(R\\to\\infty\\) går uttrycket mot \\(\\infty\\). Integralen <strong>divergerar</strong>. Ett CAS-uttryck för en primitiv funktion ersätter inte konvergensprövningen.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
     "id": "3.13",
     "miniräknare": false,
     "geogebra": false,
@@ -23161,7 +24184,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -23183,7 +24207,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23205,7 +24230,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>"
   },
   {
     "kap": 3,
@@ -23228,7 +24254,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23238,7 +24265,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "3.29",
     "t": "<p>Ett CAS ger att derivatan av \\(f(x)=x^3-6x\\) är \\(f'(x)=3x^2-6\\).</p><ol type=\"a\"><li>Bestäm de kritiska punkterna.</li><li>Ange i vilka intervall funktionen är växande.</li></ol>",
-    "s": "<p><strong>a)</strong> Kritiska punkter fås när derivatan är 0:</p><p>\\[3x^2-6=0\\Rightarrow x^2=2\\Rightarrow x=\\pm \\sqrt2.\\]</p><p><strong>b)</strong> Funktionen är växande när \\(f'(x)\\gt 0\\):</p><p>\\[3x^2-6\\gt 0\\Rightarrow x^2\\gt 2\\Rightarrow x\\lt -\\sqrt2\\ \\text{eller}\\ x\\gt \\sqrt2.\\]</p><p><strong>Funktionen är alltså växande för \\(( -\\infty,-\\sqrt2)\\) och \\((\\sqrt2,\\infty)\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p><strong>a)</strong> Kritiska punkter fås när derivatan är 0:</p><p>\\[3x^2-6=0\\Rightarrow x^2=2\\Rightarrow x=\\pm \\sqrt2.\\]</p><p><strong>b)</strong> Funktionen är växande när \\(f'(x)\\gt 0\\):</p><p>\\[3x^2-6\\gt 0\\Rightarrow x^2\\gt 2\\Rightarrow x\\lt -\\sqrt2\\ \\text{eller}\\ x\\gt \\sqrt2.\\]</p><p><strong>Funktionen är alltså växande för \\(( -\\infty,-\\sqrt2)\\) och \\((\\sqrt2,\\infty)\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Fördjupad analys med derivata och integral",
@@ -23250,7 +24277,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -23266,12 +24294,13 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23293,7 +24322,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -23315,7 +24345,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
   },
   {
     "kap": 3,
@@ -23337,7 +24368,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 3,
@@ -23346,7 +24378,7 @@ window.BANKMATF1 = [
     "typ": "granska CAS-antagande",
     "poang": "0/2/0",
     "t": "<p>Ett CAS ger lösningarna \\(x=\\pm2\\) till ekvationen \\(\\sqrt{x^2}=2\\). En elev påstår därför att \\(\\sqrt{x^2}=x\\) för alla reella \\(x\\). Förklara felet.</p>",
-    "s": "<p>För reella \\(x\\) gäller \\(\\sqrt{x^2}=|x|\\), inte alltid \\(x\\). Om \\(x\\lt0\\) är \\(|x|=-x\\). CAS-svaret \\(x=\\pm2\\) visar just att båda tecknen är möjliga. Elevens generalisering är därför fel.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>För reella \\(x\\) gäller \\(\\sqrt{x^2}=|x|\\), inte alltid \\(x\\). Om \\(x\\lt0\\) är \\(|x|=-x\\). CAS-svaret \\(x=\\pm2\\) visar just att båda tecknen är möjliga. Elevens generalisering är därför fel.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "3.54",
     "miniräknare": false,
     "geogebra": false,
@@ -23358,7 +24390,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 3,
@@ -23374,13 +24407,14 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 6.75,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -23401,7 +24435,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 3,
@@ -23424,7 +24459,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23440,12 +24476,13 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 64,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23466,7 +24503,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "kap": 3,
@@ -23488,7 +24526,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23511,7 +24550,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
   },
   {
     "kap": 3,
@@ -23533,7 +24573,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -23572,7 +24613,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "skärningspunkter",
       "area"
-    ]
+    ],
+    "ledtrad": "<p>Rita en snabb skiss och markera vad som söks. Kan uttrycket faktoriseras, eller passar pq-formeln eller lösningsformeln bättre?</p>"
   },
   {
     "kap": 3,
@@ -23594,7 +24636,8 @@ window.BANKMATF1 = [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 3,
@@ -23617,7 +24660,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23637,7 +24681,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -23653,12 +24698,13 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 166.66666666666666,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23680,7 +24726,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -23696,13 +24743,14 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 85.75,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 3,
@@ -23711,7 +24759,7 @@ window.BANKMATF1 = [
     "typ": "parameter från area mellan linje och parabel",
     "poang": "0/3/0",
     "t": "<p>För \\(k>0\\) begränsar kurvorna \\(y=kx\\) och \\(y=x^2\\) ett område mellan sina skärningspunkter. Bestäm \\(k\\) om områdets area är \\(\\frac43\\).</p>",
-    "s": "<p>Skärningspunkterna fås av \\(kx=x^2\\), alltså \\(x=0\\) och \\(x=k\\).</p><p>På intervallet \\([0,k]\\) ligger linjen över parabeln. Arean är</p><p>\\[A=\\int_0^k(kx-x^2)dx=\\left[\\frac{kx^2}{2}-\\frac{x^3}{3}\\right]_0^k=\\frac{k^3}{6}.\\]</p><p>Sätt \\(A=\\frac43\\):</p><p>\\[\\frac{k^3}{6}=\\frac43\\Rightarrow k^3=8.\\]</p><p><strong>\\(k=2\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm om uppgiften handlar om nollställen, symmetrilinje, extrempunkt eller ett funktionsvärde. Välj form efter det: faktorform, kvadratkompletterad form eller standardform.</p><div class=\"facit-arbete\"><p>Skärningspunkterna fås av \\(kx=x^2\\), alltså \\(x=0\\) och \\(x=k\\).</p><p>På intervallet \\([0,k]\\) ligger linjen över parabeln. Arean är</p><p>\\[A=\\int_0^k(kx-x^2)dx=\\left[\\frac{kx^2}{2}-\\frac{x^3}{3}\\right]_0^k=\\frac{k^3}{6}.\\]</p><p>Sätt \\(A=\\frac43\\):</p><p>\\[\\frac{k^3}{6}=\\frac43\\Rightarrow k^3=8.\\]</p><p><strong>\\(k=2\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in nollställena i funktionen och kontrollera att extrempunktens läge stämmer med parabelns öppning.</p></div>",
     "id": "3.104",
     "miniräknare": false,
     "geogebra": false,
@@ -23724,7 +24772,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rita en snabb skiss och markera vad som söks. Kan uttrycket faktoriseras, eller passar pq-formeln eller lösningsformeln bättre?</p>"
   },
   {
     "kap": 3,
@@ -23746,7 +24795,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 3,
@@ -23768,7 +24818,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 3,
@@ -23777,7 +24828,7 @@ window.BANKMATF1 = [
     "typ": "optimering av rektangel under parabel",
     "poang": "0/3/0",
     "t": "<p>En rektangel är symmetrisk kring \\(y\\)-axeln. Dess bas ligger på \\(x\\)-axeln och de övre hörnen ligger på parabeln \\(y=9-x^2\\).</p><p>Bestäm rektangelns största möjliga area.</p>",
-    "s": "<p>Låt det högra övre hörnet ha \\(x\\)-koordinaten \\(x\\gt 0\\). Då är bredden \\(2x\\) och höjden \\(9-x^2\\).</p><p>\\[A(x)=2x(9-x^2)=18x-2x^3.\\]</p><p>\\[A'(x)=18-6x^2.\\]</p><p>\\[A'(x)=0\\Rightarrow x^2=3\\Rightarrow x=\\sqrt3.\\]</p><p>\\[A_{\\max}=2\\sqrt3(9-3)=12\\sqrt3.\\]</p><p><strong>Största arean är \\(12\\sqrt3\\) areaenheter.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm om uppgiften handlar om nollställen, symmetrilinje, extrempunkt eller ett funktionsvärde. Välj form efter det: faktorform, kvadratkompletterad form eller standardform.</p><div class=\"facit-arbete\"><p>Låt det högra övre hörnet ha \\(x\\)-koordinaten \\(x\\gt 0\\). Då är bredden \\(2x\\) och höjden \\(9-x^2\\).</p><p>\\[A(x)=2x(9-x^2)=18x-2x^3.\\]</p><p>\\[A'(x)=18-6x^2.\\]</p><p>\\[A'(x)=0\\Rightarrow x^2=3\\Rightarrow x=\\sqrt3.\\]</p><p>\\[A_{\\max}=2\\sqrt3(9-3)=12\\sqrt3.\\]</p><p><strong>Största arean är \\(12\\sqrt3\\) areaenheter.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in nollställena i funktionen och kontrollera att extrempunktens läge stämmer med parabelns öppning.</p></div>",
     "id": "3.105",
     "miniräknare": false,
     "geogebra": false,
@@ -23792,7 +24843,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Rita en snabb skiss och markera vad som söks. Kan uttrycket faktoriseras, eller passar pq-formeln eller lösningsformeln bättre?</p>"
   },
   {
     "kap": 3,
@@ -23815,7 +24867,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>"
   },
   {
     "kap": 4,
@@ -23831,13 +24884,14 @@ window.BANKMATF1 = [
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -23846,7 +24900,7 @@ window.BANKMATF1 = [
     "typ": "verifiera given lösning",
     "poang": "2/0/0",
     "t": "<p>Visa att \\(y=4e^{-2x}\\) är en lösning till \\(y'+2y=0\\).</p>",
-    "s": "<p>För att verifiera en föreslagen lösning deriverar vi och sätter in i differentialekvationen.</p><p>För \\(y=4e^{-2x}\\) är \\(y'=-8e^{-2x}\\). Då blir</p><p>\\[y'+2y=-8e^{-2x}+8e^{-2x}=0.\\]</p><p>Vänsterledet blir alltså exakt högerledet, så funktionen <strong>är en lösning</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>För att verifiera en föreslagen lösning deriverar vi och sätter in i differentialekvationen.</p><p>För \\(y=4e^{-2x}\\) är \\(y'=-8e^{-2x}\\). Då blir</p><p>\\[y'+2y=-8e^{-2x}+8e^{-2x}=0.\\]</p><p>Vänsterledet blir alltså exakt högerledet, så funktionen <strong>är en lösning</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.14",
     "miniräknare": false,
     "geogebra": false,
@@ -23857,7 +24911,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -23878,7 +24933,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -23898,7 +24954,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -23920,7 +24977,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -23940,7 +24998,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -23961,7 +25020,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -23981,7 +25041,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24002,7 +25063,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24022,7 +25084,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24038,13 +25101,14 @@ window.BANKMATF1 = [
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24064,7 +25128,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24085,7 +25150,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24094,7 +25160,7 @@ window.BANKMATF1 = [
     "typ": "ordning och homogenitet",
     "poang": "2/0/0",
     "t": "<p>Bestäm differentialekvationens ordning och avgör om den är homogen eller inhomogen:</p><p>\\[y''-5y'+6y=4e^x.\\]</p>",
-    "s": "<p><strong>Ordning:</strong> Den högsta derivatan som förekommer är \\(y''\\). Differentialekvationen är därför av <strong>andra ordningen</strong>.</p><p><strong>Homogen eller inhomogen:</strong> En linjär differentialekvation är homogen när högerledet är 0. Här är högerledet \\(4e^x\\neq0\\), så ekvationen är <strong>inhomogen</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p><strong>Ordning:</strong> Den högsta derivatan som förekommer är \\(y''\\). Differentialekvationen är därför av <strong>andra ordningen</strong>.</p><p><strong>Homogen eller inhomogen:</strong> En linjär differentialekvation är homogen när högerledet är 0. Här är högerledet \\(4e^x\\neq0\\), så ekvationen är <strong>inhomogen</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.15",
     "miniräknare": false,
     "geogebra": false,
@@ -24107,7 +25173,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24129,7 +25196,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24139,7 +25207,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "4.46",
     "t": "<p>Vilka av följande är differentialekvationer?</p><p>a) \\(y'=3y\\) &nbsp;&nbsp; b) \\(2x+5=11\\) &nbsp;&nbsp; c) \\(y''+y=0\\) &nbsp;&nbsp; d) \\(f(x)=x^2\\)</p>",
-    "s": "<p>En differentialekvation innehåller en okänd funktion och någon av dess derivator.</p><p>a) \\(y'=3y\\) är en differentialekvation.</p><p>b) \\(2x+5=11\\) är bara en vanlig ekvation.</p><p>c) \\(y''+y=0\\) är en differentialekvation.</p><p>d) \\(f(x)=x^2\\) beskriver en funktion men är ingen differentialekvation.</p><p><strong>Rätt svar är a) och c).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>En differentialekvation innehåller en okänd funktion och någon av dess derivator.</p><p>a) \\(y'=3y\\) är en differentialekvation.</p><p>b) \\(2x+5=11\\) är bara en vanlig ekvation.</p><p>c) \\(y''+y=0\\) är en differentialekvation.</p><p>d) \\(f(x)=x^2\\) beskriver en funktion men är ingen differentialekvation.</p><p><strong>Rätt svar är a) och c).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Grundläggande analys av differentialekvationer",
@@ -24173,24 +25241,29 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(y'=3y\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Här förekommer både den okända funktionen \\(y\\) och derivatan \\(y'\\).</p><p><strong>Svar:</strong> ja.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Här förekommer både den okända funktionen \\(y\\) och derivatan \\(y'\\).</p><p><strong>Svar:</strong> ja.</p>",
+        "niva": "E"
       },
       {
         "etikett": "b",
         "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(2x+5=11\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Detta är en vanlig algebraisk ekvation i \\(x\\); ingen okänd funktion eller derivata förekommer.</p><p><strong>Svar:</strong> nej.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Detta är en vanlig algebraisk ekvation i \\(x\\); ingen okänd funktion eller derivata förekommer.</p><p><strong>Svar:</strong> nej.</p>",
+        "niva": "E"
       },
       {
         "etikett": "c",
         "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(y''+y=0\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Här förekommer den okända funktionen \\(y\\) och dess andraderivata \\(y''\\).</p><p><strong>Svar:</strong> ja.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Här förekommer den okända funktionen \\(y\\) och dess andraderivata \\(y''\\).</p><p><strong>Svar:</strong> ja.</p>",
+        "niva": "E"
       },
       {
         "etikett": "d",
         "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(f(x)=x^2\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Detta definierar en funktion men innehåller ingen derivata, så det är inte en differentialekvation.</p><p><strong>Svar:</strong> nej.</p>"
+        "s": "<p><strong>Nyckelidé:</strong> Detta definierar en funktion men innehåller ingen derivata, så det är inte en differentialekvation.</p><p><strong>Svar:</strong> nej.</p>",
+        "niva": "E"
       }
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24211,7 +25284,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24231,7 +25305,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24252,7 +25327,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24274,7 +25350,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24290,13 +25367,14 @@ window.BANKMATF1 = [
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24317,7 +25395,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24338,7 +25417,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24347,7 +25427,7 @@ window.BANKMATF1 = [
     "typ": "tolka tecken i Newtons avsvalningslag",
     "poang": "0/2/0",
     "t": "<p>En temperaturmodell skrivs \\(T'=k(T-180)\\). Ett föremål som från början är 20 °C värms i en ugn på 180 °C. Vilket tecken måste \\(k\\) ha? Motivera.</p>",
-    "s": "<p>När föremålet är kallare än ugnen gäller \\(T&lt;180\\), alltså är \\(T-180&lt;0\\). Samtidigt värms föremålet, så temperaturen ökar och därför är \\(T'&gt;0\\).</p><p>I modellen \\[T'=k(T-180)\\] måste produkten på höger sida alltså vara positiv trots att \\(T-180\\) är negativ. Därför måste <strong>\\(k&lt;0\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>När föremålet är kallare än ugnen gäller \\(T&lt;180\\), alltså är \\(T-180&lt;0\\). Samtidigt värms föremålet, så temperaturen ökar och därför är \\(T'&gt;0\\).</p><p>I modellen \\[T'=k(T-180)\\] måste produkten på höger sida alltså vara positiv trots att \\(T-180\\) är negativ. Därför måste <strong>\\(k&lt;0\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.16",
     "miniräknare": false,
     "geogebra": false,
@@ -24360,7 +25440,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24382,7 +25463,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24391,7 +25473,7 @@ window.BANKMATF1 = [
     "typ": "jämföra homogen och inhomogen ekvation",
     "poang": "0/2/0",
     "t": "<p>Förklara skillnaden mellan lösningarna till</p><p>\\[y''+4y=0\\]</p><p>och</p><p>\\[y''+4y=8\\cos x.\\]</p><p>Fokusera på vad högerledet gör och hur den allmänna lösningen byggs upp.</p>",
-    "s": "<p>I den homogena ekvationen är högerledet noll och alla lösningar består bara av den homogena delen:</p><p>\\[y_h=C_1\\cos2x+C_2\\sin2x.\\]</p><p>I den inhomogena ekvationen finns dessutom en yttre term \\(8\\cos x\\). Den allmänna lösningen byggs därför som</p><p>\\[y=y_h+y_p,\\]</p><p>där \\(y_p\\) är <em>en</em> partikulärlösning som återskapar högerledet. Här kan \\(y_p=\\frac83\\cos x\\). Skillnaden är alltså att högerledet tillför en bestämd påtvingad del till hela familjen av homogena lösningar.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>I den homogena ekvationen är högerledet noll och alla lösningar består bara av den homogena delen:</p><p>\\[y_h=C_1\\cos2x+C_2\\sin2x.\\]</p><p>I den inhomogena ekvationen finns dessutom en yttre term \\(8\\cos x\\). Den allmänna lösningen byggs därför som</p><p>\\[y=y_h+y_p,\\]</p><p>där \\(y_p\\) är <em>en</em> partikulärlösning som återskapar högerledet. Här kan \\(y_p=\\frac83\\cos x\\). Skillnaden är alltså att högerledet tillför en bestämd påtvingad del till hela familjen av homogena lösningar.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.44",
     "miniräknare": false,
     "geogebra": false,
@@ -24403,7 +25485,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24424,7 +25507,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24445,7 +25529,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24466,7 +25551,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24488,7 +25574,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24497,7 +25584,7 @@ window.BANKMATF1 = [
     "typ": "tolka tecken på derivata",
     "poang": "0/2/0",
     "t": "<p>En population modelleras av \\(P'=0,02P(500-P)\\). För vilka positiva populationsstorlekar växer respektive minskar populationen?</p>",
-    "s": "<p>För \\(0\\lt P\\lt500\\) är både \\(P\\) och \\(500-P\\) positiva, så \\(P'\\gt0\\): populationen växer. För \\(P\\gt500\\) är \\(500-P\\lt0\\), så \\(P'\\lt0\\): populationen minskar. \\(P=500\\) är en jämvikt.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>För \\(0\\lt P\\lt500\\) är både \\(P\\) och \\(500-P\\) positiva, så \\(P'\\gt0\\): populationen växer. För \\(P\\gt500\\) är \\(500-P\\lt0\\), så \\(P'\\lt0\\): populationen minskar. \\(P=500\\) är en jämvikt.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.66",
     "miniräknare": false,
     "geogebra": false,
@@ -24511,7 +25598,8 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24527,13 +25615,14 @@ window.BANKMATF1 = [
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 1.2,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24555,7 +25644,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24576,7 +25666,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24585,7 +25676,7 @@ window.BANKMATF1 = [
     "typ": "jämviktspunkter logistisk modell",
     "poang": "0/2/0",
     "t": "<p>Bestäm jämviktspunkterna för \\(y'=0,01y(200-y)\\) och klassificera dem som stabila eller instabila.</p>",
-    "s": "<p>Jämvikt när \\(y'=0\\): \\(y=0\\) eller \\(y=200\\). För små positiva \\(y\\) är \\(y'\\gt0\\), så lösningar rör sig bort från 0: <strong>0 är instabil</strong>. Kring 200 är derivatan positiv under och negativ över: <strong>200 är stabil</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Jämvikt när \\(y'=0\\): \\(y=0\\) eller \\(y=200\\). För små positiva \\(y\\) är \\(y'\\gt0\\), så lösningar rör sig bort från 0: <strong>0 är instabil</strong>. Kring 200 är derivatan positiv under och negativ över: <strong>200 är stabil</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.91",
     "miniräknare": false,
     "geogebra": false,
@@ -24598,7 +25689,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24620,7 +25712,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24629,7 +25722,7 @@ window.BANKMATF1 = [
     "typ": "jämvikter och stabilitet i logistisk modell",
     "poang": "0/1/3",
     "t": "<span class=\"fig\"><svg width=\"470\" height=\"330\" viewBox=\"0 0 470 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Faslinje för den logistiska modellen med jämvikterna y lika med 0 och y lika med 400 samt pilar som visar riktningen\">\n<rect width=\"470\" height=\"330\" fill=\"white\"/>\n<line x1=\"140\" y1=\"6\" x2=\"140\" y2=\"284\" stroke=\"#ccc\" stroke-width=\"1.6\"/>\n<text x=\"124\" y=\"242\" font-size=\"12.5\" fill=\"#999\" text-anchor=\"end\">0</text><text x=\"124\" y=\"170\" font-size=\"12.5\" fill=\"#999\" text-anchor=\"end\">200</text><text x=\"124\" y=\"98\" font-size=\"12.5\" fill=\"#999\" text-anchor=\"end\">400</text><text x=\"124\" y=\"26\" font-size=\"12.5\" fill=\"#999\" text-anchor=\"end\">600</text><line x1=\"140\" y1=\"276\" x2=\"140\" y2=\"248\" stroke=\"#B23A2E\" stroke-width=\"3\"/><path d=\"M134 238 l6 10 6 -10\" fill=\"none\" stroke=\"#B23A2E\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"230\" x2=\"140\" y2=\"186\" stroke=\"#2E7D52\" stroke-width=\"3\"/><path d=\"M134 196 l6 -10 6 10\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"176\" x2=\"140\" y2=\"147\" stroke=\"#2E7D52\" stroke-width=\"3\"/><path d=\"M134 157 l6 -10 6 10\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"129\" x2=\"140\" y2=\"104\" stroke=\"#2E7D52\" stroke-width=\"3\"/><path d=\"M134 114 l6 -10 6 10\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"35\" x2=\"140\" y2=\"68\" stroke=\"#B23A2E\" stroke-width=\"3\"/><path d=\"M134 58 l6 10 6 -10\" fill=\"none\" stroke=\"#B23A2E\" stroke-width=\"2.6\"/><line x1=\"140\" y1=\"75\" x2=\"140\" y2=\"89\" stroke=\"#B23A2E\" stroke-width=\"3\"/><path d=\"M134 79 l6 10 6 -10\" fill=\"none\" stroke=\"#B23A2E\" stroke-width=\"2.6\"/><circle cx=\"140\" cy=\"237\" r=\"9\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"162\" y=\"242\" font-size=\"16\">y = 0</text><circle cx=\"140\" cy=\"93\" r=\"9\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"162\" y=\"98\" font-size=\"16\">y = 400</text>\n<text x=\"260\" y=\"40\" font-size=\"15\" fill=\"#B23A2E\">y&#8242; &lt; 0</text>\n<text x=\"260\" y=\"170\" font-size=\"15\" fill=\"#2E7D52\">y&#8242; &gt; 0</text>\n<text x=\"260\" y=\"267\" font-size=\"15\" fill=\"#B23A2E\">y&#8242; &lt; 0</text>\n<text x=\"140\" y=\"-6\" font-size=\"14\" fill=\"#777\" text-anchor=\"middle\">y</text>\n<text x=\"30\" y=\"318\" font-size=\"14\" fill=\"#777\">Pilarna visar åt vilket håll lösningen rör sig.</text>\n</svg></span><p>En population modelleras av</p><p>\\[P'=0,5\\,P\\left(1-\\frac{P}{400}\\right).\\]</p><ol type=\"a\"><li>Bestäm jämviktslösningarna.</li><li>Avgör för vilka \\(P\\gt0\\) populationen växer respektive minskar.</li><li>Klassificera jämvikterna som stabila eller instabila och beskriv vad som händer med en population som startar på \\(P(0)=50\\).</li></ol>",
-    "s": "<p><strong>a)</strong> En jämviktslösning är konstant, alltså \\(P'=0\\):</p><p>\\[0,5P\\left(1-\\frac{P}{400}\\right)=0\\Rightarrow P=0\\quad\\text{eller}\\quad P=400.\\]</p><p><strong>b)</strong> Undersök tecknet på högerledet mellan och utanför jämvikterna.</p><p>För \\(0\\lt P\\lt400\\) är \\(P\\gt0\\) och \\(1-\\frac{P}{400}\\gt0\\), så produkten är positiv och <strong>populationen växer</strong>.</p><p>För \\(P\\gt400\\) är \\(P\\gt0\\) men \\(1-\\frac{P}{400}\\lt0\\), så produkten är negativ och <strong>populationen minskar</strong>.</p><p><strong>c)</strong> Faslinjen i figuren sammanfattar tecknen. Pilarna pekar bort från \\(P=0\\) och mot \\(P=400\\) från båda hållen.</p><p>Startar populationen strax ovanför 0 växer den, alltså rör den sig bort från jämvikten: <strong>\\(P=0\\) är instabil</strong>.</p><p>Kommer populationen underifrån växer den mot 400, och kommer den ovanifrån minskar den mot 400. Lösningarna närmar sig alltså jämvikten från båda håll: <strong>\\(P=400\\) är stabil</strong>.</p><p>Med \\(P(0)=50\\) ligger startvärdet mellan jämvikterna. Populationen växer därför hela tiden och närmar sig 400 utan att någonsin nå eller passera värdet. Talet 400 är modellens bärkraft.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p><strong>a)</strong> En jämviktslösning är konstant, alltså \\(P'=0\\):</p><p>\\[0,5P\\left(1-\\frac{P}{400}\\right)=0\\Rightarrow P=0\\quad\\text{eller}\\quad P=400.\\]</p><p><strong>b)</strong> Undersök tecknet på högerledet mellan och utanför jämvikterna.</p><p>För \\(0\\lt P\\lt400\\) är \\(P\\gt0\\) och \\(1-\\frac{P}{400}\\gt0\\), så produkten är positiv och <strong>populationen växer</strong>.</p><p>För \\(P\\gt400\\) är \\(P\\gt0\\) men \\(1-\\frac{P}{400}\\lt0\\), så produkten är negativ och <strong>populationen minskar</strong>.</p><p><strong>c)</strong> Faslinjen i figuren sammanfattar tecknen. Pilarna pekar bort från \\(P=0\\) och mot \\(P=400\\) från båda hållen.</p><p>Startar populationen strax ovanför 0 växer den, alltså rör den sig bort från jämvikten: <strong>\\(P=0\\) är instabil</strong>.</p><p>Kommer populationen underifrån växer den mot 400, och kommer den ovanifrån minskar den mot 400. Lösningarna närmar sig alltså jämvikten från båda håll: <strong>\\(P=400\\) är stabil</strong>.</p><p>Med \\(P(0)=50\\) ligger startvärdet mellan jämvikterna. Populationen växer därför hela tiden och närmar sig 400 utan att någonsin nå eller passera värdet. Talet 400 är modellens bärkraft.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.123",
     "miniräknare": false,
     "geogebra": false,
@@ -24644,7 +25737,8 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24665,7 +25759,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24686,7 +25781,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24707,7 +25803,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24727,7 +25824,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24743,13 +25841,14 @@ window.BANKMATF1 = [
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 1e-08,
+    "tolerans": 1e-8,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24771,7 +25870,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24792,7 +25892,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24815,7 +25916,8 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24837,7 +25939,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24859,7 +25962,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24880,7 +25984,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24900,7 +26005,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -24921,7 +26027,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.320",
@@ -24942,7 +26049,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -24964,7 +26072,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.321",
@@ -24985,7 +26094,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25001,13 +26111,14 @@ window.BANKMATF1 = [
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 2.2,
-    "tolerans": 1e-08,
+    "tolerans": 1e-8,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25028,7 +26139,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25050,7 +26162,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25070,7 +26183,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25091,7 +26205,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25112,7 +26227,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25133,7 +26249,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25153,7 +26270,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25174,7 +26292,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25195,7 +26314,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25216,7 +26336,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25236,7 +26357,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25257,7 +26379,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25280,7 +26403,8 @@ window.BANKMATF1 = [
       "resonemang",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25301,7 +26425,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25324,7 +26449,8 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25345,7 +26471,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25365,7 +26492,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25388,7 +26516,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25409,7 +26538,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25431,7 +26561,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 4,
@@ -25451,7 +26582,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25474,7 +26606,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25497,7 +26630,8 @@ window.BANKMATF1 = [
       "resonemang",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25518,7 +26652,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25541,7 +26676,8 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25550,7 +26686,7 @@ window.BANKMATF1 = [
     "typ": "linjär inhomogen första ordningens differentialekvation",
     "poang": "2/0/0",
     "t": "<p>Bestäm den allmänna lösningen till \\(y'=2y+6x\\).</p>",
-    "s": "<p>Skriv \\(y'-2y=6x\\). Den homogena lösningen är \\(Ce^{2x}\\). Sök en partikulär lösning \\(y_p=ax+b\\). Då \\(a-2(ax+b)=6x\\), vilket ger \\(a=-3\\), \\(b=-3/2\\). Alltså <strong>\\(y=Ce^{2x}-3x-\\frac32\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Skriv \\(y'-2y=6x\\). Den homogena lösningen är \\(Ce^{2x}\\). Sök en partikulär lösning \\(y_p=ax+b\\). Då \\(a-2(ax+b)=6x\\), vilket ger \\(a=-3\\), \\(b=-3/2\\). Alltså <strong>\\(y=Ce^{2x}-3x-\\frac32\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.08",
     "miniräknare": false,
     "geogebra": false,
@@ -25562,7 +26698,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25582,7 +26719,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25603,7 +26741,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25624,7 +26763,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25645,7 +26785,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25665,7 +26806,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25686,7 +26828,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25709,7 +26852,8 @@ window.BANKMATF1 = [
       "resonemang",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25719,7 +26863,7 @@ window.BANKMATF1 = [
     "poang": "0/1/3",
     "id": "4.52",
     "t": "<span class=\"fig\"><svg height=\"260\" width=\"470\" viewBox=\"0 0 470 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kopp kaffe som svalnar i ett rum\">\n<rect width=\"470\" height=\"260\" fill=\"white\"/>\n<ellipse cx=\"190\" cy=\"95\" rx=\"75\" ry=\"18\" fill=\"#ddd\" stroke=\"#444\" stroke-width=\"2\"/>\n<path d=\"M115 95 L125 190 Q130 220 190 220 Q250 220 255 190 L265 95\" fill=\"#f8f8f8\" stroke=\"#444\" stroke-width=\"2\"/>\n<path d=\"M265 110 Q320 105 320 145 Q320 185 270 175\" fill=\"none\" stroke=\"#444\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<path d=\"M160 60 Q152 40 165 25 M190 55 Q182 35 196 20 M220 60 Q214 43 228 27\" fill=\"none\" stroke=\"#888\" stroke-width=\"3\"/>\n<text x=\"332\" y=\"95\" font-size=\"16\">Rum: 20 °C</text>\n<text x=\"330\" y=\"125\" font-size=\"16\">Kaffe: T(t)</text>\n<text x=\"330\" y=\"155\" font-size=\"16\">T(0) = 80 °C</text>\n</svg></span><p>En kopp kaffe har temperaturen 80 °C när den ställs i ett rum som håller 20 °C. Temperaturen \\(T(t)\\) i kaffet följer modellen</p><p>\\[T'(t)=k(20-T(t)),\\qquad k=0,10.\\]</p><ol type=\"a\"><li>Bestäm \\(T(t)\\).</li><li>När har kaffet svalnat till 50 °C?</li></ol>",
-    "s": "<p>Differentialekvationen kan skrivas</p><p>\\[T'+0,10T=2.\\]</p><p>Den homogena lösningen är \\(T_h=Ce^{-0,10t}\\). En konstant partikulärlösning fås av \\(T_p=A\\):</p><p>\\[0,10A=2\\Rightarrow A=20.\\]</p><p>Alltså</p><p>\\[T(t)=Ce^{-0,10t}+20.\\]</p><p>Begynnelsevillkoret \\(T(0)=80\\) ger \\(C=60\\), så</p><p>\\[T(t)=60e^{-0,10t}+20.\\]</p><p>För \\(T=50\\) får vi</p><p>\\[60e^{-0,10t}+20=50\\Rightarrow 60e^{-0,10t}=30\\Rightarrow e^{-0,10t}=\\frac{1}{2}.\\]</p><p>\\[-0,10t=\\ln\\left(\\frac{1}{2}\\right)=-\\ln 2\\Rightarrow t=10\\ln 2\\approx 6,93.\\]</p><p><strong>Kaffet når 50 °C efter ungefär 6,9 minuter.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Differentialekvationen kan skrivas</p><p>\\[T'+0,10T=2.\\]</p><p>Den homogena lösningen är \\(T_h=Ce^{-0,10t}\\). En konstant partikulärlösning fås av \\(T_p=A\\):</p><p>\\[0,10A=2\\Rightarrow A=20.\\]</p><p>Alltså</p><p>\\[T(t)=Ce^{-0,10t}+20.\\]</p><p>Begynnelsevillkoret \\(T(0)=80\\) ger \\(C=60\\), så</p><p>\\[T(t)=60e^{-0,10t}+20.\\]</p><p>För \\(T=50\\) får vi</p><p>\\[60e^{-0,10t}+20=50\\Rightarrow 60e^{-0,10t}=30\\Rightarrow e^{-0,10t}=\\frac{1}{2}.\\]</p><p>\\[-0,10t=\\ln\\left(\\frac{1}{2}\\right)=-\\ln 2\\Rightarrow t=10\\ln 2\\approx 6,93.\\]</p><p><strong>Kaffet når 50 °C efter ungefär 6,9 minuter.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "miniräknare": true,
     "geogebra": true,
     "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
@@ -25732,7 +26876,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25755,7 +26900,8 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25776,7 +26922,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25797,7 +26944,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25817,7 +26965,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25840,7 +26989,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25861,7 +27011,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25883,7 +27034,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25904,7 +27056,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25926,7 +27079,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25949,7 +27103,8 @@ window.BANKMATF1 = [
       "resonemang",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25972,7 +27127,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -25995,7 +27151,8 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26016,7 +27173,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26036,7 +27194,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26057,7 +27216,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26078,7 +27238,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26099,7 +27260,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26120,7 +27282,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26142,7 +27305,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26163,7 +27327,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26184,7 +27349,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26207,7 +27373,8 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26228,7 +27395,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26248,7 +27416,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26257,7 +27426,7 @@ window.BANKMATF1 = [
     "typ": "linjär första ordningen med polynom",
     "poang": "0/3/0",
     "t": "<p>Lös</p><p>\\[y'+2y=6x+1.\\]</p>",
-    "s": "<p>Homogena lösningen är \\(y_h=Ce^{-2x}\\).</p><p>Pröva \\(y_p=ax+b\\). Då ger insättning</p><p>\\[a+2(ax+b)=6x+1.\\]</p><p>Jämför koefficienter:</p><p>\\[2a=6\\Rightarrow a=3,\\]</p><p>\\[a+2b=1\\Rightarrow3+2b=1\\Rightarrow b=-1.\\]</p><p><strong>\\[y=Ce^{-2x}+3x-1.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Homogena lösningen är \\(y_h=Ce^{-2x}\\).</p><p>Pröva \\(y_p=ax+b\\). Då ger insättning</p><p>\\[a+2(ax+b)=6x+1.\\]</p><p>Jämför koefficienter:</p><p>\\[2a=6\\Rightarrow a=3,\\]</p><p>\\[a+2b=1\\Rightarrow3+2b=1\\Rightarrow b=-1.\\]</p><p><strong>\\[y=Ce^{-2x}+3x-1.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.146",
     "miniräknare": false,
     "geogebra": false,
@@ -26269,7 +27438,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26290,7 +27460,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26299,7 +27470,7 @@ window.BANKMATF1 = [
     "typ": "Newtons avsvalningsform utan begynnelsevillkor",
     "poang": "0/2/0",
     "t": "<p>En temperatur \\(T(t)\\) uppfyller</p><p>\\[T'=-0,3(T-20).\\]</p><p>Bestäm den allmänna lösningen och tolka talet 20.</p>",
-    "s": "<p>Sätt \\(u=T-20\\). Då är \\(u'=T'\\) och</p><p>\\[u'=-0,3u.\\]</p><p>Alltså \\(u=Ce^{-0,3t}\\), så</p><p><strong>\\[T(t)=20+Ce^{-0,3t}.\\]</strong></p><p>Talet 20 är modellens <strong>jämviktstemperatur</strong>: när \\(T=20\\) är förändringshastigheten noll, och lösningarna närmar sig 20 över tid.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Sätt \\(u=T-20\\). Då är \\(u'=T'\\) och</p><p>\\[u'=-0,3u.\\]</p><p>Alltså \\(u=Ce^{-0,3t}\\), så</p><p><strong>\\[T(t)=20+Ce^{-0,3t}.\\]</strong></p><p>Talet 20 är modellens <strong>jämviktstemperatur</strong>: när \\(T=20\\) är förändringshastigheten noll, och lösningarna närmar sig 20 över tid.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.147",
     "miniräknare": false,
     "geogebra": false,
@@ -26313,7 +27484,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26334,7 +27506,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.324",
@@ -26355,7 +27528,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "kap": 4,
@@ -26376,7 +27550,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.325",
@@ -26397,7 +27572,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26420,7 +27596,8 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26442,7 +27619,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26451,7 +27629,7 @@ window.BANKMATF1 = [
     "typ": "andra ordningens homogen med begynnelsevillkor",
     "poang": "1/0/0",
     "t": "<p>Bestäm den lösning till \\(y''+4y'-5y=0\\) som uppfyller \\(y(0)=0\\) och \\(y'(0)=6\\).</p>",
-    "s": "<p>Karakteristiska ekvationen \\(r^2+4r-5=0\\) har rötterna \\(r=1\\) och \\(r=-5\\). Alltså \\(y=Ae^x+Be^{-5x}\\). Villkoren ger \\(A+B=0\\) och \\(A-5B=6\\), alltså \\(A=1\\), \\(B=-1\\). <strong>\\(y=e^x-e^{-5x}\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Karakteristiska ekvationen \\(r^2+4r-5=0\\) har rötterna \\(r=1\\) och \\(r=-5\\). Alltså \\(y=Ae^x+Be^{-5x}\\). Villkoren ger \\(A+B=0\\) och \\(A-5B=6\\), alltså \\(A=1\\), \\(B=-1\\). <strong>\\(y=e^x-e^{-5x}\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.01",
     "miniräknare": false,
     "geogebra": false,
@@ -26464,7 +27642,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26485,7 +27664,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26507,7 +27687,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26516,7 +27697,7 @@ window.BANKMATF1 = [
     "typ": "ange en partikulär lösning till homogen differentialekvation",
     "poang": "2/0/0",
     "t": "<p>Differentialekvationen \\(y''+8y'-9y=0\\) har många lösningar. Bestäm en lösning som inte är identiskt noll.</p>",
-    "s": "<p>Den karakteristiska ekvationen är \\[r^2+8r-9=0=(r-1)(r+9).\\]</p><p>Rötterna är \\(r=1\\) och \\(r=-9\\). Därför är både \\(e^x\\) och \\(e^{-9x}\\) lösningar. En sådan lösning är exempelvis <strong>\\(y=e^x\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Den karakteristiska ekvationen är \\[r^2+8r-9=0=(r-1)(r+9).\\]</p><p>Rötterna är \\(r=1\\) och \\(r=-9\\). Därför är både \\(e^x\\) och \\(e^{-9x}\\) lösningar. En sådan lösning är exempelvis <strong>\\(y=e^x\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.05",
     "miniräknare": false,
     "geogebra": false,
@@ -26528,7 +27709,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26550,7 +27732,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26572,7 +27755,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26593,7 +27777,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26614,7 +27799,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26635,7 +27821,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26656,7 +27843,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26665,7 +27853,7 @@ window.BANKMATF1 = [
     "typ": "andra ordningens homogen med dubbelrot",
     "poang": "3/0/0",
     "t": "<p>Bestäm den allmänna lösningen till \\(y''+4y'+4y=0\\).</p>",
-    "s": "<p>Den karakteristiska ekvationen är \\[r^2+4r+4=(r+2)^2=0.\\]</p><p>Vi får dubbelroten \\(r=-2\\). Vid en dubbelrot behövs två linjärt oberoende lösningar, \\(e^{-2x}\\) och \\(xe^{-2x}\\). Därför är <strong>\\(y=(A+Bx)e^{-2x}\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Den karakteristiska ekvationen är \\[r^2+4r+4=(r+2)^2=0.\\]</p><p>Vi får dubbelroten \\(r=-2\\). Vid en dubbelrot behövs två linjärt oberoende lösningar, \\(e^{-2x}\\) och \\(xe^{-2x}\\). Därför är <strong>\\(y=(A+Bx)e^{-2x}\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
     "id": "4.10",
     "miniräknare": false,
     "geogebra": false,
@@ -26678,7 +27866,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -26699,7 +27888,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26720,7 +27910,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26729,7 +27920,7 @@ window.BANKMATF1 = [
     "typ": "allmän lösning med komplexa rötter",
     "poang": "1/1/1",
     "t": "<p>Bestäm den allmänna lösningen till \\(y''+4y'+13y=0\\) och kontrollera genom insättning vilken differentialekvation lösningen uppfyller.</p>",
-    "s": "<p>Rötterna till \\(r^2+4r+13=0\\) är \\(-2\\pm3i\\). Därför</p><p><strong>\\[y=e^{-2x}(A\\cos3x+B\\sin3x).\\]</strong></p><p>Deriverar man två gånger och bildar \\(y''+4y'+13y\\) tar både cosinus- och sinustermerna ut varandra, vilket ger 0.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Rötterna till \\(r^2+4r+13=0\\) är \\(-2\\pm3i\\). Därför</p><p><strong>\\[y=e^{-2x}(A\\cos3x+B\\sin3x).\\]</strong></p><p>Deriverar man två gånger och bildar \\(y''+4y'+13y\\) tar både cosinus- och sinustermerna ut varandra, vilket ger 0.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.13",
     "miniräknare": false,
     "geogebra": false,
@@ -26742,7 +27933,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26764,7 +27956,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -26773,7 +27966,7 @@ window.BANKMATF1 = [
     "typ": "tolka lösningsform vid dubbelrot",
     "poang": "0/2/0",
     "t": "<p>En homogen differentialekvation av andra ordningen har den allmänna lösningen</p><p>\\[y=(C_1+C_2x)e^{-3x}.\\]</p><ol type=\"a\"><li>Bestäm den karakteristiska ekvationen.</li><li>Skriv en differentialekvation som har denna allmänna lösning.</li></ol>",
-    "s": "<p>Faktorn \\(e^{-3x}\\) tillsammans med \\(x e^{-3x}\\) visar att \\(r=-3\\) är en dubbelrot.</p><p>Karakteristiska ekvationen är</p><p>\\[(r+3)^2=r^2+6r+9=0.\\]</p><p>En motsvarande differentialekvation är därför <strong>\\(y''+6y'+9y=0\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Faktorn \\(e^{-3x}\\) tillsammans med \\(x e^{-3x}\\) visar att \\(r=-3\\) är en dubbelrot.</p><p>Karakteristiska ekvationen är</p><p>\\[(r+3)^2=r^2+6r+9=0.\\]</p><p>En motsvarande differentialekvation är därför <strong>\\(y''+6y'+9y=0\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
     "id": "4.43",
     "miniräknare": false,
     "geogebra": false,
@@ -26786,7 +27979,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -26808,7 +28002,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -26830,7 +28025,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -26853,7 +28049,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26874,7 +28071,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26896,7 +28094,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -26918,7 +28117,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -26940,7 +28140,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26950,7 +28151,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "4.55",
     "t": "<p>Lös differentialekvationen</p><p>\\[y''+9y=0.\\]</p>",
-    "s": "<p>Karakteristiska ekvationen är \\(r^2+9=0\\), vilket ger rötterna \\(r=\\pm 3i\\).</p><p>Vid rötter av typen \\(\\alpha\\pm \\beta i\\) blir lösningen</p><p>\\[y=e^{\\alpha x}(C_1\\cos \\beta x + C_2\\sin \\beta x).\\]</p><p>Här är \\(\\alpha=0\\) och \\(\\beta=3\\), alltså</p><p><strong>\\(y=C_1\\cos 3x+C_2\\sin 3x\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Karakteristiska ekvationen är \\(r^2+9=0\\), vilket ger rötterna \\(r=\\pm 3i\\).</p><p>Vid rötter av typen \\(\\alpha\\pm \\beta i\\) blir lösningen</p><p>\\[y=e^{\\alpha x}(C_1\\cos \\beta x + C_2\\sin \\beta x).\\]</p><p>Här är \\(\\alpha=0\\) och \\(\\beta=3\\), alltså</p><p><strong>\\(y=C_1\\cos 3x+C_2\\sin 3x\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Homogena differentialekvationer av andra ordningen",
@@ -26962,7 +28163,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -26984,7 +28186,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27005,7 +28208,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27027,7 +28231,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27048,7 +28253,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27069,7 +28275,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27091,7 +28298,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27100,7 +28308,7 @@ window.BANKMATF1 = [
     "typ": "andra ordningens inhomogen med linjärt polynom",
     "poang": "3/0/0",
     "t": "<p>Bestäm den allmänna lösningen till</p><p>\\[y''+y'-2y=4x.\\]</p>",
-    "s": "<p>Homogena delen: \\(r^2+r-2=(r-1)(r+2)=0\\), så</p><p>\\[y_h=C_1e^x+C_2e^{-2x}.\\]</p><p>Sök \\(y_p=ax+b\\). Då \\(y_p'=a\\) och \\(y_p''=0\\). Insättning ger</p><p>\\[a-2(ax+b)=4x.\\]</p><p>Jämför koefficienter: \\(-2a=4\\Rightarrow a=-2\\) och \\(a-2b=0\\Rightarrow b=-1\\).</p><p><strong>\\(y=C_1e^x+C_2e^{-2x}-2x-1\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Homogena delen: \\(r^2+r-2=(r-1)(r+2)=0\\), så</p><p>\\[y_h=C_1e^x+C_2e^{-2x}.\\]</p><p>Sök \\(y_p=ax+b\\). Då \\(y_p'=a\\) och \\(y_p''=0\\). Insättning ger</p><p>\\[a-2(ax+b)=4x.\\]</p><p>Jämför koefficienter: \\(-2a=4\\Rightarrow a=-2\\) och \\(a-2b=0\\Rightarrow b=-1\\).</p><p><strong>\\(y=C_1e^x+C_2e^{-2x}-2x-1\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.28",
     "miniräknare": false,
     "geogebra": false,
@@ -27113,7 +28321,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27135,7 +28344,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27157,7 +28367,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27179,7 +28390,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27188,7 +28400,7 @@ window.BANKMATF1 = [
     "typ": "andra ordningens inhomogen med trigonometriskt högerled",
     "poang": "0/2/0",
     "t": "<p>Bestäm den allmänna lösningen till</p><p>\\[y''+4y=8\\cos x.\\]</p>",
-    "s": "<p>Homogena lösningen är</p><p>\\[y_h=C_1\\cos2x+C_2\\sin2x.\\]</p><p>Sök \\(y_p=A\\cos x+B\\sin x\\). Då är \\(y_p''=-A\\cos x-B\\sin x\\), så</p><p>\\[y_p''+4y_p=3A\\cos x+3B\\sin x.\\]</p><p>Jämförelse med \\(8\\cos x\\) ger \\(A=8/3\\), \\(B=0\\).</p><p><strong>\\(y=C_1\\cos2x+C_2\\sin2x+\\frac83\\cos x\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Homogena lösningen är</p><p>\\[y_h=C_1\\cos2x+C_2\\sin2x.\\]</p><p>Sök \\(y_p=A\\cos x+B\\sin x\\). Då är \\(y_p''=-A\\cos x-B\\sin x\\), så</p><p>\\[y_p''+4y_p=3A\\cos x+3B\\sin x.\\]</p><p>Jämförelse med \\(8\\cos x\\) ger \\(A=8/3\\), \\(B=0\\).</p><p><strong>\\(y=C_1\\cos2x+C_2\\sin2x+\\frac83\\cos x\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.31",
     "miniräknare": false,
     "geogebra": false,
@@ -27201,7 +28413,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27222,7 +28435,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27231,7 +28445,7 @@ window.BANKMATF1 = [
     "typ": "inhomogent begynnelsevärdesproblem med polynom",
     "poang": "0/1/2",
     "t": "<p>Lös begynnelsevärdesproblemet</p><p>\\[y''-y=2x+1,\\qquad y(0)=0,\\qquad y'(0)=0.\\]</p>",
-    "s": "<p>Homogena lösningen är \\(y_h=C_1e^{-x}+C_2e^x\\).</p><p>Sök \\(y_p=ax+b\\). Då \\(0-(ax+b)=2x+1\\), vilket ger \\(a=-2\\), \\(b=-1\\).</p><p>Alltså</p><p>\\[y=C_1e^{-x}+C_2e^x-2x-1.\\]</p><p>Villkoret \\(y(0)=0\\) ger \\(C_1+C_2=1\\). Derivatan är</p><p>\\[y'=-C_1e^{-x}+C_2e^x-2,\\]</p><p>och \\(y'(0)=0\\) ger \\(-C_1+C_2=2\\). Lösning av systemet ger \\(C_1=-1/2\\), \\(C_2=3/2\\).</p><p><strong>\\(y=-\\frac{1}{2}e^{-x}+\\frac32e^x-2x-1\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Homogena lösningen är \\(y_h=C_1e^{-x}+C_2e^x\\).</p><p>Sök \\(y_p=ax+b\\). Då \\(0-(ax+b)=2x+1\\), vilket ger \\(a=-2\\), \\(b=-1\\).</p><p>Alltså</p><p>\\[y=C_1e^{-x}+C_2e^x-2x-1.\\]</p><p>Villkoret \\(y(0)=0\\) ger \\(C_1+C_2=1\\). Derivatan är</p><p>\\[y'=-C_1e^{-x}+C_2e^x-2,\\]</p><p>och \\(y'(0)=0\\) ger \\(-C_1+C_2=2\\). Lösning av systemet ger \\(C_1=-1/2\\), \\(C_2=3/2\\).</p><p><strong>\\(y=-\\frac{1}{2}e^{-x}+\\frac32e^x-2x-1\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.33",
     "miniräknare": false,
     "geogebra": false,
@@ -27244,7 +28458,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27253,7 +28468,7 @@ window.BANKMATF1 = [
     "typ": "periodiskt högerled som ingår i den homogena lösningen och begynnelsevillkor",
     "poang": "0/1/3",
     "t": "<p>Lös</p><p>\\[y''+4y=6\\cos(2x),\\qquad y(0)=0,\\qquad y'(0)=0.\\]</p><p>Beskriv också vad som är speciellt med lösningens amplitud.</p>",
-    "s": "<p>Den homogena lösningen är \\(y_h=C_1\\cos2x+C_2\\sin2x\\). Högerledets \\(\\cos2x\\) har alltså samma form som en term som redan finns i den homogena lösningen.</p><p>Därför fungerar inte en vanlig ansats med bara sinus och cosinus. Vi prövar i stället</p><p>\\[y_p=Ax\\sin2x.\\]</p><p>Insättning ger \\(4A\\cos2x=6\\cos2x\\), alltså \\(A=3/2\\).</p><p>Den allmänna lösningen är</p><p>\\[y=C_1\\cos2x+C_2\\sin2x+\\frac32x\\sin2x.\\]</p><p>Begynnelsevillkoren ger \\(C_1=0\\) och \\(C_2=0\\). Alltså</p><p><strong>\\(y=\\frac32x\\sin2x\\)</strong>.</p><p>Faktorn \\(x\\) gör att svängningarnas amplitud växer med tiden. Lösningen är därför inte begränsad.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Den homogena lösningen är \\(y_h=C_1\\cos2x+C_2\\sin2x\\). Högerledets \\(\\cos2x\\) har alltså samma form som en term som redan finns i den homogena lösningen.</p><p>Därför fungerar inte en vanlig ansats med bara sinus och cosinus. Vi prövar i stället</p><p>\\[y_p=Ax\\sin2x.\\]</p><p>Insättning ger \\(4A\\cos2x=6\\cos2x\\), alltså \\(A=3/2\\).</p><p>Den allmänna lösningen är</p><p>\\[y=C_1\\cos2x+C_2\\sin2x+\\frac32x\\sin2x.\\]</p><p>Begynnelsevillkoren ger \\(C_1=0\\) och \\(C_2=0\\). Alltså</p><p><strong>\\(y=\\frac32x\\sin2x\\)</strong>.</p><p>Faktorn \\(x\\) gör att svängningarnas amplitud växer med tiden. Lösningen är därför inte begränsad.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.34",
     "miniräknare": false,
     "geogebra": false,
@@ -27265,7 +28480,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27286,7 +28502,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27307,7 +28524,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27328,7 +28546,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27349,7 +28568,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27358,7 +28578,7 @@ window.BANKMATF1 = [
     "typ": "sinusterm som ingår i den homogena lösningen",
     "poang": "0/2/0",
     "t": "<p>Bestäm lämplig ansats för en partikulärlösning till \\(y''+4y=\\sin2x\\). Motivera.</p>",
-    "s": "<p>Den homogena lösningen innehåller \\(\\cos2x\\) och \\(\\sin2x\\). Ansatsen \\(A\\cos2x+B\\sin2x\\) skulle därför bara ge termer som redan ingår i den homogena lösningen.</p><p>För att få en ny form multiplicerar vi därför ansatsen med \\(x\\):</p><p><strong>\\(y_p=x(A\\cos2x+B\\sin2x)\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Den homogena lösningen innehåller \\(\\cos2x\\) och \\(\\sin2x\\). Ansatsen \\(A\\cos2x+B\\sin2x\\) skulle därför bara ge termer som redan ingår i den homogena lösningen.</p><p>För att få en ny form multiplicerar vi därför ansatsen med \\(x\\):</p><p><strong>\\(y_p=x(A\\cos2x+B\\sin2x)\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.81",
     "miniräknare": false,
     "geogebra": false,
@@ -27370,7 +28590,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27392,7 +28613,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27414,7 +28636,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27435,7 +28658,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27456,7 +28680,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27465,7 +28690,7 @@ window.BANKMATF1 = [
     "typ": "exponentialterm som ingår i den homogena lösningen",
     "poang": "0/2/0",
     "t": "<p>Bestäm en partikulärlösning till \\(y''-4y'+4y=e^{2x}\\).</p>",
-    "s": "<p>Den homogena ekvationen har dubbelroten \\(r=2\\), så både \\(e^{2x}\\) och \\(xe^{2x}\\) ingår i den homogena lösningen. Därför behövs ansatsen \\(y_p=Ax^2e^{2x}\\). Insättning ger \\(2Ae^{2x}=e^{2x}\\), så \\(A=1/2\\).</p><p><strong>\\(y_p=\\frac12x^2e^{2x}\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Den homogena ekvationen har dubbelroten \\(r=2\\), så både \\(e^{2x}\\) och \\(xe^{2x}\\) ingår i den homogena lösningen. Därför behövs ansatsen \\(y_p=Ax^2e^{2x}\\). Insättning ger \\(2Ae^{2x}=e^{2x}\\), så \\(A=1/2\\).</p><p><strong>\\(y_p=\\frac12x^2e^{2x}\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.106",
     "miniräknare": false,
     "geogebra": false,
@@ -27478,7 +28703,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27499,7 +28725,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -27521,7 +28748,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27543,7 +28771,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -27565,7 +28794,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27587,7 +28817,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27609,7 +28840,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27631,7 +28863,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27640,7 +28873,7 @@ window.BANKMATF1 = [
     "typ": "exponentialhögerled som ingår i den homogena lösningen",
     "poang": "0/3/0",
     "t": "<p>Lös</p><p>\\[y''-5y'+6y=e^{2x}.\\]</p>",
-    "s": "<p>Den homogena ekvationen har rötterna 2 och 3:</p><p>\\[y_h=C_1e^{2x}+C_2e^{3x}.\\]</p><p>Högerledet \\(e^{2x}\\) har samma form som termen \\(e^{2x}\\) som redan finns i den homogena lösningen. Därför fungerar inte ansatsen \\(Ae^{2x}\\).</p><p>Vi prövar i stället</p><p>\\[y_p=Axe^{2x}.\\]</p><p>Insättning i vänsterledet ger \\(-Ae^{2x}\\). För att få högerledet \\(e^{2x}\\) krävs \\(A=-1\\).</p><p>Alltså</p><p><strong>\\[y=C_1e^{2x}+C_2e^{3x}-xe^{2x}.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Den homogena ekvationen har rötterna 2 och 3:</p><p>\\[y_h=C_1e^{2x}+C_2e^{3x}.\\]</p><p>Högerledet \\(e^{2x}\\) har samma form som termen \\(e^{2x}\\) som redan finns i den homogena lösningen. Därför fungerar inte ansatsen \\(Ae^{2x}\\).</p><p>Vi prövar i stället</p><p>\\[y_p=Axe^{2x}.\\]</p><p>Insättning i vänsterledet ger \\(-Ae^{2x}\\). För att få högerledet \\(e^{2x}\\) krävs \\(A=-1\\).</p><p>Alltså</p><p><strong>\\[y=C_1e^{2x}+C_2e^{3x}-xe^{2x}.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.153",
     "miniräknare": false,
     "geogebra": false,
@@ -27652,7 +28885,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27661,7 +28895,7 @@ window.BANKMATF1 = [
     "typ": "inhomogen andra ordningen linjärt polynom",
     "poang": "0/2/0",
     "t": "<p>Lös</p><p>\\[y''+y=2x.\\]</p>",
-    "s": "<p>Homogena lösningen är</p><p>\\[y_h=C_1\\cos x+C_2\\sin x.\\]</p><p>Pröva \\(y_p=ax+b\\). Då är \\(y_p''=0\\), så</p><p>\\[ax+b=2x.\\]</p><p>Det ger \\(a=2\\), \\(b=0\\), alltså \\(y_p=2x\\).</p><p><strong>\\[y=C_1\\cos x+C_2\\sin x+2x.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Homogena lösningen är</p><p>\\[y_h=C_1\\cos x+C_2\\sin x.\\]</p><p>Pröva \\(y_p=ax+b\\). Då är \\(y_p''=0\\), så</p><p>\\[ax+b=2x.\\]</p><p>Det ger \\(a=2\\), \\(b=0\\), alltså \\(y_p=2x\\).</p><p><strong>\\[y=C_1\\cos x+C_2\\sin x+2x.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.154",
     "miniräknare": false,
     "geogebra": false,
@@ -27674,7 +28908,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27696,7 +28931,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27718,7 +28954,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27739,7 +28976,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27760,7 +28998,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27782,7 +29021,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27802,7 +29042,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27823,7 +29064,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27844,7 +29086,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27866,7 +29109,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27876,7 +29120,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "4.56",
     "t": "<p>Bestäm lösningen till differentialekvationen \\(y''-y=0\\) som uppfyller \\(y(0)=2\\) och \\(y'(0)=0\\).</p>",
-    "s": "<p>Den allmänna lösningen till \\(y''-y=0\\) är</p><p>\\[y=C_1e^x+C_2e^{-x}.\\]</p><p>Då är</p><p>\\[y(0)=C_1+C_2=2\\]</p><p>och</p><p>\\[y'=C_1e^x-C_2e^{-x}\\Rightarrow y'(0)=C_1-C_2=0.\\]</p><p>Systemet ger \\(C_1=C_2=1\\).</p><p><strong>Alltså är \\(y=e^x+e^{-x}\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Den allmänna lösningen till \\(y''-y=0\\) är</p><p>\\[y=C_1e^x+C_2e^{-x}.\\]</p><p>Då är</p><p>\\[y(0)=C_1+C_2=2\\]</p><p>och</p><p>\\[y'=C_1e^x-C_2e^{-x}\\Rightarrow y'(0)=C_1-C_2=0.\\]</p><p>Systemet ger \\(C_1=C_2=1\\).</p><p><strong>Alltså är \\(y=e^x+e^{-x}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Begynnelsevärdesproblem för differentialekvationer",
@@ -27887,7 +29131,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27908,7 +29153,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27930,7 +29176,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27951,7 +29198,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27971,7 +29219,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -27992,7 +29241,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28014,7 +29264,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28036,7 +29287,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28057,7 +29309,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28078,7 +29331,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28100,7 +29354,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28120,7 +29375,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28141,7 +29397,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28162,7 +29419,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28184,7 +29442,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28206,7 +29465,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28227,7 +29487,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28249,7 +29510,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28270,7 +29532,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28291,7 +29554,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28312,7 +29576,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28333,7 +29598,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28355,7 +29621,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28376,7 +29643,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28397,7 +29665,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28419,7 +29688,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28440,7 +29710,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28461,7 +29732,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28482,7 +29754,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28504,7 +29777,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28526,7 +29800,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28547,7 +29822,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28569,7 +29845,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28578,7 +29855,7 @@ window.BANKMATF1 = [
     "typ": "dämpad svängning med begynnelsevillkor",
     "poang": "0/3/0",
     "t": "<p>Lös</p><p>\\[y''+2y'+5y=0,\\qquad y(0)=1,\\quad y'(0)=0.\\]</p>",
-    "s": "<p>Karakteristiska ekvationen \\(r^2+2r+5=0\\) ger \\(r=-1\\pm2i\\).</p><p>\\[y=e^{-x}(C_1\\cos2x+C_2\\sin2x).\\]</p><p>Av \\(y(0)=1\\) fås \\(C_1=1\\).</p><p>Derivatan vid \\(x=0\\) är \\(y'(0)=-C_1+2C_2\\). Villkoret \\(y'(0)=0\\) ger</p><p>\\[-1+2C_2=0\\Rightarrow C_2=\\frac12.\\]</p><p><strong>\\[y=e^{-x}\\left(\\cos2x+\\frac12\\sin2x\\right).\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Karakteristiska ekvationen \\(r^2+2r+5=0\\) ger \\(r=-1\\pm2i\\).</p><p>\\[y=e^{-x}(C_1\\cos2x+C_2\\sin2x).\\]</p><p>Av \\(y(0)=1\\) fås \\(C_1=1\\).</p><p>Derivatan vid \\(x=0\\) är \\(y'(0)=-C_1+2C_2\\). Villkoret \\(y'(0)=0\\) ger</p><p>\\[-1+2C_2=0\\Rightarrow C_2=\\frac12.\\]</p><p><strong>\\[y=e^{-x}\\left(\\cos2x+\\frac12\\sin2x\\right).\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.129",
     "miniräknare": false,
     "geogebra": false,
@@ -28591,7 +29868,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28612,7 +29890,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28633,7 +29912,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28642,7 +29922,7 @@ window.BANKMATF1 = [
     "typ": "dubbelrot med begynnelsevillkor",
     "poang": "0/3/0",
     "t": "<p>Lös</p><p>\\[y''-4y'+4y=0,\\qquad y(0)=2,\\quad y'(0)=1.\\]</p>",
-    "s": "<p>Karakteristiska ekvationen är \\((r-2)^2=0\\). Alltså</p><p>\\[y=(C_1+C_2x)e^{2x}.\\]</p><p>Av \\(y(0)=2\\) fås \\(C_1=2\\).</p><p>Derivera:</p><p>\\[y'=\\bigl(C_2+2C_1+2C_2x\\bigr)e^{2x}.\\]</p><p>Vid \\(x=0\\): \\(1=C_2+4\\), alltså \\(C_2=-3\\).</p><p><strong>\\[y=(2-3x)e^{2x}.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Karakteristiska ekvationen är \\((r-2)^2=0\\). Alltså</p><p>\\[y=(C_1+C_2x)e^{2x}.\\]</p><p>Av \\(y(0)=2\\) fås \\(C_1=2\\).</p><p>Derivera:</p><p>\\[y'=\\bigl(C_2+2C_1+2C_2x\\bigr)e^{2x}.\\]</p><p>Vid \\(x=0\\): \\(1=C_2+4\\), alltså \\(C_2=-3\\).</p><p><strong>\\[y=(2-3x)e^{2x}.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
     "id": "4.130",
     "miniräknare": false,
     "geogebra": false,
@@ -28654,7 +29934,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -28676,7 +29957,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28697,7 +29979,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28706,7 +29989,7 @@ window.BANKMATF1 = [
     "typ": "inhomogen andra ordningen med begynnelsevillkor",
     "poang": "0/3/0",
     "t": "<p>Lös</p><p>\\[y''-3y'+2y=4,\\qquad y(0)=1,\\quad y'(0)=0.\\]</p>",
-    "s": "<p>Den homogena ekvationen har rötterna 1 och 2:</p><p>\\[y_h=C_1e^x+C_2e^{2x}.\\]</p><p>För högerledet 4 prövar vi en konstant \\(y_p=A\\). Insättning ger \\(2A=4\\), alltså \\(A=2\\).</p><p>\\[y=C_1e^x+C_2e^{2x}+2.\\]</p><p>Villkoren ger</p><p>\\[C_1+C_2=-1,\\qquad C_1+2C_2=0.\\]</p><p>Alltså \\(C_2=1\\) och \\(C_1=-2\\).</p><p><strong>\\[y=-2e^x+e^{2x}+2.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Den homogena ekvationen har rötterna 1 och 2:</p><p>\\[y_h=C_1e^x+C_2e^{2x}.\\]</p><p>För högerledet 4 prövar vi en konstant \\(y_p=A\\). Insättning ger \\(2A=4\\), alltså \\(A=2\\).</p><p>\\[y=C_1e^x+C_2e^{2x}+2.\\]</p><p>Villkoren ger</p><p>\\[C_1+C_2=-1,\\qquad C_1+2C_2=0.\\]</p><p>Alltså \\(C_2=1\\) och \\(C_1=-2\\).</p><p><strong>\\[y=-2e^x+e^{2x}+2.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.131",
     "miniräknare": false,
     "geogebra": false,
@@ -28718,7 +30001,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28740,7 +30024,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28761,7 +30046,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28783,7 +30069,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28804,7 +30091,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28826,7 +30114,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28835,7 +30124,7 @@ window.BANKMATF1 = [
     "typ": "harmonisk begynnelsevärdesproblem",
     "poang": "3/0/0",
     "t": "<p>Lös</p><p>\\[y''+9y=0,\\qquad y(0)=4,\\quad y'(0)=-3.\\]</p>",
-    "s": "<p>Den allmänna lösningen är</p><p>\\[y=C_1\\cos3x+C_2\\sin3x.\\]</p><p>Av \\(y(0)=4\\) fås \\(C_1=4\\).</p><p>\\[y'=-3C_1\\sin3x+3C_2\\cos3x.\\]</p><p>Villkoret \\(y'(0)=-3\\) ger \\(3C_2=-3\\), alltså \\(C_2=-1\\).</p><p><strong>\\[y=4\\cos3x-\\sin3x.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Den allmänna lösningen är</p><p>\\[y=C_1\\cos3x+C_2\\sin3x.\\]</p><p>Av \\(y(0)=4\\) fås \\(C_1=4\\).</p><p>\\[y'=-3C_1\\sin3x+3C_2\\cos3x.\\]</p><p>Villkoret \\(y'(0)=-3\\) ger \\(3C_2=-3\\), alltså \\(C_2=-1\\).</p><p><strong>\\[y=4\\cos3x-\\sin3x.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.169",
     "miniräknare": false,
     "geogebra": false,
@@ -28848,7 +30137,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28869,7 +30159,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28891,7 +30182,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28900,7 +30192,7 @@ window.BANKMATF1 = [
     "typ": "dubbelrot med nya begynnelsevillkor",
     "poang": "0/3/0",
     "t": "<p>Lös</p><p>\\[y''+4y'+4y=0,\\qquad y(0)=1,\\quad y'(0)=0.\\]</p>",
-    "s": "<p>Karakteristiska ekvationen är \\((r+2)^2=0\\). Därför</p><p>\\[y=(C_1+C_2x)e^{-2x}.\\]</p><p>Av \\(y(0)=1\\) fås \\(C_1=1\\).</p><p>Vid \\(x=0\\) är</p><p>\\[y'(0)=C_2-2C_1=C_2-2.\\]</p><p>Villkoret \\(y'(0)=0\\) ger \\(C_2=2\\).</p><p><strong>\\[y=(1+2x)e^{-2x}.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Karakteristiska ekvationen är \\((r+2)^2=0\\). Därför</p><p>\\[y=(C_1+C_2x)e^{-2x}.\\]</p><p>Av \\(y(0)=1\\) fås \\(C_1=1\\).</p><p>Vid \\(x=0\\) är</p><p>\\[y'(0)=C_2-2C_1=C_2-2.\\]</p><p>Villkoret \\(y'(0)=0\\) ger \\(C_2=2\\).</p><p><strong>\\[y=(1+2x)e^{-2x}.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
     "id": "4.170",
     "miniräknare": false,
     "geogebra": false,
@@ -28912,7 +30204,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "kap": 4,
@@ -28933,7 +30226,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28954,7 +30248,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28963,7 +30258,7 @@ window.BANKMATF1 = [
     "typ": "inhomogen harmonisk ekvation med begynnelsevillkor",
     "poang": "0/3/0",
     "t": "<p>Lös</p><p>\\[y''+y=2,\\qquad y(0)=0,\\quad y'(0)=1.\\]</p>",
-    "s": "<p>Homogena lösningen är \\(C_1\\cos x+C_2\\sin x\\). En konstant partikulär lösning är \\(y_p=2\\).</p><p>\\[y=C_1\\cos x+C_2\\sin x+2.\\]</p><p>Av \\(y(0)=0\\): \\(C_1+2=0\\Rightarrow C_1=-2\\).</p><p>\\[y'=-C_1\\sin x+C_2\\cos x\\]</p><p>och \\(y'(0)=1\\) ger \\(C_2=1\\).</p><p><strong>\\[y=-2\\cos x+\\sin x+2.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Homogena lösningen är \\(C_1\\cos x+C_2\\sin x\\). En konstant partikulär lösning är \\(y_p=2\\).</p><p>\\[y=C_1\\cos x+C_2\\sin x+2.\\]</p><p>Av \\(y(0)=0\\): \\(C_1+2=0\\Rightarrow C_1=-2\\).</p><p>\\[y'=-C_1\\sin x+C_2\\cos x\\]</p><p>och \\(y'(0)=1\\) ger \\(C_2=1\\).</p><p><strong>\\[y=-2\\cos x+\\sin x+2.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.171",
     "miniräknare": false,
     "geogebra": false,
@@ -28976,7 +30271,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -28998,7 +30294,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29019,7 +30316,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29041,7 +30339,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29063,7 +30362,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29085,7 +30385,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29106,7 +30407,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29116,7 +30418,7 @@ window.BANKMATF1 = [
     "poang": "2/0/0",
     "id": "4.58",
     "t": "<span class=\"fig\"><svg height=\"285\" width=\"420\" viewBox=\"0 0 420 285\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf med punkten noll komma ett och Eulersteg mot noll komma fem\">\n<rect width=\"420\" height=\"285\" fill=\"white\"/>\n<g stroke=\"#e6e6e6\">\n<line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"245\"/><line x1=\"130\" y1=\"30\" x2=\"130\" y2=\"245\"/><line x1=\"210\" y1=\"30\" x2=\"210\" y2=\"245\"/><line x1=\"290\" y1=\"30\" x2=\"290\" y2=\"245\"/><line x1=\"370\" y1=\"30\" x2=\"370\" y2=\"245\"/>\n<line x1=\"40\" y1=\"245\" x2=\"390\" y2=\"245\"/><line x1=\"40\" y1=\"190\" x2=\"390\" y2=\"190\"/><line x1=\"40\" y1=\"135\" x2=\"390\" y2=\"135\"/><line x1=\"40\" y1=\"80\" x2=\"390\" y2=\"80\"/>\n</g>\n<line x1=\"40\" y1=\"245\" x2=\"395\" y2=\"245\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"50\" y1=\"255\" x2=\"50\" y2=\"25\" stroke=\"#222\" stroke-width=\"2\"/>\n<circle cx=\"50\" cy=\"135\" r=\"4\" fill=\"#222\"/><text x=\"58\" y=\"128\" font-size=\"13\">(0, 1)</text>\n<line x1=\"50\" y1=\"135\" x2=\"130\" y2=\"190\" stroke=\"#777\" stroke-width=\"2.2\"/>\n<circle cx=\"130\" cy=\"190\" r=\"4\" fill=\"#777\"/>\n<text x=\"138\" y=\"184\" font-size=\"13\">första steg</text>\n</svg></span><p>Använd ett Eulersteg med steglängden \\(h=0,5\\) för att approximera \\(y(0,5)\\) om \\(y'=x-y\\) och \\(y(0)=1\\).</p>",
-    "s": "<p>Vid startpunkten \\((0,1)\\) är lutningen</p><p>\\[y'=x-y=0-1=-1.\\]</p><p>Eulerformeln är \\(y_{1}=y_0+h\\,f(x_0,y_0)\\).</p><p>Alltså</p><p>\\[y(0,5)\\approx 1+0,5\\cdot(-1)=0,5.\\]</p><p><strong>Approximationen blir \\(y(0,5)\\approx 0,5\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Vid startpunkten \\((0,1)\\) är lutningen</p><p>\\[y'=x-y=0-1=-1.\\]</p><p>Eulerformeln är \\(y_{1}=y_0+h\\,f(x_0,y_0)\\).</p><p>Alltså</p><p>\\[y(0,5)\\approx 1+0,5\\cdot(-1)=0,5.\\]</p><p><strong>Approximationen blir \\(y(0,5)\\approx 0,5\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Eulers metod",
@@ -29128,7 +30430,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29149,7 +30452,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>"
   },
   {
     "kap": 4,
@@ -29171,7 +30475,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29192,7 +30497,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29214,7 +30520,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29223,7 +30530,7 @@ window.BANKMATF1 = [
     "typ": "jämföra steglängder",
     "poang": "0/2/0",
     "t": "<p>För \\(y'=y\\), \\(y(0)=1\\), ger Euler med \\(h=1\\) approximationen \\(y(1)\\approx2\\). Med \\(h=0,5\\) fås \\(y(1)\\approx2,25\\). Det exakta värdet är \\(e\\approx2,718\\). Vad visar jämförelsen?</p>",
-    "s": "<p>Den mindre steglängden ger här ett värde närmare det exakta. Euler bygger på lokala linjära steg; mindre steg följer den krökta lösningskurvan bättre. Jämförelsen visar därför att <strong>mindre steglängd normalt ger bättre noggrannhet</strong>, på bekostnad av fler steg.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Den mindre steglängden ger här ett värde närmare det exakta. Euler bygger på lokala linjära steg; mindre steg följer den krökta lösningskurvan bättre. Jämförelsen visar därför att <strong>mindre steglängd normalt ger bättre noggrannhet</strong>, på bekostnad av fler steg.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "4.112",
     "miniräknare": false,
     "geogebra": false,
@@ -29236,7 +30543,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29257,7 +30565,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29279,7 +30588,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29301,7 +30611,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29310,7 +30621,7 @@ window.BANKMATF1 = [
     "typ": "identifiera differentialekvation från riktningsfält",
     "poang": "2/0/0",
     "t": "<span class=\"fig\"><svg height=\"300\" width=\"430\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Riktningsfält för differentialekvationen y prim lika med x minus y\">\n<rect width=\"430\" height=\"300\" fill=\"white\"/>\n<line x1=\"79.0\" y1=\"35\" x2=\"79.0\" y2=\"265\" stroke=\"#e1e1e1\"/><line x1=\"35\" y1=\"233.0\" x2=\"395\" y2=\"233.0\" stroke=\"#e1e1e1\"/><text x=\"74.0\" y=\"162.0\" font-size=\"11\">-2</text><text x=\"222.0\" y=\"237.0\" font-size=\"11\">-2</text><line x1=\"147.0\" y1=\"35\" x2=\"147.0\" y2=\"265\" stroke=\"#e1e1e1\"/><line x1=\"35\" y1=\"189.0\" x2=\"395\" y2=\"189.0\" stroke=\"#e1e1e1\"/><text x=\"142.0\" y=\"162.0\" font-size=\"11\">-1</text><text x=\"222.0\" y=\"193.0\" font-size=\"11\">-1</text><line x1=\"215.0\" y1=\"35\" x2=\"215.0\" y2=\"265\" stroke=\"#e1e1e1\"/><line x1=\"35\" y1=\"145.0\" x2=\"395\" y2=\"145.0\" stroke=\"#e1e1e1\"/><line x1=\"283.0\" y1=\"35\" x2=\"283.0\" y2=\"265\" stroke=\"#e1e1e1\"/><line x1=\"35\" y1=\"101.0\" x2=\"395\" y2=\"101.0\" stroke=\"#e1e1e1\"/><text x=\"278.0\" y=\"162.0\" font-size=\"11\">1</text><text x=\"222.0\" y=\"105.0\" font-size=\"11\">1</text><line x1=\"351.0\" y1=\"35\" x2=\"351.0\" y2=\"265\" stroke=\"#e1e1e1\"/><line x1=\"35\" y1=\"57.0\" x2=\"395\" y2=\"57.0\" stroke=\"#e1e1e1\"/><text x=\"346.0\" y=\"162.0\" font-size=\"11\">2</text><text x=\"222.0\" y=\"61.0\" font-size=\"11\">2</text>\n<line x1=\"35\" y1=\"145.0\" x2=\"400\" y2=\"145.0\" stroke=\"#222\" stroke-width=\"1.8\"/>\n<line x1=\"215.0\" y1=\"270\" x2=\"215.0\" y2=\"25\" stroke=\"#222\" stroke-width=\"1.8\"/>\n<line x1=\"67.0\" y1=\"233.0\" x2=\"91.0\" y2=\"233.0\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"70.5\" y1=\"180.5\" x2=\"87.5\" y2=\"197.5\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"73.6\" y1=\"134.3\" x2=\"84.4\" y2=\"155.7\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"75.2\" y1=\"89.6\" x2=\"82.8\" y2=\"112.4\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"76.1\" y1=\"45.4\" x2=\"81.9\" y2=\"68.6\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"138.5\" y1=\"241.5\" x2=\"155.5\" y2=\"224.5\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"135.0\" y1=\"189.0\" x2=\"159.0\" y2=\"189.0\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"138.5\" y1=\"136.5\" x2=\"155.5\" y2=\"153.5\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"141.6\" y1=\"90.3\" x2=\"152.4\" y2=\"111.7\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"143.2\" y1=\"45.6\" x2=\"150.8\" y2=\"68.4\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"209.6\" y1=\"243.7\" x2=\"220.4\" y2=\"222.3\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"206.5\" y1=\"197.5\" x2=\"223.5\" y2=\"180.5\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"203.0\" y1=\"145.0\" x2=\"227.0\" y2=\"145.0\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"206.5\" y1=\"92.5\" x2=\"223.5\" y2=\"109.5\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"209.6\" y1=\"46.3\" x2=\"220.4\" y2=\"67.7\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"279.2\" y1=\"244.4\" x2=\"286.8\" y2=\"221.6\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"277.6\" y1=\"199.7\" x2=\"288.4\" y2=\"178.3\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"274.5\" y1=\"153.5\" x2=\"291.5\" y2=\"136.5\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"271.0\" y1=\"101.0\" x2=\"295.0\" y2=\"101.0\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"274.5\" y1=\"48.5\" x2=\"291.5\" y2=\"65.5\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"348.1\" y1=\"244.6\" x2=\"353.9\" y2=\"221.4\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"347.2\" y1=\"200.4\" x2=\"354.8\" y2=\"177.6\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"345.6\" y1=\"155.7\" x2=\"356.4\" y2=\"134.3\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"342.5\" y1=\"109.5\" x2=\"359.5\" y2=\"92.5\" stroke=\"#666\" stroke-width=\"1.7\"/><line x1=\"339.0\" y1=\"57.0\" x2=\"363.0\" y2=\"57.0\" stroke=\"#666\" stroke-width=\"1.7\"/>\n\n<text x=\"400\" y=\"139.0\" font-size=\"13\">x</text><text x=\"222.0\" y=\"28\" font-size=\"13\">y</text>\n</svg></span><p>Riktningsfältet hör till en av differentialekvationerna nedan. Vilken?</p><p>A) \\(y'=x-y\\) &nbsp;&nbsp; B) \\(y'=x+y\\) &nbsp;&nbsp; C) \\(y'=xy\\) &nbsp;&nbsp; D) \\(y'=y-x\\)</p>",
-    "s": "<p>På linjen \\(y=x\\) är de små linjestyckena horisontella, vilket betyder \\(y'=0\\). Det stämmer med \\(x-y=0\\).</p><p>Dessutom är lutningen positiv under linjen \\(y=x\\) och negativ ovanför den. Rätt svar är därför <strong>A: \\(y'=x-y\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>På linjen \\(y=x\\) är de små linjestyckena horisontella, vilket betyder \\(y'=0\\). Det stämmer med \\(x-y=0\\).</p><p>Dessutom är lutningen positiv under linjen \\(y=x\\) och negativ ovanför den. Rätt svar är därför <strong>A: \\(y'=x-y\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.37",
     "miniräknare": false,
     "geogebra": false,
@@ -29321,7 +30632,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29342,7 +30654,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29363,7 +30676,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29385,7 +30699,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29405,7 +30720,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29426,7 +30742,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29447,7 +30764,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29468,7 +30786,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29488,7 +30807,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29510,7 +30830,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29519,7 +30840,7 @@ window.BANKMATF1 = [
     "typ": "skissa kvalitativ lösning",
     "poang": "0/2/0",
     "t": "<span class=\"fig\"><svg width=\"460\" height=\"310\" viewBox=\"0 0 460 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Riktningsfält till y-prim lika med x minus y med linjen y lika med x markerad\">\n<rect width=\"460\" height=\"310\" fill=\"white\"/>\n<line x1=\"68.9\" y1=\"230.9\" x2=\"83.1\" y2=\"245.1\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"71.5\" y1=\"177.1\" x2=\"80.5\" y2=\"194.9\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"72.8\" y1=\"124.5\" x2=\"79.2\" y2=\"143.5\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"73.6\" y1=\"72.3\" x2=\"78.4\" y2=\"91.7\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"74.0\" y1=\"20.2\" x2=\"78.0\" y2=\"39.8\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"118.0\" y1=\"238.0\" x2=\"138.0\" y2=\"238.0\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"120.9\" y1=\"178.9\" x2=\"135.1\" y2=\"193.1\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"123.5\" y1=\"125.1\" x2=\"132.5\" y2=\"142.9\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"124.8\" y1=\"72.5\" x2=\"131.2\" y2=\"91.5\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"125.6\" y1=\"20.3\" x2=\"130.4\" y2=\"39.7\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"172.9\" y1=\"245.1\" x2=\"187.1\" y2=\"230.9\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"170.0\" y1=\"186.0\" x2=\"190.0\" y2=\"186.0\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"172.9\" y1=\"126.9\" x2=\"187.1\" y2=\"141.1\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"175.5\" y1=\"73.1\" x2=\"184.5\" y2=\"90.9\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"176.8\" y1=\"20.5\" x2=\"183.2\" y2=\"39.5\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"227.5\" y1=\"246.9\" x2=\"236.5\" y2=\"229.1\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"224.9\" y1=\"193.1\" x2=\"239.1\" y2=\"178.9\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"222.0\" y1=\"134.0\" x2=\"242.0\" y2=\"134.0\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"224.9\" y1=\"74.9\" x2=\"239.1\" y2=\"89.1\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"227.5\" y1=\"21.1\" x2=\"236.5\" y2=\"38.9\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"280.8\" y1=\"247.5\" x2=\"287.2\" y2=\"228.5\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"279.5\" y1=\"194.9\" x2=\"288.5\" y2=\"177.1\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"276.9\" y1=\"141.1\" x2=\"291.1\" y2=\"126.9\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"274.0\" y1=\"82.0\" x2=\"294.0\" y2=\"82.0\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"276.9\" y1=\"22.9\" x2=\"291.1\" y2=\"37.1\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"333.6\" y1=\"247.7\" x2=\"338.4\" y2=\"228.3\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"332.8\" y1=\"195.5\" x2=\"339.2\" y2=\"176.5\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"331.5\" y1=\"142.9\" x2=\"340.5\" y2=\"125.1\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"328.9\" y1=\"89.1\" x2=\"343.1\" y2=\"74.9\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"326.0\" y1=\"30.0\" x2=\"346.0\" y2=\"30.0\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"386.0\" y1=\"247.8\" x2=\"390.0\" y2=\"228.2\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"385.6\" y1=\"195.7\" x2=\"390.4\" y2=\"176.3\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"384.8\" y1=\"143.5\" x2=\"391.2\" y2=\"124.5\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"383.5\" y1=\"90.9\" x2=\"392.5\" y2=\"73.1\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"380.9\" y1=\"37.1\" x2=\"395.1\" y2=\"22.9\" stroke=\"#555\" stroke-width=\"1.8\"/>\n<line x1=\"44.79999999999998\" y1=\"134\" x2=\"419.20000000000005\" y2=\"134\" stroke=\"#222\" stroke-width=\"1.8\"/>\n<line x1=\"232\" y1=\"-1\" x2=\"232\" y2=\"269\" stroke=\"#222\" stroke-width=\"1.8\"/>\n<line x1=\"76\" y1=\"130\" x2=\"76\" y2=\"138\" stroke=\"#222\" stroke-width=\"1.3\"/><text x=\"76\" y=\"155\" font-size=\"12.5\" text-anchor=\"middle\" fill=\"#444\">-3</text><line x1=\"128\" y1=\"130\" x2=\"128\" y2=\"138\" stroke=\"#222\" stroke-width=\"1.3\"/><text x=\"128\" y=\"155\" font-size=\"12.5\" text-anchor=\"middle\" fill=\"#444\">-2</text><line x1=\"180\" y1=\"130\" x2=\"180\" y2=\"138\" stroke=\"#222\" stroke-width=\"1.3\"/><text x=\"180\" y=\"155\" font-size=\"12.5\" text-anchor=\"middle\" fill=\"#444\">-1</text><line x1=\"284\" y1=\"130\" x2=\"284\" y2=\"138\" stroke=\"#222\" stroke-width=\"1.3\"/><text x=\"284\" y=\"155\" font-size=\"12.5\" text-anchor=\"middle\" fill=\"#444\">1</text><line x1=\"336\" y1=\"130\" x2=\"336\" y2=\"138\" stroke=\"#222\" stroke-width=\"1.3\"/><text x=\"336\" y=\"155\" font-size=\"12.5\" text-anchor=\"middle\" fill=\"#444\">2</text><line x1=\"388\" y1=\"130\" x2=\"388\" y2=\"138\" stroke=\"#222\" stroke-width=\"1.3\"/><text x=\"388\" y=\"155\" font-size=\"12.5\" text-anchor=\"middle\" fill=\"#444\">3</text><line x1=\"228\" y1=\"238\" x2=\"236\" y2=\"238\" stroke=\"#222\" stroke-width=\"1.3\"/><text x=\"222\" y=\"243\" font-size=\"12.5\" text-anchor=\"end\" fill=\"#444\">-2</text><line x1=\"228\" y1=\"186\" x2=\"236\" y2=\"186\" stroke=\"#222\" stroke-width=\"1.3\"/><text x=\"222\" y=\"191\" font-size=\"12.5\" text-anchor=\"end\" fill=\"#444\">-1</text><line x1=\"228\" y1=\"82\" x2=\"236\" y2=\"82\" stroke=\"#222\" stroke-width=\"1.3\"/><text x=\"222\" y=\"87\" font-size=\"12.5\" text-anchor=\"end\" fill=\"#444\">1</text><line x1=\"228\" y1=\"30\" x2=\"236\" y2=\"30\" stroke=\"#222\" stroke-width=\"1.3\"/><text x=\"222\" y=\"35\" font-size=\"12.5\" text-anchor=\"end\" fill=\"#444\">2</text>\n<text x=\"427.20000000000005\" y=\"139\" font-size=\"14\">x</text><text x=\"241\" y=\"11\" font-size=\"14\">y</text>\n<line x1=\"76\" y1=\"312\" x2=\"388\" y2=\"0\" stroke=\"#B23A2E\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/><text x=\"300\" y=\"52\" font-size=\"13\" fill=\"#B23A2E\">y = x</text></svg></span><p>Riktningsfältet hör till \\(y'=x-y\\). En lösning startar i \\((0,3)\\). Beskriv först om den stiger eller sjunker och vad som händer när den närmar sig linjen \\(y=x\\).</p>",
-    "s": "<p>I startpunkten är \\(y'=0-3=-3\\), så lösningen sjunker. På linjen \\(y=x\\) är lutningen 0. Ovanför linjen gäller \\(x-y\\lt0\\), under den \\(x-y\\gt0\\). Lösningen böjer därför av när den närmar sig noll-lutningslinjen och följer sedan fältets riktning.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>I startpunkten är \\(y'=0-3=-3\\), så lösningen sjunker. På linjen \\(y=x\\) är lutningen 0. Ovanför linjen gäller \\(x-y\\lt0\\), under den \\(x-y\\gt0\\). Lösningen böjer därför av när den närmar sig noll-lutningslinjen och följer sedan fältets riktning.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "4.110",
     "miniräknare": false,
     "geogebra": false,
@@ -29531,7 +30852,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29552,7 +30874,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29574,7 +30897,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29596,7 +30920,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29618,7 +30943,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29627,7 +30953,7 @@ window.BANKMATF1 = [
     "typ": "flera Eulersteg",
     "poang": "3/0/0",
     "t": "<p>För \\(y'=1-y\\) gäller \\(y(0)=0\\). Använd Eulers metod med \\(h=0,5\\) för att approximera \\(y(2)\\).</p>",
-    "s": "<span class=\"fig\"><svg width=\"430\" height=\"280\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Eulerpolygon för y prim lika med ett minus y med steglängd noll komma fem\"><rect width=\"430\" height=\"280\" fill=\"white\"/><line x1=\"55\" y1=\"235\" x2=\"390\" y2=\"235\" stroke=\"#555\" stroke-width=\"1.3\"/><line x1=\"55\" y1=\"30\" x2=\"55\" y2=\"235\" stroke=\"#555\" stroke-width=\"1.3\"/><polyline points=\"55.0,235.0 138.8,141.8 222.5,95.2 306.2,71.9 390.0,60.3\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.6\"/><circle cx=\"55.0\" cy=\"235.0\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"62.0\" y=\"228.0\" font-size=\"11\">(0; 0)</text><circle cx=\"138.8\" cy=\"141.8\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"145.8\" y=\"134.8\" font-size=\"11\">(0,5; 0,5)</text><circle cx=\"222.5\" cy=\"95.2\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"229.5\" y=\"88.2\" font-size=\"11\">(1; 0,75)</text><circle cx=\"306.2\" cy=\"71.9\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"313.2\" y=\"64.9\" font-size=\"11\">(1,5; 0,875)</text><circle cx=\"390.0\" cy=\"60.3\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"328.0\" y=\"53.3\" font-size=\"11\">(2; 0,9375)</text><text x=\"55.0\" y=\"255\" font-size=\"12\" text-anchor=\"middle\">0</text><text x=\"138.8\" y=\"255\" font-size=\"12\" text-anchor=\"middle\">0.5</text><text x=\"222.5\" y=\"255\" font-size=\"12\" text-anchor=\"middle\">1</text><text x=\"306.2\" y=\"255\" font-size=\"12\" text-anchor=\"middle\">1.5</text><text x=\"390.0\" y=\"255\" font-size=\"12\" text-anchor=\"middle\">2</text><text x=\"401\" y=\"230\" font-size=\"14\">t</text><text x=\"63\" y=\"27\" font-size=\"14\">y</text></svg></span><p>Eulers formel är \\(y_{n+1}=y_n+h(1-y_n)\\).</p><p>\\[y_1=0+0,5(1)=0,5\\]</p><p>\\[y_2=0,5+0,5(0,5)=0,75\\]</p><p>\\[y_3=0,75+0,5(0,25)=0,875\\]</p><p>\\[y_4=0,875+0,5(0,125)=0,9375.\\]</p><p><strong>\\(y(2)\\approx0,9375\\).</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><span class=\"fig\"><svg width=\"430\" height=\"280\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Eulerpolygon för y prim lika med ett minus y med steglängd noll komma fem\"><rect width=\"430\" height=\"280\" fill=\"white\"/><line x1=\"55\" y1=\"235\" x2=\"390\" y2=\"235\" stroke=\"#555\" stroke-width=\"1.3\"/><line x1=\"55\" y1=\"30\" x2=\"55\" y2=\"235\" stroke=\"#555\" stroke-width=\"1.3\"/><polyline points=\"55.0,235.0 138.8,141.8 222.5,95.2 306.2,71.9 390.0,60.3\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.6\"/><circle cx=\"55.0\" cy=\"235.0\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"62.0\" y=\"228.0\" font-size=\"11\">(0; 0)</text><circle cx=\"138.8\" cy=\"141.8\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"145.8\" y=\"134.8\" font-size=\"11\">(0,5; 0,5)</text><circle cx=\"222.5\" cy=\"95.2\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"229.5\" y=\"88.2\" font-size=\"11\">(1; 0,75)</text><circle cx=\"306.2\" cy=\"71.9\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"313.2\" y=\"64.9\" font-size=\"11\">(1,5; 0,875)</text><circle cx=\"390.0\" cy=\"60.3\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"328.0\" y=\"53.3\" font-size=\"11\">(2; 0,9375)</text><text x=\"55.0\" y=\"255\" font-size=\"12\" text-anchor=\"middle\">0</text><text x=\"138.8\" y=\"255\" font-size=\"12\" text-anchor=\"middle\">0.5</text><text x=\"222.5\" y=\"255\" font-size=\"12\" text-anchor=\"middle\">1</text><text x=\"306.2\" y=\"255\" font-size=\"12\" text-anchor=\"middle\">1.5</text><text x=\"390.0\" y=\"255\" font-size=\"12\" text-anchor=\"middle\">2</text><text x=\"401\" y=\"230\" font-size=\"14\">t</text><text x=\"63\" y=\"27\" font-size=\"14\">y</text></svg></span><p>Eulers formel är \\(y_{n+1}=y_n+h(1-y_n)\\).</p><p>\\[y_1=0+0,5(1)=0,5\\]</p><p>\\[y_2=0,5+0,5(0,5)=0,75\\]</p><p>\\[y_3=0,75+0,5(0,25)=0,875\\]</p><p>\\[y_4=0,875+0,5(0,125)=0,9375.\\]</p><p><strong>\\(y(2)\\approx0,9375\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "4.133",
     "miniräknare": false,
     "geogebra": false,
@@ -29640,7 +30966,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29661,7 +30988,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29703,19 +31031,26 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((0,1)\\)</div>",
-        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot0-1=-1\\).</p><p><strong></strong></p>"
+        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot0-1=-1\\).</p><p><strong></strong></p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((1,0)\\)</div>",
-        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot1-0=2\\).</p><p><strong></strong></p>"
+        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot1-0=2\\).</p><p><strong></strong></p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((2,3)\\).</div>",
-        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot2-3=1\\).</p>"
+        "s": "<p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2\\cdot2-3=1\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29736,7 +31071,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29757,7 +31093,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29779,7 +31116,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29788,7 +31126,7 @@ window.BANKMATF1 = [
     "typ": "jämföra Eulersteg med olika steglängd",
     "poang": "0/2/0",
     "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><ol type=\"a\"><li>Approximerar \\(y(1)\\) med Eulers metod och \\(h=0,5\\).</li><li>Gör samma sak med \\(h=0,25\\).</li><li>Det exakta värdet är \\(e^{-1}\\approx0,3679\\). Vilken approximation är bäst?</li></ol>",
-    "s": "<p><strong>a)</strong> Med \\(h=0,5\\) multipliceras värdet varje steg med \\(1-h=0,5\\):</p><p>\\[y(1)\\approx0,5^2=0,25.\\]</p><p><strong>b)</strong> Med \\(h=0,25\\) multipliceras värdet med \\(0,75\\) vid varje av fyra steg:</p><p>\\[y(1)\\approx0,75^4=0,31640625.\\]</p><p><strong>c)</strong> Felet blir ungefär \\(0,1179\\) respektive \\(0,0515\\). Den mindre steglängden \\(h=0,25\\) ger alltså den bättre approximationen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p><strong>a)</strong> Med \\(h=0,5\\) multipliceras värdet varje steg med \\(1-h=0,5\\):</p><p>\\[y(1)\\approx0,5^2=0,25.\\]</p><p><strong>b)</strong> Med \\(h=0,25\\) multipliceras värdet med \\(0,75\\) vid varje av fyra steg:</p><p>\\[y(1)\\approx0,75^4=0,31640625.\\]</p><p><strong>c)</strong> Felet blir ungefär \\(0,1179\\) respektive \\(0,0515\\). Den mindre steglängden \\(h=0,25\\) ger alltså den bättre approximationen.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "4.136",
     "miniräknare": false,
     "geogebra": false,
@@ -29822,19 +31160,23 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Approximerar \\(y(1)\\) med Eulers metod och \\(h=0,5\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>a)</strong>  Med \\(h=0,5\\) multipliceras värdet varje steg med \\(1-h=0,5\\):</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>a)</strong>  Med \\(h=0,5\\) multipliceras värdet varje steg med \\(1-h=0,5\\):</div>",
+        "niva": "C"
       },
       {
         "etikett": "b",
         "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Gör samma sak med \\(h=0,25\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>b)</strong>  Med \\(h=0,25\\) multipliceras värdet med \\(0,75\\) vid varje av fyra steg:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>b)</strong>  Med \\(h=0,25\\) multipliceras värdet med \\(0,75\\) vid varje av fyra steg:</div>",
+        "niva": "C"
       },
       {
         "etikett": "c",
         "t": "<p>För \\(y'=-y\\) gäller \\(y(0)=1\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Det exakta värdet är \\(e^{-1}\\approx0,3679\\). Vilken approximation är bäst?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>c)</strong>  Felet blir ungefär \\(0,1179\\) respektive \\(0,0515\\). Den mindre steglängden \\(h=0,25\\) ger alltså den bättre approximationen.</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Euler-metoden följer riktningsfältets lokala tangent steg för steg. Vid varje steg beräknas lutningen \\(f(x_n,y_n)\\) och nästa värde fås av \\(y_{n+1}=y_n+h f(x_n,y_n)\\).</p><div class=\"spel-en-del\"><strong>c)</strong>  Felet blir ungefär \\(0,1179\\) respektive \\(0,0515\\). Den mindre steglängden \\(h=0,25\\) ger alltså den bättre approximationen.</div>",
+        "niva": "C"
       }
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29855,7 +31197,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29864,7 +31207,7 @@ window.BANKMATF1 = [
     "typ": "tolka riktningsfält och linjen där lutningen är noll",
     "poang": "0/2/0",
     "t": "<span class=\"fig\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Riktningsfält för y prim lika med x minus två y\"><rect width=\"420\" height=\"300\" fill=\"white\"/><line x1=\"42\" y1=\"150\" x2=\"378\" y2=\"150\" stroke=\"#555\" stroke-width=\"1.4\"/><line x1=\"210\" y1=\"28\" x2=\"210\" y2=\"272\" stroke=\"#555\" stroke-width=\"1.4\"/><text x=\"66\" y=\"170\" font-size=\"12\" text-anchor=\"middle\">-2</text><text x=\"138\" y=\"170\" font-size=\"12\" text-anchor=\"middle\">-1</text><text x=\"210\" y=\"170\" font-size=\"12\" text-anchor=\"middle\">0</text><text x=\"282\" y=\"170\" font-size=\"12\" text-anchor=\"middle\">1</text><text x=\"354\" y=\"170\" font-size=\"12\" text-anchor=\"middle\">2</text><text x=\"198\" y=\"264\" font-size=\"12\" text-anchor=\"end\">-2</text><text x=\"198\" y=\"209\" font-size=\"12\" text-anchor=\"end\">-1</text><text x=\"198\" y=\"99\" font-size=\"12\" text-anchor=\"end\">1</text><text x=\"198\" y=\"44\" font-size=\"12\" text-anchor=\"end\">2</text><line x1=\"58.9\" y1=\"270.9\" x2=\"73.1\" y2=\"249.1\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"53.0\" y1=\"205.0\" x2=\"79.0\" y2=\"205.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"58.9\" y1=\"139.1\" x2=\"73.1\" y2=\"160.9\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"82.6\" x2=\"70.0\" y2=\"107.4\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"63.2\" y1=\"27.3\" x2=\"68.8\" y2=\"52.7\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"132.8\" y1=\"271.9\" x2=\"143.2\" y2=\"248.1\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"127.7\" y1=\"212.9\" x2=\"148.3\" y2=\"197.1\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"127.7\" y1=\"142.1\" x2=\"148.3\" y2=\"157.9\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"132.8\" y1=\"83.1\" x2=\"143.2\" y2=\"106.9\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"134.7\" y1=\"27.4\" x2=\"141.3\" y2=\"52.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"206.0\" y1=\"272.4\" x2=\"214.0\" y2=\"247.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"202.9\" y1=\"215.9\" x2=\"217.1\" y2=\"194.1\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"197.0\" y1=\"150.0\" x2=\"223.0\" y2=\"150.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"202.9\" y1=\"84.1\" x2=\"217.1\" y2=\"105.9\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"206.0\" y1=\"27.6\" x2=\"214.0\" y2=\"52.4\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"278.7\" y1=\"272.6\" x2=\"285.3\" y2=\"247.4\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"276.8\" y1=\"216.9\" x2=\"287.2\" y2=\"193.1\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"271.7\" y1=\"157.9\" x2=\"292.3\" y2=\"142.1\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"271.7\" y1=\"87.1\" x2=\"292.3\" y2=\"102.9\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"276.8\" y1=\"28.1\" x2=\"287.2\" y2=\"51.9\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"351.2\" y1=\"272.7\" x2=\"356.8\" y2=\"247.3\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"350.0\" y1=\"217.4\" x2=\"358.0\" y2=\"192.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"346.9\" y1=\"160.9\" x2=\"361.1\" y2=\"139.1\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"341.0\" y1=\"95.0\" x2=\"367.0\" y2=\"95.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"346.9\" y1=\"29.1\" x2=\"361.1\" y2=\"50.9\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"66\" y1=\"205\" x2=\"354\" y2=\"95\" stroke=\"#B23A2E\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><text x=\"312\" y=\"103\" font-size=\"13\" fill=\"#B23A2E\">y = x/2</text><text x=\"387\" y=\"145\" font-size=\"14\">x</text><text x=\"218\" y=\"24\" font-size=\"14\">y</text></svg></span><p>Riktningsfältet hör till \\(y'=x-2y\\).</p><ol type=\"a\"><li>Förklara varför segmenten är horisontella längs linjen \\(y=x\\).</li><li>En lösning går genom \\((0,1)\\). Stiger eller sjunker den precis där?</li></ol>",
-    "s": "<p><strong>a)</strong> Segmenten är horisontella där lutningen är noll:</p><p>\\[x-2y=0\\Rightarrow y=\\frac{x}{2}.\\]</p><p>Alltså ligger de horisontella segmenten längs linjen <strong>\\(y=x/2\\)</strong>.</p><p><strong>b)</strong> I punkten \\((0,1)\\) är</p><p>\\[y'=0-2\\cdot1=-2.\\]</p><p>Lösningen <strong>sjunker</strong> precis där.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p><strong>a)</strong> Segmenten är horisontella där lutningen är noll:</p><p>\\[x-2y=0\\Rightarrow y=\\frac{x}{2}.\\]</p><p>Alltså ligger de horisontella segmenten längs linjen <strong>\\(y=x/2\\)</strong>.</p><p><strong>b)</strong> I punkten \\((0,1)\\) är</p><p>\\[y'=0-2\\cdot1=-2.\\]</p><p>Lösningen <strong>sjunker</strong> precis där.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
     "id": "4.137",
     "miniräknare": false,
     "geogebra": false,
@@ -29876,7 +31219,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29898,7 +31242,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -29907,7 +31252,7 @@ window.BANKMATF1 = [
     "typ": "logistiskt riktningsfält",
     "poang": "0/2/0",
     "t": "<span class=\"fig\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Riktningsfält för y prim lika med y gånger två minus y\"><rect width=\"430\" height=\"300\" fill=\"white\"/><line x1=\"55\" y1=\"209.5\" x2=\"390\" y2=\"209.5\" stroke=\"#777\" stroke-width=\"1.2\"/><line x1=\"55\" y1=\"28\" x2=\"55\" y2=\"270\" stroke=\"#777\" stroke-width=\"1.2\"/><text x=\"45\" y=\"274.0\" font-size=\"12\" text-anchor=\"end\">-1</text><text x=\"45\" y=\"213.5\" font-size=\"12\" text-anchor=\"end\">0</text><text x=\"45\" y=\"153.0\" font-size=\"12\" text-anchor=\"end\">1</text><text x=\"45\" y=\"92.5\" font-size=\"12\" text-anchor=\"end\">2</text><text x=\"45\" y=\"32.0\" font-size=\"12\" text-anchor=\"end\">3</text><text x=\"55.0\" y=\"286\" font-size=\"12\" text-anchor=\"middle\">0</text><text x=\"138.8\" y=\"286\" font-size=\"12\" text-anchor=\"middle\">1</text><text x=\"222.5\" y=\"286\" font-size=\"12\" text-anchor=\"middle\">2</text><text x=\"306.2\" y=\"286\" font-size=\"12\" text-anchor=\"middle\">3</text><text x=\"390.0\" y=\"286\" font-size=\"12\" text-anchor=\"middle\">4</text><line x1=\"50.4\" y1=\"260.0\" x2=\"59.6\" y2=\"280.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"44.0\" y1=\"209.5\" x2=\"66.0\" y2=\"209.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"45.3\" y1=\"184.5\" x2=\"64.7\" y2=\"174.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"46.1\" y1=\"155.4\" x2=\"63.9\" y2=\"142.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"45.3\" y1=\"124.0\" x2=\"64.7\" y2=\"113.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"44.0\" y1=\"88.5\" x2=\"66.0\" y2=\"88.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"46.8\" y1=\"50.9\" x2=\"63.2\" y2=\"65.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"50.4\" y1=\"18.0\" x2=\"59.6\" y2=\"38.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"260.0\" x2=\"143.4\" y2=\"280.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"127.8\" y1=\"209.5\" x2=\"149.8\" y2=\"209.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"129.1\" y1=\"184.5\" x2=\"148.4\" y2=\"174.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"129.8\" y1=\"155.4\" x2=\"147.7\" y2=\"142.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"129.1\" y1=\"124.0\" x2=\"148.4\" y2=\"113.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"127.8\" y1=\"88.5\" x2=\"149.8\" y2=\"88.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"130.6\" y1=\"50.9\" x2=\"146.9\" y2=\"65.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"18.0\" x2=\"143.4\" y2=\"38.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"217.9\" y1=\"260.0\" x2=\"227.1\" y2=\"280.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"211.5\" y1=\"209.5\" x2=\"233.5\" y2=\"209.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"212.8\" y1=\"184.5\" x2=\"232.2\" y2=\"174.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"213.6\" y1=\"155.4\" x2=\"231.4\" y2=\"142.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"212.8\" y1=\"124.0\" x2=\"232.2\" y2=\"113.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"211.5\" y1=\"88.5\" x2=\"233.5\" y2=\"88.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"214.3\" y1=\"50.9\" x2=\"230.7\" y2=\"65.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"217.9\" y1=\"18.0\" x2=\"227.1\" y2=\"38.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"301.6\" y1=\"260.0\" x2=\"310.9\" y2=\"280.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"295.2\" y1=\"209.5\" x2=\"317.2\" y2=\"209.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"296.6\" y1=\"184.5\" x2=\"315.9\" y2=\"174.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"297.3\" y1=\"155.4\" x2=\"315.2\" y2=\"142.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"296.6\" y1=\"124.0\" x2=\"315.9\" y2=\"113.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"295.2\" y1=\"88.5\" x2=\"317.2\" y2=\"88.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"298.1\" y1=\"50.9\" x2=\"314.4\" y2=\"65.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"301.6\" y1=\"18.0\" x2=\"310.9\" y2=\"38.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"385.4\" y1=\"260.0\" x2=\"394.6\" y2=\"280.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"379.0\" y1=\"209.5\" x2=\"401.0\" y2=\"209.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"380.3\" y1=\"184.5\" x2=\"399.7\" y2=\"174.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"381.1\" y1=\"155.4\" x2=\"398.9\" y2=\"142.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"380.3\" y1=\"124.0\" x2=\"399.7\" y2=\"113.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"379.0\" y1=\"88.5\" x2=\"401.0\" y2=\"88.5\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"381.8\" y1=\"50.9\" x2=\"398.2\" y2=\"65.6\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"385.4\" y1=\"18.0\" x2=\"394.6\" y2=\"38.0\" stroke=\"#2C62A8\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"55\" y1=\"209.5\" x2=\"390\" y2=\"209.5\" stroke=\"#B23A2E\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><text x=\"315\" y=\"202.5\" font-size=\"13\" fill=\"#B23A2E\">y = 0</text><line x1=\"55\" y1=\"88.5\" x2=\"390\" y2=\"88.5\" stroke=\"#B23A2E\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><text x=\"315\" y=\"81.5\" font-size=\"13\" fill=\"#B23A2E\">y = 2</text><text x=\"400\" y=\"251\" font-size=\"14\">t</text><text x=\"63\" y=\"24\" font-size=\"14\">y</text></svg></span><p>Riktningsfältet hör till \\(y'=y(2-y)\\).</p><ol type=\"a\"><li>Vilka jämviktslösningar finns?</li><li>Vad händer på lång sikt med en lösning som startar vid \\(y(0)=0,5\\)?</li><li>Vad händer om \\(y(0)=3\\)?</li></ol>",
-    "s": "<p><strong>a)</strong> Jämvikt kräver \\(y'=0\\), alltså \\(y=0\\) eller \\(y=2\\).</p><p><strong>b)</strong> För \\(0\\lt y\\lt 2\\) är \\(y(2-y)\\gt 0\\), så lösningen växer. När den närmar sig 2 blir lutningen mindre. Lösningen närmar sig därför <strong>\\(y=2\\) underifrån</strong>.</p><p><strong>c)</strong> För \\(y\\gt 2\\) är \\(2-y\\lt 0\\), så \\(y'\\lt 0\\). Lösningen sjunker och närmar sig <strong>\\(y=2\\) ovanifrån</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt texten till hur förändringshastigheten beror på den aktuella mängden. Kontrollera startvillkoret efter att den allmänna lösningen har bestämts.</p><div class=\"facit-arbete\"><p><strong>a)</strong> Jämvikt kräver \\(y'=0\\), alltså \\(y=0\\) eller \\(y=2\\).</p><p><strong>b)</strong> För \\(0\\lt y\\lt 2\\) är \\(y(2-y)\\gt 0\\), så lösningen växer. När den närmar sig 2 blir lutningen mindre. Lösningen närmar sig därför <strong>\\(y=2\\) underifrån</strong>.</p><p><strong>c)</strong> För \\(y\\gt 2\\) är \\(2-y\\lt 0\\), så \\(y'\\lt 0\\). Lösningen sjunker och närmar sig <strong>\\(y=2\\) ovanifrån</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in starttiden och kontrollera att lösningen ger det givna startvärdet och rätt långsiktigt beteende.</p></div>",
     "id": "4.138",
     "miniräknare": false,
     "geogebra": false,
@@ -29943,7 +31288,8 @@ window.BANKMATF1 = [
       "jämviktslösningar",
       "start y(0)=0,5",
       "start y(0)=3"
-    ]
+    ],
+    "ledtrad": "<p>Identifiera den beroende variabeln, förändringshastigheten och startvärdet. Vilken standardmodell motsvarar sambandet?</p>"
   },
   {
     "kap": 4,
@@ -29964,7 +31310,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -29987,7 +31334,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -30008,7 +31356,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -30050,19 +31399,26 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((0,2)\\)</div>",
-        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2-0^2=2\\).</p><p><strong></strong></p>"
+        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(2-0^2=2\\).</p><p><strong></strong></p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((1,1)\\)</div>",
-        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(1-1^2=0\\).</p><p><strong></strong></p>"
+        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(1-1^2=0\\).</p><p><strong></strong></p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((2,3)\\).</div>",
-        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(3-2^2=-1\\).</p>"
+        "s": "<p>Sätt in koordinaterna i \\(y-x^2\\).</p><p><strong><div class=\"spel-en-del\"></div></strong> \\(3-2^2=-1\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30084,7 +31440,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -30106,7 +31463,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -30127,7 +31485,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -30136,7 +31495,7 @@ window.BANKMATF1 = [
     "typ": "stabilitet hos två jämvikter",
     "poang": "0/3/0",
     "t": "<p>Betrakta differentialekvationen</p><p>\\[y'=(1-y)(y+2).\\]</p><ol type=\"a\"><li>Bestäm jämviktslösningarna.</li><li>Avgör vilken jämvikt som är stabil och vilken som är instabil.</li></ol>",
-    "s": "<p><strong>a)</strong> Jämvikt fås när högerledet är noll:</p><p>\\[(1-y)(y+2)=0\\Rightarrow y=1\\text{ eller }y=-2.\\]</p><p><strong>b)</strong> Undersök tecknet på \\(y'\\):</p><p>För \\(y\\lt -2\\) är \\(y'\\lt 0\\), så lösningar rör sig nedåt.</p><p>För \\(-2\\lt y\\lt 1\\) är \\(y'\\gt 0\\), så lösningar rör sig uppåt.</p><p>För \\(y\\gt 1\\) är \\(y'\\lt 0\\), så lösningar rör sig nedåt.</p><p>Alltså rör sig lösningar bort från \\(y=-2\\): den är <strong>instabil</strong>. Lösningar från båda sidor rör sig mot \\(y=1\\): den är <strong>stabil</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p><strong>a)</strong> Jämvikt fås när högerledet är noll:</p><p>\\[(1-y)(y+2)=0\\Rightarrow y=1\\text{ eller }y=-2.\\]</p><p><strong>b)</strong> Undersök tecknet på \\(y'\\):</p><p>För \\(y\\lt -2\\) är \\(y'\\lt 0\\), så lösningar rör sig nedåt.</p><p>För \\(-2\\lt y\\lt 1\\) är \\(y'\\gt 0\\), så lösningar rör sig uppåt.</p><p>För \\(y\\gt 1\\) är \\(y'\\lt 0\\), så lösningar rör sig nedåt.</p><p>Alltså rör sig lösningar bort från \\(y=-2\\): den är <strong>instabil</strong>. Lösningar från båda sidor rör sig mot \\(y=1\\): den är <strong>stabil</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.174",
     "miniräknare": false,
     "geogebra": false,
@@ -30170,7 +31529,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "jämviktslösningar",
       "stabilitet"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30192,7 +31552,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -30212,7 +31573,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30232,7 +31594,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30253,7 +31616,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30273,7 +31637,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30294,7 +31659,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -30315,7 +31681,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30337,7 +31704,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -30358,7 +31726,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30379,7 +31748,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -30400,7 +31770,8 @@ window.BANKMATF1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30422,7 +31793,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
   },
   {
     "kap": 4,
@@ -30444,7 +31816,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30467,16 +31840,17 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
     "omr": "modellering_digitalt",
-    "niva": "C",
+    "niva": "A",
     "typ": "Newtons avsvalningslag från mätdata",
     "poang": "0/2/1",
     "t": "<p>Kaffe har temperaturen 82 °C när det ställs i ett rum som håller 21 °C. Efter 6 minuter är temperaturen 67 °C. Anta Newtons avsvalningslag.</p><p>Bestäm kaffets temperatur efter 20 minuter.</p>",
-    "s": "<p>Modellen är \\(T=21+61e^{-kt}\\). Villkoret \\(T(6)=67\\) ger \\(46=61e^{-6k}\\), alltså \\(k=-\\ln(46/61)/6\\approx0,0470\\). Då</p><p>\\[T(20)=21+61e^{-0,0470\\cdot20}\\approx\\mathbf{44,8\\,^{\\circ}C}.\\]</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Modellen är \\(T=21+61e^{-kt}\\). Villkoret \\(T(6)=67\\) ger \\(46=61e^{-6k}\\), alltså \\(k=-\\ln(46/61)/6\\approx0,0470\\). Då</p><p>\\[T(20)=21+61e^{-0,0470\\cdot20}\\approx\\mathbf{44,8\\,^{\\circ}C}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.17",
     "miniräknare": true,
     "geogebra": false,
@@ -30491,7 +31865,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30513,7 +31888,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30522,7 +31898,7 @@ window.BANKMATF1 = [
     "typ": "blandningsproblem med differentialekvation",
     "poang": "1/1/1",
     "t": "<p>En tank innehåller 200 liter saltlösning med 1000 g salt. Lösning med salthalten 2,0 g/liter rinner in med 6,0 l/min, och väl blandad lösning rinner ut med samma flöde.</p><ol type=\"a\"><li>Ställ upp en differentialekvation för saltmängden \\(y(t)\\) i gram.</li><li>Bestäm saltmängden efter 15 minuter.</li></ol>",
-    "s": "<ol type=\"a\"><li>Inflödet salt är \\(2,0\\cdot6,0=12\\) g/min. Utflödet är \\((y/200)\\cdot6=0,03y\\). Alltså <strong>\\(y'=12-0,03y,\\ y(0)=1000\\)</strong>.</li><li>Jämviktsvärdet är 400 g, så \\(y=400+600e^{-0,03t}\\). Därför \\(y(15)=400+600e^{-0,45}\\approx\\mathbf{783\\text{ g}}\\).</li></ol>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><ol type=\"a\"><li>Inflödet salt är \\(2,0\\cdot6,0=12\\) g/min. Utflödet är \\((y/200)\\cdot6=0,03y\\). Alltså <strong>\\(y'=12-0,03y,\\ y(0)=1000\\)</strong>.</li><li>Jämviktsvärdet är 400 g, så \\(y=400+600e^{-0,03t}\\). Därför \\(y(15)=400+600e^{-0,45}\\approx\\mathbf{783\\text{ g}}\\).</li></ol></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.18",
     "miniräknare": true,
     "geogebra": false,
@@ -30536,7 +31912,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30545,7 +31922,7 @@ window.BANKMATF1 = [
     "typ": "terminalhastighet med linjär luftmotståndsmodell",
     "poang": "0/2/2",
     "t": "<p>Ett fallande föremål modelleras av \\(v'=9,82-0,40v\\), där \\(v\\) mäts i m/s och \\(t\\) i s. Föremålet släpps från vila.</p><ol type=\"a\"><li>Bestäm \\(v(t)\\).</li><li>Bestäm sträckan föremålet fallit efter 2,0 s.</li></ol>",
-    "s": "<p>Jämviktsfarten är \\(9,82/0,40=24,55\\). Med \\(v(0)=0\\): <strong>\\(v(t)=24,55(1-e^{-0,40t})\\)</strong>.</p><p>Sträckan är integralen av hastigheten:</p><p>\\[s(t)=24,55t-\\frac{24,55}{0,40}(1-e^{-0,40t}).\\]</p><p>Vid \\(t=2\\): <strong>\\(s(2)\\approx15,3\\text{ m}\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Jämviktsfarten är \\(9,82/0,40=24,55\\). Med \\(v(0)=0\\): <strong>\\(v(t)=24,55(1-e^{-0,40t})\\)</strong>.</p><p>Sträckan är integralen av hastigheten:</p><p>\\[s(t)=24,55t-\\frac{24,55}{0,40}(1-e^{-0,40t}).\\]</p><p>Vid \\(t=2\\): <strong>\\(s(2)\\approx15,3\\text{ m}\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.24",
     "miniräknare": true,
     "geogebra": false,
@@ -30559,7 +31936,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30582,7 +31960,8 @@ window.BANKMATF1 = [
       "modellering",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30605,7 +31984,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30614,7 +31994,7 @@ window.BANKMATF1 = [
     "typ": "massa-fjäder med periodisk kraft",
     "poang": "0/1/2",
     "t": "<span class=\"fig\"><svg height=\"270\" width=\"500\" viewBox=\"0 0 500 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Massa på fjäder med yttre periodisk kraft\">\n<rect width=\"500\" height=\"270\" fill=\"white\"/>\n<rect x=\"25\" y=\"35\" width=\"25\" height=\"200\" fill=\"#777\"/>\n<path d=\"M50 125 L75 125 L90 100 L115 150 L140 100 L165 150 L190 100 L215 150 L235 125 L255 125\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/>\n<rect x=\"255\" y=\"85\" width=\"105\" height=\"80\" rx=\"5\" fill=\"#999\" fill-opacity=\".22\" stroke=\"#333\" stroke-width=\"2.5\"/>\n<text x=\"296\" y=\"132\" font-size=\"18\">m</text>\n<line x1=\"360\" y1=\"125\" x2=\"450\" y2=\"125\" stroke=\"#222\" stroke-width=\"3\"/>\n<path d=\"M435 117 l15 8 -15 8\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/>\n<text x=\"370\" y=\"102\" font-size=\"16\">F(t)</text>\n<line x1=\"307\" y1=\"185\" x2=\"307\" y2=\"225\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<line x1=\"250\" y1=\"215\" x2=\"365\" y2=\"215\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<path d=\"M352 207 l13 8 -13 8\" fill=\"none\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<text x=\"372\" y=\"220\" font-size=\"15\">y</text>\n<text x=\"105\" y=\"75\" font-size=\"15\">fjäder</text>\n</svg></span><p>En massa på 1,0 kg sitter i en ideal fjäder med fjäderkonstanten 9,0 N/m. Förskjutningen \\(y(t)\\) mäts från jämviktsläget. En yttre kraft \\(F(t)=6\\cos(2t)\\) N verkar på massan. Friktion försummas.</p><p>Massan släpps från jämviktsläget utan begynnelsehastighet.</p><ol type=\"a\"><li>Ställ upp differentialekvationen med begynnelsevillkor.</li><li>Bestäm \\(y(t)\\).</li></ol>",
-    "s": "<p>Newtons andra lag ger \\(my''=F(t)-ky\\). Med \\(m=1\\) och \\(k=9\\):</p><p>\\[y''+9y=6\\cos2t,\\qquad y(0)=0,\\quad y'(0)=0.\\]</p><p>Homogena lösningen är \\(C_1\\cos3t+C_2\\sin3t\\). Sök \\(y_p=A\\cos2t\\). Då</p><p>\\[(-4A+9A)\\cos2t=6\\cos2t\\Rightarrow A=\\frac65.\\]</p><p>Alltså \\(y=C_1\\cos3t+C_2\\sin3t+\\frac65\\cos2t\\).</p><p>Villkoren ger \\(C_1=-6/5\\) och \\(C_2=0\\). Därmed</p><p><strong>\\(y(t)=\\frac65(\\cos2t-\\cos3t)\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Newtons andra lag ger \\(my''=F(t)-ky\\). Med \\(m=1\\) och \\(k=9\\):</p><p>\\[y''+9y=6\\cos2t,\\qquad y(0)=0,\\quad y'(0)=0.\\]</p><p>Homogena lösningen är \\(C_1\\cos3t+C_2\\sin3t\\). Sök \\(y_p=A\\cos2t\\). Då</p><p>\\[(-4A+9A)\\cos2t=6\\cos2t\\Rightarrow A=\\frac65.\\]</p><p>Alltså \\(y=C_1\\cos3t+C_2\\sin3t+\\frac65\\cos2t\\).</p><p>Villkoren ger \\(C_1=-6/5\\) och \\(C_2=0\\). Därmed</p><p><strong>\\(y(t)=\\frac65(\\cos2t-\\cos3t)\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.41",
     "miniräknare": false,
     "geogebra": false,
@@ -30628,7 +32008,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30649,7 +32030,8 @@ window.BANKMATF1 = [
     "formaga": [
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30658,7 +32040,7 @@ window.BANKMATF1 = [
     "typ": "dämpat system med konstant yttre kraft",
     "poang": "0/1/2",
     "t": "<p>En modell för ett dämpat mekaniskt system är</p><p>\\[y''+2y'+5y=10,\\qquad y(0)=0,\\qquad y'(0)=0.\\]</p><ol type=\"a\"><li>Bestäm \\(y(t)\\).</li><li>Bestäm det värde som \\(y(t)\\) närmar sig när \\(t\\to\\infty\\) och förklara varför detta är rimligt utifrån differentialekvationen.</li></ol>",
-    "s": "<p>Den homogena ekvationen har rötterna \\(-1\\pm2i\\):</p><p>\\[y_h=e^{-t}(C_1\\cos2t+C_2\\sin2t).\\]</p><p>En konstant partikulärlösning \\(y_p=A\\) ger \\(5A=10\\), alltså \\(A=2\\).</p><p>\\[y=2+e^{-t}(C_1\\cos2t+C_2\\sin2t).\\]</p><p>Av \\(y(0)=0\\) fås \\(C_1=-2\\). Derivering och \\(y'(0)=0\\) ger \\(C_2=-1\\). Alltså</p><p><strong>\\(y=2-e^{-t}(2\\cos2t+\\sin2t)\\)</strong>.</p><p>När \\(t\\to\\infty\\) går exponentialfaktorn mot 0, så \\(y\\to2\\). Det är också systemets jämviktsläge: om rörelsen har stannat är \\(y'=y''=0\\), och ekvationen ger \\(5y=10\\Rightarrow y=2\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Den homogena ekvationen har rötterna \\(-1\\pm2i\\):</p><p>\\[y_h=e^{-t}(C_1\\cos2t+C_2\\sin2t).\\]</p><p>En konstant partikulärlösning \\(y_p=A\\) ger \\(5A=10\\), alltså \\(A=2\\).</p><p>\\[y=2+e^{-t}(C_1\\cos2t+C_2\\sin2t).\\]</p><p>Av \\(y(0)=0\\) fås \\(C_1=-2\\). Derivering och \\(y'(0)=0\\) ger \\(C_2=-1\\). Alltså</p><p><strong>\\(y=2-e^{-t}(2\\cos2t+\\sin2t)\\)</strong>.</p><p>När \\(t\\to\\infty\\) går exponentialfaktorn mot 0, så \\(y\\to2\\). Det är också systemets jämviktsläge: om rörelsen har stannat är \\(y'=y''=0\\), och ekvationen ger \\(5y=10\\Rightarrow y=2\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.42",
     "miniräknare": false,
     "geogebra": false,
@@ -30673,7 +32055,8 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30696,7 +32079,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30719,7 +32103,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30741,7 +32126,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30763,7 +32149,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30786,7 +32173,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30808,7 +32196,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30817,7 +32206,7 @@ window.BANKMATF1 = [
     "typ": "blandning med konstant volym",
     "poang": "0/2/0",
     "t": "<span class=\"fig\"><svg width=\"440\" height=\"270\" viewBox=\"0 0 450 275\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tank med inflöde och utflöde där volymen betecknas V\">\n<rect width=\"450\" height=\"275\" fill=\"white\"/>\n<path d=\"M125 130 L330 130 L330 225 Q330 240 315 240 L140 240 Q125 240 125 225 Z\" fill=\"#2C62A8\" fill-opacity=\".14\"/>\n<path d=\"M125 70 L125 225 Q125 242 142 242 L313 242 Q330 242 330 225 L330 70\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/>\n<line x1=\"42\" y1=\"66\" x2=\"117\" y2=\"66\" stroke=\"#222\" stroke-width=\"4\"/>\n<path d=\"M107 58 l13 8 -13 8\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/>\n<path d=\"M121 70 v22\" stroke=\"#222\" stroke-width=\"2.5\" stroke-dasharray=\"4 3\"/>\n<text x=\"42\" y=\"44\" font-size=\"15\">inflöde</text>\n<line x1=\"334\" y1=\"242\" x2=\"412\" y2=\"242\" stroke=\"#222\" stroke-width=\"4\"/>\n<path d=\"M402 234 l13 8 -13 8\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/>\n<text x=\"337\" y=\"228\" font-size=\"15\">utflöde</text>\n<text x=\"227\" y=\"190\" font-size=\"17\" text-anchor=\"middle\">V liter</text>\n</svg></span><p>En tank innehåller 100 L lösning med 5 kg salt. Saltlösning med koncentration 0,08 kg/L rinner in med 4 L/min och lika mycket blandning rinner ut. Ställ upp differentialekvationen för saltmängden \\(S(t)\\).</p>",
-    "s": "<p>Inflöde av salt:</p><p>\\[4\\cdot0,08=0,32\\text{ kg/min}.\\]</p><p>Koncentrationen i tanken är \\(S/100\\) kg/L, så utflödet av salt är</p><p>\\[4\\cdot\\frac{S}{100}=0,04S.\\]</p><p>Alltså</p><p><strong>\\(S'=0,32-0,04S,\\quad S(0)=5\\)</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Inflöde av salt:</p><p>\\[4\\cdot0,08=0,32\\text{ kg/min}.\\]</p><p>Koncentrationen i tanken är \\(S/100\\) kg/L, så utflödet av salt är</p><p>\\[4\\cdot\\frac{S}{100}=0,04S.\\]</p><p>Alltså</p><p><strong>\\(S'=0,32-0,04S,\\quad S(0)=5\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.115",
     "miniräknare": false,
     "geogebra": false,
@@ -30830,7 +32219,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30853,7 +32243,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30875,7 +32266,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30884,7 +32276,7 @@ window.BANKMATF1 = [
     "typ": "kontrollera digital lösning till differentialekvation",
     "poang": "0/2/0",
     "t": "<p>Ett digitalt verktyg påstår att lösningen till \\(y'=2y-x\\), \\(y(0)=1\\), är \\(y=\\frac{x}{2}+\\frac14+\\frac34e^{2x}\\). Kontrollera resultatet utan att lösa differentialekvationen från början.</p>",
-    "s": "<p>Derivera: \\(y'=\\frac{1}{2}+\\frac32e^{2x}\\). Högerledet blir</p><p>\\[2y-x=x+\\frac{1}{2}+\\frac32e^{2x}-x=\\frac{1}{2}+\\frac32e^{2x}=y'.\\]</p><p>Dessutom \\(y(0)=1/4+3/4=1\\). Resultatet är alltså <strong>korrekt</strong>.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Derivera: \\(y'=\\frac{1}{2}+\\frac32e^{2x}\\). Högerledet blir</p><p>\\[2y-x=x+\\frac{1}{2}+\\frac32e^{2x}-x=\\frac{1}{2}+\\frac32e^{2x}=y'.\\]</p><p>Dessutom \\(y(0)=1/4+3/4=1\\). Resultatet är alltså <strong>korrekt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.25",
     "miniräknare": false,
     "geogebra": false,
@@ -30898,7 +32290,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30907,7 +32300,7 @@ window.BANKMATF1 = [
     "typ": "jämföra Eulerapproximation med exakt lösning",
     "poang": "0/1/2",
     "t": "<p>För begynnelsevärdesproblemet \\(y'=y\\), \\(y(0)=1\\), används Eulers metod på intervallet \\([0,1]\\).</p><ol type=\"a\"><li>Bestäm approximationen av \\(y(1)\\) med \\(h=0,5\\).</li><li>Bestäm approximationen med \\(h=0,25\\).</li><li>Jämför med exakt värde och kommentera hur steglängden påverkar felet.</li></ol>",
-    "s": "<ol type=\"a\"><li>Två steg: \\(1\\to1,5\\to2,25\\), alltså <strong>2,25</strong>.</li><li>Fyra steg multiplicerar varje gång med \\(1,25\\): \\(1,25^4\\approx\\mathbf{2,4414}\\).</li><li>Exakt är \\(e\\approx2,7183\\). Felen är cirka 0,4683 respektive 0,2769. <strong>Mindre steglängd ger här bättre approximation</strong>, men kräver fler steg.</li></ol>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><ol type=\"a\"><li>Två steg: \\(1\\to1,5\\to2,25\\), alltså <strong>2,25</strong>.</li><li>Fyra steg multiplicerar varje gång med \\(1,25\\): \\(1,25^4\\approx\\mathbf{2,4414}\\).</li><li>Exakt är \\(e\\approx2,7183\\). Felen är cirka 0,4683 respektive 0,2769. <strong>Mindre steglängd ger här bättre approximation</strong>, men kräver fler steg.</li></ol></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.26",
     "miniräknare": false,
     "geogebra": false,
@@ -30921,7 +32314,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30944,7 +32338,8 @@ window.BANKMATF1 = [
       "modellering",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30967,7 +32362,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -30989,7 +32385,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31010,7 +32407,8 @@ window.BANKMATF1 = [
     "formaga": [
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31033,7 +32431,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31054,7 +32453,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "modellering"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31075,7 +32475,8 @@ window.BANKMATF1 = [
     "formaga": [
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31097,7 +32498,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp",
       "modellering"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31106,7 +32508,7 @@ window.BANKMATF1 = [
     "typ": "formulera blandningsmodell",
     "poang": "2/0/0",
     "t": "<p>En tank innehåller 200 L vätska. Saltlösning med koncentrationen 0,05 kg/L rinner in med 4 L/min och lika mycket väl blandad vätska rinner ut.</p><p>Låt \\(M(t)\\) vara mängden salt i kg. Skriv differentialekvationen för \\(M\\).</p>",
-    "s": "<p>Inflödet av salt är</p><p>\\[0,05\\cdot4=0,20\\text{ kg/min}.\\]</p><p>Koncentrationen i tanken är \\(M/200\\) kg/L. Utflödet av salt blir därför</p><p>\\[4\\cdot\\frac{M}{200}=0,02M.\\]</p><p>Alltså</p><p><strong>\\[M'=0,20-0,02M.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Inflödet av salt är</p><p>\\[0,05\\cdot4=0,20\\text{ kg/min}.\\]</p><p>Koncentrationen i tanken är \\(M/200\\) kg/L. Utflödet av salt blir därför</p><p>\\[4\\cdot\\frac{M}{200}=0,02M.\\]</p><p>Alltså</p><p><strong>\\[M'=0,20-0,02M.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.162",
     "miniräknare": false,
     "geogebra": false,
@@ -31119,7 +32521,8 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering",
       "problemlösning"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31141,7 +32544,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31162,7 +32566,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "modellering"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31186,7 +32591,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31208,7 +32614,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31232,7 +32639,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31241,7 +32649,7 @@ window.BANKMATF1 = [
     "typ": "Newtons avsvalningslag från en mätning",
     "poang": "0/3/0",
     "t": "<p>Ett föremål håller 70 °C när det placeras i ett rum som håller 20 °C. Efter 5 minuter är temperaturen 50 °C. Modellen är</p><p>\\[T(t)=20+50e^{-kt}.\\]</p><p>Bestäm \\(k\\).</p>",
-    "s": "<p>Sätt in mätvärdet \\(T(5)=50\\):</p><p>\\[50=20+50e^{-5k}.\\]</p><p>\\[30=50e^{-5k}\\Rightarrow e^{-5k}=0,6.\\]</p><p>Logaritmera:</p><p>\\[-5k=\\ln0,6\\Rightarrow k=-\\frac{\\ln0,6}{5}.\\]</p><p><strong>\\[k\\approx0,1022\\text{ min}^{-1}.\\]</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Sätt in mätvärdet \\(T(5)=50\\):</p><p>\\[50=20+50e^{-5k}.\\]</p><p>\\[30=50e^{-5k}\\Rightarrow e^{-5k}=0,6.\\]</p><p>Logaritmera:</p><p>\\[-5k=\\ln0,6\\Rightarrow k=-\\frac{\\ln0,6}{5}.\\]</p><p><strong>\\[k\\approx0,1022\\text{ min}^{-1}.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.166",
     "miniräknare": true,
     "geogebra": false,
@@ -31256,7 +32664,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31279,7 +32688,8 @@ window.BANKMATF1 = [
       "modellering",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31319,14 +32729,19 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Ett numeriskt verktyg ger \\(y(4)\\approx7,82\\), medan en analytisk lösning ger \\(y(4)=8,00\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm det absoluta felet.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p><div class=\"spel-en-del\"><strong>a)</strong>  Absolut fel:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p><div class=\"spel-en-del\"><strong>a)</strong>  Absolut fel:</div>",
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "b",
         "t": "<p>Ett numeriskt verktyg ger \\(y(4)\\approx7,82\\), medan en analytisk lösning ger \\(y(4)=8,00\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm det relativa felet i procent.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p><div class=\"spel-en-del\"><strong>b)</strong>  Relativt fel:</div>"
+        "s": "<p><strong>Nyckelidé:</strong> Ett numeriskt svar måste tolkas i modellens variabler och enheter. Vid kontroll jämför du det med differentialekvationen, ett analytiskt värde eller ett felmått, beroende på vad uppgiften frågar efter.</p><div class=\"spel-en-del\"><strong>b)</strong>  Relativt fel:</div>",
+        "niva": "C",
+        "poang": "0/1/0"
       }
-    ]
+    ],
+    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
   },
   {
     "kap": 4,
@@ -31350,7 +32765,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31371,7 +32787,8 @@ window.BANKMATF1 = [
     "formaga": [
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31380,7 +32797,7 @@ window.BANKMATF1 = [
     "typ": "medicinmodell med tid till nivå",
     "poang": "0/3/0",
     "t": "<p>En medicinmängd \\(M(t)\\) i mg modelleras av</p><p>\\[M'=18-0,3M,\\qquad M(0)=0.\\]</p><ol type=\"a\"><li>Bestäm \\(M(t)\\).</li><li>När når mängden 45 mg?</li></ol>",
-    "s": "<p><strong>a)</strong> Jämviktsvärdet är \\(18/0,3=60\\). Lösningen kan därför skrivas \\(M=60+Ce^{-0,3t}\\). Av \\(M(0)=0\\) följer \\(C=-60\\):</p><p><strong>\\[M(t)=60(1-e^{-0,3t}).\\]</strong></p><p><strong>b)</strong> Sätt \\(M=45\\):</p><p>\\[45=60(1-e^{-0,3t})\\Rightarrow e^{-0,3t}=0,25.\\]</p><p>\\[-0,3t=\\ln0,25=-\\ln4\\]</p><p>\\[t=\\frac{\\ln4}{0,3}\\approx4,62.\\]</p><p><strong>Mängden når 45 mg efter cirka 4,62 timmar.</strong></p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p><strong>a)</strong> Jämviktsvärdet är \\(18/0,3=60\\). Lösningen kan därför skrivas \\(M=60+Ce^{-0,3t}\\). Av \\(M(0)=0\\) följer \\(C=-60\\):</p><p><strong>\\[M(t)=60(1-e^{-0,3t}).\\]</strong></p><p><strong>b)</strong> Sätt \\(M=45\\):</p><p>\\[45=60(1-e^{-0,3t})\\Rightarrow e^{-0,3t}=0,25.\\]</p><p>\\[-0,3t=\\ln0,25=-\\ln4\\]</p><p>\\[t=\\frac{\\ln4}{0,3}\\approx4,62.\\]</p><p><strong>Mängden når 45 mg efter cirka 4,62 timmar.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
     "id": "4.176",
     "miniräknare": true,
     "geogebra": true,
@@ -31406,7 +32823,8 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "M(t)",
       "tid"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.301",
@@ -31426,7 +32844,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31447,7 +32866,8 @@ window.BANKMATF1 = [
     "formaga": [
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.302",
@@ -31467,7 +32887,8 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.303",
@@ -31488,7 +32909,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.304",
@@ -31509,7 +32931,8 @@ window.BANKMATF1 = [
       "modellering",
       "begrepp"
     ],
-    "svarFormat": "val"
+    "svarFormat": "val",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31531,7 +32954,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.322",
@@ -31552,7 +32976,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.323",
@@ -31573,7 +32998,8 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31595,7 +33021,8 @@ window.BANKMATF1 = [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31616,7 +33043,8 @@ window.BANKMATF1 = [
       "modellering",
       "procedur"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31637,7 +33065,8 @@ window.BANKMATF1 = [
       "modellering",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31660,7 +33089,8 @@ window.BANKMATF1 = [
       "modellering",
       "begrepp"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31681,7 +33111,8 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31702,7 +33133,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31723,7 +33155,8 @@ window.BANKMATF1 = [
     "formaga": [
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31744,7 +33177,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31765,7 +33199,8 @@ window.BANKMATF1 = [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "kap": 4,
@@ -31786,6 +33221,7 @@ window.BANKMATF1 = [
     "formaga": [
       "modellering",
       "resonemang"
-    ]
+    ],
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   }
 ];

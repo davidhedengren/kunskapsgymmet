@@ -1417,6 +1417,7 @@ html[data-theme="dark"] .tbody svg,html[data-theme="dark"] .sol svg{background:#
   transition:.25s var(--ease);
 }
 .typ-stig i.gjord{background:var(--ink3)}
+.typ-stig i.last{background:var(--gold)}
 .typ-stig i.nu{width:20px;border-radius:99px;background:var(--acc)}
 .typ-rakn{margin-left:8px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;
   text-transform:uppercase;color:var(--ink3)}
@@ -2260,6 +2261,11 @@ function loadProfileFrom(p){
   p.toppValt ??= !!p.namn;
   p.visaTopplista = p.toppValt ? !!p.visaTopplista : true;
   p.courses ||= {}; p.badges ||= {};
+  /* Lästa genomgångar. Nycklarna är "kurs|delmoment" respektive
+     "kurs|kapitel", så samma delmomentsnamn i två kurser räknas var
+     för sig. */
+  p.genomgangar ||= {}; p.ggKapKlara ||= {};
+  p.ggTranat ||= 0;
   return p;
 }
 function saveProfile(){
@@ -2389,7 +2395,12 @@ const MEDALJBANOR={
 
   nivaupp:   '<path d="M12 19.5V5"/><path d="M6.5 10.5L12 5l5.5 5.5"/><path d="M6.5 3.5h11"/>',
   dagsmal:   '<path d="M5.6 21V3.6"/><path d="M5.6 4.2h11.6l-2.4 4 2.4 4H5.6"/>',
-  skiva:     '<circle cx="12" cy="12" r="7.6"/><circle cx="12" cy="12" r="2.4"/>'
+  skiva:     '<circle cx="12" cy="12" r="7.6"/><circle cx="12" cy="12" r="2.4"/>',
+
+  uppslagen: '<path d="M12 7.2v12.4"/><path d="M12 7.2C10.4 5.8 8.4 5.1 5.8 5.1H3.5v12h2.3c2.6 0 4.6.7 6.2 2.5"/><path d="M12 7.2c1.6-1.4 3.6-2.1 6.2-2.1h2.3v12h-2.3c-2.6 0-4.6.7-6.2 2.5"/><path d="M12 3.4V7.2"/>',
+  palast:    '<path d="M6.4 3.6h11a1.4 1.4 0 0 1 1.4 1.4v15.4l-4.6-2.6-4.6 2.6V5a1.4 1.4 0 0 0-1.4-1.4z"/><path d="M6.4 3.6A1.4 1.4 0 0 0 5 5v13.4"/>',
+  genomlast: '<rect x="4" y="3.4" width="16" height="17.2" rx="2.4"/><path d="M8.4 11.6l2.4 2.4 4.8-5"/>',
+  ipraktik:  '<path d="M4 6.6h5.6a2.8 2.8 0 0 1 2.8 2.8v9.2"/><path d="M20 6.6h-5.6a2.8 2.8 0 0 0-2.8 2.8"/><path d="M15.4 15.6l2.6 2.6 3.2-3.6"/>'
 };
 
 function medaljIkon(namn){
@@ -2429,8 +2440,17 @@ const BADGES=[
   {id:"topp",  icon:"hojd", name:"Höjdhoppare",     desc:"25 rätt på nivå 3",            max:25,  cur:()=>profile.aCorrect},
   {id:"niva3", icon:"toppform", name:"Toppform",        desc:"80 % på nivå 3 i ett område",  max:80,  cur:()=>profile.bestNiva3},
   {id:"kapitel",icon:"kapitel",name:"Kapitelmästare",  desc:"Ta ett helt kapitel över 80 %",max:80,  cur:()=>profile.bestKapitel},
-  {id:"provklar",icon:"provklar",name:"Provklar",       desc:"Ta en hel kurs över 80 %",     max:80,  cur:()=>profile.bestKurs}
+  {id:"provklar",icon:"provklar",name:"Provklar",       desc:"Ta en hel kurs över 80 %",     max:80,  cur:()=>profile.bestKurs},
+
+  {id:"gg1",   icon:"uppslagen", name:"Uppslagen",     desc:"Läs din första genomgång",         max:1,   cur:()=>lastaGenomgangar()},
+  {id:"gg10",  icon:"palast", name:"Påläst",           desc:"Läs 10 genomgångar",               max:10,  cur:()=>lastaGenomgangar()},
+  {id:"ggkap", icon:"genomlast", name:"Genomläst",     desc:"Läs alla genomgångar i ett kapitel",max:1,  cur:()=>Object.keys(profile.ggKapKlara||{}).length},
+  {id:"ggtrana",icon:"ipraktik", name:"Teori i praktik",desc:"Gå från genomgång till träning 5 gånger",max:5, cur:()=>profile.ggTranat}
 ];
+
+/* Antalet lästa genomgångar räknas över alla kurser — den som läst i
+   både fysik och matematik har läst lika mycket för det. */
+function lastaGenomgangar(){ return Object.keys(profile.genomgangar||{}).length; }
 function badgeState(b){
   const cur=Math.max(0,Math.min(b.max,b.cur()||0));
   return {cur,pct:cur/b.max,on:!!profile.badges[b.id]||cur>=b.max};
@@ -2706,6 +2726,7 @@ function oppnaKunskap(kap){
 function stangKunskap(){
   const el=document.getElementById("kunskapsruta");
   if(!el) return;
+  clearTimeout(ggTimer);
   state.kunskap=null;
   el.classList.remove("visa");
   setTimeout(()=>el.remove(),250);
@@ -2721,16 +2742,51 @@ function kunskapGa(steg){
 function kunskapTrana(){
   const k=state.kunskap; if(!k) return;
   const s=k.steg[k.i]; if(!s) return;
+  profile.ggTranat=(profile.ggTranat||0)+1;
+  saveProfile(); checkBadges();
   stangKunskap();
   startCardFamily(s.kort,s.familj);
+}
+
+/* En genomgång räknas som läst först när kortet stått framme en stund.
+   Utan fördröjningen skulle den som bläddrar snabbt genom kapitlet
+   samla medaljer utan att ha läst ett ord, och då mäter medaljen
+   ingenting. */
+const GG_LASTID=5000;
+let ggTimer=null;
+function ggNyckel(familj){ return state.course+"|"+familj; }
+function ggLast(familj){ return !!(profile.genomgangar||{})[ggNyckel(familj)]; }
+function ggStartaLastimer(){
+  clearTimeout(ggTimer);
+  const k=state.kunskap; if(!k) return;
+  const s=k.steg[k.i]; if(!s || ggLast(s.familj)) return;
+  const kap=k.kap, familj=s.familj;
+  ggTimer=setTimeout(()=>{
+    /* Kortet kan ha stängts eller bläddrats vidare under tiden. */
+    const nu=state.kunskap;
+    if(!nu || nu.kap!==kap || nu.steg[nu.i]?.familj!==familj) return;
+    profile.genomgangar[ggNyckel(familj)]=Date.now();
+    ggKollaKapitel(nu);
+    saveProfile(); checkBadges();
+    /* Rita om prickraden så att den nya guldpricken syns direkt. */
+    ritaKunskap();
+  },GG_LASTID);
+}
+function ggKollaKapitel(k){
+  const nyckel=state.course+"|"+k.kap;
+  if(profile.ggKapKlara[nyckel]) return;
+  if(k.steg.every(x=>ggLast(x.familj))) profile.ggKapKlara[nyckel]=Date.now();
 }
 function ritaKunskap(){
   const host=document.getElementById("kunskapInnehall");
   const k=state.kunskap;
   if(!host||!k||!k.steg.length) return;
   const s=k.steg[k.i], g=s.genomgang;
-  const prickar=k.steg.map((_,i)=>
-    `<i class="${i===k.i?"nu":(i<k.i?"gjord":"")}"></i>`).join("");
+  const prickar=k.steg.map((x,i)=>{
+    const kl=i===k.i ? "nu" : (ggLast(x.familj) ? "last" : (i<k.i?"gjord":""));
+    return `<i class="${kl}"></i>`;
+  }).join("");
+  const antalLasta=k.steg.filter(x=>ggLast(x.familj)).length;
 
   const stegHTML=(g.steg||[]).map((x,i)=>`
     <li class="gg-steg">
@@ -2744,7 +2800,8 @@ function ritaKunskap(){
 
   host.innerHTML=`
     <div class="typ-stig" aria-hidden="true">${prickar}
-      <span class="typ-rakn">${k.i+1} / ${k.steg.length}</span></div>
+      <span class="typ-rakn">${k.i+1} / ${k.steg.length}${
+        antalLasta?` · ${antalLasta} lästa`:""}</span></div>
     <div class="typ-omr">${esc(s.omrNamn)}</div>
     <h3 class="typ-familj">${esc(familyName(s.familj))}</h3>
     ${g.ram?`<p class="gg-ram">${g.ram}</p>`:""}
@@ -2774,6 +2831,7 @@ function ritaKunskap(){
       <button class="btn primary" onclick="kunskapTrana()">Träna det här</button>
     </div>`;
   renderMath(host);
+  ggStartaLastimer();
 }
 
 /* Piltangenter bläddrar och Escape stänger, men bara när kortet är öppet

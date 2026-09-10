@@ -18,6 +18,16 @@
     if (traningsfamilj) bank[id].traningsfamilj = traningsfamilj;
   };
 
+  /* Figurerna använder samma temaklasser som Kunskapsgymmet. De får därför
+     tillräcklig kontrast i både ljust och mörkt läge utan hårdkodad bakgrund. */
+  const linjeSystemFigur = '<svg class="dg" viewBox="0 0 360 276" role="img" aria-label="Koordinatsystem med linjerna y lika med x plus 1 och y lika med minus x plus 5. Linjerna skär varandra i punkten 2, 3." style="display:block;width:min(100%,350px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M32 26V236M72 26V236M112 26V236M152 26V236M192 26V236M232 26V236M272 26V236M312 26V236M32 236H312M32 206H312M32 176H312M32 146H312M32 116H312M32 86H312M32 56H312M32 26H312"/><path class="dg-axel" d="M32 236H322M72 246V16"/><path class="dg-pil" d="M330 236l-10-4.5v9zM72 8l-4.5 10h9z"/><g class="dg-txt"><text x="32" y="255" text-anchor="middle">−1</text><text x="112" y="255" text-anchor="middle">1</text><text x="152" y="255" text-anchor="middle">2</text><text x="192" y="255" text-anchor="middle">3</text><text x="232" y="255" text-anchor="middle">4</text><text x="272" y="255" text-anchor="middle">5</text><text x="312" y="255" text-anchor="middle">6</text><text x="64" y="211" text-anchor="end">1</text><text x="64" y="181" text-anchor="end">2</text><text x="64" y="151" text-anchor="end">3</text><text x="64" y="121" text-anchor="end">4</text><text x="64" y="91" text-anchor="end">5</text><text x="64" y="61" text-anchor="end">6</text><text x="64" y="31" text-anchor="end">7</text><text x="326" y="227" text-anchor="end" font-style="italic">x</text><text x="82" y="20" font-style="italic">y</text></g><path class="dg-linje" d="M32 236L312 26"/><path class="dg-form" d="M32 56L272 236"/><circle class="dg-skar" cx="152" cy="146" r="5.5"/><text class="dg-etikett" x="162" y="137">(2, 3)</text></svg>';
+  const parabelFigur = '<svg class="dg" viewBox="0 0 340 282" role="img" aria-label="Grafen till f av x lika med x kvadrat minus 4x plus 3. Parabeln skär x-axeln vid 1 och 3 och har minimipunkten 2, minus 1." style="display:block;width:min(100%,330px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M32 24V244M76 24V244M120 24V244M164 24V244M208 24V244M252 24V244M296 24V244M32 244H296M32 200H296M32 156H296M32 112H296M32 68H296M32 24H296"/><path class="dg-axel" d="M32 200H306M76 254V14"/><path class="dg-pil" d="M314 200l-10-4.5v9zM76 6l-4.5 10h9z"/><g class="dg-txt"><text x="32" y="219" text-anchor="middle">−1</text><text x="120" y="219" text-anchor="middle">1</text><text x="164" y="219" text-anchor="middle">2</text><text x="208" y="219" text-anchor="middle">3</text><text x="252" y="219" text-anchor="middle">4</text><text x="296" y="219" text-anchor="middle">5</text><text x="68" y="249" text-anchor="end">−1</text><text x="68" y="161" text-anchor="end">1</text><text x="68" y="117" text-anchor="end">2</text><text x="68" y="73" text-anchor="end">3</text><text x="68" y="29" text-anchor="end">4</text><text x="310" y="191" text-anchor="end" font-style="italic">x</text><text x="86" y="18" font-style="italic">y</text></g><polyline class="dg-linje" points="76,68 98,145 120,200 142,233 164,244 186,233 208,200 230,145 252,68"/><circle class="dg-matt" cx="120" cy="200" r="5"/><circle class="dg-matt" cx="208" cy="200" r="5"/><circle class="dg-vald" cx="164" cy="244" r="5.5"/><text class="dg-etikett" x="174" y="238">(2, −1)</text></svg>';
+  const nollstalleFigur = '<svg class="dg" viewBox="0 0 340 272" role="img" aria-label="Parabel med nollställena minus 1 och 4. Punkten 0, minus 8 är markerad på grafen." style="display:block;width:min(100%,330px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M24 24V232M64 24V232M104 24V232M144 24V232M184 24V232M224 24V232M264 24V232M304 24V232M24 120H304M24 88H304M24 56H304M24 24H304M24 152H304M24 184H304M24 216H304"/><path class="dg-axel" d="M24 120H314M104 240V14"/><path class="dg-pil" d="M322 120l-10-4.5v9zM104 6l-4.5 10h9z"/><g class="dg-txt"><text x="24" y="139" text-anchor="middle">−2</text><text x="64" y="139" text-anchor="middle">−1</text><text x="144" y="139" text-anchor="middle">1</text><text x="184" y="139" text-anchor="middle">2</text><text x="224" y="139" text-anchor="middle">3</text><text x="264" y="139" text-anchor="middle">4</text><text x="304" y="139" text-anchor="middle">5</text><text x="96" y="189" text-anchor="end">−8</text><text x="96" y="221" text-anchor="end">−12</text><text x="318" y="111" text-anchor="end" font-style="italic">x</text><text x="114" y="18" font-style="italic">y</text></g><polyline class="dg-linje" points="44,76 64,120 104,184 144,216 164,220 184,216 224,184 264,120 284,76"/><circle class="dg-matt" cx="64" cy="120" r="5"/><circle class="dg-matt" cx="264" cy="120" r="5"/><circle class="dg-vald" cx="104" cy="184" r="5.5"/><text class="dg-etikett" x="113" y="178">(0, −8)</text></svg>';
+  const exponentialFigur = '<svg class="dg" viewBox="0 0 360 276" role="img" aria-label="Avtagande exponentialkurva med startvärdet 200. Kurvan går genom punkterna 0, 200, 1, 150 och 2, 112,5." style="display:block;width:min(100%,350px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M54 26V226M90 26V226M126 26V226M162 26V226M198 26V226M234 26V226M270 26V226M306 26V226M342 26V226M54 226H342M54 176H342M54 126H342M54 76H342M54 26H342"/><path class="dg-axel" d="M54 226H348M54 234V16"/><path class="dg-pil" d="M356 226l-10-4.5v9zM54 8l-4.5 10h9z"/><g class="dg-txt"><text x="54" y="245" text-anchor="middle">0</text><text x="90" y="245" text-anchor="middle">1</text><text x="126" y="245" text-anchor="middle">2</text><text x="198" y="245" text-anchor="middle">4</text><text x="270" y="245" text-anchor="middle">6</text><text x="342" y="245" text-anchor="middle">8</text><text x="46" y="181" text-anchor="end">50</text><text x="46" y="131" text-anchor="end">100</text><text x="46" y="81" text-anchor="end">150</text><text x="46" y="31" text-anchor="end">200</text><text x="352" y="217" text-anchor="end" font-style="italic">x</text><text x="64" y="20" font-style="italic">f(x)</text></g><polyline class="dg-linje" points="54,26 90,76 126,113.5 162,141.6 198,162.7 234,178.5 270,190.4 306,199.3 342,206"/><circle class="dg-matt" cx="54" cy="26" r="5"/><circle class="dg-matt" cx="90" cy="76" r="5"/><circle class="dg-matt" cx="126" cy="113.5" r="5"/></svg>';
+  const ladaFigur = '<svg class="dg" viewBox="0 0 420 150" role="img" aria-label="Lådagram med minimum 2, undre kvartil 5, median 8, övre kvartil 12 och maximum 17." style="display:block;width:min(100%,410px);height:auto;margin:14px auto 4px"><path class="dg-axel" d="M40 116H390"/><path class="dg-form" d="M80 72H140M280 72H380M80 55V89M380 55V89M140 42H280V102H140Z"/><path class="dg-linje" d="M200 42V102"/><g class="dg-txt"><text x="80" y="135" text-anchor="middle">2</text><text x="140" y="135" text-anchor="middle">5</text><text x="200" y="135" text-anchor="middle">8</text><text x="280" y="135" text-anchor="middle">12</text><text x="380" y="135" text-anchor="middle">17</text></g><g class="dg-etikett"><text x="140" y="28" text-anchor="middle">Q₁</text><text x="200" y="28" text-anchor="middle">median</text><text x="280" y="28" text-anchor="middle">Q₃</text></g></svg>';
+  const regressionFigur = '<svg class="dg" viewBox="0 0 380 286" role="img" aria-label="Spridningsdiagram med en redan anpassad stigande regressionslinje. Punkterna ligger nära men inte exakt på linjen." style="display:block;width:min(100%,365px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M46 24V236M96 24V236M146 24V236M196 24V236M246 24V236M296 24V236M346 24V236M46 236H346M46 196H346M46 156H346M46 116H346M46 76H346M46 36H346"/><path class="dg-axel" d="M46 236H356M46 246V14"/><path class="dg-pil" d="M364 236l-10-4.5v9zM46 6l-4.5 10h9z"/><path class="dg-linje" d="M46 214L346 70"/><g class="dg-matt"><circle cx="71" cy="207" r="5"/><circle cx="96" cy="192" r="5"/><circle cx="121" cy="194" r="5"/><circle cx="146" cy="170" r="5"/><circle cx="171" cy="165" r="5"/><circle cx="196" cy="145" r="5"/><circle cx="221" cy="151" r="5"/><circle cx="246" cy="120" r="5"/><circle cx="271" cy="112" r="5"/><circle cx="296" cy="91" r="5"/><circle cx="321" cy="88" r="5"/></g><g class="dg-txt"><text x="352" y="258" text-anchor="end">studietimmar</text><text x="56" y="18">provpoäng</text></g></svg>';
+  const korrelationFigur = '<svg class="dg" viewBox="0 0 380 286" role="img" aria-label="Spridningsdiagram med starkt negativt linjärt samband. Punkterna faller från övre vänster till nedre höger." style="display:block;width:min(100%,365px);height:auto;margin:14px auto 4px"><path class="dg-rut" d="M46 24V236M96 24V236M146 24V236M196 24V236M246 24V236M296 24V236M346 24V236M46 236H346M46 196H346M46 156H346M46 116H346M46 76H346M46 36H346"/><path class="dg-axel" d="M46 236H356M46 246V14"/><path class="dg-pil" d="M364 236l-10-4.5v9zM46 6l-4.5 10h9z"/><g class="dg-matt"><circle cx="71" cy="52" r="5"/><circle cx="96" cy="67" r="5"/><circle cx="121" cy="71" r="5"/><circle cx="146" cy="96" r="5"/><circle cx="171" cy="104" r="5"/><circle cx="196" cy="126" r="5"/><circle cx="221" cy="132" r="5"/><circle cx="246" cy="157" r="5"/><circle cx="271" cy="165" r="5"/><circle cx="296" cy="193" r="5"/><circle cx="321" cy="202" r="5"/></g><g class="dg-txt"><text x="352" y="258" text-anchor="end">temperatur</text><text x="56" y="18">kostnad</text></g></svg>';
+
   // Kapitel 1: Algebra
   add("ma2-grund-1-01", 1, ["rata_linjens_ekvation", "linjara_representationer"], ALL,
     "Tolka räta linjens ekvation",
@@ -33,7 +43,7 @@
     "<p>Bestäm ekvationen för linjen genom punkterna (1, 3) och (4, 9).</p>",
     "Bestäm först lutningen med förändring i y delat med förändring i x. Sätt sedan in en punkt för att hitta m.",
     [steg("Beräkna k", "Använd samma ordning i täljare och nämnare.", "\\[k=\\frac{9-3}{4-1}=\\frac63=2\\]"),
-     steg("Bestäm m", "Sätt in punkten (1, 3) i y = 2x + m.", "\\[3=2\\cdot1+m\\Rightarrow m=1\\]"),
+     steg("Bestäm m", "Sätt in punkten (1, 3) i y = 2x + m. Det insatta x-värdet markeras rött.", "\\[3=2\\cdot{\\color{#D1495B}{1}}+m\\Rightarrow m=1\\]"),
      steg("Skriv och kontrollera", "Kontroll med den andra punkten ger 2·4 + 1 = 9.", "\\[y=2x+1\\]")],
     "Linjen har ekvationen \\(y=2x+1\\).",
     "Två olika punkter bestämmer en rät linje.", "Bestämma linjär funktion från två punkter");
@@ -49,9 +59,9 @@
 
   add("ma2-grund-1-04", 1, "linjara_representationer", ALL,
     "Bestäm en linjär funktion från en tabell",
-    "<p>I en tabell ökar x med 2 samtidigt som y ökar från 5 till 11. Ett av paren är (0, 2). Bestäm funktionen.</p>",
+    '<p>Bestäm den linjära funktionen som tabellen beskriver.</p><table aria-label="Värdetabell för en linjär funktion" style="margin:14px auto"><tr><th>x</th><td>0</td><td>1</td><td>3</td></tr><tr><th>y</th><td>2</td><td>5</td><td>11</td></tr></table>',
     "I en linjär tabell är kvoten \\(\\Delta y/\\Delta x\\) konstant.",
-    [steg("Bestäm k", "y ökar med 6 när x ökar med 2.", "\\[k=\\frac{11-5}{2}=3\\]"),
+    [steg("Bestäm k", "Mellan de två sista kolumnerna ökar y med 6 när x ökar med 2.", "\\[k=\\frac{11-5}{3-1}=\\frac62=3\\]"),
      steg("Bestäm m", "Paret (0, 2) visar direkt värdet när x = 0.", "\\[m=2\\]"),
      steg("Skriv funktionen", "Sätt in k och m i y = kx + m.", "\\[y=3x+2\\]")],
     "Funktionen är \\(y=3x+2\\).",
@@ -59,7 +69,7 @@
 
   add("ma2-grund-1-05", 1, ["linjara_ekvationssystem", "grafisk_losning_ekvationssystem"], ALL,
     "Förstå lösningen till ett ekvationssystem",
-    "<p>Linjerna y = x + 1 och y = −x + 5 skär varandra. Bestäm skärningspunkten.</p>",
+    "<p>Linjerna y = x + 1 och y = −x + 5 är ritade i koordinatsystemet. Bestäm skärningspunkten.</p>" + linjeSystemFigur,
     "Lösningen är det talpar som gör båda ekvationerna sanna. I en graf är det linjernas skärningspunkt.",
     [steg("Sätt uttrycken lika", "I skärningspunkten har linjerna samma y-värde.", "\\[x+1=-x+5\\]"),
      steg("Lös ut x", "Samla x-termerna på ena sidan.", "\\[2x=4\\Rightarrow x=2\\]"),
@@ -73,7 +83,7 @@
     "När en variabel redan är ensam kan dess uttryck sättas in i den andra ekvationen.",
     [steg("Ersätt y", "Sätt in 2x + 1 där y står i den andra ekvationen.", "\\[x+(2x+1)=10\\]"),
      steg("Lös ekvationen", "Förenkla och lös ut x.", "\\[3x+1=10\\Rightarrow 3x=9\\Rightarrow x=3\\]"),
-     steg("Bestäm y", "Sätt tillbaka x = 3.", "\\[y=2\\cdot3+1=7\\]")],
+     steg("Bestäm y", "Sätt tillbaka x = 3. Det insatta värdet markeras rött.", "\\[y=2\\cdot{\\color{#D1495B}{3}}+1=7\\]")],
     "Lösningen är \\(x=3\\), \\(y=7\\).",
     "Substitution betyder att ersätta en variabel med ett lika stort uttryck.", "Substitutionsmetoden");
 
@@ -239,7 +249,7 @@
 
   add("ma2-grund-2-08", 2, ["andragradsfunktioner", "andragradsfunktion_graf", "symmetrilinje_extrempunkt"], ALL,
     "Bestäm nollställen, symmetrilinje och extrempunkt",
-    "<p>Undersök funktionen f(x) = x² − 4x + 3.</p>",
+    "<p>Undersök funktionen f(x) = x² − 4x + 3.</p>" + parabelFigur,
     "Nollställena visar var grafen skär x-axeln. Symmetrilinjen ligger mitt emellan nollställena.",
     [steg("Bestäm nollställena", "Faktorisera och använd nollproduktmetoden.", "\\[x^2-4x+3=(x-1)(x-3)\\Rightarrow x=1\\text{ eller }x=3\\]"),
      steg("Bestäm symmetrilinjen", "Ta medelvärdet av nollställena.", "\\[x=\\frac{1+3}{2}=2\\]"),
@@ -258,13 +268,13 @@
 
   add("ma2-grund-2-10", 2, "fran_graf_till_formel", ALL,
     "Bestäm en andragradsfunktion från nollställen",
-    "<p>En parabel har nollställena −1 och 4 och går genom punkten (0, −8). Bestäm funktionen.</p>",
+    "<p>Parabeln har nollställena −1 och 4 och går genom den markerade punkten (0, −8). Bestäm funktionen.</p>" + nollstalleFigur,
     "Med nollställena \\(x_1\\) och \\(x_2\\) kan funktionen skrivas \\(f(x)=a(x-x_1)(x-x_2)\\).",
     [steg("Skriv faktorformen", "Nollställena ger var sin faktor.", "\\[f(x)=a(x+1)(x-4)\\]"),
-     steg("Bestäm a", "Sätt in punkten (0, −8).", "\\[-8=a(0+1)(0-4)=-4a\\Rightarrow a=2\\]"),
+     steg("Bestäm a", "Sätt in punkten (0, −8). De insatta x-värdena markeras röda.", "\\[-8=a({\\color{#D1495B}{0}}+1)({\\color{#D1495B}{0}}-4)=-4a\\Rightarrow a=2\\]"),
      steg("Skriv funktionen", "Behåll gärna faktorformen när nollställena är viktiga.", "\\[f(x)=2(x+1)(x-4)\\]")],
     "\\(f(x)=2(x+1)(x-4)\\).",
-    "Nollställena bestämmer faktorerna; ytterligare en punkt bestämmer a.", "Bestämma andragradsfunktion från graf eller punkter");
+    "Nollställena bestämmer faktorerna; ytterligare en punkt bestämmer a.", "Bestämma andragradsfunktion från graf");
 
   add("ma2-grund-2-11", 2, "andragradsfunktioner_tillampningar", ALL,
     "Tolka en andragradsmodell",
@@ -313,7 +323,7 @@
 
   add("ma2-grund-2-16", 2, "exponentialgraf", ALL,
     "Tolka en exponentialfunktions graf",
-    "<p>Funktionen f(x) = 200 · 0,75ˣ beskriver en mängd. Ange startvärde och procentuell förändring per x-enhet.</p>",
+    "<p>Grafen visar funktionen f(x) = 200 · 0,75ˣ. Ange startvärde och procentuell förändring per x-enhet.</p>" + exponentialFigur,
     "I \\(f(x)=C\\cdot a^x\\) är C startvärdet och a förändringsfaktorn.",
     [steg("Läs av startvärdet", "När x = 0 är a⁰ = 1.", "\\[f(0)=200\\]"),
      steg("Tolka faktorn", "0,75 = 1 − 0,25 innebär en minskning med 25 %.", "\\[1-0{,}75=0{,}25=25\\,\\%\\]")],
@@ -513,7 +523,7 @@
 
   add("ma2-grund-4-03", 4, "ladagram", ALL,
     "Tolka ett lådagram",
-    "<p>Ett lådagram har min = 2, Q₁ = 5, median = 8, Q₃ = 12 och max = 17. Bestäm kvartilavståndet och variationsbredden.</p>",
+    "<p>Bestäm lådagrammets kvartilavstånd och variationsbredd.</p>" + ladaFigur,
     "Lådan går från Q₁ till Q₃. Hela diagrammet går från minsta till största värdet.",
     [steg("Beräkna kvartilavståndet", "Subtrahera den undre kvartilen från den övre.", "\\[Q_3-Q_1=12-5=7\\]"),
      steg("Beräkna variationsbredden", "Subtrahera minsta värdet från största.", "\\[17-2=15\\]")],
@@ -522,7 +532,7 @@
 
   add("ma2-grund-4-04", 4, "linjar_regression", BC,
     "Tolka en regressionslinje och göra en prognos",
-    "<p>En regressionsmodell är y = 2,4x + 18, där x är antal studietimmar och y är provpoäng. Tolka koefficienterna och beräkna prognosen för 10 timmar.</p>",
+    "<p>Den redan anpassade linjen i spridningsdiagrammet har ekvationen y = 2,4x + 18, där x är antal studietimmar och y är provpoäng. Tolka koefficienterna och beräkna prognosen för 10 timmar.</p>" + regressionFigur,
     "Riktningskoefficienten beskriver modellens genomsnittliga förändring per x-enhet. Konstanttermen är modellens y-värde när x = 0.",
     [steg("Tolka koefficienterna", "2,4 betyder 2,4 poäng mer per extra studietimme. 18 är modellens poäng vid 0 timmar."),
      steg("Gör prognosen", "Sätt in x = 10. Det insatta värdet markeras rött.", "\\[y=2{,}4\\cdot{\\color{#D1495B}{10}}+18=42\\]")],
@@ -531,7 +541,7 @@
 
   add("ma2-grund-4-05", 4, "korrelation_koefficient", BC,
     "Tolka korrelation utan att påstå kausalitet",
-    "<p>Ett datamaterial har korrelationskoefficienten r = −0,92 mellan utomhustemperatur och uppvärmningskostnad. Vad säger värdet – och vad säger det inte?</p>",
+    "<p>Spridningsdiagrammet har korrelationskoefficienten r = −0,92 och visar utomhustemperatur och uppvärmningskostnad. Vad säger värdet – och vad säger det inte?</p>" + korrelationFigur,
     "Tecknet visar sambandets riktning och avståndet från noll visar styrkan i det linjära sambandet.",
     [steg("Tolka tecknet", "Det negativa tecknet betyder att högre temperatur brukar höra ihop med lägre kostnad."),
      steg("Tolka styrkan", "|r| = 0,92 ligger nära 1 och visar ett starkt negativt linjärt samband.", "\\[|r|=0{,}92\\]"),
@@ -547,6 +557,16 @@
      steg("Tolka i sammanhanget", "A:s tider ligger i regel närmare A:s medeltid och är därför jämnare.")],
     "Löpare A springer jämnast.",
     "Standardavvikelsen säger något om spridningen, inte i sig vem som har bäst medelvärde.", "Standardavvikelse");
+
+  add("ma2-grund-4-06b", 4, "standardavvikelse", ALL,
+    "Beräkna standardavvikelse",
+    "<p>Hela datamaterialet är 2, 4, 4, 6. Beräkna medelvärdet och populationens standardavvikelse.</p>",
+    "Standardavvikelsen bygger på avstånden till medelvärdet. Avstånden kvadreras så att negativa och positiva avvikelser inte tar ut varandra.",
+    [steg("Beräkna medelvärdet", "Addera värdena och dela med fyra.", "\\[\\bar x=\\frac{2+4+4+6}{4}=4\\]"),
+     steg("Beräkna de kvadrerade avvikelserna", "Subtrahera medelvärdet 4 från varje värde och kvadrera.", "\\[(2-4)^2+(4-4)^2+(4-4)^2+(6-4)^2=8\\]"),
+     steg("Ta roten ur medelvärdet", "Dividera med antalet värden och ta kvadratroten.", "\\[\\sigma=\\sqrt{\\frac84}=\\sqrt2\\approx1{,}4\\]")],
+    "Medelvärdet är 4 och standardavvikelsen är ungefär \(1{,}4\).",
+    "Om värdena är ett stickprov använder vissa verktyg n − 1 i nämnaren. Kontrollera om uppgiften frågar efter stickprovets eller hela materialets standardavvikelse.", "Standardavvikelse");
 
   add("ma2-grund-4-07", 4, "normalfordelat_material", ALL,
     "Använd 68–95–99,7-regeln",

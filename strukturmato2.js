@@ -52,11 +52,12 @@ window.GRUPPMATO2 = {
   "1": [
     {
       "id": "trig_samband",
-      "namn": "Enhetscirkeln, radianer och trigonometriska samband",
+      "namn": "Enhetscirkeln, radianer, samband och ekvationer",
       "omr": [
         "enhetscirkeln",
         "radianer",
-        "trig_formler"
+        "trig_formler",
+        "trig_ekvationer"
       ]
     },
     {
@@ -98,9 +99,10 @@ window.GRUPPMATO2 = {
     },
     {
       "id": "integral_tillampningar",
-      "namn": "Integraler i tillämpningar och rotationsvolymer",
+      "namn": "Integraler i tillämpningar, sannolikhet och rotationsvolymer",
       "omr": [
         "integral_tillampningar",
+        "sannolikhetsintegraler",
         "rotationsvolymer"
       ]
     }
@@ -116,10 +118,11 @@ window.GRUPPMATO2 = {
     },
     {
       "id": "komplex_polar",
-      "namn": "Polär form, potenser och rötter",
+      "namn": "Polär form, potenser, rötter och polynom",
       "omr": [
         "polar_exponentiell",
-        "potenser_rotter"
+        "potenser_rotter",
+        "polynom_komplexa"
       ]
     }
   ]

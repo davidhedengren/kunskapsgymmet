@@ -1,11 +1,11 @@
 /* strukturmatf1.js — intern understruktur och elevsynliga träningsområden för Matematik – fördjupning nivå 1.
    OMR bevaras för bank/progression. GRUPPMATF1 definierar elevens större områden; familj är delmoment.
-   Reviderad 2026-09-07. */
+   Reviderad och avstämd mot MATF1000X 2026-09-10. */
 
 window.KAPNAMNMATF1 = {
-  "1": "Kombinatorik och mängdlära",
-  "2": "Talteori, talföljder och bevis",
-  "3": "Fördjupning av derivata och integraler",
+  "1": "Mängdlära och kombinatorik",
+  "2": "Talbaser, kongruens, rekursion och bevis",
+  "3": "Fördjupande problem med derivata och integraler",
   "4": "Differentialekvationer"
 };
 
@@ -56,10 +56,11 @@ window.GRUPPMATF1 = {
     },
     {
       "id": "urval_binomial",
-      "namn": "Permutationer, kombinationer och binomialsatsen",
+      "namn": "Permutationer, kombinationer och sannolikhet",
       "omr": [
         "permutationer_kombinationer",
-        "binomialsatsen"
+        "binomialsatsen",
+        "kombinatorik_sannolikhet"
       ]
     }
   ],
@@ -75,18 +76,19 @@ window.GRUPPMATF1 = {
     },
     {
       "id": "talfoljder",
-      "namn": "Talföljder och rekursion",
+      "namn": "Talföljder, rekursion och bevis",
       "omr": [
         "talfoljder_sigma",
         "aritmetiska_geometriska",
-        "rekursiva_talfoljder"
+        "rekursiva_talfoljder",
+        "bevismetoder"
       ]
     }
   ],
   "3": [
     {
       "id": "integrationstekniker",
-      "namn": "Integrationstekniker",
+      "namn": "Exempel på integralfördjupning",
       "omr": [
         "partiell_integration",
         "generaliserade_integraler"
@@ -113,12 +115,12 @@ window.GRUPPMATF1 = {
     },
     {
       "id": "diffekv_digitalt",
-      "namn": "Riktningsfält, numeriska och digitala metoder",
+      "namn": "Andra ordningen, riktningsfält och digitala metoder",
       "omr": [
+        "andra_ordningen",
         "riktningsfalt_euler",
         "modellering_digitalt"
       ]
     }
   ]
 };
-

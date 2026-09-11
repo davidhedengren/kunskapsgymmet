@@ -2752,3 +2752,33 @@ window.TYPUPPGIFTER_MA1 = {
     "komihag": "Ett digitalt verktyg ersätter inte själva modellen. Du behöver fortfarande veta vilken formel eller beräkning som ska användas."
   }
 };
+
+/* Slutlig justering av sannolikhet och statistisk slutsats. */
+(() => {
+  const bank=window.TYPUPPGIFTER_MA1;
+  const hitta=rubrik=>Object.values(bank).find(g=>g.rubrik===rubrik);
+
+  const trad=hitta("Använda träddiagram");
+  trad.steg[0].figur='<svg class="dg" viewBox="0 0 560 390" role="img" aria-label="Lodrätt träddiagram för två dagar. Trädet börjar upptill och förgrenas nedåt.">'
+    +'<text class="dg-rubrik" x="280" y="24" text-anchor="middle">Start</text><circle class="dg-matt" cx="280" cy="42" r="6"/>'
+    +'<path class="dg-grenar" d="M280 48 C280 90 155 90 155 132"/><path class="dg-grenar" d="M280 48 C280 90 405 90 405 132"/>'
+    +'<text class="dg-txt" x="205" y="86" text-anchor="middle">0,2</text><text class="dg-txt" x="355" y="86" text-anchor="middle">0,8</text>'
+    +'<circle class="dg-matt" cx="155" cy="138" r="6"/><circle class="dg-matt" cx="405" cy="138" r="6"/><text class="dg-txt dg-nod" x="155" y="124" text-anchor="middle">sen</text><text class="dg-txt dg-nod" x="405" y="124" text-anchor="middle">i tid</text>'
+    +'<path class="dg-grenar" d="M155 144 C155 186 90 186 90 228"/><path class="dg-gren-vald" d="M155 144 C155 186 220 186 220 228"/><path class="dg-gren-vald" d="M405 144 C405 186 340 186 340 228"/><path class="dg-grenar" d="M405 144 C405 186 470 186 470 228"/>'
+    +'<text class="dg-txt" x="112" y="183" text-anchor="middle">0,2</text><text class="dg-txt" x="198" y="183" text-anchor="middle">0,8</text><text class="dg-txt" x="362" y="183" text-anchor="middle">0,2</text><text class="dg-txt" x="448" y="183" text-anchor="middle">0,8</text>'
+    +'<circle class="dg-matt" cx="90" cy="234" r="6"/><circle class="dg-matt" cx="220" cy="234" r="6"/><circle class="dg-matt" cx="340" cy="234" r="6"/><circle class="dg-matt" cx="470" cy="234" r="6"/>'
+    +'<text class="dg-txt dg-nod" x="90" y="258" text-anchor="middle">sen</text><text class="dg-etikett" x="220" y="258" text-anchor="middle">i tid</text><text class="dg-etikett" x="340" y="258" text-anchor="middle">sen</text><text class="dg-txt dg-nod" x="470" y="258" text-anchor="middle">i tid</text>'
+    +'<text class="dg-txt" x="90" y="292" text-anchor="middle">0,04</text><text class="dg-etikett" x="220" y="292" text-anchor="middle">0,16</text><text class="dg-etikett" x="340" y="292" text-anchor="middle">0,16</text><text class="dg-txt" x="470" y="292" text-anchor="middle">0,64</text>'
+    +'<rect class="dg-rut" x="174" y="310" width="212" height="52" rx="12"/><text class="dg-not" x="280" y="333" text-anchor="middle">Exakt en sen dag:</text><text class="dg-rubrik" x="280" y="351" text-anchor="middle">0,16 + 0,16 = 0,32</text>'
+    +'<text class="dg-not" x="280" y="385" text-anchor="middle">Multiplicera nedåt längs en väg. Addera vägar som passar.</text></svg>';
+
+  const signifikans=hitta("Bedöma om en skillnad är övertygande");
+  signifikans.ram="Stickprov varierar slumpmässigt. För att kalla en observerad skillnad statistiskt signifikant behöver man visa att den är så stor i förhållande till slumpvariationen att den knappast förklaras av slumpen ensam.";
+  signifikans.steg=[
+    {rubrik:"Jämför skillnaden med osäkerheten",text:"Skillnaden är två procentenheter, men vi saknar stickprovens storlek och därmed ett mått på slumpvariationen. Samma skillnad kan vara osäker i små stickprov men tydligare i mycket stora stickprov."},
+    {rubrik:"Kan skillnaden kallas statistiskt signifikant?",text:"Nej, inte med de uppgifter vi har. Det krävs exempelvis ett statistiskt test eller ett konfidensintervall som tar hänsyn till stickprovens storlek."},
+    {rubrik:"Dra en försiktig slutsats",text:"Resultaten 52 % och 54 % visar en skillnad i just dessa stickprov, men de räcker inte för att säkert påstå att populationerna skiljer sig."}
+  ];
+  signifikans.svar="Nej. Skillnaden kan inte kallas statistiskt signifikant utan information om stickprovens storlek och en beräkning av den statistiska osäkerheten.";
+  signifikans.komihag="Statistiskt signifikant betyder inte automatiskt viktig eller stor. Det betyder att skillnaden är svår att förklara med enbart slumpvariation enligt den valda statistiska metoden.";
+})();

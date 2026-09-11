@@ -395,6 +395,71 @@
   window.TYPUPPGIFTER_FY2 = bank;
 })();
 
+/* Slutlig justering av astrofysik och relativitetsteori. */
+(() => {
+  const bank=window.TYPUPPGIFTER_FY2;
+  const hitta=rubrik=>Object.values(bank).find(g=>g.rubrik===rubrik);
+  const taBort=rubrik=>{
+    const nyckel=Object.keys(bank).find(k=>bank[k].rubrik===rubrik);
+    if(nyckel) delete bank[nyckel];
+  };
+
+  taBort("Planetens storlek från en transit");
+  taBort("Händelser och referenssystem");
+
+  const parallax=hitta("Avstånd med parallax");
+  parallax.ram="När parallaxvinkeln \\(p\\) anges i bågsekunder ger \\(r=1/p\\) direkt avståndet \\(r\\) i parsec.";
+  parallax.formel="\\[r=\\frac{1}{p}\\qquad r\\text{ i parsec, }p\\text{ i bågsekunder}\\]";
+  parallax.steg=[
+    {rubrik:"Kontrollera enheterna",text:"Parallaxvinkeln är \\(p=0{,}20\\) bågsekunder. Då kan sambandet \\(r=1/p\\) användas och svaret kommer direkt i parsec.",matte:"\\[p=0{,}20\\ \\text{bågsekunder}\\]"},
+    {rubrik:"Beräkna avståndet",text:"Dividera ett med parallaxvinkeln.",matte:"\\[r=\\frac1p=\\frac1{0{,}20}=5{,}0\\ \\mathrm{pc}\\]"}
+  ];
+  parallax.svar="Stjärnans avstånd är \\(r=5{,}0\\ \\mathrm{pc}\\).";
+  parallax.komihag="Formeln \\(r=1/p\\) fungerar i denna enkla form bara när \\(p\\) anges i bågsekunder; då fås \\(r\\) i parsec.";
+
+  const hrFigur='<svg class="dg" viewBox="0 0 680 430" role="img" aria-label="HR-diagram med huvudserien, röda jättar, superjättar och vita dvärgar. Temperaturen minskar åt höger och luminositeten ökar uppåt.">'
+    +'<line class="dg-axel" x1="105" y1="350" x2="625" y2="350"/><path class="dg-spets1" d="M635 350l-15-7v14z"/><line class="dg-axel" x1="105" y1="350" x2="105" y2="48"/><path class="dg-spets1" d="M105 37l-7 14h14z"/>'
+    +'<g class="dg-hjalp" opacity=".45"><line x1="105" y1="100" x2="625" y2="100"/><line x1="105" y1="180" x2="625" y2="180"/><line x1="105" y1="260" x2="625" y2="260"/><line x1="220" y1="48" x2="220" y2="350"/><line x1="365" y1="48" x2="365" y2="350"/><line x1="510" y1="48" x2="510" y2="350"/></g>'
+    +'<path class="dg-linje" d="M155 78 C260 135 385 218 565 326" style="stroke-width:38;opacity:.18"/><path class="dg-linje" d="M155 78 C260 135 385 218 565 326" style="stroke-width:3"/>'
+    +'<ellipse cx="512" cy="112" rx="86" ry="46" fill="#ef8d52" opacity=".16"/><ellipse cx="335" cy="66" rx="190" ry="30" fill="#f0c96e" opacity=".12"/><ellipse cx="190" cy="304" rx="82" ry="37" fill="#73b7ff" opacity=".15"/>'
+    +'<g><circle cx="165" cy="83" r="9" fill="#8fc9ff"/><circle cx="255" cy="138" r="8" fill="#f4f2df"/><circle cx="360" cy="205" r="9" fill="#ffe173"/><circle cx="465" cy="269" r="9" fill="#f5a05c"/><circle cx="555" cy="323" r="8" fill="#e86b4f"/><circle cx="525" cy="112" r="13" fill="#ef8d52"/><circle cx="300" cy="65" r="13" fill="#ffe5a1"/><circle cx="190" cy="304" r="10" fill="#a9d8ff" stroke="#f0c96e" stroke-width="4"/></g>'
+    +'<text class="dg-rubrik" x="286" y="101" transform="rotate(31 286 101)">Huvudserien</text><text class="dg-rubrik" x="473" y="105">Röda jättar</text><text class="dg-rubrik" x="275" y="70" text-anchor="middle">Superjättar</text><text class="dg-rubrik" x="145" y="286">Vita dvärgar</text>'
+    +'<line class="dg-delta" x1="245" y1="281" x2="202" y2="299"/><text class="dg-avl" x="252" y="278">varm men ljussvag</text>'
+    +'<g class="dg-txt" font-size="13"><text x="83" y="104" text-anchor="end">10⁴</text><text x="83" y="184" text-anchor="end">10²</text><text x="83" y="264" text-anchor="end">1</text><text x="83" y="344" text-anchor="end">10⁻²</text><text x="120" y="374">30 000 K</text><text x="335" y="374">10 000 K</text><text x="545" y="374">3 000 K</text></g>'
+    +'<text class="dg-rubrik" x="365" y="408" text-anchor="middle">Yttemperatur — minskar åt höger</text><text class="dg-rubrik" x="25" y="205" text-anchor="middle" transform="rotate(-90 25 205)">Luminositet L/L☉ — ökar uppåt</text></svg>';
+
+  const hr=hitta("Läs ett HR-diagram");
+  hr.figur=hrFigur;
+  hr.ram="Ett HR-diagram jämför stjärnors luminositet med deras yttemperatur. Luminositeten ökar uppåt, men temperaturen minskar åt höger. Huvudserien löper snett från heta, ljusstarka stjärnor uppe till vänster till svala, ljussvaga stjärnor nere till höger.";
+  hr.steg=[
+    {rubrik:"Läs temperaturens riktning",text:"Mycket varm betyder långt åt vänster. Det är lätt att läsa fel eftersom temperaturaxeln går åt motsatt håll mot en vanlig talaxel."},
+    {rubrik:"Läs luminositeten",text:"Låg luminositet betyder långt ned i diagrammet. Kombinationen varm och ljussvag hamnar därför i den nedre vänstra delen."},
+    {rubrik:"Identifiera stjärntypen",text:"I den nedre vänstra delen finns vita dvärgar. De är heta men små och får därför låg total luminositet.",matte:"\\[\\text{varm + ljussvag}\\Rightarrow\\text{vit dvärg}\\]"}
+  ];
+  hr.svar="Stjärnan är troligast en vit dvärg.";
+  hr.komihag="Läs alltid axlarna först: luminositet uppåt, temperatur åt vänster. En stjärnas placering beror på både temperatur och storlek.";
+
+  const tid=hitta("Beräkna tidsdilatation");
+  tid.ram="Tiden \\(t_0\\) är egentiden som mäts av klockan ombord. Tiden \\(t\\) mäts i systemet där rymdskeppet rör sig. Sambandet är \\(t=t_0\\gamma\\), där gammafaktorn beror på hastigheten.";
+  tid.formel="\\[t=t_0\\gamma,\\qquad \\gamma=\\frac{1}{\\sqrt{1-\\left(\\frac vc\\right)^2}}\\]";
+  tid.steg=[
+    {rubrik:"Beräkna gammafaktorn",text:"Sätt \\(v=0{,}80c\\). Då blir kvoten \\(v/c=0{,}80\\).",matte:"\\[\\gamma=\\frac{1}{\\sqrt{1-\\left(\\frac vc\\right)^2}}=\\frac{1}{\\sqrt{1-0{,}80^2}}=1{,}667\\]"},
+    {rubrik:"Beräkna tiden på jorden",text:"Ombordtiden är egentiden \\(t_0=3{,}0\\) år. Multiplicera den med gammafaktorn.",matte:"\\[t=t_0\\gamma=3{,}0\\cdot1{,}667=5{,}0\\ \\mathrm{år}\\]"}
+  ];
+  tid.svar="På jorden mäts tiden \\(t=5{,}0\\) år.";
+  tid.komihag="Egentiden \\(t_0\\) mäts av klockan som följer med rymdskeppet. För en observatör som ser klockan röra sig blir tiden längre: \\(t=t_0\\gamma\\).";
+
+  const langd=hitta("Beräkna längdkontraktion");
+  langd.ram="Längden \\(l_0\\) är egenlängden, alltså längden i föremålets eget vilosystem. Längden \\(l\\) mäts när föremålet rör sig. I rörelseriktningen gäller \\(l=l_0/\\gamma\\).";
+  langd.formel="\\[l=\\frac{l_0}{\\gamma},\\qquad \\gamma=\\frac{1}{\\sqrt{1-\\left(\\frac vc\\right)^2}}\\]";
+  langd.steg=[
+    {rubrik:"Beräkna gammafaktorn",text:"Rymdskeppets fart är \\(v=0{,}80c\\).",matte:"\\[\\gamma=\\frac{1}{\\sqrt{1-\\left(\\frac vc\\right)^2}}=\\frac{1}{\\sqrt{1-0{,}80^2}}=1{,}667\\]"},
+    {rubrik:"Beräkna den kontraherade längden",text:"Egenlängden är \\(l_0=100\\) m. Dividera med gammafaktorn.",matte:"\\[l=\\frac{l_0}{\\gamma}=\\frac{100}{1{,}667}=60\\ \\mathrm m\\]"}
+  ];
+  langd.svar="Från jorden mäts rymdskeppets längd till \\(l=60\\ \\mathrm m\\).";
+  langd.komihag="Egenlängden \\(l_0\\) är den största längden. Längdkontraktionen sker bara i rörelseriktningen.";
+})();
+
 /* Slutlig ämnesdidaktisk justering av Fysik 2. */
 (() => {
   let bank=window.TYPUPPGIFTER_FY2;

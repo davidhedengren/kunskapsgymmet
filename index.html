@@ -453,6 +453,9 @@ a{color:inherit}
 .fliknapp:hover{border-color:var(--hair2)}
 .fliknapp.pa{background:var(--accSoft);border-color:var(--acc);color:var(--accInk)}
 
+.mxp{margin-left:4px;font-size:11px;font-weight:700;letter-spacing:0;
+  color:var(--gold);white-space:nowrap}
+.mxp.tagen{color:var(--ink3);font-weight:600}
 .topplista{list-style:none;margin:0;padding:0}
 .topprad{
   display:flex;align-items:center;gap:14px;padding:12px 6px;
@@ -2274,9 +2277,9 @@ async function vaxlaTopplista(pa){
   return reply;
 }
 
-/* Topplistans flikar. "alla" läser den vanliga vyn (totalt XP),
-   de andra hämtar tillväxt under perioden från databasfunktionen
-   topplista_period (se topplista-perioder.sql). */
+/* Topplistans flikar. Alla hämtas från databasfunktionen
+   topplista_period (se topplista-perioder.sql), som räknar in
+   medalj-XP. Dag/vecka/månad visar tillväxt under perioden. */
 const TOPP_FLIKAR={
   dag:  {txt:"Bäst idag",      fot:"XP och uppgifter sedan midnatt idag"},
   vecka:{txt:"Veckans bästa",  fot:"XP och uppgifter sedan måndag denna vecka"},
@@ -2288,18 +2291,6 @@ async function hamtaTopplista(flik,gräns=50){
   if(!MOLN_PA()) return null;
   const inloggad = !!session && await giltigSession();
   try{
-    if(flik==="alla"){
-      const r=await fetch(SUPABASE_URL+"/rest/v1/topplista"
-        +"?select=namn,xp,niva,rang,uppgifter,dagar,medaljer"
-        +"&visa=eq.true&order=xp.desc,uppgifter.desc&limit="+gräns,
-        {headers:sbHeaders(inloggad)});
-      if(!r.ok){
-        let txt=""; try{ txt=await r.text(); }catch(_){}
-        console.warn("Topplistan svarade "+r.status+": "+txt);
-        return null;
-      }
-      return {rader:await r.json(),plats:await minPlacering()};
-    }
     const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/topplista_period",{
       method:"POST",headers:sbHeaders(inloggad),
       body:JSON.stringify({p_period:flik,p_limit:gräns,
@@ -2308,11 +2299,23 @@ async function hamtaTopplista(flik,gräns=50){
     if(!r.ok){
       let txt=""; try{ txt=await r.text(); }catch(_){}
       console.warn("Topplistan ("+flik+") svarade "+r.status+": "+txt);
-      return r.status===404 ? {saknas:true} : null;
+      if(r.status===404) return flik==="alla" ? hamtaTotalFranVy(inloggad,gräns) : {saknas:true};
+      return null;
     }
     const d=await r.json();
     return {rader:Array.isArray(d?.rader)?d.rader:[],plats:d?.plats??null};
   }catch(_){ return null; }
+}
+
+/* Reserv om databasfunktionen inte är installerad än: den gamla vyn
+   (utan medalj-XP). */
+async function hamtaTotalFranVy(inloggad,gräns){
+  const r=await fetch(SUPABASE_URL+"/rest/v1/topplista"
+    +"?select=namn,xp,niva,rang,uppgifter,dagar,medaljer"
+    +"&visa=eq.true&order=xp.desc,uppgifter.desc&limit="+gräns,
+    {headers:sbHeaders(inloggad)});
+  if(!r.ok) return null;
+  return {rader:await r.json(),plats:await minPlacering()};
 }
 
 async function minPlacering(){
@@ -2497,9 +2500,10 @@ function rankFor(level){
 }
 function nextRank(level){ return RANKS.find(x=>x.lvl>level) || null; }
 function levelProgress(){
-  const L=levelFromXP(profile.xp);
+  const xp=totalXp();
+  const L=levelFromXP(xp);
   const base=totalXpForLevel(L), top=totalXpForLevel(L+1);
-  return {level:L, into:profile.xp-base, need:top-base, pct:(profile.xp-base)/Math.max(1,top-base)};
+  return {level:L, into:xp-base, need:top-base, pct:(xp-base)/Math.max(1,top-base)};
 }
 
 function todayKey(){
@@ -2602,7 +2606,7 @@ const BADGES=[
   {id:"bredd", icon:"allsidig", name:"Allsidig",        desc:"Träna i 8 olika områden",      max:8,   cur:()=>touchedAreas()},
   {id:"bredd20",icon:"kartan",name:"Kartläggaren",    desc:"Träna i 20 olika områden",     max:20,  cur:()=>touchedAreas()},
   {id:"tvakurser",icon:"bredaxlad",name:"Bredaxlad",     desc:"Träna i två olika kurser",     max:2,   cur:()=>Object.keys(profile.courses||{}).length},
-  {id:"xp1000",icon:"tusen", name:"Tusen",           desc:"Samla 1000 XP",                max:1000,cur:()=>profile.xp},
+  {id:"xp1000",icon:"tusen", name:"Tusen",           desc:"Samla 1000 XP",                max:1000,cur:()=>totalXp()},
 
   {id:"lagat5", icon:"lagat", name:"Andra chansen", desc:"Klara 5 uppgifter du haft fel på",  max:5,  cur:()=>profile.reparerade},
   {id:"lagat10",icon:"envis", name:"Envis",         desc:"Klara 10 uppgifter du haft fel på", max:10, cur:()=>profile.reparerade},
@@ -2619,6 +2623,33 @@ const BADGES=[
   {id:"ggkap", icon:"genomlast", name:"Genomläst",     desc:"Läs alla genomgångar i ett kapitel",max:1,  cur:()=>Object.keys(profile.ggKapKlara||{}).length},
   {id:"ggtrana",icon:"ipraktik", name:"Teori i praktik",desc:"Gå från genomgång till träning 5 gånger",max:5, cur:()=>profile.ggTranat}
 ];
+
+/* Varje medalj ger MEDALJ_XP extra XP. Bonusen räknas fram ur vilka
+   medaljer man har i stället för att läggas på profile.xp. Då gäller
+   den automatiskt retroaktivt, och serverns kontroll av tränings-XP
+   påverkas inte. Samma regel finns i databasen (topplista-perioder.sql)
+   så att topplistan räknar likadant. */
+const MEDALJ_XP=100;
+const MEDALJ_IDN=new Set(BADGES.map(b=>b.id));
+function antalMedaljer(p=profile){
+  return Object.keys(p?.badges||{}).filter(id=>MEDALJ_IDN.has(id)).length;
+}
+function medaljXp(p=profile){ return MEDALJ_XP*antalMedaljer(p); }
+function totalXp(p=profile){ return (p?.xp||0)+medaljXp(p); }
+
+/* Visas en gång per konto och enhet: berättar att medaljerna nu ger XP. */
+function visaMedaljXpInfo(){
+  if(session && !syncOwner) return;           // vänta tills molnprofilen är hämtad
+  const n=antalMedaljer();
+  if(!n) return;
+  const key="kunskapsgymmet-medaljxp:"+(syncOwner||"gast");
+  try{
+    if(localStorage.getItem(key)) return;
+    localStorage.setItem(key,"1");
+  }catch(_){ return; }
+  cheer(medaljIkon("tusen"),"Medaljerna ger XP","+"+(n*MEDALJ_XP)+" XP",
+    `Varje medalj är nu värd ${MEDALJ_XP} XP. Dina ${n} medaljer har räknats in i din nivå i efterhand.`);
+}
 
 /* Antalet lästa genomgångar räknas över alla kurser — den som läst i
    både fysik och matematik har läst lika mycket för det. */
@@ -2652,7 +2683,7 @@ function checkBadges(fordroj=0){
   const agare=ggAgare();
   const visa=()=>{
     if(agare!==ggAgare()) return;
-    gained.forEach(b=>cheer(medaljIkon(b.icon),"Ny medalj",b.name,b.desc));
+    gained.forEach(b=>cheer(medaljIkon(b.icon),"Ny medalj, +"+MEDALJ_XP+" XP",b.name,b.desc));
   };
   if(gained.length){
     saveProfile();
@@ -3253,6 +3284,7 @@ function toggleChapter(kap,btn){
 }
 
 function afterRender(){
+  setTimeout(visaMedaljXpInfo,400);
   renderMath(app);
   requestAnimationFrame(()=>{
     app.querySelectorAll("[data-off]").forEach(el=>{ el.style.strokeDashoffset=el.dataset.off; });
@@ -4527,7 +4559,7 @@ function renderDashboard(){
             </div>
             <div class="rankid">
               <div class="rankname">${esc(rank.name)}</div>
-              <div class="rankmeta">${profile.xp} XP</div>
+              <div class="rankmeta">${totalXp()} XP</div>
             </div>
             <button class="rankgo" onclick="showProgress()">Utveckling <span aria-hidden="true">→</span></button>
           </div>
@@ -4546,7 +4578,7 @@ function renderDashboard(){
                   aria-label="${esc(b.name)}: ${esc(b.desc)}. ${s.on?"Upplåst":s.cur+" av "+b.max}">
                 ${medaljIkon(b.icon)}${s.on?"":`<span class="frac">${s.cur}/${b.max}</span>`}
                 <span class="mtip">
-                  <b>${esc(b.name)}</b>
+                  <b>${esc(b.name)} <span class="mxp">+${MEDALJ_XP} XP</span></b>
                   <small>${esc(b.desc)}</small>
                   ${s.on?`<span class="num done">Upplåst</span>`
                         :`<span class="bar"><i style="width:${Math.round(s.pct*100)}%"></i></span>
@@ -6556,8 +6588,8 @@ function finishAttempt(resultat){
   if(!correct){ (state.sessionFel ||= []).push(t); }
   sparaPagaendePass();
 
-  const xpBefore=profile.xp;
-  const levelBefore=levelFromXP(profile.xp);
+  const xpBefore=totalXp();
+  const levelBefore=levelFromXP(xpBefore);
   const goal=profile.goal||8;
   const beforeToday=todayCount();
 
@@ -6614,12 +6646,15 @@ function finishAttempt(resultat){
     profile.bestNiva3=Math.max(profile.bestNiva3||0,Math.round(b3*100));
   }
 
-  const levelAfter=levelFromXP(profile.xp);
+  const HYLLNING=1500;
+  const nyaMedaljer=checkBadges(HYLLNING);
+  state.sessionXp+=MEDALJ_XP*nyaMedaljer.length;
+  const xpAfter=totalXp();
+  const levelAfter=levelFromXP(xpAfter);
   const rankBefore=rankFor(levelBefore), rankAfter=rankFor(levelAfter);
   saveProfile();
 
-  animeraXp(xpBefore,profile.xp);
-  const HYLLNING=1500;
+  animeraXp(xpBefore,xpAfter);
   setTimeout(()=>{
     if(levelAfter>levelBefore){
       if(rankAfter.name!==rankBefore.name) cheer(rankAfter.sym,"Ny rang",rankAfter.name,"Du har klättrat ett steg på stegen.");
@@ -6627,7 +6662,6 @@ function finishAttempt(resultat){
     }
     if(beforeToday<goal && todayCount()>=goal) cheer(medaljIkon("dagsmal"),"Dagens mål","Klart för idag",`${goal} uppgifter avklarade.`);
   },HYLLNING);
-  checkBadges(HYLLNING);
   saveProfile();
 
   const last=state.sessionDone>=state.sessionTarget;
@@ -6797,7 +6831,7 @@ function renderSessionDone(record){
   const acc=Math.round(state.sessionCorrect/total*100);
   const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
   const st=currentStreak(), done=todayCount(), goal=profile.goal||8;
-  const toNext=Math.max(0,totalXpForLevel(lp.level+1)-profile.xp);
+  const toNext=Math.max(0,totalXpForLevel(lp.level+1)-totalXp());
 
   app.innerHTML=topbar()+`<main class="summary view">
     <div class="ringwrap">
@@ -6847,7 +6881,7 @@ function renderSessionDone(record){
       return `<div class="badge-row" style="margin-top:10px;background:var(--surface);border-color:var(--hair)">
         <div class="medal">${medaljIkon(nb.b.icon)}</div>
         <div class="txt">
-          <b>Nästa medalj: ${esc(nb.b.name)}</b>
+          <b>Nästa medalj: ${esc(nb.b.name)} <span class="mxp">+${MEDALJ_XP} XP</span></b>
           <small>${esc(nb.b.desc)} · ${nb.s.cur} av ${nb.b.max}</small>
           <div class="prog"><i data-w="${Math.round(nb.s.pct*100)}%"></i></div>
         </div>
@@ -6923,18 +6957,21 @@ function ritaTopplista(laddar,svar){
         return b?`<span class="tmedalj" title="${esc(b.name)}">${medaljIkon(b.icon)}</span>`:"";
       }).join("");
       const xp=Number(rad.xp)||0, uppg=Number(rad.uppgifter)||0;
+      const tot=Number(rad.totalxp);
+      const niva=Number.isFinite(tot)?levelFromXP(tot):(rad.niva||1);
+      const rang=Number.isFinite(tot)?rankFor(niva).name:rad.rang;
       return `<li class="topprad${jag?" jag":""}${i<3?" pall":""}">
         <span class="plats">${i+1}</span>
         <span class="tnamn">
           <b>${esc(rad.namn||"")}</b>
-          <small>Nivå ${rad.niva||1}${rad.rang?" · "+esc(rad.rang):""}</small>
+          <small>Nivå ${niva}${rang?" · "+esc(rang):""}</small>
         </span>
         <span class="tmedaljer">${visade}${medaljer.length>5?`<span class="tfler">+${medaljer.length-5}</span>`:""}</span>
         <span class="tuppg" title="Uppgifter">${uppg}<small>uppg.</small></span>
         <span class="tvarde" title="XP">${xp}<small>XP</small></span>
       </li>`;
     }).join("")}</ol>
-    <p class="toppfot">${TOPP_FLIKAR[s].fot}, sorterat på XP. Bara de som själva valt att synas står med.</p>`;
+    <p class="toppfot">${TOPP_FLIKAR[s].fot}, sorterat på XP. Varje medalj ger ${MEDALJ_XP} XP. Bara de som själva valt att synas står med.</p>`;
   }
 
   app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
@@ -6999,7 +7036,7 @@ function showProgress(record){
         </div>
         <div style="flex:1;min-width:180px">
           <div class="rankname">${esc(rank.name)}</div>
-          <div class="rankmeta">${profile.xp} XP${nxt?` · nästa rang ${esc(nxt.name)} vid nivå ${nxt.lvl}`:""}</div>
+          <div class="rankmeta">${totalXp()} XP${medaljXp()?` (varav ${medaljXp()} från medaljer)`:""}${nxt?` · nästa rang ${esc(nxt.name)} vid nivå ${nxt.lvl}`:""}</div>
           <div class="rankbar"><i data-w="${Math.round(lp.pct*100)}%"></i></div>
         </div>
       </div>
@@ -7075,14 +7112,14 @@ function showProgress(record){
       </div>`;
     })()}
 
-    <div class="sec"><h2>Medaljer</h2><span class="rankmeta">${BADGES.filter(b=>badgeState(b).on).length} av ${BADGES.length}</span></div>
+    <div class="sec"><h2>Medaljer</h2><span class="rankmeta">${BADGES.filter(b=>badgeState(b).on).length} av ${BADGES.length}, ${MEDALJ_XP} XP styck</span></div>
     <div class="badgegrid stagger" style="margin-bottom:26px">
       ${BADGES.map(b=>{
         const s=badgeState(b);
         return `<div class="badge-row">
           <div class="medal ${s.on?'on':''}">${medaljIkon(b.icon)}</div>
           <div class="txt">
-            <b>${esc(b.name)}</b>
+            <b>${esc(b.name)} <span class="mxp${s.on?" tagen":""}">+${MEDALJ_XP} XP</span></b>
             <small>${esc(b.desc)}</small>
             ${s.on?"":`<div class="prog"><i data-w="${Math.round(s.pct*100)}%"></i></div>`}
           </div>

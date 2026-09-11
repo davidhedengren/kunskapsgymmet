@@ -394,3 +394,149 @@
 
   window.TYPUPPGIFTER_FY2 = bank;
 })();
+
+/* Slutlig ämnesdidaktisk justering av Fysik 2. */
+(() => {
+  let bank=window.TYPUPPGIFTER_FY2;
+  const hitta=rubrik=>Object.values(bank).find(g=>g.rubrik===rubrik);
+  const taBort=rubrik=>{
+    const nyckel=Object.keys(bank).find(k=>bank[k].rubrik===rubrik);
+    if(nyckel) delete bank[nyckel];
+  };
+
+  ["Ekolod med ultraljud","Resonans i en LC-krets","Jordens strålningsbalans","Välj strålning efter användning"].forEach(taBort);
+
+  /* Staplarna visar rörelseamplitud. Då riskerar eleven inte att tolka
+     stående vågen som rörets form eller som en färdande sinuskurva. */
+  const oppenPipaFigur='<svg class="dg" viewBox="0 0 650 300" role="img" aria-label="Rörelsebuk och rörelsenod i en öppen pipa">'
+    +'<text class="dg-rubrik" x="22" y="76">Grundton f₁</text><line class="dg-ror" x1="185" y1="30" x2="610" y2="30"/><line class="dg-ror" x1="185" y1="118" x2="610" y2="118"/><line class="dg-hjalp" x1="185" y1="74" x2="610" y2="74"/>'
+    +'<g class="dg-linje"><line x1="185" y1="42" x2="185" y2="106"/><line x1="238" y1="47" x2="238" y2="101"/><line x1="291" y1="56" x2="291" y2="92"/><line x1="344" y1="66" x2="344" y2="82"/><line x1="397" y1="74" x2="397" y2="74"/><line x1="450" y1="66" x2="450" y2="82"/><line x1="503" y1="56" x2="503" y2="92"/><line x1="556" y1="47" x2="556" y2="101"/><line x1="610" y1="42" x2="610" y2="106"/></g><circle class="dg-nod" cx="397" cy="74" r="6"/><text class="dg-avl" x="178" y="23">B</text><text class="dg-avl" x="389" y="66">N</text><text class="dg-avl" x="603" y="23">B</text>'
+    +'<text class="dg-rubrik" x="22" y="202">1:a övertonen f₂</text><line class="dg-ror" x1="185" y1="156" x2="610" y2="156"/><line class="dg-ror" x1="185" y1="244" x2="610" y2="244"/><line class="dg-hjalp" x1="185" y1="200" x2="610" y2="200"/>'
+    +'<g class="dg-linje"><line x1="185" y1="168" x2="185" y2="232"/><line x1="238" y1="181" x2="238" y2="219"/><line x1="291" y1="200" x2="291" y2="200"/><line x1="344" y1="181" x2="344" y2="219"/><line x1="397" y1="168" x2="397" y2="232"/><line x1="450" y1="181" x2="450" y2="219"/><line x1="503" y1="200" x2="503" y2="200"/><line x1="556" y1="181" x2="556" y2="219"/><line x1="610" y1="168" x2="610" y2="232"/></g><circle class="dg-nod" cx="291" cy="200" r="6"/><circle class="dg-nod" cx="503" cy="200" r="6"/><text class="dg-avl" x="178" y="150">B</text><text class="dg-avl" x="283" y="192">N</text><text class="dg-avl" x="389" y="150">B</text><text class="dg-avl" x="495" y="192">N</text><text class="dg-avl" x="603" y="150">B</text>'
+    +'<text class="dg-not" x="185" y="280">Staplarnas höjd visar luftens rörelseamplitud: B = buk, N = nod.</text></svg>';
+
+  const halvoppenPipaFigur='<svg class="dg" viewBox="0 0 650 300" role="img" aria-label="Rörelsenod vid den stängda änden och rörelsebuk vid den öppna änden i en halvöppen pipa">'
+    +'<text class="dg-rubrik" x="22" y="76">Grundton f₁</text><line class="dg-ror" x1="185" y1="30" x2="610" y2="30"/><line class="dg-ror" x1="185" y1="118" x2="610" y2="118"/><line class="dg-ror" x1="185" y1="30" x2="185" y2="118"/><line class="dg-hjalp" x1="185" y1="74" x2="610" y2="74"/>'
+    +'<g class="dg-linje"><line x1="185" y1="74" x2="185" y2="74"/><line x1="238" y1="70" x2="238" y2="78"/><line x1="291" y1="66" x2="291" y2="82"/><line x1="344" y1="61" x2="344" y2="87"/><line x1="397" y1="56" x2="397" y2="92"/><line x1="450" y1="51" x2="450" y2="97"/><line x1="503" y1="47" x2="503" y2="101"/><line x1="556" y1="43" x2="556" y2="105"/><line x1="610" y1="42" x2="610" y2="106"/></g><circle class="dg-nod" cx="185" cy="74" r="6"/><text class="dg-avl" x="177" y="66">N</text><text class="dg-avl" x="603" y="23">B</text>'
+    +'<text class="dg-rubrik" x="22" y="202">Nästa resonans f₃</text><line class="dg-ror" x1="185" y1="156" x2="610" y2="156"/><line class="dg-ror" x1="185" y1="244" x2="610" y2="244"/><line class="dg-ror" x1="185" y1="156" x2="185" y2="244"/><line class="dg-hjalp" x1="185" y1="200" x2="610" y2="200"/>'
+    +'<g class="dg-linje"><line x1="185" y1="200" x2="185" y2="200"/><line x1="238" y1="182" x2="238" y2="218"/><line x1="291" y1="170" x2="291" y2="230"/><line x1="326" y1="168" x2="326" y2="232"/><line x1="397" y1="177" x2="397" y2="223"/><line x1="450" y1="194" x2="450" y2="206"/><line x1="468" y1="200" x2="468" y2="200"/><line x1="503" y1="188" x2="503" y2="212"/><line x1="556" y1="173" x2="556" y2="227"/><line x1="610" y1="168" x2="610" y2="232"/></g><circle class="dg-nod" cx="185" cy="200" r="6"/><circle class="dg-nod" cx="468" cy="200" r="6"/><text class="dg-avl" x="177" y="192">N</text><text class="dg-avl" x="318" y="150">B</text><text class="dg-avl" x="460" y="192">N</text><text class="dg-avl" x="603" y="150">B</text>'
+    +'<text class="dg-not" x="185" y="280">Halvöppen pipa: nod vid den stängda änden och buk vid den öppna.</text></svg>';
+
+  const stangdPipaFigur='<svg class="dg" viewBox="0 0 650 300" role="img" aria-label="Rörelsenoder vid båda ändarna i en stängd pipa">'
+    +'<text class="dg-rubrik" x="22" y="76">Grundton f₁</text><rect class="dg-rut" x="185" y="30" width="425" height="88" rx="3"/><line class="dg-hjalp" x1="185" y1="74" x2="610" y2="74"/>'
+    +'<g class="dg-linje"><line x1="185" y1="74" x2="185" y2="74"/><line x1="238" y1="61" x2="238" y2="87"/><line x1="291" y1="50" x2="291" y2="98"/><line x1="344" y1="43" x2="344" y2="105"/><line x1="397" y1="42" x2="397" y2="106"/><line x1="450" y1="43" x2="450" y2="105"/><line x1="503" y1="50" x2="503" y2="98"/><line x1="556" y1="61" x2="556" y2="87"/><line x1="610" y1="74" x2="610" y2="74"/></g><circle class="dg-nod" cx="185" cy="74" r="6"/><circle class="dg-nod" cx="610" cy="74" r="6"/><text class="dg-avl" x="177" y="66">N</text><text class="dg-avl" x="389" y="23">B</text><text class="dg-avl" x="602" y="66">N</text>'
+    +'<text class="dg-rubrik" x="22" y="202">1:a övertonen f₂</text><rect class="dg-rut" x="185" y="156" width="425" height="88" rx="3"/><line class="dg-hjalp" x1="185" y1="200" x2="610" y2="200"/>'
+    +'<g class="dg-linje"><line x1="185" y1="200" x2="185" y2="200"/><line x1="238" y1="183" x2="238" y2="217"/><line x1="291" y1="168" x2="291" y2="232"/><line x1="344" y1="183" x2="344" y2="217"/><line x1="397" y1="200" x2="397" y2="200"/><line x1="450" y1="183" x2="450" y2="217"/><line x1="503" y1="168" x2="503" y2="232"/><line x1="556" y1="183" x2="556" y2="217"/><line x1="610" y1="200" x2="610" y2="200"/></g><circle class="dg-nod" cx="185" cy="200" r="6"/><circle class="dg-nod" cx="397" cy="200" r="6"/><circle class="dg-nod" cx="610" cy="200" r="6"/><text class="dg-avl" x="177" y="192">N</text><text class="dg-avl" x="283" y="150">B</text><text class="dg-avl" x="389" y="192">N</text><text class="dg-avl" x="496" y="150">B</text><text class="dg-avl" x="602" y="192">N</text>'
+    +'<text class="dg-not" x="185" y="280">Stängd i båda ändarna: rörelsenod vid båda ändarna.</text></svg>';
+
+  const kastFigur='<svg class="dg" viewBox="0 0 620 270" role="img" aria-label="En boll följer en kastparabel medan hastigheten delas i vågrät och lodrät del">'
+    +'<line class="dg-axel" x1="58" y1="230" x2="585" y2="230"/><line class="dg-axel" x1="58" y1="230" x2="58" y2="28"/><path class="dg-linje" d="M78 188 C205 50 390 55 555 225"/><circle class="dg-vald" cx="78" cy="188" r="9"/>'
+    +'<line class="dg-vek1" x1="78" y1="188" x2="170" y2="106"/><path class="dg-spets1" d="M178 99l-15 4 10 11z"/><line class="dg-vek2" x1="78" y1="188" x2="170" y2="188"/><path class="dg-sp2" d="M181 188l-14-7v14z"/><line class="dg-vek3" x1="170" y1="188" x2="170" y2="112"/><path class="dg-spets3" d="M170 101l-7 14h14z"/>'
+    +'<line class="dg-vek3" x1="370" y1="76" x2="370" y2="135"/><path class="dg-spets3" d="M370 146l-7-14h14z"/><text class="dg-txt" x="118" y="127">v₀</text><text class="dg-txt" x="112" y="208">v₀x</text><text class="dg-txt" x="178" y="151">v₀y</text><text class="dg-txt" x="381" y="113">g</text><text class="dg-not" x="196" y="257">x-rörelsen är jämn; y-rörelsen påverkas av tyngdaccelerationen.</text></svg>';
+
+  const interferensFigur='<svg class="dg" viewBox="0 0 620 250" role="img" aria-label="Två ljudvägar till en punkt där vågtoppar anländer samtidigt">'
+    +'<circle class="dg-rut" cx="75" cy="75" r="25"/><circle class="dg-rut" cx="75" cy="180" r="25"/><text class="dg-txt" x="64" y="81">S₁</text><text class="dg-txt" x="64" y="186">S₂</text><circle class="dg-vald" cx="545" cy="126" r="8"/><text class="dg-txt" x="560" y="132">P</text>'
+    +'<path class="dg-linje" d="M100 75 L537 124"/><path class="dg-spegel" d="M100 180 L537 128"/><path class="dg-buk" d="M285 96 q10 -14 20 0 t20 0 t20 0 t20 0"/><path class="dg-buk" d="M285 157 q10 -14 20 0 t20 0 t20 0 t20 0"/>'
+    +'<text class="dg-avl" x="288" y="76">s₁ = 4,20 m</text><text class="dg-avl" x="288" y="190">s₂ = 4,70 m</text><line class="dg-delta" x1="430" y1="76" x2="485" y2="76"/><text class="dg-txt" x="419" y="59">Δs = λ</text><text class="dg-not" x="115" y="230">Vägskillnaden är en hel våglängd → vågorna förstärker varandra i P.</text></svg>';
+
+  const rakLedareFigur='<svg class="dg" viewBox="0 0 430 230" role="img" aria-label="Ström ut ur skärmen ger ett moturs magnetfält">'
+    +'<circle class="dg-rut" cx="215" cy="112" r="76"/><circle class="dg-rut" cx="215" cy="112" r="45"/><circle class="dg-vald" cx="215" cy="112" r="20"/><circle class="dg-etikett" cx="215" cy="112" r="5"/>'
+    +'<path class="dg-linje" d="M215 36 A76 76 0 0 0 142 91"/><path class="dg-spets1" d="M139 101l0-16 14 8z"/><path class="dg-linje" d="M215 67 A45 45 0 0 0 172 97"/><path class="dg-spets1" d="M170 106l0-15 13 8z"/><text class="dg-txt" x="238" y="118">I ut</text><text class="dg-txt" x="95" y="62">B moturs</text><text class="dg-not" x="88" y="210">Punkten är pilspetsen: strömmen kommer mot dig.</text></svg>';
+
+  const ledareKraftFigur='<svg class="dg" viewBox="0 0 500 230" role="img" aria-label="Ström åt höger och magnetfält in i skärmen ger kraft uppåt">'
+    +'<g class="dg-txt" font-size="22"><text x="75" y="58">×</text><text x="175" y="58">×</text><text x="275" y="58">×</text><text x="375" y="58">×</text><text x="75" y="178">×</text><text x="175" y="178">×</text><text x="275" y="178">×</text><text x="375" y="178">×</text></g>'
+    +'<line class="dg-form" x1="70" y1="118" x2="410" y2="118"/><line class="dg-vek1" x1="140" y1="118" x2="320" y2="118"/><path class="dg-spets1" d="M333 118l-16-8v16z"/><line class="dg-vek3" x1="240" y1="108" x2="240" y2="50"/><path class="dg-spets3" d="M240 38l-8 16h16z"/><text class="dg-txt" x="335" y="124">I</text><text class="dg-txt" x="251" y="48">F</text><text class="dg-not" x="94" y="215">× betyder att magnetfältet B går in i skärmen.</text></svg>';
+
+  const partikelFigur='<svg class="dg" viewBox="0 0 500 230" role="img" aria-label="En positiv laddning rör sig åt höger i ett magnetfält in i skärmen och får kraft uppåt">'
+    +'<g class="dg-txt" font-size="22"><text x="70" y="55">×</text><text x="170" y="55">×</text><text x="270" y="55">×</text><text x="370" y="55">×</text><text x="70" y="180">×</text><text x="170" y="180">×</text><text x="270" y="180">×</text><text x="370" y="180">×</text></g>'
+    +'<circle class="dg-vald" cx="165" cy="120" r="15"/><text class="dg-etikett" x="160" y="126">+</text><line class="dg-vek1" x1="185" y1="120" x2="345" y2="120"/><path class="dg-spets1" d="M358 120l-16-8v16z"/><line class="dg-vek3" x1="165" y1="100" x2="165" y2="48"/><path class="dg-spets3" d="M165 36l-8 16h16z"/><text class="dg-txt" x="365" y="126">v</text><text class="dg-txt" x="178" y="47">F</text><text class="dg-not" x="76" y="215">För en negativ laddning blir kraftens riktning den motsatta.</text></svg>';
+
+  const spoleFigur='<svg class="dg" viewBox="0 0 620 250" role="img" aria-label="Spole med strömriktning, nordpol och magnetfält">'
+    +'<path class="dg-linje" d="M175 60 C135 60 135 190 175 190 M210 60 C170 60 170 190 210 190 M245 60 C205 60 205 190 245 190 M280 60 C240 60 240 190 280 190 M315 60 C275 60 275 190 315 190 M350 60 C310 60 310 190 350 190 M385 60 C345 60 345 190 385 190 M420 60 C380 60 380 190 420 190 M455 60 C415 60 415 190 455 190"/>'
+    +'<line class="dg-vek1" x1="175" y1="125" x2="460" y2="125"/><path class="dg-spets1" d="M473 125l-16-8v16z"/><text class="dg-rubrik" x="120" y="131">S</text><text class="dg-rubrik" x="488" y="131">N</text><text class="dg-txt" x="292" y="111">B</text>'
+    +'<path class="dg-vek3" d="M150 186 C120 150 120 100 150 64"/><path class="dg-spets3" d="M155 55l-15 7 13 9z"/><text class="dg-txt" x="85" y="126">I</text><text class="dg-not" x="112" y="226">Fingrarna följer strömmen runt varven; tummen pekar mot nordpolen.</text></svg>';
+
+  const energinivaFigur='<svg class="dg" viewBox="0 0 560 270" role="img" aria-label="Elektron faller från minus 1,5 till minus 3,4 elektronvolt och avger en foton">'
+    +'<line class="dg-form" x1="105" y1="58" x2="375" y2="58"/><line class="dg-form" x1="105" y1="184" x2="375" y2="184"/><text class="dg-txt" x="28" y="64">−1,5 eV</text><text class="dg-txt" x="28" y="190">−3,4 eV</text><circle class="dg-vald" cx="220" cy="58" r="8"/>'
+    +'<line class="dg-vek3" x1="220" y1="70" x2="220" y2="165"/><path class="dg-spets3" d="M220 178l-8-16h16z"/><text class="dg-txt" x="235" y="124">elektronen faller</text><path class="dg-linje" d="M240 82 q12 -18 24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0"/><path class="dg-spets1" d="M466 82l-16-8v16z"/><text class="dg-avl" x="330" y="57">foton: Eγ = 1,9 eV</text><text class="dg-not" x="105" y="238">Skillnaden mellan nivåerna lämnar atomen som en foton.</text></svg>';
+
+  const kast=hitta("Dela upp en kaströrelse");
+  kast.figur=kastFigur;
+
+  const oppen=hitta("Grundton och övertoner i en öppen pipa");
+  oppen.figur=oppenPipaFigur;
+  oppen.ram="I en öppen pipa finns en rörelsebuk vid båda ändarna. Alla heltalsmultiplar är möjliga: \\(f_n=nv/(2L)\\), där \\(n=1,2,3,\\ldots\\). Staplarna i bilden visar luftens rörelseamplitud, inte rörets form.";
+
+  const halvoppen=hitta("Grundton och övertoner i en stängd pipa");
+  halvoppen.rubrik="Grundton och övertoner i en halvöppen pipa";
+  halvoppen.t="<p>En halvöppen pipa är stängd i ena änden, öppen i den andra och 0,425 m lång. Bestäm den lägsta resonansfrekvensen när ljudhastigheten är 340 m/s.</p>";
+  halvoppen.ram="I en halvöppen pipa finns en rörelsenod vid den stängda änden och en rörelsebuk vid den öppna. Bara udda multiplar förekommer: \\(f_1,f_3,f_5,\\ldots\\).";
+  halvoppen.steg[0].rubrik="Identifiera en halvöppen pipa";
+  halvoppen.steg[0].text="En stängd och en öppen ände ger en fjärdedels våglängd i grundtonen: \\(L=\\lambda/4\\).";
+  halvoppen.komihag="Halvöppen pipa: stängd ände = rörelsenod, öppen ände = rörelsebuk. Nästa resonans efter \\(f_1\\) är \\(f_3\\), inte \\(f_2\\).";
+  halvoppen.formel="\\[f_n=(2n-1)\\frac{v}{4L}\\]";
+  halvoppen.figur=halvoppenPipaFigur;
+
+  const stangd={
+    kap:2,omr:"ljudvagor",rubrik:"Grundton och övertoner i en stängd pipa",niva:"E",
+    t:"<p>En pipa som är stängd i båda ändarna är 0,60 m lång. Ljudhastigheten är 340 m/s. Bestäm grundtonens frekvens.</p>",
+    ram:"I en pipa som är stängd i båda ändarna finns en rörelsenod vid varje ände. Mellan ändarna ryms en halv våglängd i grundtonen. Därför gäller \\(f_n=nv/(2L)\\).",
+    formel:"\\[f_n=n\\frac{v}{2L}\\]",figur:stangdPipaFigur,
+    steg:[
+      {rubrik:"Koppla längd till våglängd",text:"Grundtonen har en nod i varje ände och en buk i mitten. Då ryms en halv våglängd i pipan.",matte:"\\[L=\\frac{\\lambda}{2}\\Rightarrow\\lambda=2L=1{,}20\\ \\mathrm m\\]"},
+      {rubrik:"Beräkna frekvensen",text:"Använd vågsambandet \\(v=f\\lambda\\).",matte:"\\[f_1=\\frac v\\lambda=\\frac{340}{1{,}20}=283\\ \\mathrm{Hz}\\]"}
+    ],
+    svar:"Grundtonens frekvens är ungefär \\(283\\ \\mathrm{Hz}\\).",
+    komihag:"Öppen i båda ändarna och stängd i båda ändarna har samma frekvensformel, men bukar och noder sitter på olika platser.",
+    traningsfamilj:"Stående ljudvågor i strängar och rör"
+  };
+
+  const interferens=hitta("Avgör konstruktiv interferens");
+  interferens.figur=interferensFigur;
+  interferens.ram="När två källor svänger i fas blir interferensen konstruktiv om vägskillnaden är en hel våglängd: \\(\\Delta s=n\\lambda\\). Bilden visar fallet \\(\\Delta s=\\lambda\\), så topp möter topp i punkten P.";
+
+  const rak=hitta("Riktning kring en rak ledare");
+  rak.figur=rakLedareFigur;
+  const ledare=hitta("Riktning på kraften på en ledare");
+  ledare.figur=ledareKraftFigur;
+  const spolfalt=hitta("Magnetfält i en lång spole");
+  spolfalt.ram="I en lång spole är fältet ungefär homogent långt från ändarna. Med \\(N\\) varv och spollängden \\(l\\) gäller \\(B=\\mu_0(N/l)I\\).";
+  spolfalt.formel="\\[B=\\mu_0\\frac{N}{l}I\\]";
+  spolfalt.figur=spoleFigur;
+  const spolpol=hitta("Bestäm en spoles nordpol");
+  spolpol.figur=spoleFigur;
+
+  const partikel=hitta("Riktning för en laddad partikel");
+  partikel.ram="För en positiv laddning: låt höger tumme peka i hastighetens riktning och vrid handen så att fingrarna pekar i magnetfältets riktning. Kraften pekar då ut ur handflatan. För en negativ laddning blir kraften motsatt.";
+  partikel.steg=[
+    {rubrik:"Rikta tummen längs hastigheten",text:"Protonen är positiv. Låt höger tumme peka åt höger, samma väg som hastigheten.",matte:"\\[\\vec v:\\rightarrow\\]"},
+    {rubrik:"Rikta fingrarna längs magnetfältet",text:"Vrid handen så att de utsträckta fingrarna pekar in i skärmen. Kryssen visar ett fält som går bort från dig.",matte:"\\[\\vec B:\\otimes\\]"},
+    {rubrik:"Läs av handflatan",text:"Kraften pekar ut ur handflatan, alltså uppåt i bilden.",matte:"\\[\\vec F:\\uparrow\\]"}
+  ];
+  partikel.svar="Magnetkraften på protonen verkar uppåt.";
+  partikel.komihag="Tumme = hastighet, fingrar = magnetfält, kraft = ut ur handflatan. Regeln ger riktningen för en positiv laddning; för en negativ laddning vänder du svaret.";
+  partikel.figur=partikelFigur;
+
+  const induktion=hitta("Beräkna inducerad spänning");
+  induktion.t="<p>Magnetflödet genom en spole med \\(N=200\\) varv minskar jämnt från \\(0{,}012\\ \\mathrm{Wb}\\) till 0 på 0,30 s. Beräkna den inducerade spänningen \\(U_e\\).</p>";
+  induktion.ram="Faradays lag är \\(U_e=-N\\Delta\\Phi/\\Delta t\\). Minustecknet uttrycker Lenz lag: den inducerade spänningen motverkar förändringen av magnetflödet.";
+  induktion.steg=[
+    {rubrik:"Beräkna flödesändringen",text:"Ändring är slutvärde minus startvärde.",matte:"\\[\\Delta\\Phi=0-0{,}012=-0{,}012\\ \\mathrm{Wb}\\]"},
+    {rubrik:"Använd Faradays lag",text:"Det negativa flödesändringen gör att spänningen blir positiv i den valda referensriktningen.",matte:"\\[U_e=-N\\frac{\\Delta\\Phi}{\\Delta t}=-200\\frac{-0{,}012}{0{,}30}=8{,}0\\ \\mathrm V\\]"}
+  ];
+  induktion.svar="Den inducerade spänningen är \\(U_e=8{,}0\\ \\mathrm V\\) i den valda positiva riktningen.";
+  induktion.komihag="Beräkna först \\(\\Delta\\Phi=\\Phi_{slut}-\\Phi_{start}\\). Minustecknet i Faradays lag hör ihop med Lenz lag.";
+  induktion.formel="\\[U_e=-N\\frac{\\Delta\\Phi}{\\Delta t}\\]";
+
+  const emission=hitta("Emissionslinje från en atom");
+  emission.figur=energinivaFigur;
+  emission.ram="När en elektron går från en högre till en lägre energinivå avges en foton. Fotonens energi är nivåskillnaden: \\(E_\\gamma=E_{hög}-E_{låg}\\).";
+
+  /* Lägg det nya stängda-pipa-kortet direkt efter det halvöppna. */
+  const poster=[];
+  Object.entries(bank).forEach(([nyckel,kort])=>{
+    poster.push([nyckel,kort]);
+    if(kort===halvoppen) poster.push(["fy2-grund-extra-stangd-pipa",stangd]);
+  });
+  window.TYPUPPGIFTER_FY2=Object.fromEntries(poster);
+})();

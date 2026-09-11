@@ -2104,3 +2104,75 @@ window.TYPUPPGIFTER_FY1 = {
     if(formler[g.rubrik]) g.formel=formler[g.rubrik];
   });
 })();
+
+/* Slutlig ämnesdidaktisk justering av Fysik 1. */
+(() => {
+  const bank=window.TYPUPPGIFTER_FY1;
+  const hitta=rubrik=>Object.values(bank).find(g=>g.rubrik===rubrik);
+
+  delete bank["fy1-grund-3-09"]; /* Reaktionssträcka */
+  delete bank["fy1-grund-4-09"]; /* Vilofriktion */
+
+  const medel=hitta("Medelfart");
+  medel.ram="Medelfarten är den totala sträckan delad med hela restiden. Även pauser räknas in i tiden.";
+  medel.komihag="Medelfart använder sträcka. Medelhastighet använder förflyttning och har riktning. Vid rörelse åt ett håll längs en rak linje har de samma belopp.";
+
+  const resultant=hitta("Resulterande kraft");
+  delete resultant.formel;
+
+  const friktion=hitta("Glidfriktion");
+  friktion.formel="\\[F_f=\\mu F_N\\]";
+  friktion.ram="Glidfriktion motverkar glidningen mellan två ytor. I den enkla modellen \\(F_f=\\mu F_N\\) är \\(F_N\\) normalkraften.";
+
+  const tyngdpunkt=hitta("Tyngdpunkt och stabilitet");
+  tyngdpunkt.figur='<svg class="dg" viewBox="0 0 560 245" role="img" aria-label="En bred låda är stabil medan en lutad låda välter när tyngdpunktens lodlinje hamnar utanför stödytan">'
+    +'<line class="dg-form" x1="25" y1="205" x2="535" y2="205"/>'
+    +'<rect class="dg-rut" x="65" y="105" width="180" height="100" rx="4"/><circle class="dg-vald" cx="155" cy="155" r="7"/>'
+    +'<line class="dg-hjalp" x1="155" y1="155" x2="155" y2="205"/><line class="dg-vek3" x1="155" y1="155" x2="155" y2="191"/><path class="dg-spets3" d="M155 201l-7-14h14z"/>'
+    +'<line class="dg-delta" x1="65" y1="219" x2="245" y2="219"/><text class="dg-txt" x="112" y="239">lodlinjen inom stödytan</text>'
+    +'<g transform="rotate(27 415 205)"><rect class="dg-rut" x="365" y="65" width="100" height="140" rx="4"/><circle class="dg-vald" cx="415" cy="135" r="7"/></g>'
+    +'<line class="dg-hjalp" x1="383" y1="142" x2="383" y2="205"/><line class="dg-vek3" x1="383" y1="142" x2="383" y2="191"/><path class="dg-spets3" d="M383 201l-7-14h14z"/>'
+    +'<line class="dg-delta" x1="402" y1="219" x2="465" y2="219"/><text class="dg-txt" x="351" y="239">lodlinjen utanför stödytan</text>'
+    +'<text class="dg-avl" x="165" y="150">tyngdpunkt</text><text class="dg-avl" x="426" y="128">tyngdpunkt</text></svg>';
+
+  const arbete=hitta("Mekaniskt arbete");
+  arbete.t="<p>Du drar en vagn 4,0 m med kraften 50 N. Kraften är riktad 30° uppåt från rörelseriktningen. Hur stort arbete utför dragkraften?</p>";
+  arbete.ram="Bara den del av kraften som är parallell med sträckan utför arbete. Dela därför först upp kraften och använd sedan \\(W=F_s s\\).";
+  arbete.steg=[
+    {rubrik:"Bestäm den parallella kraftkomposanten",text:"Vinkeln mäts från rörelseriktningen. Den parallella komponenten är därför den närliggande kateten.",
+      matte:"\\[F_s=F\\cos30^\\circ=50\\cos30^\\circ=43{,}3\\ \\mathrm N\\]"},
+    {rubrik:"Beräkna arbetet",text:"Multiplicera den parallella kraftkomposanten med sträckan.",
+      matte:"\\[W=F_s s=43{,}3\\cdot4{,}0=173\\ \\mathrm J\\]"}
+  ];
+  arbete.svar="Dragkraften utför arbetet \\(173\\ \\mathrm J\\), ungefär \\(170\\ \\mathrm J\\).";
+  arbete.komihag="En kraftkomposant vinkelrät mot rörelsen utför inget arbete. Det är den parallella komponenten \\(F_s\\) som ska multipliceras med sträckan.";
+  arbete.formel="\\[F_s=F\\cos\\alpha,\\qquad W=F_s s\\]";
+
+  const tryck=hitta("Totalt tryck under vatten");
+  tryck.t="<p>Det normala lufttrycket är \\(p_0=101{,}3\\ \\mathrm{kPa}\\). På ett visst djup är vätsketrycket 30 kPa. Vilket är det totala trycket?</p>";
+  tryck.ram="Under en öppen vattenyta består det totala trycket av lufttrycket \\(p_0\\) och vätsketrycket \\(\\rho gh\\). Normalt lufttryck är \\(p_0=101{,}3\\ \\mathrm{kPa}\\).";
+  tryck.steg=[
+    {rubrik:"Identifiera de två bidragen",text:"Lufttrycket finns redan vid vattenytan. Vattnet ger ytterligare 30 kPa på djupet.",
+      matte:"\\[p_0=101{,}3\\ \\mathrm{kPa},\\qquad p_{vätska}=30\\ \\mathrm{kPa}\\]"},
+    {rubrik:"Addera trycken",text:"Båda värdena har samma enhet.",
+      matte:"\\[p_{tot}=p_0+p_{vätska}=101{,}3+30=131{,}3\\ \\mathrm{kPa}\\]"}
+  ];
+  tryck.svar="Det totala trycket är \\(131{,}3\\ \\mathrm{kPa}\\), ungefär \\(131\\ \\mathrm{kPa}\\).";
+  tryck.komihag="Under en öppen vätskeyta gäller \\(p_{tot}=p_0+\\rho gh\\), där \\(p_0\\) är lufttrycket vid ytan.";
+  tryck.formel="\\[p_{tot}=p_0+\\rho gh,\\qquad p_0=101{,}3\\ \\mathrm{kPa}\\]";
+
+  const elektroner=hitta("Antal elektroner och laddning");
+  elektroner.ram="I \\(Q=Ne\\) betyder \\(N\\) antalet elektroner och \\(e=1{,}60\\cdot10^{-19}\\ \\mathrm C\\) elementarladdningens belopp. Ett överskott av elektroner ger negativ laddning.";
+  elektroner.steg[1].text="Här är \\(N=1{,}0\\cdot10^{10}\\), alltså antalet extra elektroner. Minustecknet behövs eftersom elektroner är negativt laddade.";
+  elektroner.komihag="\\(N\\) är alltid ett antal och saknar enhet. Använd \\(|Q|=Ne\\) för beloppet och bestäm sedan tecknet utifrån om elektroner har tillkommit eller försvunnit.";
+
+  const coulomb=hitta("Elektrisk kraft mellan laddningar");
+  coulomb.steg[1].matte="\\[F=k\\frac{Q_1Q_2}{r^2}=8{,}99\\cdot10^9\\frac{(1{,}0\\cdot10^{-6})^2}{0{,}30^2}\\approx0{,}10\\ \\mathrm N\\]";
+  coulomb.formel="\\[F=k\\frac{Q_1Q_2}{r^2}\\]";
+
+  const effekt=hitta("Elektrisk effekt");
+  effekt.ram="Elektrisk effekt kan beräknas på tre likvärdiga sätt: \\(P=UI\\), \\(P=RI^2\\) och \\(P=U^2/R\\). Välj den variant som passar de givna storheterna.";
+  effekt.steg[0].text="Både spänning och ström är givna, så här passar \\(P=UI\\).";
+  effekt.komihag="Använd \\(P=UI\\) när spänning och ström är kända, \\(P=RI^2\\) när resistans och ström är kända och \\(P=U^2/R\\) när spänning och resistans är kända.";
+  effekt.formel="\\[P=UI=RI^2=\\frac{U^2}{R}\\]";
+})();

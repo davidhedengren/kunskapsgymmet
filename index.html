@@ -439,6 +439,7 @@ a{color:inherit}
   box-shadow:inset 0 1px 0 var(--specular);
 }
 .toppnotis.pa{border-color:var(--gold2);background:var(--goldSoft)}
+.toppnotis.fusk{border-color:var(--bad);background:var(--badSoft)}
 .toppnotis b{font-size:14px;letter-spacing:-.025em;flex:none}
 .toppnotis span{flex:1;min-width:180px;font-size:12.5px;color:var(--ink3);
   font-family:var(--read);letter-spacing:0;line-height:1.45}
@@ -494,6 +495,12 @@ a{color:inherit}
 .topprad.jag .tnamn b:after{content:"du";
   margin-left:7px;padding:2px 6px;border-radius:6px;font-size:10px;font-weight:700;
   background:var(--acc);color:#fff;letter-spacing:0;vertical-align:2px}
+.topprad.fuskrad .tnamn b{color:var(--bad)}
+.topprad.fuskrad .tnamn small{color:var(--bad);opacity:.85;
+  white-space:normal;line-height:1.4}
+.topprad.fuskrad .plats{color:var(--bad)}
+.topprad.fuskrad.jag{background:var(--badSoft)}
+.topprad.fuskrad.jag .tnamn b:after{background:var(--bad)}
 .toppladdar{padding:26px 6px;text-align:center;font-size:13.5px;color:var(--ink3)}
 .toppfot{margin:14px 0 0;font-size:12px;color:var(--ink3);
   font-family:var(--read);letter-spacing:0}
@@ -6909,6 +6916,8 @@ function oppnaTopplista(sortering,record){
 function ritaTopplista(laddar,svar){
   const s=TOPP_FLIKAR[state.toppSort]?state.toppSort:"dag";
   const rader=svar?.rader, placering=svar?.plats;
+  const fuskare=Array.isArray(svar?.fuskare)?svar.fuskare:[];
+  const jagFuskare=!!(profile.namn && fuskare.some(f=>f.namn===profile.namn));
   const flik=id=>`<button class="fliknapp${s===id?" pa":""}" role="tab"
     aria-selected="${s===id?"true":"false"}"
     onclick="oppnaTopplista('${id}',false)">${TOPP_FLIKAR[id].txt}</button>`;
@@ -6931,6 +6940,11 @@ function ritaTopplista(laddar,svar){
            <span>Du tränar som vanligt, men ingen annan ser dig här. Du kan slå på och av det när du vill.</span>
            <button class="btn sm primary" onclick="snabbVisa(true)">Visa mig på listan</button>
          </div>`
+      : jagFuskare
+      ? `<div class="toppnotis fusk">
+           <b>Du tävlar inte just nu.</b>
+           <span>Din profil har markerats för misstänkt fusk, så din XP räknas inte på topplistan. Tror du att det är fel? Prata med din lärare.</span>
+         </div>`
       : `<div class="toppnotis pa">
            <b>Du syns som ${esc(profile.namn)}${placering?` · plats ${placering}`:""}.</b>
            <span>Andra ser ditt namn, din nivå, dina medaljer och hur mycket du tränat.</span>
@@ -6944,7 +6958,7 @@ function ritaTopplista(laddar,svar){
     lista=`<div class="empty">Den här listan är inte aktiverad än. Prova fliken All time high så länge.</div>`;
   }else if(!rader){
     lista=`<div class="empty">Kunde inte hämta topplistan just nu. Försök igen om en stund.</div>`;
-  }else if(!rader.length){
+  }else if(!rader.length && !fuskare.length){
     lista = s==="alla"
       ? `<div class="empty">Ingen har ställt sig på listan än.${session?" Du kan bli först.":" Logga in så kan du bli först."}</div>`
       : `<div class="empty">Ingen har samlat XP ${{dag:"idag",vecka:"den här veckan",manad:"den här månaden"}[s]} än.${session?" Du kan bli först.":""}</div>`;
@@ -6969,6 +6983,15 @@ function ritaTopplista(laddar,svar){
         <span class="tmedaljer">${visade}${medaljer.length>5?`<span class="tfler">+${medaljer.length-5}</span>`:""}</span>
         <span class="tuppg" title="Uppgifter">${uppg}<small>uppg.</small></span>
         <span class="tvarde" title="XP">${xp}<small>XP</small></span>
+      </li>`;
+    }).join("")}${fuskare.map(rad=>{
+      const jag = profile.namn && rad.namn===profile.namn;
+      return `<li class="topprad fuskrad${jag?" jag":""}">
+        <span class="plats" aria-hidden="true">–</span>
+        <span class="tnamn">
+          <b>${esc(rad.namn||"")}</b>
+          <small>Användaren har försökt fuska sig till en högre plats på topplistan 🧐</small>
+        </span>
       </li>`;
     }).join("")}</ol>
     <p class="toppfot">${TOPP_FLIKAR[s].fot}, sorterat på XP. Varje medalj ger ${MEDALJ_XP} XP. Bara de som själva valt att synas står med.</p>`;

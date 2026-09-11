@@ -1304,6 +1304,17 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .result .txt{flex:1}
 .result strong{display:block;font-size:15px}
 .result small{display:block;margin-top:2px;opacity:.85;font-size:13px}
+.gg-forslag{
+  margin-top:12px;padding:14px 15px;border-radius:16px;
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  background:var(--accSoft);border:1px solid color-mix(in srgb,var(--acc) 34%,var(--hair));
+  color:var(--ink);font-family:var(--read);animation:rise .35s var(--ease) both
+}
+.gg-forslag > svg{width:23px;height:23px;flex:none;color:var(--accInk)}
+.gg-forslag-text{flex:1;min-width:210px}
+.gg-forslag-text strong{display:block;font-size:14.5px}
+.gg-forslag-text small{display:block;margin-top:3px;color:var(--ink2);font-size:13px;line-height:1.4}
+.gg-forslag-knappar{display:flex;gap:7px;flex-wrap:wrap}
 .xpchip{
   font-size:12.5px;font-weight:700;padding:6px 11px;border-radius:99px;
   background:linear-gradient(160deg,#f3d99f,#c99b3b);color:#402f08;white-space:nowrap;
@@ -1510,11 +1521,20 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .dg-vek1{fill:none;stroke:var(--acc);stroke-width:3}.dg-spets1{fill:var(--acc)}
 .dg-vek2{fill:none;stroke:var(--good);stroke-width:3}.dg-spets2{fill:var(--good)}
 .dg-vek3{fill:none;stroke:var(--gold);stroke-width:3}.dg-spets3{fill:var(--gold)}
+.dg-sp2{fill:var(--good)}
 .dg-e1{fill:var(--acc)}.dg-e2{fill:var(--good)}.dg-e3{fill:var(--gold)}
+.dg-nod{fill:var(--gold);stroke:var(--surface);stroke-width:1.5}
 .gg-figur{margin-top:10px;padding:8px;border-radius:14px;background:var(--surface);border:1px solid var(--hair)}
 
 .gg-ram{margin:11px 0 0;font-family:var(--read);font-size:14px;line-height:1.65;color:var(--ink2)}
 .gg-ram em{color:var(--ink);font-style:normal;font-weight:600}
+.gg-huvudformel{
+  margin:12px 0 0;padding:10px 14px;border-radius:13px;
+  background:color-mix(in srgb,var(--acc) 8%,var(--surface));
+  border:1px solid color-mix(in srgb,var(--acc) 28%,var(--hair));
+  color:var(--ink)
+}
+.gg-huvudformel .katex-display{margin:0;overflow-x:auto;overflow-y:hidden}
 
 .gg-lista{list-style:none;margin:0;padding:0;counter-reset:none}
 .gg-steg{display:flex;gap:12px;align-items:flex-start}
@@ -2118,7 +2138,7 @@ const state={
   flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
   toppSort:"xp",
-  lastIds:[], solutionShown:false, answered:false
+  lastIds:[], solutionShown:false, answered:false, ggForslag:null
 };
 
 const loadedScripts=new Set();
@@ -2355,6 +2375,7 @@ function loadProfileFrom(p){
      för sig. */
   p.genomgangar ||= {}; p.ggKapKlara ||= {};
   p.ggTranat ||= 0;
+  p.ggForslagVisade ||= {};
   aterstallGenomgangsmedaljer(p);
   return p;
 }
@@ -2766,7 +2787,7 @@ const FYSIK_FORMELSAMLING={
     "9":[["Alfasönderfall","\\({}^{A}_{Z}X\\rightarrow{}^{A-4}_{Z-2}Y+{}^{4}_{2}\\mathrm{He}\\)"],["Beta-minus","\\({}^{A}_{Z}X\\rightarrow{}^{A}_{Z+1}Y+{}^{0}_{-1}e+\\bar\\nu_e\\)"],["Beta-plus","\\({}^{A}_{Z}X\\rightarrow{}^{A}_{Z-1}Y+{}^{0}_{+1}e+\\nu_e\\)"],["Massdefekt","\\(\\Delta m=m_{\\text{före}}-m_{\\text{efter}}\\)"],["Halveringstid","\\(A=A_0\\left(\\frac12\\right)^{t/T_{1/2}}\\)"],["Absorberad dos","\\(D=\\frac{E}{m}\\)"],["Ekvivalent dos","\\(H=w_R D\\)"],["Mass–energi","\\(E=\\Delta mc^2\\)"],["Elektromagnetisk våg","\\(c=f\\lambda\\)"],["Fotonenergi","\\(E=hf\\)"]]
   },
   fy2:{
-    "1":[["Centripetalacceleration","\\(a_c=\\frac{v^2}{r}=\\omega^2r\\)"],["Centripetalkraft","\\(F_c=\\frac{mv^2}{r}\\)"],["Fart i cirkel","\\(v=\\frac{2\\pi r}{T}\\)"],["Kaströrelse vågrätt","\\(x=v_{0x}t\\)"],["Kaströrelse lodrätt","\\(y=v_{0y}t-\\frac{gt^2}{2}\\)"]],
+    "1":[["Centripetalacceleration","\\(a_c=\\frac{v^2}{r}=\\omega^2r\\)"],["Centripetalkraft","\\(F_c=\\frac{mv^2}{r}\\)"],["Fart i cirkel","\\(v=\\frac{2\\pi r}{T}\\)"],["Hastighetskomponenter","\\(v_{0x}=v_0\\cos\\alpha,\\quad v_{0y}=v_0\\sin\\alpha\\)"],["Kaströrelse vågrätt","\\(x=v_{0x}t\\)"],["Kaströrelse lodrätt","\\(y=v_{0y}t-\\frac{gt^2}{2}\\)"]],
     "2":[["Hookes lag","\\(F=-kx\\)"],["Fjäderenergi","\\(E=\\frac{kx^2}{2}\\)"],["Frekvens och period","\\(f=\\frac1T\\)"],["Fjäderpendel","\\(T=2\\pi\\sqrt{\\frac{m}{k}}\\)"],["Matematisk pendel","\\(T=2\\pi\\sqrt{\\frac{l}{g}}\\)"],["Vågfart","\\(v=f\\lambda\\)"],["Sträng eller öppen pipa","\\(f_n=\\frac{nv}{2L}\\)"],["Stängd pipa","\\(f_n=\\frac{(2n-1)v}{4L}\\)"],["Ljudnivå","\\(L=10\\log\\frac{I}{I_0}\\)"]],
     "3":[["Elektrisk kraft","\\(F=qE\\)"],["Homogent fält","\\(E=\\frac{U}{d}\\)"],["Kapacitans","\\(C=\\frac{Q}{U}\\)"],["Kondensatorenergi","\\(W=\\frac{CU^2}{2}\\)"],["Rak ledare","\\(B=\\frac{\\mu_0I}{2\\pi r}\\)"],["Spole","\\(B=\\mu_0\\frac{NI}{l}\\)"],["Kraft på ledare","\\(F=BIl\\sin\\alpha\\)"],["Kraft på laddning","\\(F=qvB\\sin\\alpha\\)"],["Magnetiskt flöde","\\(\\Phi=BA\\cos\\alpha\\)"],["Induktion","\\(\\varepsilon=-N\\frac{\\Delta\\Phi}{\\Delta t}\\)"],["Effektivvärde","\\(U_{eff}=\\frac{U_{max}}{\\sqrt2}\\)"],["Transformator","\\(\\frac{U_s}{U_p}=\\frac{N_s}{N_p}\\)"],["LC-resonans","\\(f_0=\\frac{1}{2\\pi\\sqrt{LC}}\\)"]],
     "4":[["Vågsambandet","\\(c=f\\lambda\\)"],["Gitter","\\(d\\sin\\theta=n\\lambda\\)"],["Wiens lag","\\(\\lambda_{max}T=b\\)"],["Stefan–Boltzmann","\\(P=\\sigma AT^4\\)"],["Snells lag","\\(n_1\\sin\\alpha=n_2\\sin\\beta\\)"],["Fotonenergi","\\(E=hf=\\frac{hc}{\\lambda}\\)"],["Bana i magnetfält","\\(r=\\frac{mv}{qB}\\)"],["Fotoelektrisk effekt","\\(hf=W+E_{k,max}\\)"],["Stoppspänning","\\(eU_s=E_{k,max}\\)"]],
@@ -2895,13 +2916,14 @@ function harKunskapKort(kort){
     && (g.t || g.uppgift));
 }
 
-function oppnaKunskap(kap,kortNyckel=null){
+function oppnaKunskap(kap,kortNyckel=null,familj=null){
   stangKunskap();
   const steg=kunskapSteg(kap,kortNyckel);
   if(!steg.length) return;
+  const startIndex=familj ? steg.findIndex(s=>String(s.familj)===String(familj)) : 0;
   const valtKort=kortNyckel ? getCards().find(k=>String(k.key)===String(kortNyckel)) : null;
   const rubrik=valtKort?.name || chapterName(kap);
-  state.kunskap={kap:String(kap),kortNyckel:kortNyckel||null,steg,i:0,course:state.course,track:state.track,
+  state.kunskap={kap:String(kap),kortNyckel:kortNyckel||null,steg,i:Math.max(0,startIndex),course:state.course,track:state.track,
     view:state.view,owner:ggAgare(),rubrik};
   const el=document.createElement("div");
   el.className="modal"; el.id="kunskapsruta";
@@ -3061,6 +3083,7 @@ function ritaKunskap(){
     <div class="typ-omr">${esc(s.omrNamn)}</div>
     <h3 class="typ-familj">${esc(g.rubrik||familyName(s.familj))}</h3>
     ${g.ram?`<p class="gg-ram">${g.ram}</p>`:""}
+    ${g.formel?`<div class="gg-huvudformel" aria-label="Viktig formel">${g.formel}</div>`:""}
     ${fysikFormlerHTML(k.kap)}
 
     ${s.uppgift?`<div class="typ-block fraga">
@@ -6400,6 +6423,43 @@ function seriefaktor(run){
 
 function seriebonus(run){ return Math.round((seriefaktor(run)-1)*100); }
 
+/* Efter återkommande fel kan eleven få en enda relevant väg vidare. Förslaget
+   visas aldrig efter ett enstaka misstag och samma område har 48 timmars paus. */
+function hittaGenomgangForslag(t,cp){
+  if(!t?.omr || !cp?.history?.length) return null;
+  const nu=Date.now(), tvaVeckor=14*24*60*60*1000;
+  const senaste=cp.history.filter(h=>h.area===t.omr && nu-(h.at||0)<tvaVeckor).slice(-4);
+  if(senaste.length<2 || senaste.filter(h=>!h.ok).length<2) return null;
+
+  const kort=getCards().find(k=>k.omr.includes(t.omr) && harKunskapKort(k));
+  if(!kort) return null;
+  const steg=kunskapSteg(kort.kap,kort.key);
+  if(!steg.length) return null;
+
+  const familjer=(Array.isArray(t.familj)?t.familj:[t.familj]).filter(Boolean);
+  const relevant=steg.find(s=>s.traningsfamilj && familjer.includes(s.traningsfamilj));
+  const mal=relevant || steg.find(s=>!ggLast(s.familj)) || steg[0];
+  if(!mal) return null;
+
+  const nyckel=[state.course,state.track||"",t.omr].join("|");
+  const senastVisad=profile.ggForslagVisade?.[nyckel]||0;
+  if(nu-senastVisad<48*60*60*1000) return null;
+  profile.ggForslagVisade ||= {};
+  profile.ggForslagVisade[nyckel]=nu;
+  return {kap:String(kort.kap),kortNyckel:kort.key,familj:mal.familj,
+    omrade:kort.name,rubrik:mal.genomgang?.rubrik||"genomgången"};
+}
+function oppnaForeslagenGenomgang(){
+  const f=state.ggForslag;
+  if(!f) return;
+  state.ggForslag=null;
+  oppnaKunskap(f.kap,f.kortNyckel,f.familj);
+}
+function avvisaGenomgangForslag(){
+  state.ggForslag=null;
+  document.getElementById("gg-forslag")?.remove();
+}
+
 // Poängreglerna måste hållas förenliga med serverns gränser vid ändringar.
 function xpFor(niva,correct,run){
   if(!correct) return 2;
@@ -6462,6 +6522,8 @@ function finishAttempt(resultat){
     hint:!!state.hintUsed,
     ...(t.ursprungsId?{ursprungsId:t.ursprungsId,deluppgift:t.deluppgift}:{})});
   cp.history=cp.history.slice(-300);
+  const genomgangForslag=correct ? null : hittaGenomgangForslag(t,cp);
+  state.ggForslag=genomgangForslag;
 
   if(correct && !state.noXp && !state.solutionShown) profile.utanFacit=(profile.utanFacit||0)+1;
   if(new Date().getHours()<7) profile.morgon=1;
@@ -6520,7 +6582,16 @@ function finishAttempt(resultat){
         <button class="btn primary" id="nextbtn" onclick="${last?'renderSessionDone()':'nextTask()'}">
           ${last?"Se passrapport":"Nästa uppgift"} <span aria-hidden="true">→</span>
         </button>
-      </div>`;
+      </div>
+      ${genomgangForslag?`<aside class="gg-forslag" id="gg-forslag">
+        ${KUNSKAP_IKON}
+        <div class="gg-forslag-text"><strong>Vill du reda ut det här först?</strong>
+          <small>Du har haft flera missar inom ${esc(genomgangForslag.omrade)}. Läs den korta genomgången ”${esc(genomgangForslag.rubrik)}”.</small></div>
+        <div class="gg-forslag-knappar">
+          <button class="btn sm primary" onclick="oppnaForeslagenGenomgang()">Läs genomgången</button>
+          <button class="btn sm quiet" onclick="avvisaGenomgangForslag()">Inte nu</button>
+        </div>
+      </aside>`:""}`;
     setTimeout(()=>document.getElementById("nextbtn")?.focus(),80);
   }
 }

@@ -1665,6 +1665,25 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .cheer-card p{margin:8px 0 0;color:var(--ink2);font-family:var(--read);font-size:14.5px;letter-spacing:0}
 .cheer-card .btn{margin-top:22px;width:100%}
 
+.cheer.varning{background:rgba(60,8,10,.52)}
+.varning .cheer-card{
+  width:min(400px,100%);
+  background:linear-gradient(180deg,var(--surface),var(--badSoft));
+  border:2px solid var(--bad);
+  box-shadow:var(--e2),0 0 90px -26px rgba(176,63,66,.85);
+}
+.varning .cheer-halo:before,.varning .cheer-halo:after{border-color:var(--bad)}
+.varning .cheer-medal{
+  color:#fff;font-size:42px;
+  background:linear-gradient(152deg,#D9686B,#B03F42 60%,#8E2E31);
+  box-shadow:0 16px 34px -14px rgba(140,40,44,.95),inset 0 2px 0 rgba(255,255,255,.35);
+}
+.varning .cheer-medal:after{border-color:rgba(255,255,255,.4)}
+.varning .cheer-label{color:var(--bad)}
+.varning .cheer-card h2{color:var(--bad)}
+.varning .cheer-card p{font-size:15.5px;line-height:1.55;color:var(--ink)}
+.varning .cheer-card .btn{background:var(--bad);border-color:var(--bad);color:#fff}
+
 @media(max-width:960px){
   .dash{grid-template-columns:1fr}
   .side{position:static;grid-template-columns:1fr 1fr;display:grid}
@@ -1766,6 +1785,8 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 <div id="app"></div>
 <div id="toast" class="toast"></div>
 <div id="cheer" class="cheer" role="dialog" aria-live="polite"></div>
+<div id="anteckning" class="cheer varning" role="dialog" aria-modal="true"
+     aria-labelledby="anteckningrubrik"></div>
 
 <script>
 
@@ -2138,7 +2159,8 @@ function sparaPagaendePass(){
       xp:state.sessionXp, ratt:state.sessionCorrect,
       passTyp:state.passTyp, omr:state.focusOmr, namn:state.focusNamn,
       area:state.focusArea, family:state.focusFamily,
-      felKo:state.felKo||null, lastIds:(state.lastIds||[]).slice(-12)
+      felKo:state.felKo||null, lastIds:(state.lastIds||[]).slice(-12),
+      anteckning:!!state.anteckningVisad
     }));
   }catch(_){}
 }
@@ -2168,6 +2190,7 @@ function aterupptaPass(d){
   state.focusArea=d.area||null; state.focusFamily=d.family||null;
   state.felKo=d.felKo||null;
   state.lastIds=d.lastIds||[];
+  state.anteckningVisad=!!d.anteckning;
   state.answered=false; state.solutionShown=false; state.noXp=false;
   state.partResults=[]; state.partIndex=0;
   state.hintUsed=false; state.hintVisible=false;
@@ -2179,7 +2202,7 @@ const state={
   course:null, track:null, data:null, view:"home",
   focusArea:null, focusFamily:null,
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
-  aktivRuta:0,
+  aktivRuta:0, anteckningVisad:false,
   focusOmr:null, focusNamn:null, senasteUrsprung:[],
   flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
@@ -2777,6 +2800,41 @@ function dismissCheer(){
   el.classList.remove("show");
   cheerQueue.shift();
   setTimeout(()=>{ if(cheerQueue.length) pumpCheer(); else el.innerHTML=""; },450);
+}
+
+/* Påminnelse om att skriva ner sina beräkningar. Visas en gång per
+   träningspass, efter ANTECKNING_EFTER lösta uppgifter, och väntar tills
+   eventuella medalj- och nivårutor är stängda så att de inte krockar. */
+const ANTECKNING_EFTER=5;
+function koaAnteckning(){
+  if(state.anteckningVisad) return;
+  state.anteckningVisad=true;
+  sparaPagaendePass();
+  setTimeout(visaAnteckning,1200);
+}
+function visaAnteckning(){
+  const el=document.getElementById("anteckning");
+  if(!el || el.classList.contains("show")) return;
+  if(cheerQueue.length || document.getElementById("cheer")?.classList.contains("show")){
+    setTimeout(visaAnteckning,700); return;   // vänta tills hyllningen är klar
+  }
+  el.innerHTML=`<div class="cheer-card">
+      <div class="cheer-halo"><div class="cheer-medal" aria-hidden="true">✍️</div></div>
+      <div class="cheer-label">Kom ihåg</div>
+      <h2 id="anteckningrubrik">Skriv ner dina lösningar</h2>
+      <p>Glöm inte att skriva ner dina beräkningar och redovisningar i ditt
+         anteckningsblock. På ett prov är det en stor del av bedömningen,
+         så det är viktigt att träna på när du gör uppgifter.</p>
+      <button class="btn primary" onclick="stangAnteckning()">Jag har skrivit ner</button>
+    </div>`;
+  requestAnimationFrame(()=>el.classList.add("show"));
+  setTimeout(()=>el.querySelector(".btn")?.focus(),450);
+}
+function stangAnteckning(){
+  const el=document.getElementById("anteckning");
+  if(!el) return;
+  el.classList.remove("show");
+  setTimeout(()=>{ el.innerHTML=""; },450);
 }
 
 function ring(pct,size,stroke,color){
@@ -4905,6 +4963,7 @@ function beginSession(typ){
   state.felKo=null;state.sessionFel=[];
   rensaPagaendePass();
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
+  state.anteckningVisad=false;
 
   state.sessionTarget=(PASS[state.passTyp]||{}).antal || profile.goal || 8;
 }
@@ -6670,6 +6729,8 @@ function finishAttempt(resultat){
     if(beforeToday<goal && todayCount()>=goal) cheer(medaljIkon("dagsmal"),"Dagens mål","Klart för idag",`${goal} uppgifter avklarade.`);
   },HYLLNING);
   saveProfile();
+
+  if(state.sessionDone>=ANTECKNING_EFTER) koaAnteckning();
 
   const last=state.sessionDone>=state.sessionTarget;
   const bonus = seriebonus(profile.run);

@@ -196,6 +196,3 @@ window.GRUPP2 = {
     }
   ]
 };
-
-/* Visa kursens pedagogiska underområden som egna träningskort. */
-window.GRUPP2 = {};

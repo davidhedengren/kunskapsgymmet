@@ -76295,3 +76295,195 @@ window.BANKMA1 = [
     "ledtrad": "<p>Behandla formeln som en ekvation och isolera den efterfrågade variabeln steg för steg. Gör inversa operationer i omvänd ordning.</p>"
   }
 ];
+
+/* Utökad enhetsträning 2026-09-11.
+   Nivå 1/E: längd, massa, tid och enkla literenheter.
+   Nivå 2/C: area samt volym i cm³, dm³ och m³.
+   Nivå 3/A: stora enhetssprång, densitet och hastighet. */
+(() => {
+  const bank = window.BANKMA1;
+  const fmt = value => {
+    const text = Number.isInteger(value)
+      ? String(value)
+      : Number(value).toFixed(12).replace(/0+$/,"").replace(/\.$/,"");
+    return text.replace(".",",");
+  };
+  const texUnit = unit => ({
+    "mm":"\\mathrm{mm}","cm":"\\mathrm{cm}","dm":"\\mathrm{dm}","m":"\\mathrm m","km":"\\mathrm{km}",
+    "mg":"\\mathrm{mg}","g":"\\mathrm g","kg":"\\mathrm{kg}",
+    "s":"\\mathrm s","min":"\\mathrm{min}","h":"\\mathrm h","dygn":"\\text{dygn}",
+    "ml":"\\mathrm{ml}","dl":"\\mathrm{dl}","l":"\\mathrm l",
+    "mm²":"\\mathrm{mm}^2","cm²":"\\mathrm{cm}^2","dm²":"\\mathrm{dm}^2","m²":"\\mathrm m^2","km²":"\\mathrm{km}^2",
+    "cm³":"\\mathrm{cm}^3","dm³":"\\mathrm{dm}^3","m³":"\\mathrm m^3",
+    "g/cm³":"\\mathrm{g/cm^3}","kg/m³":"\\mathrm{kg/m^3}",
+    "m/s":"\\mathrm{m/s}","km/h":"\\mathrm{km/h}"
+  }[unit] || "\\mathrm{"+unit+"}");
+  const relations = {
+    "m|cm":"1\\ \\mathrm m=100\\ \\mathrm{cm}",
+    "cm|m":"100\\ \\mathrm{cm}=1\\ \\mathrm m",
+    "m|mm":"1\\ \\mathrm m=1000\\ \\mathrm{mm}",
+    "mm|m":"1000\\ \\mathrm{mm}=1\\ \\mathrm m",
+    "km|m":"1\\ \\mathrm{km}=1000\\ \\mathrm m",
+    "m|km":"1000\\ \\mathrm m=1\\ \\mathrm{km}",
+    "cm|mm":"1\\ \\mathrm{cm}=10\\ \\mathrm{mm}",
+    "mm|cm":"10\\ \\mathrm{mm}=1\\ \\mathrm{cm}",
+    "dm|cm":"1\\ \\mathrm{dm}=10\\ \\mathrm{cm}",
+    "cm|dm":"10\\ \\mathrm{cm}=1\\ \\mathrm{dm}",
+    "kg|g":"1\\ \\mathrm{kg}=1000\\ \\mathrm g",
+    "g|kg":"1000\\ \\mathrm g=1\\ \\mathrm{kg}",
+    "g|mg":"1\\ \\mathrm g=1000\\ \\mathrm{mg}",
+    "mg|g":"1000\\ \\mathrm{mg}=1\\ \\mathrm g",
+    "h|min":"1\\ \\mathrm h=60\\ \\mathrm{min}",
+    "min|h":"60\\ \\mathrm{min}=1\\ \\mathrm h",
+    "min|s":"1\\ \\mathrm{min}=60\\ \\mathrm s",
+    "s|min":"60\\ \\mathrm s=1\\ \\mathrm{min}",
+    "dygn|h":"1\\ \\text{dygn}=24\\ \\mathrm h",
+    "h|dygn":"24\\ \\mathrm h=1\\ \\text{dygn}",
+    "l|dl":"1\\ \\mathrm l=10\\ \\mathrm{dl}",
+    "dl|l":"10\\ \\mathrm{dl}=1\\ \\mathrm l",
+    "l|ml":"1\\ \\mathrm l=1000\\ \\mathrm{ml}",
+    "ml|l":"1000\\ \\mathrm{ml}=1\\ \\mathrm l",
+    "dl|ml":"1\\ \\mathrm{dl}=100\\ \\mathrm{ml}",
+    "ml|dl":"100\\ \\mathrm{ml}=1\\ \\mathrm{dl}",
+    "m²|cm²":"1\\ \\mathrm m^2=(100\\ \\mathrm{cm})^2=10\\,000\\ \\mathrm{cm}^2",
+    "cm²|m²":"10\\,000\\ \\mathrm{cm}^2=1\\ \\mathrm m^2",
+    "dm²|cm²":"1\\ \\mathrm{dm}^2=(10\\ \\mathrm{cm})^2=100\\ \\mathrm{cm}^2",
+    "cm²|dm²":"100\\ \\mathrm{cm}^2=1\\ \\mathrm{dm}^2",
+    "m²|dm²":"1\\ \\mathrm m^2=(10\\ \\mathrm{dm})^2=100\\ \\mathrm{dm}^2",
+    "dm²|m²":"100\\ \\mathrm{dm}^2=1\\ \\mathrm m^2",
+    "km²|m²":"1\\ \\mathrm{km}^2=(1000\\ \\mathrm m)^2=1\\,000\\,000\\ \\mathrm m^2",
+    "m²|km²":"1\\,000\\,000\\ \\mathrm m^2=1\\ \\mathrm{km}^2",
+    "cm²|mm²":"1\\ \\mathrm{cm}^2=(10\\ \\mathrm{mm})^2=100\\ \\mathrm{mm}^2",
+    "mm²|cm²":"100\\ \\mathrm{mm}^2=1\\ \\mathrm{cm}^2",
+    "dm²|mm²":"1\\ \\mathrm{dm}^2=(100\\ \\mathrm{mm})^2=10\\,000\\ \\mathrm{mm}^2",
+    "mm²|dm²":"10\\,000\\ \\mathrm{mm}^2=1\\ \\mathrm{dm}^2",
+    "dm³|cm³":"1\\ \\mathrm{dm}^3=(10\\ \\mathrm{cm})^3=1000\\ \\mathrm{cm}^3",
+    "cm³|dm³":"1000\\ \\mathrm{cm}^3=1\\ \\mathrm{dm}^3",
+    "m³|dm³":"1\\ \\mathrm m^3=(10\\ \\mathrm{dm})^3=1000\\ \\mathrm{dm}^3",
+    "dm³|m³":"1000\\ \\mathrm{dm}^3=1\\ \\mathrm m^3",
+    "m³|cm³":"1\\ \\mathrm m^3=(100\\ \\mathrm{cm})^3=1\\,000\\,000\\ \\mathrm{cm}^3",
+    "cm³|m³":"1\\,000\\,000\\ \\mathrm{cm}^3=1\\ \\mathrm m^3",
+    "ml|m³":"1\\ \\mathrm{ml}=1\\ \\mathrm{cm}^3=0{,}000001\\ \\mathrm m^3",
+    "m³|ml":"1\\ \\mathrm m^3=1\\,000\\,000\\ \\mathrm{ml}",
+    "g/cm³|kg/m³":"1\\ \\mathrm{g/cm^3}=1000\\ \\mathrm{kg/m^3}",
+    "kg/m³|g/cm³":"1000\\ \\mathrm{kg/m^3}=1\\ \\mathrm{g/cm^3}",
+    "m/s|km/h":"1\\ \\mathrm{m/s}=3{,}6\\ \\mathrm{km/h}",
+    "km/h|m/s":"3{,}6\\ \\mathrm{km/h}=1\\ \\mathrm{m/s}"
+  };
+
+  const level1 = [
+    [500,2.6,"m","cm",100,260],[501,735,"cm","m",0.01,7.35],[502,0.48,"m","mm",1000,480],
+    [503,920,"mm","m",0.001,0.92],[504,4.25,"km","m",1000,4250],[505,680,"m","km",0.001,0.68],
+    [506,38,"cm","mm",10,380],[507,465,"mm","cm",0.1,46.5],[508,1.7,"dm","cm",10,17],
+    [509,82,"cm","dm",0.1,8.2],[510,0.006,"km","m",1000,6],[511,2450,"m","km",0.001,2.45],
+    [512,3.75,"kg","g",1000,3750],[513,480,"g","kg",0.001,0.48],[514,6.2,"g","mg",1000,6200],
+    [515,9350,"mg","g",0.001,9.35],[516,0.045,"kg","g",1000,45],[517,125,"g","kg",0.001,0.125],
+    [518,1.75,"h","min",60,105],[519,210,"min","h",1/60,3.5],[520,7,"min","s",60,420],
+    [521,540,"s","min",1/60,9],[522,2.5,"dygn","h",24,60],[523,84,"h","dygn",1/24,3.5],
+    [524,2.8,"l","dl",10,28],[525,46,"dl","l",0.1,4.6],[526,0.75,"l","ml",1000,750],
+    [527,1350,"ml","l",0.001,1.35],[528,3.6,"dl","ml",100,360],[529,425,"ml","dl",0.01,4.25]
+  ];
+  const level2 = [
+    [530,2.4,"m²","cm²",10000,24000],[531,37500,"cm²","m²",1/10000,3.75],
+    [532,0.63,"dm²","cm²",100,63],[533,840,"cm²","dm²",0.01,8.4],
+    [534,5.7,"m²","dm²",100,570],[535,925,"dm²","m²",0.01,9.25],
+    [536,0.004,"km²","m²",1000000,4000],[537,1250000,"m²","km²",1/1000000,1.25],
+    [538,18,"cm²","mm²",100,1800],[539,4600,"mm²","cm²",0.01,46],
+    [540,1.35,"m²","cm²",10000,13500],[541,720,"cm²","m²",1/10000,0.072],
+    [542,2.08,"dm²","mm²",10000,20800],[543,64000,"mm²","dm²",1/10000,6.4],
+    [544,0.025,"km²","m²",1000000,25000],
+    [545,3.2,"dm³","cm³",1000,3200],[546,8750,"cm³","dm³",0.001,8.75],
+    [547,0.006,"m³","dm³",1000,6],[548,425,"dm³","m³",0.001,0.425],
+    [549,0.014,"m³","cm³",1000000,14000],[550,235000,"cm³","m³",1/1000000,0.235],
+    [551,7.5,"dm³","cm³",1000,7500],[552,96,"cm³","dm³",0.001,0.096],
+    [553,1.28,"m³","dm³",1000,1280],[554,3600,"dm³","m³",0.001,3.6],
+    [555,0.00045,"m³","cm³",1000000,450],[556,725000,"cm³","m³",1/1000000,0.725],
+    [557,2500,"cm³","dm³",0.001,2.5],[558,0.075,"m³","dm³",1000,75],
+    [559,12.4,"dm³","cm³",1000,12400]
+  ];
+  const level3 = [
+    [560,2500,"ml","m³",1/1000000,0.0025],[561,0.018,"m³","ml",1000000,18000],
+    [562,75,"ml","m³",1/1000000,0.000075],[563,0.0042,"m³","ml",1000000,4200],
+    [564,1,"ml","m³",1/1000000,0.000001],[565,850000,"ml","m³",1/1000000,0.85],
+    [566,0.00036,"m³","ml",1000000,360],[567,12500,"ml","m³",1/1000000,0.0125],
+    [568,2400000,"ml","m³",1/1000000,2.4],[569,0.000008,"m³","ml",1000000,8],
+    [570,2.7,"g/cm³","kg/m³",1000,2700],[571,0.92,"g/cm³","kg/m³",1000,920],
+    [572,7850,"kg/m³","g/cm³",0.001,7.85],[573,1000,"kg/m³","g/cm³",0.001,1],
+    [574,1.05,"g/cm³","kg/m³",1000,1050],[575,11340,"kg/m³","g/cm³",0.001,11.34],
+    [576,8.9,"g/cm³","kg/m³",1000,8900],[577,2400,"kg/m³","g/cm³",0.001,2.4],
+    [578,0.001,"g/cm³","kg/m³",1000,1],[579,13600,"kg/m³","g/cm³",0.001,13.6],
+    [580,5,"m/s","km/h",3.6,18],[581,72,"km/h","m/s",1/3.6,20],
+    [582,12.5,"m/s","km/h",3.6,45],[583,90,"km/h","m/s",1/3.6,25],
+    [584,0.8,"m/s","km/h",3.6,2.88],[585,126,"km/h","m/s",1/3.6,35],
+    [586,3.6,"km/h","m/s",1/3.6,1],[587,27,"m/s","km/h",3.6,97.2],
+    [588,54,"km/h","m/s",1/3.6,15],[589,22,"m/s","km/h",3.6,79.2]
+  ];
+
+  const build = (row, level) => {
+    const [nr,value,from,to,factor,answer] = row;
+    const multiply = factor >= 1;
+    const divisor = multiply ? null : Math.round((1/factor)*1e12)/1e12;
+    const operation = multiply
+      ? "\\cdot"+fmt(factor)
+      : "\\div"+fmt(divisor);
+    const relation = relations[from+"|"+to];
+    const isArea = from.includes("²") || to.includes("²");
+    const isVolume = from.includes("³") || to.includes("³") || ((from==="ml"||to==="ml") && level==="A");
+    const isDensity = from.includes("/") && from.includes("g");
+    const isSpeed = from.includes("/") && !isDensity;
+    const idea = isDensity
+      ? "I en densitet måste både massenheten och volymenheten bytas. Det samlade sambandet ger faktorn 1000."
+      : isSpeed
+        ? "Omvandla både sträckenheten och tidsenheten. Det samlade sambandet är \\(1\\ \\mathrm{m/s}=3{,}6\\ \\mathrm{km/h}\\)."
+        : isArea
+          ? "Eftersom det är area ska längdens omvandlingsfaktor kvadreras."
+          : isVolume
+            ? "Eftersom det är volym ska längdens omvandlingsfaktor kuberas. Använd det färdiga enhetssambandet stegvis."
+            : "Avgör om du går till en mindre eller större enhet och använd enhetssambandet.";
+    const insight = isDensity
+      ? "Talet blir 1000 gånger större i kg/m³ än i g/cm³, trots att kilogram är en större massenhet, eftersom även volymenheten ändras."
+      : isSpeed
+        ? "Ett tal i km/h är 3,6 gånger motsvarande tal i m/s."
+        : isArea
+          ? "När längdfaktorn är 10 eller 100 blir areafaktorn \\(10^2\\) eller \\(100^2\\)."
+          : isVolume
+            ? "När längdfaktorn är 10 eller 100 blir volymfaktorn \\(10^3\\) eller \\(100^3\\)."
+            : multiply
+              ? "Du går till en mindre enhet, så talet ska bli större."
+              : "Du går till en större enhet, så talet ska bli mindre.";
+    return {
+      id:"0."+nr,kap:0,omr:"enhetsbyten",kurs:["1a","1b","1c"],
+      niva:level,poang:level==="E"?"1/0/0":level==="C"?"0/1/0":"0/0/1",
+      t:'<p>Omvandla <strong>'+fmt(value)+" "+from+'</strong> till <strong>'+to+'</strong>.</p>',
+      s:'<div class="facit-v2"><p class="facit-metod"><strong>Tänk så här:</strong> '+idea+
+        '</p><div class="facit-arbete"><p>Använd sambandet \\('+relation+'\\). Då blir</p><p>\\['+
+        fmt(value)+"\\ "+texUnit(from)+operation+"="+fmt(answer)+"\\ "+texUnit(to)+
+        '.\\]</p><p><strong>Svar:</strong> \\('+fmt(answer)+"\\ "+texUnit(to)+
+        '\\).</p></div><p class="facit-not"><strong>Kontroll och insikt:</strong> '+insight+'</p></div>',
+      familj:level==="E"?"Enkla enhetsbyten":level==="C"?"Area- och volymenheter":"Sammansatta och stora enhetsbyten",
+      geogebra:false,miniräknare:false,svarstyp:"numeriskt",rättSvar:answer,tolerans:1e-9,
+      självrättning:true,formaga:["procedur"],svarFormat:"numeriskt",svarEnhet:to,
+      ledtrad:'<p>Använd sambandet \\('+relation+'\\). '+(isArea?"Kom ihåg att kvadrera omvandlingsfaktorn.":isVolume?"Kom ihåg att kubera omvandlingsfaktorn.":isDensity?"Byt massa och volym som en sammanhängande kvot.":isSpeed?"Använd faktorn 3,6 mellan m/s och km/h.":"Kontrollera åt vilket håll talet ska förändras.")+'</p>'
+    };
+  };
+
+  /* De äldre area- och kubikuppgifterna ska inte längre visas som nivå 1. */
+  const oldLevel2 = new Set(["0.226","0.227","0.228","0.229","0.310","0.311","0.312","0.409","0.411"]);
+  for (const q of bank) {
+    if (!oldLevel2.has(String(q.id))) continue;
+    q.niva="C";
+    q.poang="0/1/0";
+  }
+
+  const additions = [
+    ...level1.map(row=>build(row,"E")),
+    ...level2.map(row=>build(row,"C")),
+    ...level3.map(row=>build(row,"A"))
+  ];
+  const existing = new Set(bank.map(q=>String(q.id)));
+  for (const q of additions) {
+    if (existing.has(String(q.id))) throw new Error("Dubblett-id: "+q.id);
+    bank.push(q);
+    existing.add(String(q.id));
+  }
+})();

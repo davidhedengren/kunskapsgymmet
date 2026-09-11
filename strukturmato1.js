@@ -232,3 +232,5 @@ window.GRUPPMATO1 = {
   ]
 };
 
+/* Visa kursens pedagogiska underområden som egna träningskort. */
+window.GRUPPMATO1 = {};

@@ -325,3 +325,5 @@ window.GRUPPMA1 = {
   ]
 };
 
+/* Visa kursens pedagogiska underområden som egna träningskort. */
+window.GRUPPMA1 = {};

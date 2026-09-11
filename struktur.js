@@ -165,3 +165,6 @@ window.GRUPP = {
   ]
 };
 
+/* Visa kursens pedagogiska underområden som egna träningskort.
+   Den tidigare grova sammanslagningen dolde för mycket av innehållet. */
+window.GRUPP = {};

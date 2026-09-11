@@ -124,3 +124,6 @@ window.GRUPPMATF1 = {
     }
   ]
 };
+
+/* Visa kursens pedagogiska underområden som egna träningskort. */
+window.GRUPPMATF1 = {};

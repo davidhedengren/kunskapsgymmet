@@ -563,3 +563,185 @@
 
   window.TYPUPPGIFTER_MATO2 = bank;
 })();
+
+/* Slutrevision: tydligare matematisk typografi och fler pedagogiska figurer. */
+(() => {
+  const bank = window.TYPUPPGIFTER_MATO2 || {};
+  const cards = Object.values(bank);
+  const find = rubrik => cards.find(kort => kort.rubrik === rubrik);
+
+  Object.keys(bank).forEach(nyckel => {
+    if (bank[nyckel].rubrik === "Tolka en ortslinje") delete bank[nyckel];
+  });
+
+  const integralPolynomFigur = '<svg class="dg" viewBox="0 0 440 300" role="img" aria-label="Grafen till tre x kvadrat plus ett med området mellan grafen och x-axeln markerat från noll till två">'
+    +'<path class="dg-rut" d="M60 30V250M120 30V250M180 30V250M240 30V250M300 30V250M360 30V250M420 30V250M60 250H420M60 205H420M60 160H420M60 115H420M60 70H420"/>'
+    +'<path class="dg-axel" d="M45 250H428M100 270V18"/><path class="dg-pil" d="M436 250l-10-4.5v9zM100 10l-4.5 10h9z"/>'
+    +'<path d="M100 250L100 235Q200 235 300 55L300 250Z" fill="var(--accSoft,rgba(90,150,245,.18))" stroke="none"/>'
+    +'<path class="dg-linje" d="M100 235Q200 235 300 55"/><path class="dg-hjalp" stroke-dasharray="6 5" d="M100 235V250M300 55V250"/>'
+    +'<g class="dg-txt"><text x="100" y="271" text-anchor="middle">0</text><text x="300" y="271" text-anchor="middle">2</text><text x="315" y="61">f(x) = 3x² + 1</text><text x="205" y="190">integralens värde</text><text x="428" y="240">x</text><text x="110" y="20">y</text></g></svg>';
+
+  const integralSinusFigur = '<svg class="dg" viewBox="0 0 440 285" role="img" aria-label="Sinuskurvan från noll till pi med den positiva arean under kurvan markerad">'
+    +'<path class="dg-rut" d="M50 30V230M100 30V230M150 30V230M200 30V230M250 30V230M300 30V230M350 30V230M400 30V230M50 230H400M50 180H400M50 130H400M50 80H400M50 30H400"/>'
+    +'<path class="dg-axel" d="M42 230H415M80 250V18"/><path class="dg-pil" d="M423 230l-10-4.5v9zM80 10l-4.5 10h9z"/>'
+    +'<path d="M80 230C135 60 285 60 340 230Z" fill="var(--accSoft,rgba(90,150,245,.18))" stroke="none"/><path class="dg-linje" d="M80 230C135 60 285 60 340 230"/>'
+    +'<g class="dg-txt"><text x="80" y="252" text-anchor="middle">0</text><text x="210" y="252" text-anchor="middle">π/2</text><text x="340" y="252" text-anchor="middle">π</text><text x="235" y="76">y = sin x</text><text x="415" y="220">x</text><text x="90" y="20">y</text></g></svg>';
+
+  const integralTeckenFigur = '<svg class="dg" viewBox="0 0 500 310" role="img" aria-label="Linjen y lika med x minus ett med negativ area från noll till ett och positiv area från ett till två">'
+    +'<path class="dg-rut" d="M55 35V265M115 35V265M175 35V265M235 35V265M295 35V265M355 35V265M415 35V265M475 35V265M55 265H475M55 210H475M55 155H475M55 100H475M55 45H475"/>'
+    +'<path class="dg-axel" d="M45 155H488M115 280V20"/><path class="dg-pil" d="M496 155l-10-4.5v9zM115 12l-4.5 10h9z"/>'
+    +'<path d="M115 155L115 220L235 155Z" fill="var(--badSoft,rgba(225,85,85,.20))" stroke="var(--bad,#e06464)" stroke-width="2"/>'
+    +'<path d="M235 155L355 90L355 155Z" fill="var(--goodSoft,rgba(70,190,145,.20))" stroke="var(--good,#55c49a)" stroke-width="2"/>'
+    +'<path class="dg-linje" d="M80 239L405 63"/><g class="dg-txt"><text x="115" y="177" text-anchor="middle">0</text><text x="235" y="177" text-anchor="middle">1</text><text x="355" y="177" text-anchor="middle">2</text><text x="153" y="205">−0,5</text><text x="290" y="132">+0,5</text><text x="367" y="82">y = x − 1</text></g>'
+    +'<text class="dg-not" x="250" y="298" text-anchor="middle">Integral: −0,5 + 0,5 = 0 • geometrisk area: 1</text></svg>';
+
+  const integralFlodeFigur = '<svg class="dg" viewBox="0 0 480 290" role="img" aria-label="Flödet tre plus två t och arean under grafen under de första fem minuterna">'
+    +'<path class="dg-rut" d="M60 30V235M120 30V235M180 30V235M240 30V235M300 30V235M360 30V235M420 30V235M60 235H420M60 185H420M60 135H420M60 85H420M60 35H420"/>'
+    +'<path class="dg-axel" d="M50 235H440M90 255V18"/><path class="dg-pil" d="M448 235l-10-4.5v9zM90 10l-4.5 10h9z"/>'
+    +'<path d="M90 235L90 195L390 65L390 235Z" fill="var(--accSoft,rgba(90,150,245,.18))" stroke="none"/><path class="dg-linje" d="M90 195L390 65"/><path class="dg-hjalp" stroke-dasharray="6 5" d="M390 65V235"/>'
+    +'<g class="dg-txt"><text x="90" y="257" text-anchor="middle">0</text><text x="390" y="257" text-anchor="middle">5 min</text><text x="294" y="92">q(t) = 3 + 2t</text><text x="196" y="188">40 liter</text><text x="442" y="225">t</text><text x="100" y="20">q</text></g></svg>';
+
+  const integralRorelseFigur = '<svg class="dg" viewBox="0 0 500 310" role="img" aria-label="Hastighetsgraf som visar negativ förflyttning före två sekunder och positiv efter två sekunder">'
+    +'<path class="dg-rut" d="M55 30V260M115 30V260M175 30V260M235 30V260M295 30V260M355 30V260M415 30V260M475 30V260M55 260H475M55 205H475M55 150H475M55 95H475M55 40H475"/>'
+    +'<path class="dg-axel" d="M45 150H488M85 275V18"/><path class="dg-pil" d="M496 150l-10-4.5v9zM85 10l-4.5 10h9z"/>'
+    +'<path d="M85 150L85 230L245 150Z" fill="var(--badSoft,rgba(225,85,85,.20))" stroke="var(--bad,#e06464)" stroke-width="2"/>'
+    +'<path d="M245 150L405 70L405 150Z" fill="var(--goodSoft,rgba(70,190,145,.20))" stroke="var(--good,#55c49a)" stroke-width="2"/>'
+    +'<path class="dg-linje" d="M85 230L405 70"/><g class="dg-txt"><text x="85" y="172" text-anchor="middle">0</text><text x="245" y="172" text-anchor="middle">2</text><text x="405" y="172" text-anchor="middle">4</text><text x="130" y="210">−2 m</text><text x="330" y="126">+2 m</text><text x="348" y="62">v(t) = t − 2</text></g>'
+    +'<text class="dg-not" x="250" y="298" text-anchor="middle">Förflyttning: −2 + 2 = 0 m • sträcka: 2 + 2 = 4 m</text></svg>';
+
+  const komplexaRotterFigur = '<svg class="dg" viewBox="0 0 520 340" role="img" aria-label="De tre kubikrötterna till åtta jämnt fördelade på en cirkel med radien två i det komplexa talplanet">'
+    +'<path class="dg-axel" d="M45 170H485M260 315V25"/><path class="dg-pil" d="M493 170l-10-4.5v9zM260 17l-4.5 10h9z"/><circle class="dg-hjalp" cx="260" cy="170" r="120" fill="none" stroke-dasharray="7 6"/>'
+    +'<path class="dg-hjalp" d="M260 170L380 170M260 170L200 66.1M260 170L200 273.9"/><circle class="dg-vald" cx="380" cy="170" r="6"/><circle class="dg-vald" cx="200" cy="66.1" r="6"/><circle class="dg-vald" cx="200" cy="273.9" r="6"/>'
+    +'<path class="dg-delta" d="M300 170A40 40 0 0 0 240 135.4"/><g class="dg-txt"><text x="488" y="160">Re</text><text x="270" y="25">Im</text><text x="390" y="165">2</text><text x="190" y="55" text-anchor="end">−1 + i√3</text><text x="190" y="292" text-anchor="end">−1 − i√3</text></g><text class="dg-etikett" x="277" y="128">2π/3</text><text class="dg-not" x="260" y="330" text-anchor="middle">Samma radie 2 • vinkelskillnaden är 2π/3</text></svg>';
+
+  const polynomdivisionFigur = '<svg class="dg" viewBox="0 0 760 430" role="img" aria-label="Fullständig uppställning för division av två x kubik plus tre x kvadrat minus fem x plus sex med x plus två">'
+    +'<rect class="dg-rut" x="18" y="18" width="724" height="394" rx="14"/><text class="dg-rubrik" x="470" y="52" text-anchor="middle">2x² − x − 3</text>'
+    +'<path class="dg-form" d="M150 66H710M150 66V103"/><text class="dg-rubrik" x="48" y="100">x + 2</text><text class="dg-rubrik" x="177" y="100">2x³ + 3x² − 5x + 6</text>'
+    +'<text class="dg-txt" x="250" y="140">− (2x³ + 4x²)</text><path class="dg-hjalp" d="M230 153H520"/><text class="dg-rubrik" x="310" y="184">−x² − 5x</text>'
+    +'<text class="dg-txt" x="310" y="224">− (−x² − 2x)</text><path class="dg-hjalp" d="M292 237H560"/><text class="dg-rubrik" x="405" y="268">−3x + 6</text>'
+    +'<text class="dg-txt" x="405" y="308">− (−3x − 6)</text><path class="dg-hjalp" d="M390 321H610"/><text class="dg-etikett" x="535" y="357">rest 12</text>'
+    +'<g class="dg-txt"><text x="34" y="140">1. multiplicera tillbaka</text><text x="34" y="184">2. subtrahera</text><text x="34" y="224">3. multiplicera tillbaka</text><text x="34" y="268">4. subtrahera</text></g>'
+    +'<text class="dg-not" x="380" y="398" text-anchor="middle">Kontroll: (x + 2)(2x² − x − 3) + 12 = 2x³ + 3x² − 5x + 6</text></svg>';
+
+  const primitiv = find("Bestäm en primitiv funktion");
+  if (primitiv) primitiv.t = "<p>Bestäm alla primitiva funktioner till \\(f(x)=3x^2+2\\cos x\\).</p>";
+
+  const bestamd = find("Beräkna en bestämd integral");
+  if (bestamd) {
+    bestamd.t = "<p>Beräkna \\(\\displaystyle \\int_0^2(3x^2+1)\\,dx\\).</p>";
+    bestamd.figur = integralPolynomFigur;
+  }
+
+  const trigIntegral = find("Integrera en trigonometrisk funktion");
+  if (trigIntegral) {
+    trigIntegral.t = "<p>Beräkna \\(\\displaystyle \\int_0^\\pi \\sin x\\,dx\\).</p>";
+    trigIntegral.figur = integralSinusFigur;
+  }
+
+  const areaAxel = find("Beräkna area mot x-axeln");
+  if (areaAxel) {
+    areaAxel.t = "<p>Bestäm arean mellan grafen \\(y=x-1\\) och \\(x\\)-axeln för \\(0\\le x\\le2\\).</p>";
+    areaAxel.figur = integralTeckenFigur;
+  }
+
+  const flode = find("Beräkna volym från ett flöde");
+  if (flode) {
+    flode.t = "<p>Vatten strömmar in med flödet \\(q(t)=3+2t\\) liter per minut. Hur mycket vatten tillkommer under de första fem minuterna?</p>";
+    flode.figur = integralFlodeFigur;
+  }
+
+  const rorelse = find("Bestäm förflyttning och sträcka");
+  if (rorelse) {
+    rorelse.t = "<p>En partikel har hastigheten \\(v(t)=t-2\\) m/s för \\(0\\le t\\le4\\). Bestäm förflyttning och sträcka.</p>";
+    rorelse.figur = integralRorelseFigur;
+  }
+
+  const rotter = find("Bestäm alla komplexa rötter");
+  if (rotter) {
+    rotter.t = "<p>Lös \\(z^3=8\\) i de komplexa talen.</p>";
+    rotter.ram = "Skriv först \\(z=re^{i\\theta}\\). Då blir \\(z^3=r^3e^{i3\\theta}\\): beloppet upphöjs till tre och vinkeln multipliceras med tre. När vi går baklänges tar vi därför kubikroten ur beloppet och delar vinkeln med tre.";
+    rotter.figur = komplexaRotterFigur;
+    rotter.steg = [
+      {rubrik:"Skriv 8 på polär form",text:"Talet 8 ligger på den positiva realaxeln. Samma riktning kan skrivas som 0, ett helt varv, två hela varv och så vidare.",matte:"\\[8=8e^{i(0+2\\pi k)},\\qquad k\\in\\mathbb Z\\]"},
+      {rubrik:"Bestäm rötternas belopp",text:"Om \\(z=re^{i\\theta}\\), så har \\(z^3\\) beloppet \\(r^3\\). Därför måste \\(r^3=8\\).",matte:"\\[r=\\sqrt[3]{8}=2\\]"},
+      {rubrik:"Bestäm rötternas vinklar",text:"Kubering multiplicerar argumentet med 3. För att få tillbaka \\(\\theta\\) dividerar vi därför hela vinkeln \\(0+2\\pi k\\) med 3.",matte:"\\[3\\theta=0+2\\pi k\\quad\\Rightarrow\\quad\\theta_k=\\frac{2\\pi k}{3}\\]"},
+      {rubrik:"Välj tre olika värden på k",text:"Värdena \\(k=0,1,2\\) ger vinklarna \\(0\\), \\(2\\pi/3\\) och \\(4\\pi/3\\). Därefter börjar samma tre riktningar om.",matte:"\\[z_0=2,\\qquad z_1=-1+i\\sqrt3,\\qquad z_2=-1-i\\sqrt3\\]"}
+    ];
+    rotter.svar = "Rötterna är \\(2\\), \\(-1+i\\sqrt3\\) och \\(-1-i\\sqrt3\\).";
+    rotter.komihag = "För \\(z^n=Re^{i\\varphi}\\) får rötterna beloppet \\(\\sqrt[n]{R}\\) och argumenten \\((\\varphi+2\\pi k)/n\\). Divisionen med \\(n\\) beror på att upphöjning till \\(n\\) multiplicerar vinkeln med \\(n\\).";
+  }
+
+  const division = find("Utför polynomdivision");
+  if (division) {
+    division.t = "<p>Dividera \\(2x^3+3x^2-5x+6\\) med \\(x+2\\).</p>";
+    division.ram = "Ordna båda polynomen efter fallande grad. I varje omgång dividerar du de ledande termerna, skriver termen i kvoten, multiplicerar tillbaka och subtraherar. Fortsätt tills resten har lägre grad än divisorn.";
+    division.figur = polynomdivisionFigur;
+    division.steg = [
+      {rubrik:"Första termen i kvoten",text:"Fråga vad \\(2x^3\\) ska divideras med för att ge \\(x\\). Svaret är \\(2x^2\\). Multiplicera sedan \\(2x^2(x+2)=2x^3+4x^2\\) och subtrahera.",matte:"\\[(2x^3+3x^2)-(2x^3+4x^2)=-x^2\\]"},
+      {rubrik:"Andra termen i kvoten",text:"Ta med nästa term \\(-5x\\). Nu divideras \\(-x^2\\) med \\(x\\), vilket ger \\(-x\\). Multiplicera tillbaka och subtrahera.",matte:"\\[(-x^2-5x)-(-x^2-2x)=-3x\\]"},
+      {rubrik:"Tredje termen och resten",text:"Ta med \\(+6\\). Divisionen \\(-3x/x\\) ger \\(-3\\). När \\(-3(x+2)=-3x-6\\) subtraheras återstår 12.",matte:"\\[(-3x+6)-(-3x-6)=12\\]"},
+      {rubrik:"Skriv och kontrollera resultatet",text:"Kvoten står överst och resten skrivs som ett bråk över divisorn.",matte:"\\[\\frac{2x^3+3x^2-5x+6}{x+2}=2x^2-x-3+\\frac{12}{x+2}\\]"}
+    ];
+    division.svar = "Kvoten är \\(2x^2-x-3\\) och resten är \\(12\\).";
+  }
+
+  /* Uppgiftstexterna använder konsekvent KaTeX i stället för Unicode-formler
+     och uttryck som e^(...) eller snedstrecksbråk. Befintliga SVG-bilder i
+     uppgiftstexten bevaras. */
+  const snyggaUppgifter = {
+    "Läs exakta värden i enhetscirkeln":"<p>Bestäm exakt \\(\\cos(2\\pi/3)\\), \\(\\sin(2\\pi/3)\\) och \\(\\tan(2\\pi/3)\\).</p>",
+    "Använd symmetri och periodicitet":"<p>Bestäm exakt \\(\\sin(-\\pi/6)\\) och \\(\\cos(13\\pi/6)\\).</p>",
+    "Bestäm ett trigonometriskt värde från ett annat":"<p>Vinkeln \\(v\\) ligger i andra kvadranten och \\(\\sin v=3/5\\). Bestäm \\(\\cos v\\) exakt.</p>",
+    "Omvandla mellan grader och radianer":"<p>Omvandla \\(150^\\circ\\) till radianer och \\(7\\pi/6\\) radianer till grader.</p>",
+    "Beräkna båglängd och sektorarea":"<p>En cirkel har radien \\(6\\) cm och medelpunktsvinkeln \\(\\pi/3\\) radianer. Bestäm båglängden och sektorns area.</p>",
+    "Använd trigonometriska ettan":"<p>Förenkla uttrycket \\(1-\\sin^2x\\).</p>",
+    "Använd en additionsformel":"<p>Bestäm exakt \\(\\sin75^\\circ\\).</p>",
+    "Använd formeln för dubbla vinkeln":"<p>Vinkeln \\(x\\) ligger i första kvadranten och \\(\\sin x=3/5\\). Bestäm \\(\\sin2x\\) exakt.</p>",
+    "Lös en grundläggande trigonometrisk ekvation":"<p>Lös \\(\\sin x=1/2\\) för \\(0\\le x<2\\pi\\).</p>",
+    "Skriv den generella lösningen":"<p>Lös \\(\\cos x=-1/2\\) för alla reella \\(x\\).</p>",
+    "Faktorisera en trigonometrisk ekvation":"<p>Lös \\(2\\sin^2x-\\sin x=0\\) för \\(0\\le x<2\\pi\\).</p>",
+    "Använd andragradssubstitution":"<p>Lös \\(2\\cos^2x-3\\cos x+1=0\\) för \\(0\\le x<2\\pi\\).</p>",
+    "Bestäm amplitud, period och medellinje":"<p>Bestäm amplitud, period och medellinje för \\(f(x)=2\\sin x+1\\).</p>",
+    "Tolka en fasförskjutning":"<p>Beskriv hur grafen till \\(g(x)=\\sin(x-\\pi/4)\\) fås från \\(y=\\sin x\\).</p>",
+    "Bestäm en sinusfunktion från dess egenskaper":"<p>En sinuskurva har största värdet \\(5\\), minsta värdet \\(1\\) och perioden \\(\\pi\\). Vid \\(x=0\\) skär den medellinjen på väg uppåt. Bestäm en möjlig funktion.</p>",
+    "Bestäm period och asymptoter för tangens":"<p>Bestäm perioden och de två närmaste lodräta asymptoterna till \\(f(x)=\\tan(2x)\\).</p>",
+    "Tolka en trigonometrisk modell":"<p>Temperaturen modelleras av \\(T(t)=6\\sin(\\pi t/12-\\pi/2)+14\\), där \\(t\\) är timmar efter midnatt. Bestäm medeltemperatur, amplitud och period.</p>",
+    "Bestäm en tidpunkt i en periodisk modell":"<p>För modellen \\(T(t)=6\\sin(\\pi t/12-\\pi/2)+14\\), bestäm den första tidpunkten efter midnatt då \\(T=14^\\circ\\mathrm C\\).</p>",
+    "Använd produktregeln":"<p>Derivera \\(f(x)=x^2e^x\\).</p>",
+    "Använd kvotregeln":"<p>Derivera \\(f(x)=\\dfrac{x+1}{x-2}\\).</p>",
+    "Beräkna en sammansatt funktion":"<p>Funktionerna är \\(f(x)=x^2+1\\) och \\(g(x)=3x-2\\). Bestäm \\(f(g(2))\\) och \\(g(f(2))\\).</p>",
+    "Använd kedjeregeln":"<p>Derivera \\(f(x)=(3x^2-1)^5\\).</p>",
+    "Derivera exponential- och logaritmfunktioner":"<p>Derivera \\(f(x)=e^{2x}+\\ln(3x)\\).</p>",
+    "Derivera trigonometriska funktioner":"<p>Derivera \\(f(x)=4\\sin x-3\\cos x\\).</p>",
+    "Bestäm en tangent till en specialfunktion":"<p>Bestäm tangenten till \\(f(x)=\\ln x\\) vid \\(x=1\\).</p>",
+    "Tolka en tangent i en tillämpning":"<p>Mängden läkemedel i kroppen modelleras av \\(M(t)=100e^{-0{,}2t}\\) mg. Bestäm och tolka \\(M'(3)\\).</p>",
+    "Analysera en graf med derivata":"<p>Undersök var \\(f(x)=x^3-3x\\) är växande och avtagande samt bestäm funktionens extrempunkter.</p>",
+    "Bestäm asymptoter för en rationell funktion":"<p>Bestäm lodrät och vågrät asymptot till \\(f(x)=\\dfrac{2x+1}{x-1}\\).</p>",
+    "Bestäm en sned asymptot med polynomdivision":"<p>Bestäm den sneda asymptoten till \\(f(x)=\\dfrac{x^2+1}{x-1}\\).</p>",
+    "Beräkna area mellan två kurvor":"<p>Bestäm arean mellan \\(y=2x\\) och \\(y=x^2\\).</p>",
+    "Beräkna energi från effekt":"<p>Effekten är \\(P(t)=100+20t\\) watt under \\(0\\le t\\le10\\) sekunder. Bestäm energin.</p>",
+    "Normalisera en täthetsfunktion":"<p>Funktionen \\(f(x)=kx\\) för \\(0\\le x\\le2\\), och \\(f(x)=0\\) annars, ska vara en täthetsfunktion. Bestäm \\(k\\).</p>",
+    "Beräkna sannolikhet från en täthet":"<p>En stokastisk variabel har tätheten \\(f(x)=x/2\\) för \\(0\\le x\\le2\\). Bestäm \\(P(X\\le1)\\).</p>",
+    "Beräkna en rotationsvolym":"<p>Området under \\(y=x\\) för \\(0\\le x\\le2\\) roteras kring \\(x\\)-axeln. Bestäm volymen.</p>",
+    "Räkna med komplexa tal":"<p>Låt \\(z=3+4i\\) och \\(w=1-2i\\). Bestäm \\(z+w\\) och \\(zw\\).</p>",
+    "Bestäm konjugat och absolutbelopp":"<p>Bestäm konjugatet och absolutbeloppet till \\(z=3+4i\\).</p>",
+    "Dividera komplexa tal":"<p>Beräkna \\(\\dfrac{3+4i}{1-i}\\) och skriv svaret på formen \\(a+bi\\).</p>",
+    "Beräkna en potens av i":"<p>Beräkna \\(i^{23}\\).</p>",
+    "Tolka komplexa tal som punkter":"<p>Markera \\(z=3+4i\\) i det komplexa talplanet och bestäm avståndet till origo.</p>",
+    "Tolka multiplikation som rotation":"<p>Punkten \\(z=2+i\\) multipliceras med \\(i\\). Bestäm den nya punkten och beskriv avbildningen.</p>",
+    "Växla till polär form":"<p>Skriv \\(z=-1+i\\sqrt3\\) på polär och exponentiell form.</p>",
+    "Använd Eulers formel":"<p>Visa med Eulers formel att \\(e^{i\\pi}=-1\\).</p>",
+    "Multiplicera i exponentiell form":"<p>Beräkna \\(\\left(2e^{i\\pi/3}\\right)\\left(3e^{-i\\pi/6}\\right)\\).</p>",
+    "Beräkna en potens med de Moivres formel":"<p>Beräkna \\((1+i)^6\\).</p>",
+    "Använd faktorsatsen":"<p>Visa att \\(x=2\\) är ett nollställe till \\(p(x)=x^3-4x^2+x+6\\) och faktorisera polynomet helt.</p>",
+    "Lös en polynomekvation med komplexa rötter":"<p>Lös \\(x^2-4x+13=0\\).</p>"
+  };
+  Object.entries(snyggaUppgifter).forEach(([rubrik,nyText]) => {
+    const kort = find(rubrik);
+    if (!kort) return;
+    const gammalFigur = (kort.t || "").match(/<svg[\s\S]*$/);
+    kort.t = nyText + (gammalFigur ? gammalFigur[0] : "");
+  });
+
+  window.TYPUPPGIFTER_MATO2 = bank;
+})();

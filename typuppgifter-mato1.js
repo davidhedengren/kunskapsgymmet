@@ -602,3 +602,148 @@
 
   window.TYPUPPGIFTER_MATO1 = bank;
 })();
+
+/* Ämnesdidaktisk och visuell slutjustering av Matematik – fortsättning nivå 1. */
+(() => {
+  const bank=window.TYPUPPGIFTER_MATO1;
+  const hitta=rubrik=>Object.values(bank).find(g=>g.rubrik===rubrik);
+  const taBort=rubrik=>{
+    const nyckel=Object.keys(bank).find(k=>bank[k].rubrik===rubrik);
+    if(nyckel) delete bank[nyckel];
+  };
+  const utanSvg=html=>String(html||"").replace(/<svg[\s\S]*?<\/svg>/i,"");
+
+  [
+    "Kvadratkomplettera och tolka",
+    "Bestäm en funktion från givna villkor",
+    "Bestäm derivatan från definitionen",
+    "Läs av en tangentlutning",
+    "Tolka marginalkostnad",
+    "Avgör deriverbarhet i en spets",
+    "Bestäm parametrar för deriverbarhet",
+    "Bestäm en integrationsgräns"
+  ].forEach(taBort);
+
+  const tangentKorrekt='<svg class="dg" viewBox="0 0 650 410" role="img" aria-label="Parabeln y lika med x kvadrat med punkten P, en tangent i P och två sekantlägen när Q närmar sig P">'
+    +'<path class="dg-rut" d="M40 40V340M100 40V340M160 40V340M220 40V340M280 40V340M340 40V340M400 40V340M460 40V340M520 40V340M580 40V340M40 340H580M40 280H580M40 220H580M40 160H580M40 100H580M40 40H580"/>'
+    +'<path class="dg-axel" d="M30 340H610M100 360V20"/><path class="dg-pil" d="M620 340l-13-6v12zM100 9l-6 13h12z"/>'
+    +'<path class="dg-linje" d="M60 330.4 Q190 392.8 320 49.6"/><line class="dg-delta" x1="125" y1="370" x2="380" y2="64"/><line class="dg-hjalp" x1="150" y1="370" x2="355" y2="1"/><line class="dg-hjalp" x1="140" y1="370" x2="380" y2="10" stroke-dasharray="8 6"/>'
+    +'<circle class="dg-vald" cx="200" cy="280" r="8"/><circle class="dg-matt" cx="300" cy="100" r="7"/><circle class="dg-matt" cx="250" cy="205" r="6"/>'
+    +'<text class="dg-etikett" x="167" y="274">P(1, 1)</text><text class="dg-etikett" x="311" y="94">Q(2, 4)</text><text class="dg-etikett" x="260" y="199">Q närmare P</text><text class="dg-etikett" x="390" y="78">tangent i P</text><text class="dg-txt" x="365" y="28">sekant P–Q</text><text class="dg-txt" x="388" y="145">närmare sekant</text>'
+    +'<text class="dg-txt" x="615" y="332">x</text><text class="dg-txt" x="111" y="20">y</text><text class="dg-not" x="325" y="397" text-anchor="middle">När Q närmar sig P närmar sig sekantens lutning tangentens lutning.</text></svg>';
+
+  const derivataTeckenFigur='<svg class="dg" viewBox="0 0 680 470" role="img" aria-label="Två samordnade grafer visar funktionen f med en minimipunkt vid x lika med 2 och derivatan f prim som byter tecken från minus till plus där">'
+    +'<text class="dg-rubrik" x="35" y="35">Funktionen f</text><path class="dg-rut" d="M80 55V215M180 55V215M280 55V215M380 55V215M480 55V215M580 55V215M80 215H580M80 175H580M80 135H580M80 95H580M80 55H580"/><path class="dg-axel" d="M65 175H610M80 225V45"/>'
+    +'<path class="dg-linje" d="M80 55 Q330 295 580 55"/><line class="dg-hjalp" x1="330" y1="45" x2="330" y2="420" stroke-dasharray="7 6"/><circle class="dg-vald" cx="330" cy="175" r="8"/><text class="dg-etikett" x="345" y="164">minimum vid x = 2</text><text class="dg-txt" x="135" y="105">f avtar</text><text class="dg-txt" x="455" y="105">f växer</text>'
+    +'<text class="dg-rubrik" x="35" y="285">Derivatan f′</text><path class="dg-rut" d="M80 300V420M180 300V420M280 300V420M380 300V420M480 300V420M580 300V420M80 420H580M80 380H580M80 340H580M80 300H580"/><path class="dg-axel" d="M65 360H610M80 430V290"/><line class="dg-linje" x1="80" y1="420" x2="580" y2="300"/><circle class="dg-skar" cx="330" cy="360" r="8"/>'
+    +'<text class="dg-etikett" x="345" y="350">f′(2) = 0</text><text class="dg-txt" x="155" y="404">f′(x) &lt; 0</text><text class="dg-txt" x="455" y="326">f′(x) &gt; 0</text><text class="dg-not" x="330" y="458" text-anchor="middle">Negativ derivata → f avtar. Positiv derivata → f växer.</text></svg>';
+
+  const teckentabellFigur='<svg class="dg" viewBox="0 0 820 330" role="img" aria-label="Fullständig teckentabell för f prim lika med 3 gånger x minus 1 gånger x plus 1">'
+    +'<rect class="dg-rut" x="15" y="20" width="790" height="275" rx="12"/><path class="dg-form" d="M135 20V295M15 75H805M15 125H805M15 175H805M15 225H805M15 275H805M275 20V295M385 20V295M525 20V295M635 20V295"/>'
+    +'<g class="dg-rubrik"><text x="75" y="55" text-anchor="middle">x</text><text x="75" y="108" text-anchor="middle">testvärde</text><text x="75" y="158" text-anchor="middle">f′(test)</text><text x="75" y="208" text-anchor="middle">tecken f′</text><text x="75" y="258" text-anchor="middle">f</text></g>'
+    +'<g class="dg-txt" text-anchor="middle"><text x="205" y="55">x &lt; −1</text><text x="330" y="55">−1</text><text x="455" y="55">−1 &lt; x &lt; 1</text><text x="580" y="55">1</text><text x="720" y="55">x &gt; 1</text><text x="205" y="108">−2</text><text x="330" y="108">—</text><text x="455" y="108">0</text><text x="580" y="108">—</text><text x="720" y="108">2</text><text x="205" y="158">9</text><text x="330" y="158">0</text><text x="455" y="158">−3</text><text x="580" y="158">0</text><text x="720" y="158">9</text></g>'
+    +'<g class="dg-etikett" text-anchor="middle" font-size="20"><text x="205" y="210">+</text><text x="330" y="210">0</text><text x="455" y="210">−</text><text x="580" y="210">0</text><text x="720" y="210">+</text></g>'
+    +'<g class="dg-txt" text-anchor="middle"><text x="205" y="260">↗ växer</text><text x="330" y="248">lokalt max</text><text x="330" y="268">f(−1)=2</text><text x="455" y="260">↘ avtar</text><text x="580" y="248">lokalt min</text><text x="580" y="268">f(1)=−2</text><text x="720" y="260">↗ växer</text></g>'
+    +'<text class="dg-not" x="410" y="322" text-anchor="middle">Exempel: f′(−2)=9, f′(0)=−3 och f′(2)=9 bestämmer tecknen i intervallen.</text></svg>';
+
+  const integralKorrekt='<svg class="dg" viewBox="0 0 580 360" role="img" aria-label="Grafen y lika med x minus 1 från noll till två med korrekt markerad triangel under x-axeln från noll till ett och triangel över x-axeln från ett till två">'
+    +'<path class="dg-rut" d="M70 35V300M150 35V300M230 35V300M310 35V300M390 35V300M470 35V300M550 35V300M70 300H550M70 235H550M70 170H550M70 105H550M70 40H550"/><path class="dg-axel" d="M55 170H565M150 315V22"/>'
+    +'<path d="M150 170 L150 235 L230 170 Z" fill="var(--badSoft,rgba(225,85,85,.18))" stroke="var(--bad,#e06464)" stroke-width="2"/><path d="M230 170 L310 105 L310 170 Z" fill="var(--goodSoft,rgba(70,190,145,.18))" stroke="var(--good,#55c49a)" stroke-width="2"/><line class="dg-linje" x1="95" y1="280" x2="365" y2="60"/>'
+    +'<text class="dg-rubrik" x="167" y="205">−0,5</text><text class="dg-rubrik" x="263" y="145">+0,5</text><text class="dg-etikett" x="235" y="158">nollställe x = 1</text><g class="dg-txt"><text x="150" y="191" text-anchor="middle">0</text><text x="230" y="191" text-anchor="middle">1</text><text x="310" y="191" text-anchor="middle">2</text><text x="565" y="161">x</text><text x="161" y="24">y</text></g>'
+    +'<text class="dg-not" x="290" y="340" text-anchor="middle">Integralen: −0,5 + 0,5 = 0. Geometrisk area: 0,5 + 0,5 = 1.</text></svg>';
+
+  const sinTvaFallFigur='<svg class="dg" viewBox="0 0 720 360" role="img" aria-label="Två skalenligt illustrerade trianglar med samma givna sida vinkel sida-data i sinussatsens tvetydiga fall">'
+    +'<text class="dg-rubrik" x="175" y="35" text-anchor="middle">Fall 1: B = 38,7°</text><path class="dg-form" d="M25 290 L323 290 L198 190 Z"/><path class="dg-delta" d="M65 290 A40 40 0 0 0 60 270 M283 290 A40 40 0 0 1 292 265"/><text class="dg-etikett" x="68" y="272">A = 30°</text><text class="dg-etikett" x="251" y="267">B₁ = 38,7°</text><text class="dg-txt" x="92" y="235">b = 10</text><text class="dg-txt" x="264" y="230">a = 8</text><text class="dg-txt" x="188" y="177">C₁ = 111,3°</text>'
+    +'<text class="dg-rubrik" x="535" y="35" text-anchor="middle">Fall 2: B = 141,3°</text><path class="dg-form" d="M390 290 L448 290 L598 170 Z"/><text class="dg-etikett" x="362" y="274">A = 30°</text><text class="dg-etikett" x="454" y="258">B₂ = 141,3°</text><text class="dg-txt" x="487" y="222">b = 10</text><text class="dg-txt" x="530" y="244">a = 8</text><text class="dg-txt" x="592" y="157">C₂ = 8,7°</text>'
+    +'<text class="dg-not" x="360" y="340" text-anchor="middle">Samma sinusvärde: sin 38,7° = sin 141,3°. Båda vinkelsummorna blir möjliga.</text></svg>';
+
+  const tangent=hitta("Förstå derivata som tangentlutning");
+  tangent.t=utanSvg(tangent.t);
+  tangent.figur=tangentKorrekt;
+  tangent.ram="Sekantens lutning är en förändringskvot över ett intervall. När punkten Q flyttas längs kurvan mot P närmar sig sekanten tangenten i P. Derivatan i P är tangentens lutning.";
+  tangent.steg=[
+    {rubrik:"Börja med sekanten",text:"Sekanten går genom två punkter på kurvan, P och Q. Dess lutning beskriver den genomsnittliga förändringen mellan punkterna."},
+    {rubrik:"Flytta Q mot P",text:"När avståndet mellan punkterna minskar vrids sekanten mot tangenten. Figuren visar också ett mellanläge för Q."},
+    {rubrik:"Tolka gränsläget",text:"I gränsläget sammanfaller sekantens lutning med tangentens lutning. Den lutningen är derivatan i P."}
+  ];
+
+  const graftecken=hitta("Koppla derivatans tecken till funktionens graf");
+  graftecken.t="<p>Figuren visar \\(f(x)=(x-2)^2\\) och derivatan \\(f'(x)=2x-4\\). Förklara hur derivatans tecken hänger samman med funktionens graf.</p>";
+  graftecken.figur=derivataTeckenFigur;
+  graftecken.ram="När \\(f'(x)<0\\) avtar funktionen. När \\(f'(x)>0\\) växer den. Om derivatan byter från minus till plus där \\(f'(x)=0\\), har funktionen en lokal minimipunkt.";
+  graftecken.steg=[
+    {rubrik:"Till vänster om x = 2",text:"Derivatans graf ligger under x-axeln. Alltså är \\(f'(x)<0\\), och funktionsgrafen går nedåt när x ökar."},
+    {rubrik:"Vid x = 2",text:"Derivatans graf skär x-axeln, så \\(f'(2)=0\\). Samtidigt har f en horisontell tangent och en minimipunkt."},
+    {rubrik:"Till höger om x = 2",text:"Derivatans graf ligger över x-axeln. Alltså är \\(f'(x)>0\\), och funktionsgrafen går uppåt när x ökar."}
+  ];
+  graftecken.svar="f avtar före x = 2, har en minimipunkt vid x = 2 och växer efter x = 2.";
+
+  const forstaAndra=hitta("Använd första och andra derivatan");
+  forstaAndra.t="<p>Funktionen är \\(f(x)=x^3-3x\\). Bestäm funktionens lokala extrempunkter.</p>";
+  forstaAndra.ram="Kandidater till extrempunkter finns där \\(f'(x)=0\\). Andraderivatan kan sedan visa om punkten är en maximi- eller minimipunkt.";
+  forstaAndra.steg[0].rubrik="Bestäm kandidater till extrempunkter";
+  forstaAndra.steg[0].text="Derivera och lös \\(f'(x)=0\\).";
+
+  const digitalDerivata=hitta("Bestäm derivata och tangent digitalt");
+  digitalDerivata.ram="Ett digitalt verktyg, exempelvis GeoGebra, kan derivera symboliskt. Kontrollera att hela funktionsuttrycket tolkas rätt och skilj på \\(f'(x)\\) och \\(f'(1)\\).";
+
+  const digitalAnalys=hitta("Analysera en funktion digitalt");
+  digitalAnalys.t="<p>Använd ett digitalt verktyg, exempelvis GeoGebra, för att hitta extrempunkterna för \\(f(x)=x^3-3x\\) och klassificera dem.</p>";
+  digitalAnalys.ram="Arbetsgången är: derivera, lös \\(f'(x)=0\\), kontrollera derivatans tecken eller funktionens graf och beräkna extrempunkternas koordinater.";
+
+  const teckentabell=hitta("Gör en teckentabell för derivatan");
+  teckentabell.steg=[
+    {rubrik:"Derivera och hitta gränserna",text:"Derivatans nollställen delar tallinjen i tre intervall.",matte:"\\[f'(x)=3x^2-3=3(x-1)(x+1)\\Rightarrow x=-1,1\\]"},
+    {rubrik:"Välj testvärden",text:"Använd till exempel \\(x=-2\\), \\(x=0\\) och \\(x=2\\), ett värde i varje intervall.",matte:"\\[f'(-2)=9,\\qquad f'(0)=-3,\\qquad f'(2)=9\\]"},
+    {rubrik:"Fyll i hela teckentabellen",text:"Skriv in nollställena, testvärdena, derivatans värden och tecken. Avsluta med vad tecknen innebär för f.",figur:teckentabellFigur},
+    {rubrik:"Formulera slutsatsen",text:"Funktionen växer där derivatan är positiv och avtar där derivatan är negativ.",matte:"\\[\\text{växer: }x<-1\\text{ och }x>1;\\qquad\\text{avtar: }-1<x<1\\]"}
+  ];
+  teckentabell.svar="f växer för \\(x<-1\\) och \\(x>1\\), avtar för \\(-1<x<1\\), har lokal maximipunkt \\((-1,2)\\) och lokal minimipunkt \\((1,-2)\\).";
+
+  const extrem=hitta("Bestäm extrempunkter med derivata");
+  extrem.ram="Hitta först kandidater till extrempunkter genom att lösa \\(f'(x)=0\\). Kontrollera sedan teckenbytet och beräkna punktens y-värde.";
+
+  const integral=hitta("Skilj på integral och geometrisk area");
+  integral.t=utanSvg(integral.t);
+  integral.figur=integralKorrekt;
+
+  const problem=hitta("Tolka derivata i en rörelse");
+  problem.rubrik="Tolka derivata i problemlösning";
+  problem.ram="I ett tillämpat problem beskriver derivatan hur snabbt en storhet förändras. Här är \\(s(t)\\) läget, så \\(s'(t)\\) är den momentana hastigheten. Tecknet visar rörelsens riktning.";
+  problem.komihag="Börja alltid med att ange vad derivatan betyder och vilken enhet den har i just problemet. Ett negativt värde visar här rörelse i negativ riktning.";
+
+  const ack=hitta("Beräkna en ackumulerad mängd");
+  ack.rubrik="Tolka en integrals värde";
+  ack.t="<p>Vatten strömmar in i en tank med flödet \\(r(t)=5+2t\\) liter per minut. Tolka och beräkna \\(\\int_0^4 r(t)\\,dt\\).</p>";
+  ack.ram="När integranden är en förändringshastighet beskriver integralen den sammanlagda förändringen under intervallet. Här omvandlas liter per minut till liter.";
+  ack.steg=[
+    {rubrik:"Tolka integranden och gränserna",text:"\\(r(t)\\) är inflödet i liter per minut och intervallet 0 till 4 betyder de första fyra minuterna."},
+    {rubrik:"Beräkna integralen",text:"En primitiv funktion till \\(5+2t\\) är \\(5t+t^2\\).",matte:"\\[\\int_0^4(5+2t)\\,dt=[5t+t^2]_0^4=20+16=36\\]"},
+    {rubrik:"Svara med betydelse och enhet",text:"Integralens värde är den volym som har tillkommit, inte tankens totala volym."}
+  ];
+  ack.svar="Integralen har värdet 36 liter. Det betyder att 36 liter vatten tillkommer under de första fyra minuterna.";
+  ack.komihag="En integral av en förändringshastighet ger den sammanlagda förändringen. Slutvärdet kräver dessutom att startvärdet är känt.";
+
+  const sinTvaFall={
+    kap:4,omr:"triangelsatser",kurs:["1c"],rubrik:"När sinussatsen ger två fall",niva:"E",
+    t:"<p>I en triangel är \\(A=30^\\circ\\), \\(a=8\\) cm och \\(b=10\\) cm. Bestäm de möjliga värdena på vinkeln \\(B\\).</p>",
+    ram:"När två sidor och en vinkel som inte ligger mellan sidorna är kända kan sinussatsen ge två trianglar. Det beror på att \\(\\sin B=\\sin(180^\\circ-B)\\).",
+    figur:sinTvaFallFigur,
+    steg:[
+      {rubrik:"Använd det kända motstående paret",text:"Sidan a ligger mot A och sidan b mot B.",matte:"\\[\\frac{\\sin B}{b}=\\frac{\\sin A}{a}\\Rightarrow\\sin B=\\frac{10\\sin30^\\circ}{8}=0{,}625\\]"},
+      {rubrik:"Bestäm den första vinkeln",text:"Miniräknarens inversa sinus ger den spetsiga lösningen.",matte:"\\[B_1=\\sin^{-1}(0{,}625)\\approx38{,}7^\\circ\\]"},
+      {rubrik:"Kontrollera supplementvinkeln",text:"Sinus är lika stor för vinkeln och dess supplementvinkel.",matte:"\\[B_2=180^\\circ-B_1\\approx141{,}3^\\circ\\]"},
+      {rubrik:"Kontrollera båda trianglarna",text:"Båda fungerar eftersom vinkelsumman lämnar en positiv tredje vinkel.",matte:"\\[C_1=111{,}3^\\circ,\\qquad C_2=8{,}7^\\circ\\]"}
+    ],
+    svar:"Det finns två möjliga vinklar: \\(B\\approx38{,}7^\\circ\\) eller \\(B\\approx141{,}3^\\circ\\).",
+    komihag:"När du använder invers sinus: pröva alltid också \\(180^\\circ-B\\). Behåll det andra fallet bara om triangelns vinkelsumma och sidlängder gör triangeln möjlig.",
+    traningsfamilj:"Använda sinussatsen"
+  };
+
+  const poster=[];
+  Object.entries(bank).forEach(([nyckel,kort])=>{
+    poster.push([nyckel,kort]);
+    if(kort.rubrik==="Använd sinussatsen") poster.push(["mato1-grund-4-04b",sinTvaFall]);
+  });
+  window.TYPUPPGIFTER_MATO1=Object.fromEntries(poster);
+})();

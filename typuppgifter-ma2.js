@@ -620,3 +620,108 @@
 
   window.TYPUPPGIFTER_MA2 = bank;
 })();
+
+/* Visuell och ämnesdidaktisk slutjustering av Ma2. */
+(() => {
+  const bank=window.TYPUPPGIFTER_MA2;
+  const hitta=rubrik=>Object.values(bank).find(g=>g.rubrik===rubrik);
+  const utanSvg=html=>String(html||"").replace(/<svg[\s\S]*?<\/svg>/i,"");
+
+  const parabelMjuk='<svg class="dg" viewBox="0 0 390 315" role="img" aria-label="Mjuk parabel med nollställena 1 och 3, symmetrilinjen x lika med 2 och minimipunkten 2, minus 1">'
+    +'<path class="dg-rut" d="M34 28V270M78 28V270M122 28V270M166 28V270M210 28V270M254 28V270M298 28V270M342 28V270M34 270H342M34 226H342M34 182H342M34 138H342M34 94H342M34 50H342"/>'
+    +'<path class="dg-axel" d="M34 226H354M78 282V18"/><path class="dg-pil" d="M364 226l-12-5v10zM78 8l-5 12h10z"/><line class="dg-hjalp" x1="166" y1="28" x2="166" y2="270" stroke-dasharray="6 6"/>'
+    +'<path class="dg-linje" d="M78 94 Q166 446 254 94"/><circle class="dg-skar" cx="122" cy="226" r="7"/><circle class="dg-skar" cx="210" cy="226" r="7"/><circle class="dg-vald" cx="166" cy="270" r="7"/>'
+    +'<g class="dg-txt"><text x="34" y="247" text-anchor="middle">−1</text><text x="122" y="247" text-anchor="middle">1</text><text x="166" y="247" text-anchor="middle">2</text><text x="210" y="247" text-anchor="middle">3</text><text x="254" y="247" text-anchor="middle">4</text><text x="298" y="247" text-anchor="middle">5</text><text x="70" y="275" text-anchor="end">−1</text><text x="358" y="217">x</text><text x="88" y="20">y</text></g>'
+    +'<text class="dg-etikett" x="108" y="215">(1, 0)</text><text class="dg-etikett" x="216" y="215">(3, 0)</text><text class="dg-etikett" x="176" y="292">min (2, −1)</text><text class="dg-not" x="174" y="45">symmetrilinje x = 2</text></svg>';
+
+  const nollstalleMjuk='<svg class="dg" viewBox="0 0 390 315" role="img" aria-label="Mjuk parabel med nollställena minus 1 och 4 samt punkten 0, minus 8">'
+    +'<path class="dg-rut" d="M30 28V270M70 28V270M110 28V270M150 28V270M190 28V270M230 28V270M270 28V270M310 28V270M350 28V270M30 126H350M30 78H350M30 30H350M30 174H350M30 222H350M30 270H350"/>'
+    +'<path class="dg-axel" d="M30 126H360M110 280V18"/><path class="dg-pil" d="M370 126l-12-5v10zM110 8l-5 12h10z"/>'
+    +'<path class="dg-linje" d="M50 78 Q170 366 290 78"/><circle class="dg-skar" cx="70" cy="126" r="7"/><circle class="dg-skar" cx="270" cy="126" r="7"/><circle class="dg-vald" cx="110" cy="190" r="7"/>'
+    +'<g class="dg-txt"><text x="30" y="147" text-anchor="middle">−2</text><text x="70" y="147" text-anchor="middle">−1</text><text x="150" y="147" text-anchor="middle">1</text><text x="190" y="147" text-anchor="middle">2</text><text x="230" y="147" text-anchor="middle">3</text><text x="270" y="147" text-anchor="middle">4</text><text x="310" y="147" text-anchor="middle">5</text><text x="102" y="195" text-anchor="end">−8</text><text x="364" y="117">x</text><text x="120" y="20">y</text></g>'
+    +'<text class="dg-etikett" x="45" y="114">x = −1</text><text class="dg-etikett" x="278" y="114">x = 4</text><text class="dg-etikett" x="120" y="184">(0, −8)</text></svg>';
+
+  const yttervinkelFigur='<svg class="dg" viewBox="0 0 620 320" role="img" aria-label="Triangel med en yttervinkel på 137 grader och två motstående inre vinklar på 58 grader och x">'
+    +'<path class="dg-form" d="M80 252 L430 252 L245 58 Z"/><line class="dg-linje" x1="430" y1="252" x2="570" y2="252"/><circle class="dg-matt" cx="80" cy="252" r="5"/><circle class="dg-matt" cx="245" cy="58" r="5"/><circle class="dg-matt" cx="430" cy="252" r="5"/>'
+    +'<path class="dg-delta" d="M125 252 A45 45 0 0 0 111 220"/><path class="dg-delta" d="M221 87 A40 40 0 0 0 274 88"/><path class="dg-linje" d="M468 252 A38 38 0 0 0 456 225"/>'
+    +'<text class="dg-etikett" x="120" y="232">58°</text><text class="dg-rubrik" x="245" y="113" text-anchor="middle">x°</text><text class="dg-etikett" x="475" y="226">137°</text><text class="dg-txt" x="68" y="276">A</text><text class="dg-txt" x="238" y="45">C</text><text class="dg-txt" x="425" y="276">B</text>'
+    +'<text class="dg-not" x="310" y="305" text-anchor="middle">Yttervinkeln = summan av de två motstående inre vinklarna.</text></svg>';
+
+  const pythagorasFigur='<svg class="dg" viewBox="0 0 520 300" role="img" aria-label="Rätvinklig triangel med kateterna 7 och 24 centimeter och hypotenusan c">'
+    +'<path class="dg-form" d="M105 245 L105 70 L425 245 Z"/><path class="dg-delta" d="M105 215 H135 V245"/><text class="dg-etikett" x="69" y="160">7 cm</text><text class="dg-etikett" x="250" y="270">24 cm</text><text class="dg-etikett" x="279" y="142" transform="rotate(29 279 142)">c</text><text class="dg-not" x="260" y="294" text-anchor="middle">Hypotenusan ligger mitt emot den räta vinkeln.</text></svg>';
+
+  const likformighetFigur='<svg class="dg" viewBox="0 0 650 330" role="img" aria-label="Två likformiga trianglar med markerade motsvarande sidor">'
+    +'<path class="dg-form" d="M55 250 L55 112 L225 250 Z"/><path class="dg-form" d="M330 250 L330 55 L585 250 Z"/><path class="dg-delta" d="M55 112 L225 250 M330 55 L585 250"/><path class="dg-linje" d="M55 250 V112 M330 250 V55"/>'
+    +'<text class="dg-etikett" x="25" y="184">6 cm</text><text class="dg-etikett" x="116" y="276">8 cm</text><text class="dg-etikett" x="290" y="155">15 cm</text><text class="dg-etikett" x="450" y="276">x</text>'
+    +'<path class="dg-delta" d="M55 230 H75 V250 M330 230 H350 V250"/><text class="dg-rubrik" x="140" y="75" text-anchor="middle">liten</text><text class="dg-rubrik" x="458" y="30" text-anchor="middle">stor</text><text class="dg-not" x="325" y="313" text-anchor="middle">Samma färg markerar sidor som motsvarar varandra.</text></svg>';
+
+  const topptriangelFigur='<svg class="dg" viewBox="0 0 620 390" role="img" aria-label="Triangel ABC med en sträcka DE parallell med basen BC">'
+    +'<path class="dg-form" d="M300 42 L75 330 L545 330 Z"/><line class="dg-linje" x1="225" y1="138" x2="382" y2="138"/><line class="dg-delta" x1="75" y1="330" x2="545" y2="330"/>'
+    +'<text class="dg-txt" x="294" y="30">A</text><text class="dg-txt" x="56" y="350">B</text><text class="dg-txt" x="550" y="350">C</text><text class="dg-txt" x="207" y="136">D</text><text class="dg-txt" x="390" y="136">E</text>'
+    +'<text class="dg-etikett" x="238" y="92">AD = 4</text><text class="dg-etikett" x="126" y="244">DB = 8</text><text class="dg-etikett" x="278" y="116">DE = 5</text><text class="dg-etikett" x="290" y="358">BC = x</text>'
+    +'<path class="dg-linje" d="M289 132 l10 6 10-6 M289 324 l10 6 10-6"/><text class="dg-not" x="310" y="382" text-anchor="middle">DE ∥ BC ⇒ △ADE är likformig med △ABC.</text></svg>';
+
+  const likformighetsbevisFigur='<svg class="dg" viewBox="0 0 650 300" role="img" aria-label="Två trianglar med lika vinklar 50 och 70 grader">'
+    +'<path class="dg-form" d="M55 245 L155 55 L270 245 Z"/><path class="dg-form" d="M350 245 L470 76 L600 245 Z"/>'
+    +'<text class="dg-etikett" x="73" y="230">50°</text><text class="dg-etikett" x="160" y="86">70°</text><text class="dg-etikett" x="235" y="230">60°</text><text class="dg-etikett" x="369" y="230">50°</text><text class="dg-etikett" x="472" y="105">70°</text><text class="dg-etikett" x="560" y="230">60°</text>'
+    +'<text class="dg-rubrik" x="325" y="280" text-anchor="middle">Två lika vinklar ⇒ trianglarna är likformiga (VV).</text></svg>';
+
+  const kordaFigur='<svg class="dg" viewBox="0 0 520 340" role="img" aria-label="Två kordor AB och CD som skär varandra i punkten P">'
+    +'<circle class="dg-form" cx="260" cy="170" r="135"/><line class="dg-form" x1="132" y1="125" x2="390" y2="230"/><line class="dg-linje" x1="160" y1="265" x2="365" y2="70"/><circle class="dg-vald" cx="265" cy="179" r="7"/>'
+    +'<text class="dg-txt" x="112" y="118">A</text><text class="dg-txt" x="397" y="241">B</text><text class="dg-txt" x="143" y="282">C</text><text class="dg-txt" x="371" y="64">D</text><text class="dg-etikett" x="276" y="174">P</text>'
+    +'<text class="dg-etikett" x="190" y="143">5</text><text class="dg-etikett" x="326" y="212">6</text><text class="dg-etikett" x="208" y="232">3</text><text class="dg-etikett" x="315" y="118">x</text><text class="dg-not" x="260" y="329" text-anchor="middle">AP · PB = CP · PD</text></svg>';
+
+  const koordinatFigur='<svg class="dg" viewBox="0 0 620 390" role="img" aria-label="Koordinatsystem med punkterna A 1,2 och B 7,10 samt en rätvinklig hjälptriangel">'
+    +'<path class="dg-rut" d="M70 40V340M120 40V340M170 40V340M220 40V340M270 40V340M320 40V340M370 40V340M420 40V340M470 40V340M520 40V340M570 40V340M70 340H570M70 290H570M70 240H570M70 190H570M70 140H570M70 90H570M70 40H570"/>'
+    +'<path class="dg-axel" d="M60 340H590M70 355V25"/><path class="dg-linje" d="M120 290 L420 90"/><path class="dg-hjalp" d="M120 290 H420 V90" stroke-dasharray="7 6"/><circle class="dg-skar" cx="120" cy="290" r="7"/><circle class="dg-skar" cx="420" cy="90" r="7"/><circle class="dg-vald" cx="270" cy="190" r="7"/>'
+    +'<text class="dg-etikett" x="88" y="282">A(1, 2)</text><text class="dg-etikett" x="430" y="82">B(7, 10)</text><text class="dg-etikett" x="280" y="183">M(4, 6)</text><text class="dg-txt" x="250" y="315">Δx = 6</text><text class="dg-txt" x="430" y="200">Δy = 8</text></svg>';
+
+  const ratVinkelFigur='<svg class="dg" viewBox="0 0 560 340" role="img" aria-label="Koordinatsystem med triangeln A 0,0, B 4,0 och C 4,3 som är rätvinklig i B">'
+    +'<path class="dg-rut" d="M70 45V285M130 45V285M190 45V285M250 45V285M310 45V285M370 45V285M430 45V285M490 45V285M70 285H490M70 225H490M70 165H490M70 105H490M70 45H490"/><path class="dg-axel" d="M55 285H515M70 305V25"/>'
+    +'<path class="dg-form" d="M70 285 L310 285 L310 105 Z"/><path class="dg-delta" d="M290 285 V265 H310"/><circle class="dg-skar" cx="70" cy="285" r="6"/><circle class="dg-skar" cx="310" cy="285" r="6"/><circle class="dg-skar" cx="310" cy="105" r="6"/>'
+    +'<text class="dg-etikett" x="82" y="276">A(0, 0)</text><text class="dg-etikett" x="320" y="280">B(4, 0)</text><text class="dg-etikett" x="320" y="100">C(4, 3)</text><text class="dg-txt" x="184" y="310">AB = 4</text><text class="dg-txt" x="320" y="205">BC = 3</text><text class="dg-txt" x="172" y="175">AC = 5</text></svg>';
+
+  const grafiskSystemFigur='<svg class="dg" viewBox="0 0 430 330" role="img" aria-label="Koordinatsystem där två räta linjer skär varandra tydligt i punkten 2,3">'
+    +'<path class="dg-rut" d="M45 30V280M95 30V280M145 30V280M195 30V280M245 30V280M295 30V280M345 30V280M395 30V280M45 280H395M45 230H395M45 180H395M45 130H395M45 80H395M45 30H395"/><path class="dg-axel" d="M35 280H410M95 295V18"/>'
+    +'<path class="dg-linje" d="M45 280 L295 30"/><path class="dg-form" d="M95 30 L345 280"/><circle cx="195" cy="130" r="16" fill="none" class="dg-delta" opacity=".55"/><circle class="dg-skar" cx="195" cy="130" r="8"/><line class="dg-hjalp" x1="195" y1="130" x2="195" y2="280" stroke-dasharray="6 6"/><line class="dg-hjalp" x1="95" y1="130" x2="195" y2="130" stroke-dasharray="6 6"/>'
+    +'<text class="dg-etikett" x="212" y="118">skärningspunkt (2, 3)</text><text class="dg-txt" x="300" y="52">y = x + 1</text><text class="dg-txt" x="275" y="248">y = −x + 5</text><text class="dg-txt" x="416" y="273">x</text><text class="dg-txt" x="104" y="18">y</text></svg>';
+
+  const grafiskExponentialFigur='<svg class="dg" viewBox="0 0 450 340" role="img" aria-label="Koordinatsystem där exponentialkurvan y lika med 3 gånger 1,5 upphöjt till x skär linjen y lika med 10 vid x ungefär 2,97">'
+    +'<path class="dg-rut" d="M55 30V285M115 30V285M175 30V285M235 30V285M295 30V285M355 30V285M415 30V285M55 285H415M55 225H415M55 165H415M55 105H415M55 45H415"/><path class="dg-axel" d="M45 285H430M55 300V18"/>'
+    +'<path class="dg-linje" d="M55 240 C115 232 185 205 233 135 C270 82 320 45 350 25"/><line class="dg-form" x1="55" y1="135" x2="415" y2="135"/><circle cx="233" cy="135" r="17" fill="none" class="dg-delta" opacity=".55"/><circle class="dg-skar" cx="233" cy="135" r="8"/><line class="dg-hjalp" x1="233" y1="135" x2="233" y2="285" stroke-dasharray="6 6"/>'
+    +'<text class="dg-etikett" x="248" y="118">skärning (2,97; 10)</text><text class="dg-txt" x="365" y="152">y = 10</text><text class="dg-txt" x="280" y="78">y = 3 · 1,5ˣ</text><text class="dg-txt" x="435" y="279">x</text><text class="dg-txt" x="65" y="20">y</text></svg>';
+
+  const andragrad=hitta("Bestäm nollställen, symmetrilinje och extrempunkt");
+  andragrad.t=utanSvg(andragrad.t);
+  andragrad.figur=parabelMjuk;
+
+  const franNoll=hitta("Bestäm en andragradsfunktion från nollställen");
+  franNoll.kurs=["2c"];
+  franNoll.t=utanSvg(franNoll.t);
+  franNoll.figur=nollstalleMjuk;
+
+  const system=hitta("Förstå lösningen till ett ekvationssystem");
+  system.t=utanSvg(system.t);
+  system.figur=grafiskSystemFigur;
+
+  const expGrafiskt=hitta("Lös en exponentialekvation grafiskt");
+  expGrafiskt.t=utanSvg(expGrafiskt.t);
+  expGrafiskt.figur=grafiskExponentialFigur;
+
+  const figurer={
+    "Använd yttervinkelsatsen":yttervinkelFigur,
+    "Beräkna en längd med Pythagoras sats":pythagorasFigur,
+    "Beräkna med likformighet":likformighetFigur,
+    "Använd topptriangelsatsen":topptriangelFigur,
+    "Visa att två trianglar är likformiga":likformighetsbevisFigur,
+    "Använd kordasatsen":kordaFigur,
+    "Bestäm avstånd och mittpunkt":koordinatFigur,
+    "Kontrollera en rät vinkel med koordinater":ratVinkelFigur
+  };
+  Object.entries(figurer).forEach(([rubrik,figur])=>{const kort=hitta(rubrik);if(kort)kort.figur=figur;});
+
+  /* Programspecifika tillämpningar ska inte ingå i ”Det här behöver du kunna”. */
+  Object.keys(bank).forEach(nyckel=>{
+    if(bank[nyckel].kap===5) delete bank[nyckel];
+  });
+})();

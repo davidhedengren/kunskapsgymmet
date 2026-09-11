@@ -410,3 +410,18 @@
 
   window.TYPUPPGIFTER_MATF1 = bank;
 })();
+
+/* Slutrevision: kort som inte ska ligga i ”Det här behöver du kunna”. */
+(() => {
+  const bank = window.TYPUPPGIFTER_MATF1 || {};
+  const bort = new Set([
+    "Euklides algoritm – metod och historia",
+    "Programmera en rekursion",
+    "Analysera en modell digitalt",
+    "Utvärdera en matematisk modell"
+  ]);
+  Object.keys(bank).forEach(nyckel => {
+    if (bort.has(bank[nyckel].rubrik)) delete bank[nyckel];
+  });
+  window.TYPUPPGIFTER_MATF1 = bank;
+})();

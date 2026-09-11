@@ -1,7 +1,6 @@
-/* strukturmato2.js — Matematik – fortsättning nivå 2.
-   Förenklad struktur med färre, bredare områden.
-   Kapitelordningen följer boken och innehållet är filtrerat mot aktuell ämnesplan.
-   Mer detaljerade uppgiftstyper finns kvar i familj-taggarna. */
+/* strukturmato2.js — intern understruktur och elevsynliga träningsområden för Matematik – fortsättning nivå 2.
+   OMR bevaras för bank/progression. GRUPPMATO2 definierar elevens större områden; familj är delmoment.
+   Reviderad 2026-09-07. */
 
 window.KAPNAMNMATO2 = {
   "1": "Trigonometri",
@@ -48,3 +47,86 @@ window.SPARMATO2 = Object.fromEntries(
     Object.fromEntries(Object.keys(omr).map(key => [key, ["2c"]]))
   ])
 );
+
+window.GRUPPMATO2 = {
+  "1": [
+    {
+      "id": "trig_samband",
+      "namn": "Enhetscirkeln, radianer, samband och ekvationer",
+      "omr": [
+        "enhetscirkeln",
+        "radianer",
+        "trig_formler",
+        "trig_ekvationer"
+      ]
+    },
+    {
+      "id": "trig_funktioner_modeller",
+      "namn": "Trigonometriska funktioner och modeller",
+      "omr": [
+        "trig_funktioner",
+        "trig_modeller"
+      ]
+    }
+  ],
+  "2": [
+    {
+      "id": "deriveringsregler",
+      "namn": "Deriveringsregler",
+      "omr": [
+        "deriveringsregler",
+        "kedjeregel_sammansatta",
+        "derivator_specialfunktioner"
+      ]
+    },
+    {
+      "id": "grafanalys_tillampningar",
+      "namn": "Grafanalys och tillämpningar av derivata",
+      "omr": [
+        "grafer_asymptoter",
+        "tillampningar_derivata"
+      ]
+    }
+  ],
+  "3": [
+    {
+      "id": "integral_area",
+      "namn": "Integralberäkning och area",
+      "omr": [
+        "integralberakning",
+        "area_integraler"
+      ]
+    },
+    {
+      "id": "integral_tillampningar",
+      "namn": "Integraler i tillämpningar, sannolikhet och rotationsvolymer",
+      "omr": [
+        "integral_tillampningar",
+        "sannolikhetsintegraler",
+        "rotationsvolymer"
+      ]
+    }
+  ],
+  "4": [
+    {
+      "id": "komplex_grunder",
+      "namn": "Komplexa tal och det komplexa talplanet",
+      "omr": [
+        "komplex_aritmetik",
+        "komplexa_talplanet"
+      ]
+    },
+    {
+      "id": "komplex_polar",
+      "namn": "Polär form, potenser, rötter och polynom",
+      "omr": [
+        "polar_exponentiell",
+        "potenser_rotter",
+        "polynom_komplexa"
+      ]
+    }
+  ]
+};
+
+/* Visa kursens pedagogiska underområden som egna träningskort. */
+window.GRUPPMATO2 = {};

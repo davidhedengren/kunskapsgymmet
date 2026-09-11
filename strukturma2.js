@@ -1,4 +1,7 @@
-/* strukturma2.js — kapitel, områden, kursspår och visningsgrupper för Matematik nivå 2. */
+/* strukturma2.js — kapitel, underområden och elevsynliga träningsområden för Matematik nivå 2.
+   OMR-nycklarna bevaras för uppgiftsbank och sparad progression.
+   GRUPPMA2 definierar de elevsynliga områdena i Kunskapsgymmet; familj används som delmoment inom dessa.
+   Reviderad 2026-09-07. */
 
 window.KAPNAMNMA2 = {
   "1": "Algebra",
@@ -7,6 +10,7 @@ window.KAPNAMNMA2 = {
   "4": "Statistik",
   "5": "Programspecifika tillämpningar"
 };
+
 window.OMRMA2 = {
   "1": {
     "rata_linjens_ekvation": "Räta linjens ekvation",
@@ -82,6 +86,7 @@ window.OMRMA2 = {
     "samhallsvetenskapsprogrammet": "Samhällsvetenskapsprogrammet"
   }
 };
+
 window.SPARMA2 = {
   "1": {
     "rata_linjens_ekvation": [
@@ -374,11 +379,21 @@ window.SPARMA2 = {
     ]
   }
 };
+
 window.GRUPPMA2 = {
   "1": [
     {
+      "id": "linjara_funktioner",
+      "namn": "Räta linjer och linjära funktioner",
+      "omr": [
+        "rata_linjens_ekvation",
+        "linjara_representationer",
+        "bestamma_linjara_funktioner"
+      ]
+    },
+    {
       "id": "ekvationssystem",
-      "namn": "Ekvationssystem",
+      "namn": "Linjära ekvationssystem",
       "omr": [
         "linjara_ekvationssystem",
         "grafisk_losning_ekvationssystem",
@@ -387,6 +402,16 @@ window.GRUPPMA2 = {
         "ekvationssystem_tre_obekanta",
         "speciella_ekvationssystem",
         "ekvationssystem_tillampningar"
+      ]
+    },
+    {
+      "id": "algebraiska_regler",
+      "namn": "Algebraiska uttryck och räkneregler",
+      "omr": [
+        "multiplicera_parenteser",
+        "konjugatregeln",
+        "kvadreringsreglerna",
+        "faktorisering"
       ]
     }
   ],
@@ -414,6 +439,109 @@ window.GRUPPMA2 = {
         "fran_graf_till_formel",
         "andragradsfunktioner_tillampningar"
       ]
+    },
+    {
+      "id": "potenser_potensekvationer",
+      "namn": "Potenser och potensekvationer",
+      "omr": [
+        "potensregler",
+        "potensekvationer"
+      ]
+    },
+    {
+      "id": "potens_exponentialfunktioner",
+      "namn": "Potens- och exponentialfunktioner",
+      "omr": [
+        "potensfunktioner",
+        "exponentialfunktioner",
+        "exponentialgraf",
+        "jamfora_exponential_potens"
+      ]
+    },
+    {
+      "id": "logaritmer",
+      "namn": "Logaritmer",
+      "omr": [
+        "logaritmbegreppet",
+        "logaritmlagar"
+      ]
+    },
+    {
+      "id": "regressionsmodeller",
+      "namn": "Regressionsmodeller och modellval",
+      "omr": [
+        "regressionsanalys_olika_modeller",
+        "modellval_regression"
+      ]
+    }
+  ],
+  "3": [
+    {
+      "id": "geometri_bevis",
+      "namn": "Geometriska begrepp och bevis",
+      "omr": [
+        "geometriska_begrepp_definitioner",
+        "sats_bevis",
+        "implikation_ekvivalens",
+        "yttervinkelsatsen"
+      ]
+    },
+    {
+      "id": "cirkelgeometri",
+      "namn": "Cirkelgeometri",
+      "omr": [
+        "randvinkel_medelpunkt",
+        "kordasatsen_biskarningssatsen"
+      ]
+    },
+    {
+      "id": "likformighet",
+      "namn": "Likformighet och geometriska samband",
+      "omr": [
+        "likformighet",
+        "topptriangel_transversal",
+        "bevis_likformighet"
+      ]
+    },
+    {
+      "id": "koordinatgeometri",
+      "namn": "Pythagoras och koordinatgeometri",
+      "omr": [
+        "pythagoras",
+        "avstandsformeln_mittpunktsformeln",
+        "koordinatgeometri_problemlosning"
+      ]
+    }
+  ],
+  "4": [
+    {
+      "id": "lages_spridningsmatt",
+      "namn": "Läges- och spridningsmått",
+      "omr": [
+        "lagesmatt",
+        "kvartiler_percentiler",
+        "ladagram",
+        "standardavvikelse"
+      ]
+    },
+    {
+      "id": "regression_korrelation",
+      "namn": "Regression och korrelation",
+      "omr": [
+        "linjar_regression",
+        "korrelation_koefficient"
+      ]
+    },
+    {
+      "id": "normalfordelning",
+      "namn": "Normalfördelning",
+      "omr": [
+        "normalfordelat_material",
+        "normalfordelning_digitala_verktyg"
+      ]
     }
   ]
 };
+
+/* Visa kursens pedagogiska underområden som egna träningskort. */
+window.GRUPPMA2 = {};

@@ -475,10 +475,14 @@ a{color:inherit}
 }
 .tmedalj .marke{width:13px;stroke-width:2}
 .tfler{font-size:11px;font-weight:600;color:var(--ink3);margin-left:2px}
-.topprad .tvarde{
-  flex:none;min-width:62px;text-align:right;font-size:14px;font-weight:700;
-  letter-spacing:-.03em;color:var(--gold);
+.topprad .tvarde,.topprad .tuppg{
+  flex:none;text-align:right;font-size:14px;font-weight:700;
+  letter-spacing:-.03em;font-variant-numeric:tabular-nums;white-space:nowrap;
 }
+.topprad .tvarde{min-width:70px;color:var(--gold)}
+.topprad .tuppg{min-width:62px;color:var(--ink2)}
+.topprad .tvarde small,.topprad .tuppg small{
+  margin-left:3px;font-size:11px;font-weight:600;color:var(--ink3);letter-spacing:0}
 
 .topprad.jag{
   background:var(--accSoft);border-radius:14px;border-bottom-color:transparent;
@@ -494,7 +498,8 @@ a{color:inherit}
 @media(max-width:520px){
   .topprad{gap:10px;padding:11px 4px}
   .topprad .tmedaljer{display:none}
-  .topprad .tvarde{min-width:52px;font-size:13.5px}
+  .topprad .tvarde{min-width:58px;font-size:13.5px}
+  .topprad .tuppg{min-width:48px;font-size:13px}
 }
 
 h1,h2,h3{letter-spacing:-.04em;margin:0}
@@ -2168,7 +2173,7 @@ const state={
   focusOmr:null, focusNamn:null, senasteUrsprung:[],
   flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
-  toppSort:"xp",
+  toppSort:"dag",
   lastIds:[], solutionShown:false, answered:false, ggForslag:null
 };
 
@@ -2269,36 +2274,53 @@ async function vaxlaTopplista(pa){
   return reply;
 }
 
-const TOPP_SORT={xp:"xp",uppgifter:"uppgifter",dagar:"dagar"};
-async function hamtaTopplista(sortering,gräns=50){
-  const kol=TOPP_SORT[sortering]||"xp";
+/* Topplistans flikar. "alla" läser den vanliga vyn (totalt XP),
+   de andra hämtar tillväxt under perioden från databasfunktionen
+   topplista_period (se topplista-perioder.sql). */
+const TOPP_FLIKAR={
+  dag:  {txt:"Bäst idag",      fot:"XP och uppgifter sedan midnatt idag"},
+  vecka:{txt:"Veckans bästa",  fot:"XP och uppgifter sedan måndag denna vecka"},
+  manad:{txt:"Månadens bästa", fot:"XP och uppgifter sedan den 1:a denna månad"},
+  alla: {txt:"All time high",  fot:"Totalt XP och uppgifter sedan starten"}
+};
+const TOPP_SORT=TOPP_FLIKAR;
+async function hamtaTopplista(flik,gräns=50){
   if(!MOLN_PA()) return null;
-
   const inloggad = !!session && await giltigSession();
   try{
-    const r=await fetch(SUPABASE_URL+"/rest/v1/topplista"
-      +"?select=namn,xp,niva,rang,uppgifter,dagar,medaljer"
-      +"&visa=eq.true&order="+kol+".desc&limit="+gräns,
-      {headers:sbHeaders(inloggad)});
-    if(!r.ok){
-
-      let txt=""; try{ txt=await r.text(); }catch(_){}
-      console.warn("Topplistan svarade "+r.status+": "+txt);
-      return null;
+    if(flik==="alla"){
+      const r=await fetch(SUPABASE_URL+"/rest/v1/topplista"
+        +"?select=namn,xp,niva,rang,uppgifter,dagar,medaljer"
+        +"&visa=eq.true&order=xp.desc,uppgifter.desc&limit="+gräns,
+        {headers:sbHeaders(inloggad)});
+      if(!r.ok){
+        let txt=""; try{ txt=await r.text(); }catch(_){}
+        console.warn("Topplistan svarade "+r.status+": "+txt);
+        return null;
+      }
+      return {rader:await r.json(),plats:await minPlacering()};
     }
-    return await r.json();
+    const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/topplista_period",{
+      method:"POST",headers:sbHeaders(inloggad),
+      body:JSON.stringify({p_period:flik,p_limit:gräns,
+        p_namn:(session && profile.visaTopplista && profile.namn)?profile.namn:null})
+    });
+    if(!r.ok){
+      let txt=""; try{ txt=await r.text(); }catch(_){}
+      console.warn("Topplistan ("+flik+") svarade "+r.status+": "+txt);
+      return r.status===404 ? {saknas:true} : null;
+    }
+    const d=await r.json();
+    return {rader:Array.isArray(d?.rader)?d.rader:[],plats:d?.plats??null};
   }catch(_){ return null; }
 }
 
-async function minPlacering(sortering){
-  const kol=TOPP_SORT[sortering]||"xp";
+async function minPlacering(){
   if(!session || !profile.visaTopplista || !profile.namn) return null;
   if(!acceptedProfile || !await giltigSession()) return null;
-  const acceptedDay=acceptedProfile.lastDay;
-  const streak=(acceptedDay===todayKey() || acceptedDay===yesterdayKey())?acceptedProfile.streak||0:0;
-  const mitt={xp:acceptedProfile.xp||0,uppgifter:acceptedProfile.attempts||0,dagar:streak}[kol];
+  const mitt=acceptedProfile.xp||0;
   try{
-    const r=await fetch(SUPABASE_URL+"/rest/v1/topplista?select=id&visa=eq.true&"+kol+"=gt."+mitt,
+    const r=await fetch(SUPABASE_URL+"/rest/v1/topplista?select=id&visa=eq.true&xp=gt."+mitt,
       {headers:{...sbHeaders(true),Prefer:"count=exact",Range:"0-0"}});
     if(!r.ok) return null;
     const cr=r.headers.get("content-range")||"";
@@ -6842,19 +6864,20 @@ function renderSessionDone(record){
 
 function oppnaTopplista(sortering,record){
   document.getElementById("kontomeny")?.remove();
-  state.toppSort=TOPP_SORT[sortering]?sortering:(state.toppSort||"xp");
+  state.toppSort=TOPP_FLIKAR[sortering]?sortering
+    :(TOPP_FLIKAR[state.toppSort]?state.toppSort:"dag");
   if(record!==false) navRecord("topplista");
   state.view="topplista";
   ritaTopplista(true);
   laddaTopplista();
 }
 
-function ritaTopplista(laddar,rader,placering){
-  const s=state.toppSort||"xp";
-  const flik=(id,txt)=>`<button class="fliknapp${s===id?" pa":""}"
-    onclick="oppnaTopplista('${id}',false)">${txt}</button>`;
-  const sorterat={xp:"XP",uppgifter:"antal tränade uppgifter",
-                  dagar:"dagsstreck just nu"}[s];
+function ritaTopplista(laddar,svar){
+  const s=TOPP_FLIKAR[state.toppSort]?state.toppSort:"dag";
+  const rader=svar?.rader, placering=svar?.plats;
+  const flik=id=>`<button class="fliknapp${s===id?" pa":""}" role="tab"
+    aria-selected="${s===id?"true":"false"}"
+    onclick="oppnaTopplista('${id}',false)">${TOPP_FLIKAR[id].txt}</button>`;
 
   const egen = !session
     ? `<div class="toppnotis">
@@ -6883,10 +6906,14 @@ function ritaTopplista(laddar,rader,placering){
   let lista;
   if(laddar){
     lista=`<div class="toppladdar">Hämtar listan…</div>`;
+  }else if(svar?.saknas){
+    lista=`<div class="empty">Den här listan är inte aktiverad än. Prova fliken All time high så länge.</div>`;
   }else if(!rader){
     lista=`<div class="empty">Kunde inte hämta topplistan just nu. Försök igen om en stund.</div>`;
   }else if(!rader.length){
-    lista=`<div class="empty">Ingen har ställt sig på listan än.${session?" Du kan bli först.":" Logga in så kan du bli först."}</div>`;
+    lista = s==="alla"
+      ? `<div class="empty">Ingen har ställt sig på listan än.${session?" Du kan bli först.":" Logga in så kan du bli först."}</div>`
+      : `<div class="empty">Ingen har samlat XP ${{dag:"idag",vecka:"den här veckan",manad:"den här månaden"}[s]} än.${session?" Du kan bli först.":""}</div>`;
   }else{
     lista=`<ol class="topplista">${rader.map((rad,i)=>{
       const jag = profile.namn && rad.namn===profile.namn;
@@ -6895,7 +6922,7 @@ function ritaTopplista(laddar,rader,placering){
         const b=BADGES.find(x=>x.id===id);
         return b?`<span class="tmedalj" title="${esc(b.name)}">${medaljIkon(b.icon)}</span>`:"";
       }).join("");
-      const varde={xp:rad.xp+" XP",uppgifter:rad.uppgifter,dagar:rad.dagar+" d"}[s];
+      const xp=Number(rad.xp)||0, uppg=Number(rad.uppgifter)||0;
       return `<li class="topprad${jag?" jag":""}${i<3?" pall":""}">
         <span class="plats">${i+1}</span>
         <span class="tnamn">
@@ -6903,10 +6930,11 @@ function ritaTopplista(laddar,rader,placering){
           <small>Nivå ${rad.niva||1}${rad.rang?" · "+esc(rad.rang):""}</small>
         </span>
         <span class="tmedaljer">${visade}${medaljer.length>5?`<span class="tfler">+${medaljer.length-5}</span>`:""}</span>
-        <span class="tvarde">${esc(String(varde))}</span>
+        <span class="tuppg" title="Uppgifter">${uppg}<small>uppg.</small></span>
+        <span class="tvarde" title="XP">${xp}<small>XP</small></span>
       </li>`;
     }).join("")}</ol>
-    <p class="toppfot">Sorterat på ${sorterat}. Bara de som själva valt att synas står med.</p>`;
+    <p class="toppfot">${TOPP_FLIKAR[s].fot}, sorterat på XP. Bara de som själva valt att synas står med.</p>`;
   }
 
   app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
@@ -6918,17 +6946,18 @@ function ritaTopplista(laddar,rader,placering){
       </div>
     </div>
     ${egen}
-    <div class="flikar">${flik("xp","XP")}${flik("uppgifter","Uppgifter")}${flik("dagar","Dagar i rad")}</div>
+    <div class="flikar" role="tablist">${Object.keys(TOPP_FLIKAR).map(flik).join("")}</div>
     <div class="card pad" style="margin-top:14px">${lista}</div>
   </main>`;
   afterRender();
 }
 
+let toppAnrop=0;
 async function laddaTopplista(){
-  const s=state.toppSort||"xp";
-  const [rader,plats]=await Promise.all([hamtaTopplista(s),minPlacering(s)]);
-  if(state.view!=="topplista") return;
-  ritaTopplista(false,rader,plats);
+  const s=state.toppSort, nr=++toppAnrop;
+  const svar=await hamtaTopplista(s);
+  if(state.view!=="topplista" || nr!==toppAnrop || s!==state.toppSort) return;
+  ritaTopplista(false,svar);
 }
 
 async function snabbVisa(pa){

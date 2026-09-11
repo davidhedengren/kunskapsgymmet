@@ -1416,6 +1416,16 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);
 }
 .modal-topp h2{margin-top:6px;font-size:22px;letter-spacing:-.04em}
+.gg-modalrubrik{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.gg-modalrubrik h2{margin-right:2px}
+.gg-formelknapp{
+  display:flex;align-items:center;gap:5px;padding:5px 8px;margin-top:6px;
+  border-radius:9px;border:1px solid var(--hair);background:transparent;
+  color:var(--ink3);font-size:11px;font-weight:650;transition:.2s var(--ease)
+}
+.gg-formelknapp svg{width:14px;height:14px}
+.gg-formelknapp:hover{color:var(--accInk);background:var(--accSoft);border-color:color-mix(in srgb,var(--acc) 30%,var(--hair))}
+#formelruta{z-index:76}
 .modal-text{margin:4px 0 16px;font-family:var(--read);font-size:14px;color:var(--ink2);letter-spacing:0}
 .valgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
 .valruta{
@@ -1524,7 +1534,15 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .dg-sp2{fill:var(--good)}
 .dg-e1{fill:var(--acc)}.dg-e2{fill:var(--good)}.dg-e3{fill:var(--gold)}
 .dg-nod{fill:var(--gold);stroke:var(--surface);stroke-width:1.5}
+.dg-vagbild{width:100%;min-width:0}
+.dg-rubrik{fill:var(--ink);font-family:var(--ui);font-size:14px;font-weight:750}
+.dg-liten{fill:var(--ink3);font-family:var(--read);font-size:12px}
+.dg-strang{fill:none;stroke:var(--hair2);stroke-width:1.5}
+.dg-fast,.dg-ror{fill:none;stroke:var(--ink3);stroke-width:3;stroke-linecap:round}
+.dg-spegel{fill:none;stroke:var(--acc);stroke-width:2.2;stroke-dasharray:7 6;opacity:.48;stroke-linecap:round}
+.dg-buk{fill:none;stroke:var(--gold);stroke-width:1.8;stroke-linecap:round}
 .gg-figur{margin-top:10px;padding:8px;border-radius:14px;background:var(--surface);border:1px solid var(--hair)}
+.gg-figur.huvud{margin:14px 0 2px;padding:14px;background:color-mix(in srgb,var(--surface) 88%,var(--acc) 12%)}
 
 .gg-ram{margin:11px 0 0;font-family:var(--read);font-size:14px;line-height:1.65;color:var(--ink2)}
 .gg-ram em{color:var(--ink);font-style:normal;font-weight:600}
@@ -1576,6 +1594,12 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .gg-formel b{display:block;margin-bottom:3px;color:var(--ink3);font-size:9px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
 .gg-formel span{font-size:13px;color:var(--ink)}
 .gg-formel .katex{font-size:.98em}
+.formel-kort{width:min(660px,100%)}
+.formel-intro{margin:8px 0 16px;color:var(--ink2);font-family:var(--read);font-size:13.5px;line-height:1.55}
+.formel-kort .gg-formel-lista{padding:0;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:9px}
+.formel-kort .gg-formel{padding:11px 12px;background:var(--surface2)}
+.formel-kort .gg-formel b{margin-bottom:5px}
+.formel-kort .gg-formel span{font-size:14px}
 
 .typ-nav{display:flex;align-items:center;gap:8px;margin-top:20px;flex-wrap:wrap}
 .typ-nav .spacer{flex:1}
@@ -2789,20 +2813,50 @@ const FYSIK_FORMELSAMLING={
   fy2:{
     "1":[["Centripetalacceleration","\\(a_c=\\frac{v^2}{r}=\\omega^2r\\)"],["Centripetalkraft","\\(F_c=\\frac{mv^2}{r}\\)"],["Fart i cirkel","\\(v=\\frac{2\\pi r}{T}\\)"],["Hastighetskomponenter","\\(v_{0x}=v_0\\cos\\alpha,\\quad v_{0y}=v_0\\sin\\alpha\\)"],["Kaströrelse vågrätt","\\(x=v_{0x}t\\)"],["Kaströrelse lodrätt","\\(y=v_{0y}t-\\frac{gt^2}{2}\\)"]],
     "2":[["Hookes lag","\\(F=-kx\\)"],["Fjäderenergi","\\(E=\\frac{kx^2}{2}\\)"],["Frekvens och period","\\(f=\\frac1T\\)"],["Fjäderpendel","\\(T=2\\pi\\sqrt{\\frac{m}{k}}\\)"],["Matematisk pendel","\\(T=2\\pi\\sqrt{\\frac{l}{g}}\\)"],["Vågfart","\\(v=f\\lambda\\)"],["Sträng eller öppen pipa","\\(f_n=\\frac{nv}{2L}\\)"],["Stängd pipa","\\(f_n=\\frac{(2n-1)v}{4L}\\)"],["Ljudnivå","\\(L=10\\log\\frac{I}{I_0}\\)"]],
-    "3":[["Elektrisk kraft","\\(F=qE\\)"],["Homogent fält","\\(E=\\frac{U}{d}\\)"],["Kapacitans","\\(C=\\frac{Q}{U}\\)"],["Kondensatorenergi","\\(W=\\frac{CU^2}{2}\\)"],["Rak ledare","\\(B=\\frac{\\mu_0I}{2\\pi r}\\)"],["Spole","\\(B=\\mu_0\\frac{NI}{l}\\)"],["Kraft på ledare","\\(F=BIl\\sin\\alpha\\)"],["Kraft på laddning","\\(F=qvB\\sin\\alpha\\)"],["Magnetiskt flöde","\\(\\Phi=BA\\cos\\alpha\\)"],["Induktion","\\(\\varepsilon=-N\\frac{\\Delta\\Phi}{\\Delta t}\\)"],["Effektivvärde","\\(U_{eff}=\\frac{U_{max}}{\\sqrt2}\\)"],["Transformator","\\(\\frac{U_s}{U_p}=\\frac{N_s}{N_p}\\)"],["LC-resonans","\\(f_0=\\frac{1}{2\\pi\\sqrt{LC}}\\)"]],
+    "3":[["Elektrisk kraft","\\(F=qE\\)"],["Homogent fält","\\(E=\\frac{U}{d}\\)"],["Kapacitans","\\(C=\\frac{Q}{U}\\)"],["Kondensatorenergi","\\(W=\\frac{CU^2}{2}\\)"],["Rak ledare","\\(B=\\frac{\\mu_0I}{2\\pi r}\\)"],["Spole","\\(B=\\mu_0\\frac{NI}{l}\\)"],["Kraft på ledare","\\(F=BIl\\)"],["Kraft på laddning","\\(F=qvB\\)"],["Magnetiskt flöde","\\(\\Phi=BA\\cos\\alpha\\)"],["Induktion","\\(\\varepsilon=-N\\frac{\\Delta\\Phi}{\\Delta t}\\)"],["Effektivvärde","\\(U_{eff}=\\frac{U_{max}}{\\sqrt2}\\)"],["Transformator","\\(\\frac{U_s}{U_p}=\\frac{N_s}{N_p}\\)"],["LC-resonans","\\(f_0=\\frac{1}{2\\pi\\sqrt{LC}}\\)"]],
     "4":[["Vågsambandet","\\(c=f\\lambda\\)"],["Gitter","\\(d\\sin\\theta=n\\lambda\\)"],["Wiens lag","\\(\\lambda_{max}T=b\\)"],["Stefan–Boltzmann","\\(P=\\sigma AT^4\\)"],["Snells lag","\\(n_1\\sin\\alpha=n_2\\sin\\beta\\)"],["Fotonenergi","\\(E=hf=\\frac{hc}{\\lambda}\\)"],["Bana i magnetfält","\\(r=\\frac{mv}{qB}\\)"],["Fotoelektrisk effekt","\\(hf=W+E_{k,max}\\)"],["Stoppspänning","\\(eU_s=E_{k,max}\\)"]],
     "5":[["Parallax","\\(d(\\mathrm{pc})=\\frac{1}{p('')}\\)"],["Strålningsflöde","\\(I=\\frac{L}{4\\pi r^2}\\)"],["Transitdjup","\\(\\frac{\\Delta I}{I}\\approx\\left(\\frac{R_p}{R_s}\\right)^2\\)"],["Hubbles lag","\\(v=H_0d\\)"]],
     "6":[["Lorentzfaktor","\\(\\gamma=\\frac{1}{\\sqrt{1-v^2/c^2}}\\)"],["Tidsdilatation","\\(\\Delta t=\\gamma\\Delta\\tau\\)"],["Längdkontraktion","\\(L=\\frac{L_0}{\\gamma}\\)"],["Viloenergi","\\(E_0=mc^2\\)"],["Total energi","\\(E=\\gamma mc^2\\)"],["Rörelseenergi","\\(E_k=(\\gamma-1)mc^2\\)"]]
   }
 };
 const FORMEL_IKON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 4H9.8L7.2 12l2.6 8h7.7"/><path d="M7.2 12H4"/><path d="M13 8h6M13 16h6"/></svg>';
-function fysikFormlerHTML(kap){
+function fysikFormelListaHTML(kap){
   const formler=FYSIK_FORMELSAMLING[state.course]?.[String(kap)]||[];
   if(!formler.length) return "";
-  return `<details class="gg-formler">
-    <summary>${FORMEL_IKON}<span>Formler i kapitlet</span><span class="formel-antal">${formler.length} samband</span></summary>
-    <div class="gg-formel-lista">${formler.map(([namn,formel])=>`<div class="gg-formel"><b>${esc(namn)}</b><span>${formel}</span></div>`).join("")}</div>
-  </details>`;
+  return `<div class="gg-formel-lista">${formler.map(([namn,formel])=>
+    `<div class="gg-formel"><b>${esc(namn)}</b><span>${formel}</span></div>`).join("")}</div>`;
+}
+function genomgangFormelKnapp(kap){
+  const antal=FYSIK_FORMELSAMLING[state.course]?.[String(kap)]?.length||0;
+  if(!antal) return "";
+  return `<button class="gg-formelknapp" onclick="oppnaFormler('${esc(String(kap))}')"
+    title="Visa kapitlets formler" aria-label="Visa ${antal} formler i ${esc(chapterName(kap))}">
+    ${FORMEL_IKON}<span>Formler</span></button>`;
+}
+function oppnaFormler(kap){
+  stangFormler();
+  const lista=fysikFormelListaHTML(kap);
+  if(!lista) return;
+  const antal=FYSIK_FORMELSAMLING[state.course]?.[String(kap)]?.length||0;
+  const el=document.createElement("div");
+  el.className="modal"; el.id="formelruta";
+  el.innerHTML=`<div class="modal-kort formel-kort" role="dialog" aria-modal="true"
+      aria-label="Formler i ${esc(chapterName(kap))}">
+      <div class="modal-topp"><div><div class="lbl">${esc(chapterName(kap))}</div>
+        <h2>Formler i kapitlet</h2></div>
+        <button class="iconbtn" onclick="stangFormler()" aria-label="Stäng">✕</button></div>
+      <p class="formel-intro">${antal} centrala samband. Välj formel utifrån vilka storheter som är givna och vad du söker.</p>
+      ${lista}
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangFormler(); });
+  renderMath(el);
+  requestAnimationFrame(()=>el.classList.add("visa"));
+}
+function stangFormler(){
+  const el=document.getElementById("formelruta");
+  if(!el) return;
+  el.removeAttribute("id");el.classList.remove("visa");setTimeout(()=>el.remove(),250);
 }
 
 /* Matematiken i genomgångarna skrivs med \\( och \\[ i JS-källan, vilket
@@ -2932,7 +2986,10 @@ function oppnaKunskap(kap,kortNyckel=null,familj=null){
       <div class="modal-topp">
         <div>
           <div class="lbl">${esc(rubrik)}</div>
-          <h2>Det här behöver du kunna</h2>
+          <div class="gg-modalrubrik">
+            <h2>Det här behöver du kunna</h2>
+            ${genomgangFormelKnapp(kap)}
+          </div>
         </div>
         <button class="iconbtn" onclick="stangKunskap()" aria-label="Stäng">✕</button>
       </div>
@@ -3083,9 +3140,8 @@ function ritaKunskap(){
     <div class="typ-omr">${esc(s.omrNamn)}</div>
     <h3 class="typ-familj">${esc(g.rubrik||familyName(s.familj))}</h3>
     ${g.ram?`<p class="gg-ram">${g.ram}</p>`:""}
+    ${g.figur?`<div class="gg-figur huvud">${g.figur}</div>`:""}
     ${g.formel?`<div class="gg-huvudformel" aria-label="Viktig formel">${g.formel}</div>`:""}
-    ${fysikFormlerHTML(k.kap)}
-
     ${s.uppgift?`<div class="typ-block fraga">
       <div class="typ-lbl"><b></b>Typuppgift</div>
       <div class="typ-kropp">${s.uppgift.t||""}</div>
@@ -3117,6 +3173,9 @@ function ritaKunskap(){
 /* Piltangenter bläddrar och Escape stänger, men bara när kortet är öppet
    och inget textfält har fokus. */
 document.addEventListener("keydown",e=>{
+  if(e.key==="Escape" && document.getElementById("formelruta")){
+    e.preventDefault();stangFormler();return;
+  }
   if(!state.kunskap||!document.getElementById("kunskapsruta")) return;
   if(e.target&&e.target.closest&&e.target.closest("input,textarea,select")) return;
   if(e.key==="Escape"){ e.preventDefault(); stangKunskap(); }

@@ -21,8 +21,42 @@
   const strangFigur = '<svg class="dg" viewBox="0 0 500 250" role="img" aria-label="Grundton och två övertoner på en sträng med markerade noder och bukar"><text class="dg-txt" x="16" y="48">grundton</text><line class="dg-hjalp" x1="120" y1="43" x2="472" y2="43"/><path class="dg-linje" d="M120 43 C208 -17 384 -17 472 43"/><g class="dg-nod"><circle cx="120" cy="43" r="5"/><circle cx="472" cy="43" r="5"/></g><text class="dg-avl" x="292" y="17">buk</text><text class="dg-txt" x="16" y="126">1:a övertonen</text><line class="dg-hjalp" x1="120" y1="121" x2="472" y2="121"/><path class="dg-linje" d="M120 121 C164 77 252 77 296 121 C340 165 428 165 472 121"/><g class="dg-nod"><circle cx="120" cy="121" r="5"/><circle cx="296" cy="121" r="5"/><circle cx="472" cy="121" r="5"/></g><text class="dg-avl" x="203" y="88">buk</text><text class="dg-avl" x="382" y="162">buk</text><text class="dg-txt" x="16" y="211">2:a övertonen</text><line class="dg-hjalp" x1="120" y1="206" x2="472" y2="206"/><path class="dg-linje" d="M120 206 C149 174 208 174 237 206 C266 238 325 238 354 206 C383 174 443 174 472 206"/><g class="dg-nod"><circle cx="120" cy="206" r="5"/><circle cx="237" cy="206" r="5"/><circle cx="354" cy="206" r="5"/><circle cx="472" cy="206" r="5"/></g><text class="dg-not" x="391" y="244">● = nod</text></svg>';
   const oppenPipaFigur = '<svg class="dg" viewBox="0 0 500 245" role="img" aria-label="Grundton och övertoner i en öppen pipa med buk vid båda ändarna"><text class="dg-txt" x="16" y="45">grundton f₁</text><line class="dg-form" x1="120" y1="18" x2="120" y2="68"/><line class="dg-form" x1="472" y1="18" x2="472" y2="68"/><line class="dg-hjalp" x1="120" y1="43" x2="472" y2="43"/><path class="dg-linje" d="M120 18 C208 18 208 43 296 43 C384 43 384 68 472 68"/><text class="dg-avl" x="112" y="14">B</text><text class="dg-avl" x="288" y="38">N</text><text class="dg-avl" x="469" y="82">B</text><text class="dg-txt" x="16" y="126">1:a övertonen f₂</text><line class="dg-form" x1="120" y1="96" x2="120" y2="146"/><line class="dg-form" x1="472" y1="96" x2="472" y2="146"/><line class="dg-hjalp" x1="120" y1="121" x2="472" y2="121"/><path class="dg-linje" d="M120 96 C164 96 164 121 208 121 C252 121 252 146 296 146 C340 146 340 121 384 121 C428 121 428 96 472 96"/><text class="dg-avl" x="112" y="92">B</text><text class="dg-avl" x="202" y="116">N</text><text class="dg-avl" x="290" y="160">B</text><text class="dg-avl" x="379" y="116">N</text><text class="dg-avl" x="469" y="92">B</text><text class="dg-txt" x="16" y="210">2:a övertonen f₃</text><line class="dg-form" x1="120" y1="180" x2="120" y2="230"/><line class="dg-form" x1="472" y1="180" x2="472" y2="230"/><line class="dg-hjalp" x1="120" y1="205" x2="472" y2="205"/><path class="dg-linje" d="M120 180 C149 180 149 205 179 205 C208 205 208 230 237 230 C266 230 266 205 296 205 C325 205 325 180 354 180 C383 180 383 205 413 205 C442 205 442 230 472 230"/><text class="dg-not" x="352" y="241">B = buk · N = nod</text></svg>';
   const stangdPipaFigur = '<svg class="dg" viewBox="0 0 500 175" role="img" aria-label="Grundton och första tillåtna överton i en pipa som är stängd i ena änden"><text class="dg-txt" x="16" y="48">grundton f₁</text><line class="dg-form" x1="120" y1="18" x2="120" y2="68"/><line class="dg-form" x1="126" y1="18" x2="126" y2="68"/><line class="dg-form" x1="472" y1="18" x2="472" y2="68"/><line class="dg-hjalp" x1="126" y1="43" x2="472" y2="43"/><path class="dg-linje" d="M126 43 C241 43 357 18 472 18"/><text class="dg-avl" x="116" y="38">N</text><text class="dg-avl" x="469" y="14">B</text><text class="dg-txt" x="16" y="128">nästa resonans f₃</text><line class="dg-form" x1="120" y1="98" x2="120" y2="148"/><line class="dg-form" x1="126" y1="98" x2="126" y2="148"/><line class="dg-form" x1="472" y1="98" x2="472" y2="148"/><line class="dg-hjalp" x1="126" y1="123" x2="472" y2="123"/><path class="dg-linje" d="M126 123 C184 123 184 98 241 98 C299 98 299 123 357 123 C414 123 414 148 472 148"/><text class="dg-avl" x="116" y="118">N</text><text class="dg-avl" x="235" y="94">B</text><text class="dg-avl" x="351" y="118">N</text><text class="dg-avl" x="469" y="162">B</text><text class="dg-not" x="303" y="171">bara f₁, f₃, f₅, …</text></svg>';
-  const ledareHandFigur = '<svg class="dg" viewBox="0 0 430 190" role="img" aria-label="Högerhandsregel för magnetfält runt en rak ledare"><circle class="dg-form" cx="175" cy="94" r="62"/><path class="dg-vinkel" d="M175 32 A62 62 0 0 1 237 94"/><path class="dg-spets3" d="M242 98l-13-8 1 15z"/><circle class="dg-vald" cx="175" cy="94" r="18"/><circle class="dg-e1" cx="175" cy="94" r="5"/><text class="dg-txt" x="156" y="128">ström ut</text><text class="dg-txt" x="270" y="66">1. Tummen följer I</text><text class="dg-txt" x="270" y="92">2. Fingrarna visar B</text><text class="dg-not" x="270" y="124">Här blir B moturs.</text></svg>';
-  const kraftHandFigur = '<svg class="dg" viewBox="0 0 460 205" role="img" aria-label="Högerhandsregel för kraft på en strömförande ledare"><g class="dg-txt" font-size="20"><text x="55" y="49">×</text><text x="125" y="49">×</text><text x="195" y="49">×</text><text x="55" y="139">×</text><text x="125" y="139">×</text><text x="195" y="139">×</text></g><line class="dg-vek1" x1="45" y1="94" x2="205" y2="94"/><path class="dg-spets1" d="M216 94l-14-7v14z"/><line class="dg-vek3" x1="130" y1="94" x2="130" y2="28"/><path class="dg-spets3" d="M130 17l-7 14h14z"/><text class="dg-txt" x="218" y="99">I</text><text class="dg-txt" x="140" y="27">F</text><text class="dg-txt" x="270" y="54">1. Fingrarna följer I</text><text class="dg-txt" x="270" y="84">2. Vrid mot B (×)</text><text class="dg-txt" x="270" y="114">3. Tummen visar F</text><text class="dg-not" x="270" y="149">× betyder in i skärmen.</text></svg>';
+
+  const strangFigurTydlig =
+    '<svg class="dg dg-vagbild" viewBox="0 0 620 310" role="img" aria-label="Grundton och två övertoner på en fastspänd sträng">'
+    +'<text class="dg-rubrik" x="22" y="67">Grundton</text><text class="dg-liten" x="22" y="87">1 buk</text>'
+    +'<line class="dg-strang" x1="160" y1="70" x2="580" y2="70"/><line class="dg-fast" x1="160" y1="27" x2="160" y2="113"/><line class="dg-fast" x1="580" y1="27" x2="580" y2="113"/>'
+    +'<path class="dg-linje" d="M160 70 C265 20 475 20 580 70"/><path class="dg-spegel" d="M160 70 C265 120 475 120 580 70"/>'
+    +'<g class="dg-nod"><circle cx="160" cy="70" r="6"/><circle cx="580" cy="70" r="6"/></g><line class="dg-buk" x1="370" y1="23" x2="370" y2="117"/><text class="dg-avl" x="382" y="74">buk</text>'
+    +'<text class="dg-rubrik" x="22" y="162">1:a övertonen</text><text class="dg-liten" x="22" y="182">2 bukar</text>'
+    +'<line class="dg-strang" x1="160" y1="165" x2="580" y2="165"/><line class="dg-fast" x1="160" y1="122" x2="160" y2="208"/><line class="dg-fast" x1="580" y1="122" x2="580" y2="208"/>'
+    +'<path class="dg-linje" d="M160 165 C212 120 317 120 370 165 C422 210 527 210 580 165"/><path class="dg-spegel" d="M160 165 C212 210 317 210 370 165 C422 120 527 120 580 165"/>'
+    +'<g class="dg-nod"><circle cx="160" cy="165" r="6"/><circle cx="370" cy="165" r="6"/><circle cx="580" cy="165" r="6"/></g>'
+    +'<text class="dg-rubrik" x="22" y="257">2:a övertonen</text><text class="dg-liten" x="22" y="277">3 bukar</text>'
+    +'<line class="dg-strang" x1="160" y1="260" x2="580" y2="260"/><line class="dg-fast" x1="160" y1="217" x2="160" y2="297"/><line class="dg-fast" x1="580" y1="217" x2="580" y2="297"/>'
+    +'<path class="dg-linje" d="M160 260 C195 220 265 220 300 260 C335 300 405 300 440 260 C475 220 545 220 580 260"/>'
+    +'<path class="dg-spegel" d="M160 260 C195 300 265 300 300 260 C335 220 405 220 440 260 C475 300 545 300 580 260"/>'
+    +'<g class="dg-nod"><circle cx="160" cy="260" r="6"/><circle cx="300" cy="260" r="6"/><circle cx="440" cy="260" r="6"/><circle cx="580" cy="260" r="6"/></g></svg>';
+
+  const oppenPipaFigurTydlig =
+    '<svg class="dg dg-vagbild" viewBox="0 0 620 285" role="img" aria-label="Grundton och första övertonen i en öppen pipa">'
+    +'<text class="dg-rubrik" x="22" y="70">Grundton f₁</text><line class="dg-ror" x1="170" y1="28" x2="580" y2="28"/><line class="dg-ror" x1="170" y1="112" x2="580" y2="112"/><line class="dg-strang" x1="170" y1="70" x2="580" y2="70"/>'
+    +'<path class="dg-linje" d="M170 40 C272 40 272 70 375 70 C478 70 478 100 580 100"/><path class="dg-spegel" d="M170 100 C272 100 272 70 375 70 C478 70 478 40 580 40"/>'
+    +'<g class="dg-nod"><circle cx="375" cy="70" r="6"/></g><text class="dg-avl" x="164" y="22">B</text><text class="dg-avl" x="369" y="63">N</text><text class="dg-avl" x="574" y="22">B</text>'
+    +'<text class="dg-rubrik" x="22" y="180">1:a övertonen f₂</text><line class="dg-ror" x1="170" y1="138" x2="580" y2="138"/><line class="dg-ror" x1="170" y1="222" x2="580" y2="222"/><line class="dg-strang" x1="170" y1="180" x2="580" y2="180"/>'
+    +'<path class="dg-linje" d="M170 150 C221 150 221 180 272 180 C324 180 324 210 375 210 C426 210 426 180 478 180 C529 180 529 150 580 150"/>'
+    +'<path class="dg-spegel" d="M170 210 C221 210 221 180 272 180 C324 180 324 150 375 150 C426 150 426 180 478 180 C529 180 529 210 580 210"/>'
+    +'<g class="dg-nod"><circle cx="272" cy="180" r="6"/><circle cx="478" cy="180" r="6"/></g><text class="dg-avl" x="164" y="132">B</text><text class="dg-avl" x="266" y="173">N</text><text class="dg-avl" x="369" y="132">B</text><text class="dg-avl" x="472" y="173">N</text><text class="dg-avl" x="574" y="132">B</text>'
+    +'<text class="dg-not" x="170" y="263">Öppen i båda ändarna: buk–nod–buk i grundtonen.</text></svg>';
+
+  const stangdPipaFigurTydlig =
+    '<svg class="dg dg-vagbild" viewBox="0 0 620 245" role="img" aria-label="Grundton och nästa resonans i en pipa som är stängd i ena änden">'
+    +'<text class="dg-rubrik" x="22" y="70">Grundton f₁</text><line class="dg-ror" x1="170" y1="28" x2="580" y2="28"/><line class="dg-ror" x1="170" y1="112" x2="580" y2="112"/><line class="dg-ror" x1="170" y1="28" x2="170" y2="112"/><line class="dg-strang" x1="170" y1="70" x2="580" y2="70"/>'
+    +'<path class="dg-linje" d="M170 70 C307 70 443 40 580 40"/><path class="dg-spegel" d="M170 70 C307 70 443 100 580 100"/><g class="dg-nod"><circle cx="170" cy="70" r="6"/></g><text class="dg-avl" x="164" y="63">N</text><text class="dg-avl" x="574" y="22">B</text>'
+    +'<text class="dg-rubrik" x="22" y="180">Nästa resonans f₃</text><line class="dg-ror" x1="170" y1="138" x2="580" y2="138"/><line class="dg-ror" x1="170" y1="222" x2="580" y2="222"/><line class="dg-ror" x1="170" y1="138" x2="170" y2="222"/><line class="dg-strang" x1="170" y1="180" x2="580" y2="180"/>'
+    +'<path class="dg-linje" d="M170 180 C238 180 238 150 307 150 C375 150 375 180 443 180 C511 180 511 210 580 210"/>'
+    +'<path class="dg-spegel" d="M170 180 C238 180 238 210 307 210 C375 210 375 180 443 180 C511 180 511 150 580 150"/>'
+    +'<g class="dg-nod"><circle cx="170" cy="180" r="6"/><circle cx="443" cy="180" r="6"/></g><text class="dg-avl" x="164" y="173">N</text><text class="dg-avl" x="301" y="132">B</text><text class="dg-avl" x="437" y="173">N</text><text class="dg-avl" x="574" y="132">B</text><text class="dg-not" x="170" y="241">Stängd–öppen pipa: bara f₁, f₃, f₅, …</text></svg>';
 
   add(1,"cirkel","Riktningarna i en cirkelrörelse","<p>En bil kör med konstant fart uppåt förbi den högra punkten på en cirkelbana. Åt vilka håll pekar hastigheten och accelerationen?</p>","Vid konstant fart ändras ändå hastigheten, eftersom dess riktning ändras.",[
     steg("Rita hastigheten","Hastigheten är tangent till banan och pekar i rörelseriktningen.","\\[\\vec v:\\quad \\text{tangent uppåt}\\]",cirkelFigur),
@@ -32,17 +66,17 @@
   add(1,"cirkel","Beräkna centripetalacceleration","<p>En bil kör med farten 12 m/s i en kurva med radien 24 m. Bestäm centripetalaccelerationen.</p>","Fartens riktning ändras snabbare vid hög fart och liten radie.",[
     steg("Välj sambandet","Använd farten och radien.","\\[a_c=\\frac{v^2}{r}\\]"),
     steg("Sätt in värdena","","\\[a_c=\\frac{{\\color{#D1495B}{12}}^2}{{\\color{#D1495B}{24}}}=6{,}0\\ \\mathrm{m/s^2}\\]")
-  ],"Centripetalaccelerationen är \\(6{,}0\\ \mathrm{m/s^2}\\), riktad mot centrum.","Kvadrera farten innan du dividerar med radien.","Centripetalacceleration och centripetalkraft");
+  ],"Centripetalaccelerationen är \\(6{,}0\\ \\mathrm{m/s^2}\\), riktad mot centrum.","Kvadrera farten innan du dividerar med radien.","Centripetalacceleration och centripetalkraft");
 
   add(1,"cirkel","Kraften som håller kvar föremålet","<p>En boll med massan 0,20 kg rör sig med 6,0 m/s i en cirkel med radien 0,90 m. Bestäm den resulterande kraften.</p>","Centripetalkraft är namnet på den resulterande kraft som pekar inåt; det är inte en extra kraft.",[
     steg("Beräkna accelerationen","Börja med cirkelrörelsen.","\\[a_c=\\frac{6{,}0^2}{0{,}90}=40\\ \\mathrm{m/s^2}\\]"),
     steg("Använd Newtons andra lag","Den resulterande kraften är massa gånger acceleration.","\\[F_{res}=ma_c={\\color{#D1495B}{0{,}20}}\\cdot{\\color{#D1495B}{40}}=8{,}0\\ \\mathrm N\\]")
-  ],"Kraften är \\(8{,}0\\ \mathrm N\\) mot cirkelns centrum.","Fråga alltid vilken verklig kraft som ger den inåtriktade resultantkraften.","Tillämpningar av cirkelrörelse");
+  ],"Kraften är \\(8{,}0\\ \\mathrm N\\) mot cirkelns centrum.","Fråga alltid vilken verklig kraft som ger den inåtriktade resultantkraften.","Tillämpningar av cirkelrörelse");
 
   add(1,"cirkel","Period för en konisk pendel","<p>En kula rör sig som en konisk pendel. Snöret är 1,20 m och bildar vinkeln 30° mot lodlinjen. Bestäm omloppstiden.</p>","Spännkraftens horisontella del ger centripetalkraften och den vertikala delen balanserar tyngdkraften.",[
     steg("Koppla kraftkomponenterna","Dividera ekvationerna så försvinner spännkraften.","\\[S\\cos\\theta=mg,\\quad S\\sin\\theta=m\\omega^2r\\]"),
     steg("Använd geometrin","Med \\(r=L\\sin\\theta\\) fås \\(\\omega^2=g/(L\\cos\\theta)\\).","\\[T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}}=2\\pi\\sqrt{\\frac{1{,}20\\cos30^\\circ}{9{,}82}}=2{,}04\\ \\mathrm s\\]")
-  ],"Omloppstiden är ungefär \\(2{,}0\\ \mathrm s\\).","Rita spännkraften längs snöret och dela upp den i lodrät och vågrät riktning.","Matematisk och konisk pendel");
+  ],"Omloppstiden är ungefär \\(2{,}0\\ \\mathrm s\\).","Rita spännkraften längs snöret och dela upp den i lodrät och vågrät riktning.","Matematisk och konisk pendel");
 
   add(1,"kast","Dela upp begynnelsehastigheten","<p>En boll kastas med begynnelsehastigheten 20 m/s i vinkeln 30° över horisontalplanet. Bestäm begynnelsehastighetens komponenter i x- och y-led.</p>","En sned hastighet kan delas i två vinkelräta delar: \\(v_{0x}=v_0\\cos\\alpha\\) och \\(v_{0y}=v_0\\sin\\alpha\\).",[
     steg("Rita en rätvinklig triangel","Vektorn \\(v_0\\) är hypotenusan. Den vågräta komponenten ligger intill vinkeln och den lodräta ligger mittemot.","",komponentFigur),
@@ -53,93 +87,93 @@
   add(1,"kast","Dela upp en kaströrelse","<p>En boll kastas horisontellt med 8,0 m/s från 5,0 m höjd. Hur långt från kanten landar den? Bortse från luftmotstånd.</p>","Vågrät och lodrät rörelse har samma tid men behandlas var för sig.",[
     steg("Bestäm falltiden","I lodrät riktning är begynnelsehastigheten noll.","\\[h=\\frac{gt^2}{2}\\Rightarrow t=\\sqrt{\\frac{2h}{g}}=\\sqrt{\\frac{2\\cdot5{,}0}{9{,}82}}=1{,}01\\ \\mathrm s\\]"),
     steg("Beräkna den vågräta sträckan","Den vågräta farten är konstant.","\\[x=v_xt={\\color{#D1495B}{8{,}0}}\\cdot{\\color{#D1495B}{1{,}01}}=8{,}1\\ \\mathrm m\\]")
-  ],"Bollen landar ungefär \\(8{,}1\\ \mathrm m\\) från kanten.","Tyngdaccelerationen påverkar bara den lodräta rörelsen.","Kastparabler: horisontellt och snett kast");
+  ],"Bollen landar ungefär \\(8{,}1\\ \\mathrm m\\) från kanten.","Tyngdaccelerationen påverkar bara den lodräta rörelsen.","Kastparabler: horisontellt och snett kast");
 
   add(2,"fjadrar","Hookes lag och fjäderenergi","<p>En fjäder med fjäderkonstanten 250 N/m dras ut 8,0 cm. Bestäm fjäderkraften och den lagrade energin.</p>","Förlängningen måste anges i meter.",[
     steg("Omvandla längden","Åtta centimeter är 0,080 meter.","\\[x=8{,}0\\ \\mathrm{cm}=0{,}080\\ \\mathrm m\\]"),
     steg("Beräkna kraft och energi","Kraftens belopp är \\(kx\\), medan energin beror på \\(x^2\\).","\\[F=kx=250\\cdot0{,}080=20\\ \\mathrm N\\]\\[E_f=\\frac{kx^2}{2}=0{,}80\\ \\mathrm J\\]")
-  ],"Fjäderkraften är \\(20\\ \mathrm N\\) och energin \\(0{,}80\\ \mathrm J\\).","Fjäderkraften är riktad tillbaka mot jämviktsläget.","Hookes lag, fjäderenergi och kopplingar");
+  ],"Fjäderkraften är \\(20\\ \\mathrm N\\) och energin \\(0{,}80\\ \\mathrm J\\).","Fjäderkraften är riktad tillbaka mot jämviktsläget.","Hookes lag, fjäderenergi och kopplingar");
 
   add(2,"svangningar","Amplitud, period och frekvens","<p>En svängning går från största utslaget på ena sidan till största utslaget på den andra på 0,40 s. Amplituden är 6,0 cm. Bestäm period och frekvens.</p>","Från ett ytterläge till motsatt ytterläge går en halv period.",[
     steg("Bestäm perioden","Dubbla tiden för en halv svängning.","\\[T=2\\cdot0{,}40=0{,}80\\ \\mathrm s\\]"),
     steg("Bestäm frekvensen","Frekvens och period är varandras inverser.","\\[f=\\frac1T=\\frac1{0{,}80}=1{,}25\\ \\mathrm{Hz}\\]")
-  ],"Perioden är \\(0{,}80\\ \mathrm s\\) och frekvensen \\(1{,}25\\ \mathrm{Hz}\\).","Amplituden är största avståndet från jämviktsläget, inte hela bredden.","Amplitud, period och frekvens");
+  ],"Perioden är \\(0{,}80\\ \\mathrm s\\) och frekvensen \\(1{,}25\\ \\mathrm{Hz}\\).","Amplituden är största avståndet från jämviktsläget, inte hela bredden.","Amplitud, period och frekvens");
 
   add(2,"pendlar","Perioden för en matematisk pendel","<p>En liten pendelkula hänger i en 0,90 m lång tråd. Bestäm perioden för små svängningar.</p>","För små utslag beror perioden på pendellängden och tyngdaccelerationen, inte på massan.",[
     steg("Använd periodformeln","Sätt längden i meter.","\\[T=2\\pi\\sqrt{\\frac{l}{g}}\\]"),
     steg("Sätt in värdena","Behåll flera siffror till slutsvaret.","\\[T=2\\pi\\sqrt{\\frac{{\\color{#D1495B}{0{,}90}}}{9{,}82}}=1{,}90\\ \\mathrm s\\]")
-  ],"Perioden är ungefär \\(1{,}9\\ \mathrm s\\).","Formeln gäller små svängningsvinklar.","Matematisk och konisk pendel");
+  ],"Perioden är ungefär \\(1{,}9\\ \\mathrm s\\).","Formeln gäller små svängningsvinklar.","Matematisk och konisk pendel");
 
   add(2,"vagrorelser","Vågens fart","<p>En våg har frekvensen 5,0 Hz och våglängden 1,6 m. Bestäm vågens fart.</p>","På en period rör sig vågmönstret en våglängd.",[
     steg("Identifiera storheterna","Frekvensen anger svängningar per sekund och våglängden avståndet mellan två toppar.","\\[f=5{,}0\\ \\mathrm{Hz},\\quad \\lambda=1{,}6\\ \\mathrm m\\]",vagFigur),
     steg("Beräkna farten","Använd vågekvationen.","\\[v=f\\lambda={\\color{#D1495B}{5{,}0}}\\cdot{\\color{#D1495B}{1{,}6}}=8{,}0\\ \\mathrm{m/s}\\]")
-  ],"Vågens fart är \\(8{,}0\\ \mathrm{m/s}\\).","I \\(v=f\\lambda\\) är \\(v\\) utbredningsfarten, inte partiklarnas svängningsfart.","Vågrörelsers fart, reflektion och brytning");
+  ],"Vågens fart är \\(8{,}0\\ \\mathrm{m/s}\\).","I \\(v=f\\lambda\\) är \\(v\\) utbredningsfarten, inte partiklarnas svängningsfart.","Vågrörelsers fart, reflektion och brytning");
 
   add(2,"vagrorelser","Stående våg på en sträng","<p>En sträng är 1,20 m lång och har noder i båda ändar. Grundtonens frekvens är 75 Hz. Bestäm våglängd och vågfart.</p>","På en fastspänd sträng är ändarna alltid noder. Mellan noderna ligger bukar. De tillåtna frekvenserna är \\(f_n=n\\,v/(2L)\\), där \\(n=1,2,3,\\ldots\\).",[
     steg("Se mönstret","En nod står stilla. I en buk är svängningen som störst. Varje högre svängningsform får en extra buk och kallas nästa överton.","",strangFigur),
     steg("Bestäm våglängden","I grundtonen ryms en halv våglängd på strängen: \\(L=\\lambda/2\\).","\\[\\lambda=2L=2\\cdot1{,}20=2{,}40\\ \\mathrm m\\]"),
     steg("Bestäm farten","Använd vågekvationen.","\\[v=f\\lambda=75\\cdot2{,}40=180\\ \\mathrm{m/s}\\]")
-  ],"Våglängden är \\(2{,}40\\ \mathrm m\\) och vågfarten \\(180\\ \mathrm{m/s}\\).","Räkna halva våglängder mellan två fasta ändar.","Superposition och stående vågor");
+  ],"Våglängden är \\(2{,}40\\ \\mathrm m\\) och vågfarten \\(180\\ \\mathrm{m/s}\\).","Räkna halva våglängder mellan två fasta ändar.","Superposition och stående vågor");
 
   add(2,"ljudvagor","Grundton och övertoner i en öppen pipa","<p>En öppen pipa är 0,85 m lång. Ljudhastigheten är 340 m/s. Bestäm grundtonens frekvens.</p>","I en öppen pipa finns en rörelsebuk vid båda ändarna. Alla heltalsmultiplar är möjliga: \\(f_n=n\\,v/(2L)\\), där \\(n=1,2,3,\\ldots\\).",[
     steg("Se noder och bukar","Luftens rörelse är störst vid de öppna ändarna: där finns bukar. När fler halva våglängder får plats bildas övertoner.","",oppenPipaFigur),
     steg("Bestäm våglängden","För grundtonen gäller \\(L=\\lambda/2\\).","\\[\\lambda=2L=1{,}70\\ \\mathrm m\\]"),
     steg("Bestäm frekvensen","Lös ut frekvensen ur vågekvationen.","\\[f=\\frac v\\lambda=\\frac{340}{1{,}70}=200\\ \\mathrm{Hz}\\]")
-  ],"Grundtonen är \\(200\\ \mathrm{Hz}\\).","En pipa som är stängd i ena änden har i stället \\(L=\\lambda/4\\) för grundtonen.","Ljudvågors fart, grundton och övertoner");
+  ],"Grundtonen är \\(200\\ \\mathrm{Hz}\\).","En pipa som är stängd i ena änden har i stället \\(L=\\lambda/4\\) för grundtonen.","Ljudvågors fart, grundton och övertoner");
 
   add(2,"ljudvagor","Grundton och övertoner i en stängd pipa","<p>Ett rör är stängt i ena änden och 0,425 m långt. Bestäm den lägsta resonansfrekvensen när ljudhastigheten är 340 m/s.</p>","Vid den stängda änden finns en rörelsenod och vid den öppna änden en rörelsebuk. Bara udda multiplar förekommer: \\(f_1,f_3,f_5,\\ldots\\).",[
     steg("Se vilka mönster som passar","Grundtonen är en kvartsvåg. Nästa möjliga resonans är tre kvartsvågor och har frekvensen \\(3f_1\\); \\(2f_1\\) passar inte ändvillkoren.","",stangdPipaFigur),
     steg("Använd kvartsvågen","I grundresonansen ryms en fjärdedels våglängd.","\\[L=\\frac\\lambda4\\Rightarrow\\lambda=4L=1{,}70\\ \\mathrm m\\]"),
     steg("Beräkna frekvensen","Använd \\(f=v/\\lambda\\).","\\[f=\\frac{340}{1{,}70}=200\\ \\mathrm{Hz}\\]")
-  ],"Den lägsta resonansfrekvensen är \\(200\\ \mathrm{Hz}\\).","I ett rör stängt i ena änden förekommer bara udda multiplar av grundtonen.","Resonans i luftpelare");
+  ],"Den lägsta resonansfrekvensen är \\(200\\ \\mathrm{Hz}\\).","I ett rör stängt i ena änden förekommer bara udda multiplar av grundtonen.","Resonans i luftpelare");
 
   add(2,"interferens","Avgör konstruktiv interferens","<p>Två högtalare sänder samma ton i fas. Till en punkt är avstånden 4,20 m och 4,70 m. Våglängden är 0,50 m. Blir ljudet starkt eller svagt?</p>","Det är vägskillnaden, inte de två avstånden var för sig, som avgör interferensen.",[
     steg("Beräkna vägskillnaden","Ta absolutbeloppet av avståndens skillnad.","\\[\\Delta s=|4{,}70-4{,}20|=0{,}50\\ \\mathrm m\\]"),
     steg("Jämför med våglängden","En hel våglängd ger konstruktiv interferens för källor i fas.","\\[\\Delta s=1\\lambda\\Rightarrow\\text{konstruktiv interferens}\\]")
   ],"Ljudet blir starkt: vågorna förstärker varandra.","Helt antal våglängder ger maximum; ett udda antal halva våglängder ger minimum.","Interferens från flera källor");
 
-  add(2,"ljud_horsel","Ljudnivå från intensitet","<p>Ljudintensiteten är \\(1{,}0\\cdot10^{-6}\\ \mathrm{W/m^2}\\). Bestäm ljudnivån. Referensintensiteten är \\(I_0=1{,}0\\cdot10^{-12}\\ \mathrm{W/m^2}\\).</p>","Decibelskalan är logaritmisk.",[
+  add(2,"ljud_horsel","Ljudnivå från intensitet","<p>Ljudintensiteten är \\(1{,}0\\cdot10^{-6}\\ \\mathrm{W/m^2}\\). Bestäm ljudnivån. Referensintensiteten är \\(I_0=1{,}0\\cdot10^{-12}\\ \\mathrm{W/m^2}\\).</p>","Decibelskalan är logaritmisk.",[
     steg("Skriv sambandet","Ljudnivån jämför intensiteten med hörtröskeln.","\\[L=10\\log_{10}\\left(\\frac I{I_0}\\right)\\]"),
     steg("Sätt in värdena","Kvoten är en miljon.","\\[L=10\\log_{10}(10^6)=60\\ \\mathrm{dB}\\]")
-  ],"Ljudnivån är \\(60\\ \mathrm{dB}\\).","Tio gånger större intensitet höjer ljudnivån med 10 dB.","Ljudintensitet och ljudnivå");
+  ],"Ljudnivån är \\(60\\ \\mathrm{dB}\\).","Tio gånger större intensitet höjer ljudnivån med 10 dB.","Ljudintensitet och ljudnivå");
 
   add(2,"extrema_frekvenser","Ekolod med ultraljud","<p>En ultraljudspuls återvänder efter 0,040 s. Ljudhastigheten i vattnet är 1500 m/s. Hur djupt är det?</p>","Den uppmätta tiden gäller vägen både ned och upp.",[
     steg("Beräkna hela sträckan","Farten gånger tiden ger tur-och-retur-sträckan.","\\[s_{tot}=vt=1500\\cdot0{,}040=60\\ \\mathrm m\\]"),
     steg("Ta halva sträckan","Djupet är enkel väg.","\\[d=\\frac{s_{tot}}2=30\\ \\mathrm m\\]")
-  ],"Djupet är \\(30\\ \mathrm m\\).","Ultraljud har frekvens över människans hörselområde; fysiken för eko är densamma som för annat ljud.","Infraljud och ultraljud");
+  ],"Djupet är \\(30\\ \\mathrm m\\).","Ultraljud har frekvens över människans hörselområde; fysiken för eko är densamma som för annat ljud.","Infraljud och ultraljud");
 
-  add(3,"elektriska_falt","Elektriskt fält och kraft","<p>En positiv laddning \\(q=2{,}0\\ \\mathrm{nC}\\) finns i ett elektriskt fält med styrkan \\(3{,}0\\cdot10^4\\ \mathrm{N/C}\\). Bestäm kraften.</p>","Fältstyrkan anger kraft per coulomb på en positiv provladdning.",[
+  add(3,"elektriska_falt","Elektriskt fält och kraft","<p>En positiv laddning \\(q=2{,}0\\ \\mathrm{nC}\\) finns i ett elektriskt fält med styrkan \\(3{,}0\\cdot10^4\\ \\mathrm{N/C}\\). Bestäm kraften.</p>","Fältstyrkan anger kraft per coulomb på en positiv provladdning.",[
     steg("Omvandla laddningen","Nano betyder \\(10^{-9}\\).","\\[q=2{,}0\\cdot10^{-9}\\ \\mathrm C\\]"),
     steg("Beräkna kraften","För en positiv laddning är kraften i fältets riktning.","\\[F=qE=2{,}0\\cdot10^{-9}\\cdot3{,}0\\cdot10^4=6{,}0\\cdot10^{-5}\\ \\mathrm N\\]")
-  ],"Kraften är \\(6{,}0\\cdot10^{-5}\\ \mathrm N\\) i fältets riktning.","En negativ laddning får kraft i motsatt riktning mot fältet.","Elektriskt fält, potential och kraft");
+  ],"Kraften är \\(6{,}0\\cdot10^{-5}\\ \\mathrm N\\) i fältets riktning.","En negativ laddning får kraft i motsatt riktning mot fältet.","Elektriskt fält, potential och kraft");
 
   add(3,"kondensatorer","Kapacitans och lagrad energi","<p>En kondensator på 220 µF laddas till 12 V. Bestäm laddningen och energin.</p>","Kapacitans beskriver hur mycket laddning som lagras per volt.",[
     steg("Beräkna laddningen","Mikro betyder \\(10^{-6}\\).","\\[Q=CU=220\\cdot10^{-6}\\cdot12=2{,}64\\cdot10^{-3}\\ \\mathrm C\\]"),
     steg("Beräkna energin","Använd spänningen över kondensatorn.","\\[E=\\frac{CU^2}{2}=\\frac{220\\cdot10^{-6}\\cdot12^2}{2}=1{,}58\\cdot10^{-2}\\ \\mathrm J\\]")
-  ],"Laddningen är \\(2{,}64\\ \mathrm{mC}\\) och energin \\(15{,}8\\ \mathrm{mJ}\\).","Blanda inte ihop kapacitansen \\(C\\) med laddningen \\(Q\\).","Kondensatorer: kapacitans och energi");
+  ],"Laddningen är \\(2{,}64\\ \\mathrm{mC}\\) och energin \\(15{,}8\\ \\mathrm{mJ}\\).","Blanda inte ihop kapacitansen \\(C\\) med laddningen \\(Q\\).","Kondensatorer: kapacitans och energi");
 
   add(3,"magnetism","Magnetfält kring en rak ledare","<p>Strömmen i en lång rak ledare är 5,0 A. Bestäm magnetfältet 4,0 cm från ledaren.</p>","Fältlinjerna är cirklar runt ledaren.",[
     steg("Omvandla avståndet","Fyra centimeter är 0,040 meter.","\\[r=0{,}040\\ \\mathrm m\\]"),
     steg("Använd fältformeln","För en lång rak ledare gäller följande samband.","\\[B=\\frac{\\mu_0I}{2\\pi r}=\\frac{4\\pi\\cdot10^{-7}\\cdot5{,}0}{2\\pi\\cdot0{,}040}=2{,}5\\cdot10^{-5}\\ \\mathrm T\\]")
-  ],"Magnetfältet är \\(25\\ \mathrm{\\mu T}\\).","Höger tumme visar strömmen; böjda fingrar visar fältets riktning.","Magnetfält kring strömledare");
+  ],"Magnetfältet är \\(25\\ \\mathrm{\\mu T}\\).","Höger tumme visar strömmen; böjda fingrar visar fältets riktning.","Magnetfält kring strömledare");
 
   add(3,"magnetism","Magnetfält i en lång spole","<p>En 0,40 m lång spole har 800 varv och strömmen 0,60 A. Bestäm magnetfältet inuti spolen.</p>","I en lång spole är fältet ungefär homogent långt från ändarna.",[
     steg("Bestäm varvtätheten","Dela antalet varv med spolens längd.","\\[n=\\frac Nl=\\frac{800}{0{,}40}=2000\\ \\mathrm{m^{-1}}\\]"),
     steg("Beräkna fältet","Använd \\(B=\\mu_0nI\\).","\\[B=4\\pi\\cdot10^{-7}\\cdot2000\\cdot0{,}60=1{,}51\\cdot10^{-3}\\ \\mathrm T\\]")
-  ],"Magnetfältet är ungefär \\(1{,}5\\ \mathrm{mT}\\).","Fler varv per meter eller större ström ger starkare fält.","Magnetfält i spole");
+  ],"Magnetfältet är ungefär \\(1{,}5\\ \\mathrm{mT}\\).","Fler varv per meter eller större ström ger starkare fält.","Magnetfält i spole");
 
-  add(3,"magnetism","Kraft på en strömförande ledare","<p>En 0,25 m lång ledare för strömmen 3,0 A vinkelrätt mot ett magnetfält på 0,40 T. Bestäm kraftens belopp.</p>","Magnetfältet kan påverka rörliga laddningar och därmed en strömförande ledare.",[
-    steg("Kontrollera vinkeln","Ledaren är vinkelrät mot fältet, så \\(\\sin90^\\circ=1\\).","\\[F=BIl\\sin\\theta\\]"),
+  add(3,"magnetism","Kraft på en strömförande ledare","<p>En 0,25 m lång ledare för strömmen 3,0 A vinkelrätt mot ett magnetfält på 0,40 T. Bestäm kraftens belopp.</p>","När ledaren är vinkelrät mot magnetfältet gäller \\(F=BIl\\).",[
+    steg("Välj formeln","Ledaren är vinkelrät mot fältet, så du kan använda det enkla sambandet.","\\[F=BIl\\]"),
     steg("Sätt in värdena","Multiplicera fält, ström och ledarlängd.","\\[F=0{,}40\\cdot3{,}0\\cdot0{,}25=0{,}30\\ \\mathrm N\\]")
-  ],"Kraften är \\(0{,}30\\ \mathrm N\\).","Kraften är vinkelrät mot både strömmen och magnetfältet.","Magnetfält och magnetisk kraft");
+  ],"Kraften är \\(0{,}30\\ \\mathrm N\\).","Kraften är vinkelrät mot både strömmen och magnetfältet.","Magnetfält och magnetisk kraft");
 
   add(3,"magnetism","Riktning kring en rak ledare","<p>Strömmen går rakt ut ur skärmen. Åt vilket håll går magnetfältet runt ledaren?</p>","Högerhandsregeln kopplar strömriktningen \\(I\\) till magnetfältets riktning \\(B\\): tummen visar strömmen och de böjda fingrarna visar fältet.",[
-    steg("Rikta tummen","Använd höger hand. Låt tummen peka ut ur skärmen, i strömmens riktning. Punkten i bilden kan tänkas som spetsen på en pil som kommer mot dig.","\\[I:\\quad \\text{ut ur skärmen}\\]",ledareHandFigur),
+    steg("Rikta tummen","Låt höger tumme peka ut ur skärmen, i strömmens riktning. Punkten kan tänkas som spetsen på en pil som kommer mot dig.","\\[I:\\quad \\text{ut ur skärmen}\\]"),
     steg("Följ fingrarna","De böjda fingrarna visar fältlinjernas riktning.","\\[B:\\quad \\text{moturs}\\]")
   ],"Magnetfältet går moturs runt ledaren.","Punkt betyder ut ur skärmen; kryss betyder in i skärmen.","Riktningsfrågor: magnetfält kring rak ledare");
 
-  add(3,"magnetism","Riktning på kraften på en ledare","<p>En ledare har ström åt höger och ligger i ett magnetfält in i skärmen. Åt vilket håll verkar kraften?</p>","Kraftens belopp ges av \\(F=BIl\\sin\\alpha\\). Riktningen får du med höger hand: fingrarna följer strömmen, du vrider dem mot fältet och tummen visar kraften.",[
-    steg("Ordna riktningarna","Använd höger hand. Rikta fingrarna åt höger längs strömmen och vrid dem in mot skärmen, längs magnetfältet.","\\[I:\\rightarrow,\\qquad B:\\otimes\\]",kraftHandFigur),
+  add(3,"magnetism","Riktning på kraften på en ledare","<p>En ledare har ström åt höger och ligger i ett magnetfält in i skärmen. Åt vilket håll verkar kraften?</p>","När ledaren är vinkelrät mot fältet är kraftens belopp \\(F=BIl\\). Högerhandsregeln används bara för att bestämma riktningen.",[
+    steg("Ordna riktningarna","Låt högerhandens fingrar följa strömmen åt höger och vrid handen mot magnetfältet, som går in i skärmen.","\\[I:\\rightarrow,\\qquad B:\\otimes\\]"),
     steg("Läs av kraften","Tummen visar kraften på ledaren.","\\[F:\\uparrow\\]")
   ],"Kraften verkar uppåt.","Byter strömmen eller fältet riktning byter kraften riktning.","Riktningsfrågor: kraft på ledare i magnetfält");
 
@@ -148,10 +182,10 @@
     steg("Läs av tummen","Tummen pekar mot spolens nordpol och fältet inuti spolen.","\\[\\text{vänster ände}=N\\]")
   ],"Den vänstra änden är spolens nordpol.","Moturs ström sedd från en ände betyder nordpol vid den änden.","Riktningsfrågor för spolar och strömslingor");
 
-  add(3,"laddade_partiklar","Laddad partikel i magnetfält","<p>En proton med farten \\(2{,}0\\cdot10^6\\ \mathrm{m/s}\\) går vinkelrätt in i ett fält på 0,30 T. Bestäm magnetkraften.</p>","När hastigheten är vinkelrät mot fältet är kraften störst.",[
-    steg("Välj sambandet","Protonens laddning är \\(e=1{,}60\\cdot10^{-19}\\ \mathrm C\\).","\\[F=qvB\\sin90^\\circ=qvB\\]"),
+  add(3,"laddade_partiklar","Laddad partikel i magnetfält","<p>En proton med farten \\(2{,}0\\cdot10^6\\ \\mathrm{m/s}\\) går vinkelrätt in i ett fält på 0,30 T. Bestäm magnetkraften.</p>","När hastigheten är vinkelrät mot magnetfältet gäller \\(F=qvB\\).",[
+    steg("Välj sambandet","Protonens laddning är \\(e=1{,}60\\cdot10^{-19}\\ \\mathrm C\\).","\\[F=qvB\\]"),
     steg("Sätt in värdena","Magnetkraften ändrar riktningen men inte farten.","\\[F=1{,}60\\cdot10^{-19}\\cdot2{,}0\\cdot10^6\\cdot0{,}30=9{,}6\\cdot10^{-14}\\ \\mathrm N\\]")
-  ],"Magnetkraftens belopp är \\(9{,}6\\cdot10^{-14}\\ \mathrm N\\).","Är hastigheten parallell med fältet blir magnetkraften noll.","Laddade partiklar i elektriska och magnetiska fält");
+  ],"Magnetkraftens belopp är \\(9{,}6\\cdot10^{-14}\\ \\mathrm N\\).","Är hastigheten parallell med fältet blir magnetkraften noll.","Laddade partiklar i elektriska och magnetiska fält");
 
   add(3,"laddade_partiklar","Riktning för en laddad partikel","<p>En proton rör sig åt höger i ett magnetfält in i skärmen. Åt vilket håll verkar magnetkraften?</p>","För en positiv laddning använder du högerhandsregeln direkt.",[
     steg("Peka i hastighetens riktning","Fingrarna pekar åt höger och böjs mot fältet in i skärmen.","\\[\\vec v:\\rightarrow,\\qquad\\vec B:\\otimes\\]",faltFigur),
@@ -166,7 +200,7 @@
   add(3,"induktion","Beräkna inducerad spänning","<p>Magnetflödet genom en spole med 200 varv minskar jämnt från 0,012 Wb till 0 på 0,30 s. Bestäm spänningens belopp.</p>","En förändring av magnetiskt flöde inducerar spänning.",[
     steg("Bestäm flödesändringen","Använd ändringens belopp när bara spänningens storlek efterfrågas.","\\[|\\Delta\\Phi|=0{,}012\\ \\mathrm{Wb}\\]"),
     steg("Använd Faradays lag","Multiplicera ändring per tid med antalet varv.","\\[|U|=N\\frac{|\\Delta\\Phi|}{\\Delta t}=200\\cdot\\frac{0{,}012}{0{,}30}=8{,}0\\ \\mathrm V\\]")
-  ],"Den inducerade spänningens belopp är \\(8{,}0\\ \mathrm V\\).","Magnetiskt flöde är \\(\\Phi=BA\\cos\\theta\\), där vinkeln mäts mot ytans normal.","Faradays lag, magnetiskt flöde och induktion");
+  ],"Den inducerade spänningens belopp är \\(8{,}0\\ \\mathrm V\\).","Magnetiskt flöde är \\(\\Phi=BA\\cos\\theta\\), där vinkeln mäts mot ytans normal.","Faradays lag, magnetiskt flöde och induktion");
 
   add(3,"induktion","Lenz lag: bestäm strömriktningen","<p>En magnets nordpol förs mot en ledande ring. Vilken magnetisk pol skapar ringen på sidan mot magneten?</p>","Den inducerade strömmen motverkar förändringen av magnetflödet.",[
     steg("Beskriv förändringen","När nordpolen närmar sig ökar flödet genom ringen.","\\[\\Phi:\\quad \\text{ökar}\\]"),
@@ -176,17 +210,17 @@
   add(3,"vaxelstrom","Effektivvärde för växelspänning","<p>En sinusformad växelspänning har toppvärdet 325 V. Bestäm effektivvärdet.</p>","Effektivvärdet ger samma medeleffekt i en resistor som motsvarande likspänning.",[
     steg("Välj sambandet","För en sinusformad spänning gäller \\(U_{eff}=U_{max}/\\sqrt2\\).","\\[U_{eff}=\\frac{U_{max}}{\\sqrt2}\\]"),
     steg("Sätt in toppvärdet","Dividera med roten ur två.","\\[U_{eff}=\\frac{{\\color{#D1495B}{325}}}{\\sqrt2}=230\\ \\mathrm V\\]")
-  ],"Effektivvärdet är \\(230\\ \mathrm V\\).","Topp-till-topp-värdet är dubbla toppvärdet.","Sinusformad växelström och effektivvärde");
+  ],"Effektivvärdet är \\(230\\ \\mathrm V\\).","Topp-till-topp-värdet är dubbla toppvärdet.","Sinusformad växelström och effektivvärde");
 
   add(3,"vaxelstrom_spole_kondensator","Resonans i en LC-krets","<p>En spole på 0,20 H och en kondensator på 50 µF ingår i en krets. Bestäm resonansfrekvensen.</p>","Vid resonans är spolens och kondensatorns reaktanser lika stora.",[
     steg("Omvandla kapacitansen","Mikrofarad skrivs i farad.","\\[C=50\\cdot10^{-6}\\ \\mathrm F\\]"),
     steg("Beräkna resonansfrekvensen","Använd resonansvillkoret.","\\[f_0=\\frac1{2\\pi\\sqrt{LC}}=\\frac1{2\\pi\\sqrt{0{,}20\\cdot50\\cdot10^{-6}}}=50{,}3\\ \\mathrm{Hz}\\]")
-  ],"Resonansfrekvensen är ungefär \\(50\\ \mathrm{Hz}\\).","Vid resonans gäller \\(X_L=X_C\\).","Spole, kondensator och resonans i växelström");
+  ],"Resonansfrekvensen är ungefär \\(50\\ \\mathrm{Hz}\\).","Vid resonans gäller \\(X_L=X_C\\).","Spole, kondensator och resonans i växelström");
 
   add(4,"em_vagor","Frekvens och våglängd för ljus","<p>En radiovåg har frekvensen 100 MHz. Bestäm våglängden i vakuum.</p>","Alla elektromagnetiska vågor färdas med ljushastigheten i vakuum.",[
     steg("Skriv i hertz","Mega betyder \\(10^6\\).","\\[f=100\\cdot10^6\\ \\mathrm{Hz}\\]"),
-    steg("Använd vågekvationen","Sätt \\(c=3{,}00\\cdot10^8\\ \mathrm{m/s}\\).","\\[\\lambda=\\frac cf=\\frac{3{,}00\\cdot10^8}{100\\cdot10^6}=3{,}00\\ \\mathrm m\\]")
-  ],"Våglängden är \\(3{,}00\\ \mathrm m\\).","Högre frekvens innebär kortare våglängd.","Elektromagnetiska vågor och spektrum");
+    steg("Använd vågekvationen","Sätt \\(c=3{,}00\\cdot10^8\\ \\mathrm{m/s}\\).","\\[\\lambda=\\frac cf=\\frac{3{,}00\\cdot10^8}{100\\cdot10^6}=3{,}00\\ \\mathrm m\\]")
+  ],"Våglängden är \\(3{,}00\\ \\mathrm m\\).","Högre frekvens innebär kortare våglängd.","Elektromagnetiska vågor och spektrum");
 
   add(4,"vagrorelselara","Gitter och interferensmaximum","<p>Laserljus med våglängden 600 nm träffar ett gitter med 500 linjer/mm. Bestäm vinkeln till första ordningens maximum.</p>","Gitterkonstanten är avståndet mellan två intilliggande spalter.",[
     steg("Bestäm gitterkonstanten","Omvandla linjetätheten till linjer per meter och ta inversen.","\\[d=\\frac1{500\\cdot10^3}=2{,}0\\cdot10^{-6}\\ \\mathrm m\\]"),
@@ -195,8 +229,8 @@
 
   add(4,"temperaturstralning","Temperatur från strålningsmaximum","<p>En stjärnas spektrum har sitt maximum vid 500 nm. Uppskatta stjärnans yttemperatur.</p>","Wiens förskjutningslag kopplar den mest intensiva våglängden till temperaturen.",[
     steg("Omvandla våglängden","Nanometer skrivs i meter.","\\[\\lambda_{max}=500\\cdot10^{-9}\\ \\mathrm m\\]"),
-    steg("Använd Wiens lag","Använd \\(b=2{,}90\\cdot10^{-3}\\ \mathrm{m\\,K}\\).","\\[T=\\frac b{\\lambda_{max}}=\\frac{2{,}90\\cdot10^{-3}}{500\\cdot10^{-9}}=5800\\ \\mathrm K\\]")
-  ],"Stjärnans yttemperatur är ungefär \\(5800\\ \mathrm K\\).","Kortare maximumvåglängd betyder högre temperatur.","Temperaturstrålning: Wien och Stefan–Boltzmann");
+    steg("Använd Wiens lag","Använd \\(b=2{,}90\\cdot10^{-3}\\ \\mathrm{m\\,K}\\).","\\[T=\\frac b{\\lambda_{max}}=\\frac{2{,}90\\cdot10^{-3}}{500\\cdot10^{-9}}=5800\\ \\mathrm K\\]")
+  ],"Stjärnans yttemperatur är ungefär \\(5800\\ \\mathrm K\\).","Kortare maximumvåglängd betyder högre temperatur.","Temperaturstrålning: Wien och Stefan–Boltzmann");
 
   add(4,"straloptik","Brytning med Snells lag","<p>Ljus går från luft in i glas med brytningsindex 1,50. Infallsvinkeln är 30°. Bestäm brytningsvinkeln.</p>","Vinklar mäts mot normalen, inte mot ytan.",[
     steg("Skriv Snells lag","För luft kan du använda \\(n_1\\approx1{,}00\\).","\\[n_1\\sin i=n_2\\sin r\\]"),
@@ -205,23 +239,23 @@
 
   add(4,"ljus_partikelstrom","Beräkna en fotons energi","<p>Grönt ljus har våglängden 550 nm. Bestäm energin hos en foton.</p>","En fotons energi bestäms av frekvensen eller våglängden.",[
     steg("Välj sambandet","Kombinera \\(E=hf\\) med \\(c=f\\lambda\\).","\\[E=\\frac{hc}{\\lambda}\\]"),
-    steg("Sätt in värdena","Använd \\(h=6{,}626\\cdot10^{-34}\\ \mathrm{J\\,s}\\).","\\[E=\\frac{6{,}626\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{550\\cdot10^{-9}}=3{,}61\\cdot10^{-19}\\ \\mathrm J\\]")
-  ],"Fotonens energi är \\(3{,}61\\cdot10^{-19}\\ \mathrm J\\), cirka \\(2{,}25\\ \mathrm{eV}\\).","Högre frekvens och kortare våglängd ger större fotonenergi.","Fotonenergi");
+    steg("Sätt in värdena","Använd \\(h=6{,}626\\cdot10^{-34}\\ \\mathrm{J\\,s}\\).","\\[E=\\frac{6{,}626\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{550\\cdot10^{-9}}=3{,}61\\cdot10^{-19}\\ \\mathrm J\\]")
+  ],"Fotonens energi är \\(3{,}61\\cdot10^{-19}\\ \\mathrm J\\), cirka \\(2{,}25\\ \\mathrm{eV}\\).","Högre frekvens och kortare våglängd ger större fotonenergi.","Fotonenergi");
 
-  add(4,"partikelstralar","Radie i ett magnetfält","<p>En proton rör sig vinkelrätt mot ett magnetfält på 0,20 T med farten \\(3{,}0\\cdot10^6\\ \mathrm{m/s}\\). Bestäm banradien.</p>","Magnetkraften fungerar som centripetalkraft.",[
+  add(4,"partikelstralar","Radie i ett magnetfält","<p>En proton rör sig vinkelrätt mot ett magnetfält på 0,20 T med farten \\(3{,}0\\cdot10^6\\ \\mathrm{m/s}\\). Bestäm banradien.</p>","Magnetkraften fungerar som centripetalkraft.",[
     steg("Sätt krafterna lika","Använd \\(qvB=mv^2/r\\).","\\[qvB=\\frac{mv^2}{r}\\Rightarrow r=\\frac{mv}{qB}\\]"),
-    steg("Sätt in protonens data","\\(m_p=1{,}67\\cdot10^{-27}\\ \mathrm{kg}\\) och \\(q=e\\).","\\[r=\\frac{1{,}67\\cdot10^{-27}\\cdot3{,}0\\cdot10^6}{1{,}60\\cdot10^{-19}\\cdot0{,}20}=0{,}157\\ \\mathrm m\\]")
-  ],"Banradien är ungefär \\(0{,}16\\ \mathrm m\\).","Magnetfältet böjer banan men utför inget arbete på partikeln.","Styrning och analys av partikelstrålar");
+    steg("Sätt in protonens data","\\(m_p=1{,}67\\cdot10^{-27}\\ \\mathrm{kg}\\) och \\(q=e\\).","\\[r=\\frac{1{,}67\\cdot10^{-27}\\cdot3{,}0\\cdot10^6}{1{,}60\\cdot10^{-19}\\cdot0{,}20}=0{,}157\\ \\mathrm m\\]")
+  ],"Banradien är ungefär \\(0{,}16\\ \\mathrm m\\).","Magnetfältet böjer banan men utför inget arbete på partikeln.","Styrning och analys av partikelstrålar");
 
   add(4,"atomstruktur","Emissionslinje från en atom","<p>En elektron faller från energinivån −1,5 eV till −3,4 eV. Bestäm den utsända fotonens energi.</p>","En foton bär bort skillnaden mellan atomens energinivåer.",[
     steg("Ta energiskillnaden","Slutnivån är lägre, så energi avges.","\\[E_\\gamma=E_{före}-E_{efter}=(-1{,}5)-(-3{,}4)=1{,}9\\ \\mathrm{eV}\\]"),
     steg("Tolka svaret","Fotonens energi är positiv även om atomnivåerna skrivs som negativa.","\\[E_\\gamma=1{,}9\\ \\mathrm{eV}\\]")
-  ],"Atomen sänder ut en foton med energin \\(1{,}9\\ \mathrm{eV}\\).","Absorption höjer elektronen; emission sänker den.","Bohrs atommodell");
+  ],"Atomen sänder ut en foton med energin \\(1{,}9\\ \\mathrm{eV}\\).","Absorption höjer elektronen; emission sänker den.","Bohrs atommodell");
 
   add(5,"avstandsmatning","Avstånd med parallax","<p>En stjärnas parallaxvinkel är 0,20 bågsekunder. Bestäm avståndet i parsec.</p>","Parallaxen jämför stjärnans läge när jorden befinner sig på motsatta sidor om solen.",[
     steg("Använd parsec-definitionen","När vinkeln anges i bågsekunder blir sambandet enkelt.","\\[d(\\mathrm{pc})=\\frac1{p(\\mathrm{bågsekunder})}\\]"),
     steg("Sätt in vinkeln","Dividera ett med parallaxvinkeln.","\\[d=\\frac1{0{,}20}=5{,}0\\ \\mathrm{pc}\\]")
-  ],"Stjärnan ligger \\(5{,}0\\ \mathrm{pc}\\) bort.","Mindre parallaxvinkel betyder större avstånd.","Astronomisk avståndsmätning");
+  ],"Stjärnan ligger \\(5{,}0\\ \\mathrm{pc}\\) bort.","Mindre parallaxvinkel betyder större avstånd.","Astronomisk avståndsmätning");
 
   add(5,"farg_ljusstyrka","Ljusstyrka och avstånd","<p>Två lika starka stjärnor jämförs. Stjärna B ligger dubbelt så långt bort som stjärna A. Hur stor blir den observerade intensiteten från B?</p>","Strålningen sprids över en sfär vars area växer med avståndets kvadrat.",[
     steg("Skriv inversa kvadratlagen","Intensiteten är \\(I=L/(4\\pi r^2)\\).","\\[I\\propto\\frac1{r^2}\\]"),
@@ -238,10 +272,10 @@
     steg("Identifiera området","I denna del finns vita dvärgar: små, heta stjärnrester.","\\[\\text{vit dvärg}\\]")
   ],"Stjärnan är troligast en vit dvärg.","En stjärnas massa avgör i stor utsträckning dess livslängd och slutstadium.","Stjärnors utveckling och HR-diagram");
 
-  add(5,"kosmologi","Hubbles lag","<p>En galax avlägsnar sig med 1400 km/s. Använd \\(H_0=70\\ \mathrm{km\\,s^{-1}Mpc^{-1}}\\) och bestäm avståndet.</p>","På stora skalor ökar recessionshastigheten ungefär linjärt med avståndet.",[
+  add(5,"kosmologi","Hubbles lag","<p>En galax avlägsnar sig med 1400 km/s. Använd \\(H_0=70\\ \\mathrm{km\\,s^{-1}Mpc^{-1}}\\) och bestäm avståndet.</p>","På stora skalor ökar recessionshastigheten ungefär linjärt med avståndet.",[
     steg("Skriv Hubbles lag","Sambandet gäller universums expansion, inte vanlig rörelse genom rymden i närområdet.","\\[v=H_0d\\]"),
     steg("Lös ut avståndet","Enheterna är valda så att svaret blir i megaparsec.","\\[d=\\frac v{H_0}=\\frac{1400}{70}=20\\ \\mathrm{Mpc}\\]")
-  ],"Galaxens avstånd är ungefär \\(20\\ \mathrm{Mpc}\\).","Rödförskjutning används för att uppskatta recessionshastigheten.","Hubbles lag och rödförskjutning");
+  ],"Galaxens avstånd är ungefär \\(20\\ \\mathrm{Mpc}\\).","Rödförskjutning används för att uppskatta recessionshastigheten.","Hubbles lag och rödförskjutning");
 
   add(5,"framtiden","Universums framtid","<p>Observationer visar att universums expansion accelererar. Vilken slutsats är rimlig om universums framtid enligt dagens standardmodell?</p>","Universums framtid beror på innehåll, densitet och hur den mörka energin beter sig.",[
     steg("Koppla observation till modell","Accelerationen tillskrivs i standardmodellen mörk energi.","\\[\\ddot a>0\\]"),
@@ -256,7 +290,7 @@
   add(6,"langdkontraktion","Beräkna längdkontraktion","<p>Ett rymdskepp är 100 m långt i vila. Det passerar jorden med \\(0{,}80c\\). Hur långt mäts det från jorden?</p>","Egenlängden mäts i föremålets eget vilosystem.",[
     steg("Använd samma gammafaktor","Vid \\(0{,}80c\\) är \\(\\gamma=1{,}667\\).","\\[\\gamma=1{,}667\\]"),
     steg("Beräkna den kontraherade längden","Kontraktionen sker i rörelseriktningen.","\\[L=\\frac{L_0}{\\gamma}=\\frac{100}{1{,}667}=60\\ \\mathrm m\\]")
-  ],"Från jorden mäts skeppet till \\(60\\ \mathrm m\\).","Egenlängden är alltid den största längden.","Längdkontraktion och egenlängd");
+  ],"Från jorden mäts skeppet till \\(60\\ \\mathrm m\\).","Egenlängden är alltid den största längden.","Längdkontraktion och egenlängd");
 
   add(6,"tid_och_langd","Händelser och referenssystem","<p>Två blixtar slår ned samtidigt enligt en observatör på marken. Är de automatiskt samtidiga för en observatör som rör sig längs marken?</p>","Samtidighet på olika platser är inte absolut i den speciella relativitetsteorin.",[
     steg("Identifiera händelserna","Varje blixtnedslag är en händelse med en plats och en tid.","\\[(x_1,t_1),\\quad(x_2,t_2)\\]"),
@@ -265,8 +299,8 @@
 
   add(6,"massa_och_energi","Massa som energi","<p>Hur mycket energi motsvarar massan 1,0 mg?</p>","Massa är en form av energi även när föremålet är i vila.",[
     steg("Omvandla massan","Ett milligram är \\(1{,}0\\cdot10^{-6}\\) kg.","\\[m=1{,}0\\cdot10^{-6}\\ \\mathrm{kg}\\]"),
-    steg("Använd massa–energi-ekvivalensen","Sätt \\(c=3{,}00\\cdot10^8\\ \mathrm{m/s}\\).","\\[E=mc^2=1{,}0\\cdot10^{-6}(3{,}00\\cdot10^8)^2=9{,}0\\cdot10^{10}\\ \\mathrm J\\]")
-  ],"Massan motsvarar \\(9{,}0\\cdot10^{10}\\ \mathrm J\\).","Eftersom \\(c^2\\) är mycket stort motsvarar en liten massa mycket energi.","Massa–energi-ekvivalens");
+    steg("Använd massa–energi-ekvivalensen","Sätt \\(c=3{,}00\\cdot10^8\\ \\mathrm{m/s}\\).","\\[E=mc^2=1{,}0\\cdot10^{-6}(3{,}00\\cdot10^8)^2=9{,}0\\cdot10^{10}\\ \\mathrm J\\]")
+  ],"Massan motsvarar \\(9{,}0\\cdot10^{10}\\ \\mathrm J\\).","Eftersom \\(c^2\\) är mycket stort motsvarar en liten massa mycket energi.","Massa–energi-ekvivalens");
 
   add(6,"relativistisk_energi","Relativistisk rörelseenergi","<p>En partikel med vilomassan \\(m\\) rör sig med \\(0{,}80c\\). Uttryck rörelseenergin i enheten \\(mc^2\\).</p>","Vid höga hastigheter används inte den klassiska formeln \\(mv^2/2\\).",[
     steg("Beräkna gammafaktorn","För \\(v=0{,}80c\\) är \\(\\gamma=1{,}667\\).","\\[\\gamma=\\frac1{\\sqrt{1-0{,}80^2}}=1{,}667\\]"),
@@ -315,10 +349,10 @@
     "Kapacitans och lagrad energi":"\\[Q=CU,\\qquad E=\\frac{CU^2}{2}\\]",
     "Magnetfält kring en rak ledare":"\\[B=\\frac{\\mu_0I}{2\\pi r}\\]",
     "Magnetfält i en lång spole":"\\[B=\\mu_0nI\\]",
-    "Kraft på en strömförande ledare":"\\[F=BIl\\sin\\alpha\\]",
-    "Riktning på kraften på en ledare":"\\[F=BIl\\sin\\alpha\\]",
-    "Laddad partikel i magnetfält":"\\[F=qvB\\sin\\alpha\\]",
-    "Riktning för en laddad partikel":"\\[F=qvB\\sin\\alpha\\]",
+    "Kraft på en strömförande ledare":"\\[F=BIl\\]",
+    "Riktning på kraften på en ledare":"\\[F=BIl\\]",
+    "Laddad partikel i magnetfält":"\\[F=qvB\\]",
+    "Riktning för en laddad partikel":"\\[F=qvB\\]",
     "Kompass och jordens magnetfält":"\\[\\tan\\theta=\\frac{B_{ledare}}{B_{jord}}\\]",
     "Beräkna inducerad spänning":"\\[|U|=N\\frac{|\\Delta\\Phi|}{\\Delta t}\\]",
     "Lenz lag: bestäm strömriktningen":"\\[\\Phi=BA\\cos\\alpha\\]",
@@ -345,7 +379,18 @@
     "Jordens strålningsbalans":"\\[P_{in}=P_{ut}\\]",
     "Välj strålning efter användning":"\\[E=hf\\]"
   };
-  Object.values(bank).forEach(g=>{ if(huvudformler[g.rubrik]) g.formel=huvudformler[g.rubrik]; });
+  const huvudfigurer = {
+    "Stående våg på en sträng":strangFigurTydlig,
+    "Grundton och övertoner i en öppen pipa":oppenPipaFigurTydlig,
+    "Grundton och övertoner i en stängd pipa":stangdPipaFigurTydlig
+  };
+  Object.values(bank).forEach(g=>{
+    if(huvudformler[g.rubrik]) g.formel=huvudformler[g.rubrik];
+    if(huvudfigurer[g.rubrik]){
+      g.figur=huvudfigurer[g.rubrik];
+      (g.steg||[]).forEach(s=>{ delete s.figur; });
+    }
+  });
 
   window.TYPUPPGIFTER_FY2 = bank;
 })();

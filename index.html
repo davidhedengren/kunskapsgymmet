@@ -156,6 +156,14 @@ html[data-theme="light"][data-accent="fy1"]{
   --glow1:rgba(12,132,120,0.3);--glow2:rgba(18,160,145,0.225);
   --lvl1:#70B7B0;--lvl2:#0C8478;--lvl3:#095F56;
 }
+html[data-theme="light"][data-accent="hist"]{
+  --bg:#F3EDE4;
+  --surface:#FFFDFA;--surface2:#F9F5EE;--surface3:#EEE7DA;
+  --glass:rgba(250,246,239,0.78);
+  --acc:#96502A;--acc2:#7C4122;--accInk:#7C4122;--accSoft:rgba(150,80,42,0.11);
+  --glow1:rgba(150,80,42,0.3);--glow2:rgba(186,104,58,0.225);
+  --lvl1:#C4997C;--lvl2:#96502A;--lvl3:#6B391D;
+}
 html[data-theme="light"][data-accent="fy2"]{
   --bg:#EBECF8;
   --surface:#FDFCFF;--surface2:#F5F6FD;--surface3:#E7E9F6;
@@ -220,6 +228,14 @@ html[data-theme="dark"][data-accent="fy1"]{
   --acc:#3FD9C6;--acc2:#12A091;--accInk:#3FD9C6;--accSoft:rgba(63,217,198,0.15);
   --glow1:rgba(63,217,198,0.24);--glow2:rgba(18,160,145,0.195);
   --lvl1:#2B8782;--lvl2:#3FD9C6;--lvl3:#82E6DA;
+}
+html[data-theme="dark"][data-accent="hist"]{
+  --bg:#150F0A;
+  --surface:#241B13;--surface2:#2B2118;--surface3:#372B20;
+  --glass:rgba(30,22,15,0.74);
+  --acc:#E8A87C;--acc2:#C87F4E;--accInk:#E8A87C;--accSoft:rgba(232,168,124,0.15);
+  --glow1:rgba(232,168,124,0.24);--glow2:rgba(200,127,78,0.195);
+  --lvl1:#9A6B4B;--lvl2:#E8A87C;--lvl3:#F3C9AB;
 }
 html[data-theme="dark"][data-accent="fy2"]{
   --bg:#0D0E1C;
@@ -439,7 +455,6 @@ a{color:inherit}
   box-shadow:inset 0 1px 0 var(--specular);
 }
 .toppnotis.pa{border-color:var(--gold2);background:var(--goldSoft)}
-.toppnotis.fusk{border-color:var(--bad);background:var(--badSoft)}
 .toppnotis b{font-size:14px;letter-spacing:-.025em;flex:none}
 .toppnotis span{flex:1;min-width:180px;font-size:12.5px;color:var(--ink3);
   font-family:var(--read);letter-spacing:0;line-height:1.45}
@@ -454,9 +469,6 @@ a{color:inherit}
 .fliknapp:hover{border-color:var(--hair2)}
 .fliknapp.pa{background:var(--accSoft);border-color:var(--acc);color:var(--accInk)}
 
-.mxp{margin-left:4px;font-size:11px;font-weight:700;letter-spacing:0;
-  color:var(--gold);white-space:nowrap}
-.mxp.tagen{color:var(--ink3);font-weight:600}
 .topplista{list-style:none;margin:0;padding:0}
 .topprad{
   display:flex;align-items:center;gap:14px;padding:12px 6px;
@@ -479,14 +491,10 @@ a{color:inherit}
 }
 .tmedalj .marke{width:13px;stroke-width:2}
 .tfler{font-size:11px;font-weight:600;color:var(--ink3);margin-left:2px}
-.topprad .tvarde,.topprad .tuppg{
-  flex:none;text-align:right;font-size:14px;font-weight:700;
-  letter-spacing:-.03em;font-variant-numeric:tabular-nums;white-space:nowrap;
+.topprad .tvarde{
+  flex:none;min-width:62px;text-align:right;font-size:14px;font-weight:700;
+  letter-spacing:-.03em;color:var(--gold);
 }
-.topprad .tvarde{min-width:70px;color:var(--gold)}
-.topprad .tuppg{min-width:62px;color:var(--ink2)}
-.topprad .tvarde small,.topprad .tuppg small{
-  margin-left:3px;font-size:11px;font-weight:600;color:var(--ink3);letter-spacing:0}
 
 .topprad.jag{
   background:var(--accSoft);border-radius:14px;border-bottom-color:transparent;
@@ -495,12 +503,6 @@ a{color:inherit}
 .topprad.jag .tnamn b:after{content:"du";
   margin-left:7px;padding:2px 6px;border-radius:6px;font-size:10px;font-weight:700;
   background:var(--acc);color:#fff;letter-spacing:0;vertical-align:2px}
-.topprad.fuskrad .tnamn b{color:var(--bad)}
-.topprad.fuskrad .tnamn small{color:var(--bad);opacity:.85;
-  white-space:normal;line-height:1.4}
-.topprad.fuskrad .plats{color:var(--bad)}
-.topprad.fuskrad.jag{background:var(--badSoft)}
-.topprad.fuskrad.jag .tnamn b:after{background:var(--bad)}
 .toppladdar{padding:26px 6px;text-align:center;font-size:13.5px;color:var(--ink3)}
 .toppfot{margin:14px 0 0;font-size:12px;color:var(--ink3);
   font-family:var(--read);letter-spacing:0}
@@ -508,8 +510,7 @@ a{color:inherit}
 @media(max-width:520px){
   .topprad{gap:10px;padding:11px 4px}
   .topprad .tmedaljer{display:none}
-  .topprad .tvarde{min-width:58px;font-size:13.5px}
-  .topprad .tuppg{min-width:48px;font-size:13px}
+  .topprad .tvarde{min-width:52px;font-size:13.5px}
 }
 
 h1,h2,h3{letter-spacing:-.04em;margin:0}
@@ -642,6 +643,71 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .course-card:hover .go{color:var(--accInk);gap:10px}
 .course-card.loading{pointer-events:none}
 .course-card.loading .go:after{content:"";width:13px;height:13px;border-radius:50%;border:2px solid var(--hair2);border-top-color:var(--acc);animation:spin .7s linear infinite}
+
+/* ---- Kurs under uppbyggnad: röd stämpel över kortet ---- */
+.course-card.under .kursoppna{opacity:.6}
+.course-card.under.opplast .kursoppna{opacity:1}
+.kursstampel{
+  position:absolute;top:50%;left:50%;z-index:4;pointer-events:none;
+  transform:translate(-50%,-50%) rotate(-13deg);
+  padding:7px 16px;border:2.5px solid #CE4B3F;border-radius:9px;
+  color:#CE4B3F;font-size:12.5px;font-weight:800;letter-spacing:.1em;
+  text-transform:uppercase;white-space:nowrap;
+  background:rgba(206,75,63,.09);
+  box-shadow:0 0 0 3px rgba(206,75,63,.07);
+}
+.course-card.under.opplast .kursstampel{opacity:.5;font-size:11px;padding:5px 12px}
+.kodfalt{
+  width:100%;padding:13px 15px;border-radius:13px;border:1px solid var(--hair2);
+  background:var(--surface2);color:var(--ink);font-size:15px;font-family:var(--ui);
+  letter-spacing:.02em;
+}
+.kodfalt:focus{outline:2.5px solid var(--acc);outline-offset:1px}
+.kodhjalp{margin-top:9px;font-size:12.5px;color:var(--ink3);min-height:17px}
+.kodhjalp.fel{color:var(--bad)}
+
+/* ---- Flervalsuppgifter (historia m.fl.) ---- */
+.kalla{
+  margin:14px 0;padding:15px 17px;border-radius:16px;
+  border:1px solid var(--hair);border-left:3px solid var(--acc);
+  background:var(--surface2);font-family:var(--read);font-size:15px;line-height:1.62;
+  letter-spacing:0;
+}
+.kalla p{margin:0 0 9px}
+.kalla p:last-child{margin-bottom:0}
+.kalla .kall-topp{
+  font-family:var(--ui);font-size:11px;font-weight:700;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--ink3);margin-bottom:9px;
+}
+.kalla .kall-ref{margin-top:11px;font-family:var(--ui);font-size:12px;color:var(--ink3);letter-spacing:-.005em}
+.kalla.bild{border-left-color:var(--ink3)}
+.fragan{margin-top:16px;font-size:15.5px;font-weight:600;line-height:1.45}
+.altlista{display:flex;flex-direction:column;gap:9px;margin-top:2px}
+.alt{
+  display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;
+  padding:13px 15px;border:1px solid var(--hair);border-radius:14px;
+  background:var(--surface);color:var(--ink);font-family:var(--read);
+  font-size:14.5px;line-height:1.5;letter-spacing:0;
+  transition:border-color .18s ease,background .18s ease,transform .16s var(--ease);
+}
+.alt:hover{border-color:var(--hair2);background:var(--surface2)}
+.alt:active{transform:scale(.995)}
+.alt .ruta{
+  flex:none;width:21px;height:21px;margin-top:1px;border-radius:7px;
+  border:2px solid var(--hair2);display:grid;place-items:center;
+  font-size:12px;font-weight:700;color:transparent;transition:.18s var(--ease);
+}
+.alt.vald{border-color:var(--acc);background:var(--accSoft)}
+.alt.vald .ruta{background:var(--acc);border-color:var(--acc);color:#fff}
+.alt.ratt{border-color:var(--good);background:var(--goodSoft)}
+.alt.ratt .ruta{background:var(--good);border-color:var(--good);color:#fff}
+.alt.fel{border-color:var(--bad);background:var(--badSoft)}
+.alt.fel .ruta{background:var(--bad);border-color:var(--bad);color:#fff}
+.alt.missad{border-style:dashed;border-color:var(--good)}
+.alt .alttxt{flex:1;min-width:0}
+.alt .kommentar{display:block;margin-top:8px;font-size:13px;line-height:1.5;color:var(--ink2)}
+.alt[disabled]{cursor:default}
+.altfot{margin-top:2px;font-size:12.5px;color:var(--ink3)}
 
 .chead{padding:21px 2px 18px;display:flex;flex-wrap:wrap;align-items:center;gap:18px}
 .chead .t{flex:1;min-width:250px}
@@ -1665,25 +1731,6 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .cheer-card p{margin:8px 0 0;color:var(--ink2);font-family:var(--read);font-size:14.5px;letter-spacing:0}
 .cheer-card .btn{margin-top:22px;width:100%}
 
-.cheer.varning{background:rgba(60,8,10,.52)}
-.varning .cheer-card{
-  width:min(400px,100%);
-  background:linear-gradient(180deg,var(--surface),var(--badSoft));
-  border:2px solid var(--bad);
-  box-shadow:var(--e2),0 0 90px -26px rgba(176,63,66,.85);
-}
-.varning .cheer-halo:before,.varning .cheer-halo:after{border-color:var(--bad)}
-.varning .cheer-medal{
-  color:#fff;font-size:42px;
-  background:linear-gradient(152deg,#D9686B,#B03F42 60%,#8E2E31);
-  box-shadow:0 16px 34px -14px rgba(140,40,44,.95),inset 0 2px 0 rgba(255,255,255,.35);
-}
-.varning .cheer-medal:after{border-color:rgba(255,255,255,.4)}
-.varning .cheer-label{color:var(--bad)}
-.varning .cheer-card h2{color:var(--bad)}
-.varning .cheer-card p{font-size:15.5px;line-height:1.55;color:var(--ink)}
-.varning .cheer-card .btn{background:var(--bad);border-color:var(--bad);color:#fff}
-
 @media(max-width:960px){
   .dash{grid-template-columns:1fr}
   .side{position:static;grid-template-columns:1fr 1fr;display:grid}
@@ -1785,8 +1832,6 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 <div id="app"></div>
 <div id="toast" class="toast"></div>
 <div id="cheer" class="cheer" role="dialog" aria-live="polite"></div>
-<div id="anteckning" class="cheer varning" role="dialog" aria-modal="true"
-     aria-labelledby="anteckningrubrik"></div>
 
 <script>
 
@@ -1835,6 +1880,13 @@ const COURSES = {
     globals:{bank:"BANKMATO2",kap:"KAPNAMNMATO2",kapSpar:"KAPNAMNMATO2SPAR",omr:"OMRMATO2",grupp:"GRUPPMATO2"},
     tracks:["2c"], defaultTrack:"2c", tint:"#4478D2"
   },
+  hist:{
+    name:"Historia nivå 1", code:"Hi1", subject:"Historia",
+    files:["strukturhist.js","uppgifterhist.js"],
+    globals:{bank:"BANKHIST",kap:"KAPNAMNHIST",kapSpar:"KAPNAMNHISTSPAR",omr:"OMRHIST",grupp:"GRUPPHIST"},
+    tracks:[], tint:"#96502A",
+    under:true, kod:"historia"
+  },
   matf1:{
     name:"Matematik – fördjupning nivå 1", code:"Ma fördj 1", subject:"Matematik",
     files:["strukturmatf1.js","uppgiftermatf1.js"],
@@ -1844,7 +1896,7 @@ const COURSES = {
   }
 };
 
-const COURSE_ORDER=["ma1","ma2","mato1","mato2","matf1","fy1","fy2"];
+const COURSE_ORDER=["ma1","ma2","mato1","mato2","matf1","fy1","fy2","hist"];
 
 const DELAT_SPAR={ "ma1|1a":"gul" };
 
@@ -2159,8 +2211,7 @@ function sparaPagaendePass(){
       xp:state.sessionXp, ratt:state.sessionCorrect,
       passTyp:state.passTyp, omr:state.focusOmr, namn:state.focusNamn,
       area:state.focusArea, family:state.focusFamily,
-      felKo:state.felKo||null, lastIds:(state.lastIds||[]).slice(-12),
-      anteckning:!!state.anteckningVisad
+      felKo:state.felKo||null, lastIds:(state.lastIds||[]).slice(-12)
     }));
   }catch(_){}
 }
@@ -2190,10 +2241,11 @@ function aterupptaPass(d){
   state.focusArea=d.area||null; state.focusFamily=d.family||null;
   state.felKo=d.felKo||null;
   state.lastIds=d.lastIds||[];
-  state.anteckningVisad=!!d.anteckning;
   state.answered=false; state.solutionShown=false; state.noXp=false;
   state.partResults=[]; state.partIndex=0;
   state.hintUsed=false; state.hintVisible=false;
+  state.altValda=new Set(); state.altMiss=null;
+  state.altOrdning=null; state.altOrdningId=null;
   return true;
 }
 const app=document.getElementById("app");
@@ -2202,12 +2254,13 @@ const state={
   course:null, track:null, data:null, view:"home",
   focusArea:null, focusFamily:null,
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
-  aktivRuta:0, anteckningVisad:false,
+  aktivRuta:0,
   focusOmr:null, focusNamn:null, senasteUrsprung:[],
   flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
-  toppSort:"dag",
-  lastIds:[], solutionShown:false, answered:false, ggForslag:null
+  toppSort:"xp",
+  lastIds:[], solutionShown:false, answered:false, ggForslag:null,
+  altValda:null, altMiss:null, altOrdning:null, altOrdningId:null
 };
 
 const loadedScripts=new Set();
@@ -2307,53 +2360,36 @@ async function vaxlaTopplista(pa){
   return reply;
 }
 
-/* Topplistans flikar. Alla hämtas från databasfunktionen
-   topplista_period (se topplista-perioder.sql), som räknar in
-   medalj-XP. Dag/vecka/månad visar tillväxt under perioden. */
-const TOPP_FLIKAR={
-  dag:  {txt:"Bäst idag",      fot:"XP och uppgifter sedan midnatt idag"},
-  vecka:{txt:"Veckans bästa",  fot:"XP och uppgifter sedan måndag denna vecka"},
-  manad:{txt:"Månadens bästa", fot:"XP och uppgifter sedan den 1:a denna månad"},
-  alla: {txt:"All time high",  fot:"Totalt XP och uppgifter sedan starten"}
-};
-const TOPP_SORT=TOPP_FLIKAR;
-async function hamtaTopplista(flik,gräns=50){
+const TOPP_SORT={xp:"xp",uppgifter:"uppgifter",dagar:"dagar"};
+async function hamtaTopplista(sortering,gräns=50){
+  const kol=TOPP_SORT[sortering]||"xp";
   if(!MOLN_PA()) return null;
+
   const inloggad = !!session && await giltigSession();
   try{
-    const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/topplista_period",{
-      method:"POST",headers:sbHeaders(inloggad),
-      body:JSON.stringify({p_period:flik,p_limit:gräns,
-        p_namn:(session && profile.visaTopplista && profile.namn)?profile.namn:null})
-    });
+    const r=await fetch(SUPABASE_URL+"/rest/v1/topplista"
+      +"?select=namn,xp,niva,rang,uppgifter,dagar,medaljer"
+      +"&visa=eq.true&order="+kol+".desc&limit="+gräns,
+      {headers:sbHeaders(inloggad)});
     if(!r.ok){
+
       let txt=""; try{ txt=await r.text(); }catch(_){}
-      console.warn("Topplistan ("+flik+") svarade "+r.status+": "+txt);
-      if(r.status===404) return flik==="alla" ? hamtaTotalFranVy(inloggad,gräns) : {saknas:true};
+      console.warn("Topplistan svarade "+r.status+": "+txt);
       return null;
     }
-    const d=await r.json();
-    return {rader:Array.isArray(d?.rader)?d.rader:[],plats:d?.plats??null};
+    return await r.json();
   }catch(_){ return null; }
 }
 
-/* Reserv om databasfunktionen inte är installerad än: den gamla vyn
-   (utan medalj-XP). */
-async function hamtaTotalFranVy(inloggad,gräns){
-  const r=await fetch(SUPABASE_URL+"/rest/v1/topplista"
-    +"?select=namn,xp,niva,rang,uppgifter,dagar,medaljer"
-    +"&visa=eq.true&order=xp.desc,uppgifter.desc&limit="+gräns,
-    {headers:sbHeaders(inloggad)});
-  if(!r.ok) return null;
-  return {rader:await r.json(),plats:await minPlacering()};
-}
-
-async function minPlacering(){
+async function minPlacering(sortering){
+  const kol=TOPP_SORT[sortering]||"xp";
   if(!session || !profile.visaTopplista || !profile.namn) return null;
   if(!acceptedProfile || !await giltigSession()) return null;
-  const mitt=acceptedProfile.xp||0;
+  const acceptedDay=acceptedProfile.lastDay;
+  const streak=(acceptedDay===todayKey() || acceptedDay===yesterdayKey())?acceptedProfile.streak||0:0;
+  const mitt={xp:acceptedProfile.xp||0,uppgifter:acceptedProfile.attempts||0,dagar:streak}[kol];
   try{
-    const r=await fetch(SUPABASE_URL+"/rest/v1/topplista?select=id&visa=eq.true&xp=gt."+mitt,
+    const r=await fetch(SUPABASE_URL+"/rest/v1/topplista?select=id&visa=eq.true&"+kol+"=gt."+mitt,
       {headers:{...sbHeaders(true),Prefer:"count=exact",Range:"0-0"}});
     if(!r.ok) return null;
     const cr=r.headers.get("content-range")||"";
@@ -2530,10 +2566,9 @@ function rankFor(level){
 }
 function nextRank(level){ return RANKS.find(x=>x.lvl>level) || null; }
 function levelProgress(){
-  const xp=totalXp();
-  const L=levelFromXP(xp);
+  const L=levelFromXP(profile.xp);
   const base=totalXpForLevel(L), top=totalXpForLevel(L+1);
-  return {level:L, into:xp-base, need:top-base, pct:(xp-base)/Math.max(1,top-base)};
+  return {level:L, into:profile.xp-base, need:top-base, pct:(profile.xp-base)/Math.max(1,top-base)};
 }
 
 function todayKey(){
@@ -2636,7 +2671,7 @@ const BADGES=[
   {id:"bredd", icon:"allsidig", name:"Allsidig",        desc:"Träna i 8 olika områden",      max:8,   cur:()=>touchedAreas()},
   {id:"bredd20",icon:"kartan",name:"Kartläggaren",    desc:"Träna i 20 olika områden",     max:20,  cur:()=>touchedAreas()},
   {id:"tvakurser",icon:"bredaxlad",name:"Bredaxlad",     desc:"Träna i två olika kurser",     max:2,   cur:()=>Object.keys(profile.courses||{}).length},
-  {id:"xp1000",icon:"tusen", name:"Tusen",           desc:"Samla 1000 XP",                max:1000,cur:()=>totalXp()},
+  {id:"xp1000",icon:"tusen", name:"Tusen",           desc:"Samla 1000 XP",                max:1000,cur:()=>profile.xp},
 
   {id:"lagat5", icon:"lagat", name:"Andra chansen", desc:"Klara 5 uppgifter du haft fel på",  max:5,  cur:()=>profile.reparerade},
   {id:"lagat10",icon:"envis", name:"Envis",         desc:"Klara 10 uppgifter du haft fel på", max:10, cur:()=>profile.reparerade},
@@ -2653,33 +2688,6 @@ const BADGES=[
   {id:"ggkap", icon:"genomlast", name:"Genomläst",     desc:"Läs alla genomgångar i ett kapitel",max:1,  cur:()=>Object.keys(profile.ggKapKlara||{}).length},
   {id:"ggtrana",icon:"ipraktik", name:"Teori i praktik",desc:"Gå från genomgång till träning 5 gånger",max:5, cur:()=>profile.ggTranat}
 ];
-
-/* Varje medalj ger MEDALJ_XP extra XP. Bonusen räknas fram ur vilka
-   medaljer man har i stället för att läggas på profile.xp. Då gäller
-   den automatiskt retroaktivt, och serverns kontroll av tränings-XP
-   påverkas inte. Samma regel finns i databasen (topplista-perioder.sql)
-   så att topplistan räknar likadant. */
-const MEDALJ_XP=100;
-const MEDALJ_IDN=new Set(BADGES.map(b=>b.id));
-function antalMedaljer(p=profile){
-  return Object.keys(p?.badges||{}).filter(id=>MEDALJ_IDN.has(id)).length;
-}
-function medaljXp(p=profile){ return MEDALJ_XP*antalMedaljer(p); }
-function totalXp(p=profile){ return (p?.xp||0)+medaljXp(p); }
-
-/* Visas en gång per konto och enhet: berättar att medaljerna nu ger XP. */
-function visaMedaljXpInfo(){
-  if(session && !syncOwner) return;           // vänta tills molnprofilen är hämtad
-  const n=antalMedaljer();
-  if(!n) return;
-  const key="kunskapsgymmet-medaljxp:"+(syncOwner||"gast");
-  try{
-    if(localStorage.getItem(key)) return;
-    localStorage.setItem(key,"1");
-  }catch(_){ return; }
-  cheer(medaljIkon("tusen"),"Medaljerna ger XP","+"+(n*MEDALJ_XP)+" XP",
-    `Varje medalj är nu värd ${MEDALJ_XP} XP. Dina ${n} medaljer har räknats in i din nivå i efterhand.`);
-}
 
 /* Antalet lästa genomgångar räknas över alla kurser — den som läst i
    både fysik och matematik har läst lika mycket för det. */
@@ -2713,7 +2721,7 @@ function checkBadges(fordroj=0){
   const agare=ggAgare();
   const visa=()=>{
     if(agare!==ggAgare()) return;
-    gained.forEach(b=>cheer(medaljIkon(b.icon),"Ny medalj, +"+MEDALJ_XP+" XP",b.name,b.desc));
+    gained.forEach(b=>cheer(medaljIkon(b.icon),"Ny medalj",b.name,b.desc));
   };
   if(gained.length){
     saveProfile();
@@ -2723,13 +2731,14 @@ function checkBadges(fordroj=0){
 }
 
 const ACCENT_BG={
-  ljus:{a:"#F2ECF0",b:"#E6F2F1",c:"#E7EEF9",fy1:"#E4F2F4",fy2:"#EBECF8"},
-  mork:{a:"#120E14",b:"#091216",c:"#090F1B",fy1:"#081217",fy2:"#0D0E1C"}
+  ljus:{a:"#F2ECF0",b:"#E6F2F1",c:"#E7EEF9",fy1:"#E4F2F4",fy2:"#EBECF8",hist:"#F3EDE4"},
+  mork:{a:"#120E14",b:"#091216",c:"#090F1B",fy1:"#081217",fy2:"#0D0E1C",hist:"#150F0A"}
 };
 function accentKey(){
   if(!state.course) return "c";
   if(state.course==="fy1") return "fy1";
   if(state.course==="fy2") return "fy2";
+  if(state.course==="hist") return "hist";
   const m=String(state.track||"").match(/[abc]$/i);
 
   return m ? m[0].toLowerCase() : "c";
@@ -2800,41 +2809,6 @@ function dismissCheer(){
   el.classList.remove("show");
   cheerQueue.shift();
   setTimeout(()=>{ if(cheerQueue.length) pumpCheer(); else el.innerHTML=""; },450);
-}
-
-/* Påminnelse om att skriva ner sina beräkningar. Visas en gång per
-   träningspass, efter ANTECKNING_EFTER lösta uppgifter, och väntar tills
-   eventuella medalj- och nivårutor är stängda så att de inte krockar. */
-const ANTECKNING_EFTER=5;
-function koaAnteckning(){
-  if(state.anteckningVisad) return;
-  state.anteckningVisad=true;
-  sparaPagaendePass();
-  setTimeout(visaAnteckning,1200);
-}
-function visaAnteckning(){
-  const el=document.getElementById("anteckning");
-  if(!el || el.classList.contains("show")) return;
-  if(cheerQueue.length || document.getElementById("cheer")?.classList.contains("show")){
-    setTimeout(visaAnteckning,700); return;   // vänta tills hyllningen är klar
-  }
-  el.innerHTML=`<div class="cheer-card">
-      <div class="cheer-halo"><div class="cheer-medal" aria-hidden="true">✍️</div></div>
-      <div class="cheer-label">Kom ihåg</div>
-      <h2 id="anteckningrubrik">Skriv ner dina lösningar</h2>
-      <p>Glöm inte att skriva ner dina beräkningar och redovisningar i ditt
-         anteckningsblock. På ett prov är det en stor del av bedömningen,
-         så det är viktigt att träna på när du gör uppgifter.</p>
-      <button class="btn primary" onclick="stangAnteckning()">Jag har skrivit ner</button>
-    </div>`;
-  requestAnimationFrame(()=>el.classList.add("show"));
-  setTimeout(()=>el.querySelector(".btn")?.focus(),450);
-}
-function stangAnteckning(){
-  const el=document.getElementById("anteckning");
-  if(!el) return;
-  el.classList.remove("show");
-  setTimeout(()=>{ el.innerHTML=""; },450);
 }
 
 function ring(pct,size,stroke,color){
@@ -3349,7 +3323,6 @@ function toggleChapter(kap,btn){
 }
 
 function afterRender(){
-  setTimeout(visaMedaljXpInfo,400);
   renderMath(app);
   requestAnimationFrame(()=>{
     app.querySelectorAll("[data-off]").forEach(el=>{ el.style.strokeDashoffset=el.dataset.off; });
@@ -3713,6 +3686,83 @@ function renderGate(){
   if(f && gateLage!=="val") f.focus();
 }
 
+/* --- Kurser under uppbyggnad -------------------------------------------
+   Ett kort kan märkas med under:true och en kod. Kortet syns för alla,
+   men går bara att öppna med koden. Upplåsningen ligger lokalt på
+   enheten — det här är en alfaspärr, inte ett säkerhetsskydd. */
+const ALFA_KEY="kunskapsgymmet-alfa";
+
+function alfaOpplasta(){
+  try{ return new Set(JSON.parse(localStorage.getItem(ALFA_KEY))||[]); }
+  catch(_){ return new Set(); }
+}
+function alfaOpplast(id){
+  const c=COURSES[id];
+  if(!c||!c.under) return true;
+  return alfaOpplasta().has(id);
+}
+function alfaLasUpp(id){
+  const set=alfaOpplasta(); set.add(id);
+  try{ localStorage.setItem(ALFA_KEY,JSON.stringify([...set])); }catch(_){}
+}
+function oppnaKurs(id){
+  if(alfaOpplast(id)) return selectCourse(id);
+  oppnaKodruta(id);
+}
+function oppnaKodruta(id){
+  const c=COURSES[id];
+  if(!c) return;
+  const el=document.createElement("div");
+  el.className="modal"; el.id="kodruta";
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-label="Kurs under uppbyggnad" style="width:min(420px,100%)">
+      <div class="modal-topp">
+        <div>
+          <div class="lbl">Under uppbyggnad</div>
+          <h2>${esc(c.name)}</h2>
+        </div>
+        <button class="iconbtn" onclick="stangKodruta()" aria-label="Stäng">✕</button>
+      </div>
+      <p class="modal-text">Kursen är inte klar än. Har du fått en kod för att
+        testa den så skriver du in den här.</p>
+      <input id="kodfalt" class="kodfalt" autocomplete="off" spellcheck="false"
+        placeholder="Kod" oninput="kodSkrivet()"
+        onkeydown="if(event.key==='Enter')provaKod('${id}')">
+      <div class="kodhjalp" id="kodhjalp"></div>
+      <div class="modal-fot">
+        <span class="spacer"></span>
+        <button class="btn" onclick="stangKodruta()">Avbryt</button>
+        <button class="btn primary" onclick="provaKod('${id}')">Öppna</button>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangKodruta(); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+  setTimeout(()=>document.getElementById("kodfalt")?.focus(),80);
+}
+function stangKodruta(){
+  const el=document.getElementById("kodruta");
+  if(!el) return;
+  el.classList.remove("visa");
+  setTimeout(()=>el.remove(),250);
+}
+function kodSkrivet(){
+  const h=document.getElementById("kodhjalp");
+  if(h){ h.textContent=""; h.className="kodhjalp"; }
+}
+function provaKod(id){
+  const f=document.getElementById("kodfalt");
+  const h=document.getElementById("kodhjalp");
+  const svar=(f?.value||"").trim().toLowerCase();
+  if(svar!==String(COURSES[id]?.kod||"").toLowerCase()){
+    if(h){ h.textContent="Fel kod."; h.className="kodhjalp fel"; }
+    if(f){ f.select(); }
+    return;
+  }
+  alfaLasUpp(id);
+  stangKodruta();
+  selectCourse(id);
+}
+
 function kursLage(id){
   const cp=(profile.courses||{})[id];
   if(!cp) return null;
@@ -3754,7 +3804,8 @@ function renderHome(){
         })();
 
         const flera=c.tracks.length>1;
-        return `<div class="course-card" id="course-${id}"
+        const last=c.under ? (alfaOpplast(id)?" under opplast":" under") : "";
+        return `<div class="course-card${last}" id="course-${id}"
             style="--tint:${c.tint}22;--tintStrong:${c.tint}">
           ${flera?`<div class="sparkoder">${c.tracks.map(t=>{
             const bok=String(t).slice(-1).toLowerCase();
@@ -3764,7 +3815,8 @@ function renderHome(){
               onclick="oppnaSpar('${id}','${t}')"
               title="Öppna ${esc(c.name)}, spår ${esc(t)}">${esc(t)}</button>`;
           }).join("")}</div>`:""}
-          <button class="kursoppna" onclick="selectCourse('${id}')">
+          ${c.under?`<span class="kursstampel">Under uppbyggnad</span>`:""}
+          <button class="kursoppna" onclick="oppnaKurs('${id}')">
             ${flera?"":`<span class="kurskod" style="background:linear-gradient(160deg,${c.tint},${c.tint}bb)">${esc(c.code)}</span>`}
             <span>
               <h3>${esc(c.name)}</h3>
@@ -4624,7 +4676,7 @@ function renderDashboard(){
             </div>
             <div class="rankid">
               <div class="rankname">${esc(rank.name)}</div>
-              <div class="rankmeta">${totalXp()} XP</div>
+              <div class="rankmeta">${profile.xp} XP</div>
             </div>
             <button class="rankgo" onclick="showProgress()">Utveckling <span aria-hidden="true">→</span></button>
           </div>
@@ -4643,7 +4695,7 @@ function renderDashboard(){
                   aria-label="${esc(b.name)}: ${esc(b.desc)}. ${s.on?"Upplåst":s.cur+" av "+b.max}">
                 ${medaljIkon(b.icon)}${s.on?"":`<span class="frac">${s.cur}/${b.max}</span>`}
                 <span class="mtip">
-                  <b>${esc(b.name)} <span class="mxp">+${MEDALJ_XP} XP</span></b>
+                  <b>${esc(b.name)}</b>
                   <small>${esc(b.desc)}</small>
                   ${s.on?`<span class="num done">Upplåst</span>`
                         :`<span class="bar"><i style="width:${Math.round(s.pct*100)}%"></i></span>
@@ -4963,7 +5015,6 @@ function beginSession(typ){
   state.felKo=null;state.sessionFel=[];
   rensaPagaendePass();
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
-  state.anteckningVisad=false;
 
   state.sessionTarget=(PASS[state.passTyp]||{}).antal || profile.goal || 8;
 }
@@ -5169,6 +5220,8 @@ function nextTask(){
   state.currentTask=t;state.answered=false;state.solutionShown=false;
   state.partResults=[];state.partIndex=0;state.noXp=false;state.aktivRuta=0;
   state.hintUsed=false;state.hintVisible=false;
+  state.altValda=new Set();state.altMiss=null;
+  state.altOrdning=null;state.altOrdningId=null;
   state.lastIds.push(t.id);
   if(state.lastIds.length>12) state.lastIds.shift();
   sparaPagaendePass();
@@ -5322,6 +5375,9 @@ function autoPerDel(t,antal){
 const FACIT_FALLBACK_STANDARD=true;
 
 function expectedAnswersForTask(t){
+  /* Alternativuppgifter rättas av sin egen motor (kollaAlt), inte av
+     textjämförelsen. auto:true gör att "Visa lösning" nollar XP som vanligt. */
+  if(arAlt(t)) return {answers:[],source:"alternativ",auto:true,delAuto:[true]};
 
   if(t.självrättning===false){
     return {answers:[],source:"metadata",auto:false,delAuto:[]};
@@ -6289,6 +6345,7 @@ function renderTraining(){
   state.view="training";
   const t=state.currentTask;
   if(!t) return renderDashboard();
+  if(arAlt(t)) return renderAltTask(t);
   const family=Array.isArray(t.familj)?t.familj.join(" · "):t.familj;
   const layout=answerLayout(t);
   const expectedInfo=layout.info;
@@ -6399,6 +6456,161 @@ function renderTraining(){
     </div>`;
   afterRender();
   setTimeout(()=>document.getElementById("ans-0")?.focus(),60);
+}
+
+/* =======================================================================
+   Alternativuppgifter (flervalsfrågor med flera möjliga rätta svar)
+
+   Banken skriver:
+     svarstyp:"alternativ",
+     alternativ:[
+       {txt:"...", ratt:true, kommentar:"...", miss:"tendens_som_diskvalificering"},
+       ...
+     ]
+   Poäng: antalet rätt markerade minus antalet felaktigt markerade, delat
+   med antalet rätta alternativ. Den andelen går in i den vanliga
+   XP- och färdighetsmotorn som en lista deluppgifter, så ett rätt av två
+   ger halva poängen och alla rätt ger full.
+   ===================================================================== */
+function arAlt(t){
+  return String(t?.svarstyp||"").toLowerCase()==="alternativ"
+      && Array.isArray(t.alternativ) && t.alternativ.length>0;
+}
+function altRader(t){
+  return t.alternativ.map(a=>(typeof a==="string"?{txt:a}:a||{}))
+    .map(a=>({txt:String(a.txt??a.text??""),ratt:!!a.ratt,
+              kommentar:a.kommentar||"",miss:a.miss||null,sist:!!a.sist}));
+}
+/* Alternativen blandas per uppgift. Annars blir platsen i listan en ledtråd
+   i sig, och eleven kan lära sig ordningen i stället för innehållet.
+   Ett alternativ märkt sist:true hålls kvar längst ner — dit hör t.ex.
+   "Detta är inte ett exempel på ett historiebruk", som ska ligga på samma
+   ställe varje gång så att eleven vet att möjligheten alltid finns. */
+function altOrdna(t){
+  const rader=altRader(t);
+  const rorliga=rader.map((r,i)=>i).filter(i=>!rader[i].sist);
+  const fasta=rader.map((r,i)=>i).filter(i=>rader[i].sist);
+  for(let i=rorliga.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [rorliga[i],rorliga[j]]=[rorliga[j],rorliga[i]];
+  }
+  return rorliga.concat(fasta);
+}
+function altLista(t){
+  const rader=altRader(t);
+  if(state.altOrdningId!==t.id){
+    state.altOrdningId=t.id;
+    state.altOrdning=altOrdna(t);
+  }
+  const ord=state.altOrdning||rader.map((_,i)=>i);
+  return ord.map(i=>rader[i]).filter(Boolean);
+}
+function altAntalRatt(t){ return altLista(t).filter(a=>a.ratt).length || 1; }
+
+function vaxlaAlt(i){
+  if(state.answered) return;
+  state.altValda ||= new Set();
+  state.altValda.has(i) ? state.altValda.delete(i) : state.altValda.add(i);
+  const el=document.getElementById("alt-"+i);
+  if(el){
+    el.classList.toggle("vald",state.altValda.has(i));
+    el.setAttribute("aria-pressed",state.altValda.has(i)?"true":"false");
+  }
+  const knapp=document.getElementById("altknapp");
+  if(knapp) knapp.disabled=state.altValda.size===0;
+  const fot=document.getElementById("altfot");
+  if(fot) fot.textContent=state.altValda.size
+    ? `${state.altValda.size} markerade`
+    : "Flera alternativ kan vara rätt.";
+}
+
+function renderAltTask(t){
+  const lista=altLista(t);
+  state.altValda ||= new Set();
+  const dots=Array.from({length:state.sessionTarget},(_,i)=>
+    `<i class="${i<state.sessionDone?'done':(i===state.sessionDone?'now':'')}"></i>`).join("");
+
+  const alternativ=lista.map((a,i)=>`
+    <button class="alt" id="alt-${i}" type="button" aria-pressed="false"
+      onclick="vaxlaAlt(${i})">
+      <span class="ruta" aria-hidden="true">✓</span>
+      <span class="alttxt">${a.txt}<span class="kommentar" id="altkom-${i}" hidden></span></span>
+    </button>`).join("");
+
+  app.innerHTML=`
+    <div class="tshell view">
+      <div class="ttop">
+        <button class="crumb" onclick="backToDashboard()"><span aria-hidden="true">←</span> Avsluta</button>
+        <div class="spacer"></div>
+        ${xpMeterHtml()}
+        <span class="tag" style="background:transparent;border-color:var(--hair)">${esc(sessionLabel())}</span>
+        <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
+        <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
+      </div>
+      <article class="task">
+        <div class="tmeta">${levelChip(t)}<span class="tid">#${esc(t.ursprungsId||t.id)}</span></div>
+        <div class="tbody">${t.t||""}</div>
+        <div class="azone" id="answer-zone">
+          <h3>Ditt svar</h3>
+          <div class="altfot" id="altfot">Flera alternativ kan vara rätt.</div>
+          <div class="altlista">${alternativ}</div>
+          <div id="ledtrad-holder">${state.hintVisible?ledtradRuta(t):""}</div>
+          <div class="aacts">
+            <button class="btn primary" id="altknapp" onclick="kollaAlt()" disabled>Kontrollera</button>
+            ${t.ledtrad&&!state.hintVisible?`<button class="btn" id="ledtradknapp" onclick="visaLedtrad()">Visa ledtråd</button>`:""}
+            <button class="btn" onclick="showSolution()">Visa svar</button>
+          </div>
+          <div id="answer-result" role="status" aria-live="polite"></div>
+          <div id="solution-holder"></div>
+        </div>
+      </article>
+    </div>`;
+  afterRender();
+}
+
+function kollaAlt(){
+  if(state.answered) return;
+  const t=state.currentTask;
+  const lista=altLista(t);
+  const valda=state.altValda||new Set();
+  if(!valda.size){ toast("Markera minst ett alternativ."); return; }
+
+  const antalRatt=altAntalRatt(t);
+  let traffar=0, missar=0;
+  const miss=[];
+
+  lista.forEach((a,i)=>{
+    const el=document.getElementById("alt-"+i);
+    const kom=document.getElementById("altkom-"+i);
+    const vald=valda.has(i);
+    if(el){
+      el.disabled=true;
+      el.classList.remove("vald");
+      if(vald && a.ratt) el.classList.add("ratt");
+      else if(vald && !a.ratt) el.classList.add("fel");
+      else if(!vald && a.ratt) el.classList.add("ratt","missad");
+      const ruta=el.querySelector(".ruta");
+      if(ruta) ruta.textContent = a.ratt ? "✓" : (vald?"✕":"");
+    }
+    /* Kommentaren visas för det eleven tog ställning till och för de rätta
+       hen missade — inte för alternativ som varken valdes eller var rätta. */
+    if(kom && a.kommentar && (vald||a.ratt)){ kom.hidden=false; kom.innerHTML=a.kommentar; }
+    if(vald && a.ratt) traffar++;
+    if(vald && !a.ratt){ missar++; if(a.miss) miss.push(a.miss); }
+  });
+
+  state.altMiss=miss;
+  const poang=Math.max(0,traffar-missar)/antalRatt;
+  const delar=Array.from({length:antalRatt},(_,i)=>i<Math.round(poang*antalRatt));
+
+  const knapp=document.getElementById("altknapp");
+  if(knapp) knapp.remove();
+  const fot=document.getElementById("altfot");
+  if(fot) fot.textContent = `${traffar} av ${antalRatt} rätta markerade`
+    + (missar?` · ${missar} felaktig${missar===1?"t":"a"} val`:"");
+
+  finishAttempt(delar);
+  renderMath(document.getElementById("answer-zone"));
 }
 
 function checkAnswer(){
@@ -6654,8 +6866,8 @@ function finishAttempt(resultat){
   if(!correct){ (state.sessionFel ||= []).push(t); }
   sparaPagaendePass();
 
-  const xpBefore=totalXp();
-  const levelBefore=levelFromXP(xpBefore);
+  const xpBefore=profile.xp;
+  const levelBefore=levelFromXP(profile.xp);
   const goal=profile.goal||8;
   const beforeToday=todayCount();
 
@@ -6696,6 +6908,7 @@ function finishAttempt(resultat){
   }
   cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj,
     hint:!!state.hintUsed,
+    ...(state.altMiss&&state.altMiss.length?{miss:state.altMiss.slice(0,4)}:{}),
     ...(t.ursprungsId?{ursprungsId:t.ursprungsId,deluppgift:t.deluppgift}:{})});
   cp.history=cp.history.slice(-300);
   const genomgangForslag=correct ? null : hittaGenomgangForslag(t,cp);
@@ -6712,15 +6925,12 @@ function finishAttempt(resultat){
     profile.bestNiva3=Math.max(profile.bestNiva3||0,Math.round(b3*100));
   }
 
-  const HYLLNING=1500;
-  const nyaMedaljer=checkBadges(HYLLNING);
-  state.sessionXp+=MEDALJ_XP*nyaMedaljer.length;
-  const xpAfter=totalXp();
-  const levelAfter=levelFromXP(xpAfter);
+  const levelAfter=levelFromXP(profile.xp);
   const rankBefore=rankFor(levelBefore), rankAfter=rankFor(levelAfter);
   saveProfile();
 
-  animeraXp(xpBefore,xpAfter);
+  animeraXp(xpBefore,profile.xp);
+  const HYLLNING=1500;
   setTimeout(()=>{
     if(levelAfter>levelBefore){
       if(rankAfter.name!==rankBefore.name) cheer(rankAfter.sym,"Ny rang",rankAfter.name,"Du har klättrat ett steg på stegen.");
@@ -6728,9 +6938,8 @@ function finishAttempt(resultat){
     }
     if(beforeToday<goal && todayCount()>=goal) cheer(medaljIkon("dagsmal"),"Dagens mål","Klart för idag",`${goal} uppgifter avklarade.`);
   },HYLLNING);
+  checkBadges(HYLLNING);
   saveProfile();
-
-  if(state.sessionDone>=ANTECKNING_EFTER) koaAnteckning();
 
   const last=state.sessionDone>=state.sessionTarget;
   const bonus = seriebonus(profile.run);
@@ -6776,6 +6985,17 @@ function finishAttempt(resultat){
   }
 }
 
+/* Vilka feltänk återkommer? Läses av framtida adaptiv logik och av
+   läraren via konsolen: vanligaMiss(). */
+function vanligaMiss(gräns=25){
+  const cp=ensureCourseProfile();
+  const r={};
+  (cp.history||[]).slice(-gräns*4).forEach(h=>{
+    (h.miss||[]).forEach(m=>{ r[m]=(r[m]||0)+1; });
+  });
+  return Object.entries(r).sort((a,b)=>b[1]-a[1]).slice(0,gräns);
+}
+
 function ledtradRuta(t){
 
   return `<div class="ledtrad"><b>Ledtråd</b><div class="ltxt">${t.ledtrad||""}</div>
@@ -6796,6 +7016,24 @@ function showSolution(){
   state.solutionShown=true;
 
   if(auto && !state.answered) state.noXp=true;
+  /* Avslöjas svaret på en alternativuppgift låses knapparna direkt,
+     annars skulle facit ligga kvar bredvid en klickbar fråga. */
+  if(arAlt(t) && !state.answered){
+    altLista(t).forEach((a,i)=>{
+      const el=document.getElementById("alt-"+i);
+      if(el){
+        el.disabled=true;
+        if(a.ratt){
+          el.classList.add("ratt");
+          const ruta=el.querySelector(".ruta");
+          if(ruta) ruta.textContent="✓";
+        }
+      }
+      const kom=document.getElementById("altkom-"+i);
+      if(kom && a.kommentar && a.ratt){ kom.hidden=false; kom.innerHTML=a.kommentar; }
+    });
+    document.getElementById("altknapp")?.remove();
+  }
   const holder=document.getElementById("solution-holder");
   if(holder){
     holder.innerHTML=`<div class="sol"><div class="lbl">Lösning</div><div style="margin-top:10px">${t.s||"Facit saknas."}</div></div>
@@ -6899,7 +7137,7 @@ function renderSessionDone(record){
   const acc=Math.round(state.sessionCorrect/total*100);
   const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
   const st=currentStreak(), done=todayCount(), goal=profile.goal||8;
-  const toNext=Math.max(0,totalXpForLevel(lp.level+1)-totalXp());
+  const toNext=Math.max(0,totalXpForLevel(lp.level+1)-profile.xp);
 
   app.innerHTML=topbar()+`<main class="summary view">
     <div class="ringwrap">
@@ -6949,7 +7187,7 @@ function renderSessionDone(record){
       return `<div class="badge-row" style="margin-top:10px;background:var(--surface);border-color:var(--hair)">
         <div class="medal">${medaljIkon(nb.b.icon)}</div>
         <div class="txt">
-          <b>Nästa medalj: ${esc(nb.b.name)} <span class="mxp">+${MEDALJ_XP} XP</span></b>
+          <b>Nästa medalj: ${esc(nb.b.name)}</b>
           <small>${esc(nb.b.desc)} · ${nb.s.cur} av ${nb.b.max}</small>
           <div class="prog"><i data-w="${Math.round(nb.s.pct*100)}%"></i></div>
         </div>
@@ -6966,22 +7204,19 @@ function renderSessionDone(record){
 
 function oppnaTopplista(sortering,record){
   document.getElementById("kontomeny")?.remove();
-  state.toppSort=TOPP_FLIKAR[sortering]?sortering
-    :(TOPP_FLIKAR[state.toppSort]?state.toppSort:"dag");
+  state.toppSort=TOPP_SORT[sortering]?sortering:(state.toppSort||"xp");
   if(record!==false) navRecord("topplista");
   state.view="topplista";
   ritaTopplista(true);
   laddaTopplista();
 }
 
-function ritaTopplista(laddar,svar){
-  const s=TOPP_FLIKAR[state.toppSort]?state.toppSort:"dag";
-  const rader=svar?.rader, placering=svar?.plats;
-  const fuskare=Array.isArray(svar?.fuskare)?svar.fuskare:[];
-  const jagFuskare=!!(profile.namn && fuskare.some(f=>f.namn===profile.namn));
-  const flik=id=>`<button class="fliknapp${s===id?" pa":""}" role="tab"
-    aria-selected="${s===id?"true":"false"}"
-    onclick="oppnaTopplista('${id}',false)">${TOPP_FLIKAR[id].txt}</button>`;
+function ritaTopplista(laddar,rader,placering){
+  const s=state.toppSort||"xp";
+  const flik=(id,txt)=>`<button class="fliknapp${s===id?" pa":""}"
+    onclick="oppnaTopplista('${id}',false)">${txt}</button>`;
+  const sorterat={xp:"XP",uppgifter:"antal tränade uppgifter",
+                  dagar:"dagsstreck just nu"}[s];
 
   const egen = !session
     ? `<div class="toppnotis">
@@ -7001,11 +7236,6 @@ function ritaTopplista(laddar,svar){
            <span>Du tränar som vanligt, men ingen annan ser dig här. Du kan slå på och av det när du vill.</span>
            <button class="btn sm primary" onclick="snabbVisa(true)">Visa mig på listan</button>
          </div>`
-      : jagFuskare
-      ? `<div class="toppnotis fusk">
-           <b>Du tävlar inte just nu.</b>
-           <span>Din profil har markerats för misstänkt fusk, så din XP räknas inte på topplistan. Tror du att det är fel? Prata med din lärare.</span>
-         </div>`
       : `<div class="toppnotis pa">
            <b>Du syns som ${esc(profile.namn)}${placering?` · plats ${placering}`:""}.</b>
            <span>Andra ser ditt namn, din nivå, dina medaljer och hur mycket du tränat.</span>
@@ -7015,14 +7245,10 @@ function ritaTopplista(laddar,svar){
   let lista;
   if(laddar){
     lista=`<div class="toppladdar">Hämtar listan…</div>`;
-  }else if(svar?.saknas){
-    lista=`<div class="empty">Den här listan är inte aktiverad än. Prova fliken All time high så länge.</div>`;
   }else if(!rader){
     lista=`<div class="empty">Kunde inte hämta topplistan just nu. Försök igen om en stund.</div>`;
-  }else if(!rader.length && !fuskare.length){
-    lista = s==="alla"
-      ? `<div class="empty">Ingen har ställt sig på listan än.${session?" Du kan bli först.":" Logga in så kan du bli först."}</div>`
-      : `<div class="empty">Ingen har samlat XP ${{dag:"idag",vecka:"den här veckan",manad:"den här månaden"}[s]} än.${session?" Du kan bli först.":""}</div>`;
+  }else if(!rader.length){
+    lista=`<div class="empty">Ingen har ställt sig på listan än.${session?" Du kan bli först.":" Logga in så kan du bli först."}</div>`;
   }else{
     lista=`<ol class="topplista">${rader.map((rad,i)=>{
       const jag = profile.namn && rad.namn===profile.namn;
@@ -7031,31 +7257,18 @@ function ritaTopplista(laddar,svar){
         const b=BADGES.find(x=>x.id===id);
         return b?`<span class="tmedalj" title="${esc(b.name)}">${medaljIkon(b.icon)}</span>`:"";
       }).join("");
-      const xp=Number(rad.xp)||0, uppg=Number(rad.uppgifter)||0;
-      const tot=Number(rad.totalxp);
-      const niva=Number.isFinite(tot)?levelFromXP(tot):(rad.niva||1);
-      const rang=Number.isFinite(tot)?rankFor(niva).name:rad.rang;
+      const varde={xp:rad.xp+" XP",uppgifter:rad.uppgifter,dagar:rad.dagar+" d"}[s];
       return `<li class="topprad${jag?" jag":""}${i<3?" pall":""}">
         <span class="plats">${i+1}</span>
         <span class="tnamn">
           <b>${esc(rad.namn||"")}</b>
-          <small>Nivå ${niva}${rang?" · "+esc(rang):""}</small>
+          <small>Nivå ${rad.niva||1}${rad.rang?" · "+esc(rad.rang):""}</small>
         </span>
         <span class="tmedaljer">${visade}${medaljer.length>5?`<span class="tfler">+${medaljer.length-5}</span>`:""}</span>
-        <span class="tuppg" title="Uppgifter">${uppg}<small>uppg.</small></span>
-        <span class="tvarde" title="XP">${xp}<small>XP</small></span>
-      </li>`;
-    }).join("")}${fuskare.map(rad=>{
-      const jag = profile.namn && rad.namn===profile.namn;
-      return `<li class="topprad fuskrad${jag?" jag":""}">
-        <span class="plats" aria-hidden="true">–</span>
-        <span class="tnamn">
-          <b>${esc(rad.namn||"")}</b>
-          <small>Användaren har försökt fuska sig till en högre plats på topplistan 🧐</small>
-        </span>
+        <span class="tvarde">${esc(String(varde))}</span>
       </li>`;
     }).join("")}</ol>
-    <p class="toppfot">${TOPP_FLIKAR[s].fot}, sorterat på XP. Varje medalj ger ${MEDALJ_XP} XP. Bara de som själva valt att synas står med.</p>`;
+    <p class="toppfot">Sorterat på ${sorterat}. Bara de som själva valt att synas står med.</p>`;
   }
 
   app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
@@ -7067,18 +7280,17 @@ function ritaTopplista(laddar,svar){
       </div>
     </div>
     ${egen}
-    <div class="flikar" role="tablist">${Object.keys(TOPP_FLIKAR).map(flik).join("")}</div>
+    <div class="flikar">${flik("xp","XP")}${flik("uppgifter","Uppgifter")}${flik("dagar","Dagar i rad")}</div>
     <div class="card pad" style="margin-top:14px">${lista}</div>
   </main>`;
   afterRender();
 }
 
-let toppAnrop=0;
 async function laddaTopplista(){
-  const s=state.toppSort, nr=++toppAnrop;
-  const svar=await hamtaTopplista(s);
-  if(state.view!=="topplista" || nr!==toppAnrop || s!==state.toppSort) return;
-  ritaTopplista(false,svar);
+  const s=state.toppSort||"xp";
+  const [rader,plats]=await Promise.all([hamtaTopplista(s),minPlacering(s)]);
+  if(state.view!=="topplista") return;
+  ritaTopplista(false,rader,plats);
 }
 
 async function snabbVisa(pa){
@@ -7120,7 +7332,7 @@ function showProgress(record){
         </div>
         <div style="flex:1;min-width:180px">
           <div class="rankname">${esc(rank.name)}</div>
-          <div class="rankmeta">${totalXp()} XP${medaljXp()?` (varav ${medaljXp()} från medaljer)`:""}${nxt?` · nästa rang ${esc(nxt.name)} vid nivå ${nxt.lvl}`:""}</div>
+          <div class="rankmeta">${profile.xp} XP${nxt?` · nästa rang ${esc(nxt.name)} vid nivå ${nxt.lvl}`:""}</div>
           <div class="rankbar"><i data-w="${Math.round(lp.pct*100)}%"></i></div>
         </div>
       </div>
@@ -7196,14 +7408,14 @@ function showProgress(record){
       </div>`;
     })()}
 
-    <div class="sec"><h2>Medaljer</h2><span class="rankmeta">${BADGES.filter(b=>badgeState(b).on).length} av ${BADGES.length}, ${MEDALJ_XP} XP styck</span></div>
+    <div class="sec"><h2>Medaljer</h2><span class="rankmeta">${BADGES.filter(b=>badgeState(b).on).length} av ${BADGES.length}</span></div>
     <div class="badgegrid stagger" style="margin-bottom:26px">
       ${BADGES.map(b=>{
         const s=badgeState(b);
         return `<div class="badge-row">
           <div class="medal ${s.on?'on':''}">${medaljIkon(b.icon)}</div>
           <div class="txt">
-            <b>${esc(b.name)} <span class="mxp${s.on?" tagen":""}">+${MEDALJ_XP} XP</span></b>
+            <b>${esc(b.name)}</b>
             <small>${esc(b.desc)}</small>
             ${s.on?"":`<div class="prog"><i data-w="${Math.round(s.pct*100)}%"></i></div>`}
           </div>

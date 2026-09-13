@@ -1,6 +1,6 @@
 /* =====================================================================
    uppgifterhist.js  —  Historia nivå 1, Kunskapsgymmet
-   PROTOTYP 1 — 65 uppgifter
+   PROTOTYP 2 — 96 uppgifter
 
    FORMAT
      id            unik sträng
@@ -23,6 +23,11 @@
    POÄNG: (antal rätt markerade − antal fel markerade) / antal rätta.
    Andelen går in i den vanliga XP-motorn, så ett av två rätt ger halva
    poängen och alla rätt utan felmarkeringar ger full.
+
+   SVARSBALANS: Rätta och felaktiga alternativ ska vara parallella i
+   längd, detaljnivå och grammatisk form. Ett rätt svar får aldrig kännas
+   igen på fler förklarande bisatser, försiktigare språk eller högre
+   precision. Kör `granskaSvarsalternativHist()` vid redigering.
 
    OM KÄLLTEXTERNA: texterna är förkortade och återgivna i modern
    svenska. Där det står "Referat" är innehållet sammanfattat, inte
@@ -232,33 +237,15 @@ var BANKHIST = [
     titel:"Adam av Bremen om templet i Uppsala",
     typ:"Kyrkohistoriskt verk, latin, ca 1075",
     akthet:"autentisk",
-    text:`<p>Detta folk har ett mycket berömt tempel, som kallas Uppsala
-    och ligger inte långt från staden Sigtuna. I detta tempel, som är helt
-    och hållet smyckat med guld, dyrkar folket bilderna av tre gudar.</p>
-    <p>Den mäktigaste av dem, Tor, har sin plats mitt i rummet. På ömse
-    sidor om honom sitter Oden och Frej. Tor råder, säger de, i luften och
-    styr åska och blixt, vind och regn, väderlek och gröda. Oden, det vill
-    säga Raseriet, för krig och ger människan mod mot fiender. Den tredje,
-    Frej, skänker de dödliga fred och lust, och hans bild förses med en
-    väldig manslem.</p>
-    <p>Alla deras gudar har präster tillsatta, vilka frambär folkets offer.
-    Råder hungersnöd och pest offrar man åt Tor, står krig för dörren åt
-    Oden, och skall bröllop firas åt Frej.</p>
-    <p>Vart nionde år brukar dessutom hållas en gemensam fest i Uppsala för
-    alla Sveariket landskap. Ingen får utebli från denna fest. Kungar och
-    folk, alla och envar, sänder sina gåvor till Uppsala, och — vilket är
-    grymmare än allt annat straff — de som redan antagit kristendomen måste
-    friköpa sig från dessa ceremonier.</p>
-    <p>Offret går till så, att av varje levande varelse av hankön offras
-    nio stycken, med vilkas blod det är sed att blidka gudarna. Kropparna
-    hänges upp i en lund som ligger intill templet. Denna lund är så helig
-    för folket, att varje träd i den anses gudomligt genom de offrades död
-    och förruttnelse. Där hänger också hundar och hästar tillsammans med
-    människor, och en kristen har berättat för mig att han sett sjuttiotvå
-    sådana kroppar hänga där om varandra.</p>
-    <p>Om de sånger som brukar sjungas vid själva offerhandlingen är
-    mångahanda och oanständiga, och därför är det bäst att förbigå dem med
-    tystnad.</p>`,
+    text:`<p>Detta folk har ett mycket berömt tempel, som kallas Uppsala.
+    Där dyrkar folket bilder av tre gudar: Tor, Oden och Frej.</p>
+    <p>Vart nionde år hålls en gemensam fest. Kungar och folk sänder gåvor,
+    och de som antagit kristendomen måste friköpa sig från ceremonierna.</p>
+    <p>Kropparna av de offrade hängs upp i en lund intill templet. Där
+    hänger hundar och hästar tillsammans med människor. En kristen har
+    berättat för mig att han sett sjuttiotvå kroppar hänga där.</p>
+    <p>Sångerna vid offret är mångahanda och oanständiga. Därför är det bäst
+    att förbigå dem med tystnad.</p>`,
     om:`<p>Adam var magister och domherre vid domkapitlet i Bremen. Han
     skrev på 1070-talet, på uppdrag inifrån ärkestiftet, en historia över
     ärkebiskoparna i Hamburg-Bremen och deras missionsarbete i Norden.</p>
@@ -280,18 +267,18 @@ var BANKHIST = [
     {txt:"Adam väljer bort delar av det han vet, och säger det öppet: sångerna förbigås med tystnad eftersom han finner dem oanständiga.",
      ratt:true,
      kommentar:"Ett urval som görs av moraliska skäl. Vad som inte står i en källa är ofta lika avslöjande som det som står."},
-    {txt:"Problemet är att texten är skriven på latin och därför måste översättas.",
+    {txt:"Det enda relevanta problemet är att texten är skriven på latin och måste översättas.",
      ratt:false, miss:"sprak_som_kallkritiskt_problem",
-     kommentar:"Översättning är ett praktiskt arbete, inte ett källkritiskt problem i sig. Latinet säger inget om uppgifternas kvalitet."},
-    {txt:"Eftersom Adam levde på 1000-talet är han samtida med templet och därmed nära i tid.",
+     kommentar:"Översättning kan påverka nyanser, men tillkomst, urval och andrahandsuppgifter är minst lika viktiga."},
+    {txt:"Eftersom Adam levde på 1000-talet kan detaljerna behandlas som hans egna iakttagelser.",
      ratt:false, miss:"narhet_i_tid_racker",
-     kommentar:"Närhet i tid stämmer. Men han var 80 mil därifrån och hade aldrig varit på plats — närhet i rum är det som fattas."},
+     kommentar:"Han var nära i tid men långt bort i rum och hade aldrig varit i Uppsala. Samtidighet gör honom inte till ögonvittne."},
     {txt:"Att en av sagesmännen var kung gör uppgifterna säkrare, eftersom en kung har bättre insyn än andra.",
      ratt:false, miss:"auktoritet_som_belagg",
      kommentar:"Sven Estridsen var dansk kristen kung med egna intressen i hur Sverige framställdes. Hög ställning är inte samma sak som oberoende."},
     {txt:"Att beskrivningen är detaljerad — antalet gudar, antalet offer, antalet kroppar — talar för att den bygger på egna iakttagelser.",
      ratt:false, miss:"detaljrikedom_som_belagg",
-     kommentar:"Detaljer kan lika gärna komma från en god berättare som från ett ögonvittne. Nio och sjuttiotvå är dessutom talsymbolik."}
+     kommentar:"Detaljer kan lika gärna komma från en berättartradition som från ett ögonvittne. Adam anger själv att uppgiften förmedlats av någon annan."}
   ],
   s:`<p>Två saker går att visa direkt i texten: Adam skriver ut att en del
   är hörsägen (<em>en kristen har berättat för mig</em>), och han talar om
@@ -673,16 +660,16 @@ var BANKHIST = [
     {txt:"Ståndssamhällets skatteprivilegier, som lade bördan på tredje ståndet.",
      ratt:true,
      kommentar:"En strukturell orsak: den fanns i själva samhällsordningen."},
-    {txt:"Sammankallandet av generalständerna i maj 1789.",
+    {txt:"Sammankallandet av generalständerna, som var revolutionens långsiktiga ekonomiska bakgrund.",
      ratt:false, miss:"utlosande_kallad_bakomliggande",
      kommentar:"Det ligger nära i tid och är snarare en följd av krisen — en utlösande faktor."},
-    {txt:"Missväxten 1788.",
+    {txt:"Missväxten 1788, som hade försvagat staten under flera årtionden.",
      ratt:false, miss:"utlosande_kallad_bakomliggande",
      kommentar:"Missväxten ligger nära i tid och fungerar som utlösande faktor. Att dåliga skördar slog så hårt beror däremot på strukturer — och där börjar bakgrunden."},
-    {txt:"Napoleons maktövertagande.",
+    {txt:"Napoleons maktövertagande, som skapade den politiska krisen år 1789.",
      ratt:false, miss:"kronologi_omvand",
      kommentar:"1799, tio år senare. Kronologin gör det omöjligt."},
-    {txt:"Att Ludvig XVI var en obeslutsam person.",
+    {txt:"Ludvig XVI:s personlighet, som ensam förklarar tredje ståndets växande missnöje.",
      ratt:false, miss:"person_som_ensam_forklaring",
      kommentar:"Kungens person kan ha haft betydelse för förloppet, men förklarar inte varför krisen fanns."}
   ],
@@ -776,16 +763,16 @@ var BANKHIST = [
     {txt:"Att en orsak är ekonomisk utesluter inte att den religiösa också var verklig — orsaker konkurrerar inte om en enda plats.",
      ratt:true,
      kommentar:"Det här är det viktigaste steget bort från enkla förklaringar."},
-    {txt:"Reformationen i Sverige berodde enbart på Gustav Vasas skulder.",
+    {txt:"Reformationen berodde enbart på Gustav Vasas skulder eftersom kronan tjänade ekonomiskt på den indragna kyrkoegendomen.",
      ratt:false, miss:"monokausalitet",
      kommentar:"Skulderna förklarar varför pengar behövdes, inte varför just kyrkan kunde angripas utan uppror i hela riket."},
-    {txt:"Reformationen i Sverige berodde enbart på att befolkningen övertygades av Luthers teologi.",
+    {txt:"Reformationen berodde enbart på Luthers teologi eftersom religiösa idéer alltid väger tyngre än ekonomiska intressen.",
      ratt:false, miss:"monokausalitet",
      kommentar:"Beslutet togs uppifrån, av politiska och ekonomiska skäl, långt innan lärans innehåll slagit igenom brett."},
-    {txt:"Eftersom Gustav Vasa tjänade på beslutet kan de religiösa argumenten avfärdas som svepskäl.",
+    {txt:"De religiösa argumenten kan avfärdas som svepskäl eftersom Gustav Vasa själv fick ekonomisk nytta av beslutet.",
      ratt:false, miss:"motiv_lika_med_forklaring",
      kommentar:"Att någon tjänar på något är ett skäl att granska argumenten — inte ett bevis för att de var oärliga. Det är ett vanligt kortslut."},
-    {txt:"Att reformationen genomfördes uppifrån visar att befolkningen var likgiltig.",
+    {txt:"Genomförandet uppifrån visar att befolkningen var religiöst likgiltig och att idéernas spridning därför saknade betydelse.",
      ratt:false, miss:"beslut_lika_med_opinion",
      kommentar:"Motståndet var på sina håll kraftigt. Ett beslut uppifrån säger ingenting om vad människor tyckte."}
   ],
@@ -902,16 +889,16 @@ var BANKHIST = [
     {txt:"Vem som faktiskt reste avgjordes av enskilda beslut i familjer, ofta med biljetter och brev från släktingar som redan rest.",
      ratt:true,
      kommentar:"Aktörsnivån förklarar urvalet: varför just dessa personer, från just dessa byar."},
-    {txt:"Eftersom miljontals reste var besluten inte individuella.",
+    {txt:"Eftersom över en miljon människor reste kan utvandringen förklaras som en struktur utan några individuella beslut.",
      ratt:false, miss:"struktur_utraderar_aktor",
      kommentar:"Ett mönster består av enskilda beslut. Att mönstret finns gör inte besluten mindre verkliga."},
-    {txt:"Eftersom varje beslut var individuellt behövs ingen strukturell förklaring.",
+    {txt:"Eftersom varje familj fattade ett eget beslut behövs ingen gemensam strukturell förklaring till utvandringens omfattning.",
      ratt:false, miss:"aktor_utraderar_struktur",
      kommentar:"Då blir det obegripligt varför besluten klumpar ihop sig i tid och rum."},
-    {txt:"Emigrationens omfattning visar att Sverige var Europas fattigaste land.",
+    {txt:"Den stora utvandringen visar att Sverige var Europas fattigaste land och att nästan alla saknade försörjning.",
      ratt:false, miss:"enskilt_matt_generaliserat",
      kommentar:"Utvandringsintensiteten var hög, men det följer inte. Att emigrera kräver dessutom resurser och kontakter — de allra fattigaste reste ofta inte."},
-    {txt:"Kedjemigration — att man reste dit släktingar redan fanns — är ett exempel på en struktur utan aktörer.",
+    {txt:"Kedjemigration är en struktur utan aktörer eftersom släktingarnas brev bestämde vart nästa utvandrare måste resa.",
      ratt:false, miss:"struktur_utan_aktorer",
      kommentar:"Kedjemigration är just samspelet: ett nätverk som byggs av enskilda beslut och som sedan styr nästa persons val."}
   ],
@@ -1040,16 +1027,16 @@ var BANKHIST = [
     {txt:"En människa som levde år 1050 märkte ingen övergång. Periodgränser är verktyg i efterhand, inte händelser.",
      ratt:true,
      kommentar:"Den poängen är lätt att glömma när årtalen står i en tidslinje."},
-    {txt:"Gränsen 1050 är fastställd genom en samtida källa.",
+    {txt:"Gränsen 1050 är fastställd genom en samtida källa som beskriver när vikingatiden faktiskt upphörde.",
      ratt:false, miss:"periodgrans_som_handelse",
      kommentar:"Ingen skrev 1050 att en epok tog slut. Indelningen är gjord långt senare."},
-    {txt:"Perioder är godtyckliga och därför meningslösa.",
+    {txt:"Perioder är godtyckliga och därför meningslösa eftersom olika forskare kan välja olika kriterier och gränser.",
      ratt:false, miss:"konstruktion_lika_med_vardelos",
      kommentar:"Att något är konstruerat gör det inte värdelöst. Perioder gör jämförelser och samtal möjliga — de ska bara inte förväxlas med verkligheten."},
-    {txt:"Periodiseringen gäller lika bra för hela Norden samtidigt.",
+    {txt:"Periodiseringen gäller lika bra för hela Norden eftersom kristnandet och skriftkulturen infördes samtidigt överallt.",
      ratt:false, miss:"periodisering_universell",
      kommentar:"Kristnandet gick olika snabbt i olika områden, vilket är ett av skälen till att gränsen diskuteras."},
-    {txt:"Eftersom perioderna delas in olika i olika länder är den svenska indelningen felaktig.",
+    {txt:"Den svenska indelningen är felaktig eftersom en historisk period måste börja och sluta samtidigt i alla länder.",
      ratt:false, miss:"olikhet_lika_med_fel",
      kommentar:"Olika indelningar kan vara rimliga för olika frågor. Det handlar inte om rätt och fel, utan om mer eller mindre användbart."}
   ],
@@ -1073,16 +1060,16 @@ var BANKHIST = [
     {txt:"1866 var en stor förändring av formen men liten av vilka som fick rösta: rösträtten förblev kraftigt begränsad av inkomst och förmögenhet.",
      ratt:true,
      kommentar:"Ett bra exempel på att en institutionell reform inte behöver vara en demokratisering."},
-    {txt:"1809 är den rätta brytpunkten eftersom den regeringsformen gällde längst.",
+    {txt:"1809 är den enda riktiga brytpunkten eftersom regeringsformens långa giltighet visar att demokratin infördes då.",
      ratt:false, miss:"varaktighet_lika_med_betydelse",
      kommentar:"Hur länge något varar är inte samma sak som hur mycket det förändrade."},
-    {txt:"1918–21 är den enda möjliga brytpunkten, eftersom demokrati per definition betyder allmän rösträtt.",
+    {txt:"1918–21 är den enda möjliga brytpunkten eftersom allmän rösträtt är det enda kriteriet som definierar demokrati.",
      ratt:false, miss:"definition_forutsatt",
      kommentar:"Det är en försvarbar hållning — men den måste argumenteras för. Och rösträtten var 1921 fortfarande villkorad på flera sätt."},
-    {txt:"Eftersom förändringen skedde gradvis finns det inga brytpunkter.",
+    {txt:"Det finns inga användbara brytpunkter eftersom en gradvis demokratisering inte kan delas in med bestämda årtal.",
      ratt:false, miss:"gradvis_utesluter_brytpunkt",
      kommentar:"Gradvisa förlopp kan mycket väl ha punkter där takten eller riktningen ändras. De ska bara motiveras."},
-    {txt:"Brytpunkter bör alltid sättas vid krig, eftersom krig förändrar mest.",
+    {txt:"Den viktigaste brytpunkten bör kopplas till ett krig eftersom krig alltid förändrar politiska system mest.",
      ratt:false, miss:"handelsetyp_som_regel",
      kommentar:"Ingen händelsetyp är automatiskt en brytpunkt. Det beror på vad som undersöks."}
   ],
@@ -1105,22 +1092,22 @@ var BANKHIST = [
   en fjord.</p>
   <p class="fragan">Hur beskrivs detta bäst?</p>`,
   alternativ:[
-    {txt:"Kommersiellt historiebruk: historien används för att sälja en vara.",
+    {txt:"Det är kommersiellt historiebruk eftersom vikingabilden används för att sälja en vara.",
      ratt:true,
      kommentar:"Syftet avgör kategorin, och syftet är här försäljning."},
-    {txt:"Bruket bygger på en bild av vikingar som formades under 1800-talets nationalromantik, snarare än på vad forskningen visar.",
+    {txt:"Reklamen återanvänder den nationalromantiska bilden av vikingar som skäggiga krigare i drakskepp.",
      ratt:true,
      kommentar:"Det brukade förflutna är ofta ett tidigare bruk, inte källmaterialet."},
-    {txt:"Detta är inte ett exempel på ett historiebruk.",
+    {txt:"Det är inte historiebruk eftersom reklamen handlar om en nutida produkt, inte om historia.",
      sist:true, ratt:false, miss:"bruk_ej_igenkant",
      kommentar:"Jo. Så snart en bild av det förflutna används för ett syfte i nuet är det historiebruk."},
-    {txt:"Vetenskapligt historiebruk, eftersom vikingatiden är ett väl utforskat område.",
+    {txt:"Det är vetenskapligt historiebruk eftersom reklamen bygger på en väl utforskad historisk epok.",
      ratt:false, miss:"amne_bestammer_brukstyp",
      kommentar:"Vilken typ av bruk det rör sig om avgörs av syftet, inte av hur välutforskat ämnet är."},
-    {txt:"Eftersom bilden är historiskt felaktig är det inget historiebruk.",
+    {txt:"Det är inte historiebruk eftersom den förenklade vikingabilden inte stämmer med dagens forskning.",
      ratt:false, miss:"felaktig_alltsa_inte_bruk",
      kommentar:"Historiebruk behöver inte vara korrekt. De felaktiga bilderna är ofta de mest använda."},
-    {txt:"Ideologiskt historiebruk, eftersom drakskeppet är en nationell symbol.",
+    {txt:"Det är främst ideologiskt historiebruk eftersom drakskeppet används som en symbol för nationen.",
      ratt:false, miss:"symbol_bestammer_brukstyp",
      kommentar:"Det kan glida åt det hållet, men här är avsändaren ett bryggeri och syftet att sälja öl."}
   ],
@@ -1138,22 +1125,22 @@ var BANKHIST = [
   industrialiseringen.</p>
   <p class="fragan">Hur beskrivs detta bäst?</p>`,
   alternativ:[
-    {txt:"Ideologiskt och nationellt bruk: en bild av det svenska byggs upp och ges en plats att visas på.",
+    {txt:"Det är ideologiskt och nationellt historiebruk eftersom en gemensam bild av Sverige byggs upp.",
      ratt:true,
      kommentar:"Urvalet av byggnader, landskap och tidsskikt bär ett budskap om vad Sverige är."},
-    {txt:"Bruket är samtidigt sammanvävt med ett vetenskapligt syfte — insamling och dokumentation av föremål och byggnader som annars gått förlorade.",
+    {txt:"Det finns också ett vetenskapligt syfte eftersom byggnader och föremål samlas in och dokumenteras.",
      ratt:true,
      kommentar:"Ett och samma projekt kan tillhöra flera kategorier samtidigt."},
-    {txt:"Detta är inte ett exempel på ett historiebruk.",
+    {txt:"Det är inte historiebruk eftersom Skansen bevarar äldre byggnader i stället för att tolka dem.",
      sist:true, ratt:false, miss:"bruk_ej_igenkant",
      kommentar:"Ett friluftsmuseum är historiebruk i närmast renodlad form."},
-    {txt:"Icke-bruk, eftersom syftet var att bevara och inte att påverka.",
+    {txt:"Det är icke-bruk eftersom syftet är att bevara det förflutna utan att påverka besökaren.",
      ratt:false, miss:"bevara_lika_med_neutralt",
      kommentar:"Icke-bruk är när tillgänglig historia medvetet lämnas oanvänd och tystas. Att bevara är en aktiv handling — och urvalet är ett ställningstagande."},
-    {txt:"Kommersiellt bruk är den enda rimliga beskrivningen, eftersom Skansen tar entré.",
+    {txt:"Det är enbart kommersiellt historiebruk eftersom Skansen tar betalt av dem som besöker området.",
      ratt:false, miss:"pengar_lika_med_kommersiellt_bruk",
      kommentar:"Det finns ett kommersiellt inslag, men det förklarar varken urvalet eller varför museet byggdes just då."},
-    {txt:"Eftersom byggnaderna är äkta ger utställningen en objektiv bild av bondesamhället.",
+    {txt:"Det är en objektiv återgivning av bondesamhället eftersom de flyttade byggnaderna är historiskt äkta.",
      ratt:false, miss:"akta_foremal_lika_med_sann_bild",
      kommentar:"Äkta föremål i ett valt urval, i en vald miljö, ger ändå en tolkning."}
   ],
@@ -1170,22 +1157,22 @@ var BANKHIST = [
   "Det här är ingenting annat än ett nytt München 1938."</p>
   <p class="fragan">Hur beskrivs detta bäst?</p>`,
   alternativ:[
-    {txt:"Politiskt–moraliskt bruk: en historisk händelse används för att göra motståndarens ståndpunkt moraliskt omöjlig.",
+    {txt:"Det är politiskt–moraliskt historiebruk eftersom jämförelsen gör motståndarens förslag moraliskt misstänkt.",
      ratt:true,
      kommentar:"Det är inte historien som argumenteras om, utan dagens fråga som laddas med historiens moral."},
-    {txt:"Jämförelsen fungerar genom att den flyttar över laddningen från eftergiftspolitiken till dagens fråga, utan att likheterna behöver prövas.",
+    {txt:"Jämförelsen överför den negativa laddningen från Münchenöverenskommelsen till den fråga som diskuteras i dag.",
      ratt:true,
      kommentar:"Den som ska bemöta analogin tvingas först bevisa att hon inte är Chamberlain. Det är själva poängen med greppet."},
-    {txt:"Detta är inte ett exempel på ett historiebruk.",
+    {txt:"Det är inte historiebruk eftersom politikern diskuterar ett nutida förslag och inte andra världskriget.",
      sist:true, ratt:false, miss:"bruk_ej_igenkant",
      kommentar:"Historiska analogier i politisk debatt är ett av de vanligaste bruken av alla."},
-    {txt:"Vetenskapligt bruk, eftersom München 1938 verkligen inträffade.",
+    {txt:"Det är vetenskapligt historiebruk eftersom jämförelsen utgår från en verklig och dokumenterad händelse.",
      ratt:false, miss:"sant_lika_med_vetenskapligt",
      kommentar:"Att händelsen är verklig säger ingenting om i vilket syfte den används."},
-    {txt:"Eftersom jämförelsen historiskt sett haltar är det inte historiebruk.",
+    {txt:"Det är inte historiebruk om likheterna mellan dagens fråga och München 1938 är svaga.",
      ratt:false, miss:"felaktig_alltsa_inte_bruk",
      kommentar:"Haltande jämförelser är fortfarande bruk — ofta de mest verkningsfulla."},
-    {txt:"Existentiellt bruk, eftersom politikern uttrycker starka känslor.",
+    {txt:"Det är existentiellt historiebruk eftersom politikern uttrycker stark oro inför förslagets möjliga följder.",
      ratt:false, miss:"kansla_lika_med_existentiellt",
      kommentar:"Existentiellt bruk handlar om att orientera sig i vem man är, inte om att argumentera med kraft."}
   ],
@@ -1202,22 +1189,22 @@ var BANKHIST = [
   när bergskedjan veckades. Resultaten publiceras i en geologisk tidskrift.</p>
   <p class="fragan">Hur beskrivs detta bäst?</p>`,
   alternativ:[
-    {txt:"Detta är inte ett exempel på ett historiebruk.",
+    {txt:"Det är inte historiebruk eftersom undersökningen gäller jordens geologiska förflutna, inte människors historia.",
      sist:true, ratt:true,
      kommentar:"Rätt. Här undersöks jordens historia, och ingen bild av det mänskliga förflutna används för ett syfte i nuet."},
-    {txt:"Det som saknas är mänsklig historia: geologen undersöker jordens geologiska förflutna, inte människors historiska erfarenheter eller föreställningar.",
+    {txt:"Isotopdateringen undersöker när bergarter bildades och använder inte det mänskliga förflutna för något nutida syfte.",
      ratt:true,
      kommentar:"Gränsen går vid bruket. Att undersöka är inte i sig att bruka."},
-    {txt:"Vetenskapligt historiebruk, eftersom det är forskning om det förflutna.",
+    {txt:"Det är vetenskapligt historiebruk eftersom forskaren använder vetenskapliga metoder för att undersöka det förflutna.",
      ratt:false, miss:"forskning_lika_med_historiebruk",
      kommentar:"Vetenskapligt historiebruk kan handla om historievetenskapligt arbete med det mänskliga förflutna. Här är studieobjektet i stället berggrund och geologisk tid, alltså naturvetenskap."},
-    {txt:"Kommersiellt bruk, eftersom tidskriften säljs.",
+    {txt:"Det är kommersiellt historiebruk eftersom forskningsresultatet publiceras i en tidskrift som säljs till läsare.",
      ratt:false, miss:"pengar_lika_med_kommersiellt_bruk",
      kommentar:"Att något kostar pengar gör det inte till kommersiellt historiebruk."},
-    {txt:"Eftersom samma dateringsmetoder används av arkeologer är det historiebruk.",
+    {txt:"Det är historiebruk eftersom samma dateringsmetod även kan användas av arkeologer i historiska undersökningar.",
      ratt:false, miss:"metod_bestammer_brukstyp",
      kommentar:"Metoden avgör inte. Frågan är vad som brukas och i vilket syfte."},
-    {txt:"Ideologiskt bruk, eftersom bergskedjan ligger i Sverige och Norge.",
+    {txt:"Det är ideologiskt historiebruk eftersom forskningen behandlar en bergskedja som tillhör Sverige och Norge.",
      ratt:false, miss:"geografi_bestammer_brukstyp",
      kommentar:"Var något ligger avgör ingenting om bruket."}
   ],
@@ -1236,22 +1223,22 @@ var BANKHIST = [
   valdes bort.</p>
   <p class="fragan">Hur beskrivs detta bäst?</p>`,
   alternativ:[
-    {txt:"Ideologiskt historiebruk: historien används för att legitimera en politisk ordning och en rasföreställning.",
+    {txt:"Det är ideologiskt historiebruk eftersom det förflutna används för att legitimera nazismens raslära.",
      ratt:true,
      kommentar:"Det är läroboksexemplet på ideologiskt bruk."},
-    {txt:"Att verksamheten kallades forskning gör den inte vetenskaplig — slutsatserna var givna innan materialet undersöktes.",
+    {txt:"Verksamheten är inte vetenskaplig när slutsatserna bestäms före undersökningen och motstridiga fynd väljs bort.",
      ratt:true,
      kommentar:"Vetenskaplighet handlar om att slutsatsen kan falla på materialet. Här kunde den inte det."},
-    {txt:"Detta är inte ett exempel på ett historiebruk.",
+    {txt:"Det är inte historiebruk eftersom slutsatserna var politiskt bestämda och därför historiskt felaktiga.",
      sist:true, ratt:false, miss:"bruk_ej_igenkant",
      kommentar:"Det är historiebruk i en av sina mest genomförda former."},
-    {txt:"Vetenskapligt bruk, eftersom utbildade arkeologer deltog.",
+    {txt:"Det är vetenskapligt historiebruk eftersom utbildade arkeologer genomförde utgrävningarna med etablerade metoder.",
      ratt:false, miss:"forskare_lika_med_vetenskap",
      kommentar:"Vem som håller i spaden avgör inte. Det är arbetssättet och förhållandet till materialet som gör något vetenskapligt."},
-    {txt:"Eftersom påståendena var falska saknar verksamheten historiskt intresse.",
+    {txt:"Det är inte relevant historiebruk eftersom påståendena var falska och därför saknar historiskt värde.",
      ratt:false, miss:"falskt_lika_med_ointressant",
      kommentar:"Tvärtom. Den är en förstklassig källa till nazismens självbild och till hur historia kan sättas i ideologins tjänst."},
-    {txt:"Icke-bruk, eftersom obekväma fynd doldes.",
+    {txt:"Det är främst icke-bruk eftersom forskarna dolde fynd som motsade den germanska ursprungsberättelsen.",
      ratt:false, miss:"icke_bruk_missforstatt",
      kommentar:"Icke-bruk är när historia som finns tillgänglig medvetet lämnas oanvänd och tystas. Här brukas historien intensivt — det är urvalet inom bruket som är manipulerat."}
   ],
@@ -1276,22 +1263,22 @@ var BANKHIST = [
   </div>
   <p class="fragan">Vilka bedömningar är rimliga?</p>`,
   alternativ:[
-    {txt:"A är i första hand existentiellt bruk: historien används för att förankra vem man är och var man hör hemma.",
+    {txt:"A är främst existentiellt historiebruk eftersom släktforskningen används för att skapa personlig tillhörighet.",
      ratt:true,
      kommentar:"Existentiellt bruk handlar om identitet och orientering, ofta i det lilla."},
-    {txt:"B rymmer flera bruk samtidigt — identitetsskapande för orten, men också kommersiellt och politiskt, eftersom firandet ska locka besökare och stärka bilden av kommunen.",
+    {txt:"B förenar identitetsskapande, kommersiellt och politiskt historiebruk genom firandet, boken och kommunens marknadsföring.",
      ratt:true,
      kommentar:"Offentliga jubileer är nästan alltid flera bruk i samma paket."},
-    {txt:"Detta är inte ett exempel på ett historiebruk.",
+    {txt:"Varken A eller B är historiebruk eftersom båda återger sådant som faktiskt har hänt.",
      sist:true, ratt:false, miss:"bruk_ej_igenkant",
      kommentar:"Båda fallen är historiebruk. Att ett bruk är privat och småskaligt gör det inte till något annat."},
-    {txt:"A är vetenskapligt bruk, eftersom hon använder arkivmaterial.",
+    {txt:"A är främst vetenskapligt historiebruk eftersom personen använder kyrkböcker och följer arkivens uppgifter.",
      ratt:false, miss:"metod_bestammer_brukstyp",
      kommentar:"Materialet avgör inte syftet. Hon söker sitt ursprung, inte ny kunskap för ett forskarsamhälle."},
-    {txt:"B är icke-bruk, eftersom firandet är okontroversiellt.",
+    {txt:"B är främst icke-bruk eftersom jubileet undviker konflikter och presenterar en gemensam berättelse.",
      ratt:false, miss:"icke_bruk_missforstatt",
      kommentar:"Icke-bruk är tystnad om det som finns, inte frånvaro av konflikt."},
-    {txt:"Ett historiebruk kan bara tillhöra en kategori.",
+    {txt:"B måste placeras i en enda kategori eftersom olika former av historiebruk utesluter varandra.",
      ratt:false, miss:"kategorier_utesluter_varandra",
      kommentar:"Kategorierna är analysverktyg, inte fack. De flesta verkliga fall är blandningar."}
   ],
@@ -1375,13 +1362,13 @@ var BANKHIST = [
     {txt:"De kan ha avgränsat urvalet olika — till exempel räknat in eller ut säsongsanställda och kvinnor.",
      ratt:true,
      kommentar:"Urvalet är det tredje stället där tolkningar skiljer sig åt, och det syns sällan i slutsatsen."},
-    {txt:"En av dem måste ha läst materialet felaktigt.",
+    {txt:"En av historikerna måste ha läst avlöningsböckerna fel eftersom samma material bara kan ge en riktig tolkning.",
      ratt:false, miss:"oenighet_lika_med_slarv",
      kommentar:"Oenighet mellan historiker beror sällan på läsfel. Nästan alltid på fråga, definition eller urval."},
-    {txt:"Eftersom de är oense går materialet inte att använda för den här typen av fråga.",
+    {txt:"Avlöningsböckerna kan inte användas för levnadsvillkor eftersom två forskare har dragit olika slutsatser ur samma uppgifter.",
      ratt:false, miss:"oenighet_lika_med_oanvandbart",
      kommentar:"Tvärtom — att två läsningar är möjliga är just varför materialet är värt att arbeta med."},
-    {txt:"Historia bygger på tolkningar, och därför är båda slutsatserna lika välgrundade.",
+    {txt:"Båda slutsatserna är lika välgrundade eftersom historiska tolkningar inte kan jämföras med gemensamma krav på belägg.",
      ratt:false, miss:"relativism",
      kommentar:"Att flera tolkningar är möjliga är inte samma sak som att alla är lika bra. Täckning, konsekvens och bemötta invändningar skiljer dem åt."}
   ],
@@ -1411,16 +1398,16 @@ var BANKHIST = [
     {txt:"Förklaringarna utesluter inte varandra, men de bör ändå prövas mot varandra: vilken täcker mest av det vi faktiskt ser i materialet?",
      ratt:true,
      kommentar:"Att förklaringar kan samexistera betyder inte att de väger lika."},
-    {txt:"Den förklaring som flest läroböcker anger är den mest sannolika.",
+    {txt:"Den förklaring som förekommer i flest läroböcker är starkast eftersom många författare då har bekräftat den.",
      ratt:false, miss:"auktoritet_lika_med_belagg",
      kommentar:"Läroböcker släpar efter forskningsläget och kopierar dessutom ofta varandra."},
-    {txt:"Eftersom alla fyra är rimliga behöver man inte välja.",
+    {txt:"Alla fyra förklaringarna kan vara rimliga och behöver därför inte vägas mot det historiska materialet.",
      ratt:false, miss:"komplexitet_som_undanflykt",
      kommentar:"Att väga är uppgiften. 'Allt spelade in' är en beskrivning, inte en förklaring."},
-    {txt:"Befolkningstrycket kan avfärdas eftersom det inte finns folkräkningar från vikingatiden.",
+    {txt:"Befolkningstrycket kan avfärdas helt eftersom det saknas folkräkningar som visar vikingatidens exakta befolkningstal.",
      ratt:false, miss:"avsaknad_av_siffror_lika_med_avfardat",
      kommentar:"Frånvaro av statistik är inte frånvaro av belägg. Gravar, bebyggelselämningar och odlingsspår används som indikationer."},
-    {txt:"Den enklaste förklaringen är alltid den bästa.",
+    {txt:"Den enklaste förklaringen är alltid bäst eftersom en förklaring med flera samverkande orsaker blir mindre vetenskaplig.",
      ratt:false, miss:"enkelhet_som_regel",
      kommentar:"Enkelhet är ett argument, inte ett avgörande. Den enklaste förklaringen måste ändå täcka materialet."}
   ],
@@ -1569,16 +1556,16 @@ var BANKHIST = [
     {txt:"Att uppgiften är mycket spridd är inget stöd för den. Spridning mäter hur ofta något upprepats, inte hur väl det är belagt.",
      ratt:true,
      kommentar:"Ett av de nyttigaste källkritiska greppen överhuvudtaget, långt utanför historieämnet."},
-    {txt:"Att hornhjälmar faktiskt finns belagda i Nordeuropa stöder påståendet om vikingatiden.",
+    {txt:"Hornhjälmar från andra tider i Nordeuropa stöder vikingapåståendet eftersom föremål från samma område kan överföras mellan perioder.",
      ratt:false, miss:"fel_period_som_belagg",
      kommentar:"Bronsålder och vikingatid skiljs åt av mer än tusen år. Rätt föremål, fel århundrade, är inget belägg."},
-    {txt:"Eftersom inga bevarade vikingatida hjälmar har horn är saken bevisad en gång för alla.",
+    {txt:"Avsaknaden av bevarade hornhjälmar bevisar att ingen viking någonsin bar en sådan hjälm i något sammanhang.",
      ratt:false, miss:"franvaro_som_slutgiltigt_bevis",
      kommentar:"Frånvaro av fynd är ett starkt skäl men inte ett definitivt bevis — särskilt när bevarade hjälmar är så få."},
-    {txt:"Eftersom uppgiften kommer från opera och måleri är den ett medvetet bedrägeri.",
+    {txt:"Uppgiftens ursprung i opera och måleri visar att konstnärerna medvetet försökte lura sin historiska publik.",
      ratt:false, miss:"misstag_lika_med_bedrageri",
      kommentar:"En kostymör som vill ha dramatisk verkan bedrar ingen. Felet uppstod i konsten och vandrade sedan in i faktatexter."},
-    {txt:"Eftersom böckerna är populärvetenskapliga kan de aldrig användas som källor.",
+    {txt:"De populärvetenskapliga böckerna kan aldrig användas som källor eftersom bara vetenskapliga artiklar innehåller historiskt användbara uppgifter.",
      ratt:false, miss:"genre_som_diskvalificering",
      kommentar:"Genren avgör inte. En populärvetenskaplig bok med tydliga referenser kan vara utmärkt — frågan är alltid vad den stöder sig på."}
   ],
@@ -1756,9 +1743,9 @@ var BANKHIST = [
   t:`<p class="fragan">Vilka bedömningar av förändring och kontinuitet är
   rimliga?</p>`,
   alternativ:[
-    {txt:"Förändring: ansvaret för barns undervisning flyttades från hemmet till en institution som varje socken var skyldig att hålla.",
+    {txt:"Förändring: varje socken blev skyldig att ordna skola och anställa en godkänd lärare, även om undervisning fortfarande kunde ske på andra sätt.",
      ratt:true,
-     kommentar:"Skyldigheten är det nya. Före 1842 fanns undervisning, men ingen som var skyldig att ordna en skola."},
+     kommentar:"Det offentliga ansvaret och kraven blev tydligare, men genomförandet varierade och hemundervisning försvann inte över en natt."},
     {txt:"Kontinuitet: innehållet förblev till stor del kyrkans, och det var fortfarande kristendomskunskap som kunskap främst mättes i.",
      ratt:true,
      kommentar:"Formen förändrades snabbare än innehållet. Så är det i de flesta skolreformer."},
@@ -1790,22 +1777,22 @@ var BANKHIST = [
   kämpade för och varför det angår oss idag.</p>
   <p class="fragan">Hur beskrivs detta bäst?</p>`,
   alternativ:[
-    {txt:"Det är historiebruk: en bild av det förflutna används för ett syfte i nuet — här för att säga något om vilka värden orten vill stå för.",
+    {txt:"Det är politiskt och identitetsskapande historiebruk eftersom kommunen lyfter fram vissa gemensamma värden.",
      ratt:true,
      kommentar:"Det är kärnan i begreppet. Bruket ligger i användningen, inte i uppgifterna."},
-    {txt:"Det är inte historiebruk, eftersom uppgifterna om arbetarledaren är sanna.",
+    {txt:"Det är inte historiebruk eftersom uppgifterna om arbetarledaren är historiskt riktiga och kontrollerade.",
      ratt:false, miss:"sanning_utesluter_bruk",
      kommentar:"Sant och brukat är olika saker. Också korrekt historia kan användas för ett syfte."},
-    {txt:"Det är vetenskapligt bruk, eftersom kommunen tagit reda på fakta om henne.",
+    {txt:"Det är vetenskapligt historiebruk eftersom kommunen har tagit reda på fakta om en historisk person.",
      ratt:false, miss:"faktakoll_lika_med_vetenskap",
      kommentar:"Att kontrollera uppgifter gör inte en invigning till forskning. Syftet är att hedra, inte att pröva en tes."},
-    {txt:"Det är kommersiellt bruk, eftersom gatunamn kan höja fastighetsvärdet.",
+    {txt:"Det är kommersiellt historiebruk eftersom ett uppmärksammat gatunamn kan göra området mer attraktivt.",
      ratt:false, miss:"fel_brukstyp",
      kommentar:"Möjlig bieffekt, men inte syftet med talet och namngivningen."},
-    {txt:"Det är icke-bruk, eftersom ingen tvingas läsa gatuskylten.",
+    {txt:"Det är icke-bruk eftersom kommunen lämnar arbetarledarens historia orörd och blickar framåt.",
      ratt:false, miss:"ickebruk_missforstatt",
      kommentar:"Icke-bruk betyder att man medvetet låter bli att använda något ur det förflutna — inte att bruket är frivilligt att lägga märke till."},
-    {txt:"Detta är inte ett exempel på ett historiebruk.",
+    {txt:"Det är inte historiebruk eftersom gatunamnet och invigningstalet tillhör nutiden, inte det förflutna.",
      sist:true, ratt:false, miss:"bruk_ej_igenkant",
      kommentar:"Jo. Så snart det förflutna tas i anspråk för ett syfte i nuet är det historiebruk."}
   ],
@@ -2004,13 +1991,13 @@ var BANKHIST = [
     {txt:"Londonartiklarna kan ändå vara bättre på överblick, eftersom skribenten fick in uppgifter från flera håll.",
      ratt:true,
      kommentar:"Precis som med tid: avstånd kostar detaljer men kan ge sammanhang."},
-    {txt:"Eftersom korrespondenten var på plats är hans uppgifter tillförlitliga.",
+    {txt:"Korrespondentens närvaro vid fronten gör hela reportaget tillförlitligt eftersom han själv kunde iaktta krigets alla delar.",
      ratt:false, miss:"narvaro_lika_med_tillforlitlig",
      kommentar:"Att vara där löser inte tendens, urval eller begränsad överblick. Han skrev dessutom för en läsekrets hemma."},
-    {txt:"Londonartiklarna är förfalskningar eftersom skribenten inte var där.",
+    {txt:"Londonartiklarna är förfalskningar eftersom skribenten skrev om strider som han inte själv hade sett på plats.",
      ratt:false, miss:"andrahands_lika_med_falskt",
      kommentar:"Andrahandsuppgifter är inte påhitt. De flesta historiska uppgifter vi har är just andrahandsuppgifter."},
-    {txt:"Närhet i rum saknar betydelse så länge båda skrev under kriget.",
+    {txt:"Närhet i rum saknar betydelse eftersom samtidigheten gör både korrespondentens och Londonskribentens uppgifter lika säkra.",
      ratt:false, miss:"rum_forvaxlat_med_tid",
      kommentar:"Tid och rum är två skilda kriterier. Man kan vara samtida och ändå hundra mil bort."}
   ],
@@ -2257,16 +2244,16 @@ var BANKHIST = [
     {txt:"Att se vilka livsmedel som var tillgängliga och billiga nog för en institution att räkna med året runt.",
      ratt:true,
      kommentar:"Sill, potatis, ärter och gröt — en sammanställning som visar vad som fanns att tillgå."},
-    {txt:"Att avgöra vad patienterna faktiskt åt.",
+    {txt:"Att avgöra exakt vad patienterna faktiskt fick serverat och hur mycket av maten de åt upp.",
      ratt:false, miss:"norm_forvaxlad_med_praktik",
      kommentar:"Källan säger vad som skulle lagas. Vad som hamnade på tallriken, och hur mycket som åts upp, står inte där."},
-    {txt:"Att fastställa hur svenska folket åt på 1890-talet.",
+    {txt:"Att fastställa hur hela den svenska befolkningen åt på 1890-talet eftersom lasarettets kost var representativ.",
      ratt:false, miss:"enskild_kalla_for_stor_fraga",
      kommentar:"Ett lasarett är inte ett hushåll. Institutionskost skiljer sig från vad folk lagade hemma."},
-    {txt:"Att beräkna patienternas näringsintag, eftersom rätterna är angivna dag för dag.",
+    {txt:"Att beräkna patienternas verkliga näringsintag eftersom alla planerade rätter finns angivna dag för dag.",
      ratt:false, miss:"kalla_overtolkad",
      kommentar:"Inga portionsstorlekar anges. Utan mängder går ingen beräkning att göra."},
-    {txt:"Ingenting, eftersom matsedlar är triviala dokument utan historiskt värde.",
+    {txt:"Att avstå från historisk analys eftersom vardagliga matsedlar inte innehåller betydelsefull information om samhället.",
      ratt:false, miss:"vardagskalla_underskattad",
      kommentar:"Vardagens handlingar är ofta de mest givande, just för att de skrevs utan tanke på eftervärlden."}
   ],
@@ -2292,16 +2279,16 @@ var BANKHIST = [
     {txt:"Att se vad kronan ansåg viktigt att veta om provinsen — vad som mättes in och vad som lämnades tomt.",
      ratt:true,
      kommentar:"Ett av de skarpaste sätten att läsa en karta. Det tomma utrymmet är också information."},
-    {txt:"Att navigera längs kusten.",
+    {txt:"Att navigera säkert längs provinsens kust eftersom kartan framställdes på uppdrag av den svenska kronan.",
      ratt:false, miss:"kalla_utanfor_sitt_omrade",
      kommentar:"Kustlinjen är ju just det som visade sig felaktigt. En sjökarta hade ritats med helt andra krav."},
-    {txt:"Att mäta avstånd mellan orter i inlandet.",
+    {txt:"Att mäta de verkliga avstånden mellan orterna eftersom alla viktiga gårdar och vägar finns markerade.",
      ratt:false, miss:"kalla_overtolkad",
      kommentar:"Avstånden är förvrängda. Att en karta ser ut att kunna mätas betyder inte att den tål det."},
-    {txt:"Ingenting, eftersom kartan bevisligen innehåller fel.",
+    {txt:"Att avstå från all historisk användning eftersom den felaktiga kustlinjen gör hela kartan otillförlitlig.",
      ratt:false, miss:"fel_lika_med_vardelos",
      kommentar:"Nästan alla källor innehåller fel. Frågan är var felen sitter och om de rör det du vill veta."},
-    {txt:"Att avgöra hur många människor som bodde i provinsen.",
+    {txt:"Att avgöra provinsens befolkning eftersom varje markerad gård motsvarar ett känt och lika stort hushåll.",
      ratt:false, miss:"fel_kalla_for_fragan",
      kommentar:"Kartan visar gårdar, inte hushållsstorlek. Till befolkningsfrågan behövs mantalslängder."}
   ],
@@ -2489,12 +2476,12 @@ var BANKHIST = [
     {txt:"Fler människor kunde försörjas på samma areal, vilket bidrog till att befolkningen kunde växa.",
      ratt:true,
      kommentar:"En av flera faktorer bakom 1800-talets befolkningsökning — freden och vaccinationen mot smittkoppor är andra."},
-    {txt:"Beroendet av en enda gröda gjorde samtidigt hushållen känsligare för ett år då just den grödan slog fel.",
+    {txt:"Som komplement till säden kunde potatisen minska sårbarheten när en spannmålsskörd slog fel.",
      ratt:true,
-     kommentar:"Samma egenskap som gav trygghet skapade en ny sårbarhet. Irland 1845 är det mest kända exemplet."},
+     kommentar:"Flera grödor med olika egenskaper kunde sprida risken. Frågan ger inget stöd för ett svenskt ensidigt potatisberoende."},
     {txt:"Eftersom potatisen förbättrade försörjningen kan den inte ha haft negativa följder.",
      ratt:false, miss:"konsekvens_enkelriktad",
-     kommentar:"Förbättringar har nästan alltid en baksida. Den syns ofta först vid nästa kris."},
+     kommentar:"Påståendet är för absolut. Positiva följder utesluter inte negativa, men båda måste beläggas i det fall som undersöks."},
     {txt:"Potatisen orsakade industrialiseringen, eftersom den frigjorde arbetskraft.",
      ratt:false, miss:"for_lang_orsakskedja",
      kommentar:"Kedjan är för lång och har för många mellanled för att kunna påstås rakt av. Den behöver beläggas länk för länk."},
@@ -2505,8 +2492,9 @@ var BANKHIST = [
      ratt:false, miss:"samvariation_som_orsak",
      kommentar:"Att två kurvor stiger samtidigt gör inte den ena till förklaring till den andra."}
   ],
-  s:`<p>Leta alltid efter de oavsedda följderna. De är oftast där det
-  historiskt intressanta finns.</p>`
+  s:`<p>Potatisen bidrog till en stabilare och mer produktiv
+  livsmedelsförsörjning. Beskriv följder precist och gör inte ett möjligt
+  problem i ett annat land till ett belagt svenskt mönster.</p>`
 },
 
 {
@@ -2588,9 +2576,9 @@ var BANKHIST = [
   eller vid en sjö.</p>
   <p class="fragan">Vilka förklaringar är strukturella?</p>`,
   alternativ:[
-    {txt:"Vattenvägar var länge det enda sättet att flytta tunga varor över långa sträckor.",
+    {txt:"Vattenvägar var länge det klart billigaste och mest praktiska sättet att flytta tunga varor över långa sträckor.",
      ratt:true,
-     kommentar:"Transportkostnaden är en av de mest långlivade strukturerna i historien."},
+     kommentar:"Landtransport var ofta mycket dyrare. Transportkostnaden är en långlivad struktur."},
     {txt:"Vatten gav dessutom kraft till kvarnar och hammare, och fisk till försörjning.",
      ratt:true,
      kommentar:"Flera strukturella fördelar sammanfaller på samma plats. Därför blir mönstret så tydligt."},
@@ -2763,9 +2751,9 @@ var BANKHIST = [
     {txt:"Att skriva så gör förändringen till en gåva uppifrån i stället för ett resultat av påtryckning.",
      ratt:true,
      kommentar:"Formuleringen bär med sig en hel historiesyn. Därför är den värd att stanna vid."},
-    {txt:"Invändningen är onödig — Branting var statsminister och därför ansvarig.",
+    {txt:"Invändningen är onödig — Branting ledde regeringen när principbeslutet fattades och var därför ensam ansvarig.",
      ratt:false, miss:"formell_roll_som_forklaring",
-     kommentar:"Formellt ansvar är inte samma sak som historisk förklaring. Frågan är vad som gjorde beslutet möjligt."},
+     kommentar:"Principbeslutet 1918 fattades under Nils Edéns regering, där Branting var finansminister. Formell roll är dessutom inte samma sak som ensam historisk förklaring."},
     {txt:"Enskilda personer bör aldrig nämnas i historiska förklaringar.",
      ratt:false, miss:"aktor_bortrensad",
      kommentar:"Motsatt övertramp. Personer spelar roll — de spelar den bara inte ensamma."},
@@ -2776,8 +2764,511 @@ var BANKHIST = [
   s:`<p>Var uppmärksam på meningar där en person är subjekt och en
   samhällsförändring objekt. De döljer nästan alltid ett helt
   förlopp.</p>`
+},
+
+/* =====================================================================
+   UTBYGGNAD — jämnare progression och bredare källmaterial
+   Svårigheten ska ligga i tänkandet, inte i onödigt tung källtext.
+   ===================================================================== */
+
+{
+  id:"hi-kk-124", kap:1, omr:"kk_fraga",
+  kriterier:["anvandbarhet","urval"],
+  familj:["valja_kalla","anvandbarhet_vs_fraga"], niva:"C", svarstyp:"alternativ",
+  kallor:[
+    {bet:"A", titel:"Fabrikens avlöningslista", typ:"Räkenskaper, 1896", akthet:"konstruerad",
+     text:`<p>Listan anger namn, antal arbetade dagar och utbetald lön. Bland de anställda finns 18 pojkar och 7 flickor under 15 år. Ålder, arbetstid och arbetsuppgift saknas.</p>`,
+     om:`<p>Listan upprättades för företagets bokföring och omfattar bara personer som fick lön direkt av fabriken.</p>`,
+     referens:"Konstruerad källa efter mönstret för svenska avlöningslistor från 1890-talet."},
+    {bet:"B", titel:"Brev från en fabriksflicka", typ:"Privatbrev, 1897", akthet:"konstruerad",
+     text:`<p>Mor, jag står vid tändsticksaskarna från sex på morgonen. Fingrarna värker mest när limmet torkat. Förmannen säger att jag får gå om jag inte håller takten. Men lönen behövs till hyran.</p>`,
+     om:`<p>Brevet är skrivet av en 14-årig anställd till hennes mor. Bara ett brev från flickan är bevarat.</p>`,
+     referens:"Konstruerad källa utifrån återkommande drag i arbetarbrev."}
+  ],
+  t:`<p>En historiker undersöker barns fabriksarbete på 1890-talet.</p><p class="fragan">Vilka val av källa är rimliga?</p>`,
+  alternativ:[
+    {txt:"För frågan hur många minderåriga som fick lön är A bäst, men den missar barn som arbetade åt familjemedlemmar eller underleverantörer.",ratt:true,kommentar:"Räkenskaper är starka på registrerade antal, men deras administrativa gräns måste synliggöras."},
+    {txt:"För frågan hur arbetet kunde upplevas är B relevant, men ett enda brev kan inte representera alla barn.",ratt:true,kommentar:"Källan ger djup, inte bredd."},
+    {txt:"Tillsammans kan A och B belysa både omfattning och erfarenhet, men de besvarar olika delar av frågan.",ratt:true,kommentar:"Bra källurval bygger ofta på kompletterande styrkor."},
+    {txt:"B är bäst för att räkna alla arbetande barn eftersom flickans närvaro gör brevet heltäckande.",ratt:false,miss:"narhet_anvands_till_fel_fraga",kommentar:"Närhet hjälper inte när källan saknar informationen som frågan kräver."},
+    {txt:"A är objektiv och heltäckande eftersom bokföringens siffror registrerar alla barn som arbetade åt fabriken.",ratt:false,miss:"siffra_lika_med_objektiv",kommentar:"Siffror skapas genom urval: här räknas bara direkt avlönade."},
+    {txt:"A och B kan inte kombineras eftersom räkenskaper och personliga brev alltid ger oförenliga sorters kunskap.",ratt:false,miss:"olika_kallor_kan_inte_kombineras",kommentar:"Just skillnaden gör att de kompletterar varandra."}
+  ],
+  s:`<p>Välj källa efter fråga. A ger <em>bredd</em> inom ett bestämt register; B ger <em>djup</em> i en människas erfarenhet. Kombinationen blir stark först när du håller isär vad varje källa bär.</p>`,
+  ledtrad:"Dela upp undersökningen i två frågor: hur många och hur upplevdes arbetet?"
+},
+
+{
+  id:"hi-kk-125", kap:1, omr:"kk_bedom",
+  kriterier:["narhet","tendens","anvandbarhet"],
+  familj:["muntlig_historia","minnets_palitlighet"], niva:"C", svarstyp:"alternativ",
+  kallor:[{bet:"A", titel:"Minne av beredskapsåren", typ:"Intervju gjord 1985", akthet:"konstruerad",
+    text:`<p>Jag minns ransoneringen som spännande. Vi barn samlade kuponger och mor lyckades alltid ordna kaffe. Ingen i vårt kvarter gick hungrig. Alla hjälptes åt, så var det på den tiden.</p>`,
+    om:`<p>Den intervjuade var nio år 1942. Intervjun gjordes 43 år senare till ett radioprogram om svensk sammanhållning under kriget.</p>`,
+    referens:"Konstruerad muntlig källa för källkritisk träning."}],
+  t:`<p class="fragan">Vilka bedömningar av intervjun är rimliga?</p>`,
+  alternativ:[
+    {txt:"Tidsavståndet gör detaljer osäkra; senare berättelser om nationell sammanhållning kan också ha påverkat minnet.",ratt:true,kommentar:"Minnen formas både av tid och av berättelser som finns när de återges."},
+    {txt:"Källan är användbar för hur personen mindes och gav mening åt sin barndom 1985.",ratt:true,kommentar:"Ett minne är både en berättelse om då och en källa till när det berättas."},
+    {txt:"Påståendet att ingen gick hungrig behöver prövas mot material från fler hushåll och grupper.",ratt:true,kommentar:"Ett barns kvarter kan inte bära en slutsats om hela Sverige."},
+    {txt:"Intervjun är oanvändbar eftersom minnet inte är exakt.",ratt:false,miss:"minne_lika_med_vardelos",kommentar:"Osäker detaljprecision gör inte erfarenhet och meningsskapande ointressanta."},
+    {txt:"Barn minns bättre än vuxna eftersom barn inte har politiska intressen.",ratt:false,miss:"barn_lika_med_neutral",kommentar:"Ålder tar inte bort urval, perspektiv eller senare påverkan."},
+    {txt:"Radioprogrammets tema påverkar inte källan, eftersom orden är den intervjuades egna.",ratt:false,miss:"intervjusituation_forbisedd",kommentar:"Frågor, urval och sammanhang påverkar vad som berättas."}
+  ],
+  s:`<p>Muntliga minnen kan vara osäkra på detaljer men starka som källor till erfarenhet, identitet och hur det förflutna senare har tolkats.</p>`
+},
+
+{
+  id:"hi-kk-126", kap:1, omr:"kk_jamfora",
+  kriterier:["beroende","tendens","narhet","urval"],
+  familj:["motstridiga_kallor","vagning_av_kallor"], niva:"A", svarstyp:"alternativ",
+  kallor:[
+    {bet:"A", titel:"Polisrapport efter en demonstration", typ:"Tjänsterapport, 1917", akthet:"konstruerad",
+     text:`<p>Folkmassan trängde fram mot avspärrningen. Sedan varning givits två gånger skingrades de mest påstridiga med sablarnas flata sida. Ingen större skada iakttogs.</p>`,
+     om:`<p>Rapporten skrevs samma kväll av befälet som ansvarade för polisens insats.</p>`,referens:"Konstruerad källa."},
+    {bet:"B", titel:"Brev från en demonstrant", typ:"Privatbrev, dagen efter", akthet:"konstruerad",
+     text:`<p>Vi stod tätt men fredligt när polisen red in. Jag såg Anna falla med blod i håret. Först då började några kasta sten.</p>`,
+     om:`<p>Brevskrivaren deltog i demonstrationen och var medlem i föreningen som ordnade den.</p>`,referens:"Konstruerad källa."}
+  ],
+  t:`<p>Källorna ger olika bilder av vem som började våldet.</p><p class="fragan">Vilka slutsatser är metodiskt starkast?</p>`,
+  alternativ:[
+    {txt:"Båda är nära i tid och rum, men båda har begränsad utsikt och intresse av att lägga ansvaret på motparten.",ratt:true,kommentar:"Samma kriterium måste tillämpas på båda sidor."},
+    {txt:"Skillnaden kan delvis bero på position: befälet såg avspärrningen, brevskrivaren sin del av folkmassan.",ratt:true,kommentar:"Motstridighet behöver inte betyda att en källa ljuger."},
+    {txt:"För att avgöra ordningsföljden bör historikern söka oberoende vittnen, sjukjournaler, fotografier och fler rapporter.",ratt:true,kommentar:"En stark analys formulerar vilket nytt material som kan pröva frågan."},
+    {txt:"A väger tyngst eftersom en officiell tjänsterapport alltid är neutral och täcker hela händelseförloppet.",ratt:false,miss:"myndighet_lika_med_neutral",kommentar:"Rapporten är samtidigt befälets redovisning av den egna insatsen."},
+    {txt:"B väger tyngst eftersom en namngiven skadad person gör hela brevets händelseförlopp säkert.",ratt:false,miss:"detaljrikedom_som_belagg",kommentar:"Detaljen kan prövas men avgör inte ensam hela ordningsföljden."},
+    {txt:"Händelsen går inte att undersöka vidare eftersom två samtida ögonvittnen ger motsägande bilder av våldet.",ratt:false,miss:"motsagelse_lika_med_omojligt",kommentar:"Motsägelser visar vad som behöver prövas vidare."}
+  ],
+  s:`<p>Väg närhet, position, intresse och oberoende samtidigt. Avsluta med att ange vilket nytt material som faktiskt skulle kunna avgöra frågan.</p>`
+},
+
+{
+  id:"hi-ok-217", kap:2, omr:"ok_kedjor", familj:["samverkande_orsaker","vagning_av_orsaker"], niva:"C", svarstyp:"alternativ",
+  t:`<p>Inför franska revolutionen fanns en statlig skuldkris, skatteprivilegier för de högre stånden, stigande brödpriser och nya idéer om folkets suveränitet.</p><p class="fragan">Vilka resonemang bygger en hållbar orsaksförklaring?</p>`,
+  alternativ:[
+    {txt:"Skuldkrisen förklarar varför kungen kallade samman generalständerna; privilegierna förklarar varför skattefrågan blev en konflikt mellan stånden.",ratt:true,kommentar:"Orsaker blir starka när deras funktion i kedjan preciseras."},
+    {txt:"Brödpriserna bidrog till folklig mobilisering, medan idéerna gav språk och mål åt kritiken.",ratt:true,kommentar:"Materiella villkor och idéer kan samverka."},
+    {txt:"Orsakerna bör vägas mot vilka delar av förloppet de kan förklara, inte efter en fast rangordning.",ratt:true,kommentar:"Ingen orsakstyp är alltid djupast."},
+    {txt:"Skuldkrisen var den verkliga orsaken; idéerna var bara ord.",ratt:false,miss:"materiellt_lika_med_verkligt",kommentar:"Detta rangordnar utan att visa varför."},
+    {txt:"Eftersom alla faktorer behövdes var de exakt lika viktiga.",ratt:false,miss:"flera_orsaker_lika_viktiga",kommentar:"Samverkan betyder inte lika stor betydelse."},
+    {txt:"Orsaken närmast stormningen av Bastiljen är automatiskt viktigast.",ratt:false,miss:"narhet_i_tid_som_orsaksstyrka",kommentar:"Närhet säger var i kedjan orsaken ligger, inte hur mycket den förklarar."}
+  ],
+  s:`<p>En bra orsaksförklaring visar <em>vad varje orsak gjorde</em> i förloppet och hur orsakerna förstärkte varandra.</p>`
+},
+
+{
+  id:"hi-ok-218", kap:2, omr:"ok_konsekvens", familj:["for_vem","kort_vs_lang_sikt"], niva:"C", svarstyp:"alternativ",
+  t:`<p>Slaveriet avskaffades i USA 1865. De tidigare förslavade blev juridiskt fria, men många saknade jord och arrenderade mark mot en stor del av skörden. Under följande årtionden infördes segregation och hinder för svartas rösträtt.</p><p class="fragan">Vilka konsekvensanalyser är rimliga?</p>`,
+  alternativ:[
+    {txt:"Den juridiska friheten var en avgörande omedelbar förändring, även om ekonomiskt beroende bestod.",ratt:true,kommentar:"Två dimensioner kan förändras olika snabbt."},
+    {txt:"På längre sikt begränsade segregation och rösträttshinder möjligheten att omsätta friheten i politisk makt.",ratt:true,kommentar:"Konsekvenser måste följas över tid."},
+    {txt:"Markägare kunde bevara billig arbetskraft genom nya avtal trots att slaveriet var förbjudet.",ratt:true,kommentar:"Samma reform får olika följder för olika grupper."},
+    {txt:"Eftersom ojämlikheten fortsatte saknade avskaffandet betydelse.",ratt:false,miss:"kontinuitet_upphaver_forandring",kommentar:"Fortsatt ojämlikhet gör inte juridisk frihet oviktig."},
+    {txt:"Eftersom lagen ändrades blev de tidigare förslavade genast jämlika i praktiken.",ratt:false,miss:"lag_lika_med_praktik",kommentar:"Formell rätt och faktisk möjlighet måste skiljas åt."},
+    {txt:"Segregationen visar att avskaffandet orsakade rasismen.",ratt:false,miss:"senare_foljd_som_ny_orsak",kommentar:"Segregationen byggde vidare på redan etablerade maktförhållanden."}
+  ],
+  s:`<p>Dela upp konsekvenser efter <em>område, grupp och tid</em>. Juridik, ekonomi och politik kan röra sig olika snabbt.</p>`
+},
+
+{
+  id:"hi-ok-219", kap:2, omr:"ok_kedjor", familj:["orsakskedja","nodvandig_vs_tillracklig"], niva:"A", svarstyp:"alternativ",
+  t:`<p>I Tyskland 1933 utsågs Hitler till rikskansler. Efter riksdagshusbranden upphävdes centrala friheter. Kommunistiska ledamöter greps, och riksdagen antog därefter fullmaktslagen under hot och våld.</p><p class="fragan">Vilka analyser av orsaksförloppet håller?</p>`,
+  alternativ:[
+    {txt:"Utnämningen gav Hitler tillgång till statsmakten; undantagsåtgärderna förändrade sedan villkoren för fullmaktslagens omröstning.",ratt:true,kommentar:"Detta visar mekanismen steg för steg."},
+    {txt:"Den ekonomiska och politiska krisen hjälper till att förklara stödet, men räcker inte ensam för att förklara hur diktaturen byggdes.",ratt:true,kommentar:"Bakgrund är inte en fullständig förloppsförklaring."},
+    {txt:"En händelse kan vara nödvändig i den faktiska kedjan utan att ensam vara tillräcklig för utfallet.",ratt:true,kommentar:"Flera länkar kan behövas samtidigt."},
+    {txt:"Riksdagshusbranden orsakade diktaturen på egen hand eftersom alla senare beslut följde automatiskt efter branden.",ratt:false,miss:"utlosande_som_ensam_orsak",kommentar:"Branden fick sin betydelse genom hur den användes politiskt."},
+    {txt:"Hitlers ideologi räcker som fullständig förklaring eftersom hans mål gjorde maktövertagandets övriga villkor oviktiga.",ratt:false,miss:"motiv_som_hela_forklaringen",kommentar:"Motiv förklarar inte hur maktövertagandet blev möjligt."},
+    {txt:"Förloppet var demokratiskt eftersom riksdagen formellt antog fullmaktslagen genom en omröstning enligt gällande beslutsformer.",ratt:false,miss:"form_lika_med_villkor",kommentar:"Gripanden, hot och upphävda friheter förändrade villkoren."}
+  ],
+  s:`<p>En stark förklaring visar både bakgrunden och mekanismen: hur utnämning, undantagsåtgärder och beslut kopplades ihop.</p>`
+},
+
+{
+  id:"hi-ok-220", kap:2, omr:"ok_konsekvens", familj:["oavsedda_foljder","lang_sikt"], niva:"A", svarstyp:"alternativ",
+  t:`<p>Industrialiseringen byggde på kol, ångkraft och senare olja. Produktionen ökade, varor blev billigare och levnadsstandarden steg för många. Samtidigt ökade utsläppen av växthusgaser under mer än två sekel.</p><p class="fragan">Vilka konsekvensresonemang är hållbara?</p>`,
+  alternativ:[
+    {txt:"Samma process kan ge kortsiktiga vinster för vissa grupper och långsiktiga kostnader för andra grupper och generationer.",ratt:true,kommentar:"Tid och fördelning är centrala i konsekvensanalysen."},
+    {txt:"Klimatförändringen kan beskrivas som en långsiktig och till stor del oavsedd följd av många beslut.",ratt:true,kommentar:"Oavsedd betyder inte orsakslös."},
+    {txt:"Ekonomiska, sociala och miljömässiga följder bör hållas isär innan de vägs samman.",ratt:true,kommentar:"En etikett som framsteg eller katastrof döljer fördelningen."},
+    {txt:"Eftersom 1800-talets fabriksägare inte avsåg global uppvärmning ingår den inte i konsekvenskedjan.",ratt:false,miss:"avsikt_kravs_for_konsekvens",kommentar:"Konsekvenser kan vara oavsedda."},
+    {txt:"Eftersom levnadsstandarden steg var konsekvenserna positiva för alla.",ratt:false,miss:"genomsnitt_lika_med_alla",kommentar:"Genomsnitt döljer grupper, platser och generationer."},
+    {txt:"Dagens utsläpp ligger för långt från den tidiga industrialiseringen för att höra till samma förlopp.",ratt:false,miss:"lang_sikt_avskuren",kommentar:"Långa kedjor måste prövas, inte avvisas på avståndet ensamt."}
+  ],
+  s:`<p>En konsekvensanalys visar <em>vad</em> som förändrades, <em>för vem</em>, <em>var</em> och över <em>vilken tid</em>.</p>`
+},
+
+{
+  id:"hi-ok-221", kap:2, omr:"ok_typer", familj:["motiv_vs_villkor","mojliggorande_villkor"], niva:"C", svarstyp:"alternativ",
+  t:`<p>Europeiska stater byggde under 1800-talet kolonialvälden. Bland förklaringarna finns efterfrågan på råvaror och marknader, nationalism, rasistiska idéer, ångfartyg, telegraf och effektivare vapen.</p><p class="fragan">Vilka sorteringar av orsakerna är rimliga?</p>`,
+  alternativ:[
+    {txt:"Råvaror, marknader och nationell prestige kan fungera som motiv — sådant aktörer ville uppnå.",ratt:true,kommentar:"Motiv anger riktning."},
+    {txt:"Ångfartyg, telegraf och vapen är främst möjliggörande villkor: de gjorde kontroll över stora avstånd lättare.",ratt:true,kommentar:"Möjlighet är inte samma sak som motiv."},
+    {txt:"Rasistiska idéer kunde både legitimera erövring och forma hur den genomfördes.",ratt:true,kommentar:"Idéer kan vara verksamma delar av en förklaring."},
+    {txt:"Tekniken orsakade kolonialismen eftersom den gjorde erövring möjlig.",ratt:false,miss:"mojlighet_lika_med_motiv",kommentar:"Att något kan göras förklarar inte varför det görs."},
+    {txt:"Ekonomiska motiv är mer verkliga än idéer och nationalism.",ratt:false,miss:"materiellt_lika_med_verkligt",kommentar:"Orsakstyper måste prövas i förloppet, inte rangordnas i förväg."},
+    {txt:"Eftersom flera stater deltog saknade enskilda beslut betydelse.",ratt:false,miss:"monster_utesluter_beslut",kommentar:"Ett mönster består av många beslut inom gemensamma villkor."}
+  ],
+  s:`<p>Skilj mellan <em>motiv</em>, <em>legitimering</em> och <em>möjliggörande villkor</em>. Då blir orsakslistan en förklaring.</p>`
+},
+
+{
+  id:"hi-as-319", kap:3, omr:"as_samspel", familj:["individ_och_rorelse","organisationens_betydelse"], niva:"C", svarstyp:"alternativ",
+  t:`<p>Under 1800-talet drev människor i Storbritannien kampanjer mot slaveriet. Tidigare förslavade berättade offentligt om sina erfarenheter, föreningar samlade namn och konsumenter bojkottade socker. Parlamentet förbjöd slavhandeln 1807 och slaveriet i större delen av imperiet 1833.</p><p class="fragan">Vilka analyser av aktör och struktur håller?</p>`,
+  alternativ:[
+    {txt:"De personliga vittnesmålen kunde förändra opinionen, men fick spridning genom föreningar, tryckpressar och möten.",ratt:true,kommentar:"Aktörens röst och rörelsens infrastruktur samverkade."},
+    {txt:"Bojkotten gav många människor ett begränsat men verkligt handlingsutrymme i vardagen.",ratt:true,kommentar:"Handlingsutrymme behöver inte betyda direkt beslutanderätt."},
+    {txt:"Parlamentets beslut var slutpunkten i en längre kamp, inte ett bevis på att politiker ensamma skapade förändringen.",ratt:true,kommentar:"Formellt beslut och historisk förklaring är olika saker."},
+    {txt:"Eftersom parlamentet stiftade lagen saknade folkrörelsernas arbete betydelse.",ratt:false,miss:"formell_roll_som_forklaring",kommentar:"Beslutet måste förklaras, inte bara namnges."},
+    {txt:"Eftersom föreningar organiserade kampanjen var de enskildas handlingar oviktiga.",ratt:false,miss:"organisation_utan_aktorer",kommentar:"Organisationen bestod av och bars av handlingar."},
+    {txt:"När slaveriet förbjöds försvann de ekonomiska strukturer som byggt på det omedelbart.",ratt:false,miss:"lag_lika_med_praktik",kommentar:"Ägande, arbetsvillkor och rasistiska hierarkier levde vidare."}
+  ],
+  s:`<p>Aktörer skapar rörelser, och rörelser gör enskilda handlingar starkare. Beslutet 1833 blir begripligt först när båda nivåerna finns med.</p>`
+},
+
+{
+  id:"hi-as-320", kap:3, omr:"as_aktor", familj:["handlingsutrymme","motstand_under_tvang"], niva:"C", svarstyp:"alternativ",
+  t:`<p>På den franska kolonin Saint-Domingue gjorde förslavade människor uppror 1791. De handlade under extremt tvång men utnyttjade samtidigt konflikter mellan plantageägare, fria färgade, Frankrikes regering och främmande makter. År 1804 blev Haiti självständigt.</p><p class="fragan">Vilka påståenden om handlingsutrymme är rimliga?</p>`,
+  alternativ:[
+    {txt:"Extremt begränsade livsvillkor utesluter inte handlingsutrymme; upproret visar hur människor kunde agera mot systemet.",ratt:true,kommentar:"Handlingsutrymme är en gradfråga, inte frihet eller ofrihet."},
+    {txt:"Konflikterna mellan andra grupper öppnade möjligheter som upprorsledarna kunde använda.",ratt:true,kommentar:"Ett möjlighetsfönster måste både finnas och utnyttjas."},
+    {txt:"Självständigheten kan inte förklaras enbart med den franska revolutionens idéer; de förslavades organisering och krigföring var avgörande.",ratt:true,kommentar:"Idéer verkar genom människor."},
+    {txt:"Förslavade människor saknade per definition möjlighet att vara historiska aktörer.",ratt:false,miss:"fortryckt_lika_med_passiv",kommentar:"Maktlöshet och fullständig passivitet är inte samma sak."},
+    {txt:"Eftersom Frankrike var i kris hade Haiti blivit självständigt utan upproret.",ratt:false,miss:"strukturdeterminism",kommentar:"Krisen skapade en möjlighet, inte ett automatiskt utfall."},
+    {txt:"Att upproret lyckades visar att handlingsutrymmet hela tiden var stort.",ratt:false,miss:"utfall_mater_utrymme",kommentar:"Ett osannolikt lyckat utfall bevisar inte goda ursprungsvillkor."}
+  ],
+  s:`<p>Historisk aktör betyder inte att vara fri från strukturer. Det betyder att göra val och påverka ett förlopp inom — eller mot — de ramar som finns.</p>`
+},
+
+{
+  id:"hi-as-321", kap:3, omr:"as_samspel", familj:["mojlighetsfonster","vagning_av_orsaker"], niva:"A", svarstyp:"alternativ",
+  t:`<p>Den svenska rösträttsreformen beslutades 1918–21 efter årtionden av organisering. Hösten 1918 föll monarkier i Europa, revolutionen i Tyskland kom nära Sverige och regeringen lade fram ett förslag som kunde vinna stöd i riksdagen.</p><p class="fragan">Vilka förklaringar väger aktör och struktur bäst?</p>`,
+  alternativ:[
+    {txt:"Krigsslutet och revolutionerna ändrade kostnaden för att säga nej, medan rörelsernas arbete gjorde att ett färdigt krav och en organisation redan fanns.",ratt:true,kommentar:"Här kopplas det korta möjlighetsfönstret till den långa mobiliseringen."},
+    {txt:"Regeringens och partiledarnas förhandlingar påverkade reformens utformning, men deras handlingsutrymme hade skapats av trycket utanför riksdagen.",ratt:true,kommentar:"Aktörer på flera arenor påverkar varandra."},
+    {txt:"Att väga orsaker innebär att fråga vilka som förklarar tidpunkten, vilka som förklarar kravet och vilka som förklarar beslutets form.",ratt:true,kommentar:"Betydelse kan delas upp efter vad som ska förklaras."},
+    {txt:"Revolutionerna i Europa orsakade ensamma den svenska demokratin eftersom de tvingade riksdagen att godta reformen.",ratt:false,miss:"utlosande_som_ensam_orsak",kommentar:"De förklarar inte varför just detta reformförslag fanns."},
+    {txt:"Folkrörelserna orsakade ensamma reformen eftersom deras långvariga arbete gjorde det politiska läget 1918 oviktigt.",ratt:false,miss:"lang_varaktighet_lika_med_hela_forklaringen",kommentar:"Lång kamp förklarar inte varför beslutet kom just 1918."},
+    {txt:"Orsakernas betydelse kan inte vägas eftersom regeringen, partierna och folkrörelserna påverkade varandra genom kompromisser.",ratt:false,miss:"vagning_uppgiven",kommentar:"Dela upp det som ska förklaras och väg därefter."}
+  ],
+  s:`<p>En förklaring blir skarpare när den delar upp frågan: varför fanns kravet, varför kom beslutet då och varför fick reformen just den formen?</p>`
+},
+
+{
+  id:"hi-as-322", kap:3, omr:"as_struktur", familj:["social_struktur","struktur_och_mojlighet"], niva:"A", svarstyp:"alternativ",
+  kallor:[{bet:"A",titel:"Två livsbanor i samma stad",typ:"Sammanställda personuppgifter, 1880-talet",akthet:"konstruerad",
+    text:`<p><strong>Anna:</strong> folkskola, fabriksarbete från 13 års ålder, ogift myndig vid 25.</p><p><strong>Erik:</strong> läroverk, universitet, statlig tjänst. Fadern betalade skolavgifterna och hade kontakter vid länsstyrelsen.</p>`,
+    om:`<p>Personerna var lika gamla och hade goda skolomdömen. Anna var arbetardotter och Erik ämbetsmannason.</p>`,referens:"Konstruerad jämförelse för strukturanalys."}],
+  t:`<p class="fragan">Vilka slutsatser om struktur kan materialet stödja?</p>`,
+  alternativ:[
+    {txt:"Kön, familjens ekonomi och tillgång till nätverk gav de två olika uppsättningar av realistiska val.",ratt:true,kommentar:"Strukturer verkar genom att göra vissa vägar möjliga och andra dyra eller stängda."},
+    {txt:"Annas goda skolomdömen visar att skillnaden i livsbana inte enkelt kan förklaras med individuell förmåga.",ratt:true,kommentar:"Jämförelsen håller en faktor relativt lika och synliggör andra."},
+    {txt:"Materialet illustrerar en mekanism men två personer räcker inte för att fastställa hur vanligt mönstret var.",ratt:true,kommentar:"Fall kan visa hur något gick till, inte ensamma hur ofta."},
+    {txt:"Eriks utbildning visar att han gjorde bättre val.",ratt:false,miss:"utfall_som_personlig_egenskap",kommentar:"De hade inte samma valmeny från början."},
+    {txt:"Strukturen bestämde fullständigt deras liv och lämnade inga möjliga undantag.",ratt:false,miss:"strukturdeterminism",kommentar:"Ojämlika sannolikheter är inte samma sak som förutbestämda liv."},
+    {txt:"Eftersom personerna är påhittade kan uppgiften inte träna historisk analys.",ratt:false,miss:"ovningsfall_lika_med_belagg",kommentar:"Fallet är en modell för att öva analys; det ska däremot inte användas som historiskt belägg."}
+  ],
+  s:`<p>Struktur syns i <em>fördelningen av möjligheter</em>. Ett jämförande fall kan visa mekanismen, medan större material behövs för att visa omfattningen.</p>`
+},
+
+{
+  id:"hi-fk-411", kap:4, omr:"fk_forandring_kontinuitet", familj:["forandring_och_bestandighet","vardagsliv"], niva:"E", svarstyp:"alternativ",
+  t:`<p>En familj flyttade 1895 från en gård till en industristad. Fadern och den äldsta dottern fick lön på fabrik. Modern tog tvättarbete hemma, lagade mat och skötte de yngre barnen.</p><p class="fragan">Vad är förändring och vad är kontinuitet?</p>`,
+  alternativ:[
+    {txt:"Förändring: en större del av försörjningen kom från lönearbete utanför hemmet.",ratt:true,kommentar:"Försörjningens form förändrades."},
+    {txt:"Kontinuitet: mycket obetalt omsorgs- och hushållsarbete låg fortfarande på modern.",ratt:true,kommentar:"Det osynliga arbetet levde kvar trots miljöbytet."},
+    {txt:"Både förändring och kontinuitet kan finnas i samma familj och samma år.",ratt:true,kommentar:"De är två frågor, inte motsatser."},
+    {txt:"Förändring: modern började arbeta först efter flytten.",ratt:false,miss:"arbete_forvaxlat_med_lonearbete",kommentar:"Obetalt arbete är också arbete."},
+    {txt:"Kontinuitet: familjens vardag var i stort sett oförändrad.",ratt:false,miss:"kontinuitet_overdriven",kommentar:"Boende, tid, försörjning och arbetsplats förändrades."},
+    {txt:"När en stor förändring har hittats behöver man inte leta efter kontinuitet.",ratt:false,miss:"antingen_eller",kommentar:"Frågorna ska alltid ställas tillsammans."}
+  ],
+  s:`<p>Byt måttstock: arbete, lön, bostad och ansvar i hemmet kan förändras i olika takt.</p>`
+},
+
+{
+  id:"hi-fk-412", kap:4, omr:"fk_forandring_kontinuitet", familj:["reformens_granser","for_vem"], niva:"E", svarstyp:"alternativ",
+  t:`<p>År 1866 ersattes Sveriges ståndsriksdag av en tvåkammarriksdag. Rösträtten knöts fortfarande till inkomst och förmögenhet. Kvinnor saknade politisk rösträtt och många män fick inte heller rösta.</p><p class="fragan">Vilka påståenden håller?</p>`,
+  alternativ:[
+    {txt:"Förändring: representationen byggde inte längre på de fyra stånden.",ratt:true,kommentar:"Institutionens form ändrades tydligt."},
+    {txt:"Kontinuitet: politisk makt var fortfarande ojämnt fördelad och de flesta vuxna saknade rösträtt.",ratt:true,kommentar:"Vilka som deltog förändrades betydligt mindre."},
+    {txt:"Om 1866 kallas ett demokratiskt genombrott måste det förklaras vilken del av demokrati som avses.",ratt:true,kommentar:"Begreppet behöver ett kriterium."},
+    {txt:"Reformen införde allmän rösträtt för män eftersom de fyra ståndens representation avskaffades samtidigt.",ratt:false,miss:"reform_overdriven",kommentar:"Inkomst- och förmögenhetskrav fanns kvar."},
+    {txt:"Reformen förändrade ingenting demokratiskt eftersom kvinnor och många män fortfarande saknade politisk rösträtt.",ratt:false,miss:"kontinuitet_upphaver_forandring",kommentar:"Formen förändrades även om deltagandet förblev snävt."},
+    {txt:"Förändring och kontinuitet kan inte användas samtidigt eftersom en reform antingen är ett genombrott eller en fasad.",ratt:false,miss:"antingen_eller",kommentar:"Det är just kombinationen som ger en precis bild."}
+  ],
+  s:`<p>Fråga både <em>vad</em> institutionen blev och <em>vilka</em> som fick tillträde till den.</p>`
+},
+
+{
+  id:"hi-fk-413", kap:4, omr:"fk_periodisering", familj:["periodisering_som_konstruktion","kulturellt_perspektiv"], niva:"C", svarstyp:"alternativ",
+  t:`<p>I europeisk historia används ofta antiken, medeltiden och tidigmodern tid. Samma gränser passar sämre för Kinas, Västafrikas eller Amerikas historia.</p><p class="fragan">Vilka slutsatser om periodisering är rimliga?</p>`,
+  alternativ:[
+    {txt:"Perioderna bygger på förändringar som varit centrala i europeisk historia och blir därför mindre träffsäkra på andra platser.",ratt:true,kommentar:"Periodisering har alltid ett geografiskt perspektiv."},
+    {txt:"En global framställning kan behöva flera parallella periodiseringar eller bredare teman.",ratt:true,kommentar:"Olika frågor kräver olika tidskartor."},
+    {txt:"Att en indelning är konstruerad betyder att den ska motiveras, inte att den är meningslös.",ratt:true,kommentar:"Verktyg bedöms efter vad de hjälper oss att se."},
+    {txt:"Den europeiska indelningen är korrekt eftersom den används i svenska läroböcker.",ratt:false,miss:"auktoritet_lika_med_belagg",kommentar:"Vanlighet gör inte ett verktyg universellt."},
+    {txt:"Varje land måste ha helt unika perioder, annars är indelningen fel.",ratt:false,miss:"olikhet_overdriven",kommentar:"Jämförelse kräver ibland gemensamma ramar."},
+    {txt:"Historien själv är indelad i naturliga epoker som forskare bara upptäcker.",ratt:false,miss:"periodgrans_som_natur",kommentar:"Gränser väljs utifrån kriterier och frågor."}
+  ],
+  s:`<p>Periodisering är en karta. Den kan vara användbar utan att vara neutral eller passa överallt.</p>`
+},
+
+{
+  id:"hi-fk-414", kap:4, omr:"fk_forandring_kontinuitet", familj:["avkolonisering","forandring_och_bestandighet"], niva:"C", svarstyp:"alternativ",
+  t:`<p>Indien blev självständigt från Storbritannien 1947. Den koloniala förvaltningen ersattes av en indisk regering, men engelska språket, järnvägsnätet och många administrativa och rättsliga institutioner levde vidare.</p><p class="fragan">Vilka analyser är rimliga?</p>`,
+  alternativ:[
+    {txt:"Självständigheten innebar en grundläggande förändring av den politiska suveräniteten.",ratt:true,kommentar:"Vem som ytterst styrde förändrades."},
+    {txt:"Institutionell kontinuitet kunde både underlätta styrningen och bära vidare koloniala maktmönster.",ratt:true,kommentar:"Samma kontinuitet kan ha flera följder."},
+    {txt:"Om graden av förändring ska bedömas måste politisk, ekonomisk och kulturell nivå skiljas åt.",ratt:true,kommentar:"De rörde sig inte lika snabbt."},
+    {txt:"Eftersom järnvägarna fanns kvar var självständigheten bara symbolisk.",ratt:false,miss:"kontinuitet_upphaver_forandring",kommentar:"Materiell kontinuitet upphäver inte ny suveränitet."},
+    {txt:"Eftersom landet blev självständigt upphörde kolonialismens konsekvenser 1947.",ratt:false,miss:"brytpunkt_som_total",kommentar:"En brytpunkt avslutar inte alla äldre strukturer."},
+    {txt:"Engelska språkets fortsatta roll bevisar att britterna fortfarande styrde.",ratt:false,miss:"spar_lika_med_styrning",kommentar:"Ett historiskt arv är inte samma sak som fortsatt formell kontroll."}
+  ],
+  s:`<p>En politisk brytpunkt kan vara skarp samtidigt som ekonomiska, kulturella och institutionella mönster lever vidare.</p>`
+},
+
+{
+  id:"hi-fk-415", kap:4, omr:"fk_periodisering", familj:["brytpunkter","kriterier_for_periodisering"], niva:"A", svarstyp:"alternativ",
+  t:`<p>År 1989 föll Berlinmuren, 1991 upplöstes Sovjetunionen. Samtidigt fortsatte kärnvapen, militära allianser och flera regionala konflikter att prägla världen.</p><p class="fragan">Vilka resonemang om kalla krigets slut håller?</p>`,
+  alternativ:[
+    {txt:"1989 är en stark brytpunkt om fokus ligger på Östeuropas kommunistiska regimer; 1991 är starkare om fokus ligger på supermaktskonflikten.",ratt:true,kommentar:"Olika kriterier ger olika motiverade gränser."},
+    {txt:"Att vissa strukturer levde vidare motsäger inte en brytpunkt, men begränsar vad vi påstår tog slut.",ratt:true,kommentar:"Brytpunkten måste preciseras."},
+    {txt:"En period kan sluta politiskt före eller efter att människors vardag och institutioner hunnit förändras.",ratt:true,kommentar:"Förändringar är sällan synkroniserade."},
+    {txt:"Endast ett av årtalen kan vara historiskt korrekt.",ratt:false,miss:"en_ratt_periodgrans",kommentar:"Kriteriet avgör vilket år som passar frågan."},
+    {txt:"Eftersom Nato levde vidare tog kalla kriget aldrig slut.",ratt:false,miss:"kontinuitet_upphaver_brytpunkt",kommentar:"En kvarvarande institution upphäver inte hela förändringen."},
+    {txt:"Berlinmurens fall är bäst bara för att det är den mest dramatiska händelsen.",ratt:false,miss:"dramatik_lika_med_betydelse",kommentar:"Dramatik är inget analyskriterium."}
+  ],
+  s:`<p>En brytpunkt ska skrivas som ett argument: <em>detta</em> ändrades, mätt med <em>detta kriterium</em>, vid <em>denna tid</em>.</p>`
+},
+
+{
+  id:"hi-fk-416", kap:4, omr:"fk_periodisering", familj:["periodisering_som_konstruktion","miljohistoria"], niva:"A", svarstyp:"alternativ",
+  t:`<p>Vissa forskare använder begreppet antropocen för en period då människors verksamhet blivit en kraft som påverkar hela jordens system. Föreslagna startpunkter är bland annat industrialiseringen omkring 1800 och den kraftiga ökningen av produktion och utsläpp efter 1950.</p><p class="fragan">Vilka analyser av periodiseringen är hållbara?</p>`,
+  alternativ:[
+    {txt:"Valet mellan 1800 och 1950 beror på om kriteriet är fossil industrialisering eller en mätbar global acceleration.",ratt:true,kommentar:"Först kriterium, sedan gräns."},
+    {txt:"Namnet människans tidsålder kan dölja att olika samhällen och grupper bidragit mycket olika till förändringen.",ratt:true,kommentar:"En periodetikett kan fördela ansvar på ett visst sätt."},
+    {txt:"Begreppet kan vara användbart även om startåret diskuteras, så länge användaren anger kriterium och begränsning.",ratt:true,kommentar:"Oenighet gör inte automatiskt verktyget värdelöst."},
+    {txt:"Eftersom geologer deltar är detta inte en historisk periodisering.",ratt:false,miss:"disciplin_bestammer_fraga",kommentar:"Begreppet kan användas historiskt för mänsklig påverkan och ansvar."},
+    {txt:"Den tidigaste föreslagna starten är bäst eftersom orsaker alltid är viktigare än konsekvenser.",ratt:false,miss:"tidigast_lika_med_bast",kommentar:"Bästa gräns beror på frågan."},
+    {txt:"Ett exakt startår måste finnas för att en period ska vara meningsfull.",ratt:false,miss:"exakthet_kravs",kommentar:"Många historiska övergångar är gradvisa."}
+  ],
+  s:`<p>Periodiseringar beskriver inte bara tid; de väljer fokus och kan fördela synlighet och ansvar.</p>`
+},
+
+{
+  id:"hi-hb-511", kap:5, omr:"hb_identifiera", familj:["identifiera_bruk","existentiellt_bruk"], niva:"E", svarstyp:"alternativ",
+  t:`<p>En familj samlar gamla fotografier, spelar in mormors berättelser och gör en bok till de yngsta barnen med rubriken <em>Varifrån vi kommer</em>.</p><p class="fragan">Hur kan detta beskrivas?</p>`,
+  alternativ:[
+    {txt:"Det är historiebruk eftersom familjen använder äldre fotografier och berättelser för ett nutida syfte.",ratt:true,kommentar:"Bruket behöver inte vara offentligt eller politiskt."},
+    {txt:"Bruket är främst existentiellt och identitetsskapande eftersom boken skapar tillhörighet mellan generationerna.",ratt:true,kommentar:"Fråga vad historien gör för användarna."},
+    {txt:"Familjens urval påverkar berättelsen eftersom både bevarade och utelämnade minnen formar helheten.",ratt:true,kommentar:"Alla berättelser väljer."},
+    {txt:"Det är inte historiebruk eftersom fotografierna bara används privat och inte visas för allmänheten.",ratt:false,miss:"offentlighet_kravs",kommentar:"Även vardagsliv och familjer använder historia."},
+    {txt:"Det är vetenskapligt historiebruk eftersom intervjuerna spelas in noggrant och sparas för framtiden.",ratt:false,miss:"metod_bestammer_brukstyp",kommentar:"Metoden avgör inte huvudsyftet."},
+    {txt:"Det finns inget historiebruk att analysera om alla berättelser i familjeboken är historiskt sanna.",ratt:false,miss:"sanning_utesluter_urval",kommentar:"Sanna uppgifter kan väljas och ordnas till olika berättelser."}
+  ],
+  s:`<p>Historiebruk finns också i vardagen. Här används familjens förflutna för identitet, minne och gemenskap.</p>`
+},
+
+{
+  id:"hi-hb-512", kap:5, omr:"hb_typer", familj:["vetenskapligt_bruk","pedagogiskt_bruk"], niva:"E", svarstyp:"alternativ",
+  t:`<p>Ett museum gör en utställning om ett skeppsvrak. Arkeologer daterar fynden och redovisar osäkerheter. Pedagoger väljer sedan ut tio föremål och bygger en berättelse som skolklasser kan följa.</p><p class="fragan">Vilka beskrivningar är rimliga?</p>`,
+  alternativ:[
+    {txt:"Det är vetenskapligt historiebruk när fynden dateras, prövas och redovisas tillsammans med sina osäkerheter.",ratt:true,kommentar:"Syftet är att undersöka och ompröva kunskap."},
+    {txt:"Det är också pedagogiskt historiebruk när museets urval gör kunskapen begriplig för skolklasser.",ratt:true,kommentar:"Flera bruk kan finnas samtidigt."},
+    {txt:"Museets urval behöver analyseras eftersom äkta föremål ändå kan ordnas till olika berättelser.",ratt:true,kommentar:"Äkta delar skapar inte automatiskt en heltäckande berättelse."},
+    {txt:"Det är enbart vetenskapligt historiebruk eftersom arkeologerna ansvarar för dateringen av de utställda fynden.",ratt:false,miss:"yrke_bestammer_brukstyp",kommentar:"Samma projekt kan ha flera syften."},
+    {txt:"Det är främst kommersiellt historiebruk eftersom besökarna betalar entré för att se utställningen.",ratt:false,miss:"pengar_lika_med_kommersiellt_bruk",kommentar:"Intäkter finns i många verksamheter utan att vara huvudsyftet."},
+    {txt:"Det pedagogiska historiebruket är mindre tillförlitligt eftersom en förenklad berättelse aldrig kan vara vetenskaplig.",ratt:false,miss:"forenkling_lika_med_falskt",kommentar:"Förenkling kan vara sakligt hållbar om urval och osäkerhet hanteras öppet."}
+  ],
+  s:`<p>Kategorierna beskriver syften, inte yrken eller platser. Ett museum kan förena vetenskapligt, pedagogiskt och ibland kommersiellt bruk.</p>`
+},
+
+{
+  id:"hi-hb-513", kap:5, omr:"hb_syfte", familj:["minnesmarke","konflikt_om_historia"], niva:"C", svarstyp:"alternativ",
+  kallor:[{bet:"A",titel:"Två förslag till en statytext",typ:"Minnesmärke i nutid",akthet:"konstruerad",
+    text:`<p><strong>Förslag 1:</strong> Till stadens store grundare, som skapade arbete och välstånd.</p><p><strong>Förslag 2:</strong> Här verkade industrimannen N.N. Hans fabriker gav arbete men byggde också på barnarbete och farliga arbetsmiljöer.</p>`,
+    om:`<p>Kommunen diskuterar om en äldre staty ska få en ny skylt.</p>`,referens:"Konstruerad källa för analys av minnespolitik."}],
+  t:`<p class="fragan">Vilka analyser av förslagen är rimliga?</p>`,
+  alternativ:[
+    {txt:"Båda är historiebruk eftersom de väljer olika delar av personens liv till en offentlig berättelse.",ratt:true,kommentar:"Konflikten gäller urval och betydelse."},
+    {txt:"Förslag 1 skapar en hjälteberättelse medan förslag 2 visar ett mer konfliktfyllt historiskt arv.",ratt:true,kommentar:"Formuleringarna ger personen olika funktion i nutiden."},
+    {txt:"Valet av text kan påverka vilka grupper som känner sig inkluderade i stadens gemensamma minne.",ratt:true,kommentar:"Historiebruk får sociala följder."},
+    {txt:"Förslag 2 är en neutral historisk beskrivning eftersom både positiva och negativa uppgifter nämns.",ratt:false,miss:"balans_lika_med_neutral",kommentar:"Även ett balanserande urval är ett urval med syfte."},
+    {txt:"Endast ett förslag som innehåller historiska sakfel kan påverka hur personen används i nutiden.",ratt:false,miss:"felaktig_alltsa_bruk",kommentar:"Även korrekta berättelser används."},
+    {txt:"Statyn tillhör det förflutna och kan därför inte få en ny betydelse genom dagens värderingar.",ratt:false,miss:"minnesmarke_utan_nutid",kommentar:"Att bevara, ändra eller förklara är nutida val."}
+  ],
+  s:`<p>Minnesmärken visar att historia inte bara handlar om vad som hänt, utan om vad ett samhälle väljer att hedra, förklara och föra vidare.</p>`
+},
+
+{
+  id:"hi-hb-514", kap:5, omr:"hb_typer", familj:["kommersiellt_bruk","flera_bruk_samtidigt"], niva:"C", svarstyp:"alternativ",
+  t:`<p>En turistort marknadsför sig som <em>den äkta vikingabyn</em>. Företag säljer hjälmar med horn, kommunen finansierar en arkeologisk park och lokala föreningar firar en vikingafestival.</p><p class="fragan">Vilka analyser håller?</p>`,
+  alternativ:[
+    {txt:"Det är kommersiellt historiebruk när vikingabilden används för att locka besökare och sälja varor.",ratt:true,kommentar:"Syftet är ekonomiskt."},
+    {txt:"Projektet kan samtidigt vara identitetsskapande för orten och pedagogiskt i den arkeologiska parken.",ratt:true,kommentar:"Olika aktörer kan använda samma historia på olika sätt."},
+    {txt:"Hornhjälmarna är en senare föreställning som används trots att marknadsföringen kallar miljön historiskt äkta.",ratt:true,kommentar:"Historiebrukets bild kan själv ha en historia."},
+    {txt:"Hela projektet är kommersiellt historiebruk eftersom alla verksamheter på orten tjänar på turisterna.",ratt:false,miss:"en_kategori_racker",kommentar:"Huvudsyftet varierar mellan aktörerna."},
+    {txt:"Den arkeologiska parken är vetenskapligt historiebruk eftersom den visar fynd på en historisk plats.",ratt:false,miss:"plats_bestammer_brukstyp",kommentar:"Metod, urval och syfte måste granskas."},
+    {txt:"Souvenirerna är inte historiebruk eftersom hornhjälmarna ger en historiskt felaktig bild av vikingarna.",ratt:false,miss:"felaktig_alltsa_inte_bruk",kommentar:"Felaktighet kan vara central i analysen av bruket."}
+  ],
+  s:`<p>Utgå från varje aktör: avsändare, målgrupp och syfte. Samma festival kan bära flera bruk samtidigt.</p>`
+},
+
+{
+  id:"hi-hb-515", kap:5, omr:"hb_syfte", familj:["icke_bruk","urval_som_stallningstagande"], niva:"A", svarstyp:"alternativ",
+  t:`<p>Ett företags jubileumsbok beskriver hundra år av uppfinningar, exportframgångar och arbetstillfällen. Boken nämner inte att företaget sålde varor till en diktatur eller att arbetare strejkade efter flera dödsolyckor.</p><p class="fragan">Vilka analyser av tystnaden är rimliga?</p>`,
+  alternativ:[
+    {txt:"Utelämnandena kan vara icke-bruk eftersom vissa delar av historien stör jubileumsbokens positiva syfte.",ratt:true,kommentar:"Tystnad kan vara ett aktivt urval."},
+    {txt:"Medvetet icke-bruk kan beläggas genom att undersöka företagets kunskap och redaktionens dokumenterade urval.",ratt:true,kommentar:"Avsaknad ensam visar inte avsikt."},
+    {txt:"Den positiva företagsberättelsen är samtidigt ett kommersiellt och identitetsskapande historiebruk riktat till läsarna.",ratt:true,kommentar:"Bruk och icke-bruk kan finnas i samma produkt."},
+    {txt:"Alla händelser som inte får plats i jubileumsboken är exempel på företagets medvetna icke-bruk.",ratt:false,miss:"all_utelamning_lika_med_ickebruk",kommentar:"Begreppet kräver ett meningsfullt eller strategiskt bortval."},
+    {txt:"Utelämnandena bevisar att företagsledningen skäms för olyckorna och försöker dölja sitt historiska ansvar.",ratt:false,miss:"motiv_som_faktum",kommentar:"Det är en hypotes som kräver belägg."},
+    {txt:"De sanna uppgifterna om framgångarna gör boken till historieskrivning utan något nutida historiebruk.",ratt:false,miss:"sanning_utesluter_bruk",kommentar:"Sanna delar kan ordnas till en starkt styrd helhet."}
+  ],
+  s:`<p>Icke-bruk är svårare att belägga än bruk. Visa först den betydelsefulla tystnaden, sedan att bortvalet var känt och fyller en funktion.</p>`
+},
+
+{
+  id:"hi-hb-516", kap:5, omr:"hb_syfte", familj:["minnesdag","flera_bruk_samtidigt"], niva:"A", svarstyp:"alternativ",
+  t:`<p>På Förintelsens minnesdag håller överlevande tal, skolor arbetar med vittnesmål, politiker varnar för antisemitism och medier berättar personliga livsöden.</p><p class="fragan">Vilka analyser av historiebruket är rimliga?</p>`,
+  alternativ:[
+    {txt:"Minnesdagen förenar existentiellt, moraliskt, pedagogiskt och politiskt historiebruk för flera olika målgrupper.",ratt:true,kommentar:"Bruken överlappar och har olika tyngd för olika deltagare."},
+    {txt:"Politikerns nutida varning kan granskas samtidigt som minnet av offren och vittnesmålens betydelse erkänns.",ratt:true,kommentar:"Man kan analysera bruket utan att avfärda dess moraliska betydelse."},
+    {txt:"Urvalet av röster och erfarenheter påverkar vilken bild av Förintelsen som förs vidare på minnesdagen.",ratt:true,kommentar:"Urval finns även i angeläget minnesarbete."},
+    {txt:"Minnesdagens goda och demokratiska syfte gör en analys av dess urval och budskap överflödig.",ratt:false,miss:"gott_syfte_utesluter_analys",kommentar:"Analys är inte samma sak som misstänkliggörande."},
+    {txt:"Minnesdagen är främst vetenskapligt historiebruk eftersom tal och undervisning bygger på historiskt belagda händelser.",ratt:false,miss:"sant_lika_med_vetenskapligt",kommentar:"Syftet är bredare än forskning."},
+    {txt:"De många olika syftena gör att begreppet historiebruk inte kan användas på minnesdagen.",ratt:false,miss:"komplexitet_som_undanflykt",kommentar:"Kategorierna är frågor att ställa, inte fack som måste vara rena."}
+  ],
+  s:`<p>En mogen analys frågar inte bara vilken etikett som passar. Den visar vilka aktörer, syften, urval och följder som samverkar.</p>`
+},
+
+{
+  id:"hi-ha-611", kap:6, omr:"ha_belagg", familj:["slutsats_inom_kallan","belagg_och_pastaende"], niva:"E", svarstyp:"alternativ",
+  kallor:[{bet:"A",titel:"Fabriksregel",typ:"Ordningsstadga, 1904",akthet:"konstruerad",
+    text:`<p>Arbetet börjar klockan 6. Sen ankomst medför löneavdrag. Samtal vid maskinerna är förbjudna. Skadad arbetare ska genast anmälas till förmannen.</p>`,
+    om:`<p>Regeln satt upp på fabrikens vägg. Vi vet inte hur noga den följdes.</p>`,referens:"Konstruerad källa."}],
+  t:`<p class="fragan">Vilka slutsatser stöds direkt av källan?</p>`,
+  alternativ:[
+    {txt:"Fabriksledningen ville att arbetet skulle börja klockan 6.",ratt:true,kommentar:"Regeln belägger ett krav."},
+    {txt:"Ledningen försökte kontrollera tid och samtal på arbetsplatsen.",ratt:true,kommentar:"Flera regler pekar mot samma slutsats."},
+    {txt:"Skador förekom som en situation reglerna behövde hantera.",ratt:true,kommentar:"Regeln visar att möjligheten var känd, men inte hur ofta det hände."},
+    {txt:"Alla arbetare kom i tid.",ratt:false,miss:"regel_lika_med_praktik",kommentar:"En regel visar vad som krävdes, inte vad alla gjorde."},
+    {txt:"Arbetarna var missnöjda med reglerna.",ratt:false,miss:"reaktion_utan_belagg",kommentar:"Källan innehåller ingen arbetarreaktion."},
+    {txt:"Fabriken hade fler olyckor än andra fabriker.",ratt:false,miss:"jamforelse_utan_material",kommentar:"Jämförelsen saknar både antal och andra fabriker."}
+  ],
+  s:`<p>Skilj mellan <em>regel</em>, <em>praktik</em> och <em>reaktion</em>. Källan belägger bara den första direkt.</p>`
+},
+
+{
+  id:"hi-ha-612", kap:6, omr:"ha_belagg", familj:["fakta_och_slutsats","slutsats_inom_kallan"], niva:"E", svarstyp:"alternativ",
+  t:`<p>En stads befolkning ökade från 8&nbsp;000 personer år 1850 till 42&nbsp;000 år 1900. Under samma period öppnade tre fabriker och järnvägen nådde staden.</p><p class="fragan">Vilka påståenden håller sig inom beläggen?</p>`,
+  alternativ:[
+    {txt:"Stadens befolkning ökade kraftigt under perioden.",ratt:true,kommentar:"Det följer direkt av siffrorna."},
+    {txt:"Fabriker och järnväg är rimliga delar av en förklaring, men uppgifterna ensamma visar inte hur mycket varje faktor bidrog.",ratt:true,kommentar:"Rimlig hypotes är inte färdig slutsats."},
+    {txt:"Mer material behövs om inflyttning, födelsetal, stadsgränser och arbetstillfällen.",ratt:true,kommentar:"Det är precis materialet som kan pröva förklaringen."},
+    {txt:"Järnvägen orsakade hela befolkningsökningen eftersom den öppnade under samma period som invånarantalet steg.",ratt:false,miss:"samvariation_som_orsak",kommentar:"Samtidighet räcker inte för storleken på effekten."},
+    {txt:"Alla nya invånare arbetade i fabrikerna eftersom fabrikerna var den enda förändring som nämns i underlaget.",ratt:false,miss:"alla_fran_total",kommentar:"Totalsiffran säger inget om yrken."},
+    {txt:"Staden blev rikare i samma takt som den blev större eftersom befolkningstal direkt mäter ekonomiskt välstånd.",ratt:false,miss:"vardering_utan_matt",kommentar:"Rikare behöver definieras och beläggas separat."}
+  ],
+  s:`<p>Ett belägg kan säkert visa förändringen utan att ensamt visa orsaken. Markera skillnaden mellan observation, hypotes och slutsats.</p>`
+},
+
+{
+  id:"hi-ha-613", kap:6, omr:"ha_tolkning", familj:["olika_tolkning_samma_material","urval"], niva:"C", svarstyp:"alternativ",
+  t:`<p>Två historiker studerar svenska strejker 1900–1920. Historiker A räknar antal strejker och ser en växande arbetarrörelse. Historiker B läser polisrapporter från tre industristäder och betonar statens kontroll.</p><p class="fragan">Hur bör tolkningarna jämföras?</p>`,
+  alternativ:[
+    {txt:"De besvarar delvis olika frågor och behöver därför inte motsäga varandra.",ratt:true,kommentar:"Först identifiera påståendet, sedan jämföra."},
+    {txt:"A har större bredd men kan missa hur konflikterna upplevdes; B har mer detalj men ett snävare och myndighetsstyrt urval.",ratt:true,kommentar:"Metodernas styrkor och begränsningar är olika."},
+    {txt:"För att avgöra räckvidden bör båda redovisa urval och visa hur väl materialet täcker deras slutsats.",ratt:true,kommentar:"Tolkning vägs mot belägg."},
+    {txt:"A är den bättre tolkningen eftersom stora mängder siffror alltid är mer objektiva än myndighetstexter.",ratt:false,miss:"siffra_lika_med_objektiv",kommentar:"Vad som räknas som en strejk och vilka fall som registreras är också tolkningar."},
+    {txt:"B är den bättre tolkningen eftersom detaljer från tre städer automatiskt förklarar utvecklingen i hela landet.",ratt:false,miss:"detalj_lika_med_battre",kommentar:"Detalj kan inte ensam bära en nationell slutsats."},
+    {txt:"Båda tolkningarna är lika starka eftersom historiska slutsatser aldrig kan jämföras med gemensamma kriterier.",ratt:false,miss:"relativism",kommentar:"Tolkningar kan jämföras genom täckning, logik och invändningar."}
+  ],
+  s:`<p>Jämför fråga, urval, metod och räckvidd. Olika tolkning betyder inte automatiskt konflikt — och aldrig att allt är lika välgrundat.</p>`
+},
+
+{
+  id:"hi-ha-614", kap:6, omr:"ha_belagg", familj:["motbelagg","tesprovning"], niva:"C", svarstyp:"alternativ",
+  t:`<p>En elev hävdar: ”Industrialiseringen förbättrade genast livet för svenska arbetare.” Som belägg använder eleven att mängden producerade varor ökade snabbt.</p><p class="fragan">Vilka invändningar prövar tesen i sak?</p>`,
+  alternativ:[
+    {txt:"Ökad produktion visar inte hur löner, arbetstid, bostäder och hälsa förändrades för arbetarna.",ratt:true,kommentar:"Belägget mäter något annat än slutsatsen."},
+    {txt:"Ordet genast kräver material från industrialiseringens tidiga skede, inte bara ett långt genomsnitt.",ratt:true,kommentar:"Tidsordet gör tesen prövbar."},
+    {txt:"Tesen kan stärkas eller försvagas genom jämförelser mellan grupper och perioder.",ratt:true,kommentar:"Specificera vad som skulle räknas som motbelägg."},
+    {txt:"Eleven har fel eftersom industrialisering alltid är dålig för arbetare.",ratt:false,miss:"mottes_med_mottes",kommentar:"Det ersätter en obelagd tes med en annan."},
+    {txt:"Elevens politiska åsikt gör belägget oanvändbart.",ratt:false,miss:"personangrepp",kommentar:"Pröva sambandet mellan produktion och levnadsvillkor."},
+    {txt:"Eftersom varor blev fler måste levnadsstandarden ha stigit lika mycket.",ratt:false,miss:"produktion_lika_med_fordelning",kommentar:"Produktion säger inte hur resultatet fördelades."}
+  ],
+  s:`<p>En stark invändning träffar länken mellan belägg och slutsats. Här mäter produktionen inte automatiskt arbetarnas levnadsvillkor.</p>`
+},
+
+{
+  id:"hi-ha-615", kap:6, omr:"ha_tolkning", familj:["historiografisk_debatt","vagning_av_tolkningar"], niva:"A", svarstyp:"alternativ",
+  t:`<p>Historiker A förklarar franska revolutionen främst med klasskonflikter och ståndsprivilegier. Historiker B betonar statens skuldkris och hur politiska beslut bröt sönder monarkin. Båda använder delvis samma händelser.</p><p class="fragan">Hur kan tolkningarna vägas?</p>`,
+  alternativ:[
+    {txt:"Pröva vilken tolkning som bäst förklarar både den breda mobiliseringen och den exakta politiska krisen 1789.",ratt:true,kommentar:"En stark tolkning bör täcka flera centrala delar av förloppet."},
+    {txt:"Undersök om A kan förklara varför konflikten bröt ut just då och om B kan förklara varför så många grupper mobiliserades.",ratt:true,kommentar:"Varje tolkning prövas där den verkar svagast."},
+    {txt:"En kombination är stark endast om sambandet mellan förklaringarna visas; att bara skriva båda spelade roll räcker inte.",ratt:true,kommentar:"Syntes kräver en mekanism."},
+    {txt:"A och B är lika sanna eftersom historia alltid kan tolkas olika.",ratt:false,miss:"relativism",kommentar:"De kan ha olika förklaringskraft."},
+    {txt:"Den nyaste tolkningen bör väljas eftersom forskning alltid går framåt.",ratt:false,miss:"nyast_lika_med_bast",kommentar:"Nytt datum ersätter inte belägg."},
+    {txt:"Den enklaste förklaringen är bäst även om den lämnar stora delar oförklarade.",ratt:false,miss:"enkelhet_som_regel",kommentar:"Enkelhet hjälper först när förklaringskraften är tillräcklig."}
+  ],
+  s:`<p>Väg tolkningar genom räckvidd och prövning: vad förklarar de väl, vad lämnar de öppet och hur möter de den starkaste invändningen?</p>`
+},
+
+{
+  id:"hi-ha-616", kap:6, omr:"ha_tolkning", familj:["bygga_forklaring","vagning_av_orsaker"], niva:"A", svarstyp:"alternativ",
+  t:`<p>En elev ska förklara Sveriges demokratisering och har belägg för folkrörelsernas tillväxt, rösträttsreformerna 1866–1921, industrialisering, internationella revolutioner 1917–18 och partiernas förhandlingar.</p><p class="fragan">Vilka sätt att bygga argumentet är starkast?</p>`,
+  alternativ:[
+    {txt:"Låt folkrörelserna förklara hur krav och deltagande byggdes upp, och det internationella läget förklara varför motståndet försvagades 1918.",ratt:true,kommentar:"Varje belägg får en tydlig funktion."},
+    {txt:"Använd reformerna som en tidslinje, men skilj mellan beslutens form och vilka grupper som faktiskt inkluderades.",ratt:true,kommentar:"Kronologi blir analys när förändringens innebörd preciseras."},
+    {txt:"Avsluta med en vägd slutsats som anger både långsiktiga villkor, aktörer och utlösande läge.",ratt:true,kommentar:"Slutsatsen ska besvara hur delarna hänger ihop."},
+    {txt:"Rada upp alla belägg i datumordning; sambandet blir då självklart.",ratt:false,miss:"kronologi_lika_med_forklaring",kommentar:"En tidslinje visar när, inte automatiskt varför."},
+    {txt:"Välj den enda verkliga orsaken så blir argumentet tydligare.",ratt:false,miss:"monokausalitet",kommentar:"Tydlighet kommer från samband, inte från att radera orsaker."},
+    {txt:"Undvik en egen slutsats eftersom historiker kan värdera orsaker olika.",ratt:false,miss:"vagning_uppgiven",kommentar:"En motiverad vägning är själva uppgiften."}
+  ],
+  s:`<p>Ett historiskt argument är mer än en lista: varje belägg ska göra ett bestämt arbete i förklaringen och slutsatsen ska väga delarna.</p>`
+},
+
+{
+  id:"hi-ha-617", kap:6, omr:"ha_belagg", familj:["tystnad_som_belagg","argument_fran_franvaro"], niva:"A", svarstyp:"alternativ",
+  t:`<p>En historiker har läst 200 bevarade brev från svenska emigranter i Minnesota 1880–1900. Ingen brevskrivare nämner politiska möten. Historikern drar slutsatsen att svenska emigranter inte var politiskt aktiva.</p><p class="fragan">Vilka bedömningar av argumentet håller?</p>`,
+  alternativ:[
+    {txt:"Tystnad blir starkt belägg först om politiska möten är något man rimligen borde ha nämnt i just dessa brev.",ratt:true,kommentar:"Frånvaro betyder något bara när närvaro vore förväntad."},
+    {txt:"Urvalet måste granskas: vilka skrev, till vem, vilka brev bevarades och vilka emigranter saknas?",ratt:true,kommentar:"Bevarandet kan skapa en sned bild."},
+    {txt:"Andra källor som föreningsprotokoll, tidningar och medlemslistor kan pröva slutsatsen direkt.",ratt:true,kommentar:"Välj material där aktiviteten lämnar förväntade spår."},
+    {txt:"Tvåhundra brev är så många att tystnaden bevisar slutsatsen.",ratt:false,miss:"stor_mangd_ersatter_urval",kommentar:"Ett stort skevt urval är fortfarande skevt."},
+    {txt:"Eftersom breven är privata berättar de allt som var viktigt för skribenterna.",ratt:false,miss:"privat_lika_med_fullstandigt",kommentar:"Brev formas av mottagare, syfte och vad som anses värt att berätta."},
+    {txt:"Frånvaro kan aldrig användas som historiskt belägg.",ratt:false,miss:"tystnad_aldrig_belagg",kommentar:"Den kan användas när vi kan visa att ett spår borde ha funnits."}
+  ],
+  s:`<p>Argument från tystnad kräver en kontrollfråga: <em>borde detta ha lämnat ett spår här?</em> Om svaret är osäkert är slutsatsen också osäker.</p>`
 }
 
 ];
 
-if(typeof window!=="undefined") window.BANKHIST=BANKHIST;
+/* Utvecklingskontroll för språkliga ledtrådar. Funktionen ändrar ingenting
+   i banken utan returnerar uppgifter som behöver en mänsklig granskning.
+   Kvoten jämför rätta och felaktiga alternativs genomsnittliga ordantal. */
+function granskaSvarsalternativHist(bank){
+  var lista=Array.isArray(bank)?bank:BANKHIST;
+  function ord(s){
+    return String(s||"").replace(/<[^>]+>/g," ").replace(/&[^;]+;/g," ")
+      .trim().split(/\s+/).filter(Boolean).length;
+  }
+  return lista.map(function(t){
+    var ratt=(t.alternativ||[]).filter(function(a){return a.ratt;}).map(function(a){return ord(a.txt);});
+    var fel=(t.alternativ||[]).filter(function(a){return !a.ratt;}).map(function(a){return ord(a.txt);});
+    if(!ratt.length||!fel.length) return null;
+    var r=ratt.reduce(function(a,b){return a+b;},0)/ratt.length;
+    var f=fel.reduce(function(a,b){return a+b;},0)/fel.length;
+    var kvot=r/f;
+    var alla=ratt.concat(fel);
+    var spann=Math.max.apply(null,alla)-Math.min.apply(null,alla);
+    if(kvot>=0.67&&kvot<=1.50&&spann<=16) return null;
+    return {id:t.id,kvot:Number(kvot.toFixed(2)),rattOrd:Number(r.toFixed(1)),felOrd:Number(f.toFixed(1)),spann:spann};
+  }).filter(Boolean);
+}
+
+if(typeof window!=="undefined"){
+  window.BANKHIST=BANKHIST;
+  window.granskaSvarsalternativHist=granskaSvarsalternativHist;
+}

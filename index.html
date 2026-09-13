@@ -2479,6 +2479,7 @@ async function vaxlaTopplista(pa){
 /* Topplistans flikar. Alla hämtas från databasfunktionen
    topplista_period (se topplista-perioder.sql), som räknar in
    medalj-XP. Dag/vecka/månad visar tillväxt under perioden. */
+const MEDALJ_XP=100;
 const TOPP_FLIKAR={
   dag:  {txt:"Bäst idag",      fot:"XP och uppgifter sedan midnatt idag"},
   vecka:{txt:"Veckans bästa",  fot:"XP och uppgifter sedan måndag denna vecka"},

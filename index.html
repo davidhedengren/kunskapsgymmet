@@ -4088,6 +4088,8 @@ function expandGameTask(t){
     q.deluppgift=etikett;
     q.id=`${t.id}${etikett}`;
     q.niva=del?.niva || t.niva;
+    // Arbetsinsats gäller den visade delen, inte hela ursprungsuppgiften.
+    q.arbetsinsats=del?.arbetsinsats ?? (Array.isArray(t.arbetsinsats)?metadataForDel(t.arbetsinsats,i,antal):1);
     if(del?.poang!=null) q.poang=del.poang;
 
     q.t=del?.t
@@ -5815,6 +5817,99 @@ function algebraisktLika(a,b){
 const ORDNADE_FORMAT=new Set(["punkt","talpar","vektor","koordinat"]);
 const MANGD_FORMAT=new Set(["lösningsmängd","losningsmangd","mängd","mangd"]);
 
+/* Numeriska svar måste vara fullständiga tal, inte bara börja med rätt tal.
+   Enheten får utelämnas eller anges enligt uppgiftens enhetsmetadata. */
+function rentNumerisktSvar(anv,facit,meta){
+  const text=stadaSvar(hogerled(anv)).replace(/\s+/g,"")
+    .replace(/[⋅∙·×]/g,"*");
+  const upp={"⁰":"0","¹":"1","²":"2","³":"3","⁴":"4","⁵":"5",
+             "⁶":"6","⁷":"7","⁸":"8","⁹":"9","⁻":"-"};
+  const normal=text.replace(/10([⁰¹²³⁴⁵⁶⁷⁸⁹⁻]+)/g,
+    (_,exp)=>"10^"+[...exp].map(c=>upp[c]).join("")).replace(/^([+-]?)10\^(\(?[+-]?\d+\)?)/,
+      (_,sign,exp)=>sign+"1*10^"+exp);
+  const m=normal.match(/^([+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+)(?:(?:e[+-]?\d+)|(?:\*10\^\(?[+-]?\d+\)?))?)(.*)$/i);
+  if(!m) return false;
+  let taltext=m[1],enhet=m[2];
+  // Ren tiopotens, exempelvis 10^-3, har ingen separat koefficient.
+  if(/^[+-]?10$/.test(taltext) && /^\^\(?[+-]?\d+\)?$/.test(enhet)){
+    taltext+=enhet; enhet="";
+  }
+  const v=taltolk(taltext),f=talAv(facit);
+  if(!Number.isFinite(v)||!Number.isFinite(f)) return false;
+  if(String(meta.format).toLowerCase()==="heltal" && !Number.isInteger(v)) return false;
+  if(!enhet) return naraNog(v,f,meta.tolerans);
+  const avsedd=String(meta.enhet??"").replace(/\s+/g,"");
+  if(!avsedd) return false;
+  if(enhet===avsedd) return naraNog(v,f,meta.tolerans);
+  return enhetsJamforelse(normal,facit,meta.enhet,meta.tolerans)===true;
+}
+
+/* Bråksvar ska vara ett helt svar, inte bara börja med ett korrekt tal.
+   Likvärdiga bråk och exakt decimalform godtas i värdeuppgifter. */
+function rentBrakSvar(anv,facit,meta){
+  let s=stadaSvar(hogerled(anv)).replace(/^\\\(|\\\)$/g,"").trim();
+  s=s.replace(/\\(?:d?frac)\s*\{([^{}]+)\}\s*\{([^{}]+)\}/g,"$1/$2");
+  const blandat=s.match(/^([+-]?\d+)\s+(\d+)\s*\/\s*(\d+)$/);
+  let v;
+  if(blandat){
+    const h=Number(blandat[1]),a=Number(blandat[2]),b=Number(blandat[3]);
+    if(!b) return false;
+    v=(blandat[1].startsWith("-")?-1:1)*(Math.abs(h)+a/b);
+  }else{
+    const tal="[+-]?(?:\\d+(?:[.,]\\d+)?|[.,]\\d+)";
+    const br=s.match(new RegExp("^\\s*("+tal+")\\s*/\\s*("+tal+")\\s*$"));
+    if(!br) return rentNumerisktSvar(s,brakAv(facit),meta);
+    const a=Number(br[1].replace(",",".")),b=Number(br[2].replace(",","."));
+    if(!b) return false;
+    v=a/b;
+  }
+  return naraNog(v,brakAv(facit),meta.tolerans);
+}
+
+/* Opt-in för förenklade polynom. Kontrollerar både termernas värden och formen.
+   Inga provvärden eller eval används. Andra svarformat påverkas inte. */
+function forenklatPolynom(x){
+  let raw=stadaSvar(x).replace(/\\(?:left|right)/g,"")
+    .replace(/\\(?:cdot|times)/g,"*").replace(/[·⋅×]/g,"*")
+    .replace(/−/g,"-").replace(/\^\{(\d+)\}/g,"^$1")
+    .replace(/²/g,"^2").replace(/³/g,"^3").replace(/,/g,".").replace(/\s+/g,"");
+  if(!raw || raw.length>300 || !/^[a-z0-9.+*^\-]+$/.test(raw)) return null;
+  if(raw[0]!=="+"&&raw[0]!=="-")raw="+"+raw;
+  const parts=raw.match(/[+-][^+-]+/g);
+  if(!parts || parts.join("")!==raw)return null;
+  const terms=new Map();
+  for(const part of parts){
+    const sign=part[0]==="-"?-1n:1n;let rest=part.slice(1);
+    let coefficient=rest.match(/^(?:\d+(?:\.\d+)?|\.\d+)/);
+    let num=1n,den=1n;
+    if(coefficient){
+      const c=coefficient[0],digits=c.split(".");
+      num=BigInt((digits[0]||"0")+(digits[1]||""));den=10n**BigInt((digits[1]||"").length);
+      rest=rest.slice(c.length);if(rest.startsWith("*")){rest=rest.slice(1);if(!rest)return null;}
+    }
+    const vars=new Map();
+    while(rest){
+      const v=rest.match(/^([a-z])(?:\^([1-9]\d*))?/);
+      if(!v || vars.has(v[1]))return null;
+      const power=Number(v[2]||1);if(power>100)return null;
+      vars.set(v[1],power);rest=rest.slice(v[0].length);
+      if(rest.startsWith("*")){rest=rest.slice(1);if(!rest)return null;}
+    }
+    if(!coefficient&&!vars.size)return null;
+    const key=[...vars].sort((a,b)=>a[0].localeCompare(b[0])).map(v=>v.join("^")).join("*");
+    if(terms.has(key))return null; // Lika termer måste redan vara samlade.
+    if(num===0n && (vars.size || parts.length!==1))return null;
+    terms.set(key,[sign*num,den]);
+  }
+  return terms;
+}
+function sammaForenkladePolynom(a,b){
+  const pa=forenklatPolynom(a),pb=forenklatPolynom(b);
+  if(!pa||!pb||pa.size!==pb.size)return false;
+  for(const [key,[n,d]] of pa){const other=pb.get(key);if(!other||n*other[1]!==other[0]*d)return false;}
+  return true;
+}
+
 function formatRatt(anv,facit,meta){
   const format=String(meta.format||"").toLowerCase();
   const tol=meta.tolerans;
@@ -5822,20 +5917,30 @@ function formatRatt(anv,facit,meta){
   if(!a) return false;
 
   switch(format){
-    case "heltal": {
-      const v=talAv(hogerled(a));
-      return Number.isInteger(v) ? v===Math.round(talAv(f)) : naraNog(v,talAv(f),tol);
+    case "förenklat_polynom":
+      {
+      const unit=String(meta.enhet||"");
+      const strip=x=>unit&&x.trim().endsWith(unit)?x.trim().slice(0,-unit.length).trim():x;
+      return sammaForenkladePolynom(strip(a),strip(f));
+      }
+    case "decimalform": {
+      // Kontrollera representationen och, om den anges, just den begärda enheten.
+      // En likvärdig tiopotens eller ursprungsenheten besvarar inte en omvandling.
+      const raw=stadaSvar(hogerled(a)).replace(/\s+/g,"");
+      const match=raw.match(/^([+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+))(.*)$/);
+      if(!match) return false;
+      const unit=String(meta.enhet??"").replace(/\s+/g,"");
+      if(match[2] && (!unit || match[2]!==unit)) return false;
+      return rentNumerisktSvar(match[1],f,meta);
     }
-    case "numeriskt": {
-
-      return naraNog(talAv(hogerled(a)),talAv(f),tol);
-    }
+    case "heltal": case "numeriskt":
+      return rentNumerisktSvar(a,f,meta);
     case "procent": {
       const v=talAv(hogerled(a.replace(/%/g,""))), fv=talAv(String(f).replace(/%/g,""));
       return naraNog(v,fv,tol) || naraNog(v*100,fv,tol) || naraNog(v,fv*100,tol);
     }
     case "bråk": case "brak": case "kvot":
-      return naraNog(brakAv(hogerled(a)),brakAv(f),tol);
+      return rentBrakSvar(a,f,meta);
     case "grader": {
       const v=talAv(hogerled(a.replace(/[°]/g,""))), fv=talAv(String(f).replace(/[°]/g,""));
       return naraNog(v,fv,tol);
@@ -7130,10 +7235,19 @@ function avvisaGenomgangForslag(){
 }
 
 // Poängreglerna måste hållas förenliga med serverns gränser vid ändringar.
-function xpFor(niva,correct,run){
+function arbetsfaktor(t){
+  // Bedöms redaktionellt; varken antal svarsrutor eller elevens tid styr XP.
+  const w=t?.arbetsinsats;
+  return w===2?2:w===3?3:1;
+}
+function xpFor(niva,correct,run,t){
   if(!correct) return 2;
   const n=String(niva||"E").toUpperCase();
-  return Math.round((XP_NIVA[n]||XP_NIVA.E)*seriefaktor(run));
+  const bas=XP_NIVA[n]||XP_NIVA.E;
+  const xp=Math.round(bas*arbetsfaktor(t)*seriefaktor(run));
+  // Samma högsta belöning per uppgift som tidigare A med maximal seriebonus.
+  // Serverimplementationen följer inte med denna fil; den tidigare klientens högsta belöning behålls.
+  return Math.min(Math.round(XP_NIVA.A*seriefaktor(12)),xp);
 }
 
 function finishAttempt(resultat){
@@ -7164,7 +7278,7 @@ function finishAttempt(resultat){
   }else{
     profile.run=0;
   }
-  const bas=xpFor(t.niva,true,profile.run);
+  const bas=xpFor(t.niva,true,profile.run,t);
   let xp = correct ? bas : Math.max(2,Math.round(bas*andel));
 
   if(state.hintUsed) xp=Math.max(1,Math.round(xp*.5));
@@ -7252,6 +7366,7 @@ function finishAttempt(resultat){
         </div>
         <span class="xpchip"${state.noXp?' style="background:var(--surface3);color:var(--ink3);box-shadow:none"':""}>${state.noXp?"0 XP":"+"+xp+" XP"}</span>
         ${(state.hintUsed && !state.noXp)?`<span class="xplapp">halverat · ledtråd</span>`:""}
+        ${(arbetsfaktor(t)>1 && ratt>0 && !state.noXp)?`<span class="xplapp">extra XP för arbetsinsats</span>`:""}
       </div>
       <div class="aacts">
         ${!correct?`<button class="btn" onclick="showSolution()">Visa lösning</button>`:""}

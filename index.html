@@ -16,10 +16,10 @@
   if(m) m.content = t==="dark" ? "#090F1B" : "#E7EEF9";
 })();
 </script>
-<title>Kunskapsgymmet – adaptiv träning i matematik och fysik</title>
+<title>Kunskapsgymmet – adaptiv träning i matematik, fysik och historia</title>
 
 
-<meta name="description" content="Träna matematik och fysik med uppgifter som anpassar sig efter hur det går för dig. Ma1, Ma2, fortsättning, fördjupning, Fysik 1 och Fysik 2.">
+<meta name="description" content="Träna matematik, fysik och historia med uppgifter som anpassar sig efter hur det går för dig. Kurser i matematik och fysik samt Historia nivå 1.">
 <link rel="canonical" href="https://kunskapsgymmet.se/">
 <meta name="robots" content="index, follow">
 
@@ -27,8 +27,8 @@
 <meta property="og:site_name" content="Kunskapsgymmet">
 <meta property="og:locale" content="sv_SE">
 <meta property="og:url" content="https://kunskapsgymmet.se/">
-<meta property="og:title" content="Kunskapsgymmet – adaptiv träning i matematik och fysik">
-<meta property="og:description" content="Träna matematik och fysik med uppgifter som anpassar sig efter hur det går för dig. Ma1, Ma2, fortsättning, fördjupning, Fysik 1 och Fysik 2.">
+<meta property="og:title" content="Kunskapsgymmet – adaptiv träning i matematik, fysik och historia">
+<meta property="og:description" content="Träna matematik, fysik och historia med uppgifter som anpassar sig efter hur det går för dig. Kurser i matematik och fysik samt Historia nivå 1.">
 <meta property="og:image" content="https://kunskapsgymmet.se/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -36,8 +36,8 @@
 <meta property="og:image:alt" content="Kunskapsgymmet – träna på rätt saker, på rätt nivå.">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kunskapsgymmet – adaptiv träning i matematik och fysik">
-<meta name="twitter:description" content="Träna matematik och fysik med uppgifter som anpassar sig efter hur det går för dig.">
+<meta name="twitter:title" content="Kunskapsgymmet – adaptiv träning i matematik, fysik och historia">
+<meta name="twitter:description" content="Träna matematik, fysik och historia med uppgifter som anpassar sig efter hur det går för dig.">
 <meta name="twitter:image" content="https://kunskapsgymmet.se/og-image.png">
 <meta name="twitter:image:alt" content="Kunskapsgymmet – träna på rätt saker, på rätt nivå.">
 
@@ -50,7 +50,7 @@
   "applicationCategory":"EducationalApplication",
   "operatingSystem":"Webbläsare",
   "inLanguage":"sv-SE",
-  "description":"Adaptiv träning i matematik och fysik för gymnasiet. Uppgifterna anpassas efter elevens resultat.",
+  "description":"Adaptiv träning i matematik, fysik och historia för gymnasiet. Uppgifterna anpassas efter elevens resultat.",
   "author":{"@type":"Person","name":"David Hedengren"},
   "offers":{"@type":"Offer","price":"0","priceCurrency":"SEK"}
 }
@@ -800,6 +800,8 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
   border:1px solid transparent;background:transparent;color:var(--accInk);
   transition:.22s var(--ease);
 }
+.kapactions{display:flex;align-items:center;gap:5px;flex:none}
+.kapactions .kaptrana{margin-left:0}
 .kaptrana:hover{border-color:transparent;background:var(--accSoft);color:var(--accInk)}
 .kaptrana:active{transform:scale(.96)}
 .chapter:not(.open) .kaptrana{display:none}
@@ -849,11 +851,13 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 @media(max-width:820px){
   .chapter-row{flex-wrap:wrap;padding-bottom:8px}.chapter-head{flex-basis:100%;padding-bottom:5px}
   .kap-kunskap{margin-left:26px}.kaptrana{margin-left:auto}
+  .kapactions{margin-left:auto}.kapactions .kaptrana{margin-left:0}
 }
 @media(max-width:460px){
   .chapter-head .rule,.chapter-head .kdots,.chapter-head .n{display:none}
   .chapter-head[aria-expanded="false"] .name{font-size:17px}
   .kap-kunskap{margin-left:0;justify-content:flex-start}.kaptrana{margin-left:0}
+  .kapactions{margin-left:0}
 }
 @media(max-width:400px){
   .kap-kunskap{height:auto;padding:6px 10px}
@@ -2919,9 +2923,15 @@ function chapterHead(kap,namn,omraden,tranaKnapp){
       <span class="kdots">${dots}</span><span class="n">${omraden.length}</span>
     </button>
     ${chapterKnowledge(kap)}
-    ${tranaKnapp===false?"":`
-      <button class="kaptrana valj" onclick="oppnaFlerval('${esc(String(kap))}')"
-        title="Välj flera områden att blanda">Träna flera</button>`}
+    ${tranaKnapp===false?"":(state.course==="hist"
+      ? `<span class="kapactions">
+          <button class="kaptrana valj" onclick="startChapter('${esc(String(kap))}')"
+            title="Blanda uppgifter från hela förmågan utan att få veta vilket verktyg som behövs">Blanda</button>
+          <button class="kaptrana valj" onclick="oppnaFlerval('${esc(String(kap))}')"
+            title="Välj vilka områden du vill blanda">Välj</button>
+         </span>`
+      : `<button class="kaptrana valj" onclick="oppnaFlerval('${esc(String(kap))}')"
+          title="Välj flera områden att blanda">Träna flera</button>`)}
   </div>`;
 }
 
@@ -4802,7 +4812,9 @@ function showAreaPicker(record){
       <div class="t">
         <button class="crumb" onclick="backToDashboard()"><span aria-hidden="true">←</span> Tillbaka</button>
         <h1>Punktträna</h1>
-        <p>Klicka ett delmoment för att träna det ensamt, eller siktet för att blanda flera.</p>
+        <p>${state.course==="hist"
+          ?"Träna ett område isolerat för att lära verktygen, eller använd Blanda i kapitlet när du vill avgöra själv vilket historiskt verktyg som behövs."
+          :"Klicka ett delmoment för att träna det ensamt, eller siktet för att blanda flera."}</p>
       </div>
     </div>
     ${kapitel.map(kap=>{
@@ -4864,6 +4876,17 @@ function familyMastery(t,cp){
   const fs=(Array.isArray(t.familj)?t.familj:[t.familj]).filter(Boolean);
   if(!fs.length) return mastery(cp.areas,t.omr);
   return Math.min(...fs.map(f=>mastery(cp.families,f)));
+}
+
+/* Historia kan ha breda, elevvänliga områden samtidigt som motorn håller
+   reda på vilka källkritiska verktyg uppgiften faktiskt krävde. Kriterierna
+   används bara diagnostiskt och visas aldrig före svaret. */
+function historyCriterionMastery(t,cp){
+  if(state.course!=="hist") return .55;
+  const ks=(Array.isArray(t.kriterier)?t.kriterier:[t.kriterier]).filter(Boolean);
+  if(!ks.length) return .55;
+  cp.histSkills ||= {};
+  return Math.min(...ks.map(k=>mastery(cp.histSkills,k)));
 }
 
 function nivaPrior(area,L){
@@ -5063,8 +5086,9 @@ function chooseTask(){
   const fresh=cands.filter(t=>!recent.has(t.id));
   if(fresh.length) cands=fresh;
   const scored=cands
-    .map(t=>({t,k:familyMastery(t,cp)*.6 + Math.random()*.9
-
+    .map(t=>({t,k:familyMastery(t,cp)*.52
+      + (state.course==="hist" ? historyCriterionMastery(t,cp)*.22 : 0)
+      + Math.random()*.9
       + (t.ursprungsId && state.senasteUrsprung.includes(t.ursprungsId) ? 1.5 : 0)}))
     .sort((a,b)=>a.k-b.k);
   const top=scored.slice(0,Math.max(1,Math.ceil(scored.length*.4)));
@@ -6707,7 +6731,7 @@ function vaxlaAlt(i){
   const fot=document.getElementById("altfot");
   if(fot) fot.textContent=state.altValda.size
     ? `${state.altValda.size} markerade`
-    : "Flera alternativ kan vara rätt.";
+    : "Markera det eller de alternativ du bedömer som riktiga.";
 }
 
 function renderAltTask(t){
@@ -6737,9 +6761,8 @@ function renderAltTask(t){
         <div class="tmeta">${levelChip(t)}<span class="tid">#${esc(t.ursprungsId||t.id)}</span></div>
         <div class="tbody">${t.t||""}${kallRad(t)}</div>
         <div class="azone" id="answer-zone">
-          ${kallorFor(t).length?`<h3>Källor</h3>${kallRad(t)}`:""}
           <h3>Ditt svar</h3>
-          <div class="altfot" id="altfot">Flera alternativ kan vara rätt.</div>
+          <div class="altfot" id="altfot">Markera det eller de alternativ du bedömer som riktiga.</div>
           <div class="altlista">${alternativ}</div>
           <div id="ledtrad-holder">${state.hintVisible?ledtradRuta(t):""}</div>
           <div class="aacts">
@@ -7081,11 +7104,14 @@ function finishAttempt(resultat){
   const cp=ensureCourseProfile();
   const fs=Array.isArray(t.familj)?t.familj:[t.familj].filter(Boolean);
   const niva=levelOf(t);
+  const kriterier=(Array.isArray(t.kriterier)?t.kriterier:[t.kriterier]).filter(Boolean);
+  if(state.course==="hist") cp.histSkills ||= {};
   delar.forEach(d=>{
     const v=state.noXp?false:d;
     updateMastery(cp.areas,t.omr,v);
     updateLevelStat(t.omr,niva,v);
     fs.forEach(f=>updateMastery(cp.families,f,v));
+    if(state.course==="hist") kriterier.forEach(k=>updateMastery(cp.histSkills,k,v));
   });
 
   if(correct && !state.noXp){
@@ -7095,6 +7121,7 @@ function finishAttempt(resultat){
   }
   cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj,
     hint:!!state.hintUsed,
+    ...(kriterier.length?{criteria:kriterier.slice(0,6)}:{}),
     ...(state.altMiss&&state.altMiss.length?{miss:state.altMiss.slice(0,4)}:{}),
     ...(t.ursprungsId?{ursprungsId:t.ursprungsId,deluppgift:t.deluppgift}:{})});
   cp.history=cp.history.slice(-300);

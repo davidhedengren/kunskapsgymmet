@@ -5,10 +5,20 @@
    uppgifterna utspelar sig i; gymmet består av det eleven ska kunna
    göra med innehållet.
 
-   Progressionen inom varje förmåga ligger i uppgiftens niva:
-     E = nivå 1  identifiera / benämna
-     C = nivå 2  jämföra och välja
-     A = nivå 3  väga argument mot varandra
+   Områdena är elevens synliga träningsingångar. I källkritiken är de
+   därför arbetsformer (lära verktyg, bedöma, jämföra, koppla källa till
+   frågeställning) snarare än ett enda källkritiskt kriterium per kort.
+   Vilka kriterier en uppgift faktiskt tränar ligger i uppgiftens
+   `kriterier` och kan användas diagnostiskt utan att ge eleven ledtråden.
+
+   Progressionen lagras fortfarande med de interna koderna E/C/A för att
+   vara kompatibel med den gemensamma motorn:
+     E = nivå 1  identifiera / tillämpa ett tydligt verktyg
+     C = nivå 2  jämföra / välja mellan rimliga bedömningar
+     A = nivå 3  väga belägg och argument mot varandra
+
+   Koderna är svårighetsgrader i motorn, inte betygssteg. I gränssnittet
+   visas endast Nivå 1, Nivå 2 och Nivå 3.
    ===================================================================== */
 
 var KAPNAMNHIST = {
@@ -22,40 +32,38 @@ var KAPNAMNHIST = {
 
 var OMRHIST = {
   1: {
-    kk_akthet:        "Äkthet och tillkomst",
-    kk_narhet:        "Närhet i tid och rum",
-    kk_beroende:      "Beroende och tradering",
-    kk_tendens:       "Tendens och urval",
-    kk_anvandbarhet:  "Källans användbarhet"
+    kk_grunder:  "Källkritiska verktyg",
+    kk_bedom:    "Bedöma en källa",
+    kk_jamfora:  "Jämföra och pröva källor",
+    kk_fraga:    "Källa och frågeställning"
   },
   2: {
-    ok_typer:         "Bakgrund, utlösande faktor, konsekvens",
-    ok_kedjor:        "Orsaker som samverkar",
-    ok_konsekvens:    "Konsekvenser på kort och lång sikt"
+    ok_typer:      "Bakgrund och utlösande faktor",
+    ok_kedjor:     "Samverkande orsaker",
+    ok_konsekvens: "Konsekvenser – för vem och när?"
   },
   3: {
-    as_aktor:         "Aktörens handlingsutrymme",
-    as_struktur:      "Strukturella villkor",
-    as_samspel:       "Samspelet aktör och struktur"
+    as_aktor:    "Handlingsutrymme och val",
+    as_struktur: "Strukturer som möjliggör och begränsar",
+    as_samspel:  "Aktör och struktur tillsammans"
   },
   4: {
-    fk_forandring:    "Vad förändras?",
-    fk_kontinuitet:   "Vad består?",
-    fk_periodisering: "Periodisering och brytpunkter"
+    fk_forandring_kontinuitet: "Förändring och kontinuitet",
+    fk_periodisering:           "Periodisering och brytpunkter"
   },
   5: {
-    hb_identifiera:   "Är det historiebruk?",
-    hb_typer:         "Typer av historiebruk",
-    hb_syfte:         "Syfte och avsändare"
+    hb_identifiera: "Känna igen historiebruk",
+    hb_typer:       "Syfte och typer av historiebruk",
+    hb_syfte:       "Analysera historiebruk"
   },
   6: {
-    ha_tolkning:      "Perspektiv och tolkning",
-    ha_belagg:        "Från belägg till slutsats",
-    ha_jamfora:       "Jämföra historikers argument"
+    ha_belagg:   "Belägg och slutsats",
+    ha_tolkning: "Tolkningar och argument"
   }
 };
 
-/* Inga sammanslagna kort ännu — varje område är sitt eget kort. */
+/* Inga sammanslagna kort behövs här. Blandad träning görs i stället på
+   kapitelnivå, så att eleven själv måste avgöra vilket verktyg som behövs. */
 var GRUPPHIST = {};
 
 /* Inga spårspecifika kapitelnamn (kursen har inga spår). */

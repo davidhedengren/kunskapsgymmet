@@ -587,6 +587,13 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .gate-lank:hover{text-decoration:underline}
 .btn[aria-busy="true"]{opacity:.6;pointer-events:none}
 
+/* ── Global användningsstatistik ── */
+.kg-globalstats{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:22px 0 0;color:var(--ink3);font-size:13px;font-weight:600}
+.kg-globalstats[hidden]{display:none!important}
+.kg-globalstats .statpunkt{display:inline-flex;align-items:center;gap:7px;padding:7px 11px;border:1px solid var(--hair);border-radius:999px;background:var(--surface);box-shadow:0 1px 2px rgba(11,33,51,.04)}
+.kg-globalstats .statpunkt b{color:var(--ink);font-variant-numeric:tabular-nums}
+.kg-globalstats .statpunkt i{width:6px;height:6px;border-radius:50%;background:var(--acc);display:block}
+
 .hero{padding:56px 4px 34px;max-width:760px}
 .hero h1{font-size:clamp(34px,5.4vw,58px);line-height:1.02;letter-spacing:-.05em;margin:0}
 .hero h1 em{font-style:normal;color:var(--ink3)}
@@ -2161,6 +2168,47 @@ async function cloudRpc(action,data=null,revision=null){
   }
   return response.json();
 }
+// Aggregerad statistik för betan. Själva räknarna ligger server-side i Supabase.
+// Om SQL-migreringen ännu inte är installerad döljs statistiken automatiskt.
+async function kgRegistreraForsok(){
+  if(!MOLN_PA() || !session || !await giltigSession()) return;
+  try{
+    await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_record_attempt",{
+      method:"POST",headers:sbHeaders(true),body:"{}"
+    });
+  }catch(_){ /* statistik får aldrig störa elevens träning */ }
+}
+async function hamtaGlobalStatistik(){
+  if(!MOLN_PA()) return null;
+  try{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_public_stats",{
+      method:"POST",headers:sbHeaders(false),body:"{}"
+    });
+    if(!r.ok) return null;
+    const d=await r.json();
+    return {
+      anvandare:Number(d?.users||0),
+      uppgifter:Number(d?.attempts||0),
+      aktiva7:Number(d?.active_7d||0),
+      aktiva30:Number(d?.active_30d||0)
+    };
+  }catch(_){ return null; }
+}
+function formatStatTal(n){ return new Intl.NumberFormat("sv-SE").format(Number(n)||0); }
+async function uppdateraGlobalStatistik(){
+  const el=document.getElementById("kg-globalstats");
+  if(!el) return;
+  const d=await hamtaGlobalStatistik();
+  if(!d) return;
+  const users=document.getElementById("kg-stat-users");
+  const attempts=document.getElementById("kg-stat-attempts");
+  if(users) users.textContent=formatStatTal(d.anvandare);
+  if(attempts) attempts.textContent=formatStatTal(d.uppgifter);
+  el.hidden=false;
+}
+// Praktiskt för admin/debugg i webbläsarkonsolen.
+window.kgStatistik=hamtaGlobalStatistik;
+
 function syncMessage(code){
   if(code==="name_taken") return "Namnet är upptaget. Prova ett annat.";
   if(code==="name_format") return "Använd 3–16 bokstäver, siffror, bindestreck eller understreck.";
@@ -3865,6 +3913,10 @@ function renderHome(){
     <section class="hero">
       <h1>Träna på rätt saker.<br><em>På rätt nivå.</em></h1>
       <p>Välj kurs, välj område och börja. Nivån ställer in sig efter hur det går för dig.</p>
+      <div class="kg-globalstats" id="kg-globalstats" hidden aria-label="Kunskapsgymmet i siffror">
+        <span class="statpunkt"><i></i><b id="kg-stat-users">0</b> registrerade användare</span>
+        <span class="statpunkt"><i></i><b id="kg-stat-attempts">0</b> lösta uppgifter</span>
+      </div>
     </section>
     <section class="course-grid stagger">
       ${COURSE_ORDER.map(id=>{
@@ -3907,6 +3959,7 @@ function renderHome(){
     </section>
   </main>`;
   afterRender();
+  uppdateraGlobalStatistik();
 }
 
 async function loadScript(src){
@@ -7083,6 +7136,8 @@ function finishAttempt(resultat){
 
   touchDay();
   profile.attempts++;
+  // Fire-and-forget: global statistik får aldrig blockera ett svar.
+  kgRegistreraForsok();
   if(correct){
     profile.correct++;
     profile.run=(profile.run||0)+1;

@@ -666,6 +666,69 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .kodhjalp{margin-top:9px;font-size:12.5px;color:var(--ink3);min-height:17px}
 .kodhjalp.fel{color:var(--bad)}
 
+/* ---- Källor som öppnas i egen ruta ---- */
+.kallrad{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 4px}
+.kallknapp{
+  display:inline-flex;align-items:center;gap:9px;text-align:left;
+  padding:9px 14px 9px 11px;border-radius:13px;
+  border:1px solid color-mix(in srgb,var(--acc) 26%,var(--hair));
+  background:var(--accSoft);color:var(--accInk);
+  font-family:var(--ui);font-size:13px;font-weight:600;letter-spacing:-.01em;
+  transition:.18s var(--ease);
+}
+.kallknapp:hover{background:color-mix(in srgb,var(--acc) 16%,transparent);transform:translateY(-1px)}
+.kallknapp:active{transform:translateY(0)}
+.kallknapp .kallbet{
+  flex:none;width:23px;height:23px;border-radius:8px;display:grid;place-items:center;
+  background:var(--acc);color:#fff;font-size:12px;font-weight:800;
+}
+.kallknapp .kallnamn{display:block}
+.kallknapp .kallmeta{display:block;font-weight:500;font-size:11.5px;color:var(--ink3);margin-top:1px}
+.kallknapp.last{opacity:.72}
+
+.kallkort{width:min(660px,100%)}
+.kall-flik{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 14px}
+.kall-flik button{
+  padding:6px 12px;border-radius:10px;border:1px solid var(--hair);
+  background:var(--surface2);color:var(--ink2);font-size:12.5px;font-weight:600;
+}
+.kall-flik button.nu{background:var(--acc);border-color:var(--acc);color:#fff}
+.kall-text{
+  padding:18px 20px;border-radius:18px;border:1px solid var(--hair);
+  border-left:3px solid var(--acc);background:var(--surface2);
+  font-family:var(--read);font-size:15.5px;line-height:1.72;letter-spacing:0;color:var(--ink);
+}
+.kall-text p{margin:0 0 13px}
+.kall-text p:last-child{margin-bottom:0}
+.kall-text blockquote{margin:0;padding:0}
+.kall-om{
+  margin-top:14px;padding:14px 16px;border-radius:16px;
+  border:1px solid var(--hair);background:var(--surface);
+  font-family:var(--read);font-size:13.5px;line-height:1.6;letter-spacing:0;color:var(--ink2);
+}
+.kall-om .kall-omlbl{
+  display:block;font-family:var(--ui);font-size:11px;font-weight:700;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--ink3);margin-bottom:7px;
+}
+.kall-om p{margin:0 0 8px}
+.kall-om p:last-child{margin-bottom:0}
+.kall-referens{
+  margin-top:12px;font-family:var(--ui);font-size:11.5px;line-height:1.5;color:var(--ink3);
+}
+.kall-stampel{
+  display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:99px;
+  font-family:var(--ui);font-size:11px;font-weight:700;letter-spacing:.04em;
+  border:1px solid var(--hair2);background:var(--surface2);color:var(--ink3);
+}
+.kall-stampel.autentisk{
+  border-color:color-mix(in srgb,var(--good) 40%,var(--hair));
+  background:var(--goodSoft);color:var(--good);
+}
+.kall-stampel.konstruerad{
+  border-color:color-mix(in srgb,var(--warn) 40%,var(--hair));
+  background:var(--warnSoft);color:var(--warn);
+}
+
 /* ---- Flervalsuppgifter (historia m.fl.) ---- */
 .kalla{
   margin:14px 0;padding:15px 17px;border-radius:16px;
@@ -2260,7 +2323,8 @@ const state={
   openChapters:null, partResults:[], partIndex:0, noXp:false,
   toppSort:"xp",
   lastIds:[], solutionShown:false, answered:false, ggForslag:null,
-  altValda:null, altMiss:null, altOrdning:null, altOrdningId:null
+  altValda:null, altMiss:null, altOrdning:null, altOrdningId:null,
+  kalla:null
 };
 
 const loadedScripts=new Set();
@@ -3296,6 +3360,10 @@ function toggleTip(el,ev){
   const ruta=document.getElementById("medalinfo"), tips=el.querySelector(".mtip");
   if(ruta && tips){ ruta.innerHTML=tips.innerHTML; ruta.hidden=false; }
 }
+document.addEventListener("keydown",e=>{
+  if(e.key==="Escape" && document.getElementById("kallruta")) stangKalla();
+});
+
 function stängTips(){
   document.querySelectorAll(".medal.show").forEach(m=>m.classList.remove("show"));
   const ruta=document.getElementById("medalinfo");
@@ -5222,6 +5290,7 @@ function nextTask(){
   state.hintUsed=false;state.hintVisible=false;
   state.altValda=new Set();state.altMiss=null;
   state.altOrdning=null;state.altOrdningId=null;
+  stangKalla();
   state.lastIds.push(t.id);
   if(state.lastIds.length>12) state.lastIds.shift();
   sparaPagaendePass();
@@ -6472,6 +6541,123 @@ function renderTraining(){
    XP- och färdighetsmotorn som en lista deluppgifter, så ett rätt av två
    ger halva poängen och alla rätt ger full.
    ===================================================================== */
+/* =======================================================================
+   Källor i egen ruta
+
+   En uppgift kan bära med sig sina källor:
+
+     kallor:[{ bet:"A", titel:"...", typ:"Brev, 1719",
+               akthet:"autentisk" | "konstruerad",
+               text:`<p>...</p>`,          // hela källan, inte ett referat
+               om:`<p>...</p>`,            // vad eleven vet om tillkomsten
+               referens:"..." }]
+
+   Poängen är att källan ska gå att läsa i sin helhet medan uppgiften
+   besvaras. En källa som bara sammanfattas i frågetexten går inte att
+   analysera — då återstår bara att känna igen etiketten.
+   ===================================================================== */
+function kallorFor(t){
+  const k=t?.kallor;
+  return Array.isArray(k) ? k.filter(Boolean) : [];
+}
+function kallBeteckning(k,i){ return String(k.bet || String.fromCharCode(65+i)); }
+
+function kallRad(t,plats){
+  const kallor=kallorFor(t);
+  if(!kallor.length) return "";
+  return `<div class="kallrad">${kallor.map((k,i)=>`
+    <button class="kallknapp" type="button" onclick="oppnaKalla(${i})"
+      title="Öppna källan i eget fönster">
+      <span class="kallbet" aria-hidden="true">${esc(kallBeteckning(k,i))}</span>
+      <span>
+        <span class="kallnamn">${esc(k.titel||("Källa "+kallBeteckning(k,i)))}</span>
+        ${k.typ?`<span class="kallmeta">${esc(k.typ)}</span>`:""}
+      </span>
+    </button>`).join("")}</div>`;
+}
+
+function oppnaKalla(i){
+  const t=state.currentTask;
+  const kallor=kallorFor(t);
+  if(!kallor.length) return;
+  stangKalla();
+  state.kalla={i:Math.max(0,Math.min(i|0,kallor.length-1)),uppgift:t.id};
+  const el=document.createElement("div");
+  el.className="modal"; el.id="kallruta";
+  el.innerHTML=`<div class="modal-kort kallkort" role="dialog" aria-modal="true"
+      aria-label="Källa">
+      <div class="modal-topp">
+        <div>
+          <div class="lbl kall-lbl"></div>
+          <h2 class="kall-rubrik"></h2>
+        </div>
+        <button class="iconbtn" onclick="stangKalla()" aria-label="Stäng">✕</button>
+      </div>
+      <div class="kall-innehall"></div>
+      <div class="modal-fot">
+        <span class="spacer"></span>
+        <button class="btn primary" onclick="stangKalla()">Tillbaka till frågan</button>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangKalla(); });
+  ritaKalla();
+  requestAnimationFrame(()=>el.classList.add("visa"));
+}
+function stangKalla(){
+  state.kalla=null;
+  const el=document.getElementById("kallruta");
+  if(!el) return;
+  el.removeAttribute("id");
+  el.classList.remove("visa");
+  setTimeout(()=>el.remove(),250);
+}
+function kallGa(i){
+  if(!state.kalla) return;
+  state.kalla.i=i;
+  ritaKalla();
+  const kort=document.querySelector("#kallruta .modal-kort");
+  if(kort) kort.scrollTop=0;
+}
+function ritaKalla(){
+  const ruta=document.getElementById("kallruta");
+  const st=state.kalla;
+  if(!ruta||!st) return;
+  const host=ruta.querySelector(".kall-innehall");
+  if(!host) return;
+  const kallor=kallorFor(state.currentTask);
+  const k=kallor[st.i];
+  if(!k) return;
+  const bet=kallBeteckning(k,st.i);
+  const lbl=ruta.querySelector(".kall-lbl");
+  const rub=ruta.querySelector(".kall-rubrik");
+  if(lbl) lbl.textContent="Källa "+bet+(k.typ?" · "+k.typ:"");
+  if(rub) rub.textContent=k.titel||("Källa "+bet);
+
+  /* Äkthetsmärkningen är till för läraren lika mycket som för eleven:
+     en konstruerad källa får aldrig passera som ett autentiskt citat. */
+  const stampel = k.akthet==="autentisk"
+    ? `<span class="kall-stampel autentisk">Autentisk källa</span>`
+    : k.akthet==="konstruerad"
+      ? `<span class="kall-stampel konstruerad">Konstruerad källa</span>`
+      : "";
+
+  const flikar = kallor.length>1
+    ? `<div class="kall-flik">${kallor.map((x,i)=>
+        `<button class="${i===st.i?"nu":""}" onclick="kallGa(${i})">Källa ${
+          esc(kallBeteckning(x,i))}</button>`).join("")}</div>`
+    : "";
+
+  host.innerHTML=`
+    ${flikar}
+    ${stampel?`<div style="margin-bottom:12px">${stampel}</div>`:""}
+    <div class="kall-text">${k.text||""}</div>
+    ${k.om?`<div class="kall-om">
+      <span class="kall-omlbl">Det här vet du om källan</span>${k.om}</div>`:""}
+    ${k.referens?`<p class="kall-referens">${esc(k.referens)}</p>`:""}`;
+  renderMath(host);
+}
+
 function arAlt(t){
   return String(t?.svarstyp||"").toLowerCase()==="alternativ"
       && Array.isArray(t.alternativ) && t.alternativ.length>0;
@@ -6549,8 +6735,9 @@ function renderAltTask(t){
       </div>
       <article class="task">
         <div class="tmeta">${levelChip(t)}<span class="tid">#${esc(t.ursprungsId||t.id)}</span></div>
-        <div class="tbody">${t.t||""}</div>
+        <div class="tbody">${t.t||""}${kallRad(t)}</div>
         <div class="azone" id="answer-zone">
+          ${kallorFor(t).length?`<h3>Källor</h3>${kallRad(t)}`:""}
           <h3>Ditt svar</h3>
           <div class="altfot" id="altfot">Flera alternativ kan vara rätt.</div>
           <div class="altlista">${alternativ}</div>

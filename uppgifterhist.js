@@ -39,357 +39,563 @@ var BANKHIST = [
   id:"hi-kk-101", kap:1, omr:"kk_tendens",
   familj:["tendens_vs_anvandbarhet","narhet_i_tid"], niva:"E",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källa A · Dagbok, vintern 1718–19</div>
-    <p>Vi har nu gått fjorton dagar utan bröd. Många av mina kamrater blev
-    liggande i snön och orkade inte upp igen. Officerarna red, vi gick. Den
-    som klagade fick höra att kungen visste bäst.</p>
-    <div class="kall-ref">Referat i modern svenska av anteckningar från en
-    karolinsk soldat under fälttåget mot Norge. Förkortat.</div>
-  </div>
-  <p class="fragan">En historiker vill undersöka <em>hur meniga svenska
-  soldater upplevde fälttåget</em>. Vilka bedömningar av källan är
-  rimliga?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Dagboksanteckningar från fälttåget mot Norge",
+    typ:"Dagbok, vintern 1718–19",
+    akthet:"konstruerad",
+    text:`<p><em>Den 3 januari.</em> Vi har nu gått fjorton dagar utan
+    bröd. Det som fanns kvar av mjölet blandades med bark. Kvällen kom med
+    yrväder och vi låg i snön utan eld, ty ingen ved stod att finna på
+    fjället.</p>
+    <p><em>Den 5 januari.</em> I morse fattades sexton man av vårt
+    kompani. Några blev liggande och orkade icke upp igen, hur vi än ropade
+    på dem. Jag såg en av mina kamrater sitta upprätt mot en sten såsom
+    han sovit, men han var stelnad.</p>
+    <p><em>Den 7 januari.</em> Officerarna rida, vi gå. Löjtnanten har
+    fått sig en fäll av ett hemman i dalen, och vi andra ingenting. Den som
+    klagade fick höra att Hans Majestät vet bäst vad riket tarvar, och att
+    knorr är detsamma som förräderi.</p>
+    <p><em>Den 11 januari.</em> Gud vet varför vi fördes hit. Jag har
+    tjänat i nio år och aldrig sett något likt detta.</p>`,
+    om:`<p>Texten är skriven som en menig soldats dagbok under fälttåget
+    mot Norge vintern 1718–19, då stora delar av den svenska armén
+    förfrös under återtåget.</p>
+    <p>Anteckningarna är daterade dag för dag under pågående marsch.</p>`,
+    referens:"Konstruerad källa. Texten är inte ett äkta dokument utan är skriven utifrån återkommande drag i bevarade karolinska dagböcker och fångberättelser. Använd den för att öva bedömning, aldrig som belägg."
+  }],
+  t:`<p>En historiker vill undersöka <em>hur meniga svenska soldater
+  upplevde fälttåget</em>.</p>
+  <p class="fragan">Vilka bedömningar av källan är rimliga?</p>`,
   alternativ:[
-    {txt:"Källan är oanvändbar eftersom soldaten uppenbart är partisk mot befälen.",
+    {txt:"Källan är användbar just för den frågan — den ger en deltagares egen upplevelse. Att det är <em>en</em> soldat gör däremot att den inte visar hur alla upplevde fälttåget.",
+     ratt:true,
+     kommentar:"Tendensen är här inte ett hinder utan innehållet. Begränsningen ligger i urvalet: en röst."},
+    {txt:"Att anteckningarna fördes dag för dag under marschen stärker dem, eftersom minnet inte hunnit formas om av vad som hände sedan.",
+     ratt:true,
+     kommentar:"Närhet i tid är ett styrkeskäl. Jämför med en memoar skriven trettio år senare, när utgången är känd."},
+    {txt:"Källan är oanvändbar eftersom soldaten uppenbart är partisk mot sina befäl.",
      ratt:false, miss:"tendens_som_diskvalificering",
-     kommentar:"En tendentiös källa är inte en dålig källa. Tendensen berättar något i sig: att motsättningen mellan meniga och befäl fanns och upplevdes."},
-    {txt:"Källan är användbar just för den här frågan — den ger en deltagares egen upplevelse. Att det är <em>en</em> soldat gör däremot att den inte automatiskt visar hur alla upplevde fälttåget.",
-     ratt:true,
-     kommentar:"Precis. Frågan gäller upplevelsen, och då är soldatens perspektiv poängen. Urvalet är däremot en enda person."},
-    {txt:"Att anteckningarna gjordes under fälttåget stärker dem, eftersom minnet inte hunnit formas om av vad som hände sedan.",
-     ratt:true,
-     kommentar:"Närhet i tid är ett styrkeskäl. Det gör inte källan sann, men minskar risken för efterhandskonstruktion."},
-    {txt:"Källan är en sekundärkälla, eftersom soldaten själv var med om det han beskriver.",
-     ratt:false, miss:"primar_sekundar_forvaxlad",
-     kommentar:"Tvärtom. Att han var med gör den till en primärkälla för fälttåget."},
-    {txt:"Källan är tillförlitlig eftersom den är samtida, och kan därför användas rakt av.",
-     ratt:false, miss:"samtida_lika_med_sant",
-     kommentar:"Samtidighet är ett argument bland flera, inte en kvalitetsstämpel. En samtida källa kan minnas fel, överdriva eller bara se en liten del."},
-    {txt:"Källan bör avfärdas eftersom den är förkortad och återgiven i modern svenska.",
-     ratt:false, miss:"bearbetning_som_diskvalificering",
-     kommentar:"Bearbetningen är värd att notera — ordval kan ha glidit — men den gör inte innehållet oanvändbart. Du går till originalet när ordvalen spelar roll."}
+     kommentar:"En tendentiös källa är inte en dålig källa. Att motsättningen mot befälen finns där är i sig en historisk uppgift."},
+    {txt:"Källan är en sekundärkälla, eftersom soldaten skriver om något han själv var med om.",
+     ratt:false, miss:"primar_sekundar_forvaxlat",
+     kommentar:"Tvärtom. Den som var med och själv berättar är en förstahandskälla. Påståendet motsäger sig självt."},
+    {txt:"Källan är tillförlitlig eftersom den är samtida och kan därför användas rakt av.",
+     ratt:false, miss:"samtida_lika_med_tillforlitlig",
+     kommentar:"Samtidighet gör källan närmare, inte automatiskt riktig. En soldat kan ha fel om hur många som fattades."},
+    {txt:"Uppgiften om att sexton man saknades ett visst datum kan användas för att räkna ut hur många som dog under hela återtåget.",
+     ratt:false, miss:"enskild_uppgift_generaliserad",
+     kommentar:"Ett kompani en morgon säger inget säkert om hela armén. Till den frågan behövs rullor och mönstringslistor."}
   ],
-  ledtrad:"Fråga dig först: vad vill historikern veta? Användbarhet avgörs alltid mot en frågeställning.",
-  s:`<p>Tendens diskvalificerar inte en källa. Den styr vad källan kan
-  användas <em>till</em>. Här är frågan hur soldater upplevde kriget — då
-  är soldatens eget perspektiv precis det som efterfrågas.</p>
-  <p>Det som däremot begränsar källan är urvalet: en enskild röst.
-  Närheten i tid är ett styrkeskäl, inte en garanti.</p>`
+  s:`<p>Tendens diskvalificerar inte. Den styr vad källan kan användas
+  <em>till</em>. Är frågan hur soldater upplevde kriget är soldatens eget
+  perspektiv precis det som efterfrågas.</p>
+  <p>Det som faktiskt begränsar källan här är något annat: en enda röst,
+  och siffror som inte kan generaliseras.</p>`,
+  ledtrad:"Fråga dig först vad historikern vill veta. Användbarhet avgörs alltid mot en frågeställning."
 },
 
 {
   id:"hi-kk-102", kap:1, omr:"kk_tendens",
   familj:["tendens_bestallare","kvarleva_vs_berattande"], niva:"E",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källa A · Krönika, 1560-talet</div>
-    <p>Krönikan skildrar Gustav Vasas flykt undan danskarna och hans väg till
-    makten. Motståndarna framställs som trolösa, och att flykten lyckades
-    förklaras med Guds försyn.</p>
-    <div class="kall-ref">Referat. Krönikan skrevs av Peder Swart, Gustav
-    Vasas hovpredikant, på kungens uppdrag.</div>
-  </div>
-  <p class="fragan">Vilka bedömningar av krönikan är rimliga?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Peder Swarts krönika om Gustav Vasa",
+    typ:"Krönika, 1560-talet",
+    akthet:"autentisk",
+    text:`<p>Sedan herr Gustav förnummit vad som skett i Stockholm, och
+    huru den blodgirige tyrannen låtit halshugga så många av rikets bästa
+    män, drog han undan i skogarna i Dalarna, där han måste tjäna som en
+    ringa dräng och tröska i logen.</p>
+    <p>Konung Kristierns fogdar sökte honom med stor flit, och mången gång
+    var han dem så nära att han hörde deras röster. Men Gud, som hade
+    utsett honom till att frälsa sitt folk, förblindade deras ögon så att
+    de icke funno honom.</p>
+    <p>De danske hade svurit dyra eder om fred och försäkran, men höllo
+    intet. Så är deras art, att de med sötma i munnen bära svek i hjärtat.
+    Och när dalkarlarna omsider förnummo vad som timat i Stockholm,
+    ångrade de sig bitterligen att de icke genast följt herr Gustav, och
+    sände efter honom två snabba män på skidor.</p>`,
+    om:`<p>Peder Swart var Gustav Vasas hovpredikant och senare biskop.
+    Krönikan skrevs på 1560-talet, alltså fyra decennier efter de
+    händelser den skildrar, och på kungens eget uppdrag.</p>
+    <p>Gustav Vasa hade då regerat i fyrtio år och behövde en berättelse
+    som förklarade varför just han blivit kung.</p>`,
+    referens:"Peder Swart, Konung Gustaf I:s krönika. Sammandrag i modern svenska; inte ordagrant citat."
+  }],
+  t:`<p class="fragan">Vilka bedömningar av krönikan är rimliga?</p>`,
   alternativ:[
     {txt:"Krönikan har en tydlig tendens: den är beställd av den person den handlar om. Uppgifter som gynnar Gustav Vasa måste stödjas av annat material innan de används som fakta.",
      ratt:true,
-     kommentar:"Ja. Beställarförhållandet är det första du noterar."},
+     kommentar:"Beställarens intresse är det första du ska leta efter. Här sammanfaller beställare och huvudperson."},
     {txt:"Krönikan är en förstklassig källa till en annan fråga: hur Gustav Vasa ville att hans maktövertagande skulle uppfattas.",
      ratt:true,
-     kommentar:"Här används krönikan som kvarleva — en rest av det den var med om att skapa, nämligen en bild av kungen."},
-    {txt:"Krönikan är värdelös eftersom den är beställd.",
+     kommentar:"Som kvarleva av en maktkamp om historieskrivningen är den svår att slå. Byt fråga, så byter källan värde."},
+    {txt:"Att Gud beskrivs ingripa till Gustavs förmån är ett drag som säger mer om textens syfte än om vad som hände i Dalarna.",
+     ratt:true,
+     kommentar:"Precis — försynen är ett argument, inte en iakttagelse. Den som räddas av Gud är utsedd att härska."},
+    {txt:"Krönikan är värdelös eftersom den är beställd av kungen.",
      ratt:false, miss:"tendens_som_diskvalificering",
-     kommentar:"Beställd betyder styrd, inte tom. Den är utmärkt för frågan om självbild."},
-    {txt:"Krönikan är en primärkälla till Gustav Vasas flykt 1520–21, eftersom den handlar om den.",
-     ratt:false, miss:"handlar_om_lika_med_primar",
-     kommentar:"Vad en källa handlar om avgör inte om den är primär. Krönikan skrevs fyrtio år senare av någon som inte var med."},
-    {txt:"Eftersom krönikan skrevs av en präst kan man utgå från att den är sanningsenlig.",
-     ratt:false, miss:"auktoritet_lika_med_sant",
-     kommentar:"Yrke och ställning är ingen garanti. Här är hovpredikanten dessutom beroende av kungen."},
-    {txt:"Att krönikan skrevs långt efter händelserna spelar ingen roll, eftersom den bygger på Gustav Vasas egna minnen.",
-     ratt:false, miss:"beroende_missad",
-     kommentar:"Det är ett beroendeproblem, inte en garanti: uppgifterna kommer från huvudpersonen själv och har dessutom passerat fyrtio år."}
+     kommentar:"Samma feltänk som alltid. Beställd betyder styrd, inte tom."},
+    {txt:"Krönikan är en förstahandskälla till flykten 1520–21, eftersom Peder Swart kände Gustav Vasa personligen.",
+     ratt:false, miss:"narhet_till_person_lika_med_narhet_till_handelse",
+     kommentar:"Swart var inte med i Dalarna 1520. Att känna någon fyrtio år senare gör inte hans berättelse till ett ögonvittne."},
+    {txt:"Att krönikan skrevs fyrtio år efteråt spelar mindre roll, eftersom den bygger på Gustav Vasas egna minnen.",
+     ratt:false, miss:"minnets_palitlighet",
+     kommentar:"Fyrtio års minne är i sig ett källkritiskt problem — och här dessutom ett minne med starkt intresse av en viss version."}
   ],
-  s:`<p>En källa som är styrd av sin beställare kan sällan användas rakt av
-  som <em>berättande</em> källa om vad som hände. Men som <em>kvarleva</em>
-  av en maktkamp om historieskrivningen är den ofta oöverträffad.</p>
-  <p>Skilj på "vad säger källan hände?" och "vad är källan i sig ett spår
-  av?".</p>`
+  s:`<p>Skilj på två frågor: <em>vad säger källan hände?</em> och <em>vad
+  är källan i sig ett spår av?</em></p>
+  <p>Som berättande källa om 1520 är krönikan svag. Som kvarleva av
+  1560-talets officiella historieskrivning är den utmärkt.</p>`
 },
 
 {
   id:"hi-kk-103", kap:1, omr:"kk_beroende",
   familj:["beroende_tradering","avstand_i_tid"], niva:"C",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källa A · Kungasagor, ca 1230</div>
-    <p>Snorre Sturlassons <em>Heimskringla</em> skildrar norska kungar på
-    900- och 1000-talen, med detaljerade scener och repliker. Snorre bygger
-    på äldre skaldekväden och på muntlig tradition.</p>
-    <div class="kall-ref">Nedtecknat på Island omkring 1230.</div>
-  </div>
-  <p class="fragan">Vilka slutsatser om källäget är rimliga?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Snorre Sturlasson om slaget vid Stiklestad år 1030",
+    typ:"Kungasaga, nedtecknad ca 1230",
+    akthet:"autentisk",
+    text:`<p>Konungen hade gått fram ur sköldborgen framför fylkingen. Då
+    kom Torsten Knarresmed emot honom och högg med sin yxa i konungens
+    vänstra ben ovan knäet. Finn Arnesson fällde genast Torsten.</p>
+    <p>Vid det såret lutade konungen sig mot en sten, kastade svärdet ifrån
+    sig och bad Gud hjälpa sig. Då stack Tore Hund till honom med spjutet,
+    och stöten gick in under brynjan och upp i buken.</p>
+    <p>Så säger skalden Sigvat om detta:</p>
+    <blockquote><p><em>Dyrt fick Tore köpa<br>
+    den dust han drev med kungen —<br>
+    föga fromma följde<br>
+    den färd som hunden valde.</em></p></blockquote>
+    <p>Solen var klar innan detta skedde, men sedan blev himlen mörk som
+    om natten kommit, och den blev åter ljus då konungen fallit.</p>`,
+    om:`<p>Snorre Sturlasson var islänning, hövding och lagman. Han
+    nedtecknade Heimskringla omkring 1230, alltså två sekler efter
+    Stiklestad.</p>
+    <p>Snorre anger själv att han bygger dels på muntlig tradition, dels
+    på skaldekväden som diktades av män i kungarnas närhet. Skaldekväden
+    är bunden vers med fasta regler för stavrim och stavelsetal.</p>
+    <p>Olav Haraldsson helgonförklarades kort efter slaget. Berättelsen om
+    honom traderades därefter i kyrklig miljö.</p>`,
+    referens:"Snorre Sturlasson, Heimskringla, Olav den heliges saga. Sammandrag i modern svenska; inte ordagrant citat."
+  }],
+  t:`<p class="fragan">Vilka slutsatser om källäget är rimliga?</p>`,
   alternativ:[
-    {txt:"Det ligger 250–300 år mellan händelserna och nedteckningen. Uppgifterna har passerat många led muntligt, och varje led kan ha ändrat dem.",
+    {txt:"Det ligger omkring 200 år mellan slaget och nedteckningen. Uppgifterna har passerat många led muntligt, och varje led kan ha ändrat dem.",
      ratt:true,
-     kommentar:"Avstånd i tid plus muntlig tradering är kärnan i problemet."},
-    {txt:"Skaldekvädena kan ändå ha bevarat vissa uppgifter förhållandevis väl, eftersom bunden vers med rim och stavrim är svårare att ändra i än fri berättelse.",
+     kommentar:"Avstånd i tid är här det tyngsta problemet — särskilt för repliker och detaljer i själva stridsögonblicket."},
+    {txt:"Skaldestrofen kan ha bevarats bättre än den omgivande prosan, eftersom bunden vers med stavrim och fast stavelsetal är svårare att ändra i utan att den går sönder.",
      ratt:true,
-     kommentar:"Just därför väger forskare kvädena annorlunda än de berättande partierna. Källkritik är inte allt-eller-inget."},
-    {txt:"Eftersom Snorre använde äldre källor är hans uppgifter förstahandsuppgifter.",
-     ratt:false, miss:"anvander_kallor_lika_med_primar",
-     kommentar:"Att använda källor gör en författare till andrahandsberättare, inte till ögonvittne."},
-    {txt:"Heimskringla är oanvändbar för vikingatiden och bör inte användas alls.",
-     ratt:false, miss:"beroende_som_diskvalificering",
-     kommentar:"Den används — men med försiktighet, och helst i kombination med arkeologi och samtida källor."},
+     kommentar:"Ett fint exempel på att olika delar av samma verk bedöms olika. Versformen är en slags felkontroll."},
+    {txt:"Uppgiften om att himlen mörknade bör prövas mot annat material — den kan vara en iakttagelse, men den är också ett vanligt drag i helgonberättelser.",
+     ratt:true,
+     kommentar:"Bra läsning. Solmörker vid en helig mans död är ett litterärt motiv, och Olav blev helgon."},
+    {txt:"Eftersom Snorre uttryckligen bygger på äldre källor är hans uppgifter i praktiken förstahandsuppgifter.",
+     ratt:false, miss:"beroende_forbisett",
+     kommentar:"Att använda äldre källor gör en berättelse beroende, inte förstahands. Snorre står sist i en kedja."},
     {txt:"Om två av Snorres berättelser säger samma sak är uppgiften bekräftad av två oberoende källor.",
-     ratt:false, miss:"beroende_missad",
-     kommentar:"Två uppgifter från samma författare, eller ur samma muntliga tradition, är beroende av varandra. Bekräftelse kräver oberoende ursprung."},
-    {txt:"Snorre var islänning och skrev om norska kungar, vilket gör honom neutral.",
+     ratt:false, miss:"beroende_forbisett",
+     kommentar:"Två avsnitt i samma verk, av samma författare, ur samma tradition. Det är en källa."},
+    {txt:"Att Snorre var islänning som skrev om norska kungar gör honom neutral i förhållande till stoffet.",
      ratt:false, miss:"utanforskap_lika_med_neutralitet",
-     kommentar:"Att stå utanför skyddar inte mot tendens. Snorre skrev inom en politisk kultur med egna intressen och för en publik med förväntningar."}
+     kommentar:"Att komma utifrån är inte samma sak som att sakna intressen. Snorre rörde sig själv i norsk hövdingapolitik."}
   ],
-  s:`<p>Beroende handlar om varifrån uppgifterna kommer. Fem berättelser som
-  alla går tillbaka på samma muntliga tradition är i källkritisk mening
+  s:`<p>Beroende handlar om varifrån uppgifterna kommer. Fem berättelser
+  som alla går tillbaka på samma tradition är i källkritisk mening
   <em>en</em> källa.</p>
-  <p>Samtidigt är avstånd i tid inte samma sak som värdelöshet. Olika delar
-  av samma verk kan bedömas olika.</p>`
+  <p>Men avstånd i tid är inte detsamma som värdelöshet, och olika delar
+  av samma verk kan bedömas olika. Versen, prosan och undret är tre olika
+  källkritiska fall.</p>`
 },
 
 {
   id:"hi-kk-104", kap:1, omr:"kk_narhet",
-  familj:["narhet_i_rum","tendens_religios"], niva:"E",
+  familj:["narhet_i_rum","tendens_religios"], niva:"C",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källa A · Kyrkohistoriskt verk, ca 1075</div>
-    <p>Adam av Bremen beskriver ett tempel i Uppsala med gudabilder av guld,
-    och en helig lund där människor och djur offrades och hängdes upp i
-    träden.</p>
-    <div class="kall-ref">Referat. Adam var kristen domherre i Bremen, besökte
-    aldrig Uppsala och byggde bland annat på uppgifter från den danske
-    kungen Sven Estridsen. Verket skrevs som en historia över ärkestiftets
-    mission i Norden.</div>
-  </div>
-  <p class="fragan">Vilka källkritiska problem är relevanta här?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Adam av Bremen om templet i Uppsala",
+    typ:"Kyrkohistoriskt verk, latin, ca 1075",
+    akthet:"autentisk",
+    text:`<p>Detta folk har ett mycket berömt tempel, som kallas Uppsala
+    och ligger inte långt från staden Sigtuna. I detta tempel, som är helt
+    och hållet smyckat med guld, dyrkar folket bilderna av tre gudar.</p>
+    <p>Den mäktigaste av dem, Tor, har sin plats mitt i rummet. På ömse
+    sidor om honom sitter Oden och Frej. Tor råder, säger de, i luften och
+    styr åska och blixt, vind och regn, väderlek och gröda. Oden, det vill
+    säga Raseriet, för krig och ger människan mod mot fiender. Den tredje,
+    Frej, skänker de dödliga fred och lust, och hans bild förses med en
+    väldig manslem.</p>
+    <p>Alla deras gudar har präster tillsatta, vilka frambär folkets offer.
+    Råder hungersnöd och pest offrar man åt Tor, står krig för dörren åt
+    Oden, och skall bröllop firas åt Frej.</p>
+    <p>Vart nionde år brukar dessutom hållas en gemensam fest i Uppsala för
+    alla Sveariket landskap. Ingen får utebli från denna fest. Kungar och
+    folk, alla och envar, sänder sina gåvor till Uppsala, och — vilket är
+    grymmare än allt annat straff — de som redan antagit kristendomen måste
+    friköpa sig från dessa ceremonier.</p>
+    <p>Offret går till så, att av varje levande varelse av hankön offras
+    nio stycken, med vilkas blod det är sed att blidka gudarna. Kropparna
+    hänges upp i en lund som ligger intill templet. Denna lund är så helig
+    för folket, att varje träd i den anses gudomligt genom de offrades död
+    och förruttnelse. Där hänger också hundar och hästar tillsammans med
+    människor, och en kristen har berättat för mig att han sett sjuttiotvå
+    sådana kroppar hänga där om varandra.</p>
+    <p>Om de sånger som brukar sjungas vid själva offerhandlingen är
+    mångahanda och oanständiga, och därför är det bäst att förbigå dem med
+    tystnad.</p>`,
+    om:`<p>Adam var magister och domherre vid domkapitlet i Bremen. Han
+    skrev på 1070-talet, på uppdrag inifrån ärkestiftet, en historia över
+    ärkebiskoparna i Hamburg-Bremen och deras missionsarbete i Norden.</p>
+    <p>Han var aldrig i Uppsala och kunde inte fornnordiska. Bland hans
+    uppgiftslämnare fanns den danske kungen Sven Estridsen, som han
+    uttryckligen tackar i förordet.</p>
+    <p>Ärkestiftet Hamburg-Bremen gjorde vid samma tid anspråk på kyrklig
+    överhöghet över hela Norden, ett anspråk som var omtvistat.</p>`,
+    referens:"Adam av Bremen, Gesta Hammaburgensis ecclesiae pontificum, bok IV. Sammandrag i modern svensk översättning; inte ordagrant citat."
+  }],
+  t:`<p>Det här är den utförligaste beskrivning vi har av förkristen kult i
+  Uppsala. Läs källan innan du svarar.</p>
+  <p class="fragan">Vilka källkritiska bedömningar kan du <em>belägga i
+  materialet</em>?</p>`,
   alternativ:[
-    {txt:"Adam var aldrig på plats. Uppgifterna är andrahandsuppgifter, förmedlade av personer med egna intressen.",
+    {txt:"Adam markerar själv att delar av framställningen är andrahandsuppgifter — han skriver att någon annan berättat för honom vad denne sett.",
      ratt:true,
-     kommentar:"Närhet i rum. Den som inte var där är beroende av någon annans berättelse."},
-    {txt:"Adam skriver som kristen om hedendom, i ett verk som ska motivera mission. Det gör framställningen tendentiös på ett sätt som kan ha förstärkt det främmande och skrämmande.",
+     kommentar:"Just den meningen är nyckeln. Sjuttiotvå kroppar är inte Adams iakttagelse utan en uppgift han fått vidare, och han säger det rakt ut."},
+    {txt:"Adam väljer bort delar av det han vet, och säger det öppet: sångerna förbigås med tystnad eftersom han finner dem oanständiga.",
      ratt:true,
-     kommentar:"Syftet med texten styr urvalet. Här finns ett intresse av att hedendomen framstår som barbarisk."},
-    {txt:"Problemet är att texten är skriven på latin.",
-     ratt:false, miss:"sprak_som_problem",
-     kommentar:"Språket försvårar läsningen men är inget källkritiskt problem i sig. Latin var vetenskapens och kyrkans språk."},
-    {txt:"Eftersom Adam levde på 1000-talet är han samtida med templet och därmed ett säkert vittne.",
-     ratt:false, miss:"samtida_lika_med_sant",
-     kommentar:"Samtida, ja. Vittne, nej — han var inte där."},
-    {txt:"Uppgiften är trovärdig eftersom en av sagesmännen var kung.",
-     ratt:false, miss:"auktoritet_lika_med_sant",
-     kommentar:"En kung med intresse av att framställa grannriket på ett visst sätt är ingen neutral sagesman."},
-    {txt:"Texten kan inte säga någonting alls om förhållandena i Uppsala.",
-     ratt:false, miss:"tendens_som_diskvalificering",
-     kommentar:"Den säger åtminstone en sak: att det fanns en kristen bild av Uppsala som hedendomens centrum. Det är i sig en historisk uppgift."}
+     kommentar:"Ett urval som görs av moraliska skäl. Vad som inte står i en källa är ofta lika avslöjande som det som står."},
+    {txt:"Problemet är att texten är skriven på latin och därför måste översättas.",
+     ratt:false, miss:"sprak_som_kallkritiskt_problem",
+     kommentar:"Översättning är ett praktiskt arbete, inte ett källkritiskt problem i sig. Latinet säger inget om uppgifternas kvalitet."},
+    {txt:"Eftersom Adam levde på 1000-talet är han samtida med templet och därmed nära i tid.",
+     ratt:false, miss:"narhet_i_tid_racker",
+     kommentar:"Närhet i tid stämmer. Men han var 80 mil därifrån och hade aldrig varit på plats — närhet i rum är det som fattas."},
+    {txt:"Att en av sagesmännen var kung gör uppgifterna säkrare, eftersom en kung har bättre insyn än andra.",
+     ratt:false, miss:"auktoritet_som_belagg",
+     kommentar:"Sven Estridsen var dansk kristen kung med egna intressen i hur Sverige framställdes. Hög ställning är inte samma sak som oberoende."},
+    {txt:"Att beskrivningen är detaljerad — antalet gudar, antalet offer, antalet kroppar — talar för att den bygger på egna iakttagelser.",
+     ratt:false, miss:"detaljrikedom_som_belagg",
+     kommentar:"Detaljer kan lika gärna komma från en god berättare som från ett ögonvittne. Nio och sjuttiotvå är dessutom talsymbolik."}
   ],
-  s:`<p>Två problem sammanfaller: avstånd i rum (Adam var aldrig där) och
-  tendens (texten ska motivera mission).</p>
-  <p>Men källan blir inte tom. Den är en förstklassig källa till hur
-  kristna i Nordtyskland såg på Norden på 1070-talet.</p>`
+  s:`<p>Två saker går att visa direkt i texten: Adam skriver ut att en del
+  är hörsägen (<em>en kristen har berättat för mig</em>), och han talar om
+  att han utelämnar sådant han ogillar.</p>
+  <p>Till det kommer det du får veta om tillkomsten: en kristen domherre
+  skriver missionshistoria för ett ärkestift som gör anspråk på Norden.
+  Det gör inte uppgifterna påhittade — men det förklarar varför det
+  främmande och skrämmande får stort utrymme.</p>
+  <p>Och källan blir inte tom. Den är förstklassig för frågan <em>hur såg
+  nordtyska kristna på Norden på 1070-talet?</em></p>`,
+  ledtrad:"Leta efter ställen där Adam säger något om sig själv och sitt eget arbete — inte bara om Uppsala."
 },
 
 {
   id:"hi-kk-105", kap:1, omr:"kk_beroende",
   familj:["beroende_samma_upphov"], niva:"C",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källa A och B · Två dagstidningar, maj 1931</div>
-    <p>Två svenska dagstidningar publicerar samma dag varsin notis om skotten
-    i Ådalen. Texterna är nästan ordagrant lika: båda bygger på samma telegram
-    från Tidningarnas Telegrambyrå.</p>
-  </div>
+  kallor:[{
+    bet:"A",
+    titel:"Notis i en dagstidning",
+    typ:"Dagstidning, 15 maj 1931",
+    akthet:"konstruerad",
+    text:`<p><strong>Blodiga uppträden i Ådalen</strong></p>
+    <p>Vid ett demonstrationståg mot Lunde i Ådalen på torsdagen kom det
+    till sammanstötning med utkommenderad militär. Enligt uppgift avlossades
+    skott mot tåget, varvid fyra personer dödades och fem sårades.</p>
+    <p>Läget i orten betecknas alltjämt som spänt. Ytterligare trupp har
+    beordrats till platsen.</p>`,
+    om:`<p>Notisen bygger på ett telegram från Tidningarnas Telegrambyrå,
+    TT, som distribuerades till landets redaktioner samma kväll.</p>`,
+    referens:"Konstruerad källa, skriven efter mönstret för samtida telegramnotiser om skotten i Ådalen den 14 maj 1931."
+  },{
+    bet:"B",
+    titel:"Notis i en annan dagstidning, samma dag",
+    typ:"Dagstidning, 15 maj 1931",
+    akthet:"konstruerad",
+    text:`<p><strong>Blodiga uppträden i Ådalen</strong></p>
+    <p>Vid ett demonstrationståg mot Lunde i Ådalen i torsdags kom det till
+    sammanstötning med utkommenderad militär. Enligt uppgift avlossades
+    skott mot tåget, varvid fyra personer dödades och fem sårades.</p>
+    <p>Läget i orten betecknas fortfarande som spänt.</p>`,
+    om:`<p>Tidningen har annan ägare och annan politisk färg än A, och
+    redaktionerna ligger i olika städer.</p>
+    <p>Även denna notis bygger på TT-telegrammet.</p>`,
+    referens:"Konstruerad källa, skriven efter mönstret för samtida telegramnotiser om skotten i Ådalen den 14 maj 1931."
+  }],
+  t:`<p>Två tidningar rapporterar samma dag om skotten i Ådalen. Jämför
+  texterna.</p>
   <p class="fragan">Vilka slutsatser är rimliga?</p>`,
   alternativ:[
-    {txt:"Att två tidningar skriver samma sak är här ingen bekräftelse — notiserna har samma upphov.",
+    {txt:"Att båda tidningarna skriver samma sak är här ingen bekräftelse — notiserna har samma upphov.",
      ratt:true,
-     kommentar:"Det här är beroendeprincipen i sin renaste form."},
-    {txt:"För att pröva uppgiften behövs material med annat ursprung: polisens och militärens rapporter, protokoll eller ögonvittnen.",
+     kommentar:"Beroendet syns i formuleringarna: de är nästan ordagrant lika, ända ner till <em>enligt uppgift</em>."},
+    {txt:"För att pröva uppgiften behövs material med annat ursprung: militärens och polisens rapporter, protokoll eller ögonvittnen.",
      ratt:true,
-     kommentar:"Oberoende betyder att uppgifterna inte går tillbaka på varandra."},
-    {txt:"Två tidningar som skriver likadant styrker uppgiften.",
-     ratt:false, miss:"beroende_missad",
-     kommentar:"Bara om de kommit fram till den oberoende av varandra. Här har de kopierat samma telegram."},
-    {txt:"Dagstidningar kan aldrig användas som historiska källor.",
-     ratt:false, miss:"kalltyp_som_diskvalificering",
-     kommentar:"Tidningar används hela tiden — som källor både till händelser och till hur händelser framställdes."},
-    {txt:"Eftersom notiserna är samtida med händelsen är de tillförlitliga.",
-     ratt:false, miss:"samtida_lika_med_sant",
-     kommentar:"De första rapporterna från en kaotisk händelse är ofta de mest felaktiga."},
-    {txt:"Tidningarnas politiska färg saknar betydelse när texten är ett telegram.",
-     ratt:false, miss:"tendens_bara_i_ordval",
-     kommentar:"Telegramtexten är densamma, men rubrik, placering, bildval och vad som stryks är tidningens egna beslut — och där syns tendensen ofta tydligast."}
+     kommentar:"Att gå uppströms mot oberoende material är standardgreppet när beroende har konstaterats."},
+    {txt:"Att tidningarna har olika politisk färg gör dem till oberoende källor i det här fallet.",
+     ratt:false, miss:"olik_avsandare_lika_med_oberoende",
+     kommentar:"Politisk färg spelar stor roll för urval och rubriker — men här har båda vidarebefordrat samma telegram utan egen prövning."},
+    {txt:"Uttrycket <em>enligt uppgift</em> visar att redaktionerna själva markerar att de inte kontrollerat siffrorna.",
+     ratt:true,
+     kommentar:"Bra iakttagelse. Tidningen tar inte ansvar för talet — den för vidare vad någon annan uppgett."},
+    {txt:"Eftersom notiserna är samtida med händelsen är sifferuppgifterna tillförlitliga.",
+     ratt:false, miss:"samtida_lika_med_tillforlitlig",
+     kommentar:"Tidiga siffror i ett oklart läge revideras nästan alltid. Samtidighet är närhet, inte riktighet."},
+    {txt:"Skillnaden mellan <em>på torsdagen</em> och <em>i torsdags</em> visar att texterna skrivits oberoende av varandra.",
+     ratt:false, miss:"sma_skillnader_lika_med_oberoende",
+     kommentar:"Redaktionell putsning av ett telegram skapar små skillnader. Kärnan — ordval, ordföljd, siffror — är densamma."}
   ],
-  s:`<p>Antalet källor som säger samma sak betyder ingenting förrän du vet om
-  de är oberoende. Fem tidningar med samma telegram är en källa, inte fem.</p>`
+  s:`<p>Antalet källor som säger samma sak betyder ingenting förrän du vet
+  om de är oberoende. Fem tidningar med samma telegram är en källa, inte
+  fem.</p>
+  <p>Jämför alltid formuleringarna, inte bara innehållet. Ordagranna
+  likheter är det tydligaste spåret av gemensamt upphov.</p>`
 },
 
 {
   id:"hi-kk-106", kap:1, omr:"kk_anvandbarhet",
   familj:["anvandbarhet_vs_fraga"], niva:"E",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källa A · Husförhörslängd, 1880-talet</div>
-    <p>Kyrkoboken listar varje hushåll i socknen: namn, födelseår, relation
-    till husbonden, in- och utflyttningar samt prästens noteringar om hur
-    personerna klarat förhöret i katekesen.</p>
-  </div>
-  <p class="fragan">Vad kan materialet användas till?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Uppslag ur en husförhörslängd",
+    typ:"Kyrkobok, 1880-talet",
+    akthet:"konstruerad",
+    text:`<p><strong>Norrgården nr 2</strong></p>
+    <table>
+      <tr><th>Namn</th><th>Född</th><th>Ställning</th><th>Läser</th><th>Anteckning</th></tr>
+      <tr><td>Anders Persson</td><td>1841</td><td>husbonde</td><td>försvarligt</td><td></td></tr>
+      <tr><td>Kristina Andersdotter</td><td>1845</td><td>hustru</td><td>väl</td><td></td></tr>
+      <tr><td>Per Andersson</td><td>1868</td><td>son</td><td>väl</td><td>utfl. Amerika 1886</td></tr>
+      <tr><td>Anna Andersdotter</td><td>1871</td><td>dotter</td><td>försvarligt</td><td>utfl. sn. 1889</td></tr>
+      <tr><td>Johan Ersson</td><td>1863</td><td>dräng</td><td>svagt</td><td>infl. 1884</td></tr>
+      <tr><td>Maja Lisa Jansdotter</td><td>1859</td><td>piga</td><td>försvarligt</td><td>infl. 1885, utfl. 1887</td></tr>
+    </table>
+    <p><strong>Backstugan vid Kärret</strong></p>
+    <table>
+      <tr><th>Namn</th><th>Född</th><th>Ställning</th><th>Läser</th><th>Anteckning</th></tr>
+      <tr><td>Brita Nilsdotter</td><td>1818</td><td>änka, inhyses</td><td>svagt</td><td>fattigunderstöd</td></tr>
+    </table>`,
+    om:`<p>Prästen kallade sockenborna till husförhör hushåll för hushåll
+    och förde in namn, födelseår, ställning i hushållet samt in- och
+    utflyttningar. Kolumnen <em>Läser</em> är prästens omdöme om hur
+    personen klarat förhöret i katekesen.</p>
+    <p>Anteckningarna fördes löpande under flera år och rättades efter
+    hand.</p>`,
+    referens:"Konstruerad källa, uppställd efter mönstret för svenska husförhörslängder."
+  }],
+  t:`<p class="fragan">Vad kan materialet användas till?</p>`,
   alternativ:[
     {txt:"Att undersöka hushållens storlek och sammansättning i socknen.",
      ratt:true,
-     kommentar:"Det här är precis vad materialet systematiskt registrerar."},
-    {txt:"Att kartlägga flyttmönster — vilka som kom och vilka som lämnade socknen.",
+     kommentar:"Exakt vad längden registrerar, och den gör det för varje hushåll — alltså går det att räkna."},
+    {txt:"Att kartlägga flyttmönster — vilka som kom, vilka som lämnade och vart.",
      ratt:true,
-     kommentar:"In- och utflyttningsnoteringarna gör detta möjligt, ofta år för år."},
+     kommentar:"In- och utflyttningarna står i klartext, inklusive Amerika. Ett av materialets starkaste användningsområden."},
     {txt:"Att ta reda på vad enskilda personer kände inför att flytta.",
-     ratt:false, miss:"kalla_svarar_pa_allt",
-     kommentar:"Listan registrerar att någon flyttade, inte varför eller hur det kändes. För det behövs brev, dagböcker eller intervjuer."},
+     ratt:false, miss:"kalla_overtolkad",
+     kommentar:"En notering om utflyttning säger ingenting om skäl eller känslor. Till det behövs brev eller bouppteckningar efter familjen."},
     {txt:"Att avgöra varför emigrationen från Sverige ökade på 1880-talet.",
-     ratt:false, miss:"beskrivning_lika_med_forklaring",
-     kommentar:"Materialet visar <em>att</em> och <em>vilka</em>. Orsaker kräver andra källor och en argumentation."},
-    {txt:"Ingenting, eftersom listorna fördes av prästen och därför är partiska.",
+     ratt:false, miss:"enskild_kalla_for_stor_fraga",
+     kommentar:"En sockens längd kan visa <em>att</em> och <em>vilka</em>, inte <em>varför</em> i riksskala."},
+    {txt:"Att mäta läskunnigheten i socknen, eftersom kolumnen <em>Läser</em> ger ett mått för varje person.",
+     ratt:false, miss:"omdome_som_matning",
+     kommentar:"Kolumnen är prästens omdöme om katekeskunskap, inte ett prov i läsförmåga. Olika präster bedömde olika."},
+    {txt:"Ingenting, eftersom längden fördes av prästen och därmed speglar kyrkans intressen.",
      ratt:false, miss:"tendens_som_diskvalificering",
-     kommentar:"Prästen hade litet intresse av att förfalska födelseår. Administrativt material hör till det mest användbara vi har."},
-    {txt:"Att fastställa hur stor andel av socknen som var läskunnig — prästens noteringar är en objektiv mätning.",
-     ratt:false, miss:"officiell_lika_med_objektiv",
-     kommentar:"Noteringarna är en bedömning gjord av en person med ett bestämt syfte: att pröva kunskaper i katekesen. De går att använda, men måste tolkas."}
+     kommentar:"Kyrkan hade ingen anledning att ljuga om vem som bodde var. Administrativa källor är ofta starkast just på struktur."}
   ],
-  s:`<p>Användbarhet är alltid användbarhet <em>till något</em>. Samma källa
-  kan vara utmärkt för en fråga och oanvändbar för nästa.</p>
-  <p>Administrativa källor är starka på struktur och svaga på upplevelse.</p>`
+  s:`<p>Användbarhet är alltid användbarhet <em>till något</em>. Samma
+  källa är utmärkt för en fråga och oanvändbar för nästa.</p>
+  <p>Administrativa källor är starka på struktur — vem, var, hur många —
+  och svaga på upplevelse och orsak.</p>`
 },
 
 {
   id:"hi-kk-107", kap:1, omr:"kk_tendens",
   familj:["tendens_kommersiell","motstridiga_kallor"], niva:"C",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källa A · Broschyr från en emigrantagent, 1885</div>
-    <p>Amerika beskrivs som det fria landet. Jorden sägs vara fet och billig,
-    lönerna höga, och den som arbetar hårt lovas bli sin egen på några år.</p>
-    <div class="kall-ref">Referat. Agenten fick provision per såld biljett.</div>
-  </div>
-  <div class="kalla">
-    <div class="kall-topp">Källa B · Brev hem från Minnesota, 1887</div>
-    <p>Skribenten berättar om långa arbetsdagar, kyla på vintern, och att han
-    saknar syskonen. Han skriver också att han tjänar mer än han någonsin
-    gjorde som dräng i Sverige.</p>
-    <div class="kall-ref">Referat.</div>
-  </div>
-  <p class="fragan">Vilka bedömningar av de båda källorna är rimliga?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Broschyr från en emigrantagent",
+    typ:"Trycksak, 1885",
+    akthet:"konstruerad",
+    text:`<p><strong>TILL DET FRIA AMERIKA</strong></p>
+    <p>I Minnesota och Dakota ligger jorden fet och svart så långt ögat
+    når, och den kostar mindre än en dagsverkslön per tunnland. Ingen
+    herre, ingen statare, ingen fattigvård.</p>
+    <p>Den arbetsamme svensken är efterfrågad överallt. Dagspenningen är
+    tre gånger den svenska. Mången som for ut med tomma händer sitter i dag
+    på egen gård efter fem år.</p>
+    <p>Biljett tecknas hos undertecknad. Fri resa med järnväg från
+    New York ända fram till nybygget.</p>`,
+    om:`<p>Agenten var anställd av ett rederi och fick provision för varje
+    såld biljett. Broschyren delades ut vid marknader och utanför kyrkor.</p>`,
+    referens:"Konstruerad källa, skriven efter mönstret för samtida emigrantagenters reklamtryck."
+  },{
+    bet:"B",
+    titel:"Brev hem från Minnesota",
+    typ:"Privatbrev, 1887",
+    akthet:"konstruerad",
+    text:`<p>Käre broder,</p>
+    <p>Du frågar hur jag har det. Arbetet börjar klockan fem och slutar när
+    det mörknar. Vintern är hårdare än hemma, och i januari frös vattnet i
+    hinken inne i stugan.</p>
+    <p>Men jag förtjänar mer än jag någonsin gjorde som dräng hos
+    nämndemannen, och jag har lagt undan till en ko. Hälsa mor att hon icke
+    skall oroa sig.</p>
+    <p>Jag saknar er alla mycket. Ibland om kvällarna vet jag icke om jag
+    gjorde rätt.</p>`,
+    om:`<p>Brevet är skrivet av en utvandrad dräng till hans bror i
+    Sverige, två år efter avresan.</p>
+    <p>Brev hem lästes ofta högt för släkt och grannar.</p>`,
+    referens:"Konstruerad källa, skriven efter mönstret för bevarade amerikabrev."
+  }],
+  t:`<p class="fragan">Vilka bedömningar av de båda källorna är
+  rimliga?</p>`,
   alternativ:[
     {txt:"Broschyren har ett kommersiellt syfte — agenten tjänade på varje biljett — och bilden är därför medvetet ljus.",
      ratt:true,
-     kommentar:"Ekonomiskt intresse är en av de starkaste tendensindikatorerna."},
+     kommentar:"Avsändarens intresse syns rakt igenom: allt som kan avskräcka saknas."},
     {txt:"Broschyren är samtidigt en förstklassig källa till en annan fråga: hur emigrationen marknadsfördes i Sverige.",
      ratt:true,
-     kommentar:"Tendensen är inte problemet utan svaret, om frågan handlar om marknadsföring."},
-    {txt:"Brevet är objektivt eftersom det är privat.",
-     ratt:false, miss:"privat_lika_med_sant",
-     kommentar:"Privata brev har också tendens. Man skriver till en mottagare, och kan tona ned motgångar för att inte oroa eller för att inte medge ett misstag."},
-    {txt:"Eftersom källorna säger emot varandra måste den ena ljuga.",
-     ratt:false, miss:"motsagelse_lika_med_logn",
-     kommentar:"De kan båda ha rätt om olika saker. Att lönen var högre och att arbetet var hårt är inte varandras motsatser."},
-    {txt:"Broschyren är oanvändbar eftersom den är reklam.",
-     ratt:false, miss:"tendens_som_diskvalificering",
-     kommentar:"Reklam är ett av de rikaste källmaterialen vi har — till frågan om vad som såldes in och till vem."},
-    {txt:"Brevet väger tyngre eftersom det skrevs senare och skribenten därmed var bättre informerad.",
+     kommentar:"Byt fråga, så byter källan värde. Som reklam är den ett perfekt exemplar av sitt slag."},
+    {txt:"Att brev hem ofta lästes högt för släkt och grannar kan ha påverkat vad skribenten valde att skriva.",
+     ratt:true,
+     kommentar:"En skarp iakttagelse. Ett privatbrev är inte alltid privat, och den som misslyckats skriver ogärna det inför hela byn."},
+    {txt:"Brevet är opåverkat av avsändarens intressen eftersom det är privat.",
+     ratt:false, miss:"privat_lika_med_objektiv",
+     kommentar:"Också privatbrev skrivs till någon, med ett syfte. Här bland annat för att lugna modern."},
+    {txt:"Eftersom källorna säger emot varandra måste den ena vara osann.",
+     ratt:false, miss:"motsagelse_kraver_logn",
+     kommentar:"De säger inte emot varandra. Båda kan stämma: hårt arbete <em>och</em> högre lön än i Sverige."},
+    {txt:"Brevet väger tyngre eftersom det skrevs senare, och skribenten hade då bättre överblick.",
      ratt:false, miss:"senare_lika_med_battre",
-     kommentar:"Senare är inte automatiskt bättre. Här är det två olika slags källor med olika syften, inte två versioner av samma sak."}
+     kommentar:"Källorna handlar inte om samma sak. Den ena säljer en resa, den andra beskriver ett liv."}
   ],
-  s:`<p>Två källor som pekar åt olika håll är inte automatiskt en konflikt. Steg
-  ett är att fråga vad var och en faktiskt påstår, och om påståendena ens
-  gäller samma sak.</p>`
+  s:`<p>Två källor som pekar åt olika håll är inte automatiskt en konflikt.
+  Steg ett är att fråga vad var och en faktiskt påstår — och om påståendena
+  ens gäller samma sak.</p>
+  <p>Steg två: vem skrev till vem, och vad ville avsändaren uppnå? Den
+  frågan gäller reklamtrycket och privatbrevet lika mycket.</p>`
 },
 
 {
   id:"hi-kk-108", kap:1, omr:"kk_akthet",
   familj:["bildkalla","arrangerad_kalla"], niva:"C",
   svarstyp:"alternativ",
-  t:`<div class="kalla bild">
-    <div class="kall-topp">Källa A · Fotografi, ca 1900</div>
-    <p>Ett trettiotal arbetare står uppställda i tre raka led framför en
-    verkstadsbyggnad. Alla ser in i kameran. Flera bär rena förkläden.
-    Maskiner och en travers syns bakom dem.</p>
-    <div class="kall-ref">Fotografiet beställdes av fabriksledningen.</div>
-  </div>
-  <p class="fragan">Vilka bedömningar av bilden är rimliga?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Fotografi från en mekanisk verkstad",
+    typ:"Bildbeskrivning, ca 1900",
+    akthet:"konstruerad",
+    text:`<p><em>Bilden finns inte återgiven här. Läs beskrivningen och
+    arbeta med den som om du hade fotografiet framför dig.</em></p>
+    <p>Ett trettiotal personer står uppställda i tre raka led framför en
+    tegelbyggnad med höga fönster. Alla ser in i kameran. Ingen är i
+    rörelse.</p>
+    <p>I främre ledet sitter fem män på stolar. De bär kostym, väst och
+    urkedja. Bakom dem står arbetare i förkläden som ser nytvättade ut.
+    Längst ut till vänster i bakre ledet står fyra pojkar som ser ut att
+    vara i tolvårsåldern.</p>
+    <p>Innanför den öppna porten skymtar en travers och två svarvar.
+    Golvet framför porten är sopat. Ett par verktyg ligger prydligt
+    upplagda på en bänk i bildens kant.</p>`,
+    om:`<p>Fotografiet beställdes av fabriksledningen och användes i
+    företagets katalog.</p>
+    <p>Vid tiden krävde kameran flera sekunders exponering, vilket gjorde
+    det svårt att fotografera personer i rörelse.</p>`,
+    referens:"Konstruerad källa. Beskrivningen följer mönstret för beställda företagsfotografier kring sekelskiftet 1900."
+  }],
+  t:`<p class="fragan">Vilka bedömningar av bilden är rimliga?</p>`,
   alternativ:[
     {txt:"Bilden är arrangerad. Den visar hur fabriken ville visa upp sig, inte hur en arbetsdag såg ut.",
      ratt:true,
-     kommentar:"Uppställningen, blickarna i kameran och de rena förklädena är alla spår av arrangemanget."},
-    {txt:"Bilden kan ändå användas som källa till maskinparken, byggnadens utseende och till vilka kategorier av arbetare som fanns på plats.",
+     kommentar:"Uppställningen, de rena förklädena och det sopade golvet är alla spår av iscensättningen."},
+    {txt:"Bilden kan ändå användas som källa till maskinparken, byggnadens utseende och vilka kategorier av anställda som fanns.",
      ratt:true,
-     kommentar:"Det oavsiktliga i en bild är ofta det mest användbara: det som råkade komma med."},
-    {txt:"Ett fotografi kan inte ljuga och är därför den säkraste typen av källa.",
-     ratt:false, miss:"foto_lika_med_sanning",
-     kommentar:"Ett foto visar vad som fanns framför kameran i ett ögonblick — valt av någon, för något."},
-    {txt:"Att ledningen beställt bilden gör den oanvändbar.",
+     kommentar:"Det oavsiktliga innehållet är ofta det historiskt mest givande. Traversen ställde ingen dit för syns skull."},
+    {txt:"Att pojkarna finns med på en bild som ledningen själv beställt talar för att barnarbete inte uppfattades som något att dölja.",
+     ratt:true,
+     kommentar:"Skarpt läst. Vad en avsändare <em>inte</em> bryr sig om att gömma säger mycket om samtidens normer."},
+    {txt:"Att personerna står stilla och allvarliga visar att stämningen på arbetsplatsen var tryckt.",
+     ratt:false, miss:"teknik_tolkad_som_innehall",
+     kommentar:"Stillheten är en följd av lång exponeringstid, inte av stämningen. Tekniken formar bilden."},
+    {txt:"Ett fotografi återger det som fanns framför linsen och är därför en säkrare källa än en text.",
+     ratt:false, miss:"foto_som_objektivt",
+     kommentar:"Kameran ljuger inte, men den som riktar den väljer motiv, tidpunkt och utsnitt."},
+    {txt:"Att ledningen beställt bilden gör den oanvändbar som källa till arbetsförhållandena.",
      ratt:false, miss:"tendens_som_diskvalificering",
-     kommentar:"Beställningen styr motivet men raderar inte innehållet."},
-    {txt:"Bilden visar att arbetsmiljön var ren och ordnad.",
-     ratt:false, miss:"arrangerat_lika_med_verklighet",
-     kommentar:"Den visar att arbetsmiljön kunde framställas som ren och ordnad. Det är något annat."},
-    {txt:"Eftersom bilden saknar text kan den inte användas som källa.",
-     ratt:false, miss:"text_kravs_for_kalla",
-     kommentar:"Bilder är källor på samma villkor som texter, och läses med samma frågor: vem, när, varför, för vem?"}
+     kommentar:"Den är oanvändbar som belägg för att det var rent och lugnt. Den är fullt användbar för mycket annat."}
   ],
-  s:`<p>Fråga alltid en bild vem som höll i kameran och varför. Det avsiktliga
-  budskapet är en sak; det oavsiktliga innehållet — verktyg, kläder, lokaler,
-  vilka som är med — är ofta det historiskt mest givande.</p>`
+  s:`<p>Fråga alltid en bild vem som höll i kameran och varför.</p>
+  <p>Skilj sedan på tre lager: det avsiktliga budskapet, det oavsiktliga
+  innehållet, och de spår som tekniken själv lämnar.</p>`
 },
 
 {
   id:"hi-kk-109", kap:1, omr:"kk_anvandbarhet",
   familj:["anvandbarhet_vs_fraga","tvangssituation"], niva:"A",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källa A · Domboksprotokoll, Mora 1669</div>
-    <p>Protokollet återger hur barn och vuxna berättar om resor till Blåkulla:
-    om att ha förts dit, om vad som skedde där och om vilka som var med.
-    Utsagorna kom fram under förhör där de anklagade visste att ett erkännande
-    kunde påverka utgången, och att förnekande kunde kosta livet.</p>
-  </div>
-  <p class="fragan">Två historiker arbetar med varsin fråga.
-  <strong>Fråga 1:</strong> Reste kvinnorna i Mora till Blåkulla?
+  kallor:[{
+    bet:"A",
+    titel:"Protokoll från trolldomskommissionen i Mora",
+    typ:"Domboksprotokoll, 1669",
+    akthet:"autentisk",
+    text:`<p>Framkallades Marit, tolv år gammal, och bekände frivilligt
+    att hon blivit förd till Blåkulla av hustru Kerstin, som tagit henne
+    ur sängen om natten och farit med henne över skogen.</p>
+    <p>Tillfrågad vad som där tilldragit sig svarade hon, att de suttit
+    till bords och ätit kål och fläsk, och att den Onde hade givit dem var
+    sitt märke. Nämnde därtill sju andra barn som hon sett därstädes.</p>
+    <p>Hustru Kerstin nekade först ståndaktigt, men sedan hon förehållits
+    barnens vittnesmål och förmanats att icke förhärda sitt hjärta,
+    bekände hon omsider och bad om nåd.</p>
+    <p>Kommissionen fann att den som bekänner och ångrar må hoppas på
+    mildhet, men att den förhärdade icke kan undslippa.</p>`,
+    om:`<p>Protokollet fördes av kommissionens skrivare under pågående
+    förhör. Både barnen och de anklagade visste att ett erkännande kunde
+    mildra utgången, och att fortsatt nekande kunde kosta livet.</p>
+    <p>Barnen fick ange andra som de sett i Blåkulla. Angivelserna låg
+    sedan till grund för nya förhör.</p>`,
+    referens:"Sammandrag i modern svenska av protokollsmaterial från trolldomskommissionen i Mora 1669. Inte ordagrant citat."
+  }],
+  t:`<p>Två historiker arbetar med varsin fråga.</p>
+  <p><strong>Fråga 1:</strong> Reste kvinnorna i Mora till Blåkulla?<br>
   <strong>Fråga 2:</strong> Vilka föreställningar om trolldom fanns i Mora
-  1669, och hur gick en process till? Vilka påståenden om källans
-  användbarhet håller?</p>`,
+  1669, och hur gick en process till?</p>
+  <p class="fragan">Vilka påståenden om källans användbarhet håller?</p>`,
   alternativ:[
     {txt:"För fråga 2 är protokollet en mycket god källa: det visar vilka föreställningar som fanns och hur rätten arbetade.",
      ratt:true,
-     kommentar:"Här är protokollet nära nog en idealkälla — det är en kvarleva av just den process frågan gäller."},
+     kommentar:"Och det visar det i detalj — ända ner till kålen och fläsket, som är hämtade ur en vardag barnen kände till."},
     {txt:"För fråga 1 duger protokollet inte som belägg, eftersom utsagorna tillkom under press och i en situation där ett visst svar belönades.",
      ratt:true,
-     kommentar:"Tvångssituationen gör utsagorna otillförlitliga som beskrivning av vad som faktiskt hänt."},
-    {txt:"Eftersom många personer oberoende av varandra berättade samma sak är uppgifterna bekräftade.",
-     ratt:false, miss:"beroende_missad",
-     kommentar:"De var inte oberoende. Vittnena hörde varandras berättelser, förhördes efter samma mall och delade samma föreställningsvärld."},
-    {txt:"Protokollet är en officiell handling och därför objektivt.",
-     ratt:false, miss:"officiell_lika_med_objektiv",
-     kommentar:"Officiell betyder att någon myndighet står bakom, inte att innehållet är neutralt. Protokollet skrevs av rätten, med rättens ord."},
-    {txt:"Protokollet är oanvändbart för historisk forskning.",
-     ratt:false, miss:"tendens_som_diskvalificering",
-     kommentar:"Det är ett av de mest använda materialen för forskning om tidigmodern rättskultur och mentalitet."},
+     kommentar:"Kommissionen skriver själv ut belöningsstrukturen: den som bekänner får hoppas på mildhet."},
+    {txt:"Att barnen angav andra, och att angivelserna ledde till nya förhör, förklarar varför utsagorna liknar varandra.",
+     ratt:true,
+     kommentar:"Processen producerade sin egen bekräftelse. Likheten är ett spår av förfarandet, inte av händelserna."},
+    {txt:"Att många personer oberoende av varandra berättade samma sak gör uppgifterna bekräftade.",
+     ratt:false, miss:"beroende_forbisett",
+     kommentar:"De var inte oberoende. De förhördes om varandra, i samma rum, av samma kommission."},
+    {txt:"Att protokollet skrevs av rättens egen skrivare under pågående förhör gör det till en neutral återgivning.",
+     ratt:false, miss:"myndighet_lika_med_neutral",
+     kommentar:"Skrivaren var en del av processen och skrev i dess ordval — <em>bekände frivilligt</em>, <em>förhärda sitt hjärta</em>."},
     {txt:"Eftersom vi i dag vet att Blåkulla inte finns saknar utsagorna historiskt värde.",
-     ratt:false, miss:"falskt_lika_med_ointressant",
-     kommentar:"Osanna utsagor är förstklassiga källor till vad människor trodde, fruktade och tvingades säga."}
+     ratt:false, miss:"falskt_innehall_lika_med_vardelos",
+     kommentar:"En utsaga som inte beskriver verkligheten kan vara ett exakt spår av vad man trodde. Det är ofta det intressantaste."}
   ],
-  ledtrad:"Samma källa, två frågor. Pröva den mot en fråga i taget.",
-  s:`<p>Detta är kärnan i användbarhetsbegreppet: samma källa är svag för den
-  ena frågan och stark för den andra.</p>
-  <p>En utsaga som inte beskriver verkligheten kan ändå vara ett exakt spår
-  av vad man trodde — och av hur makten fick fram svaren.</p>`
+  s:`<p>Detta är kärnan i användbarhetsbegreppet: samma källa är svag för
+  den ena frågan och stark för den andra.</p>
+  <p>Lägg märke till att protokollets eget språk är en del av materialet.
+  <em>Bekände frivilligt</em> är rättens beskrivning av en situation som
+  knappast var frivillig.</p>`,
+  ledtrad:"Samma källa, två frågor. Pröva den mot en fråga i taget."
 },
 
 /* =====================================================================
@@ -400,32 +606,38 @@ var BANKHIST = [
   id:"hi-ok-201", kap:2, omr:"ok_typer",
   familj:["utlosande_vs_bakomliggande"], niva:"E",
   svarstyp:"alternativ",
-  t:`<p>Sommaren 1914 sköts den österrikiske tronföljaren Frans Ferdinand i
-  Sarajevo. Inom sex veckor var Europas stormakter i krig.</p>
+  t:`<p>I mars 1917 (februari enligt den ryska kalendern) bröt strejker och
+  brödupplopp ut i Petrograd. Soldaterna som skulle slå ner dem vägrade
+  skjuta och gick över till demonstranterna. Inom en vecka hade tsar
+  Nikolaj II abdikerat.</p>
+  <p>Sedan 1914 hade Ryssland förlorat miljoner man vid fronten.
+  Livsmedelsförsörjningen i städerna hade brutit samman, jordfrågan var
+  olöst sedan 1800-talet och tsarens envälde saknade folkvald kontroll.</p>
   <p class="fragan">Vilka påståenden om orsakerna är rimliga?</p>`,
   alternativ:[
-    {txt:"Skotten i Sarajevo var den utlösande faktorn — det som satte igång förloppet.",
+    {txt:"Brödköerna och strejkerna i Petrograd var den utlösande faktorn — det som satte förloppet i rörelse en bestämd vecka.",
      ratt:true,
-     kommentar:"Utlösande faktorer ligger nära i tid och fungerar som tändsticka."},
-    {txt:"Alliansystemet gjorde att en lokal konflikt kunde dra in flera stormakter, och är därför en bakomliggande orsak.",
+     kommentar:"Konkret, nära i tid, avgränsad. Så ser en utlösande faktor ut."},
+    {txt:"Krigströttheten och den olösta jordfrågan är bakomliggande orsaker: de byggdes upp under lång tid och gjorde sammanbrottet möjligt.",
      ratt:true,
-     kommentar:"Bakomliggande orsaker är de som byggts upp under lång tid och gör utfallet möjligt."},
-    {txt:"Skotten i Sarajevo var den grundläggande orsaken till kriget.",
-     ratt:false, miss:"utlosande_lika_med_grundorsak",
-     kommentar:"Mordet förklarar tidpunkten, inte varför Europa var laddat för krig."},
-    {txt:"Kapprustningen till sjöss mellan Storbritannien och Tyskland var en utlösande faktor.",
-     ratt:false, miss:"bakomliggande_kallad_utlosande",
-     kommentar:"Kapprustningen pågick i över ett decennium. Den hör till bakgrunden."},
-    {txt:"Eftersom kriget bröt ut kort efter mordet var mordet den enda orsaken.",
-     ratt:false, miss:"efter_alltsa_pga",
-     kommentar:"Att B följer på A gör inte A till enda orsak. Annars vore varje dag orsak till nästa."},
-    {txt:"Versaillesfreden 1919 bidrog till att kriget bröt ut.",
-     ratt:false, miss:"kronologi_omvand",
-     kommentar:"Freden kom efter kriget. En konsekvens kan inte orsaka det den är en konsekvens av."}
+     kommentar:"År och decennier, inte dagar. De förklarar varför en brödkö kunde fälla ett envälde."},
+    {txt:"Att soldaterna vägrade skjuta var den grundläggande orsaken till att tsardömet föll.",
+     ratt:false, miss:"utlosande_som_orsak",
+     kommentar:"Det var avgörande för utgången just då — men frågan är varför soldaterna vägrade. Svaret ligger i bakgrunden."},
+    {txt:"Bolsjevikernas maktövertagande i november 1917 bidrog till att tsaren abdikerade i mars.",
+     ratt:false, miss:"anakronism_i_orsakskedjan",
+     kommentar:"Ordningen är omvänd. En orsak kan inte ligga efter sin verkan."},
+    {txt:"Eftersom sammanbrottet kom under ett krig är kriget den enda orsak som behöver anföras.",
+     ratt:false, miss:"monokausalitet",
+     kommentar:"Andra länder förde samma krig utan att falla. Kriget skärpte problem som redan fanns."},
+    {txt:"Att förloppet gick snabbt visar att det inte kan ha haft några djupare orsaker.",
+     ratt:false, miss:"snabbhet_utesluter_bakgrund",
+     kommentar:"Tvärtom — snabba sammanbrott förutsätter nästan alltid att mycket redan var undergrävt."}
   ],
   s:`<p>Utlösande faktor: nära i tid, konkret, ofta en enskild händelse.
   Bakomliggande orsak: långsiktig, strukturell, gör utfallet möjligt.</p>
-  <p>Utan bakgrunden hade skotten i Sarajevo blivit en notis.</p>`
+  <p>Utan bakgrunden hade brödköerna i Petrograd blivit en notis.</p>`,
+  ledtrad:"Fråga om varje orsak: hur länge har detta byggts upp? Dagar talar för utlösande, år för bakomliggande."
 },
 
 {
@@ -467,64 +679,69 @@ var BANKHIST = [
   id:"hi-ok-203", kap:2, omr:"ok_konsekvens",
   familj:["konsekvens_riktning","lang_sikt"], niva:"C",
   svarstyp:"alternativ",
-  t:`<p>Digerdöden nådde Norden 1350. På många håll dog mellan en fjärdedel och
-  hälften av befolkningen inom några år.</p>
+  t:`<p>Digerdöden nådde Norden 1350. På många håll dog mellan en fjärdedel
+  och hälften av befolkningen inom några år.</p>
   <p class="fragan">Vilka påståenden om konsekvenserna är rimliga?</p>`,
   alternativ:[
     {txt:"Arbetskraften blev knapp, vilket på sikt stärkte de överlevande böndernas och landbornas förhandlingsläge.",
      ratt:true,
-     kommentar:"Ett klassiskt exempel på att en katastrof kan förbättra villkoren för dem som blir kvar."},
+     kommentar:"Färre händer om samma jord. Arrenden pressades ner och dagsverken kunde förhandlas."},
     {txt:"Gårdar lades öde och odlingsgränsen drogs tillbaka, särskilt i skogs- och randbygder.",
      ratt:true,
-     kommentar:"Ödegårdarna är ett av de tydligaste spåren i materialet."},
-    {txt:"Digerdöden orsakade reformationen.",
-     ratt:false, miss:"lang_kedja_utan_lankar",
-     kommentar:"Nästan tvåhundra år och många led emellan. En kedja måste kunna visas, inte bara påstås."},
-    {txt:"Eftersom befolkningen minskade blev alla fattigare.",
-     ratt:false, miss:"enkel_riktning",
-     kommentar:"Den totala produktionen minskade, men per överlevande kunde läget bli bättre. Konsekvenser går sällan bara åt ett håll."},
-    {txt:"Digerdöden fick inga långsiktiga konsekvenser, eftersom befolkningen till slut återhämtade sig.",
-     ratt:false, miss:"aterhamtning_raderar_konsekvens",
-     kommentar:"Återhämtningen tog över hundra år, och under tiden ändrades ägande, arbetsvillkor och bebyggelsemönster varaktigt."},
-    {txt:"Digerdöden var en konsekvens av att jordbruket expanderat för långt.",
-     ratt:false, miss:"kronologi_omvand",
-     kommentar:"Befolkningstrycket före 1350 diskuteras som en försvagande faktor, men pesten orsakades av smitta — inte av odlingsgränsen."}
+     kommentar:"Den sämsta jorden övergavs först. Ödegårdsforskningen bygger på just det mönstret."},
+    {txt:"Jordägande frälse och kyrka fick minskade inkomster när arrendena pressades ner.",
+     ratt:true,
+     kommentar:"Samma händelse, motsatt riktning för en annan grupp. Konsekvensfrågan måste alltid ställas <em>för vem</em>."},
+    {txt:"Eftersom befolkningen minskade försämrades levnadsvillkoren för de grupper som överlevde.",
+     ratt:false, miss:"konsekvens_enkelriktad",
+     kommentar:"Rimligt att tro, men materialet pekar åt andra hållet för lönearbetare och landbor. Färre människor om samma resurser."},
+    {txt:"Digerdöden orsakade reformationen, eftersom förtroendet för kyrkan skadades.",
+     ratt:false, miss:"for_lang_orsakskedja",
+     kommentar:"Nästan tvåhundra år och många mellanled. En så lång kedja måste beläggas länk för länk, annars är den en gissning."},
+    {txt:"Digerdöden var en konsekvens av att jordbruket expanderat in på för mager mark.",
+     ratt:false, miss:"orsak_och_verkan_omkastade",
+     kommentar:"Expansionen kan ha gjort befolkningen sårbar, men pesten kom med en bakterie, inte med åkerbruket."}
   ],
-  s:`<p>Skilj på omedelbara och långsiktiga konsekvenser, och räkna med att de
-  kan peka åt olika håll för olika grupper.</p>
-  <p>Att påstå en lång orsakskedja kräver att du kan visa länkarna.</p>`
+  s:`<p>Skilj på omedelbara och långsiktiga konsekvenser, och räkna med att
+  de pekar åt olika håll för olika grupper.</p>
+  <p>Att påstå en lång orsakskedja kräver att du kan visa länkarna. Två
+  händelser i samma århundrade är inte en kedja.</p>`
 },
 
 {
   id:"hi-ok-204", kap:2, omr:"ok_konsekvens",
   familj:["kort_vs_lang_sikt","samtidighet_vs_orsak"], niva:"C",
   svarstyp:"alternativ",
-  t:`<p>Mellan 1870 och 1910 industrialiserades Sverige snabbt. Sågverk, järnbruk
-  och verkstadsindustri växte, järnvägsnätet byggdes ut och städerna fylldes.</p>
-  <p class="fragan">Vilka påståenden skiljer korta och långa konsekvenser på ett
-  rimligt sätt?</p>`,
+  t:`<p>Mellan 1870 och 1910 industrialiserades Sverige snabbt. Sågverk,
+  järnbruk och verkstadsindustri växte, järnvägsnätet byggdes ut och
+  städerna fylldes. Under samma period utvandrade omkring en miljon
+  svenskar till Nordamerika.</p>
+  <p class="fragan">Vilka påståenden skiljer korta och långa konsekvenser
+  på ett rimligt sätt?</p>`,
   alternativ:[
     {txt:"På kort sikt flyttade människor från landsbygd till industriort, ofta till trångboddhet och osäkra anställningar.",
      ratt:true,
-     kommentar:"Den omedelbara effekten var ofta försämrade bostadsförhållanden, även när lönen steg."},
+     kommentar:"Den omedelbara konsekvensen var en omflyttning, och den var för många en försämring av boendet."},
     {txt:"På lång sikt byggdes fackföreningar och partier upp av just de grupper som industrin samlade på samma plats.",
      ratt:true,
-     kommentar:"Koncentrationen av arbetare är en förutsättning för organisering — en långsiktig och delvis oavsiktlig konsekvens."},
-    {txt:"På kort sikt höjdes levnadsstandarden för alla samhällsgrupper.",
-     ratt:false, miss:"enkel_riktning",
-     kommentar:"Vinsterna kom ojämnt och ofta sent. Fråga alltid: bättre för vem, och när?"},
-    {txt:"Emigrationen till Amerika upphörde när industrin växte.",
-     ratt:false, miss:"faktafel_kronologi",
-     kommentar:"Emigrationen var som störst just under industrialiseringen, med toppar på 1880-talet och åren före första världskriget."},
+     kommentar:"Industrin skapade förutsättningen: många människor med samma intresse på samma ställe."},
+    {txt:"Att emigrationen fortsatte under industrialiseringen visar att industrins arbetstillfällen inte räckte till för alla som saknade försörjning.",
+     ratt:true,
+     kommentar:"Bra resonemang. Två utvecklingar samtidigt betyder ofta att den ena inte löste det den andra svarade på."},
+    {txt:"På kort sikt steg reallönerna märkbart för industriarbetarna, som fick del av produktivitetsökningen direkt.",
+     ratt:false, miss:"konsekvens_for_tidig",
+     kommentar:"Reallönerna steg, men senare och långsammare än produktiviteten. Kort och lång sikt pekar åt olika håll här."},
     {txt:"Industrialiseringen var en konsekvens av den allmänna rösträtten.",
-     ratt:false, miss:"kronologi_omvand",
-     kommentar:"Rösträtten kom 1918–21, efter. Här är kronologin omvänd."},
-    {txt:"Eftersom järnvägen byggdes ut samtidigt är järnvägen en konsekvens av industrin.",
-     ratt:false, miss:"samtidighet_lika_med_orsak",
-     kommentar:"De drev varandra. Att två förlopp sker samtidigt avgör inte vilket som orsakar vilket."}
+     ratt:false, miss:"anakronism_i_orsakskedjan",
+     kommentar:"Rösträtten kom 1918–21, långt efter. Ordningen går inte ihop."},
+    {txt:"Eftersom järnvägen byggdes ut samtidigt som industrin växte är järnvägen en konsekvens av industrin.",
+     ratt:false, miss:"samtidighet_som_orsak",
+     kommentar:"Samtidighet är inte orsakssamband. Här påverkade de dessutom varandra åt båda hållen."}
   ],
   s:`<p>Konsekvensfrågan har alltid tre delar: för vem, hur snart, och hur
-  länge.</p>`
+  länge.</p>
+  <p>Och två saker som händer samtidigt kan vara orsak, verkan, ömsesidiga
+  eller helt orelaterade. Samtidighet avgör ingenting i sig.</p>`
 },
 
 {
@@ -601,37 +818,57 @@ var BANKHIST = [
 
 {
   id:"hi-as-302", kap:3, omr:"as_samspel",
-  familj:["individ_och_rorelse"], niva:"C",
+  familj:["handlingsutrymme","beslut_under_press"], niva:"C",
   svarstyp:"alternativ",
-  t:`<p>I december 1955 vägrade Rosa Parks lämna sin plats på en buss i
-  Montgomery, Alabama. Hon greps, och en bussbojkott inleddes som varade i drygt
-  ett år. Parks var sedan flera år aktiv i NAACP och hade gått utbildning i
-  icke-våldsmotstånd. Nio månader tidigare hade femtonåriga Claudette Colvin
-  gjort samma sak på samma bussbolag, utan att det ledde till någon bojkott.</p>
-  <p class="fragan">Vilka slutsatser om aktör och struktur håller?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Vad som hände i Ådalen i maj 1931",
+    typ:"Sammanställning",
+    akthet:"autentisk",
+    text:`<p>Vid Marmaverken i Ådalen pågick en konflikt sedan flera
+    månader. Arbetsgivarna hade tagit in arbetare utifrån för att driva
+    industrin vidare under strejken.</p>
+    <p>Sverige saknade vid den här tiden en statlig polisstyrka som kunde
+    sättas in vid större oroligheter. När länsstyrelsen bedömde att läget
+    inte gick att hantera lokalt begärdes militär hjälp, i enlighet med
+    gällande ordning.</p>
+    <p>Den 14 maj marscherade flera tusen demonstranter mot Lunde. En
+    militärstyrka under befäl av en kapten mötte tåget. Skott avlossades
+    mot demonstranterna. Fem personer dödades.</p>
+    <p>Händelsen ledde till riksdagsdebatt, rättegångar och till att
+    reglerna för militär vid inrikes oroligheter skrevs om.</p>`,
+    om:`<p>Sammanställningen bygger på den allmänt vedertagna
+    händelsebeskrivningen. Ansvarsfrågan — vem som gav order och vad som
+    sades — var omstridd redan i samtiden och prövades i domstol.</p>`,
+    referens:"Sammanställning av händelseförloppet i Ådalen den 14 maj 1931."
+  }],
+  t:`<p class="fragan">Vilka bedömningar av aktör och struktur håller?</p>`,
   alternativ:[
-    {txt:"Parks handling var ett verkligt val, men den fick genomslag för att det fanns en organisation som kunde omvandla den till en bojkott.",
+    {txt:"Att militär över huvud taget fanns på plats följde av en struktur: Sverige saknade en ordningsmakt som kunde hantera stora konflikter.",
      ratt:true,
-     kommentar:"Handling plus infrastruktur. Ingendera räcker ensam."},
-    {txt:"Att Colvins fall inte ledde till samma sak visar att utfallet inte följde automatiskt av handlingen.",
+     kommentar:"Strukturen förklarar varför soldater med skarp ammunition stod framför ett demonstrationståg."},
+    {txt:"Befälet på platsen hade ändå ett handlingsutrymme. Att en styrka är utkommenderad avgör inte i sig att skott avlossas.",
      ratt:true,
-     kommentar:"Jämförelsen är det starkaste argumentet i hela uppgiften: samma handling, olika utfall."},
-    {txt:"Parks handlade spontant och oplanerat, vilket är poängen med händelsen.",
-     ratt:false, miss:"myt_over_kalla",
-     kommentar:"Den bilden är spridd men går emot vad vi vet. Parks var en erfaren aktivist. Själva myten är i sig ett intressant exempel på historiebruk."},
-    {txt:"Eftersom medborgarrättsrörelsen ändå skulle ha vuxit fram saknar Parks handling betydelse.",
-     ratt:false, miss:"struktur_utraderar_aktor",
-     kommentar:"Att en rörelse var på väg gör inte enskilda handlingar utbytbara. Tidpunkt, plats och person påverkade förloppet."},
-    {txt:"Eftersom Parks var organiserad var hennes handling inte modig.",
-     ratt:false, miss:"organisation_minskar_mod",
-     kommentar:"Organisation och mod är inte varandras motsatser. Riskerna — gripande, arbetslöshet, hot — var högst reella."},
-    {txt:"Colvins fall visar att rörelsen var likgiltig inför yngre aktivister.",
-     ratt:false, miss:"enskilt_fall_generaliserat",
-     kommentar:"Skälen till att hennes fall inte drevs vidare är flera och omdiskuterade. Ett enskilt fall bär inte den slutsatsen."}
+     kommentar:"Här ligger aktörsfrågan. Strukturen skapade situationen; någon fattade beslutet i den."},
+    {txt:"Att reglerna skrevs om efteråt visar att samtiden själv uppfattade strukturen som en del av problemet.",
+     ratt:true,
+     kommentar:"Skarpt. Lagändringen är i sig ett belägg för att ansvaret inte enbart lades på enskilda personer."},
+    {txt:"Eftersom militär var utkommenderad var utgången given, och det är meningslöst att fråga efter enskildas ansvar.",
+     ratt:false, miss:"strukturdeterminism",
+     kommentar:"Strukturer gör saker möjliga, inte oundvikliga. Annars försvinner ansvaret helt ur historien."},
+    {txt:"Eftersom en enskild befälhavare gav order är händelsen fullt förklarad med hans beslut.",
+     ratt:false, miss:"aktor_utan_struktur",
+     kommentar:"Då blir frågan varför han stod där med en beväpnad styrka obesvarad. Båda leden behövs."},
+    {txt:"Att ansvarsfrågan prövades i domstol innebär att den historiska frågan om orsaker därmed är avgjord.",
+     ratt:false, miss:"juridiskt_lika_med_historiskt",
+     kommentar:"Domstolen prövar skuld enligt lag. Historikern frågar varför förloppet såg ut som det gjorde. Olika frågor."}
   ],
-  s:`<p>Enskilda handlingar blir historiska händelser när det finns strukturer
-  som kan bära dem vidare. Den jämförelse som avslöjar det är Colvin:
-  samma handling, annat utfall.</p>`
+  s:`<p>Ådalen är ett skolexempel på att de två perspektiven behövs
+  samtidigt. Strukturen förklarar varför en beväpnad styrka stod framför
+  ett demonstrationståg. Aktören förklarar vad som hände i det
+  ögonblicket.</p>
+  <p>Den som bara ser strukturen får ett förlopp utan ansvar. Den som bara
+  ser aktören får ett oförklarligt enskilt övergrepp.</p>`
 },
 
 {
@@ -710,32 +947,34 @@ var BANKHIST = [
   id:"hi-fk-401", kap:4, omr:"fk_forandring",
   familj:["forandring_och_bestandighet"], niva:"E",
   svarstyp:"alternativ",
-  t:`<p>Efter 1789 avskaffades de gamla ståndsprivilegierna i Frankrike, och en
-  förklaring om människans och medborgarens rättigheter antogs.</p>
-  <p class="fragan">Vilka påståenden om förändring och kontinuitet är korrekta?</p>`,
+  t:`<p>Under 1789 avskaffade nationalförsamlingen adelns och
+  prästerskapets rättsliga privilegier, och antog en förklaring om
+  människans och medborgarens rättigheter.</p>
+  <p class="fragan">Vilka påståenden om förändring och kontinuitet är
+  korrekta?</p>`,
   alternativ:[
     {txt:"Förändring: adelns och prästerskapets rättsliga privilegier togs bort.",
      ratt:true,
-     kommentar:"En av revolutionens mest konkreta och varaktiga förändringar."},
-    {txt:"Kontinuitet: rösträtten omfattade inte kvinnor, och kom snart att begränsas även för fattiga män.",
+     kommentar:"Det är själva kärnan i augustibesluten 1789."},
+    {txt:"Kontinuitet: rösträtten omfattade inte kvinnor, och begränsades snart även för fattigare män genom uppdelningen i aktiva och passiva medborgare.",
      ratt:true,
-     kommentar:"Rättighetsförklaringens 'människa' tolkades snävt. Mycket av den gamla ordningen levde vidare i ny form."},
-    {txt:"Förändring: alla vuxna fick rösträtt.",
-     ratt:false, miss:"rattigheter_lika_med_alla",
-     kommentar:"Långt ifrån. Rösträtten var könsbunden och under perioder inkomstbunden."},
-    {txt:"Kontinuitet: Frankrike förblev monarki oavbrutet.",
-     ratt:false, miss:"faktafel_kronologi",
-     kommentar:"Monarkin avskaffades 1792, ersattes av republik och kejsardöme, och restaurerades 1814. Varken rak förändring eller rak kontinuitet."},
-    {txt:"Förändring: kyrkans inflytande i Frankrike upphörde helt och för alltid.",
-     ratt:false, miss:"forandring_overdriven",
-     kommentar:"Kyrkans ställning förändrades kraftigt, men upphörde inte. Napoleon slöt konkordat med påven 1801."},
+     kommentar:"Rättighetsförklaringens <em>alla människor</em> visade sig i praktiken betyda ganska få."},
+    {txt:"Förändring: kyrkans jordegendom förstatligades och prästerskapet blev avlönat av staten.",
+     ratt:true,
+     kommentar:"Också det 1789–90. En av revolutionens mest långtgående konkreta förändringar."},
+    {txt:"Kontinuitet: den katolska kyrkan behöll sin ställning och sina inkomster i stort sett oförändrade.",
+     ratt:false, miss:"kontinuitet_felplacerad",
+     kommentar:"Här ligger tvärtom en av de största förändringarna. Kontinuiteten finns på andra områden."},
+    {txt:"Förändring: rösträtten utvidgades till samtliga vuxna män.",
+     ratt:false, miss:"reform_overdriven",
+     kommentar:"Allmän rösträtt för män infördes kortvarigt 1792–95, men inte 1789. Året spelar roll."},
     {txt:"Eftersom mycket bestod var revolutionen ingen verklig förändring.",
-     ratt:false, miss:"kontinuitet_utraderar_forandring",
-     kommentar:"Att fråga efter kontinuitet är inte att förneka förändring. Båda finns alltid samtidigt."}
+     ratt:false, miss:"kontinuitet_overdriven",
+     kommentar:"Att kontinuitet finns betyder inte att förändringen var skenbar. Båda ska vägas, inte ställas mot varandra."}
   ],
-  s:`<p>Ställ alltid båda frågorna till samma förlopp. Det som inte förändras
-  är lika historiskt intressant som det som gör det — och ofta svårare att
-  få syn på.</p>`
+  s:`<p>Ställ alltid båda frågorna till samma förlopp. Det som <em>inte</em>
+  förändras är lika historiskt intressant som det som gör det — och ofta
+  svårare att få syn på.</p>`
 },
 
 {
@@ -744,29 +983,31 @@ var BANKHIST = [
   svarstyp:"alternativ",
   t:`<p>Under industrialiseringen tog kvinnor arbete i textilfabriker,
   tändsticksfabriker och som hembiträden i städerna.</p>
-  <p class="fragan">Vilka påståenden om förändring och kontinuitet håller?</p>`,
+  <p class="fragan">Vilka påståenden om förändring och kontinuitet
+  håller?</p>`,
   alternativ:[
     {txt:"Förändring: arbetet flyttade från hemmet och gården till en arbetsplats med lön, arbetstider och arbetsgivare.",
      ratt:true,
-     kommentar:"Platsen och formen för arbetet ändrades i grunden."},
+     kommentar:"Det avgörande nya är inte arbetet utan <em>lönearbetet</em> — och att någon annan bestämmer över tiden."},
     {txt:"Kontinuitet: kvinnor hänvisades fortsatt till lägre betalda uppgifter, och lönen förutsattes vara ett tillskott till en mans försörjning.",
      ratt:true,
-     kommentar:"Den gamla arbetsdelningen följde med in i fabriken i ny form."},
+     kommentar:"Föreställningen om mannen som familjeförsörjare följde med in i fabriken och satte lönenivån."},
     {txt:"Förändring: kvinnor började arbeta, vilket de inte gjort tidigare.",
-     ratt:false, miss:"arbete_lika_med_lonearbete",
-     kommentar:"Kvinnor har alltid arbetat. Det nya var att arbetet blev lönearbete — och därmed syntes i statistiken."},
-    {txt:"Kontinuitet: kvinnors rättsliga ställning var oförändrad genom hela 1800-talet.",
+     ratt:false, miss:"arbete_forvaxlat_med_lonearbete",
+     kommentar:"Kvinnor hade alltid arbetat. Det som var nytt var var arbetet utfördes och att det gav lön i pengar."},
+    {txt:"Kontinuitet: kvinnors rättsliga ställning stod stilla under 1800-talet.",
      ratt:false, miss:"kontinuitet_overdriven",
-     kommentar:"Ogift kvinna blev myndig 1863, gift kvinna först 1921. Det förändrades påtagligt under perioden."},
-    {txt:"Förändring: löneskillnaden mellan kvinnor och män försvann inom industrin.",
-     ratt:false, miss:"forandring_overdriven",
-     kommentar:"Kvinnolönerna låg genomgående klart under mansslönerna genom hela perioden."},
-    {txt:"Eftersom förändringen var stor saknar det mening att fråga efter kontinuitet.",
-     ratt:false, miss:"forandring_utraderar_kontinuitet",
-     kommentar:"Det är ofta i kontinuiteterna man ser vad som egentligen var svårt att ändra."}
+     kommentar:"Här rörde det sig faktiskt: lika arvsrätt 1845, ogift kvinna myndig vid 25 år 1863. Kontinuiteten låg i lön och yrkesval, inte i lagen."},
+    {txt:"Förändring: lönen sattes nu efter utfört arbete, vilket jämnade ut skillnaden mellan kvinnor och män vid samma maskin.",
+     ratt:false, miss:"reform_overdriven",
+     kommentar:"Lönetariffer var könsuppdelade långt in på 1900-talet, också vid identiska arbetsuppgifter."},
+    {txt:"Eftersom förändringen var stor saknar det mening att fråga efter kontinuitet i samma period.",
+     ratt:false, miss:"antingen_eller",
+     kommentar:"Frågorna ställs alltid tillsammans. Stora förändringar är just de perioder där kontinuiteten är svårast att se."}
   ],
-  s:`<p>Vad som räknas som förändring beror på vad man mäter. Byter man från
-  "arbete" till "lönearbete" ser samma period helt olika ut.</p>`
+  s:`<p>Vad som räknas som förändring beror på vad man mäter. Byter man
+  från <em>arbete</em> till <em>lönearbete</em> ser samma period helt
+  olika ut.</p>`
 },
 
 {
@@ -1053,72 +1294,89 @@ var BANKHIST = [
   id:"hi-ha-601", kap:6, omr:"ha_belagg",
   familj:["slutsats_inom_kallan"], niva:"C",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källa A · Styrelseprotokoll, 1902</div>
-    <p>Styrelsen beslutar att införa tio timmars arbetsdag vid gjuteriet
-    "på grund av upprepad oro bland arbetarna".</p>
-    <div class="kall-ref">Referat ur protokoll från ett svenskt verkstadsföretag.</div>
-  </div>
-  <p class="fragan">Vilka slutsatser <em>bär</em> källan?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Styrelseprotokoll från ett verkstadsföretag",
+    typ:"Protokoll, 1902",
+    akthet:"konstruerad",
+    text:`<p><strong>§ 4.</strong> Föredrogs frågan om arbetstiden vid
+    gjuteriet. Disponenten anmälde att oro bland arbetarna förekommit
+    upprepade gånger under året, senast i mars, och att detta menligt
+    inverkat på leveranserna.</p>
+    <p>Efter överläggning beslöt styrelsen att arbetstiden vid gjuteriet
+    från den 1 oktober skall utgöra tio timmar.</p>
+    <p>Herr Lindqvist lät till protokollet anteckna att han motsatte sig
+    beslutet, enär det enligt hans mening kommer att medföra krav av samma
+    slag vid övriga avdelningar.</p>`,
+    om:`<p>Protokollet fördes av företagets sekreterare vid ett ordinarie
+    styrelsesammanträde och justerades vid nästa möte.</p>`,
+    referens:"Konstruerad källa, uppställd efter mönstret för svenska styrelseprotokoll kring sekelskiftet 1900."
+  }],
+  t:`<p class="fragan">Vilka slutsatser bär källan?</p>`,
   alternativ:[
     {txt:"Att styrelsen själv angav arbetarnas missnöje som skäl för beslutet.",
      ratt:true,
-     kommentar:"Detta står bokstavligen i källan, och är det säkraste du kan säga."},
-    {txt:"Att det förekom återkommande missnöje vid gjuteriet före 1902.",
+     kommentar:"Det står i klartext i protokollet. Vad styrelsen <em>anförde</em> är källan säker på."},
+    {txt:"Att det förekom återkommande missnöje vid gjuteriet före oktober 1902.",
      ratt:true,
-     kommentar:"Ordet 'upprepad' bär den slutsatsen — styrelsen hade ingen anledning att hitta på det."},
-    {txt:"Att svenska arbetare fick tiotimmarsdag 1902.",
-     ratt:false, miss:"enskilt_fall_generaliserat",
-     kommentar:"Ett företags beslut säger ingenting om landet. Hoppet från ett fall till alla är det vanligaste felet i uppsatser."},
+     kommentar:"Disponentens anmälan är ett belägg — inte ett neutralt sådant, men företaget hade ingen anledning att hitta på det."},
+    {txt:"Att beslutet var omstritt inom styrelsen.",
+     ratt:true,
+     kommentar:"Reservationen till protokollet är ett direkt belägg för oenighet."},
+    {txt:"Att svenska verkstadsarbetare fick tiotimmarsdag 1902.",
+     ratt:false, miss:"fran_ett_fall_till_alla",
+     kommentar:"Ett gjuteri vid ett företag. Steget till hela branschen kräver helt annat material."},
     {txt:"Att arbetarna vid gjuteriet blev nöjda efter beslutet.",
      ratt:false, miss:"slutsats_utanfor_kallan",
-     kommentar:"Källan tar slut vid beslutet. Vad som hände sedan står inte där."},
+     kommentar:"Protokollet slutar vid beslutet. Vad som hände sedan står inte där."},
     {txt:"Att styrelsen sympatiserade med arbetarnas krav.",
-     ratt:false, miss:"motiv_lasas_in",
-     kommentar:"Protokollet visar ett beslut och ett angivet skäl. Vad styrelsen kände eller tyckte står inte där."},
-    {txt:"Ingenting, eftersom protokollet är skrivet av arbetsgivaren.",
-     ratt:false, miss:"tendens_som_diskvalificering",
-     kommentar:"Protokoll skrivna av en part är fortfarande utmärkta källor till partens beslut och angivna skäl."}
+     ratt:false, miss:"motiv_inlast_i_kallan",
+     kommentar:"Skälet som anges är leveranserna, inte rättvisan. Att göra en eftergift är inte att hålla med."}
   ],
-  s:`<p>Dra gränsen vid vad källan faktiskt kan bära. Två frågor: står det där,
-  eller lägger jag till det? Och: gäller det ett fall eller alla?</p>`
+  s:`<p>Dra gränsen vid vad källan faktiskt kan bära. Två frågor: står det
+  där, eller lägger jag till det? Och: gäller det ett fall eller alla?</p>
+  <p>Lägg märke till att ett och samma protokoll bär olika säkra slutsatser.
+  Att beslutet fattades är säkrast. Varför det fattades är styrelsens egen
+  version.</p>`
 },
 
 {
   id:"hi-ha-602", kap:6, omr:"ha_tolkning",
   familj:["olika_tolkning_samma_material","kriterier_avgor"], niva:"C",
   svarstyp:"alternativ",
-  t:`<p>Två historiker arbetar med samma material: bouppteckningar från en socken
-  på 1830-talet. Den ene drar slutsatsen att fattigdomen var utbredd. Den andre
-  menar att materialet snarare visar en växande grupp med ett visst
-  överskott.</p>
+  t:`<p>Två historiker arbetar med samma material: avlöningsböcker från ett
+  bruk på 1870-talet, där varje arbetares utbetalda lön och avdrag är
+  införda vecka för vecka.</p>
+  <p>Den ene drar slutsatsen att brukets arbetare levde under knappa men
+  stabila villkor. Den andre menar att materialet visar en utbredd
+  osäkerhet.</p>
   <p class="fragan">Varför kan de landa olika?</p>`,
   alternativ:[
-    {txt:"De kan ställa olika frågor till materialet och därmed leta efter olika saker.",
+    {txt:"De kan ställa olika frågor till materialet och därmed leta efter olika saker — den ene efter nivå, den andre efter variation mellan veckorna.",
      ratt:true,
-     kommentar:"Frågan styr vad man ser. Det är inte slarv utan en förutsättning för all forskning."},
-    {txt:"De kan dra gränsen för 'fattig' på olika sätt, och därmed räkna samma hushåll åt olika håll.",
+     kommentar:"Samma siffror, olika frågor. Ett genomsnitt och en spridning kan peka åt olika håll."},
+    {txt:"De kan dra gränsen för vad som räknas som osäker inkomst på olika sätt, och därmed räkna samma arbetare åt olika håll.",
      ratt:true,
-     kommentar:"Definitionen avgör resultatet. Därför ska den alltid redovisas."},
+     kommentar:"Definitionen avgör resultatet. Därför ska en historiker alltid redovisa sina gränser."},
+    {txt:"De kan ha avgränsat urvalet olika — till exempel räknat in eller ut säsongsanställda och kvinnor.",
+     ratt:true,
+     kommentar:"Urvalet är det tredje stället där tolkningar skiljer sig åt, och det syns sällan i slutsatsen."},
     {txt:"En av dem måste ha läst materialet felaktigt.",
-     ratt:false, miss:"olika_tolkning_lika_med_fel",
-     kommentar:"Olika slutsatser från samma material är normalt, inte ett tecken på misstag."},
-    {txt:"Den som publicerade senast har rätt.",
-     ratt:false, miss:"senare_lika_med_battre",
-     kommentar:"Senare forskning har ofta mer material att gå på, men det avgör inte i sig."},
-    {txt:"Eftersom de är oense går materialet inte att använda.",
-     ratt:false, miss:"oenighet_lika_med_vardelost",
-     kommentar:"Oenighet är forskningens normaltillstånd och ofta det som driver den framåt."},
-    {txt:"Historia är åsikter, så båda har lika rätt.",
+     ratt:false, miss:"oenighet_lika_med_slarv",
+     kommentar:"Oenighet mellan historiker beror sällan på läsfel. Nästan alltid på fråga, definition eller urval."},
+    {txt:"Eftersom de är oense går materialet inte att använda för den här typen av fråga.",
+     ratt:false, miss:"oenighet_lika_med_oanvandbart",
+     kommentar:"Tvärtom — att två läsningar är möjliga är just varför materialet är värt att arbeta med."},
+    {txt:"Historia bygger på tolkningar, och därför är båda slutsatserna lika välgrundade.",
      ratt:false, miss:"relativism",
-     kommentar:"Tolkningar kan prövas. Den som redovisar sina kriterier, täcker mer av materialet och tål invändningar står starkare. Att flera tolkningar finns betyder inte att alla är lika bra."}
+     kommentar:"Att flera tolkningar är möjliga är inte samma sak som att alla är lika bra. Täckning, konsekvens och bemötta invändningar skiljer dem åt."}
   ],
-  ledtrad:"Vad skulle du behöva veta om de två studierna för att kunna avgöra vilken som håller bäst?",
-  s:`<p>Skillnader i tolkning kommer oftast från skillnader i fråga, definition
-  eller urval — inte från slarv och inte från godtycke.</p>
-  <p>Att flera tolkningar är möjliga är inte samma sak som att alla är lika
-  bra. Kriterierna är fortfarande: täckning, konsekvens och hur väl
-  invändningar bemöts.</p>`
+  s:`<p>Skillnader i tolkning kommer oftast från skillnader i fråga,
+  definition eller urval — inte från slarv och inte från godtycke.</p>
+  <p>Kriterierna för att väga två tolkningar är fortfarande: hur mycket av
+  materialet täcks, hur väl hänger resonemanget ihop, och hur bemöts de
+  starkaste invändningarna?</p>`,
+  ledtrad:"Vad skulle du behöva veta om de två studierna för att kunna avgöra vilken som håller bäst?"
 },
 
 {
@@ -1202,118 +1460,177 @@ var BANKHIST = [
   id:"hi-kk-110", kap:1, omr:"kk_akthet",
   familj:["akthet","bevisborda"], niva:"E",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källa · Runsten, funnen 1898</div>
-    <p>På en gård utanför Kensington i Minnesota hittade lantbrukaren Olof
-    Öhman en sten med runinskrift. Inskriften berättar om en grupp
-    skandinaver på resa och avslutas med årtalet 1362.</p>
-    <div class="kall-ref">Trakten hade under 1800-talets senare hälft tagit
-    emot en stor skandinavisk invandring. Runologer har sedan dess pekat på
-    att runformer och språkdrag i inskriften hör hemma i 1800-talets
-    svenska, inte i 1300-talets.</div>
-  </div>
-  <p class="fragan">Vilken bedömning av stenens äkthet är bäst underbyggd?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Kensingtonstenen",
+    typ:"Runinskrift, funnen 1898",
+    akthet:"autentisk",
+    text:`<p>Inskriften lyder i översättning ungefär:</p>
+    <blockquote><p><em>Åtta götar och tjugotvå norrmän på upptäcktsfärd
+    från Vinland västerut. Vi hade läger vid två skär en dagsresa norr om
+    denna sten. Vi var ute och fiskade en dag. När vi kom hem fann vi tio
+    man röda av blod och döda. Ave Maria, fräls från ondo.</em></p>
+    <p><em>Har tio man vid havet att se efter våra skepp, fjorton dagsresor
+    från denna ö. År 1362.</em></p></blockquote>`,
+    om:`<p>Stenen hittades 1898 av en lantbrukare under en asp på hans
+    mark utanför Kensington i Minnesota.</p>
+    <p>Runologer har sedan dess pekat på att flera runformer och flera
+    språkdrag i inskriften hör hemma i 1800-talets svenska och inte i
+    1300-talets. Enstaka forskare har invänt mot den bedömningen.</p>
+    <p>Nordbor nådde bevisligen Nordamerika omkring år 1000; en
+    vikingatida boplats är utgrävd vid L'Anse aux Meadows på
+    Newfoundland.</p>`,
+    referens:"Kensingtonstenen, Runestone Museum, Alexandria, Minnesota. Översättningen återgiven i sammandrag."
+  }],
+  t:`<p class="fragan">Vilken bedömning av stenens äkthet är bäst
+  underbyggd?</p>`,
   alternativ:[
     {txt:"Språkets och runornas former hör hemma i 1800-talet, och det väger tyngre än att en resa i sig vore tänkbar.",
      ratt:true,
-     kommentar:"Äkthetsprövningen börjar i föremålet självt. Att innehållet <em>kunde</em> ha hänt säger inget om när texten skrevs."},
+     kommentar:"Äkthetsprövningen börjar i föremålet självt. Att innehållet <em>kunde</em> ha hänt säger ingenting om när texten höggs."},
     {txt:"Att nordbor bevisligen nådde Nordamerika omkring år 1000 styrker inskriftens äkthet.",
      ratt:false, miss:"mojlighet_som_belagg",
-     kommentar:"Att något är möjligt är inte ett belägg för att det inträffade. Vinland visar bara att resan inte är otänkbar."},
-    {txt:"Eftersom stenen hittades av en invandrad svensk måste den vara en förfalskning.",
-     ratt:false, miss:"avsandare_lika_med_belagg",
-     kommentar:"Vem som hittade stenen avgör inte frågan. Misstanken måste beläggas i materialet, inte i personen."},
+     kommentar:"Att något är möjligt är inte ett belägg för att det inträffade. L'Anse aux Meadows visar bara att resan inte var otänkbar."},
+    {txt:"Att stenen låg nedgrävd under ett träd visar att den legat i marken mycket länge.",
+     ratt:false, miss:"fyndomstandighet_overtolkad",
+     kommentar:"Fyndomständigheter kan ordnas. Ett trädrotssystem daterar inte en inskrift — och rötter kan växa om en sten på få decennier."},
     {txt:"Stenen är en kvarleva, och kvarlevor kan inte vara förfalskade.",
      ratt:false, miss:"kvarleva_alltid_saker",
      kommentar:"En kvarleva kan mycket väl vara tillverkad för att lura. Att den är ett föremål och inte en berättelse hjälper inte."},
     {txt:"Eftersom ingen har kunnat bevisa att stenen är falsk bör den betraktas som äkta.",
      ratt:false, miss:"omvand_bevisborda",
      kommentar:"Bevisbördan ligger hos den som hävdar att fyndet är äkta. Frånvaro av motbevis är inte ett belägg."},
-    {txt:"Frågan går inte att avgöra eftersom inga ögonvittnen från 1362 finns kvar.",
-     ratt:false, miss:"krav_pa_ogonvittne",
-     kommentar:"Om det kravet gällde skulle nästan ingen medeltidshistoria gå att skriva. Inskriften själv är material nog."}
+    {txt:"Att enstaka forskare invänt mot runologernas bedömning gör frågan alltför omstridd för att kunna avgöras.",
+     ratt:false, miss:"oenighet_lika_med_oavgjort",
+     kommentar:"Att någon är oense gör inte ett läge jämnt. Det avgörande är vem som kan bemöta invändningarna i sak."}
   ],
-  s:`<p>Äkthet prövas i första hand på källan själv: skrift, språk, material,
-  tillkomstsammanhang. Först därefter blir innehållet intressant.</p>
+  s:`<p>Äkthet prövas i första hand på källan själv: skrift, språk,
+  material, tillkomstsammanhang. Först därefter blir innehållet
+  intressant.</p>
   <p>Notera skillnaden mellan <em>möjligt</em> och <em>belagt</em>. Den
-  skillnaden återkommer i nästan varje källkritisk diskussion.</p>`,
+  återkommer i nästan varje källkritisk diskussion.</p>`,
   ledtrad:"Vad i det här kan undersökas direkt, utan att man vet något om vad som hände 1362?"
 },
 
 {
   id:"hi-kk-111", kap:1, omr:"kk_beroende",
-  familj:["beroende","tradering"], niva:"C",
+  familj:["tradering","ga_uppstroms"], niva:"C",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källor A, B och C · Lokaltidningar, hösten 1918</div>
-    <p>Tre tidningar i samma län rapporterar om spanska sjukan i staden.
-    Formuleringarna är nästan ordagrant desamma i alla tre, och samtliga
-    anger att uppgifterna kommer från stadsläkaren.</p>
-  </div>
-  <p class="fragan">Vilka bedömningar är rimliga?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Var kommer hornhjälmen ifrån?",
+    typ:"Forskningsöversikt",
+    akthet:"autentisk",
+    text:`<p>Föreställningen att vikingar bar hjälmar med horn är spridd
+    över hela världen. Följer man uppgiften bakåt ser kedjan ut så här:</p>
+    <p><strong>I dag.</strong> Horn förekommer i filmer, maskeraddräkter,
+    reklam och idrottspublik.</p>
+    <p><strong>Sent 1800-tal.</strong> Nationalromantiska målare och
+    illustratörer ger nordiska hjältar horn på hjälmarna. Kostymören till
+    Wagners operacykel <em>Nibelungens ring</em> (uruppförd 1876) utrustar
+    de germanska gestalterna med hornprydda hjälmar, och bilderna sprids
+    vida.</p>
+    <p><strong>Ännu tidigare.</strong> Hjälmar med horn finns faktiskt
+    belagda i Nordeuropa — men från bronsåldern, alltså mer än tusen år
+    före vikingatiden, och de förefaller ha använts i kult, inte i strid.</p>
+    <p><strong>Vikingatiden själv.</strong> Av de mycket få bevarade
+    vikingatida hjälmar som grävts fram har ingen horn. Inga samtida
+    bildframställningar och inga samtida texter beskriver horn på
+    stridshjälmar.</p>`,
+    om:`<p>Uppgiften upprepas i populärkultur, i turistsouvenirer och i
+    äldre skolböcker.</p>
+    <p>Varje ny återgivning hänvisar i praktiken till den föregående, inte
+    till något arkeologiskt fynd.</p>`,
+    referens:"Sammanställning efter forskningsläget om vikingatida hjälmar. Använd den som övning, inte som enda underlag för en uppsats."
+  }],
+  t:`<p>En elev skriver att vikingarna bar hornhjälmar och anger tre
+  populärvetenskapliga böcker som källa.</p>
+  <p class="fragan">Vilka bedömningar av källäget är rimliga?</p>`,
   alternativ:[
-    {txt:"Tidningarna är inte tre oberoende källor utan tre återgivningar av en och samma uppgift.",
+    {txt:"De tre böckerna är inte tre oberoende belägg. Följer man uppgiften uppströms slutar den i 1800-talets bildkonst, inte i ett fynd.",
      ratt:true,
-     kommentar:"Just det. Beroendekriteriet handlar om hur många <em>oberoende</em> vägar uppgiften tagit, inte hur många tidningar som tryckt den."},
-    {txt:"Att samma formulering återkommer stärker inte uppgiften — den upprepas, den prövas inte.",
+     kommentar:"Så gör man: fråga varje led var <em>det</em> har uppgiften ifrån, tills kedjan tar slut eller når ett original."},
+    {txt:"Att uppgiften är mycket spridd är inget stöd för den. Spridning mäter hur ofta något upprepats, inte hur väl det är belagt.",
      ratt:true,
-     kommentar:"Upprepning är inte bekräftelse. Ett fel i ursprungskällan följer med i alla tre."},
-    {txt:"Vill historikern komma närmare bör hon söka stadsläkarens eget underlag, till exempel dödböcker.",
-     ratt:true,
-     kommentar:"Att gå uppströms mot förstahandsmaterialet är standardgreppet när beroende har konstaterats."},
-    {txt:"Att tre av varandra oberoende tidningar skriver samma sak gör uppgiften betydligt säkrare.",
-     ratt:false, miss:"beroende_forbisett",
-     kommentar:"Premissen håller inte: tidningarna är inte oberoende av varandra här."},
-    {txt:"Eftersom stadsläkaren var en myndighetsperson behöver uppgiften inte prövas vidare.",
-     ratt:false, miss:"auktoritet_som_belagg",
-     kommentar:"Ämbetet gör uppgiften rimlig att ta på allvar, inte färdigprövad. Även myndigheter räknade fel 1918."},
-    {txt:"Tidningarna är förstahandskällor eftersom de skrevs samtidigt som sjukdomen pågick.",
-     ratt:false, miss:"samtida_lika_med_forstahands",
-     kommentar:"Samtida är inte samma sak som förstahands. Tidningarna återger någon annans iakttagelser."}
+     kommentar:"Ett av de nyttigaste källkritiska greppen överhuvudtaget, långt utanför historieämnet."},
+    {txt:"Att hornhjälmar faktiskt finns belagda i Nordeuropa stöder påståendet om vikingatiden.",
+     ratt:false, miss:"fel_period_som_belagg",
+     kommentar:"Bronsålder och vikingatid skiljs åt av mer än tusen år. Rätt föremål, fel århundrade, är inget belägg."},
+    {txt:"Eftersom inga bevarade vikingatida hjälmar har horn är saken bevisad en gång för alla.",
+     ratt:false, miss:"franvaro_som_slutgiltigt_bevis",
+     kommentar:"Frånvaro av fynd är ett starkt skäl men inte ett definitivt bevis — särskilt när bevarade hjälmar är så få."},
+    {txt:"Eftersom uppgiften kommer från opera och måleri är den ett medvetet bedrägeri.",
+     ratt:false, miss:"misstag_lika_med_bedrageri",
+     kommentar:"En kostymör som vill ha dramatisk verkan bedrar ingen. Felet uppstod i konsten och vandrade sedan in i faktatexter."},
+    {txt:"Eftersom böckerna är populärvetenskapliga kan de aldrig användas som källor.",
+     ratt:false, miss:"genre_som_diskvalificering",
+     kommentar:"Genren avgör inte. En populärvetenskaplig bok med tydliga referenser kan vara utmärkt — frågan är alltid vad den stöder sig på."}
   ],
-  s:`<p>Beroendekriteriet frågar inte hur många källor som säger samma sak,
-  utan hur många av varandra oberoende iakttagelser som ligger bakom.</p>
-  <p>Tre exemplar av samma uppgift är fortfarande en uppgift.</p>`
+  s:`<p>Beroendekriteriet frågar inte hur många som säger samma sak, utan
+  hur många av varandra oberoende iakttagelser som ligger bakom.</p>
+  <p>Övningen heter <em>gå uppströms</em>: fråga varje led var det har
+  uppgiften ifrån. Ibland tar kedjan slut i ett original. Ibland, som
+  här, i en teaterkostym.</p>`
 },
 
 {
   id:"hi-kk-112", kap:1, omr:"kk_anvandbarhet",
   familj:["anvandbarhet","urvalsbias"], niva:"C",
   svarstyp:"alternativ",
-  t:`<div class="kalla">
-    <div class="kall-topp">Källa · Bouppteckningar</div>
-    <p>Efter ett dödsfall upprättades en bouppteckning: en förteckning över
-    den dödes tillhörigheter med uppskattat värde, post för post — kläder,
-    husgeråd, redskap, djur, böcker, skulder.</p>
-    <div class="kall-ref">Bouppteckningar har upprättats i Sverige sedan
-    1700-talet och finns bevarade i stora mängder. Hushåll utan egendom av
-    värde saknas ofta i materialet.</div>
-  </div>
-  <p class="fragan">Vilka frågor kan det här materialet faktiskt besvara?</p>`,
+  kallor:[{
+    bet:"A",
+    titel:"Bouppteckning efter en torpare",
+    typ:"Bouppteckning, 1834",
+    akthet:"konstruerad",
+    text:`<p>Bouppteckning efter avlidne torparen Erik Jansson, upprättad
+    i närvaro av änkan och två gode män.</p>
+    <table>
+      <tr><th>Post</th><th>Antal</th><th>Värde (rdr&nbsp;bco)</th></tr>
+      <tr><td>Ko, äldre</td><td>1</td><td>12</td></tr>
+      <tr><td>Får</td><td>3</td><td>4</td></tr>
+      <tr><td>Järngryta</td><td>1</td><td>1</td></tr>
+      <tr><td>Tennfat</td><td>2</td><td>2</td></tr>
+      <tr><td>Yxa och lie</td><td>2</td><td>1</td></tr>
+      <tr><td>Spinnrock</td><td>1</td><td>2</td></tr>
+      <tr><td>Säng med halmbotten</td><td>1</td><td>1</td></tr>
+      <tr><td>Psalmbok</td><td>1</td><td>—</td></tr>
+      <tr><td>Bibel, sliten</td><td>1</td><td>—</td></tr>
+      <tr><td><em>Avgår: skuld till handlanden</em></td><td></td><td><em>9</em></td></tr>
+    </table>`,
+    om:`<p>Bouppteckning upprättades efter dödsfall och listade den dödes
+    tillhörigheter post för post med uppskattat värde, samt skulder.</p>
+    <p>Bouppteckningar har upprättats i Sverige sedan 1700-talet och finns
+    bevarade i mycket stora mängder. Hushåll helt utan egendom av värde
+    saknas ofta i materialet.</p>`,
+    referens:"Konstruerad källa, uppställd efter mönstret för svenska bouppteckningar från 1800-talets första hälft."
+  }],
+  t:`<p class="fragan">Vilka frågor kan det här slaget av material faktiskt
+  besvara?</p>`,
   alternativ:[
     {txt:"Vilka föremål som fanns i hemmen, och hur det skilde sig mellan hushåll.",
      ratt:true,
-     kommentar:"Detta är vad handlingen faktiskt registrerar, och den gör det systematiskt."},
+     kommentar:"Det är precis vad handlingen registrerar, och den gör det systematiskt nog för att kunna jämföras."},
     {txt:"Hur hemmens innehåll förändrades över tid, eftersom samma slags handling upprättats under mycket lång tid.",
      ratt:true,
-     kommentar:"Seriemateriel av det här slaget är guld värt just för förändring över tid — formuläret är sig likt."},
+     kommentar:"Seriematerial är guld värt just för förändring över tid — formuläret är sig likt i århundraden."},
     {txt:"Skillnader mellan grupper, men med reservationen att de allra fattigaste ofta saknas i materialet.",
      ratt:true,
-     kommentar:"Rätt, och reservationen är poängen: den som glömmer den läser rikedom där det bara finns ett snedvridet urval."},
+     kommentar:"Reservationen är poängen. Den som glömmer den läser välstånd där det bara finns ett snedvridet urval."},
     {txt:"Vad människor kände inför sina ägodelar och vilka föremål de höll kära.",
      ratt:false, miss:"kalla_overtolkad",
-     kommentar:"Ett värderat föremål i en lista säger inget om känslor. Till det behövs brev, dagböcker eller domstolsmaterial."},
-    {txt:"Hur hela befolkningen levde, eftersom bouppteckningar är myndighetshandlingar och därför heltäckande.",
+     kommentar:"Att bibeln är sliten är ett spår värt att notera — men det är en indikation, inte ett belägg för känslor."},
+    {txt:"Hur hela befolkningen levde, eftersom bouppteckningar upprättades av myndighet och materialet därför är heltäckande.",
      ratt:false, miss:"myndighet_lika_med_heltackande",
      kommentar:"Myndighetsmaterial är inte automatiskt heltäckande. Här är just de fattigaste underrepresenterade."},
     {txt:"Hur ofta föremålen användes i vardagen.",
      ratt:false, miss:"kalla_overtolkad",
-     kommentar:"Förteckningen visar förekomst, inte användning. En vävstol i boet kan ha stått oanvänd i tjugo år."}
+     kommentar:"Förteckningen visar förekomst, inte användning. En spinnrock i boet kan ha stått oanvänd i tjugo år."}
   ],
   s:`<p>Frågan ”är källan trovärdig?” är trubbig. Den skarpare frågan är
   <em>vad</em> källan kan bära: vad registrerade den som skrev, och vad
   registrerade han inte?</p>
-  <p>En källa kan vara utmärkt för en fråga och värdelös för nästa.</p>`
+  <p>Lägg märke till skuldposten. Ett bo kan se välförsett ut tills man
+  läser sista raden.</p>`
 },
 
 {
@@ -1397,37 +1714,54 @@ var BANKHIST = [
   id:"hi-fk-410", kap:4, omr:"fk_kontinuitet",
   familj:["forandring_och_kontinuitet","reformens_granser"], niva:"C",
   svarstyp:"alternativ",
-  t:`<p>År 1866 ersattes den svenska ståndsriksdagen av en tvåkammarriksdag.
-  Rösträtten till andra kammaren knöts till inkomst och förmögenhet och
-  omfattade omkring en femtedel av de vuxna männen. Första kammaren valdes
-  indirekt, med graderad röstskala och höga krav för att vara valbar. Kvinnor
-  hade ingen rösträtt.</p>
-  <p class="fragan">Vilka bedömningar av förändring och kontinuitet är
+  kallor:[{
+    bet:"A",
+    titel:"Folkskolestadgan och åren efter",
+    typ:"Sammanställning, 1842 och framåt",
+    akthet:"autentisk",
+    text:`<p><strong>1842.</strong> Varje socken och stadsförsamling åläggs
+    att inom fem år inrätta minst en skola med en godkänd lärare.</p>
+    <p><strong>Åren efter.</strong> Många socknar löser kravet med
+    flyttande skola, där läraren vandrar mellan byarna och undervisar några
+    veckor i taget. Skolgången är kort och oregelbunden, och barnens arbete
+    i jordbruket går före under sommarhalvåret.</p>
+    <p><strong>Undervisningen.</strong> Kristendomskunskap står i centrum,
+    och skolan står under kyrkoherdens tillsyn i församlingen. Katekesen
+    och den heliga historien är fortsatt det som kunskap främst mäts i.</p>
+    <p><strong>1878.</strong> En normalplan fastställer vad som ska läras
+    ut och i vilken ordning, och skolgången blir efter hand mer likartad
+    över landet.</p>`,
+    om:`<p>Före 1842 fanns undervisning framför allt genom husförhören,
+    där prästen kontrollerade läskunnighet och katekeskunskap hushåll för
+    hushåll.</p>`,
+    referens:"Sammanställning efter huvuddragen i 1842 års folkskolestadga och dess tillämpning."
+  }],
+  t:`<p class="fragan">Vilka bedömningar av förändring och kontinuitet är
   rimliga?</p>`,
   alternativ:[
-    {txt:"Formen förändrades genomgripande — ståndens riksdag försvann — medan vilka som faktiskt hade inflytande förändrades mindre.",
+    {txt:"Förändring: ansvaret för barns undervisning flyttades från hemmet till en institution som varje socken var skyldig att hålla.",
      ratt:true,
-     kommentar:"Den dubbelheten är hela poängen med reformen som exempel."},
-    {txt:"En gräns ersattes av en annan: i stället för stånd avgjorde nu inkomst och förmögenhet vem som fick rösta.",
+     kommentar:"Skyldigheten är det nya. Före 1842 fanns undervisning, men ingen som var skyldig att ordna en skola."},
+    {txt:"Kontinuitet: innehållet förblev till stor del kyrkans, och det var fortfarande kristendomskunskap som kunskap främst mättes i.",
      ratt:true,
-     kommentar:"Bra sätt att formulera det. Gränsen flyttades, den togs inte bort."},
-    {txt:"Att kvinnor fortfarande saknade rösträtt är kontinuitet mitt i en reform som samtiden uppfattade som stor.",
+     kommentar:"Formen förändrades snabbare än innehållet. Så är det i de flesta skolreformer."},
+    {txt:"Kontinuitet: barnens arbete gick fortsatt före skolgången under stora delar av året.",
      ratt:true,
-     kommentar:"Kontinuitet syns tydligast när man frågar vem förändringen inte gällde."},
-    {txt:"Reformen införde allmän rösträtt för män.",
-     ratt:false, miss:"faktafel_rostratt",
-     kommentar:"Långt ifrån. Allmän rösträtt för män beslutades först 1907–09 och genomfördes stegvis därefter."},
-    {txt:"Eftersom ståndsriksdagen avskaffades var Sverige nu en demokrati.",
-     ratt:false, miss:"reform_lika_med_demokrati",
-     kommentar:"En folkvald kammare är inte detsamma som demokrati när fyra femtedelar av männen och alla kvinnor står utanför."},
-    {txt:"Eftersom det mesta i praktiken bestod var reformen betydelselös.",
+     kommentar:"Stadgan kunde föreskriva en skola. Den kunde inte ersätta de händer jordbruket behövde i juli."},
+    {txt:"Förändring: från 1842 gick i praktiken samtliga svenska barn i skola på ungefär samma sätt.",
+     ratt:false, miss:"reform_overdriven",
+     kommentar:"Långt ifrån. Flyttande skola och oregelbunden närvaro var vanligt i decennier, och normalplanen kom först 1878."},
+    {txt:"Förändring: kyrkans inflytande över undervisningen upphörde i och med stadgan.",
+     ratt:false, miss:"kontinuitet_felplacerad",
+     kommentar:"Skolan låg kvar under församlingen och kyrkoherdens tillsyn. Det är just här kontinuiteten finns."},
+    {txt:"Eftersom mycket bestod i praktiken var stadgan i huvudsak symbolisk.",
      ratt:false, miss:"kontinuitet_overdriven",
-     kommentar:"Motsatt övertramp. Reformen skapade den arena där rösträttsstriden sedan kunde föras."}
+     kommentar:"Samma övertramp åt andra hållet. Stadgan skapade den struktur som gjorde 1878 och allt därefter möjligt."}
   ],
   s:`<p>Fråga alltid två saker om en reform: vad förändrades, och för vem
   förändrades ingenting?</p>
   <p>Svaret ligger nästan alltid mittemellan ”ett genombrott” och ”bara
-  fasad”.</p>`
+  fasad”. Här: formen ändrades 1842, innehållet betydligt senare.</p>`
 },
 
 {
@@ -1467,18 +1801,41 @@ var BANKHIST = [
   id:"hi-ha-610", kap:6, omr:"ha_belagg",
   familj:["fran_belagg_till_slutsats","overforing_mellan_omraden"], niva:"A",
   svarstyp:"alternativ",
-  t:`<p>Två historiker skriver om digerdödens dödlighet i Sverige.</p>
-  <div class="kalla">
-    <div class="kall-topp">Historiker X</div>
-    <p>Uppskattar att omkring en tredjedel av befolkningen dog, genom att
-    överföra dödlighetstal som beräknats ur engelska godsräkenskaper.</p>
-  </div>
-  <div class="kalla">
-    <div class="kall-topp">Historiker Y</div>
-    <p>Menar att det svenska materialet — ödegårdslistor och jordeböcker —
-    inte tillåter en sådan siffra, eftersom en gård kunde läggas öde av flera
-    skäl än att brukaren dog.</p>
-  </div>
+  kallor:[{
+    bet:"X",
+    titel:"Historiker X om digerdödens dödlighet",
+    typ:"Forskningssammandrag",
+    akthet:"konstruerad",
+    text:`<p>Engelska godsräkenskaper är ovanligt fylliga för åren kring
+    1350. De redovisar godsens landbor namn för namn och noterar när en
+    landbo avlidit och vem som övertagit bruket.</p>
+    <p>Ur detta material har dödlighetstal på omkring en tredjedel
+    beräknats. Eftersom pesten spreds på samma sätt i hela Nordvästeuropa
+    finns ingen anledning att anta att Sverige skulle avvika påtagligt.
+    Ett rimligt antagande är därför att omkring en tredjedel av
+    befolkningen dog också här.</p>`,
+    om:`<p>Sammandraget återger ett argument, inte ett citat ur en
+    bestämd studie.</p>`,
+    referens:"Konstruerad sammanfattning av en argumentationstyp som förekommer i forskningen om digerdöden."
+  },{
+    bet:"Y",
+    titel:"Historiker Y om samma fråga",
+    typ:"Forskningssammandrag",
+    akthet:"konstruerad",
+    text:`<p>Det svenska materialet från perioden består framför allt av
+    ödegårdslistor och jordeböcker. De redovisar vilka gårdar som inte
+    längre gav skatt eller avrad.</p>
+    <p>En gård kunde läggas öde av flera skäl: brukaren dog, brukaren
+    flyttade till bättre jord som blivit ledig, eller flera gårdar slogs
+    samman. Materialet skiljer inte mellan dessa fall.</p>
+    <p>Att räkna om ödegårdar till döda kräver därför ett antagande som
+    materialet självt inte kan pröva. En siffra för riket bör inte anges
+    med den precision som tredjedelen ger sken av.</p>`,
+    om:`<p>Sammandraget återger ett argument, inte ett citat ur en
+    bestämd studie.</p>`,
+    referens:"Konstruerad sammanfattning av en argumentationstyp som förekommer i forskningen om digerdöden."
+  }],
+  t:`<p>Läs de båda argumenten.</p>
   <p class="fragan">Vilka bedömningar av oenigheten är rimliga?</p>`,
   alternativ:[
     {txt:"Oenigheten gäller inte sympatier eller moral, utan vad materialet kan bära.",
@@ -1493,15 +1850,15 @@ var BANKHIST = [
     {txt:"Eftersom X har en siffra och Y inte har någon är X:s slutsats bättre underbyggd.",
      ratt:false, miss:"siffra_lika_med_belagg",
      kommentar:"En precis siffra kan vila på svagare grund än ett väl motiverat ”det vet vi inte”."},
-    {txt:"Eftersom historiker är oense går frågan inte att komma närmare — allt är ändå tolkning.",
-     ratt:false, miss:"relativism",
-     kommentar:"Tolkningar är inte lika goda. Den som redovisar sina antaganden och klarar invändningar står starkare."},
+    {txt:"Eftersom det engelska materialet är fylligare än det svenska bör den engelska siffran gälla tills bättre svenskt material hittas.",
+     ratt:false, miss:"battre_material_annanstans",
+     kommentar:"Ett bra mått på ett annat område är fortfarande ett mått på det området. Kvaliteten överförs inte med siffran."},
     {txt:"Y hävdar att digerdöden inte drabbade Sverige särskilt hårt.",
      ratt:false, miss:"invandning_missforstadd",
      kommentar:"Y säger inget om hur hårt — bara att just det här materialet inte kan avgöra saken."}
   ],
-  s:`<p>Ett historiskt argument har tre led: belägget, slutsatsen och steget
-  däremellan. Nästan all verklig oenighet gäller det tredje.</p>
+  s:`<p>Ett historiskt argument har tre led: belägget, slutsatsen och
+  steget däremellan. Nästan all verklig oenighet gäller det tredje.</p>
   <p>Fråga därför alltid: vad mäter belägget egentligen, och vad vill
   historikern att det ska visa?</p>`
 }

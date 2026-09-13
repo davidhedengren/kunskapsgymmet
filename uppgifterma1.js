@@ -100,53 +100,33 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{1}{3}+\\frac{5}{12}-\\frac{1}{8}\\)</div><div>b) \\(-\\frac{1}{8}+\\frac{1}{3}+\\frac{5}{12}\\)</div><div>c) \\(1-\\frac{1}{3}+\\frac{5}{12}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{5}{8}\\)</div><div>b) \\(\\frac{5}{8}\\)</div><div>c) \\(\\frac{13}{12}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Hur stor del av rektangeln är blå? Skriv bråket i enklaste form som \\(\\frac{a}{b}\\). Ange a och b.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 64\" width=\"360\" height=\"64\" role=\"img\" aria-label=\"En rektangel delad i sex lika stora delar, fyra blå och två vita\"><rect x=\"10\" y=\"8\" width=\"56\" height=\"48\" fill=\"#78abd8\" stroke=\"#253c50\"/><rect x=\"66\" y=\"8\" width=\"56\" height=\"48\" fill=\"#78abd8\" stroke=\"#253c50\"/><rect x=\"122\" y=\"8\" width=\"56\" height=\"48\" fill=\"#78abd8\" stroke=\"#253c50\"/><rect x=\"178\" y=\"8\" width=\"56\" height=\"48\" fill=\"#78abd8\" stroke=\"#253c50\"/><rect x=\"234\" y=\"8\" width=\"56\" height=\"48\" fill=\"white\" stroke=\"#253c50\"/><rect x=\"290\" y=\"8\" width=\"56\" height=\"48\" fill=\"white\" stroke=\"#253c50\"/></svg>",
+    "s": "<p>Fyra av sex lika stora delar är blå: \\(\\frac46=\\frac23\\). Alltså är a = 2 och b = 3.</p>",
+    "ledtrad": "<p>Vad räknar täljaren och vad räknar nämnaren? Kan båda talen delas med samma heltal?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk som del av en helhet",
+    "formaga": [
+      "begrepp"
+    ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "5/8",
-      "5/8",
-      "13/12"
+      2,
+      3
     ],
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "formaga": [
-      "procedur"
+    "svarFormat": [
+      "heltal",
+      "heltal"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{1}{3}+\\frac{5}{12}-\\frac{1}{8}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{5}{8}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(-\\frac{1}{8}+\\frac{1}{3}+\\frac{5}{12}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{5}{8}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{1}{3}+\\frac{5}{12}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{13}{12}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
+    "svarEtiketter": [
+      "täljare a",
+      "nämnare b"
     ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "0.04",
@@ -210,53 +190,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{7}{10}-\\frac{1}{4}+\\frac{3}{20}\\)</div><div>b) \\(\\frac{3}{20}+\\frac{7}{10}-\\frac{1}{4}\\)</div><div>c) \\(1-\\frac{7}{10}-\\frac{1}{4}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{3}{5}\\)</div><div>b) \\(\\frac{3}{5}\\)</div><div>c) \\(\\frac{1}{20}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "3/5",
-      "3/5",
-      "1/20"
+    "t": "<p>En pizza delas i åtta bitar som är olika stora. Tre bitar äts upp. Kan andelen som ätits vara mindre än, lika med respektive större än \\(\\frac38\\)? Välj rätt rad i den ordningen.</p><p>A: ja, ja, nej<br>B: nej, ja, nej<br>C: nej, ja, ja<br>D: ja, ja, ja</p>",
+    "s": "<p>Svar: D. Antalet bitar bestämmer andelen bara om bitarna är lika stora. Tre små, tre medelstora eller tre stora bitar kan ge olika andelar.</p>",
+    "ledtrad": "<p>Vilken information saknas om de tre bitar som har ätits?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk som del av en helhet",
+    "formaga": [
+      "begrepp"
     ],
+    "svarstyp": "val",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{7}{10}-\\frac{1}{4}+\\frac{3}{20}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{3}{5}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{3}{20}+\\frac{7}{10}-\\frac{1}{4}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{3}{5}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{7}{10}-\\frac{1}{4}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{1}{20}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.07",
@@ -356,53 +305,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{5}{6}-\\frac{7}{18}+\\frac{1}{9}\\)</div><div>b) \\(\\frac{1}{9}+\\frac{5}{6}-\\frac{7}{18}\\)</div><div>c) \\(1-\\frac{5}{6}-\\frac{7}{18}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{5}{9}\\)</div><div>b) \\(\\frac{5}{9}\\)</div><div>c) \\(-\\frac{2}{9}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5/9",
-      "5/9",
-      "-2/9"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Vilket tal markerar P? Markeringarna ligger på lika stora avstånd.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 85\" width=\"440\" height=\"85\" role=\"img\" aria-label=\"Tallinje från noll till två, indelad i åtta lika stora steg. Punkten P är på sjunde markeringen efter noll\"><line x1=\"30\" y1=\"42\" x2=\"410\" y2=\"42\" stroke=\"#253c50\"/><line x1=\"30.0\" y1=\"35\" x2=\"30.0\" y2=\"49\" stroke=\"#253c50\"/><line x1=\"77.5\" y1=\"35\" x2=\"77.5\" y2=\"49\" stroke=\"#253c50\"/><line x1=\"125.0\" y1=\"35\" x2=\"125.0\" y2=\"49\" stroke=\"#253c50\"/><line x1=\"172.5\" y1=\"35\" x2=\"172.5\" y2=\"49\" stroke=\"#253c50\"/><line x1=\"220.0\" y1=\"35\" x2=\"220.0\" y2=\"49\" stroke=\"#253c50\"/><line x1=\"267.5\" y1=\"35\" x2=\"267.5\" y2=\"49\" stroke=\"#253c50\"/><line x1=\"315.0\" y1=\"35\" x2=\"315.0\" y2=\"49\" stroke=\"#253c50\"/><line x1=\"362.5\" y1=\"35\" x2=\"362.5\" y2=\"49\" stroke=\"#253c50\"/><line x1=\"410.0\" y1=\"35\" x2=\"410.0\" y2=\"49\" stroke=\"#253c50\"/><text x=\"30\" y=\"73\" text-anchor=\"middle\">0</text><text x=\"220\" y=\"73\" text-anchor=\"middle\">1</text><text x=\"410\" y=\"73\" text-anchor=\"middle\">2</text><circle cx=\"362.5\" cy=\"42\" r=\"5\" fill=\"#154e86\"/><text x=\"362.5\" y=\"24\" text-anchor=\"middle\">P</text></svg>",
+    "s": "<p>Mellan 0 och 1 finns fyra steg. Varje steg är \\(\\frac14\\). P ligger sju steg från 0, alltså vid \\(\\frac74\\) = 1,75.</p>",
+    "ledtrad": "<p>Räkna mellanrummen mellan 0 och 1 innan du räknar stegen fram till P.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk på tallinjen",
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{5}{6}-\\frac{7}{18}+\\frac{1}{9}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{5}{9}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{1}{9}+\\frac{5}{6}-\\frac{7}{18}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{5}{9}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{5}{6}-\\frac{7}{18}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(-\\frac{2}{9}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "7/4",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.10",
@@ -502,53 +420,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{11}{15}+\\frac{2}{9}-\\frac{1}{6}\\)</div><div>b) \\(-\\frac{1}{6}+\\frac{11}{15}+\\frac{2}{9}\\)</div><div>c) \\(1-\\frac{11}{15}+\\frac{2}{9}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{71}{90}\\)</div><div>b) \\(\\frac{71}{90}\\)</div><div>c) \\(\\frac{22}{45}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "71/90",
-      "71/90",
-      "22/45"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Fyll i täljaren: \\(\\frac35=\\frac{\\square}{20}\\).</p>",
+    "s": "<p>Nämnaren multipliceras med 4. Då måste även täljaren multipliceras med 4: \\(\\frac35=\\frac{12}{20}\\). Svaret är 12.</p>",
+    "ledtrad": "<p>Hur förändras nämnaren från 5 till 20?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Likvärdiga bråk",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{11}{15}+\\frac{2}{9}-\\frac{1}{6}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{71}{90}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(-\\frac{1}{6}+\\frac{11}{15}+\\frac{2}{9}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{71}{90}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{11}{15}+\\frac{2}{9}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{22}{45}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.13",
@@ -648,53 +536,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{3}{8}+\\frac{5}{6}-\\frac{7}{12}\\)</div><div>b) \\(-\\frac{7}{12}+\\frac{3}{8}+\\frac{5}{6}\\)</div><div>c) \\(1-\\frac{3}{8}+\\frac{5}{6}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{5}{8}\\)</div><div>b) \\(\\frac{5}{8}\\)</div><div>c) \\(\\frac{35}{24}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5/8",
-      "5/8",
-      "35/24"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna \\(\\frac38+\\frac28\\). Ange ett exakt värde.</p>",
+    "s": "<p>\\(\\frac38+\\frac28=\\frac58\\).</p>",
+    "ledtrad": "<p>Vilken sorts delar räknar båda bråken?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{3}{8}+\\frac{5}{6}-\\frac{7}{12}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{5}{8}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(-\\frac{7}{12}+\\frac{3}{8}+\\frac{5}{6}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{5}{8}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{3}{8}+\\frac{5}{6}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{35}{24}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "5/8",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.16",
@@ -793,53 +650,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{13}{20}-\\frac{1}{5}+\\frac{7}{30}\\)</div><div>b) \\(\\frac{7}{30}+\\frac{13}{20}-\\frac{1}{5}\\)</div><div>c) \\(1-\\frac{13}{20}-\\frac{1}{5}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{41}{60}\\)</div><div>b) \\(\\frac{41}{60}\\)</div><div>c) \\(\\frac{3}{20}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "41/60",
-      "41/60",
-      "3/20"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna \\(\\frac12+\\frac13\\). Ange ett exakt värde.</p>",
+    "s": "<p>\\(\\frac12+\\frac13=\\frac36+\\frac26=\\frac56\\).</p>",
+    "ledtrad": "<p>Hur kan båda bråken beskrivas med lika stora delar?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{13}{20}-\\frac{1}{5}+\\frac{7}{30}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{41}{60}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{7}{30}+\\frac{13}{20}-\\frac{1}{5}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{41}{60}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{13}{20}-\\frac{1}{5}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{3}{20}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "5/6",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.19",
@@ -938,53 +764,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{7}{12}+\\frac{5}{18}-\\frac{1}{9}\\)</div><div>b) \\(-\\frac{1}{9}+\\frac{7}{12}+\\frac{5}{18}\\)</div><div>c) \\(1-\\frac{7}{12}+\\frac{5}{18}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{3}{4}\\)</div><div>b) \\(\\frac{3}{4}\\)</div><div>c) \\(\\frac{25}{36}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "3/4",
-      "3/4",
-      "25/36"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna \\(\\frac7{12}+\\frac5{18}-\\frac19\\). Ange ett exakt värde.</p>",
+    "s": "<p>\\(\\frac{21}{36}+\\frac{10}{36}-\\frac4{36}=\\frac{27}{36}=\\frac34\\).</p>",
+    "ledtrad": "<p>Vilket tal är delbart med både 12 och 18?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{7}{12}+\\frac{5}{18}-\\frac{1}{9}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(-\\frac{1}{9}+\\frac{7}{12}+\\frac{5}{18}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{7}{12}+\\frac{5}{18}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{25}{36}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "3/4",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.22",
@@ -1083,53 +878,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{9}{14}-\\frac{2}{7}+\\frac{5}{21}\\)</div><div>b) \\(\\frac{5}{21}+\\frac{9}{14}-\\frac{2}{7}\\)</div><div>c) \\(1-\\frac{9}{14}-\\frac{2}{7}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{25}{42}\\)</div><div>b) \\(\\frac{25}{42}\\)</div><div>c) \\(\\frac{1}{14}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "25/42",
-      "25/42",
-      "1/14"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna \\(\\frac9{14}-\\frac27+\\frac5{21}\\). Ange ett exakt värde.</p>",
+    "s": "<p>\\(\\frac{27}{42}-\\frac{12}{42}+\\frac{10}{42}=\\frac{25}{42}\\).</p>",
+    "ledtrad": "<p>Sök en gemensam nämnare för sjundedelar, fjortondelar och tjugoförstadelar.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{9}{14}-\\frac{2}{7}+\\frac{5}{21}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{25}{42}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{5}{21}+\\frac{9}{14}-\\frac{2}{7}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{25}{42}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{9}{14}-\\frac{2}{7}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{1}{14}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "25/42",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.25",
@@ -1229,53 +993,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{11}{16}+\\frac{3}{8}-\\frac{5}{12}\\)</div><div>b) \\(-\\frac{5}{12}+\\frac{11}{16}+\\frac{3}{8}\\)</div><div>c) \\(1-\\frac{11}{16}+\\frac{3}{8}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{31}{48}\\)</div><div>b) \\(\\frac{31}{48}\\)</div><div>c) \\(\\frac{11}{16}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "31/48",
-      "31/48",
-      "11/16"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Vilket heltal ska stå i rutan? \\(\\frac{\\square}{12}+\\frac14=\\frac23\\).</p>",
+    "s": "<p>\\(\\frac23-\\frac14=\\frac8{12}-\\frac3{12}=\\frac5{12}\\). Täljaren är 5.</p>",
+    "ledtrad": "<p>Hur stor del fattas från en fjärdedel till två tredjedelar?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Saknad del i en bråksumma",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{11}{16}+\\frac{3}{8}-\\frac{5}{12}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{31}{48}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(-\\frac{5}{12}+\\frac{11}{16}+\\frac{3}{8}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{31}{48}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{11}{16}+\\frac{3}{8}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{11}{16}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.28",
@@ -1388,53 +1121,34 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{4}{9}+\\frac{5}{12}-\\frac{7}{18}\\)</div><div>b) \\(-\\frac{7}{18}+\\frac{4}{9}+\\frac{5}{12}\\)</div><div>c) \\(1-\\frac{4}{9}+\\frac{5}{12}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{17}{36}\\)</div><div>b) \\(\\frac{17}{36}\\)</div><div>c) \\(\\frac{35}{36}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "17/36",
-      "17/36",
-      "35/36"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Skriv 0,125 i enklaste bråkform \\(\\frac{a}{b}\\). Ange a och b.</p>",
+    "s": "<p>\\(0{,}125=\\frac{125}{1000}=\\frac18\\). Alltså a = 1 och b = 8.</p>",
+    "ledtrad": "<p>Skriv decimalen som tusendelar. Vilken faktor kan du förkorta med?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk och decimalform",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{4}{9}+\\frac{5}{12}-\\frac{7}{18}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{17}{36}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(-\\frac{7}{18}+\\frac{4}{9}+\\frac{5}{12}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{17}{36}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{4}{9}+\\frac{5}{12}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{35}{36}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      8
     ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": [
+      "heltal",
+      "heltal"
+    ],
+    "svarEtiketter": [
+      "täljare a",
+      "nämnare b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "0.31",
@@ -1534,53 +1248,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{17}{24}-\\frac{1}{6}+\\frac{5}{8}\\)</div><div>b) \\(\\frac{5}{8}+\\frac{17}{24}-\\frac{1}{6}\\)</div><div>c) \\(1-\\frac{17}{24}-\\frac{1}{6}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{7}{6}\\)</div><div>b) \\(\\frac{7}{6}\\)</div><div>c) \\(\\frac{1}{8}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "7/6",
-      "7/6",
-      "1/8"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Skriv \\(2\\frac35\\) som ett bråk med nämnaren 5. Vilken blir täljaren?</p>",
+    "s": "<p>\\(2\\frac35=\\frac{10}{5}+\\frac35=\\frac{13}{5}\\). Täljaren är 13.</p>",
+    "ledtrad": "<p>Hur många femtedelar finns i två hela?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Blandad form och bråkform",
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{17}{24}-\\frac{1}{6}+\\frac{5}{8}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{7}{6}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{5}{8}+\\frac{17}{24}-\\frac{1}{6}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{7}{6}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{17}{24}-\\frac{1}{6}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{1}{8}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.34",
@@ -1680,53 +1363,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{5}{7}+\\frac{3}{14}-\\frac{2}{21}\\)</div><div>b) \\(-\\frac{2}{21}+\\frac{5}{7}+\\frac{3}{14}\\)</div><div>c) \\(1-\\frac{5}{7}+\\frac{3}{14}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{5}{6}\\)</div><div>b) \\(\\frac{5}{6}\\)</div><div>c) \\(\\frac{1}{2}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5/6",
-      "5/6",
-      "1/2"
+    "t": "<p>Vilket uttryck betyder tre fjärdedelar av två tredjedelar?</p><p>A: \\(\\frac34+\\frac23\\)<br>B: \\(\\frac34\\cdot\\frac23\\)<br>C: \\(\\frac34\\div\\frac23\\)<br>D: \\(\\frac23\\div\\frac34\\)</p>",
+    "s": "<p>Svar: B. Ordet ”av” betyder här att vi tar en andel av en annan andel, vilket beskrivs med multiplikation.</p>",
+    "ledtrad": "<p>Tänk på vad hälften av hälften betyder innan du väljer.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk som andel av en andel",
+    "formaga": [
+      "begrepp"
     ],
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\frac{5}{7}+\\frac{3}{14}-\\frac{2}{21}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{5}{6}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(-\\frac{2}{21}+\\frac{5}{7}+\\frac{3}{14}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{5}{6}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(1-\\frac{5}{7}+\\frac{3}{14}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</div>",
-        "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv alla termer med en gemensam nämnare innan du räknar med täljarna.</p>"
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.37",
@@ -1791,26 +1443,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac34\\cdot\\frac89\\cdot\\frac9{10}\\)</div><div>b) Multiplicera \\(\\frac34\\) med \\(\\frac23\\). Dividera resultatet med \\(\\frac56\\).</div><div>c) Dividera \\(\\frac45\\) med \\(\\frac23\\). Multiplicera sedan resultatet med \\(\\frac12\\).</div></div>",
-    "s": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac34\\cdot\\frac89\\cdot\\frac9{10}=\\frac35\\)</div><div>b) \\(\\frac34\\cdot\\frac23=\\frac12\\). Division med \\(\\frac56\\) innebär multiplikation med \\(\\frac65\\): \\(\\frac12\\cdot\\frac65=\\frac35\\).</div><div>c) \\(\\frac45\\cdot\\frac32=\\frac65\\). Sedan \\(\\frac65\\cdot\\frac12=\\frac35\\).</div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "3/5",
-      "3/5",
-      "3/5"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna \\(\\frac34\\cdot\\frac89\\). Ange ett exakt värde.</p>",
+    "s": "<p>\\(\\frac34\\cdot\\frac89=\\frac{24}{36}=\\frac23\\).</p>",
+    "ledtrad": "<p>Vilka faktorer kan förkortas innan du multiplicerar?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "2/3",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.40",
@@ -1909,26 +1557,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac56\\cdot\\frac9{10}\\cdot\\frac45\\)</div><div>b) Multiplicera \\(\\frac23\\) med \\(\\frac34\\). Dividera resultatet med \\(\\frac56\\).</div><div>c) Dividera \\(\\frac35\\) med \\(\\frac9{10}\\). Multiplicera sedan resultatet med \\(\\frac34\\).</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac56\\cdot\\frac9{10}\\cdot\\frac45=\\frac35\\)</div><div>b) \\(\\frac23\\cdot\\frac34=\\frac12\\), och \\(\\frac12\\cdot\\frac65=\\frac35\\).</div><div>c) \\(\\frac35\\cdot\\frac{10}{9}=\\frac23\\), och \\(\\frac23\\cdot\\frac34=\\frac12\\).</div></div></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "3/5",
-      "3/5",
-      "1/2"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna \\(\\frac23\\div\\frac45\\). Ange ett exakt värde.</p>",
+    "s": "<p>\\(\\frac23\\div\\frac45=\\frac23\\cdot\\frac54=\\frac56\\).</p>",
+    "ledtrad": "<p>Vilket tal är det omvända till det bråk du dividerar med?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "5/6",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.43",
@@ -2029,26 +1673,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac7{12}\\cdot\\frac{18}{35}\\cdot\\frac{10}{9}\\)</div><div>b) Multiplicera \\(\\frac56\\) med \\(\\frac35\\). Dividera resultatet med \\(\\frac34\\).</div><div>c) Dividera \\(\\frac8{15}\\) med \\(\\frac45\\). Multiplicera sedan resultatet med \\(\\frac34\\).</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac7{12}\\cdot\\frac{18}{35}\\cdot\\frac{10}{9}=\\frac13\\)</div><div>b) \\(\\frac56\\cdot\\frac35=\\frac12\\), och \\(\\frac12\\cdot\\frac43=\\frac23\\).</div><div>c) \\(\\frac8{15}\\cdot\\frac54=\\frac23\\), och \\(\\frac23\\cdot\\frac34=\\frac12\\).</div></div></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "1/3",
-      "2/3",
-      "1/2"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna \\(\\frac7{12}\\cdot\\frac{18}{35}\\cdot\\frac{10}{9}\\). Ange ett exakt värde.</p>",
+    "s": "<p>Förkorta 7 mot 35 och 18 mot 9 innan du multiplicerar: \\(\\frac7{12}\\cdot\\frac{18}{35}\\cdot\\frac{10}{9}=\\frac1{12}\\cdot\\frac25\\cdot10=\\frac13\\).</p>",
+    "ledtrad": "<p>Leta efter gemensamma faktorer i täljare och nämnare.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "1/3",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.46",
@@ -2099,58 +1739,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{-24}{-6}+(-5)-3\\)</div><div>b) \\(\\frac{-30}{5}-(-4)+2\\)</div><div>c) \\(\\frac{18}{-3}+(-2)+7\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><p>a) \\(\\frac{-24}{-6}+(-5)-3=4-5-3=-4\\)</p><p>b) \\(\\frac{-30}{5}-(-4)+2=-6+4+2=0\\)</p><p>c) \\(\\frac{18}{-3}+(-2)+7=-6-2+7=-1\\)</p></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två olika heltal ligger båda mellan −10 och 10, inklusive ändpunkterna. Deras summa är −4 och deras produkt är negativ. Hur många olika talpar finns? Räkna varje par en gång, oavsett ordning.</p>",
+    "s": "<p>En negativ produkt kräver olika tecken. Kalla det positiva talet p. Det negativa måste då vara −4 − p.</p><p>Eftersom −4 − p ≥ −10 måste p ≤ 6. Dessutom är p ett positivt heltal. Alltså kan p vara 1, 2, 3, 4, 5 eller 6.</p><p>Paren är (1; −5), (2; −6), (3; −7), (4; −8), (5; −9) och (6; −10). <strong>Svar: 6 par.</strong></p>",
     "familj": "Räkna med negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -4.0,
-      0.0,
-      -1.0
-    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{-24}{-6}+(-5)-3\\)</div>",
-        "s": "<p>\\(\\frac{-24}{-6}+(-5)-3=4-5-3=-4\\)</p>",
-        "ledtrad": "<p>Täljaren och nämnaren är båda negativa. Bestäm kvoten först.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{-30}{5}-(-4)+2\\)</div>",
-        "s": "<p>\\(\\frac{-30}{5}-(-4)+2=-6+4+2=0\\)</p>",
-        "ledtrad": "<p>Vilka termer kan tillsammans upphäva den negativa kvoten?</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{18}{-3}+(-2)+7\\)</div>",
-        "s": "<p>\\(\\frac{18}{-3}+(-2)+7=-6-2+7=-1\\)</p>",
-        "ledtrad": "<p>Efter divisionen återstår en summa av positiva och negativa termer.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Räkna divisionen först. Kontrollera sedan hur negativa termer påverkar summan.</p>",
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ]
+    "ledtrad": "<p>Vilka tecken måste talen ha? Låt det positiva talet bestämma det andra genom summan.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.48",
@@ -2161,26 +1766,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{11}{15}\\cdot\\frac5{11}\\cdot\\frac32\\)</div><div>b) Multiplicera \\(\\frac45\\) med \\(\\frac58\\). Dividera resultatet med \\(\\frac12\\).</div><div>c) Dividera \\(\\frac34\\) med \\(\\frac98\\). Multiplicera sedan resultatet med \\(\\frac12\\).</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{11}{15}\\cdot\\frac5{11}\\cdot\\frac32=\\frac12\\)</div><div>b) \\(\\frac45\\cdot\\frac58=\\frac12\\), och \\(\\frac12\\cdot2=1\\).</div><div>c) \\(\\frac34\\cdot\\frac89=\\frac23\\), och \\(\\frac23\\cdot\\frac12=\\frac13\\).</div></div></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "1/2",
-      "1",
-      "1/3"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Vilket tal ska stå i rutan? \\(\\frac45\\cdot\\square=1\\).</p>",
+    "s": "<p>\\(\\frac45\\cdot\\frac54=1\\). Det saknade talet är \\(\\frac54\\).</p>",
+    "ledtrad": "<p>Vilken produkt ska täljare och nämnare ge för att kvoten ska bli 1?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Omvända tal",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "5/4",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.49",
@@ -2279,26 +1881,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{14}{25}\\cdot\\frac{15}{28}\\cdot\\frac{10}{9}\\)</div><div>b) Multiplicera \\(\\frac34\\) med \\(\\frac56\\). Dividera resultatet med \\(\\frac54\\).</div><div>c) Dividera \\(\\frac23\\) med \\(\\frac89\\). Multiplicera sedan resultatet med \\(\\frac12\\).</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{14}{25}\\cdot\\frac{15}{28}\\cdot\\frac{10}{9}=\\frac13\\)</div><div>b) \\(\\frac34\\cdot\\frac56=\\frac58\\), och \\(\\frac58\\cdot\\frac45=\\frac12\\).</div><div>c) \\(\\frac23\\cdot\\frac98=\\frac34\\), och \\(\\frac34\\cdot\\frac12=\\frac38\\).</div></div></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "1/3",
-      "1/2",
-      "3/8"
+    "t": "<p>Vilken av beräkningarna är inte definierad?</p><p>A: \\(0\\div\\frac35\\)<br>B: \\(\\frac35\\cdot0\\)<br>C: \\(\\frac35\\div0\\)<br>D: \\(0+\\frac35\\)</p>",
+    "s": "<p>Svar: C. Kvoten skulle vara ett tal som multiplicerat med 0 ger \\(\\frac35\\). Något sådant tal finns inte. De andra beräkningarna ger 0, 0 respektive \\(\\frac35\\).</p>",
+    "ledtrad": "<p>Hur kan en division kontrolleras med multiplikation?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Division och noll",
+    "formaga": [
+      "begrepp"
     ],
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.52",
@@ -2433,26 +2031,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac9{16}\\cdot\\frac8{27}\\cdot\\frac{12}{5}\\)</div><div>b) Multiplicera \\(\\frac23\\) med \\(\\frac35\\). Dividera resultatet med \\(\\frac45\\).</div><div>c) Dividera \\(\\frac56\\) med \\(\\frac{10}{9}\\). Multiplicera sedan resultatet med \\(\\frac23\\).</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac9{16}\\cdot\\frac8{27}\\cdot\\frac{12}{5}=\\frac25\\)</div><div>b) \\(\\frac23\\cdot\\frac35=\\frac25\\), och \\(\\frac25\\cdot\\frac54=\\frac12\\).</div><div>c) \\(\\frac56\\cdot\\frac9{10}=\\frac34\\), och \\(\\frac34\\cdot\\frac23=\\frac12\\).</div></div></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "2/5",
-      "1/2",
-      "1/2"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Du har \\(\\frac34\\) liter juice. Varje glas rymmer \\(\\frac18\\) liter. Hur många fulla glas räcker juicen till?</p>",
+    "s": "<p>\\(\\frac34\\div\\frac18=\\frac68\\div\\frac18=6\\). Juicen räcker till 6 fulla glas.</p>",
+    "ledtrad": "<p>Hur många åttondelsliter finns i tre fjärdedels liter?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Division som antal delar",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.55",
@@ -2489,58 +2084,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2-5\\cdot3+4\\)</div><div>b) \\(-4+2\\cdot7-9\\)</div><div>c) \\(\\frac{18}{-3}+10-8\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><p>a) \\(2-5\\cdot3+4=2-15+4=-9\\)</p><p>b) \\(-4+2\\cdot7-9=-4+14-9=1\\)</p><p>c) \\(\\frac{18}{-3}+10-8=-6+10-8=-4\\)</p></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett heltal x ligger mellan −5 och 5, inklusive ändpunkterna. Hur många värden på x uppfyller båda villkoren \\(-x^2<x\\) och \\((-x)^2>x\\)?</p>",
+    "s": "<p>Den första olikheten gäller för heltalen −5, −4, −3, −2, 1, 2, 3, 4 och 5. Vid −1 och 0 blir det likhet i stället.</p><p>Den andra olikheten gäller för −5, −4, −3, −2, −1, 2, 3, 4 och 5. Vid 0 och 1 blir det likhet.</p><p>Båda gäller alltså för −5, −4, −3, −2, 2, 3, 4 och 5. <strong>Svar: 8 värden.</strong> En systematisk tabell eller analys av tecknen fungerar. Orden ”båda” och de strikta olikheterna är avgörande.</p>",
     "familj": "Räkna med negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -9.0,
-      1.0,
-      -4.0
-    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(2-5\\cdot3+4\\)</div>",
-        "s": "<p>\\(2-5\\cdot3+4=2-15+4=-9\\)</p>",
-        "ledtrad": "<p>Det är produkten 5 · 3 som subtraheras.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-4+2\\cdot7-9\\)</div>",
-        "s": "<p>\\(-4+2\\cdot7-9=-4+14-9=1\\)</p>",
-        "ledtrad": "<p>Räkna produkten och låt alla andra tecken stå kvar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{18}{-3}+10-8\\)</div>",
-        "s": "<p>\\(\\frac{18}{-3}+10-8=-6+10-8=-4\\)</p>",
-        "ledtrad": "<p>Kvoten har olika tecken i täljare och nämnare.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Räkna produkten eller kvoten före addition och subtraktion.</p>",
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ]
+    "ledtrad": "<p>Börja med att skilja på −x² och (−x)². Kontrollera sedan var olikheterna blir likheter.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.57",
@@ -2551,53 +2111,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac34-\\frac23\\cdot\\frac38\\)</div><div>b) Dividera \\(\\frac23\\) med \\(\\frac43\\). Addera resultatet till \\(\\frac14\\).</div><div>c) \\((\\frac34-\\frac14)\\cdot\\frac23\\)</div></div>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac12\\)</div><div>b) \\(\\frac34\\)</div><div>c) \\(\\frac13\\)</div></div>",
-    "familj": "Prioriteringsregler med bråk",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "1/2",
-      "3/4",
-      "1/3"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna \\(\\frac34-\\frac23\\cdot\\frac38\\). Ange ett exakt värde.</p>",
+    "s": "<p>Multiplikationen görs först: \\(\\frac23\\cdot\\frac38=\\frac14\\). Därefter \\(\\frac34-\\frac14=\\frac12\\).</p>",
+    "ledtrad": "<p>Vilken operation ska göras före subtraktionen?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac34-\\frac23\\cdot\\frac38\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac12\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">Dividera \\(\\frac23\\) med \\(\\frac43\\). Addera resultatet till \\(\\frac14\\).</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac34\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac34-\\frac14)\\cdot\\frac23\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac13\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "1/2",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.58",
@@ -2634,58 +2163,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-7+(-8)-(-5)+6\\)</div><div>b) \\(-3-(-6)+(-4)-2\\)</div><div>c) \\(9+(-12)-(-2)+5\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><p>a) \\(-7+(-8)-(-5)+6=-7-8+5+6=-4\\)</p><p>b) \\(-3-(-6)+(-4)-2=-3+6-4-2=-3\\)</p><p>c) \\(9+(-12)-(-2)+5=9-12+2+5=4\\)</p></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Välj tre olika tal ur mängden −6, −4, −2, 1, 3 och 5. Summan ska vara negativ och produkten positiv. Vilken är den största möjliga produkten?</p>",
+    "s": "<p>En positiv produkt av tre valda tal kräver antingen tre positiva eller två negativa och ett positivt tal. Tre positiva kan inte ge negativ summa, så bara det andra fallet återstår.</p><p>De två negativa talen ger som mest (−6)(−4) = 24. Det positiva talet är som mest 5. Ingen tillåten produkt kan därför överstiga 24 · 5 = 120.</p><p>Valet −6, −4 och 5 har summan −5 och produkten 120, så gränsen går att nå. <strong>Svar: 120.</strong></p>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -4.0,
-      -3.0,
-      4.0
-    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-7+(-8)-(-5)+6\\)</div>",
-        "s": "<p>\\(-7+(-8)-(-5)+6=-7-8+5+6=-4\\)</p>",
-        "ledtrad": "<p>Skriv om varje addition eller subtraktion av ett negativt tal innan du räknar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-3-(-6)+(-4)-2\\)</div>",
-        "s": "<p>\\(-3-(-6)+(-4)-2=-3+6-4-2=-3\\)</p>",
-        "ledtrad": "<p>Håll isär att addera −4 och att subtrahera −6.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(9+(-12)-(-2)+5\\)</div>",
-        "s": "<p>\\(9+(-12)-(-2)+5=9-12+2+5=4\\)</p>",
-        "ledtrad": "<p>Vilka av operationerna ökar talets värde?</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv om dubbla tecken innan du samlar positiva och negativa termer.</p>",
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ]
+    "ledtrad": "<p>Undersök vilka teckenkombinationer som kan uppfylla båda villkoren. Kontrollera att ditt största värde verkligen går att nå.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.60",
@@ -2696,53 +2190,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac56-\\frac12\\cdot\\frac23\\)</div><div>b) Dividera \\(\\frac34\\) med \\(\\frac32\\). Addera resultatet till \\(\\frac13\\).</div><div>c) \\((\\frac56-\\frac13)\\cdot\\frac34\\)</div></div>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac12\\)</div><div>b) \\(\\frac56\\)</div><div>c) \\(\\frac38\\)</div></div>",
-    "familj": "Prioriteringsregler med bråk",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "1/2",
-      "5/6",
-      "3/8"
+    "t": "<p>En elev skriver \\(\\frac12+\\frac13=\\frac25\\). Vilken regel ska eleven använda i stället?</p><p>A: Gör täljarna lika genom förlängning och addera sedan nämnarna.<br>B: Gör nämnarna lika genom förlängning och addera sedan täljarna.<br>C: Behåll båda täljarna, addera dem och multiplicera sedan nämnarna.<br>D: Vänd först båda bråken, addera täljarna och addera sedan nämnarna.</p>",
+    "s": "<p>Svar: B. En halv och en tredjedel är olika stora delar. Skriver vi om dem till sjättedelar får vi \\(\\frac36+\\frac26=\\frac56\\).</p>",
+    "ledtrad": "<p>Vad räknar täljarna i de två ursprungliga bråken?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Felanalys vid addition",
+    "formaga": [
+      "begrepp"
     ],
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac56-\\frac12\\cdot\\frac23\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac12\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">Dividera \\(\\frac34\\) med \\(\\frac32\\). Addera resultatet till \\(\\frac13\\).</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac56\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac56-\\frac13)\\cdot\\frac34\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac38\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>"
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.61",
@@ -2877,53 +2340,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac7{10}-\\frac25\\cdot\\frac34\\)</div><div>b) Dividera \\(\\frac35\\) med \\(\\frac65\\). Addera resultatet till \\(\\frac14\\).</div><div>c) \\((\\frac7{10}-\\frac15)\\cdot\\frac23\\)</div></div>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac25\\)</div><div>b) \\(\\frac34\\)</div><div>c) \\(\\frac13\\)</div></div>",
-    "familj": "Prioriteringsregler med bråk",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "2/5",
-      "3/4",
-      "1/3"
+    "t": "<p>Vilket räknesätt ska stå i rutan? \\(\\frac23\\;\\square\\;\\frac34=\\frac89\\).</p><p>A: addition<br>B: subtraktion<br>C: multiplikation<br>D: division</p>",
+    "s": "<p>Svar: D. \\(\\frac23\\div\\frac34=\\frac23\\cdot\\frac43=\\frac89\\). Multiplikation skulle ge \\(\\frac12\\), addition \\(\\frac{17}{12}\\) och subtraktion \\(-\\frac1{12}\\).</p>",
+    "ledtrad": "<p>Jämför först svarets storlek med de två givna bråken.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Välja räknesätt",
+    "formaga": [
+      "begrepp"
     ],
+    "svarstyp": "val",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac7{10}-\\frac25\\cdot\\frac34\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac25\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">Dividera \\(\\frac35\\) med \\(\\frac65\\). Addera resultatet till \\(\\frac14\\).</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac34\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac7{10}-\\frac15)\\cdot\\frac23\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac13\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>"
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.64",
@@ -3022,53 +2454,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{11}{12}-\\frac12\\cdot\\frac34\\)</div><div>b) Dividera \\(\\frac23\\) med \\(\\frac43\\). Addera resultatet till \\(\\frac16\\).</div><div>c) \\((\\frac{11}{12}-\\frac5{12})\\cdot\\frac23\\)</div></div>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{13}{24}\\)</div><div>b) \\(\\frac23\\)</div><div>c) \\(\\frac13\\)</div></div>",
-    "familj": "Prioriteringsregler med bråk",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "13/24",
-      "2/3",
-      "1/3"
+    "t": "<p>Utan att räkna ut värdena: hur ligger \\(\\frac34\\cdot\\frac25\\) respektive \\(\\frac34\\div\\frac25\\) i förhållande till \\(\\frac34\\)?</p><p>A: Produkten är mindre; kvoten är mindre.<br>B: Produkten är större; kvoten är mindre.<br>C: Produkten är mindre; kvoten är större.<br>D: Produkten är större; kvoten är större.</p>",
+    "s": "<p>Svar: C. Multiplikation med ett positivt tal mindre än 1 tar bara en del av ursprungsvärdet. Division med samma tal motsvarar multiplikation med \\(\\frac52\\), som är större än 1.</p>",
+    "ledtrad": "<p>Vad händer när du tar mindre än en hel av ett positivt tal?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bedöma svarets storlek",
+    "formaga": [
+      "begrepp"
     ],
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac{11}{12}-\\frac12\\cdot\\frac34\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{13}{24}\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">Dividera \\(\\frac23\\) med \\(\\frac43\\). Addera resultatet till \\(\\frac16\\).</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac23\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac{11}{12}-\\frac5{12})\\cdot\\frac23\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac13\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>"
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.67",
@@ -3203,53 +2604,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac58-\\frac13\\cdot\\frac34\\)</div><div>b) Dividera \\(\\frac12\\) med \\(\\frac34\\). Addera resultatet till \\(\\frac16\\).</div><div>c) \\((\\frac58-\\frac18)\\cdot\\frac23\\)</div></div>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac38\\)</div><div>b) \\(\\frac56\\)</div><div>c) \\(\\frac13\\)</div></div>",
-    "familj": "Prioriteringsregler med bråk",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "3/8",
-      "5/6",
-      "1/3"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>En odling upptar \\(\\frac35\\) av en tomt. Grönsaker odlas på \\(\\frac23\\) av odlingen. Hur stor del av hela tomten används till grönsaker?</p>",
+    "s": "<p>\\(\\frac23\\cdot\\frac35=\\frac25\\). Grönsakerna upptar två femtedelar av hela tomten.</p>",
+    "ledtrad": "<p>Vilken helhet avser bråket två tredjedelar?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Andel av en andel",
     "formaga": [
+      "modellering",
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac58-\\frac13\\cdot\\frac34\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac38\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">Dividera \\(\\frac12\\) med \\(\\frac34\\). Addera resultatet till \\(\\frac16\\).</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac56\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac58-\\frac18)\\cdot\\frac23\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac13\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Använd prioriteringsreglerna.: skriv först med gemensam nämnare och multiplicera sedan.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "2/5",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.70",
@@ -3313,53 +2684,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac34-\\frac12\\cdot\\frac23\\)</div><div>b) Dividera \\(\\frac12\\) med \\(\\frac34\\). Addera resultatet till \\(\\frac13\\).</div><div>c) \\((\\frac34-\\frac14)\\cdot\\frac23\\)</div></div>",
-    "s": "<p><strong>Nyckelidé:</strong> Talvalen är valda för huvudräkning och enkel bråkräkning. Multiplikation görs före subtraktion, och parentesen räknas först.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac34-\\frac13=\\frac5{12}\\)</div><div>b) \\(\\frac12\\cdot\\frac43=\\frac23\\), och \\(\\frac13+\\frac23=1\\)</div><div>c) \\(\\frac12\\cdot\\frac23=\\frac13\\)</div></div>",
-    "familj": "Prioriteringsregler med bråk",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5/12",
-      "1",
-      "1/3"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Du har \\(\\frac56\\) liter färg. Varje skylt kräver \\(\\frac14\\) liter. Hur många hela skyltar kan du måla?</p>",
+    "s": "<p>\\(\\frac56\\div\\frac14=\\frac{10}{3}=3\\frac13\\). Det räcker till 3 hela skyltar. Fyra skulle kräva 1 liter, mer än du har.</p>",
+    "ledtrad": "<p>Jämför färgåtgången för ett helt antal skyltar med den färg du har.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Division med heltalsvillkor",
     "formaga": [
+      "modellering",
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac34-\\frac12\\cdot\\frac23\\)</div>",
-        "s": "<p><strong>Metod:</strong> Talvalen är valda för huvudräkning och enkel bråkräkning. Multiplikation görs före subtraktion, och parentesen räknas först.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac34-\\frac13=\\frac5{12}\\)</div>",
-        "ledtrad": "<p>Talvalen är valda för huvudräkning och enkel bråkräkning. Multiplikation görs före subtraktion, och parentesen räknas först.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">Dividera \\(\\frac12\\) med \\(\\frac34\\). Addera resultatet till \\(\\frac13\\).</div>",
-        "s": "<p><strong>Metod:</strong> Talvalen är valda för huvudräkning och enkel bråkräkning. Multiplikation görs före subtraktion, och parentesen räknas först.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac12\\cdot\\frac43=\\frac23\\), och \\(\\frac13+\\frac23=1\\)</div>",
-        "ledtrad": "<p>Talvalen är valda för huvudräkning och enkel bråkräkning. Multiplikation görs före subtraktion, och parentesen räknas först.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac34-\\frac14)\\cdot\\frac23\\)</div>",
-        "s": "<p><strong>Metod:</strong> Talvalen är valda för huvudräkning och enkel bråkräkning. Multiplikation görs före subtraktion, och parentesen räknas först.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac12\\cdot\\frac23=\\frac13\\)</div>",
-        "ledtrad": "<p>Talvalen är valda för huvudräkning och enkel bråkräkning. Multiplikation görs före subtraktion, och parentesen räknas först.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Talvalen är valda för huvudräkning och enkel bråkräkning. Multiplikation görs före subtraktion, och parentesen räknas först.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.73",
@@ -3459,53 +2800,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2+\\frac34-\\frac56\\)</div><div>b) \\(3-\\frac7{12}+\\frac5{18}\\)</div><div>c) \\(\\frac32+\\frac23-\\frac14\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{23}{12}\\)</div><div>b) \\(\\frac{97}{36}\\)</div><div>c) \\(\\frac{23}{12}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "23/12",
-      "97/36",
-      "23/12"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna \\(2+\\frac34-\\frac56\\). Ange ett exakt värde.</p>",
+    "s": "<p>\\(\\frac{24}{12}+\\frac9{12}-\\frac{10}{12}=\\frac{23}{12}\\).</p>",
+    "ledtrad": "<p>Hur skriver du också heltalet med den gemensamma nämnaren?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(2+\\frac34-\\frac56\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{23}{12}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(3-\\frac7{12}+\\frac5{18}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{97}{36}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac32+\\frac23-\\frac14\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{23}{12}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "23/12",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.76",
@@ -3570,53 +2880,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac92-\\frac74-\\frac58\\)</div><div>b) \\(\\frac73+\\frac56-\\frac7{12}\\)</div><div>c) \\(5-\\frac{12}{5}+\\frac3{10}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{17}{8}\\)</div><div>b) \\(\\frac{31}{12}\\)</div><div>c) \\(\\frac{29}{10}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "17/8",
-      "31/12",
-      "29/10"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna \\(\\frac92-\\frac74-\\frac58\\). Ange ett exakt värde.</p>",
+    "s": "<p>\\(\\frac{36}{8}-\\frac{14}{8}-\\frac58=\\frac{17}{8}\\).</p>",
+    "ledtrad": "<p>Behåll båda minustecknen när du byter till åttondelar.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac92-\\frac74-\\frac58\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{17}{8}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac73+\\frac56-\\frac7{12}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{31}{12}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(5-\\frac{12}{5}+\\frac3{10}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{29}{10}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "17/8",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.79",
@@ -3694,53 +2973,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac74+\\frac56-\\frac23\\)</div><div>b) \\(\\frac{16}{5}-\\frac{17}{10}+\\frac3{20}\\)</div><div>c) \\(\\frac83+\\frac54-\\frac58\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{23}{12}\\)</div><div>b) \\(\\frac{33}{20}\\)</div><div>c) \\(\\frac{79}{24}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "23/12",
-      "33/20",
-      "79/24"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Två positiva bråk har nämnarna 6 respektive 4 och är båda mindre än 1. Täljarna är heltal. Hur många olika täljarpar ger summan \\(\\frac{11}{12}\\)? Bråken behöver inte vara förkortade.</p>",
+    "s": "<p>\\(\\frac{a}{6}+\\frac{b}{4}=\\frac{11}{12}\\) ger \\(2a+3b=11\\), där a är 1–5 och b är 1–3. b måste vara udda. b = 1 ger a = 4; b = 3 ger a = 1. Det finns alltså två lösningar: (4; 1) och (1; 3).</p><p>Svar: 2 täljarpar.</p>",
+    "ledtrad": "<p>Skriv båda bråken som tolftedelar. Vilka täljare är tillåtna?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Bråk med heltalsvillkor",
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac74+\\frac56-\\frac23\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{23}{12}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac{16}{5}-\\frac{17}{10}+\\frac3{20}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{33}{20}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac83+\\frac54-\\frac58\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{79}{24}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "heltal"
   },
   {
     "id": "0.82",
@@ -3817,53 +3066,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(6-\\frac{11}{4}+\\frac58\\)</div><div>b) \\(\\frac{17}{6}+\\frac7{12}-\\frac54\\)</div><div>c) \\(\\frac{14}{3}-\\frac56-\\frac32\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{31}{8}\\)</div><div>b) \\(\\frac{13}{6}\\)</div><div>c) \\(\\frac{7}{3}\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "31/8",
-      "13/6",
-      "7/3"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Två olika positiva heltal a och b uppfyller \\(\\frac1a+\\frac1b=\\frac34\\). Vilket är det större av heltalen?</p>",
+    "s": "<p>Anta att a är det mindre talet. a = 1 ger redan mer än \\(\\frac34\\). Om a är minst 3 är båda bråken högst \\(\\frac13\\) och summan högst \\(\\frac23\\). Därför är a = 2. Då är \\(\\frac1b=\\frac34-\\frac12=\\frac14\\), så b = 4. Svar: 4.</p>",
+    "ledtrad": "<p>Vilka värden på den mindre nämnaren gör summan för stor eller för liten?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Söka bråk under villkor",
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(6-\\frac{11}{4}+\\frac58\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{31}{8}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac{17}{6}+\\frac7{12}-\\frac54\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{13}{6}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac{14}{3}-\\frac56-\\frac32\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{7}{3}\\)</div>",
-        "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Använd gemensam nämnare vid addition och subtraktion. Förkorta svaret så långt som möjligt.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.85",
@@ -3927,53 +3146,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((1-\\frac34+\\frac18)\\cdot\\frac85\\)</div><div>b) \\((2-\\frac56-\\frac14)\\cdot\\frac{12}{11}\\)</div><div>c) \\((\\frac78+\\frac14-\\frac38)\\cdot\\frac23\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Beräkna parentesen först. Multiplicera därefter och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac35\\)</div><div>b) \\(1\\)</div><div>c) \\(\\frac12\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "3/5",
-      "1",
-      "1/2"
+    "t": "<p>Två positiva tal x och y är båda mindre än 1. Vilket påstående gäller alltid?</p><p>A: Produkten xy är mindre än både x och y.<br>B: Produkten xy är större än både x och y.<br>C: Produkten xy ligger mellan x och y.<br>D: Produkten xy är lika med det mindre talet.</p>",
+    "s": "<p>Svar: A. Eftersom 0 &lt; y &lt; 1 får vi xy &lt; x. Eftersom 0 &lt; x &lt; 1 får vi också xy &lt; y. Båda jämförelserna behövs.</p>",
+    "ledtrad": "<p>Jämför produkten med en faktor i taget. Vad innebär multiplikation med den andra faktorn?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Generella samband mellan bråk",
+    "formaga": [
+      "begrepp",
+      "resonemang"
     ],
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((1-\\frac34+\\frac18)\\cdot\\frac85\\)</div>",
-        "s": "<p><strong>Metod:</strong> Beräkna parentesen först. Multiplicera därefter och förkorta.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac35\\)</div>",
-        "ledtrad": "<p>Beräkna parentesen först. Multiplicera därefter och förkorta.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((2-\\frac56-\\frac14)\\cdot\\frac{12}{11}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Beräkna parentesen först. Multiplicera därefter och förkorta.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(1\\)</div>",
-        "ledtrad": "<p>Beräkna parentesen först. Multiplicera därefter och förkorta.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac78+\\frac14-\\frac38)\\cdot\\frac23\\)</div>",
-        "s": "<p><strong>Metod:</strong> Beräkna parentesen först. Multiplicera därefter och förkorta.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac12\\)</div>",
-        "ledtrad": "<p>Beräkna parentesen först. Multiplicera därefter och förkorta.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Beräkna parentesen först. Multiplicera därefter och förkorta.</p>"
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.88",
@@ -4056,53 +3245,58 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-\\frac34+\\frac56-\\frac18\\)</div><div>b) \\(\\frac7{12}-(-\\frac5{18})-\\frac14\\)</div><div>c) \\(-\\frac23\\cdot\\frac9{10}+\\frac15\\)</div></div>",
-    "s": "<p><strong>Nyckelidé:</strong> Följ prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes, så beräkna täljare och nämnare var för sig.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-\\frac{1}{24}\\)</div><div>b) \\(\\frac{11}{18}\\)</div><div>c) \\(-\\frac{2}{5}\\)</div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Beräkna. Ange exakta värden.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-\\frac34+\\frac56-\\frac18\\)</div><div>b) \\(\\frac7{12}-(-\\frac5{18})-\\frac14\\)</div><div>c) \\(-\\frac23\\cdot\\frac9{10}+\\frac15\\)</div></div>",
+    "s": "<p>a) \\(-\\frac34+\\frac56-\\frac18=-\\frac{18}{24}+\\frac{20}{24}-\\frac3{24}=-\\frac1{24}\\)</p><p>b) \\(\\frac7{12}-(-\\frac5{18})-\\frac14=\\frac{21}{36}+\\frac{10}{36}-\\frac9{36}=\\frac{11}{18}\\)</p><p>c) \\(-\\frac23\\cdot\\frac9{10}+\\frac15=-\\frac35+\\frac15=-\\frac25\\)</p>",
+    "ledtrad": "<p>Vilken nämnare passar 4, 6 och 8? Behåll termernas tecken.</p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Negativa bråk",
+    "formaga": [
+      "procedur"
+    ],
     "svarstyp": "flera_delar",
     "rättSvar": [
       "-1/24",
       "11/18",
       "-2/5"
     ],
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "formaga": [
-      "procedur"
+    "svarFormat": [
+      "bråk",
+      "bråk",
+      "bråk"
     ],
     "svarsstruktur": "ordnad",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(-\\frac34+\\frac56-\\frac18\\)</div>",
-        "s": "<p><strong>Metod:</strong> Följ prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes, så beräkna täljare och nämnare var för sig.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(-\\frac{1}{24}\\)</div>",
-        "ledtrad": "<p>Följ prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes, så beräkna täljare och nämnare var för sig.</p>",
+        "t": "<p>Beräkna. Ange ett exakt värde.</p><p>\\(-\\frac34+\\frac56-\\frac18\\)</p>",
+        "s": "<p>\\(-\\frac34+\\frac56-\\frac18=-\\frac{18}{24}+\\frac{20}{24}-\\frac3{24}=-\\frac1{24}\\)</p>",
+        "ledtrad": "<p>Vilken nämnare passar 4, 6 och 8? Behåll termernas tecken.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac7{12}-(-\\frac5{18})-\\frac14\\)</div>",
-        "s": "<p><strong>Metod:</strong> Följ prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes, så beräkna täljare och nämnare var för sig.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{11}{18}\\)</div>",
-        "ledtrad": "<p>Följ prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes, så beräkna täljare och nämnare var för sig.</p>",
+        "t": "<p>Beräkna. Ange ett exakt värde.</p><p>\\(\\frac7{12}-(-\\frac5{18})-\\frac14\\)</p>",
+        "s": "<p>\\(\\frac7{12}-(-\\frac5{18})-\\frac14=\\frac{21}{36}+\\frac{10}{36}-\\frac9{36}=\\frac{11}{18}\\)</p>",
+        "ledtrad": "<p>Vad händer med tecknet när du subtraherar ett negativt bråk?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(-\\frac23\\cdot\\frac9{10}+\\frac15\\)</div>",
-        "s": "<p><strong>Metod:</strong> Följ prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes, så beräkna täljare och nämnare var för sig.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(-\\frac{2}{5}\\)</div>",
-        "ledtrad": "<p>Följ prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes, så beräkna täljare och nämnare var för sig.</p>",
+        "t": "<p>Beräkna. Ange ett exakt värde.</p><p>\\(-\\frac23\\cdot\\frac9{10}+\\frac15\\)</p>",
+        "s": "<p>\\(-\\frac23\\cdot\\frac9{10}+\\frac15=-\\frac35+\\frac15=-\\frac25\\)</p>",
+        "ledtrad": "<p>Bestäm produktens tecken innan du adderar.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
-    ],
-    "ledtrad": "<p>Följ prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes, så beräkna täljare och nämnare var för sig.</p>"
+    ]
   },
   {
     "id": "0.91",
@@ -4237,53 +3431,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac56-\\frac34\\cdot\\frac29+\\frac1{12}\\)</div><div>b) \\(\\frac23+\\frac58\\cdot\\frac{16}{15}-\\frac14\\)</div><div>c) \\(1-\\frac7{12}\\cdot\\frac69+\\frac1{18}\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Använd prioriteringsreglerna och förkorta multiplikationerna innan du adderar eller subtraherar.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac34\\)</div><div>b) \\(\\frac{13}{12}\\)</div><div>c) \\(\\frac23\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "3/4",
-      "13/12",
-      "2/3"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Använd siffrorna 1, 2, 3 och 4 en gång var i \\(\\frac{a}{b}+\\frac{c}{d}\\). Hur stort kan värdet bli?</p>",
+    "s": "<p>För en bestämd uppdelning i två täljare och två nämnare maximeras summan genom att sätta den större täljaren över den mindre nämnaren. Om täljarna är u &gt; v och nämnarna r &lt; s blir skillnaden mellan placeringarna \\((u-v)(\\frac1r-\\frac1s)>0\\). De sex möjliga nämnarparen (1; 2), (1; 3), (1; 4), (2; 3), (2; 4), (3; 4) ger därför högst \\(\\frac{11}{2},\\frac{14}{3},\\frac72,\\frac73,\\frac74,\\frac{11}{12}\\). Störst är \\(\\frac41+\\frac32=\\frac{11}{2}\\).</p>",
+    "ledtrad": "<p>Hur kan du ordna prövningen så att du inte missar någon placering?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Största värde med givna siffror",
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac56-\\frac34\\cdot\\frac29+\\frac1{12}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna och förkorta multiplikationerna innan du adderar eller subtraherar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac34\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna och förkorta multiplikationerna innan du adderar eller subtraherar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac23+\\frac58\\cdot\\frac{16}{15}-\\frac14\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna och förkorta multiplikationerna innan du adderar eller subtraherar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{13}{12}\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna och förkorta multiplikationerna innan du adderar eller subtraherar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(1-\\frac7{12}\\cdot\\frac69+\\frac1{18}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna och förkorta multiplikationerna innan du adderar eller subtraherar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac23\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna och förkorta multiplikationerna innan du adderar eller subtraherar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Använd prioriteringsreglerna och förkorta multiplikationerna innan du adderar eller subtraherar.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "11/2",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.94",
@@ -4423,53 +3587,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((\\frac34-\\frac14)\\cdot\\frac43-\\frac16\\)</div><div>b) \\((1-\\frac5{12})\\cdot\\frac87+\\frac13\\)</div><div>c) \\((\\frac56+\\frac16)\\cdot\\frac34-\\frac14\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Räkna parentesen först. Här är parentes + multiplikation fortfarande en rutinuppgift på E-nivå.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac12\\)</div><div>b) \\(1\\)</div><div>c) \\(\\frac12\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "1/2",
-      "1",
-      "1/2"
+    "t": "<p>Två positiva bråk är båda mindre än 1. De skrivs med positiva heltal i täljare och nämnare. En elev adderar täljarna och nämnarna var för sig. Hur ligger elevens resultat i förhållande till de två ursprungliga bråken?</p><p>A: Det ligger under båda, eller är lika med båda.<br>B: Det ligger över båda, eller är lika med båda.<br>C: Det ligger mellan båda, eller är lika med båda.<br>D: Det är summan av båda, även när de är lika.</p>",
+    "s": "<p>Svar: C. Skriv bråken som a/b och c/d med positiva nämnare. Om a/b &lt; c/d så är ad &lt; bc. Då ger korsmultiplikation \\(\\frac ab&lt;\\frac{a+c}{b+d}&lt;\\frac cd\\), eftersom den första jämförelsen förenklas till ad &lt; bc och den andra till samma olikhet. Om ursprungsbråken är lika blir även det nya bråket lika med dem. Elevens regel ger alltså inte deras summa.</p>",
+    "ledtrad": "<p>Pröva två olika bråk för att hitta ett mönster. Vad händer om ursprungsbråken har samma värde?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Analysera en felaktig räkneregel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
     ],
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac34-\\frac14)\\cdot\\frac43-\\frac16\\)</div>",
-        "s": "<p><strong>Metod:</strong> Räkna parentesen först. Här är parentes + multiplikation fortfarande en rutinuppgift på E-nivå.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac12\\)</div>",
-        "ledtrad": "<p>Räkna parentesen först. Här är parentes + multiplikation fortfarande en rutinuppgift på E-nivå.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((1-\\frac5{12})\\cdot\\frac87+\\frac13\\)</div>",
-        "s": "<p><strong>Metod:</strong> Räkna parentesen först. Här är parentes + multiplikation fortfarande en rutinuppgift på E-nivå.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(1\\)</div>",
-        "ledtrad": "<p>Räkna parentesen först. Här är parentes + multiplikation fortfarande en rutinuppgift på E-nivå.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac56+\\frac16)\\cdot\\frac34-\\frac14\\)</div>",
-        "s": "<p><strong>Metod:</strong> Räkna parentesen först. Här är parentes + multiplikation fortfarande en rutinuppgift på E-nivå.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac12\\)</div>",
-        "ledtrad": "<p>Räkna parentesen först. Här är parentes + multiplikation fortfarande en rutinuppgift på E-nivå.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Räkna parentesen först. Här är parentes + multiplikation fortfarande en rutinuppgift på E-nivå.</p>"
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.97",
@@ -4543,58 +3677,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-0,8+1,5-2,1\\)</div><div>b) \\(3,2-4,7+0,9\\)</div><div>c) \\(-2,6-(-1,4)-0,5\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><p>a) \\(-0{,}8+1{,}5-2{,}1=0{,}7-2{,}1=-1{,}4\\)</p><p>b) \\(3{,}2-4{,}7+0{,}9=-1{,}5+0{,}9=-0{,}6\\)</p><p>c) \\(-2{,}6-(-1{,}4)-0{,}5=-2{,}6+1{,}4-0{,}5=-1{,}7\\)</p></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två tal uppfyller a &lt; b &lt; 0. Vilken ordning gäller alltid?</p><p>A. \\(0<\\frac{a}{b}<1<\\frac{b}{a}\\)<br>B. \\(0<\\frac{b}{a}<1<\\frac{a}{b}\\)<br>C. \\(\\frac{b}{a}<0<1<\\frac{a}{b}\\)<br>D. \\(\\frac{a}{b}<0<1<\\frac{b}{a}\\)</p>",
+    "s": "<p><strong>Svar: B.</strong> </p><p>Båda kvoterna är positiva eftersom både täljare och nämnare är negativa. Talet a ligger längre från noll än b. Därför är a/b större än 1 och b/a mellan 0 och 1.</p><p>Exempelvis ger a = −6 och b = −2 kvoterna 3 respektive 1/3. Exemplet stämmer med den generella jämförelsen, men tecken- och storleksargumenten visar varför ordningen alltid gäller.</p>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -1.4,
-      -0.6,
-      -1.7
-    ],
-    "tolerans": 1e-09,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-0,8+1,5-2,1\\)</div>",
-        "s": "<p>\\(-0{,}8+1{,}5-2{,}1=0{,}7-2{,}1=-1{,}4\\)</p>",
-        "ledtrad": "<p>Vilket mellanresultat får du före den sista subtraktionen?</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(3,2-4,7+0,9\\)</div>",
-        "s": "<p>\\(3{,}2-4{,}7+0{,}9=-1{,}5+0{,}9=-0{,}6\\)</p>",
-        "ledtrad": "<p>Kontrollera om de positiva termerna räcker för att upphäva den negativa.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-2,6-(-1,4)-0,5\\)</div>",
-        "s": "<p>\\(-2{,}6-(-1{,}4)-0{,}5=-2{,}6+1{,}4-0{,}5=-1{,}7\\)</p>",
-        "ledtrad": "<p>Subtraktion av −1,4 ökar eller minskar startvärdet?</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Jämför de positiva och negativa termernas storlek, och håll ihop deras tecken.</p>",
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ]
+    "ledtrad": "<p>Jämför först kvoternas tecken och därefter deras avstånd från 1. Vilket av talen ligger längst från noll?</p>",
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.99",
@@ -4605,53 +3704,58 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Lös uppgifterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac7{12}\\) av 180</div><div>b) \\(\\frac{11}{15}\\) av 225</div><div>c) \\(\\frac9{14}\\) av 196</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 105</div><div>b) 165</div><div>c) 126</div></div></div></div>",
-    "familj": "Räkna med bråk i flera steg",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Lös uppgifterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac7{12}\\) av 180</div><div>b) \\(\\frac{11}{15}\\) av 225</div><div>c) \\(\\frac9{14}\\) av 196</div></div>",
+    "s": "<p>a) \\(\\frac7{12}\\cdot180=7\\cdot15=105\\)</p><p>b) \\(\\frac{11}{15}\\cdot225=11\\cdot15=165\\)</p><p>c) \\(\\frac9{14}\\cdot196=9\\cdot14=126\\)</p>",
+    "ledtrad": "<p>Vad är en tolftedel av 180?</p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Del, helhet och återstående andel",
+    "formaga": [
+      "procedur"
+    ],
     "svarstyp": "flera_delar",
     "rättSvar": [
       "105",
       "165",
       "126"
     ],
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "formaga": [
-      "procedur"
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Lös uppgifterna.</p><div class=\"spel-en-del\">\\(\\frac7{12}\\) av 180</div>",
-        "s": "<p><strong>Metod:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 105</div>",
-        "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>",
+        "t": "<p>\\(\\frac7{12}\\) av 180</p>",
+        "s": "<p>\\(\\frac7{12}\\cdot180=7\\cdot15=105\\)</p>",
+        "ledtrad": "<p>Vad är en tolftedel av 180?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Lös uppgifterna.</p><div class=\"spel-en-del\">\\(\\frac{11}{15}\\) av 225</div>",
-        "s": "<p><strong>Metod:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 165</div>",
-        "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>",
+        "t": "<p>\\(\\frac{11}{15}\\) av 225</p>",
+        "s": "<p>\\(\\frac{11}{15}\\cdot225=11\\cdot15=165\\)</p>",
+        "ledtrad": "<p>Vad är en femtondel av 225?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Lös uppgifterna.</p><div class=\"spel-en-del\">\\(\\frac9{14}\\) av 196</div>",
-        "s": "<p><strong>Metod:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 126</div>",
-        "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>",
+        "t": "<p>\\(\\frac9{14}\\) av 196</p>",
+        "s": "<p>\\(\\frac9{14}\\cdot196=9\\cdot14=126\\)</p>",
+        "ledtrad": "<p>Vad är en fjortondel av 196?</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
-    ],
-    "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>"
+    ]
   },
   {
     "id": "0.100",
@@ -4753,53 +3857,58 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Lös uppgifterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac58\\) av ett tal är 45. Bestäm talet.</div><div>b) \\(\\frac7{12}\\) av ett tal är 56. Bestäm talet.</div><div>c) \\(\\frac9{20}\\) av ett tal är 72. Bestäm talet.</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 72</div><div>b) 96</div><div>c) 160</div></div></div></div>",
-    "familj": "Räkna med bråk i flera steg",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Lös uppgifterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac58\\) av ett tal är 45. Bestäm talet.</div><div>b) \\(\\frac7{12}\\) av ett tal är 56. Bestäm talet.</div><div>c) \\(\\frac9{20}\\) av ett tal är 72. Bestäm talet.</div></div>",
+    "s": "<p>a) Fem åttondelar är 45. En åttondel är 45 ÷ 5 = 9, och hela talet är 8 · 9 = 72.</p><p>b) Sju tolftedelar är 56. En tolftedel är 56 ÷ 7 = 8, och hela talet är 12 · 8 = 96.</p><p>c) Nio tjugondelar är 72. En tjugondel är 72 ÷ 9 = 8, och hela talet är 20 · 8 = 160.</p>",
+    "ledtrad": "<p>Vad motsvarar en åttondel?</p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Del, helhet och återstående andel",
+    "formaga": [
+      "procedur"
+    ],
     "svarstyp": "flera_delar",
     "rättSvar": [
       "72",
       "96",
       "160"
     ],
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "formaga": [
-      "procedur"
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Lös uppgifterna.</p><div class=\"spel-en-del\">\\(\\frac58\\) av ett tal är 45. Bestäm talet.</div>",
-        "s": "<p><strong>Metod:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 72</div>",
-        "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>",
+        "t": "<p>\\(\\frac58\\) av ett tal är 45. Bestäm talet.</p>",
+        "s": "<p>Fem åttondelar är 45. En åttondel är 45 ÷ 5 = 9, och hela talet är 8 · 9 = 72.</p>",
+        "ledtrad": "<p>Vad motsvarar en åttondel?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Lös uppgifterna.</p><div class=\"spel-en-del\">\\(\\frac7{12}\\) av ett tal är 56. Bestäm talet.</div>",
-        "s": "<p><strong>Metod:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 96</div>",
-        "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>",
+        "t": "<p>\\(\\frac7{12}\\) av ett tal är 56. Bestäm talet.</p>",
+        "s": "<p>Sju tolftedelar är 56. En tolftedel är 56 ÷ 7 = 8, och hela talet är 12 · 8 = 96.</p>",
+        "ledtrad": "<p>Vad motsvarar en tolftedel?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Lös uppgifterna.</p><div class=\"spel-en-del\">\\(\\frac9{20}\\) av ett tal är 72. Bestäm talet.</div>",
-        "s": "<p><strong>Metod:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 160</div>",
-        "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>",
+        "t": "<p>\\(\\frac9{20}\\) av ett tal är 72. Bestäm talet.</p>",
+        "s": "<p>Nio tjugondelar är 72. En tjugondel är 72 ÷ 9 = 8, och hela talet är 20 · 8 = 160.</p>",
+        "ledtrad": "<p>Vad motsvarar en tjugondel?</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
-    ],
-    "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>"
+    ]
   },
   {
     "id": "0.103",
@@ -4899,53 +4008,63 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Lös uppgifterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) En tank på 84 liter är fylld till \\(\\frac57\\). Hur många liter finns i tanken?</div><div>b) \\(\\frac{11}{16}\\) av en sträcka är 55 km. Hur lång är hela sträckan?</div><div>c) En klass har 30 elever. \\(\\frac7{15}\\) är frånvarande. Hur många är närvarande?</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 60 liter</div><div>b) 80 km</div><div>c) 16 elever</div></div></div></div>",
-    "familj": "Räkna med bråk i flera steg",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Lös uppgifterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) En tank på 84 liter är fylld till \\(\\frac57\\). Hur många liter finns i tanken?</div><div>b) \\(\\frac{11}{16}\\) av en sträcka är 55 km. Hur lång är hela sträckan?</div><div>c) En klass har 30 elever. \\(\\frac7{15}\\) är frånvarande. Hur många är närvarande?</div></div>",
+    "s": "<p>a) \\(\\frac57\\cdot84=60\\) liter. Tanken innehåller 60 liter.</p><p>b) En sextondel är 55 ÷ 11 = 5 km. Hela sträckan är 16 · 5 = 80 km.</p><p>c) Frånvarande: \\(\\frac7{15}\\cdot30=14\\). Närvarande: 30 − 14 = 16 elever.</p>",
+    "ledtrad": "<p>Hur många liter motsvarar en sjundedel av tankens volym?</p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Del, helhet och återstående andel",
+    "formaga": [
+      "procedur"
+    ],
     "svarstyp": "flera_delar",
     "rättSvar": [
       "60",
       "80",
       "16"
     ],
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "formaga": [
-      "procedur"
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Lös uppgifterna.</p><div class=\"spel-en-del\">En tank på 84 liter är fylld till \\(\\frac57\\). Hur många liter finns i tanken?</div>",
-        "s": "<p><strong>Metod:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 60 liter</div>",
-        "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>",
+        "t": "<p>En tank på 84 liter är fylld till \\(\\frac57\\). Hur många liter finns i tanken?</p>",
+        "s": "<p>\\(\\frac57\\cdot84=60\\) liter. Tanken innehåller 60 liter.</p>",
+        "ledtrad": "<p>Hur många liter motsvarar en sjundedel av tankens volym?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Lös uppgifterna.</p><div class=\"spel-en-del\">\\(\\frac{11}{16}\\) av en sträcka är 55 km. Hur lång är hela sträckan?</div>",
-        "s": "<p><strong>Metod:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 80 km</div>",
-        "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>",
+        "t": "<p>\\(\\frac{11}{16}\\) av en sträcka är 55 km. Hur lång är hela sträckan?</p>",
+        "s": "<p>En sextondel är 55 ÷ 11 = 5 km. Hela sträckan är 16 · 5 = 80 km.</p>",
+        "ledtrad": "<p>Hur lång är en sextondel av sträckan?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "t": "<p>Lös uppgifterna.</p><div class=\"spel-en-del\">En klass har 30 elever. \\(\\frac7{15}\\) är frånvarande. Hur många är närvarande?</div>",
-        "s": "<p><strong>Metod:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 16 elever</div>",
-        "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>",
+        "t": "<p>En klass har 30 elever. \\(\\frac7{15}\\) är frånvarande. Hur många är närvarande?</p>",
+        "s": "<p>Frånvarande: \\(\\frac7{15}\\cdot30=14\\). Närvarande: 30 − 14 = 16 elever.</p>",
+        "ledtrad": "<p>Vilken andel av klassen är närvarande?</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>"
+    "svarEnhet": [
+      "liter",
+      "km",
+      null
+    ]
   },
   {
     "id": "0.106",
@@ -5011,26 +4130,58 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Lös uppgifterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) En behållare är fylld till \\(\\frac{11}{12}\\). Man tappar ur \\(\\frac14\\) av hela behållarens volym. Hur stor del återstår?</div><div>b) En rulle används först till \\(\\frac25\\) och sedan till \\(\\frac16\\) av hela rullen. Hur stor del återstår?</div><div>c) En elev har gjort \\(\\frac38\\) av en uppgift och gör sedan ytterligare \\(\\frac5{16}\\) av hela uppgiften. Hur stor del återstår?</div></div>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac23\\)</div><div>b) \\(\\frac{13}{30}\\)</div><div>c) \\(\\frac5{16}\\)</div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Lös uppgifterna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) En behållare är fylld till \\(\\frac{11}{12}\\). Man tappar ur \\(\\frac14\\) av hela behållarens volym. Hur stor del av behållarens totala volym återstår?</div><div>b) En rulle används först till \\(\\frac25\\) och sedan till \\(\\frac16\\) av hela rullen. Hur stor del återstår?</div><div>c) En elev har gjort \\(\\frac38\\) av en uppgift och gör sedan ytterligare \\(\\frac5{16}\\) av hela uppgiften. Hur stor del återstår?</div></div>",
+    "s": "<p>a) \\(\\frac{11}{12}-\\frac14=\\frac{11}{12}-\\frac3{12}=\\frac23\\) av behållarens totala volym återstår.</p><p>b) \\(1-\\frac25-\\frac16=\\frac{30}{30}-\\frac{12}{30}-\\frac5{30}=\\frac{13}{30}\\) av hela rullen återstår.</p><p>c) \\(1-\\frac38-\\frac5{16}=\\frac{16}{16}-\\frac6{16}-\\frac5{16}=\\frac5{16}\\) av uppgiften återstår.</p>",
+    "ledtrad": "<p>Avser den avtappade fjärdedelen innehållet eller hela behållarens volym?</p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "familj": "Del, helhet och återstående andel",
+    "formaga": [
+      "procedur"
+    ],
     "svarstyp": "flera_delar",
     "rättSvar": [
       "2/3",
       "13/30",
       "5/16"
     ],
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "formaga": [
-      "procedur"
+    "svarFormat": [
+      "bråk",
+      "bråk",
+      "bråk"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Översätt varje situation till en bråkberäkning. Kontrollera om bråket avser hela mängden eller den mängd som återstår.</p>"
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En behållare är fylld till \\(\\frac{11}{12}\\). Man tappar ur \\(\\frac14\\) av hela behållarens volym. Hur stor del av behållarens totala volym återstår?</p>",
+        "s": "<p>\\(\\frac{11}{12}-\\frac14=\\frac{11}{12}-\\frac3{12}=\\frac23\\) av behållarens totala volym återstår.</p>",
+        "ledtrad": "<p>Avser den avtappade fjärdedelen innehållet eller hela behållarens volym?</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En rulle används först till \\(\\frac25\\) och sedan till \\(\\frac16\\) av hela rullen. Hur stor del återstår?</p>",
+        "s": "<p>\\(1-\\frac25-\\frac16=\\frac{30}{30}-\\frac{12}{30}-\\frac5{30}=\\frac{13}{30}\\) av hela rullen återstår.</p>",
+        "ledtrad": "<p>Vilken helhet avser båda de använda andelarna?</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>En elev har gjort \\(\\frac38\\) av en uppgift och gör sedan ytterligare \\(\\frac5{16}\\) av hela uppgiften. Hur stor del återstår?</p>",
+        "s": "<p>\\(1-\\frac38-\\frac5{16}=\\frac{16}{16}-\\frac6{16}-\\frac5{16}=\\frac5{16}\\) av uppgiften återstår.</p>",
+        "ledtrad": "<p>Hur stor del har eleven gjort sammanlagt?</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "0.109",
@@ -5109,53 +4260,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac56-\\frac12\\cdot\\frac23\\)</div><div>b) \\(\\frac23+\\frac34\\cdot\\frac49\\)</div><div>c) \\(1-\\frac38\\cdot\\frac43\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Multiplikation görs före addition och subtraktion. Förkorta gärna innan du multiplicerar.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac12\\)</div><div>b) \\(1\\)</div><div>c) \\(\\frac12\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "1/2",
-      "1",
-      "1/2"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>En tank är fylld till \\(\\frac34\\). En tredjedel av vattnet tappas ur. Därefter fylls 10 liter på och tanken är då fylld till \\(\\frac23\\). Hur många liter rymmer tanken?</p>",
+    "s": "<p>Efter avtappningen återstår \\(\\frac23\\cdot\\frac34=\\frac12\\) av tankens volym. De 10 litrarna motsvarar \\(\\frac23-\\frac12=\\frac16\\) av volymen. Tanken rymmer därför 10 · 6 = 60 liter. Kontroll: 45 − 15 + 10 = 40 liter, som är två tredjedelar av 60.</p>",
+    "ledtrad": "<p>Vilken fyllnadsgrad har tanken precis innan de 10 litrarna fylls på?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Förändrad andel och okänd helhet",
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac56-\\frac12\\cdot\\frac23\\)</div>",
-        "s": "<p><strong>Metod:</strong> Multiplikation görs före addition och subtraktion. Förkorta gärna innan du multiplicerar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac12\\)</div>",
-        "ledtrad": "<p>Multiplikation görs före addition och subtraktion. Förkorta gärna innan du multiplicerar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(\\frac23+\\frac34\\cdot\\frac49\\)</div>",
-        "s": "<p><strong>Metod:</strong> Multiplikation görs före addition och subtraktion. Förkorta gärna innan du multiplicerar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(1\\)</div>",
-        "ledtrad": "<p>Multiplikation görs före addition och subtraktion. Förkorta gärna innan du multiplicerar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\(1-\\frac38\\cdot\\frac43\\)</div>",
-        "s": "<p><strong>Metod:</strong> Multiplikation görs före addition och subtraktion. Förkorta gärna innan du multiplicerar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac12\\)</div>",
-        "ledtrad": "<p>Multiplikation görs före addition och subtraktion. Förkorta gärna innan du multiplicerar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Multiplikation görs före addition och subtraktion. Förkorta gärna innan du multiplicerar.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "0.112",
@@ -5295,53 +4417,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((\\frac34-\\frac14)\\cdot\\frac23\\)</div><div>b) \\((1-\\frac13)\\cdot\\frac34\\)</div><div>c) \\((\\frac56-\\frac13)\\cdot\\frac45\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv först bråken i parentesen med gemensam nämnare. Multiplicera sedan.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac13\\)</div><div>b) \\(\\frac12\\)</div><div>c) \\(\\frac25\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "1/3",
-      "1/2",
-      "2/5"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>En tredjedel av en klass cyklar till skolan. Av de övriga går hälften och hälften åker buss. Fyra av dem som åker buss börjar i stället cykla. Nu cyklar hälften av klassen. Hur många elever finns i klassen?</p>",
+    "s": "<p>Andelen cyklister ökar från \\(\\frac13\\) till \\(\\frac12\\). Fyra elever motsvarar alltså \\(\\frac16\\) av klassen, som därför har 24 elever. Från början cyklar, går och åker buss 8 elever vardera. Efter bytet cyklar 12, går 8 och åker buss 4. Alla villkor stämmer.</p>",
+    "ledtrad": "<p>Vilka uppgifter behövs för att bestämma hela klassen, och vilka kan användas som kontroll?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Välja relevant information",
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac34-\\frac14)\\cdot\\frac23\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv först bråken i parentesen med gemensam nämnare. Multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac13\\)</div>",
-        "ledtrad": "<p>Skriv först bråken i parentesen med gemensam nämnare. Multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((1-\\frac13)\\cdot\\frac34\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv först bråken i parentesen med gemensam nämnare. Multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac12\\)</div>",
-        "ledtrad": "<p>Skriv först bråken i parentesen med gemensam nämnare. Multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac56-\\frac13)\\cdot\\frac45\\)</div>",
-        "s": "<p><strong>Metod:</strong> Skriv först bråken i parentesen med gemensam nämnare. Multiplicera sedan.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac25\\)</div>",
-        "ledtrad": "<p>Skriv först bråken i parentesen med gemensam nämnare. Multiplicera sedan.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Skriv först bråken i parentesen med gemensam nämnare. Multiplicera sedan.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.115",
@@ -5417,7 +4509,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Förklara varför (−3) · (−4) = 12 med hjälp av att (−3) · 4 = −12 och att 4 + (−4) = 0. Det räcker inte att bara hänvisa till regeln ”minus gånger minus blir plus”.</p>",
-    "s": "<p>Eftersom 4 + (−4) = 0 är (−3) · [4 + (−4)] = 0.</p><p>Distributiva lagen ger (−3) · 4 + (−3) · (−4) = 0. Den första produkten är −12. Den andra måste därför vara 12 för att summan ska bli noll.</p>",
+    "s": "<p>Eftersom 4 + (−4) = 0 är (−3) · (4 + (−4)) = 0.</p><p>Distributiva lagen ger (−3) · 4 + (−3) · (−4) = 0. Den första produkten är −12. Den andra måste därför vara 12 för att summan ska bli noll.</p>",
     "familj": "Räkna med negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -5442,53 +4534,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\((2-\\frac34)\\cdot\\frac65\\)</div><div>b) \\((1+\\frac25)\\cdot\\frac{10}{7}\\)</div><div>c) \\((\\frac56-\\frac13)\\cdot\\frac43\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Beräkna parentesen först och multiplicera sedan. Ingen komplex bråknotation behövs.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac32\\)</div><div>b) \\(2\\)</div><div>c) \\(\\frac23\\)</div></div></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "3/2",
-      "2",
-      "2/3"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Ali använder först \\(\\frac13\\) av sin färg och sedan \\(\\frac14\\) av det som återstår. Bea använder samma andelar i omvänd ordning. De har lika mycket färg från början. Har de lika mycket kvar? Visa varför och undersök om slutsatsen gäller för vilka två andelar som helst mellan 0 och 1.</p>",
+    "s": "<p>Ali har kvar \\((1-\\frac13)(1-\\frac14)=\\frac23\\cdot\\frac34=\\frac12\\). Bea har kvar \\(\\frac34\\cdot\\frac23=\\frac12\\). De har lika mycket kvar. För ursprungsmängden V och andelarna p och q blir återstoden \\(V(1-p)(1-q)\\) respektive \\(V(1-q)(1-p)\\). Produkterna är lika eftersom faktorernas ordning inte ändrar produkten. Slutsatsen gäller därför för alla 0 &lt; p,q &lt; 1, när båda andelarna tas av den mängd som finns vid respektive tillfälle.</p>",
+    "ledtrad": "<p>Beskriv hur stor andel som blir kvar efter varje steg, först med talen och sedan med bokstäver.</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Generalisera upprepade andelar",
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((2-\\frac34)\\cdot\\frac65\\)</div>",
-        "s": "<p><strong>Metod:</strong> Beräkna parentesen först och multiplicera sedan. Ingen komplex bråknotation behövs.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac32\\)</div>",
-        "ledtrad": "<p>Beräkna parentesen först och multiplicera sedan. Ingen komplex bråknotation behövs.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((1+\\frac25)\\cdot\\frac{10}{7}\\)</div>",
-        "s": "<p><strong>Metod:</strong> Beräkna parentesen först och multiplicera sedan. Ingen komplex bråknotation behövs.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(2\\)</div>",
-        "ledtrad": "<p>Beräkna parentesen först och multiplicera sedan. Ingen komplex bråknotation behövs.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta.</p><div class=\"spel-en-del\">\\((\\frac56-\\frac13)\\cdot\\frac43\\)</div>",
-        "s": "<p><strong>Metod:</strong> Beräkna parentesen först och multiplicera sedan. Ingen komplex bråknotation behövs.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac23\\)</div>",
-        "ledtrad": "<p>Beräkna parentesen först och multiplicera sedan. Ingen komplex bråknotation behövs.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Beräkna parentesen först och multiplicera sedan. Ingen komplex bråknotation behövs.</p>"
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "0.118",
@@ -5528,7 +4591,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Låt a och b vara positiva tal. Förklara varför (−a) · (−b) = ab genom att utgå från b + (−b) = 0 och distributiva lagen.</p>",
-    "s": "<p>Multiplicera nollan b + (−b) med −a: (−a)[b + (−b)] = 0.</p><p>Distributiva lagen ger (−a)b + (−a)(−b) = 0. Eftersom (−a)b = −ab måste den andra termen vara ab. Alltså (−a)(−b) = ab.</p>",
+    "s": "<p>Multiplicera nollan b + (−b) med −a: (−a)(b + (−b)) = 0.</p><p>Distributiva lagen ger (−a)b + (−a)(−b) = 0. Eftersom (−a)b = −ab måste den andra termen vara ab. Alltså (−a)(−b) = ab.</p>",
     "familj": "Räkna med negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
@@ -5553,53 +4616,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\(-\\frac34+\\frac56\\)\\)</div><div>b) \\(\\(\\frac7{12}-(-\\frac5{18})\\)\\)</div><div>c) \\(\\(-\\frac23\\cdot\\frac9{10}\\)\\)</div></div>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes: beräkna täljare och nämnare var för sig först.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac1{12}\\)</div><div>b) \\(\\frac{31}{36}\\)</div><div>c) \\(-\\frac35\\)</div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "1/12",
-      "31/36",
-      "-3/5"
-    ],
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna \\(-\\frac34+\\frac56\\). Ange ett exakt värde.</p>",
+    "s": "<p>\\(-\\frac34+\\frac56=-\\frac9{12}+\\frac{10}{12}=\\frac1{12}\\).</p>",
+    "ledtrad": "<p>Hur kan du jämföra storleken på den negativa och den positiva termen?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Räkna med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\(-\\frac34+\\frac56\\)\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes: beräkna täljare och nämnare var för sig först.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac1{12}\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes: beräkna täljare och nämnare var för sig först.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\(\\frac7{12}-(-\\frac5{18})\\)\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes: beräkna täljare och nämnare var för sig först.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{31}{36}\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes: beräkna täljare och nämnare var för sig först.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna och förkorta så långt som möjligt.</p><div class=\"spel-en-del\">\\(\\(-\\frac23\\cdot\\frac9{10}\\)\\)</div>",
-        "s": "<p><strong>Metod:</strong> Använd prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes: beräkna täljare och nämnare var för sig först.</p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(-\\frac35\\)</div>",
-        "ledtrad": "<p>Använd prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes: beräkna täljare och nämnare var för sig först.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Använd prioriteringsreglerna. Ett långt bråkstreck fungerar som en parentes: beräkna täljare och nämnare var för sig först.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "1/12",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.121",
@@ -5665,22 +4697,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Bestäm två olika bråk som har summan \\(\\frac5{12}\\). Bråken ska ha <strong>olika nämnare</strong> och båda ska vara skrivna i enklaste form.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Här räcker det inte att utföra en given beräkning; du måste själv konstruera två bråk som uppfyller båda villkoren.</p><p>Ett exempel är \\(\\frac14+\\frac16=\\frac3{12}+\\frac2{12}=\\frac5{12}\\).</p><p><strong>Svar:</strong> exempelvis \\(\\frac14\\) och \\(\\frac16\\). Flera svar är möjliga.</p>",
-    "familj": "Räkna med bråk i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "bråk",
+    "t": "<p>Bestäm två olika positiva bråk som har summan \\(\\frac5{12}\\). Bråken ska ha <strong>olika nämnare</strong> och båda ska vara skrivna i enklaste form.</p>",
+    "s": "<p>Ett exempel är \\(\\frac14+\\frac16=\\frac3{12}+\\frac2{12}=\\frac5{12}\\). Bråken är olika, har olika nämnare och är i enklaste form. Flera svar är möjliga.</p>",
+    "ledtrad": "<p>Börja med att dela fem tolftedelar i två positiva delar. Kontrollera sedan nämnarna efter förkortning.</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Konstruera bråk med villkor",
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Här räcker det inte att utföra en given beräkning; du måste själv konstruera två bråk som uppfyller båda villkoren.</p>"
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "0.124",
@@ -5744,21 +4777,33 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Ett bråk kan förkortas till \\(\\frac7{12}\\). Summan av bråkets ursprungliga täljare och nämnare är 57.</p><p>Bestäm det ursprungliga bråket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Täljare och nämnare har summan 57:</p><p>\\(7k+12k=57\\Rightarrow19k=57\\Rightarrow k=3\\).</p><p>Bråket är därför \\(\\frac{21}{36}\\).</p><p><strong>Svar: \\(\\frac{21}{36}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "bråk",
-    "rättSvar": "21/36",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Ett bråk kan förkortas till \\(\\frac7{12}\\). Summan av bråkets ursprungliga täljare och nämnare är 57.</p><p>Bestäm det ursprungliga bråket. Ange dess positiva heltalstäljare och positiva heltalsnämnare separat.</p>",
+    "s": "<p>Skriv täljaren som 7k och nämnaren som 12k. Summan ger 19k = 57, så k = 3. Ursprungsbråket är \\(\\frac{21}{36}\\). Kontroll: 21 + 36 = 57 och förkortning med 3 ger \\(\\frac7{12}\\).</p>",
+    "ledtrad": "<p>Täljare och nämnare har multiplicerats med samma faktor. Hur påverkas deras summa?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Likvärdiga bråk med villkor",
     "formaga": [
-      "procedur"
+      "problemlösning"
     ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      21,
+      36
+    ],
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": [
+      "heltal",
+      "heltal"
+    ],
+    "svarEtiketter": [
+      "ursprunglig täljare",
+      "ursprunglig nämnare"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "0.127",
@@ -5858,22 +4903,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Ange ett bråk i enklaste form som ligger mellan \\(\\frac{11}{13}\\) och \\(\\frac67\\). Visa att ditt bråk verkligen ligger mellan de två givna talen.</p>",
-    "s": "<p><strong>Steg 1:</strong> \\(\\frac{11}{13}&lt;\\frac{17}{20}\\) eftersom \\(11\\cdot20=220&lt;221=17\\cdot13\\).</p><p>\\(\\frac{17}{20}&lt;\\frac67\\) eftersom \\(17\\cdot7=119&lt;120=6\\cdot20\\).</p><p><strong>Svar:</strong> <strong>Ett möjligt svar är alltså \\(\\frac{17}{20}\\).</strong></p>",
-    "familj": "Räkna med bråk i flera steg",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Ange ett bråk i enklaste form som ligger mellan \\(\\frac{11}{13}\\) och \\(\\frac67\\). Visa att ditt bråk verkligen ligger mellan de två givna talen.</p>",
+    "s": "<p><strong>Steg 1:</strong> \\(\\frac{11}{13}&lt;\\frac{17}{20}\\) eftersom \\(11\\cdot20=220&lt;221=17\\cdot13\\).</p><p>\\(\\frac{17}{20}&lt;\\frac67\\) eftersom \\(17\\cdot7=119&lt;120=6\\cdot20\\).</p><p><strong>Svar:</strong> <strong>Ett möjligt svar är alltså \\(\\frac{17}{20}\\).</strong></p>",
+    "ledtrad": "<p>Skriv gränserna med samma nämnare. Kan du sedan förlänga för att få plats med en täljare mellan dem?</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Bråk mellan två tal",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "0.130",
@@ -5938,22 +4985,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Utan att använda decimalform: avgör vilket av \\(\\frac{17}{23}\\) och \\(\\frac{20}{27}\\) som är störst. Motivera.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> \\[17\\cdot27=459\\]</p><p>\\[20\\cdot23=460\\]</p><p>Eftersom \\(460&gt;459\\) gäller</p><p>\\[\\frac{20}{27}&gt;\\frac{17}{23}.\\]</p><p><strong>Svar:</strong> <strong>Alltså är \\(\\frac{20}{27}\\) störst.</strong></p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "t": "<p>Utan att använda decimalform: avgör vilket av \\(\\frac{17}{23}\\) och \\(\\frac{20}{27}\\) som är störst. Motivera.</p>",
+    "s": "<p>\\(\\frac{17}{23}=\\frac{459}{621}\\) och \\(\\frac{20}{27}=\\frac{460}{621}\\). Det andra bråket är alltså störst, med skillnaden \\(\\frac1{621}\\).</p>",
+    "ledtrad": "<p>Hur kan du jämföra bråken med lika stora delar?</p>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "familj": "Jämföra bråk",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "0.133",
@@ -6019,22 +5068,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En elev påstår att \\(\\frac{a}{b}+\\frac{c}{d}=\\frac{a+c}{b+d}\\).</p><p>Visa med ett exempel att regeln inte gäller i allmänhet och förklara vad man i stället måste göra vid addition av bråk.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Ett motexempel räcker för att visa att regeln är falsk.</p><p>Exempel: \\(\\frac12+\\frac13=\\frac56\\), men \\(\\frac{1+1}{2+3}=\\frac25\\).</p><p>Vid addition måste bråken först skrivas med gemensam nämnare.</p>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Låt a, b, c och d vara positiva heltal. En elev påstår att \\(\\frac{a}{b}+\\frac{c}{d}=\\frac{a+c}{b+d}\\).</p><p>Visa med ett exempel att regeln inte gäller i allmänhet och förklara vad man i stället måste göra vid addition av bråk.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Ett motexempel räcker för att visa att regeln är falsk.</p><p>Exempel: \\(\\frac12+\\frac13=\\frac56\\), men \\(\\frac{1+1}{2+3}=\\frac25\\).</p><p>Vid addition måste bråken först skrivas med gemensam nämnare.</p><p>En gemensam nämnare är bd. Då blir den korrekta summan \\(\\frac{ad+bc}{bd}\\). Nämnaren beskriver delarnas storlek och ad + bc räknar antalet sådana delar.</p>",
+    "ledtrad": "<p>Testa regeln på två enkla bråk. Förklara vad täljare och nämnare betyder vid addition.</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Motexempel till en bråkregel",
+    "formaga": [
+      "resonemang"
+    ],
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Ett motexempel räcker för att visa att regeln är falsk. Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar.</p>"
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "0.136",
@@ -6045,58 +5095,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Beräkna:</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(-3[4-(-2)]\\)</div><div>b) \\(\\frac{18-5\\cdot(-2)}{-4}\\)</div><div>c) \\(-2(3-7)-5\\)</div></div>",
-    "s": "<div class=\"facit-v2\"><p>a) \\(-3[4-(-2)]=-3\\cdot6=-18\\)</p><p>b) \\(\\frac{18-5\\cdot(-2)}{-4}=\\frac{18-(-10)}{-4}=\\frac{28}{-4}=-7\\)</p><p>c) \\(-2(3-7)-5=(-2)(-4)-5=8-5=3\\)</p></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Tre tal a, b och c är skilda från noll. Produkterna ab och bc är negativa och summan a + b + c är noll. Vilken slutsats måste vara riktig?</p><p>A. a och c har samma tecken, och avståndet från b till noll är summan av deras avstånd till noll.<br>B. a och c har samma tecken, och avståndet från b till noll är skillnaden mellan deras avstånd till noll.<br>C. a och c har olika tecken, och avståndet från b till noll är summan av deras avstånd till noll.<br>D. a och c har olika tecken, och avståndet från b till noll är skillnaden mellan deras avstånd till noll.</p>",
+    "s": "<p><strong>Svar: A.</strong> </p><p>Eftersom ab och bc är negativa måste både a och c ha motsatt tecken mot b. Alltså har a och c samma tecken.</p><p>Summan är noll, så b = −(a + c). När a och c har samma tecken adderas deras avstånd från noll. Talet b ligger på andra sidan noll på just detta sammanlagda avstånd.</p>",
     "familj": "Räkna med negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -18.0,
-      -7.0,
-      3.0
-    ],
-    "tolerans": 1e-09,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Beräkna:</p><div class=\"spel-en-del\">\\(-3[4-(-2)]\\)</div>",
-        "s": "<p>\\(-3[4-(-2)]=-3\\cdot6=-18\\)</p>",
-        "ledtrad": "<p>Vad blir 4 minus ett negativt tal?</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Beräkna:</p><div class=\"spel-en-del\">\\(\\frac{18-5\\cdot(-2)}{-4}\\)</div>",
-        "s": "<p>\\(\\frac{18-5\\cdot(-2)}{-4}=\\frac{18-(-10)}{-4}=\\frac{28}{-4}=-7\\)</p>",
-        "ledtrad": "<p>Bråkstrecket grupperar hela täljaren. Vilken operation görs först inne i den?</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Beräkna:</p><div class=\"spel-en-del\">\\(-2(3-7)-5\\)</div>",
-        "s": "<p>\\(-2(3-7)-5=(-2)(-4)-5=8-5=3\\)</p>",
-        "ledtrad": "<p>Beräkna parentesen och därefter produkten.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Parenteser och bråkstreck grupperar delar av uttrycken. Följ reglerna även inne i grupperna.</p>",
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ]
+    "ledtrad": "<p>Vad säger vart och ett av produktvillkoren om tecknen? Använd sedan att summan är noll.</p>",
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.137",
@@ -6107,21 +5122,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Av en behållares innehåll används först \\(\\frac25\\). Därefter används \\(\\frac13\\) av det som <strong>återstår</strong>. Hur stor del av det ursprungliga innehållet finns kvar?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Efter första steget återstår \\(\\frac35\\).</p><p>Man använder sedan \\(\\frac13\\cdot\\frac35=\\frac15\\) av ursprungsmängden.</p><p>Kvar: \\(\\frac35-\\frac15=\\frac25\\).</p></div></div>",
-    "familj": "Prioriteringsregler med bråk",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Av en behållares innehåll används först \\(\\frac25\\). Därefter används \\(\\frac13\\) av det som <strong>återstår</strong>. Hur stor del av det ursprungliga innehållet finns kvar?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Efter första steget återstår \\(\\frac35\\).</p><p>Man använder sedan \\(\\frac13\\cdot\\frac35=\\frac15\\) av ursprungsmängden.</p><p>Kvar: \\(\\frac35-\\frac15=\\frac25\\).</p></div></div>",
+    "ledtrad": "<p>Vilken mängd avser en tredjedel i det andra steget?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Andel av återstoden",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
     "svarstyp": "bråk",
     "rättSvar": "2/5",
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Ta en operation i taget enligt prioriteringsreglerna. Skriv gärna om subtraktion som addition av ett negativt tal om minustecknen är svåra att hålla reda på.</p>"
+    "svarFormat": "bråk"
   },
   {
     "id": "0.138",
@@ -6194,21 +5211,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En bok läses på tre dagar. Första dagen läses \\(\\frac38\\) av boken. Andra dagen läses \\(\\frac25\\) av det som återstår. Efter andra dagen återstår 90 sidor. Hur många sidor har boken?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Efter dag 1 återstår \\(\\frac58\\). Efter dag 2 återstår \\(\\frac35\\) av detta, alltså \\(\\frac35\\cdot\\frac58=\\frac38\\) av hela boken.</p><p>\\(\\frac38\\) motsvarar 90 sidor, så hela boken har \\(90\\cdot\\frac83=240\\) sidor.</p></div></div>",
-    "familj": "Räkna med bråk i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "240",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>En bok läses på tre dagar. Första dagen läses \\(\\frac38\\) av boken. Andra dagen läses \\(\\frac25\\) av det som återstår. Efter andra dagen återstår 90 sidor. Hur många sidor har boken?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Efter dag 1 återstår \\(\\frac58\\). Efter dag 2 återstår \\(\\frac35\\) av detta, alltså \\(\\frac35\\cdot\\frac58=\\frac38\\) av hela boken.</p><p>\\(\\frac38\\) motsvarar 90 sidor, så hela boken har \\(90\\cdot\\frac83=240\\) sidor.</p></div></div>",
+    "ledtrad": "<p>Hur stor andel av hela boken motsvarar de 90 sidor som återstår?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Återstående andel och okänd helhet",
     "formaga": [
-      "procedur"
+      "modellering",
+      "problemlösning"
     ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 240,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": null
   },
   {
     "id": "0.140",
@@ -6246,22 +5266,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Lös ekvationen</p><p>\\[\\frac{x}{3}-\\frac{x}{8}=\\frac5{12}\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Samla först uttrycken med \\(x\\) genom gemensam nämnare.</p><p>\\(\\frac{8x-3x}{24}=\\frac5{12}\\Rightarrow\\frac{5x}{24}=\\frac{10}{24}\\Rightarrow x=2\\).</p></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Lös ekvationen</p><p>\\[\\frac{x}{3}-\\frac{x}{8}=\\frac5{12}\\]</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Samla först uttrycken med \\(x\\) genom gemensam nämnare.</p><p>\\(\\frac{8x-3x}{24}=\\frac5{12}\\Rightarrow\\frac{5x}{24}=\\frac{10}{24}\\Rightarrow x=2\\).</p></div></div>",
+    "ledtrad": "<p>Vad blir skillnaden mellan en tredjedel och en åttondel av samma tal?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Samla först uttrycken med \\(x\\) genom gemensam nämnare. Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.142",
@@ -6299,22 +5319,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Lös ekvationen</p><p>\\[\\frac{x+1}{4}-\\frac{x-2}{6}=\\frac58\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Multiplicera hela ekvationen med minsta gemensamma nämnare 24.</p><p>\\(6(x+1)-4(x-2)=15\\).</p><p>\\(6x+6-4x+8=15\\Rightarrow2x=1\\Rightarrow x=\\frac12\\).</p></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "1/2",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Lös ekvationen</p><p>\\[\\frac{x+1}{4}-\\frac{x-2}{6}=\\frac58\\]</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Multiplicera hela ekvationen med minsta gemensamma nämnare 24.</p><p>\\(6(x+1)-4(x-2)=15\\).</p><p>\\(6x+6-4x+8=15\\Rightarrow2x=1\\Rightarrow x=\\frac12\\).</p></div></div>",
+    "ledtrad": "<p>Vilken gemensam nämnare passar alla tre bråken? Håll ihop täljarna när du multiplicerar.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Ekvationer med bråk",
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "bråk",
-    "ledtrad": "<p>Multiplicera hela ekvationen med minsta gemensamma nämnare 24.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "1/2",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.144",
@@ -6366,29 +5386,34 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Bestäm heltalen \\(a\\) och \\(b\\) om</p><p>\\[\\frac{a}{12}+\\frac{b}{18}=\\frac7{12}\\]</p><p>och \\(1\\le a\\le5\\), \\(1\\le b\\le5\\).</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> \\(3a+2b=21\\).</p><p>Prövning inom de givna intervallen ger \\(a=3\\), \\(b=6\\), men \\(b\\) ligger utanför intervallet; \\(a=5\\) ger \\(15+2b=21\\Rightarrow b=3\\).</p><p><strong>\\(a=5, b=3\\)</strong>.</p></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Bestäm heltalen \\(a\\) och \\(b\\) om</p><p>\\[\\frac{a}{12}+\\frac{b}{18}=\\frac7{12}\\]</p><p>och \\(1\\le a\\le5\\), \\(1\\le b\\le5\\).</p>",
+    "s": "<p>Med nämnaren 36 fås 3a + 2b = 21. Eftersom 2b är jämnt måste a vara udda: 1, 3 eller 5. Dessa ger b = 9, 6 respektive 3. Bara a = 5, b = 3 uppfyller båda gränserna. Kontroll: \\(\\frac5{12}+\\frac3{18}=\\frac5{12}+\\frac2{12}=\\frac7{12}\\).</p>",
+    "ledtrad": "<p>Skriv bråken med samma nämnare och använd sedan gränserna för heltalen.</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Bråk med heltalsvillkor",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
     "svarstyp": "flera_delar",
     "rättSvar": [
       5,
       3
     ],
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "formaga": [
-      "procedur"
+    "svarFormat": [
+      "heltal",
+      "heltal"
     ],
     "svarEtiketter": [
       "a",
       "b"
     ],
-    "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "0.146",
@@ -6399,22 +5424,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
-    "t": "<p>Vilket är störst: \\(\\frac{n}{n+1}\\) eller \\(\\frac{n+1}{n+2}\\), där \\(n\\) är ett positivt heltal? Motivera utan att välja ett särskilt värde på \\(n\\).</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Jämför</p><p>\\[n(n+2)=n^2+2n\\]</p><p>med</p><p>\\[(n+1)^2=n^2+2n+1.\\]</p><p>Det andra uttrycket är alltid exakt 1 större, oavsett vilket positivt heltal \\(n\\) är.</p><p>Därför gäller alltid</p><p>\\[\\frac{n+1}{n+2}&gt;\\frac{n}{n+1}.\\]</p></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
+    "t": "<p>Vilket är störst: \\(\\frac{n}{n+1}\\) eller \\(\\frac{n+1}{n+2}\\), där \\(n\\) är ett positivt heltal? Motivera utan att välja ett särskilt värde på \\(n\\).</p>",
+    "s": "<p>\\(\\frac n{n+1}=1-\\frac1{n+1}\\) och \\(\\frac{n+1}{n+2}=1-\\frac1{n+2}\\). Eftersom n är positivt är \\(\\frac1{n+2}&lt;\\frac1{n+1}\\). Det andra bråket saknar därför mindre till 1 och är alltid störst.</p>",
+    "ledtrad": "<p>Hur mycket fattas från varje bråk till 1?</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Generella bråkjämförelser",
+    "formaga": [
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Det andra uttrycket är alltid exakt 1 större, oavsett vilket positivt heltal \\(n\\) är.</p>"
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "0.147",
@@ -6425,31 +5451,37 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Tre olika siffror 2, 5 och 7 ska användas en gång var för att bilda ett uttryck av typen \\(\\frac{a}{b}+\\frac{1}{c}\\). Hur ska siffrorna placeras för att värdet ska bli så stort som möjligt?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> För att få ett stort värde vill vi ha stor täljare och små nämnare, men placeringen måste jämföras.</p><p>De möjliga huvudfallen kan prövas exakt. Störst fås av \\(\\frac72+\\frac15=\\frac{37}{10}=3,7\\).</p><p><strong>\\(a=7,b=2,c=5\\)</strong>.</p>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Tre olika siffror 2, 5 och 7 ska användas en gång var för att bilda ett uttryck av typen \\(\\frac{a}{b}+\\frac{1}{c}\\). Hur ska siffrorna placeras för att värdet ska bli så stort som möjligt?</p>",
+    "s": "<p>För (a; b; c) = (2; 5; 7), (2; 7; 5), (5; 2; 7), (5; 7; 2), (7; 2; 5), (7; 5; 2) blir värdena \\(\\frac{19}{35},\\frac{17}{35},\\frac{37}{14},\\frac{17}{14},\\frac{37}{10},\\frac{19}{10}\\). Det största är \\(\\frac{37}{10}\\), vilket fås när a = 7, b = 2, c = 5. Alla sex placeringar har jämförts.</p>",
+    "ledtrad": "<p>Pröva varje möjlig placering systematiskt. Jämför med exakta bråk.</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Största värde med givna siffror",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
     "svarstyp": "flera_delar",
     "rättSvar": [
       7,
       2,
       5
     ],
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "formaga": [
-      "procedur"
+    "svarFormat": [
+      "heltal",
+      "heltal",
+      "heltal"
     ],
     "svarEtiketter": [
       "a",
       "b",
       "c"
     ],
-    "svarsstruktur": "ordnad",
-    "ledtrad": "<p>För att få ett stort värde vill vi ha stor täljare och små nämnare, men placeringen måste jämföras.</p>"
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "0.148",
@@ -6460,22 +5492,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
-    "t": "<p>För ett positivt bråk \\(\\frac ab\\) gäller att det är mindre än 1. Vad händer med bråkets värde om man adderar samma positiva tal \\(k\\) till både täljare och nämnare? Blir värdet större, mindre eller oförändrat? Motivera.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Eftersom \\(a&lt;b\\) jämför vi \\(\\frac ab\\) och \\(\\frac{a+k}{b+k}\\) genom korsmultiplikation.</p><p>\\(b(a+k)=ab+bk\\) och \\(a(b+k)=ab+ak\\). Eftersom \\(b&gt;a\\) är \\(bk&gt;ak\\).</p><p>Alltså är <strong>\\(\\frac{a+k}{b+k}&gt;\\frac ab\\)</strong>.</p>",
-    "familj": "Räkna med bråk i flera steg",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Låt 0 &lt; a &lt; b och k &gt; 0. Jämför \\(\\frac ab\\) med \\(\\frac{a+k}{b+k}\\). Blir värdet större, mindre eller oförändrat? Visa att din slutsats gäller för alla tal som uppfyller villkoren.</p>",
+    "s": "<p>Anta 0 &lt; a &lt; b och k &gt; 0. Avståndet till 1 är från början \\(\\frac{b-a}{b}\\) och efter ändringen \\(\\frac{b-a}{b+k}\\). Täljaren är samma positiva tal, men nämnaren har ökat. Avståndet till 1 minskar därför, så bråkets värde ökar. Värdet är fortfarande mindre än 1 eftersom a + k &lt; b + k.</p>",
+    "ledtrad": "<p>Jämför avståndet till 1 före och efter förändringen.</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Generella bråkjämförelser",
+    "formaga": [
+      "resonemang"
+    ],
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Eftersom \\(a&lt;b\\) jämför vi \\(\\frac ab\\) och \\(\\frac{a+k}{b+k}\\) genom korsmultiplikation.</p>"
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "0.149",
@@ -6486,21 +5519,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Bestäm ett bråk \\(\\frac ab\\) i enklaste form som uppfyller</p><p>\\[\\frac35&lt;\\frac ab&lt;\\frac58\\]</p><p>och där \\(b&lt;20\\).</p>",
-    "s": "<p><strong>Steg 1:</strong> Ett möjligt val är \\(\\frac8{13}\\).</p><p>\\(\\frac35&lt;\\frac8{13}\\) eftersom \\(3\\cdot13=39&lt;40=5\\cdot8\\).</p><p>\\(\\frac8{13}&lt;\\frac58\\) eftersom \\(8\\cdot8=64&lt;65=5\\cdot13\\).</p><p><strong>Svar: exempelvis \\(\\frac8{13}\\).</strong></p>",
-    "familj": "Räkna med bråk i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "bråk",
+    "t": "<p>Bestäm ett bråk \\(\\frac ab\\) i enklaste form som uppfyller</p><p>\\[\\frac35&lt;\\frac ab&lt;\\frac58\\]</p><p>där a och b är positiva heltal och \\(b&lt;20\\).</p><p>Visa att ditt val uppfyller alla villkor.</p>",
+    "s": "<p><strong>Steg 1:</strong> Ett möjligt val är \\(\\frac8{13}\\).</p><p>\\(\\frac35&lt;\\frac8{13}\\) eftersom \\(3\\cdot13=39&lt;40=5\\cdot8\\).</p><p>\\(\\frac8{13}&lt;\\frac58\\) eftersom \\(8\\cdot8=64&lt;65=5\\cdot13\\).</p><p><strong>Svar: exempelvis \\(\\frac8{13}\\).</strong></p>",
+    "ledtrad": "<p>Pröva nämnare under 20. Vilka heltalstäljare kan ligga mellan de två gränserna?</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "familj": "Bråk mellan två tal",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "0.150",
@@ -6511,21 +5547,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Beräkna först \\(\\frac34-\\frac25\\). Dividera sedan resultatet med \\(1-\\frac7{10}\\). Förenkla svaret.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> \\(\\frac34-\\frac25=\\frac{15}{20}-\\frac8{20}=\\frac7{20}\\).</p><p>\\(1-\\frac7{10}=\\frac3{10}\\).</p><p>Dividera sedan \\(\\frac7{20}\\) med \\(\\frac3{10}\\). Det är samma sak som att multiplicera med \\(\\frac{10}{3}\\):</p><p>\\(\\frac7{20}\\cdot\\frac{10}{3}=\\frac76\\).</p><p><strong>Svar: \\(\\frac76\\).</strong></p></div></div>",
-    "familj": "Prioriteringsregler med bråk",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "bråk",
-    "rättSvar": "7/6",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna först \\(\\frac34-\\frac25\\). Dividera sedan resultatet med \\(1-\\frac7{10}\\). Ange ett exakt värde.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> \\(\\frac34-\\frac25=\\frac{15}{20}-\\frac8{20}=\\frac7{20}\\).</p><p>\\(1-\\frac7{10}=\\frac3{10}\\).</p><p>Dividera sedan \\(\\frac7{20}\\) med \\(\\frac3{10}\\). Det är samma sak som att multiplicera med \\(\\frac{10}{3}\\):</p><p>\\(\\frac7{20}\\cdot\\frac{10}{3}=\\frac76\\).</p><p><strong>Svar: \\(\\frac76\\).</strong></p></div></div>",
+    "ledtrad": "<p>Vad innebär det att dividera med tre tiondelar?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Division av bråkuttryck",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ta en operation i taget enligt prioriteringsreglerna. Skriv gärna om subtraktion som addition av ett negativt tal om minustecknen är svåra att hålla reda på.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "7/6",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.151",
@@ -6536,21 +5573,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Ett recept använder \\(\\frac34\\) liter mjölk till 6 portioner. Du har \\(\\frac{17}{8}\\) liter mjölk.</p><p>Hur många <strong>hela</strong> portioner kan du som mest laga om proportionerna ska vara oförändrade?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> \\(\\frac34\\) liter till 6 portioner betyder \\(\\frac34\\cdot\\frac16=\\frac18\\) liter per portion.</p><p>Antalet portioner blir därför det tal som uppfyller \\(x\\cdot\\frac18=\\frac{17}{8}\\).</p><p>Alltså \\(x=17\\).</p><p><strong>Svar: 17 portioner.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
-    "familj": "Räkna med bråk i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "17",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Ett recept använder \\(\\frac34\\) liter mjölk till 6 portioner. Du har \\(\\frac{17}{8}\\) liter mjölk.</p><p>Hur många <strong>hela</strong> portioner kan du som mest laga om proportionerna ska vara oförändrade?</p><p>Övriga ingredienser finns i tillräcklig mängd.</p>",
+    "s": "<p>Till en portion går det åt \\(\\frac34\\div6=\\frac18\\) liter. Antalet portioner blir \\(\\frac{17}{8}\\div\\frac18=17\\). Kontroll: 17 portioner kräver exakt \\(\\frac{17}{8}\\) liter. Svar: 17 hela portioner.</p>",
+    "ledtrad": "<p>Hur mycket mjölk går åt till en portion?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bråk och proportioner",
     "formaga": [
+      "modellering",
       "procedur"
     ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "heltal"
   },
   {
     "id": "0.152",
@@ -6561,22 +5600,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En elev ska dividera \\(\\frac56\\) med \\(\\frac{10}{9}\\). Eleven multiplicerar i stället \\(\\frac56\\) med \\(\\frac{10}{9}\\) och får \\(\\frac{25}{27}\\).</p><p>Förklara felet och ge korrekt svar.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Inversen till \\(\\frac{10}{9}\\) är \\(\\frac9{10}\\).</p><p>\\(\\frac56\\cdot\\frac9{10}=\\frac34\\).</p><p><strong>Svar:</strong> <strong>Rätt svar är \\(\\frac34\\).</strong></p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>En elev ska dividera \\(\\frac56\\) med \\(\\frac{10}{9}\\). Eleven multiplicerar i stället \\(\\frac56\\) med \\(\\frac{10}{9}\\) och får \\(\\frac{25}{27}\\).</p><p>Förklara felet och ge korrekt svar.</p>",
+    "s": "<p>Eleven har räknat ut en produkt i stället för en kvot. Division med \\(\\frac{10}{9}\\) motsvarar multiplikation med \\(\\frac9{10}\\). Därför är \\(\\frac56\\div\\frac{10}{9}=\\frac56\\cdot\\frac9{10}=\\frac34\\). Kontroll: \\(\\frac34\\cdot\\frac{10}{9}=\\frac56\\).</p>",
+    "ledtrad": "<p>Vilken multiplikation kan kontrollera ett svar på en division?</p>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "familj": "Felanalys vid division",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "0.153",
@@ -6587,36 +5628,37 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Summan av två positiva bråk är 1. Det ena bråket är \\(\\frac{7}{15}\\).</p><p>Bestäm det andra bråket och skriv sedan båda bråken med en gemensam nämnare som är större än 100 men så liten som möjligt.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> En gemensam nämnare måste vara en multipel av 15. Minsta multipeln större än 100 är 105.</p><p>\\(\\frac7{15}=\\frac{49}{105}\\) och \\(\\frac8{15}=\\frac{56}{105}\\).</p></div></div>",
-    "familj": "Addition och subtraktion med olika nämnare",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Två positiva bråk har summan 1. Det ena är \\(\\frac7{15}\\). Båda ska skrivas med samma heltalsnämnare, större än 100 men så liten som möjligt. Ange den gemensamma nämnaren och sedan de två täljarna, först täljaren till \\(\\frac7{15}\\).</p>",
+    "s": "<p>Det andra bråket är \\(1-\\frac7{15}=\\frac8{15}\\). Båda är i enklaste form, så den gemensamma nämnaren måste vara en multipel av 15. Multipeln 90 är för liten och nästa är 105. Förlängning med 7 ger \\(\\frac{49}{105}\\) och \\(\\frac{56}{105}\\).</p>",
+    "ledtrad": "<p>Vilka nämnare kan båda bråken få när de förlängs?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Gemensam nämnare med villkor",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "8/15",
-      "49/105",
-      "56/105"
+      105,
+      49,
+      56
     ],
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
     "svarFormat": [
-      "bråk",
-      "bråk",
-      "bråk"
+      "heltal",
+      "heltal",
+      "heltal"
     ],
-    "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "andra bråket",
-      "7/15 med minsta gemensamma nämnare >100",
-      "andra bråket med samma nämnare"
+      "gemensam nämnare",
+      "första täljaren",
+      "andra täljaren"
     ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "0.154",
@@ -6627,21 +5669,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En behållare är \\(\\frac23\\) full. Efter att 12 liter fyllts på är den \\(\\frac56\\) full.</p><p>Hur många liter rymmer behållaren?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skillnaden mellan fyllnadsgraderna är \\(\\frac56-\\frac23=\\frac16\\).</p><p>\\(\\frac16\\) av behållaren motsvarar 12 liter, alltså rymmer hela behållaren \\(12\\cdot6=72\\) liter.</p></div></div>",
-    "familj": "Räkna med bråk i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "72",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>En behållare är \\(\\frac23\\) full. Efter att 12 liter fyllts på är den \\(\\frac56\\) full.</p><p>Hur många liter rymmer behållaren?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skillnaden mellan fyllnadsgraderna är \\(\\frac56-\\frac23=\\frac16\\).</p><p>\\(\\frac16\\) av behållaren motsvarar 12 liter, alltså rymmer hela behållaren \\(12\\cdot6=72\\) liter.</p></div></div>",
+    "ledtrad": "<p>Vilken andel av tankens totala volym motsvarar påfyllningen?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Förändrad andel och okänd helhet",
     "formaga": [
-      "procedur"
+      "modellering",
+      "problemlösning"
     ],
-    "ledtrad": "<p>Skillnaden mellan fyllnadsgraderna är \\(\\frac56-\\frac23=\\frac16\\).</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 72,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "0.155",
@@ -6652,21 +5697,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En sträcka består av tre delar. Den första är \\(\\frac25\\) av hela sträckan. Den andra delen är \\(\\frac34\\) så lång som den första. Den tredje delen är 42 m.</p><p>Bestäm hela sträckans längd.</p>",
-    "s": "<p><strong>Steg 1:</strong> Första och andra delen är tillsammans \\(\\frac25+\\frac3{10}=\\frac7{10}\\).</p><p>Tredje delen är alltså \\(\\frac3{10}\\), vilket motsvarar 42 m.</p><p>Hela sträckan är \\(42\\cdot\\frac{10}{3}=140\\) m.</p>",
-    "familj": "Räkna med bråk i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "140",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>En sträcka består av tre delar. Den första är \\(\\frac25\\) av hela sträckan. Den andra delen är \\(\\frac34\\) så lång som den första. Den tredje delen är 42 m.</p><p>Bestäm hela sträckans längd.</p>",
+    "s": "<p>Den andra delen är \\(\\frac34\\cdot\\frac25=\\frac3{10}\\) av hela sträckan. De två första delarna är tillsammans \\(\\frac25+\\frac3{10}=\\frac7{10}\\). Återstående \\(\\frac3{10}\\) motsvarar 42 m. Hela sträckan är \\(42\\cdot\\frac{10}{3}=140\\) m. Kontroll: delarna är 56 m, 42 m och 42 m, med summan 140 m.</p>",
+    "ledtrad": "<p>Vilken andel av hela sträckan är den andra delen?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Delar av olika helheter",
     "formaga": [
-      "procedur"
+      "modellering",
+      "problemlösning"
     ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 140,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "0.156",
@@ -7043,22 +6091,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Beräkna \\((24-8)\\div4+3^2\\).</p>",
-    "s": "<p>\\((24-8)\\div4+3^2=16\\div4+9=13\\)</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Sätt in exakt ett par parenteser i 12 − 6 ÷ 3 + 1. Behåll talens och operationernas ordning och låt parenteserna omsluta hela tal. Hur många olika värden kan uttrycket få? En parentes som inte ändrar värdet är tillåten.</p>",
+    "s": "<p>De placeringar som ger ett annat värde än originalet är:</p><p>(12 − 6) ÷ 3 + 1 = 3<br>12 − (6 ÷ 3 + 1) = 9<br>12 − 6 ÷ (3 + 1) = 10,5.</p><p>Parentes runt 6 ÷ 3, runt 12 − 6 ÷ 3, runt hela uttrycket eller runt ett enskilt tal ändrar inte originalvärdet 11. Dessa tillsammans täcker alla sammanhängande grupper av hela tal.</p><p>De olika värdena är 3, 9, 10,5 och 11. <strong>Svar: 4 värden.</strong></p>",
     "familj": "Beräkna uttryck med parenteser",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 13,
+    "rättSvar": 4,
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna parentesen och potensen innan du adderar.</p>"
+    "ledtrad": "<p>Gå systematiskt igenom vilka sammanhängande delar parentesen kan omsluta. Flera placeringar kan ge samma värde.</p>"
   },
   {
     "id": "0.171",
@@ -7069,22 +6118,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Beräkna \\(2\\cdot(5+7)-3^2\\).</p>",
-    "s": "<p>\\(2(5+7)-3^2=2\\cdot12-9=15\\)</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Använd talen 2, 3 och 4 exakt en gång vardera och tecknen + och · exakt en gång vardera. Du får ändra ordningen och använda parenteser, men inte sätta ihop siffrorna till flersiffriga tal. Hur många olika värden kan du få?</p>",
+    "s": "<p>Det finns två typer: en summa av ett tal och en produkt, eller en produkt av ett tal och en summa.</p><p>För a + b · c fås 2 + 3 · 4 = 14, 3 + 2 · 4 = 11 och 4 + 2 · 3 = 10. Att byta ordning inom produkten ger inga nya värden.</p><p>För (a + b) · c fås (2 + 3) · 4 = 20, (2 + 4) · 3 = 18 och (3 + 4) · 2 = 14. Att byta ordning inom summan ger inga nya värden.</p><p>Alla tillåtna uttryck tillhör någon av dessa typer. De olika värdena är 10, 11, 14, 18 och 20. <strong>Svar: 5 värden.</strong></p>",
     "familj": "Beräkna uttryck med parenteser",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 15,
+    "rättSvar": 5,
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Potensen gäller bara talet 3.</p>"
+    "ledtrad": "<p>Skilj på ett tal plus en produkt och ett tal gånger en summa. Räkna samma värde bara en gång.</p>"
   },
   {
     "id": "0.172",
@@ -7095,22 +6145,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Beräkna \\((18\\div3)^2-5\\).</p>",
-    "s": "<p>\\((18\\div3)^2-5=6^2-5=31\\)</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Låt c vara ett positivt tal. Sätt \\(A=12\\div c\\cdot c\\) och \\(B=12\\div(c\\cdot c)\\). Vilken jämförelse gäller?</p><p>A. A &lt; B när 0 &lt; c &lt; 1; A = B när c = 1; A &gt; B när c &gt; 1.<br>B. A &gt; B när 0 &lt; c &lt; 1; A = B när c = 1; A &lt; B när c &gt; 1.<br>C. A = B när 0 &lt; c &lt; 1; A &lt; B när c = 1; A &gt; B när c &gt; 1.<br>D. A &lt; B när 0 &lt; c &lt; 1; A &gt; B när c = 1; A = B när c &gt; 1.</p>",
+    "s": "<p><strong>Svar: A.</strong> </p><p>I A räknas division och multiplikation från vänster: A = (12/c) · c = 12. I B är hela produkten divisor: B = 12/c².</p><p>När 0 &lt; c &lt; 1 är c² mindre än 1, så B &gt; 12 = A. När c = 1 är båda 12. När c &gt; 1 är c² större än 1, så B &lt; 12 = A.</p>",
     "familj": "Beräkna uttryck med parenteser",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 31,
-    "tolerans": 1e-09,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vad är basen i potensen: 3 eller hela kvoten?</p>"
+    "svarFormat": "kort_text",
+    "ledtrad": "<p>Förenkla uttrycken var för sig. Hur förändras ett positivt tal vid division med ett tal under respektive över 1?</p>"
   },
   {
     "id": "0.173",
@@ -7121,22 +6172,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Beräkna \\(50-2\\cdot[7+(9-4)]\\).</p>",
-    "s": "<p>\\(50-2[7+(9-4)]=50-2(7+5)=50-24=26\\)</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Placera talen 1, 2, 3 och 4 i rutorna a, b, c och d, ett tal i varje ruta utan upprepning. Vilket är det största värdet av \\(a+b(c-d)\\)?</p>",
+    "s": "<p>För att maximera uttrycket vid ett givet a väljer vi c &gt; d och jämför de tre möjliga valen av b. Största värdet för varje a blir:</p><p>a = 1: 1 + 3(4 − 2) = 7.<br>a = 2: 2 + 3(4 − 1) = 11.<br>a = 3: 3 + 2(4 − 1) = 9.<br>a = 4: 4 + 2(3 − 1) = 8.</p><p>Därmed är <strong>11</strong> störst. Valet är a = 2, b = 3, c = 4 och d = 1. Att bara lägga det största talet som faktor b ger inte det största värdet.</p>",
     "familj": "Beräkna uttryck med parenteser",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 26,
+    "rättSvar": 11,
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja i den innersta parentesen och arbeta utåt.</p>"
+    "ledtrad": "<p>Den största faktorn och den största differensen konkurrerar om samma tal. Jämför flera möjliga val.</p>"
   },
   {
     "id": "0.174",
@@ -7147,22 +6199,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Beräkna \\(3^2+4\\cdot(11-6)\\).</p>",
-    "s": "<p>\\(3^2+4(11-6)=9+4\\cdot5=29\\)</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Heltalen a och b är båda minst 2 och högst 6. Värdet av \\(24\\div a\\cdot b\\) är 15 större än värdet av \\(24\\div(a\\cdot b)\\). Bestäm b.</p>",
+    "s": "<p>Uttrycken betyder 24b/a respektive 24/(ab). Villkoret ger \\(\\frac{24b}{a}-\\frac{24}{ab}=15\\). Multiplikation med ab ger 24b² − 24 = 15ab, alltså \\(a=\\frac{8(b^2-1)}{5b}\\).</p><p>För b = 2, 3, 4, 5 och 6 blir a respektive 12/5, 64/15, 6, 192/25 och 28/3. Endast a = 6 är ett heltal i det tillåtna intervallet. Det inträffar när <strong>b = 4</strong>.</p><p>Kontroll: 24 ÷ 6 · 4 = 16 och 24 ÷ (6 · 4) = 1. Skillnaden är 15. En systematisk tabell över tillåtna a och b är en annan fullgod metod.</p>",
     "familj": "Beräkna uttryck med parenteser",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 29,
+    "rättSvar": 4,
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilka två delar kan du beräkna oberoende av varandra först?</p>"
+    "ledtrad": "<p>Skriv uttrycken med bråkstreck så att det syns vad som ingår i varje nämnare. Använd att det bara finns fem möjliga värden på b.</p>"
   },
   {
     "id": "0.175",
@@ -9573,8 +8626,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(2[3+(8-5)]\\).</p>",
-    "s": "<p>\\(2[3+(8-5)]=2(3+3)=12\\)</p>",
+    "t": "<p>Beräkna \\(2(3+(8-5))\\).</p>",
+    "s": "<p>\\(2(3+(8-5))=2(3+3)=12\\)</p>",
     "familj": "Räkna med prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 12,
@@ -9582,7 +8635,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hakparentes och vanlig parentes fungerar likadant; börja innerst.</p>"
+    "ledtrad": "<p>Börja med den innersta parentesen och arbeta utåt.</p>"
   },
   {
     "id": "0.266",
@@ -9599,8 +8652,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(36\\div[2(3+3)]\\).</p>",
-    "s": "<p>\\(36\\div[2(3+3)]=36\\div(2\\cdot6)=36\\div12=3\\)</p>",
+    "t": "<p>Beräkna \\(36\\div(2(3+3))\\).</p>",
+    "s": "<p>\\(36\\div(2(3+3))=36\\div(2\\cdot6)=36\\div12=3\\)</p>",
     "familj": "Räkna med prioriteringsregler",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
@@ -9608,7 +8661,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Allt innanför hakparentesen är divisor.</p>"
+    "ledtrad": "<p>Allt innanför den yttre parentesen är divisor.</p>"
   },
   {
     "id": "0.267",
@@ -10024,8 +9077,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(3[8-2(5-3)]\\).</p>",
-    "s": "<p>\\(3[8-2(5-3)]=3(8-4)=12\\)</p>",
+    "t": "<p>Beräkna \\(3(8-2(5-3))\\).</p>",
+    "s": "<p>\\(3(8-2(5-3))=3(8-4)=12\\)</p>",
     "familj": "Beräkna uttryck med parenteser",
     "svarstyp": "numeriskt",
     "rättSvar": 12,
@@ -10290,20 +9343,20 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna. Ange ett exakt värde.</p><p>\\[\\frac12+\\frac34\\cdot\\frac23\\]</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Multiplikationen först: \\(\\frac34\\cdot\\frac23=\\frac12\\).</p><p><strong>Steg 2:</strong> \\(\\frac12+\\frac12=1\\).</p><p><strong>Svar:</strong> \\(1\\)</p></div></div>",
+    "ledtrad": "<p>Vilken operation görs före additionen?</p>",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[\\frac12+\\frac34\\cdot\\frac23\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Multiplikationen först: \\(\\frac34\\cdot\\frac23=\\frac12\\).</p><p><strong>Steg 2:</strong> \\(\\frac12+\\frac12=1\\).</p><p><strong>Svar:</strong> \\(1\\)</p></div></div>",
     "familj": "Prioriteringsregler med bråk",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "heltal",
-    "ledtrad": "<p>Ta en operation i taget enligt prioriteringsreglerna. Skriv gärna om subtraktion som addition av ett negativt tal om minustecknen är svåra att hålla reda på.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.293",
@@ -10316,19 +9369,20 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna. Ange ett exakt värde.</p><p>\\[(\\frac12+\\frac14)\\cdot\\frac23\\]</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Parentesen: \\(\\frac12+\\frac14=\\frac34\\).</p><p><strong>Steg 2:</strong> \\(\\frac34\\cdot\\frac23=\\frac12\\).</p><p><strong>Svar:</strong> \\(\\frac12\\)</p></div></div>",
+    "ledtrad": "<p>Vad behöver räknas ut innan multiplikationen?</p>",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[(\\frac12+\\frac14)\\cdot\\frac23\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Parentesen: \\(\\frac12+\\frac14=\\frac34\\).</p><p><strong>Steg 2:</strong> \\(\\frac34\\cdot\\frac23=\\frac12\\).</p><p><strong>Svar:</strong> \\(\\frac12\\)</p></div></div>",
     "familj": "Prioriteringsregler med bråk",
-    "svarstyp": "bråk",
-    "rättSvar": "1/2",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ta en operation i taget enligt prioriteringsreglerna. Skriv gärna om subtraktion som addition av ett negativt tal om minustecknen är svåra att hålla reda på.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "1/2",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.294",
@@ -10341,19 +9395,20 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna. Ange ett exakt värde.</p><p>\\[\\frac35-\\frac12\\cdot\\frac25\\]</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Multiplikationen görs först: \\(\\frac12\\cdot\\frac25=\\frac15\\).</p><p>Därefter \\(\\frac35-\\frac15=\\frac25\\).</p><p><strong>Svar:</strong> \\(\\frac25\\)</p></div></div>",
+    "ledtrad": "<p>Hur stor är hälften av två femtedelar?</p>",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[\\frac35-\\frac12\\cdot\\frac25\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Multiplikationen görs först: \\(\\frac12\\cdot\\frac25=\\frac15\\).</p><p>Därefter \\(\\frac35-\\frac15=\\frac25\\).</p><p><strong>Svar:</strong> \\(\\frac25\\)</p></div></div>",
     "familj": "Prioriteringsregler med bråk",
-    "svarstyp": "bråk",
-    "rättSvar": "2/5",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ta en operation i taget enligt prioriteringsreglerna. Skriv gärna om subtraktion som addition av ett negativt tal om minustecknen är svåra att hålla reda på.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "2/5",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.295",
@@ -10366,20 +9421,20 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna. Ange ett exakt värde.</p><p>\\[(\\frac56-\\frac13)\\div\\frac12\\]</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Parentesen ger \\(\\frac56-\\frac26=\\frac36=\\frac12\\).</p><p>Sedan \\(\\frac12\\div\\frac12=1\\).</p><p><strong>Svar:</strong> \\(1\\)</p></div></div>",
+    "ledtrad": "<p>Hur många halvor ryms i värdet från parentesen?</p>",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[(\\frac56-\\frac13)\\div\\frac12\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Parentesen ger \\(\\frac56-\\frac26=\\frac36=\\frac12\\).</p><p>Sedan \\(\\frac12\\div\\frac12=1\\).</p><p><strong>Svar:</strong> \\(1\\)</p></div></div>",
     "familj": "Prioriteringsregler med bråk",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "heltal",
-    "ledtrad": "<p>Ta en operation i taget enligt prioriteringsreglerna. Skriv gärna om subtraktion som addition av ett negativt tal om minustecknen är svåra att hålla reda på.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.296",
@@ -10392,19 +9447,20 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna. Ange ett exakt värde.</p><p>\\[1-\\frac34\\div\\frac32\\]</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Divisionen först: \\(\\frac34\\div\\frac32=\\frac34\\cdot\\frac23=\\frac12\\).</p><p><strong>Steg 2:</strong> \\(1-\\frac12=\\frac12\\).</p><p><strong>Svar:</strong> \\(\\frac12\\)</p></div></div>",
+    "ledtrad": "<p>Vilken operation ska göras först?</p>",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[1-\\frac34\\div\\frac32\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Divisionen först: \\(\\frac34\\div\\frac32=\\frac34\\cdot\\frac23=\\frac12\\).</p><p><strong>Steg 2:</strong> \\(1-\\frac12=\\frac12\\).</p><p><strong>Svar:</strong> \\(\\frac12\\)</p></div></div>",
     "familj": "Prioriteringsregler med bråk",
-    "svarstyp": "bråk",
-    "rättSvar": "1/2",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ta en operation i taget enligt prioriteringsreglerna. Skriv gärna om subtraktion som addition av ett negativt tal om minustecknen är svåra att hålla reda på.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "1/2",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.297",
@@ -10417,19 +9473,20 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Beräkna. Ange ett exakt värde.</p><p>\\[\\frac23+(\\frac12)^2\\]</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Potensen först: \\((\\frac12)^2=\\frac14\\).</p><p>Med gemensam nämnare 12 blir \\(\\frac23+\\frac14=\\frac8{12}+\\frac3{12}=\\frac{11}{12}\\).</p><p><strong>Svar:</strong> \\(\\frac{11}{12}\\)</p></div></div>",
+    "ledtrad": "<p>Kvadrera hela bråket, både täljaren och nämnaren.</p>",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[\\frac23+(\\frac12)^2\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Potensen först: \\((\\frac12)^2=\\frac14\\).</p><p>Med gemensam nämnare 12 blir \\(\\frac23+\\frac14=\\frac8{12}+\\frac3{12}=\\frac{11}{12}\\).</p><p><strong>Svar:</strong> \\(\\frac{11}{12}\\)</p></div></div>",
     "familj": "Prioriteringsregler med bråk",
-    "svarstyp": "bråk",
-    "rättSvar": "11/12",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ta en operation i taget enligt prioriteringsreglerna. Skriv gärna om subtraktion som addition av ett negativt tal om minustecknen är svåra att hålla reda på.</p>"
+    "svarstyp": "bråk",
+    "rättSvar": "11/12",
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.298",
@@ -10442,20 +9499,20 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": null,
-    "självrättning": true,
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[(\\frac34-\\frac14)^2\\cdot4\\]</p>",
+    "t": "<p>Beräkna. Ange ett exakt värde.</p><p>\\[(\\frac34-\\frac14)^2\\cdot4\\]</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Parentesen ger \\(\\frac12\\). Sedan \\((\\frac12)^2=\\frac14\\), och \\(\\frac14\\cdot4=1\\).</p><p><strong>Svar:</strong> \\(1\\)</p></div></div>",
+    "ledtrad": "<p>Räkna parentesen innan du kvadrerar.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "Prioriteringsregler med bråk",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "heltal",
-    "ledtrad": "<p>Ta en operation i taget enligt prioriteringsreglerna. Skriv gärna om subtraktion som addition av ett negativt tal om minustecknen är svåra att hålla reda på.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.299",
@@ -10468,20 +9525,20 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": null,
-    "självrättning": true,
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Beräkna och förkorta så långt som möjligt.</p><p>\\[(\\frac12+\\frac13)\\div\\frac56\\]</p>",
+    "t": "<p>Beräkna. Ange ett exakt värde.</p><p>\\[(\\frac12+\\frac13)\\div\\frac56\\]</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Parentesen ger \\(\\frac12+\\frac13=\\frac56\\).</p><p>Då blir \\(\\frac56\\div\\frac56=1\\).</p><p><strong>Svar:</strong> \\(1\\)</p></div></div>",
+    "ledtrad": "<p>Jämför summan i parentesen med det bråk du dividerar med.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "Prioriteringsregler med bråk",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "heltal",
-    "ledtrad": "<p>Ta en operation i taget enligt prioriteringsreglerna. Skriv gärna om subtraktion som addition av ett negativt tal om minustecknen är svåra att hålla reda på.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "bråk"
   },
   {
     "id": "0.300",
@@ -10492,21 +9549,33 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Förkorta bråket \\(\\frac{42}{63}\\) så långt som möjligt.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Största gemensamma faktorn till 42 och 63 är 21.</p><p>\\(\\frac{42}{63}=\\frac{42\\div21}{63\\div21}=\\frac23\\).</p><p><strong>Svar:</strong> \\(\\frac23\\).</p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "bråk",
-    "rättSvar": "2/3",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Skriv \\(\\frac{42}{63}\\) i enklaste form \\(\\frac ab\\) med positiv nämnare. Ange a och b separat.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Största gemensamma faktorn till 42 och 63 är 21.</p><p>\\(\\frac{42}{63}=\\frac{42\\div21}{63\\div21}=\\frac23\\).</p><p><strong>Svar:</strong> \\(\\frac23\\).</p></div></div>",
+    "ledtrad": "<p>Vilket heltal större än 1 delar både 42 och 63?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Grundläggande bråkräkning",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      3
+    ],
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": [
+      "heltal",
+      "heltal"
+    ],
+    "svarEtiketter": [
+      "täljare a",
+      "nämnare b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "0.301",
@@ -10517,22 +9586,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket av bråken är \\(\\frac{56}{98}\\) förkortat så långt som möjligt?</p><p>A: \\(\\frac47\\)<br>B: \\(\\frac{28}{49}\\)<br>C: \\(\\frac{8}{14}\\)</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>56 och 98 kan båda divideras med 14: \\(56\\div14=4\\) och \\(98\\div14=7\\).</p><p><strong>Svar:</strong> <strong>A</strong>, \\(\\frac47\\).</p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Vilket av bråken är \\(\\frac{56}{98}\\) förkortat så långt som möjligt?</p><p>A: \\(\\frac47\\)<br>B: \\(\\frac{28}{49}\\)<br>C: \\(\\frac{8}{14}\\)</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>56 och 98 kan båda divideras med 14: \\(56\\div14=4\\) och \\(98\\div14=7\\).</p><p><strong>Svar:</strong> <strong>A</strong>, \\(\\frac47\\).</p></div></div><p>B och C har samma värde som A, men är ännu inte i enklaste form.</p>",
+    "ledtrad": "<p>Vilka alternativ går fortfarande att förkorta?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Grundläggande bråkräkning",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.302",
@@ -10543,22 +9613,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Fyll i det saknade talet:</p><p>\\[\\frac{45}{60}=\\frac{\\square}{4}\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Nämnaren 60 har dividerats med 15 för att bli 4. Gör samma sak med täljaren: \\(45\\div15=3\\).</p><p><strong>Svar:</strong> <strong>3</strong>.</p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Fyll i det saknade talet:</p><p>\\[\\frac{45}{60}=\\frac{\\square}{4}\\]</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Nämnaren 60 har dividerats med 15 för att bli 4. Gör samma sak med täljaren: \\(45\\div15=3\\).</p><p><strong>Svar:</strong> <strong>3</strong>.</p></div></div>",
+    "ledtrad": "<p>Med vilket tal har nämnaren dividerats?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Grundläggande bråkräkning",
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "0.303",
@@ -10569,21 +9639,33 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Förkorta \\(\\frac{54}{90}\\). Börja med att bryta ut den största gemensamma faktorn.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Både 54 och 90 är delbara med 18.</p><p>\\(\\frac{54}{90}=\\frac{3\\cdot18}{5\\cdot18}=\\frac35\\).</p><p><strong>Svar:</strong> \\(\\frac35\\).</p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "bråk",
-    "rättSvar": "3/5",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Skriv \\(\\frac{54}{90}\\) i enklaste form \\(\\frac ab\\) med positiv nämnare. Ange a och b separat.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Både 54 och 90 är delbara med 18.</p><p>\\(\\frac{54}{90}=\\frac{3\\cdot18}{5\\cdot18}=\\frac35\\).</p><p><strong>Svar:</strong> \\(\\frac35\\).</p></div></div>",
+    "ledtrad": "<p>Vilka gemensamma faktorer har 54 och 90?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Grundläggande bråkräkning",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      5
+    ],
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": [
+      "heltal",
+      "heltal"
+    ],
+    "svarEtiketter": [
+      "täljare a",
+      "nämnare b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "0.304",
@@ -10594,21 +9676,33 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Bråket \\(\\frac{120}{168}\\) ska skrivas i enklaste form. Bestäm bråket.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Största gemensamma faktorn är 24. Då blir \\(120\\div24=5\\) och \\(168\\div24=7\\).</p><p><strong>Svar:</strong> \\(\\frac57\\).</p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "bråk",
-    "rättSvar": "5/7",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Skriv \\(\\frac{120}{168}\\) i enklaste form \\(\\frac ab\\) med positiv nämnare. Ange a och b separat.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Största gemensamma faktorn är 24. Då blir \\(120\\div24=5\\) och \\(168\\div24=7\\).</p><p><strong>Svar:</strong> \\(\\frac57\\).</p></div></div>",
+    "ledtrad": "<p>Kan du dela både 120 och 168 med samma tal i flera steg?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Grundläggande bråkräkning",
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      7
+    ],
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": [
+      "heltal",
+      "heltal"
+    ],
+    "svarEtiketter": [
+      "täljare a",
+      "nämnare b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "0.305",
@@ -10619,22 +9713,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket bråk är störst?</p><p>A: \\(\\frac23\\)<br>B: \\(\\frac35\\)<br>C: \\(\\frac58\\)</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Jämför till exempel med gemensam nämnare 120: \\(\\frac23=\\frac{80}{120}\\), \\(\\frac35=\\frac{72}{120}\\), \\(\\frac58=\\frac{75}{120}\\).</p><p><strong>Svar:</strong> <strong>A</strong>, \\(\\frac23\\).</p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Vilket bråk är störst?</p><p>A: \\(\\frac23\\)<br>B: \\(\\frac35\\)<br>C: \\(\\frac58\\)</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Jämför till exempel med gemensam nämnare 120: \\(\\frac23=\\frac{80}{120}\\), \\(\\frac35=\\frac{72}{120}\\), \\(\\frac58=\\frac{75}{120}\\).</p><p><strong>Svar:</strong> <strong>A</strong>, \\(\\frac23\\).</p></div></div>",
+    "ledtrad": "<p>Skriv bråken med en gemensam nämnare och jämför täljarna.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Grundläggande bråkräkning",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.306",
@@ -10645,22 +9740,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket bråk är minst?</p><p>A: \\(\\frac7{10}\\)<br>B: \\(\\frac58\\)<br>C: \\(\\frac23\\)</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Med nämnaren 120 får vi \\(\\frac7{10}=\\frac{84}{120}\\), \\(\\frac58=\\frac{75}{120}\\) och \\(\\frac23=\\frac{80}{120}\\).</p><p><strong>Svar:</strong> <strong>B</strong>, \\(\\frac58\\).</p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
-    "tolerans": null,
-    "självrättning": true,
+    "t": "<p>Vilket bråk ligger närmast 1?</p><p>A: \\(\\frac7{10}\\)<br>B: \\(\\frac58\\)<br>C: \\(\\frac23\\)</p>",
+    "s": "<p>Svar: A. Avstånden till 1 är \\(\\frac3{10}=\\frac{36}{120}\\), \\(\\frac38=\\frac{45}{120}\\) och \\(\\frac13=\\frac{40}{120}\\). Minst avstånd har \\(\\frac7{10}\\).</p>",
+    "ledtrad": "<p>Jämför hur mycket som fattas till 1.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Jämföra avstånd till ett heltal",
     "formaga": [
-      "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.307",
@@ -10671,21 +9766,22 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Jämför \\(\\frac57\\) och \\(\\frac59\\). Vilket är störst?</p><p>A: \\(\\frac57\\)<br>B: \\(\\frac59\\)<br>C: De är lika stora</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Bråken har samma täljare. När samma mängd delar fördelas på färre delar blir varje del större. Eftersom 7 &lt; 9 är \\(\\frac57\\gt \\frac59\\).</p><p><strong>Svar:</strong> <strong>A</strong>.</p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Jämför \\(\\frac57\\) och \\(\\frac59\\). Vilket är störst?</p><p>A: \\(\\frac57\\)<br>B: \\(\\frac59\\)<br>C: De är lika stora</p>",
+    "s": "<p>En sjundedel är större än en niondel av samma helhet. Fem sjundedelar är därför större än fem niondelar: \\(\\frac57>\\frac59\\). Svar: A.</p>",
+    "ledtrad": "<p>Vilken är störst: en sjundedel eller en niondel?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Grundläggande bråkräkning",
+    "formaga": [
+      "begrepp"
+    ],
     "svarstyp": "val",
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.308",
@@ -10696,32 +9792,37 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Skriv bråken \\(\\frac34\\), \\(\\frac5{12}\\) och \\(\\frac23\\) i storleksordning. Ange först det minsta, sedan mittenbråket och sist det största.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv alla med nämnaren 12: \\(\\frac34=\\frac9{12}\\), \\(\\frac5{12}=\\frac5{12}\\), \\(\\frac23=\\frac8{12}\\).</p><p><strong>Svar:</strong> \\(\\frac5{12}&lt;\\frac23&lt;\\frac34\\).</p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Skriv bråken \\(\\frac34\\), \\(\\frac5{12}\\) och \\(\\frac23\\) i storleksordning. Ange först det minsta, sedan mittenbråket och sist det största.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv alla med nämnaren 12: \\(\\frac34=\\frac9{12}\\), \\(\\frac5{12}=\\frac5{12}\\), \\(\\frac23=\\frac8{12}\\).</p><p><strong>Svar:</strong> \\(\\frac5{12}&lt;\\frac23&lt;\\frac34\\).</p></div></div>",
+    "ledtrad": "<p>Vilken nämnare passar alla tre bråken?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Grundläggande bråkräkning",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
     "svarstyp": "flera_delar",
     "rättSvar": [
       "5/12",
       "2/3",
       "3/4"
     ],
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
+    "svarFormat": [
+      "bråk",
+      "bråk",
+      "bråk"
     ],
-    "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "minst",
       "mitten",
       "störst"
     ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "0.309",
@@ -10732,22 +9833,23 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Utan att räkna om till decimalform: vilket påstående är korrekt?</p><p>A: \\(\\frac49\\gt \\frac5{11}\\)<br>B: \\(\\frac49&lt;\\frac5{11}\\)<br>C: Bråken är lika stora</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Korsmultiplicera: \\(4\\cdot11=44\\) och \\(5\\cdot9=45\\). Eftersom 44 &lt; 45 gäller \\(\\frac49&lt;\\frac5{11}\\).</p><p><strong>Svar:</strong> <strong>B</strong>.</p></div></div>",
-    "familj": "Grundläggande bråkräkning",
     "geogebra": false,
     "miniräknare": false,
+    "t": "<p>Utan att räkna om till decimalform: vilket påstående är korrekt?</p><p>A: \\(\\frac49\\gt \\frac5{11}\\)<br>B: \\(\\frac49&lt;\\frac5{11}\\)<br>C: Bråken är lika stora</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Korsmultiplicera: \\(4\\cdot11=44\\) och \\(5\\cdot9=45\\). Eftersom 44 &lt; 45 gäller \\(\\frac49&lt;\\frac5{11}\\).</p><p><strong>Svar:</strong> <strong>B</strong>.</p></div></div>",
+    "ledtrad": "<p>Vilken gemensam nämnare kan användas för niondelar och elftedelar?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Grundläggande bråkräkning",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
     "svarstyp": "val",
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Skriv bråken med en gemensam nämnare innan du adderar eller subtraherar. Förkorta först i en multiplikation om det gör talen enklare.</p>"
+    "svarFormat": "kort_text"
   },
   {
     "id": "0.310",
@@ -12453,7 +11555,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En rektangel har längden \\(2x+3\\) cm och bredden \\(x-1\\) cm. En kvadrat har sidan \\(x+2\\) cm.</p>\n<p>Bestäm \\(x\\) om de två figurerna har samma omkrets. Bestäm därefter figurernas sidlängder och kontrollera omkretsen.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Rektangelns omkrets är \\(2[(2x+3)+(x-1)]=6x+4\\).</p>\n<p>Kvadratens omkrets är \\(4(x+2)=4x+8\\).</p>\n<p>\\(6x+4=4x+8\\Rightarrow x=2\\).</p>\n<p>Rektangeln är då 7 cm × 1 cm och kvadraten 4 cm × 4 cm. Båda har omkretsen 16 cm.</p>\n<p><strong>Svar:</strong> <strong>\\(x=2\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Rektangelns omkrets är \\(2((2x+3)+(x-1))=6x+4\\).</p>\n<p>Kvadratens omkrets är \\(4(x+2)=4x+8\\).</p>\n<p>\\(6x+4=4x+8\\Rightarrow x=2\\).</p>\n<p>Rektangeln är då 7 cm × 1 cm och kvadraten 4 cm × 4 cm. Båda har omkretsen 16 cm.</p>\n<p><strong>Svar:</strong> <strong>\\(x=2\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "familj": "Förenkla algebraiska uttryck",
     "geogebra": false,
     "miniräknare": false,
@@ -12637,8 +11739,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Låt \\(E(x)=4(2x-3)-3[x-(2-x)]\\).</p>\n<p>a) Förenkla \\(E(x)\\).<br>b) Bestäm \\(x\\) då \\(E(x)=5x+9\\).</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Inuti hakparentesen är \\(x-(2-x)=2x-2\\).</p>\n<p>\\(E(x)=8x-12-3(2x-2)=2x-6\\).</p>\n<p>\\(2x-6=5x+9\\Rightarrow -15=3x\\).</p>\n<p><strong>Svar:</strong> <strong>\\(E(x)=2x-6\\) och \\(x=-5\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "t": "<p>Låt \\(E(x)=4(2x-3)-3(x-(2-x))\\).</p>\n<p>a) Förenkla \\(E(x)\\).<br>b) Bestäm \\(x\\) då \\(E(x)=5x+9\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Inuti den yttre parentesen är \\(x-(2-x)=2x-2\\).</p>\n<p>\\(E(x)=8x-12-3(2x-2)=2x-6\\).</p>\n<p>\\(2x-6=5x+9\\Rightarrow -15=3x\\).</p>\n<p><strong>Svar:</strong> <strong>\\(E(x)=2x-6\\) och \\(x=-5\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "familj": "Förenkla algebraiska uttryck",
     "geogebra": false,
     "miniräknare": false,
@@ -12905,7 +12007,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Låt \\(E(a)=2[a+3(a-2)]-4(a-1)\\) och \\(F(a)=a+10\\).</p>\n<p>a) Förenkla \\(E(a)\\).<br>b) Bestäm det värde på \\(a\\) för vilket \\(E(a)=F(a)\\).<br>c) Bestäm det gemensamma värdet.</p>",
+    "t": "<p>Låt \\(E(a)=2(a+3(a-2))-4(a-1)\\) och \\(F(a)=a+10\\).</p>\n<p>a) Förenkla \\(E(a)\\).<br>b) Bestäm det värde på \\(a\\) för vilket \\(E(a)=F(a)\\).<br>c) Bestäm det gemensamma värdet.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> \\(E(a)=2(4a-6)-4a+4=4a-8\\).</p>\n<p>\\(4a-8=a+10\\Rightarrow3a=18\\Rightarrow a=6\\).</p>\n<p>Det gemensamma värdet är \\(16\\).</p>\n<p><strong>Svar:</strong> <strong>\\(a=6\\), gemensamt värde 16.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "familj": "Förenkla algebraiska uttryck",
     "geogebra": false,
@@ -18268,7 +17370,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Låt</p><p>\\(A=3(2x-5)-2(x+4)\\)</p><p>och</p><p>\\(B=5(x-1)-[2x-(3-x)]\\).</p>\n<p>Bestäm \\(x\\) då \\(A=B\\). Redovisa först båda uttrycken förenklade.</p>",
+    "t": "<p>Låt</p><p>\\(A=3(2x-5)-2(x+4)\\)</p><p>och</p><p>\\(B=5(x-1)-(2x-(3-x))\\).</p>\n<p>Bestäm \\(x\\) då \\(A=B\\). Redovisa först båda uttrycken förenklade.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> \\(A=6x-15-2x-8=4x-23\\).</p>\n<p>\\(B=5x-5-(3x-3)=2x-2\\).</p>\n<p>\\(4x-23=2x-2\\Rightarrow2x=21\\).</p>\n<p><strong>Svar:</strong> <strong>\\(x=10,5\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
     "familj": "Multiplicera in en negativ faktor i parentes",
     "geogebra": false,

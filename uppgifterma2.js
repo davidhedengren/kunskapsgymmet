@@ -1,6 +1,6 @@
-/* Ma2-bank. Pedagogiskt kvalitetsreviderad och kompletterad t.o.m. omgång 29 (2026-09-14).
+/* Ma2-bank. Slutreviderad releasekandidat (2026-09-14).
  * E/C/A används för Uppgiftslabbet. traningsniva 1–5 används separat i Kunskapsgymmet.
- * Matematiktypografi/TeX samt miniräknare/GeoGebra är fortlöpande QA-granskade.
+ * Global QA: nivåkalibrering, digitala verktyg, självrättning, dubbletter, facit och matematiktypografi.
  */
 window.BANKMA2 = [
   {
@@ -294,7 +294,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Grafen visar en linje.</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"83.80\" y1=\"330.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"119.60\" y1=\"330.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"298.60\" y1=\"330.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"334.40\" y1=\"330.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"370.20\" y1=\"330.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"304.17\" x2=\"406.00\" y2=\"304.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"278.33\" x2=\"406.00\" y2=\"278.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"200.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"149.17\" x2=\"406.00\" y2=\"149.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"123.33\" x2=\"406.00\" y2=\"123.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"71.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"45.83\" x2=\"406.00\" y2=\"45.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"83.80\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"119.60\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"155.40\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"191.20\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"262.80\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"298.60\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"334.40\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"370.20\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"406.00\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"219.00\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"219.00\" y=\"307.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"219.00\" y=\"281.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"219.00\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"219.00\" y=\"229.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"219.00\" y=\"203.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"219.00\" y=\"152.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"219.00\" y=\"126.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"219.00\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"219.00\" y=\"74.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"219.00\" y=\"48.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"219.00\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"71.67\" stroke=\"#B43123\" stroke-width=\"2.7\"/><text x=\"377.36\" y=\"56.17\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">m</text></svg></span><p>a) Läs av två punkter på linjen.<br>b) Bestäm linjens ekvation.</p>",
-    "s": "<p>Exempel på punkter är \\((-1{,}1)\\) och \\((1{,}2)\\).</p><p>Då blir \\(k=(2-1)/(1-(-1))=0{,}5\\). Skärningen med \\(y\\)-axeln är 1,5.</p><p><strong>\\(y=0{,}5x+1{,}5\\).</strong></p>",
+    "s": "<p>Exempel på punkter är \\((-1,\\,1)\\) och \\((1,\\,2)\\).</p><p>Då blir \\(k=(2-1)/(1-(-1))=0{,}5\\). Skärningen med \\(y\\)-axeln är 1,5.</p><p><strong>\\(y=0{,}5x+1{,}5\\).</strong></p>",
     "familj": "Läsa av linjens ekvation från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -435,7 +435,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En linjär funktion uppfyller \\(f(-1)=8\\) och \\(f(5)=-4\\).</p><p>Bestäm \\(x\\)-värdet där \\(f(x)=2\\).</p>",
-    "s": "<p>De två givna funktionsvärdena motsvarar punkterna \\((-1{,}8)\\) och \\((5,-4)\\).</p><p>Riktningskoefficienten är</p><p>\\[k=\\frac{-4-8}{5-(-1)}=\\frac{-12}{6}=-2.\\]</p><p>Sätt in \\((-1{,}8)\\) i \\(f(x)=-2x+m\\):</p><p>\\[8=-2(-1)+m\\Rightarrow m=6.\\]</p><p>Alltså \\(f(x)=-2x+6\\). Kravet \\(f(x)=2\\) ger</p><p>\\[-2x+6=2\\Rightarrow x=2.\\]</p><p><strong>\\(x=2\\).</strong></p>",
+    "s": "<p>De två givna funktionsvärdena motsvarar punkterna \\((-1,\\,8)\\) och \\((5,-4)\\).</p><p>Riktningskoefficienten är</p><p>\\[k=\\frac{-4-8}{5-(-1)}=\\frac{-12}{6}=-2.\\]</p><p>Sätt in \\((-1,\\,8)\\) i \\(f(x)=-2x+m\\):</p><p>\\[8=-2(-1)+m\\Rightarrow m=6.\\]</p><p>Alltså \\(f(x)=-2x+6\\). Kravet \\(f(x)=2\\) ger</p><p>\\[-2x+6=2\\Rightarrow x=2.\\]</p><p><strong>\\(x=2\\).</strong></p>",
     "familj": "Tolka och växla mellan linjära representationer",
     "geogebra": false,
     "miniräknare": false,
@@ -464,7 +464,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm ekvationen för linjen som går genom \\((2{,}7)\\) och \\((6{,}15)\\).</p>",
+    "t": "<p>Bestäm ekvationen för linjen som går genom \\((2,\\,7)\\) och \\((6,\\,15)\\).</p>",
     "s": "<p>\\(k=(15-7)/(6-2)=2\\).</p><p>\\(7=2\\cdot2+m\\Rightarrow m=3\\).</p><p><strong>\\(y=2x+3\\).</strong></p>",
     "familj": "Bestämma linjär funktion från två punkter",
     "geogebra": false,
@@ -494,7 +494,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Tabellen beskriver en linjär funktion.</p><table class=\"data\"><tr><th>x</th><th>-1</th><th>1</th><th>3</th></tr><tr><td>y</td><td>7</td><td>3</td><td>-1</td></tr></table><p>Bestäm funktionens formel.</p>",
-    "s": "<p>När x ökar med 2 minskar y med 4. Riktningskoefficienten är därför \\(k=-2\\).</p><p>Använd till exempel punkten \\((1{,}3)\\): \\(3=-2\\cdot1+m\\), så \\(m=5\\).</p><p><strong>\\(y=-2x+5\\)</strong></p>",
+    "s": "<p>När x ökar med 2 minskar y med 4. Riktningskoefficienten är därför \\(k=-2\\).</p><p>Använd till exempel punkten \\((1,\\,3)\\): \\(3=-2\\cdot1+m\\), så \\(m=5\\).</p><p><strong>\\(y=-2x+5\\)</strong></p>",
     "familj": "Bestämma linjär funktion från tabell",
     "geogebra": false,
     "miniräknare": false,
@@ -553,7 +553,7 @@ window.BANKMA2 = [
     "niva": "A",
     "poang": "0/0/3",
     "t": "<p>Linjerna</p><p>\\[L_1:\\ y=(a-1)x+2\\qquad L_2:\\ y=(2a+1)x-4\\]</p><p>är vinkelräta. Dessutom ligger deras skärningspunkt ovanför \\(x\\)-axeln.</p><p>Bestäm konstanten \\(a\\).</p>",
-    "s": "<p>Linjerna har riktningskoefficienterna \\(a-1\\) och \\(2a+1\\). För vinkelräta linjer gäller därför</p><p>\\[(a-1)(2a+1)=-1.\\]</p><p>Det ger \\(2a^2-a=0\\), alltså \\(a=0\\) eller \\(a=\\frac12\\).</p><p>Villkoret om skärningspunkten avgör vilket värde som fungerar.</p><p>För \\(a=0\\): \\(y=-x+2\\) och \\(y=x-4\\), som skär varandra i \\((3,-1)\\). Punkten ligger under x-axeln.</p><p>För \\(a=\\frac12\\): \\(y=-\\frac12x+2\\) och \\(y=2x-4\\). De skär varandra i \\((2{,}4{,}0{,}8)\\).</p><p><strong>Alltså \\(a=\\frac12\\).</strong></p>",
+    "s": "<p>Linjerna har riktningskoefficienterna \\(a-1\\) och \\(2a+1\\). För vinkelräta linjer gäller därför</p><p>\\[(a-1)(2a+1)=-1.\\]</p><p>Det ger \\(2a^2-a=0\\), alltså \\(a=0\\) eller \\(a=\\frac12\\).</p><p>Villkoret om skärningspunkten avgör vilket värde som fungerar.</p><p>För \\(a=0\\): \\(y=-x+2\\) och \\(y=x-4\\), som skär varandra i \\((3,-1)\\). Punkten ligger under x-axeln.</p><p>För \\(a=\\frac12\\): \\(y=-\\frac12x+2\\) och \\(y=2x-4\\). De skär varandra i \\((2{,}4;\\,0{,}8)\\).</p><p><strong>Alltså \\(a=\\frac12\\).</strong></p>",
     "familj": "Bestämma linjens ekvation från villkor",
     "geogebra": false,
     "miniräknare": false,
@@ -568,7 +568,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Börja med villkoret för vinkelräta linjer: produkten av riktningskoefficienterna ska vara \\(-1\\). Pröva sedan de värden du får mot kravet på skärningspunkten.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -584,7 +584,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Grafen visar en rät linje \\(L\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"390\" viewBox=\"0 0 430 390\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"388\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"350.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"83.80\" y1=\"350.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"119.60\" y1=\"350.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"155.40\" y1=\"350.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"191.20\" y1=\"350.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"227.00\" y1=\"350.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"262.80\" y1=\"350.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"298.60\" y1=\"350.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"334.40\" y1=\"350.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"370.20\" y1=\"350.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"406.00\" y1=\"350.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"350.00\" x2=\"406.00\" y2=\"350.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"322.50\" x2=\"406.00\" y2=\"322.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"295.00\" x2=\"406.00\" y2=\"295.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"267.50\" x2=\"406.00\" y2=\"267.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"240.00\" x2=\"406.00\" y2=\"240.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"212.50\" x2=\"406.00\" y2=\"212.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"185.00\" x2=\"406.00\" y2=\"185.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"157.50\" x2=\"406.00\" y2=\"157.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"130.00\" x2=\"406.00\" y2=\"130.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"102.50\" x2=\"406.00\" y2=\"102.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"75.00\" x2=\"406.00\" y2=\"75.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"47.50\" x2=\"406.00\" y2=\"47.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"240.00\" x2=\"416.00\" y2=\"240.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 416.00 240.00 l -8 -4 l 0 8 z\" fill=\"#2B2527\"/><line x1=\"191.20\" y1=\"350.00\" x2=\"191.20\" y2=\"10.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 191.20 10.00 l -4 8 l 8 0 z\" fill=\"#2B2527\"/><line x1=\"48.00\" y1=\"236.00\" x2=\"48.00\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"48.00\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-4</text><line x1=\"83.80\" y1=\"236.00\" x2=\"83.80\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"83.80\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"119.60\" y1=\"236.00\" x2=\"119.60\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"119.60\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"155.40\" y1=\"236.00\" x2=\"155.40\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"155.40\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"227.00\" y1=\"236.00\" x2=\"227.00\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"227.00\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"262.80\" y1=\"236.00\" x2=\"262.80\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"262.80\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"298.60\" y1=\"236.00\" x2=\"298.60\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"298.60\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"334.40\" y1=\"236.00\" x2=\"334.40\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"334.40\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"370.20\" y1=\"236.00\" x2=\"370.20\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"370.20\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"406.00\" y1=\"236.00\" x2=\"406.00\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"406.00\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">6</text><line x1=\"187.20\" y1=\"350.00\" x2=\"195.20\" y2=\"350.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"353.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-4</text><line x1=\"187.20\" y1=\"322.50\" x2=\"195.20\" y2=\"322.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"326.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"187.20\" y1=\"295.00\" x2=\"195.20\" y2=\"295.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"298.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"187.20\" y1=\"267.50\" x2=\"195.20\" y2=\"267.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"271.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"187.20\" y1=\"212.50\" x2=\"195.20\" y2=\"212.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"216.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"187.20\" y1=\"185.00\" x2=\"195.20\" y2=\"185.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"188.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"187.20\" y1=\"157.50\" x2=\"195.20\" y2=\"157.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"161.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"187.20\" y1=\"130.00\" x2=\"195.20\" y2=\"130.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"133.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"187.20\" y1=\"102.50\" x2=\"195.20\" y2=\"102.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"106.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"187.20\" y1=\"75.00\" x2=\"195.20\" y2=\"75.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"78.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">6</text><line x1=\"187.20\" y1=\"47.50\" x2=\"195.20\" y2=\"47.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"51.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">7</text><line x1=\"187.20\" y1=\"20.00\" x2=\"195.20\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"23.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">8</text><text x=\"183.20\" y=\"256.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"119.60\" y1=\"20.00\" x2=\"334.40\" y2=\"350.00\" stroke=\"#B43123\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><text x=\"133.92\" y=\"42.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">L</text><text x=\"419.00\" y=\"244.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">x</text><text x=\"198.20\" y=\"14.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">y</text></svg></span><p>a) Bestäm linjens riktningskoefficient \\(k\\).<br>b) Bestäm \\(m\\).<br>c) Bestäm linjens nollställe.</p>",
-    "s": "<p>Två tydliga punkter på linjen är \\((0{,}4)\\) och \\((1{,}2)\\).</p><p>a) Riktningskoefficienten blir</p><p>\\[k=\\frac{2-4}{1-0}=-2.\\]</p><p>b) När \\(x=0\\) är \\(y=4\\), alltså \\(m=4\\). Linjen är därför \\(y=-2x+4\\).</p><p>c) Nollstället fås när \\(y=0\\):</p><p>\\[0=-2x+4\\Rightarrow x=2.\\]</p><p><strong>\\(k=-2\\), \\(m=4\\) och nollstället är \\(x=2\\).</strong></p>",
+    "s": "<p>Två tydliga punkter på linjen är \\((0,\\,4)\\) och \\((1,\\,2)\\).</p><p>a) Riktningskoefficienten blir</p><p>\\[k=\\frac{2-4}{1-0}=-2.\\]</p><p>b) När \\(x=0\\) är \\(y=4\\), alltså \\(m=4\\). Linjen är därför \\(y=-2x+4\\).</p><p>c) Nollstället fås när \\(y=0\\):</p><p>\\[0=-2x+4\\Rightarrow x=2.\\]</p><p><strong>\\(k=-2\\), \\(m=4\\) och nollstället är \\(x=2\\).</strong></p>",
     "familj": "Läsa av linjens ekvation från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -648,8 +648,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En linje går genom punkterna \\((0,-5)\\) och \\((4{,}3)\\).</p><p>Bestäm linjens ekvation.</p>",
-    "s": "<p>Punkterna är \\((0,-5)\\) och \\((4{,}3)\\).</p><p>Riktningskoefficienten är \\(k=(3-(-5))/(4-0)=8/4=2\\).</p><p>När \\(x=0\\) är \\(y=-5\\), så \\(m=-5\\).</p><p><strong>\\(y=2x-5\\).</strong></p>",
+    "t": "<p>En linje går genom punkterna \\((0,-5)\\) och \\((4,\\,3)\\).</p><p>Bestäm linjens ekvation.</p>",
+    "s": "<p>Punkterna är \\((0,-5)\\) och \\((4,\\,3)\\).</p><p>Riktningskoefficienten är \\(k=(3-(-5))/(4-0)=8/4=2\\).</p><p>När \\(x=0\\) är \\(y=-5\\), så \\(m=-5\\).</p><p><strong>\\(y=2x-5\\).</strong></p>",
     "familj": "Bestämma linjär funktion från två punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -850,8 +850,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Samir löser ekvationssystemet</p><p>\\(\\begin{cases}4x-3y=5\\\\2x+y=7\\end{cases}\\)</p><p>och skriver att lösningen är \\((2{,}3)\\).</p><p>Visa att hans svar är fel och bestäm den korrekta lösningen.</p>",
-    "s": "<p>Kontroll av \\((2{,}3)\\): den andra ekvationen ger \\(2\\cdot2+3=7\\), men den första ger \\(8-9=-1\\ne5\\). Svaret är alltså fel.</p><p>Ur den andra ekvationen: \\(y=7-2x\\).</p><p>Sätt in i den första: \\(4x-3(7-2x)=5\\Rightarrow10x=26\\Rightarrow x=\\frac{13}{5}\\).</p><p>\\(y=7-\\frac{26}{5}=\\frac95\\).</p><p><strong>\\((x,y)=(\\frac{13}{5},\\frac95)\\).</strong></p>",
+    "t": "<p>Samir löser ekvationssystemet</p><p>\\(\\begin{cases}4x-3y=5\\\\2x+y=7\\end{cases}\\)</p><p>och skriver att lösningen är \\((2,\\,3)\\).</p><p>Visa att hans svar är fel och bestäm den korrekta lösningen.</p>",
+    "s": "<p>Kontroll av \\((2,\\,3)\\): den andra ekvationen ger \\(2\\cdot2+3=7\\), men den första ger \\(8-9=-1\\ne5\\). Svaret är alltså fel.</p><p>Ur den andra ekvationen: \\(y=7-2x\\).</p><p>Sätt in i den första: \\(4x-3(7-2x)=5\\Rightarrow10x=26\\Rightarrow x=\\frac{13}{5}\\).</p><p>\\(y=7-\\frac{26}{5}=\\frac95\\).</p><p><strong>\\((x,y)=(\\frac{13}{5},\\frac95)\\).</strong></p>",
     "familj": "Kontrollera lösning till ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
@@ -970,7 +970,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>De två linjerna i figuren beskriver ett ekvationssystem.</p><span class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"45.0\" y1=\"265.0\" x2=\"45.0\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"77.3\" y1=\"265.0\" x2=\"77.3\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"109.5\" y1=\"265.0\" x2=\"109.5\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"141.8\" y1=\"265.0\" x2=\"141.8\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"174.1\" y1=\"265.0\" x2=\"174.1\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"206.4\" y1=\"265.0\" x2=\"206.4\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"238.6\" y1=\"265.0\" x2=\"238.6\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"270.9\" y1=\"265.0\" x2=\"270.9\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"303.2\" y1=\"265.0\" x2=\"303.2\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"335.5\" y1=\"265.0\" x2=\"335.5\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"367.7\" y1=\"265.0\" x2=\"367.7\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"400.0\" y1=\"265.0\" x2=\"400.0\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"265.0\" x2=\"400.0\" y2=\"265.0\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"247.4\" x2=\"400.0\" y2=\"247.4\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"229.7\" x2=\"400.0\" y2=\"229.7\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"212.1\" x2=\"400.0\" y2=\"212.1\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"194.4\" x2=\"400.0\" y2=\"194.4\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"176.8\" x2=\"400.0\" y2=\"176.8\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"159.1\" x2=\"400.0\" y2=\"159.1\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"141.5\" x2=\"400.0\" y2=\"141.5\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"123.9\" x2=\"400.0\" y2=\"123.9\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"106.2\" x2=\"400.0\" y2=\"106.2\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"88.6\" x2=\"400.0\" y2=\"88.6\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"70.9\" x2=\"400.0\" y2=\"70.9\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"53.3\" x2=\"400.0\" y2=\"53.3\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"35.6\" x2=\"400.0\" y2=\"35.6\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"18.0\" x2=\"400.0\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"194.4\" x2=\"400.0\" y2=\"194.4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"45.0\" y=\"209.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-3</text><text x=\"77.3\" y=\"209.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-2</text><text x=\"109.5\" y=\"209.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"174.1\" y=\"209.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"206.4\" y=\"209.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"238.6\" y=\"209.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"270.9\" y=\"209.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"303.2\" y=\"209.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"335.5\" y=\"209.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"367.7\" y=\"209.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><text x=\"400.0\" y=\"209.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><line x1=\"141.8\" y1=\"265.0\" x2=\"141.8\" y2=\"18.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"134.8\" y=\"268.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-4</text><text x=\"134.8\" y=\"250.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-3</text><text x=\"134.8\" y=\"232.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-2</text><text x=\"134.8\" y=\"215.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"134.8\" y=\"179.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"134.8\" y=\"162.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"134.8\" y=\"144.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"134.8\" y=\"126.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"134.8\" y=\"109.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"134.8\" y=\"91.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"134.8\" y=\"73.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><text x=\"134.8\" y=\"56.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><text x=\"134.8\" y=\"38.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">9</text><text x=\"134.8\" y=\"21.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">10</text><path d=\"M 45.0 185.6 L 46.8 185.1 L 48.6 184.6 L 50.4 184.1 L 52.1 183.7 L 53.9 183.2 L 55.7 182.7 L 57.5 182.2 L 59.3 181.7 L 61.1 181.2 L 62.8 180.7 L 64.6 180.2 L 66.4 179.8 L 68.2 179.3 L 70.0 178.8 L 71.8 178.3 L 73.5 177.8 L 75.3 177.3 L 77.1 176.8 L 78.9 176.3 L 80.7 175.9 L 82.5 175.4 L 84.2 174.9 L 86.0 174.4 L 87.8 173.9 L 89.6 173.4 L 91.4 172.9 L 93.2 172.4 L 94.9 172.0 L 96.7 171.5 L 98.5 171.0 L 100.3 170.5 L 102.1 170.0 L 103.9 169.5 L 105.7 169.0 L 107.4 168.5 L 109.2 168.1 L 111.0 167.6 L 112.8 167.1 L 114.6 166.6 L 116.4 166.1 L 118.1 165.6 L 119.9 165.1 L 121.7 164.6 L 123.5 164.2 L 125.3 163.7 L 127.1 163.2 L 128.8 162.7 L 130.6 162.2 L 132.4 161.7 L 134.2 161.2 L 136.0 160.7 L 137.8 160.3 L 139.5 159.8 L 141.3 159.3 L 143.1 158.8 L 144.9 158.3 L 146.7 157.8 L 148.5 157.3 L 150.3 156.8 L 152.0 156.4 L 153.8 155.9 L 155.6 155.4 L 157.4 154.9 L 159.2 154.4 L 161.0 153.9 L 162.7 153.4 L 164.5 152.9 L 166.3 152.4 L 168.1 152.0 L 169.9 151.5 L 171.7 151.0 L 173.4 150.5 L 175.2 150.0 L 177.0 149.5 L 178.8 149.0 L 180.6 148.5 L 182.4 148.1 L 184.1 147.6 L 185.9 147.1 L 187.7 146.6 L 189.5 146.1 L 191.3 145.6 L 193.1 145.1 L 194.8 144.6 L 196.6 144.2 L 198.4 143.7 L 200.2 143.2 L 202.0 142.7 L 203.8 142.2 L 205.6 141.7 L 207.3 141.2 L 209.1 140.7 L 210.9 140.3 L 212.7 139.8 L 214.5 139.3 L 216.3 138.8 L 218.0 138.3 L 219.8 137.8 L 221.6 137.3 L 223.4 136.8 L 225.2 136.4 L 227.0 135.9 L 228.7 135.4 L 230.5 134.9 L 232.3 134.4 L 234.1 133.9 L 235.9 133.4 L 237.7 132.9 L 239.4 132.5 L 241.2 132.0 L 243.0 131.5 L 244.8 131.0 L 246.6 130.5 L 248.4 130.0 L 250.2 129.5 L 251.9 129.0 L 253.7 128.6 L 255.5 128.1 L 257.3 127.6 L 259.1 127.1 L 260.9 126.6 L 262.6 126.1 L 264.4 125.6 L 266.2 125.1 L 268.0 124.7 L 269.8 124.2 L 271.6 123.7 L 273.3 123.2 L 275.1 122.7 L 276.9 122.2 L 278.7 121.7 L 280.5 121.2 L 282.3 120.8 L 284.0 120.3 L 285.8 119.8 L 287.6 119.3 L 289.4 118.8 L 291.2 118.3 L 293.0 117.8 L 294.7 117.3 L 296.5 116.9 L 298.3 116.4 L 300.1 115.9 L 301.9 115.4 L 303.7 114.9 L 305.5 114.4 L 307.2 113.9 L 309.0 113.4 L 310.8 113.0 L 312.6 112.5 L 314.4 112.0 L 316.2 111.5 L 317.9 111.0 L 319.7 110.5 L 321.5 110.0 L 323.3 109.5 L 325.1 109.1 L 326.9 108.6 L 328.6 108.1 L 330.4 107.6 L 332.2 107.1 L 334.0 106.6 L 335.8 106.1 L 337.6 105.6 L 339.3 105.2 L 341.1 104.7 L 342.9 104.2 L 344.7 103.7 L 346.5 103.2 L 348.3 102.7 L 350.1 102.2 L 351.8 101.7 L 353.6 101.2 L 355.4 100.8 L 357.2 100.3 L 359.0 99.8 L 360.8 99.3 L 362.5 98.8 L 364.3 98.3 L 366.1 97.8 L 367.9 97.3 L 369.7 96.9 L 371.5 96.4 L 373.2 95.9 L 375.0 95.4 L 376.8 94.9 L 378.6 94.4 L 380.4 93.9 L 382.2 93.4 L 383.9 93.0 L 385.7 92.5 L 387.5 92.0 L 389.3 91.5 L 391.1 91.0 L 392.9 90.5 L 394.6 90.0 L 396.4 89.5 L 398.2 89.1 L 400.0 88.6\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.6\"/><path d=\"M 78.9 18.9 L 80.7 19.9 L 82.5 20.8 L 84.2 21.8 L 86.0 22.8 L 87.8 23.8 L 89.6 24.7 L 91.4 25.7 L 93.2 26.7 L 94.9 27.7 L 96.7 28.6 L 98.5 29.6 L 100.3 30.6 L 102.1 31.6 L 103.9 32.5 L 105.7 33.5 L 107.4 34.5 L 109.2 35.5 L 111.0 36.4 L 112.8 37.4 L 114.6 38.4 L 116.4 39.4 L 118.1 40.3 L 119.9 41.3 L 121.7 42.3 L 123.5 43.3 L 125.3 44.2 L 127.1 45.2 L 128.8 46.2 L 130.6 47.2 L 132.4 48.1 L 134.2 49.1 L 136.0 50.1 L 137.8 51.1 L 139.5 52.0 L 141.3 53.0 L 143.1 54.0 L 144.9 55.0 L 146.7 55.9 L 148.5 56.9 L 150.3 57.9 L 152.0 58.9 L 153.8 59.8 L 155.6 60.8 L 157.4 61.8 L 159.2 62.8 L 161.0 63.7 L 162.7 64.7 L 164.5 65.7 L 166.3 66.7 L 168.1 67.6 L 169.9 68.6 L 171.7 69.6 L 173.4 70.6 L 175.2 71.5 L 177.0 72.5 L 178.8 73.5 L 180.6 74.5 L 182.4 75.5 L 184.1 76.4 L 185.9 77.4 L 187.7 78.4 L 189.5 79.4 L 191.3 80.3 L 193.1 81.3 L 194.8 82.3 L 196.6 83.3 L 198.4 84.2 L 200.2 85.2 L 202.0 86.2 L 203.8 87.2 L 205.6 88.1 L 207.3 89.1 L 209.1 90.1 L 210.9 91.1 L 212.7 92.0 L 214.5 93.0 L 216.3 94.0 L 218.0 95.0 L 219.8 95.9 L 221.6 96.9 L 223.4 97.9 L 225.2 98.9 L 227.0 99.8 L 228.7 100.8 L 230.5 101.8 L 232.3 102.8 L 234.1 103.7 L 235.9 104.7 L 237.7 105.7 L 239.4 106.7 L 241.2 107.6 L 243.0 108.6 L 244.8 109.6 L 246.6 110.6 L 248.4 111.5 L 250.2 112.5 L 251.9 113.5 L 253.7 114.5 L 255.5 115.4 L 257.3 116.4 L 259.1 117.4 L 260.9 118.4 L 262.6 119.3 L 264.4 120.3 L 266.2 121.3 L 268.0 122.3 L 269.8 123.2 L 271.6 124.2 L 273.3 125.2 L 275.1 126.2 L 276.9 127.1 L 278.7 128.1 L 280.5 129.1 L 282.3 130.1 L 284.0 131.0 L 285.8 132.0 L 287.6 133.0 L 289.4 134.0 L 291.2 134.9 L 293.0 135.9 L 294.7 136.9 L 296.5 137.9 L 298.3 138.8 L 300.1 139.8 L 301.9 140.8 L 303.7 141.8 L 305.5 142.7 L 307.2 143.7 L 309.0 144.7 L 310.8 145.7 L 312.6 146.6 L 314.4 147.6 L 316.2 148.6 L 317.9 149.6 L 319.7 150.5 L 321.5 151.5 L 323.3 152.5 L 325.1 153.5 L 326.9 154.4 L 328.6 155.4 L 330.4 156.4 L 332.2 157.4 L 334.0 158.3 L 335.8 159.3 L 337.6 160.3 L 339.3 161.3 L 341.1 162.2 L 342.9 163.2 L 344.7 164.2 L 346.5 165.2 L 348.3 166.1 L 350.1 167.1 L 351.8 168.1 L 353.6 169.1 L 355.4 170.0 L 357.2 171.0 L 359.0 172.0 L 360.8 173.0 L 362.5 173.9 L 364.3 174.9 L 366.1 175.9 L 367.9 176.9 L 369.7 177.8 L 371.5 178.8 L 373.2 179.8 L 375.0 180.8 L 376.8 181.8 L 378.6 182.7 L 380.4 183.7 L 382.2 184.7 L 383.9 185.7 L 385.7 186.6 L 387.5 187.6 L 389.3 188.6 L 391.1 189.6 L 392.9 190.5 L 394.6 191.5 L 396.4 192.5 L 398.2 193.5 L 400.0 194.4\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.6\"/><circle cx=\"270.9\" cy=\"123.9\" r=\"4\" fill=\"#222\"/></svg></span><p>a) Bestäm lösningen grafiskt.<br>b) Förklara vad lösningen betyder.</p>",
-    "s": "<p>Linjerna skär varandra i punkten \\((4{,}4)\\).</p><p><strong>a) \\((x,y)=(4{,}4)\\).</strong></p><p>Skärningspunkten är den punkt som uppfyller båda ekvationerna samtidigt.</p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
+    "s": "<p>Linjerna skär varandra i punkten \\((4,\\,4)\\).</p><p><strong>a) \\((x,y)=(4{,}4)\\).</strong></p><p>Skärningspunkten är den punkt som uppfyller båda ekvationerna samtidigt.</p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
     "familj": "Grafisk lösning",
     "geogebra": true,
     "miniräknare": false,
@@ -1003,7 +1003,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y=11\\\\x-y=1\\end{cases}\\)</p>",
-    "s": "<p>Addera ekvationerna: \\(2x=12\\Rightarrow x=6\\). Då \\(y=5\\).</p><p><strong>\\((6{,}5)\\).</strong></p>",
+    "s": "<p>Addera ekvationerna: \\(2x=12\\Rightarrow x=6\\). Då \\(y=5\\).</p><p><strong>\\((6,\\,5)\\).</strong></p>",
     "familj": "Lösa linjära ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
@@ -1152,7 +1152,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös systemet.</p><p>\\[\\begin{cases}x+y+z=12\\\\x+y=7\\\\y+z=8\\end{cases}\\]</p>",
-    "s": "<p>Från \\(x+y=7\\) fås \\(x=7-y\\). Från \\(y+z=8\\) fås \\(z=8-y\\).</p><p>Sätt in i första ekvationen:</p><p>\\((7-y)+y+(8-y)=12\\Rightarrow15-y=12\\Rightarrow y=3\\).</p><p>Då är \\(x=4\\) och \\(z=5\\).</p><p><strong>\\((x,y,z)=(4{,}3{,}5)\\)</strong></p>",
+    "s": "<p>Från \\(x+y=7\\) fås \\(x=7-y\\). Från \\(y+z=8\\) fås \\(z=8-y\\).</p><p>Sätt in i första ekvationen:</p><p>\\((7-y)+y+(8-y)=12\\Rightarrow15-y=12\\Rightarrow y=3\\).</p><p>Då är \\(x=4\\) och \\(z=5\\).</p><p><strong>\\((x,y,z)=(4,\\,3,\\,5)\\)</strong></p>",
     "familj": "Tre obekanta",
     "geogebra": false,
     "miniräknare": false,
@@ -1247,7 +1247,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Analysera antal lösningar och parameterfall i ekvationssystem",
     "ledtrad": "<p>Jämför den andra ekvationens vänsterled med den första. Vad måste då gälla för högerledet om ekvationerna ska beskriva samma linje?</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "arbetsinsats": 2,
     "spel": false
   },
@@ -1757,7 +1757,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen genom faktorisering:</p><p>\\(2x^3-18x=0\\).</p>",
-    "s": "<p>Bryt först ut den gemensamma faktorn \\(2x\\):</p><p>\\[2x^3-18x=2x(x^2-9).\\]</p><p>Skillnaden \\(x^2-9\\) är en differens av två kvadrater:</p><p>\\[2x(x^2-9)=2x(x-3)(x+3).\\]</p><p>En produkt är noll när minst en faktor är noll. Därför är</p><p><strong>\\(x=-3{,}0{,}3\\).</strong></p>",
+    "s": "<p>Bryt först ut den gemensamma faktorn \\(2x\\):</p><p>\\[2x^3-18x=2x(x^2-9).\\]</p><p>Skillnaden \\(x^2-9\\) är en differens av två kvadrater:</p><p>\\[2x(x^2-9)=2x(x-3)(x+3).\\]</p><p>En produkt är noll när minst en faktor är noll. Därför är</p><p><strong>\\(x=-3,\\,0,\\,3\\).</strong></p>",
     "familj": "Faktorisering",
     "geogebra": false,
     "miniräknare": false,
@@ -1899,8 +1899,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Linjen \\(L\\) är vinkelrät mot linjen \\(y=\\frac12x-3\\) och går genom punkten \\((4{,}1)\\).</p><p>Bestäm en ekvation för \\(L\\).</p>",
-    "s": "<p>Den givna linjen har riktningskoefficienten \\(\\frac12\\). En vinkelrät linje får därför riktningskoefficienten \\(-2\\), eftersom</p><p>\\[\\frac12\\cdot(-2)=-1.\\]</p><p>Skriv \\(L\\) som \\(y=-2x+m\\) och sätt in punkten \\((4{,}1)\\):</p><p>\\[1=-2\\cdot4+m\\Rightarrow m=9.\\]</p><p><strong>\\(L:y=-2x+9\\).</strong></p>",
+    "t": "<p>Linjen \\(L\\) är vinkelrät mot linjen \\(y=\\frac12x-3\\) och går genom punkten \\((4,\\,1)\\).</p><p>Bestäm en ekvation för \\(L\\).</p>",
+    "s": "<p>Den givna linjen har riktningskoefficienten \\(\\frac12\\). En vinkelrät linje får därför riktningskoefficienten \\(-2\\), eftersom</p><p>\\[\\frac12\\cdot(-2)=-1.\\]</p><p>Skriv \\(L\\) som \\(y=-2x+m\\) och sätt in punkten \\((4,\\,1)\\):</p><p>\\[1=-2\\cdot4+m\\Rightarrow m=9.\\]</p><p><strong>\\(L:y=-2x+9\\).</strong></p>",
     "familj": "Bestämma linjens ekvation från villkor",
     "geogebra": false,
     "miniräknare": false,
@@ -1928,8 +1928,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Grafen visar en linjär funktion.</p><span class=\"fig\"><svg width=\"520\" height=\"330\" viewBox=\"0 0 520 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till en linjär funktion\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"328\" rx=\"12\" fill=\"#fff\" stroke=\"#D1D5DB\"/><line x1=\"60.0\" y1=\"25\" x2=\"60.0\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"113.8\" y1=\"25\" x2=\"113.8\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"167.5\" y1=\"25\" x2=\"167.5\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"221.2\" y1=\"25\" x2=\"221.2\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"275.0\" y1=\"25\" x2=\"275.0\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"328.8\" y1=\"25\" x2=\"328.8\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"382.5\" y1=\"25\" x2=\"382.5\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"436.2\" y1=\"25\" x2=\"436.2\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"490.0\" y1=\"25\" x2=\"490.0\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"290.0\" x2=\"490\" y2=\"290.0\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"267.9\" x2=\"490\" y2=\"267.9\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"245.8\" x2=\"490\" y2=\"245.8\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"223.8\" x2=\"490\" y2=\"223.8\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"201.7\" x2=\"490\" y2=\"201.7\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"179.6\" x2=\"490\" y2=\"179.6\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"157.5\" x2=\"490\" y2=\"157.5\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"135.4\" x2=\"490\" y2=\"135.4\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"113.3\" x2=\"490\" y2=\"113.3\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"91.2\" x2=\"490\" y2=\"91.2\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"69.2\" x2=\"490\" y2=\"69.2\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"47.1\" x2=\"490\" y2=\"47.1\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"25.0\" x2=\"490\" y2=\"25.0\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"223.8\" x2=\"490\" y2=\"223.8\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"167.5\" y1=\"25\" x2=\"167.5\" y2=\"290\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"60.0\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-2</text><text x=\"113.8\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-1</text><text x=\"221.2\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">1</text><text x=\"275.0\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">2</text><text x=\"328.8\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">3</text><text x=\"382.5\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">4</text><text x=\"436.2\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">5</text><text x=\"490.0\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">6</text><text x=\"158.5\" y=\"294.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-3</text><text x=\"158.5\" y=\"271.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-2</text><text x=\"158.5\" y=\"249.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-1</text><text x=\"158.5\" y=\"205.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">1</text><text x=\"158.5\" y=\"183.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">2</text><text x=\"158.5\" y=\"161.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">3</text><text x=\"158.5\" y=\"139.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">4</text><text x=\"158.5\" y=\"117.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">5</text><text x=\"158.5\" y=\"95.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">6</text><text x=\"158.5\" y=\"73.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">7</text><text x=\"158.5\" y=\"51.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">8</text><text x=\"158.5\" y=\"29.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">9</text><line x1=\"60.0\" y1=\"25.0\" x2=\"490.0\" y2=\"290.0\" stroke=\"#2C62A8\" stroke-width=\"3\"/><circle cx=\"167.5\" cy=\"91.2\" r=\"4.5\" fill=\"#2C62A8\"/><circle cx=\"275.0\" cy=\"157.5\" r=\"4.5\" fill=\"#2C62A8\"/><circle cx=\"382.5\" cy=\"223.8\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"484\" y=\"214.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">x</text><text x=\"177.5\" y=\"39\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">y</text></svg></span><p>a) Skriv funktionen på formen \\(y=kx+m\\).</p><p>b) Gör en värdetabell för \\(x=-2{,}0{,}2{,}4\\).</p><p>c) Förklara hur samma information om förändring syns i både grafen och tabellen.</p>",
-    "s": "<p>a) Av grafen kan vi till exempel läsa punkterna \\((0{,}6)\\) och \\((2{,}3)\\). Då</p><p>\\(k=\\frac{3-6}{2-0}=-\\frac32=-1{,}5\\) och \\(m=6\\).</p><p><strong>\\(y=-1{,}5x+6\\).</strong></p><p>b) Insättning ger \\(9{,}6{,}3{,}0\\) för \\(x=-2{,}0{,}2{,}4\\).</p><table class=\"data\"><tr><th>x</th><th>−2</th><th>0</th><th>2</th><th>4</th></tr><tr><th>y</th><td>9</td><td>6</td><td>3</td><td>0</td></tr></table><p>c) Riktningskoefficienten \\(-1{,}5\\) betyder att \\(y\\) minskar med 1,5 när \\(x\\) ökar med 1. I tabellen syns samma sak, till exempel som en minskning med 3 när \\(x\\) ökar med 2.</p>",
+    "t": "<p>Grafen visar en linjär funktion.</p><span class=\"fig\"><svg width=\"520\" height=\"330\" viewBox=\"0 0 520 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till en linjär funktion\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"328\" rx=\"12\" fill=\"#fff\" stroke=\"#D1D5DB\"/><line x1=\"60.0\" y1=\"25\" x2=\"60.0\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"113.8\" y1=\"25\" x2=\"113.8\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"167.5\" y1=\"25\" x2=\"167.5\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"221.2\" y1=\"25\" x2=\"221.2\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"275.0\" y1=\"25\" x2=\"275.0\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"328.8\" y1=\"25\" x2=\"328.8\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"382.5\" y1=\"25\" x2=\"382.5\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"436.2\" y1=\"25\" x2=\"436.2\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"490.0\" y1=\"25\" x2=\"490.0\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"290.0\" x2=\"490\" y2=\"290.0\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"267.9\" x2=\"490\" y2=\"267.9\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"245.8\" x2=\"490\" y2=\"245.8\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"223.8\" x2=\"490\" y2=\"223.8\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"201.7\" x2=\"490\" y2=\"201.7\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"179.6\" x2=\"490\" y2=\"179.6\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"157.5\" x2=\"490\" y2=\"157.5\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"135.4\" x2=\"490\" y2=\"135.4\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"113.3\" x2=\"490\" y2=\"113.3\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"91.2\" x2=\"490\" y2=\"91.2\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"69.2\" x2=\"490\" y2=\"69.2\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"47.1\" x2=\"490\" y2=\"47.1\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"25.0\" x2=\"490\" y2=\"25.0\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"223.8\" x2=\"490\" y2=\"223.8\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"167.5\" y1=\"25\" x2=\"167.5\" y2=\"290\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"60.0\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-2</text><text x=\"113.8\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-1</text><text x=\"221.2\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">1</text><text x=\"275.0\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">2</text><text x=\"328.8\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">3</text><text x=\"382.5\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">4</text><text x=\"436.2\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">5</text><text x=\"490.0\" y=\"240.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">6</text><text x=\"158.5\" y=\"294.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-3</text><text x=\"158.5\" y=\"271.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-2</text><text x=\"158.5\" y=\"249.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-1</text><text x=\"158.5\" y=\"205.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">1</text><text x=\"158.5\" y=\"183.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">2</text><text x=\"158.5\" y=\"161.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">3</text><text x=\"158.5\" y=\"139.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">4</text><text x=\"158.5\" y=\"117.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">5</text><text x=\"158.5\" y=\"95.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">6</text><text x=\"158.5\" y=\"73.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">7</text><text x=\"158.5\" y=\"51.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">8</text><text x=\"158.5\" y=\"29.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">9</text><line x1=\"60.0\" y1=\"25.0\" x2=\"490.0\" y2=\"290.0\" stroke=\"#2C62A8\" stroke-width=\"3\"/><circle cx=\"167.5\" cy=\"91.2\" r=\"4.5\" fill=\"#2C62A8\"/><circle cx=\"275.0\" cy=\"157.5\" r=\"4.5\" fill=\"#2C62A8\"/><circle cx=\"382.5\" cy=\"223.8\" r=\"4.5\" fill=\"#2C62A8\"/><text x=\"484\" y=\"214.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">x</text><text x=\"177.5\" y=\"39\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">y</text></svg></span><p>a) Skriv funktionen på formen \\(y=kx+m\\).</p><p>b) Gör en värdetabell för \\(x=-2,\\,0,\\,2,\\,4\\).</p><p>c) Förklara hur samma information om förändring syns i både grafen och tabellen.</p>",
+    "s": "<p>a) Av grafen kan vi till exempel läsa punkterna \\((0,\\,6)\\) och \\((2,\\,3)\\). Då</p><p>\\(k=\\frac{3-6}{2-0}=-\\frac32=-1{,}5\\) och \\(m=6\\).</p><p><strong>\\(y=-1{,}5x+6\\).</strong></p><p>b) Insättning ger \\(9,\\,6,\\,3,\\,0\\) för \\(x=-2,\\,0,\\,2,\\,4\\).</p><table class=\"data\"><tr><th>x</th><th>−2</th><th>0</th><th>2</th><th>4</th></tr><tr><th>y</th><td>9</td><td>6</td><td>3</td><td>0</td></tr></table><p>c) Riktningskoefficienten \\(-1{,}5\\) betyder att \\(y\\) minskar med 1,5 när \\(x\\) ökar med 1. I tabellen syns samma sak, till exempel som en minskning med 3 när \\(x\\) ökar med 2.</p>",
     "familj": "Tolka och växla mellan linjära representationer",
     "geogebra": false,
     "miniräknare": false,
@@ -1983,7 +1983,12 @@ window.BANKMA2 = [
     "ledtrad": "<p>Börja med två tydliga punkter i grafen. När du har \\(k\\) och \\(m\\) kan du göra tabellen. Jämför sedan förändringen i y när x ökar lika mycket.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ]
   },
   {
     "id": "1.56",
@@ -2040,7 +2045,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Grafen visar linjen \\(L\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"80.55\" y1=\"330.00\" x2=\"80.55\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"113.09\" y1=\"330.00\" x2=\"113.09\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"178.18\" y1=\"330.00\" x2=\"178.18\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"210.73\" y1=\"330.00\" x2=\"210.73\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"243.27\" y1=\"330.00\" x2=\"243.27\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"275.82\" y1=\"330.00\" x2=\"275.82\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"308.36\" y1=\"330.00\" x2=\"308.36\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"340.91\" y1=\"330.00\" x2=\"340.91\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"373.45\" y1=\"330.00\" x2=\"373.45\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"307.86\" x2=\"406.00\" y2=\"307.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"285.71\" x2=\"406.00\" y2=\"285.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"263.57\" x2=\"406.00\" y2=\"263.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"241.43\" x2=\"406.00\" y2=\"241.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"219.29\" x2=\"406.00\" y2=\"219.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"197.14\" x2=\"406.00\" y2=\"197.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"152.86\" x2=\"406.00\" y2=\"152.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"130.71\" x2=\"406.00\" y2=\"130.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"108.57\" x2=\"406.00\" y2=\"108.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"86.43\" x2=\"406.00\" y2=\"86.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"64.29\" x2=\"406.00\" y2=\"64.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"42.14\" x2=\"406.00\" y2=\"42.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"197.14\" x2=\"416.00\" y2=\"197.14\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"80.55\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"113.09\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"145.64\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"178.18\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"243.27\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"275.82\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"308.36\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"340.91\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"373.45\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"406.00\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"210.73\" y1=\"330.00\" x2=\"210.73\" y2=\"10.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"202.73\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"202.73\" y=\"310.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"202.73\" y=\"288.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"202.73\" y=\"266.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"202.73\" y=\"244.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"202.73\" y=\"222.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"202.73\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"202.73\" y=\"155.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"202.73\" y=\"133.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"202.73\" y=\"111.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"202.73\" y=\"89.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"202.73\" y=\"67.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"202.73\" y=\"45.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"202.73\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"113.09\" y1=\"307.86\" x2=\"406.00\" y2=\"108.57\" stroke=\"#B43123\" stroke-width=\"2.7\"/><text x=\"363.69\" y=\"95.29\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">L</text></svg></span><p>a) Bestäm \\(k\\).<br>b) Bestäm \\(m\\).<br>c) Skriv linjens ekvation.</p>",
-    "s": "<p>Linjen går genom exempelvis \\((0,-2)\\) och \\((2{,}0)\\).</p><p>\\(k=1\\) och \\(m=-2\\).</p><p><strong>\\(y=x-2\\).</strong></p>",
+    "s": "<p>Linjen går genom exempelvis \\((0,-2)\\) och \\((2,\\,0)\\).</p><p>\\(k=1\\) och \\(m=-2\\).</p><p><strong>\\(y=x-2\\).</strong></p>",
     "familj": "Läsa av linjens ekvation från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -2116,7 +2121,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y=9\\\\x-y=3\\end{cases}\\)</p>",
-    "s": "<p>Addera ekvationerna: \\(2x=12\\Rightarrow x=6\\). Då \\(y=3\\).</p><p><strong>\\((6{,}3)\\).</strong></p>",
+    "s": "<p>Addera ekvationerna: \\(2x=12\\Rightarrow x=6\\). Då \\(y=3\\).</p><p><strong>\\((6,\\,3)\\).</strong></p>",
     "familj": "Lösa linjära ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
@@ -2158,7 +2163,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Systemet</p><p>\\(\\begin{cases}y=ax+2\\\\x+2y=10\\end{cases}\\)</p><p>har lösningen \\((2{,}4)\\).</p><p>Bestäm \\(a\\), och avgör sedan om systemet har någon annan lösning.</p>",
+    "t": "<p>Systemet</p><p>\\(\\begin{cases}y=ax+2\\\\x+2y=10\\end{cases}\\)</p><p>har lösningen \\((2,\\,4)\\).</p><p>Bestäm \\(a\\), och avgör sedan om systemet har någon annan lösning.</p>",
     "s": "<p>\\(4=2a+2\\Rightarrow a=1\\). Då är linjerna \\(y=x+2\\) och \\(x+2y=10\\), som har olika riktningskoefficient.</p><p><strong>\\(a=1\\), och lösningen är unik.</strong></p>",
     "familj": "Parameterfall i linjära ekvationssystem",
     "geogebra": false,
@@ -2541,7 +2546,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Grafen visar funktionen \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"80.55\" y1=\"330.00\" x2=\"80.55\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"113.09\" y1=\"330.00\" x2=\"113.09\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"178.18\" y1=\"330.00\" x2=\"178.18\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"210.73\" y1=\"330.00\" x2=\"210.73\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"243.27\" y1=\"330.00\" x2=\"243.27\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"275.82\" y1=\"330.00\" x2=\"275.82\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"308.36\" y1=\"330.00\" x2=\"308.36\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"340.91\" y1=\"330.00\" x2=\"340.91\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"373.45\" y1=\"330.00\" x2=\"373.45\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"307.86\" x2=\"406.00\" y2=\"307.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"285.71\" x2=\"406.00\" y2=\"285.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"263.57\" x2=\"406.00\" y2=\"263.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"241.43\" x2=\"406.00\" y2=\"241.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"219.29\" x2=\"406.00\" y2=\"219.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"197.14\" x2=\"406.00\" y2=\"197.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"152.86\" x2=\"406.00\" y2=\"152.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"130.71\" x2=\"406.00\" y2=\"130.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"108.57\" x2=\"406.00\" y2=\"108.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"86.43\" x2=\"406.00\" y2=\"86.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"64.29\" x2=\"406.00\" y2=\"64.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"42.14\" x2=\"406.00\" y2=\"42.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"241.43\" x2=\"406.00\" y2=\"241.43\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"80.55\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"113.09\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"178.18\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"210.73\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"243.27\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"275.82\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"308.36\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"340.91\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"373.45\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"406.00\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"137.64\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"137.64\" y=\"310.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"137.64\" y=\"288.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"137.64\" y=\"266.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"137.64\" y=\"222.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"137.64\" y=\"200.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"137.64\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"137.64\" y=\"155.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"137.64\" y=\"133.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"137.64\" y=\"111.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"137.64\" y=\"89.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"137.64\" y=\"67.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"137.64\" y=\"45.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"137.64\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"48.00\" y1=\"285.71\" x2=\"406.00\" y2=\"42.14\" stroke=\"#2A5D9E\" stroke-width=\"2.7\"/><text x=\"379.96\" y=\"35.50\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">f</text></svg></span><p>Bestäm en ekvation för funktionen och använd den sedan för att bestämma \\(f(6{,}5)\\).</p>",
-    "s": "<p>Linjen går genom \\((0{,}1)\\) och \\((2{,}3)\\), så \\(k=1\\) och \\(m=1\\).</p><p>Alltså \\(f(x)=x+1\\). Då \\(f(6{,}5)=7{,}5\\).</p><p><strong>\\(f(x)=x+1\\) och \\(f(6{,}5)=7{,}5\\).</strong></p>",
+    "s": "<p>Linjen går genom \\((0,\\,1)\\) och \\((2,\\,3)\\), så \\(k=1\\) och \\(m=1\\).</p><p>Alltså \\(f(x)=x+1\\). Då \\(f(6{,}5)=7{,}5\\).</p><p><strong>\\(f(x)=x+1\\) och \\(f(6{,}5)=7{,}5\\).</strong></p>",
     "familj": "Läsa av linjens ekvation från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -2582,7 +2587,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En linje skär \\(x\\)-axeln vid \\(x=4\\) och går genom punkten \\((10,-9)\\).</p><p>Bestäm linjens ekvation.</p>",
-    "s": "<p>Skärningen med x-axeln vid \\(x=4\\) betyder att punkten \\((4{,}0)\\) ligger på linjen. Den andra punkten är \\((10,-9)\\).</p><p>Riktningskoefficienten blir</p><p>\\(k=\\frac{-9-0}{10-4}=\\frac{-9}{6}=-1{,}5\\).</p><p>Sätt in punkten \\((4{,}0)\\) i \\(y=kx+m\\):</p><p>\\(0=-1{,}5\\cdot4+m\\Rightarrow m=6\\).</p><p><strong>Linjen har ekvationen \\(y=-1{,}5x+6\\).</strong></p>",
+    "s": "<p>Skärningen med x-axeln vid \\(x=4\\) betyder att punkten \\((4,\\,0)\\) ligger på linjen. Den andra punkten är \\((10,-9)\\).</p><p>Riktningskoefficienten blir</p><p>\\(k=\\frac{-9-0}{10-4}=\\frac{-9}{6}=-1{,}5\\).</p><p>Sätt in punkten \\((4,\\,0)\\) i \\(y=kx+m\\):</p><p>\\(0=-1{,}5\\cdot4+m\\Rightarrow m=6\\).</p><p><strong>Linjen har ekvationen \\(y=-1{,}5x+6\\).</strong></p>",
     "familj": "Bestämma linjär funktion från två punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -2610,8 +2615,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rät linje går genom punkterna \\((1{,}5)\\) och \\((4{,}11)\\).</p><p>Bestäm linjens ekvation.</p>",
-    "s": "<p>Riktningskoefficienten är \\(k=\\frac{11-5}{4-1}=2\\).</p><p>Sätt in \\((1{,}5)\\) i \\(y=2x+m\\): \\(5=2+m\\), alltså \\(m=3\\).</p><p><strong>\\(y=2x+3\\)</strong></p>",
+    "t": "<p>En rät linje går genom punkterna \\((1,\\,5)\\) och \\((4,\\,11)\\).</p><p>Bestäm linjens ekvation.</p>",
+    "s": "<p>Riktningskoefficienten är \\(k=\\frac{11-5}{4-1}=2\\).</p><p>Sätt in \\((1,\\,5)\\) i \\(y=2x+m\\): \\(5=2+m\\), alltså \\(m=3\\).</p><p><strong>\\(y=2x+3\\)</strong></p>",
     "familj": "Bestämma linjens ekvation från villkor",
     "geogebra": false,
     "miniräknare": false,
@@ -2638,7 +2643,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y+z=15\\\\x+y=9\\\\y+z=11\\end{cases}\\)</p>",
-    "s": "<p>Systemet är</p><p>\\[\\begin{cases}x+y+z=15\\\\x+y=9\\\\y+z=11\\end{cases}\\]</p><p>Subtrahera den andra ekvationen från den första. Då försvinner både \\(x\\) och \\(y\\):</p><p>\\[z=15-9=6.\\]</p><p>Sätt \\(z=6\\) i \\(y+z=11\\): \\(y=5\\). Därefter ger \\(x+y=9\\) att \\(x=4\\).</p><p><strong>Svar:</strong> \\((x,y,z)=(4{,}5{,}6)\\).</p>",
+    "s": "<p>Systemet är</p><p>\\[\\begin{cases}x+y+z=15\\\\x+y=9\\\\y+z=11\\end{cases}\\]</p><p>Subtrahera den andra ekvationen från den första. Då försvinner både \\(x\\) och \\(y\\):</p><p>\\[z=15-9=6.\\]</p><p>Sätt \\(z=6\\) i \\(y+z=11\\): \\(y=5\\). Därefter ger \\(x+y=9\\) att \\(x=4\\).</p><p><strong>Svar:</strong> \\((x,y,z)=(4,\\,5,\\,6)\\).</p>",
     "familj": "Tre obekanta",
     "geogebra": false,
     "miniräknare": false,
@@ -2684,7 +2689,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y+z=15\\\\x+z=9\\\\x+y=11\\end{cases}\\)</p>",
-    "s": "<p>Subtrahera \\(x+z=9\\) från \\(x+y+z=15\\). Då fås direkt \\(y=6\\).</p><p>Sätt in i \\(x+y=11\\): \\(x=5\\).</p><p>Sätt sedan \\(x=5\\) i \\(x+z=9\\): \\(z=4\\).</p><p><strong>\\((x,y,z)=(5{,}6{,}4)\\).</strong></p>",
+    "s": "<p>Subtrahera \\(x+z=9\\) från \\(x+y+z=15\\). Då fås direkt \\(y=6\\).</p><p>Sätt in i \\(x+y=11\\): \\(x=5\\).</p><p>Sätt sedan \\(x=5\\) i \\(x+z=9\\): \\(z=4\\).</p><p><strong>\\((x,y,z)=(5,\\,6,\\,4)\\).</strong></p>",
     "familj": "Tre obekanta",
     "geogebra": false,
     "miniräknare": false,
@@ -2821,7 +2826,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y+z=12\\\\x+y=7\\\\y+z=9\\end{cases}\\)</p>",
-    "s": "<p>Subtrahera den andra ekvationen från den första:</p><p>\\((x+y+z)-(x+y)=12-7\\Rightarrow z=5\\).</p><p>Sätt in \\(z=5\\) i \\(y+z=9\\): \\(y+5=9\\Rightarrow y=4\\).</p><p>Sätt sedan in \\(y=4\\) i \\(x+y=7\\): \\(x+4=7\\Rightarrow x=3\\).</p><p><strong>\\((x,y,z)=(3{,}4{,}5)\\).</strong></p>",
+    "s": "<p>Subtrahera den andra ekvationen från den första:</p><p>\\((x+y+z)-(x+y)=12-7\\Rightarrow z=5\\).</p><p>Sätt in \\(z=5\\) i \\(y+z=9\\): \\(y+5=9\\Rightarrow y=4\\).</p><p>Sätt sedan in \\(y=4\\) i \\(x+y=7\\): \\(x+4=7\\Rightarrow x=3\\).</p><p><strong>\\((x,y,z)=(3,\\,4,\\,5)\\).</strong></p>",
     "familj": "Tre obekanta",
     "geogebra": false,
     "miniräknare": false,
@@ -3059,7 +3064,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(1003\\cdot997\\) utan vanlig multiplikation. Visa hur du använder en algebraisk regel.</p>",
-    "s": "<p>Talen ligger lika långt från 1000:</p><p>\\[1003\\cdot997=(1000+3)(1000-3).\\]</p><p>Konjugatregeln ger</p><p>\\[1000^2-3^2=1{,}000{,}000-9=999{,}991.\\]</p><p><strong>999 991</strong></p>",
+    "s": "<p>Talen ligger lika långt från 1000:</p><p>\\[1003\\cdot997=(1000+3)(1000-3).\\]</p><p>Konjugatregeln ger</p><p>\\[1000^2-3^2=1\\,000\\,000-9=999\\,991.\\]</p><p><strong>999 991</strong></p>",
     "familj": "Använda konjugatregeln",
     "geogebra": false,
     "miniräknare": false,
@@ -3146,7 +3151,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En linje skär \\(y\\)-axeln i 4 och \\(x\\)-axeln i −2.</p><p>Bestäm linjens ekvation.</p>",
-    "s": "<p>Punkterna är \\((0{,}4)\\) och \\((-2{,}0)\\). \\(k=(4-0)/(0-(-2))=2\\).</p><p><strong>\\(y=2x+4\\).</strong></p>",
+    "s": "<p>Punkterna är \\((0,\\,4)\\) och \\((-2,\\,0)\\). \\(k=(4-0)/(0-(-2))=2\\).</p><p><strong>\\(y=2x+4\\).</strong></p>",
     "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
@@ -3541,8 +3546,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En linje har riktningskoefficient \\(-3\\) och går genom \\((0{,}7)\\).</p><p>Skriv linjens ekvation.</p>",
-    "s": "<p>En linje på formen \\(y=kx+m\\) har här \\(k=-3\\). Punkten \\((0{,}7)\\) visar direkt att \\(m=7\\).</p><p><strong>\\(y=-3x+7\\).</strong></p>",
+    "t": "<p>En linje har riktningskoefficient \\(-3\\) och går genom \\((0,\\,7)\\).</p><p>Skriv linjens ekvation.</p>",
+    "s": "<p>En linje på formen \\(y=kx+m\\) har här \\(k=-3\\). Punkten \\((0,\\,7)\\) visar direkt att \\(m=7\\).</p><p><strong>\\(y=-3x+7\\).</strong></p>",
     "familj": "Bestämma linjens ekvation från villkor",
     "geogebra": false,
     "miniräknare": false,
@@ -3554,7 +3559,7 @@ window.BANKMA2 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Vad visar punkten \\((0{,}7)\\) om konstanttermen \\(m\\)?</p>",
+    "ledtrad": "<p>Vad visar punkten \\((0,\\,7)\\) om konstanttermen \\(m\\)?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -3571,7 +3576,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Grafen visar linjen \\(L\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"83.80\" y1=\"330.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"119.60\" y1=\"330.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"298.60\" y1=\"330.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"334.40\" y1=\"330.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"370.20\" y1=\"330.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"304.17\" x2=\"406.00\" y2=\"304.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"278.33\" x2=\"406.00\" y2=\"278.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"200.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"149.17\" x2=\"406.00\" y2=\"149.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"123.33\" x2=\"406.00\" y2=\"123.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"71.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"45.83\" x2=\"406.00\" y2=\"45.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"200.83\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"83.80\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"119.60\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"155.40\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"227.00\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"262.80\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"298.60\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"334.40\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"370.20\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"406.00\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"183.20\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"183.20\" y=\"307.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"183.20\" y=\"281.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"183.20\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"183.20\" y=\"229.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"183.20\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"183.20\" y=\"152.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"183.20\" y=\"126.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"183.20\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"183.20\" y=\"74.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"183.20\" y=\"48.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"183.20\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"200.83\" stroke=\"#B43123\" stroke-width=\"2.7\"/><text x=\"363.04\" y=\"182.75\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">L</text></svg></span><p>a) Bestäm \\(k\\).<br>b) Bestäm \\(m\\).<br>c) Skriv linjens ekvation.</p>",
-    "s": "<p>Linjen går genom \\((0{,}3)\\) och \\((6{,}0)\\).</p><p>\\(k=(0-3)/(6-0)=-0{,}5\\) och \\(m=3\\).</p><p><strong>\\(y=-0{,}5x+3\\).</strong></p>",
+    "s": "<p>Linjen går genom \\((0,\\,3)\\) och \\((6,\\,0)\\).</p><p>\\(k=(0-3)/(6-0)=-0{,}5\\) och \\(m=3\\).</p><p><strong>\\(y=-0{,}5x+3\\).</strong></p>",
     "familj": "Läsa av linjens ekvation från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -3704,7 +3709,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Graferna till två räta linjer visas i koordinatsystemet.</p><span class=\"fig smal\"><svg width=\"430\" height=\"390\" viewBox=\"0 0 430 390\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"388\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"350.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"87.78\" y1=\"350.00\" x2=\"87.78\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"127.56\" y1=\"350.00\" x2=\"127.56\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"167.33\" y1=\"350.00\" x2=\"167.33\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"207.11\" y1=\"350.00\" x2=\"207.11\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"246.89\" y1=\"350.00\" x2=\"246.89\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"286.67\" y1=\"350.00\" x2=\"286.67\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"326.44\" y1=\"350.00\" x2=\"326.44\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"366.22\" y1=\"350.00\" x2=\"366.22\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"406.00\" y1=\"350.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"350.00\" x2=\"406.00\" y2=\"350.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"320.00\" x2=\"406.00\" y2=\"320.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"290.00\" x2=\"406.00\" y2=\"290.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"260.00\" x2=\"406.00\" y2=\"260.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"230.00\" x2=\"406.00\" y2=\"230.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"200.00\" x2=\"406.00\" y2=\"200.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"170.00\" x2=\"406.00\" y2=\"170.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"140.00\" x2=\"406.00\" y2=\"140.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"110.00\" x2=\"406.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"80.00\" x2=\"406.00\" y2=\"80.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"50.00\" x2=\"406.00\" y2=\"50.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"260.00\" x2=\"416.00\" y2=\"260.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 416.00 260.00 l -8 -4 l 0 8 z\" fill=\"#2B2527\"/><line x1=\"167.33\" y1=\"350.00\" x2=\"167.33\" y2=\"10.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 167.33 10.00 l -4 8 l 8 0 z\" fill=\"#2B2527\"/><line x1=\"48.00\" y1=\"256.00\" x2=\"48.00\" y2=\"264.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"48.00\" y=\"277.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"87.78\" y1=\"256.00\" x2=\"87.78\" y2=\"264.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"87.78\" y=\"277.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"127.56\" y1=\"256.00\" x2=\"127.56\" y2=\"264.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"127.56\" y=\"277.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"207.11\" y1=\"256.00\" x2=\"207.11\" y2=\"264.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"207.11\" y=\"277.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"246.89\" y1=\"256.00\" x2=\"246.89\" y2=\"264.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"246.89\" y=\"277.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"286.67\" y1=\"256.00\" x2=\"286.67\" y2=\"264.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"286.67\" y=\"277.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"326.44\" y1=\"256.00\" x2=\"326.44\" y2=\"264.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"326.44\" y=\"277.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"366.22\" y1=\"256.00\" x2=\"366.22\" y2=\"264.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"366.22\" y=\"277.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"406.00\" y1=\"256.00\" x2=\"406.00\" y2=\"264.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"406.00\" y=\"277.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">6</text><line x1=\"163.33\" y1=\"350.00\" x2=\"171.33\" y2=\"350.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"158.33\" y=\"353.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"163.33\" y1=\"320.00\" x2=\"171.33\" y2=\"320.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"158.33\" y=\"323.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"163.33\" y1=\"290.00\" x2=\"171.33\" y2=\"290.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"158.33\" y=\"293.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"163.33\" y1=\"230.00\" x2=\"171.33\" y2=\"230.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"158.33\" y=\"233.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"163.33\" y1=\"200.00\" x2=\"171.33\" y2=\"200.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"158.33\" y=\"203.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"163.33\" y1=\"170.00\" x2=\"171.33\" y2=\"170.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"158.33\" y=\"173.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"163.33\" y1=\"140.00\" x2=\"171.33\" y2=\"140.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"158.33\" y=\"143.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"163.33\" y1=\"110.00\" x2=\"171.33\" y2=\"110.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"158.33\" y=\"113.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"163.33\" y1=\"80.00\" x2=\"171.33\" y2=\"80.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"158.33\" y=\"83.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">6</text><line x1=\"163.33\" y1=\"50.00\" x2=\"171.33\" y2=\"50.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"158.33\" y=\"53.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">7</text><line x1=\"163.33\" y1=\"20.00\" x2=\"171.33\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"158.33\" y=\"23.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">8</text><text x=\"159.33\" y=\"276.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"48.00\" y1=\"320.00\" x2=\"406.00\" y2=\"50.00\" stroke=\"#B43123\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><text x=\"358.27\" y=\"62.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">L₁</text><line x1=\"147.44\" y1=\"20.00\" x2=\"366.22\" y2=\"350.00\" stroke=\"#2A5D9E\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><text x=\"163.36\" y=\"50.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\">L₂</text><text x=\"419.00\" y=\"264.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">x</text><text x=\"174.33\" y=\"14.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">y</text></svg></span><p>a) Bestäm ekvationssystemets lösning.<br>b) Förklara kort varför skärningspunkten är lösningen.</p>",
-    "s": "<p>Linjerna skär varandra i punkten \\((2{,}3)\\).</p><p>I skärningspunkten har båda linjerna samma \\(x\\)-värde och samma \\(y\\)-värde. Punkten uppfyller därför båda ekvationerna samtidigt.</p><p><strong>Lösningen är \\((2{,}3)\\).</strong></p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
+    "s": "<p>Linjerna skär varandra i punkten \\((2,\\,3)\\).</p><p>I skärningspunkten har båda linjerna samma \\(x\\)-värde och samma \\(y\\)-värde. Punkten uppfyller därför båda ekvationerna samtidigt.</p><p><strong>Lösningen är \\((2,\\,3)\\).</strong></p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
     "familj": "Grafisk lösning",
     "geogebra": true,
     "miniräknare": false,
@@ -3854,7 +3859,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En linjär funktion har \\(f(2)=9\\) och \\(f(7)=-1\\).</p><p>Bestäm det \\(x\\)-värde där \\(f(x)=5\\).</p>",
-    "s": "<p>Villkoren motsvarar punkterna \\((2{,}9)\\) och \\((7,-1)\\).</p><p>\\[k=\\frac{-1-9}{7-2}=-2.\\]</p><p>Med \\((2{,}9)\\): \\(9=-4+m\\), så \\(m=13\\). Alltså \\(f(x)=-2x+13\\).</p><p>Nu krävs \\(f(x)=5\\):</p><p>\\[-2x+13=5\\Rightarrow x=4.\\]</p><p><strong>\\(x=4\\).</strong></p>",
+    "s": "<p>Villkoren motsvarar punkterna \\((2,\\,9)\\) och \\((7,-1)\\).</p><p>\\[k=\\frac{-1-9}{7-2}=-2.\\]</p><p>Med \\((2,\\,9)\\): \\(9=-4+m\\), så \\(m=13\\). Alltså \\(f(x)=-2x+13\\).</p><p>Nu krävs \\(f(x)=5\\):</p><p>\\[-2x+13=5\\Rightarrow x=4.\\]</p><p><strong>\\(x=4\\).</strong></p>",
     "familj": "Tolka och växla mellan linjära representationer",
     "geogebra": false,
     "miniräknare": false,
@@ -4067,8 +4072,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Två linjära modeller skär varandra i punkten \\((12{,}40)\\). Den ena modellen går även genom \\((0{,}10)\\). Den andra har riktningskoefficienten −1,5.</p><p>Bestäm båda modellerna och avgör för vilka \\(x&gt;0\\) den första modellen ligger över den andra.</p>",
-    "s": "<p>Första modellen har \\(k=(40-10)/(12-0)=2{,}5\\), alltså \\(f(x)=2{,}5x+10\\).</p><p>Den andra skrivs \\(g(x)=-1{,}5x+m\\). Punkten \\((12{,}40)\\) ger \\(40=-18+m\\Rightarrow m=58\\), alltså \\(g(x)=-1{,}5x+58\\).</p><p>Efter skärningen växer f medan g minskar.</p><p><strong>\\(f(x)&gt;g(x)\\) för \\(x&gt;12\\).</strong></p><p><strong>GeoGebra:</strong> skriv in båda modellerna och kontrollera att skärningspunkten är \\((12{,}40)\\) och att f ligger över g för \\(x&gt;12\\).</p>",
+    "t": "<p>Två linjära modeller skär varandra i punkten \\((12,\\,40)\\). Den ena modellen går även genom \\((0,\\,10)\\). Den andra har riktningskoefficienten −1,5.</p><p>Bestäm båda modellerna och avgör för vilka \\(x&gt;0\\) den första modellen ligger över den andra.</p>",
+    "s": "<p>Första modellen har \\(k=(40-10)/(12-0)=2{,}5\\), alltså \\(f(x)=2{,}5x+10\\).</p><p>Den andra skrivs \\(g(x)=-1{,}5x+m\\). Punkten \\((12,\\,40)\\) ger \\(40=-18+m\\Rightarrow m=58\\), alltså \\(g(x)=-1{,}5x+58\\).</p><p>Efter skärningen växer f medan g minskar.</p><p><strong>\\(f(x)&gt;g(x)\\) för \\(x&gt;12\\).</strong></p><p><strong>GeoGebra:</strong> skriv in båda modellerna och kontrollera att skärningspunkten är \\((12,\\,40)\\) och att f ligger över g för \\(x&gt;12\\).</p>",
     "familj": "Grafisk lösning",
     "geogebra": true,
     "miniräknare": false,
@@ -4171,7 +4176,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Tabellen ska visa en linjär funktion, men ett värde är fel.</p><table class='data'><tr><th>x</th><th>−4</th><th>−1</th><th>2</th><th>5</th></tr><tr><th>f(x)</th><td>13</td><td>7</td><td>2</td><td>−5</td></tr></table><p>Hitta det felaktiga värdet, bestäm vad det ska vara och ange funktionens formel. Motivera.</p>",
-    "s": "<p>\\(x\\) ökar med 3 i varje steg. Från 13 till 7 minskar funktionsvärdet med 6, vilket ger \\(k=-2\\).</p><p>Då ska värdena minska med 6 varje gång: \\(13{,}7{,}1,-5\\).</p><p>Värdet 2 är alltså fel och ska vara 1.</p><p>Med \\((-1{,}7)\\): \\(7=-2(-1)+m\\Rightarrow m=5\\).</p><p><strong>Det felaktiga värdet är 2; det ska vara 1. Funktionen är \\(f(x)=-2x+5\\).</strong></p>",
+    "s": "<p>\\(x\\) ökar med 3 i varje steg. Från 13 till 7 minskar funktionsvärdet med 6, vilket ger \\(k=-2\\).</p><p>Då ska värdena minska med 6 varje gång: \\(13,\\,7,\\,1,\\,-5\\).</p><p>Värdet 2 är alltså fel och ska vara 1.</p><p>Med \\((-1,\\,7)\\): \\(7=-2(-1)+m\\Rightarrow m=5\\).</p><p><strong>Det felaktiga värdet är 2; det ska vara 1. Funktionen är \\(f(x)=-2x+5\\).</strong></p>",
     "familj": "Bestämma linjär funktion från tabell",
     "geogebra": false,
     "miniräknare": false,
@@ -4216,8 +4221,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En rät linje går genom punkterna \\((-3{,}5)\\) och \\((2,-5)\\).</p><p>Bestäm linjens ekvation.</p>",
-    "s": "<p>\\(k=\\frac{-5-5}{2-(-3)}=\\frac{-10}{5}=-2\\).</p><p>Sätt in \\((-3{,}5)\\): \\(5=-2(-3)+m\\Rightarrow m=-1\\).</p><p><strong>Linjen är \\(y=-2x-1\\).</strong></p>",
+    "t": "<p>En rät linje går genom punkterna \\((-3,\\,5)\\) och \\((2,-5)\\).</p><p>Bestäm linjens ekvation.</p>",
+    "s": "<p>\\(k=\\frac{-5-5}{2-(-3)}=\\frac{-10}{5}=-2\\).</p><p>Sätt in \\((-3,\\,5)\\): \\(5=-2(-3)+m\\Rightarrow m=-1\\).</p><p><strong>Linjen är \\(y=-2x-1\\).</strong></p>",
     "familj": "Bestämma linjär funktion från två punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -4335,7 +4340,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Linjerna i grafen motsvarar ett ekvationssystem.</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två räta linjer som skär varandra i punkten 2, 2\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"83.80\" y1=\"330.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"119.60\" y1=\"330.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"298.60\" y1=\"330.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"334.40\" y1=\"330.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"370.20\" y1=\"330.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"304.17\" x2=\"406.00\" y2=\"304.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"278.33\" x2=\"406.00\" y2=\"278.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"200.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"149.17\" x2=\"406.00\" y2=\"149.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"123.33\" x2=\"406.00\" y2=\"123.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"71.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"45.83\" x2=\"406.00\" y2=\"45.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"83.80\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"119.60\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"191.20\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"227.00\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"262.80\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"298.60\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"334.40\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"370.20\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"406.00\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"147.40\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"147.40\" y=\"307.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"147.40\" y=\"281.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"147.40\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"147.40\" y=\"203.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"147.40\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"147.40\" y=\"152.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"147.40\" y=\"126.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"147.40\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"147.40\" y=\"74.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"147.40\" y=\"48.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"147.40\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"414.00\" y=\"230.67\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"162.40\" y=\"13.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">y</text><line x1=\"48.00\" y1=\"45.83\" x2=\"406.00\" y2=\"304.17\" stroke=\"#B43123\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><text x=\"67.69\" y=\"60.04\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">L₁</text><line x1=\"48.00\" y1=\"239.58\" x2=\"406.00\" y2=\"110.42\" stroke=\"#2A5D9E\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><text x=\"357.67\" y=\"122.04\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">L₂</text></svg></span><p>Bestäm lösningen och avgör sedan vilket system som passar grafen bäst.</p><p>A) \\(\\begin{cases}y=-x+4\\\\y=0{,}5x+2\\end{cases}\\)<br>B) \\(\\begin{cases}y=-x+4\\\\y=0{,}5x+1\\end{cases}\\)</p>",
-    "s": "<p>Skärningspunkten är \\((2{,}2)\\). Linje 1 har ekvationen \\(y=-x+4\\). Linje 2 går genom \\((0{,}1)\\) och \\((2{,}2)\\), alltså \\(y=0{,}5x+1\\).</p><p><strong>System B och lösningen \\((2{,}2)\\).</strong></p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
+    "s": "<p>Skärningspunkten är \\((2,\\,2)\\). Linje 1 har ekvationen \\(y=-x+4\\). Linje 2 går genom \\((0,\\,1)\\) och \\((2,\\,2)\\), alltså \\(y=0{,}5x+1\\).</p><p><strong>System B och lösningen \\((2,\\,2)\\).</strong></p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
     "familj": "Grafisk lösning",
     "geogebra": true,
     "miniräknare": false,
@@ -4590,7 +4595,7 @@ window.BANKMA2 = [
     "svarsstruktur": "ordnad",
     "familjTidigare": "Faktorisera uttryck och lösa ekvationer",
     "ledtrad": "<p>Pröva gemensam faktor först. Leta sedan efter ett känt mönster eller två faktorer med rätt summa och produkt.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -4682,7 +4687,7 @@ window.BANKMA2 = [
     "svarsstruktur": "ordnad",
     "familjTidigare": "Ställa upp ekvationssystem från text",
     "ledtrad": "<p>Välj den metod som eliminerar en variabel med minst extra arbete.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -4697,8 +4702,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Den ena ekvationen i ett ekvationssystem är</p><p>\\(3x+2y=12\\).</p><p>Ge ett exempel på en andra linjär ekvation så att systemet</p><p>a) saknar lösning,<br>b) har oändligt många lösningar,<br>c) har exakt lösningen \\((2{,}3)\\).</p><p>Motivera dina val.</p>",
-    "s": "<p>a) En parallell, annan linje fungerar, till exempel \\(6x+4y=30\\). Vänsterledet har samma proportion som den första ekvationen men konstanten stämmer inte.</p><p>b) En ekvivalent ekvation fungerar, till exempel \\(6x+4y=24\\).</p><p>c) Punkten \\((2{,}3)\\) ligger på den givna linjen eftersom \\(3\\cdot2+2\\cdot3=12\\). Välj en annan linje genom punkten som inte är parallell, till exempel \\(x+y=5\\).</p><p><strong>Ett möjligt svar är a) \\(6x+4y=30\\), b) \\(6x+4y=24\\), c) \\(x+y=5\\).</strong></p>",
+    "t": "<p>Den ena ekvationen i ett ekvationssystem är</p><p>\\(3x+2y=12\\).</p><p>Ge ett exempel på en andra linjär ekvation så att systemet</p><p>a) saknar lösning,<br>b) har oändligt många lösningar,<br>c) har exakt lösningen \\((2,\\,3)\\).</p><p>Motivera dina val.</p>",
+    "s": "<p>a) En parallell, annan linje fungerar, till exempel \\(6x+4y=30\\). Vänsterledet har samma proportion som den första ekvationen men konstanten stämmer inte.</p><p>b) En ekvivalent ekvation fungerar, till exempel \\(6x+4y=24\\).</p><p>c) Punkten \\((2,\\,3)\\) ligger på den givna linjen eftersom \\(3\\cdot2+2\\cdot3=12\\). Välj en annan linje genom punkten som inte är parallell, till exempel \\(x+y=5\\).</p><p><strong>Ett möjligt svar är a) \\(6x+4y=30\\), b) \\(6x+4y=24\\), c) \\(x+y=5\\).</strong></p>",
     "familj": "Ingen eller oändligt många lösningar",
     "geogebra": false,
     "miniräknare": false,
@@ -4729,7 +4734,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen genom faktorisering:</p><p>\\(3x^3-12x=0\\).</p>",
-    "s": "<p>Bryt först ut den gemensamma faktorn \\(3x\\):</p><p>\\[3x^3-12x=3x(x^2-4).\\]</p><p>Faktorisera sedan \\(x^2-4\\) med konjugatregeln:</p><p>\\[3x(x-2)(x+2)=0.\\]</p><p>Alltså är</p><p><strong>\\(x=-2{,}0{,}2\\).</strong></p>",
+    "s": "<p>Bryt först ut den gemensamma faktorn \\(3x\\):</p><p>\\[3x^3-12x=3x(x^2-4).\\]</p><p>Faktorisera sedan \\(x^2-4\\) med konjugatregeln:</p><p>\\[3x(x-2)(x+2)=0.\\]</p><p>Alltså är</p><p><strong>\\(x=-2,\\,0,\\,2\\).</strong></p>",
     "familj": "Faktorisering",
     "geogebra": false,
     "miniräknare": false,
@@ -4776,8 +4781,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm ekvationen för linjen genom punkterna \\((-1{,}4)\\) och \\((3{,}12)\\).</p>",
-    "s": "<p>\\(k=(12-4)/(3-(-1))=2\\). Med \\((-1{,}4)\\): \\(4=-2+m\\Rightarrow m=6\\).</p><p><strong>\\(y=2x+6\\).</strong></p>",
+    "t": "<p>Bestäm ekvationen för linjen genom punkterna \\((-1,\\,4)\\) och \\((3,\\,12)\\).</p>",
+    "s": "<p>\\(k=(12-4)/(3-(-1))=2\\). Med \\((-1,\\,4)\\): \\(4=-2+m\\Rightarrow m=6\\).</p><p><strong>\\(y=2x+6\\).</strong></p>",
     "familj": "Bestämma linjär funktion från två punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -4910,7 +4915,7 @@ window.BANKMA2 = [
     "svarsstruktur": "ordnad",
     "familjTidigare": "Additionsmetoden och metodval",
     "ledtrad": "<p>Multiplicera vid behov någon ekvation så att en variabel får motsatta koefficienter. Addera sedan ekvationerna för att eliminera den variabeln.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -4969,7 +4974,7 @@ window.BANKMA2 = [
     ],
     "niva": "A",
     "poang": "0/0/2",
-    "t": "<p>Vid additionsmetoden ersätter man ibland en ekvation med summan av den och en multipel av den andra.</p><p>a)&nbsp;Förklara varför operationen \\(E_2\\rightarrow E_2+kE_1\\) inte förändrar ekvationssystemets lösningar, oavsett vilket reellt tal \\(k\\) är.</p><p>b)&nbsp;Använd idén på systemet</p><p>\\(\\begin{cases}2x+3y=7\\\\5x-6y=4\\end{cases}\\)</p><p>Välj \\(k\\) så att \\(y\\) elimineras när den andra ekvationen ersätts, och lös sedan systemet.</p>",
+    "t": "<p>När man löser ett ekvationssystem algebraiskt ersätter man ibland en ekvation med summan av den och en multipel av den andra.</p><p>a)&nbsp;Förklara varför operationen \\(E_2\\rightarrow E_2+kE_1\\) inte förändrar ekvationssystemets lösningar, oavsett vilket reellt tal \\(k\\) är.</p><p>b)&nbsp;Använd idén på systemet</p><p>\\(\\begin{cases}2x+3y=7\\\\5x-6y=4\\end{cases}\\)</p><p>Välj \\(k\\) så att \\(y\\) elimineras när den andra ekvationen ersätts, och lös sedan systemet.</p>",
     "s": "<p>a)&nbsp;Anta först att \\((x,y)\\) uppfyller både \\(E_1\\) och \\(E_2\\). Då uppfyller punkten också \\(E_2+kE_1\\), eftersom vänster- och högerled förändras på samma sätt.</p><p>Omvänt: om \\((x,y)\\) uppfyller \\(E_1\\) och den nya ekvationen \\(E_2+kE_1\\), kan man subtrahera \\(kE_1\\) och få tillbaka \\(E_2\\). Ingen lösning skapas eller försvinner alltså.</p><p>b)&nbsp;För att eliminera \\(y\\) väljer vi \\(k=2\\), eftersom \\(-6y+2\\cdot3y=0\\).</p><p>Den nya andra ekvationen blir</p><p>\\[(5x-6y)+2(2x+3y)=4+2\\cdot7\\]</p><p>alltså \\(9x=18\\), så \\(x=2\\). Insättning i \\(2x+3y=7\\) ger \\(4+3y=7\\), alltså \\(y=1\\).</p><p><strong>Operationen bevarar lösningsmängden. Här är \\(k=2\\) och lösningen \\((x,y)=(2{,}1)\\).</strong></p>",
     "familj": "Additionsmetoden – ekvivalenta system",
     "geogebra": false,
@@ -5133,7 +5138,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En elev löser systemet</p><p>\\[\\begin{cases}3x+y=11\\\\y=2x-4\\end{cases}\\]</p><p>och skriver efter substitution: \\(3x+2x=11-4\\).</p><p>Förklara felet och lös sedan systemet korrekt.</p>",
-    "s": "<p>Vid substitution ska hela uttrycket \\(2x-4\\) ersätta \\(y\\):</p><p>\\(3x+(2x-4)=11\\).</p><p>Elevens fel är att konstanten \\(-4\\) har flyttats till högerledet med fel tecken.</p><p>Förenkla: \\(5x-4=11\\Rightarrow5x=15\\Rightarrow x=3\\).</p><p>Då \\(y=2\\cdot3-4=2\\).</p><p><strong>Systemets lösning är \\((3{,}2)\\).</strong></p>",
+    "s": "<p>Vid substitution ska hela uttrycket \\(2x-4\\) ersätta \\(y\\):</p><p>\\(3x+(2x-4)=11\\).</p><p>Elevens fel är att konstanten \\(-4\\) har flyttats till högerledet med fel tecken.</p><p>Förenkla: \\(5x-4=11\\Rightarrow5x=15\\Rightarrow x=3\\).</p><p>Då \\(y=2\\cdot3-4=2\\).</p><p><strong>Systemets lösning är \\((3,\\,2)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -5254,7 +5259,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös.</p><p>\\(\\begin{cases}y=3x-2\\\\2x+y=18\\end{cases}\\)</p>",
-    "s": "<p>Ersätt den ena variabeln med uttrycket från den andra ekvationen. Lös sedan den nya ekvationen med en variabel.</p><p>\\(2x+(3x-2)=18\\Rightarrow 5x=20\\Rightarrow x=4\\). Då \\(y=10\\).</p><p><strong>\\((4{,}10)\\).</strong></p>",
+    "s": "<p>Ersätt den ena variabeln med uttrycket från den andra ekvationen. Lös sedan den nya ekvationen med en variabel.</p><p>\\(2x+(3x-2)=18\\Rightarrow 5x=20\\Rightarrow x=4\\). Då \\(y=10\\).</p><p><strong>\\((4,\\,10)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -5296,7 +5301,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y+z=10\\\\x-y=2\\\\z-y=-1\\end{cases}\\)</p>",
-    "s": "<p>Från \\(x-y=2\\) fås \\(x=y+2\\).</p><p>Från \\(z-y=-1\\) fås \\(z=y-1\\).</p><p>Sätt in i första ekvationen:</p><p>\\((y+2)+y+(y-1)=10\\Rightarrow3y+1=10\\Rightarrow y=3\\).</p><p>Då är \\(x=5\\) och \\(z=2\\).</p><p><strong>\\((x,y,z)=(5{,}3{,}2)\\).</strong></p>",
+    "s": "<p>Från \\(x-y=2\\) fås \\(x=y+2\\).</p><p>Från \\(z-y=-1\\) fås \\(z=y-1\\).</p><p>Sätt in i första ekvationen:</p><p>\\((y+2)+y+(y-1)=10\\Rightarrow3y+1=10\\Rightarrow y=3\\).</p><p>Då är \\(x=5\\) och \\(z=2\\).</p><p><strong>\\((x,y,z)=(5,\\,3,\\,2)\\).</strong></p>",
     "familj": "Tre obekanta",
     "geogebra": false,
     "miniräknare": false,
@@ -5328,7 +5333,7 @@ window.BANKMA2 = [
     "svarsstruktur": "ordnad",
     "familjTidigare": "Ekvationssystem med tre obekanta",
     "ledtrad": "<p>Eliminera en variabel och reducera problemet till två obekanta. Utnyttja enkla skillnader mellan ekvationerna.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -5342,7 +5347,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationssystemet.</p><p>\\[\\begin{cases}x+y+z=11\\\\x+y=6\\\\y+z=9\\end{cases}\\]</p>",
-    "s": "<p>Subtrahera den andra ekvationen från den första: \\(z=11-6=5\\).</p><p>Då ger \\(y+z=9\\) att \\(y=4\\).</p><p>Slutligen ger \\(x+y=6\\) att \\(x=2\\).</p><p><strong>\\((x,y,z)=(2{,}4{,}5)\\).</strong></p>",
+    "s": "<p>Subtrahera den andra ekvationen från den första: \\(z=11-6=5\\).</p><p>Då ger \\(y+z=9\\) att \\(y=4\\).</p><p>Slutligen ger \\(x+y=6\\) att \\(x=2\\).</p><p><strong>\\((x,y,z)=(2,\\,4,\\,5)\\).</strong></p>",
     "familj": "Tre obekanta",
     "geogebra": false,
     "miniräknare": false,
@@ -5434,7 +5439,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y+z=6\\\\2x-y+z=6\\\\x+2y-z=1\\end{cases}\\)</p>",
-    "s": "<p>Subtrahera den första ekvationen från den andra:</p><p>\\(x-2y=0\\Rightarrow x=2y\\).</p><p>Addera den första och den tredje ekvationen:</p><p>\\(2x+3y=7\\).</p><p>Sätt in \\(x=2y\\): \\(4y+3y=7\\Rightarrow y=1\\).</p><p>Då är \\(x=2\\), och från \\(x+y+z=6\\) fås \\(z=3\\).</p><p><strong>\\((x,y,z)=(2{,}1{,}3)\\).</strong></p>",
+    "s": "<p>Subtrahera den första ekvationen från den andra:</p><p>\\(x-2y=0\\Rightarrow x=2y\\).</p><p>Addera den första och den tredje ekvationen:</p><p>\\(2x+3y=7\\).</p><p>Sätt in \\(x=2y\\): \\(4y+3y=7\\Rightarrow y=1\\).</p><p>Då är \\(x=2\\), och från \\(x+y+z=6\\) fås \\(z=3\\).</p><p><strong>\\((x,y,z)=(2,\\,1,\\,3)\\).</strong></p>",
     "familj": "Tre obekanta",
     "geogebra": false,
     "miniräknare": false,
@@ -5480,7 +5485,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Lös ekvationssystemet.</p><p>\\[\\begin{cases}x+y+z=9\\\\2x-y+z=8\\\\x+2y-z=3\\end{cases}\\]</p>",
-    "s": "<p>Subtrahera första ekvationen från den andra:</p><p>\\(x-2y=-1\\). (1)</p><p>Addera första och tredje ekvationen:</p><p>\\(2x+3y=12\\). (2)</p><p>Från (1) är \\(x=2y-1\\). Sätt in i (2):</p><p>\\(2(2y-1)+3y=12\\Rightarrow7y=14\\Rightarrow y=2\\).</p><p>Då är \\(x=3\\) och ur första ekvationen \\(z=4\\).</p><p><strong>\\((x,y,z)=(3{,}2{,}4)\\)</strong></p>",
+    "s": "<p>Subtrahera första ekvationen från den andra:</p><p>\\(x-2y=-1\\). (1)</p><p>Addera första och tredje ekvationen:</p><p>\\(2x+3y=12\\). (2)</p><p>Från (1) är \\(x=2y-1\\). Sätt in i (2):</p><p>\\(2(2y-1)+3y=12\\Rightarrow7y=14\\Rightarrow y=2\\).</p><p>Då är \\(x=3\\) och ur första ekvationen \\(z=4\\).</p><p><strong>\\((x,y,z)=(3,\\,2,\\,4)\\)</strong></p>",
     "familj": "Tre obekanta",
     "geogebra": false,
     "miniräknare": false,
@@ -5526,7 +5531,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y+z=9\\\\x-y=1\\\\y-z=1\\end{cases}\\)</p>",
-    "s": "<p>Från \\(x-y=1\\) fås \\(x=y+1\\). Från \\(y-z=1\\) fås \\(z=y-1\\).</p><p>Sätt in båda uttrycken i \\(x+y+z=9\\):</p><p>\\((y+1)+y+(y-1)=9\\Rightarrow3y=9\\Rightarrow y=3\\).</p><p>Då är \\(x=4\\) och \\(z=2\\).</p><p><strong>\\((x,y,z)=(4{,}3{,}2)\\).</strong></p>",
+    "s": "<p>Från \\(x-y=1\\) fås \\(x=y+1\\). Från \\(y-z=1\\) fås \\(z=y-1\\).</p><p>Sätt in båda uttrycken i \\(x+y+z=9\\):</p><p>\\((y+1)+y+(y-1)=9\\Rightarrow3y=9\\Rightarrow y=3\\).</p><p>Då är \\(x=4\\) och \\(z=2\\).</p><p><strong>\\((x,y,z)=(4,\\,3,\\,2)\\).</strong></p>",
     "familj": "Tre obekanta",
     "geogebra": false,
     "miniräknare": false,
@@ -5558,7 +5563,7 @@ window.BANKMA2 = [
     "svarsstruktur": "ordnad",
     "familjTidigare": "Ekvationssystem med tre obekanta",
     "ledtrad": "<p>Eliminera en variabel och reducera problemet till två obekanta. Utnyttja enkla skillnader mellan ekvationerna.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -5706,7 +5711,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös.</p><p>\\(\\begin{cases}5x+2y=16\\\\3x-2y=8\\end{cases}\\)</p>",
-    "s": "<p>Multiplicera vid behov någon ekvation så att en variabel kan elimineras när ekvationerna adderas eller subtraheras.</p><p>Addera: \\(8x=24\\Rightarrow x=3\\). Sätt in: \\(15+2y=16\\Rightarrow y=0{,}5\\).</p><p><strong>\\((3{,}0{,}5)\\).</strong></p>",
+    "s": "<p>Multiplicera vid behov någon ekvation så att en variabel kan elimineras när ekvationerna adderas eller subtraheras.</p><p>Addera: \\(8x=24\\Rightarrow x=3\\). Sätt in: \\(15+2y=16\\Rightarrow y=0{,}5\\).</p><p><strong>\\((3;\\,0{,}5)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -5823,8 +5828,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Du ska lösa systemet med additionsmetoden:</p><p>\\[\\begin{cases}5x-4y=2\\\\3x+4y=14\\end{cases}\\]</p><p>Vilken variabel elimineras om du adderar ekvationerna direkt? Bestäm sedan den andra variabeln.</p>",
-    "s": "<p>Vid addition blir \\(-4y+4y=0\\), så \\(y\\) elimineras.</p><p>\\[8x=16\\Rightarrow x=2.\\]</p><p>Sätt in \\(x=2\\): \\(10-4y=2\\Rightarrow y=2\\).</p><p><strong>Variabeln \\(y\\) elimineras och lösningen är \\((2{,}2)\\).</strong></p>",
+    "t": "<p>Lös systemet algebraiskt genom att addera ekvationerna direkt:</p><p>\\[\\begin{cases}5x-4y=2\\\\3x+4y=14\\end{cases}\\]</p><p>Vilken variabel elimineras? Bestäm sedan den andra variabeln.</p>",
+    "s": "<p>Vid addition blir \\(-4y+4y=0\\), så \\(y\\) elimineras.</p><p>\\[8x=16\\Rightarrow x=2.\\]</p><p>Sätt in \\(x=2\\): \\(10-4y=2\\Rightarrow y=2\\).</p><p><strong>Variabeln \\(y\\) elimineras och lösningen är \\((2,\\,2)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -5956,7 +5961,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös.</p><p>\\(\\begin{cases}y=2x+1\\\\3x-y=9\\end{cases}\\)</p>",
-    "s": "<p>Ersätt den ena variabeln med uttrycket från den andra ekvationen. Lös sedan den nya ekvationen med en variabel.</p><p>\\(3x-(2x+1)=9\\Rightarrow x=10\\).</p><p>\\(y=21\\).</p><p><strong>\\((10{,}21)\\).</strong></p>",
+    "s": "<p>Ersätt den ena variabeln med uttrycket från den andra ekvationen. Lös sedan den nya ekvationen med en variabel.</p><p>\\(3x-(2x+1)=9\\Rightarrow x=10\\).</p><p>\\(y=21\\).</p><p><strong>\\((10,\\,21)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -6286,7 +6291,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}2x+3y=13\\\\5x-6y=-8\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet algebraiskt.</p><p>\\(\\begin{cases}2x+3y=13\\\\5x-6y=-8\\end{cases}\\)</p>",
     "s": "<p>Multiplicera den första ekvationen med 2:</p><p>\\[4x+6y=26.\\]</p><p>Addera sedan med \\(5x-6y=-8\\). Då elimineras \\(y\\):</p><p>\\[9x=18\\Rightarrow x=2.\\]</p><p>Sätt in \\(x=2\\) i den första ekvationen:</p><p>\\[4+3y=13\\Rightarrow y=3.\\]</p><p><strong>\\((x,y)=(2{,}3)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -6381,7 +6386,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rät linje skär \\(x\\)-axeln i \\((6{,}0)\\) och \\(y\\)-axeln i \\((0,-3)\\).</p><p>Bestäm linjens ekvation.</p>",
+    "t": "<p>En rät linje skär \\(x\\)-axeln i \\((6,\\,0)\\) och \\(y\\)-axeln i \\((0,-3)\\).</p><p>Bestäm linjens ekvation.</p>",
     "s": "<p>\\(k=\\frac{0-(-3)}{6-0}=\\frac36=0{,}5\\).</p><p>Skärningen med \\(y\\)-axeln ger \\(m=-3\\).</p><p><strong>\\(y=0{,}5x-3\\).</strong></p>",
     "familj": "Bestämma linjens ekvation från villkor",
     "geogebra": false,
@@ -6609,7 +6614,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två linjer visas.</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"80.55\" y1=\"330.00\" x2=\"80.55\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"113.09\" y1=\"330.00\" x2=\"113.09\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"178.18\" y1=\"330.00\" x2=\"178.18\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"210.73\" y1=\"330.00\" x2=\"210.73\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"243.27\" y1=\"330.00\" x2=\"243.27\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"275.82\" y1=\"330.00\" x2=\"275.82\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"308.36\" y1=\"330.00\" x2=\"308.36\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"340.91\" y1=\"330.00\" x2=\"340.91\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"373.45\" y1=\"330.00\" x2=\"373.45\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"304.17\" x2=\"406.00\" y2=\"304.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"278.33\" x2=\"406.00\" y2=\"278.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"200.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"149.17\" x2=\"406.00\" y2=\"149.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"123.33\" x2=\"406.00\" y2=\"123.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"71.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"45.83\" x2=\"406.00\" y2=\"45.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"80.55\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"113.09\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"145.64\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"210.73\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"243.27\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"275.82\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"308.36\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"340.91\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"373.45\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"406.00\" y=\"243.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><line x1=\"178.18\" y1=\"330.00\" x2=\"178.18\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"170.18\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"170.18\" y=\"307.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"170.18\" y=\"281.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"170.18\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"170.18\" y=\"203.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"170.18\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"170.18\" y=\"152.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"170.18\" y=\"126.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"170.18\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"170.18\" y=\"74.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"170.18\" y=\"48.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"170.18\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"48.00\" y1=\"45.83\" x2=\"406.00\" y2=\"330.00\" stroke=\"#B43123\" stroke-width=\"2.7\"/><text x=\"64.27\" y=\"61.33\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">L₁</text><line x1=\"48.00\" y1=\"304.17\" x2=\"406.00\" y2=\"20.00\" stroke=\"#2A5D9E\" stroke-width=\"2.7\"/><text x=\"344.16\" y=\"32.92\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">L₂</text></svg></span><p>Bestäm systemets lösning.</p>",
-    "s": "<p>Lösningen är den punkt där de två graferna skär varandra.</p><p>Linjerna skär varandra i \\((1{,}2)\\).</p><p><strong>Lösningen är \\((1{,}2)\\).</strong></p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
+    "s": "<p>Lösningen är den punkt där de två graferna skär varandra.</p><p>Linjerna skär varandra i \\((1,\\,2)\\).</p><p><strong>Lösningen är \\((1,\\,2)\\).</strong></p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
     "familj": "Grafisk lösning",
     "geogebra": true,
     "miniräknare": false,
@@ -7041,7 +7046,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Linjerna \\(L_1\\) och \\(L_2\\) visas i koordinatsystemet.</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"87.78\" y1=\"330.00\" x2=\"87.78\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"127.56\" y1=\"330.00\" x2=\"127.56\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"167.33\" y1=\"330.00\" x2=\"167.33\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"207.11\" y1=\"330.00\" x2=\"207.11\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"246.89\" y1=\"330.00\" x2=\"246.89\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"286.67\" y1=\"330.00\" x2=\"286.67\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"326.44\" y1=\"330.00\" x2=\"326.44\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"366.22\" y1=\"330.00\" x2=\"366.22\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"299.00\" x2=\"406.00\" y2=\"299.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"268.00\" x2=\"406.00\" y2=\"268.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"237.00\" x2=\"406.00\" y2=\"237.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"206.00\" x2=\"406.00\" y2=\"206.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"144.00\" x2=\"406.00\" y2=\"144.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"113.00\" x2=\"406.00\" y2=\"113.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"82.00\" x2=\"406.00\" y2=\"82.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"51.00\" x2=\"406.00\" y2=\"51.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"268.00\" x2=\"406.00\" y2=\"268.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"285.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"87.78\" y=\"285.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"167.33\" y=\"285.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"207.11\" y=\"285.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"246.89\" y=\"285.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"286.67\" y=\"285.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"326.44\" y=\"285.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"366.22\" y=\"285.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"406.00\" y=\"285.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><line x1=\"127.56\" y1=\"330.00\" x2=\"127.56\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"119.56\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"119.56\" y=\"302.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"119.56\" y=\"240.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"119.56\" y=\"209.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"119.56\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"119.56\" y=\"147.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"119.56\" y=\"116.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"119.56\" y=\"85.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"119.56\" y=\"54.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"119.56\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"48.00\" y1=\"51.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#B43123\" stroke-width=\"2.7\"/><text x=\"55.96\" y=\"63.40\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">L₁</text><line x1=\"48.00\" y1=\"299.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#2A5D9E\" stroke-width=\"2.7\"/><text x=\"334.40\" y=\"29.30\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">L₂</text></svg></span><p>Bestäm systemets lösning.</p>",
-    "s": "<p>Lösningen är den punkt där de två graferna skär varandra.</p><p>Linjerna skär varandra i punkten \\((2{,}3)\\).</p><p><strong>Lösningen är \\((2{,}3)\\).</strong></p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
+    "s": "<p>Lösningen är den punkt där de två graferna skär varandra.</p><p>Linjerna skär varandra i punkten \\((2,\\,3)\\).</p><p><strong>Lösningen är \\((2,\\,3)\\).</strong></p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
     "familj": "Grafisk lösning",
     "geogebra": true,
     "miniräknare": false,
@@ -7103,7 +7108,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationssystemet grafiskt.</p><span class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"45.0\" y1=\"265.0\" x2=\"45.0\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"80.5\" y1=\"265.0\" x2=\"80.5\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"116.0\" y1=\"265.0\" x2=\"116.0\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"151.5\" y1=\"265.0\" x2=\"151.5\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"187.0\" y1=\"265.0\" x2=\"187.0\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"222.5\" y1=\"265.0\" x2=\"222.5\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"258.0\" y1=\"265.0\" x2=\"258.0\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"293.5\" y1=\"265.0\" x2=\"293.5\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"329.0\" y1=\"265.0\" x2=\"329.0\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"364.5\" y1=\"265.0\" x2=\"364.5\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"400.0\" y1=\"265.0\" x2=\"400.0\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"265.0\" x2=\"400.0\" y2=\"265.0\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"242.5\" x2=\"400.0\" y2=\"242.5\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"220.1\" x2=\"400.0\" y2=\"220.1\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"197.6\" x2=\"400.0\" y2=\"197.6\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"175.2\" x2=\"400.0\" y2=\"175.2\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"152.7\" x2=\"400.0\" y2=\"152.7\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"130.3\" x2=\"400.0\" y2=\"130.3\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"107.8\" x2=\"400.0\" y2=\"107.8\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"85.4\" x2=\"400.0\" y2=\"85.4\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"62.9\" x2=\"400.0\" y2=\"62.9\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"40.5\" x2=\"400.0\" y2=\"40.5\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"18.0\" x2=\"400.0\" y2=\"18.0\" stroke=\"#E8E7EA\"/><line x1=\"45.0\" y1=\"220.1\" x2=\"400.0\" y2=\"220.1\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"45.0\" y=\"235.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-2</text><text x=\"80.5\" y=\"235.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"151.5\" y=\"235.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"187.0\" y=\"235.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"222.5\" y=\"235.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"258.0\" y=\"235.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"293.5\" y=\"235.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"329.0\" y=\"235.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"364.5\" y=\"235.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><text x=\"400.0\" y=\"235.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><line x1=\"116.0\" y1=\"265.0\" x2=\"116.0\" y2=\"18.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"109.0\" y=\"268.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-2</text><text x=\"109.0\" y=\"245.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"109.0\" y=\"200.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"109.0\" y=\"178.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"109.0\" y=\"155.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"109.0\" y=\"133.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"109.0\" y=\"110.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"109.0\" y=\"88.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"109.0\" y=\"65.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><text x=\"109.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><text x=\"109.0\" y=\"21.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">9</text><path d=\"M 45.0 242.5 L 46.8 241.4 L 48.6 240.3 L 50.4 239.2 L 52.1 238.0 L 53.9 236.9 L 55.7 235.8 L 57.5 234.6 L 59.3 233.5 L 61.1 232.4 L 62.8 231.3 L 64.6 230.1 L 66.4 229.0 L 68.2 227.9 L 70.0 226.7 L 71.8 225.6 L 73.5 224.5 L 75.3 223.4 L 77.1 222.2 L 78.9 221.1 L 80.7 220.0 L 82.5 218.8 L 84.2 217.7 L 86.0 216.6 L 87.8 215.5 L 89.6 214.3 L 91.4 213.2 L 93.2 212.1 L 94.9 211.0 L 96.7 209.8 L 98.5 208.7 L 100.3 207.6 L 102.1 206.4 L 103.9 205.3 L 105.7 204.2 L 107.4 203.1 L 109.2 201.9 L 111.0 200.8 L 112.8 199.7 L 114.6 198.5 L 116.4 197.4 L 118.1 196.3 L 119.9 195.2 L 121.7 194.0 L 123.5 192.9 L 125.3 191.8 L 127.1 190.6 L 128.8 189.5 L 130.6 188.4 L 132.4 187.3 L 134.2 186.1 L 136.0 185.0 L 137.8 183.9 L 139.5 182.7 L 141.3 181.6 L 143.1 180.5 L 144.9 179.4 L 146.7 178.2 L 148.5 177.1 L 150.3 176.0 L 152.0 174.8 L 153.8 173.7 L 155.6 172.6 L 157.4 171.5 L 159.2 170.3 L 161.0 169.2 L 162.7 168.1 L 164.5 166.9 L 166.3 165.8 L 168.1 164.7 L 169.9 163.6 L 171.7 162.4 L 173.4 161.3 L 175.2 160.2 L 177.0 159.0 L 178.8 157.9 L 180.6 156.8 L 182.4 155.7 L 184.1 154.5 L 185.9 153.4 L 187.7 152.3 L 189.5 151.1 L 191.3 150.0 L 193.1 148.9 L 194.8 147.8 L 196.6 146.6 L 198.4 145.5 L 200.2 144.4 L 202.0 143.2 L 203.8 142.1 L 205.6 141.0 L 207.3 139.9 L 209.1 138.7 L 210.9 137.6 L 212.7 136.5 L 214.5 135.4 L 216.3 134.2 L 218.0 133.1 L 219.8 132.0 L 221.6 130.8 L 223.4 129.7 L 225.2 128.6 L 227.0 127.5 L 228.7 126.3 L 230.5 125.2 L 232.3 124.1 L 234.1 122.9 L 235.9 121.8 L 237.7 120.7 L 239.4 119.6 L 241.2 118.4 L 243.0 117.3 L 244.8 116.2 L 246.6 115.0 L 248.4 113.9 L 250.2 112.8 L 251.9 111.7 L 253.7 110.5 L 255.5 109.4 L 257.3 108.3 L 259.1 107.1 L 260.9 106.0 L 262.6 104.9 L 264.4 103.8 L 266.2 102.6 L 268.0 101.5 L 269.8 100.4 L 271.6 99.2 L 273.3 98.1 L 275.1 97.0 L 276.9 95.9 L 278.7 94.7 L 280.5 93.6 L 282.3 92.5 L 284.0 91.3 L 285.8 90.2 L 287.6 89.1 L 289.4 88.0 L 291.2 86.8 L 293.0 85.7 L 294.7 84.6 L 296.5 83.4 L 298.3 82.3 L 300.1 81.2 L 301.9 80.1 L 303.7 78.9 L 305.5 77.8 L 307.2 76.7 L 309.0 75.5 L 310.8 74.4 L 312.6 73.3 L 314.4 72.2 L 316.2 71.0 L 317.9 69.9 L 319.7 68.8 L 321.5 67.6 L 323.3 66.5 L 325.1 65.4 L 326.9 64.3 L 328.6 63.1 L 330.4 62.0 L 332.2 60.9 L 334.0 59.7 L 335.8 58.6 L 337.6 57.5 L 339.3 56.4 L 341.1 55.2 L 342.9 54.1 L 344.7 53.0 L 346.5 51.9 L 348.3 50.7 L 350.1 49.6 L 351.8 48.5 L 353.6 47.3 L 355.4 46.2 L 357.2 45.1 L 359.0 44.0 L 360.8 42.8 L 362.5 41.7 L 364.3 40.6 L 366.1 39.4 L 367.9 38.3 L 369.7 37.2 L 371.5 36.1 L 373.2 34.9 L 375.0 33.8 L 376.8 32.7 L 378.6 31.5 L 380.4 30.4 L 382.2 29.3 L 383.9 28.2 L 385.7 27.0 L 387.5 25.9 L 389.3 24.8 L 391.1 23.6 L 392.9 22.5 L 394.6 21.4 L 396.4 20.3 L 398.2 19.1 L 400.0 18.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.7\"/><path d=\"M 45.0 107.8 L 46.8 108.4 L 48.6 108.9 L 50.4 109.5 L 52.1 110.1 L 53.9 110.6 L 55.7 111.2 L 57.5 111.8 L 59.3 112.3 L 61.1 112.9 L 62.8 113.5 L 64.6 114.0 L 66.4 114.6 L 68.2 115.2 L 70.0 115.7 L 71.8 116.3 L 73.5 116.8 L 75.3 117.4 L 77.1 118.0 L 78.9 118.5 L 80.7 119.1 L 82.5 119.7 L 84.2 120.2 L 86.0 120.8 L 87.8 121.4 L 89.6 121.9 L 91.4 122.5 L 93.2 123.1 L 94.9 123.6 L 96.7 124.2 L 98.5 124.7 L 100.3 125.3 L 102.1 125.9 L 103.9 126.4 L 105.7 127.0 L 107.4 127.6 L 109.2 128.1 L 111.0 128.7 L 112.8 129.3 L 114.6 129.8 L 116.4 130.4 L 118.1 130.9 L 119.9 131.5 L 121.7 132.1 L 123.5 132.6 L 125.3 133.2 L 127.1 133.8 L 128.8 134.3 L 130.6 134.9 L 132.4 135.5 L 134.2 136.0 L 136.0 136.6 L 137.8 137.2 L 139.5 137.7 L 141.3 138.3 L 143.1 138.8 L 144.9 139.4 L 146.7 140.0 L 148.5 140.5 L 150.3 141.1 L 152.0 141.7 L 153.8 142.2 L 155.6 142.8 L 157.4 143.4 L 159.2 143.9 L 161.0 144.5 L 162.7 145.1 L 164.5 145.6 L 166.3 146.2 L 168.1 146.7 L 169.9 147.3 L 171.7 147.9 L 173.4 148.4 L 175.2 149.0 L 177.0 149.6 L 178.8 150.1 L 180.6 150.7 L 182.4 151.3 L 184.1 151.8 L 185.9 152.4 L 187.7 153.0 L 189.5 153.5 L 191.3 154.1 L 193.1 154.6 L 194.8 155.2 L 196.6 155.8 L 198.4 156.3 L 200.2 156.9 L 202.0 157.5 L 203.8 158.0 L 205.6 158.6 L 207.3 159.2 L 209.1 159.7 L 210.9 160.3 L 212.7 160.9 L 214.5 161.4 L 216.3 162.0 L 218.0 162.5 L 219.8 163.1 L 221.6 163.7 L 223.4 164.2 L 225.2 164.8 L 227.0 165.4 L 228.7 165.9 L 230.5 166.5 L 232.3 167.1 L 234.1 167.6 L 235.9 168.2 L 237.7 168.8 L 239.4 169.3 L 241.2 169.9 L 243.0 170.4 L 244.8 171.0 L 246.6 171.6 L 248.4 172.1 L 250.2 172.7 L 251.9 173.3 L 253.7 173.8 L 255.5 174.4 L 257.3 175.0 L 259.1 175.5 L 260.9 176.1 L 262.6 176.6 L 264.4 177.2 L 266.2 177.8 L 268.0 178.3 L 269.8 178.9 L 271.6 179.5 L 273.3 180.0 L 275.1 180.6 L 276.9 181.2 L 278.7 181.7 L 280.5 182.3 L 282.3 182.9 L 284.0 183.4 L 285.8 184.0 L 287.6 184.5 L 289.4 185.1 L 291.2 185.7 L 293.0 186.2 L 294.7 186.8 L 296.5 187.4 L 298.3 187.9 L 300.1 188.5 L 301.9 189.1 L 303.7 189.6 L 305.5 190.2 L 307.2 190.8 L 309.0 191.3 L 310.8 191.9 L 312.6 192.4 L 314.4 193.0 L 316.2 193.6 L 317.9 194.1 L 319.7 194.7 L 321.5 195.3 L 323.3 195.8 L 325.1 196.4 L 326.9 197.0 L 328.6 197.5 L 330.4 198.1 L 332.2 198.7 L 334.0 199.2 L 335.8 199.8 L 337.6 200.3 L 339.3 200.9 L 341.1 201.5 L 342.9 202.0 L 344.7 202.6 L 346.5 203.2 L 348.3 203.7 L 350.1 204.3 L 351.8 204.9 L 353.6 205.4 L 355.4 206.0 L 357.2 206.6 L 359.0 207.1 L 360.8 207.7 L 362.5 208.2 L 364.3 208.8 L 366.1 209.4 L 367.9 209.9 L 369.7 210.5 L 371.5 211.1 L 373.2 211.6 L 375.0 212.2 L 376.8 212.8 L 378.6 213.3 L 380.4 213.9 L 382.2 214.4 L 383.9 215.0 L 385.7 215.6 L 387.5 216.1 L 389.3 216.7 L 391.1 217.3 L 392.9 217.8 L 394.6 218.4 L 396.4 219.0 L 398.2 219.5 L 400.0 220.1\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.7\"/><circle cx=\"187.0\" cy=\"152.7\" r=\"4.2\" fill=\"#222\"/></svg></span>",
-    "s": "<p>Lösningen är linjernas skärningspunkt.</p><p>Av grafen avläses skärningen till \\((2{,}3)\\).</p><p><strong>\\((x,y)=(2{,}3)\\).</strong></p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
+    "s": "<p>Lösningen är linjernas skärningspunkt.</p><p>Av grafen avläses skärningen till \\((2,\\,3)\\).</p><p><strong>\\((x,y)=(2{,}3)\\).</strong></p><p><strong>GeoGebra:</strong> Skriv in de två linjernas ekvationer i grafvyn. Lösningen till ekvationssystemet är koordinaterna för linjernas skärningspunkt. Zooma så att skärningen syns tydligt och klicka på punkten för att läsa av koordinaterna.</p>",
     "familj": "Grafisk lösning",
     "geogebra": true,
     "miniräknare": false,
@@ -7133,7 +7138,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Lös ekvationssystemet med GeoGebra:</p><p>\\[\\begin{cases}y=1{,}4x-2\\\\y=-0{,}6x+11\\end{cases}\\]</p><p>a) Bestäm lösningen.<br>b) Förklara utan en ny graf varför \\((6{,}6)\\) inte kan vara lösningen.</p>",
+    "t": "<p>Lös ekvationssystemet med GeoGebra:</p><p>\\[\\begin{cases}y=1{,}4x-2\\\\y=-0{,}6x+11\\end{cases}\\]</p><p>a) Bestäm lösningen.<br>b) Förklara utan en ny graf varför \\((6,\\,6)\\) inte kan vara lösningen.</p>",
     "s": "<p><strong>GeoGebra:</strong> rita båda linjerna. Skärningspunkten blir \\((6{,}5;\\,7{,}1)\\).</p><p>För punkten \\((6;6)\\) ger den första linjen \\(1{,}4\\cdot6-2=6{,}4\\), inte 6.</p><p><strong>Alltså är lösningen \\((6{,}5;\\,7{,}1)\\), och \\((6;6)\\) ligger inte på båda linjerna.</strong></p>",
     "familj": "Grafisk lösning",
     "geogebra": true,
@@ -7211,7 +7216,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Lösa ekvationssystem grafiskt",
     "ledtrad": "<p>Förenkla den första ekvationen. Blir den verkligen annorlunda än den andra?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false
   },
@@ -7289,7 +7294,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) är linjär.</p><table class='data'><tr><th>x</th><th>−1</th><th>1</th><th>4</th></tr><tr><th>f(x)</th><td>7</td><td>3</td><td>−3</td></tr></table><p>Bestäm \\(f(x)\\).</p>",
-    "s": "<p>När \\(x\\) ökar med 2 minskar \\(f(x)\\) med 4, alltså \\(k=-2\\).</p><p>Med \\((1{,}3)\\): \\(3=-2+m\\Rightarrow m=5\\).</p><p><strong>\\(f(x)=-2x+5\\).</strong></p>",
+    "s": "<p>När \\(x\\) ökar med 2 minskar \\(f(x)\\) med 4, alltså \\(k=-2\\).</p><p>Med \\((1,\\,3)\\): \\(3=-2+m\\Rightarrow m=5\\).</p><p><strong>\\(f(x)=-2x+5\\).</strong></p>",
     "familj": "Bestämma linjär funktion från tabell",
     "geogebra": false,
     "miniräknare": false,
@@ -7317,8 +7322,8 @@ window.BANKMA2 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>En rät linje skär den positiva x-axeln i \\((a,0)\\) och den positiva y-axeln i \\((0,b)\\). Det gäller att \\(a+b=12\\). Linjen går dessutom genom punkten \\((3{,}2)\\).</p><p>Bestäm alla linjer som uppfyller villkoren.</p>",
-    "s": "<p>En linje med axelskärningarna \\((a,0)\\) och \\((0,b)\\) uppfyller \\(\\frac{x}{a}+\\frac{y}{b}=1\\). För punkten \\((3{,}2)\\) gäller därför</p><p>\\[\\frac{3}{a}+\\frac{2}{b}=1.\\]</p><p>Eftersom \\(b=12-a\\) får vi</p><p>\\[\\frac3a+\\frac2{12-a}=1.\\]</p><p>Multiplicera med \\(a(12-a)\\):</p><p>\\[3(12-a)+2a=a(12-a).\\]</p><p>\\[36-a=12a-a^2\\Rightarrow a^2-13a+36=0.\\]</p><p>Faktorisering ger \\((a-4)(a-9)=0\\). Alltså är \\(a=4\\) eller \\(a=9\\). Då blir \\(b=8\\) respektive \\(b=3\\).</p><p><strong>Linjerna är \\(y=-2x+8\\) och \\(y=-\\frac13x+3\\).</strong></p>",
+    "t": "<p>En rät linje skär den positiva x-axeln i \\((a,0)\\) och den positiva y-axeln i \\((0,b)\\). Det gäller att \\(a+b=12\\). Linjen går dessutom genom punkten \\((3,\\,2)\\).</p><p>Bestäm alla linjer som uppfyller villkoren.</p>",
+    "s": "<p>En linje med axelskärningarna \\((a,0)\\) och \\((0,b)\\) uppfyller \\(\\frac{x}{a}+\\frac{y}{b}=1\\). För punkten \\((3,\\,2)\\) gäller därför</p><p>\\[\\frac{3}{a}+\\frac{2}{b}=1.\\]</p><p>Eftersom \\(b=12-a\\) får vi</p><p>\\[\\frac3a+\\frac2{12-a}=1.\\]</p><p>Multiplicera med \\(a(12-a)\\):</p><p>\\[3(12-a)+2a=a(12-a).\\]</p><p>\\[36-a=12a-a^2\\Rightarrow a^2-13a+36=0.\\]</p><p>Faktorisering ger \\((a-4)(a-9)=0\\). Alltså är \\(a=4\\) eller \\(a=9\\). Då blir \\(b=8\\) respektive \\(b=3\\).</p><p><strong>Linjerna är \\(y=-2x+8\\) och \\(y=-\\frac13x+3\\).</strong></p>",
     "familj": "Tolka och växla mellan linjära representationer",
     "geogebra": false,
     "miniräknare": false,
@@ -7331,7 +7336,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Använd axelskärningsformen \\(x/a+y/b=1\\) och villkoret \\(a+b=12\\). Punkten \\((3{,}2)\\) ger en andra ekvation.</p>",
+    "ledtrad": "<p>Använd axelskärningsformen \\(x/a+y/b=1\\) och villkoret \\(a+b=12\\). Punkten \\((3,\\,2)\\) ger en andra ekvation.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": false
@@ -13013,7 +13018,7 @@ window.BANKMA2 = [
     "t": "<p>Mätvärdena är 102, 119, 143 och 169 vid tiderna \\(t=0,\\,1,\\,2,\\,3\\).</p><p>Två modeller föreslås:</p><p>\\[L(t)=100+23t\\]</p><p>\\[E(t)=100\\cdot1{,}19^t.\\]</p><p>Jämför modellernas värden med samtliga fyra mätvärden och avgör vilken modell som ligger närmast mätvärdena i detta intervall. Kommentera också varför jämförelsen inte räcker för att veta vilken modell som fungerar bäst långt fram i tiden.</p>",
     "s": "<p>Den linjära modellen ger \\(100,\\,123,\\,146,\\,169\\). De absoluta felen blir \\(2,\\,4,\\,3,\\,0\\).</p><p>Exponentialmodellen ger ungefär \\(100,\\,119,\\,141{,}6,\\,168{,}5\\). Felen blir ungefär \\(2,\\,0,\\,1{,}4,\\,0{,}5\\).</p><p>Exponentialmodellen ligger alltså närmare de fyra givna mätvärdena totalt sett.</p><p>Det räcker däremot inte för att veta vilken modell som fungerar bäst långt fram i tiden. Utanför mätintervallet kan modellerna skilja sig kraftigt, och modellvalet måste också vara rimligt i sammanhanget.</p>",
     "familj": "Kritisk granskning av korrelation och regressionsmodeller",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -15567,7 +15572,12 @@ window.BANKMA2 = [
     ],
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true,
+      false
+    ]
   },
   {
     "id": "2.108",
@@ -16360,7 +16370,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Pröva talen ett i taget. När blir någon av faktorerna noll?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "2.127",
@@ -18623,7 +18634,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Först söker vi vilka x-värde \\(u\\) som ger \\(f(u)=2\\). Av grafen fås \\(u=-4{,}0{,}2\\).</p>",
+    "ledtrad": "<p>Först söker vi vilka x-värde \\(u\\) som ger \\(f(u)=2\\). Av grafen fås \\(u=-4,\\,0,\\,2\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": false,
@@ -19297,8 +19308,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Ekvationen \\(x^2+6x-2=0\\) ska lösas exakt.</p><p>a)&nbsp;Lös den genom att skriva om vänsterledet som en kvadrat.<br>b)&nbsp;Lös den med pq-formeln.<br>c)&nbsp;Jämför de två vägarna. Vad är likheten?</p>",
-    "s": "<p>a) \\(x^2+6x-2=(x+3)^2-9-2=(x+3)^2-11\\), så \\((x+3)^2=11\\) och \\(x=-3\\pm\\sqrt{11}\\).</p><p>b) Med \\(p=6\\) och \\(q=-2\\): \\(x=-3\\pm\\sqrt{9+2}=-3\\pm\\sqrt{11}\\).</p><p>c) Samma tal dyker upp i båda vägarna: \\(-3\\) är halva koefficienten framför \\(x\\) med omvänt tecken, och 11 är det som blir kvar under rottecknet. pq-formeln är helt enkelt kvadratkompletteringen utförd en gång för alla på \\(x^2+px+q=0\\).</p><p><strong>Svar:</strong> \\(x=-3+\\sqrt{11}\\) eller \\(x=-3-\\sqrt{11}\\); båda metoderna är samma räkning</p>",
+    "t": "<p>Ekvationen \\(x^2+6x-2=0\\) ska lösas exakt.</p><p>a)&nbsp;Lös den genom att skriva om vänsterledet som en kvadrat.<br>b)&nbsp;Lös den med en generell lösningsformel för andragradsekvationer.<br>c)&nbsp;Jämför de två vägarna. Vad är likheten?</p>",
+    "s": "<p>a) \\(x^2+6x-2=(x+3)^2-9-2=(x+3)^2-11\\), så \\((x+3)^2=11\\) och \\(x=-3\\pm\\sqrt{11}\\).</p><p>b) Med \\(p=6\\) och \\(q=-2\\): \\(x=-3\\pm\\sqrt{9+2}=-3\\pm\\sqrt{11}\\).</p><p>c) Samma tal dyker upp i båda vägarna: \\(-3\\) är halva koefficienten framför \\(x\\) med omvänt tecken, och 11 är det som blir kvar under rottecknet. den generella lösningsformeln är i grunden kvadratkompletteringen utförd en gång för alla på \\(x^2+px+q=0\\).</p><p><strong>Svar:</strong> \\(x=-3+\\sqrt{11}\\) eller \\(x=-3-\\sqrt{11}\\); båda metoderna är samma räkning</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
@@ -20856,7 +20867,8 @@ window.BANKMA2 = [
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "2.238",
@@ -25890,7 +25902,11 @@ window.BANKMA2 = [
     "ledtrad": "<p>Jämför hur väl olika modeller följer datapunkterna och om den valda modellen är rimlig utifrån förändringen i materialet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true
+    ]
   },
   {
     "id": "2.371",
@@ -26779,7 +26795,12 @@ window.BANKMA2 = [
     "ledtrad": "<p>a) Grafen visar att \\(f(u)=2\\) när \\(u=2\\). Alltså \\(x+1=2\\Rightarrow\\)\\(x=1\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ]
   },
   {
     "id": "2.396",
@@ -31097,7 +31118,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Grafen visar en andragradsfunktion \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"83.80\" y1=\"330.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"119.60\" y1=\"330.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"298.60\" y1=\"330.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"334.40\" y1=\"330.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"370.20\" y1=\"330.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"301.82\" x2=\"406.00\" y2=\"301.82\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"273.64\" x2=\"406.00\" y2=\"273.64\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"245.45\" x2=\"406.00\" y2=\"245.45\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"217.27\" x2=\"406.00\" y2=\"217.27\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"189.09\" x2=\"406.00\" y2=\"189.09\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"160.91\" x2=\"406.00\" y2=\"160.91\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"132.73\" x2=\"406.00\" y2=\"132.73\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"104.55\" x2=\"406.00\" y2=\"104.55\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"76.36\" x2=\"406.00\" y2=\"76.36\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"48.18\" x2=\"406.00\" y2=\"48.18\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"273.64\" x2=\"406.00\" y2=\"273.64\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"83.80\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"119.60\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"191.20\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"227.00\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"262.80\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"298.60\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"334.40\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"370.20\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"406.00\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"147.40\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"147.40\" y=\"304.82\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"147.40\" y=\"248.45\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"147.40\" y=\"220.27\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"147.40\" y=\"192.09\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"147.40\" y=\"163.91\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"147.40\" y=\"135.73\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"147.40\" y=\"107.55\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"147.40\" y=\"79.36\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"147.40\" y=\"51.18\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"147.40\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><path d=\"M 67.00 329.64 L 67.50 327.88 L 68.00 326.13 L 68.50 324.39 L 69.00 322.65 L 69.50 320.91 L 70.00 319.18 L 70.50 317.46 L 71.00 315.74 L 71.50 314.03 L 72.00 312.32 L 72.50 310.62 L 73.00 308.93 L 73.50 307.24 L 74.00 305.55 L 74.50 303.87 L 75.00 302.20 L 75.50 300.53 L 76.00 298.87 L 76.50 297.21 L 77.00 295.56 L 77.50 293.91 L 78.00 292.27 L 78.50 290.63 L 79.00 289.00 L 79.50 287.38 L 80.00 285.76 L 80.50 284.15 L 81.00 282.54 L 81.50 280.94 L 82.00 279.34 L 82.50 277.75 L 83.00 276.16 L 83.50 274.58 L 84.00 273.01 L 84.50 271.44 L 85.00 269.87 L 85.50 268.32 L 86.00 266.76 L 86.50 265.21 L 87.00 263.67 L 87.50 262.14 L 88.00 260.61 L 88.50 259.08 L 89.00 257.56 L 89.50 256.05 L 90.00 254.54 L 90.50 253.03 L 91.00 251.53 L 91.50 250.04 L 92.00 248.56 L 92.50 247.07 L 93.00 245.60 L 93.50 244.13 L 94.00 242.66 L 94.50 241.20 L 95.00 239.75 L 95.50 238.30 L 96.00 236.86 L 96.50 235.42 L 97.00 233.99 L 97.50 232.56 L 98.00 231.14 L 98.50 229.72 L 99.00 228.31 L 99.50 226.91 L 100.00 225.51 L 100.50 224.12 L 101.00 222.73 L 101.50 221.35 L 102.00 219.97 L 102.50 218.60 L 103.00 217.23 L 103.50 215.87 L 104.00 214.52 L 104.50 213.17 L 105.00 211.82 L 105.50 210.48 L 106.00 209.15 L 106.50 207.82 L 107.00 206.50 L 107.50 205.19 L 108.00 203.87 L 108.50 202.57 L 109.00 201.27 L 109.50 199.97 L 110.00 198.68 L 110.50 197.40 L 111.00 196.12 L 111.50 194.85 L 112.00 193.58 L 112.50 192.32 L 113.00 191.07 L 113.50 189.81 L 114.00 188.57 L 114.50 187.33 L 115.00 186.10 L 115.50 184.87 L 116.00 183.64 L 116.50 182.43 L 117.00 181.21 L 117.50 180.01 L 118.00 178.81 L 118.50 177.61 L 119.00 176.42 L 119.50 175.24 L 120.00 174.06 L 120.50 172.88 L 121.00 171.72 L 121.50 170.55 L 122.00 169.40 L 122.50 168.24 L 123.00 167.10 L 123.50 165.96 L 124.00 164.82 L 124.50 163.69 L 125.00 162.57 L 125.50 161.45 L 126.00 160.34 L 126.50 159.23 L 127.00 158.13 L 127.50 157.03 L 128.00 155.94 L 128.50 154.85 L 129.00 153.77 L 129.50 152.70 L 130.00 151.63 L 130.50 150.56 L 131.00 149.51 L 131.50 148.45 L 132.00 147.41 L 132.50 146.36 L 133.00 145.33 L 133.50 144.30 L 134.00 143.27 L 134.50 142.25 L 135.00 141.24 L 135.50 140.23 L 136.00 139.23 L 136.50 138.23 L 137.00 137.24 L 137.50 136.25 L 138.00 135.27 L 138.50 134.29 L 139.00 133.32 L 139.50 132.36 L 140.00 131.40 L 140.50 130.44 L 141.00 129.50 L 141.50 128.55 L 142.00 127.62 L 142.50 126.68 L 143.00 125.76 L 143.50 124.84 L 144.00 123.92 L 144.50 123.01 L 145.00 122.11 L 145.50 121.21 L 146.00 120.32 L 146.50 119.43 L 147.00 118.55 L 147.50 117.67 L 148.00 116.80 L 148.50 115.93 L 149.00 115.07 L 149.50 114.22 L 150.00 113.37 L 150.50 112.52 L 151.00 111.69 L 151.50 110.85 L 152.00 110.03 L 152.50 109.20 L 153.00 108.39 L 153.50 107.58 L 154.00 106.77 L 154.50 105.97 L 155.00 105.18 L 155.50 104.39 L 156.00 103.60 L 156.50 102.83 L 157.00 102.05 L 157.50 101.29 L 158.00 100.53 L 158.50 99.77 L 159.00 99.02 L 159.50 98.28 L 160.00 97.54 L 160.50 96.80 L 161.00 96.07 L 161.50 95.35 L 162.00 94.63 L 162.50 93.92 L 163.00 93.22 L 163.50 92.51 L 164.00 91.82 L 164.50 91.13 L 165.00 90.44 L 165.50 89.77 L 166.00 89.09 L 166.50 88.42 L 167.00 87.76 L 167.50 87.10 L 168.00 86.45 L 168.50 85.81 L 169.00 85.17 L 169.50 84.53 L 170.00 83.90 L 170.50 83.28 L 171.00 82.66 L 171.50 82.05 L 172.00 81.44 L 172.50 80.84 L 173.00 80.24 L 173.50 79.65 L 174.00 79.07 L 174.50 78.49 L 175.00 77.91 L 175.50 77.34 L 176.00 76.78 L 176.50 76.22 L 177.00 75.67 L 177.50 75.12 L 178.00 74.58 L 178.50 74.04 L 179.00 73.51 L 179.50 72.99 L 180.00 72.47 L 180.50 71.95 L 181.00 71.45 L 181.50 70.94 L 182.00 70.45 L 182.50 69.95 L 183.00 69.47 L 183.50 68.99 L 184.00 68.51 L 184.50 68.04 L 185.00 67.58 L 185.50 67.12 L 186.00 66.66 L 186.50 66.22 L 187.00 65.77 L 187.50 65.34 L 188.00 64.90 L 188.50 64.48 L 189.00 64.06 L 189.50 63.64 L 190.00 63.23 L 190.50 62.83 L 191.00 62.43 L 191.50 62.04 L 192.00 61.65 L 192.50 61.27 L 193.00 60.89 L 193.50 60.52 L 194.00 60.15 L 194.50 59.79 L 195.00 59.44 L 195.50 59.09 L 196.00 58.75 L 196.50 58.41 L 197.00 58.08 L 197.50 57.75 L 198.00 57.43 L 198.50 57.11 L 199.00 56.80 L 199.50 56.50 L 200.00 56.20 L 200.50 55.90 L 201.00 55.61 L 201.50 55.33 L 202.00 55.05 L 202.50 54.78 L 203.00 54.51 L 203.50 54.25 L 204.00 54.00 L 204.50 53.75 L 205.00 53.50 L 205.50 53.26 L 206.00 53.03 L 206.50 52.80 L 207.00 52.58 L 207.50 52.36 L 208.00 52.15 L 208.50 51.94 L 209.00 51.74 L 209.50 51.55 L 210.00 51.36 L 210.50 51.18 L 211.00 51.00 L 211.50 50.82 L 212.00 50.66 L 212.50 50.49 L 213.00 50.34 L 213.50 50.19 L 214.00 50.04 L 214.50 49.90 L 215.00 49.77 L 215.50 49.64 L 216.00 49.51 L 216.50 49.39 L 217.00 49.28 L 217.50 49.17 L 218.00 49.07 L 218.50 48.98 L 219.00 48.89 L 219.50 48.80 L 220.00 48.72 L 220.50 48.65 L 221.00 48.58 L 221.50 48.51 L 222.00 48.46 L 222.50 48.40 L 223.00 48.36 L 223.50 48.32 L 224.00 48.28 L 224.50 48.25 L 225.00 48.23 L 225.50 48.21 L 226.00 48.19 L 226.50 48.18 L 227.00 48.18 L 227.50 48.18 L 228.00 48.19 L 228.50 48.21 L 229.00 48.23 L 229.50 48.25 L 230.00 48.28 L 230.50 48.32 L 231.00 48.36 L 231.50 48.40 L 232.00 48.46 L 232.50 48.51 L 233.00 48.58 L 233.50 48.65 L 234.00 48.72 L 234.50 48.80 L 235.00 48.89 L 235.50 48.98 L 236.00 49.07 L 236.50 49.17 L 237.00 49.28 L 237.50 49.39 L 238.00 49.51 L 238.50 49.64 L 239.00 49.77 L 239.50 49.90 L 240.00 50.04 L 240.50 50.19 L 241.00 50.34 L 241.50 50.49 L 242.00 50.66 L 242.50 50.82 L 243.00 51.00 L 243.50 51.18 L 244.00 51.36 L 244.50 51.55 L 245.00 51.74 L 245.50 51.94 L 246.00 52.15 L 246.50 52.36 L 247.00 52.58 L 247.50 52.80 L 248.00 53.03 L 248.50 53.26 L 249.00 53.50 L 249.50 53.75 L 250.00 54.00 L 250.50 54.25 L 251.00 54.51 L 251.50 54.78 L 252.00 55.05 L 252.50 55.33 L 253.00 55.61 L 253.50 55.90 L 254.00 56.20 L 254.50 56.50 L 255.00 56.80 L 255.50 57.11 L 256.00 57.43 L 256.50 57.75 L 257.00 58.08 L 257.50 58.41 L 258.00 58.75 L 258.50 59.09 L 259.00 59.44 L 259.50 59.79 L 260.00 60.15 L 260.50 60.52 L 261.00 60.89 L 261.50 61.27 L 262.00 61.65 L 262.50 62.04 L 263.00 62.43 L 263.50 62.83 L 264.00 63.23 L 264.50 63.64 L 265.00 64.06 L 265.50 64.48 L 266.00 64.90 L 266.50 65.34 L 267.00 65.77 L 267.50 66.22 L 268.00 66.66 L 268.50 67.12 L 269.00 67.58 L 269.50 68.04 L 270.00 68.51 L 270.50 68.99 L 271.00 69.47 L 271.50 69.95 L 272.00 70.45 L 272.50 70.94 L 273.00 71.45 L 273.50 71.95 L 274.00 72.47 L 274.50 72.99 L 275.00 73.51 L 275.50 74.04 L 276.00 74.58 L 276.50 75.12 L 277.00 75.67 L 277.50 76.22 L 278.00 76.78 L 278.50 77.34 L 279.00 77.91 L 279.50 78.49 L 280.00 79.07 L 280.50 79.65 L 281.00 80.24 L 281.50 80.84 L 282.00 81.44 L 282.50 82.05 L 283.00 82.66 L 283.50 83.28 L 284.00 83.90 L 284.50 84.53 L 285.00 85.17 L 285.50 85.81 L 286.00 86.45 L 286.50 87.10 L 287.00 87.76 L 287.50 88.42 L 288.00 89.09 L 288.50 89.77 L 289.00 90.44 L 289.50 91.13 L 290.00 91.82 L 290.50 92.51 L 291.00 93.22 L 291.50 93.92 L 292.00 94.63 L 292.50 95.35 L 293.00 96.07 L 293.50 96.80 L 294.00 97.54 L 294.50 98.28 L 295.00 99.02 L 295.50 99.77 L 296.00 100.53 L 296.50 101.29 L 297.00 102.05 L 297.50 102.83 L 298.00 103.60 L 298.50 104.39 L 299.00 105.18 L 299.50 105.97 L 300.00 106.77 L 300.50 107.58 L 301.00 108.39 L 301.50 109.20 L 302.00 110.03 L 302.50 110.85 L 303.00 111.69 L 303.50 112.52 L 304.00 113.37 L 304.50 114.22 L 305.00 115.07 L 305.50 115.93 L 306.00 116.80 L 306.50 117.67 L 307.00 118.55 L 307.50 119.43 L 308.00 120.32 L 308.50 121.21 L 309.00 122.11 L 309.50 123.01 L 310.00 123.92 L 310.50 124.84 L 311.00 125.76 L 311.50 126.68 L 312.00 127.62 L 312.50 128.55 L 313.00 129.50 L 313.50 130.44 L 314.00 131.40 L 314.50 132.36 L 315.00 133.32 L 315.50 134.29 L 316.00 135.27 L 316.50 136.25 L 317.00 137.24 L 317.50 138.23 L 318.00 139.23 L 318.50 140.23 L 319.00 141.24 L 319.50 142.25 L 320.00 143.27 L 320.50 144.30 L 321.00 145.33 L 321.50 146.36 L 322.00 147.41 L 322.50 148.45 L 323.00 149.51 L 323.50 150.56 L 324.00 151.63 L 324.50 152.70 L 325.00 153.77 L 325.50 154.85 L 326.00 155.94 L 326.50 157.03 L 327.00 158.13 L 327.50 159.23 L 328.00 160.34 L 328.50 161.45 L 329.00 162.57 L 329.50 163.69 L 330.00 164.82 L 330.50 165.96 L 331.00 167.10 L 331.50 168.24 L 332.00 169.40 L 332.50 170.55 L 333.00 171.72 L 333.50 172.88 L 334.00 174.06 L 334.50 175.24 L 335.00 176.42 L 335.50 177.61 L 336.00 178.81 L 336.50 180.01 L 337.00 181.21 L 337.50 182.43 L 338.00 183.64 L 338.50 184.87 L 339.00 186.10 L 339.50 187.33 L 340.00 188.57 L 340.50 189.81 L 341.00 191.07 L 341.50 192.32 L 342.00 193.58 L 342.50 194.85 L 343.00 196.12 L 343.50 197.40 L 344.00 198.68 L 344.50 199.97 L 345.00 201.27 L 345.50 202.57 L 346.00 203.87 L 346.50 205.19 L 347.00 206.50 L 347.50 207.82 L 348.00 209.15 L 348.50 210.48 L 349.00 211.82 L 349.50 213.17 L 350.00 214.52 L 350.50 215.87 L 351.00 217.23 L 351.50 218.60 L 352.00 219.97 L 352.50 221.35 L 353.00 222.73 L 353.50 224.12 L 354.00 225.51 L 354.50 226.91 L 355.00 228.31 L 355.50 229.72 L 356.00 231.14 L 356.50 232.56 L 357.00 233.99 L 357.50 235.42 L 358.00 236.86 L 358.50 238.30 L 359.00 239.75 L 359.50 241.20 L 360.00 242.66 L 360.50 244.13 L 361.00 245.60 L 361.50 247.07 L 362.00 248.56 L 362.50 250.04 L 363.00 251.53 L 363.50 253.03 L 364.00 254.54 L 364.50 256.05 L 365.00 257.56 L 365.50 259.08 L 366.00 260.61 L 366.50 262.14 L 367.00 263.67 L 367.50 265.21 L 368.00 266.76 L 368.50 268.32 L 369.00 269.87 L 369.50 271.44 L 370.00 273.01 L 370.50 274.58 L 371.00 276.16 L 371.50 277.75 L 372.00 279.34 L 372.50 280.94 L 373.00 282.54 L 373.50 284.15 L 374.00 285.76 L 374.50 287.38 L 375.00 289.00 L 375.50 290.63 L 376.00 292.27 L 376.50 293.91 L 377.00 295.56 L 377.50 297.21 L 378.00 298.87 L 378.50 300.53 L 379.00 302.20 L 379.50 303.87 L 380.00 305.55 L 380.50 307.24 L 381.00 308.93 L 381.50 310.62 L 382.00 312.32 L 382.50 314.03 L 383.00 315.74 L 383.50 317.46 L 384.00 319.18 L 384.50 320.91 L 385.00 322.65 L 385.50 324.39 L 386.00 326.13 L 386.50 327.88 L 387.00 329.64\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm maximipunkten.<br>b)&nbsp;Är funktionen växande eller avtagande när \\(x>2\\)?<br>c)&nbsp;Bestäm symmetrilinjens ekvation.</p>",
-    "s": "<p>a) Den högsta punkten avläses till \\((2{,}8)\\).</p><p>b) Till höger om maximipunkten sjunker grafen, alltså är funktionen avtagande när \\(x&gt;2\\).</p><p>c) Symmetrilinjen går genom maximipunkten: \\(x=2\\).</p><p><strong>a) \\((2{,}8)\\) &nbsp; b) avtagande &nbsp; c) \\(x=2\\)</strong></p>",
+    "s": "<p>a) Den högsta punkten avläses till \\((2,\\,8)\\).</p><p>b) Till höger om maximipunkten sjunker grafen, alltså är funktionen avtagande när \\(x&gt;2\\).</p><p>c) Symmetrilinjen går genom maximipunkten: \\(x=2\\).</p><p><strong>a) \\((2,\\,8)\\) &nbsp; b) avtagande &nbsp; c) \\(x=2\\)</strong></p>",
     "familj": "Tolka andragradsfunktioner från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -31296,9 +31317,9 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För följande data:</p><table><tr><th>x</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><th>y</th><td>5</td><td>8</td><td>11</td><td>14</td><td>17</td></tr></table><p>Vilken av modellerna linjär, exponentiell eller andragrad är mest naturlig? Motivera kort.</p>",
-    "s": "<p>Första differenserna är \\(3{,}3{,}3{,}3\\), alltså konstanta.</p><p><strong>En linjär modell är därför mest naturlig.</strong> Den exakta modellen är \\(y=3x+5\\).</p>",
+    "s": "<p>Första differenserna är \\(3,\\,3,\\,3,\\,3\\), alltså konstanta.</p><p><strong>En linjär modell är därför mest naturlig.</strong> Den exakta modellen är \\(y=3x+5\\).</p>",
     "familj": "Välja och granska regressionsmodeller",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": false,
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -31329,7 +31350,7 @@ window.BANKMA2 = [
     "t": "<p>Följande data har uppmätts:</p><table><tr><th>\\(x\\)</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><th>\\(y\\)</th><td>4</td><td>9</td><td>16</td><td>25</td><td>36</td></tr></table><p>Välj mellan linjär, exponentiell och andragradsmodell. Motivera valet och förutsäg \\(y\\) när \\(x=6\\).</p>",
     "s": "<p>Första differenserna är 5, 7, 9 och 11. De är inte konstanta.</p><p>Andra differenserna är däremot 2, 2 och 2, vilket är typiskt för en andragradsfunktion.</p><p>Värdena följer exakt \\(y=(x+2)^2\\).</p><p>För \\(x=6\\) blir \\(y=8^2=64\\).</p><p><strong>Andragradsmodell; \\(y(6)=64\\).</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": false,
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -31444,7 +31465,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En potensfunktion \\(y=ax^n\\) går genom punkterna \\((3{,}12)\\) och \\((6{,}48)\\).</p><p>Bestäm funktionen.</p>",
+    "t": "<p>En potensfunktion \\(y=ax^n\\) går genom punkterna \\((3,\\,12)\\) och \\((6,\\,48)\\).</p><p>Bestäm funktionen.</p>",
     "s": "<p>Punkterna ger \\(12=a3^n\\) och \\(48=a6^n\\).</p><p>Dividera ekvationerna:</p><p>\\(4=(6/3)^n=2^n\\Rightarrow n=2\\).</p><p>\\(12=9a\\Rightarrow a=4/3\\).</p><p><strong>\\(y=\\frac43x^2\\).</strong></p>",
     "familj": "Potensfunktioner",
     "geogebra": false,
@@ -31653,7 +31674,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
     "ledtrad": "<p>Halvera \\(p\\) noga när \\(p\\) är ett decimaltal.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -31741,7 +31762,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
     "ledtrad": "<p>Skriv talen under rottecknet med nämnaren 9.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -34156,7 +34177,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Vilka två tal har kvadraten 25?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "2.602",
@@ -34798,7 +34820,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "ledtrad": "<p>Leta efter en kvadrat som är faktor i 18.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -35193,7 +35215,7 @@ window.BANKMA2 = [
       "nollproduktmetoden",
       "nollproduktmetoden"
     ],
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -35367,7 +35389,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
     "ledtrad": "<p>Vilka två tal har produkten \\(-12\\) och summan \\(-1\\)?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -35554,7 +35576,12 @@ window.BANKMA2 = [
     ],
     "traningsniva": 1,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true,
+      false
+    ]
   },
   {
     "id": "2.636",
@@ -35568,7 +35595,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två funktioner är \\(f(x)=100\\cdot0{,}9^x\\) och \\(g(x)=100\\cdot1{,}1^x\\). Beskriv skillnaden mellan graferna och ange vad \\(0{,}9\\) respektive \\(1{,}1\\) betyder i procent per steg.</p>",
-    "s": "<p>Båda graferna går genom \\((0{,}100)\\), eftersom startvärdet är detsamma.</p><p>\\(f\\) har basen \\(0{,}9&lt;1\\) och är avtagande: en minskning med 10 % per steg.</p><p>\\(g\\) har basen \\(1{,}1&gt;1\\) och är växande: en ökning med 10 % per steg.</p><p><strong>\\(f\\) minskar med 10 % per steg, \\(g\\) ökar med 10 % per steg; båda startar i 100.</strong></p>",
+    "s": "<p>Båda graferna går genom \\((0,\\,100)\\), eftersom startvärdet är detsamma.</p><p>\\(f\\) har basen \\(0{,}9&lt;1\\) och är avtagande: en minskning med 10 % per steg.</p><p>\\(g\\) har basen \\(1{,}1&gt;1\\) och är växande: en ökning med 10 % per steg.</p><p><strong>\\(f\\) minskar med 10 % per steg, \\(g\\) ökar med 10 % per steg; båda startar i 100.</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -35597,7 +35624,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Grafen till \\(f(x)=C\\cdot a^x\\) går genom \\((0{,}5)\\) och \\((2{,}45)\\).</p><p>a)&nbsp;Bestäm \\(C\\).<br>b)&nbsp;Bestäm \\(a\\).<br>c)&nbsp;Beräkna \\(f(4)\\).</p>",
+    "t": "<p>Grafen till \\(f(x)=C\\cdot a^x\\) går genom \\((0,\\,5)\\) och \\((2,\\,45)\\).</p><p>a)&nbsp;Bestäm \\(C\\).<br>b)&nbsp;Bestäm \\(a\\).<br>c)&nbsp;Beräkna \\(f(4)\\).</p>",
     "s": "<p>a) \\(f(0)=C\\cdot a^0=C\\), alltså \\(C=5\\).</p><p>b) \\(5a^2=45\\) ger \\(a^2=9\\) och \\(a=3\\) (basen måste vara positiv).</p><p>c) \\(f(4)=5\\cdot3^4=5\\cdot81=405\\).</p><p><strong>a) \\(C=5\\) &nbsp; b) \\(a=3\\) &nbsp; c) \\(405\\)</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
@@ -35742,7 +35769,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Om den timvisa faktorn är \\(a\\), vilken faktor har verkat efter tre timmar?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "2.641",
@@ -35811,7 +35839,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Grafen till en exponentialfunktion \\(f(x)=C\\cdot a^x\\) går genom punkterna \\((0{,}3)\\) och \\((1{,}6)\\). Bestäm \\(C\\) och \\(a\\).</p>",
+    "t": "<p>Grafen till en exponentialfunktion \\(f(x)=C\\cdot a^x\\) går genom punkterna \\((0,\\,3)\\) och \\((1,\\,6)\\). Bestäm \\(C\\) och \\(a\\).</p>",
     "s": "<p>Vid \\(x=0\\) gäller \\(f(0)=C\\), alltså är \\(C=3\\).</p><p><strong>Steg 2:</strong> Vid \\(x=1\\) blir \\(6=3\\cdot a\\), så \\(a=2\\).</p><p><strong>Svar:</strong> \\(C=3\\) och \\(a=2\\).</p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
@@ -35823,7 +35851,7 @@ window.BANKMA2 = [
     ],
     "tolerans": [
       0,
-      1e-9
+      1e-09
     ],
     "självrättning": true,
     "formaga": [
@@ -35857,7 +35885,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Grafen till en exponentialfunktion \\(f(x)=C\\cdot a^x\\) går genom punkterna \\((0{,}8)\\) och \\((3{,}1)\\). Bestäm \\(a\\) och avgör om funktionen är växande eller avtagande.</p>",
+    "t": "<p>Grafen till en exponentialfunktion \\(f(x)=C\\cdot a^x\\) går genom punkterna \\((0,\\,8)\\) och \\((3,\\,1)\\). Bestäm \\(a\\) och avgör om funktionen är växande eller avtagande.</p>",
     "s": "<p>\\(C=8\\).</p><p>\\(8a^3=1\\) ger \\(a^3=\\dfrac18\\), alltså \\(a=\\dfrac12\\).</p><p>Eftersom \\(0&lt;a&lt;1\\) är funktionen avtagande.</p><p><strong>\\(a=0{,}5\\), funktionen är avtagande</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
@@ -36558,7 +36586,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En andragradsfunktion går genom punkterna \\((0, 3)\\), \\((1, 6)\\) och \\((2, 11)\\).</p><p>Bestäm koefficienten \\(a\\) i \\(f(x)=ax^2+bx+c\\).</p>",
-    "s": "<p>Punkten \\((0{,}3)\\) ger \\(c=3\\).</p><p>Med \\((1{,}6)\\): \\(a+b=3\\). Med \\((2{,}11)\\): \\(4a+2b=8\\), alltså \\(2a+b=4\\).</p><p>Subtraktion ger</p><p>\\[(2a+b)-(a+b)=4-3\\Rightarrow a=1.\\]</p><p><strong>\\(a=1\\).</strong></p>",
+    "s": "<p>Punkten \\((0,\\,3)\\) ger \\(c=3\\).</p><p>Med \\((1,\\,6)\\): \\(a+b=3\\). Med \\((2,\\,11)\\): \\(4a+2b=8\\), alltså \\(2a+b=4\\).</p><p>Subtraktion ger</p><p>\\[(2a+b)-(a+b)=4-3\\Rightarrow a=1.\\]</p><p><strong>\\(a=1\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -36615,7 +36643,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En andragradsfunktion går genom punkterna \\((0{,}4)\\), \\((2{,}0)\\) och \\((4{,}4)\\). Bestäm koefficienten \\(b\\) i \\(f(x)=ax^2+bx+c\\).</p>",
+    "t": "<p>En andragradsfunktion går genom punkterna \\((0,\\,4)\\), \\((2,\\,0)\\) och \\((4,\\,4)\\). Bestäm koefficienten \\(b\\) i \\(f(x)=ax^2+bx+c\\).</p>",
     "s": "<p>\\(f(0)=4\\) ger \\(c=4\\).</p><p>\\(f(2)=0\\): \\(4a+2b+4=0\\), alltså \\(2a+b=-2\\).</p><p>\\(f(4)=4\\): \\(16a+4b+4=4\\), alltså \\(4a+b=0\\).</p><p>Subtraktion ger \\(2a=2\\), alltså \\(a=1\\) och \\(b=-4\\).</p><p><strong>\\(b=-4\\)</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
     "geogebra": false,
@@ -36628,7 +36656,7 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Punkterna \\((0{,}4)\\) och \\((4{,}4)\\) ligger symmetriskt, så symmetrilinjen är \\(x=2\\).</p>",
+    "ledtrad": "<p>Punkterna \\((0,\\,4)\\) och \\((4,\\,4)\\) ligger symmetriskt, så symmetrilinjen är \\(x=2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -36645,7 +36673,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En andragradsfunktion går genom punkterna \\((1, 0)\\), \\((2, -3)\\) och \\((3, 0)\\).</p><p>Bestäm funktionens minsta värde.</p>",
-    "s": "<p>Eftersom \\((1{,}0)\\) och \\((3{,}0)\\) är nollställen kan funktionen skrivas \\(f(x)=a(x-1)(x-3)\\). Punkten \\((2,-3)\\) ger</p><p>\\[-3=a(1)(-1)=-a\\Rightarrow a=3.\\]</p><p>Symmetrilinjen ligger mitt mellan nollställena, vid \\(x=2\\), och där är \\(f(2)=-3\\).</p><p><strong>Svar:</strong> minsta värdet är \\(-3\\).</p>",
+    "s": "<p>Eftersom \\((1,\\,0)\\) och \\((3,\\,0)\\) är nollställen kan funktionen skrivas \\(f(x)=a(x-1)(x-3)\\). Punkten \\((2,-3)\\) ger</p><p>\\[-3=a(1)(-1)=-a\\Rightarrow a=3.\\]</p><p>Symmetrilinjen ligger mitt mellan nollställena, vid \\(x=2\\), och där är \\(f(2)=-3\\).</p><p><strong>Svar:</strong> minsta värdet är \\(-3\\).</p>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -36657,7 +36685,7 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Eftersom \\((1{,}0)\\) och \\((3{,}0)\\) är nollställen kan funktionen skrivas \\(f(x)=a(x-1)(x-3)\\). Punkten \\((2,-3)\\) ger</p>",
+    "ledtrad": "<p>Eftersom \\((1,\\,0)\\) och \\((3,\\,0)\\) är nollställen kan funktionen skrivas \\(f(x)=a(x-1)(x-3)\\). Punkten \\((2,-3)\\) ger</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -36897,7 +36925,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En cyklist färdas med nästan konstant fart. Tabellen visar tiden \\(x\\) i timmar och den sammanlagda sträckan \\(y\\) i mil: \\(x:1{,}2{,}3{,}4\\), \\(y:5{,}8{,}11{,}14\\). Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
+    "t": "<p>En cyklist färdas med nästan konstant fart. Tabellen visar tiden \\(x\\) i timmar och den sammanlagda sträckan \\(y\\) i mil: \\(x:1,\\,2,\\,3,\\,4\\), \\(y:5,\\,8,\\,11,\\,14\\). Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
     "s": "<p>Sträckan ökar med 3 mil varje gång tiden ökar med 1 timme. Konstant differens betyder linjär förändring.</p><p><strong>Linjär modell.</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
     "geogebra": false,
@@ -36928,7 +36956,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En bakteriekultur mäts en gång per timme. Antalet bakterier, i tusental, är \\(2{,}6{,}18{,}54\\) vid tiderna \\(x=0{,}1{,}2{,}3\\). Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
+    "t": "<p>En bakteriekultur mäts en gång per timme. Antalet bakterier, i tusental, är \\(2,\\,6,\\,18,\\,54\\) vid tiderna \\(x=0,\\,1,\\,2,\\,3\\). Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
     "s": "<p>Antalet multipliceras med 3 från en timme till nästa: \\(6/2=18/6=54/18=3\\). Konstant förändringsfaktor betyder exponentialförändring.</p><p><strong>Exponentialmodell.</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
     "geogebra": false,
@@ -36959,7 +36987,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Arean \\(y\\) hos några likformiga figurer mäts för längdskalan \\(x=1{,}2{,}3{,}4\\). Värdena är \\(3{,}12{,}27{,}48\\). Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
+    "t": "<p>Arean \\(y\\) hos några likformiga figurer mäts för längdskalan \\(x=1,\\,2,\\,3,\\,4\\). Värdena är \\(3,\\,12,\\,27,\\,48\\). Vilken modelltyp passar bäst: linjär, exponential eller potens?</p>",
     "s": "<p>För varje tabellvärde är \\(y/x^2=3\\). Data följer alltså \\(y=3x^2\\).</p><p><strong>Potensmodell.</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
     "geogebra": false,
@@ -36990,7 +37018,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En behållare töms jämnt. Efter \\(x=0{,}2{,}4{,}6\\) minuter återstår \\(y=10{,}7{,}4{,}1\\) liter.</p><p>Bestäm en linjär modell \\(y=kx+m\\) som passar tabellen.</p>",
+    "t": "<p>En behållare töms jämnt. Efter \\(x=0,\\,2,\\,4,\\,6\\) minuter återstår \\(y=10,\\,7,\\,4,\\,1\\) liter.</p><p>Bestäm en linjär modell \\(y=kx+m\\) som passar tabellen.</p>",
     "s": "<p>När tiden ökar med 2 minuter minskar mängden med 3 liter. Därför</p><p>\\[k=\\frac{-3}{2}=-1{,}5.\\]</p><p>Vid \\(x=0\\) är \\(y=10\\), så \\(m=10\\).</p><p><strong>\\(y=10-1{,}5x\\).</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
     "geogebra": false,
@@ -37021,7 +37049,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Mängden av ett ämne mäts vid \\(x=0{,}1{,}2{,}3\\) timmar och är då \\(80{,}40{,}20{,}10\\) mg.</p><p>a) Bestäm förändringsfaktorn per timme.<br>b) Skriv en exponentialmodell \\(M(x)\\).</p>",
+    "t": "<p>Mängden av ett ämne mäts vid \\(x=0,\\,1,\\,2,\\,3\\) timmar och är då \\(80,\\,40,\\,20,\\,10\\) mg.</p><p>a) Bestäm förändringsfaktorn per timme.<br>b) Skriv en exponentialmodell \\(M(x)\\).</p>",
     "s": "<p>Mängden halveras varje timme, så förändringsfaktorn är \\(0{,}5\\). Startvärdet är 80 mg.</p><p><strong>a) \\(0{,}5\\)</strong></p><p><strong>b) \\(M(x)=80\\cdot0{,}5^x\\).</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
     "geogebra": false,
@@ -37066,7 +37094,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>För \\(x=1{,}2{,}3{,}4\\) gäller \\(y=2{,}8{,}18{,}32\\).</p><p>Data följer en potensfunktion \\(y=Cx^n\\). Bestäm \\(C\\) och \\(n\\).</p>",
+    "t": "<p>För \\(x=1,\\,2,\\,3,\\,4\\) gäller \\(y=2,\\,8,\\,18,\\,32\\).</p><p>Data följer en potensfunktion \\(y=Cx^n\\). Bestäm \\(C\\) och \\(n\\).</p>",
     "s": "<p>När \\(x=1\\) fås direkt \\(C=2\\).</p><p>Med \\(x=2\\) gäller</p><p>\\[8=2\\cdot2^n\\Rightarrow2^n=4\\Rightarrow n=2.\\]</p><p>Kontroll: \\(2\\cdot3^2=18\\) och \\(2\\cdot4^2=32\\).</p><p><strong>\\(C=2\\), \\(n=2\\).</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
     "geogebra": false,
@@ -37238,7 +37266,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Punkterna är \\(A=(-4{,}2)\\) och \\(B=(2{,}10)\\).</p><p>a) Bestäm mittpunkten.<br>b) Bestäm avståndet \\(AB\\).</p>",
-    "s": "<p>Mittpunkten är \\((-1{,}6)\\).</p><p>\\(AB=\\sqrt{6^2+8^2}=10\\).</p><p><strong>a) \\((-1{,}6)\\), b) 10.</strong></p>",
+    "s": "<p>Mittpunkten är \\((-1,\\,6)\\).</p><p>\\(AB=\\sqrt{6^2+8^2}=10\\).</p><p><strong>a) \\((-1,\\,6)\\), b) 10.</strong></p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
     "miniräknare": false,
@@ -37803,7 +37831,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkterna \\(A=(-3{,}4)\\) och \\(B=(5,-2)\\) är ändpunkter på en diameter i en cirkel.</p><p>Bestäm cirkelns medelpunkt och radie.</p>",
-    "s": "<p>Cirkelns medelpunkt är mittpunkten på diametern:</p><p>\\[M=\\left(\\frac{-3+5}{2},\\frac{4+(-2)}{2}\\right)=(1{,}1).\\]</p><p>Diameterns längd är</p><p>\\[AB=\\sqrt{(5-(-3))^2+(-2-4)^2}=\\sqrt{8^2+(-6)^2}=10.\\]</p><p>Radien är hälften av diametern, alltså \\(r=5\\).</p><p><strong>Medelpunkt \\((1{,}1)\\), radie 5.</strong></p>",
+    "s": "<p>Cirkelns medelpunkt är mittpunkten på diametern:</p><p>\\[M=\\left(\\frac{-3+5}{2},\\frac{4+(-2)}{2}\\right)=(1{,}1).\\]</p><p>Diameterns längd är</p><p>\\[AB=\\sqrt{(5-(-3))^2+(-2-4)^2}=\\sqrt{8^2+(-6)^2}=10.\\]</p><p>Radien är hälften av diametern, alltså \\(r=5\\).</p><p><strong>Medelpunkt \\((1,\\,1)\\), radie 5.</strong></p>",
     "familj": "Koordinatgeometrisk problemlösning",
     "geogebra": false,
     "miniräknare": false,
@@ -37832,7 +37860,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Triangeln nedan har hörnen \\(A=(0{,}0)\\), \\(B=(6{,}0)\\), \\(C=(4{,}3)\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"80.55\" y1=\"330.00\" x2=\"80.55\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"113.09\" y1=\"330.00\" x2=\"113.09\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"178.18\" y1=\"330.00\" x2=\"178.18\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"210.73\" y1=\"330.00\" x2=\"210.73\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"243.27\" y1=\"330.00\" x2=\"243.27\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"275.82\" y1=\"330.00\" x2=\"275.82\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"308.36\" y1=\"330.00\" x2=\"308.36\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"340.91\" y1=\"330.00\" x2=\"340.91\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"373.45\" y1=\"330.00\" x2=\"373.45\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"301.82\" x2=\"406.00\" y2=\"301.82\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"273.64\" x2=\"406.00\" y2=\"273.64\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"245.45\" x2=\"406.00\" y2=\"245.45\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"217.27\" x2=\"406.00\" y2=\"217.27\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"189.09\" x2=\"406.00\" y2=\"189.09\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"160.91\" x2=\"406.00\" y2=\"160.91\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"132.73\" x2=\"406.00\" y2=\"132.73\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"104.55\" x2=\"406.00\" y2=\"104.55\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"76.36\" x2=\"406.00\" y2=\"76.36\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"48.18\" x2=\"406.00\" y2=\"48.18\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"245.45\" x2=\"406.00\" y2=\"245.45\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"262.45\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"80.55\" y=\"262.45\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"113.09\" y=\"262.45\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"178.18\" y=\"262.45\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"210.73\" y=\"262.45\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"243.27\" y=\"262.45\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"275.82\" y=\"262.45\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"308.36\" y=\"262.45\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"340.91\" y=\"262.45\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"373.45\" y=\"262.45\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"406.00\" y=\"262.45\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"137.64\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"137.64\" y=\"304.82\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"137.64\" y=\"276.64\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"137.64\" y=\"220.27\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"137.64\" y=\"192.09\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"137.64\" y=\"163.91\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"137.64\" y=\"135.73\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"137.64\" y=\"107.55\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"137.64\" y=\"79.36\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"137.64\" y=\"51.18\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"137.64\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"145.64\" y1=\"245.45\" x2=\"340.91\" y2=\"245.45\" stroke=\"#B43123\" stroke-width=\"2.7\"/><line x1=\"340.91\" y1=\"245.45\" x2=\"275.82\" y2=\"160.91\" stroke=\"#B43123\" stroke-width=\"2.7\"/><line x1=\"275.82\" y1=\"160.91\" x2=\"145.64\" y2=\"245.45\" stroke=\"#B43123\" stroke-width=\"2.7\"/><circle cx=\"145.64\" cy=\"245.45\" r=\"4\" fill=\"#2B2527\"/><text x=\"151.64\" y=\"238.45\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\">A</text><circle cx=\"340.91\" cy=\"245.45\" r=\"4\" fill=\"#2B2527\"/><text x=\"346.91\" y=\"238.45\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\">B</text><circle cx=\"275.82\" cy=\"160.91\" r=\"4\" fill=\"#2B2527\"/><text x=\"281.82\" y=\"153.91\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\">C</text></svg></span><p>Bestäm längden av medianen från hörnet \\(C\\) till sidan \\(AB\\).</p>",
-    "s": "<p>Mittpunkten på \\(AB\\) är \\((3{,}0)\\). Medianens längd blir avståndet från \\((4{,}3)\\) till \\((3{,}0)\\): \\(\\sqrt{1^2+3^2}=\\sqrt{10}\\).</p><p><strong>\\(\\sqrt{10}\\).</strong></p>",
+    "s": "<p>Mittpunkten på \\(AB\\) är \\((3,\\,0)\\). Medianens längd blir avståndet från \\((4,\\,3)\\) till \\((3,\\,0)\\): \\(\\sqrt{1^2+3^2}=\\sqrt{10}\\).</p><p><strong>\\(\\sqrt{10}\\).</strong></p>",
     "familj": "Koordinatgeometrisk problemlösning",
     "geogebra": false,
     "miniräknare": false,
@@ -38264,7 +38292,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Triangeln i koordinatsystemet har hörnen \\(A(0{,}0)\\), \\(B(6{,}0)\\) och \\(C(2{,}4)\\).</p><span class=\"fig smal\"><svg width=\"380\" height=\"300\" viewBox=\"0 0 380 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"44.0\" y1=\"266.0\" x2=\"44.0\" y2=\"18.0\" stroke=\"#E4E3E6\"/><line x1=\"83.5\" y1=\"266.0\" x2=\"83.5\" y2=\"18.0\" stroke=\"#E4E3E6\"/><line x1=\"123.0\" y1=\"266.0\" x2=\"123.0\" y2=\"18.0\" stroke=\"#E4E3E6\"/><line x1=\"162.5\" y1=\"266.0\" x2=\"162.5\" y2=\"18.0\" stroke=\"#E4E3E6\"/><line x1=\"202.0\" y1=\"266.0\" x2=\"202.0\" y2=\"18.0\" stroke=\"#E4E3E6\"/><line x1=\"241.5\" y1=\"266.0\" x2=\"241.5\" y2=\"18.0\" stroke=\"#E4E3E6\"/><line x1=\"281.0\" y1=\"266.0\" x2=\"281.0\" y2=\"18.0\" stroke=\"#E4E3E6\"/><line x1=\"320.5\" y1=\"266.0\" x2=\"320.5\" y2=\"18.0\" stroke=\"#E4E3E6\"/><line x1=\"360.0\" y1=\"266.0\" x2=\"360.0\" y2=\"18.0\" stroke=\"#E4E3E6\"/><line x1=\"44.0\" y1=\"266.0\" x2=\"360.0\" y2=\"266.0\" stroke=\"#E4E3E6\"/><line x1=\"44.0\" y1=\"224.7\" x2=\"360.0\" y2=\"224.7\" stroke=\"#E4E3E6\"/><line x1=\"44.0\" y1=\"183.3\" x2=\"360.0\" y2=\"183.3\" stroke=\"#E4E3E6\"/><line x1=\"44.0\" y1=\"142.0\" x2=\"360.0\" y2=\"142.0\" stroke=\"#E4E3E6\"/><line x1=\"44.0\" y1=\"100.7\" x2=\"360.0\" y2=\"100.7\" stroke=\"#E4E3E6\"/><line x1=\"44.0\" y1=\"59.3\" x2=\"360.0\" y2=\"59.3\" stroke=\"#E4E3E6\"/><line x1=\"44.0\" y1=\"18.0\" x2=\"360.0\" y2=\"18.0\" stroke=\"#E4E3E6\"/><line x1=\"44.0\" y1=\"224.7\" x2=\"360.0\" y2=\"224.7\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"83.5\" y1=\"266.0\" x2=\"83.5\" y2=\"18.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"123.0\" y=\"240.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">1</text><text x=\"162.5\" y=\"240.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">2</text><text x=\"202.0\" y=\"240.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">3</text><text x=\"241.5\" y=\"240.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">4</text><text x=\"281.0\" y=\"240.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">5</text><text x=\"320.5\" y=\"240.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">6</text><text x=\"75.5\" y=\"186.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">1</text><text x=\"75.5\" y=\"145.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">2</text><text x=\"75.5\" y=\"103.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">3</text><text x=\"75.5\" y=\"62.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">4</text><text x=\"75.5\" y=\"21.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">5</text><circle cx=\"83.5\" cy=\"224.7\" r=\"4\" fill=\"#2A5D9E\"/><circle cx=\"320.5\" cy=\"224.7\" r=\"4\" fill=\"#2A5D9E\"/><circle cx=\"162.5\" cy=\"59.3\" r=\"4\" fill=\"#2A5D9E\"/><line x1=\"83.5\" y1=\"224.7\" x2=\"320.5\" y2=\"224.7\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"320.5\" y1=\"224.7\" x2=\"162.5\" y2=\"59.3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"83.5\" y1=\"224.7\" x2=\"162.5\" y2=\"59.3\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"91.5\" y=\"240.7\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">A</text><text x=\"328.5\" y=\"240.7\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">B</text><text x=\"170.5\" y=\"51.3\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">C</text></svg></span><p>a) Bestäm ekvationen för mittnormalen till sträckan \\(AB\\).</p><p>b) Bestäm ekvationen för mittnormalen till sträckan \\(AC\\).</p><p>c) Bestäm centrum och radie för den cirkel som går genom alla tre hörn.</p>",
-    "s": "<p>Mittpunkten på \\(AB\\) är \\((3{,}0)\\). Eftersom \\(AB\\) är horisontell blir mittnormalen \\(x=3\\).</p><p>Mittpunkten på \\(AC\\) är \\((1{,}2)\\). Riktningskoefficienten för \\(AC\\) är 2, så mittnormalens riktningskoefficient är \\(-\\frac12\\).</p><p>Därför blir ekvationen \\(y-2=-\\frac12(x-1)\\), alltså \\(y=-\\frac12x+\\frac52\\).</p><p>Skärningspunkten med \\(x=3\\) fås till \\(y=1\\). Alltså är centrum \\((3{,}1)\\).</p><p>Radien blir avståndet till \\(A\\): \\(r=\\sqrt{3^2+1^2}=\\sqrt{10}\\).</p><p><strong>Centrum är \\((3{,}1)\\) och radien är \\(\\sqrt{10}\\).</strong></p>",
+    "s": "<p>Mittpunkten på \\(AB\\) är \\((3,\\,0)\\). Eftersom \\(AB\\) är horisontell blir mittnormalen \\(x=3\\).</p><p>Mittpunkten på \\(AC\\) är \\((1,\\,2)\\). Riktningskoefficienten för \\(AC\\) är 2, så mittnormalens riktningskoefficient är \\(-\\frac12\\).</p><p>Därför blir ekvationen \\(y-2=-\\frac12(x-1)\\), alltså \\(y=-\\frac12x+\\frac52\\).</p><p>Skärningspunkten med \\(x=3\\) fås till \\(y=1\\). Alltså är centrum \\((3,\\,1)\\).</p><p>Radien blir avståndet till \\(A\\): \\(r=\\sqrt{3^2+1^2}=\\sqrt{10}\\).</p><p><strong>Centrum är \\((3,\\,1)\\) och radien är \\(\\sqrt{10}\\).</strong></p>",
     "familj": "Koordinatgeometrisk problemlösning",
     "geogebra": false,
     "miniräknare": false,
@@ -38277,7 +38305,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Mittpunkten på \\(AB\\) är \\((3{,}0)\\). Eftersom \\(AB\\) är horisontell blir mittnormalen \\(x=3\\).</p>",
+    "ledtrad": "<p>Mittpunkten på \\(AB\\) är \\((3,\\,0)\\). Eftersom \\(AB\\) är horisontell blir mittnormalen \\(x=3\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": false,
@@ -38713,7 +38741,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Punkten \\(A=(2,-1)\\) är ena ändpunkten på en sträcka AB som är 10 längdenheter lång. Mittpunkten på AB ligger på linjen \\(y=x\\). Punkten B ligger ovanför A.</p><p>Bestäm koordinaterna för B.</p>",
-    "s": "<p>Sätt \\(B=(x,y)\\). Mittpunkten är \\(M=((2+x)/2,(-1+y)/2)\\). Eftersom M ligger på \\(y=x\\) gäller</p><p>\\[\\frac{-1+y}{2}=\\frac{2+x}{2}\\Rightarrow y=x+3.\\]</p><p>Avståndet AB är 10:</p><p>\\[(x-2)^2+(y+1)^2=100.\\]</p><p>Sätt in \\(y=x+3\\):</p><p>\\[(x-2)^2+(x+4)^2=100.\\]</p><p>\\[x^2+2x-40=0.\\]</p><p>Därför \\(x=-1\\pm\\sqrt{41}\\). Eftersom B ska ligga ovanför A väljs \\(x=-1+\\sqrt{41}\\). Då är \\(y=2+\\sqrt{41}\\).</p><p><strong>\\(B=(-1+\\sqrt{41},\\ 2+\\sqrt{41})\\approx(5{,}40{,}8{,}40)\\).</strong></p>",
+    "s": "<p>Sätt \\(B=(x,y)\\). Mittpunkten är \\(M=((2+x)/2,(-1+y)/2)\\). Eftersom M ligger på \\(y=x\\) gäller</p><p>\\[\\frac{-1+y}{2}=\\frac{2+x}{2}\\Rightarrow y=x+3.\\]</p><p>Avståndet AB är 10:</p><p>\\[(x-2)^2+(y+1)^2=100.\\]</p><p>Sätt in \\(y=x+3\\):</p><p>\\[(x-2)^2+(x+4)^2=100.\\]</p><p>\\[x^2+2x-40=0.\\]</p><p>Därför \\(x=-1\\pm\\sqrt{41}\\). Eftersom B ska ligga ovanför A väljs \\(x=-1+\\sqrt{41}\\). Då är \\(y=2+\\sqrt{41}\\).</p><p><strong>\\(B=(-1+\\sqrt{41},\\ 2+\\sqrt{41})\\approx(5{,}40;\\,8{,}40)\\).</strong></p>",
     "familj": "Koordinatgeometrisk problemlösning",
     "geogebra": false,
     "miniräknare": false,
@@ -38744,7 +38772,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Punkterna är \\(A=(2,-3)\\) och \\(B=(8{,}5)\\).</p><p>a) Bestäm mittpunkten.<br>b) Bestäm avståndet.</p>",
-    "s": "<p>Mittpunkten är \\((5{,}1)\\).</p><p>Avståndet är \\(\\sqrt{6^2+8^2}=10\\).</p><p><strong>a) \\((5{,}1)\\), b) 10.</strong></p>",
+    "s": "<p>Mittpunkten är \\((5,\\,1)\\).</p><p>Avståndet är \\(\\sqrt{6^2+8^2}=10\\).</p><p><strong>a) \\((5,\\,1)\\), b) 10.</strong></p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
     "miniräknare": false,
@@ -38771,8 +38799,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Visa att diagonalerna i ett parallellogram halverar varandra med hjälp av koordinater.</p><p>Du får använda hörnen \\((0{,}0)\\), \\((a,0)\\), \\((a+b,c)\\), \\((b,c)\\).</p>",
-    "s": "<p>Mittpunkten på diagonalen mellan \\((0{,}0)\\) och \\((a+b,c)\\) är \\(((a+b)/2,c/2)\\).</p><p>Mittpunkten på diagonalen mellan \\((a,0)\\) och \\((b,c)\\) är också \\(((a+b)/2,c/2)\\).</p><p>Diagonalerna har alltså samma mittpunkt och halverar därför varandra.</p><p><strong>Satsen är visad.</strong></p>",
+    "t": "<p>Visa att diagonalerna i ett parallellogram halverar varandra med hjälp av koordinater.</p><p>Du får använda hörnen \\((0,\\,0)\\), \\((a,0)\\), \\((a+b,c)\\), \\((b,c)\\).</p>",
+    "s": "<p>Mittpunkten på diagonalen mellan \\((0,\\,0)\\) och \\((a+b,c)\\) är \\(((a+b)/2,c/2)\\).</p><p>Mittpunkten på diagonalen mellan \\((a,0)\\) och \\((b,c)\\) är också \\(((a+b)/2,c/2)\\).</p><p>Diagonalerna har alltså samma mittpunkt och halverar därför varandra.</p><p><strong>Satsen är visad.</strong></p>",
     "familj": "Förstå och genomföra geometriska bevis",
     "geogebra": false,
     "miniräknare": false,
@@ -38785,7 +38813,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Mittpunkten på diagonalen mellan \\((0{,}0)\\) och \\((a+b,c)\\) är \\(((a+b)/2,c/2)\\).</p>",
+    "ledtrad": "<p>Mittpunkten på diagonalen mellan \\((0,\\,0)\\) och \\((a+b,c)\\) är \\(((a+b)/2,c/2)\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": false,
@@ -38984,7 +39012,12 @@ window.BANKMA2 = [
     "ledtrad": "<p>a) En korda är en sträcka vars båda ändpunkter ligger på cirkelns rand.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      true,
+      true,
+      true
+    ]
   },
   {
     "id": "3.62",
@@ -39683,7 +39716,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Visa med koordinater att avståndet från \\((x,y)\\) till origo är \\(\\sqrt{x^2+y^2}\\).</p>",
-    "s": "<p>Punkten \\((x,y)\\), origo \\((0{,}0)\\) och projektionerna på axlarna bildar en rätvinklig triangel med kateter \\(|x|\\) och \\(|y|\\). Med Pythagoras blir avståndet \\(d\\) sådant att \\(d^2=x^2+y^2\\). Eftersom avstånd är positivt fås \\(d=\\sqrt{x^2+y^2}\\).</p><p><strong>Avståndsformeln är visad.</strong></p>",
+    "s": "<p>Punkten \\((x,y)\\), origo \\((0,\\,0)\\) och projektionerna på axlarna bildar en rätvinklig triangel med kateter \\(|x|\\) och \\(|y|\\). Med Pythagoras blir avståndet \\(d\\) sådant att \\(d^2=x^2+y^2\\). Eftersom avstånd är positivt fås \\(d=\\sqrt{x^2+y^2}\\).</p><p><strong>Avståndsformeln är visad.</strong></p>",
     "familj": "Förstå och genomföra geometriska bevis",
     "geogebra": false,
     "miniräknare": false,
@@ -40573,7 +40606,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Punkterna \\(A=(1{,}1)\\), \\(B=(7{,}1)\\) och \\(C=(7{,}5)\\) är tre hörn i en rektangel.</p><p>a) Bestäm det fjärde hörnet.<br>b) Bestäm rektangelns diagonal.</p>",
-    "s": "<p>a) Det fjärde hörnet är \\((1{,}5)\\).</p><p>b) Diagonalen har skillnaderna 6 och 4: \\(d=\\sqrt{36+16}=\\sqrt{52}=2\\sqrt{13}\\).</p><p><strong>a) \\((1{,}5)\\), b) \\(2\\sqrt{13}\\).</strong></p>",
+    "s": "<p>a) Det fjärde hörnet är \\((1,\\,5)\\).</p><p>b) Diagonalen har skillnaderna 6 och 4: \\(d=\\sqrt{36+16}=\\sqrt{52}=2\\sqrt{13}\\).</p><p><strong>a) \\((1,\\,5)\\), b) \\(2\\sqrt{13}\\).</strong></p>",
     "familj": "Koordinatgeometrisk problemlösning",
     "geogebra": false,
     "miniräknare": false,
@@ -42756,8 +42789,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm mittpunkten på sträckan mellan \\((-7{,}9)\\) och \\((5,-3)\\).</p>",
-    "s": "<p>Mittpunkten är \\(\\left(\\frac{-7+5}{2},\\frac{9-3}{2}\\right)=(-1{,}3)\\).</p><p><strong>\\((-1{,}3)\\).</strong></p>",
+    "t": "<p>Bestäm mittpunkten på sträckan mellan \\((-7,\\,9)\\) och \\((5,-3)\\).</p>",
+    "s": "<p>Mittpunkten är \\(\\left(\\frac{-7+5}{2},\\frac{9-3}{2}\\right)=(-1{,}3)\\).</p><p><strong>\\((-1,\\,3)\\).</strong></p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
     "miniräknare": false,
@@ -44207,7 +44240,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm mittpunkten mellan \\((1{,}2)\\) och \\((5{,}8)\\).</p>",
+    "t": "<p>Bestäm mittpunkten mellan \\((1,\\,2)\\) och \\((5,\\,8)\\).</p>",
     "s": "<p>Mittpunkten är \\(((1+5)/2,(2+8)/2)=(3{,}5)\\).</p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
@@ -44239,7 +44272,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm mittpunkten mellan \\((-3{,}4)\\) och \\((7,-2)\\).</p>",
+    "t": "<p>Bestäm mittpunkten mellan \\((-3,\\,4)\\) och \\((7,-2)\\).</p>",
     "s": "<p>Mittpunkten är \\(((-3+7)/2,(4-2)/2)=(2{,}1)\\).</p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
@@ -44271,7 +44304,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm mittpunkten mellan \\((0,-5)\\) och \\((8{,}3)\\).</p>",
+    "t": "<p>Bestäm mittpunkten mellan \\((0,-5)\\) och \\((8,\\,3)\\).</p>",
     "s": "<p>Mittpunkten är \\(((0+8)/2,(-5+3)/2)=(4,-1)\\).</p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
@@ -44303,7 +44336,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm mittpunkten mellan \\((-6,-2)\\) och \\((2{,}10)\\).</p>",
+    "t": "<p>Bestäm mittpunkten mellan \\((-6,-2)\\) och \\((2,\\,10)\\).</p>",
     "s": "<p>Mittpunkten är \\(((-6+2)/2,(-2+10)/2)=(-2{,}4)\\).</p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
@@ -44336,7 +44369,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Punkterna \\(A=(4{,}1)\\) och \\(B=(10{,}9)\\) är givna.</p><p>a)&nbsp;Bestäm mittpunkten \\(M\\).<br>b)&nbsp;Bestäm avståndet \\(AB\\).<br>c)&nbsp;Bestäm avståndet \\(AM\\) och kontrollera att det är hälften av \\(AB\\).</p>",
-    "s": "<p>a) \\(M=\\left(\\dfrac{4+10}{2},\\dfrac{1+9}{2}\\right)=(7{,}5)\\).</p><p>b) \\(AB=\\sqrt{(10-4)^2+(9-1)^2}=\\sqrt{36+64}=\\sqrt{100}=10\\).</p><p>c) \\(AM=\\sqrt{(7-4)^2+(5-1)^2}=\\sqrt{9+16}=5\\), vilket är hälften av 10.</p><p><strong>a) \\((7{,}5)\\) &nbsp; b) \\(10\\) l.e. &nbsp; c) \\(5\\) l.e., hälften av \\(AB\\)</strong></p>",
+    "s": "<p>a) \\(M=\\left(\\dfrac{4+10}{2},\\dfrac{1+9}{2}\\right)=(7{,}5)\\).</p><p>b) \\(AB=\\sqrt{(10-4)^2+(9-1)^2}=\\sqrt{36+64}=\\sqrt{100}=10\\).</p><p>c) \\(AM=\\sqrt{(7-4)^2+(5-1)^2}=\\sqrt{9+16}=5\\), vilket är hälften av 10.</p><p><strong>a) \\((7,\\,5)\\) &nbsp; b) \\(10\\) l.e. &nbsp; c) \\(5\\) l.e., hälften av \\(AB\\)</strong></p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
     "miniräknare": false,
@@ -44420,7 +44453,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm avståndet mellan punkterna \\((0{,}0)\\) och \\((3{,}4)\\).</p>",
+    "t": "<p>Bestäm avståndet mellan punkterna \\((0,\\,0)\\) och \\((3,\\,4)\\).</p>",
     "s": "<p>Avståndet är \\(\\sqrt{(3)^2+(4)^2}=5\\).</p><p><strong>Svar: 5</strong></p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
@@ -44449,7 +44482,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm avståndet mellan punkterna \\((1{,}2)\\) och \\((7{,}10)\\).</p>",
+    "t": "<p>Bestäm avståndet mellan punkterna \\((1,\\,2)\\) och \\((7,\\,10)\\).</p>",
     "s": "<p>Avståndet är \\(\\sqrt{(6)^2+(8)^2}=10\\).</p><p><strong>Svar: 10</strong></p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
@@ -44478,7 +44511,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm avståndet mellan punkterna \\((-2{,}1)\\) och \\((4{,}9)\\).</p>",
+    "t": "<p>Bestäm avståndet mellan punkterna \\((-2,\\,1)\\) och \\((4,\\,9)\\).</p>",
     "s": "<p>Avståndet är \\(\\sqrt{(6)^2+(8)^2}=10\\).</p><p><strong>Svar: 10</strong></p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
@@ -44507,7 +44540,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm avståndet mellan punkterna \\((3,-1)\\) och \\((8{,}11)\\).</p>",
+    "t": "<p>Bestäm avståndet mellan punkterna \\((3,-1)\\) och \\((8,\\,11)\\).</p>",
     "s": "<p>Avståndet är \\(\\sqrt{(5)^2+(12)^2}=13\\).</p><p><strong>Svar: 13</strong></p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
@@ -44820,7 +44853,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Vilket samband gäller för två randvinklar som spänner över samma båge?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "3.251",
@@ -46397,7 +46431,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Fyra mätvärden är 8, 10, 12 och \\(x\\). Medelvärdet ska vara 11.</p><p>Bestäm \\(x\\). Jämför sedan standardavvikelsen för de fyra värdena med standardavvikelsen för värdena 9, 10, 11, 12. Vilket material är mest samlat kring sitt medelvärde?</p>",
-    "s": "<p>Medelvärdet 11 ger</p><p>\\[\\frac{8+10+12+x}{4}=11\\Rightarrow x=14.\\]</p><p>Första materialets avvikelser från 11 är \\(-3,-1{,}1{,}3\\), vars kvadrater summerar till 20. Variansen är därför \\(20/4=5\\).</p><p>För materialet 9,10,11,12 är medelvärdet 10,5 och de kvadrerade avvikelserna summerar till 5. Variansen är \\(5/4=1{,}25\\).</p><p>Eftersom \\(1{,}25&lt;5\\) har det andra materialet mindre standardavvikelse och är mer samlat.</p><p><strong>\\(x=14\\); materialet 9,10,11,12 är mest samlat.</strong></p>",
+    "s": "<p>Medelvärdet 11 ger</p><p>\\[\\frac{8+10+12+x}{4}=11\\Rightarrow x=14.\\]</p><p>Första materialets avvikelser från 11 är \\(-3,\\,-1,\\,1,\\,3\\), vars kvadrater summerar till 20. Variansen är därför \\(20/4=5\\).</p><p>För materialet 9,10,11,12 är medelvärdet 10,5 och de kvadrerade avvikelserna summerar till 5. Variansen är \\(5/4=1{,}25\\).</p><p>Eftersom \\(1{,}25&lt;5\\) har det andra materialet mindre standardavvikelse och är mer samlat.</p><p><strong>\\(x=14\\); materialet 9,10,11,12 är mest samlat.</strong></p>",
     "familj": "Standardavvikelse",
     "geogebra": false,
     "miniräknare": false,
@@ -46461,7 +46495,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En normalfördelning har medelvärdet 64. Det är känt att ungefär 95,4 % av värdena ligger mellan 52 och 76.</p><p>Bestäm standardavvikelsen och ungefär hur stor andel som ligger över 76.</p>",
-    "s": "<p>95,4 % motsvarar ungefär intervallet \\(\\mu\\pm2\\sigma\\). Avståndet från 64 till en gräns är \\(76-64=12\\).</p><p>Alltså \\(2\\sigma=12\\), så</p><p><strong>\\(\\sigma=6\\).</strong></p>",
+    "s": "<p>95,4 % motsvarar ungefär intervallet \\(\\mu\\pm2\\sigma\\). Avståndet från 64 till en gräns är \\(76-64=12\\).</p><p>Alltså \\(2\\sigma=12\\), så \\(\\sigma=6\\).</p><p>Värdet 76 ligger alltså två standardavvikelser över medelvärdet. Ungefär 95,4 % ligger inom \\(\\mu\\pm2\\sigma\\), vilket lämnar 4,6 % utanför intervallet. På grund av symmetrin ligger hälften, alltså cirka 2,3 %, över 76.</p><p><strong>Standardavvikelsen är 6 och ungefär 2,3 % ligger över 76.</strong></p>",
     "familj": "Sannolikhet i normalfördelning",
     "geogebra": false,
     "miniräknare": false,
@@ -46819,7 +46853,7 @@ window.BANKMA2 = [
     "niva": "A",
     "poang": "0/0/3",
     "t": "<p>Två grupper har samma median, 50. Grupp A har medelvärdet 50 och grupp B har medelvärdet 62.</p><p>En person påstår därför att ”de flesta i grupp B måste ha högre värden än de flesta i grupp A”.</p><p>Visa med två möjliga datamaterial att slutsatsen inte behöver vara sann.</p>",
-    "s": "<p>Det räcker att konstruera motexempel.</p><p>Grupp A kan vara \\(40{,}45{,}50{,}55{,}60\\): median 50 och medelvärde 50.</p><p>Grupp B kan vara \\(1{,}2{,}50{,}57{,}200\\): median 50 och medelvärde \\(310/5=62\\).</p><p>I grupp B är två värden mycket låga och ett extremt högt värde drar upp medelvärdet. Man kan därför inte dra slutsatsen om ”de flesta” enbart från medelvärdet.</p><p><strong>Påståendet är inte logiskt nödvändigt.</strong></p>",
+    "s": "<p>Det räcker att konstruera motexempel.</p><p>Grupp A kan vara \\(40,\\,45,\\,50,\\,55,\\,60\\): median 50 och medelvärde 50.</p><p>Grupp B kan vara \\(1,\\,2,\\,50,\\,57,\\,200\\): median 50 och medelvärde \\(310/5=62\\).</p><p>I grupp B är två värden mycket låga och ett extremt högt värde drar upp medelvärdet. Man kan därför inte dra slutsatsen om ”de flesta” enbart från medelvärdet.</p><p><strong>Påståendet är inte logiskt nödvändigt.</strong></p>",
     "familj": "Lägesmått",
     "geogebra": false,
     "miniräknare": false,
@@ -47067,7 +47101,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Konstruera fem heltal med medelvärdet 10 och medianen 8, där minsta värdet är 2 och största 20.</p>",
-    "s": "<p>Vi behöver fem sorterade heltal med median 8, så det tredje talet ska vara 8.</p><p>Minsta och största ska vara 2 respektive 20. Ett exempel är</p><p>\\(2{,}5{,}8{,}15{,}20\\).</p><p>Summan är 50, så medelvärdet är \\(50/5=10\\).</p><p><strong>Exemplet uppfyller alla villkor.</strong></p>",
+    "s": "<p>Vi behöver fem sorterade heltal med median 8, så det tredje talet ska vara 8.</p><p>Minsta och största ska vara 2 respektive 20. Ett exempel är</p><p>\\(2,\\,5,\\,8,\\,15,\\,20\\).</p><p>Summan är 50, så medelvärdet är \\(50/5=10\\).</p><p><strong>Exemplet uppfyller alla villkor.</strong></p>",
     "familj": "Lägesmått",
     "geogebra": false,
     "miniräknare": false,
@@ -48468,7 +48502,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Ett datamaterial med sju heltalsvärden får följande lådagram före och efter att ett åttonde värde läggs till.</p><span class=\"fig smal\"><svg width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58.0\" y1=\"30\" x2=\"58.0\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"58.0\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">0</text><line x1=\"89.8\" y1=\"30\" x2=\"89.8\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"89.8\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">1</text><line x1=\"121.7\" y1=\"30\" x2=\"121.7\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"121.7\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">2</text><line x1=\"153.5\" y1=\"30\" x2=\"153.5\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"153.5\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">3</text><line x1=\"185.3\" y1=\"30\" x2=\"185.3\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"185.3\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">4</text><line x1=\"217.2\" y1=\"30\" x2=\"217.2\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"217.2\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">5</text><line x1=\"249.0\" y1=\"30\" x2=\"249.0\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"249.0\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">6</text><line x1=\"280.8\" y1=\"30\" x2=\"280.8\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"280.8\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">7</text><line x1=\"312.7\" y1=\"30\" x2=\"312.7\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"312.7\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">8</text><line x1=\"344.5\" y1=\"30\" x2=\"344.5\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"344.5\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">9</text><line x1=\"376.3\" y1=\"30\" x2=\"376.3\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"376.3\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">10</text><line x1=\"408.2\" y1=\"30\" x2=\"408.2\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"408.2\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">11</text><line x1=\"440.0\" y1=\"30\" x2=\"440.0\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"440.0\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">12</text><text x=\"18\" y=\"80\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">före</text><line x1=\"121.7\" y1=\"75\" x2=\"376.3\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"185.3\" y=\"53\" width=\"127.3\" height=\"44\" fill=\"#E8EEF7\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/><line x1=\"249.0\" y1=\"53\" x2=\"249.0\" y2=\"97\" stroke=\"#B43123\" stroke-width=\"2.4\"/><line x1=\"121.7\" y1=\"61\" x2=\"121.7\" y2=\"89\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"376.3\" y1=\"61\" x2=\"376.3\" y2=\"89\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><text x=\"18\" y=\"185\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">efter</text><line x1=\"121.7\" y1=\"180\" x2=\"440.0\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"185.3\" y=\"158\" width=\"159.2\" height=\"44\" fill=\"#E8EEF7\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/><line x1=\"249.0\" y1=\"158\" x2=\"249.0\" y2=\"202\" stroke=\"#B43123\" stroke-width=\"2.4\"/><line x1=\"121.7\" y1=\"166\" x2=\"121.7\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"440.0\" y1=\"166\" x2=\"440.0\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"2.2\"/></svg></span><p>Ge ett möjligt värde på den åttonde observationen och motivera att det kan ge förändringen i figuren.</p>",
-    "s": "<p>Ett möjligt ursprungsmaterial är \\(2{,}4{,}4{,}6{,}8{,}8{,}10\\), vilket ger min 2, median 6 och max 10 med kvartiler omkring 4 och 8.</p><p>Om värdet 12 läggs till blir max 12 och övre delen av materialet flyttas upp, vilket kan ge \\(Q_3=9\\) samtidigt som medianen ligger kvar vid 6.</p><p><strong>Ett möjligt åttonde värde är 12.</strong></p><p>Andra svar kan också vara möjliga om de motiveras med ett konkret datamaterial.</p>",
+    "s": "<p>Ett möjligt ursprungsmaterial är \\(2,\\,4,\\,4,\\,6,\\,8,\\,8,\\,10\\), vilket ger min 2, median 6 och max 10 med kvartiler omkring 4 och 8.</p><p>Om värdet 12 läggs till blir max 12 och övre delen av materialet flyttas upp, vilket kan ge \\(Q_3=9\\) samtidigt som medianen ligger kvar vid 6.</p><p><strong>Ett möjligt åttonde värde är 12.</strong></p><p>Andra svar kan också vara möjliga om de motiveras med ett konkret datamaterial.</p>",
     "familj": "Lådagram",
     "geogebra": false,
     "miniräknare": false,
@@ -48482,7 +48516,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Lådagram och spridning",
-    "ledtrad": "<p>Ett möjligt ursprungsmaterial är \\(2{,}4{,}4{,}6{,}8{,}8{,}10\\), vilket ger min 2, median 6 och max 10 med kvartiler omkring 4 och 8.</p>",
+    "ledtrad": "<p>Ett möjligt ursprungsmaterial är \\(2,\\,4,\\,4,\\,6,\\,8,\\,8,\\,10\\), vilket ger min 2, median 6 och max 10 med kvartiler omkring 4 och 8.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": false,
@@ -49075,7 +49109,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Lådagrammet har minsta värde 2, \\(Q_1=4\\), median 6, \\(Q_3=9\\) och största värde 11.</p><span class=\"fig smal\"><svg width=\"460\" height=\"180\" viewBox=\"0 0 460 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58.0\" y1=\"30\" x2=\"58.0\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"58.0\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">0</text><line x1=\"89.8\" y1=\"30\" x2=\"89.8\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"89.8\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">1</text><line x1=\"121.7\" y1=\"30\" x2=\"121.7\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"121.7\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">2</text><line x1=\"153.5\" y1=\"30\" x2=\"153.5\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"153.5\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">3</text><line x1=\"185.3\" y1=\"30\" x2=\"185.3\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"185.3\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">4</text><line x1=\"217.2\" y1=\"30\" x2=\"217.2\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"217.2\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">5</text><line x1=\"249.0\" y1=\"30\" x2=\"249.0\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"249.0\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">6</text><line x1=\"280.8\" y1=\"30\" x2=\"280.8\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"280.8\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">7</text><line x1=\"312.7\" y1=\"30\" x2=\"312.7\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"312.7\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">8</text><line x1=\"344.5\" y1=\"30\" x2=\"344.5\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"344.5\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">9</text><line x1=\"376.3\" y1=\"30\" x2=\"376.3\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"376.3\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">10</text><line x1=\"408.2\" y1=\"30\" x2=\"408.2\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"408.2\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">11</text><line x1=\"440.0\" y1=\"30\" x2=\"440.0\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"440.0\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">12</text><line x1=\"121.7\" y1=\"75\" x2=\"408.2\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"185.3\" y=\"53\" width=\"159.2\" height=\"44\" fill=\"#E8EEF7\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/><line x1=\"249.0\" y1=\"53\" x2=\"249.0\" y2=\"97\" stroke=\"#B43123\" stroke-width=\"2.4\"/><line x1=\"121.7\" y1=\"61\" x2=\"121.7\" y2=\"89\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"408.2\" y1=\"61\" x2=\"408.2\" y2=\"89\" stroke=\"#2B2527\" stroke-width=\"2.2\"/></svg></span><p>Konstruera ett möjligt sorterat datamaterial med nio heltalsvärden som ger dessa fem värden.</p>",
-    "s": "<p>Med nio värden är det femte värdet medianen, alltså 6.</p><p>För de fyra första ska medianen vara 4; för de fyra sista ska medianen vara 9.</p><p>Ett möjligt material är</p><p>\\(2{,}3{,}5{,}5{,}6{,}8{,}10{,}10{,}11\\).</p><p>Första kvartilen är \\((3+5)/2=4\\) och tredje kvartilen är \\((8+10)/2=9\\).</p><p><strong>Detta är ett möjligt svar.</strong></p>",
+    "s": "<p>Med nio värden är det femte värdet medianen, alltså 6.</p><p>För de fyra första ska medianen vara 4; för de fyra sista ska medianen vara 9.</p><p>Ett möjligt material är</p><p>\\(2,\\,3,\\,5,\\,5,\\,6,\\,8,\\,10,\\,10,\\,11\\).</p><p>Första kvartilen är \\((3+5)/2=4\\) och tredje kvartilen är \\((8+10)/2=9\\).</p><p><strong>Detta är ett möjligt svar.</strong></p>",
     "familj": "Lådagram",
     "geogebra": false,
     "miniräknare": false,
@@ -49872,7 +49906,12 @@ window.BANKMA2 = [
     "ledtrad": "<p>Rita normalfördelningen och markera det område som motsvarar sannolikheten. Standardisera med \\(z=(x-\\mu)/\\sigma\\) eller använd digital normalfördelningsfunktion med rätt gränser.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ]
   },
   {
     "id": "4.107",
@@ -50474,7 +50513,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>15 minuter är en standardavvikelse över medelvärdet eftersom \\(15=12+3\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "4.125",
@@ -51013,7 +51053,11 @@ window.BANKMA2 = [
     "ledtrad": "<p>Men 20 ligger långt utanför mätområdet 0–8, så detta är prognos långt utanför mätintervallet och osäkert.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true
+    ]
   },
   {
     "id": "4.141",
@@ -51026,7 +51070,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Mätpunkterna är</p><p>\\[(1{,}3),\\ (2{,}5),\\ (3{,}7),\\ (4{,}9),\\ (5{,}20).\\]</p><p>a) Bestäm en linjär regressionsmodell för alla fem punkter.</p><p>b) Bestäm en linjär regressionsmodell om den sista mätpunkten inte tas med.</p><p>c) Förklara vad jämförelsen visar om hur en mätpunkt som ligger långt från de övriga kan påverka en regressionslinje.</p>",
-    "s": "<p>a) Med alla fem punkter ger GeoGebra ungefär \\(y=3{,}8x-2{,}6\\).</p><p>b) För de fyra första punkterna ligger punkterna exakt på linjen \\(y=2x+1\\).</p><p>c) Punkten \\((5{,}20)\\) ligger långt från det mönster som de första fyra punkterna följer. När den tas med ändras både riktningskoefficienten och skärningen med \\(y\\)-axeln tydligt.</p><p><strong>En enstaka mätpunkt som avviker mycket kan därför påverka den linjära regressionsmodellen kraftigt.</strong></p>",
+    "s": "<p>a) Med alla fem punkter ger GeoGebra ungefär \\(y=3{,}8x-2{,}6\\).</p><p>b) För de fyra första punkterna ligger punkterna exakt på linjen \\(y=2x+1\\).</p><p>c) Punkten \\((5,\\,20)\\) ligger långt från det mönster som de första fyra punkterna följer. När den tas med ändras både riktningskoefficienten och skärningen med \\(y\\)-axeln tydligt.</p><p><strong>En enstaka mätpunkt som avviker mycket kan därför påverka den linjära regressionsmodellen kraftigt.</strong></p>",
     "familj": "Linjär regression och prognoser",
     "geogebra": true,
     "miniräknare": true,
@@ -51121,7 +51165,11 @@ window.BANKMA2 = [
     "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      true,
+      false
+    ]
   },
   {
     "id": "4.144",
@@ -51166,7 +51214,11 @@ window.BANKMA2 = [
     "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true
+    ]
   },
   {
     "id": "4.145",
@@ -51479,7 +51531,12 @@ window.BANKMA2 = [
     "ledtrad": "<p>Rita normalfördelningen och markera det område som motsvarar sannolikheten. Standardisera med \\(z=(x-\\mu)/\\sigma\\) eller använd digital normalfördelningsfunktion med rätt gränser.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true,
+      false
+    ]
   },
   {
     "id": "4.154",
@@ -51888,7 +51945,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Ett datamaterial har minsta värde 2, \\(Q_1=5\\), median 8, \\(Q_3=11\\) och största värde 18.</p><p>Konstruera ett möjligt sorterat datamaterial med 9 heltalsvärden som ger detta lådagram.</p>",
-    "s": "<p>Med 9 värden är det femte värdet medianen, alltså 8.</p><p>Välj till exempel värden så att medianen av de fyra första blir 5 och medianen av de fyra sista blir 11.</p><p>Ett möjligt material är</p><p>\\(2{,}4{,}6{,}7{,}8{,}10{,}12{,}14{,}18\\).</p><p>Första kvartilen blir \\((4+6)/2=5\\) och tredje kvartilen \\((10+12)/2=11\\).</p><p><strong>Detta är ett möjligt svar.</strong></p>",
+    "s": "<p>Med 9 värden är det femte värdet medianen, alltså 8.</p><p>Välj till exempel värden så att medianen av de fyra första blir 5 och medianen av de fyra sista blir 11.</p><p>Ett möjligt material är</p><p>\\(2,\\,4,\\,6,\\,7,\\,8,\\,10,\\,12,\\,14,\\,18\\).</p><p>Första kvartilen blir \\((4+6)/2=5\\) och tredje kvartilen \\((10+12)/2=11\\).</p><p><strong>Detta är ett möjligt svar.</strong></p>",
     "familj": "Lådagram",
     "geogebra": false,
     "miniräknare": false,
@@ -53614,7 +53671,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Hur långt från 20 ligger värdena i respektive material?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "4.217",
@@ -53707,7 +53765,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Standardavvikelsen kan inte vara negativ. Vad händer med avstånden?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "4.220",
@@ -54064,7 +54123,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Vilket värde får y om du sätter \\(x=0\\)?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "4.231",
@@ -54115,7 +54175,12 @@ window.BANKMA2 = [
     ],
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      true,
+      true,
+      false
+    ]
   },
   {
     "id": "4.232",
@@ -54271,7 +54336,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>För en regressionsmodell \\(y=kx+m\\) gäller att \\(y=25\\) när \\(x=2\\) och \\(y=40\\) när \\(x=5\\). Bestäm modellen.</p>",
-    "s": "<p>Punkterna \\((2{,}25)\\) och \\((5{,}40)\\) ligger på regressionslinjen. Riktningskoefficienten blir</p><p>\\[k=\\frac{40-25}{5-2}=5.\\]</p><p>Sätt in \\((2{,}25)\\): \\(25=5\\cdot2+m\\), alltså \\(m=15\\).</p><p><strong>Modellen är \\(y=5x+15\\).</strong></p>",
+    "s": "<p>Punkterna \\((2,\\,25)\\) och \\((5,\\,40)\\) ligger på regressionslinjen. Riktningskoefficienten blir</p><p>\\[k=\\frac{40-25}{5-2}=5.\\]</p><p>Sätt in \\((2,\\,25)\\): \\(25=5\\cdot2+m\\), alltså \\(m=15\\).</p><p><strong>Modellen är \\(y=5x+15\\).</strong></p>",
     "familj": "Linjär regression och prognoser",
     "geogebra": false,
     "miniräknare": false,
@@ -55082,7 +55147,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -3,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55110,7 +55175,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "svarstyp": "text",
     "rättSvar": "interpolation",
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -55962,7 +56027,7 @@ window.BANKMA2 = [
       "modellering"
     ],
     "ledtrad": "<p>Isolera först potensen \\(1{,}05^t\\). Ta sedan logaritmen av båda led.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -56107,7 +56172,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En marknadsavdelning jämför reklamkostnad \\(x\\) (tusen kr) med antal nya kunder \\(y\\).</p><table class=\"data\"><tr><th>\\(x\\)</th><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td></tr><tr><th>\\(y\\)</th><td>125</td><td>143</td><td>162</td><td>181</td><td>201</td></tr></table><p>a) Bestäm korrelationskoefficienten med GeoGebra.</p><p>En sjätte kampanj hade \\(x=18\\) och \\(y=150\\).</p><p>b) Bestäm korrelationskoefficienten när även den kampanjen tas med.</p><p>c) Förklara vad jämförelsen visar om hur en avvikande datapunkt kan påverka korrelationskoefficienten.</p>",
-    "s": "<p>a) För de fem första kampanjerna blir \\(r\\approx1{,}00\\), alltså ett mycket starkt positivt linjärt samband.</p><p>b) När punkten \\((18{,}150)\\) tas med blir \\(r\\approx0{,}62\\).</p><p>c) Den sjätte punkten ligger långt från det mönster som de övriga punkterna följer. Därför minskar korrelationskoefficienten tydligt.</p><p><strong>En enda punkt som ligger tydligt utanför det övriga mönstret kan alltså förändra den uppmätta korrelationen mycket.</strong></p>",
+    "s": "<p>a) För de fem första kampanjerna blir \\(r\\approx1{,}00\\), alltså ett mycket starkt positivt linjärt samband.</p><p>b) När punkten \\((18,\\,150)\\) tas med blir \\(r\\approx0{,}62\\).</p><p>c) Den sjätte punkten ligger långt från det mönster som de övriga punkterna följer. Därför minskar korrelationskoefficienten tydligt.</p><p><strong>En enda punkt som ligger tydligt utanför det övriga mönstret kan alltså förändra den uppmätta korrelationen mycket.</strong></p>",
     "familj": "Tolka korrelationskoefficient",
     "geogebra": true,
     "miniräknare": true,
@@ -56874,7 +56939,7 @@ window.BANKMA2 = [
       "modellering"
     ],
     "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om den okända storheten ligger i exponenten behöver du antingen kunna skriva om till samma bas eller använda logaritmer/digitalt verktyg.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "manuellKomplettering": false,
@@ -57116,7 +57181,11 @@ window.BANKMA2 = [
     "ledtrad": "<p>Låt variablerna stå för de två okända mängderna. Skriv en ekvation för totalen och en för det andra oberoende villkoret innan du löser systemet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      true,
+      false
+    ]
   },
   {
     "id": "5.37",
@@ -57674,7 +57743,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>På en förenklad planritning mäts koordinaterna i meter. Ett hjälpmedelsförråd ligger i \\(F(2{,}1)\\) och teamrummet i \\(T(10{,}7)\\).</p><span class=\"fig smal\"><svg width=\"520\" height=\"390\" viewBox=\"0 0 520 390\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Förenklad planritning i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"388\" rx=\"12\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"70\" y1=\"48\" x2=\"70\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"70\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">0</text><line x1=\"108\" y1=\"48\" x2=\"108\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"108\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">1</text><line x1=\"146\" y1=\"48\" x2=\"146\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"146\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">2</text><line x1=\"184\" y1=\"48\" x2=\"184\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"184\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">3</text><line x1=\"222\" y1=\"48\" x2=\"222\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"222\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">4</text><line x1=\"260\" y1=\"48\" x2=\"260\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"260\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">5</text><line x1=\"298\" y1=\"48\" x2=\"298\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"298\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">6</text><line x1=\"336\" y1=\"48\" x2=\"336\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"336\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">7</text><line x1=\"374\" y1=\"48\" x2=\"374\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"374\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">8</text><line x1=\"412\" y1=\"48\" x2=\"412\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"412\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">9</text><line x1=\"450\" y1=\"48\" x2=\"450\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"450\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">10</text><line x1=\"70\" y1=\"320\" x2=\"450\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><line x1=\"70\" y1=\"286\" x2=\"450\" y2=\"286\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"290\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">1</text><line x1=\"70\" y1=\"252\" x2=\"450\" y2=\"252\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"256\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">2</text><line x1=\"70\" y1=\"218\" x2=\"450\" y2=\"218\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"222\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">3</text><line x1=\"70\" y1=\"184\" x2=\"450\" y2=\"184\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"188\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">4</text><line x1=\"70\" y1=\"150\" x2=\"450\" y2=\"150\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">5</text><line x1=\"70\" y1=\"116\" x2=\"450\" y2=\"116\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">6</text><line x1=\"70\" y1=\"82\" x2=\"450\" y2=\"82\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">7</text><line x1=\"70\" y1=\"48\" x2=\"450\" y2=\"48\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"52\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">8</text><line x1=\"70\" y1=\"320\" x2=\"462\" y2=\"320\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"70\" y1=\"320\" x2=\"70\" y2=\"36\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"146\" cy=\"286\" r=\"5\" fill=\"#2C62A8\"/><text x=\"156\" y=\"276\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">F (Förråd)</text><circle cx=\"450\" cy=\"82\" r=\"5\" fill=\"#2C62A8\"/><text x=\"440\" y=\"72\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">T (Teamrum)</text></svg></span><p>a) Bestäm avståndet \\(FT\\).</p><p>b) Bestäm mittpunkten mellan F och T. Den punkten används som ett förslag på en central placering av en informationsstation.</p>",
-    "s": "<p>a) Avståndet är</p><p>\\(FT=\\sqrt{(10-2)^2+(7-1)^2}=\\sqrt{64+36}=10\\) m.</p><p>b) Mittpunkten är</p><p>\\(\\left(\\frac{2+10}{2},\\frac{1+7}{2}\\right)=(6{,}4)\\).</p><p><strong>Avståndet är 10 m och mittpunkten är \\((6{,}4)\\).</strong></p>",
+    "s": "<p>a) Avståndet är</p><p>\\(FT=\\sqrt{(10-2)^2+(7-1)^2}=\\sqrt{64+36}=10\\) m.</p><p>b) Mittpunkten är</p><p>\\(\\left(\\frac{2+10}{2},\\frac{1+7}{2}\\right)=(6{,}4)\\).</p><p><strong>Avståndet är 10 m och mittpunkten är \\((6,\\,4)\\).</strong></p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
     "miniräknare": false,
@@ -57906,7 +57975,12 @@ window.BANKMA2 = [
     "ledtrad": "<p>Översätt villkoren till en andragradsfunktion. Välj sedan faktorform, symmetri eller olikhetsanalys beroende på om frågan gäller nollställen, maximum/minimum eller ett intervall.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ]
   },
   {
     "id": "5.57",
@@ -59200,7 +59274,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En fastighetstekniker använder en förenklad linjär modell för framledningstemperaturen i ett värmesystem. När utomhustemperaturen är \\(-15\\ ^\\circ\\mathrm{C}\\) ska framledningstemperaturen vara \\(55\\ ^\\circ\\mathrm{C}\\), och när utomhustemperaturen är \\(5\\ ^\\circ\\mathrm{C}\\) ska den vara \\(35\\ ^\\circ\\mathrm{C}\\).</p><ol><li>Bestäm den linjära funktionen \\(T(x)=kx+m\\).</li><li>Bestäm framledningstemperaturen enligt modellen när det är \\(-7\\ ^\\circ\\mathrm{C}\\) ute.</li></ol>",
-    "s": "<p>Riktningskoefficienten bestäms av de två kända punkterna: \\[k=\\frac{35-55}{5-(-15)}=\\frac{-20}{20}=-1.\\]</p><p>Sätt in exempelvis punkten \\((-15{,}55)\\): \\[55=-1\\cdot(-15)+m\\Rightarrow m=40.\\]</p><p>Modellen är alltså \\[\\boxed{T(x)=-x+40}.\\]</p><p>Vid \\(x=-7\\) blir \\[T(-7)=47.\\] <strong>Svar: \\(47\\ ^\\circ\\mathrm{C}\\).</strong></p>",
+    "s": "<p>Riktningskoefficienten bestäms av de två kända punkterna: \\[k=\\frac{35-55}{5-(-15)}=\\frac{-20}{20}=-1.\\]</p><p>Sätt in exempelvis punkten \\((-15,\\,55)\\): \\[55=-1\\cdot(-15)+m\\Rightarrow m=40.\\]</p><p>Modellen är alltså \\[\\boxed{T(x)=-x+40}.\\]</p><p>Vid \\(x=-7\\) blir \\[T(-7)=47.\\] <strong>Svar: \\(47\\ ^\\circ\\mathrm{C}\\).</strong></p>",
     "familj": "Växla mellan graf, tabell, formel och situation för linjära funktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -59888,7 +59962,7 @@ window.BANKMA2 = [
       "modellering"
     ],
     "ledtrad": "<p>Identifiera startvärdet och förändringsfaktorn. Om den okända storheten ligger i exponenten: isolera exponentialtermen och avgör sedan om exponenten kan avläsas exakt eller om logaritmer behövs.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "svarFormat": "numeriskt",
     "spel": true
@@ -59991,7 +60065,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två mötesplatser på en karta har koordinaterna \\(A=(2{,}4)\\) och \\(B=(10{,}8)\\).</p><p>Bestäm mittpunkten på sträckan \\(AB\\).</p>",
-    "s": "<p>Mittpunkten fås genom medelvärdet av koordinaterna. Avståndet fås från skillnaderna i x- och y-led med Pythagoras sats.</p><p>Mittpunktsformeln ger</p><p>\\[M=\\left(\\frac{2+10}{2},\\frac{4+8}{2}\\right)=(6{,}6).\\]</p><p><strong>Mittpunkten är \\((6{,}6)\\).</strong></p>",
+    "s": "<p>Mittpunkten fås genom medelvärdet av koordinaterna. Avståndet fås från skillnaderna i x- och y-led med Pythagoras sats.</p><p>Mittpunktsformeln ger</p><p>\\[M=\\left(\\frac{2+10}{2},\\frac{4+8}{2}\\right)=(6{,}6).\\]</p><p><strong>Mittpunkten är \\((6,\\,6)\\).</strong></p>",
     "familj": "Avstånd och mittpunkt i koordinatsystem",
     "geogebra": false,
     "miniräknare": false,
@@ -60726,8 +60800,8 @@ window.BANKMA2 = [
     ],
     "niva": "A",
     "poang": "0/0/3",
-    "t": "<p>Tre linjer i samma koordinatsystem ges av</p><p>\\[L_1:\\ y=2x-1\\qquad L_2:\\ y=-x+5\\qquad L_3:\\ y=ax+3\\]</p><p>Figuren visar \\(L_1\\) och \\(L_2\\) samt några lägen för \\(L_3\\), som alltid går genom punkten \\((0{,}3)\\).</p><span class=\"fig smal\"><svg width=\"440\" height=\"340\" viewBox=\"0 0 440 340\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två linjer som skär varandra i punkten (2,3)\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"308\" x2=\"44\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"90.75\" y1=\"308\" x2=\"90.75\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"137.5\" y1=\"308\" x2=\"137.5\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"184.25\" y1=\"308\" x2=\"184.25\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"231\" y1=\"308\" x2=\"231\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"277.75\" y1=\"308\" x2=\"277.75\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"324.5\" y1=\"308\" x2=\"324.5\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"371.25\" y1=\"308\" x2=\"371.25\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"418\" y1=\"308\" x2=\"418\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"308\" x2=\"418\" y2=\"308\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"285.85\" x2=\"418\" y2=\"285.85\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"263.69\" x2=\"418\" y2=\"263.69\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"241.54\" x2=\"418\" y2=\"241.54\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"219.38\" x2=\"418\" y2=\"219.38\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"197.23\" x2=\"418\" y2=\"197.23\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"175.08\" x2=\"418\" y2=\"175.08\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"152.92\" x2=\"418\" y2=\"152.92\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"130.77\" x2=\"418\" y2=\"130.77\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"108.62\" x2=\"418\" y2=\"108.62\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"86.46\" x2=\"418\" y2=\"86.46\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"64.31\" x2=\"418\" y2=\"64.31\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"42.15\" x2=\"418\" y2=\"42.15\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"20\" x2=\"418\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"219.38\" x2=\"418\" y2=\"219.38\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"137.5\" y1=\"308\" x2=\"137.5\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"44\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"90.75\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"184.25\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"231\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"277.75\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"324.5\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"371.25\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"418\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"129.5\" y=\"311.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"129.5\" y=\"267.19\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"129.5\" y=\"178.58\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"129.5\" y=\"134.27\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"129.5\" y=\"89.96\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"129.5\" y=\"45.65\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"418\" y=\"210.38\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">x</text><text x=\"145.5\" y=\"30\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">y</text><path d=\"M 57.09 317.75 L 58.96 315.98 L 60.83 314.2 L 62.7 312.43 L 64.57 310.66 L 66.44 308.89 L 68.31 307.11 L 70.18 305.34 L 72.05 303.57 L 73.92 301.8 L 75.79 300.02 L 77.66 298.25 L 79.53 296.48 L 81.4 294.71 L 83.27 292.94 L 85.14 291.16 L 87.01 289.39 L 88.88 287.62 L 90.75 285.85 L 92.62 284.07 L 94.49 282.3 L 96.36 280.53 L 98.23 278.76 L 100.1 276.98 L 101.97 275.21 L 103.84 273.44 L 105.71 271.67 L 107.58 269.9 L 109.45 268.12 L 111.32 266.35 L 113.19 264.58 L 115.06 262.81 L 116.93 261.03 L 118.8 259.26 L 120.67 257.49 L 122.54 255.72 L 124.41 253.94 L 126.28 252.17 L 128.15 250.4 L 130.02 248.63 L 131.89 246.86 L 133.76 245.08 L 135.63 243.31 L 137.5 241.54 L 139.37 239.77 L 141.24 237.99 L 143.11 236.22 L 144.98 234.45 L 146.85 232.68 L 148.72 230.9 L 150.59 229.13 L 152.46 227.36 L 154.33 225.59 L 156.2 223.82 L 158.07 222.04 L 159.94 220.27 L 161.81 218.5 L 163.68 216.73 L 165.55 214.95 L 167.42 213.18 L 169.29 211.41 L 171.16 209.64 L 173.03 207.86 L 174.9 206.09 L 176.77 204.32 L 178.64 202.55 L 180.51 200.78 L 182.38 199 L 184.25 197.23 L 186.12 195.46 L 187.99 193.69 L 189.86 191.91 L 191.73 190.14 L 193.6 188.37 L 195.47 186.6 L 197.34 184.82 L 199.21 183.05 L 201.08 181.28 L 202.95 179.51 L 204.82 177.74 L 206.69 175.96 L 208.56 174.19 L 210.43 172.42 L 212.3 170.65 L 214.17 168.87 L 216.04 167.1 L 217.91 165.33 L 219.78 163.56 L 221.65 161.78 L 223.52 160.01 L 225.39 158.24 L 227.26 156.47 L 229.13 154.7 L 231 152.92 L 232.87 151.15 L 234.74 149.38 L 236.61 147.61 L 238.48 145.83 L 240.35 144.06 L 242.22 142.29 L 244.09 140.52 L 245.96 138.74 L 247.83 136.97 L 249.7 135.2 L 251.57 133.43 L 253.44 131.66 L 255.31 129.88 L 257.18 128.11 L 259.05 126.34 L 260.92 124.57 L 262.79 122.79 L 264.66 121.02 L 266.53 119.25 L 268.4 117.48 L 270.27 115.7 L 272.14 113.93 L 274.01 112.16 L 275.88 110.39 L 277.75 108.62 L 279.62 106.84 L 281.49 105.07 L 283.36 103.3 L 285.23 101.53 L 287.1 99.75 L 288.97 97.98 L 290.84 96.21 L 292.71 94.44 L 294.58 92.66 L 296.45 90.89 L 298.32 89.12 L 300.19 87.35 L 302.06 85.58 L 303.93 83.8 L 305.8 82.03 L 307.67 80.26 L 309.54 78.49 L 311.41 76.71 L 313.28 74.94 L 315.15 73.17 L 317.02 71.4 L 318.89 69.62 L 320.76 67.85 L 322.63 66.08 L 324.5 64.31 L 326.37 62.54 L 328.24 60.76 L 330.11 58.99 L 331.98 57.22 L 333.85 55.45 L 335.72 53.67 L 337.59 51.9 L 339.46 50.13 L 341.33 48.36 L 343.2 46.58 L 345.07 44.81 L 346.94 43.04 L 348.81 41.27 L 350.68 39.5 L 352.55 37.72 L 354.42 35.95 L 356.29 34.18 L 358.16 32.41 L 360.03 30.63 L 361.9 28.86 L 363.77 27.09 L 365.64 25.32 L 367.51 23.54 L 369.38 21.77 L 371.25 20 L 373.12 18.23 L 374.99 16.46 L 376.86 14.68 L 378.73 12.91 L 380.6 11.14 L 382.47 9.37\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 44 64.31 L 45.87 65.19 L 47.74 66.08 L 49.61 66.97 L 51.48 67.85 L 53.35 68.74 L 55.22 69.62 L 57.09 70.51 L 58.96 71.4 L 60.83 72.28 L 62.7 73.17 L 64.57 74.06 L 66.44 74.94 L 68.31 75.83 L 70.18 76.71 L 72.05 77.6 L 73.92 78.49 L 75.79 79.37 L 77.66 80.26 L 79.53 81.14 L 81.4 82.03 L 83.27 82.92 L 85.14 83.8 L 87.01 84.69 L 88.88 85.58 L 90.75 86.46 L 92.62 87.35 L 94.49 88.23 L 96.36 89.12 L 98.23 90.01 L 100.1 90.89 L 101.97 91.78 L 103.84 92.66 L 105.71 93.55 L 107.58 94.44 L 109.45 95.32 L 111.32 96.21 L 113.19 97.1 L 115.06 97.98 L 116.93 98.87 L 118.8 99.75 L 120.67 100.64 L 122.54 101.53 L 124.41 102.41 L 126.28 103.3 L 128.15 104.18 L 130.02 105.07 L 131.89 105.96 L 133.76 106.84 L 135.63 107.73 L 137.5 108.62 L 139.37 109.5 L 141.24 110.39 L 143.11 111.27 L 144.98 112.16 L 146.85 113.05 L 148.72 113.93 L 150.59 114.82 L 152.46 115.7 L 154.33 116.59 L 156.2 117.48 L 158.07 118.36 L 159.94 119.25 L 161.81 120.14 L 163.68 121.02 L 165.55 121.91 L 167.42 122.79 L 169.29 123.68 L 171.16 124.57 L 173.03 125.45 L 174.9 126.34 L 176.77 127.22 L 178.64 128.11 L 180.51 129 L 182.38 129.88 L 184.25 130.77 L 186.12 131.66 L 187.99 132.54 L 189.86 133.43 L 191.73 134.31 L 193.6 135.2 L 195.47 136.09 L 197.34 136.97 L 199.21 137.86 L 201.08 138.74 L 202.95 139.63 L 204.82 140.52 L 206.69 141.4 L 208.56 142.29 L 210.43 143.18 L 212.3 144.06 L 214.17 144.95 L 216.04 145.83 L 217.91 146.72 L 219.78 147.61 L 221.65 148.49 L 223.52 149.38 L 225.39 150.26 L 227.26 151.15 L 229.13 152.04 L 231 152.92 L 232.87 153.81 L 234.74 154.7 L 236.61 155.58 L 238.48 156.47 L 240.35 157.35 L 242.22 158.24 L 244.09 159.13 L 245.96 160.01 L 247.83 160.9 L 249.7 161.78 L 251.57 162.67 L 253.44 163.56 L 255.31 164.44 L 257.18 165.33 L 259.05 166.22 L 260.92 167.1 L 262.79 167.99 L 264.66 168.87 L 266.53 169.76 L 268.4 170.65 L 270.27 171.53 L 272.14 172.42 L 274.01 173.3 L 275.88 174.19 L 277.75 175.08 L 279.62 175.96 L 281.49 176.85 L 283.36 177.74 L 285.23 178.62 L 287.1 179.51 L 288.97 180.39 L 290.84 181.28 L 292.71 182.17 L 294.58 183.05 L 296.45 183.94 L 298.32 184.82 L 300.19 185.71 L 302.06 186.6 L 303.93 187.48 L 305.8 188.37 L 307.67 189.26 L 309.54 190.14 L 311.41 191.03 L 313.28 191.91 L 315.15 192.8 L 317.02 193.69 L 318.89 194.57 L 320.76 195.46 L 322.63 196.34 L 324.5 197.23 L 326.37 198.12 L 328.24 199 L 330.11 199.89 L 331.98 200.78 L 333.85 201.66 L 335.72 202.55 L 337.59 203.43 L 339.46 204.32 L 341.33 205.21 L 343.2 206.09 L 345.07 206.98 L 346.94 207.86 L 348.81 208.75 L 350.68 209.64 L 352.55 210.52 L 354.42 211.41 L 356.29 212.3 L 358.16 213.18 L 360.03 214.07 L 361.9 214.95 L 363.77 215.84 L 365.64 216.73 L 367.51 217.61 L 369.38 218.5 L 371.25 219.38 L 373.12 220.27 L 374.99 221.16 L 376.86 222.04 L 378.73 222.93 L 380.6 223.82 L 382.47 224.7 L 384.34 225.59 L 386.21 226.47 L 388.08 227.36 L 389.95 228.25 L 391.82 229.13 L 393.69 230.02 L 395.56 230.9 L 397.43 231.79 L 399.3 232.68 L 401.17 233.56 L 403.04 234.45 L 404.91 235.34 L 406.78 236.22 L 408.65 237.11 L 410.52 237.99 L 412.39 238.88 L 414.26 239.77 L 416.13 240.65 L 418 241.54\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"231\" cy=\"152.92\" r=\"5\" fill=\"#2B2527\"/><text x=\"240\" y=\"167.92\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">(2 ; 3)</text><text x=\"343.2\" y=\"46.58\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2A5D9E\">L₁</text><text x=\"62.7\" y=\"48.8\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">L₂</text><circle cx=\"137.5\" cy=\"152.92\" r=\"4\" fill=\"#5C575E\"/><text x=\"127.5\" y=\"138.92\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">(0 ; 3)</text><path d=\"M 44 108.62 L 45.87 109.5 L 47.74 110.39 L 49.61 111.27 L 51.48 112.16 L 53.35 113.05 L 55.22 113.93 L 57.09 114.82 L 58.96 115.7 L 60.83 116.59 L 62.7 117.48 L 64.57 118.36 L 66.44 119.25 L 68.31 120.14 L 70.18 121.02 L 72.05 121.91 L 73.92 122.79 L 75.79 123.68 L 77.66 124.57 L 79.53 125.45 L 81.4 126.34 L 83.27 127.22 L 85.14 128.11 L 87.01 129 L 88.88 129.88 L 90.75 130.77 L 92.62 131.66 L 94.49 132.54 L 96.36 133.43 L 98.23 134.31 L 100.1 135.2 L 101.97 136.09 L 103.84 136.97 L 105.71 137.86 L 107.58 138.74 L 109.45 139.63 L 111.32 140.52 L 113.19 141.4 L 115.06 142.29 L 116.93 143.18 L 118.8 144.06 L 120.67 144.95 L 122.54 145.83 L 124.41 146.72 L 126.28 147.61 L 128.15 148.49 L 130.02 149.38 L 131.89 150.26 L 133.76 151.15 L 135.63 152.04 L 137.5 152.92 L 139.37 153.81 L 141.24 154.7 L 143.11 155.58 L 144.98 156.47 L 146.85 157.35 L 148.72 158.24 L 150.59 159.13 L 152.46 160.01 L 154.33 160.9 L 156.2 161.78 L 158.07 162.67 L 159.94 163.56 L 161.81 164.44 L 163.68 165.33 L 165.55 166.22 L 167.42 167.1 L 169.29 167.99 L 171.16 168.87 L 173.03 169.76 L 174.9 170.65 L 176.77 171.53 L 178.64 172.42 L 180.51 173.3 L 182.38 174.19 L 184.25 175.08 L 186.12 175.96 L 187.99 176.85 L 189.86 177.74 L 191.73 178.62 L 193.6 179.51 L 195.47 180.39 L 197.34 181.28 L 199.21 182.17 L 201.08 183.05 L 202.95 183.94 L 204.82 184.82 L 206.69 185.71 L 208.56 186.6 L 210.43 187.48 L 212.3 188.37 L 214.17 189.26 L 216.04 190.14 L 217.91 191.03 L 219.78 191.91 L 221.65 192.8 L 223.52 193.69 L 225.39 194.57 L 227.26 195.46 L 229.13 196.34 L 231 197.23 L 232.87 198.12 L 234.74 199 L 236.61 199.89 L 238.48 200.78 L 240.35 201.66 L 242.22 202.55 L 244.09 203.43 L 245.96 204.32 L 247.83 205.21 L 249.7 206.09 L 251.57 206.98 L 253.44 207.86 L 255.31 208.75 L 257.18 209.64 L 259.05 210.52 L 260.92 211.41 L 262.79 212.3 L 264.66 213.18 L 266.53 214.07 L 268.4 214.95 L 270.27 215.84 L 272.14 216.73 L 274.01 217.61 L 275.88 218.5 L 277.75 219.38 L 279.62 220.27 L 281.49 221.16 L 283.36 222.04 L 285.23 222.93 L 287.1 223.82 L 288.97 224.7 L 290.84 225.59 L 292.71 226.47 L 294.58 227.36 L 296.45 228.25 L 298.32 229.13 L 300.19 230.02 L 302.06 230.9 L 303.93 231.79 L 305.8 232.68 L 307.67 233.56 L 309.54 234.45 L 311.41 235.34 L 313.28 236.22 L 315.15 237.11 L 317.02 237.99 L 318.89 238.88 L 320.76 239.77 L 322.63 240.65 L 324.5 241.54 L 326.37 242.42 L 328.24 243.31 L 330.11 244.2 L 331.98 245.08 L 333.85 245.97 L 335.72 246.86 L 337.59 247.74 L 339.46 248.63 L 341.33 249.51 L 343.2 250.4 L 345.07 251.29 L 346.94 252.17 L 348.81 253.06 L 350.68 253.94 L 352.55 254.83 L 354.42 255.72 L 356.29 256.6 L 358.16 257.49 L 360.03 258.38 L 361.9 259.26 L 363.77 260.15 L 365.64 261.03 L 367.51 261.92 L 369.38 262.81 L 371.25 263.69 L 373.12 264.58 L 374.99 265.46 L 376.86 266.35 L 378.73 267.24 L 380.6 268.12 L 382.47 269.01 L 384.34 269.9 L 386.21 270.78 L 388.08 271.67 L 389.95 272.55 L 391.82 273.44 L 393.69 274.33 L 395.56 275.21 L 397.43 276.1 L 399.3 276.98 L 401.17 277.87 L 403.04 278.76 L 404.91 279.64 L 406.78 280.53 L 408.65 281.42 L 410.52 282.3 L 412.39 283.19 L 414.26 284.07 L 416.13 284.96 L 418 285.85\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"5 4\"/><path d=\"M 44 152.92 L 45.87 152.92 L 47.74 152.92 L 49.61 152.92 L 51.48 152.92 L 53.35 152.92 L 55.22 152.92 L 57.09 152.92 L 58.96 152.92 L 60.83 152.92 L 62.7 152.92 L 64.57 152.92 L 66.44 152.92 L 68.31 152.92 L 70.18 152.92 L 72.05 152.92 L 73.92 152.92 L 75.79 152.92 L 77.66 152.92 L 79.53 152.92 L 81.4 152.92 L 83.27 152.92 L 85.14 152.92 L 87.01 152.92 L 88.88 152.92 L 90.75 152.92 L 92.62 152.92 L 94.49 152.92 L 96.36 152.92 L 98.23 152.92 L 100.1 152.92 L 101.97 152.92 L 103.84 152.92 L 105.71 152.92 L 107.58 152.92 L 109.45 152.92 L 111.32 152.92 L 113.19 152.92 L 115.06 152.92 L 116.93 152.92 L 118.8 152.92 L 120.67 152.92 L 122.54 152.92 L 124.41 152.92 L 126.28 152.92 L 128.15 152.92 L 130.02 152.92 L 131.89 152.92 L 133.76 152.92 L 135.63 152.92 L 137.5 152.92 L 139.37 152.92 L 141.24 152.92 L 143.11 152.92 L 144.98 152.92 L 146.85 152.92 L 148.72 152.92 L 150.59 152.92 L 152.46 152.92 L 154.33 152.92 L 156.2 152.92 L 158.07 152.92 L 159.94 152.92 L 161.81 152.92 L 163.68 152.92 L 165.55 152.92 L 167.42 152.92 L 169.29 152.92 L 171.16 152.92 L 173.03 152.92 L 174.9 152.92 L 176.77 152.92 L 178.64 152.92 L 180.51 152.92 L 182.38 152.92 L 184.25 152.92 L 186.12 152.92 L 187.99 152.92 L 189.86 152.92 L 191.73 152.92 L 193.6 152.92 L 195.47 152.92 L 197.34 152.92 L 199.21 152.92 L 201.08 152.92 L 202.95 152.92 L 204.82 152.92 L 206.69 152.92 L 208.56 152.92 L 210.43 152.92 L 212.3 152.92 L 214.17 152.92 L 216.04 152.92 L 217.91 152.92 L 219.78 152.92 L 221.65 152.92 L 223.52 152.92 L 225.39 152.92 L 227.26 152.92 L 229.13 152.92 L 231 152.92 L 232.87 152.92 L 234.74 152.92 L 236.61 152.92 L 238.48 152.92 L 240.35 152.92 L 242.22 152.92 L 244.09 152.92 L 245.96 152.92 L 247.83 152.92 L 249.7 152.92 L 251.57 152.92 L 253.44 152.92 L 255.31 152.92 L 257.18 152.92 L 259.05 152.92 L 260.92 152.92 L 262.79 152.92 L 264.66 152.92 L 266.53 152.92 L 268.4 152.92 L 270.27 152.92 L 272.14 152.92 L 274.01 152.92 L 275.88 152.92 L 277.75 152.92 L 279.62 152.92 L 281.49 152.92 L 283.36 152.92 L 285.23 152.92 L 287.1 152.92 L 288.97 152.92 L 290.84 152.92 L 292.71 152.92 L 294.58 152.92 L 296.45 152.92 L 298.32 152.92 L 300.19 152.92 L 302.06 152.92 L 303.93 152.92 L 305.8 152.92 L 307.67 152.92 L 309.54 152.92 L 311.41 152.92 L 313.28 152.92 L 315.15 152.92 L 317.02 152.92 L 318.89 152.92 L 320.76 152.92 L 322.63 152.92 L 324.5 152.92 L 326.37 152.92 L 328.24 152.92 L 330.11 152.92 L 331.98 152.92 L 333.85 152.92 L 335.72 152.92 L 337.59 152.92 L 339.46 152.92 L 341.33 152.92 L 343.2 152.92 L 345.07 152.92 L 346.94 152.92 L 348.81 152.92 L 350.68 152.92 L 352.55 152.92 L 354.42 152.92 L 356.29 152.92 L 358.16 152.92 L 360.03 152.92 L 361.9 152.92 L 363.77 152.92 L 365.64 152.92 L 367.51 152.92 L 369.38 152.92 L 371.25 152.92 L 373.12 152.92 L 374.99 152.92 L 376.86 152.92 L 378.73 152.92 L 380.6 152.92 L 382.47 152.92 L 384.34 152.92 L 386.21 152.92 L 388.08 152.92 L 389.95 152.92 L 391.82 152.92 L 393.69 152.92 L 395.56 152.92 L 397.43 152.92 L 399.3 152.92 L 401.17 152.92 L 403.04 152.92 L 404.91 152.92 L 406.78 152.92 L 408.65 152.92 L 410.52 152.92 L 412.39 152.92 L 414.26 152.92 L 416.13 152.92 L 418 152.92\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"5 4\"/><path d=\"M 44 241.54 L 45.87 239.77 L 47.74 237.99 L 49.61 236.22 L 51.48 234.45 L 53.35 232.68 L 55.22 230.9 L 57.09 229.13 L 58.96 227.36 L 60.83 225.59 L 62.7 223.82 L 64.57 222.04 L 66.44 220.27 L 68.31 218.5 L 70.18 216.73 L 72.05 214.95 L 73.92 213.18 L 75.79 211.41 L 77.66 209.64 L 79.53 207.86 L 81.4 206.09 L 83.27 204.32 L 85.14 202.55 L 87.01 200.78 L 88.88 199 L 90.75 197.23 L 92.62 195.46 L 94.49 193.69 L 96.36 191.91 L 98.23 190.14 L 100.1 188.37 L 101.97 186.6 L 103.84 184.82 L 105.71 183.05 L 107.58 181.28 L 109.45 179.51 L 111.32 177.74 L 113.19 175.96 L 115.06 174.19 L 116.93 172.42 L 118.8 170.65 L 120.67 168.87 L 122.54 167.1 L 124.41 165.33 L 126.28 163.56 L 128.15 161.78 L 130.02 160.01 L 131.89 158.24 L 133.76 156.47 L 135.63 154.7 L 137.5 152.92 L 139.37 151.15 L 141.24 149.38 L 143.11 147.61 L 144.98 145.83 L 146.85 144.06 L 148.72 142.29 L 150.59 140.52 L 152.46 138.74 L 154.33 136.97 L 156.2 135.2 L 158.07 133.43 L 159.94 131.66 L 161.81 129.88 L 163.68 128.11 L 165.55 126.34 L 167.42 124.57 L 169.29 122.79 L 171.16 121.02 L 173.03 119.25 L 174.9 117.48 L 176.77 115.7 L 178.64 113.93 L 180.51 112.16 L 182.38 110.39 L 184.25 108.62 L 186.12 106.84 L 187.99 105.07 L 189.86 103.3 L 191.73 101.53 L 193.6 99.75 L 195.47 97.98 L 197.34 96.21 L 199.21 94.44 L 201.08 92.66 L 202.95 90.89 L 204.82 89.12 L 206.69 87.35 L 208.56 85.58 L 210.43 83.8 L 212.3 82.03 L 214.17 80.26 L 216.04 78.49 L 217.91 76.71 L 219.78 74.94 L 221.65 73.17 L 223.52 71.4 L 225.39 69.62 L 227.26 67.85 L 229.13 66.08 L 231 64.31 L 232.87 62.54 L 234.74 60.76 L 236.61 58.99 L 238.48 57.22 L 240.35 55.45 L 242.22 53.67 L 244.09 51.9 L 245.96 50.13 L 247.83 48.36 L 249.7 46.58 L 251.57 44.81 L 253.44 43.04 L 255.31 41.27 L 257.18 39.5 L 259.05 37.72 L 260.92 35.95 L 262.79 34.18 L 264.66 32.41 L 266.53 30.63 L 268.4 28.86 L 270.27 27.09 L 272.14 25.32 L 274.01 23.54 L 275.88 21.77 L 277.75 20 L 279.62 18.23 L 281.49 16.46 L 283.36 14.68 L 285.23 12.91 L 287.1 11.14 L 288.97 9.37\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"5 4\"/></svg></span><p>Tillsammans avgränsar linjerna i regel en triangel.</p><p><strong>a)</strong> Bestäm <em>alla</em> värden på \\(a\\) för vilka linjerna <em>inte</em> bildar någon triangel.</p><p><strong>b)</strong> Förklara för varje sådant värde vad det är som går fel geometriskt.</p>",
-    "s": "<p>Tre linjer misslyckas med att bilda en triangel på exakt två sätt: två av dem är parallella, eller så går alla tre genom samma punkt. Undersök båda möjligheterna.</p><p><strong>Steg 1 – parallellitet.</strong> \\(L_3\\) är parallell med \\(L_1\\) när \\(a=2\\) och parallell med \\(L_2\\) när \\(a=-1\\). \\(L_1\\) och \\(L_2\\) är aldrig parallella med varandra eftersom \\(2\\ne-1\\).</p><p><strong>Steg 2 – gemensam punkt.</strong> \\(L_1\\) och \\(L_2\\) skär varandra där \\(2x-1=-x+5\\), alltså \\(x=2\\) och \\(y=3\\). Skärningspunkten är \\((2{,}3)\\).</p><p>\\(L_3\\) går genom den punkten om \\(3=2a+3\\), det vill säga \\(a=0\\).</p><p><strong>Steg 3 – svar.</strong> Ingen triangel bildas för \\(a=-1\\), \\(a=0\\) och \\(a=2\\). För alla andra \\(a\\) finns tre olika skärningspunkter och därmed en triangel.</p><p><strong>b)</strong> Vid \\(a=2\\) och \\(a=-1\\) saknas en av skärningspunkterna helt, eftersom två sidor är parallella och figuren blir öppen. Vid \\(a=0\\) finns alla skärningspunkter kvar, men de sammanfaller i en enda punkt – triangeln har krympt ihop till ingenting.</p><p><strong>\\(a=-1\\), \\(a=0\\) eller \\(a=2\\)</strong></p><p>Det är fallet \\(a=0\\) som är lätt att missa. Det upptäcks bara om man frågar sig <em>varför</em> tre linjer bildar en triangel, i stället för att bara leta efter parallella riktningskoefficienter.</p>",
+    "t": "<p>Tre linjer i samma koordinatsystem ges av</p><p>\\[L_1:\\ y=2x-1\\qquad L_2:\\ y=-x+5\\qquad L_3:\\ y=ax+3\\]</p><p>Figuren visar \\(L_1\\) och \\(L_2\\) samt några lägen för \\(L_3\\), som alltid går genom punkten \\((0,\\,3)\\).</p><span class=\"fig smal\"><svg width=\"440\" height=\"340\" viewBox=\"0 0 440 340\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två linjer som skär varandra i punkten (2,3)\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"308\" x2=\"44\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"90.75\" y1=\"308\" x2=\"90.75\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"137.5\" y1=\"308\" x2=\"137.5\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"184.25\" y1=\"308\" x2=\"184.25\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"231\" y1=\"308\" x2=\"231\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"277.75\" y1=\"308\" x2=\"277.75\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"324.5\" y1=\"308\" x2=\"324.5\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"371.25\" y1=\"308\" x2=\"371.25\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"418\" y1=\"308\" x2=\"418\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"308\" x2=\"418\" y2=\"308\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"285.85\" x2=\"418\" y2=\"285.85\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"263.69\" x2=\"418\" y2=\"263.69\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"241.54\" x2=\"418\" y2=\"241.54\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"219.38\" x2=\"418\" y2=\"219.38\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"197.23\" x2=\"418\" y2=\"197.23\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"175.08\" x2=\"418\" y2=\"175.08\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"152.92\" x2=\"418\" y2=\"152.92\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"130.77\" x2=\"418\" y2=\"130.77\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"108.62\" x2=\"418\" y2=\"108.62\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"86.46\" x2=\"418\" y2=\"86.46\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"64.31\" x2=\"418\" y2=\"64.31\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"42.15\" x2=\"418\" y2=\"42.15\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"20\" x2=\"418\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"219.38\" x2=\"418\" y2=\"219.38\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"137.5\" y1=\"308\" x2=\"137.5\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"44\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"90.75\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"184.25\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"231\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"277.75\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"324.5\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"371.25\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"418\" y=\"236.38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"129.5\" y=\"311.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"129.5\" y=\"267.19\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"129.5\" y=\"178.58\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"129.5\" y=\"134.27\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"129.5\" y=\"89.96\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"129.5\" y=\"45.65\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"418\" y=\"210.38\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">x</text><text x=\"145.5\" y=\"30\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">y</text><path d=\"M 57.09 317.75 L 58.96 315.98 L 60.83 314.2 L 62.7 312.43 L 64.57 310.66 L 66.44 308.89 L 68.31 307.11 L 70.18 305.34 L 72.05 303.57 L 73.92 301.8 L 75.79 300.02 L 77.66 298.25 L 79.53 296.48 L 81.4 294.71 L 83.27 292.94 L 85.14 291.16 L 87.01 289.39 L 88.88 287.62 L 90.75 285.85 L 92.62 284.07 L 94.49 282.3 L 96.36 280.53 L 98.23 278.76 L 100.1 276.98 L 101.97 275.21 L 103.84 273.44 L 105.71 271.67 L 107.58 269.9 L 109.45 268.12 L 111.32 266.35 L 113.19 264.58 L 115.06 262.81 L 116.93 261.03 L 118.8 259.26 L 120.67 257.49 L 122.54 255.72 L 124.41 253.94 L 126.28 252.17 L 128.15 250.4 L 130.02 248.63 L 131.89 246.86 L 133.76 245.08 L 135.63 243.31 L 137.5 241.54 L 139.37 239.77 L 141.24 237.99 L 143.11 236.22 L 144.98 234.45 L 146.85 232.68 L 148.72 230.9 L 150.59 229.13 L 152.46 227.36 L 154.33 225.59 L 156.2 223.82 L 158.07 222.04 L 159.94 220.27 L 161.81 218.5 L 163.68 216.73 L 165.55 214.95 L 167.42 213.18 L 169.29 211.41 L 171.16 209.64 L 173.03 207.86 L 174.9 206.09 L 176.77 204.32 L 178.64 202.55 L 180.51 200.78 L 182.38 199 L 184.25 197.23 L 186.12 195.46 L 187.99 193.69 L 189.86 191.91 L 191.73 190.14 L 193.6 188.37 L 195.47 186.6 L 197.34 184.82 L 199.21 183.05 L 201.08 181.28 L 202.95 179.51 L 204.82 177.74 L 206.69 175.96 L 208.56 174.19 L 210.43 172.42 L 212.3 170.65 L 214.17 168.87 L 216.04 167.1 L 217.91 165.33 L 219.78 163.56 L 221.65 161.78 L 223.52 160.01 L 225.39 158.24 L 227.26 156.47 L 229.13 154.7 L 231 152.92 L 232.87 151.15 L 234.74 149.38 L 236.61 147.61 L 238.48 145.83 L 240.35 144.06 L 242.22 142.29 L 244.09 140.52 L 245.96 138.74 L 247.83 136.97 L 249.7 135.2 L 251.57 133.43 L 253.44 131.66 L 255.31 129.88 L 257.18 128.11 L 259.05 126.34 L 260.92 124.57 L 262.79 122.79 L 264.66 121.02 L 266.53 119.25 L 268.4 117.48 L 270.27 115.7 L 272.14 113.93 L 274.01 112.16 L 275.88 110.39 L 277.75 108.62 L 279.62 106.84 L 281.49 105.07 L 283.36 103.3 L 285.23 101.53 L 287.1 99.75 L 288.97 97.98 L 290.84 96.21 L 292.71 94.44 L 294.58 92.66 L 296.45 90.89 L 298.32 89.12 L 300.19 87.35 L 302.06 85.58 L 303.93 83.8 L 305.8 82.03 L 307.67 80.26 L 309.54 78.49 L 311.41 76.71 L 313.28 74.94 L 315.15 73.17 L 317.02 71.4 L 318.89 69.62 L 320.76 67.85 L 322.63 66.08 L 324.5 64.31 L 326.37 62.54 L 328.24 60.76 L 330.11 58.99 L 331.98 57.22 L 333.85 55.45 L 335.72 53.67 L 337.59 51.9 L 339.46 50.13 L 341.33 48.36 L 343.2 46.58 L 345.07 44.81 L 346.94 43.04 L 348.81 41.27 L 350.68 39.5 L 352.55 37.72 L 354.42 35.95 L 356.29 34.18 L 358.16 32.41 L 360.03 30.63 L 361.9 28.86 L 363.77 27.09 L 365.64 25.32 L 367.51 23.54 L 369.38 21.77 L 371.25 20 L 373.12 18.23 L 374.99 16.46 L 376.86 14.68 L 378.73 12.91 L 380.6 11.14 L 382.47 9.37\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 44 64.31 L 45.87 65.19 L 47.74 66.08 L 49.61 66.97 L 51.48 67.85 L 53.35 68.74 L 55.22 69.62 L 57.09 70.51 L 58.96 71.4 L 60.83 72.28 L 62.7 73.17 L 64.57 74.06 L 66.44 74.94 L 68.31 75.83 L 70.18 76.71 L 72.05 77.6 L 73.92 78.49 L 75.79 79.37 L 77.66 80.26 L 79.53 81.14 L 81.4 82.03 L 83.27 82.92 L 85.14 83.8 L 87.01 84.69 L 88.88 85.58 L 90.75 86.46 L 92.62 87.35 L 94.49 88.23 L 96.36 89.12 L 98.23 90.01 L 100.1 90.89 L 101.97 91.78 L 103.84 92.66 L 105.71 93.55 L 107.58 94.44 L 109.45 95.32 L 111.32 96.21 L 113.19 97.1 L 115.06 97.98 L 116.93 98.87 L 118.8 99.75 L 120.67 100.64 L 122.54 101.53 L 124.41 102.41 L 126.28 103.3 L 128.15 104.18 L 130.02 105.07 L 131.89 105.96 L 133.76 106.84 L 135.63 107.73 L 137.5 108.62 L 139.37 109.5 L 141.24 110.39 L 143.11 111.27 L 144.98 112.16 L 146.85 113.05 L 148.72 113.93 L 150.59 114.82 L 152.46 115.7 L 154.33 116.59 L 156.2 117.48 L 158.07 118.36 L 159.94 119.25 L 161.81 120.14 L 163.68 121.02 L 165.55 121.91 L 167.42 122.79 L 169.29 123.68 L 171.16 124.57 L 173.03 125.45 L 174.9 126.34 L 176.77 127.22 L 178.64 128.11 L 180.51 129 L 182.38 129.88 L 184.25 130.77 L 186.12 131.66 L 187.99 132.54 L 189.86 133.43 L 191.73 134.31 L 193.6 135.2 L 195.47 136.09 L 197.34 136.97 L 199.21 137.86 L 201.08 138.74 L 202.95 139.63 L 204.82 140.52 L 206.69 141.4 L 208.56 142.29 L 210.43 143.18 L 212.3 144.06 L 214.17 144.95 L 216.04 145.83 L 217.91 146.72 L 219.78 147.61 L 221.65 148.49 L 223.52 149.38 L 225.39 150.26 L 227.26 151.15 L 229.13 152.04 L 231 152.92 L 232.87 153.81 L 234.74 154.7 L 236.61 155.58 L 238.48 156.47 L 240.35 157.35 L 242.22 158.24 L 244.09 159.13 L 245.96 160.01 L 247.83 160.9 L 249.7 161.78 L 251.57 162.67 L 253.44 163.56 L 255.31 164.44 L 257.18 165.33 L 259.05 166.22 L 260.92 167.1 L 262.79 167.99 L 264.66 168.87 L 266.53 169.76 L 268.4 170.65 L 270.27 171.53 L 272.14 172.42 L 274.01 173.3 L 275.88 174.19 L 277.75 175.08 L 279.62 175.96 L 281.49 176.85 L 283.36 177.74 L 285.23 178.62 L 287.1 179.51 L 288.97 180.39 L 290.84 181.28 L 292.71 182.17 L 294.58 183.05 L 296.45 183.94 L 298.32 184.82 L 300.19 185.71 L 302.06 186.6 L 303.93 187.48 L 305.8 188.37 L 307.67 189.26 L 309.54 190.14 L 311.41 191.03 L 313.28 191.91 L 315.15 192.8 L 317.02 193.69 L 318.89 194.57 L 320.76 195.46 L 322.63 196.34 L 324.5 197.23 L 326.37 198.12 L 328.24 199 L 330.11 199.89 L 331.98 200.78 L 333.85 201.66 L 335.72 202.55 L 337.59 203.43 L 339.46 204.32 L 341.33 205.21 L 343.2 206.09 L 345.07 206.98 L 346.94 207.86 L 348.81 208.75 L 350.68 209.64 L 352.55 210.52 L 354.42 211.41 L 356.29 212.3 L 358.16 213.18 L 360.03 214.07 L 361.9 214.95 L 363.77 215.84 L 365.64 216.73 L 367.51 217.61 L 369.38 218.5 L 371.25 219.38 L 373.12 220.27 L 374.99 221.16 L 376.86 222.04 L 378.73 222.93 L 380.6 223.82 L 382.47 224.7 L 384.34 225.59 L 386.21 226.47 L 388.08 227.36 L 389.95 228.25 L 391.82 229.13 L 393.69 230.02 L 395.56 230.9 L 397.43 231.79 L 399.3 232.68 L 401.17 233.56 L 403.04 234.45 L 404.91 235.34 L 406.78 236.22 L 408.65 237.11 L 410.52 237.99 L 412.39 238.88 L 414.26 239.77 L 416.13 240.65 L 418 241.54\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"231\" cy=\"152.92\" r=\"5\" fill=\"#2B2527\"/><text x=\"240\" y=\"167.92\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">(2 ; 3)</text><text x=\"343.2\" y=\"46.58\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2A5D9E\">L₁</text><text x=\"62.7\" y=\"48.8\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">L₂</text><circle cx=\"137.5\" cy=\"152.92\" r=\"4\" fill=\"#5C575E\"/><text x=\"127.5\" y=\"138.92\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">(0 ; 3)</text><path d=\"M 44 108.62 L 45.87 109.5 L 47.74 110.39 L 49.61 111.27 L 51.48 112.16 L 53.35 113.05 L 55.22 113.93 L 57.09 114.82 L 58.96 115.7 L 60.83 116.59 L 62.7 117.48 L 64.57 118.36 L 66.44 119.25 L 68.31 120.14 L 70.18 121.02 L 72.05 121.91 L 73.92 122.79 L 75.79 123.68 L 77.66 124.57 L 79.53 125.45 L 81.4 126.34 L 83.27 127.22 L 85.14 128.11 L 87.01 129 L 88.88 129.88 L 90.75 130.77 L 92.62 131.66 L 94.49 132.54 L 96.36 133.43 L 98.23 134.31 L 100.1 135.2 L 101.97 136.09 L 103.84 136.97 L 105.71 137.86 L 107.58 138.74 L 109.45 139.63 L 111.32 140.52 L 113.19 141.4 L 115.06 142.29 L 116.93 143.18 L 118.8 144.06 L 120.67 144.95 L 122.54 145.83 L 124.41 146.72 L 126.28 147.61 L 128.15 148.49 L 130.02 149.38 L 131.89 150.26 L 133.76 151.15 L 135.63 152.04 L 137.5 152.92 L 139.37 153.81 L 141.24 154.7 L 143.11 155.58 L 144.98 156.47 L 146.85 157.35 L 148.72 158.24 L 150.59 159.13 L 152.46 160.01 L 154.33 160.9 L 156.2 161.78 L 158.07 162.67 L 159.94 163.56 L 161.81 164.44 L 163.68 165.33 L 165.55 166.22 L 167.42 167.1 L 169.29 167.99 L 171.16 168.87 L 173.03 169.76 L 174.9 170.65 L 176.77 171.53 L 178.64 172.42 L 180.51 173.3 L 182.38 174.19 L 184.25 175.08 L 186.12 175.96 L 187.99 176.85 L 189.86 177.74 L 191.73 178.62 L 193.6 179.51 L 195.47 180.39 L 197.34 181.28 L 199.21 182.17 L 201.08 183.05 L 202.95 183.94 L 204.82 184.82 L 206.69 185.71 L 208.56 186.6 L 210.43 187.48 L 212.3 188.37 L 214.17 189.26 L 216.04 190.14 L 217.91 191.03 L 219.78 191.91 L 221.65 192.8 L 223.52 193.69 L 225.39 194.57 L 227.26 195.46 L 229.13 196.34 L 231 197.23 L 232.87 198.12 L 234.74 199 L 236.61 199.89 L 238.48 200.78 L 240.35 201.66 L 242.22 202.55 L 244.09 203.43 L 245.96 204.32 L 247.83 205.21 L 249.7 206.09 L 251.57 206.98 L 253.44 207.86 L 255.31 208.75 L 257.18 209.64 L 259.05 210.52 L 260.92 211.41 L 262.79 212.3 L 264.66 213.18 L 266.53 214.07 L 268.4 214.95 L 270.27 215.84 L 272.14 216.73 L 274.01 217.61 L 275.88 218.5 L 277.75 219.38 L 279.62 220.27 L 281.49 221.16 L 283.36 222.04 L 285.23 222.93 L 287.1 223.82 L 288.97 224.7 L 290.84 225.59 L 292.71 226.47 L 294.58 227.36 L 296.45 228.25 L 298.32 229.13 L 300.19 230.02 L 302.06 230.9 L 303.93 231.79 L 305.8 232.68 L 307.67 233.56 L 309.54 234.45 L 311.41 235.34 L 313.28 236.22 L 315.15 237.11 L 317.02 237.99 L 318.89 238.88 L 320.76 239.77 L 322.63 240.65 L 324.5 241.54 L 326.37 242.42 L 328.24 243.31 L 330.11 244.2 L 331.98 245.08 L 333.85 245.97 L 335.72 246.86 L 337.59 247.74 L 339.46 248.63 L 341.33 249.51 L 343.2 250.4 L 345.07 251.29 L 346.94 252.17 L 348.81 253.06 L 350.68 253.94 L 352.55 254.83 L 354.42 255.72 L 356.29 256.6 L 358.16 257.49 L 360.03 258.38 L 361.9 259.26 L 363.77 260.15 L 365.64 261.03 L 367.51 261.92 L 369.38 262.81 L 371.25 263.69 L 373.12 264.58 L 374.99 265.46 L 376.86 266.35 L 378.73 267.24 L 380.6 268.12 L 382.47 269.01 L 384.34 269.9 L 386.21 270.78 L 388.08 271.67 L 389.95 272.55 L 391.82 273.44 L 393.69 274.33 L 395.56 275.21 L 397.43 276.1 L 399.3 276.98 L 401.17 277.87 L 403.04 278.76 L 404.91 279.64 L 406.78 280.53 L 408.65 281.42 L 410.52 282.3 L 412.39 283.19 L 414.26 284.07 L 416.13 284.96 L 418 285.85\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"5 4\"/><path d=\"M 44 152.92 L 45.87 152.92 L 47.74 152.92 L 49.61 152.92 L 51.48 152.92 L 53.35 152.92 L 55.22 152.92 L 57.09 152.92 L 58.96 152.92 L 60.83 152.92 L 62.7 152.92 L 64.57 152.92 L 66.44 152.92 L 68.31 152.92 L 70.18 152.92 L 72.05 152.92 L 73.92 152.92 L 75.79 152.92 L 77.66 152.92 L 79.53 152.92 L 81.4 152.92 L 83.27 152.92 L 85.14 152.92 L 87.01 152.92 L 88.88 152.92 L 90.75 152.92 L 92.62 152.92 L 94.49 152.92 L 96.36 152.92 L 98.23 152.92 L 100.1 152.92 L 101.97 152.92 L 103.84 152.92 L 105.71 152.92 L 107.58 152.92 L 109.45 152.92 L 111.32 152.92 L 113.19 152.92 L 115.06 152.92 L 116.93 152.92 L 118.8 152.92 L 120.67 152.92 L 122.54 152.92 L 124.41 152.92 L 126.28 152.92 L 128.15 152.92 L 130.02 152.92 L 131.89 152.92 L 133.76 152.92 L 135.63 152.92 L 137.5 152.92 L 139.37 152.92 L 141.24 152.92 L 143.11 152.92 L 144.98 152.92 L 146.85 152.92 L 148.72 152.92 L 150.59 152.92 L 152.46 152.92 L 154.33 152.92 L 156.2 152.92 L 158.07 152.92 L 159.94 152.92 L 161.81 152.92 L 163.68 152.92 L 165.55 152.92 L 167.42 152.92 L 169.29 152.92 L 171.16 152.92 L 173.03 152.92 L 174.9 152.92 L 176.77 152.92 L 178.64 152.92 L 180.51 152.92 L 182.38 152.92 L 184.25 152.92 L 186.12 152.92 L 187.99 152.92 L 189.86 152.92 L 191.73 152.92 L 193.6 152.92 L 195.47 152.92 L 197.34 152.92 L 199.21 152.92 L 201.08 152.92 L 202.95 152.92 L 204.82 152.92 L 206.69 152.92 L 208.56 152.92 L 210.43 152.92 L 212.3 152.92 L 214.17 152.92 L 216.04 152.92 L 217.91 152.92 L 219.78 152.92 L 221.65 152.92 L 223.52 152.92 L 225.39 152.92 L 227.26 152.92 L 229.13 152.92 L 231 152.92 L 232.87 152.92 L 234.74 152.92 L 236.61 152.92 L 238.48 152.92 L 240.35 152.92 L 242.22 152.92 L 244.09 152.92 L 245.96 152.92 L 247.83 152.92 L 249.7 152.92 L 251.57 152.92 L 253.44 152.92 L 255.31 152.92 L 257.18 152.92 L 259.05 152.92 L 260.92 152.92 L 262.79 152.92 L 264.66 152.92 L 266.53 152.92 L 268.4 152.92 L 270.27 152.92 L 272.14 152.92 L 274.01 152.92 L 275.88 152.92 L 277.75 152.92 L 279.62 152.92 L 281.49 152.92 L 283.36 152.92 L 285.23 152.92 L 287.1 152.92 L 288.97 152.92 L 290.84 152.92 L 292.71 152.92 L 294.58 152.92 L 296.45 152.92 L 298.32 152.92 L 300.19 152.92 L 302.06 152.92 L 303.93 152.92 L 305.8 152.92 L 307.67 152.92 L 309.54 152.92 L 311.41 152.92 L 313.28 152.92 L 315.15 152.92 L 317.02 152.92 L 318.89 152.92 L 320.76 152.92 L 322.63 152.92 L 324.5 152.92 L 326.37 152.92 L 328.24 152.92 L 330.11 152.92 L 331.98 152.92 L 333.85 152.92 L 335.72 152.92 L 337.59 152.92 L 339.46 152.92 L 341.33 152.92 L 343.2 152.92 L 345.07 152.92 L 346.94 152.92 L 348.81 152.92 L 350.68 152.92 L 352.55 152.92 L 354.42 152.92 L 356.29 152.92 L 358.16 152.92 L 360.03 152.92 L 361.9 152.92 L 363.77 152.92 L 365.64 152.92 L 367.51 152.92 L 369.38 152.92 L 371.25 152.92 L 373.12 152.92 L 374.99 152.92 L 376.86 152.92 L 378.73 152.92 L 380.6 152.92 L 382.47 152.92 L 384.34 152.92 L 386.21 152.92 L 388.08 152.92 L 389.95 152.92 L 391.82 152.92 L 393.69 152.92 L 395.56 152.92 L 397.43 152.92 L 399.3 152.92 L 401.17 152.92 L 403.04 152.92 L 404.91 152.92 L 406.78 152.92 L 408.65 152.92 L 410.52 152.92 L 412.39 152.92 L 414.26 152.92 L 416.13 152.92 L 418 152.92\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"5 4\"/><path d=\"M 44 241.54 L 45.87 239.77 L 47.74 237.99 L 49.61 236.22 L 51.48 234.45 L 53.35 232.68 L 55.22 230.9 L 57.09 229.13 L 58.96 227.36 L 60.83 225.59 L 62.7 223.82 L 64.57 222.04 L 66.44 220.27 L 68.31 218.5 L 70.18 216.73 L 72.05 214.95 L 73.92 213.18 L 75.79 211.41 L 77.66 209.64 L 79.53 207.86 L 81.4 206.09 L 83.27 204.32 L 85.14 202.55 L 87.01 200.78 L 88.88 199 L 90.75 197.23 L 92.62 195.46 L 94.49 193.69 L 96.36 191.91 L 98.23 190.14 L 100.1 188.37 L 101.97 186.6 L 103.84 184.82 L 105.71 183.05 L 107.58 181.28 L 109.45 179.51 L 111.32 177.74 L 113.19 175.96 L 115.06 174.19 L 116.93 172.42 L 118.8 170.65 L 120.67 168.87 L 122.54 167.1 L 124.41 165.33 L 126.28 163.56 L 128.15 161.78 L 130.02 160.01 L 131.89 158.24 L 133.76 156.47 L 135.63 154.7 L 137.5 152.92 L 139.37 151.15 L 141.24 149.38 L 143.11 147.61 L 144.98 145.83 L 146.85 144.06 L 148.72 142.29 L 150.59 140.52 L 152.46 138.74 L 154.33 136.97 L 156.2 135.2 L 158.07 133.43 L 159.94 131.66 L 161.81 129.88 L 163.68 128.11 L 165.55 126.34 L 167.42 124.57 L 169.29 122.79 L 171.16 121.02 L 173.03 119.25 L 174.9 117.48 L 176.77 115.7 L 178.64 113.93 L 180.51 112.16 L 182.38 110.39 L 184.25 108.62 L 186.12 106.84 L 187.99 105.07 L 189.86 103.3 L 191.73 101.53 L 193.6 99.75 L 195.47 97.98 L 197.34 96.21 L 199.21 94.44 L 201.08 92.66 L 202.95 90.89 L 204.82 89.12 L 206.69 87.35 L 208.56 85.58 L 210.43 83.8 L 212.3 82.03 L 214.17 80.26 L 216.04 78.49 L 217.91 76.71 L 219.78 74.94 L 221.65 73.17 L 223.52 71.4 L 225.39 69.62 L 227.26 67.85 L 229.13 66.08 L 231 64.31 L 232.87 62.54 L 234.74 60.76 L 236.61 58.99 L 238.48 57.22 L 240.35 55.45 L 242.22 53.67 L 244.09 51.9 L 245.96 50.13 L 247.83 48.36 L 249.7 46.58 L 251.57 44.81 L 253.44 43.04 L 255.31 41.27 L 257.18 39.5 L 259.05 37.72 L 260.92 35.95 L 262.79 34.18 L 264.66 32.41 L 266.53 30.63 L 268.4 28.86 L 270.27 27.09 L 272.14 25.32 L 274.01 23.54 L 275.88 21.77 L 277.75 20 L 279.62 18.23 L 281.49 16.46 L 283.36 14.68 L 285.23 12.91 L 287.1 11.14 L 288.97 9.37\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"5 4\"/></svg></span><p>Tillsammans avgränsar linjerna i regel en triangel.</p><p><strong>a)</strong> Bestäm <em>alla</em> värden på \\(a\\) för vilka linjerna <em>inte</em> bildar någon triangel.</p><p><strong>b)</strong> Förklara för varje sådant värde vad det är som går fel geometriskt.</p>",
+    "s": "<p>Tre linjer misslyckas med att bilda en triangel på exakt två sätt: två av dem är parallella, eller så går alla tre genom samma punkt. Undersök båda möjligheterna.</p><p><strong>Steg 1 – parallellitet.</strong> \\(L_3\\) är parallell med \\(L_1\\) när \\(a=2\\) och parallell med \\(L_2\\) när \\(a=-1\\). \\(L_1\\) och \\(L_2\\) är aldrig parallella med varandra eftersom \\(2\\ne-1\\).</p><p><strong>Steg 2 – gemensam punkt.</strong> \\(L_1\\) och \\(L_2\\) skär varandra där \\(2x-1=-x+5\\), alltså \\(x=2\\) och \\(y=3\\). Skärningspunkten är \\((2,\\,3)\\).</p><p>\\(L_3\\) går genom den punkten om \\(3=2a+3\\), det vill säga \\(a=0\\).</p><p><strong>Steg 3 – svar.</strong> Ingen triangel bildas för \\(a=-1\\), \\(a=0\\) och \\(a=2\\). För alla andra \\(a\\) finns tre olika skärningspunkter och därmed en triangel.</p><p><strong>b)</strong> Vid \\(a=2\\) och \\(a=-1\\) saknas en av skärningspunkterna helt, eftersom två sidor är parallella och figuren blir öppen. Vid \\(a=0\\) finns alla skärningspunkter kvar, men de sammanfaller i en enda punkt – triangeln har krympt ihop till ingenting.</p><p><strong>\\(a=-1\\), \\(a=0\\) eller \\(a=2\\)</strong></p><p>Det är fallet \\(a=0\\) som är lätt att missa. Det upptäcks bara om man frågar sig <em>varför</em> tre linjer bildar en triangel, i stället för att bara leta efter parallella riktningskoefficienter.</p>",
     "familj": "Parameterfall i linjära ekvationssystem",
     "geogebra": false,
     "miniräknare": false,
@@ -60773,7 +60847,7 @@ window.BANKMA2 = [
     "niva": "A",
     "poang": "0/1/3",
     "t": "<p>En andragradsfunktion \\(f\\) uppfyller \\(f(3)=f(11)\\).</p><span class=\"fig smal\"><svg width=\"440\" height=\"330\" viewBox=\"0 0 440 330\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Andragradskurva med två punkter på samma höjd\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"298\" x2=\"44\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"70.71\" y1=\"298\" x2=\"70.71\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"97.43\" y1=\"298\" x2=\"97.43\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"124.14\" y1=\"298\" x2=\"124.14\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"150.86\" y1=\"298\" x2=\"150.86\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"177.57\" y1=\"298\" x2=\"177.57\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"204.29\" y1=\"298\" x2=\"204.29\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"231\" y1=\"298\" x2=\"231\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"257.71\" y1=\"298\" x2=\"257.71\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"284.43\" y1=\"298\" x2=\"284.43\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"311.14\" y1=\"298\" x2=\"311.14\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"337.86\" y1=\"298\" x2=\"337.86\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"364.57\" y1=\"298\" x2=\"364.57\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"391.29\" y1=\"298\" x2=\"391.29\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"418\" y1=\"298\" x2=\"418\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"298\" x2=\"418\" y2=\"298\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"251.67\" x2=\"418\" y2=\"251.67\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"205.33\" x2=\"418\" y2=\"205.33\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"159\" x2=\"418\" y2=\"159\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"112.67\" x2=\"418\" y2=\"112.67\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"66.33\" x2=\"418\" y2=\"66.33\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"20\" x2=\"418\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"298\" x2=\"418\" y2=\"298\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"44\" y1=\"298\" x2=\"44\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"97.43\" y=\"315\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"150.86\" y=\"315\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"204.29\" y=\"315\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"257.71\" y=\"315\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"311.14\" y=\"315\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><text x=\"364.57\" y=\"315\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">12</text><text x=\"418\" y=\"315\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">14</text><text x=\"36\" y=\"255.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"36\" y=\"208.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"36\" y=\"162.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">12</text><text x=\"36\" y=\"116.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">16</text><text x=\"36\" y=\"69.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">20</text><text x=\"36\" y=\"23.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">24</text><text x=\"418\" y=\"289\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">x</text><text x=\"52\" y=\"30\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">y</text><line x1=\"231\" y1=\"298\" x2=\"231\" y2=\"31.58\" stroke=\"#5C575E\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-dasharray=\"5 4\"/><path d=\"M 111.32 19.18 L 113.19 26.39 L 115.06 33.49 L 116.93 40.47 L 118.8 47.34 L 120.67 54.09 L 122.54 60.73 L 124.41 67.26 L 126.28 73.67 L 128.15 79.97 L 130.02 86.16 L 131.89 92.23 L 133.76 98.19 L 135.63 104.04 L 137.5 109.77 L 139.37 115.39 L 141.24 120.9 L 143.11 126.29 L 144.98 131.57 L 146.85 136.73 L 148.72 141.78 L 150.59 146.72 L 152.46 151.54 L 154.33 156.26 L 156.2 160.85 L 158.07 165.34 L 159.94 169.71 L 161.81 173.96 L 163.68 178.11 L 165.55 182.14 L 167.42 186.05 L 169.29 189.86 L 171.16 193.55 L 173.03 197.12 L 174.9 200.58 L 176.77 203.93 L 178.64 207.17 L 180.51 210.29 L 182.38 213.3 L 184.25 216.19 L 186.12 218.97 L 187.99 221.64 L 189.86 224.2 L 191.73 226.64 L 193.6 228.96 L 195.47 231.18 L 197.34 233.28 L 199.21 235.26 L 201.08 237.14 L 202.95 238.9 L 204.82 240.54 L 206.69 242.07 L 208.56 243.49 L 210.43 244.8 L 212.3 245.99 L 214.17 247.07 L 216.04 248.03 L 217.91 248.89 L 219.78 249.62 L 221.65 250.25 L 223.52 250.76 L 225.39 251.16 L 227.26 251.44 L 229.13 251.61 L 231 251.67 L 232.87 251.61 L 234.74 251.44 L 236.61 251.16 L 238.48 250.76 L 240.35 250.25 L 242.22 249.62 L 244.09 248.89 L 245.96 248.03 L 247.83 247.07 L 249.7 245.99 L 251.57 244.8 L 253.44 243.49 L 255.31 242.07 L 257.18 240.54 L 259.05 238.9 L 260.92 237.14 L 262.79 235.26 L 264.66 233.28 L 266.53 231.18 L 268.4 228.96 L 270.27 226.64 L 272.14 224.2 L 274.01 221.64 L 275.88 218.97 L 277.75 216.19 L 279.62 213.3 L 281.49 210.29 L 283.36 207.17 L 285.23 203.93 L 287.1 200.58 L 288.97 197.12 L 290.84 193.55 L 292.71 189.86 L 294.58 186.05 L 296.45 182.14 L 298.32 178.11 L 300.19 173.96 L 302.06 169.71 L 303.93 165.34 L 305.8 160.85 L 307.67 156.26 L 309.54 151.54 L 311.41 146.72 L 313.28 141.78 L 315.15 136.73 L 317.02 131.57 L 318.89 126.29 L 320.76 120.9 L 322.63 115.39 L 324.5 109.77 L 326.37 104.04 L 328.24 98.19 L 330.11 92.23 L 331.98 86.16 L 333.85 79.97 L 335.72 73.67 L 337.59 67.26 L 339.46 60.73 L 341.33 54.09 L 343.2 47.34 L 345.07 40.47 L 346.94 33.49 L 348.81 26.39 L 350.68 19.18\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"124.14\" y1=\"66.33\" x2=\"337.86\" y2=\"66.33\" stroke=\"#B43123\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-dasharray=\"4 4\"/><circle cx=\"124.14\" cy=\"66.33\" r=\"4.5\" fill=\"#B43123\"/><circle cx=\"337.86\" cy=\"66.33\" r=\"4.5\" fill=\"#B43123\"/><circle cx=\"231\" cy=\"251.67\" r=\"4.5\" fill=\"#2A5D9E\"/><text x=\"116.14\" y=\"60.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#B43123\">(3 ; 20)</text><text x=\"345.86\" y=\"60.33\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#B43123\">(11 ; 20)</text><text x=\"239\" y=\"293.37\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">x = 7</text></svg></span><p><strong>a)</strong> Visa att \\(f(1)=f(13)\\) för <em>varje</em> sådan funktion, utan att bestämma någon funktion.</p><p><strong>b)</strong> Antag dessutom att \\(f(3)=f(11)=20\\) och att funktionens minsta värde är 4. Bestäm \\(f(x)\\) skrivet på formen \\(a(x-h)^2+k\\).</p><p><strong>c)</strong> Avgör om det finns fler funktioner än den i b) som uppfyller villkoren, och motivera.</p>",
-    "s": "<p>Två punkter på samma höjd ligger spegelsymmetriskt kring symmetrilinjen. Symmetrilinjen ligger därför mitt emellan dem.</p><p><strong>a)</strong> Eftersom \\(f(3)=f(11)\\) är symmetrilinjen \\(x=\\dfrac{3+11}{2}=7\\).</p><p>Punkterna \\(x=1\\) och \\(x=13\\) ligger båda på avståndet 6 från 7, alltså spegelbilder av varandra i symmetrilinjen. Då är \\(f(1)=f(13)\\).</p><p>Ett annat sätt: skriv \\(f(x)=a(x-7)^2+k\\). Då är \\(f(1)=36a+k\\) och \\(f(13)=36a+k\\), vilket är samma tal.</p><p><strong>b)</strong> Minsta värdet 4 betyder att grafen har en minimipunkt i \\((7{,}4)\\), alltså \\(f(x)=a(x-7)^2+4\\) med \\(a&gt;0\\).</p><p>Villkoret \\(f(3)=20\\) ger \\(a(3-7)^2+4=20\\), alltså \\(16a=16\\) och \\(a=1\\).</p><p>Kontroll: \\(f(11)=1\\cdot16+4=20\\). Stämmer.</p><p><strong>c)</strong> Varje andragradsfunktion med minsta värde 4 och symmetrilinje \\(x=7\\) måste ha formen \\(a(x-7)^2+4\\), och villkoret \\(f(3)=20\\) bestämmer \\(a\\) entydigt. Det finns alltså ingen annan funktion.</p><p><strong>b) \\(f(x)=(x-7)^2+4\\)</strong>, och den är den enda.</p><p>Lägg märke till att a) besvaras helt utan \\(a\\), \\(b\\) och \\(c\\). Symmetrin är en egenskap hos formen på grafen, inte hos de enskilda koefficienterna.</p>",
+    "s": "<p>Två punkter på samma höjd ligger spegelsymmetriskt kring symmetrilinjen. Symmetrilinjen ligger därför mitt emellan dem.</p><p><strong>a)</strong> Eftersom \\(f(3)=f(11)\\) är symmetrilinjen \\(x=\\dfrac{3+11}{2}=7\\).</p><p>Punkterna \\(x=1\\) och \\(x=13\\) ligger båda på avståndet 6 från 7, alltså spegelbilder av varandra i symmetrilinjen. Då är \\(f(1)=f(13)\\).</p><p>Ett annat sätt: skriv \\(f(x)=a(x-7)^2+k\\). Då är \\(f(1)=36a+k\\) och \\(f(13)=36a+k\\), vilket är samma tal.</p><p><strong>b)</strong> Minsta värdet 4 betyder att grafen har en minimipunkt i \\((7,\\,4)\\), alltså \\(f(x)=a(x-7)^2+4\\) med \\(a&gt;0\\).</p><p>Villkoret \\(f(3)=20\\) ger \\(a(3-7)^2+4=20\\), alltså \\(16a=16\\) och \\(a=1\\).</p><p>Kontroll: \\(f(11)=1\\cdot16+4=20\\). Stämmer.</p><p><strong>c)</strong> Varje andragradsfunktion med minsta värde 4 och symmetrilinje \\(x=7\\) måste ha formen \\(a(x-7)^2+4\\), och villkoret \\(f(3)=20\\) bestämmer \\(a\\) entydigt. Det finns alltså ingen annan funktion.</p><p><strong>b) \\(f(x)=(x-7)^2+4\\)</strong>, och den är den enda.</p><p>Lägg märke till att a) besvaras helt utan \\(a\\), \\(b\\) och \\(c\\). Symmetrin är en egenskap hos formen på grafen, inte hos de enskilda koefficienterna.</p>",
     "familj": "Symmetrilinje och extrempunkt",
     "geogebra": false,
     "miniräknare": false,
@@ -60805,7 +60879,7 @@ window.BANKMA2 = [
     "niva": "A",
     "poang": "0/0/3",
     "t": "<p>För varje tal \\(p\\) definieras funktionen</p><p>\\[f_p(x)=x^2+px+1\\]</p><p>Figuren visar graferna för \\(p=-4,\\ -2,\\ 0,\\ 2,\\ 4\\) samt deras minimipunkter.</p><span class=\"fig smal\"><svg width=\"440\" height=\"350\" viewBox=\"0 0 440 350\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kurvskara med markerade vertexpunkter\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"348\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"318\" x2=\"44\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"97.43\" y1=\"318\" x2=\"97.43\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"150.86\" y1=\"318\" x2=\"150.86\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"204.29\" y1=\"318\" x2=\"204.29\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"257.71\" y1=\"318\" x2=\"257.71\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"311.14\" y1=\"318\" x2=\"311.14\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"364.57\" y1=\"318\" x2=\"364.57\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"418\" y1=\"318\" x2=\"418\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"318\" x2=\"418\" y2=\"318\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"290.91\" x2=\"418\" y2=\"290.91\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"263.82\" x2=\"418\" y2=\"263.82\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"236.73\" x2=\"418\" y2=\"236.73\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"209.64\" x2=\"418\" y2=\"209.64\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"182.55\" x2=\"418\" y2=\"182.55\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"155.45\" x2=\"418\" y2=\"155.45\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"128.36\" x2=\"418\" y2=\"128.36\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"101.27\" x2=\"418\" y2=\"101.27\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"74.18\" x2=\"418\" y2=\"74.18\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"47.09\" x2=\"418\" y2=\"47.09\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"20\" x2=\"418\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"44\" y1=\"209.64\" x2=\"418\" y2=\"209.64\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"231\" y1=\"318\" x2=\"231\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"70.71\" y=\"226.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"124.14\" y=\"226.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"177.57\" y=\"226.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"284.43\" y=\"226.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"337.86\" y=\"226.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"391.29\" y=\"226.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"223\" y=\"321.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"223\" y=\"294.41\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"223\" y=\"267.32\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"223\" y=\"240.23\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"223\" y=\"186.05\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"223\" y=\"158.95\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"223\" y=\"131.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"223\" y=\"104.77\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"223\" y=\"77.68\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"223\" y=\"50.59\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"223\" y=\"23.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"418\" y=\"200.64\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">x</text><text x=\"239\" y=\"30\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">y</text><path d=\"M 165.55 9.15 L 167.42 15.23 L 169.29 21.25 L 171.16 27.2 L 173.03 33.08 L 174.9 38.9 L 176.77 44.65 L 178.64 50.33 L 180.51 55.95 L 182.38 61.5 L 184.25 66.99 L 186.12 72.4 L 187.99 77.76 L 189.86 83.04 L 191.73 88.26 L 193.6 93.42 L 195.47 98.5 L 197.34 103.52 L 199.21 108.48 L 201.08 113.37 L 202.95 118.19 L 204.82 122.94 L 206.69 127.63 L 208.56 132.25 L 210.43 136.81 L 212.3 141.3 L 214.17 145.72 L 216.04 150.08 L 217.91 154.37 L 219.78 158.59 L 221.65 162.75 L 223.52 166.84 L 225.39 170.87 L 227.26 174.83 L 229.13 178.72 L 231 182.55 L 232.87 186.3 L 234.74 190 L 236.61 193.62 L 238.48 197.19 L 240.35 200.68 L 242.22 204.11 L 244.09 207.47 L 245.96 210.76 L 247.83 213.99 L 249.7 217.15 L 251.57 220.25 L 253.44 223.28 L 255.31 226.24 L 257.18 229.14 L 259.05 231.97 L 260.92 234.73 L 262.79 237.43 L 264.66 240.06 L 266.53 242.63 L 268.4 245.13 L 270.27 247.56 L 272.14 249.92 L 274.01 252.22 L 275.88 254.46 L 277.75 256.62 L 279.62 258.72 L 281.49 260.76 L 283.36 262.72 L 285.23 264.62 L 287.1 266.46 L 288.97 268.23 L 290.84 269.93 L 292.71 271.57 L 294.58 273.13 L 296.45 274.64 L 298.32 276.07 L 300.19 277.44 L 302.06 278.75 L 303.93 279.99 L 305.8 281.16 L 307.67 282.26 L 309.54 283.3 L 311.41 284.27 L 313.28 285.18 L 315.15 286.02 L 317.02 286.79 L 318.89 287.49 L 320.76 288.13 L 322.63 288.71 L 324.5 289.22 L 326.37 289.66 L 328.24 290.03 L 330.11 290.34 L 331.98 290.58 L 333.85 290.76 L 335.72 290.87 L 337.59 290.91 L 339.46 290.88 L 341.33 290.79 L 343.2 290.64 L 345.07 290.42 L 346.94 290.13 L 348.81 289.77 L 350.68 289.35 L 352.55 288.86 L 354.42 288.31 L 356.29 287.68 L 358.16 287 L 360.03 286.24 L 361.9 285.42 L 363.77 284.54 L 365.64 283.58 L 367.51 282.56 L 369.38 281.48 L 371.25 280.33 L 373.12 279.11 L 374.99 277.82 L 376.86 276.47 L 378.73 275.05 L 380.6 273.57 L 382.47 272.02 L 384.34 270.4 L 386.21 268.72 L 388.08 266.97 L 389.95 265.16 L 391.82 263.27 L 393.69 261.33 L 395.56 259.31 L 397.43 257.23 L 399.3 255.08 L 401.17 252.87 L 403.04 250.59 L 404.91 248.24 L 406.78 245.83 L 408.65 243.35 L 410.52 240.8 L 412.39 238.19 L 414.26 235.51 L 416.13 232.77 L 418 229.95\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 139.37 9.94 L 141.24 15.06 L 143.11 20.11 L 144.98 25.09 L 146.85 30.01 L 148.72 34.86 L 150.59 39.64 L 152.46 44.36 L 154.33 49.01 L 156.2 53.59 L 158.07 58.11 L 159.94 62.56 L 161.81 66.95 L 163.68 71.27 L 165.55 75.52 L 167.42 79.71 L 169.29 83.83 L 171.16 87.88 L 173.03 91.87 L 174.9 95.79 L 176.77 99.64 L 178.64 103.43 L 180.51 107.15 L 182.38 110.81 L 184.25 114.39 L 186.12 117.92 L 187.99 121.37 L 189.86 124.76 L 191.73 128.09 L 193.6 131.34 L 195.47 134.53 L 197.34 137.66 L 199.21 140.72 L 201.08 143.71 L 202.95 146.63 L 204.82 149.49 L 206.69 152.28 L 208.56 155.01 L 210.43 157.67 L 212.3 160.26 L 214.17 162.79 L 216.04 165.25 L 217.91 167.64 L 219.78 169.97 L 221.65 172.23 L 223.52 174.43 L 225.39 176.56 L 227.26 178.62 L 229.13 180.62 L 231 182.55 L 232.87 184.41 L 234.74 186.21 L 236.61 187.94 L 238.48 189.6 L 240.35 191.2 L 242.22 192.73 L 244.09 194.19 L 245.96 195.59 L 247.83 196.92 L 249.7 198.19 L 251.57 199.39 L 253.44 200.52 L 255.31 201.59 L 257.18 202.59 L 259.05 203.52 L 260.92 204.39 L 262.79 205.19 L 264.66 205.93 L 266.53 206.6 L 268.4 207.2 L 270.27 207.73 L 272.14 208.2 L 274.01 208.61 L 275.88 208.94 L 277.75 209.21 L 279.62 209.42 L 281.49 209.55 L 283.36 209.63 L 285.23 209.63 L 287.1 209.57 L 288.97 209.44 L 290.84 209.25 L 292.71 208.99 L 294.58 208.66 L 296.45 208.26 L 298.32 207.81 L 300.19 207.28 L 302.06 206.69 L 303.93 206.03 L 305.8 205.3 L 307.67 204.51 L 309.54 203.65 L 311.41 202.73 L 313.28 201.74 L 315.15 200.68 L 317.02 199.56 L 318.89 198.37 L 320.76 197.11 L 322.63 195.79 L 324.5 194.4 L 326.37 192.94 L 328.24 191.42 L 330.11 189.83 L 331.98 188.18 L 333.85 186.46 L 335.72 184.67 L 337.59 182.82 L 339.46 180.9 L 341.33 178.91 L 343.2 176.86 L 345.07 174.74 L 346.94 172.55 L 348.81 170.3 L 350.68 167.98 L 352.55 165.6 L 354.42 163.15 L 356.29 160.63 L 358.16 158.04 L 360.03 155.39 L 361.9 152.68 L 363.77 149.89 L 365.64 147.05 L 367.51 144.13 L 369.38 141.15 L 371.25 138.1 L 373.12 134.98 L 374.99 131.8 L 376.86 128.56 L 378.73 125.24 L 380.6 121.86 L 382.47 118.42 L 384.34 114.9 L 386.21 111.32 L 388.08 107.68 L 389.95 103.96 L 391.82 100.19 L 393.69 96.34 L 395.56 92.43 L 397.43 88.45 L 399.3 84.41 L 401.17 80.3 L 403.04 76.12 L 404.91 71.88 L 406.78 67.57 L 408.65 63.19 L 410.52 58.75 L 412.39 54.24 L 414.26 49.67 L 416.13 45.03 L 418 40.32\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 96.36 10.51 L 98.23 15.25 L 100.1 19.93 L 101.97 24.55 L 103.84 29.09 L 105.71 33.57 L 107.58 37.99 L 109.45 42.33 L 111.32 46.61 L 113.19 50.83 L 115.06 54.98 L 116.93 59.06 L 118.8 63.07 L 120.67 67.02 L 122.54 70.91 L 124.41 74.72 L 126.28 78.47 L 128.15 82.16 L 130.02 85.77 L 131.89 89.32 L 133.76 92.81 L 135.63 96.23 L 137.5 99.58 L 139.37 102.86 L 141.24 106.08 L 143.11 109.24 L 144.98 112.32 L 146.85 115.34 L 148.72 118.3 L 150.59 121.18 L 152.46 124 L 154.33 126.76 L 156.2 129.45 L 158.07 132.07 L 159.94 134.62 L 161.81 137.11 L 163.68 139.54 L 165.55 141.89 L 167.42 144.18 L 169.29 146.41 L 171.16 148.56 L 173.03 150.65 L 174.9 152.68 L 176.77 154.64 L 178.64 156.53 L 180.51 158.35 L 182.38 160.11 L 184.25 161.8 L 186.12 163.43 L 187.99 164.99 L 189.86 166.48 L 191.73 167.91 L 193.6 169.27 L 195.47 170.57 L 197.34 171.79 L 199.21 172.95 L 201.08 174.05 L 202.95 175.08 L 204.82 176.04 L 206.69 176.94 L 208.56 177.77 L 210.43 178.53 L 212.3 179.23 L 214.17 179.86 L 216.04 180.42 L 217.91 180.92 L 219.78 181.35 L 221.65 181.72 L 223.52 182.01 L 225.39 182.25 L 227.26 182.41 L 229.13 182.51 L 231 182.55 L 232.87 182.51 L 234.74 182.41 L 236.61 182.25 L 238.48 182.01 L 240.35 181.72 L 242.22 181.35 L 244.09 180.92 L 245.96 180.42 L 247.83 179.86 L 249.7 179.23 L 251.57 178.53 L 253.44 177.77 L 255.31 176.94 L 257.18 176.04 L 259.05 175.08 L 260.92 174.05 L 262.79 172.95 L 264.66 171.79 L 266.53 170.57 L 268.4 169.27 L 270.27 167.91 L 272.14 166.48 L 274.01 164.99 L 275.88 163.43 L 277.75 161.8 L 279.62 160.11 L 281.49 158.35 L 283.36 156.53 L 285.23 154.64 L 287.1 152.68 L 288.97 150.65 L 290.84 148.56 L 292.71 146.41 L 294.58 144.18 L 296.45 141.89 L 298.32 139.54 L 300.19 137.11 L 302.06 134.62 L 303.93 132.07 L 305.8 129.45 L 307.67 126.76 L 309.54 124 L 311.41 121.18 L 313.28 118.3 L 315.15 115.34 L 317.02 112.32 L 318.89 109.24 L 320.76 106.08 L 322.63 102.86 L 324.5 99.58 L 326.37 96.23 L 328.24 92.81 L 330.11 89.32 L 331.98 85.77 L 333.85 82.16 L 335.72 78.47 L 337.59 74.72 L 339.46 70.91 L 341.33 67.02 L 343.2 63.07 L 345.07 59.06 L 346.94 54.98 L 348.81 50.83 L 350.68 46.61 L 352.55 42.33 L 354.42 37.99 L 356.29 33.57 L 358.16 29.09 L 360.03 24.55 L 361.9 19.93 L 363.77 15.25 L 365.64 10.51\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 44 40.32 L 45.87 45.03 L 47.74 49.67 L 49.61 54.24 L 51.48 58.75 L 53.35 63.19 L 55.22 67.57 L 57.09 71.88 L 58.96 76.12 L 60.83 80.3 L 62.7 84.41 L 64.57 88.45 L 66.44 92.43 L 68.31 96.34 L 70.18 100.19 L 72.05 103.96 L 73.92 107.68 L 75.79 111.32 L 77.66 114.9 L 79.53 118.42 L 81.4 121.86 L 83.27 125.24 L 85.14 128.56 L 87.01 131.8 L 88.88 134.98 L 90.75 138.1 L 92.62 141.15 L 94.49 144.13 L 96.36 147.05 L 98.23 149.89 L 100.1 152.68 L 101.97 155.39 L 103.84 158.04 L 105.71 160.63 L 107.58 163.15 L 109.45 165.6 L 111.32 167.98 L 113.19 170.3 L 115.06 172.55 L 116.93 174.74 L 118.8 176.86 L 120.67 178.91 L 122.54 180.9 L 124.41 182.82 L 126.28 184.67 L 128.15 186.46 L 130.02 188.18 L 131.89 189.83 L 133.76 191.42 L 135.63 192.94 L 137.5 194.4 L 139.37 195.79 L 141.24 197.11 L 143.11 198.37 L 144.98 199.56 L 146.85 200.68 L 148.72 201.74 L 150.59 202.73 L 152.46 203.65 L 154.33 204.51 L 156.2 205.3 L 158.07 206.03 L 159.94 206.69 L 161.81 207.28 L 163.68 207.81 L 165.55 208.26 L 167.42 208.66 L 169.29 208.99 L 171.16 209.25 L 173.03 209.44 L 174.9 209.57 L 176.77 209.63 L 178.64 209.63 L 180.51 209.55 L 182.38 209.42 L 184.25 209.21 L 186.12 208.94 L 187.99 208.61 L 189.86 208.2 L 191.73 207.73 L 193.6 207.2 L 195.47 206.6 L 197.34 205.93 L 199.21 205.19 L 201.08 204.39 L 202.95 203.52 L 204.82 202.59 L 206.69 201.59 L 208.56 200.52 L 210.43 199.39 L 212.3 198.19 L 214.17 196.92 L 216.04 195.59 L 217.91 194.19 L 219.78 192.73 L 221.65 191.2 L 223.52 189.6 L 225.39 187.94 L 227.26 186.21 L 229.13 184.41 L 231 182.55 L 232.87 180.62 L 234.74 178.62 L 236.61 176.56 L 238.48 174.43 L 240.35 172.23 L 242.22 169.97 L 244.09 167.64 L 245.96 165.25 L 247.83 162.79 L 249.7 160.26 L 251.57 157.67 L 253.44 155.01 L 255.31 152.28 L 257.18 149.49 L 259.05 146.63 L 260.92 143.71 L 262.79 140.72 L 264.66 137.66 L 266.53 134.53 L 268.4 131.34 L 270.27 128.09 L 272.14 124.76 L 274.01 121.37 L 275.88 117.92 L 277.75 114.39 L 279.62 110.81 L 281.49 107.15 L 283.36 103.43 L 285.23 99.64 L 287.1 95.79 L 288.97 91.87 L 290.84 87.88 L 292.71 83.83 L 294.58 79.71 L 296.45 75.52 L 298.32 71.27 L 300.19 66.95 L 302.06 62.56 L 303.93 58.11 L 305.8 53.59 L 307.67 49.01 L 309.54 44.36 L 311.41 39.64 L 313.28 34.86 L 315.15 30.01 L 317.02 25.09 L 318.89 20.11 L 320.76 15.06 L 322.63 9.94\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 44 229.95 L 45.87 232.77 L 47.74 235.51 L 49.61 238.19 L 51.48 240.8 L 53.35 243.35 L 55.22 245.83 L 57.09 248.24 L 58.96 250.59 L 60.83 252.87 L 62.7 255.08 L 64.57 257.23 L 66.44 259.31 L 68.31 261.33 L 70.18 263.27 L 72.05 265.16 L 73.92 266.97 L 75.79 268.72 L 77.66 270.4 L 79.53 272.02 L 81.4 273.57 L 83.27 275.05 L 85.14 276.47 L 87.01 277.82 L 88.88 279.11 L 90.75 280.33 L 92.62 281.48 L 94.49 282.56 L 96.36 283.58 L 98.23 284.54 L 100.1 285.42 L 101.97 286.24 L 103.84 287 L 105.71 287.68 L 107.58 288.31 L 109.45 288.86 L 111.32 289.35 L 113.19 289.77 L 115.06 290.13 L 116.93 290.42 L 118.8 290.64 L 120.67 290.79 L 122.54 290.88 L 124.41 290.91 L 126.28 290.87 L 128.15 290.76 L 130.02 290.58 L 131.89 290.34 L 133.76 290.03 L 135.63 289.66 L 137.5 289.22 L 139.37 288.71 L 141.24 288.13 L 143.11 287.49 L 144.98 286.79 L 146.85 286.02 L 148.72 285.18 L 150.59 284.27 L 152.46 283.3 L 154.33 282.26 L 156.2 281.16 L 158.07 279.99 L 159.94 278.75 L 161.81 277.44 L 163.68 276.07 L 165.55 274.64 L 167.42 273.13 L 169.29 271.57 L 171.16 269.93 L 173.03 268.23 L 174.9 266.46 L 176.77 264.62 L 178.64 262.72 L 180.51 260.76 L 182.38 258.72 L 184.25 256.62 L 186.12 254.46 L 187.99 252.22 L 189.86 249.92 L 191.73 247.56 L 193.6 245.13 L 195.47 242.63 L 197.34 240.06 L 199.21 237.43 L 201.08 234.73 L 202.95 231.97 L 204.82 229.14 L 206.69 226.24 L 208.56 223.28 L 210.43 220.25 L 212.3 217.15 L 214.17 213.99 L 216.04 210.76 L 217.91 207.47 L 219.78 204.11 L 221.65 200.68 L 223.52 197.19 L 225.39 193.62 L 227.26 190 L 229.13 186.3 L 231 182.55 L 232.87 178.72 L 234.74 174.83 L 236.61 170.87 L 238.48 166.84 L 240.35 162.75 L 242.22 158.59 L 244.09 154.37 L 245.96 150.08 L 247.83 145.72 L 249.7 141.3 L 251.57 136.81 L 253.44 132.25 L 255.31 127.63 L 257.18 122.94 L 259.05 118.19 L 260.92 113.37 L 262.79 108.48 L 264.66 103.52 L 266.53 98.5 L 268.4 93.42 L 270.27 88.26 L 272.14 83.04 L 274.01 77.76 L 275.88 72.4 L 277.75 66.99 L 279.62 61.5 L 281.49 55.95 L 283.36 50.33 L 285.23 44.65 L 287.1 38.9 L 288.97 33.08 L 290.84 27.2 L 292.71 21.25 L 294.58 15.23 L 296.45 9.15\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 105.71 331.52 L 107.58 327.11 L 109.45 322.76 L 111.32 318.48 L 113.19 314.26 L 115.06 310.11 L 116.93 306.03 L 118.8 302.02 L 120.67 298.07 L 122.54 294.18 L 124.41 290.37 L 126.28 286.62 L 128.15 282.93 L 130.02 279.32 L 131.89 275.77 L 133.76 272.28 L 135.63 268.86 L 137.5 265.51 L 139.37 262.23 L 141.24 259.01 L 143.11 255.85 L 144.98 252.77 L 146.85 249.75 L 148.72 246.79 L 150.59 243.91 L 152.46 241.09 L 154.33 238.33 L 156.2 235.64 L 158.07 233.02 L 159.94 230.47 L 161.81 227.98 L 163.68 225.55 L 165.55 223.2 L 167.42 220.91 L 169.29 218.69 L 171.16 216.53 L 173.03 214.44 L 174.9 212.41 L 176.77 210.46 L 178.64 208.56 L 180.51 206.74 L 182.38 204.98 L 184.25 203.29 L 186.12 201.66 L 187.99 200.1 L 189.86 198.61 L 191.73 197.18 L 193.6 195.82 L 195.47 194.53 L 197.34 193.3 L 199.21 192.14 L 201.08 191.04 L 202.95 190.01 L 204.82 189.05 L 206.69 188.15 L 208.56 187.32 L 210.43 186.56 L 212.3 185.86 L 214.17 185.23 L 216.04 184.67 L 217.91 184.17 L 219.78 183.74 L 221.65 183.38 L 223.52 183.08 L 225.39 182.84 L 227.26 182.68 L 229.13 182.58 L 231 182.55 L 232.87 182.58 L 234.74 182.68 L 236.61 182.84 L 238.48 183.08 L 240.35 183.38 L 242.22 183.74 L 244.09 184.17 L 245.96 184.67 L 247.83 185.23 L 249.7 185.86 L 251.57 186.56 L 253.44 187.32 L 255.31 188.15 L 257.18 189.05 L 259.05 190.01 L 260.92 191.04 L 262.79 192.14 L 264.66 193.3 L 266.53 194.53 L 268.4 195.82 L 270.27 197.18 L 272.14 198.61 L 274.01 200.1 L 275.88 201.66 L 277.75 203.29 L 279.62 204.98 L 281.49 206.74 L 283.36 208.56 L 285.23 210.46 L 287.1 212.41 L 288.97 214.44 L 290.84 216.53 L 292.71 218.69 L 294.58 220.91 L 296.45 223.2 L 298.32 225.55 L 300.19 227.98 L 302.06 230.47 L 303.93 233.02 L 305.8 235.64 L 307.67 238.33 L 309.54 241.09 L 311.41 243.91 L 313.28 246.79 L 315.15 249.75 L 317.02 252.77 L 318.89 255.85 L 320.76 259.01 L 322.63 262.23 L 324.5 265.51 L 326.37 268.86 L 328.24 272.28 L 330.11 275.77 L 331.98 279.32 L 333.85 282.93 L 335.72 286.62 L 337.59 290.37 L 339.46 294.18 L 341.33 298.07 L 343.2 302.02 L 345.07 306.03 L 346.94 310.11 L 348.81 314.26 L 350.68 318.48 L 352.55 322.76 L 354.42 327.11 L 356.29 331.52\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"6 4\"/><circle cx=\"337.86\" cy=\"290.91\" r=\"4\" fill=\"#B43123\"/><circle cx=\"284.43\" cy=\"209.64\" r=\"4\" fill=\"#B43123\"/><circle cx=\"231\" cy=\"182.55\" r=\"4\" fill=\"#B43123\"/><circle cx=\"177.57\" cy=\"209.64\" r=\"4\" fill=\"#B43123\"/><circle cx=\"124.14\" cy=\"290.91\" r=\"4\" fill=\"#B43123\"/><circle cx=\"231\" cy=\"182.55\" r=\"4.5\" fill=\"#2B2527\"/><text x=\"292.44\" y=\"63.35\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">(0 ; 1)</text><line x1=\"239.01\" y1=\"76.89\" x2=\"287.1\" y2=\"71.47\" stroke=\"#2B2527\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"343.2\" y=\"301.75\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#B43123\">y = 1 − x²</text></svg></span><p><strong>a)</strong> Visa att alla graferna går genom en och samma punkt.</p><p><strong>b)</strong> Visa att minimipunkterna för alla värden på \\(p\\) ligger på kurvan \\(y=1-x^2\\).</p><p><strong>c)</strong> Bestäm för vilka \\(p\\) grafen tangerar \\(x\\)-axeln, och förklara hur dessa fall syns i b).</p>",
-    "s": "<p>Uttryck minimipunktens koordinater i \\(p\\) och eliminera sedan \\(p\\). Det som återstår är ett samband mellan \\(x\\) och \\(y\\) – alltså en kurva.</p><p><strong>a)</strong> \\(f_p(0)=0+0+1=1\\) oavsett \\(p\\), så alla grafer går genom \\((0{,}1)\\).</p><p><strong>b)</strong> Kvadratkomplettering ger</p><p>\\(x^2+px+1=\\left(x+\\dfrac{p}{2}\\right)^2+1-\\dfrac{p^2}{4}\\).</p><p>Minimipunkten är alltså \\(\\left(-\\dfrac{p}{2},\\ 1-\\dfrac{p^2}{4}\\right)\\).</p><p>Sätt \\(x=-\\dfrac{p}{2}\\). Då är \\(\\dfrac{p^2}{4}=x^2\\), och minimipunktens \\(y\\)-värde blir \\(y=1-x^2\\).</p><p>Varje minimipunkt uppfyller alltså sambandet \\(y=1-x^2\\). Eftersom \\(-p/2\\) antar alla reella värden när \\(p\\) gör det, träffas dessutom hela kurvan.</p><p><strong>c)</strong> Grafen tangerar \\(x\\)-axeln när minimivärdet är noll: \\(1-\\dfrac{p^2}{4}=0\\), alltså \\(p=\\pm2\\). Då blir \\(f_2(x)=(x+1)^2\\) och \\(f_{-2}(x)=(x-1)^2\\).</p><p>I b) motsvarar detta de punkter där kurvan \\(y=1-x^2\\) skär \\(x\\)-axeln, alltså \\((-1{,}0)\\) och \\((1{,}0)\\). För \\(-2&lt;p&lt;2\\) ligger minimipunkten ovanför \\(x\\)-axeln och grafen saknar nollställen.</p><p><strong>a) alla går genom \\((0{,}1)\\)  b) minimipunkterna ligger på \\(y=1-x^2\\)  c) \\(p=-2\\) och \\(p=2\\)</strong></p><p>Den röda kurvan är inte någon av funktionerna i skaran – den är spåret som topparna ritar. Att skilja på en kurvskara och kurvan genom skarans extrempunkter är hela poängen med uppgiften.</p>",
+    "s": "<p>Uttryck minimipunktens koordinater i \\(p\\) och eliminera sedan \\(p\\). Det som återstår är ett samband mellan \\(x\\) och \\(y\\) – alltså en kurva.</p><p><strong>a)</strong> \\(f_p(0)=0+0+1=1\\) oavsett \\(p\\), så alla grafer går genom \\((0,\\,1)\\).</p><p><strong>b)</strong> Kvadratkomplettering ger</p><p>\\(x^2+px+1=\\left(x+\\dfrac{p}{2}\\right)^2+1-\\dfrac{p^2}{4}\\).</p><p>Minimipunkten är alltså \\(\\left(-\\dfrac{p}{2},\\ 1-\\dfrac{p^2}{4}\\right)\\).</p><p>Sätt \\(x=-\\dfrac{p}{2}\\). Då är \\(\\dfrac{p^2}{4}=x^2\\), och minimipunktens \\(y\\)-värde blir \\(y=1-x^2\\).</p><p>Varje minimipunkt uppfyller alltså sambandet \\(y=1-x^2\\). Eftersom \\(-p/2\\) antar alla reella värden när \\(p\\) gör det, träffas dessutom hela kurvan.</p><p><strong>c)</strong> Grafen tangerar \\(x\\)-axeln när minimivärdet är noll: \\(1-\\dfrac{p^2}{4}=0\\), alltså \\(p=\\pm2\\). Då blir \\(f_2(x)=(x+1)^2\\) och \\(f_{-2}(x)=(x-1)^2\\).</p><p>I b) motsvarar detta de punkter där kurvan \\(y=1-x^2\\) skär \\(x\\)-axeln, alltså \\((-1,\\,0)\\) och \\((1,\\,0)\\). För \\(-2&lt;p&lt;2\\) ligger minimipunkten ovanför \\(x\\)-axeln och grafen saknar nollställen.</p><p><strong>a) alla går genom \\((0,\\,1)\\)  b) minimipunkterna ligger på \\(y=1-x^2\\)  c) \\(p=-2\\) och \\(p=2\\)</strong></p><p>Den röda kurvan är inte någon av funktionerna i skaran – den är spåret som topparna ritar. Att skilja på en kurvskara och kurvan genom skarans extrempunkter är hela poängen med uppgiften.</p>",
     "familj": "Tolka andragradsfunktioner från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -61218,7 +61292,7 @@ window.BANKMA2 = [
     "niva": "A",
     "poang": "0/1/3",
     "t": "<p>En exponentialfunktion \\(f\\) med positiva funktionsvärden uppfyller</p><p>\\[f(x+2)=3f(x)\\]</p><p>för alla \\(x\\). Dessutom är \\(f(1)+f(3)=40\\).</p><span class=\"fig smal\"><svg width=\"450\" height=\"350\" viewBox=\"0 0 450 350\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Exponentialkurva där värdet tredubblas på två steg\"><rect x=\"1\" y=\"1\" width=\"448\" height=\"348\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"318\" x2=\"48\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"107.38\" y1=\"318\" x2=\"107.38\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"166.75\" y1=\"318\" x2=\"166.75\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"226.12\" y1=\"318\" x2=\"226.12\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"285.5\" y1=\"318\" x2=\"285.5\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"344.88\" y1=\"318\" x2=\"344.88\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"404.25\" y1=\"318\" x2=\"404.25\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"318\" x2=\"428\" y2=\"318\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"288.2\" x2=\"428\" y2=\"288.2\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"258.4\" x2=\"428\" y2=\"258.4\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"228.6\" x2=\"428\" y2=\"228.6\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"198.8\" x2=\"428\" y2=\"198.8\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"169\" x2=\"428\" y2=\"169\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"139.2\" x2=\"428\" y2=\"139.2\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"109.4\" x2=\"428\" y2=\"109.4\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"79.6\" x2=\"428\" y2=\"79.6\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"49.8\" x2=\"428\" y2=\"49.8\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"20\" x2=\"428\" y2=\"20\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"318\" x2=\"428\" y2=\"318\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"119.25\" y1=\"318\" x2=\"119.25\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"59.88\" y=\"335\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"178.62\" y=\"335\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"238\" y=\"335\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"297.38\" y=\"335\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"356.75\" y=\"335\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"416.12\" y=\"335\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"111.25\" y=\"291.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><text x=\"111.25\" y=\"261.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">20</text><text x=\"111.25\" y=\"232.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">30</text><text x=\"111.25\" y=\"202.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">40</text><text x=\"111.25\" y=\"172.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">50</text><text x=\"111.25\" y=\"142.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">60</text><text x=\"111.25\" y=\"112.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">70</text><text x=\"111.25\" y=\"83.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">80</text><text x=\"111.25\" y=\"53.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">90</text><text x=\"111.25\" y=\"23.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">100</text><text x=\"428\" y=\"309\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">x</text><text x=\"127.25\" y=\"30\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">y</text><path d=\"M 48 309.1 L 49.9 308.94 L 51.8 308.78 L 53.7 308.62 L 55.6 308.45 L 57.5 308.28 L 59.4 308.11 L 61.3 307.93 L 63.2 307.76 L 65.1 307.57 L 67 307.39 L 68.9 307.2 L 70.8 307.01 L 72.7 306.82 L 74.6 306.62 L 76.5 306.42 L 78.4 306.21 L 80.3 306 L 82.2 305.79 L 84.1 305.57 L 86 305.35 L 87.9 305.13 L 89.8 304.9 L 91.7 304.67 L 93.6 304.43 L 95.5 304.19 L 97.4 303.94 L 99.3 303.69 L 101.2 303.44 L 103.1 303.18 L 105 302.92 L 106.9 302.65 L 108.8 302.38 L 110.7 302.1 L 112.6 301.82 L 114.5 301.53 L 116.4 301.24 L 118.3 300.95 L 120.2 300.64 L 122.1 300.34 L 124 300.02 L 125.9 299.7 L 127.8 299.38 L 129.7 299.05 L 131.6 298.71 L 133.5 298.37 L 135.4 298.02 L 137.3 297.67 L 139.2 297.31 L 141.1 296.94 L 143 296.57 L 144.9 296.19 L 146.8 295.8 L 148.7 295.41 L 150.6 295.01 L 152.5 294.6 L 154.4 294.18 L 156.3 293.76 L 158.2 293.33 L 160.1 292.89 L 162 292.45 L 163.9 292 L 165.8 291.53 L 167.7 291.06 L 169.6 290.59 L 171.5 290.1 L 173.4 289.61 L 175.3 289.1 L 177.2 288.59 L 179.1 288.07 L 181 287.54 L 182.9 287 L 184.8 286.45 L 186.7 285.89 L 188.6 285.32 L 190.5 284.74 L 192.4 284.15 L 194.3 283.55 L 196.2 282.94 L 198.1 282.32 L 200 281.68 L 201.9 281.04 L 203.8 280.38 L 205.7 279.72 L 207.6 279.04 L 209.5 278.35 L 211.4 277.64 L 213.3 276.93 L 215.2 276.2 L 217.1 275.46 L 219 274.71 L 220.9 273.94 L 222.8 273.16 L 224.7 272.36 L 226.6 271.55 L 228.5 270.73 L 230.4 269.89 L 232.3 269.04 L 234.2 268.17 L 236.1 267.28 L 238 266.38 L 239.9 265.47 L 241.8 264.54 L 243.7 263.59 L 245.6 262.63 L 247.5 261.64 L 249.4 260.64 L 251.3 259.63 L 253.2 258.59 L 255.1 257.54 L 257 256.47 L 258.9 255.37 L 260.8 254.26 L 262.7 253.13 L 264.6 251.98 L 266.5 250.81 L 268.4 249.62 L 270.3 248.41 L 272.2 247.17 L 274.1 245.92 L 276 244.64 L 277.9 243.34 L 279.8 242.02 L 281.7 240.67 L 283.6 239.3 L 285.5 237.9 L 287.4 236.48 L 289.3 235.04 L 291.2 233.56 L 293.1 232.07 L 295 230.54 L 296.9 228.99 L 298.8 227.41 L 300.7 225.81 L 302.6 224.17 L 304.5 222.51 L 306.4 220.82 L 308.3 219.09 L 310.2 217.34 L 312.1 215.55 L 314 213.74 L 315.9 211.89 L 317.8 210.01 L 319.7 208.09 L 321.6 206.14 L 323.5 204.16 L 325.4 202.14 L 327.3 200.08 L 329.2 197.99 L 331.1 195.87 L 333 193.7 L 334.9 191.49 L 336.8 189.25 L 338.7 186.97 L 340.6 184.64 L 342.5 182.28 L 344.4 179.87 L 346.3 177.42 L 348.2 174.93 L 350.1 172.39 L 352 169.81 L 353.9 167.18 L 355.8 164.51 L 357.7 161.79 L 359.6 159.02 L 361.5 156.2 L 363.4 153.33 L 365.3 150.41 L 367.2 147.44 L 369.1 144.41 L 371 141.33 L 372.9 138.2 L 374.8 135.01 L 376.7 131.77 L 378.6 128.47 L 380.5 125.1 L 382.4 121.68 L 384.3 118.2 L 386.2 114.66 L 388.1 111.05 L 390 107.38 L 391.9 103.65 L 393.8 99.85 L 395.7 95.98 L 397.6 92.04 L 399.5 88.03 L 401.4 83.96 L 403.3 79.81 L 405.2 75.58 L 407.1 71.28 L 409 66.91 L 410.9 62.46 L 412.8 57.92 L 414.7 53.31 L 416.6 48.62 L 418.5 43.84 L 420.4 38.98 L 422.3 34.03 L 424.2 29 L 426.1 23.87 L 428 18.66\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"178.62\" y1=\"318\" x2=\"178.62\" y2=\"288.2\" stroke=\"#5C575E\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-dasharray=\"4 4\"/><circle cx=\"178.62\" cy=\"288.2\" r=\"4.5\" fill=\"#2A5D9E\"/><line x1=\"297.38\" y1=\"318\" x2=\"297.38\" y2=\"228.6\" stroke=\"#5C575E\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-dasharray=\"4 4\"/><circle cx=\"297.38\" cy=\"228.6\" r=\"4.5\" fill=\"#2A5D9E\"/><line x1=\"416.12\" y1=\"318\" x2=\"416.12\" y2=\"49.8\" stroke=\"#5C575E\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-dasharray=\"4 4\"/><circle cx=\"416.12\" cy=\"49.8\" r=\"4.5\" fill=\"#2A5D9E\"/><text x=\"170.62\" y=\"284.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2A5D9E\">10</text><text x=\"289.38\" y=\"224.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2A5D9E\">30</text><text x=\"408.12\" y=\"45.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2A5D9E\">90</text><text x=\"238\" y=\"163.04\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">×3</text><text x=\"356.75\" y=\"103.44\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">×3</text><path d=\"M 187.53 174.96 Q 238 145.16 288.47 174.96\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.4\"/><path d=\"M 306.28 115.36 Q 356.75 85.56 407.22 115.36\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.4\"/></svg></span><p><strong>a)</strong> Bestäm ett uttryck för \\(f(x)\\).</p><p><strong>b)</strong> Lös ekvationen \\(f(x)=15\\). Svara med två decimaler.</p><p><strong>c)</strong> Förklara varför villkoret \\(f(x+2)=3f(x)\\) inte räcker för att bestämma funktionen, trots att det gäller för alla \\(x\\).</p>",
-    "s": "<p>Villkoret \\(f(x+2)=3f(x)\\) handlar om förändringsfaktorn, inte om något enskilt funktionsvärde. Det ger \\(a\\) i \\(f(x)=Ca^x\\), men säger ingenting om \\(C\\).</p><p><strong>a) Steg 1 – ansats.</strong> En exponentialfunktion har formen \\(f(x)=C\\cdot a^x\\) med \\(C&gt;0\\) och \\(a&gt;0\\).</p><p><strong>Steg 2 – använd förskjutningsvillkoret.</strong></p><p>\\(f(x+2)=C\\cdot a^{x+2}=C\\cdot a^x\\cdot a^2=a^2\\cdot f(x)\\).</p><p>Villkoret säger att detta ska vara \\(3f(x)\\) för alla \\(x\\). Eftersom \\(f(x)\\ne0\\) kan vi dividera bort det:</p><p>\\(a^2=3\\), alltså \\(a=\\sqrt3\\) (den negativa roten faller bort eftersom basen måste vara positiv).</p><p>Med ord: varje gång \\(x\\) ökar med 2 tredubblas funktionsvärdet, oavsett var man startar.</p><p><strong>Steg 3 – använd summavillkoret.</strong> Punkterna \\(x=1\\) och \\(x=3\\) ligger just 2 steg isär, så \\(f(3)=3f(1)\\). Då är</p><p>\\(f(1)+f(3)=f(1)+3f(1)=4f(1)=40\\), alltså \\(f(1)=10\\) och \\(f(3)=30\\).</p><p><strong>Steg 4 – skriv funktionen.</strong> Utgå från punkten \\((1{,}10)\\). Eftersom värdet ändras med faktorn \\(\\sqrt3\\) per steg i \\(x\\):</p><p>\\(f(x)=10\\cdot(\\sqrt3)^{\\,x-1}\\).</p><p>Vill man ha formen \\(C\\cdot a^x\\) blir \\(C=\\dfrac{10}{\\sqrt3}\\approx5{,}77\\), alltså \\(f(x)\\approx5{,}77\\cdot(\\sqrt3)^x\\). Kontroll: \\(f(1)=10\\) ✓ och \\(f(3)=10\\cdot(\\sqrt3)^2=30\\) ✓.</p><p><strong>b)</strong> Ekvationen blir</p><p>\\(10\\cdot(\\sqrt3)^{\\,x-1}=15\\Rightarrow(\\sqrt3)^{\\,x-1}=1{,}5\\).</p><p>Logaritmera båda leden:</p><p>\\((x-1)\\lg\\sqrt3=\\lg 1{,}5\\Rightarrow x-1=\\dfrac{\\lg 1{,}5}{\\lg\\sqrt3}\\approx\\dfrac{0{,}17609}{0{,}23856}\\approx0{,}7381\\).</p><p>\\(x\\approx1{,}74\\).</p><p>Rimlighetskontroll: 15 ligger mellan \\(f(1)=10\\) och \\(f(3)=30\\), men mycket närmare 10, så ett svar strax över 1 är väntat.</p><p><strong>c)</strong> Villkoret bestämmer bara basen. Funktionerna \\(f(x)=10(\\sqrt3)^{x-1}\\), \\(f(x)=(\\sqrt3)^x\\) och \\(f(x)=500(\\sqrt3)^x\\) uppfyller alla \\(f(x+2)=3f(x)\\), men de är olika funktioner. Det krävs alltså ytterligare information – här summan \\(f(1)+f(3)=40\\) – för att låsa fast startvärdet.</p><p><strong>a) \\(f(x)=10(\\sqrt3)^{\\,x-1}\\)  b) \\(x\\approx1{,}74\\)  c) villkoret ger bara förändringsfaktorn, inte startvärdet</strong></p><p>Uppgiften ger inte de två punkter man är van vid. I stället är den ena informationen en <em>egenskap hos förändringen</em> och den andra en summa av två värden. Insikten att \\(f(3)=3f(1)\\) gör summan till en enkel ekvation i ett obekant tal.</p>",
+    "s": "<p>Villkoret \\(f(x+2)=3f(x)\\) handlar om förändringsfaktorn, inte om något enskilt funktionsvärde. Det ger \\(a\\) i \\(f(x)=Ca^x\\), men säger ingenting om \\(C\\).</p><p><strong>a) Steg 1 – ansats.</strong> En exponentialfunktion har formen \\(f(x)=C\\cdot a^x\\) med \\(C&gt;0\\) och \\(a&gt;0\\).</p><p><strong>Steg 2 – använd förskjutningsvillkoret.</strong></p><p>\\(f(x+2)=C\\cdot a^{x+2}=C\\cdot a^x\\cdot a^2=a^2\\cdot f(x)\\).</p><p>Villkoret säger att detta ska vara \\(3f(x)\\) för alla \\(x\\). Eftersom \\(f(x)\\ne0\\) kan vi dividera bort det:</p><p>\\(a^2=3\\), alltså \\(a=\\sqrt3\\) (den negativa roten faller bort eftersom basen måste vara positiv).</p><p>Med ord: varje gång \\(x\\) ökar med 2 tredubblas funktionsvärdet, oavsett var man startar.</p><p><strong>Steg 3 – använd summavillkoret.</strong> Punkterna \\(x=1\\) och \\(x=3\\) ligger just 2 steg isär, så \\(f(3)=3f(1)\\). Då är</p><p>\\(f(1)+f(3)=f(1)+3f(1)=4f(1)=40\\), alltså \\(f(1)=10\\) och \\(f(3)=30\\).</p><p><strong>Steg 4 – skriv funktionen.</strong> Utgå från punkten \\((1,\\,10)\\). Eftersom värdet ändras med faktorn \\(\\sqrt3\\) per steg i \\(x\\):</p><p>\\(f(x)=10\\cdot(\\sqrt3)^{\\,x-1}\\).</p><p>Vill man ha formen \\(C\\cdot a^x\\) blir \\(C=\\dfrac{10}{\\sqrt3}\\approx5{,}77\\), alltså \\(f(x)\\approx5{,}77\\cdot(\\sqrt3)^x\\). Kontroll: \\(f(1)=10\\) ✓ och \\(f(3)=10\\cdot(\\sqrt3)^2=30\\) ✓.</p><p><strong>b)</strong> Ekvationen blir</p><p>\\(10\\cdot(\\sqrt3)^{\\,x-1}=15\\Rightarrow(\\sqrt3)^{\\,x-1}=1{,}5\\).</p><p>Logaritmera båda leden:</p><p>\\((x-1)\\lg\\sqrt3=\\lg 1{,}5\\Rightarrow x-1=\\dfrac{\\lg 1{,}5}{\\lg\\sqrt3}\\approx\\dfrac{0{,}17609}{0{,}23856}\\approx0{,}7381\\).</p><p>\\(x\\approx1{,}74\\).</p><p>Rimlighetskontroll: 15 ligger mellan \\(f(1)=10\\) och \\(f(3)=30\\), men mycket närmare 10, så ett svar strax över 1 är väntat.</p><p><strong>c)</strong> Villkoret bestämmer bara basen. Funktionerna \\(f(x)=10(\\sqrt3)^{x-1}\\), \\(f(x)=(\\sqrt3)^x\\) och \\(f(x)=500(\\sqrt3)^x\\) uppfyller alla \\(f(x+2)=3f(x)\\), men de är olika funktioner. Det krävs alltså ytterligare information – här summan \\(f(1)+f(3)=40\\) – för att låsa fast startvärdet.</p><p><strong>a) \\(f(x)=10(\\sqrt3)^{\\,x-1}\\)  b) \\(x\\approx1{,}74\\)  c) villkoret ger bara förändringsfaktorn, inte startvärdet</strong></p><p>Uppgiften ger inte de två punkter man är van vid. I stället är den ena informationen en <em>egenskap hos förändringen</em> och den andra en summa av två värden. Insikten att \\(f(3)=3f(1)\\) gör summan till en enkel ekvation i ett obekant tal.</p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -61948,8 +62022,8 @@ window.BANKMA2 = [
     "omr": "linjara_representationer",
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>En rät linje går genom \\((2{,}7)\\). När \\(x\\) ökar med 3 minskar \\(y\\) med 6.</p><p>a) Bestäm linjens ekvation.<br>b) En annan linje är \\(y=(a-1)x+5\\). Bestäm \\(a\\) så att linjerna är parallella och förklara varför de då inte sammanfaller.</p>",
-    "s": "<p><strong>Bestäm lutningen:</strong> Förändringen är \\(\\Delta y=-6\\) när \\(\\Delta x=3\\), alltså</p><p>\\[k=\\frac{-6}{3}=-2.\\]</p><p>Sätt punkten \\((2{,}7)\\) i \\(y=-2x+m\\):</p><p>\\[7=-2\\cdot2+m\\Rightarrow m=11.\\]</p><p>Linjen är därför \\(y=-2x+11\\).</p><p>Parallellitet kräver samma lutning: \\(a-1=-2\\Rightarrow a=-1\\). Den andra linjen blir då \\(y=-2x+5\\). Konstanttermerna 11 och 5 är olika, så linjerna är parallella men inte samma linje.</p>",
+    "t": "<p>En rät linje går genom \\((2,\\,7)\\). När \\(x\\) ökar med 3 minskar \\(y\\) med 6.</p><p>a) Bestäm linjens ekvation.<br>b) En annan linje är \\(y=(a-1)x+5\\). Bestäm \\(a\\) så att linjerna är parallella och förklara varför de då inte sammanfaller.</p>",
+    "s": "<p><strong>Bestäm lutningen:</strong> Förändringen är \\(\\Delta y=-6\\) när \\(\\Delta x=3\\), alltså</p><p>\\[k=\\frac{-6}{3}=-2.\\]</p><p>Sätt punkten \\((2,\\,7)\\) i \\(y=-2x+m\\):</p><p>\\[7=-2\\cdot2+m\\Rightarrow m=11.\\]</p><p>Linjen är därför \\(y=-2x+11\\).</p><p>Parallellitet kräver samma lutning: \\(a-1=-2\\Rightarrow a=-1\\). Den andra linjen blir då \\(y=-2x+5\\). Konstanttermerna 11 och 5 är olika, så linjerna är parallella men inte samma linje.</p>",
     "familj": "Tolka och växla mellan linjära representationer",
     "formaga": [
       "problemlösning",
@@ -62156,8 +62230,8 @@ window.BANKMA2 = [
     "omr": "exponentialgraf",
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>En avtagande exponentialfunktion går genom punkterna \\((0{,}320)\\) och \\((3{,}40)\\).</p><p>a) Bestäm funktionens förändringsfaktor per x-enhet.<br>b) Förklara varför grafen aldrig når y = 0 enligt modellen.</p>",
-    "s": "<p>Skriv \\(f(x)=320\\cdot a^x\\). Punkten \\((3{,}40)\\) ger</p><p>\\[40=320a^3\\Rightarrow a^3=\\frac18\\Rightarrow a=\\frac12.\\]</p><p>Förändringsfaktorn är alltså 0,5, vilket betyder en minskning med 50 % per x-enhet.</p><p>För varje ändligt x är \\(0{,}5^x>0\\). Produkten \\(320\\cdot0{,}5^x\\) kan därför bli hur liten som helst men aldrig exakt noll. x-axeln är en asymptot till grafen.</p>",
+    "t": "<p>En avtagande exponentialfunktion går genom punkterna \\((0,\\,320)\\) och \\((3,\\,40)\\).</p><p>a) Bestäm funktionens förändringsfaktor per x-enhet.<br>b) Förklara varför grafen aldrig når y = 0 enligt modellen.</p>",
+    "s": "<p>Skriv \\(f(x)=320\\cdot a^x\\). Punkten \\((3,\\,40)\\) ger</p><p>\\[40=320a^3\\Rightarrow a^3=\\frac18\\Rightarrow a=\\frac12.\\]</p><p>Förändringsfaktorn är alltså 0,5, vilket betyder en minskning med 50 % per x-enhet.</p><p>För varje ändligt x är \\(0{,}5^x>0\\). Produkten \\(320\\cdot0{,}5^x\\) kan därför bli hur liten som helst men aldrig exakt noll. x-axeln är en asymptot till grafen.</p>",
     "familj": "Tolka exponentialfunktion från graf",
     "formaga": [
       "problemlösning",
@@ -62448,7 +62522,7 @@ window.BANKMA2 = [
     ],
     "familj": "Lösningsformeln",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -62712,8 +62786,8 @@ window.BANKMA2 = [
     "omr": "mer_om_andragradsekvationer",
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Emil löser alla andragradsekvationer med pq-formeln.</p><p>a)&nbsp;Visa hur \\(x^2-49=0\\) och \\(x^2-7x=0\\) kan lösas snabbare än med pq-formeln.<br>b)&nbsp;Ge ett exempel på en ekvation där pq-formeln är det bästa valet, och motivera.</p>",
-    "s": "<p>a) \\(x^2-49=0\\) saknar x-term: \\(x^2=49\\) ger direkt \\(x=\\pm7\\). \\(x^2-7x=0\\) saknar konstantterm: \\(x(x-7)=0\\) ger \\(x=0\\) eller \\(x=7\\).</p><p>b) Till exempel \\(x^2-6x+2=0\\). Uttrycket går inte att faktorisera med heltal och båda termerna finns kvar, så pq-formeln är lämpligast: \\(x=3\\pm\\sqrt{9-2}=3\\pm\\sqrt7\\).</p><p><strong>a) rotutdragning respektive utbrytning &nbsp; b) t.ex. \\(x^2-6x+2=0\\) med \\(x=3\\pm\\sqrt7\\)</strong></p>",
+    "t": "<p>Emil använder alltid samma generella lösningsformel när han löser andragradsekvationer.</p><p>a)&nbsp;Visa hur \\(x^2-49=0\\) och \\(x^2-7x=0\\) kan lösas snabbare genom att utnyttja ekvationernas struktur.<br>b)&nbsp;Ge ett exempel på en andragradsekvation där en generell lösningsformel är ett bra val, och motivera.</p>",
+    "s": "<p>a) \\(x^2-49=0\\) saknar x-term: \\(x^2=49\\) ger direkt \\(x=\\pm7\\). \\(x^2-7x=0\\) saknar konstantterm: \\(x(x-7)=0\\) ger \\(x=0\\) eller \\(x=7\\).</p><p>b) Till exempel \\(x^2-6x+2=0\\). Uttrycket går inte att faktorisera med heltal och båda termerna finns kvar, så en generell lösningsformel är lämplig: \\(x=3\\pm\\sqrt{9-2}=3\\pm\\sqrt7\\).</p><p><strong>a) rotutdragning respektive utbrytning &nbsp; b) t.ex. \\(x^2-6x+2=0\\) med \\(x=3\\pm\\sqrt7\\)</strong></p>",
     "geogebra": false,
     "miniräknare": false,
     "tolerans": null,
@@ -62941,7 +63015,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "familj": "Kvadratkomplettering",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -63050,7 +63124,12 @@ window.BANKMA2 = [
     "familj": "Tillämpa andragradsmodeller",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true,
+      false
+    ]
   },
   {
     "id": "1.501",
@@ -63058,7 +63137,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Lös ekvationssystemen. Motivera för varje system vilken väg du valde.</p><p>a)&nbsp;\\(\\begin{cases}y=2x-1\\\\3x+y=14\\end{cases}\\)<br>b)&nbsp;\\(\\begin{cases}4x+3y=23\\\\2x-3y=7\\end{cases}\\)<br>c)&nbsp;\\(\\begin{cases}x=3y\\\\2x+y=21\\end{cases}\\)</p>",
-    "s": "<p>a) \\(3x+(2x-1)=14\\) ger \\(5x=15\\), alltså \\(x=3\\) och \\(y=5\\).</p><p>b) Addera ekvationerna så försvinner y-termerna: \\(6x=30\\), alltså \\(x=5\\). Insättning ger \\(20+3y=23\\), det vill säga \\(y=1\\).</p><p>c) Substitution är enklast eftersom \\(x\\) redan är utbrutet: \\(2(3y)+y=21\\) ger \\(7y=21\\), alltså \\(y=3\\) och \\(x=9\\).</p><p><strong>a) \\((3{,}5)\\) &nbsp; b) \\((5{,}1)\\) &nbsp; c) \\((9{,}3)\\), substitutionsmetoden</strong></p>",
+    "s": "<p>a) \\(3x+(2x-1)=14\\) ger \\(5x=15\\), alltså \\(x=3\\) och \\(y=5\\).</p><p>b) Addera ekvationerna så försvinner y-termerna: \\(6x=30\\), alltså \\(x=5\\). Insättning ger \\(20+3y=23\\), det vill säga \\(y=1\\).</p><p>c) Substitution är enklast eftersom \\(x\\) redan är utbrutet: \\(2(3y)+y=21\\) ger \\(7y=21\\), alltså \\(y=3\\) och \\(x=9\\).</p><p><strong>a) \\((3,\\,5)\\) &nbsp; b) \\((5,\\,1)\\) &nbsp; c) \\((9,\\,3)\\), substitutionsmetoden</strong></p>",
     "geogebra": false,
     "miniräknare": false,
     "tolerans": null,
@@ -63109,7 +63188,12 @@ window.BANKMA2 = [
     "familj": "Lösa linjära ekvationssystem",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": [
+      true,
+      true,
+      true
+    ]
   },
   {
     "id": "1.502",
@@ -63117,7 +63201,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Lös systemen.</p><p>a)&nbsp;\\(\\begin{cases}2x+y=11\\\\x-y=1\\end{cases}\\)<br>b)&nbsp;\\(\\begin{cases}3x+4y=18\\\\3x-2y=0\\end{cases}\\)<br>c)&nbsp;\\(\\begin{cases}5x+3y=21\\\\2x-3y=0\\end{cases}\\)</p>",
-    "s": "<p>a) Addera: \\(3x=12\\) ger \\(x=4\\), och \\(4-y=1\\) ger \\(y=3\\).</p><p>b) Subtrahera den andra från den första: \\(6y=18\\) ger \\(y=3\\), och \\(3x-6=0\\) ger \\(x=2\\).</p><p>c) Addera: \\(7x=21\\) ger \\(x=3\\), och \\(6-3y=0\\) ger \\(y=2\\).</p><p><strong>a) \\((4{,}3)\\) &nbsp; b) \\((2{,}3)\\) &nbsp; c) \\((3{,}2)\\)</strong></p>",
+    "s": "<p>a) Addera: \\(3x=12\\) ger \\(x=4\\), och \\(4-y=1\\) ger \\(y=3\\).</p><p>b) Subtrahera den andra från den första: \\(6y=18\\) ger \\(y=3\\), och \\(3x-6=0\\) ger \\(x=2\\).</p><p>c) Addera: \\(7x=21\\) ger \\(x=3\\), och \\(6-3y=0\\) ger \\(y=2\\).</p><p><strong>a) \\((4,\\,3)\\) &nbsp; b) \\((2,\\,3)\\) &nbsp; c) \\((3,\\,2)\\)</strong></p>",
     "geogebra": false,
     "miniräknare": false,
     "tolerans": null,
@@ -63234,7 +63318,7 @@ window.BANKMA2 = [
     "omr": "bestamma_linjara_funktioner",
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Punkterna \\(A=(-2{,}5)\\) och \\(B=(4,-7)\\) är givna.</p><p>a)&nbsp;Bestäm riktningskoefficienten för linjen genom \\(A\\) och \\(B\\).<br>b)&nbsp;Bestäm ekvationen för den linje som har samma riktningskoefficient och går genom \\((1{,}4)\\).<br>c)&nbsp;Avgör om linjerna i a) och b) är parallella, sammanfallande eller skär varandra.</p>",
+    "t": "<p>Punkterna \\(A=(-2{,}5)\\) och \\(B=(4,-7)\\) är givna.</p><p>a)&nbsp;Bestäm riktningskoefficienten för linjen genom \\(A\\) och \\(B\\).<br>b)&nbsp;Bestäm ekvationen för den linje som har samma riktningskoefficient och går genom \\((1,\\,4)\\).<br>c)&nbsp;Avgör om linjerna i a) och b) är parallella, sammanfallande eller skär varandra.</p>",
     "s": "<p>a) \\(k=\\dfrac{-7-5}{4-(-2)}=\\dfrac{-12}{6}=-2\\).</p><p>b) \\(4=-2\\cdot1+m\\) ger \\(m=6\\), alltså \\(y=-2x+6\\).</p><p>c) Linjen i a) har \\(5=-2(-2)+m\\), alltså \\(m=1\\) och \\(y=-2x+1\\). Linjerna har samma \\(k\\) men olika \\(m\\), så de är parallella och skär aldrig varandra.</p><p><strong>a) \\(k=-2\\) &nbsp; b) \\(y=-2x+6\\) &nbsp; c) parallella</strong></p>",
     "geogebra": false,
     "miniräknare": false,
@@ -63386,7 +63470,7 @@ window.BANKMA2 = [
     "omr": "pythagoras",
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Två uppgifter om samma sak, sedan en förklaring.</p><p>a)&nbsp;En rätvinklig triangel har kateterna 6,0 cm och 8,0 cm. Bestäm hypotenusan.<br>b)&nbsp;Bestäm avståndet mellan punkterna \\((-2{,}3)\\) och \\((4{,}11)\\).<br>c)&nbsp;Förklara varför avståndsformeln egentligen är Pythagoras sats.</p>",
+    "t": "<p>Två uppgifter om samma sak, sedan en förklaring.</p><p>a)&nbsp;En rätvinklig triangel har kateterna 6,0 cm och 8,0 cm. Bestäm hypotenusan.<br>b)&nbsp;Bestäm avståndet mellan punkterna \\((-2,\\,3)\\) och \\((4,\\,11)\\).<br>c)&nbsp;Förklara varför avståndsformeln egentligen är Pythagoras sats.</p>",
     "s": "<p>a) \\(h=\\sqrt{6^2+8^2}=\\sqrt{100}=10{,}0\\) cm.</p><p>b) \\(d=\\sqrt{(4-(-2))^2+(11-3)^2}=\\sqrt{36+64}=\\sqrt{100}=10\\) l.e.</p><p>c) Drar man en vågrät och en lodrät sträcka mellan punkterna bildas en rätvinklig triangel. Kateterna är \\(|x_2-x_1|\\) och \\(|y_2-y_1|\\), och hypotenusan är avståndet. Pythagoras sats ger då precis avståndsformeln.</p><p><strong>a) \\(10{,}0\\) cm &nbsp; b) \\(10\\) l.e. &nbsp; c) kateterna är skillnaderna i x-led och y-led</strong></p>",
     "geogebra": false,
     "miniräknare": false,
@@ -63817,1723 +63901,5669 @@ window.BANKMA2 = [
     "spel": false,
     "manuellKomplettering": true
   },
-{
-  "id": "2.813",
-  "kap": 2,
-  "omr": "andragradsfunktioner_tillampningar",
-  "kurs": [
-    "2a",
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/3/0",
-  "t": "<p>En drönares höjd filmas under en kort flygning. Ur filmen avläses följande data.</p><table class=\"data\"><thead><tr><th>Tid \\(t\\) (s)</th><th>Höjd \\(h\\) (m)</th></tr></thead><tbody><tr><td>0</td><td>1,5</td></tr><tr><td>1</td><td>15,2</td></tr><tr><td>2</td><td>19,4</td></tr><tr><td>3</td><td>14,3</td></tr><tr><td>4</td><td>0,8</td></tr></tbody></table><p>a)&nbsp;Bestäm med GeoGebra en kvadratisk regressionsmodell \\(h(t)=at^2+bt+c\\).<br>b)&nbsp;Bestäm drönarens största höjd enligt modellen.<br>c)&nbsp;När når modellen marknivån? Bedöm kort om svaret verkar rimligt utifrån mätdata.</p>",
-  "s": "<p>a) Kvadratisk regression ger ungefär \\(h(t)=-4{,}55t^2+17{,}97t+1{,}60\\).</p><p>b) Extrempunkten fås vid \\(t=-\\frac{b}{2a}\\approx1{,}97\\) s. Då är \\(h\\approx19{,}34\\) m.</p><p>c) Ekvationen \\(h(t)=0\\) ger en positiv rot \\(t\\approx4{,}04\\) s. Den negativa roten saknar fysisk betydelse. Eftersom den sista mätpunkten vid 4 s ligger på 0,8 m är 4,04 s rimligt.</p><p><strong>Modell: \\(h\\approx-4{,}55t^2+17{,}97t+1{,}60\\), maxhöjd ca 19,3 m, marknivå efter ca 4,04 s.</strong></p>",
-  "familj": "Kvadratisk regression och modellering",
-  "geogebra": true,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    null,
-    19.34,
-    4.04
-  ],
-  "tolerans": [
-    null,
-    0.2,
-    0.05
-  ],
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "procedur",
-    "resonemang"
-  ],
-  "svarFormat": [
-    "uttryck",
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarEtiketter": [
-    "a) modell",
-    "b) maxhöjd (m)",
-    "c) tid (s)"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Använd kvadratisk regression. Extrempunkten ger maxhöjden och skärningen med \\(t\\)-axeln ger när modellen når marken.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 3,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.814",
-  "kap": 2,
-  "omr": "andragradsfunktioner_tillampningar",
-  "kurs": [
-    "2a",
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/3/0",
-  "t": "<p>Tvärsnittet av en tunnel modelleras av</p><p>\\[h(x)=5{,}6-0{,}42x^2,\\]</p><p>där \\(h\\) är höjden i meter och \\(x\\) är det horisontella avståndet från tunnelns mittlinje.</p><p>En lastbil är 3,10 m bred och 4,25 m hög. Lastbilens mittlinje ligger \\(d\\) meter till höger om tunnelns mittlinje.</p><p>Bestäm det största värdet på \\(d\\) som gör att lastbilens båda övre hörn går fria från tunneltaket. Avgör också om en avvikelse på 0,30 m är säker.</p>",
-  "s": "<p>Det kritiska hörnet är det högra övre hörnet. Det ligger på avståndet \\(d+1{,}55\\) från tunnelns mitt.</p><p>Gränsfallet ges av</p><p>\\[5{,}6-0{,}42(d+1{,}55)^2=4{,}25.\\]</p><p>Därav</p><p>\\[(d+1{,}55)^2=\\frac{1{,}35}{0{,}42}\\]</p><p>och den relevanta lösningen ger \\(d\\approx0{,}243\\) m.</p><p>Eftersom \\(0{,}30>0{,}243\\) är 0,30 m för stor avvikelse.</p><p><strong>Största säkra avvikelse är ungefär 0,24 m. 0,30 m är inte säkert.</strong></p>",
-  "familj": "Andragradsfunktioner i geometri",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    0.243,
-    "nej"
-  ],
-  "tolerans": [
-    0.01,
-    null
-  ],
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "resonemang"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "text"
-  ],
-  "svarEtiketter": [
-    "största d (m)",
-    "0,30 m säkert?"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Det yttre övre hörnet är det som först träffar tunneltaket. Skriv dess \\(x\\)-koordinat med hjälp av \\(d\\) och halva lastbilens bredd.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.815",
-  "kap": 2,
-  "omr": "andragradsfunktioner_tillampningar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/3",
-  "t": "<p>Två vattenstrålar i en fontän modelleras, för den synliga delen av fontänen, av</p><p>\\[h_1(x)=-0{,}22(x-3{,}2)^2+4{,}8\\]</p><p>och</p><p>\\[h_2(x)=-0{,}15(x-7{,}6)^2+4{,}1.\\]</p><p>Här är \\(x\\) och \\(h\\) i meter. Den synliga fontänen ligger i intervallet \\(2\\le x\\le8\\).</p><p>a)&nbsp;Bestäm med digitalt verktyg var de två vattenstrålarna möts i den synliga delen.<br>b)&nbsp;En dekorativ ring har sin översta punkt 3,40 m över marken vid ungefär samma \\(x\\)-läge. Hur stor vertikal marginal finns mellan ringen och strålarnas mötespunkt?<br>c)&nbsp;Ekvationerna har även en annan matematisk skärning. Förklara varför den inte är relevant för fontänen.</p>",
-  "s": "<p>Skärningarna fås ur \\(h_1(x)=h_2(x)\\). Digital lösning ger ungefär \\(x=-18{,}08\\) och \\(x=5{,}62\\).</p><p>I intervallet \\(2\\le x\\le8\\) är endast \\(x\\approx5{,}62\\) relevant. Höjden där är \\(h\\approx3{,}51\\) m.</p><p>Marginalen till ringens överkant är \\(3{,}51-3{,}40\\approx0{,}11\\) m, alltså cirka 11 cm.</p><p>Den andra skärningen ligger långt utanför den del där modellerna beskriver de faktiska vattenstrålarna.</p><p><strong>Mötespunkt ungefär \\((5{,}62,\\,3{,}51)\\), marginal cirka 0,11 m.</strong></p>",
-  "familj": "Skärningar mellan andragradsmodeller",
-  "geogebra": true,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    5.62,
-    3.51,
-    0.11,
-    null
-  ],
-  "tolerans": [
-    0.03,
-    0.03,
-    0.02,
-    null
-  ],
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "resonemang",
-    "kommunikation"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt",
-    "numeriskt",
-    "resonemang"
-  ],
-  "svarEtiketter": [
-    "x-koordinat",
-    "höjd (m)",
-    "marginal (m)",
-    "förklaring"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Rita båda funktionerna i samma koordinatsystem och bestäm deras skärningar. Använd sedan det givna intervallet för att avgöra vilken skärning som är fysisk.</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 3,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.816",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "2a",
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/3/0",
-  "t": "<p>Två reservbatterier testas under identisk belastning. Deras återstående laddning i procent modelleras av</p><p>\\[A(t)=92\\cdot0{,}91^t,\\qquad B(t)=64\\cdot0{,}96^t,\\]</p><p>där \\(t\\) är tiden i timmar.</p><p>a)&nbsp;Efter hur lång tid har batterierna samma återstående laddning?<br>b)&nbsp;Vilket batteri håller sig över 20 % längst, och ungefär hur många timmar längre?<br>c)&nbsp;Förklara varför batteriet med lägre startvärde ändå kan bli det bättre valet på lång sikt.</p>",
-  "s": "<p>a) Lös \\(92\\cdot0{,}91^t=64\\cdot0{,}96^t\\). Det ger \\(t\\approx6{,}78\\) h. Då har båda ungefär 48,5 % kvar.</p><p>b) \\(A(t)=20\\) ger \\(t\\approx16{,}18\\) h. \\(B(t)=20\\) ger \\(t\\approx28{,}49\\) h. Batteri B håller sig alltså över 20 % ungefär \\(28{,}49-16{,}18=12{,}31\\) timmar längre.</p><p>c) B börjar lägre men minskar med endast 4 % per timme, medan A minskar med 9 % per timme. Den långsammare procentuella minskningen dominerar på lång sikt.</p><p><strong>Samma laddning efter ca 6,78 h. B håller sig över 20 % ca 12,3 h längre.</strong></p>",
-  "familj": "Jämföra exponentialmodeller",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    6.78,
-    12.31,
-    null
-  ],
-  "tolerans": [
-    0.05,
-    0.1,
-    null
-  ],
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "resonemang"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt",
-    "resonemang"
-  ],
-  "svarEtiketter": [
-    "a) tid (h)",
-    "b) skillnad (h)",
-    "c) förklaring"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Vid samma laddning kan du dividera exponentialuttrycken med varandra. För 20 %-gränsen löser du två separata exponentialekvationer.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.817",
-  "kap": 2,
-  "omr": "exponentialekvationer",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/3",
-  "t": "<p>Efter en dos läkemedel är koncentrationen i blodet 18 mg/L. Varje timme återstår 72 % av koncentrationen. Fyra timmar senare ges en andra dos som omedelbart bidrar med ytterligare 12 mg/L. Även den andra dosens bidrag minskar därefter med samma faktor 0,72 per timme.</p><p>a)&nbsp;Ställ upp en modell för den totala koncentrationen \\(C(t)\\) för \\(t\\ge4\\), där \\(t\\) mäts i timmar från den första dosen.<br>b)&nbsp;När efter den andra dosen sjunker den totala koncentrationen åter under 8 mg/L? Ange tiden räknad från den första dosen.<br>c)&nbsp;Hur lång tid är det efter den andra dosen?</p>",
-  "s": "<p>För \\(t\\ge4\\) finns två bidrag:</p><p>\\[C(t)=18\\cdot0{,}72^t+12\\cdot0{,}72^{t-4}.\\]</p><p>Faktorisera gärna:</p><p>\\[C(t)=0{,}72^t\\left(18+\\frac{12}{0{,}72^4}\\right).\\]</p><p>Lös \\(C(t)=8\\). Det ger \\(t\\approx6{,}27\\) timmar efter första dosen.</p><p>Den andra dosen gavs vid \\(t=4\\), så detta är ungefär \\(6{,}27-4=2{,}27\\) timmar efter den andra dosen.</p><p><strong>\\(C(t)=18\\cdot0{,}72^t+12\\cdot0{,}72^{t-4}\\), under 8 mg/L efter ca 6,27 h från första dosen, dvs. ca 2,27 h efter den andra.</strong></p>",
-  "familj": "Sammansatta exponentialmodeller",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    null,
-    6.27,
-    2.27
-  ],
-  "tolerans": [
-    null,
-    0.05,
-    0.05
-  ],
-  "självrättning": false,
-  "formaga": [
-    "modellering",
-    "problemlösning",
-    "resonemang"
-  ],
-  "svarFormat": [
-    "uttryck",
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarEtiketter": [
-    "a) modell",
-    "b) tid från första dosen (h)",
-    "c) tid från andra dosen (h)"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Efter fyra timmar finns fortfarande en del av den första dosen kvar. Lägg till den andra dosens bidrag; de två bidragen har olika starttid men samma förändringsfaktor.</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 3,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.818",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "2a",
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/3/0",
-  "t": "<p>En bakteriekultur innehåller 500 bakterier. Under de första fyra timmarna ökar antalet med 28 % per timme. Därefter börjar näringen ta slut och ökningen sjunker till 12 % per timme.</p><p>Efter hur lång tid från start passerar kulturen 2500 bakterier enligt denna tvåstegsmodell? Redovisa hur du hanterar bytet av tillväxttakt.</p>",
-  "s": "<p>Efter fyra timmar finns</p><p>\\[500\\cdot1{,}28^4\\approx1342{,}18\\]</p><p>bakterier. För tiden efter fyra timmar kan modellen skrivas</p><p>\\[N(t)=1342{,}18\\cdot1{,}12^{t-4}.\\]</p><p>Lös \\(1342{,}18\\cdot1{,}12^{t-4}=2500\\). Det ger \\(t\\approx9{,}49\\) timmar från start.</p><p><strong>Cirka 9,49 timmar.</strong></p>",
-  "familj": "Styckvis exponentialmodell",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 9.49,
-  "tolerans": 0.05,
-  "självrättning": false,
-  "formaga": [
-    "modellering",
-    "problemlösning"
-  ],
-  "svarFormat": "numeriskt",
-  "ledtrad": "<p>Beräkna först antalet efter de första fyra timmarna. Använd sedan det värdet som startvärde för den nya tillväxtfasen.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.819",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "2a",
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/3/0",
-  "t": "<p>Två videoklipp sprids på olika sätt. Antalet visningar efter \\(t\\) timmar modelleras av</p><p>\\[A(t)=240\\cdot1{,}38^t,\\qquad B(t)=520\\cdot1{,}21^t.\\]</p><p>a)&nbsp;När går klipp A om klipp B?<br>b)&nbsp;Ungefär hur många visningar har båda då?<br>c)&nbsp;Hur många gånger fler visningar har A än B efter 12 timmar enligt modellerna? Kommentera vad förändringsfaktorerna betyder för utvecklingen på lång sikt.</p>",
-  "s": "<p>a) Lös \\(240\\cdot1{,}38^t=520\\cdot1{,}21^t\\). Då fås \\(t\\approx5{,}88\\) h.</p><p>b) Insättning ger ungefär 1596 visningar.</p><p>c) Efter 12 timmar ger modellerna ungefär \\(A(12)=11449\\) och \\(B(12)=5122\\). Kvoten är cirka \\(2{,}24\\). Eftersom A har den större förändringsfaktorn växer kvoten mellan A och B över tid.</p><p><strong>A går om efter ca 5,88 h vid ca 1600 visningar; efter 12 h har A ca 2,24 gånger så många.</strong></p>",
-  "familj": "Skärning mellan exponentialmodeller",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    5.88,
-    1596,
-    2.24,
-    null
-  ],
-  "tolerans": [
-    0.05,
-    20,
-    0.05,
-    null
-  ],
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "resonemang"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt",
-    "numeriskt",
-    "resonemang"
-  ],
-  "svarEtiketter": [
-    "a) tid (h)",
-    "b) visningar",
-    "c) kvot",
-    "kommentar"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Sätt modellerna lika. För långsiktsjämförelsen är kvoten mellan förändringsfaktorerna viktig.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.820",
-  "kap": 2,
-  "omr": "potensfunktioner",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/3/0",
-  "t": "<p>För vissa fåglar kan vingfrekvensen \\(f\\) ungefär beskrivas med en potensmodell \\(f=k m^a\\), där \\(m\\) är massan i kg.</p><p>En liten fågel med massan 0,030 kg slår ungefär 12 vingslag per sekund, medan en fågel med massan 4,0 kg slår ungefär 3,0 vingslag per sekund.</p><p>a)&nbsp;Bestäm \\(a\\) och \\(k\\).<br>b)&nbsp;Använd modellen för att uppskatta vingfrekvensen för en fågel med massan 0,40 kg.<br>c)&nbsp;Tolka tecknet på exponenten \\(a\\).</p>",
-  "s": "<p>Från kvoten mellan de två datapunkterna fås</p><p>\\[\\frac{3}{12}=\\left(\\frac{4}{0{,}03}\\right)^a.\\]</p><p>Därav \\(a\\approx-0{,}283\\). Med exempelvis första punkten fås \\(k\\approx4{,}44\\).</p><p>Modellen blir alltså ungefär \\(f=4{,}44m^{-0{,}283}\\).</p><p>För \\(m=0{,}40\\) fås \\(f\\approx5{,}76\\) vingslag/s.</p><p>Den negativa exponenten betyder att modellen förutsäger lägre vingfrekvens när massan ökar.</p><p><strong>\\(a\\approx-0{,}283\\), \\(k\\approx4{,}44\\), \\(f(0{,}40)\\approx5{,}76\\).</strong></p>",
-  "familj": "Bestämma potensmodell från två punkter",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    -0.283,
-    4.44,
-    5.76,
-    null
-  ],
-  "tolerans": [
-    0.01,
-    0.08,
-    0.1,
-    null
-  ],
-  "självrättning": false,
-  "formaga": [
-    "modellering",
-    "problemlösning",
-    "resonemang"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt",
-    "numeriskt",
-    "resonemang"
-  ],
-  "svarEtiketter": [
-    "a",
-    "k",
-    "frekvens",
-    "tolkning"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Dividera de två ekvationerna med varandra så försvinner konstanten \\(k\\). Då kan exponenten bestämmas med logaritmer.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 3,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.821",
-  "kap": 2,
-  "omr": "potensfunktioner",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/3",
-  "t": "<p>Vid ett bromstest mäts följande ungefärliga bromssträckor på torr väg.</p><table class=\"data\"><thead><tr><th>Hastighet \\(v\\) (km/h)</th><th>Bromssträcka \\(d\\) (m)</th></tr></thead><tbody><tr><td>30</td><td>5,8</td></tr><tr><td>50</td><td>15,4</td></tr><tr><td>70</td><td>29,8</td></tr><tr><td>90</td><td>49,7</td></tr><tr><td>110</td><td>73,9</td></tr></tbody></table><p>a)&nbsp;Gör en potensregression \\(d=av^b\\) i GeoGebra.<br>b)&nbsp;Uppskatta bromssträckan vid 100 km/h.<br>c)&nbsp;Modellen ger en exponent nära 2. Förklara vad det betyder för bromssträckan när hastigheten fördubblas, och jämför med modellens faktiska fördubblingsfaktor.</p>",
-  "s": "<p>a) Potensregression ger ungefär</p><p>\\[d=0{,}00728v^{1{,}961}.\\]</p><p>b) Vid 100 km/h blir \\(d\\approx60{,}8\\) m.</p><p>c) En exponent nära 2 betyder att bromssträckan nästan är proportionell mot kvadraten på hastigheten. En fördubbling multiplicerar enligt modellen sträckan med</p><p>\\[2^{1{,}961}\\approx3{,}89,\\]</p><p>alltså nästan fyra gånger.</p><p><strong>\\(d\\approx0{,}00728v^{1{,}961}\\), \\(d(100)\\approx60{,}8\\) m, fördubbling ger faktor ca 3,89.</strong></p>",
-  "familj": "Potensregression och tolkning",
-  "geogebra": true,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    null,
-    60.8,
-    3.89,
-    null
-  ],
-  "tolerans": [
-    null,
-    1,
-    0.08,
-    null
-  ],
-  "självrättning": false,
-  "formaga": [
-    "modellering",
-    "problemlösning",
-    "resonemang"
-  ],
-  "svarFormat": [
-    "uttryck",
-    "numeriskt",
-    "numeriskt",
-    "resonemang"
-  ],
-  "svarEtiketter": [
-    "a) modell",
-    "b) bromssträcka (m)",
-    "c) faktor",
-    "tolkning"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Använd potensregression. För att tolka exponenten kan du jämföra \\(d(2v)/d(v)=2^b\\).</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 3,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.822",
-  "kap": 2,
-  "omr": "potensfunktioner",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/3",
-  "t": "<p>I en förenklad modell antas energin \\(E\\) som krävs för att skapa en krater med diameter \\(D\\) följa en potenslag \\(E=kD^p\\).</p><p>Ett test ger \\(D=1{,}2\\) m vid \\(E=2{,}5\\) MJ och ett annat \\(D=2{,}8\\) m vid \\(E=22\\) MJ.</p><p>a)&nbsp;Bestäm en potensmodell för sambandet.<br>b)&nbsp;Hur stor diameter förutsäger modellen vid 50 MJ?<br>c)&nbsp;En elev säger: ”Dubbel energi ger dubbel diameter.” Använd exponenten för att bedöma påståendet.</p>",
-  "s": "<p>Dividera ekvationerna:</p><p>\\[\\frac{22}{2{,}5}=\\left(\\frac{2{,}8}{1{,}2}\\right)^p.\\]</p><p>Det ger \\(p\\approx2{,}567\\). Därefter fås \\(k\\approx1{,}566\\), alltså</p><p>\\[E\\approx1{,}566D^{2{,}567}.\\]</p><p>Vid \\(E=50\\) löser man \\(50=1{,}566D^{2{,}567}\\), vilket ger \\(D\\approx3{,}86\\) m.</p><p>Eftersom exponenten är större än 1 växer energibehovet snabbare än diametern. Om energin fördubblas multipliceras diametern bara med \\(2^{1/2{,}567}\\approx1{,}31\\), inte med 2.</p><p><strong>\\(E\\approx1{,}566D^{2{,}567}\\), diameter ca 3,86 m vid 50 MJ.</strong></p>",
-  "familj": "Potensmodell och invers problemlösning",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    2.567,
-    1.566,
-    3.86,
-    null
-  ],
-  "tolerans": [
-    0.02,
-    0.03,
-    0.08,
-    null
-  ],
-  "självrättning": false,
-  "formaga": [
-    "modellering",
-    "problemlösning",
-    "resonemang"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt",
-    "numeriskt",
-    "resonemang"
-  ],
-  "svarEtiketter": [
-    "p",
-    "k",
-    "diameter (m)",
-    "bedömning"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Dividera de två potenssambanden så att \\(k\\) försvinner. När modellen är bestämd behöver du sedan lösa den med avseende på \\(D\\).</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 3,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.823",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=3\\\\[2mm]\\lg\\!\\left(\\frac{x}{y}\\right)=1\\end{cases}\\]</p><p>Försök att inte börja med att skriva om systemet till \\(xy=1000\\) och \\(x/y=10\\). Använd i stället logaritmlagarna så att ett välbekant ekvationssystem träder fram.</p>",
-  "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Logaritmlagarna ger</p><p>\\[\\begin{cases}u+v=3\\\\u-v=1\\end{cases}\\]</p><p>Addition ger \\(2u=4\\), alltså \\(u=2\\). Då är \\(v=1\\).</p><p>Alltså \\(x=10^2=100\\) och \\(y=10^1=10\\).</p><p><strong>\\((x,y)=(100,10)\\).</strong></p>",
-  "familj": "Logaritmsystem",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    100,
-    10
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarEtiketter": [
-    "x",
-    "y"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Använd produkt- och kvotlagen innan du löser det nya systemet.</p>",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "spel": true
-},
-{
-  "id": "2.824",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/3",
-  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=3\\\\[2mm]\\lg\\!\\left(\\frac{x^2}{y}\\right)=1\\end{cases}\\]</p><p>Svara exakt.</p>",
-  "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då blir systemet</p><p>\\[\\begin{cases}u+v=3\\\\2u-v=1\\end{cases}\\]</p><p>Addition ger \\(3u=4\\), alltså \\(u=\\frac43\\). Då är \\(v=\\frac53\\).</p><p>Därför</p><p>\\[x=10^{4/3},\\qquad y=10^{5/3}.\\]</p><p><strong>\\((x,y)=\\left(10^{4/3},10^{5/3}\\right)\\).</strong></p>",
-  "familj": "Logaritmsystem",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    "10^(4/3)",
-    "10^(5/3)"
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "svarFormat": [
-    "uttryck",
-    "uttryck"
-  ],
-  "svarEtiketter": [
-    "x",
-    "y"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Låt \\(u=\\lg x\\), \\(v=\\lg y\\). Potenslagen gör den andra ekvationen linjär i \\(u\\) och \\(v\\).</p>",
-  "traningsniva":  5,
-  "arbetsinsats": 2,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.825",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/3/0",
-  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=4\\\\[2mm]\\lg x=2\\lg y-3\\end{cases}\\]</p><p>Visa hur systemet kan lösas med substitution efter ett lämpligt variabelbyte. Svara exakt.</p>",
-  "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då blir</p><p>\\[u+v=4,\\qquad u=2v-3.\\]</p><p>Substitution ger \\((2v-3)+v=4\\), alltså \\(3v=7\\) och \\(v=\\frac73\\). Då är \\(u=\\frac53\\).</p><p>Alltså</p><p>\\[x=10^{5/3},\\qquad y=10^{7/3}.\\]</p><p><strong>\\((x,y)=\\left(10^{5/3},10^{7/3}\\right)\\).</strong></p>",
-  "familj": "Logaritmsystem med substitution",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    "10^(5/3)",
-    "10^(7/3)"
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "procedur",
-    "resonemang"
-  ],
-  "svarFormat": [
-    "uttryck",
-    "uttryck"
-  ],
-  "svarEtiketter": [
-    "x",
-    "y"
-  ],
-  "svarsstruktur": "ordnad",
-  "ledtrad": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då får du ett linjärt system där den ena ekvationen redan är löst för \\(u\\).</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.826",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/3",
-  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg x+\\lg y=3\\\\[2mm](\\lg x)^2+(\\lg y)^2=5\\end{cases}\\]</p><p>Här räcker det inte att bara använda logaritmlagarna mekaniskt. Försök hitta ett variabelbyte som avslöjar strukturen och bestäm alla lösningar.</p>",
-  "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då gäller</p><p>\\[u+v=3,\\qquad u^2+v^2=5.\\]</p><p>Kvadrera den första ekvationen:</p><p>\\[9=u^2+2uv+v^2=5+2uv,\\]</p><p>så \\(uv=2\\). Talen \\(u\\) och \\(v\\) har alltså summa 3 och produkt 2. De är därför rötterna till</p><p>\\[z^2-3z+2=0,\\]</p><p>alltså \\(z=1\\) eller \\(z=2\\).</p><p>Därmed är \\((u,v)=(1,2)\\) eller \\((2,1)\\), vilket ger</p><p>\\[(x,y)=(10,100)\\quad\\text{eller}\\quad(100,10).\\]</p><p><strong>Två lösningar: \\((10,100)\\) och \\((100,10)\\).</strong></p>",
-  "familj": "Icke-linjärt logaritmsystem",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": null,
-  "tolerans": null,
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "resonemang",
-    "procedur"
-  ],
-  "svarFormat": [
-    "resonemang"
-  ],
-  "svarEtiketter": [
-    "lösningar"
-  ],
-  "svarsstruktur": "mängd",
-  "ledtrad": "<p>Sätt \\(u=\\lg x\\), \\(v=\\lg y\\). Du känner då både \\(u+v\\) och \\(u^2+v^2\\). Kan du därifrån bestämma \\(uv\\)?</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 3,
-  "spel": false,
-  "manuellKomplettering": true
-},
-{
-  "id": "2.827",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Bestäm det exakta värdet för \\(\\lg a^2+\\lg b^2\\) om \\(a\\cdot b=10^5\\).</p>",
-  "s": "<p>\\(\\lg a^2+\\lg b^2=2\\lg a+2\\lg b=2\\lg(ab)\\).</p><p>Eftersom \\(ab=10^5\\) fås \\(2\\lg(10^5)=2\\cdot5=10\\).</p><p><strong>10</strong></p>",
-  "familj": "NP-ankare: logaritmlagar",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 10,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Försök skriva ihop de båda logaritmerna så att produkten \\(ab\\) dyker upp.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": true,
-  "kalla": "NP Ma2c vt 2014, uppgift 9",
-  "referensTyp": "original"
-},
-{
-  "id": "2.828",
-  "kap": 2,
-  "omr": "andragradsekvationer",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Lös ekvationen \\[(x-\\sqrt3)^2-4(x-\\sqrt3)+3=0\\] om du vet att \\(t^2-4t+3=0\\) har lösningarna \\(t_1=3\\) och \\(t_2=1\\). Svara med exakta värden.</p>",
-  "s": "<p>Sätt \\(t=x-\\sqrt3\\). Då är \\(t=3\\) eller \\(t=1\\).</p><p>Alltså \\(x=3+\\sqrt3\\) eller \\(x=1+\\sqrt3\\).</p><p><strong>\\(x=1+\\sqrt3\\) eller \\(x=3+\\sqrt3\\).</strong></p>",
-  "familj": "NP-ankare: dold substitution",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    "1+sqrt(3)",
-    "3+sqrt(3)"
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Jämför uttrycket \\(x-\\sqrt3\\) med variabeln \\(t\\) i den enklare ekvationen.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": false,
-  "svarFormat": [
-    "uttryck",
-    "uttryck"
-  ],
-  "svarEtiketter": [
-    "x₁",
-    "x₂"
-  ],
-  "svarsstruktur": "mängd",
-  "manuellKomplettering": true,
-  "kalla": "NP Ma2c vt 2014, uppgift 10",
-  "referensTyp": "original"
-},
-{
-  "id": "2.829",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Lös ekvationen \\[\\lg5+2\\lg x=\\lg80.\\]</p>",
-  "s": "<p>\\(2\\lg x=\\lg x^2\\), så \\(\\lg(5x^2)=\\lg80\\). Därmed \\(5x^2=80\\), alltså \\(x^2=16\\).</p><p>Eftersom \\(\\lg x\\) kräver \\(x>0\\) fås <strong>\\(x=4\\)</strong>.</p>",
-  "familj": "NP-ankare: logaritmekvation",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 4,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Använd potenslagen och produktlagen. Glöm inte definitionsvillkoret för \\(\\lg x\\).</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": true,
-  "kalla": "NP Ma2c ht 2013, uppgift 7c",
-  "referensTyp": "original"
-},
-{
-  "id": "2.830",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Värdet på \\(\\lg2\\) är ungefär \\(0{,}301\\). Bestäm ett värde på \\(\\lg8\\) med tre decimaler.</p>",
-  "s": "<p>Eftersom \\(8=2^3\\) gäller \\(\\lg8=\\lg(2^3)=3\\lg2\\approx3\\cdot0{,}301=0{,}903\\).</p><p><strong>0,903</strong></p>",
-  "familj": "NP-ankare: logaritmstruktur",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.903,
-  "tolerans": 0.0005,
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "begrepp"
-  ],
-  "ledtrad": "<p>Skriv 8 som en potens med basen 2.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 1,
-  "spel": true,
-  "kalla": "NP Ma2c ht 2013, uppgift 8",
-  "referensTyp": "original"
-},
-{
-  "id": "2.831",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>Om \\(\\lg(2a)=6\\) så blir värdet av \\(\\lg(2000a)\\) ett heltal. Bestäm detta heltal.</p>",
-  "s": "<p>\\(2000a=1000\\cdot2a\\). Därför</p><p>\\[\\lg(2000a)=\\lg1000+\\lg(2a)=3+6=9.\\]</p><p><strong>9</strong></p>",
-  "familj": "NP-ankare: logaritmlagar C",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 9,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "ledtrad": "<p>Försök skriva \\(2000a\\) som \\(1000\\cdot(2a)\\).</p>",
-  "traningsniva": 3,
-  "arbetsinsats": 2,
-  "spel": true,
-  "kalla": "NP Ma2c ht 2014, uppgift 13",
-  "referensTyp": "original"
-},
-{
-  "id": "2.832",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Förenkla uttrycket så långt som möjligt:</p><p>\\[\\frac{\\lg\\sqrt{x}\\cdot\\lg\\left(\\frac{x}{2}\\right)^2}{\\lg\\left(\\frac{x}{2}\\right)}.\\]</p>",
-  "s": "<p>\\(\\lg\\sqrt{x}=\\frac12\\lg x\\) och \\(\\lg\\left(\\frac{x}{2}\\right)^2=2\\lg\\left(\\frac{x}{2}\\right)\\).</p><p>För \\(x>0\\) och \\(x\\ne2\\) kan faktorn \\(\\lg(x/2)\\) förkortas:</p><p>\\[\\frac{\\frac12\\lg x\\cdot2\\lg(x/2)}{\\lg(x/2)}=\\lg x.\\]</p><p><strong>\\(\\lg x\\)</strong></p>",
-  "familj": "NP-ankare: avancerad logaritmförenkling",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "lg(x)",
-  "tolerans": null,
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Använd potenslagen separat på \\(\\sqrt{x}\\) och på kvadraten.</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 2,
-  "spel": false,
-  "manuellKomplettering": true,
-  "kalla": "NP Ma2c vt 2015, uppgift 9b",
-  "referensTyp": "original"
-},
-{
-  "id": "2.833",
-  "kap": 2,
-  "omr": "andragradsekvationer",
-  "kurs": [
-    "2a",
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Lös ekvationen och svara exakt på enklaste form:</p><p>\\[(5987-x)^2-2(5987-x)=0.\\]</p>",
-  "s": "<p>Sätt \\(t=5987-x\\). Då blir \\(t^2-2t=0\\), alltså \\(t(t-2)=0\\).</p><p>Så \\(t=0\\) eller \\(t=2\\), vilket ger \\(x=5987\\) eller \\(x=5985\\).</p><p><strong>\\(x=5985\\) eller \\(x=5987\\).</strong></p>",
-  "familj": "NP-ankare: substitutionsidé",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    5985,
-    5987
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Hela uttrycket \\(5987-x\\) återkommer. Behandla det som en ny variabel.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarEtiketter": [
-    "x₁",
-    "x₂"
-  ],
-  "svarsstruktur": "mängd",
-  "kalla": "NP Ma2c vt 2022, uppgift 6e",
-  "referensTyp": "original"
-},
-{
-  "id": "2.834",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>I början av år 2011 köpte Matilda en dator för 10 000 kr. Datorns värde kan beskrivas med \\(V(t)=10000\\cdot0{,}60^t\\), där \\(V\\) är datorns värde i kr och \\(t\\) är tiden i år efter inköpet.</p><p>Teckna en ny funktion som anger datorns värde \\(V\\) i kr som funktion av tiden \\(t\\), där tiden nu i stället ska räknas i <em>månader</em> efter inköpet.</p>",
-  "s": "<p>Om \\(t\\) nu mäts i månader motsvarar \\(t\\) månader \\(t/12\\) år. Sätt därför in \\(t/12\\) i den ursprungliga modellen:</p><p>\\[V(t)=10000\\cdot0{,}60^{t/12}.\\]</p><p><strong>\\(V(t)=10000\\cdot0{,}60^{t/12}\\)</strong></p>",
-  "familj": "NP-ankare: byta tidsenhet i exponentialmodell",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "10000*0.60^(t/12)",
-  "tolerans": null,
-  "självrättning": false,
-  "formaga": [
-    "modellering",
-    "problemlösning"
-  ],
-  "ledtrad": "<p>Hur många år är \\(t\\) månader?</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": false,
-  "manuellKomplettering": true,
-  "kalla": "NP Ma2c vt 2012, uppgift 9b",
-  "referensTyp": "original"
-},
-{
-  "id": "2.835",
-  "kap": 2,
-  "omr": "andragradsfunktioner",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>För andragradsfunktionen \\(f\\) gäller att</p><p>\\[f(x)=-0{,}5x^2+bx-2.\\]</p><p>Bestäm för vilka värden på \\(b\\) som \\(f\\) endast har ett nollställe.</p>",
-  "s": "<p>Ett enda nollställe betyder dubbelrot, alltså diskriminanten noll:</p><p>\\[b^2-4\\cdot(-0{,}5)\\cdot(-2)=0\\Rightarrow b^2-4=0.\\]</p><p>Därför <strong>\\(b=\\pm2\\)</strong>.</p>",
-  "familj": "NP-ankare: parameter och dubbelrot",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    -2,
-    2
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>En andragradsfunktion har exakt ett nollställe när diskriminanten är 0.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarEtiketter": [
-    "b₁",
-    "b₂"
-  ],
-  "svarsstruktur": "mängd",
-  "kalla": "NP Ma2c vt 2015, uppgift 17a",
-  "referensTyp": "original"
-},
-{
-  "id": "2.836",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/3",
-  "t": "<p>Allt levande material innehåller kol-14. Efter 5730 år har mängden kol-14 minskat till hälften av den ursprungliga mängden enligt modellen</p><p>\\[y=C\\cdot2^{-kx},\\]</p><p>där \\(y\\) är den mängd kol-14 som finns kvar och \\(x\\) är antal år efter att mängden började minska. I modellen är \\(C\\) och \\(k\\) konstanter.</p><p>Bestäm vilken ålder ett djurskinn hade om mängden kol-14 var 65,5 % av den ursprungliga mängden.</p>",
-  "s": "<p>Halveringstiden ger \\(k=1/5730\\). Sätt \\(y/C=0{,}655\\):</p><p>\\[0{,}655=2^{-x/5730}.\\]</p><p>Logaritmering ger</p><p>\\[x=-5730\\frac{\\lg0{,}655}{\\lg2}\\approx3498.\\]</p><p><strong>Djurskinnet är ungefär 3500 år gammalt.</strong></p>",
-  "familj": "NP-ankare: halveringstid och modell",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 3500,
-  "tolerans": 20,
-  "självrättning": true,
-  "formaga": [
-    "modellering",
-    "problemlösning"
-  ],
-  "ledtrad": "<p>Bestäm först \\(k\\) från halveringstiden. Dividera sedan modellen med \\(C\\).</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 3,
-  "spel": true,
-  "kalla": "NP Ma2c ht 2014, uppgift 25",
-  "referensTyp": "original"
-},
-{
-  "id": "2.837",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "2a",
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/3/0",
-  "t": "<p>Det tar 8,0 timmar för aktiviteten hos ett radioaktivt ämne att minska exponentiellt från 11,5 MBq till 4,6 MBq.</p><p>a) Med hur många procent avtar aktiviteten per timme?<br>b) Hur stor är aktiviteten efter ett dygn om den var 11,5 MBq från början?</p>",
-  "s": "<p>a) Om förändringsfaktorn per timme är \\(q\\) gäller \\(11{,}5q^8=4{,}6\\). Alltså \\(q=(4{,}6/11{,}5)^{1/8}=0{,}4^{1/8}\\approx0{,}8918\\), vilket motsvarar en minskning på cirka <strong>10,8 % per timme</strong>.</p><p>b) Efter 24 timmar har tre åttatimmarsperioder gått, så</p><p>\\[11{,}5\\cdot0{,}4^3=0{,}736\\text{ MBq}.\\]</p><p><strong>0,736 MBq.</strong></p>",
-  "familj": "NP-ankare: exponentialmodell C",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    10.8,
-    0.736
-  ],
-  "tolerans": [
-    0.2,
-    0.01
-  ],
-  "självrättning": true,
-  "formaga": [
-    "modellering",
-    "procedur"
-  ],
-  "ledtrad": "<p>Bestäm först förändringsfaktorn \\(q\\) ur \\(11{,}5q^8=4{,}6\\).</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarEtiketter": [
-    "minskning (%/h)",
-    "aktivitet efter 24 h (MBq)"
-  ],
-  "svarsstruktur": "ordnad",
-  "kalla": "NP Ma2c vt 2014, uppgift 21",
-  "referensTyp": "original"
-},
-{
-  "id": "2.838",
-  "kap": 1,
-  "omr": "ekvationssystem",
-  "kurs": [
-    "2a",
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/2",
-  "t": "<p>Ett ekvationssystem består av två ekvationer där varje ekvation innehåller två variabler \\(x\\) och \\(y\\).</p><p>a) Den ena ekvationen är \\(3x+2y=12\\). Ge ett exempel på hur den andra ekvationen kan se ut så att ekvationssystemet saknar lösningar.</p><p>b) Den ena ekvationen är fortfarande \\(3x+2y=12\\). Ge ett exempel på hur den andra ekvationen kan se ut så att ekvationssystemet endast får lösningen \\(x=2,\\ y=3\\).</p>",
-  "s": "<p>a) Den andra linjen ska vara parallell men inte samma linje, till exempel \\(6x+4y=25\\).</p><p>b) Den andra linjen ska gå genom \\((2,3)\\) men inte vara parallell med den första, till exempel \\(x+y=5\\).</p><p><strong>Exempel: a) \\(6x+4y=25\\), b) \\(x+y=5\\).</strong></p>",
-  "familj": "NP-ankare: konstruera ekvationssystem",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": null,
-  "tolerans": null,
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "resonemang"
-  ],
-  "ledtrad": "<p>a) Tänk parallella linjer. b) Välj en annan linje genom punkten \\((2,3)\\).</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": false,
-  "svarFormat": [
-    "uttryck",
-    "uttryck"
-  ],
-  "svarEtiketter": [
-    "a) andra ekvationen",
-    "b) andra ekvationen"
-  ],
-  "svarsstruktur": "ordnad",
-  "manuellKomplettering": true,
-  "kalla": "NP Ma2c vt 2012, uppgift 10",
-  "referensTyp": "original"
-},
-{
-  "id": "2.839",
-  "kap": 1,
-  "omr": "algebraiska_identiteter",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>Ove beräknar uttrycket</p><p>\\[123456789\\cdot123456789-123456788\\cdot123456790\\]</p><p>med sin miniräknare. Räknaren ger resultatet 0. Ove misstänker att räknaren ger fel svar. Visa genom att använda algebra att räknaren ger fel svar.</p>",
-  "s": "<p>Sätt \\(n=123456789\\). Då är uttrycket</p><p>\\[n^2-(n-1)(n+1).\\]</p><p>Konjugatregeln ger \\((n-1)(n+1)=n^2-1\\), alltså</p><p>\\[n^2-(n^2-1)=1.\\]</p><p><strong>Det korrekta värdet är 1, så räknarens 0 är fel.</strong></p>",
-  "familj": "NP-ankare: algebra kontra räknarfel",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "resonemang",
-  "rättSvar": null,
-  "tolerans": null,
-  "självrättning": false,
-  "formaga": [
-    "resonemang",
-    "procedur"
-  ],
-  "ledtrad": "<p>Se talen som \\(n-1\\), \\(n\\) och \\(n+1\\).</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": false,
-  "svarFormat": [
-    "resonemang"
-  ],
-  "svarEtiketter": [
-    "visning"
-  ],
-  "manuellKomplettering": true,
-  "kalla": "NP Ma2c ht 2014, uppgift 12",
-  "referensTyp": "original"
-},
-{
-  "id": "2.840",
-  "kap": 2,
-  "omr": "andragradsekvationer",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>En andragradsekvation</p><p>\\[x^2+(a+4)x+b+5=0\\]</p><p>har lösningarna \\(x_1=1\\) och \\(x_2=-3\\). Bestäm värdet på \\(a\\) och \\(b\\).</p>",
-  "s": "<p>Summan av rötterna är \\(-2\\), alltså \\(-(a+4)=-2\\), vilket ger \\(a=-2\\).</p><p>Produkten är \\(-3\\), alltså \\(b+5=-3\\), vilket ger \\(b=-8\\).</p><p><strong>\\(a=-2\\), \\(b=-8\\).</strong></p>",
-  "familj": "NP-ankare: rötter och koefficienter",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    -2,
-    -8
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Använd sambanden mellan rötternas summa/produkt och koefficienterna.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarEtiketter": [
-    "a",
-    "b"
-  ],
-  "svarsstruktur": "ordnad",
-  "kalla": "NP Ma2c vt 2015, uppgift 14",
-  "referensTyp": "original"
-},
-{
-  "id": "2.841",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "t": "<p>Vilka två av alternativen A-E är lika med 2?</p><p>A. \\(\\lg49+\\lg51\\)<br>B. \\(\\frac{\\lg200}{2}\\)<br>C. \\(\\lg500-\\lg5\\)<br>D. \\(4^{\\lg0{,}5}\\)<br>E. \\((\\lg10000)^{0{,}5}\\)</p>",
-  "s": "<p>C ger \\(\\lg(500/5)=\\lg100=2\\). E ger \\((\\lg10000)^{0{,}5}=4^{0{,}5}=2\\).</p><p><strong>C och E.</strong></p>",
-  "familj": "NP-ankare: logaritmbegrepp C",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    "C",
-    "E"
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": false,
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "ledtrad": "<p>Använd produkt-, kvot- och potenslagen där de passar.</p>",
-  "traningsniva": 3,
-  "arbetsinsats": 1,
-  "spel": false,
-  "svarFormat": [
-    "text",
-    "text"
-  ],
-  "svarEtiketter": [
-    "alternativ 1",
-    "alternativ 2"
-  ],
-  "svarsstruktur": "mängd",
-  "manuellKomplettering": true,
-  "kalla": "NP Ma2c ht 2014, uppgift 6",
-  "referensTyp": "original"
-},
-{
-  "id": "2.842",
-  "kap": 1,
-  "omr": "algebraiska_bevis",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/3/1",
-  "t": "<p>a) Visa att summan av två udda tal alltid är jämn.</p><p>b) Visa att produkten av två udda tal alltid är udda.</p>",
-  "s": "<p>Skriv två godtyckliga udda tal som \\(2n+1\\) och \\(2k+1\\).</p><p>a) Summan blir \\(2n+1+2k+1=2(n+k+1)\\), alltså jämn.</p><p>b) Produkten blir \\((2n+1)(2k+1)=2(2nk+n+k)+1\\), alltså udda.</p>",
-  "familj": "Referensankare: generellt algebraiskt bevis",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "resonemang",
-  "rättSvar": null,
-  "tolerans": null,
-  "självrättning": false,
-  "formaga": [
-    "resonemang",
-    "begrepp"
-  ],
-  "ledtrad": "<p>Representera ett godtyckligt udda tal som \\(2n+1\\).</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 3,
-  "spel": false,
-  "svarFormat": [
-    "resonemang"
-  ],
-  "svarEtiketter": [
-    "bevis"
-  ],
-  "manuellKomplettering": true,
-  "kalla": "Extrauppgifter Algebra, uppgift 7",
-  "referensTyp": "original"
-},
-{
-  "id": "2.843",
-  "kap": 2,
-  "omr": "andragradsekvationer",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/3/2",
-  "t": "<p>Lös ekvationen och ange även eventuella komplexa rötter:</p><p>\\[2x^4-14x^2-16=0.\\]</p>",
-  "s": "<p>Dividera med 2 och sätt \\(t=x^2\\):</p><p>\\[t^2-7t-8=0=(t-8)(t+1).\\]</p><p>Alltså \\(x^2=8\\) eller \\(x^2=-1\\).</p><p><strong>\\(x=\\pm2\\sqrt2\\) samt \\(x=\\pm i\\).</strong></p>",
-  "familj": "Referensankare: bi-kvadratisk substitution",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "resonemang",
-  "rättSvar": null,
-  "tolerans": null,
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Sätt \\(t=x^2\\) och lös först andragradsekvationen i \\(t\\).</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 3,
-  "spel": false,
-  "svarFormat": [
-    "resonemang"
-  ],
-  "svarEtiketter": [
-    "alla rötter"
-  ],
-  "manuellKomplettering": true,
-  "kalla": "Extrauppgifter kap 2, uppgift 8b",
-  "referensTyp": "original"
-},
-{
-  "id": "2.844",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Bestäm det exakta värdet av \\(\\lg a^3+\\lg b^3\\) om \\(ab=10^4\\).</p>",
-  "s": "<p>\\(\\lg a^3+\\lg b^3=3\\lg(ab)=3\\lg(10^4)=12\\).</p><p><strong>12</strong></p>",
-  "familj": "Variant: logaritmlagar och given produkt",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 12,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Försök få fram \\(\\lg(ab)\\).</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 1,
-  "spel": true,
-  "kalla": "Ny variant av NP Ma2c vt 2014, uppgift 9",
-  "referensTyp": "variant"
-},
-{
-  "id": "2.845",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Bestäm det exakta värdet av</p><p>\\[\\lg(a^2b)+\\lg(ab^2)\\]</p><p>om \\(ab=10^6\\).</p>",
-  "s": "<p>Produktlagen ger</p><p>\\[\\lg(a^2b\\cdot ab^2)=\\lg(a^3b^3)=\\lg((ab)^3).\\]</p><p>Därför blir värdet \\(\\lg((10^6)^3)=\\lg(10^{18})=18\\).</p><p><strong>18</strong></p>",
-  "familj": "Variant: dold produkt i logaritmer",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 18,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Multiplicera argumenten när du slår ihop logaritmerna.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": true,
-  "kalla": "Ny variant inspirerad av NP-logaritmankare",
-  "referensTyp": "variant"
-},
-{
-  "id": "2.846",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Lös ekvationen</p><p>\\[\\lg7+2\\lg x=\\lg112.\\]</p>",
-  "s": "<p>\\(\\lg(7x^2)=\\lg112\\), alltså \\(7x^2=112\\) och \\(x^2=16\\). Eftersom \\(x>0\\) fås <strong>\\(x=4\\)</strong>.</p>",
-  "familj": "Variant: logaritmekvation med definitionsvillkor",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 4,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Använd potenslagen och produktlagen. Logaritmens argument måste vara positivt.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": true,
-  "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 7c",
-  "referensTyp": "variant"
-},
-{
-  "id": "2.847",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Värdet på \\(\\lg5\\) är ungefär \\(0{,}699\\). Bestäm \\(\\lg0{,}125\\) med tre decimaler utan miniräknare.</p>",
-  "s": "<p>Eftersom \\(\\lg2=1-\\lg5\\approx0{,}301\\) och \\(0{,}125=1/8=2^{-3}\\) får vi</p><p>\\[\\lg0{,}125=-3\\lg2\\approx-3\\cdot0{,}301=-0{,}903.\\]</p><p><strong>-0,903</strong></p>",
-  "familj": "Variant: härleda logaritmvärde",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": -0.903,
-  "tolerans": 0.0005,
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "begrepp"
-  ],
-  "ledtrad": "<p>Ta först fram \\(\\lg2\\) ur \\(\\lg10=\\lg2+\\lg5\\).</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": true,
-  "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 8",
-  "referensTyp": "variant"
-},
-{
-  "id": "2.848",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>Om \\(\\lg(5a)=4\\), bestäm \\(\\lg(500a)\\).</p>",
-  "s": "<p>\\(500a=100\\cdot5a\\), alltså \\(\\lg(500a)=\\lg100+\\lg(5a)=2+4=6\\).</p><p><strong>6</strong></p>",
-  "familj": "Variant: logaritmlagar C",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "numeriskt",
-  "rättSvar": 6,
-  "tolerans": null,
-  "självrättning": true,
-  "formaga": [
-    "procedur",
-    "problemlösning"
-  ],
-  "ledtrad": "<p>Skriv \\(500a\\) som en produkt där \\(5a\\) ingår.</p>",
-  "traningsniva": 3,
-  "arbetsinsats": 1,
-  "spel": true,
-  "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 13",
-  "referensTyp": "variant"
-},
-{
-  "id": "2.849",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{\\lg\\sqrt[3]{x}\\cdot\\lg\\left(\\frac{x}{5}\\right)^3}{\\lg\\left(\\frac{x}{5}\\right)}.\\]</p>",
-  "s": "<p>\\(\\lg\\sqrt[3]{x}=\\frac13\\lg x\\) och \\(\\lg((x/5)^3)=3\\lg(x/5)\\). För \\(x>0\\), \\(x\\ne5\\), fås</p><p>\\[\\frac{\\frac13\\lg x\\cdot3\\lg(x/5)}{\\lg(x/5)}=\\lg x.\\]</p><p><strong>\\(\\lg x\\)</strong></p>",
-  "familj": "Variant: avancerad logaritmförenkling",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "lg(x)",
-  "tolerans": null,
-  "självrättning": false,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Använd potenslagen på båda logaritmerna i täljaren.</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 2,
-  "spel": false,
-  "manuellKomplettering": true,
-  "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 9b",
-  "referensTyp": "variant"
-},
-{
-  "id": "2.850",
-  "kap": 2,
-  "omr": "andragradsekvationer",
-  "kurs": [
-    "2a",
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Lös ekvationen exakt:</p><p>\\[(2026-2x)^2-5(2026-2x)+6=0.\\]</p>",
-  "s": "<p>Sätt \\(t=2026-2x\\). Då \\(t^2-5t+6=0\\), alltså \\(t=2\\) eller \\(t=3\\).</p><p>Det ger \\(x=1012\\) respektive \\(x=1011{,}5\\).</p><p><strong>\\(x=1011{,}5\\) eller \\(x=1012\\).</strong></p>",
-  "familj": "Variant: dold substitution",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    1011.5,
-    1012
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Låt hela uttrycket \\(2026-2x\\) vara en ny variabel.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarEtiketter": [
-    "x₁",
-    "x₂"
-  ],
-  "svarsstruktur": "mängd",
-  "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 6e",
-  "referensTyp": "variant"
-},
-{
-  "id": "2.851",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/1",
-  "t": "<p>Värdet på en maskin beskrivs av \\(P(t)=24000\\cdot0{,}81^t\\), där \\(t\\) är tiden i år.</p><p>Teckna en ny funktion som beskriver värdet när tidsvariabeln \\(m\\) i stället mäts i månader.</p>",
-  "s": "<p>\\(m\\) månader är \\(m/12\\) år. Därför</p><p>\\[P(m)=24000\\cdot0{,}81^{m/12}.\\]</p>",
-  "familj": "Variant: byta tidsenhet i exponentialmodell",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "uttryck",
-  "rättSvar": "24000*0.81^(m/12)",
-  "tolerans": null,
-  "självrättning": false,
-  "formaga": [
-    "modellering",
-    "problemlösning"
-  ],
-  "ledtrad": "<p>Ersätt antal år med antal månader dividerat med 12.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": false,
-  "manuellKomplettering": true,
-  "kalla": "Ny variant av NP Ma2c vt 2012, uppgift 9b",
-  "referensTyp": "variant"
-},
-{
-  "id": "2.852",
-  "kap": 2,
-  "omr": "andragradsfunktioner",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "t": "<p>För funktionen \\(g(x)=-2x^2+cx-8\\) ska grafen tangera \\(x\\)-axeln. Bestäm alla möjliga värden på \\(c\\).</p>",
-  "s": "<p>Tangering betyder dubbelrot, alltså diskriminanten 0:</p><p>\\[c^2-4\\cdot(-2)\\cdot(-8)=0\\Rightarrow c^2-64=0.\\]</p><p><strong>\\(c=\\pm8\\)</strong>.</p>",
-  "familj": "Variant: parameter och dubbelrot",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    -8,
-    8
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Tangering mot \\(x\\)-axeln innebär exakt ett nollställe.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarEtiketter": [
-    "c₁",
-    "c₂"
-  ],
-  "svarsstruktur": "mängd",
-  "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 17a",
-  "referensTyp": "variant"
-},
-{
-  "id": "2.853",
-  "kap": 2,
-  "omr": "exponentialfunktioner",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/3",
-  "t": "<p>Ett radioaktivt ämne har halveringstiden 1600 år. I ett prov återstår 30 % av den ursprungliga mängden.</p><p>Bestäm provets ålder. Svara i hela år.</p>",
-  "s": "<p>Modellen kan skrivas \\(0{,}30=2^{-t/1600}\\). Logaritmering ger</p><p>\\[t=-1600\\frac{\\lg0{,}30}{\\lg2}\\approx2779.\\]</p><p><strong>Ungefär 2779 år.</strong></p>",
-  "familj": "Variant: halveringstid",
-  "geogebra": false,
-  "miniräknare": true,
-  "svarstyp": "numeriskt",
-  "rättSvar": 2779,
-  "tolerans": 2,
-  "självrättning": true,
-  "formaga": [
-    "modellering",
-    "problemlösning"
-  ],
-  "ledtrad": "<p>Skriv den återstående andelen som \\(2^{-t/1600}\\).</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 2,
-  "spel": true,
-  "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 25",
-  "referensTyp": "variant"
-},
-{
-  "id": "2.854",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/3",
-  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=4\\\\[2mm]\\lg(x^2y^3)=11\\end{cases}\\]</p><p>Svara exakt.</p>",
-  "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då fås</p><p>\\[\\begin{cases}u+v=4\\\\2u+3v=11\\end{cases}\\]</p><p>Subtraktion ger \\(v=3\\), och då \\(u=1\\). Därmed \\(x=10\\), \\(y=1000\\).</p><p><strong>\\((x,y)=(10,1000)\\).</strong></p>",
-  "familj": "Variant: dolt logaritmiskt ekvationssystem",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    10,
-    1000
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Prova variabelbytet \\(u=\\lg x\\), \\(v=\\lg y\\).</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarEtiketter": [
-    "x",
-    "y"
-  ],
-  "svarsstruktur": "ordnad",
-  "kalla": "Ny variant kalibrerad mot NP-logaritmuppgifter",
-  "referensTyp": "variant"
-},
-{
-  "id": "2.855",
-  "kap": 2,
-  "omr": "logaritmlagar",
-  "kurs": [
-    "2b",
-    "2c"
-  ],
-  "niva": "A",
-  "poang": "0/0/3",
-  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg x+2\\lg y=7\\\\[2mm]\\lg\\left(\\frac{x}{y}\\right)=1\\end{cases}\\]</p><p>Svara exakt.</p>",
-  "s": "<p>Sätt \\(u=\\lg x\\), \\(v=\\lg y\\). Då blir systemet</p><p>\\[\\begin{cases}u+2v=7\\\\u-v=1\\end{cases}\\]</p><p>Substitution eller addition ger \\(v=2\\) och \\(u=3\\). Alltså \\(x=1000\\), \\(y=100\\).</p><p><strong>\\((x,y)=(1000,100)\\).</strong></p>",
-  "familj": "Variant: logaritmlagar + ekvationssystem",
-  "geogebra": false,
-  "miniräknare": false,
-  "svarstyp": "flera_delar",
-  "rättSvar": [
-    1000,
-    100
-  ],
-  "tolerans": [
-    null,
-    null
-  ],
-  "självrättning": true,
-  "formaga": [
-    "problemlösning",
-    "procedur"
-  ],
-  "ledtrad": "<p>Låt logaritmerna själva vara de nya obekanta.</p>",
-  "traningsniva": 5,
-  "arbetsinsats": 2,
-  "spel": true,
-  "svarFormat": [
-    "numeriskt",
-    "numeriskt"
-  ],
-  "svarEtiketter": [
-    "x",
-    "y"
-  ],
-  "svarsstruktur": "ordnad",
-  "kalla": "Ny variant kalibrerad mot NP-logaritmuppgifter",
-  "referensTyp": "variant"
-}
+  {
+    "id": "2.813",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>En drönares höjd filmas under en kort flygning. Ur filmen avläses följande data.</p><table class=\"data\"><thead><tr><th>Tid \\(t\\) (s)</th><th>Höjd \\(h\\) (m)</th></tr></thead><tbody><tr><td>0</td><td>1,5</td></tr><tr><td>1</td><td>15,2</td></tr><tr><td>2</td><td>19,4</td></tr><tr><td>3</td><td>14,3</td></tr><tr><td>4</td><td>0,8</td></tr></tbody></table><p>a)&nbsp;Bestäm med GeoGebra en kvadratisk regressionsmodell \\(h(t)=at^2+bt+c\\).<br>b)&nbsp;Bestäm drönarens största höjd enligt modellen.<br>c)&nbsp;När når modellen marknivån? Bedöm kort om svaret verkar rimligt utifrån mätdata.</p>",
+    "s": "<p>a) Kvadratisk regression ger ungefär \\(h(t)=-4{,}55t^2+17{,}97t+1{,}60\\).</p><p>b) Extrempunkten fås vid \\(t=-\\frac{b}{2a}\\approx1{,}97\\) s. Då är \\(h\\approx19{,}34\\) m.</p><p>c) Ekvationen \\(h(t)=0\\) ger en positiv rot \\(t\\approx4{,}04\\) s. Den negativa roten saknar fysisk betydelse. Eftersom den sista mätpunkten vid 4 s ligger på 0,8 m är 4,04 s rimligt.</p><p><strong>Modell: \\(h\\approx-4{,}55t^2+17{,}97t+1{,}60\\), maxhöjd ca 19,3 m, marknivå efter ca 4,04 s.</strong></p>",
+    "familj": "Kvadratisk regression och modellering",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      19.34,
+      4.04
+    ],
+    "tolerans": [
+      null,
+      0.2,
+      0.05
+    ],
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a) modell",
+      "b) maxhöjd (m)",
+      "c) tid (s)"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Använd kvadratisk regression. Extrempunkten ger maxhöjden och skärningen med \\(t\\)-axeln ger när modellen når marken.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.814",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Tvärsnittet av en tunnel modelleras av</p><p>\\[h(x)=5{,}6-0{,}42x^2,\\]</p><p>där \\(h\\) är höjden i meter och \\(x\\) är det horisontella avståndet från tunnelns mittlinje.</p><p>En lastbil är 3,10 m bred och 4,25 m hög. Lastbilens mittlinje ligger \\(d\\) meter till höger om tunnelns mittlinje.</p><p>Bestäm det största värdet på \\(d\\) som gör att lastbilens båda övre hörn går fria från tunneltaket. Avgör också om en avvikelse på 0,30 m är säker.</p>",
+    "s": "<p>Det kritiska hörnet är det högra övre hörnet. Det ligger på avståndet \\(d+1{,}55\\) från tunnelns mitt.</p><p>Gränsfallet ges av</p><p>\\[5{,}6-0{,}42(d+1{,}55)^2=4{,}25.\\]</p><p>Därav</p><p>\\[(d+1{,}55)^2=\\frac{1{,}35}{0{,}42}\\]</p><p>och den relevanta lösningen ger \\(d\\approx0{,}243\\) m.</p><p>Eftersom \\(0{,}30>0{,}243\\) är 0,30 m för stor avvikelse.</p><p><strong>Största säkra avvikelse är ungefär 0,24 m. 0,30 m är inte säkert.</strong></p>",
+    "familj": "Andragradsfunktioner i geometri",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.243,
+      "nej"
+    ],
+    "tolerans": [
+      0.01,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "text"
+    ],
+    "svarEtiketter": [
+      "största d (m)",
+      "0,30 m säkert?"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Det yttre övre hörnet är det som först träffar tunneltaket. Skriv dess \\(x\\)-koordinat med hjälp av \\(d\\) och halva lastbilens bredd.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.815",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Två vattenstrålar i en fontän modelleras, för den synliga delen av fontänen, av</p><p>\\[h_1(x)=-0{,}22(x-3{,}2)^2+4{,}8\\]</p><p>och</p><p>\\[h_2(x)=-0{,}15(x-7{,}6)^2+4{,}1.\\]</p><p>Här är \\(x\\) och \\(h\\) i meter. Den synliga fontänen ligger i intervallet \\(2\\le x\\le8\\).</p><p>a)&nbsp;Bestäm med digitalt verktyg var de två vattenstrålarna möts i den synliga delen.<br>b)&nbsp;En dekorativ ring har sin översta punkt 3,40 m över marken vid ungefär samma \\(x\\)-läge. Hur stor vertikal marginal finns mellan ringen och strålarnas mötespunkt?<br>c)&nbsp;Ekvationerna har även en annan matematisk skärning. Förklara varför den inte är relevant för fontänen.</p>",
+    "s": "<p>Skärningarna fås ur \\(h_1(x)=h_2(x)\\). Digital lösning ger ungefär \\(x=-18{,}08\\) och \\(x=5{,}62\\).</p><p>I intervallet \\(2\\le x\\le8\\) är endast \\(x\\approx5{,}62\\) relevant. Höjden där är \\(h\\approx3{,}51\\) m.</p><p>Marginalen till ringens överkant är \\(3{,}51-3{,}40\\approx0{,}11\\) m, alltså cirka 11 cm.</p><p>Den andra skärningen ligger långt utanför den del där modellerna beskriver de faktiska vattenstrålarna.</p><p><strong>Mötespunkt ungefär \\((5{,}62;\\,3{,}51)\\), marginal cirka 0,11 m.</strong></p>",
+    "familj": "Skärningar mellan andragradsmodeller",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.62,
+      3.51,
+      0.11,
+      null
+    ],
+    "tolerans": [
+      0.03,
+      0.03,
+      0.02,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "kommunikation"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "resonemang"
+    ],
+    "svarEtiketter": [
+      "x-koordinat",
+      "höjd (m)",
+      "marginal (m)",
+      "förklaring"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Rita båda funktionerna i samma koordinatsystem och bestäm deras skärningar. Använd sedan det givna intervallet för att avgöra vilken skärning som är fysisk.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.816",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Två reservbatterier testas under identisk belastning. Deras återstående laddning i procent modelleras av</p><p>\\[A(t)=92\\cdot0{,}91^t,\\qquad B(t)=64\\cdot0{,}96^t,\\]</p><p>där \\(t\\) är tiden i timmar.</p><p>a)&nbsp;Efter hur lång tid har batterierna samma återstående laddning?<br>b)&nbsp;Vilket batteri håller sig över 20 % längst, och ungefär hur många timmar längre?<br>c)&nbsp;Förklara varför batteriet med lägre startvärde ändå kan bli det bättre valet på lång sikt.</p>",
+    "s": "<p>a) Lös \\(92\\cdot0{,}91^t=64\\cdot0{,}96^t\\). Det ger \\(t\\approx6{,}78\\) h. Då har båda ungefär 48,5 % kvar.</p><p>b) \\(A(t)=20\\) ger \\(t\\approx16{,}18\\) h. \\(B(t)=20\\) ger \\(t\\approx28{,}49\\) h. Batteri B håller sig alltså över 20 % ungefär \\(28{,}49-16{,}18=12{,}31\\) timmar längre.</p><p>c) B börjar lägre men minskar med endast 4 % per timme, medan A minskar med 9 % per timme. Den långsammare procentuella minskningen dominerar på lång sikt.</p><p><strong>Samma laddning efter ca 6,78 h. B håller sig över 20 % ca 12,3 h längre.</strong></p>",
+    "familj": "Jämföra exponentialmodeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.78,
+      12.31,
+      null
+    ],
+    "tolerans": [
+      0.05,
+      0.1,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "resonemang"
+    ],
+    "svarEtiketter": [
+      "a) tid (h)",
+      "b) skillnad (h)",
+      "c) förklaring"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Vid samma laddning kan du dividera exponentialuttrycken med varandra. För 20 %-gränsen löser du två separata exponentialekvationer.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.817",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Efter en dos läkemedel är koncentrationen i blodet 18 mg/L. Varje timme återstår 72 % av koncentrationen. Fyra timmar senare ges en andra dos som omedelbart bidrar med ytterligare 12 mg/L. Även den andra dosens bidrag minskar därefter med samma faktor 0,72 per timme.</p><p>a)&nbsp;Ställ upp en modell för den totala koncentrationen \\(C(t)\\) för \\(t\\ge4\\), där \\(t\\) mäts i timmar från den första dosen.<br>b)&nbsp;När efter den andra dosen sjunker den totala koncentrationen åter under 8 mg/L? Ange tiden räknad från den första dosen.<br>c)&nbsp;Hur lång tid är det efter den andra dosen?</p>",
+    "s": "<p>För \\(t\\ge4\\) finns två bidrag:</p><p>\\[C(t)=18\\cdot0{,}72^t+12\\cdot0{,}72^{t-4}.\\]</p><p>Faktorisera gärna:</p><p>\\[C(t)=0{,}72^t\\left(18+\\frac{12}{0{,}72^4}\\right).\\]</p><p>Lös \\(C(t)=8\\). Det ger \\(t\\approx6{,}27\\) timmar efter första dosen.</p><p>Den andra dosen gavs vid \\(t=4\\), så detta är ungefär \\(6{,}27-4=2{,}27\\) timmar efter den andra dosen.</p><p><strong>\\(C(t)=18\\cdot0{,}72^t+12\\cdot0{,}72^{t-4}\\), under 8 mg/L efter ca 6,27 h från första dosen, dvs. ca 2,27 h efter den andra.</strong></p>",
+    "familj": "Sammansatta exponentialmodeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      6.27,
+      2.27
+    ],
+    "tolerans": [
+      null,
+      0.05,
+      0.05
+    ],
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a) modell",
+      "b) tid från första dosen (h)",
+      "c) tid från andra dosen (h)"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Efter fyra timmar finns fortfarande en del av den första dosen kvar. Lägg till den andra dosens bidrag; de två bidragen har olika starttid men samma förändringsfaktor.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.818",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>En bakteriekultur innehåller 500 bakterier. Under de första fyra timmarna ökar antalet med 28 % per timme. Därefter börjar näringen ta slut och ökningen sjunker till 12 % per timme.</p><p>Efter hur lång tid från start passerar kulturen 2500 bakterier enligt denna tvåstegsmodell? Redovisa hur du hanterar bytet av tillväxttakt.</p>",
+    "s": "<p>Efter fyra timmar finns</p><p>\\[500\\cdot1{,}28^4\\approx1342{,}18\\]</p><p>bakterier. För tiden efter fyra timmar kan modellen skrivas</p><p>\\[N(t)=1342{,}18\\cdot1{,}12^{t-4}.\\]</p><p>Lös \\(1342{,}18\\cdot1{,}12^{t-4}=2500\\). Det ger \\(t\\approx9{,}49\\) timmar från start.</p><p><strong>Cirka 9,49 timmar.</strong></p>",
+    "familj": "Styckvis exponentialmodell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.49,
+    "tolerans": 0.05,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna först antalet efter de första fyra timmarna. Använd sedan det värdet som startvärde för den nya tillväxtfasen.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.819",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Två videoklipp sprids på olika sätt. Antalet visningar efter \\(t\\) timmar modelleras av</p><p>\\[A(t)=240\\cdot1{,}38^t,\\qquad B(t)=520\\cdot1{,}21^t.\\]</p><p>a)&nbsp;När går klipp A om klipp B?<br>b)&nbsp;Ungefär hur många visningar har båda då?<br>c)&nbsp;Hur många gånger fler visningar har A än B efter 12 timmar enligt modellerna? Kommentera vad förändringsfaktorerna betyder för utvecklingen på lång sikt.</p>",
+    "s": "<p>a) Lös \\(240\\cdot1{,}38^t=520\\cdot1{,}21^t\\). Då fås \\(t\\approx5{,}88\\) h.</p><p>b) Insättning ger ungefär 1596 visningar.</p><p>c) Efter 12 timmar ger modellerna ungefär \\(A(12)=11449\\) och \\(B(12)=5122\\). Kvoten är cirka \\(2{,}24\\). Eftersom A har den större förändringsfaktorn växer kvoten mellan A och B över tid.</p><p><strong>A går om efter ca 5,88 h vid ca 1600 visningar; efter 12 h har A ca 2,24 gånger så många.</strong></p>",
+    "familj": "Skärning mellan exponentialmodeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.88,
+      1596,
+      2.24,
+      null
+    ],
+    "tolerans": [
+      0.05,
+      20,
+      0.05,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "resonemang"
+    ],
+    "svarEtiketter": [
+      "a) tid (h)",
+      "b) visningar",
+      "c) kvot",
+      "kommentar"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Sätt modellerna lika. För långsiktsjämförelsen är kvoten mellan förändringsfaktorerna viktig.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.820",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>För vissa fåglar kan vingfrekvensen \\(f\\) ungefär beskrivas med en potensmodell \\(f=k m^a\\), där \\(m\\) är massan i kg.</p><p>En liten fågel med massan 0,030 kg slår ungefär 12 vingslag per sekund, medan en fågel med massan 4,0 kg slår ungefär 3,0 vingslag per sekund.</p><p>a)&nbsp;Bestäm \\(a\\) och \\(k\\).<br>b)&nbsp;Använd modellen för att uppskatta vingfrekvensen för en fågel med massan 0,40 kg.<br>c)&nbsp;Tolka tecknet på exponenten \\(a\\).</p>",
+    "s": "<p>Från kvoten mellan de två datapunkterna fås</p><p>\\[\\frac{3}{12}=\\left(\\frac{4}{0{,}03}\\right)^a.\\]</p><p>Därav \\(a\\approx-0{,}283\\). Med exempelvis första punkten fås \\(k\\approx4{,}44\\).</p><p>Modellen blir alltså ungefär \\(f=4{,}44m^{-0{,}283}\\).</p><p>För \\(m=0{,}40\\) fås \\(f\\approx5{,}76\\) vingslag/s.</p><p>Den negativa exponenten betyder att modellen förutsäger lägre vingfrekvens när massan ökar.</p><p><strong>\\(a\\approx-0{,}283\\), \\(k\\approx4{,}44\\), \\(f(0{,}40)\\approx5{,}76\\).</strong></p>",
+    "familj": "Bestämma potensmodell från två punkter",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -0.283,
+      4.44,
+      5.76,
+      null
+    ],
+    "tolerans": [
+      0.01,
+      0.08,
+      0.1,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "resonemang"
+    ],
+    "svarEtiketter": [
+      "a",
+      "k",
+      "frekvens",
+      "tolkning"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Dividera de två ekvationerna med varandra så försvinner konstanten \\(k\\). Då kan exponenten bestämmas med logaritmer.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.821",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Vid ett bromstest mäts följande ungefärliga bromssträckor på torr väg.</p><table class=\"data\"><thead><tr><th>Hastighet \\(v\\) (km/h)</th><th>Bromssträcka \\(d\\) (m)</th></tr></thead><tbody><tr><td>30</td><td>5,8</td></tr><tr><td>50</td><td>15,4</td></tr><tr><td>70</td><td>29,8</td></tr><tr><td>90</td><td>49,7</td></tr><tr><td>110</td><td>73,9</td></tr></tbody></table><p>a)&nbsp;Gör en potensregression \\(d=av^b\\) i GeoGebra.<br>b)&nbsp;Uppskatta bromssträckan vid 100 km/h.<br>c)&nbsp;Modellen ger en exponent nära 2. Förklara vad det betyder för bromssträckan när hastigheten fördubblas, och jämför med modellens faktiska fördubblingsfaktor.</p>",
+    "s": "<p>a) Potensregression ger ungefär</p><p>\\[d=0{,}00728v^{1{,}961}.\\]</p><p>b) Vid 100 km/h blir \\(d\\approx60{,}8\\) m.</p><p>c) En exponent nära 2 betyder att bromssträckan nästan är proportionell mot kvadraten på hastigheten. En fördubbling multiplicerar enligt modellen sträckan med</p><p>\\[2^{1{,}961}\\approx3{,}89,\\]</p><p>alltså nästan fyra gånger.</p><p><strong>\\(d\\approx0{,}00728v^{1{,}961}\\), \\(d(100)\\approx60{,}8\\) m, fördubbling ger faktor ca 3,89.</strong></p>",
+    "familj": "Potensregression och tolkning",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      60.8,
+      3.89,
+      null
+    ],
+    "tolerans": [
+      null,
+      1,
+      0.08,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt",
+      "resonemang"
+    ],
+    "svarEtiketter": [
+      "a) modell",
+      "b) bromssträcka (m)",
+      "c) faktor",
+      "tolkning"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Använd potensregression. För att tolka exponenten kan du jämföra \\(d(2v)/d(v)=2^b\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.822",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>I en förenklad modell antas energin \\(E\\) som krävs för att skapa en krater med diameter \\(D\\) följa en potenslag \\(E=kD^p\\).</p><p>Ett test ger \\(D=1{,}2\\) m vid \\(E=2{,}5\\) MJ och ett annat \\(D=2{,}8\\) m vid \\(E=22\\) MJ.</p><p>a)&nbsp;Bestäm en potensmodell för sambandet.<br>b)&nbsp;Hur stor diameter förutsäger modellen vid 50 MJ?<br>c)&nbsp;En elev säger: ”Dubbel energi ger dubbel diameter.” Använd exponenten för att bedöma påståendet.</p>",
+    "s": "<p>Dividera ekvationerna:</p><p>\\[\\frac{22}{2{,}5}=\\left(\\frac{2{,}8}{1{,}2}\\right)^p.\\]</p><p>Det ger \\(p\\approx2{,}567\\). Därefter fås \\(k\\approx1{,}566\\), alltså</p><p>\\[E\\approx1{,}566D^{2{,}567}.\\]</p><p>Vid \\(E=50\\) löser man \\(50=1{,}566D^{2{,}567}\\), vilket ger \\(D\\approx3{,}86\\) m.</p><p>Eftersom exponenten är större än 1 växer energibehovet snabbare än diametern. Om energin fördubblas multipliceras diametern bara med \\(2^{1/2{,}567}\\approx1{,}31\\), inte med 2.</p><p><strong>\\(E\\approx1{,}566D^{2{,}567}\\), diameter ca 3,86 m vid 50 MJ.</strong></p>",
+    "familj": "Potensmodell och invers problemlösning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.567,
+      1.566,
+      3.86,
+      null
+    ],
+    "tolerans": [
+      0.02,
+      0.03,
+      0.08,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "resonemang"
+    ],
+    "svarEtiketter": [
+      "p",
+      "k",
+      "diameter (m)",
+      "bedömning"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Dividera de två potenssambanden så att \\(k\\) försvinner. När modellen är bestämd behöver du sedan lösa den med avseende på \\(D\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.823",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=3\\\\[2mm]\\lg\\!\\left(\\frac{x}{y}\\right)=1\\end{cases}\\]</p><p>Försök att inte börja med att skriva om systemet till \\(xy=1000\\) och \\(x/y=10\\). Använd i stället logaritmlagarna så att ett välbekant ekvationssystem träder fram.</p>",
+    "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Logaritmlagarna ger</p><p>\\[\\begin{cases}u+v=3\\\\u-v=1\\end{cases}\\]</p><p>Addition ger \\(2u=4\\), alltså \\(u=2\\). Då är \\(v=1\\).</p><p>Alltså \\(x=10^2=100\\) och \\(y=10^1=10\\).</p><p><strong>\\((x,y)=(100,10)\\).</strong></p>",
+    "familj": "Logaritmsystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      100,
+      10
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Använd produkt- och kvotlagen innan du löser det nya systemet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "2.824",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=3\\\\[2mm]\\lg\\!\\left(\\frac{x^2}{y}\\right)=1\\end{cases}\\]</p><p>Svara exakt.</p>",
+    "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då blir systemet</p><p>\\[\\begin{cases}u+v=3\\\\2u-v=1\\end{cases}\\]</p><p>Addition ger \\(3u=4\\), alltså \\(u=\\frac43\\). Då är \\(v=\\frac53\\).</p><p>Därför</p><p>\\[x=10^{4/3},\\qquad y=10^{5/3}.\\]</p><p><strong>\\((x,y)=\\left(10^{4/3},10^{5/3}\\right)\\).</strong></p>",
+    "familj": "Logaritmsystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "10^(4/3)",
+      "10^(5/3)"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Låt \\(u=\\lg x\\), \\(v=\\lg y\\). Potenslagen gör den andra ekvationen linjär i \\(u\\) och \\(v\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.825",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=4\\\\[2mm]\\lg x=2\\lg y-3\\end{cases}\\]</p><p>Visa hur systemet kan lösas med substitution efter ett lämpligt variabelbyte. Svara exakt.</p>",
+    "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då blir</p><p>\\[u+v=4,\\qquad u=2v-3.\\]</p><p>Substitution ger \\((2v-3)+v=4\\), alltså \\(3v=7\\) och \\(v=\\frac73\\). Då är \\(u=\\frac53\\).</p><p>Alltså</p><p>\\[x=10^{5/3},\\qquad y=10^{7/3}.\\]</p><p><strong>\\((x,y)=\\left(10^{5/3},10^{7/3}\\right)\\).</strong></p>",
+    "familj": "Logaritmsystem med substitution",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "10^(5/3)",
+      "10^(7/3)"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad",
+    "ledtrad": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då får du ett linjärt system där den ena ekvationen redan är löst för \\(u\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.826",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg x+\\lg y=3\\\\[2mm](\\lg x)^2+(\\lg y)^2=5\\end{cases}\\]</p><p>Här räcker det inte att bara använda logaritmlagarna mekaniskt. Försök hitta ett variabelbyte som avslöjar strukturen och bestäm alla lösningar.</p>",
+    "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då gäller</p><p>\\[u+v=3,\\qquad u^2+v^2=5.\\]</p><p>Kvadrera den första ekvationen:</p><p>\\[9=u^2+2uv+v^2=5+2uv,\\]</p><p>så \\(uv=2\\). Talen \\(u\\) och \\(v\\) har alltså summa 3 och produkt 2. De är därför rötterna till</p><p>\\[z^2-3z+2=0,\\]</p><p>alltså \\(z=1\\) eller \\(z=2\\).</p><p>Därmed är \\((u,v)=(1,2)\\) eller \\((2,1)\\), vilket ger</p><p>\\[(x,y)=(10,100)\\quad\\text{eller}\\quad(100,10).\\]</p><p><strong>Två lösningar: \\((10,100)\\) och \\((100,10)\\).</strong></p>",
+    "familj": "Icke-linjärt logaritmsystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "procedur"
+    ],
+    "svarFormat": [
+      "resonemang"
+    ],
+    "svarEtiketter": [
+      "lösningar"
+    ],
+    "svarsstruktur": "mängd",
+    "ledtrad": "<p>Sätt \\(u=\\lg x\\), \\(v=\\lg y\\). Du känner då både \\(u+v\\) och \\(u^2+v^2\\). Kan du därifrån bestämma \\(uv\\)?</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.827",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Bestäm det exakta värdet för \\(\\lg a^2+\\lg b^2\\) om \\(a\\cdot b=10^5\\).</p>",
+    "s": "<p>\\(\\lg a^2+\\lg b^2=2\\lg a+2\\lg b=2\\lg(ab)\\).</p><p>Eftersom \\(ab=10^5\\) fås \\(2\\lg(10^5)=2\\cdot5=10\\).</p><p><strong>10</strong></p>",
+    "familj": "NP-ankare: logaritmlagar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Försök skriva ihop de båda logaritmerna så att produkten \\(ab\\) dyker upp.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "NP Ma2c vt 2014, uppgift 9",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.828",
+    "kap": 2,
+    "omr": "andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Lös ekvationen \\[(x-\\sqrt3)^2-4(x-\\sqrt3)+3=0\\] om du vet att \\(t^2-4t+3=0\\) har lösningarna \\(t_1=3\\) och \\(t_2=1\\). Svara med exakta värden.</p>",
+    "s": "<p>Sätt \\(t=x-\\sqrt3\\). Då är \\(t=3\\) eller \\(t=1\\).</p><p>Alltså \\(x=3+\\sqrt3\\) eller \\(x=1+\\sqrt3\\).</p><p><strong>\\(x=1+\\sqrt3\\) eller \\(x=3+\\sqrt3\\).</strong></p>",
+    "familj": "NP-ankare: dold substitution",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1+sqrt(3)",
+      "3+sqrt(3)"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Jämför uttrycket \\(x-\\sqrt3\\) med variabeln \\(t\\) i den enklare ekvationen.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarEtiketter": [
+      "x₁",
+      "x₂"
+    ],
+    "svarsstruktur": "mängd",
+    "manuellKomplettering": true,
+    "kalla": "NP Ma2c vt 2014, uppgift 10",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.829",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Lös ekvationen \\[\\lg5+2\\lg x=\\lg80.\\]</p>",
+    "s": "<p>\\(2\\lg x=\\lg x^2\\), så \\(\\lg(5x^2)=\\lg80\\). Därmed \\(5x^2=80\\), alltså \\(x^2=16\\).</p><p>Eftersom \\(\\lg x\\) kräver \\(x>0\\) fås <strong>\\(x=4\\)</strong>.</p>",
+    "familj": "NP-ankare: logaritmekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potenslagen och produktlagen. Glöm inte definitionsvillkoret för \\(\\lg x\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "NP Ma2c ht 2013, uppgift 7c",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.830",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Värdet på \\(\\lg2\\) är ungefär \\(0{,}301\\). Bestäm ett värde på \\(\\lg8\\) med tre decimaler.</p>",
+    "s": "<p>Eftersom \\(8=2^3\\) gäller \\(\\lg8=\\lg(2^3)=3\\lg2\\approx3\\cdot0{,}301=0{,}903\\).</p><p><strong>0,903</strong></p>",
+    "familj": "NP-ankare: logaritmstruktur",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.903,
+    "tolerans": 0.0005,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv 8 som en potens med basen 2.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 1,
+    "spel": true,
+    "kalla": "NP Ma2c ht 2013, uppgift 8",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.831",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Om \\(\\lg(2a)=6\\) så blir värdet av \\(\\lg(2000a)\\) ett heltal. Bestäm detta heltal.</p>",
+    "s": "<p>\\(2000a=1000\\cdot2a\\). Därför</p><p>\\[\\lg(2000a)=\\lg1000+\\lg(2a)=3+6=9.\\]</p><p><strong>9</strong></p>",
+    "familj": "NP-ankare: logaritmlagar C",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Försök skriva \\(2000a\\) som \\(1000\\cdot(2a)\\).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "NP Ma2c ht 2014, uppgift 13",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.832",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla uttrycket så långt som möjligt:</p><p>\\[\\frac{\\lg\\sqrt{x}\\cdot\\lg\\left(\\frac{x}{2}\\right)^2}{\\lg\\left(\\frac{x}{2}\\right)}.\\]</p>",
+    "s": "<p>\\(\\lg\\sqrt{x}=\\frac12\\lg x\\) och \\(\\lg\\left(\\frac{x}{2}\\right)^2=2\\lg\\left(\\frac{x}{2}\\right)\\).</p><p>För \\(x>0\\) och \\(x\\ne2\\) kan faktorn \\(\\lg(x/2)\\) förkortas:</p><p>\\[\\frac{\\frac12\\lg x\\cdot2\\lg(x/2)}{\\lg(x/2)}=\\lg x.\\]</p><p><strong>\\(\\lg x\\)</strong></p>",
+    "familj": "NP-ankare: avancerad logaritmförenkling",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "lg(x)",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potenslagen separat på \\(\\sqrt{x}\\) och på kvadraten.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true,
+    "kalla": "NP Ma2c vt 2015, uppgift 9b",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.833",
+    "kap": 2,
+    "omr": "andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Lös ekvationen och svara exakt på enklaste form:</p><p>\\[(5987-x)^2-2(5987-x)=0.\\]</p>",
+    "s": "<p>Sätt \\(t=5987-x\\). Då blir \\(t^2-2t=0\\), alltså \\(t(t-2)=0\\).</p><p>Så \\(t=0\\) eller \\(t=2\\), vilket ger \\(x=5987\\) eller \\(x=5985\\).</p><p><strong>\\(x=5985\\) eller \\(x=5987\\).</strong></p>",
+    "familj": "NP-ankare: substitutionsidé",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5985,
+      5987
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Hela uttrycket \\(5987-x\\) återkommer. Behandla det som en ny variabel.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x₁",
+      "x₂"
+    ],
+    "svarsstruktur": "mängd",
+    "kalla": "NP Ma2c vt 2022, uppgift 6e",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.834",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>I början av år 2011 köpte Matilda en dator för 10 000 kr. Datorns värde kan beskrivas med \\(V(t)=10000\\cdot0{,}60^t\\), där \\(V\\) är datorns värde i kr och \\(t\\) är tiden i år efter inköpet.</p><p>Teckna en ny funktion som anger datorns värde \\(V\\) i kr som funktion av tiden \\(t\\), där tiden nu i stället ska räknas i <em>månader</em> efter inköpet.</p>",
+    "s": "<p>Om \\(t\\) nu mäts i månader motsvarar \\(t\\) månader \\(t/12\\) år. Sätt därför in \\(t/12\\) i den ursprungliga modellen:</p><p>\\[V(t)=10000\\cdot0{,}60^{t/12}.\\]</p><p><strong>\\(V(t)=10000\\cdot0{,}60^{t/12}\\)</strong></p>",
+    "familj": "NP-ankare: byta tidsenhet i exponentialmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "10000*0.60^(t/12)",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Hur många år är \\(t\\) månader?</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true,
+    "kalla": "NP Ma2c vt 2012, uppgift 9b",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.835",
+    "kap": 2,
+    "omr": "andragradsfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>För andragradsfunktionen \\(f\\) gäller att</p><p>\\[f(x)=-0{,}5x^2+bx-2.\\]</p><p>Bestäm för vilka värden på \\(b\\) som \\(f\\) endast har ett nollställe.</p>",
+    "s": "<p>Ett enda nollställe betyder dubbelrot, alltså diskriminanten noll:</p><p>\\[b^2-4\\cdot(-0{,}5)\\cdot(-2)=0\\Rightarrow b^2-4=0.\\]</p><p>Därför <strong>\\(b=\\pm2\\)</strong>.</p>",
+    "familj": "NP-ankare: parameter och dubbelrot",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>En andragradsfunktion har exakt ett nollställe när diskriminanten är 0.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "b₁",
+      "b₂"
+    ],
+    "svarsstruktur": "mängd",
+    "kalla": "NP Ma2c vt 2015, uppgift 17a",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.836",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Allt levande material innehåller kol-14. Efter 5730 år har mängden kol-14 minskat till hälften av den ursprungliga mängden enligt modellen</p><p>\\[y=C\\cdot2^{-kx},\\]</p><p>där \\(y\\) är den mängd kol-14 som finns kvar och \\(x\\) är antal år efter att mängden började minska. I modellen är \\(C\\) och \\(k\\) konstanter.</p><p>Bestäm vilken ålder ett djurskinn hade om mängden kol-14 var 65,5 % av den ursprungliga mängden.</p>",
+    "s": "<p>Halveringstiden ger \\(k=1/5730\\). Sätt \\(y/C=0{,}655\\):</p><p>\\[0{,}655=2^{-x/5730}.\\]</p><p>Logaritmering ger</p><p>\\[x=-5730\\frac{\\lg0{,}655}{\\lg2}\\approx3498.\\]</p><p><strong>Djurskinnet är ungefär 3500 år gammalt.</strong></p>",
+    "familj": "NP-ankare: halveringstid och modell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3500,
+    "tolerans": 20,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Bestäm först \\(k\\) från halveringstiden. Dividera sedan modellen med \\(C\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true,
+    "kalla": "NP Ma2c ht 2014, uppgift 25",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.837",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Det tar 8,0 timmar för aktiviteten hos ett radioaktivt ämne att minska exponentiellt från 11,5 MBq till 4,6 MBq.</p><p>a) Med hur många procent avtar aktiviteten per timme?<br>b) Hur stor är aktiviteten efter ett dygn om den var 11,5 MBq från början?</p>",
+    "s": "<p>a) Om förändringsfaktorn per timme är \\(q\\) gäller \\(11{,}5q^8=4{,}6\\). Alltså \\(q=(4{,}6/11{,}5)^{1/8}=0{,}4^{1/8}\\approx0{,}8918\\), vilket motsvarar en minskning på cirka <strong>10,8 % per timme</strong>.</p><p>b) Efter 24 timmar har tre åttatimmarsperioder gått, så</p><p>\\[11{,}5\\cdot0{,}4^3=0{,}736\\text{ MBq}.\\]</p><p><strong>0,736 MBq.</strong></p>",
+    "familj": "NP-ankare: exponentialmodell C",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.8,
+      0.736
+    ],
+    "tolerans": [
+      0.2,
+      0.01
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först förändringsfaktorn \\(q\\) ur \\(11{,}5q^8=4{,}6\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "minskning (%/h)",
+      "aktivitet efter 24 h (MBq)"
+    ],
+    "svarsstruktur": "ordnad",
+    "kalla": "NP Ma2c vt 2014, uppgift 21",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.838",
+    "kap": 1,
+    "omr": "ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Ett ekvationssystem består av två ekvationer där varje ekvation innehåller två variabler \\(x\\) och \\(y\\).</p><p>a) Den ena ekvationen är \\(3x+2y=12\\). Ge ett exempel på hur den andra ekvationen kan se ut så att ekvationssystemet saknar lösningar.</p><p>b) Den ena ekvationen är fortfarande \\(3x+2y=12\\). Ge ett exempel på hur den andra ekvationen kan se ut så att ekvationssystemet endast får lösningen \\(x=2,\\ y=3\\).</p>",
+    "s": "<p>a) Den andra linjen ska vara parallell men inte samma linje, till exempel \\(6x+4y=25\\).</p><p>b) Den andra linjen ska gå genom \\((2,3)\\) men inte vara parallell med den första, till exempel \\(x+y=5\\).</p><p><strong>Exempel: a) \\(6x+4y=25\\), b) \\(x+y=5\\).</strong></p>",
+    "familj": "NP-ankare: konstruera ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>a) Tänk parallella linjer. b) Välj en annan linje genom punkten \\((2,3)\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarEtiketter": [
+      "a) andra ekvationen",
+      "b) andra ekvationen"
+    ],
+    "svarsstruktur": "ordnad",
+    "manuellKomplettering": true,
+    "kalla": "NP Ma2c vt 2012, uppgift 10",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.839",
+    "kap": 1,
+    "omr": "algebraiska_identiteter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ove beräknar uttrycket</p><p>\\[123456789\\cdot123456789-123456788\\cdot123456790\\]</p><p>med sin miniräknare. Räknaren ger resultatet 0. Ove misstänker att räknaren ger fel svar. Visa genom att använda algebra att räknaren ger fel svar.</p>",
+    "s": "<p>Sätt \\(n=123456789\\). Då är uttrycket</p><p>\\[n^2-(n-1)(n+1).\\]</p><p>Konjugatregeln ger \\((n-1)(n+1)=n^2-1\\), alltså</p><p>\\[n^2-(n^2-1)=1.\\]</p><p><strong>Det korrekta värdet är 1, så räknarens 0 är fel.</strong></p>",
+    "familj": "NP-ankare: algebra kontra räknarfel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "procedur"
+    ],
+    "ledtrad": "<p>Se talen som \\(n-1\\), \\(n\\) och \\(n+1\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "svarFormat": [
+      "resonemang"
+    ],
+    "svarEtiketter": [
+      "visning"
+    ],
+    "manuellKomplettering": true,
+    "kalla": "NP Ma2c ht 2014, uppgift 12",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.840",
+    "kap": 2,
+    "omr": "andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En andragradsekvation</p><p>\\[x^2+(a+4)x+b+5=0\\]</p><p>har lösningarna \\(x_1=1\\) och \\(x_2=-3\\). Bestäm värdet på \\(a\\) och \\(b\\).</p>",
+    "s": "<p>Summan av rötterna är \\(-2\\), alltså \\(-(a+4)=-2\\), vilket ger \\(a=-2\\).</p><p>Produkten är \\(-3\\), alltså \\(b+5=-3\\), vilket ger \\(b=-8\\).</p><p><strong>\\(a=-2\\), \\(b=-8\\).</strong></p>",
+    "familj": "NP-ankare: rötter och koefficienter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      -8
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd sambanden mellan rötternas summa/produkt och koefficienterna.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad",
+    "kalla": "NP Ma2c vt 2015, uppgift 14",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.841",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Vilka två av alternativen A-E är lika med 2?</p><p>A. \\(\\lg49+\\lg51\\)<br>B. \\(\\frac{\\lg200}{2}\\)<br>C. \\(\\lg500-\\lg5\\)<br>D. \\(4^{\\lg0{,}5}\\)<br>E. \\((\\lg10000)^{0{,}5}\\)</p>",
+    "s": "<p>C ger \\(\\lg(500/5)=\\lg100=2\\). E ger \\((\\lg10000)^{0{,}5}=4^{0{,}5}=2\\).</p><p><strong>C och E.</strong></p>",
+    "familj": "NP-ankare: logaritmbegrepp C",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "C",
+      "E"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd produkt-, kvot- och potenslagen där de passar.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": false,
+    "svarFormat": [
+      "text",
+      "text"
+    ],
+    "svarEtiketter": [
+      "alternativ 1",
+      "alternativ 2"
+    ],
+    "svarsstruktur": "mängd",
+    "manuellKomplettering": true,
+    "kalla": "NP Ma2c ht 2014, uppgift 6",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.842",
+    "kap": 1,
+    "omr": "algebraiska_bevis",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/3/1",
+    "t": "<p>a) Visa att summan av två udda tal alltid är jämn.</p><p>b) Visa att produkten av två udda tal alltid är udda.</p>",
+    "s": "<p>Skriv två godtyckliga udda tal som \\(2n+1\\) och \\(2k+1\\).</p><p>a) Summan blir \\(2n+1+2k+1=2(n+k+1)\\), alltså jämn.</p><p>b) Produkten blir \\((2n+1)(2k+1)=2(2nk+n+k)+1\\), alltså udda.</p>",
+    "familj": "Referensankare: generellt algebraiskt bevis",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Representera ett godtyckligt udda tal som \\(2n+1\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "svarFormat": [
+      "resonemang"
+    ],
+    "svarEtiketter": [
+      "bevis"
+    ],
+    "manuellKomplettering": true,
+    "kalla": "Extrauppgifter Algebra, uppgift 7",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.843",
+    "kap": 2,
+    "omr": "andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/3/2",
+    "t": "<p>Lös ekvationen och ange även eventuella komplexa rötter:</p><p>\\[2x^4-14x^2-16=0.\\]</p>",
+    "s": "<p>Dividera med 2 och sätt \\(t=x^2\\):</p><p>\\[t^2-7t-8=0=(t-8)(t+1).\\]</p><p>Alltså \\(x^2=8\\) eller \\(x^2=-1\\).</p><p><strong>\\(x=\\pm2\\sqrt2\\) samt \\(x=\\pm i\\).</strong></p>",
+    "familj": "Referensankare: bi-kvadratisk substitution",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt \\(t=x^2\\) och lös först andragradsekvationen i \\(t\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "svarFormat": [
+      "resonemang"
+    ],
+    "svarEtiketter": [
+      "alla rötter"
+    ],
+    "manuellKomplettering": true,
+    "kalla": "Extrauppgifter kap 2, uppgift 8b",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.844",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Bestäm det exakta värdet av \\(\\lg a^3+\\lg b^3\\) om \\(ab=10^4\\).</p>",
+    "s": "<p>\\(\\lg a^3+\\lg b^3=3\\lg(ab)=3\\lg(10^4)=12\\).</p><p><strong>12</strong></p>",
+    "familj": "Variant: logaritmlagar och given produkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Försök få fram \\(\\lg(ab)\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 1,
+    "spel": true,
+    "kalla": "Ny variant av NP Ma2c vt 2014, uppgift 9",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.845",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Bestäm det exakta värdet av</p><p>\\[\\lg(a^2b)+\\lg(ab^2)\\]</p><p>om \\(ab=10^6\\).</p>",
+    "s": "<p>Produktlagen ger</p><p>\\[\\lg(a^2b\\cdot ab^2)=\\lg(a^3b^3)=\\lg((ab)^3).\\]</p><p>Därför blir värdet \\(\\lg((10^6)^3)=\\lg(10^{18})=18\\).</p><p><strong>18</strong></p>",
+    "familj": "Variant: dold produkt i logaritmer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Multiplicera argumenten när du slår ihop logaritmerna.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "Ny variant inspirerad av NP-logaritmankare",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.846",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Lös ekvationen</p><p>\\[\\lg7+2\\lg x=\\lg112.\\]</p>",
+    "s": "<p>\\(\\lg(7x^2)=\\lg112\\), alltså \\(7x^2=112\\) och \\(x^2=16\\). Eftersom \\(x>0\\) fås <strong>\\(x=4\\)</strong>.</p>",
+    "familj": "Variant: logaritmekvation med definitionsvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potenslagen och produktlagen. Logaritmens argument måste vara positivt.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 7c",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.847",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Värdet på \\(\\lg5\\) är ungefär \\(0{,}699\\). Bestäm \\(\\lg0{,}125\\) med tre decimaler utan miniräknare.</p>",
+    "s": "<p>Eftersom \\(\\lg2=1-\\lg5\\approx0{,}301\\) och \\(0{,}125=1/8=2^{-3}\\) får vi</p><p>\\[\\lg0{,}125=-3\\lg2\\approx-3\\cdot0{,}301=-0{,}903.\\]</p><p><strong>-0,903</strong></p>",
+    "familj": "Variant: härleda logaritmvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.903,
+    "tolerans": 0.0005,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Ta först fram \\(\\lg2\\) ur \\(\\lg10=\\lg2+\\lg5\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 8",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.848",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Om \\(\\lg(5a)=4\\), bestäm \\(\\lg(500a)\\).</p>",
+    "s": "<p>\\(500a=100\\cdot5a\\), alltså \\(\\lg(500a)=\\lg100+\\lg(5a)=2+4=6\\).</p><p><strong>6</strong></p>",
+    "familj": "Variant: logaritmlagar C",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Skriv \\(500a\\) som en produkt där \\(5a\\) ingår.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 13",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.849",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{\\lg\\sqrt[3]{x}\\cdot\\lg\\left(\\frac{x}{5}\\right)^3}{\\lg\\left(\\frac{x}{5}\\right)}.\\]</p>",
+    "s": "<p>\\(\\lg\\sqrt[3]{x}=\\frac13\\lg x\\) och \\(\\lg((x/5)^3)=3\\lg(x/5)\\). För \\(x>0\\), \\(x\\ne5\\), fås</p><p>\\[\\frac{\\frac13\\lg x\\cdot3\\lg(x/5)}{\\lg(x/5)}=\\lg x.\\]</p><p><strong>\\(\\lg x\\)</strong></p>",
+    "familj": "Variant: avancerad logaritmförenkling",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "lg(x)",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potenslagen på båda logaritmerna i täljaren.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 9b",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.850",
+    "kap": 2,
+    "omr": "andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Lös ekvationen exakt:</p><p>\\[(2026-2x)^2-5(2026-2x)+6=0.\\]</p>",
+    "s": "<p>Sätt \\(t=2026-2x\\). Då \\(t^2-5t+6=0\\), alltså \\(t=2\\) eller \\(t=3\\).</p><p>Det ger \\(x=1012\\) respektive \\(x=1011{,}5\\).</p><p><strong>\\(x=1011{,}5\\) eller \\(x=1012\\).</strong></p>",
+    "familj": "Variant: dold substitution",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1011.5,
+      1012
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Låt hela uttrycket \\(2026-2x\\) vara en ny variabel.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x₁",
+      "x₂"
+    ],
+    "svarsstruktur": "mängd",
+    "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 6e",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.851",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Värdet på en maskin beskrivs av \\(P(t)=24000\\cdot0{,}81^t\\), där \\(t\\) är tiden i år.</p><p>Teckna en ny funktion som beskriver värdet när tidsvariabeln \\(m\\) i stället mäts i månader.</p>",
+    "s": "<p>\\(m\\) månader är \\(m/12\\) år. Därför</p><p>\\[P(m)=24000\\cdot0{,}81^{m/12}.\\]</p>",
+    "familj": "Variant: byta tidsenhet i exponentialmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "24000*0.81^(m/12)",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Ersätt antal år med antal månader dividerat med 12.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true,
+    "kalla": "Ny variant av NP Ma2c vt 2012, uppgift 9b",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.852",
+    "kap": 2,
+    "omr": "andragradsfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>För funktionen \\(g(x)=-2x^2+cx-8\\) ska grafen tangera \\(x\\)-axeln. Bestäm alla möjliga värden på \\(c\\).</p>",
+    "s": "<p>Tangering betyder dubbelrot, alltså diskriminanten 0:</p><p>\\[c^2-4\\cdot(-2)\\cdot(-8)=0\\Rightarrow c^2-64=0.\\]</p><p><strong>\\(c=\\pm8\\)</strong>.</p>",
+    "familj": "Variant: parameter och dubbelrot",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -8,
+      8
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangering mot \\(x\\)-axeln innebär exakt ett nollställe.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "c₁",
+      "c₂"
+    ],
+    "svarsstruktur": "mängd",
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 17a",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.853",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Ett radioaktivt ämne har halveringstiden 1600 år. I ett prov återstår 30 % av den ursprungliga mängden.</p><p>Bestäm provets ålder. Svara i hela år.</p>",
+    "s": "<p>Modellen kan skrivas \\(0{,}30=2^{-t/1600}\\). Logaritmering ger</p><p>\\[t=-1600\\frac{\\lg0{,}30}{\\lg2}\\approx2779.\\]</p><p><strong>Ungefär 2779 år.</strong></p>",
+    "familj": "Variant: halveringstid",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2779,
+    "tolerans": 2,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Skriv den återstående andelen som \\(2^{-t/1600}\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 25",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.854",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=4\\\\[2mm]\\lg(x^2y^3)=11\\end{cases}\\]</p><p>Svara exakt.</p>",
+    "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då fås</p><p>\\[\\begin{cases}u+v=4\\\\2u+3v=11\\end{cases}\\]</p><p>Subtraktion ger \\(v=3\\), och då \\(u=1\\). Därmed \\(x=10\\), \\(y=1000\\).</p><p><strong>\\((x,y)=(10,1000)\\).</strong></p>",
+    "familj": "Variant: dolt logaritmiskt ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      1000
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Prova variabelbytet \\(u=\\lg x\\), \\(v=\\lg y\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad",
+    "kalla": "Ny variant kalibrerad mot NP-logaritmuppgifter",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.855",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg x+2\\lg y=7\\\\[2mm]\\lg\\left(\\frac{x}{y}\\right)=1\\end{cases}\\]</p><p>Svara exakt.</p>",
+    "s": "<p>Sätt \\(u=\\lg x\\), \\(v=\\lg y\\). Då blir systemet</p><p>\\[\\begin{cases}u+2v=7\\\\u-v=1\\end{cases}\\]</p><p>Substitution eller addition ger \\(v=2\\) och \\(u=3\\). Alltså \\(x=1000\\), \\(y=100\\).</p><p><strong>\\((x,y)=(1000,100)\\).</strong></p>",
+    "familj": "Variant: logaritmlagar + ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1000,
+      100
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Låt logaritmerna själva vara de nya obekanta.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarsstruktur": "ordnad",
+    "kalla": "Ny variant kalibrerad mot NP-logaritmuppgifter",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.856",
+    "kap": 2,
+    "omr": "speciella_ekvationssystem",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>I ekvationssystemet nedan är \\(A\\) och \\(B\\) konstanter.</p><p>\\[\\begin{cases}15x-6=-By\\\\Ax-3y=4\\end{cases}\\]</p><p>Bestäm konstanterna \\(A\\) och \\(B\\) så att ekvationssystemet har oändligt många lösningar.</p>",
+    "s": "<p>För oändligt många lösningar måste ekvationerna beskriva samma linje.</p><p>Den första kan skrivas \\(15x+By=6\\). Om den andra är \\(k\\) gånger den första ger konstantleden \\(6k=4\\), alltså \\(k=2/3\\).</p><p>Därför \\(A=15\\cdot\\frac23=10\\) och \\(-3=B\\cdot\\frac23\\), vilket ger \\(B=-\\frac92\\).</p><p><strong>\\(A=10\\), \\(B=-\\frac92\\).</strong></p>",
+    "familj": "NP-ankare: parametrar och oändligt många lösningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      "-9/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "procedur"
+    ],
+    "ledtrad": "<p>Oändligt många lösningar betyder att de två ekvationerna beskriver exakt samma linje.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2013, uppgift 14",
+    "referensTyp": "original",
+    "manuellKomplettering": true,
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarEtiketter": [
+      "A",
+      "B"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.857",
+    "kap": 2,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>För en funktion \\(f\\), där \\(f(x)=kx+m\\), gäller att</p><ul><li>\\(f(x+2)-f(x)=3\\)</li><li>\\(f(4)=2m\\)</li></ul><p>Bestäm funktionen \\(f\\).</p>",
+    "s": "<p>Eftersom \\(f\\) är linjär blir</p><p>\\[f(x+2)-f(x)=k(x+2)+m-(kx+m)=2k.\\]</p><p>Alltså \\(2k=3\\), så \\(k=1{,}5\\). Vidare är \\(f(4)=6+m=2m\\), vilket ger \\(m=6\\).</p><p><strong>\\(f(x)=1{,}5x+6\\).</strong></p>",
+    "familj": "NP-ankare: funktionsvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "1.5*x+6",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Utnyttja att differensen \\(f(x+2)-f(x)\\) förenklas kraftigt för en linjär funktion.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2015, uppgift 23",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.858",
+    "kap": 2,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Två räta linjer har ekvationerna \\(y=2x+a\\) och \\(2y-x=b\\), där \\(a\\) och \\(b\\) är konstanter.</p><p>Anta att linjerna alltid ska skära varandra i en punkt som ligger på linjen \\(y=3x\\).</p><p>Visa vilket samband som då måste gälla mellan \\(a\\) och \\(b\\).</p>",
+    "s": "<p>I skärningspunkten gäller både \\(y=3x\\) och \\(y=2x+a\\). Då är \\(3x=2x+a\\), alltså \\(x=a\\) och \\(y=3a\\).</p><p>Sätt in i \\(2y-x=b\\): \\(2\\cdot3a-a=b\\), alltså</p><p><strong>\\(b=5a\\).</strong></p>",
+    "familj": "NP-ankare: samband mellan parametrar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Använd villkoret \\(y=3x\\) redan när du bestämmer skärningspunkten.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2014, uppgift 16",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.859",
+    "kap": 2,
+    "omr": "andragradsekvationer_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>I ekvationen \\(ax^2-a^2x=-2\\) är \\(a\\) en positiv konstant.</p><p>Lös ekvationen och visa vilka värden på \\(a\\) som ger två olika reella rötter.</p>",
+    "s": "<p>Eftersom \\(a>0\\) kan vi dividera med \\(a\\):</p><p>\\[x^2-ax+\\frac2a=0.\\]</p><p>Rötterna blir</p><p>\\[x=\\frac{a\\pm\\sqrt{a^2-8/a}}2.\\]</p><p>Två olika reella rötter kräver \\(a^2-8/a>0\\). Eftersom \\(a>0\\) är detta ekvivalent med \\(a^3>8\\), alltså <strong>\\(a>2\\)</strong>.</p>",
+    "familj": "NP-ankare: parameter i andragradsekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang",
+      "procedur"
+    ],
+    "ledtrad": "<p>Dividera först med \\(a\\). Villkoret för två olika reella rötter kan sedan uttryckas med diskriminanten.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2014, uppgift 17",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.860",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Två funktioner ges av \\(f(x)=-x^2+5x\\) och \\(g(x)=-2x+15\\).</p><p>a) Avståndet \\(A\\) mellan graferna i y-led beror på \\(x\\). Bestäm \\(A\\) som funktion av \\(x\\).</p><p>b) Bestäm det minsta avståndet mellan graferna i y-led.</p>",
+    "s": "<p>Avståndet i y-led är \\(A(x)=g(x)-f(x)\\):</p><p>\\[A(x)=(-2x+15)-(-x^2+5x)=x^2-7x+15.\\]</p><p>Parabelns minimipunkt ligger vid \\(x=\\frac72\\). Då</p><p>\\[A\\left(\\frac72\\right)=\\frac{49}{4}-\\frac{49}{2}+15=\\frac{11}{4}=2{,}75.\\]</p><p><strong>\\(A(x)=x^2-7x+15\\), minsta avstånd \\(2{,}75\\).</strong></p>",
+    "familj": "NP-ankare: avstånd mellan funktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Teckna först skillnaden mellan funktionernas y-värden. Därefter har du en ny andragradsfunktion att minimera.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2014, uppgift 24",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.861",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Ett exemplar av ett känt datorföretags första datormodell såldes år 2013 till ett pris som var tusen gånger så stort som priset år 1976.</p><p>Anta att den procentuella prisökningen varit lika stor varje år.</p><p>Beräkna den årliga procentuella prisökningen mellan år 1976 och år 2013.</p>",
+    "s": "<p>Det är \\(37\\) år mellan 1976 och 2013. Om förändringsfaktorn är \\(a\\) gäller</p><p>\\[a^{37}=1000.\\]</p><p>Alltså \\(a=1000^{1/37}\\approx1{,}2053\\), vilket motsvarar ungefär <strong>20,5 % per år</strong>.</p>",
+    "familj": "NP-ankare: exponentialmodell och procent",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.5,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Låt \\(a\\) vara den årliga förändringsfaktorn. Hur många års förändring sker från 1976 till 2013?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "NP Ma2c vt 2015, uppgift 22",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.862",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En bostadsrätt köptes i juni år 2000 för 850 000 kr. I juni år 2011 såldes den för 1,6 miljoner kr.</p><p>Anta att den årliga procentuella värdeökningen har varit lika stor under hela tidsperioden. Beräkna den årliga procentuella värdeökningen.</p>",
+    "s": "<p>Om förändringsfaktorn är \\(a\\) gäller</p><p>\\[850000\\cdot a^{11}=1600000.\\]</p><p>Alltså \\(a=(1600000/850000)^{1/11}\\approx1{,}0592\\).</p><p><strong>Värdet ökade med ungefär 5,9 % per år.</strong></p>",
+    "familj": "NP-ankare: bestäm förändringsfaktor",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.9,
+    "tolerans": 0.15,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "ledtrad": "<p>Ställ upp en exponentialmodell med 11 års förändring.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "NP Ma2c ht 2013, uppgift 19",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.863",
+    "kap": 2,
+    "omr": "linjara_representationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=2x-a\\).</p><p>För vilka värden på \\(a\\) gäller att \\((f(1))^2=4\\)?</p>",
+    "s": "<p>\\(f(1)=2-a\\). Därför</p><p>\\[(2-a)^2=4.\\]</p><p>Alltså \\(2-a=2\\) eller \\(2-a=-2\\), vilket ger <strong>\\(a=0\\) eller \\(a=4\\)</strong>.</p>",
+    "familj": "NP-ankare: funktion och parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Beräkna först \\(f(1)\\) uttryckt i \\(a\\).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "NP Ma2c ht 2013, uppgift 6",
+    "referensTyp": "original",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a₁",
+      "a₂"
+    ],
+    "svarsstruktur": "mängd"
+  },
+  {
+    "id": "2.864",
+    "kap": 2,
+    "omr": "andragradsfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>För andragradsfunktionen \\(f\\) gäller att</p><p>\\[f(x)=-0{,}5x^2+bx-2.\\]</p><p>Då \\(b\\) varierar följer funktionens maximipunkter grafen till en ny andragradsfunktion \\(g\\).</p><p>Bestäm funktionen \\(g\\).</p>",
+    "s": "<p>För ett givet \\(b\\) ligger maximipunkten vid</p><p>\\[x=-\\frac{b}{2(-0{,}5)}=b.\\]</p><p>Dess y-värde är</p><p>\\[f(b)=-0{,}5b^2+b^2-2=0{,}5b^2-2.\\]</p><p>Eftersom maximipunktens x-koordinat är \\(b\\) fås</p><p><strong>\\(g(x)=0{,}5x^2-2\\).</strong></p>",
+    "familj": "NP-ankare: ortkurva för maximipunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "0.5*x^2-2",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Bestäm maximipunktens båda koordinater uttryckta i parametern \\(b\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2015, uppgift 17b",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.865",
+    "kap": 2,
+    "omr": "andragradsekvationer_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>I en butik köper Armand ett rep för 60 kr. En annan butik säljer samma typ av rep men där är repet 1 kr dyrare per meter. Om Armand hade handlat i den andra butiken hade han fått ett 2 meter kortare rep för 60 kr.</p><p>Bestäm hur långt rep Armand köpte. Prövning godtas inte.</p>",
+    "s": "<p>Låt \\(x\\) vara längden i meter i den första butiken. Då kostar repet \\(60/x\\) kr per meter. I den andra butiken gäller</p><p>\\[\\left(\\frac{60}{x}+1\\right)(x-2)=60.\\]</p><p>Förenkling ger \\(x^2-2x-120=0\\), alltså \\((x-12)(x+10)=0\\). Endast den positiva lösningen är rimlig.</p><p><strong>Armand köpte 12 m rep.</strong></p>",
+    "familj": "NP-ankare: modellering till andragradsekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Låt \\(x\\) vara längden i första butiken och uttryck meterpriset som \\(60/x\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2022, uppgift 15",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.866",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>En varg har blivit skjuten av en tjuvskytt. Tre misstänkta saknar alibi under följande tider: Poison Ivy kl. 9–12, Magica de Hex kl. 12–15 och Catwoman kl. 15–21.</p><p>Vargens kroppstemperatur mäts kl. 21.00 och är då 28,0 °C. Tre timmar senare är temperaturen 25,6 °C. Anta att kroppstemperaturen efter döden avtar exponentiellt och att en levande vargs kroppstemperatur är 36,9 °C.</p><p>Bestäm ungefär när vargen dog och vem som kan ha begått brottet. Visa dina beräkningar och motivera svaret.</p>",
+    "s": "<p>På tre timmar är förändringsfaktorn \\(25{,}6/28\\), så timfaktorn är</p><p>\\[a=\\left(\\frac{25{,}6}{28}\\right)^{1/3}\\approx0{,}9708.\\]</p><p>Om \\(t\\) är antalet timmar från döden till kl. 21 gäller \\(36{,}9a^t=28\\). Det ger \\(t\\approx9{,}24\\) timmar, alltså cirka kl. 11.45.</p><p><strong>Poison Ivy</strong> är den enda av de tre som saknar alibi då.</p>",
+    "familj": "Referens: kreativ exponentialmodellering",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "kommunikation"
+    ],
+    "ledtrad": "<p>Bestäm först förändringsfaktorn per timme från de två temperaturmätningarna.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "Extrauppgifter kap 2, uppgift 11",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.867",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>En vattenspridare sitter 1,25 m över marken. Den vattenstråle som når längst beskriver en parabel. Strålens högsta punkt är 2,10 m över marken och ligger 1,50 m horisontellt från stolpens mittpunkt.</p><p>Spridaren roterar och bevattnar ett cirkulärt område ända in till stolpen. Hur stor area bevattnar spridaren?</p>",
+    "s": "<p>Sätt stolpen vid \\(x=0\\). Parabelns topp är \\((1{,}50;\\,2{,}10)\\), så</p><p>\\[y=a(x-1{,}5)^2+2{,}10.\\]</p><p>Eftersom \\(y(0)=1{,}25\\) fås \\(a\\approx-0{,}3778\\). Den positiva lösningen till \\(y=0\\) är \\(x\\approx3{,}858\\) m.</p><p>Detta är bevattningscirkelns radie. Arean blir</p><p>\\[\\pi\\cdot3{,}858^2\\approx46{,}8\\text{ m}^2.\\]</p><p><strong>Ungefär 46,8 m².</strong></p>",
+    "familj": "Referens: kreativ andragradsmodellering",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 46.8,
+    "tolerans": 0.4,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "kommunikation"
+    ],
+    "ledtrad": "<p>Använd vertexformen för parabeln och bestäm först var vattenstrålen träffar marken.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "Extrauppgifter kap 2, uppgift 12",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.868",
+    "kap": 2,
+    "omr": "speciella_ekvationssystem",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>I systemet</p><p>\\[\\begin{cases}18x-9=-Cy\\\\Dx-4y=8\\end{cases}\\]</p><p>är \\(C\\) och \\(D\\) konstanter. Bestäm \\(C\\) och \\(D\\) så att systemet har oändligt många lösningar.</p>",
+    "s": "<p>Första ekvationen är \\(18x+Cy=9\\). Om den andra ska beskriva samma linje måste den vara \\(8/9\\) gånger den första.</p><p>Därför \\(D=18\\cdot8/9=16\\) och \\(-4=C\\cdot8/9\\), alltså \\(C=-9/2\\).</p><p><strong>\\(C=-\\frac92\\), \\(D=16\\).</strong></p>",
+    "familj": "Variant: parametrar och identiska linjer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-9/2",
+      16
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Oändligt många lösningar kräver att båda ekvationerna är multiplar av varandra.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 14",
+    "referensTyp": "variant",
+    "manuellKomplettering": true,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "C",
+      "D"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.869",
+    "kap": 2,
+    "omr": "bestamma_linjara_funktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>En linjär funktion \\(f(x)=kx+m\\) uppfyller</p><p>\\[f(x+3)-f(x)=12\\]</p><p>för alla \\(x\\), och dessutom \\(f(5)=3m\\).</p><p>Bestäm \\(f\\).</p>",
+    "s": "<p>Skillnaden är \\(3k\\), alltså \\(3k=12\\) och \\(k=4\\). Sedan är \\(f(5)=20+m=3m\\), vilket ger \\(m=10\\).</p><p><strong>\\(f(x)=4x+10\\).</strong></p>",
+    "familj": "Variant: funktionsvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "4*x+10",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>För en linjär funktion beror \\(f(x+h)-f(x)\\) bara på \\(h\\) och riktningskoefficienten.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 23",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.870",
+    "kap": 2,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Linjerna \\(y=-x+a\\) och \\(3y+2x=b\\) skär varandra i en punkt som ligger på linjen \\(y=2x\\).</p><p>Bestäm ett samband mellan \\(a\\) och \\(b\\).</p>",
+    "s": "<p>\\(2x=-x+a\\) ger \\(x=a/3\\) och därmed \\(y=2a/3\\). Sätt in i den andra linjen:</p><p>\\[b=3\\cdot\\frac{2a}{3}+2\\cdot\\frac a3=\\frac{8a}{3}.\\]</p><p><strong>\\(3b=8a\\).</strong></p>",
+    "familj": "Variant: parameterrelation för skärningspunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Utnyttja linjen \\(y=2x\\) för att uttrycka skärningspunkten i parametern \\(a\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2014, uppgift 16",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.871",
+    "kap": 2,
+    "omr": "andragradsekvationer_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>I ekvationen \\(ax^2-a^2x=-3\\) är \\(a>0\\).</p><p>Lös ekvationen uttryckt i \\(a\\) och bestäm för vilka värden på \\(a\\) ekvationen har två olika reella rötter.</p>",
+    "s": "<p>Dividera med \\(a\\): \\(x^2-ax+3/a=0\\). Då</p><p>\\[x=\\frac{a\\pm\\sqrt{a^2-12/a}}2.\\]</p><p>Två olika reella rötter kräver \\(a^2-12/a>0\\). Eftersom \\(a>0\\) fås \\(a^3>12\\), alltså</p><p><strong>\\(a>\\sqrt[3]{12}\\).</strong></p>",
+    "familj": "Variant: parameter och antal rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Villkoret för två olika rötter är att diskriminanten är strikt positiv.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2014, uppgift 17",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.872",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Funktionerna \\(f(x)=-2x^2+8x+1\\) och \\(g(x)=-x+14\\) är givna.</p><p>Bestäm det minsta vertikala avståndet mellan graferna.</p>",
+    "s": "<p>Skillnaden är</p><p>\\[A(x)=g(x)-f(x)=2x^2-9x+13.\\]</p><p>Diskriminanten är negativ, så \\(A(x)>0\\) för alla \\(x\\). Minimipunkten ligger vid \\(x=9/4\\) och</p><p>\\[A(9/4)=\\frac{23}{8}.\\]</p><p><strong>Minsta avståndet är \\(23/8=2{,}875\\).</strong></p>",
+    "familj": "Variant: minimera avstånd mellan grafer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.875,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Teckna skillnaden mellan funktionerna och minimera den.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2014, uppgift 24",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.873",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Priset på ett samlarföremål har blivit 400 gånger så stort på 24 år. Anta att den procentuella prisökningen varit lika stor varje år.</p><p>Bestäm den årliga procentuella prisökningen.</p>",
+    "s": "<p>Om den årliga förändringsfaktorn är \\(a\\) gäller \\(a^{24}=400\\). Därför</p><p>\\[a=400^{1/24}\\approx1{,}2836.\\]</p><p><strong>Ökningen är ungefär 28,4 % per år.</strong></p>",
+    "familj": "Variant: långsiktig procentuell ökning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28.4,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Ställ upp en ekvation för förändringsfaktorn över 24 år.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 22",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.874",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En lägenhet köps för 1,20 miljoner kronor och säljs nio år senare för 2,30 miljoner kronor. Anta samma procentuella värdeökning varje år.</p><p>Bestäm den årliga procentuella värdeökningen.</p>",
+    "s": "<p>\\[1{,}20\\cdot a^9=2{,}30\\Rightarrow a=(2{,}30/1{,}20)^{1/9}\\approx1{,}0750.\\]</p><p><strong>Ungefär 7,5 % per år.</strong></p>",
+    "familj": "Variant: bestäm årlig förändring",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.5,
+    "tolerans": 0.15,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "ledtrad": "<p>Låt \\(a\\) vara den årliga förändringsfaktorn.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 19",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.875",
+    "kap": 2,
+    "omr": "linjara_representationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=3x-a\\).</p><p>Bestäm alla värden på \\(a\\) som uppfyller \\((f(2))^2=9\\).</p>",
+    "s": "<p>\\(f(2)=6-a\\), så \\((6-a)^2=9\\). Därför \\(6-a=\\pm3\\), vilket ger</p><p><strong>\\(a=3\\) eller \\(a=9\\).</strong></p>",
+    "familj": "Variant: funktion och parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      9
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Beräkna först \\(f(2)\\).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 6",
+    "referensTyp": "variant",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a₁",
+      "a₂"
+    ],
+    "svarsstruktur": "mängd"
+  },
+  {
+    "id": "2.876",
+    "kap": 2,
+    "omr": "andragradsfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>För varje värde på parametern \\(c\\) ges en andragradsfunktion</p><p>\\[h(x)=-2x^2+cx-5.\\]</p><p>När \\(c\\) varierar bildar funktionernas maximipunkter en ny kurva. Bestäm den kurvans ekvation.</p>",
+    "s": "<p>Maximipunktens x-koordinat är \\(x=c/4\\). Y-värdet är</p><p>\\[h(c/4)=-2(c/4)^2+c(c/4)-5=\\frac{c^2}{8}-5.\\]</p><p>Sätt \\(X=c/4\\), alltså \\(c=4X\\). Då blir \\(Y=2X^2-5\\).</p><p><strong>Kurvan är \\(y=2x^2-5\\).</strong></p>",
+    "familj": "Variant: ortkurva för extrempunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "2*x^2-5",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Bestäm först maximipunktens koordinater i parametern \\(c\\), och eliminera sedan parametern.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 17b",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.877",
+    "kap": 2,
+    "omr": "andragradsekvationer_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Ett rep kostar 84 kr i en butik. I en annan butik kostar samma sorts rep 1 kr mer per meter. För 84 kr hade man där fått 2 meter kortare rep.</p><p>Hur långt rep får man i den första butiken?</p>",
+    "s": "<p>Låt \\(x\\) vara längden i första butiken. Meterpriset där är \\(84/x\\). Då gäller</p><p>\\[\\left(\\frac{84}{x}+1\\right)(x-2)=84.\\]</p><p>Detta ger \\(x^2-2x-168=0\\), alltså \\((x-14)(x+12)=0\\).</p><p><strong>Längden är 14 m.</strong></p>",
+    "familj": "Variant: rationell modell till andragradsekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Uttryck först priset per meter i den första butiken.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 15",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.878",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>Ett batteri kopplas bort från en apparat och dess spänning börjar därefter avta exponentiellt. Kl. 18.00 mäts spänningen till 7,2 V och kl. 21.00 till 6,3 V. Precis när batteriet kopplades bort var spänningen 12,0 V.</p><p>När kopplades batteriet bort? Svara med ungefärligt klockslag och visa hur du modellerar situationen.</p>",
+    "s": "<p>På tre timmar är faktorn \\(6{,}3/7{,}2=0{,}875\\), alltså är timfaktorn \\(a=0{,}875^{1/3}\\approx0{,}95647\\).</p><p>Om \\(t\\) är timmar från bortkopplingen till kl. 18 gäller</p><p>\\[12a^t=7{,}2.\\]</p><p>Det ger \\(t\\approx11{,}48\\) timmar. Batteriet kopplades alltså bort ungefär kl. <strong>06.31</strong>.</p>",
+    "familj": "Variant: bestäm starttid ur exponentialmodell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "kommunikation"
+    ],
+    "ledtrad": "<p>Bestäm först förändringsfaktorn per timme från mätningarna kl. 18 och 21.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "Ny variant av Extrauppgifter kap 2, uppgift 11",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.879",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>En roterande vattenspridare sitter 1,20 m över marken. Den stråle som når längst har sin högsta punkt 2,00 m över marken, 1,50 m horisontellt från spridaren. Anta att strålen följer en parabel och att spridaren bevattnar en cirkel.</p><p>Bestäm den bevattnade arean.</p>",
+    "s": "<p>Vertexformen är \\(y=a(x-1{,}5)^2+2{,}00\\). Villkoret \\(y(0)=1{,}20\\) ger \\(a=-16/45\\).</p><p>Markträffen uppfyller \\(0=-\\frac{16}{45}(x-1{,}5)^2+2\\), vilket ger den positiva roten \\(x\\approx3{,}872\\) m.</p><p>Arean blir \\(\\pi x^2\\approx47{,}1\\text{ m}^2\\).</p><p><strong>Ungefär 47,1 m².</strong></p>",
+    "familj": "Variant: parabelmodell och cirkelarea",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 47.1,
+    "tolerans": 0.5,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "kommunikation"
+    ],
+    "ledtrad": "<p>Bestäm parabeln i vertexform och lös sedan var den skär marken.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "Ny variant av Extrauppgifter kap 2, uppgift 12",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.880",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Lös ekvationen</p><p>\\[\\sqrt[3]{x\\sqrt{x}}=8.\\]</p>",
+    "s": "<p>Eftersom roten kräver \\(x\\ge0\\) kan vi sätta \\(u=\\sqrt{x}\\). Då är \\(x=u^2\\), och</p><p>\\[\\sqrt[3]{x\\sqrt{x}}=\\sqrt[3]{u^2\\cdot u}=\\sqrt[3]{u^3}=u.\\]</p><p>Alltså \\(u=8\\), så \\(x=u^2=64\\).</p><p><strong>\\(x=64\\).</strong></p>",
+    "familj": "NP-ankare: rot- och potensstruktur",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 64,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt gärna \\(u=\\sqrt{x}\\). Då blir uttrycket under kubikroten mycket enklare.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "NP Ma2c ht 2013, uppgift 7b",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.881",
+    "kap": 2,
+    "omr": "konjugatregeln",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla uttrycket så långt som möjligt.</p><p>\\[(x+1+\\sqrt{2x+1})(x+1-\\sqrt{2x+1})\\]</p>",
+    "s": "<p>Använd konjugatregeln:</p><p>\\[(x+1)^2-(\\sqrt{2x+1})^2=(x+1)^2-(2x+1).\\]</p><p>Det ger \\(x^2+2x+1-2x-1=x^2\\).</p><p><strong>\\(x^2\\)</strong></p>",
+    "familj": "NP-ankare: konjugatregel med sammansatta uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "x^2",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Se de två parenteserna som \\(A+B\\) och \\(A-B\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2014, uppgift 9b",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.882",
+    "kap": 2,
+    "omr": "potensregler",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla uttrycket så långt som möjligt.</p><p>\\[\\left(\\frac13\\right)^{n+1}+\\left(\\frac13\\right)^{n+1}+\\left(\\frac13\\right)^{n+1}\\]</p>",
+    "s": "<p>De tre termerna är lika:</p><p>\\[3\\left(\\frac13\\right)^{n+1}=3\\cdot3^{-(n+1)}=3^{-n}.\\]</p><p><strong>\\(3^{-n}\\)</strong></p>",
+    "familj": "NP-ankare: samla lika potenstermer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "3^(-n)",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Börja med att faktorisera ut den gemensamma potensen.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 1,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2014, uppgift 9c",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.883",
+    "kap": 2,
+    "omr": "kvadreringsreglerna",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla följande uttryck så långt som möjligt.</p><p>\\[\\frac{(\\sqrt{x}+\\sqrt3)^2-(x+3)}{2}\\]</p>",
+    "s": "<p>Utveckla kvadraten:</p><p>\\[(\\sqrt{x}+\\sqrt3)^2=x+2\\sqrt{3x}+3.\\]</p><p>Därför blir uttrycket</p><p>\\[\\frac{x+2\\sqrt{3x}+3-x-3}{2}=\\sqrt{3x}.\\]</p><p><strong>\\(\\sqrt{3x}\\)</strong></p>",
+    "familj": "NP-ankare: kvadreringsregel med rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "sqrt(3*x)",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Utveckla kvadraten innan du förkortar bort \\(x+3\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2015, uppgift 9a",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.884",
+    "kap": 2,
+    "omr": "potensregler",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla följande uttryck så långt som möjligt.</p><p>\\[(xy-y)^2\\cdot y^{-2}\\]</p>",
+    "s": "<p>Faktorisera först \\(xy-y=y(x-1)\\):</p><p>\\[[y(x-1)]^2y^{-2}=y^2(x-1)^2y^{-2}=(x-1)^2.\\]</p><p><strong>\\((x-1)^2\\)</strong></p>",
+    "familj": "NP-ankare: faktorisering och negativa exponenter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "(x-1)^2",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera \\(xy-y\\) innan du använder potensreglerna.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2012, uppgift 7b",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.885",
+    "kap": 2,
+    "omr": "potensregler",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>I tabellen gäller \\(a=-10\\) och \\(ab=10\\).</p><p>Bestäm värdet av \\(a^2b^7\\).</p>",
+    "s": "<p>Av \\(a=-10\\) och \\(ab=10\\) fås \\(b=-1\\). Då</p><p>\\[a^2b^7=(-10)^2(-1)^7=100\\cdot(-1)=-100.\\]</p><p><strong>\\(-100\\)</strong></p>",
+    "familj": "Referensankare: kombinera givna produkter och potenser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -100,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först \\(b\\) ur \\(ab=10\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 1,
+    "spel": true,
+    "kalla": "Extrauppgifter Algebra, uppgift 3",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.886",
+    "kap": 2,
+    "omr": "algebraiska_identiteter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Lös ut \\(C\\) ur formeln</p><p>\\[Z=\\sqrt{R^2-\\frac{1}{(\\omega C)^2}}.\\]</p>",
+    "s": "<p>Kvadrera båda led:</p><p>\\[Z^2=R^2-\\frac1{\\omega^2C^2}.\\]</p><p>Då gäller</p><p>\\[\\frac1{\\omega^2C^2}=R^2-Z^2\\]</p><p>och alltså</p><p>\\[C^2=\\frac1{\\omega^2(R^2-Z^2)}.\\]</p><p>För positiv \\(C\\) fås</p><p><strong>\\[C=\\sqrt{\\frac1{\\omega^2(R^2-Z^2)}}.\\]</strong></p>",
+    "familj": "Referensankare: avancerad formelomskrivning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "sqrt(1/(omega^2*(R^2-Z^2)))",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Kvadrera först båda leden och isolera sedan termen som innehåller \\(C\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Extrauppgifter Algebra, uppgift 4c",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.887",
+    "kap": 2,
+    "omr": "algebraiska_identiteter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Förenkla</p><p>\\[\\frac{b+\\frac1a}{a+\\frac1b}.\\]</p>",
+    "s": "<p>Skriv täljare och nämnare med gemensam nämnare:</p><p>\\[b+\\frac1a=\\frac{ab+1}{a},\\qquad a+\\frac1b=\\frac{ab+1}{b}.\\]</p><p>Där uttrycket är definierat blir därför</p><p>\\[\\frac{(ab+1)/a}{(ab+1)/b}=\\frac ba.\\]</p><p><strong>\\(b/a\\)</strong></p>",
+    "familj": "Referensankare: komplext bråkuttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "b/a",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv först både täljaren och nämnaren som var sitt enda bråk.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Extrauppgifter Algebra, uppgift 9",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.888",
+    "kap": 2,
+    "omr": "konjugatregeln",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla följande uttryck så långt som möjligt.</p><p>\\[(\\sqrt{3x+5}+\\sqrt{3x-5})(\\sqrt{3x+5}-\\sqrt{3x-5})\\]</p>",
+    "s": "<p>Konjugatregeln ger</p><p>\\[(3x+5)-(3x-5)=10.\\]</p><p><strong>\\(10\\)</strong></p>",
+    "familj": "Referensankare: konjugat med rotuttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd \\((A+B)(A-B)=A^2-B^2\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 1,
+    "spel": true,
+    "kalla": "Extrauppgifter kap 2, uppgift 4",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.889",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Bestäm ett exakt värde för \\(x^3\\) om</p><p>\\[\\lg x^{3/5}=2.\\]</p>",
+    "s": "<p>Av logaritmdefinitionen fås</p><p>\\[x^{3/5}=10^2.\\]</p><p>Upphöj båda led till femte potensen:</p><p>\\[x^3=(10^2)^5=10^{10}.\\]</p><p><strong>\\(x^3=10^{10}\\)</strong></p>",
+    "familj": "Referensankare: logaritm och rationell exponent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10000000000,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Översätt först logaritmekvationen till potensform. Du behöver inte bestämma \\(x\\) självt.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "Extrauppgifter kap 2, uppgift 5",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.890",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Lös ekvationen exakt:</p><p>\\[\\sqrt{x}\\cdot\\sqrt[3]{x}=32.\\]</p>",
+    "s": "<p>För \\(x\\ge0\\) kan vi skriva \\(x=u^6\\). Då är \\(\\sqrt{x}=u^3\\) och \\(\\sqrt[3]{x}=u^2\\).</p><p>Ekvationen blir \\(u^5=32=2^5\\), alltså \\(u=2\\). Därmed \\(x=u^6=64\\).</p><p><strong>\\(x=64\\).</strong></p>",
+    "familj": "Variant: kombinera olika rötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 64,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv \\(x\\) som en sjättepotens, eller använd rationella exponenter.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 7b",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.891",
+    "kap": 2,
+    "omr": "konjugatregeln",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla uttrycket så långt som möjligt.</p><p>\\[(x+2+\\sqrt{4x+3})(x+2-\\sqrt{4x+3})\\]</p>",
+    "s": "<p>Konjugatregeln ger</p><p>\\[(x+2)^2-(4x+3)=x^2+4x+4-4x-3=x^2+1.\\]</p><p><strong>\\(x^2+1\\)</strong></p>",
+    "familj": "Variant: konjugatregel med sammansatta uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "x^2+1",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Behandla \\(x+2\\) som en hel term.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 9b",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.892",
+    "kap": 2,
+    "omr": "potensregler",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla uttrycket så långt som möjligt.</p><p>\\[\\frac{3^{n+2}+3^{n+2}+3^{n+2}}{3^{2n+1}}\\]</p>",
+    "s": "<p>Täljaren är \\(3\\cdot3^{n+2}=3^{n+3}\\). Därför</p><p>\\[\\frac{3^{n+3}}{3^{2n+1}}=3^{n+3-(2n+1)}=3^{2-n}.\\]</p><p><strong>\\(3^{2-n}\\)</strong></p>",
+    "familj": "Variant: samla potenstermer före division",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "3^(2-n)",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Förenkla täljaren till en enda potens först.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 9c",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.893",
+    "kap": 2,
+    "omr": "kvadreringsreglerna",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla uttrycket så långt som möjligt.</p><p>\\[\\frac{(\\sqrt{2x}+\\sqrt3)^2-(2x+3)}{2}\\]</p>",
+    "s": "<p>Utveckla:</p><p>\\[(\\sqrt{2x}+\\sqrt3)^2=2x+2\\sqrt{6x}+3.\\]</p><p>Efter subtraktionen återstår \\(2\\sqrt{6x}\\), och division med 2 ger</p><p><strong>\\(\\sqrt{6x}\\)</strong>.</p>",
+    "familj": "Variant: kvadreringsregel med två rottermer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "sqrt(6*x)",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Var noga med mittentermen i kvadreringsregeln.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 9a",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.894",
+    "kap": 2,
+    "omr": "potensregler",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla uttrycket så långt som möjligt.</p><p>\\[(ab-2b)^3\\cdot b^{-3}\\]</p>",
+    "s": "<p>Faktorisera \\(ab-2b=b(a-2)\\):</p><p>\\[[b(a-2)]^3b^{-3}=b^3(a-2)^3b^{-3}=(a-2)^3.\\]</p><p><strong>\\((a-2)^3\\)</strong></p>",
+    "familj": "Variant: faktorisering och negativa exponenter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "(a-2)^3",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera den första parentesen innan du upphöjer.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2012, uppgift 7b",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.895",
+    "kap": 2,
+    "omr": "potensregler",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Det gäller att \\(p=-2\\) och \\(pq=-6\\).</p><p>Bestäm värdet av \\(p^3q^4\\).</p>",
+    "s": "<p>Av \\(pq=-6\\) och \\(p=-2\\) fås \\(q=3\\). Då</p><p>\\[p^3q^4=(-2)^3\\cdot3^4=-8\\cdot81=-648.\\]</p><p><strong>\\(-648\\)</strong></p>",
+    "familj": "Variant: givna produkter och höga potenser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -648,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först den okända faktorn ur produkten.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 1,
+    "spel": true,
+    "kalla": "Ny variant av Extrauppgifter Algebra, uppgift 3",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.896",
+    "kap": 2,
+    "omr": "algebraiska_identiteter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Lös ut den positiva variabeln \\(T\\) ur</p><p>\\[Q=\\sqrt{P^2-\\frac{9}{(rT)^2}},\\qquad r&gt;0.\\]</p>",
+    "s": "<p>Kvadrering ger</p><p>\\[Q^2=P^2-\\frac9{r^2T^2}.\\]</p><p>Alltså</p><p>\\[\\frac9{r^2T^2}=P^2-Q^2\\Rightarrow T^2=\\frac9{r^2(P^2-Q^2)}.\\]</p><p>Eftersom \\(T&gt;0\\) och \\(r&gt;0\\):</p><p><strong>\\[T=\\frac3{r\\sqrt{P^2-Q^2}}.\\]</strong></p>",
+    "familj": "Variant: avancerad formelomskrivning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "3/(r*sqrt(P^2-Q^2))",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Kvadrera, flytta över bråktermen och invertera först därefter.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av Extrauppgifter Algebra, uppgift 4c",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.897",
+    "kap": 2,
+    "omr": "algebraiska_identiteter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Förenkla</p><p>\\[\\frac{m+\\frac2n}{n+\\frac2m}.\\]</p>",
+    "s": "<p>\\[m+\\frac2n=\\frac{mn+2}{n},\\qquad n+\\frac2m=\\frac{mn+2}{m}.\\]</p><p>Där uttrycket är definierat får vi</p><p>\\[\\frac{(mn+2)/n}{(mn+2)/m}=\\frac mn.\\]</p><p><strong>\\(m/n\\)</strong></p>",
+    "familj": "Variant: komplext bråkuttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "m/n",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Gör täljaren och nämnaren till var sitt bråk innan du dividerar.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av Extrauppgifter Algebra, uppgift 9",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.898",
+    "kap": 2,
+    "omr": "konjugatregeln",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förenkla uttrycket så långt som möjligt.</p><p>\\[(\\sqrt{2x+7}+\\sqrt{x+1})(\\sqrt{2x+7}-\\sqrt{x+1})\\]</p>",
+    "s": "<p>Konjugatregeln ger</p><p>\\[(2x+7)-(x+1)=x+6.\\]</p><p><strong>\\(x+6\\)</strong></p>",
+    "familj": "Variant: konjugat med två olika rotuttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "x+6",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Hela rotuttrycken är de två termerna i konjugatregeln.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 1,
+    "spel": false,
+    "kalla": "Ny variant av Extrauppgifter kap 2, uppgift 4",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.899",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Bestäm ett exakt värde för \\(x^2\\) om</p><p>\\[\\lg x^{2/3}=4.\\]</p>",
+    "s": "<p>Logaritmdefinitionen ger \\(x^{2/3}=10^4\\). Kubera båda leden:</p><p>\\[(x^{2/3})^3=x^2=(10^4)^3=10^{12}.\\]</p><p><strong>\\(x^2=10^{12}\\)</strong></p>",
+    "familj": "Variant: logaritm och rationell exponent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1000000000000,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Du behöver inte lösa ut \\(x\\); arbeta direkt mot den potens som efterfrågas.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true,
+    "kalla": "Ny variant av Extrauppgifter kap 2, uppgift 5",
+    "referensTyp": "variant"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.900",
+    "omr": "exponentialfunktioner",
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Grafen till en exponentialfunktion går genom punkterna \\( (2,\\,2) \\) och \\( (5,\\,54) \\).</p><p>Bestäm y-koordinaten för grafens skärningspunkt med y-axeln. Förenkla svaret så långt som möjligt och svara exakt.</p>",
+    "s": "<p>Skriv funktionen som \\(f(x)=C\\cdot a^x\\). Då gäller</p><p>\\[C a^2=2,\\qquad C a^5=54.\\]</p><p>Division ger \\(a^3=27\\), alltså \\(a=3\\). Därmed \\(C\\cdot9=2\\), så \\(C=2/9\\).</p><p>Skärningen med y-axeln är \\(f(0)=C\\).</p><p><strong>\\(\\frac29\\)</strong></p>",
+    "familj": "NP-ankare: exakt exponentialstruktur",
+    "svarstyp": "uttryck",
+    "rättSvar": "2/9",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv en generell exponentialfunktion och dividera ekvationerna för de två givna punkterna.</p>",
+    "traningsniva": 5,
+    "kalla": "NP Ma2c vt 2022, uppgift 14 (punkterna från grafen utskrivna)",
+    "referensTyp": "original"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.901",
+    "omr": "algebraiska_bevis",
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Anta att \\(a\\), \\(b\\) och \\(c\\) är tre på varandra följande heltal där \\(a&lt;b&lt;c\\).</p><p>Undersök om uttrycket</p><p>\\[\\frac{a^2+b^2+c^2-2}{3}\\]</p><p>alltid är ett heltal för alla sådana på varandra följande heltal \\(a,b,c\\).</p>",
+    "s": "<p>Sätt \\(b=a+1\\) och \\(c=a+2\\). Då blir täljaren</p><p>\\[a^2+(a+1)^2+(a+2)^2-2=3a^2+6a+3=3(a+1)^2.\\]</p><p>Alltså är uttrycket</p><p>\\[\\frac{3(a+1)^2}{3}=(a+1)^2,\\]</p><p>vilket alltid är ett heltal.</p><p><strong>Ja, uttrycket är alltid ett heltal.</strong></p>",
+    "familj": "NP-ankare: generellt heltalsresonemang",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "formaga": [
+      "resonemang",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Representera de tre talen med en enda heltalsvariabel.</p>",
+    "traningsniva": 5,
+    "kalla": "NP Ma2c vt 2022, uppgift 26",
+    "referensTyp": "original"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.902",
+    "omr": "andragradsfunktioner_tillampningar",
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Funktionen \\(f\\) ges av</p><p>\\[f(x)=\\frac{x^2}{a},\\qquad a&gt;0.\\]</p><p>En sträcka \\(S\\) dras från den punkt på funktionens graf där x-koordinaten är \\(a\\) till den punkt där x-koordinaten är \\(2a\\).</p><p>Bestäm längden av \\(S\\) uttryckt i \\(a\\).</p>",
+    "s": "<p>Punkterna är</p><p>\\[P=(a,a),\\qquad Q=(2a,4a).\\]</p><p>Skillnaderna i koordinater är \\(a\\) respektive \\(3a\\). Avståndsformeln ger</p><p>\\[S=\\sqrt{a^2+(3a)^2}=\\sqrt{10a^2}=a\\sqrt{10},\\]</p><p>eftersom \\(a&gt;0\\).</p><p><strong>\\(S=a\\sqrt{10}\\)</strong></p>",
+    "familj": "NP-ankare: funktion och avstånd",
+    "svarstyp": "uttryck",
+    "rättSvar": "a*sqrt(10)",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Bestäm först de två punkternas fullständiga koordinater.</p>",
+    "traningsniva": 5,
+    "kalla": "NP Ma2c vt 2022, uppgift 27",
+    "referensTyp": "original"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.903",
+    "omr": "koordinatgeometri_problemlosning",
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>På linjen \\(y=2x-5\\) ligger en punkt \\(P\\) i första kvadranten. Avståndet mellan punkten \\(P\\) och origo är 10 längdenheter.</p><p>Bestäm x-koordinaten för punkten \\(P\\). Svara exakt.</p>",
+    "s": "<p>Punkten har koordinaterna \\(P=(x,2x-5)\\). Avståndet till origo ger</p><p>\\[x^2+(2x-5)^2=100.\\]</p><p>Detta förenklas till</p><p>\\[x^2-4x-15=0,\\]</p><p>så</p><p>\\[x=2\\pm\\sqrt{19}.\\]</p><p>Eftersom punkten ligger i första kvadranten återstår bara den positiva lösningen.</p><p><strong>\\(x=2+\\sqrt{19}\\)</strong></p>",
+    "familj": "NP-ankare: avstånd och linje",
+    "svarstyp": "uttryck",
+    "rättSvar": "2+sqrt(19)",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Skriv punktens koordinater med hjälp av linjens ekvation och använd avståndsformeln.</p>",
+    "traningsniva": 5,
+    "kalla": "NP Ma2c vt 2012, uppgift 15",
+    "referensTyp": "original"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.904",
+    "omr": "andragradsekvationer_tillampningar",
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>Ett tunt snöre är 24 m långt. Snöret delas i två olika långa delar. Av varje del formas en kvadrat.</p><p>Undersök om det är möjligt att kvadraterna tillsammans får arean \\(17\\,\\text{m}^2\\).</p>",
+    "s": "<p>Låt den ena snörbiten vara \\(x\\) meter. Kvadraternas sidlängder blir \\(x/4\\) och \\((24-x)/4\\). Kravet på area ger</p><p>\\[\\left(\\frac x4\\right)^2+\\left(\\frac{24-x}{4}\\right)^2=17.\\]</p><p>Multiplikation med 16 ger</p><p>\\[x^2+(24-x)^2=272\\]</p><p>och därmed</p><p>\\[x^2-24x+152=0.\\]</p><p>Diskriminanten är \\(24^2-4\\cdot152=-32&lt;0\\). Ekvationen saknar reella lösningar.</p><p><strong>Nej, det är inte möjligt.</strong></p>",
+    "familj": "NP-ankare: geometrisk modell till andragradsekvation",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Låt \\(x\\) meter gå till den ena kvadraten. Hur lång blir då varje kvadrats sida?</p>",
+    "traningsniva": 5,
+    "kalla": "NP Ma2c vt 2012, uppgift 23b",
+    "referensTyp": "original"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.905",
+    "omr": "koordinatgeometri_problemlosning",
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Två linjer \\(L_1\\) och \\(L_2\\) är rätvinkliga mot varandra. Tillsammans med x-axeln bildar de en triangel i första kvadranten.</p><p>\\(L_1\\) går genom origo och \\(L_2\\) går genom \\((0,\\,5)\\). Linjerna skär varandra där \\(x=2\\).</p><p>Vilka areor kan triangeln ha?</p>",
+    "s": "<p>Sätt \\(L_1:y=kx\\). En vinkelrät linje har riktningskoefficient \\(-1/k\\), alltså \\(L_2:y=-x/k+5\\).</p><p>Vid \\(x=2\\) är y-värdena lika:</p><p>\\[2k=-\\frac2k+5\\Rightarrow 2k^2-5k+2=0.\\]</p><p>Därför är \\(k=2\\) eller \\(k=1/2\\).</p><p>\\(L_2\\) skär x-axeln vid \\(x=5k\\), och triangelns höjd är \\(2k\\). Arean blir</p><p>\\[A=\\frac12\\cdot5k\\cdot2k=5k^2.\\]</p><p>Det ger <strong>20 areaenheter eller 1,25 areaenheter</strong>.</p>",
+    "familj": "Referensankare: vinkelräta linjer och flera lösningar",
+    "svarstyp": "lista",
+    "rättSvar": [
+      1.25,
+      20
+    ],
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Om den ena linjen har lutning \\(k\\), vilken lutning måste den andra ha?</p>",
+    "traningsniva": 5,
+    "kalla": "Extrauppgifter kap 2, uppgift 10",
+    "referensTyp": "original"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.906",
+    "omr": "algebraiska_identiteter",
+    "niva": "A",
+    "poang": "0/1/1",
+    "t": "<p>Lös ut \\(v\\) ur formeln och redovisa din lösning steg för steg:</p><p>\\[t=\\frac{t_0}{\\sqrt{1-\\frac{v^2}{c^2}}}.\\]</p>",
+    "s": "<p>Invertera först:</p><p>\\[\\sqrt{1-\\frac{v^2}{c^2}}=\\frac{t_0}{t}.\\]</p><p>Kvadrera:</p><p>\\[1-\\frac{v^2}{c^2}=\\frac{t_0^2}{t^2}.\\]</p><p>Därmed</p><p>\\[v^2=c^2\\left(1-\\frac{t_0^2}{t^2}\\right).\\]</p><p>Alltså</p><p><strong>\\[v=\\pm c\\sqrt{1-\\left(\\frac{t_0}{t}\\right)^2}.\\]</strong></p>",
+    "familj": "Referensankare: avancerad formelomskrivning",
+    "svarstyp": "uttryck",
+    "rättSvar": "±c*sqrt(1-(t0/t)^2)",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Isolera rotuttrycket innan du kvadrerar.</p>",
+    "traningsniva": 5,
+    "kalla": "Extrauppgifter Algebra, uppgift 6",
+    "referensTyp": "original"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "arbetsinsats": 2,
+    "spel": true,
+    "manuellKomplettering": false,
+    "id": "2.907",
+    "omr": "rationella_ekvationer",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[\\frac{\\frac{x}{3}+\\frac{2x}{5}}{\\frac{x+2}{3}}=\\frac{11}{15}.\\]</p>",
+    "s": "<p>Täljaren blir</p><p>\\[\\frac{x}{3}+\\frac{2x}{5}=\\frac{11x}{15}.\\]</p><p>Alltså</p><p>\\[\\frac{11x}{15}\\cdot\\frac3{x+2}=\\frac{11}{15}.\\]</p><p>Efter förkortning fås \\(3x=x+2\\), så</p><p><strong>\\(x=1\\)</strong>.</p>",
+    "familj": "Referensankare: komplext bråk som ekvation",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Förenkla först det stora bråkets täljare och nämnare var för sig.</p>",
+    "traningsniva": 5,
+    "kalla": "Extrauppgifter Algebra, uppgift 10",
+    "referensTyp": "original"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": true,
+    "tolerans": 0,
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.908",
+    "omr": "exponentialfunktioner",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>År 2006 fanns enligt en uppskattning 1411 tigrar i Indien och år 2018 fanns 2967. Anta att den årliga procentuella förändringen varit lika stor under hela perioden och fortsätter på samma sätt efter 2018.</p><p>Bestäm vilket år antalet tigrar enligt modellen förväntas vara 5000.</p>",
+    "s": "<p>En modell kan skrivas \\(N(t)=1411\\cdot a^t\\), där \\(t\\) är antal år efter början av 2006.</p><p>Av \\(1411a^{12}=2967\\) fås</p><p>\\[a=\\left(\\frac{2967}{1411}\\right)^{1/12}\\approx1,06390.\\]</p><p>Sätt sedan \\(N(t)=5000\\):</p><p>\\[1411a^t=5000\\Rightarrow t\\approx20,43.\\]</p><p>Det är under år <strong>2026</strong>.</p>",
+    "familj": "NP-ankare: exponentialmodell och prognos",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2026,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Bestäm först den årliga förändringsfaktorn från de två folkmängderna.</p>",
+    "traningsniva": 4,
+    "kalla": "NP Ma2c vt 2022, uppgift 22",
+    "referensTyp": "original"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": true,
+    "tolerans": 0.1,
+    "självrättning": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.909",
+    "omr": "exponentialfunktioner",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Ett exemplar av en datormodell såldes år 2013 till ett pris som var 1000 gånger så stort som priset år 1976. Anta att den procentuella prisökningen varit lika stor varje år.</p><p>Beräkna den årliga procentuella prisökningen mellan 1976 och 2013.</p>",
+    "s": "<p>Det går 37 år mellan 1976 och 2013. Om \\(a\\) är förändringsfaktorn gäller</p><p>\\[a^{37}=1000.\\]</p><p>Därför</p><p>\\[a=1000^{1/37}\\approx1,20526.\\]</p><p>Den årliga ökningen är alltså cirka <strong>20,5 %</strong>.</p>",
+    "familj": "NP-ankare: långsiktig procentuell förändring",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.5,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Hur många lika stora förändringsfaktorer ska multipliceras för att ge totalt 1000?</p>",
+    "traningsniva": 4,
+    "kalla": "NP Ma2c vt 2015, uppgift 22",
+    "referensTyp": "original"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": true,
+    "arbetsinsats": 2,
+    "spel": true,
+    "manuellKomplettering": false,
+    "id": "2.910",
+    "omr": "exponentialfunktioner",
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>En exponentialfunktion går genom punkterna \\((1,\\,6)\\) och \\((4,\\,162)\\).</p><p>Bestäm funktionens skärning med y-axeln exakt.</p>",
+    "s": "<p>Sätt \\(f(x)=C a^x\\). Då gäller \\(Ca=6\\) och \\(Ca^4=162\\). Division ger \\(a^3=27\\), alltså \\(a=3\\). Därmed \\(C=2\\).</p><p><strong>Skärningen med y-axeln är \\((0,\\,2)\\).</strong></p>",
+    "familj": "Variant: exakt exponentialstruktur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Dividera funktionsvärdena för att eliminera startvärdet.</p>",
+    "traningsniva": 5,
+    "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 14",
+    "referensTyp": "variant"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.911",
+    "omr": "algebraiska_bevis",
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Anta att \\(a,b,c,d\\) är fyra på varandra följande heltal där \\(a&lt;b&lt;c&lt;d\\).</p><p>Undersök om</p><p>\\[\\frac{a^2+b^2+c^2+d^2+2}{4}\\]</p><p>alltid är ett heltal.</p>",
+    "s": "<p>Sätt \\(b=a+1\\), \\(c=a+2\\), \\(d=a+3\\). Täljaren blir</p><p>\\[a^2+(a+1)^2+(a+2)^2+(a+3)^2+2=4a^2+12a+16.\\]</p><p>Detta är \\(4(a^2+3a+4)\\). Kvoten är därför alltid heltalet \\(a^2+3a+4\\).</p><p><strong>Ja.</strong></p>",
+    "familj": "Variant: generellt heltalsresonemang",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "formaga": [
+      "resonemang",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Skriv alla fyra heltal med hjälp av det minsta.</p>",
+    "traningsniva": 5,
+    "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 26",
+    "referensTyp": "variant"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.912",
+    "omr": "andragradsfunktioner_tillampningar",
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Funktionen \\(f\\) ges av</p><p>\\[f(x)=\\frac{x^2}{2a},\\qquad a&gt;0.\\]</p><p>Bestäm avståndet mellan punkterna på grafen med x-koordinaterna \\(a\\) respektive \\(3a\\), uttryckt i \\(a\\).</p>",
+    "s": "<p>Punkterna är \\(P=(a,a/2)\\) och \\(Q=(3a,9a/2)\\). Skillnaderna är \\(2a\\) och \\(4a\\).</p><p>\\[S=\\sqrt{(2a)^2+(4a)^2}=\\sqrt{20a^2}=2a\\sqrt5.\\]</p><p><strong>\\(2a\\sqrt5\\)</strong></p>",
+    "familj": "Variant: funktion och avstånd",
+    "svarstyp": "uttryck",
+    "rättSvar": "2*a*sqrt(5)",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Bestäm först y-koordinaterna för de två givna x-värdena.</p>",
+    "traningsniva": 5,
+    "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 27",
+    "referensTyp": "variant"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.913",
+    "omr": "koordinatgeometri_problemlosning",
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>På linjen \\(y=3x-4\\) ligger en punkt \\(P\\) i första kvadranten. Avståndet från \\(P\\) till origo är 10 längdenheter.</p><p>Bestäm x-koordinaten för \\(P\\) exakt.</p>",
+    "s": "<p>\\[x^2+(3x-4)^2=100\\]</p><p>ger</p><p>\\[5x^2-12x-42=0.\\]</p><p>Alltså</p><p>\\[x=\\frac{6\\pm\\sqrt{246}}5.\\]</p><p>Endast den positiva roten ger en punkt i första kvadranten.</p><p><strong>\\(x=\\frac{6+\\sqrt{246}}5\\)</strong></p>",
+    "familj": "Variant: avstånd och linje",
+    "svarstyp": "uttryck",
+    "rättSvar": "(6+sqrt(246))/5",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Använd linjens uttryck för y i avståndsformeln.</p>",
+    "traningsniva": 5,
+    "kalla": "Ny variant av NP Ma2c vt 2012, uppgift 15",
+    "referensTyp": "variant"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.914",
+    "omr": "andragradsekvationer_tillampningar",
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>Ett 32 meter långt snöre delas i två olika långa delar. Av varje del formas en kvadrat.</p><p>Undersök om kvadraterna tillsammans kan få arean \\(34\\,\\text{m}^2\\). Om det är möjligt, bestäm kvadraternas sidlängder.</p>",
+    "s": "<p>Låt den ena delen vara \\(x\\) meter. Då gäller</p><p>\\[\\left(\\frac x4\\right)^2+\\left(\\frac{32-x}{4}\\right)^2=34.\\]</p><p>Det ger</p><p>\\[x^2-32x+240=0=(x-12)(x-20).\\]</p><p>Snörbitarna är alltså 12 m och 20 m, vilket ger kvadrater med sidlängderna <strong>3 m och 5 m</strong>.</p>",
+    "familj": "Variant: geometrisk modell till andragradsekvation",
+    "svarstyp": "lista",
+    "rättSvar": [
+      3,
+      5
+    ],
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Översätt snörbitarnas längder till kvadraternas sidlängder.</p>",
+    "traningsniva": 5,
+    "kalla": "Ny variant av NP Ma2c vt 2012, uppgift 23b",
+    "referensTyp": "variant"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.915",
+    "omr": "koordinatgeometri_problemlosning",
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Två linjer \\(L_1\\) och \\(L_2\\) är vinkelräta mot varandra och bildar tillsammans med x-axeln en triangel i första kvadranten.</p><p>\\(L_1\\) går genom origo, \\(L_2\\) går genom \\((0,\\,10)\\), och linjerna skär varandra där \\(x=4\\).</p><p>Vilka areor kan triangeln ha?</p>",
+    "s": "<p>Sätt \\(L_1:y=kx\\) och \\(L_2:y=-x/k+10\\). Vid \\(x=4\\):</p><p>\\[4k=-\\frac4k+10\\Rightarrow 2k^2-5k+2=0.\\]</p><p>Alltså \\(k=2\\) eller \\(k=1/2\\). \\(L_2\\) skär x-axeln vid \\(x=10k\\), och höjden är \\(4k\\).</p><p>\\[A=\\frac12\\cdot10k\\cdot4k=20k^2.\\]</p><p><strong>Areorna är 80 respektive 5 areaenheter.</strong></p>",
+    "familj": "Variant: vinkelräta linjer och flera lösningar",
+    "svarstyp": "lista",
+    "rättSvar": [
+      5,
+      80
+    ],
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Beskriv båda linjerna med hjälp av samma lutningsparameter.</p>",
+    "traningsniva": 5,
+    "kalla": "Ny variant av Extrauppgifter kap 2, uppgift 10",
+    "referensTyp": "variant"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.916",
+    "omr": "algebraiska_identiteter",
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Lös ut den positiva variabeln \\(v\\) ur</p><p>\\[I=\\frac{I_0}{\\sqrt{1-\\left(\\frac vc\\right)^4}},\\qquad I&gt;I_0&gt;0,\\ c&gt;0.\\]</p>",
+    "s": "<p>Invertera och kvadrera:</p><p>\\[1-\\left(\\frac vc\\right)^4=\\left(\\frac{I_0}{I}\\right)^2.\\]</p><p>Alltså</p><p>\\[\\left(\\frac vc\\right)^4=1-\\left(\\frac{I_0}{I}\\right)^2.\\]</p><p>Eftersom \\(v&gt;0\\):</p><p><strong>\\[v=c\\sqrt[4]{1-\\left(\\frac{I_0}{I}\\right)^2}.\\]</strong></p>",
+    "familj": "Variant: avancerad formelomskrivning med fjärdepotens",
+    "svarstyp": "uttryck",
+    "rättSvar": "c*(1-(I0/I)^2)^(1/4)",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Isolera först rotuttrycket och arbeta sedan stegvis med potenserna.</p>",
+    "traningsniva": 5,
+    "kalla": "Ny variant av Extrauppgifter Algebra, uppgift 6",
+    "referensTyp": "variant"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "tolerans": null,
+    "självrättning": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.917",
+    "omr": "rationella_ekvationer",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[\\frac{\\frac{x}{4}+\\frac{3x}{8}}{\\frac{x+3}{4}}=\\frac7{10}.\\]</p>",
+    "s": "<p>Täljaren är \\(5x/8\\), så vänsterledet blir</p><p>\\[\\frac{5x}{8}\\cdot\\frac4{x+3}=\\frac{5x}{2(x+3)}.\\]</p><p>Därmed</p><p>\\[\\frac{5x}{2(x+3)}=\\frac7{10}\\Rightarrow 50x=14x+42.\\]</p><p>Alltså <strong>\\(x=7/6\\)</strong>.</p>",
+    "familj": "Variant: komplext bråk som ekvation",
+    "svarstyp": "uttryck",
+    "rättSvar": "7/6",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Förenkla det stora bråkets täljare och nämnare innan du korsmultiplicerar.</p>",
+    "traningsniva": 5,
+    "kalla": "Ny variant av Extrauppgifter Algebra, uppgift 10",
+    "referensTyp": "variant"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": true,
+    "tolerans": 0,
+    "självrättning": false,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.918",
+    "omr": "exponentialfunktioner",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>En djurpopulation uppskattas till 1800 individer i början av år 2015 och 2950 individer i början av år 2024. Anta att populationen förändras exponentiellt med samma årliga procentuella ökning även efter 2024.</p><p>Vilket år förväntas populationen enligt modellen passera 5000 individer?</p>",
+    "s": "<p>Med \\(t\\) år efter början av 2015:</p><p>\\[N(t)=1800a^t,\\qquad a^9=\\frac{2950}{1800}.\\]</p><p>Det ger \\(a\\approx1,05643\\). Lös sedan</p><p>\\[1800a^t=5000\\]</p><p>vilket ger \\(t\\approx18,61\\). Det motsvarar år <strong>2033</strong>.</p>",
+    "familj": "Variant: exponentialmodell och prognos",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2033,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Bestäm förändringsfaktorn över nio år och lös sedan en ny exponentialekvation.</p>",
+    "traningsniva": 4,
+    "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 22",
+    "referensTyp": "variant"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "geogebra": false,
+    "miniräknare": true,
+    "tolerans": 0.1,
+    "självrättning": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true,
+    "id": "2.919",
+    "omr": "exponentialfunktioner",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Värdet på ett samlarföremål har på 28 år blivit 750 gånger så stort. Anta att den procentuella värdeökningen varit lika stor varje år.</p><p>Beräkna den årliga procentuella värdeökningen.</p>",
+    "s": "<p>Om \\(a\\) är den årliga förändringsfaktorn gäller</p><p>\\[a^{28}=750.\\]</p><p>Alltså</p><p>\\[a=750^{1/28}\\approx1,26672.\\]</p><p>Den årliga ökningen är cirka <strong>26,7 %</strong>.</p>",
+    "familj": "Variant: långsiktig procentuell förändring",
+    "svarstyp": "numeriskt",
+    "rättSvar": 26.7,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Översätt den totala ökningen till en potens med 28 lika stora årliga förändringsfaktorer.</p>",
+    "traningsniva": 4,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 22",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.920",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "1/2/0",
+    "t": "<p>Två likadana rektanglar har sidlängderna \\(x\\) cm respektive \\((8-x)\\) cm.</p><p>Bestäm den största totala area som de två rektanglarna kan ha tillsammans.</p>",
+    "s": "<p>Den totala arean är</p><p>\\[A(x)=2x(8-x)=-2x^2+16x.\\]</p><p>Parabeln har maximum när</p><p>\\[x=-\\frac{16}{2\\cdot(-2)}=4.\\]</p><p>Då blir</p><p>\\[A(4)=2\\cdot4\\cdot4=32.\\]</p><p><strong>Största totala area är \\(32\\,\\text{cm}^2\\).</strong></p>",
+    "familj": "NP-ankare: maximera total rektangelarea",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Teckna först den totala arean som en andragradsfunktion av \\(x\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2015, uppgift 12",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.921",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Två rektanglar har båda höjden \\(x\\) cm. Den ena har bredden \\((12-x)\\) cm och den andra bredden \\((8-x)\\) cm.</p><p>För vilka mått blir rektanglarnas sammanlagda area så stor som möjligt, och hur stor är den maximala arean?</p>",
+    "s": "<p>Den sammanlagda arean är</p><p>\\[A(x)=x(12-x)+x(8-x)=20x-2x^2.\\]</p><p>Maximum fås vid</p><p>\\[x=-\\frac{20}{2\\cdot(-2)}=5.\\]</p><p>Då är bredderna \\(7\\) cm respektive \\(3\\) cm och</p><p>\\[A(5)=50.\\]</p><p><strong>Höjden ska vara 5 cm; bredderna 7 cm och 3 cm. Maximal area är \\(50\\,\\text{cm}^2\\).</strong></p>",
+    "familj": "Variant: två olika rektanglar och gemensam maximering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Addera de båda rektanglarnas areor och förenkla innan du söker parabelns maximum.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 12",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.922",
+    "kap": 2,
+    "omr": "algebraiska_identiteter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Förenkla uttrycket</p><p>\\[\\frac{a^2-2b}{4}\\]</p><p>så långt som möjligt om \\(a=2x+1\\) och \\(b=2x-1{,}5\\).</p>",
+    "s": "<p>Sätt in uttrycken:</p><p>\\[\\frac{(2x+1)^2-2(2x-1{,}5)}{4}.\\]</p><p>Utveckla och förenkla:</p><p>\\[\\frac{4x^2+4x+1-4x+3}{4}=\\frac{4x^2+4}{4}=x^2+1.\\]</p><p><strong>Svaret är \\(x^2+1\\).</strong></p>",
+    "familj": "NP-ankare: algebraisk förenkling med insatta uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Sätt in uttrycken för \\(a\\) och \\(b\\) innan du använder kvadreringsregeln.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2015, uppgift 13",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.923",
+    "kap": 2,
+    "omr": "algebraiska_identiteter",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Förenkla uttrycket</p><p>\\[\\frac{c^2-2d}{3}\\]</p><p>så långt som möjligt om \\(c=3x+2\\) och \\(d=6x-1\\).</p>",
+    "s": "<p>Insättning ger</p><p>\\[\\frac{(3x+2)^2-2(6x-1)}{3}.\\]</p><p>Alltså</p><p>\\[\\frac{9x^2+12x+4-12x+2}{3}=\\frac{9x^2+6}{3}=3x^2+2.\\]</p><p><strong>Svaret är \\(3x^2+2\\).</strong></p>",
+    "familj": "Variant: insättning och algebraisk identitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Utveckla kvadraten noggrant och samla sedan lika termer.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 13",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.924",
+    "kap": 2,
+    "omr": "likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>I en rätvinklig triangel \\(ABC\\) är vinkeln \\(A\\) rät. En kvadrat \\(AEFD\\) är inskriven så att \\(E\\) ligger på \\(AB\\), \\(D\\) ligger på \\(AC\\) och \\(F\\) ligger på hypotenusan \\(BC\\).</p><p>Det gäller att \\(BE=4\\) cm och \\(CD=2\\) cm.</p><p>Visa att kvadratens area är \\(8\\,\\text{cm}^2\\).</p>",
+    "s": "<p>Låt kvadratens sida vara \\(s\\). Då är \\(AB=s+4\\) och \\(AC=s+2\\).</p><p>Punkten \\(F\\) ligger på hypotenusan. Med interceptform/likformighet får vi</p><p>\\[\\frac{s}{s+2}+\\frac{s}{s+4}=1.\\]</p><p>Multiplikation med \\((s+2)(s+4)\\) ger</p><p>\\[s(s+4)+s(s+2)=(s+2)(s+4).\\]</p><p>Alltså</p><p>\\[2s^2+6s=s^2+6s+8\\Rightarrow s^2=8.\\]</p><p>Kvadratens area är därför <strong>\\(8\\,\\text{cm}^2\\)</strong>.</p>",
+    "familj": "NP-ankare: inskriven kvadrat och likformighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Låt kvadratens sida vara \\(s\\). Då kan triangelns båda kateter skrivas med \\(s\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2015, uppgift 15 (figuren beskriven i text)",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.925",
+    "kap": 2,
+    "omr": "likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>I en rätvinklig triangel \\(ABC\\) med rät vinkel i \\(A\\) är en kvadrat \\(AEFD\\) inskriven på samma sätt: \\(E\\) ligger på \\(AB\\), \\(D\\) på \\(AC\\) och \\(F\\) på hypotenusan.</p><p>Nu är \\(BE=6\\) cm och \\(CD=3\\) cm.</p><p>Bestäm kvadratens area.</p>",
+    "s": "<p>Låt kvadratens sida vara \\(s\\). Då är \\(AB=s+6\\) och \\(AC=s+3\\).</p><p>Eftersom \\(F\\) ligger på hypotenusan gäller</p><p>\\[\\frac{s}{s+3}+\\frac{s}{s+6}=1.\\]</p><p>Det ger</p><p>\\[s(s+6)+s(s+3)=(s+3)(s+6),\\]</p><p>så</p><p>\\[2s^2+9s=s^2+9s+18\\Rightarrow s^2=18.\\]</p><p><strong>Arean är \\(18\\,\\text{cm}^2\\).</strong></p>",
+    "familj": "Variant: inskriven kvadrat med nya mått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Sätt kvadratens sida till \\(s\\) och uttryck de två kateterna med hjälp av \\(s\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 15",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.926",
+    "kap": 2,
+    "omr": "andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Grafen till en andragradsfunktion \\(f\\) är symmetrisk kring \\(y\\)-axeln. Av grafen kan man läsa att \\(f(0)=4\\) och \\(f(2)=6\\).</p><p>Bestäm de två komplexa rötterna till ekvationen \\(f(x)=0\\).</p>",
+    "s": "<p>Symmetrin kring \\(y\\)-axeln ger \\(f(x)=ax^2+c\\). Eftersom \\(f(0)=4\\) är \\(c=4\\).</p><p>Vidare ger \\(f(2)=6\\):</p><p>\\[4a+4=6\\Rightarrow a=\\frac12.\\]</p><p>Alltså</p><p>\\[\\frac12x^2+4=0\\Rightarrow x^2=-8.\\]</p><p><strong>\\(x=\\pm2\\sqrt2\\,i\\).</strong></p>",
+    "familj": "NP-ankare: komplexa rötter från parabelgraf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Symmetri kring \\(y\\)-axeln innebär att den linjära termen saknas.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2014, uppgift 15 (figurdata utskrivna)",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.927",
+    "kap": 2,
+    "omr": "andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>En andragradsfunktion \\(g\\) har en graf som är symmetrisk kring \\(y\\)-axeln. Dessutom gäller \\(g(0)=3\\) och \\(g(2)=5\\).</p><p>Bestäm de komplexa rötterna till \\(g(x)=0\\).</p>",
+    "s": "<p>Skriv \\(g(x)=ax^2+3\\). Villkoret \\(g(2)=5\\) ger \\(4a+3=5\\), alltså \\(a=1/2\\).</p><p>Därmed</p><p>\\[\\frac12x^2+3=0\\Rightarrow x^2=-6.\\]</p><p><strong>\\(x=\\pm\\sqrt6\\,i\\).</strong></p>",
+    "familj": "Variant: komplexa rötter ur symmetri och två funktionsvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Bestäm först funktionen på formen \\(ax^2+c\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 15",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.928",
+    "kap": 2,
+    "omr": "andragradsfunktion_graf",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Det finns parabler där \\(x=f(y)\\), det vill säga där \\(x\\) ges av en andragradsfunktion av \\(y\\) i stället för tvärtom.</p><p>Ge exempel på en ekvation till en parabel med symmetrilinjen \\(y=0\\).</p>",
+    "s": "<p>Ett möjligt exempel är</p><p>\\[x=y^2.\\]</p><p>Parabeln är symmetrisk kring linjen \\(y=0\\). Många andra svar är möjliga, till exempel \\(x=2y^2+3\\).</p>",
+    "familj": "NP-ankare: parabel som funktion av y",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Tänk på en vanlig parabel \\(y=x^2\\) och byt roller på \\(x\\) och \\(y\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 1,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2022, uppgift 8b",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.929",
+    "kap": 2,
+    "omr": "andragradsfunktion_graf",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Ge exempel på en ekvation till en parabel som öppnar åt höger och har symmetrilinjen \\(y=2\\). Parabelns spets ska ligga i punkten \\((1,2)\\).</p>",
+    "s": "<p>Ett möjligt svar är</p><p>\\[x=(y-2)^2+1.\\]</p><p>Uttrycket är minst när \\(y=2\\), vilket ger spetsen \\((1,2)\\), och grafen öppnar åt höger.</p>",
+    "familj": "Variant: sidvänd parabel med given spets",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Utgå från vertexformen, men låt nu \\(x\\) bero på \\(y\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 1,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 8b",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.930",
+    "kap": 2,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Linjerna \\(x=a\\) och \\(y=b\\), där \\(a\\ne0\\) och \\(b\\ne0\\), skär varandra i punkten \\(P\\).</p><p>Vilken av linjerna går alltid genom \\(P\\)?</p><p>A. \\(ax+by=0\\)<br>B. \\(ax-by=0\\)<br>C. \\(ay+bx=0\\)<br>D. \\(ay-bx=0\\)</p>",
+    "s": "<p>Skärningspunkten är \\(P=(a,b)\\). Sätt in \\(x=a\\) och \\(y=b\\).</p><p>I alternativ D fås</p><p>\\[a\\cdot b-b\\cdot a=0.\\]</p><p>Det gäller för alla tillåtna \\(a\\) och \\(b\\).</p><p><strong>D</strong></p>",
+    "familj": "NP-ankare: parameterpunkt och linjeidentitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "D",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Punkten \\(P\\) har koordinaterna \\((a,b)\\). Testa dem i alternativen.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 1,
+    "spel": true,
+    "kalla": "NP Ma2c vt 2014, uppgift 11",
+    "referensTyp": "original"
+  },
+  {
+    "id": "2.931",
+    "kap": 2,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Linjerna \\(x=p\\) och \\(y=q\\), där \\(p\\ne0\\) och \\(q\\ne0\\), skär varandra i punkten \\(Q\\).</p><p>Vilken ekvation beskriver en linje som alltid går genom \\(Q\\)?</p><p>A. \\(qx-py=0\\)<br>B. \\(px-qy=0\\)<br>C. \\(qx+py=0\\)<br>D. \\(px+qy=0\\)</p>",
+    "s": "<p>Här är \\(Q=(p,q)\\). I A blir vänsterledet</p><p>\\[q\\cdot p-p\\cdot q=0.\\]</p><p><strong>A</strong></p>",
+    "familj": "Variant: parameterpunkt i dold linjeekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "text",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Sätt in koordinaterna \\((p,q)\\) i alternativen.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 1,
+    "spel": true,
+    "kalla": "Ny variant av NP Ma2c vt 2014, uppgift 11",
+    "referensTyp": "variant"
+  },
+  {
+    "id": "2.932",
+    "kap": 2,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>En cirkel med radien \\(a\\) tangerar de positiva koordinataxlarna. Den tangerar även en mindre cirkel som har mittpunkten i origo.</p><p>Visa att den mindre cirkelns radie är \\(a(\\sqrt2-1)\\).</p>",
+    "s": "<p>Den stora cirkelns medelpunkt är \\((a,a)\\). Avståndet från origo till denna punkt är</p><p>\\[\\sqrt{a^2+a^2}=a\\sqrt2.\\]</p><p>Om den mindre cirkelns radie är \\(r\\), så är cirklarna yttre tangent och därför</p><p>\\[a+r=a\\sqrt2.\\]</p><p>Alltså</p><p><strong>\\[r=a(\\sqrt2-1).\\]</strong></p>",
+    "familj": "NP-ankare: tangentcirklar och avstånd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Bestäm först den stora cirkelns medelpunkt och avståndet från den till origo.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2015, uppgift 16",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.933",
+    "kap": 2,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>En cirkel med radien \\(a\\) tangerar de positiva koordinataxlarna. En mindre cirkel med centrum i origo tangerar den stora cirkeln.</p><p>Bestäm exakt hur stor den mindre cirkelns area är jämfört med den stora cirkelns area.</p>",
+    "s": "<p>Som i tangentcirkelsituationen är den lilla radien</p><p>\\[r=a(\\sqrt2-1).\\]</p><p>Areaförhållandet blir</p><p>\\[\\frac{\\pi r^2}{\\pi a^2}=(\\sqrt2-1)^2=3-2\\sqrt2.\\]</p><p><strong>Den lilla cirkelns area är \\((3-2\\sqrt2)\\) gånger den stora cirkelns area.</strong></p>",
+    "familj": "Variant: tangentcirklar och areaförhållande",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Bestäm först förhållandet mellan radierna och kvadrera sedan detta förhållande.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 16",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.934",
+    "kap": 2,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Linjen \\(y=4-2x\\) skär koordinataxlarna i punkterna \\(A\\) och \\(B\\).</p><p>Visa att radien för den cirkel som går genom \\(A\\), \\(B\\) och origo är \\(\\sqrt5\\) längdenheter.</p>",
+    "s": "<p>Skärningspunkterna är \\(A=(0,\\,4)\\) och \\(B=(2,\\,0)\\). Triangeln med hörn i \\(A\\), \\(B\\) och origo är rätvinklig i origo.</p><p>Hypotenusan har längden</p><p>\\[AB=\\sqrt{(2-0)^2+(0-4)^2}=\\sqrt{20}=2\\sqrt5.\\]</p><p>En rätvinklig triangel inskriven i en cirkel har hypotenusan som diameter. Därför är radien</p><p><strong>\\(\\sqrt5\\).</strong></p>",
+    "familj": "NP-ankare: axelskärningar och cirkelradie",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Bestäm först linjens båda axelskärningar. Vad blir hypotenusan i triangeln?</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2014, uppgift 16",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.935",
+    "kap": 2,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Linjen \\(y=6-3x\\) skär koordinataxlarna i punkterna \\(A\\) och \\(B\\).</p><p>Bestäm exakt radien för den cirkel som går genom \\(A\\), \\(B\\) och origo.</p>",
+    "s": "<p>Axelskärningarna är \\(A=(0,\\,6)\\) och \\(B=(2,\\,0)\\). Då</p><p>\\[AB=\\sqrt{2^2+6^2}=\\sqrt{40}=2\\sqrt{10}.\\]</p><p>Triangeln är rätvinklig i origo, så \\(AB\\) är cirkelns diameter.</p><p><strong>Radien är \\(\\sqrt{10}\\).</strong></p>",
+    "familj": "Variant: axelskärningar och diameter via Thales sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "sqrt(10)",
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Koordinataxlarna bildar en rät vinkel. Koppla det till cirkelns diameter.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 16",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.936",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En stjärnas magnitud \\(M\\) kan beskrivas med</p><p>\\[M=a-5\\lg\\left(\\frac{r}{3\\cdot10^{16}}\\right)+5,\\]</p><p>där \\(r\\) är avståndet i meter och \\(a\\) är en konstant för stjärnan.</p><p>För Proxima Centauri är \\(M=15{,}5\\) och \\(a=11{,}1\\). Beräkna avståndet \\(r\\).</p>",
+    "s": "<p>Sätt in värdena:</p><p>\\[15{,}5=11{,}1-5\\lg\\left(\\frac r{3\\cdot10^{16}}\\right)+5.\\]</p><p>Då</p><p>\\[-0{,}6=-5\\lg\\left(\\frac r{3\\cdot10^{16}}\\right),\\]</p><p>så</p><p>\\[\\lg\\left(\\frac r{3\\cdot10^{16}}\\right)=0{,}12.\\]</p><p>Alltså</p><p>\\[r=3\\cdot10^{16}\\cdot10^{0{,}12}\\approx3{,}95\\cdot10^{16}.\\]</p><p><strong>\\(r\\approx3{,}95\\cdot10^{16}\\) m.</strong></p>",
+    "familj": "NP-ankare: logaritmisk modell och lösning baklänges",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.95e+16,
+    "tolerans": 100000000000000.0,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "ledtrad": "<p>Isolera först logaritmen och gå sedan från logaritmform till potensform.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2015, uppgift 21b",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.937",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>För en annan stjärna används samma modell</p><p>\\[M=a-5\\lg\\left(\\frac{r}{3\\cdot10^{16}}\\right)+5.\\]</p><p>Stjärnan har \\(M=13{,}0\\) och \\(a=10{,}5\\). Beräkna avståndet \\(r\\).</p>",
+    "s": "<p>Insättning ger</p><p>\\[13{,}0=15{,}5-5\\lg\\left(\\frac r{3\\cdot10^{16}}\\right).\\]</p><p>Därför</p><p>\\[\\lg\\left(\\frac r{3\\cdot10^{16}}\\right)=0{,}5.\\]</p><p>Alltså</p><p>\\[r=3\\cdot10^{16}\\sqrt{10}\\approx9{,}49\\cdot10^{16}.\\]</p><p><strong>\\(r\\approx9{,}49\\cdot10^{16}\\) m.</strong></p>",
+    "familj": "Variant: logaritmisk stjärnmodell med exakt mellanform",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.49e+16,
+    "tolerans": 200000000000000.0,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "ledtrad": "<p>När du isolerat logaritmen får du ett värde som motsvarar en potens av 10.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 21b",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.938",
+    "kap": 2,
+    "omr": "likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Triangeln \\(ABC\\) är rätvinklig i \\(C\\). Höjden från \\(C\\) mot hypotenusan \\(AB\\) delar hypotenusan i två delar med längderna 7 och 3.</p><p>Beräkna triangelns area. Svara exakt.</p>",
+    "s": "<p>Höjden \\(h\\) mot hypotenusan uppfyller höjdsatsen</p><p>\\[h^2=7\\cdot3=21,\\]</p><p>så \\(h=\\sqrt{21}\\). Hypotenusan är \\(7+3=10\\).</p><p>Arean blir</p><p>\\[A=\\frac{10\\sqrt{21}}2=5\\sqrt{21}.\\]</p><p><strong>Arean är \\(5\\sqrt{21}\\) areaenheter.</strong></p>",
+    "familj": "NP-ankare: exakt area via höjdsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Använd likformigheten i den rätvinkliga triangeln för att bestämma höjden mot hypotenusan.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2014, uppgift 14 (figuren beskriven i text)",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.939",
+    "kap": 2,
+    "omr": "likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>En rätvinklig triangel har en höjd mot hypotenusan. Höjden delar hypotenusan i två delar med längderna 5 och 4.</p><p>Bestäm triangelns area exakt.</p>",
+    "s": "<p>Med höjdsatsen:</p><p>\\[h^2=5\\cdot4=20\\Rightarrow h=2\\sqrt5.\\]</p><p>Hypotenusan är \\(5+4=9\\). Därför</p><p>\\[A=\\frac{9\\cdot2\\sqrt5}{2}=9\\sqrt5.\\]</p><p><strong>Arean är \\(9\\sqrt5\\) areaenheter.</strong></p>",
+    "familj": "Variant: exakt area från hypotenusans delsträckor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Bestäm först höjden mot hypotenusan med likformighet/höjdsatsen.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 14",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.940",
+    "kap": 2,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "1/1/1",
+    "t": "<p>En rät linje går genom punkten \\(P=(3,\\,5)\\) och har positiv riktningskoefficient.</p><p>Det finns många punkter \\(Q=(x,\\,y)\\) som kan ligga på en sådan linje genom \\(P\\).</p><p>Undersök vilka värden på \\(x\\) och \\(y\\) som gör att linjen genom \\(P\\) och \\(Q\\) får positiv riktningskoefficient.</p>",
+    "s": "<p>Riktningskoefficienten mellan punkterna är</p><p>\\[k=\\frac{y-5}{x-3}.\\]</p><p>För att \\(k>0\\) måste täljare och nämnare ha samma tecken. Alltså gäller antingen</p><p>\\[x>3 \\text{ och } y>5\\]</p><p>eller</p><p>\\[x<3 \\text{ och } y<5.\\]</p><p>Om \\(x=3\\) är linjen vertikal och någon riktningskoefficient är inte definierad.</p>",
+    "familj": "NP-ankare: parameterområde för positiv riktningskoefficient",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "begrepp",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Skriv riktningskoefficienten mellan \\(P\\) och \\(Q\\) och undersök när kvoten är positiv.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2013, uppgift 20b",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.941",
+    "kap": 2,
+    "omr": "rata_linjens_ekvation",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>En rät linje går genom punkten \\(P=(-2,\\,4)\\) och ska ha negativ riktningskoefficient.</p><p>Beskriv alla punkter \\(Q=(x,\\,y)\\) som kan ligga på en sådan linje genom \\(P\\).</p>",
+    "s": "<p>Här är</p><p>\\[k=\\frac{y-4}{x+2}.\\]</p><p>För att kvoten ska vara negativ måste täljare och nämnare ha olika tecken. Därför gäller</p><p>\\[x>-2 \\text{ och } y<4\\]</p><p>eller</p><p>\\[x<-2 \\text{ och } y>4.\\]</p>",
+    "familj": "Variant: parameterområde för negativ riktningskoefficient",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>En negativ kvot kräver att täljare och nämnare har olika tecken.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 20b",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.942",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Under vissa förhållanden kan en traktors bränsleförbrukning beskrivas av</p><p>\\[B(v)=0{,}0010v^2-0{,}040v+0{,}92,\\qquad v>0,\\]</p><p>där \\(B\\) är bränsleförbrukningen i liter per kilometer och \\(v\\) är hastigheten i km/h.</p><p>Bestäm den lägsta bränsleförbrukning traktorn kan ha enligt modellen.</p>",
+    "s": "<p>Modellen är en uppåtvänd parabel. Minimipunkten ligger vid</p><p>\\[v=-\\frac{-0{,}040}{2\\cdot0{,}0010}=20.\\]</p><p>Då</p><p>\\[B(20)=0{,}0010\\cdot400-0{,}040\\cdot20+0{,}92=0{,}52.\\]</p><p><strong>Den lägsta bränsleförbrukningen är \\(0{,}52\\) liter/km, vid 20 km/h.</strong></p>",
+    "familj": "NP-ankare: minimera andragradsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Eftersom koefficienten framför \\(v^2\\) är positiv har parabeln en minimipunkt.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2013, uppgift 21b",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.943",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En maskins energiförbrukning per producerad enhet modelleras av</p><p>\\[E(v)=0{,}0015v^2-0{,}090v+1{,}60,\\qquad v>0,\\]</p><p>där \\(v\\) är maskinens arbetstakt.</p><p>Bestäm den minsta energiförbrukningen enligt modellen och vid vilken arbetstakt den uppstår.</p>",
+    "s": "<p>Minimipunktens \\(v\\)-värde är</p><p>\\[v=-\\frac{-0{,}090}{2\\cdot0{,}0015}=30.\\]</p><p>Då</p><p>\\[E(30)=0{,}0015\\cdot900-0{,}090\\cdot30+1{,}60=0{,}25.\\]</p><p><strong>Minsta värdet är \\(0{,}25\\), vid \\(v=30\\).</strong></p>",
+    "familj": "Variant: minimera verklighetsnära andragradsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Bestäm parabelns vertex och tolka båda koordinaterna i sammanhanget.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 21b",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.944",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>En travbana består av två lika långa raka sträckor och två halvcirklar. Banan där hästarna springer är totalt 800 m lång.</p><p>Området innanför banan har formen av en rektangel och två halvcirklar och har arean \\(43\\,000\\,\\text{m}^2\\).</p><p>Bestäm halvcirklarnas radie \\(r\\).</p>",
+    "s": "<p>Låt varje raksträcka ha längden \\(L\\). Banans omkrets ger</p><p>\\[2L+2\\pi r=800\\Rightarrow L=400-\\pi r.\\]</p><p>Innerarean är en rektangel med bredd \\(2r\\) plus en hel cirkel:</p><p>\\[2rL+\\pi r^2=43000.\\]</p><p>Insättning ger</p><p>\\[2r(400-\\pi r)+\\pi r^2=43000\\]</p><p>och därmed</p><p>\\[\\pi r^2-800r+43000=0.\\]</p><p>De numeriska rötterna är ungefär \\(77{,}1\\) och \\(177{,}6\\). Den större roten skulle ge negativ längd på raksträckorna och är därför omöjlig.</p><p><strong>Radien är ungefär \\(77{,}1\\) m.</strong></p>",
+    "familj": "NP-ankare: travbana, area och andragradsekvation",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 77.1,
+    "tolerans": 0.2,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "modellering",
+      "kommunikation"
+    ],
+    "ledtrad": "<p>Uttryck först de raka sträckornas längd med hjälp av banans omkrets och radien.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2013, uppgift 23",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.945",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>En löparbana har formen av två raka sträckor och två halvcirklar. Den totala banlängden är 600 m och området innanför banan är \\(22\\,000\\,\\text{m}^2\\).</p><p>Bestäm halvcirklarnas radie.</p>",
+    "s": "<p>Om varje raksträcka har längden \\(L\\), så</p><p>\\[2L+2\\pi r=600\\Rightarrow L=300-\\pi r.\\]</p><p>Arean ger</p><p>\\[2r(300-\\pi r)+\\pi r^2=22000,\\]</p><p>alltså</p><p>\\[\\pi r^2-600r+22000=0.\\]</p><p>Rötterna är ungefär \\(49{,}5\\) och \\(141{,}5\\). Den större ger negativ raksträcka och förkastas.</p><p><strong>Radien är ungefär \\(49{,}5\\) m.</strong></p>",
+    "familj": "Variant: stadiumproblem med fysisk rotkontroll",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 49.5,
+    "tolerans": 0.2,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Samma radie ingår både i banans omkrets och i innerområdets area.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 23",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.946",
+    "kap": 2,
+    "omr": "likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>I en likbent triangel dras en sträcka parallellt med basen så att triangeln delas i en mindre topptriangel och ett parallelltrapets.</p><p>Topptriangelns bas är 9,0 cm och dess två andra sidor är 8,0 cm vardera. Topptriangeln har lika stor omkrets som parallelltrapetset.</p><p>Beräkna längden av parallelltrapetsets fyra sidor.</p>",
+    "s": "<p>Låt skalfaktorn från topptriangeln till den stora triangeln vara \\(k\\). Då är den stora triangelns lika sidor \\(8k\\) och basen \\(9k\\).</p><p>Trapetsets sidlängder blir</p><p>\\[8k-8,\\quad 8k-8,\\quad 9,\\quad 9k.\\]</p><p>Topptriangelns omkrets är \\(8+8+9=25\\). Villkoret ger</p><p>\\[2(8k-8)+9+9k=25.\\]</p><p>Alltså \\(25k-7=25\\), så \\(k=\\frac{32}{25}=1{,}28\\).</p><p>Därmed blir trapetsets sidor</p><p><strong>\\(2{,}24\\) cm, \\(2{,}24\\) cm, \\(9{,}0\\) cm och \\(11{,}52\\) cm</strong> (den sista cirka \\(11{,}5\\) cm).</p>",
+    "familj": "NP-ankare: likformighet och omkretsvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "begrepp",
+      "kommunikation"
+    ],
+    "ledtrad": "<p>Inför en skalfaktor mellan topptriangeln och hela triangeln. Trapetsets sneda sidor är skillnader mellan motsvarande sidor.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2014, uppgift 25",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.947",
+    "kap": 2,
+    "omr": "likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>I en likbent triangel skär en sträcka parallellt med basen av en mindre topptriangel. Topptriangelns bas är 8 cm och de båda andra sidorna är 6 cm.</p><p>Topptriangelns omkrets är lika stor som det parallelltrapets som blir kvar.</p><p>Bestäm trapetsets fyra sidlängder.</p>",
+    "s": "<p>Låt skalfaktorn från topptriangeln till hela triangeln vara \\(k\\). Trapetsets sidor är då</p><p>\\[6k-6,\\quad6k-6,\\quad8,\\quad8k.\\]</p><p>Topptriangelns omkrets är 20, så</p><p>\\[2(6k-6)+8+8k=20.\\]</p><p>Det ger \\(20k-4=20\\), alltså \\(k=1{,}2\\).</p><p><strong>Trapetsets sidor är \\(1{,}2\\) cm, \\(1{,}2\\) cm, 8 cm och \\(9{,}6\\) cm.</strong></p>",
+    "familj": "Variant: likformighet med dolt skalfaktorvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Skriv alla fyra trapetssidor i termer av samma skalfaktor.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2014, uppgift 25",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.948",
+    "kap": 2,
+    "omr": "exponentialfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Efter 5730 år har mängden kol-14 i ett organiskt material minskat till hälften. Mängden kan modelleras med</p><p>\\[y=C\\cdot2^{-kx},\\]</p><p>där \\(x\\) är antal år och \\(C\\) är ursprungsmängden.</p><p>En gammal sko av djurskinn innehåller 65,5 % av den ursprungliga mängden kol-14. Bestäm skinnets ålder.</p>",
+    "s": "<p>Halveringstiden ger</p><p>\\[\\frac12=2^{-5730k}\\Rightarrow k=\\frac1{5730}.\\]</p><p>Därför gäller</p><p>\\[0{,}655=2^{-x/5730}.\\]</p><p>Logaritmering ger</p><p>\\[x=-5730\\frac{\\lg(0{,}655)}{\\lg2}\\approx3498.\\]</p><p><strong>Skinnet är ungefär 3500 år gammalt.</strong></p>",
+    "familj": "NP-ankare: kol-14 och halveringstid",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3500,
+    "tolerans": 30,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd först informationen om halveringstiden för att bestämma \\(k\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2014, uppgift 25",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.949",
+    "kap": 2,
+    "omr": "exponentialfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Ett radioaktivt ämne har halveringstiden 4200 år och modelleras med \\(y=C\\cdot2^{-kx}\\).</p><p>Ett prov innehåller 72 % av ursprungsmängden. Bestäm provets ålder.</p>",
+    "s": "<p>Halveringstiden ger \\(k=1/4200\\). Alltså</p><p>\\[0{,}72=2^{-x/4200}.\\]</p><p>Så</p><p>\\[x=-4200\\frac{\\lg(0{,}72)}{\\lg2}\\approx1991.\\]</p><p><strong>Provet är ungefär 1990 år gammalt.</strong></p>",
+    "familj": "Variant: halveringstid och omvänd exponentialmodell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1990,
+    "tolerans": 20,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Översätt halveringstiden till exponenten innan du löser efter tiden.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 25",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.950",
+    "kap": 2,
+    "omr": "funktionsmodeller",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/1",
+    "t": "<p>Hugo och Ilona har två modeller för en rakets höjd över månens yta under en landning:</p><p>\\[h(t)=\\frac{t^2}{90}-\\frac{20t}{3}+1000\\]</p><p>och</p><p>\\[g(t)=1000-\\frac{10t}{3}.\\]</p><p>Här är \\(t\\) tiden i sekunder. Modellerna används från starten tills raketen når marken.</p><p>Beskriv någon väsentlig skillnad mellan modellerna och motivera matematiskt.</p>",
+    "s": "<p>Båda modellerna startar på 1000 m och når marken vid \\(t=300\\) s. Men de beskriver rörelsen olika.</p><p>Skillnaden mellan höjderna är</p><p>\\[h(t)-g(t)=\\frac{t(t-300)}{90}.\\]</p><p>För \\(0<t<300\\) är detta negativt, alltså ligger Hugos raket lägre än Ilonas under hela mellanperioden.</p><p>Dessutom är \\(g\\) linjär och beskriver konstant sjunkhastighet, medan \\(h\\) är en andragradsfunktion: sjunkhastigheten förändras och blir 0 precis vid landningen.</p>",
+    "familj": "NP-ankare: jämföra två modeller kvalitativt och algebraiskt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Jämför funktionerna genom att studera \\(h(t)-g(t)\\) och fundera på vad linjär respektive kvadratisk modell betyder.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2012, uppgift 19d",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.951",
+    "kap": 2,
+    "omr": "funktionsmodeller",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/1",
+    "t": "<p>Två modeller beskriver höjden hos en farkost under de första 240 sekunderna av en landning:</p><p>\\[h(t)=\\frac{t^2}{80}-6t+720\\]</p><p>och</p><p>\\[g(t)=720-3t.\\]</p><p>Jämför modellerna. Beskriv minst en viktig skillnad och stöd slutsatsen med beräkning.</p>",
+    "s": "<p>Båda börjar på 720 och båda ger 0 vid \\(t=240\\). Skillnaden är</p><p>\\[h(t)-g(t)=\\frac{t^2}{80}-3t=\\frac{t(t-240)}{80}.\\]</p><p>För \\(0<t<240\\) är skillnaden negativ, så \\(h(t)<g(t)\\) under hela landningen mellan start och slut.</p><p>Modellen \\(g\\) har konstant förändringshastighet, medan \\(h\\) beskriver en förändringshastighet som varierar och går mot 0 vid \\(t=240\\).</p>",
+    "familj": "Variant: modelljämförelse med samma ändpunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Kontrollera först start- och sluttid. Studera sedan differensen mellan funktionerna.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2012, uppgift 19d",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.952",
+    "kap": 2,
+    "omr": "ekvationssystem_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Adrian kör med medelhastigheten 72 km/h. När Edith startar har Adrian redan kört 13 km. Edith kör med medelhastigheten 81 km/h och kör senare om Adrian.</p><p>När omkörningen sker har de kommit en tredjedel av hela sträckan.</p><p>Beräkna hela sträckans längd.</p>",
+    "s": "<p>Låt \\(x\\) vara antal timmar Edith har kört när omkörningen sker och \\(y\\) hennes körda sträcka.</p><p>\\[y=81x\\]</p><p>och eftersom Adrian har 13 km försprång</p><p>\\[y=13+72x.\\]</p><p>Alltså</p><p>\\[81x=13+72x\\Rightarrow x=\\frac{13}{9}.\\]</p><p>Då är</p><p>\\[y=81\\cdot\\frac{13}{9}=117\\text{ km}.\\]</p><p>Detta är en tredjedel av hela sträckan, så</p><p><strong>hela sträckan är \\(3\\cdot117=351\\) km.</strong></p>",
+    "familj": "NP-ankare: omkörning och ekvationssystem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Låt tiden efter Ediths start vara en variabel och skriv ett uttryck för vardera bilens körda sträcka.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2022, uppgift 24b",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.953",
+    "kap": 2,
+    "omr": "ekvationssystem_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>En cyklist kör med 68 km/h. När en snabbare cyklist startar ligger den första redan 12 km före. Den snabbare håller 80 km/h och kör ikapp.</p><p>Vid ikappkörningen har de kommit en fjärdedel av hela tävlingssträckan.</p><p>Hur lång är tävlingssträckan?</p>",
+    "s": "<p>Låt \\(x\\) vara tiden i timmar efter den snabbare cyklistens start. Då</p><p>\\[80x=12+68x.\\]</p><p>Det ger \\(12x=12\\), alltså \\(x=1\\). Den snabbare har då kört 80 km.</p><p>Det är en fjärdedel av hela sträckan, så</p><p><strong>tävlingssträckan är 320 km.</strong></p>",
+    "familj": "Variant: försprång, hastighet och del av totalsträcka",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Vid ikappkörningen har båda färdats till samma punkt, men den ena hade ett försprång.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 24b",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.954",
+    "kap": 2,
+    "omr": "statistik_resonemang",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>För fyra personers timlöner gäller:</p><p>Medelvärde: 210 kr/h<br>Median: 200 kr/h<br>Variationsbredd: 80 kr/h</p><p>Undersök vad timlönen är för personen med den högsta timlönen.</p>",
+    "s": "<p>Skriv de fyra lönerna i storleksordning \\(a\\le b\\le c\\le d\\).</p><p>Medelvärdet ger</p><p>\\[a+b+c+d=840.\\]</p><p>Medianen ger</p><p>\\[\\frac{b+c}{2}=200\\Rightarrow b+c=400.\\]</p><p>Därför är \\(a+d=440\\). Variationsbredden ger</p><p>\\[d-a=80.\\]</p><p>Systemet</p><p>\\[a+d=440,\\qquad d-a=80\\]</p><p>ger \\(d=260\\).</p><p><strong>Den högsta timlönen är 260 kr/h.</strong></p>",
+    "familj": "NP-ankare: återskapa extremvärde från statistikmått",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "problemlösning",
+      "statistik"
+    ],
+    "ledtrad": "<p>Sortera de fyra lönerna och översätt medelvärde, median och variationsbredd till tre ekvationer.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2022, uppgift 25",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.955",
+    "kap": 2,
+    "omr": "statistik_resonemang",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Fyra anställdas timlöner har medelvärdet 240 kr/h, medianen 230 kr/h och variationsbredden 100 kr/h.</p><p>Bestäm den högsta timlönen.</p>",
+    "s": "<p>Låt lönerna vara \\(a\\le b\\le c\\le d\\).</p><p>Summan är \\(960\\), och medianen ger \\(b+c=460\\). Alltså</p><p>\\[a+d=500.\\]</p><p>Variationsbredden ger</p><p>\\[d-a=100.\\]</p><p>Addition ger \\(2d=600\\), så</p><p><strong>den högsta timlönen är 300 kr/h.</strong></p>",
+    "familj": "Variant: kombinera medelvärde, median och variationsbredd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "problemlösning",
+      "statistik"
+    ],
+    "ledtrad": "<p>Med fyra värden är medianen medelvärdet av de två mittersta.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 25",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.956",
+    "kap": 2,
+    "omr": "statistik_resonemang",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/2/1",
+    "t": "<p>Ett lådagram sammanfattar 19 elevers kontantbelopp. Fem-tals-sammanfattningen är:</p><p>min = 0 kr, undre kvartil = 6 kr, median = 20 kr, övre kvartil = 31 kr, max = 112 kr.</p><p>Undersök i vilket eller vilka av följande intervall medelvärdet \\(M\\) kan ligga. Motivera.</p><p>A. \\(0\\le M<6\\)<br>B. \\(6\\le M<20\\)<br>C. \\(20\\le M<31\\)<br>D. \\(31\\le M\\le112\\)</p>",
+    "s": "<p>Med 19 sorterade värden är medianen det 10:e värdet, undre kvartilen det 5:e och övre kvartilen det 15:e.</p><p>Det minsta möjliga totalsumman som är förenlig med lådagrammet är 366, vilket ger</p><p>\\[M_{\\min}=\\frac{366}{19}\\approx19{,}3.\\]</p><p>Det största möjliga totalsumman är 727, vilket ger</p><p>\\[M_{\\max}=\\frac{727}{19}\\approx38{,}3.\\]</p><p>Alltså kan medelvärdet inte ligga i A. Det finns möjliga datamängder som ger medelvärden i B, C respektive D.</p><p><strong>Svar: B, C och D.</strong></p>",
+    "familj": "NP-ankare: möjliga medelvärden från lådagram",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "statistik",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Tänk på vilka värden de 19 observationerna minst respektive högst kan ha utan att fem-tals-sammanfattningen ändras.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2014, uppgift 23 (lådagrammets värden utskrivna)",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.957",
+    "kap": 2,
+    "omr": "statistik_resonemang",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/2/1",
+    "t": "<p>Ett lådagram sammanfattar 15 observationer. Fem-tals-sammanfattningen är:</p><p>min = 0, undre kvartil = 4, median = 10, övre kvartil = 18, max = 50.</p><p>I vilket eller vilka intervall kan medelvärdet \\(M\\) ligga?</p><p>A. \\(0\\le M<4\\)<br>B. \\(4\\le M<10\\)<br>C. \\(10\\le M<18\\)<br>D. \\(18\\le M\\le50\\)</p><p>Motivera.</p>",
+    "s": "<p>För 15 sorterade värden är kvartilerna värde 4 och 12 och medianen värde 8.</p><p>Minsta möjliga summa är 160, alltså</p><p>\\[M_{\\min}=\\frac{160}{15}\\approx10{,}7.\\]</p><p>Största möjliga summa är 274, alltså</p><p>\\[M_{\\max}=\\frac{274}{15}\\approx18{,}3.\\]</p><p>Därför kan medelvärdet ligga i C och D, men inte i A eller B.</p><p><strong>Svar: C och D.</strong></p>",
+    "familj": "Variant: möjliga medelvärdesintervall från fem-tals-sammanfattning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "statistik",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Konstruera först den minsta möjliga och sedan den största möjliga datamängden som passar lådagrammet.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2014, uppgift 23",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.958",
+    "kap": 2,
+    "omr": "algebraiska_bevis",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "1/1/1",
+    "t": "<p>Alice påstår:</p><p>”Medelvärdet av tre på varandra följande heltal är alltid lika med talens median.”</p><p>Moa säger att det inte alltid gäller.</p><p>Vem har rätt? Motivera generellt.</p>",
+    "s": "<p>Alice har rätt. Skriv tre på varandra följande heltal som</p><p>\\[n-1,\\quad n,\\quad n+1.\\]</p><p>Medianen är \\(n\\). Medelvärdet är</p><p>\\[\\frac{(n-1)+n+(n+1)}3=\\frac{3n}{3}=n.\\]</p><p>Alltså är medelvärdet alltid lika med medianen.</p>",
+    "familj": "NP-ankare: generellt bevis om medelvärde och median",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "algebra",
+      "statistik"
+    ],
+    "ledtrad": "<p>Representera de tre heltalen med en variabel i stället för att testa exempel.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2012, uppgift 21",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.959",
+    "kap": 2,
+    "omr": "algebraiska_bevis",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Undersök om medelvärdet av fyra på varandra följande heltal alltid är lika med medianen för de fyra talen.</p><p>Motivera generellt.</p>",
+    "s": "<p>Skriv talen som</p><p>\\[n,\\quad n+1,\\quad n+2,\\quad n+3.\\]</p><p>Medelvärdet är</p><p>\\[\\frac{4n+6}{4}=n+\\frac32.\\]</p><p>Medianen är medelvärdet av de två mittersta:</p><p>\\[\\frac{(n+1)+(n+2)}2=n+\\frac32.\\]</p><p><strong>Ja, de är alltid lika.</strong></p>",
+    "familj": "Variant: generalisera relationen mellan medelvärde och median",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "algebra",
+      "statistik"
+    ],
+    "ledtrad": "<p>För ett jämnt antal observationer är medianen medelvärdet av de två mittersta.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2012, uppgift 21",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.960",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>Ismael ska sy nya gardiner till fritidsgårdens åtta fönster. Varje tygstycke är 150 cm brett och 70 cm högt. Nederkanten har formen av en parabel, med parabelns lägsta punkt mitt på tygstycket.</p><p>Tyget han köper är 140 cm brett. De åtta tygstyckena placeras växelvis längs tygets båda kanter så tätt som möjligt. Två närliggande parabelkanter nuddar varandra i en punkt som ligger 35 cm från tygets övre kant.</p><p>Beräkna hur många meter tyg Ismael behöver köpa.</p>",
+    "s": "<p>Lägg ett koordinatsystem över ett tygstycke med ändpunkterna \\((0,0)\\) och \\((150,0)\\) och minimipunkten \\((75,70)\\). Parabeln kan skrivas</p><p>\\[y=70-\\frac{70}{75^2}(x-75)^2.\\]</p><p>Beröringspunkten ligger 35 cm från tygkanten. Sätt därför \\(y=35\\):</p><p>\\[35=70-\\frac{70}{75^2}(x-75)^2.\\]</p><p>Det ger</p><p>\\[x=75\\pm\\frac{75}{\\sqrt2}\\approx21{,}97\\text{ eller }128{,}03.\\]</p><p>Avståndet mellan de två beröringslägena är därför ungefär</p><p>\\[128{,}03-21{,}97=106{,}06\\text{ cm}.\\]</p><p>Fyra tygstycken ligger längs vardera kanten. Längden som behövs blir</p><p>\\[150+3\\cdot106{,}06\\approx468\\text{ cm}.\\]</p><p><strong>Ismael behöver alltså köpa cirka 4,7 m tyg.</strong></p>",
+    "familj": "NP-ankare: parabelmodell och effektiv packning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.7,
+    "tolerans": 0.1,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "kommunikation"
+    ],
+    "ledtrad": "<p>Bestäm först en andragradsfunktion för ett tygstyckes parabelkant. Använd sedan att beröringspunkten ligger på halva höjden.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2014, uppgift 27 (figuren textualiserad)",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.961",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>Ett företag skär ut tio parabolformade dekorationer ur en tygremsa. Varje dekoration är 120 cm bred och 60 cm hög och har en rak överkant samt en parabel som nederkant. Tygremsan är 120 cm bred, så fem dekorationer kan läggas längs vardera långsidan, växelvis vända åt motsatt håll.</p><p>När dekorationerna packas så tätt som möjligt ligger beröringspunkten mellan två närliggande parabelkanter 30 cm från en långsida.</p><p>a) Bestäm det horisontella avståndet mellan två efterföljande dekorationer med samma orientering.<br>b) Bestäm minsta längd på tygremsan.</p>",
+    "s": "<p>För en dekoration kan parabeln beskrivas med ändpunkterna \\((0,0)\\), \\((120,0)\\) och vertex \\((60,60)\\):</p><p>\\[y=60-\\frac{60}{60^2}(x-60)^2.\\]</p><p>Vid \\(y=30\\) fås</p><p>\\[x=60\\pm\\frac{60}{\\sqrt2}\\approx17{,}57\\text{ och }102{,}43.\\]</p><p>Avståndet mellan beröringslägena är</p><p>\\[d\\approx84{,}85\\text{ cm}.\\]</p><p>Fem dekorationer längs samma kant kräver en hel bredd plus fyra sådana förskjutningar:</p><p>\\[L=120+4\\cdot84{,}85\\approx459{,}4\\text{ cm}.\\]</p><p><strong>Avståndet är cirka 84,9 cm och tygremsan behöver vara cirka 4,59 m lång.</strong></p>",
+    "familj": "Variant: generalisera parabelpackning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "generalisering"
+    ],
+    "ledtrad": "<p>Modellera först en enda parabel. När höjden är halva maxhöjden får du två x-värden vars differens styr förskjutningen.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 27",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.962",
+    "kap": 2,
+    "omr": "ekvationssystem_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>Ett företag tillverkar anslagstavlor. Varje tavla består av en rektangulär platta omgiven av en ram av 5 cm bred trälist. Ramen går 2 cm in över plattans framsida.</p><p>Materialkostnaden är 59 kr för en tavla som är 36 cm bred och 46 cm lång, och 81 kr för en tavla som är 46 cm bred och 56 cm lång.</p><p>Bestäm ett generellt uttryck för materialkostnaden för en anslagstavla som har bredden \\(a\\) meter och längden \\(b\\) meter.</p>",
+    "s": "<p>Låt plattan kosta \\(p\\) kr/m² och trälisten \\(l\\) kr/m. Eftersom ramen är 5 cm bred men täcker 2 cm av plattan blir plattans mått 6 cm mindre än tavlans mått i båda riktningarna.</p><p>För tavlan \\(0{,}36\\times0{,}46\\) m blir plattan \\(0{,}30\\times0{,}40\\) m och listlängden \\(2(0{,}36+0{,}46)=1{,}64\\) m:</p><p>\\[0{,}12p+1{,}64l=59.\\]</p><p>För tavlan \\(0{,}46\\times0{,}56\\) m:</p><p>\\[0{,}20p+2{,}04l=81.\\]</p><p>Ekvationssystemet ger \\(p=150\\) och \\(l=25\\).</p><p>För en tavla \\(a\\times b\\) blir kostnaden</p><p>\\[K=150(a-0{,}06)(b-0{,}06)+25\\cdot2(a+b).\\]</p><p>Förenkling ger</p><p>\\[\\boxed{K=150ab+41a+41b+0{,}54}.\\]</p>",
+    "familj": "NP-ankare: ekvationssystem följt av generell kostnadsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "problemlösning",
+      "algebra",
+      "kommunikation"
+    ],
+    "ledtrad": "<p>Bestäm först priset per kvadratmeter platta och priset per meter list från de två givna tavlorna.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2015, uppgift 25 (figuren beskriven i text)",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.963",
+    "kap": 2,
+    "omr": "ekvationssystem_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/4",
+    "t": "<p>Ett företag gör inramade skyltar. Ramen är 4 cm bred och går 1,5 cm in över skyltplattan. En skylt som är 35 cm × 45 cm kostar 62,40 kr i material och en skylt som är 45 cm × 55 cm kostar 84,00 kr.</p><p>Materialpriset per kvadratmeter platta och per meter ramlist är samma för alla skyltar.</p><p>Bestäm ett generellt uttryck för materialkostnaden \\(K\\) för en skylt med ytterbredd \\(a\\) meter och ytterlängd \\(b\\) meter.</p>",
+    "s": "<p>På varje sida täcker ramen \\(1{,}5\\) cm av plattan. Plattans mått är därför \\(2(4-1{,}5)=5\\) cm mindre än yttermåtten.</p><p>Låt plattan kosta \\(p\\) kr/m² och listen \\(l\\) kr/m. Då fås</p><p>\\[0{,}30\\cdot0{,}40p+2(0{,}35+0{,}45)l=62{,}40,\\]</p><p>\\[0{,}40\\cdot0{,}50p+2(0{,}45+0{,}55)l=84.\\]</p><p>Systemet ger \\(p=120\\) och \\(l=30\\).</p><p>Alltså</p><p>\\[K=120(a-0{,}05)(b-0{,}05)+60(a+b).\\]</p><p>Förenklat:</p><p>\\[\\boxed{K=120ab+54a+54b+0{,}30}.\\]</p>",
+    "familj": "Variant: bestäm priser och bygg generell rammodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "ekvationssystem",
+      "generalisering"
+    ],
+    "ledtrad": "<p>Skillnaden mellan ramens bredd och överlappningen avgör hur mycket mindre själva plattan är.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 25",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.964",
+    "kap": 2,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Tabellen visar antal häckande storkar \\(x\\) och antal nyfödda barn i tusental \\(y\\) i Västtyskland under några år.</p><table><tr><th>\\(x\\)</th><td>1900</td><td>1800</td><td>1610</td><td>1405</td><td>1208</td><td>1200</td><td>1100</td><td>1100</td></tr><tr><th>\\(y\\)</th><td>1050</td><td>1000</td><td>920</td><td>825</td><td>750</td><td>675</td><td>620</td><td>600</td></tr></table><p>Bestäm med linjär regression ett samband på formen \\(y=kx+m\\).</p>",
+    "s": "<p>Linjär regression på samtliga åtta datapunkter ger ungefär</p><p>\\[k=0{,}5335,\\qquad m=49{,}8849.\\]</p><p>Ett lämpligt samband är därför</p><p>\\[\\boxed{y\\approx0{,}534x+49{,}9}.\\]</p><p>Det är viktigt att använda regression på hela datamängden och inte bara välja två punkter.</p>",
+    "familj": "NP-ankare: linjär regression på verkliga data",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "digitala verktyg",
+      "regression"
+    ],
+    "ledtrad": "<p>Mata in alla åtta punktpar och använd linjär regression.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2013, uppgift 22",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.965",
+    "kap": 2,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Vid en mätserie registreras en sensorsignal \\(y\\) vid olika koncentrationer \\(x\\).</p><table><tr><th>\\(x\\)</th><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td></tr><tr><th>\\(y\\)</th><td>11,2</td><td>16,1</td><td>22,4</td><td>27,0</td><td>33,3</td><td>38,1</td></tr></table><p>a) Bestäm en linjär regressionsmodell \\(y=kx+m\\).<br>b) Använd modellen för att uppskatta \\(y\\) när \\(x=9\\).<br>c) Förklara kort varför det vore mer osäkert att använda modellen för \\(x=40\\).</p>",
+    "s": "<p>Regression ger ungefär</p><p>\\[y=2{,}724x+5{,}613.\\]</p><p>För \\(x=9\\):</p><p>\\[y\\approx2{,}724\\cdot9+5{,}613\\approx30{,}1.\\]</p><p>Värdet \\(x=40\\) ligger långt utanför det observerade intervallet \\(2\\le x\\le12\\). En sådan extrapolation bygger på antagandet att det linjära sambandet fortsätter långt bortom de mätta data, vilket vi inte har stöd för.</p>",
+    "familj": "Variant: regression, interpolation och modellkritik",
+    "geogebra": true,
+    "miniräknare": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "regression",
+      "modellering",
+      "resonemang",
+      "digitala verktyg"
+    ],
+    "ledtrad": "<p>Gör regressionen på alla punkter. Jämför sedan interpolation inom dataintervallet med extrapolation långt utanför.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 22",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.966",
+    "kap": 2,
+    "omr": "cirkelgeometri",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Figuren visar fyrhörningen \\(PMQR\\) i en cirkel där \\(P\\), \\(Q\\) och \\(R\\) ligger på cirkelns rand och \\(M\\) är cirkelns medelpunkt. Vinklarna \\(a\\), \\(b\\) och \\(c\\) är markerade.</p><span class=\"fig smal\"><svg width=\"430\" height=\"330\" viewBox=\"0 0 430 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med punkterna P, Q, R och medelpunkten M\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"215\" cy=\"170\" r=\"125\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"107\" y1=\"232\" x2=\"215\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"215\" y1=\"45\" x2=\"323\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"107\" y1=\"232\" x2=\"215\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"215\" y1=\"170\" x2=\"323\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"107\" cy=\"232\" r=\"4\" fill=\"#B43123\"/><circle cx=\"323\" cy=\"232\" r=\"4\" fill=\"#B43123\"/><circle cx=\"215\" cy=\"45\" r=\"4\" fill=\"#B43123\"/><circle cx=\"215\" cy=\"170\" r=\"4\" fill=\"#B43123\"/><text x=\"91\" y=\"252\" font-size=\"15\" font-family=\"IBM Plex Mono,monospace\">P</text><text x=\"329\" y=\"252\" font-size=\"15\" font-family=\"IBM Plex Mono,monospace\">Q</text><text x=\"220\" y=\"39\" font-size=\"15\" font-family=\"IBM Plex Mono,monospace\">R</text><text x=\"220\" y=\"166\" font-size=\"15\" font-family=\"IBM Plex Mono,monospace\">M</text><text x=\"132\" y=\"213\" font-size=\"15\" font-style=\"italic\">a</text><text x=\"292\" y=\"213\" font-size=\"15\" font-style=\"italic\">b</text><text x=\"208\" y=\"84\" font-size=\"15\" font-style=\"italic\">c</text></svg></span><p>Visa att sambandet \\(a+b=c\\) gäller för alla sådana fyrhörningar.</p>",
+    "s": "<p>Eftersom \\(MP=MR\\) är triangeln \\(PMR\\) likbent. Vinkeln vid \\(M\\) i den triangeln är därför</p><p>\\[180^\\circ-2a.\\]</p><p>På samma sätt är \\(MR=MQ\\), så vinkeln \\(RMQ\\) är</p><p>\\[180^\\circ-2b.\\]</p><p>Den återstående vinkeln \\(PMQ\\) runt medelpunkten är då</p><p>\\[360^\\circ-(180^\\circ-2a)-(180^\\circ-2b)=2a+2b.\\]</p><p>Vinkeln \\(c\\) är en randvinkel som spänner över samma båge \\(PQ\\) som medelpunktsvinkeln \\(PMQ\\). Därför är</p><p>\\[2c=2a+2b,\\]</p><p>och alltså</p><p>\\[\\boxed{c=a+b}.\\]</p>",
+    "familj": "NP-ankare: generellt cirkelgeometriskt bevis",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "geometri",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Använd först att två av trianglarna är likbenta eftersom deras sidor är radier. Koppla sedan medelpunktsvinkeln till randvinkeln.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2022, uppgift 23 (egen renritad figur)",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.967",
+    "kap": 2,
+    "omr": "cirkelgeometri",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>I samma cirkelkonfiguration som i föregående uppgift är \\(a=22^\\circ\\) och \\(b=31^\\circ\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"330\" viewBox=\"0 0 430 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med punkterna P, Q, R och medelpunkten M\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"215\" cy=\"170\" r=\"125\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"107\" y1=\"232\" x2=\"215\" y2=\"45\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"215\" y1=\"45\" x2=\"323\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"107\" y1=\"232\" x2=\"215\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"215\" y1=\"170\" x2=\"323\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"107\" cy=\"232\" r=\"4\" fill=\"#B43123\"/><circle cx=\"323\" cy=\"232\" r=\"4\" fill=\"#B43123\"/><circle cx=\"215\" cy=\"45\" r=\"4\" fill=\"#B43123\"/><circle cx=\"215\" cy=\"170\" r=\"4\" fill=\"#B43123\"/><text x=\"91\" y=\"252\" font-size=\"15\" font-family=\"IBM Plex Mono,monospace\">P</text><text x=\"329\" y=\"252\" font-size=\"15\" font-family=\"IBM Plex Mono,monospace\">Q</text><text x=\"220\" y=\"39\" font-size=\"15\" font-family=\"IBM Plex Mono,monospace\">R</text><text x=\"220\" y=\"166\" font-size=\"15\" font-family=\"IBM Plex Mono,monospace\">M</text><text x=\"132\" y=\"213\" font-size=\"15\" font-style=\"italic\">a</text><text x=\"292\" y=\"213\" font-size=\"15\" font-style=\"italic\">b</text><text x=\"208\" y=\"84\" font-size=\"15\" font-style=\"italic\">c</text></svg></span><p>Bestäm både \\(c\\) och den mindre medelpunktsvinkeln \\(\\angle PMQ\\). Motivera utan att mäta i figuren.</p>",
+    "s": "<p>Som i det generella resonemanget är</p><p>\\[c=a+b=22^\\circ+31^\\circ=53^\\circ.\\]</p><p>Medelpunktsvinkeln som spänner över samma båge är dubbelt så stor som randvinkeln:</p><p>\\[\\angle PMQ=2c=106^\\circ.\\]</p><p><strong>Alltså är \\(c=53^\\circ\\) och \\(\\angle PMQ=106^\\circ\\).</strong></p>",
+    "familj": "Variant: kombinera likbenta trianglar och randvinkelsats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "geometri"
+    ],
+    "ledtrad": "<p>Försök först härleda sambandet mellan \\(a\\), \\(b\\) och medelpunktsvinkeln.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 23",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.968",
+    "kap": 2,
+    "omr": "algebraiska_bevis",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Fiona undersöker två tal där differensen mellan talen är 1. Hon påstår att differensen mellan kvadraten av det större talet och kvadraten av det mindre talet alltid är lika stor som summan av talen.</p><p>Visa att Fionas påstående alltid stämmer.</p>",
+    "s": "<p>Låt det mindre talet vara \\(x\\). Det större är då \\(x+1\\).</p><p>Differensen mellan kvadraterna blir</p><p>\\[(x+1)^2-x^2=x^2+2x+1-x^2=2x+1.\\]</p><p>Summan av talen är</p><p>\\[x+(x+1)=2x+1.\\]</p><p>Uttrycken är identiska för alla \\(x\\), alltså stämmer påståendet alltid.</p>",
+    "familj": "NP-ankare: generellt algebraisk bevisföring",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "algebra"
+    ],
+    "ledtrad": "<p>Representera de två talen med \\(x\\) och \\(x+1\\). Specialfall räcker inte som bevis.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2022, uppgift 13",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.969",
+    "kap": 2,
+    "omr": "algebraiska_bevis",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Två tal skiljer sig med 3. Amir påstår att differensen mellan kvadraten av det större talet och kvadraten av det mindre talet alltid är tre gånger summan av talen.</p><p>Undersök om Amir har rätt och motivera generellt.</p>",
+    "s": "<p>Låt det mindre talet vara \\(x\\), så är det större \\(x+3\\).</p><p>Skillnaden mellan kvadraterna är</p><p>\\[(x+3)^2-x^2=6x+9.\\]</p><p>Tre gånger talens summa är</p><p>\\[3(x+x+3)=3(2x+3)=6x+9.\\]</p><p>Uttrycken är lika för alla \\(x\\). <strong>Amir har alltså rätt.</strong></p>",
+    "familj": "Variant: generalisera differens-av-kvadrater-resonemang",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "resonemang",
+      "algebra",
+      "generalisering"
+    ],
+    "ledtrad": "<p>Skriv talen som \\(x\\) och \\(x+3\\), och jämför två algebraiska uttryck.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 13",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.970",
+    "kap": 2,
+    "omr": "exponentialfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Kaffe med temperaturen 95 °C ställs i ett rum där temperaturen är 20 °C. Tre modeller föreslås, där \\(x\\) är antal minuter och \\(y\\) kaffets temperatur:</p><p>Stina: \\(y=-4{,}4x+95\\)<br>Lisa: \\(y=95\\cdot0{,}949^x\\)<br>Valeria: \\(y=75\\cdot0{,}933^x+20\\)</p><p>Valerias modell stämmer bäst överens med verkligheten.</p><p>a) Hur lång tid tar det enligt Valerias modell innan kaffet är 65 °C?<br>b) Förklara varför varken Stinas eller Lisas modell kan vara rimlig över lång tid.</p>",
+    "s": "<p>a) Sätt \\(y=65\\):</p><p>\\[65=75\\cdot0{,}933^x+20\\Rightarrow0{,}933^x=0{,}6.\\]</p><p>Med logaritmer fås</p><p>\\[x=\\frac{\\lg0{,}6}{\\lg0{,}933}\\approx7{,}37.\\]</p><p>Det tar alltså cirka <strong>7,4 minuter</strong>.</p><p>b) Stinas linjära modell fortsätter nedåt och ger så småningom temperaturer under rumstemperaturen och till och med negativa temperaturer. Lisas modell går mot 0 °C, trots att kaffet i ett rum med 20 °C i stället bör närma sig 20 °C. Valerias modell har just 20 °C som horisontell asymptot.</p>",
+    "familj": "NP-ankare: exponentialmodell med asymptot och modellkritik",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "resonemang",
+      "exponentialfunktioner"
+    ],
+    "ledtrad": "<p>I den rimliga modellen avtar temperaturskillnaden mellan kaffet och rummet exponentiellt.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2014, uppgift 22",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.971",
+    "kap": 2,
+    "omr": "exponentialfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>En metallbit med temperaturen 90 °C läggs i ett rum som håller 18 °C. Efter 6 minuter är temperaturen ungefär 70 °C.</p><p>Tre modeller diskuteras:</p><p>A: \\(y=90-\\frac{10}{3}x\\)<br>B: \\(y=90\\cdot0{,}959^x\\)<br>C: \\(y=18+72\\cdot0{,}947^x\\)</p><p>a) Använd modell C för att bestämma när temperaturen blir 55 °C.<br>b) Förklara varför C är mer rimlig än A och B för stora värden på \\(x\\).</p>",
+    "s": "<p>a) Lös</p><p>\\[55=18+72\\cdot0{,}947^x.\\]</p><p>Då</p><p>\\[0{,}947^x=\\frac{37}{72}\\]</p><p>och</p><p>\\[x=\\frac{\\lg(37/72)}{\\lg0{,}947}\\approx12{,}2.\\]</p><p>b) Modell A fortsätter linjärt nedåt och blir så småningom orimligt låg. Modell B går mot 0 °C. Modell C går däremot mot 18 °C, vilket är rummets temperatur och därför en rimlig långsiktig gräns.</p>",
+    "familj": "Variant: välj fysikaliskt rimlig exponentialmodell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "resonemang",
+      "exponentialfunktioner"
+    ],
+    "ledtrad": "<p>Studera vad varje modell närmar sig när \\(x\\) blir mycket stort.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 22",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.972",
+    "kap": 2,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Vid ett experiment släpptes 1478 kulor genom en Galtonbräda med 16 fack. Fördelningen kan approximeras med en normalfördelning. I fack 6 hamnade 136 kulor, i fack 7 hamnade 223 och i fack 8 hamnade 281.</p><p>Hur många kulor bör ungefär ha hamnat i fack 5?</p>",
+    "s": "<p>I den här Galtonbrädan motsvarar två fack ungefär en standardavvikelse. Området från medelvärdet till en standardavvikelse är cirka 34,1 %:</p><p>\\[0{,}341\\cdot1478\\approx504,\\]</p><p>vilket stämmer med \\(223+281=504\\) i fack 7 och 8.</p><p>Området mellan en och två standardavvikelser på samma sida är cirka 13,6 %:</p><p>\\[0{,}136\\cdot1478\\approx201.\\]</p><p>Därför bör fack 5 och 6 tillsammans innehålla cirka 201 kulor. Alltså</p><p>\\[201-136=65.\\]</p><p><strong>Cirka 65 kulor bör ha hamnat i fack 5.</strong></p>",
+    "familj": "NP-ankare: normalfördelning i Galtonbräda",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 65,
+    "tolerans": 2,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "normalfördelning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Identifiera vilka två fack som motsvarar intervallet från medelvärdet till en standardavvikelse.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2015, uppgift 24",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.973",
+    "kap": 2,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>På en annan Galtonbräda släpps 1600 kulor. Två fack motsvarar ungefär en standardavvikelse. I de två facken närmast mitten på ena sidan hamnar tillsammans ungefär 34,1 % av kulorna. I nästa två fack bör ungefär 13,6 % hamna.</p><p>I det inre av dessa två yttre fack ligger 145 kulor.</p><p>a) Uppskatta hur många kulor som bör ligga i det andra facket.<br>b) Förklara varför resultatet bör tolkas som en uppskattning och inte ett exakt krav.</p>",
+    "s": "<p>De två aktuella facken bör tillsammans innehålla ungefär</p><p>\\[0{,}136\\cdot1600=217{,}6\\approx218\\]</p><p>kulor. Det okända facket bör därför innehålla ungefär</p><p>\\[218-145=73\\]</p><p>kulor.</p><p>Normalfördelningen är en modell för den slumpmässiga fördelningen. Ett faktiskt försök behöver inte ge exakt de teoretiska procentandelarna. <strong>Uppskattningen är alltså cirka 73 kulor.</strong></p>",
+    "familj": "Variant: normalfördelningsband och modellens slumpvariation",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "normalfördelning",
+      "modellering",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Beräkna först hur många kulor 13,6 % av 1600 motsvarar.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 24",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.974",
+    "kap": 2,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Födelsevikten hos flickor som föds efter 40 veckors graviditet kan modelleras som normalfördelad med medelvärdet 3400 g och standardavvikelsen 400 g.</p><p>Vilka två påståenden är korrekta?</p><p>A. Sammanlagt väger ungefär 4,6 % antingen över 4200 g eller under 2600 g.<br>B. Ingen väger mer än 4600 g.<br>C. Ungefär 9,1 % väger mer än 4000 g.<br>D. Antalet som väger mer än 3600 g är ungefär lika stort som antalet som väger mindre än 3200 g.<br>E. Ett stickprov på 50 flickor kommer alltid att vara normalfördelat.</p><p>Välj dessutom ett felaktigt alternativ och förklara varför det är fel.</p>",
+    "s": "<p><strong>A är korrekt:</strong> 2600 och 4200 ligger två standardavvikelser under respektive över medelvärdet. Ungefär 95,4 % ligger inom två standardavvikelser, alltså cirka 4,6 % utanför.</p><p><strong>D är korrekt:</strong> 3600 ligger 200 g över medelvärdet och 3200 ligger 200 g under. Symmetrin i normalfördelningen ger lika stora svansar.</p><p>B är fel eftersom en normalfördelning inte har någon skarp övre gräns. C är fel eftersom 4000 g motsvarar \\(z=1{,}5\\) och den övre svansen är cirka 6,7 %, inte 9,1 %. E är fel eftersom ett enskilt stickprov inte garanteras ha exakt normalfördelad form.</p><p><strong>Svar: A och D.</strong></p>",
+    "familj": "NP-ankare: kvalitativ och numerisk normalfördelning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "normalfördelning",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Översätt varje gräns till antal standardavvikelser från medelvärdet och använd symmetrin.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2014, uppgift 26",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.975",
+    "kap": 2,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>Resultat på ett konditionstest kan approximeras med en normalfördelning med medelvärdet 72 och standardavvikelsen 8.</p><p>Vilka två påståenden är korrekta?</p><p>A. Ungefär 4,6 % har resultat under 56 eller över 88.<br>B. Ingen kan få ett resultat över 96.<br>C. Ungefär 6,7 % har resultat över 84.<br>D. Andelen över 76 är lika stor som andelen under 64.<br>E. Ett slumpmässigt stickprov med 40 personer kommer alltid att vara exakt normalfördelat.</p><p>Motivera minst ett av de felaktiga alternativen.</p>",
+    "s": "<p>56 och 88 ligger \\(2\\sigma\\) från medelvärdet, så <strong>A är korrekt</strong>: ungefär 4,6 % ligger utanför intervallet.</p><p>84 ligger \\(1{,}5\\sigma\\) över medelvärdet. Den övre svansen är ungefär 6,68 %, så <strong>C är korrekt</strong>.</p><p>B är fel eftersom normalfördelningen saknar en skarp maxgräns. D är fel eftersom 76 ligger \\(0{,}5\\sigma\\) över medelvärdet medan 64 ligger \\(1\\sigma\\) under. E är fel eftersom ett stickprov kan avvika från den teoretiska fördelningen.</p><p><strong>Svar: A och C.</strong></p>",
+    "familj": "Variant: tolka z-avstånd och normalfördelningens egenskaper",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "normalfördelning",
+      "resonemang",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Beräkna z-värdet för varje gräns. Var särskilt uppmärksam på symmetri.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 26",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.976",
+    "kap": 2,
+    "omr": "funktionsmodeller",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "3/1/0",
+    "t": "<p>På en flaska rakvatten står 3,4 fl oz = 100 ml och på en flaska schampo står 8,4 fl oz = 250 ml. Benjamin antar ett linjärt samband mellan \\(x\\) fl oz och \\(y\\) ml.</p><p>a) Bestäm ekvationen för linjen genom de två punkterna, exakt på formen \\(y=kx+m\\).<br>b) Använd modellen för att beräkna hur många milliliter 4,0 fl oz motsvarar.<br>c) Ge ett exempel på en volym där Benjamins linjära samband uppenbart inte fungerar och motivera.</p>",
+    "s": "<p>a) Riktningskoefficienten är</p><p>\\[k=\\frac{250-100}{8{,}4-3{,}4}=30.\\]</p><p>Med punkten \\((3{,}4;\\,100)\\):</p><p>\\[100=30\\cdot3{,}4+m\\Rightarrow m=-2.\\]</p><p>Alltså</p><p>\\[y=30x-2.\\]</p><p>b) Vid \\(x=4\\):</p><p>\\[y=30\\cdot4-2=118\\text{ ml}.\\]</p><p>c) Ett tydligt motexempel är \\(x=0\\). Modellen ger \\(y=-2\\) ml, men 0 fl oz måste motsvara 0 ml. Därför kan linjen inte vara en korrekt enhetsomvandling för alla volymer.</p>",
+    "familj": "NP-ankare: linjär modell och kritik av extrapolation/enhetsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "linjära funktioner",
+      "resonemang"
+    ],
+    "ledtrad": "<p>En verklig omvandling mellan två volymenheter måste ge 0 ml när volymen är 0 fl oz.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "NP Ma2c ht 2013, uppgift 17",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.977",
+    "kap": 2,
+    "omr": "funktionsmodeller",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "3/1/0",
+    "t": "<p>Vid två mätningar av ett batteri finns 92 % laddning kvar efter 2 timmar och 76 % efter 6 timmar. En elev anpassar en linjär modell \\(y=kx+m\\), där \\(x\\) är tiden i timmar och \\(y\\) är återstående laddning i procent.</p><p>a) Bestäm modellen.<br>b) Vad förutsäger modellen efter 10 timmar?<br>c) Ge ett exempel på när modellen blir orimlig och förklara varför.</p>",
+    "s": "<p>a) Lutningen är</p><p>\\[k=\\frac{76-92}{6-2}=-4.\\]</p><p>Insättning ger \\(m=100\\), alltså</p><p>\\[y=100-4x.\\]</p><p>b) Efter 10 timmar:</p><p>\\[y=100-40=60\\%.\\]</p><p>c) Efter mer än 25 timmar ger modellen negativ laddning. Till exempel ger \\(x=30\\)</p><p>\\[y=100-120=-20\\%,\\]</p><p>vilket är fysiskt omöjligt. Modellen kan därför bara användas inom ett begränsat tidsintervall.</p>",
+    "familj": "Variant: bygg linjär modell och granska giltighetsområde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "linjära funktioner",
+      "resonemang"
+    ],
+    "ledtrad": "<p>En modell kan passa två mätpunkter och ändå bli orimlig när den extrapoleras långt.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 17",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.978",
+    "kap": 2,
+    "omr": "ekvationssystem_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/3/2",
+    "t": "<p>En plattläggare gör rektangulära uteplatser av lika stora grå och svarta plattor. De svarta plattorna ligger alltid som en en platta bred ram.</p><p>Uteplats A är 6 × 5 plattor och kostar totalt 1422 kr. Uteplats B är 5 × 4 plattor och kostar totalt 1000 kr.</p><p>a) Bestäm priset för en grå respektive en svart platta.<br>b) Låt \\(x\\) och \\(y\\) vara antalet plattor längs uteplatsens sidor. Visa att kostnaden för alla möjliga sådana uteplatser kan skrivas</p><p>\\[K=52x+52y+31{,}80xy-104.\\]</p>",
+    "s": "<p>a) I A finns \\((6-2)(5-2)=12\\) grå och \\(2\\cdot6+2\\cdot5-4=18\\) svarta plattor. I B finns 6 grå och 14 svarta.</p><p>Om priserna är \\(g\\) respektive \\(s\\) fås</p><p>\\[12g+18s=1422,\\qquad6g+14s=1000.\\]</p><p>Systemet ger</p><p>\\[g=31{,}80,\\qquad s=57{,}80.\\]</p><p>b) För en \\(x\\times y\\)-uteplats är antalet grå</p><p>\\[(x-2)(y-2)\\]</p><p>och antalet svarta</p><p>\\[2x+2y-4.\\]</p><p>Kostnaden blir därför</p><p>\\[31{,}80(x-2)(y-2)+57{,}80(2x+2y-4).\\]</p><p>Förenkling ger</p><p>\\[\\boxed{K=52x+52y+31{,}80xy-104}.\\]</p>",
+    "familj": "NP-ankare: ekvationssystem och generellt kombinatoriskt kostnadsuttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "ekvationssystem",
+      "algebra",
+      "generalisering"
+    ],
+    "ledtrad": "<p>Räkna först hur många plattor som ligger i ramen respektive i den inre rektangeln.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "NP Ma2c vt 2014, uppgift 22 (figurens mått utskrivna)",
+    "referensTyp": "original",
+    "manuellKomplettering": true
+  },
+  {
+    "id": "2.979",
+    "kap": 2,
+    "omr": "ekvationssystem_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/3/2",
+    "t": "<p>En mosaik byggs som en rektangel med en två plattor bred svart ram och en grå rektangel inuti. Alla plattor är lika stora.</p><p>En mosaik som är 8 × 7 plattor kostar 468 kr och en mosaik som är 8 × 8 plattor kostar 528 kr.</p><p>a) Bestäm priset för en grå respektive en svart platta.<br>b) Låt \\(x\\) och \\(y\\) vara mosaikens yttermått i antal plattor, där \\(x,y\\ge5\\). Härled ett generellt uttryck för totalkostnaden \\(K(x,y)\\).</p>",
+    "s": "<p>Med en två plattor bred ram har den grå delen måtten \\((x-4)\\times(y-4)\\). Antalet svarta plattor är därför</p><p>\\[xy-(x-4)(y-4)=4x+4y-16.\\]</p><p>För \\(8\\times7\\) finns 12 grå och 44 svarta. För \\(8\\times8\\) finns 16 grå och 48 svarta.</p><p>Om priserna är \\(g\\) och \\(s\\):</p><p>\\[12g+44s=468,\\qquad16g+48s=528.\\]</p><p>Systemet ger \\(g=6\\) kr och \\(s=9\\) kr.</p><p>Därför</p><p>\\[K=6(x-4)(y-4)+9(4x+4y-16).\\]</p><p>Förenkling ger</p><p>\\[\\boxed{K(x,y)=6xy+12x+12y-48}.\\]</p>",
+    "familj": "Variant: två plattor bred ram och generell kostnadsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "modellering",
+      "ekvationssystem",
+      "algebra",
+      "generalisering"
+    ],
+    "ledtrad": "<p>När ramen är två plattor bred minskar den inre rektangelns båda sidmått med 4.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "spel": false,
+    "kalla": "Ny variant av NP Ma2c vt 2014, uppgift 22",
+    "referensTyp": "variant",
+    "manuellKomplettering": true
+  }
 ];

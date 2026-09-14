@@ -375,13 +375,6 @@ a{color:inherit}
 .topppill:hover{color:var(--ink);background:var(--surface2)}
 .topppill .pallmarke{width:16px;height:16px;flex:none;display:block}
 .topppill .topptext{white-space:nowrap}
-.larpill{gap:8px;padding:6px 14px 6px 11px;color:var(--ink2)}
-.larpill:hover{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 40%,var(--hair))}
-.larpill svg{width:16px;height:16px;flex:none;display:block}
-.larpill .larantal{
-  display:inline-grid;place-items:center;min-width:18px;height:18px;padding:0 5px;border-radius:99px;
-  background:var(--warn);color:#fff;font-size:10.5px;font-weight:700;line-height:1;
-}
 .konto{
   width:34px;height:34px;border-radius:50%;overflow:hidden;display:grid;place-items:center;flex:none;
   border:1px solid var(--hair);background:var(--accSoft);color:var(--accInk);
@@ -1923,8 +1916,6 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 @media(max-width:680px){
   .topppill .topptext{display:none}
   .topppill{padding:7px;border-radius:11px}
-  .larpill .larartext{display:none}
-  .larpill{padding:7px;border-radius:11px}
 }
 
 @media(max-width:560px){
@@ -3611,7 +3602,6 @@ function topbar(){
     </button>
     <div class="spacer"></div>
     ${badge}
-    ${larareKnapp()}
     ${toppKnapp()}
     ${kontoKnapp()}
     <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge" aria-label="Byt färgläge">${themeIcon()}</button>
@@ -3638,31 +3628,8 @@ function toppKnapp(){
 const LARARE_KEY="kunskapsgymmet-larare";
 let arLarare=false;
 let felOppnaAntal=null;
-const FLAGG_IKON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" '
-  +'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
-  +'<path d="M4 21V4h9l.6 2H20v9h-6.4l-.6-2H4"/></svg>';
 
-function larareKnapp(){
-  if(!arLarare) return "";
-  const antal=felOppnaAntal;
-  return `<button class="pill larpill" onclick="oppnaFelrapportLogg()"
-      title="Felrapporter från eleverna" aria-label="Felloggen">
-    ${FLAGG_IKON}<span class="larartext">Fellogg</span>${
-      antal?`<span class="larantal" id="larantal">${antal}</span>`:""}
-  </button>`;
-}
-function ritaOmTopbar(){
-  const gammal=document.querySelector(".topbar");
-  if(!gammal) return;
-  const ny=document.createElement("div");
-  ny.innerHTML=topbar();
-  const el=ny.firstElementChild;
-  if(!el) return;
-  el.classList.toggle("scrolled",window.scrollY>6);
-  gammal.replaceWith(el);
-}
 async function kontrolleraLarare(){
-  const forut=arLarare;
   if(!MOLN_PA() || !session){ arLarare=false; }
   else{
     try{
@@ -3673,19 +3640,14 @@ async function kontrolleraLarare(){
     }catch(_){ arLarare=false; }
   }
   try{ arLarare?localStorage.setItem(LARARE_KEY,"1"):localStorage.removeItem(LARARE_KEY); }catch(_){}
-  if(arLarare!==forut) ritaOmTopbar();
   if(arLarare) uppdateraFelAntal();
   return arLarare;
 }
+/* Siffran bredvid Felrapporter i kontomenyn. */
 async function uppdateraFelAntal(){
   if(!arLarare) return;
-  try{
-    const rader=await hamtaFelloggen(false);
-    felOppnaAntal=rader.length;
-    const m=document.getElementById("larantal");
-    if(m) m.textContent=String(felOppnaAntal);
-    else ritaOmTopbar();
-  }catch(_){ /* saknas tabellen ännu syns bara knappen utan siffra */ }
+  try{ felOppnaAntal=(await hamtaFelloggen(false)).length; }
+  catch(_){ /* är tabellen inte installerad ännu visas menyn utan siffra */ }
 }
 
 function kontoKnapp(){
@@ -7041,12 +7003,7 @@ async function ritaFellogg(){
   if(!host) return;
   try{ felloggData=await hamtaFelloggen(felloggVisaKlara); }
   catch(e){ host.innerHTML=`<p class="modal-text">${esc(e.message)}</p>`; return; }
-  if(!felloggVisaKlara){
-    felOppnaAntal=felloggData.length;
-    const m=document.getElementById("larantal");
-    if(m) m.textContent=String(felOppnaAntal);
-    else if(arLarare) ritaOmTopbar();
-  }
+  if(!felloggVisaKlara) felOppnaAntal=felloggData.length;
   if(!felloggData.length){
     host.innerHTML=`<p class="modal-text">Inga öppna felrapporter just nu.</p>`; return;
   }
@@ -8617,7 +8574,6 @@ window.addEventListener("load",async()=>{
   /* Lärarknappen visas direkt från cachen och verifieras sedan mot databasen. */
   if(MOLN_PA() && session){
     try{ arLarare=localStorage.getItem(LARARE_KEY)==="1"; }catch(_){}
-    if(arLarare) ritaOmTopbar();
     kontrolleraLarare();
   }
 

@@ -1,4 +1,4 @@
-/* Pedagogiskt kvalitetsreviderad t.o.m. omgång 26, 2026-09-14
+/* Pedagogiskt kvalitetsreviderad t.o.m. omgång 40, 2026-09-14
  * E/C/A och poäng avser bedömning i Uppgiftslabbet.
  * traningsniva 1–5 avser svårighetsprogression i Kunskapsgymmet; arbetsinsats 1–3 avser omfattning/XP.
  */
@@ -28,7 +28,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Hur många lika stora mellanrum finns mellan 0 och 1? Vad är varje steg värt?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1
   },
   {
     "id": "0.02",
@@ -90,7 +92,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.03",
@@ -127,7 +132,10 @@ window.BANKMA1 = [
       "täljare a",
       "nämnare b"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.04",
@@ -154,7 +162,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Bestäm först värdet av ett steg mellan två intilliggande delstreck.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1
   },
   {
     "id": "0.05",
@@ -180,7 +190,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>För negativa tal betyder ett större avstånd från noll inte att talet är större.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.06",
@@ -206,7 +219,10 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.07",
@@ -233,7 +249,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vilken del av en hel motsvarar ett steg på just den här tallinjen?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1
   },
   {
     "id": "0.08",
@@ -295,7 +313,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.09",
@@ -321,7 +342,10 @@ window.BANKMA1 = [
     "rättSvar": "7/4",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.10",
@@ -348,7 +372,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Hur långt är det mellan 1,00 och 1,10? Dela sträckans talvärde med antalet mellanrum.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1
   },
   {
     "id": "0.11",
@@ -410,7 +436,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.12",
@@ -437,7 +466,10 @@ window.BANKMA1 = [
     "rättSvar": 12,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.13",
@@ -464,7 +496,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Leta först upp noll. Hur mycket ändras talet för varje steg åt vänster?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1
   },
   {
     "id": "0.14",
@@ -526,7 +560,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.15",
@@ -552,7 +589,10 @@ window.BANKMA1 = [
     "rättSvar": "5/8",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.16",
@@ -578,7 +618,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela skillnaden mellan ändpunkternas tal med antalet lika stora mellanrum.</p>"
+    "ledtrad": "<p>Dela skillnaden mellan ändpunkternas tal med antalet lika stora mellanrum.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.17",
@@ -640,7 +683,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.18",
@@ -666,7 +712,10 @@ window.BANKMA1 = [
     "rättSvar": "5/6",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.19",
@@ -692,7 +741,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ta reda på steglängden innan du räknar fram till P.</p>"
+    "ledtrad": "<p>Ta reda på steglängden innan du räknar fram till P.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.20",
@@ -754,7 +806,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.21",
@@ -780,7 +835,10 @@ window.BANKMA1 = [
     "rättSvar": "3/4",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.22",
@@ -806,7 +864,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Blir talen större eller mindre åt höger, även när båda ändpunkterna är negativa?</p>"
+    "ledtrad": "<p>Blir talen större eller mindre åt höger, även när båda ändpunkterna är negativa?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.23",
@@ -868,7 +929,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.24",
@@ -894,7 +958,10 @@ window.BANKMA1 = [
     "rättSvar": "25/42",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.25",
@@ -921,7 +988,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Hitta först noll på tallinjen. Vilka av talen ska ligga till vänster respektive höger om noll?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2
   },
   {
     "id": "0.26",
@@ -983,7 +1052,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.27",
@@ -1009,7 +1081,10 @@ window.BANKMA1 = [
     "rättSvar": 5,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.28",
@@ -1049,7 +1124,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.29",
@@ -1111,7 +1189,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.30",
@@ -1149,7 +1230,10 @@ window.BANKMA1 = [
       "täljare a",
       "nämnare b"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.31",
@@ -1176,7 +1260,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Jämför skalorna på de två tallinjerna. Har ett steg samma värde på båda?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2
   },
   {
     "id": "0.32",
@@ -1238,7 +1324,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.33",
@@ -1264,7 +1353,10 @@ window.BANKMA1 = [
     "rättSvar": 13,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.34",
@@ -1291,7 +1383,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Skriv alla tre talen med två decimaler och bestäm sedan värdet av ett delstreck.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2
   },
   {
     "id": "0.35",
@@ -1353,7 +1447,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.36",
@@ -1379,7 +1476,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.37",
@@ -1407,7 +1507,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Skilj på att ligga på ett delstreck och att ligga mellan två delstreck.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2
   },
   {
     "id": "0.38",
@@ -1433,7 +1535,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Dela upp avståndet vid noll.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.39",
@@ -1459,7 +1564,10 @@ window.BANKMA1 = [
     "rättSvar": "2/3",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.40",
@@ -1485,7 +1593,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Här finns 20 lika stora mellanrum. Vad blir skillnaden mellan ändpunkternas tal delad med 20?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.41",
@@ -1547,7 +1658,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.42",
@@ -1573,7 +1687,10 @@ window.BANKMA1 = [
     "rättSvar": "5/6",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.43",
@@ -1601,7 +1718,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Kan två olika sätt att skriva ett tal motsvara samma punkt?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2
   },
   {
     "id": "0.44",
@@ -1663,7 +1782,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.45",
@@ -1689,7 +1811,10 @@ window.BANKMA1 = [
     "rättSvar": "1/3",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.46",
@@ -1729,7 +1854,10 @@ window.BANKMA1 = [
       "b)",
       "c)"
     ],
-    "ledtrad": "<p>Vad betyder positionen där 7 står? Svara med sju gånger det positionsvärdet.</p>"
+    "ledtrad": "<p>Vad betyder positionen där 7 står? Svara med sju gånger det positionsvärdet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.47",
@@ -1756,7 +1884,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Vilka tecken måste talen ha? Låt det positiva talet bestämma det andra genom summan.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.48",
@@ -1783,7 +1914,10 @@ window.BANKMA1 = [
     "rättSvar": "5/4",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.49",
@@ -1845,7 +1979,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.50",
@@ -1871,7 +2008,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilket tal ligger lika långt från noll på den andra sidan?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.51",
@@ -1897,7 +2037,10 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.52",
@@ -1959,7 +2102,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.53",
@@ -2021,7 +2167,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.54",
@@ -2048,7 +2197,10 @@ window.BANKMA1 = [
     "rättSvar": 6,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.55",
@@ -2074,7 +2226,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Börja räkna decimalplatser direkt efter decimaltecknet.</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.56",
@@ -2101,7 +2256,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Börja med att skilja på −x² och (−x)². Kontrollera sedan var olikheterna blir likheter.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.57",
@@ -2127,7 +2285,10 @@ window.BANKMA1 = [
     "rättSvar": "1/2",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.58",
@@ -2153,7 +2314,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Måste antalet hundradelar vara en enda siffra? Skriv först varje del som ett decimaltal.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.59",
@@ -2180,7 +2344,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Undersök vilka teckenkombinationer som kan uppfylla båda villkoren. Kontrollera att ditt största värde verkligen går att nå.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.60",
@@ -2206,7 +2373,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.61",
@@ -2268,7 +2438,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.62",
@@ -2330,7 +2503,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.63",
@@ -2356,7 +2532,10 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.64",
@@ -2418,7 +2597,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.65",
@@ -2444,7 +2626,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Vilken operation beskriver ordet ”därefter”? Håll den utanför produkten.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.66",
@@ -2470,7 +2655,10 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.67",
@@ -2532,7 +2720,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.68",
@@ -2594,7 +2785,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Vilken motsatt operation gör variabeln ensam i varje likhet?</p>"
+    "ledtrad": "<p>Vilken motsatt operation gör variabeln ensam i varje likhet?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.69",
@@ -2621,7 +2815,10 @@ window.BANKMA1 = [
     "rättSvar": "2/5",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.70",
@@ -2648,7 +2845,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Skriv en term för varje siffra som inte är noll. Ta också med tiotalet i b).</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2
   },
   {
     "id": "0.71",
@@ -2674,7 +2873,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Vilket tal behöver läggas till 9 för att nå −6?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.72",
@@ -2701,7 +2903,10 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.73",
@@ -2763,7 +2968,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.74",
@@ -2790,7 +2998,10 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Dela temperaturökningen i sträckan till noll och sträckan från noll.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "°C"
+    "svarEnhet": "°C",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.75",
@@ -2816,7 +3027,10 @@ window.BANKMA1 = [
     "rättSvar": "23/12",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.76",
@@ -2844,7 +3058,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vad kännetecknar talet mitt emellan två tal? Hur kan du visa att det inte är lika med någon av ändpunkterna?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.77",
@@ -2870,7 +3086,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vad betyder tecknet på det tal som adderas?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.78",
@@ -2896,7 +3115,10 @@ window.BANKMA1 = [
     "rättSvar": "17/8",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.79",
@@ -2936,7 +3158,10 @@ window.BANKMA1 = [
       "b)",
       "c)"
     ],
-    "ledtrad": "<p>Skriv talen med lika många decimaler utan att ändra deras värden.</p>"
+    "ledtrad": "<p>Skriv talen med lika många decimaler utan att ändra deras värden.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.80",
@@ -2963,7 +3188,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Vilket tal måste du lägga till −3 för att komma till 7?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.81",
@@ -2990,7 +3218,10 @@ window.BANKMA1 = [
     "rättSvar": 2,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.82",
@@ -3030,7 +3261,10 @@ window.BANKMA1 = [
       "b)",
       "c)"
     ],
-    "ledtrad": "<p>Jämför först heltalsdelarna och sedan en decimalplats i taget.</p>"
+    "ledtrad": "<p>Jämför först heltalsdelarna och sedan en decimalplats i taget.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.83",
@@ -3056,7 +3290,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Börja med två av faktorerna och undersök sedan vad den tredje gör.</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.84",
@@ -3083,7 +3320,10 @@ window.BANKMA1 = [
     "rättSvar": 4,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.85",
@@ -3110,7 +3350,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Börja med det minsta talet i varje rad. Jämför lika positionsvärden.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2
   },
   {
     "id": "0.86",
@@ -3136,7 +3378,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Jämför division med noll med att dividera talet noll.</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.87",
@@ -3163,7 +3408,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.88",
@@ -3209,7 +3457,10 @@ window.BANKMA1 = [
       "Mitten",
       "Näst minst",
       "Minst"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.89",
@@ -3235,7 +3486,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Kan produkten av två tal som båda är skilda från noll bli noll?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.90",
@@ -3297,7 +3551,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.91",
@@ -3359,7 +3616,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.92",
@@ -3421,7 +3681,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.93",
@@ -3448,7 +3711,10 @@ window.BANKMA1 = [
     "rättSvar": "11/2",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.94",
@@ -3515,7 +3781,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.95",
@@ -3577,7 +3846,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.96",
@@ -3604,7 +3876,10 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.97",
@@ -3667,7 +3942,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.98",
@@ -3694,7 +3972,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför först kvoternas tecken och därefter deras avstånd från 1. Vilket av talen ligger längst från noll?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.99",
@@ -3756,7 +4037,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.100",
@@ -3819,7 +4103,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.101",
@@ -3847,7 +4134,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Jämför de två talens avstånd från noll.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.102",
@@ -3909,7 +4198,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.103",
@@ -3972,7 +4264,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.104",
@@ -3998,7 +4293,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Pröva både två positiva och två negativa faktorer.</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.105",
@@ -4065,7 +4363,10 @@ window.BANKMA1 = [
       "liter",
       "km",
       null
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.106",
@@ -4092,7 +4393,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför värdet före och efter multiplikationen. Ska det bli större, mindre eller oförändrat?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.107",
@@ -4120,7 +4424,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vilken multiplikation skulle kontrollera var och en av divisionerna?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2
   },
   {
     "id": "0.108",
@@ -4182,7 +4488,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.109",
@@ -4222,7 +4531,10 @@ window.BANKMA1 = [
       "b) lika stora?",
       "c) lika stora?"
     ],
-    "ledtrad": "<p>Jämför nollor sist i decimaldelen med nollor direkt efter decimaltecknet.</p>"
+    "ledtrad": "<p>Jämför nollor sist i decimaldelen med nollor direkt efter decimaltecknet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.110",
@@ -4250,7 +4562,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Det är tecknet på det tal som subtraheras som avgör förändringens riktning.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.111",
@@ -4278,7 +4592,10 @@ window.BANKMA1 = [
     "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "liter"
+    "svarEnhet": "liter",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.112",
@@ -4345,7 +4662,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.113",
@@ -4407,7 +4727,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.114",
@@ -4434,7 +4757,10 @@ window.BANKMA1 = [
     "rättSvar": 24,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.115",
@@ -4496,7 +4822,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.116",
@@ -4524,7 +4853,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Multiplicera −3 med hela summan 4 + (−4) och skriv sedan samma produkt som två termer.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.117",
@@ -4552,7 +4883,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.118",
@@ -4578,7 +4911,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Räkna bara siffror som ger strikt mindre. Vad händer om du sätter 4 i rutan?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.119",
@@ -4606,7 +4942,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vilken term måste upphäva (−a)b för att summan ska bli noll?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.120",
@@ -4632,7 +4970,10 @@ window.BANKMA1 = [
     "rättSvar": "1/12",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.121",
@@ -4659,7 +5000,10 @@ window.BANKMA1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Gör fyra rutor: en för ental och tre för decimaler. Vilken siffra bestäms av ett samband?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.122",
@@ -4687,7 +5031,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vad händer med ordningen när båda punkterna speglas i noll?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.123",
@@ -4714,7 +5060,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.124",
@@ -4741,7 +5089,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilken faktor multiplicerar du det minsta talet med för att få det största?</p>"
+    "ledtrad": "<p>Vilken faktor multiplicerar du det minsta talet med för att få det största?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.125",
@@ -4767,7 +5118,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Skriv upp talen i ordning. Ska ändpunkterna räknas med?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.126",
@@ -4804,7 +5158,10 @@ window.BANKMA1 = [
       "ursprunglig täljare",
       "ursprunglig nämnare"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.127",
@@ -4831,7 +5188,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Skriv ändpunkterna med fler decimaler. Finns det då utrymme för fler tal?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2
   },
   {
     "id": "0.128",
@@ -4893,7 +5252,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.129",
@@ -4921,7 +5283,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.130",
@@ -4949,7 +5313,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Skriv båda decimaldelarna som ett antal tusendelar.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2
   },
   {
     "id": "0.131",
@@ -4975,7 +5341,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Pröva vilken operation som gör att −2 gånger svaret blir −6.</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.132",
@@ -5003,7 +5372,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2
   },
   {
     "id": "0.133",
@@ -5030,7 +5401,10 @@ window.BANKMA1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Vilken tiondel måste talet börja med för att ligga i det angivna intervallet?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.134",
@@ -5058,7 +5432,10 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Arbeta baklänges: vilken förändring upphäver en sänkning?</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "°C"
+    "svarEnhet": "°C",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.135",
@@ -5085,7 +5462,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.136",
@@ -5112,7 +5491,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Vad säger vart och ett av produktvillkoren om tecknen? Använd sedan att summan är noll.</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.137",
@@ -5139,7 +5521,10 @@ window.BANKMA1 = [
     "rättSvar": "2/5",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.138",
@@ -5201,7 +5586,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Gör samma operation i båda leden och kontrollera tecknet när du dividerar.</p>"
+    "ledtrad": "<p>Gör samma operation i båda leden och kontrollera tecknet när du dividerar.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.139",
@@ -5229,7 +5617,10 @@ window.BANKMA1 = [
     "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": null
+    "svarEnhet": null,
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.140",
@@ -5256,7 +5647,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Ska lagerförändringar i antal adderas eller multipliceras?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.141",
@@ -5282,7 +5676,10 @@ window.BANKMA1 = [
     "rättSvar": 2,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.142",
@@ -5309,7 +5706,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Följ instruktionernas ordning. Vad är det som ska divideras med 3?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.143",
@@ -5335,7 +5735,10 @@ window.BANKMA1 = [
     "rättSvar": "1/2",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.144",
@@ -5376,7 +5779,10 @@ window.BANKMA1 = [
     "svarEnhet": [
       "°C",
       "°C"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.145",
@@ -5414,7 +5820,10 @@ window.BANKMA1 = [
       "a",
       "b"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.146",
@@ -5441,7 +5850,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.147",
@@ -5482,7 +5893,10 @@ window.BANKMA1 = [
       "b",
       "c"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.148",
@@ -5509,7 +5923,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.149",
@@ -5537,7 +5953,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.150",
@@ -5563,7 +5981,10 @@ window.BANKMA1 = [
     "rättSvar": "7/6",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.151",
@@ -5590,7 +6011,10 @@ window.BANKMA1 = [
     "rättSvar": 17,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.152",
@@ -5618,7 +6042,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2
   },
   {
     "id": "0.153",
@@ -5659,7 +6085,10 @@ window.BANKMA1 = [
       "första täljaren",
       "andra täljaren"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.154",
@@ -5687,7 +6116,10 @@ window.BANKMA1 = [
     "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "liter"
+    "svarEnhet": "liter",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.155",
@@ -5715,7 +6147,10 @@ window.BANKMA1 = [
     "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.156",
@@ -5741,7 +6176,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilken av de två operationerna har högst prioritet?</p>"
+    "ledtrad": "<p>Vilken av de två operationerna har högst prioritet?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.157",
@@ -5767,7 +6205,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det är kvoten som ska dras bort från 24.</p>"
+    "ledtrad": "<p>Det är kvoten som ska dras bort från 24.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.158",
@@ -5793,7 +6234,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vad visar parentesen att du ska beräkna först?</p>"
+    "ledtrad": "<p>Vad visar parentesen att du ska beräkna först?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.159",
@@ -5819,7 +6263,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hela summan ska delas i fyra lika stora delar.</p>"
+    "ledtrad": "<p>Hela summan ska delas i fyra lika stora delar.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.160",
@@ -5845,7 +6292,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilka två delberäkningar måste bli färdiga före additionen?</p>"
+    "ledtrad": "<p>Vilka två delberäkningar måste bli färdiga före additionen?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.161",
@@ -5871,7 +6321,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med parentesen. Ska 7 också multipliceras med 2?</p>"
+    "ledtrad": "<p>Börja med parentesen. Ska 7 också multipliceras med 2?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.162",
@@ -5897,7 +6350,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vad ska divideras med 2, och när läggs 4 till?</p>"
+    "ledtrad": "<p>Vad ska divideras med 2, och när läggs 4 till?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.163",
@@ -5923,7 +6379,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Behåll subtraktionstecknet framför produkten.</p>"
+    "ledtrad": "<p>Behåll subtraktionstecknet framför produkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.164",
@@ -5949,7 +6408,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Produkten och kvoten är två separata delar före subtraktionen.</p>"
+    "ledtrad": "<p>Produkten och kvoten är två separata delar före subtraktionen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.165",
@@ -5975,7 +6437,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ingår det första talet 4 i det som ska divideras?</p>"
+    "ledtrad": "<p>Ingår det första talet 4 i det som ska divideras?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.166",
@@ -6002,7 +6467,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Gäller rabatten varje paket eller hela köpet?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.167",
@@ -6028,7 +6496,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilken del av beräkningen hör ihop enligt orden ”med summan”?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.168",
@@ -6055,7 +6526,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Måste värdet av parentesen vara känt för att beräkna 3 · 2?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.169",
@@ -6081,7 +6555,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Vad behöver vara färdigt innan subtraktionen kan utföras?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.170",
@@ -6108,7 +6585,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Gå systematiskt igenom vilka sammanhängande delar parentesen kan omsluta. Flera placeringar kan ge samma värde.</p>"
+    "ledtrad": "<p>Gå systematiskt igenom vilka sammanhängande delar parentesen kan omsluta. Flera placeringar kan ge samma värde.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.171",
@@ -6135,7 +6615,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skilj på ett tal plus en produkt och ett tal gånger en summa. Räkna samma värde bara en gång.</p>"
+    "ledtrad": "<p>Skilj på ett tal plus en produkt och ett tal gånger en summa. Räkna samma värde bara en gång.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.172",
@@ -6162,7 +6645,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Förenkla uttrycken var för sig. Hur förändras ett positivt tal vid division med ett tal under respektive över 1?</p>"
+    "ledtrad": "<p>Förenkla uttrycken var för sig. Hur förändras ett positivt tal vid division med ett tal under respektive över 1?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.173",
@@ -6189,7 +6675,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den största faktorn och den största differensen konkurrerar om samma tal. Jämför flera möjliga val.</p>"
+    "ledtrad": "<p>Den största faktorn och den största differensen konkurrerar om samma tal. Jämför flera möjliga val.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.174",
@@ -6216,7 +6705,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv uttrycken med bråkstreck så att det syns vad som ingår i varje nämnare. Använd att det bara finns fem möjliga värden på b.</p>"
+    "ledtrad": "<p>Skriv uttrycken med bråkstreck så att det syns vad som ingår i varje nämnare. Använd att det bara finns fem möjliga värden på b.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.175",
@@ -6242,7 +6734,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilken del divideras med 3? Potensen är en separat term.</p>"
+    "ledtrad": "<p>Vilken del divideras med 3? Potensen är en separat term.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.176",
@@ -6268,7 +6763,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilka två heltal ligger talet mellan? Vilket ligger närmast?</p>"
+    "ledtrad": "<p>Vilka två heltal ligger talet mellan? Vilket ligger närmast?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.177",
@@ -6294,7 +6792,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför avståndet till heltalet nedanför med avståndet till heltalet ovanför.</p>"
+    "ledtrad": "<p>Jämför avståndet till heltalet nedanför med avståndet till heltalet ovanför.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.178",
@@ -6320,7 +6821,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilken siffra avgör avrundningen när du behåller en decimal?</p>"
+    "ledtrad": "<p>Vilken siffra avgör avrundningen när du behåller en decimal?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.179",
@@ -6346,7 +6850,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vad händer när en nia på tiondelsplatsen ska ökas med ett?</p>"
+    "ledtrad": "<p>Vad händer när en nia på tiondelsplatsen ska ökas med ett?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.180",
@@ -6372,7 +6879,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Markera hundradelsplatsen. Vilken siffra kommer direkt efter den?</p>"
+    "ledtrad": "<p>Markera hundradelsplatsen. Vilken siffra kommer direkt efter den?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.181",
@@ -6398,7 +6908,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna decimalplatserna från decimaltecknet. Titta sedan en plats längre åt höger.</p>"
+    "ledtrad": "<p>Räkna decimalplatserna från decimaltecknet. Titta sedan en plats längre åt höger.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.182",
@@ -6424,7 +6937,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilka två jämna hundratal ligger på var sin sida om talet?</p>"
+    "ledtrad": "<p>Vilka två jämna hundratal ligger på var sin sida om talet?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.183",
@@ -6450,7 +6966,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Var ligger mittpunkten mellan 8 000 och 9 000?</p>"
+    "ledtrad": "<p>Var ligger mittpunkten mellan 8 000 och 9 000?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.184",
@@ -6476,7 +6995,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Närmaste tiotal är en multipel av tio. Vilka ligger närmast 149,6?</p>"
+    "ledtrad": "<p>Närmaste tiotal är en multipel av tio. Vilka ligger närmast 149,6?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.185",
@@ -6502,7 +7024,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför avstånden till 0,99 och 1,00.</p>"
+    "ledtrad": "<p>Jämför avstånden till 0,99 och 1,00.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.186",
@@ -6529,7 +7054,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Vilken siffra i ursprungstalet avgör avrundningen till en decimal?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.187",
@@ -6555,7 +7083,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Var ligger mittpunkten mellan 239 och 240?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.188",
@@ -6582,7 +7113,10 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vid vilket antal meter börjar man i stället avrunda till 7 500 m?</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.189",
@@ -6608,7 +7142,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Talet ligger mitt emellan två hundradelar. Använd regeln att 5 avrundas uppåt för positiva tal.</p>"
+    "ledtrad": "<p>Talet ligger mitt emellan två hundradelar. Använd regeln att 5 avrundas uppåt för positiva tal.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.190",
@@ -6634,7 +7171,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilka mittpunkter skiljer avrundning till 98 000, 99 000 och 100 000 åt?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.191",
@@ -6662,7 +7202,10 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Skriv båda talen med fyra decimaler innan du subtraherar.</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.192",
@@ -6688,7 +7231,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Jämför avrundning till heltal med avrundning till tiotal.</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.193",
@@ -6716,7 +7262,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Hur långt från det ursprungliga värdet kan en enda avrundning hamna? Kan två avrundningsfel förstärka varandra?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.194",
@@ -6742,7 +7290,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Vilka tiotal ligger närmast 49 respektive 21?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.195",
@@ -6768,7 +7319,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Avrunda varje term innan du adderar.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.196",
@@ -6794,7 +7348,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Vilket hundratal ligger närmast vart och ett av talen?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.197",
@@ -6822,7 +7379,10 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Hur beräknas totalkostnaden när du vet antal och styckpris?</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.198",
@@ -6848,7 +7408,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Avrunda båda termerna till hundratal, inte till tusental.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.199",
@@ -6874,7 +7437,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Behåll divisionen när du byter till de avrundade talen.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.200",
@@ -6900,7 +7466,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilka lättberäknade tal ligger nära de två faktorerna?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.201",
@@ -6926,7 +7495,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Kontrollera hur nära ersättningstalen ligger de ursprungliga talen.</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.202",
@@ -6954,7 +7526,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Kan du välja en täljare som är lätt att dela med ett tal nära 61?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2
   },
   {
     "id": "0.203",
@@ -6981,7 +7555,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "ledtrad": "<p>Vilken avrundningsriktning gör att du säkert inte underskattar kostnaden?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.204",
@@ -7008,7 +7585,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför faktorerna med 20 och 5.</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.205",
@@ -7035,7 +7615,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>En ökning av det tal som subtraheras påverkar differensen åt vilket håll?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.206",
@@ -7061,7 +7644,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Tolka 0,05 som fem hundradelar.</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.207",
@@ -7087,7 +7673,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Jämför med division med 1. Vad händer om divisorn minskar lite?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.208",
@@ -7115,7 +7704,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Ändra en faktor i taget från 250 · 40 till den ursprungliga produkten. Hur mycket ändras produkten i varje steg?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.209",
@@ -7143,7 +7734,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vilket enkelt samband kan du använda när den ena faktorn är nära 2?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2
   },
   {
     "id": "0.210",
@@ -7171,7 +7764,10 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vilket belopp ska dras bort, och vilka ska adderas?</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.211",
@@ -7199,7 +7795,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Jämför avrundningsfelet dels med beloppens storlek, dels med storleken på deras skillnad.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.212",
@@ -7226,7 +7824,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.213",
@@ -7253,7 +7854,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.214",
@@ -7280,7 +7884,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.215",
@@ -7307,7 +7914,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "km"
+    "svarEnhet": "km",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.216",
@@ -7334,7 +7944,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "g"
+    "svarEnhet": "g",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.217",
@@ -7361,7 +7974,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "kg"
+    "svarEnhet": "kg",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.218",
@@ -7388,7 +8004,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "ml"
+    "svarEnhet": "ml",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.219",
@@ -7415,7 +8034,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "l"
+    "svarEnhet": "l",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.220",
@@ -7442,7 +8064,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.221",
@@ -7469,7 +8094,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "h"
+    "svarEnhet": "h",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.222",
@@ -7496,7 +8124,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "mm"
+    "svarEnhet": "mm",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.223",
@@ -7523,7 +8154,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.224",
@@ -7550,7 +8184,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "g"
+    "svarEnhet": "g",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.225",
@@ -7577,7 +8214,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "g"
+    "svarEnhet": "g",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.226",
@@ -7604,7 +8244,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "l"
+    "svarEnhet": "l",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.227",
@@ -7631,7 +8274,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m³"
+    "svarEnhet": "m³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.228",
@@ -7658,7 +8304,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "cm²"
+    "svarEnhet": "cm²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.229",
@@ -7685,7 +8334,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m²"
+    "svarEnhet": "m²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.230",
@@ -7712,7 +8364,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "h"
+    "svarEnhet": "h",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.231",
@@ -7739,7 +8394,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.232",
@@ -7776,7 +8434,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "talfaktor a",
       "exponent n"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.233",
@@ -7813,7 +8474,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "talfaktor a",
       "exponent n"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.234",
@@ -7850,7 +8514,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "talfaktor a",
       "exponent n"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.235",
@@ -7887,7 +8554,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "talfaktor a",
       "exponent n"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.236",
@@ -7913,7 +8583,10 @@ window.BANKMA1 = [
     "rättSvar": 60200,
     "tolerans": 6.02e-8,
     "självrättning": true,
-    "svarFormat": "decimalform"
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.237",
@@ -7939,7 +8612,10 @@ window.BANKMA1 = [
     "rättSvar": 0.0035,
     "tolerans": 1e-13,
     "självrättning": true,
-    "svarFormat": "decimalform"
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.238",
@@ -7965,7 +8641,10 @@ window.BANKMA1 = [
     "rättSvar": 1200000,
     "tolerans": 0.0000012,
     "självrättning": true,
-    "svarFormat": "decimalform"
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.239",
@@ -7991,7 +8670,10 @@ window.BANKMA1 = [
     "rättSvar": 0.000084,
     "tolerans": 1e-13,
     "självrättning": true,
-    "svarFormat": "decimalform"
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.240",
@@ -8018,7 +8700,10 @@ window.BANKMA1 = [
     "tolerans": 3.2e-9,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "W"
+    "svarEnhet": "W",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.241",
@@ -8045,7 +8730,10 @@ window.BANKMA1 = [
     "tolerans": 4.5e-13,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "A"
+    "svarEnhet": "A",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.242",
@@ -8072,7 +8760,10 @@ window.BANKMA1 = [
     "tolerans": 7.5e-11,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "kW"
+    "svarEnhet": "kW",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.243",
@@ -8099,7 +8790,10 @@ window.BANKMA1 = [
     "tolerans": 1e-13,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.244",
@@ -8126,7 +8820,10 @@ window.BANKMA1 = [
     "tolerans": 1e-13,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.245",
@@ -8153,7 +8850,10 @@ window.BANKMA1 = [
     "tolerans": 3.6e-10,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "V"
+    "svarEnhet": "V",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.246",
@@ -8180,7 +8880,10 @@ window.BANKMA1 = [
     "tolerans": 0.0000052,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "Hz"
+    "svarEnhet": "Hz",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.247",
@@ -8207,7 +8910,10 @@ window.BANKMA1 = [
     "tolerans": 7.5e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "kW"
+    "svarEnhet": "kW",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.248",
@@ -8234,7 +8940,10 @@ window.BANKMA1 = [
     "tolerans": 4.5e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "mA"
+    "svarEnhet": "mA",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.249",
@@ -8261,7 +8970,10 @@ window.BANKMA1 = [
     "tolerans": 2.8e-9,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "MHz"
+    "svarEnhet": "MHz",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.250",
@@ -8288,7 +9000,10 @@ window.BANKMA1 = [
     "tolerans": 1.5e-11,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "mm"
+    "svarEnhet": "mm",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.251",
@@ -8315,7 +9030,10 @@ window.BANKMA1 = [
     "tolerans": 6.4e-13,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "mg"
+    "svarEnhet": "mg",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.252",
@@ -8341,7 +9059,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Subtraherar du 3 eller produkten 3 · 4 från 18?</p>"
+    "ledtrad": "<p>Subtraherar du 3 eller produkten 3 · 4 från 18?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.253",
@@ -8367,7 +9088,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Division och multiplikation har samma prioritet. Vilken kommer först från vänster?</p>"
+    "ledtrad": "<p>Division och multiplikation har samma prioritet. Vilken kommer först från vänster?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.254",
@@ -8393,7 +9117,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Addition går inte före subtraktion. Läs från vänster.</p>"
+    "ledtrad": "<p>Addition går inte före subtraktion. Läs från vänster.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.255",
@@ -8419,7 +9146,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilken del är upphöjd till 2?</p>"
+    "ledtrad": "<p>Vilken del är upphöjd till 2?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.256",
@@ -8446,7 +9176,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Vilket uttryck återstår direkt efter att parentesen har beräknats?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.257",
@@ -8472,7 +9205,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vad ska hela täljaren divideras med?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.258",
@@ -8498,7 +9234,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Division och multiplikation beräknas från vänster före additionen.</p>"
+    "ledtrad": "<p>Division och multiplikation beräknas från vänster före additionen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.259",
@@ -8524,7 +9263,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilka ord visar vad som ska upphöjas till 2?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.260",
@@ -8550,7 +9292,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vad är det 64 ska divideras med?</p>"
+    "ledtrad": "<p>Vad är det 64 ska divideras med?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.261",
@@ -8576,7 +9321,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Decimaler ändrar inte prioriteringsreglerna.</p>"
+    "ledtrad": "<p>Decimaler ändrar inte prioriteringsreglerna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.262",
@@ -8602,7 +9350,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur mycket återstår inne i parentesen?</p>"
+    "ledtrad": "<p>Hur mycket återstår inne i parentesen?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.263",
@@ -8628,7 +9379,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bråkstrecket grupperar hela täljaren och hela nämnaren.</p>"
+    "ledtrad": "<p>Bråkstrecket grupperar hela täljaren och hela nämnaren.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.264",
@@ -8654,7 +9408,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilken produkt skulle behöva dras bort från 20?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.265",
@@ -8680,7 +9437,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med den innersta parentesen och arbeta utåt.</p>"
+    "ledtrad": "<p>Börja med den innersta parentesen och arbeta utåt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.266",
@@ -8706,7 +9466,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Allt innanför den yttre parentesen är divisor.</p>"
+    "ledtrad": "<p>Allt innanför den yttre parentesen är divisor.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.267",
@@ -8732,7 +9495,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilka tal omfattas av multiplikationen i vart och ett av uttrycken?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.268",
@@ -8758,7 +9524,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vad är basen och exponenten i uttrycket?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.269",
@@ -8785,7 +9554,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Ändrar den insatta parentesen vilka tal som multipliceras?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.270",
@@ -8811,7 +9583,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilken del måste bli klar innan multiplikationen med 2?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.271",
@@ -8838,7 +9613,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Hur stor måste produkten vara för att summan ska bli 19?</p>"
+    "ledtrad": "<p>Hur stor måste produkten vara för att summan ska bli 19?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.272",
@@ -8865,7 +9643,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilken operation upphäver den sista multiplikationen?</p>"
+    "ledtrad": "<p>Vilken operation upphäver den sista multiplikationen?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.273",
@@ -8891,7 +9672,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Låt divisionen och potensen bli färdiga före addition och subtraktion.</p>"
+    "ledtrad": "<p>Låt divisionen och potensen bli färdiga före addition och subtraktion.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.274",
@@ -8919,7 +9703,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vilken del skulle behöva bli 4 innan den sista ettan läggs till?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2
   },
   {
     "id": "0.275",
@@ -8947,7 +9733,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Skriv ut parentesen och jämför de termer som är olika.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.276",
@@ -8973,7 +9761,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Potensen tillhör divisorn, inte hela kvoten.</p>"
+    "ledtrad": "<p>Potensen tillhör divisorn, inte hela kvoten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.277",
@@ -8988,8 +9779,8 @@ window.BANKMA1 = [
     "miniräknare": false,
     "tolerans": null,
     "självrättning": false,
-    "niva": "E",
-    "poang": "2/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Kan du sätta in ett enda par parenteser i 2 + 3 · 4 så att värdet blir 18? Behåll talens och operationernas ordning. Motivera genom att undersöka de parentesplaceringar som kan ändra räkneordningen.</p>",
     "s": "<p>Nej. Utan ändrad räkneordning är värdet 2 + 12 = 14. Om additionen grupperas blir (2 + 3) · 4 = 20. Parentes runt 3 · 4, hela uttrycket eller ett enskilt tal ändrar inte värdet.</p><p>De enda möjliga värdena är därför 14 och 20. <strong>18 kan inte fås</strong> med ett enda par parenteser enligt villkoren.</p>",
     "familj": "Beräkna uttryck med parenteser",
@@ -9001,7 +9792,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vilka olika grupper av intilliggande tal kan parentesen omsluta?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2
   },
   {
     "id": "0.278",
@@ -9027,7 +9820,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vad syftar ordet ”resultatet” på?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.279",
@@ -9053,7 +9849,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilken del ska vara bas i potensen?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.280",
@@ -9079,7 +9878,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Är det 6 eller produkten 6 · 2 som är divisor?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.281",
@@ -9105,7 +9907,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilket värde behöver du känna till för att beräkna potensen?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.282",
@@ -9131,7 +9936,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilken parentes ligger längst in?</p>"
+    "ledtrad": "<p>Vilken parentes ligger längst in?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.283",
@@ -9157,7 +9965,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vad ingår i täljaren, och vad står utanför bråket?</p>"
+    "ledtrad": "<p>Vad ingår i täljaren, och vad står utanför bråket?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.284",
@@ -9183,7 +9994,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna basens potens och parentesens värde före multiplikationen.</p>"
+    "ledtrad": "<p>Beräkna basens potens och parentesens värde före multiplikationen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.285",
@@ -9211,7 +10025,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Kan 16 skrivas som en produkt eller som en summa som gör huvudräkningen lättare?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.286",
@@ -9239,7 +10055,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vad händer med varje term i parentesen när den multipliceras med 2?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2
   },
   {
     "id": "0.287",
@@ -9265,7 +10083,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Ska multiplikation alltid gå före division, eller har de samma prioritet?</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.288",
@@ -9293,7 +10114,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vad ska ingå i nämnaren i de två fallen?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2
   },
   {
     "id": "0.289",
@@ -9321,7 +10144,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vilket tecken har termen 2 i originalet och efter parentesändringen?</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2
   },
   {
     "id": "0.290",
@@ -9347,7 +10172,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Bestäm summan och produkten var för sig. Vilken multiplikation kan kontrollera divisionen?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.291",
@@ -9375,7 +10203,9 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Förenkla uttrycken var för sig och använd sedan att c är positivt.</p>",
     "manuellKomplettering": true,
-    "spel": false
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.292",
@@ -9401,7 +10231,10 @@ window.BANKMA1 = [
     "rättSvar": 1,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.293",
@@ -9427,7 +10260,10 @@ window.BANKMA1 = [
     "rättSvar": "1/2",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.294",
@@ -9453,7 +10289,10 @@ window.BANKMA1 = [
     "rättSvar": "2/5",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.295",
@@ -9479,7 +10318,10 @@ window.BANKMA1 = [
     "rättSvar": 1,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.296",
@@ -9505,7 +10347,10 @@ window.BANKMA1 = [
     "rättSvar": "1/2",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.297",
@@ -9531,7 +10376,10 @@ window.BANKMA1 = [
     "rättSvar": "11/12",
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.298",
@@ -9557,7 +10405,10 @@ window.BANKMA1 = [
     "rättSvar": 1,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.299",
@@ -9583,7 +10434,10 @@ window.BANKMA1 = [
     "rättSvar": 1,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.300",
@@ -9620,7 +10474,10 @@ window.BANKMA1 = [
       "täljare a",
       "nämnare b"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.301",
@@ -9647,7 +10504,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.302",
@@ -9673,7 +10533,10 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "tolerans": 1e-9,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.303",
@@ -9710,7 +10573,10 @@ window.BANKMA1 = [
       "täljare a",
       "nämnare b"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.304",
@@ -9747,7 +10613,10 @@ window.BANKMA1 = [
       "täljare a",
       "nämnare b"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.305",
@@ -9774,7 +10643,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.306",
@@ -9800,7 +10672,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.307",
@@ -9826,7 +10701,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.308",
@@ -9867,7 +10745,10 @@ window.BANKMA1 = [
       "mitten",
       "störst"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.309",
@@ -9894,7 +10775,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.310",
@@ -9920,7 +10804,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.311",
@@ -9948,7 +10835,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m²"
+    "svarEnhet": "m²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.312",
@@ -9975,7 +10865,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m²"
+    "svarEnhet": "m²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.313",
@@ -10001,7 +10894,10 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.314",
@@ -10028,7 +10924,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.315",
@@ -10056,7 +10955,10 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Hur mycket av ökningen behövs för att nå noll?</p>",
-    "svarEnhet": "°C"
+    "svarEnhet": "°C",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.316",
@@ -10083,7 +10985,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv våningarna i ordning, även entréplanet.</p>"
+    "ledtrad": "<p>Skriv våningarna i ordning, även entréplanet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.317",
@@ -10111,7 +11016,10 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Hur mycket av insättningen går åt till att nå saldot noll?</p>",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.318",
@@ -10139,7 +11047,10 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Nivån ökar när dykaren stiger. Blir hon kvar under havsytan?</p>",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.319",
@@ -10167,7 +11078,10 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Två sänkningar ska båda minska temperaturen.</p>",
-    "svarEnhet": "°C"
+    "svarEnhet": "°C",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.320",
@@ -10193,7 +11107,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv potensen som en produkt av två lika faktorer.</p>"
+    "ledtrad": "<p>Skriv potensen som en produkt av två lika faktorer.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.321",
@@ -10220,7 +11137,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Finns det någon parentes som gör −5 till bas?</p>"
+    "ledtrad": "<p>Finns det någon parentes som gör −5 till bas?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.322",
@@ -10247,7 +11167,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Jämför vilken bas och exponent de tre uttrycken har.</p>",
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.323",
@@ -10273,7 +11196,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilket tecken får produkten av fyra negativa faktorer?</p>"
+    "ledtrad": "<p>Vilket tecken får produkten av fyra negativa faktorer?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.324",
@@ -10300,7 +11226,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Minustecknet framför den första potensen ska finnas kvar efter att potensen beräknats.</p>"
+    "ledtrad": "<p>Minustecknet framför den första potensen ska finnas kvar efter att potensen beräknats.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.325",
@@ -10327,7 +11256,10 @@ window.BANKMA1 = [
     "rättSvar": 7,
     "tolerans": 7e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.326",
@@ -10365,7 +11297,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "talfaktor a",
       "exponent n"
-    ]
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.327",
@@ -10392,7 +11327,10 @@ window.BANKMA1 = [
     "rättSvar": 15,
     "tolerans": 1.5e-11,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.328",
@@ -10419,7 +11357,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.329",
@@ -10445,7 +11386,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.330",
@@ -10471,7 +11415,10 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.331",
@@ -10497,7 +11444,10 @@ window.BANKMA1 = [
     "rättSvar": 0.0026,
     "tolerans": 1e-13,
     "självrättning": true,
-    "svarFormat": "decimalform"
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.332",
@@ -10524,7 +11474,10 @@ window.BANKMA1 = [
     "rättSvar": 9,
     "tolerans": 9e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.333",
@@ -10550,7 +11503,10 @@ window.BANKMA1 = [
     "rättSvar": 0.0000725,
     "tolerans": 1e-13,
     "självrättning": true,
-    "svarFormat": "decimalform"
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.334",
@@ -10576,7 +11532,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.401",
@@ -10602,7 +11561,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Jämför hundradelarna när tiondelarna är lika.</p>"
+    "ledtrad": "<p>Jämför hundradelarna när tiondelarna är lika.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.402",
@@ -10628,7 +11590,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Nollor inne i decimaldelen håller plats åt andra siffror. Skriv talen med tre decimaler.</p>"
+    "ledtrad": "<p>Nollor inne i decimaldelen håller plats åt andra siffror. Skriv talen med tre decimaler.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.403",
@@ -10654,7 +11619,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skriv även intervallets ändpunkter med tre decimaler.</p>"
+    "ledtrad": "<p>Skriv även intervallets ändpunkter med tre decimaler.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.404",
@@ -10680,7 +11648,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Pröva ett påstående i taget med lika många decimaler på båda sidor.</p>"
+    "ledtrad": "<p>Pröva ett påstående i taget med lika många decimaler på båda sidor.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.405",
@@ -10707,7 +11678,10 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Vad är avståndet mellan start- och sluttemperaturen?</p>",
-    "svarEnhet": "°C"
+    "svarEnhet": "°C",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.406",
@@ -10735,7 +11709,10 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Vilken operation upphäver insättningen?</p>",
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.407",
@@ -10761,7 +11738,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna med våning 0 när hissen passerar entrén.</p>"
+    "ledtrad": "<p>Räkna med våning 0 när hissen passerar entrén.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.408",
@@ -10788,7 +11768,10 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Att stiga ger en positiv förändring, men nivån kan fortfarande vara negativ.</p>",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.409",
@@ -10815,7 +11798,10 @@ window.BANKMA1 = [
     "rättSvar": 6,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.410",
@@ -10842,7 +11828,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "s"
+    "svarEnhet": "s",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.411",
@@ -10870,7 +11859,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2
   },
   {
     "id": "0.412",
@@ -10897,7 +11888,10 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.413",
@@ -10934,7 +11928,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "talfaktor a",
       "exponent n"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.414",
@@ -10971,7 +11968,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "talfaktor a",
       "exponent n"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.415",
@@ -10997,7 +11997,10 @@ window.BANKMA1 = [
     "rättSvar": 340000,
     "tolerans": 3.4e-7,
     "självrättning": true,
-    "svarFormat": "decimalform"
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.416",
@@ -11023,7 +12026,10 @@ window.BANKMA1 = [
     "rättSvar": 0.0072,
     "tolerans": 1e-13,
     "självrättning": true,
-    "svarFormat": "decimalform"
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.417",
@@ -11050,7 +12056,10 @@ window.BANKMA1 = [
     "rättSvar": 350,
     "tolerans": 3.5e-10,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.418",
@@ -11077,7 +12086,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skilj på basen −2 och ett minustecken utanför en potens.</p>"
+    "ledtrad": "<p>Skilj på basen −2 och ett minustecken utanför en potens.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.419",
@@ -11103,7 +12115,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv talen med tre decimaler och jämför dem från vänster.</p>"
+    "ledtrad": "<p>Skriv talen med tre decimaler och jämför dem från vänster.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.420",
@@ -11129,7 +12144,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vilken siffra står på tiondelsplatsen i vart och ett av talen?</p>"
+    "ledtrad": "<p>Vilken siffra står på tiondelsplatsen i vart och ett av talen?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.421",
@@ -11155,7 +12173,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det minsta talet ligger längst till vänster på tallinjen. Hur fungerar det för negativa tal?</p>"
+    "ledtrad": "<p>Det minsta talet ligger längst till vänster på tallinjen. Hur fungerar det för negativa tal?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.422",
@@ -11182,7 +12203,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm först vilka två tal som är ytterligheter. Subtrahera sedan med decimaltecknen under varandra.</p>"
+    "ledtrad": "<p>Bestäm först vilka två tal som är ytterligheter. Subtrahera sedan med decimaltecknen under varandra.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.01",
@@ -11208,7 +12232,10 @@ window.BANKMA1 = [
     "rättSvar": 27,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.02",
@@ -11270,7 +12297,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.03",
@@ -11308,7 +12338,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.04",
@@ -11336,7 +12368,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.000001,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.05",
@@ -11364,7 +12398,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "månader"
+    "svarEnhet": "månader",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.06",
@@ -11391,7 +12427,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.07",
@@ -11418,7 +12455,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.08",
@@ -11445,7 +12483,10 @@ window.BANKMA1 = [
     "rättSvar": "3n+3",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.09",
@@ -11507,7 +12548,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.10",
@@ -11561,7 +12605,10 @@ window.BANKMA1 = [
       "cm",
       "cm",
       "cm"
-    ]
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.11",
@@ -11589,7 +12636,10 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.12",
@@ -11616,7 +12666,10 @@ window.BANKMA1 = [
     "rättSvar": 48,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.13",
@@ -11643,7 +12696,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.14",
@@ -11681,7 +12737,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "a) förenklat E(x)",
       "b) x"
-    ]
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.15",
@@ -11708,7 +12767,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.16",
@@ -11755,7 +12817,9 @@ window.BANKMA1 = [
       null,
       "cm²",
       "cm²"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.17",
@@ -11817,7 +12881,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.18",
@@ -11846,7 +12913,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "cm²"
+    "svarEnhet": "cm²",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.19",
@@ -11873,7 +12942,10 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.20",
@@ -11915,7 +12987,9 @@ window.BANKMA1 = [
       "förenklat E(a)",
       "a",
       "gemensamt värde"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.21",
@@ -11943,7 +13017,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm²"
+    "svarEnhet": "cm²",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.22",
@@ -11971,7 +13048,9 @@ window.BANKMA1 = [
     "rättSvar": 5,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.23",
@@ -12009,7 +13088,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "k",
       "konstant värde"
-    ]
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.24",
@@ -12047,7 +13129,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.25",
@@ -12085,7 +13169,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.26",
@@ -12114,7 +13200,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.27",
@@ -12141,7 +13229,9 @@ window.BANKMA1 = [
     "rättSvar": "4x-3",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.28",
@@ -12170,7 +13260,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.29",
@@ -12208,7 +13299,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.30",
@@ -12247,7 +13340,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.31",
@@ -12285,7 +13380,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.32",
@@ -12332,7 +13429,9 @@ window.BANKMA1 = [
       "cm",
       "cm",
       "cm²"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.33",
@@ -12360,7 +13459,9 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.34",
@@ -12389,7 +13490,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "liter"
+    "svarEnhet": "liter",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.35",
@@ -12417,7 +13520,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.36",
@@ -12464,7 +13569,9 @@ window.BANKMA1 = [
       "kr",
       "kr",
       "kr"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.37",
@@ -12492,7 +13599,9 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.38",
@@ -12520,7 +13629,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.39",
@@ -12549,7 +13660,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°C"
+    "svarEnhet": "°C",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.40",
@@ -12576,7 +13689,9 @@ window.BANKMA1 = [
     "rättSvar": "-18/11",
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.41",
@@ -12603,7 +13718,9 @@ window.BANKMA1 = [
     "rättSvar": 9,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.43",
@@ -12630,7 +13747,9 @@ window.BANKMA1 = [
     "rättSvar": 9.5,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.44",
@@ -12658,7 +13777,9 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.45",
@@ -12705,7 +13826,9 @@ window.BANKMA1 = [
       "cm",
       "cm",
       "cm²"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.46",
@@ -12732,7 +13855,9 @@ window.BANKMA1 = [
     "rättSvar": 8,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.47",
@@ -12774,7 +13899,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       "cm",
       "cm"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.48",
@@ -12802,7 +13929,9 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.49",
@@ -12830,7 +13959,9 @@ window.BANKMA1 = [
     "rättSvar": 1,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.50",
@@ -12857,7 +13988,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 3
   },
   {
     "id": "1.51",
@@ -12884,7 +14016,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.52",
@@ -12911,7 +14044,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 3
   },
   {
     "id": "1.53",
@@ -12938,7 +14072,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.54",
@@ -12965,7 +14100,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.55",
@@ -12992,7 +14128,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.56",
@@ -13019,8 +14156,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.57",
@@ -13048,7 +14186,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1
   },
   {
     "id": "1.58",
@@ -13077,7 +14216,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "åk"
+    "svarEnhet": "åk",
+    "traningsniva": 2
   },
   {
     "id": "1.59",
@@ -13118,7 +14258,8 @@ window.BANKMA1 = [
       "minsta talet",
       "mellersta talet",
       "största talet"
-    ]
+    ],
+    "traningsniva": 2
   },
   {
     "id": "1.60",
@@ -13157,7 +14298,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "minsta poäng",
       "största poäng"
-    ]
+    ],
+    "traningsniva": 3
   },
   {
     "id": "1.61",
@@ -13184,7 +14326,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.62",
@@ -13211,7 +14354,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.63",
@@ -13238,7 +14382,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.64",
@@ -13266,7 +14411,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 4
   },
   {
     "id": "1.65",
@@ -13293,7 +14439,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.66",
@@ -13321,7 +14468,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3
   },
   {
     "id": "1.67",
@@ -13348,7 +14496,10 @@ window.BANKMA1 = [
     "rättSvar": "2y",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.68",
@@ -13374,7 +14525,10 @@ window.BANKMA1 = [
     "rättSvar": 30,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.69",
@@ -13412,7 +14566,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "(x − y)²",
       "|x − y|"
-    ]
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "1.70",
@@ -13440,7 +14597,10 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.71",
@@ -13468,7 +14628,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "1.72",
@@ -13495,7 +14657,10 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.73",
@@ -13522,9 +14687,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 2
+    "arbetsinsats": 2,
+    "traningsniva": 5
   },
   {
     "id": "1.74",
@@ -13551,7 +14717,10 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.75",
@@ -13579,7 +14748,10 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.76",
@@ -13641,7 +14813,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.77",
@@ -13680,7 +14855,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "p",
       "konstant värde"
-    ]
+    ],
+    "traningsniva": 5,
+    "spel": true
   },
   {
     "id": "1.78",
@@ -13732,7 +14909,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.79",
@@ -13761,7 +14941,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "cm²"
+    "svarEnhet": "cm²",
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.80",
@@ -13788,7 +14970,10 @@ window.BANKMA1 = [
     "rättSvar": 11,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.81",
@@ -13815,7 +15000,10 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.82",
@@ -13842,7 +15030,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.83",
@@ -13881,7 +15072,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.84",
@@ -13943,7 +15136,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.85",
@@ -13970,7 +15166,9 @@ window.BANKMA1 = [
     "rättSvar": "7.5x-20",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.86",
@@ -13998,7 +15196,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "1.87",
@@ -14026,7 +15226,9 @@ window.BANKMA1 = [
     "rättSvar": "2a+3",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.88",
@@ -14054,7 +15256,9 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.89",
@@ -14083,7 +15287,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3
   },
   {
     "id": "1.90",
@@ -14121,7 +15326,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.91",
@@ -14150,7 +15357,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.92",
@@ -14178,7 +15387,9 @@ window.BANKMA1 = [
     "rättSvar": 4,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.93",
@@ -14206,8 +15417,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.94",
@@ -14245,7 +15457,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.95",
@@ -14273,8 +15487,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.96",
@@ -14302,7 +15517,9 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.97",
@@ -14330,8 +15547,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.98",
@@ -14359,7 +15577,9 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.99",
@@ -14388,7 +15608,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.000001,
     "svarFormat": "numeriskt",
-    "svarEnhet": "%"
+    "svarEnhet": "%",
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.100",
@@ -14416,7 +15638,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.101",
@@ -14444,7 +15668,9 @@ window.BANKMA1 = [
     "rättSvar": -40,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.102",
@@ -14473,7 +15699,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.103",
@@ -14519,7 +15747,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       "cm",
       "%"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.104",
@@ -14547,7 +15777,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.105",
@@ -14590,7 +15822,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       "km/h",
       "km/h"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.106",
@@ -14618,7 +15852,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.107",
@@ -14646,7 +15882,9 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.108",
@@ -14685,7 +15923,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "vuxenbiljetter",
       "ungdomsbiljetter"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.109",
@@ -14712,7 +15952,9 @@ window.BANKMA1 = [
     "rättSvar": 17,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.110",
@@ -14740,7 +15982,9 @@ window.BANKMA1 = [
     "rättSvar": 14,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.111",
@@ -14767,7 +16011,9 @@ window.BANKMA1 = [
     "rättSvar": 10,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.112",
@@ -14794,7 +16040,9 @@ window.BANKMA1 = [
     "rättSvar": 9,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.113",
@@ -14822,7 +16070,9 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.114",
@@ -14851,7 +16101,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "km"
+    "svarEnhet": "km",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.115",
@@ -14878,7 +16130,9 @@ window.BANKMA1 = [
     "rättSvar": -5,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.116",
@@ -14906,7 +16160,9 @@ window.BANKMA1 = [
     "rättSvar": "10/3",
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.117",
@@ -14929,12 +16185,14 @@ window.BANKMA1 = [
       "problemlösning",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "intervall",
+    "rättSvar": "(-5,5]",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "svarFormat": "intervall"
   },
   {
     "id": "1.118",
@@ -14972,7 +16230,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "mindre talet",
       "större talet"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "id": "1.119",
@@ -14999,8 +16258,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.120",
@@ -15027,7 +16287,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1
   },
   {
     "id": "1.121",
@@ -15055,7 +16316,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1
   },
   {
     "id": "1.122",
@@ -15083,7 +16345,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "m/min"
+    "svarEnhet": "m/min",
+    "traningsniva": 1
   },
   {
     "id": "1.123",
@@ -15111,7 +16374,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3
   },
   {
     "id": "1.124",
@@ -15138,7 +16402,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.125",
@@ -15166,7 +16431,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1
   },
   {
     "id": "1.126",
@@ -15194,7 +16460,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1
   },
   {
     "id": "1.127",
@@ -15221,7 +16488,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.128",
@@ -15249,7 +16517,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 4
   },
   {
     "id": "1.129",
@@ -15276,7 +16545,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.130",
@@ -15304,7 +16574,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 4
   },
   {
     "id": "1.131",
@@ -15331,7 +16602,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.132",
@@ -15370,7 +16642,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "minsta antal",
       "största antal"
-    ]
+    ],
+    "traningsniva": 4
   },
   {
     "id": "1.133",
@@ -15397,7 +16670,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.134",
@@ -15426,7 +16700,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kg"
+    "svarEnhet": "kg",
+    "traningsniva": 2
   },
   {
     "id": "1.135",
@@ -15454,7 +16729,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.136",
@@ -15481,8 +16757,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.137",
@@ -15509,7 +16786,10 @@ window.BANKMA1 = [
     "rättSvar": "2a+5",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.138",
@@ -15536,7 +16816,10 @@ window.BANKMA1 = [
     "rättSvar": 29,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.139",
@@ -15563,7 +16846,10 @@ window.BANKMA1 = [
     "rättSvar": 7,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.140",
@@ -15589,7 +16875,10 @@ window.BANKMA1 = [
     "rättSvar": 17,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.141",
@@ -15616,9 +16905,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 3
+    "arbetsinsats": 3,
+    "traningsniva": 5
   },
   {
     "id": "1.142",
@@ -15646,7 +16936,10 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.143",
@@ -15687,7 +16980,10 @@ window.BANKMA1 = [
       "a",
       "b",
       "förenklat E(x)"
-    ]
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "1.144",
@@ -15739,7 +17035,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.145",
@@ -15765,7 +17064,10 @@ window.BANKMA1 = [
     "rättSvar": "n-3",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.146",
@@ -15827,7 +17129,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.147",
@@ -15866,7 +17171,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "p",
       "q"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.148",
@@ -15893,7 +17200,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.149",
@@ -15922,7 +17232,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.150",
@@ -15950,7 +17261,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm²"
+    "svarEnhet": "cm²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.151",
@@ -15992,7 +17306,9 @@ window.BANKMA1 = [
       "förenklat A",
       "förenklat B",
       "x"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.152",
@@ -16019,7 +17335,9 @@ window.BANKMA1 = [
     "rättSvar": "5x^2+8x",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.153",
@@ -16046,7 +17364,9 @@ window.BANKMA1 = [
     "rättSvar": "2x^2-7x-4",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.154",
@@ -16074,7 +17394,9 @@ window.BANKMA1 = [
     "rättSvar": 1,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.155",
@@ -16101,9 +17423,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 3
+    "arbetsinsats": 3,
+    "traningsniva": 5
   },
   {
     "id": "1.156",
@@ -16165,7 +17488,10 @@ window.BANKMA1 = [
         "niva": "E",
         "poang": "1/0/0"
       }
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.157",
@@ -16193,7 +17519,9 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.158",
@@ -16221,7 +17549,9 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.159",
@@ -16249,7 +17579,9 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.160",
@@ -16287,7 +17619,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.161",
@@ -16315,8 +17649,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.162",
@@ -16355,7 +17690,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.163",
@@ -16383,8 +17720,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.165",
@@ -16422,7 +17760,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.166",
@@ -16451,7 +17791,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.167",
@@ -16479,8 +17820,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.168",
@@ -16508,7 +17850,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "Ω"
+    "svarEnhet": "Ω",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.169",
@@ -16536,7 +17880,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "km"
+    "svarEnhet": "km",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.170",
@@ -16564,7 +17910,9 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.171",
@@ -16593,7 +17941,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.172",
@@ -16621,7 +17970,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kg"
+    "svarEnhet": "kg",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.173",
@@ -16650,7 +18001,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.174",
@@ -16678,7 +18030,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 2
   },
   {
     "id": "1.175",
@@ -16707,7 +18060,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.176",
@@ -16735,7 +18089,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°F"
+    "svarEnhet": "°F",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.177",
@@ -16762,7 +18118,9 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.178",
@@ -16791,7 +18149,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.179",
@@ -16818,7 +18177,9 @@ window.BANKMA1 = [
     "rättSvar": 5,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.180",
@@ -16845,7 +18206,9 @@ window.BANKMA1 = [
     "rättSvar": "23/11",
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "bråk"
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.181",
@@ -16872,7 +18235,9 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.182",
@@ -16900,8 +18265,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.183",
@@ -16947,7 +18313,9 @@ window.BANKMA1 = [
       "kr",
       "kr",
       "kr"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.184",
@@ -16975,7 +18343,9 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.185",
@@ -17002,7 +18372,9 @@ window.BANKMA1 = [
     "rättSvar": 1,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.186",
@@ -17041,7 +18413,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "traningsniva": 5,
+    "spel": true
   },
   {
     "id": "1.187",
@@ -17069,7 +18443,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "1.188",
@@ -17096,7 +18472,10 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.189",
@@ -17123,7 +18502,9 @@ window.BANKMA1 = [
     "rättSvar": 11.5,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.190",
@@ -17151,7 +18532,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "1.191",
@@ -17177,7 +18560,10 @@ window.BANKMA1 = [
     "rättSvar": "b+5",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.192",
@@ -17204,7 +18590,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.193",
@@ -17232,8 +18619,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.194",
@@ -17261,7 +18649,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "m/min"
+    "svarEnhet": "m/min",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.195",
@@ -17299,7 +18689,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.196",
@@ -17327,7 +18719,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "1.197",
@@ -17378,7 +18772,9 @@ window.BANKMA1 = [
       null,
       "min",
       null
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.198",
@@ -17406,7 +18802,10 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.199",
@@ -17433,7 +18832,10 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.200",
@@ -17461,7 +18863,9 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.201",
@@ -17488,9 +18892,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 3
+    "arbetsinsats": 3,
+    "traningsniva": 5
   },
   {
     "id": "1.202",
@@ -17517,7 +18922,9 @@ window.BANKMA1 = [
     "rättSvar": 2,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.203",
@@ -17544,7 +18951,10 @@ window.BANKMA1 = [
     "rättSvar": -3,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.204",
@@ -17572,8 +18982,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.205",
@@ -17600,7 +19011,10 @@ window.BANKMA1 = [
     "rättSvar": 18,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.206",
@@ -17628,7 +19042,9 @@ window.BANKMA1 = [
     "rättSvar": 160,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.207",
@@ -17655,7 +19071,9 @@ window.BANKMA1 = [
     "rättSvar": 6,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.208",
@@ -17683,7 +19101,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "J"
+    "svarEnhet": "J",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.209",
@@ -17711,7 +19131,9 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.210",
@@ -17738,9 +19160,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 3
+    "arbetsinsats": 3,
+    "traningsniva": 5
   },
   {
     "id": "1.211",
@@ -17767,8 +19190,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.212",
@@ -17811,7 +19235,8 @@ window.BANKMA1 = [
     "svarEnhet": [
       "kr",
       "kr"
-    ]
+    ],
+    "traningsniva": 4
   },
   {
     "id": "1.213",
@@ -17838,7 +19263,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.214",
@@ -17867,7 +19295,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "biljetter"
+    "svarEnhet": "biljetter",
+    "traningsniva": 3
   },
   {
     "id": "1.215",
@@ -17895,8 +19324,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.216",
@@ -17924,7 +19354,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "1.217",
@@ -17962,7 +19394,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.218",
@@ -17990,7 +19424,9 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.219",
@@ -18018,8 +19454,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.220",
@@ -18048,7 +19485,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "°F"
+    "svarEnhet": "°F",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.221",
@@ -18076,7 +19515,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2
   },
   {
     "id": "1.222",
@@ -18103,7 +19543,10 @@ window.BANKMA1 = [
     "rättSvar": -9,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.223",
@@ -18130,7 +19573,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.224",
@@ -18159,7 +19605,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.225",
@@ -18185,7 +19633,10 @@ window.BANKMA1 = [
     "rättSvar": "2a+8b-6",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.226",
@@ -18212,7 +19663,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.227",
@@ -18240,7 +19692,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.228",
@@ -18267,7 +19720,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1
   },
   {
     "id": "1.229",
@@ -18295,7 +19749,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3
   },
   {
     "id": "1.230",
@@ -18322,7 +19777,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.231",
@@ -18349,7 +19805,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.232",
@@ -18387,7 +19844,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "mindre heltalet",
       "större heltalet"
-    ]
+    ],
+    "traningsniva": 2
   },
   {
     "id": "1.233",
@@ -18415,7 +19873,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3
   },
   {
     "id": "1.234",
@@ -18443,7 +19902,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2
   },
   {
     "id": "1.235",
@@ -18470,7 +19930,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 3
   },
   {
     "id": "1.236",
@@ -18497,7 +19958,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.237",
@@ -18524,7 +19986,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.238",
@@ -18551,7 +20014,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.239",
@@ -18578,7 +20042,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.240",
@@ -18605,7 +20070,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.241",
@@ -18632,7 +20098,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.242",
@@ -18659,7 +20126,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.243",
@@ -18686,7 +20154,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.244",
@@ -18713,7 +20182,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.245",
@@ -18741,7 +20211,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.246",
@@ -18769,7 +20240,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.247",
@@ -18797,7 +20269,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3
   },
   {
     "id": "1.248",
@@ -18823,7 +20296,10 @@ window.BANKMA1 = [
     "rättSvar": 2,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.249",
@@ -18849,7 +20325,10 @@ window.BANKMA1 = [
     "rättSvar": -1,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.250",
@@ -18875,7 +20354,10 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.251",
@@ -18901,7 +20383,10 @@ window.BANKMA1 = [
     "rättSvar": -38,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.252",
@@ -18927,7 +20412,10 @@ window.BANKMA1 = [
     "rättSvar": -6,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.253",
@@ -18954,7 +20442,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.254",
@@ -18981,7 +20472,10 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.255",
@@ -19009,7 +20503,10 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.256",
@@ -19036,7 +20533,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.257",
@@ -19062,7 +20562,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.258",
@@ -19091,7 +20594,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3
   },
   {
     "id": "1.259",
@@ -19129,7 +20633,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.260",
@@ -19167,7 +20673,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.261",
@@ -19205,7 +20713,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.262",
@@ -19244,7 +20754,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.263",
@@ -19282,7 +20794,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.264",
@@ -19310,7 +20824,9 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.265",
@@ -19338,7 +20854,9 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.266",
@@ -19365,7 +20883,9 @@ window.BANKMA1 = [
     "rättSvar": 12,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.267",
@@ -19393,7 +20913,9 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.268",
@@ -19420,7 +20942,9 @@ window.BANKMA1 = [
     "rättSvar": 28,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.269",
@@ -19447,7 +20971,9 @@ window.BANKMA1 = [
     "rättSvar": 18,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.270",
@@ -19474,7 +21000,9 @@ window.BANKMA1 = [
     "rättSvar": 9,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.271",
@@ -19501,7 +21029,9 @@ window.BANKMA1 = [
     "rättSvar": 30,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.272",
@@ -19528,7 +21058,9 @@ window.BANKMA1 = [
     "rättSvar": 8.6,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.273",
@@ -19556,7 +21088,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.274",
@@ -19584,7 +21118,9 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.275",
@@ -19612,7 +21148,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.276",
@@ -19640,7 +21178,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.277",
@@ -19669,7 +21209,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.278",
@@ -19696,7 +21237,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.279",
@@ -19723,7 +21265,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.280",
@@ -19750,7 +21293,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 2
   },
   {
     "id": "1.281",
@@ -19773,12 +21317,14 @@ window.BANKMA1 = [
       "problemlösning",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "intervall",
+    "rättSvar": "(-2,3]",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3,
+    "svarFormat": "intervall"
   },
   {
     "id": "1.282",
@@ -19805,7 +21351,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 3
   },
   {
     "id": "1.283",
@@ -19834,7 +21381,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "timmar"
+    "svarEnhet": "timmar",
+    "traningsniva": 2
   },
   {
     "id": "1.284",
@@ -19863,7 +21411,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "grupper"
+    "svarEnhet": "grupper",
+    "traningsniva": 2
   },
   {
     "id": "1.285",
@@ -19892,7 +21441,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "varor"
+    "svarEnhet": "varor",
+    "traningsniva": 2
   },
   {
     "id": "1.286",
@@ -19921,7 +21471,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "timmar"
+    "svarEnhet": "timmar",
+    "traningsniva": 3
   },
   {
     "id": "1.287",
@@ -19950,7 +21501,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "spel": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "biljetter"
+    "svarEnhet": "biljetter",
+    "traningsniva": 2
   },
   {
     "id": "1.401",
@@ -19978,7 +21530,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.402",
@@ -20006,7 +21561,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "1.403",
@@ -20034,7 +21591,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.404",
@@ -20061,7 +21621,10 @@ window.BANKMA1 = [
     "rättSvar": "3x-12",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.405",
@@ -20089,7 +21652,9 @@ window.BANKMA1 = [
     "rättSvar": 6,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.406",
@@ -20128,7 +21693,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.407",
@@ -20166,7 +21733,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.408",
@@ -20193,7 +21762,9 @@ window.BANKMA1 = [
     "rättSvar": "x^2-2x-15",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.409",
@@ -20220,7 +21791,9 @@ window.BANKMA1 = [
     "rättSvar": "4x^2-4x+1",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.410",
@@ -20246,7 +21819,10 @@ window.BANKMA1 = [
     "rättSvar": "3x-15",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.411",
@@ -20272,7 +21848,10 @@ window.BANKMA1 = [
     "rättSvar": "-8x-12",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.412",
@@ -20298,7 +21877,10 @@ window.BANKMA1 = [
     "rättSvar": "15a-10",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.413",
@@ -20335,7 +21917,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "a",
       "b"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "1.414",
@@ -20373,7 +21958,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.415",
@@ -20412,7 +21999,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.416",
@@ -20450,7 +22039,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.417",
@@ -20489,7 +22080,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.418",
@@ -20516,7 +22109,9 @@ window.BANKMA1 = [
     "rättSvar": -3,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.419",
@@ -20543,7 +22138,9 @@ window.BANKMA1 = [
     "rättSvar": "2x^2+7x-15",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.420",
@@ -20570,7 +22167,9 @@ window.BANKMA1 = [
     "rättSvar": "9a^2+12a+4",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.421",
@@ -20597,7 +22196,9 @@ window.BANKMA1 = [
     "rättSvar": 2499,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.430",
@@ -20625,7 +22226,10 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.431",
@@ -20652,7 +22256,10 @@ window.BANKMA1 = [
     "rättSvar": "2x+10",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.432",
@@ -20679,9 +22286,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 3
+    "arbetsinsats": 3,
+    "traningsniva": 5
   },
   {
     "id": "1.433",
@@ -20708,9 +22316,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 3
+    "arbetsinsats": 3,
+    "traningsniva": 5
   },
   {
     "id": "1.434",
@@ -20749,7 +22358,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.435",
@@ -20777,7 +22388,9 @@ window.BANKMA1 = [
     "rättSvar": 2,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.436",
@@ -20805,8 +22418,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.437",
@@ -20851,7 +22465,9 @@ window.BANKMA1 = [
       "parentesinnehåll",
       "minsta lösning",
       "största lösning"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.438",
@@ -20880,7 +22496,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3
   },
   {
     "id": "1.439",
@@ -20908,7 +22525,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 2
   },
   {
     "id": "1.440",
@@ -20936,7 +22554,9 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.441",
@@ -20964,8 +22584,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.442",
@@ -20994,7 +22615,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.443",
@@ -21021,7 +22643,9 @@ window.BANKMA1 = [
     "rättSvar": 22.2,
     "självrättning": true,
     "tolerans": 0.000001,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.444",
@@ -21049,7 +22673,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.000001,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.445",
@@ -21077,7 +22703,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "W"
+    "svarEnhet": "W",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.446",
@@ -21105,7 +22733,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.000001,
     "svarFormat": "numeriskt",
-    "svarEnhet": "liter per 100 km"
+    "svarEnhet": "liter per 100 km",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.447",
@@ -21132,8 +22762,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.448",
@@ -21156,12 +22787,14 @@ window.BANKMA1 = [
       "problemlösning",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "intervall",
+    "rättSvar": "0<=k<=3",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 5,
+    "svarFormat": "intervall"
   },
   {
     "id": "1.449",
@@ -21189,7 +22822,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.450",
@@ -21216,8 +22850,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.451",
@@ -21244,7 +22879,10 @@ window.BANKMA1 = [
     "rättSvar": 5,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.452",
@@ -21270,7 +22908,10 @@ window.BANKMA1 = [
     "rättSvar": "8a-12",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.453",
@@ -21297,7 +22938,9 @@ window.BANKMA1 = [
     "rättSvar": "2x^2+8x",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.454",
@@ -21324,7 +22967,9 @@ window.BANKMA1 = [
     "rättSvar": "5x^2",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.455",
@@ -21351,7 +22996,9 @@ window.BANKMA1 = [
     "rättSvar": "13-6x",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.456",
@@ -21378,7 +23025,9 @@ window.BANKMA1 = [
     "rättSvar": "-x+4",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.457",
@@ -21405,7 +23054,9 @@ window.BANKMA1 = [
     "rättSvar": "-x^2+2x+6",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.458",
@@ -21444,7 +23095,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "a (det mindre talet)",
       "b (det större talet)"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.459",
@@ -21471,7 +23124,9 @@ window.BANKMA1 = [
     "rättSvar": "4x^2-12x+9",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.460",
@@ -21499,8 +23154,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.461",
@@ -21526,7 +23182,10 @@ window.BANKMA1 = [
     "rättSvar": 33,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.462",
@@ -21553,7 +23212,10 @@ window.BANKMA1 = [
     "rättSvar": 4,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.463",
@@ -21581,7 +23243,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "1.464",
@@ -21608,7 +23272,9 @@ window.BANKMA1 = [
     "rättSvar": 11,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.465",
@@ -21636,7 +23302,9 @@ window.BANKMA1 = [
     "rättSvar": 23,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.466",
@@ -21665,7 +23333,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "km"
+    "svarEnhet": "km",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.467",
@@ -21692,7 +23362,9 @@ window.BANKMA1 = [
     "rättSvar": 12,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.468",
@@ -21720,8 +23392,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.469",
@@ -21764,7 +23437,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       null,
       "min"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.470",
@@ -21807,7 +23482,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       "år",
       "år"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.471",
@@ -21836,7 +23513,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.472",
@@ -21865,7 +23544,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.473",
@@ -21893,7 +23574,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.474",
@@ -21922,7 +23605,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.000001,
     "svarFormat": "numeriskt",
-    "svarEnhet": "h"
+    "svarEnhet": "h",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.475",
@@ -21950,7 +23635,9 @@ window.BANKMA1 = [
     "rättSvar": 1,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.476",
@@ -21978,8 +23665,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.477",
@@ -22018,7 +23706,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "mindre talet",
       "större talet"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "1.478",
@@ -22061,7 +23751,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       "km/h",
       "km/h"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.479",
@@ -22090,7 +23782,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "1.900",
@@ -22116,7 +23810,10 @@ window.BANKMA1 = [
     "rättSvar": "8x",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.901",
@@ -22142,7 +23839,10 @@ window.BANKMA1 = [
     "rättSvar": "5a",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.902",
@@ -22168,7 +23868,10 @@ window.BANKMA1 = [
     "rättSvar": "6x+4",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.903",
@@ -22194,7 +23897,10 @@ window.BANKMA1 = [
     "rättSvar": "8y",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.904",
@@ -22220,7 +23926,10 @@ window.BANKMA1 = [
     "rättSvar": 10,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.905",
@@ -22247,7 +23956,10 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.906",
@@ -22273,7 +23985,10 @@ window.BANKMA1 = [
     "rättSvar": 13,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.907",
@@ -22300,7 +24015,10 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.908",
@@ -22328,7 +24046,10 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "förenklat_polynom",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.909",
@@ -22355,7 +24076,10 @@ window.BANKMA1 = [
     "rättSvar": "x+2",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.910",
@@ -22382,7 +24106,9 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.911",
@@ -22420,7 +24146,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.912",
@@ -22458,7 +24186,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.913",
@@ -22496,7 +24226,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.914",
@@ -22523,7 +24255,9 @@ window.BANKMA1 = [
     "rättSvar": 4,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.915",
@@ -22551,7 +24285,9 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.916",
@@ -22589,7 +24325,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.917",
@@ -22627,7 +24365,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.918",
@@ -22665,7 +24405,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "utbruten faktor",
       "innehåll i parentesen"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.919",
@@ -22692,7 +24434,9 @@ window.BANKMA1 = [
     "rättSvar": "2x",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.920",
@@ -22720,7 +24464,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm²"
+    "svarEnhet": "cm²",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.921",
@@ -22748,7 +24494,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.922",
@@ -22776,7 +24524,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "km"
+    "svarEnhet": "km",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.923",
@@ -22804,7 +24554,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm²"
+    "svarEnhet": "cm²",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.924",
@@ -22832,7 +24584,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.925",
@@ -22860,7 +24614,9 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.926",
@@ -22888,7 +24644,9 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.927",
@@ -22915,7 +24673,9 @@ window.BANKMA1 = [
     "rättSvar": "y-3",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.928",
@@ -22943,7 +24703,9 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.929",
@@ -22971,7 +24733,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.930",
@@ -22999,7 +24763,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1
   },
   {
     "id": "1.931",
@@ -23026,7 +24791,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1
   },
   {
     "id": "1.932",
@@ -23064,7 +24830,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "mindre talet",
       "större talet"
-    ]
+    ],
+    "traningsniva": 2
   },
   {
     "id": "1.933",
@@ -23092,7 +24859,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1
   },
   {
     "id": "1.934",
@@ -23119,7 +24887,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1
   },
   {
     "id": "1.935",
@@ -23146,7 +24915,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.936",
@@ -23173,7 +24943,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.937",
@@ -23200,7 +24971,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1
   },
   {
     "id": "1.938",
@@ -23228,7 +25000,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1
   },
   {
     "id": "1.939",
@@ -23256,7 +25029,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1
   },
   {
     "id": "1.940",
@@ -23283,7 +25057,9 @@ window.BANKMA1 = [
     "rättSvar": 5,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.941",
@@ -23310,7 +25086,9 @@ window.BANKMA1 = [
     "rättSvar": 13,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.942",
@@ -23337,7 +25115,9 @@ window.BANKMA1 = [
     "rättSvar": 7,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.943",
@@ -23364,7 +25144,9 @@ window.BANKMA1 = [
     "rättSvar": 12,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.944",
@@ -23391,7 +25173,9 @@ window.BANKMA1 = [
     "rättSvar": 4,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.945",
@@ -23418,7 +25202,9 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.946",
@@ -23446,7 +25232,9 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.947",
@@ -23474,7 +25262,9 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.948",
@@ -23502,7 +25292,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.949",
@@ -23530,7 +25322,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.950",
@@ -23558,7 +25352,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1
   },
   {
     "id": "1.951",
@@ -23585,8 +25380,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "1.952",
@@ -23614,7 +25410,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 3
   },
   {
     "id": "1.953",
@@ -23641,7 +25438,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.954",
@@ -23668,7 +25466,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.955",
@@ -23695,7 +25494,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.956",
@@ -23723,7 +25523,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3
   },
   {
     "id": "1.957",
@@ -23750,7 +25551,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.958",
@@ -23778,7 +25580,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "1.959",
@@ -23805,7 +25608,8 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "intervall"
+    "svarFormat": "intervall",
+    "traningsniva": 1
   },
   {
     "id": "1.960",
@@ -23831,7 +25635,10 @@ window.BANKMA1 = [
     "rättSvar": "2x+6",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.961",
@@ -23858,7 +25665,9 @@ window.BANKMA1 = [
     "rättSvar": "5x+5",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.962",
@@ -23885,7 +25694,9 @@ window.BANKMA1 = [
     "rättSvar": "6x+12",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.963",
@@ -23912,7 +25723,9 @@ window.BANKMA1 = [
     "rättSvar": "4x",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.964",
@@ -23938,7 +25751,10 @@ window.BANKMA1 = [
     "rättSvar": "-x-2",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.965",
@@ -23964,7 +25780,10 @@ window.BANKMA1 = [
     "rättSvar": "-2x-2",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "1.966",
@@ -23992,7 +25811,9 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.967",
@@ -24019,7 +25840,9 @@ window.BANKMA1 = [
     "rättSvar": 7,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "1.968",
@@ -24046,7 +25869,9 @@ window.BANKMA1 = [
     "rättSvar": "6x",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "1.969",
@@ -24073,7 +25898,9 @@ window.BANKMA1 = [
     "rättSvar": "x^2+3x+2",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "förenklat_polynom"
+    "svarFormat": "förenklat_polynom",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "2.01",
@@ -24225,7 +26052,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "mindre x",
       "större x"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "2.06",
@@ -24369,10 +26198,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Arean av en cirkel kan skrivas \\(A=\\pi r^2\\). Förklara varför detta är en potensfunktion av \\(r\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p><p>Variabeln \\(r\\) upphöjs till den konstanta exponenten 2 och multipliceras med konstanten \\(\\pi\\).</p>",
+    "s": "<p>Formeln har formen \\(A=C r^a\\) med konstanten \\(C=\\pi\\) och den fasta exponenten \\(a=2\\). Variabeln \\(r\\) står alltså i basen och upphöjs till ett bestämt tal. Därför är \\(A=\\pi r^2\\) en potensfunktion av \\(r\\).</p>",
     "familj": "Använda potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -24384,7 +26213,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "manuellKomplettering": true,
@@ -24718,7 +26547,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Pris per viktenhet är kvoten \\(y/x\\). Vilken geometrisk storhet får samma kvot för linjen från origo till en punkt?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "manuellKomplettering": true
@@ -25079,7 +26908,9 @@ window.BANKMA1 = [
       "minsta x",
       "mellersta x",
       "största x"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "2.28",
@@ -25106,7 +26937,9 @@ window.BANKMA1 = [
     "rättSvar": 1,
     "självrättning": true,
     "tolerans": 0.1,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "2.29",
@@ -25361,7 +27194,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En population beskrivs av \\(P(t)=480\\cdot1,06^t\\).</p><p>a) Tolka talen 480 och 1,06.<br>b) Efter hur många hela år är populationen första gången större än 700? Använd digitalt verktyg.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) 480 är startvärdet och 1,06 betyder 6 % årlig ökning.</p><p>\\(480\\cdot1,06^t&gt;700\\) ger \\(t&gt;6,49\\).</p><p><strong>Svar:</strong> <strong>Efter 7 hela år.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>a) \\(480\\) är startvärdet och \\(1{,}06\\) betyder 6 % årlig ökning.</p><p>b) \\(480\\cdot1{,}06^t>700\\) ger \\(t>6{,}49\\). Efter 6 hela år är antalet ännu inte över 700, men efter 7 hela år är det det.</p><p><strong>Svar:</strong> 7 hela år.</p>",
     "familj": "Tolka exponentialfunktioner från graf och formel",
     "geogebra": true,
     "miniräknare": true,
@@ -25391,8 +27224,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>I a läser du startvärde och förändringsfaktor direkt ur modellen. I b söker du det första hela t där \\(480\\cdot1{,}06^t\\) passerar 700.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": true
   },
   {
     "id": "2.37",
@@ -25595,7 +27427,7 @@ window.BANKMA1 = [
       }
     ],
     "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -25791,7 +27623,7 @@ window.BANKMA1 = [
     "familj": "Bestämma linjär funktion från två punkter",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
+    "svarstyp": "uttryck",
     "rättSvar": "y=a*x+a",
     "tolerans": null,
     "självrättning": true,
@@ -26037,7 +27869,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "2.53",
@@ -26982,7 +28815,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Försök lägga till en term som blir 0 just för \\(x=0,1,2\\), men inte för alla andra x.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -27065,7 +28898,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Kan antalet passagerare vara 12,5? Fundera sedan på vilka steg intäkten kan ändras i.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -27167,8 +29000,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Börja med budgetvillkoret \\(120+15n\\le600\\). Kom sedan ihåg att \\(n\\) räknar hela sidor, inte alla reella tal i ett intervall.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": true
   },
   {
     "id": "2.80",
@@ -27196,7 +29028,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Skriv antalet barn som \\(240-x\\). När en vuxen ersätter ett barn, hur mycket ändras intäkten? Det avslöjar hur värdemängden är uppbyggd.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -27395,8 +29227,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Förenkla först intäktsuttrycket. I del c: antal personer är heltal, så mängderna är diskreta — inte hela intervall.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": true
   },
   {
     "id": "2.86",
@@ -27601,7 +29432,6 @@ window.BANKMA1 = [
       "numeriskt",
       null
     ],
-    "manuellKomplettering": true,
     "ledtrad": "<p>Sätt \\(t=5\\) i modellen. I tolkningen behöver både värdet, enheten och tidpunkten framgå.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -27680,7 +29510,10 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true
+    "svarFormat": [
+      "numeriskt",
+      null
+    ]
   },
   {
     "id": "2.94",
@@ -27794,7 +29627,9 @@ window.BANKMA1 = [
     "rättSvar": 4,
     "självrättning": true,
     "tolerans": 0.1,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "2.97",
@@ -27823,7 +29658,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "2.98",
@@ -27851,7 +29687,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.1,
     "svarFormat": "numeriskt",
-    "svarEnhet": "s"
+    "svarEnhet": "s",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "2.99",
@@ -27889,7 +29727,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "mindre x",
       "större x"
-    ]
+    ],
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "2.100",
@@ -27916,7 +29756,9 @@ window.BANKMA1 = [
     "rättSvar": 2,
     "självrättning": true,
     "tolerans": 0.1,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "2.101",
@@ -27943,8 +29785,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "2.102",
@@ -27989,7 +29832,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       "h",
       "kr"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "2.103",
@@ -28035,7 +29880,9 @@ window.BANKMA1 = [
       "f(2)",
       "mindre lösningen till f(x)=9",
       "större lösningen till f(x)=9"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "2.104",
@@ -28063,7 +29910,9 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "2.105",
@@ -28092,7 +29941,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.2,
     "svarFormat": "numeriskt",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "2.106",
@@ -28540,10 +30391,10 @@ window.BANKMA1 = [
     "familj": "Bestämma linjens ekvation från punkt och k-värde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "intervall",
+    "rättSvar": "2.9<k<3",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
@@ -28551,7 +30402,8 @@ window.BANKMA1 = [
     "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "svarFormat": "intervall"
   },
   {
     "id": "2.119",
@@ -29113,7 +30965,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Skriv \\(f(x)=kx+2\\). Skillnaden mellan funktionsvärdena vid \\(a\\) och \\(a+2\\) ger ett uttryck för \\(k\\). Kontrollera sedan alla lösningar i de ursprungliga villkoren.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -29170,7 +31022,9 @@ window.BANKMA1 = [
     "rättSvar": -1,
     "självrättning": true,
     "tolerans": 0.1,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "2.137",
@@ -29197,8 +31051,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "2.138",
@@ -29239,7 +31094,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "x-koordinat",
       "y-koordinat"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "2.139",
@@ -29266,8 +31123,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "2.140",
@@ -29294,7 +31152,9 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "självrättning": true,
     "tolerans": 0.1,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "2.141",
@@ -29322,7 +31182,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "2.142",
@@ -29350,7 +31211,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.1,
     "svarFormat": "numeriskt",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "2.143",
@@ -29379,7 +31242,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3
   },
   {
     "id": "2.144",
@@ -29420,7 +31284,9 @@ window.BANKMA1 = [
       "minsta x",
       "mellersta x",
       "största x"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "2.145",
@@ -29447,8 +31313,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "2.146",
@@ -29505,7 +31372,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Översätt de två procentpåståendena till ekvationer med \\(K(x)=kx+m\\). Jämför vad de var för sig tvingar \\(kp\\) och \\(kq\\) att vara.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -29636,7 +31503,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Bestäm först \\(f\\):s riktningskoefficient och nollställe. Använd sedan både villkoret om vinkelräthet och uppgiften \\(g(0)=-6\\). Är de förenliga med samma nollställe?</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -29767,7 +31634,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Skriv en godtycklig linjär funktion som \\(f(x)=kx+m\\). Vad händer med summan \\(f(a)+f(b)\\) när \\(a+b\\) är given?</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -30121,7 +31988,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En behållare innehåller 84 liter efter 3 minuter och 60 liter efter 7 minuter. Anta linjär förändring.</p>\n<p>a) Bestäm en modell \\(V(t)\\).<br>b) Tolka riktningskoefficienten.<br>c) Enligt modellen: när är behållaren tom, och vilket tidsintervall är därför rimligt att använda modellen på?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> \\(k=(60-84)/(7-3)=-6\\). \\(84=-6\\cdot3+m\\Rightarrow m=102\\).</p>\n<p>a) <strong>\\(V(t)=102-6t\\)</strong>.</p>\n<p>b) Mängden minskar med 6 liter per minut.</p>\n<p>c) \\(0=102-6t\\Rightarrow t=17\\). Ett rimligt intervall är <strong>\\(0\\le t\\le17\\)</strong> om modellen beskriver tömningen från start till tom behållare.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Förändringen är \\(60-84=-24\\) liter på \\(7-3=4\\) minuter, så \\(k=-24/4=-6\\).</p><p>Eftersom \\(84=-6\\cdot3+m\\) fås \\(m=102\\).</p><p>a) <strong>\\(V(t)=102-6t\\)</strong>.</p><p>b) Riktningskoefficienten \\(-6\\) betyder att vattenmängden minskar med 6 liter per minut.</p><p>c) \\(0=102-6t\\Rightarrow t=17\\). Om modellen beskriver tömningen från start tills behållaren är tom är det rimliga intervallet <strong>\\(0\\le t\\le17\\)</strong>.</p></div></div>",
     "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
@@ -30159,11 +32026,10 @@ window.BANKMA1 = [
       "intervall"
     ],
     "familjTidigare": "Bestämma en linjär funktion",
-    "ledtrad": "<p>Bestäm först förändringen i liter per minut. När modellen är klar kan du tolka lutningen och lösa \\(V(t)=0\\) för att hitta modellens rimliga slutpunkt.</p>",
+    "ledtrad": "<p>Använd de två mätpunkterna för att bestämma förändringen i liter per minut. När modellen är klar, lös \\(V(t)=0\\) och fundera på när en vattenmängd kan vara fysisk.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": true
   },
   {
     "id": "2.167",
@@ -30220,7 +32086,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Behandla \\(a=0\\) separat innan du dividerar med \\(a\\). För \\(a\\ne0\\) bestämmer punkterna \\((0,a)\\) och \\((a,0)\\) lutningen direkt.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -30402,7 +32268,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Skriv \\(f(x)=kx+1\\). Skillnaden mellan värdena vid \\(p\\) och \\(p+2\\) ger \\(k\\) uttryckt med \\(p\\). Pröva sedan alla rötter i villkoren.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -30719,7 +32585,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Samla uttrycket som \\(y=a(x+1)+1\\). Finns det ett x-värde som gör termen med \\(a\\) lika med 0 oavsett vilket \\(a\\) är?</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -30804,7 +32670,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Om skärningspunkten ska ligga på x-axeln måste den vara samma punkt där \\(L\\) skär x-axeln. Undersök om \\(M_a\\) någonsin går genom den punkten, och kontrollera separat när linjerna blir parallella.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -31043,7 +32909,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "ledtrad": "<p>Tolka varje uttryck i situationen: 1,8 hör till n=0, 0,62 beskriver vad som återstår efter en studs, och en differens mellan två h-värden beskriver en förändring i höjd.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "spel": true,
     "manuellKomplettering": true
@@ -31156,7 +33022,7 @@ window.BANKMA1 = [
       "numeriskt"
     ],
     "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -31223,10 +33089,10 @@ window.BANKMA1 = [
     "familj": "Skalning med potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
@@ -31235,7 +33101,8 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.197",
@@ -31373,7 +33240,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Avgör om värdetabellen beskriver en linjär eller en exponentiell modell. Motivera.</p><p>a) \\(x\\): 0, 1, 2, 3 och \\(y\\): 5, 15, 25, 35<br>b) \\(x\\): 0, 1, 2, 3 och \\(y\\): 5, 15, 45, 135<br>c) Skriv ett funktionsuttryck för modellen i b).</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Undersök om skillnaden eller kvoten mellan värdena är konstant.</p><p>a) Skillnaden är hela tiden \\(+10\\), alltså en <strong>linjär modell</strong></p><p>b) Kvoten är hela tiden \\(\\cdot3\\), alltså en <strong>exponentiell modell</strong></p><p>c) Startvärdet är 5 och förändringsfaktorn 3: <strong>\\(y=5\\cdot3^x\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) Skillnaderna är \\(+10,+10,+10\\). Konstant differens betyder att modellen är <strong>linjär</strong>.</p><p>b) Kvoterna är \\(15/5=45/15=135/45=3\\). Konstant kvot betyder att modellen är <strong>exponentiell</strong>.</p><p>c) Startvärdet är 5 och förändringsfaktorn 3, alltså <strong>\\(y=5\\cdot3^x\\)</strong>.</p></div></div>",
     "familj": "Välja och jämföra matematiska modeller",
     "geogebra": false,
     "miniräknare": false,
@@ -31409,7 +33276,11 @@ window.BANKMA1 = [
       "kort_text",
       "uttryck"
     ],
-    "manuellKomplettering": true
+    "manuellKomplettering": [
+      true,
+      true,
+      false
+    ]
   },
   {
     "id": "2.202",
@@ -31436,7 +33307,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Beräkna båda modellerna vid \\(x=10\\). Förklaringen handlar sedan om skillnaden mellan konstant ökning i kronor och konstant procentuell ökning.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "manuellKomplettering": true
@@ -31514,8 +33385,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>En exponentiell tillväxtgraf är inte en rät linje: lutningen förändras när \\(x\\) ökar. Börja med att använda den skillnaden.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": true
   },
   {
     "id": "2.205",
@@ -31637,7 +33507,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Sätt linjernas uttryck lika. Lägg märke till vad som händer med termerna som innehåller \\(a\\) när du samlar dem.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -31864,10 +33734,10 @@ window.BANKMA1 = [
     "familj": "Bestämma linjens ekvation från punkt och k-värde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "bråk",
-    "rättSvar": null,
+    "svarstyp": "intervall",
+    "rättSvar": "-1/3<a<1",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
@@ -31876,7 +33746,8 @@ window.BANKMA1 = [
     "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "svarFormat": "intervall"
   },
   {
     "id": "2.215",
@@ -32105,10 +33976,10 @@ window.BANKMA1 = [
     "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "ekvation",
+    "rättSvar": "y=2*x-4",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
@@ -32117,7 +33988,7 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": null,
+    "svarFormat": "ekvation",
     "manuellKomplettering": true
   },
   {
@@ -32283,7 +34154,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Flytta ihop \\(f(a)=f(b)\\) och faktorisera skillnaden \\(a^2-b^2\\). Använd att \\(a\ne b\\).</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -32838,7 +34709,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       "h",
       "h"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "2.243",
@@ -32895,7 +34768,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Jämför heltalsvärden kring där modellerna verkar mötas. För den sista motiveringen: jämför hur mycket A respektive B ökar från ett heltal till nästa efter passagen.</p>",
     "traningsniva": 5,
     "arbetsinsats": 2,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -33335,8 +35208,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Bestäm först den genomsnittliga ökningen per år mellan 2018 och 2023. I b) funderar du på vad antagandet “linjär utveckling” bortser från.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": true
   },
   {
     "id": "2.257",
@@ -33494,7 +35366,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.1,
     "svarFormat": "numeriskt",
-    "svarEnhet": "h"
+    "svarEnhet": "h",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "2.262",
@@ -33659,7 +35533,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Eftersom \\(a\\ne b\\) känner du två olika punkter på grafen: \\((a,b)\\) och \\((b,a)\\). Börja med deras riktningskoefficient.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -33761,7 +35635,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>De två paren med första koordinaten −1 tvingar först fram ett värde på a. Kontrollera sedan vad just det värdet gör med de övriga första koordinaterna.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -33902,7 +35776,7 @@ window.BANKMA1 = [
     ],
     "tolerans": null,
     "självrättning": [
-      false,
+      true,
       true
     ],
     "formaga": [
@@ -33977,7 +35851,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Två givna funktionsvärden bestämmer bara två punkter. Kan du ändra \\(3x\\) med en term som blir 0 både vid x=2 och x=4?</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -34345,7 +36219,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Skriv \\(f(f(x))=a(ax+b)+b\\) och jämför koefficienten framför x och konstanttermen med \\(9x-8\\).</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -34436,10 +36310,10 @@ window.BANKMA1 = [
     "familj": "Använda och tolka funktionsnotation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
@@ -34651,7 +36525,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Två värden i funktionen blir lika när de ligger lika långt från symmetrilinjen \\(x=1\\). Du kan också jämföra de två kvadraterna algebraiskt.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.291",
@@ -35029,7 +36903,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Börja med alla tal u som uppfyller \\(f(u)=2\\). För varje sådant u söker du sedan alla x med \\(f(x)=u\\).</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.299",
@@ -35047,10 +36921,10 @@ window.BANKMA1 = [
     "familj": "Tolka funktionsnotation i graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "3*x+2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
@@ -35059,7 +36933,8 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.300",
@@ -35093,7 +36968,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Varje element i definitionsmängden får ge högst ett funktionsvärde. Hur många olika utdata kan n olika indata därför skapa som mest?</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true
   },
   {
@@ -35581,15 +37456,15 @@ window.BANKMA1 = [
     "familj": "Definitionsmängd och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "intervall",
+    "rättSvar": "[1,10]",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": null,
+    "svarFormat": "intervall",
     "ledtrad": "<p>Beräkna funktionsvärdet i båda ändpunkterna. Kontrollera särskilt om funktionen verkligen når 0 på det givna intervallet.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
@@ -36856,17 +38731,17 @@ window.BANKMA1 = [
     "familj": "Använda potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarFormat": null,
+    "svarFormat": "numeriskt",
     "ledtrad": "<p>Vilken del av uttrycket \\(1,5x^2\\) påverkas av exponenten 2?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "manuellKomplettering": true
@@ -37088,7 +38963,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37096,7 +38971,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För en potensmodell blir förändringsfaktorn \\(k^a\\) när x multipliceras med k.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -37117,7 +38992,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37125,7 +39000,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Kvadrera den faktor som x multipliceras med.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -37376,15 +39251,15 @@ window.BANKMA1 = [
     "familj": "Bestämma och använda exponentialfunktion",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": 1e-9,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0.1,
+    "självrättning": true,
     "formaga": [
       "modellering",
       "procedur"
     ],
-    "svarFormat": null,
+    "svarFormat": "numeriskt",
     "ledtrad": "<p>Sätt den okända förändringsfaktorn till a. Två steg innebär att startvärdet har multiplicerats med \\(a^2\\), inte att två procenttal har adderats.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -38262,14 +40137,14 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Hur stor är y-faktorn när x fördubblas? Här behöver du gå baklänges.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -38297,7 +40172,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Vad är \\(4^{0,5}\\)? Multiplicera sedan det ursprungliga y-värdet med den faktorn.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -38946,8 +40821,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Ett företag modellerar sin elförbrukning med \\(E(t)=4200-85t\\), där \\(t\\) är antalet månader sedan en energiåtgärd genomfördes och \\(E\\) mäts i kWh per månad.</p><p>Modellen ger \\(E=0\\) efter knappt 50 månader. Förklara varför modellen inte är rimlig så långt fram, och ange ett rimligt giltighetsområde.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> En linjär modell fortsätter i all oändlighet, men verkligheten gör sällan det. Fråga alltid vad modellen påstår utanför det område där den togs fram.</p><p><strong>Steg 1:</strong> \\(4200-85t=0\\) ger \\(t=\\frac{4200}{85}\\approx49{,}4\\) månader.</p><p><strong>Steg 2:</strong> Modellen påstår alltså att förbrukningen blir exakt noll efter cirka 49 månader, och negativ därefter.</p><p><strong>Förklaring:</strong> En verksamhet har en grundförbrukning — belysning, ventilation, maskiner — som inte kan effektiviseras bort. Negativ förbrukning saknar dessutom fysikalisk mening. I praktiken avtar besparingen efter hand i stället för att fortsätta linjärt.</p><p><strong>Giltighetsområde:</strong> Modellen kan användas för ungefär de första ett till två åren, alltså \\(0\\le t\\le24\\), och bör därefter räknas om mot nya mätvärden.</p><p><strong>Svar:</strong> \\(t\\approx49\\) månader ger \\(E=0\\); modellen är rimlig ungefär för \\(0\\le t\\le24\\).</p>",
+    "t": "<p>Ett företag modellerar sin elförbrukning med \\(E(t)=4200-85t\\), där \\(t\\) är antalet månader sedan en energiåtgärd genomfördes och \\(E\\) mäts i kWh per månad.</p><p>a) När ger modellen \\(E=0\\)?<br>b) Ange det största tidsintervall där modellen åtminstone ger icke-negativa värden.<br>c) Förklara varför detta inte betyder att modellen säkert är tillförlitlig under hela intervallet.</p>",
+    "s": "<p>a) \\(4200-85t=0\\) ger \\(t=4200/85\\approx49{,}4\\) månader.</p><p>b) För tiden efter åtgärden krävs \\(t\\ge0\\). För att modellen inte ska ge negativ förbrukning krävs dessutom \\(t\\le49{,}4\\). Det största sådana intervallet är alltså ungefär \\(0\\le t\\le49{,}4\\).</p><p>c) Att värdena är icke-negativa är bara ett nödvändigt rimlighetsvillkor. En verklig verksamhets förbrukning behöver inte fortsätta minska linjärt med 85 kWh per månad. För att avgöra modellens faktiska giltighetsområde behövs mätdata.</p>",
     "familj": "Tolka linjära modeller i en situation",
     "geogebra": false,
     "miniräknare": false,
@@ -38959,7 +40834,7 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>En linjär modell fortsätter med samma minskning för alltid. Vad skulle modellen säga efter den tid då den når 0, och är det fysiskt rimligt för energiförbrukning?</p>",
+    "ledtrad": "<p>Börja med att lösa \\(E(t)=0\\). Fundera sedan på skillnaden mellan att en modell ger fysiskt möjliga värden och att den verkligen stämmer med mätdata.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
@@ -39188,7 +41063,6 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv en modell för varje beskrivning: en med förändringsfaktor \\(1,08\\) och en med ett fast tillägg på 40 kr per år.</p>",
-    "svarFormat": "numeriskt",
     "manuellKomplettering": true,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -39496,7 +41370,7 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
     "arbetsinsats": 3,
     "traningsniva": 5,
@@ -39649,7 +41523,7 @@ window.BANKMA1 = [
     "familj": "Upprepade procentuella förändringar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
@@ -39659,9 +41533,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Kalla den ursprungliga längden \\(l\\) och bredden \\(b\\). Hur förändras produkten \\(lb\\) när sidorna får faktorerna 1,12 och 0,88?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "3.07",
@@ -40122,7 +41997,7 @@ window.BANKMA1 = [
       "radie (dm)"
     ],
     "ledtrad": "<p>Sätt först in volym och höjd. När du har isolerat \\(r^2\\), vilken rot är meningsfull för en radie?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -40353,7 +42228,7 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilka två år behöver jämföras för att flytta ett känt pris från 2008 till 2024?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "alternativ": [
@@ -41499,10 +43374,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Ett pris höjs först med 10 % och sänks sedan med 10 %. Är priset tillbaka på samma nivå? Motivera.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv varje procentuell förändring som en förändringsfaktor. Vid flera steg multipliceras förändringsfaktorerna med varandra; procenttalen ska inte bara adderas.</p><p>Faktor \\(1,10\\cdot0,90=0,99\\).</p><p><strong>Svar:</strong> <strong>Nej, priset är 1 % lägre än från början.</strong></p>",
+    "s": "<p>En höjning med 10 % motsvarar faktorn \\(1{,}10\\) och en sänkning med 10 % faktorn \\(0{,}90\\).</p><p>Den sammanlagda faktorn är \\(1{,}10\\cdot0{,}90=0{,}99\\).</p><p><strong>Svar:</strong> Nej. Slutpriset är 99 % av ursprungspriset, alltså 1 % lägre.</p>",
     "familj": "Upprepade procentuella förändringar",
     "geogebra": false,
     "miniräknare": false,
@@ -41515,9 +43390,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför produkten \\(1,10\\cdot0,90\\) med 1.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "3.59",
@@ -41857,8 +43733,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Ett pris på 714 kr är efter en prissänkning med 15 %. Bestäm priset före sänkningen.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(0,85x=714\\Rightarrow x=\\)<strong>840 kr</strong>.</p></div></div>",
     "familj": "Beräkna procent och procentuell förändring",
@@ -42612,10 +44488,10 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Ett lån amorteras med samma belopp varje månad. Förklara varför räntekostnaden brukar minska under lånets gång.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p>Räntan beräknas på den kvarvarande skulden. När skulden minskar genom amortering blir också räntekostnaden mindre.</p>",
+    "s": "<p>Vid rak amortering minskar skulden med samma belopp varje månad. Räntan beräknas däremot på den skuld som finns kvar.</p><p>När skulden blir mindre blir därför också räntekostnaden för nästa period mindre, om räntesatsen är oförändrad.</p>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -42628,9 +44504,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Vad händer med den skuld som räntesatsen multipliceras med efter varje amortering?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "manuellKomplettering": true
   },
   {
     "id": "3.92",
@@ -42970,15 +44847,21 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Priset på en produkt förändras med faktorn \\(q\\), där \\(q&gt;1\\). Samtidigt förändras antalet sålda produkter med faktorn \\(1,5-0,5q\\).</p><p>Den totala intäkten är oförändrad.</p><p>Bestäm \\(q\\) och tolka de två förändringarna i procent.</p>",
+    "t": "<p>Priset på en produkt förändras med faktorn \\(q\\), där \\(q&gt;1\\). Samtidigt förändras antalet sålda produkter med faktorn \\(1,5-0,5q\\).</p><p>Den totala intäkten är oförändrad.</p><p>a) Bestäm \\(q\\).<br>b) Tolka de två förändringarna i procent.</p>",
     "s": "<p><strong>Steg 1:</strong> Intäktsfaktorn är \\(q(1,5-0,5q)\\), och den ska vara 1.</p><p>\\(q(1,5-0,5q)=1\\Rightarrow q^2-3q+2=0\\).</p><p>\\((q-1)(q-2)=0\\). Eftersom \\(q&gt;1\\) är \\(q=2\\).</p><p>Prisfaktorn är 2: <strong>+100 %</strong>. Antalsfaktorn blir 0,5: <strong>−50 %</strong>.</p>",
     "familj": "Bestämma och använda förändringsfaktor",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      null
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": [
+      true,
+      false
+    ],
     "formaga": [
       "procedur",
       "begrepp"
@@ -42986,7 +44869,20 @@ window.BANKMA1 = [
     "ledtrad": "<p>Intäkten är pris gånger antal. Multiplicera därför de två förändringsfaktorerna och sätt produkten lika med 1.</p>",
     "traningsniva": 4,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a) q",
+      "b) tolkning"
+    ],
+    "manuellKomplettering": [
+      false,
+      true
+    ]
   },
   {
     "id": "3.103",
@@ -44329,7 +46225,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.000002,
+      2e-06,
       0.01,
       1
     ],
@@ -44373,7 +46269,7 @@ window.BANKMA1 = [
       "m",
       "cm"
     ],
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -45232,7 +47128,7 @@ window.BANKMA1 = [
       "heltal"
     ],
     "ledtrad": "<p>Följ en enda gammal sträcka: den ersätts av fyra sträckor som vardera är en tredjedel så långa. Vilken faktor får den sammanlagda längden i varje steg?</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": false
   },
@@ -45708,7 +47604,7 @@ window.BANKMA1 = [
       "numeriskt"
     ],
     "ledtrad": "<p>Översätt area till \\(s^2\\) och volym till \\(s^3\\). I geometrin väljer du den positiva längden.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -46286,7 +48182,7 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "ledtrad": "<p>Bestäm först kanten ur volymen. För area använder du sex kvadratiska sidoytor; för skalning jämför du \\((2s)^3\\) med \\(s^3\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -46384,8 +48280,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>År 2025 kostade en vara 312 kr. Det var 20 % lägre än året innan. Vad kostade varan året innan?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>312 kr motsvarar 80 %. \\(\\frac{312}{0,80}=\\)<strong>390 kr</strong>.</p></div></div>",
     "familj": "Beräkna procent och procentuell förändring",
@@ -47540,8 +49436,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En andel ökar från 40 % till 50 %. Hur stor är ökningen i <strong>procent</strong> räknat från det ursprungliga värdet?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Begrepp:</strong> Vid procentuell förändring jämförs ändringen med ursprungsvärdet: \\(\\text{förändring}/\\text{ursprung}\\cdot100\\%\\).</p><p>Ökningen är 10 procentenheter. Relativt 40 % blir \\(10/40=0,25=25\\%\\).</p><p><strong>Svar:</strong> <strong>25 %</strong>.</p></div></div>",
     "familj": "Jämföra procent, procentenheter och procentuell skillnad",
@@ -47549,7 +49445,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47600,8 +49496,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En andel sjunker från 25 % till 20 %. Hur stor är minskningen i procent räknat från den ursprungliga andelen?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Begrepp:</strong> Vid procentuell förändring jämförs ändringen med ursprungsvärdet: \\(\\text{förändring}/\\text{ursprung}\\cdot100\\%\\).</p><p>Minskningen är 5 procentenheter. Relativt 25 % är \\(5/25=0,20=20\\%\\).</p><p><strong>Svar:</strong> <strong>20 %</strong>.</p></div></div>",
     "familj": "Jämföra procent, procentenheter och procentuell skillnad",
@@ -47609,7 +49505,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47720,8 +49616,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Ett värde multipliceras med 0,845. Hur stor är den procentuella minskningen?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den borttagna andelen är \\(1-0,845=0,155=15,5\\%\\).</p><p><strong>Svar:</strong> <strong>15,5 %</strong>.</p></div></div>",
     "familj": "Bestämma och använda förändringsfaktor",
@@ -47729,7 +49625,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47837,8 +49733,8 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Vid rak amortering är månadens betalning 3 900 kr och amorteringen 3 000 kr. Skulden före betalningen är 150 000 kr. Bestäm månadsräntan i procent.</p>",
     "s": "<p>Räntan i kronor är \\(3900-3000=900\\) kr. Räntesatsen blir \\(900/150000=0,006\\).</p><p><strong>Svar: 0,6 %.</strong></p>",
     "familj": "Amortering, ränta och lånekostnad",
@@ -47866,8 +49762,8 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Första betalningen på ett lån med rak amortering är 4 250 kr. Amorteringen är 3 500 kr. Hur stor är första månadens ränta i kronor?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Betalning = amortering + ränta. Därför är räntan \\(4250-3500=750\\) kr.</p><p><strong>Svar:</strong> <strong>750 kr</strong>.</p></div></div>",
     "familj": "Amortering, ränta och lånekostnad",
@@ -48281,7 +50177,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": [
+      "procent",
+      null
+    ],
     "ledtrad": "<p>Sök först en årlig förändringsfaktor \\(q\\) med \\(q^3=0,512\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -49020,7 +50919,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Takets symmetri gör att en halva har horisontell katet 7 m och höjd 2,6 m.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -49297,10 +51196,8 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": [
-      [
-        "numeriskt",
-        "numeriskt"
-      ],
+      "numeriskt",
+      "numeriskt",
       "numeriskt"
     ],
     "svarsstruktur": "ordnad",
@@ -49639,7 +51536,7 @@ window.BANKMA1 = [
     ],
     "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning",
     "ledtrad": "<p>Stegen är hypotenusan. Foten 1,4 m från väggen är närliggande katet till markvinkeln.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -50160,7 +52057,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Diagonalen bildar en rätvinklig triangel med kateterna 2,8 m och 1,9 m. Vinkeln ligger intill den långa sidan.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -50212,7 +52109,7 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>8,5 % lutning betyder \\(\\text{höjd}/\\text{horisontellt}=0,085\\). Det är tangens av lutningsvinkeln.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -50264,7 +52161,7 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>6 % betyder kvoten 6/100 mellan höjd och horisontell sträcka.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -50622,7 +52519,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "2/2/0",
     "t": "<p>Ett tak anges med lutningsförhållandet 1:2,5, dvs. det stiger 1 m på 2,5 m horisontellt.</p><span class=\"fig\"><svg width=\"430\" height=\"230\" viewBox=\"0 0 430 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"taklutning som höjd genom horisontell sträcka\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"212.5\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"3\"/>\n<line x1=\"75\" y1=\"175\" x2=\"212.5\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"3\"/>\n<text x=\"143.75\" y=\"200\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2.5</text>\n<text x=\"230.5\" y=\"147.5\" font-family=\"monospace\" font-size=\"12\">1</text>\n<text x=\"123\" y=\"161\" font-family=\"monospace\" font-size=\"12\">v</text>\n</svg></span><p>a) Bestäm takvinkeln.<br>b) Om förhållandet ändras till 1:1,25, blir vinkeln då dubbelt så stor? Motivera.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>a) \\(v=\\tan^{-1}(\\frac{1}{2,5})\\approx\\)<strong>21,8°</strong>.</p><p>b) Ny vinkel \\(\\tan^{-1}(\\frac{1}{1,25})\\approx38,7°\\), vilket inte är dubbelt. <strong>Nej.</strong></p>",
+    "s": "<p>a) Lutningsförhållandet ger \\(\\tan v=1/2{,}5=0{,}4\\). Därför är \\(v=\\tan^{-1}(0{,}4)\\approx21{,}8^\\circ\\).</p><p>b) Det nya förhållandet ger \\(\\tan v=1/1{,}25=0{,}8\\), alltså \\(v\\approx38{,}7^\\circ\\). Det är inte dubbelt så mycket som 21,8°.</p><p><strong>Svar:</strong> a) cirka 21,8°. b) Nej.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -53456,6 +55353,11 @@ window.BANKMA1 = [
       "a) k",
       "b) förklaring",
       "c) vektor"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      "vektor"
     ]
   },
   {
@@ -53708,7 +55610,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Längden påverkas av skalärens belopp \\(|-3|\\), inte av dess tecken.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -53852,14 +55754,14 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Välj tre egna vektorer \\(\\vec u\\), \\(\\vec v\\) och \\(\\vec w\\) med både positiva och negativa komponenter.</p><p>Beräkna både \\((\\vec u+\\vec v)+\\vec w\\) och \\(\\vec u+(\\vec v+\\vec w)\\). Visa att du får samma resultat.</p>",
     "s": "<p><strong>Steg 1:</strong> Ett exempel är \\(\\vec u=(2,-1)\\), \\(\\vec v=(-3,4)\\) och \\(\\vec w=(5,-2)\\).</p><p>\\[(\\vec u+\\vec v)+\\vec w=(-1,3)+(5,-2)=(4,1).\\]</p><p>\\[\\vec u+(\\vec v+\\vec w)=(2,-1)+(2,2)=(4,1).\\]</p><p><strong>Svar:</strong> <strong>Båda beräkningarna ger \\((4,1)\\).</strong></p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
@@ -53868,8 +55770,8 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Arbeta komponentvis. En vektor från A till B fås som \\(B-A\\), och längden fås med Pythagoras på komponenterna.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Välj tre konkreta vektorer och addera komponentvis. Räkna först \\((\u000bec u+\u000bec v)+\u000bec w\\) och sedan \\(\u000bec u+(\u000bec v+\u000bec w)\\) med samma tre vektorer.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "spel": false
   },
@@ -54150,7 +56052,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Dividera relationen med \\(\\cos v\\). Då får du ett katetförhållande utan att behöva bestämma vinkeln.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -54962,7 +56864,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>I en rätvinklig triangel gäller \\(\\tan v=\\frac5{12}\\).</p><p>a) Visa att hypotenusan kan vara 13.<br>b) Kan hypotenusan ha andra längder med samma \\(v\\)? Förklara.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p><p>a) \\(\\sqrt{5^2+12^2}=13\\).</p><p>b) <strong>Ja.</strong> Likformiga trianglar med katetförhållandet 5:12 har samma vinkel.</p>",
+    "s": "<p>a) Välj kateterna 5 och 12. Då blir hypotenusan \\(\\sqrt{5^2+12^2}=\\sqrt{169}=13\\).</p><p>b) <strong>Ja.</strong> Förhållandet \\(5:12\\) bestämmer vinkeln men inte triangelns storlek. Alla likformiga trianglar med kateter \\(5k\\) och \\(12k\\), \\(k>0\\), har samma vinkel och hypotenusan \\(13k\\).</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": false,
@@ -55984,7 +57886,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "grader",
     "ledtrad": "<p>Rampens längd är hypotenusan och 7 m är motstående katet till markvinkeln.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -56012,7 +57914,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "grader",
     "ledtrad": "<p>Vajern är hypotenusan och 11 m är närliggande katet till markvinkeln.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -57030,7 +58932,7 @@ window.BANKMA1 = [
       "y"
     ],
     "ledtrad": "<p>Slutpunkt = startpunkt + vektor.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -57041,8 +58943,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Slutpunkten är \\(Q=(4,2)\\) och \\(\\overrightarrow{PQ}=(9,5)\\). Bestäm startpunkten \\(P\\).</p>",
     "s": "<p>Eftersom \\(Q=P+\\overrightarrow{PQ}\\) blir \\(P=Q-\\overrightarrow{PQ}=(4,2)-(9,5)=(-5,-3)\\).</p>",
     "familj": "Bestämma vektor från start- och slutpunkt",
@@ -60474,8 +62376,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En enkät frågar: ”Tycker du också att skolans fantastiska nya matsal bör behållas?” Beskriv en felkälla.</p><p>A. Slumpmässigt mätfel<br>B. Ledande formulering<br>C. Enhetsfel<br>D. För stor stickprovsstorlek</p>",
     "s": "<p>Orden ”också” och ”fantastiska” gör frågan ledande.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Felkällor i undersökningar och mätningar",
@@ -60489,7 +62391,7 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Vilka ord gör det svårare för respondenten att möta frågan neutralt?</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -65819,8 +67721,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En enkät har 50 svar och en annan 5 000 svar. Kan man enbart av stickprovsstorleken avgöra att den större enkäten är representativ?</p><p>A: Ja<br>B: Nej</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ett stort stickprov minskar slumpmässig osäkerhet, men ett snedvridet urval kan fortfarande ge systematiska fel. Storlek ensam garanterar inte representativitet.</p><p><strong>Svar:</strong> <strong>B</strong>.</p></div></div>",
     "familj": "Statistisk osäkerhet och signifikans",
@@ -66692,8 +68594,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "1/2/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Ett lån på 120 000 kr har 4 % årlig ränta. Låntagaren amorterar 2 500 kr varje månad. Räntan beräknas varje månad på skulden vid månadens början.</p><p>a) Hur stor är skulden efter 12 amorteringar?<br>b) Hur stor blir räntan den allra första månaden?<br>c) Hur mycket betalas totalt in den första månaden, ränta och amortering tillsammans?</p>",
     "s": "<p>a) Tolv amorteringar minskar skulden med (12·2500=30000) kr, så skulden blir <strong>90 000 kr</strong>.</p><p>b) Första månadens ränta är (120000·0,04/12=)<strong>400 kr</strong>.</p><p>c) Första betalningen blir (2500+400=)<strong>2 900 kr</strong>.</p>",
     "familj": "Privatekonomiska beräkningar",
@@ -67064,7 +68966,7 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "ledtrad": "<p>Kopiera en formel som multiplicerar föregående kapital med (1+) räntesatsen. För sista delen behöver du hitta det första heltalsåret över 25 000 kr.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -68047,7 +69949,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför intervallet där modellen stöds av data med intervallet där du vill använda den.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -68197,7 +70099,7 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "ledtrad": "<p>Den digitala lösningen är en brytpunkt mellan två heltal. Kontrollera de två heltalen på var sin sida om brytpunkten.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -68278,7 +70180,7 @@ window.BANKMA1 = [
       "intervall"
     ],
     "ledtrad": "<p>Kom ihåg att modellerna redan är lika vid t=0. Sök sedan efter ytterligare skärningar och testa vilken graf som ligger högst mellan skärningspunkterna.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": false
   },
@@ -68364,7 +70266,7 @@ window.BANKMA1 = [
       "intervall"
     ],
     "ledtrad": "<p>Villkoret vid t=8 ger en ekvation för förändringsfaktorn. När p är bestämt kan du jämföra graferna på intervallen mellan deras skärningar.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": false
   },
@@ -68670,7 +70572,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "ledtrad": "<p>Bestäm först alla relevanta parvisa skärningar. Testa sedan ett x-värde i varje intervall för att se vilken av de tre modellerna som faktiskt ligger högst.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": false
   },
@@ -68789,7 +70691,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Ett graffönster kan dölja lösningar. Utvidga x-intervallet till 40 och sök efter alla skärningar, inte bara den första.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "arbetsinsats": 2,
     "spel": false
   },
@@ -69784,8 +71686,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>120 personer har i genomsnitt 18 minuters restid till en servicepunkt. 80 personer har i genomsnitt 32 minuter.</p><p>Bestäm den genomsnittliga restiden för alla 200 personer.</p>",
     "s": "<p>Det är ett viktat medelvärde:</p><p>((120·18+80·32)/200=)<strong>23,6 minuter</strong>.</p>",
     "familj": "Samhällsdata och samhällsekonomiska beräkningar",
@@ -69857,7 +71759,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "ledtrad": "<p>Den digitala lösningen ligger mellan år 8 och 9. Frågan gäller första hela år då värdet är större än gränsen.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -70175,7 +72077,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>A kostar 180 kr/mån + 12 kr/användning. B kostar 360 kr/mån. Från hur många användningar är B billigare?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>\\(180+12x&gt;360\\Rightarrow x&gt;15\\). <strong>Från 16.</strong></p>",
+    "s": "<p>Låt <strong>x</strong> vara antalet användningar. Kostnaderna är då <strong>A(x)=180+12x</strong> och <strong>B(x)=360</strong>.</p><p>B är billigare när \\(360&lt;180+12x\\). Det ger \\(180&lt;12x\\Rightarrow x&gt;15\\). Eftersom antalet användningar är ett heltal blir svaret <strong>från 16 användningar</strong>.</p>",
     "familj": "Privatekonomiska beräkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -70184,10 +72086,11 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "begrepp"
+      "modellering",
+      "procedur"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Skriv en kostnad för A och en för B. Vilken olikhet beskriver att B ska kosta mindre än A?</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -70299,6 +72202,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "modellering",
+      "procedur",
       "resonemang"
     ],
     "svarsstruktur": "ordnad",
@@ -70307,7 +72212,7 @@ window.BANKMA1 = [
       "numeriskt"
     ],
     "ledtrad": "<p>Gör samma budgetberäkning för båda månaderna och jämför sedan hur mycket som maximalt kan gå till övrig konsumtion.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -71909,7 +73814,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.23",
@@ -71936,7 +73843,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "bar"
+    "svarEnhet": "bar",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "7.24",
@@ -72367,7 +74276,9 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "7.34",
@@ -72434,7 +74345,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       "ml",
       null
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "7.36",
@@ -72506,7 +74419,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       "ml",
       "mg"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "7.38",
@@ -72577,7 +74492,9 @@ window.BANKMA1 = [
       null,
       null,
       "ml"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.40",
@@ -72603,7 +74520,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "g"
+    "svarEnhet": "g",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.41",
@@ -72629,8 +74548,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "7.42",
@@ -72767,7 +74687,9 @@ window.BANKMA1 = [
     "rättSvar": 187,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "7.46",
@@ -72807,7 +74729,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       null,
       "cm"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.47",
@@ -72834,7 +74758,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "7.48",
@@ -72859,7 +74785,9 @@ window.BANKMA1 = [
     "rättSvar": 66.7,
     "självrättning": true,
     "tolerans": 0.000001,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.49",
@@ -72885,7 +74813,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.000001,
     "svarFormat": "numeriskt",
-    "svarEnhet": "g"
+    "svarEnhet": "g",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.50",
@@ -72911,7 +74841,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "liter"
+    "svarEnhet": "liter",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.51",
@@ -72937,7 +74869,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "ml"
+    "svarEnhet": "ml",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.52",
@@ -72963,8 +74897,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "7.53",
@@ -72990,7 +74925,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "droppar/min"
+    "svarEnhet": "droppar/min",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.54",
@@ -73027,7 +74964,9 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "timme",
       "minut"
-    ]
+    ],
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "7.55",
@@ -73054,7 +74993,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "ml/timme"
+    "svarEnhet": "ml/timme",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "7.56",
@@ -73080,7 +75021,9 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "7.57",
@@ -73192,7 +75135,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.000001,
     "svarFormat": "numeriskt",
-    "svarEnhet": "liter"
+    "svarEnhet": "liter",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "7.60",
@@ -73218,7 +75163,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "7.61",
@@ -73244,7 +75191,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 0.000001,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.62",
@@ -73328,7 +75277,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.64",
@@ -73354,8 +75305,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "7.65",
@@ -73381,7 +75333,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "7.66",
@@ -73405,7 +75359,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>Bestäm först kWh per producerad enhet och skala sedan upp till 1 200 enheter. Multiplicera sist med elpriset.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -73696,7 +75650,9 @@ window.BANKMA1 = [
       "°C",
       "kWh",
       "kr"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.74",
@@ -73800,7 +75756,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "ml"
+    "svarEnhet": "ml",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "7.77",
@@ -73827,7 +75785,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "mg/ml"
+    "svarEnhet": "mg/ml",
+    "traningsniva": 4,
+    "spel": true
   },
   {
     "id": "7.78",
@@ -73853,7 +75813,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "ml/timme"
+    "svarEnhet": "ml/timme",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "7.79",
@@ -73920,8 +75882,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "självrättning": false,
     "tolerans": null,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "7.81",
@@ -74033,7 +75996,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "A"
+    "svarEnhet": "A",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.84",
@@ -74103,7 +76068,9 @@ window.BANKMA1 = [
     "svarEnhet": [
       "min",
       "s"
-    ]
+    ],
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.86",
@@ -74130,7 +76097,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4
   },
   {
     "id": "7.87",
@@ -74156,7 +76124,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.88",
@@ -74182,7 +76152,9 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "spel": true
   },
   {
     "id": "7.89",
@@ -77049,7 +79021,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "tolerans": null,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 3
   },
   {
     "id": "7.173",
@@ -77074,7 +79047,9 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "självrättning": true,
     "tolerans": 1e-10,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "spel": true
   },
   {
     "id": "7.174",
@@ -78180,7 +80155,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -78188,7 +80163,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Kvadrera längdskalfaktorn.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -78254,8 +80229,8 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En last är 600 kg. Kravet är att 25 % av maxkapaciteten ska vara kvar som säkerhetsmarginal. Vilken minsta maxkapacitet måste utrustningen ha?</p>",
     "s": "<p>Om 25 % ska vara kvar får lasten vara 75 % av maxkapaciteten K. 0,75K=600 ⇒ K=<strong>800 kg</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
@@ -78488,8 +80463,8 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Ett arbete behöver 60 m nettomaterial. Materialet kostar 75 kr/m. Den totala materialkostnaden blev 4 860 kr. Hur många procent spill hade man räknat med?</p>",
     "s": "<p>4 860/75 = 64,8 m köpt material. Extra mängd är 64,8−60 = 4,8 m.</p><p>4,8/60·100 = <strong>8 %</strong>.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
@@ -78735,7 +80710,9 @@ window.BANKMA1 = [
     "självrättning": true,
     "tolerans": 1e-10,
     "svarFormat": "numeriskt",
-    "svarEnhet": "liter"
+    "svarEnhet": "liter",
+    "traningsniva": 1,
+    "spel": true
   },
   {
     "id": "0.500",
@@ -78761,7 +80738,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.501",
@@ -78789,7 +80769,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.502",
@@ -78816,7 +80799,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "mm"
+    "svarEnhet": "mm",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.503",
@@ -78843,7 +80829,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.504",
@@ -78869,7 +80858,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.505",
@@ -78897,7 +80889,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.506",
@@ -78924,7 +80919,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "mm"
+    "svarEnhet": "mm",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.507",
@@ -78951,7 +80949,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.508",
@@ -78978,7 +80979,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.509",
@@ -79005,7 +81009,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "dm"
+    "svarEnhet": "dm",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.510",
@@ -79032,7 +81039,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.511",
@@ -79059,7 +81069,10 @@ window.BANKMA1 = [
     "rättSvar": 5,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.512",
@@ -79087,7 +81100,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "g"
+    "svarEnhet": "g",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.513",
@@ -79113,7 +81129,10 @@ window.BANKMA1 = [
     "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.514",
@@ -79140,7 +81159,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "mg"
+    "svarEnhet": "mg",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.515",
@@ -79167,7 +81189,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "g"
+    "svarEnhet": "g",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.516",
@@ -79194,7 +81219,10 @@ window.BANKMA1 = [
     "rättSvar": 3,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.517",
@@ -79221,7 +81249,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "kg"
+    "svarEnhet": "kg",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.518",
@@ -79259,7 +81290,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "hela timmar",
       "återstående minuter"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.519",
@@ -79287,7 +81321,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.520",
@@ -79314,7 +81351,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "s"
+    "svarEnhet": "s",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.521",
@@ -79341,7 +81381,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.522",
@@ -79368,7 +81411,10 @@ window.BANKMA1 = [
     "rättSvar": 7.5,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "decimalform"
+    "svarFormat": "decimalform",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.523",
@@ -79395,7 +81441,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "dygn"
+    "svarEnhet": "dygn",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.524",
@@ -79422,7 +81471,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "dl"
+    "svarEnhet": "dl",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.525",
@@ -79449,7 +81501,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "l"
+    "svarEnhet": "l",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.526",
@@ -79476,7 +81531,10 @@ window.BANKMA1 = [
     "rättSvar": 8,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.527",
@@ -79504,7 +81562,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "ml"
+    "svarEnhet": "ml",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.528",
@@ -79531,7 +81592,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "ml"
+    "svarEnhet": "ml",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.529",
@@ -79558,7 +81622,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "dl"
+    "svarEnhet": "dl",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.530",
@@ -79585,7 +81652,10 @@ window.BANKMA1 = [
     "rättSvar": 4,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.531",
@@ -79612,7 +81682,10 @@ window.BANKMA1 = [
     "rättSvar": 15,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.532",
@@ -79639,7 +81712,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "cm²"
+    "svarEnhet": "cm²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.533",
@@ -79666,7 +81742,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "dm²"
+    "svarEnhet": "dm²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.534",
@@ -79693,7 +81772,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "dm²"
+    "svarEnhet": "dm²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.535",
@@ -79720,7 +81802,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m²"
+    "svarEnhet": "m²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.536",
@@ -79748,7 +81833,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m²"
+    "svarEnhet": "m²",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.537",
@@ -79775,7 +81863,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "km²"
+    "svarEnhet": "km²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.538",
@@ -79802,7 +81893,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "mm²"
+    "svarEnhet": "mm²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.539",
@@ -79829,7 +81923,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "cm²"
+    "svarEnhet": "cm²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.540",
@@ -79855,7 +81952,10 @@ window.BANKMA1 = [
     "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.541",
@@ -79883,7 +81983,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.542",
@@ -79910,7 +82013,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "mm²"
+    "svarEnhet": "mm²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.543",
@@ -79937,7 +82043,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "dm²"
+    "svarEnhet": "dm²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.544",
@@ -79965,7 +82074,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.545",
@@ -79992,7 +82103,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "cm³"
+    "svarEnhet": "cm³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.546",
@@ -80019,7 +82133,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "dm³"
+    "svarEnhet": "dm³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.547",
@@ -80046,7 +82163,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "dm³"
+    "svarEnhet": "dm³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.548",
@@ -80073,7 +82193,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m³"
+    "svarEnhet": "m³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.549",
@@ -80100,7 +82223,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "cm³"
+    "svarEnhet": "cm³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.550",
@@ -80127,7 +82253,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m³"
+    "svarEnhet": "m³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.551",
@@ -80155,7 +82284,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "l"
+    "svarEnhet": "l",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.552",
@@ -80182,7 +82314,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "dm³"
+    "svarEnhet": "dm³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.553",
@@ -80210,7 +82345,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.554",
@@ -80237,7 +82375,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.555",
@@ -80265,7 +82406,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "s"
+    "svarEnhet": "s",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.556",
@@ -80307,7 +82451,10 @@ window.BANKMA1 = [
     "svarEnhet": [
       null,
       "l"
-    ]
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.557",
@@ -80334,7 +82481,10 @@ window.BANKMA1 = [
     "rättSvar": 2.5,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "decimalform"
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.558",
@@ -80361,9 +82511,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 3
+    "arbetsinsats": 3,
+    "traningsniva": 5
   },
   {
     "id": "0.559",
@@ -80390,9 +82541,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 2
+    "arbetsinsats": 2,
+    "traningsniva": 5
   },
   {
     "id": "0.560",
@@ -80419,7 +82571,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m³"
+    "svarEnhet": "m³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.561",
@@ -80446,7 +82601,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "ml"
+    "svarEnhet": "ml",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.562",
@@ -80473,7 +82631,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m³"
+    "svarEnhet": "m³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.563",
@@ -80501,7 +82662,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "ml"
+    "svarEnhet": "ml",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.564",
@@ -80527,7 +82691,10 @@ window.BANKMA1 = [
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.565",
@@ -80555,7 +82722,10 @@ window.BANKMA1 = [
     "tolerans": 1e-10,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.566",
@@ -80582,9 +82752,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 3
+    "arbetsinsats": 3,
+    "traningsniva": 5
   },
   {
     "id": "0.567",
@@ -80612,7 +82783,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "l/min"
+    "svarEnhet": "l/min",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.568",
@@ -80639,9 +82813,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 2
+    "arbetsinsats": 2,
+    "traningsniva": 5
   },
   {
     "id": "0.569",
@@ -80668,7 +82843,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "ml"
+    "svarEnhet": "ml",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.570",
@@ -80695,7 +82873,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "kg/m³"
+    "svarEnhet": "kg/m³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.571",
@@ -80723,7 +82904,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "g"
+    "svarEnhet": "g",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.572",
@@ -80750,7 +82934,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "g/cm³"
+    "svarEnhet": "g/cm³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.573",
@@ -80777,7 +82964,10 @@ window.BANKMA1 = [
     "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text"
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.574",
@@ -80805,7 +82995,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "g"
+    "svarEnhet": "g",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.575",
@@ -80833,7 +83026,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "kg/m³"
+    "svarEnhet": "kg/m³",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.576",
@@ -80861,7 +83057,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.577",
@@ -80888,7 +83086,10 @@ window.BANKMA1 = [
     "rättSvar": 208,
     "tolerans": 1e-12,
     "självrättning": true,
-    "svarFormat": "heltal"
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.578",
@@ -80915,9 +83116,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 3
+    "arbetsinsats": 3,
+    "traningsniva": 5
   },
   {
     "id": "0.579",
@@ -80945,7 +83147,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.580",
@@ -80972,7 +83176,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "km/h"
+    "svarEnhet": "km/h",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.581",
@@ -80999,7 +83206,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m/s"
+    "svarEnhet": "m/s",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.582",
@@ -81027,7 +83237,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "km"
+    "svarEnhet": "km",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.583",
@@ -81055,7 +83268,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "km/h"
+    "svarEnhet": "km/h",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.584",
@@ -81083,7 +83299,10 @@ window.BANKMA1 = [
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "0.585",
@@ -81125,7 +83344,10 @@ window.BANKMA1 = [
     "svarEnhet": [
       "m/s",
       "km/h"
-    ]
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "0.586",
@@ -81152,9 +83374,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 2
+    "arbetsinsats": 2,
+    "traningsniva": 5
   },
   {
     "id": "0.587",
@@ -81181,9 +83404,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 3
+    "arbetsinsats": 3,
+    "traningsniva": 5
   },
   {
     "id": "0.588",
@@ -81210,9 +83434,10 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
+    "spel": false,
     "manuellKomplettering": true,
-    "arbetsinsats": 2
+    "arbetsinsats": 2,
+    "traningsniva": 5
   },
   {
     "id": "0.589",
@@ -81240,7 +83465,9 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "manuellKomplettering": true
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2
   },
   {
     "id": "0.590",
@@ -81268,8 +83495,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "0.591",
@@ -81297,8 +83525,9 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   },
   {
     "id": "0.592",
@@ -81326,7 +83555,8 @@ window.BANKMA1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "spel": true,
-    "manuellKomplettering": true
+    "spel": false,
+    "manuellKomplettering": true,
+    "traningsniva": 5
   }
 ];

@@ -1460,6 +1460,11 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .partline i.now{background:var(--acc);box-shadow:0 0 0 3px var(--accSoft)}
 .aline{display:flex;align-items:center;gap:10px}
 .aline label{width:20px;color:var(--ink3);font-size:12.5px;font-weight:600}
+/* Långa etiketter från banken (t.ex. "a) modell") får en egen rad i stället
+   för att klämmas ihop i 20 px och lägga sig över svarsrutan. */
+.apart.bred .aline{flex-wrap:wrap;row-gap:5px}
+.apart.bred .aline label{width:100%;flex:0 0 100%;color:var(--ink2);line-height:1.35}
+.apart.bred .corr,.apart.bred .delfacit{margin-left:0}
 .aline input,.aline textarea{
   flex:1;min-width:0;border:1px solid var(--hair2);background:var(--surface);border-radius:13px;
   padding:13px 14px;font-family:var(--read);font-size:16.5px;letter-spacing:0;
@@ -2720,6 +2725,8 @@ function loadProfileFrom(p){
   p.pass||=0; p.felfria||=0; p.utanFacit||=0; p.morgon||=0;
   p.bestKapitel||=0; p.bestKurs||=0; p.bestNiva3||=0;
   p.reparerade||=0;
+  /* Kvitterade felrapportsbelöningar: "kurs|uppgift" -> tidpunkt. */
+  p.felBelonade ||= {}; p.felFynd||=0;
   p.bastaPass ??= null;
   p.lastDay ??= null;
 
@@ -4184,6 +4191,7 @@ async function selectCourse(id,opts){
     applyAccent();
     if(record) navRecord("dashboard");
     if(render) renderDashboard();
+    if(render) setTimeout(visaBetaruta,400);
     return true;
   }catch(err){
     console.error(err);
@@ -5339,6 +5347,7 @@ function beginSession(typ){
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
 
   state.sessionTarget=(PASS[state.passTyp]||{}).antal || profile.goal || 8;
+  setTimeout(visaPapperspaminnelse,350);
 }
 
 function startPass(typ){
@@ -6832,6 +6841,10 @@ function animeraXp(fore,efter){
    ===================================================================== */
 const FEL_KO_KEY="kunskapsgymmet-felrapporter";
 const FEL_ENHET_KEY="kunskapsgymmet-enhet";
+/* XP som eleven får när en rapporterad uppgift faktiskt åtgärdas av läraren.
+   Belöningen delas ut en gång per uppgift och kvitteras i profile.felBelonade,
+   så den följer med i molnsynken och kan inte tas ut två gånger. */
+const FEL_BONUS_XP=50;
 const FEL_TAGGAR=[
   {id:"facit",     txt:"Fel svar i facit"},
   {id:"otydlig",   txt:"Frågan är otydlig"},
@@ -6900,6 +6913,48 @@ async function felTommKo(){
   if(andrat) felSkrivKo(ko);
 }
 
+/* ── Belöning för åtgärdade rapporter ────────────────────────────────── */
+/* Servern (rpc kg_mina_atgardade) svarar med de av elevens egna rapporter
+   som läraren har markerat som åtgärdade. Saknas rpc:n ligger funktionen
+   tyst — betan fungerar precis som förut. */
+async function felHamtaAtgardade(){
+  if(!MOLN_PA()) return;
+  if(!felLasaKo().some(r=>r.skickad)) return;
+  try{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_mina_atgardade",{
+      method:"POST",headers:sbHeaders(!!session),
+      body:JSON.stringify({p_enhet:felEnhetsId()})
+    });
+    if(!r.ok) return;
+    const rader=await r.json();
+    if(Array.isArray(rader) && rader.length) belonaAtgardade(rader);
+  }catch(_){ /* nätet får aldrig störa träningen */ }
+}
+function belonaAtgardade(rader){
+  profile.felBelonade ||= {};
+  const mina=felLasaKo();
+  let nya=0;
+  rader.forEach(r=>{
+    const kurs=String(r.kurs||""), uppgift=String(r.uppgift||"");
+    if(!kurs||!uppgift) return;
+    const nyckel=kurs+"|"+uppgift;
+    if(profile.felBelonade[nyckel]) return;
+    // Bara rapporter som den här eleven själv har skickat in.
+    if(!mina.some(x=>x.kurs===kurs && x.uppgift===uppgift)) return;
+    profile.felBelonade[nyckel]=Date.now();
+    nya++;
+  });
+  if(!nya) return;
+  const fore=profile.xp;
+  profile.xp+=nya*FEL_BONUS_XP;
+  profile.felFynd=(profile.felFynd||0)+nya;
+  saveProfile();
+  animeraXp(fore,profile.xp);
+  toast(nya===1
+    ? `Felet du rapporterade är åtgärdat. Tack! +${FEL_BONUS_XP} XP`
+    : `${nya} fel du rapporterat är åtgärdade. Tack! +${nya*FEL_BONUS_XP} XP`);
+}
+
 let felValdaTaggar=null;
 function oppnaFelrapport(){
   const t=state.currentTask;
@@ -6918,7 +6973,8 @@ function oppnaFelrapport(){
         <button class="iconbtn" onclick="stangFelrapport()" aria-label="Stäng">✕</button>
       </div>
       <p class="modal-text">Klicka bara på Skicka om något inte stämmer. Du behöver inte
-        förklara vad felet är – läraren ser vilken uppgift det gäller.</p>
+        förklara vad felet är – läraren ser vilken uppgift det gäller.
+        Blir uppgiften rättad får du ${FEL_BONUS_XP} XP.</p>
       <div class="felval">${FEL_TAGGAR.map(x=>
         `<button type="button" data-fel-tagg="${x.id}" onclick="vaxlaFelTagg('${x.id}')">${esc(x.txt)}</button>`
       ).join("")}</div>
@@ -7098,6 +7154,113 @@ function laddaNerFellogg(){
   setTimeout(()=>URL.revokeObjectURL(a.href),4000);
 }
 window.KG_FELRAPPORTER=oppnaFelrapportLogg;
+
+/* =======================================================================
+   Betainformation och papperspåminnelse
+
+   Två rutor som möter eleven i stället för att gömmas i en hjälptext:
+   betarutan visas första gången en kurs öppnas, papperspåminnelsen när ett
+   pass startas. Höj BETA_INFO_VERSION för att visa betarutan igen för alla
+   (t.ex. inför en ny termin). PAPPER_TAKT styr hur ofta påminnelsen kommer:
+   "dag" (en gång per dag), "pass" (varje pass) eller "av".
+   ===================================================================== */
+const BETA_INFO_KEY="kunskapsgymmet-beta-info";
+const BETA_INFO_VERSION="1";
+const PAPPER_KEY="kunskapsgymmet-papper";
+const PAPPER_TAKT="dag";
+
+function kvitterat(nyckel,varde){
+  try{ return localStorage.getItem(nyckel)===varde; }catch(_){ return true; }
+}
+function kvittera(nyckel,varde){
+  try{ localStorage.setItem(nyckel,varde); }catch(_){}
+}
+
+function visaBetaruta(){
+  if(kvitterat(BETA_INFO_KEY,BETA_INFO_VERSION)) return;
+  if(document.querySelector(".modal")) return;
+  const el=document.createElement("div");
+  el.className="modal"; el.id="betaruta";
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-label="Betatestare">
+      <div class="modal-topp">
+        <div>
+          <div class="lbl">Beta</div>
+          <h2>Du är betatestare</h2>
+        </div>
+        <button class="iconbtn" onclick="stangBetaruta()" aria-label="Stäng">✕</button>
+      </div>
+      <p class="modal-text">Kunskapsgymmet byggs fortfarande. Uppgifterna är skrivna
+        och kontrollerade för hand, men med tusentals uppgifter smyger sig fel in –
+        ett facit som inte stämmer, en figur som saknas, en fråga som är konstigt
+        formulerad.</p>
+      <p class="modal-text">Hittar du något sådant: tryck på
+        <b>Rapportera fel</b> uppe till höger i uppgiften. Du behöver inte
+        förklara vad som är fel – det räcker att uppgiften hamnar i listan.</p>
+      <div class="notice">
+        <b aria-hidden="true">✦</b>
+        <span>När ett fel du har rapporterat blir åtgärdat får du
+          <b>${FEL_BONUS_XP} XP</b>. Du kan rapportera varje uppgift en gång.</span>
+      </div>
+      <div class="modal-fot">
+        <span class="spacer"></span>
+        <button class="btn primary" onclick="stangBetaruta()">Jag förstår</button>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangBetaruta(); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+}
+function stangBetaruta(){
+  kvittera(BETA_INFO_KEY,BETA_INFO_VERSION);
+  const el=document.getElementById("betaruta");
+  if(!el) return;
+  el.removeAttribute("id"); el.classList.remove("visa");
+  setTimeout(()=>el.remove(),250);
+}
+window.KG_BETAINFO=function(){ try{ localStorage.removeItem(BETA_INFO_KEY); }catch(_){} visaBetaruta(); };
+
+function papperNyckel(){
+  return PAPPER_TAKT==="pass" ? String(Date.now()) : new Date().toISOString().slice(0,10);
+}
+function visaPapperspaminnelse(){
+  if(PAPPER_TAKT==="av") return;
+  const idag=papperNyckel();
+  if(PAPPER_TAKT!=="pass" && kvitterat(PAPPER_KEY,idag)) return;
+  if(document.querySelector(".modal")) return;
+  kvittera(PAPPER_KEY,idag);
+  const el=document.createElement("div");
+  el.className="modal"; el.id="papperruta";
+  el.innerHTML=`<div class="modal-kort" style="width:min(460px,100%)" role="dialog"
+      aria-modal="true" aria-label="Skriv ner dina lösningar">
+      <div class="modal-topp">
+        <div>
+          <div class="lbl">Innan du börjar</div>
+          <h2>Skriv ner dina lösningar</h2>
+        </div>
+        <button class="iconbtn" onclick="stangPapperspaminnelse()" aria-label="Stäng">✕</button>
+      </div>
+      <p class="modal-text">Ha papper och penna framme och skriv ner hela lösningen
+        innan du fyller i svaret här.</p>
+      <p class="modal-text">På prov är den skriftliga kommunikationen – hur du
+        redovisar, motiverar och för fram ditt resonemang – en stor del av
+        bedömningen. Det är den du tränar när du räknar på papper, inte bara
+        när du får rätt svar i rutan.</p>
+      <div class="modal-fot">
+        <span class="spacer"></span>
+        <button class="btn primary" onclick="stangPapperspaminnelse()">Nu kör vi</button>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangPapperspaminnelse(); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+}
+function stangPapperspaminnelse(){
+  const el=document.getElementById("papperruta");
+  if(!el) return;
+  el.removeAttribute("id"); el.classList.remove("visa");
+  setTimeout(()=>el.remove(),250);
+  document.getElementById("ans-0")?.focus();
+}
 
 /* =======================================================================
    Händelselogg och lärarstatistik
@@ -7315,10 +7478,13 @@ function renderTraining(){
     if(!plan) return i>0;
     return plan.rutor[i].del !== plan.rutor[0].del;
   };
-  const fieldHtml=Array.from({length:inputCount},(_,i)=>`
-    <div class="apart${laasta(i)?" upcoming":""}${bedomsSjalv(i)?" egen":""}" id="part-${i}">
+  const fieldHtml=Array.from({length:inputCount},(_,i)=>{
+    const etikett=rutEtikett(i);
+    const bred=String(etikett).replace(/<[^>]*>/g,"").trim().length>4;
+    return `
+    <div class="apart${laasta(i)?" upcoming":""}${bedomsSjalv(i)?" egen":""}${bred?" bred":""}" id="part-${i}">
       <div class="aline">
-        <label>${rutEtikett(i)}</label>
+        <label>${etikett}</label>
         ${isLongAnswer
           ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"${laasta(i)?" disabled":""} onfocus="state.aktivRuta=${i}"></textarea>`
           : `<input id="ans-${i}" autocomplete="off"
@@ -7335,7 +7501,8 @@ function renderTraining(){
       </div>
       <div class="corr" id="corr-${i}" hidden></div>
       <div class="delfacit" id="delfacit-${i}" hidden></div>
-    </div>`).join("");
+    </div>`;
+  }).join("");
 
   const antalDelar = plan ? plan.delar.length : inputCount;
   const partLine = stepwise
@@ -8606,8 +8773,9 @@ window.addEventListener("load",async()=>{
     kontrolleraLarare();
   }
 
-  /* Osända felrapporter från tidigare besök skickas i bakgrunden. */
-  felTommKo();
+  /* Osända felrapporter skickas i bakgrunden, och därefter hämtas de
+     rapporter som läraren har hunnit åtgärda så eleven får sin XP. */
+  felTommKo().then(felHamtaAtgardade);
 
   /* Lärarvyn: kunskapsgymmet.se/?felrapporter=1 */
   if(new URLSearchParams(location.search).has("felrapporter")) oppnaFelrapportLogg();

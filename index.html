@@ -6845,11 +6845,11 @@ const FEL_ENHET_KEY="kunskapsgymmet-enhet";
    Belöningen delas ut en gång per uppgift och kvitteras i profile.felBelonade,
    så den följer med i molnsynken och kan inte tas ut två gånger.
 
-   AVSTÄNGD (0) tills serverns fuskregel räknar med bonusen. XP som växer
-   utan att antalet försök gör det sätter review_required på kontot, och då
-   stämplas eleven som fuskare på topplistan. Sätt tillbaka till 50 först när
-   regeln är uppdaterad. */
-const FEL_BONUS_XP=0;
+   Servern har ett eget tak: kg_profile räknar antalet åtgärdade rapporter
+   kontot har skickat in och släpper igenom högst 50 XP per rapport, bokfört
+   i kg_private.state.bonus_paid. Ändras siffran här måste den ändras i
+   kg_profile också, annars stämplas eleven för score_delta. */
+const FEL_BONUS_XP=50;
 const FEL_TAGGAR=[
   {id:"facit",     txt:"Fel svar i facit"},
   {id:"otydlig",   txt:"Frågan är otydlig"},

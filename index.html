@@ -6843,8 +6843,13 @@ const FEL_KO_KEY="kunskapsgymmet-felrapporter";
 const FEL_ENHET_KEY="kunskapsgymmet-enhet";
 /* XP som eleven får när en rapporterad uppgift faktiskt åtgärdas av läraren.
    Belöningen delas ut en gång per uppgift och kvitteras i profile.felBelonade,
-   så den följer med i molnsynken och kan inte tas ut två gånger. */
-const FEL_BONUS_XP=50;
+   så den följer med i molnsynken och kan inte tas ut två gånger.
+
+   AVSTÄNGD (0) tills serverns fuskregel räknar med bonusen. XP som växer
+   utan att antalet försök gör det sätter review_required på kontot, och då
+   stämplas eleven som fuskare på topplistan. Sätt tillbaka till 50 först när
+   regeln är uppdaterad. */
+const FEL_BONUS_XP=0;
 const FEL_TAGGAR=[
   {id:"facit",     txt:"Fel svar i facit"},
   {id:"otydlig",   txt:"Frågan är otydlig"},
@@ -6918,6 +6923,7 @@ async function felTommKo(){
    som läraren har markerat som åtgärdade. Saknas rpc:n ligger funktionen
    tyst — betan fungerar precis som förut. */
 async function felHamtaAtgardade(){
+  if(FEL_BONUS_XP<=0) return;
   if(!MOLN_PA()) return;
   if(!felLasaKo().some(r=>r.skickad)) return;
   try{
@@ -6973,8 +6979,8 @@ function oppnaFelrapport(){
         <button class="iconbtn" onclick="stangFelrapport()" aria-label="Stäng">✕</button>
       </div>
       <p class="modal-text">Klicka bara på Skicka om något inte stämmer. Du behöver inte
-        förklara vad felet är – läraren ser vilken uppgift det gäller.
-        Blir uppgiften rättad får du ${FEL_BONUS_XP} XP.</p>
+        förklara vad felet är – läraren ser vilken uppgift det gäller.${
+        FEL_BONUS_XP>0?` Blir uppgiften rättad får du ${FEL_BONUS_XP} XP.`:""}</p>
       <div class="felval">${FEL_TAGGAR.map(x=>
         `<button type="button" data-fel-tagg="${x.id}" onclick="vaxlaFelTagg('${x.id}')">${esc(x.txt)}</button>`
       ).join("")}</div>
@@ -7198,8 +7204,11 @@ function visaBetaruta(){
         förklara vad som är fel – det räcker att uppgiften hamnar i listan.</p>
       <div class="notice">
         <b aria-hidden="true">✦</b>
-        <span>När ett fel du har rapporterat blir åtgärdat får du
-          <b>${FEL_BONUS_XP} XP</b>. Du kan rapportera varje uppgift en gång.</span>
+        <span>${FEL_BONUS_XP>0
+          ? `När ett fel du har rapporterat blir åtgärdat får du
+             <b>${FEL_BONUS_XP} XP</b>. Du kan rapportera varje uppgift en gång.`
+          : `Varje rapport går direkt till din lärare. Du kan rapportera varje
+             uppgift en gång.`}</span>
       </div>
       <div class="modal-fot">
         <span class="spacer"></span>

@@ -1396,6 +1396,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .felpost .knapp{font-size:11px;font-weight:650;color:var(--ink3);border:1px solid var(--hair);
   border-radius:9px;padding:5px 8px;background:var(--surface)}
 .felpost .knapp:hover{color:var(--good);border-color:color-mix(in srgb,var(--good) 40%,var(--hair))}
+.felpost .knapp.avfard:hover{color:var(--ink2);border-color:var(--hair2)}
 .verktygsikoner{display:inline-flex;align-items:center;gap:5px;flex:none}
 .verktygsikon{
   width:22px;height:22px;border-radius:7px;display:inline-grid;place-items:center;
@@ -2883,7 +2884,11 @@ const MEDALJBANOR={
   uppslagen: '<path d="M12 7.2v12.4"/><path d="M12 7.2C10.4 5.8 8.4 5.1 5.8 5.1H3.5v12h2.3c2.6 0 4.6.7 6.2 2.5"/><path d="M12 7.2c1.6-1.4 3.6-2.1 6.2-2.1h2.3v12h-2.3c-2.6 0-4.6.7-6.2 2.5"/><path d="M12 3.4V7.2"/>',
   palast:    '<path d="M6.4 3.6h11a1.4 1.4 0 0 1 1.4 1.4v15.4l-4.6-2.6-4.6 2.6V5a1.4 1.4 0 0 0-1.4-1.4z"/><path d="M6.4 3.6A1.4 1.4 0 0 0 5 5v13.4"/>',
   genomlast: '<rect x="4" y="3.4" width="16" height="17.2" rx="2.4"/><path d="M8.4 11.6l2.4 2.4 4.8-5"/>',
-  ipraktik:  '<path d="M4 6.6h5.6a2.8 2.8 0 0 1 2.8 2.8v9.2"/><path d="M20 6.6h-5.6a2.8 2.8 0 0 0-2.8 2.8"/><path d="M15.4 15.6l2.6 2.6 3.2-3.6"/>'
+  ipraktik:  '<path d="M4 6.6h5.6a2.8 2.8 0 0 1 2.8 2.8v9.2"/><path d="M20 6.6h-5.6a2.8 2.8 0 0 0-2.8 2.8"/><path d="M15.4 15.6l2.6 2.6 3.2-3.6"/>',
+
+  betaflagga:'<path d="M5.4 21.4V3.4"/><path d="M5.4 4.6h10.2l-.7 2.3h5.7v7.5h-6.4l-.7-2.3H5.4"/>',
+  felsokare: '<circle cx="10.6" cy="10.6" r="6.4"/><path d="M15.2 15.2l5 5"/><path d="M8.2 10.6h4.8"/>',
+  kvalitetsvakt:'<path d="M12 3.2l7.2 2.8v5.6c0 4.2-3 7.5-7.2 8.8-4.2-1.3-7.2-4.6-7.2-8.8V6z"/><path d="M8.9 11.6l2.2 2.2 4-4.4"/>'
 };
 
 function medaljIkon(namn){
@@ -2928,7 +2933,13 @@ const BADGES=[
   {id:"gg1",   icon:"uppslagen", name:"Uppslagen",     desc:"Läs din första genomgång",         max:1,   cur:()=>lastaGenomgangar()},
   {id:"gg10",  icon:"palast", name:"Påläst",           desc:"Läs 10 genomgångar",               max:10,  cur:()=>lastaGenomgangar()},
   {id:"ggkap", icon:"genomlast", name:"Genomläst",     desc:"Läs alla genomgångar i ett kapitel",max:1,  cur:()=>Object.keys(profile.ggKapKlara||{}).length},
-  {id:"ggtrana",icon:"ipraktik", name:"Teori i praktik",desc:"Gå från genomgång till träning 5 gånger",max:5, cur:()=>profile.ggTranat}
+  {id:"ggtrana",icon:"ipraktik", name:"Teori i praktik",desc:"Gå från genomgång till träning 5 gånger",max:5, cur:()=>profile.ggTranat},
+
+  /* Betamedaljerna räknar rapporter som läraren faktiskt har åtgärdat,
+     inte antalet skickade rapporter. Ignorerade rapporter ger ingenting. */
+  {id:"beta1", icon:"betaflagga", name:"Betatestare",   desc:"Få ett fel du rapporterat åtgärdat",   max:1,  cur:()=>profile.felFynd},
+  {id:"beta5", icon:"felsokare",  name:"Felsökare",     desc:"Få 5 fel du rapporterat åtgärdade",    max:5,  cur:()=>profile.felFynd},
+  {id:"beta10",icon:"kvalitetsvakt",name:"Kvalitetsvakt",desc:"Få 10 fel du rapporterat åtgärdade",  max:10, cur:()=>profile.felFynd}
 ];
 
 /* Antalet lästa genomgångar räknas över alla kurser — den som läst i
@@ -6850,6 +6861,15 @@ const FEL_ENHET_KEY="kunskapsgymmet-enhet";
    i kg_private.state.bonus_paid. Ändras siffran här måste den ändras i
    kg_profile också, annars stämplas eleven för score_delta. */
 const FEL_BONUS_XP=50;
+const FEL_BELONAD_KEY="kunskapsgymmet-felbelonade";
+function felBelonadeLokalt(){
+  try{ const x=JSON.parse(localStorage.getItem(FEL_BELONAD_KEY)||"{}");
+       return (x && typeof x==="object") ? x : {}; }
+  catch(_){ return {}; }
+}
+function felSkrivBelonade(o){
+  try{ localStorage.setItem(FEL_BELONAD_KEY,JSON.stringify(o)); }catch(_){}
+}
 const FEL_TAGGAR=[
   {id:"facit",     txt:"Fel svar i facit"},
   {id:"otydlig",   txt:"Frågan är otydlig"},
@@ -6938,19 +6958,25 @@ async function felHamtaAtgardade(){
 }
 function belonaAtgardade(rader){
   profile.felBelonade ||= {};
+  /* Kvittensen ligger både i profilen (följer med molnsynken) och lokalt
+     på enheten, så samma rapport aldrig kan betalas ut två gånger även om
+     profilnyckeln skulle falla bort i synken. */
+  const lokalt=felBelonadeLokalt();
   const mina=felLasaKo();
   let nya=0;
   rader.forEach(r=>{
     const kurs=String(r.kurs||""), uppgift=String(r.uppgift||"");
     if(!kurs||!uppgift) return;
     const nyckel=kurs+"|"+uppgift;
-    if(profile.felBelonade[nyckel]) return;
+    if(profile.felBelonade[nyckel] || lokalt[nyckel]) return;
     // Bara rapporter som den här eleven själv har skickat in.
     if(!mina.some(x=>x.kurs===kurs && x.uppgift===uppgift)) return;
     profile.felBelonade[nyckel]=Date.now();
+    lokalt[nyckel]=Date.now();
     nya++;
   });
   if(!nya) return;
+  felSkrivBelonade(lokalt);
   const fore=profile.xp;
   profile.xp+=nya*FEL_BONUS_XP;
   profile.felFynd=(profile.felFynd||0)+nya;
@@ -6959,6 +6985,7 @@ function belonaAtgardade(rader){
   toast(nya===1
     ? `Felet du rapporterade är åtgärdat. Tack! +${FEL_BONUS_XP} XP`
     : `${nya} fel du rapporterat är åtgärdade. Tack! +${nya*FEL_BONUS_XP} XP`);
+  checkBadges(1400);
 }
 
 let felValdaTaggar=null;
@@ -7111,7 +7138,10 @@ async function ritaFellogg(){
       <span class="txt">${taggar?esc(taggar):"<em>ingen tagg</em>"}${
         komm?` · ${esc(komm)}`:""}${r.spar?` · ${esc(r.spar)}`:""}</span>
       <span class="antal">${r.antal}×</span>
-      ${r.atgardad?"":`<button class="knapp" onclick="markeraFelAtgardad('${esc(r.kurs)}','${esc(r.uppgift)}')">Åtgärdad</button>`}
+      ${r.atgardad?"":`<button class="knapp" onclick="markeraFelAtgardad('${esc(r.kurs)}','${esc(r.uppgift)}')"
+        title="Uppgiften var fel och är rättad. Eleverna som rapporterat får ${FEL_BONUS_XP} XP.">Åtgärdad</button>
+      <button class="knapp avfard" onclick="ignoreraFel('${esc(r.kurs)}','${esc(r.uppgift)}')"
+        title="Uppgiften var inte fel. Stänger rapporten utan XP.">Ignorera</button>`}
     </div>`;
   });
   host.innerHTML=html;
@@ -7123,6 +7153,18 @@ async function markeraFelAtgardad(kurs,uppgift){
       body:JSON.stringify({p_kurs:kurs,p_uppgift:uppgift})
     });
     if(!r.ok) throw new Error("Kunde inte markera som åtgärdad.");
+    await ritaFellogg();
+  }catch(e){ toast(e.message); }
+}
+async function ignoreraFel(kurs,uppgift){
+  if(!confirm(`Ignorera rapporterna på #${uppgift}?\n\nUppgiften stängs utan att räknas som ett fel, och eleverna som rapporterat får varken XP eller medalj.`)) return;
+  try{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_felrapport_ignorera",{
+      method:"POST",headers:sbHeaders(true),
+      body:JSON.stringify({p_kurs:kurs,p_uppgift:uppgift})
+    });
+    if(r.status===404) throw new Error("Ignorera-funktionen är inte installerad i Supabase ännu.");
+    if(!r.ok) throw new Error("Kunde inte ignorera rapporten.");
     await ritaFellogg();
   }catch(e){ toast(e.message); }
 }

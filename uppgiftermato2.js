@@ -1,7 +1,6 @@
-/* Kvalitetsreviderad Ma4 / Matematik – fortsättning nivå 2, omgång 3 (2026-09-14).
- * Fokus: variation, korrekt trigonometrisk notation och robust självrättning. */
-window.BANKMATO2 =
-[
+/* Kvalitetsreviderad Ma4 / Matematik – fortsättning nivå 2, omgång 5 (2026-09-14).
+ * Fokus: deriveringsregler, kedjeregel och sammansatta funktioner; NP-kalibrering, variation och robust självrättning. */
+window.BANKMATO2 = [
   {
     "id": "1.04",
     "kap": 1,
@@ -16947,20 +16946,20 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(24^\\circ\\) till radianer. Svara exakt.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Ett halvt varv är både \\(180^\\circ\\) och \\(\\pi\\) rad. Därför multiplicerar vi med \\(\\pi/180\\).</p><p>\\[24^\\circ\\cdot\\frac{\\pi}{180^\\circ}=2\\pi/15.\\]</p><p>Gradenheten förkortas bort, och bråket förkortas så långt det går.</p><p><strong>Svar:</strong> \\(\\boxed{2\\pi/15}\\) rad.</p>",
+    "t": "<p>Hur många grader är \\(1,4\\) radianer? Svara med en decimal.</p>",
+    "s": "<p>Använd \\(180^\\circ=\\pi\\) rad:</p><p>\\[1,4\\cdot\\frac{180^\\circ}{\\pi}\\approx\\boxed{80,2^\\circ}.\\]</p>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
-    "svarstyp": "uttryck",
-    "rättSvar": "2*pi/15",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 80.2,
+    "tolerans": 0.05,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "uttryck"
+    "svarFormat": "grader",
+    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
+    "ledtrad": "<p>Multiplicera radianmåttet med \\(180/\\pi\\).</p>",
+    "svarEnhet": "°"
   },
   {
     "id": "1.46",
@@ -16970,24 +16969,23 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "4/0/0",
+    "poang": "3/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla.</p><p>a) \\(30^\\circ\\) till radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(225^\\circ\\) till radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\frac{7\\pi}{6}\\) rad till grader.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{11\\pi}{4}\\) rad till grader.</p>",
-    "s": "<p><strong>Metod:</strong> Använd sambandet \\(180^\\circ=\\pi\\) rad.</p>\n<p>a) \\(30^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\boxed{\\pi/6}\\).</p>\n<p>b) \\(225^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\boxed{5\\pi/4}\\).</p>\n<p>c) \\(\\frac{7\\pi}{6}\\cdot\\frac{180^\\circ}{\\pi}=\\boxed{210^\\circ}\\).</p>\n<p>d) \\(\\frac{11\\pi}{4}\\cdot\\frac{180^\\circ}{\\pi}=\\boxed{495^\\circ}\\).</p>",
+    "t": "<p>Uttryck rotationerna med radianmått.</p><p>a) Ett halvt varv.<br>b) Tre fjärdedels varv.<br>c) \\(2,5\\) varv.</p>",
+    "s": "<p>Ett helt varv är \\(2\\pi\\) rad.</p><p>a) \\(\\pi\\) rad.<br>b) \\(3\\pi/2\\) rad.<br>c) \\(5\\pi\\) rad.</p>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "pi/6",
-      "5*pi/4",
-      210,
-      495
+      "pi",
+      "3*pi/2",
+      "5*pi"
     ],
     "tolerans": [
-      null,
       null,
       null,
       null
@@ -16995,56 +16993,46 @@ window.BANKMATO2 =
     "självrättning": [
       true,
       true,
-      true,
       true
     ],
     "svarFormat": [
       "uttryck",
       "uttryck",
-      "numeriskt",
-      "numeriskt"
+      "uttryck"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
       "b",
-      "c",
-      "d"
+      "c"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "",
+    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
+    "ledtrad": "<p>Utgå från att ett helt varv är \\(2\\pi\\) rad och ta rätt andel av ett varv.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(30^\\circ\\) till radianer.</p>",
-        "s": "<p><strong>Metod:</strong> Använd sambandet \\(180^\\circ=\\pi\\) rad.</p>\n<p><div class=\"spel-en-del\">\\(30^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\boxed{\\pi/6}\\).</div></p>\n<p></p>",
+        "fraga": "<p>Ett halvt varv.</p>",
+        "s": "<p>Ett helt varv är \\(2\\pi\\) rad, alltså är ett halvt varv <strong>\\(\\pi\\)</strong> rad.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(225^\\circ\\) till radianer.</p>",
-        "s": "<p><strong>Metod:</strong> Använd sambandet \\(180^\\circ=\\pi\\) rad.</p>\n<p><div class=\"spel-en-del\">\\(225^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\boxed{5\\pi/4}\\).</div></p>\n<p></p>",
+        "fraga": "<p>Tre fjärdedels varv.</p>",
+        "s": "<p>\\(\\frac34\\cdot2\\pi=\\boxed{\\frac{3\\pi}{2}}\\) rad.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(\\frac{7\\pi}{6}\\) rad till grader.</p>",
-        "s": "<p><strong>Metod:</strong> Använd sambandet \\(180^\\circ=\\pi\\) rad.</p>\n<p><div class=\"spel-en-del\">\\(\\frac{7\\pi}{6}\\cdot\\frac{180^\\circ}{\\pi}=\\boxed{210^\\circ}\\).</div></p>\n<p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(\\frac{11\\pi}{4}\\) rad till grader.</p>",
-        "s": "<p><strong>Metod:</strong> Använd sambandet \\(180^\\circ=\\pi\\) rad.</p>\n<p><div class=\"spel-en-del\">\\(\\frac{11\\pi}{4}\\cdot\\frac{180^\\circ}{\\pi}=\\boxed{495^\\circ}\\).</div></p>",
+        "fraga": "<p>\\(2,5\\) varv.</p>",
+        "s": "<p>\\(2,5\\cdot2\\pi=\\boxed{5\\pi}\\) rad.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
-    ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "spelIntro": "<p>Omvandla.</p>"
+    ]
   },
   {
     "id": "1.451",
@@ -17057,20 +17045,19 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(36^\\circ\\) till radianer. Svara exakt.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Ett halvt varv är både \\(180^\\circ\\) och \\(\\pi\\) rad. Därför multiplicerar vi med \\(\\pi/180\\).</p><p>\\[36^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\pi/5.\\]</p><p>Gradenheten förkortas bort, och bråket förkortas så långt det går.</p><p><strong>Svar:</strong> \\(\\boxed{\\pi/5}\\) rad.</p>",
+    "t": "<p>En robotarm vrids \\(150^\\circ\\). Skriv vinkeln exakt i radianer.</p>",
+    "s": "<p>\\[150^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\boxed{\\frac{5\\pi}{6}}.\\]</p>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
     "svarstyp": "uttryck",
-    "rättSvar": "pi/5",
+    "rättSvar": "5*pi/6",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
+    "ledtrad": "<p>Multiplicera gradtalet med \\(\\pi/180\\).</p>"
   },
   {
     "id": "1.57",
@@ -17080,81 +17067,23 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "4/0/0",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla.</p><p>a) \\(30^\\circ\\) till radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(135^\\circ\\) till radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(5\\pi/6\\) rad till grader<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(7\\pi/4\\) rad till grader</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Radianer bygger på förhållandet mellan båglängd och radie. Därför kan samma geometri användas direkt utan en extra omvandlingsfaktor när vinkeln mäts i radianer.</p><p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad.</p><p>a) \\(\\pi/6\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(3\\pi/4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(150^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(315^\\circ\\)</p>",
+    "t": "<p>Ett hjul roterar \\(7,5\\) varv.</p><p>Hur stor vinkel har hjulet roterat, uttryckt i radianer?</p>",
+    "s": "<p>Ett varv är \\(2\\pi\\) rad. Därför blir vinkeln</p><p>\\[7,5\\cdot2\\pi=\\boxed{15\\pi}\\text{ rad}.\\]</p>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "pi/6",
-      "3*pi/4",
-      150,
-      315
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(30^\\circ\\) till radianer</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad.</p><p><div class=\"spel-en-del\">\\(\\pi/6\\)<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(135^\\circ\\) till radianer</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad.</p><p><div class=\"spel-en-del\">\\(3\\pi/4\\)<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(5\\pi/6\\) rad till grader</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad.</p><p><div class=\"spel-en-del\">\\(150^\\circ\\)<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(7\\pi/4\\) rad till grader</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad.</p><p><div class=\"spel-en-del\">\\(315^\\circ\\)</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "15*pi",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
     "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "spelIntro": "<p>Omvandla.</p>"
+    "ledtrad": "<p>Hur många radianer motsvarar ett helt varv?</p>"
   },
   {
     "id": "1.452",
@@ -17167,20 +17096,20 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(54^\\circ\\) till radianer. Svara exakt.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Ett halvt varv är både \\(180^\\circ\\) och \\(\\pi\\) rad. Därför multiplicerar vi med \\(\\pi/180\\).</p><p>\\[54^\\circ\\cdot\\frac{\\pi}{180^\\circ}=3\\pi/10.\\]</p><p>Gradenheten förkortas bort, och bråket förkortas så långt det går.</p><p><strong>Svar:</strong> \\(\\boxed{3\\pi/10}\\) rad.</p>",
-    "familj": "Omvandling mellan grader och radianer",
+    "t": "<p>En cirkel har radien 4,5 cm. En båge är 6,3 cm lång.</p><p>Bestäm medelpunktsvinkeln i radianer.</p>",
+    "s": "<p>Ur \\(s=r\\theta\\) fås</p><p>\\[\\theta=\\frac{s}{r}=\\frac{6,3}{4,5}=\\boxed{1,4}\\text{ rad}.\\]</p>",
+    "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
-    "svarstyp": "uttryck",
-    "rättSvar": "3*pi/10",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "uttryck"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Lös ut \\(\\theta\\) ur \\(s=r\\theta\\).</p>",
+    "svarEnhet": "rad"
   },
   {
     "id": "1.64",
@@ -17189,8 +17118,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkelsektor har radien 9 cm och båglängden 12 cm.</p><span class=\"fig\"><svg width=\"460\" height=\"300\" viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cirkelsektor med radien 9 cm, båglängden 12 cm och medelpunktsvinkeln v\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M 130.0 215.0 L 248.0 215.0 A 118 118 0 0 0 157.8 100.3 Z\" fill=\"#DCEFF2\" fill-opacity=\".7\"/><line x1=\"130.0\" y1=\"215.0\" x2=\"248.0\" y2=\"215.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"215.0\" x2=\"157.8\" y2=\"100.3\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 248.0 215.0 A 118 118 0 0 0 157.8 100.3\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 164.0 215.0 A 34 34 0 0 0 138.0 182.0\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"1.8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"166.2\" y=\"190.6\" font-family=\"sans-serif\" font-size=\"13\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">v</text><text x=\"166.2\" y=\"190.6\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">v</text><circle cx=\"130.0\" cy=\"215.0\" r=\"4\" fill=\"#2B2527\"/><text x=\"189.0\" y=\"235.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">9 cm</text><text x=\"189.0\" y=\"235.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">9 cm</text><text x=\"249.6\" y=\"127.2\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">båglängd 12 cm</text><text x=\"249.6\" y=\"127.2\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">båglängd 12 cm</text><line x1=\"248.0\" y1=\"215.0\" x2=\"157.8\" y2=\"100.3\" stroke=\"#268FA3\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"180.0\" y=\"171.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">rak sträcka</text><text x=\"180.0\" y=\"171.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#268FA3\">rak sträcka</text></svg></span><p>a) Bestäm medelpunktsvinkeln i radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm längden på den raka sträckan mellan bågens ändpunkter. Svara med en decimal.</p>",
@@ -17221,15 +17150,15 @@ window.BANKMATO2 =
         "etikett": "a",
         "fraga": "<p>Bestäm medelpunktsvinkeln i radianer.</p>",
         "s": "<p>För en vinkel i radianer gäller \\(s=rv\\). Därför</p><p>\\[v=\\frac sr=\\frac{12}{9}=\\boxed{\\frac43\\text{ rad}}.\\]</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm längden på den raka sträckan mellan bågens ändpunkter. Svara med en decimal.</p>",
         "s": "<p>Radierna och den raka sträckan bildar en likbent triangel. Halverar vi triangeln får vi en rätvinklig triangel med vinkel \\(v/2=2/3\\). Halva den raka sträckan är därför</p><p>\\[9\\sin(2/3).\\]</p><p>Hela den raka sträckan blir</p><p>\\[2\\cdot9\\sin(2/3)\\approx11,1\\text{ cm}.\\]</p><p>Den raka sträckan är cirka 11,1 cm.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "niva": "E",
+        "poang": "1/0/0"
       }
     ],
     "svarFormat": [
@@ -17257,20 +17186,20 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(72^\\circ\\) till radianer. Svara exakt.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Ett halvt varv är både \\(180^\\circ\\) och \\(\\pi\\) rad. Därför multiplicerar vi med \\(\\pi/180\\).</p><p>\\[72^\\circ\\cdot\\frac{\\pi}{180^\\circ}=2\\pi/5.\\]</p><p>Gradenheten förkortas bort, och bråket förkortas så långt det går.</p><p><strong>Svar:</strong> \\(\\boxed{2\\pi/5}\\) rad.</p>",
-    "familj": "Omvandling mellan grader och radianer",
+    "t": "<p>En cirkelsektor har radien 5 cm och arean \\(25\\pi/6\\) cm².</p><p>Bestäm sektorvinkeln exakt i radianer.</p>",
+    "s": "<p>För en sektor gäller \\(A=\\frac12r^2\\theta\\). Alltså</p><p>\\[\\theta=\\frac{2A}{r^2}=\\frac{2\\cdot25\\pi/6}{25}=\\boxed{\\frac{\\pi}{3}}.\\]</p>",
+    "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur",
-      "begrepp"
+      "problemlösning"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
     "svarstyp": "uttryck",
-    "rättSvar": "2*pi/5",
+    "rättSvar": "pi/3",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Använd sektorarean \\(A=\\frac12r^2\\theta\\) och lös ut \\(\\theta\\).</p>"
   },
   {
     "id": "1.83",
@@ -17280,81 +17209,58 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "4/0/0",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla.</p><p>a) \\(30^\\circ\\) till radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(225^\\circ\\) till radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(5\\pi/6\\) till grader<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(7\\pi/4\\) till grader</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Radianer bygger på förhållandet mellan båglängd och radie. Därför kan samma geometri användas direkt utan en extra omvandlingsfaktor när vinkeln mäts i radianer.</p><p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad och multiplicera med rätt omvandlingsfaktor.</p><p>a) \\(\\boxed{\\pi/6}\\)</p><p>b) \\(\\boxed{5\\pi/4}\\)</p><p>c) \\(\\boxed{150^\\circ}\\)</p><p>d) \\(\\boxed{315^\\circ}\\)</p>",
-    "familj": "Omvandling mellan grader och radianer",
+    "t": "<p>En cirkel har radien 8 cm och en båge på cirkeln är \\(4\\pi\\) cm lång.</p><p>a) Bestäm medelpunktsvinkeln i radianer.<br>b) Bestäm samma vinkel i grader.</p>",
+    "s": "<p>Eftersom \\(s=r\\theta\\) fås \\(\\theta=4\\pi/8=\\pi/2\\) rad, vilket är \\(90^\\circ\\).</p>",
+    "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "pi/6",
-      "5*pi/4",
-      150,
-      315
+      "pi/2",
+      90
     ],
     "tolerans": [
-      null,
-      null,
       null,
       null
     ],
     "självrättning": [
       true,
-      true,
-      true,
       true
     ],
     "svarFormat": [
       "uttryck",
-      "uttryck",
-      "numeriskt",
-      "numeriskt"
+      "grader"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
-      "b",
-      "c",
-      "d"
+      "b"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Använd sambandet \\(s=r\\theta\\). När vinkeln är bestämd kan du använda \\(\\pi\\) rad \\(=180^\\circ\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(30^\\circ\\) till radianer</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad och multiplicera med rätt omvandlingsfaktor.</p><p><div class=\"spel-en-del\">\\(\\boxed{\\pi/6}\\)</div></p><p></p>",
+        "fraga": "<p>Bestäm medelpunktsvinkeln i radianer.</p>",
+        "s": "<p>Med \\(s=r\\theta\\) fås \\(\\theta=4\\pi/8=\\boxed{\\pi/2}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(225^\\circ\\) till radianer</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad och multiplicera med rätt omvandlingsfaktor.</p><p><div class=\"spel-en-del\">\\(\\boxed{5\\pi/4}\\)</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(5\\pi/6\\) till grader</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad och multiplicera med rätt omvandlingsfaktor.</p><p><div class=\"spel-en-del\">\\(\\boxed{150^\\circ}\\)</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(7\\pi/4\\) till grader</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad och multiplicera med rätt omvandlingsfaktor.</p><p><div class=\"spel-en-del\">\\(\\boxed{315^\\circ}\\)</div></p>",
+        "fraga": "<p>Bestäm samma vinkel i grader.</p>",
+        "s": "<p>\\(\\pi/2\\) rad motsvarar \\(\\boxed{90^\\circ}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
-    ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "spelIntro": "<p>Omvandla.</p>"
+    ]
   },
   {
     "id": "1.454",
@@ -17364,23 +17270,23 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(105^\\circ\\) till radianer. Svara exakt.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Ett halvt varv är både \\(180^\\circ\\) och \\(\\pi\\) rad. Därför multiplicerar vi med \\(\\pi/180\\).</p><p>\\[105^\\circ\\cdot\\frac{\\pi}{180^\\circ}=7\\pi/12.\\]</p><p>Gradenheten förkortas bort, och bråket förkortas så långt det går.</p><p><strong>Svar:</strong> \\(\\boxed{7\\pi/12}\\) rad.</p>",
-    "familj": "Omvandling mellan grader och radianer",
+    "t": "<p>En cirkelbåge är 7,2 cm lång och medelpunktsvinkeln är 1,2 rad.</p><p>Bestäm cirkelns radie.</p>",
+    "s": "<p>Ur \\(s=r\\theta\\) fås</p><p>\\[r=\\frac{s}{\\theta}=\\frac{7,2}{1,2}=\\boxed{6,0\\text{ cm}}.\\]</p>",
+    "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
-    "svarstyp": "uttryck",
-    "rättSvar": "7*pi/12",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "uttryck"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Lös ut \\(r\\) ur \\(s=r\\theta\\).</p>",
+    "svarEnhet": "cm"
   },
   {
     "id": "1.86",
@@ -17389,8 +17295,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "2/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkelsektor har radien 6 cm och medelpunktsvinkeln 1,2 radianer.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med radie 6 och medelpunktsvinkel 1,2 radianer\">\n<rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"165\" cy=\"142\" r=\"82\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<path d=\"M165 142 L247 142 A82 82 0 0 0 194.7 65.6 Z\" fill=\"#DCEFF2\" stroke=\"#268FA3\" stroke-width=\"1.5\"/>\n<line x1=\"165\" y1=\"142\" x2=\"247\" y2=\"142\" stroke=\"#B43123\" stroke-width=\"2\"/>\n<line x1=\"165\" y1=\"142\" x2=\"194.7\" y2=\"65.6\" stroke=\"#B43123\" stroke-width=\"2\"/>\n<path d=\"M200 142 A35 35 0 0 0 177.7 109.4\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.5\"/>\n<text x=\"202\" y=\"124\" font-family=\"sans-serif\" font-size=\"13\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">1,2 rad</text><text x=\"202\" y=\"124\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#2B2527\">1,2 rad</text>\n<text x=\"205\" y=\"158\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#B43123\">6 cm</text>\n<text x=\"165\" y=\"146\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">O</text>\n</svg></span><p>a) Bestäm båglängden.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm sektorns area.</p>",
@@ -17427,13 +17333,15 @@ window.BANKMATO2 =
         "etikett": "a",
         "fraga": "<p>Bestäm båglängden.</p>",
         "s": "<p><div class=\"spel-en-del\">Båglängden är \\(s=rv=6\\cdot1,2=\\)<strong>7,2 cm</strong>.</div></p><p></p>",
-        "niva": "C"
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm sektorns area.</p>",
         "s": "<p><div class=\"spel-en-del\">Sektorns area är \\(A=\\frac12r^2v=\\frac12\\cdot36\\cdot1,2=\\)<strong>21,6 cm²</strong>.</div></p>",
-        "niva": "C"
+        "niva": "E",
+        "poang": "1/0/0"
       }
     ],
     "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
@@ -17451,20 +17359,20 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(135^\\circ\\) till radianer. Svara exakt.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Ett halvt varv är både \\(180^\\circ\\) och \\(\\pi\\) rad. Därför multiplicerar vi med \\(\\pi/180\\).</p><p>\\[135^\\circ\\cdot\\frac{\\pi}{180^\\circ}=3\\pi/4.\\]</p><p>Gradenheten förkortas bort, och bråket förkortas så långt det går.</p><p><strong>Svar:</strong> \\(\\boxed{3\\pi/4}\\) rad.</p>",
-    "familj": "Omvandling mellan grader och radianer",
+    "t": "<p>Ett hjul roterar med 12 varv per minut.</p><p>Bestäm vinkelhastigheten i radianer per sekund. Svara exakt.</p>",
+    "s": "<p>12 varv/min är \\(12/60=1/5\\) varv/s. Ett varv är \\(2\\pi\\) rad, därför</p><p>\\[\\omega=\\frac15\\cdot2\\pi=\\boxed{\\frac{2\\pi}{5}}\\text{ rad/s}.\\]</p>",
+    "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
     "svarstyp": "uttryck",
-    "rättSvar": "3*pi/4",
+    "rättSvar": "2*pi/5",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Gör först om varv per minut till varv per sekund och använd sedan \\(1\\) varv \\(=2\\pi\\) rad.</p>"
   },
   {
     "id": "1.114",
@@ -17561,20 +17469,22 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(225^\\circ\\) till radianer. Svara exakt.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Ett halvt varv är både \\(180^\\circ\\) och \\(\\pi\\) rad. Därför multiplicerar vi med \\(\\pi/180\\).</p><p>\\[225^\\circ\\cdot\\frac{\\pi}{180^\\circ}=5\\pi/4.\\]</p><p>Gradenheten förkortas bort, och bråket förkortas så långt det går.</p><p><strong>Svar:</strong> \\(\\boxed{5\\pi/4}\\) rad.</p>",
-    "familj": "Omvandling mellan grader och radianer",
+    "t": "<p>En punkt sitter 0,40 m från centrum på en roterande skiva. Skivans vinkelhastighet är 3,0 rad/s.</p><p>Bestäm punktens fart.</p>",
+    "s": "<p>På tiden \\(t\\) sveps vinkeln \\(\\theta=\\omega t\\). Då är sträckan \\(s=r\\theta=r\\omega t\\), så</p><p>\\[v=r\\omega=0,40\\cdot3,0=\\boxed{1,2\\text{ m/s}}.\\]</p>",
+    "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "modellering"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
-    "svarstyp": "uttryck",
-    "rättSvar": "5*pi/4",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.2,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "uttryck"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Koppla ihop \\(s=r\\theta\\) och \\(\\theta=\\omega t\\).</p>",
+    "svarEnhet": "m/s"
   },
   {
     "id": "1.457",
@@ -17587,19 +17497,20 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(\\pi/8\\) rad till grader.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Eftersom \\(\\pi\\) rad motsvarar \\(180^\\circ\\) multiplicerar vi radianmåttet med \\(180/\\pi\\).</p><p>\\[\\pi/8\\cdot\\frac{180^\\circ}{\\pi}=22,5^\\circ.\\]</p><p><strong>Varför kan \\(\\pi\\) förkortas?</strong> Det finns som faktor både i täljaren och nämnaren, så omvandlingen lämnar ett vanligt gradtal.</p><p><strong>Svar:</strong> \\(\\boxed{22,5^\\circ}\\).</p>",
+    "t": "<p>Omvandla \\(3\\pi/4\\) rad till grader.</p>",
+    "s": "<p>\\[\\frac{3\\pi}{4}\\cdot\\frac{180^\\circ}{\\pi}=\\boxed{135^\\circ}.\\]</p>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
     "svarstyp": "numeriskt",
-    "rättSvar": 22.5,
-    "tolerans": 0,
+    "rättSvar": 135,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "grader",
+    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
+    "ledtrad": "<p>Multiplicera med \\(180/\\pi\\).</p>",
+    "svarEnhet": "°"
   },
   {
     "id": "1.118",
@@ -17609,24 +17520,24 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "4/0/0",
+    "poang": "3/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla.</p><p>a) \\(30^\\circ\\) till radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(135^\\circ\\) till radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(5\\pi/6\\) rad till grader<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(7\\pi/4\\) rad till grader.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Radianer bygger på förhållandet mellan båglängd och radie. Därför kan samma geometri användas direkt utan en extra omvandlingsfaktor när vinkeln mäts i radianer.</p><p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad och multiplicera med rätt omvandlingsfaktor.</p><p>a) <strong>\\(\\pi/6\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(3\\pi/4\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>150°</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>315°</strong>.</p>",
-    "familj": "Omvandling mellan grader och radianer",
+    "t": "<p>En minutvisare är 6,0 cm lång och rör sig från klockan 12 till klockan 4.</p><p>a) Hur stor vinkel har visaren vridits i radianer?<br>b) Hur lång sträcka har visaren spets rört sig?<br>c) Hur stor area sveper visaren över?</p>",
+    "s": "<p>Vinkeln är \\(2\\pi/3\\) rad. Båglängden blir \\(4\\pi\\) cm och sektorarean \\(12\\pi\\) cm².</p>",
+    "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp",
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "pi/6",
-      "3*pi/4",
-      150,
-      315
+      "2*pi/3",
+      "4*pi",
+      "12*pi"
     ],
     "tolerans": [
-      null,
       null,
       null,
       null
@@ -17634,56 +17545,51 @@ window.BANKMATO2 =
     "självrättning": [
       true,
       true,
-      true,
       true
     ],
     "svarFormat": [
       "uttryck",
       "uttryck",
-      "numeriskt",
-      "numeriskt"
+      "uttryck"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
       "b",
-      "c",
-      "d"
+      "c"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Bestäm först hur stor del av ett helt varv visaren gör. Använd sedan \\(s=r\\theta\\) och \\(A=\\frac12r^2\\theta\\).</p>",
+    "svarEnhet": [
+      "rad",
+      "cm",
+      "cm²"
+    ],
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(30^\\circ\\) till radianer</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad och multiplicera med rätt omvandlingsfaktor.</p><p><div class=\"spel-en-del\"><strong>\\(\\pi/6\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
+        "fraga": "<p>Hur stor vinkel har visaren vridits?</p>",
+        "s": "<p>Från 12 till 4 är \\(4/12=1/3\\) varv, alltså \\(\\boxed{2\\pi/3}\\) rad.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(135^\\circ\\) till radianer</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad och multiplicera med rätt omvandlingsfaktor.</p><p><div class=\"spel-en-del\"><strong>\\(3\\pi/4\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
+        "fraga": "<p>Hur lång sträcka har visarens spets rört sig?</p>",
+        "s": "<p>\\(s=r\\theta=6\\cdot2\\pi/3=\\boxed{4\\pi}\\) cm.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(5\\pi/6\\) rad till grader</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad och multiplicera med rätt omvandlingsfaktor.</p><p><div class=\"spel-en-del\"><strong>150°</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(7\\pi/4\\) rad till grader.</p>",
-        "s": "<p><strong>Metod:</strong> Använd \\(180^\\circ=\\pi\\) rad och multiplicera med rätt omvandlingsfaktor.</p><p><div class=\"spel-en-del\"><strong>315°</strong>.</div></p>",
+        "fraga": "<p>Hur stor area sveper visaren över?</p>",
+        "s": "<p>\\(A=\\frac12r^2\\theta=\\frac12\\cdot36\\cdot2\\pi/3=\\boxed{12\\pi}\\) cm².</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
-    ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "spelIntro": "<p>Omvandla.</p>"
+    ]
   },
   {
     "id": "1.458",
@@ -17696,19 +17602,19 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(5pi/12\\) rad till grader.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Eftersom \\(\\pi\\) rad motsvarar \\(180^\\circ\\) multiplicerar vi radianmåttet med \\(180/\\pi\\).</p><p>\\[5\\pi/12\\cdot\\frac{180^\\circ}{\\pi}=75^\\circ.\\]</p><p><strong>Varför kan \\(\\pi\\) förkortas?</strong> Det finns som faktor både i täljaren och nämnaren, så omvandlingen lämnar ett vanligt gradtal.</p><p><strong>Svar:</strong> \\(\\boxed{75^\\circ}\\).</p>",
+    "t": "<p>Omvandla \\(75^\\circ\\) till radianer. Svara exakt.</p>",
+    "s": "<p>\\[75^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\boxed{\\frac{5\\pi}{12}}.\\]</p>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
-    "svarstyp": "numeriskt",
-    "rättSvar": 75,
-    "tolerans": 0,
+    "svarstyp": "uttryck",
+    "rättSvar": "5*pi/12",
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck",
+    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
+    "ledtrad": "<p>Multiplicera gradtalet med \\(\\pi/180\\).</p>"
   },
   {
     "id": "1.124",
@@ -17793,7 +17699,7 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(7pi/10\\) rad till grader.</p>",
+    "t": "<p>Omvandla \\(7\\pi/10\\) rad till grader.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Eftersom \\(\\pi\\) rad motsvarar \\(180^\\circ\\) multiplicerar vi radianmåttet med \\(180/\\pi\\).</p><p>\\[7\\pi/10\\cdot\\frac{180^\\circ}{\\pi}=126^\\circ.\\]</p><p><strong>Varför kan \\(\\pi\\) förkortas?</strong> Det finns som faktor både i täljaren och nämnaren, så omvandlingen lämnar ett vanligt gradtal.</p><p><strong>Svar:</strong> \\(\\boxed{126^\\circ}\\).</p>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
@@ -17899,22 +17805,23 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(11pi/6\\) rad till grader.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Eftersom \\(\\pi\\) rad motsvarar \\(180^\\circ\\) multiplicerar vi radianmåttet med \\(180/\\pi\\).</p><p>\\[11\\pi/6\\cdot\\frac{180^\\circ}{\\pi}=330^\\circ.\\]</p><p><strong>Varför kan \\(\\pi\\) förkortas?</strong> Det finns som faktor både i täljaren och nämnaren, så omvandlingen lämnar ett vanligt gradtal.</p><p><strong>Svar:</strong> \\(\\boxed{330^\\circ}\\).</p>",
+    "t": "<p>En sekundvisare går runt ett helt varv på 60 s.</p><p>Hur stor vinkel vrids den på 20 s? Svara exakt i radianer.</p>",
+    "s": "<p>20 s är en tredjedel av ett varv. Därför är vinkeln</p><p>\\[\\frac13\\cdot2\\pi=\\boxed{\\frac{2\\pi}{3}}\\text{ rad}.\\]</p>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
-    "svarstyp": "numeriskt",
-    "rättSvar": 330,
-    "tolerans": 0,
+    "svarstyp": "uttryck",
+    "rättSvar": "2*pi/3",
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck",
+    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
+    "ledtrad": "<p>Bestäm vilken andel av ett helt varv som görs på 20 s.</p>"
   },
   {
     "id": "1.167",
@@ -17923,8 +17830,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkel har radien 12 cm.</p><p>a) Bestäm båglängden som svarar mot vinkeln \\(\\frac{5\\pi}{6}\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm arean av motsvarande cirkelsektor.</p>",
@@ -17961,15 +17868,15 @@ window.BANKMATO2 =
         "etikett": "a",
         "fraga": "<p>Bestäm båglängden som svarar mot vinkeln \\(\\frac{5\\pi}{6}\\).</p>",
         "s": "<p>Vinkeln är given i radianer. För en cirkel med radien \\(r\\) gäller \\(b=rv\\) för båglängden och \\(A=\\frac{r^2v}{2}\\) för sektorns area.</p><p><div class=\"spel-en-del\">\\(b=12\\cdot\\frac{5\\pi}{6}=\\boxed{10\\pi\\text{ cm}}\\).</div></p><p></p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm arean av motsvarande cirkelsektor.</p>",
         "s": "<p>Vinkeln är given i radianer. För en cirkel med radien \\(r\\) gäller \\(b=rv\\) för båglängden och \\(A=\\frac{r^2v}{2}\\) för sektorns area.</p><p><div class=\"spel-en-del\">\\(A=\\frac{12^2}{2}\\cdot\\frac{5\\pi}{6}=\\boxed{60\\pi\\text{ cm}^2}\\).</div></p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "niva": "E",
+        "poang": "1/0/0"
       }
     ],
     "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
@@ -17987,19 +17894,20 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(13pi/9\\) rad till grader.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Eftersom \\(\\pi\\) rad motsvarar \\(180^\\circ\\) multiplicerar vi radianmåttet med \\(180/\\pi\\).</p><p>\\[13\\pi/9\\cdot\\frac{180^\\circ}{\\pi}=260^\\circ.\\]</p><p><strong>Varför kan \\(\\pi\\) förkortas?</strong> Det finns som faktor både i täljaren och nämnaren, så omvandlingen lämnar ett vanligt gradtal.</p><p><strong>Svar:</strong> \\(\\boxed{260^\\circ}\\).</p>",
+    "t": "<p>Ett hjul roterar genom vinkeln \\(5\\pi\\) rad.</p><p>Hur många varv motsvarar det?</p>",
+    "s": "<p>Ett varv är \\(2\\pi\\) rad:</p><p>\\[\\frac{5\\pi}{2\\pi}=\\boxed{2,5}\\text{ varv}.\\]</p>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
     "svarstyp": "numeriskt",
-    "rättSvar": 260,
-    "tolerans": 0,
+    "rättSvar": 2.5,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
+    "ledtrad": "<p>Dela den totala vinkeln med \\(2\\pi\\).</p>"
   },
   {
     "id": "1.171",
@@ -18093,22 +18001,24 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(17pi/12\\) rad till grader.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Eftersom \\(\\pi\\) rad motsvarar \\(180^\\circ\\) multiplicerar vi radianmåttet med \\(180/\\pi\\).</p><p>\\[17\\pi/12\\cdot\\frac{180^\\circ}{\\pi}=255^\\circ.\\]</p><p><strong>Varför kan \\(\\pi\\) förkortas?</strong> Det finns som faktor både i täljaren och nämnaren, så omvandlingen lämnar ett vanligt gradtal.</p><p><strong>Svar:</strong> \\(\\boxed{255^\\circ}\\).</p>",
-    "familj": "Omvandling mellan grader och radianer",
+    "t": "<p>En punkt på kanten av ett hjul med radien 0,35 m rör sig genom vinkeln 8,0 rad.</p><p>Hur långt rör sig punkten längs cirkelbanan?</p>",
+    "s": "<p>\\[s=r\\theta=0,35\\cdot8,0=\\boxed{2,8\\text{ m}}.\\]</p>",
+    "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
     "svarstyp": "numeriskt",
-    "rättSvar": 255,
-    "tolerans": 0,
+    "rättSvar": 2.8,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Använd \\(s=r\\theta\\).</p>",
+    "svarEnhet": "m"
   },
   {
     "id": "1.172",
@@ -18117,8 +18027,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkel har radien 9,0 cm och en cirkelsektor har medelpunktsvinkeln \\(1,4\\) rad.</p><p>a) Bestäm sektorns båglängd.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm sektorns area.</p>",
@@ -18155,15 +18065,15 @@ window.BANKMATO2 =
         "etikett": "a",
         "fraga": "<p>Bestäm sektorns båglängd.</p>",
         "s": "<p><strong>Formler från formelbladet:</strong> När vinkeln mäts i radianer gäller \\(b=vr\\) och \\(A=vr^2/2\\).</p><p><div class=\"spel-en-del\">\\(b=1,4\\cdot9,0=\\boxed{12,6\\text{ cm}}\\).</div></p><p></p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm sektorns area.</p>",
         "s": "<p><strong>Formler från formelbladet:</strong> När vinkeln mäts i radianer gäller \\(b=vr\\) och \\(A=vr^2/2\\).</p><p><div class=\"spel-en-del\">\\(A=\\frac{1,4\\cdot9,0^2}{2}=56,7\\). Alltså \\(\\boxed{56,7\\text{ cm}^2}\\).</div></p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "niva": "E",
+        "poang": "1/0/0"
       }
     ],
     "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
@@ -18178,22 +18088,23 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla \\(5pi/3\\) rad till grader.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Eftersom \\(\\pi\\) rad motsvarar \\(180^\\circ\\) multiplicerar vi radianmåttet med \\(180/\\pi\\).</p><p>\\[5\\pi/3\\cdot\\frac{180^\\circ}{\\pi}=300^\\circ.\\]</p><p><strong>Varför kan \\(\\pi\\) förkortas?</strong> Det finns som faktor både i täljaren och nämnaren, så omvandlingen lämnar ett vanligt gradtal.</p><p><strong>Svar:</strong> \\(\\boxed{300^\\circ}\\).</p>",
-    "familj": "Omvandling mellan grader och radianer",
+    "t": "<p>En cirkelsektor har radien 6 cm och medelpunktsvinkeln \\(5\\pi/6\\) rad.</p><p>Bestäm sektorns area exakt.</p>",
+    "s": "<p>\\[A=\\frac12r^2\\theta=\\frac12\\cdot36\\cdot\\frac{5\\pi}{6}=\\boxed{15\\pi\\text{ cm}^2}.\\]</p>",
+    "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "radianer__omvandling_mellan_grader_och_radianer",
-    "svarstyp": "numeriskt",
-    "rättSvar": 300,
-    "tolerans": 0,
+    "svarstyp": "uttryck",
+    "rättSvar": "15*pi",
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Använd \\(A=\\frac12r^2\\theta\\).</p>",
+    "svarEnhet": "cm²"
   },
   {
     "id": "1.173",
@@ -18202,12 +18113,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Ett hjul med radien 0,32 m roterar med 3,5 varv per sekund.</p><p>a) Bestäm hur många radianer hjulet roterar på en sekund.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Hur långt rör sig en punkt på hjulets kant under en sekund?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>a) Ett varv är \\(2\\pi\\) rad. På en sekund roterar hjulet därför \\(3,5\\cdot2\\pi=\\boxed{7\\pi\\text{ rad}}\\).</p><p>b) På formelbladet finns båglängden \\(b=vr\\). Här är \\(v=7\\pi\\) och \\(r=0,32\\):</p><p>\\[b=7\\pi\\cdot0,32=2,24\\pi\\approx\\boxed{7,04\\text{ m}}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Ett helt varv är \\(2\\pi\\) rad. När vinkeln är känd fås sträckan längs cirkeln av \\(s=r\\theta\\).</p><div class=\"facit-arbete\"><p>a) På en sekund gör hjulet 3,5 varv:</p><p>\\[\\theta=3,5\\cdot2\\pi=\\boxed{7\\pi\\text{ rad}}.\\]</p><p>b) En punkt på kanten rör sig båglängden</p><p>\\[s=0,32\\cdot7\\pi=2,24\\pi\\approx\\boxed{7,04\\text{ m}}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Sträckan ska vara 3,5 gånger hjulets omkrets \\(2\\pi\\cdot0,32\\), vilket ger samma resultat.</p></div>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur"
@@ -18219,7 +18130,7 @@ window.BANKMATO2 =
     ],
     "tolerans": [
       null,
-      null
+      0.02
     ],
     "självrättning": [
       true,
@@ -18240,18 +18151,24 @@ window.BANKMATO2 =
         "etikett": "a",
         "fraga": "<p>Bestäm hur många radianer hjulet roterar på en sekund.</p>",
         "s": "<p><div class=\"spel-en-del\">Ett varv är \\(2\\pi\\) rad. På en sekund roterar hjulet därför \\(3,5\\cdot2\\pi=\\boxed{7\\pi\\text{ rad}}\\).</div></p><p></p>",
-        "niva": "A"
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Hur långt rör sig en punkt på hjulets kant under en sekund?</p>",
         "s": "<p><div class=\"spel-en-del\">På formelbladet finns båglängden \\(b=vr\\). Här är \\(v=7\\pi\\) och \\(r=0,32\\):</div></p><p>\\[b=7\\pi\\cdot0,32=2,24\\pi\\approx\\boxed{7,04\\text{ m}}.\\]</p>",
-        "niva": "A"
+        "niva": "E",
+        "poang": "1/0/0"
       }
     ],
     "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
-    "spelIntro": "<p>Ett hjul med radien 0,32 m roterar med 3,5 varv per sekund.</p>"
+    "ledtrad": "<p>Börja med att skriva 3,5 varv som en vinkel i radianer. Använd sedan \\(s=r\\theta\\).</p>",
+    "spelIntro": "<p>Ett hjul med radien 0,32 m roterar med 3,5 varv per sekund.</p>",
+    "svarEnhet": [
+      "rad",
+      "m"
+    ]
   },
   {
     "id": "1.464",
@@ -18260,8 +18177,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkel har radien 4 cm. En båge spänner över vinkeln 1,2 rad. Bestäm båglängden.</p>",
@@ -18311,24 +18228,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En cirkel har radien 7,5 cm. En båge spänner över vinkeln 0,8 rad. Bestäm båglängden.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Radianer bygger på förhållandet mellan båglängd och radie. Därför kan samma geometri användas direkt utan en extra omvandlingsfaktor när vinkeln mäts i radianer.</p><p><strong>Nyckelidé:</strong> Radianmåttet är definierat så att \\(v=s/r\\). Därför är \\(s=rv\\).</p><p>\\[s=7,5\\cdot 0,8=6\\text{ cm}.\\]</p><p><strong>Svar:</strong> \\(\\boxed{6\\text{ cm}}\\).</p>",
+    "t": "<p>En cirkelbåge är 14 cm lång och medelpunktsvinkeln är 2,0 rad.</p><p>Bestäm cirkelns radie.</p>",
+    "s": "<p>\\[r=\\frac{s}{\\theta}=\\frac{14}{2,0}=\\boxed{7,0\\text{ cm}}.\\]</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
-    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 0.01,
+    "rättSvar": 7,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Lös ut radien ur \\(s=r\\theta\\).</p>",
+    "svarEnhet": "cm"
   },
   {
     "id": "1.260",
@@ -18362,24 +18279,25 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En cirkel har radien 3,2 cm. En båge spänner över vinkeln 2,5 rad. Bestäm båglängden.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Radianer bygger på förhållandet mellan båglängd och radie. Därför kan samma geometri användas direkt utan en extra omvandlingsfaktor när vinkeln mäts i radianer.</p><p><strong>Nyckelidé:</strong> Radianmåttet är definierat så att \\(v=s/r\\). Därför är \\(s=rv\\).</p><p>\\[s=3,2\\cdot 2,5=8\\text{ cm}.\\]</p><p><strong>Svar:</strong> \\(\\boxed{8\\text{ cm}}\\).</p>",
+    "t": "<p>En cirkelsektor har arean 18 cm² och radien 6,0 cm.</p><p>Bestäm sektorvinkeln i radianer.</p>",
+    "s": "<p>\\[18=\\frac12\\cdot6^2\\theta=18\\theta\\quad\\Rightarrow\\quad\\boxed{\\theta=1,0\\text{ rad}}.\\]</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur",
-      "begrepp"
+      "problemlösning"
     ],
-    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
     "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": 0.01,
+    "rättSvar": 1,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Sätt in arean och radien i \\(A=\\frac12r^2\\theta\\) och lös ut \\(\\theta\\).</p>",
+    "svarEnhet": "rad"
   },
   {
     "id": "1.261",
@@ -18415,22 +18333,22 @@ window.BANKMATO2 =
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En cirkel har radien 12 cm. En båge spänner över vinkeln 0,35 rad. Bestäm båglängden.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Radianer bygger på förhållandet mellan båglängd och radie. Därför kan samma geometri användas direkt utan en extra omvandlingsfaktor när vinkeln mäts i radianer.</p><p><strong>Nyckelidé:</strong> Radianmåttet är definierat så att \\(v=s/r\\). Därför är \\(s=rv\\).</p><p>\\[s=12\\cdot 0,35=4,2\\text{ cm}.\\]</p><p><strong>Svar:</strong> \\(\\boxed{4,2\\text{ cm}}\\).</p>",
+    "t": "<p>Två cirklar har radierna 6 cm och 9 cm. I båda cirklarna spänner en båge över samma vinkel.</p><p>Hur många gånger längre är bågen i den större cirkeln?</p>",
+    "s": "<p>Eftersom \\(s=r\\theta\\) och \\(\\theta\\) är samma i båda fallen är båglängden proportionell mot radien:</p><p>\\[\\frac{s_2}{s_1}=\\frac{9}{6}=\\boxed{1,5}.\\]</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
-    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.2,
-    "tolerans": 0.01,
+    "rättSvar": 1.5,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>I \\(s=r\\theta\\) är \\(\\theta\\) oförändrad. Jämför därför radierna.</p>"
   },
   {
     "id": "1.262",
@@ -18466,22 +18384,23 @@ window.BANKMATO2 =
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En cirkel har radien 5,5 cm. En båge spänner över vinkeln 1,6 rad. Bestäm båglängden.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Radianer bygger på förhållandet mellan båglängd och radie. Därför kan samma geometri användas direkt utan en extra omvandlingsfaktor när vinkeln mäts i radianer.</p><p><strong>Nyckelidé:</strong> Radianmåttet är definierat så att \\(v=s/r\\). Därför är \\(s=rv\\).</p><p>\\[s=5,5\\cdot 1,6=8,8\\text{ cm}.\\]</p><p><strong>Svar:</strong> \\(\\boxed{8,8\\text{ cm}}\\).</p>",
+    "t": "<p>En cirkelsektor har vinkeln 1,2 rad och arean 54 cm².</p><p>Bestäm cirkelns radie. Svara exakt.</p>",
+    "s": "<p>\\[54=\\frac12r^2\\cdot1,2=0,6r^2\\Rightarrow r^2=90.\\]</p><p>Alltså \\(r=\\boxed{3\\sqrt{10}\\text{ cm}}\\).</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur",
-      "begrepp"
+      "problemlösning"
     ],
-    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
-    "svarstyp": "numeriskt",
-    "rättSvar": 8.8,
-    "tolerans": 0.01,
+    "svarstyp": "uttryck",
+    "rättSvar": "3*sqrt(10)",
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Använd \\(A=\\frac12r^2\\theta\\) och lös ut \\(r\\).</p>",
+    "svarEnhet": "cm"
   },
   {
     "id": "1.263",
@@ -18490,22 +18409,63 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
+    "niva": "E",
+    "poang": "2/0/0",
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En cirkelsektor har radien 9 cm och båglängden \\(6\\pi\\) cm. Bestäm sektorns vinkel i radianer och grader.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Radianer bygger på förhållandet mellan båglängd och radie. Därför kan samma geometri användas direkt utan en extra omvandlingsfaktor när vinkeln mäts i radianer.</p><p><strong>Formel från formelbladet:</strong> \\(b=rv\\).</p><p>\\[v=\\frac br=\\frac{6\\pi}{9}=\\frac{2\\pi}{3}.\\]</p><p>Eftersom \\(\\pi\\) radianer motsvarar \\(180^\\circ\\) blir vinkeln \\(\\boxed{2\\pi/3=120^\\circ}\\).</p>",
+    "t": "<p>En cirkelsektor har radien 9 cm och båglängden \\(6\\pi\\) cm.</p><p>a) Bestäm sektorvinkeln i radianer.<br>b) Bestäm samma vinkel i grader.</p>",
+    "s": "<p>\\[\\theta=\\frac{6\\pi}{9}=\\frac{2\\pi}{3}\\text{ rad}=120^\\circ.\\]</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2*pi/3",
+      120
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      "uttryck",
+      "grader"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "",
     "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
+    "ledtrad": "<p>Använd \\(s=r\\theta\\) och omvandla sedan radianmåttet till grader.</p>",
+    "svarEnhet": [
+      "rad",
+      "°"
+    ],
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm sektorvinkeln i radianer.</p>",
+        "s": "<p>\\(\\theta=s/r=6\\pi/9=\\boxed{2\\pi/3}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm samma vinkel i grader.</p>",
+        "s": "<p>\\(2\\pi/3\\) rad motsvarar \\(\\boxed{120^\\circ}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.469",
@@ -18514,24 +18474,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En cirkel har radien 9 cm. En båge spänner över vinkeln 2,2 rad. Bestäm båglängden.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Radianer bygger på förhållandet mellan båglängd och radie. Därför kan samma geometri användas direkt utan en extra omvandlingsfaktor när vinkeln mäts i radianer.</p><p><strong>Nyckelidé:</strong> Radianmåttet är definierat så att \\(v=s/r\\). Därför är \\(s=rv\\).</p><p>\\[s=9\\cdot 2,2=19,8\\text{ cm}.\\]</p><p><strong>Svar:</strong> \\(\\boxed{19,8\\text{ cm}}\\).</p>",
+    "t": "<p>En sektor i en cirkel med radien 10 cm har arean 80 cm².</p><p>Bestäm medelpunktsvinkeln i radianer.</p>",
+    "s": "<p>\\[80=\\frac12\\cdot10^2\\theta=50\\theta\\Rightarrow\\boxed{\\theta=1,6\\text{ rad}}.\\]</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
-    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
     "svarstyp": "numeriskt",
-    "rättSvar": 19.8,
-    "tolerans": 0.01,
+    "rättSvar": 1.6,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Lös ut \\(\\theta\\) ur \\(A=\\frac12r^2\\theta\\).</p>",
+    "svarEnhet": "rad"
   },
   {
     "id": "1.264",
@@ -18540,8 +18500,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkelsektor har area \\(40\\pi\\text{ cm}^2\\) och radie 10 cm. Bestäm medelpunktsvinkeln i radianer.</p>",
@@ -18565,8 +18525,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkelsektor har radien 6 cm och medelpunktsvinkeln \\(\\pi/3\\) rad. Bestäm sektorns area.</p>",
@@ -18616,24 +18576,25 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
+    "niva": "E",
+    "poang": "2/0/0",
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En cirkelsektor har radien 4 cm och medelpunktsvinkeln \\(3\\pi/4\\) rad. Bestäm sektorns area.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Sektorarean är samma andel av hela cirkelarean som vinkeln är av ett helt varv. Därför används \\(A=\\frac12r^2v\\) när v mäts i radianer.</p><p>\\[A=\\frac12\\cdot4^2\\cdot\\frac{3\\pi}{4}=6\\pi\\text{ cm}^2.\\]</p><p><strong>Svar:</strong> \\(\\boxed{6\\pi\\text{ cm}^2}\\), vilket är ungefär \\(18,85\\text{ cm}^2\\).</p>",
+    "t": "<p>Spetsen på ett fläktblad är 0,45 m från rotationscentrum. Bladet vrids \\(2\\pi/3\\) rad.</p><p>Hur lång sträcka rör sig spetsen? Svara exakt.</p>",
+    "s": "<p>\\[s=r\\theta=0,45\\cdot\\frac{2\\pi}{3}=\\boxed{0,30\\pi\\text{ m}}.\\]</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur",
-      "begrepp"
+      "modellering"
     ],
-    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
-    "svarstyp": "numeriskt",
-    "rättSvar": 18.849556,
-    "tolerans": 0.02,
+    "svarstyp": "uttryck",
+    "rättSvar": "3*pi/10",
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Använd \\(s=r\\theta\\).</p>",
+    "svarEnhet": "m"
   },
   {
     "id": "1.472",
@@ -18643,23 +18604,23 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
+    "poang": "1/1/0",
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En cirkelsektor har radien 10 cm och medelpunktsvinkeln \\(0,5\\) rad. Bestäm sektorns area.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> En sektor med vinkeln \\(v\\) rad utgör andelen \\(v/(2\\pi)\\) av hela cirkeln. Därför blir arean \\(A=\\frac12r^2v\\).</p><p>Insättning ger \\(A\\approx 25\\text{ cm}^2\\).</p><p><strong>Svar:</strong> \\(\\boxed{25\\text{ cm}^2}\\).</p>",
+    "t": "<p>En skivtallrik roterar med \\(33\\frac13\\) varv per minut.</p><p>Hur stor vinkel hinner den rotera på 0,90 s? Svara exakt i radianer.</p>",
+    "s": "<p>\\(33\\frac13=100/3\\) varv/min, alltså \\(5/9\\) varv/s. På 0,90 s blir det</p><p>\\[\\frac59\\cdot0,90=\\frac12\\text{ varv}=\\boxed{\\pi\\text{ rad}}.\\]</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur",
-      "begrepp"
+      "modellering"
     ],
-    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
-    "svarstyp": "numeriskt",
-    "rättSvar": 25,
-    "tolerans": 0.02,
+    "svarstyp": "uttryck",
+    "rättSvar": "pi",
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Gör om rotationshastigheten till varv per sekund och bestäm sedan hur stor del av ett varv som görs.</p>"
   },
   {
     "id": "1.286",
@@ -18752,24 +18713,25 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En cirkelsektor har radien 8 cm och medelpunktsvinkeln \\(1,25\\) rad. Bestäm sektorns area.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> En sektor med vinkeln \\(v\\) rad utgör andelen \\(v/(2\\pi)\\) av hela cirkeln. Därför blir arean \\(A=\\frac12r^2v\\).</p><p>Insättning ger \\(A\\approx 40\\text{ cm}^2\\).</p><p><strong>Svar:</strong> \\(\\boxed{40\\text{ cm}^2}\\).</p>",
+    "t": "<p>En cirkelsektor har vinkeln 1,5 rad och arean 48 cm².</p><p>Bestäm radien.</p>",
+    "s": "<p>\\[48=\\frac12r^2\\cdot1,5=0,75r^2\\Rightarrow r^2=64.\\]</p><p>Alltså \\(\\boxed{r=8\\text{ cm}}\\).</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur",
-      "begrepp"
+      "problemlösning"
     ],
-    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
     "svarstyp": "numeriskt",
-    "rättSvar": 40,
-    "tolerans": 0.02,
+    "rättSvar": 8,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Sätt in givna värden i \\(A=\\frac12r^2\\theta\\).</p>",
+    "svarEnhet": "cm"
   },
   {
     "id": "1.287",
@@ -18778,8 +18740,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkelsektor har radien 9,0 cm och båglängden 12,0 cm.</p><p>a) Bestäm sektorvinkeln i radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm sektorarean.</p>",
@@ -18816,15 +18778,15 @@ window.BANKMATO2 =
         "etikett": "a",
         "fraga": "<p>Bestäm sektorvinkeln i radianer.</p>",
         "s": "<p><strong>Formelbladet:</strong> När vinkeln mäts i radianer gäller \\(b=vr\\) och \\(A=br/2\\).</p><p><div class=\"spel-en-del\">\\(v=b/r=12/9=\\)<strong>\\(4/3\\) rad</strong>.</div></p><p></p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm sektorarean.</p>",
         "s": "<p><strong>Formelbladet:</strong> När vinkeln mäts i radianer gäller \\(b=vr\\) och \\(A=br/2\\).</p><p><div class=\"spel-en-del\">\\(A=br/2=12\\cdot9/2=\\)<strong>54 cm²</strong>.</div></p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "niva": "E",
+        "poang": "1/0/0"
       }
     ],
     "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
@@ -18838,8 +18800,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En punkt rör sig i en cirkel med radien 2,5 m och gör ett helt varv på 12 s. Bestäm punktens fart.</p>",
@@ -18948,24 +18910,25 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En punkt rör sig i en cirkel med radien 1,8 m och gör ett helt varv på 9 s. Bestäm punktens fart.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Ett varv motsvarar \\(2\\pi\\) rad. Vinkelhastigheten är därför \\(\\omega=2\\pi/T\\), och den tangentiella farten blir \\(v=r\\omega\\).</p><p>\\[v=1,8\\cdot\\frac{2\\pi}{9}\\approx 1,257\\text{ m/s}.\\]</p><p><strong>Svar:</strong> \\(\\boxed{1,257\\text{ m/s}}\\).</p>",
+    "t": "<p>En punkt rör sig med farten 0,80 m/s i en cirkel med radien 0,20 m.</p><p>Bestäm vinkelhastigheten.</p>",
+    "s": "<p>Eftersom \\(v=r\\omega\\) fås</p><p>\\[\\omega=\\frac{v}{r}=\\frac{0,80}{0,20}=\\boxed{4,0\\text{ rad/s}}.\\]</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur",
-      "modellering"
+      "begrepp"
     ],
-    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.256637,
-    "tolerans": 0.01,
+    "rättSvar": 4,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Använd sambandet \\(v=r\\omega\\).</p>",
+    "svarEnhet": "rad/s"
   },
   {
     "id": "1.307",
@@ -18974,8 +18937,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En cirkelsektor har arean 30 cm² och radien 6,0 cm.</p><p>Bestäm sektorvinkeln i radianer.</p>",
@@ -18999,24 +18962,25 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En punkt rör sig i en cirkel med radien 3 m och gör ett helt varv på 20 s. Bestäm punktens fart.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Ett varv motsvarar \\(2\\pi\\) rad. Vinkelhastigheten är därför \\(\\omega=2\\pi/T\\), och den tangentiella farten blir \\(v=r\\omega\\).</p><p>\\[v=3\\cdot\\frac{2\\pi}{20}\\approx 0,942\\text{ m/s}.\\]</p><p><strong>Svar:</strong> \\(\\boxed{0,942\\text{ m/s}}\\).</p>",
+    "t": "<p>En roterande skiva har vinkelhastigheten \\(\\pi/3\\) rad/s.</p><p>Bestäm rotationens period.</p>",
+    "s": "<p>Under en period roterar skivan \\(2\\pi\\) rad. Därför</p><p>\\[T=\\frac{2\\pi}{\\pi/3}=\\boxed{6\\text{ s}}.\\]</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
       "procedur",
-      "modellering"
+      "begrepp"
     ],
-    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.942478,
-    "tolerans": 0.01,
+    "rättSvar": 6,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Hur lång tid tar det att rotera totalt \\(2\\pi\\) rad?</p>",
+    "svarEnhet": "s"
   },
   {
     "id": "1.319",
@@ -19115,8 +19079,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En cirkelbåge har samma längd som cirkelns radie. Hur stor är medelpunktsvinkeln i radianer? Förklara med definitionen av radian.</p>",
@@ -19231,8 +19195,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Två sektorer har samma radie. Den ena har dubbelt så stor medelpunktsvinkel som den andra. Jämför deras båglängder och areor och motivera.</p>",
@@ -19259,20 +19223,61 @@ window.BANKMATO2 =
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En cirkelsektor har båglängden 8,0 cm och arean 24 cm².</p><span class=\"fig smal\"><svg width=\"460\" height=\"300\" viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cirkelsektor med båglängden 8,0 cm, arean 24 kvadratcentimeter och medelpunktsvinkeln v\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M 130.0 215.0 L 248.0 215.0 A 118 118 0 0 0 157.8 100.3 Z\" fill=\"#DCEFF2\" fill-opacity=\".7\"/><line x1=\"130.0\" y1=\"215.0\" x2=\"248.0\" y2=\"215.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"215.0\" x2=\"157.8\" y2=\"100.3\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 248.0 215.0 A 118 118 0 0 0 157.8 100.3\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 164.0 215.0 A 34 34 0 0 0 138.0 182.0\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"1.8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"166.2\" y=\"190.6\" font-family=\"sans-serif\" font-size=\"13\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">v</text><text x=\"166.2\" y=\"190.6\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">v</text><circle cx=\"130.0\" cy=\"215.0\" r=\"4\" fill=\"#2B2527\"/><text x=\"189.0\" y=\"235.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">r</text><text x=\"189.0\" y=\"235.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">r</text><text x=\"249.6\" y=\"127.2\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">båglängd 8,0 cm</text><text x=\"249.6\" y=\"127.2\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">båglängd 8,0 cm</text></svg></span><p>Bestäm sektorns radie och vinkel i radianer.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Radianer bygger på förhållandet mellan båglängd och radie. Därför kan samma geometri användas direkt utan en extra omvandlingsfaktor när vinkeln mäts i radianer.</p><p><strong>Formelbladet:</strong> \\(A=br/2\\). Därför</p><p>\\[24=\\frac{8r}{2}=4r\\Rightarrow r=\\boxed{6\\text{ cm}}.\\]</p><p>Vidare gäller \\(b=vr\\), alltså</p><p>\\[v=b/r=8/6=\\boxed{4/3\\text{ rad}}.\\]</p>",
+    "t": "<p>En cirkelsektor har båglängden 8,0 cm och arean 24 cm².</p><p>a) Bestäm sektorns radie.<br>b) Bestäm medelpunktsvinkeln i radianer.</p>",
+    "s": "<p>Använd \\(A=\\frac12r^2\\theta\\) och \\(s=r\\theta\\). Eftersom \\(A=\\frac12rs\\) fås \\(r=6\\) cm och därefter \\(\\theta=8/6=4/3\\) rad.</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      "4/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "",
     "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>"
+    "ledtrad": "<p>Kombinera \\(s=r\\theta\\) med \\(A=\\frac12r^2\\theta\\). Du kan eliminera \\(\\theta\\).</p>",
+    "svarEnhet": [
+      "cm",
+      "rad"
+    ],
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm sektorns radie.</p>",
+        "s": "<p>Eftersom \\(A=\\frac12rs\\) när \\(s=r\\theta\\), fås \\(24=\\frac12r\\cdot8\\), alltså \\(\\boxed{r=6\\text{ cm}}\\).</p>",
+        "niva": "C",
+        "poang": "0/2/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medelpunktsvinkeln.</p>",
+        "s": "<p>\\(\\theta=s/r=8/6=\\boxed{4/3}\\) rad.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.479",
@@ -19281,24 +19286,25 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En sektor med radien \\(r\\) har arean lika stor som \\(r^2\\). Bestäm medelpunktsvinkeln i radianer.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Radianer bygger på förhållandet mellan båglängd och radie. Därför kan samma geometri användas direkt utan en extra omvandlingsfaktor när vinkeln mäts i radianer.</p><p><strong>Nyckelidé:</strong> Sektorarean är \\(A=\\frac12r^2v\\).</p><p>Sätt \\(\\frac12r^2v=r^2\\). Eftersom \\(r>0\\) kan \\(r^2\\) förkortas: \\(v/2=1\\).</p><p><strong>Svar:</strong> \\(\\boxed{v=2\\text{ rad}}\\).</p>",
+    "t": "<p>En cirkelsektor med radien \\(r\\) har arean \\(r^2\\).</p><p>Bestäm medelpunktsvinkeln i radianer.</p>",
+    "s": "<p>För en sektor gäller</p><p>\\[A=\\frac12r^2\\theta.\\]</p><p>Sätt \\(A=r^2\\):</p><p>\\[r^2=\\frac12r^2\\theta.\\]</p><p>För \\(r&gt;0\\) kan \\(r^2\\) förkortas bort, vilket ger \\(1=\\theta/2\\). Alltså \\(\\boxed{\\theta=2\\text{ rad}}\\).</p>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "begrepp",
+      "procedur",
       "resonemang"
     ],
-    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
-    "svarstyp": "manuell",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
     "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "spel": false
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
+    "ledtrad": "<p>Sätt sektorarean \\(r^2\\) lika med \\(\\frac12r^2\\theta\\).</p>",
+    "svarEnhet": "rad"
   },
   {
     "id": "1.02",
@@ -19472,20 +19478,19 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En periodisk storhet modelleras av \\(f(t)=3,2+1,1\\sin(2\\pi t/8)\\).</p><p>Bestäm modellens största värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p><strong>Nyckelidé:</strong> Sinus varierar mellan −1 och 1. Koefficienten 1,1 är amplituden och 3,2 är medellinjen.</p><p>Största värdet fås när sinus är 1: \\(3,2+1,1=4,3\\).</p><p><strong>Svar:</strong> \\(\\boxed{4,3}\\).</p>",
+    "t": "<p>En periodisk storhet modelleras av \\(f(t)=3,2+1,1\\sin(2\\pi t/8)\\).</p><p>Bestäm modellens minsta värde.</p>",
+    "s": "<p>Medellinjen är 3,2 och amplituden 1,1. Minsta värdet är därför</p><p>\\[3,2-1,1=\\boxed{2,1}.\\]</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
-      "begrepp",
-      "procedur"
+      "begrepp"
     ],
-    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
     "svarstyp": "numeriskt",
-    "rättSvar": 4.300000000000001,
-    "tolerans": 0,
+    "rättSvar": 2.1,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
+    "ledtrad": "<p>Minsta värdet är medellinjen minus amplituden.</p>"
   },
   {
     "id": "1.47",
@@ -19499,7 +19504,7 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En temperaturmodell antas vara en sinusmodell med perioden 24 h. Under ett dygn uppmäts högsta temperaturen 22 °C och lägsta 10 °C. Klockan 06.00 är temperaturen 16 °C och stigande.</p><p>a) Bestäm en sinusmodell som stämmer med uppgifterna.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) En ytterligare mätning visar 20 °C klockan 09.00. Avgör om den mätningen är förenlig med modellen och motivera.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Amplituden är 6, medellinjen 16 och \\(k=2\\pi/24=\\pi/12\\). Vid \\(t=6\\) ska sinusdelen vara 0 och växande, alltså kan vinkeln i sinusuttrycket vara 0 där:</p><p>\\[\\boxed{T(t)=16+6\\sin\\left(\\frac\\pi{12}(t-6)\\right)}.\\]</p><p>Vid \\(t=9\\):</p><p>\\[T(9)=16+6\\sin(\\pi/4)=16+3\\sqrt2\\approx20,24.\\]</p><p>Mätningen 20 °C är alltså <strong>inte exakt förenlig</strong> med den här modellen (avvikelsen är cirka 0,24 °C), även om den kan vara rimlig med mätosäkerhet.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Bestäm först medellinje, amplitud och period. Startläget avgör sedan fasförskjutningen.</p><div class=\"facit-arbete\"><p>Amplituden är 6, medellinjen 16 och \\(k=2\\pi/24=\\pi/12\\). Vid \\(t=6\\) ska sinusdelen vara 0 och växande, alltså kan vinkeln i sinusuttrycket vara 0 där:</p><p>\\[\\boxed{T(t)=16+6\\sin\\left(\\frac\\pi{12}(t-6)\\right)}.\\]</p><p>Vid \\(t=9\\):</p><p>\\[T(9)=16+6\\sin(\\pi/4)=16+3\\sqrt2\\approx20,24.\\]</p><p>Mätningen 20 °C är alltså <strong>inte exakt förenlig</strong> med den här modellen (avvikelsen är cirka 0,24 °C), även om den kan vara rimlig med mätosäkerhet.</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Modellen ger max 22, min 10, period 24 h och passerar 16 °C uppåt vid \\(t=6\\).</p></div>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
@@ -19527,20 +19532,19 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En periodisk storhet modelleras av \\(f(t)=65+15\\sin(2\\pi t/10)\\).</p><p>Bestäm modellens största värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p><strong>Nyckelidé:</strong> Sinus varierar mellan −1 och 1. Koefficienten 15 är amplituden och 65 är medellinjen.</p><p>Största värdet fås när sinus är 1: \\(65+15=80\\).</p><p><strong>Svar:</strong> \\(\\boxed{80}\\).</p>",
+    "t": "<p>En periodisk storhet modelleras av \\(f(t)=65+15\\sin(2\\pi t/10)\\).</p><p>Bestäm modellens period.</p>",
+    "s": "<p>I uttrycket \\(\\sin(2\\pi t/T)\\) är \\(T\\) perioden. Här är därför \\(\\boxed{T=10}\\).</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
-      "begrepp",
-      "procedur"
+      "begrepp"
     ],
-    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
     "svarstyp": "numeriskt",
-    "rättSvar": 80,
-    "tolerans": 0,
+    "rättSvar": 10,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
+    "ledtrad": "<p>Jämför med standardformen \\(\\sin(2\\pi t/T)\\).</p>"
   },
   {
     "id": "1.60",
@@ -19581,20 +19585,60 @@ window.BANKMATO2 =
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Vattendjupet i en hamn modelleras under ett dygn av</p><p>\\[d(t)=2,8+1,1\\sin\\left(\\frac{\\pi}{6}(t-1,5)\\right),\\qquad0\\le t\\le24,\\]</p><p>där \\(d\\) mäts i meter och \\(t\\) i timmar efter midnatt.</p><p>Under vilka tidsintervall är djupet större än \\(3,4\\) m? Hur lång är den sammanlagda tiden?</p>",
-    "s": "<p>Gränserna fås när \\(d(t)=3,4\\). Det ger</p><p>\\[t\\approx2,602;\\ 6,398;\\ 14,602;\\ 18,398.\\]</p><p>Grafen ligger över \\(3,4\\) m mellan den första och andra samt mellan den tredje och fjärde skärningen.</p><p>\\[\\boxed{2,602&lt;t&lt;6,398\\quad\\text{eller}\\quad14,602&lt;t&lt;18,398}.\\]</p><p>Sammanlagd tid:</p><p>\\[2(6,398-2,602)\\approx\\boxed{7,59\\text{ h}}.\\]</p>",
+    "t": "<p>Vattendjupet i en hamn modelleras under ett dygn av</p><p>\\[d(t)=2,8+1,1\\sin\\left(\\frac{\\pi}{6}(t-1,5)\\right),\\qquad0\\le t\\le24,\\]</p><p>där \\(d\\) mäts i meter och \\(t\\) i timmar efter midnatt.</p><p>a) Ange start och slut för de två tidsintervall då djupet är större än 3,4 m.<br>b) Bestäm den sammanlagda tiden.</p>",
+    "s": "<p>Gränserna fås ur \\(d(t)=3,4\\). På \\(0\\le t\\le24\\) blir de</p><p>\\[t\\approx2,602;\\ 6,398;\\ 14,602;\\ 18,398.\\]</p><p>Eftersom djupet ligger över 3,4 m mellan den första och andra respektive den tredje och fjärde gränsen:</p><p>\\[\\boxed{2,602&lt;t&lt;6,398}\\quad\\text{eller}\\quad\\boxed{14,602&lt;t&lt;18,398}.\\]</p><p>Den sammanlagda tiden är</p><p>\\[2(6,398-2,602)\\approx\\boxed{7,59\\text{ h}}.\\]</p>",
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
       "modellering",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.602,
+      6.398,
+      14.602,
+      18.398,
+      7.59
+    ],
+    "tolerans": [
+      0.003,
+      0.003,
+      0.003,
+      0.003,
+      0.02
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
     "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Börja med att lösa gränsekvationen \\(d(t)=3,4\\). Använd sedan grafens läge för att avgöra vilka delar mellan gränserna som uppfyller olikheten.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "h",
+      "h",
+      "h",
+      "h",
+      "h"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "intervall 1 start",
+      "intervall 1 slut",
+      "intervall 2 start",
+      "intervall 2 slut",
+      "sammanlagd tid"
+    ]
   },
   {
     "id": "1.483",
@@ -19607,20 +19651,20 @@ window.BANKMATO2 =
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En periodisk storhet modelleras av \\(f(t)=120+30\\sin(2\\pi t/6)\\).</p><p>Bestäm modellens största värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p><strong>Nyckelidé:</strong> Sinus varierar mellan −1 och 1. Koefficienten 30 är amplituden och 120 är medellinjen.</p><p>Största värdet fås när sinus är 1: \\(120+30=150\\).</p><p><strong>Svar:</strong> \\(\\boxed{150}\\).</p>",
-    "familj": "Tolka och bestämma trigonometriska modeller",
+    "t": "<p>En periodisk storhet modelleras av \\(f(t)=120+30\\sin(2\\pi t/6)\\).</p><p>Bestäm den första tidpunkten \\(t&gt;0\\) då modellen når sitt största värde.</p>",
+    "s": "<p>Sinus är som störst när vinkeln är \\(\\pi/2\\). Därför</p><p>\\[\\frac{2\\pi t}{6}=\\frac\\pi2\\Rightarrow t=\\boxed{1,5}.\\]</p>",
+    "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
-      "begrepp",
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
     "svarstyp": "numeriskt",
-    "rättSvar": 150,
-    "tolerans": 0,
+    "rättSvar": 1.5,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
+    "ledtrad": "<p>Vilket vinkelvärde gör sinus lika med 1?</p>"
   },
   {
     "id": "1.76",
@@ -19634,7 +19678,7 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En sensors höjd över ett golv varierar periodiskt. Grafen visar hur höjden varierar.</p>\n<span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"520\" height=\"300\" viewBox=\"0 0 520 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Periodisk cosinuskurva med maximum 11 vid t 2, minimum 3 vid t 8 och nästa maximum vid t 14, samt streckad linje y lika med 9\">\n<rect x=\"1\" y=\"1\" width=\"518\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<g stroke=\"#E3E7EB\" stroke-width=\"1\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"250\"/><line x1=\"110\" y1=\"40\" x2=\"110\" y2=\"250\"/><line x1=\"160\" y1=\"40\" x2=\"160\" y2=\"250\"/><line x1=\"210\" y1=\"40\" x2=\"210\" y2=\"250\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"250\"/><line x1=\"310\" y1=\"40\" x2=\"310\" y2=\"250\"/><line x1=\"360\" y1=\"40\" x2=\"360\" y2=\"250\"/><line x1=\"410\" y1=\"40\" x2=\"410\" y2=\"250\"/><line x1=\"460\" y1=\"40\" x2=\"460\" y2=\"250\"/><line x1=\"55\" y1=\"197\" x2=\"465\" y2=\"197\"/><line x1=\"55\" y1=\"165\" x2=\"465\" y2=\"165\"/><line x1=\"55\" y1=\"133\" x2=\"465\" y2=\"133\"/><line x1=\"55\" y1=\"101\" x2=\"465\" y2=\"101\"/><line x1=\"55\" y1=\"69\" x2=\"465\" y2=\"69\"/></g>\n<line x1=\"55\" y1=\"245\" x2=\"475\" y2=\"245\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M475 245 l-9 -5 v10 z\" fill=\"#2B2527\"/>\n<line x1=\"60\" y1=\"258\" x2=\"60\" y2=\"30\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M60 30 l-5 9 h10 z\" fill=\"#2B2527\"/>\n<line x1=\"60\" y1=\"101\" x2=\"460\" y2=\"101\" stroke=\"#8A8F96\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/>\n<polyline points=\"60.0,101.0 62.5,98.1 65.0,95.4 67.5,92.7 70.0,90.2 72.5,87.7 75.0,85.4 77.5,83.3 80.0,81.2 82.5,79.3 85.0,77.6 87.5,76.0 90.0,74.5 92.5,73.3 95.0,72.1 97.5,71.2 100.0,70.4 102.5,69.8 105.0,69.4 107.5,69.1 110.0,69.0 112.5,69.1 115.0,69.4 117.5,69.8 120.0,70.4 122.5,71.2 125.0,72.1 127.5,73.3 130.0,74.5 132.5,76.0 135.0,77.6 137.5,79.3 140.0,81.2 142.5,83.3 145.0,85.4 147.5,87.7 150.0,90.2 152.5,92.7 155.0,95.4 157.5,98.1 160.0,101.0 162.5,103.9 165.0,107.0 167.5,110.1 170.0,113.2 172.5,116.4 175.0,119.7 177.5,123.0 180.0,126.3 182.5,129.7 185.0,133.0 187.5,136.3 190.0,139.7 192.5,143.0 195.0,146.3 197.5,149.6 200.0,152.8 202.5,155.9 205.0,159.0 207.5,162.1 210.0,165.0 212.5,167.9 215.0,170.6 217.5,173.3 220.0,175.8 222.5,178.3 225.0,180.6 227.5,182.7 230.0,184.8 232.5,186.7 235.0,188.4 237.5,190.0 240.0,191.5 242.5,192.7 245.0,193.9 247.5,194.8 250.0,195.6 252.5,196.2 255.0,196.6 257.5,196.9 260.0,197.0 262.5,196.9 265.0,196.6 267.5,196.2 270.0,195.6 272.5,194.8 275.0,193.9 277.5,192.7 280.0,191.5 282.5,190.0 285.0,188.4 287.5,186.7 290.0,184.8 292.5,182.7 295.0,180.6 297.5,178.3 300.0,175.8 302.5,173.3 305.0,170.6 307.5,167.9 310.0,165.0 312.5,162.1 315.0,159.0 317.5,155.9 320.0,152.8 322.5,149.6 325.0,146.3 327.5,143.0 330.0,139.7 332.5,136.3 335.0,133.0 337.5,129.7 340.0,126.3 342.5,123.0 345.0,119.7 347.5,116.4 350.0,113.2 352.5,110.1 355.0,107.0 357.5,103.9 360.0,101.0 362.5,98.1 365.0,95.4 367.5,92.7 370.0,90.2 372.5,87.7 375.0,85.4 377.5,83.3 380.0,81.2 382.5,79.3 385.0,77.6 387.5,76.0 390.0,74.5 392.5,73.3 395.0,72.1 397.5,71.2 400.0,70.4 402.5,69.8 405.0,69.4 407.5,69.1 410.0,69.0 412.5,69.1 415.0,69.4 417.5,69.8 420.0,70.4 422.5,71.2 425.0,72.1 427.5,73.3 430.0,74.5 432.5,76.0 435.0,77.6 437.5,79.3 440.0,81.2 442.5,83.3 445.0,85.4 447.5,87.7 450.0,90.2 452.5,92.7 455.0,95.4 457.5,98.1 460.0,101.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<g fill=\"#B43123\"><circle cx=\"110\" cy=\"69\" r=\"4\"/><circle cx=\"260\" cy=\"197\" r=\"4\"/><circle cx=\"410\" cy=\"69\" r=\"4\"/></g>\n<text x=\"480\" y=\"249\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">t (h)</text><text x=\"68\" y=\"32\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">h</text>\n<text x=\"110\" y=\"272\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">2</text><text x=\"260\" y=\"272\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">8</text><text x=\"410\" y=\"272\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">14</text>\n<text x=\"43\" y=\"201\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">3</text><text x=\"43\" y=\"105\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">9</text><text x=\"43\" y=\"73\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">11</text>\n</svg></span>\n<p>a) Bestäm en modell på formen \\(h(t)=A\\cos(k(t-t_0))+B\\) som stämmer med grafen.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Hur lång tid under en period är sensorn minst 9 höjdenheter över golvet?<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Ange de två tidsintervall under \\(2\\le t\\le14\\) där villkoret \\(h(t)\\ge9\\) gäller.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Maxvärdet är 11 och minvärdet 3. Alltså</p><p>\\[A=\\frac{11-3}{2}=4,\\qquad B=\\frac{11+3}{2}=7.\\]</p>\n<p>Två maxima ligger vid \\(t=2\\) och \\(t=14\\), så perioden är 12 och</p><p>\\[k=\\frac{2\\pi}{12}=\\frac\\pi6.\\]</p>\n<p>a) En modell är därför</p><p><strong>\\[h(t)=4\\cos\\left(\\frac\\pi6(t-2)\\right)+7.\\]</strong></p>\n<p>b) Villkoret \\(h(t)\\ge9\\) ger</p><p>\\[4\\cos\\left(\\frac\\pi6(t-2)\\right)+7\\ge9\\]</p><p>\\[\\cos\\left(\\frac\\pi6(t-2)\\right)\\ge\\frac12.\\]</p>\n<p>I en hel period motsvarar detta vinklar från \\(-\\pi/3\\) till \\(\\pi/3\\), alltså en skillnaden mellan vinklarna \\(2\\pi/3\\). Tiden blir</p><p>\\[\\frac{2\\pi/3}{\\pi/6}=4\\text{ h}.\\]</p>\n<p>c) Kring maximum vid \\(t=2\\) gäller villkoret från \\(t=0\\) till \\(t=4\\). Kring nästa maximum vid \\(t=14\\) gäller det från \\(t=12\\) till \\(t=16\\). Begränsat till \\(2\\le t\\le14\\) blir därför <strong>\\([2,4]\\) och \\([12,14]\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Läs av max, min och period ur grafen. Använd därefter nivåvillkoret för att bestämma de tidsintervall som efterfrågas.</p><div class=\"facit-arbete\"><p>Maxvärdet är 11 och minvärdet 3. Alltså</p><p>\\[A=\\frac{11-3}{2}=4,\\qquad B=\\frac{11+3}{2}=7.\\]</p>\n<p>Två maxima ligger vid \\(t=2\\) och \\(t=14\\), så perioden är 12 och</p><p>\\[k=\\frac{2\\pi}{12}=\\frac\\pi6.\\]</p>\n<p>a) En modell är därför</p><p><strong>\\[h(t)=4\\cos\\left(\\frac\\pi6(t-2)\\right)+7.\\]</strong></p>\n<p>b) Villkoret \\(h(t)\\ge9\\) ger</p><p>\\[4\\cos\\left(\\frac\\pi6(t-2)\\right)+7\\ge9\\]</p><p>\\[\\cos\\left(\\frac\\pi6(t-2)\\right)\\ge\\frac12.\\]</p>\n<p>I en hel period motsvarar detta vinklar från \\(-\\pi/3\\) till \\(\\pi/3\\), alltså en skillnaden mellan vinklarna \\(2\\pi/3\\). Tiden blir</p><p>\\[\\frac{2\\pi/3}{\\pi/6}=4\\text{ h}.\\]</p>\n<p>c) Kring maximum vid \\(t=2\\) gäller villkoret från \\(t=0\\) till \\(t=4\\). Kring nästa maximum vid \\(t=14\\) gäller det från \\(t=12\\) till \\(t=16\\). Begränsat till \\(2\\le t\\le14\\) blir därför <strong>\\([2,4]\\) och \\([12,14]\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Intervallen tillsammans har längden 4 h, vilket är en tredjedel av perioden 12 h.</p></div>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
@@ -19705,23 +19749,57 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En periodisk storhet modelleras av \\(f(t)=25+5\\sin(2\\pi t/14)\\).</p><p>Bestäm modellens största värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p><strong>Nyckelidé:</strong> Sinus varierar mellan −1 och 1. Koefficienten 5 är amplituden och 25 är medellinjen.</p><p>Största värdet fås när sinus är 1: \\(25+5=30\\).</p><p><strong>Svar:</strong> \\(\\boxed{30}\\).</p>",
+    "t": "<p>En periodisk storhet modelleras av \\(f(t)=25+5\\sin(2\\pi t/14)\\).</p><p>a) Bestäm medellinjen.<br>b) Bestäm amplituden.</p>",
+    "s": "<p>Medellinjen är \\(25\\) och amplituden är \\(5\\).</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
-      "begrepp",
-      "procedur"
+      "begrepp"
     ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      25,
+      5
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "",
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "svarstyp": "numeriskt",
-    "rättSvar": 30,
-    "tolerans": 0,
-    "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "numeriskt"
+    "ledtrad": "<p>I formen \\(D+A\\sin(\\ldots)\\) är \\(D\\) medellinjen och \\(|A|\\) amplituden.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medellinjen.</p>",
+        "s": "<p>Konstanttermen ger medellinjen: \\(\\boxed{25}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm amplituden.</p>",
+        "s": "<p>Amplituden är absolutbeloppet av sinuskoefficienten: \\(\\boxed{5}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.88",
@@ -19735,7 +19813,7 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En havsboj rör sig vertikalt enligt modellen \\(h(t)=1,8+0,65\\sin(0,9t-0,4)\\), där \\(h\\) mäts i meter och \\(t\\) i sekunder.</p><p>Under hur stor del av en period är bojens höjd minst 2,20 m? Svara i procent.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Villkoret är \\(\\sin(0,9t-0,4)\\ge(2,20-1,8)/0,65=8/13\\).</p><p>Sätt \\(\\alpha=\\arcsin(8/13)\\). Under en period gäller villkoret när vinkeln i sinusuttrycket ligger mellan \\(\\alpha\\) och \\(\\pi-\\alpha\\), alltså under ett vinkelintervall med längden \\(\\pi-2\\alpha\\).</p><p>Andelen är \\(\\frac{\\pi-2\\alpha}{2\\pi}\\approx0,289\\).</p><p><strong>Cirka 28,9 % av perioden.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Översätt höjdvillkoret till ett villkor på sinus och jämför det gynnsamma vinkelintervallet med en hel period.</p><div class=\"facit-arbete\"><p>Villkoret är \\(\\sin(0,9t-0,4)\\ge(2,20-1,8)/0,65=8/13\\).</p><p>Sätt \\(\\alpha=\\arcsin(8/13)\\). Under en period gäller villkoret när vinkeln i sinusuttrycket ligger mellan \\(\\alpha\\) och \\(\\pi-\\alpha\\), alltså under ett vinkelintervall med längden \\(\\pi-2\\alpha\\).</p><p>Andelen är \\(\\frac{\\pi-2\\alpha}{2\\pi}\\approx0,289\\).</p><p><strong>Cirka 28,9 % av perioden.</strong></p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Andelen måste vara mindre än 50 %, eftersom gränsen 2,20 m ligger över medellinjen 1,8 m.</p></div>",
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
@@ -19759,23 +19837,57 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En periodisk storhet modelleras av \\(f(t)=8+2\\sin(2\\pi t/5)\\).</p><p>Bestäm modellens största värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p><strong>Nyckelidé:</strong> Sinus varierar mellan −1 och 1. Koefficienten 2 är amplituden och 8 är medellinjen.</p><p>Största värdet fås när sinus är 1: \\(8+2=10\\).</p><p><strong>Svar:</strong> \\(\\boxed{10}\\).</p>",
+    "t": "<p>En periodisk storhet modelleras av \\(f(t)=8+2\\sin(2\\pi t/5)\\).</p><p>a) Bestäm modellens minsta värde.<br>b) Bestäm modellens största värde.</p>",
+    "s": "<p>Eftersom sinus ligger mellan −1 och 1 varierar modellen mellan \\(6\\) och \\(10\\).</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
-      "begrepp",
-      "procedur"
+      "begrepp"
     ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      10
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "",
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": 0,
-    "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "numeriskt"
+    "ledtrad": "<p>Använd medellinjen 8 och amplituden 2.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm minsta värdet.</p>",
+        "s": "<p>\\(8-2=\\boxed{6}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm största värdet.</p>",
+        "s": "<p>\\(8+2=\\boxed{10}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.90",
@@ -19845,23 +19957,24 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En periodisk storhet modelleras av \\(f(t)=50+20\\sin(2\\pi t/16)\\).</p><p>Bestäm modellens största värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p><strong>Nyckelidé:</strong> Sinus varierar mellan −1 och 1. Koefficienten 20 är amplituden och 50 är medellinjen.</p><p>Största värdet fås när sinus är 1: \\(50+20=70\\).</p><p><strong>Svar:</strong> \\(\\boxed{70}\\).</p>",
+    "t": "<p>Temperaturen under en del av ett dygn modelleras av</p><p>\\[T(t)=16+4\\sin\\left(\\frac{\\pi t}{12}\\right),\\]</p><p>där \\(T\\) mäts i °C och \\(t\\) i timmar.</p><p>Bestäm temperaturens förändringshastighet vid \\(t=3\\). Svara exakt.</p>",
+    "s": "<p>Derivera modellen:</p><p>\\[T'(t)=4\\cdot\\frac\\pi{12}\\cos\\left(\\frac{\\pi t}{12}\\right)=\\frac\\pi3\\cos\\left(\\frac{\\pi t}{12}\\right).\\]</p><p>Vid \\(t=3\\):</p><p>\\[T'(3)=\\frac\\pi3\\cos\\frac\\pi4=\\boxed{\\frac{\\pi\\sqrt2}{6}}\\text{ °C/h}.\\]</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
-      "begrepp",
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "svarstyp": "numeriskt",
-    "rättSvar": 70,
-    "tolerans": 0,
+    "svarstyp": "uttryck",
+    "rättSvar": "pi*sqrt(2)/6",
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck",
+    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
+    "ledtrad": "<p>Derivera sinusmodellen med kedjeregeln och sätt sedan in \\(t=3\\).</p>",
+    "svarEnhet": "°C/h"
   },
   {
     "id": "1.97",
@@ -19898,24 +20011,64 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
+    "niva": "C",
+    "poang": "1/1/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En periodisk storhet modelleras av \\(f(t)=1,5+0,4\\sin(2\\pi t/3)\\).</p><p>Bestäm modellens största värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p><strong>Nyckelidé:</strong> Sinus varierar mellan −1 och 1. Koefficienten 0,4 är amplituden och 1,5 är medellinjen.</p><p>Största värdet fås när sinus är 1: \\(1,5+0,4=1,9\\).</p><p><strong>Svar:</strong> \\(\\boxed{1,9}\\).</p>",
+    "t": "<p>Vattennivån vid en kaj modelleras av</p><p>\\[h(t)=6+5\\cos\\left(\\frac{\\pi t}{6}\\right),\\]</p><p>där \\(h\\) mäts i meter och \\(t\\) i timmar.</p><p>a) Bestäm skillnaden mellan högsta och lägsta vattennivå.<br>b) Bestäm \\(h'(3)\\). Svara exakt.</p>",
+    "s": "<p>a) Skillnaden är \\(10\\) m.</p><p>b) \\(h'(t)=-\\frac{5\\pi}{6}\\sin(\\pi t/6)\\), så \\(h'(3)=-5\\pi/6\\) m/h.</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "begrepp",
-      "procedur"
+      "procedur",
+      "modellering"
     ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      "-5*pi/6"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "",
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "svarstyp": "numeriskt",
-    "rättSvar": 1.9,
-    "tolerans": 0,
-    "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "numeriskt"
+    "ledtrad": "<p>I a) räcker amplituden. I b) behöver du derivera modellen.</p>",
+    "svarEnhet": [
+      "m",
+      "m/h"
+    ],
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm skillnaden mellan högsta och lägsta vattennivå.</p>",
+        "s": "<p>Amplituden är 5, så skillnaden mellan max och min är \\(2\\cdot5=\\boxed{10\\text{ m}}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(h'(3)\\).</p>",
+        "s": "<p>\\(h'(t)=-\\frac{5\\pi}{6}\\sin(\\pi t/6)\\). Därför \\(h'(3)=\\boxed{-5\\pi/6}\\) m/h.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.127",
@@ -19925,7 +20078,7 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "A",
-    "poang": "0/1/3",
+    "poang": "0/1/2",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Två modeller för vattennivån i en hamn är</p><p>\\[h_A(t)=2+1,2\\cos\\left(\\frac{\\pi t}{6}\\right)\\]</p><p>och</p><p>\\[h_B(t)=2+0,8\\cos\\left(\\frac{\\pi(t-1)}6\\right),\\]</p><p>där \\(t\\) mäts i timmar.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"450\" height=\"250\" viewBox=\"0 0 450 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"448\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"147.0\" y1=\"20\" x2=\"147.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"242.0\" y1=\"20\" x2=\"242.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"337.0\" y1=\"20\" x2=\"337.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"432.0\" y1=\"20\" x2=\"432.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"180.0\" x2=\"432\" y2=\"180.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"116.0\" x2=\"432\" y2=\"116.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"52.0\" x2=\"432\" y2=\"52.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"212\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<text x=\"52.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">0</text>\n<text x=\"147.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">3</text>\n<text x=\"242.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">6</text>\n<text x=\"337.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">9</text>\n<text x=\"432.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">12</text>\n<text x=\"44\" y=\"184.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">1</text>\n<text x=\"44\" y=\"120.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">2</text>\n<text x=\"44\" y=\"56.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">3</text>\n<path d=\"M52.0,39.2 L53.6,39.2 L55.2,39.3 L56.8,39.4 L58.3,39.6 L59.9,39.9 L61.5,40.1 L63.1,40.5 L64.7,40.9 L66.2,41.3 L67.8,41.8 L69.4,42.4 L71.0,43.0 L72.6,43.6 L74.2,44.3 L75.8,45.0 L77.3,45.8 L78.9,46.7 L80.5,47.6 L82.1,48.5 L83.7,49.5 L85.2,50.5 L86.8,51.6 L88.4,52.7 L90.0,53.9 L91.6,55.1 L93.2,56.3 L94.8,57.6 L96.3,58.9 L97.9,60.3 L99.5,61.7 L101.1,63.1 L102.7,64.6 L104.2,66.1 L105.8,67.7 L107.4,69.2 L109.0,70.9 L110.6,72.5 L112.2,74.2 L113.8,75.9 L115.3,77.6 L116.9,79.4 L118.5,81.1 L120.1,82.9 L121.7,84.8 L123.2,86.6 L124.8,88.5 L126.4,90.4 L128.0,92.3 L129.6,94.2 L131.2,96.1 L132.8,98.1 L134.3,100.0 L135.9,102.0 L137.5,104.0 L139.1,106.0 L140.7,108.0 L142.2,110.0 L143.8,112.0 L145.4,114.0 L147.0,116.0 L148.6,118.0 L150.2,120.0 L151.8,122.0 L153.3,124.0 L154.9,126.0 L156.5,128.0 L158.1,130.0 L159.7,132.0 L161.2,133.9 L162.8,135.9 L164.4,137.8 L166.0,139.7 L167.6,141.6 L169.2,143.5 L170.8,145.4 L172.3,147.2 L173.9,149.1 L175.5,150.9 L177.1,152.6 L178.7,154.4 L180.2,156.1 L181.8,157.8 L183.4,159.5 L185.0,161.1 L186.6,162.8 L188.2,164.3 L189.8,165.9 L191.3,167.4 L192.9,168.9 L194.5,170.3 L196.1,171.7 L197.7,173.1 L199.2,174.4 L200.8,175.7 L202.4,176.9 L204.0,178.1 L205.6,179.3 L207.2,180.4 L208.8,181.5 L210.3,182.5 L211.9,183.5 L213.5,184.4 L215.1,185.3 L216.7,186.2 L218.2,187.0 L219.8,187.7 L221.4,188.4 L223.0,189.0 L224.6,189.6 L226.2,190.2 L227.8,190.7 L229.3,191.1 L230.9,191.5 L232.5,191.9 L234.1,192.1 L235.7,192.4 L237.2,192.6 L238.8,192.7 L240.4,192.8 L242.0,192.8 L243.6,192.8 L245.2,192.7 L246.8,192.6 L248.3,192.4 L249.9,192.1 L251.5,191.9 L253.1,191.5 L254.7,191.1 L256.2,190.7 L257.8,190.2 L259.4,189.6 L261.0,189.0 L262.6,188.4 L264.2,187.7 L265.8,187.0 L267.3,186.2 L268.9,185.3 L270.5,184.4 L272.1,183.5 L273.7,182.5 L275.2,181.5 L276.8,180.4 L278.4,179.3 L280.0,178.1 L281.6,176.9 L283.2,175.7 L284.8,174.4 L286.3,173.1 L287.9,171.7 L289.5,170.3 L291.1,168.9 L292.7,167.4 L294.2,165.9 L295.8,164.3 L297.4,162.8 L299.0,161.1 L300.6,159.5 L302.2,157.8 L303.8,156.1 L305.3,154.4 L306.9,152.6 L308.5,150.9 L310.1,149.1 L311.7,147.2 L313.2,145.4 L314.8,143.5 L316.4,141.6 L318.0,139.7 L319.6,137.8 L321.2,135.9 L322.8,133.9 L324.3,132.0 L325.9,130.0 L327.5,128.0 L329.1,126.0 L330.7,124.0 L332.2,122.0 L333.8,120.0 L335.4,118.0 L337.0,116.0 L338.6,114.0 L340.2,112.0 L341.8,110.0 L343.3,108.0 L344.9,106.0 L346.5,104.0 L348.1,102.0 L349.7,100.0 L351.2,98.1 L352.8,96.1 L354.4,94.2 L356.0,92.3 L357.6,90.4 L359.2,88.5 L360.8,86.6 L362.3,84.8 L363.9,82.9 L365.5,81.1 L367.1,79.4 L368.7,77.6 L370.2,75.9 L371.8,74.2 L373.4,72.5 L375.0,70.9 L376.6,69.2 L378.2,67.7 L379.8,66.1 L381.3,64.6 L382.9,63.1 L384.5,61.7 L386.1,60.3 L387.7,58.9 L389.2,57.6 L390.8,56.3 L392.4,55.1 L394.0,53.9 L395.6,52.7 L397.2,51.6 L398.8,50.5 L400.3,49.5 L401.9,48.5 L403.5,47.6 L405.1,46.7 L406.7,45.8 L408.2,45.0 L409.8,44.3 L411.4,43.6 L413.0,43.0 L414.6,42.4 L416.2,41.8 L417.8,41.3 L419.3,40.9 L420.9,40.5 L422.5,40.1 L424.1,39.9 L425.7,39.6 L427.2,39.4 L428.8,39.3 L430.4,39.2 L432.0,39.2\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\"/>\n<path d=\"M52.0,71.7 L53.6,71.0 L55.2,70.4 L56.8,69.8 L58.3,69.2 L59.9,68.7 L61.5,68.2 L63.1,67.7 L64.7,67.3 L66.2,66.9 L67.8,66.5 L69.4,66.2 L71.0,65.9 L72.6,65.7 L74.2,65.4 L75.8,65.2 L77.3,65.1 L78.9,65.0 L80.5,64.9 L82.1,64.8 L83.7,64.8 L85.2,64.8 L86.8,64.9 L88.4,65.0 L90.0,65.1 L91.6,65.2 L93.2,65.4 L94.8,65.7 L96.3,65.9 L97.9,66.2 L99.5,66.5 L101.1,66.9 L102.7,67.3 L104.2,67.7 L105.8,68.2 L107.4,68.7 L109.0,69.2 L110.6,69.8 L112.2,70.4 L113.8,71.0 L115.3,71.7 L116.9,72.3 L118.5,73.1 L120.1,73.8 L121.7,74.6 L123.2,75.4 L124.8,76.2 L126.4,77.1 L128.0,78.0 L129.6,78.9 L131.2,79.8 L132.8,80.8 L134.3,81.7 L135.9,82.7 L137.5,83.8 L139.1,84.8 L140.7,85.9 L142.2,87.0 L143.8,88.1 L145.4,89.2 L147.0,90.4 L148.6,91.6 L150.2,92.8 L151.8,94.0 L153.3,95.2 L154.9,96.4 L156.5,97.7 L158.1,98.9 L159.7,100.2 L161.2,101.5 L162.8,102.7 L164.4,104.0 L166.0,105.4 L167.6,106.7 L169.2,108.0 L170.8,109.3 L172.3,110.6 L173.9,112.0 L175.5,113.3 L177.1,114.7 L178.7,116.0 L180.2,117.3 L181.8,118.7 L183.4,120.0 L185.0,121.4 L186.6,122.7 L188.2,124.0 L189.8,125.3 L191.3,126.6 L192.9,128.0 L194.5,129.3 L196.1,130.5 L197.7,131.8 L199.2,133.1 L200.8,134.3 L202.4,135.6 L204.0,136.8 L205.6,138.0 L207.2,139.2 L208.8,140.4 L210.3,141.6 L211.9,142.8 L213.5,143.9 L215.1,145.0 L216.7,146.1 L218.2,147.2 L219.8,148.2 L221.4,149.3 L223.0,150.3 L224.6,151.2 L226.2,152.2 L227.8,153.1 L229.3,154.0 L230.9,154.9 L232.5,155.8 L234.1,156.6 L235.7,157.4 L237.2,158.2 L238.8,158.9 L240.4,159.7 L242.0,160.3 L243.6,161.0 L245.2,161.6 L246.8,162.2 L248.3,162.8 L249.9,163.3 L251.5,163.8 L253.1,164.3 L254.7,164.7 L256.2,165.1 L257.8,165.5 L259.4,165.8 L261.0,166.1 L262.6,166.3 L264.2,166.6 L265.8,166.8 L267.3,166.9 L268.9,167.0 L270.5,167.1 L272.1,167.2 L273.7,167.2 L275.2,167.2 L276.8,167.1 L278.4,167.0 L280.0,166.9 L281.6,166.8 L283.2,166.6 L284.8,166.3 L286.3,166.1 L287.9,165.8 L289.5,165.5 L291.1,165.1 L292.7,164.7 L294.2,164.3 L295.8,163.8 L297.4,163.3 L299.0,162.8 L300.6,162.2 L302.2,161.6 L303.8,161.0 L305.3,160.3 L306.9,159.7 L308.5,158.9 L310.1,158.2 L311.7,157.4 L313.2,156.6 L314.8,155.8 L316.4,154.9 L318.0,154.0 L319.6,153.1 L321.2,152.2 L322.8,151.2 L324.3,150.3 L325.9,149.3 L327.5,148.2 L329.1,147.2 L330.7,146.1 L332.2,145.0 L333.8,143.9 L335.4,142.8 L337.0,141.6 L338.6,140.4 L340.2,139.2 L341.8,138.0 L343.3,136.8 L344.9,135.6 L346.5,134.3 L348.1,133.1 L349.7,131.8 L351.2,130.5 L352.8,129.3 L354.4,128.0 L356.0,126.6 L357.6,125.3 L359.2,124.0 L360.8,122.7 L362.3,121.4 L363.9,120.0 L365.5,118.7 L367.1,117.3 L368.7,116.0 L370.2,114.7 L371.8,113.3 L373.4,112.0 L375.0,110.6 L376.6,109.3 L378.2,108.0 L379.8,106.7 L381.3,105.4 L382.9,104.0 L384.5,102.7 L386.1,101.5 L387.7,100.2 L389.2,98.9 L390.8,97.7 L392.4,96.4 L394.0,95.2 L395.6,94.0 L397.2,92.8 L398.8,91.6 L400.3,90.4 L401.9,89.2 L403.5,88.1 L405.1,87.0 L406.7,85.9 L408.2,84.8 L409.8,83.8 L411.4,82.7 L413.0,81.7 L414.6,80.8 L416.2,79.8 L417.8,78.9 L419.3,78.0 L420.9,77.1 L422.5,76.2 L424.1,75.4 L425.7,74.6 L427.2,73.8 L428.8,73.1 L430.4,72.3 L432.0,71.7\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.3\"/>\n<text x=\"347\" y=\"37\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#B43123\">modell A</text><text x=\"347\" y=\"55\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#268FA3\">modell B</text>\n</svg></span><p>Bestäm den första tidpunkten efter \\(t=0\\) då modellerna ger samma vattennivå. Lös algebraiskt och svara med två decimaler.</p>",
@@ -19937,12 +20090,14 @@ window.BANKMATO2 =
       "resonemang",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.72,
+    "tolerans": 0.02,
+    "självrättning": true,
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "h"
   },
   {
     "id": "1.488",
@@ -19983,19 +20138,55 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Antalet timmar dagsljus på en plats modelleras med</p><p>\\[L(t)=12,4+5,2\\sin\\left(\\frac{2\\pi}{365}(t-80)\\right),\\qquad0\\le t\\le365,\\]</p><p>där \\(t=1\\) motsvarar årets första dag.</p><p>Bestäm mellan vilka ungefärliga dagnummer modellen ger mer än 16 timmars dagsljus.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Gränserna fås när \\(L(t)=16\\):</p><p>\\[12,4+5,2\\sin\\left(\\frac{2\\pi}{365}(t-80)\\right)=16.\\]</p><p>De två lösningarna under året är</p><p>\\[t\\approx124,422\\quad\\text{och}\\quad t\\approx218,078.\\]</p><p>Mellan dessa tidpunkter ligger kurvan över 16.</p><p>\\[\\boxed{124&lt;t&lt;218\\text{ ungefär}}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Bestäm först de två tidpunkter då modellen är exakt 16 timmar. Mellan dem ligger sinuskurvan över gränsen.</p><div class=\"facit-arbete\"><p>Gränserna fås när \\(L(t)=16\\):</p><p>\\[12,4+5,2\\sin\\left(\\frac{2\\pi}{365}(t-80)\\right)=16.\\]</p><p>De två lösningarna under året är</p><p>\\[t\\approx124,422\\quad\\text{och}\\quad t\\approx218,078.\\]</p><p>Mellan dessa tidpunkter ligger kurvan över 16.</p><p>\\[\\boxed{124&lt;t&lt;218\\text{ ungefär}}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Mitt emellan gränserna ligger modellens sommarmaximum, så det är rimligt att dagsljuset är över 16 timmar just där.</p></div>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
       "modellering",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      124.422,
+      218.078
+    ],
+    "tolerans": [
+      0.6,
+      0.6
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "från",
+      "till"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm gränserna för intervallet där dagsljuset är mer än 16 timmar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "från",
+        "fraga": "<p>Ungefär från vilket dagnummer?</p>",
+        "s": "<p>Den första gränsen är ungefär <strong>dag 124</strong>.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "till",
+        "fraga": "<p>Ungefär till vilket dagnummer?</p>",
+        "s": "<p>Den andra gränsen är ungefär <strong>dag 218</strong>.</p>",
+        "niva": "C",
+        "poang": "0/2/0"
+      }
+    ]
   },
   {
     "id": "1.489",
@@ -20092,8 +20283,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "1/2/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Vattendjupet i en liten hamn kan under ett dygn beskrivas med modellen</p><p>\\[d(t)=2,4+0,8\\sin\\!\\left(\\frac{\\pi}{6}(t-1)\\right)\\]</p><p>där \\(d\\) mäts i meter och \\(t\\) är antal timmar efter midnatt.</p><p>a) Bestäm modellens största och minsta djup.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm när djupet är 2,4 m första gången efter midnatt.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Förklara vad perioden betyder i den här situationen.</p>",
@@ -20122,24 +20313,70 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En temperatur varierar mellan 14 °C och 26 °C med perioden 24 h. Vid t=0 passerar temperaturen medellinjen uppåt.</p><p>Skriv en möjlig trigonometrisk modell \\(f(t)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Medellinjen är medelvärdet av max och min, amplituden är halva skillnaden och vinkelfrekvensen är \\(2\\pi/T\\).</p><p><strong>Varför val av sinus/cosinus?</strong> Startläget avgör fasen. Ett minimum vid \\(t=0\\) passar \\(-\\cos\\), ett maximum passar \\(+\\cos\\), och en passage genom medellinjen uppåt passar \\(+\\sin\\).</p><p><strong>Svar:</strong> En möjlig modell är \\(\\boxed{f(t)=20+6\\sin\\left(\\frac{2\\pi}{24}t\\right)}\\).</p>",
+    "t": "<p>En temperatur varierar periodiskt mellan \\(14^\\circ\\text{C}\\) och \\(26^\\circ\\text{C}\\) med perioden 24 h.</p><p>Temperaturen är som högst klockan 15.00.</p><p>Bestäm \\(D\\), \\(A\\) och \\(c\\) i modellen</p><p>\\[T(t)=D+A\\cos\\left(\\frac{\\pi}{12}(t-c)\\right),\\qquad A&gt;0.\\]</p>",
+    "s": "<p>\\(D=20\\), \\(A=6\\) och \\(c=15\\). Modellen kan alltså skrivas \\(T(t)=20+6\\cos(\\frac\\pi{12}(t-15))\\).</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
-      "modellering",
-      "begrepp",
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      6,
+      15
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "",
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "svarstyp": "uttryck",
-    "rättSvar": "f(t)=20+6\\sin(\\frac{2\\pi}{24}t)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "uttryck"
+    "ledtrad": "<p>Bestäm medellinje och amplitud från max/min. Använd sedan tidpunkten för maximum för fasförskjutningen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(D\\).</p>",
+        "s": "<p>Medellinjen är \\((26+14)/2=\\boxed{20}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(A\\).</p>",
+        "s": "<p>Amplituden är \\((26-14)/2=\\boxed{6}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm \\(c\\).</p>",
+        "s": "<p>Cosinus når maximum när argumentet är 0. Maximum klockan 15 ger \\(\\boxed{c=15}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.170",
@@ -20148,8 +20385,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Temperaturen under ett dygn modelleras med</p><p>\\[T(t)=m+A\\cos\\!\\left(\\frac{\\pi}{12}(t-c)\\right),\\qquad 0\\le t\\le24\\]</p><p>där \\(t\\) är tiden i timmar efter midnatt. Under dygnet är lägsta temperaturen \\(12^\\circ\\text{C}\\), högsta temperaturen \\(20^\\circ\\text{C}\\) och maximum inträffar klockan 15.</p><p>Bestäm \\(m\\), \\(A\\) och \\(c\\).</p>",
@@ -20161,11 +20398,59 @@ window.BANKMATO2 =
       "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      16,
+      4,
+      15
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "m",
+      "A",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm modellens tre parametrar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "m",
+        "fraga": "<p>Bestäm \\(m\\).</p>",
+        "s": "<p>\\(m=(20+12)/2=\\boxed{16}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "A",
+        "fraga": "<p>Bestäm \\(A\\).</p>",
+        "s": "<p>\\(A=(20-12)/2=\\boxed{4}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm \\(c\\).</p>",
+        "s": "<p>Maximum vid \\(t=15\\) ger \\(\\boxed{c=15}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.491",
@@ -20175,24 +20460,70 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En maskindels förskjutning varierar mellan −3 cm och 3 cm med perioden 0,8 s och startar i maximiläget.</p><p>Skriv en möjlig trigonometrisk modell \\(f(t)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Medellinjen är medelvärdet av max och min, amplituden är halva skillnaden och vinkelfrekvensen är \\(2\\pi/T\\).</p><p><strong>Varför val av sinus/cosinus?</strong> Startläget avgör fasen. Ett minimum vid \\(t=0\\) passar \\(-\\cos\\), ett maximum passar \\(+\\cos\\), och en passage genom medellinjen uppåt passar \\(+\\sin\\).</p><p><strong>Svar:</strong> En möjlig modell är \\(\\boxed{f(t)=0+3\\cos\\left(\\frac{2\\pi}{0,8}t\\right)}\\).</p>",
+    "t": "<p>En periodisk signal har största värdet 90, minsta värdet 10 och perioden 12 tidsenheter. Vid \\(t=0\\) är signalen i sitt minimum.</p><p>Bestäm \\(D\\), \\(A\\) och \\(B\\) i modellen</p><p>\\[f(t)=D-A\\cos(Bt),\\qquad A&gt;0,\\ B&gt;0.\\]</p>",
+    "s": "<p>Modellen är \\(f(t)=50-40\\cos(\\pi t/6)\\). Alltså \\(D=50\\), \\(A=40\\) och \\(B=\\pi/6\\).</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
-      "modellering",
-      "begrepp",
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50,
+      40,
+      "pi/6"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "",
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "svarstyp": "uttryck",
-    "rättSvar": "f(t)=0+3\\cos(\\frac{2\\pi}{0.8}t)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "uttryck"
+    "ledtrad": "<p>Medellinje och amplitud fås från max/min. Perioden bestämmer \\(B\\) genom \\(T=2\\pi/B\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(D\\).</p>",
+        "s": "<p>Medellinjen är \\((90+10)/2=\\boxed{50}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(A\\).</p>",
+        "s": "<p>Amplituden är \\((90-10)/2=\\boxed{40}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm \\(B\\).</p>",
+        "s": "<p>Period 12 ger \\(B=2\\pi/12=\\boxed{\\pi/6}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.174",
@@ -20206,7 +20537,7 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En periodisk storhet beskrivs av</p><p>\\[f(t)=7+3\\sin\\left(\\frac{\\pi}{4}(t-2)\\right).\\]</p><p>Bestäm funktionens</p><p>a) medellinje<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) amplitud<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) period.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>a) Konstanten utanför sinusdelen är medellinjen: \\(\\boxed{y=7}\\).</p><p>b) Amplituden är \\(\\boxed{3}\\).</p><p>c) För \\(\\sin(kt)\\) är perioden \\(2\\pi/k\\). Här är \\(k=\\pi/4\\), så</p><p>\\[T=\\frac{2\\pi}{\\pi/4}=\\boxed{8}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Jämför direkt med formen \\(D+A\\sin(k(t-c))\\): \\(D\\) är medellinje, \\(|A|\\) amplitud och perioden är \\(2\\pi/|k|\\).</p><div class=\"facit-arbete\"><p>a) Konstanten utanför sinusdelen är medellinjen: \\(\\boxed{y=7}\\).</p><p>b) Amplituden är \\(\\boxed{3}\\).</p><p>c) För \\(\\sin(kt)\\) är perioden \\(2\\pi/k\\). Här är \\(k=\\pi/4\\), så</p><p>\\[T=\\frac{2\\pi}{\\pi/4}=\\boxed{8}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Perioden 8 följer också av att argumentet ökar med \\(2\\pi\\) när \\(t\\) ökar med 8.</p></div>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
@@ -20276,25 +20607,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Dagsljusets längd modelleras mellan 6 h och 18 h med årsperiod 365 dygn och är som kortast vid t=0.</p><p>Skriv en möjlig trigonometrisk modell \\(f(t)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Medellinjen är medelvärdet av max och min, amplituden är halva skillnaden och vinkelfrekvensen är \\(2\\pi/T\\).</p><p><strong>Varför val av sinus/cosinus?</strong> Startläget avgör fasen. Ett minimum vid \\(t=0\\) passar \\(-\\cos\\), ett maximum passar \\(+\\cos\\), och en passage genom medellinjen uppåt passar \\(+\\sin\\).</p><p><strong>Svar:</strong> En möjlig modell är \\(\\boxed{f(t)=12-6\\cos\\left(\\frac{2\\pi}{365}t\\right)}\\).</p>",
-    "familj": "Tolka och bestämma trigonometriska modeller",
+    "t": "<p>Dagsljusets längd modelleras av</p><p>\\[L(t)=12+6\\cos\\left(\\frac{2\\pi}{365}(t-172)\\right),\\]</p><p>där \\(t\\) är årets dagnummer.</p><p>Vilket dagnummer inträffar modellens minimum?</p>",
+    "s": "<p>Minimum kommer en halv period efter maximum. Halva perioden är \\(365/2=182,5\\) dygn.</p><p>\\[172+182,5=354,5.\\]</p><p>Modellens minimum inträffar alltså ungefär dag \\(\\boxed{355}\\).</p>",
+    "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
-      "modellering",
       "begrepp",
-      "procedur"
+      "modellering"
     ],
-    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "svarstyp": "uttryck",
-    "rättSvar": "f(t)=12-6\\cos(\\frac{2\\pi}{365}t)",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 354.5,
+    "tolerans": 0.6,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "uttryck"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
+    "ledtrad": "<p>Cosinusmodellen har maximum vid \\(t=172\\). Hur långt efter ett maximum kommer ett minimum?</p>"
   },
   {
     "id": "1.175",
@@ -20308,7 +20638,7 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En sinusformad modell har största värdet 18 och minsta värdet 6. Perioden är 10 tidsenheter. Vid \\(t=2\\) passerar grafen sin medellinje i stigande riktning.</p><p>Bestäm en möjlig modell på formen</p><p>\\[f(t)=m+A\\sin(k(t-c)).\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Medellinjen är</p><p>\\[m=\\frac{18+6}{2}=12.\\]</p><p>Amplituden är</p><p>\\[A=\\frac{18-6}{2}=6.\\]</p><p>Perioden 10 ger \\(k=2\\pi/10=\\pi/5\\).</p><p>När en sinuskurva passerar medellinjen i stigande riktning kan vinkeln i sinusuttrycket sättas till 0. Det sker vid \\(t=2\\), alltså kan \\(c=2\\).</p><p>En möjlig modell är därför</p><p>\\[\\boxed{f(t)=12+6\\sin\\left(\\frac{\\pi}{5}(t-2)\\right)}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Max och min ger medellinje och amplitud. Perioden ger \\(k\\), och en stigande passage genom medellinjen ger en naturlig fasförskjutning.</p><div class=\"facit-arbete\"><p>Medellinjen är</p><p>\\[m=\\frac{18+6}{2}=12.\\]</p><p>Amplituden är</p><p>\\[A=\\frac{18-6}{2}=6.\\]</p><p>Perioden 10 ger \\(k=2\\pi/10=\\pi/5\\).</p><p>När en sinuskurva passerar medellinjen i stigande riktning kan vinkeln i sinusuttrycket sättas till 0. Det sker vid \\(t=2\\), alltså kan \\(c=2\\).</p><p>En möjlig modell är därför</p><p>\\[\\boxed{f(t)=12+6\\sin\\left(\\frac{\\pi}{5}(t-2)\\right)}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Modellen har max 18, min 6, period 10 och passerar medellinjen uppåt vid \\(t=2\\).</p></div>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
@@ -20316,12 +20646,13 @@ window.BANKMATO2 =
       "modellering",
       "problemlösning"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "12+6*sin(pi*(t-2)/5)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.493",
@@ -20330,25 +20661,25 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En boj rör sig mellan 1,2 m och 3,6 m över botten med perioden 5 s och börjar i medellinjen på väg uppåt.</p><p>Skriv en möjlig trigonometrisk modell \\(f(t)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Medellinjen är medelvärdet av max och min, amplituden är halva skillnaden och vinkelfrekvensen är \\(2\\pi/T\\).</p><p><strong>Varför val av sinus/cosinus?</strong> Startläget avgör fasen. Ett minimum vid \\(t=0\\) passar \\(-\\cos\\), ett maximum passar \\(+\\cos\\), och en passage genom medellinjen uppåt passar \\(+\\sin\\).</p><p><strong>Svar:</strong> En möjlig modell är \\(\\boxed{f(t)=2,4+1,2\\sin\\left(\\frac{2\\pi}{5}t\\right)}\\).</p>",
-    "familj": "Tolka och bestämma trigonometriska modeller",
+    "t": "<p>Vattennivån modelleras av</p><p>\\[h(t)=3+1,2\\sin\\left(\\frac{\\pi}{6}(t-1)\\right).\\]</p><p>Bestäm den första tidpunkten \\(t&gt;1\\) då vattennivån åter är 3 m.</p>",
+    "s": "<p>Nivån 3 m fås när sinusdelen är 0. Efter \\(t=1\\) är nästa nollställe när argumentet är \\(\\pi\\):</p><p>\\[\\frac\\pi6(t-1)=\\pi\\Rightarrow t-1=6\\Rightarrow\\boxed{t=7}.\\]</p>",
+    "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
-      "modellering",
-      "begrepp",
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "svarstyp": "uttryck",
-    "rättSvar": "f(t)=2.4+1.2\\sin(\\frac{2\\pi}{5}t)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "uttryck"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
+    "ledtrad": "<p>Sätt sinusdelen lika med 0 och välj nästa nollställe efter argumentet 0.</p>",
+    "svarEnhet": "h"
   },
   {
     "id": "1.338",
@@ -20362,19 +20693,41 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Höjden för en stol i en åkattraktion modelleras av</p><p>\\[h(t)=14+11\\cos\\left(\\frac{\\pi}{18}(t-5)\\right),\\qquad0\\le t\\le36,\\]</p><p>där \\(h\\) mäts i meter och \\(t\\) i sekunder.</p><p>Bestäm de tidpunkter då stolen är 20 m över marken. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Vi löser \\(h(t)=20\\):</p><p>\\[14+11\\cos\\left(\\frac{\\pi}{18}(t-5)\\right)=20.\\]</p><p>De två lösningarna under varvet är</p><p>\\[\\boxed{t\\approx10,69\\text{ s}\\quad\\text{och}\\quad t\\approx35,31\\text{ s}}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>Sätt \\(h(t)=20\\):</p><p>\\[14+11\\cos\\left(\\frac{\\pi}{18}(t-5)\\right)=20.\\]</p><p>Då är \\(\\cos(\\frac{\\pi}{18}(t-5))=6/11\\). De två lösningarna på \\(0\\le t\\le36\\) blir</p><p>\\[\\boxed{t\\approx10,69\\text{ s}}\\quad\\text{och}\\quad\\boxed{t\\approx35,31\\text{ s}}.\\]</p>",
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
       "modellering",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.69,
+      35.31
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Sätt modellen lika med 20 och lös cosinusekvationen. Ett helt varv ger två lösningar.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "s",
+      "s"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "tid 1",
+      "tid 2"
+    ]
   },
   {
     "id": "1.494",
@@ -20383,25 +20736,25 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En växelspänning varierar mellan −12 V och 12 V med perioden 0,02 s och är 0 V vid t=0 på väg uppåt.</p><p>Skriv en möjlig trigonometrisk modell \\(f(t)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Medellinjen är medelvärdet av max och min, amplituden är halva skillnaden och vinkelfrekvensen är \\(2\\pi/T\\).</p><p><strong>Varför val av sinus/cosinus?</strong> Startläget avgör fasen. Ett minimum vid \\(t=0\\) passar \\(-\\cos\\), ett maximum passar \\(+\\cos\\), och en passage genom medellinjen uppåt passar \\(+\\sin\\).</p><p><strong>Svar:</strong> En möjlig modell är \\(\\boxed{f(t)=0+12\\sin\\left(\\frac{2\\pi}{0,02}t\\right)}\\).</p>",
-    "familj": "Tolka och bestämma trigonometriska modeller",
+    "t": "<p>En växelspänning modelleras av</p><p>\\[U(t)=12\\sin(100\\pi t),\\]</p><p>där \\(t\\) mäts i sekunder.</p><p>Bestäm den första tidpunkten \\(t&gt;0\\) då spänningen når sitt minimivärde.</p>",
+    "s": "<p>Minimum fås när sinus är −1, alltså när argumentet först är \\(3\\pi/2\\):</p><p>\\[100\\pi t=\\frac{3\\pi}{2}\\Rightarrow\\boxed{t=0,015\\text{ s}}.\\]</p>",
+    "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
-      "modellering",
-      "begrepp",
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "svarstyp": "uttryck",
-    "rättSvar": "f(t)=0+12\\sin(\\frac{2\\pi}{0.02}t)",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.015,
+    "tolerans": 1e-06,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "uttryck"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
+    "ledtrad": "<p>Vilket är det första positiva vinkelvärdet där sinus är −1?</p>",
+    "svarEnhet": "s"
   },
   {
     "id": "1.176",
@@ -20415,19 +20768,41 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Höjden \\(h\\) meter för en gondol i ett pariserhjul modelleras av</p><p>\\[h(t)=18-14\\cos\\left(\\frac{\\pi}{20}t\\right),\\qquad 0\\le t\\le40,\\]</p><p>där \\(t\\) mäts i sekunder.</p><p>Bestäm de tider under det första varvet då gondolen är 25 m över marken. Svara med en decimals noggrannhet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Sätt \\(h(t)=25\\):</p><p>\\[18-14\\cos\\left(\\frac{\\pi t}{20}\\right)=25.\\]</p><p>Då fås</p><p>\\[\\cos\\left(\\frac{\\pi t}{20}\\right)=-\\frac12.\\]</p><p>Under ett varv är vinklarna \\(2\\pi/3\\) och \\(4\\pi/3\\). Alltså</p><p>\\[\\frac{\\pi t}{20}=\\frac{2\\pi}{3}\\Rightarrow t=\\frac{40}{3}\\approx13,3\\]</p><p>och</p><p>\\[\\frac{\\pi t}{20}=\\frac{4\\pi}{3}\\Rightarrow t=\\frac{80}{3}\\approx26,7.\\]</p><p>Gondolen är på 25 m höjd efter \\(\\boxed{13,3\\text{ s}}\\) och \\(\\boxed{26,7\\text{ s}}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>Sätt \\(h(t)=25\\):</p><p>\\[18-14\\cos\\left(\\frac{\\pi t}{20}\\right)=25\\Rightarrow \\cos\\left(\\frac{\\pi t}{20}\\right)=-\\frac12.\\]</p><p>Under ett varv är vinklarna \\(2\\pi/3\\) och \\(4\\pi/3\\). Därför</p><p>\\[t=\\frac{40}{3}\\approx\\boxed{13,3\\text{ s}},\\qquad t=\\frac{80}{3}\\approx\\boxed{26,7\\text{ s}}.\\]</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
       "modellering",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13.3,
+      26.7
+    ],
+    "tolerans": [
+      0.05,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Sätt höjdmodellen lika med 25. När du har löst cosinusekvationen, kontrollera att båda lösningarna ligger i första varvet.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "s",
+      "s"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "tid 1",
+      "tid 2"
+    ]
   },
   {
     "id": "1.495",
@@ -20436,25 +20811,25 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En satellits signalstyrka varierar mellan 40 och 70 enheter med perioden 90 min och startar i maximiläget.</p><p>Skriv en möjlig trigonometrisk modell \\(f(t)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Medellinjen är medelvärdet av max och min, amplituden är halva skillnaden och vinkelfrekvensen är \\(2\\pi/T\\).</p><p><strong>Varför val av sinus/cosinus?</strong> Startläget avgör fasen. Ett minimum vid \\(t=0\\) passar \\(-\\cos\\), ett maximum passar \\(+\\cos\\), och en passage genom medellinjen uppåt passar \\(+\\sin\\).</p><p><strong>Svar:</strong> En möjlig modell är \\(\\boxed{f(t)=55+15\\cos\\left(\\frac{2\\pi}{90}t\\right)}\\).</p>",
+    "t": "<p>En signal modelleras av</p><p>\\[S(t)=55+15\\cos\\left(\\frac{\\pi t}{45}\\right).\\]</p><p>Hur lång tid går det mellan två efterföljande maximipunkter?</p>",
+    "s": "<p>Perioden för \\(\\cos(kt)\\) är \\(T=2\\pi/k\\). Här är \\(k=\\pi/45\\):</p><p>\\[T=\\frac{2\\pi}{\\pi/45}=\\boxed{90\\text{ min}}.\\]</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
-      "modellering",
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "svarstyp": "uttryck",
-    "rättSvar": "f(t)=55+15\\cos(\\frac{2\\pi}{90}t)",
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "uttryck"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
+    "ledtrad": "<p>Bestäm perioden från koefficienten framför \\(t\\).</p>",
+    "svarEnhet": "min"
   },
   {
     "id": "1.177",
@@ -20463,8 +20838,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/3",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Två sensorer registrerar samma periodiska rörelse. Modellerna är</p><p>\\[f(t)=4+2\\sin\\left(\\frac{\\pi}{3}t\\right)\\]</p><p>och</p><p>\\[g(t)=4+2\\cos\\left(\\frac{\\pi}{3}t\\right).\\]</p><p>Bestäm den första positiva tiden då sensorerna visar samma värde. Förklara också varför samma tidsmellanrum återkommer mellan sådana tillfällen.</p>",
@@ -20492,8 +20867,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Storheten modelleras av \\(h(t)=18+12\\cdot \\sin(\\pi\\cdot t/10-\\pi/2)\\).</p><p>Bestäm värdet när \\(t=0\\).</p>",
@@ -20518,8 +20893,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "1/2/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Höjden över marken för en gondol i ett pariserhjul modelleras av</p><p>\\[h(t)=14-12\\cos\\left(\\frac{\\pi t}{20}\\right),\\]</p><p>där \\(t\\) mäts i sekunder.</p><p>a) Bestäm största och minsta höjd.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm hur lång tid ett varv tar.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm första tidpunkten då gondolen är 14 m över marken.</p>",
@@ -20585,22 +20960,22 @@ window.BANKMATO2 =
           "största höjd",
           "minsta höjd"
         ],
-        "niva": "C",
-        "poang": "0/1/0"
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm hur lång tid ett varv tar.</p>",
         "s": "<strong>b)</strong> Perioden är \\(T=2\\pi/(\\pi/20)=\\boxed{40\\text{ s}}\\).",
-        "niva": "C",
-        "poang": "0/1/0"
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>Bestäm första tidpunkten då gondolen är 14 m över marken.</p>",
         "s": "<strong>c)</strong> \\(h=14\\) ger cosinusdelen 0. Första gången \\(\\pi t/20=\\pi/2\\), alltså \\(t=\\boxed{10\\text{ s}}\\).",
-        "niva": "A",
-        "poang": "0/0/1"
+        "niva": "C",
+        "poang": "0/1/0"
       }
     ],
     "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
@@ -20614,24 +20989,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Storheten modelleras av \\(T(t)=16+7\\cdot \\sin(\\pi\\cdot t/12)\\).</p><p>Bestäm värdet när \\(t=6\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Här är modellen redan given, så uppgiften är att tolka tiden korrekt och sätta in den i hela vinkeluttrycket.</p><p>Efter insättning förenklas vinkeln och det trigonometriska värdet bestäms.</p><p><strong>Svar:</strong> \\(\\boxed{23}\\).</p>",
-    "familj": "Tidpunkter och intervall i trigonometriska modeller",
+    "t": "<p>Temperaturen modelleras av \\(T(t)=16+7\\sin(\\pi t/12)\\), där \\(t\\) mäts i timmar.</p><p>Bestäm \\(T'(6)\\). Svara exakt.</p>",
+    "s": "<p>\\[T'(t)=\\frac{7\\pi}{12}\\cos\\left(\\frac{\\pi t}{12}\\right).\\]</p><p>Vid \\(t=6\\) är argumentet \\(\\pi/2\\), så</p><p>\\[T'(6)=\\boxed{0}.\\]</p>",
+    "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
     "svarstyp": "numeriskt",
-    "rättSvar": 23,
-    "tolerans": 0.02,
+    "rättSvar": 0,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
+    "ledtrad": "<p>Derivera modellen och sätt sedan in \\(t=6\\).</p>"
   },
   {
     "id": "1.266",
@@ -20640,12 +21015,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En periodisk temperaturmodell har formen \\(T(t)=a+b\\sin(c(t-d))\\). Under ett dygn är temperaturen som högst 24 °C och som lägst 12 °C. Tiden mellan två efterföljande maximipunkter är 24 h och temperaturen passerar medellinjen uppåt klockan 09.00.</p><p>Bestäm en möjlig modell.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Medellinjen är \\(a=(24+12)/2=18\\) och amplituden \\(b=(24-12)/2=6\\).</p><p>Period 24 ger \\(c=2\\pi/24=\\pi/12\\).</p><p>Sinus passerar medellinjen uppåt när vinkeln i sinusuttrycket är 0. Välj därför \\(d=9\\).</p><p>En möjlig modell är \\(\\boxed{T(t)=18+6\\sin(\\frac{\\pi}{12}(t-9))}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Bestäm medellinje och amplitud från extremvärdena, perioden från tiden mellan maxima och fasen från den stigande medellinjepassagen.</p><div class=\"facit-arbete\"><p>Medellinjen är \\(a=(24+12)/2=18\\) och amplituden \\(b=(24-12)/2=6\\).</p><p>Period 24 ger \\(c=2\\pi/24=\\pi/12\\).</p><p>Sinus passerar medellinjen uppåt när vinkeln i sinusuttrycket är 0. Välj därför \\(d=9\\).</p><p>En möjlig modell är \\(\\boxed{T(t)=18+6\\sin(\\frac{\\pi}{12}(t-9))}\\).</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Modellen har medellinje 18, amplitud 6, period 24 h och passerar 18 °C uppåt vid \\(t=9\\).</p></div>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
@@ -20653,12 +21028,13 @@ window.BANKMATO2 =
       "modellering",
       "problemlösning"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "18+6*sin(pi*(t-9)/12)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.339",
@@ -20672,7 +21048,7 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Temperaturen på två platser modelleras under ett år av</p><p>\\[T_1(t)=8+10\\sin\\left(\\frac{2\\pi}{365}(t-100)\\right)\\]</p><p>och</p><p>\\[T_2(t)=5+13\\sin\\left(\\frac{2\\pi}{365}(t-115)\\right),\\]</p><p>där \\(t\\) är dagnummer.</p><p>Bestäm de två tidpunkter under året då modellerna ger samma temperatur.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Vi söker skärningarna mellan modellerna, alltså lösningarna till \\(T_1(t)=T_2(t)\\).</p><p>Under ett år fås</p><p>\\[\\boxed{t\\approx199,2\\quad\\text{och}\\quad t\\approx289,2}.\\]</p>",
+    "s": "<p>Sätt modellerna lika:</p><p>\\[8+10\\sin\\left(\\frac{2\\pi}{365}(t-100)\\right)=5+13\\sin\\left(\\frac{2\\pi}{365}(t-115)\\right).\\]</p><p>Ekvationen behöver lösas numeriskt. Under ett år fås två skärningar:</p><p>\\[\\boxed{t\\approx199,24}\\qquad\\text{och}\\qquad\\boxed{t\\approx289,24}.\\]</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
@@ -20680,12 +21056,30 @@ window.BANKMATO2 =
       "resonemang",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      199.24,
+      289.24
+    ],
+    "tolerans": [
+      0.05,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Skärningspunkterna fås där \\(T_1(t)=T_2(t)\\). Lös ekvationen numeriskt på intervallet för ett år.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "dag 1",
+      "dag 2"
+    ]
   },
   {
     "id": "1.498",
@@ -20696,22 +21090,22 @@ window.BANKMATO2 =
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Storheten modelleras av \\(d(t)=5+2\\cdot \\cos(2\\cdot \\pi\\cdot t/8)\\).</p><p>Bestäm värdet när \\(t=2\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Här är modellen redan given, så uppgiften är att tolka tiden korrekt och sätta in den i hela vinkeluttrycket.</p><p>Efter insättning förenklas vinkeln och det trigonometriska värdet bestäms.</p><p><strong>Svar:</strong> \\(\\boxed{5}\\).</p>",
+    "t": "<p>Två periodiska modeller är</p><p>\\[f(t)=5+2\\cos\\left(\\frac{\\pi t}{4}\\right),\\qquad g(t)=5+2\\sin\\left(\\frac{\\pi t}{4}\\right).\\]</p><p>Bestäm den första positiva tidpunkten då \\(f(t)=g(t)\\).</p>",
+    "s": "<p>Ekvationen blir \\(\\cos u=\\sin u\\), där \\(u=\\pi t/4\\). Första positiva lösningen är \\(u=\\pi/4\\).</p><p>\\[\\frac{\\pi t}{4}=\\frac\\pi4\\Rightarrow\\boxed{t=1}.\\]</p>",
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
-    "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": 0.02,
+    "rättSvar": 1,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
+    "ledtrad": "<p>Sätt modellerna lika. Konstanttermerna och amplituderna kan först förenklas bort.</p>"
   },
   {
     "id": "1.279",
@@ -20720,8 +21114,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En svängning modelleras av \\(s(t)=4\\sin(5t+\\pi/6)\\). Bestäm amplitud, period och första positiva tidpunkt då \\(s(t)=0\\).</p>",
@@ -20733,12 +21127,35 @@ window.BANKMATO2 =
       "modellering",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      "2*pi/5",
+      "pi/6"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "amplitud",
+      "period",
+      "första nollställe"
+    ]
   },
   {
     "id": "1.499",
@@ -20749,22 +21166,22 @@ window.BANKMATO2 =
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Storheten modelleras av \\(p(t)=80+20\\cdot \\sin(2\\cdot \\pi\\cdot t/5)\\).</p><p>Bestäm värdet när \\(t=1,25\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Här är modellen redan given, så uppgiften är att tolka tiden korrekt och sätta in den i hela vinkeluttrycket.</p><p>Efter insättning förenklas vinkeln och det trigonometriska värdet bestäms.</p><p><strong>Svar:</strong> \\(\\boxed{100}\\).</p>",
+    "t": "<p>Trycket modelleras av</p><p>\\[p(t)=80+20\\sin\\left(\\frac{2\\pi t}{5}\\right).\\]</p><p>Hur stor del av en period är trycket större än 80?</p><p>Svara i procent.</p>",
+    "s": "<p>Trycket är större än 80 precis när sinusdelen är positiv. Sinus är positiv under halva varje period.</p><p>Andelen är därför \\(\\boxed{50\\%}\\).</p>",
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
-      "procedur",
-      "modellering"
+      "begrepp",
+      "resonemang"
     ],
-    "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "svarstyp": "numeriskt",
-    "rättSvar": 100,
-    "tolerans": 0.02,
+    "svarstyp": "procent",
+    "rättSvar": 50,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "procent",
+    "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
+    "ledtrad": "<p>Du behöver inte lösa några exakta tidpunkter. Under hur stor del av ett varv är sinus positiv?</p>"
   },
   {
     "id": "1.283",
@@ -20773,8 +21190,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En modell har formen \\(f(t)=a+b\\cos(\\pi t/6)\\). Man vet att \\(f(0)=11\\) och \\(f(6)=3\\). Bestäm \\(a\\) och \\(b\\).</p>",
@@ -20786,12 +21203,30 @@ window.BANKMATO2 =
       "resonemang",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   },
   {
     "id": "1.500",
@@ -20800,8 +21235,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Två modeller har samma medellinje och amplitud men perioderna 12 h respektive 18 h. Förklara hur deras grafer skiljer sig och vilken som förändras snabbast nära en passage genom medellinjen.</p>",
@@ -20827,8 +21262,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Ett pariserhjul har radien 20 m. Hjulets lägsta punkt är 5 m över marken och det gör ett varv på 40 s. Vid tiden \\(t=0\\) befinner sig gondolen P längst till höger på hjulet och rör sig uppåt.</p><span class=\"fig smal\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"300\" viewBox=\"0 0 390 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Pariserhjul med radie och höjd över marken\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"35\" y1=\"270\" x2=\"355\" y2=\"270\" stroke=\"#7B756F\" stroke-width=\"2\"/><circle cx=\"195\" cy=\"145\" r=\"100\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><circle cx=\"195\" cy=\"145\" r=\"4\" fill=\"#2B2527\"/><line x1=\"195\" y1=\"145\" x2=\"195\" y2=\"45\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"207\" y=\"98\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">20 m</text><line x1=\"195\" y1=\"245\" x2=\"195\" y2=\"270\" stroke=\"#B43123\" stroke-width=\"1.7\"/><text x=\"207\" y=\"263\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">5 m</text><circle cx=\"295\" cy=\"145\" r=\"5\" fill=\"#B43123\"/><text x=\"304\" y=\"139\" font-family=\"sans-serif\" font-size=\"12\">P</text></svg></span><p>a) Ställ upp en trigonometrisk modell för gondolens höjd \\(h(t)\\) över marken.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm första tiden då gondolen är 35 m över marken.</p>",
@@ -20861,13 +21296,15 @@ window.BANKMATO2 =
         "etikett": "a",
         "fraga": "<p>Ställ upp en trigonometrisk modell för gondolens höjd \\(h(t)\\) över marken.</p>",
         "s": "<p><strong>Nyckelidé:</strong> Hjulets centrum ligger \\(5+20=25\\) m över marken. Amplituden är radien 20 m och perioden är 40 s, alltså är vinkelfrekvensen \\(2\\pi/40=\\pi/20\\).</p><p>Gondolen startar på medellinjen och rör sig uppåt, så sinus passar utan fasförskjutning:</p><p>\\[h(t)=25+20\\sin\\left(\\frac{\\pi t}{20}\\right).\\]</p>",
-        "niva": "A"
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm första tiden då gondolen är 35 m över marken.</p>",
         "s": "<p><strong>Nyckelidé:</strong> Från de givna måtten fås modellen \\(h(t)=25+20\\sin(\\pi t/20)\\). Sätt höjden lika med 35 m.</p><p>\\[25+20\\sin(\\pi t/20)=35\\Rightarrow \\sin(\\pi t/20)=\\frac12.\\]</p><p>Första gången efter start är vinkeln \\(\\pi/6\\):</p><p>\\[\\frac{\\pi t}{20}=\\frac{\\pi}{6}\\Rightarrow t=\\frac{10}{3}\\approx3,33.\\]</p><p><strong>Svar:</strong> cirka 3,33 s.</p>",
-        "niva": "A"
+        "niva": "C",
+        "poang": "0/1/0"
       }
     ],
     "svarFormat": [
@@ -20887,12 +21324,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En sinusmodell har maxvärde 17, minvärde 5 och perioden 8. Bestäm medellinje och amplitud och visa varför inga andra värden på dessa två parametrar kan ge samma max och min.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Max och min ligger lika långt från medellinjen.</p><p>Medellinje \\(D=(17+5)/2=11\\). Amplitud \\(A=(17-5)/2=6\\).</p><p>Eftersom max måste vara \\(D+A\\) och min \\(D-A\\) bildar de två ekvationerna ett entydigt linjärt system. Därför är \\(D=11\\) och \\(A=6\\) de enda möjliga värdena.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Max och min ligger lika långt från medellinjen.</p><p>Medellinje \\(D=(17+5)/2=11\\). Amplitud \\(A=(17-5)/2=6\\).</p><p>Max och min måste uppfylla \\(D+A=17\\) och \\(D-A=5\\). När ekvationerna adderas fås \\(2D=22\\), alltså \\(D=11\\), och då blir \\(A=6\\). Därför är dessa värden entydigt bestämda.</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "modellering",
@@ -20988,8 +21425,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En modell skrivs \\(f(t)=4+3\\cos(\\pi t/5)\\). En elev påstår att perioden är 5 eftersom talet 5 står i nämnaren. Förklara felet och bestäm korrekt period.</p>",
@@ -21015,12 +21452,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Våghöjden vid en boj beskrivs under 12 sekunder av modellen</p><p>\\[H(t)=1,6+0,9\\sin(0,7t)+0,3\\sin(1,4t),\\qquad0\\le t\\le12.\\]</p><p>Bestäm modellens största våghöjd under intervallet och när den inträffar. Svara med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Modellen är en summa av två sinusuttryck, så största värdet kan inte fås genom att bara addera medellinje och amplituder.</p><p>Grafens högsta punkt i intervallet ligger vid</p><p>\\[t\\approx1,616.\\]</p><p>Då är</p><p>\\[H(t)\\approx2,645.\\]</p><p>Alltså \\(\\boxed{H_{\\max}\\approx2,645}\\) vid \\(\\boxed{t\\approx1,616\\text{ s}}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>Eftersom modellen innehåller två sinusuttryck kan man inte få maximum genom att bara addera amplituderna. Bestäm därför maximum numeriskt på \\(0\\le t\\le12\\).</p><p>Den högsta punkten fås vid \\(t\\approx1,616\\) s och då är</p><p>\\[H(t)\\approx\\boxed{2,645}.\\]</p><p>Alltså är modellens största våghöjd \\(\\boxed{2,645}\\) vid \\(\\boxed{t\\approx1,616\\text{ s}}\\).</p>",
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
@@ -21028,12 +21465,30 @@ window.BANKMATO2 =
       "modellering",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.645,
+      1.616
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>"
+    "ledtrad": "<p>Använd ett digitalt verktyg för att bestämma modellens maximum på det givna intervallet. Kontrollera även intervallets ändpunkter.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "största våghöjd",
+      "tidpunkt"
+    ]
   },
   {
     "id": "1.503",
@@ -21042,8 +21497,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En periodisk modell har perioden 10 och uppfyller \\(f(0)=2\\), \\(f(2,5)=8\\), \\(f(5)=2\\) och \\(f(7,5)=-4\\). Bestäm en sinusmodell och motivera parametrarna.</p>",
@@ -21069,12 +21524,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/3",
+    "niva": "C",
+    "poang": "1/2/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En fyrs ljusstråle roterar med konstant period 12 s. Avståndet \\(d(t)\\) från ljusfläcken till en markerad punkt på en rak kaj modelleras under en del av varvet av</p><p>\\[d(t)=40\\tan(\\pi t/6),\\qquad 0\\le t&lt;3.\\]</p><p>a) Bestäm avståndet efter 2 s.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm hur snabbt avståndet förändras vid \\(t=2\\) s.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>a) \\(d(2)=40\\tan(\\pi/3)=\\)<strong>\\(40\\sqrt3\\approx69,3\\) m</strong>.</p><p>b) <strong>Formelbladet:</strong> \\((\\tan x)'=1/\\cos^2x\\) och kedjeregeln.</p><p>\\[d'(t)=40\\cdot\\frac{1}{\\cos^2(\\pi t/6)}\\cdot\\frac{\\pi}{6}.\\]</p><p>Vid \\(t=2\\) är \\(\\cos(\\pi/3)=1/2\\), alltså</p><p>\\[d'(2)=40\\cdot4\\cdot\\frac\\pi6=\\boxed{\\frac{80\\pi}{3}\\text{ m/s}\\approx83,8\\text{ m/s}}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Sätt först in tidpunkten i modellen. För förändringshastigheten deriveras modellen med kedjeregeln.</p><div class=\"facit-arbete\"><p>a) \\[d(2)=40\\tan(\\pi/3)=40\\sqrt3\\approx\\boxed{69,3\\text{ m}}.\\]</p><p>b) Eftersom \\((\\tan x)'=1/\\cos^2x\\) fås</p><p>\\[d'(t)=40\\cdot\\frac{1}{\\cos^2(\\pi t/6)}\\cdot\\frac{\\pi}{6}.\\]</p><p>Vid \\(t=2\\) är \\(\\cos(\\pi/3)=1/2\\):</p><p>\\[d'(2)=40\\cdot4\\cdot\\frac{\\pi}{6}=\\frac{80\\pi}{3}\\approx\\boxed{83,8\\text{ m/s}}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och tolkning:</strong> När \\(t\\) närmar sig 3 s går \\(\\tan(\\pi t/6)\\) mot sin lodräta asymptot, så den stora positiva förändringshastigheten är rimlig.</p></div>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
@@ -21113,18 +21568,20 @@ window.BANKMATO2 =
       {
         "etikett": "a",
         "fraga": "<p>Bestäm avståndet efter 2 s.</p>",
-        "s": "<strong>a)</strong> \\(d(2)=40\\tan(\\pi/3)=\\) \\(40\\sqrt3\\approx69,3\\) m .",
-        "niva": "A"
+        "s": "<p>\\[d(2)=40\\tan(\\pi/3)=40\\sqrt3\\approx\\boxed{69,3\\text{ m}}.\\]</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm hur snabbt avståndet förändras vid \\(t=2\\) s.</p>",
-        "s": "<strong>b)</strong> Formelbladet: \\((\\tan x)'=1/\\cos^2x\\) och kedjeregeln.\n\\[d'(t)=40\\cdot\\frac{1}{\\cos^2(\\pi t/6)}\\cdot\\frac{\\pi}{6}.\\]\nVid \\(t=2\\) är \\(\\cos(\\pi/3)=1/2\\), alltså\n\\[d'(2)=40\\cdot4\\cdot\\frac\\pi6=\\boxed{\\frac{80\\pi}{3}\\text{ m/s}\\approx83,8\\text{ m/s}}.\\]",
-        "niva": "A"
+        "s": "<p>\\((\\tan x)'=1/\\cos^2x\\) och kedjeregeln ger \\[d'(t)=40\\frac{1}{\\cos^2(\\pi t/6)}\\frac{\\pi}{6}.\\]Vid \\(t=2\\): \\[d'(2)=\\boxed{80\\pi/3\\approx83,8\\text{ m/s}}.\\]</p>",
+        "niva": "C",
+        "poang": "0/2/0"
       }
     ],
     "familjNyckel": "trig_modeller__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>I b) behöver du derivera \\(\\tan(\\pi t/6)\\). Glöm inte derivatan av den inre funktionen \\(\\pi t/6\\).</p>",
     "spelIntro": "<p>En fyrs ljusstråle roterar med konstant period 12 s. Avståndet \\(d(t)\\) från ljusfläcken till en markerad punkt på en rak kaj modelleras under en del av varvet av</p><p>\\[d(t)=40\\tan(\\pi t/6),\\qquad 0\\le t&lt;3.\\]</p>"
   },
   {
@@ -21134,8 +21591,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En temperatur modelleras av \\(T(t)=12+5\\cos(\\pi t/6)\\), där t mäts i timmar. Bestäm den första tidpunkten t>0 då temperaturen når sitt minimivärde.</p>",
@@ -21258,8 +21715,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Antalet soltimmar per dygn på en plats modelleras med en sinusfunktion med perioden 365 dygn. Det största värdet är 18 timmar och det minsta värdet är 6 timmar. Årets största värde inträffar dag 172.</p><p>Ställ upp en möjlig modell \\(S(t)\\), där \\(t\\) är årets dagnummer.</p>",
@@ -21285,8 +21742,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Vattennivån modelleras av \\(h(t)=3+1,5\\sin(\\pi t/4)\\). Under hur stor del av en period ligger nivån över medellinjen 3 m?</p>",
@@ -21392,8 +21849,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Två modeller är \\(f(t)=7+2\\sin(\\pi t/4)\\) och \\(g(t)=7+2\\cos(\\pi t/4)\\). Bestäm den minsta positiva tidsförskjutning som gör att den ena grafen sammanfaller med den andra och motivera.</p>",
@@ -21420,8 +21877,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En temperatursensor visar ett periodiskt mönster. Under ett dygn varierar temperaturen mellan 8 °C och 20 °C. Maximum inträffar klockan 16.00 och mönstret upprepas varje dygn.</p><p>Ställ upp en möjlig trigonometrisk modell \\(T(t)\\), där \\(t\\) är antal timmar efter midnatt.</p>",
@@ -21447,8 +21904,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En periodisk storhet har medellinjen 10, amplituden 4 och perioden 12. Vid t=1 befinner den sig i ett maximum. Skriv en cosinusmodell utan onödigt komplicerad fas och förklara varför den passar.</p>",
@@ -21563,18 +22020,18 @@ window.BANKMATO2 =
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(f(x)=7x^5-3x^2+4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\frac{4}{x^2}+3\\sqrt{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=5e^x-2x^3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=6x^{-3}+x\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>a) <strong>\\(f'(x)=35x^4-6x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(4x^{-2}+3x^{1/2}\\Rightarrow\\) <strong>\\(g'(x)=-8x^{-3}+\\frac{3}{2\\sqrt{x}}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(h'(x)=5e^x-6x^2\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(p'(x)=-18x^{-4}+1\\)</strong>.</p>",
+    "t": "<p>Välj den regel som är viktigast att känna igen <em>först</em>.</p><p>A: potens-/summaregel &nbsp; B: produktregeln &nbsp; C: kvotregeln &nbsp; D: kedjeregeln</p>",
+    "s": "<p>a) <strong>A</strong>: ett polynom deriveras term för term.</p><p>b) <strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p><p>c) <strong>B</strong>: två funktioner av \\(x\\) multipliceras.</p><p>d) <strong>C</strong>: en kvot av två funktioner av \\(x\\).</p>",
     "familj": "Grundläggande deriveringsregler",
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "35x^4-6x",
-      "-8x^(-3)+(3)/(2*sqrt(x))",
-      "5*e^x-6x^2",
-      "-18x^(-4)+1"
+      "A",
+      "D",
+      "B",
+      "C"
     ],
     "tolerans": [
       null,
@@ -21589,11 +22046,13 @@ window.BANKMATO2 =
       true
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "kort_text",
+      "kort_text",
+      "kort_text",
+      "kort_text"
     ],
+    "familjNyckel": "deriveringsregler__grundlaggande_deriveringsregler",
+    "ledtrad": "<p>Titta på funktionens yttersta räknesätt: summa, produkt, kvot eller en funktion inuti en annan.</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
@@ -21602,39 +22061,37 @@ window.BANKMATO2 =
       "d"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Välj A–D.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(f(x)=7x^5-3x^2+4\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(f'(x)=35x^4-6x\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
+        "fraga": "<p>Vilken regel behöver användas först för \\(f(x)=x^4-3x+1\\)? Svara A–D.</p>",
+        "s": "<p>a) <strong>A</strong>: ett polynom deriveras term för term.</p><p>b) <strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p><p>c) <strong>B</strong>: två funktioner av \\(x\\) multipliceras.</p><p>d) <strong>C</strong>: en kvot av två funktioner av \\(x\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(g(x)=\\frac{4}{x^2}+3\\sqrt{x}\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(4x^{-2}+3x^{1/2}\\Rightarrow\\) <strong>\\(g'(x)=-8x^{-3}+\\frac{3}{2\\sqrt{x}}\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
+        "fraga": "<p>Vilken regel behöver användas först för \\(g(x)=(3x-1)^5\\)? Svara A–D.</p>",
+        "s": "<p>a) <strong>A</strong>: ett polynom deriveras term för term.</p><p>b) <strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p><p>c) <strong>B</strong>: två funktioner av \\(x\\) multipliceras.</p><p>d) <strong>C</strong>: en kvot av två funktioner av \\(x\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(h(x)=5e^x-2x^3\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(h'(x)=5e^x-6x^2\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
+        "fraga": "<p>Vilken regel behöver användas först för \\(h(x)=xe^x\\)? Svara A–D.</p>",
+        "s": "<p>a) <strong>A</strong>: ett polynom deriveras term för term.</p><p>b) <strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p><p>c) <strong>B</strong>: två funktioner av \\(x\\) multipliceras.</p><p>d) <strong>C</strong>: en kvot av två funktioner av \\(x\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
-        "fraga": "<p>\\(p(x)=6x^{-3}+x\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(p'(x)=-18x^{-4}+1\\)</strong>.</div></p>",
+        "fraga": "<p>Vilken regel behöver användas först för \\(p(x)=\\frac{e^x}{x+1}\\)? Svara A–D.</p>",
+        "s": "<p>a) <strong>A</strong>: ett polynom deriveras term för term.</p><p>b) <strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p><p>c) <strong>B</strong>: två funktioner av \\(x\\) multipliceras.</p><p>d) <strong>C</strong>: en kvot av två funktioner av \\(x\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
-    ],
-    "familjNyckel": "deriveringsregler__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    ]
   },
   {
     "id": "2.163",
@@ -21791,18 +22248,54 @@ window.BANKMATO2 =
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera och förenkla så långt som möjligt:</p><p>\\[f(x)=x^2\\sin(3x).\\]</p><p>Bestäm därefter \\(f'(\\pi/3)\\).</p>",
-    "s": "<p><strong>Metod:</strong> Bestäm de två faktorerna och använd produktregeln \\((uv)' = u'v+uv'\\). Förenkla därefter.</p><p>Produktregeln och kedjeregeln ger</p><p>\\[f'(x)=2x\\sin3x+3x^2\\cos3x.\\]</p><p>Vid \\(x=\\pi/3\\) är \\(\\sin\\pi=0\\) och \\(\\cos\\pi=-1\\), så</p><p>\\[f'(\\pi/3)=-3(\\pi/3)^2=\\boxed{-\\pi^2/3}.\\]</p>",
+    "t": "<p>Funktionen är \\(f(x)=x^2\\sin(3x)\\).</p><p>a) Bestäm \\(f'(x)\\).<br>b) Bestäm \\(f'(\\pi/3)\\) exakt.</p>",
+    "s": "<p>a) Produktregeln och kedjeregeln:</p><p>\\[f'(x)=2x\\sin(3x)+3x^2\\cos(3x).\\]</p><p>b) \\(\\sin\\pi=0\\) och \\(\\cos\\pi=-1\\), så</p><p>\\[f'(\\pi/3)=\\boxed{-\\pi^2/3}.\\]</p>",
     "familj": "Derivering med produktregeln",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2*x*sin(3*x)+3*x^2*cos(3*x)",
+      "-pi^2/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>"
+    "ledtrad": "<p>I a) behövs både produktregeln och kedjeregeln. I b) blir argumentet \\(3\\cdot\\pi/3=\\pi\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "derivata",
+      "värde"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(f(x)=x^2\\sin(3x)\\)</p>",
+    "spelDelar": [
+      {
+        "etikett": "derivata",
+        "fraga": "<p>Bestäm \\(f'(x)\\).</p>",
+        "s": "<p>a) Produktregeln och kedjeregeln:</p><p>\\[f'(x)=2x\\sin(3x)+3x^2\\cos(3x).\\]</p><p>b) \\(\\sin\\pi=0\\) och \\(\\cos\\pi=-1\\), så</p><p>\\[f'(\\pi/3)=\\boxed{-\\pi^2/3}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "värde",
+        "fraga": "<p>Bestäm \\(f'(\\pi/3)\\) exakt.</p>",
+        "s": "<p>a) Produktregeln och kedjeregeln:</p><p>\\[f'(x)=2x\\sin(3x)+3x^2\\cos(3x).\\]</p><p>b) \\(\\sin\\pi=0\\) och \\(\\cos\\pi=-1\\), så</p><p>\\[f'(\\pi/3)=\\boxed{-\\pi^2/3}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "2.432",
@@ -21933,82 +22426,59 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera med produktregeln.</p><p>a) \\(f(x)=x^2e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=x\\ln x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=x^3\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=(x+1)(x^2-2)\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>a) <strong>\\(f'(x)=2xe^x+x^2e^x=e^x(x^2+2x)\\)</strong>.</p><p>b) <strong>\\(g'(x)=\\ln x+1\\)</strong>.</p><p>c) <strong>\\(h'(x)=3x^2\\sin x+x^3\\cos x\\)</strong>.</p><p>d) <strong>\\(p'(x)=(x^2-2)+2x(x+1)=3x^2+2x-2\\)</strong>.</p>",
+    "t": "<p>För två deriverbara funktioner gäller</p><p>\\[u(2)=3,\\quad u'(2)=4,\\quad v(2)=5,\\quad v'(2)=-1.\\]</p><p>a) Bestäm \\((uv)'(2)\\).<br>b) Bestäm \\((u/v)'(2)\\).</p>",
+    "s": "<p>a) Produktregeln ger \\[(uv)'(2)=u'(2)v(2)+u(2)v'(2)=4\\cdot5+3(-1)=\\boxed{17}.\\]</p><p>b) Kvotregeln ger \\[(u/v)'(2)=\\frac{4\\cdot5-3(-1)}{5^2}=\\boxed{\\frac{23}{25}}.\\]</p>",
     "familj": "Derivering med produktregeln",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "e^x(x^2+2x)",
-      "\\ln x+1",
-      "3x^2\\sin x+x^3\\cos x",
-      "3x^2+2x-2"
+      17,
+      "23/25"
     ],
     "tolerans": [
-      null,
-      null,
-      null,
+      0,
       null
     ],
     "självrättning": [
       true,
-      true,
-      true,
       true
     ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
+    "ledtrad": "<p>Skriv först respektive deriveringsregel med \\(u\\) och \\(v\\), och sätt sedan in tabellvärdena.</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "b"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd värdena för \\(u,v,u',v'\\) vid \\(x=2\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(f(x)=x^2e^x\\)</p>",
-        "s": "<strong>a)</strong> \\(f'(x)=2xe^x+x^2e^x=e^x(x^2+2x)\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
+        "fraga": "<p>Bestäm \\((uv)'(2)\\).</p>",
+        "s": "<p>a) Produktregeln ger \\[(uv)'(2)=u'(2)v(2)+u(2)v'(2)=4\\cdot5+3(-1)=\\boxed{17}.\\]</p><p>b) Kvotregeln ger \\[(u/v)'(2)=\\frac{4\\cdot5-3(-1)}{5^2}=\\boxed{\\frac{23}{25}}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(g(x)=x\\ln x\\)</p>",
-        "s": "<strong>b)</strong> \\(g'(x)=\\ln x+1\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(h(x)=x^3\\sin x\\)</p>",
-        "s": "<strong>c)</strong> \\(h'(x)=3x^2\\sin x+x^3\\cos x\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(p(x)=(x+1)(x^2-2)\\)</p>",
-        "s": "<strong>d)</strong> \\(p'(x)=(x^2-2)+2x(x+1)=3x^2+2x-2\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
+        "fraga": "<p>Bestäm \\((u/v)'(2)\\).</p>",
+        "s": "<p>a) Produktregeln ger \\[(uv)'(2)=u'(2)v(2)+u(2)v'(2)=4\\cdot5+3(-1)=\\boxed{17}.\\]</p><p>b) Kvotregeln ger \\[(u/v)'(2)=\\frac{4\\cdot5-3(-1)}{5^2}=\\boxed{\\frac{23}{25}}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
       }
-    ],
-    "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
-    "spelIntro": "<p>Derivera med produktregeln.</p>"
+    ]
   },
   {
     "id": "2.43",
@@ -22017,70 +22487,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera och faktorisera svaret så långt det är naturligt.</p><p>a) \\(f(x)=e^{2x}(x^2+1)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=x^2\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=(2x-1)e^{-x}\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>a) \\(f'=2e^{2x}(x^2+1)+2xe^{2x}=\\boxed{2e^{2x}(x^2+x+1)}\\).</p><p>b) \\(g'=2x\\cos x-x^2\\sin x=\\boxed{x(2\\cos x-x\\sin x)}\\).</p><p>c) \\(h'=2e^{-x}-(2x-1)e^{-x}=\\boxed{e^{-x}(3-2x)}\\).</p>",
+    "t": "<p>Funktionen är \\(f(x)=(x-1)e^{-x}\\).</p><p>Bestäm det \\(x\\)-värde där grafen har en horisontell tangent.</p>",
+    "s": "<p>Produktregeln ger</p><p>\\[f'(x)=e^{-x}-(x-1)e^{-x}=e^{-x}(2-x).\\]</p><p>Eftersom \\(e^{-x}&gt;0\\) fås \\(f'(x)=0\\) när \\(2-x=0\\). Alltså \\(\\boxed{x=2}\\).</p>",
     "familj": "Derivering med produktregeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "2e^{2x}(x^2+x+1)",
-      "x(2\\cos x-x\\sin x)",
-      "e^{-x}(3-2x)"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(f(x)=e^{2x}(x^2+1)\\)</p>",
-        "s": "<strong>a)</strong> \\(f'=2e^{2x}(x^2+1)+2xe^{2x}=\\boxed{2e^{2x}(x^2+x+1)}\\).",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(g(x)=x^2\\cos x\\)</p>",
-        "s": "<strong>b)</strong> \\(g'=2x\\cos x-x^2\\sin x=\\boxed{x(2\\cos x-x\\sin x)}\\).",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(h(x)=(2x-1)e^{-x}\\)</p>",
-        "s": "<strong>c)</strong> \\(h'=2e^{-x}-(2x-1)e^{-x}=\\boxed{e^{-x}(3-2x)}\\).",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
     "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
-    "spelIntro": "<p>Derivera och faktorisera svaret så långt det är naturligt.</p>"
+    "ledtrad": "<p>Horisontell tangent betyder \\(f'(x)=0\\).</p>"
   },
   {
     "id": "2.46",
@@ -22139,82 +22563,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(f(x)=5x^4-3x^2+7\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=4e^x-2x^3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=3\\ln x+5x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=x^{-2}+2x^{1/2}\\)</p>",
-    "s": "<p><strong>Metod:</strong> Derivera term för term. Använd potensregeln, \\((e^x)'=e^x\\) och \\((\\ln x)'=1/x\\).</p><p>a) \\(f'(x)=20x^3-6x\\).</p><p>b) \\(g'(x)=4e^x-6x^2\\).</p><p>c) \\(h'(x)=\\frac3x+5\\).</p><p>d) \\(p'(x)=-2x^{-3}+x^{-1/2}\\), eftersom \\((2x^{1/2})'=x^{-1/2}\\).</p>",
+    "t": "<p>Bestäm konstanten \\(a\\) så att \\(f(x)=x^3+ax\\) har tangentlutningen 7 vid \\(x=1\\).</p>",
+    "s": "<p>\\[f'(x)=3x^2+a.\\]</p><p>Villkoret \\(f'(1)=7\\) ger \\(3+a=7\\), alltså \\(\\boxed{a=4}\\).</p>",
     "familj": "Grundläggande deriveringsregler",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "20x^3-6x",
-      "4*e^x-6x^2",
-      "(3)/(x)+5",
-      "-2x^(-3)+x^(-1/2)"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(f(x)=5x^4-3x^2+7\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera term för term. Använd potensregeln, \\((e^x)'=e^x\\) och \\((\\ln x)'=1/x\\).</p><p><div class=\"spel-en-del\">\\(f'(x)=20x^3-6x\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(g(x)=4e^x-2x^3\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera term för term. Använd potensregeln, \\((e^x)'=e^x\\) och \\((\\ln x)'=1/x\\).</p><p><div class=\"spel-en-del\">\\(g'(x)=4e^x-6x^2\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(h(x)=3\\ln x+5x\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera term för term. Använd potensregeln, \\((e^x)'=e^x\\) och \\((\\ln x)'=1/x\\).</p><p><div class=\"spel-en-del\">\\(h'(x)=\\frac3x+5\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(p(x)=x^{-2}+2x^{1/2}\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera term för term. Använd potensregeln, \\((e^x)'=e^x\\) och \\((\\ln x)'=1/x\\).</p><p><div class=\"spel-en-del\">\\(p'(x)=-2x^{-3}+x^{-1/2}\\), eftersom \\((2x^{1/2})'=x^{-1/2}\\).</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
     "familjNyckel": "deriveringsregler__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    "ledtrad": "<p>Tangentens lutning vid \\(x=1\\) är \\(f'(1)\\).</p>"
   },
   {
     "id": "2.164",
@@ -22320,82 +22686,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(x^2e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(x\\ln x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(x^3\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((2x-1)e^{2x}\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Metod:</strong> Använd produktregeln \\((uv)'=u'v+uv'\\).</p><p>a) \\(e^x(x^2+2x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\ln x+1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(3x^2\\sin x+x^3\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2e^{2x}+2(2x-1)e^{2x}=4xe^{2x}\\)</p>",
+    "t": "<p>En funktion \\(f\\) har derivatan</p><p>\\[f'(x)=2x\\sin x+x^2\\cos x.\\]</p><p>Bestäm en möjlig funktion \\(f(x)\\) utan att integrera.</p>",
+    "s": "<p>Uttrycket har formen från produktregeln: \\((x^2\\sin x)'=2x\\sin x+x^2\\cos x\\).</p><p>Alltså är en möjlig funktion</p><p>\\[\\boxed{f(x)=x^2\\sin x}.\\]</p><p>En godtycklig konstant kan läggas till om man vill beskriva alla funktioner med denna derivata.</p>",
     "familj": "Derivering med produktregeln",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "e^x(x^2+2x)",
-      "\\ln x+1",
-      "3x^2\\sin x+x^3\\cos x",
-      "4xe^{2x}"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "x^2*sin(x)",
+    "tolerans": null,
+    "självrättning": true,
     "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Derivera.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(x^2e^x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\(e^x(x^2+2x)\\)</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(x\\ln x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\(\\ln x+1\\)</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(x^3\\sin x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\(3x^2\\sin x+x^3\\cos x\\)</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\((2x-1)e^{2x}\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\(2e^{2x}+2(2x-1)e^{2x}=4xe^{2x}\\)</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ]
+    "ledtrad": "<p>Jämför de två termerna med \\((uv)'=u'v+uv'\\).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.54",
@@ -22404,82 +22712,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\((2x-1)e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(x^2\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sqrt{x}\\,\\ln x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((x^2+1)\\sin x\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Metod:</strong> Använd produktregeln \\((uv)'=u'v+uv'\\).</p><p>a) <strong>\\((2x+1)e^x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(2x\\cos x-x^2\\sin x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac{\\ln x+2}{2\\sqrt{x}}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(2x\\sin x+(x^2+1)\\cos x\\)</strong>.</p>",
+    "t": "<p>Bestäm konstanten \\(a\\) så att funktionen</p><p>\\[f(x)=(ax+1)e^x\\]</p><p>uppfyller \\(f'(0)=5\\).</p>",
+    "s": "<p>Produktregeln ger</p><p>\\[f'(x)=ae^x+(ax+1)e^x=e^x(ax+a+1).\\]</p><p>Vid \\(x=0\\): \\(f'(0)=a+1=5\\), alltså \\(\\boxed{a=4}\\).</p>",
     "familj": "Derivering med produktregeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "(2x+1)e^x",
-      "2x\\cos x-x^2\\sin x",
-      "\\frac{\\ln x+2}{2\\sqrt{x}}",
-      "2x\\sin x+(x^2+1)\\cos x"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
     "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Derivera.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\((2x-1)e^x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\((2x+1)e^x\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(x^2\\cos x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\(2x\\cos x-x^2\\sin x\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(\\sqrt{x}\\,\\ln x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\(\\frac{\\ln x+2}{2\\sqrt{x}}\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\((x^2+1)\\sin x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\(2x\\sin x+(x^2+1)\\cos x\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ]
+    "ledtrad": "<p>Derivera först med produktregeln och sätt sedan \\(x=0\\).</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.434",
@@ -22909,8 +23159,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=x^3\\ln x\\), \\(x>0\\).</p>",
@@ -22939,20 +23189,56 @@ window.BANKMATO2 =
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Funktionen är \\(f(x)=xe^{-x}\\).</p><p>a) Bestäm \\(f'(x)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Visa att grafen har en horisontell tangent vid \\(x=1\\) och bestäm tangentens ekvation.</p>",
-    "s": "<p><strong>Metod:</strong> Bestäm de två faktorerna och använd produktregeln \\((uv)' = u'v+uv'\\). Förenkla därefter.</p><p>a) Produktregeln ger</p><p>\\[f'(x)=e^{-x}-xe^{-x}=e^{-x}(1-x).\\]</p><p>b) \\(f'(1)=0\\), alltså är tangenten horisontell. Punkten är \\((1,e^{-1})\\), så tangenten är <strong>\\(y=1/e\\)</strong>.</p>",
+    "t": "<p>Funktionen är \\(f(x)=xe^{-x}\\).</p><p>a) Bestäm \\(f'(x)\\).<br>b) Visa genom ditt resultat att tangenten vid \\(x=1\\) är horisontell och bestäm tangentens ekvation.</p>",
+    "s": "<p>a) Produktregeln ger</p><p>\\[f'(x)=e^{-x}-xe^{-x}=e^{-x}(1-x).\\]</p><p>b) \\(f'(1)=0\\), alltså är tangenten horisontell. Punkten är \\((1,e^{-1})\\), så</p><p>\\[\\boxed{y=1/e}.\\]</p>",
     "familj": "Derivering med produktregeln",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "e^(-x)*(1-x)",
+      "y=1/e"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
-    "spel": false
+    "ledtrad": "<p>En horisontell tangent har lutning 0. Bestäm först derivatan.</p>",
+    "spel": false,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "derivata",
+      "tangent"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(f(x)=xe^{-x}\\)</p>",
+    "spelDelar": [
+      {
+        "etikett": "derivata",
+        "fraga": "<p>Bestäm \\(f'(x)\\).</p>",
+        "s": "<p>a) Produktregeln ger</p><p>\\[f'(x)=e^{-x}-xe^{-x}=e^{-x}(1-x).\\]</p><p>b) \\(f'(1)=0\\), alltså är tangenten horisontell. Punkten är \\((1,e^{-1})\\), så</p><p>\\[\\boxed{y=1/e}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "tangent",
+        "fraga": "<p>Bestäm tangentens ekvation vid \\(x=1\\).</p>",
+        "s": "<p>a) Produktregeln ger</p><p>\\[f'(x)=e^{-x}-xe^{-x}=e^{-x}(1-x).\\]</p><p>b) \\(f'(1)=0\\), alltså är tangenten horisontell. Punkten är \\((1,e^{-1})\\), så</p><p>\\[\\boxed{y=1/e}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "2.73",
@@ -22961,82 +23247,63 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(x\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((x+2)e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(x^2\\ln x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((3x-1)\\cos x\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Metod:</strong> Använd produktregeln \\((uv)'=u'v+uv'\\).</p><p>a) <strong>\\(\\sin x+x\\cos x\\)</strong>.</p><p>b) <strong>\\((x+3)e^x\\)</strong>.</p><p>c) <strong>\\(2x\\ln x+x\\)</strong>.</p><p>d) <strong>\\(3\\cos x-(3x-1)\\sin x\\)</strong>.</p>",
+    "t": "<p>En elev deriverar \\(f(x)=x^2e^x\\) och skriver</p><p>\\[f'(x)=2xe^x.\\]</p><p>a) Bestäm korrekt derivata.<br>b) Förklara kort vilket fel eleven har gjort.</p>",
+    "s": "<p>a) Produktregeln ger</p><p>\\[f'(x)=2xe^x+x^2e^x=e^x(x^2+2x).\\]</p><p>b) Eleven har bara deriverat den första faktorn. I produktregeln måste båda termerna \\(u'v\\) och \\(uv'\\) finnas med.</p>",
     "familj": "Derivering med produktregeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\sin x+x\\cos x",
-      "(x+3)e^x",
-      "2x\\ln x+x",
-      "3\\cos x-(3x-1)\\sin x"
+      "e^x*(x^2+2*x)",
+      null
     ],
     "tolerans": [
-      null,
-      null,
       null,
       null
     ],
     "självrättning": [
       true,
-      true,
-      true,
-      true
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
+      false
     ],
     "svarFormat": [
       "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(x\\sin x\\)</p>",
-        "s": "<p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\sin x+x\\cos x\\) .</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\((x+2)e^x\\)</p>",
-        "s": "<p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><strong>b)</strong> \\((x+3)e^x\\) .</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(x^2\\ln x\\)</p>",
-        "s": "<p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><strong>c)</strong> \\(2x\\ln x+x\\) .</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\((3x-1)\\cos x\\)</p>",
-        "s": "<p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(3\\cos x-(3x-1)\\sin x\\) .</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
+      null
     ],
     "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    "ledtrad": "<p>Skriv produktregeln med \\(u=x^2\\) och \\(v=e^x\\).</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "derivata",
+      "förklaring"
+    ],
+    "manuellKomplettering": [
+      false,
+      true
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Granska elevlösningen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "derivata",
+        "fraga": "<p>Bestäm den korrekta derivatan av \\(f(x)=x^2e^x\\).</p>",
+        "s": "<p>a) Produktregeln ger</p><p>\\[f'(x)=2xe^x+x^2e^x=e^x(x^2+2x).\\]</p><p>b) Eleven har bara deriverat den första faktorn. I produktregeln måste båda termerna \\(u'v\\) och \\(uv'\\) finnas med.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "förklaring",
+        "fraga": "<p>Förklara kort vad som saknas i elevens svar \\(f'(x)=2xe^x\\).</p>",
+        "s": "<p>a) Produktregeln ger</p><p>\\[f'(x)=2xe^x+x^2e^x=e^x(x^2+2x).\\]</p><p>b) Eleven har bara deriverat den första faktorn. I produktregeln måste båda termerna \\(u'v\\) och \\(uv'\\) finnas med.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "2.80",
@@ -23303,7 +23570,7 @@ window.BANKMATO2 =
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=4x^5-3x^{-2}+x^{1/2}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Använd potensregeln term för term:</p><p>\\[f'(x)=20x^4+6x^{-3}+\\frac12x^{-1/2}.\\]</p><p>Det sista kan också skrivas \\(1/(2\\sqrt x)\\).</p><p><strong>Samma potensregel gäller även negativa och bråkiga exponenter:</strong> \\((x^n)'=nx^{n-1}\\). Därför blir \\((-3x^{-2})'=6x^{-3}\\) och \\((x^{1/2})'=\\tfrac12x^{-1/2}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Skriv \\(x^{1/2}=\\sqrt{x}\\) och använd potensregeln term för term:</p><p>\\[f'(x)=20x^4+6x^{-3}+\\frac12x^{-1/2}.\\]</p><p>Alltså</p><p>\\[\\boxed{f'(x)=20x^4+\\frac6{x^3}+\\frac1{2\\sqrt{x}}}.\\]</p>",
     "familj": "Grundläggande deriveringsregler",
     "formaga": [
       "procedur",
@@ -23314,7 +23581,7 @@ window.BANKMATO2 =
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "deriveringsregler__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
+    "ledtrad": "<p>Potensregeln fungerar även för negativa och bråkiga exponenter.</p>",
     "svarFormat": "uttryck"
   },
   {
@@ -23328,8 +23595,8 @@ window.BANKMATO2 =
     "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Derivera \\(f(x)=\\frac{e^x}{x}\\), \\(x\ne0\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Kvotregeln håller reda på att både täljare och nämnare förändras. Skriv regeln innan du börjar förenkla.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=e^x*(x-1)/x^2}\\).</p>",
+    "t": "<p>Derivera \\(f(x)=\\frac{e^x}{x}\\), \\(x\\ne0\\).</p>",
+    "s": "<p>Kvotregeln ger</p><p>\\[f'(x)=\\frac{xe^x-e^x}{x^2}=\\boxed{\\frac{e^x(x-1)}{x^2}},\\qquad x\\ne0.\\]</p><p>Villkoret \\(x\\ne0\\) kommer från ursprungsfunktionen och ändras inte av förenklingen.</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
       "procedur",
@@ -23340,7 +23607,7 @@ window.BANKMATO2 =
     "rättSvar": "e^x*(x-1)/x^2",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
+    "ledtrad": "<p>Sätt \\(u=e^x\\) och \\(v=x\\) i kvotregeln.</p>",
     "svarFormat": "uttryck"
   },
   {
@@ -23842,8 +24109,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\frac{x-1}{x+1}\\).</p>",
@@ -23940,82 +24207,59 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(f(x)=\\frac{x}{x+2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\frac{x^2+1}{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\frac{e^x}{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=\\frac{\\sin x}{x}\\)</p>",
-    "s": "<p><strong>Metod:</strong> Använd kvotregeln \\((u/v)'=(u'v-uv')/v^2\\).</p><p>a) \\(f'(x)=((x+2)-x)/(x+2)^2=\\boxed{2/(x+2)^2}\\).</p><p>b) \\(g'(x)=(2x\\cdot x-(x^2+1))/x^2=\\boxed{(x^2-1)/x^2}\\).</p><p>c) \\(h'(x)=(e^x x-e^x)/x^2=\\boxed{e^x(x-1)/x^2}\\).</p><p>d) \\(p'(x)=\\boxed{(x\\cos x-\\sin x)/x^2}\\).</p>",
+    "t": "<p>Funktionen är \\(f(x)=(ax+b)e^x\\). Det gäller att \\(f(0)=2\\) och \\(f'(0)=5\\).</p><p>Bestäm \\(a\\) och \\(b\\).</p>",
+    "s": "<p>Av \\(f(0)=2\\) fås direkt \\(b=2\\).</p><p>Produktregeln ger \\(f'(x)=ae^x+(ax+b)e^x\\), så \\(f'(0)=a+b=5\\). Med \\(b=2\\) fås \\(\\boxed{a=3}\\).</p>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2/(x+2)^2",
-      "(x^2-1)/x^2",
-      "e^x(x-1)/x^2",
-      "(x\\cos x-\\sin x)/x^2"
+      3,
+      2
     ],
     "tolerans": [
-      null,
-      null,
-      null,
-      null
+      0,
+      0
     ],
     "självrättning": [
       true,
-      true,
-      true,
       true
     ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "familjNyckel": "deriveringsregler__derivering_med_kvotregeln",
+    "ledtrad": "<p>Använd först funktionsvärdet för att få en parameter. Derivera sedan och använd derivatavärdet.</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "b"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm parametrarna.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(f(x)=\\frac{x}{x+2}\\)</p>",
-        "s": "<p>Metod: Använd kvotregeln \\((u/v)'=(u'v-uv')/v^2\\).</p><div class=\"spel-en-del\"><strong>a)</strong> \\(f'(x)=((x+2)-x)/(x+2)^2=\\boxed{2/(x+2)^2}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
+        "fraga": "<p>Bestäm \\(a\\).</p>",
+        "s": "<p>Av \\(f(0)=2\\) fås direkt \\(b=2\\).</p><p>Produktregeln ger \\(f'(x)=ae^x+(ax+b)e^x\\), så \\(f'(0)=a+b=5\\). Med \\(b=2\\) fås \\(\\boxed{a=3}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(g(x)=\\frac{x^2+1}{x}\\)</p>",
-        "s": "<p>Metod: Använd kvotregeln \\((u/v)'=(u'v-uv')/v^2\\).</p><div class=\"spel-en-del\"><strong>b)</strong> \\(g'(x)=(2x\\cdot x-(x^2+1))/x^2=\\boxed{(x^2-1)/x^2}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(h(x)=\\frac{e^x}{x}\\)</p>",
-        "s": "<p>Metod: Använd kvotregeln \\((u/v)'=(u'v-uv')/v^2\\).</p><div class=\"spel-en-del\"><strong>c)</strong> \\(h'(x)=(e^x x-e^x)/x^2=\\boxed{e^x(x-1)/x^2}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(p(x)=\\frac{\\sin x}{x}\\)</p>",
-        "s": "<p>Metod: Använd kvotregeln \\((u/v)'=(u'v-uv')/v^2\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(p'(x)=\\boxed{(x\\cos x-\\sin x)/x^2}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
+        "fraga": "<p>Bestäm \\(b\\).</p>",
+        "s": "<p>Av \\(f(0)=2\\) fås direkt \\(b=2\\).</p><p>Produktregeln ger \\(f'(x)=ae^x+(ax+b)e^x\\), så \\(f'(0)=a+b=5\\). Med \\(b=2\\) fås \\(\\boxed{a=3}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
       }
-    ],
-    "familjNyckel": "deriveringsregler__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    ]
   },
   {
     "id": "2.118",
@@ -24024,82 +24268,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera med kvotregeln.</p><p>a) \\(\\frac{x}{x+2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\frac{x^2}{x-1}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\frac{e^x}{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{\\sin x}{x}\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p><p>a) <strong>\\(\\frac{2}{(x+2)^2}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\frac{x(x-2)}{(x-1)^2}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac{e^x(x-1)}{x^2}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\frac{x\\cos x-\\sin x}{x^2}\\)</strong>.</p>",
+    "t": "<p>För två funktioner gäller vid \\(x=1\\):</p><p>\\[u=2,\\quad u'=3,\\quad v=4,\\quad v'=-1.\\]</p><p>Bestäm derivatan av \\(u/v\\) vid \\(x=1\\).</p>",
+    "s": "<p>Kvotregeln ger</p><p>\\[\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}.\\]</p><p>Vid \\(x=1\\):</p><p>\\[\\frac{3\\cdot4-2(-1)}{4^2}=\\frac{14}{16}=\\boxed{\\frac78}.\\]</p>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "\\frac{2}{(x+2)^2}",
-      "\\frac{x(x-2)}{(x-1)^2}",
-      "\\frac{e^x(x-1)}{x^2}",
-      "\\frac{x\\cos x-\\sin x}{x^2}"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "7/8",
+    "tolerans": null,
+    "självrättning": true,
     "familjNyckel": "deriveringsregler__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Derivera med kvotregeln.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(\\frac{x}{x+2}\\)</p>",
-        "s": "<p>Nyckelidé: Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p><div class=\"spel-en-del\"><p>\\(\\frac{2}{(x+2)^2}\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(\\frac{x^2}{x-1}\\)</p>",
-        "s": "<p>Nyckelidé: Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p><div class=\"spel-en-del\"><p>\\(\\frac{x(x-2)}{(x-1)^2}\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(\\frac{e^x}{x}\\)</p>",
-        "s": "<p>Nyckelidé: Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p><div class=\"spel-en-del\"><p>\\(\\frac{e^x(x-1)}{x^2}\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(\\frac{\\sin x}{x}\\)</p>",
-        "s": "<p>Nyckelidé: Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p><div class=\"spel-en-del\"><p>\\(\\frac{x\\cos x-\\sin x}{x^2}\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ]
+    "ledtrad": "<p>Sätt in värdena först efter att du har skrivit kvotregeln.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.135",
@@ -24250,8 +24436,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm \\(f\\prime(1)\\) om \\(f(x)=(x^2+2)(3x-1)\\).</p>",
@@ -24348,82 +24534,23 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera med produktregeln.</p><p>a) \\(x^2e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(x\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((x+1)\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(x^3\\ln x\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Metod:</strong> Använd produktregeln \\((uv)'=u'v+uv'\\).</p><p>a) <strong>\\(e^x(x^2+2x)\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\sin x+x\\cos x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\cos x-(x+1)\\sin x\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(x^2(3\\ln x+1)\\)</strong>.</p>",
+    "t": "<p>För \\(f(x)=(x+a)\\cos x\\) vill en elev välja \\(a\\) så att \\(f'(0)=2\\).</p><p>Avgör om det är möjligt och motivera.</p>",
+    "s": "<p>Produktregeln ger</p><p>\\[f'(x)=\\cos x-(x+a)\\sin x.\\]</p><p>Vid \\(x=0\\) blir \\(f'(0)=1-a\\cdot0=1\\), oavsett \\(a\\). Därför går det <strong>inte</strong> att välja \\(a\\) så att \\(f'(0)=2\\).</p>",
     "familj": "Derivering med produktregeln",
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "e^x(x^2+2x)",
-      "\\sin x+x\\cos x",
-      "\\cos x-(x+1)\\sin x",
-      "x^2(3\\ln x+1)"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
     "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Derivera med produktregeln.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(x^2e^x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\(e^x(x^2+2x)\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(x\\sin x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\(\\sin x+x\\cos x\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\((x+1)\\cos x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\(\\cos x-(x+1)\\sin x\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(x^3\\ln x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd produktregeln \\((uv)'=u'v+uv'\\).</p><div class=\"spel-en-del\"><p>\\(x^2(3\\ln x+1)\\).</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ]
+    "ledtrad": "<p>Derivera först och sätt sedan \\(x=0\\). Se om \\(a\\) finns kvar.</p>"
   },
   {
     "id": "2.152",
@@ -24432,82 +24559,23 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera och förenkla.</p><p>a) \\(\\frac{2x+1}{x-3}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\frac{x^2+1}{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\frac{\\ln x}{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{\\cos x}{e^x}\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>a) <strong>\\(-\\frac7{(x-3)^2}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(x+1/x\\Rightarrow\\) <strong>\\(1-1/x^2\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac{1-\\ln x}{x^2}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(e^{-x}\\cos x\\Rightarrow\\) <strong>\\(-e^{-x}(\\sin x+\\cos x)\\)</strong>.</p>",
+    "t": "<p>Derivera och förenkla</p><p>\\[f(x)=\\frac{1}{1+e^{-x}}.\\]</p>",
+    "s": "<p>Skriv funktionen som \\((1+e^{-x})^{-1}\\). Kedjeregeln ger</p><p>\\[f'(x)=-(1+e^{-x})^{-2}(-e^{-x})=\\boxed{\\frac{e^{-x}}{(1+e^{-x})^2}}.\\]</p>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "-(7)/((x-3)^2)",
-      "1-1/x^2",
-      "(1-ln(x))/(x^2)",
-      "-e^(-x)*(sin(x)+cos(x))"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(\\frac{2x+1}{x-3}\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(-\\frac7{(x-3)^2}\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(\\frac{x^2+1}{x}\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(x+1/x\\Rightarrow\\) <strong>\\(1-1/x^2\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(\\frac{\\ln x}{x}\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(\\frac{1-\\ln x}{x^2}\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(\\frac{\\cos x}{e^x}\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(e^{-x}\\cos x\\Rightarrow\\) <strong>\\(-e^{-x}(\\sin x+\\cos x)\\)</strong>.</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "e^(-x)/(1+e^(-x))^2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
     "familjNyckel": "deriveringsregler__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
-    "spelIntro": "<p>Derivera och förenkla.</p>"
+    "ledtrad": "<p>Det går att använda kvotregeln, men potensform tillsammans med kedjeregeln blir kortare.</p>"
   },
   {
     "id": "2.153",
@@ -24517,24 +24585,22 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "4/0/0",
+    "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(\\frac{x}{x+2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\frac{e^x}{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\frac{\\ln x}{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{\\sin x}{x^2}\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Metod:</strong> Använd kvotregeln och förenkla först efter deriveringen.</p><p>a) \\(2/(x+2)^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(e^x(x-1)/x^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((1-\\ln x)/x^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((x\\cos x-2\\sin x)/x^3\\)</p>",
+    "t": "<p>Välj huvudregel.</p><p>A: produktregeln &nbsp; B: kvotregeln &nbsp; C: kedjeregeln</p>",
+    "s": "<p>a) <strong>A</strong>, b) <strong>B</strong>, c) <strong>C</strong>.</p><p>I c) ligger funktionen \\(x^2\\) inuti sinus, därför kedjeregeln.</p>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2/(x+2)^2",
-      "e^x(x-1)/x^2",
-      "(1-\\ln x)/x^2",
-      "(x\\cos x-2\\sin x)/x^3"
+      "A",
+      "B",
+      "C"
     ],
     "tolerans": [
-      null,
       null,
       null,
       null
@@ -24542,55 +24608,45 @@ window.BANKMATO2 =
     "självrättning": [
       true,
       true,
-      true,
       true
     ],
     "familjNyckel": "deriveringsregler__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Derivera.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(\\frac{x}{x+2}\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd kvotregeln och förenkla först efter deriveringen.</p><div class=\"spel-en-del\"><p>\\(2/(x+2)^2\\)</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(\\frac{e^x}{x}\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd kvotregeln och förenkla först efter deriveringen.</p><div class=\"spel-en-del\"><p>\\(e^x(x-1)/x^2\\)</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(\\frac{\\ln x}{x}\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd kvotregeln och förenkla först efter deriveringen.</p><div class=\"spel-en-del\"><p>\\((1-\\ln x)/x^2\\)</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(\\frac{\\sin x}{x^2}\\)</p>",
-        "s": "<p>Varför metoden fungerar: Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Metod: Använd kvotregeln och förenkla först efter deriveringen.</p><div class=\"spel-en-del\"><p>\\((x\\cos x-2\\sin x)/x^3\\)</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "ledtrad": "<p>Titta på funktionens yttersta struktur.</p>",
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "kort_text",
+      "kort_text",
+      "kort_text"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
       "b",
-      "c",
-      "d"
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Välj A, B eller C.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Vilken huvudregel behövs först för \\(x^2e^x\\)? Svara A–C.</p>",
+        "s": "<p>a) <strong>A</strong>, b) <strong>B</strong>, c) <strong>C</strong>.</p><p>I c) ligger funktionen \\(x^2\\) inuti sinus, därför kedjeregeln.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Vilken huvudregel behövs först för \\(\\frac{\\ln x}{x}\\)? Svara A–C.</p>",
+        "s": "<p>a) <strong>A</strong>, b) <strong>B</strong>, c) <strong>C</strong>.</p><p>I c) ligger funktionen \\(x^2\\) inuti sinus, därför kedjeregeln.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Vilken huvudregel behövs först för \\(\\sin(x^2)\\)? Svara A–C.</p>",
+        "s": "<p>a) <strong>A</strong>, b) <strong>B</strong>, c) <strong>C</strong>.</p><p>I c) ligger funktionen \\(x^2\\) inuti sinus, därför kedjeregeln.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
     ]
   },
   {
@@ -24600,82 +24656,63 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera med kvotregeln.</p><p>a) \\(f(x)=\\frac{x}{x+2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\frac{x^2+1}{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\frac{e^x}{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=\\frac{\\sin x}{x}\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>a) <strong>\\(f'(x)=\\frac{2}{(x+2)^2}\\)</strong>.</p><p>b) \\(g'(x)=\\frac{2x^2-(x^2+1)}{x^2}=\\boxed{\\frac{x^2-1}{x^2}}\\).</p><p>c) <strong>\\(h'(x)=\\frac{e^x(x-1)}{x^2}\\)</strong>.</p><p>d) <strong>\\(p'(x)=\\frac{x\\cos x-\\sin x}{x^2}\\)</strong>.</p>",
+    "t": "<p>Granska följande kvotderivering.</p><p>\\[f(x)=\\frac{x^2+1}{x}.\\]</p><p>a) Bestäm korrekt derivata.<br>b) Förklara varför man inte får derivera täljare och nämnare var för sig och sedan dividera.</p>",
+    "s": "<p>a) Antingen kvotregeln eller förenkling först:</p><p>\\[f(x)=x+\\frac1x\\Rightarrow f'(x)=\\boxed{1-\\frac1{x^2}}.\\]</p><p>b) Det finns ingen regel \\((u/v)'=u'/v'\\). Kvotregeln innehåller båda korsprodukterna \\(u'v-uv'\\) och nämnaren \\(v^2\\).</p>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\frac{2}{(x+2)^2}",
-      "\\frac{x^2-1}{x^2}",
-      "\\frac{e^x(x-1)}{x^2}",
-      "\\frac{x\\cos x-\\sin x}{x^2}"
+      "1-1/x^2",
+      null
     ],
     "tolerans": [
-      null,
-      null,
       null,
       null
     ],
     "självrättning": [
       true,
-      true,
-      true,
-      true
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
+      false
     ],
     "svarFormat": [
       "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(f(x)=\\frac{x}{x+2}\\)</p>",
-        "s": "<strong>a)</strong> \\(f'(x)=\\frac{2}{(x+2)^2}\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(g(x)=\\frac{x^2+1}{x}\\)</p>",
-        "s": "<strong>b)</strong> \\(g'(x)=\\frac{2x^2-(x^2+1)}{x^2}=\\boxed{\\frac{x^2-1}{x^2}}\\).",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(h(x)=\\frac{e^x}{x}\\)</p>",
-        "s": "<strong>c)</strong> \\(h'(x)=\\frac{e^x(x-1)}{x^2}\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(p(x)=\\frac{\\sin x}{x}\\)</p>",
-        "s": "<strong>d)</strong> \\(p'(x)=\\frac{x\\cos x-\\sin x}{x^2}\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
+      null
     ],
     "familjNyckel": "deriveringsregler__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
-    "spelIntro": "<p>Derivera med kvotregeln.</p>"
+    "ledtrad": "<p>Du kan förenkla funktionen före derivering eller använda kvotregeln korrekt.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "derivata",
+      "förklaring"
+    ],
+    "manuellKomplettering": [
+      false,
+      true
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Granska en vanlig felmetod.</p>",
+    "spelDelar": [
+      {
+        "etikett": "derivata",
+        "fraga": "<p>Bestäm korrekt derivata av \\(f(x)=\\frac{x^2+1}{x}\\).</p>",
+        "s": "<p>a) Antingen kvotregeln eller förenkling först:</p><p>\\[f(x)=x+\\frac1x\\Rightarrow f'(x)=\\boxed{1-\\frac1{x^2}}.\\]</p><p>b) Det finns ingen regel \\((u/v)'=u'/v'\\). Kvotregeln innehåller båda korsprodukterna \\(u'v-uv'\\) och nämnaren \\(v^2\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "förklaring",
+        "fraga": "<p>En elev skriver \\(f'(x)=\\frac{2x}{1}\\). Förklara kort varför det inte är kvotregeln.</p>",
+        "s": "<p>a) Antingen kvotregeln eller förenkling först:</p><p>\\[f(x)=x+\\frac1x\\Rightarrow f'(x)=\\boxed{1-\\frac1{x^2}}.\\]</p><p>b) Det finns ingen regel \\((u/v)'=u'/v'\\). Kvotregeln innehåller båda korsprodukterna \\(u'v-uv'\\) och nämnaren \\(v^2\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "2.439",
@@ -24684,12 +24721,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm parametern a så att \\(f(x)=x^2(x-a)\\) har en stationär punkt vid x=4.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Produktregeln behövs eftersom båda faktorerna beror på x; derivera en faktor i taget och låt den andra stå kvar.</p><p>Efter derivering och insättning/förenkling fås <strong>\\(\\boxed{6}\\)</strong>.</p>",
+    "s": "<p>\\[f(x)=x^2(x-a)=x^3-ax^2\\Rightarrow f'(x)=3x^2-2ax.\\]</p><p>En stationär punkt vid \\(x=4\\) betyder \\(f'(4)=0\\):</p><p>\\[48-8a=0\\Rightarrow\\boxed{a=6}.\\]</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
       "procedur",
@@ -24700,7 +24737,7 @@ window.BANKMATO2 =
     "rättSvar": 6,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
+    "ledtrad": "<p>Stationär punkt betyder att derivatan är 0 i den punkten.</p>",
     "svarFormat": "numeriskt"
   },
   {
@@ -24710,8 +24747,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera och förenkla.</p><p>\\[f(x)=x^2e^{3x}.\\]</p>",
@@ -24735,12 +24772,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera</p><p>\\[f(x)=\\frac{\\sin x}{1+\\cos x}.\\]</p><p>Förenkla derivatan så långt som möjligt där funktionen är definierad.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten. Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p><div class=\"facit-arbete\"><p><strong>Formel från formelbladet:</strong> Kvotregeln.</p><p>\\[f'(x)=\\frac{\\cos x(1+\\cos x)-\\sin x(-\\sin x)}{(1+\\cos x)^2}.\\]</p><p>Täljaren blir</p><p>\\[\\cos x+\\cos^2x+\\sin^2x=1+\\cos x\\]</p><p>med trigonometriska ettan. Därför</p><p>\\[f'(x)=\\frac{1+\\cos x}{(1+\\cos x)^2}=\\boxed{\\frac{1}{1+\\cos x}}.\\]</p><p>Förenklingen gäller där den givna funktionen är definierad, alltså där \\(1+\\cos x\\ne0\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera kritiska punkter, ändpunkter och derivatans tecken så att du verkligen har rätt typ av extrempunkt.</p></div>",
+    "s": "<p>Kvotregeln ger</p><p>\\[f'(x)=\\frac{\\cos x(1+\\cos x)+\\sin^2x}{(1+\\cos x)^2}.\\]</p><p>Med \\(\\sin^2x+\\cos^2x=1\\) blir täljaren \\(1+\\cos x\\). Därför</p><p>\\[\\boxed{f'(x)=\\frac1{1+\\cos x}},\\]</p><p>för de \\(x\\) där ursprungsfunktionen är definierad.</p>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
       "procedur"
@@ -24751,7 +24788,7 @@ window.BANKMATO2 =
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "deriveringsregler__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>"
+    "ledtrad": "<p>Använd kvotregeln och förenkla täljaren med trigonometriska ettan.</p>"
   },
   {
     "id": "2.189",
@@ -24765,7 +24802,7 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera.</p><p>a) \\(x^4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(3x^5-2x^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(1/x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sqrt{x}\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><p>a) \\(\\boxed{4x^3}\\).</p><p>b) \\(\\boxed{15x^4-4x}\\).</p><p>c) \\(\\boxed{-1/x^2}\\).</p><p>d) \\(\\boxed{1/(2\\sqrt{x})}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
+    "s": "<p>a) \\((x^4)'=\\boxed{4x^3}\\).</p><p>b) \\((3x^5-2x^2)'=\\boxed{15x^4-4x}\\).</p><p>c) Skriv \\(1/x=x^{-1}\\): \\((x^{-1})'=\\boxed{-x^{-2}}\\).</p><p>d) Skriv \\(\\sqrt{x}=x^{1/2}\\): \\((x^{1/2})'=\\boxed{1/(2\\sqrt{x})}\\).</p>",
     "familj": "Grundläggande deriveringsregler",
     "formaga": [
       "procedur"
@@ -24834,7 +24871,7 @@ window.BANKMATO2 =
       }
     ],
     "familjNyckel": "deriveringsregler__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Skriv bråk och rötter som potenser om det gör potensregeln tydligare.</p>",
     "spelIntro": "<p>Derivera.</p>"
   },
   {
@@ -24849,7 +24886,7 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera.</p><p>a) \\(\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\ln x\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><p>a) \\(\\boxed{\\cos x}\\).</p><p>b) \\(\\boxed{-\\sin x}\\).</p><p>c) \\(\\boxed{e^x}\\).</p><p>d) \\(\\boxed{1/x}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
+    "s": "<p>a) \\((\\sin x)'=\\boxed{\\cos x}\\).</p><p>b) \\((\\cos x)'=\\boxed{-\\sin x}\\).</p><p>c) \\((e^x)'=\\boxed{e^x}\\).</p><p>d) \\((\\ln x)'=\\boxed{1/x}\\), för \\(x&gt;0\\).</p>",
     "familj": "Grundläggande deriveringsregler",
     "formaga": [
       "procedur"
@@ -24918,7 +24955,7 @@ window.BANKMATO2 =
       }
     ],
     "familjNyckel": "deriveringsregler__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Använd standardderivatorna från formelbladet.</p>",
     "spelIntro": "<p>Derivera.</p>"
   },
   {
@@ -24929,81 +24966,22 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "4/0/0",
+    "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(x^7\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(3/x^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sqrt{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(5x^{-3}\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p><p>a) \\(7x^6\\).</p><p>b) \\(-6/x^3\\).</p><p>c) \\(1/(2\\sqrt{x})\\).</p><p>d) \\(-15x^{-4}\\).</p>",
+    "t": "<p>Funktionen är \\(f(x)=x^4-2x^2+1\\). Bestäm \\(f''(x)\\).</p>",
+    "s": "<p>Derivera två gånger:</p><p>\\[f'(x)=4x^3-4x,\\]</p><p>\\[f''(x)=\\boxed{12x^2-4}.\\]</p>",
     "familj": "Grundläggande deriveringsregler",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "7x^6",
-      "-6/x^3",
-      "1/(2*sqrt(x))",
-      "-15x^(-4)"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(x^7\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(7x^6\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(3/x^2\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(-6/x^3\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(\\sqrt{x}\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(1/(2\\sqrt{x})\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(5x^{-3}\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(-15x^{-4}\\).</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "12*x^2-4",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
     "familjNyckel": "deriveringsregler__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    "ledtrad": "<p>Bestäm först \\(f'(x)\\), och derivera sedan resultatet en gång till.</p>"
   },
   {
     "id": "2.493",
@@ -25012,9 +24990,9 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
+    "niva": "E",
     "typ": "derivata i punkt med horisontell tangent",
-    "poang": "0/2/0",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För \\(f(x)=x^4-2x^2+7\\), bestäm \\(f'(-1)\\).</p>",
@@ -25040,24 +25018,64 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Förenkla derivatan av \\(f(x)=\\frac{x^2-1}{x-1}\\) för x≠1 och förklara varför derivatan inte säger att f är definierad vid x=1.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kvotregeln håller reda på att både täljare och nämnare förändras. Skriv regeln innan du börjar förenkla.</p><p>För x≠1 kan funktionen först förenklas till \\(f(x)=x+1\\), så derivatan är 1 på definitionsmängden. Punkten x=1 är ändå borttagen ur den ursprungliga funktionen. Förenklingen tar bort en gemensam faktor men får inte lägga till en punkt i definitionsmängden.</p><p><strong>Slutsats:</strong> \\(f\\prime(x)=1\\) för x≠1, men f är fortfarande inte definierad vid x=1.</p>",
+    "t": "<p>Funktionen är \\(f(x)=\\frac{x^2-1}{x-1}\\), \\(x\\ne1\\).</p><p>a) Förenkla och bestäm derivatan.<br>b) Förklara varför funktionen fortfarande inte är definierad vid \\(x=1\\).</p>",
+    "s": "<p>a) För \\(x\\ne1\\):</p><p>\\[f(x)=\\frac{(x-1)(x+1)}{x-1}=x+1,\\]</p><p>så \\(\\boxed{f'(x)=1}\\).</p><p>b) Förenklingen beskriver samma värden där ursprungsfunktionen är definierad. Den borttagna faktorn får inte lägga till punkten \\(x=1\\) i definitionsmängden.</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
-      "procedur",
+      "begrepp",
       "resonemang"
     ],
     "familjNyckel": "deriveringsregler__derivering_med_produkt_och_kvotregeln",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
-    "spel": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      null
+    ],
+    "tolerans": [
+      0,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "ledtrad": "<p>Faktorisera täljaren. Skriv sedan uttryckligen vilket värde som var förbjudet från början.</p>",
+    "spel": false,
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "derivata",
+      "förklaring"
+    ],
+    "manuellKomplettering": [
+      false,
+      true
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Förenkla utan att tappa definitionsmängden.</p>",
+    "spelDelar": [
+      {
+        "etikett": "derivata",
+        "fraga": "<p>Bestäm \\(f'(x)\\) för \\(x\\ne1\\).</p>",
+        "s": "<p>a) För \\(x\\ne1\\):</p><p>\\[f(x)=\\frac{(x-1)(x+1)}{x-1}=x+1,\\]</p><p>så \\(\\boxed{f'(x)=1}\\).</p><p>b) Förenklingen beskriver samma värden där ursprungsfunktionen är definierad. Den borttagna faktorn får inte lägga till punkten \\(x=1\\) i definitionsmängden.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "förklaring",
+        "fraga": "<p>Förklara varför förenklingen inte gör \\(f\\) definierad vid \\(x=1\\).</p>",
+        "s": "<p>a) För \\(x\\ne1\\):</p><p>\\[f(x)=\\frac{(x-1)(x+1)}{x-1}=x+1,\\]</p><p>så \\(\\boxed{f'(x)=1}\\).</p><p>b) Förenklingen beskriver samma värden där ursprungsfunktionen är definierad. Den borttagna faktorn får inte lägga till punkten \\(x=1\\) i definitionsmängden.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "2.216",
@@ -25066,22 +25084,23 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera och förenkla \\(f(x)=x^2e^x\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p><p>Produktregeln: \\(f'=2xe^x+x^2e^x=e^x(x^2+2x)\\). Alltså \\(\\boxed{x e^x(x+2)}\\).</p>",
+    "s": "<p>Produktregeln ger</p><p>\\[f'(x)=2xe^x+x^2e^x=\\boxed{e^x(x^2+2x)}.\\]</p>",
     "familj": "Derivering med produktregeln",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "e^x*(x^2+2*x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>"
+    "ledtrad": "<p>Båda faktorerna beror på \\(x\\), så båda termerna i produktregeln behövs.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "2.217",
@@ -25090,8 +25109,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\frac{x^2+1}{x+1}\\).</p>",
@@ -25115,82 +25134,59 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(f(x)=x^3e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=(x^2+1)\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\frac{x^2+1}{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=\\frac{e^x}{x+1}\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör om uttrycket är en produkt eller en kvot innan du deriverar. Produktregeln har två termer; kvotregeln har nämnaren i kvadrat och en bestämd ordning i täljaren.</p><div class=\"facit-arbete\"><p><strong>Formelbladet:</strong> Använd produktregeln i a–b och kvotregeln i c–d.</p><p>a) <strong>\\(f'(x)=3x^2e^x+x^3e^x\\)</strong>.</p><p>b) <strong>\\(g'(x)=2x\\sin x+(x^2+1)\\cos x\\)</strong>.</p><p>c) \\(h'(x)=[2x\\cdot x-(x^2+1)]/x^2=\\)<strong>\\((x^2-1)/x^2\\)</strong>.</p><p>d) <strong>\\(p'(x)=e^x x/(x+1)^2\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att båda funktionerna har deriverats och att minustecknet i kvotregelns täljare står i rätt ordning.</p></div>",
+    "t": "<p>Funktionen ges av</p><p>\\[f(x)=\\frac{ax+b}{x+1}.\\]</p><p>Bestäm \\(a\\) och \\(b\\) så att \\(f(1)=4\\) och \\(f'(1)=3\\).</p>",
+    "s": "<p>Villkoret \\(f(1)=4\\) ger \\((a+b)/2=4\\), alltså \\(a+b=8\\).</p><p>Kvotregeln ger</p><p>\\[f'(x)=\\frac{a(x+1)-(ax+b)}{(x+1)^2}=\\frac{a-b}{(x+1)^2}.\\]</p><p>Villkoret \\(f'(1)=3\\) ger \\((a-b)/4=3\\), alltså \\(a-b=12\\).</p><p>Systemet ger \\(\\boxed{a=10,\\ b=-2}\\).</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "3x^2e^x+x^3e^x",
-      "2x\\sin x+(x^2+1)\\cos x",
-      "(x^2-1)/x^2",
-      "e^x x/(x+1)^2"
+      10,
+      -2
     ],
     "tolerans": [
-      null,
-      null,
-      null,
-      null
+      0,
+      0
     ],
     "självrättning": [
       true,
-      true,
-      true,
       true
     ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "familjNyckel": "deriveringsregler__derivering_med_produkt_och_kvotregeln",
+    "ledtrad": "<p>Det ena villkoret ger en ekvation direkt. Derivera sedan och använd det andra villkoret.</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "b"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm parametrarna från ett funktionsvärde och ett derivatavärde.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(f(x)=x^3e^x\\)</p>",
-        "s": "<p>Formelbladet: Använd produktregeln i a–b och kvotregeln i c–d.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(f'(x)=3x^2e^x+x^3e^x\\) .</div>",
-        "niva": "E",
-        "poang": "1/0/0"
+        "fraga": "<p>Bestäm \\(a\\).</p>",
+        "s": "<p>Villkoret \\(f(1)=4\\) ger \\((a+b)/2=4\\), alltså \\(a+b=8\\).</p><p>Kvotregeln ger</p><p>\\[f'(x)=\\frac{a(x+1)-(ax+b)}{(x+1)^2}=\\frac{a-b}{(x+1)^2}.\\]</p><p>Villkoret \\(f'(1)=3\\) ger \\((a-b)/4=3\\), alltså \\(a-b=12\\).</p><p>Systemet ger \\(\\boxed{a=10,\\ b=-2}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(g(x)=(x^2+1)\\sin x\\)</p>",
-        "s": "<p>Formelbladet: Använd produktregeln i a–b och kvotregeln i c–d.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(g'(x)=2x\\sin x+(x^2+1)\\cos x\\) .</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(h(x)=\\frac{x^2+1}{x}\\)</p>",
-        "s": "<p>Formelbladet: Använd produktregeln i a–b och kvotregeln i c–d.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(h'(x)=[2x\\cdot x-(x^2+1)]/x^2=\\) \\((x^2-1)/x^2\\) .</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(p(x)=\\frac{e^x}{x+1}\\)</p>",
-        "s": "<p>Formelbladet: Använd produktregeln i a–b och kvotregeln i c–d.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(p'(x)=e^x x/(x+1)^2\\) .</div>",
-        "niva": "E",
-        "poang": "1/0/0"
+        "fraga": "<p>Bestäm \\(b\\).</p>",
+        "s": "<p>Villkoret \\(f(1)=4\\) ger \\((a+b)/2=4\\), alltså \\(a+b=8\\).</p><p>Kvotregeln ger</p><p>\\[f'(x)=\\frac{a(x+1)-(ax+b)}{(x+1)^2}=\\frac{a-b}{(x+1)^2}.\\]</p><p>Villkoret \\(f'(1)=3\\) ger \\((a-b)/4=3\\), alltså \\(a-b=12\\).</p><p>Systemet ger \\(\\boxed{a=10,\\ b=-2}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
       }
-    ],
-    "familjNyckel": "deriveringsregler__derivering_med_produkt_och_kvotregeln",
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    ]
   },
   {
     "id": "2.239",
@@ -25225,81 +25221,23 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "4/0/0",
+    "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(x^5-4x^3+7\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((x^2+1)e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(x\\ln x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((3x+2)/(x-1)\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>a) <strong>\\(5x^4-12x^2\\)</strong>.</p><p>b) <strong>\\(2xe^x+(x^2+1)e^x\\)</strong>.</p><p>c) Produktregeln ger <strong>\\(\\ln x+1\\)</strong>.</p><p>d) Kvotregeln ger \\([3(x-1)-(3x+2)]/(x-1)^2=\\)<strong>\\(-5/(x-1)^2\\)</strong>.</p>",
+    "t": "<p>Bestäm tangentens ekvation till \\(f(x)=xe^{2x}\\) vid \\(x=0\\).</p>",
+    "s": "<p>\\[f(0)=0.\\]</p><p>Produkt- och kedjeregel ger \\(f'(x)=e^{2x}+2xe^{2x}=e^{2x}(1+2x)\\), så \\(f'(0)=1\\).</p><p>Tangenten genom \\((0,0)\\) med lutning 1 är</p><p>\\[\\boxed{y=x}.\\]</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5x^4-12x^2",
-      "2x*e^x+(x^2+1)*e^x",
-      "ln(x)+1",
-      "-5/(x-1)^2"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(x^5-4x^3+7\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(5x^4-12x^2\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\((x^2+1)e^x\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(2xe^x+(x^2+1)e^x\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(x\\ln x\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">Produktregeln ger <strong>\\(\\ln x+1\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\((3x+2)/(x-1)\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">Kvotregeln ger \\([3(x-1)-(3x+2)]/(x-1)^2=\\)<strong>\\(-5/(x-1)^2\\)</strong>.</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "y=x",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
     "familjNyckel": "deriveringsregler__derivering_med_produkt_och_kvotregeln",
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    "ledtrad": "<p>En tangent bestäms av punkten på kurvan och derivatans värde där.</p>"
   },
   {
     "id": "2.441",
@@ -25308,23 +25246,23 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Visa med produktregeln att \\((x^n)\\prime=nx^{n-1}\\) för heltal n≥2 om du får anta formeln för n och studera x^{n+1}.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Produktregeln behövs eftersom båda faktorerna beror på x; derivera en faktor i taget och låt den andra stå kvar.</p><p>Induktionssteget är \\((x^{n+1})\\prime=(x^n\\cdot x)\\prime=nx^{n-1}x+x^n=(n+1)x^n\\). Därmed förs regeln från exponent n till n+1.</p><p><strong>Slutsats:</strong> Produktregeln ger den vanliga potensregeln konsekvent.</p>",
+    "t": "<p>En elev påstår att produktregeln är \\((uv)'=u'v'\\).</p><p>Visa med valet \\(u(x)=v(x)=x\\) att påståendet ger fel resultat, och skriv den korrekta produktregeln.</p>",
+    "s": "<p>Om elevens regel vore riktig skulle</p><p>\\[(x\\cdot x)'=1\\cdot1=1.\\]</p><p>Men \\(x\\cdot x=x^2\\), och \\((x^2)'=2x\\), vilket inte är 1 i allmänhet.</p><p>Den korrekta produktregeln är</p><p>\\[\\boxed{(uv)'=u'v+uv'}.\\]</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
-      "procedur",
+      "begrepp",
       "resonemang"
     ],
     "familjNyckel": "deriveringsregler__derivering_med_produkt_och_kvotregeln",
-    "svarstyp": "manuell",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
+    "ledtrad": "<p>Jämför elevens regel med derivatan av \\(x^2\\).</p>",
     "spel": false
   },
   {
@@ -25334,82 +25272,63 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(x^2\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((x+1)e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((x^2-1)/(x+2)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin x/x\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p><p>a) <strong>\\(2x\\cos x-x^2\\sin x\\)</strong>.</p><p>b) <strong>\\((x+2)e^x\\)</strong>.</p><p>c) <strong>\\((x^2+4x+1)/(x+2)^2\\)</strong>.</p><p>d) <strong>\\((x\\cos x-\\sin x)/x^2\\)</strong>.</p>",
+    "t": "<p>Funktionen är \\(f(x)=\\frac{x^2}{x^2+1}\\).</p><p>a) Bestäm \\(f'(x)\\).<br>b) Avgör med hjälp av derivatan om \\(f\\) är växande för \\(x&gt;0\\).</p>",
+    "s": "<p>a) Kvotregeln:</p><p>\\[f'(x)=\\frac{2x(x^2+1)-x^2(2x)}{(x^2+1)^2}=\\boxed{\\frac{2x}{(x^2+1)^2}}.\\]</p><p>b) För \\(x&gt;0\\) är både täljaren och nämnaren positiva. Alltså är \\(f'(x)&gt;0\\), så funktionen är växande där.</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2x\\cos x-x^2\\sin x",
-      "(x+2)e^x",
-      "(x^2+4x+1)/(x+2)^2",
-      "(x\\cos x-\\sin x)/x^2"
+      "2*x/(x^2+1)^2",
+      null
     ],
     "tolerans": [
-      null,
-      null,
       null,
       null
     ],
     "självrättning": [
       true,
-      true,
-      true,
-      true
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
+      false
     ],
     "svarFormat": [
       "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(x^2\\cos x\\)</p>",
-        "s": "<strong>a)</strong> \\(2x\\cos x-x^2\\sin x\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\((x+1)e^x\\)</p>",
-        "s": "<strong>b)</strong> \\((x+2)e^x\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\((x^2-1)/(x+2)\\)</p>",
-        "s": "<strong>c)</strong> \\((x^2+4x+1)/(x+2)^2\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(\\sin x/x\\)</p>",
-        "s": "<strong>d)</strong> \\((x\\cos x-\\sin x)/x^2\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
+      null
     ],
     "familjNyckel": "deriveringsregler__derivering_med_produkt_och_kvotregeln",
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    "ledtrad": "<p>I b) behöver du inte lösa någon ny ekvation; studera bara tecknet på derivatan.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "derivata",
+      "resonemang"
+    ],
+    "manuellKomplettering": [
+      false,
+      true
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Derivera och tolka tecknet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "derivata",
+        "fraga": "<p>Bestäm \\(f'(x)\\) för \\(f(x)=\\frac{x^2}{x^2+1}\\).</p>",
+        "s": "<p>a) Kvotregeln:</p><p>\\[f'(x)=\\frac{2x(x^2+1)-x^2(2x)}{(x^2+1)^2}=\\boxed{\\frac{2x}{(x^2+1)^2}}.\\]</p><p>b) För \\(x&gt;0\\) är både täljaren och nämnaren positiva. Alltså är \\(f'(x)&gt;0\\), så funktionen är växande där.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "resonemang",
+        "fraga": "<p>Använd derivatan för att avgöra om \\(f\\) är växande för \\(x&gt;0\\). Motivera.</p>",
+        "s": "<p>a) Kvotregeln:</p><p>\\[f'(x)=\\frac{2x(x^2+1)-x^2(2x)}{(x^2+1)^2}=\\boxed{\\frac{2x}{(x^2+1)^2}}.\\]</p><p>b) För \\(x&gt;0\\) är både täljaren och nämnaren positiva. Alltså är \\(f'(x)&gt;0\\), så funktionen är växande där.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "2.411",
@@ -25443,23 +25362,23 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Funktionen är \\(f(x)=\\sin x\\cdot x^2\\).</p><p>Bestäm \\(f'(1.571)\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Metod:</strong> Använd produktregeln. \\(f'(x)=\\cos x\\cdot x^2+2x\\sin x\\).</p><p>Insättning ger \\(3.14159\\).</p>",
+    "t": "<p>Funktionen är \\(f(x)=x^2\\sin x\\). Bestäm \\(f'(\\pi/2)\\) exakt.</p>",
+    "s": "<p>Produktregeln ger \\(f'(x)=2x\\sin x+x^2\\cos x\\).</p><p>Vid \\(x=\\pi/2\\) är \\(\\sin(\\pi/2)=1\\) och \\(\\cos(\\pi/2)=0\\), därför</p><p>\\[f'(\\pi/2)=\\boxed{\\pi}.\\]</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 3.141592653589793,
-    "tolerans": 0.031415926535897934,
+    "svarstyp": "uttryck",
+    "rättSvar": "pi",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "deriveringsregler__derivering_med_produkt_och_kvotregeln",
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>"
+    "ledtrad": "<p>Derivera med produktregeln och använd de exakta trigonometriska värdena vid \\(\\pi/2\\).</p>"
   },
   {
     "id": "2.413",
@@ -25468,8 +25387,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Funktionen är \\(f(x)=(x^2+1)/(x+1)\\).</p><p>Bestäm \\(f'(2)\\).</p>",
@@ -25566,81 +25485,70 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "4/0/0",
+    "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Låt \\(f(x)=2x-1\\) och \\(g(x)=x^2+3\\).</p><p>a) Bestäm \\(f(g(x))\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(g(f(x))\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(f(g(2))\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Derivera \\(g(f(x))\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p><p>a) <strong>\\(2x^2+5\\)</strong>.</p><p>b) \\(g(2x-1)=(2x-1)^2+3=\\)<strong>\\(4x^2-4x+4\\)</strong>.</p><p>c) \\(2\\cdot4+5=\\)<strong>13</strong>.</p><p>d) <strong>\\(8x-4\\)</strong>.</p>",
+    "t": "<p>Låt \\(f(x)=\\sqrt{x}\\) och \\(g(x)=x-3\\).</p><p>a) Bestäm \\(f(g(x))\\).<br>b) Bestäm dess definitionsmängd.<br>c) Lös \\(f(g(x))=2\\).</p>",
+    "s": "<p>a) \\(f(g(x))=\\boxed{\\sqrt{x-3}}\\).</p><p>b) Kravet \\(x-3\\ge0\\) ger \\(\\boxed{x\\ge3}\\).</p><p>c) \\(\\sqrt{x-3}=2\\Rightarrow x-3=4\\Rightarrow\\boxed{x=7}\\).</p>",
     "familj": "Beräkna sammansatta funktioner",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2x^2+5",
-      "4x^2-4x+4",
-      13,
-      "8x-4"
+      "sqrt(x-3)",
+      "x>=3",
+      7
     ],
     "tolerans": [
       null,
       null,
-      null,
-      null
+      0
     ],
     "självrättning": [
-      true,
       true,
       true,
       true
     ],
     "svarFormat": [
       "uttryck",
-      "uttryck",
-      "numeriskt",
-      "uttryck"
+      "intervall",
+      "numeriskt"
     ],
+    "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
+    "ledtrad": "<p>Sätt först \\(g(x)\\) i \\(f\\). Rotuttrycket måste vara icke-negativt.</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
+      "sammansättning",
+      "definitionsmängd",
+      "lösning"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Låt \\(f(x)=\\sqrt{x}\\) och \\(g(x)=x-3\\).</p><p>a) Bestäm \\(f(g(x))\\).<br>b) Bestäm dess definitionsmängd.<br>c) Lös \\(f(g(x))=2\\).</p>",
     "spelDelar": [
       {
-        "etikett": "a",
+        "etikett": "sammansättning",
         "fraga": "<p>Bestäm \\(f(g(x))\\).</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(2x^2+5\\)</strong>.</div></p><p></p>",
+        "s": "<p>a) \\(f(g(x))=\\boxed{\\sqrt{x-3}}\\).</p><p>b) Kravet \\(x-3\\ge0\\) ger \\(\\boxed{x\\ge3}\\).</p><p>c) \\(\\sqrt{x-3}=2\\Rightarrow x-3=4\\Rightarrow\\boxed{x=7}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
-        "etikett": "b",
-        "fraga": "<p>Bestäm \\(g(f(x))\\).</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(g(2x-1)=(2x-1)^2+3=\\)<strong>\\(4x^2-4x+4\\)</strong>.</div></p><p></p>",
+        "etikett": "definitionsmängd",
+        "fraga": "<p>Bestäm definitionsmängden för \\(f(g(x))\\).</p>",
+        "s": "<p>a) \\(f(g(x))=\\boxed{\\sqrt{x-3}}\\).</p><p>b) Kravet \\(x-3\\ge0\\) ger \\(\\boxed{x\\ge3}\\).</p><p>c) \\(\\sqrt{x-3}=2\\Rightarrow x-3=4\\Rightarrow\\boxed{x=7}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
-        "etikett": "c",
-        "fraga": "<p>Bestäm \\(f(g(2))\\).</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(2\\cdot4+5=\\)<strong>13</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>Derivera \\(g(f(x))\\).</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(8x-4\\)</strong>.</div></p>",
+        "etikett": "lösning",
+        "fraga": "<p>Lös \\(f(g(x))=2\\).</p>",
+        "s": "<p>a) \\(f(g(x))=\\boxed{\\sqrt{x-3}}\\).</p><p>b) Kravet \\(x-3\\ge0\\) ger \\(\\boxed{x\\ge3}\\).</p><p>c) \\(\\sqrt{x-3}=2\\Rightarrow x-3=4\\Rightarrow\\boxed{x=7}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
-    ],
-    "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Låt \\(f(x)=2x-1\\) och \\(g(x)=x^2+3\\).</p>"
+    ]
   },
   {
     "id": "2.24",
@@ -25874,7 +25782,7 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Grafen visar funktionen \\(f\\) och tangenten i punkten \\(P=(1,2)\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"450\" height=\"255\" viewBox=\"0 0 450 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till f med tangent i punkten P lika med 1 komma 2\">\n<rect x=\"1\" y=\"1\" width=\"448\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"220\" stroke=\"#D9E6E9\"/>\n<text x=\"55.0\" y=\"208.1\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-2</text>\n<line x1=\"115.8\" y1=\"25\" x2=\"115.8\" y2=\"220\" stroke=\"#D9E6E9\"/>\n<text x=\"115.8\" y=\"208.1\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-1</text>\n<line x1=\"176.7\" y1=\"25\" x2=\"176.7\" y2=\"220\" stroke=\"#D9E6E9\"/>\n<line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"220\" stroke=\"#D9E6E9\"/>\n<text x=\"237.5\" y=\"208.1\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text>\n<line x1=\"298.3\" y1=\"25\" x2=\"298.3\" y2=\"220\" stroke=\"#D9E6E9\"/>\n<text x=\"298.3\" y=\"208.1\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text>\n<line x1=\"359.2\" y1=\"25\" x2=\"359.2\" y2=\"220\" stroke=\"#D9E6E9\"/>\n<text x=\"359.2\" y=\"208.1\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text>\n<line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"220\" stroke=\"#D9E6E9\"/>\n<text x=\"420.0\" y=\"208.1\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text>\n<line x1=\"55\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#D9E6E9\"/>\n<text x=\"168.7\" y=\"223.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-1</text>\n<line x1=\"55\" y1=\"192.1\" x2=\"420\" y2=\"192.1\" stroke=\"#D9E6E9\"/>\n<line x1=\"55\" y1=\"164.3\" x2=\"420\" y2=\"164.3\" stroke=\"#D9E6E9\"/>\n<text x=\"168.7\" y=\"167.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text>\n<line x1=\"55\" y1=\"136.4\" x2=\"420\" y2=\"136.4\" stroke=\"#D9E6E9\"/>\n<text x=\"168.7\" y=\"139.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text>\n<line x1=\"55\" y1=\"108.6\" x2=\"420\" y2=\"108.6\" stroke=\"#D9E6E9\"/>\n<text x=\"168.7\" y=\"111.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text>\n<line x1=\"55\" y1=\"80.7\" x2=\"420\" y2=\"80.7\" stroke=\"#D9E6E9\"/>\n<text x=\"168.7\" y=\"83.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text>\n<line x1=\"55\" y1=\"52.9\" x2=\"420\" y2=\"52.9\" stroke=\"#D9E6E9\"/>\n<text x=\"168.7\" y=\"55.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">5</text>\n<line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#D9E6E9\"/>\n<text x=\"168.7\" y=\"28.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">6</text>\n<line x1=\"55\" y1=\"192.1\" x2=\"420\" y2=\"192.1\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"176.7\" y1=\"25\" x2=\"176.7\" y2=\"220\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<polyline points=\"55.00,374.61 56.30,371.31 57.61,368.05 58.91,364.82 60.21,361.63 61.52,358.47 62.82,355.34 64.12,352.25 65.43,349.19 66.73,346.16 68.04,343.16 69.34,340.20 70.64,337.27 71.95,334.37 73.25,331.50 74.55,328.66 75.86,325.85 77.16,323.07 78.46,320.33 79.77,317.61 81.07,314.93 82.38,312.27 83.68,309.64 84.98,307.04 86.29,304.47 87.59,301.93 88.89,299.42 90.20,296.94 91.50,294.48 92.80,292.05 94.11,289.65 95.41,287.27 96.71,284.93 98.02,282.61 99.32,280.31 100.62,278.04 101.93,275.80 103.23,273.58 104.54,271.39 105.84,269.23 107.14,267.09 108.45,264.97 109.75,262.88 111.05,260.81 112.36,258.76 113.66,256.74 114.96,254.75 116.27,252.77 117.57,250.82 118.88,248.89 120.18,246.99 121.48,245.11 122.79,243.24 124.09,241.40 125.39,239.59 126.70,237.79 128.00,236.01 129.30,234.26 130.61,232.52 131.91,230.81 133.21,229.11 134.52,227.44 135.82,225.78 137.12,224.15 138.43,222.53 139.73,220.93 141.04,219.35 142.34,217.79 143.64,216.24 144.95,214.72 146.25,213.21 147.55,211.72 148.86,210.24 150.16,208.79 151.46,207.35 152.77,205.92 154.07,204.51 155.38,203.12 156.68,201.74 157.98,200.38 159.29,199.03 160.59,197.70 161.89,196.38 163.20,195.08 164.50,193.79 165.80,192.52 167.11,191.25 168.41,190.01 169.71,188.77 171.02,187.55 172.32,186.34 173.62,185.14 174.93,183.96 176.23,182.78 177.54,181.62 178.84,180.47 180.14,179.33 181.45,178.20 182.75,177.08 184.05,175.97 185.36,174.88 186.66,173.79 187.96,172.71 189.27,171.64 190.57,170.58 191.88,169.53 193.18,168.49 194.48,167.45 195.79,166.43 197.09,165.41 198.39,164.40 199.70,163.40 201.00,162.40 202.30,161.41 203.61,160.43 204.91,159.46 206.21,158.49 207.52,157.52 208.82,156.57 210.12,155.61 211.43,154.67 212.73,153.72 214.04,152.79 215.34,151.85 216.64,150.92 217.95,150.00 219.25,149.08 220.55,148.16 221.86,147.24 223.16,146.33 224.46,145.42 225.77,144.52 227.07,143.61 228.38,142.71 229.68,141.81 230.98,140.91 232.29,140.01 233.59,139.12 234.89,138.22 236.20,137.32 237.50,136.43 238.80,135.53 240.11,134.64 241.41,133.74 242.71,132.84 244.02,131.95 245.32,131.05 246.62,130.15 247.93,129.24 249.23,128.34 250.54,127.43 251.84,126.52 253.14,125.61 254.45,124.70 255.75,123.78 257.05,122.86 258.36,121.93 259.66,121.00 260.96,120.07 262.27,119.13 263.57,118.19 264.88,117.24 266.18,116.29 267.48,115.33 268.79,114.37 270.09,113.40 271.39,112.43 272.70,111.44 274.00,110.45 275.30,109.46 276.61,108.46 277.91,107.45 279.21,106.43 280.52,105.40 281.82,104.37 283.12,103.33 284.43,102.28 285.73,101.22 287.04,100.15 288.34,99.07 289.64,97.98 290.95,96.88 292.25,95.78 293.55,94.66 294.86,93.53 296.16,92.39 297.46,91.24 298.77,90.08 300.07,88.90 301.38,87.72 302.68,86.52 303.98,85.31 305.29,84.09 306.59,82.85 307.89,81.60 309.20,80.34 310.50,79.07 311.80,77.78 313.11,76.47 314.41,75.16 315.71,73.82 317.02,72.48 318.32,71.11 319.62,69.74 320.93,68.34 322.23,66.94 323.54,65.51 324.84,64.07 326.14,62.61 327.45,61.14 328.75,59.65 330.05,58.14 331.36,56.61 332.66,55.07 333.96,53.51 335.27,51.93 336.57,50.33 337.88,48.71 339.18,47.08 340.48,45.42 341.79,43.74 343.09,42.05 344.39,40.34 345.70,38.60 347.00,36.84 348.30,35.07 349.61,33.27 350.91,31.45 352.21,29.61 353.52,27.75 354.82,25.87 356.12,23.96 357.43,22.03 358.73,20.08 360.04,18.11 361.34,16.11 362.64,14.09 363.95,12.05 365.25,9.98 366.55,7.89 367.86,5.77 369.16,3.63 370.46,1.46 371.77,-0.73 373.07,-2.94 374.38,-5.19 375.68,-7.45 376.98,-9.75 378.29,-12.07 379.59,-14.42 380.89,-16.79 382.20,-19.19 383.50,-21.62 384.80,-24.08 386.11,-26.56 387.41,-29.08 388.71,-31.62 390.02,-34.19 391.32,-36.78 392.62,-39.41 393.93,-42.07 395.23,-44.75 396.54,-47.47 397.84,-50.22 399.14,-52.99 400.45,-55.80 401.75,-58.64 403.05,-61.51 404.36,-64.41 405.66,-67.34 406.96,-70.31 408.27,-73.30 409.57,-76.33 410.88,-79.39 412.18,-82.48 413.48,-85.61 414.79,-88.77 416.09,-91.97 417.39,-95.19 418.70,-98.45 420.00,-101.75\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n<line x1=\"146.2\" y1=\"199.1\" x2=\"359.2\" y2=\"52.9\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/>\n<circle cx=\"237.5\" cy=\"136.4\" r=\"4.5\" fill=\"#268FA3\"/>\n<text x=\"245.5\" y=\"128.4\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">P</text>\n</svg></span><p>Den streckade tangenten går genom rutnätspunkterna \\((0;\\,0,5)\\) och \\((2;\\,3,5)\\).</p>\n<p>En ny funktion definieras av</p>\n<p>\\[\nh(x)=(f(x))^2.\n\\]</p>\n<p>Bestäm \\(h'(1)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten. Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p><div class=\"facit-arbete\"><p>Kedjeregeln ger</p>\n<p>\\[\nh'(x)=2f(x)f'(x).\n\\]</p>\n<p>Av figuren är</p>\n<p>\\[\nf(1)=2.\n\\]</p>\n<p>Tangentens lutning är</p>\n<p>\\[\nf'(1)=\\frac{3,5-0,5}{2-0}=\\frac32.\n\\]</p>\n<p>Därför</p>\n<p>\\[\nh'(1)=2\\cdot2\\cdot\\frac32=6.\n\\]</p>\n<p><strong>\\(h'(1)=6\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera kritiska punkter, ändpunkter och derivatans tecken så att du verkligen har rätt typ av extrempunkt.</p></div>",
+    "s": "<p>För \\(h(x)=(f(x))^2\\) ger kedjeregeln</p><p>\\[h'(x)=2f(x)f'(x).\\]</p><p>Av grafen är \\(f(1)=2\\). Tangentens lutning fås från de markerade punkterna:</p><p>\\[f'(1)=\\frac{3,5-0,5}{2-0}=\\frac32.\\]</p><p>Därför</p><p>\\[h'(1)=2\\cdot2\\cdot\\frac32=\\boxed{6}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -25886,7 +25794,7 @@ window.BANKMATO2 =
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>"
+    "ledtrad": "<p>Du behöver två saker från figuren: \\(f(1)\\) och tangentens lutning \\(f'(1)\\).</p>"
   },
   {
     "id": "2.35",
@@ -25896,81 +25804,22 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "4/0/0",
+    "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera med kedjeregeln.</p><p>a) \\((3x+1)^5\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((2-x)^7\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sqrt{4x+3}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\((x^2+1)^4\\)</p>",
-    "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p><p>a) <strong>\\(15(3x+1)^4\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-7(2-x)^6\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac{2}{\\sqrt{4x+3}}\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(8x(x^2+1)^3\\)</strong>.</p>",
+    "t": "<p>För \\(f(x)=(1+x^2)^4\\), bestäm tangentens lutning vid \\(x=1\\).</p>",
+    "s": "<p>Kedjeregeln ger</p><p>\\[f'(x)=4(1+x^2)^3\\cdot2x=8x(1+x^2)^3.\\]</p><p>Vid \\(x=1\\):</p><p>\\[f'(1)=8\\cdot2^3=\\boxed{64}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "15*(3x+1)^4",
-      "-7*(2-x)^6",
-      "(2)/(sqrt(4x+3))",
-      "8x*(x^2+1)^3"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\((3x+1)^5\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p><p><div class=\"spel-en-del\"><strong>\\(15(3x+1)^4\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\((2-x)^7\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p><p><div class=\"spel-en-del\"><strong>\\(-7(2-x)^6\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(\\sqrt{4x+3}\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p><p><div class=\"spel-en-del\"><strong>\\(\\frac{2}{\\sqrt{4x+3}}\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\((x^2+1)^4\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p><p><div class=\"spel-en-del\"><strong>\\(8x(x^2+1)^3\\)</strong>.</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 64,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Derivera med kedjeregeln.</p>"
+    "ledtrad": "<p>Derivera med kedjeregeln innan du sätter in \\(x=1\\).</p>"
   },
   {
     "id": "2.443",
@@ -26172,17 +26021,32 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Funktionerna är \\(f(x)=x^2-4x\\) och \\(g(x)=x+1\\).</p><p>Bestäm alla \\(x\\) som uppfyller \\(f(g(x))=5\\).</p>",
-    "s": "<p>Först bildas den sammansatta funktionen:</p><p>\\[f(g(x))=(x+1)^2-4(x+1)=x^2-2x-3.\\]</p><p>Sätt lika med 5:</p><p>\\[x^2-2x-3=5\\Rightarrow x^2-2x-8=0.\\]</p><p>Faktorisera: \\((x-4)(x+2)=0\\). Alltså \\(\\boxed{x=4\\text{ eller }x=-2}\\).</p>",
+    "s": "<p>\\[f(g(x))=(x+1)^2-4(x+1)=x^2-2x-3.\\]</p><p>Sätt lika med 5:</p><p>\\[x^2-2x-8=0=(x-4)(x+2).\\]</p><p>Alltså \\(\\boxed{x=-2\\text{ eller }x=4}\\).</p>",
     "familj": "Beräkna sammansatta funktioner",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      4
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>"
+    "ledtrad": "<p>Bilda först \\(f(g(x))\\). Därefter återstår en vanlig andragradsekvation.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "antalSvar": 2
   },
   {
     "id": "2.444",
@@ -26276,82 +26140,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Låt \\(f(x)=2x-3\\) och \\(g(x)=x^2+1\\).</p><p>Bestäm</p><p>a) \\(f(g(x))\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(f(x))\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(f(g(2))\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(g(f(2))\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>a) \\(f(g(x))=2(x^2+1)-3=\\boxed{2x^2-1}\\).</p><p>b) \\(g(f(x))=(2x-3)^2+1=\\boxed{4x^2-12x+10}\\).</p><p>c) \\(2\\cdot4-1=\\boxed{7}\\).</p><p>d) \\(16-24+10=\\boxed{2}\\).</p><p><strong>Insikt:</strong> Sammansättningarnas ordning spelar roll.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
+    "t": "<p>Låt \\(f(x)=x^2\\) och \\(g(x)=x+1\\).</p><p>Bestäm alla reella \\(x\\) som uppfyller \\(f(g(x))=g(f(x))\\).</p>",
+    "s": "<p>\\[f(g(x))=(x+1)^2=x^2+2x+1,\\]</p><p>\\[g(f(x))=x^2+1.\\]</p><p>Sätt uttrycken lika:</p><p>\\[x^2+2x+1=x^2+1\\Rightarrow2x=0\\Rightarrow\\boxed{x=0}.\\]</p>",
     "familj": "Beräkna sammansatta funktioner",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "2x^2-1",
-      "4x^2-12x+10",
-      7,
-      2
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(f(g(x))\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(f(g(x))=2(x^2+1)-3=\\boxed{2x^2-1}\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(g(f(x))\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(g(f(x))=(2x-3)^2+1=\\boxed{4x^2-12x+10}\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(f(g(2))\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(2\\cdot4-1=\\boxed{7}\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(g(f(2))\\).</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(16-24+10=\\boxed{2}\\).</div></p><p><strong>Insikt:</strong> Sammansättningarnas ordning spelar roll.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
     "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Låt \\(f(x)=2x-3\\) och \\(g(x)=x^2+1\\).</p><p>Bestäm</p>"
+    "ledtrad": "<p>Bilda de två sammansättningarna var för sig innan du sätter dem lika.</p>"
   },
   {
     "id": "2.85",
@@ -26761,82 +26567,63 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera med kedjeregeln.</p><p>a) \\((3x-2)^5\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(e^{4x+1}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\ln(2x+5)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin(3x-1)\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p><p>a) \\(15(3x-2)^4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(4e^{4x+1}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2/(2x+5)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3\\cos(3x-1)\\)</p>",
+    "t": "<p>En elev deriverar \\(h(x)=\\sqrt{1+x^2}\\) och skriver</p><p>\\[h'(x)=\\frac1{2\\sqrt{1+x^2}}.\\]</p><p>a) Bestäm korrekt derivata.<br>b) Förklara vilket steg eleven har missat.</p>",
+    "s": "<p>Skriv \\(h(x)=(1+x^2)^{1/2}\\). Kedjeregeln ger</p><p>\\[h'(x)=\\frac12(1+x^2)^{-1/2}\\cdot2x=\\boxed{\\frac{x}{\\sqrt{1+x^2}}}.\\]</p><p>Eleven har deriverat den yttre roten men glömt att multiplicera med den inre derivatan \\(2x\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "15*(3x-2)^4",
-      "4*e^(4x+1)",
-      "2/(2x+5)",
-      "3*cos(3x-1)"
+      "x/sqrt(1+x^2)",
+      null
     ],
     "tolerans": [
-      null,
-      null,
       null,
       null
     ],
     "självrättning": [
       true,
-      true,
-      true,
-      true
+      false
     ],
     "svarFormat": [
       "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      null
     ],
+    "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
+    "ledtrad": "<p>Identifiera den yttre funktionen och det inre uttrycket \\(1+x^2\\).</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
-      "b",
-      "c",
-      "d"
+      "b"
+    ],
+    "manuellKomplettering": [
+      false,
+      true
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Granska en vanlig kedjeregelmiss.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\((3x-2)^5\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p><p><div class=\"spel-en-del\">\\(15(3x-2)^4\\)<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
+        "fraga": "<p>Bestäm korrekt derivata av \\(h(x)=\\sqrt{1+x^2}\\).</p>",
+        "s": "<p>Skriv \\(h(x)=(1+x^2)^{1/2}\\). Kedjeregeln ger</p><p>\\[h'(x)=\\frac12(1+x^2)^{-1/2}\\cdot2x=\\boxed{\\frac{x}{\\sqrt{1+x^2}}}.\\]</p><p>Eleven har deriverat den yttre roten men glömt att multiplicera med den inre derivatan \\(2x\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(e^{4x+1}\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p><p><div class=\"spel-en-del\">\\(4e^{4x+1}\\)<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(\\ln(2x+5)\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p><p><div class=\"spel-en-del\">\\(2/(2x+5)\\)<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(\\sin(3x-1)\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p><p><div class=\"spel-en-del\">\\(3\\cos(3x-1)\\)</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
+        "fraga": "<p>Förklara vad som saknas i svaret \\(h'(x)=1/(2\\sqrt{1+x^2})\\).</p>",
+        "s": "<p>Skriv \\(h(x)=(1+x^2)^{1/2}\\). Kedjeregeln ger</p><p>\\[h'(x)=\\frac12(1+x^2)^{-1/2}\\cdot2x=\\boxed{\\frac{x}{\\sqrt{1+x^2}}}.\\]</p><p>Eleven har deriverat den yttre roten men glömt att multiplicera med den inre derivatan \\(2x\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
       }
-    ],
-    "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Derivera med kedjeregeln.</p>"
+    ]
   },
   {
     "id": "2.112",
@@ -26845,82 +26632,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera med kedjeregeln.</p><p>a) \\(f(x)=(3x-1)^5\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\sqrt{2x+5}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=e^{4x-2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=\\ln(5x+1)\\)</p>",
-    "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p>\n<p>a) <strong>\\(f'(x)=15(3x-1)^4\\)</strong>.</p><p>b) <strong>\\(g'(x)=1/\\sqrt{2x+5}\\)</strong>.</p><p>c) <strong>\\(h'(x)=4e^{4x-2}\\)</strong>.</p><p>d) <strong>\\(p'(x)=5/(5x+1)\\)</strong>.</p>",
+    "t": "<p>Funktionerna \\(f\\) och \\(g\\) är deriverbara. Man vet att</p><p>\\[g(1)=2,\\quad g'(1)=-4,\\quad f'(2)=3.\\]</p><p>För \\(h(x)=f(g(x))\\), bestäm \\(h'(1)\\).</p>",
+    "s": "<p>Kedjeregeln ger \\(h'(x)=f'(g(x))g'(x)\\). Därför</p><p>\\[h'(1)=f'(2)(-4)=3(-4)=\\boxed{-12}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "15*(3x-1)^4",
-      "1/sqrt(2x+5)",
-      "4*e^(4x-2)",
-      "5/(5x+1)"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(f(x)=(3x-1)^5\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p>\n<p><div class=\"spel-en-del\"><strong>\\(f'(x)=15(3x-1)^4\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(g(x)=\\sqrt{2x+5}\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p>\n<p><div class=\"spel-en-del\"><strong>\\(g'(x)=1/\\sqrt{2x+5}\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(h(x)=e^{4x-2}\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p>\n<p><div class=\"spel-en-del\"><strong>\\(h'(x)=4e^{4x-2}\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(p(x)=\\ln(5x+1)\\)</p>",
-        "s": "<p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med derivatan av den inre funktionen.</p>\n<p><div class=\"spel-en-del\"><strong>\\(p'(x)=5/(5x+1)\\)</strong>.</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Derivera med kedjeregeln.</p>"
+    "ledtrad": "<p>Det viktiga är att \\(f'\\) ska beräknas vid \\(g(1)\\), inte vid 1.</p>"
   },
   {
     "id": "2.126",
@@ -26934,18 +26663,54 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Grafen till \\(f\\) och tangenten i punkten där \\(x=1\\) visas nedan.</p>\n<span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"300\" viewBox=\"0 0 470 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Grafen y lika med x kvadrat plus x och dess tangent vid punkten 1 komma 2\">\n<rect x=\"1\" y=\"1\" width=\"468\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<g stroke=\"#E2E6EA\" stroke-width=\"1\"><line x1=\"55.0\" y1=\"35\" x2=\"55.0\" y2=\"260\"/><line x1=\"116.7\" y1=\"35\" x2=\"116.7\" y2=\"260\"/><line x1=\"178.3\" y1=\"35\" x2=\"178.3\" y2=\"260\"/><line x1=\"240.0\" y1=\"35\" x2=\"240.0\" y2=\"260\"/><line x1=\"301.7\" y1=\"35\" x2=\"301.7\" y2=\"260\"/><line x1=\"363.3\" y1=\"35\" x2=\"363.3\" y2=\"260\"/><line x1=\"425.0\" y1=\"35\" x2=\"425.0\" y2=\"260\"/><line x1=\"55\" y1=\"260.0\" x2=\"425\" y2=\"260.0\"/><line x1=\"55\" y1=\"215.0\" x2=\"425\" y2=\"215.0\"/><line x1=\"55\" y1=\"170.0\" x2=\"425\" y2=\"170.0\"/><line x1=\"55\" y1=\"125.0\" x2=\"425\" y2=\"125.0\"/><line x1=\"55\" y1=\"80.0\" x2=\"425\" y2=\"80.0\"/><line x1=\"55\" y1=\"35.0\" x2=\"425\" y2=\"35.0\"/></g>\n<line x1=\"55\" y1=\"215\" x2=\"437\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M437 215 l-9 -5 v10 z\" fill=\"#2B2527\"/>\n<line x1=\"240\" y1=\"265\" x2=\"240\" y2=\"28\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M240 28 l-5 9 h10 z\" fill=\"#2B2527\"/>\n<polyline points=\"73.5,111.7 75.2,114.5 77.0,117.2 78.7,119.9 80.4,122.6 82.2,125.2 83.9,127.8 85.6,130.3 87.3,132.8 89.1,135.3 90.8,137.7 92.5,140.1 94.3,142.5 96.0,144.8 97.7,147.1 99.5,149.4 101.2,151.6 102.9,153.8 104.6,156.0 106.4,158.1 108.1,160.2 109.8,162.2 111.6,164.3 113.3,166.2 115.0,168.2 116.8,170.1 118.5,172.0 120.2,173.8 121.9,175.6 123.7,177.4 125.4,179.1 127.1,180.8 128.9,182.5 130.6,184.1 132.3,185.7 134.1,187.2 135.8,188.8 137.5,190.2 139.2,191.7 141.0,193.1 142.7,194.5 144.4,195.8 146.2,197.1 147.9,198.4 149.6,199.6 151.4,200.8 153.1,202.0 154.8,203.1 156.5,204.2 158.3,205.3 160.0,206.3 161.7,207.3 163.5,208.3 165.2,209.2 166.9,210.1 168.7,210.9 170.4,211.7 172.1,212.5 173.8,213.2 175.6,213.9 177.3,214.6 179.0,215.3 180.8,215.9 182.5,216.4 184.2,216.9 186.0,217.4 187.7,217.9 189.4,218.3 191.1,218.7 192.9,219.1 194.6,219.4 196.3,219.7 198.1,219.9 199.8,220.1 201.5,220.3 203.3,220.4 205.0,220.5 206.7,220.6 208.4,220.6 210.2,220.6 211.9,220.6 213.6,220.5 215.4,220.4 217.1,220.3 218.8,220.1 220.6,219.9 222.3,219.6 224.0,219.3 225.7,219.0 227.5,218.6 229.2,218.2 230.9,217.8 232.7,217.4 234.4,216.9 236.1,216.3 237.9,215.8 239.6,215.1 241.3,214.5 243.0,213.8 244.8,213.1 246.5,212.4 248.2,211.6 250.0,210.8 251.7,209.9 253.4,209.0 255.2,208.1 256.9,207.1 258.6,206.2 260.4,205.1 262.1,204.1 263.8,203.0 265.5,201.8 267.3,200.6 269.0,199.4 270.7,198.2 272.5,196.9 274.2,195.6 275.9,194.3 277.7,192.9 279.4,191.5 281.1,190.0 282.8,188.5 284.6,187.0 286.3,185.4 288.0,183.8 289.8,182.2 291.5,180.5 293.2,178.8 295.0,177.1 296.7,175.3 298.4,173.5 300.1,171.7 301.9,169.8 303.6,167.9 305.3,165.9 307.1,163.9 308.8,161.9 310.5,159.8 312.3,157.7 314.0,155.6 315.7,153.5 317.4,151.3 319.2,149.0 320.9,146.8 322.6,144.4 324.4,142.1 326.1,139.7 327.8,137.3 329.6,134.9 331.3,132.4 333.0,129.9 334.7,127.3 336.5,124.7 338.2,122.1 339.9,119.4 341.7,116.8 343.4,114.0 345.1,111.3 346.9,108.5 348.6,105.6 350.3,102.7 352.0,99.8 353.8,96.9 355.5,93.9 357.2,90.9 359.0,87.9 360.7,84.8 362.4,81.7 364.2,78.5 365.9,75.3 367.6,72.1 369.3,68.8 371.1,65.5 372.8,62.2 374.5,58.8 376.3,55.4 378.0,52.0 379.7,48.5 381.5,45.0 383.2,41.4 384.9,37.9\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"221.5\" y1=\"257.75\" x2=\"394.16666666666663\" y2=\"68.75\" stroke=\"#6B7280\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/>\n<circle cx=\"301.66666666666663\" cy=\"170\" r=\"5\" fill=\"#B43123\"/><text x=\"311.66666666666663\" y=\"162\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">(1, 2)</text><text x=\"366.4166666666667\" y=\"100.25\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#6B7280\">tangent</text>\n<text x=\"301.66666666666663\" y=\"235\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">1</text><text x=\"230\" y=\"174\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">2</text><text x=\"439\" y=\"210\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"248\" y=\"31\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text>\n</svg></span>\n<p>Av figuren kan man avläsa att \\(f(1)=2\\) och att tangenten har lutningen 3. En ny funktion definieras av \\(g(x)=(f(x))^2\\).</p><p>Bestäm \\(g(1)\\) och \\(g'(1)\\).</p>",
-    "s": "<p><strong>Metod:</strong> Bestäm den yttre och den inre funktionen. Kedjeregeln innebär att den yttre derivatan multipliceras med den inre derivatan.</p><p>\\[g(1)=(f(1))^2=2^2=4.\\]</p>\n<p>Kedjeregeln ger</p><p>\\[g'(x)=2f(x)f'(x).\\]</p><p>Eftersom \\(f(1)=2\\) och \\(f'(1)=3\\) fås</p><p>\\[g'(1)=2\\cdot2\\cdot3=12.\\]</p>\n<p><strong>\\(g(1)=4\\) och \\(g'(1)=12\\).</strong></p>",
+    "s": "<p>Eftersom \\(f(1)=2\\) får vi \\(g(1)=2^2=\\boxed{4}\\).</p><p>Kedjeregeln ger \\(g'(x)=2f(x)f'(x)\\). Med \\(f(1)=2\\) och \\(f'(1)=3\\):</p><p>\\[g'(1)=2\\cdot2\\cdot3=\\boxed{12}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "begrepp",
+      "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      12
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>"
+    "ledtrad": "<p>För derivatan behöver du kedjeregeln för \\((f(x))^2\\).</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "värde",
+      "derivata"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd grafens funktionsvärde och tangentlutning.</p>",
+    "spelDelar": [
+      {
+        "etikett": "värde",
+        "fraga": "<p>Bestäm \\(g(1)\\).</p>",
+        "s": "<p>Eftersom \\(f(1)=2\\) får vi \\(g(1)=2^2=\\boxed{4}\\).</p><p>Kedjeregeln ger \\(g'(x)=2f(x)f'(x)\\). Med \\(f(1)=2\\) och \\(f'(1)=3\\):</p><p>\\[g'(1)=2\\cdot2\\cdot3=\\boxed{12}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "derivata",
+        "fraga": "<p>Bestäm \\(g'(1)\\).</p>",
+        "s": "<p>Eftersom \\(f(1)=2\\) får vi \\(g(1)=2^2=\\boxed{4}\\).</p><p>Kedjeregeln ger \\(g'(x)=2f(x)f'(x)\\). Med \\(f(1)=2\\) och \\(f'(1)=3\\):</p><p>\\[g'(1)=2\\cdot2\\cdot3=\\boxed{12}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "2.133",
@@ -27038,8 +26803,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=(x^2+1)^5\\).</p>",
@@ -27064,82 +26829,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Låt \\(f(x)=2x+1\\) och \\(g(x)=x^2-3\\).</p><p>a) Bestäm \\(f(g(x))\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(g(f(x))\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(f(g(2))\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Derivera \\(g(f(x))\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>a) \\(f(g(x))=2(x^2-3)+1=\\boxed{2x^2-5}\\).</p><p>b) \\(g(f(x))=(2x+1)^2-3=\\boxed{4x^2+4x-2}\\).</p><p>c) \\(g(2)=1\\), \\(f(1)=3\\), alltså <strong>3</strong>.</p><p>d) \\(g(f(x))=(2x+1)^2-3\\Rightarrow\\boxed{8x+4}\\).</p>",
+    "t": "<p>Bestäm konstanten \\(a\\) så att</p><p>\\[h(x)=(x^2+a)^4\\]</p><p>uppfyller \\(h'(1)=64\\).</p>",
+    "s": "<p>Kedjeregeln ger</p><p>\\[h'(x)=4(x^2+a)^3\\cdot2x=8x(x^2+a)^3.\\]</p><p>Vid \\(x=1\\):</p><p>\\[8(1+a)^3=64\\Rightarrow(1+a)^3=8\\Rightarrow1+a=2.\\]</p><p>Alltså \\(\\boxed{a=1}\\).</p>",
     "familj": "Beräkna sammansatta funktioner",
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "2x^2-5",
-      "4x^2+4x-2",
-      3,
-      "8x+4"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "numeriskt",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>Bestäm \\(f(g(x))\\).</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(f(g(x))=2(x^2-3)+1=\\boxed{2x^2-5}\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>Bestäm \\(g(f(x))\\).</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(g(f(x))=(2x+1)^2-3=\\boxed{4x^2+4x-2}\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>Bestäm \\(f(g(2))\\).</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(g(2)=1\\), \\(f(1)=3\\), alltså <strong>3</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>Derivera \\(g(f(x))\\).</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(g(f(x))=(2x+1)^2-3\\Rightarrow\\boxed{8x+4}\\).</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
     "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Låt \\(f(x)=2x+1\\) och \\(g(x)=x^2-3\\).</p>"
+    "ledtrad": "<p>Derivera först med kedjeregeln och använd sedan villkoret vid \\(x=1\\).</p>"
   },
   {
     "id": "2.144",
@@ -27148,82 +26855,59 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Låt \\(f(x)=2x-1\\) och \\(g(x)=x^2+3\\). Bestäm.</p><p>a) \\(f(g(x))\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(f(x))\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(f(g(2))\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(g(f(-1))\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p><p>a) \\(f(g(x))=2(x^2+3)-1=\\)<strong>\\(2x^2+5\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(f(x))=(2x-1)^2+3=\\)<strong>\\(4x^2-4x+4\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>13</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(f(-1)=-3\\), så <strong>12</strong>.</p>",
+    "t": "<p>Låt \\(f(u)=\\sin u\\) och anta att</p><p>\\[f(g(x))=\\sin(x^2-3x+2).\\]</p><p>a) Bestäm en möjlig funktion \\(g\\).<br>b) Bestäm derivatan med kedjeregeln.</p>",
+    "s": "<p>a) Den inre funktionen kan väljas som \\(\\boxed{g(x)=x^2-3x+2}\\).</p><p>b) \\(f'(u)=\\cos u\\) och \\(g'(x)=2x-3\\), alltså</p><p>\\[\\boxed{(f(g(x)))'=(2x-3)\\cos(x^2-3x+2)}.\\]</p>",
     "familj": "Beräkna sammansatta funktioner",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2x^2+5",
-      "4x^2-4x+4",
-      13,
-      12
+      "x^2-3*x+2",
+      "(2*x-3)*cos(x^2-3*x+2)"
     ],
     "tolerans": [
-      null,
-      null,
       null,
       null
     ],
     "självrättning": [
       true,
-      true,
-      true,
       true
     ],
     "svarFormat": [
       "uttryck",
-      "uttryck",
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(f(g(x))\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(f(g(x))=2(x^2+3)-1=\\)<strong>\\(2x^2+5\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(g(f(x))\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(g(f(x))=(2x-1)^2+3=\\)<strong>\\(4x^2-4x+4\\)</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(f(g(2))\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>13</strong>.<br/><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span></div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(g(f(-1))\\)</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(f(-1)=-3\\), så <strong>12</strong>.</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
+      "uttryck"
     ],
     "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Låt \\(f(x)=2x-1\\) och \\(g(x)=x^2+3\\). Bestäm.</p>"
+    "ledtrad": "<p>Det som står inne i sinus är den naturliga kandidaten till \\(g(x)\\).</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "g",
+      "derivata"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Identifiera den inre funktionen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "g",
+        "fraga": "<p>Bestäm en möjlig inre funktion \\(g(x)\\).</p>",
+        "s": "<p>a) Den inre funktionen kan väljas som \\(\\boxed{g(x)=x^2-3x+2}\\).</p><p>b) \\(f'(u)=\\cos u\\) och \\(g'(x)=2x-3\\), alltså</p><p>\\[\\boxed{(f(g(x)))'=(2x-3)\\cos(x^2-3x+2)}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "derivata",
+        "fraga": "<p>Bestäm derivatan av \\(f(g(x))\\).</p>",
+        "s": "<p>a) Den inre funktionen kan väljas som \\(\\boxed{g(x)=x^2-3x+2}\\).</p><p>b) \\(f'(u)=\\cos u\\) och \\(g'(x)=2x-3\\), alltså</p><p>\\[\\boxed{(f(g(x)))'=(2x-3)\\cos(x^2-3x+2)}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "2.281",
@@ -27237,17 +26921,32 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Låt</p><p>\\[f(u)=\\sqrt{u+4},\\qquad g(x)=\\cos x+\\frac{x}{2}.\\]</p><p>Bestäm lösningarna till \\(f(g(x))=2,2\\) för \\(0\\le x\\le5\\). Svara med tre decimaler.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>Vi söker skärningarna för</p><p>\\[\\sqrt{\\cos x+\\frac{x}{2}+4}=2,2.\\]</p><p>I intervallet fås två lösningar:</p><p>\\[\\boxed{x\\approx1,461\\quad\\text{och}\\quad x\\approx3,531}.\\]</p>",
+    "s": "<p>Ekvationen är</p><p>\\[\\sqrt{\\cos x+x/2+4}=2,2.\\]</p><p>Kvadrering ger \\(\\cos x+x/2=0,84\\). En grafisk/numerisk lösning i \\(0\\le x\\le5\\) ger</p><p>\\[\\boxed{x\\approx1,461\\quad\\text{och}\\quad x\\approx3,531}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.461,
+      3.531
+    ],
+    "tolerans": [
+      0.002,
+      0.002
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>"
+    "ledtrad": "<p>Isolera först roten och kvadrera. Lös därefter den återstående ekvationen digitalt på det givna intervallet.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "antalSvar": 2
   },
   {
     "id": "2.448",
@@ -27256,8 +26955,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\cos(x^3)\\).</p>",
@@ -27343,24 +27042,22 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "4/0/0",
+    "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\((3x-1)^5\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sqrt{2x+7}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\((x^2+1)^4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin(4x)\\)</p>",
-    "s": "<p><strong>Formel från formelbladet:</strong> Kedjeregeln \\(f(g(x))' = f'(g(x))\\cdot g'(x)\\).</p><p>a) \\(5(3x-1)^4\\cdot3=\\boxed{15(3x-1)^4}\\).</p><p>b) Skriv först roten som en potens: \\((2x+7)^{1/2}\\). Då blir derivatan \\(\\frac12(2x+7)^{-1/2}\\cdot2=\\boxed{\\frac1{\\sqrt{2x+7}}}\\).</p><p>c) \\(4(x^2+1)^3\\cdot2x=\\boxed{8x(x^2+1)^3}\\).</p><p>d) \\(\\cos(4x)\\cdot4=\\boxed{4\\cos(4x)}\\).</p>",
+    "t": "<p>Identifiera den <strong>inre funktionen</strong> i varje sammansättning.</p>",
+    "s": "<p>a) \\(u=1+x^2\\).<br>b) \\(u=e^x\\).<br>c) \\(u=1+\\cos x\\).</p><p>Att identifiera \\(u\\) korrekt gör kedjeregelns extra faktor tydlig.</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "15*(3x-1)^4",
-      "(1)/(sqrt(2x+7))",
-      "8x*(x^2+1)^3",
-      "4*cos(4x)"
+      "1+x^2",
+      "e^x",
+      "1+cos(x)"
     ],
     "tolerans": [
-      null,
       null,
       null,
       null
@@ -27368,56 +27065,46 @@ window.BANKMATO2 =
     "självrättning": [
       true,
       true,
-      true,
       true
     ],
     "svarFormat": [
       "uttryck",
       "uttryck",
-      "uttryck",
       "uttryck"
     ],
+    "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
+    "ledtrad": "<p>Fråga: vilket uttryck sätts in i den yttersta funktionen?</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
       "b",
-      "c",
-      "d"
+      "c"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ange den inre funktionen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\((3x-1)^5\\)</p>",
-        "s": "<p><strong>Formel från formelbladet:</strong> Kedjeregeln \\(f(g(x))' = f'(g(x))\\cdot g'(x)\\).</p><p><div class=\"spel-en-del\">\\(5(3x-1)^4\\cdot3=\\boxed{15(3x-1)^4}\\).</div></p><p></p>",
+        "fraga": "<p>Ange den inre funktionen i \\(\\ln(1+x^2)\\).</p>",
+        "s": "<p>a) \\(u=1+x^2\\).<br>b) \\(u=e^x\\).<br>c) \\(u=1+\\cos x\\).</p><p>Att identifiera \\(u\\) korrekt gör kedjeregelns extra faktor tydlig.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(\\sqrt{2x+7}\\)</p>",
-        "s": "<p><strong>Formel från formelbladet:</strong> Kedjeregeln \\(f(g(x))' = f'(g(x))\\cdot g'(x)\\).</p><p><div class=\"spel-en-del\">Skriv först roten som en potens: \\((2x+7)^{1/2}\\). Då blir derivatan \\(\\frac12(2x+7)^{-1/2}\\cdot2=\\boxed{\\frac1{\\sqrt{2x+7}}}\\).</div></p><p></p>",
+        "fraga": "<p>Ange den inre funktionen i \\(\\sin(e^x)\\).</p>",
+        "s": "<p>a) \\(u=1+x^2\\).<br>b) \\(u=e^x\\).<br>c) \\(u=1+\\cos x\\).</p><p>Att identifiera \\(u\\) korrekt gör kedjeregelns extra faktor tydlig.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\((x^2+1)^4\\)</p>",
-        "s": "<p><strong>Formel från formelbladet:</strong> Kedjeregeln \\(f(g(x))' = f'(g(x))\\cdot g'(x)\\).</p><p><div class=\"spel-en-del\">\\(4(x^2+1)^3\\cdot2x=\\boxed{8x(x^2+1)^3}\\).</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(\\sin(4x)\\)</p>",
-        "s": "<p><strong>Formel från formelbladet:</strong> Kedjeregeln \\(f(g(x))' = f'(g(x))\\cdot g'(x)\\).</p><p><div class=\"spel-en-del\">\\(\\cos(4x)\\cdot4=\\boxed{4\\cos(4x)}\\).</div></p>",
+        "fraga": "<p>Ange den inre funktionen i \\((1+\\cos x)^4\\).</p>",
+        "s": "<p>a) \\(u=1+x^2\\).<br>b) \\(u=e^x\\).<br>c) \\(u=1+\\cos x\\).</p><p>Att identifiera \\(u\\) korrekt gör kedjeregelns extra faktor tydlig.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
-    ],
-    "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    ]
   },
   {
     "id": "2.172",
@@ -27601,7 +27288,7 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Kurvan \\(y=\\ln(2x+1)\\) har en tangent där \\(x=1\\).</p><p>Bestäm tangentens ekvation.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Funktionen är \\(f(x)=\\ln(2x+1)\\). Med kedjeregeln:</p><p>\\[f'(x)=\\frac{2}{2x+1}.\\]</p><p>Vid \\(x=1\\) är \\(f(1)=\\ln3\\) och \\(f'(1)=2/3\\).</p><p>Tangentens ekvation blir</p><p>\\[y-\\ln3=\\frac23(x-1).\\]</p><p>Alltså till exempel</p><p>\\[\\boxed{y=\\frac23x+\\ln3-\\frac23}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>\\[f(x)=\\ln(2x+1),\\qquad f'(x)=\\frac2{2x+1}.\\]</p><p>Vid \\(x=1\\) är punkten \\((1,\\ln3)\\) och lutningen \\(2/3\\).</p><p>Tangenten är därför</p><p>\\[\\boxed{y-\\ln3=\\frac23(x-1)}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur"
@@ -27612,7 +27299,7 @@ window.BANKMATO2 =
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>"
+    "ledtrad": "<p>Bestäm både funktionsvärdet och derivatans värde vid \\(x=1\\).</p>"
   },
   {
     "id": "2.193",
@@ -27621,82 +27308,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\((x^2+1)^3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sqrt{3x+1}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\ln(2x+5)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(e^{x^2}\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><p>a) \\(\\boxed{6x(x^2+1)^2}\\).</p><p>b) \\(\\boxed{3/(2\\sqrt{3x+1})}\\).</p><p>c) \\(\\boxed{2/(2x+5)}\\).</p><p>d) \\(\\boxed{2x e^{x^2}}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
+    "t": "<p>Funktionen \\(h(x)=\\sqrt{1+(f(x))^2}\\). Det är känt att \\(f(2)=3\\) och \\(f'(2)=-1\\).</p><p>Bestäm \\(h'(2)\\) exakt.</p>",
+    "s": "<p>Kedjeregeln ger</p><p>\\[h'(x)=\\frac{f(x)f'(x)}{\\sqrt{1+(f(x))^2}}.\\]</p><p>Vid \\(x=2\\):</p><p>\\[h'(2)=\\frac{3(-1)}{\\sqrt{10}}=\\boxed{-\\frac3{\\sqrt{10}}}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "6x(x^2+1)^2",
-      "3/(2\\sqrt{3x+1})",
-      "2/(2x+5)",
-      "2x e^{x^2}"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\((x^2+1)^3\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\boxed{6x(x^2+1)^2}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(\\sqrt{3x+1}\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(\\boxed{3/(2\\sqrt{3x+1})}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(\\ln(2x+5)\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(\\boxed{2/(2x+5)}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(e^{x^2}\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\boxed{2x e^{x^2}}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "-3/sqrt(10)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    "ledtrad": "<p>Här är den inre funktionen \\(1+(f(x))^2\\). Glöm inte derivatan av \\(f(x)\\).</p>"
   },
   {
     "id": "2.194",
@@ -27709,18 +27338,18 @@ window.BANKMATO2 =
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\((x^2+1)/(x-1)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((2x+1)/(x+2)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin x/x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\ln x/x\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><p>a) \\(\\boxed{(x^2-2x-1)/(x-1)^2}\\).</p><p>b) \\(\\boxed{3/(x+2)^2}\\).</p><p>c) \\(\\boxed{(x \\cos x-\\sin x)/x^2}\\).</p><p>d) \\(\\boxed{(1-\\ln x)/x^2}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
+    "t": "<p>Derivera med kedjeregeln.</p><p>a) \\((1+x^2)^4\\)<br>b) \\(e^{3x^2}\\)<br>c) \\(\\ln(1+x^3)\\)<br>d) \\(\\cos(2x-1)\\)</p>",
+    "s": "<p>a) \\(\\boxed{8x(1+x^2)^3}\\).</p><p>b) \\(\\boxed{6xe^{3x^2}}\\).</p><p>c) \\(\\boxed{3x^2/(1+x^3)}\\).</p><p>d) \\(\\boxed{-2\\sin(2x-1)}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "(x^2-2x-1)/(x-1)^2",
-      "3/(x+2)^2",
-      "(x \\cos x-\\sin x)/x^2",
-      "(1-\\ln x)/x^2"
+      "8*x*(1+x^2)^3",
+      "6*x*e^(3*x^2)",
+      "3*x^2/(1+x^3)",
+      "-2*sin(2*x-1)"
     ],
     "tolerans": [
       null,
@@ -27734,6 +27363,14 @@ window.BANKMATO2 =
       true,
       true
     ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
+    "ledtrad": "<p>Derivera den yttre funktionen och multiplicera med derivatan av uttrycket inuti.</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
@@ -27741,46 +27378,38 @@ window.BANKMATO2 =
       "c",
       "d"
     ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Derivera med kedjeregeln.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\((x^2+1)/(x-1)\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\boxed{(x^2-2x-1)/(x-1)^2}\\).</div>",
+        "fraga": "<p>Derivera \\((1+x^2)^4\\).</p>",
+        "s": "<p>a) \\(\\boxed{8x(1+x^2)^3}\\).</p><p>b) \\(\\boxed{6xe^{3x^2}}\\).</p><p>c) \\(\\boxed{3x^2/(1+x^3)}\\).</p><p>d) \\(\\boxed{-2\\sin(2x-1)}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\((2x+1)/(x+2)\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(\\boxed{3/(x+2)^2}\\).</div>",
+        "fraga": "<p>Derivera \\(e^{3x^2}\\).</p>",
+        "s": "<p>a) \\(\\boxed{8x(1+x^2)^3}\\).</p><p>b) \\(\\boxed{6xe^{3x^2}}\\).</p><p>c) \\(\\boxed{3x^2/(1+x^3)}\\).</p><p>d) \\(\\boxed{-2\\sin(2x-1)}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(\\sin x/x\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(\\boxed{(x \\cos x-\\sin x)/x^2}\\).</div>",
+        "fraga": "<p>Derivera \\(\\ln(1+x^3)\\).</p>",
+        "s": "<p>a) \\(\\boxed{8x(1+x^2)^3}\\).</p><p>b) \\(\\boxed{6xe^{3x^2}}\\).</p><p>c) \\(\\boxed{3x^2/(1+x^3)}\\).</p><p>d) \\(\\boxed{-2\\sin(2x-1)}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
-        "fraga": "<p>\\(\\ln x/x\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\boxed{(1-\\ln x)/x^2}\\).</div>",
+        "fraga": "<p>Derivera \\(\\cos(2x-1)\\).</p>",
+        "s": "<p>a) \\(\\boxed{8x(1+x^2)^3}\\).</p><p>b) \\(\\boxed{6xe^{3x^2}}\\).</p><p>c) \\(\\boxed{3x^2/(1+x^3)}\\).</p><p>d) \\(\\boxed{-2\\sin(2x-1)}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
-    ],
-    "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    ]
   },
   {
     "id": "2.450",
@@ -27789,8 +27418,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\ln(1+x^4)\\).</p>",
@@ -27819,20 +27448,73 @@ window.BANKMATO2 =
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Funktionen ges av</p><p>\\[h(x)=\\ln\\left(2+e^{-x^2}\\right).\\]</p><p>Bestäm alla x-värden där \\(h(x)=0,8\\). Svara med tre decimaler och förklara varför lösningarna är symmetriska.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>En grafisk lösning ger</p><p>\\[\\boxed{x\\approx-1,220\\quad\\text{och}\\quad x\\approx1,220}.\\]</p><p>Uttrycket innehåller bara \\(x^2\\), så \\(h(-x)=h(x)\\). Funktionen är därför symmetrisk kring y-axeln, vilket förklarar att lösningarna kommer parvis med motsatta tecken.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "t": "<p>Funktionen ges av</p><p>\\[h(x)=\\ln(2+e^{-x^2}).\\]</p><p>Bestäm alla \\(x\\)-värden där \\(h(x)=0,8\\). Svara med tre decimaler och förklara varför lösningarna är symmetriska.</p>",
+    "s": "<p>En numerisk lösning ger \\(\\boxed{x\\approx-1,220}\\) och \\(\\boxed{x\\approx1,220}\\).</p><p>Uttrycket innehåller \\(x\\) endast genom \\(x^2\\), så \\(h(-x)=h(x)\\). Funktionen är jämn, vilket ger lösningar parvis med motsatta tecken.</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur",
+      "problemlösning",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1.22,
+      1.22,
+      null
+    ],
+    "tolerans": [
+      0.002,
+      0.002,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spel": false
+    "ledtrad": "<p>Jämför \\(h(-x)\\) med \\(h(x)\\).</p>",
+    "spel": false,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "negativ",
+      "positiv",
+      "förklaring"
+    ],
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Lös numeriskt och förklara symmetrin.</p>",
+    "spelDelar": [
+      {
+        "etikett": "negativ",
+        "fraga": "<p>Ange den negativa lösningen med tre decimaler.</p>",
+        "s": "<p>En numerisk lösning ger \\(\\boxed{x\\approx-1,220}\\) och \\(\\boxed{x\\approx1,220}\\).</p><p>Uttrycket innehåller \\(x\\) endast genom \\(x^2\\), så \\(h(-x)=h(x)\\). Funktionen är jämn, vilket ger lösningar parvis med motsatta tecken.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "positiv",
+        "fraga": "<p>Ange den positiva lösningen med tre decimaler.</p>",
+        "s": "<p>En numerisk lösning ger \\(\\boxed{x\\approx-1,220}\\) och \\(\\boxed{x\\approx1,220}\\).</p><p>Uttrycket innehåller \\(x\\) endast genom \\(x^2\\), så \\(h(-x)=h(x)\\). Funktionen är jämn, vilket ger lösningar parvis med motsatta tecken.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "förklaring",
+        "fraga": "<p>Förklara varför lösningarna är symmetriska kring 0.</p>",
+        "s": "<p>En numerisk lösning ger \\(\\boxed{x\\approx-1,220}\\) och \\(\\boxed{x\\approx1,220}\\).</p><p>Uttrycket innehåller \\(x\\) endast genom \\(x^2\\), så \\(h(-x)=h(x)\\). Funktionen är jämn, vilket ger lösningar parvis med motsatta tecken.</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "2.195",
@@ -27842,81 +27524,69 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "E",
-    "poang": "4/0/0",
+    "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(\\sin^2 x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos^2 x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(e^{\\sin x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\ln(x^2+1)\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><p>a) \\(\\boxed{2\\sin x \\cos x}\\).</p><p>b) \\(\\boxed{-2\\sin x \\cos x}\\).</p><p>c) \\(\\boxed{e^{\\sin x}\\cos x}\\).</p><p>d) \\(\\boxed{2x/(x^2+1)}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
+    "t": "<p>Bestäm derivatans värde.</p><p>a) \\(f(x)=\\sin(x^2)\\), \\(f'(0)\\)<br>b) \\(g(x)=e^{2x+1}\\), \\(g'(0)\\)<br>c) \\(h(x)=\\ln(1+x^2)\\), \\(h'(1)\\)</p>",
+    "s": "<p>a) \\(f'(x)=2x\\cos(x^2)\\Rightarrow\\boxed{f'(0)=0}\\).</p><p>b) \\(g'(x)=2e^{2x+1}\\Rightarrow\\boxed{g'(0)=2e}\\).</p><p>c) \\(h'(x)=2x/(1+x^2)\\Rightarrow\\boxed{h'(1)=1}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2\\sin x \\cos x",
-      "-2\\sin x \\cos x",
-      "e^{\\sin x}\\cos x",
-      "2x/(x^2+1)"
+      0,
+      "2*e",
+      1
     ],
     "tolerans": [
+      0,
       null,
-      null,
-      null,
-      null
+      0
     ],
     "självrättning": [
       true,
       true,
-      true,
       true
     ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
+    "ledtrad": "<p>Varje funktion kräver kedjeregeln innan du sätter in det givna \\(x\\)-värdet.</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
       "b",
-      "c",
-      "d"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "c"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Derivera först och sätt sedan in värdet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(\\sin^2 x\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\boxed{2\\sin x \\cos x}\\).</div>",
+        "fraga": "<p>För \\(f(x)=\\sin(x^2)\\), bestäm \\(f'(0)\\).</p>",
+        "s": "<p>a) \\(f'(x)=2x\\cos(x^2)\\Rightarrow\\boxed{f'(0)=0}\\).</p><p>b) \\(g'(x)=2e^{2x+1}\\Rightarrow\\boxed{g'(0)=2e}\\).</p><p>c) \\(h'(x)=2x/(1+x^2)\\Rightarrow\\boxed{h'(1)=1}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(\\cos^2 x\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(\\boxed{-2\\sin x \\cos x}\\).</div>",
+        "fraga": "<p>För \\(g(x)=e^{2x+1}\\), bestäm \\(g'(0)\\).</p>",
+        "s": "<p>a) \\(f'(x)=2x\\cos(x^2)\\Rightarrow\\boxed{f'(0)=0}\\).</p><p>b) \\(g'(x)=2e^{2x+1}\\Rightarrow\\boxed{g'(0)=2e}\\).</p><p>c) \\(h'(x)=2x/(1+x^2)\\Rightarrow\\boxed{h'(1)=1}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(e^{\\sin x}\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(\\boxed{e^{\\sin x}\\cos x}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(\\ln(x^2+1)\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\boxed{2x/(x^2+1)}\\).</div>",
+        "fraga": "<p>För \\(h(x)=\\ln(1+x^2)\\), bestäm \\(h'(1)\\).</p>",
+        "s": "<p>a) \\(f'(x)=2x\\cos(x^2)\\Rightarrow\\boxed{f'(0)=0}\\).</p><p>b) \\(g'(x)=2e^{2x+1}\\Rightarrow\\boxed{g'(0)=2e}\\).</p><p>c) \\(h'(x)=2x/(1+x^2)\\Rightarrow\\boxed{h'(1)=1}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
-    ],
-    "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    ]
   },
   {
     "id": "2.196",
@@ -28009,12 +27679,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm \\(f\\prime(1)\\) för \\(f(x)=(2x^2-1)^3\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p>Efter derivering och insättning löses den återstående enkla ekvationen.</p><p><strong>Svar:</strong> \\(\\boxed{12}\\).</p>",
+    "s": "<p>Kedjeregeln ger</p><p>\\[f'(x)=3(2x^2-1)^2\\cdot4x=12x(2x^2-1)^2.\\]</p><p>Vid \\(x=1\\):</p><p>\\[f'(1)=12\\cdot1\\cdot1^2=\\boxed{12}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -28025,7 +27695,7 @@ window.BANKMATO2 =
     "rättSvar": 12,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Derivera först med kedjeregeln och sätt därefter in \\(x=1\\).</p>",
     "svarFormat": "numeriskt"
   },
   {
@@ -28119,82 +27789,23 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\((2x-1)^6\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((1+x^3)^4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos(x^2)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin(\\sqrt{x})\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><p>a) \\(\\boxed{12(2x-1)^5}\\).</p><p>b) \\(\\boxed{12x^2(1+x^3)^3}\\).</p><p>c) \\(\\boxed{-2x \\sin(x^2)}\\).</p><p>d) \\(\\boxed{\\cos(\\sqrt{x})/(2\\sqrt{x})}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
+    "t": "<p>Derivera \\(f(x)=\\sin(\\sqrt{x^2+1})\\).</p>",
+    "s": "<p>Här finns två kedjelager:</p><p>\\[f'(x)=\\cos(\\sqrt{x^2+1})\\cdot\\frac{1}{2\\sqrt{x^2+1}}\\cdot2x.\\]</p><p>Alltså</p><p>\\[\\boxed{f'(x)=\\frac{x\\cos(\\sqrt{x^2+1})}{\\sqrt{x^2+1}}}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "12(2x-1)^5",
-      "12x^2(1+x^3)^3",
-      "-2x \\sin(x^2)",
-      "\\cos(\\sqrt{x})/(2\\sqrt{x})"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\((2x-1)^6\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\boxed{12(2x-1)^5}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\((1+x^3)^4\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(\\boxed{12x^2(1+x^3)^3}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(\\cos(x^2)\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(\\boxed{-2x \\sin(x^2)}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(\\sin(\\sqrt{x})\\)</p>",
-        "s": "<p>Använd lämplig regel från formelbladet. Visa särskilt produkt-, kvot- eller kedjeregel när den behövs.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\boxed{\\cos(\\sqrt{x})/(2\\sqrt{x})}\\).</div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "x*cos(sqrt(x^2+1))/sqrt(x^2+1)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    "ledtrad": "<p>Ytterst finns sinus, därefter en kvadratrot och innerst \\(x^2+1\\).</p>"
   },
   {
     "id": "2.209",
@@ -28208,7 +27819,7 @@ window.BANKMATO2 =
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Låt \\(f(x)=x^2+1\\) och \\(g(x)=\\sin x\\).</p><p>a) Bestäm \\(f(g(x))\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm derivatan av \\(f(g(x))\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p><p>a) \\(f(g(x))=(\\sin x)^2+1=\\sin^2x+1\\).</p><p>b) Kedjeregeln ger \\(2\\sin x\\cos x=\\boxed{\\sin2x}\\).</p>",
+    "s": "<p>a) \\(f(g(x))=(\\sin x)^2+1=\\boxed{\\sin^2x+1}\\).</p><p>b) Kedjeregeln ger</p><p>\\[(f(g(x)))'=2\\sin x\\cos x=\\boxed{\\sin2x}.\\]</p>",
     "familj": "Beräkna sammansatta funktioner",
     "formaga": [
       "procedur"
@@ -28253,7 +27864,7 @@ window.BANKMATO2 =
       }
     ],
     "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Sätt först in \\(g(x)\\) i \\(f\\). Derivera sedan den sammansatta funktionen.</p>",
     "spelIntro": "<p>Låt \\(f(x)=x^2+1\\) och \\(g(x)=\\sin x\\).</p>"
   },
   {
@@ -28263,22 +27874,59 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Låt \\(f(g(x))=e^{x^2+1}\\), där \\(f(u)=e^u\\).</p><p>Bestäm en möjlig funktion \\(g\\) och beräkna derivatan av \\(f(g(x))\\) med kedjeregeln.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p><p>En naturlig inre funktion är \\(g(x)=x^2+1\\).</p><p>Kedjeregeln ger \\(f'(g(x))g'(x)=e^{x^2+1}\\cdot2x\\).</p><p>Alltså \\(\\boxed{2xe^{x^2+1}}\\).</p>",
+    "t": "<p>Det gäller att \\(f(g(x))=e^{x^2+1}\\), där \\(f(u)=e^u\\).</p><p>a) Bestäm en möjlig funktion \\(g\\).<br>b) Bestäm derivatan med kedjeregeln.</p>",
+    "s": "<p>a) En naturlig inre funktion är \\(\\boxed{g(x)=x^2+1}\\).</p><p>b) \\(f'(u)=e^u\\) och \\(g'(x)=2x\\), alltså</p><p>\\[\\boxed{(f(g(x)))'=2xe^{x^2+1}}.\\]</p>",
     "familj": "Beräkna sammansatta funktioner",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "x^2+1",
+      "2*x*e^(x^2+1)"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>"
+    "ledtrad": "<p>Det som står i exponenten är den naturliga kandidaten till \\(g(x)\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "g",
+      "derivata"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Identifiera \\(g\\) och använd kedjeregeln.</p>",
+    "spelDelar": [
+      {
+        "etikett": "g",
+        "fraga": "<p>Bestäm en möjlig \\(g(x)\\).</p>",
+        "s": "<p>a) En naturlig inre funktion är \\(\\boxed{g(x)=x^2+1}\\).</p><p>b) \\(f'(u)=e^u\\) och \\(g'(x)=2x\\), alltså</p><p>\\[\\boxed{(f(g(x)))'=2xe^{x^2+1}}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "derivata",
+        "fraga": "<p>Bestäm \\((f(g(x)))'\\).</p>",
+        "s": "<p>a) En naturlig inre funktion är \\(\\boxed{g(x)=x^2+1}\\).</p><p>b) \\(f'(u)=e^u\\) och \\(g'(x)=2x\\), alltså</p><p>\\[\\boxed{(f(g(x)))'=2xe^{x^2+1}}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "2.452",
@@ -28287,12 +27935,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\sin((x^2+1)^3)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=6*x*(x^2+1)^2*\\cos((x^2+1)^3)}\\).</p>",
+    "s": "<p>Det finns två kedjelager. Först sinus, sedan kuben:</p><p>\\[f'(x)=\\cos((x^2+1)^3)\\cdot3(x^2+1)^2\\cdot2x.\\]</p><p>Alltså</p><p>\\[\\boxed{f'(x)=6x(x^2+1)^2\\cos((x^2+1)^3)}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -28304,7 +27952,7 @@ window.BANKMATO2 =
     "rättSvar": "6*x*(x^2+1)^2*cos((x^2+1)^3)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Arbeta utifrån och in: derivera sinus, sedan kuben, sedan \\(x^2+1\\).</p>",
     "svarFormat": "uttryck"
   },
   {
@@ -28314,8 +27962,8 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\ln(1+x^2)\\).</p>",
@@ -28363,12 +28011,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Funktionen \\(h(x)=f(g(x))\\). Man vet att \\(g(2)=3\\), \\(g'(2)=-4\\) och \\(f'(3)=5\\). Bestäm \\(h'(2)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p><p>Kedjeregeln ger \\(h'(x)=f'(g(x))g'(x)\\). Därför</p><p>\\[h'(2)=f'(3)(-4)=5(-4)=\\boxed{-20}.\\]</p>",
+    "s": "<p>Kedjeregeln för \\(h(x)=f(g(x))\\) är</p><p>\\[h'(x)=f'(g(x))g'(x).\\]</p><p>Eftersom \\(g(2)=3\\), \\(f'(3)=5\\) och \\(g'(2)=-4\\):</p><p>\\[h'(2)=5(-4)=\\boxed{-20}.\\]</p>",
     "familj": "Beräkna sammansatta funktioner",
     "formaga": [
       "procedur"
@@ -28379,7 +28027,7 @@ window.BANKMATO2 =
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>"
+    "ledtrad": "<p>Använd \\(g(2)\\) för att veta var \\(f'\\) ska avläsas.</p>"
   },
   {
     "id": "2.453",
@@ -28388,12 +28036,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm a så att \\(f(x)=(ax+1)^5\\) uppfyller \\(f\\prime(0)=15\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p>Efter derivering och insättning löses den återstående enkla ekvationen.</p><p><strong>Svar:</strong> \\(\\boxed{3}\\).</p>",
+    "s": "<p>Kedjeregeln ger</p><p>\\[f'(x)=5a(ax+1)^4.\\]</p><p>Vid \\(x=0\\): \\(f'(0)=5a=15\\), alltså \\(\\boxed{a=3}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -28405,7 +28053,7 @@ window.BANKMATO2 =
     "rättSvar": 3,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Derivera först och sätt sedan \\(x=0\\).</p>",
     "svarFormat": "numeriskt"
   },
   {
@@ -28415,82 +28063,23 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera med kedjeregeln.</p><p>a) \\(f(x)=(5x+1)^6\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\sqrt{3x-2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=e^{4x-1}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=\\ln(2x+5)\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Formelbladet:</strong> \\(y=f(g(x))\\Rightarrow y' = f'(g(x))g'(x)\\).</p><p>a) <strong>\\(f'(x)=30(5x+1)^5\\)</strong>.</p><p>b) <strong>\\(g'(x)=3/(2\\sqrt{3x-2})\\)</strong>.</p><p>c) <strong>\\(h'(x)=4e^{4x-1}\\)</strong>.</p><p>d) <strong>\\(p'(x)=2/(2x+5)\\)</strong>.</p>",
+    "t": "<p>Derivera</p><p>\\[f(x)=e^{\\sin(2x)}.\\]</p>",
+    "s": "<p>Det finns två inre steg. Kedjeregeln ger</p><p>\\[f'(x)=e^{\\sin(2x)}\\cdot\\cos(2x)\\cdot2=\\boxed{2e^{\\sin(2x)}\\cos(2x)}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "30*(5x+1)^5",
-      "3/(2*sqrt(3x-2))",
-      "4*e^(4x-1)",
-      "2/(2x+5)"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(f(x)=(5x+1)^6\\)</p>",
-        "s": "<p><strong>Formelbladet:</strong> \\(y=f(g(x))\\Rightarrow y' = f'(g(x))g'(x)\\).</p><p><div class=\"spel-en-del\"><strong>\\(f'(x)=30(5x+1)^5\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(g(x)=\\sqrt{3x-2}\\)</p>",
-        "s": "<p><strong>Formelbladet:</strong> \\(y=f(g(x))\\Rightarrow y' = f'(g(x))g'(x)\\).</p><p><div class=\"spel-en-del\"><strong>\\(g'(x)=3/(2\\sqrt{3x-2})\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(h(x)=e^{4x-1}\\)</p>",
-        "s": "<p><strong>Formelbladet:</strong> \\(y=f(g(x))\\Rightarrow y' = f'(g(x))g'(x)\\).</p><p><div class=\"spel-en-del\"><strong>\\(h'(x)=4e^{4x-1}\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(p(x)=\\ln(2x+5)\\)</p>",
-        "s": "<p><strong>Formelbladet:</strong> \\(y=f(g(x))\\Rightarrow y' = f'(g(x))g'(x)\\).</p><p><div class=\"spel-en-del\"><strong>\\(p'(x)=2/(2x+5)\\)</strong>.</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*e^(sin(2*x))*cos(2*x)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Derivera med kedjeregeln.</p>"
+    "ledtrad": "<p>Derivera först exponentialfunktionen, sedan sinus och sist \\(2x\\).</p>"
   },
   {
     "id": "2.230",
@@ -28644,69 +28233,62 @@ window.BANKMATO2 =
       "2c"
     ],
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Låt \\(f(x)=e^x\\) och \\(g(x)=x^2-3x\\).</p><p>a) Bestäm \\(f(g(x))\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm derivatan av \\(f(g(x))\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm derivatans värde vid \\(x=3\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p>a) \\(f(g(x))=e^{x^2-3x}\\).</p><p>b) Kedjeregeln ger <strong>\\((2x-3)e^{x^2-3x}\\)</strong>.</p><p>c) Vid \\(x=3\\) blir exponenten 0 och faktorn \\(2x-3=3\\), alltså <strong>3</strong>.</p>",
+    "t": "<p>Låt \\(f(u)=e^u\\) och \\(g(x)=x^2-3x\\).</p><p>a) Bestäm derivatan av \\(f(g(x))\\).<br>b) Förklara varför uttrycket \\(f'(g(x))\\) saknar en faktor.</p>",
+    "s": "<p>a) Kedjeregeln:</p><p>\\[(f(g(x)))'=f'(g(x))g'(x)=e^{x^2-3x}(2x-3).\\]</p><p>b) När \\(x\\) ändras förändras även den inre funktionen \\(g(x)\\). Faktorn \\(g'(x)=2x-3\\) beskriver den förändringen och måste därför multipliceras med.</p>",
     "familj": "Beräkna sammansatta funktioner",
     "formaga": [
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "e^(x^2-3x)",
-      "(2x-3)*e^(x^2-3x)",
-      3
+      "(2*x-3)*e^(x^2-3*x)",
+      null
     ],
     "tolerans": [
-      null,
       null,
       null
     ],
     "självrättning": [
       true,
-      true,
-      true
+      false
     ],
     "svarFormat": [
       "uttryck",
-      "uttryck",
-      "numeriskt"
+      null
     ],
+    "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
+    "ledtrad": "<p>Skriv kedjeregeln symboliskt innan du sätter in funktionerna.</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a",
-      "b",
-      "c"
+      "derivata",
+      "resonemang"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Låt \\(f(u)=e^u\\) och \\(g(x)=x^2-3x\\).</p><p>a) Bestäm derivatan av \\(f(g(x))\\).<br>b) Förklara varför uttrycket \\(f'(g(x))\\) saknar en faktor.</p>",
     "spelDelar": [
       {
-        "etikett": "a",
-        "fraga": "<p>Bestäm \\(f(g(x))\\).</p>",
-        "s": "<p><div class=\"spel-en-del\">\\(f(g(x))=e^{x^2-3x}\\).</div></p><p></p>",
+        "etikett": "derivata",
+        "fraga": "<p>Bestäm \\((f(g(x)))'\\).</p>",
+        "s": "<p>a) Kedjeregeln:</p><p>\\[(f(g(x)))'=f'(g(x))g'(x)=e^{x^2-3x}(2x-3).\\]</p><p>b) När \\(x\\) ändras förändras även den inre funktionen \\(g(x)\\). Faktorn \\(g'(x)=2x-3\\) beskriver den förändringen och måste därför multipliceras med.</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
-        "etikett": "b",
-        "fraga": "<p>Bestäm derivatan av \\(f(g(x))\\).</p>",
-        "s": "<p><div class=\"spel-en-del\">Kedjeregeln ger <strong>\\((2x-3)e^{x^2-3x}\\)</strong>.</div></p><p></p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>Bestäm derivatans värde vid \\(x=3\\).</p>",
-        "s": "<p><div class=\"spel-en-del\">Vid \\(x=3\\) blir exponenten 0 och faktorn \\(2x-3=3\\), alltså <strong>3</strong>.</div></p>",
+        "etikett": "resonemang",
+        "fraga": "<p>Förklara varför \\(f'(g(x))\\) ensam inte är hela derivatan.</p>",
+        "s": "<p>a) Kedjeregeln:</p><p>\\[(f(g(x)))'=f'(g(x))g'(x)=e^{x^2-3x}(2x-3).\\]</p><p>b) När \\(x\\) ändras förändras även den inre funktionen \\(g(x)\\). Faktorn \\(g'(x)=2x-3\\) beskriver den förändringen och måste därför multipliceras med.</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
     ],
-    "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Låt \\(f(x)=e^x\\) och \\(g(x)=x^2-3x\\).</p>"
+    "manuellKomplettering": [
+      false,
+      true
+    ]
   },
   {
     "id": "2.497",
@@ -28715,9 +28297,9 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "C",
+    "niva": "E",
     "typ": "sammansättning där ordningen spelar roll",
-    "poang": "0/2/0",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Låt \\(f(x)=\\sqrt{x+1}\\) och \\(g(x)=x^2\\). Bestäm \\((f\\circ g)(3)\\).</p>",
@@ -28770,82 +28352,24 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\((2x-3)^7\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\((x^2+4)^5\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(e^{x^2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\ln(3x+1)\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p><p>a) <strong>\\(14(2x-3)^6\\)</strong>.</p><p>b) <strong>\\(10x(x^2+4)^4\\)</strong>.</p><p>c) <strong>\\(2xe^{x^2}\\)</strong>.</p><p>d) <strong>\\(3/(3x+1)\\)</strong>.</p>",
+    "t": "<p>En funktion \\(f\\) uppfyller</p><p>\\[f'(x)=6x\\cos(3x^2+1).\\]</p><p>Bestäm en möjlig funktion \\(f(x)\\) utan att använda integration.</p>",
+    "s": "<p>Uttrycket känns igen som kedjeregeln:</p><p>\\[(\\sin(3x^2+1))'=\\cos(3x^2+1)\\cdot6x.\\]</p><p>En möjlig funktion är alltså \\(\\boxed{f(x)=\\sin(3x^2+1)}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "14*(2x-3)^6",
-      "10x*(x^2+4)^4",
-      "2x*e^(x^2)",
-      "3/(3x+1)"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\((2x-3)^7\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(14(2x-3)^6\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\((x^2+4)^5\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(10x(x^2+4)^4\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(e^{x^2}\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(2xe^{x^2}\\)</strong>.</div></p><p></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>\\(\\ln(3x+1)\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(3/(3x+1)\\)</strong>.</div></p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "sin(3*x^2+1)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    "ledtrad": "<p>Vilken yttre funktion har derivatan cosinus?</p>"
   },
   {
     "id": "2.263",
@@ -28854,12 +28378,12 @@ window.BANKMATO2 =
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Funktionen \\(h(x)=f(2x-1)\\). Det är känt att \\(f'(5)=4\\).</p><p>Bestäm \\(h'(3)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p><p>Kedjeregeln ger</p><p>\\[h'(x)=f'(2x-1)\\cdot2.\\]</p><p>Vid \\(x=3\\) är \\(2x-1=5\\), alltså</p><p>\\[h'(3)=f'(5)\\cdot2=4\\cdot2=\\boxed{8}.\\]</p>",
+    "s": "<p>Kedjeregeln ger \\(h'(x)=2f'(2x-1)\\).</p><p>Vid \\(x=3\\) är \\(2x-1=5\\), därför</p><p>\\[h'(3)=2f'(5)=2\\cdot4=\\boxed{8}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur"
@@ -28870,7 +28394,7 @@ window.BANKMATO2 =
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "kedjeregel_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>"
+    "ledtrad": "<p>Glöm inte derivatan av den inre funktionen \\(2x-1\\).</p>"
   },
   {
     "id": "2.03",
@@ -31635,7 +31159,7 @@ window.BANKMATO2 =
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 0.4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
     "ledtrad": "<p>Derivera läget. Största fart är största möjliga absolutbelopp av hastigheten.</p>",
@@ -35184,7 +34708,7 @@ window.BANKMATO2 =
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 8.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "familjNyckel": "tillampningar_derivata__tangentproblem_i_tillampningar",
     "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
@@ -47703,7 +47227,7 @@ window.BANKMATO2 =
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 7.8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "familjNyckel": "integral_tillampningar__tillampa_integraler_i_modeller",
     "ledtrad": "<p>Densitet per längdenhet integrerad över längden ger total massa.</p>",

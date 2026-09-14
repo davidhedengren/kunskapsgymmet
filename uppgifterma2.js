@@ -1,5 +1,10 @@
-/* Ma2-bank. Reviderad 2026-09-12: grafuppgifter ritas om utan utsatta nollställen/extrempunkter, fler deluppgifter om symmetrilinjen, ökad variation och nya a/b/c-uppgifter med blandade metoder.
- * Nytt fält: delmix = "samma" | "olika" (deluppgifterna tränar samma metod eller olika), delmetoder = lista, delmixKalla = "auto" när taggningen är maskinell. */
+/* Ma2-bank. Omgång 1 (2026-09-14): andragradsekvationer –
+ * enkla andragradsekvationer, nollproduktmetoden,
+ * kvadratkomplettering och lösningsformeln.
+ * E/C/A används för Uppgiftslabbet. traningsniva 1–5 används
+ * separat i Kunskapsgymmet, tillsammans med arbetsinsats 1–3
+ * och spel (false = visas inte i Gymmet).
+ */
 window.BANKMA2 = [
   {
     "id": "1.01",
@@ -579,9 +584,7 @@ window.BANKMA2 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Utgå från \\(y=kx+m\\). Bestäm \\(k\\) som förändringen i y delad med förändringen i x, och använd sedan en punkt eller y-axelskärningen för att hitta \\(m\\).</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utgå från \\(y=kx+m\\). Bestäm \\(k\\) som förändringen i y delad med förändringen i x, och använd sedan en punkt eller y-axelskärningen för att hitta \\(m\\).</p>"
   },
   {
     "id": "1.19",
@@ -806,7 +809,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}x=2y-3\\\\x+4y=15\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x=2y-3\\\\x+4y=15\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(x=2y-3\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(6 y - 18=0\\).</p><p>Därifrån fås \\(y=3\\).</p><p>Sätt tillbaka värdet i \\(x=2y-3\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(3,3)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -847,7 +850,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationssystemet med additionsmetoden.</p><p>\\(\\begin{cases}4x+3y=5\\\\2x-3y=7\\end{cases}\\)</p>",
+    "t": "<p>Lös ekvationssystemet.</p><p>\\(\\begin{cases}4x+3y=5\\\\2x-3y=7\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna: \\(6x=12\\), alltså \\(x=2\\).</p><p>Sätt in i den andra: \\(4-3y=7\\Rightarrow -3y=3\\Rightarrow y=-1\\).</p><p><strong>\\((x,y)=(2,-1)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -905,9 +908,7 @@ window.BANKMA2 = [
     "svarFormat": "punkt",
     "manuellKomplettering": true,
     "familjTidigare": "Lösa ekvationssystem grafiskt",
-    "ledtrad": "<p>Varje ekvation motsvarar en graf. Lösningen är den punkt där graferna skär varandra; läs av båda koordinaterna och kontrollera dem i ekvationerna.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Varje ekvation motsvarar en graf. Lösningen är den punkt där graferna skär varandra; läs av båda koordinaterna och kontrollera dem i ekvationerna.</p>"
   },
   {
     "id": "1.29",
@@ -1002,9 +1003,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Analysera antal lösningar och parameterfall i ekvationssystem",
-    "ledtrad": "<p>Systemet saknar unik lösning när koefficienterna är proportionella.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Systemet saknar unik lösning när koefficienterna är proportionella.</p>"
   },
   {
     "id": "1.32",
@@ -1506,9 +1505,7 @@ window.BANKMA2 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Utveckla uttrycket systematiskt och samla sedan termer av samma slag. Då blir det lättare att upptäcka ett tappat tecken eller en saknad korsprodukt.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utveckla uttrycket systematiskt och samla sedan termer av samma slag. Då blir det lättare att upptäcka ett tappat tecken eller en saknad korsprodukt.</p>"
   },
   {
     "id": "1.47",
@@ -1705,9 +1702,7 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Faktorisera uttryck och lösa ekvationer",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>"
   },
   {
     "id": "1.53",
@@ -2763,9 +2758,7 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Analysera antal lösningar och parameterfall i ekvationssystem",
-    "ledtrad": "<p>Se systemet som villkor som ska gälla samtidigt. Eliminera variabler systematiskt; om du får en identitet finns oändligt många lösningar, och om du får en motsägelse saknas lösning.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Se systemet som villkor som ska gälla samtidigt. Eliminera variabler systematiskt; om du får en identitet finns oändligt många lösningar, och om du får en motsägelse saknas lösning.</p>"
   },
   {
     "id": "1.82",
@@ -2816,9 +2809,7 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Analysera antal lösningar och parameterfall i ekvationssystem",
-    "ledtrad": "<p>Systemet kan bara få något annat än exakt en lösning när linjernas koefficienter är proportionella.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Systemet kan bara få något annat än exakt en lösning när linjernas koefficienter är proportionella.</p>"
   },
   {
     "id": "1.83",
@@ -3038,9 +3029,7 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Analysera antal lösningar och parameterfall i ekvationssystem",
-    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "1.90",
@@ -3467,9 +3456,7 @@ window.BANKMA2 = [
     "svarFormat": "punkt",
     "manuellKomplettering": true,
     "familjTidigare": "Lösa ekvationssystem grafiskt",
-    "ledtrad": "<p>Varje ekvation motsvarar en graf. Lösningen är den punkt där graferna skär varandra; läs av båda koordinaterna och kontrollera dem i ekvationerna.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Varje ekvation motsvarar en graf. Lösningen är den punkt där graferna skär varandra; läs av båda koordinaterna och kontrollera dem i ekvationerna.</p>"
   },
   {
     "id": "1.108",
@@ -3508,7 +3495,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}x=y+4\\\\2x+y=17\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x=y+4\\\\2x+y=17\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(x=y+4\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(3 y - 9=0\\).</p><p>Därifrån fås \\(y=3\\).</p><p>Sätt tillbaka värdet i \\(x=y+4\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(7,3)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -3549,7 +3536,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}4x+3y=18\\\\2x-3y=0\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}4x+3y=18\\\\2x-3y=0\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna. y-termerna tar då ut varandra:</p><p>\\(6x=18\\Rightarrow x=3\\).</p><p>Sätt in x-värdet i den första ekvationen:</p><p>\\(4\\cdot(3)+3y=18\\Rightarrow y=2\\).</p><p><strong>\\((x,y)=(3,2)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -3684,9 +3671,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Analysera antal lösningar och parameterfall i ekvationssystem",
-    "ledtrad": "<p>Systemet saknar unik lösning när koefficienterna blir proportionella:</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Systemet saknar unik lösning när koefficienterna blir proportionella:</p>"
   },
   {
     "id": "1.116",
@@ -4187,9 +4172,7 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Multiplicera parenteser och förenkla",
-    "ledtrad": "<p>Utveckla uttrycket systematiskt och samla sedan termer av samma slag. Då blir det lättare att upptäcka ett tappat tecken eller en saknad korsprodukt.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utveckla uttrycket systematiskt och samla sedan termer av samma slag. Då blir det lättare att upptäcka ett tappat tecken eller en saknad korsprodukt.</p>"
   },
   {
     "id": "1.135",
@@ -4386,9 +4369,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Analysera antal lösningar och parameterfall i ekvationssystem",
-    "ledtrad": "<p>a) En parallell, annan linje fungerar, till exempel \\(6x+4y=30\\). Vänsterledet har samma proportion som den första ekvationen men konstanten stämmer inte.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) En parallell, annan linje fungerar, till exempel \\(6x+4y=30\\). Vänsterledet har samma proportion som den första ekvationen men konstanten stämmer inte.</p>"
   },
   {
     "id": "1.143",
@@ -4501,7 +4482,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}7x+y=31\\\\3x-y=9\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}7x+y=31\\\\3x-y=9\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna. y-termerna tar då ut varandra:</p><p>\\(10x=40\\Rightarrow x=4\\).</p><p>Sätt in x-värdet i den första ekvationen:</p><p>\\(7\\cdot(4)+y=31\\Rightarrow y=3\\).</p><p><strong>\\((x,y)=(4,3)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -4542,7 +4523,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Lös med additionsmetoden.</p><p>\\[\\begin{cases}4x+3y=17\\\\6x-5y=7\\end{cases}\\]</p>",
+    "t": "<p>Lös.</p><p>\\[\\begin{cases}4x+3y=17\\\\6x-5y=7\\end{cases}\\]</p>",
     "s": "<p>För att eliminera \\(y\\) multiplicerar vi den första ekvationen med 5 och den andra med 3:</p><p>\\(20x+15y=85\\)</p><p>\\(18x-15y=21\\).</p><p>Addition ger \\(38x=106\\Rightarrow x=\\frac{53}{19}\\).</p><p>Sätt in i första ekvationen:</p><p>\\(4\\cdot\\frac{53}{19}+3y=17\\Rightarrow3y=\\frac{111}{19}\\Rightarrow y=\\frac{37}{19}\\).</p><p><strong>\\((x,y)=(53/19,37/19)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -4583,7 +4564,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}2x+3y=7\\\\5x-3y=14\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}2x+3y=7\\\\5x-3y=14\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna. y-termerna tar då ut varandra:</p><p>\\(7x=21\\Rightarrow x=3\\).</p><p>Sätt in x-värdet i den första ekvationen:</p><p>\\(2\\cdot(3)+3y=7\\Rightarrow y=\\frac{1}{3}\\).</p><p><strong>\\((x,y)=(3,\\frac{1}{3})\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -4638,9 +4619,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Additionsmetoden och metodval",
-    "ledtrad": "<p>Om \\(a\\ne4\\) är linjerna inte parallella och skär varandra i en punkt.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Om \\(a\\ne4\\) är linjerna inte parallella och skär varandra i en punkt.</p>"
   },
   {
     "id": "1.150",
@@ -4653,7 +4632,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}7x-3y=11\\\\2x+3y=9\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}7x-3y=11\\\\2x+3y=9\\end{cases}\\)</p>",
     "s": "<p>Addera ekvationerna. y-termerna tar då ut varandra:</p><p>\\(9x=20\\Rightarrow x=\\frac{20}{9}\\).</p><p>Sätt in x-värdet i den första ekvationen:</p><p>\\(7\\cdot(\\frac{20}{9})-3y=11\\Rightarrow y=\\frac{41}{27}\\).</p><p><strong>\\((x,y)=(\\frac{20}{9},\\frac{41}{27})\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -4694,7 +4673,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Lös ekvationssystemet med substitutionsmetoden.</p><p>\\[\\begin{cases}y=\\frac32x-4\\\\2x+y=10\\end{cases}\\]</p>",
+    "t": "<p>Lös ekvationssystemet.</p><p>\\[\\begin{cases}y=\\frac32x-4\\\\2x+y=10\\end{cases}\\]</p>",
     "s": "<p><strong>Nyckelidé:</strong> Gör en variabel ensam i den ena ekvationen och sätt in uttrycket i den andra. Bestäm därefter den återstående variabeln genom insättning.</p><p><strong>Steg 1:</strong> Eftersom \\(y\\) redan är frilöst i den första ekvationen sätter vi in \\(\\frac32x-4\\) i den andra:</p><p>\\(2x+\\frac32x-4=10\\).</p><p>\\(\\frac72x=14\\Rightarrow x=4\\).</p><p>Sätt tillbaka: \\(y=\\frac32\\cdot4-4=2\\).</p><p><strong>\\((x,y)=(4,2)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -4735,7 +4714,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}x=y+5\\\\2x+y=19\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x=y+5\\\\2x+y=19\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(x=y+5\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(3 y - 9=0\\).</p><p>Därifrån fås \\(y=3\\).</p><p>Sätt tillbaka värdet i \\(x=y+5\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(8,3)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -4806,7 +4785,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}x=2-y\\\\4x+3y=11\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x=2-y\\\\4x+3y=11\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(x=2-y\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(- y - 3=0\\).</p><p>Därifrån fås \\(y=-3\\).</p><p>Sätt tillbaka värdet i \\(x=2-y\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(5,-3)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -4847,7 +4826,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}y=10-2x\\\\3x+y=14\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}y=10-2x\\\\3x+y=14\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(y=10-2x\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(x - 4=0\\).</p><p>Därifrån fås \\(x=4\\).</p><p>Sätt tillbaka värdet i \\(y=10-2x\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(4,2)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -4888,7 +4867,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös med substitutionsmetoden.</p><p>\\(\\begin{cases}y=3x-2\\\\2x+y=18\\end{cases}\\)</p>",
+    "t": "<p>Lös.</p><p>\\(\\begin{cases}y=3x-2\\\\2x+y=18\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Gör en variabel ensam i den ena ekvationen och sätt in uttrycket i den andra. Bestäm därefter den återstående variabeln genom insättning.</p><p><strong>Steg 1:</strong> Ersätt den ena variabeln med uttrycket från den andra ekvationen. Lös sedan den nya ekvationen med en variabel.</p><p>\\(2x+(3x-2)=18\\Rightarrow 5x=20\\Rightarrow x=4\\). Då \\(y=10\\).</p><p><strong>\\((4,10)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -5187,7 +5166,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}3x+2y=16\\\\5x-2y=8\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}3x+2y=16\\\\5x-2y=8\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna. y-termerna tar då ut varandra:</p><p>\\(8x=24\\Rightarrow x=3\\).</p><p>Sätt in x-värdet i den första ekvationen:</p><p>\\(3\\cdot(3)+2y=16\\Rightarrow y=\\frac{7}{2}\\).</p><p><strong>\\((x,y)=(3,\\frac{7}{2})\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -5228,7 +5207,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationssystemet med additionsmetoden.</p><p>\\(\\begin{cases}3x+2y=14\\\\2x-y=0\\end{cases}\\)</p>",
+    "t": "<p>Lös ekvationssystemet.</p><p>\\(\\begin{cases}3x+2y=14\\\\2x-y=0\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Multiplicera den andra ekvationen med 2:</p><p>\\(4x-2y=0\\).</p><p>Addera med den första: \\(7x=14\\Rightarrow x=2\\).</p><p>\\(2\\cdot2-y=0\\Rightarrow y=4\\).</p><p><strong>\\((x,y)=(2,4)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -5269,7 +5248,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös med additionsmetoden.</p><p>\\[\\begin{cases}5x+2y=19\\\\3x-2y=5\\end{cases}\\]</p>",
+    "t": "<p>Lös.</p><p>\\[\\begin{cases}5x+2y=19\\\\3x-2y=5\\end{cases}\\]</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna så att \\(y\\)-termerna försvinner:</p><p>\\[8x=24\\Rightarrow x=3.\\]</p><p>Sätt in i den andra ekvationen:</p><p>\\[3\\cdot3-2y=5\\Rightarrow y=2.\\]</p><p><strong>\\((x,y)=(3,2)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -5310,7 +5289,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös med additionsmetoden.</p><p>\\(\\begin{cases}5x+2y=16\\\\3x-2y=8\\end{cases}\\)</p>",
+    "t": "<p>Lös.</p><p>\\(\\begin{cases}5x+2y=16\\\\3x-2y=8\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Multiplicera vid behov någon ekvation så att en variabel kan elimineras när ekvationerna adderas eller subtraheras.</p><p>Addera: \\(8x=24\\Rightarrow x=3\\). Sätt in: \\(15+2y=16\\Rightarrow y=0,5\\).</p><p><strong>\\((3,0,5)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -5351,7 +5330,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}3x+4y=2\\\\5x-4y=14\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}3x+4y=2\\\\5x-4y=14\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna. y-termerna tar då ut varandra:</p><p>\\(8x=16\\Rightarrow x=2\\).</p><p>Sätt in x-värdet i den första ekvationen:</p><p>\\(3\\cdot(2)+4y=2\\Rightarrow y=-1\\).</p><p><strong>\\((x,y)=(2,-1)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -5392,7 +5371,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}4x-5y=19\\\\7x+5y=36\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}4x-5y=19\\\\7x+5y=36\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna. y-termerna tar då ut varandra:</p><p>\\(11x=55\\Rightarrow x=5\\).</p><p>Sätt in x-värdet i den första ekvationen:</p><p>\\(4\\cdot(5)-5y=19\\Rightarrow y=\\frac{1}{5}\\).</p><p><strong>\\((x,y)=(5,\\frac{1}{5})\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -5433,7 +5412,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}5x-4y=2\\\\3x+4y=14\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}5x-4y=2\\\\3x+4y=14\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna. y-termerna tar då ut varandra:</p><p>\\(8x=16\\Rightarrow x=2\\).</p><p>Sätt in x-värdet i den första ekvationen:</p><p>\\(5\\cdot(2)-4y=2\\Rightarrow y=2\\).</p><p><strong>\\((x,y)=(2,2)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -5474,7 +5453,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}2x+3y=13\\\\4x-3y=5\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}2x+3y=13\\\\4x-3y=5\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna. y-termerna tar då ut varandra:</p><p>\\(6x=18\\Rightarrow x=3\\).</p><p>Sätt in x-värdet i den första ekvationen:</p><p>\\(2\\cdot(3)+3y=13\\Rightarrow y=\\frac{7}{3}\\).</p><p><strong>\\((x,y)=(3,\\frac{7}{3})\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -5515,7 +5494,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}x=3y-2\\\\x+y=14\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x=3y-2\\\\x+y=14\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(x=3y-2\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(4 y - 16=0\\).</p><p>Därifrån fås \\(y=4\\).</p><p>Sätt tillbaka värdet i \\(x=3y-2\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(10,4)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -5556,7 +5535,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös med substitutionsmetoden.</p><p>\\(\\begin{cases}y=2x+1\\\\3x-y=9\\end{cases}\\)</p>",
+    "t": "<p>Lös.</p><p>\\(\\begin{cases}y=2x+1\\\\3x-y=9\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Gör en variabel ensam i den ena ekvationen och sätt in uttrycket i den andra. Bestäm därefter den återstående variabeln genom insättning.</p><p><strong>Steg 1:</strong> Ersätt den ena variabeln med uttrycket från den andra ekvationen. Lös sedan den nya ekvationen med en variabel.</p><p>\\(3x-(2x+1)=9\\Rightarrow x=10\\).</p><p>\\(y=21\\).</p><p><strong>\\((10,21)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -5597,7 +5576,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}y=2x+1\\\\3x+y=16\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}y=2x+1\\\\3x+y=16\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(y=2x+1\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(5 x - 15=0\\).</p><p>Därifrån fås \\(x=3\\).</p><p>Sätt tillbaka värdet i \\(y=2x+1\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(3,7)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -5638,7 +5617,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}y=\\frac12x+1\\\\x-y=5\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}y=\\frac12x+1\\\\x-y=5\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(y=\\frac12x+1\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(\\frac{x}{2} - 6=0\\).</p><p>Därifrån fås \\(x=12\\).</p><p>Sätt tillbaka värdet i \\(y=\\frac12x+1\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(12,7)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -5679,7 +5658,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationssystemet med substitutionsmetoden.</p><p>\\(\\begin{cases}y=3x-4\\\\2x+y=16\\end{cases}\\)</p>",
+    "t": "<p>Lös ekvationssystemet.</p><p>\\(\\begin{cases}y=3x-4\\\\2x+y=16\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Gör en variabel ensam i den ena ekvationen och sätt in uttrycket i den andra. Bestäm därefter den återstående variabeln genom insättning.</p><p><strong>Steg 1:</strong> Sätt in \\(y=3x-4\\) i den andra ekvationen:</p><p>\\(2x+3x-4=16\\Rightarrow5x=20\\Rightarrow x=4\\).</p><p>\\(y=3\\cdot4-4=8\\).</p><p><strong>\\((x,y)=(4,8)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -5720,7 +5699,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}x=4-y\\\\3x+2y=7\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x=4-y\\\\3x+2y=7\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(x=4-y\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(5 - y=0\\).</p><p>Därifrån fås \\(y=5\\).</p><p>Sätt tillbaka värdet i \\(x=4-y\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(-1,5)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -5761,7 +5740,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett system ska lösas med substitutionsmetoden.</p><p>\\(\\begin{cases}x=4-y\\\\3x+2y=7\\end{cases}\\)</p><p>a)&nbsp;Lös systemet.<br>b)&nbsp;Kontrollera lösningen i båda ekvationerna.</p>",
+    "t": "<p>Ett system ska lösas.</p><p>\\(\\begin{cases}x=4-y\\\\3x+2y=7\\end{cases}\\)</p><p>a)&nbsp;Lös systemet.<br>b)&nbsp;Kontrollera lösningen i båda ekvationerna.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Substitutionsmetoden: sätt in uttrycket för den utbrutna variabeln i den andra ekvationen.</p><div class=\"facit-arbete\"><p>a) \\(3(4-y)+2y=7\\) ger \\(12-3y+2y=7\\), alltså \\(-y=-5\\) och \\(y=5\\). Då är \\(x=4-5=-1\\).</p><p>b) Första ekvationen: \\(-1=4-5\\). Stämmer. Andra ekvationen: \\(3(-1)+2\\cdot5=-3+10=7\\). Stämmer.</p><p><strong>\\(x=-1\\) och \\(y=5\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera alltid i den ekvation du inte använde sist; då upptäcks räknefel.</p></div>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -5807,7 +5786,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}y=\\frac12x+3\\\\x+y=12\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}y=\\frac12x+3\\\\x+y=12\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(y=\\frac12x+3\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(\\frac{3 x}{2} - 9=0\\).</p><p>Därifrån fås \\(x=6\\).</p><p>Sätt tillbaka värdet i \\(y=\\frac12x+3\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(6,6)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -5876,7 +5855,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}5x+2y=19\\\\3x-2y=5\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}5x+2y=19\\\\3x-2y=5\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna. y-termerna tar då ut varandra:</p><p>\\(8x=24\\Rightarrow x=3\\).</p><p>Sätt in x-värdet i den första ekvationen:</p><p>\\(5\\cdot(3)+2y=19\\Rightarrow y=2\\).</p><p><strong>\\((x,y)=(3,2)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -5952,9 +5931,7 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Multiplicera parenteser och förenkla",
-    "ledtrad": "<p>Utveckla uttrycket systematiskt och samla sedan termer av samma slag. Då blir det lättare att upptäcka ett tappat tecken eller en saknad korsprodukt.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utveckla uttrycket systematiskt och samla sedan termer av samma slag. Då blir det lättare att upptäcka ett tappat tecken eller en saknad korsprodukt.</p>"
   },
   {
     "id": "1.197",
@@ -6311,9 +6288,7 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Analysera antal lösningar och parameterfall i ekvationssystem",
-    "ledtrad": "<p>Se systemet som villkor som ska gälla samtidigt. Eliminera variabler systematiskt; om du får en identitet finns oändligt många lösningar, och om du får en motsägelse saknas lösning.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Se systemet som villkor som ska gälla samtidigt. Eliminera variabler systematiskt; om du får en identitet finns oändligt många lösningar, och om du får en motsägelse saknas lösning.</p>"
   },
   {
     "id": "1.212",
@@ -6676,9 +6651,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Lösa ekvationssystem grafiskt",
-    "ledtrad": "<p>GeoGebra: rita båda linjerna. Skärningspunkten blir \\((6{,}5;\\,7{,}1)\\).</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>GeoGebra: rita båda linjerna. Skärningspunkten blir \\((6{,}5;\\,7{,}1)\\).</p>"
   },
   {
     "id": "1.228",
@@ -6869,9 +6842,7 @@ window.BANKMA2 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Utgå från \\(y=kx+m\\). Bestäm \\(k\\) som förändringen i y delad med förändringen i x, och använd sedan en punkt eller y-axelskärningen för att hitta \\(m\\).</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utgå från \\(y=kx+m\\). Bestäm \\(k\\) som förändringen i y delad med förändringen i x, och använd sedan en punkt eller y-axelskärningen för att hitta \\(m\\).</p>"
   },
   {
     "id": "1.235",
@@ -6884,7 +6855,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}y=3-2x\\\\5x-2y=11\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}y=3-2x\\\\5x-2y=11\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(y=3-2x\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(9 x - 17=0\\).</p><p>Därifrån fås \\(x=\\frac{17}{9}\\).</p><p>Sätt tillbaka värdet i \\(y=3-2x\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(\\frac{17}{9},- \\frac{7}{9})\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -6925,7 +6896,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\(\\begin{cases}y=9-x\\\\2x-y=3\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}y=9-x\\\\2x-y=3\\end{cases}\\)</p>",
     "s": "<p>Den första ekvationen ger \\(y=9-x\\). Sätt in det uttrycket i den andra ekvationen.</p><p>Efter insättning och förenkling fås \\(3 x - 12=0\\).</p><p>Därifrån fås \\(x=4\\).</p><p>Sätt tillbaka värdet i \\(y=9-x\\) för att få den andra variabeln.</p><p><strong>\\((x,y)=(4,5)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -6966,7 +6937,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet med additionsmetoden.</p><p>\\(\\begin{cases}6x+5y=17\\\\4x-5y=3\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}6x+5y=17\\\\4x-5y=3\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna. y-termerna tar då ut varandra:</p><p>\\(10x=20\\Rightarrow x=2\\).</p><p>Sätt in x-värdet i den första ekvationen:</p><p>\\(6\\cdot(2)+5y=17\\Rightarrow y=1\\).</p><p><strong>\\((x,y)=(2,1)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -7007,7 +6978,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationssystemet med additionsmetoden.</p><p>\\(\\begin{cases}2x+y=8\\\\3x-y=7\\end{cases}\\)</p>",
+    "t": "<p>Lös ekvationssystemet.</p><p>\\(\\begin{cases}2x+y=8\\\\3x-y=7\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj multiplikationer som ger motsatta koefficienter framför en variabel. När ekvationerna adderas försvinner den variabeln.</p><p><strong>Steg 1:</strong> Addera ekvationerna: \\(5x=15\\), alltså \\(x=3\\).</p><p>Sätt in i \\(2x+y=8\\): \\(6+y=8\\Rightarrow y=2\\).</p><p><strong>\\((x,y)=(3,2)\\).</strong></p>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -7459,9 +7430,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Faktorisera uttryck och lösa ekvationer",
-    "ledtrad": "<p>För varje uttryck: hitta den största faktor som finns i alla termer, bryt ut den framför parentesen och kontrollera genom att multiplicera tillbaka.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>För varje uttryck: hitta den största faktor som finns i alla termer, bryt ut den framför parentesen och kontrollera genom att multiplicera tillbaka.</p>"
   },
   {
     "id": "1.254",
@@ -7562,9 +7531,7 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Faktorisera uttryck och lösa ekvationer",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>"
   },
   {
     "id": "1.257",
@@ -8103,7 +8070,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationssystemet med substitutionsmetoden.</p><p>\\(\\begin{cases}x=12-2y\\\\3x+y=16\\end{cases}\\)</p>",
+    "t": "<p>Lös ekvationssystemet.</p><p>\\(\\begin{cases}x=12-2y\\\\3x+y=16\\end{cases}\\)</p>",
     "s": "<p><strong>Nyckelidé:</strong> Gör en variabel ensam i den ena ekvationen och sätt in uttrycket i den andra. Bestäm därefter den återstående variabeln genom insättning.</p><p><strong>Steg 1:</strong> Sätt in \\(x=12-2y\\) i den andra ekvationen:</p><p>\\[3(12-2y)+y=16.\\]</p><p>\\[36-5y=16\\Rightarrow y=4.\\]</p><p>Då är \\(x=4\\).</p><p><strong>\\((x,y)=(4,4)\\).</strong></p>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -8144,7 +8111,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationssystemet med substitutionsmetoden.</p><p>\\(\\begin{cases}y=5-x\\\\2x+3y=12\\end{cases}\\)</p>",
+    "t": "<p>Lös ekvationssystemet.</p><p>\\(\\begin{cases}y=5-x\\\\2x+3y=12\\end{cases}\\)</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Den första ekvationen har \\(y\\) utbrutet. Sätt in uttrycket i den andra ekvationen.</p><div class=\"facit-arbete\"><p>\\(2x+3(5-x)=12\\)</p><p>\\(2x+15-3x=12\\) ger \\(-x=-3\\), alltså \\(x=3\\).</p><p>\\(y=5-3=2\\).</p><p><strong>\\(x=3\\) och \\(y=2\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontroll i den andra ekvationen: \\(2\\cdot3+3\\cdot2=12\\).</p></div>",
     "familj": "Substitutionsmetoden",
     "geogebra": false,
@@ -8227,7 +8194,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Lös systemet på två sätt: först med substitutionsmetoden och sedan med additionsmetoden. Jämför metoderna.</p><p>\\(\\begin{cases}2x+y=12\\\\3x-y=8\\end{cases}\\)</p>",
+    "t": "<p>Lös systemet på två sätt: en gång genom att lösa ut en variabel och sätta in uttrycket i den andra ekvationen, och en gång genom att addera ekvationerna. Jämför hur mycket arbete de två vägarna kräver.</p><p>\\(\\begin{cases}2x+y=12\\\\3x-y=8\\end{cases}\\)</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Samma system, två metoder. Svaret måste förstås bli detsamma; det är arbetsinsatsen som skiljer.</p><div class=\"facit-arbete\"><p>Substitution: den första ekvationen ger \\(y=12-2x\\). Insättning i den andra: \\(3x-(12-2x)=8\\), alltså \\(5x=20\\) och \\(x=4\\). Då är \\(y=12-8=4\\).</p><p>Addition: y-termerna är redan motsatta. Addera ekvationerna: \\(5x=20\\), alltså \\(x=4\\) och \\(y=12-8=4\\).</p><p>Här är additionsmetoden snabbast, eftersom koefficienterna framför \\(y\\) redan är \\(1\\) och \\(-1\\).</p><p><strong>\\(x=4\\) och \\(y=4\\); additionsmetoden kräver minst arbete här</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Leta efter motsatta koefficienter innan du väljer metod.</p></div>",
     "familj": "Additionsmetoden",
     "geogebra": false,
@@ -10655,7 +10622,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös \\(4(x-1)^2=25\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong> Dividera med 4: \\((x-1)^2=25/4\\).</p><p>Ta kvadratroten: \\(x-1=\\pm5/2\\).</p><p><strong>\\(x=\\frac72\\) eller \\(x=-\\frac32\\).</strong></p>",
+    "s": "<p>Dividera först med 4 så att kvadraten står ensam: \\((x-1)^2=\\dfrac{25}{4}\\).</p><p>\\(x-1=\\pm\\dfrac52\\), alltså \\(x=1\\pm2{,}5\\).</p><p><strong>Svar:</strong> \\(x=3{,}5\\) eller \\(x=-1{,}5\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -10682,7 +10649,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Vad står i kvadrat? Se till att kvadraten står ensam i vänsterledet innan du drar roten ur.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.02",
@@ -10695,8 +10665,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös \\(2x^2+5x-3=0\\) med pq-formeln.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Dela först hela ekvationen med 2:</p><p>\\(x^2+\\frac52x-\\frac32=0\\).</p><p>pq-formeln ger \\(x=-\\frac54\\pm\\sqrt{\\frac{25}{16}+\\frac{24}{16}}=-\\frac54\\pm\\frac74\\).</p><p><strong>\\(x=\\frac12\\) eller \\(x=-3\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "t": "<p>Lös ekvationen \\(2x^2+5x-3=0\\).</p>",
+    "s": "<p>Dividera med 2: \\(x^2+2{,}5x-1{,}5=0\\).</p><p>\\(x=-1{,}25\\pm\\sqrt{1{,}5625+1{,}5}=-1{,}25\\pm\\sqrt{3{,}0625}=-1{,}25\\pm1{,}75\\).</p><p><strong>Svar:</strong> \\(x=0{,}5\\) eller \\(x=-3\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -10723,7 +10693,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>"
+    "ledtrad": "<p>pq-formeln förutsätter att koefficienten framför \\(x^2\\) är 1. Vad gör du först?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.03",
@@ -10737,7 +10710,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös \\(3x^2-14x+8=0\\).</p>",
-    "s": "<p>Dela först ekvationen med 3:</p>\n<p>\\(x^2-\\frac{14}{3}x+\\frac83=0\\).</p>\n<p>Använd <strong>pq-formeln</strong> med \\(p=-\\frac{14}{3}\\), \\(q=\\frac83\\):</p>\n<p>\\(x=\\frac73\\pm\\sqrt{\\frac{49}{9}-\\frac{24}{9}}\n=\\frac73\\pm\\frac53\\).</p>\n<p><strong>\\(x=4\\) eller \\(x=\\frac23\\).</strong></p>",
+    "s": "<p>Dividera med 3: \\(x^2-\\dfrac{14}{3}x+\\dfrac83=0\\).</p><p>\\(x=\\dfrac73\\pm\\sqrt{\\dfrac{49}{9}-\\dfrac{24}{9}}=\\dfrac73\\pm\\dfrac53\\).</p><p><strong>Svar:</strong> \\(x=4\\) eller \\(x=\\dfrac23\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -10764,7 +10737,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>"
+    "ledtrad": "<p>Dividera med 3 först. Bråken under rottecknet blir enklare om du skriver dem med gemensam nämnare.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.04",
@@ -10778,21 +10754,55 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Lös.</p><p>a) \\((x-2)^2=25\\)<br>b) \\((x+1)^2=9\\)<br>c) \\((2x-3)^2=1\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong>  När du tar kvadratroten måste både den positiva och den negativa roten tas med.</p><p><strong>a) \\(x=7,-3\\).</strong></p><p><strong>b) \\(x=2,-4\\).</strong></p><p><strong>c) \\(x=1,2\\).</strong></p>",
+    "s": "<p>a) \\(x-2=\\pm5\\) ger \\(x=7\\) eller \\(x=-3\\).</p><p>b) \\(x+1=\\pm3\\) ger \\(x=2\\) eller \\(x=-4\\).</p><p>c) \\(2x-3=\\pm1\\) ger \\(2x=4\\) eller \\(2x=2\\), alltså \\(x=2\\) eller \\(x=1\\).</p><p><strong>Svar:</strong> a) \\(7\\) och \\(-3\\) &nbsp; b) \\(2\\) och \\(-4\\) &nbsp; c) \\(2\\) och \\(1\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        -3,
+        7
+      ],
+      [
+        -4,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Dra roten ur båda led och kom ihåg plus- och minusfallet. I c) är det \\(2x-3\\) som står i kvadrat.</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.05",
@@ -10941,8 +10951,8 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(x^2-12x=0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong> Faktorisera:</p><p>\\(x(x-12)=0\\).</p><p>Med nollproduktmetoden fås <strong>\\(x=0\\) eller \\(x=12\\)</strong>.</p>",
-    "familj": "Kvadratrotmetoden",
+    "s": "<p>Konstanttermen saknas, så bryt ut \\(x\\): \\(x(x-12)=0\\).</p><p>En produkt är noll när någon faktor är noll.</p><p><strong>Svar:</strong> \\(x=0\\) eller \\(x=12\\)</p>",
+    "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -10968,7 +10978,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Vad är gemensamt för båda termerna i vänsterledet?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.10",
@@ -10982,21 +10995,56 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Lös.</p><p>a) \\(x^2=81\\)<br>b) \\(x^2-9x=0\\)<br>c) \\(2x^2=50\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong>  När du tar kvadratroten måste både den positiva och den negativa roten tas med.</p><p><strong>a) \\(x=\\pm9\\)</strong></p><p><strong>b) \\(x=0\\) eller \\(x=9\\)</strong></p><p><strong>c) \\(x=\\pm5\\)</strong></p>",
+    "s": "<p>a) \\(x=\\pm9\\).</p><p>b) Bryt ut \\(x\\): \\(x(x-9)=0\\) ger \\(x=0\\) eller \\(x=9\\).</p><p>c) \\(x^2=25\\) ger \\(x=\\pm5\\).</p><p><strong>Svar:</strong> a) \\(\\pm9\\) &nbsp; b) \\(0\\) och \\(9\\) &nbsp; c) \\(\\pm5\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        -9,
+        9
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        -5,
+        5
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Saknas konstanttermen kan du bryta ut \\(x\\). Saknas x-termen drar du roten ur.</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.11",
@@ -11045,9 +11093,7 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
   },
   {
     "id": "2.12",
@@ -11089,9 +11135,7 @@ window.BANKMA2 = [
       "c)"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
   },
   {
     "id": "2.13",
@@ -11187,21 +11231,55 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Lös.</p><p>a) \\(x^2=36\\)<br>b) \\(x^2=\\frac94\\)<br>c) \\(4x^2=25\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong>  När du tar kvadratroten måste både den positiva och den negativa roten tas med.</p><p><strong>a) \\(x=\\pm6\\).</strong></p><p><strong>b) \\(x=\\pm\\frac32\\).</strong></p><p><strong>c) \\(x=\\pm\\frac52\\).</strong></p>",
+    "s": "<p>a) \\(x=\\pm6\\).</p><p>b) \\(x=\\pm\\sqrt{\\dfrac94}=\\pm\\dfrac32\\).</p><p>c) \\(x^2=\\dfrac{25}{4}\\) ger \\(x=\\pm\\dfrac52\\).</p><p><strong>Svar:</strong> a) \\(\\pm6\\) &nbsp; b) \\(\\pm1{,}5\\) &nbsp; c) \\(\\pm2{,}5\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        -6,
+        6
+      ],
+      [
+        -1.5,
+        1.5
+      ],
+      [
+        -2.5,
+        2.5
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Roten ur ett bråk kan dras i täljare och nämnare var för sig.</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.17",
@@ -11278,7 +11356,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv \\(x^2-6x+13\\) på formen \\((x+a)^2+b\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p><p><strong>Steg 1:</strong> Halva koefficienten −6 är −3.</p><p>\\((x-3)^2=x^2-6x+9\\).</p><p>Skillnaden upp till 13 är 4.</p><p><strong>\\(x^2-6x+13=(x-3)^2+4\\).</strong></p>",
+    "s": "<p>Halva koefficienten framför \\(x\\) är \\(-3\\), och \\((x-3)^2=x^2-6x+9\\).</p><p>\\(x^2-6x+13=(x-3)^2-9+13=(x-3)^2+4\\).</p><p><strong>Svar:</strong> \\((x-3)^2+4\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
@@ -11289,7 +11367,11 @@ window.BANKMA2 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p>"
+    "ledtrad": "<p>Halva koefficienten framför \\(x\\) hamnar inne i parentesen. Kompensera sedan för det du lagt till.</p>",
+    "svarFormat": "uttryck",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.20",
@@ -11827,9 +11909,7 @@ window.BANKMA2 = [
       "modellering"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
   },
   {
     "id": "2.37",
@@ -11963,21 +12043,56 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Lös ekvationerna.</p><p>a) \\(x^2=49\\)<br>b) \\(x(x-7)=0\\)<br>c) \\(x^2+5x=0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p>a) \\(x=\\pm7\\).</p><p>b) \\(x=0\\) eller \\(x=7\\).</p><p>c) \\(x(x+5)=0\\), alltså \\(x=0\\) eller \\(x=-5\\).</p><p><strong>Svar: a) ±7, b) 0 eller 7, c) 0 eller −5.</strong></p>",
+    "s": "<p>a) \\(x=\\pm7\\).</p><p>b) Produkten är noll när en faktor är noll: \\(x=0\\) eller \\(x=7\\).</p><p>c) \\(x(x+5)=0\\) ger \\(x=0\\) eller \\(x=-5\\).</p><p><strong>Svar:</strong> a) \\(\\pm7\\) &nbsp; b) \\(0\\) och \\(7\\) &nbsp; c) \\(0\\) och \\(-5\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        -7,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        -5,
+        0
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Jämför formen på de tre ekvationerna. Alla tre löses inte på samma sätt.</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.42",
@@ -11990,8 +12105,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös \\(4x^2+4x-3=0\\) med pq-formeln.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p><p>Dela med 4:</p><p>\\(x^2+x-\\frac34=0\\).</p><p>pq-formeln ger \\(x=-\\frac12\\pm\\sqrt{\\frac14+\\frac34}=-\\frac12\\pm1\\).</p><p><strong>\\(x=\\frac12\\) eller \\(x=-\\frac32\\)</strong></p>",
+    "t": "<p>Lös ekvationen \\(4x^2+4x-3=0\\).</p>",
+    "s": "<p>Dividera med 4: \\(x^2+x-0{,}75=0\\).</p><p>\\(x=-0{,}5\\pm\\sqrt{0{,}25+0{,}75}=-0{,}5\\pm1\\).</p><p><strong>Svar:</strong> \\(x=0{,}5\\) eller \\(x=-1{,}5\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -12018,7 +12133,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p>"
+    "ledtrad": "<p>Koefficienten framför \\(x^2\\) måste vara 1 innan du använder formeln.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.43",
@@ -12032,7 +12150,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(x^2+4x-21=0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p><p>Använd <strong>pq-formeln</strong> på \\(x^2+4x-21=0\\).</p>\n<p>Här är \\(p=4\\) och \\(q=-21\\).</p>\n<p>\\(x=-2\\pm\\sqrt{2^2+21}=-2\\pm5\\).</p>\n<p><strong>\\(x=3\\) eller \\(x=-7\\).</strong></p>",
+    "s": "<p>Här är \\(p=4\\) och \\(q=-21\\).</p><p>\\(x=-2\\pm\\sqrt{4+21}=-2\\pm5\\).</p><p><strong>Svar:</strong> \\(x=3\\) eller \\(x=-7\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -12059,7 +12177,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p>"
+    "ledtrad": "<p>Var noga med tecknet på \\(q\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.44",
@@ -12071,7 +12192,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Bestäm \\(k\\) så att ekvationen \\(x^2-6x+k=0\\) får exakt en reell lösning.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p><p><strong>Steg 1:</strong> Komplettera till kvadrat:</p><p>\\(x^2-6x+k=(x-3)^2-9+k\\).</p><p>Ekvationen kan skrivas</p><p>\\((x-3)^2=9-k\\).</p><p>För att få exakt en reell lösning måste högerledet vara 0.</p><p>\\(9-k=0\\Rightarrow k=9\\).</p><p><strong>\\(k=9\\).</strong></p>",
+    "s": "<p>Kvadratkomplettera: \\(x^2-6x+k=(x-3)^2-9+k\\).</p><p>Ekvationen \\((x-3)^2=9-k\\) har exakt en lösning när högerledet är noll, alltså när \\(k=9\\).</p><p>Då blir ekvationen \\((x-3)^2=0\\) med dubbelroten \\(x=3\\).</p><p><strong>Svar:</strong> \\(k=9\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
@@ -12080,10 +12201,14 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p>"
+    "ledtrad": "<p>Skriv om ekvationen på formen \\((x-a)^2=b\\). Hur många lösningar finns för olika \\(b\\)?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.45",
@@ -12248,7 +12373,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(5x^2=80\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong> Dela med 5: \\(x^2=16\\).</p><p><strong>\\(x=\\pm4\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Dividera med 5: \\(x^2=16\\).</p><p><strong>Svar:</strong> \\(x=4\\) eller \\(x=-4\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -12275,7 +12400,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Se till att \\(x^2\\) står ensamt innan du drar roten ur.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.50",
@@ -12286,24 +12414,41 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Lös.</p><p>a) \\(x^2=49\\)<br>b) \\(x^2+6x=0\\)<br>c) \\(3x^2=75\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong>  När du tar kvadratroten måste både den positiva och den negativa roten tas med.</p><p><strong>a) \\(x=\\pm7\\)</strong></p><p><strong>b) \\(x=0\\) eller \\(x=-6\\)</strong></p><p><strong>c) \\(x=\\pm5\\)</strong></p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ekvationen \\(x^2=k\\) har lösningarna \\(x=6\\) och \\(x=-6\\).</p><p>a)&nbsp;Bestäm \\(k\\).<br>b)&nbsp;Vilket värde på \\(k\\) ger ekvationen exakt en lösning?<br>c)&nbsp;För vilka \\(k\\) saknar ekvationen reella lösningar?</p>",
+    "s": "<p>a) Sätt in en av lösningarna: \\(6^2=36\\), alltså \\(k=36\\).</p><p>b) Om \\(k=0\\) blir \\(x=0\\) den enda lösningen, eftersom \\(+0\\) och \\(-0\\) är samma tal.</p><p>c) En kvadrat kan inte vara negativ, så för \\(k&lt;0\\) finns ingen reell lösning.</p><p><strong>Svar:</strong> a) \\(k=36\\) &nbsp; b) \\(k=0\\) &nbsp; c) \\(k&lt;0\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      36,
+      0,
+      "k<0"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Vilka värden kan \\(x^2\\) anta när \\(x\\) är ett reellt tal?</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "olikhet"
+    ],
+    "svarEtiketter": [
+      "a) k",
+      "b) k",
+      "c) k"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.51",
@@ -12480,7 +12625,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\((2x+1)^2=25\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong> \\(2x+1=5\\) eller \\(2x+1=-5\\).</p><p>Det ger <strong>\\(x=2\\) eller \\(x=-3\\)</strong>.</p>",
+    "s": "<p>\\(2x+1=\\pm5\\).</p><p>\\(2x=4\\) ger \\(x=2\\), och \\(2x=-6\\) ger \\(x=-3\\).</p><p><strong>Svar:</strong> \\(x=2\\) eller \\(x=-3\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -12507,7 +12652,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Behandla \\(2x+1\\) som ett enda uttryck när du drar roten ur.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.58",
@@ -12794,9 +12942,7 @@ window.BANKMA2 = [
       "modellering"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "id": "2.67",
@@ -12911,7 +13057,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Kvadratkomplettera \\(x^2+4x+1\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p><p><strong>Steg 1:</strong> \\(x^2+4x+1=(x+2)^2-4+1\\).</p><p><strong>\\((x+2)^2-3\\)</strong></p>",
+    "s": "<p>\\((x+2)^2=x^2+4x+4\\), så \\(x^2+4x+1=(x+2)^2-4+1=(x+2)^2-3\\).</p><p><strong>Svar:</strong> \\((x+2)^2-3\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
@@ -12922,7 +13068,11 @@ window.BANKMA2 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p>"
+    "ledtrad": "<p>Vilken kvadrat har \\(x^2+4x\\) som sina två första termer?</p>",
+    "svarFormat": "uttryck",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.72",
@@ -13193,7 +13343,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(3(x-2)^2=27\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong> Dela med 3: \\((x-2)^2=9\\).</p><p>\\(x-2=3\\) eller \\(x-2=-3\\).</p><p><strong>\\(x=5\\) eller \\(x=-1\\)</strong></p>",
+    "s": "<p>Dividera med 3: \\((x-2)^2=9\\).</p><p>\\(x-2=\\pm3\\) ger \\(x=5\\) eller \\(x=-1\\).</p><p><strong>Svar:</strong> \\(x=5\\) eller \\(x=-1\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -13220,7 +13370,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Bli av med faktorn framför kvadraten först.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.82",
@@ -13232,9 +13385,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Lös med pq-formeln.</p><p>\\[x^2+8x+7=0.\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p><p>Här är \\(p=8\\) och \\(q=7\\).</p><p>\\[x=-4\\pm\\sqrt{16-7}=-4\\pm3.\\]</p><p><strong>\\(x=-1\\) eller \\(x=-7\\).</strong></p>",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(x^2+8x+7=0\\).</p>",
+    "s": "<p>\\(p=8\\) och \\(q=7\\) ger \\(x=-4\\pm\\sqrt{16-7}=-4\\pm3\\).</p><p><strong>Svar:</strong> \\(x=-1\\) eller \\(x=-7\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -13261,7 +13414,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p>"
+    "ledtrad": "<p>Halvera \\(p\\) och byt tecken – det är första termen i svaret.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.83",
@@ -13318,20 +13474,36 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Bestäm det minsta värdet för \\(f(x)=x^2+6x+14\\) genom kvadratkomplettering.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>\\(f(x)=(x+3)^2+5\\).</p><p>Eftersom en kvadrat är minst 0 är det minsta värdet 5.</p><p><strong>Det minsta värdet är 5 och fås vid \\(x=-3\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm det minsta värdet för \\(f(x)=x^2+6x+14\\) och det \\(x\\) där det antas.</p>",
+    "s": "<p>\\(x^2+6x+14=(x+3)^2-9+14=(x+3)^2+5\\).</p><p>Kvadraten är minst 0 och blir 0 när \\(x=-3\\). Då är \\(f(-3)=5\\).</p><p><strong>Svar:</strong> Minsta värdet är \\(5\\) och antas för \\(x=-3\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      -3
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Samla x-termerna och skapa en fullständig kvadrat genom att lägga till och dra ifrån samma tal. Målet är formen \\((x-h)^2+k\\).</p>"
+    "ledtrad": "<p>Skriv funktionen på formen \\((x+a)^2+b\\). Vad är det minsta en kvadrat kan bli?</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "minsta värde",
+      "x"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.85",
@@ -13479,22 +13651,56 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös.</p><p>a) \\(x^2+2x-8=0\\)<br>b) \\(x^2-6x+8=0\\)<br>c) \\(x^2+4x-5=0\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Använd <strong>pq-formeln</strong>.</p>\n<p>a) \\(p=2\\), \\(q=-8\\): \\(x=-1\\pm\\sqrt{1+8}=-1\\pm3\\Rightarrow x=2,-4\\).</p>\n<p>b) \\(p=-6\\), \\(q=8\\): \\(x=3\\pm\\sqrt{9-8}=3\\pm1\\Rightarrow x=2,4\\).</p>\n<p>c) \\(p=4\\), \\(q=-5\\): \\(x=-2\\pm\\sqrt{4+5}=-2\\pm3\\Rightarrow x=1,-5\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(x^2+2x-8=0\\)<br>b)&nbsp;\\(x^2-6x+8=0\\)<br>c)&nbsp;\\(x^2+4x-5=0\\)</p>",
+    "s": "<p>a) \\(x=-1\\pm\\sqrt{1+8}=-1\\pm3\\), alltså \\(2\\) och \\(-4\\).</p><p>b) \\(x=3\\pm\\sqrt{9-8}=3\\pm1\\), alltså \\(4\\) och \\(2\\).</p><p>c) \\(x=-2\\pm\\sqrt{4+5}=-2\\pm3\\), alltså \\(1\\) och \\(-5\\).</p><p><strong>Svar:</strong> a) \\(2\\) och \\(-4\\) &nbsp; b) \\(4\\) och \\(2\\) &nbsp; c) \\(1\\) och \\(-5\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        -4,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        -5,
+        1
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Kontrollera varje svar med rötternas summa \\(-p\\) och produkt \\(q\\).</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.90",
@@ -13567,9 +13773,7 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
   },
   {
     "id": "2.92",
@@ -13596,9 +13800,7 @@ window.BANKMA2 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "id": "2.93",
@@ -13692,35 +13894,48 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös med pq-formeln: \\(x^2+6x-7=0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p><p>Här är \\(p=6\\) och \\(q=-7\\).</p><p>\\(x=-3\\pm\\sqrt{3^2+7}=-3\\pm4\\).</p><p><strong>\\(x=1\\) eller \\(x=-7\\)</strong></p>",
+    "t": "<p>Ekvationen \\(2x^2-10x+8=0\\) ska skrivas på formen \\(x^2+px+q=0\\).</p><p>a)&nbsp;Ange \\(p\\) och \\(q\\).<br>b)&nbsp;Lös ekvationen.</p>",
+    "s": "<p>a) Dividera alla termer med 2: \\(x^2-5x+4=0\\). Alltså är \\(p=-5\\) och \\(q=4\\).</p><p>b) \\(x=2{,}5\\pm\\sqrt{6{,}25-4}=2{,}5\\pm1{,}5\\).</p><p><strong>Svar:</strong> a) \\(p=-5\\), \\(q=4\\) &nbsp; b) \\(x=4\\) eller \\(x=1\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1,
-      -7
+      [
+        -5,
+        4
+      ],
+      [
+        1,
+        4
+      ]
     ],
-    "tolerans": [
-      null,
-      null
-    ],
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "svarFormat": [
-      "numeriskt",
-      "numeriskt"
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
     ],
     "svarEtiketter": [
-      "x",
-      "x"
+      "a) p och q",
+      "b) lösningar"
     ],
-    "svarsstruktur": "mängd",
+    "svarsstruktur": "ordnad",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p>"
+    "ledtrad": "<p>Dividera med koefficienten framför \\(x^2\\) och läs av tecknen noga.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.97",
@@ -13792,9 +14007,7 @@ window.BANKMA2 = [
       true,
       false
     ],
-    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>"
   },
   {
     "id": "2.99",
@@ -13807,8 +14020,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös \\(3x^2-10x+3=0\\) med pq-formeln.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p><p>Dela med 3:</p><p>\\(x^2-\\frac{10}{3}x+1=0\\).</p><p>pq-formeln ger \\(x=\\frac53\\pm\\sqrt{\\frac{25}{9}-1}=\\frac53\\pm\\frac43\\).</p><p><strong>\\(x=3\\) eller \\(x=\\frac13\\)</strong></p>",
+    "t": "<p>Lös ekvationen \\(3x^2-10x+3=0\\).</p>",
+    "s": "<p>Dividera med 3: \\(x^2-\\dfrac{10}{3}x+1=0\\).</p><p>\\(x=\\dfrac53\\pm\\sqrt{\\dfrac{25}{9}-1}=\\dfrac53\\pm\\dfrac43\\).</p><p><strong>Svar:</strong> \\(x=3\\) eller \\(x=\\dfrac13\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -13835,7 +14048,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p>"
+    "ledtrad": "<p>Efter divisionen blir \\(q=1\\). Skriv talen under rottecknet med nämnaren 9.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.100",
@@ -14380,9 +14596,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka och bestämma andragradsfunktioner",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>"
   },
   {
     "id": "2.116",
@@ -14542,22 +14756,56 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Faktorisera och lös.</p><p>a) \\(x^2-11x+24=0\\)<br>b) \\(x^2+8x+15=0\\)<br>c) \\(x^2-3x-18=0\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Hitta två tal vars produkt är konstanttermen och vars summa är x-koefficienten.</p><p>a) \\(x^2-11x+24=(x-3)(x-8)\\Rightarrow x=3,8\\).</p><p>b) \\(x^2+8x+15=(x+3)(x+5)\\Rightarrow x=-3,-5\\).</p><p>c) \\(x^2-3x-18=(x-6)(x+3)\\Rightarrow x=6,-3\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(x^2-11x+24=0\\)<br>b)&nbsp;\\(x^2+8x+15=0\\)<br>c)&nbsp;\\(x^2-3x-18=0\\)</p>",
+    "s": "<p>Sök i varje deluppgift två tal med rätt summa och rätt produkt.</p><p>a) \\(3\\cdot8=24\\) och \\(3+8=11\\), så \\((x-3)(x-8)=0\\) ger \\(x=3\\) eller \\(x=8\\).</p><p>b) \\((x+3)(x+5)=0\\) ger \\(x=-3\\) eller \\(x=-5\\).</p><p>c) \\((x-6)(x+3)=0\\) ger \\(x=6\\) eller \\(x=-3\\).</p><p><strong>Svar:</strong> a) \\(3\\) och \\(8\\) &nbsp; b) \\(-3\\) och \\(-5\\) &nbsp; c) \\(6\\) och \\(-3\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        3,
+        8
+      ],
+      [
+        -5,
+        -3
+      ],
+      [
+        -3,
+        6
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Flytta allt till ena sidan och faktorisera. En produkt är noll när minst en faktor är noll, så sätt varje faktor lika med noll.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Vilka två tal har produkten lika med konstanttermen och summan lika med koefficienten framför \\(x\\)?</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.122",
@@ -14570,8 +14818,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös med nollproduktmetoden.</p><p>a) \\(x(x-7)=0\\)<br>b) \\((x+3)(x-5)=0\\)<br>c) \\((2x-1)(x+4)=0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p>a) \\(x(x-7)=0\\). Alltså \\(x=0\\) eller \\(x-7=0\\Rightarrow x=7\\).</p><p>b) \\((x+3)(x-5)=0\\). Alltså \\(x=-3\\) eller \\(x=5\\).</p><p>c) \\((2x-1)(x+4)=0\\). Då \\(2x-1=0\\Rightarrow x=1/2\\), eller \\(x+4=0\\Rightarrow x=-4\\).</p>",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(x(x-7)=0\\)<br>b)&nbsp;\\((x+3)(x-5)=0\\)<br>c)&nbsp;\\((2x-1)(x+4)=0\\)</p>",
+    "s": "<p>En produkt är noll precis när minst en faktor är noll.</p><p>a) \\(x=0\\) eller \\(x=7\\).</p><p>b) \\(x=-3\\) eller \\(x=5\\).</p><p>c) \\(2x-1=0\\) ger \\(x=0{,}5\\), och \\(x+4=0\\) ger \\(x=-4\\).</p><p><strong>Svar:</strong> a) \\(0\\) och \\(7\\) &nbsp; b) \\(-3\\) och \\(5\\) &nbsp; c) \\(0{,}5\\) och \\(-4\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -14660,9 +14908,10 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Sätt varje faktor för sig lika med noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.123",
@@ -14675,22 +14924,57 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös.</p><p>a) \\(2x^2-10x=0\\)<br>b) \\(3x^2+12x=0\\)<br>c) \\(5x^2-20=0\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Bryt ut en gemensam faktor eller använd konjugatregeln för att faktorisera.</p><p>a) \\(2x^2-10x=2x(x-5)=0\\Rightarrow x=0,5\\).</p><p>b) \\(3x^2+12x=3x(x+4)=0\\Rightarrow x=0,-4\\).</p><p>c) \\(5x^2-20=5(x^2-4)=5(x-2)(x+2)=0\\Rightarrow x=\\pm2\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(2x^2-10x=0\\)<br>b)&nbsp;\\(3x^2+12x=0\\)<br>c)&nbsp;\\(5x^2-20=0\\)</p>",
+    "s": "<p>a) \\(2x(x-5)=0\\) ger \\(x=0\\) eller \\(x=5\\).</p><p>b) \\(3x(x+4)=0\\) ger \\(x=0\\) eller \\(x=-4\\).</p><p>c) Här saknas x-termen: \\(x^2=4\\) ger \\(x=\\pm2\\).</p><p><strong>Svar:</strong> a) \\(0\\) och \\(5\\) &nbsp; b) \\(0\\) och \\(-4\\) &nbsp; c) \\(\\pm2\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        0,
+        5
+      ],
+      [
+        -4,
+        0
+      ],
+      [
+        -2,
+        2
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Flytta allt till ena sidan och faktorisera. En produkt är noll när minst en faktor är noll, så sätt varje faktor lika med noll.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Två av ekvationerna saknar konstantterm. Den tredje saknar x-term. Det avgör hur du gör.</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.124",
@@ -14702,9 +14986,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "t": "<p>Lös \\(x(x-4)=5x\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p><strong>Steg 1:</strong> Flytta allt till vänster:</p><p>\\(x(x-4)-5x=0\\).</p><p>Bryt ut \\(x\\): \\(x[(x-4)-5]=x(x-9)=0\\).</p><p><strong>\\(x=0\\) eller \\(x=9\\).</strong></p>",
+    "s": "<p>Samla allt i vänsterledet: \\(x^2-4x-5x=0\\), alltså \\(x^2-9x=0\\).</p><p>\\(x(x-9)=0\\).</p><p><strong>Svar:</strong> \\(x=0\\) eller \\(x=9\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -14731,7 +15015,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>"
+    "ledtrad": "<p>Nollproduktmetoden kräver att ena ledet är noll. Vad måste du göra först?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.125",
@@ -14743,9 +15030,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "t": "<p>Lös \\((x-2)(x+5)=3(x-2)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p><strong>Steg 1:</strong> Flytta högerledet till vänster och bryt ut den gemensamma faktorn:</p><p>\\((x-2)(x+5)-3(x-2)=0\\).</p><p>\\((x-2)[(x+5)-3]=(x-2)(x+2)=0\\).</p><p><strong>\\(x=2\\) eller \\(x=-2\\).</strong></p>",
+    "s": "<p>Flytta över allt till vänsterledet: \\((x-2)(x+5)-3(x-2)=0\\).</p><p>Bryt ut \\((x-2)\\): \\((x-2)(x+5-3)=(x-2)(x+2)=0\\).</p><p><strong>Svar:</strong> \\(x=2\\) eller \\(x=-2\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -14760,7 +15047,8 @@ window.BANKMA2 = [
     ],
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "svarFormat": [
       "numeriskt",
@@ -14772,7 +15060,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>"
+    "ledtrad": "<p>Dividera inte med \\((x-2)\\) – då tappar du en lösning. Bryt ut den i stället.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.126",
@@ -14785,35 +15076,35 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationen genom nollproduktmetoden.</p><p>\\[x(x-7)=0.\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p><strong>Steg 1:</strong> En produkt är 0 om minst en faktor är 0.</p><p>\\[x=0\\quad\\text{eller}\\quad x-7=0.\\]</p><p><strong>\\(x=0\\) eller \\(x=7\\).</strong></p>",
+    "t": "<p>Vilka av talen \\(-3\\), \\(0\\), \\(2\\) och \\(5\\) är lösningar till ekvationen \\((x+3)(x-5)=0\\)? Motivera kort.</p>",
+    "s": "<p>Ett tal är en lösning om det gör produkten noll.</p><p>\\(x=-3\\) ger \\(0\\cdot(-8)=0\\), och \\(x=5\\) ger \\(8\\cdot0=0\\). Båda är lösningar.</p><p>\\(x=0\\) ger \\(3\\cdot(-5)=-15\\) och \\(x=2\\) ger \\(5\\cdot(-3)=-15\\). Ingen av dem är en lösning.</p><p><strong>Svar:</strong> \\(-3\\) och \\(5\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0,
-      7
+      -3,
+      5
     ],
-    "tolerans": [
-      null,
-      null
-    ],
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
     "svarEtiketter": [
-      "x",
-      "x"
+      "lösning",
+      "lösning"
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>"
+    "ledtrad": "<p>Pröva talen ett i taget. När blir någon av faktorerna noll?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.127",
@@ -14826,22 +15117,57 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös.</p><p>a) \\(x^2-16=0\\)<br>b) \\(x^2+2x-15=0\\)<br>c) \\(x^2-7x+12=0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p><strong>Steg 1:</strong> Faktorisera varje vänsterled och använd nollproduktmetoden.</p><p>a) \\(x^2-16=(x-4)(x+4)=0\\Rightarrow x=\\pm4\\).</p><p>b) \\(x^2+2x-15=(x+5)(x-3)=0\\Rightarrow x=-5\\) eller 3.</p><p>c) \\(x^2-7x+12=(x-3)(x-4)=0\\Rightarrow x=3\\) eller 4.</p>",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(x^2-16=0\\)<br>b)&nbsp;\\(x^2+2x-15=0\\)<br>c)&nbsp;\\(x^2-7x+12=0\\)</p>",
+    "s": "<p>a) \\(x^2=16\\) ger \\(x=\\pm4\\). (Du kan också faktorisera: \\((x-4)(x+4)=0\\).)</p><p>b) \\((x+5)(x-3)=0\\) ger \\(x=-5\\) eller \\(x=3\\).</p><p>c) \\((x-3)(x-4)=0\\) ger \\(x=3\\) eller \\(x=4\\).</p><p><strong>Svar:</strong> a) \\(\\pm4\\) &nbsp; b) \\(-5\\) och \\(3\\) &nbsp; c) \\(3\\) och \\(4\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        -4,
+        4
+      ],
+      [
+        -5,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Den första ekvationen saknar x-term. I de andra två söker du två tal med rätt summa och produkt.</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.128",
@@ -14855,8 +15181,8 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(x(x+9)=0\\).</p><p>Endast svar krävs.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong> En produkt är noll när minst en faktor är noll.</p><p><strong>\\(x=0\\) eller \\(x=-9\\)</strong></p>",
-    "familj": "Kvadratrotmetoden",
+    "s": "<p>Produkten är noll när en av faktorerna är noll.</p><p><strong>Svar:</strong> \\(x=0\\) eller \\(x=-9\\)</p>",
+    "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
@@ -14882,7 +15208,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Vilka två faktorer multipliceras i vänsterledet?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.129",
@@ -14896,7 +15225,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\((x+3)^2=16\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong> \\(x+3=4\\) eller \\(x+3=-4\\).</p><p>Alltså <strong>\\(x=1\\) eller \\(x=-7\\)</strong>.</p>",
+    "s": "<p>\\(x+3=\\pm4\\) ger \\(x=1\\) eller \\(x=-7\\).</p><p><strong>Svar:</strong> \\(x=1\\) eller \\(x=-7\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -14923,7 +15252,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Dra roten ur båda led och kom ihåg båda tecknen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.130",
@@ -14936,8 +15268,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös.</p><p>a) \\(4x^2-12x+5=0\\)<br>b) \\(6x^2+x-2=0\\)<br>c) \\(2x^2-5x-12=0\\)</p>",
-    "s": "<p>Dela först varje ekvation så att koefficienten framför \\(x^2\\) blir 1. Använd sedan <strong>pq-formeln</strong>.</p>\n<p>a) \\(x^2-3x+\\frac54=0\\).</p>\n<p>\\(x=\\frac32\\pm\\sqrt{\\frac94-\\frac54}\n=\\frac32\\pm1\\Rightarrow x=\\frac12,\\frac52\\).</p>\n<p>b) \\(x^2+\\frac16x-\\frac13=0\\).</p>\n<p>\\(x=-\\frac1{12}\\pm\\sqrt{\\frac1{144}+\\frac{48}{144}}\n=-\\frac1{12}\\pm\\frac7{12}\\Rightarrow x=\\frac12,-\\frac23\\).</p>\n<p>c) \\(x^2-\\frac52x-6=0\\).</p>\n<p>\\(x=\\frac54\\pm\\sqrt{\\frac{25}{16}+\\frac{96}{16}}\n=\\frac54\\pm\\frac{11}{4}\\Rightarrow x=4,-\\frac32\\).</p>",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(4x^2-12x+5=0\\)<br>b)&nbsp;\\(6x^2+x-2=0\\)<br>c)&nbsp;\\(2x^2-5x-12=0\\)</p>",
+    "s": "<p>Dividera först så att koefficienten framför \\(x^2\\) blir 1.</p><p>a) \\(x^2-3x+1{,}25=0\\) ger \\(x=1{,}5\\pm\\sqrt{2{,}25-1{,}25}=1{,}5\\pm1\\).</p><p>b) \\(x^2+\\dfrac16x-\\dfrac13=0\\) ger \\(x=-\\dfrac1{12}\\pm\\sqrt{\\dfrac1{144}+\\dfrac{48}{144}}=-\\dfrac1{12}\\pm\\dfrac7{12}\\).</p><p>c) \\(x^2-2{,}5x-6=0\\) ger \\(x=1{,}25\\pm\\sqrt{1{,}5625+6}=1{,}25\\pm2{,}75\\).</p><p><strong>Svar:</strong> a) \\(2{,}5\\) och \\(0{,}5\\) &nbsp; b) \\(0{,}5\\) och \\(-\\dfrac23\\) &nbsp; c) \\(4\\) och \\(-1{,}5\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -15026,9 +15358,10 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Alla tre har en koefficient framför \\(x^2\\). Dividera bort den först.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.131",
@@ -15039,68 +15372,38 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Lös.</p><p>a) \\(2x^2-7x+3=0\\)<br>b) \\(2x^2+x-3=0\\)<br>c) \\(3x^2-7x+2=0\\)</p>",
-    "s": "<p>Dela först varje ekvation med koefficienten framför \\(x^2\\), och använd sedan <strong>pq-formeln</strong>.</p>\n<p>a) \\(x^2-\\frac72x+\\frac32=0\\).</p>\n<p>\\(x=\\frac74\\pm\\sqrt{\\frac{49}{16}-\\frac{24}{16}}\n=\\frac74\\pm\\frac54\\Rightarrow x=3,\\frac12\\).</p>\n<p>b) \\(x^2+\\frac12x-\\frac32=0\\).</p>\n<p>\\(x=-\\frac14\\pm\\sqrt{\\frac1{16}+\\frac{24}{16}}\n=-\\frac14\\pm\\frac54\\Rightarrow x=1,-\\frac32\\).</p>\n<p>c) \\(x^2-\\frac73x+\\frac23=0\\).</p>\n<p>\\(x=\\frac76\\pm\\sqrt{\\frac{49}{36}-\\frac{24}{36}}\n=\\frac76\\pm\\frac56\\Rightarrow x=2,\\frac13\\).</p>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Avgör hur många reella lösningar varje ekvation har, utan att lösa den.</p><p>a)&nbsp;\\(x^2-6x+9=0\\)<br>b)&nbsp;\\(x^2+2x+5=0\\)<br>c)&nbsp;\\(x^2-x-6=0\\)</p>",
+    "s": "<p>Under rottecknet i pq-formeln står \\(\\left(\\dfrac p2\\right)^2-q\\). Tecknet på det talet avgör antalet lösningar.</p><p>a) \\(9-9=0\\): en lösning (en dubbelrot).</p><p>b) \\(1-5=-4&lt;0\\): ingen reell lösning.</p><p>c) \\(0{,}25+6=6{,}25&gt;0\\): två lösningar.</p><p><strong>Svar:</strong> a) en &nbsp; b) ingen &nbsp; c) två</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      [
-        3,
-        0.5
-      ],
-      [
-        1,
-        -1.5
-      ],
-      [
-        2,
-        "1/3"
-      ]
+      1,
+      0,
+      2
     ],
     "tolerans": [
-      [
-        null,
-        null
-      ],
-      [
-        null,
-        null
-      ],
-      [
-        null,
-        null
-      ]
+      0,
+      0,
+      0
     ],
-    "självrättning": [
-      true,
-      true,
-      true
-    ],
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": [
-      [
-        "numeriskt",
-        "numeriskt"
-      ],
-      [
-        "numeriskt",
-        "numeriskt"
-      ],
-      [
-        "numeriskt",
-        "bråk"
-      ]
+      "heltal",
+      "heltal",
+      "heltal"
     ],
     "svarEtiketter": [
-      "a) lösningar",
-      "b) lösningar",
-      "c) lösningar"
+      "a) antal",
+      "b) antal",
+      "c) antal"
     ],
     "svarsstruktur": "ordnad",
     "spelDelning": "deluppgifter",
@@ -15131,9 +15434,10 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Du behöver bara räkna ut vad som hamnar under rottecknet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.132",
@@ -15145,9 +15449,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Lös med pq-formeln.</p><p>\\[2x^2+4x-6=0.\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p><p>Dividera först hela ekvationen med 2:</p><p>\\[x^2+2x-3=0.\\]</p><p>Nu är \\(p=2\\) och \\(q=-3\\).</p><p>\\[x=-1\\pm\\sqrt{1+3}=-1\\pm2.\\]</p><p><strong>\\(x=1\\) eller \\(x=-3\\).</strong></p>",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationen \\(2x^2+4x-6=0\\).</p>",
+    "s": "<p>Dividera med 2: \\(x^2+2x-3=0\\).</p><p>\\(x=-1\\pm\\sqrt{1+3}=-1\\pm2\\).</p><p><strong>Svar:</strong> \\(x=1\\) eller \\(x=-3\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -15174,7 +15478,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p>"
+    "ledtrad": "<p>Alla tre termerna är delbara med 2.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.133",
@@ -15187,22 +15494,56 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös.</p><p>a) \\((2x+3)(x-4)=0\\)<br>b) \\((5x-10)(x+1)=0\\)<br>c) \\((4x+1)(2x-6)=0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p>a) \\(2x+3=0\\Rightarrow x=-3/2\\), eller \\(x-4=0\\Rightarrow x=4\\).</p><p>b) \\(5x-10=0\\Rightarrow x=2\\), eller \\(x+1=0\\Rightarrow x=-1\\).</p><p>c) \\(4x+1=0\\Rightarrow x=-1/4\\), eller \\(2x-6=0\\Rightarrow x=3\\).</p>",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\((2x+3)(x-4)=0\\)<br>b)&nbsp;\\((5x-10)(x+1)=0\\)<br>c)&nbsp;\\((4x+1)(2x-6)=0\\)</p>",
+    "s": "<p>Sätt varje faktor lika med noll och lös den enkla ekvationen.</p><p>a) \\(2x+3=0\\) ger \\(x=-1{,}5\\); \\(x-4=0\\) ger \\(x=4\\).</p><p>b) \\(5x-10=0\\) ger \\(x=2\\); \\(x+1=0\\) ger \\(x=-1\\).</p><p>c) \\(4x+1=0\\) ger \\(x=-0{,}25\\); \\(2x-6=0\\) ger \\(x=3\\).</p><p><strong>Svar:</strong> a) \\(-1{,}5\\) och \\(4\\) &nbsp; b) \\(2\\) och \\(-1\\) &nbsp; c) \\(-0{,}25\\) och \\(3\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        -1.5,
+        4
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        -0.25,
+        3
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Varje faktor ger en förstagradsekvation att lösa.</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.134",
@@ -15216,21 +15557,51 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös.</p><p>a) \\(x(x+2)(x-5)=0\\)<br>b) \\((x-1)(x+4)(2x-3)=0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p><strong>Steg 1:</strong> Produkten är redan faktoriserad. Sätt varje faktor lika med 0.</p><p>a) \\(x=0\\), \\(x+2=0\\) eller \\(x-5=0\\). Alltså \\(x=-2,0,5\\).</p><p>b) \\(x-1=0\\), \\(x+4=0\\) eller \\(2x-3=0\\). Alltså \\(x=1,-4,\\frac32\\).</p>",
+    "s": "<p>Resonemanget är detsamma som med två faktorer: produkten är noll när någon faktor är noll.</p><p>a) \\(x=0\\), \\(x=-2\\) eller \\(x=5\\).</p><p>b) \\(x=1\\), \\(x=-4\\) eller \\(2x-3=0\\), alltså \\(x=1{,}5\\).</p><p><strong>Svar:</strong> a) \\(0\\), \\(-2\\) och \\(5\\) &nbsp; b) \\(1\\), \\(-4\\) och \\(1{,}5\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        -2,
+        0,
+        5
+      ],
+      [
+        -4,
+        1,
+        1.5
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Hur många lösningar kan en produkt med tre faktorer ge?</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.135",
@@ -15242,9 +15613,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Lös med pq-formeln.</p><p>\\[x^2-6x+5=0.\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p><p>Här är \\(p=-6\\) och \\(q=5\\).</p><p>\\[x=3\\pm\\sqrt{9-5}=3\\pm2.\\]</p><p><strong>\\(x=1\\) eller \\(x=5\\).</strong></p>",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(x^2-6x+5=0\\).</p>",
+    "s": "<p>\\(x=3\\pm\\sqrt{9-5}=3\\pm2\\).</p><p><strong>Svar:</strong> \\(x=5\\) eller \\(x=1\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -15271,7 +15642,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p>"
+    "ledtrad": "<p>Kontrollera svaret: rötternas produkt ska bli \\(q=5\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.136",
@@ -15284,8 +15658,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös.</p><p>a) \\(3x^2+5x-2=0\\)<br>b) \\(2x^2-9x+4=0\\)<br>c) \\(5x^2-13x+6=0\\)</p>",
-    "s": "<p>Dela först så att koefficienten framför \\(x^2\\) blir 1 och använd sedan <strong>pq-formeln</strong>.</p>\n<p>a) \\(x^2+\\frac53x-\\frac23=0\\).</p>\n<p>\\(x=-\\frac56\\pm\\sqrt{\\frac{25}{36}+\\frac{24}{36}}\n=-\\frac56\\pm\\frac76\\Rightarrow x=\\frac13,-2\\).</p>\n<p>b) \\(x^2-\\frac92x+2=0\\).</p>\n<p>\\(x=\\frac94\\pm\\sqrt{\\frac{81}{16}-\\frac{32}{16}}\n=\\frac94\\pm\\frac74\\Rightarrow x=4,\\frac12\\).</p>\n<p>c) \\(x^2-\\frac{13}{5}x+\\frac65=0\\).</p>\n<p>\\(x=\\frac{13}{10}\\pm\\sqrt{\\frac{169}{100}-\\frac{120}{100}}\n=\\frac{13}{10}\\pm\\frac7{10}\\Rightarrow x=2,\\frac35\\).</p>",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(3x^2+5x-2=0\\)<br>b)&nbsp;\\(2x^2-9x+4=0\\)<br>c)&nbsp;\\(5x^2-13x+6=0\\)</p>",
+    "s": "<p>a) \\(x^2+\\dfrac53x-\\dfrac23=0\\) ger \\(x=-\\dfrac56\\pm\\sqrt{\\dfrac{25}{36}+\\dfrac{24}{36}}=-\\dfrac56\\pm\\dfrac76\\), alltså \\(\\dfrac13\\) och \\(-2\\).</p><p>b) \\(x^2-4{,}5x+2=0\\) ger \\(x=2{,}25\\pm\\sqrt{5{,}0625-2}=2{,}25\\pm1{,}75\\), alltså \\(4\\) och \\(0{,}5\\).</p><p>c) \\(x^2-2{,}6x+1{,}2=0\\) ger \\(x=1{,}3\\pm\\sqrt{1{,}69-1{,}2}=1{,}3\\pm0{,}7\\), alltså \\(2\\) och \\(0{,}6\\).</p><p><strong>Svar:</strong> a) \\(\\dfrac13\\) och \\(-2\\) &nbsp; b) \\(4\\) och \\(0{,}5\\) &nbsp; c) \\(2\\) och \\(0{,}6\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -15374,9 +15748,10 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Efter divisionen blir \\(p\\) och \\(q\\) ofta bråk eller decimaltal. Välj den form du räknar säkrast med.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.137",
@@ -15387,24 +15762,39 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Lös genom faktorisering och nollproduktmetoden.</p><p>a) \\(x^2+x-12=0\\)<br>b) \\(x^2-2x-24=0\\)<br>c) \\(x^2-10x+21=0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p><strong>Steg 1:</strong> Faktorisera så att vänsterledet blir en produkt.</p><p>a) \\(x^2+x-12=(x+4)(x-3)=0\\Rightarrow x=-4,3\\).</p><p>b) \\(x^2-2x-24=(x-6)(x+4)=0\\Rightarrow x=6,-4\\).</p><p>c) \\(x^2-10x+21=(x-3)(x-7)=0\\Rightarrow x=3,7\\).</p>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>En rektangel är 3 cm längre än den är bred. Arean är 40 cm². Bestäm rektangelns sidor.</p>",
+    "s": "<p>Låt bredden vara \\(x\\) cm. Då är längden \\(x+3\\) cm och \\(x(x+3)=40\\).</p><p>\\(x^2+3x-40=0\\), och \\((x+8)(x-5)=0\\) ger \\(x=-8\\) eller \\(x=5\\).</p><p>En bredd kan inte vara negativ, så \\(x=5\\) cm och längden är 8 cm.</p><p><strong>Svar:</strong> Sidorna är 5 cm och 8 cm</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      5,
+      8
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "modellering",
+      "problemlösning"
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Vilken storhet kan du kalla \\(x\\)? Uttryck den andra sidan med hjälp av \\(x\\).</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "bredd (cm)",
+      "längd (cm)"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": "cm",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.138",
@@ -15415,24 +15805,46 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Lös med nollproduktmetoden.</p><p>a) \\((x-6)(x+2)=0\\)<br>b) \\((3x+2)(x-1)=0\\)<br>c) \\(x(4x-12)=0\\)</p>",
-    "s": "<p>Använd nollproduktmetoden: om en produkt är 0 måste minst en faktor vara 0.</p><p>a) \\((x-6)(x+2)=0\\Rightarrow x=6\\) eller \\(x=-2\\).</p><p>b) \\((3x+2)(x-1)=0\\Rightarrow3x+2=0\\) eller \\(x-1=0\\), alltså \\(x=-\\frac23\\) eller \\(x=1\\).</p><p>c) \\(x(4x-12)=0\\Rightarrow x=0\\) eller \\(4x-12=0\\Rightarrow x=3\\).</p>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>En elev ska lösa \\((x-3)(x+2)=6\\) och skriver:</p><p>”\\(x-3=6\\) eller \\(x+2=6\\), alltså \\(x=9\\) eller \\(x=4\\).”</p><p>a)&nbsp;Förklara varför resonemanget inte håller.<br>b)&nbsp;Lös ekvationen korrekt.</p>",
+    "s": "<p>a) Nollproduktmetoden bygger på att en produkt är <em>noll</em> när en faktor är noll. Att en produkt är 6 säger ingenting om de enskilda faktorerna – till exempel är \\(2\\cdot3=6\\) utan att någon faktor är 6. Dessutom ger insättning av \\(x=9\\) produkten \\(6\\cdot11=66\\).</p><p>b) Utveckla och samla allt i ena ledet: \\(x^2-x-6=6\\), alltså \\(x^2-x-12=0\\). Faktorisering ger \\((x-4)(x+3)=0\\).</p><p><strong>Svar:</strong> a) metoden kräver att produkten är noll &nbsp; b) \\(x=4\\) eller \\(x=-3\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      null,
+      [
+        -3,
+        4
+      ]
+    ],
     "tolerans": null,
     "självrättning": false,
     "formaga": [
+      "begrepp",
+      "resonemang",
       "procedur"
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Flytta allt till ena sidan och faktorisera. En produkt är noll när minst en faktor är noll, så sätt varje faktor lika med noll.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Pröva elevens svar i den ursprungliga ekvationen. Vad krävs för att nollproduktmetoden ska få användas?</p>",
+    "svarFormat": [
+      "resonemang",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a) förklaring",
+      "b) lösningar"
+    ],
+    "svarsstruktur": "ordnad",
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.139",
@@ -15947,9 +16359,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "t": "<p>Lös \\((2x-3)^2=5(2x-3)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Flytta högerledet till vänster:</p><p>\\((2x-3)^2-5(2x-3)=0\\).</p><p>Bryt ut den gemensamma faktorn \\((2x-3)\\):</p><p>\\((2x-3)[(2x-3)-5]=(2x-3)(2x-8)=0\\).</p><p>Alltså \\(2x-3=0\\Rightarrow x=3/2\\), eller \\(2x-8=0\\Rightarrow x=4\\).</p><p><strong>\\(x=3/2\\) eller \\(x=4\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>Sätt \\(u=2x-3\\). Då är ekvationen \\(u^2=5u\\), alltså \\(u^2-5u=0\\) och \\(u(u-5)=0\\).</p><p>\\(u=0\\) ger \\(2x-3=0\\), alltså \\(x=1{,}5\\).</p><p>\\(u=5\\) ger \\(2x-3=5\\), alltså \\(x=4\\).</p><p><strong>Svar:</strong> \\(x=1{,}5\\) eller \\(x=4\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -15964,7 +16376,8 @@ window.BANKMA2 = [
     ],
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "svarFormat": [
       "bråk",
@@ -15976,7 +16389,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Flytta allt till ena sidan och faktorisera. En produkt är noll när minst en faktor är noll, så sätt varje faktor lika med noll.</p>"
+    "ledtrad": "<p>Samma uttryck står i båda leden. Vad händer om du flyttar över allt och bryter ut det?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.152",
@@ -15989,22 +16405,62 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös.</p><p>a) \\(x^3-4x=0\\)<br>b) \\(x^3-9x=0\\)<br>c) \\(2x^3-8x=0\\)</p>",
-    "s": "<p>Bryt först ut \\(x\\), och faktorisera sedan differensen av två kvadrater.</p><p>a) \\(x^3-4x=x(x^2-4)=x(x-2)(x+2)\\Rightarrow x=-2,0,2\\).</p><p>b) \\(x^3-9x=x(x-3)(x+3)\\Rightarrow x=-3,0,3\\).</p><p>c) \\(2x^3-8x=2x(x^2-4)=2x(x-2)(x+2)\\Rightarrow x=-2,0,2\\).</p>",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(x^3-4x=0\\)<br>b)&nbsp;\\(x^3-9x=0\\)<br>c)&nbsp;\\(2x^3-8x=0\\)</p>",
+    "s": "<p>Bryt ut och använd sedan konjugatregeln.</p><p>a) \\(x(x^2-4)=x(x-2)(x+2)=0\\) ger \\(x=0\\), \\(x=2\\) eller \\(x=-2\\).</p><p>b) \\(x(x-3)(x+3)=0\\) ger \\(x=0\\), \\(x=3\\) eller \\(x=-3\\).</p><p>c) \\(2x(x-2)(x+2)=0\\) ger samma lösningar som i a).</p><p><strong>Svar:</strong> a) \\(0,\\ \\pm2\\) &nbsp; b) \\(0,\\ \\pm3\\) &nbsp; c) \\(0,\\ \\pm2\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        -2,
+        0,
+        2
+      ],
+      [
+        -3,
+        0,
+        3
+      ],
+      [
+        -2,
+        0,
+        2
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Flytta allt till ena sidan och faktorisera. En produkt är noll när minst en faktor är noll, så sätt varje faktor lika med noll.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Bryt ut \\(x\\) först. Vad blir kvar innanför parentesen?</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)",
+      "c)"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.153",
@@ -16154,9 +16610,7 @@ window.BANKMA2 = [
       "b) minsta värde"
     ],
     "familjTidigare": "Symmetrilinje och extrempunkt för andragradsfunktioner",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>"
   },
   {
     "id": "2.158",
@@ -16220,26 +16674,23 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Lös ekvationen \\(x^3-9x=0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p><strong>Steg 1:</strong> Flytta allt till en produktform:</p><p>\\(x^3-9x=x(x^2-9)=x(x-3)(x+3)\\).</p><p>Enligt nollproduktmetoden måste minst en faktor vara 0.</p><p><strong>\\(x=-3,0,3\\).</strong></p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm alla nollställen till funktionen \\(f(x)=x^3-2x^2-8x\\).</p>",
+    "s": "<p>Nollställena är lösningarna till \\(f(x)=0\\).</p><p>Bryt ut \\(x\\): \\(x(x^2-2x-8)=0\\).</p><p>\\(x^2-2x-8=(x-4)(x+2)\\), så \\(x(x-4)(x+2)=0\\).</p><p><strong>Svar:</strong> \\(x=0\\), \\(x=4\\) och \\(x=-2\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -3,
+      -2,
       0,
-      3
+      4
     ],
-    "tolerans": [
-      null,
-      null,
-      null
-    ],
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "svarFormat": [
@@ -16248,13 +16699,16 @@ window.BANKMA2 = [
       "numeriskt"
     ],
     "svarEtiketter": [
-      "x",
-      "x",
-      "x"
+      "nollställe",
+      "nollställe",
+      "nollställe"
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>"
+    "ledtrad": "<p>Nollställen betyder \\(f(x)=0\\). Finns det en gemensam faktor i alla termer?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.161",
@@ -16549,9 +17003,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Lös \\(2x^2-5x-3=0\\).</p>",
-    "s": "<p>Dela först med 2:</p>\n<p>\\(x^2-\\frac52x-\\frac32=0\\).</p>\n<p>Använd <strong>pq-formeln</strong> med \\(p=-\\frac52\\) och \\(q=-\\frac32\\):</p>\n<p>\\(x=\\frac54\\pm\\sqrt{\\frac{25}{16}+\\frac{24}{16}}\n=\\frac54\\pm\\frac74\\).</p>\n<p><strong>\\(x=3\\) eller \\(x=-\\frac12\\).</strong></p>",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationen \\(2x^2-5x-3=0\\).</p>",
+    "s": "<p>Dividera med 2: \\(x^2-2{,}5x-1{,}5=0\\).</p><p>\\(x=1{,}25\\pm\\sqrt{1{,}5625+1{,}5}=1{,}25\\pm1{,}75\\).</p><p><strong>Svar:</strong> \\(x=3\\) eller \\(x=-0{,}5\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -16578,7 +17032,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>"
+    "ledtrad": "<p>Koefficienten framför \\(x^2\\) ska vara 1 innan du använder formeln.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.170",
@@ -16589,37 +17046,45 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Lös \\(2x^2-3x-2=0\\) med pq-formeln.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p><p>Dela med 2:</p><p>\\(x^2-\\frac32x-1=0\\).</p><p>pq-formeln ger \\(x=\\frac34\\pm\\sqrt{\\frac{9}{16}+1}=\\frac34\\pm\\frac54\\).</p><p><strong>\\(x=2\\) eller \\(x=-\\frac12\\)</strong></p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En elev löser \\(x^2+6x+5=0\\) och skriver:</p><p>”\\(x=-6\\pm\\sqrt{\\left(\\dfrac62\\right)^2-5}=-6\\pm2\\), alltså \\(x=-4\\) eller \\(x=-8\\).”</p><p>a)&nbsp;Hitta felet.<br>b)&nbsp;Ge rätt lösningar.</p>",
+    "s": "<p>a) Eleven har använt hela \\(p\\) i stället för \\(-\\dfrac p2\\) framför rottecknet. Det ska stå \\(-3\\), inte \\(-6\\). Uträkningen under rottecknet är däremot rätt.</p><p>b) \\(x=-3\\pm\\sqrt{9-5}=-3\\pm2\\).</p><p>Kontroll: \\((-1)+(-5)=-6=-p\\) och \\((-1)(-5)=5=q\\).</p><p><strong>Svar:</strong> a) \\(-\\dfrac p2=-3\\) ska stå framför rottecknet &nbsp; b) \\(x=-1\\) eller \\(x=-5\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2,
-      "-1/2"
-    ],
-    "tolerans": [
       null,
-      null
+      [
+        -5,
+        -1
+      ]
     ],
-    "självrättning": true,
+    "tolerans": null,
+    "självrättning": false,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": [
-      "numeriskt",
-      "bråk"
+      "resonemang",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
     ],
     "svarEtiketter": [
-      "x",
-      "x"
+      "a) felet",
+      "b) lösningar"
     ],
-    "svarsstruktur": "mängd",
+    "svarsstruktur": "ordnad",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p>"
+    "ledtrad": "<p>Sätt in elevens svar i ekvationen. Stämmer det? Jämför sedan varje del av formeln.</p>",
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.171",
@@ -16630,24 +17095,50 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Lös.</p><p>a) \\(x^2-8x+15=0\\)<br>b) \\(x^2+7x+10=0\\)<br>c) \\(x^2-x-12=0\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Använd <strong>pq-formeln</strong> på varje ekvation.</p>\n<p>a) \\(x^2-8x+15=0\\): \\(p=-8\\), \\(q=15\\).</p>\n<p>\\(x=4\\pm\\sqrt{16-15}=4\\pm1\\Rightarrow x=3,5\\).</p>\n<p>b) \\(x^2+7x+10=0\\): \\(p=7\\), \\(q=10\\).</p>\n<p>\\(x=-\\frac72\\pm\\sqrt{\\frac{49}{4}-10}\n=-\\frac72\\pm\\frac32\\Rightarrow x=-5,-2\\).</p>\n<p>c) \\(x^2-x-12=0\\): \\(p=-1\\), \\(q=-12\\).</p>\n<p>\\(x=\\frac12\\pm\\sqrt{\\frac14+12}\n=\\frac12\\pm\\frac72\\Rightarrow x=-3,4\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Produkten av två på varandra följande heltal är 156. Bestäm talen. Ange båda möjligheterna.</p>",
+    "s": "<p>Låt talen vara \\(x\\) och \\(x+1\\). Då är \\(x(x+1)=156\\), alltså \\(x^2+x-156=0\\).</p><p>\\(x=-0{,}5\\pm\\sqrt{0{,}25+156}=-0{,}5\\pm12{,}5\\), alltså \\(x=12\\) eller \\(x=-13\\).</p><p>Det ger talen 12 och 13, eller \\(-13\\) och \\(-12\\). Båda paren har produkten 156.</p><p><strong>Svar:</strong> \\(12\\) och \\(13\\), eller \\(-13\\) och \\(-12\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      [
+        12,
+        13
+      ],
+      [
+        -13,
+        -12
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "modellering",
+      "problemlösning"
     ],
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Vad kan du kalla det första talet? Hur skriver du då nästa heltal?</p>",
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarEtiketter": [
+      "positiva talen",
+      "negativa talen"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.172",
@@ -16843,9 +17334,7 @@ window.BANKMA2 = [
       "a) f(3)",
       "b) lösningar"
     ],
-    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>"
   },
   {
     "id": "2.179",
@@ -16915,9 +17404,7 @@ window.BANKMA2 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>"
   },
   {
     "id": "2.180",
@@ -17069,9 +17556,7 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
   },
   {
     "id": "2.184",
@@ -17244,20 +17729,36 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Kvadratkomplettera \\(x^2+6x+2\\).</p><p><em>Endast svar krävs.</em></p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p><p><strong>Steg 1:</strong> Halva koefficienten framför \\(x\\) är 3:</p><p>\\(x^2+6x+2=(x+3)^2-9+2\\).</p><p><strong>\\((x+3)^2-7\\).</strong></p>",
+    "poang": "2/0/0",
+    "t": "<p>Vilket tal ska stå i rutan för att \\(x^2+14x+\\square\\) ska bli en fullständig kvadrat? Skriv också vilken kvadrat det blir.</p>",
+    "s": "<p>En fullständig kvadrat har formen \\((x+a)^2=x^2+2ax+a^2\\).</p><p>Här är \\(2a=14\\), alltså \\(a=7\\) och \\(a^2=49\\).</p><p><strong>Svar:</strong> Talet är \\(49\\) och kvadraten är \\((x+7)^2\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(x+3)^2-7",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      49,
+      "(x+7)^2"
+    ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p>"
+    "ledtrad": "<p>Jämför med \\((x+a)^2=x^2+2ax+a^2\\). Vad blir \\(a\\)?</p>",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarEtiketter": [
+      "talet",
+      "kvadraten"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.191",
@@ -17322,8 +17823,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Lös ekvationen \\(x^2-8x+3=0\\) med kvadratkomplettering.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Flytta över konstanten eller kvadratkomplettera direkt:</p><p>\\(x^2-8x+3=(x-4)^2-16+3=(x-4)^2-13\\).</p><p>Ekvationen blir därför</p><p>\\((x-4)^2-13=0\\Rightarrow (x-4)^2=13\\).</p><p>Ta kvadratroten:</p><p>\\(x-4=\\pm\\sqrt{13}\\).</p><p><strong>\\(x=4\\pm\\sqrt{13}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "t": "<p>Skriv om ekvationen \\(x^2-8x+3=0\\) på formen \\((x-a)^2=b\\) och lös den exakt.</p>",
+    "s": "<p>\\(x^2-8x+3=(x-4)^2-16+3=(x-4)^2-13\\).</p><p>Ekvationen blir \\((x-4)^2=13\\), alltså \\(x-4=\\pm\\sqrt{13}\\).</p><p><strong>Svar:</strong> \\(x=4\\pm\\sqrt{13}\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
@@ -17346,7 +17847,10 @@ window.BANKMA2 = [
       "x",
       "x"
     ],
-    "ledtrad": "<p>Samla x-termerna och skapa en fullständig kvadrat genom att lägga till och dra ifrån samma tal. Målet är formen \\((x-h)^2+k\\).</p>"
+    "ledtrad": "<p>Halva koefficienten framför \\(x\\) är \\(-4\\). Vad måste du lägga till och dra ifrån?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.194",
@@ -17355,21 +17859,26 @@ window.BANKMA2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Skriv uttrycket \\(x^2+10x+21\\) på formen \\((x+a)^2+b\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p><p><strong>Steg 1:</strong> Halva koefficienten framför x är 5, så börja med \\((x+5)^2\\).</p><p>\\((x+5)^2=x^2+10x+25\\).</p><p>För att få 21 i stället för 25 måste vi subtrahera 4.</p><p><strong>\\(x^2+10x+21=(x+5)^2-4\\).</strong></p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Skriv \\(2x^2+12x+5\\) på formen \\(a(x+b)^2+c\\).</p>",
+    "s": "<p>Bryt ut 2 ur de två första termerna: \\(2(x^2+6x)+5\\).</p><p>\\(x^2+6x=(x+3)^2-9\\), så uttrycket blir \\(2\\left((x+3)^2-9\\right)+5=2(x+3)^2-18+5\\).</p><p><strong>Svar:</strong> \\(2(x+3)^2-13\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": "(x+5)^2-4",
+    "rättSvar": "2(x+3)^2-13",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p>"
+    "ledtrad": "<p>Bryt ut koefficienten framför \\(x^2\\) ur de två första termerna innan du kvadratkompletterar.</p>",
+    "svarFormat": "uttryck",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.195",
@@ -17379,9 +17888,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Lös ekvationen \\(x^2+6x-2=0\\) med kvadratkomplettering. Svara exakt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Flytta konstanten:</p><p>\\(x^2+6x=2\\).</p><p>Addera 9 i båda leden:</p><p>\\((x+3)^2=11\\).</p><p>Därför <strong>\\(x=-3\\pm\\sqrt{11}\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "poang": "0/3/0",
+    "t": "<p>Ekvationen \\(x^2+6x-2=0\\) ska lösas exakt.</p><p>a)&nbsp;Lös den genom att skriva om vänsterledet som en kvadrat.<br>b)&nbsp;Lös den med pq-formeln.<br>c)&nbsp;Jämför de två vägarna. Vad är likheten?</p>",
+    "s": "<p>a) \\(x^2+6x-2=(x+3)^2-9-2=(x+3)^2-11\\), så \\((x+3)^2=11\\) och \\(x=-3\\pm\\sqrt{11}\\).</p><p>b) Med \\(p=6\\) och \\(q=-2\\): \\(x=-3\\pm\\sqrt{9+2}=-3\\pm\\sqrt{11}\\).</p><p>c) Samma tal dyker upp i båda vägarna: \\(-3\\) är halva koefficienten framför \\(x\\) med omvänt tecken, och 11 är det som blir kvar under rottecknet. pq-formeln är helt enkelt kvadratkompletteringen utförd en gång för alla på \\(x^2+px+q=0\\).</p><p><strong>Svar:</strong> \\(x=-3+\\sqrt{11}\\) eller \\(x=-3-\\sqrt{11}\\); båda metoderna är samma räkning</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
@@ -17393,7 +17902,9 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": [
       "uttryck",
@@ -17404,7 +17915,11 @@ window.BANKMA2 = [
       "x",
       "x"
     ],
-    "ledtrad": "<p>Samla x-termerna och skapa en fullständig kvadrat genom att lägga till och dra ifrån samma tal. Målet är formen \\((x-h)^2+k\\).</p>"
+    "ledtrad": "<p>Titta på var talen \\(-3\\) och \\(11\\) kommer ifrån i de två lösningarna.</p>",
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.196",
@@ -17741,9 +18256,7 @@ window.BANKMA2 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>"
   },
   {
     "id": "2.206",
@@ -17821,9 +18334,7 @@ window.BANKMA2 = [
       "b) lösningar"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>"
   },
   {
     "id": "2.208",
@@ -18071,9 +18582,7 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
   },
   {
     "id": "2.214",
@@ -18162,9 +18671,7 @@ window.BANKMA2 = [
       "numeriskt"
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
   },
   {
     "id": "2.216",
@@ -18640,9 +19147,7 @@ window.BANKMA2 = [
       true,
       true
     ],
-    "ledtrad": "<p>a) Här är \\(x\\) basen. Det är alltså en potensekvation.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) Här är \\(x\\) basen. Det är alltså en potensekvation.</p>"
   },
   {
     "id": "2.233",
@@ -18796,21 +19301,26 @@ window.BANKMA2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Skriv \\(x^2-10x+22\\) på formen \\((x-a)^2+b\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p><p><strong>Steg 1:</strong> \\(x^2-10x+22=(x-5)^2-25+22\\).</p><p><strong>\\((x-5)^2-3\\)</strong></p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Vilket av uttrycken \\(x^2-10x+22\\) och \\(x^2-4x+8\\) har det största minsta värdet? Motivera.</p>",
+    "s": "<p>\\(x^2-10x+22=(x-5)^2-3\\), som har minsta värdet \\(-3\\) för \\(x=5\\).</p><p>\\(x^2-4x+8=(x-2)^2+4\\), som har minsta värdet \\(4\\) för \\(x=2\\).</p><p>Eftersom \\(4&gt;-3\\) är det andra uttrycket som har det största minsta värdet.</p><p><strong>Svar:</strong> \\(x^2-4x+8\\), med minsta värdet \\(4\\) mot \\(-3\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(x-5)^2-3",
+    "svarstyp": "val",
+    "rättSvar": "x^2-4x+8",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "ledtrad": "<p>Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p>"
+    "ledtrad": "<p>Skriv båda uttrycken på formen \\((x-a)^2+b\\). Vad säger \\(b\\)?</p>",
+    "svarFormat": "uttryck",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.238",
@@ -19105,9 +19615,7 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Tolka och bestämma andragradsfunktioner",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>"
   },
   {
     "id": "2.246",
@@ -19183,9 +19691,7 @@ window.BANKMA2 = [
       "b) minsta värde"
     ],
     "familjTidigare": "Symmetrilinje och extrempunkt för andragradsfunktioner",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>"
   },
   {
     "id": "2.248",
@@ -19463,9 +19969,7 @@ window.BANKMA2 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>"
   },
   {
     "id": "2.256",
@@ -19476,57 +19980,38 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Faktorisera och lös.</p><p>a) \\(2x^2-8x=0\\)<br>b) \\(4x^2+12x=0\\)<br>c) \\(3x^2-27=0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p><strong>Steg 1:</strong> Faktorisera först.</p><p>a) \\(2x^2-8x=2x(x-4)=0\\Rightarrow x=0,4\\).</p><p>b) \\(4x^2+12x=4x(x+3)=0\\Rightarrow x=0,-3\\).</p><p>c) \\(3x^2-27=3(x^2-9)=3(x-3)(x+3)=0\\Rightarrow x=\\pm3\\).</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ekvationen \\(x^2+bx=0\\) har lösningarna \\(0\\) och \\(7\\).</p><p>a)&nbsp;Bestäm \\(b\\).<br>b)&nbsp;Skriv en ekvation på samma form som har lösningarna \\(0\\) och \\(-4\\).</p>",
+    "s": "<p>a) \\(x^2+bx=x(x+b)=0\\) har lösningarna \\(0\\) och \\(-b\\). Eftersom den andra lösningen är 7 gäller \\(-b=7\\), alltså \\(b=-7\\).</p><p>b) Med lösningarna 0 och \\(-4\\) blir faktorformen \\(x(x+4)=0\\), det vill säga \\(x^2+4x=0\\).</p><p><strong>Svar:</strong> a) \\(b=-7\\) &nbsp; b) \\(x^2+4x=0\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      [
-        0,
-        4
-      ],
-      [
-        0,
-        -3
-      ],
-      [
-        -3,
-        3
-      ]
+      -7,
+      "x^2+4x=0"
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "svarFormat": [
-      [
-        "numeriskt",
-        "numeriskt"
-      ],
-      [
-        "numeriskt",
-        "numeriskt"
-      ],
-      [
-        "numeriskt",
-        "numeriskt"
-      ]
+      "numeriskt",
+      "ekvation"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a) lösningar",
-      "b) lösningar",
-      "c) lösningar"
+      "a) b",
+      "b) ekvation"
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv \\(x^2+bx\\) i faktoriserad form. Vilka lösningar ger den?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.257",
@@ -19540,7 +20025,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(x^2-5x-24=0\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Använd <strong>pq-formeln</strong> på \\(x^2-5x-24=0\\).</p>\n<p>Här är \\(p=-5\\) och \\(q=-24\\).</p>\n<p>\\(x=-\\frac p2\\pm\\sqrt{\\left(\\frac p2\\right)^2-q}\n=\\frac52\\pm\\sqrt{\\frac{25}{4}+24}\n=\\frac52\\pm\\frac{11}{2}\\).</p>\n<p><strong>\\(x=8\\) eller \\(x=-3\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>\\(p=-5\\) och \\(q=-24\\) ger \\(x=2{,}5\\pm\\sqrt{6{,}25+24}=2{,}5\\pm5{,}5\\).</p><p><strong>Svar:</strong> \\(x=8\\) eller \\(x=-3\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -19567,7 +20052,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>"
+    "ledtrad": "<p>Två negativa tecken i \\(q\\) blir plus under rottecknet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.258",
@@ -19912,19 +20400,34 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\((x-4)^2=18\\). Svara exakt.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong>  När du tar kvadratroten måste både den positiva och den negativa roten tas med.</p><p>\\(x-4=\\pm\\sqrt{18}=\\pm3\\sqrt2\\).</p><p><strong>\\(x=4\\pm3\\sqrt2\\).</strong></p>",
+    "s": "<p>\\(x-4=\\pm\\sqrt{18}\\).</p><p>\\(\\sqrt{18}=\\sqrt{9\\cdot2}=3\\sqrt2\\).</p><p><strong>Svar:</strong> \\(x=4\\pm3\\sqrt2\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4+3*sqrt(2)",
+      "4-3*sqrt(2)"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Bryt ut största möjliga kvadrat ur talet under rottecknet.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.270",
@@ -19935,37 +20438,38 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Lös med pq-formeln: \\(x^2-3x-10=0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p><p>\\(p=-3\\) och \\(q=-10\\).</p><p>\\(x=\\frac32\\pm\\sqrt{\\left(\\frac32\\right)^2+10}=\\frac32\\pm\\frac72\\).</p><p><strong>\\(x=5\\) eller \\(x=-2\\)</strong></p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ekvationen \\(x^2+px-8=0\\) har lösningen \\(x=2\\).</p><p>a)&nbsp;Bestäm \\(p\\).<br>b)&nbsp;Bestäm ekvationens andra lösning.</p>",
+    "s": "<p>a) Sätt in \\(x=2\\): \\(4+2p-8=0\\) ger \\(2p=4\\), alltså \\(p=2\\).</p><p>b) Rötternas produkt är \\(q=-8\\). Med den ena roten \\(2\\) gäller \\(2\\cdot x_2=-8\\), alltså \\(x_2=-4\\).</p><p>Kontroll: \\(x^2+2x-8=(x-2)(x+4)\\).</p><p><strong>Svar:</strong> a) \\(p=2\\) &nbsp; b) \\(x=-4\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5,
-      -2
+      2,
+      -4
     ],
-    "tolerans": [
-      null,
-      null
-    ],
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "problemlösning"
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
     "svarEtiketter": [
-      "x",
-      "x"
+      "a) p",
+      "b) andra lösningen"
     ],
-    "svarsstruktur": "mängd",
+    "svarsstruktur": "ordnad",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på formen (x^2+px+q=0). Identifiera p och q med rätt tecken innan du sätter in dem i pq-formeln.</p>"
+    "ledtrad": "<p>En lösning kan alltid sättas in i ekvationen. För den andra roten är sambandet mellan rötter och koefficienter snabbast.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.271",
@@ -19977,7 +20481,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Bestäm \\(k\\) så att det minsta värdet av \\(x^2+4x+k\\) är 7.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Kvadratkomplettera:</p><p>\\(x^2+4x+k=(x+2)^2+k-4\\).</p><p>Minsta värdet fås när \\((x+2)^2=0\\), alltså är minsta värdet \\(k-4\\).</p><p>\\(k-4=7\\).</p><p><strong>\\(k=11\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
+    "s": "<p>\\(x^2+4x+k=(x+2)^2-4+k\\), så det minsta värdet är \\(k-4\\).</p><p>\\(k-4=7\\) ger \\(k=11\\).</p><p><strong>Svar:</strong> \\(k=11\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
@@ -19986,10 +20490,14 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Samla x-termerna och skapa en fullständig kvadrat genom att lägga till och dra ifrån samma tal. Målet är formen \\((x-h)^2+k\\).</p>"
+    "ledtrad": "<p>Kvadratkomplettera och uttryck det minsta värdet med hjälp av \\(k\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.272",
@@ -21807,9 +22315,7 @@ window.BANKMA2 = [
       "b) maximipunkt"
     ],
     "familjTidigare": "Symmetrilinje och extrempunkt för andragradsfunktioner",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>"
   },
   {
     "id": "2.320",
@@ -22401,9 +22907,7 @@ window.BANKMA2 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Översätt situationen till en andragradsfunktion och markera vad nollställen, symmetrilinje och extrempunkt betyder i sammanhanget. Välj sedan den av dessa egenskaper som svarar på frågan.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Översätt situationen till en andragradsfunktion och markera vad nollställen, symmetrilinje och extrempunkt betyder i sammanhanget. Välj sedan den av dessa egenskaper som svarar på frågan.</p>"
   },
   {
     "id": "2.337",
@@ -22775,9 +23279,7 @@ window.BANKMA2 = [
       "numeriskt"
     ],
     "familjTidigare": "Tolka och använda potensfunktioner",
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>"
   },
   {
     "id": "2.348",
@@ -23191,9 +23693,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
   },
   {
     "id": "2.362",
@@ -23279,9 +23779,7 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
   },
   {
     "id": "2.364",
@@ -23490,9 +23988,7 @@ window.BANKMA2 = [
       "b)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Jämför hur väl olika modeller följer datapunkterna och om den valda modellen är rimlig utifrån förändringen i materialet.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Jämför hur väl olika modeller följer datapunkterna och om den valda modellen är rimlig utifrån förändringen i materialet.</p>"
   },
   {
     "id": "2.371",
@@ -23613,7 +24109,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Funktionen \\(f(x)=x^2+ax+16\\) har minsta värdet 7. Punkten där det minsta värdet antas har positiv \\(x\\)-koordinat.</p><p>Bestäm konstanten \\(a\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>Kvadratkomplettera:</p><p>\\(x^2+ax+16=\\left(x+\\frac a2\\right)^2+16-\\frac{a^2}{4}\\).</p><p>Det minsta värdet är därför \\(16-\\frac{a^2}{4}\\).</p><p>\\(16-\\frac{a^2}{4}=7\\Rightarrow\\frac{a^2}{4}=9\\Rightarrow a=6\\) eller \\(a=-6\\).</p><p>Minimipunktens \\(x\\)-koordinat är \\(-\\frac a2\\). Den ska vara positiv, vilket kräver \\(a&lt;0\\).</p><p><strong>\\(a=-6\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "s": "<p>\\(x^2+ax+16=\\left(x+\\dfrac a2\\right)^2-\\dfrac{a^2}{4}+16\\), så minsta värdet är \\(16-\\dfrac{a^2}{4}\\).</p><p>\\(16-\\dfrac{a^2}{4}=7\\) ger \\(\\dfrac{a^2}{4}=9\\), alltså \\(a^2=36\\) och \\(a=\\pm6\\).</p><p>Minsta värdet antas för \\(x=-\\dfrac a2\\). Den koordinaten är positiv bara om \\(a\\) är negativt, så \\(a=-6\\).</p><p><strong>Svar:</strong> \\(a=-6\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
@@ -23626,7 +24122,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Samla x-termerna och skapa en fullständig kvadrat genom att lägga till och dra ifrån samma tal. Målet är formen \\((x-h)^2+k\\).</p>"
+    "ledtrad": "<p>Uttryck både det minsta värdet och dess \\(x\\)-koordinat med hjälp av \\(a\\). Villkoret i slutet avgör tecknet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.376",
@@ -23635,22 +24134,26 @@ window.BANKMA2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Skriv \\(x^2+12x+40\\) på formen \\((x+a)^2+b\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Ta halva koefficienten framför \\(x\\), kvadrera och kompensera.</p><div class=\"facit-arbete\"><p>Halva koefficienten är \\(6\\), och \\((x+6)^2=x^2+12x+36\\).</p><p>\\(x^2+12x+40=(x+6)^2-36+40=(x+6)^2+4\\).</p><p><strong>\\((x+6)^2+4\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera genom att utveckla tillbaka. Uttryckets minsta värde är \\(4\\), vilket antas när \\(x=-6\\).</p></div>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Två elever kvadratkompletterar \\(x^2-8x+13\\). Den ena får \\((x-4)^2-3\\) och den andra \\((x-4)^2+13\\).</p><p>a)&nbsp;Vem har rätt?<br>b)&nbsp;Förklara vilket steg den andra eleven hoppade över.</p>",
+    "s": "<p>a) Utveckla: \\((x-4)^2-3=x^2-8x+16-3=x^2-8x+13\\). Det stämmer. \\((x-4)^2+13=x^2-8x+29\\), vilket inte är samma uttryck.</p><p>b) När man skriver \\(x^2-8x\\) som \\((x-4)^2\\) lägger man samtidigt till 16. Den andra eleven glömde att dra bort dessa 16 igen: \\(13-16=-3\\).</p><p><strong>Svar:</strong> a) den första eleven &nbsp; b) kompensationen \\(-16\\) saknas</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(x+6)^2+4",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "ledtrad": "<p>Halva koefficienten framför \\(x\\) hamnar inne i parentesen.</p>",
-    "svarFormat": "uttryck"
+    "ledtrad": "<p>Utveckla båda förslagen och jämför med det ursprungliga uttrycket.</p>",
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.377",
@@ -23661,20 +24164,24 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Funktionen \\(f(x)=x^2-8x+k\\) har minsta värdet \\(-3\\).</p><p>Bestäm \\(k\\) med kvadratkomplettering.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>Kvadratkomplettera:</p><p>\\(x^2-8x+k=(x-4)^2-16+k\\).</p><p>Kvadraten är minst 0, så funktionens minsta värde är \\(k-16\\).</p><p>Villkoret ger \\(k-16=-3\\Rightarrow k=13\\).</p><p><strong>\\(k=13\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "t": "<p>Bestäm värdemängden till \\(f(x)=x^2-8x+13\\).</p>",
+    "s": "<p>\\(f(x)=(x-4)^2-3\\).</p><p>Kvadraten är minst 0, så \\(f(x)\\ge-3\\), med likhet när \\(x=4\\). Funktionen antar alla värden från \\(-3\\) och uppåt.</p><p><strong>Svar:</strong> \\(f(x)\\ge-3\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 13,
+    "svarstyp": "intervall",
+    "rättSvar": "y>=-3",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Samla x-termerna och skapa en fullständig kvadrat genom att lägga till och dra ifrån samma tal. Målet är formen \\((x-h)^2+k\\).</p>"
+    "svarFormat": "intervall",
+    "ledtrad": "<p>Vilket är det minsta värdet, och finns det något största?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.378",
@@ -23933,9 +24440,7 @@ window.BANKMA2 = [
       "a) a-värden",
       "b) x-värden"
     ],
-    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>"
   },
   {
     "id": "2.386",
@@ -24002,9 +24507,7 @@ window.BANKMA2 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "id": "2.388",
@@ -24079,9 +24582,7 @@ window.BANKMA2 = [
         "poang": "0/1/0"
       }
     ],
-    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>"
   },
   {
     "id": "2.390",
@@ -24125,9 +24626,7 @@ window.BANKMA2 = [
       "b)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>"
   },
   {
     "id": "2.391",
@@ -24174,9 +24673,7 @@ window.BANKMA2 = [
       true,
       true
     ],
-    "ledtrad": "<p>a) Ja. Varje bestämd parkeringstid ger exakt en kostnad.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) Ja. Varje bestämd parkeringstid ger exakt en kostnad.</p>"
   },
   {
     "id": "2.392",
@@ -24559,9 +25056,7 @@ window.BANKMA2 = [
       "a) f(4)",
       "b) lösningar"
     ],
-    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>"
   },
   {
     "id": "2.402",
@@ -24916,9 +25411,7 @@ window.BANKMA2 = [
         "poang": "0/1/0"
       }
     ],
-    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>"
   },
   {
     "id": "2.412",
@@ -25015,9 +25508,7 @@ window.BANKMA2 = [
       "b) f(-2)",
       "c) lösningar"
     ],
-    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>"
   },
   {
     "id": "2.415",
@@ -25134,9 +25625,7 @@ window.BANKMA2 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>"
   },
   {
     "id": "2.417",
@@ -25279,9 +25768,7 @@ window.BANKMA2 = [
       "numeriskt",
       null
     ],
-    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>"
   },
   {
     "id": "2.421",
@@ -25330,9 +25817,7 @@ window.BANKMA2 = [
         "niva": "A"
       }
     ],
-    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>"
   },
   {
     "id": "2.422",
@@ -25384,9 +25869,7 @@ window.BANKMA2 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>"
   },
   {
     "id": "2.424",
@@ -25572,9 +26055,7 @@ window.BANKMA2 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>"
   },
   {
     "id": "2.428",
@@ -25635,9 +26116,7 @@ window.BANKMA2 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>"
   },
   {
     "id": "2.429",
@@ -25680,9 +26159,7 @@ window.BANKMA2 = [
       "a) f(1)",
       "b) lösningar"
     ],
-    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>"
   },
   {
     "id": "2.430",
@@ -25714,9 +26191,7 @@ window.BANKMA2 = [
       "numeriskt",
       null
     ],
-    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>"
   },
   {
     "id": "2.431",
@@ -25763,9 +26238,7 @@ window.BANKMA2 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>"
   },
   {
     "id": "2.432",
@@ -25790,9 +26263,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>"
   },
   {
     "id": "2.433",
@@ -26022,9 +26493,7 @@ window.BANKMA2 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>"
   },
   {
     "id": "2.437",
@@ -26146,9 +26615,7 @@ window.BANKMA2 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>"
   },
   {
     "id": "2.440",
@@ -26280,9 +26747,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
   },
   {
     "id": "2.445",
@@ -26372,9 +26837,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/3/0",
     "t": "<p>Bestäm det minsta värdet på \\(k\\) så att olikheten \\(x^2-6x+k\\ge2\\) är sann för alla reella \\(x\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Kvadratkomplettera: \\(x^2-6x+k=(x-3)^2+k-9\\).</p><p>Uttryckets minsta värde fås när \\((x-3)^2=0\\), alltså blir minsta värdet \\(k-9\\).</p><p>Vi vill ha \\(k-9\\ge2\\).</p><p><strong>Det minsta möjliga värdet är \\(k=11\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>\\(x^2-6x+k=(x-3)^2-9+k\\), och kvadraten är minst 0.</p><p>Minsta värdet i vänsterledet är alltså \\(k-9\\). Olikheten gäller för alla \\(x\\) precis när \\(k-9\\ge2\\), det vill säga \\(k\\ge11\\).</p><p><strong>Svar:</strong> \\(k=11\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
@@ -26383,11 +26848,14 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
+      "problemlösning",
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
+    "ledtrad": "<p>Vilket är vänsterledets minsta värde, uttryckt i \\(k\\)? Det är det värdet som måste klara olikheten.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.449",
@@ -26396,21 +26864,40 @@ window.BANKMA2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Skriv \\(x^2+8x+19\\) på formen \\((x+a)^2+b\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p><p><strong>Steg 1:</strong> Halva koefficienten 8 är 4, så börja med \\((x+4)^2\\).</p><p>\\((x+4)^2=x^2+8x+16\\).</p><p>För att få konstanttermen 19 lägger vi till 3:</p><p><strong>\\(x^2+8x+19=(x+4)^2+3\\).</strong></p>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Funktionen \\(f(x)=x^2+8x+19\\) är given.</p><p>a)&nbsp;Skriv \\(f(x)\\) på formen \\((x+a)^2+b\\).<br>b)&nbsp;Ange symmetrilinjens ekvation och minimipunkten.</p>",
+    "s": "<p>a) \\(x^2+8x+19=(x+4)^2-16+19=(x+4)^2+3\\).</p><p>b) Formen visar att grafen är parabeln \\(y=x^2\\) förskjuten 4 steg åt vänster och 3 steg uppåt. Symmetrilinjen är \\(x=-4\\) och minimipunkten är \\((-4,3)\\).</p><p><strong>Svar:</strong> a) \\((x+4)^2+3\\) &nbsp; b) \\(x=-4\\) och \\((-4,3)\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(x+4)^2+3",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "(x+4)^2+3",
+      "x=-4",
+      "(-4,3)"
+    ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Skapa en fullständig kvadrat genom att ta halva x-koefficienten och kvadrera den. Kompensera med samma värde så att uttrycket inte ändras.</p>"
+    "ledtrad": "<p>I formen \\((x-h)^2+k\\) kan extrempunkten läsas av direkt. Var försiktig med tecknet på \\(h\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "ekvation",
+      "punkt"
+    ],
+    "svarEtiketter": [
+      "a) kvadratkomplettering",
+      "b) symmetrilinje",
+      "b) minimipunkt"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.450",
@@ -26730,9 +27217,7 @@ window.BANKMA2 = [
       "b) värde efter 5 år"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
   },
   {
     "id": "2.460",
@@ -26922,9 +27407,7 @@ window.BANKMA2 = [
       "b) faktor vid dubblerat x"
     ],
     "familjTidigare": "Tolka och använda potensfunktioner",
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>"
   },
   {
     "id": "2.465",
@@ -27298,9 +27781,7 @@ window.BANKMA2 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>a) Punkterna ligger relativt nära den räta linjen utan något tydligt böjt mönster. En linjär modell verkar därför rimlig inom det observerade intervallet.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) Punkterna ligger relativt nära den räta linjen utan något tydligt böjt mönster. En linjär modell verkar därför rimlig inom det observerade intervallet.</p>"
   },
   {
     "id": "2.478",
@@ -27381,9 +27862,7 @@ window.BANKMA2 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Titta på punktmolnets riktning och spridning. Om en regressionslinje finns, tolka lutning och startvärde i just sammanhanget.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Titta på punktmolnets riktning och spridning. Om en regressionslinje finns, tolka lutning och startvärde i just sammanhanget.</p>"
   },
   {
     "id": "2.481",
@@ -27395,9 +27874,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "t": "<p>Lös ekvationen</p><p>\\[(x+4)^2=49.\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong> Ta kvadratroten i båda leden: \\(x+4=\\pm 7\\).</p><p>Därför får vi</p><p><strong>\\(x=3\\) eller \\(x=-11\\).</strong></p>",
+    "s": "<p>\\(x+4=\\pm7\\) ger \\(x=3\\) eller \\(x=-11\\).</p><p><strong>Svar:</strong> \\(x=3\\) eller \\(x=-11\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -27424,7 +27903,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Dra roten ur båda led. Två tecken ger två lösningar.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.482",
@@ -27438,7 +27920,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen</p><p>\\[9(x-2)^2=16.\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong> Dividera med 9:</p><p>\\[(x-2)^2=\\frac{16}{9}.\\]</p><p>Ta kvadratroten: \\(x-2=\\pm\\frac43\\).</p><p><strong>\\(x=\\frac{10}{3}\\) eller \\(x=\\frac{2}{3}\\).</strong></p>",
+    "s": "<p>Dividera med 9: \\((x-2)^2=\\dfrac{16}{9}\\).</p><p>\\(x-2=\\pm\\dfrac43\\) ger \\(x=\\dfrac{10}{3}\\) eller \\(x=\\dfrac23\\).</p><p><strong>Svar:</strong> \\(x=\\dfrac{10}{3}\\) eller \\(x=\\dfrac23\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -27465,7 +27947,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Roten ur \\(\\dfrac{16}{9}\\) kan dras i täljare och nämnare var för sig.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.483",
@@ -27476,34 +27961,38 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Lös ekvationen</p><p>\\[x^2=20.\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong> Ta kvadratroten i båda leden.</p><p><strong>\\(x=\\pm\\sqrt{20}=\\pm 2\\sqrt5\\).</strong></p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Den positiva lösningen till \\(x^2=20\\) ligger mellan två på varandra följande heltal. Bestäm vilka, utan räknare, och motivera ditt svar.</p>",
+    "s": "<p>\\(4^2=16\\) och \\(5^2=25\\).</p><p>Eftersom \\(16&lt;20&lt;25\\) och kvadrering är växande för positiva tal ligger den positiva lösningen mellan 4 och 5.</p><p>Den ligger närmare 4, eftersom 20 ligger närmare 16 än 25.</p><p><strong>Svar:</strong> Mellan \\(4\\) och \\(5\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2*sqrt(5)",
-      "-2*sqrt(5)"
+      4,
+      5
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck"
+      "heltal",
+      "heltal"
     ],
-    "svarsstruktur": "mängd",
+    "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "x",
-      "x"
+      "undre heltal",
+      "övre heltal"
     ],
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Vilka heltal har kvadrater strax under och strax över 20?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.484",
@@ -27514,10 +28003,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Lös ekvationen</p><p>\\[(2x+1)^2=36.\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p><p><strong>Steg 1:</strong> Ta kvadratroten: \\(2x+1=\\pm 6\\).</p><p>Det ger</p><p>\\[2x=5\\Rightarrow x=\\frac52\\qquad\\text{eller}\\qquad 2x=-7\\Rightarrow x=-\\frac72.\\]</p><p><strong>\\(x=\\frac52\\) eller \\(x=-\\frac72\\).</strong></p>",
+    "s": "<p>\\(2x+1=\\pm6\\).</p><p>\\(2x=5\\) ger \\(x=\\dfrac52\\), och \\(2x=-7\\) ger \\(x=-\\dfrac72\\).</p><p><strong>Svar:</strong> \\(x=2{,}5\\) eller \\(x=-3{,}5\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -27544,7 +28033,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>"
+    "ledtrad": "<p>Det är \\(2x+1\\) som står i kvadrat, inte bara \\(x\\).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.485",
@@ -28693,9 +29185,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "t": "<p>Lös ekvationen.</p><p>\\[(2x+3)(x-5)=0.\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p><strong>Steg 1:</strong> Sätt varje faktor lika med 0.</p><p>\\[2x+3=0\\Rightarrow x=-\\frac32,\\qquad x-5=0\\Rightarrow x=5.\\]</p><p><strong>\\(x=-\\frac32\\) eller \\(x=5\\).</strong></p>",
+    "s": "<p>\\(2x+3=0\\) ger \\(x=-1{,}5\\), och \\(x-5=0\\) ger \\(x=5\\).</p><p><strong>Svar:</strong> \\(x=-1{,}5\\) eller \\(x=5\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -28722,7 +29214,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>"
+    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.520",
@@ -28734,9 +29229,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "t": "<p>Lös ekvationen.</p><p>\\[x^2+4x=0.\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p><strong>Steg 1:</strong> Faktorisera först:</p><p>\\[x(x+4)=0.\\]</p><p>Nollproduktmetoden ger</p><p><strong>\\(x=0\\) eller \\(x=-4\\).</strong></p>",
+    "s": "<p>Bryt ut \\(x\\): \\(x(x+4)=0\\).</p><p><strong>Svar:</strong> \\(x=0\\) eller \\(x=-4\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -28763,7 +29258,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>"
+    "ledtrad": "<p>Båda termerna innehåller \\(x\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.521",
@@ -28776,8 +29274,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös.</p><p>a) \\(x^2-9x=0\\)<br>b) \\(x^2+5x=0\\)<br>c) \\(4x^2-12x=0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p><p><strong>Steg 1:</strong> Faktorisera genom att bryta ut \\(x\\).</p><p>a) \\(x^2-9x=x(x-9)=0\\Rightarrow x=0\\) eller 9.</p><p>b) \\(x^2+5x=x(x+5)=0\\Rightarrow x=0\\) eller −5.</p><p>c) \\(4x^2-12x=4x(x-3)=0\\Rightarrow x=0\\) eller 3.</p>",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(x^2-9x=0\\)<br>b)&nbsp;\\(x^2+5x=0\\)<br>c)&nbsp;\\(4x^2-12x=0\\)</p>",
+    "s": "<p>a) \\(x(x-9)=0\\) ger \\(x=0\\) eller \\(x=9\\).</p><p>b) \\(x(x+5)=0\\) ger \\(x=0\\) eller \\(x=-5\\).</p><p>c) \\(4x(x-3)=0\\) ger \\(x=0\\) eller \\(x=3\\).</p><p><strong>Svar:</strong> a) \\(0\\) och \\(9\\) &nbsp; b) \\(0\\) och \\(-5\\) &nbsp; c) \\(0\\) och \\(3\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -28822,9 +29320,10 @@ window.BANKMA2 = [
       "c) lösningar"
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Börja med den största gemensamma faktorn. Kontrollera faktoriseringen genom att multiplicera tillbaka.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Alla tre saknar konstantterm. Vad innebär det för lösningen \\(x=0\\)?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.522",
@@ -28838,7 +29337,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös \\(2x^2-7x+3=0\\).</p>",
-    "s": "<p>Dela först ekvationen med 2:</p>\n<p>\\(x^2-\\frac72x+\\frac32=0\\).</p>\n<p>Använd <strong>pq-formeln</strong> med \\(p=-\\frac72\\), \\(q=\\frac32\\):</p>\n<p>\\(x=\\frac74\\pm\\sqrt{\\frac{49}{16}-\\frac{24}{16}}\n=\\frac74\\pm\\frac54\\).</p>\n<p><strong>\\(x=3\\) eller \\(x=\\frac12\\).</strong></p>",
+    "s": "<p>Dividera med 2: \\(x^2-3{,}5x+1{,}5=0\\).</p><p>\\(x=1{,}75\\pm\\sqrt{3{,}0625-1{,}5}=1{,}75\\pm1{,}25\\).</p><p><strong>Svar:</strong> \\(x=3\\) eller \\(x=0{,}5\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -28865,7 +29364,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>"
+    "ledtrad": "<p>Halvera \\(p\\) noga när \\(p\\) är ett decimaltal.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.523",
@@ -28879,7 +29381,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(x^2-7x+10=0\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Använd gärna faktorisering här, eller <strong>pq-formeln</strong>.</p>\n<p>Med pq-formeln på \\(x^2-7x+10=0\\) är \\(p=-7\\) och \\(q=10\\):</p>\n<p>\\(x=\\frac72\\pm\\sqrt{\\frac{49}{4}-10}\n=\\frac72\\pm\\frac32\\).</p>\n<p><strong>\\(x=2\\) eller \\(x=5\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>\\(x=3{,}5\\pm\\sqrt{12{,}25-10}=3{,}5\\pm1{,}5\\).</p><p><strong>Svar:</strong> \\(x=5\\) eller \\(x=2\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -28906,7 +29408,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>"
+    "ledtrad": "<p>Kontrollera med rötternas summa: den ska bli 7.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.524",
@@ -28918,9 +29423,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(3x^2+2x-8=0\\).</p>",
-    "s": "<p>Dela först ekvationen med 3 så att koefficienten framför \\(x^2\\) blir 1:</p>\n<p>\\(x^2+\\frac23x-\\frac83=0\\).</p>\n<p>Använd sedan <strong>pq-formeln</strong> med \\(p=\\frac23\\) och \\(q=-\\frac83\\):</p>\n<p>\\(x=-\\frac13\\pm\\sqrt{\\frac19+\\frac83}\n=-\\frac13\\pm\\frac53\\).</p>\n<p><strong>\\(x=\\frac43\\) eller \\(x=-2\\).</strong></p>",
+    "s": "<p>Dividera med 3: \\(x^2+\\dfrac23x-\\dfrac83=0\\).</p><p>\\(x=-\\dfrac13\\pm\\sqrt{\\dfrac19+\\dfrac{24}9}=-\\dfrac13\\pm\\dfrac53\\).</p><p><strong>Svar:</strong> \\(x=\\dfrac43\\) eller \\(x=-2\\)</p>",
     "familj": "Lösningsformeln",
     "geogebra": false,
     "miniräknare": false,
@@ -28947,7 +29452,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
-    "ledtrad": "<p>Skriv ekvationen på standardform \\(ax^2+bx+c=0\\) och identifiera \\(a,b,c\\) noggrant innan du sätter in dem i lösningsformeln.</p>"
+    "ledtrad": "<p>Skriv talen under rottecknet med nämnaren 9.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.525",
@@ -29357,9 +29865,7 @@ window.BANKMA2 = [
       "numeriskt"
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
   },
   {
     "id": "2.539",
@@ -29412,9 +29918,7 @@ window.BANKMA2 = [
       "numeriskt"
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
   },
   {
     "id": "2.540",
@@ -30868,7 +31372,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(-2\\) och \\(-7\\).</p><p>a)&nbsp;Bestäm \\(p\\).<br>b)&nbsp;Bestäm \\(q\\).<br>c)&nbsp;Kontrollera ditt svar genom att lösa ekvationen med pq-formeln.</p>",
+    "t": "<p>Ekvationen \\(x^2+px+q=0\\) har rötterna \\(-2\\) och \\(-7\\).</p><p>a)&nbsp;Bestäm \\(p\\).<br>b)&nbsp;Bestäm \\(q\\).<br>c)&nbsp;Kontrollera ditt svar genom att lösa ekvationen.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> För \\(x^2+px+q=0\\) är rötternas summa \\(-p\\) och rötternas produkt \\(q\\).</p><div class=\"facit-arbete\"><p>a) Summan är \\(-2+(-7)=-9\\), alltså \\(-p=-9\\) och \\(p=9\\).</p><p>b) Produkten är \\((-2)(-7)=14\\), alltså \\(q=14\\).</p><p>c) \\(x^2+9x+14=0\\) ger \\(x=-\\dfrac92\\pm\\sqrt{\\left(\\dfrac92\\right)^2-14}=-4{,}5\\pm\\sqrt{20{,}25-14}=-4{,}5\\pm2{,}5\\), alltså \\(x=-2\\) eller \\(x=-7\\).</p><p><strong>a) \\(p=9\\) &nbsp; b) \\(q=14\\) &nbsp; c) pq-formeln ger samma rötter</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sambanden summa/produkt är ett snabbt sätt att kontrollera att du löst en andragradsekvation rätt.</p></div>",
     "familj": "Rötter och koefficienter",
     "geogebra": false,
@@ -31405,7 +31909,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(x^2=49\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p><p>\\(x=\\pm\\sqrt{49}=\\pm 7\\).</p><p><strong>Svar:</strong> \\(x=-7\\) eller \\(x=7\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(x=\\pm\\sqrt{49}\\).</p><p><strong>Svar:</strong> \\(x=7\\) eller \\(x=-7\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -31429,7 +31933,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p>"
+    "ledtrad": "<p>Ekvationen \\(x^2=c\\) med \\(c&gt;0\\) har två lösningar.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.611",
@@ -31441,20 +31948,21 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(x^2=81\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p><p>\\(x=\\pm\\sqrt{81}=\\pm 9\\).</p><p><strong>Svar:</strong> \\(x=-9\\) eller \\(x=9\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "poang": "2/0/0",
+    "t": "<p>Talet \\(5\\) är en lösning till ekvationen \\(x^2=k\\). Bestäm \\(k\\) och ekvationens andra lösning.</p>",
+    "s": "<p>Sätt in \\(x=5\\): \\(k=5^2=25\\).</p><p>Ekvationen \\(x^2=25\\) har också lösningen \\(x=-5\\).</p><p><strong>Svar:</strong> \\(k=25\\), den andra lösningen är \\(x=-5\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -9,
-      9
+      25,
+      -5
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "svarFormat": [
@@ -31462,12 +31970,15 @@ window.BANKMA2 = [
       "numeriskt"
     ],
     "svarEtiketter": [
-      "lösning",
-      "lösning"
+      "k",
+      "andra lösningen"
     ],
-    "svarsstruktur": "mängd",
+    "svarsstruktur": "ordnad",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p>"
+    "ledtrad": "<p>Vad händer med kvadraten om du byter tecken på \\(x\\)?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.612",
@@ -31481,7 +31992,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(x^2=121\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p><p>\\(x=\\pm\\sqrt{121}=\\pm 11\\).</p><p><strong>Svar:</strong> \\(x=-11\\) eller \\(x=11\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(x=\\pm\\sqrt{121}\\).</p><p><strong>Svar:</strong> \\(x=11\\) eller \\(x=-11\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -31505,7 +32016,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p>"
+    "ledtrad": "<p>Vilket tal gånger sig självt blir 121?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.613",
@@ -31516,34 +32030,27 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(x^2=144\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p><p>\\(x=\\pm\\sqrt{144}=\\pm 12\\).</p><p><strong>Svar:</strong> \\(x=-12\\) eller \\(x=12\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(x^2=0\\) och förklara varför antalet lösningar skiljer sig från \\(x^2=144\\).</p>",
+    "s": "<p>\\(x^2=0\\) ger \\(x=0\\), och det är den enda lösningen.</p><p>För \\(x^2=144\\) finns två lösningar, \\(12\\) och \\(-12\\), eftersom två olika tal har samma kvadrat.</p><p>Skillnaden är att \\(0\\) och \\(-0\\) är samma tal, så plus- och minusfallet faller ihop.</p><p><strong>Svar:</strong> \\(x=0\\); ekvationen har bara en lösning</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -12,
-      12
-    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEtiketter": [
-      "lösning",
-      "lösning"
-    ],
-    "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p>"
+    "ledtrad": "<p>Vad blir \\(-0\\)?</p>",
+    "manuellKomplettering": true,
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.614",
@@ -31557,7 +32064,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(x^2=36\\)<br>b)&nbsp;\\(3x^2=75\\)<br>c)&nbsp;\\(x^2-20=5\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Alla tre löses med kvadratrotmetoden, men först måste \\(x^2\\) stå ensamt i vänsterledet.</p><div class=\"facit-arbete\"><p>a) \\(x=\\pm\\sqrt{36}=\\pm6\\).</p><p>b) Dividera med 3: \\(x^2=25\\), alltså \\(x=\\pm5\\).</p><p>c) Addera 20: \\(x^2=25\\), alltså \\(x=\\pm5\\).</p><p><strong>a) \\(x=\\pm6\\) &nbsp; b) \\(x=\\pm5\\) &nbsp; c) \\(x=\\pm5\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Glöm inte den negativa lösningen. En ekvation av typen \\(x^2=c\\) med \\(c&gt;0\\) har alltid två lösningar.</p></div>",
+    "s": "<p>a) \\(x=\\pm6\\).</p><p>b) Dividera med 3: \\(x^2=25\\), alltså \\(x=\\pm5\\).</p><p>c) Addera 20: \\(x^2=25\\), alltså \\(x=\\pm5\\).</p><p><strong>Svar:</strong> a) \\(\\pm6\\) &nbsp; b) \\(\\pm5\\) &nbsp; c) \\(\\pm5\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -31602,13 +32109,16 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Se till att \\(x^2\\) står ensamt innan du drar roten ur. Kom ihåg både plus- och minusfallet.</p>",
+    "ledtrad": "<p>Se till att \\(x^2\\) står ensamt innan du drar roten ur.</p>",
     "delmix": "samma",
     "delmetoder": [
       "kvadratrotmetoden",
       "kvadratrotmetoden",
       "kvadratrotmetoden"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.615",
@@ -31622,7 +32132,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(2x^2-50=0\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera \\(x^2\\) innan du drar roten ur.</p><div class=\"facit-arbete\"><p>\\(2x^2=50\\)</p><p>\\(x^2=25\\)</p><p>\\(x=\\pm5\\)</p><p><strong>\\(x=5\\) eller \\(x=-5\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in båda värdena: \\(2\\cdot25-50=0\\). Det stämmer.</p></div>",
+    "s": "<p>\\(2x^2=50\\) ger \\(x^2=25\\).</p><p><strong>Svar:</strong> \\(x=5\\) eller \\(x=-5\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -31646,7 +32156,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Flytta konstanten till högerledet och dividera med koefficienten framför \\(x^2\\).</p>"
+    "ledtrad": "<p>Flytta konstanten och dividera med koefficienten framför \\(x^2\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.616",
@@ -31660,7 +32173,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Ekvationen \\(x^2+9=0\\) ska lösas.</p><p>a)&nbsp;Visa att ekvationen saknar reella lösningar.<br>b)&nbsp;Förklara vad det betyder för grafen till \\(f(x)=x^2+9\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En kvadrat kan aldrig bli negativ. Det är hela poängen här.</p><div class=\"facit-arbete\"><p>a) \\(x^2+9=0\\) ger \\(x^2=-9\\). Men \\(x^2\\ge0\\) för alla reella \\(x\\), så ingen reell lösning finns.</p><p>b) Grafen till \\(f(x)=x^2+9\\) är en uppåtvänd parabel med minsta värdet \\(9\\). Den ligger alltså helt ovanför x-axeln och saknar nollställen.</p><p><strong>a) \\(x^2=-9\\) är omöjligt för reella \\(x\\) &nbsp; b) grafen skär inte x-axeln</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Antal reella lösningar till \\(f(x)=0\\) är alltid samma sak som antalet skärningar mellan grafen och x-axeln.</p></div>",
+    "s": "<p>a) \\(x^2+9=0\\) ger \\(x^2=-9\\). En kvadrat av ett reellt tal är alltid större än eller lika med noll, så ingen reell lösning finns.</p><p>b) Grafen till \\(f(x)=x^2+9\\) är en uppåtvänd parabel med minsta värdet 9. Den ligger helt ovanför x-axeln och saknar därför nollställen.</p><p><strong>Svar:</strong> Ekvationen saknar reella lösningar, och grafen skär inte x-axeln</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -31673,12 +32186,16 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Vilka värden kan \\(x^2\\) anta? Jämför med högerledet.</p>",
+    "ledtrad": "<p>Vilket är det minsta värde som \\(x^2\\) kan anta?</p>",
     "delmix": "olika",
     "delmetoder": [
       "algebra",
       "grafisk tolkning"
-    ]
+    ],
+    "manuellKomplettering": true,
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.617",
@@ -31690,36 +32207,36 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(x^2=18\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p><p>\\(x=\\pm\\sqrt{18}\\approx\\pm 4,243\\).</p><p><strong>Svar:</strong> \\(x=-4,243\\) eller \\(x=4,243\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationen \\(x^2=18\\). Svara exakt.</p>",
+    "s": "<p>\\(x=\\pm\\sqrt{18}=\\pm\\sqrt{9\\cdot2}=\\pm3\\sqrt2\\).</p><p><strong>Svar:</strong> \\(x=\\pm3\\sqrt2\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -4.242640687119285,
-      4.242640687119285
+      "3*sqrt(2)",
+      "-3*sqrt(2)"
     ],
-    "tolerans": [
-      0.002,
-      0.002
-    ],
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": [
-      "numeriskt",
-      "numeriskt"
+      "uttryck",
+      "uttryck"
     ],
     "svarEtiketter": [
-      "lösning",
-      "lösning"
+      "x",
+      "x"
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p>"
+    "ledtrad": "<p>Leta efter en kvadrat som är faktor i 18.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.618",
@@ -31731,9 +32248,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/1/0",
+    "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\(x^2=50\\). Svara både exakt och med två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Exakt svar betyder att roten får stå kvar. Förenkla den om det går.</p><div class=\"facit-arbete\"><p>\\(x=\\pm\\sqrt{50}=\\pm\\sqrt{25\\cdot2}=\\pm5\\sqrt2\\).</p><p>Med decimaler: \\(5\\sqrt2\\approx7{,}07\\).</p><p><strong>\\(x=\\pm5\\sqrt2\\approx\\pm7{,}07\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera: \\((5\\sqrt2)^2=25\\cdot2=50\\).</p></div>",
+    "s": "<p>\\(x=\\pm\\sqrt{50}=\\pm\\sqrt{25\\cdot2}=\\pm5\\sqrt2\\).</p><p>Med decimaler: \\(5\\sqrt2\\approx7{,}07\\).</p><p><strong>Svar:</strong> \\(x=\\pm5\\sqrt2\\approx\\pm7{,}07\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -31748,7 +32265,8 @@ window.BANKMA2 = [
     ],
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "svarFormat": [
       "numeriskt",
@@ -31760,7 +32278,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Bryt ut största möjliga kvadrat ur talet under rottecknet.</p>"
+    "ledtrad": "<p>Först exakt form, sedan avrundning. Kontrollera med \\((5\\sqrt2)^2\\).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.619",
@@ -31774,7 +32295,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En kvadratisk platta har arean 72 cm². Bestäm plattans sida exakt, och avgör sedan om sidan är längre eller kortare än 8,5 cm.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv upp sambandet mellan sida och area, lös ekvationen och välj bort den lösning som inte är rimlig i sammanhanget.</p><div class=\"facit-arbete\"><p>Med sidan \\(s\\) cm gäller \\(s^2=72\\).</p><p>\\(s=\\pm\\sqrt{72}=\\pm6\\sqrt2\\). En längd kan inte vara negativ, så \\(s=6\\sqrt2\\approx8{,}49\\) cm.</p><p>Eftersom \\(8{,}49&lt;8{,}5\\) är sidan något kortare än 8,5 cm.</p><p><strong>\\(s=6\\sqrt2\\approx8{,}49\\) cm, alltså strax under 8,5 cm</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med kvadrering: \\(8{,}5^2=72{,}25&gt;72\\), vilket bekräftar att sidan är kortare än 8,5 cm.</p></div>",
+    "s": "<p>Med sidan \\(s\\) cm gäller \\(s^2=72\\).</p><p>\\(s=\\pm6\\sqrt2\\), men en längd kan inte vara negativ, så \\(s=6\\sqrt2\\approx8{,}49\\) cm.</p><p>Eftersom \\(8{,}5^2=72{,}25&gt;72\\) är sidan något kortare än 8,5 cm.</p><p><strong>Svar:</strong> \\(s=6\\sqrt2\\approx8{,}49\\) cm, alltså strax under 8,5 cm</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -31783,12 +32304,16 @@ window.BANKMA2 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Teckna en ekvation för sidan och fundera på vilken av de två lösningarna som är möjlig.</p>"
+    "ledtrad": "<p>Teckna en ekvation för sidan. Vilken av de två lösningarna är möjlig här?</p>",
+    "svarEnhet": "cm",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.620",
@@ -31801,20 +32326,17 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(x^2=0,49\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p><p>\\(x=\\pm\\sqrt{0,49}\\approx\\pm 0,7\\).</p><p><strong>Svar:</strong> \\(x=-0,7\\) eller \\(x=0,7\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "t": "<p>Lös ekvationen \\(\\dfrac{x^2}{3}=12\\).</p>",
+    "s": "<p>Multiplicera båda led med 3: \\(x^2=36\\).</p><p><strong>Svar:</strong> \\(x=6\\) eller \\(x=-6\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -0.7,
-      0.7
+      -6,
+      6
     ],
-    "tolerans": [
-      0.002,
-      0.002
-    ],
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -31829,7 +32351,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>När \\(x^2=c\\) finns två reella lösningar om \\(c\\gt 0\\): en positiv och en negativ.</p>"
+    "ledtrad": "<p>Bli av med nämnaren först.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.621",
@@ -31843,7 +32368,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(x^2=0{,}49\\)<br>b)&nbsp;\\(100x^2=49\\)<br>c)&nbsp;\\((2x)^2=49\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Samma metod hela vägen, men uttrycket som kvadreras är olika. Tänk efter vad det är som står i kvadrat.</p><div class=\"facit-arbete\"><p>a) \\(x=\\pm\\sqrt{0{,}49}=\\pm0{,}7\\).</p><p>b) \\(x^2=0{,}49\\) ger \\(x=\\pm0{,}7\\).</p><p>c) \\(2x=\\pm7\\), alltså \\(x=\\pm3{,}5\\).</p><p><strong>a) \\(\\pm0{,}7\\) &nbsp; b) \\(\\pm0{,}7\\) &nbsp; c) \\(\\pm3{,}5\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> I c) är det \\(2x\\) som kvadreras, inte bara \\(x\\). Därför måste du dividera med 2 till sist.</p></div>",
+    "s": "<p>a) \\(x=\\pm0{,}7\\), eftersom \\(0{,}7^2=0{,}49\\).</p><p>b) \\(x^2=0{,}49\\) ger \\(x=\\pm0{,}7\\).</p><p>c) \\(2x=\\pm7\\) ger \\(x=\\pm3{,}5\\).</p><p><strong>Svar:</strong> a) \\(\\pm0{,}7\\) &nbsp; b) \\(\\pm0{,}7\\) &nbsp; c) \\(\\pm3{,}5\\)</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -31865,7 +32390,8 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "svarFormat": [
       [
@@ -31888,13 +32414,16 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Fråga dig vilket uttryck som står i kvadrat innan du drar roten ur.</p>",
+    "ledtrad": "<p>Fråga dig i varje deluppgift vilket uttryck det är som står i kvadrat.</p>",
     "delmix": "samma",
     "delmetoder": [
       "kvadratrotmetoden",
       "kvadratrotmetoden",
       "kvadratrotmetoden"
-    ]
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.622",
@@ -31908,7 +32437,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\((x-2)(x+5)=0\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> En produkt är noll om minst en faktor är noll.</p><p>\\((x-2)=0\\Rightarrow x=2\\)</p><p>eller</p><p>\\((x+5)=0\\Rightarrow x=-5\\).</p><p><strong>Svar:</strong> \\(x=2\\) eller \\(x=-5\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>Produkten är noll när en faktor är noll.</p><p><strong>Svar:</strong> \\(x=2\\) eller \\(x=-5\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -31932,7 +32461,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>En produkt är noll om minst en faktor är noll. Flytta allt till ena sidan och faktorisera.</p>"
+    "ledtrad": "<p>Vilket \\(x\\) gör den första faktorn noll? Den andra?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.623",
@@ -31943,34 +32475,27 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\((x-3)(x-4)=0\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> En produkt är noll om minst en faktor är noll.</p><p>\\((x-3)=0\\Rightarrow x=3\\)</p><p>eller</p><p>\\((x-4)=0\\Rightarrow x=4\\).</p><p><strong>Svar:</strong> \\(x=3\\) eller \\(x=4\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ekvationerna \\((x-3)(x-4)=0\\) och \\(x^2-7x+12=0\\) har samma lösningar. Visa varför.</p>",
+    "s": "<p>Utveckla den första ekvationens vänsterled: \\((x-3)(x-4)=x^2-4x-3x+12=x^2-7x+12\\).</p><p>Vänsterleden är alltså samma uttryck skrivet på två sätt, och då är det samma ekvation. Lösningarna är \\(x=3\\) och \\(x=4\\).</p><p>Faktorformen är den användbara formen när man ska lösa ekvationen, eftersom den visar lösningarna direkt.</p><p><strong>Svar:</strong> Uttrycken är identiska; båda ekvationerna har lösningarna \\(3\\) och \\(4\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      3,
-      4
-    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEtiketter": [
-      "lösning",
-      "lösning"
-    ],
-    "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>En produkt är noll om minst en faktor är noll. Flytta allt till ena sidan och faktorisera.</p>"
+    "ledtrad": "<p>Multiplicera ihop parenteserna och jämför med det andra uttrycket.</p>",
+    "manuellKomplettering": true,
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.624",
@@ -31984,7 +32509,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Ekvationen \\(x(x-6)=0\\) ska lösas.</p><p>a)&nbsp;Lös ekvationen.<br>b)&nbsp;En elev dividerar båda led med \\(x\\) och svarar \\(x=6\\). Förklara vad som går fel.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Nollproduktmetoden bygger på att en produkt är noll när minst en faktor är noll. Att dividera med ett uttryck som kan vara noll är däremot inte tillåtet.</p><div class=\"facit-arbete\"><p>a) \\(x=0\\) eller \\(x-6=0\\), alltså \\(x=0\\) eller \\(x=6\\).</p><p>b) Division med \\(x\\) förutsätter \\(x\\neq0\\). Eleven räknar därför bort lösningen \\(x=0\\).</p><p><strong>a) \\(x=0\\) och \\(x=6\\) &nbsp; b) division med \\(x\\) tappar lösningen \\(x=0\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera alltid att du inte dividerat bort en lösning: sätt in \\(x=0\\) i ursprungsekvationen.</p></div>",
+    "s": "<p>a) \\(x=0\\) eller \\(x-6=0\\), alltså \\(x=0\\) eller \\(x=6\\).</p><p>b) Division med \\(x\\) förutsätter att \\(x\\neq0\\). Eleven räknar därför bort lösningen \\(x=0\\). Bryt ut i stället för att dividera med ett uttryck som kan vara noll.</p><p><strong>Svar:</strong> a) \\(x=0\\) och \\(x=6\\) &nbsp; b) divisionen tappar lösningen \\(x=0\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -32015,12 +32540,16 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Vilket värde på \\(x\\) gör att divisionen i b) blir otillåten?</p>",
+    "ledtrad": "<p>Vilket värde på \\(x\\) gör divisionen i b) otillåten?</p>",
     "delmix": "olika",
     "delmetoder": [
       "nollproduktmetoden",
       "resonemang"
-    ]
+    ],
+    "manuellKomplettering": true,
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.625",
@@ -32031,10 +32560,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
-    "t": "<p>Lös ekvationerna med nollproduktmetoden.</p><p>a)&nbsp;\\((x-5)(x+2)=0\\)<br>b)&nbsp;\\(x^2-3x=0\\)<br>c)&nbsp;\\(x^2-7x+10=0\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Samma metod i alla tre, men vänsterledet måste först stå som en produkt.</p><div class=\"facit-arbete\"><p>a) Produkten är redan faktoriserad: \\(x=5\\) eller \\(x=-2\\).</p><p>b) Bryt ut \\(x\\): \\(x(x-3)=0\\), alltså \\(x=0\\) eller \\(x=3\\).</p><p>c) Sök två tal med summan 7 och produkten 10: 2 och 5. \\((x-2)(x-5)=0\\) ger \\(x=2\\) eller \\(x=5\\).</p><p><strong>a) \\(5\\) och \\(-2\\) &nbsp; b) \\(0\\) och \\(3\\) &nbsp; c) \\(2\\) och \\(5\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktoriseringen i b) och c) och kontrollera att du får tillbaka ursprungsuttrycket.</p></div>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\((x-5)(x+2)=0\\)<br>b)&nbsp;\\(x^2-3x=0\\)<br>c)&nbsp;\\(x^2-7x+10=0\\)</p>",
+    "s": "<p>Skriv vänsterledet som en produkt och sätt varje faktor lika med noll.</p><p>a) \\(x=5\\) eller \\(x=-2\\).</p><p>b) \\(x(x-3)=0\\) ger \\(x=0\\) eller \\(x=3\\).</p><p>c) Två tal med summan 7 och produkten 10 är 2 och 5: \\((x-2)(x-5)=0\\).</p><p><strong>Svar:</strong> a) \\(5\\) och \\(-2\\) &nbsp; b) \\(0\\) och \\(3\\) &nbsp; c) \\(2\\) och \\(5\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -32079,13 +32608,16 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Faktorisera vänsterledet först, sätt sedan varje faktor lika med noll.</p>",
+    "ledtrad": "<p>Deluppgifterna kräver olika mycket arbete innan produkten är synlig.</p>",
     "delmix": "samma",
     "delmetoder": [
       "nollproduktmetoden",
       "nollproduktmetoden",
       "nollproduktmetoden"
-    ]
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.626",
@@ -32098,32 +32630,24 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\((x-4)(x-7)=0\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> En produkt är noll om minst en faktor är noll.</p><p>\\((x-4)=0\\Rightarrow x=4\\)</p><p>eller</p><p>\\((x-7)=0\\Rightarrow x=7\\).</p><p><strong>Svar:</strong> \\(x=4\\) eller \\(x=7\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "t": "<p>Vilken ekvation har lösningarna \\(4\\) och \\(7\\)?</p><p>A) \\((x+4)(x+7)=0\\)<br>B) \\((x-4)(x-7)=0\\)<br>C) \\((x-4)(x+7)=0\\)<br>D) \\(x(x-11)=0\\)</p>",
+    "s": "<p>En faktor \\((x-r)\\) ger lösningen \\(x=r\\). Lösningarna 4 och 7 kräver alltså faktorerna \\((x-4)\\) och \\((x-7)\\).</p><p>A ger lösningarna \\(-4\\) och \\(-7\\), C ger \\(4\\) och \\(-7\\), och D ger \\(0\\) och \\(11\\).</p><p><strong>Svar:</strong> B</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      4,
-      7
-    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEtiketter": [
-      "lösning",
-      "lösning"
-    ],
-    "svarsstruktur": "mängd",
+    "svarFormat": "kort_text",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>En produkt är noll om minst en faktor är noll. Flytta allt till ena sidan och faktorisera.</p>"
+    "ledtrad": "<p>Vilket tal gör faktorn \\((x-4)\\) lika med noll?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.627",
@@ -32137,7 +32661,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\((x+3)(x+8)=0\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> En produkt är noll om minst en faktor är noll.</p><p>\\((x+3)=0\\Rightarrow x=-3\\)</p><p>eller</p><p>\\((x+8)=0\\Rightarrow x=-8\\).</p><p><strong>Svar:</strong> \\(x=-3\\) eller \\(x=-8\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>Produkten är noll när en faktor är noll.</p><p><strong>Svar:</strong> \\(x=-3\\) eller \\(x=-8\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -32161,7 +32685,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>En produkt är noll om minst en faktor är noll. Flytta allt till ena sidan och faktorisera.</p>"
+    "ledtrad": "<p>Tänk på tecknen: faktorn \\((x+3)\\) blir noll när \\(x\\) är negativt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.628",
@@ -32175,7 +32702,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Ekvationen \\((x-a)(x+3)=0\\) har lösningarna \\(x=4\\) och \\(x=-3\\). Bestäm \\(a\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Arbeta baklänges: varje faktor svarar mot en lösning.</p><div class=\"facit-arbete\"><p>Faktorn \\(x+3\\) ger lösningen \\(x=-3\\).</p><p>Då måste faktorn \\(x-a\\) ge \\(x=4\\), alltså \\(a=4\\).</p><p><strong>\\(a=4\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontroll: \\((x-4)(x+3)=0\\) har just lösningarna 4 och \\(-3\\).</p></div>",
+    "s": "<p>Faktorn \\(x+3\\) ger lösningen \\(x=-3\\).</p><p>Då måste faktorn \\(x-a\\) ge den andra lösningen \\(x=4\\), alltså \\(a=4\\).</p><p><strong>Svar:</strong> \\(a=4\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -32189,7 +32716,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Vilken faktor ger vilken lösning?</p>"
+    "ledtrad": "<p>Vilken faktor hör ihop med vilken lösning?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.629",
@@ -32201,9 +32731,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/1/0",
+    "poang": "0/2/0",
     "t": "<p>Skriv en andragradsekvation på formen \\(x^2+bx+c=0\\) som har lösningarna \\(-2\\) och \\(5\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gå från lösningar till faktorer och multiplicera ihop.</p><div class=\"facit-arbete\"><p>Lösningarna ger faktorerna \\((x+2)\\) och \\((x-5)\\).</p><p>\\((x+2)(x-5)=x^2-5x+2x-10=x^2-3x-10\\).</p><p><strong>\\(x^2-3x-10=0\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med sambandet mellan rötter och koefficienter: summan \\(-2+5=3=-b\\) och produkten \\(-2\\cdot5=-10=c\\).</p></div>",
+    "s": "<p>Lösningarna ger faktorerna \\((x+2)\\) och \\((x-5)\\).</p><p>\\((x+2)(x-5)=x^2-3x-10\\).</p><p><strong>Svar:</strong> \\(x^2-3x-10=0\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -32217,7 +32747,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "ekvation",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>En lösning \\(x=r\\) svarar mot faktorn \\((x-r)\\).</p>"
+    "ledtrad": "<p>En lösning \\(x=r\\) svarar mot faktorn \\((x-r)\\).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.630",
@@ -32228,10 +32761,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Lös ekvationen \\(x^2-x-12=0\\) genom att först faktorisera vänsterledet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Faktorisera: \\(x^2-x-12=(x-4)(x+3)\\).</p><p><strong>Steg 2:</strong> Använd nollproduktmetoden. Varje faktor sätts lika med noll.</p><p><strong>Svar:</strong> \\(x=-3\\) eller \\(x=4\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(x^2-x-12=0\\).</p>",
+    "s": "<p>Sök två tal med produkten \\(-12\\) och summan \\(-1\\): det är \\(-4\\) och \\(3\\).</p><p>\\((x-4)(x+3)=0\\).</p><p><strong>Svar:</strong> \\(x=4\\) eller \\(x=-3\\)</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -32243,8 +32776,7 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -32256,7 +32788,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Flytta allt till ena sidan och faktorisera. En produkt är noll när minst en faktor är noll, så sätt varje faktor lika med noll.</p>"
+    "ledtrad": "<p>Vilka två tal har produkten \\(-12\\) och summan \\(-1\\)?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.631",
@@ -32269,8 +32804,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Lös ekvationen \\(2x^2-8x=0\\) genom att faktorisera vänsterledet, och förklara varför \\(x=0\\) är en av lösningarna.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bryt ut den största gemensamma faktorn. Då syns båda lösningarna.</p><div class=\"facit-arbete\"><p>\\(2x^2-8x=2x(x-4)\\).</p><p>\\(2x(x-4)=0\\) ger \\(x=0\\) eller \\(x=4\\).</p><p>Eftersom \\(x\\) är en faktor i produkten blir hela vänsterledet noll så fort \\(x=0\\). Ekvationen saknar konstantterm, och då är \\(x=0\\) alltid en lösning.</p><p><strong>\\(x=0\\) och \\(x=4\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En andragradsekvation utan konstantterm har alltid \\(x=0\\) som lösning. Det är en bra snabbkontroll.</p></div>",
+    "t": "<p>Lös ekvationen \\(2x^2-8x=0\\) och förklara varför \\(x=0\\) alltid är en lösning till en andragradsekvation som saknar konstantterm.</p>",
+    "s": "<p>\\(2x^2-8x=2x(x-4)=0\\) ger \\(x=0\\) eller \\(x=4\\).</p><p>Saknas konstanttermen kan \\(x\\) brytas ut ur alla termer. Då är \\(x\\) en faktor i produkten, och produkten blir noll så fort \\(x=0\\).</p><p><strong>Svar:</strong> \\(x=0\\) och \\(x=4\\); \\(x\\) kan alltid brytas ut när konstanttermen saknas</p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -32295,7 +32830,11 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Vad är den största gemensamma faktorn i \\(2x^2\\) och \\(8x\\)?</p>"
+    "ledtrad": "<p>Vad är den största gemensamma faktorn i termerna?</p>",
+    "manuellKomplettering": true,
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.632",
@@ -33802,9 +34341,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Utgå från definitionen och kontrollera vilken geometrisk roll den markerade linjen, vinkeln eller punkten har.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utgå från definitionen och kontrollera vilken geometrisk roll den markerade linjen, vinkeln eller punkten har.</p>"
   },
   {
     "id": "3.02",
@@ -33865,9 +34402,7 @@ window.BANKMA2 = [
       "a) ∠ACB",
       "b) ∠MAB"
     ],
-    "ledtrad": "<p>Identifiera vilken båge vinklarna spänner över. En medelpunktsvinkel över samma båge är dubbelt så stor som randvinkeln.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Identifiera vilken båge vinklarna spänner över. En medelpunktsvinkel över samma båge är dubbelt så stor som randvinkeln.</p>"
   },
   {
     "id": "3.04",
@@ -33930,9 +34465,7 @@ window.BANKMA2 = [
       "a) mittpunkt",
       "b) avstånd AB"
     ],
-    "ledtrad": "<p>Mittpunkten fås genom medelvärdet av koordinaterna. Avståndet fås från skillnaderna i x- och y-led med Pythagoras sats.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Mittpunkten fås genom medelvärdet av koordinaterna. Avståndet fås från skillnaderna i x- och y-led med Pythagoras sats.</p>"
   },
   {
     "id": "3.06",
@@ -34589,9 +35122,7 @@ window.BANKMA2 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Låt \\(AP=PB=x\\), eftersom \\(P\\) är mittpunkt på \\(AB\\).</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Låt \\(AP=PB=x\\), eftersom \\(P\\) är mittpunkt på \\(AB\\).</p>"
   },
   {
     "id": "3.31",
@@ -34833,9 +35364,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Mittpunkten på \\(AB\\) är \\((3,0)\\). Eftersom \\(AB\\) är horisontell blir mittnormalen \\(x=3\\).</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Mittpunkten på \\(AB\\) är \\((3,0)\\). Eftersom \\(AB\\) är horisontell blir mittnormalen \\(x=3\\).</p>"
   },
   {
     "id": "3.40",
@@ -34911,9 +35440,7 @@ window.BANKMA2 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>En randvinkel är hälften av medelpunktsvinkeln som spänner över samma båge. Kontrollera först att vinklarna hör till samma båge.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>En randvinkel är hälften av medelpunktsvinkeln som spänner över samma båge. Kontrollera först att vinklarna hör till samma båge.</p>"
   },
   {
     "id": "3.43",
@@ -34962,9 +35489,7 @@ window.BANKMA2 = [
         "niva": "C"
       }
     ],
-    "ledtrad": "<p>Para ihop motsvarande sidor innan du skriver proportionen. Samma skalfaktor måste gälla för alla motsvarande längder.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Para ihop motsvarande sidor innan du skriver proportionen. Samma skalfaktor måste gälla för alla motsvarande längder.</p>"
   },
   {
     "id": "3.44",
@@ -35257,9 +35782,7 @@ window.BANKMA2 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Mittpunkten fås genom medelvärdet av koordinaterna. Avståndet fås från skillnaderna i x- och y-led med Pythagoras sats.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Mittpunkten fås genom medelvärdet av koordinaterna. Avståndet fås från skillnaderna i x- och y-led med Pythagoras sats.</p>"
   },
   {
     "id": "3.55",
@@ -35459,9 +35982,7 @@ window.BANKMA2 = [
       "c)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>a) En korda är en sträcka vars båda ändpunkter ligger på cirkelns rand.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) En korda är en sträcka vars båda ändpunkter ligger på cirkelns rand.</p>"
   },
   {
     "id": "3.62",
@@ -36271,9 +36792,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Utgå från definitionen och kontrollera vilken geometrisk roll den markerade linjen, vinkeln eller punkten har.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utgå från definitionen och kontrollera vilken geometrisk roll den markerade linjen, vinkeln eller punkten har.</p>"
   },
   {
     "id": "3.93",
@@ -36876,9 +37395,7 @@ window.BANKMA2 = [
       "procedur",
       "problemlösning"
     ],
-    "ledtrad": "<p>Rita gärna en hjälptriangel mellan punkterna. Skillnaderna i x- och y-led blir kateter; använd Pythagoras för avstånd och medelvärdet av koordinaterna för mittpunkten.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Rita gärna en hjälptriangel mellan punkterna. Skillnaderna i x- och y-led blir kateter; använd Pythagoras för avstånd och medelvärdet av koordinaterna för mittpunkten.</p>"
   },
   {
     "id": "3.117",
@@ -37302,9 +37819,7 @@ window.BANKMA2 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>En randvinkel är hälften av medelpunktsvinkeln som spänner över samma båge. Kontrollera först att vinklarna hör till samma båge.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>En randvinkel är hälften av medelpunktsvinkeln som spänner över samma båge. Kontrollera först att vinklarna hör till samma båge.</p>"
   },
   {
     "id": "3.133",
@@ -38987,9 +39502,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Utgå från definitionen och kontrollera vilken geometrisk roll den markerade linjen, vinkeln eller punkten har.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utgå från definitionen och kontrollera vilken geometrisk roll den markerade linjen, vinkeln eller punkten har.</p>"
   },
   {
     "id": "3.190",
@@ -39014,9 +39527,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Utgå från definitionen och kontrollera vilken geometrisk roll den markerade linjen, vinkeln eller punkten har.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utgå från definitionen och kontrollera vilken geometrisk roll den markerade linjen, vinkeln eller punkten har.</p>"
   },
   {
     "id": "3.191",
@@ -42419,9 +42930,7 @@ window.BANKMA2 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
   },
   {
     "id": "4.16",
@@ -42784,9 +43293,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Sannolikheter i normalfördelning",
-    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.28",
@@ -43358,9 +43865,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Sannolikheter i normalfördelning",
-    "ledtrad": "<p>Utgå från medelvärdet och standardavvikelsen. Bestäm först hur många standardavvikelser gränsen ligger från medelvärdet och använd därefter normalfördelningsregeln eller digitalt verktyg.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Utgå från medelvärdet och standardavvikelsen. Bestäm först hur många standardavvikelser gränsen ligger från medelvärdet och använd därefter normalfördelningsregeln eller digitalt verktyg.</p>"
   },
   {
     "id": "4.46",
@@ -44603,9 +45108,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Sannolikheter i normalfördelning",
-    "ledtrad": "<p>a) I Sannolikhetskalkylatorn blir sannolikheten under 47,0 plus sannolikheten över 53,0 cirka 0,0956.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) I Sannolikhetskalkylatorn blir sannolikheten under 47,0 plus sannolikheten över 53,0 cirka 0,0956.</p>"
   },
   {
     "id": "4.88",
@@ -44869,9 +45372,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Sannolikheter i normalfördelning",
-    "ledtrad": "<p>a) Den nedre gränsen är den 10:e percentilen och den övre den 90:e percentilen. GeoGebra ger cirka 59,0 respektive 91,0.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) Den nedre gränsen är den 10:e percentilen och den övre den 90:e percentilen. GeoGebra ger cirka 59,0 respektive 91,0.</p>"
   },
   {
     "id": "4.96",
@@ -44926,9 +45427,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Standardavvikelse och spridning",
-    "ledtrad": "<p>Det ursprungliga materialet har medelvärdet 6,5 och standardavvikelsen cirka 3,35.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Det ursprungliga materialet har medelvärdet 6,5 och standardavvikelsen cirka 3,35.</p>"
   },
   {
     "id": "4.98",
@@ -45201,9 +45700,7 @@ window.BANKMA2 = [
       "c) förklaring"
     ],
     "familjTidigare": "Sannolikheter i normalfördelning",
-    "ledtrad": "<p>Rita normalfördelningen och markera det område som motsvarar sannolikheten. Standardisera med \\(z=(x-\\mu)/\\sigma\\) eller använd digital normalfördelningsfunktion med rätt gränser.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Rita normalfördelningen och markera det område som motsvarar sannolikheten. Standardisera med \\(z=(x-\\mu)/\\sigma\\) eller använd digital normalfördelningsfunktion med rätt gränser.</p>"
   },
   {
     "id": "4.107",
@@ -46118,9 +46615,7 @@ window.BANKMA2 = [
       "b)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "id": "4.138",
@@ -46327,9 +46822,7 @@ window.BANKMA2 = [
       "b)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "id": "4.144",
@@ -46425,9 +46918,7 @@ window.BANKMA2 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
   },
   {
     "id": "4.147",
@@ -46563,9 +47054,7 @@ window.BANKMA2 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.152",
@@ -46767,9 +47256,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Standardavvikelse och spridning",
-    "ledtrad": "<p>a) De fem första talen har summan 50. Sex tal med medelvärdet 10 måste ha summan 60, alltså är det nya värdet 10.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) De fem första talen har summan 50. Sex tal med medelvärdet 10 måste ha summan 60, alltså är det nya värdet 10.</p>"
   },
   {
     "id": "4.158",
@@ -46811,9 +47298,7 @@ window.BANKMA2 = [
       false,
       true
     ],
-    "ledtrad": "<p>Tolka först regressionslinjens riktningskoefficient och konstantterm i sammanhanget innan du gör beräkningen.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Tolka först regressionslinjens riktningskoefficient och konstantterm i sammanhanget innan du gör beräkningen.</p>"
   },
   {
     "id": "4.159",
@@ -46882,9 +47367,7 @@ window.BANKMA2 = [
       false,
       true
     ],
-    "ledtrad": "<p>I en linjär modell (y=kx+m) beskriver k den förväntade förändringen i y när x ökar med 1, medan m är modellens värde vid (x=0).</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>I en linjär modell (y=kx+m) beskriver k den förväntade förändringen i y när x ökar med 1, medan m är modellens värde vid (x=0).</p>"
   },
   {
     "id": "4.161",
@@ -47125,9 +47608,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>a) En avvikande punkt som inte följer mönstret brukar försvaga det linjära sambandet. Därför blir korrelationskoefficienten ofta mindre i absolutbelopp.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) En avvikande punkt som inte följer mönstret brukar försvaga det linjära sambandet. Därför blir korrelationskoefficienten ofta mindre i absolutbelopp.</p>"
   },
   {
     "id": "4.169",
@@ -47447,9 +47928,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Sannolikheter i normalfördelning",
-    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "4.179",
@@ -47475,9 +47954,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Material A ligger i huvudsak nära en stigande rät linje, medan material B är stigande men tydligt böjt.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Material A ligger i huvudsak nära en stigande rät linje, medan material B är stigande men tydligt böjt.</p>"
   },
   {
     "id": "4.180",
@@ -50787,9 +51264,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
   },
   {
     "id": "5.06",
@@ -50856,9 +51331,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Titta på punktmolnets riktning och spridning. Om en regressionslinje finns, tolka lutning och startvärde i just sammanhanget.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Titta på punktmolnets riktning och spridning. Om en regressionslinje finns, tolka lutning och startvärde i just sammanhanget.</p>"
   },
   {
     "id": "5.08",
@@ -50883,9 +51356,7 @@ window.BANKMA2 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>"
   },
   {
     "id": "5.09",
@@ -51065,9 +51536,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>a) Linjär regression ger ungefär \\(y=13,6x+64,7\\). En exponentialmodell blir ungefär \\(y=71,84\\cdot1,129^x\\).</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) Linjär regression ger ungefär \\(y=13,6x+64,7\\). En exponentialmodell blir ungefär \\(y=71,84\\cdot1,129^x\\).</p>"
   },
   {
     "id": "5.16",
@@ -51345,9 +51814,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Titta på punktmolnets riktning och spridning. Om en regressionslinje finns, tolka lutning och startvärde i just sammanhanget.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Titta på punktmolnets riktning och spridning. Om en regressionslinje finns, tolka lutning och startvärde i just sammanhanget.</p>"
   },
   {
     "id": "5.24",
@@ -51506,9 +51973,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>a) Vinsten är \\((p-35)q-8000\\). Sätt in \\(p=95-0{,}05q\\):</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) Vinsten är \\((p-35)q-8000\\). Sätt in \\(p=95-0{,}05q\\):</p>"
   },
   {
     "id": "5.30",
@@ -51751,9 +52216,7 @@ window.BANKMA2 = [
       "b)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>a) Talet 14 betyder att modellen lägger till 14 minuter per ärende. Talet 30 är en fast tidsdel som inte beror på antalet ärenden.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) Talet 14 betyder att modellen lägger till 14 minuter per ärende. Talet 30 är en fast tidsdel som inte beror på antalet ärenden.</p>"
   },
   {
     "id": "5.37",
@@ -51780,9 +52243,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Rita gärna en hjälptriangel mellan punkterna. Skillnaderna i x- och y-led blir kateter; använd Pythagoras för avstånd och medelvärdet av koordinaterna för mittpunkten.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Rita gärna en hjälptriangel mellan punkterna. Skillnaderna i x- och y-led blir kateter; använd Pythagoras för avstånd och medelvärdet av koordinaterna för mittpunkten.</p>"
   },
   {
     "id": "5.38",
@@ -51848,9 +52309,7 @@ window.BANKMA2 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
   },
   {
     "id": "5.40",
@@ -52282,9 +52741,7 @@ window.BANKMA2 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Rita gärna en hjälptriangel mellan punkterna. Skillnaderna i x- och y-led blir kateter; använd Pythagoras för avstånd och medelvärdet av koordinaterna för mittpunkten.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Rita gärna en hjälptriangel mellan punkterna. Skillnaderna i x- och y-led blir kateter; använd Pythagoras för avstånd och medelvärdet av koordinaterna för mittpunkten.</p>"
   },
   {
     "id": "5.52",
@@ -52550,9 +53007,7 @@ window.BANKMA2 = [
       "b) avstånd (m)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
   },
   {
     "id": "5.59",
@@ -52579,9 +53034,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "id": "5.60",
@@ -52622,9 +53075,7 @@ window.BANKMA2 = [
       "a) konstant C",
       "b) avstånd (m)"
     ],
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>"
   },
   {
     "id": "5.61",
@@ -52710,9 +53161,7 @@ window.BANKMA2 = [
       "c) högsta pris (kr)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>a) Maximipunkten ligger vid \\(p=70\\). På grund av symmetrin måste därför \\(V(69)=V(71)\\).</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>a) Maximipunkten ligger vid \\(p=70\\). På grund av symmetrin måste därför \\(V(69)=V(71)\\).</p>"
   },
   {
     "id": "5.63",
@@ -52835,9 +53284,7 @@ window.BANKMA2 = [
       "b) övre tid",
       "c) antal"
     ],
-    "ledtrad": "<p>Rita normalfördelningen och markera det område som motsvarar sannolikheten. Standardisera med \\(z=(x-\\mu)/\\sigma\\) eller använd digital normalfördelningsfunktion med rätt gränser.</p>",
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Rita normalfördelningen och markera det område som motsvarar sannolikheten. Standardisera med \\(z=(x-\\mu)/\\sigma\\) eller använd digital normalfördelningsfunktion med rätt gränser.</p>"
   },
   {
     "id": "5.66",
@@ -53151,9 +53598,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
   },
   {
     "id": "5.77",
@@ -55055,9 +55500,7 @@ window.BANKMA2 = [
       "a"
     ],
     "manuellKomplettering": true,
-    "ledtrad": "<p>Tre linjer kan misslyckas med att bilda en triangel på två helt olika sätt. Parallellitet är det ena – vilket är det andra?</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Tre linjer kan misslyckas med att bilda en triangel på två helt olika sätt. Parallellitet är det ena – vilket är det andra?</p>"
   },
   {
     "id": "2.732",
@@ -55225,9 +55668,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Pröva heltalen ett i taget och rita in dem i figuren. Glöm inte att heltal också kan vara negativa.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Pröva heltalen ett i taget och rita in dem i figuren. Glöm inte att heltal också kan vara negativa.</p>"
   },
   {
     "id": "2.738",
@@ -55417,9 +55858,7 @@ window.BANKMA2 = [
       "gemensam rot"
     ],
     "manuellKomplettering": true,
-    "ledtrad": "<p>Om ett tal är rot i båda ekvationerna är båda vänsterleden noll där. Vad händer med \\(x^2\\)-termen om du subtraherar ekvationerna?</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Om ett tal är rot i båda ekvationerna är båda vänsterleden noll där. Vad händer med \\(x^2\\)-termen om du subtraherar ekvationerna?</p>"
   },
   {
     "id": "2.740",
@@ -55489,9 +55928,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "manuellKomplettering": true,
-    "ledtrad": "<p>Skriv \\(f(x)=C\\cdot a^x\\) och sätt in i \\(f(x+2)=3f(x)\\). Vilken potens av \\(a\\) dyker upp?</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Skriv \\(f(x)=C\\cdot a^x\\) och sätt in i \\(f(x+2)=3f(x)\\). Vilken potens av \\(a\\) dyker upp?</p>"
   },
   {
     "id": "3.298",
@@ -55545,9 +55982,7 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Kalla talen \\(x_1\\) till \\(x_9\\) och skriv om varje villkor som en ekvation. Hur många av de nio talen blir faktiskt bestämda?</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Kalla talen \\(x_1\\) till \\(x_9\\) och skriv om varje villkor som en ekvation. Hur många av de nio talen blir faktiskt bestämda?</p>"
   },
   {
     "id": "4.413",
@@ -55589,9 +56024,7 @@ window.BANKMA2 = [
       "σ (g)"
     ],
     "manuellKomplettering": true,
-    "ledtrad": "<p>Vilka andelar hör ihop med \\(\\mu\\pm\\sigma\\) och \\(\\mu\\pm2\\sigma\\)? Halvera det som ligger utanför, så ser du vad 15,9 % och 2,3 % betyder.</p>",
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    "ledtrad": "<p>Vilka andelar hör ihop med \\(\\mu\\pm\\sigma\\) och \\(\\mu\\pm2\\sigma\\)? Halvera det som ligger utanför, så ser du vad 15,9 % och 2,3 % betyder.</p>"
   },
   {
     "id": "2.742",
@@ -56176,7 +56609,7 @@ window.BANKMA2 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Bestäm alla värden på \\(a\\) för vilka ekvationen \\(x^2-6x+a=0\\) har två olika positiva rötter.</p>",
-    "s": "<p>Skriv ekvationen på pq-form. Här är \\(p=-6\\) och \\(q=a\\):</p><p>\\[x=3\\pm\\sqrt{9-a}.\\]</p><p>Två olika reella rötter kräver \\(9-a>0\\), alltså \\(a<9\\).</p><p>Den mindre roten måste dessutom vara positiv:</p><p>\\[3-\\sqrt{9-a}>0\\Rightarrow\\sqrt{9-a}<3\\Rightarrow a>0.\\]</p><p><strong>Svar:</strong> Båda kraven gäller precis när \\(0<a<9\\).</p><p>Vid \\(a=0\\) är den ena roten noll, och vid \\(a=9\\) sammanfaller rötterna. Ändpunkterna ska därför inte tas med.</p>",
+    "s": "<p>Skriv villkoren med hjälp av sambandet mellan rötter och koefficienter. För \\(x^2-6x+a=0\\) är rötternas summa \\(6\\) och rötternas produkt \\(a\\).</p><p>Två olika reella rötter kräver att uttrycket under rottecknet är positivt: \\(9-a&gt;0\\), alltså \\(a&lt;9\\).</p><p>Summan är redan positiv. För att båda rötterna ska vara positiva måste också produkten vara positiv: \\(a&gt;0\\).</p><p>Om \\(a\\le0\\) är produkten noll eller negativ, och då är minst en rot noll eller negativ. Villkoren är alltså både nödvändiga och tillräckliga.</p><p><strong>Svar:</strong> \\(0&lt;a&lt;9\\)</p>",
     "familj": "Lösningsformeln",
     "formaga": [
       "problemlösning",
@@ -56188,12 +56621,16 @@ window.BANKMA2 = [
     "självrättning": false,
     "miniräknare": false,
     "geogebra": false,
-    "ledtrad": "<p>Använd pq-formeln. Kontrollera separat att roten ur är positiv och att den mindre av de två rötterna är större än noll.</p>",
+    "ledtrad": "<p>Två villkor behövs: att rötterna är reella och olika, och att båda är positiva. Vad säger rötternas produkt om tecknen?</p>",
     "kurs": [
       "2a",
       "2b",
       "2c"
-    ]
+    ],
+    "manuellKomplettering": true,
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "MA2-AK-04",
@@ -56296,9 +56733,7 @@ window.BANKMA2 = [
     "kurs": [
       "2b",
       "2c"
-    ],
-    "delmix": "samma",
-    "delmixKalla": "auto"
+    ]
   },
   {
     "id": "MA2-AK-08",
@@ -56324,9 +56759,7 @@ window.BANKMA2 = [
       "2a",
       "2b",
       "2c"
-    ],
-    "delmix": "olika",
-    "delmixKalla": "auto"
+    ]
   },
   {
     "id": "MA2-AK-09",
@@ -56510,7 +56943,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Lös ekvationerna. Välj en lämplig metod för var och en.</p><p>a)&nbsp;\\(x^2-16=0\\)<br>b)&nbsp;\\(x^2+5x=0\\)<br>c)&nbsp;\\(x^2+4x-21=0\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tre ekvationer, tre olika metoder. Titta på ekvationens form innan du börjar räkna.</p><div class=\"facit-arbete\"><p>a) Ingen x-term: flytta över och dra roten ur. \\(x^2=16\\) ger \\(x=\\pm4\\).</p><p>b) Ingen konstantterm: bryt ut \\(x\\). \\(x(x+5)=0\\) ger \\(x=0\\) eller \\(x=-5\\).</p><p>c) Både x-term och konstantterm: använd pq-formeln. \\(x=-2\\pm\\sqrt{4+21}=-2\\pm5\\), alltså \\(x=3\\) eller \\(x=-7\\).</p><p><strong>a) \\(\\pm4\\) &nbsp; b) \\(0\\) och \\(-5\\) &nbsp; c) \\(3\\) och \\(-7\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> pq-formeln fungerar även i a) och b), men går långsammare. Att välja metod efter ekvationens form sparar tid och minskar risken för fel.</p></div>",
+    "s": "<p>a) Ingen x-term: \\(x^2=16\\) ger \\(x=\\pm4\\).</p><p>b) Ingen konstantterm: \\(x(x+5)=0\\) ger \\(x=0\\) eller \\(x=-5\\).</p><p>c) Både x-term och konstantterm: \\(x=-2\\pm\\sqrt{4+21}=-2\\pm5\\), alltså \\(3\\) eller \\(-7\\).</p><p><strong>Svar:</strong> a) \\(\\pm4\\) &nbsp; b) \\(0\\) och \\(-5\\) &nbsp; c) \\(3\\) och \\(-7\\)</p>",
     "geogebra": false,
     "miniräknare": false,
     "tolerans": null,
@@ -56554,7 +56987,7 @@ window.BANKMA2 = [
       "c)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Saknas x-termen? Dra roten ur. Saknas konstanttermen? Bryt ut \\(x\\). Finns båda? Använd pq-formeln.</p>",
+    "ledtrad": "<p>Saknas x-termen? Saknas konstanttermen? Finns båda? Formen avgör vilken väg som är kortast.</p>",
     "delmix": "olika",
     "delmetoder": [
       "kvadratrotmetoden",
@@ -56568,7 +57001,10 @@ window.BANKMA2 = [
       "2c"
     ],
     "familj": "Lösningsformeln",
-    "familjTidigare": "Lösa andragradsekvationer med lösningsformel"
+    "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.802",
@@ -56576,7 +57012,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\(3x^2=27\\)<br>b)&nbsp;\\((x-2)(2x+6)=0\\)<br>c)&nbsp;\\(x^2-5x+2=0\\). Svara exakt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Formen avgör metoden: rotutdragning, nollproduktmetoden eller pq-formeln.</p><div class=\"facit-arbete\"><p>a) Dividera med 3: \\(x^2=9\\), alltså \\(x=\\pm3\\).</p><p>b) En produkt är noll när en faktor är noll: \\(x=2\\) eller \\(2x+6=0\\), det vill säga \\(x=-3\\).</p><p>c) pq-formeln: \\(x=\\dfrac52\\pm\\sqrt{\\dfrac{25}{4}-2}=\\dfrac52\\pm\\sqrt{\\dfrac{17}{4}}=\\dfrac{5\\pm\\sqrt{17}}{2}\\).</p><p><strong>a) \\(\\pm3\\) &nbsp; b) \\(2\\) och \\(-3\\) &nbsp; c) \\(x=\\dfrac{5\\pm\\sqrt{17}}{2}\\approx4{,}56\\) och \\(0{,}44\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> I c) går uttrycket inte att faktorisera med heltal. Det är just då pq-formeln behövs.</p></div>",
+    "s": "<p>a) \\(x^2=9\\) ger \\(x=\\pm3\\).</p><p>b) Produkten är noll när en faktor är noll: \\(x=2\\) eller \\(2x+6=0\\), det vill säga \\(x=-3\\).</p><p>c) \\(x=\\dfrac52\\pm\\sqrt{\\dfrac{25}{4}-2}=\\dfrac{5\\pm\\sqrt{17}}{2}\\).</p><p><strong>Svar:</strong> a) \\(\\pm3\\) &nbsp; b) \\(2\\) och \\(-3\\) &nbsp; c) \\(x=\\dfrac{5\\pm\\sqrt{17}}{2}\\approx4{,}56\\) och \\(0{,}44\\)</p>",
     "geogebra": false,
     "miniräknare": false,
     "tolerans": [
@@ -56627,7 +57063,7 @@ window.BANKMA2 = [
       "c)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Titta först på om ekvationen saknar x-term, redan är faktoriserad, eller är fullständig.</p>",
+    "ledtrad": "<p>I c) går uttrycket inte att faktorisera med heltal. Då återstår formeln.</p>",
     "delmix": "olika",
     "delmetoder": [
       "kvadratrotmetoden",
@@ -56641,7 +57077,10 @@ window.BANKMA2 = [
       "2c"
     ],
     "familj": "Lösningsformeln",
-    "familjTidigare": "Lösa andragradsekvationer med lösningsformel"
+    "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.803",
@@ -56718,44 +57157,45 @@ window.BANKMA2 = [
   {
     "id": "2.804",
     "omr": "losningsformel_andragrad",
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Lös ekvationerna med pq-formeln.</p><p>a)&nbsp;\\(x^2+6x+5=0\\)<br>b)&nbsp;\\(x^2-2x-15=0\\)<br>c)&nbsp;\\(x^2+3x-10=0\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> pq-formeln: för \\(x^2+px+q=0\\) gäller \\(x=-\\dfrac p2\\pm\\sqrt{\\left(\\dfrac p2\\right)^2-q}\\). Håll koll på tecknen på \\(p\\) och \\(q\\).</p><div class=\"facit-arbete\"><p>a) \\(x=-3\\pm\\sqrt{9-5}=-3\\pm2\\), alltså \\(-1\\) och \\(-5\\).</p><p>b) \\(x=1\\pm\\sqrt{1+15}=1\\pm4\\), alltså \\(5\\) och \\(-3\\).</p><p>c) \\(x=-1{,}5\\pm\\sqrt{2{,}25+10}=-1{,}5\\pm3{,}5\\), alltså \\(2\\) och \\(-5\\).</p><p><strong>a) \\(-1\\) och \\(-5\\) &nbsp; b) \\(5\\) och \\(-3\\) &nbsp; c) \\(2\\) och \\(-5\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med rötternas summa \\(-p\\) och produkt \\(q\\). I a): \\(-1+(-5)=-6\\) och \\((-1)(-5)=5\\).</p></div>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Lös ekvationerna. Svara exakt.</p><p>a)&nbsp;\\(x^2-4x+1=0\\)<br>b)&nbsp;\\(x^2+2x-4=0\\)<br>c)&nbsp;\\(x^2-5x+5=0\\)</p>",
+    "s": "<p>a) \\(x=2\\pm\\sqrt{4-1}=2\\pm\\sqrt3\\).</p><p>b) \\(x=-1\\pm\\sqrt{1+4}=-1\\pm\\sqrt5\\).</p><p>c) \\(x=\\dfrac52\\pm\\sqrt{\\dfrac{25}4-5}=\\dfrac52\\pm\\dfrac{\\sqrt5}{2}=\\dfrac{5\\pm\\sqrt5}{2}\\).</p><p><strong>Svar:</strong> a) \\(2\\pm\\sqrt3\\) &nbsp; b) \\(-1\\pm\\sqrt5\\) &nbsp; c) \\(\\dfrac{5\\pm\\sqrt5}{2}\\)</p>",
     "geogebra": false,
     "miniräknare": false,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "rättSvar": [
       [
-        -5,
-        -1
+        "2+sqrt(3)",
+        "2-sqrt(3)"
       ],
       [
-        -3,
-        5
+        "-1+sqrt(5)",
+        "-1-sqrt(5)"
       ],
       [
-        -5,
-        2
+        "(5+sqrt(5))/2",
+        "(5-sqrt(5))/2"
       ]
     ],
     "svarstyp": "flera_delar",
     "svarFormat": [
       [
-        "numeriskt",
-        "numeriskt"
+        "uttryck",
+        "uttryck"
       ],
       [
-        "numeriskt",
-        "numeriskt"
+        "uttryck",
+        "uttryck"
       ],
       [
-        "numeriskt",
-        "numeriskt"
+        "uttryck",
+        "uttryck"
       ]
     ],
     "svarEtiketter": [
@@ -56764,7 +57204,7 @@ window.BANKMA2 = [
       "c)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Identifiera \\(p\\) och \\(q\\) med rätt tecken innan du sätter in i formeln.</p>",
+    "ledtrad": "<p>Talet under rottecknet är inte en jämn kvadrat. Låt roten stå kvar och förenkla den om det går.</p>",
     "delmix": "samma",
     "delmetoder": [
       "pq-formeln",
@@ -56778,21 +57218,25 @@ window.BANKMA2 = [
       "2c"
     ],
     "familj": "Lösningsformeln",
-    "familjTidigare": "Lösa andragradsekvationer med lösningsformel"
+    "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.805",
     "omr": "nollproduktmetoden",
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös ekvationerna med nollproduktmetoden.</p><p>a)&nbsp;\\((x+1)(x-8)=0\\)<br>b)&nbsp;\\(x^2-11x=0\\)<br>c)&nbsp;\\(3x(x+4)=0\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En produkt är noll precis när minst en av faktorerna är noll.</p><div class=\"facit-arbete\"><p>a) \\(x+1=0\\) eller \\(x-8=0\\), alltså \\(x=-1\\) eller \\(x=8\\).</p><p>b) Bryt ut \\(x\\): \\(x(x-11)=0\\) ger \\(x=0\\) eller \\(x=11\\).</p><p>c) Faktorn 3 kan aldrig bli noll. Kvar blir \\(x=0\\) eller \\(x=-4\\).</p><p><strong>a) \\(-1\\) och \\(8\\) &nbsp; b) \\(0\\) och \\(11\\) &nbsp; c) \\(0\\) och \\(-4\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En konstant faktor skild från noll påverkar inte lösningarna, bara funktionens utseende.</p></div>",
+    "t": "<p>Lös ekvationerna.</p><p>a)&nbsp;\\((x+1)(x-8)=0\\)<br>b)&nbsp;\\(x^2-11x=0\\)<br>c)&nbsp;\\(3x(x+4)=0\\)</p>",
+    "s": "<p>a) \\(x=-1\\) eller \\(x=8\\).</p><p>b) \\(x(x-11)=0\\) ger \\(x=0\\) eller \\(x=11\\).</p><p>c) Faktorn 3 kan aldrig bli noll, så \\(x=0\\) eller \\(x=-4\\).</p><p><strong>Svar:</strong> a) \\(-1\\) och \\(8\\) &nbsp; b) \\(0\\) och \\(11\\) &nbsp; c) \\(0\\) och \\(-4\\)</p>",
     "geogebra": false,
     "miniräknare": false,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "rättSvar": [
       [
@@ -56829,7 +57273,7 @@ window.BANKMA2 = [
       "c)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv vänsterledet som en produkt och sätt varje faktor lika med noll.</p>",
+    "ledtrad": "<p>En konstant faktor skild från noll ger ingen lösning.</p>",
     "delmix": "samma",
     "delmetoder": [
       "nollproduktmetoden",
@@ -56843,7 +57287,10 @@ window.BANKMA2 = [
       "2c"
     ],
     "familj": "Nollproduktmetoden",
-    "familjTidigare": "Nollproduktmetoden och faktorisering"
+    "familjTidigare": "Nollproduktmetoden och faktorisering",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.806",
@@ -56983,7 +57430,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Funktionen \\(f(x)=x^2-6x+11\\) är given.</p><p>a)&nbsp;Skriv \\(f(x)\\) på formen \\((x-h)^2+k\\).<br>b)&nbsp;Bestäm symmetrilinjens ekvation.<br>c)&nbsp;Bestäm funktionens minsta värde och avgör hur många nollställen \\(f\\) har.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Kvadratkomplettering gör extrempunkten synlig: i formen \\((x-h)^2+k\\) är extrempunkten \\((h,k)\\).</p><div class=\"facit-arbete\"><p>a) \\(x^2-6x+11=(x-3)^2-9+11=(x-3)^2+2\\).</p><p>b) Symmetrilinjen är \\(x=3\\).</p><p>c) Minsta värdet är \\(k=2\\). Eftersom minsta värdet är positivt ligger hela grafen ovanför x-axeln, så \\(f\\) saknar nollställen.</p><p><strong>a) \\((x-3)^2+2\\) &nbsp; b) \\(x=3\\) &nbsp; c) minsta värdet är \\(2\\), inga nollställen</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontroll: \\(f(3)=9-18+11=2\\). Samma värde som \\(k\\).</p></div>",
+    "s": "<p>a) \\(x^2-6x+11=(x-3)^2-9+11=(x-3)^2+2\\).</p><p>b) Formen visar att symmetrilinjen är \\(x=3\\).</p><p>c) Kvadraten är minst 0, så minsta värdet är \\(2\\). Eftersom minsta värdet är positivt ligger hela grafen ovanför x-axeln och funktionen saknar nollställen.</p><p><strong>Svar:</strong> a) \\((x-3)^2+2\\) &nbsp; b) \\(x=3\\) &nbsp; c) minsta värdet är \\(2\\), inga nollställen</p>",
     "geogebra": false,
     "miniräknare": false,
     "tolerans": null,
@@ -57010,7 +57457,7 @@ window.BANKMA2 = [
       "c) minsta värde"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Halvera koefficienten framför \\(x\\) och kompensera för den kvadrat du lägger till.</p>",
+    "ledtrad": "<p>Halvera koefficienten framför \\(x\\) och kompensera. Vad säger sedan \\(k\\) i \\((x-h)^2+k\\) om nollställena?</p>",
     "delmix": "olika",
     "delmetoder": [
       "kvadratkomplettering",
@@ -57021,7 +57468,10 @@ window.BANKMA2 = [
     "kurs": [
       "2c"
     ],
-    "familj": "Kvadratkomplettering"
+    "familj": "Kvadratkomplettering",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.810",
@@ -57029,7 +57479,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Skriv uttrycken på formen \\((x+a)^2+b\\).</p><p>a)&nbsp;\\(x^2+8x+3\\)<br>b)&nbsp;\\(x^2-10x+30\\)<br>c)&nbsp;\\(x^2+5x\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Halvera koefficienten framför \\(x\\), kvadrera och dra bort lika mycket som du lade till.</p><div class=\"facit-arbete\"><p>a) \\(x^2+8x+3=(x+4)^2-16+3=(x+4)^2-13\\).</p><p>b) \\(x^2-10x+30=(x-5)^2-25+30=(x-5)^2+5\\).</p><p>c) \\(x^2+5x=(x+2{,}5)^2-6{,}25\\).</p><p><strong>a) \\((x+4)^2-13\\) &nbsp; b) \\((x-5)^2+5\\) &nbsp; c) \\((x+2{,}5)^2-6{,}25\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera genom att utveckla tillbaka. I c): \\((x+2{,}5)^2-6{,}25=x^2+5x+6{,}25-6{,}25\\).</p></div>",
+    "s": "<p>a) \\(x^2+8x+3=(x+4)^2-16+3=(x+4)^2-13\\).</p><p>b) \\(x^2-10x+30=(x-5)^2-25+30=(x-5)^2+5\\).</p><p>c) Halva koefficienten är \\(2{,}5\\): \\(x^2+5x=(x+2{,}5)^2-6{,}25\\).</p><p><strong>Svar:</strong> a) \\((x+4)^2-13\\) &nbsp; b) \\((x-5)^2+5\\) &nbsp; c) \\((x+2{,}5)^2-6{,}25\\)</p>",
     "geogebra": false,
     "miniräknare": false,
     "tolerans": null,
@@ -57054,7 +57504,7 @@ window.BANKMA2 = [
       "c)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Halva koefficienten framför \\(x\\) hamnar inne i parentesen.</p>",
+    "ledtrad": "<p>Halva koefficienten framför \\(x\\) hamnar inne i parentesen – även när den inte är ett heltal.</p>",
     "delmix": "samma",
     "delmetoder": [
       "kvadratkomplettering",
@@ -57065,7 +57515,10 @@ window.BANKMA2 = [
     "kurs": [
       "2c"
     ],
-    "familj": "Kvadratkomplettering"
+    "familj": "Kvadratkomplettering",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.811",
@@ -57172,7 +57625,7 @@ window.BANKMA2 = [
     "omr": "linjara_ekvationssystem",
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Lös systemen med angiven metod.</p><p>a)&nbsp;Med substitutionsmetoden: \\(\\begin{cases}y=2x-1\\\\3x+y=14\\end{cases}\\)<br>b)&nbsp;Med additionsmetoden: \\(\\begin{cases}4x+3y=23\\\\2x-3y=7\\end{cases}\\)<br>c)&nbsp;Välj själv metod och motivera valet: \\(\\begin{cases}x=3y\\\\2x+y=21\\end{cases}\\)</p>",
+    "t": "<p>Lös ekvationssystemen. Motivera för varje system vilken väg du valde.</p><p>a)&nbsp;\\(\\begin{cases}y=2x-1\\\\3x+y=14\\end{cases}\\)<br>b)&nbsp;\\(\\begin{cases}4x+3y=23\\\\2x-3y=7\\end{cases}\\)<br>c)&nbsp;\\(\\begin{cases}x=3y\\\\2x+y=21\\end{cases}\\)</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Samma sorts problem, tre olika angreppssätt. I c) är poängen att motivera valet.</p><div class=\"facit-arbete\"><p>a) \\(3x+(2x-1)=14\\) ger \\(5x=15\\), alltså \\(x=3\\) och \\(y=5\\).</p><p>b) Addera ekvationerna så försvinner y-termerna: \\(6x=30\\), alltså \\(x=5\\). Insättning ger \\(20+3y=23\\), det vill säga \\(y=1\\).</p><p>c) Substitution är enklast eftersom \\(x\\) redan är utbrutet: \\(2(3y)+y=21\\) ger \\(7y=21\\), alltså \\(y=3\\) och \\(x=9\\).</p><p><strong>a) \\((3,5)\\) &nbsp; b) \\((5,1)\\) &nbsp; c) \\((9,3)\\), substitutionsmetoden</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Substitution passar när en variabel är utbruten, addition när koefficienterna är motsatta eller lätta att göra motsatta.</p></div>",
     "geogebra": false,
     "miniräknare": false,
@@ -57228,7 +57681,7 @@ window.BANKMA2 = [
     "omr": "additionsmetoden",
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös systemen med additionsmetoden.</p><p>a)&nbsp;\\(\\begin{cases}2x+y=11\\\\x-y=1\\end{cases}\\)<br>b)&nbsp;\\(\\begin{cases}3x+4y=18\\\\3x-2y=0\\end{cases}\\)<br>c)&nbsp;\\(\\begin{cases}5x+3y=21\\\\2x-3y=0\\end{cases}\\)</p>",
+    "t": "<p>Lös systemen.</p><p>a)&nbsp;\\(\\begin{cases}2x+y=11\\\\x-y=1\\end{cases}\\)<br>b)&nbsp;\\(\\begin{cases}3x+4y=18\\\\3x-2y=0\\end{cases}\\)<br>c)&nbsp;\\(\\begin{cases}5x+3y=21\\\\2x-3y=0\\end{cases}\\)</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Addera eller subtrahera ekvationerna så att en variabel försvinner.</p><div class=\"facit-arbete\"><p>a) Addera: \\(3x=12\\) ger \\(x=4\\), och \\(4-y=1\\) ger \\(y=3\\).</p><p>b) Subtrahera den andra från den första: \\(6y=18\\) ger \\(y=3\\), och \\(3x-6=0\\) ger \\(x=2\\).</p><p>c) Addera: \\(7x=21\\) ger \\(x=3\\), och \\(6-3y=0\\) ger \\(y=2\\).</p><p><strong>a) \\((4,3)\\) &nbsp; b) \\((2,3)\\) &nbsp; c) \\((3,2)\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera alltid i den ekvation du inte använde för insättningen.</p></div>",
     "geogebra": false,
     "miniräknare": false,

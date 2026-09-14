@@ -1473,6 +1473,15 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 }
 .aline input:focus,.aline textarea:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 4px var(--accSoft)}
 .aline textarea{min-height:96px;resize:vertical;line-height:1.5}
+/* När tangentbordet är uppe på mobilen är varje rad text värd något.
+   Notisen och rubriken tas bort så mer av uppgiften ryms ovanför rutan. */
+@media(max-width:820px){
+  body.skriver .azone .notice{display:none}
+  body.skriver .azone h3{display:none}
+  body.skriver .azone{padding:14px 20px}
+  body.skriver .partline{margin-bottom:8px}
+  body.skriver .aline textarea{min-height:64px}
+}
 
 .symrad{
   display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;
@@ -7289,6 +7298,45 @@ function stangBetaruta(){
 }
 window.KG_BETAINFO=function(){ try{ localStorage.removeItem(BETA_INFO_KEY); }catch(_){} visaBetaruta(); };
 
+/* =======================================================================
+   Skrivläge på mobil
+
+   När tangentbordet fälls upp krymper den synliga ytan till en tredjedel.
+   Utan hjälp hamnar svarsrutan mitt i bilden och uppgiftstexten trycks ut
+   ovanför kanten. Vi lägger i stället rutan strax ovanför tangentbordet,
+   så allt utrymme som blir över går till uppgiften.
+   ===================================================================== */
+let skrivRuta=null;
+function hallSvarsrutaSynlig(){
+  const vv=window.visualViewport, el=skrivRuta;
+  if(!vv || !el || !document.body.contains(el)) return;
+  const r=el.getBoundingClientRect();
+  const marginal=12;
+  const onskadTop=vv.height-r.height-marginal;
+  const diff=r.top-onskadTop;
+  if(Math.abs(diff)>10) window.scrollBy({top:diff,behavior:"smooth"});
+}
+document.addEventListener("focusin",e=>{
+  const el=e.target;
+  if(!el || !el.closest?.(".ainputs")) return;
+  if(el.tagName!=="INPUT" && el.tagName!=="TEXTAREA") return;
+  skrivRuta=el;
+  document.body.classList.add("skriver");
+  setTimeout(hallSvarsrutaSynlig,320);
+});
+document.addEventListener("focusout",e=>{
+  if(!e.target?.closest?.(".ainputs")) return;
+  setTimeout(()=>{
+    const a=document.activeElement;
+    if(a && a.closest?.(".ainputs")) return;
+    skrivRuta=null;
+    document.body.classList.remove("skriver");
+  },80);
+});
+window.visualViewport?.addEventListener("resize",()=>{
+  if(skrivRuta) setTimeout(hallSvarsrutaSynlig,60);
+});
+
 function papperNyckel(){
   return PAPPER_TAKT==="pass" ? String(Date.now()) : new Date().toISOString().slice(0,10);
 }
@@ -7556,8 +7604,12 @@ function renderTraining(){
       <div class="aline">
         <label>${etikett}</label>
         ${isLongAnswer
-          ? `<textarea id="ans-${i}" autocomplete="off" placeholder="Skriv ditt svar här"${laasta(i)?" disabled":""} onfocus="state.aktivRuta=${i}"></textarea>`
-          : `<input id="ans-${i}" autocomplete="off"
+          ? `<textarea id="ans-${i}" name="kgsvar${i}" autocomplete="off" autocorrect="off"
+              autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore
+              data-form-type="other" placeholder="Skriv ditt svar här"${laasta(i)?" disabled":""} onfocus="state.aktivRuta=${i}"></textarea>`
+          : `<input id="ans-${i}" name="kgsvar${i}" autocomplete="off" autocorrect="off"
+              autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore
+              data-form-type="other" type="text"
               inputmode="${sifferlage(expectedInfo.answers[i],rutEnhet(i))?"decimal":"text"}"
               placeholder="${
                 rutEnhet(i) ? "Svar i "+esc(rutEnhet(i))

@@ -1326,6 +1326,44 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .tag.lv5 .pips b{background:var(--lvl3)}
 .tag.lv4,.tag.lv5{color:var(--ink);font-weight:700}
 .tid{margin-left:auto;font-size:11px;color:var(--ink3)}
+
+/* Felflagga på uppgiften. Diskret tills den behövs, tydlig när den klickats. */
+.felflagga{
+  display:inline-flex;align-items:center;gap:5px;height:24px;padding:0 9px;border-radius:99px;
+  border:1px solid var(--hair);background:var(--surface);color:var(--ink3);
+  font-size:11px;font-weight:600;letter-spacing:-.01em;transition:.2s var(--ease);
+}
+.felflagga svg{width:12px;height:12px;flex:none}
+.felflagga:hover{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 40%,var(--hair))}
+.felflagga.rapporterad{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 45%,var(--hair));
+  background:color-mix(in srgb,var(--warn) 9%,var(--surface))}
+.felflagga.rapporterad:hover{opacity:.75}
+@media(max-width:520px){ .felflagga span{display:none} .felflagga{padding:0 7px} }
+
+.felval{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 4px}
+.felval button{
+  padding:7px 11px;border-radius:99px;border:1px solid var(--hair);background:var(--surface2);
+  color:var(--ink2);font-size:12.5px;font-weight:600;transition:.2s var(--ease);
+}
+.felval button.vald{border-color:var(--acc);background:var(--accSoft);color:var(--accInk)}
+#felruta textarea{
+  width:100%;margin-top:12px;min-height:74px;padding:11px 13px;border-radius:14px;resize:vertical;
+  border:1px solid var(--hair);background:var(--surface2);color:var(--ink);
+  font-family:var(--read);font-size:14px;
+}
+.fellogg{display:flex;flex-direction:column;gap:7px;margin-top:14px}
+.fellogg .kursrad{font-family:var(--mono);font-size:10px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink3);margin-top:10px}
+.felpost{display:flex;align-items:center;gap:11px;padding:10px 12px;border-radius:14px;
+  border:1px solid var(--hair);background:var(--surface2)}
+.felpost.klar{opacity:.5}
+.felpost .nr{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--ink)}
+.felpost .txt{flex:1;min-width:0;font-size:12px;color:var(--ink2)}
+.felpost .txt em{font-style:normal;color:var(--ink3)}
+.felpost .antal{font-size:11px;font-weight:700;color:var(--warn);white-space:nowrap}
+.felpost .knapp{font-size:11px;font-weight:650;color:var(--ink3);border:1px solid var(--hair);
+  border-radius:9px;padding:5px 8px;background:var(--surface)}
+.felpost .knapp:hover{color:var(--good);border-color:color-mix(in srgb,var(--good) 40%,var(--hair))}
 .verktygsikoner{display:inline-flex;align-items:center;gap:5px;flex:none}
 .verktygsikon{
   width:22px;height:22px;border-radius:7px;display:inline-grid;place-items:center;
@@ -6680,6 +6718,285 @@ function animeraXp(fore,efter){
   }
 }
 
+/* =======================================================================
+   Felrapportering
+
+   Eleven klickar på flaggan i uppgiftens huvud. Ingen beskrivning krävs –
+   en rapport räcker för att uppgiften ska hamna i lärarens logg. Valfria
+   taggar och en rad text följer med om eleven vill.
+
+   Rapporten sparas alltid lokalt först och skickas sedan till Supabase
+   (rpc kg_rapportera_fel). Misslyckas nätet ligger den kvar i kön och
+   skickas nästa gång sidan öppnas. Lärarens logg öppnas med ?felrapporter=1
+   eller KG_FELRAPPORTER() i konsolen, och läser rpc kg_felrapport_logg.
+   ===================================================================== */
+const FEL_KO_KEY="kunskapsgymmet-felrapporter";
+const FEL_ENHET_KEY="kunskapsgymmet-enhet";
+const FEL_TAGGAR=[
+  {id:"facit",     txt:"Fel svar i facit"},
+  {id:"otydlig",   txt:"Frågan är otydlig"},
+  {id:"bild",      txt:"Bild eller figur saknas"},
+  {id:"losning",   txt:"Fel i lösningen"},
+  {id:"annat",     txt:"Något annat"}
+];
+
+function felEnhetsId(){
+  try{
+    let id=localStorage.getItem(FEL_ENHET_KEY);
+    if(!id){
+      id=(globalThis.crypto?.randomUUID?.())||("enh-"+Date.now().toString(36)+Math.random().toString(36).slice(2,10));
+      localStorage.setItem(FEL_ENHET_KEY,id);
+    }
+    return id;
+  }catch(_){ return "okand-enhet"; }
+}
+function felLasaKo(){
+  try{ const x=JSON.parse(localStorage.getItem(FEL_KO_KEY)||"[]"); return Array.isArray(x)?x:[]; }
+  catch(_){ return []; }
+}
+function felSkrivKo(lista){
+  try{ localStorage.setItem(FEL_KO_KEY,JSON.stringify(lista.slice(-200))); }catch(_){}
+}
+function felUppgiftsId(t){ return String(t?.ursprungsId||t?.id||""); }
+function felRedanRapporterad(t){
+  const id=felUppgiftsId(t);
+  return felLasaKo().some(r=>r.kurs===state.course && r.uppgift===id);
+}
+function felFlaggaHtml(t){
+  const gjord=felRedanRapporterad(t);
+  return `<button class="felflagga${gjord?" rapporterad":""}" type="button" id="felflagga"
+      onclick="oppnaFelrapport()" title="Rapportera fel i uppgiften"
+      aria-label="Rapportera fel i uppgiften">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4 21V4h9l.6 2H20v9h-6.4l-.6-2H4"/></svg>
+      <span>${gjord?"Rapporterad":"Rapportera fel"}</span>
+    </button>`;
+}
+
+async function felSkickaEn(r){
+  if(!MOLN_PA()) return false;
+  try{
+    const svar=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_rapportera_fel",{
+      method:"POST",headers:sbHeaders(!!session),
+      body:JSON.stringify({p_rapport:{
+        kurs:r.kurs, spar:r.spar||null, uppgift:r.uppgift, deluppgift:r.deluppgift||null,
+        kapitel:r.kapitel||null, omrade:r.omrade||null, svarstyp:r.svarstyp||null,
+        taggar:r.taggar||[], kommentar:r.kommentar||null,
+        bank:r.bank||null, enhet:r.enhet||null, tid:r.tid||null
+      }})
+    });
+    return svar.ok;
+  }catch(_){ return false; }
+}
+async function felTommKo(){
+  const ko=felLasaKo();
+  if(!ko.some(r=>!r.skickad)) return;
+  let andrat=false;
+  for(const r of ko){
+    if(r.skickad) continue;
+    if(await felSkickaEn(r)){ r.skickad=true; andrat=true; }
+  }
+  if(andrat) felSkrivKo(ko);
+}
+
+let felValdaTaggar=null;
+function oppnaFelrapport(){
+  const t=state.currentTask;
+  if(!t) return;
+  if(felRedanRapporterad(t)){ toast("Du har redan rapporterat den här uppgiften. Tack!"); return; }
+  stangFelrapport();
+  felValdaTaggar=new Set();
+  const el=document.createElement("div");
+  el.className="modal"; el.id="felruta";
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-label="Rapportera fel">
+      <div class="modal-topp">
+        <div>
+          <div class="lbl">Uppgift #${esc(felUppgiftsId(t))}</div>
+          <h2>Rapportera fel</h2>
+        </div>
+        <button class="iconbtn" onclick="stangFelrapport()" aria-label="Stäng">✕</button>
+      </div>
+      <p class="modal-text">Klicka bara på Skicka om något inte stämmer. Du behöver inte
+        förklara vad felet är – läraren ser vilken uppgift det gäller.</p>
+      <div class="felval">${FEL_TAGGAR.map(x=>
+        `<button type="button" data-fel-tagg="${x.id}" onclick="vaxlaFelTagg('${x.id}')">${esc(x.txt)}</button>`
+      ).join("")}</div>
+      <textarea id="felkommentar" maxlength="300" placeholder="Vill du säga något mer? (frivilligt)"></textarea>
+      <div class="modal-fot">
+        <span class="spacer"></span>
+        <button class="btn" onclick="stangFelrapport()">Avbryt</button>
+        <button class="btn primary" onclick="skickaFelrapport()">Skicka rapport</button>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangFelrapport(); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+}
+function stangFelrapport(){
+  const el=document.getElementById("felruta");
+  if(!el) return;
+  el.removeAttribute("id");
+  el.classList.remove("visa");
+  setTimeout(()=>el.remove(),250);
+}
+function vaxlaFelTagg(id){
+  if(!felValdaTaggar) return;
+  felValdaTaggar.has(id)?felValdaTaggar.delete(id):felValdaTaggar.add(id);
+  const k=document.querySelector(`#felruta [data-fel-tagg="${id}"]`);
+  if(k) k.classList.toggle("vald",felValdaTaggar.has(id));
+}
+function skickaFelrapport(){
+  const t=state.currentTask;
+  if(!t) return stangFelrapport();
+  const kommentar=(document.getElementById("felkommentar")?.value||"").trim().slice(0,300);
+  const post={
+    kurs:state.course, spar:state.track||null,
+    uppgift:felUppgiftsId(t), deluppgift:t.deluppgift||null,
+    kapitel:t.kap??null, omrade:t.omr||null,
+    svarstyp:t.svarstyp||null,
+    taggar:[...(felValdaTaggar||[])],
+    kommentar:kommentar||null,
+    bank:(typeof BANK_VERSION!=="undefined"?BANK_VERSION:null),
+    enhet:felEnhetsId(), tid:new Date().toISOString(), skickad:false
+  };
+  const ko=felLasaKo(); ko.push(post); felSkrivKo(ko);
+  stangFelrapport();
+  const knapp=document.getElementById("felflagga");
+  if(knapp){
+    knapp.classList.add("rapporterad");
+    const txt=knapp.querySelector("span"); if(txt) txt.textContent="Rapporterad";
+  }
+  toast("Tack! Uppgiften är markerad för granskning.");
+  felSkickaEn(post).then(ok=>{
+    if(!ok) return;
+    const lista=felLasaKo();
+    const rad=lista.find(r=>r.enhet===post.enhet && r.tid===post.tid && r.uppgift===post.uppgift);
+    if(rad){ rad.skickad=true; felSkrivKo(lista); }
+  });
+}
+
+/* ── Lärarens logg ───────────────────────────────────────────────────── */
+async function hamtaFelloggen(visaAtgardade){
+  if(!MOLN_PA()) throw new Error("Molnet är avstängt i den här versionen.");
+  if(!session) throw new Error("Logga in med ditt lärarkonto först.");
+  const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_felrapport_logg",{
+    method:"POST",headers:sbHeaders(true),
+    body:JSON.stringify({p_visa_atgardade:!!visaAtgardade})
+  });
+  if(r.status===404) throw new Error("Felrapport-tabellen är inte installerad i Supabase ännu.");
+  if(!r.ok) throw new Error("Loggen kunde inte hämtas. Är kontot upplagt som lärare?");
+  const d=await r.json();
+  return Array.isArray(d)?d:[];
+}
+let felloggData=[];
+let felloggVisaKlara=false;
+async function oppnaFelrapportLogg(){
+  stangFellogg();
+  const el=document.createElement("div");
+  el.className="modal"; el.id="fellogg";
+  el.innerHTML=`<div class="modal-kort" style="width:min(720px,100%)" role="dialog" aria-modal="true"
+      aria-label="Felrapporter">
+      <div class="modal-topp">
+        <div><div class="lbl">Lärarvy</div><h2>Felrapporterade uppgifter</h2></div>
+        <button class="iconbtn" onclick="stangFellogg()" aria-label="Stäng">✕</button>
+      </div>
+      <div class="fellogg" id="felloggkropp"><p class="modal-text">Hämtar loggen…</p></div>
+      <div class="modal-fot">
+        <button class="btn" onclick="vaxlaFelloggKlara()" id="felloggklara">Visa åtgärdade</button>
+        <span class="spacer"></span>
+        <button class="btn" onclick="laddaNerFellogg()">Ladda ner</button>
+        <button class="btn primary" onclick="kopieraFellogg()">Kopiera logg</button>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangFellogg(); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+  await ritaFellogg();
+}
+function stangFellogg(){
+  const el=document.getElementById("fellogg");
+  if(!el) return;
+  el.removeAttribute("id"); el.classList.remove("visa");
+  setTimeout(()=>el.remove(),250);
+}
+async function vaxlaFelloggKlara(){
+  felloggVisaKlara=!felloggVisaKlara;
+  const k=document.getElementById("felloggklara");
+  if(k) k.textContent=felloggVisaKlara?"Dölj åtgärdade":"Visa åtgärdade";
+  await ritaFellogg();
+}
+async function ritaFellogg(){
+  const host=document.getElementById("felloggkropp");
+  if(!host) return;
+  try{ felloggData=await hamtaFelloggen(felloggVisaKlara); }
+  catch(e){ host.innerHTML=`<p class="modal-text">${esc(e.message)}</p>`; return; }
+  if(!felloggData.length){
+    host.innerHTML=`<p class="modal-text">Inga öppna felrapporter just nu.</p>`; return;
+  }
+  let html="", kurs=null;
+  felloggData.forEach(r=>{
+    if(r.kurs!==kurs){
+      kurs=r.kurs;
+      html+=`<div class="kursrad">${esc(COURSES[kurs]?.name||kurs)}</div>`;
+    }
+    const taggar=(r.taggar||[]).map(x=>FEL_TAGGAR.find(y=>y.id===x)?.txt||x).join(" · ");
+    const komm=(r.kommentarer||[]).filter(Boolean).slice(0,3).join(" | ");
+    html+=`<div class="felpost${r.atgardad?" klar":""}">
+      <span class="nr">#${esc(r.uppgift)}</span>
+      <span class="txt">${taggar?esc(taggar):"<em>ingen tagg</em>"}${
+        komm?` · ${esc(komm)}`:""}${r.spar?` · ${esc(r.spar)}`:""}</span>
+      <span class="antal">${r.antal}×</span>
+      ${r.atgardad?"":`<button class="knapp" onclick="markeraFelAtgardad('${esc(r.kurs)}','${esc(r.uppgift)}')">Åtgärdad</button>`}
+    </div>`;
+  });
+  host.innerHTML=html;
+}
+async function markeraFelAtgardad(kurs,uppgift){
+  try{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_felrapport_atgardad",{
+      method:"POST",headers:sbHeaders(true),
+      body:JSON.stringify({p_kurs:kurs,p_uppgift:uppgift})
+    });
+    if(!r.ok) throw new Error("Kunde inte markera som åtgärdad.");
+    await ritaFellogg();
+  }catch(e){ toast(e.message); }
+}
+function felloggText(){
+  const rader=["Felrapporterade uppgifter · Kunskapsgymmet · "+new Date().toLocaleDateString("sv-SE"),""];
+  let kurs=null;
+  felloggData.forEach(r=>{
+    if(r.kurs!==kurs){
+      kurs=r.kurs;
+      rader.push("",(COURSES[kurs]?.name||kurs)+"  ["+kurs+"]");
+    }
+    const taggar=(r.taggar||[]).map(x=>FEL_TAGGAR.find(y=>y.id===x)?.txt||x).join(", ");
+    const komm=(r.kommentarer||[]).filter(Boolean).map(x=>'"'+x+'"').join(" ");
+    rader.push(`  #${r.uppgift}${r.deluppgift?" del "+r.deluppgift:""}`
+      +`${r.spar?"  spår "+r.spar:""}  ${r.antal} rapport${r.antal===1?"":"er"}`
+      +`${r.senast?"  senast "+String(r.senast).slice(0,10):""}`
+      +`${taggar?"\n      taggar: "+taggar:""}`
+      +`${komm?"\n      elevkommentarer: "+komm:""}`);
+  });
+  return rader.join("\n");
+}
+function kopieraFellogg(){
+  const txt=felloggText();
+  navigator.clipboard?.writeText(txt)
+    .then(()=>toast("Loggen kopierad."))
+    .catch(()=>toast("Kunde inte kopiera. Använd Ladda ner i stället."));
+}
+function laddaNerFellogg(){
+  const blob=new Blob([felloggText()+"\n\n"+JSON.stringify(felloggData,null,2)],
+    {type:"text/plain;charset=utf-8"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download="felrapporter-"+new Date().toISOString().slice(0,10)+".txt";
+  a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),4000);
+}
+window.KG_FELRAPPORTER=oppnaFelrapportLogg;
+
 function renderTraining(){
   state.view="training";
   const t=state.currentTask;
@@ -6766,7 +7083,7 @@ function renderTraining(){
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
       <article class="task">
-        <div class="tmeta">${meta}<span class="tid">#${esc(t.ursprungsId||t.id)}${t.deluppgift?" · del "+esc(t.deluppgift):""}</span></div>
+        <div class="tmeta">${meta}<span class="tid">#${esc(t.ursprungsId||t.id)}${t.deluppgift?" · del "+esc(t.deluppgift):""}</span>${felFlaggaHtml(t)}</div>
         <div class="tbody">${t.t||""}</div>
         <div class="azone" id="answer-zone">
           <div class="notice"><b aria-hidden="true">✎</b><span>Skriv ner fullständiga lösningar med papper och penna innan du skriver in svaren här.</span></div>
@@ -7004,7 +7321,7 @@ function renderAltTask(t){
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
       <article class="task">
-        <div class="tmeta">${levelChip(t)}<span class="tid">#${esc(t.ursprungsId||t.id)}</span></div>
+        <div class="tmeta">${levelChip(t)}<span class="tid">#${esc(t.ursprungsId||t.id)}</span>${felFlaggaHtml(t)}</div>
         <div class="tbody">${t.t||""}${kallRad(t)}</div>
         <div class="azone" id="answer-zone">
           <h3>Ditt svar</h3>
@@ -8003,6 +8320,12 @@ window.addEventListener("load",async()=>{
     render();
     if(nyInloggning) toast("Inloggad. Din träning synkas nu mellan enheterna.");
   }
+
+  /* Osända felrapporter från tidigare besök skickas i bakgrunden. */
+  felTommKo();
+
+  /* Lärarvyn: kunskapsgymmet.se/?felrapporter=1 */
+  if(new URLSearchParams(location.search).has("felrapporter")) oppnaFelrapportLogg();
 });
 
 document.addEventListener("visibilitychange",()=>{
